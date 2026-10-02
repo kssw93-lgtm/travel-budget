@@ -1,7 +1,7 @@
 import type { Classified } from './classify';
 import { isWeekend } from './dates';
 import { MODEL } from './model-config';
-import type { Category, Range, TravelStyle } from './types';
+import type { Basket, Range, TravelStyle } from './types';
 
 /** 모델 사용 우선 규칙: `예` 표본이 충분하면 `예`만, 아니면 `조건부` 표본까지 쓴다. */
 export function selectUsable(rows: Classified[]): Classified[] {
@@ -35,10 +35,10 @@ export function poolOnDate(
 }
 
 /** 1회 구매 기준 단가의 양 끝점(교통은 무제한권 일수로 1일 환산) */
-export function endpoints(rows: Classified[], category: Category): number[] {
+export function endpoints(rows: Classified[], basket: Basket): number[] {
   const pts: number[] = [];
   for (const r of rows) {
-    const div = category === 'transport' ? r.passDays : 1;
+    const div = basket === 'pass' ? r.passDays : 1;
     pts.push(r.sample.min / div, r.sample.max / div);
   }
   return pts.sort((a, b) => a - b);

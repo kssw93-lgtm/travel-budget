@@ -10,7 +10,11 @@ export const samples = samplesJson as PriceSample[];
 export const foods = foodsJson as FoodRecommendation[];
 export const dataMeta = metaJson as { source: string; sha256: string; sampleCount: number };
 
-/** 선택 목록에는 가격 표본이 1건이라도 있는 도시만 나온다(조사 대기 도시는 제외). */
-export const cities: City[] = allCities.filter((c) => samples.some((s) => s.cityId === c.id));
+/** 1차 화면에는 조사 단계가 '파일럿'인 도시만 노출한다. 2차 이후 도시는 데이터에 있어도 숨긴다. */
+export const PILOT_STAGE = '파일럿';
+export const cities: City[] = allCities.filter((c) => c.stage === PILOT_STAGE);
 
 export const cityById = (id: string): City | undefined => cities.find((c) => c.id === id);
+
+/** 가격 표본 중 가장 최근 확인일 */
+export const dataDate = samples.reduce((d, s) => (s.checkedAt > d ? s.checkedAt : d), '');

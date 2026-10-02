@@ -1,0 +1,88 @@
+import { useEffect, useMemo, useState } from 'react';
+import { estimateTrip } from '../core/estimate';
+import { cityById, cities, foods, samples } from '../data';
+import { useI18n } from '../i18n';
+import { AdSlot } from './AdSlot';
+import { FoodSection } from './FoodSection';
+import { parseForm, type FormState } from './form';
+import { RatesNotice, ResultView } from './ResultView';
+import { TripForm } from './TripForm';
+import { useRates } from './useRates';
+
+const today = () => {
+  const d = new Date();
+  const p = (n: number) => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+};
+
+function savedCurrency(): string | null {
+  try {
+    return localStorage.getItem('currency');
+  } catch {
+    return null;
+  }
+}
+
+export function Calculator() {
+  const { t, lang } = useI18n();
+  const rates = useRates();
+  const [form, setForm] = useState<FormState>(() => {
+    const currency = savedCurrency() ?? (lang === 'ko' ? 'KRW' : 'USD');
+    return {
+      cityId: cities[0]?.id ?? '',
+      visitDate: today(),
+      nights: '3',
+      adults: '2',
+      children: '0',
+      style: 'standard',
+      currency,
+      flight: '',
+      lodging: '',
+      directCurrency: currency,
+    };
+  });
+  const patch = (p: Partial<FormState>) => setForm((f) => ({ ...f, ...p }));
+
+  // 표시 통화를 고르면 기억해 둔다(언어와 독립)
+  useEffect(() => {
+    try {
+      localStorage.setItem('currency', form.currency);
+    } catch {
+      /* 저장소를 못 쓰는 환경 */
+    }
+  }, [form.currency]);
+
+  const parsed = useMemo(() => parseForm(form), [form]);
+  const city = cityById(form.cityId);
+  const estimate = useMemo(
+    () => (parsed.trip && city ? estimateTrip(parsed.trip, city, samples) : null),
+    [parsed.trip, city],
+  );
+
+  return (
+    <>
+      <section className="hero">
+        <h1>{t.home.title}</h1>
+        <p>{t.home.lead}</p>
+      </section>
+      <TripForm form={form} onChange={patch} errors={parsed.errors} cities={cities} rates={rates.status === 'ok' ? rates.data : null} />
+      <AdSlot name="after-form" />
+      {estimate && parsed.trip && city ? (
+        <>
+          <ResultView
+            estimate={estimate}
+            trip={parsed.trip}
+            city={city}
+            display={form.currency}
+            rates={rates}
+            samples={samples}
+            direct={{ ...parsed.direct, currency: form.directCurrency }}
+          />
+          <FoodSection city={city} foods={foods} samples={samples} display={form.currency} rates={rates} />
+        </>
+      ) : (
+        <RatesNotice rates={rates} display={form.currency} />
+      )}
+    </>
+  );
+}

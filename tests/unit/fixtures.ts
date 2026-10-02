@@ -17,14 +17,16 @@ export function sample(over: Partial<PriceSample> & Pick<PriceSample, 'category'
   };
 }
 
-const pass = (v: number) => sample({ category: 'transport', subtype: '무제한권', unit: '성인 1일', min: v });
-const meal = (v: number) => sample({ category: 'food', subtype: '중가 한끼', unit: '1그릇', min: v });
-const attr = (v: number) => sample({ category: 'attraction', subtype: '박물관', unit: '성인 1인', min: v });
-const gift = (v: number) => sample({ category: 'souvenir', subtype: '식품', unit: '1개', min: v });
+export const pass = (v: number) => sample({ category: 'transport', subtype: '무제한권', unit: '성인 1일', min: v });
+export const ride = (v: number) => sample({ category: 'transport', subtype: '시내버스', unit: '1회', min: v });
+export const meal = (v: number) => sample({ category: 'food', subtype: '중가 한끼', unit: '1그릇', min: v });
+export const snack = (v: number) => sample({ category: 'food', subtype: '간식', unit: '1개', min: v });
+export const attr = (v: number) => sample({ category: 'attraction', subtype: '박물관', unit: '성인 1인', min: v });
+export const gift = (v: number) => sample({ category: 'souvenir', subtype: '식품', unit: '1개', min: v });
 
-/** 손계산이 쉬운 기본 표본 세트: 교통 10·20, 식사 10·20·30, 관광 100·200, 기념품 5·15 */
+/** 손계산이 쉬운 기본 표본 세트(비용군마다 3건): 이용권 10·20·30, 식사 10·20·30, 입장권 100·200·300, 기념품 5·15·25 */
 export const baseSamples = (): PriceSample[] => [
-  pass(10), pass(20), meal(10), meal(20), meal(30), attr(100), attr(200), gift(5), gift(15),
+  pass(10), pass(20), pass(30), meal(10), meal(20), meal(30), attr(100), attr(200), attr(300), gift(5), gift(15), gift(25),
 ];
 
 /** 2026-11-04 는 수요일 */

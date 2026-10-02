@@ -4,6 +4,12 @@ export type SourceGrade = 'A' | 'B' | 'C' | 'D';
 export type ModelUse = 'yes' | 'conditional' | 'no';
 export type TravelStyle = 'budget' | 'standard' | 'comfort';
 
+/**
+ * 가격 바스켓: 단위가 같은 표본끼리만 묶는 계산 단위. 서로 다른 바스켓의 가격은 한 분포로 섞지 않는다.
+ * pass=하루(N시간) 이용권, ride=1회권, meal=한 끼 식사, snack=간식·음료, attraction=입장권, souvenir=기념품
+ */
+export type Basket = 'pass' | 'ride' | 'meal' | 'snack' | 'attraction' | 'souvenir';
+
 export interface PriceSample {
   id: string;
   cityId: string;
@@ -89,11 +95,13 @@ export type WarningCode =
   | 'dateResolved'
   | 'dateExcluded'
   | 'variablePricing'
-  | 'lowFillRate';
+  | 'lowFillRate'
+  | 'basketOmitted';
 
 export interface Warning {
   code: WarningCode;
   category?: Category;
+  basket?: Basket;
   /** 관련 표본 ID */
   ids?: string[];
 }
@@ -103,8 +111,20 @@ export interface SourceRef {
   url: string;
 }
 
+export interface BasketEstimate {
+  basket: Basket;
+  /** 성인 기준 사용 가능 표본 수 */
+  sampleCount: number;
+  childSampleCount: number;
+  /** 표본 수가 최소 기준 이상 */
+  sufficient: boolean;
+  /** 실제로 합계에 반영됨 */
+  included: boolean;
+}
+
 export interface CategoryEstimate {
   category: Category;
+  baskets: BasketEstimate[];
   /** 현지 통화 합계 범위(전 일정·전 인원). 데이터 부족이면 null */
   total: Range | null;
   /** 1인 1일 기준 단가 범위(전체 일정 평균). 데이터 부족이면 null */

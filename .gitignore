@@ -5,3 +5,5 @@ playwright-report/
 test-results/
 *.tsbuildinfo
 .dev.vars
+dist-e2e/
+tests/e2e/.fixture/

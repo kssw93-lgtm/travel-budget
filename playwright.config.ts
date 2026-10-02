@@ -19,8 +19,8 @@ export default defineConfig({
   reporter: process.env.CI ? [['list'], ['html', { open: 'never' }]] : 'list',
   use: { baseURL: 'http://127.0.0.1:4173', locale: 'ko-KR', launchOptions, trace: 'retain-on-failure' },
   webServer: {
-    command:
-      'tsx tests/e2e/make-fixture.ts && vite build --mode e2e --outDir dist-e2e --emptyOutDir && vite preview --outDir dist-e2e --host 127.0.0.1 --strictPort',
+    // 배포와 같은 빌드(실제 가격 데이터만)를 띄워 검사한다
+    command: 'vite build && vite preview --host 127.0.0.1 --strictPort',
     url: 'http://127.0.0.1:4173',
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,

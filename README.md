@@ -29,7 +29,7 @@ npm run deploy:check   # 빌드 + wrangler deploy --dry-run (실제 배포 안 �
 
 e2e 는 데스크톱(1280px)·모바일 375px·320px 세 뷰포트에서 핵심 흐름, axe 접근성(WCAG 2.1 AA), 브라우저 콘솔 오류 0건,
 URL 상태 보존, 언어/통화 독립, 환율 장애, 광고 자리 CLS, SEO 메타, 방법론·출처 링크를 검사합니다.
-"계산 가능" 흐름은 e2e 빌드에서만 타이베이에 `TPE-TEST-*` 테스트 표본을 얹어 검증하며, 이 표본은 배포 빌드에 들어가지 않습니다.
+e2e 는 배포와 같은 빌드(실제 가격 데이터만)로 실행합니다. 테스트 전용 가짜 가격은 없습니다.
 
 GitHub Actions(`.github/workflows/ci.yml`)가 push·PR 마다 같은 순서로 실행합니다. 실제 배포 단계는 없습니다.
 
@@ -37,9 +37,11 @@ GitHub Actions(`.github/workflows/ci.yml`)가 push·PR 마다 같은 순서로 �
 
 ## 가격 데이터 교체 방법
 
-1. 새 `조사자료.xlsx` 를 `data/source/` 에 덮어씁니다. (원본 엑셀은 읽기만 하며 수정하지 않습니다.)
+1. 새 버전 엑셀을 `data/source/` 에 **새 파일로 추가**하고, `data/source/latest.json` 의 `version`·`file`·`date` 를 그 파일로 바꿉니다.
+   이전 버전 파일은 기록용으로 그대로 둡니다. (원본 엑셀은 읽기만 하며 수정하지 않습니다.)
+   현재 최신: `travel_cost_research_pilot_v0.2_2026-10-02.xlsx` (v0.2, 가격 표본 130건). 이전: v0.1(77건).
 2. `npm run data:convert` — 머리글 이름으로 열을 찾아 `src/data/generated/*.json` 을 다시 만듭니다.
-   형식 오류(숫자 아닌 가격, 알 수 없는 도시, 없는 연결 가격 ID 등)가 있으면 실패하고, 분류하지 못한 세부유형은 경고로 알려줍니다.
+   `latest.json` 이 가리키는 파일을 읽으며, 결과 `meta.json` 에 원본 파일명·버전이 기록됩니다. 형식 오류(숫자 아닌 가격, 알 수 없는 도시, 없는 연결 가격 ID 등)가 있으면 실패하고, 분류하지 못한 세부유형은 경고로 알려줍니다.
    파일럿 도시 판정(`status.json`)도 이때 자동으로 다시 계산되고 콘솔에 표로 출력됩니다.
 3. 코드 수정 없이 결과가 바뀝니다. 도시 판정이 달라졌다면 고정 테스트(`tests/unit/city-status.test.ts`)가 실패해 변화를 보여주므로,
    확인 후 `npm run status:update` 로 갱신해 함께 커밋합니다. 영어 음식 추천 이유는 `data/overlays/food-reasons-en.json` 에 있습니다.

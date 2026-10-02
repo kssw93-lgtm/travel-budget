@@ -79,10 +79,12 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
   const edge = EDGE_WEIGHTED.includes(basket);
   const hasChildPool = childRows.length > 0;
 
-  const priceDay = (pool: Classified[], date: string): Range | null => {
+  // 성인 가격은 그날 유효한 독립 표본이 최소 기준 이상일 때만 낸다(판매 기간이 끝난 표본이 빠지면 부족이 될 수 있음).
+  // 어린이 가격은 표본이 하나라도 있으면 쓰고, 없으면 성인 가격으로 대신한다.
+  const priceDay = (pool: Classified[], date: string, minIndependent = 1): Range | null => {
     const day = poolOnDate(pool, date);
     day.excludedByDate.forEach((id) => excluded.add(id));
-    if (day.rows.length === 0) return null;
+    if (day.rows.length === 0 || independentCount(day.rows) < minIndependent) return null;
     day.resolvedVariants.forEach((id) => resolved.add(id));
     day.rows.forEach((r) => used.set(r.sample.id, r));
     return styleRange(endpoints(day.rows, basket), input.style);
@@ -91,12 +93,12 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
   let total: Range = ZERO;
   if (basket === 'souvenir') {
     // 기념품은 여행 전체 기준: 성인 1인당 구매 개수 × 단가(어린이는 구매하지 않는 것으로 가정)
-    const unit = priceDay(adultRows, dates[0] as string);
+    const unit = priceDay(adultRows, dates[0] as string, MODEL.minSamplesPerCategory);
     if (!unit) run.sufficient = false;
     else total = scale(unit, perUse * input.adults);
   } else {
     for (const [i, date] of dates.entries()) {
-      const adult = priceDay(adultRows, date);
+      const adult = priceDay(adultRows, date, MODEL.minSamplesPerCategory);
       if (!adult) {
         run.sufficient = false;
         break;
@@ -148,7 +150,11 @@ function estimateCategory(
           };
   }
 
-  if (!requiredOk) warnings.push({ category, code: 'insufficient' });
+  if (!requiredOk) {
+    warnings.push({ category, code: 'insufficient' });
+    const dated = runs.flatMap((r) => r.excludedByDate);
+    if (dated.length) warnings.push({ category, code: 'dateExcluded', ids: [...new Set(dated)] });
+  }
   for (const r of runs) {
     // 표본이 있는데 최소 기준에 못 미쳐 빠진 바스켓은 조용히 넘기지 않고 알린다
     if (requiredOk && !r.sufficient && r.adultCount > 0) warnings.push({ category, code: 'basketOmitted', basket: r.basket });

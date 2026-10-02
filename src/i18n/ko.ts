@@ -166,7 +166,7 @@ export const ko = {
     } as Record<string, string>,
     sourcesTitle: '가격 출처',
     sourcesLead: '도시별로 사용한 출처 링크입니다.',
-    dataFile: '가격 자료: {file} (검증 지문 {hash}, 표본 {n}건)',
+    dataFile: '가격 자료: {file} ({version}, 검증 지문 {hash}, 표본 {n}건)',
   },
 };
 

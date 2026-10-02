@@ -167,6 +167,6 @@ export const en: Messages = {
     },
     sourcesTitle: 'Price sources',
     sourcesLead: 'Source links used for each city.',
-    dataFile: 'Price data: {file} (checksum {hash}, {n} samples)',
+    dataFile: 'Price data: {file} ({version}, checksum {hash}, {n} samples)',
   },
 };

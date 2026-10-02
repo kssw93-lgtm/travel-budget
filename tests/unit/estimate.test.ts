@@ -134,6 +134,15 @@ describe('독립 표본(같은 출처의 용량·기간 변형 과대 계산 방
     expect(e.missing).toContain('transport');
   });
 
+  it('같은 상품의 성인·아동 가격은 성인 표본 수를 늘리지 않는다', () => {
+    const adultChild = (target: string, unit: string, v: number) =>
+      sample({ category: 'attraction', subtype: '정원', sourceUrl: 'https://garden.example', nameKo: '플라워돔', nameEn: 'Flower Dome', target, unit, min: v });
+    const rows = [...without(baseSamples(), 'attraction'), attr(100), adultChild('비거주자', '비거주 성인 1인', 46), adultChild('아동 3-12', '비거주 아동 1인', 32)];
+    const e = estimateTrip(trip(), city, rows);
+    expect(e.categories.attraction.independentCount).toBe(2);
+    expect(e.categories.attraction.sufficient).toBe(false);
+  });
+
   it('같은 상품의 용량 차이(4개입·8개입)도 1건으로 센다', () => {
     const box = (n: number, v: number) => sample({ category: 'souvenir', subtype: '식품', unit: '1상자', sourceUrl: 'https://banana.example/p/28', nameKo: `바나나 과자 ${n}개입`, nameEn: `Banana Cake ${n} pcs`, min: v });
     const rows = [...without(baseSamples(), 'souvenir'), box(4, 691), box(8, 1296), box(12, 1800)];
@@ -335,6 +344,19 @@ describe('방문일 반영(날짜에 따라 달라지는 항목만)', () => {
     ];
     expect(estimateTrip(trip(), city, seasonal).categories.food.sufficient).toBe(false);
     expect(estimateTrip(trip({ visitDate: '2027-02-01' }), city, seasonal).categories.food.sufficient).toBe(true);
+  });
+
+  it('방문일에 유효한 독립 표본이 최소 기준 미만이 되면 부족으로 처리하고 이유를 알린다', () => {
+    const rows = [
+      ...without(baseSamples(), 'food'),
+      meal(10),
+      meal(20),
+      sample({ category: 'food', subtype: '중가 한끼', min: 30, validFrom: '2026-10-01', validTo: '2027-06-30' }),
+    ];
+    expect(estimateTrip(trip({ visitDate: '2026-11-04' }), city, rows).categories.food.sufficient).toBe(true);
+    const after = estimateTrip(trip({ visitDate: '2027-08-01' }), city, rows);
+    expect(after.categories.food.sufficient).toBe(false);
+    expect(after.warnings.filter((w) => w.category === 'food').map((w) => w.code)).toEqual(['insufficient', 'dateExcluded']);
   });
 
   it('고정형 가격에는 방문일이 영향을 주지 않고, 전체에 성수기 배수를 곱하지 않는다', () => {

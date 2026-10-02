@@ -134,7 +134,7 @@ export function Methodology() {
           </ul>
         </details>
       ))}
-      <p className="hint">{fmt(m.dataFile, { file: dataMeta.source, hash: dataMeta.sha256, n: dataMeta.sampleCount })}</p>
+      <p className="hint">{fmt(m.dataFile, { file: dataMeta.source, version: dataMeta.version, hash: dataMeta.sha256, n: dataMeta.sampleCount })}</p>
     </article>
   );
 }

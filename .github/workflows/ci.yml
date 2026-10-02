@@ -31,12 +31,12 @@ jobs:
       - name: Install
         run: npm ci
 
-      # 조사 엑셀 → 개발용 JSON. 커밋된 JSON·도시 판정(status.json)이 엑셀과 다르면 실패한다.
+      # 최신 조사 엑셀(data/source/latest.json) → 운영 JSON. 커밋된 JSON·도시 판정(status.json)이 엑셀과 다르면 실패한다.
       - name: data:convert
         run: |
           npm run data:convert
           git diff --exit-code -- src/data/generated || {
-            echo "::error::src/data/generated 가 data/source/조사자료.xlsx 와 맞지 않습니다. npm run data:convert 결과를 커밋하세요."
+            echo "::error::src/data/generated 가 data/source/latest.json 이 가리키는 최신 엑셀과 맞지 않습니다. npm run data:convert 결과를 커밋하세요."
             exit 1
           }
 

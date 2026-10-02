@@ -22,6 +22,18 @@ interface Props {
 
 const sumRange = (a: Range, b: Range): Range => ({ min: a.min + b.min, max: a.max + b.max });
 
+/** 출처 이름이 같고 주소가 다르면 "Danabus 1, Danabus 2" 처럼 번호를 붙여 서로 다른 근거임을 보이게 한다 */
+export function numberedSources(sources: { name: string; url: string }[]): { label: string; url: string }[] {
+  const total = new Map<string, number>();
+  sources.forEach((s) => total.set(s.name, (total.get(s.name) ?? 0) + 1));
+  const seen = new Map<string, number>();
+  return sources.map((s) => {
+    const n = (seen.get(s.name) ?? 0) + 1;
+    seen.set(s.name, n);
+    return { url: s.url, label: (total.get(s.name) ?? 1) > 1 ? `${s.name} ${n}` : s.name };
+  });
+}
+
 function AmountRows({ range, local, display, rates }: { range: Range | null; local: string; display: string; rates: RatesState }) {
   const { t } = useI18n();
   const r = rates.status === 'ok' ? rates.data : null;
@@ -200,7 +212,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
                 </span>
               </summary>
               <ul className="baskets" data-testid={`baskets-${c}`}>
-                {est.baskets.map((b) => (
+                {est.baskets.filter((b) => b.sampleCount > 0 || b.included).map((b) => (
                   <li key={b.basket} data-basket={b.basket}>
                     {fmt(t.result.basketLine, { name: t.baskets[b.basket] ?? b.basket, n: b.sampleCount, ind: b.independentCount })} ·{' '}
                     <span className={b.included ? '' : 'muted'}>{b.included ? t.result.included : t.result.notIncluded}</span>
@@ -217,10 +229,10 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
               {est.sources.length > 0 ? (
                 <p>
                   {t.result.sources}:{' '}
-                  {est.sources.map((s, i) => (
-                    <span key={`${s.name}${s.url}`}>
+                  {numberedSources(est.sources).map((s, i) => (
+                    <span key={s.url + i}>
                       {i > 0 && ', '}
-                      <ExternalLink href={s.url}>{s.name}</ExternalLink>
+                      <ExternalLink href={s.url}>{s.label}</ExternalLink>
                     </span>
                   ))}
                 </p>

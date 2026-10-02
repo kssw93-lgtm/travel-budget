@@ -1,5 +1,7 @@
 {
-  "source": "조사자료.xlsx",
-  "sha256": "de134a4494d31c28",
-  "sampleCount": 77
+  "source": "travel_cost_research_pilot_v0.2_2026-10-02.xlsx",
+  "version": "v0.2",
+  "date": "2026-10-02",
+  "sha256": "7dc723faef5e8f3b",
+  "sampleCount": 130
 }

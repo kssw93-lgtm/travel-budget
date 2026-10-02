@@ -1,13 +1,14 @@
 /**
- * 조사자료.xlsx → 개발용 JSON 변환.
+ * 조사 엑셀 → 운영 JSON 변환.
  * 원본 엑셀은 읽기만 하고 수정하지 않는다. 열은 위치가 아니라 머리글 이름으로 찾으므로
  * 열 순서가 바뀌거나 행이 늘어도 그대로 동작한다.
  *
+ * 기본 입력은 data/source/latest.json 이 가리키는 최신 버전 엑셀이다.
  * 사용: npm run data:convert [-- <xlsx 경로>]
  */
 import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
-import { dirname, resolve } from 'node:path';
+import { basename, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as XLSX from 'xlsx';
 import { classify } from '../src/core/classify';
@@ -15,7 +16,9 @@ import { cityStatus } from '../src/core/estimate';
 import type { Category, City, FoodRecommendation, ModelUse, PriceSample, SourceGrade } from '../src/core/types';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const xlsxPath = resolve(process.argv[2] ?? `${root}/data/source/조사자료.xlsx`);
+const latest = JSON.parse(readFileSync(`${root}/data/source/latest.json`, 'utf8')) as { version: string; file: string; date: string };
+const xlsxPath = resolve(process.argv[2] ?? `${root}/data/source/${latest.file}`);
+const usingLatest = !process.argv[2];
 const outDir = `${root}/src/data/generated`;
 
 const CATEGORY: Record<string, Category> = { 교통: 'transport', 외식: 'food', 관광: 'attraction', 기념품: 'souvenir' };
@@ -186,7 +189,9 @@ function main() {
   }
 
   const meta = {
-    source: '조사자료.xlsx',
+    source: basename(xlsxPath),
+    version: usingLatest ? latest.version : 'custom',
+    date: usingLatest ? latest.date : '',
     sha256: createHash('sha256').update(readFileSync(xlsxPath)).digest('hex').slice(0, 16),
     sampleCount: samples.length,
   };
@@ -202,6 +207,7 @@ function main() {
   const status = Object.fromEntries(pilot.map((c) => [c.id, cityStatus(c, samples)]));
   write('status', status);
 
+  console.log(`원본: ${meta.source} (${meta.version})`);
   console.log(`도시 ${cities.length} · 가격 표본 ${samples.length} · 음식 추천 ${foods.length} → ${outDir}`);
   console.log('\n파일럿 도시 판정 (독립 표본: 외식/교통/관광/기념품)');
   for (const c of pilot) {

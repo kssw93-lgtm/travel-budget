@@ -28,8 +28,9 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(page.getByTestId('quality')).toContainText('사용 표본');
     // 단위가 다른 가격은 유형별 바스켓으로 나뉘어 표시된다
     await expect(page.getByTestId('baskets-food')).toContainText('식사');
-    await expect(page.getByTestId('baskets-transport').locator('[data-basket="pass"]')).toContainText('1일 이용권');
-    await expect(page.getByTestId('baskets-transport').locator('[data-basket="ride"]')).toContainText('제외');
+    // 타이베이 MRT 1일·24·48시간권은 같은 상품이라 독립 1건 → 1일권 바스켓 제외, 1회권 바스켓으로 계산
+    await expect(page.getByTestId('baskets-transport').locator('[data-basket="pass"]')).toContainText('1일 이용권 독립 1건 (가격 3건) · 제외');
+    await expect(page.getByTestId('baskets-transport').locator('[data-basket="ride"]')).toContainText('1회권 독립 3건 (가격 3건) · 합계에 반영');
     await expect(page.getByTestId('quality').getByRole('link').first()).toHaveAttribute('href', /^https?:\/\//);
     await expect(page.getByTestId('rates-info')).toContainText('2026-10-02');
     await expect(page.getByTestId('rates-info')).toContainText('Test Rates');
@@ -75,15 +76,37 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(page.getByTestId('total')).not.toHaveText(before);
   });
 
-  test('데이터가 부족한 도시: 억지 금액 없이 부족 항목을 표시', async ({ page }) => {
+  test('8개 파일럿 도시 모두 실제 데이터로 전체 합계가 나온다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/');
+    for (const city of ['tokyo', 'osaka', 'bangkok', 'da-nang', 'taipei', 'singapore', 'paris', 'london']) {
+      await fillTrip(page, { city });
+      await expect(page.getByTestId('total'), city).toBeVisible();
+      await expect(page.getByTestId('hold'), city).toHaveCount(0);
+      await expect(page.getByTestId('quality'), city).toContainText('사용 표본');
+    }
+  });
+
+  test('부족 상태: 방문일에 유효한 표본이 모자라면 억지 금액 없이 부족 항목을 표시', async ({ page }) => {
+    // 실제 데이터: 도쿄 식사 표본 중 TYO-FD-003 은 2027-06-30 까지 판매 → 이후 방문은 식사 독립 표본 2건
+    await mockRates(page);
+    await page.goto('/');
+    await fillTrip(page, { city: 'tokyo', date: '2027-08-02' });
+    await expect(page.getByTestId('hold')).toContainText('충분하지 않습니다');
+    await expect(page.getByTestId('hold')).toContainText('부족한 항목: 외식');
+    await expect(page.getByTestId('total')).toHaveCount(0);
+    await expect(page.locator('tr[data-category="food"]')).toContainText('데이터 부족');
+    await expect(page.locator('tr[data-category="contingency"]')).toHaveCount(0);
+    await expect(page.getByTestId('quality').locator('[data-category="food"]')).toContainText('유효 기간 밖');
+  });
+
+  test('조건부·부족 바스켓 경고가 결과에 표시된다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/');
     await fillTrip(page, { city: 'singapore' });
-    await expect(page.getByTestId('hold')).toContainText('충분하지 않습니다');
-    await expect(page.getByTestId('hold')).toContainText('부족한 항목');
-    await expect(page.getByTestId('total')).toHaveCount(0);
-    await expect(page.locator('tr[data-category="attraction"]')).toContainText('데이터 부족');
-    await expect(page.locator('tr[data-category="contingency"]')).toHaveCount(0);
+    const q = page.getByTestId('quality');
+    await expect(q.locator('[data-category="food"]')).toContainText('"조건부"');
+    await expect(q.locator('[data-category="food"]')).toContainText('간식·음료은(는) 표본이 3건 미만');
   });
 
   test('항공권·숙박을 직접 입력하면 합산된다', async ({ page }) => {
@@ -147,8 +170,10 @@ test.describe('방법론·출처 페이지', () => {
     await page.goto('/methodology');
     await expect(page.getByRole('heading', { level: 1 })).toContainText('방법론');
     await expect(page.getByTestId('status-table').locator('tbody tr')).toHaveCount(8);
-    await expect(page.locator('[data-city="taipei"]')).toContainText('계산 가능');
-    await expect(page.locator('[data-city="singapore"]')).toContainText('표본 보강 필요');
+    for (const city of ['tokyo', 'osaka', 'bangkok', 'da-nang', 'taipei', 'singapore', 'paris', 'london']) {
+      await expect(page.locator(`[data-city="${city}"]`)).toContainText('계산 가능');
+    }
+    await expect(page.locator('main')).toContainText('v0.2');
     await expect(page.getByTestId('excluded-table')).toContainText('DAD-FD-003');
     await page.getByRole('navigation').getByRole('link', { name: '계산기' }).click();
     await expect(page).toHaveURL(/127\.0\.0\.1:4173\/\?lang=ko/);

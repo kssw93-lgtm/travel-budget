@@ -12,7 +12,7 @@ export const samples = samplesJson as PriceSample[];
 export const foods = foodsJson as FoodRecommendation[];
 /** data:convert 가 만든 파일럿 도시 판정(엑셀 교체 시 자동 갱신) */
 export const cityStatusFile = statusJson as unknown as Record<string, CityStatus>;
-export const dataMeta = metaJson as { source: string; sha256: string; sampleCount: number };
+export const dataMeta = metaJson as { source: string; version: string; date: string; sha256: string; sampleCount: number };
 
 /** 1차 화면에는 조사 단계가 '파일럿'인 도시만 노출한다. 2차 이후 도시는 데이터에 있어도 숨긴다. */
 export const PILOT_STAGE = '파일럿';

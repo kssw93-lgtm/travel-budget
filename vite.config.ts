@@ -2,16 +2,6 @@ import { resolve } from 'node:path';
 import { defineConfig, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
 
-/** e2e 모드 빌드에서만 가격 표본 JSON 을 테스트용 파일로 바꾼다(tests/e2e/make-fixture.ts 가 생성). */
-const e2eFixture = (): Plugin => ({
-  name: 'e2e-fixture-data',
-  enforce: 'pre',
-  resolveId(source) {
-    if (/generated\/samples\.json$/.test(source)) return resolve(__dirname, 'tests/e2e/.fixture/samples.json');
-    return null;
-  },
-});
-
 /**
  * SEO 보조 파일. 사이트 주소(SITE_URL, 예: https://example.com)가 있으면 canonical·hreflang·og:url 과
  * sitemap.xml 을 만들고, 없으면 robots.txt 만 만든다(주소를 지어내지 않는다).
@@ -56,8 +46,8 @@ const seo = (siteUrl: string | undefined): Plugin => {
 };
 
 // 개발 중에는 `npm run dev:worker`(wrangler dev, 8787)로 /api/* 를 프록시한다.
-export default defineConfig(({ mode }) => ({
-  plugins: [react(), seo(process.env.SITE_URL), ...(mode === 'e2e' ? [e2eFixture()] : [])],
+export default defineConfig(() => ({
+  plugins: [react(), seo(process.env.SITE_URL)],
   build: {
     rollupOptions: {
       input: { main: resolve(__dirname, 'index.html'), methodology: resolve(__dirname, 'methodology.html') },

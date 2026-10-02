@@ -7,7 +7,7 @@ const axe = (page: Page) => new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2a
 test.describe('접근성(axe, WCAG 2.1 AA)', () => {
   const cases: Array<[string, (p: Page) => Promise<void>]> = [
     ['계산기 · 계산 가능 결과', async (p) => { await p.goto('/'); await fillTrip(p); await expect(p.getByTestId('total')).toBeVisible(); }],
-    ['계산기 · 데이터 부족 결과', async (p) => { await p.goto('/'); await fillTrip(p, { city: 'london' }); await expect(p.getByTestId('hold')).toBeVisible(); }],
+    ['계산기 · 데이터 부족 결과', async (p) => { await p.goto('/'); await fillTrip(p, { city: 'tokyo', date: '2027-08-02' }); await expect(p.getByTestId('hold')).toBeVisible(); }],
     ['계산기 · 입력 오류', async (p) => { await p.goto('/'); await fillTrip(p, { nights: '0' }); await expect(p.locator('#err-nights')).toBeVisible(); }],
     ['방법론', async (p) => { await p.goto('/methodology'); await expect(p.getByTestId('status-table')).toBeVisible(); }],
   ];
@@ -153,7 +153,7 @@ test.describe('방법론·출처 링크', () => {
   test('결과 화면에서 계산 방법·데이터 현황·출처 위치로 바로 이동한다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/');
-    await fillTrip(page, { city: 'london' });
+    await fillTrip(page, { city: 'tokyo', date: '2027-08-02' });
     await page.getByRole('link', { name: '도시별 데이터 현황 보기' }).click();
     await expect(page).toHaveURL(/\/methodology\?lang=ko#status$/);
     await expect(page.locator('#status')).toBeInViewport();

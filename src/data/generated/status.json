@@ -2,250 +2,217 @@
   "tokyo": {
     "counts": {
       "food": 3,
-      "transport": 1,
-      "attraction": 1,
-      "souvenir": 1
+      "transport": 3,
+      "attraction": 3,
+      "souvenir": 3
     },
     "baskets": {
       "pass": 1,
-      "ride": 0,
+      "ride": 3,
       "meal": 3,
       "snack": 0,
-      "attraction": 1,
-      "souvenir": 1
+      "attraction": 3,
+      "souvenir": 3
     },
     "basketRows": {
       "pass": 3,
-      "ride": 0,
+      "ride": 3,
       "meal": 3,
       "snack": 0,
-      "attraction": 1,
-      "souvenir": 2
+      "attraction": 3,
+      "souvenir": 4
     },
-    "fillRate": 0.5,
-    "missing": [
-      "transport",
-      "attraction",
-      "souvenir"
-    ],
-    "computable": false
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
   },
   "osaka": {
     "counts": {
-      "food": 1,
-      "transport": 1,
+      "food": 3,
+      "transport": 3,
       "attraction": 3,
-      "souvenir": 2
+      "souvenir": 3
     },
     "baskets": {
       "pass": 1,
-      "ride": 0,
-      "meal": 1,
-      "snack": 1,
-      "attraction": 3,
-      "souvenir": 2
-    },
-    "basketRows": {
-      "pass": 2,
-      "ride": 0,
-      "meal": 1,
+      "ride": 3,
+      "meal": 3,
       "snack": 1,
       "attraction": 3,
       "souvenir": 3
     },
-    "fillRate": 0.58,
-    "missing": [
-      "food",
-      "transport",
-      "souvenir"
-    ],
-    "computable": false
+    "basketRows": {
+      "pass": 2,
+      "ride": 3,
+      "meal": 3,
+      "snack": 1,
+      "attraction": 3,
+      "souvenir": 4
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
   },
   "bangkok": {
     "counts": {
       "food": 3,
-      "transport": 1,
-      "attraction": 2,
-      "souvenir": 2
+      "transport": 3,
+      "attraction": 3,
+      "souvenir": 3
     },
     "baskets": {
       "pass": 1,
-      "ride": 0,
+      "ride": 3,
       "meal": 3,
       "snack": 0,
-      "attraction": 2,
-      "souvenir": 2
+      "attraction": 3,
+      "souvenir": 3
     },
     "basketRows": {
       "pass": 1,
-      "ride": 0,
+      "ride": 3,
       "meal": 3,
       "snack": 0,
-      "attraction": 2,
-      "souvenir": 2
+      "attraction": 3,
+      "souvenir": 3
     },
-    "fillRate": 0.67,
-    "missing": [
-      "transport",
-      "attraction",
-      "souvenir"
-    ],
-    "computable": false
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
   },
   "da-nang": {
     "counts": {
-      "food": 2,
-      "transport": 0,
+      "food": 3,
+      "transport": 3,
       "attraction": 3,
-      "souvenir": 0
+      "souvenir": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 0,
-      "meal": 2,
+      "ride": 3,
+      "meal": 3,
       "snack": 0,
       "attraction": 3,
-      "souvenir": 0
+      "souvenir": 3
     },
     "basketRows": {
       "pass": 0,
-      "ride": 0,
-      "meal": 2,
+      "ride": 3,
+      "meal": 3,
       "snack": 0,
       "attraction": 3,
-      "souvenir": 0
+      "souvenir": 3
     },
-    "fillRate": 0.42,
-    "missing": [
-      "food",
-      "transport",
-      "souvenir"
-    ],
-    "computable": false
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
   },
   "taipei": {
     "counts": {
-      "food": 2,
-      "transport": 1,
-      "attraction": 2,
-      "souvenir": 1
+      "food": 3,
+      "transport": 3,
+      "attraction": 3,
+      "souvenir": 3
     },
     "baskets": {
       "pass": 1,
-      "ride": 0,
-      "meal": 2,
+      "ride": 3,
+      "meal": 3,
       "snack": 0,
-      "attraction": 2,
-      "souvenir": 1
+      "attraction": 3,
+      "souvenir": 3
     },
     "basketRows": {
       "pass": 3,
-      "ride": 0,
-      "meal": 2,
+      "ride": 3,
+      "meal": 3,
       "snack": 0,
-      "attraction": 2,
-      "souvenir": 2
+      "attraction": 3,
+      "souvenir": 4
     },
-    "fillRate": 0.5,
-    "missing": [
-      "food",
-      "transport",
-      "attraction",
-      "souvenir"
-    ],
-    "computable": false
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
   },
   "singapore": {
     "counts": {
-      "food": 2,
-      "transport": 1,
-      "attraction": 1,
-      "souvenir": 1
+      "food": 3,
+      "transport": 3,
+      "attraction": 3,
+      "souvenir": 3
     },
     "baskets": {
       "pass": 1,
-      "ride": 0,
-      "meal": 2,
+      "ride": 3,
+      "meal": 3,
       "snack": 2,
-      "attraction": 1,
-      "souvenir": 1
+      "attraction": 3,
+      "souvenir": 3
     },
     "basketRows": {
       "pass": 1,
-      "ride": 0,
-      "meal": 2,
+      "ride": 3,
+      "meal": 3,
       "snack": 2,
-      "attraction": 1,
-      "souvenir": 1
+      "attraction": 3,
+      "souvenir": 3
     },
-    "fillRate": 0.42,
-    "missing": [
-      "food",
-      "transport",
-      "attraction",
-      "souvenir"
-    ],
-    "computable": false
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
   },
   "paris": {
     "counts": {
-      "food": 1,
-      "transport": 1,
+      "food": 3,
+      "transport": 3,
       "attraction": 4,
       "souvenir": 3
     },
     "baskets": {
       "pass": 1,
-      "ride": 0,
-      "meal": 1,
+      "ride": 3,
+      "meal": 3,
       "snack": 0,
       "attraction": 4,
       "souvenir": 3
     },
     "basketRows": {
       "pass": 1,
-      "ride": 0,
-      "meal": 1,
+      "ride": 3,
+      "meal": 3,
       "snack": 0,
       "attraction": 4,
       "souvenir": 3
     },
-    "fillRate": 0.67,
-    "missing": [
-      "food",
-      "transport"
-    ],
-    "computable": false
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
   },
   "london": {
     "counts": {
-      "food": 0,
-      "transport": 1,
+      "food": 3,
+      "transport": 3,
       "attraction": 3,
-      "souvenir": 1
+      "souvenir": 3
     },
     "baskets": {
       "pass": 1,
-      "ride": 0,
-      "meal": 0,
+      "ride": 3,
+      "meal": 3,
       "snack": 0,
       "attraction": 3,
-      "souvenir": 1
+      "souvenir": 3
     },
     "basketRows": {
       "pass": 1,
-      "ride": 0,
-      "meal": 0,
+      "ride": 3,
+      "meal": 3,
       "snack": 0,
       "attraction": 3,
-      "souvenir": 1
+      "souvenir": 3
     },
-    "fillRate": 0.42,
-    "missing": [
-      "food",
-      "transport",
-      "souvenir"
-    ],
-    "computable": false
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
   }
 }

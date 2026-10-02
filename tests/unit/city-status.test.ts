@@ -24,14 +24,14 @@ describe('파일럿 도시 데이터 상태', () => {
     );
     expect(table).toMatchInlineSnapshot(`
       {
-        "bangkok": "3/1/2/2 · 67% · hold: transport, attraction, souvenir",
-        "da-nang": "2/0/3/0 · 42% · hold: food, transport, souvenir",
-        "london": "0/1/3/1 · 42% · hold: food, transport, souvenir",
-        "osaka": "1/1/3/2 · 58% · hold: food, transport, souvenir",
-        "paris": "1/1/4/3 · 67% · hold: food, transport",
-        "singapore": "2/1/1/1 · 42% · hold: food, transport, attraction, souvenir",
-        "taipei": "2/1/2/1 · 50% · hold: food, transport, attraction, souvenir",
-        "tokyo": "3/1/1/1 · 50% · hold: transport, attraction, souvenir",
+        "bangkok": "3/3/3/3 · 100% · ready",
+        "da-nang": "3/3/3/3 · 100% · ready",
+        "london": "3/3/3/3 · 100% · ready",
+        "osaka": "3/3/3/3 · 100% · ready",
+        "paris": "3/3/4/3 · 100% · ready",
+        "singapore": "3/3/3/3 · 100% · ready",
+        "taipei": "3/3/3/3 · 100% · ready",
+        "tokyo": "3/3/3/3 · 100% · ready",
       }
     `);
   });
@@ -46,14 +46,14 @@ describe('파일럿 도시 데이터 상태', () => {
     );
     expect(table).toMatchInlineSnapshot(`
       {
-        "bangkok": "pass 1/1 · ride 0/0 · meal 3/3 · snack 0/0 · attraction 2/2 · souvenir 2/2",
-        "da-nang": "pass 0/0 · ride 0/0 · meal 2/2 · snack 0/0 · attraction 3/3 · souvenir 0/0",
-        "london": "pass 1/1 · ride 0/0 · meal 0/0 · snack 0/0 · attraction 3/3 · souvenir 1/1",
-        "osaka": "pass 1/2 · ride 0/0 · meal 1/1 · snack 1/1 · attraction 3/3 · souvenir 2/3",
-        "paris": "pass 1/1 · ride 0/0 · meal 1/1 · snack 0/0 · attraction 4/4 · souvenir 3/3",
-        "singapore": "pass 1/1 · ride 0/0 · meal 2/2 · snack 2/2 · attraction 1/1 · souvenir 1/1",
-        "taipei": "pass 1/3 · ride 0/0 · meal 2/2 · snack 0/0 · attraction 2/2 · souvenir 1/2",
-        "tokyo": "pass 1/3 · ride 0/0 · meal 3/3 · snack 0/0 · attraction 1/1 · souvenir 1/2",
+        "bangkok": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/3 · souvenir 3/3",
+        "da-nang": "pass 0/0 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/3 · souvenir 3/3",
+        "london": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/3 · souvenir 3/3",
+        "osaka": "pass 1/2 · ride 3/3 · meal 3/3 · snack 1/1 · attraction 3/3 · souvenir 3/4",
+        "paris": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 4/4 · souvenir 3/3",
+        "singapore": "pass 1/1 · ride 3/3 · meal 3/3 · snack 2/2 · attraction 3/3 · souvenir 3/3",
+        "taipei": "pass 1/3 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/3 · souvenir 3/4",
+        "tokyo": "pass 1/3 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/3 · souvenir 3/4",
       }
     `);
   });

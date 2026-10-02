@@ -80,3 +80,27 @@ describe('가격 데이터 무결성', () => {
     for (const f of foods) expect(f.reasonEn).toBeTruthy();
   });
 });
+
+describe('출처 표시', () => {
+  it('이름이 같고 주소가 다른 출처에는 번호를 붙인다', async () => {
+    const { numberedSources } = await import('../../src/ui/ResultView');
+    expect(
+      numberedSources([
+        { name: 'Danabus', url: 'https://a' },
+        { name: 'Pheva', url: 'https://p' },
+        { name: 'Danabus', url: 'https://b' },
+      ]).map((s) => s.label),
+    ).toEqual(['Danabus 1', 'Pheva', 'Danabus 2']);
+  });
+});
+
+describe('데이터 버전', () => {
+  it('운영 JSON 은 latest.json 이 가리키는 최신 엑셀(v0.2, 130건)에서 만들어졌다', async () => {
+    const { dataMeta } = await import('../../src/data');
+    const { readFileSync } = await import('node:fs');
+    const latest = JSON.parse(readFileSync('data/source/latest.json', 'utf8')) as { version: string; file: string };
+    expect(dataMeta).toMatchObject({ source: latest.file, version: latest.version });
+    expect(dataMeta.sampleCount).toBe(samples.length);
+    expect(samples.some((s) => s.id.includes('TEST'))).toBe(false);
+  });
+});

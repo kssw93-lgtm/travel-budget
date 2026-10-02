@@ -11,6 +11,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as XLSX from 'xlsx';
 import { classify } from '../src/core/classify';
+import { cityStatus } from '../src/core/estimate';
 import type { Category, City, FoodRecommendation, ModelUse, PriceSample, SourceGrade } from '../src/core/types';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -196,7 +197,22 @@ function main() {
   write('foods', foods);
   write('meta', meta);
 
+  // 도시별 판정(파일럿 도시). 엑셀을 교체하고 변환하면 자동으로 다시 계산된다.
+  const pilot = cities.filter((c) => c.stage === '파일럿');
+  const status = Object.fromEntries(pilot.map((c) => [c.id, cityStatus(c, samples)]));
+  write('status', status);
+
   console.log(`도시 ${cities.length} · 가격 표본 ${samples.length} · 음식 추천 ${foods.length} → ${outDir}`);
+  console.log('\n파일럿 도시 판정 (독립 표본: 외식/교통/관광/기념품)');
+  for (const c of pilot) {
+    const st = status[c.id]!;
+    const n = st.counts;
+    console.log(
+      `  ${c.nameKo.padEnd(6, '　')} ${n.food}/${n.transport}/${n.attraction}/${n.souvenir}  충족률 ${Math.round(st.fillRate * 100)}%  ` +
+        (st.computable ? '계산 가능' : `부족: ${st.missing.join(', ') || '충족률 미달'}`),
+    );
+  }
+  console.log('  → 상태가 바뀌었다면 `npm run status:update` 로 고정 테스트를 갱신하세요.');
   for (const n of notes) console.log(`  ※ ${n}`);
 }
 

@@ -116,6 +116,83 @@ describe('유형별 바스켓 분리', () => {
   });
 });
 
+describe('독립 표본(같은 출처의 용량·기간 변형 과대 계산 방지)', () => {
+  const variant = (nameKo: string, nameEn: string, v: number, over: Parameters<typeof sample>[0] | object = {}) =>
+    sample({ category: 'transport', subtype: '무제한권', unit: '성인 1인', sourceUrl: 'https://metro.example/tickets', nameKo, nameEn, min: v, ...over });
+
+  it('같은 출처의 24·48·72시간권은 가격 3건이지만 독립 표본 1건이라 부족이다', () => {
+    const rows = [
+      ...without(baseSamples(), 'transport'),
+      variant('지하철 24시간권', 'Subway 24-hour Ticket', 10),
+      variant('지하철 48시간권', 'Subway 48-hour Ticket', 15),
+      variant('지하철 72시간권', 'Subway 72-hour Ticket', 20),
+    ];
+    const e = estimateTrip(trip(), city, rows);
+    expect(e.categories.transport.sufficient).toBe(false);
+    expect(e.categories.transport.independentCount).toBe(1);
+    expect(e.categories.transport.baskets[0]).toMatchObject({ basket: 'pass', sampleCount: 3, independentCount: 1 });
+    expect(e.missing).toContain('transport');
+  });
+
+  it('같은 상품의 용량 차이(4개입·8개입)도 1건으로 센다', () => {
+    const box = (n: number, v: number) => sample({ category: 'souvenir', subtype: '식품', unit: '1상자', sourceUrl: 'https://banana.example/p/28', nameKo: `바나나 과자 ${n}개입`, nameEn: `Banana Cake ${n} pcs`, min: v });
+    const rows = [...without(baseSamples(), 'souvenir'), box(4, 691), box(8, 1296), box(12, 1800)];
+    expect(estimateTrip(trip(), city, rows).categories.souvenir.sufficient).toBe(false);
+  });
+
+  it('변형은 표본 수로는 1건이지만 가격 분포에는 모두 반영한다', () => {
+    const rows = [
+      ...without(baseSamples(), 'transport'),
+      variant('지하철 24시간권', 'Subway 24-hour Ticket', 10),
+      variant('지하철 48시간권', 'Subway 48-hour Ticket', 30), // 1일 15
+      pass(40),
+      pass(50),
+    ];
+    const e = estimateTrip(trip({ adults: 1, nights: 1, style: 'budget' }), city, rows);
+    // 1일 환산 10·15·40·50 → 끝점 [10,10,15,15,40,40,50,50], 하위 0~50% = [10, 27.5], 2일
+    close(e.categories.transport.total, 20, 55);
+    expect(e.categories.transport).toMatchObject({ sampleCount: 4, independentCount: 3 });
+  });
+
+  it('이름이 같아도 출처가 다르면, 같은 출처라도 상품이 다르면 독립 표본이다', () => {
+    const rows = [
+      ...without(baseSamples(), 'transport'),
+      variant('1일권', 'Day Pass', 10, { sourceUrl: 'https://a.example' }),
+      variant('1일권', 'Day Pass', 12, { sourceUrl: 'https://b.example' }),
+      variant('공항선 1일권', 'Airport Line Day Pass', 14, { sourceUrl: 'https://b.example' }),
+    ];
+    expect(estimateTrip(trip(), city, rows).categories.transport.independentCount).toBe(3);
+  });
+});
+
+describe('교통 대체 방식은 이중 합산하지 않는다', () => {
+  it('1일권과 1회권이 모두 충분해도 교통비는 둘 중 하나의 범위 안이며 합이 아니다', () => {
+    const passOnly = estimateTrip(trip(), city, baseSamples()).categories.transport.total!;
+    const rideOnlyRows = [...without(baseSamples(), 'transport'), ride(1), ride(2), ride(3)];
+    const rideOnly = estimateTrip(trip(), city, rideOnlyRows).categories.transport.total!;
+    const both = estimateTrip(trip(), city, [...baseSamples(), ride(1), ride(2), ride(3)]);
+    const t = both.categories.transport.total!;
+    expect(t.min).toBeCloseTo(Math.min(passOnly.min, rideOnly.min), 6);
+    expect(t.max).toBeCloseTo(Math.max(passOnly.max, rideOnly.max), 6);
+    expect(t.max).toBeLessThan(passOnly.max + rideOnly.max);
+    expect(t.min).toBeLessThan(passOnly.min + rideOnly.min);
+  });
+
+  it('전체 합계에도 교통은 한 번만 들어간다', () => {
+    const e = estimateTrip(trip(), city, [...baseSamples(), ride(1), ride(2), ride(3)]);
+    const sum = (k: 'min' | 'max') =>
+      e.categories.food.total![k] + e.categories.transport.total![k] + e.categories.attraction.total![k] + e.categories.souvenir.total![k];
+    close(e.subtotal, sum('min'), sum('max'));
+  });
+
+  it('1회권 가격을 아무리 올려도 이용권 쪽 최솟값은 그대로다(대체 관계)', () => {
+    const cheap = estimateTrip(trip(), city, [...baseSamples(), ride(1), ride(2), ride(3)]).categories.transport.total!;
+    const dear = estimateTrip(trip(), city, [...baseSamples(), ride(100), ride(200), ride(300)]).categories.transport.total!;
+    expect(dear.min).toBeCloseTo(100, 6); // 이용권 최솟값
+    expect(cheap.max).toBeCloseTo(220, 6); // 이용권 최댓값
+  });
+});
+
 describe('데이터 부족 상태', () => {
   it('바스켓 표본이 3건 미만이면 그 항목을 부족으로 표시하고 합계를 만들지 않는다', () => {
     const rows = [...without(baseSamples(), 'food'), meal(10), meal(20)];
@@ -203,8 +280,8 @@ describe('교통 무제한권 환산', () => {
     const rows = [
       ...without(baseSamples(), 'transport'),
       pass(10),
-      sample({ category: 'transport', subtype: '무제한권', unit: '성인 1인', nameKo: '지하철 48시간권', nameEn: 'Subway 48-hour', min: 30 }),
-      sample({ category: 'transport', subtype: '무제한권', unit: '성인 1인', nameKo: '지하철 72시간권', nameEn: 'Subway 72-hour', min: 60 }),
+      sample({ category: 'transport', subtype: '무제한권', unit: '성인 1인', nameKo: 'A선 48시간권', nameEn: 'Line A 48-hour', sourceUrl: 'https://a.example', min: 30 }),
+      sample({ category: 'transport', subtype: '무제한권', unit: '성인 1인', nameKo: 'B선 72시간권', nameEn: 'Line B 72-hour', sourceUrl: 'https://b.example', min: 60 }),
     ];
     const e = estimateTrip(trip({ adults: 1, style: 'budget' }), city, rows);
     // 1일 환산 10·15·20 → 예산형 하위 0~50% = [10, 15], 4일
@@ -239,12 +316,15 @@ describe('방문일 반영(날짜에 따라 달라지는 항목만)', () => {
     dayPass('1일권 평일', 'Pass Weekday', 10),
     dayPass('1일권 주말·공휴일', 'Pass Weekend/Holiday', 6),
     pass(20),
+    pass(30),
   ];
 
   it('요일형은 방문 날짜의 요일에 맞는 요금만 쓴다', () => {
-    // 2026-11-04 수 · 05 목 · 06 금 · 07 토. 평일 풀 {10, 20} → 예산형 [10, 15], 주말 풀 {6, 20} → [6, 13]
+    // 2026-11-04 수 · 05 목 · 06 금 · 07 토. 평일 풀 {10, 20, 30} → 예산형 [10, 20], 주말 풀 {6, 20, 30} → [6, 20]
     const e = estimateTrip(trip({ adults: 1, style: 'budget' }), city, rows());
-    close(e.categories.transport.total, 3 * 10 + 6, 3 * 15 + 13);
+    close(e.categories.transport.total, 3 * 10 + 6, 3 * 20 + 20);
+    // 평일·주말 요금은 같은 상품이라 독립 표본 1건 + 다른 이용권 2건 = 3건
+    expect(e.categories.transport.independentCount).toBe(3);
     expect(e.warnings.some((w) => w.code === 'dateResolved' && w.category === 'transport')).toBe(true);
   });
 

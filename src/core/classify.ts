@@ -20,6 +20,11 @@ export interface Classified {
   usable: boolean;
   excludeReason?: ExcludeReason;
   audience: Audience;
+  /**
+   * 독립 표본 판정 키. 같은 출처의 같은 상품이 용량·기간·요일만 다른 경우(24/48/72시간권, 4개입/8개입,
+   * 평일/주말 요금)는 같은 키가 되어 최소 표본 수를 셀 때 1건으로 센다.
+   */
+  productKey: string;
   /** 계산에 쓰는 가격 바스켓(제외 표본은 null) */
   basket: Basket | null;
   /** 교통 무제한권이 덮는 일수(24시간=1, 48시간=2 …). 1일 환산 단가 = 가격 ÷ passDays */
@@ -53,9 +58,35 @@ export function transportPassDays(s: PriceSample): number | null {
   return null;
 }
 
+/** 숫자·용량·기간·요일 표기를 뺀 상품명(대소문자·기호 무시) */
+export function productName(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/\d+(?:[.,]\d+)?/g, ' ')
+    .replace(new RegExp(`(?:${VARIANT_TOKENS.join('|')})`, 'g'), ' ')
+    .replace(/[^\p{L}\s]/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+const VARIANT_TOKENS = [
+  '\\bpcs?\\b', '\\bpieces?\\b', '\\bhours?\\b', '\\bdays?\\b', '\\bone\\b', '\\bweekdays?\\b', '\\bweekends?\\b',
+  '\\bholidays?\\b', '시간', '일권', '개입', '개', '평일', '주말', '공휴일',
+];
+
+function normalizeSource(s: PriceSample): string {
+  const raw = (s.sourceUrl || s.sourceName).toLowerCase().trim();
+  return raw.replace(/^https?:\/\/(www\.)?/, '').replace(/[?#].*$/, '').replace(/\/+$/, '');
+}
+
+export function productKey(s: PriceSample): string {
+  return `${normalizeSource(s)}|${productName(s.nameEn || s.nameKo)}`;
+}
+
 export function classify(s: PriceSample): Classified {
   const base = {
     sample: s,
+    productKey: productKey(s),
     audience: audienceOf(s),
     passDays: 1,
     variant: variantOf(s),

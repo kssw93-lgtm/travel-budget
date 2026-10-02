@@ -2,12 +2,16 @@ import citiesJson from './generated/cities.json';
 import foodsJson from './generated/foods.json';
 import metaJson from './generated/meta.json';
 import samplesJson from './generated/samples.json';
+import statusJson from './generated/status.json';
+import type { CityStatus } from '../core/estimate';
 import type { City, FoodRecommendation, PriceSample } from '../core/types';
 
 /** 가격 데이터는 전부 여기서만 들어온다. 엑셀을 다시 변환해 JSON 만 교체하면 계산 결과가 바뀐다. */
 export const allCities = citiesJson as City[];
 export const samples = samplesJson as PriceSample[];
 export const foods = foodsJson as FoodRecommendation[];
+/** data:convert 가 만든 파일럿 도시 판정(엑셀 교체 시 자동 갱신) */
+export const cityStatusFile = statusJson as unknown as Record<string, CityStatus>;
 export const dataMeta = metaJson as { source: string; sha256: string; sampleCount: number };
 
 /** 1차 화면에는 조사 단계가 '파일럿'인 도시만 노출한다. 2차 이후 도시는 데이터에 있어도 숨긴다. */

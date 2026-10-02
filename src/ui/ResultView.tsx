@@ -65,7 +65,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
   }
   const directUsd = entered > 0 ? convertRange({ min: entered, max: entered }, direct.currency, 'USD', ratesData) : null;
 
-  const holdList = e.missing.map((c) => `${catName(c)} (${fmt(t.result.needMore, { have: e.categories[c].sampleCount, need: MODEL.minSamplesPerCategory })})`).join(', ');
+  const holdList = e.missing.map((c) => `${catName(c)} (${fmt(t.result.needMore, { have: e.categories[c].independentCount, need: MODEL.minSamplesPerCategory })})`).join(', ');
   const fillPct = Math.round(e.fillRate * 100);
 
   return (
@@ -147,7 +147,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
               <tr key={c} data-category={c}>
                 <th scope="row">
                   {catName(c)}
-                  <small>{est.sufficient ? fmt(t.result.samples, { n: est.sampleCount }) : ''}</small>
+                  <small>{est.sufficient ? fmt(t.result.samples, { n: est.independentCount }) : ''}</small>
                 </th>
                 {est.total ? (
                   <>
@@ -157,7 +157,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
                   </>
                 ) : (
                   <td colSpan={3} className="insufficient">
-                    {t.result.notEnough} · {fmt(t.result.needMore, { have: est.sampleCount, need: MODEL.minSamplesPerCategory })}
+                    {t.result.notEnough} · {fmt(t.result.needMore, { have: est.independentCount, need: MODEL.minSamplesPerCategory })}
                   </td>
                 )}
               </tr>
@@ -185,14 +185,14 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
               <summary>
                 <strong>{catName(c)}</strong>{' '}
                 <span className="muted">
-                  {est.sufficient ? fmt(t.result.sampleCount, { n: est.sampleCount }) : t.result.notEnough}
+                  {est.sufficient ? fmt(t.result.sampleCount, { n: est.sampleCount, ind: est.independentCount }) : t.result.notEnough}
                   {est.childSampleCount > 0 ? ` ${fmt(t.result.childSamples, { n: est.childSampleCount })}` : ''}
                 </span>
               </summary>
               <ul className="baskets" data-testid={`baskets-${c}`}>
                 {est.baskets.map((b) => (
                   <li key={b.basket} data-basket={b.basket}>
-                    {fmt(t.result.basketLine, { name: t.baskets[b.basket] ?? b.basket, n: b.sampleCount })} ·{' '}
+                    {fmt(t.result.basketLine, { name: t.baskets[b.basket] ?? b.basket, n: b.sampleCount, ind: b.independentCount })} ·{' '}
                     <span className={b.included ? '' : 'muted'}>{b.included ? t.result.included : t.result.notIncluded}</span>
                   </li>
                 ))}

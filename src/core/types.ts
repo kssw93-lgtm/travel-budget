@@ -113,8 +113,10 @@ export interface SourceRef {
 
 export interface BasketEstimate {
   basket: Basket;
-  /** 성인 기준 사용 가능 표본 수 */
+  /** 성인 기준 사용 가능 표본 행 수 */
   sampleCount: number;
+  /** 성인 기준 독립 표본 수(같은 상품의 용량·기간 변형은 1건). 충족 판정에 쓴다 */
+  independentCount: number;
   childSampleCount: number;
   /** 표본 수가 최소 기준 이상 */
   sufficient: boolean;
@@ -130,6 +132,8 @@ export interface CategoryEstimate {
   /** 1인 1일 기준 단가 범위(전체 일정 평균). 데이터 부족이면 null */
   perPersonPerDay: Range | null;
   sampleCount: number;
+  /** 독립 표본 수(충족 판정 기준). 부족이면 대표 바스켓의 독립 표본 수 */
+  independentCount: number;
   /** 어린이 가격에 쓴 표본 수 */
   childSampleCount: number;
   sufficient: boolean;

@@ -3,11 +3,16 @@ import { isWeekend } from './dates';
 import { MODEL } from './model-config';
 import type { Basket, Range, TravelStyle } from './types';
 
-/** 모델 사용 우선 규칙: `예` 표본이 충분하면 `예`만, 아니면 `조건부` 표본까지 쓴다. */
+/** 독립 표본 수: 같은 출처·같은 상품의 용량·기간·요일 변형은 1건으로 센다 */
+export function independentCount(rows: Classified[]): number {
+  return new Set(rows.map((r) => r.productKey)).size;
+}
+
+/** 모델 사용 우선 규칙: `예` 표본이 독립 기준으로 충분하면 `예`만, 아니면 `조건부` 표본까지 쓴다. */
 export function selectUsable(rows: Classified[]): Classified[] {
   const usable = rows.filter((r) => r.usable);
   const yes = usable.filter((r) => r.sample.modelUse === 'yes');
-  return yes.length >= MODEL.minSamplesPerCategory ? yes : usable;
+  return independentCount(yes) >= MODEL.minSamplesPerCategory ? yes : usable;
 }
 
 /** 방문 일자에 맞는 표본만 남긴다: 유효 기간 밖 표본 제외, 평일/주말 요금 중 해당 요금만 선택 */

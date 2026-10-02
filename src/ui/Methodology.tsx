@@ -1,4 +1,4 @@
-import { estimateTrip, summarizeCity } from '../core/estimate';
+import { cityStatus, summarizeCity } from '../core/estimate';
 import { CATEGORIES, MODEL, STYLES } from '../core/model-config';
 import type { Basket } from '../core/types';
 import { cities, dataMeta, samples } from '../data';
@@ -32,7 +32,7 @@ export function Methodology() {
   );
   const rows = cities.map((c) => {
     const sum = summarizeCity(c, samples);
-    const computable = estimateTrip({ cityId: c.id, visitDate: '2026-01-01', nights: 1, adults: 1, children: 0, style: 'standard' }, c, samples).computable;
+    const { computable } = cityStatus(c, samples);
     return { c, sum, computable };
   });
   const excluded = rows.flatMap((r) => r.sum.excluded);

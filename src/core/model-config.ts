@@ -39,6 +39,8 @@ export const MODEL = {
 
 export const CATEGORIES: readonly Category[] = ['food', 'transport', 'attraction', 'souvenir'];
 
+export const BASKETS: readonly Basket[] = ['pass', 'ride', 'meal', 'snack', 'attraction', 'souvenir'];
+
 /** 첫날·마지막 날 60% 규칙을 적용하는 바스켓(식비·활동비) */
 export const EDGE_WEIGHTED: readonly Basket[] = ['meal', 'snack', 'attraction'];
 

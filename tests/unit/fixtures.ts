@@ -6,12 +6,15 @@ export const city: City = {
 };
 
 let seq = 0;
+/** 숫자가 아닌 고유 상품명(숫자는 독립 표본 판정에서 무시되므로 문자로 구분) */
+const letters = (n: number): string => (n <= 0 ? '' : letters(Math.floor((n - 1) / 26)) + String.fromCharCode(97 + ((n - 1) % 26)));
+
 export function sample(over: Partial<PriceSample> & Pick<PriceSample, 'category'>): PriceSample {
   seq += 1;
   const min = over.min ?? 10;
   return {
-    id: `T-${seq}`, cityId: 'testville', country: '테스트국', city: '테스트빌', subtype: '', nameKo: `항목${seq}`,
-    nameEn: `Item ${seq}`, min, max: min, currency: 'TST', unit: '1인', priceType: '고정형', target: '일반',
+    id: `T-${seq}`, cityId: 'testville', country: '테스트국', city: '테스트빌', subtype: '', nameKo: `항목 ${letters(seq)}`,
+    nameEn: `Item ${letters(seq)}`, min, max: min, currency: 'TST', unit: '1인', priceType: '고정형', target: '일반',
     grade: 'A', modelUse: 'yes', status: '확정 1차', checkedAt: '2026-10-02', applied: '2026', sourceName: 'Test',
     sourceUrl: 'https://example.com', note: '', ...over,
   };

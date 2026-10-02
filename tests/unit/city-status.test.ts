@@ -1,6 +1,8 @@
+import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
-import { cityStatus } from '../../src/core/estimate';
-import { cities, cityStatusFile, samples } from '../../src/data';
+import { classify } from '../../src/core/classify';
+import { cityStatus, estimateTrip } from '../../src/core/estimate';
+import { cities, cityById, cityStatusFile, samples } from '../../src/data';
 
 /**
  * 8개 파일럿 도시의 현재 데이터 상태 고정 테스트.
@@ -56,5 +58,91 @@ describe('파일럿 도시 데이터 상태', () => {
         "tokyo": "pass 1/3 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/3 · souvenir 3/4",
       }
     `);
+  });
+});
+
+describe('v0.3 신규 공식 표본이 실제 분류 규칙으로 부족 항목을 채웠는지', () => {
+  const byId = (id: string) => classify(samples.find((s) => s.id === id)!);
+
+  it('신규 4건은 예상한 바스켓에 들어간다(규칙 완화 없이)', () => {
+    expect(byId('DAD-AT-004')).toMatchObject({ usable: true, basket: 'attraction' });
+    expect(byId('PAR-AT-006')).toMatchObject({ usable: true, basket: 'attraction' });
+    expect(byId('TPE-TR-007')).toMatchObject({ usable: true, basket: 'ride' });
+    expect(byId('LON-TR-005')).toMatchObject({ usable: true, basket: 'ride' });
+  });
+
+  it('관광 탑승 분리·같은 명소 옵션 묶기 규칙은 그대로 적용된다', () => {
+    expect(byId('LON-TR-004').basket).toBe('attraction'); // 케이블카
+    expect(byId('TPE-TR-006').basket).toBe('attraction'); // 곤돌라
+    const eiffel = ['PAR-AT-001', 'PAR-AT-002', 'PAR-AT-003'].map((id) => byId(id).productKey);
+    expect(new Set(eiffel).size).toBe(1);
+    expect(byId('DAD-AT-002').productKey).toBe(byId('DAD-AT-003').productKey); // 오행산 입장권·엘리베이터
+  });
+
+  it('다낭 관광·파리 관광·타이베이 교통·런던 교통이 독립 표본 3건으로 계산 가능', () => {
+    expect(cityStatusFile['da-nang']!.baskets.attraction).toBe(3);
+    expect(cityStatusFile.paris!.baskets.attraction).toBe(3);
+    expect(cityStatusFile.taipei!.baskets.ride).toBe(3);
+    expect(cityStatusFile.london!.baskets.ride).toBe(3);
+    for (const id of ['da-nang', 'paris', 'taipei', 'london']) expect(cityStatusFile[id]!.computable).toBe(true);
+  });
+
+  it('파리 개선문은 €16–22 범위를 유지하고 변동 가격으로 경고된다', () => {
+    const arc = samples.find((s) => s.id === 'PAR-AT-006')!;
+    expect([arc.min, arc.max, arc.currency]).toEqual([16, 22, 'EUR']);
+    const e = estimateTrip({ cityId: 'paris', visitDate: '2026-11-04', nights: 3, adults: 2, children: 0, style: 'standard' }, cityById('paris')!, samples);
+    expect(e.warnings.find((w) => w.code === 'variablePricing' && w.category === 'attraction')?.ids).toContain('PAR-AT-006');
+  });
+});
+
+describe('검수 지적 사항', () => {
+  const london = () => cityById('london')!;
+  const run = (cityId: string, visitDate: string, style: 'budget' | 'standard' | 'comfort' = 'standard') =>
+    estimateTrip({ cityId, visitDate, nights: 3, adults: 1, children: 0, style }, cityById(cityId)!, samples);
+
+  it('런던 Santander Cycles(LON-TR-005)는 TfL 버스·지하철 일일 상한에 잘리지 않는다', () => {
+    expect(classify(samples.find((s) => s.id === 'LON-TR-005')!)).toMatchObject({ basket: 'ride', capExempt: true });
+    expect(classify(samples.find((s) => s.id === 'LON-TR-002')!).capExempt).toBe(false);
+    expect(classify(samples.find((s) => s.id === 'LON-TR-003')!).capExempt).toBe(false);
+    expect(classify(samples.find((s) => s.id === 'LON-TR-001')!).dailyCap).toBe(true);
+    const e = estimateTrip({ cityId: 'london', visitDate: '2026-11-04', nights: 3, adults: 1, children: 0, style: 'comfort' }, london(), samples);
+    expect(e.warnings.find((w) => w.code === 'capExempt')?.ids).toEqual(['LON-TR-005']);
+    // 여유형 하루 4회: 대중교통은 상한 £8.9 에 잘리고, 자전거 4회(£6.6)는 그대로 → 1인 하루 상한은 £8.9 를 넘지 않음
+    const perDay = e.categories.transport.total!.max / 4;
+    expect(perDay).toBeLessThanOrEqual(8.9 + 1e-9);
+    expect(e.warnings.find((w) => w.code === 'dailyCapApplied')?.ids).toEqual(['LON-TR-001']);
+  });
+
+  it('파리 개선문(PAR-AT-006) 월·요일 규칙은 자동 적용하지 않는다 — 방문일과 무관하게 €16–22 범위와 변동 경고', () => {
+    // 4~9월 수요일 / 4~9월 목요일 / 11월: 규칙을 적용했다면 서로 달라야 하지만, 범위만 쓰므로 같아야 한다
+    const julWed = run('paris', '2026-07-01');
+    const julThu = run('paris', '2026-07-02');
+    const nov = run('paris', '2026-11-05');
+    expect(julWed.categories.attraction.total).toEqual(julThu.categories.attraction.total);
+    expect(julWed.categories.attraction.total).toEqual(nov.categories.attraction.total);
+    for (const e of [julWed, julThu, nov]) {
+      expect(e.warnings.find((w) => w.code === 'variablePricing' && w.category === 'attraction')?.ids).toContain('PAR-AT-006');
+      expect(e.warnings.some((w) => w.code === 'dateResolved' && w.ids?.includes('PAR-AT-006'))).toBe(false);
+    }
+  });
+
+  it('변환기는 조사표의 요약 시트("도시 초안"·"다음 조사 큐")를 읽지 않는다', () => {
+    const src = readFileSync('scripts/convert-xlsx.ts', 'utf8');
+    expect(src).not.toMatch(/readTable\(wb, '(도시 초안|다음 조사 큐)'/);
+  });
+
+  it('다낭 참조각박물관(DAD-AT-004)은 원문 미확인 → 가격은 그대로, 재검증 경고·조사 요청 목록에 표시', () => {
+    const s = samples.find((x) => x.id === 'DAD-AT-004')!;
+    expect([s.min, s.max, s.review?.flag]).toEqual([60000, 60000, '원문 미확인']);
+    const e = run('da-nang', '2026-11-04');
+    expect(e.computable).toBe(true);
+    expect(e.warnings.find((w) => w.code === 'revalidation' && w.category === 'attraction')?.ids).toContain('DAD-AT-004');
+    expect(readFileSync('data/research-queue.md', 'utf8')).toMatch(/DAD-AT-004 .*검수: 원문 미확인/);
+  });
+
+  it('다낭 기념품은 조사표의 "다음 조사 큐"(0건)가 아니라 가격 원장으로 계산한다', () => {
+    const dad = cityStatusFile['da-nang']!;
+    expect(dad.baskets.souvenir).toBe(3);
+    expect(cityStatus(cityById('da-nang')!, samples).baskets.souvenir).toBe(3);
   });
 });

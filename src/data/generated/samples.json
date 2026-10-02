@@ -3148,7 +3148,13 @@
     "applied": "2026",
     "sourceName": "Da Nang Museum of Cham Sculpture",
     "sourceUrl": "https://chammuseum.vn/view.aspx?ID=45",
-    "note": "박물관 공식 안내의 일반 성인 1회 입장료"
+    "note": "박물관 공식 안내의 일반 성인 1회 입장료",
+    "review": {
+      "flag": "원문 미확인",
+      "flagEn": "source not re-checked",
+      "detail": "2026-10-02 독립 검수: chammuseum.vn 페이지가 열리지 않아 60,000 VND 원문 가격을 재확인하지 못함(개발 환경에서도 접속 차단).",
+      "reportedAt": "2026-10-02"
+    }
   },
   {
     "id": "PAR-AT-006",

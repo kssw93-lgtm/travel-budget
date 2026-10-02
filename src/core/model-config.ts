@@ -69,6 +69,11 @@ export const KEYWORDS = {
   sightseeingRide: /케이블카|곤돌라|로프웨이|cable car|gondola|ropeway/i,
   /** 1회 요금 합계의 하루 상한(예: TfL daily cap) */
   dailyCap: /상한|daily cap|fare cap/i,
+  /**
+   * 대중교통 하루 상한의 적용을 받지 않는 별도 요금 체계(공유자전거·킥보드·수상교통 등).
+   * 예: 런던 Santander Cycles 는 TfL 버스·지하철 일일 상한에 포함되지 않는다.
+   */
+  capExempt: /공유자전거|자전거|킥보드|bike|cycle|scooter|보트|수상|ferry|boat|river bus/i,
   /** 메뉴 가격에 세금·서비스료가 빠진 표기(예: 450++) */
   taxExcluded: /\+\+|세금[^,;]*별도|서비스료[^,;]*별도|excl(?:\.|uding)? (?:tax|service)/i,
   meal: /한끼|식사|관광지 식당|메뉴 표본|아침/,

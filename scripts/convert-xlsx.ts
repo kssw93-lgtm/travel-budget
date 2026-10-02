@@ -149,6 +149,15 @@ function main() {
       note: r('비고'),
     });
   }
+  // 검수 메모: 원문 재확인이 안 된 표본에 '재검증 필요' 표시만 붙인다(가격·분류 불변)
+  const reviewFlags = JSON.parse(readFileSync(`${root}/data/overlays/review-flags.json`, 'utf8')) as Record<string, PriceSample['review'] | string>;
+  for (const [id, review] of Object.entries(reviewFlags)) {
+    if (id.startsWith('_')) continue;
+    const s = samples.find((x) => x.id === id);
+    if (!s) errors.push(`review-flags.json: 없는 표본 ID '${id}'`);
+    else s.review = review as PriceSample['review'];
+  }
+
   const ids = new Set<string>();
   for (const s of samples) {
     if (ids.has(s.id)) errors.push(`${s.id}: ID 중복`);
@@ -243,6 +252,7 @@ function researchQueue(pilot: City[], samples: PriceSample[], status: Record<str
     '',
     `> \`npm run data:convert\` 가 \`${meta.source}\` (${meta.version}) 로부터 만든 파일입니다. 직접 고치지 마세요.`,
     `> 기준: 바스켓마다 **독립 표본 ${min}건 이상**(같은 출처·같은 상품의 용량·기간·요일 변형, 같은 명소의 관람 옵션은 1건).`,
+    '> 수치는 가격 원장과 계산 코드로 다시 만든 것입니다. 엑셀의 "도시 초안"·"다음 조사 큐" 시트 수치는 쓰지 않습니다(작성 시점이 달라 오래된 값이 있을 수 있음).',
     '',
     '## 1. 계산을 막는 부족 바스켓',
     '',
@@ -295,6 +305,7 @@ function researchQueue(pilot: City[], samples: PriceSample[], status: Record<str
       s.status.includes('재검증') && '재검증',
       r.fromPrice && '시작가 표기',
       r.taxExcluded && '세금·서비스료 별도',
+      s.review && `검수: ${s.review.flag}`,
     ].filter(Boolean);
     if (!why.length) continue;
     const price = s.min === s.max ? `${s.min}` : `${s.min}~${s.max}`;

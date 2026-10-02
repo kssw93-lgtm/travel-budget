@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState, type MouseEvent, type ReactNode } from 'react';
 import { dataDate } from '../data';
 import { I18nProvider, detectLang, fmt, messages, type Lang } from '../i18n';
+import { AdSlot } from './AdSlot';
 import { Calculator } from './Calculator';
 import { Methodology } from './Methodology';
 import { applyMeta } from './meta';
@@ -106,9 +107,17 @@ export function App() {
           </div>
         </div>
       </header>
-      <main id="main" className="wrap" tabIndex={-1}>
-        {page === 'methodology' ? <Methodology /> : <Calculator go={go} />}
-      </main>
+      <div className="shell">
+        <div className="ad-rail">
+          <AdSlot name="rail-left" />
+        </div>
+        <main id="main" className="wrap" tabIndex={-1}>
+          {page === 'methodology' ? <Methodology /> : <Calculator go={go} />}
+        </main>
+        <div className="ad-rail">
+          <AdSlot name="rail-right" />
+        </div>
+      </div>
       <footer className="site-footer">
         <div className="wrap">
           <p>{t.footer.disclaimer}</p>

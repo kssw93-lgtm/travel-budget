@@ -14,7 +14,10 @@ h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 .5rem; }
 h2 { font-size: 1.25rem; margin: 0 0 .75rem; }
 h3 { font-size: 1.05rem; margin: 1.25rem 0 .5rem; }
 h4 { font-size: .95rem; margin: .75rem 0 .25rem; }
-.wrap { max-width: 880px; margin: 0 auto; padding: 0 16px; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+/* 본문 760px. 1200px 이상에서만 좌우 160px 광고 레일을 붙여 전체 1160px 이내로 둔다 */
+.shell { max-width: 1160px; margin: 0 auto; }
+.ad-rail { display: none; }
 .skip { position: absolute; left: -999px; } .skip:focus { left: 8px; top: 8px; background: var(--card); padding: 8px; z-index: 10; }
 .site-header { background: var(--card); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 5; }
 .bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; padding-top: 8px; padding-bottom: 8px; }
@@ -23,9 +26,9 @@ nav { display: flex; gap: 14px; } nav a { text-decoration: none; color: var(--mu
 .lang { display: flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
 .lang button { border: 0; background: transparent; color: var(--ink); padding: 6px 12px; font: inherit; font-size: .9rem; cursor: pointer; min-height: 36px; }
 .lang button[aria-pressed='true'] { background: var(--brand); color: var(--brand-ink); }
-main { padding-top: 20px; padding-bottom: 32px; display: flex; flex-direction: column; gap: var(--gap); }
+main { padding-top: 16px; padding-bottom: 28px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
 .hero p { color: var(--muted); margin: 0; }
-.card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 16px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
 /* 6칸 격자: 데스크톱은 반반(span-3), 좁은 화면은 방문일 한 줄(m-6) + 숫자 셋을 한 줄(m-2) */
 .grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px; }
 .field { display: flex; flex-direction: column; gap: 4px; min-width: 0; } .field.wide { grid-column: 1 / -1; } .span-3 { grid-column: span 3; }
@@ -45,10 +48,20 @@ fieldset.styles legend { grid-column: 1 / -1; margin-bottom: 4px; }
 details.optional { margin-top: 16px; border-top: 1px dashed var(--line); padding-top: 12px; } summary { cursor: pointer; font-weight: 600; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 main:focus, h1:focus, h2:focus { outline: none; }
+/* 앵커 이동 시 고정 머리글에 제목이 가리지 않게 */
+h2[id] { scroll-margin-top: 72px; }
 .more { margin: .5rem 0 0; font-size: .92rem; }
-/* 광고 자리: 광고가 늦게 들어와도 아래 내용이 밀리지 않도록 높이를 미리 고정(CLS 방지).
-   모바일 300×250 / 데스크톱 728×90 계열 반응형 광고 기준 */
-.ad-slot { height: 250px; overflow: hidden; contain: layout size; border: 1px dashed var(--line); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: .75rem; letter-spacing: .05em; background: transparent; }
+/* 광고 자리(표지만). 높이를 고정해 광고가 들어와도 본문이 움직이지 않게 하고, 고정·오버레이는 쓰지 않는다 */
+.ad-slot { border: 1px dashed var(--line); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: .72rem; letter-spacing: .04em; overflow: hidden; contain: layout size; }
+/* 인라인 자리: 모바일 320×50, 태블릿 728×90 표준 크기에 맞춘 고정 높이 */
+.ad-slot.inline { height: 50px; max-width: 728px; width: 100%; margin: 12px auto 0; }
+@media (min-width: 641px) { .ad-slot.inline { height: 90px; } }
+.ad-slot.rail { width: 160px; height: 120px; }
+@media (min-width: 1200px) {
+  .shell { display: grid; grid-template-columns: 160px minmax(0, 760px) 160px; column-gap: 20px; justify-content: center; }
+  .ad-rail { display: block; padding-top: 16px; }
+  .ad-slot.inline { display: none; }
+}
 .summary { color: var(--muted); margin-top: 0; }
 .total { background: var(--accent-bg); border-radius: 10px; padding: 4px 14px 14px; } .total h3 { margin-top: 12px; }
 .amounts { margin: 0; display: grid; gap: 6px; } .amounts > div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; }
@@ -83,6 +96,6 @@ td.insufficient, .insufficient { color: var(--err); }
   nav { order: 3; flex-basis: 100%; gap: 16px; }
 }
 @media (max-width: 480px) { .m-6 { grid-column: span 6; } .m-2 { grid-column: span 2; } }
-@media (min-width: 641px) { .card { padding: 22px; } h1 { font-size: 2rem; } .ad-slot { height: 120px; } }
+@media (min-width: 641px) { .card { padding: 20px; } h1 { font-size: 1.75rem; } .food-list { grid-template-columns: 1fr 1fr; } }
 .rates { min-height: 3.2em; }
 .fallback { padding: 24px 16px; max-width: 880px; margin: 0 auto; }

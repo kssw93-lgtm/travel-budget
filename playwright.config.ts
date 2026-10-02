@@ -29,5 +29,9 @@ export default defineConfig({
     { name: 'desktop', use: { ...devices['Desktop Chrome'], viewport: { width: 1280, height: 800 }, launchOptions } },
     { name: 'mobile-375', use: mobile(375, 667) },
     { name: 'mobile-320', use: mobile(320, 568) },
+    // 레이아웃 전용 추가 폭(전체 흐름은 위 세 폭에서 검사)
+    { name: 'tablet-768', testMatch: /layout\.spec\.ts/, use: { ...devices['Desktop Chrome'], viewport: { width: 768, height: 1024 }, launchOptions } },
+    { name: 'laptop-1024', testMatch: /layout\.spec\.ts/, use: { ...devices['Desktop Chrome'], viewport: { width: 1024, height: 768 }, launchOptions } },
+    { name: 'wide-1440', testMatch: /layout\.spec\.ts/, use: { ...devices['Desktop Chrome'], viewport: { width: 1440, height: 900 }, launchOptions } },
   ],
 });

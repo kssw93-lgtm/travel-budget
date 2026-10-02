@@ -120,6 +120,19 @@ export function Methodology() {
         </table>
       </div>
 
+      <h2 id="review" tabIndex={-1}>{m.reviewTitle}</h2>
+      <p>{m.reviewLead}</p>
+      <ul data-testid="review-list">
+        {samples
+          .filter((s) => s.review && cities.some((c) => c.id === s.cityId))
+          .map((s) => (
+            <li key={s.id}>
+              <strong>{s.id}</strong> {lang === 'ko' ? s.nameKo : s.nameEn} ({s.min === s.max ? s.min : `${s.min}~${s.max}`} {s.currency}) —{' '}
+              {lang === 'ko' ? s.review!.flag : s.review!.flagEn}
+            </li>
+          ))}
+      </ul>
+
       <h2 id="sources" tabIndex={-1}>{m.sourcesTitle}</h2>
       <p>{m.sourcesLead}</p>
       {sourcesByCity.map(({ c, sources }) => (

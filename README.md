@@ -29,6 +29,7 @@ npm run deploy:check   # 빌드 + wrangler deploy --dry-run (실제 배포 안 �
 
 e2e 는 데스크톱(1280px)·모바일 375px·320px 세 뷰포트에서 핵심 흐름, axe 접근성(WCAG 2.1 AA), 브라우저 콘솔 오류 0건,
 URL 상태 보존, 언어/통화 독립, 환율 장애, 광고 자리 CLS, SEO 메타, 방법론·출처 링크를 검사합니다.
+레이아웃 테스트(`tests/e2e/layout.spec.ts`)는 320·375·768·1024·1280·1440px 에서 가로 스크롤·겹침·폭 제한·광고 레일 표시 조건을 검사합니다.
 e2e 는 배포와 같은 빌드(실제 가격 데이터만)로 실행합니다. 테스트 전용 가짜 가격은 없습니다.
 
 GitHub Actions(`.github/workflows/ci.yml`)가 push·PR 마다 같은 순서로 실행합니다. 실제 배포 단계는 없습니다.
@@ -39,7 +40,8 @@ GitHub Actions(`.github/workflows/ci.yml`)가 push·PR 마다 같은 순서로 �
 
 1. 새 버전 엑셀을 `data/source/` 에 **새 파일로 추가**하고, `data/source/latest.json` 의 `version`·`file`·`date` 를 그 파일로 바꿉니다.
    이전 버전 파일은 기록용으로 그대로 둡니다. (원본 엑셀은 읽기만 하며 수정하지 않습니다.)
-   현재 최신: `travel_cost_research_pilot_v0.2_2026-10-02.xlsx` (v0.2, 가격 표본 130건). 이전: v0.1(77건).
+   현재 최신: `travel_cost_research_pilot_v0.3_2026-10-02.xlsx` (**v0.3, 가격 표본 134건**). 이전: v0.2(130건), v0.1(77건).
+   버전별 변경은 [`data/CHANGELOG.md`](data/CHANGELOG.md) 에 기록합니다.
 2. `npm run data:convert` — 머리글 이름으로 열을 찾아 `src/data/generated/*.json` 을 다시 만듭니다.
    `latest.json` 이 가리키는 파일을 읽으며, 결과 `meta.json` 에 원본 파일명·버전이 기록됩니다. 형식 오류(숫자 아닌 가격, 알 수 없는 도시, 없는 연결 가격 ID 등)가 있으면 실패하고, 분류하지 못한 세부유형은 경고로 알려줍니다.
    파일럿 도시 판정(`status.json`)도 이때 자동으로 다시 계산되고 콘솔에 표로 출력됩니다.
@@ -89,4 +91,13 @@ GitHub Actions(`.github/workflows/ci.yml`)가 push·PR 마다 같은 순서로 �
 
 ## 광고
 
-`AdSlot` 으로 입력 아래·결과 아래·음식 추천 아래 3곳의 자리만 확보했습니다. 높이를 미리 고정(모바일 250px, 데스크톱 120px)해 광고가 늦게 들어와도 화면이 밀리지 않게 했습니다(CLS). 실제 Google 광고 코드는 광고 ID 를 받은 뒤 `src/ui/AdSlot.tsx` 에서만 추가합니다.
+실제 광고 코드·광고 계정 ID·추적 스크립트는 없고, 절제된 "광고 영역 / Advertisement" 표지만 있습니다(`src/ui/AdSlot.tsx`).
+
+| 화면 폭 | 광고 자리 |
+| --- | --- |
+| 1200px 이상 | 본문(760px) 좌우에 160px 레일 각 1개(표지 높이 120px). 전체 폭 1160px 이내 |
+| 641–1199px | 레일 숨김, 결과 뒤 인라인 1개(728×90 기준, 높이 90px) |
+| 640px 이하 | 레일 숨김, 결과 뒤 인라인 1개(320×50 기준, 높이 50px) |
+
+고정(fixed)·오버레이·sticky 광고는 쓰지 않고, 인라인 자리 높이를 고정해 광고가 들어와도 본문이 밀리지 않게 했습니다(CLS).
+레일은 본문과 다른 열이라 광고가 커져도 본문 위치가 바뀌지 않습니다. 레이아웃 결정 근거는 [`docs/DECISIONS.md`](docs/DECISIONS.md).

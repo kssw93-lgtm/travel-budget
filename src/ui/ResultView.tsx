@@ -58,7 +58,10 @@ function AmountRows({ range, local, display, rates }: { range: Range | null; loc
 function warningText(w: Warning, byId: Map<string, PriceSample>, lang: 'ko' | 'en', t: ReturnType<typeof useI18n>['t']): string {
   const names = (w.ids ?? []).map((id) => {
     const s = byId.get(id);
-    return s ? (lang === 'ko' ? s.nameKo : s.nameEn) : id;
+    if (!s) return id;
+    const name = lang === 'ko' ? s.nameKo : s.nameEn;
+    // 변동 가격은 단일 가격으로 오인하지 않도록 표본의 현지 통화 범위를 함께 적는다
+    return w.code === 'variablePricing' && s.min !== s.max ? `${name} (${s.min}~${s.max} ${s.currency})` : name;
   }).join(', ');
   const rate = Math.round(MODEL.minFillRate * 100);
   const basket = w.basket ? (t.baskets[w.basket] ?? w.basket) : '';
@@ -257,7 +260,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
         </p>
       </div>
       <RatesNotice rates={rates} display={display} />
-      <AdSlot name="after-results" />
+      <AdSlot name="inline-results" />
     </section>
   );
 }

@@ -229,6 +229,20 @@ describe('불확실성 줄이기 규칙', () => {
     expect(e.warnings).toContainEqual({ category: 'transport', code: 'dailyCapApplied', ids: [cap.id] });
   });
 
+  it('하루 상한은 같은 대중교통 요금 체계에만 적용하고, 공유자전거 같은 별도 체계는 자르지 않는다', () => {
+    const cap = sample({ category: 'transport', subtype: '일일 상한', unit: '성인 1일', nameEn: 'Zones 1-2 Daily Cap', sourceUrl: 'https://cap.example', min: 5 });
+    const bike = sample({ category: 'transport', subtype: '공유자전거 1회권', unit: '성인 1인 1회(30분)', nameKo: '공유자전거 30분', nameEn: 'Bike Share 30-Minute Ride', sourceUrl: 'https://bike.example', min: 10 });
+    const rows = [...without(baseSamples(), 'transport'), ride(1), ride(2), bike, cap];
+    const e = estimateTrip(trip(), city, rows);
+    // 대중교통 {1, 2}: 일반형 [1, 2] × 하루 3회 = [3, 6] → 상한 5 → [3, 5]
+    // 공유자전거 {10}: [10, 10] × 3 = [30, 30] (상한 미적용)
+    // 두 범위를 합침 [3, 30] × 4일 × 2인 = [24, 240]
+    close(e.categories.transport.total, 24, 240);
+    expect(e.categories.transport.independentCount).toBe(3);
+    expect(e.warnings).toContainEqual({ category: 'transport', code: 'dailyCapApplied', ids: [cap.id] });
+    expect(e.warnings).toContainEqual({ category: 'transport', code: 'capExempt', ids: [bike.id] });
+  });
+
   it('상한보다 적게 쓰면 상한을 적용하지 않는다', () => {
     const cap = sample({ category: 'transport', subtype: '일일 상한', unit: '성인 1일', nameEn: 'Daily Cap', sourceUrl: 'https://cap.example', min: 100 });
     const e = estimateTrip(trip(), city, [...without(baseSamples(), 'transport'), ride(1), ride(2), ride(3), cap]);
@@ -398,6 +412,16 @@ describe('방문일 반영(날짜에 따라 달라지는 항목만)', () => {
     const after = estimateTrip(trip({ visitDate: '2027-08-01' }), city, rows);
     expect(after.categories.food.sufficient).toBe(false);
     expect(after.warnings.filter((w) => w.category === 'food').map((w) => w.code)).toEqual(['insufficient', 'dateExcluded']);
+  });
+
+  it('요일/기간형처럼 날짜별 금액을 고를 수 없는 범위 가격은 범위를 그대로 쓰고 변동 경고를 낸다', () => {
+    const arc = sample({ category: 'attraction', subtype: '랜드마크', priceType: '요일/기간형', unit: '성인 1인 1회', nameEn: 'Arc Ticket', sourceUrl: 'https://arc.example', min: 16, max: 22 });
+    const e = estimateTrip(trip(), city, [...baseSamples(), arc]);
+    expect(e.warnings).toContainEqual({ category: 'attraction', code: 'variablePricing', ids: [arc.id] });
+    // 평일/주말 변형으로 해결되는 요일형은 변동 경고 대상이 아니다
+    const wk = sample({ category: 'transport', subtype: '무제한권', unit: '성인 1일', priceType: '요일형', nameKo: '1일권 평일', nameEn: 'Pass Weekday', min: 9 });
+    const e2 = estimateTrip(trip(), city, [...baseSamples(), wk]);
+    expect(e2.warnings.some((w) => w.code === 'variablePricing' && w.category === 'transport')).toBe(false);
   });
 
   it('고정형 가격에는 방문일이 영향을 주지 않고, 전체에 성수기 배수를 곱하지 않는다', () => {

@@ -47,11 +47,11 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(foods.locator('[data-food="Gyudon"]')).toContainText('스키야 규동');
     await expect(foods.locator('[data-food="Ramen"]')).toContainText('아직 확인된 메뉴 가격이 없습니다');
 
-    // 광고는 자리만(입력 아래·결과 아래·음식 아래)
-    for (const slot of ['after-form', 'after-results', 'after-food']) {
+    // 광고는 자리만(좌우 레일 + 결과 뒤 인라인 1개). 실제 광고 코드·추적 스크립트 없음
+    for (const slot of ['rail-left', 'rail-right', 'inline-results']) {
       await expect(page.locator(`[data-ad-slot="${slot}"]`)).toHaveCount(1);
     }
-    expect(await page.locator('script[src*="googlesyndication"], ins.adsbygoogle').count()).toBe(0);
+    expect(await page.locator('script[src*="googlesyndication"], script[src*="googletagmanager"], script[src*="doubleclick"], ins.adsbygoogle').count()).toBe(0);
   });
 
   test('언어와 통화는 독립적이다', async ({ page }) => {
@@ -144,6 +144,34 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(page.getByTestId('result')).toHaveCount(0);
     await page.fill('#nights', '2');
     await expect(page.getByTestId('result')).toBeVisible();
+  });
+});
+
+test.describe('검수 지적 사항 화면 확인', () => {
+  test('파리 개선문은 범위(16~22 EUR)와 "확정 요금 아님" 경고로 보인다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/?lang=ko&city=paris&date=2026-07-01&nights=2&adults=1&children=0&style=standard&cur=EUR');
+    const q = page.getByTestId('quality').locator('[data-category="attraction"]');
+    await expect(q).toContainText('개선문');
+    await expect(q).toContainText('16~22 EUR');
+    await expect(q).toContainText('선택한 방문일의 확정 요금이 아니며');
+  });
+
+  test('런던 공유자전거는 대중교통 하루 상한과 별도로 계산됐다고 표시된다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/?lang=en&city=london&date=2026-11-04&nights=3&adults=1&children=0&style=comfort&cur=GBP');
+    const q = page.getByTestId('quality').locator('[data-category="transport"]');
+    await expect(q).toContainText('separate fare system');
+    await expect(q).toContainText('Santander Cycles');
+  });
+
+  test('다낭 참조각박물관은 재검증 필요로 표시된다(결과·방법론)', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/?lang=ko&city=da-nang&date=2026-11-04&nights=3&adults=1&children=0&style=standard&cur=KRW');
+    await expect(page.getByTestId('quality').locator('[data-category="attraction"]')).toContainText('재검증이 필요한 가격');
+    await page.goto('/methodology?lang=ko');
+    await expect(page.getByTestId('review-list')).toContainText('DAD-AT-004');
+    await expect(page.getByTestId('review-list')).toContainText('원문 미확인');
   });
 });
 

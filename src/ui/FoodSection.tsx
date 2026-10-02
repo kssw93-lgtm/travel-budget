@@ -1,6 +1,5 @@
 import type { City, FoodRecommendation, PriceSample } from '../core/types';
 import { fmt, useI18n } from '../i18n';
-import { AdSlot } from './AdSlot';
 import { convertRange, RangeText } from './money';
 import type { RatesState } from './useRates';
 import { cityName } from './TripForm';
@@ -19,7 +18,7 @@ export function FoodSection({ city, foods, samples, display, rates }: Props) {
   const mine = foods.filter((f) => f.cityId === city.id);
   const byId = new Map(samples.map((s) => [s.id, s]));
   const ratesData = rates.status === 'ok' ? rates.data : null;
-  if (mine.length === 0) return <AdSlot name="after-food" />;
+  if (mine.length === 0) return null;
 
   return (
     <section className="card foods" aria-labelledby="foods-title" data-testid="foods">
@@ -70,7 +69,6 @@ export function FoodSection({ city, foods, samples, display, rates }: Props) {
           );
         })}
       </ul>
-      <AdSlot name="after-food" />
     </section>
   );
 }

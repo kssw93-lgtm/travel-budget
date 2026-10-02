@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from 'react';
 import { estimateTrip } from '../core/estimate';
 import { cityById, cities, foods, samples } from '../data';
 import { useI18n } from '../i18n';
-import { AdSlot } from './AdSlot';
 import { FoodSection } from './FoodSection';
 import { parseForm, type FormState } from './form';
 import { RatesNotice, ResultView } from './ResultView';
@@ -77,7 +76,6 @@ export function Calculator({ go }: { go: Go }) {
         <p>{t.home.lead}</p>
       </section>
       <TripForm form={form} onChange={patch} errors={parsed.errors} cities={cities} rates={rates.status === 'ok' ? rates.data : null} />
-      <AdSlot name="after-form" />
       {estimate && parsed.trip && city ? (
         <>
           <ResultView

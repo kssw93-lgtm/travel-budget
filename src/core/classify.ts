@@ -27,6 +27,8 @@ export interface Classified {
   productKey: string;
   /** 1회권 합계의 하루 상한 요금 표본(TfL daily cap 등) */
   dailyCap: boolean;
+  /** 1회권이지만 대중교통 하루 상한과 다른 요금 체계(공유자전거 등)라 상한을 적용하지 않음 */
+  capExempt: boolean;
   /** 표시 가격에 세금·서비스료가 빠져 있음 */
   taxExcluded: boolean;
   /** 교통 표본이지만 관광 체험형 탑승이라 입장권 바스켓으로 옮김 */
@@ -40,7 +42,13 @@ export interface Classified {
 }
 
 const VARIABLE_TYPES = ['수요형', '일정/구성형', '일정/대상형'];
-export const isVariablePricing = (s: PriceSample): boolean => VARIABLE_TYPES.includes(s.priceType);
+/**
+ * 방문일·수요·구성에 따라 값이 달라지는데 날짜별 금액을 정확히 고를 수 없는 가격.
+ * '요일형'처럼 평일/주말 변형이 따로 있는 표본은 날짜로 해결되지만, '요일/기간형'처럼 한 행에
+ * 범위만 있는 표본(예: 개선문 4~9월 €22·수요일 €16, 10~3월 €16)은 범위를 그대로 쓰고 경고한다.
+ */
+export const isVariablePricing = (s: PriceSample, variant?: DayVariant): boolean =>
+  VARIABLE_TYPES.includes(s.priceType) || (s.priceType.includes('요일') && !variant);
 
 function audienceOf(s: PriceSample): Audience {
   const text = `${s.target} ${s.unit} ${s.subtype} ${s.nameKo} ${s.nameEn}`;
@@ -105,6 +113,7 @@ export function classify(s: PriceSample): Classified {
     sample: s,
     productKey: asAttraction ? venueKey(s) : productKey(s),
     dailyCap: s.category === 'transport' && KEYWORDS.dailyCap.test(`${s.subtype} ${s.nameEn}`),
+    capExempt: s.category === 'transport' && KEYWORDS.capExempt.test(`${s.subtype} ${s.nameKo} ${s.nameEn}`),
     taxExcluded: KEYWORDS.taxExcluded.test(`${s.note} ${s.unit}`),
     sightseeingRide,
     audience: audienceOf(s),

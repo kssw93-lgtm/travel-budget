@@ -108,10 +108,13 @@ test.describe('광고 자리 CLS', () => {
     await page.waitForTimeout(300);
     const cls = await page.evaluate(() => (window as unknown as { __cls: number }).__cls);
     expect(cls).toBeLessThan(0.1);
-    const expected = info.project.name === 'desktop' ? 120 : 250;
-    for (const slot of ['after-form', 'after-results', 'after-food']) {
+    // 넓은 화면은 좌우 레일(120px 표지), 그 밖에는 결과 뒤 인라인 1개(모바일 50px·태블릿 90px)만 보인다
+    const wide = (page.viewportSize()?.width ?? 0) >= 1200;
+    const visible = wide ? ['rail-left', 'rail-right'] : ['inline-results'];
+    for (const slot of visible) {
       const box = await page.locator(`[data-ad-slot="${slot}"]`).boundingBox();
-      expect(Math.round(box!.height)).toBe(expected);
+      const width = page.viewportSize()!.width;
+      expect(Math.round(box!.height), `${info.project.name} ${slot}`).toBe(wide ? 120 : width <= 640 ? 50 : 90);
     }
   });
 });

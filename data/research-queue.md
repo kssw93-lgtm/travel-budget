@@ -2,6 +2,7 @@
 
 > `npm run data:convert` 가 `travel_cost_research_pilot_v0.3_2026-10-02.xlsx` (v0.3) 로부터 만든 파일입니다. 직접 고치지 마세요.
 > 기준: 바스켓마다 **독립 표본 3건 이상**(같은 출처·같은 상품의 용량·기간·요일 변형, 같은 명소의 관람 옵션은 1건).
+> 수치는 가격 원장과 계산 코드로 다시 만든 것입니다. 엑셀의 "도시 초안"·"다음 조사 큐" 시트 수치는 쓰지 않습니다(작성 시점이 달라 오래된 값이 있을 수 있음).
 
 ## 1. 계산을 막는 부족 바스켓
 
@@ -65,3 +66,4 @@
 | PAR-SV-003 | 파리 | 마카롱 낱개 | 3.2~3.7 EUR | C | 조건부 | C등급, 조건부, 재검증 | [Paris shop menu sample](https://parisjetaime.com/eng/article/what-to-eat-in-paris-a954) |
 | LON-AT-005 | 런던 | 대영박물관 상설 관람 | 0 GBP | A | 예 | 재검증 | [British Museum](https://www.britishmuseum.org/visit) |
 | LON-SV-001 | 런던 | 대영박물관 숍 소형 굿즈 시작가 | 6.99 GBP | C | 조건부 | C등급, 조건부, 재검증, 시작가 표기 | [British Museum Shop](https://www.britishmuseumshoponline.org/) |
+| DAD-AT-004 | 다낭 | 다낭 참조각박물관 일반 입장권 | 60000 VND | A | 예 | 검수: 원문 미확인 | [Da Nang Museum of Cham Sculpture](https://chammuseum.vn/view.aspx?ID=45) |

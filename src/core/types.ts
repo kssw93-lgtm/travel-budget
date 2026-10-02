@@ -41,6 +41,8 @@ export interface PriceSample {
   sourceName: string;
   sourceUrl: string;
   note: string;
+  /** 검수 메모(data/overlays/review-flags.json). 가격·분류는 바꾸지 않고 재검증 필요만 표시 */
+  review?: { flag: string; flagEn: string; detail: string; reportedAt: string };
 }
 
 export interface City {
@@ -98,6 +100,7 @@ export type WarningCode =
   | 'lowFillRate'
   | 'basketOmitted'
   | 'dailyCapApplied'
+  | 'capExempt'
   | 'taxExcluded'
   | 'sightseeingRide';
 

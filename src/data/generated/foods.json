@@ -1,0 +1,550 @@
+[
+  {
+    "cityId": "tokyo",
+    "nameKo": "에도마에 스시",
+    "nameEn": "Edomae Sushi",
+    "reason": "도쿄를 대표하는 전통 스시",
+    "reasonEn": "Tokyo's signature traditional sushi",
+    "budgetBand": "중~고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "GO TOKYO",
+    "recommendUrl": "https://www.gotokyo.org/en/see-and-do/drinking-and-dining/tokyo-local-food/index.html",
+    "note": "저가 회전초밥·중가·오마카세를 분리 조사"
+  },
+  {
+    "cityId": "tokyo",
+    "nameKo": "소바",
+    "nameEn": "Soba",
+    "reason": "에도 시기부터 이어진 대중 음식",
+    "reasonEn": "An everyday noodle dish dating back to the Edo era",
+    "budgetBand": "저~중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "GO TOKYO",
+    "recommendUrl": "https://www.gotokyo.org/en/see-and-do/drinking-and-dining/tokyo-local-food/index.html",
+    "note": "현지 체인 3개 표본 필요"
+  },
+  {
+    "cityId": "tokyo",
+    "nameKo": "덴푸라",
+    "nameEn": "Tempura",
+    "reason": "도쿄 길거리 음식 역사와 연결",
+    "reasonEn": "Linked to Tokyo's street-food history",
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "TYO-FD-002"
+    ],
+    "priceStatus": "진행",
+    "recommendSource": "GO TOKYO",
+    "recommendUrl": "https://www.gotokyo.org/en/see-and-do/drinking-and-dining/tokyo-local-food/index.html",
+    "note": "관광지 식당 표본 확보"
+  },
+  {
+    "cityId": "tokyo",
+    "nameKo": "라멘",
+    "nameEn": "Ramen",
+    "reason": "세계적으로 알려진 도쿄 식사 옵션",
+    "reasonEn": "A Tokyo meal known worldwide",
+    "budgetBand": "저~중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "GO TOKYO",
+    "recommendUrl": "https://www.gotokyo.org/en/see-and-do/drinking-and-dining/tokyo-local-food/index.html",
+    "note": "체인/개인점 분리"
+  },
+  {
+    "cityId": "tokyo",
+    "nameKo": "규동",
+    "nameEn": "Gyudon",
+    "reason": "빠르고 저렴한 현지 한 끼 기준점",
+    "reasonEn": "A fast, cheap local meal that works as a price baseline",
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "TYO-FD-001"
+    ],
+    "priceStatus": "확보",
+    "recommendSource": "Sukiya",
+    "recommendUrl": "https://www.sukiya.jp/en/",
+    "note": "가격 기준 메뉴로 사용"
+  },
+  {
+    "cityId": "osaka",
+    "nameKo": "타코야키",
+    "nameEn": "Takoyaki",
+    "reason": "오사카 대표 길거리 음식",
+    "reasonEn": "Osaka's signature street food",
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "OSA-FD-001"
+    ],
+    "priceStatus": "재검증",
+    "recommendSource": "OSAKA INFO",
+    "recommendUrl": "https://www.osaka-info.jp/en/gourmet/osaka_cuisine/",
+    "note": "공식 메뉴 URL 보강"
+  },
+  {
+    "cityId": "osaka",
+    "nameKo": "오코노미야키",
+    "nameEn": "Okonomiyaki",
+    "reason": "오사카 소울푸드",
+    "reasonEn": "Osaka soul food",
+    "budgetBand": "저~중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "OSAKA INFO",
+    "recommendUrl": "https://www.osaka-info.jp/en/gourmet/osaka_cuisine/",
+    "note": "2개 전문점 메뉴 수집"
+  },
+  {
+    "cityId": "osaka",
+    "nameKo": "쿠시카츠",
+    "nameEn": "Kushikatsu",
+    "reason": "오사카식 꼬치튀김",
+    "reasonEn": "Osaka-style deep-fried skewers",
+    "budgetBand": "저~중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "OSAKA INFO",
+    "recommendUrl": "https://www.osaka-info.jp/en/gourmet/osaka_cuisine/",
+    "note": "1개 가격 대신 세트/인당액 수집"
+  },
+  {
+    "cityId": "osaka",
+    "nameKo": "우동스키",
+    "nameEn": "Udon Suki",
+    "reason": "오사카 다시 문화를 보여주는 음식",
+    "reasonEn": "A dish that showcases Osaka's dashi culture",
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "OSAKA INFO",
+    "recommendUrl": "https://www.osaka-info.jp/en/gourmet/osaka_cuisine/",
+    "note": "계절 메뉴 여부 확인"
+  },
+  {
+    "cityId": "osaka",
+    "nameKo": "니쿠만",
+    "nameEn": "Pork Bun",
+    "reason": "오사카 유명 간식·선물",
+    "reasonEn": "A famous Osaka snack and gift",
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "OSA-SV-001"
+    ],
+    "priceStatus": "확보",
+    "recommendSource": "551 HORAI",
+    "recommendUrl": "https://www.551horai.co.jp/menu/butaman/",
+    "note": "식사와 기념품 양쪽 후보"
+  },
+  {
+    "cityId": "bangkok",
+    "nameKo": "팟타이",
+    "nameEn": "Pad Thai",
+    "reason": "태국 대표 볶음면",
+    "reasonEn": "Thailand's signature stir-fried noodles",
+    "budgetBand": "저~중",
+    "linkedPriceIds": [
+      "BKK-FD-003"
+    ],
+    "priceStatus": "확보",
+    "recommendSource": "Tourism Authority of Thailand",
+    "recommendUrl": "https://www.tourismthailand.org/Articles/10-thai-dishes-you-must-try",
+    "note": "저가 전문점 표본 추가"
+  },
+  {
+    "cityId": "bangkok",
+    "nameKo": "똠얌꿍",
+    "nameEn": "Tom Yum Goong",
+    "reason": "태국 대표 새우 수프",
+    "reasonEn": "Thailand's signature spicy prawn soup",
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Authority of Thailand",
+    "recommendUrl": "https://www.tourismthailand.org/Articles/10-thai-dishes-you-must-try",
+    "note": "해산물 크기에 따른 변동 조사"
+  },
+  {
+    "cityId": "bangkok",
+    "nameKo": "쏨땀",
+    "nameEn": "Som Tum",
+    "reason": "대표 매운 파파야 샐러드",
+    "reasonEn": "The classic spicy papaya salad",
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Authority of Thailand",
+    "recommendUrl": "https://www.tourismthailand.org/Articles/10-thai-dishes-you-must-try",
+    "note": "시장/식당 가격 분리"
+  },
+  {
+    "cityId": "bangkok",
+    "nameKo": "카오팟",
+    "nameEn": "Khao Pad",
+    "reason": "현지 대중 식사 기준점",
+    "reasonEn": "A local everyday meal that works as a price baseline",
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "BKK-FD-001"
+    ],
+    "priceStatus": "확보",
+    "recommendSource": "Bully's Bangkok",
+    "recommendUrl": "https://bullys-bangkok.com/menu/thaidishes/",
+    "note": "재료별 범위 확보"
+  },
+  {
+    "cityId": "bangkok",
+    "nameKo": "망고 찹쌀밥",
+    "nameEn": "Mango Sticky Rice",
+    "reason": "인기 태국 디저트",
+    "reasonEn": "A popular Thai dessert",
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Authority of Thailand",
+    "recommendUrl": "https://www.tourismthailand.org/",
+    "note": "망고 계절성 확인"
+  },
+  {
+    "cityId": "da-nang",
+    "nameKo": "미꽝",
+    "nameEn": "Mi Quang",
+    "reason": "다낭·꽝남 대표 면요리",
+    "reasonEn": "The signature noodle dish of Da Nang and Quang Nam",
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "DAD-FD-001"
+    ],
+    "priceStatus": "확보",
+    "recommendSource": "Vietnam Tourism",
+    "recommendUrl": "https://www.vietnamtourism.com/en/da-nang-food-scene-what-and-where-to-eat",
+    "note": "길거리와 전문점 범위 확보"
+  },
+  {
+    "cityId": "da-nang",
+    "nameKo": "반쎄오",
+    "nameEn": "Banh Xeo",
+    "reason": "중부 베트남식 부침 요리",
+    "reasonEn": "Central Vietnamese-style savory pancake",
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Vietnam Tourism",
+    "recommendUrl": "https://www.vietnamtourism.com/en/da-nang-food-scene-what-and-where-to-eat",
+    "note": "1인분 단위 통일 필요"
+  },
+  {
+    "cityId": "da-nang",
+    "nameKo": "분짜까",
+    "nameEn": "Bun Cha Ca",
+    "reason": "어묵 국수·아침 메뉴",
+    "reasonEn": "Fish cake noodle soup, a breakfast favourite",
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Vietnam Tourism",
+    "recommendUrl": "https://www.vietnamtourism.com/en/da-nang-food-scene-what-and-where-to-eat",
+    "note": "아침 영업점 조사"
+  },
+  {
+    "cityId": "da-nang",
+    "nameKo": "해산물",
+    "nameEn": "Seafood",
+    "reason": "해안 도시 대표 식사",
+    "reasonEn": "The signature meal of a coastal city",
+    "budgetBand": "중~고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Vietnam Tourism",
+    "recommendUrl": "https://www.vietnamtourism.com/en/da-nang-food-scene-what-and-where-to-eat",
+    "note": "kg 가격·2인 식사 총액 분리"
+  },
+  {
+    "cityId": "da-nang",
+    "nameKo": "반미",
+    "nameEn": "Banh Mi",
+    "reason": "휴대하기 쉬운 저가 한 끼",
+    "reasonEn": "An easy-to-carry, low-cost meal",
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Vietnam Tourism",
+    "recommendUrl": "https://www.vietnamtourism.com/en/da-nang-food-scene-what-and-where-to-eat",
+    "note": "관광지/현지 매장 분리"
+  },
+  {
+    "cityId": "taipei",
+    "nameKo": "샤오롱바오",
+    "nameEn": "XiaoLongBao",
+    "reason": "타이베이 대표 만두",
+    "reasonEn": "Taipei's signature dumplings",
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "TPE-FD-001"
+    ],
+    "priceStatus": "재검증",
+    "recommendSource": "Taipei Travel",
+    "recommendUrl": "https://www.travel.taipei/en/must-visit/eat",
+    "note": "공식 매장가 보강"
+  },
+  {
+    "cityId": "taipei",
+    "nameKo": "우육면",
+    "nameEn": "Beef Noodle Soup",
+    "reason": "타이베이 대표 면요리",
+    "reasonEn": "Taipei's signature noodle dish",
+    "budgetBand": "저~중",
+    "linkedPriceIds": [
+      "TPE-FD-002"
+    ],
+    "priceStatus": "재검증",
+    "recommendSource": "Taipei Travel",
+    "recommendUrl": "https://www.travel.taipei/en/must-visit/eat",
+    "note": "고기 포함 일반 메뉴 표본 필요"
+  },
+  {
+    "cityId": "taipei",
+    "nameKo": "망고빙수",
+    "nameEn": "Mango Shaved Ice",
+    "reason": "관광객 인기 디저트",
+    "reasonEn": "A dessert popular with visitors",
+    "budgetBand": "저~중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Taipei Travel",
+    "recommendUrl": "https://www.travel.taipei/en/must-visit/eat",
+    "note": "망고 계절성 확인"
+  },
+  {
+    "cityId": "taipei",
+    "nameKo": "루러우판",
+    "nameEn": "Braised Pork Rice",
+    "reason": "야시장·대중 식사 기준점",
+    "reasonEn": "A night-market and everyday meal baseline",
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Taipei Travel",
+    "recommendUrl": "https://www.travel.taipei/en/must-visit/eat",
+    "note": "야시장 3곳 표본"
+  },
+  {
+    "cityId": "taipei",
+    "nameKo": "지파이",
+    "nameEn": "Fried Chicken Cutlet",
+    "reason": "야시장 대표 간식",
+    "reasonEn": "A signature night-market snack",
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Taipei Travel",
+    "recommendUrl": "https://www.travel.taipei/en/must-visit/eat",
+    "note": "크기/브랜드별 가격"
+  },
+  {
+    "cityId": "singapore",
+    "nameKo": "치킨라이스",
+    "nameEn": "Chicken Rice",
+    "reason": "싱가포르 대표 호커 음식",
+    "reasonEn": "Singapore's signature hawker dish",
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Singapore",
+    "recommendUrl": "https://www.visitsingapore.com/dining-drinks-singapore/local-dishes/",
+    "note": "호커센터 3곳 표본"
+  },
+  {
+    "cityId": "singapore",
+    "nameKo": "카야토스트",
+    "nameEn": "Kaya Toast",
+    "reason": "대표 아침식사",
+    "reasonEn": "The classic breakfast",
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "SIN-FD-001"
+    ],
+    "priceStatus": "재검증",
+    "recommendSource": "Visit Singapore",
+    "recommendUrl": "https://www.visitsingapore.com/dining-drinks-singapore/local-dishes/",
+    "note": "브랜드 공식 가격 확인"
+  },
+  {
+    "cityId": "singapore",
+    "nameKo": "락사",
+    "nameEn": "Laksa",
+    "reason": "페라나칸계 대표 면요리",
+    "reasonEn": "A signature Peranakan noodle dish",
+    "budgetBand": "저~중",
+    "linkedPriceIds": [
+      "SIN-FD-002"
+    ],
+    "priceStatus": "재검증",
+    "recommendSource": "Visit Singapore",
+    "recommendUrl": "https://www.visitsingapore.com/dining-drinks-singapore/local-dishes/",
+    "note": "호커/체인 분리"
+  },
+  {
+    "cityId": "singapore",
+    "nameKo": "로티 프라타",
+    "nameEn": "Roti Prata",
+    "reason": "저렴한 현지 식사·간식",
+    "reasonEn": "A cheap local meal or snack",
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Singapore",
+    "recommendUrl": "https://www.visitsingapore.com/dining-drinks-singapore/local-dishes/",
+    "note": "플레인/계란 세트 분리"
+  },
+  {
+    "cityId": "singapore",
+    "nameKo": "호키엔 미",
+    "nameEn": "Hokkien Mee",
+    "reason": "싱가포르식 볶음면",
+    "reasonEn": "Singapore-style stir-fried noodles",
+    "budgetBand": "저~중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Singapore",
+    "recommendUrl": "https://www.visitsingapore.com/dining-drinks-singapore/local-dishes/",
+    "note": "호커센터 표본 필요"
+  },
+  {
+    "cityId": "paris",
+    "nameKo": "바게트",
+    "nameEn": "Baguette",
+    "reason": "파리 일상 식문화 대표",
+    "reasonEn": "The staple of everyday Parisian food culture",
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Paris je t'aime",
+    "recommendUrl": "https://parisjetaime.com/eng/article/what-to-eat-in-paris-a954",
+    "note": "동네 빵집 3곳"
+  },
+  {
+    "cityId": "paris",
+    "nameKo": "크루아상",
+    "nameEn": "Croissant",
+    "reason": "대표 아침 페이스트리",
+    "reasonEn": "The classic breakfast pastry",
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Paris je t'aime",
+    "recommendUrl": "https://parisjetaime.com/eng/article/what-to-eat-in-paris-a954",
+    "note": "커피 세트와 단품 분리"
+  },
+  {
+    "cityId": "paris",
+    "nameKo": "양파수프",
+    "nameEn": "French Onion Soup",
+    "reason": "전통 파리 비스트로 메뉴",
+    "reasonEn": "A traditional Parisian bistro dish",
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Paris je t'aime",
+    "recommendUrl": "https://parisjetaime.com/eng/article/what-to-eat-in-paris-a954",
+    "note": "부용/호텔 가격대 분리"
+  },
+  {
+    "cityId": "paris",
+    "nameKo": "크레프",
+    "nameEn": "Crêpe",
+    "reason": "거리 음식·간단한 한 끼",
+    "reasonEn": "Street food and a quick bite",
+    "budgetBand": "저~중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Paris je t'aime",
+    "recommendUrl": "https://parisjetaime.com/eng/article/what-to-eat-in-paris-a954",
+    "note": "달콤/식사용 분리"
+  },
+  {
+    "cityId": "paris",
+    "nameKo": "마카롱",
+    "nameEn": "Macaron",
+    "reason": "인기 디저트·기념품",
+    "reasonEn": "A popular dessert and souvenir",
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "PAR-SV-003"
+    ],
+    "priceStatus": "재검증",
+    "recommendSource": "Paris je t'aime",
+    "recommendUrl": "https://parisjetaime.com/eng/article/what-to-eat-in-paris-a954",
+    "note": "3개 브랜드 공식몰 수집"
+  },
+  {
+    "cityId": "london",
+    "nameKo": "피시앤칩스",
+    "nameEn": "Fish and Chips",
+    "reason": "대표 영국식 한 끼",
+    "reasonEn": "A signature British meal",
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "LON-FD-004"
+    ],
+    "priceStatus": "재검증",
+    "recommendSource": "Visit London",
+    "recommendUrl": "https://www.visitlondon.com/blog/british-food-to-try-in-london",
+    "note": "공식 펍/전문점 3곳"
+  },
+  {
+    "cityId": "london",
+    "nameKo": "선데이 로스트",
+    "nameEn": "Sunday Roast",
+    "reason": "영국 일요일 전통 식사",
+    "reasonEn": "The traditional British Sunday meal",
+    "budgetBand": "중~고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit London",
+    "recommendUrl": "https://www.visitlondon.com/blog/british-food-to-try-in-london",
+    "note": "요일 한정·세트 구성"
+  },
+  {
+    "cityId": "london",
+    "nameKo": "애프터눈티",
+    "nameEn": "Afternoon Tea",
+    "reason": "런던 대표 체험형 식사",
+    "reasonEn": "London's signature experience meal",
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit London",
+    "recommendUrl": "https://www.visitlondon.com/blog/british-food-to-try-in-london",
+    "note": "호텔/일반 카페 가격 분리"
+  },
+  {
+    "cityId": "london",
+    "nameKo": "스테이크 앤 에일 파이",
+    "nameEn": "Steak and Ale Pie",
+    "reason": "대표 펍 음식",
+    "reasonEn": "A signature pub dish",
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit London",
+    "recommendUrl": "https://www.visitlondon.com/blog/british-food-to-try-in-london",
+    "note": "펍 3곳 메뉴"
+  },
+  {
+    "cityId": "london",
+    "nameKo": "풀 잉글리시 브렉퍼스트",
+    "nameEn": "Full English Breakfast",
+    "reason": "대표 영국식 아침",
+    "reasonEn": "The classic English breakfast",
+    "budgetBand": "저~중",
+    "linkedPriceIds": [
+      "LON-FD-003"
+    ],
+    "priceStatus": "재검증",
+    "recommendSource": "Visit London",
+    "recommendUrl": "https://www.visitlondon.com/blog/british-food-to-try-in-london",
+    "note": "공식 지점별 가격 확보"
+  }
+]

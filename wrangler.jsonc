@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "travel-budget",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-09-01",
+  // 정적 사이트(Vite 빌드 결과)를 서빙하고, /api/* 요청만 Worker 코드가 처리한다.
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  }
+}

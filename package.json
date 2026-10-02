@@ -1,0 +1,42 @@
+{
+  "name": "travel-budget",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "여행지 현지 체류비 범위 계산기 — Cloudflare Workers 배포용",
+  "scripts": {
+    "dev": "vite",
+    "dev:worker": "wrangler dev",
+    "data:convert": "tsx scripts/convert-xlsx.ts",
+    "lint": "eslint .",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy:check": "npm run build && wrangler deploy --dry-run",
+    "verify": "npm run lint && npm run typecheck && npm test && npm run build && npm run test:e2e"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260702.1",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^20.19.43",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "globals": "^17.13.0",
+    "tsx": "^4.23.15",
+    "typescript": "5.5",
+    "typescript-eslint": "^8.71.0",
+    "vite": "^5.4.21",
+    "vitest": "^2.1.9",
+    "wrangler": "^3.114.17",
+    "xlsx": "^0.18.5"
+  }
+}

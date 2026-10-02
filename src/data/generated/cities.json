@@ -1,0 +1,202 @@
+[
+  {
+    "id": "tokyo",
+    "country": "일본",
+    "countryEn": "Japan",
+    "nameKo": "도쿄",
+    "nameEn": "Tokyo",
+    "currency": "JPY",
+    "tier": "A",
+    "stage": "파일럿"
+  },
+  {
+    "id": "osaka",
+    "country": "일본",
+    "countryEn": "Japan",
+    "nameKo": "오사카",
+    "nameEn": "Osaka",
+    "currency": "JPY",
+    "tier": "A",
+    "stage": "파일럿"
+  },
+  {
+    "id": "bangkok",
+    "country": "태국",
+    "countryEn": "Thailand",
+    "nameKo": "방콕",
+    "nameEn": "Bangkok",
+    "currency": "THB",
+    "tier": "A",
+    "stage": "파일럿"
+  },
+  {
+    "id": "da-nang",
+    "country": "베트남",
+    "countryEn": "Vietnam",
+    "nameKo": "다낭",
+    "nameEn": "Da Nang",
+    "currency": "VND",
+    "tier": "A",
+    "stage": "파일럿"
+  },
+  {
+    "id": "taipei",
+    "country": "대만",
+    "countryEn": "Taiwan",
+    "nameKo": "타이베이",
+    "nameEn": "Taipei",
+    "currency": "TWD",
+    "tier": "A",
+    "stage": "파일럿"
+  },
+  {
+    "id": "singapore",
+    "country": "싱가포르",
+    "countryEn": "Singapore",
+    "nameKo": "싱가포르",
+    "nameEn": "Singapore",
+    "currency": "SGD",
+    "tier": "A",
+    "stage": "파일럿"
+  },
+  {
+    "id": "paris",
+    "country": "프랑스",
+    "countryEn": "France",
+    "nameKo": "파리",
+    "nameEn": "Paris",
+    "currency": "EUR",
+    "tier": "A",
+    "stage": "파일럿"
+  },
+  {
+    "id": "london",
+    "country": "영국",
+    "countryEn": "United Kingdom",
+    "nameKo": "런던",
+    "nameEn": "London",
+    "currency": "GBP",
+    "tier": "A",
+    "stage": "파일럿"
+  },
+  {
+    "id": "fukuoka",
+    "country": "일본",
+    "countryEn": "Japan",
+    "nameKo": "후쿠오카",
+    "nameEn": "Fukuoka",
+    "currency": "JPY",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "nha-trang",
+    "country": "베트남",
+    "countryEn": "Vietnam",
+    "nameKo": "나트랑",
+    "nameEn": "Nha Trang",
+    "currency": "VND",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "bali",
+    "country": "인도네시아",
+    "countryEn": "Indonesia",
+    "nameKo": "발리",
+    "nameEn": "Bali",
+    "currency": "IDR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "sapporo",
+    "country": "일본",
+    "countryEn": "Japan",
+    "nameKo": "삿포로",
+    "nameEn": "Sapporo",
+    "currency": "JPY",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "phu-quoc",
+    "country": "베트남",
+    "countryEn": "Vietnam",
+    "nameKo": "푸꾸옥",
+    "nameEn": "Phu Quoc",
+    "currency": "VND",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "hong-kong",
+    "country": "중국 홍콩",
+    "countryEn": "Hong Kong",
+    "nameKo": "홍콩",
+    "nameEn": "Hong Kong",
+    "currency": "HKD",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "kuala-lumpur",
+    "country": "말레이시아",
+    "countryEn": "Malaysia",
+    "nameKo": "쿠알라룸푸르",
+    "nameEn": "Kuala Lumpur",
+    "currency": "MYR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "istanbul",
+    "country": "튀르키예",
+    "countryEn": "Türkiye",
+    "nameKo": "이스탄불",
+    "nameEn": "Istanbul",
+    "currency": "TRY",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "dubai",
+    "country": "아랍에미리트",
+    "countryEn": "United Arab Emirates",
+    "nameKo": "두바이",
+    "nameEn": "Dubai",
+    "currency": "AED",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "new-york",
+    "country": "미국",
+    "countryEn": "United States",
+    "nameKo": "뉴욕",
+    "nameEn": "New York",
+    "currency": "USD",
+    "tier": "C",
+    "stage": "3차"
+  },
+  {
+    "id": "rome",
+    "country": "이탈리아",
+    "countryEn": "Italy",
+    "nameKo": "로마",
+    "nameEn": "Rome",
+    "currency": "EUR",
+    "tier": "C",
+    "stage": "3차"
+  },
+  {
+    "id": "barcelona",
+    "country": "스페인",
+    "countryEn": "Spain",
+    "nameKo": "바르셀로나",
+    "nameEn": "Barcelona",
+    "currency": "EUR",
+    "tier": "C",
+    "stage": "3차"
+  }
+]

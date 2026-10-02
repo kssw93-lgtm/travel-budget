@@ -4,6 +4,7 @@ import { ko } from '../../src/i18n/ko';
 import { fmt } from '../../src/i18n';
 import { parseForm, type FormState } from '../../src/ui/form';
 import { allCities, cities, foods, PILOT_STAGE, samples } from '../../src/data';
+import { cityGroups } from '../../src/ui/TripForm';
 
 const base: FormState = {
   cityId: 'taipei', visitDate: '2026-11-04', nights: '3', adults: '2', children: '0', style: 'standard',
@@ -102,5 +103,22 @@ describe('데이터 버전', () => {
     expect(dataMeta).toMatchObject({ source: latest.file, version: latest.version });
     expect(dataMeta.sampleCount).toBe(samples.length);
     expect(samples.some((s) => s.id.includes('TEST'))).toBe(false);
+  });
+});
+
+describe('도시 선택 묶음', () => {
+  const seoul = { ...cities[0]!, id: 'seoul', nameKo: '서울', nameEn: 'Seoul', country: '한국', countryEn: 'South Korea', currency: 'KRW' };
+  it('국내 도시가 없으면 묶지 않는다', () => {
+    expect(cityGroups(cities)).toEqual([{ key: null, items: cities }]);
+  });
+  it('국내 도시가 있으면 국내를 먼저, 해외를 뒤에 둔다', () => {
+    const g = cityGroups([...cities, seoul]);
+    expect(g.map((x) => x.key)).toEqual(['domestic', 'abroad']);
+    expect(g[0]!.items.map((c) => c.id)).toEqual(['seoul']);
+    expect(g[1]!.items).toHaveLength(cities.length);
+  });
+  it('소개 문구의 도시 목록·수는 데이터에서 만든다', () => {
+    expect(fmt(ko.about.sections[2]!.body[0]!, { cities: 'A·B', n: 2 })).toContain('A·B 2개 도시');
+    expect(fmt(en.about.sections[2]!.body[0]!, { cities: 'A, B', n: 2 })).toContain('2 cities are supported today (A, B)');
   });
 });

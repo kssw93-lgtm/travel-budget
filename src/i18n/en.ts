@@ -14,7 +14,7 @@ export const en: Messages = {
   },
   form: {
     title: 'Trip details',
-    city: 'City', visitDate: 'Visit date', nights: 'Nights', adults: 'Adults', children: 'Children',
+    city: 'City', domestic: 'South Korea', abroad: 'International', visitDate: 'Visit date', nights: 'Nights', adults: 'Adults', children: 'Children',
     style: 'Travel style',
     drinks: 'Include drinks (adults)',
     drinksHint: 'Beer, wine and similar: 1/2/3 drinks per adult per day (Budget/Standard/Comfort)', currency: 'Display currency', currencyHint: 'Currency is independent of the page language.',
@@ -169,7 +169,7 @@ export const en: Messages = {
         'We never import averages from other travel budget sites or fill gaps with estimates. Items without enough samples are shown as missing instead of as an amount.',
       ] },
       { h: 'Coverage', body: [
-        'Eight cities are supported today: Tokyo, Osaka, Bangkok, Da Nang, Taipei, Singapore, Paris and London, with more added as research is completed. Flights and lodging are not searched live; if you already know those costs you can enter them to add them up.',
+        '{n} cities are supported today ({cities}), with more added as research is completed. Flights and lodging are not searched live; if you already know those costs you can enter them to add them up.',
       ] },
       { h: 'How we operate', body: [
         'There is no sign-up, login, payment, booking, product sales or affiliate linking. The site is planned to be supported by advertising, placed only where it does not cover results or sources.',

@@ -16,6 +16,26 @@ export function cityName(c: City, lang: 'ko' | 'en'): string {
   return lang === 'ko' ? c.nameKo : c.nameEn;
 }
 
+const KOREA = new Set(['한국', '대한민국']);
+
+/** 국내 도시가 있으면 국내·해외로 묶고, 없으면 묶지 않는다(데이터에 있는 도시만 보여 준다) */
+export function cityGroups(list: City[]): Array<{ key: 'domestic' | 'abroad' | null; items: City[] }> {
+  const domestic = list.filter((c) => KOREA.has(c.country));
+  if (domestic.length === 0) return [{ key: null, items: list }];
+  return [
+    { key: 'domestic', items: domestic },
+    { key: 'abroad', items: list.filter((c) => !KOREA.has(c.country)) },
+  ];
+}
+
+function CityOption({ c, lang }: { c: City; lang: 'ko' | 'en' }) {
+  return (
+    <option value={c.id}>
+      {cityName(c, lang)} ({lang === 'ko' ? c.country : c.countryEn})
+    </option>
+  );
+}
+
 export function TripForm({ form, onChange, errors, cities, rates }: Props) {
   const { t, lang, locale } = useI18n();
   const L = MODEL.limits;
@@ -54,11 +74,15 @@ export function TripForm({ form, onChange, errors, cities, rates }: Props) {
         <div className="field wide">
           <label htmlFor="city">{t.form.city}</label>
           <select id="city" value={form.cityId} onChange={(e) => onChange({ cityId: e.target.value })}>
-            {cities.map((c) => (
-              <option key={c.id} value={c.id}>
-                {cityName(c, lang)} ({lang === 'ko' ? c.country : c.countryEn})
-              </option>
-            ))}
+            {cityGroups(cities).map((g) =>
+              g.key ? (
+                <optgroup key={g.key} label={t.form[g.key]}>
+                  {g.items.map((c) => <CityOption key={c.id} c={c} lang={lang} />)}
+                </optgroup>
+              ) : (
+                g.items.map((c) => <CityOption key={c.id} c={c} lang={lang} />)
+              ),
+            )}
           </select>
         </div>
         <div className="field span-3 m-6">

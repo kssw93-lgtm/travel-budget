@@ -42,10 +42,12 @@ function AmountRows({ range, local, display, rates }: { range: Range | null; loc
         <dt>{t.result.local} ({local})</dt>
         <dd><RangeText range={range} currency={local} /></dd>
       </div>
-      <div>
-        <dt>{t.result.selected} ({display})</dt>
-        <dd><RangeText range={range && convertRange(range, local, display, r)} currency={display} /></dd>
-      </div>
+      {display !== local && (
+        <div>
+          <dt>{t.result.selected} ({display})</dt>
+          <dd><RangeText range={range && convertRange(range, local, display, r)} currency={display} /></dd>
+        </div>
+      )}
       <div>
         <dt>{t.result.usd}</dt>
         <dd><RangeText range={range && convertRange(range, local, 'USD', r)} currency="USD" /></dd>

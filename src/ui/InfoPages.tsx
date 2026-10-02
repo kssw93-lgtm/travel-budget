@@ -1,6 +1,8 @@
 import { fmt, useI18n } from '../i18n';
 import { ExternalLink } from './ExternalLink';
 import { contactEmail } from './pages';
+import { cities } from '../data';
+import { cityName } from './TripForm';
 
 /** 문단 안의 http(s) 주소는 외부 링크로 바꾼다 */
 function Para({ text }: { text: string }) {
@@ -20,7 +22,8 @@ function Contact() {
 }
 
 export function About() {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
+  const list = cities.map((c) => cityName(c, lang)).join(lang === 'ko' ? '·' : ', ');
   const a = t.about;
   return (
     <article className="card prose" data-testid="about">
@@ -30,7 +33,7 @@ export function About() {
         <section key={s.h}>
           <h2>{s.h}</h2>
           {s.body.map((b) => (
-            <Para key={b} text={b} />
+            <Para key={b} text={fmt(b, { cities: list, n: cities.length })} />
           ))}
         </section>
       ))}

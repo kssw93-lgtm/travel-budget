@@ -29,11 +29,10 @@ describe('관광지 입장료 목록', () => {
 });
 
 describe('선택한 관광지로 관광 비용 계산', () => {
-  it('고르지 않으면 기존 평균 추정 그대로', () => {
-    const a = estimateTrip(trip('tokyo'), city('tokyo'), samples);
-    const b = estimateTrip(trip('tokyo', { attractionIds: [] }), city('tokyo'), samples);
-    expect(b.categories.attraction).toEqual(a.categories.attraction);
-    expect(a.categories.attraction.mode).toBe('estimated');
+  it('고르지 않으면 관광지 비용은 0 (자동으로 넣지 않음)', () => {
+    const e = estimateTrip(trip('tokyo'), city('tokyo'), samples);
+    expect(e.categories.attraction).toMatchObject({ mode: 'selected', total: { min: 0, max: 0 }, lines: [] });
+    expect(e.computable).toBe(true);
   });
 
   it('고른 곳의 입장료 합계(1곳 1회)로 바뀐다 — 도쿄 스카이트리 + 도쿄타워, 성인 2', () => {
@@ -59,9 +58,9 @@ describe('선택한 관광지로 관광 비용 계산', () => {
     expect(e.warnings.some((w) => w.code === 'childAsAdult' && w.category === 'attraction')).toBe(true);
   });
 
-  it('다른 도시의 ID 만 고르면 무시하고 평균 추정으로 돌아간다', () => {
+  it('다른 도시의 ID 만 고르면 무시한다(0)', () => {
     const e = estimateTrip(trip('tokyo', { attractionIds: ['LON-AT-001'] }), city('tokyo'), samples);
-    expect(e.categories.attraction.mode).toBe('estimated');
+    expect(e.categories.attraction.total).toEqual({ min: 0, max: 0 });
   });
 
   it('여행 기간에 판매하지 않는 곳은 빼고 알린다(오사카 산타마리아 크루즈 2026-10-01 부터)', () => {

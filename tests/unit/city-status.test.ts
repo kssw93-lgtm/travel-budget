@@ -90,15 +90,15 @@ describe('v0.3 신규 공식 표본이 실제 분류 규칙으로 부족 항목�
   it('파리 개선문은 €16–22 범위를 유지하고 변동 가격으로 경고된다', () => {
     const arc = samples.find((s) => s.id === 'PAR-AT-006')!;
     expect([arc.min, arc.max, arc.currency]).toEqual([16, 22, 'EUR']);
-    const e = estimateTrip({ cityId: 'paris', visitDate: '2026-11-04', nights: 3, adults: 2, children: 0, style: 'standard' }, cityById('paris')!, samples);
+    const e = estimateTrip({ cityId: 'paris', visitDate: '2026-11-04', nights: 3, adults: 2, children: 0, style: 'standard', attractionIds: ['PAR-AT-006'] }, cityById('paris')!, samples);
     expect(e.warnings.find((w) => w.code === 'variablePricing' && w.category === 'attraction')?.ids).toContain('PAR-AT-006');
   });
 });
 
 describe('검수 지적 사항', () => {
   const london = () => cityById('london')!;
-  const run = (cityId: string, visitDate: string, style: 'budget' | 'standard' | 'comfort' = 'standard') =>
-    estimateTrip({ cityId, visitDate, nights: 3, adults: 1, children: 0, style }, cityById(cityId)!, samples);
+  const run = (cityId: string, visitDate: string, attractionIds: string[] = []) =>
+    estimateTrip({ cityId, visitDate, nights: 3, adults: 1, children: 0, style: 'standard', attractionIds }, cityById(cityId)!, samples);
 
   it('런던 Santander Cycles(LON-TR-005)는 TfL 버스·지하철 일일 상한에 잘리지 않는다', () => {
     expect(classify(samples.find((s) => s.id === 'LON-TR-005')!)).toMatchObject({ basket: 'ride', capExempt: true });
@@ -115,9 +115,9 @@ describe('검수 지적 사항', () => {
 
   it('파리 개선문(PAR-AT-006) 월·요일 규칙은 자동 적용하지 않는다 — 방문일과 무관하게 €16–22 범위와 변동 경고', () => {
     // 4~9월 수요일 / 4~9월 목요일 / 11월: 규칙을 적용했다면 서로 달라야 하지만, 범위만 쓰므로 같아야 한다
-    const julWed = run('paris', '2026-07-01');
-    const julThu = run('paris', '2026-07-02');
-    const nov = run('paris', '2026-11-05');
+    const julWed = run('paris', '2026-07-01', ['PAR-AT-006']);
+    const julThu = run('paris', '2026-07-02', ['PAR-AT-006']);
+    const nov = run('paris', '2026-11-05', ['PAR-AT-006']);
     expect(julWed.categories.attraction.total).toEqual(julThu.categories.attraction.total);
     expect(julWed.categories.attraction.total).toEqual(nov.categories.attraction.total);
     for (const e of [julWed, julThu, nov]) {
@@ -134,7 +134,7 @@ describe('검수 지적 사항', () => {
   it('다낭 참조각박물관(DAD-AT-004)은 원문 미확인 → 가격은 그대로, 재검증 경고·조사 요청 목록에 표시', () => {
     const s = samples.find((x) => x.id === 'DAD-AT-004')!;
     expect([s.min, s.max, s.review?.flag]).toEqual([60000, 60000, '원문 미확인']);
-    const e = run('da-nang', '2026-11-04');
+    const e = run('da-nang', '2026-11-04', ['DAD-AT-004']);
     expect(e.computable).toBe(true);
     expect(e.warnings.find((w) => w.code === 'revalidation' && w.category === 'attraction')?.ids).toContain('DAD-AT-004');
     expect(readFileSync('data/research-queue.md', 'utf8')).toMatch(/DAD-AT-004 .*검수: 원문 미확인/);

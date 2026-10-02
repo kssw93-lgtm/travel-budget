@@ -24,7 +24,8 @@ export const MODEL = {
     snack: { budget: 1, standard: 1, comfort: 2 },
     /** 성인 1인 하루 술 잔(병) 수 — 음주 포함을 고른 경우만 */
     drink: { budget: 1, standard: 2, comfort: 3 },
-    attraction: { budget: 1, standard: 1, comfort: 2 },
+    /** 관광지는 자동 추정하지 않는다(사용자가 고른 곳 1회씩). 바스켓 구조상 값만 둔다 */
+    attraction: { budget: 1, standard: 1, comfort: 1 },
     souvenir: { budget: 2, standard: 3, comfort: 5 },
   } as Record<Basket, Record<TravelStyle, number>>,
   /** 여행 스타일별로 가격 분포(표본 끝점 정렬)에서 읽는 분위 구간 */
@@ -40,6 +41,12 @@ export const MODEL = {
 } as const;
 
 export const CATEGORIES: readonly Category[] = ['food', 'transport', 'attraction', 'souvenir'];
+
+/**
+ * 가격 분포로 자동 추정하는 비용군. 관광지는 갈지 말지 사용자가 정하는 것이라 자동으로 넣지 않고,
+ * 사용자가 고른 곳의 입장료만 더한다(고르지 않으면 0). 따라서 도시 판정(최소 표본·충족률)에서도 빠진다.
+ */
+export const ESTIMATED_CATEGORIES: readonly Category[] = ['food', 'transport', 'souvenir'];
 
 export const BASKETS: readonly Basket[] = ['pass', 'ride', 'meal', 'snack', 'drink', 'attraction', 'souvenir'];
 

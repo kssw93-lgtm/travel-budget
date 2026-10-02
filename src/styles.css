@@ -141,3 +141,4 @@ td.insufficient, .insufficient { color: var(--err); }
 .check-field label { display: inline-flex; gap: 8px; align-items: center; cursor: pointer; }
 .check-field input { width: 20px; height: 20px; min-height: 0; accent-color: var(--brand); }
 @media (max-width: 640px) { .detail-row { border-bottom: 1px solid var(--line); } }
+.attr-added { margin: 4px 0 0 30px; font-weight: 700; color: var(--brand); font-size: .92rem; }

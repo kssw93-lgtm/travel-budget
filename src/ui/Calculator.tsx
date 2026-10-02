@@ -93,6 +93,8 @@ export function Calculator({ go }: { go: Go }) {
           onChange={(attractions) => patch({ attractions })}
           display={form.currency}
           rates={rates}
+          adults={parsed.trip?.adults ?? 0}
+          children={parsed.trip?.children ?? 0}
         />
       )}
       {estimate && parsed.trip && city ? (

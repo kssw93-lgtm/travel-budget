@@ -170,7 +170,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
               <tr key={c} data-category={c}>
                 <th scope="row">
                   {catName(c)}
-                  <small>{est.mode === 'selected' ? fmt(t.result.selectedAttractions, { n: est.sampleCount }) : est.sufficient ? fmt(t.result.samples, { n: est.independentCount }) : ''}</small>
+                  <small>{est.mode === 'selected' ? (est.sampleCount ? fmt(t.result.selectedAttractions, { n: est.sampleCount }) : t.result.noAttractions) : est.sufficient ? fmt(t.result.samples, { n: est.independentCount }) : ''}</small>
                 </th>
                 {est.total ? (
                   <>
@@ -234,7 +234,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
                 </span>
               </summary>
               <ul className="baskets" data-testid={`baskets-${c}`}>
-                {est.mode === 'selected' && <li data-basket="selected">{fmt(t.result.selectedAttractions, { n: est.sampleCount })}</li>}
+                {est.mode === 'selected' && <li data-basket="selected">{est.sampleCount ? fmt(t.result.selectedAttractions, { n: est.sampleCount }) : t.result.noAttractions}</li>}
                 {est.mode === 'estimated' && est.baskets.filter((b) => b.sampleCount > 0 || b.included).map((b) => (
                   <li key={b.basket} data-basket={b.basket}>
                     {fmt(t.result.basketLine, { name: t.baskets[b.basket] ?? b.basket, n: b.sampleCount, ind: b.independentCount })} ·{' '}

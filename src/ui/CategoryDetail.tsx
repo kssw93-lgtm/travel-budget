@@ -93,7 +93,11 @@ export function CategoryDetail({ est, currency, display, rates, people, adults }
                     <th scope="row">
                       {fmt(d.day, { n: l.day ?? 0 })} <small>{l.date}</small>
                     </th>
-                    <td data-label={d.colUnits}>{fmt(d.units[basket] ?? '{n}', { n: round1(l.units) })}</td>
+                    <td data-label={d.colUnits}>
+                      {l.weight && l.weight < 1
+                        ? `${fmt(d.units[basket] ?? '{n}', { n: round1(l.units / l.weight) })} × ${Math.round(l.weight * 100)}%`
+                        : fmt(d.units[basket] ?? '{n}', { n: round1(l.units) })}
+                    </td>
                     <td data-label={d.unitWord[basket]}>{money(l.unitPrice)}</td>
                     <td data-label={d.colTotal}>
                       {money(l.total)}
@@ -107,8 +111,7 @@ export function CategoryDetail({ est, currency, display, rates, people, adults }
         );
       })}
       {isAlt && <p className="hint">{d.alternatives}</p>}
-      {est.lines.some((l) => l.kind === 'day' && l.units % 1 !== 0) && <p className="hint">{d.edgeNote}</p>}
-      {est.category === 'attraction' && est.mode === 'estimated' && <p className="hint">{d.attractionHint}</p>}
+      {est.lines.some((l) => l.kind === 'day' && l.weight !== undefined && l.weight < 1) && <p className="hint">{d.edgeNote}</p>}
       {est.contingency && est.total && (
         <p className="detail-line contingency-line" data-line="contingency">
           {fmt(d.contingency, { rate: Math.round(MODEL.contingencyRate * 100) })} +{money(est.contingency)} · {d.withContingency}{' '}

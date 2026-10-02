@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { dayWeights, estimateTrip } from '../../src/core/estimate';
+import { dayWeights, estimateTrip, summarizeCity } from '../../src/core/estimate';
 import { MODEL } from '../../src/core/model-config';
 import { attr, baseSamples, city, gift, meal, pass, ride, sample, snack, trip } from './fixtures';
 
@@ -20,19 +20,19 @@ describe('기본 계산 규칙', () => {
     expect(estimateTrip(trip({ nights: 3 }), city, baseSamples()).days).toBe(4);
   });
 
-  it('음식 + 교통 + 관광 + 기념품 합에 예비비 10%를 더해 최소~최대로 낸다 (일반형, 성인 2, 3박)', () => {
+  it('외식 + 교통 + 기념품(+ 고른 관광지) 합에 예비비 10%를 더해 최소~최대로 낸다 (일반형, 성인 2, 3박)', () => {
     const e = estimateTrip(trip(), city, baseSamples());
     // 식사 3회 × [12.5, 27.5] × 가중합 3.2 × 2인
     close(e.categories.food.total, 240, 528);
     // 1일 이용권 [12.5, 27.5] × 4일 × 2인 (첫·마지막 날도 이용권은 하루치)
     close(e.categories.transport.total, 100, 220);
-    // 입장권 1회 × [125, 275] × 3.2 × 2인
-    close(e.categories.attraction.total, 800, 1760);
+    // 관광지는 자동 추정하지 않는다: 고른 곳이 없으면 0
+    expect(e.categories.attraction).toMatchObject({ mode: 'selected', total: { min: 0, max: 0 }, sufficient: true });
     // 기념품 3개 × 2인 × [7.5, 22.5]
     close(e.categories.souvenir.total, 45, 135);
-    close(e.subtotal, 1185, 2643);
-    close(e.contingency, 118.5, 264.3);
-    close(e.total, 1303.5, 2907.3);
+    close(e.subtotal, 385, 883);
+    close(e.contingency, 38.5, 88.3);
+    close(e.total, 423.5, 971.3);
     close(e.dailyFoodAverage, 60, 132);
     expect(e.computable).toBe(true);
     expect(e.currency).toBe('TST');
@@ -44,8 +44,8 @@ describe('기본 계산 규칙', () => {
     const standard = estimateTrip(trip(), city, baseSamples());
     expect(budget.total!.max).toBeLessThan(standard.total!.max);
     expect(comfort.total!.min).toBeGreaterThan(standard.total!.min);
-    // 여유형은 하루 입장권 2회, 상위 50~100% 구간 [200, 300]
-    close(comfort.categories.attraction.total, 2 * 3.2 * 2 * 200, 2 * 3.2 * 2 * 300);
+    // 관광지는 스타일과 무관하게 고른 곳만(여기선 0)
+    expect(comfort.categories.attraction.total).toEqual({ min: 0, max: 0 });
   });
 
   it('인원이 늘면 비례해서 늘어난다', () => {
@@ -138,9 +138,7 @@ describe('독립 표본(같은 출처의 용량·기간 변형 과대 계산 방
     const adultChild = (target: string, unit: string, v: number) =>
       sample({ category: 'attraction', subtype: '정원', sourceUrl: 'https://garden.example', nameKo: '플라워돔', nameEn: 'Flower Dome', target, unit, min: v });
     const rows = [...without(baseSamples(), 'attraction'), attr(100), adultChild('비거주자', '비거주 성인 1인', 46), adultChild('아동 3-12', '비거주 아동 1인', 32)];
-    const e = estimateTrip(trip(), city, rows);
-    expect(e.categories.attraction.independentCount).toBe(2);
-    expect(e.categories.attraction.sufficient).toBe(false);
+    expect(summarizeCity(city, rows).baskets.attraction).toBe(2);
   });
 
   it('같은 상품의 용량 차이(4개입·8개입)도 1건으로 센다', () => {
@@ -206,9 +204,9 @@ describe('불확실성 줄이기 규칙', () => {
   it('케이블카·곤돌라 같은 관광 탑승은 1회권이 아니라 관광 입장권 바스켓으로 간다', () => {
     const cable = sample({ category: 'transport', subtype: '케이블카 1회권', unit: '성인 1인 1회', nameKo: '케이블카', nameEn: 'Cable Car One-Way', sourceUrl: 'https://cable.example', min: 7 });
     const rows = [...without(baseSamples(), 'transport'), ride(1), ride(2), cable];
-    const e = estimateTrip(trip(), city, rows);
+    const e = estimateTrip(trip({ attractionIds: [cable.id] }), city, rows);
     expect(e.categories.transport.sufficient).toBe(false); // 1회권은 2건만 남음
-    expect(e.categories.attraction.independentCount).toBe(4);
+    expect(summarizeCity(city, rows).baskets.attraction).toBe(4);
     expect(e.warnings).toContainEqual({ category: 'attraction', code: 'sightseeingRide', ids: [cable.id] });
   });
 
@@ -216,8 +214,7 @@ describe('불확실성 줄이기 규칙', () => {
     const eiffel = (name: string, v: number) =>
       sample({ category: 'attraction', subtype: '랜드마크', unit: '성인 1인', sourceUrl: 'https://eiffel.example/rates', nameKo: name, nameEn: name, min: v });
     const rows = [...without(baseSamples(), 'attraction'), attr(100), eiffel('Eiffel Tower 2nd Floor by Stairs', 14.8), eiffel('Eiffel Tower 2nd Floor by Elevator', 23.5), eiffel('Eiffel Tower Summit by Elevator', 36.7)];
-    const e = estimateTrip(trip(), city, rows);
-    expect(e.categories.attraction).toMatchObject({ sufficient: false, independentCount: 2 });
+    expect(summarizeCity(city, rows).baskets.attraction).toBe(2);
   });
 
   it('공식 하루 상한(daily cap)이 있으면 1회권 하루 비용을 그 금액으로 자른다', () => {
@@ -273,7 +270,7 @@ describe('데이터 부족 상태', () => {
 
   it('표본이 아예 없는 도시는 모든 비용군이 부족이다', () => {
     const e = estimateTrip(trip(), city, []);
-    expect(e.missing).toHaveLength(4);
+    expect(e.missing).toEqual(['food', 'transport', 'souvenir']); // 관광지는 선택형이라 부족 판정 대상이 아님
     expect(e.total).toBeNull();
   });
 
@@ -285,7 +282,7 @@ describe('데이터 부족 상태', () => {
       const two = [pass(1), pass(2), meal(1), meal(2), attr(1), attr(2), gift(1), gift(2)];
       const e = estimateTrip(trip(), city, two);
       expect(e.missing).toEqual([]);
-      expect(e.fillRate).toBeCloseTo(8 / 12, 6);
+      expect(e.fillRate).toBeCloseTo(6 / 9, 6);
       expect(e.computable).toBe(false);
       expect(e.total).toBeNull();
       expect(e.warnings.some((w) => w.code === 'lowFillRate')).toBe(true);
@@ -315,8 +312,7 @@ describe('표본 제외 규칙', () => {
 
   it('"○○ 미만" 상한 문구(최소 0·최대>0)는 관측 가격이 아니라 제외하지만, 0·0 무료 입장은 포함', () => {
     sameResult({ category: 'food', subtype: '저가 식사', min: 0, max: 9999 });
-    const free = estimateTrip(trip(), city, [...baseSamples(), sample({ category: 'attraction', subtype: '박물관', min: 0 })]);
-    expect(free.categories.attraction.sampleCount).toBe(4);
+    expect(summarizeCity(city, [...baseSamples(), sample({ category: 'attraction', subtype: '박물관', min: 0 })]).baskets.attraction).toBe(4);
   });
 
   it('거주자 전용(EEA) 요금과 왕복·구간 교통 요금은 제외', () => {
@@ -416,7 +412,7 @@ describe('방문일 반영(날짜에 따라 달라지는 항목만)', () => {
 
   it('요일/기간형처럼 날짜별 금액을 고를 수 없는 범위 가격은 범위를 그대로 쓰고 변동 경고를 낸다', () => {
     const arc = sample({ category: 'attraction', subtype: '랜드마크', priceType: '요일/기간형', unit: '성인 1인 1회', nameEn: 'Arc Ticket', sourceUrl: 'https://arc.example', min: 16, max: 22 });
-    const e = estimateTrip(trip(), city, [...baseSamples(), arc]);
+    const e = estimateTrip(trip({ attractionIds: [arc.id] }), city, [...baseSamples(), arc]);
     expect(e.warnings).toContainEqual({ category: 'attraction', code: 'variablePricing', ids: [arc.id] });
     // 평일/주말 변형으로 해결되는 요일형은 변동 경고 대상이 아니다
     const wk = sample({ category: 'transport', subtype: '무제한권', unit: '성인 1일', priceType: '요일형', nameKo: '1일권 평일', nameEn: 'Pass Weekday', min: 9 });

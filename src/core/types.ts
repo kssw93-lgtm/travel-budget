@@ -98,8 +98,10 @@ export interface DetailLine {
   /** 1부터 시작하는 일차 */
   day?: number;
   date?: string;
-  /** 1인 이용 횟수(끼니·회·곳). trip 은 여행 전체 개수 */
+  /** 1인 이용 횟수(끼니·회·곳). trip 은 여행 전체 개수. 첫날·마지막 날은 기본 횟수 × weight */
   units: number;
+  /** 첫날·마지막 날 비율(1 이 아니면 '3끼 × 60%' 처럼 표시) */
+  weight?: number;
   /** 성인 1회(1끼·1회·1곳·1개) 가격 범위 */
   unitPrice: Range;
   /** 그날(또는 여행 전체) 전 인원 합계 */

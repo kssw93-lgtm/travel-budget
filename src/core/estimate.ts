@@ -1,6 +1,6 @@
 import { classify, isVariablePricing, type Classified, type ExcludeReason } from './classify';
 import { addDays } from './dates';
-import { BASKET_RULES, BASKETS, CATEGORIES, EDGE_WEIGHTED, MODEL } from './model-config';
+import { BASKET_RULES, BASKETS, CATEGORIES, EDGE_WEIGHTED, ESTIMATED_CATEGORIES, MODEL } from './model-config';
 import { attractionOptions } from './attractions';
 import { endpoints, independentCount, poolOnDate, selectUsable, styleRange } from './pool';
 import type {
@@ -181,7 +181,7 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
       }
       const dayTotal = scale(day, w);
       total = add(total, dayTotal);
-      run.lines.push({ kind: 'day', basket, day: i + 1, date, units: perUse * w, unitPrice: adult.unit, total: dayTotal });
+      run.lines.push({ kind: 'day', basket, day: i + 1, date, units: perUse * w, weight: w, unitPrice: adult.unit, total: dayTotal });
     }
     run.childAsAdult = input.children > 0 && !hasChildPool && basket !== 'drink';
   }
@@ -304,8 +304,8 @@ export function estimateTrip(input: TripInput, city: City, samples: PriceSample[
   const categories = {} as Record<Category, CategoryEstimate>;
   const warnings: Warning[] = [];
   for (const c of CATEGORIES) {
-    const selected = c === 'attraction' && input.attractionIds?.length ? selectedAttractions(city, samples, input, dates) : null;
-    const run = selected ?? estimateCategory(c, classified, input, dates, weights);
+    // 관광지는 자동 추정하지 않는다: 고른 곳의 입장료 합계, 고르지 않으면 0
+    const run = c === 'attraction' ? selectedAttractions(city, samples, input, dates) : estimateCategory(c, classified, input, dates, weights);
     categories[c] = run.estimate;
     warnings.push(...run.warnings);
   }
@@ -374,13 +374,13 @@ export function summarizeCity(city: City, samples: PriceSample[]): CitySummary {
     counts[c] = Math.max(0, ...pool.map((b) => baskets[b]));
   }
   const fillRate =
-    CATEGORIES.reduce((sum, c) => sum + Math.min(MODEL.fillRateCap, counts[c]), 0) / (MODEL.fillRateCap * CATEGORIES.length);
+    ESTIMATED_CATEGORIES.reduce((sum, c) => sum + Math.min(MODEL.fillRateCap, counts[c]), 0) / (MODEL.fillRateCap * ESTIMATED_CATEGORIES.length);
   return {
     counts,
     baskets,
     basketRows,
     fillRate,
-    missing: CATEGORIES.filter((c) => counts[c] < MODEL.minSamplesPerCategory),
+    missing: ESTIMATED_CATEGORIES.filter((c) => counts[c] < MODEL.minSamplesPerCategory),
     excluded: rows.filter((r) => !r.usable).map((r) => ({ sample: r.sample, reason: r.excludeReason as ExcludeReason })),
     totalRows: rows.length,
   };
@@ -413,18 +413,17 @@ export function cityStatus(city: City, samples: PriceSample[]): CityStatus {
 
 /**
  * 사용자가 고른 관광지의 입장료 합계. 1곳당 1회 방문, 성인 요금 × 성인 + (아동 요금이 있으면 아동 요금, 없으면 성인 요금) × 아동.
- * 여행 기간 중 하루라도 판매·유효 기간에 드는 곳만 더하고, 아닌 곳은 경고로 알린다. 고른 곳이 모두 무효면 null(평균 추정으로 대체).
+ * 여행 기간 중 하루라도 판매·유효 기간에 드는 곳만 더하고, 아닌 곳은 경고로 알린다. 고른 곳이 없으면 0.
  */
-function selectedAttractions(city: City, samples: PriceSample[], input: TripInput, dates: string[]): { estimate: CategoryEstimate; warnings: Warning[] } | null {
+function selectedAttractions(city: City, samples: PriceSample[], input: TripInput, dates: string[]): { estimate: CategoryEstimate; warnings: Warning[] } {
   const ids = new Set(input.attractionIds ?? []);
   const options = attractionOptions(city, samples).filter((o) => ids.has(o.id));
-  if (options.length === 0) return null;
+
   const validSomeDay = (r: Classified) => dates.some((d) => poolOnDate([r], d).rows.length > 0);
   const chosen = options.filter((o) => validSomeDay(o.adult));
   const dropped = options.filter((o) => !chosen.includes(o)).map((o) => o.id);
   const warnings: Warning[] = [];
   if (dropped.length) warnings.push({ category: 'attraction', code: 'dateExcluded', ids: dropped });
-  if (chosen.length === 0) return null;
 
   let total: Range = ZERO;
   const used: Classified[] = [];
@@ -456,7 +455,7 @@ function selectedAttractions(city: City, samples: PriceSample[], input: TripInpu
       contingency: null,
       baskets: [{ basket: 'attraction', sampleCount: chosen.length, independentCount: chosen.length, childSampleCount: used.length - chosen.length, sufficient: true, included: true }],
       total,
-      perPersonPerDay: scale(total, 1 / (people * dates.length)),
+      perPersonPerDay: scale(total, 1 / Math.max(1, people * dates.length)),
       sampleCount: chosen.length,
       independentCount: chosen.length,
       childSampleCount: used.length - chosen.length,

@@ -16,7 +16,6 @@ export function Methodology() {
     meals: MODEL.usage.meal.standard,
     snacks: styleList('snack'),
     rides: styleList('ride'),
-    attractions: styleList('attraction'),
     souvenirs: styleList('souvenir'),
     contingency: MODEL.contingencyRate * 100,
     min: MODEL.minSamplesPerCategory,

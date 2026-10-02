@@ -153,7 +153,7 @@ test.describe('계산기 핵심 흐름', () => {
 test.describe('검수 지적 사항 화면 확인', () => {
   test('파리 개선문은 범위(16~22 EUR)와 "확정 요금 아님" 경고로 보인다', async ({ page }) => {
     await mockRates(page);
-    await page.goto('/?lang=ko&city=paris&date=2026-07-01&nights=2&adults=1&children=0&style=standard&cur=EUR');
+    await page.goto('/?lang=ko&city=paris&date=2026-07-01&nights=2&adults=1&children=0&style=standard&cur=EUR&attr=PAR-AT-006');
     const q = page.getByTestId('quality').locator('[data-category="attraction"]');
     await expect(q).toContainText('개선문');
     await expect(q).toContainText('16~22 EUR');
@@ -170,7 +170,7 @@ test.describe('검수 지적 사항 화면 확인', () => {
 
   test('다낭 참조각박물관은 재검증 필요로 표시된다(결과·방법론)', async ({ page }) => {
     await mockRates(page);
-    await page.goto('/?lang=ko&city=da-nang&date=2026-11-04&nights=3&adults=1&children=0&style=standard&cur=KRW');
+    await page.goto('/?lang=ko&city=da-nang&date=2026-11-04&nights=3&adults=1&children=0&style=standard&cur=KRW&attr=DAD-AT-004');
     await expect(page.getByTestId('quality').locator('[data-category="attraction"]')).toContainText('재검증이 필요한 가격');
     await page.goto('/methodology?lang=ko');
     await expect(page.getByTestId('review-list')).toContainText('DAD-AT-004');
@@ -245,11 +245,14 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await mockRates(page);
     await page.goto('/?lang=ko&city=london&date=2026-11-04&nights=3&adults=2&children=1&style=standard&cur=GBP');
     const row = page.locator('tr[data-category="attraction"]');
-    await expect(row).toContainText('독립 표본');
-    await page.getByTestId('attractions').locator('summary').click();
+    // 고르기 전에는 관광지 비용 0, 목록은 처음부터 펼쳐져 있다
+    await expect(row).toContainText('선택 안 함');
+    await expect(row).toContainText('£0.00');
+    await expect(page.getByTestId('attractions').locator('details')).toHaveAttribute('open', '');
     await page.locator('[data-attraction="LON-AT-001"] input').check();
     await page.locator('[data-attraction="LON-AT-003"] input').check();
-    await expect(page.getByTestId('attractions-status')).toContainText('2곳 선택');
+    await expect(page.getByTestId('attractions-status')).toContainText('2곳 선택 · +£179.00 ~ £208.00');
+    await expect(page.locator('[data-attraction="LON-AT-001"] [data-testid="attr-added"]')).toContainText('+£95.00 (전체 3명)'); // 38×2 + 19
     await expect(row).toContainText('선택한 관광지 2곳');
     // 2×(38+29)+(19+26) = 179, 2×(38+39)+(19+35) = 208
     await expect(row).toContainText('£179.00 ~ £208.00');
@@ -266,7 +269,6 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
   test('입장료 목록은 성인·아동 요금, 변동 범위, 재검증 표시와 출처를 보여준다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/?lang=en&city=london&date=2026-11-04&nights=3&adults=1&children=0&style=standard&cur=USD');
-    await page.getByTestId('attractions').locator('summary').click();
     const eye = page.locator('[data-attraction="LON-AT-003"]');
     await expect(eye).toContainText('Adult £29.00 ~ £39.00');
     await expect(eye).toContainText('Child £26.00 ~ £35.00');
@@ -295,7 +297,7 @@ test.describe('항목별 자세히 보기·음주', () => {
     const food = page.locator('[data-detail="food"]');
     await food.locator('summary').click();
     await expect(food.locator('[data-line="day-1"]')).toContainText('1일차');
-    await expect(food.locator('[data-line="day-1"]')).toContainText('1.8끼');
+    await expect(food.locator('[data-line="day-1"]')).toContainText('3끼 × 60%');
     await expect(food.locator('[data-line="day-2"]')).toContainText('3끼');
     await expect(food.locator('[data-line="day-4"]')).toContainText('2026-11-07');
     await expect(food.locator('[data-line="contingency"]')).toContainText('예비비 10%');
@@ -311,6 +313,7 @@ test.describe('항목별 자세히 보기·음주', () => {
   test('음주 포함을 고르면 URL 에 남고, 주류 가격 자료가 없으면 금액 대신 안내한다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/?lang=ko&city=paris&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=EUR');
+    await expect(page.getByTestId('rates-info')).toBeVisible();
     const before = (await page.locator('tr[data-category="food"]').textContent()) ?? '';
     await page.getByLabel('음주 포함 (성인)').check();
     await expect(page).toHaveURL(/drink=1/);

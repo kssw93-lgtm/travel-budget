@@ -6,16 +6,12 @@ import { Calculator } from './Calculator';
 import { Methodology } from './Methodology';
 import { applyMeta } from './meta';
 import { calcMemory, readLang, withLang } from './urlState';
+import { currentLoc, isPreview, pushLoc, replaceLoc, type Loc } from './router';
 
 export type Go = (to: string) => void;
 
-interface Loc {
-  pathname: string;
-  search: string;
-  hash: string;
-}
 
-const current = (): Loc => ({ pathname: window.location.pathname, search: window.location.search, hash: window.location.hash });
+const current = (): Loc => currentLoc();
 const isMethod = (p: string) => p === '/methodology' || p === '/methodology/' || p === '/methodology.html';
 
 function useLocation(): [Loc, Go] {
@@ -26,7 +22,7 @@ function useLocation(): [Loc, Go] {
     return () => window.removeEventListener('popstate', onPop);
   }, []);
   const go = useCallback<Go>((to) => {
-    window.history.pushState({}, '', to);
+    pushLoc(to);
     setLoc(current());
   }, []);
   return [loc, go];
@@ -48,7 +44,7 @@ export function InternalLink({ to, go, children, ...rest }: { to: string; go: Go
 
 export function App() {
   const [loc, go] = useLocation();
-  const [lang, setLang] = useState<Lang>(() => readLang(window.location.search) ?? detectLang());
+  const [lang, setLang] = useState<Lang>(() => readLang(currentLoc().search) ?? detectLang());
   const t = messages[lang];
   const page = isMethod(loc.pathname) ? 'methodology' : 'calculator';
   const first = useRef(true);
@@ -63,7 +59,7 @@ export function App() {
     }
     if (page === 'methodology') {
       const next = `${loc.pathname}${withLang(loc.search, lang)}${loc.hash}`;
-      if (next !== `${loc.pathname}${loc.search}${loc.hash}`) window.history.replaceState({}, '', next);
+      if (next !== `${loc.pathname}${loc.search}${loc.hash}`) replaceLoc(next);
     }
   }, [lang, page, loc.pathname, loc.search, loc.hash]);
 
@@ -112,6 +108,11 @@ export function App() {
           <AdSlot name="rail-left" />
         </div>
         <main id="main" className="wrap" tabIndex={-1}>
+          {isPreview && (
+            <p className="notice preview-banner" role="note" data-testid="preview-banner">
+              {t.preview.banner}
+            </p>
+          )}
           {page === 'methodology' ? <Methodology /> : <Calculator go={go} />}
         </main>
         <div className="ad-rail">

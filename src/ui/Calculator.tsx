@@ -11,6 +11,7 @@ import { TripForm } from './TripForm';
 import { useRates } from './useRates';
 import type { Go } from './App';
 import { calcMemory, formToSearch, readForm } from './urlState';
+import { currentLoc, replaceLoc } from './router';
 
 const today = () => {
   const d = new Date();
@@ -30,7 +31,7 @@ export function Calculator({ go }: { go: Go }) {
   const { t, lang } = useI18n();
   const rates = useRates();
   const [form, setForm] = useState<FormState>(() => {
-    const fromUrl = readForm(window.location.search, cities.map((c) => c.id));
+    const fromUrl = readForm(currentLoc().search, cities.map((c) => c.id));
     const currency = savedCurrency() ?? (lang === 'ko' ? 'KRW' : 'USD');
     return {
       cityId: cities[0]?.id ?? '',
@@ -65,7 +66,8 @@ export function Calculator({ go }: { go: Go }) {
   useEffect(() => {
     const search = formToSearch(form, lang);
     calcMemory.search = search;
-    if (window.location.search !== search) window.history.replaceState({}, '', `/${search}${window.location.hash}`);
+    const loc = currentLoc();
+    if (loc.search !== search) replaceLoc(`/${search}${loc.hash}`);
   }, [form, lang]);
 
   const parsed = useMemo(() => parseForm(form), [form]);

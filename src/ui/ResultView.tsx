@@ -269,7 +269,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
 export function RatesNotice({ rates, display }: { rates: RatesState; display: string }) {
   const { t } = useI18n();
   if (rates.status === 'loading') return <p className="hint" role="status">{t.rates.loading}</p>;
-  if (rates.status === 'error') return <p className="notice warn" role="alert" data-testid="rates-error">{t.rates.failed}</p>;
+  if (rates.status === 'error') return <p className="notice warn" role="alert" data-testid="rates-error">{rates.preview ? t.preview.rates : t.rates.failed}</p>;
   const d = rates.data;
   return (
     <div className="rates" data-testid="rates-info">

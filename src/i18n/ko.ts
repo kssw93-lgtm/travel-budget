@@ -121,6 +121,10 @@ export const ko = {
     reference: '참고용 · 독립 {n}건',
     enough: '독립 {n}건',
   },
+  preview: {
+    banner: '데모 미리보기입니다. 환율 서버가 연결되지 않아 현지 통화 금액만 표시합니다(선택 통화·USD 는 "환산 불가").',
+    rates: '미리보기: 환율 서버 미연결. 실제 사이트에서는 하루 한 번 갱신되는 환율로 선택 통화와 USD 참고값이 함께 표시됩니다.',
+  },
   grades: { A: 'A 공식', B: 'B 공공', C: 'C 보조', D: 'D 보류' } as Record<string, string>,
   ads: { label: '광고 영역' },
   rates: {

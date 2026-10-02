@@ -122,6 +122,10 @@ export const en: Messages = {
     reference: 'Reference only · {n} independent',
     enough: '{n} independent',
   },
+  preview: {
+    banner: 'Demo preview. The exchange rate server is not connected, so only local-currency amounts are shown (selected currency and USD show "N/A").',
+    rates: 'Preview: exchange rate server not connected. On the live site, selected-currency and USD amounts are shown using rates refreshed once a day.',
+  },
   grades: { A: 'A Official', B: 'B Public', C: 'C Secondary', D: 'D On hold' },
   ads: { label: 'Advertisement' },
   rates: {

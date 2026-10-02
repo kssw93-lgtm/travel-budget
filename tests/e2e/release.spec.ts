@@ -103,7 +103,7 @@ test.describe('광고 자리 CLS', () => {
         }
       }).observe({ type: 'layout-shift', buffered: true });
     });
-    await page.goto('/?city=taipei&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=KRW');
+    await page.goto('/?city=tokyo&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=KRW');
     await expect(page.getByTestId('rates-info')).toBeVisible({ timeout: 5000 });
     await page.waitForTimeout(300);
     const cls = await page.evaluate(() => (window as unknown as { __cls: number }).__cls);
@@ -167,7 +167,7 @@ test.describe('방법론·출처 링크', () => {
 
   test('모든 외부 링크는 http(s)이고 새 창·opener 차단·새 창 안내가 있다', async ({ page }) => {
     await mockRates(page);
-    for (const url of ['/?city=taipei&date=2026-11-04', '/methodology']) {
+    for (const url of ['/?city=tokyo&date=2026-11-04', '/methodology']) {
       await page.goto(url);
       const links = page.locator('main a[target="_blank"], main a[href^="http"]');
       const n = await links.count();

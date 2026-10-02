@@ -96,7 +96,10 @@ export type WarningCode =
   | 'dateExcluded'
   | 'variablePricing'
   | 'lowFillRate'
-  | 'basketOmitted';
+  | 'basketOmitted'
+  | 'dailyCapApplied'
+  | 'taxExcluded'
+  | 'sightseeingRide';
 
 export interface Warning {
   code: WarningCode;

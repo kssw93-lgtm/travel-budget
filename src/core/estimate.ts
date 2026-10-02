@@ -51,7 +51,11 @@ interface BasketRun {
   excludedByDate: string[];
   resolved: string[];
   childAsAdult: boolean;
+  /** 하루 상한 요금으로 잘린 경우 그 상한 표본 ID */
+  capIds: string[];
 }
+
+const clampRange = (r: Range, cap: number): Range => ({ min: Math.min(r.min, cap), max: Math.min(r.max, cap) });
 
 /** 한 바스켓(같은 단위의 표본 묶음)의 전체 일정·전체 인원 합계. 다른 바스켓의 가격과 섞지 않는다. */
 function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates: string[], weights: number[]): BasketRun {
@@ -69,6 +73,7 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
     excludedByDate: [],
     resolved: [],
     childAsAdult: false,
+    capIds: [],
   };
   if (!run.sufficient) return run;
 
@@ -90,6 +95,22 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
     return styleRange(endpoints(day.rows, basket), input.style);
   };
 
+  // 1회권은 하루 상한 요금(TfL daily cap 등 공식 요금 규칙)이 있으면 1인 하루 비용을 그 금액으로 자른다
+  const caps = basket === 'ride' ? all.filter((r) => r.dailyCap && r.usable && r.audience === 'adult') : [];
+  const capIds = new Set<string>();
+  const capOn = (date: string): { value: number; ids: string[] } | null => {
+    const valid = poolOnDate(caps, date).rows;
+    if (valid.length === 0) return null;
+    return { value: Math.min(...valid.map((r) => r.sample.max)), ids: valid.map((r) => r.sample.id) };
+  };
+  const perPersonDay = (unit: Range, date: string): Range => {
+    const day = scale(unit, perUse);
+    const cap = capOn(date);
+    if (!cap || day.max <= cap.value) return day;
+    cap.ids.forEach((id) => capIds.add(id));
+    return clampRange(day, cap.value);
+  };
+
   let total: Range = ZERO;
   if (basket === 'souvenir') {
     // 기념품은 여행 전체 기준: 성인 1인당 구매 개수 × 단가(어린이는 구매하지 않는 것으로 가정)
@@ -103,17 +124,18 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
         run.sufficient = false;
         break;
       }
-      let day = scale(adult, input.adults);
+      let day = scale(perPersonDay(adult, date), input.adults);
       if (input.children > 0) {
         // 어린이 표본이 있으면 어린이 가격, 없으면 성인 가격을 적용(경고 표시)
         const child = hasChildPool ? (priceDay(childRows, date) ?? adult) : adult;
-        day = add(day, scale(child, input.children));
+        day = add(day, scale(perPersonDay(child, date), input.children));
       }
-      total = add(total, scale(day, perUse * (edge ? (weights[i] as number) : 1)));
+      total = add(total, scale(day, edge ? (weights[i] as number) : 1));
     }
     run.childAsAdult = input.children > 0 && !hasChildPool;
   }
 
+  run.capIds = [...capIds];
   run.excludedByDate = [...excluded];
   run.resolved = [...resolved];
   if (run.sufficient) {
@@ -174,6 +196,9 @@ function estimateCategory(
     flag('revalidation', pick((r) => r.sample.status.includes('재검증')));
     flag('fromPrice', pick((r) => r.fromPrice));
     flag('variablePricing', pick((r) => isVariablePricing(r.sample)));
+    flag('taxExcluded', pick((r) => r.taxExcluded));
+    flag('sightseeingRide', pick((r) => r.sightseeingRide));
+    flag('dailyCapApplied', [...new Set(included.flatMap((r) => r.capIds))]);
     flag('dateResolved', included.flatMap((r) => r.resolved));
     flag('dateExcluded', included.flatMap((r) => r.excludedByDate));
   }

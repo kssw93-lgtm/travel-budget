@@ -25,6 +25,12 @@ export interface Classified {
    * 평일/주말 요금)는 같은 키가 되어 최소 표본 수를 셀 때 1건으로 센다.
    */
   productKey: string;
+  /** 1회권 합계의 하루 상한 요금 표본(TfL daily cap 등) */
+  dailyCap: boolean;
+  /** 표시 가격에 세금·서비스료가 빠져 있음 */
+  taxExcluded: boolean;
+  /** 교통 표본이지만 관광 체험형 탑승이라 입장권 바스켓으로 옮김 */
+  sightseeingRide: boolean;
   /** 계산에 쓰는 가격 바스켓(제외 표본은 null) */
   basket: Basket | null;
   /** 교통 무제한권이 덮는 일수(24시간=1, 48시간=2 …). 1일 환산 단가 = 가격 ÷ passDays */
@@ -83,10 +89,24 @@ export function productKey(s: PriceSample): string {
   return `${normalizeSource(s)}|${productName(s.nameEn || s.nameKo)}`;
 }
 
+/**
+ * 관광지는 같은 출처의 같은 명소라면 관람 옵션(계단/엘리베이터/정상, 입장권/엘리베이터 추가)이 달라도
+ * 같은 상품으로 본다. 명소 이름은 상품명의 앞 두 단어로 판단한다(예: "eiffel tower ...").
+ */
+export function venueKey(s: PriceSample): string {
+  const words = productName(s.nameEn || s.nameKo).split(' ').filter(Boolean);
+  return `${normalizeSource(s)}|${words.slice(0, 2).join(' ')}`;
+}
+
 export function classify(s: PriceSample): Classified {
+  const sightseeingRide = s.category === 'transport' && KEYWORDS.sightseeingRide.test(`${s.subtype} ${s.nameKo} ${s.nameEn}`);
+  const asAttraction = s.category === 'attraction' || sightseeingRide;
   const base = {
     sample: s,
-    productKey: productKey(s),
+    productKey: asAttraction ? venueKey(s) : productKey(s),
+    dailyCap: s.category === 'transport' && KEYWORDS.dailyCap.test(`${s.subtype} ${s.nameEn}`),
+    taxExcluded: KEYWORDS.taxExcluded.test(`${s.note} ${s.unit}`),
+    sightseeingRide,
     audience: audienceOf(s),
     passDays: 1,
     variant: variantOf(s),
@@ -109,6 +129,7 @@ export function classify(s: PriceSample): Classified {
 
   switch (s.category) {
     case 'transport': {
+      if (sightseeingRide) return out('attraction');
       const text = `${s.unit} ${s.nameKo} ${s.nameEn}`;
       const days = transportPassDays(s);
       if (days !== null) return out('pass', undefined, days);

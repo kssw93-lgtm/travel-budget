@@ -13,6 +13,7 @@ import { fileURLToPath } from 'node:url';
 import * as XLSX from 'xlsx';
 import { classify } from '../src/core/classify';
 import { cityStatus } from '../src/core/estimate';
+import { BASKET_RULES, MODEL } from '../src/core/model-config';
 import type { Category, City, FoodRecommendation, ModelUse, PriceSample, SourceGrade } from '../src/core/types';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -207,6 +208,8 @@ function main() {
   const status = Object.fromEntries(pilot.map((c) => [c.id, cityStatus(c, samples)]));
   write('status', status);
 
+  writeFileSync(`${root}/data/research-queue.md`, researchQueue(pilot, samples, status, meta));
+
   console.log(`원본: ${meta.source} (${meta.version})`);
   console.log(`도시 ${cities.length} · 가격 표본 ${samples.length} · 음식 추천 ${foods.length} → ${outDir}`);
   console.log('\n파일럿 도시 판정 (독립 표본: 외식/교통/관광/기념품)');
@@ -220,6 +223,84 @@ function main() {
   }
   console.log('  → 상태가 바뀌었다면 `npm run status:update` 로 고정 테스트를 갱신하세요.');
   for (const n of notes) console.log(`  ※ ${n}`);
+}
+
+const BASKET_KO: Record<string, string> = { pass: '1일 이용권', ride: '1회권', meal: '식사', snack: '간식·음료', attraction: '관광 입장권', souvenir: '기념품' };
+const NEED_HINT: Record<string, string> = {
+  pass: '다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격',
+  ride: '시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단)',
+  meal: '다른 식당의 한 끼 식사 공식 메뉴 가격',
+  snack: '간식·음료 공식 메뉴 가격(선택 바스켓)',
+  attraction: '다른 명소의 성인 입장료(같은 명소의 다른 옵션은 1건으로 셈)',
+  souvenir: '다른 상품의 기념품 공식 판매가(같은 상품의 용량 차이는 1건으로 셈)',
+};
+
+/** 계산을 막는 부족 바스켓과 공식 재검증이 필요한 표본을 조사팀용 목록으로 만든다(변환할 때마다 자동 갱신). */
+function researchQueue(pilot: City[], samples: PriceSample[], status: Record<string, ReturnType<typeof cityStatus>>, meta: { source: string; version: string }): string {
+  const min = MODEL.minSamplesPerCategory;
+  const lines: string[] = [
+    '# 조사 요청 목록 (자동 생성)',
+    '',
+    `> \`npm run data:convert\` 가 \`${meta.source}\` (${meta.version}) 로부터 만든 파일입니다. 직접 고치지 마세요.`,
+    `> 기준: 바스켓마다 **독립 표본 ${min}건 이상**(같은 출처·같은 상품의 용량·기간·요일 변형, 같은 명소의 관람 옵션은 1건).`,
+    '',
+    '## 1. 계산을 막는 부족 바스켓',
+    '',
+    '| 도시 | 바스켓 | 현재 독립 표본 | 필요 | 필요한 자료 |',
+    '| --- | --- | --- | --- | --- |',
+  ];
+  let blocking = 0;
+  for (const c of pilot) {
+    const st = status[c.id]!;
+    for (const cat of st.missing) {
+      const rule = BASKET_RULES[cat];
+      const pool = rule.mode === 'alternatives' ? rule.baskets : rule.required;
+      for (const b of pool) {
+        const either = rule.mode === 'alternatives' ? ' (1일 이용권·1회권 중 하나만 채우면 됨)' : '';
+        lines.push(`| ${c.nameKo} | ${BASKET_KO[b]} | ${st.baskets[b]} | ${min - st.baskets[b]}건 더 | ${NEED_HINT[b]}${either} |`);
+        blocking++;
+      }
+    }
+  }
+  if (!blocking) lines.push('| - | - | - | - | 없음: 모든 파일럿 도시 계산 가능 |');
+
+  lines.push('', '## 2. 보강하면 좋은 바스켓(계산은 가능)', '', '| 도시 | 바스켓 | 현재 독립 표본 | 메모 |', '| --- | --- | --- | --- |');
+  for (const c of pilot) {
+    const st = status[c.id]!;
+    for (const b of ['pass', 'ride', 'snack'] as const) {
+      const n = st.baskets[b];
+      const blockingHere = st.missing.some((cat) => BASKET_RULES[cat].baskets.includes(b));
+      if (n < min && !blockingHere) lines.push(`| ${c.nameKo} | ${BASKET_KO[b]} | ${n} | ${NEED_HINT[b]} |`);
+    }
+  }
+
+  lines.push(
+    '',
+    '## 3. 공식 재검증이 필요한 표본',
+    '',
+    '계산 대상 바스켓에 들어가는 표본 중 출처가 공식(A)이 아니거나, 모델 사용이 "조건부"이거나, 재검증·시작가·세금 별도 표기인 표본입니다.',
+    '공식 판매 주체 페이지에서 같은 가격을 확인하면 엑셀에서 등급·모델 사용·상태를 올려 주세요.',
+    '',
+    '| ID | 도시 | 항목 | 가격 | 등급 | 모델 사용 | 사유 | 출처 |',
+    '| --- | --- | --- | --- | --- | --- | --- | --- |',
+  );
+  const pilotIds = new Set(pilot.map((c) => c.id));
+  for (const s of samples) {
+    if (!pilotIds.has(s.cityId)) continue;
+    const r = classify(s);
+    if (!r.usable) continue;
+    const why = [
+      s.grade !== 'A' && `${s.grade}등급`,
+      s.modelUse === 'conditional' && '조건부',
+      s.status.includes('재검증') && '재검증',
+      r.fromPrice && '시작가 표기',
+      r.taxExcluded && '세금·서비스료 별도',
+    ].filter(Boolean);
+    if (!why.length) continue;
+    const price = s.min === s.max ? `${s.min}` : `${s.min}~${s.max}`;
+    lines.push(`| ${s.id} | ${s.city} | ${s.nameKo} | ${price} ${s.currency} | ${s.grade} | ${s.modelUse === 'yes' ? '예' : '조건부'} | ${why.join(', ')} | [${s.sourceName}](${s.sourceUrl}) |`);
+  }
+  return lines.join('\n') + '\n';
 }
 
 try {

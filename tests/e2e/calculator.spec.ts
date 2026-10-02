@@ -1,4 +1,8 @@
 import { expect, fillTrip, mockRates, test } from './helpers';
+import { readFileSync } from 'node:fs';
+
+/** data:convert 가 만든 실제 도시 판정. 데이터가 바뀌면 기대값도 자동으로 따라간다. */
+const status = JSON.parse(readFileSync('src/data/generated/status.json', 'utf8')) as Record<string, { computable: boolean; missing: string[] }>;
 
 test.describe('계산기 핵심 흐름', () => {
   test('도시 선택 목록에는 파일럿 8개 도시만 나온다', async ({ page }) => {
@@ -16,7 +20,7 @@ test.describe('계산기 핵심 흐름', () => {
 
     const total = page.getByTestId('total');
     await expect(total).toBeVisible();
-    await expect(total).toContainText('TWD');
+    await expect(total).toContainText('JPY');
     await expect(total).toContainText('₩');
     await expect(total).toContainText('USD 참고');
     await expect(total).toContainText('~'); // 최소~최대 범위
@@ -28,7 +32,7 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(page.getByTestId('quality')).toContainText('사용 표본');
     // 단위가 다른 가격은 유형별 바스켓으로 나뉘어 표시된다
     await expect(page.getByTestId('baskets-food')).toContainText('식사');
-    // 타이베이 MRT 1일·24·48시간권은 같은 상품이라 독립 1건 → 1일권 바스켓 제외, 1회권 바스켓으로 계산
+    // 도쿄 지하철 24·48·72시간권은 같은 상품이라 독립 1건 → 1일권 바스켓 제외, 1회권 바스켓으로 계산
     await expect(page.getByTestId('baskets-transport').locator('[data-basket="pass"]')).toContainText('1일 이용권 독립 1건 (가격 3건) · 제외');
     await expect(page.getByTestId('baskets-transport').locator('[data-basket="ride"]')).toContainText('1회권 독립 3건 (가격 3건) · 합계에 반영');
     await expect(page.getByTestId('quality').getByRole('link').first()).toHaveAttribute('href', /^https?:\/\//);
@@ -37,10 +41,11 @@ test.describe('계산기 핵심 흐름', () => {
 
     // 대표 음식: 추천 근거와 가격 근거 분리
     const foods = page.getByTestId('foods');
-    await expect(foods).toContainText('샤오롱바오');
-    await expect(foods.locator('[data-food="XiaoLongBao"]')).toContainText('추천 근거');
-    await expect(foods.locator('[data-food="XiaoLongBao"]')).toContainText('가격 근거');
-    await expect(foods.locator('[data-food="Mango Shaved Ice"]')).toContainText('아직 확인된 메뉴 가격이 없습니다');
+    await expect(foods).toContainText('규동');
+    await expect(foods.locator('[data-food="Gyudon"]')).toContainText('추천 근거');
+    await expect(foods.locator('[data-food="Gyudon"]')).toContainText('가격 근거');
+    await expect(foods.locator('[data-food="Gyudon"]')).toContainText('스키야 규동');
+    await expect(foods.locator('[data-food="Ramen"]')).toContainText('아직 확인된 메뉴 가격이 없습니다');
 
     // 광고는 자리만(입력 아래·결과 아래·음식 아래)
     for (const slot of ['after-form', 'after-results', 'after-food']) {
@@ -76,13 +81,20 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(page.getByTestId('total')).not.toHaveText(before);
   });
 
-  test('8개 파일럿 도시 모두 실제 데이터로 전체 합계가 나온다', async ({ page }) => {
+  test('8개 파일럿 도시 화면이 실제 데이터 판정과 일치한다(계산 가능 → 합계, 부족 → 부족 항목)', async ({ page }) => {
     await mockRates(page);
     await page.goto('/');
-    for (const city of ['tokyo', 'osaka', 'bangkok', 'da-nang', 'taipei', 'singapore', 'paris', 'london']) {
+    const label: Record<string, string> = { food: '외식', transport: '현지 교통', attraction: '관광지', souvenir: '기념품' };
+    expect(Object.keys(status)).toHaveLength(8);
+    for (const [city, st] of Object.entries(status)) {
       await fillTrip(page, { city });
-      await expect(page.getByTestId('total'), city).toBeVisible();
-      await expect(page.getByTestId('hold'), city).toHaveCount(0);
+      if (st.computable) {
+        await expect(page.getByTestId('total'), city).toBeVisible();
+        await expect(page.getByTestId('hold'), city).toHaveCount(0);
+      } else {
+        await expect(page.getByTestId('total'), city).toHaveCount(0);
+        for (const m of st.missing) await expect(page.getByTestId('hold'), city).toContainText(label[m]!);
+      }
       await expect(page.getByTestId('quality'), city).toContainText('사용 표본');
     }
   });
@@ -141,7 +153,7 @@ test.describe('환율 장애 처리', () => {
     await page.goto('/');
     await fillTrip(page);
     await expect(page.getByTestId('rates-error')).toBeVisible();
-    await expect(page.getByTestId('total')).toContainText('TWD');
+    await expect(page.getByTestId('total')).toContainText('JPY');
     await expect(page.getByTestId('total')).toContainText('환산 불가');
     await expect(page.getByTestId('total')).not.toContainText('₩');
   });
@@ -155,7 +167,7 @@ test.describe('환율 장애 처리', () => {
   });
 
   test('지원하지 않는 통화는 명확히 안내', async ({ page }) => {
-    await mockRates(page, { rates: { USD: 1, KRW: 1400, TWD: 32 } });
+    await mockRates(page, { rates: { USD: 1, KRW: 1400, JPY: 150 } });
     await page.goto('/');
     await fillTrip(page);
     await page.selectOption('#currency', 'VND');
@@ -170,8 +182,8 @@ test.describe('방법론·출처 페이지', () => {
     await page.goto('/methodology');
     await expect(page.getByRole('heading', { level: 1 })).toContainText('방법론');
     await expect(page.getByTestId('status-table').locator('tbody tr')).toHaveCount(8);
-    for (const city of ['tokyo', 'osaka', 'bangkok', 'da-nang', 'taipei', 'singapore', 'paris', 'london']) {
-      await expect(page.locator(`[data-city="${city}"]`)).toContainText('계산 가능');
+    for (const [city, st] of Object.entries(status)) {
+      await expect(page.locator(`[data-city="${city}"]`)).toContainText(st.computable ? '계산 가능' : '표본 보강 필요');
     }
     await expect(page.locator('main')).toContainText('v0.2');
     await expect(page.getByTestId('excluded-table')).toContainText('DAD-FD-003');

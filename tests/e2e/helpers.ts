@@ -19,7 +19,7 @@ export async function mockRates(page: Page, override: Record<string, unknown> | 
 }
 
 export async function fillTrip(page: Page, o: { city?: string; date?: string; nights?: string; adults?: string; children?: string } = {}) {
-  await page.selectOption('#city', o.city ?? 'taipei');
+  await page.selectOption('#city', o.city ?? 'tokyo');
   await page.fill('#date', o.date ?? '2026-11-04');
   await page.fill('#nights', o.nights ?? '3');
   await page.fill('#adults', o.adults ?? '2');

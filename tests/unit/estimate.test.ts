@@ -202,6 +202,47 @@ describe('교통 대체 방식은 이중 합산하지 않는다', () => {
   });
 });
 
+describe('불확실성 줄이기 규칙', () => {
+  it('케이블카·곤돌라 같은 관광 탑승은 1회권이 아니라 관광 입장권 바스켓으로 간다', () => {
+    const cable = sample({ category: 'transport', subtype: '케이블카 1회권', unit: '성인 1인 1회', nameKo: '케이블카', nameEn: 'Cable Car One-Way', sourceUrl: 'https://cable.example', min: 7 });
+    const rows = [...without(baseSamples(), 'transport'), ride(1), ride(2), cable];
+    const e = estimateTrip(trip(), city, rows);
+    expect(e.categories.transport.sufficient).toBe(false); // 1회권은 2건만 남음
+    expect(e.categories.attraction.independentCount).toBe(4);
+    expect(e.warnings).toContainEqual({ category: 'attraction', code: 'sightseeingRide', ids: [cable.id] });
+  });
+
+  it('같은 출처·같은 명소의 관람 옵션(계단/엘리베이터/정상)은 독립 표본 1건이다', () => {
+    const eiffel = (name: string, v: number) =>
+      sample({ category: 'attraction', subtype: '랜드마크', unit: '성인 1인', sourceUrl: 'https://eiffel.example/rates', nameKo: name, nameEn: name, min: v });
+    const rows = [...without(baseSamples(), 'attraction'), attr(100), eiffel('Eiffel Tower 2nd Floor by Stairs', 14.8), eiffel('Eiffel Tower 2nd Floor by Elevator', 23.5), eiffel('Eiffel Tower Summit by Elevator', 36.7)];
+    const e = estimateTrip(trip(), city, rows);
+    expect(e.categories.attraction).toMatchObject({ sufficient: false, independentCount: 2 });
+  });
+
+  it('공식 하루 상한(daily cap)이 있으면 1회권 하루 비용을 그 금액으로 자른다', () => {
+    const cap = sample({ category: 'transport', subtype: '일일 상한', unit: '성인 1일', nameKo: '1·2존 일일 상한', nameEn: 'Zones 1-2 Daily Cap', sourceUrl: 'https://cap.example', min: 5 });
+    const rows = [...without(baseSamples(), 'transport'), ride(1), ride(2), ride(3), cap];
+    const e = estimateTrip(trip(), city, rows);
+    // 1회권 [1.25, 2.75] × 하루 3회 = [3.75, 8.25] → 상한 5 로 잘림 → [3.75, 5] × 4일 × 2인
+    close(e.categories.transport.total, 30, 40);
+    expect(e.warnings).toContainEqual({ category: 'transport', code: 'dailyCapApplied', ids: [cap.id] });
+  });
+
+  it('상한보다 적게 쓰면 상한을 적용하지 않는다', () => {
+    const cap = sample({ category: 'transport', subtype: '일일 상한', unit: '성인 1일', nameEn: 'Daily Cap', sourceUrl: 'https://cap.example', min: 100 });
+    const e = estimateTrip(trip(), city, [...without(baseSamples(), 'transport'), ride(1), ride(2), ride(3), cap]);
+    close(e.categories.transport.total, 30, 66);
+    expect(e.warnings.some((w) => w.code === 'dailyCapApplied')).toBe(false);
+  });
+
+  it('세금·서비스료 별도 표기(450++)는 경고한다', () => {
+    const plus = sample({ category: 'food', subtype: '프리미엄 한끼', unit: '1접시', note: '450++: 세금·서비스료 별도', min: 25 });
+    const rows = [...without(baseSamples(), 'food'), meal(10), meal(20), plus];
+    expect(estimateTrip(trip(), city, rows).warnings).toContainEqual({ category: 'food', code: 'taxExcluded', ids: [plus.id] });
+  });
+});
+
 describe('데이터 부족 상태', () => {
   it('바스켓 표본이 3건 미만이면 그 항목을 부족으로 표시하고 합계를 만들지 않는다', () => {
     const rows = [...without(baseSamples(), 'food'), meal(10), meal(20)];

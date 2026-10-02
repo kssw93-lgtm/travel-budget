@@ -65,6 +65,12 @@ export const KEYWORDS = {
   /** 차량 단위 요금(택시·전용차)은 1인 요금이 아니다 */
   vehicle: /차량|택시|전용차|\btaxi\b|private car/i,
   ride: /(?:^|\s)1회|per ride|single/i,
+  /** 관광 체험형 탑승(케이블카·곤돌라·로프웨이)은 일상 교통이 아니라 관광지 입장권 바스켓에 넣는다 */
+  sightseeingRide: /케이블카|곤돌라|로프웨이|cable car|gondola|ropeway/i,
+  /** 1회 요금 합계의 하루 상한(예: TfL daily cap) */
+  dailyCap: /상한|daily cap|fare cap/i,
+  /** 메뉴 가격에 세금·서비스료가 빠진 표기(예: 450++) */
+  taxExcluded: /\+\+|세금[^,;]*별도|서비스료[^,;]*별도|excl(?:\.|uding)? (?:tax|service)/i,
   meal: /한끼|식사|관광지 식당|메뉴 표본|아침/,
   child: /아동|어린이|child|\d+\s*-\s*\d+\s*세/i,
   weekday: /평일|weekday/i,

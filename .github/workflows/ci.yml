@@ -35,7 +35,7 @@ jobs:
       - name: data:convert
         run: |
           npm run data:convert
-          git diff --exit-code -- src/data/generated || {
+          git diff --exit-code -- src/data/generated data/research-queue.md || {
             echo "::error::src/data/generated 가 data/source/latest.json 이 가리키는 최신 엑셀과 맞지 않습니다. npm run data:convert 결과를 커밋하세요."
             exit 1
           }

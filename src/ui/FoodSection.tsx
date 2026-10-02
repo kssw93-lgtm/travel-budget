@@ -4,6 +4,7 @@ import { AdSlot } from './AdSlot';
 import { convertRange, RangeText } from './money';
 import type { RatesState } from './useRates';
 import { cityName } from './TripForm';
+import { ExternalLink } from './ExternalLink';
 
 interface Props {
   city: City;
@@ -38,7 +39,7 @@ export function FoodSection({ city, foods, samples, display, rates }: Props) {
                 <h4>{t.foods.why}</h4>
                 <p lang={lang === 'en' && !f.reasonEn ? 'ko' : undefined}>{lang === 'en' ? (f.reasonEn ?? f.reason) : f.reason}</p>
                 <p className="src">
-                  <a href={f.recommendUrl} target="_blank" rel="noopener noreferrer">{f.recommendSource}</a>
+                  <ExternalLink href={f.recommendUrl}>{f.recommendSource}</ExternalLink>
                 </p>
               </div>
               <div className="evidence">
@@ -58,7 +59,7 @@ export function FoodSection({ city, foods, samples, display, rates }: Props) {
                           <span className="muted">
                             [{t.grades[s.grade] ?? s.grade}, {s.checkedAt}]{' '}
                           </span>
-                          <a href={s.sourceUrl} target="_blank" rel="noopener noreferrer">{s.sourceName}</a>
+                          <ExternalLink href={s.sourceUrl}>{s.sourceName}</ExternalLink>
                         </li>
                       );
                     })}

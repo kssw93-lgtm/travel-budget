@@ -1,8 +1,12 @@
 import type { Messages } from './ko';
 
 export const en: Messages = {
-  meta: { title: 'Travel Budget Calculator — On-the-ground costs', description: 'Pick a city, dates and travel style to see a min–max estimate of what you will spend on the ground.' },
-  nav: { calculator: 'Calculator', methodology: 'Method & sources', language: 'Language', skip: 'Skip to content' },
+  meta: {
+    title: 'Travel Budget Calculator — On-the-ground costs',
+    description: 'Pick a city, dates and travel style to see a min–max estimate of what you will spend on the ground.',
+    methodDescription: 'How the travel budget calculator uses price data, with its sources and the data status of each city.',
+  },
+  nav: { calculator: 'Calculator', methodology: 'Method & sources', language: 'Language', skip: 'Skip to content', main: 'Main menu' },
   home: {
     title: 'How much will you spend there?',
     lead: 'Choose a city and trip details to get a min–max estimate for food, local transport, attractions and souvenirs. Flights and lodging are added only if you enter them yourself.',
@@ -59,6 +63,9 @@ export const en: Messages = {
     checkedOne: 'Checked {date}',
     sources: 'Sources',
     noneUsed: 'No usable samples',
+    howLink: 'How this is calculated',
+    statusLink: 'Data status by city',
+    sourcesLink: 'All price sources',
   },
   warnings: {
     insufficient: 'Not enough samples: fewer than {min} usable prices, so no amount is shown.',
@@ -81,6 +88,7 @@ export const en: Messages = {
     band: 'Budget',
     noPrice: 'No verified menu price yet (research pending).',
     priceLine: '{name} · {range}',
+    newWindow: '(opens in a new window)',
     bands: { '저': 'Low', '저~중': 'Low–mid', '중': 'Mid', '중~고': 'Mid–high', '고': 'High' },
   },
   grades: { A: 'A Official', B: 'B Public', C: 'C Secondary', D: 'D On hold' },
@@ -93,8 +101,9 @@ export const en: Messages = {
     failed: 'Exchange rates could not be loaded. Only local-currency amounts are shown; converted and USD amounts are unavailable.',
     unsupported: '{code} is not supported by the current exchange rate provider. Please choose another currency.',
     none: 'N/A',
+    sourceLink: 'Exchange rate source {source} (opens in a new window)',
   },
-  footer: { disclaimer: 'Amounts are reference ranges built from published price samples and do not guarantee actual spending.', data: 'Price data as of {date}' },
+  footer: { method: 'How it works', sources: 'Price sources', disclaimer: 'Amounts are reference ranges built from published price samples and do not guarantee actual spending.', data: 'Price data as of {date}' },
   method: {
     title: 'Method & sources',
     lead: 'How prices are used, how the numbers are calculated, and what this site does not do.',

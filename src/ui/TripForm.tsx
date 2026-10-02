@@ -61,22 +61,22 @@ export function TripForm({ form, onChange, errors, cities, rates }: Props) {
             ))}
           </select>
         </div>
-        <div className="field">
+        <div className="field span-3 m-6">
           <label htmlFor="date">{t.form.visitDate}</label>
           <input id="date" type="date" value={form.visitDate} onChange={(e) => onChange({ visitDate: e.target.value })} {...field('date')} />
           {err('date')}
         </div>
-        <div className="field">
+        <div className="field span-3 m-2">
           <label htmlFor="nights">{t.form.nights}</label>
           <input id="nights" type="number" inputMode="numeric" min={L.nightsMin} max={L.nightsMax} value={form.nights} onChange={(e) => onChange({ nights: e.target.value })} {...field('nights')} />
           {err('nights')}
         </div>
-        <div className="field">
+        <div className="field span-3 m-2">
           <label htmlFor="adults">{t.form.adults}</label>
           <input id="adults" type="number" inputMode="numeric" min={L.adultsMin} max={L.adultsMax} value={form.adults} onChange={(e) => onChange({ adults: e.target.value })} {...field('adults')} />
           {err('adults')}
         </div>
-        <div className="field">
+        <div className="field span-3 m-2">
           <label htmlFor="children">{t.form.children}</label>
           <input id="children" type="number" inputMode="numeric" min={0} max={L.childrenMax} value={form.children} onChange={(e) => onChange({ children: e.target.value })} {...field('children')} />
           {err('children')}
@@ -104,12 +104,12 @@ export function TripForm({ form, onChange, errors, cities, rates }: Props) {
         <summary>{t.form.optional}</summary>
         <p className="hint">{t.form.optionalHint}</p>
         <div className="grid">
-          <div className="field">
+          <div className="field span-3">
             <label htmlFor="flight">{t.form.flight}</label>
             <input id="flight" type="text" inputMode="decimal" value={form.flight} onChange={(e) => onChange({ flight: e.target.value })} {...field('flight')} />
             {err('flight')}
           </div>
-          <div className="field">
+          <div className="field span-3">
             <label htmlFor="lodging">{t.form.lodging}</label>
             <input id="lodging" type="text" inputMode="decimal" value={form.lodging} onChange={(e) => onChange({ lodging: e.target.value })} {...field('lodging')} />
             {err('lodging')}

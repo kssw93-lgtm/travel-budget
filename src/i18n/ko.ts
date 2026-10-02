@@ -1,7 +1,11 @@
 /** 한국어 문구. 영어(en.ts)는 이 구조를 그대로 따라야 한다(타입으로 강제). 자리표시자는 {name} 형식. */
 export const ko = {
-  meta: { title: '여행 경비 계산기 — 현지 체류비 범위', description: '도시·일정·여행 스타일을 고르면 현지에서 쓸 예상 경비를 최소~최대 범위로 알려드립니다.' },
-  nav: { calculator: '계산기', methodology: '방법론·출처', language: '언어', skip: '본문으로 건너뛰기' },
+  meta: {
+    title: '여행 경비 계산기 — 현지 체류비 범위',
+    description: '도시·일정·여행 스타일을 고르면 현지에서 쓸 예상 경비를 최소~최대 범위로 알려드립니다.',
+    methodDescription: '여행 경비 계산기가 어떤 가격 자료로 어떻게 계산하는지, 출처와 도시별 데이터 현황을 공개합니다.',
+  },
+  nav: { calculator: '계산기', methodology: '방법론·출처', language: '언어', skip: '본문으로 건너뛰기', main: '주 메뉴' },
   home: {
     title: '현지에서 얼마나 쓸까?',
     lead: '도시와 일정을 고르면 외식·교통·관광·기념품 예상 경비를 최소~최대 범위로 계산합니다. 항공권과 숙박은 직접 입력한 경우에만 더합니다.',
@@ -58,6 +62,9 @@ export const ko = {
     checkedOne: '확인일 {date}',
     sources: '출처',
     noneUsed: '사용 가능한 표본 없음',
+    howLink: '계산 방법 자세히 보기',
+    statusLink: '도시별 데이터 현황 보기',
+    sourcesLink: '전체 출처 목록 보기',
   },
   warnings: {
     insufficient: '표본 부족: 계산에 쓸 수 있는 가격이 {min}건 미만이라 금액을 내지 않았습니다.',
@@ -80,6 +87,7 @@ export const ko = {
     band: '예산대',
     noPrice: '아직 확인된 메뉴 가격이 없습니다 (조사 대기).',
     priceLine: '{name} · {range}',
+    newWindow: '(새 창)',
     bands: { '저': '저가', '저~중': '저가~중가', '중': '중가', '중~고': '중가~고가', '고': '고가' } as Record<string, string>,
   },
   grades: { A: 'A 공식', B: 'B 공공', C: 'C 보조', D: 'D 보류' } as Record<string, string>,
@@ -92,8 +100,9 @@ export const ko = {
     failed: '환율을 불러오지 못했습니다. 선택 통화·USD 환산 금액은 표시할 수 없고 현지 통화 금액만 보여드립니다.',
     unsupported: '{code}은(는) 현재 환율 제공처가 지원하지 않는 통화입니다. 다른 통화를 선택해 주세요.',
     none: '환산 불가',
+    sourceLink: '환율 출처 {source} (새 창)',
   },
-  footer: { disclaimer: '표시 금액은 공개된 가격 표본으로 만든 참고용 범위이며 실제 지출을 보장하지 않습니다.', data: '가격 자료 {date} 기준' },
+  footer: { method: '계산 방법', sources: '가격 출처', disclaimer: '표시 금액은 공개된 가격 표본으로 만든 참고용 범위이며 실제 지출을 보장하지 않습니다.', data: '가격 자료 {date} 기준' },
   method: {
     title: '방법론·출처',
     lead: '이 사이트가 어떤 가격으로 어떻게 계산하는지, 무엇을 하지 않는지 공개합니다.',

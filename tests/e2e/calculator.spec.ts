@@ -1,5 +1,4 @@
-import { expect, test } from '@playwright/test';
-import { fillTrip, mockRates } from './helpers';
+import { expect, fillTrip, mockRates, test } from './helpers';
 
 test.describe('계산기 핵심 흐름', () => {
   test('도시 선택 목록에는 파일럿 8개 도시만 나온다', async ({ page }) => {
@@ -54,7 +53,7 @@ test.describe('계산기 핵심 흐름', () => {
     await page.goto('/');
     await fillTrip(page);
     await page.selectOption('#currency', 'EUR');
-    await page.getByRole('button', { name: 'EN' }).click();
+    await page.getByRole('button', { name: 'English' }).click();
     await expect(page.getByRole('heading', { level: 1 })).toContainText('How much will you spend there?');
     await expect(page.locator('#currency')).toHaveValue('EUR'); // 언어를 바꿔도 통화 유지
     await expect(page.getByTestId('total')).toContainText('€');
@@ -62,7 +61,7 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(page.locator('#currency')).toHaveValue('EUR'); // 통화를 바꿔도 언어 유지
     await expect(page.getByRole('heading', { level: 1 })).toContainText('현지에서 얼마나');
     // 한국어 사용자도 KRW 가 아닌 통화를 쓸 수 있고, 영어 사용자도 KRW 를 고를 수 있다
-    await page.getByRole('button', { name: 'EN' }).click();
+    await page.getByRole('button', { name: 'English' }).click();
     await page.selectOption('#currency', 'KRW');
     await expect(page.getByTestId('total')).toContainText('₩');
   });
@@ -151,11 +150,11 @@ test.describe('방법론·출처 페이지', () => {
     await expect(page.locator('[data-city="taipei"]')).toContainText('계산 가능');
     await expect(page.locator('[data-city="singapore"]')).toContainText('표본 보강 필요');
     await expect(page.getByTestId('excluded-table')).toContainText('DAD-FD-003');
-    await page.getByRole('link', { name: '계산기' }).click();
-    await expect(page).toHaveURL('/');
-    await page.getByRole('link', { name: '방법론·출처' }).click();
-    await expect(page).toHaveURL(/\/methodology$/);
-    await page.getByRole('button', { name: 'EN' }).click();
+    await page.getByRole('navigation').getByRole('link', { name: '계산기' }).click();
+    await expect(page).toHaveURL(/127\.0\.0\.1:4173\/\?lang=ko/);
+    await page.getByRole('navigation').getByRole('link', { name: '방법론·출처' }).click();
+    await expect(page).toHaveURL(/\/methodology\?lang=ko$/);
+    await page.getByRole('button', { name: 'English' }).click();
     await expect(page.getByRole('heading', { level: 1 })).toContainText('Method');
   });
 });

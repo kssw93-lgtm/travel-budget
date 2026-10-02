@@ -8,6 +8,8 @@ import { parseForm, type FormState } from './form';
 import { RatesNotice, ResultView } from './ResultView';
 import { TripForm } from './TripForm';
 import { useRates } from './useRates';
+import type { Go } from './App';
+import { calcMemory, formToSearch, readForm } from './urlState';
 
 const today = () => {
   const d = new Date();
@@ -23,7 +25,7 @@ function savedCurrency(): string | null {
   }
 }
 
-export function Calculator() {
+export function Calculator({ go }: { go: Go }) {
   const { t, lang } = useI18n();
   const rates = useRates();
   const [form, setForm] = useState<FormState>(() => {
@@ -39,6 +41,8 @@ export function Calculator() {
       flight: '',
       lodging: '',
       directCurrency: currency,
+      // URL 에 담긴 입력이 있으면 그것을 우선한다(새로고침·공유 링크)
+      ...readForm(window.location.search, cities.map((c) => c.id)),
     };
   });
   const patch = (p: Partial<FormState>) => setForm((f) => ({ ...f, ...p }));
@@ -52,6 +56,13 @@ export function Calculator() {
     }
   }, [form.currency]);
 
+  // 입력이 바뀔 때마다 URL 을 갱신(기록은 쌓지 않음)
+  useEffect(() => {
+    const search = formToSearch(form, lang);
+    calcMemory.search = search;
+    if (window.location.search !== search) window.history.replaceState({}, '', `/${search}${window.location.hash}`);
+  }, [form, lang]);
+
   const parsed = useMemo(() => parseForm(form), [form]);
   const city = cityById(form.cityId);
   const estimate = useMemo(
@@ -62,7 +73,7 @@ export function Calculator() {
   return (
     <>
       <section className="hero">
-        <h1>{t.home.title}</h1>
+        <h1 tabIndex={-1}>{t.home.title}</h1>
         <p>{t.home.lead}</p>
       </section>
       <TripForm form={form} onChange={patch} errors={parsed.errors} cities={cities} rates={rates.status === 'ok' ? rates.data : null} />
@@ -77,6 +88,7 @@ export function Calculator() {
             rates={rates}
             samples={samples}
             direct={{ ...parsed.direct, currency: form.directCurrency }}
+            go={go}
           />
           <FoodSection city={city} foods={foods} samples={samples} display={form.currency} rates={rates} />
         </>

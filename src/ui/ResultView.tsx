@@ -6,6 +6,8 @@ import { AdSlot } from './AdSlot';
 import { convertRange, RangeText } from './money';
 import type { RatesState } from './useRates';
 import { cityName } from './TripForm';
+import { ExternalLink } from './ExternalLink';
+import { InternalLink, type Go } from './App';
 
 interface Props {
   estimate: Estimate;
@@ -15,6 +17,7 @@ interface Props {
   rates: RatesState;
   samples: PriceSample[];
   direct: { flight: number; lodging: number; currency: string };
+  go: Go;
 }
 
 const sumRange = (a: Range, b: Range): Range => ({ min: a.min + b.min, max: a.max + b.max });
@@ -50,8 +53,9 @@ function warningText(w: Warning, byId: Map<string, PriceSample>, lang: 'ko' | 'e
   return fmt(t.warnings[w.code], { names, min: MODEL.minSamplesPerCategory, rate, basket });
 }
 
-export function ResultView({ estimate: e, trip, city, display, rates, samples, direct }: Props) {
+export function ResultView({ estimate: e, trip, city, display, rates, samples, direct, go }: Props) {
   const { t, lang } = useI18n();
+  const method = `/methodology?lang=${lang}`;
   const ratesData = rates.status === 'ok' ? rates.data : null;
   const byId = new Map(samples.map((s) => [s.id, s]));
   const catName = (c: Category) => t.categories[c];
@@ -93,6 +97,9 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
           <p>{t.result.holdBody}</p>
           {e.missing.length > 0 && <p>{fmt(t.result.holdMissing, { list: holdList })}</p>}
           <p className="hint">{fmt(t.result.holdFill, { min: MODEL.minSamplesPerCategory, rate: Math.round(MODEL.minFillRate * 100), fill: fillPct })}</p>
+          <p>
+            <InternalLink to={`${method}#status`} go={go}>{t.result.statusLink}</InternalLink>
+          </p>
         </div>
       )}
 
@@ -131,7 +138,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
       )}
 
       <h3>{t.result.breakdown}</h3>
-      <table className="breakdown" data-testid="breakdown">
+      <table className="breakdown stack" data-testid="breakdown">
         <thead>
           <tr>
             <th scope="col">{t.result.item}</th>
@@ -173,6 +180,9 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
           )}
         </tbody>
       </table>
+      <p className="more">
+        <InternalLink to={`${method}#how`} go={go}>{t.result.howLink}</InternalLink>
+      </p>
 
       <h3>{t.result.quality}</h3>
       <p className="hint">{t.result.qualityLead}</p>
@@ -210,7 +220,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
                   {est.sources.map((s, i) => (
                     <span key={`${s.name}${s.url}`}>
                       {i > 0 && ', '}
-                      <a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a>
+                      <ExternalLink href={s.url}>{s.name}</ExternalLink>
                     </span>
                   ))}
                 </p>
@@ -230,6 +240,9 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
         {e.warnings.filter((w) => !w.category).map((w, i) => (
           <p key={i} className="notice warn">{warningText(w, byId, lang, t)}</p>
         ))}
+        <p className="more">
+          <InternalLink to={`${method}#sources`} go={go}>{t.result.sourcesLink}</InternalLink>
+        </p>
       </div>
       <RatesNotice rates={rates} display={display} />
       <AdSlot name="after-results" />
@@ -244,7 +257,10 @@ export function RatesNotice({ rates, display }: { rates: RatesState; display: st
   const d = rates.data;
   return (
     <div className="rates" data-testid="rates-info">
-      <p className="hint">{fmt(t.rates.info, { date: d.asOf, source: d.source.name })} <a href={d.source.url} target="_blank" rel="noopener noreferrer">↗</a></p>
+      <p className="hint">
+        {fmt(t.rates.info, { date: d.asOf, source: d.source.name })}{' '}
+        <ExternalLink href={d.source.url}>{fmt(t.rates.sourceLink, { source: d.source.name })}</ExternalLink>
+      </p>
       {d.stale && <p className="notice warn" role="status" data-testid="rates-stale">{fmt(t.rates.stale, { date: d.asOf })}</p>}
       {!isSupported(display, d) && <p className="notice warn" role="alert" data-testid="rates-unsupported">{fmt(t.rates.unsupported, { code: display })}</p>}
     </div>

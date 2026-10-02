@@ -1,81 +1,122 @@
-import { useCallback, useEffect, useState, type MouseEvent, type ReactNode } from 'react';
-import { I18nProvider, detectLang, messages, type Lang, fmt } from '../i18n';
+import { useCallback, useEffect, useRef, useState, type MouseEvent, type ReactNode } from 'react';
 import { dataDate } from '../data';
+import { I18nProvider, detectLang, fmt, messages, type Lang } from '../i18n';
 import { Calculator } from './Calculator';
 import { Methodology } from './Methodology';
+import { applyMeta } from './meta';
+import { calcMemory, readLang, withLang } from './urlState';
 
-const BASE_PATHS = ['/', '/methodology'];
+export type Go = (to: string) => void;
 
-function usePath(): [string, (to: string) => void] {
-  const [path, setPath] = useState(() => window.location.pathname);
+interface Loc {
+  pathname: string;
+  search: string;
+  hash: string;
+}
+
+const current = (): Loc => ({ pathname: window.location.pathname, search: window.location.search, hash: window.location.hash });
+const isMethod = (p: string) => p === '/methodology' || p === '/methodology/' || p === '/methodology.html';
+
+function useLocation(): [Loc, Go] {
+  const [loc, setLoc] = useState<Loc>(current);
   useEffect(() => {
-    const onPop = () => setPath(window.location.pathname);
+    const onPop = () => setLoc(current());
     window.addEventListener('popstate', onPop);
     return () => window.removeEventListener('popstate', onPop);
   }, []);
-  const go = useCallback((to: string) => {
+  const go = useCallback<Go>((to) => {
     window.history.pushState({}, '', to);
-    setPath(to);
-    window.scrollTo(0, 0);
+    setLoc(current());
   }, []);
-  return [BASE_PATHS.includes(path) ? path : '/', go];
+  return [loc, go];
 }
 
-function NavLink({ to, current, go, children }: { to: string; current: string; go: (p: string) => void; children: ReactNode }) {
+/** 같은 사이트 안의 링크는 새로고침 없이 이동한다(수정 키·가운데 클릭은 브라우저 기본 동작). */
+export function InternalLink({ to, go, children, ...rest }: { to: string; go: Go; children: ReactNode; className?: string; 'aria-current'?: 'page' }) {
   const onClick = (e: MouseEvent<HTMLAnchorElement>) => {
-    if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
     e.preventDefault();
     go(to);
   };
   return (
-    <a href={to} onClick={onClick} aria-current={current === to ? 'page' : undefined}>
+    <a href={to} onClick={onClick} {...rest}>
       {children}
     </a>
   );
 }
 
 export function App() {
-  const [lang, setLang] = useState<Lang>(detectLang);
-  const [path, go] = usePath();
+  const [loc, go] = useLocation();
+  const [lang, setLang] = useState<Lang>(() => readLang(window.location.search) ?? detectLang());
   const t = messages[lang];
+  const page = isMethod(loc.pathname) ? 'methodology' : 'calculator';
+  const first = useRef(true);
 
+  // 언어·페이지가 바뀌면 문서 언어와 SEO 메타를 갱신하고 언어 선택을 기억한다
   useEffect(() => {
-    document.documentElement.lang = lang;
-    document.title = path === '/methodology' ? `${t.method.title} — ${t.meta.title}` : t.meta.title;
-    document.querySelector('meta[name="description"]')?.setAttribute('content', t.meta.description);
+    applyMeta(lang, page);
     try {
       localStorage.setItem('lang', lang);
     } catch {
       /* 저장소를 못 쓰는 환경 */
     }
-  }, [lang, path, t]);
+    if (page === 'methodology') {
+      const next = `${loc.pathname}${withLang(loc.search, lang)}${loc.hash}`;
+      if (next !== `${loc.pathname}${loc.search}${loc.hash}`) window.history.replaceState({}, '', next);
+    }
+  }, [lang, page, loc.pathname, loc.search, loc.hash]);
+
+  // 페이지 이동 시: 앵커가 있으면 그 위치로, 없으면 맨 위로 가고 본문 제목에 포커스(스크린리더 안내)
+  useEffect(() => {
+    if (first.current) {
+      first.current = false;
+      if (!loc.hash) return;
+    }
+    const target = loc.hash ? document.getElementById(decodeURIComponent(loc.hash.slice(1))) : null;
+    if (target) {
+      target.scrollIntoView();
+      target.focus({ preventScroll: true });
+    } else {
+      window.scrollTo(0, 0);
+      document.querySelector<HTMLElement>('main h1')?.focus({ preventScroll: true });
+    }
+  }, [loc.pathname, loc.hash]);
+
+  const calcHref = `/${calcMemory.search || `?lang=${lang}`}`;
+  const methodHref = `/methodology?lang=${lang}`;
 
   return (
     <I18nProvider lang={lang}>
       <a className="skip" href="#main">{t.nav.skip}</a>
       <header className="site-header">
         <div className="wrap bar">
-          <a className="brand" href="/" onClick={(e) => { e.preventDefault(); go('/'); }}>✈ {lang === 'ko' ? '여행 경비 계산' : 'Travel Budget'}</a>
-          <nav aria-label="Main">
-            <NavLink to="/" current={path} go={go}>{t.nav.calculator}</NavLink>
-            <NavLink to="/methodology" current={path} go={go}>{t.nav.methodology}</NavLink>
+          <InternalLink className="brand" to={calcHref} go={go}>
+            <span aria-hidden="true">✈</span> {lang === 'ko' ? '여행 경비 계산' : 'Travel Budget'}
+          </InternalLink>
+          <nav aria-label={t.nav.main}>
+            <InternalLink to={calcHref} go={go} aria-current={page === 'calculator' ? 'page' : undefined}>{t.nav.calculator}</InternalLink>
+            <InternalLink to={methodHref} go={go} aria-current={page === 'methodology' ? 'page' : undefined}>{t.nav.methodology}</InternalLink>
           </nav>
           <div className="lang" role="group" aria-label={t.nav.language}>
             {(['ko', 'en'] as const).map((l) => (
-              <button key={l} type="button" aria-pressed={lang === l} onClick={() => setLang(l)}>
-                {l === 'ko' ? '한국어' : 'EN'}
+              <button key={l} type="button" lang={l} aria-pressed={lang === l} onClick={() => setLang(l)}>
+                {l === 'ko' ? '한국어' : 'English'}
               </button>
             ))}
           </div>
         </div>
       </header>
-      <main id="main" className="wrap">
-        {path === '/methodology' ? <Methodology /> : <Calculator />}
+      <main id="main" className="wrap" tabIndex={-1}>
+        {page === 'methodology' ? <Methodology /> : <Calculator go={go} />}
       </main>
       <footer className="site-footer">
         <div className="wrap">
           <p>{t.footer.disclaimer}</p>
-          <p>{fmt(t.footer.data, { date: dataDate })}</p>
+          <p>
+            {fmt(t.footer.data, { date: dataDate })} ·{' '}
+            <InternalLink to={`${methodHref}#how`} go={go}>{t.footer.method}</InternalLink> ·{' '}
+            <InternalLink to={`${methodHref}#sources`} go={go}>{t.footer.sources}</InternalLink>
+          </p>
         </div>
       </footer>
     </I18nProvider>

@@ -1,6 +1,6 @@
 {
-  "version": "v0.2",
-  "file": "travel_cost_research_pilot_v0.2_2026-10-02.xlsx",
+  "version": "v0.3",
+  "file": "travel_cost_research_pilot_v0.3_2026-10-02.xlsx",
   "date": "2026-10-02",
   "note": "운영 데이터로 쓰는 최신 조사 엑셀. 새 버전을 받으면 파일을 이 폴더에 추가하고 이 파일의 version·file·date 만 바꾼 뒤 npm run data:convert. 이전 버전 파일은 기록용으로 보존한다."
 }

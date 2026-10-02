@@ -185,7 +185,8 @@ test.describe('방법론·출처 페이지', () => {
     for (const [city, st] of Object.entries(status)) {
       await expect(page.locator(`[data-city="${city}"]`)).toContainText(st.computable ? '계산 가능' : '표본 보강 필요');
     }
-    await expect(page.locator('main')).toContainText('v0.2');
+    const latest = JSON.parse(readFileSync('data/source/latest.json', 'utf8')) as { version: string };
+    await expect(page.locator('main')).toContainText(latest.version);
     await expect(page.getByTestId('excluded-table')).toContainText('DAD-FD-003');
     await page.getByRole('navigation').getByRole('link', { name: '계산기' }).click();
     await expect(page).toHaveURL(/127\.0\.0\.1:4173\/\?lang=ko/);

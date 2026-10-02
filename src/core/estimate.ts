@@ -357,7 +357,7 @@ export interface CitySummary {
   totalRows: number;
 }
 
-/** 방문일·인원과 무관한 도시 데이터 현황(방법론 페이지의 데이터 현황 표에 쓴다) */
+/** 방문일·인원과 무관한 도시 데이터 현황(조사 큐·상태 파일·테스트에 쓴다) */
 export function summarizeCity(city: City, samples: PriceSample[]): CitySummary {
   const rows = samples.filter((s) => s.cityId === city.id).map(classify);
   const baskets = {} as Record<Basket, number>;

@@ -4,9 +4,10 @@ export const en: Messages = {
   meta: {
     title: 'Travel Budget Calculator — On-the-ground costs',
     description: 'Pick a city, dates and travel style to see a min–max estimate of what you will spend on the ground.',
-    methodDescription: 'How the travel budget calculator uses price data, with its sources and the data status of each city.',
+    aboutDescription: 'What the travel budget calculator shows, where its prices come from and how the site is run.',
+    privacyDescription: 'Privacy policy of the travel budget calculator: inputs, browser storage and advertising cookies.',
   },
-  nav: { calculator: 'Calculator', methodology: 'Method & sources', language: 'Language', skip: 'Skip to content', main: 'Main menu' },
+  nav: { calculator: 'Calculator', language: 'Language', skip: 'Skip to content', main: 'Main menu' },
   home: {
     title: 'How much will you spend there?',
     lead: 'Choose a city and trip details to get a min–max estimate for food, local transport, attractions and souvenirs. Flights and lodging are added only if you enter them yourself.',
@@ -68,8 +69,6 @@ export const en: Messages = {
     sources: 'Sources',
     noneUsed: 'No usable samples',
     howLink: 'How this is calculated',
-    statusLink: 'Data status by city',
-    sourcesLink: 'All price sources',
   },
   warnings: {
     insufficient: 'Not enough samples: fewer than {min} usable prices, so no amount is shown.',
@@ -152,6 +151,59 @@ export const en: Messages = {
     contingency: 'Contingency {rate}%',
     withContingency: 'With contingency',
   },
+  info: {
+    contactTitle: 'Contact',
+    contactLabel: 'Email:',
+    contactPending: 'A contact email will be listed here when the site officially launches.',
+  },
+  about: {
+    title: 'About',
+    lead: 'Travel Budget is a free calculator that shows a min–max range for what you will spend on the ground — dining, local transport, souvenirs and the admission of attractions you pick — based on your destination, dates, travelers and travel style. It helps you estimate and prepare for local costs before you leave.',
+    sections: [
+      { h: 'What it shows', body: [
+        'Typical prices for each city, such as a meal, a single public transport ride or a souvenir, and the estimated local spending for your whole trip. Results are shown in the local currency, your selected currency and a USD reference.',
+        'Tick the attractions and theme parks you want to visit to add their official admission (adult and child), and open each item to see day-by-day details and its contingency.',
+      ] },
+      { h: 'Where prices come from', body: [
+        'We use price samples researched primarily from the official pages of whoever actually sells or operates the service: transport operators, attractions, restaurants and brands. Every price has a source and a check date, shown under "Price evidence, sources and warnings" in the results.',
+        'We never import averages from other travel budget sites or fill gaps with estimates. Items without enough samples are shown as missing instead of as an amount.',
+      ] },
+      { h: 'Coverage', body: [
+        'Eight cities are supported today: Tokyo, Osaka, Bangkok, Da Nang, Taipei, Singapore, Paris and London, with more added as research is completed. Flights and lodging are not searched live; if you already know those costs you can enter them to add them up.',
+      ] },
+      { h: 'How we operate', body: [
+        'There is no sign-up, login, payment, booking, product sales or affiliate linking. The site is planned to be supported by advertising, placed only where it does not cover results or sources.',
+        'Amounts are reference ranges built from published price samples and do not guarantee actual spending. Prices vary by season, day and seller, so check the latest price at each source before important decisions.',
+      ] },
+    ],
+  },
+  privacy: {
+    title: 'Privacy Policy',
+    effective: 'Effective {date}',
+    lead: 'This site is a calculator used without sign-up or login, and it does not directly collect personal information such as your name or contact details. Below is the information that may be processed when you use the site, and why.',
+    sections: [
+      { h: 'Trip details you enter', body: [
+        'Your inputs (city, dates, travelers, currency and so on) and the calculation are processed in your browser and are not sent to our server. Inputs are kept in the page address (URL) so that refreshing and sharing work; sharing the address shares those details too.',
+      ] },
+      { h: 'Browser storage', body: [
+        'Your chosen language and display currency are saved in your browser\'s local storage (localStorage) so they are kept on your next visit. They stay only on your device and you can clear them in your browser settings at any time.',
+      ] },
+      { h: 'Server and access logs', body: [
+        'Loading exchange rates sends a request to our server (Cloudflare); it contains no information that identifies you. Our hosting provider (Cloudflare) may process access records such as IP addresses to operate and secure the service.',
+      ] },
+      { h: 'Advertising and cookies', body: [
+        'This site may show third-party advertising such as Google AdSense in the future. When ads are shown, third-party vendors, including Google, may use cookies to serve ads based on your prior visits to this website or other websites.',
+        'Google\'s use of advertising cookies enables it to serve personalised ads. You can opt out of personalised advertising in Google Ads Settings (https://adssettings.google.com), and opt out of third-party vendors\' cookies at https://www.aboutads.info.',
+        'Visitors from the European Economic Area, the UK and Switzerland will be asked for consent before ads are shown.',
+      ] },
+      { h: 'External links', body: [
+        'Price sources and food recommendation sources link to the sites of those organisations and businesses, whose own privacy policies apply.',
+      ] },
+      { h: 'Changes', body: [
+        'If this policy changes, we will post the update on this page with its effective date.',
+      ] },
+    ],
+  },
   grades: { A: 'A Official', B: 'B Public', C: 'C Secondary', D: 'D On hold' },
   ads: { label: 'Advertisement' },
   rates: {
@@ -164,76 +216,5 @@ export const en: Messages = {
     none: 'N/A',
     sourceLink: 'Exchange rate source {source} (opens in a new window)',
   },
-  footer: { method: 'How it works', sources: 'Price sources', disclaimer: 'Amounts are reference ranges built from published price samples and do not guarantee actual spending.', data: 'Price data as of {date}' },
-  method: {
-    title: 'Method & sources',
-    lead: 'How prices are used, how the numbers are calculated, and what this site does not do.',
-    scopeTitle: 'What is calculated',
-    scope: [
-      'Only on-the-ground costs: dining, local transport, attractions and souvenirs. Flights and lodging are not searched live; only amounts you enter are added.',
-      'Results are a min–max range, not a single exact number.',
-    ],
-    formulaTitle: 'How it is calculated',
-    formula: [
-      'Trip days = nights + 1. On the first and last day, dining and activity costs (meals, snacks, attractions) are each {edge}% of a regular day.',
-      'Prices with different units are never mixed into one distribution. They are split into "baskets by type" that are priced separately and then added: daily pass, single ride, meals, snacks & drinks, admission and souvenirs.',
-      'Dining = meals basket ({meals} meals a day) + snacks & drinks basket ({snacks} a day for Budget/Standard/Comfort). The meals basket is required; snacks & drinks are added only when they have enough samples. Side dishes are not used.',
-      'Transport = daily pass basket (a 24-hour pass counts as 1 day, 48-hour as 2, 72-hour as 3, × days) and single-ride basket ({rides} rides a day for Budget/Standard/Comfort) are alternatives. The ranges of the baskets with enough samples are combined into one range. Per-vehicle fares such as taxis or private cars, and round-trip or leg fares, are not used.',
-      'Attractions are never added automatically. Only the places you tick in the calculator are added, one visit each (adult price × adults + child price, or adult price, × children). Nothing ticked means no attraction cost.',
-      'Souvenirs = souvenir basket × items per adult for the whole trip ({souvenirs} for Budget/Standard/Comfort). Children are assumed not to buy souvenirs.',
-      'The four items are added, then a {contingency}% contingency is added.',
-      'Travel style only changes which part of the same basket\'s price samples is read, and how often things are used (transport, snacks, drinks): sort the sample endpoints from low to high; Budget uses the lowest 0–50%, Standard 25–75%, Comfort the top 50–100%.',
-      'If child prices exist they are used; otherwise adult prices apply and this is shown in the result.',
-    ],
-    dataTitle: 'Price data rules',
-    data: [
-      'Prices are kept in the original local currency; exchange rates are applied at request time. Converted amounts are never stored in the data.',
-      'Source grades are A (official), B (public) and C (secondary). Grade D (on hold) and "model use = no" samples are excluded.',
-      'If a basket has at least {min} "model use = yes" samples, only those are used. "Conditional" samples are added only when needed, and the result says so.',
-      'Averages from other travel budget sites are never imported, and missing prices are never filled with estimates.',
-      'If a required basket has fewer than {min} samples, or overall coverage (up to {cap} samples per group) is below {rate}%, missing items are shown instead of an amount.',
-      'Minimum sample counts use "independent samples". When the same product from the same source differs only in size, duration or weekday (24/48/72-hour passes, 4- and 8-piece boxes, weekday/weekend fares), every price is used in the distribution but it counts as one sample.',
-      'For attractions, ticket options of the same venue from the same source (e.g. Eiffel Tower stairs, elevator or summit; Marble Mountains admission and elevator) count as one independent sample.',
-      'Sightseeing rides such as cable cars and gondolas are not everyday transport, so they are priced as attractions rather than in the single-ride basket.',
-      'If an official daily fare cap exists (e.g. TfL daily cap in London), the daily cost of single rides never exceeds it.',
-      'Menu prices shown before tax and service charge (e.g. 450++) are not changed, but the result shows a warning.',
-      'Resident-only fares (e.g. EEA) and upper-bound wording such as "under €20" are not treated as visitor prices and are excluded.',
-    ],
-    dateTitle: 'Visit date',
-    date: [
-      'The date only affects items whose real price changes with it: passes with separate weekday/weekend fares use the fare for the weekday of each day, and prices with a sales period apply only on dates inside it.',
-      'No unsupported peak-season multiplier is applied to the total. Prices that vary by demand or schedule are reflected only as a min–max range.',
-      'Public holidays are not modeled (only weekends are distinguished).',
-    ],
-    foodTitle: 'Signature dish recommendations',
-    food: 'Tourism boards and official city guides are used only as the basis for what to recommend; a menu price is shown only when it links to an individual menu observation in the price samples.',
-    ratesTitle: 'Exchange rates',
-    rates: [
-      'The server (a Cloudflare Worker) calls a free exchange rate API and caches the result for about a day. The rate date and source are shown with the results.',
-      'If the call fails, no made-up rate is used. A previously fetched good rate is used and flagged as stale; if there is none, only local-currency amounts are shown.',
-      'Language and currency are independent. If you pick a currency the provider does not support, you are told so.',
-    ],
-    limitTitle: 'Limitations',
-    limit: [
-      'Cities with few price samples have wide ranges or are put on hold. Sample counts and sources are visible in the results and in the table below.',
-      'Actual prices vary by restaurant, shop and season; amounts are for reference only.',
-    ],
-    statusTitle: 'Data status by city',
-    statusLead: 'Number of adult-basis independent samples usable in calculation (transport: the larger of daily-pass and single-ride baskets; dining: the meals basket). Coverage = Σmin({cap}, samples) ÷ {total}.',
-    colCity: 'City', colFill: 'Coverage', colState: 'Status',
-    ready: 'Ready', hold: 'Needs more samples', holdWith: 'Missing: {list}',
-    excludedTitle: 'Samples excluded from calculation',
-    excludedLead: 'These samples are kept in the data but not used, with the reason.',
-    colId: 'ID', colItem: 'Item', colReason: 'Reason',
-    reasons: {
-      modelNo: 'Model use = no', gradeD: 'Grade D (on hold)', onHold: 'Status is on hold', restrictedTarget: 'Resident-only fare',
-      boundOnly: 'Upper-bound wording only (not an actual price)', unsupportedUnit: 'Unsupported unit (per-vehicle, round-trip or leg fare)',
-      sideDish: 'Side dish', unclassified: 'Subtype could not be classified',
-    },
-    reviewTitle: 'Samples needing re-verification',
-    reviewLead: 'Samples whose original price could not be re-checked in independent review. The research value is still used, but results show a re-verification warning. Tables and status figures are rebuilt from the price ledger by the calculation code, not copied from the summary sheets of the research file.',
-    sourcesTitle: 'Price sources',
-    sourcesLead: 'Source links used for each city.',
-    dataFile: 'Price data: {file} ({version}, checksum {hash}, {n} samples)',
-  },
+  footer: { about: 'About', privacy: 'Privacy', disclaimer: 'Amounts are reference ranges built from published price samples and do not guarantee actual spending.', data: 'Price data as of {date}' },
 };

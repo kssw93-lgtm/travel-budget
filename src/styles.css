@@ -142,3 +142,6 @@ td.insufficient, .insufficient { color: var(--err); }
 .check-field input { width: 20px; height: 20px; min-height: 0; accent-color: var(--brand); }
 @media (max-width: 640px) { .detail-row { border-bottom: 1px solid var(--line); } }
 .attr-added { margin: 4px 0 0 30px; font-weight: 700; color: var(--brand); font-size: .92rem; }
+.prose .lead { font-size: 1.02rem; }
+.prose section + section { margin-top: 4px; }
+.selectable { user-select: all; font-weight: 600; }

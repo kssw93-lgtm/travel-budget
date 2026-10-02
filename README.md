@@ -33,7 +33,7 @@ npm run deploy:check   # 빌드 + wrangler deploy --dry-run (실제 배포 안 �
 ```
 
 e2e 는 데스크톱(1280px)·모바일 375px·320px 세 뷰포트에서 핵심 흐름, axe 접근성(WCAG 2.1 AA), 브라우저 콘솔 오류 0건,
-URL 상태 보존, 언어/통화 독립, 환율 장애, 광고 자리 CLS, SEO 메타, 방법론·출처 링크를 검사합니다.
+URL 상태 보존, 언어/통화 독립, 환율 장애, 광고 자리 CLS, SEO 메타, 소개·개인정보처리방침 페이지, 외부 링크를 검사합니다.
 레이아웃 테스트(`tests/e2e/layout.spec.ts`)는 320·375·768·1024·1280·1440px 에서 가로 스크롤·겹침·폭 제한·광고 레일 표시 조건을 검사합니다.
 e2e 는 배포와 같은 빌드(실제 가격 데이터만)로 실행합니다. 테스트 전용 가짜 가격은 없습니다.
 
@@ -62,7 +62,7 @@ GitHub Actions(`.github/workflows/ci.yml`)가 push·PR 마다 같은 순서로 �
 | `src/data/` | 생성된 JSON 로더. 가격은 여기로만 들어옴 |
 | `scripts/convert-xlsx.ts` | 엑셀 → JSON 변환 |
 | `src/i18n/` | 한/영 문구 (`ko.ts` 가 기준, `en.ts` 는 타입으로 구조 강제) |
-| `src/ui/` | 계산기·결과·대표 음식·방법론 페이지·광고 자리 |
+| `src/ui/` | 계산기·결과·대표 음식·소개/개인정보처리방침 페이지·광고 자리 |
 | `worker/` | `/api/rates` — 교체 가능한 환율 제공자, 캐시, 장애 시 마지막 정상값(stale) |
 | `tests/` | 단위 테스트, Worker 테스트, e2e |
 
@@ -79,7 +79,7 @@ GitHub Actions(`.github/workflows/ci.yml`)가 push·PR 마다 같은 순서로 �
 - `data/research-queue.md`: 변환할 때마다 자동 생성되는 조사 요청 목록(계산을 막는 부족 바스켓, 공식 재검증이 필요한 표본)
 - 외식 + 교통 + 기념품 + (체크한 관광지 입장료) 합계에 예비비 10%(항목별로도 표시)
 - 방문일은 요일별 요금·판매 기간이 있는 항목에만 반영, 전체 성수기 배수 없음
-- 자세한 규칙은 사이트의 `/methodology` 페이지에 공개
+- 가격 출처·확인일·경고는 결과 화면의 "가격 근거·출처·경고 보기"에 표시(별도 방법론 페이지는 두지 않음)
 
 ## 환율
 
@@ -90,9 +90,11 @@ GitHub Actions(`.github/workflows/ci.yml`)가 push·PR 마다 같은 순서로 �
 ## URL·SEO
 
 - 계산기 입력·언어·통화는 URL 쿼리(`?lang=ko&city=tokyo&date=…&cur=KRW`)에 담겨 새로고침·공유·뒤로가기에도 유지됩니다.
-- 계산기(`index.html`)와 방법론(`methodology.html`)은 각자 정적 제목·설명·OG·JSON-LD 를 가지며, 언어 전환 시 런타임에 갱신됩니다.
+- 계산기(`index.html`)·사이트 소개(`about.html`)·개인정보처리방침(`privacy.html`)은 각자 정적 제목·설명·OG·JSON-LD 를 가지며, 언어 전환 시 런타임에 갱신됩니다.
 - 사이트 주소가 정해지면 빌드 시 `SITE_URL=https://도메인 npm run build` 로 canonical·hreflang·og:url·sitemap.xml 이 생성됩니다.
   (주소가 없으면 robots.txt 만 만들고 주소를 지어내지 않습니다.)
+- `ADSENSE_PUBLISHER_ID=pub-…` 를 주면 `ads.txt` 를, `VITE_CONTACT_EMAIL` 을 주면 소개·정책 페이지에 문의처를 넣습니다.
+- `public/_headers`: `/assets/*` 1년 캐시와 기본 보안 헤더. AdSense 준비 항목은 `docs/ADSENSE.md`.
 
 ## 광고
 

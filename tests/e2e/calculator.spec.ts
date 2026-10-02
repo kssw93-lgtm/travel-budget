@@ -168,13 +168,10 @@ test.describe('검수 지적 사항 화면 확인', () => {
     await expect(q).toContainText('Santander Cycles');
   });
 
-  test('다낭 참조각박물관은 재검증 필요로 표시된다(결과·방법론)', async ({ page }) => {
+  test('다낭 참조각박물관은 재검증 필요로 표시된다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/?lang=ko&city=da-nang&date=2026-11-04&nights=3&adults=1&children=0&style=standard&cur=KRW&attr=DAD-AT-004');
     await expect(page.getByTestId('quality').locator('[data-category="attraction"]')).toContainText('재검증이 필요한 가격');
-    await page.goto('/methodology?lang=ko');
-    await expect(page.getByTestId('review-list')).toContainText('DAD-AT-004');
-    await expect(page.getByTestId('review-list')).toContainText('원문 미확인');
   });
 });
 
@@ -207,29 +204,35 @@ test.describe('환율 장애 처리', () => {
   });
 });
 
-test.describe('방법론·출처 페이지', () => {
-  test('직접 접속과 메뉴 이동 모두 동작하고 데이터 현황을 보여준다', async ({ page }) => {
+test.describe('사이트 소개·개인정보처리방침', () => {
+  test('직접 접속과 메뉴·푸터 이동이 동작하고 언어를 바꾸면 내용이 바뀐다', async ({ page }) => {
     await mockRates(page);
-    await page.goto('/methodology');
-    await expect(page.getByRole('heading', { level: 1 })).toContainText('방법론');
-    await expect(page.getByTestId('status-table').locator('tbody tr')).toHaveCount(8);
-    for (const [city, st] of Object.entries(status)) {
-      await expect(page.locator(`[data-city="${city}"]`)).toContainText(st.computable ? '계산 가능' : '표본 보강 필요');
-    }
-    const latest = JSON.parse(readFileSync('data/source/latest.json', 'utf8')) as { version: string };
-    await expect(page.locator('main')).toContainText(latest.version);
-    await expect(page.getByTestId('excluded-table')).toContainText('DAD-FD-003');
+    await page.goto('/about');
+    await expect(page).toHaveURL(/\/about\?lang=ko$/);
+    await expect(page.getByTestId('about').getByRole('heading', { level: 1 })).toHaveText('사이트 소개');
+    await expect(page.getByTestId('about')).toContainText('가격은 어디에서 오나요');
     await page.getByRole('navigation').getByRole('link', { name: '계산기' }).click();
     await expect(page).toHaveURL(/127\.0\.0\.1:4173\/\?lang=ko/);
-    await page.getByRole('navigation').getByRole('link', { name: '방법론·출처' }).click();
-    await expect(page).toHaveURL(/\/methodology\?lang=ko$/);
+    await page.getByRole('contentinfo').getByRole('link', { name: '개인정보처리방침' }).click();
+    await expect(page).toHaveURL(/\/privacy\?lang=ko$/);
+    const privacy = page.getByTestId('privacy');
+    await expect(privacy).toContainText('2026-10-02');
+    await expect(privacy).toContainText('쿠키');
+    await expect(privacy.locator('a[href="https://adssettings.google.com/"], a[href^="https://adssettings.google.com"]')).toHaveCount(1);
     await page.getByRole('button', { name: 'English' }).click();
-    await expect(page.getByRole('heading', { level: 1 })).toContainText('Method');
+    await expect(page).toHaveURL(/\/privacy\?lang=en$/);
+    await expect(privacy.getByRole('heading', { level: 1 })).toHaveText('Privacy Policy');
+  });
+
+  test('예전 방법론 주소로 들어오면 계산기를 보여준다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/methodology');
+    await expect(page.locator('#city')).toBeVisible();
   });
 });
 
 test.describe('반응형', () => {
-  for (const path of ['/', '/methodology']) {
+  for (const path of ['/', '/about', '/privacy']) {
     test(`${path} 가로 스크롤이 생기지 않는다`, async ({ page }) => {
       await mockRates(page);
       await page.goto(path);

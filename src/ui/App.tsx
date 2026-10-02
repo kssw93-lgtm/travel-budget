@@ -3,7 +3,8 @@ import { dataDate } from '../data';
 import { I18nProvider, detectLang, fmt, messages, type Lang } from '../i18n';
 import { AdSlot } from './AdSlot';
 import { Calculator } from './Calculator';
-import { Methodology } from './Methodology';
+import { About, Privacy } from './InfoPages';
+import { pageOf } from './pages';
 import { applyMeta } from './meta';
 import { calcMemory, readLang, withLang } from './urlState';
 import { currentLoc, isPreview, pushLoc, replaceLoc, type Loc } from './router';
@@ -12,7 +13,6 @@ export type Go = (to: string) => void;
 
 
 const current = (): Loc => currentLoc();
-const isMethod = (p: string) => p === '/methodology' || p === '/methodology/' || p === '/methodology.html';
 
 function useLocation(): [Loc, Go] {
   const [loc, setLoc] = useState<Loc>(current);
@@ -46,7 +46,7 @@ export function App() {
   const [loc, go] = useLocation();
   const [lang, setLang] = useState<Lang>(() => readLang(currentLoc().search) ?? detectLang());
   const t = messages[lang];
-  const page = isMethod(loc.pathname) ? 'methodology' : 'calculator';
+  const page = pageOf(loc.pathname);
   const first = useRef(true);
 
   // 언어·페이지가 바뀌면 문서 언어와 SEO 메타를 갱신하고 언어 선택을 기억한다
@@ -57,7 +57,7 @@ export function App() {
     } catch {
       /* 저장소를 못 쓰는 환경 */
     }
-    if (page === 'methodology') {
+    if (page !== 'calculator') {
       const next = `${loc.pathname}${withLang(loc.search, lang)}${loc.hash}`;
       if (next !== `${loc.pathname}${loc.search}${loc.hash}`) replaceLoc(next);
     }
@@ -80,7 +80,6 @@ export function App() {
   }, [loc.pathname, loc.hash]);
 
   const calcHref = `/${calcMemory.search || `?lang=${lang}`}`;
-  const methodHref = `/methodology?lang=${lang}`;
 
   return (
     <I18nProvider lang={lang}>
@@ -92,7 +91,7 @@ export function App() {
           </InternalLink>
           <nav aria-label={t.nav.main}>
             <InternalLink to={calcHref} go={go} aria-current={page === 'calculator' ? 'page' : undefined}>{t.nav.calculator}</InternalLink>
-            <InternalLink to={methodHref} go={go} aria-current={page === 'methodology' ? 'page' : undefined}>{t.nav.methodology}</InternalLink>
+            <InternalLink to={`/about?lang=${lang}`} go={go} aria-current={page === 'about' ? 'page' : undefined}>{t.footer.about}</InternalLink>
           </nav>
           <div className="lang" role="group" aria-label={t.nav.language}>
             {(['ko', 'en'] as const).map((l) => (
@@ -113,7 +112,7 @@ export function App() {
               {t.preview.banner}
             </p>
           )}
-          {page === 'methodology' ? <Methodology /> : <Calculator go={go} />}
+          {page === 'about' ? <About /> : page === 'privacy' ? <Privacy /> : <Calculator />}
         </main>
         <div className="ad-rail">
           <AdSlot name="rail-right" />
@@ -124,8 +123,8 @@ export function App() {
           <p>{t.footer.disclaimer}</p>
           <p>
             {fmt(t.footer.data, { date: dataDate })} ·{' '}
-            <InternalLink to={`${methodHref}#how`} go={go}>{t.footer.method}</InternalLink> ·{' '}
-            <InternalLink to={`${methodHref}#sources`} go={go}>{t.footer.sources}</InternalLink>
+            <InternalLink to={`/about?lang=${lang}`} go={go}>{t.footer.about}</InternalLink> ·{' '}
+            <InternalLink to={`/privacy?lang=${lang}`} go={go}>{t.footer.privacy}</InternalLink>
           </p>
         </div>
       </footer>

@@ -1,7 +1,7 @@
 import type { Basket, Category, TravelStyle } from './types';
 
 /**
- * 계산 모델의 "가정" 값. 가격이 아니라 사용 방식에 대한 가정이며, 방법론 페이지에 그대로 공개한다.
+ * 계산 모델의 "가정" 값. 가격이 아니라 사용 방식에 대한 가정이다.
  * 가격 데이터(JSON)는 건드리지 않고 여기 값만 바꿔도 결과가 바뀐다.
  */
 export const MODEL = {
@@ -14,7 +14,7 @@ export const MODEL = {
   /** 첫날·마지막 날 식비·활동비 비율 */
   edgeDayFactor: 0.6,
   /**
-   * 바스켓별 이용 횟수 가정(가격이 아니라 사용 방식). 방법론 페이지에 그대로 공개한다.
+   * 바스켓별 이용 횟수 가정(가격이 아니라 사용 방식).
    * pass·ride·meal·snack·attraction 은 1인 하루 기준, souvenir 는 성인 1인 여행 전체 구매 개수.
    */
   usage: {

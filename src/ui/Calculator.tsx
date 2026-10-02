@@ -9,7 +9,6 @@ import { parseForm, type FormState } from './form';
 import { RatesNotice, ResultView } from './ResultView';
 import { TripForm } from './TripForm';
 import { useRates } from './useRates';
-import type { Go } from './App';
 import { calcMemory, formToSearch, readForm } from './urlState';
 import { currentLoc, replaceLoc } from './router';
 
@@ -27,7 +26,7 @@ function savedCurrency(): string | null {
   }
 }
 
-export function Calculator({ go }: { go: Go }) {
+export function Calculator() {
   const { t, lang } = useI18n();
   const rates = useRates();
   const [form, setForm] = useState<FormState>(() => {
@@ -107,7 +106,6 @@ export function Calculator({ go }: { go: Go }) {
             rates={rates}
             samples={samples}
             direct={{ ...parsed.direct, currency: form.directCurrency }}
-            go={go}
           />
           <PriceGuide city={city} samples={samples} display={form.currency} rates={rates} />
           <FoodSection city={city} foods={foods} samples={samples} display={form.currency} rates={rates} />

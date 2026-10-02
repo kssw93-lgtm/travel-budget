@@ -9,7 +9,8 @@ test.describe('접근성(axe, WCAG 2.1 AA)', () => {
     ['계산기 · 계산 가능 결과', async (p) => { await p.goto('/'); await fillTrip(p); await expect(p.getByTestId('total')).toBeVisible(); }],
     ['계산기 · 데이터 부족 결과', async (p) => { await p.goto('/'); await fillTrip(p, { city: 'tokyo', date: '2027-08-02' }); await expect(p.getByTestId('hold')).toBeVisible(); }],
     ['계산기 · 입력 오류', async (p) => { await p.goto('/'); await fillTrip(p, { nights: '0' }); await expect(p.locator('#err-nights')).toBeVisible(); }],
-    ['방법론', async (p) => { await p.goto('/methodology'); await expect(p.getByTestId('status-table')).toBeVisible(); }],
+    ['사이트 소개', async (p) => { await p.goto('/about'); await expect(p.getByTestId('about')).toBeVisible(); }],
+    ['개인정보처리방침', async (p) => { await p.goto('/privacy'); await expect(p.getByTestId('privacy')).toBeVisible(); }],
   ];
   for (const lang of ['ko', 'en'] as const) {
     for (const [name, open] of cases) {
@@ -77,12 +78,12 @@ test.describe('URL 입력 상태 보존', () => {
     await expect(page.locator('#currency')).toHaveValue('KRW');
   });
 
-  test('방법론 페이지에 다녀와도 계산기 입력이 유지된다', async ({ page }) => {
+  test('소개 페이지에 다녀와도 계산기 입력이 유지된다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/');
     await fillTrip(page, { city: 'bangkok', nights: '6' });
-    await page.getByRole('navigation').getByRole('link', { name: '방법론·출처' }).click();
-    await expect(page).toHaveURL(/\/methodology\?lang=ko/);
+    await page.getByRole('navigation').getByRole('link', { name: '사이트 소개' }).click();
+    await expect(page).toHaveURL(/\/about\?lang=ko/);
     await page.getByRole('navigation').getByRole('link', { name: '계산기' }).click();
     await expect(page.locator('#city')).toHaveValue('bangkok');
     await expect(page.locator('#nights')).toHaveValue('6');
@@ -134,14 +135,18 @@ test.describe('SEO 메타', () => {
     await expect(page.locator('html')).toHaveAttribute('lang', 'en');
   });
 
-  test('방법론 페이지는 정적 HTML 부터 자체 제목·설명을 가진다', async ({ page, request }) => {
-    const html = await (await request.get('/methodology.html')).text();
-    expect(html).toContain('<title>방법론·출처');
-    expect(html).toContain('application/ld+json');
+  test('소개·개인정보 페이지는 정적 HTML 부터 자체 제목·설명을 가진다', async ({ page, request }) => {
+    for (const [file, title] of [['/about.html', '사이트 소개'], ['/privacy.html', '개인정보처리방침']] as const) {
+      const html = await (await request.get(file)).text();
+      expect(html).toContain(`<title>${title} — 여행 경비 계산기`);
+      expect(html).toContain('application/ld+json');
+    }
     await mockRates(page);
-    await page.goto('/methodology?lang=en');
-    await expect(page).toHaveTitle(/^Method & sources/);
-    await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', /sources/);
+    await page.goto('/about?lang=ko');
+    await expect(page).toHaveTitle('사이트 소개 — 여행 경비 계산기 — 현지 체류비 범위');
+    await page.goto('/privacy?lang=en');
+    await expect(page).toHaveTitle(/^Privacy Policy — /);
+    await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', /[Pp]rivacy/);
   });
 
   test('robots.txt 와 정적 대체 본문이 있다', async ({ request }) => {
@@ -152,28 +157,14 @@ test.describe('SEO 메타', () => {
   });
 });
 
-test.describe('방법론·출처 링크', () => {
-  test('결과 화면에서 데이터 현황·출처 위치로 바로 이동한다', async ({ page }) => {
-    await mockRates(page);
-    await page.goto('/');
-    await fillTrip(page, { city: 'tokyo', date: '2027-08-02' });
-    await page.getByRole('link', { name: '도시별 데이터 현황 보기' }).click();
-    await expect(page).toHaveURL(/\/methodology\?lang=ko#status$/);
-    await expect(page.locator('#status')).toBeInViewport();
-    await page.goBack();
-    // 근거·출처 패널은 기본으로 접혀 있다
-    await page.locator('details.evidence > summary').click();
-    await page.getByRole('link', { name: '전체 출처 목록 보기' }).click();
-    await expect(page.locator('#sources')).toBeInViewport();
-  });
-
+test.describe('외부 링크', () => {
   test('모든 외부 링크는 http(s)이고 새 창·opener 차단·새 창 안내가 있다', async ({ page }) => {
     await mockRates(page);
-    for (const url of ['/?city=tokyo&date=2026-11-04', '/methodology']) {
+    for (const [url, min] of [['/?city=tokyo&date=2026-11-04', 5], ['/privacy', 1]] as const) {
       await page.goto(url);
+      await page.locator('details').evaluateAll((ds) => ds.forEach((d) => d.setAttribute('open', '')));
       const links = page.locator('main a[target="_blank"], main a[href^="http"]');
-      const n = await links.count();
-      expect(n).toBeGreaterThan(5);
+      expect(await links.count()).toBeGreaterThan(min);
       for (const a of await links.all()) {
         await expect(a).toHaveAttribute('href', /^https?:\/\//);
         await expect(a).toHaveAttribute('target', '_blank');
@@ -181,13 +172,5 @@ test.describe('방법론·출처 링크', () => {
         expect(await a.locator('.sr-only').count()).toBe(1);
       }
     }
-  });
-
-  test('푸터에서 방법론·출처로 이동한다', async ({ page }) => {
-    await mockRates(page);
-    await page.goto('/');
-    await page.getByRole('contentinfo').getByRole('link', { name: '가격 출처' }).click();
-    await expect(page).toHaveURL(/#sources$/);
-    await expect(page.locator('#sources')).toBeInViewport();
   });
 });

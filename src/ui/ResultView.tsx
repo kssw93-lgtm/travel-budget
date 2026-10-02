@@ -8,7 +8,6 @@ import { convertRange, RangeText } from './money';
 import type { RatesState } from './useRates';
 import { cityName } from './TripForm';
 import { ExternalLink } from './ExternalLink';
-import { InternalLink, type Go } from './App';
 
 interface Props {
   estimate: Estimate;
@@ -18,7 +17,6 @@ interface Props {
   rates: RatesState;
   samples: PriceSample[];
   direct: { flight: number; lodging: number; currency: string };
-  go: Go;
 }
 
 const sumRange = (a: Range, b: Range): Range => ({ min: a.min + b.min, max: a.max + b.max });
@@ -69,9 +67,8 @@ function warningText(w: Warning, byId: Map<string, PriceSample>, lang: 'ko' | 'e
   return fmt(t.warnings[w.code], { names, min: MODEL.minSamplesPerCategory, rate, basket });
 }
 
-export function ResultView({ estimate: e, trip, city, display, rates, samples, direct, go }: Props) {
+export function ResultView({ estimate: e, trip, city, display, rates, samples, direct }: Props) {
   const { t, lang } = useI18n();
-  const method = `/methodology?lang=${lang}`;
   const ratesData = rates.status === 'ok' ? rates.data : null;
   const byId = new Map(samples.map((s) => [s.id, s]));
   const catName = (c: Category) => t.categories[c];
@@ -113,9 +110,6 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
           <p>{t.result.holdBody}</p>
           {e.missing.length > 0 && <p>{fmt(t.result.holdMissing, { list: holdList })}</p>}
           <p className="hint">{fmt(t.result.holdFill, { min: MODEL.minSamplesPerCategory, rate: Math.round(MODEL.minFillRate * 100), fill: fillPct })}</p>
-          <p>
-            <InternalLink to={`${method}#status`} go={go}>{t.result.statusLink}</InternalLink>
-          </p>
         </div>
       )}
 
@@ -275,9 +269,6 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
         {e.warnings.filter((w) => !w.category).map((w, i) => (
           <p key={i} className="notice warn">{warningText(w, byId, lang, t)}</p>
         ))}
-        <p className="more">
-          <InternalLink to={`${method}#sources`} go={go}>{t.result.sourcesLink}</InternalLink>
-        </p>
       </div>
       </details>
       <RatesNotice rates={rates} display={display} />

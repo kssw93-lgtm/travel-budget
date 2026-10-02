@@ -83,5 +83,5 @@ export function withLang(search: string, lang: Lang): string {
   return `?${q.toString()}`;
 }
 
-/** 방법론 페이지에 다녀와도 계산기 입력이 유지되도록 마지막 계산기 쿼리를 기억한다. */
+/** 다른 페이지(소개·개인정보)에 다녀와도 계산기 입력이 유지되도록 마지막 계산기 쿼리를 기억한다. */
 export const calcMemory = { search: '' };

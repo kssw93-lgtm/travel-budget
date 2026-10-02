@@ -7,14 +7,14 @@ import { allCities, cities, foods, PILOT_STAGE, samples } from '../../src/data';
 
 const base: FormState = {
   cityId: 'taipei', visitDate: '2026-11-04', nights: '3', adults: '2', children: '0', style: 'standard',
-  currency: 'KRW', flight: '', lodging: '', directCurrency: 'KRW',
+  currency: 'KRW', flight: '', lodging: '', directCurrency: 'KRW', attractions: [],
 };
 
 describe('입력 검증', () => {
   it('정상 입력은 TripInput 으로 변환', () => {
     const p = parseForm(base);
     expect(p.errors).toEqual({});
-    expect(p.trip).toEqual({ cityId: 'taipei', visitDate: '2026-11-04', nights: 3, adults: 2, children: 0, style: 'standard' });
+    expect(p.trip).toEqual({ cityId: 'taipei', visitDate: '2026-11-04', nights: 3, adults: 2, children: 0, style: 'standard', attractionIds: [] });
     expect(p.direct).toEqual({ flight: 0, lodging: 0 });
   });
   it('범위를 벗어나거나 숫자가 아니면 오류이고 trip 은 null', () => {

@@ -105,3 +105,17 @@ td.insufficient, .insufficient { color: var(--err); }
 @media (min-width: 641px) { .card { padding: 20px; } h1 { font-size: 1.75rem; } .food-list { grid-template-columns: 1fr 1fr; } }
 .rates { min-height: 3.2em; }
 .fallback { padding: 24px 16px; max-width: 880px; margin: 0 auto; }
+
+/* 관광지 입장료 선택 */
+.attractions summary { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: baseline; }
+.summary-title { font-size: 1.1rem; font-weight: 700; }
+.attr-list { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 8px; }
+.attr-option { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+.attr-option.selected { border-color: var(--brand); background: var(--accent-bg); }
+.attr-option label { display: flex; gap: 10px; align-items: flex-start; font-weight: 600; cursor: pointer; }
+.attr-option input[type="checkbox"] { width: 20px; height: 20px; min-height: 0; margin: 2px 0 0; flex: none; accent-color: var(--brand); }
+.attr-prices { display: flex; flex-wrap: wrap; gap: 2px 16px; margin: 4px 0 0 30px; font-size: .92rem; }
+.attr-meta { margin: 4px 0 0 30px; font-size: .82rem; }
+.badge { display: inline-block; border: 1px solid var(--warn-line); background: var(--warn-bg); color: var(--ink); border-radius: 6px; padding: 0 6px; font-size: .78rem; }
+.link-button { margin-top: 10px; background: none; border: 0; padding: 4px 0; color: var(--brand); text-decoration: underline; font: inherit; font-size: .9rem; cursor: pointer; }
+.guide-table td, .guide-table th { font-variant-numeric: tabular-nums; }

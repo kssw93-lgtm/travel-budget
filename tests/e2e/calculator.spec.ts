@@ -236,3 +236,51 @@ test.describe('반응형', () => {
     });
   }
 });
+
+test.describe('관광지 입장료 선택·현지 물가', () => {
+  test('관광지를 고르면 관광 비용이 고른 곳의 입장료 합계로 바뀌고 URL 에 남는다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/?lang=ko&city=london&date=2026-11-04&nights=3&adults=2&children=1&style=standard&cur=GBP');
+    const row = page.locator('tr[data-category="attraction"]');
+    await expect(row).toContainText('독립 표본');
+    await page.getByTestId('attractions').locator('summary').click();
+    await page.locator('[data-attraction="LON-AT-001"] input').check();
+    await page.locator('[data-attraction="LON-AT-003"] input').check();
+    await expect(page.getByTestId('attractions-status')).toContainText('2곳 선택');
+    await expect(row).toContainText('선택한 관광지 2곳');
+    // 2×(38+29)+(19+26) = 179, 2×(38+39)+(19+35) = 208
+    await expect(row).toContainText('£179.00 ~ £208.00');
+    await expect(page).toHaveURL(/attr=LON-AT-001%2CLON-AT-003|attr=LON-AT-001,LON-AT-003/);
+    await page.reload();
+    await expect(page.locator('[data-attraction="LON-AT-003"] input')).toBeChecked();
+    await expect(row).toContainText('£179.00 ~ £208.00');
+    // 도시를 바꾸면 선택이 비워진다
+    await page.selectOption('#city', 'paris');
+    await expect(page.getByTestId('attractions-status')).toContainText('고른 곳 없음');
+    await expect(page).not.toHaveURL(/attr=/);
+  });
+
+  test('입장료 목록은 성인·아동 요금, 변동 범위, 재검증 표시와 출처를 보여준다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/?lang=en&city=london&date=2026-11-04&nights=3&adults=1&children=0&style=standard&cur=USD');
+    await page.getByTestId('attractions').locator('summary').click();
+    const eye = page.locator('[data-attraction="LON-AT-003"]');
+    await expect(eye).toContainText('Adult £29.00 ~ £39.00');
+    await expect(eye).toContainText('Child £26.00 ~ £35.00');
+    await expect(eye).toContainText('Varies by date or demand');
+    await expect(page.locator('[data-attraction="LON-AT-005"]')).toContainText('Free');
+    await expect(page.locator('[data-attraction="LON-AT-005"]')).toContainText('Needs re-verification');
+    await expect(eye.getByRole('link')).toHaveAttribute('href', /^https:\/\//);
+  });
+
+  test('현지 물가 한눈에: 한 끼·교통 1회·입장료 등 대표 가격을 현지·선택 통화로 보여준다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/?lang=ko&city=tokyo&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=KRW');
+    const guide = page.getByTestId('price-guide');
+    await expect(guide.locator('tr[data-basket="meal"]')).toContainText('한 끼 식사');
+    await expect(guide.locator('tr[data-basket="meal"]')).toContainText('2,800');
+    await expect(guide.locator('tr[data-basket="meal"]')).toContainText('₩26,133');
+    await expect(guide.locator('tr[data-basket="pass"]')).toContainText('참고용');
+    await expect(guide.locator('tr[data-basket="snack"]')).toHaveCount(0);
+  });
+});

@@ -79,6 +79,11 @@ export interface TripInput {
   adults: number;
   children: number;
   style: TravelStyle;
+  /**
+   * 사용자가 직접 고른 관광지(입장권 표본 ID). 하나 이상이면 관광 비용을 평균 추정 대신
+   * 선택한 곳의 입장료 합계(성인×인원 + 아동 요금×아동, 1곳당 1회)로 계산한다.
+   */
+  attractionIds?: string[];
 }
 
 export interface Range {
@@ -132,6 +137,8 @@ export interface BasketEstimate {
 
 export interface CategoryEstimate {
   category: Category;
+  /** estimated: 바스켓 가격 분포로 추정 / selected: 사용자가 고른 관광지 입장료 합계 */
+  mode: 'estimated' | 'selected';
   baskets: BasketEstimate[];
   /** 현지 통화 합계 범위(전 일정·전 인원). 데이터 부족이면 null */
   total: Range | null;

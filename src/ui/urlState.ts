@@ -18,6 +18,7 @@ const KEYS = {
   flight: 'flight',
   lodging: 'lodging',
   directCurrency: 'dcur',
+  attractions: 'attr',
 } as const satisfies Record<keyof FormState, string>;
 
 const CURRENCY = /^[A-Z]{3}$/;
@@ -37,6 +38,11 @@ export function readForm(search: string, cityIds: string[]): Partial<FormState> 
   }
   const style = get('style');
   if (style && (STYLES as readonly string[]).includes(style)) out.style = style as TravelStyle;
+  const attr = get('attractions');
+  if (attr) {
+    const ids = attr.split(',').filter((id) => /^[A-Z]{3}-[A-Z]{2}-\d{3}$/.test(id)).slice(0, 30);
+    if (ids.length) out.attractions = ids;
+  }
   for (const k of ['currency', 'directCurrency'] as const) {
     const v = get(k)?.toUpperCase();
     if (v && CURRENCY.test(v)) out[k] = v;
@@ -54,6 +60,10 @@ export function formToSearch(form: FormState, lang: Lang): string {
   const q = new URLSearchParams();
   q.set('lang', lang);
   (Object.keys(KEYS) as (keyof FormState)[]).forEach((k) => {
+    if (k === 'attractions') {
+      if (form.attractions.length) q.set(KEYS.attractions, form.attractions.join(','));
+      return;
+    }
     const v = form[k];
     if (v === '' || ((k === 'flight' || k === 'lodging' || k === 'directCurrency') && !form.flight && !form.lodging)) return;
     q.set(KEYS[k], v);

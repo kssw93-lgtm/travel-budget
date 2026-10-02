@@ -2,7 +2,9 @@ import { useEffect, useMemo, useState } from 'react';
 import { estimateTrip } from '../core/estimate';
 import { cityById, cities, foods, samples } from '../data';
 import { useI18n } from '../i18n';
+import { AttractionPicker } from './AttractionPicker';
 import { FoodSection } from './FoodSection';
+import { PriceGuide } from './PriceGuide';
 import { parseForm, type FormState } from './form';
 import { RatesNotice, ResultView } from './ResultView';
 import { TripForm } from './TripForm';
@@ -28,6 +30,7 @@ export function Calculator({ go }: { go: Go }) {
   const { t, lang } = useI18n();
   const rates = useRates();
   const [form, setForm] = useState<FormState>(() => {
+    const fromUrl = readForm(window.location.search, cities.map((c) => c.id));
     const currency = savedCurrency() ?? (lang === 'ko' ? 'KRW' : 'USD');
     return {
       cityId: cities[0]?.id ?? '',
@@ -41,10 +44,13 @@ export function Calculator({ go }: { go: Go }) {
       lodging: '',
       directCurrency: currency,
       // URL 에 담긴 입력이 있으면 그것을 우선한다(새로고침·공유 링크)
-      ...readForm(window.location.search, cities.map((c) => c.id)),
+      ...fromUrl,
+      attractions: fromUrl.attractions ?? [],
     };
   });
-  const patch = (p: Partial<FormState>) => setForm((f) => ({ ...f, ...p }));
+  // 도시를 바꾸면 이전 도시의 관광지 선택은 의미가 없으므로 비운다
+  const patch = (p: Partial<FormState>) =>
+    setForm((f) => ({ ...f, ...p, ...(p.cityId && p.cityId !== f.cityId ? { attractions: [] } : {}) }));
 
   // 표시 통화를 고르면 기억해 둔다(언어와 독립)
   useEffect(() => {
@@ -76,6 +82,16 @@ export function Calculator({ go }: { go: Go }) {
         <p>{t.home.lead}</p>
       </section>
       <TripForm form={form} onChange={patch} errors={parsed.errors} cities={cities} rates={rates.status === 'ok' ? rates.data : null} />
+      {city && (
+        <AttractionPicker
+          city={city}
+          samples={samples}
+          selected={form.attractions}
+          onChange={(attractions) => patch({ attractions })}
+          display={form.currency}
+          rates={rates}
+        />
+      )}
       {estimate && parsed.trip && city ? (
         <>
           <ResultView
@@ -88,6 +104,7 @@ export function Calculator({ go }: { go: Go }) {
             direct={{ ...parsed.direct, currency: form.directCurrency }}
             go={go}
           />
+          <PriceGuide city={city} samples={samples} display={form.currency} rates={rates} />
           <FoodSection city={city} foods={foods} samples={samples} display={form.currency} rates={rates} />
         </>
       ) : (

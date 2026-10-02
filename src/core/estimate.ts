@@ -1,6 +1,7 @@
 import { classify, isVariablePricing, type Classified, type ExcludeReason } from './classify';
 import { addDays } from './dates';
 import { BASKET_RULES, BASKETS, CATEGORIES, EDGE_WEIGHTED, MODEL } from './model-config';
+import { attractionOptions } from './attractions';
 import { endpoints, independentCount, poolOnDate, selectUsable, styleRange } from './pool';
 import type {
   Basket,
@@ -58,6 +59,23 @@ interface BasketRun {
 }
 
 const clampRange = (r: Range, cap: number): Range => ({ min: Math.min(r.min, cap), max: Math.min(r.max, cap) });
+
+/** 사용한 표본의 품질 경고(조건부·C등급·재검증·시작가·변동 가격·세금 별도·관광 탑승) */
+export function qualityWarnings(category: Category, rows: Classified[]): Warning[] {
+  const out: Warning[] = [];
+  const pick = (f: (r: Classified) => boolean) => [...new Set(rows.filter(f).map((r) => r.sample.id))];
+  const flag = (code: Warning['code'], ids: string[]) => {
+    if (ids.length) out.push({ category, code, ids });
+  };
+  flag('conditionalUsed', pick((r) => r.sample.modelUse === 'conditional'));
+  flag('gradeCUsed', pick((r) => r.sample.grade === 'C'));
+  flag('revalidation', pick((r) => r.sample.status.includes('재검증') || Boolean(r.sample.review)));
+  flag('fromPrice', pick((r) => r.fromPrice));
+  flag('variablePricing', pick((r) => isVariablePricing(r.sample, r.variant)));
+  flag('taxExcluded', pick((r) => r.taxExcluded));
+  flag('sightseeingRide', pick((r) => r.sightseeingRide));
+  return out;
+}
 
 /** 한 바스켓(같은 단위의 표본 묶음)의 전체 일정·전체 인원 합계. 다른 바스켓의 가격과 섞지 않는다. */
 function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates: string[], weights: number[]): BasketRun {
@@ -208,20 +226,13 @@ function estimateCategory(
 
   const usedRows = included.flatMap((r) => r.used);
   if (requiredOk) {
-    const pick = (f: (r: Classified) => boolean) => [...new Set(usedRows.filter(f).map((r) => r.sample.id))];
     const flag = (code: Warning['code'], ids: string[]) => {
       if (ids.length) warnings.push({ category, code, ids });
     };
     if (included.some((r) => r.childAsAdult) || (input.children > 0 && category === 'food' && !included.some((r) => r.childCount > 0))) {
       warnings.push({ category, code: 'childAsAdult' });
     }
-    flag('conditionalUsed', pick((r) => r.sample.modelUse === 'conditional'));
-    flag('gradeCUsed', pick((r) => r.sample.grade === 'C'));
-    flag('revalidation', pick((r) => r.sample.status.includes('재검증') || Boolean(r.sample.review)));
-    flag('fromPrice', pick((r) => r.fromPrice));
-    flag('variablePricing', pick((r) => isVariablePricing(r.sample, r.variant)));
-    flag('taxExcluded', pick((r) => r.taxExcluded));
-    flag('sightseeingRide', pick((r) => r.sightseeingRide));
+    warnings.push(...qualityWarnings(category, usedRows));
     flag('dailyCapApplied', [...new Set(included.flatMap((r) => r.capIds))]);
     flag('capExempt', [...new Set(included.flatMap((r) => r.exemptIds))]);
     flag('dateResolved', included.flatMap((r) => r.resolved));
@@ -243,6 +254,7 @@ function estimateCategory(
     warnings,
     estimate: {
       category,
+      mode: 'estimated',
       baskets,
       total,
       perPersonPerDay: total ? scale(total, 1 / (people * dates.length)) : null,
@@ -277,7 +289,8 @@ export function estimateTrip(input: TripInput, city: City, samples: PriceSample[
   const categories = {} as Record<Category, CategoryEstimate>;
   const warnings: Warning[] = [];
   for (const c of CATEGORIES) {
-    const run = estimateCategory(c, classified, input, dates, weights);
+    const selected = c === 'attraction' && input.attractionIds?.length ? selectedAttractions(city, samples, input, dates) : null;
+    const run = selected ?? estimateCategory(c, classified, input, dates, weights);
     categories[c] = run.estimate;
     warnings.push(...run.warnings);
   }
@@ -378,5 +391,55 @@ export function cityStatus(city: City, samples: PriceSample[]): CityStatus {
     fillRate: Math.round(s.fillRate * 100) / 100,
     missing: s.missing,
     computable: s.missing.length === 0 && s.fillRate >= MODEL.minFillRate,
+  };
+}
+
+/**
+ * 사용자가 고른 관광지의 입장료 합계. 1곳당 1회 방문, 성인 요금 × 성인 + (아동 요금이 있으면 아동 요금, 없으면 성인 요금) × 아동.
+ * 여행 기간 중 하루라도 판매·유효 기간에 드는 곳만 더하고, 아닌 곳은 경고로 알린다. 고른 곳이 모두 무효면 null(평균 추정으로 대체).
+ */
+function selectedAttractions(city: City, samples: PriceSample[], input: TripInput, dates: string[]): { estimate: CategoryEstimate; warnings: Warning[] } | null {
+  const ids = new Set(input.attractionIds ?? []);
+  const options = attractionOptions(city, samples).filter((o) => ids.has(o.id));
+  if (options.length === 0) return null;
+  const validSomeDay = (r: Classified) => dates.some((d) => poolOnDate([r], d).rows.length > 0);
+  const chosen = options.filter((o) => validSomeDay(o.adult));
+  const dropped = options.filter((o) => !chosen.includes(o)).map((o) => o.id);
+  const warnings: Warning[] = [];
+  if (dropped.length) warnings.push({ category: 'attraction', code: 'dateExcluded', ids: dropped });
+  if (chosen.length === 0) return null;
+
+  let total: Range = ZERO;
+  const used: Classified[] = [];
+  let childFallback = false;
+  for (const o of chosen) {
+    const adult = { min: o.adult.sample.min, max: o.adult.sample.max };
+    const child = o.child ? { min: o.child.sample.min, max: o.child.sample.max } : adult;
+    if (input.children > 0 && !o.child) childFallback = true;
+    total = add(total, add(scale(adult, input.adults), scale(child, input.children)));
+    used.push(o.adult);
+    if (o.child && input.children > 0) used.push(o.child);
+  }
+  if (childFallback) warnings.push({ category: 'attraction', code: 'childAsAdult' });
+  warnings.push(...qualityWarnings('attraction', used));
+  const checked = used.map((r) => r.sample.checkedAt).sort();
+  const people = input.adults + input.children;
+  return {
+    warnings,
+    estimate: {
+      category: 'attraction',
+      mode: 'selected',
+      baskets: [{ basket: 'attraction', sampleCount: chosen.length, independentCount: chosen.length, childSampleCount: used.length - chosen.length, sufficient: true, included: true }],
+      total,
+      perPersonPerDay: scale(total, 1 / (people * dates.length)),
+      sampleCount: chosen.length,
+      independentCount: chosen.length,
+      childSampleCount: used.length - chosen.length,
+      sufficient: true,
+      sources: uniqueSources(used),
+      checkedFrom: checked[0] ?? null,
+      checkedTo: checked[checked.length - 1] ?? null,
+      usedIds: used.map((r) => r.sample.id),
+    },
   };
 }

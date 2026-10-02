@@ -5,7 +5,7 @@ import { formToSearch, readForm, readLang, withLang } from '../../src/ui/urlStat
 const ids = ['tokyo', 'taipei'];
 const form: FormState = {
   cityId: 'taipei', visitDate: '2026-11-04', nights: '3', adults: '2', children: '1', style: 'comfort',
-  currency: 'EUR', flight: '', lodging: '', directCurrency: 'EUR', attractions: [],
+  currency: 'EUR', flight: '', lodging: '', directCurrency: 'EUR', attractions: [], drinks: false,
 };
 
 describe('URL 입력 상태', () => {

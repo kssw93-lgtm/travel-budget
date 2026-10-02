@@ -6,9 +6,9 @@ export type TravelStyle = 'budget' | 'standard' | 'comfort';
 
 /**
  * 가격 바스켓: 단위가 같은 표본끼리만 묶는 계산 단위. 서로 다른 바스켓의 가격은 한 분포로 섞지 않는다.
- * pass=하루(N시간) 이용권, ride=1회권, meal=한 끼 식사, snack=간식·음료, attraction=입장권, souvenir=기념품
+ * pass=하루(N시간) 이용권, ride=1회권, meal=한 끼 식사, snack=간식·음료, drink=주류(선택), attraction=입장권, souvenir=기념품
  */
-export type Basket = 'pass' | 'ride' | 'meal' | 'snack' | 'attraction' | 'souvenir';
+export type Basket = 'pass' | 'ride' | 'meal' | 'snack' | 'drink' | 'attraction' | 'souvenir';
 
 export interface PriceSample {
   id: string;
@@ -84,6 +84,30 @@ export interface TripInput {
    * 선택한 곳의 입장료 합계(성인×인원 + 아동 요금×아동, 1곳당 1회)로 계산한다.
    */
   attractionIds?: string[];
+  /** 성인 음주 비용 포함(주류 바스켓). 주류 가격 표본이 3건 미만이면 포함하지 않고 알린다 */
+  drinks?: boolean;
+}
+
+/**
+ * 결과 "자세히 보기"의 한 줄.
+ * day: 일차별(그날 1인 이용 횟수 × 1회 가격 → 전 인원 합계), trip: 여행 전체(기념품), item: 고른 관광지 1곳
+ */
+export interface DetailLine {
+  kind: 'day' | 'trip' | 'item';
+  basket: Basket;
+  /** 1부터 시작하는 일차 */
+  day?: number;
+  date?: string;
+  /** 1인 이용 횟수(끼니·회·곳). trip 은 여행 전체 개수 */
+  units: number;
+  /** 성인 1회(1끼·1회·1곳·1개) 가격 범위 */
+  unitPrice: Range;
+  /** 그날(또는 여행 전체) 전 인원 합계 */
+  total: Range;
+  id?: string;
+  nameKo?: string;
+  nameEn?: string;
+  childPrice?: Range | null;
 }
 
 export interface Range {
@@ -107,7 +131,8 @@ export type WarningCode =
   | 'dailyCapApplied'
   | 'capExempt'
   | 'taxExcluded'
-  | 'sightseeingRide';
+  | 'sightseeingRide'
+  | 'drinkNoData';
 
 export interface Warning {
   code: WarningCode;
@@ -140,6 +165,10 @@ export interface CategoryEstimate {
   /** estimated: 바스켓 가격 분포로 추정 / selected: 사용자가 고른 관광지 입장료 합계 */
   mode: 'estimated' | 'selected';
   baskets: BasketEstimate[];
+  /** 자세히 보기 내역(합계에 반영된 바스켓) */
+  lines: DetailLine[];
+  /** 이 항목 몫의 예비비(합계 × 예비비율). 전체 합계를 낼 수 있을 때만 */
+  contingency: Range | null;
   /** 현지 통화 합계 범위(전 일정·전 인원). 데이터 부족이면 null */
   total: Range | null;
   /** 1인 1일 기준 단가 범위(전체 일정 평균). 데이터 부족이면 null */

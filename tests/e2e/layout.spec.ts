@@ -11,6 +11,8 @@ const overlap = (a: Box, b: Box) => a.x < b.x + b.width && b.x < a.x + a.width &
 async function boxes(page: Page, selector: string): Promise<Box[]> {
   return page.locator(selector).evaluateAll((els) =>
     els
+      // 접힌 <details> 안처럼 화면에 보이지 않는 요소는 빼고 잰다
+      .filter((e) => e.checkVisibility())
       .map((e) => e.getBoundingClientRect())
       .filter((r) => r.width > 0 && r.height > 0)
       .map((r) => ({ x: r.left, y: r.top + window.scrollY, width: r.width, height: r.height })),

@@ -444,3 +444,52 @@ describe('출처·확인일', () => {
     expect(e.categories.transport.checkedTo).toBe('2026-10-02');
   });
 });
+
+describe('자세히 보기 내역·항목별 예비비·음주', () => {
+  it('외식 일차별 내역: 1·4일차 1.8끼, 2·3일차 3끼, 1끼 가격 [12.5, 27.5], 일차 합 = 항목 합계', () => {
+    const e = estimateTrip(trip(), city, baseSamples());
+    const lines = e.categories.food.lines;
+    expect(lines.map((l) => [l.day, Math.round(l.units * 10) / 10])).toEqual([[1, 1.8], [2, 3], [3, 3], [4, 1.8]]);
+    expect(lines[0]!.unitPrice).toEqual({ min: 12.5, max: 27.5 });
+    const sum = lines.reduce((s, l) => ({ min: s.min + l.total.min, max: s.max + l.total.max }), { min: 0, max: 0 });
+    close(sum, e.categories.food.total!.min, e.categories.food.total!.max);
+    expect(e.categories.souvenir.lines).toEqual([{ kind: 'trip', basket: 'souvenir', units: 6, unitPrice: { min: 7.5, max: 22.5 }, total: { min: 45, max: 135 } }]);
+  });
+
+  it('항목별 예비비는 각 항목의 10%이고 합은 전체 예비비와 같다', () => {
+    const e = estimateTrip(trip(), city, baseSamples());
+    close(e.categories.food.contingency, 24, 52.8);
+    const sum = (['food', 'transport', 'attraction', 'souvenir'] as const).reduce(
+      (s, c) => ({ min: s.min + e.categories[c].contingency!.min, max: s.max + e.categories[c].contingency!.max }),
+      { min: 0, max: 0 },
+    );
+    close(sum, e.contingency!.min, e.contingency!.max);
+  });
+
+  it('부족한 도시에서는 항목별 예비비를 내지 않는다', () => {
+    const e = estimateTrip(trip(), city, without(baseSamples(), 'food'));
+    expect(e.categories.transport.contingency).toBeNull();
+  });
+
+  const beer = (v: number) => sample({ category: 'food', subtype: '주류', unit: '1잔', nameEn: `Beer ${'abc'[v % 3]}`, sourceUrl: `https://beer${v}.example`, min: v });
+
+  it('음주 포함을 고르지 않으면 주류 표본이 있어도 합계에 넣지 않는다', () => {
+    const e = estimateTrip(trip(), city, [...baseSamples(), beer(5), beer(6), beer(7)]);
+    close(e.categories.food.total, 240, 528);
+  });
+
+  it('음주 포함 + 주류 표본 3건: 성인만 하루 2잔(일반형) × 1잔 가격, 첫날·마지막 날 60%', () => {
+    const e = estimateTrip(trip({ adults: 2, children: 1, drinks: true }), city, [...baseSamples(), beer(5), beer(6), beer(7)]);
+    // 1잔 [5.25, 6.75] (끝점 5,5,6,6,7,7의 25~75%) × 2잔 × 가중합 3.2 × 성인 2명(아동 제외) = [67.2, 86.4]
+    const drink = e.categories.food.lines.filter((l) => l.basket === 'drink');
+    expect(drink).toHaveLength(4);
+    const sum = drink.reduce((s, l) => ({ min: s.min + l.total.min, max: s.max + l.total.max }), { min: 0, max: 0 });
+    close(sum, 67.2, 86.4);
+  });
+
+  it('음주 포함을 골랐지만 주류 표본이 없으면 금액을 만들지 않고 알린다', () => {
+    const e = estimateTrip(trip({ drinks: true }), city, baseSamples());
+    close(e.categories.food.total, 240, 528);
+    expect(e.warnings).toContainEqual({ category: 'food', code: 'drinkNoData', basket: 'drink' });
+  });
+});

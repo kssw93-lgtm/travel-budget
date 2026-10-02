@@ -153,7 +153,7 @@ test.describe('SEO 메타', () => {
 });
 
 test.describe('방법론·출처 링크', () => {
-  test('결과 화면에서 계산 방법·데이터 현황·출처 위치로 바로 이동한다', async ({ page }) => {
+  test('결과 화면에서 데이터 현황·출처 위치로 바로 이동한다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/');
     await fillTrip(page, { city: 'tokyo', date: '2027-08-02' });
@@ -161,9 +161,8 @@ test.describe('방법론·출처 링크', () => {
     await expect(page).toHaveURL(/\/methodology\?lang=ko#status$/);
     await expect(page.locator('#status')).toBeInViewport();
     await page.goBack();
-    await page.getByRole('link', { name: '계산 방법 자세히 보기' }).click();
-    await expect(page.locator('#how')).toBeInViewport();
-    await page.goBack();
+    // 근거·출처 패널은 기본으로 접혀 있다
+    await page.locator('details.evidence > summary').click();
     await page.getByRole('link', { name: '전체 출처 목록 보기' }).click();
     await expect(page.locator('#sources')).toBeInViewport();
   });

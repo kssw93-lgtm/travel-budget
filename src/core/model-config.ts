@@ -22,6 +22,8 @@ export const MODEL = {
     ride: { budget: 2, standard: 3, comfort: 4 },
     meal: { budget: 3, standard: 3, comfort: 3 },
     snack: { budget: 1, standard: 1, comfort: 2 },
+    /** 성인 1인 하루 술 잔(병) 수 — 음주 포함을 고른 경우만 */
+    drink: { budget: 1, standard: 2, comfort: 3 },
     attraction: { budget: 1, standard: 1, comfort: 2 },
     souvenir: { budget: 2, standard: 3, comfort: 5 },
   } as Record<Basket, Record<TravelStyle, number>>,
@@ -39,10 +41,10 @@ export const MODEL = {
 
 export const CATEGORIES: readonly Category[] = ['food', 'transport', 'attraction', 'souvenir'];
 
-export const BASKETS: readonly Basket[] = ['pass', 'ride', 'meal', 'snack', 'attraction', 'souvenir'];
+export const BASKETS: readonly Basket[] = ['pass', 'ride', 'meal', 'snack', 'drink', 'attraction', 'souvenir'];
 
 /** 첫날·마지막 날 60% 규칙을 적용하는 바스켓(식비·활동비) */
-export const EDGE_WEIGHTED: readonly Basket[] = ['meal', 'snack', 'attraction'];
+export const EDGE_WEIGHTED: readonly Basket[] = ['meal', 'snack', 'drink', 'attraction'];
 
 /**
  * 비용군이 어떤 바스켓으로 이뤄지는지.
@@ -50,7 +52,7 @@ export const EDGE_WEIGHTED: readonly Basket[] = ['meal', 'snack', 'attraction'];
  * alternatives: 이용권과 1회권처럼 서로 대안이다. 표본이 충분한 바스켓들의 범위를 합쳐 하나 이상이면 된다.
  */
 export const BASKET_RULES: Record<Category, { baskets: readonly Basket[]; mode: 'sum' | 'alternatives'; required: readonly Basket[] }> = {
-  food: { baskets: ['meal', 'snack'], mode: 'sum', required: ['meal'] },
+  food: { baskets: ['meal', 'snack', 'drink'], mode: 'sum', required: ['meal'] },
   transport: { baskets: ['pass', 'ride'], mode: 'alternatives', required: [] },
   attraction: { baskets: ['attraction'], mode: 'sum', required: ['attraction'] },
   souvenir: { baskets: ['souvenir'], mode: 'sum', required: ['souvenir'] },
@@ -61,6 +63,8 @@ export const STYLES: readonly TravelStyle[] = ['budget', 'standard', 'comfort'];
 export const KEYWORDS = {
   /** 곁들임 메뉴(한 끼도 간식도 아니라 계산에서 제외) */
   side: /사이드/,
+  /** 주류(맥주·와인 등). '음료' 보다 먼저 판정 */
+  drink: /주류|맥주|와인|칵테일|소주|사케|beer|wine|cocktail|alcohol/i,
   snack: /간식|음료/,
   /** 차량 단위 요금(택시·전용차)은 1인 요금이 아니다 */
   vehicle: /차량|택시|전용차|\btaxi\b|private car/i,

@@ -148,6 +148,7 @@ export function classify(s: PriceSample): Classified {
     }
     case 'food': {
       if (KEYWORDS.side.test(s.subtype)) return out(null, 'sideDish');
+      if (KEYWORDS.drink.test(s.subtype)) return out('drink');
       if (KEYWORDS.snack.test(s.subtype)) return out('snack');
       if (KEYWORDS.meal.test(s.subtype)) return out('meal');
       return out(null, 'unclassified');

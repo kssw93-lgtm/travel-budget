@@ -19,6 +19,7 @@ const KEYS = {
   lodging: 'lodging',
   directCurrency: 'dcur',
   attractions: 'attr',
+  drinks: 'drink',
 } as const satisfies Record<keyof FormState, string>;
 
 const CURRENCY = /^[A-Z]{3}$/;
@@ -43,6 +44,7 @@ export function readForm(search: string, cityIds: string[]): Partial<FormState> 
     const ids = attr.split(',').filter((id) => /^[A-Z]{3}-[A-Z]{2}-\d{3}$/.test(id)).slice(0, 30);
     if (ids.length) out.attractions = ids;
   }
+  if (get('drinks') === '1') out.drinks = true;
   for (const k of ['currency', 'directCurrency'] as const) {
     const v = get(k)?.toUpperCase();
     if (v && CURRENCY.test(v)) out[k] = v;
@@ -62,6 +64,10 @@ export function formToSearch(form: FormState, lang: Lang): string {
   (Object.keys(KEYS) as (keyof FormState)[]).forEach((k) => {
     if (k === 'attractions') {
       if (form.attractions.length) q.set(KEYS.attractions, form.attractions.join(','));
+      return;
+    }
+    if (k === 'drinks') {
+      if (form.drinks) q.set(KEYS.drinks, '1');
       return;
     }
     const v = form[k];

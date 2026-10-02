@@ -47,6 +47,7 @@ export function Calculator({ go }: { go: Go }) {
       // URL 에 담긴 입력이 있으면 그것을 우선한다(새로고침·공유 링크)
       ...fromUrl,
       attractions: fromUrl.attractions ?? [],
+      drinks: fromUrl.drinks ?? false,
     };
   });
   // 도시를 바꾸면 이전 도시의 관광지 선택은 의미가 없으므로 비운다

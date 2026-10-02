@@ -35,6 +35,9 @@ test.describe('계산기 핵심 흐름', () => {
     // 도쿄 지하철 24·48·72시간권은 같은 상품이라 독립 1건 → 1일권 바스켓 제외, 1회권 바스켓으로 계산
     await expect(page.getByTestId('baskets-transport').locator('[data-basket="pass"]')).toContainText('1일 이용권 독립 1건 (가격 3건) · 제외');
     await expect(page.getByTestId('baskets-transport').locator('[data-basket="ride"]')).toContainText('1회권 독립 3건 (가격 3건) · 합계에 반영');
+    // 근거·출처 패널은 기본으로 접혀 있고, 펼치면 출처 링크가 보인다
+    await expect(page.locator('details.evidence')).not.toHaveAttribute('open', '');
+    await page.locator('details.evidence > summary').click();
     await expect(page.getByTestId('quality').getByRole('link').first()).toHaveAttribute('href', /^https?:\/\//);
     await expect(page.getByTestId('rates-info')).toContainText('2026-10-02');
     await expect(page.getByTestId('rates-info')).toContainText('Test Rates');
@@ -282,5 +285,36 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(guide.locator('tr[data-basket="meal"]')).toContainText('₩26,133');
     await expect(guide.locator('tr[data-basket="pass"]')).toContainText('참고용');
     await expect(guide.locator('tr[data-basket="snack"]')).toHaveCount(0);
+  });
+});
+
+test.describe('항목별 자세히 보기·음주', () => {
+  test('외식은 일차별 끼니·1끼 가격, 관광지는 고른 곳별 입장료, 항목별 예비비가 펼쳐진다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/?lang=ko&city=tokyo&date=2026-11-04&nights=3&adults=2&children=1&style=standard&cur=JPY&attr=TYO-AT-001,TYO-AT-002');
+    const food = page.locator('[data-detail="food"]');
+    await food.locator('summary').click();
+    await expect(food.locator('[data-line="day-1"]')).toContainText('1일차');
+    await expect(food.locator('[data-line="day-1"]')).toContainText('1.8끼');
+    await expect(food.locator('[data-line="day-2"]')).toContainText('3끼');
+    await expect(food.locator('[data-line="day-4"]')).toContainText('2026-11-07');
+    await expect(food.locator('[data-line="contingency"]')).toContainText('예비비 10%');
+    const attr = page.locator('[data-detail="attraction"]');
+    await attr.locator('summary').click();
+    await expect(attr.locator('[data-line="TYO-AT-001"]')).toContainText('도쿄 스카이트리');
+    await expect(attr.locator('[data-line="TYO-AT-002"]')).toContainText('JP¥1,500');
+    await expect(attr.locator('[data-line="TYO-AT-002"]')).toContainText('성인 요금 적용'); // 아동 요금 없음
+    await expect(attr.locator('[data-line="TYO-AT-002"]')).toContainText('JP¥4,500'); // 1,500 × 3명
+    await expect(page.locator('tr[data-category="food"] .cont')).toContainText('예비비 10%');
+  });
+
+  test('음주 포함을 고르면 URL 에 남고, 주류 가격 자료가 없으면 금액 대신 안내한다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/?lang=ko&city=paris&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=EUR');
+    const before = (await page.locator('tr[data-category="food"]').textContent()) ?? '';
+    await page.getByLabel('음주 포함 (성인)').check();
+    await expect(page).toHaveURL(/drink=1/);
+    await expect(page.getByTestId('drink-note')).toContainText('주류 가격 자료가 아직 없어');
+    await expect(page.locator('tr[data-category="food"]')).toHaveText(before);
   });
 });

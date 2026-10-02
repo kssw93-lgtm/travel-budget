@@ -94,6 +94,14 @@ export function TripForm({ form, onChange, errors, cities, rates }: Props) {
         ))}
       </fieldset>
 
+      <div className="check-field">
+        <label htmlFor="drinks">
+          <input id="drinks" type="checkbox" checked={form.drinks} onChange={(e) => onChange({ drinks: e.target.checked })} />
+          {t.form.drinks}
+        </label>
+        <p className="hint">{t.form.drinksHint}</p>
+      </div>
+
       <div className="field">
         <label htmlFor="currency">{t.form.currency}</label>
         {currencySelect('currency', form.currency, 'currency')}

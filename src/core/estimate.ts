@@ -9,6 +9,7 @@ import type {
   Category,
   CategoryEstimate,
   City,
+  DetailLine,
   Estimate,
   PriceSample,
   Range,
@@ -56,6 +57,8 @@ interface BasketRun {
   capIds: string[];
   /** 상한이 있는 도시에서 상한 적용을 받지 않은 별도 요금 체계 1회권 */
   exemptIds: string[];
+  /** 자세히 보기 내역 */
+  lines: DetailLine[];
 }
 
 const clampRange = (r: Range, cap: number): Range => ({ min: Math.min(r.min, cap), max: Math.min(r.max, cap) });
@@ -95,6 +98,7 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
     childAsAdult: false,
     capIds: [],
     exemptIds: [],
+    lines: [],
   };
   if (!run.sufficient) return run;
 
@@ -127,12 +131,12 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
     if (valid.length === 0) return null;
     return { value: Math.min(...valid.map((r) => r.sample.max)), ids: valid.map((r) => r.sample.id) };
   };
-  /** 1인 하루 비용(이용 횟수 반영). 표본이 부족하면 null */
-  const personDay = (pool: Classified[], date: string, minIndependent: number): Range | null => {
+  /** 1인 하루 비용(이용 횟수 반영)과 1회 가격. 표본이 부족하면 null */
+  const personDay = (pool: Classified[], date: string, minIndependent: number): { unit: Range; day: Range } | null => {
     const whole = priceDay(pool, date, minIndependent);
     if (!whole) return null;
     const cap = capOn(date);
-    if (!cap) return scale(whole, perUse);
+    if (!cap) return { unit: whole, day: scale(whole, perUse) };
     const parts: Range[] = [];
     const covered = priceDay(pool.filter((r) => !r.capExempt), date, 1);
     if (covered) {
@@ -149,7 +153,7 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
       poolOnDate(exempt, date).rows.forEach((r) => exemptIds.add(r.sample.id));
       parts.push(scale(exemptRange, perUse));
     }
-    return { min: Math.min(...parts.map((p) => p.min)), max: Math.max(...parts.map((p) => p.max)) };
+    return { unit: whole, day: { min: Math.min(...parts.map((p) => p.min)), max: Math.max(...parts.map((p) => p.max)) } };
   };
 
   let total: Range = ZERO;
@@ -157,7 +161,10 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
     // 기념품은 여행 전체 기준: 성인 1인당 구매 개수 × 단가(어린이는 구매하지 않는 것으로 가정)
     const unit = priceDay(adultRows, dates[0] as string, MODEL.minSamplesPerCategory);
     if (!unit) run.sufficient = false;
-    else total = scale(unit, perUse * input.adults);
+    else {
+      total = scale(unit, perUse * input.adults);
+      run.lines.push({ kind: 'trip', basket, units: perUse * input.adults, unitPrice: unit, total });
+    }
   } else {
     for (const [i, date] of dates.entries()) {
       const adult = personDay(adultRows, date, MODEL.minSamplesPerCategory);
@@ -165,15 +172,18 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
         run.sufficient = false;
         break;
       }
-      let day = scale(adult, input.adults);
-      if (input.children > 0) {
-        // 어린이 표본이 있으면 어린이 가격, 없으면 성인 가격을 적용(경고 표시)
+      const w = edge ? (weights[i] as number) : 1;
+      let day = scale(adult.day, input.adults);
+      // 주류는 성인만. 그 밖에는 어린이 표본이 있으면 어린이 가격, 없으면 성인 가격(경고 표시)
+      if (input.children > 0 && basket !== 'drink') {
         const child = hasChildPool ? (personDay(childRows, date, 1) ?? adult) : adult;
-        day = add(day, scale(child, input.children));
+        day = add(day, scale(child.day, input.children));
       }
-      total = add(total, scale(day, edge ? (weights[i] as number) : 1));
+      const dayTotal = scale(day, w);
+      total = add(total, dayTotal);
+      run.lines.push({ kind: 'day', basket, day: i + 1, date, units: perUse * w, unitPrice: adult.unit, total: dayTotal });
     }
-    run.childAsAdult = input.children > 0 && !hasChildPool;
+    run.childAsAdult = input.children > 0 && !hasChildPool && basket !== 'drink';
   }
 
   run.capIds = [...capIds];
@@ -195,8 +205,11 @@ function estimateCategory(
   weights: number[],
 ): { estimate: CategoryEstimate; warnings: Warning[] } {
   const rule = BASKET_RULES[category];
-  const runs = rule.baskets.map((b) => priceBasket(b, all, input, dates, weights));
+  // 주류는 사용자가 "음주 포함"을 고른 경우에만 계산한다
+  const runs = rule.baskets.filter((b) => b !== 'drink' || input.drinks).map((b) => priceBasket(b, all, input, dates, weights));
   const warnings: Warning[] = [];
+  const drinkRun = runs.find((r) => r.basket === 'drink');
+  if (drinkRun && drinkRun.adultCount === 0) warnings.push({ category, code: 'drinkNoData', basket: 'drink' });
 
   const sufficientRuns = runs.filter((r) => r.sufficient);
   const requiredOk = rule.mode === 'alternatives' ? sufficientRuns.length > 0 : rule.required.every((b) => runs.find((r) => r.basket === b)?.sufficient);
@@ -256,6 +269,8 @@ function estimateCategory(
       category,
       mode: 'estimated',
       baskets,
+      lines: included.flatMap((r) => r.lines),
+      contingency: null,
       total,
       perPersonPerDay: total ? scale(total, 1 / (people * dates.length)) : null,
       sampleCount: requiredOk ? new Set(adultUsed.map((r) => r.sample.id)).size : primaryCount(category, runs, 'rows'),
@@ -305,6 +320,8 @@ export function estimateTrip(input: TripInput, city: City, samples: PriceSample[
   let contingency: Range | null = null;
   let total: Range | null = null;
   if (computable) {
+    // 예비비는 항목별로도 보여 준다(합은 전체 예비비와 같다)
+    for (const c of CATEGORIES) categories[c].contingency = scale(categories[c].total as Range, MODEL.contingencyRate);
     subtotal = CATEGORIES.reduce((sum, c) => add(sum, categories[c].total as Range), ZERO);
     contingency = scale(subtotal, MODEL.contingencyRate);
     total = add(subtotal, contingency);
@@ -411,12 +428,18 @@ function selectedAttractions(city: City, samples: PriceSample[], input: TripInpu
 
   let total: Range = ZERO;
   const used: Classified[] = [];
+  const lines: DetailLine[] = [];
   let childFallback = false;
   for (const o of chosen) {
     const adult = { min: o.adult.sample.min, max: o.adult.sample.max };
     const child = o.child ? { min: o.child.sample.min, max: o.child.sample.max } : adult;
     if (input.children > 0 && !o.child) childFallback = true;
-    total = add(total, add(scale(adult, input.adults), scale(child, input.children)));
+    const line = add(scale(adult, input.adults), scale(child, input.children));
+    total = add(total, line);
+    lines.push({
+      kind: 'item', basket: 'attraction', id: o.id, nameKo: o.adult.sample.nameKo, nameEn: o.adult.sample.nameEn,
+      units: 1, unitPrice: adult, childPrice: o.child ? child : null, total: line,
+    });
     used.push(o.adult);
     if (o.child && input.children > 0) used.push(o.child);
   }
@@ -429,6 +452,8 @@ function selectedAttractions(city: City, samples: PriceSample[], input: TripInpu
     estimate: {
       category: 'attraction',
       mode: 'selected',
+      lines,
+      contingency: null,
       baskets: [{ basket: 'attraction', sampleCount: chosen.length, independentCount: chosen.length, childSampleCount: used.length - chosen.length, sufficient: true, included: true }],
       total,
       perPersonPerDay: scale(total, 1 / (people * dates.length)),

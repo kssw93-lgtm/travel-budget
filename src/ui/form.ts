@@ -15,6 +15,8 @@ export interface FormState {
   directCurrency: string;
   /** 사용자가 고른 관광지 입장권 표본 ID */
   attractions: string[];
+  /** 음주 비용 포함(성인) */
+  drinks: boolean;
 }
 
 export type FieldError = 'date' | 'nights' | 'adults' | 'children' | 'flight' | 'lodging';
@@ -53,7 +55,7 @@ export function parseForm(f: FormState): ParsedForm {
 
   const tripValid = !errors.date && !errors.nights && !errors.adults && !errors.children;
   return {
-    trip: tripValid ? { cityId: f.cityId, visitDate: f.visitDate, nights, adults, children, style: f.style, attractionIds: f.attractions } : null,
+    trip: tripValid ? { cityId: f.cityId, visitDate: f.visitDate, nights, adults, children, style: f.style, attractionIds: f.attractions, drinks: f.drinks } : null,
     direct: { flight: errors.flight ? 0 : flight, lodging: errors.lodging ? 0 : lodging },
     errors,
   };

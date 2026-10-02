@@ -3,6 +3,7 @@ import { isSupported } from '../core/money';
 import type { Category, CategoryEstimate, City, Estimate, PriceSample, Range, TripInput, Warning } from '../core/types';
 import { fmt, useI18n } from '../i18n';
 import { AdSlot } from './AdSlot';
+import { CategoryDetail } from './CategoryDetail';
 import { convertRange, RangeText } from './money';
 import type { RatesState } from './useRates';
 import { cityName } from './TripForm';
@@ -165,7 +166,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
         <tbody>
           {CATEGORIES.map((c) => {
             const est: CategoryEstimate = e.categories[c];
-            return (
+            return [
               <tr key={c} data-category={c}>
                 <th scope="row">
                   {catName(c)}
@@ -173,7 +174,14 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
                 </th>
                 {est.total ? (
                   <>
-                    <td data-label={`${t.result.local} (${e.currency})`}><RangeText range={est.total} currency={e.currency} /></td>
+                    <td data-label={`${t.result.local} (${e.currency})`}>
+                      <RangeText range={est.total} currency={e.currency} />
+                      {est.contingency && (
+                        <small className="cont">
+                          + {t.detail.contingency.replace('{rate}', String(Math.round(MODEL.contingencyRate * 100)))} <RangeText range={est.contingency} currency={e.currency} />
+                        </small>
+                      )}
+                    </td>
                     <td data-label={`${t.result.selected} (${display})`}><RangeText range={convertRange(est.total, e.currency, display, ratesData)} currency={display} /></td>
                     <td data-label={t.result.usd}><RangeText range={convertRange(est.total, e.currency, 'USD', ratesData)} currency="USD" /></td>
                   </>
@@ -182,8 +190,18 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
                     {t.result.notEnough} · {fmt(t.result.needMore, { have: est.independentCount, need: MODEL.minSamplesPerCategory })}
                   </td>
                 )}
-              </tr>
-            );
+              </tr>,
+              est.total && est.lines.length > 0 ? (
+                <tr key={`${c}-detail`} className="detail-row" data-detail={c}>
+                  <td colSpan={4}>
+                    <details>
+                      <summary>{t.detail.open}</summary>
+                      <CategoryDetail est={est} currency={e.currency} display={display} rates={ratesData} people={trip.adults + trip.children} adults={trip.adults} />
+                    </details>
+                  </td>
+                </tr>
+              ) : null,
+            ];
           })}
           {e.contingency && (
             <tr data-category="contingency">
@@ -195,11 +213,12 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
           )}
         </tbody>
       </table>
-      <p className="more">
-        <InternalLink to={`${method}#how`} go={go}>{t.result.howLink}</InternalLink>
-      </p>
+      {e.warnings.some((w) => w.code === 'drinkNoData') && (
+        <p className="notice warn" data-testid="drink-note">{t.warnings.drinkNoData}</p>
+      )}
 
-      <h3>{t.result.quality}</h3>
+      <details className="evidence">
+      <summary>{t.result.quality}</summary>
       <p className="hint">{t.result.qualityLead}</p>
       <div className="quality" data-testid="quality">
         {CATEGORIES.map((c) => {
@@ -260,6 +279,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
           <InternalLink to={`${method}#sources`} go={go}>{t.result.sourcesLink}</InternalLink>
         </p>
       </div>
+      </details>
       <RatesNotice rates={rates} display={display} />
       <AdSlot name="inline-results" />
     </section>

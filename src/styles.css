@@ -122,3 +122,22 @@ td.insufficient, .insufficient { color: var(--err); }
 .guide-table td, .guide-table th { font-variant-numeric: tabular-nums; }
 
 .preview-banner { margin: 0; font-size: .88rem; }
+
+/* 항목별 자세히 보기 */
+.cont { display: block; color: var(--muted); font-size: .8rem; font-weight: 400; }
+.detail-row > td { padding-top: 0; }
+.detail-row summary { font-weight: 600; font-size: .9rem; color: var(--brand); padding: 4px 0; }
+.detail { padding: 6px 0 4px; display: grid; gap: 8px; }
+.detail h4 { margin: 4px 0 0; }
+.detail-table { font-size: .88rem; }
+.detail-table th, .detail-table td { padding: 5px 6px; }
+.detail-table th small { display: inline-block; margin-left: 6px; white-space: nowrap; }
+.detail-table td:nth-child(2) { white-space: nowrap; }
+.detail-line { margin: 0; font-size: .9rem; }
+.contingency-line { border-top: 1px dashed var(--line); padding-top: 6px; }
+.evidence { margin-top: 14px; border-top: 1px solid var(--line); padding-top: 8px; }
+.evidence > summary { font-weight: 700; font-size: 1rem; }
+.check-field { margin: 4px 0 14px; }
+.check-field label { display: inline-flex; gap: 8px; align-items: center; cursor: pointer; }
+.check-field input { width: 20px; height: 20px; min-height: 0; accent-color: var(--brand); }
+@media (max-width: 640px) { .detail-row { border-bottom: 1px solid var(--line); } }

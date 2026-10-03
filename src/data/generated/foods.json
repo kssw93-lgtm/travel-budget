@@ -758,6 +758,62 @@
     "note": ""
   },
   {
+    "cityId": "new-york",
+    "nameKo": "베이글",
+    "nameEn": "Bagel",
+    "reason": "크림치즈나 훈제연어를 곁들여 먹는 뉴욕의 대표 아침 메뉴",
+    "reasonEn": "New York's classic breakfast, eaten with cream cheese or smoked salmon.",
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "NYC Tourism",
+    "recommendUrl": "https://www.nyctourism.com/",
+    "note": "추천 근거 페이지가 홈페이지라 재확인 필요"
+  },
+  {
+    "cityId": "new-york",
+    "nameKo": "뉴욕 스타일 피자",
+    "nameEn": "New York Style Pizza",
+    "reason": "크고 얇은 조각을 접어 먹는 뉴욕식 피자",
+    "reasonEn": "Big, thin slices you fold to eat — the New York way.",
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "NYC Tourism",
+    "recommendUrl": "https://www.nyctourism.com/",
+    "note": "추천 근거 페이지가 홈페이지라 재확인 필요"
+  },
+  {
+    "cityId": "new-york",
+    "nameKo": "치즈케이크",
+    "nameEn": "Cheesecake",
+    "reason": "진하고 부드러운 뉴욕식 치즈케이크",
+    "reasonEn": "Rich, creamy New York–style cheesecake.",
+    "budgetBand": "저~중",
+    "linkedPriceIds": [
+      "NYC-FD-102"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "NYC Tourism",
+    "recommendUrl": "https://www.nyctourism.com/",
+    "note": "추천 근거 페이지가 홈페이지라 재확인 필요"
+  },
+  {
+    "cityId": "new-york",
+    "nameKo": "버거",
+    "nameEn": "Burger",
+    "reason": "뉴욕에서 시작한 버거 체인과 다이너의 대표 메뉴",
+    "reasonEn": "The signature item of burger chains and diners born in New York.",
+    "budgetBand": "저~중",
+    "linkedPriceIds": [
+      "NYC-FD-101"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "NYC Tourism",
+    "recommendUrl": "https://www.nyctourism.com/",
+    "note": "추천 근거 페이지가 홈페이지라 재확인 필요"
+  },
+  {
     "cityId": "rome",
     "nameKo": "카르보나라",
     "nameEn": "Carbonara",

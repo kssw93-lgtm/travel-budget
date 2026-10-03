@@ -24,6 +24,42 @@
     "note": "만족 시 5~10% 관행(출처가 시청 공식 사이트가 아님)"
   },
   {
+    "cityId": "new-york",
+    "item": "판매세",
+    "value": "8.875%",
+    "itemEn": "Sales tax",
+    "valueEn": "8.875% (usually added at checkout)",
+    "unit": "",
+    "sourceName": "NYC Department of Finance",
+    "sourceUrl": "https://www.nyc.gov/site/finance/business/business-nys-sales-tax.page",
+    "checkedAt": "2026-10-03",
+    "note": "메뉴·상품 가격에 대부분 포함되지 않음(계산대에서 추가)"
+  },
+  {
+    "cityId": "new-york",
+    "item": "호텔 숙박세",
+    "value": "객실 요금의 5.875~14.75% + 1박 1실 정액",
+    "itemEn": "Hotel room occupancy tax",
+    "valueEn": "5.875-14.75% of room rate plus a per-room daily fee",
+    "unit": "",
+    "sourceName": "NYC Department of Finance",
+    "sourceUrl": "https://www.nyc.gov/site/finance/business/business-hotel-room-occupancy-tax.page",
+    "checkedAt": "2026-10-03",
+    "note": "요금 구간별 누진"
+  },
+  {
+    "cityId": "new-york",
+    "item": "팁",
+    "value": "식당·바·택시 15~20%",
+    "itemEn": "Tipping",
+    "valueEn": "15-20% customary",
+    "unit": "",
+    "sourceName": "NYC Tourism",
+    "sourceUrl": "https://www.nyctourism.com/",
+    "checkedAt": "2026-10-03",
+    "note": "법적 의무는 아니지만 관행(근거 페이지 재확인 필요)"
+  },
+  {
     "cityId": "rome",
     "item": "숙박세(contributo di soggiorno)",
     "value": "1인 1박 3~7유로(최대 10박)",

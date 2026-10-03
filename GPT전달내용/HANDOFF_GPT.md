@@ -33,7 +33,7 @@ v0.4 재확인 고마워요. 비공식 출처를 보류한 결과 계산 가능 
 
 최신 목록은 항상 `data/research-queue.md` 1장에 자동으로 나옵니다. 결과는 `travel_cost_research_pilot_v0.5_YYYY-MM-DD.xlsx` 로 주세요.
 
-### 0순위-2 — Gemini 가 수집한 서울 가격 확인 (28행)
+### 0순위-2 — Gemini 가 수집한 서울 가격 확인 (28행, 이미 사이트에 공개 중)
 
 `data/additions/prices-seoul.csv` 의 각 행 `출처 URL` 을 열어 `원문 인용` 문구와 가격이 맞는지 확인해 주세요.
 특히 `SEL-TR-001` 지하철 기본운임 1,400원은 2025년 인상(1,550원) 보도가 있어 의심됩니다.

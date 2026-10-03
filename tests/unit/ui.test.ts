@@ -62,13 +62,14 @@ describe('한/영 문구', () => {
 });
 
 describe('가격 데이터 무결성', () => {
-  it('선택 가능한 도시는 8개 1차 도시이고 모든 표본이 (공개 전 도시 포함) 도시에 연결된다', () => {
-    expect(cities.map((c) => c.id).sort()).toEqual(['bangkok', 'da-nang', 'london', 'osaka', 'paris', 'singapore', 'taipei', 'tokyo']);
+  it('선택 가능한 도시는 1차 도시(해외 8 + 서울)이고 모든 표본이 (공개 전 도시 포함) 도시에 연결된다', () => {
+    expect(cities.map((c) => c.id).sort()).toEqual(['bangkok', 'da-nang', 'london', 'osaka', 'paris', 'seoul', 'singapore', 'taipei', 'tokyo']);
     for (const s of samples) expect(allCities.some((c) => c.id === s.cityId && c.currency === s.currency)).toBe(true);
   });
-  it('1차 화면에는 파일럿 8개 도시만 노출하고 2차 이후 도시는 숨긴다', () => {
+  it('1차 화면에는 파일럿 도시만 노출하고 2차 이후·공개 전 국내 도시는 숨긴다', () => {
     expect(allCities.length).toBeGreaterThan(cities.length);
-    expect(cities).toHaveLength(8);
+    expect(cities).toHaveLength(9);
+    expect(cities.some((c) => c.id === 'busan' || c.id === 'jeju')).toBe(false);
     expect(cities.every((c) => c.stage === PILOT_STAGE)).toBe(true);
     expect(cities.some((c) => c.id === 'fukuoka')).toBe(false);
   });
@@ -76,8 +77,10 @@ describe('가격 데이터 무결성', () => {
     const ids = new Set(samples.map((s) => s.id));
     for (const f of foods) for (const id of f.linkedPriceIds) expect(ids.has(id)).toBe(true);
   });
-  it('모든 도시에 대표 음식이 있고 영문 추천 이유가 있다', () => {
-    for (const c of cities) expect(foods.some((f) => f.cityId === c.id)).toBe(true);
+  it('모든 도시에 대표 음식이 있고 영문 추천 이유가 있다(조사 대기 도시 제외)', () => {
+    // 서울 대표 음식은 Gemini 요청 4(대표 음식) 수신 대기. 받으면 이 목록에서 뺀다
+    const pending = ['seoul'];
+    for (const c of cities) expect(foods.some((f) => f.cityId === c.id), c.id).toBe(!pending.includes(c.id));
     for (const f of foods) expect(f.reasonEn).toBeTruthy();
   });
 });
@@ -107,15 +110,17 @@ describe('데이터 버전', () => {
 });
 
 describe('도시 선택 묶음', () => {
+  const abroadCities = cities.filter((c) => c.country !== '한국');
   const seoul = { ...cities[0]!, id: 'seoul', nameKo: '서울', nameEn: 'Seoul', country: '한국', countryEn: 'South Korea', currency: 'KRW' };
   it('국내 도시가 없으면 묶지 않는다', () => {
-    expect(cityGroups(cities)).toEqual([{ key: null, items: cities }]);
+    const abroad = cities.filter((c) => c.country !== '한국');
+    expect(cityGroups(abroad)).toEqual([{ key: null, items: abroad }]);
   });
   it('국내 도시가 있으면 국내를 먼저, 해외를 뒤에 둔다', () => {
-    const g = cityGroups([...cities, seoul]);
+    const g = cityGroups([...abroadCities, seoul]);
     expect(g.map((x) => x.key)).toEqual(['domestic', 'abroad']);
     expect(g[0]!.items.map((c) => c.id)).toEqual(['seoul']);
-    expect(g[1]!.items).toHaveLength(cities.length);
+    expect(g[1]!.items).toHaveLength(abroadCities.length);
   });
   it('소개 문구의 도시 목록·수는 데이터에서 만든다', () => {
     expect(fmt(ko.about.sections[2]!.body[0]!, { cities: 'A·B', n: 2 })).toContain('A·B 2개 도시');

@@ -5,7 +5,7 @@ import { cityStatus, estimateTrip } from '../../src/core/estimate';
 import { cities, cityById, cityStatusFile, samples } from '../../src/data';
 
 /**
- * 8개 파일럿 도시의 현재 데이터 상태 고정 테스트.
+ * 파일럿 도시의 현재 데이터 상태 고정 테스트.
  * 새 조사 엑셀로 `npm run data:convert` 를 실행하면 status.json 이 자동으로 다시 계산되고,
  * 상태가 달라졌다면 아래 고정값과 달라 실패한다 → 변화를 확인한 뒤 `npm run status:update` 로 갱신.
  */
@@ -15,7 +15,7 @@ describe('파일럿 도시 데이터 상태', () => {
     expect(cityStatusFile).toEqual(live);
   });
 
-  it('8개 도시의 현재 부족 상태(독립 표본 수 외식/교통/관광/기념품 · 충족률 · 판정)', () => {
+  it('파일럿 도시의 현재 부족 상태(독립 표본 수 외식/교통/관광/기념품 · 충족률 · 판정)', () => {
     const table = Object.fromEntries(
       cities.map((c) => {
         const s = cityStatusFile[c.id]!;
@@ -31,6 +31,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "london": "3/3/4/3 · 100% · ready",
         "osaka": "2/3/3/3 · 89% · hold: food",
         "paris": "3/3/3/2 · 89% · hold: souvenir",
+        "seoul": "5/3/4/3 · 100% · ready",
         "singapore": "0/3/3/2 · 56% · hold: food, souvenir",
         "taipei": "1/3/4/3 · 78% · hold: food",
         "tokyo": "3/3/3/3 · 100% · ready",
@@ -53,6 +54,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "london": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 4/4 · souvenir 3/3",
         "osaka": "pass 1/2 · ride 3/3 · meal 2/2 · snack 1/1 · attraction 3/3 · souvenir 3/4",
         "paris": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/5 · souvenir 2/2",
+        "seoul": "pass 1/1 · ride 3/3 · meal 5/5 · snack 3/3 · attraction 4/4 · souvenir 3/3",
         "singapore": "pass 1/1 · ride 3/3 · meal 0/0 · snack 0/0 · attraction 3/3 · souvenir 2/2",
         "taipei": "pass 1/3 · ride 3/3 · meal 1/1 · snack 0/0 · attraction 4/4 · souvenir 3/4",
         "tokyo": "pass 1/3 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/3 · souvenir 3/4",

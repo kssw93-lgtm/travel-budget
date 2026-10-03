@@ -72,6 +72,8 @@ function warningText(w: Warning, byId: Map<string, PriceSample>, lang: 'ko' | 'e
 export function ResultView({ estimate: e, trip, city, display, rates, samples, direct }: Props) {
   const { t, lang } = useI18n();
   const ratesData = rates.status === 'ok' ? rates.data : null;
+  // 현지 통화와 선택 통화가 같으면(예: 서울 + KRW) 같은 금액 열을 두 번 보이지 않는다
+  const showSel = display !== e.currency;
   const byId = new Map(samples.map((s) => [s.id, s]));
   const catName = (c: Category) => t.categories[c];
   const kids = trip.children > 0 ? fmt(t.result.kids, { n: trip.children }) : '';
@@ -155,7 +157,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
           <tr>
             <th scope="col">{t.result.item}</th>
             <th scope="col">{t.result.local} ({e.currency})</th>
-            <th scope="col">{t.result.selected} ({display})</th>
+            {showSel && <th scope="col">{t.result.selected} ({display})</th>}
             <th scope="col">{t.result.usd}</th>
           </tr>
         </thead>
@@ -178,18 +180,18 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
                         </small>
                       )}
                     </td>
-                    <td data-label={`${t.result.selected} (${display})`}><RangeText range={convertRange(est.total, e.currency, display, ratesData)} currency={display} /></td>
+                    {showSel && <td data-label={`${t.result.selected} (${display})`}><RangeText range={convertRange(est.total, e.currency, display, ratesData)} currency={display} /></td>}
                     <td data-label={t.result.usd}><RangeText range={convertRange(est.total, e.currency, 'USD', ratesData)} currency="USD" /></td>
                   </>
                 ) : (
-                  <td colSpan={3} className="insufficient">
+                  <td colSpan={showSel ? 3 : 2} className="insufficient">
                     {t.result.notEnough} · {fmt(t.result.needMore, { have: est.independentCount, need: MODEL.minSamplesPerCategory })}
                   </td>
                 )}
               </tr>,
               est.total && est.lines.length > 0 ? (
                 <tr key={`${c}-detail`} className="detail-row" data-detail={c}>
-                  <td colSpan={4}>
+                  <td colSpan={showSel ? 4 : 3}>
                     <details>
                       <summary>{t.detail.open}</summary>
                       <CategoryDetail est={est} currency={e.currency} display={display} rates={ratesData} people={trip.adults + trip.children} adults={trip.adults} />
@@ -221,7 +223,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
                     </small>
                   )}
                 </td>
-                <td data-label={`${t.result.selected} (${display})`}><RangeText range={convertRange(x.total, e.currency, display, ratesData)} currency={display} /></td>
+                {showSel && <td data-label={`${t.result.selected} (${display})`}><RangeText range={convertRange(x.total, e.currency, display, ratesData)} currency={display} /></td>}
                 <td data-label={t.result.usd}><RangeText range={convertRange(x.total, e.currency, 'USD', ratesData)} currency="USD" /></td>
               </tr>
             );
@@ -230,7 +232,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
             <tr data-category="contingency">
               <th scope="row">{t.categories.contingency}</th>
               <td data-label={`${t.result.local} (${e.currency})`}><RangeText range={e.contingency} currency={e.currency} /></td>
-              <td data-label={`${t.result.selected} (${display})`}><RangeText range={convertRange(e.contingency, e.currency, display, ratesData)} currency={display} /></td>
+              {showSel && <td data-label={`${t.result.selected} (${display})`}><RangeText range={convertRange(e.contingency, e.currency, display, ratesData)} currency={display} /></td>}
               <td data-label={t.result.usd}><RangeText range={convertRange(e.contingency, e.currency, 'USD', ratesData)} currency="USD" /></td>
             </tr>
           )}

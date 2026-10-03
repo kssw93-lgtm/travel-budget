@@ -1,12 +1,12 @@
 # GPT 인계 메모 (Claude → ChatGPT)
 
 > 이 파일은 Claude 가 구현한 내용과, ChatGPT 가 **검수**하고 **추가 조사**해 줄 일을 정리한 것입니다.
-> 저장소: `kssw93-lgtm/travel-budget` (main). 가격 데이터 원본은 `data/source/` 의 엑셀, 최신은 `data/source/latest.json`(현재 v0.4, 136건 + 추가 자료).
+> 저장소: `kssw93-lgtm/travel-budget` (main). 가격 데이터 원본은 `data/source/` 의 엑셀, 최신은 `data/source/latest.json`(현재 v0.5, 178건 + 추가 자료).
 
 ## ★ GPT 할 일 전체 요약 (2026-10-03 기준, 위에서부터 순서대로)
 
 > 이 절만 읽어도 할 일이 다 나옵니다. 아래 절들은 세부 형식과 지난 작업 기록입니다.
-> 결과물은 **새 엑셀 1개**: `travel_cost_research_pilot_v0.5_YYYY-MM-DD.xlsx`(최신 v0.4 를 복사해 행 추가·수정, 기존 시트·열 이름 유지).
+> 결과물은 **새 엑셀 1개**: `travel_cost_research_pilot_v0.6_YYYY-MM-DD.xlsx`(최신 v0.5 를 복사해 행 추가·수정, 기존 시트·열 이름 유지).
 > 원본 파일은 수정하지 말고 새 파일로 저장해 주세요. Claude 가 `data/source/` 에 넣고 `latest.json` 을 바꿉니다.
 
 ### 공통 규칙
@@ -16,11 +16,12 @@
 - 세금·서비스료 별도 가격이면 `비고`에 `++` 또는 "세금 별도"라고 적기.
 - 같은 가게·같은 상품의 용량·기간 차이(4개입/8개입, 24/48시간권)는 표본 1건으로 셉니다 → **서로 다른 가게·상품**으로 채워 주세요.
 
-### 0순위 (v0.4 이후 새로 생김) — 계산을 막는 부족분
+### 0순위 — ✅ v0.5 에서 완료 (12개 도시 계산 가능)
 
-v0.4 재확인 후 계산 가능 도시가 줄었고, Perplexity 수집분(`data/additions/prices-perplexity-2026-10-03.csv`)으로 오사카·방콕·파리는 다시 채웠습니다.
-**2026-10-03 Perplexity 보강으로 11개 도시 모두 계산 가능.** 다만 타이베이 `TPE-FD-911`·`912`(배달앱 가격)와 싱가포르 `SIN-FD-911`(빅맥)은 공식 메뉴 가격으로 교체해 주세요.
-최신 목록은 항상 `data/research-queue.md` 1장에 자동으로 나옵니다. 결과는 `travel_cost_research_pilot_v0.5_YYYY-MM-DD.xlsx` 로 주세요.
+### 0순위-1 (v0.5 이후) — 서울 식사·기념품 공식 가격
+
+v0.5 에서 보류한 서울 식사 11·기념품 3 은 공식 가격으로 대체되기 전까지 `data/additions/prices-seoul-unverified.csv` 에서 **조건부**로 쓰고 있습니다.
+서로 다른 식당·브랜드의 **공식 메뉴(가격이 적힌 공식 홈페이지·공식몰)** 로 식사 5곳·기념품 3개를 채워 주세요(엑셀 다음 버전에 새 ID 로 추가하면 Claude 가 조건부 행을 지웁니다).
 
 ### 0순위-2 — Gemini·Perplexity 가 수집한 가격 확인 (이미 사이트에 반영 중)
 

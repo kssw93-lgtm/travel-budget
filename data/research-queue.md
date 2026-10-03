@@ -1,6 +1,6 @@
 # 조사 요청 목록 (자동 생성)
 
-> `npm run data:convert` 가 `travel_cost_research_pilot_v0.4_2026-10-03.xlsx` (v0.4) 로부터 만든 파일입니다. 직접 고치지 마세요.
+> `npm run data:convert` 가 `travel_cost_research_pilot_v0.5_2026-10-03.xlsx` (v0.5) 로부터 만든 파일입니다. 직접 고치지 마세요.
 > 기준: 바스켓마다 **독립 표본 3건 이상**(같은 출처·같은 상품의 용량·기간·요일 변형, 같은 명소의 관람 옵션은 1건).
 > 수치는 가격 원장과 계산 코드로 다시 만든 것입니다. 엑셀의 "도시 초안"·"다음 조사 큐" 시트 수치는 쓰지 않습니다(작성 시점이 달라 오래된 값이 있을 수 있음).
 
@@ -56,6 +56,7 @@
 | PAR-FD-001 | 파리 | 부용 샤르티에 메인 시작가 | 7 EUR | A | 조건부 | 조건부, 시작가 표기 | [Bouillon Chartier](https://www.bouillon-chartier.com/chartier_medias/2025/10/Anglais.pdf) |
 | LON-AT-005 | 런던 | 대영박물관 상설 관람 | 0 GBP | A | 예 | 재검증 | [British Museum](https://www.britishmuseum.org/visit) |
 | DAD-AT-004 | 다낭 | 다낭 참조각박물관 일반 입장권 | 60000 VND | A | 예 | 검수: 원문 미확인 | [Da Nang Museum of Cham Sculpture](https://chammuseum.vn/view.aspx?ID=45) |
+| SIN-FD-008 | 싱가포르 | 티옹바루 하이난 치킨라이스 | 14 SGD | A | 예 | 세금·서비스료 별도 | [Tiong Bahru Hainanese Chicken Rice](https://www.tiongbahruchickenrice.sg/menu/) |
 | BCN-FD-101 | 바르셀로나 | 바르사 카페 점심 메뉴 | 23.95 EUR | A | 예 | 재검증 | [FC Barcelona Barca Cafe](https://www.fcbarcelona.es/es/entradas/camp-nou-experience/planifica-tu-visita/2554523/barca-cafe) |
 | BCN-FD-102 | 바르셀로나 | 아네마 에 코레 점심 세트 | 14.9 EUR | A | 예 | 재검증 | [Restaurante Anema e Core Barcelona](https://www.anemaecorebcn.es/en/menus_grupo) |
 | BCN-FD-103 | 바르셀로나 | 아네마 에 코레 피자 점심 세트 | 12.9 EUR | A | 예 | 재검증 | [Restaurante Anema e Core Barcelona](https://www.anemaecorebcn.es/en/menus_grupo) |
@@ -172,34 +173,20 @@
 | TPE-FD-911 | 타이베이 | 광표우육면 홍소 우육면 | 169 TWD | C | 조건부 | C등급, 조건부, 재검증 | [광표우육면 (foodpanda)](https://www.foodpanda.com.tw/en/restaurant/sjcf/kuang-biao-niu-rou-mian) |
 | TPE-FD-912 | 타이베이 | 문가우육면 삼보 우육면 | 210 TWD | C | 조건부 | C등급, 조건부, 재검증 | [문가우육면 (foodpanda)](https://www.foodpanda.com.tw/restaurant/r2nr/wen-jia-niu-rou-mian) |
 | SIN-FD-911 | 싱가포르 | 맥도날드 빅맥 | 7.95 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [McDonald's Singapore](https://www.mcdonalds.com.sg/full-menu) |
-| SEL-TR-001 | 서울 | 서울 지하철 기본요금 (카드) | 1550 KRW | A | 예 | 재검증 | [서울교통공사](http://www.seoulmetro.co.kr/kr/page.do?menuIdx=354) |
-| SEL-TR-002 | 서울 | 서울 간선/지선버스 기본요금 (카드) | 1500 KRW | A | 예 | 재검증 | [서울특별시 대중교통 요금안내](https://news.seoul.go.kr/traffic/archives/508682) |
-| SEL-TR-003 | 서울 | 서울 순환/차등버스 기본요금 (카드) | 1400 KRW | A | 예 | 재검증 | [서울특별시 대중교통 요금안내](https://news.seoul.go.kr/traffic/archives/508682) |
-| SEL-TR-004 | 서울 | 기후동행카드 관광권 1일권 | 5000 KRW | A | 예 | 재검증 | [서울교통공사 기후동행카드 안내](http://www.seoulmetro.co.kr/kr/page.do?menuIdx=914) |
-| SEL-FD-001 | 서울 | 이삭토스트 햄치즈 토스트 | 3300 KRW | A | 예 | 재검증 | [이삭토스트 공식홈페이지](https://www.isaac-toast.co.kr/bbs/board.php?bo_table=menu) |
-| SEL-FD-002 | 서울 | 바르다김선생 바른 김밥 | 4500 KRW | A | 예 | 재검증 | [바르다김선생 공식홈페이지](https://www.teacherkim.co.kr/menu/view.php?idx=1) |
-| SEL-FD-003 | 서울 | 놀부부대찌개 (1인분) | 10500 KRW | A | 예 | 재검증 | [놀부부대찌개 공식홈페이지](https://www.nolboo.co.kr/brand/menu.asp?b_code=BUDAE) |
-| SEL-FD-004 | 서울 | 백암순대국밥 | 10000 KRW | A | 예 | 재검증 | [조암골백암순대 공식홈페이지](http://www.baegam.co.kr/sub/sub02_01.php) |
-| SEL-FD-005 | 서울 | 원할머니보쌈 1인 보쌈세트 | 12000 KRW | A | 예 | 재검증 | [원할머니보쌈족발 공식홈페이지](https://bossam.co.kr/menu/one_person/) |
-| SEL-FD-006 | 서울 | 이디야커피 아메리카노 (라지) | 3200 KRW | A | 예 | 재검증 | [이디야커피 공식홈페이지](https://www.ediya.com/contents/drink.html) |
-| SEL-FD-007 | 서울 | 메가MGC커피 아메리카노 (HOT) | 1500 KRW | A | 예 | 재검증 | [메가MGC커피 공식홈페이지](https://www.mega-mgccoffee.com/menu/menu.php?menu_category1=1) |
-| SEL-FD-008 | 서울 | 설빙 인절미설빙 | 9500 KRW | A | 예 | 재검증 | [설빙 공식홈페이지](https://sulbing.com/bbs/board.php?bo_table=menu&sca=SULBING) |
-| SEL-FD-009 | 서울 | CU 편의점 카스 후레쉬 캔 | 2800 KRW | A | 예 | 재검증 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
-| SEL-FD-010 | 서울 | CU 편의점 참이슬 후레쉬 | 1950 KRW | A | 예 | 재검증 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
-| SEL-FD-011 | 서울 | 교촌치킨 생맥주 | 5000 KRW | A | 예 | 재검증 | [교촌치킨 공식 웹주문 페이지](https://www.kyochon.com/menu/drink.asp) |
-| SEL-SV-001 | 서울 | 정관장 활기력 (20ml x 10병) | 30000 KRW | A | 예 | 재검증 | [정관장 공식몰 케이지씨몰](https://www.kgc.co.kr/goods/detail.do?gno=201506040003) |
-| SEL-SV-002 | 서울 | 오리온 마켓오 리얼브라우니 (8개입) | 3600 KRW | A | 예 | 재검증 | [오리온 공식 직영스토어](https://smartstore.naver.com/orion_store/products/5679549323) |
-| SEL-SV-003 | 서울 | 국립중앙박물관 뮤지엄숍 뮷즈 자개 마그넷 | 7000 KRW | A | 예 | 재검증 | [국립박물관문화재단 뮷즈(MU:DS) 공식몰](https://www.museumshop.or.kr/shop/goods/goods_view.php?goodsno=3619) |
-| SEL-AT-001 | 서울 | 경복궁 관람권 (성인) | 3000 KRW | A | 예 | 재검증 | [문화재청 경복궁관리소](https://www.royalpalace.go.kr/content/guide/guide01_tab01.asp) |
-| SEL-AT-002 | 서울 | 창덕궁 관람권 (성인) | 3000 KRW | A | 예 | 재검증 | [문화재청 창덕궁관리소](http://www.cdg.go.kr/default/menu/menu.do?flg=K0101) |
-| SEL-AT-003 | 서울 | 덕수궁 관람권 (성인) | 1000 KRW | A | 예 | 재검증 | [문화재청 덕수궁관리소](https://www.deoksugung.go.kr/c/schedule/info/1) |
-| SEL-AT-004 | 서울 | N서울타워 전망대 입장권 (대인) | 21000 KRW | A | 예 | 재검증 | [N서울타워 공식홈페이지](https://www.nseoultower.co.kr/visit/floor.asp) |
-| SEL-AT-005 | 서울 | N서울타워 전망대 입장권 (소인) | 16000 KRW | A | 예 | 재검증 | [N서울타워 공식홈페이지](https://www.nseoultower.co.kr/visit/floor.asp) |
-| SEL-AT-006 | 서울 | 서울스카이 일반티켓 (어른) | 31000 KRW | A | 예 | 재검증 | [롯데월드타워 서울스카이 공식홈페이지](https://seoulsky.lotteworld.com/ko/ticket/charge/index.do) |
-| SEL-AT-007 | 서울 | 서울스카이 일반티켓 (어린이) | 27000 KRW | A | 예 | 재검증 | [롯데월드타워 서울스카이 공식홈페이지](https://seoulsky.lotteworld.com/ko/ticket/charge/index.do) |
-| SEL-AT-008 | 서울 | 롯데월드 어드벤처 1일 종합이용권 (어른) | 62000 KRW | A | 예 | 재검증 | [롯데월드 어드벤처 공식홈페이지](https://adventure.lotteworld.com/kor/price/ticket/information/index.do) |
-| SEL-AT-009 | 서울 | 롯데월드 어드벤처 1일 종합이용권 (어린이) | 47000 KRW | A | 예 | 재검증 | [롯데월드 어드벤처 공식홈페이지](https://adventure.lotteworld.com/kor/price/ticket/information/index.do) |
-| SEL-AT-010 | 서울 | 국립중앙박물관 상설전시 | 0 KRW | A | 예 | 재검증 | [국립중앙박물관 공식홈페이지](https://www.museum.go.kr/site/main/content/tour_guide) |
+| SEL-FD-001 | 서울 | 이삭토스트 햄치즈 토스트 | 3300 KRW | C | 조건부 | C등급, 조건부, 재검증 | [이삭토스트 공식홈페이지](https://www.isaac-toast.co.kr/bbs/board.php?bo_table=menu) |
+| SEL-FD-002 | 서울 | 바르다김선생 바른 김밥 | 4500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [바르다김선생 공식홈페이지](https://www.teacherkim.co.kr/menu/view.php?idx=1) |
+| SEL-FD-003 | 서울 | 놀부부대찌개 (1인분) | 10500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [놀부부대찌개 공식홈페이지](https://www.nolboo.co.kr/brand/menu.asp?b_code=BUDAE) |
+| SEL-FD-004 | 서울 | 백암순대국밥 | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [조암골백암순대 공식홈페이지](http://www.baegam.co.kr/sub/sub02_01.php) |
+| SEL-FD-005 | 서울 | 원할머니보쌈 1인 보쌈세트 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [원할머니보쌈족발 공식홈페이지](https://bossam.co.kr/menu/one_person/) |
+| SEL-FD-006 | 서울 | 이디야커피 아메리카노 (라지) | 3200 KRW | C | 조건부 | C등급, 조건부, 재검증 | [이디야커피 공식홈페이지](https://www.ediya.com/contents/drink.html) |
+| SEL-FD-007 | 서울 | 메가MGC커피 아메리카노 (HOT) | 1500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [메가MGC커피 공식홈페이지](https://www.mega-mgccoffee.com/menu/menu.php?menu_category1=1) |
+| SEL-FD-008 | 서울 | 설빙 인절미설빙 | 9500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [설빙 공식홈페이지](https://sulbing.com/bbs/board.php?bo_table=menu&sca=SULBING) |
+| SEL-FD-009 | 서울 | CU 편의점 카스 후레쉬 캔 | 2800 KRW | C | 조건부 | C등급, 조건부, 재검증 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
+| SEL-FD-010 | 서울 | CU 편의점 참이슬 후레쉬 | 1950 KRW | C | 조건부 | C등급, 조건부, 재검증 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
+| SEL-FD-011 | 서울 | 교촌치킨 생맥주 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [교촌치킨 공식 웹주문 페이지](https://www.kyochon.com/menu/drink.asp) |
+| SEL-SV-001 | 서울 | 정관장 활기력 (20ml x 10병) | 30000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [정관장 공식몰 케이지씨몰](https://www.kgc.co.kr/goods/detail.do?gno=201506040003) |
+| SEL-SV-002 | 서울 | 오리온 마켓오 리얼브라우니 (8개입) | 3600 KRW | C | 조건부 | C등급, 조건부, 재검증 | [오리온 공식 직영스토어](https://smartstore.naver.com/orion_store/products/5679549323) |
+| SEL-SV-003 | 서울 | 국립중앙박물관 뮤지엄숍 뮷즈 자개 마그넷 | 7000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [국립박물관문화재단 뮷즈(MU:DS) 공식몰](https://www.museumshop.or.kr/shop/goods/goods_view.php?goodsno=3619) |
 
 ## 4. 교차 검수 현황
 

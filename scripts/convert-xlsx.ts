@@ -162,6 +162,11 @@ function main() {
     if (!'ABCD'.includes(grade) || !modelUse) errors.push(`${id}: 출처등급/모델사용 해석 불가`);
     const currency = r('통화');
     if (currency !== city.currency) errors.push(`${id}: 통화 ${currency} ≠ 도시 통화 ${city.currency}`);
+    // 가격을 비운 보류 행(공식 가격을 확인하지 못해 모델에서 뺀 표본)은 기록만 남기고 건너뛴다
+    if (r('최소') === '' && r('최대') === '' && (r('모델사용') === '아니오' || r('상태').includes('보류'))) {
+      notes.push(`${id}: 가격 미확인 보류 행 건너뜀`);
+      continue;
+    }
     const applied = r('적용/게시');
     // 엑셀 밖 추가 자료는 한 곳에서만 수집된 값이므로, 교차 확인 전까지 '재검증'으로 표시한다(계산에는 쓰되 경고)
     let status = r('상태');

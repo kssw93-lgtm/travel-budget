@@ -33,6 +33,8 @@
 | 런던 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 런던 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 서울 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 부산 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 제주 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 
 ## 3. 공식 재검증이 필요한 표본
 
@@ -55,7 +57,62 @@
 | PAR-FD-001 | 파리 | 부용 샤르티에 메인 시작가 | 7 EUR | A | 조건부 | 조건부, 시작가 표기 | [Bouillon Chartier](https://www.bouillon-chartier.com/chartier_medias/2025/10/Anglais.pdf) |
 | LON-AT-005 | 런던 | 대영박물관 상설 관람 | 0 GBP | A | 예 | 재검증 | [British Museum](https://www.britishmuseum.org/visit) |
 | DAD-AT-004 | 다낭 | 다낭 참조각박물관 일반 입장권 | 60000 VND | A | 예 | 검수: 원문 미확인 | [Da Nang Museum of Cham Sculpture](https://chammuseum.vn/view.aspx?ID=45) |
-| SEL-TR-001 | 서울 | 서울 지하철 기본요금 (카드) | 1400 KRW | A | 예 | 재검증, 검수: 요금 개정 확인 필요 | [서울교통공사](http://www.seoulmetro.co.kr/kr/page.do?menuIdx=354) |
+| PUS-TR-001 | 부산 | 부산 도시철도 1구간 (교통카드) | 1600 KRW | A | 예 | 재검증 | [부산교통공사](https://www.humetro.busan.kr/default/main.do) |
+| PUS-TR-002 | 부산 | 부산 도시철도 2구간 (교통카드) | 1800 KRW | A | 예 | 재검증 | [부산교통공사](https://www.humetro.busan.kr/default/main.do) |
+| PUS-TR-003 | 부산 | 부산 시내버스 일반 (교통카드) | 1550 KRW | A | 예 | 재검증 | [부산광역시 버스정보관리시스템](https://bus.busan.go.kr/) |
+| PUS-TR-004 | 부산 | 부산 급행버스 (교통카드) | 2100 KRW | A | 예 | 재검증 | [부산광역시 버스정보관리시스템](https://bus.busan.go.kr/) |
+| PUS-TR-005 | 부산 | 부산 도시철도 1일권 | 5000 KRW | A | 예 | 재검증 | [부산교통공사](https://www.humetro.busan.kr/default/main.do) |
+| PUS-FD-001 | 부산 | 본전돼지국밥 돼지국밥 | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 본전돼지국밥 매장 공식 메뉴](https://map.naver.com/p/entry/place/11568285) |
+| PUS-FD-002 | 부산 | 초량밀면 물밀면 (소) | 7000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 초량밀면 매장 공식 메뉴](https://map.naver.com/p/entry/place/11603507) |
+| PUS-FD-003 | 부산 | 개미집 낙곱새볶음 (1인분) | 14000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [개미집 공식 매장 메뉴판](https://map.naver.com/p/entry/place/11628169) |
+| PUS-FD-004 | 부산 | 고래사어묵 어우동 | 8000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [고래사어묵 해운대점 매장 메뉴](https://map.naver.com/p/entry/place/36737521) |
+| PUS-FD-005 | 부산 | 수변최고돼지국밥 고기국밥 | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [수변최고돼지국밥 매장 공식 메뉴](https://map.naver.com/p/entry/place/12836262) |
+| PUS-FD-006 | 부산 | 컴포즈커피 아메리카노 (HOT/ICE) | 1500 KRW | A | 예 | 재검증 | [컴포즈커피 공식홈페이지](https://composecoffee.com/menu_coffee) |
+| PUS-FD-007 | 부산 | 모모스커피 오늘의 드립커피 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [모모스커피 온천장 본점 메뉴](https://map.naver.com/p/entry/place/12108752) |
+| PUS-FD-008 | 부산 | BIFF거리 씨앗호떡 | 2000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [남포동 BIFF거리 노점 공통 가격게시](https://map.naver.com/p/entry/place/12134547) |
+| PUS-FD-009 | 부산 | 대선주조 대선소주 | 1950 KRW | A | 예 | 재검증 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
+| PUS-FD-010 | 부산 | CU 편의점 켈리 캔맥주 | 2800 KRW | A | 예 | 재검증 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
+| PUS-FD-011 | 부산 | 식당 일반 소주/맥주 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [본전돼지국밥 매장 공식 주류 메뉴](https://map.naver.com/p/entry/place/11568285) |
+| PUS-SV-001 | 부산 | 삼진어묵 1953세트 1호 | 23000 KRW | A | 예 | 재검증 | [삼진어묵 공식 온라인 직영몰](https://www.samjinfood.com/goods/goods_view.php?goodsNo=1000000301) |
+| PUS-SV-002 | 부산 | 부산바다샌드 1상자 (9개입) | 17500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [부산바다샌드 공식 매장 메뉴](https://map.naver.com/p/entry/place/1694939243) |
+| PUS-SV-003 | 부산 | 부산관광기념품점 광안대교 자개 마그넷 | 8000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [부산관광기념품점 공식 안내](https://map.naver.com/p/entry/place/1971758950) |
+| PUS-AT-001 | 부산 | 부산엑스 더 스카이 전망대 (대인) | 27000 KRW | A | 예 | 재검증 | [부산엑스더스카이 공식홈페이지](https://www.busanxthesky.com/sub/sub02_01.php) |
+| PUS-AT-002 | 부산 | 부산엑스 더 스카이 전망대 (소인) | 24000 KRW | A | 예 | 재검증 | [부산엑스더스카이 공식홈페이지](https://www.busanxthesky.com/sub/sub02_01.php) |
+| PUS-AT-003 | 부산 | 해운대 블루라인파크 해변열차 편도 (성인) | 7000 KRW | A | 예 | 재검증 | [해운대블루라인파크 공식홈페이지](https://www.bluelinepark.com/fareInfo.do) |
+| PUS-AT-005 | 부산 | 송도해상케이블카 에어크루즈 왕복 (대인) | 17000 KRW | A | 예 | 재검증 | [송도해상케이블카 공식홈페이지](http://busanaircruise.co.kr/main/sub.html?Mode=view&BoardID=fare) |
+| PUS-AT-006 | 부산 | 송도해상케이블카 에어크루즈 왕복 (소인) | 12000 KRW | A | 예 | 재검증 | [송도해상케이블카 공식홈페이지](http://busanaircruise.co.kr/main/sub.html?Mode=view&BoardID=fare) |
+| PUS-AT-007 | 부산 | 롯데월드 어드벤처 부산 종일 종합이용권 (어른) | 47000 KRW | A | 예 | 재검증 | [롯데월드 어드벤처 부산 공식홈페이지](https://adventurebusan.lotteworld.com/kor/price/ticket/information/index.do) |
+| PUS-AT-008 | 부산 | 스카이라인 루지 부산 3회권 (1인) | 30000 KRW | A | 예 | 재검증 | [스카이라인루지 부산 공식홈페이지](https://www.skylineluge.kr/busan/prices/) |
+| PUS-AT-009 | 부산 | SEA LIFE 부산아쿠아리움 입장권 (대인) | 31000 KRW | A | 예 | 재검증 | [씨라이프 부산아쿠아리움 공식홈페이지](https://www.visitsealife.com/busan/tickets/) |
+| PUS-AT-010 | 부산 | 부산시립박물관 상설전시 | 0 KRW | A | 예 | 재검증 | [부산박물관 공식홈페이지](https://museum.busan.go.kr/busan/viewinfo01) |
+| CJU-TR-001 | 제주 | 제주 간선/지선버스 기본요금 (카드) | 1150 KRW | A | 예 | 재검증 | [제주버스정보시스템](http://bus.jeju.go.kr/guide/fare) |
+| CJU-TR-002 | 제주 | 제주 급행버스 기본/구간요금 (카드) | 2000~3000 KRW | A | 예 | 재검증 | [제주버스정보시스템](http://bus.jeju.go.kr/guide/fare) |
+| CJU-TR-003 | 제주 | 제주 관광지순환버스 1회권 (카드) | 1150 KRW | A | 예 | 재검증 | [제주관광지순환버스 공식홈페이지](http://www.jejutourbus.com/sub02/sub01.php) |
+| CJU-FD-001 | 제주 | 자매국수 고기국수 | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 자매국수 공식 메뉴판](https://map.naver.com/p/entry/place/13570691) |
+| CJU-FD-002 | 제주 | 올래국수 고기국수 | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 올래국수 공식 메뉴판](https://map.naver.com/p/entry/place/11728283) |
+| CJU-FD-003 | 제주 | 숙성도 숙성 흑돼지 (1인분 200g) | 22000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [숙성도 노형본관 매장 공식 메뉴판](https://map.naver.com/p/entry/place/1070809277) |
+| CJU-FD-004 | 제주 | 오조해녀의집 전복죽 | 13000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 오조해녀의집 공식 메뉴판](https://map.naver.com/p/entry/place/11831417) |
+| CJU-FD-005 | 제주 | 진두강정 전복해물뚝배기 | 15000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 삼보식당 공식 메뉴판](https://map.naver.com/p/entry/place/11831343) |
+| CJU-FD-006 | 제주 | 에이바우트커피 아메리카노 (모닝할인/일반) | 1900~2900 KRW | A | 예 | 재검증 | [에이바우트커피 공식홈페이지](https://aboutcoffee.co.kr/) |
+| CJU-FD-007 | 제주 | 동문시장 착즙 한라봉주스 (1병) | 4000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [동문시장 공식 판매처 가격표시](https://map.naver.com/p/entry/place/11624838) |
+| CJU-FD-008 | 제주 | 동문시장 원조 오메기떡 (낱개 1개) | 1000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 진아떡집 공식 메뉴](https://map.naver.com/p/entry/place/11831418) |
+| CJU-FD-009 | 제주 | 한라산 21도 소주 | 1950 KRW | A | 예 | 재검증 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
+| CJU-FD-010 | 제주 | 제주맥주 제주위트에일 캔 | 4500 KRW | A | 예 | 재검증 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
+| CJU-FD-011 | 제주 | 식당 한라산 소주/카스 맥주 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [자매국수 매장 공식 주류 메뉴판](https://map.naver.com/p/entry/place/13570691) |
+| CJU-SV-001 | 제주 | 제주 마음샌드 (10개입) | 16000 KRW | A | 예 | 재검증 | [파리바게뜨 파바앱 공식 예약](https://www.paris.co.kr/) |
+| CJU-SV-002 | 제주 | 제주 감귤 초콜릿 선물세트 | 10000 KRW | A | 예 | 재검증 | [이제주숍 공식 특산물 온라인몰](https://mall.ejeju.net/) |
+| CJU-SV-003 | 제주 | 돌하르방 현무암 감귤 마그넷 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [제주기념품점 공식 안내](https://map.naver.com/p/entry/place/11624838) |
+| CJU-AT-001 | 제주 | 성산일출봉 유료관람권 (성인) | 5000 KRW | A | 예 | 재검증 | [제주세계유산축전 성산일출봉 공식안내](https://www.jeju.go.kr/heritage/heritage/seongsan.htm) |
+| CJU-AT-002 | 제주 | 성산일출봉 유료관람권 (어린이) | 2500 KRW | A | 예 | 재검증 | [제주세계유산축전 성산일출봉 공식안내](https://www.jeju.go.kr/heritage/heritage/seongsan.htm) |
+| CJU-AT-003 | 제주 | 만장굴 입장료 (어른) | 4000 KRW | A | 예 | 재검증 | [제주세계자연유산센터 공식안내](https://www.jeju.go.kr/wnhcenter/geology/manjang.htm) |
+| CJU-AT-004 | 제주 | 만장굴 입장료 (어린이) | 2000 KRW | A | 예 | 재검증 | [제주세계자연유산센터 공식안내](https://www.jeju.go.kr/wnhcenter/geology/manjang.htm) |
+| CJU-AT-005 | 제주 | 아쿠아플라넷 제주 종합권 (대인) | 42400 KRW | A | 예 | 재검증 | [아쿠아플라넷 제주 공식홈페이지](https://www.aquaplanet.co.kr/jeju/index.do) |
+| CJU-AT-006 | 제주 | 아쿠아플라넷 제주 종합권 (어린이) | 38500 KRW | A | 예 | 재검증 | [아쿠아플라넷 제주 공식홈페이지](https://www.aquaplanet.co.kr/jeju/index.do) |
+| CJU-AT-007 | 제주 | 신화테마파크 자유이용권 (1인) | 30000 KRW | A | 예 | 재검증 | [제주신화월드 공식홈페이지](https://www.shinhwaworld.com/park.php?url_lang=ko_KR) |
+| CJU-AT-008 | 제주 | 오설록 티뮤지엄 본관 관람 | 0 KRW | A | 예 | 재검증 | [오설록 공식홈페이지 티뮤지엄 안내](https://www.osulloc.com/kr/ko/museum) |
+| CJU-AT-009 | 제주 | 천지연폭포 관람료 (어른) | 2000 KRW | A | 예 | 재검증 | [서귀포시 공영관광지 관람안내](https://www.seogwipo.go.kr/) |
+| CJU-AT-010 | 제주 | 천지연폭포 관람료 (어린이) | 1000 KRW | A | 예 | 재검증 | [서귀포시 공영관광지 관람안내](https://www.seogwipo.go.kr/) |
+| SEL-TR-001 | 서울 | 서울 지하철 기본요금 (카드) | 1550 KRW | A | 예 | 재검증 | [서울교통공사](http://www.seoulmetro.co.kr/kr/page.do?menuIdx=354) |
 | SEL-TR-002 | 서울 | 서울 간선/지선버스 기본요금 (카드) | 1500 KRW | A | 예 | 재검증 | [서울특별시 대중교통 요금안내](https://news.seoul.go.kr/traffic/archives/508682) |
 | SEL-TR-003 | 서울 | 서울 순환/차등버스 기본요금 (카드) | 1400 KRW | A | 예 | 재검증 | [서울특별시 대중교통 요금안내](https://news.seoul.go.kr/traffic/archives/508682) |
 | SEL-TR-004 | 서울 | 기후동행카드 관광권 1일권 | 5000 KRW | A | 예 | 재검증 | [서울교통공사 기후동행카드 안내](http://www.seoulmetro.co.kr/kr/page.do?menuIdx=914) |

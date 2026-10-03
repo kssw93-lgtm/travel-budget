@@ -75,6 +75,8 @@ export const KEYWORDS = {
   snack: /간식|음료/,
   /** 차량 단위 요금(택시·전용차)은 1인 요금이 아니다 */
   vehicle: /차량|택시|전용차|\btaxi\b|private car/i,
+  /** 1인이 아니라 차량·객실 1대 단위로 파는 관광 상품(2인승 캡슐 등) — 인원 기준 입장료로 쓸 수 없다 */
+  perVehicle: /(?:^|\s)1대|per (?:car|cabin|capsule|vehicle)/i,
   ride: /(?:^|\s)1회|per ride|single/i,
   /** 관광 체험형 탑승(케이블카·곤돌라·로프웨이)은 일상 교통이 아니라 관광지 입장권 바스켓에 넣는다 */
   sightseeingRide: /케이블카|곤돌라|로프웨이|cable car|gondola|ropeway/i,

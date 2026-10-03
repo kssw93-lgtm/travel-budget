@@ -154,6 +154,7 @@ export function classify(s: PriceSample): Classified {
       return out(null, 'unclassified');
     }
     case 'attraction':
+      if (KEYWORDS.perVehicle.test(s.unit)) return out(null, 'unsupportedUnit');
       return out('attraction');
     case 'souvenir':
       return out('souvenir');

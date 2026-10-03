@@ -489,3 +489,12 @@ describe('자세히 보기 내역·항목별 예비비·음주', () => {
     expect(e.warnings).toContainEqual({ category: 'food', code: 'drinkNoData', basket: 'drink' });
   });
 });
+
+describe('차량·객실 단위 관광 상품', () => {
+  it('2인승 캡슐처럼 1대 단위 요금은 인원 기준 입장료로 쓰지 않는다', async () => {
+    const { classify } = await import('../../src/core/classify');
+    const { sample } = await import('./fixtures');
+    expect(classify(sample({ category: 'attraction', unit: '1대 편도' })).excludeReason).toBe('unsupportedUnit');
+    expect(classify(sample({ category: 'attraction', unit: '성인 1인' })).usable).toBe(true);
+  });
+});

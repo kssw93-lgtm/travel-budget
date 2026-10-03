@@ -62,24 +62,27 @@ describe('한/영 문구', () => {
 });
 
 describe('가격 데이터 무결성', () => {
-  it('선택 가능한 도시는 1차 도시(해외 8 + 서울)이고 모든 표본이 (공개 전 도시 포함) 도시에 연결된다', () => {
-    expect(cities.map((c) => c.id).sort()).toEqual(['bangkok', 'da-nang', 'london', 'osaka', 'paris', 'seoul', 'singapore', 'taipei', 'tokyo']);
+  it('선택 가능한 도시는 1차 도시(해외 8 + 국내 3)이고 모든 표본이 (공개 전 도시 포함) 도시에 연결된다', () => {
+    expect(cities.map((c) => c.id).sort()).toEqual(['bangkok', 'busan', 'da-nang', 'jeju', 'london', 'osaka', 'paris', 'seoul', 'singapore', 'taipei', 'tokyo']);
     for (const s of samples) expect(allCities.some((c) => c.id === s.cityId && c.currency === s.currency)).toBe(true);
   });
-  it('1차 화면에는 파일럿 도시만 노출하고 2차 이후·공개 전 국내 도시는 숨긴다', () => {
+  it('1차 화면에는 파일럿 도시만 노출하고 2차 이후 도시는 숨긴다', () => {
     expect(allCities.length).toBeGreaterThan(cities.length);
-    expect(cities).toHaveLength(9);
-    expect(cities.some((c) => c.id === 'busan' || c.id === 'jeju')).toBe(false);
+    expect(cities).toHaveLength(11);
     expect(cities.every((c) => c.stage === PILOT_STAGE)).toBe(true);
     expect(cities.some((c) => c.id === 'fukuoka')).toBe(false);
+  });
+  it('지도·리뷰 플랫폼 출처(네이버 플레이스 등) 가격은 공식으로 쓰지 않는다(C등급·조건부)', () => {
+    const platform = samples.filter((s) => /map\.naver\.com|place\.naver\.com/.test(s.sourceUrl));
+    for (const s of platform) expect([s.id, s.grade, s.modelUse]).toEqual([s.id, 'C', 'conditional']);
   });
   it('음식 추천이 연결한 가격 ID 는 모두 존재한다', () => {
     const ids = new Set(samples.map((s) => s.id));
     for (const f of foods) for (const id of f.linkedPriceIds) expect(ids.has(id)).toBe(true);
   });
   it('모든 도시에 대표 음식이 있고 영문 추천 이유가 있다(조사 대기 도시 제외)', () => {
-    // 서울 대표 음식은 Gemini 요청 4(대표 음식) 수신 대기. 받으면 이 목록에서 뺀다
-    const pending = ['seoul'];
+    // 대표 음식 조사 대기 도시(없으면 빈 목록)
+    const pending: string[] = [];
     for (const c of cities) expect(foods.some((f) => f.cityId === c.id), c.id).toBe(!pending.includes(c.id));
     for (const f of foods) expect(f.reasonEn).toBeTruthy();
   });

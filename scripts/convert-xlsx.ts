@@ -35,6 +35,9 @@ const COUNTRY_EN: Record<string, string> = {
 
 const errors: string[] = [];
 const REVIEW_VERDICTS = ['일치', '불일치', '확인불가'];
+/** 지도·리뷰·배달 플랫폼 주소(판매 주체 공식 페이지가 아님) */
+const PLATFORM_HOSTS = /^https?:\/\/(?:[\w-]+\.)*(?:map\.naver\.com|place\.naver\.com|m\.place\.naver\.com|map\.kakao\.com|place\.map\.kakao\.com|ubereats\.com|grab\.com|foodpanda\.)/i;
+const platform = new Set<string>();
 /** 교차 검수 결과 요약(조사 큐에 표시) */
 const reviewed: Array<{ file: string; id: string; verdict: string }> = [];
 const notes: string[] = [];
@@ -150,8 +153,8 @@ function main() {
       errors.push(`${id}: 도시 '${r('도시')}'가 '도시 우선순위'에 없음`);
       continue;
     }
-    const grade = r('출처등급').charAt(0) as SourceGrade;
-    const modelUse = MODEL_USE[r('모델사용')];
+    let grade = r('출처등급').charAt(0) as SourceGrade;
+    let modelUse = MODEL_USE[r('모델사용')];
     if (!'ABCD'.includes(grade) || !modelUse) errors.push(`${id}: 출처등급/모델사용 해석 불가`);
     const currency = r('통화');
     if (currency !== city.currency) errors.push(`${id}: 통화 ${currency} ≠ 도시 통화 ${city.currency}`);
@@ -164,11 +167,20 @@ function main() {
       if (!quote) errors.push(`${file} ${id}: '원문 인용'(페이지에 적힌 가격 문구)이 비어 있음`);
       if (!/^https?:\/\//.test(r('출처 URL'))) errors.push(`${file} ${id}: 출처 URL 없음`);
       if (!status.includes('재검증')) status = `${status} 재검증(교차 확인 전)`.trim();
+      // 지도·리뷰 플랫폼(네이버 플레이스 등)은 판매 주체의 공식 페이지가 아니다 → 보조 출처·조건부로 낮춘다
+      if (PLATFORM_HOSTS.test(r('출처 URL'))) {
+        platform.add(id);
+        note = [note, '플랫폼 출처(공식 페이지 아님)'].filter(Boolean).join(' · ');
+      }
       note = [note, `원문: ${quote}`, `수집: ${file}`].filter(Boolean).join(' · ');
     }
     const min = num(r('최소'), id);
     const max = num(r('최대'), id);
     if (min > max) errors.push(`${id}: 최소 > 최대`);
+    if (platform.has(id)) {
+      if (grade === 'A' || grade === 'B') grade = 'C';
+      if (modelUse === 'yes') modelUse = 'conditional';
+    }
     const row = {
       id,
       cityId: city.id,

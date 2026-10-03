@@ -5,12 +5,12 @@ import { readFileSync } from 'node:fs';
 const status = JSON.parse(readFileSync('src/data/generated/status.json', 'utf8')) as Record<string, { computable: boolean; missing: string[] }>;
 
 test.describe('계산기 핵심 흐름', () => {
-  test('도시 선택 목록에는 파일럿 도시(해외 8 + 서울)만 나오고 국내가 먼저 묶인다', async ({ page }) => {
+  test('도시 선택 목록에는 파일럿 도시(해외 8 + 국내 3)만 나오고 국내가 먼저 묶인다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/');
     const values = await page.locator('#city option').evaluateAll((os) => os.map((o) => (o as HTMLOptionElement).value));
-    expect([...values].sort()).toEqual(['bangkok', 'da-nang', 'london', 'osaka', 'paris', 'seoul', 'singapore', 'taipei', 'tokyo']);
-    expect(values[0]).toBe('seoul');
+    expect([...values].sort()).toEqual(['bangkok', 'busan', 'da-nang', 'jeju', 'london', 'osaka', 'paris', 'seoul', 'singapore', 'taipei', 'tokyo']);
+    expect(values.slice(0, 3).sort()).toEqual(['busan', 'jeju', 'seoul']);
     await expect(page.locator('#city optgroup')).toHaveCount(2);
   });
 
@@ -90,7 +90,7 @@ test.describe('계산기 핵심 흐름', () => {
     await mockRates(page);
     await page.goto('/');
     const label: Record<string, string> = { food: '외식', transport: '현지 교통', attraction: '관광지', souvenir: '기념품' };
-    expect(Object.keys(status)).toHaveLength(9);
+    expect(Object.keys(status)).toHaveLength(11);
     for (const [city, st] of Object.entries(status)) {
       await fillTrip(page, { city });
       if (st.computable) {

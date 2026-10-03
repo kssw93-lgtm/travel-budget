@@ -217,7 +217,7 @@
     "nameEn": "Busan",
     "currency": "KRW",
     "tier": "A",
-    "stage": "국내 준비"
+    "stage": "파일럿"
   },
   {
     "id": "jeju",
@@ -227,6 +227,6 @@
     "nameEn": "Jeju",
     "currency": "KRW",
     "tier": "A",
-    "stage": "국내 준비"
+    "stage": "파일럿"
   }
 ]

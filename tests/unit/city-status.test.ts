@@ -27,7 +27,9 @@ describe('파일럿 도시 데이터 상태', () => {
     expect(table).toMatchInlineSnapshot(`
       {
         "bangkok": "3/3/3/2 · 89% · hold: souvenir",
+        "busan": "5/3/7/3 · 100% · ready",
         "da-nang": "1/3/3/3 · 78% · hold: food",
+        "jeju": "5/3/4/3 · 100% · ready",
         "london": "3/3/4/3 · 100% · ready",
         "osaka": "2/3/3/3 · 89% · hold: food",
         "paris": "3/3/3/2 · 89% · hold: souvenir",
@@ -50,7 +52,9 @@ describe('파일럿 도시 데이터 상태', () => {
     expect(table).toMatchInlineSnapshot(`
       {
         "bangkok": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/3 · souvenir 2/2",
+        "busan": "pass 1/1 · ride 3/4 · meal 5/5 · snack 3/3 · attraction 7/7 · souvenir 3/3",
         "da-nang": "pass 0/0 · ride 3/3 · meal 1/1 · snack 0/0 · attraction 3/4 · souvenir 3/3",
+        "jeju": "pass 0/0 · ride 3/3 · meal 5/5 · snack 3/3 · attraction 4/4 · souvenir 3/3",
         "london": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 4/4 · souvenir 3/3",
         "osaka": "pass 1/2 · ride 3/3 · meal 2/2 · snack 1/1 · attraction 3/3 · souvenir 3/4",
         "paris": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/5 · souvenir 2/2",

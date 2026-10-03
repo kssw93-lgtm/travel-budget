@@ -5,13 +5,24 @@ import { readFileSync } from 'node:fs';
 const status = JSON.parse(readFileSync('src/data/generated/status.json', 'utf8')) as Record<string, { computable: boolean; missing: string[] }>;
 
 test.describe('계산기 핵심 흐름', () => {
-  test('도시 선택 목록에는 파일럿 도시(해외 9 + 국내 3)만 나오고 국내가 먼저 묶인다', async ({ page }) => {
+  test('도시 선택 목록에는 파일럿 도시만 나오고 나라별로 묶이며 검색할 수 있다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/');
     const values = await page.locator('#city option').evaluateAll((os) => os.map((o) => (o as HTMLOptionElement).value));
     expect([...values].sort()).toEqual(['bangkok', 'barcelona', 'busan', 'da-nang', 'jeju', 'london', 'osaka', 'paris', 'seoul', 'singapore', 'taipei', 'tokyo']);
-    expect(values.slice(0, 3).sort()).toEqual(['busan', 'jeju', 'seoul']);
-    await expect(page.locator('#city optgroup')).toHaveCount(2);
+    // 국내/해외가 아니라 나라별로 묶는다
+    const pilot = (JSON.parse(readFileSync('src/data/generated/cities.json', 'utf8')) as Array<{ stage: string; country: string }>).filter((c) => c.stage === '파일럿');
+    await expect(page.locator('#city optgroup')).toHaveCount(new Set(pilot.map((c) => c.country)).size);
+    // 검색: 결과가 하나면 바로 선택, 여러 개면 목록만 좁힌다
+    await page.getByLabel('도시·나라 검색').fill('바르셀로나');
+    await expect(page.locator('#city')).toHaveValue('barcelona');
+    await page.getByLabel('도시·나라 검색').fill('일본');
+    await expect(page.getByTestId('city-search-status')).toHaveText('2개 도시');
+    await expect(page.locator('#city option')).toHaveCount(3); // 고른 도시(바르셀로나) + 일본 2곳
+    await page.getByLabel('도시·나라 검색').press('Enter'); // 보이는 순서(가나다)의 첫 도시: 도쿄
+    await expect(page.locator('#city')).toHaveValue('tokyo');
+    await page.getByLabel('도시·나라 검색').fill('아틀란티스');
+    await expect(page.getByTestId('city-search-status')).toContainText('아직 없는 도시');
   });
 
   test('데이터가 충분한 도시: 범위·항목·출처·대표 음식·광고 자리까지 표시', async ({ page }) => {

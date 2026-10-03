@@ -36,7 +36,7 @@ const COUNTRY_EN: Record<string, string> = {
 const errors: string[] = [];
 const REVIEW_VERDICTS = ['일치', '불일치', '확인불가'];
 /** 지도·리뷰·배달 플랫폼 주소(판매 주체 공식 페이지가 아님) */
-const PLATFORM_HOSTS = /^https?:\/\/(?:[\w-]+\.)*(?:map\.naver\.com|place\.naver\.com|m\.place\.naver\.com|map\.kakao\.com|place\.map\.kakao\.com|ubereats\.com|grab\.com|foodpanda\.)/i;
+const PLATFORM_HOSTS = /^https?:\/\/(?:[\w-]+\.)*(?:map\.naver\.com|place\.naver\.com|m\.place\.naver\.com|map\.kakao\.com|place\.map\.kakao\.com|ubereats\.com|grab\.com|foodpanda\.|deliveroo\.|quandoo\.|tripadvisor\.|thefork\.)/i;
 const platform = new Set<string>();
 /** 교차 검수 결과 요약(조사 큐에 표시) */
 const reviewed: Array<{ file: string; id: string; verdict: string }> = [];

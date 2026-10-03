@@ -22,5 +22,17 @@
     "sourceUrl": "https://www.barcelonatourism.org/barcelona-travel-guide/money-tips/",
     "checkedAt": "2026-10-03",
     "note": "만족 시 5~10% 관행(출처가 시청 공식 사이트가 아님)"
+  },
+  {
+    "cityId": "rome",
+    "item": "숙박세(contributo di soggiorno)",
+    "value": "1인 1박 3~7유로(최대 10박)",
+    "itemEn": "Accommodation tax",
+    "valueEn": "EUR 3-7 per person per night (max 10 nights)",
+    "unit": "",
+    "sourceName": "Turismo Roma",
+    "sourceUrl": "https://turismoroma.it/en/hospitality/accomodation-tax-city-roma-capitale",
+    "checkedAt": "2026-10-03",
+    "note": "숙소 등급별 차등. 2023-10 요금 개정 공고가 있어 최신 금액 재확인 필요"
   }
 ]

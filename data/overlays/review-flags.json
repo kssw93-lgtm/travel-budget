@@ -47,5 +47,17 @@
     "flagEn": "source needs checking",
     "detail": "2026-10-03 Claude 검토: 공식 메뉴 페이지가 가격을 동적으로 표시해 원문 확인이 어렵다고 Perplexity 가 밝힘. 단품/세트 여부와 S$7.95 재확인 필요.",
     "reportedAt": "2026-10-03"
+  },
+  "ROM-AT-001": {
+    "flag": "요금 확인 필요",
+    "flagEn": "price needs checking",
+    "detail": "2026-10-03 Claude 검토: 콜로세움 통합권은 2024년부터 18유로로 안내된 적이 있어 16유로가 최신인지 공식 페이지 재확인 필요.",
+    "reportedAt": "2026-10-03"
+  },
+  "ROM-FD-201": {
+    "flag": "출처 확인 필요",
+    "flagEn": "source needs checking",
+    "detail": "2026-10-03 Claude 검토: 인용 문구가 공식 홈페이지가 아닌 가이드 사이트 표현으로 보임.",
+    "reportedAt": "2026-10-03"
   }
 }

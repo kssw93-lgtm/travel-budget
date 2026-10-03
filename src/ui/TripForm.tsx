@@ -1,5 +1,6 @@
 import { MODEL, STYLES } from '../core/model-config';
 import type { City, RatesPayload } from '../core/types';
+import { useState } from 'react';
 import { fmt, useI18n } from '../i18n';
 import { currencyLabel, currencyOptions } from './currencies';
 import type { FieldError, FormState } from './form';
@@ -16,29 +17,43 @@ export function cityName(c: City, lang: 'ko' | 'en'): string {
   return lang === 'ko' ? c.nameKo : c.nameEn;
 }
 
-const KOREA = new Set(['한국', '대한민국']);
+const norm = (v: string) => v.toLowerCase().normalize('NFKC').replace(/[\s\-·.,()]/g, '');
 
-/** 국내 도시가 있으면 국내·해외로 묶고, 없으면 묶지 않는다(데이터에 있는 도시만 보여 준다) */
-export function cityGroups(list: City[]): Array<{ key: 'domestic' | 'abroad' | null; items: City[] }> {
-  const domestic = list.filter((c) => KOREA.has(c.country));
-  if (domestic.length === 0) return [{ key: null, items: list }];
-  return [
-    { key: 'domestic', items: domestic },
-    { key: 'abroad', items: list.filter((c) => !KOREA.has(c.country)) },
-  ];
+/** 도시·나라 이름(한/영)과 id 로 찾는다. 공백·하이픈·대소문자는 무시한다 */
+export function matchCity(c: City, query: string): boolean {
+  const q = norm(query);
+  if (!q) return true;
+  return [c.nameKo, c.nameEn, c.country, c.countryEn, c.id].some((v) => norm(v).includes(q));
+}
+
+/** 나라별로 묶는다(나라·도시 이름순, 현재 언어 기준). 사용자 위치와 무관하게 같은 규칙 */
+export function cityGroups(list: City[], lang: 'ko' | 'en'): Array<{ country: string; items: City[] }> {
+  const locale = lang === 'ko' ? 'ko' : 'en';
+  const label = (c: City) => (lang === 'ko' ? c.country : c.countryEn);
+  const groups = new Map<string, City[]>();
+  for (const c of list) groups.set(label(c), [...(groups.get(label(c)) ?? []), c]);
+  return [...groups.entries()]
+    .sort(([a], [b]) => a.localeCompare(b, locale))
+    .map(([country, items]) => ({ country, items: items.sort((a, b) => cityName(a, lang).localeCompare(cityName(b, lang), locale)) }));
 }
 
 function CityOption({ c, lang }: { c: City; lang: 'ko' | 'en' }) {
-  return (
-    <option value={c.id}>
-      {cityName(c, lang)} ({lang === 'ko' ? c.country : c.countryEn})
-    </option>
-  );
+  return <option value={c.id}>{cityName(c, lang)}</option>;
 }
 
 export function TripForm({ form, onChange, errors, cities, rates }: Props) {
   const { t, lang, locale } = useI18n();
   const L = MODEL.limits;
+  const [query, setQuery] = useState('');
+  const matches = cities.filter((c) => matchCity(c, query));
+  // 고른 도시는 검색어와 맞지 않아도 목록에 남긴다(선택값이 사라지지 않게)
+  const shown = matches.some((c) => c.id === form.cityId) ? matches : [...cities.filter((c) => c.id === form.cityId), ...matches];
+  const onSearch = (q: string) => {
+    setQuery(q);
+    const hits = cities.filter((c) => matchCity(c, q));
+    // 검색 결과가 하나뿐이면 바로 고른다
+    if (q.trim() && hits.length === 1 && hits[0]!.id !== form.cityId) onChange({ cityId: hits[0]!.id });
+  };
   const currencies = currencyOptions(rates, [form.currency, form.directCurrency]);
   const errText: Record<FieldError, string> = {
     date: t.form.errors.date,
@@ -74,16 +89,35 @@ export function TripForm({ form, onChange, errors, cities, rates }: Props) {
       <div className="grid">
         <div className="field wide">
           <label htmlFor="city">{t.form.city}</label>
+          <input
+            id="city-search"
+            type="search"
+            value={query}
+            onChange={(e) => onSearch(e.target.value)}
+            onKeyDown={(e) => {
+              // 목록에 보이는 순서(나라·도시 이름순)의 첫 도시를 고른다
+              const first = cityGroups(matches, lang)[0]?.items[0];
+              if (e.key === 'Enter' && first) {
+                e.preventDefault();
+                onChange({ cityId: first.id });
+              }
+            }}
+            placeholder={t.form.citySearchPlaceholder}
+            aria-label={t.form.citySearch}
+            aria-describedby="city-search-status"
+            autoComplete="off"
+          />
+          <p className="hint" id="city-search-status" role="status" data-testid="city-search-status">
+            {query.trim() ? (matches.length ? fmt(t.form.cityMatches, { n: matches.length }) : t.form.cityNoMatch) : ''}
+          </p>
           <select id="city" value={form.cityId} onChange={(e) => onChange({ cityId: e.target.value })}>
-            {cityGroups(cities).map((g) =>
-              g.key ? (
-                <optgroup key={g.key} label={t.form[g.key]}>
-                  {g.items.map((c) => <CityOption key={c.id} c={c} lang={lang} />)}
-                </optgroup>
-              ) : (
-                g.items.map((c) => <CityOption key={c.id} c={c} lang={lang} />)
-              ),
-            )}
+            {cityGroups(shown, lang).map((g) => (
+              <optgroup key={g.country} label={g.country}>
+                {g.items.map((c) => (
+                  <CityOption key={c.id} c={c} lang={lang} />
+                ))}
+              </optgroup>
+            ))}
           </select>
         </div>
         <div className="field span-3 m-6">

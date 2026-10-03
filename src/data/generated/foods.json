@@ -756,5 +756,76 @@
     "recommendSource": "비짓제주(제주관광공사)",
     "recommendUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000013389",
     "note": ""
+  },
+  {
+    "cityId": "rome",
+    "nameKo": "카르보나라",
+    "nameEn": "Carbonara",
+    "reason": "달걀·페코리노·관찰레로 만드는 로마 대표 파스타",
+    "reasonEn": "Rome's signature pasta made with egg, pecorino and guanciale.",
+    "budgetBand": "저~중",
+    "linkedPriceIds": [
+      "ROM-FD-104"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "Turismo Roma",
+    "recommendUrl": "https://turismoroma.it/en",
+    "note": "추천 출처 재확인 필요(받은 주소가 숙박세 안내 페이지였음)"
+  },
+  {
+    "cityId": "rome",
+    "nameKo": "아마트리차나",
+    "nameEn": "Amatriciana",
+    "reason": "토마토 소스에 관찰레와 페코리노를 넣은 전통 파스타",
+    "reasonEn": "Traditional pasta in tomato sauce with guanciale and pecorino.",
+    "budgetBand": "저~중",
+    "linkedPriceIds": [
+      "ROM-FD-102"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "Turismo Roma",
+    "recommendUrl": "https://turismoroma.it/en",
+    "note": "추천 출처 재확인 필요(받은 주소가 숙박세 안내 페이지였음)"
+  },
+  {
+    "cityId": "rome",
+    "nameKo": "카초 에 페페",
+    "nameEn": "Cacio e Pepe",
+    "reason": "페코리노 치즈와 후추만으로 만드는 로마식 파스타",
+    "reasonEn": "A minimalist Roman pasta made with just pecorino cheese and black pepper.",
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Turismo Roma",
+    "recommendUrl": "https://turismoroma.it/en",
+    "note": "추천 출처 재확인 필요(받은 주소가 숙박세 안내 페이지였음)"
+  },
+  {
+    "cityId": "rome",
+    "nameKo": "피자 알 탈리오",
+    "nameEn": "Pizza al taglio",
+    "reason": "네모나게 잘라 무게로 파는 로마식 피자",
+    "reasonEn": "Roman-style pizza baked in trays and sold by the slice by weight.",
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Turismo Roma",
+    "recommendUrl": "https://turismoroma.it/en",
+    "note": "추천 출처 재확인 필요(받은 주소가 숙박세 안내 페이지였음)"
+  },
+  {
+    "cityId": "rome",
+    "nameKo": "젤라토",
+    "nameEn": "Gelato",
+    "reason": "로마 거리 곳곳의 젤라테리아에서 즐기는 이탈리아식 아이스크림",
+    "reasonEn": "Italian ice cream from the gelaterie found on almost every Roman street.",
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "ROM-FD-201"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "Turismo Roma",
+    "recommendUrl": "https://turismoroma.it/en",
+    "note": "추천 출처 재확인 필요(받은 주소가 숙박세 안내 페이지였음)"
   }
 ]

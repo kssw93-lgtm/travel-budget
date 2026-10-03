@@ -13,7 +13,7 @@ export const ko = {
   },
   form: {
     title: '여행 조건',
-    city: '도시', domestic: '국내', abroad: '해외', visitDate: '방문일', nights: '숙박 수', adults: '성인', children: '어린이',
+    city: '도시', citySearch: '도시·나라 검색', citySearchPlaceholder: '도시·나라 검색 (예: 도쿄, 일본, Paris)', cityMatches: '{n}개 도시', cityNoMatch: '아직 없는 도시입니다. 조사가 끝나는 대로 추가됩니다.', visitDate: '방문일', nights: '숙박 수', adults: '성인', children: '어린이',
     style: '여행 스타일',
     drinks: '음주 포함 (성인)',
     drinksHint: '맥주·와인 등 성인 1인 하루 1/2/3잔(절약/일반/여유형) 기준', currency: '표시 통화', currencyHint: '언어와 상관없이 원하는 통화를 고를 수 있습니다.',

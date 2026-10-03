@@ -4,7 +4,7 @@ import { ko } from '../../src/i18n/ko';
 import { fmt } from '../../src/i18n';
 import { parseForm, type FormState } from '../../src/ui/form';
 import { allCities, cities, foods, PILOT_STAGE, samples } from '../../src/data';
-import { cityGroups } from '../../src/ui/TripForm';
+import { cityGroups, matchCity } from '../../src/ui/TripForm';
 
 const base: FormState = {
   cityId: 'taipei', visitDate: '2026-11-04', nights: '3', adults: '2', children: '0', style: 'standard',
@@ -112,21 +112,24 @@ describe('데이터 버전', () => {
   });
 });
 
-describe('도시 선택 묶음', () => {
-  const abroadCities = cities.filter((c) => c.country !== '한국');
-  const seoul = { ...cities[0]!, id: 'seoul', nameKo: '서울', nameEn: 'Seoul', country: '한국', countryEn: 'South Korea', currency: 'KRW' };
-  it('국내 도시가 없으면 묶지 않는다', () => {
-    const abroad = cities.filter((c) => c.country !== '한국');
-    expect(cityGroups(abroad)).toEqual([{ key: null, items: abroad }]);
+describe('도시 선택: 나라별 묶음과 검색', () => {
+  it('사용자 위치와 무관하게 나라별로 묶고, 나라·도시 이름순으로 정렬한다', () => {
+    const ko = cityGroups(cities, 'ko');
+    expect(ko.map((g) => g.country)).toEqual([...new Set(cities.map((c) => c.country))].sort((a, b) => a.localeCompare(b, 'ko')));
+    expect(ko.find((g) => g.country === '한국')!.items.map((c) => c.nameKo)).toEqual(['부산', '서울', '제주']);
+    const en = cityGroups(cities, 'en');
+    expect(en[0]!.country.localeCompare(en[1]!.country, 'en')).toBeLessThan(0);
+    expect(en.flatMap((g) => g.items)).toHaveLength(cities.length);
   });
-  it('국내 도시가 있으면 국내를 먼저, 해외를 뒤에 둔다', () => {
-    const g = cityGroups([...abroadCities, seoul]);
-    expect(g.map((x) => x.key)).toEqual(['domestic', 'abroad']);
-    expect(g[0]!.items.map((c) => c.id)).toEqual(['seoul']);
-    expect(g[1]!.items).toHaveLength(abroadCities.length);
-  });
-  it('소개 문구의 도시 목록·수는 데이터에서 만든다', () => {
-    expect(fmt(ko.about.sections[2]!.body[0]!, { cities: 'A·B', n: 2 })).toContain('A·B 2개 도시');
-    expect(fmt(en.about.sections[2]!.body[0]!, { cities: 'A, B', n: 2 })).toContain('2 cities are supported today (A, B)');
+  it('도시·나라 이름(한/영)으로 찾고 공백·대소문자는 무시한다', () => {
+    const find = (q: string) => cities.filter((c) => matchCity(c, q)).map((c) => c.id).sort();
+    expect(find('도쿄')).toEqual(['tokyo']);
+    expect(find('일본')).toEqual(['osaka', 'tokyo']);
+    expect(find('south korea')).toEqual(['busan', 'jeju', 'seoul']);
+    expect(find('ParIs')).toEqual(['paris']);
+    expect(find('다 낭')).toEqual(['da-nang']);
+    expect(find('')).toHaveLength(cities.length);
+    expect(find('atlantis')).toEqual([]);
   });
 });
+

@@ -14,7 +14,7 @@ export const en: Messages = {
   },
   form: {
     title: 'Trip details',
-    city: 'City', domestic: 'South Korea', abroad: 'International', visitDate: 'Visit date', nights: 'Nights', adults: 'Adults', children: 'Children',
+    city: 'City', citySearch: 'Search city or country', citySearchPlaceholder: 'Search city or country (e.g. Tokyo, Japan, 파리)', cityMatches: '{n} cities', cityNoMatch: 'Not available yet. More cities are added as research is completed.', visitDate: 'Visit date', nights: 'Nights', adults: 'Adults', children: 'Children',
     style: 'Travel style',
     drinks: 'Include drinks (adults)',
     drinksHint: 'Beer, wine and similar: 1/2/3 drinks per adult per day (Budget/Standard/Comfort)', currency: 'Display currency', currencyHint: 'Currency is independent of the page language.',

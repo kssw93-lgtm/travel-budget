@@ -54,5 +54,10 @@
   "barcelona:Paella": "A rice dish from Valencia, enjoyed in Barcelona mainly as seafood paella at seaside restaurants.",
   "barcelona:Tapas": "Order several small plates and share them — the classic Spanish way of eating.",
   "barcelona:Menu del dia": "Weekday lunch set with starter, main, dessert and a drink at a fixed price.",
-  "barcelona:Sangria": "Spanish red wine punch with fruit, especially popular in summer."
+  "barcelona:Sangria": "Spanish red wine punch with fruit, especially popular in summer.",
+  "rome:Carbonara": "Rome's signature pasta made with egg, pecorino and guanciale.",
+  "rome:Amatriciana": "Traditional pasta in tomato sauce with guanciale and pecorino.",
+  "rome:Cacio e Pepe": "A minimalist Roman pasta made with just pecorino cheese and black pepper.",
+  "rome:Pizza al taglio": "Roman-style pizza baked in trays and sold by the slice by weight.",
+  "rome:Gelato": "Italian ice cream from the gelaterie found on almost every Roman street."
 }

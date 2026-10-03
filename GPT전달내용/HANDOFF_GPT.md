@@ -19,12 +19,12 @@
 ### 0순위 (v0.4 이후 새로 생김) — 계산을 막는 부족분
 
 v0.4 재확인 후 계산 가능 도시가 줄었고, Perplexity 수집분(`data/additions/prices-perplexity-2026-10-03.csv`)으로 오사카·방콕·파리는 다시 채웠습니다.
-**남은 부족분(2026-10-03 기준)**: 다낭 식사 1, 타이베이 식사 2, 싱가포르 식사 1 (서로 다른 식당의 공식 메뉴 가격).
+**2026-10-03 Perplexity 보강으로 11개 도시 모두 계산 가능.** 다만 타이베이 `TPE-FD-911`·`912`(배달앱 가격)와 싱가포르 `SIN-FD-911`(빅맥)은 공식 메뉴 가격으로 교체해 주세요.
 최신 목록은 항상 `data/research-queue.md` 1장에 자동으로 나옵니다. 결과는 `travel_cost_research_pilot_v0.5_YYYY-MM-DD.xlsx` 로 주세요.
 
 ### 0순위-2 — Gemini·Perplexity 가 수집한 가격 확인 (이미 사이트에 반영 중)
 
-`data/additions/` 의 `prices-seoul.csv`·`prices-busan.csv`·`prices-jeju.csv`·`prices-perplexity-2026-10-03.csv`·`prices-perplexity-drinks-2026-10-03.csv` 각 행 `출처 URL` 을 열어 `원문 인용` 문구와 가격이 맞는지 확인해 주세요.
+`data/additions/` 의 `prices-seoul.csv`·`prices-busan.csv`·`prices-jeju.csv`·`prices-perplexity-2026-10-03.csv`·`prices-perplexity-drinks-2026-10-03.csv`·`prices-perplexity-meals-2026-10-03.csv` 각 행 `출처 URL` 을 열어 `원문 인용` 문구와 가격이 맞는지 확인해 주세요.
 (`SEL-TR-001` 지하철은 1,550원으로 정정 완료.) 출처가 네이버 플레이스인 식당·기념품 행은 공식 출처로 인정되지 않아 조건부로 쓰고 있습니다 — 가능하면 브랜드 공식 메뉴로 바꿔 주세요.
 특히 의심 행: `LON-FD-951`~`953`(펍 찾기 페이지 출처), `SIN-FD-902`(이치란 싱가포르 지점 존재 여부), `SIN-FD-903`·`SIN-SV-901`(올드창키 출처 주소 형식 이상).
 틀린 행은 엑셀 `가격 표본` 시트에 같은 ID 로 올바른 값을 넣어 주면 됩니다(엑셀 값이 있으면 Claude 가 CSV 행을 지웁니다).

@@ -88,7 +88,7 @@
   },
   "da-nang": {
     "counts": {
-      "food": 2,
+      "food": 3,
       "transport": 3,
       "attraction": 3,
       "souvenir": 3
@@ -96,7 +96,7 @@
     "baskets": {
       "pass": 0,
       "ride": 3,
-      "meal": 2,
+      "meal": 3,
       "snack": 1,
       "drink": 3,
       "attraction": 3,
@@ -105,21 +105,19 @@
     "basketRows": {
       "pass": 0,
       "ride": 3,
-      "meal": 2,
+      "meal": 3,
       "snack": 1,
       "drink": 3,
       "attraction": 4,
       "souvenir": 3
     },
-    "fillRate": 0.89,
-    "missing": [
-      "food"
-    ],
-    "computable": false
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
   },
   "taipei": {
     "counts": {
-      "food": 1,
+      "food": 3,
       "transport": 3,
       "attraction": 4,
       "souvenir": 3
@@ -127,7 +125,7 @@
     "baskets": {
       "pass": 1,
       "ride": 3,
-      "meal": 1,
+      "meal": 3,
       "snack": 0,
       "drink": 3,
       "attraction": 4,
@@ -136,21 +134,19 @@
     "basketRows": {
       "pass": 3,
       "ride": 3,
-      "meal": 1,
+      "meal": 3,
       "snack": 0,
       "drink": 3,
       "attraction": 4,
       "souvenir": 4
     },
-    "fillRate": 0.78,
-    "missing": [
-      "food"
-    ],
-    "computable": false
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
   },
   "singapore": {
     "counts": {
-      "food": 2,
+      "food": 3,
       "transport": 3,
       "attraction": 3,
       "souvenir": 3
@@ -158,7 +154,7 @@
     "baskets": {
       "pass": 1,
       "ride": 3,
-      "meal": 2,
+      "meal": 3,
       "snack": 1,
       "drink": 3,
       "attraction": 3,
@@ -167,17 +163,15 @@
     "basketRows": {
       "pass": 1,
       "ride": 3,
-      "meal": 2,
+      "meal": 3,
       "snack": 1,
       "drink": 3,
       "attraction": 3,
       "souvenir": 3
     },
-    "fillRate": 0.89,
-    "missing": [
-      "food"
-    ],
-    "computable": false
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
   },
   "paris": {
     "counts": {

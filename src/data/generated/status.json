@@ -320,28 +320,28 @@
   },
   "seoul": {
     "counts": {
-      "food": 3,
+      "food": 5,
       "transport": 3,
       "attraction": 7,
-      "souvenir": 3
+      "souvenir": 6
     },
     "baskets": {
       "pass": 1,
       "ride": 3,
-      "meal": 3,
-      "snack": 3,
-      "drink": 3,
+      "meal": 5,
+      "snack": 0,
+      "drink": 0,
       "attraction": 7,
-      "souvenir": 3
+      "souvenir": 6
     },
     "basketRows": {
       "pass": 1,
       "ride": 3,
-      "meal": 3,
-      "snack": 3,
-      "drink": 3,
+      "meal": 5,
+      "snack": 0,
+      "drink": 0,
       "attraction": 7,
-      "souvenir": 3
+      "souvenir": 6
     },
     "fillRate": 1,
     "missing": [],

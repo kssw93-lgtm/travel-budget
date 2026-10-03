@@ -231,6 +231,18 @@ function main() {
     else s.review = review as PriceSample['review'];
   }
 
+  // 단위가 모델과 맞지 않는 표본(공유 메뉴 등): 원본은 그대로 두고 모델에서만 뺀다
+  const exclusions = JSON.parse(readFileSync(`${root}/data/overlays/exclusions.json`, 'utf8')) as Record<string, string>;
+  for (const [id, reason] of Object.entries(exclusions)) {
+    if (id.startsWith('_')) continue;
+    const s = samples.find((x) => x.id === id);
+    if (!s) errors.push(`exclusions.json: 없는 표본 ID '${id}'`);
+    else {
+      s.modelUse = 'no';
+      s.note = [s.note, `모델 제외: ${reason}`].filter(Boolean).join(' · ');
+    }
+  }
+
   // 교차 검수 결과(data/reviews/*.csv, 예: Gemini 검수). '불일치'·'확인불가' 판정만 재검증 표시로 붙인다.
   // 가격은 바꾸지 않는다 — 고칠 값은 조사 엑셀 다음 버전에 반영한다. review-flags.json 이 먼저 붙은 표본은 그대로 둔다.
   const byId = new Map<string, PriceSample | ExtraSample>([...samples, ...extras].map((x) => [x.id, x]));

@@ -1,6 +1,6 @@
 # 조사 요청 목록 (자동 생성)
 
-> `npm run data:convert` 가 `travel_cost_research_pilot_v0.5_2026-10-03.xlsx` (v0.5) 로부터 만든 파일입니다. 직접 고치지 마세요.
+> `npm run data:convert` 가 `travel_cost_research_pilot_v0.6_2026-10-03.xlsx` (v0.6) 로부터 만든 파일입니다. 직접 고치지 마세요.
 > 기준: 바스켓마다 **독립 표본 3건 이상**(같은 출처·같은 상품의 용량·기간·요일 변형, 같은 명소의 관람 옵션은 1건).
 > 수치는 가격 원장과 계산 코드로 다시 만든 것입니다. 엑셀의 "도시 초안"·"다음 조사 큐" 시트 수치는 쓰지 않습니다(작성 시점이 달라 오래된 값이 있을 수 있음).
 
@@ -35,6 +35,7 @@
 | 뉴욕 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 뉴욕 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 서울 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 서울 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 부산 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 제주 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 
@@ -225,20 +226,6 @@
 | SEL-SV-101 | 서울 | 서울마이소울 리본 모자 | 49000 KRW | A | 예 | 재검증 | [서울특별시 (Seoul My Soul Shop)](https://english.seoul.go.kr/the-cap-with-2-7-million-views-on-japanese-social-media-seoul-merch-wins-over-international-visitors/) |
 | SEL-SV-102 | 서울 | 서울굿즈 쌀과자 4개 묶음 | 5450 KRW | A | 예 | 재검증 | [서울특별시 (Seoul My Soul Shop)](https://love.seoul.go.kr/articles/10473) |
 | SEL-SV-103 | 서울 | 서울굿즈 에코백 | 15000 KRW | A | 예 | 재검증 | [서울특별시 (Seoul My Soul Shop)](https://love.seoul.go.kr/articles/10473) |
-| SEL-FD-001 | 서울 | 이삭토스트 햄치즈 토스트 | 3300 KRW | C | 조건부 | C등급, 조건부, 재검증 | [이삭토스트 공식홈페이지](https://www.isaac-toast.co.kr/bbs/board.php?bo_table=menu) |
-| SEL-FD-002 | 서울 | 바르다김선생 바른 김밥 | 4500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [바르다김선생 공식홈페이지](https://www.teacherkim.co.kr/menu/view.php?idx=1) |
-| SEL-FD-003 | 서울 | 놀부부대찌개 (1인분) | 10500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [놀부부대찌개 공식홈페이지](https://www.nolboo.co.kr/brand/menu.asp?b_code=BUDAE) |
-| SEL-FD-004 | 서울 | 백암순대국밥 | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [조암골백암순대 공식홈페이지](http://www.baegam.co.kr/sub/sub02_01.php) |
-| SEL-FD-005 | 서울 | 원할머니보쌈 1인 보쌈세트 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [원할머니보쌈족발 공식홈페이지](https://bossam.co.kr/menu/one_person/) |
-| SEL-FD-006 | 서울 | 이디야커피 아메리카노 (라지) | 3200 KRW | C | 조건부 | C등급, 조건부, 재검증 | [이디야커피 공식홈페이지](https://www.ediya.com/contents/drink.html) |
-| SEL-FD-007 | 서울 | 메가MGC커피 아메리카노 (HOT) | 1500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [메가MGC커피 공식홈페이지](https://www.mega-mgccoffee.com/menu/menu.php?menu_category1=1) |
-| SEL-FD-008 | 서울 | 설빙 인절미설빙 | 9500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [설빙 공식홈페이지](https://sulbing.com/bbs/board.php?bo_table=menu&sca=SULBING) |
-| SEL-FD-009 | 서울 | CU 편의점 카스 후레쉬 캔 | 2800 KRW | C | 조건부 | C등급, 조건부, 재검증 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
-| SEL-FD-010 | 서울 | CU 편의점 참이슬 후레쉬 | 1950 KRW | C | 조건부 | C등급, 조건부, 재검증 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
-| SEL-FD-011 | 서울 | 교촌치킨 생맥주 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [교촌치킨 공식 웹주문 페이지](https://www.kyochon.com/menu/drink.asp) |
-| SEL-SV-001 | 서울 | 정관장 활기력 (20ml x 10병) | 30000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [정관장 공식몰 케이지씨몰](https://www.kgc.co.kr/goods/detail.do?gno=201506040003) |
-| SEL-SV-002 | 서울 | 오리온 마켓오 리얼브라우니 (8개입) | 3600 KRW | C | 조건부 | C등급, 조건부, 재검증 | [오리온 공식 직영스토어](https://smartstore.naver.com/orion_store/products/5679549323) |
-| SEL-SV-003 | 서울 | 국립중앙박물관 뮤지엄숍 뮷즈 자개 마그넷 | 7000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [국립박물관문화재단 뮷즈(MU:DS) 공식몰](https://www.museumshop.or.kr/shop/goods/goods_view.php?goodsno=3619) |
 
 ## 4. 교차 검수 현황
 

@@ -133,3 +133,15 @@ describe('도시 선택: 나라별 묶음과 검색', () => {
   });
 });
 
+
+describe('모델 제외 목록(data/overlays/exclusions.json)', () => {
+  it('여러 명이 나눠 먹는 메뉴는 원본 가격은 남기되 계산에서 뺀다', async () => {
+    const { readFileSync } = await import('node:fs');
+    const ex = JSON.parse(readFileSync('data/overlays/exclusions.json', 'utf8')) as Record<string, string>;
+    for (const id of Object.keys(ex).filter((k) => !k.startsWith('_'))) {
+      const s = samples.find((x) => x.id === id)!;
+      expect([id, s.modelUse]).toEqual([id, 'no']);
+      expect(s.note).toContain('모델 제외');
+    }
+  });
+});

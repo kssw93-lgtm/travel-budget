@@ -115,7 +115,11 @@ function main() {
   const wb = XLSX.read(readFileSync(xlsxPath), { type: 'buffer', cellDates: true });
 
   // 도시
-  const cityRows: Row[] = [...readTable(wb, '도시 우선순위', '순번'), ...additionRows('cities', '순번').map((x) => x.r)];
+  // 추가 자료의 도시가 엑셀에 이미 있으면(2차·3차 도시 공개 등) 그 행을 덮어쓴다 — 조사 단계만 바꿔 공개할 때 쓴다
+  const excelCities = readTable(wb, '도시 우선순위', '순번');
+  const extraCities = additionRows('cities', '순번').map((x) => x.r);
+  const overridden = new Set(extraCities.map((r) => r('도시(한글)')));
+  const cityRows: Row[] = [...excelCities.filter((r) => !overridden.has(r('도시(한글)'))), ...extraCities];
   const cities: City[] = cityRows.map((r) => {
     const country = r('국가');
     if (!COUNTRY_EN[country]) notes.push(`국가 영문명 없음: ${country} (한글로 표시됩니다)`);

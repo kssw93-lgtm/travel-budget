@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "cityId": "barcelona",
+    "item": "관광세(숙박세)",
+    "value": "1인 1박 6~12유로",
+    "itemEn": "Tourist tax",
+    "valueEn": "EUR 6-12 per person per night",
+    "unit": "",
+    "sourceName": "Barcelona City Council Tourism",
+    "sourceUrl": "https://ajuntament.barcelona.cat/turisme/en/tourism-barcelona/projects/tourist-tax",
+    "checkedAt": "2026-10-03",
+    "note": "숙소 등급별 차등·2026년 4월 인상(시 추가 부과금 포함 여부는 재확인 필요)"
+  },
+  {
+    "cityId": "barcelona",
+    "item": "팁",
+    "value": "의무 아님",
+    "itemEn": "Tipping",
+    "valueEn": "Not required (5-10% customary)",
+    "unit": "",
+    "sourceName": "Barcelona Tourism guide",
+    "sourceUrl": "https://www.barcelonatourism.org/barcelona-travel-guide/money-tips/",
+    "checkedAt": "2026-10-03",
+    "note": "만족 시 5~10% 관행(출처가 시청 공식 사이트가 아님)"
+  }
+]

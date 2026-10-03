@@ -150,16 +150,6 @@
     "stage": "2차"
   },
   {
-    "id": "istanbul",
-    "country": "튀르키예",
-    "countryEn": "Türkiye",
-    "nameKo": "이스탄불",
-    "nameEn": "Istanbul",
-    "currency": "TRY",
-    "tier": "B",
-    "stage": "2차"
-  },
-  {
     "id": "dubai",
     "country": "아랍에미리트",
     "countryEn": "United Arab Emirates",
@@ -196,6 +186,16 @@
     "nameKo": "뉴욕",
     "nameEn": "New York",
     "currency": "USD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "istanbul",
+    "country": "튀르키예",
+    "countryEn": "Türkiye",
+    "nameKo": "이스탄불",
+    "nameEn": "Istanbul",
+    "currency": "TRY",
     "tier": "B",
     "stage": "파일럿"
   },

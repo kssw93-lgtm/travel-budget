@@ -63,12 +63,12 @@ describe('한/영 문구', () => {
 
 describe('가격 데이터 무결성', () => {
   it('선택 가능한 도시는 파일럿 도시이고 모든 표본이 (공개 전 도시 포함) 도시에 연결된다', () => {
-    expect(cities.map((c) => c.id).sort()).toEqual(['bangkok', 'barcelona', 'busan', 'da-nang', 'jeju', 'london', 'new-york', 'osaka', 'paris', 'rome', 'seoul', 'singapore', 'taipei', 'tokyo']);
+    expect(cities.map((c) => c.id).sort()).toEqual(['bangkok', 'barcelona', 'busan', 'da-nang', 'istanbul', 'jeju', 'london', 'new-york', 'osaka', 'paris', 'rome', 'seoul', 'singapore', 'taipei', 'tokyo']);
     for (const s of samples) expect(allCities.some((c) => c.id === s.cityId && c.currency === s.currency)).toBe(true);
   });
   it('1차 화면에는 파일럿 도시만 노출하고 2차 이후 도시는 숨긴다', () => {
     expect(allCities.length).toBeGreaterThan(cities.length);
-    expect(cities).toHaveLength(14);
+    expect(cities).toHaveLength(15);
     expect(cities.every((c) => c.stage === PILOT_STAGE)).toBe(true);
     expect(cities.some((c) => c.id === 'fukuoka')).toBe(false);
   });
@@ -139,7 +139,10 @@ describe('모델 제외 목록(data/overlays/exclusions.json)', () => {
     const { readFileSync } = await import('node:fs');
     const ex = JSON.parse(readFileSync('data/overlays/exclusions.json', 'utf8')) as Record<string, string>;
     for (const id of Object.keys(ex).filter((k) => !k.startsWith('_'))) {
-      const s = samples.find((x) => x.id === id)!;
+      const { extras } = await import('../../src/data');
+      const s = samples.find((x) => x.id === id) ?? extras.find((x) => x.id === id);
+      // 현지 통화가 아닌 행은 변환 단계에서 아예 건너뛴다
+      if (!s) continue;
       expect([id, s.modelUse]).toEqual([id, 'no']);
       expect(s.note).toContain('모델 제외');
     }

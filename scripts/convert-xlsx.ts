@@ -140,6 +140,8 @@ function main() {
   // 가격 표본
   const samples: PriceSample[] = [];
   const extras: ExtraSample[] = [];
+  const exclusions = JSON.parse(readFileSync(`${root}/data/overlays/exclusions.json`, 'utf8')) as Record<string, string>;
+  const exclusionIds = new Set(Object.keys(exclusions).filter((k) => !k.startsWith('_')));
   const priceRows: Array<{ file: string; r: Row }> = [
     ...readTable(wb, '가격 표본', 'ID').map((r) => ({ file: '', r })),
     ...additionRows('prices', 'ID', ['비고']),
@@ -161,7 +163,14 @@ function main() {
     let modelUse = MODEL_USE[r('모델사용')];
     if (!'ABCD'.includes(grade) || !modelUse) errors.push(`${id}: 출처등급/모델사용 해석 불가`);
     const currency = r('통화');
-    if (currency !== city.currency) errors.push(`${id}: 통화 ${currency} ≠ 도시 통화 ${city.currency}`);
+    if (currency !== city.currency) {
+      // 현지 통화가 아닌 가격은 환산하지 않는다. 제외 목록에 올린 행만 건너뛰고, 그 밖에는 오류로 멈춘다
+      if (exclusionIds.has(id)) {
+        notes.push(`${id}: 통화 ${currency} ≠ 도시 통화 ${city.currency} → 제외 목록에 따라 건너뜀`);
+        continue;
+      }
+      errors.push(`${id}: 통화 ${currency} ≠ 도시 통화 ${city.currency}`);
+    }
     // 가격을 비운 보류 행(공식 가격을 확인하지 못해 모델에서 뺀 표본)은 기록만 남기고 건너뛴다
     if (r('최소') === '' && r('최대') === '' && (r('모델사용') === '아니오' || r('상태').includes('보류'))) {
       notes.push(`${id}: 가격 미확인 보류 행 건너뜀`);
@@ -232,12 +241,12 @@ function main() {
   }
 
   // 단위가 모델과 맞지 않는 표본(공유 메뉴 등): 원본은 그대로 두고 모델에서만 뺀다
-  const exclusions = JSON.parse(readFileSync(`${root}/data/overlays/exclusions.json`, 'utf8')) as Record<string, string>;
   for (const [id, reason] of Object.entries(exclusions)) {
     if (id.startsWith('_')) continue;
-    const s = samples.find((x) => x.id === id);
-    if (!s) errors.push(`exclusions.json: 없는 표본 ID '${id}'`);
-    else {
+    const s: PriceSample | ExtraSample | undefined = samples.find((x) => x.id === id) ?? extras.find((x) => x.id === id);
+    if (!s) {
+      if (!notes.some((n) => n.startsWith(`${id}:`))) errors.push(`exclusions.json: 없는 표본 ID '${id}'`);
+    } else {
       s.modelUse = 'no';
       s.note = [s.note, `모델 제외: ${reason}`].filter(Boolean).join(' · ');
     }

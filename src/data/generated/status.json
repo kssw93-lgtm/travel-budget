@@ -347,6 +347,35 @@
     "missing": [],
     "computable": true
   },
+  "shanghai": {
+    "counts": {
+      "food": 3,
+      "transport": 3,
+      "attraction": 5,
+      "souvenir": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 3,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 5,
+      "souvenir": 3
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 3,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 5,
+      "souvenir": 3
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "seoul": {
     "counts": {
       "food": 5,

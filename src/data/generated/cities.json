@@ -200,6 +200,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "shanghai",
+    "country": "중국",
+    "countryEn": "China",
+    "nameKo": "상하이",
+    "nameEn": "Shanghai",
+    "currency": "CNY",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "seoul",
     "country": "한국",
     "countryEn": "South Korea",

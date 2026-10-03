@@ -9,7 +9,7 @@ test.describe('계산기 핵심 흐름', () => {
     await mockRates(page);
     await page.goto('/');
     const values = await page.locator('#city option').evaluateAll((os) => os.map((o) => (o as HTMLOptionElement).value));
-    expect([...values].sort()).toEqual(['bangkok', 'barcelona', 'busan', 'da-nang', 'istanbul', 'jeju', 'london', 'new-york', 'osaka', 'paris', 'rome', 'seoul', 'singapore', 'taipei', 'tokyo']);
+    expect([...values].sort()).toEqual(['bangkok', 'barcelona', 'busan', 'da-nang', 'istanbul', 'jeju', 'london', 'new-york', 'osaka', 'paris', 'rome', 'seoul', 'shanghai', 'singapore', 'taipei', 'tokyo']);
     // 국내/해외가 아니라 나라별로 묶는다
     const pilot = (JSON.parse(readFileSync('src/data/generated/cities.json', 'utf8')) as Array<{ stage: string; country: string }>).filter((c) => c.stage === '파일럿');
     await expect(page.locator('#city optgroup')).toHaveCount(new Set(pilot.map((c) => c.country)).size);
@@ -101,7 +101,7 @@ test.describe('계산기 핵심 흐름', () => {
     await mockRates(page);
     await page.goto('/');
     const label: Record<string, string> = { food: '외식', transport: '현지 교통', attraction: '관광지', souvenir: '기념품' };
-    expect(Object.keys(status)).toHaveLength(15);
+    expect(Object.keys(status)).toHaveLength(16);
     for (const [city, st] of Object.entries(status)) {
       await fillTrip(page, { city });
       if (st.computable) {

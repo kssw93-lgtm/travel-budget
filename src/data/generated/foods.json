@@ -613,6 +613,45 @@
     "note": "관광청 음식 추천만 기록. 공식 판매 가격 표본은 별도로 확인하지 않아 가격대는 입력하지 않음."
   },
   {
+    "cityId": "shanghai",
+    "nameKo": "샤오롱바오",
+    "nameEn": "Xiaolongbao",
+    "reason": "상하이 대표 소룡포로, 얇은 피 안에 육즙을 넣어 쪄 먹는 음식으로 시 정부 관광 안내가 소개한다.",
+    "reasonEn": "Shanghai's signature soup dumplings — thin wrappers filled with pork and hot broth, featured by the city's official tourism guide.",
+    "budgetBand": "미조사",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Shanghai Municipal Administration of Culture and Tourism",
+    "recommendUrl": "https://english.shanghai.gov.cn/en-GlobalTasteinShanghai2026-LocalFlavors/20260316/00b0c6d1698d406c8d532a6e169e1a1e.html",
+    "note": "공식 관광 안내의 음식 추천만 기록. 이 행에는 판매가를 입력하지 않음."
+  },
+  {
+    "cityId": "shanghai",
+    "nameKo": "성젠바오",
+    "nameEn": "Shengjianbao",
+    "reason": "바닥을 바삭하게 구워 육즙과 함께 먹는 상하이식 생전포로, 시 정부 관광 안내가 현지 간식으로 소개한다.",
+    "reasonEn": "Pan-fried pork buns with crisp bottoms and juicy filling, introduced by the city's official tourism guide as a local snack.",
+    "budgetBand": "미조사",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Shanghai Municipal Administration of Culture and Tourism",
+    "recommendUrl": "https://english.shanghai.gov.cn/en-Snack-travelinshanghai/20231205/1b1c394feda144c283df2abd3e8b2cec.html",
+    "note": "공식 관광 안내의 음식 추천만 기록. 이 행에는 판매가를 입력하지 않음."
+  },
+  {
+    "cityId": "shanghai",
+    "nameKo": "옌두셴",
+    "nameEn": "Yanduxian",
+    "reason": "절인 돼지고기와 생고기, 죽순을 함께 끓이는 강남 지역 봄철 국물 요리로, 시 정부 관광 안내가 지역 가정식으로 소개한다.",
+    "reasonEn": "A Jiangnan spring soup of cured and fresh pork with bamboo shoots, presented by the city's official tourism guide as local home cooking.",
+    "budgetBand": "미조사",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Shanghai Municipal Administration of Culture and Tourism",
+    "recommendUrl": "https://english.shanghai.gov.cn/en-GlobalTasteinShanghai2026-LocalFlavors/20260410/1554e7ea15da4a6796e5bf8dc5cfb57f.html",
+    "note": "공식 관광 안내의 음식 추천만 기록. 본문에 가격 언급이 있어도 평균값은 사용하지 않음."
+  },
+  {
     "cityId": "barcelona",
     "nameKo": "파에야",
     "nameEn": "Paella",

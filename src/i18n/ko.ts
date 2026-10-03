@@ -123,6 +123,8 @@ export const ko = {
     place: '관광지',
     adult: '성인',
     child: '아동',
+    fromPrice: '부터',
+    variable: '(날짜별 변동)',
     free: '무료',
     source: '출처·확인일',
     cta: '내 일정으로 계산하기',

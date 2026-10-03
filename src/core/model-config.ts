@@ -90,10 +90,15 @@ export const KEYWORDS = {
   /** 메뉴 가격에 세금·서비스료가 빠진 표기(예: 450++) */
   taxExcluded: /\+\+|세금[^,;]*별도|서비스료[^,;]*별도|excl(?:\.|uding)? (?:tax|service)/i,
   meal: /한끼|식사|관광지 식당|메뉴 표본|아침/,
-  child: /아동|어린이|child|\d+\s*-\s*\d+\s*세/i,
+  /** 아동 표본임을 직접 밝힌 낱말 */
+  child: /아동|어린이|child/i,
+  /** 나이·학년으로 적은 아동·학생 요금(예: 만 15세 이하, 중학생 이하, Under 10). 성인 표기가 없을 때만 본다 */
+  childAge: /\d+\s*[-~]\s*\d+\s*세|\d+\s*세\s*(?:이하|미만)|초등|중학|고등학생|유치원|미취학|\bunder\s*\d+|and under/i,
+  /** 성인 표본임을 밝힌 표기(예: "성인(15세 이상, 고등학생 이상)", "경복궁 관람권 (성인)"). "성인 동반"은 제외 */
+  adult: /성인(?!\s*동반)|어른|대인|\badult/i,
   weekday: /평일|weekday/i,
   weekend: /주말|공휴일|weekend|holiday/i,
   dailyPass: /1일|당일|영업종료|일일|\bday\b|one-day|daily/i,
   hours: /(\d+)\s*(?:시간|-?\s*hour)/i,
-  fromPrice: /시작가|\bfrom\b/i,
+  fromPrice: /시작가|최저 게시가|\bfrom\b|starting price/i,
 } as const;

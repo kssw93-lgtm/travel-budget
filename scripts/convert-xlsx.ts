@@ -193,7 +193,10 @@ function main() {
       note = [note, `원문: ${quote}`, `수집: ${file}`].filter(Boolean).join(' · ');
     }
     const min = num(r('최소'), id);
-    const max = num(r('최대'), id);
+    // 최대를 비운 수요형 행: 공식 페이지가 시작가(최저 게시가)만 보여 주는 경우 → 최소=최대로 두고 시작가로 표시
+    const fromOnly = r('최대') === '' && r('최소') !== '';
+    if (fromOnly) notes.push(`${id}: 최대 미게시 → 시작가로 처리`);
+    const max = fromOnly ? min : num(r('최대'), id);
     if (min > max) errors.push(`${id}: 최소 > 최대`);
     if (platform.has(id)) {
       if (grade === 'A' || grade === 'B') grade = 'C';

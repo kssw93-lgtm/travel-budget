@@ -52,7 +52,9 @@ export const isVariablePricing = (s: PriceSample, variant?: DayVariant): boolean
 
 function audienceOf(s: PriceSample): Audience {
   const text = `${s.target} ${s.unit} ${s.subtype} ${s.nameKo} ${s.nameEn}`;
-  return KEYWORDS.child.test(text) ? 'child' : 'adult';
+  if (KEYWORDS.child.test(text)) return 'child';
+  if (KEYWORDS.adult.test(text)) return 'adult';
+  return KEYWORDS.childAge.test(text) ? 'child' : 'adult';
 }
 
 function variantOf(s: PriceSample): DayVariant | undefined {
@@ -119,7 +121,7 @@ export function classify(s: PriceSample): Classified {
     audience: audienceOf(s),
     passDays: 1,
     variant: variantOf(s),
-    fromPrice: KEYWORDS.fromPrice.test(`${s.unit} ${s.nameEn}`),
+    fromPrice: KEYWORDS.fromPrice.test(`${s.unit} ${s.nameKo} ${s.nameEn}`),
   };
   const out = (basket: Basket | null, excludeReason?: ExcludeReason, passDays = 1): Classified => ({
     ...base,

@@ -1,9 +1,11 @@
 import { describe, expect, it } from 'vitest';
 import { attractionOptions } from '../../src/core/attractions';
+import { classify } from '../../src/core/classify';
 import { estimateTrip } from '../../src/core/estimate';
 import { priceGuide } from '../../src/core/price-guide';
 import type { TripInput } from '../../src/core/types';
 import { cityById, samples } from '../../src/data';
+import { sample } from './fixtures';
 
 const trip = (cityId: string, over: Partial<TripInput> = {}): TripInput => ({
   cityId, visitDate: '2026-11-04', nights: 3, adults: 2, children: 0, style: 'standard', ...over,
@@ -80,5 +82,22 @@ describe('현지 물가 한눈에', () => {
     expect(rows.pass!.sufficient).toBe(false);
     expect(rows.pass!.max).toBe(1000);
     expect(rows.snack).toBeUndefined(); // 표본이 없으면 줄 자체가 없다
+  });
+
+  it('나이·학년으로 적은 아동 요금도 아동으로, "성인" 표기가 있으면 나이 범위가 있어도 성인으로 본다', () => {
+    const aud = (target: string, nameKo = '입장권', nameEn = 'Admission') =>
+      classify(sample({ category: 'attraction', subtype: '박물관', unit: '1인', target, nameKo, nameEn })).audience;
+    expect(aud('만 15세 이하')).toBe('child');
+    expect(aud('중학생 이하')).toBe('child');
+    expect(aud('10세 미만 (성인 동반)')).toBe('child');
+    expect(aud('일반', '입장권', 'Free Admission (Under 10)')).toBe('child');
+    expect(aud('성인(15세 이상, 고등학생 이상)')).toBe('adult');
+    expect(aud('일반 만 25-64세', '성산일출봉 유료관람권 (성인)')).toBe('adult');
+    expect(aud('만 3세 이상')).toBe('adult');
+  });
+
+  it('시작가만 게시된 요금은 시작가로 표시한다', () => {
+    const opt = attractionOptions(city('tokyo'), samples).find((o) => o.id === 'TYO-AT-006');
+    expect(opt?.adult.fromPrice).toBe(true);
   });
 });

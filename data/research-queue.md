@@ -1,6 +1,6 @@
 # 조사 요청 목록 (자동 생성)
 
-> `npm run data:convert` 가 `travel_cost_research_pilot_v0.8_2026-10-03.xlsx` (v0.8) 로부터 만든 파일입니다. 직접 고치지 마세요.
+> `npm run data:convert` 가 `travel_cost_research_pilot_v0.9a_2026-10-03.xlsx` (v0.9a) 로부터 만든 파일입니다. 직접 고치지 마세요.
 > 기준: 바스켓마다 **독립 표본 3건 이상**(같은 출처·같은 상품의 용량·기간·요일 변형, 같은 명소의 관람 옵션은 1건).
 > 수치는 가격 원장과 계산 코드로 다시 만든 것입니다. 엑셀의 "도시 초안"·"다음 조사 큐" 시트 수치는 쓰지 않습니다(작성 시점이 달라 오래된 값이 있을 수 있음).
 
@@ -80,6 +80,32 @@
 | SHA-AT-005 | 상하이 | 상하이 천문관 성인 입장권 | 30 CNY | B | 예 | B등급 | [Shanghai Municipal People's Government](https://www.shanghai.gov.cn/pudong/index.html) |
 | SHA-AT-006 | 상하이 | 상하이 자연박물관 1.3m 이하 또는 만 6세 이하 무료 | 0 CNY | B | 예 | B등급 | [Shanghai Natural History Museum](https://www.snhm.org.cn/cgfw/cgzx.htm) |
 | SHA-AT-009 | 상하이 | 상하이 천문관 1.3m 이하 또는 만 6세 이하 무료 | 0 CNY | B | 예 | B등급 | [Shanghai Municipal People's Government](https://www.shanghai.gov.cn/pudong/index.html) |
+| TYO-AT-006 | 도쿄 | 팀랩 플래닛 입장 패스(성인, 공식 최저 게시가) | 3800 JPY | A | 예 | 시작가 표기 | [teamLab Planets / DMM Official Ticket Store](https://teamlabplanets.dmm.com/en?dmmref=lp&i3_ref=cm2020) |
+| TYO-AT-008 | 도쿄 | 신주쿠 교엔 일반 입장권 | 500 JPY | B | 예 | B등급 | [Ministry of the Environment, Japan](https://policies.env.go.jp/national-garden/shinjukugyoen/english/guide/information/) |
+| TYO-AT-009 | 도쿄 | 하마리큐 은사정원 일반 입장권 | 300 JPY | B | 예 | B등급 | [Tokyo Metropolitan Park Association](https://www.tokyo-park.or.jp/park/hama-rikyu/index.html) |
+| TYO-AT-010 | 도쿄 | 우에노 동물원 일반 입장권 | 600 JPY | B | 예 | B등급 | [Tokyo Zoological Park Society](https://www.tokyo-zoo.net/en/ueno/visitor-info/tickets/index.html) |
+| TYO-AT-011 | 도쿄 | 국립서양미술관 상설전시 입장권 | 500 JPY | B | 예 | B등급 | [The National Museum of Western Art](https://www.nmwa.go.jp/en/visit/index.html) |
+| TYO-AT-012 | 도쿄 | 도쿄도청 전망실 | 0 JPY | B | 예 | B등급 | [Tokyo Metropolitan Government](https://www.english.metro.tokyo.lg.jp/w/000-101-000542) |
+| TYO-AT-014 | 도쿄 | 도쿄 디즈니랜드 1데이 패스포트(아동, 2026년 10월 최저 게시가) | 5300 JPY | A | 예 | 시작가 표기 | [Tokyo Disney Resort](https://www.tokyodisneyresort.jp/en/ticket/index/202610/) |
+| TYO-AT-018 | 도쿄 | 신주쿠 교엔 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Ministry of the Environment, Japan](https://policies.env.go.jp/national-garden/shinjukugyoen/english/guide/information/) |
+| TYO-AT-019 | 도쿄 | 하마리큐 은사정원 초등학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Tokyo Metropolitan Park Association](https://www.tokyo-park.or.jp/park/hama-rikyu/index.html) |
+| TYO-AT-020 | 도쿄 | 우에노 동물원 12세 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Tokyo Zoological Park Society](https://www.tokyo-zoo.net/en/ueno/visitor-info/tickets/index.html) |
+| TYO-AT-021 | 도쿄 | 국립서양미술관 상설전시 18세 미만 무료 입장 | 0 JPY | B | 예 | B등급 | [The National Museum of Western Art](https://www.nmwa.go.jp/en/visit/index.html) |
+| OSA-AT-004 | 오사카 | 오사카성 박물관 천수각 입장권 | 1200 JPY | B | 예 | B등급 | [Osaka Castle Museum](https://www.osakacastle.net/guide/?lang=en) |
+| OSA-AT-007 | 오사카 | 오사카 역사박물관 상설전시 입장권 | 600 JPY | B | 예 | B등급 | [Osaka Museum of History](https://www.osakamushis.jp/eng/index.html) |
+| OSA-AT-010 | 오사카 | 오사카 시립미술관 기획전시 일반 입장권 | 500 JPY | B | 예 | B등급 | [Osaka City Museum of Fine Arts](https://www.osaka-art-museum.jp/information) |
+| OSA-AT-011 | 오사카 | 오사카성 공원 입장 | 0 JPY | B | 예 | B등급 | [Osaka Castle Park Center](https://www.osakacastlepark.jp/images/flowers/flowermap/flowermap5/map2026.pdf) |
+| OSA-AT-013 | 오사카 | 오사카성 니시노마루 정원 입장권 | 300 JPY | B | 예 | B등급 | [Osaka Castle Park Center](https://www.osakacastlepark.jp/articles/detail.html?id=3) |
+| OSA-AT-014 | 오사카 | 오사카성 박물관 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Osaka Castle Museum](https://www.osakacastle.net/guide/?lang=en) |
+| OSA-AT-018 | 오사카 | 오사카 역사박물관 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Osaka Museum of History](https://www.osakamushis.jp/eng/index.html) |
+| OSA-AT-023 | 오사카 | 오사카 시립미술관 기획전시 고등학생·대학생 입장권 | 200 JPY | B | 예 | B등급 | [Osaka City Museum of Fine Arts](https://www.osaka-art-museum.jp/information) |
+| OSA-AT-024 | 오사카 | 오사카 시립미술관 기획전시 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Osaka City Museum of Fine Arts](https://www.osaka-art-museum.jp/information) |
+| OSA-AT-026 | 오사카 | 오사카성 니시노마루 정원 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Osaka Castle Park Center](https://www.osakacastlepark.jp/articles/detail.html?id=3) |
+| BKK-AT-009 | 방콕 | 방콕 국립박물관 외국인 개인 입장권 | 200 THB | B | 예 | B등급 | [Fine Arts Department, Ministry of Culture](https://www.finearts.go.th/museumnationalgallery/view/10005-%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8A%E0%B8%B5%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%A1%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4) |
+| BKK-AT-010 | 방콕 | 방콕 국립미술관 외국인 개인 입장권 | 200 THB | B | 예 | B등급 | [Fine Arts Department, Ministry of Culture](https://www.finearts.go.th/museumnationalgallery/view/10005-%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8A%E0%B8%B5%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%A1%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%97%E0%B%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4) |
+| BKK-AT-013 | 방콕 | 방콕 플라네타리움 성인 입장권 | 50 THB | B | 예 | B등급 | [Science Centre for Education, Thailand](https://sciplanet.org/wp-content/uploads/2026/01/%E0%B8%AD-%E0%B9%80%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A-21-%E0%B8%A1.%E0%B8%84.69-%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%A1-2569-%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B8%E0%B8%94.pdf) |
+| BKK-AT-014 | 방콕 | 방콕 플라네타리움 어린이 입장권 | 30 THB | B | 예 | B등급 | [Science Centre for Education, Thailand](https://sciplanet.org/wp-content/uploads/2026/01/%E0%B8%AD-%E0%B9%80%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A-21-%E0%B8%A1.%E0%B8%84.69-%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%A1-2569-%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B8%E0%B8%94.pdf) |
+| BKK-AT-016 | 방콕 | 룸피니 공원 입장 | 0 THB | B | 예 | B등급 | [Bangkok Metropolitan Administration, Greener Bangkok](https://greener.bangkok.go.th/en/park/suan-lumpini/) |
 | BCN-FD-101 | 바르셀로나 | 바르사 카페 점심 메뉴 | 23.95 EUR | A | 예 | 재검증 | [FC Barcelona Barca Cafe](https://www.fcbarcelona.es/es/entradas/camp-nou-experience/planifica-tu-visita/2554523/barca-cafe) |
 | BCN-FD-102 | 바르셀로나 | 아네마 에 코레 점심 세트 | 14.9 EUR | A | 예 | 재검증 | [Restaurante Anema e Core Barcelona](https://www.anemaecorebcn.es/en/menus_grupo) |
 | BCN-FD-103 | 바르셀로나 | 아네마 에 코레 피자 점심 세트 | 12.9 EUR | A | 예 | 재검증 | [Restaurante Anema e Core Barcelona](https://www.anemaecorebcn.es/en/menus_grupo) |

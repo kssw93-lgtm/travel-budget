@@ -78,13 +78,20 @@ function AttractionTable({ guide, display, rates }: { guide: ReturnType<typeof c
   const { t, lang } = useI18n();
   const g = t.cityGuide;
   const hasChild = guide.attractions.some((o) => o.child);
-  const price = (s: PriceSample) =>
+  const price = (s: PriceSample, from = false, variable = false) =>
     s.max === 0 ? (
       g.free
     ) : (
       <>
         <RangeText range={{ min: s.min, max: s.max }} currency={s.currency} />
+        {from && ` ${g.fromPrice}`}
         <Converted range={{ min: s.min, max: s.max }} from={s.currency} to={display} rates={rates} />
+        {variable && (
+          <>
+            {' '}
+            <small className="muted">{g.variable}</small>
+          </>
+        )}
       </>
     );
   return (
@@ -109,8 +116,8 @@ function AttractionTable({ guide, display, rates }: { guide: ReturnType<typeof c
               return (
                 <tr key={o.id} data-attraction={o.id}>
                   <th scope="row">{lang === 'ko' ? s.nameKo : s.nameEn}</th>
-                  <td data-label={g.adult}>{price(s)}</td>
-                  {hasChild && <td data-label={g.child}>{o.child ? price(o.child.sample) : <span className="muted">—</span>}</td>}
+                  <td data-label={g.adult}>{price(s, o.adult.fromPrice, o.variable)}</td>
+                  {hasChild && <td data-label={g.child}>{o.child ? price(o.child.sample, o.child.fromPrice) : <span className="muted">—</span>}</td>}
                   <td data-label={g.source}>
                     <ExternalLink href={s.sourceUrl}>{s.sourceName}</ExternalLink> <small className="muted">{s.checkedAt}</small>
                   </td>

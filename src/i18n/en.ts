@@ -124,6 +124,8 @@ export const en: Messages = {
     place: 'Attraction',
     adult: 'Adult',
     child: 'Child',
+    fromPrice: 'and up',
+    variable: '(varies by date)',
     free: 'Free',
     source: 'Source · checked',
     cta: 'Calculate for my trip',

@@ -3,7 +3,7 @@
     "counts": {
       "food": 3,
       "transport": 3,
-      "attraction": 3,
+      "attraction": 11,
       "souvenir": 3
     },
     "baskets": {
@@ -12,7 +12,7 @@
       "meal": 3,
       "snack": 0,
       "drink": 3,
-      "attraction": 3,
+      "attraction": 11,
       "souvenir": 3
     },
     "basketRows": {
@@ -21,7 +21,7 @@
       "meal": 3,
       "snack": 0,
       "drink": 3,
-      "attraction": 3,
+      "attraction": 11,
       "souvenir": 4
     },
     "fillRate": 1,
@@ -32,7 +32,7 @@
     "counts": {
       "food": 5,
       "transport": 3,
-      "attraction": 3,
+      "attraction": 10,
       "souvenir": 3
     },
     "baskets": {
@@ -41,7 +41,7 @@
       "meal": 5,
       "snack": 1,
       "drink": 2,
-      "attraction": 3,
+      "attraction": 10,
       "souvenir": 3
     },
     "basketRows": {
@@ -50,7 +50,7 @@
       "meal": 5,
       "snack": 1,
       "drink": 2,
-      "attraction": 3,
+      "attraction": 10,
       "souvenir": 4
     },
     "fillRate": 1,
@@ -61,7 +61,7 @@
     "counts": {
       "food": 3,
       "transport": 3,
-      "attraction": 3,
+      "attraction": 11,
       "souvenir": 4
     },
     "baskets": {
@@ -70,7 +70,7 @@
       "meal": 3,
       "snack": 0,
       "drink": 3,
-      "attraction": 3,
+      "attraction": 11,
       "souvenir": 4
     },
     "basketRows": {
@@ -79,7 +79,7 @@
       "meal": 3,
       "snack": 0,
       "drink": 3,
-      "attraction": 3,
+      "attraction": 11,
       "souvenir": 4
     },
     "fillRate": 1,
@@ -438,7 +438,7 @@
     "counts": {
       "food": 5,
       "transport": 3,
-      "attraction": 4,
+      "attraction": 6,
       "souvenir": 3
     },
     "baskets": {
@@ -447,7 +447,7 @@
       "meal": 5,
       "snack": 3,
       "drink": 3,
-      "attraction": 4,
+      "attraction": 6,
       "souvenir": 3
     },
     "basketRows": {
@@ -456,7 +456,7 @@
       "meal": 5,
       "snack": 3,
       "drink": 3,
-      "attraction": 4,
+      "attraction": 6,
       "souvenir": 3
     },
     "fillRate": 1,

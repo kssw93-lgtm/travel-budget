@@ -30,6 +30,7 @@
 | 파리 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 런던 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 런던 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 서울 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 부산 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 제주 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -55,6 +56,30 @@
 | PAR-FD-001 | 파리 | 부용 샤르티에 메인 시작가 | 7 EUR | A | 조건부 | 조건부, 시작가 표기 | [Bouillon Chartier](https://www.bouillon-chartier.com/chartier_medias/2025/10/Anglais.pdf) |
 | LON-AT-005 | 런던 | 대영박물관 상설 관람 | 0 GBP | A | 예 | 재검증 | [British Museum](https://www.britishmuseum.org/visit) |
 | DAD-AT-004 | 다낭 | 다낭 참조각박물관 일반 입장권 | 60000 VND | A | 예 | 검수: 원문 미확인 | [Da Nang Museum of Cham Sculpture](https://chammuseum.vn/view.aspx?ID=45) |
+| BCN-FD-101 | 바르셀로나 | 바르사 카페 점심 메뉴 | 23.95 EUR | A | 예 | 재검증 | [FC Barcelona Barca Cafe](https://www.fcbarcelona.es/es/entradas/camp-nou-experience/planifica-tu-visita/2554523/barca-cafe) |
+| BCN-FD-102 | 바르셀로나 | 아네마 에 코레 점심 세트 | 14.9 EUR | A | 예 | 재검증 | [Restaurante Anema e Core Barcelona](https://www.anemaecorebcn.es/en/menus_grupo) |
+| BCN-FD-103 | 바르셀로나 | 아네마 에 코레 피자 점심 세트 | 12.9 EUR | A | 예 | 재검증 | [Restaurante Anema e Core Barcelona](https://www.anemaecorebcn.es/en/menus_grupo) |
+| BCN-FD-104 | 바르셀로나 | 7 포르테스 전통 해산물 파에야 | 29.8 EUR | A | 예 | 재검증 | [Restaurant 7 Portes](https://7portes.com/en/restaurant-7-portes-menu/) |
+| BCN-FD-105 | 바르셀로나 | 티비다보 바 피라타 슈퍼프랑크푸르트 | 10.95 EUR | A | 예 | 재검증 | [Tibidabo Bar Piratta](https://tibidabo.cat/sites/default/files/2026-04/Bar%20Piratta%20(Carta%20web%202026)%20(CAT).pdf) |
+| BCN-FD-201 | 바르셀로나 | 킹 커피 미니 크루아상 | 2 EUR | A | 예 | 재검증 | [King Coffee Barcelona](https://kingcoffee.es/es_es/) |
+| BCN-FD-202 | 바르셀로나 | 킹 커피 크림치즈 크루아상 | 3.75 EUR | A | 예 | 재검증 | [King Coffee Barcelona](https://kingcoffee.es/es_es/) |
+| BCN-FD-203 | 바르셀로나 | 킹 커피 에스프레소 | 1.6 EUR | A | 예 | 재검증 | [King Coffee Barcelona](https://kingcoffee.es/es_es/) |
+| BCN-FD-204 | 바르셀로나 | 킹 커피 카페 콘 레체 | 1.95 EUR | A | 예 | 재검증 | [King Coffee Barcelona](https://kingcoffee.es/es_es/) |
+| BCN-FD-205 | 바르셀로나 | 킹 커피 카푸치노 | 3.2 EUR | A | 예 | 재검증 | [King Coffee Barcelona](https://kingcoffee.es/es_es/) |
+| BCN-TR-001 | 바르셀로나 | 지하철 단일 승차권 | 2.9 EUR | A | 예 | 재검증 | [TMB Transports Metropolitans de Barcelona](https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares) |
+| BCN-TR-002 | 바르셀로나 | 버스 단일 승차권 | 2.9 EUR | A | 예 | 재검증 | [TMB Transports Metropolitans de Barcelona](https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares) |
+| BCN-TR-003 | 바르셀로나 | 트램 단일 승차권 | 2.9 EUR | A | 예 | 재검증 | [TMB Transports Metropolitans de Barcelona](https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares) |
+| BCN-TR-004 | 바르셀로나 | T-dia 1일 무제한 승차권 | 12 EUR | A | 예 | 재검증 | [TMB Transports Metropolitans de Barcelona](https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares) |
+| BCN-FD-008 | 바르셀로나 | 가라지 바 스페인 와인 1잔 | 6 EUR | A | 예 | 재검증 | [Garage Bar Barcelona](https://garagebar.cat/natural-wines-menu3/) |
+| BCN-FD-009 | 바르셀로나 | 카사 모리츠 와인 상그리아 1잔 | 5.75 EUR | A | 예 | 재검증 | [Casa Moritz Barcelona](https://casamoritz.cat/wp-content/uploads/2025/09/AF-CM_CARTES-BEGUDES_JUN25_ENG_compressed.pdf) |
+| BCN-SV-001 | 바르셀로나 | FC 바르셀로나 키링 | 12.99 EUR | A | 예 | 재검증 | [FC Barcelona Official Store](https://store.fcbarcelona.com/collections/souvenirs) |
+| BCN-SV-002 | 바르셀로나 | FC 바르셀로나 머그컵 | 24.99 EUR | A | 예 | 재검증 | [FC Barcelona Official Store](https://store.fcbarcelona.com/collections/souvenirs) |
+| BCN-SV-003 | 바르셀로나 | FC 바르셀로나 초콜릿 | 19.99 EUR | A | 예 | 재검증 | [FC Barcelona Official Store](https://store.fcbarcelona.com/collections/souvenirs) |
+| BCN-AT-001 | 바르셀로나 | 사그라다 파밀리아 기본 입장권 | 26 EUR | A | 예 | 재검증 | [Sagrada Familia Official Website](https://sagradafamilia.org/en/prices) |
+| BCN-AT-002 | 바르셀로나 | 사그라다 파밀리아 탑 포함 입장권 | 36 EUR | A | 예 | 재검증 | [Sagrada Familia Official Website](https://sagradafamilia.org/en/prices) |
+| BCN-AT-003 | 바르셀로나 | 구엘 공원 일반 입장권 | 18 EUR | A | 예 | 재검증 | [Park Guell Official Website](https://parkguell.barcelona/en/planning-your-visit/prices-and-times) |
+| BCN-AT-004 | 바르셀로나 | 카사 밀라 라 페드레라 일반 입장권 | 29~35 EUR | A | 예 | 재검증 | [La Pedrera Official Website](https://www.lapedrera.com/en/tickets/) |
+| BCN-AT-005 | 바르셀로나 | 카사 바트요 일반 입장권 | 29~37 EUR | A | 예 | 재검증 | [Casa Batllo Official Website](https://www.casabatllo.es/en/online-tickets/) |
 | PUS-TR-001 | 부산 | 부산 도시철도 1구간 (교통카드) | 1600 KRW | A | 예 | 재검증 | [부산교통공사](https://www.humetro.busan.kr/default/main.do) |
 | PUS-TR-002 | 부산 | 부산 도시철도 2구간 (교통카드) | 1800 KRW | A | 예 | 재검증 | [부산교통공사](https://www.humetro.busan.kr/default/main.do) |
 | PUS-TR-003 | 부산 | 부산 시내버스 일반 (교통카드) | 1550 KRW | A | 예 | 재검증 | [부산광역시 버스정보관리시스템](https://bus.busan.go.kr/) |

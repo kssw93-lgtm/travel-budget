@@ -231,6 +231,35 @@
     "missing": [],
     "computable": true
   },
+  "barcelona": {
+    "counts": {
+      "food": 5,
+      "transport": 3,
+      "attraction": 4,
+      "souvenir": 3
+    },
+    "baskets": {
+      "pass": 1,
+      "ride": 3,
+      "meal": 5,
+      "snack": 5,
+      "drink": 2,
+      "attraction": 4,
+      "souvenir": 3
+    },
+    "basketRows": {
+      "pass": 1,
+      "ride": 3,
+      "meal": 5,
+      "snack": 5,
+      "drink": 2,
+      "attraction": 5,
+      "souvenir": 3
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "seoul": {
     "counts": {
       "food": 5,

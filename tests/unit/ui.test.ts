@@ -62,13 +62,13 @@ describe('한/영 문구', () => {
 });
 
 describe('가격 데이터 무결성', () => {
-  it('선택 가능한 도시는 1차 도시(해외 8 + 국내 3)이고 모든 표본이 (공개 전 도시 포함) 도시에 연결된다', () => {
-    expect(cities.map((c) => c.id).sort()).toEqual(['bangkok', 'busan', 'da-nang', 'jeju', 'london', 'osaka', 'paris', 'seoul', 'singapore', 'taipei', 'tokyo']);
+  it('선택 가능한 도시는 1차 도시(해외 9 + 국내 3)이고 모든 표본이 (공개 전 도시 포함) 도시에 연결된다', () => {
+    expect(cities.map((c) => c.id).sort()).toEqual(['bangkok', 'barcelona', 'busan', 'da-nang', 'jeju', 'london', 'osaka', 'paris', 'seoul', 'singapore', 'taipei', 'tokyo']);
     for (const s of samples) expect(allCities.some((c) => c.id === s.cityId && c.currency === s.currency)).toBe(true);
   });
   it('1차 화면에는 파일럿 도시만 노출하고 2차 이후 도시는 숨긴다', () => {
     expect(allCities.length).toBeGreaterThan(cities.length);
-    expect(cities).toHaveLength(11);
+    expect(cities).toHaveLength(12);
     expect(cities.every((c) => c.stage === PILOT_STAGE)).toBe(true);
     expect(cities.some((c) => c.id === 'fukuoka')).toBe(false);
   });

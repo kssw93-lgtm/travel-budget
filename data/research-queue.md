@@ -1,6 +1,6 @@
 # 조사 요청 목록 (자동 생성)
 
-> `npm run data:convert` 가 `travel_cost_research_pilot_v0.7.1_2026-10-03.xlsx` (v0.7.1) 로부터 만든 파일입니다. 직접 고치지 마세요.
+> `npm run data:convert` 가 `travel_cost_research_pilot_v0.8_2026-10-03.xlsx` (v0.8) 로부터 만든 파일입니다. 직접 고치지 마세요.
 > 기준: 바스켓마다 **독립 표본 3건 이상**(같은 출처·같은 상품의 용량·기간·요일 변형, 같은 명소의 관람 옵션은 1건).
 > 수치는 가격 원장과 계산 코드로 다시 만든 것입니다. 엑셀의 "도시 초안"·"다음 조사 큐" 시트 수치는 쓰지 않습니다(작성 시점이 달라 오래된 값이 있을 수 있음).
 
@@ -71,6 +71,7 @@
 | IST-AT-010 | 이스탄불 | Dolmabahçe Sarayı 0–6세 무료 입장 | 0 TRY | B | 예 | B등급 | [Millî Saraylar](https://millisaraylar.gov.tr/Lokasyon/3/Dolmabahce-Sarayi) |
 | IST-AT-011 | 이스탄불 | Beylerbeyi Sarayı 0–6세 무료 입장 | 0 TRY | B | 예 | B등급 | [Millî Saraylar](https://millisaraylar.gov.tr/Lokasyon/4/Beylerbeyi-Sarayi) |
 | IST-AT-012 | 이스탄불 | Yıldız Sarayı 0–6세 무료 입장 | 0 TRY | B | 예 | B등급 | [Millî Saraylar](https://www.millisaraylar.gov.tr/Lokasyon/5/Yildiz-Sarayi?culture=en) |
+| IST-AT-014 | 이스탄불 | 예레바탄 사르느즈 주간 외국인 입장권 | 1950 TRY | B | 예 | B등급 | [KÜLTÜR.İSTANBUL](https://kultur.istanbul/yerebatan-sarnici-muzesi/) |
 | SHA-TR-001 | 상하이 | 상하이 지하철 기본운임 0~6km | 3 CNY | B | 예 | B등급 | [上海市发展和改革委员会](https://fgw.sh.gov.cn/fgw_zcjd/20260819/546a7d3b27914f4db2e81fdc0510b164.html) |
 | SHA-TR-002 | 상하이 | 상하이 일반 시내버스 편도 | 2 CNY | B | 예 | B등급 | [Shanghai Municipal Government](https://english.shanghai.gov.cn/en-Transportation/20240102/44f499a17b324b25996f2d58fcbf5f23.html) |
 | SHA-TR-003 | 상하이 | 황푸강 페리 보행자 편도 | 2 CNY | B | 예 | B등급 | [Shanghai Municipal Administration of Culture and Tourism](https://cmp.whlyj.sh.gov.cn/CMPEN/trf_init.ac?type=2) |

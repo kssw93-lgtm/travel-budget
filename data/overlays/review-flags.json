@@ -23,5 +23,23 @@
     "flagEn": "source needs checking",
     "detail": "2026-10-03 Claude 검토: 출처 주소(oldchangkee.com/dipngo.com.sg/...) 형식이 비정상. 공식 메뉴 페이지 재확인 필요.",
     "reportedAt": "2026-10-03"
+  },
+  "LON-FD-951": {
+    "flag": "출처 확인 필요",
+    "flagEn": "source needs checking",
+    "detail": "2026-10-03 Claude 검토: 출처가 펍 찾기(지점 목록) 페이지라 맥주 가격이 실제로 적혀 있는지 의심됨. 개별 펍 메뉴에서 재확인 필요.",
+    "reportedAt": "2026-10-03"
+  },
+  "LON-FD-952": {
+    "flag": "출처 확인 필요",
+    "flagEn": "source needs checking",
+    "detail": "2026-10-03 Claude 검토: 출처가 펍 찾기(지점 목록) 페이지라 맥주 가격이 실제로 적혀 있는지 의심됨. 개별 펍 메뉴에서 재확인 필요.",
+    "reportedAt": "2026-10-03"
+  },
+  "LON-FD-953": {
+    "flag": "출처 확인 필요",
+    "flagEn": "source needs checking",
+    "detail": "2026-10-03 Claude 검토: 출처가 펍 찾기(지점 목록) 페이지라 맥주 가격이 실제로 적혀 있는지 의심됨. 개별 펍 메뉴에서 재확인 필요.",
+    "reportedAt": "2026-10-03"
   }
 }

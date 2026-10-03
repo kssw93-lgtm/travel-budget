@@ -119,6 +119,29 @@
 | SIN-FD-903 | 싱가포르 | 올드창키 커리퍼프 | 2.2 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [Old Chang Kee](https://www.oldchangkee.com/dipngo.com.sg/menu.html) |
 | SIN-SV-901 | 싱가포르 | 올드창키 커리퍼프 10개 상자 | 22 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [Old Chang Kee](https://www.oldchangkee.com/dipngo.com.sg/menu.html) |
 | PAR-SV-901 | 파리 | 루브르 사모트라케의 니케 마그넷 | 4.9 EUR | A | 예 | 재검증 | [Louvre Official Boutique](https://boutique.louvre.fr/en/product/19430-magnet-victory-of-samothrace.html) |
+| TYO-FD-951 | 도쿄 | 생맥주 아사히 슈퍼드라이·기린 하트랜드 (호텔 레스토랑) | 1000 JPY | A | 예 | 재검증 | [Hotel Metropolitan Edmont Tokyo Beltempo](https://edmont-tokyo.hotel-metropolitan.com/restaurant/list/beltempo/index.html) |
+| TYO-FD-952 | 도쿄 | 생맥주 프리미엄 몰츠 (와카도리 마루노우치) | 630 JPY | C | 조건부 | C등급, 조건부, 재검증 | [Wakadori Marunouchi (restaurants-guide.tokyo)](https://restaurants-guide.tokyo/restaurants/drink/?id=95) |
+| TYO-FD-953 | 도쿄 | 브루클린 라거 레귤러 (게이오 플라자 호텔) | 1850 JPY | A | 예 | 재검증, 세금·서비스료 별도 | [Keio Plaza Hotel Aurora](https://www.keioplaza.co.jp/en/restaurant/list/aurora/) |
+| OSA-FD-951 | 오사카 | 프리미엄 몰츠 향기로운 에일 생맥주 소 | 550 JPY | A | 예 | 재검증 | [Shinsaibashi Kagura](https://www.kaguraosaka.com/en/menu/tabs/UQRGHn9cYQdfrsVJZDLa/) |
+| OSA-FD-952 | 오사카 | 프리미엄 몰츠 중병 | 850 JPY | A | 예 | 재검증 | [Shinsaibashi Kagura](https://www.kaguraosaka.com/en/menu/tabs/UQRGHn9cYQdfrsVJZDLa/) |
+| BKK-FD-951 | 방콕 | 창 클래식 맥주 330ml (루프톱 바) | 240 THB | A | 예 | 재검증 | [Rooftop Bar Sala Hospitality](https://www.salahospitality.com/rattanakosin-bangkok/wp-content/uploads/sites/4/2025/12/Rooftop-Bar-Drink-Menu-DEC.pdf) |
+| BKK-FD-952 | 방콕 | 싱하 맥주 320ml (루프톱 바) | 240 THB | A | 예 | 재검증 | [Rooftop Bar Sala Hospitality](https://www.salahospitality.com/rattanakosin-bangkok/wp-content/uploads/sites/4/2025/12/Rooftop-Bar-Drink-Menu-DEC.pdf) |
+| BKK-FD-953 | 방콕 | 하이네켄 320ml (루프톱 바) | 240 THB | A | 예 | 재검증 | [Rooftop Bar Sala Hospitality](https://www.salahospitality.com/rattanakosin-bangkok/wp-content/uploads/sites/4/2025/12/Rooftop-Bar-Drink-Menu-DEC.pdf) |
+| DAD-FD-951 | 다낭 | 후다 생맥주 소 | 25000 VND | A | 예 | 재검증 | [The Mad Den Irish Bar Da Nang](https://themaddenirishbardanang.com/menu/) |
+| DAD-FD-952 | 다낭 | 산미구엘 생맥주 대 | 50000 VND | A | 예 | 재검증 | [The Mad Den Irish Bar Da Nang](https://themaddenirishbardanang.com/menu/) |
+| DAD-FD-953 | 다낭 | 이스트웨스트 퍼시픽 필스너 (루프톱) | 115000 VND | A | 예 | 재검증 | [The Roof Da Nang](https://www.theroofdanang.com/menu) |
+| TPE-FD-951 | 타이베이 | 아사히 맥주 (호텔 라운지) | 250 TWD | A | 예 | 재검증, 세금·서비스료 별도 | [Courtyard by Marriott Taipei Lobby Lounge](https://www.courtyardtaipei.com.tw/uploads/restaurant_menu_pdf/39/5bf94d51756936d36a6a847dcbb71c97.pdf) |
+| TPE-FD-952 | 타이베이 | 코로나 맥주 (호텔 라운지) | 250 TWD | A | 예 | 재검증, 세금·서비스료 별도 | [Courtyard by Marriott Taipei Lobby Lounge](https://www.courtyardtaipei.com.tw/uploads/restaurant_menu_pdf/39/5bf94d51756936d36a6a847dcbb71c97.pdf) |
+| TPE-FD-953 | 타이베이 | 타이완 골드 맥주 (호텔 라운지) | 220 TWD | A | 예 | 재검증, 세금·서비스료 별도 | [Courtyard by Marriott Taipei Lobby Lounge](https://www.courtyardtaipei.com.tw/uploads/restaurant_menu_pdf/39/5bf94d51756936d36a6a847dcbb71c97.pdf) |
+| SIN-FD-951 | 싱가포르 | 하이네켄 (리퍼블릭 바) | 18 SGD | A | 예 | 재검증, 세금·서비스료 별도 | [Republic Bar Singapore](https://www.republicbar.com.sg/resourcefiles/pdf/republic-vol-4-menu.pdf) |
+| SIN-FD-952 | 싱가포르 | 아사히 (리퍼블릭 바) | 18 SGD | A | 예 | 재검증, 세금·서비스료 별도 | [Republic Bar Singapore](https://www.republicbar.com.sg/resourcefiles/pdf/republic-vol-4-menu.pdf) |
+| SIN-FD-953 | 싱가포르 | 타이거 (리퍼블릭 바) | 18 SGD | A | 예 | 재검증, 세금·서비스료 별도 | [Republic Bar Singapore](https://www.republicbar.com.sg/resourcefiles/pdf/republic-vol-4-menu.pdf) |
+| PAR-FD-951 | 파리 | 크로넨부르 1664 25cl | 6.9 EUR | A | 예 | 재검증 | [Le Do Ré Mi Paris](https://www.ledoremiparis.fr/en/menus/) |
+| PAR-FD-952 | 파리 | 브라스리 리프 블롱드 25cl | 7 EUR | A | 예 | 재검증 | [Brasserie Lipp](https://www.brasserielipp.fr/en/menus/) |
+| PAR-FD-953 | 파리 | 드모리 IPA 25cl | 6.9 EUR | A | 예 | 재검증 | [Le Do Ré Mi Paris](https://www.ledoremiparis.fr/en/menus/) |
+| LON-FD-951 | 런던 | 런던 프라이드 1파인트 (풀러스 펍) | 5.5 GBP | A | 예 | 재검증, 검수: 출처 확인 필요 | [Fuller's Pubs London](https://www.fullers.co.uk/pubs/pub-finder/london) |
+| LON-FD-952 | 런던 | 기네스 1파인트 (풀러스 펍) | 6.2 GBP | A | 예 | 재검증, 검수: 출처 확인 필요 | [Fuller's Pubs London](https://www.fullers.co.uk/pubs/pub-finder/london) |
+| LON-FD-953 | 런던 | 페로니 1파인트 (풀러스 펍) | 6 GBP | A | 예 | 재검증, 검수: 출처 확인 필요 | [Fuller's Pubs London](https://www.fullers.co.uk/pubs/pub-finder/london) |
 | SEL-TR-001 | 서울 | 서울 지하철 기본요금 (카드) | 1550 KRW | A | 예 | 재검증 | [서울교통공사](http://www.seoulmetro.co.kr/kr/page.do?menuIdx=354) |
 | SEL-TR-002 | 서울 | 서울 간선/지선버스 기본요금 (카드) | 1500 KRW | A | 예 | 재검증 | [서울특별시 대중교통 요금안내](https://news.seoul.go.kr/traffic/archives/508682) |
 | SEL-TR-003 | 서울 | 서울 순환/차등버스 기본요금 (카드) | 1400 KRW | A | 예 | 재검증 | [서울특별시 대중교통 요금안내](https://news.seoul.go.kr/traffic/archives/508682) |

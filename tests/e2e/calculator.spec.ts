@@ -316,15 +316,21 @@ test.describe('항목별 자세히 보기·음주', () => {
     await expect(page.locator('tr[data-category="food"] .cont')).toContainText('예비비 10%');
   });
 
-  test('음주 포함을 고르면 URL 에 남고, 주류 가격 자료가 없으면 금액 대신 안내한다', async ({ page }) => {
+  test('음주 포함을 고르면 URL 에 남고 외식비에 주류가 더해진다(주류 표본이 3건 미만이면 더하지 않고 알린다)', async ({ page }) => {
     await mockRates(page);
+    // 파리: 주류 독립 표본 3건 → 외식 합계가 늘고 자세히 보기에 주류 줄이 생긴다
     await page.goto('/?lang=ko&city=paris&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=EUR');
     await expect(page.getByTestId('rates-info')).toBeVisible();
-    const before = (await page.locator('tr[data-category="food"]').textContent()) ?? '';
+    const food = page.locator('tr[data-category="food"]');
+    const before = (await food.textContent()) ?? '';
     await page.getByLabel('음주 포함 (성인)').check();
     await expect(page).toHaveURL(/drink=1/);
-    await expect(page.getByTestId('drink-note')).toContainText('주류 가격 자료가 아직 없어');
-    await expect(page.locator('tr[data-category="food"]')).toHaveText(before);
+    await expect(food).not.toHaveText(before);
+    await expect(page.getByTestId('drink-note')).toHaveCount(0);
+    // 오사카: 주류 2건 → 합계에 넣지 않고 부족하다고 알린다
+    await page.goto('/?lang=ko&city=osaka&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=JPY&drink=1');
+    await page.locator('details.evidence > summary').click();
+    await expect(page.getByTestId('quality').locator('[data-category="food"]')).toContainText('주류은(는) 표본이 3건 미만');
   });
 });
 

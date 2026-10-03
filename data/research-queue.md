@@ -31,6 +31,7 @@
 | 런던 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 런던 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 로마 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 서울 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 부산 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 제주 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -173,6 +174,36 @@
 | TPE-FD-911 | 타이베이 | 광표우육면 홍소 우육면 | 169 TWD | C | 조건부 | C등급, 조건부, 재검증 | [광표우육면 (foodpanda)](https://www.foodpanda.com.tw/en/restaurant/sjcf/kuang-biao-niu-rou-mian) |
 | TPE-FD-912 | 타이베이 | 문가우육면 삼보 우육면 | 210 TWD | C | 조건부 | C등급, 조건부, 재검증 | [문가우육면 (foodpanda)](https://www.foodpanda.com.tw/restaurant/r2nr/wen-jia-niu-rou-mian) |
 | SIN-FD-911 | 싱가포르 | 맥도날드 빅맥 | 7.95 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [McDonald's Singapore](https://www.mcdonalds.com.sg/full-menu) |
+| ROM-TR-101 | 로마 | 로마 48시간권 | 15 EUR | A | 예 | 재검증 | [ATAC Roma](https://www.atac.roma.it/en/tickets-and-passes/birg) |
+| ROM-TR-102 | 로마 | 로마 72시간권 | 22 EUR | A | 예 | 재검증 | [ATAC Roma](https://www.atac.roma.it/en/tickets-and-passes/birg) |
+| ROM-TR-103 | 로마 | 트레니탈리아 지역열차 편도 성인 | 1.9~9 EUR | A | 예 | 재검증 | [Trenitalia](https://www.trenitalia.com/en/connections/regionale-trains.html) |
+| ROM-SV-101 | 로마 | 바티칸 박물관 공식 숍 아테네 학당 머그컵 | 9 EUR | A | 예 | 재검증 | [Vatican Museums Official Shop](https://shop.museivaticani.va/kkshop/QuickSearch.do) |
+| ROM-SV-102 | 로마 | 바티칸 박물관 공식 숍 시스티나 천장 퍼즐 540조각 | 15 EUR | A | 예 | 재검증 | [Vatican Museums Official Shop](https://shop.museivaticani.va/kkshop/ALTRI-PRODOTTI/Puzzle/Opera-Sillabe/Puzzle-540-Pezzi-%E2%80%93-Volta-Cappella-Sistina/E757/2_630.do) |
+| ROM-SV-103 | 로마 | 바티칸 박물관 공식 숍 2026 다이어리 | 10 EUR | A | 예 | 재검증 | [Vatican Museums Official Shop](https://shop.museivaticani.va/kkshop/Musei-Vaticani/Agenda-2026-Musei-Vaticani/E010/2_1539.do) |
+| ROM-TR-201 | 로마 | 트레니탈리아 로마 시내(Anello) 지역열차 1회권 | 1 EUR | A | 예 | 재검증 | [Trenitalia](https://www.trenitalia.com/content/dam/trenitalia/allegati/info/condizioni-generali-di-trasporto/parte-iii-trasporto-regionale/tariffe-14/Tariffa_14_RM.pdf) |
+| ROM-TR-001 | 로마 | BIT 통합 100분권 | 1.5 EUR | A | 예 | 재검증 | [ATAC Roma](https://www.atac.roma.it/en/tickets-and-passes/bit) |
+| ROM-TR-004 | 로마 | 로마 24시간권 | 8.5 EUR | A | 예 | 재검증 | [ATAC Roma](https://www.atac.roma.it/en/tickets-and-passes/birg) |
+| ROM-FD-101 | 로마 | 단테스 바 토마토 바질 파스타 | 8 EUR | C | 조건부 | C등급, 조건부, 재검증 | [Dante's Bar Caffe (quandoo)](https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu) |
+| ROM-FD-102 | 로마 | 카페 리페타 아마트리차나 | 10 EUR | C | 조건부 | C등급, 조건부, 재검증 | [Caffe Ripetta (quandoo)](https://www.quandoo.it/en/place/caffe-ripetta-95692/menu) |
+| ROM-FD-103 | 로마 | 단테스 바 피자 마르게리타 | 10 EUR | C | 조건부 | C등급, 조건부, 재검증 | [Dante's Bar Caffe (quandoo)](https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu) |
+| ROM-FD-104 | 로마 | 그란 카페 로시 마르티니 리가토니 카르보나라 | 15 EUR | C | 조건부 | C등급, 조건부, 재검증 | [Gran Caffe Rossi Martini (quandoo)](https://www.quandoo.it/en/place/gran-caffe-rossi-martini-48508/menu) |
+| ROM-FD-105 | 로마 | 단테스 바 고기 세트 메뉴 | 22 EUR | C | 조건부 | C등급, 조건부, 재검증 | [Dante's Bar Caffe (quandoo)](https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu) |
+| ROM-FD-201 | 로마 | 지올리티 젤라토 컵 | 3~3.5 EUR | A | 예 | 재검증, 검수: 출처 확인 필요 | [Giolitti](https://www.giolitti.it/en/) |
+| ROM-FD-202 | 로마 | 카페 참피니 에스프레소 | 1.2 EUR | C | 조건부 | C등급, 조건부, 재검증 | [Caffe Ciampini (quandoo)](https://www.quandoo.it/en/place/caffe-ciampini-21378/menu) |
+| ROM-FD-203 | 로마 | 카페 참피니 카푸치노 | 1.5 EUR | C | 조건부 | C등급, 조건부, 재검증 | [Caffe Ciampini (quandoo)](https://www.quandoo.it/en/place/caffe-ciampini-21378/menu) |
+| ROM-FD-301 | 로마 | 라 사피엔자 대학 바 병맥주 33cl | 2.05~3.1 EUR | A | 예 | 재검증 | [La Sapienza Bar Marco Polo](https://www.uniroma1.it/sites/default/files/user/531/listino_prezzi_bar_marco_polo.pdf) |
+| ROM-FD-302 | 로마 | 라 사피엔자 대학 바 레드 와인 1잔 | 2.2 EUR | A | 예 | 재검증 | [La Sapienza Bar Marco Polo](https://www.uniroma1.it/sites/default/files/user/531/listino_prezzi_bar_marco_polo.pdf) |
+| ROM-FD-303 | 로마 | 라 사피엔자 대학 바 프로세코 1잔 | 2.5 EUR | A | 예 | 재검증 | [La Sapienza Bar Marco Polo](https://www.uniroma1.it/sites/default/files/user/531/listino_prezzi_bar_marco_polo.pdf) |
+| ROM-AT-001 | 로마 | 콜로세움·포로 로마노·팔라티노 통합 입장권 | 16 EUR | A | 예 | 재검증, 검수: 요금 확인 필요 | [CoopCulture](https://www.coopculture.it/en/tickets/) |
+| ROM-AT-002 | 로마 | 바티칸 박물관·시스티나 성당 입장권 | 20~25 EUR | A | 예 | 재검증 | [Vatican Museums](https://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti.html) |
+| ROM-AT-004 | 로마 | 보르게세 미술관 입장권 | 15 EUR | A | 예 | 재검증 | [Galleria Borghese](https://galleriaborghese.beniculturali.it/en/) |
+| ROM-AT-005 | 로마 | 산탄젤로 성 입장권 | 12~16 EUR | A | 예 | 재검증 | [Castel Sant'Angelo](http://castelsantangelo.beniculturali.it/getFile.php?id=538) |
+| SEL-FD-101 | 서울 | 한솥 제육 비빔밥 | 6500 KRW | A | 예 | 재검증 | [HANSOT 한솥](https://en.hsd.co.kr/Menu) |
+| SEL-FD-102 | 서울 | 한솥 김치볶음밥 | 4400 KRW | A | 예 | 재검증 | [HANSOT 한솥](https://en.hsd.co.kr/Menu) |
+| SEL-FD-103 | 서울 | 골드참치 점심 코스 B | 35000 KRW | A | 예 | 재검증 | [Goldtuna 골드참치](https://www.goldtuna.co.kr/en) |
+| SEL-SV-101 | 서울 | 서울마이소울 리본 모자 | 49000 KRW | A | 예 | 재검증 | [서울특별시 (Seoul My Soul Shop)](https://english.seoul.go.kr/the-cap-with-2-7-million-views-on-japanese-social-media-seoul-merch-wins-over-international-visitors/) |
+| SEL-SV-102 | 서울 | 서울굿즈 쌀과자 4개 묶음 | 5450 KRW | A | 예 | 재검증 | [서울특별시 (Seoul My Soul Shop)](https://love.seoul.go.kr/articles/10473) |
+| SEL-SV-103 | 서울 | 서울굿즈 에코백 | 15000 KRW | A | 예 | 재검증 | [서울특별시 (Seoul My Soul Shop)](https://love.seoul.go.kr/articles/10473) |
 | SEL-FD-001 | 서울 | 이삭토스트 햄치즈 토스트 | 3300 KRW | C | 조건부 | C등급, 조건부, 재검증 | [이삭토스트 공식홈페이지](https://www.isaac-toast.co.kr/bbs/board.php?bo_table=menu) |
 | SEL-FD-002 | 서울 | 바르다김선생 바른 김밥 | 4500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [바르다김선생 공식홈페이지](https://www.teacherkim.co.kr/menu/view.php?idx=1) |
 | SEL-FD-003 | 서울 | 놀부부대찌개 (1인분) | 10500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [놀부부대찌개 공식홈페이지](https://www.nolboo.co.kr/brand/menu.asp?b_code=BUDAE) |

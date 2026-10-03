@@ -180,21 +180,21 @@
     "stage": "3차"
   },
   {
-    "id": "rome",
-    "country": "이탈리아",
-    "countryEn": "Italy",
-    "nameKo": "로마",
-    "nameEn": "Rome",
-    "currency": "EUR",
-    "tier": "C",
-    "stage": "3차"
-  },
-  {
     "id": "barcelona",
     "country": "스페인",
     "countryEn": "Spain",
     "nameKo": "바르셀로나",
     "nameEn": "Barcelona",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "rome",
+    "country": "이탈리아",
+    "countryEn": "Italy",
+    "nameKo": "로마",
+    "nameEn": "Rome",
     "currency": "EUR",
     "tier": "B",
     "stage": "파일럿"

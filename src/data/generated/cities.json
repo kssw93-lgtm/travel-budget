@@ -198,5 +198,35 @@
     "currency": "EUR",
     "tier": "C",
     "stage": "3차"
+  },
+  {
+    "id": "seoul",
+    "country": "한국",
+    "countryEn": "South Korea",
+    "nameKo": "서울",
+    "nameEn": "Seoul",
+    "currency": "KRW",
+    "tier": "A",
+    "stage": "국내 준비"
+  },
+  {
+    "id": "busan",
+    "country": "한국",
+    "countryEn": "South Korea",
+    "nameKo": "부산",
+    "nameEn": "Busan",
+    "currency": "KRW",
+    "tier": "A",
+    "stage": "국내 준비"
+  },
+  {
+    "id": "jeju",
+    "country": "한국",
+    "countryEn": "South Korea",
+    "nameKo": "제주",
+    "nameEn": "Jeju",
+    "currency": "KRW",
+    "tier": "A",
+    "stage": "국내 준비"
   }
 ]

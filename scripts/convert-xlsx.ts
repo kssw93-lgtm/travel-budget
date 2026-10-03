@@ -7,7 +7,7 @@
  * 사용: npm run data:convert [-- <xlsx 경로>]
  */
 import { createHash } from 'node:crypto';
-import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { basename, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as XLSX from 'xlsx';
@@ -68,6 +68,24 @@ function readTable(wb: XLSX.WorkBook, sheetName: string, anchor: string, optiona
     });
 }
 
+type Row = (h: string) => string;
+
+/**
+ * 엑셀 밖에서 받은 추가 자료(data/additions/<종류>-*.csv, 예: Gemini 수집분). 머리글은 엑셀 시트와 같다.
+ * 엑셀 원본은 건드리지 않고 변환할 때만 합친다.
+ */
+function additionRows(kind: 'cities' | 'prices' | 'foods' | 'memos', anchor: string, optional: string[] = []): Array<{ file: string; r: Row }> {
+  const dir = `${root}/data/additions`;
+  if (!existsSync(dir)) return [];
+  return readdirSync(dir)
+    .filter((f) => f.startsWith(`${kind}-`) && f.endsWith('.csv'))
+    .sort()
+    .flatMap((file) => {
+      const book = XLSX.read(readFileSync(`${dir}/${file}`, 'utf8').replace(/^\uFEFF/, ''), { type: 'string', raw: true });
+      return readTable(book, book.SheetNames[0]!, anchor, optional).map((r) => ({ file, r }));
+    });
+}
+
 const slug = (en: string) => en.toLowerCase().normalize('NFKD').replace(/[^\w\s-]/g, '').trim().replace(/\s+/g, '-');
 
 const isoDate = (v: string): string => {
@@ -94,7 +112,8 @@ function main() {
   const wb = XLSX.read(readFileSync(xlsxPath), { type: 'buffer', cellDates: true });
 
   // 도시
-  const cities: City[] = readTable(wb, '도시 우선순위', '순번').map((r) => {
+  const cityRows: Row[] = [...readTable(wb, '도시 우선순위', '순번'), ...additionRows('cities', '순번').map((x) => x.r)];
+  const cities: City[] = cityRows.map((r) => {
     const country = r('국가');
     if (!COUNTRY_EN[country]) notes.push(`국가 영문명 없음: ${country} (한글로 표시됩니다)`);
     return {
@@ -109,11 +128,16 @@ function main() {
     };
   });
   const cityByKo = new Map(cities.map((c) => [c.nameKo, c]));
+  if (cityByKo.size !== cities.length) errors.push('도시(한글) 이름 중복: 추가 자료의 도시가 엑셀에 이미 있음');
 
   // 가격 표본
   const samples: PriceSample[] = [];
   const extras: ExtraSample[] = [];
-  for (const r of readTable(wb, '가격 표본', 'ID')) {
+  const priceRows: Array<{ file: string; r: Row }> = [
+    ...readTable(wb, '가격 표본', 'ID').map((r) => ({ file: '', r })),
+    ...additionRows('prices', 'ID', ['비고']),
+  ];
+  for (const { file, r } of priceRows) {
     const id = r('ID');
     const cat = CATEGORY[r('카테고리')];
     const extra = EXTRA[r('카테고리')];
@@ -132,6 +156,16 @@ function main() {
     const currency = r('통화');
     if (currency !== city.currency) errors.push(`${id}: 통화 ${currency} ≠ 도시 통화 ${city.currency}`);
     const applied = r('적용/게시');
+    // 엑셀 밖 추가 자료는 한 곳에서만 수집된 값이므로, 교차 확인 전까지 '재검증'으로 표시한다(계산에는 쓰되 경고)
+    let status = r('상태');
+    let note = r('비고');
+    if (file) {
+      const quote = r('원문 인용');
+      if (!quote) errors.push(`${file} ${id}: '원문 인용'(페이지에 적힌 가격 문구)이 비어 있음`);
+      if (!/^https?:\/\//.test(r('출처 URL'))) errors.push(`${file} ${id}: 출처 URL 없음`);
+      if (!status.includes('재검증')) status = `${status} 재검증(교차 확인 전)`.trim();
+      note = [note, `원문: ${quote}`, `수집: ${file}`].filter(Boolean).join(' · ');
+    }
     const min = num(r('최소'), id);
     const max = num(r('최대'), id);
     if (min > max) errors.push(`${id}: 최소 > 최대`);
@@ -152,13 +186,13 @@ function main() {
       target: r('대상'),
       grade,
       modelUse: modelUse ?? 'no',
-      status: r('상태'),
+      status,
       checkedAt: isoDate(r('조회일')),
       applied,
       ...parseValidity(applied),
       sourceName: r('출처명'),
       sourceUrl: r('출처 URL'),
-      note: r('비고'),
+      note,
     };
     if (cat) samples.push(row);
     else {
@@ -218,7 +252,8 @@ function main() {
 
   // 음식 추천
   const overlay = JSON.parse(readFileSync(`${root}/data/overlays/food-reasons-en.json`, 'utf8')) as Record<string, string>;
-  const foods: FoodRecommendation[] = readTable(wb, '음식 추천', '국가').map((r) => {
+  const foodRows: Row[] = [...readTable(wb, '음식 추천', '국가'), ...additionRows('foods', '국가', ['비고', '연결 가격 ID']).map((x) => x.r)];
+  const foods: FoodRecommendation[] = foodRows.map((r) => {
     const city = cityByKo.get(r('도시'));
     if (!city) throw new Error(`음식 추천: 도시 '${r('도시')}'가 '도시 우선순위'에 없음`);
     const linked = r('연결 가격 ID').split(/[\s,;/]+/).filter(Boolean);
@@ -242,8 +277,13 @@ function main() {
 
   // 도시 메모(선택 시트): 팁 관행·숙박세·입국 수수료·eSIM 등. 계산에는 넣지 않는다
   const memos: CityMemo[] = [];
-  if (wb.Sheets['도시 메모']) {
-    for (const r of readTable(wb, '도시 메모', '도시', ['단위', '출처명', '비고', 'Item (English)', 'Value (English)'])) {
+  const memoOptional = ['단위', '출처명', '비고', 'Item (English)', 'Value (English)'];
+  const memoRows: Row[] = [
+    ...(wb.Sheets['도시 메모'] ? readTable(wb, '도시 메모', '도시', memoOptional) : []),
+    ...additionRows('memos', '도시', memoOptional).map((x) => x.r),
+  ];
+  {
+    for (const r of memoRows) {
       const city = cityByKo.get(r('도시'));
       if (!city) {
         errors.push(`도시 메모: 도시 '${r('도시')}'가 '도시 우선순위'에 없음`);

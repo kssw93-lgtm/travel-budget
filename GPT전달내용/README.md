@@ -19,7 +19,7 @@ ChatGPT 에게 전달할 내용을 모두 이 폴더에 모았습니다. **이 �
 | 현재 조사 엑셀 v0.3 | [`data/source/travel_cost_research_pilot_v0.3_2026-10-02.xlsx`](../data/source/travel_cost_research_pilot_v0.3_2026-10-02.xlsx) | 이 파일을 복사해 v0.4 를 만듭니다(원본은 수정하지 않음) |
 | 부족 항목 목록(자동 생성) | [`data/research-queue.md`](../data/research-queue.md) | 도시별로 더 필요한 바스켓, 재검증이 필요한 표본 |
 | 데이터 변경 기록 | [`data/CHANGELOG.md`](../data/CHANGELOG.md) | v0.1~v0.3 에서 무엇이 바뀌었는지 |
-| Gemini 검수 안내 | [`docs/HANDOFF_GEMINI.md`](../docs/HANDOFF_GEMINI.md) | 역할 분담(수집 = GPT, 교차 검수 = Gemini, 변환·코드 = Claude) |
+| Gemini 검수 안내 | [`Gemini전달내용/`](../Gemini전달내용/) | 역할 분담(수집 = GPT, 교차 검수 = Gemini, 변환·코드 = Claude) |
 
 ## 결과물
 

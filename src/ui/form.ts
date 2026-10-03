@@ -17,9 +17,15 @@ export interface FormState {
   attractions: string[];
   /** 음주 비용 포함(성인) */
   drinks: boolean;
+  /** 고른 공항↔시내 이동 상품 ID(없으면 '') 와 횟수('1' 편도, '2' 왕복) */
+  airport: string;
+  airportTrips: '1' | '2';
+  /** 고른 렌터카 상품 ID(없으면 '') 와 대여 일수(비우면 숙박 수) */
+  rental: string;
+  rentalDays: string;
 }
 
-export type FieldError = 'date' | 'nights' | 'adults' | 'children' | 'flight' | 'lodging';
+export type FieldError = 'date' | 'nights' | 'adults' | 'children' | 'flight' | 'lodging' | 'rentalDays';
 
 export interface ParsedForm {
   trip: TripInput | null;
@@ -52,10 +58,14 @@ export function parseForm(f: FormState): ParsedForm {
   if (!(children >= 0 && children <= L.childrenMax)) errors.children = true;
   if (Number.isNaN(flight)) errors.flight = true;
   if (Number.isNaN(lodging)) errors.lodging = true;
+  const rentalDays = f.rentalDays.trim() === '' ? nights : toInt(f.rentalDays);
+  if (f.rental && !(rentalDays >= 1 && rentalDays <= L.nightsMax + 1)) errors.rentalDays = true;
 
   const tripValid = !errors.date && !errors.nights && !errors.adults && !errors.children;
   return {
-    trip: tripValid ? { cityId: f.cityId, visitDate: f.visitDate, nights, adults, children, style: f.style, attractionIds: f.attractions, drinks: f.drinks } : null,
+    trip: tripValid ? { cityId: f.cityId, visitDate: f.visitDate, nights, adults, children, style: f.style, attractionIds: f.attractions, drinks: f.drinks,
+          ...(f.airport ? { airportId: f.airport, airportTrips: f.airportTrips === '1' ? 1 : 2 } : {}),
+          ...(f.rental && !errors.rentalDays ? { rentalId: f.rental, rentalDays } : {}) } : null,
     direct: { flight: errors.flight ? 0 : flight, lodging: errors.lodging ? 0 : lodging },
     errors,
   };

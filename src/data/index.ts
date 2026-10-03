@@ -1,15 +1,21 @@
 import citiesJson from './generated/cities.json';
 import foodsJson from './generated/foods.json';
+import extrasJson from './generated/extras.json';
+import memosJson from './generated/memos.json';
 import metaJson from './generated/meta.json';
 import samplesJson from './generated/samples.json';
 import statusJson from './generated/status.json';
 import type { CityStatus } from '../core/estimate';
-import type { City, FoodRecommendation, PriceSample } from '../core/types';
+import type { City, CityMemo, ExtraSample, FoodRecommendation, PriceSample } from '../core/types';
 
 /** 가격 데이터는 전부 여기서만 들어온다. 엑셀을 다시 변환해 JSON 만 교체하면 계산 결과가 바뀐다. */
 export const allCities = citiesJson as City[];
 export const samples = samplesJson as PriceSample[];
 export const foods = foodsJson as FoodRecommendation[];
+/** 고르면 더하는 공항 이동·렌터카 표본 */
+export const extras = extrasJson as ExtraSample[];
+/** 도시 메모(팁·숙박세·입국 수수료 등, 안내용) */
+export const memos = memosJson as CityMemo[];
 /** data:convert 가 만든 파일럿 도시 판정(엑셀 교체 시 자동 갱신) */
 export const cityStatusFile = statusJson as unknown as Record<string, CityStatus>;
 export const dataMeta = metaJson as { source: string; version: string; date: string; sha256: string; sampleCount: number };

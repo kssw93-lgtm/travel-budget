@@ -14,7 +14,7 @@ import * as XLSX from 'xlsx';
 import { classify } from '../src/core/classify';
 import { cityStatus } from '../src/core/estimate';
 import { BASKET_RULES, MODEL } from '../src/core/model-config';
-import type { Category, City, FoodRecommendation, ModelUse, PriceSample, SourceGrade } from '../src/core/types';
+import type { Category, City, CityMemo, ExtraKind, ExtraSample, FoodRecommendation, ModelUse, PriceSample, SourceGrade } from '../src/core/types';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const latest = JSON.parse(readFileSync(`${root}/data/source/latest.json`, 'utf8')) as { version: string; file: string; date: string };
@@ -23,6 +23,8 @@ const usingLatest = !process.argv[2];
 const outDir = `${root}/src/data/generated`;
 
 const CATEGORY: Record<string, Category> = { 교통: 'transport', 외식: 'food', 관광: 'attraction', 기념품: 'souvenir' };
+/** 고르면 더하는 여행당 비용(4개 비용군과 따로 계산) */
+const EXTRA: Record<string, ExtraKind> = { 공항이동: 'airport', 렌터카: 'rental' };
 const MODEL_USE: Record<string, ModelUse> = { 예: 'yes', 조건부: 'conditional', 아니오: 'no' };
 const COUNTRY_EN: Record<string, string> = {
   한국: 'South Korea', 대한민국: 'South Korea',
@@ -40,8 +42,11 @@ function text(v: unknown): string {
   return String(v).trim();
 }
 
-/** 머리글 행(첫 칸이 anchor 인 행)을 찾아 데이터 행마다 `머리글 → 값` 조회 함수를 돌려준다. */
-function readTable(wb: XLSX.WorkBook, sheetName: string, anchor: string) {
+/**
+ * 머리글 행(첫 칸이 anchor 인 행)을 찾아 데이터 행마다 `머리글 → 값` 조회 함수를 돌려준다.
+ * optional 에 적은 열은 없어도 빈 문자열로 읽는다.
+ */
+function readTable(wb: XLSX.WorkBook, sheetName: string, anchor: string, optional: string[] = []) {
   const ws = wb.Sheets[sheetName];
   if (!ws) throw new Error(`시트 '${sheetName}'가 없습니다.`);
   const grid = XLSX.utils.sheet_to_json<unknown[]>(ws, { header: 1, raw: true, defval: '' });
@@ -54,6 +59,7 @@ function readTable(wb: XLSX.WorkBook, sheetName: string, anchor: string) {
     .filter((row) => text(row[0]) !== '')
     .map((row) => (h: string) => {
       const c = cols.get(h);
+      if (c === undefined && optional.includes(h)) return '';
       if (c === undefined) throw new Error(`시트 '${sheetName}'에 '${h}' 열이 없습니다.`);
       return text(row[c]);
     });
@@ -103,10 +109,12 @@ function main() {
 
   // 가격 표본
   const samples: PriceSample[] = [];
+  const extras: ExtraSample[] = [];
   for (const r of readTable(wb, '가격 표본', 'ID')) {
     const id = r('ID');
     const cat = CATEGORY[r('카테고리')];
-    if (!cat) {
+    const extra = EXTRA[r('카테고리')];
+    if (!cat && !extra) {
       notes.push(`${id}: 계산에 쓰지 않는 카테고리 '${r('카테고리')}' 건너뜀`);
       continue;
     }
@@ -124,12 +132,12 @@ function main() {
     const min = num(r('최소'), id);
     const max = num(r('최대'), id);
     if (min > max) errors.push(`${id}: 최소 > 최대`);
-    samples.push({
+    const row = {
       id,
       cityId: city.id,
       country: r('국가'),
       city: city.nameKo,
-      category: cat,
+      category: cat ?? 'transport',
       subtype: r('세부유형'),
       nameKo: r('항목(한글)'),
       nameEn: r('Item (English)'),
@@ -148,7 +156,13 @@ function main() {
       sourceName: r('출처명'),
       sourceUrl: r('출처 URL'),
       note: r('비고'),
-    });
+    };
+    if (cat) samples.push(row);
+    else {
+      const x: ExtraSample & { category?: Category } = { ...row, kind: extra as ExtraKind };
+      delete x.category;
+      extras.push(x);
+    }
   }
   // 검수 메모: 원문 재확인이 안 된 표본에 '재검증 필요' 표시만 붙인다(가격·분류 불변)
   const reviewFlags = JSON.parse(readFileSync(`${root}/data/overlays/review-flags.json`, 'utf8')) as Record<string, PriceSample['review'] | string>;
@@ -160,7 +174,7 @@ function main() {
   }
 
   const ids = new Set<string>();
-  for (const s of samples) {
+  for (const s of [...samples, ...extras]) {
     if (ids.has(s.id)) errors.push(`${s.id}: ID 중복`);
     ids.add(s.id);
     if (!s.checkedAt) errors.push(`${s.id}: 조회일 해석 불가`);
@@ -190,6 +204,34 @@ function main() {
     };
   });
 
+  // 도시 메모(선택 시트): 팁 관행·숙박세·입국 수수료·eSIM 등. 계산에는 넣지 않는다
+  const memos: CityMemo[] = [];
+  if (wb.Sheets['도시 메모']) {
+    for (const r of readTable(wb, '도시 메모', '도시', ['단위', '출처명', '비고', 'Item (English)', 'Value (English)'])) {
+      const city = cityByKo.get(r('도시'));
+      if (!city) {
+        errors.push(`도시 메모: 도시 '${r('도시')}'가 '도시 우선순위'에 없음`);
+        continue;
+      }
+      const memo: CityMemo = {
+        cityId: city.id,
+        item: r('항목'),
+        value: r('값'),
+        itemEn: r('Item (English)'),
+        valueEn: r('Value (English)'),
+        unit: r('단위'),
+        sourceName: r('출처명'),
+        sourceUrl: r('출처 URL'),
+        checkedAt: isoDate(r('조회일')),
+        note: r('비고'),
+      };
+      if (!memo.item || !memo.value) errors.push(`도시 메모(${city.nameKo}): 항목·값이 비어 있음`);
+      if (!/^https?:\/\//.test(memo.sourceUrl)) errors.push(`도시 메모(${city.nameKo} ${memo.item}): 출처 URL 없음`);
+      if (!memo.checkedAt) errors.push(`도시 메모(${city.nameKo} ${memo.item}): 조회일 해석 불가`);
+      memos.push(memo);
+    }
+  }
+
   // 데이터 점검 리포트
   const unclassified = samples.filter((s) => classify(s).excludeReason === 'unclassified');
   for (const s of unclassified) notes.push(`${s.id}: 세부유형 '${s.subtype}' 분류 불가 → 계산 제외 (model-config.ts KEYWORDS 확인)`);
@@ -210,6 +252,8 @@ function main() {
   const write = (name: string, data: unknown) => writeFileSync(`${outDir}/${name}.json`, JSON.stringify(data, null, 2) + '\n');
   write('cities', cities);
   write('samples', samples);
+  write('extras', extras);
+  write('memos', memos);
   write('foods', foods);
   write('meta', meta);
 
@@ -221,7 +265,7 @@ function main() {
   writeFileSync(`${root}/data/research-queue.md`, researchQueue(pilot, samples, status, meta));
 
   console.log(`원본: ${meta.source} (${meta.version})`);
-  console.log(`도시 ${cities.length} · 가격 표본 ${samples.length} · 음식 추천 ${foods.length} → ${outDir}`);
+  console.log(`도시 ${cities.length} · 가격 표본 ${samples.length} · 공항이동·렌터카 ${extras.length} · 도시 메모 ${memos.length} · 음식 추천 ${foods.length} → ${outDir}`);
   console.log('\n파일럿 도시 판정 (독립 표본: 외식/교통/관광/기념품)');
   for (const c of pilot) {
     const st = status[c.id]!;

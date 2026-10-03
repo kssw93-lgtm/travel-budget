@@ -45,6 +45,27 @@ export interface PriceSample {
   review?: { flag: string; flagEn: string; detail: string; reportedAt: string };
 }
 
+/** 공항↔시내 이동, 렌터카처럼 "고르면 더하는" 여행당 비용. 엑셀 `가격 표본` 시트의 카테고리 `공항이동`·`렌터카` 행 */
+export type ExtraKind = 'airport' | 'rental';
+export interface ExtraSample extends Omit<PriceSample, 'category'> {
+  kind: ExtraKind;
+}
+
+/** 엑셀 `도시 메모` 시트의 한 행(팁 관행, 숙박세, 입국 수수료, eSIM 등). 계산에는 넣지 않고 안내만 한다 */
+export interface CityMemo {
+  cityId: string;
+  item: string;
+  value: string;
+  /** 영문 항목·값(선택 열 `Item (English)`·`Value (English)`). 없으면 영어 화면에서도 한글 원문 */
+  itemEn: string;
+  valueEn: string;
+  unit: string;
+  sourceName: string;
+  sourceUrl: string;
+  checkedAt: string;
+  note: string;
+}
+
 export interface City {
   id: string;
   country: string;
@@ -86,6 +107,34 @@ export interface TripInput {
   attractionIds?: string[];
   /** 성인 음주 비용 포함(주류 바스켓). 주류 가격 표본이 3건 미만이면 포함하지 않고 알린다 */
   drinks?: boolean;
+  /** 고른 공항↔시내 이동 상품(ExtraSample ID)과 이용 횟수(1=편도, 2=왕복). 왕복 상품이면 횟수와 무관하게 1장 */
+  airportId?: string;
+  airportTrips?: 1 | 2;
+  /** 고른 렌터카 상품(1일 요금, 차량 1대)과 대여 일수 */
+  rentalId?: string;
+  rentalDays?: number;
+}
+
+/** 고른 여행당 비용 한 건(공항 이동·렌터카) */
+export interface ExtraEstimate {
+  kind: ExtraKind;
+  id: string;
+  nameKo: string;
+  nameEn: string;
+  /** 공항: 1인 이용 횟수(왕복 상품은 1) / 렌터카: 대여 일수 */
+  units: number;
+  /** 왕복 상품 */
+  roundTrip: boolean;
+  /** 성인 1회(렌터카는 차량 1대 1일) 가격 */
+  unitPrice: Range;
+  /** 같은 상품의 아동 가격(없으면 null → 성인 가격 적용) */
+  childPrice: Range | null;
+  total: Range;
+  contingency: Range | null;
+  sourceName: string;
+  sourceUrl: string;
+  checkedAt: string;
+  variable: boolean;
 }
 
 /**
@@ -192,7 +241,9 @@ export interface Estimate {
   currency: string;
   days: number;
   categories: Record<Category, CategoryEstimate>;
-  /** 4개 비용군 합(예비비 전). 하나라도 부족하면 null */
+  /** 사용자가 고른 공항 이동·렌터카(합계·예비비에 포함) */
+  extras: ExtraEstimate[];
+  /** 4개 비용군 + 고른 공항 이동·렌터카 합(예비비 전). 하나라도 부족하면 null */
   subtotal: Range | null;
   contingency: Range | null;
   /** 현지 체류비 최종(예비비 포함). 하나라도 부족하면 null */

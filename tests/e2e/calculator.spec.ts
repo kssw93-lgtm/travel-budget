@@ -324,3 +324,26 @@ test.describe('항목별 자세히 보기·음주', () => {
     await expect(page.locator('tr[data-category="food"]')).toHaveText(before);
   });
 });
+
+test.describe('공항 이동·렌터카', () => {
+  const extras = JSON.parse(readFileSync('src/data/generated/extras.json', 'utf8')) as Array<{ id: string; cityId: string; kind: string }>;
+
+  test('확인된 요금이 없는 도시에는 카드를 보여 주지 않는다', async ({ page }) => {
+    const empty = Object.keys(status).find((c) => !extras.some((x) => x.cityId === c));
+    test.skip(!empty, '모든 도시에 공항 이동·렌터카 자료가 있음');
+    await mockRates(page);
+    await page.goto(`/?lang=ko&city=${empty}&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=KRW`);
+    await expect(page.getByTestId('result')).toBeVisible();
+    await expect(page.getByTestId('extras')).toHaveCount(0);
+  });
+
+  test('자료가 있으면 고른 상품이 결과 표와 URL 에 들어간다', async ({ page }) => {
+    const x = extras.find((e) => e.kind === 'airport' && e.cityId in status);
+    test.skip(!x, '아직 공항 이동 자료가 없음(데이터 대기)');
+    await mockRates(page);
+    await page.goto(`/?lang=ko&city=${x!.cityId}&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=KRW`);
+    await page.locator(`[data-extra="${x!.id}"] input[type="radio"]`).check();
+    await expect(page).toHaveURL(new RegExp(`apt=${x!.id}`));
+    await expect(page.getByTestId('breakdown').locator('[data-category="extra-airport"]')).toBeVisible();
+  });
+});

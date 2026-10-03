@@ -8,7 +8,7 @@ import { cityGroups } from '../../src/ui/TripForm';
 
 const base: FormState = {
   cityId: 'taipei', visitDate: '2026-11-04', nights: '3', adults: '2', children: '0', style: 'standard',
-  currency: 'KRW', flight: '', lodging: '', directCurrency: 'KRW', attractions: [], drinks: false,
+  currency: 'KRW', flight: '', lodging: '', directCurrency: 'KRW', attractions: [], drinks: false, airport: '', airportTrips: '2', rental: '', rentalDays: '',
 };
 
 describe('입력 검증', () => {

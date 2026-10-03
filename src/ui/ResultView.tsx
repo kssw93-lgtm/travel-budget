@@ -199,6 +199,33 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
               ) : null,
             ];
           })}
+          {e.extras.map((x) => {
+            const label = x.kind === 'airport' ? t.extras.rowAirport : t.extras.rowRental;
+            const name = lang === 'ko' ? x.nameKo : x.nameEn;
+            const kids = x.kind === 'airport' && trip.children > 0 ? fmt(t.extras.lineKids, { n: trip.children }) : '';
+            const line =
+              x.kind === 'rental'
+                ? fmt(t.extras.lineRental, { name, days: x.units })
+                : fmt(x.roundTrip ? t.extras.lineAirportRound : t.extras.lineAirport, { name, adults: trip.adults, kids, units: x.units });
+            return (
+              <tr key={x.kind} data-category={`extra-${x.kind}`}>
+                <th scope="row">
+                  {label}
+                  <small>{line}</small>
+                </th>
+                <td data-label={`${t.result.local} (${e.currency})`}>
+                  <RangeText range={x.total} currency={e.currency} />
+                  {x.contingency && (
+                    <small className="cont">
+                      + {t.detail.contingency.replace('{rate}', String(Math.round(MODEL.contingencyRate * 100)))} <RangeText range={x.contingency} currency={e.currency} />
+                    </small>
+                  )}
+                </td>
+                <td data-label={`${t.result.selected} (${display})`}><RangeText range={convertRange(x.total, e.currency, display, ratesData)} currency={display} /></td>
+                <td data-label={t.result.usd}><RangeText range={convertRange(x.total, e.currency, 'USD', ratesData)} currency="USD" /></td>
+              </tr>
+            );
+          })}
           {e.contingency && (
             <tr data-category="contingency">
               <th scope="row">{t.categories.contingency}</th>
@@ -268,6 +295,18 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
             </details>
           );
         })}
+        {e.extras.length > 0 && (
+          <ul className="sources" data-testid="extras-sources">
+            {e.extras.map((x) => (
+              <li key={x.id}>
+                <strong>{x.kind === 'airport' ? t.extras.rowAirport : t.extras.rowRental}</strong> · {lang === 'ko' ? x.nameKo : x.nameEn} ·{' '}
+                <ExternalLink href={x.sourceUrl}>{x.sourceName}</ExternalLink> · {fmt(t.extras.checked, { date: x.checkedAt })}
+                {x.variable ? ` · ${t.extras.variable}` : ''}
+                {x.kind === 'airport' && trip.children > 0 && !x.childPrice ? ` · ${t.extras.noChild}` : ''}
+              </li>
+            ))}
+          </ul>
+        )}
         {e.warnings.filter((w) => !w.category).map((w, i) => (
           <p key={i} className="notice warn">{warningText(w, byId, lang, t)}</p>
         ))}

@@ -20,10 +20,15 @@ const KEYS = {
   directCurrency: 'dcur',
   attractions: 'attr',
   drinks: 'drink',
+  airport: 'apt',
+  airportTrips: 'aptw',
+  rental: 'car',
+  rentalDays: 'cardays',
 } as const satisfies Record<keyof FormState, string>;
 
 const CURRENCY = /^[A-Z]{3}$/;
 const SHORT = /^[\d.,]{0,15}$/;
+const EXTRA_ID = /^[A-Z0-9][A-Z0-9-]{2,23}$/;
 
 export function readForm(search: string, cityIds: string[]): Partial<FormState> {
   const q = new URLSearchParams(search);
@@ -45,6 +50,13 @@ export function readForm(search: string, cityIds: string[]): Partial<FormState> 
     if (ids.length) out.attractions = ids;
   }
   if (get('drinks') === '1') out.drinks = true;
+  for (const k of ['airport', 'rental'] as const) {
+    const v = get(k);
+    if (v && EXTRA_ID.test(v)) out[k] = v;
+  }
+  if (out.airport && get('airportTrips') === '1') out.airportTrips = '1';
+  const days = get('rentalDays');
+  if (out.rental && days && /^\d{1,2}$/.test(days)) out.rentalDays = days;
   for (const k of ['currency', 'directCurrency'] as const) {
     const v = get(k)?.toUpperCase();
     if (v && CURRENCY.test(v)) out[k] = v;
@@ -70,6 +82,12 @@ export function formToSearch(form: FormState, lang: Lang): string {
       if (form.drinks) q.set(KEYS.drinks, '1');
       return;
     }
+    // 공항 이동 횟수·렌터카 일수는 상품을 골랐을 때만, 기본값(왕복·숙박 수)이 아닐 때만 남긴다
+    if (k === 'airportTrips') {
+      if (form.airport && form.airportTrips === '1') q.set(KEYS.airportTrips, '1');
+      return;
+    }
+    if (k === 'rentalDays' && !form.rental) return;
     const v = form[k];
     if (v === '' || ((k === 'flight' || k === 'lodging' || k === 'directCurrency') && !form.flight && !form.lodging)) return;
     q.set(KEYS[k], v);

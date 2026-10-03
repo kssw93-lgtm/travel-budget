@@ -5,7 +5,7 @@ import { formToSearch, readForm, readLang, withLang } from '../../src/ui/urlStat
 const ids = ['tokyo', 'taipei'];
 const form: FormState = {
   cityId: 'taipei', visitDate: '2026-11-04', nights: '3', adults: '2', children: '1', style: 'comfort',
-  currency: 'EUR', flight: '', lodging: '', directCurrency: 'EUR', attractions: [], drinks: false,
+  currency: 'EUR', flight: '', lodging: '', directCurrency: 'EUR', attractions: [], drinks: false, airport: '', airportTrips: '2', rental: '', rentalDays: '',
 };
 
 describe('URL 입력 상태', () => {
@@ -22,6 +22,13 @@ describe('URL 입력 상태', () => {
     expect(readForm('?city=atlantis&style=lux&cur=<x>&date=tomorrow&nights=abc&dcur=ko', ids)).toEqual({});
     expect(readLang('?lang=fr')).toBeNull();
     expect(readForm('?cur=jpy', ids)).toEqual({ currency: 'JPY' });
+  });
+  it('공항 이동·렌터카는 고른 경우에만, 기본값(왕복·숙박 수)이 아닌 횟수·일수만 담는다', () => {
+    expect(formToSearch({ ...form, airportTrips: '1', rentalDays: '5' }, 'ko')).not.toMatch(/apt|car/);
+    const search = formToSearch({ ...form, airport: 'TYO-AP-001', airportTrips: '1', rental: 'JEJ-RC-002', rentalDays: '4' }, 'ko');
+    expect(readForm(search, ids)).toMatchObject({ airport: 'TYO-AP-001', airportTrips: '1', rental: 'JEJ-RC-002', rentalDays: '4' });
+    expect(formToSearch({ ...form, airport: 'TYO-AP-001' }, 'ko')).not.toContain('aptw');
+    expect(readForm('?apt=<script>&car=x&aptw=1&cardays=999', ids)).toEqual({});
   });
   it('언어만 바꿀 때 다른 쿼리는 보존한다', () => {
     expect(withLang('?city=tokyo&lang=ko', 'en')).toBe('?city=tokyo&lang=en');

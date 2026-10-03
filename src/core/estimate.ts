@@ -2,6 +2,7 @@ import { classify, isVariablePricing, type Classified, type ExcludeReason } from
 import { addDays } from './dates';
 import { BASKET_RULES, BASKETS, CATEGORIES, EDGE_WEIGHTED, ESTIMATED_CATEGORIES, MODEL } from './model-config';
 import { attractionOptions } from './attractions';
+import { estimateExtras } from './extras';
 import { endpoints, independentCount, poolOnDate, selectUsable, styleRange } from './pool';
 import type {
   Basket,
@@ -11,6 +12,7 @@ import type {
   City,
   DetailLine,
   Estimate,
+  ExtraSample,
   PriceSample,
   Range,
   SourceRef,
@@ -295,7 +297,7 @@ function primaryCount(category: Category, runs: BasketRun[], kind: 'rows' | 'ind
 }
 
 /** 한 도시·한 여행 조건의 현지 체류비 범위를 계산한다. 순수 함수 — 가격은 samples 인자로만 들어온다. */
-export function estimateTrip(input: TripInput, city: City, samples: PriceSample[]): Estimate {
+export function estimateTrip(input: TripInput, city: City, samples: PriceSample[], extraSamples: ExtraSample[] = []): Estimate {
   const days = tripDays(input.nights);
   const dates = Array.from({ length: days }, (_, i) => addDays(input.visitDate, i));
   const weights = dayWeights(days);
@@ -316,13 +318,15 @@ export function estimateTrip(input: TripInput, city: City, samples: PriceSample[
   if (lowFill) warnings.push({ code: 'lowFillRate' });
   const computable = missing.length === 0 && !lowFill;
 
+  const extras = estimateExtras(input, extraSamples);
   let subtotal: Range | null = null;
   let contingency: Range | null = null;
   let total: Range | null = null;
   if (computable) {
     // 예비비는 항목별로도 보여 준다(합은 전체 예비비와 같다)
     for (const c of CATEGORIES) categories[c].contingency = scale(categories[c].total as Range, MODEL.contingencyRate);
-    subtotal = CATEGORIES.reduce((sum, c) => add(sum, categories[c].total as Range), ZERO);
+    for (const x of extras) x.contingency = scale(x.total, MODEL.contingencyRate);
+    subtotal = extras.reduce((sum, x) => add(sum, x.total), CATEGORIES.reduce((sum, c) => add(sum, categories[c].total as Range), ZERO));
     contingency = scale(subtotal, MODEL.contingencyRate);
     total = add(subtotal, contingency);
   }
@@ -332,6 +336,7 @@ export function estimateTrip(input: TripInput, city: City, samples: PriceSample[
     currency: city.currency,
     days,
     categories,
+    extras,
     subtotal,
     contingency,
     total,

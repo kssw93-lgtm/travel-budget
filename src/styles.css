@@ -114,7 +114,7 @@ td.insufficient, .insufficient { color: var(--err); }
 .attr-option { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
 .attr-option.selected { border-color: var(--brand); background: var(--accent-bg); }
 .attr-option label { display: flex; gap: 10px; align-items: flex-start; font-weight: 600; cursor: pointer; }
-.attr-option input[type="checkbox"] { width: 20px; height: 20px; min-height: 0; margin: 2px 0 0; flex: none; accent-color: var(--brand); }
+.attr-option input[type="checkbox"], .attr-option input[type="radio"] { width: 20px; height: 20px; min-height: 0; margin: 2px 0 0; flex: none; accent-color: var(--brand); }
 .attr-prices { display: flex; flex-wrap: wrap; gap: 2px 16px; margin: 4px 0 0 30px; font-size: .92rem; }
 .attr-meta { margin: 4px 0 0 30px; font-size: .82rem; }
 .badge { display: inline-block; border: 1px solid var(--warn-line); background: var(--warn-bg); color: var(--ink); border-radius: 6px; padding: 0 6px; font-size: .78rem; }
@@ -145,3 +145,9 @@ td.insufficient, .insufficient { color: var(--err); }
 .prose .lead { font-size: 1.02rem; }
 .prose section + section { margin-top: 4px; }
 .selectable { user-select: all; font-weight: 600; }
+fieldset.extra-group { border: 0; padding: 0; margin: 12px 0 0; }
+fieldset.extra-group legend { font-weight: 600; margin-bottom: 6px; }
+.field.inline { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 8px; }
+.field.inline label { font-weight: 600; }
+.field.inline input, .field.inline select { width: auto; min-width: 6em; }
+.field.inline input { width: 6em; }

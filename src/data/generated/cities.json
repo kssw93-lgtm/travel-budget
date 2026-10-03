@@ -170,16 +170,6 @@
     "stage": "2차"
   },
   {
-    "id": "new-york",
-    "country": "미국",
-    "countryEn": "United States",
-    "nameKo": "뉴욕",
-    "nameEn": "New York",
-    "currency": "USD",
-    "tier": "C",
-    "stage": "3차"
-  },
-  {
     "id": "barcelona",
     "country": "스페인",
     "countryEn": "Spain",
@@ -196,6 +186,16 @@
     "nameKo": "로마",
     "nameEn": "Rome",
     "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "new-york",
+    "country": "미국",
+    "countryEn": "United States",
+    "nameKo": "뉴욕",
+    "nameEn": "New York",
+    "currency": "USD",
     "tier": "B",
     "stage": "파일럿"
   },

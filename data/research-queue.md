@@ -32,6 +32,8 @@
 | 런던 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 뉴욕 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 뉴욕 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 서울 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 부산 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 제주 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -137,6 +139,25 @@
 | CJU-AT-008 | 제주 | 오설록 티뮤지엄 본관 관람 | 0 KRW | A | 예 | 재검증 | [오설록 공식홈페이지 티뮤지엄 안내](https://www.osulloc.com/kr/ko/museum) |
 | CJU-AT-009 | 제주 | 천지연폭포 관람료 (어른) | 2000 KRW | A | 예 | 재검증 | [서귀포시 공영관광지 관람안내](https://www.seogwipo.go.kr/) |
 | CJU-AT-010 | 제주 | 천지연폭포 관람료 (어린이) | 1000 KRW | A | 예 | 재검증 | [서귀포시 공영관광지 관람안내](https://www.seogwipo.go.kr/) |
+| NYC-TR-001 | 뉴욕 | 지하철·시내버스 기본 요금 | 3 USD | A | 예 | 재검증 | [MTA](https://www.mta.info/fares-tolls/subway-bus) |
+| NYC-TR-002 | 뉴욕 | 급행버스 기본 요금 | 7.25 USD | A | 예 | 재검증 | [MTA](https://www.mta.info/fares-tolls/subway-bus) |
+| NYC-TR-003 | 뉴욕 | NYC 페리 성인 편도 | 4.5 USD | A | 예 | 재검증 | [NYC Ferry](https://www.ferry.nyc/ticketing-info/) |
+| NYC-TR-004 | 뉴욕 | LIRR 시티티켓 비혼잡 시간 | 5.25 USD | A | 예 | 재검증 | [MTA LIRR](https://www.mta.info/fares-tolls/lirr-metro-north) |
+| NYC-FD-101 | 뉴욕 | 셰이크쉑 쉑버거 | 7.69 USD | A | 예 | 재검증 | [Shake Shack](https://shakeshack.com/location/theater-district-ny) |
+| NYC-FD-102 | 뉴욕 | 주니어스 체리 치즈케이크 1조각 | 9.95 USD | A | 예 | 재검증 | [Junior's Cheesecake](https://www.juniorscheesecake.com) |
+| NYC-FD-103 | 뉴욕 | 휴스턴 홀 버거와 감자튀김 | 21.95 USD | A | 예 | 재검증 | [Houston Hall](https://www.houstonhallny.com/menus/) |
+| NYC-FD-202 | 뉴욕 | 휴스턴 홀 골든 라거 스몰 | 9.5 USD | A | 예 | 재검증 | [Houston Hall](https://www.houstonhallny.com/menus/) |
+| NYC-FD-203 | 뉴욕 | 휴스턴 홀 소비뇽 블랑 1잔 | 14.5 USD | A | 예 | 재검증 | [Houston Hall](https://www.houstonhallny.com/menus/) |
+| NYC-SV-101 | 뉴욕 | 메트 로고 비닐 토트백 | 55 USD | A | 예 | 재검증 | [The Met Store](https://store.metmuseum.org/met-logo-vinyl-tote-logovinyltote) |
+| NYC-AT-001 | 뉴욕 | 자유의 여신상·엘리스섬 그라운드 티켓 | 23.5 USD | A | 예 | 재검증 | [Statue of Liberty & Ellis Island Foundation](https://www.statueofliberty.org/visit/faq-2/) |
+| NYC-AT-002 | 뉴욕 | 엠파이어 스테이트 빌딩 86층 전망대 | 46 USD | A | 예 | 재검증 | [Empire State Building](https://www.esbnyc.com/buy-tickets) |
+| NYC-AT-003 | 뉴욕 | 엠파이어 스테이트 빌딩 102층·86층 | 81 USD | A | 예 | 재검증 | [Empire State Building](https://www.esbnyc.com/buy-tickets) |
+| NYC-AT-004 | 뉴욕 | 메트로폴리탄 미술관 성인 입장권 | 30 USD | A | 예 | 재검증 | [The Metropolitan Museum of Art](https://www.metmuseum.org/visit-guides/membership) |
+| NYC-AT-005 | 뉴욕 | MoMA 성인 입장권 | 30 USD | A | 예 | 재검증 | [MoMA](https://www.moma.org/visit/tips) |
+| NYC-AT-006 | 뉴욕 | 9/11 메모리얼 박물관 성인 입장권 | 33 USD | A | 예 | 재검증 | [9/11 Memorial & Museum](https://www.911memorial.org/visit/museum) |
+| NYC-SV-111 | 뉴욕 | 메트 로고 접이식 우산 | 25 USD | A | 예 | 재검증 | [The Met Store](https://store.metmuseum.org/met-logo-folding-umbrella-80056083) |
+| NYC-FD-121 | 뉴욕 | 카츠 델리 파스트라미 샌드위치 | 28.95 USD | A | 예 | 재검증 | [Katz's Delicatessen](https://katzsdelicatessen.com/) |
+| NYC-SV-121 | 뉴욕 | 자유의 여신상 공식 숍 문서 홀더 소형 | 25 USD | A | 예 | 재검증 | [Statue of Liberty & Ellis Island Foundation](https://www.statueofliberty.org/product/logo-embossed-leatherette-eight-corner-document-holder-small/) |
 | OSA-FD-901 | 오사카 | 이치란 돈코츠 라멘 | 1180 JPY | A | 예 | 재검증 | [一蘭 心斎橋店](https://ichiran.com/shop/kinki/shinsaibashi/) |
 | OSA-FD-902 | 오사카 | 호텔 뉴오타니 오사카 SATSUKI 연어 허브버터 구이 | 3800 JPY | A | 예 | 재검증 | [ホテルニューオータニ大阪 SATSUKI](https://www.newotani.co.jp/en/osaka/restaurant/satsuki/) |
 | BKK-SV-901 | 방콕 | 짐 톰슨 코끼리 실크 스카프 52인치 | 8500 THB | A | 예 | 재검증 | [Jim Thompson Official Shop](https://www.jimthompson.com/products/elephant-bath-silk-scarf-52-green) |

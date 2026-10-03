@@ -289,6 +289,35 @@
     "missing": [],
     "computable": true
   },
+  "new-york": {
+    "counts": {
+      "food": 3,
+      "transport": 4,
+      "attraction": 5,
+      "souvenir": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 3,
+      "snack": 1,
+      "drink": 2,
+      "attraction": 5,
+      "souvenir": 3
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 3,
+      "snack": 1,
+      "drink": 2,
+      "attraction": 6,
+      "souvenir": 3
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "seoul": {
     "counts": {
       "food": 3,

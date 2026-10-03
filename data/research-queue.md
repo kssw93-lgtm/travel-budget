@@ -67,3 +67,8 @@
 | LON-AT-005 | 런던 | 대영박물관 상설 관람 | 0 GBP | A | 예 | 재검증 | [British Museum](https://www.britishmuseum.org/visit) |
 | LON-SV-001 | 런던 | 대영박물관 숍 소형 굿즈 시작가 | 6.99 GBP | C | 조건부 | C등급, 조건부, 재검증, 시작가 표기 | [British Museum Shop](https://www.britishmuseumshoponline.org/) |
 | DAD-AT-004 | 다낭 | 다낭 참조각박물관 일반 입장권 | 60000 VND | A | 예 | 검수: 원문 미확인 | [Da Nang Museum of Cham Sculpture](https://chammuseum.vn/view.aspx?ID=45) |
+
+## 4. 교차 검수 현황
+
+`data/reviews/*.csv` 에서 읽은 판정: 일치 0건 · 불일치 0건 · 확인불가 0건.
+아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

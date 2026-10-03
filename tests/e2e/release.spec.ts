@@ -9,6 +9,7 @@ test.describe('접근성(axe, WCAG 2.1 AA)', () => {
     ['계산기 · 계산 가능 결과', async (p) => { await p.goto('/'); await fillTrip(p); await expect(p.getByTestId('total')).toBeVisible(); }],
     ['계산기 · 데이터 부족 결과', async (p) => { await p.goto('/'); await fillTrip(p, { city: 'tokyo', date: '2027-08-02' }); await expect(p.getByTestId('hold')).toBeVisible(); }],
     ['계산기 · 입력 오류', async (p) => { await p.goto('/'); await fillTrip(p, { nights: '0' }); await expect(p.locator('#err-nights')).toBeVisible(); }],
+    ['도시 가이드', async (p) => { await p.goto('/guide/bangkok'); await expect(p.getByTestId('guide-example')).toBeVisible(); }],
     ['사이트 소개', async (p) => { await p.goto('/about'); await expect(p.getByTestId('about')).toBeVisible(); }],
     ['개인정보처리방침', async (p) => { await p.goto('/privacy'); await expect(p.getByTestId('privacy')).toBeVisible(); }],
   ];

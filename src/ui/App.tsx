@@ -1,10 +1,11 @@
 import { useCallback, useEffect, useRef, useState, type MouseEvent, type ReactNode } from 'react';
-import { dataDate } from '../data';
+import { cities, cityById, dataDate } from '../data';
 import { I18nProvider, detectLang, fmt, messages, type Lang } from '../i18n';
 import { AdSlot } from './AdSlot';
 import { Calculator } from './Calculator';
 import { About, Privacy } from './InfoPages';
-import { pageOf } from './pages';
+import { CityGuidePage, GuideIndex } from './CityGuide';
+import { routeOf } from './pages';
 import { applyMeta } from './meta';
 import { calcMemory, readLang, withLang } from './urlState';
 import { currentLoc, isPreview, pushLoc, replaceLoc, type Loc } from './router';
@@ -46,12 +47,14 @@ export function App() {
   const [loc, go] = useLocation();
   const [lang, setLang] = useState<Lang>(() => readLang(currentLoc().search) ?? detectLang());
   const t = messages[lang];
-  const page = pageOf(loc.pathname);
+  const route = routeOf(loc.pathname, cities.map((c) => c.id));
+  const page = route.page;
+  const guideCity = route.cityId ? cityById(route.cityId) : undefined;
   const first = useRef(true);
 
   // 언어·페이지가 바뀌면 문서 언어와 SEO 메타를 갱신하고 언어 선택을 기억한다
   useEffect(() => {
-    applyMeta(lang, page);
+    applyMeta(lang, route, guideCity);
     try {
       localStorage.setItem('lang', lang);
     } catch {
@@ -61,7 +64,8 @@ export function App() {
       const next = `${loc.pathname}${withLang(loc.search, lang)}${loc.hash}`;
       if (next !== `${loc.pathname}${loc.search}${loc.hash}`) replaceLoc(next);
     }
-  }, [lang, page, loc.pathname, loc.search, loc.hash]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [lang, page, guideCity, loc.pathname, loc.search, loc.hash]);
 
   // 페이지 이동 시: 앵커가 있으면 그 위치로, 없으면 맨 위로 가고 본문 제목에 포커스(스크린리더 안내)
   useEffect(() => {
@@ -91,6 +95,7 @@ export function App() {
           </InternalLink>
           <nav aria-label={t.nav.main}>
             <InternalLink to={calcHref} go={go} aria-current={page === 'calculator' ? 'page' : undefined}>{t.nav.calculator}</InternalLink>
+            <InternalLink to={`/guides?lang=${lang}`} go={go} aria-current={page === 'guides' || page === 'guide' ? 'page' : undefined}>{t.nav.guides}</InternalLink>
             <InternalLink to={`/about?lang=${lang}`} go={go} aria-current={page === 'about' ? 'page' : undefined}>{t.footer.about}</InternalLink>
           </nav>
           <div className="lang" role="group" aria-label={t.nav.language}>
@@ -112,7 +117,17 @@ export function App() {
               {t.preview.banner}
             </p>
           )}
-          {page === 'about' ? <About /> : page === 'privacy' ? <Privacy /> : <Calculator />}
+          {page === 'about' ? (
+            <About />
+          ) : page === 'privacy' ? (
+            <Privacy />
+          ) : page === 'guides' ? (
+            <GuideIndex go={go} />
+          ) : page === 'guide' && guideCity ? (
+            <CityGuidePage city={guideCity} go={go} />
+          ) : (
+            <Calculator />
+          )}
         </main>
         <div className="ad-rail">
           <AdSlot name="rail-right" />
@@ -125,6 +140,15 @@ export function App() {
             {fmt(t.footer.data, { date: dataDate })} ·{' '}
             <InternalLink to={`/about?lang=${lang}`} go={go}>{t.footer.about}</InternalLink> ·{' '}
             <InternalLink to={`/privacy?lang=${lang}`} go={go}>{t.footer.privacy}</InternalLink>
+          </p>
+          <p className="footer-guides">
+            {t.nav.guides}:{' '}
+            {cities.map((c, i) => (
+              <span key={c.id}>
+                {i > 0 && ' · '}
+                <InternalLink to={`/guide/${c.id}?lang=${lang}`} go={go}>{lang === 'ko' ? c.nameKo : c.nameEn}</InternalLink>
+              </span>
+            ))}
           </p>
         </div>
       </footer>

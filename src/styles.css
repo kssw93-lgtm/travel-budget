@@ -151,3 +151,11 @@ fieldset.extra-group legend { font-weight: 600; margin-bottom: 6px; }
 .field.inline label { font-weight: 600; }
 .field.inline input, .field.inline select { width: auto; min-width: 6em; }
 .field.inline input { width: 6em; }
+a.button { display: inline-flex; align-items: center; min-height: 44px; padding: 10px 18px; margin-top: 12px; border-radius: 8px; background: var(--brand); color: var(--brand-ink); font-weight: 700; text-decoration: none; }
+a.button:hover { filter: brightness(1.08); }
+.guide-index { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.guide-index li { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+.guide-index a { font-weight: 700; }
+.inline-list { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px 16px; }
+.inline-list a { display: inline-block; padding: 6px 0; }
+.footer-guides a { display: inline-block; padding: 4px 0; }

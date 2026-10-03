@@ -232,7 +232,7 @@ test.describe('사이트 소개·개인정보처리방침', () => {
 });
 
 test.describe('반응형', () => {
-  for (const path of ['/', '/about', '/privacy']) {
+  for (const path of ['/', '/about', '/privacy', '/guides', '/guide/singapore']) {
     test(`${path} 가로 스크롤이 생기지 않는다`, async ({ page }) => {
       await mockRates(page);
       await page.goto(path);
@@ -345,5 +345,49 @@ test.describe('공항 이동·렌터카', () => {
     await page.locator(`[data-extra="${x!.id}"] input[type="radio"]`).check();
     await expect(page).toHaveURL(new RegExp(`apt=${x!.id}`));
     await expect(page.getByTestId('breakdown').locator('[data-category="extra-airport"]')).toBeVisible();
+  });
+});
+
+test.describe('도시 가이드', () => {
+  test('가이드 목록에서 도시 가이드로, 가이드에서 계산기로 이어진다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/guides?lang=ko');
+    await expect(page.getByTestId('guides').locator('li[data-city]')).toHaveCount(Object.keys(status).length);
+    await page.getByRole('link', { name: '파리 여행 경비 가이드' }).click();
+    await expect(page).toHaveURL(/\/guide\/paris\?lang=ko$/);
+    await expect(page.locator('main h1')).toHaveText('파리 여행 경비 가이드');
+    await expect(page).toHaveTitle(/^파리 여행 경비·현지 물가 — /);
+    await expect(page.getByTestId('guide-example').locator('tbody tr')).toHaveCount(3);
+    await expect(page.getByTestId('guide-attractions')).toContainText('에펠탑');
+    await page.getByRole('link', { name: '내 일정으로 계산하기' }).click();
+    await expect(page.locator('#city')).toHaveValue('paris');
+  });
+
+  test('가이드 숫자는 계산기와 같은 엔진에서 나온다(일반형 4일 합계 = 계산기 성인 1명 3박 결과)', async ({ page }) => {
+    await mockRates(page);
+    const date = (JSON.parse(readFileSync('src/data/generated/meta.json', 'utf8')) as { date: string }).date;
+    await page.goto('/guide/tokyo?lang=ko');
+    const guideTotal = await page.getByTestId('guide-example').locator('[data-style="standard"] td').first().locator('.amount').first().textContent();
+    await page.goto(`/?lang=ko&city=tokyo&date=${date}&nights=3&adults=1&children=0&style=standard&cur=JPY`);
+    await expect(page.getByTestId('total').locator('.amount').first()).toHaveText(guideTotal!);
+  });
+
+  test('정적 HTML 에 도시별 제목·본문이 있고, 없는 도시는 계산기로 간다', async ({ page, request }) => {
+    const html = await (await request.get('/guide/osaka.html')).text();
+    expect(html).toContain('<title>오사카 여행 경비·현지 물가');
+    expect(html).toContain('<h1>오사카 여행 경비 가이드</h1>');
+    expect(html).toContain('3박 4일 예상 현지 체류비');
+    await mockRates(page);
+    await page.goto('/guide/atlantis');
+    await expect(page.locator('#city')).toBeVisible();
+  });
+
+  test('영어로 바꾸면 가이드 제목·메타가 영어가 된다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/guide/london?lang=ko');
+    await page.getByRole('button', { name: 'English' }).click();
+    await expect(page.locator('main h1')).toHaveText('London travel cost guide');
+    await expect(page).toHaveTitle(/^London travel costs & local prices/);
+    await expect(page).toHaveURL(/\/guide\/london\?lang=en$/);
   });
 });

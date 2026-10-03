@@ -77,6 +77,7 @@ GitHub Actions(`.github/workflows/ci.yml`)가 push·PR 마다 같은 순서로 �
 - 케이블카·곤돌라는 교통이 아니라 관광지 비용, 공식 하루 상한(TfL daily cap)은 1회권 하루 비용에 적용
 - 세금·서비스료 별도 메뉴 가격(450++)은 값을 바꾸지 않고 경고
 - `data/research-queue.md`: 변환할 때마다 자동 생성되는 조사 요청 목록(계산을 막는 부족 바스켓, 공식 재검증이 필요한 표본)
+- `data/cross-check-queue.csv`: 교차 검수 대기 목록(자동 생성). 검수 결과 CSV 를 `data/reviews/` 에 넣으면 불일치·확인불가 표본에 "재검증 필요"가 붙음(`docs/HANDOFF_GEMINI.md`)
 - 외식 + 교통 + 기념품 + (체크한 관광지 입장료) 합계에 예비비 10%(항목별로도 표시)
 - 방문일은 요일별 요금·판매 기간이 있는 항목에만 반영, 전체 성수기 배수 없음
 - 가격 출처·확인일·경고는 결과 화면의 "가격 근거·출처·경고 보기"에 표시(별도 방법론 페이지는 두지 않음)
@@ -90,6 +91,7 @@ GitHub Actions(`.github/workflows/ci.yml`)가 push·PR 마다 같은 순서로 �
 ## URL·SEO
 
 - 계산기 입력·언어·통화는 URL 쿼리(`?lang=ko&city=tokyo&date=…&cur=KRW`)에 담겨 새로고침·공유·뒤로가기에도 유지됩니다.
+- 도시 가이드 `/guide/<도시>`·목록 `/guides` 는 빌드 시 도시마다 정적 HTML(제목·설명·본문)을 생성합니다(`scripts/guide-pages.ts`).
 - 계산기(`index.html`)·사이트 소개(`about.html`)·개인정보처리방침(`privacy.html`)은 각자 정적 제목·설명·OG·JSON-LD 를 가지며, 언어 전환 시 런타임에 갱신됩니다.
 - 사이트 주소가 정해지면 빌드 시 `SITE_URL=https://도메인 npm run build` 로 canonical·hreflang·og:url·sitemap.xml 이 생성됩니다.
   (주소가 없으면 robots.txt 만 만들고 주소를 지어내지 않습니다.)

@@ -7,7 +7,7 @@
  * 사용: npm run data:convert [-- <xlsx 경로>]
  */
 import { createHash } from 'node:crypto';
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { basename, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as XLSX from 'xlsx';
@@ -34,6 +34,9 @@ const COUNTRY_EN: Record<string, string> = {
 };
 
 const errors: string[] = [];
+const REVIEW_VERDICTS = ['일치', '불일치', '확인불가'];
+/** 교차 검수 결과 요약(조사 큐에 표시) */
+const reviewed: Array<{ file: string; id: string; verdict: string }> = [];
 const notes: string[] = [];
 
 function text(v: unknown): string {
@@ -173,6 +176,39 @@ function main() {
     else s.review = review as PriceSample['review'];
   }
 
+  // 교차 검수 결과(data/reviews/*.csv, 예: Gemini 검수). '불일치'·'확인불가' 판정만 재검증 표시로 붙인다.
+  // 가격은 바꾸지 않는다 — 고칠 값은 조사 엑셀 다음 버전에 반영한다. review-flags.json 이 먼저 붙은 표본은 그대로 둔다.
+  const byId = new Map<string, PriceSample | ExtraSample>([...samples, ...extras].map((x) => [x.id, x]));
+  for (const file of readdirSync(`${root}/data/reviews`).filter((f) => f.endsWith('.csv')).sort()) {
+    const book = XLSX.read(readFileSync(`${root}/data/reviews/${file}`, 'utf8').replace(/^\uFEFF/, ''), { type: 'string', raw: true });
+    const rows = XLSX.utils.sheet_to_json<Record<string, unknown>>(book.Sheets[book.SheetNames[0]!]!, { defval: '', raw: true });
+    for (const row of rows) {
+      const r = (h: string) => text(row[h]);
+      const id = r('ID');
+      if (!id) continue;
+      const verdict = r('판정');
+      if (!verdict) continue; // 아직 검수하지 않은 행
+      const target = byId.get(id);
+      if (!target) {
+        errors.push(`${file}: 없는 표본 ID '${id}'`);
+        continue;
+      }
+      if (!REVIEW_VERDICTS.includes(verdict)) {
+        errors.push(`${file} ${id}: 판정은 ${REVIEW_VERDICTS.join('/')} 중 하나여야 함('${verdict}')`);
+        continue;
+      }
+      reviewed.push({ file, id, verdict });
+      if (verdict === '일치' || target.review) continue;
+      const found = r('확인 가격');
+      target.review = {
+        flag: verdict === '불일치' ? '교차 검수 불일치' : '원문 확인 불가',
+        flagEn: verdict === '불일치' ? 'cross-check mismatch' : 'source could not be verified',
+        detail: [found && `확인 가격 ${found}`, r('확인 URL'), r('메모')].filter(Boolean).join(' · '),
+        reportedAt: isoDate(r('확인일')),
+      };
+    }
+  }
+
   const ids = new Set<string>();
   for (const s of [...samples, ...extras]) {
     if (ids.has(s.id)) errors.push(`${s.id}: ID 중복`);
@@ -263,6 +299,7 @@ function main() {
   write('status', status);
 
   writeFileSync(`${root}/data/research-queue.md`, researchQueue(pilot, samples, status, meta));
+  writeFileSync(`${root}/data/cross-check-queue.csv`, crossCheckQueue(pilot, [...samples, ...extras]));
 
   console.log(`원본: ${meta.source} (${meta.version})`);
   console.log(`도시 ${cities.length} · 가격 표본 ${samples.length} · 공항이동·렌터카 ${extras.length} · 도시 메모 ${memos.length} · 음식 추천 ${foods.length} → ${outDir}`);
@@ -356,7 +393,31 @@ function researchQueue(pilot: City[], samples: PriceSample[], status: Record<str
     const price = s.min === s.max ? `${s.min}` : `${s.min}~${s.max}`;
     lines.push(`| ${s.id} | ${s.city} | ${s.nameKo} | ${price} ${s.currency} | ${s.grade} | ${s.modelUse === 'yes' ? '예' : '조건부'} | ${why.join(', ')} | [${s.sourceName}](${s.sourceUrl}) |`);
   }
+
+  const count = (v: string) => reviewed.filter((x) => x.verdict === v).length;
+  lines.push(
+    '',
+    '## 4. 교차 검수 현황',
+    '',
+    `\`data/reviews/*.csv\` 에서 읽은 판정: 일치 ${count('일치')}건 · 불일치 ${count('불일치')}건 · 확인불가 ${count('확인불가')}건.`,
+    '아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).',
+  );
   return lines.join('\n') + '\n';
+}
+
+/** 교차 검수 대기 목록(CSV). 계산·목록에 쓰이는 파일럿 도시 표본 중 아직 "일치" 판정이 없는 행. 오른쪽 빈 칸을 채워 data/reviews/ 에 넣는다 */
+function crossCheckQueue(pilot: City[], rows: Array<PriceSample | ExtraSample>): string {
+  const ok = new Set(reviewed.filter((x) => x.verdict === '일치').map((x) => x.id));
+  const pilotIds = new Set(pilot.map((c) => c.id));
+  const csv = (v: string | number) => (/[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v));
+  const head = ['ID', '도시', '항목', '최소', '최대', '통화', '단위', '대상', '가격형태', '출처 URL', '조회일', '판정', '확인 가격', '확인 URL', '확인일', '메모'];
+  const out = [head.join(',')];
+  for (const s of rows) {
+    if (!pilotIds.has(s.cityId) || ok.has(s.id)) continue;
+    if ('category' in s ? !classify(s).usable : s.modelUse === 'no') continue;
+    out.push([s.id, s.city, s.nameKo, s.min, s.max, s.currency, s.unit, s.target, s.priceType, s.sourceUrl, s.checkedAt, '', '', '', '', ''].map(csv).join(','));
+  }
+  return '\uFEFF' + out.join('\n') + '\n';
 }
 
 try {

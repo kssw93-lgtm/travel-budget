@@ -34,3 +34,14 @@ describe('URL 입력 상태', () => {
     expect(withLang('?city=tokyo&lang=ko', 'en')).toBe('?city=tokyo&lang=en');
   });
 });
+
+describe('페이지 주소', () => {
+  it('도시 가이드는 있는 도시만, 나머지는 계산기', async () => {
+    const { routeOf, routePath } = await import('../../src/ui/pages');
+    expect(routeOf('/guide/tokyo', ['tokyo'])).toEqual({ page: 'guide', cityId: 'tokyo' });
+    expect(routeOf('/guide/tokyo.html', ['tokyo'])).toEqual({ page: 'guide', cityId: 'tokyo' });
+    expect(routeOf('/guide/atlantis', ['tokyo'])).toEqual({ page: 'calculator' });
+    expect(routeOf('/guides/', ['tokyo'])).toEqual({ page: 'guides' });
+    expect(routePath({ page: 'guide', cityId: 'paris' })).toBe('/guide/paris');
+  });
+});

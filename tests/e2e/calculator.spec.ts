@@ -377,7 +377,8 @@ test.describe('도시 가이드', () => {
     await expect(page).toHaveURL(/\/guide\/paris\?lang=ko$/);
     await expect(page.locator('main h1')).toHaveText('파리 여행 경비 가이드');
     await expect(page).toHaveTitle(/^파리 여행 경비·현지 물가 — /);
-    await expect(page.getByTestId('guide-example').locator('tbody tr')).toHaveCount(3);
+    await expect(page.getByTestId('guide-example').locator('table').first().locator('tbody tr')).toHaveCount(3);
+    await expect(page.getByTestId('guide-breakdown').locator('tbody tr')).toHaveCount(4);
     await expect(page.getByTestId('guide-attractions')).toContainText('에펠탑');
     await page.getByRole('link', { name: '내 일정으로 계산하기' }).click();
     await expect(page.locator('#city')).toHaveValue('paris');

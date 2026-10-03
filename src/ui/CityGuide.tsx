@@ -175,6 +175,35 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
             ))}
           </tbody>
         </table>
+        <h3 id="guide-breakdown-title">{g.breakdownTitle}</h3>
+        <table className="guide-table stack" aria-labelledby="guide-breakdown-title" data-testid="guide-breakdown">
+          <thead>
+            <tr>
+              <th scope="col">{g.item}</th>
+              {guide.styles.map((s) => (
+                <th scope="col" key={s.style}>
+                  {t.styles[s.style].name}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {(guide.styles[0]?.breakdown ?? []).map((b, i) => (
+              <tr key={b.key} data-item={b.key}>
+                <th scope="row">{t.categories[b.key]}</th>
+                {guide.styles.map((s) => {
+                  const r = s.breakdown[i]?.total ?? null;
+                  return (
+                    <td key={s.style} data-label={t.styles[s.style].name}>
+                      {r ? <RangeText range={r} currency={city.currency} /> : <span className="muted">—</span>}
+                    </td>
+                  );
+                })}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <p className="hint">{g.breakdownNote}</p>
       </section>
 
       <PriceGuide city={city} samples={samples} display={display} rates={rates} />

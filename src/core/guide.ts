@@ -2,7 +2,11 @@ import { attractionOptions, type AttractionOption } from './attractions';
 import { estimateTrip } from './estimate';
 import { STYLES } from './model-config';
 import { priceGuide, type GuideRow } from './price-guide';
-import type { City, ExtraSample, PriceSample, Range, TravelStyle } from './types';
+import type { Category, City, ExtraSample, PriceSample, Range, TravelStyle } from './types';
+
+/** 예시 경비 내역의 줄: 외식·현지 교통·기념품·예비비 */
+export type GuideBreakdownKey = Exclude<Category, 'attraction'> | 'contingency';
+const BREAKDOWN: readonly Exclude<Category, 'attraction'>[] = ['food', 'transport', 'souvenir'];
 
 /** 도시 가이드의 예시 일정: 성인 1명, 3박 4일. 스타일별 현지 체류비(예비비 포함)를 보여 준다 */
 export const GUIDE_EXAMPLE = { nights: 3, adults: 1, children: 0 } as const;
@@ -12,7 +16,13 @@ export interface CityGuide {
   /** 예시 일정 기준일(가격 자료 기준일). 요일별 요금이 있는 항목은 이 날짜부터 계산된다 */
   refDate: string;
   /** 스타일별 예시 일정 합계(예비비 포함)와 1인 1일 평균. 계산 불가면 null */
-  styles: Array<{ style: TravelStyle; total: Range | null; perDay: Range | null }>;
+  styles: Array<{
+    style: TravelStyle;
+    total: Range | null;
+    perDay: Range | null;
+    /** 항목별 내역(전 일정·성인 1명). 관광지는 예시 일정에 넣지 않으므로 없다 */
+    breakdown: Array<{ key: GuideBreakdownKey; total: Range | null }>;
+  }>;
   prices: GuideRow[];
   attractions: AttractionOption[];
 }
@@ -22,7 +32,11 @@ export function cityGuide(city: City, samples: PriceSample[], refDate: string, e
   const days = GUIDE_EXAMPLE.nights + 1;
   const styles = STYLES.map((style) => {
     const e = estimateTrip({ cityId: city.id, visitDate: refDate, style, ...GUIDE_EXAMPLE }, city, samples, extras);
-    return { style, total: e.total, perDay: e.total ? { min: e.total.min / days, max: e.total.max / days } : null };
+    const breakdown: CityGuide['styles'][number]['breakdown'] = [
+      ...BREAKDOWN.map((key) => ({ key, total: e.categories[key].total })),
+      { key: 'contingency', total: e.contingency },
+    ];
+    return { style, total: e.total, perDay: e.total ? { min: e.total.min / days, max: e.total.max / days } : null, breakdown };
   });
   return { city, refDate, styles, prices: priceGuide(city, samples), attractions: attractionOptions(city, samples) };
 }

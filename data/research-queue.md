@@ -8,13 +8,9 @@
 
 | 도시 | 바스켓 | 현재 독립 표본 | 필요 | 필요한 자료 |
 | --- | --- | --- | --- | --- |
-| 오사카 | 식사 | 2 | 1건 더 | 다른 식당의 한 끼 식사 공식 메뉴 가격 |
-| 방콕 | 기념품 | 2 | 1건 더 | 다른 상품의 기념품 공식 판매가(같은 상품의 용량 차이는 1건으로 셈) |
-| 다낭 | 식사 | 1 | 2건 더 | 다른 식당의 한 끼 식사 공식 메뉴 가격 |
+| 다낭 | 식사 | 2 | 1건 더 | 다른 식당의 한 끼 식사 공식 메뉴 가격 |
 | 타이베이 | 식사 | 1 | 2건 더 | 다른 식당의 한 끼 식사 공식 메뉴 가격 |
-| 싱가포르 | 식사 | 0 | 3건 더 | 다른 식당의 한 끼 식사 공식 메뉴 가격 |
-| 싱가포르 | 기념품 | 2 | 1건 더 | 다른 상품의 기념품 공식 판매가(같은 상품의 용량 차이는 1건으로 셈) |
-| 파리 | 기념품 | 2 | 1건 더 | 다른 상품의 기념품 공식 판매가(같은 상품의 용량 차이는 1건으로 셈) |
+| 싱가포르 | 식사 | 2 | 1건 더 | 다른 식당의 한 끼 식사 공식 메뉴 가격 |
 
 ## 2. 보강하면 좋은 바스켓(계산은 가능)
 
@@ -23,6 +19,7 @@
 | 도쿄 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 도쿄 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 오사카 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 오사카 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 방콕 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 방콕 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 다낭 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -112,6 +109,16 @@
 | CJU-AT-008 | 제주 | 오설록 티뮤지엄 본관 관람 | 0 KRW | A | 예 | 재검증 | [오설록 공식홈페이지 티뮤지엄 안내](https://www.osulloc.com/kr/ko/museum) |
 | CJU-AT-009 | 제주 | 천지연폭포 관람료 (어른) | 2000 KRW | A | 예 | 재검증 | [서귀포시 공영관광지 관람안내](https://www.seogwipo.go.kr/) |
 | CJU-AT-010 | 제주 | 천지연폭포 관람료 (어린이) | 1000 KRW | A | 예 | 재검증 | [서귀포시 공영관광지 관람안내](https://www.seogwipo.go.kr/) |
+| OSA-FD-901 | 오사카 | 이치란 돈코츠 라멘 | 1180 JPY | A | 예 | 재검증 | [一蘭 心斎橋店](https://ichiran.com/shop/kinki/shinsaibashi/) |
+| OSA-FD-902 | 오사카 | 호텔 뉴오타니 오사카 SATSUKI 연어 허브버터 구이 | 3800 JPY | A | 예 | 재검증 | [ホテルニューオータニ大阪 SATSUKI](https://www.newotani.co.jp/en/osaka/restaurant/satsuki/) |
+| BKK-SV-901 | 방콕 | 짐 톰슨 코끼리 실크 스카프 52인치 | 8500 THB | A | 예 | 재검증 | [Jim Thompson Official Shop](https://www.jimthompson.com/products/elephant-bath-silk-scarf-52-green) |
+| DAD-FD-901 | 다낭 | 인더스 베지 파코라 | 119000 VND | A | 예 | 재검증 | [Indus Indian Restaurant Da Nang](https://www.indus.vn/menu/) |
+| DAD-FD-902 | 다낭 | 인더스 치킨 티카 마살라 | 149000 VND | A | 예 | 재검증 | [Indus Indian Restaurant Da Nang](https://www.indus.vn/menu/) |
+| SIN-FD-901 | 싱가포르 | 야쿤 카야토스트 버터 세트 | 5.6 SGD | A | 예 | 재검증 | [Ya Kun Kaya Toast](https://yakun.com.sg/) |
+| SIN-FD-902 | 싱가포르 | 이치란 돈코츠 라멘 (싱가포르) | 11.8 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [一蘭 ICHIRAN Singapore](https://en.ichiran.com/np/shop/singapore/) |
+| SIN-FD-903 | 싱가포르 | 올드창키 커리퍼프 | 2.2 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [Old Chang Kee](https://www.oldchangkee.com/dipngo.com.sg/menu.html) |
+| SIN-SV-901 | 싱가포르 | 올드창키 커리퍼프 10개 상자 | 22 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [Old Chang Kee](https://www.oldchangkee.com/dipngo.com.sg/menu.html) |
+| PAR-SV-901 | 파리 | 루브르 사모트라케의 니케 마그넷 | 4.9 EUR | A | 예 | 재검증 | [Louvre Official Boutique](https://boutique.louvre.fr/en/product/19430-magnet-victory-of-samothrace.html) |
 | SEL-TR-001 | 서울 | 서울 지하철 기본요금 (카드) | 1550 KRW | A | 예 | 재검증 | [서울교통공사](http://www.seoulmetro.co.kr/kr/page.do?menuIdx=354) |
 | SEL-TR-002 | 서울 | 서울 간선/지선버스 기본요금 (카드) | 1500 KRW | A | 예 | 재검증 | [서울특별시 대중교통 요금안내](https://news.seoul.go.kr/traffic/archives/508682) |
 | SEL-TR-003 | 서울 | 서울 순환/차등버스 기본요금 (카드) | 1400 KRW | A | 예 | 재검증 | [서울특별시 대중교통 요금안내](https://news.seoul.go.kr/traffic/archives/508682) |

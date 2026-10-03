@@ -5,5 +5,23 @@
     "flagEn": "source not re-checked",
     "detail": "2026-10-02 독립 검수: chammuseum.vn 페이지가 열리지 않아 60,000 VND 원문 가격을 재확인하지 못함(개발 환경에서도 접속 차단).",
     "reportedAt": "2026-10-02"
+  },
+  "SIN-FD-902": {
+    "flag": "출처 확인 필요",
+    "flagEn": "source needs checking",
+    "detail": "2026-10-03 Claude 검토: Perplexity 가 낸 출처 목록에 싱가포르 지점 페이지가 없음. 이치란 싱가포르 지점 존재와 SGD 11.80 을 공식 페이지에서 확인 필요.",
+    "reportedAt": "2026-10-03"
+  },
+  "SIN-FD-903": {
+    "flag": "출처 확인 필요",
+    "flagEn": "source needs checking",
+    "detail": "2026-10-03 Claude 검토: 출처 주소(oldchangkee.com/dipngo.com.sg/...) 형식이 비정상. 공식 메뉴 페이지 재확인 필요.",
+    "reportedAt": "2026-10-03"
+  },
+  "SIN-SV-901": {
+    "flag": "출처 확인 필요",
+    "flagEn": "source needs checking",
+    "detail": "2026-10-03 Claude 검토: 출처 주소(oldchangkee.com/dipngo.com.sg/...) 형식이 비정상. 공식 메뉴 페이지 재확인 필요.",
+    "reportedAt": "2026-10-03"
   }
 }

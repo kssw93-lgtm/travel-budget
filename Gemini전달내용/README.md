@@ -17,7 +17,7 @@ GPT 가 쉬는 동안 Gemini 에게 **가격 수집**을 맡깁니다. 받은 CS
 
 | 순서 | 요청 | 결과 파일 이름(Claude 가 저장) |
 | --- | --- | --- |
-| 1 | 서울 가격 (아래 요청문 그대로) | `prices-seoul.csv` |
+| 1 | 서울 가격 (아래 요청문 그대로) — ✅ 2026-10-03 받음(28행) | `prices-seoul.csv` |
 | 2 | 부산 가격 (요청문의 도시·ID 만 바꿈) | `prices-busan.csv` |
 | 3 | 제주 가격 (+ 렌터카) | `prices-jeju.csv` |
 | 4 | 서울·부산·제주 대표 음식 | `foods-korea.csv` |

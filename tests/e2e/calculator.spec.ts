@@ -118,10 +118,11 @@ test.describe('계산기 핵심 흐름', () => {
   test('조건부·부족 바스켓 경고가 결과에 표시된다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/');
-    await fillTrip(page, { city: 'singapore' });
+    // v0.4 실데이터: 파리 외식은 조건부·시작가 표본을 쓴다(부족 바스켓 경고 문구는 단위 테스트가 고정)
+    await fillTrip(page, { city: 'paris' });
     const q = page.getByTestId('quality');
+    await page.locator('details.evidence > summary').click();
     await expect(q.locator('[data-category="food"]')).toContainText('"조건부"');
-    await expect(q.locator('[data-category="food"]')).toContainText('간식·음료은(는) 표본이 3건 미만');
   });
 
   test('항공권·숙박을 직접 입력하면 합산된다', async ({ page }) => {
@@ -254,15 +255,15 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(page.getByTestId('attractions').locator('details')).toHaveAttribute('open', '');
     await page.locator('[data-attraction="LON-AT-001"] input').check();
     await page.locator('[data-attraction="LON-AT-003"] input').check();
-    await expect(page.getByTestId('attractions-status')).toContainText('2곳 선택 · +£179.00 ~ £208.00');
-    await expect(page.locator('[data-attraction="LON-AT-001"] [data-testid="attr-added"]')).toContainText('+£95.00 (전체 3명)'); // 38×2 + 19
+    await expect(page.getByTestId('attractions-status')).toContainText('2곳 선택 · +£176.50 ~ £205.50');
+    await expect(page.locator('[data-attraction="LON-AT-001"] [data-testid="attr-added"]')).toContainText('+£92.50 (전체 3명)'); // 37×2 + 18.5
     await expect(row).toContainText('선택한 관광지 2곳');
-    // 2×(38+29)+(19+26) = 179, 2×(38+39)+(19+35) = 208
-    await expect(row).toContainText('£179.00 ~ £208.00');
+    // v0.4: 2×(37+29)+(18.5+26) = 176.5, 2×(37+39)+(18.5+35) = 205.5
+    await expect(row).toContainText('£176.50 ~ £205.50');
     await expect(page).toHaveURL(/attr=LON-AT-001%2CLON-AT-003|attr=LON-AT-001,LON-AT-003/);
     await page.reload();
     await expect(page.locator('[data-attraction="LON-AT-003"] input')).toBeChecked();
-    await expect(row).toContainText('£179.00 ~ £208.00');
+    await expect(row).toContainText('£176.50 ~ £205.50');
     // 도시를 바꾸면 선택이 비워진다
     await page.selectOption('#city', 'paris');
     await expect(page.getByTestId('attractions-status')).toContainText('고른 곳 없음');

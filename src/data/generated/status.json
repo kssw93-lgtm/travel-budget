@@ -30,7 +30,7 @@
   },
   "osaka": {
     "counts": {
-      "food": 3,
+      "food": 2,
       "transport": 3,
       "attraction": 3,
       "souvenir": 3
@@ -38,7 +38,7 @@
     "baskets": {
       "pass": 1,
       "ride": 3,
-      "meal": 3,
+      "meal": 2,
       "snack": 1,
       "drink": 0,
       "attraction": 3,
@@ -47,22 +47,24 @@
     "basketRows": {
       "pass": 2,
       "ride": 3,
-      "meal": 3,
+      "meal": 2,
       "snack": 1,
       "drink": 0,
       "attraction": 3,
       "souvenir": 4
     },
-    "fillRate": 1,
-    "missing": [],
-    "computable": true
+    "fillRate": 0.89,
+    "missing": [
+      "food"
+    ],
+    "computable": false
   },
   "bangkok": {
     "counts": {
       "food": 3,
       "transport": 3,
       "attraction": 3,
-      "souvenir": 3
+      "souvenir": 2
     },
     "baskets": {
       "pass": 1,
@@ -71,7 +73,7 @@
       "snack": 0,
       "drink": 0,
       "attraction": 3,
-      "souvenir": 3
+      "souvenir": 2
     },
     "basketRows": {
       "pass": 1,
@@ -80,15 +82,17 @@
       "snack": 0,
       "drink": 0,
       "attraction": 3,
-      "souvenir": 3
+      "souvenir": 2
     },
-    "fillRate": 1,
-    "missing": [],
-    "computable": true
+    "fillRate": 0.89,
+    "missing": [
+      "souvenir"
+    ],
+    "computable": false
   },
   "da-nang": {
     "counts": {
-      "food": 3,
+      "food": 1,
       "transport": 3,
       "attraction": 3,
       "souvenir": 3
@@ -96,7 +100,7 @@
     "baskets": {
       "pass": 0,
       "ride": 3,
-      "meal": 3,
+      "meal": 1,
       "snack": 0,
       "drink": 0,
       "attraction": 3,
@@ -105,19 +109,21 @@
     "basketRows": {
       "pass": 0,
       "ride": 3,
-      "meal": 3,
+      "meal": 1,
       "snack": 0,
       "drink": 0,
       "attraction": 4,
       "souvenir": 3
     },
-    "fillRate": 1,
-    "missing": [],
-    "computable": true
+    "fillRate": 0.78,
+    "missing": [
+      "food"
+    ],
+    "computable": false
   },
   "taipei": {
     "counts": {
-      "food": 3,
+      "food": 1,
       "transport": 3,
       "attraction": 4,
       "souvenir": 3
@@ -125,7 +131,7 @@
     "baskets": {
       "pass": 1,
       "ride": 3,
-      "meal": 3,
+      "meal": 1,
       "snack": 0,
       "drink": 0,
       "attraction": 4,
@@ -134,51 +140,56 @@
     "basketRows": {
       "pass": 3,
       "ride": 3,
-      "meal": 3,
+      "meal": 1,
       "snack": 0,
       "drink": 0,
       "attraction": 4,
       "souvenir": 4
     },
-    "fillRate": 1,
-    "missing": [],
-    "computable": true
+    "fillRate": 0.78,
+    "missing": [
+      "food"
+    ],
+    "computable": false
   },
   "singapore": {
     "counts": {
-      "food": 3,
+      "food": 0,
       "transport": 3,
       "attraction": 3,
-      "souvenir": 3
+      "souvenir": 2
     },
     "baskets": {
       "pass": 1,
       "ride": 3,
-      "meal": 3,
-      "snack": 2,
+      "meal": 0,
+      "snack": 0,
       "drink": 0,
       "attraction": 3,
-      "souvenir": 3
+      "souvenir": 2
     },
     "basketRows": {
       "pass": 1,
       "ride": 3,
-      "meal": 3,
-      "snack": 2,
+      "meal": 0,
+      "snack": 0,
       "drink": 0,
       "attraction": 3,
-      "souvenir": 3
+      "souvenir": 2
     },
-    "fillRate": 1,
-    "missing": [],
-    "computable": true
+    "fillRate": 0.56,
+    "missing": [
+      "food",
+      "souvenir"
+    ],
+    "computable": false
   },
   "paris": {
     "counts": {
       "food": 3,
       "transport": 3,
       "attraction": 3,
-      "souvenir": 3
+      "souvenir": 2
     },
     "baskets": {
       "pass": 1,
@@ -187,7 +198,7 @@
       "snack": 0,
       "drink": 0,
       "attraction": 3,
-      "souvenir": 3
+      "souvenir": 2
     },
     "basketRows": {
       "pass": 1,
@@ -196,11 +207,13 @@
       "snack": 0,
       "drink": 0,
       "attraction": 5,
-      "souvenir": 3
+      "souvenir": 2
     },
-    "fillRate": 1,
-    "missing": [],
-    "computable": true
+    "fillRate": 0.89,
+    "missing": [
+      "souvenir"
+    ],
+    "computable": false
   },
   "london": {
     "counts": {

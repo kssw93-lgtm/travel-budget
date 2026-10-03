@@ -37,16 +37,16 @@ describe('선택한 관광지로 관광 비용 계산', () => {
 
   it('고른 곳의 입장료 합계(1곳 1회)로 바뀐다 — 도쿄 스카이트리 + 도쿄타워, 성인 2', () => {
     const e = estimateTrip(trip('tokyo', { attractionIds: ['TYO-AT-001', 'TYO-AT-002'] }), city('tokyo'), samples);
-    expect(e.categories.attraction).toMatchObject({ mode: 'selected', total: { min: 9000, max: 9000 }, sampleCount: 2, sufficient: true });
-    // 스카이트리는 조건부·재검증·시작가 표본 → 경고가 그대로 붙는다
-    expect(e.warnings.filter((w) => w.category === 'attraction').map((w) => w.code)).toEqual(expect.arrayContaining(['conditionalUsed', 'revalidation']));
+    // v0.4: 스카이트리 콤보는 날짜별 수요요금 ¥3,000–4,800(조건부) → 2×(3000+1500) ~ 2×(4800+1500)
+    expect(e.categories.attraction).toMatchObject({ mode: 'selected', total: { min: 9000, max: 12600 }, sampleCount: 2, sufficient: true });
+    expect(e.warnings.filter((w) => w.category === 'attraction').map((w) => w.code)).toEqual(expect.arrayContaining(['conditionalUsed', 'variablePricing']));
     expect(e.computable).toBe(true);
   });
 
   it('아동 요금이 있으면 아동 요금, 범위 가격은 범위 그대로 — 런던탑 + 런던아이, 성인 2·아동 1', () => {
     const e = estimateTrip(trip('london', { children: 1, attractionIds: ['LON-AT-001', 'LON-AT-003'] }), city('london'), samples);
-    // 최소: 2×(38+29) + (19+26) = 179, 최대: 2×(38+39) + (19+35) = 208
-    expect(e.categories.attraction.total).toEqual({ min: 179, max: 208 });
+    // v0.4 런던탑 성인 £37·아동 £18.5 → 최소: 2×(37+29) + (18.5+26) = 176.5, 최대: 2×(37+39) + (18.5+35) = 205.5
+    expect(e.categories.attraction.total).toEqual({ min: 176.5, max: 205.5 });
     expect(e.categories.attraction.usedIds).toEqual(expect.arrayContaining(['LON-AT-002', 'LON-AT-004']));
     expect(e.warnings.find((w) => w.code === 'variablePricing' && w.category === 'attraction')?.ids).toEqual(['LON-AT-003', 'LON-AT-004']); // 성인·아동 모두 수요형
     expect(e.warnings.some((w) => w.code === 'childAsAdult' && w.category === 'attraction')).toBe(false);

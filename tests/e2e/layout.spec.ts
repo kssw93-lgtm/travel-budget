@@ -20,7 +20,7 @@ async function boxes(page: Page, selector: string): Promise<Box[]> {
 }
 
 const pages = [
-  ['계산기(계산 가능)', '/?lang=ko&city=paris&date=2026-11-04&nights=3&adults=2&children=1&style=standard&cur=KRW'],
+  ['계산기(계산 가능)', '/?lang=ko&city=tokyo&date=2026-11-04&nights=3&adults=2&children=1&style=standard&cur=KRW'],
   ['계산기(영어·부족 상태)', '/?lang=en&city=tokyo&date=2027-08-02&nights=2&adults=1&children=0&style=comfort&cur=USD'],
   ['사이트 소개', '/about?lang=ko'],
   ['도시 가이드(파리)', '/guide/paris?lang=ko'],

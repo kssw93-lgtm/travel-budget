@@ -16,24 +16,25 @@ ChatGPT 에게 전달할 내용을 모두 이 폴더에 모았습니다. **이 �
 
 | 자료 | 위치 | 용도 |
 | --- | --- | --- |
-| 현재 조사 엑셀 v0.3 | [`data/source/travel_cost_research_pilot_v0.3_2026-10-02.xlsx`](../data/source/travel_cost_research_pilot_v0.3_2026-10-02.xlsx) | 이 파일을 복사해 v0.4 를 만듭니다(원본은 수정하지 않음) |
+| 현재 조사 엑셀 v0.4 | [`data/source/travel_cost_research_pilot_v0.4_2026-10-03.xlsx`](../data/source/travel_cost_research_pilot_v0.4_2026-10-03.xlsx) | 이 파일을 복사해 v0.5 를 만듭니다(원본은 수정하지 않음) |
+| Gemini 수집 서울 가격 | [`data/additions/prices-seoul.csv`](../data/additions/prices-seoul.csv) | 0순위-2 확인 대상 |
 | 부족 항목 목록(자동 생성) | [`data/research-queue.md`](../data/research-queue.md) | 도시별로 더 필요한 바스켓, 재검증이 필요한 표본 |
 | 데이터 변경 기록 | [`data/CHANGELOG.md`](../data/CHANGELOG.md) | v0.1~v0.3 에서 무엇이 바뀌었는지 |
 | Gemini 검수 안내 | [`Gemini전달내용/`](../Gemini전달내용/) | 역할 분담(수집 = GPT, 교차 검수 = Gemini, 변환·코드 = Claude) |
 
 ## 결과물
 
-- 새 엑셀 1개: `travel_cost_research_pilot_v0.4_YYYY-MM-DD.xlsx` (기존 시트·열 이름 유지)
+- 새 엑셀 1개: `travel_cost_research_pilot_v0.5_YYYY-MM-DD.xlsx` (기존 시트·열 이름 유지)
 - 운영자가 Claude 에게 전달하면, Claude 가 변환·검증한 뒤 사이트에 반영합니다.
 
 ## 운영자가 GPT 에게 붙여 넣을 요청문
 
 ```
 travel-budget 저장소의 "GPT전달내용" 폴더를 확인해줘. README.md 순서대로 읽고,
-HANDOFF_GPT.md 맨 위 "★ GPT 할 일 전체 요약"을 1순위부터 진행해줘.
-v0.3 엑셀을 복사해 travel_cost_research_pilot_v0.4_(오늘 날짜).xlsx 로 만들고 기존 시트·열 이름은 그대로 둬.
+HANDOFF_GPT.md 맨 위 "★ GPT 할 일 전체 요약"을 0순위부터 진행해줘.
+최신 v0.4 엑셀을 복사해 travel_cost_research_pilot_v0.5_(오늘 날짜).xlsx 로 만들고 기존 시트·열 이름은 그대로 둬.
 가격은 판매 주체의 공식 페이지에서 직접 본 원값만 쓰고, 추정·환산·블로그·예약 사이트 값은 쓰지 마.
-분량이 많으면 1순위를 끝낸 중간 결과 엑셀을 먼저 줘.
+분량이 많으면 0순위를 끝낸 중간 결과 엑셀을 먼저 줘.
 ```
 
 GPT 가 저장소를 직접 열 수 없으면, 이 폴더의 파일 3개와 v0.3 엑셀을 첨부해 같은 요청문을 보내면 됩니다.

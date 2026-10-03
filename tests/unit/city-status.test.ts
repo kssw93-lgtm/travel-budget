@@ -26,13 +26,13 @@ describe('파일럿 도시 데이터 상태', () => {
     );
     expect(table).toMatchInlineSnapshot(`
       {
-        "bangkok": "3/3/3/3 · 100% · ready",
-        "da-nang": "3/3/3/3 · 100% · ready",
+        "bangkok": "3/3/3/2 · 89% · hold: souvenir",
+        "da-nang": "1/3/3/3 · 78% · hold: food",
         "london": "3/3/4/3 · 100% · ready",
-        "osaka": "3/3/3/3 · 100% · ready",
-        "paris": "3/3/3/3 · 100% · ready",
-        "singapore": "3/3/3/3 · 100% · ready",
-        "taipei": "3/3/4/3 · 100% · ready",
+        "osaka": "2/3/3/3 · 89% · hold: food",
+        "paris": "3/3/3/2 · 89% · hold: souvenir",
+        "singapore": "0/3/3/2 · 56% · hold: food, souvenir",
+        "taipei": "1/3/4/3 · 78% · hold: food",
         "tokyo": "3/3/3/3 · 100% · ready",
       }
     `);
@@ -48,13 +48,13 @@ describe('파일럿 도시 데이터 상태', () => {
     );
     expect(table).toMatchInlineSnapshot(`
       {
-        "bangkok": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/3 · souvenir 3/3",
-        "da-nang": "pass 0/0 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/4 · souvenir 3/3",
+        "bangkok": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/3 · souvenir 2/2",
+        "da-nang": "pass 0/0 · ride 3/3 · meal 1/1 · snack 0/0 · attraction 3/4 · souvenir 3/3",
         "london": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 4/4 · souvenir 3/3",
-        "osaka": "pass 1/2 · ride 3/3 · meal 3/3 · snack 1/1 · attraction 3/3 · souvenir 3/4",
-        "paris": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/5 · souvenir 3/3",
-        "singapore": "pass 1/1 · ride 3/3 · meal 3/3 · snack 2/2 · attraction 3/3 · souvenir 3/3",
-        "taipei": "pass 1/3 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 4/4 · souvenir 3/4",
+        "osaka": "pass 1/2 · ride 3/3 · meal 2/2 · snack 1/1 · attraction 3/3 · souvenir 3/4",
+        "paris": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/5 · souvenir 2/2",
+        "singapore": "pass 1/1 · ride 3/3 · meal 0/0 · snack 0/0 · attraction 3/3 · souvenir 2/2",
+        "taipei": "pass 1/3 · ride 3/3 · meal 1/1 · snack 0/0 · attraction 4/4 · souvenir 3/4",
         "tokyo": "pass 1/3 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/3 · souvenir 3/4",
       }
     `);
@@ -84,7 +84,8 @@ describe('v0.3 신규 공식 표본이 실제 분류 규칙으로 부족 항목�
     expect(cityStatusFile.paris!.baskets.attraction).toBe(3);
     expect(cityStatusFile.taipei!.baskets.ride).toBe(3);
     expect(cityStatusFile.london!.baskets.ride).toBe(3);
-    for (const id of ['da-nang', 'paris', 'taipei', 'london']) expect(cityStatusFile[id]!.computable).toBe(true);
+    // 판정 자체는 다른 바스켓(v0.4 에서 보류된 식사·기념품)에 따라 달라지므로 상태 파일 스냅숏이 고정한다
+    expect(cityStatusFile.london!.computable).toBe(true);
   });
 
   it('파리 개선문은 €16–22 범위를 유지하고 변동 가격으로 경고된다', () => {
@@ -135,7 +136,6 @@ describe('검수 지적 사항', () => {
     const s = samples.find((x) => x.id === 'DAD-AT-004')!;
     expect([s.min, s.max, s.review?.flag]).toEqual([60000, 60000, '원문 미확인']);
     const e = run('da-nang', '2026-11-04', ['DAD-AT-004']);
-    expect(e.computable).toBe(true);
     expect(e.warnings.find((w) => w.code === 'revalidation' && w.category === 'attraction')?.ids).toContain('DAD-AT-004');
     expect(readFileSync('data/research-queue.md', 'utf8')).toMatch(/DAD-AT-004 .*검수: 원문 미확인/);
   });

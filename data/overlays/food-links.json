@@ -21,5 +21,9 @@
   ],
   "istanbul:Döner kebab": [
     "IST-FD-742"
+  ],
+  "busan:Dwaeji Gukbap": [
+    "PUS-FD-764",
+    "PUS-FD-765"
   ]
 }

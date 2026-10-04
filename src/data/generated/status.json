@@ -387,8 +387,8 @@
       "pass": 1,
       "ride": 3,
       "meal": 5,
-      "snack": 0,
-      "drink": 0,
+      "snack": 1,
+      "drink": 3,
       "attraction": 7,
       "souvenir": 6
     },
@@ -396,8 +396,8 @@
       "pass": 1,
       "ride": 3,
       "meal": 5,
-      "snack": 0,
-      "drink": 0,
+      "snack": 1,
+      "drink": 3,
       "attraction": 7,
       "souvenir": 6
     },
@@ -407,7 +407,7 @@
   },
   "busan": {
     "counts": {
-      "food": 6,
+      "food": 12,
       "transport": 3,
       "attraction": 7,
       "souvenir": 3
@@ -415,8 +415,8 @@
     "baskets": {
       "pass": 1,
       "ride": 3,
-      "meal": 6,
-      "snack": 3,
+      "meal": 12,
+      "snack": 5,
       "drink": 3,
       "attraction": 7,
       "souvenir": 3
@@ -424,8 +424,8 @@
     "basketRows": {
       "pass": 1,
       "ride": 4,
-      "meal": 6,
-      "snack": 3,
+      "meal": 12,
+      "snack": 5,
       "drink": 3,
       "attraction": 7,
       "souvenir": 3
@@ -436,7 +436,7 @@
   },
   "jeju": {
     "counts": {
-      "food": 5,
+      "food": 14,
       "transport": 3,
       "attraction": 6,
       "souvenir": 3
@@ -444,7 +444,7 @@
     "baskets": {
       "pass": 0,
       "ride": 3,
-      "meal": 5,
+      "meal": 14,
       "snack": 3,
       "drink": 3,
       "attraction": 6,
@@ -453,7 +453,7 @@
     "basketRows": {
       "pass": 0,
       "ride": 3,
-      "meal": 5,
+      "meal": 14,
       "snack": 3,
       "drink": 3,
       "attraction": 6,

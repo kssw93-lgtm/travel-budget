@@ -871,7 +871,10 @@
     "reason": "진하게 우려낸 돼지 사골 육수에 야들야들한 돼지고기와 부추무침을 곁들여 든든하게 즐기는 부산 1위 향토음식이다.",
     "reasonEn": "Busan's best-known local dish: rich pork-bone soup with tender pork, served with seasoned chives.",
     "budgetBand": "저~중",
-    "linkedPriceIds": [],
+    "linkedPriceIds": [
+      "PUS-FD-764",
+      "PUS-FD-765"
+    ],
     "priceStatus": "대기",
     "recommendSource": "비짓부산(부산관광공사)",
     "recommendUrl": "https://www.visitbusan.net/index.do?menuCd=DOM_000000202003001000&uc_seq=1005&lang_cd=ko",

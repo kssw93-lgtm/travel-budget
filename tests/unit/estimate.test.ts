@@ -498,3 +498,40 @@ describe('차량·객실 단위 관광 상품', () => {
     expect(classify(sample({ category: 'attraction', unit: '성인 1인' })).usable).toBe(true);
   });
 });
+
+describe('자세히 설정', () => {
+  it('교통 거의 안 탐: 교통비 0, 합계는 계산된다', () => {
+    const e = estimateTrip(trip({ transport: { mode: 'none' } }), city, baseSamples());
+    close(e.categories.transport.total, 0, 0);
+    expect(e.computable).toBe(true);
+    expect(e.warnings.some((w) => w.code === 'transportNone')).toBe(true);
+  });
+
+  it('하루 횟수 직접: 1회권 × 하루 횟수 × 이용 일수 × 인원', () => {
+    const rows = [...baseSamples(), ride(2), ride(4), ride(6)];
+    const one = estimateTrip(trip({ transport: { mode: 'rides', perDay: 1, days: 1 } }), city, rows).categories.transport.total!;
+    const four = estimateTrip(trip({ transport: { mode: 'rides', perDay: 2, days: 2 } }), city, rows).categories.transport.total!;
+    expect(four.min).toBeCloseTo(one.min * 4, 6);
+    expect(four.max).toBeCloseTo(one.max * 4, 6);
+  });
+
+  it('이용권: 고른 이용권을 이용 일수만큼(1일권 3일 = 3장) × 인원', () => {
+    const rows = [...baseSamples(), sample({ id: 'TST-TR-900', category: 'transport', subtype: '무제한권', unit: '성인 1일', min: 15, nameEn: 'Day Pass' })];
+    const e = estimateTrip(trip({ transport: { mode: 'pass', passId: 'TST-TR-900', days: 3 } }), city, rows);
+    close(e.categories.transport.total, 90, 90);
+    expect(e.categories.transport.lines[0]).toMatchObject({ kind: 'item', basket: 'pass', units: 3 });
+  });
+
+  it('하루 끼니 수를 바꾸면 식사 횟수가 바뀐다(3끼 → 2끼)', () => {
+    close(estimateTrip(trip({ mealsPerDay: 2 }), city, baseSamples()).categories.food.total, 160, 352);
+  });
+
+  it('꼭 먹을 음식: 1인분 가격 × 인원을 더하고 일반 한 끼(1인 단가 × 인원)를 뺀다', () => {
+    // 기본 외식 [240, 528], 1끼 단가 [12.5, 27.5], 성인 2명, 라멘 50
+    const e = estimateTrip(trip({ mustEat: [{ name: '라멘', price: 50 }] }), city, baseSamples());
+    close(e.categories.food.total, 240 - 25 + 100, 528 - 55 + 100);
+    expect(e.warnings.find((w) => w.code === 'mustEat')).toMatchObject({ names: ['라멘'], n: 1 });
+    expect(e.warnings.find((w) => w.code === 'customPrice')).toMatchObject({ names: ['라멘'] });
+  });
+});
+

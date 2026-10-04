@@ -15,7 +15,7 @@ export function staticRates(): RatesPayload {
     rates,
     asOf: table.asOf,
     fetchedAt: `${table.researchedAt}T00:00:00Z`,
-    source: { id: 'research', name: 'ECB 기준환율 외 조사값 / ECB reference rates & others', url: table.ecb.url },
+    source: { id: 'research', name: 'ECB reference rates & official sources', url: table.ecb.url },
     stale: false,
   };
 }

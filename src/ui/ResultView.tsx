@@ -57,16 +57,16 @@ function AmountRows({ range, local, display, rates }: { range: Range | null; loc
 }
 
 function warningText(w: Warning, byId: Map<string, PriceSample>, lang: Lang, t: ReturnType<typeof useI18n>['t']): string {
-  const names = (w.ids ?? []).map((id) => {
+  const names = [...(w.names ?? []), ...(w.ids ?? []).map((id) => {
     const s = byId.get(id);
     if (!s) return id;
     const name = localName(lang, s.nameKo, s.nameEn);
     // 변동 가격은 단일 가격으로 오인하지 않도록 표본의 현지 통화 범위를 함께 적는다
     return w.code === 'variablePricing' && s.min !== s.max ? `${name} (${s.min}~${s.max} ${s.currency})` : name;
-  }).join(', ');
+  })].join(', ');
   const rate = Math.round(MODEL.minFillRate * 100);
   const basket = w.basket ? (t.baskets[w.basket] ?? w.basket) : '';
-  return fmt(t.warnings[w.code], { names, min: MODEL.minSamplesPerCategory, rate, basket });
+  return fmt(t.warnings[w.code], { names, min: MODEL.minSamplesPerCategory, rate, basket, n: w.n ?? 0 });
 }
 
 export function ResultView({ estimate: e, trip, city, display, rates, samples, direct }: Props) {
@@ -77,6 +77,11 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
   const byId = new Map(samples.map((s) => [s.id, s]));
   const catName = (c: Category) => t.categories[c];
   const kids = trip.children > 0 ? fmt(t.result.kids, { n: trip.children }) : '';
+  /** 사용자가 정한 비용군(관광지 선택, 교통 이용 방식)의 한 줄 요약 */
+  const selectedLabel = (est: CategoryEstimate): string => {
+    if (est.category === 'transport') return est.lines[0] ? fmt(t.result.transportPassShort, { n: est.lines[0].units }) : t.result.transportNoneShort;
+    return est.sampleCount ? fmt(t.result.selectedAttractions, { n: est.sampleCount }) : t.result.noAttractions;
+  };
 
   const entered = direct.flight + direct.lodging;
   let directConverted: number | null = 0;
@@ -168,7 +173,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
               <tr key={c} data-category={c}>
                 <th scope="row">
                   {catName(c)}
-                  <small>{est.mode === 'selected' ? (est.sampleCount ? fmt(t.result.selectedAttractions, { n: est.sampleCount }) : t.result.noAttractions) : est.sufficient ? fmt(t.result.samples, { n: est.independentCount }) : ''}</small>
+                  <small>{est.mode === 'selected' ? selectedLabel(est) : est.sufficient ? fmt(t.result.samples, { n: est.independentCount }) : ''}</small>
                 </th>
                 {est.total ? (
                   <>
@@ -259,7 +264,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
                 </span>
               </summary>
               <ul className="baskets" data-testid={`baskets-${c}`}>
-                {est.mode === 'selected' && <li data-basket="selected">{est.sampleCount ? fmt(t.result.selectedAttractions, { n: est.sampleCount }) : t.result.noAttractions}</li>}
+                {est.mode === 'selected' && <li data-basket="selected">{selectedLabel(est)}</li>}
                 {est.mode === 'estimated' && est.baskets.filter((b) => b.sampleCount > 0 || b.included).map((b) => (
                   <li key={b.basket} data-basket={b.basket}>
                     {fmt(t.result.basketLine, { name: t.baskets[b.basket] ?? b.basket, n: b.sampleCount, ind: b.independentCount })} ·{' '}

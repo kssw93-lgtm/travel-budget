@@ -71,6 +71,9 @@ export function TripForm({ form, onChange, errors, cities, rates }: Props) {
     flight: t.form.errors.amount,
     lodging: t.form.errors.amount,
     rentalDays: fmt(t.form.errors.rentalDays, { max: L.nightsMax + 1 }),
+    ridesPerDay: t.form.errors.ridesPerDay,
+    transitDays: fmt(t.form.errors.transitDays, { max: L.nightsMax + 1 }),
+    mustEat: t.form.errors.mustEat,
   };
   const field = (id: FieldError) =>
     errors[id] ? { 'aria-invalid': true, 'aria-describedby': `err-${id}` } : {};

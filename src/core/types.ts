@@ -113,6 +113,26 @@ export interface TripInput {
   /** 고른 렌터카 상품(1일 요금, 차량 1대)과 대여 일수 */
   rentalId?: string;
   rentalDays?: number;
+  /**
+   * 교통 이용 방식(자세히 설정). 없으면 여행 스타일별 하루 이용 횟수 가정으로 매일 계산한다.
+   * none: 시내 대중교통을 거의 타지 않음(공항 이동은 따로 고른 경우만) · rides: 하루 perDay 번 × days 일 ·
+   * pass: 고른 이용권(passId)으로 days 일을 덮는 장수
+   */
+  transport?: TransportPlan;
+  /** 하루 끼니 수(자세히 설정, 1~4). 없으면 모델 기본값 */
+  mealsPerDay?: number;
+  /** 꼭 먹을 음식(자세히 설정): 1인분 가격(현지 통화). 1개당 1인 일반 한 끼를 대신한다 */
+  mustEat?: MustEat[];
+}
+
+export type TransportPlan = { mode: 'none' } | { mode: 'rides'; perDay: number; days: number } | { mode: 'pass'; passId: string; days: number };
+
+export interface MustEat {
+  name: string;
+  /** 1인분 가격(현지 통화) */
+  price: number;
+  /** 조사된 가격 표본에서 자동으로 채운 값이면 그 표본 ID(직접 입력이면 없음) */
+  sampleId?: string;
 }
 
 /** 고른 여행당 비용 한 건(공항 이동·렌터카) */
@@ -183,7 +203,10 @@ export type WarningCode =
   | 'capExempt'
   | 'taxExcluded'
   | 'sightseeingRide'
-  | 'drinkNoData';
+  | 'drinkNoData'
+  | 'mustEat'
+  | 'customPrice'
+  | 'transportNone';
 
 export interface Warning {
   code: WarningCode;
@@ -191,6 +214,10 @@ export interface Warning {
   basket?: Basket;
   /** 관련 표본 ID */
   ids?: string[];
+  /** 표본이 아닌 이름(사용자가 입력한 음식 등) */
+  names?: string[];
+  /** 개수 같은 숫자 자리표시자 */
+  n?: number;
 }
 
 export interface SourceRef {

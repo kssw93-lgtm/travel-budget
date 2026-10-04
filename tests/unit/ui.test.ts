@@ -9,9 +9,18 @@ import { cityGroups, matchCity } from '../../src/ui/TripForm';
 const base: FormState = {
   cityId: 'taipei', visitDate: '2026-11-04', nights: '3', adults: '2', children: '0', style: 'standard',
   currency: 'KRW', flight: '', lodging: '', directCurrency: 'KRW', attractions: [], drinks: false, airport: '', airportTrips: '2', rental: '', rentalDays: '',
+  transportMode: 'auto', ridesPerDay: '3', transitDays: '', passId: '', mealsPerDay: '', mustEat: [],
 };
 
 describe('입력 검증', () => {
+  it('자세히 설정: 교통 방식·꼭 먹을 음식을 TripInput 으로, 가격이 빈 음식은 오류', () => {
+    const p = parseForm({ ...base, transportMode: 'rides', ridesPerDay: '2', transitDays: '2', mealsPerDay: '2', mustEat: [{ name: '라멘', price: '1,500' }] });
+    expect(p.trip).toMatchObject({ transport: { mode: 'rides', perDay: 2, days: 2 }, mealsPerDay: 2, mustEat: [{ name: '라멘', price: 1500 }] });
+    expect(parseForm({ ...base, transportMode: 'pass', passId: 'X-TR-001' }).trip?.transport).toEqual({ mode: 'pass', passId: 'X-TR-001', days: 4 });
+    expect(parseForm({ ...base, transportMode: 'none' }).trip?.transport).toEqual({ mode: 'none' });
+    expect(parseForm({ ...base, mustEat: [{ name: '라멘', price: '' }] }).errors.mustEat).toBe(true);
+    expect(parseForm({ ...base, transportMode: 'rides', ridesPerDay: '99' }).errors.ridesPerDay).toBe(true);
+  });
   it('정상 입력은 TripInput 으로 변환', () => {
     const p = parseForm(base);
     expect(p.errors).toEqual({});

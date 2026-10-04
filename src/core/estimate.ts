@@ -2,6 +2,7 @@ import { classify, isVariablePricing, type Classified, type ExcludeReason } from
 import { addDays } from './dates';
 import { BASKET_RULES, BASKETS, CATEGORIES, EDGE_WEIGHTED, ESTIMATED_CATEGORIES, MODEL } from './model-config';
 import { attractionOptions } from './attractions';
+import { passOptions, passesNeeded } from './transport';
 import { estimateExtras } from './extras';
 import { endpoints, independentCount, poolOnDate, selectUsable, styleRange } from './pool';
 import type {
@@ -19,6 +20,13 @@ import type {
   TripInput,
   Warning,
 } from './types';
+
+/** 바스켓 계산 옵션(자세히 설정): 하루 이용 횟수와 이용 일수를 바꾼다 */
+interface BasketOpts {
+  perUse?: number;
+  /** 앞에서부터 며칠만 계산(교통을 매일 타지 않는 경우) */
+  days?: number;
+}
 
 const ZERO: Range = { min: 0, max: 0 };
 const add = (a: Range, b: Range): Range => ({ min: a.min + b.min, max: a.max + b.max });
@@ -83,7 +91,7 @@ export function qualityWarnings(category: Category, rows: Classified[]): Warning
 }
 
 /** 한 바스켓(같은 단위의 표본 묶음)의 전체 일정·전체 인원 합계. 다른 바스켓의 가격과 섞지 않는다. */
-function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates: string[], weights: number[]): BasketRun {
+function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates: string[], weights: number[], opts: BasketOpts = {}): BasketRun {
   const rows = all.filter((r) => r.basket === basket);
   const adultRows = selectUsable(rows.filter((r) => r.audience === 'adult'));
   const childRows = selectUsable(rows.filter((r) => r.audience === 'child'));
@@ -107,7 +115,7 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
   const used = new Map<string, Classified>();
   const excluded = new Set<string>();
   const resolved = new Set<string>();
-  const perUse = MODEL.usage[basket][input.style];
+  const perUse = opts.perUse ?? MODEL.usage[basket][input.style];
   const edge = EDGE_WEIGHTED.includes(basket);
   const hasChildPool = childRows.length > 0;
 
@@ -168,7 +176,8 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
       run.lines.push({ kind: 'trip', basket, units: perUse * input.adults, unitPrice: unit, total });
     }
   } else {
-    for (const [i, date] of dates.entries()) {
+    const useDates = opts.days === undefined ? dates : dates.slice(0, Math.max(0, Math.min(dates.length, opts.days)));
+    for (const [i, date] of useDates.entries()) {
       const adult = personDay(adultRows, date, MODEL.minSamplesPerCategory);
       if (!adult) {
         run.sufficient = false;
@@ -205,10 +214,11 @@ function estimateCategory(
   input: TripInput,
   dates: string[],
   weights: number[],
+  override: { baskets?: readonly Basket[]; opts?: (b: Basket) => BasketOpts } = {},
 ): { estimate: CategoryEstimate; warnings: Warning[] } {
-  const rule = BASKET_RULES[category];
+  const rule = { ...BASKET_RULES[category], ...(override.baskets ? { baskets: override.baskets } : {}) };
   // 주류는 사용자가 "음주 포함"을 고른 경우에만 계산한다
-  const runs = rule.baskets.filter((b) => b !== 'drink' || input.drinks).map((b) => priceBasket(b, all, input, dates, weights));
+  const runs = rule.baskets.filter((b) => b !== 'drink' || input.drinks).map((b) => priceBasket(b, all, input, dates, weights, override.opts?.(b) ?? {}));
   const warnings: Warning[] = [];
   const drinkRun = runs.find((r) => r.basket === 'drink');
   if (drinkRun && drinkRun.adultCount === 0) warnings.push({ category, code: 'drinkNoData', basket: 'drink' });
@@ -307,7 +317,18 @@ export function estimateTrip(input: TripInput, city: City, samples: PriceSample[
   const warnings: Warning[] = [];
   for (const c of CATEGORIES) {
     // 관광지는 자동 추정하지 않는다: 고른 곳의 입장료 합계, 고르지 않으면 0
-    const run = c === 'attraction' ? selectedAttractions(city, samples, input, dates) : estimateCategory(c, classified, input, dates, weights);
+    const run =
+      c === 'attraction'
+        ? selectedAttractions(city, samples, input, dates)
+        : c === 'transport' && input.transport
+          ? plannedTransport(input.transport, city, samples, classified, input, dates, weights)
+          : c === 'food'
+            ? withMustEat(
+                estimateCategory(c, classified, input, dates, weights, { opts: (b) => (b === 'meal' && input.mealsPerDay ? { perUse: input.mealsPerDay } : {}) }),
+                input,
+                weights,
+              )
+            : estimateCategory(c, classified, input, dates, weights);
     categories[c] = run.estimate;
     warnings.push(...run.warnings);
   }
@@ -470,5 +491,95 @@ function selectedAttractions(city: City, samples: PriceSample[], input: TripInpu
       checkedTo: checked[checked.length - 1] ?? null,
       usedIds: used.map((r) => r.sample.id),
     },
+  };
+}
+
+/** 금액만 정해진 비용군(교통 안 탐·이용권 선택 등)의 결과 모양 */
+function fixedEstimate(category: Category, total: Range, lines: DetailLine[], used: Classified[], people: number, days: number): CategoryEstimate {
+  const checked = used.map((r) => r.sample.checkedAt).sort();
+  return {
+    category,
+    mode: 'selected',
+    baskets: [],
+    lines,
+    contingency: null,
+    total,
+    perPersonPerDay: scale(total, 1 / Math.max(1, people * days)),
+    sampleCount: used.length,
+    independentCount: used.length,
+    childSampleCount: used.filter((r) => r.audience === 'child').length,
+    sufficient: true,
+    sources: uniqueSources(used),
+    checkedFrom: checked[0] ?? null,
+    checkedTo: checked[checked.length - 1] ?? null,
+    usedIds: used.map((r) => r.sample.id),
+  };
+}
+
+/**
+ * 자세히 설정의 교통 이용 방식.
+ * none: 0(공항 이동은 따로 고른 상품만) · rides: 1회권 바스켓으로 하루 perDay 번 × days 일(하루 상한 규칙 그대로) ·
+ * pass: 고른 이용권을 days 일 동안 필요한 장수만큼(성인 요금 × 성인 + 같은 상품 아동 요금(없으면 성인 요금) × 아동)
+ */
+function plannedTransport(
+  plan: NonNullable<TripInput['transport']>,
+  city: City,
+  samples: PriceSample[],
+  classified: Classified[],
+  input: TripInput,
+  dates: string[],
+  weights: number[],
+): { estimate: CategoryEstimate; warnings: Warning[] } {
+  const people = input.adults + input.children;
+  if (plan.mode === 'none') {
+    return { estimate: fixedEstimate('transport', ZERO, [], [], people, dates.length), warnings: [{ category: 'transport', code: 'transportNone' }] };
+  }
+  const days = Math.max(0, Math.min(dates.length, plan.days));
+  if (plan.mode === 'rides') {
+    return estimateCategory('transport', classified, input, dates, weights, { baskets: ['ride'], opts: () => ({ perUse: plan.perDay, days }) });
+  }
+  const option = passOptions(city, samples).find((o) => o.id === plan.passId);
+  // 고른 이용권이 이 도시에 없으면(도시를 바꾼 직후 등) 기본 가정으로 계산한다
+  if (!option) return estimateCategory('transport', classified, input, dates, weights);
+  const count = passesNeeded(option.days, days);
+  const adult = { min: option.adult.sample.min, max: option.adult.sample.max };
+  const child = option.child ? { min: option.child.sample.min, max: option.child.sample.max } : adult;
+  const total = add(scale(adult, count * input.adults), scale(child, count * input.children));
+  const used = [option.adult, ...(option.child && input.children > 0 ? [option.child] : [])];
+  const warnings: Warning[] = [...qualityWarnings('transport', used)];
+  if (input.children > 0 && !option.child) warnings.push({ category: 'transport', code: 'childAsAdult' });
+  const line: DetailLine = {
+    kind: 'item', basket: 'pass', id: option.id, nameKo: option.adult.sample.nameKo, nameEn: option.adult.sample.nameEn,
+    units: count, unitPrice: adult, childPrice: option.child ? child : null, total,
+  };
+  return { estimate: fixedEstimate('transport', total, [line], used, people, dates.length), warnings };
+}
+
+/**
+ * 꼭 먹을 음식: 1개당 전 인원이 1인분씩 먹는 것으로 보고 그 가격을 더하고, 같은 수의 일반 한 끼(1인 1끼 단가 × 인원)를 뺀다.
+ * 일반 끼니 수(일정 전체)보다 많이 고르면 남는 것은 빼지 않고 더하기만 한다. 외식이 계산 불가면 그대로 둔다.
+ */
+function withMustEat(run: { estimate: CategoryEstimate; warnings: Warning[] }, input: TripInput, weights: number[]): { estimate: CategoryEstimate; warnings: Warning[] } {
+  const items = (input.mustEat ?? []).filter((m) => m.price >= 0 && m.name.trim());
+  const e = run.estimate;
+  if (items.length === 0 || !e.total) return run;
+  const people = input.adults + input.children;
+  const mealLine = e.lines.find((l) => l.basket === 'meal');
+  const mealsPerPerson = weights.reduce((sum, w) => sum + w, 0) * (input.mealsPerDay ?? MODEL.usage.meal[input.style]);
+  const replaced = Math.min(items.length, Math.floor(mealsPerPerson));
+  const minus = mealLine ? scale(mealLine.unitPrice, replaced * people) : ZERO;
+  const lines: DetailLine[] = items.map((m, i) => ({
+    kind: 'item', basket: 'meal', id: m.sampleId ?? `must-${i + 1}`, nameKo: m.name, nameEn: m.name,
+    units: people, unitPrice: { min: m.price, max: m.price }, childPrice: null, total: { min: m.price * people, max: m.price * people },
+  }));
+  const added = lines.reduce((sum, l) => add(sum, l.total), ZERO);
+  // 범위의 양 끝을 각각 뺀다(최소엔 최소 단가, 최대엔 최대 단가). 음수가 되지 않게 0 에서 멈춘다
+  const total = { min: Math.max(0, e.total.min - minus.min) + added.min, max: Math.max(0, e.total.max - minus.max) + added.max };
+  const warnings = [...run.warnings, { category: 'food' as const, code: 'mustEat' as const, names: items.map((m) => m.name), n: replaced }];
+  const custom = items.filter((m) => !m.sampleId).map((m) => m.name);
+  if (custom.length) warnings.push({ category: 'food', code: 'customPrice', names: custom, n: custom.length });
+  return {
+    warnings,
+    estimate: { ...e, total, lines: [...e.lines, ...lines], perPersonPerDay: scale(total, 1 / Math.max(1, people * weights.length)) },
   };
 }

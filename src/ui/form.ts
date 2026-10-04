@@ -1,6 +1,15 @@
 import { isIsoDate } from '../core/dates';
 import { MODEL } from '../core/model-config';
-import type { TravelStyle, TripInput } from '../core/types';
+import type { MustEat, TransportPlan, TravelStyle, TripInput } from '../core/types';
+
+export type TransportMode = 'auto' | 'none' | 'rides' | 'pass';
+/** 꼭 먹을 음식 입력 한 줄(가격은 입력 문자열 그대로) */
+export interface MustEatInput {
+  name: string;
+  price: string;
+  /** 조사된 메뉴 가격에서 자동으로 채운 경우 그 표본 ID */
+  sampleId?: string;
+}
 
 export interface FormState {
   cityId: string;
@@ -23,9 +32,21 @@ export interface FormState {
   /** 고른 렌터카 상품 ID(없으면 '') 와 대여 일수(비우면 숙박 수) */
   rental: string;
   rentalDays: string;
+  /** 자세히 설정: 교통 이용 방식, 하루 이용 횟수, 교통 이용 일수(비우면 전체), 고른 이용권 */
+  transportMode: TransportMode;
+  ridesPerDay: string;
+  transitDays: string;
+  passId: string;
+  /** 자세히 설정: 하루 끼니 수(비우면 기본) */
+  mealsPerDay: string;
+  /** 자세히 설정: 꼭 먹을 음식 */
+  mustEat: MustEatInput[];
 }
 
-export type FieldError = 'date' | 'nights' | 'adults' | 'children' | 'flight' | 'lodging' | 'rentalDays';
+export type FieldError = 'date' | 'nights' | 'adults' | 'children' | 'flight' | 'lodging' | 'rentalDays' | 'ridesPerDay' | 'transitDays' | 'mustEat';
+
+/** 자세히 설정의 입력 한도 */
+export const PLAN_LIMITS = { ridesMax: 20, mustEatMax: 10, nameMax: 40 } as const;
 
 export interface ParsedForm {
   trip: TripInput | null;
@@ -61,11 +82,39 @@ export function parseForm(f: FormState): ParsedForm {
   const rentalDays = f.rentalDays.trim() === '' ? nights : toInt(f.rentalDays);
   if (f.rental && !(rentalDays >= 1 && rentalDays <= L.nightsMax + 1)) errors.rentalDays = true;
 
+  // 자세히 설정: 교통 이용 방식
+  const days = nights + 1;
+  const transitDays = f.transitDays.trim() === '' ? days : toInt(f.transitDays);
+  if (f.transportMode === 'rides' || f.transportMode === 'pass') {
+    if (!(transitDays >= 0 && transitDays <= L.nightsMax + 1)) errors.transitDays = true;
+  }
+  const rides = toInt(f.ridesPerDay);
+  if (f.transportMode === 'rides' && !(rides >= 0 && rides <= PLAN_LIMITS.ridesMax)) errors.ridesPerDay = true;
+  let transport: TransportPlan | undefined;
+  const useDays = Number.isNaN(days) ? 0 : Math.min(days, transitDays);
+  if (f.transportMode === 'none') transport = { mode: 'none' };
+  else if (f.transportMode === 'rides' && !errors.ridesPerDay && !errors.transitDays) transport = { mode: 'rides', perDay: rides, days: useDays };
+  else if (f.transportMode === 'pass' && f.passId && !errors.transitDays) transport = { mode: 'pass', passId: f.passId, days: useDays };
+  // 꼭 먹을 음식: 이름과 가격이 모두 있어야 계산에 넣는다. 가격이 비었거나 틀리면 오류로 알린다
+  const mustEat: MustEat[] = [];
+  for (const m of f.mustEat) {
+    const price = m.price.trim() === '' ? Number.NaN : toAmount(m.price);
+    if (!m.name.trim() || Number.isNaN(price)) {
+      errors.mustEat = true;
+      continue;
+    }
+    mustEat.push({ name: m.name.trim(), price, ...(m.sampleId ? { sampleId: m.sampleId } : {}) });
+  }
+  const meals = toInt(f.mealsPerDay);
+
   const tripValid = !errors.date && !errors.nights && !errors.adults && !errors.children;
   return {
     trip: tripValid ? { cityId: f.cityId, visitDate: f.visitDate, nights, adults, children, style: f.style, attractionIds: f.attractions, drinks: f.drinks,
           ...(f.airport ? { airportId: f.airport, airportTrips: f.airportTrips === '1' ? 1 : 2 } : {}),
-          ...(f.rental && !errors.rentalDays ? { rentalId: f.rental, rentalDays } : {}) } : null,
+          ...(f.rental && !errors.rentalDays ? { rentalId: f.rental, rentalDays } : {}),
+          ...(transport ? { transport } : {}),
+          ...(meals >= 1 && meals <= 4 ? { mealsPerDay: meals } : {}),
+          ...(mustEat.length ? { mustEat } : {}) } : null,
     direct: { flight: errors.flight ? 0 : flight, lodging: errors.lodging ? 0 : lodging },
     errors,
   };

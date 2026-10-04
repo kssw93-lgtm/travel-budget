@@ -28,19 +28,51 @@ export function CategoryDetail({ est, currency, display, rates, people, adults }
     ) : null;
 
   const byBasket = new Map<string, DetailLine[]>();
-  for (const l of est.lines) byBasket.set(l.basket, [...(byBasket.get(l.basket) ?? []), l]);
-  const isAlt = est.category === 'transport' && byBasket.size > 1;
+  // 고른 항목(관광지·이용권·꼭 먹을 음식)은 같은 바스켓의 일차별 내역과 따로 묶는다
+  for (const l of est.lines) {
+    const key = l.kind === 'item' ? `${l.basket}:item` : l.basket;
+    byBasket.set(key, [...(byBasket.get(key) ?? []), l]);
+  }
+  const isAlt = est.category === 'transport' && [...byBasket.values()].filter((ls) => ls[0]?.kind === 'day').length > 1;
 
   return (
     <div className="detail" data-testid={`detail-${est.category}`}>
-      {[...byBasket.entries()].map(([basket, lines]) => {
+      {[...byBasket.entries()].map(([key, lines]) => {
         const first = lines[0]!;
-        if (first.kind === 'item') {
+        const basket = first.basket;
+        if (first.kind === 'item' && basket === 'meal') {
+          // 꼭 먹을 음식: 1인분 가격 × 전 인원
           return (
-            <table key={basket} className="detail-table stack">
+            <table key={key} className="detail-table stack" data-testid="detail-must-eat">
               <thead>
                 <tr>
-                  <th scope="col">{d.colPlace}</th>
+                  <th scope="col">{d.colFood}</th>
+                  <th scope="col">{d.colPortion}</th>
+                  <th scope="col">{d.colSubtotal} ({fmt(d.people, { n: people })})</th>
+                </tr>
+              </thead>
+              <tbody>
+                {lines.map((l) => (
+                  <tr key={l.id} data-line={l.id}>
+                    <th scope="row">{l.nameKo}</th>
+                    <td data-label={d.colPortion}>{money(l.unitPrice)}</td>
+                    <td data-label={d.colSubtotal}>
+                      {money(l.total)}
+                      {shown(l.total)}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          );
+        }
+        if (first.kind === 'item') {
+          const isPass = basket === 'pass';
+          return (
+            <table key={key} className="detail-table stack">
+              <thead>
+                <tr>
+                  <th scope="col">{isPass ? d.colPass : d.colPlace}</th>
                   <th scope="col">{d.colAdult}</th>
                   <th scope="col">{d.colChild}</th>
                   <th scope="col">{d.colSubtotal} ({fmt(d.people, { n: people })})</th>
@@ -49,7 +81,10 @@ export function CategoryDetail({ est, currency, display, rates, people, adults }
               <tbody>
                 {lines.map((l) => (
                   <tr key={l.id} data-line={l.id}>
-                    <th scope="row">{localName(lang, l.nameKo, l.nameEn)}</th>
+                    <th scope="row">
+                      {localName(lang, l.nameKo, l.nameEn)}
+                      {isPass && <small> × {fmt(d.passCount, { n: l.units })}</small>}
+                    </th>
                     <td data-label={d.colAdult}>{money(l.unitPrice)}</td>
                     <td data-label={d.colChild}>
                       {l.childPrice ? money(l.childPrice) : people > adults ? <span className="muted">{d.childAsAdult}</span> : <span className="muted">—</span>}
@@ -67,14 +102,14 @@ export function CategoryDetail({ est, currency, display, rates, people, adults }
         if (first.kind === 'trip') {
           const per = adults ? round1(first.units / adults) : first.units;
           return (
-            <p key={basket} className="detail-line" data-line="trip">
+            <p key={key} className="detail-line" data-line="trip">
               {fmt(d.souvenirLine, { adults, per, n: round1(first.units) })} · {d.unitWord[basket]} {money(first.unitPrice)} → <strong>{money(first.total)}</strong>
               {shown(first.total)}
             </p>
           );
         }
         return (
-          <div key={basket}>
+          <div key={key}>
             {(byBasket.size > 1 || isAlt) && <h4>{t.baskets[basket] ?? basket}</h4>}
             <table className="detail-table stack">
               <thead>

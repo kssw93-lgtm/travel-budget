@@ -1,7 +1,7 @@
 import { STYLES } from '../core/model-config';
 import type { TravelStyle } from '../core/types';
 import { isLang, type Lang } from '../i18n';
-import type { FormState } from './form';
+import { PLAN_LIMITS, type FormState, type MustEatInput } from './form';
 
 /**
  * 계산기 입력을 URL 쿼리에 보존한다(새로고침·공유·뒤로가기). 값 검증은 parseForm 이 하므로
@@ -24,6 +24,12 @@ const KEYS = {
   airportTrips: 'aptw',
   rental: 'car',
   rentalDays: 'cardays',
+  transportMode: 'tm',
+  ridesPerDay: 'rpd',
+  transitDays: 'tdays',
+  passId: 'pass',
+  mealsPerDay: 'meals',
+  mustEat: 'eat',
 } as const satisfies Record<keyof FormState, string>;
 
 const CURRENCY = /^[A-Z]{3}$/;
@@ -61,7 +67,33 @@ export function readForm(search: string, cityIds: string[]): Partial<FormState> 
     const v = get(k)?.toUpperCase();
     if (v && CURRENCY.test(v)) out[k] = v;
   }
+  const tm = get('transportMode');
+  if (tm === 'none' || tm === 'rides' || tm === 'pass') out.transportMode = tm;
+  for (const k of ['ridesPerDay', 'transitDays', 'mealsPerDay'] as const) {
+    const v = get(k);
+    if (v && /^\d{1,2}$/.test(v)) out[k] = v;
+  }
+  const pass = get('passId');
+  if (pass && EXTRA_ID.test(pass)) out.passId = pass;
+  const eat = get('mustEat');
+  if (eat) out.mustEat = decodeMustEat(eat);
   return out;
+}
+
+/** 꼭 먹을 음식은 "이름~가격~표본ID" 를 | 로 이어 담는다(이름의 ~·| 는 지운다) */
+const clean = (v: string) => v.replace(/[~|]/g, ' ').slice(0, PLAN_LIMITS.nameMax);
+function encodeMustEat(list: MustEatInput[]): string {
+  return list.map((m) => [clean(m.name), m.price.trim(), m.sampleId ?? ''].join('~').replace(/~$/, '')).join('|');
+}
+function decodeMustEat(v: string): MustEatInput[] {
+  return v
+    .split('|')
+    .slice(0, PLAN_LIMITS.mustEatMax)
+    .map((part) => {
+      const [name = '', price = '', sampleId = ''] = part.split('~');
+      return { name: clean(name), price: SHORT.test(price) ? price : '', ...(/^[A-Z]{3}-[A-Z]{2}-\d{3}$/.test(sampleId) ? { sampleId } : {}) };
+    })
+    .filter((m) => m.name.trim());
 }
 
 export function readLang(search: string): Lang | null {
@@ -88,6 +120,18 @@ export function formToSearch(form: FormState, lang: Lang): string {
       return;
     }
     if (k === 'rentalDays' && !form.rental) return;
+    // 자세히 설정은 기본값(스타일 기준)이 아닐 때만 남긴다
+    if (k === 'transportMode') {
+      if (form.transportMode !== 'auto') q.set(KEYS.transportMode, form.transportMode);
+      return;
+    }
+    if (k === 'ridesPerDay' && form.transportMode !== 'rides') return;
+    if (k === 'transitDays' && form.transportMode !== 'rides' && form.transportMode !== 'pass') return;
+    if (k === 'passId' && form.transportMode !== 'pass') return;
+    if (k === 'mustEat') {
+      if (form.mustEat.length) q.set(KEYS.mustEat, encodeMustEat(form.mustEat));
+      return;
+    }
     const v = form[k];
     if (v === '' || ((k === 'flight' || k === 'lodging' || k === 'directCurrency') && !form.flight && !form.lodging)) return;
     q.set(KEYS[k], v);

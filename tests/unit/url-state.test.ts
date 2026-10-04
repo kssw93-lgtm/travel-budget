@@ -6,6 +6,7 @@ const ids = ['tokyo', 'taipei'];
 const form: FormState = {
   cityId: 'taipei', visitDate: '2026-11-04', nights: '3', adults: '2', children: '1', style: 'comfort',
   currency: 'EUR', flight: '', lodging: '', directCurrency: 'EUR', attractions: [], drinks: false, airport: '', airportTrips: '2', rental: '', rentalDays: '',
+  transportMode: 'auto', ridesPerDay: '3', transitDays: '', passId: '', mealsPerDay: '', mustEat: [],
 };
 
 describe('URL 입력 상태', () => {
@@ -44,4 +45,17 @@ describe('페이지 주소', () => {
     expect(routeOf('/guides/', ['tokyo'])).toEqual({ page: 'guides' });
     expect(routePath({ page: 'guide', cityId: 'paris' })).toBe('/guide/paris');
   });
+  it('자세히 설정(교통 방식·횟수·일수·이용권·끼니·꼭 먹을 음식)은 기본값이 아닐 때만 담고 다시 읽힌다', () => {
+    expect(formToSearch(form, 'ko')).not.toMatch(/tm=|rpd=|tdays=|pass=|meals=|eat=/);
+    const search = formToSearch(
+      { ...form, transportMode: 'pass', passId: 'TYO-TR-003', transitDays: '3', mealsPerDay: '2', mustEat: [{ name: '라멘~|', price: '1500' }, { name: '규동', price: '450', sampleId: 'TYO-FD-001' }] },
+      'ko',
+    );
+    expect(readForm(search, ids)).toMatchObject({
+      transportMode: 'pass', passId: 'TYO-TR-003', transitDays: '3', mealsPerDay: '2',
+      mustEat: [{ name: '라멘  ', price: '1500' }, { name: '규동', price: '450', sampleId: 'TYO-FD-001' }],
+    });
+    expect(readForm(formToSearch({ ...form, transportMode: 'rides', ridesPerDay: '5' }, 'ko'), ids)).toMatchObject({ transportMode: 'rides', ridesPerDay: '5' });
+  });
 });
+

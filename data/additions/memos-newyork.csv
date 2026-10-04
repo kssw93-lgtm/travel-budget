@@ -1,4 +1,4 @@
 도시,항목,값,단위,출처명,출처 URL,조회일,비고,Item (English),Value (English)
 뉴욕,판매세,8.875%,,NYC Department of Finance,https://www.nyc.gov/site/finance/business/business-nys-sales-tax.page,2026-10-03,메뉴·상품 가격에 대부분 포함되지 않음(계산대에서 추가),Sales tax,8.875% (usually added at checkout)
-뉴욕,호텔 숙박세,객실 요금의 5.875~14.75% + 1박 1실 정액,,NYC Department of Finance,https://www.nyc.gov/site/finance/business/business-hotel-room-occupancy-tax.page,2026-10-03,요금 구간별 누진,Hotel room occupancy tax,5.875-14.75% of room rate plus a per-room daily fee
+뉴욕,호텔 숙박세,객실 요금의 5.875% + 1실 1박 2달러 (판매세 8.875% 별도),,NYC Department of Finance,https://www.nyc.gov/site/finance/business/business-hotel-room-occupancy-tax.page,2026-10-04,객실 요금 1박 40달러 이상 기준 · 2달러는 1인이 아니라 1객실 · Perplexity 수집,Hotel room occupancy tax,5.875% of room rate plus $2.00 per room per night (sales tax 8.875% extra)
 뉴욕,팁,식당·바·택시 15~20%,,NYC Tourism,https://www.nyctourism.com/,2026-10-03,법적 의무는 아니지만 관행(근거 페이지 재확인 필요),Tipping,15-20% customary

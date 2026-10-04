@@ -643,7 +643,9 @@
     "nameJa": "ドネル・ケバブ",
     "reasonJa": "イスタンブールの代表的なストリートフードとして紹介され、肉と野菜をパンやラヴァシュに挟んで食べる。",
     "budgetBand": "미조사",
-    "linkedPriceIds": [],
+    "linkedPriceIds": [
+      "IST-FD-742"
+    ],
     "priceStatus": "대기",
     "recommendSource": "GoTürkiye",
     "recommendUrl": "https://goturkiye.com/branding/the-10-most-popular-street-foods-of-istanbul",
@@ -761,7 +763,9 @@
     "reason": "발렌시아에서 시작된 쌀 요리로 바르셀로나 해안가 식당에서 해산물 파에야로 많이 먹는다",
     "reasonEn": "A rice dish from Valencia, enjoyed in Barcelona mainly as seafood paella at seaside restaurants.",
     "budgetBand": "중",
-    "linkedPriceIds": [],
+    "linkedPriceIds": [
+      "BCN-FD-740"
+    ],
     "priceStatus": "대기",
     "recommendSource": "Barcelona Tourism guide",
     "recommendUrl": "https://www.barcelonatourism.org/2026/07/26/family-restaurants/",
@@ -984,7 +988,9 @@
     "reason": "크고 얇은 조각을 접어 먹는 뉴욕식 피자",
     "reasonEn": "Big, thin slices you fold to eat — the New York way.",
     "budgetBand": "저",
-    "linkedPriceIds": [],
+    "linkedPriceIds": [
+      "NYC-SN-741"
+    ],
     "priceStatus": "대기",
     "recommendSource": "NYC Tourism",
     "recommendUrl": "https://www.nyctourism.com/",

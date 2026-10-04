@@ -12,5 +12,14 @@
   ],
   "paris:French Onion Soup": [
     "PAR-FD-721"
+  ],
+  "barcelona:Paella": [
+    "BCN-FD-740"
+  ],
+  "new-york:New York Style Pizza": [
+    "NYC-SN-741"
+  ],
+  "istanbul:Döner kebab": [
+    "IST-FD-742"
   ]
 }

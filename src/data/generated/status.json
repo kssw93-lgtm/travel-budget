@@ -233,7 +233,7 @@
   },
   "barcelona": {
     "counts": {
-      "food": 5,
+      "food": 6,
       "transport": 3,
       "attraction": 12,
       "souvenir": 3
@@ -241,7 +241,7 @@
     "baskets": {
       "pass": 1,
       "ride": 3,
-      "meal": 5,
+      "meal": 6,
       "snack": 5,
       "drink": 2,
       "attraction": 12,
@@ -250,7 +250,7 @@
     "basketRows": {
       "pass": 1,
       "ride": 3,
-      "meal": 5,
+      "meal": 6,
       "snack": 5,
       "drink": 2,
       "attraction": 13,
@@ -300,7 +300,7 @@
       "pass": 0,
       "ride": 4,
       "meal": 3,
-      "snack": 1,
+      "snack": 2,
       "drink": 2,
       "attraction": 12,
       "souvenir": 3
@@ -309,7 +309,7 @@
       "pass": 0,
       "ride": 4,
       "meal": 3,
-      "snack": 1,
+      "snack": 2,
       "drink": 2,
       "attraction": 13,
       "souvenir": 3
@@ -320,7 +320,7 @@
   },
   "istanbul": {
     "counts": {
-      "food": 5,
+      "food": 6,
       "transport": 3,
       "attraction": 6,
       "souvenir": 3
@@ -328,7 +328,7 @@
     "baskets": {
       "pass": 0,
       "ride": 3,
-      "meal": 5,
+      "meal": 6,
       "snack": 3,
       "drink": 3,
       "attraction": 6,
@@ -337,7 +337,7 @@
     "basketRows": {
       "pass": 0,
       "ride": 3,
-      "meal": 5,
+      "meal": 6,
       "snack": 3,
       "drink": 3,
       "attraction": 6,

@@ -1,3 +1,3 @@
 도시,항목,값,단위,출처명,출처 URL,조회일,비고,Item (English),Value (English)
-바르셀로나,관광세(숙박세),1인 1박 6~12유로,,Barcelona City Council Tourism,https://ajuntament.barcelona.cat/turisme/en/tourism-barcelona/projects/tourist-tax,2026-10-03,숙소 등급별 차등·2026년 4월 인상(시 추가 부과금 포함 여부는 재확인 필요),Tourist tax,EUR 6-12 per person per night
+바르셀로나,관광세(숙박세),4성 호텔 1인 1박 8.40유로 (카탈루냐 관광세 3.40 + 바르셀로나 시 부과금 5),,Barcelona City Council,https://ajuntament.barcelona.cat/turisme/en/latest-news/news/the-parliament-of-catalonia-passes-an-increase-of-the-tourist-tax-1607097,2026-10-04,숙소 등급별로 다름(이 값은 4성 기준) · Perplexity 수집,Tourist tax,EUR 8.40 per person per night at a 4-star hotel (3.40 regional + 5 city surcharge)
 바르셀로나,팁,의무 아님,,Barcelona Tourism guide,https://www.barcelonatourism.org/barcelona-travel-guide/money-tips/,2026-10-03,만족 시 5~10% 관행(출처가 시청 공식 사이트가 아님),Tipping,Not required (5-10% customary)

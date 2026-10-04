@@ -60,6 +60,8 @@ export function Calculator() {
       passId: fromUrl.passId ?? '',
       mealsPerDay: fromUrl.mealsPerDay ?? '',
       mustEat: fromUrl.mustEat ?? [],
+      drinksPerDay: fromUrl.drinksPerDay ?? '',
+      drinkPicks: fromUrl.drinkPicks ?? [],
     };
   });
   // 도시를 바꾸면 이전 도시의 관광지·공항 이동·렌터카 선택은 의미가 없으므로 비운다
@@ -68,7 +70,7 @@ export function Calculator() {
       ...f,
       ...p,
       ...(p.cityId && p.cityId !== f.cityId
-        ? { attractions: [], airport: '', airportTrips: '2' as const, rental: '', rentalDays: '', passId: '', mustEat: [], ...(f.transportMode === 'pass' ? { transportMode: 'auto' as const } : {}) }
+        ? { attractions: [], airport: '', airportTrips: '2' as const, rental: '', rentalDays: '', passId: '', mustEat: [], drinkPicks: [], ...(f.transportMode === 'pass' ? { transportMode: 'auto' as const } : {}) }
         : {}),
     }));
 

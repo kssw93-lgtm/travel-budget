@@ -258,10 +258,12 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await mockRates(page);
     await page.goto('/?lang=ko&city=london&date=2026-11-04&nights=3&adults=2&children=1&style=standard&cur=GBP');
     const row = page.locator('tr[data-category="attraction"]');
-    // 고르기 전에는 관광지 비용 0, 목록은 처음부터 펼쳐져 있다
+    // 고르기 전에는 관광지 비용 0, 목록은 접혀 있고 "눌러서 N곳 보기"가 보인다
     await expect(row).toContainText('선택 안 함');
     await expect(row).toContainText('£0.00');
-    await expect(page.getByTestId('attractions').locator('details')).toHaveAttribute('open', '');
+    await expect(page.getByTestId('attractions').locator('details')).not.toHaveAttribute('open', '');
+    await expect(page.getByTestId('attractions').locator('summary')).toContainText('눌러서');
+    await page.getByTestId('attractions').locator('summary').click();
     await page.locator('[data-attraction="LON-AT-001"] input').check();
     await page.locator('[data-attraction="LON-AT-003"] input').check();
     await expect(page.getByTestId('attractions-status')).toContainText('2곳 선택 · +£176.50 ~ £205.50');
@@ -282,6 +284,7 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
   test('입장료 목록은 성인·아동 요금, 변동 범위, 재검증 표시와 출처를 보여준다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/?lang=en&city=london&date=2026-11-04&nights=3&adults=1&children=0&style=standard&cur=USD');
+    await page.getByTestId('attractions').locator('summary').click();
     const eye = page.locator('[data-attraction="LON-AT-003"]');
     await expect(eye).toContainText('Adult £29.00 ~ £39.00');
     await expect(eye).toContainText('Child £26.00 ~ £35.00');
@@ -460,5 +463,27 @@ test.describe('자세히 설정', () => {
     await page.goto('/?lang=ko&city=tokyo&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=JPY&tm=none');
     await expect(page.getByTestId('plan').locator('details')).toHaveAttribute('open', '');
     await expect(page.locator('tr[data-category="transport"]')).toContainText('이용 안 함');
+  });
+});
+
+test.describe('음주 자세히', () => {
+  test('간단히는 체크만, 자세히는 하루 잔 수와 마실 술을 고르면 결과·URL 에 반영된다', async ({ page }) => {
+    await page.goto('/?lang=ko&city=tokyo&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=JPY');
+    const plan = page.getByTestId('plan');
+    await plan.locator('summary').click();
+    const drinks = page.getByTestId('plan-drinks');
+    // 계산기의 "음주 포함"과 같은 값
+    await drinks.getByLabel(/음주 비용 계산하기/).check();
+    await expect(page.locator('#drinks')).toBeChecked();
+    await page.selectOption('#drinks-per-day', '2');
+    await page.selectOption('#drink-pick', 'TYO-FD-951');
+    await drinks.getByRole('button', { name: '추가', exact: true }).click();
+    await expect(page.locator('#drink-price-0')).not.toHaveValue('');
+    await expect(page).toHaveURL(/dpd=2/);
+    await expect(page).toHaveURL(/dk=/);
+    await expect(page.getByTestId('quality')).toContainText('하루 2잔');
+    // 음주를 끄면 잔 수·술 선택은 URL 에서 빠진다
+    await page.locator('#drinks').uncheck();
+    await expect(page).not.toHaveURL(/dpd=|dk=/);
   });
 });

@@ -128,6 +128,10 @@ export interface TripInput {
   mealsPerDay?: number;
   /** 꼭 먹을 음식(자세히 설정): 1인분 가격(현지 통화). 1개당 1인 일반 한 끼를 대신한다 */
   mustEat?: MustEat[];
+  /** 음주(자세히 설정): 성인 1인 하루 잔 수. 없으면 여행 스타일 기본값 */
+  drinksPerDay?: number;
+  /** 음주(자세히 설정): 마실 술 1잔 가격. 있으면 주류 가격 분포 대신 고른 술의 가격 범위(최저~최고)로 계산 */
+  drinkPicks?: MustEat[];
 }
 
 export type TransportPlan = { mode: 'none' } | { mode: 'rides'; perDay: number; days: number } | { mode: 'pass'; passId: string; days: number };
@@ -213,7 +217,8 @@ export type WarningCode =
   | 'drinkNoData'
   | 'mustEat'
   | 'customPrice'
-  | 'transportNone';
+  | 'transportNone'
+  | 'drinkPicks';
 
 export interface Warning {
   code: WarningCode;

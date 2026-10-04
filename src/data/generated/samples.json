@@ -525,7 +525,8 @@
     "applied": "2026",
     "sourceName": "BTS",
     "sourceUrl": "https://www.bts.co.th/eng/tickets/ticket-daypass.html",
-    "note": "발행/등록 당일 무제한"
+    "note": "발행/등록 당일 무제한",
+    "nameJa": "BTS 1日乗車券"
   },
   {
     "id": "BKK-AT-001",
@@ -719,7 +720,8 @@
     "applied": "2025",
     "sourceName": "Visit Da Nang",
     "sourceUrl": "https://visitdanang.travel/en/fastest-directions-from-da-nang-bus-station-to-the-city-center-5510",
-    "note": "2025 적용가로 명시; 2026 운영기관 확인 전 모델 제외"
+    "note": "2025 적용가로 명시; 2026 운영기관 확인 전 모델 제외",
+    "nameJa": "バスターミナル–市内 21番バス"
   },
   {
     "id": "DAD-TR-002",
@@ -743,7 +745,8 @@
     "applied": "2026",
     "sourceName": "Visit Da Nang",
     "sourceUrl": "https://visitdanang.travel/en/fastest-directions-from-da-nang-bus-station-to-the-city-center-5510",
-    "note": "시간·교통·목적지에 따라 변동"
+    "note": "시간·교통·목적지에 따라 변동",
+    "nameJa": "バスターミナル–市内 タクシー"
   },
   {
     "id": "DAD-TR-003",
@@ -767,7 +770,8 @@
     "applied": "2026",
     "sourceName": "Visit Da Nang",
     "sourceUrl": "https://visitdanang.travel/en/fastest-directions-from-da-nang-bus-station-to-the-city-center-5510",
-    "note": "차종·업체별 변동"
+    "note": "차종·업체별 변동",
+    "nameJa": "4〜7人乗り貸切車"
   },
   {
     "id": "DAD-TR-004",
@@ -791,7 +795,8 @@
     "applied": "2026",
     "sourceName": "Visit Da Nang",
     "sourceUrl": "https://visitdanang.travel/",
-    "note": "운행일·예약조건 추가 확인"
+    "note": "운행일·예약조건 추가 확인",
+    "nameJa": "市内–バーナーヒルズ 往復観光バス"
   },
   {
     "id": "DAD-AT-001",
@@ -1185,7 +1190,8 @@
     "applied": "2026",
     "sourceName": "SimplyGo",
     "sourceUrl": "https://simplygo.com.sg/locations/singapore-tourist-pass-sales-channels/",
-    "note": "기본 버스·열차 무제한, S$17/day부터"
+    "note": "기본 버스·열차 무제한, S$17/day부터",
+    "nameJa": "シンガポール・ツーリスト・パス"
   },
   {
     "id": "SIN-AT-001",
@@ -1209,7 +1215,8 @@
     "applied": "2026",
     "sourceName": "Gardens by the Bay",
     "sourceUrl": "https://www.gardensbythebay.com.sg/en/things-to-do/attractions/cloud-forest.html",
-    "note": "비거주자 성인"
+    "note": "비거주자 성인",
+    "nameJa": "フラワードーム＋クラウド・フォレスト 入場券（大人）"
   },
   {
     "id": "SIN-AT-002",
@@ -1380,7 +1387,8 @@
     "applied": "2026",
     "sourceName": "Île-de-France Mobilités",
     "sourceUrl": "https://www.iledefrance-mobilites.fr/en/titres-et-tarifs/detail/forfait-navigo-jour",
-    "note": "공항 제외"
+    "note": "공항 제외",
+    "nameJa": "ナヴィゴ 1日券（全ゾーン）"
   },
   {
     "id": "PAR-AT-001",
@@ -1651,7 +1659,8 @@
     "applied": "2026",
     "sourceName": "Transport for London",
     "sourceUrl": "https://madeby.tfl.gov.uk/2026/09/07/london-life-as-a-student/",
-    "note": "비접촉식/오이스터 상한 규칙 확인"
+    "note": "비접촉식/오이스터 상한 규칙 확인",
+    "nameJa": "TfL ゾーン1〜2 1日上限額"
   },
   {
     "id": "LON-AT-001",
@@ -1675,7 +1684,8 @@
     "applied": "2026",
     "sourceName": "Historic Royal Palaces",
     "sourceUrl": "https://www.hrp.org.uk/tower-of-london/",
-    "note": "v0.4 재확인: 성인 18–64세, 기부금 미포함 가격 £37. 이전 £38에서 현재 공식가로 수정."
+    "note": "v0.4 재확인: 성인 18–64세, 기부금 미포함 가격 £37. 이전 £38에서 현재 공식가로 수정.",
+    "nameJa": "ロンドン塔 入場券（大人）"
   },
   {
     "id": "LON-AT-002",
@@ -1699,7 +1709,8 @@
     "applied": "2026",
     "sourceName": "Historic Royal Palaces",
     "sourceUrl": "https://www.hrp.org.uk/tower-of-london/",
-    "note": "v0.4 재확인: 아동 5–15세, 기부금 미포함 가격 £18.50. 이전 £19에서 현재 공식가로 수정."
+    "note": "v0.4 재확인: 아동 5–15세, 기부금 미포함 가격 £18.50. 이전 £19에서 현재 공식가로 수정.",
+    "nameJa": "ロンドン塔 入場券（子ども）"
   },
   {
     "id": "LON-AT-003",
@@ -1723,7 +1734,8 @@
     "applied": "2026",
     "sourceName": "London Eye",
     "sourceUrl": "https://www.londoneye.com/tickets-and-prices/",
-    "note": "온라인 사전 최저 29, 현장 39; 수요에 따라 변동"
+    "note": "온라인 사전 최저 29, 현장 39; 수요에 따라 변동",
+    "nameJa": "ロンドン・アイ 入場券（大人）"
   },
   {
     "id": "LON-AT-004",
@@ -1747,7 +1759,8 @@
     "applied": "2026",
     "sourceName": "London Eye",
     "sourceUrl": "https://www.londoneye.com/tickets-and-prices/",
-    "note": "온라인 사전 최저 26, 현장 35"
+    "note": "온라인 사전 최저 26, 현장 35",
+    "nameJa": "ロンドン・アイ 入場券（子ども）"
   },
   {
     "id": "LON-AT-005",
@@ -1771,7 +1784,8 @@
     "applied": "2026",
     "sourceName": "British Museum",
     "sourceUrl": "https://www.britishmuseum.org/visit",
-    "note": "특별전 별도; 무료 입장 문구 재캡처"
+    "note": "특별전 별도; 무료 입장 문구 재캡처",
+    "nameJa": "大英博物館 入場無料"
   },
   {
     "id": "LON-FD-001",
@@ -2165,7 +2179,8 @@
     "applied": "2026",
     "sourceName": "BTS",
     "sourceUrl": "https://www.bts.co.th/eng/tickets/ticket-journey.html",
-    "note": "구간별 요금"
+    "note": "구간별 요금",
+    "nameJa": "BTS 1回乗車運賃"
   },
   {
     "id": "BKK-TR-003",
@@ -2189,7 +2204,8 @@
     "applied": "2026",
     "sourceName": "Bangkok Expressway and Metro",
     "sourceUrl": "https://metro.bemplc.co.th/Metro-News-Detail.aspx?id=40995",
-    "note": "구간별 성인 요금"
+    "note": "구간별 성인 요금",
+    "nameJa": "MRT ブルーライン 1回乗車運賃"
   },
   {
     "id": "BKK-TR-004",
@@ -2213,7 +2229,8 @@
     "applied": "2026",
     "sourceName": "SRT Electrified Train",
     "sourceUrl": "https://www.srtet.co.th/en/fare-timetable",
-    "note": "구간별 요금"
+    "note": "구간별 요금",
+    "nameJa": "SRT レッドライン 1回乗車運賃"
   },
   {
     "id": "BKK-AT-003",
@@ -2286,7 +2303,8 @@
     "applied": "2026",
     "sourceName": "Danabus",
     "sourceUrl": "https://www.danangbus.vn/tin-tuc/tin-tuc/he-thong-xe-buyt-tro-gia-da-nang-gia-ve-sieu-re-phu-song-tien-ich-5683.html",
-    "note": "공식 버스 운영정보"
+    "note": "공식 버스 운영정보",
+    "nameJa": "ダナン市内路線バス 一般運賃"
   },
   {
     "id": "DAD-TR-006",
@@ -2310,7 +2328,8 @@
     "applied": "2026",
     "sourceName": "Danabus",
     "sourceUrl": "https://www.danangbus.vn/tin-tuc/tin-tuc/thong-bao-ve-viec-mo-tuyen-xe-buyt-so-06-san-bay-da-nang--dai-hoc-viet-han-5582.html",
-    "note": "이동거리 구간별 요금"
+    "note": "이동거리 구간별 요금",
+    "nameJa": "ダナン空港–ベトナム韓国情報通信技術大学 06番バス"
   },
   {
     "id": "DAD-TR-007",
@@ -2334,7 +2353,8 @@
     "applied": "2026",
     "sourceName": "Danabus",
     "sourceUrl": "https://www.danangbus.vn/tin-tuc/tin-tuc/cung-danabus-du-lich-ba-na-hills-5445.html",
-    "note": "이동거리 구간별 편도요금"
+    "note": "이동거리 구간별 편도요금",
+    "nameJa": "ダナン空港–バーナーヒルズ 03番バス"
   },
   {
     "id": "DAD-FD-004",
@@ -2552,7 +2572,8 @@
     "applied": "2026",
     "sourceName": "Public Transport Council",
     "sourceUrl": "https://www.ptc.gov.sg/fares/public-transport-fares-and-passes/",
-    "note": "카드 결제 거리별 현행 요금"
+    "note": "카드 결제 거리별 현행 요금",
+    "nameJa": "一般路線バス カード運賃（大人）"
   },
   {
     "id": "SIN-TR-003",
@@ -2576,7 +2597,8 @@
     "applied": "2026",
     "sourceName": "Public Transport Council",
     "sourceUrl": "https://www.ptc.gov.sg/fares/public-transport-fares-and-passes/",
-    "note": "카드 결제 거리별 현행 요금"
+    "note": "카드 결제 거리별 현행 요금",
+    "nameJa": "MRT・LRT カード運賃（大人）"
   },
   {
     "id": "SIN-TR-004",
@@ -2600,7 +2622,8 @@
     "applied": "2026",
     "sourceName": "Public Transport Council",
     "sourceUrl": "https://www.ptc.gov.sg/fares/public-transport-fares-and-passes/",
-    "note": "카드 결제 거리별 현행 요금"
+    "note": "카드 결제 거리별 현행 요금",
+    "nameJa": "急行バス カード運賃（大人）"
   },
   {
     "id": "SIN-AT-003",
@@ -2624,7 +2647,8 @@
     "applied": "2026",
     "sourceName": "Singapore Botanic Gardens",
     "sourceUrl": "https://sbg.nparks.gov.sg/attractions/national-orchid-garden/",
-    "note": "표준 성인 요금"
+    "note": "표준 성인 요금",
+    "nameJa": "国立蘭園 入場券（大人）"
   },
   {
     "id": "SIN-AT-004",
@@ -2648,7 +2672,8 @@
     "applied": "2026",
     "sourceName": "National Museum of Singapore",
     "sourceUrl": "https://www.nhb.gov.sg/nationalmuseum/plan-your-visit/visitor-information/admissions",
-    "note": "v0.4 재확인: 관광객·외국인 거주자 General Admission S$20. 표준 성인 S$15는 별도 입장 구분."
+    "note": "v0.4 재확인: 관광객·외국인 거주자 General Admission S$20. 표준 성인 S$15는 별도 입장 구분.",
+    "nameJa": "シンガポール国立博物館 入場券（大人）"
   },
   {
     "id": "SIN-FD-005",
@@ -2744,7 +2769,8 @@
     "applied": "2026",
     "sourceName": "Île-de-France Mobilités",
     "sourceUrl": "https://www.iledefrance-mobilites.fr/en/titres-et-tarifs/detail/ticket-metro-train-rer",
-    "note": "공항 노선 제외"
+    "note": "공항 노선 제외",
+    "nameJa": "メトロ・近郊線・RER 1回券"
   },
   {
     "id": "PAR-TR-003",
@@ -2768,7 +2794,8 @@
     "applied": "2026",
     "sourceName": "Île-de-France Mobilités",
     "sourceUrl": "https://www.iledefrance-mobilites.fr/en/tarifs-titre-de-transport-en-commun-2026",
-    "note": "현행 2026 단일권"
+    "note": "현행 2026 단일권",
+    "nameJa": "バス・トラム 1回券"
   },
   {
     "id": "PAR-TR-004",
@@ -2792,7 +2819,8 @@
     "applied": "2026",
     "sourceName": "Île-de-France Mobilités",
     "sourceUrl": "https://www.iledefrance-mobilites.fr/en/titres-et-tarifs/detail/navigo-liberte-plus",
-    "note": "가입형 후불 상품; 일반 단일권과 별도 상품"
+    "note": "가입형 후불 상품; 일반 단일권과 별도 상품",
+    "nameJa": "ナヴィゴ・リベルテ・プラス（メトロ・近郊線・RER 1回）"
   },
   {
     "id": "PAR-FD-003",
@@ -2864,7 +2892,8 @@
     "applied": "2026",
     "sourceName": "Transport for London",
     "sourceUrl": "https://tfl.gov.uk/campaign/fares-from-2-march-2025",
-    "note": "Hopper 규칙 적용 가능"
+    "note": "Hopper 규칙 적용 가능",
+    "nameJa": "TfL バス・トラム運賃（大人・後払い）"
   },
   {
     "id": "LON-TR-003",
@@ -2889,7 +2918,8 @@
     "validFrom": "2026-03-01",
     "sourceName": "Transport for London",
     "sourceUrl": "https://tfl.gov.uk/campaign/fares-from-2-march-2025",
-    "note": "비접촉식·오이스터 PAYG"
+    "note": "비접촉식·오이스터 PAYG",
+    "nameJa": "ロンドン地下鉄 ゾーン1 ピーク運賃（後払い）"
   },
   {
     "id": "LON-TR-004",
@@ -2913,7 +2943,8 @@
     "applied": "2026",
     "sourceName": "Transport for London",
     "sourceUrl": "https://tfl.gov.uk/campaign/fares-from-2-march-2025",
-    "note": "편도 일반 성인 요금"
+    "note": "편도 일반 성인 요금",
+    "nameJa": "IFS クラウド・ケーブルカー 片道（大人）"
   },
   {
     "id": "LON-FD-005",
@@ -3264,7 +3295,8 @@
     "applied": "2026",
     "sourceName": "YouBike",
     "sourceUrl": "https://en.youbike.com.tw/region/taipei/rate/",
-    "note": "v0.4 재확인: 일회 이용자 기본요금 NT$10/30분; 30분 미만도 30분으로 계산."
+    "note": "v0.4 재확인: 일회 이용자 기본요금 NT$10/30분; 30분 미만도 30분으로 계산.",
+    "nameJa": "YouBike 2.0（シェアサイクル）30分"
   },
   {
     "id": "LON-TR-005",
@@ -3288,7 +3320,8 @@
     "applied": "2026",
     "sourceName": "Transport for London",
     "sourceUrl": "https://tfl.gov.uk/modes/cycling/santander-cycles/what-you-pay",
-    "note": "일반 페달 자전거 30분까지; 초과 30분마다 1.65파운드 추가"
+    "note": "일반 페달 자전거 30분까지; 초과 30분마다 1.65파운드 추가",
+    "nameJa": "サンタンデール・サイクル（シェアサイクル）30分"
   },
   {
     "id": "BKK-SV-004",
@@ -4127,7 +4160,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Metro İstanbul",
     "sourceUrl": "https://www.metro.istanbul/seferdurumlari/biletucretleri",
-    "note": "운영사 공식 요금표의 익명 카드 일반 운임 46.20 TRY."
+    "note": "운영사 공식 요금표의 익명 카드 일반 운임 46.20 TRY.",
+    "nameJa": "イスタンブールカード（無記名）地下鉄 1回運賃"
   },
   {
     "id": "IST-TR-002",
@@ -4151,7 +4185,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Metro İstanbul",
     "sourceUrl": "https://www.metro.istanbul/seferdurumlari/biletucretleri",
-    "note": "운영사 공식 요금표의 Bir Geçişlik Kart 65 TRY."
+    "note": "운영사 공식 요금표의 Bir Geçişlik Kart 65 TRY.",
+    "nameJa": "メトロ・イスタンブール 1回券（電子チケット）"
   },
   {
     "id": "IST-TR-003",
@@ -4175,7 +4210,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Şehir Hatları",
     "sourceUrl": "https://sehirhatlari.istanbul/tr/ucret-tarifeleri/vapur-hatlari-79",
-    "note": "공식 중심 노선표에서 Karaköy–Kadıköy 일반(İstanbulkart Tam) 65.21 TRY."
+    "note": "공식 중심 노선표에서 Karaköy–Kadıköy 일반(İstanbulkart Tam) 65.21 TRY.",
+    "nameJa": "シェヒル・ハットラル フェリー カラキョイ–カドゥキョイ 片道"
   },
   {
     "id": "IST-FD-001",
@@ -4535,7 +4571,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Millî Saraylar",
     "sourceUrl": "https://www.millisaraylar.gov.tr/Lokasyon/2/Topkapi-Sarayi?culture=en",
-    "note": "외국인 복합 입장권(Topkapı + Hagia Irene + Harem) 2,750 TRY."
+    "note": "외국인 복합 입장권(Topkapı + Hagia Irene + Harem) 2,750 TRY.",
+    "nameJa": "トプカプ宮殿 共通入場券（外国人・大人）"
   },
   {
     "id": "IST-AT-002",
@@ -4559,7 +4596,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Millî Saraylar",
     "sourceUrl": "https://millisaraylar.gov.tr/Lokasyon/3/Dolmabahce-Sarayi",
-    "note": "외국인 Selamlık·Harem·Resim Müzesi 통합권 2,000 TRY."
+    "note": "외국인 Selamlık·Harem·Resim Müzesi 통합권 2,000 TRY.",
+    "nameJa": "ドルマバフチェ宮殿 共通入場券（外国人・大人）"
   },
   {
     "id": "IST-AT-003",
@@ -4583,7 +4621,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Millî Saraylar",
     "sourceUrl": "https://millisaraylar.gov.tr/Lokasyon/4/Beylerbeyi-Sarayi",
-    "note": "공식 외국인 방문객 입장료 800 TRY."
+    "note": "공식 외국인 방문객 입장료 800 TRY.",
+    "nameJa": "ベイレルベイ宮殿 入場券（外国人・大人）"
   },
   {
     "id": "IST-AT-004",
@@ -4607,7 +4646,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Millî Saraylar",
     "sourceUrl": "https://www.millisaraylar.gov.tr/Lokasyon/5/Yildiz-Sarayi?culture=en",
-    "note": "공식 외국인 방문객 입장료 900 TRY."
+    "note": "공식 외국인 방문객 입장료 900 TRY.",
+    "nameJa": "ユルドゥズ宮殿 入場券（外国人・大人）"
   },
   {
     "id": "IST-AT-008",
@@ -4631,7 +4671,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "İstanbul Modern",
     "sourceUrl": "https://www.istanbulmodern.org/en/visit/museum",
-    "note": "미술관 공식 요금표 일반 입장 1,000 TRY, Türkiye 거주자 일반권은 별도 600 TRY."
+    "note": "미술관 공식 요금표 일반 입장 1,000 TRY, Türkiye 거주자 일반권은 별도 600 TRY.",
+    "nameJa": "イスタンブール・モダン 入場券（大人）"
   },
   {
     "id": "IST-AT-009",
@@ -4655,7 +4696,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Millî Saraylar",
     "sourceUrl": "https://www.millisaraylar.gov.tr/Lokasyon/2/Topkapi-Sarayi?culture=en",
-    "note": "공식 안내에서 국내·외 방문객 0–6세 무료 명시."
+    "note": "공식 안내에서 국내·외 방문객 0–6세 무료 명시.",
+    "nameJa": "トプカプ宮殿 入場無料（0〜6歳）"
   },
   {
     "id": "IST-AT-010",
@@ -4679,7 +4721,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Millî Saraylar",
     "sourceUrl": "https://millisaraylar.gov.tr/Lokasyon/3/Dolmabahce-Sarayi",
-    "note": "공식 안내에서 국내·외 방문객 0–6세 무료 명시."
+    "note": "공식 안내에서 국내·외 방문객 0–6세 무료 명시.",
+    "nameJa": "ドルマバフチェ宮殿 入場無料（0〜6歳）"
   },
   {
     "id": "IST-AT-011",
@@ -4703,7 +4746,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Millî Saraylar",
     "sourceUrl": "https://millisaraylar.gov.tr/Lokasyon/4/Beylerbeyi-Sarayi",
-    "note": "공식 안내에서 국내·외 방문객 0–6세 무료 명시."
+    "note": "공식 안내에서 국내·외 방문객 0–6세 무료 명시.",
+    "nameJa": "ベイレルベイ宮殿 入場無料（0〜6歳）"
   },
   {
     "id": "IST-AT-012",
@@ -4727,7 +4771,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Millî Saraylar",
     "sourceUrl": "https://www.millisaraylar.gov.tr/Lokasyon/5/Yildiz-Sarayi?culture=en",
-    "note": "공식 안내에서 국내·외 방문객 0–6세 무료 명시."
+    "note": "공식 안내에서 국내·외 방문객 0–6세 무료 명시.",
+    "nameJa": "ユルドゥズ宮殿 入場無料（0〜6歳）"
   },
   {
     "id": "IST-AT-013",
@@ -4751,7 +4796,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "İstanbul Modern",
     "sourceUrl": "https://www.istanbulmodern.org/en/visit/museum",
-    "note": "미술관 공식 안내에서 12세 미만 무료 명시."
+    "note": "미술관 공식 안내에서 12세 미만 무료 명시.",
+    "nameJa": "イスタンブール・モダン 入場無料（12歳未満）"
   },
   {
     "id": "IST-AT-014",
@@ -4775,7 +4821,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "KÜLTÜR.İSTANBUL",
     "sourceUrl": "https://kultur.istanbul/yerebatan-sarnici-muzesi/",
-    "note": "공식 안내의 09:00–18:30 외국인 입장료 1,950 TL. 야간 요금은 별도이므로 주간 상품만 기록."
+    "note": "공식 안내의 09:00–18:30 외국인 입장료 1,950 TL. 야간 요금은 별도이므로 주간 상품만 기록.",
+    "nameJa": "地下宮殿（バシリカ・シスタン） 入場券（外国人・大人）"
   },
   {
     "id": "SHA-TR-001",
@@ -4799,7 +4846,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "上海市发展和改革委员会",
     "sourceUrl": "https://fgw.sh.gov.cn/fgw_zcjd/20260819/546a7d3b27914f4db2e81fdc0510b164.html",
-    "note": "공식 가격당국 FAQ에 현행 운임 0~6km 3위안, 이후 10km마다 1위안으로 명시. 2026-09-08 청문회 뒤 당국이 의견을 정리해 확정안을 추후 공개한다고 안내했으며 청문회안은 시행 전임."
+    "note": "공식 가격당국 FAQ에 현행 운임 0~6km 3위안, 이후 10km마다 1위안으로 명시. 2026-09-08 청문회 뒤 당국이 의견을 정리해 확정안을 추후 공개한다고 안내했으며 청문회안은 시행 전임.",
+    "nameJa": "上海地下鉄 初乗り運賃（0〜6km）"
   },
   {
     "id": "SHA-TR-002",
@@ -4823,7 +4871,8 @@
     "applied": "2026-06-30 갱신",
     "sourceName": "Shanghai Municipal Government",
     "sourceUrl": "https://english.shanghai.gov.cn/en-Transportation/20240102/44f499a17b324b25996f2d58fcbf5f23.html",
-    "note": "시 정부 교통 안내는 정기 시내버스 편도 요금을 2위안으로 표기. 추정·평균이 아닌 공시 운임."
+    "note": "시 정부 교통 안내는 정기 시내버스 편도 요금을 2위안으로 표기. 추정·평균이 아닌 공시 운임.",
+    "nameJa": "上海市内路線バス 片道"
   },
   {
     "id": "SHA-TR-003",
@@ -4847,7 +4896,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Shanghai Municipal Administration of Culture and Tourism",
     "sourceUrl": "https://cmp.whlyj.sh.gov.cn/CMPEN/trf_init.ac?type=2",
-    "note": "상하이시 문화·관광 행정 포털이 보행자 편도 2위안으로 표기."
+    "note": "상하이시 문화·관광 행정 포털이 보행자 편도 2위안으로 표기.",
+    "nameJa": "黄浦江フェリー 片道（徒歩客）"
   },
   {
     "id": "SHA-FD-001",
@@ -5383,7 +5433,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Shanghai Ocean Aquarium",
     "sourceUrl": "https://www.sh-aquarium.com/en/FrequentlyAskedQuestions/index.aspx?lcid=55",
-    "note": "운영사 공식 FAQ의 아동 표준권 110위안. 1m 미만 또는 만 4세 미만은 무료."
+    "note": "운영사 공식 FAQ의 아동 표준권 110위안. 1m 미만 또는 만 4세 미만은 무료.",
+    "nameJa": "上海海洋水族館 入場券（子ども）"
   },
   {
     "id": "SHA-AT-009",
@@ -6457,7 +6508,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "The Jim Thompson House Museum",
     "sourceUrl": "https://jimthompsonhouse.org/",
-    "note": "박물관 공식 안내의 성인 입장료 250바트."
+    "note": "박물관 공식 안내의 성인 입장료 250바트.",
+    "nameJa": "ジム・トンプソンの家 入場券（大人）"
   },
   {
     "id": "BKK-AT-005",
@@ -6481,7 +6533,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "The Jim Thompson House Museum",
     "sourceUrl": "https://jimthompsonhouse.org/",
-    "note": "박물관 공식 안내의 10~21세 요금 150바트."
+    "note": "박물관 공식 안내의 10~21세 요금 150바트.",
+    "nameJa": "ジム・トンプソンの家 割引入場券（10〜21歳）"
   },
   {
     "id": "BKK-AT-006",
@@ -6505,7 +6558,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "The Jim Thompson House Museum",
     "sourceUrl": "https://jimthompsonhouse.org/",
-    "note": "박물관 공식 안내의 성인 동반 10세 미만 무료 입장."
+    "note": "박물관 공식 안내의 성인 동반 10세 미만 무료 입장.",
+    "nameJa": "ジム・トンプソンの家 入場無料（10歳未満）"
   },
   {
     "id": "BKK-AT-007",
@@ -6529,7 +6583,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "King Power Mahanakhon",
     "sourceUrl": "https://kingpowermahanakhon.co.th/th/experience/mahanakhon-skywalk",
-    "note": "운영사 공식 안내의 성인권은 10:00~15:30 1,000바트, 15:30~19:00 1,200바트."
+    "note": "운영사 공식 안내의 성인권은 10:00~15:30 1,000바트, 15:30~19:00 1,200바트.",
+    "nameJa": "マハナコン・スカイウォーク 入場券（大人）"
   },
   {
     "id": "BKK-AT-008",
@@ -6553,7 +6608,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "King Power Mahanakhon",
     "sourceUrl": "https://kingpowermahanakhon.co.th/th/experience/mahanakhon-skywalk",
-    "note": "운영사 공식 안내의 3~12세는 10:00~15:30 500바트, 15:30~19:00 600바트."
+    "note": "운영사 공식 안내의 3~12세는 10:00~15:30 500바트, 15:30~19:00 600바트.",
+    "nameJa": "マハナコン・スカイウォーク 入場券（子ども）"
   },
   {
     "id": "BKK-AT-009",
@@ -6577,7 +6633,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Fine Arts Department, Ministry of Culture",
     "sourceUrl": "https://www.finearts.go.th/museumnationalgallery/view/10005-%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8A%E0%B8%B5%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%A1%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4",
-    "note": "กรมศิลปากรระบุพิพิธภัณฑสถานแห่งชาติพระนคร ค่าเข้าชมรายบุคคลสำหรับสัญชาติอื่น 200 บาท."
+    "note": "กรมศิลปากรระบุพิพิธภัณฑสถานแห่งชาติพระนคร ค่าเข้าชมรายบุคคลสำหรับสัญชาติอื่น 200 บาท.",
+    "nameJa": "バンコク国立博物館 入場券（外国人・大人）"
   },
   {
     "id": "BKK-AT-010",
@@ -6601,7 +6658,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Fine Arts Department, Ministry of Culture",
     "sourceUrl": "https://www.finearts.go.th/museumnationalgallery/view/10005-%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8A%E0%B8%B5%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%A1%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%97%E0%B%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4",
-    "note": "กรมศิลปากรระบุพิพิธภัณฑสถานแห่งชาติหอศิลป ค่าเข้าชมรายบุคคลสำหรับสัญชาติอื่น 200 บาท."
+    "note": "กรมศิลปากรระบุพิพิธภัณฑสถานแห่งชาติหอศิลป ค่าเข้าชมรายบุคคลสำหรับสัญชาติอื่น 200 บาท.",
+    "nameJa": "バンコク国立美術館 入場券（外国人・大人）"
   },
   {
     "id": "BKK-AT-011",
@@ -6625,7 +6683,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Museum Siam",
     "sourceUrl": "https://museumsiam.org/museumsiam-visit.php",
-    "note": "박물관 공식 방문 안내의 외국인 성인 입장료 100바트."
+    "note": "박물관 공식 방문 안내의 외국인 성인 입장료 100바트.",
+    "nameJa": "ミュージアム・サイアム 入場券（外国人・大人）"
   },
   {
     "id": "BKK-AT-012",
@@ -6649,7 +6708,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Museum Siam",
     "sourceUrl": "https://museumsiam.org/museumsiam-visit.php",
-    "note": "박물관 공식 방문 안내의 태국·외국인 15세 미만 무료 입장."
+    "note": "박물관 공식 방문 안내의 태국·외국인 15세 미만 무료 입장.",
+    "nameJa": "ミュージアム・サイアム 入場無料（15歳未満）"
   },
   {
     "id": "BKK-AT-013",
@@ -6673,7 +6733,8 @@
     "applied": "2026년 요금표",
     "sourceName": "Science Centre for Education, Thailand",
     "sourceUrl": "https://sciplanet.org/wp-content/uploads/2026/01/%E0%B8%AD-%E0%B9%80%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A-21-%E0%B8%A1.%E0%B8%84.69-%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%A1-2569-%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B8%E0%B8%94.pdf",
-    "note": "운영 기관의 2026년 공식 요금표상 플라네타리움 1회 성인권 50바트."
+    "note": "운영 기관의 2026년 공식 요금표상 플라네타리움 1회 성인권 50바트.",
+    "nameJa": "バンコク・プラネタリウム 入場券（大人）"
   },
   {
     "id": "BKK-AT-014",
@@ -6697,7 +6758,8 @@
     "applied": "2026년 요금표",
     "sourceName": "Science Centre for Education, Thailand",
     "sourceUrl": "https://sciplanet.org/wp-content/uploads/2026/01/%E0%B8%AD-%E0%B9%80%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A-21-%E0%B8%A1.%E0%B8%84.69-%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%A1-2569-%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B8%E0%B8%94.pdf",
-    "note": "운영 기관의 2026년 공식 요금표상 플라네타리움 어린이권 30바트."
+    "note": "운영 기관의 2026년 공식 요금표상 플라네타리움 어린이권 30바트.",
+    "nameJa": "バンコク・プラネタリウム 入場券（子ども）"
   },
   {
     "id": "BKK-AT-015",
@@ -6721,7 +6783,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Bangkok Art and Culture Centre",
     "sourceUrl": "https://www.bacc.or.th/en/plan-your-visit",
-    "note": "운영 기관 공식 안내: 일반 전시 무료, 특별 행사·공연은 별도 요금."
+    "note": "운영 기관 공식 안내: 일반 전시 무료, 특별 행사·공연은 별도 요금.",
+    "nameJa": "バンコク芸術文化センター（BACC） 入場無料"
   },
   {
     "id": "BKK-AT-016",
@@ -6745,7 +6808,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Bangkok Metropolitan Administration, Greener Bangkok",
     "sourceUrl": "https://greener.bangkok.go.th/en/park/suan-lumpini/",
-    "note": "방콕시 공원 안내의 입장료 무료 표기."
+    "note": "방콕시 공원 안내의 입장료 무료 표기.",
+    "nameJa": "ルンピニ公園 入場無料"
   },
   {
     "id": "BKK-AT-017",
@@ -6769,7 +6833,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Museum of Contemporary Art Bangkok",
     "sourceUrl": "https://www.mocabangkok.com/admission/",
-    "note": "미술관 공식 일반 입장권 성인 요금 400바트."
+    "note": "미술관 공식 일반 입장권 성인 요금 400바트.",
+    "nameJa": "MOCA バンコク現代美術館 入場券（大人）"
   },
   {
     "id": "BKK-AT-018",
@@ -6793,7 +6858,8 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Museum of Contemporary Art Bangkok",
     "sourceUrl": "https://www.mocabangkok.com/admission/",
-    "note": "미술관 공식 일반 입장 안내의 13세 미만 무료."
+    "note": "미술관 공식 일반 입장 안내의 13세 미만 무료.",
+    "nameJa": "MOCA バンコク現代美術館 入場無料（13歳未満）"
   },
   {
     "id": "DAD-AT-005",
@@ -6817,7 +6883,8 @@
     "applied": "2025-07-03 적용",
     "sourceName": "Da Nang City Tourism Information Portal",
     "sourceUrl": "https://danangfantasticity.com/en/news/from-july-3-danang-museum-to-implement-new-admission-fees-and-opening-hours",
-    "note": "시의회 Resolution 10/2025/NQ-HDND에 따라 2025-07-03부터 적용하는 일반요금."
+    "note": "시의회 Resolution 10/2025/NQ-HDND에 따라 2025-07-03부터 적용하는 일반요금.",
+    "nameJa": "ダナン博物館 入場券（大人）"
   },
   {
     "id": "DAD-AT-006",
@@ -6841,7 +6908,8 @@
     "applied": "2026년 공식 관광정보 게시",
     "sourceName": "Da Nang City Tourism Information Portal",
     "sourceUrl": "https://danangfantasticity.com/en/new-tourism-products-in-da-nang-2026",
-    "note": "공식 일반 방문객 요금. 시 관광정보 표는 참고용이며 서비스 추가·변동 가능으로 안내."
+    "note": "공식 일반 방문객 요금. 시 관광정보 표는 참고용이며 서비스 추가·변동 가능으로 안내.",
+    "nameJa": "ダナン美術館 入場券（大人）"
   },
   {
     "id": "DAD-AT-007",
@@ -6865,7 +6933,8 @@
     "applied": "2026년 공식 관광정보 게시",
     "sourceName": "Da Nang City Tourism Information Portal",
     "sourceUrl": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites",
-    "note": "공식 2026 참고 요금표의 국제 방문객 요금; 부가 서비스 제외, 변동 가능."
+    "note": "공식 2026 참고 요금표의 국제 방문객 요금; 부가 서비스 제외, 변동 가능.",
+    "nameJa": "第5軍区博物館 入場券（大人）"
   },
   {
     "id": "DAD-AT-008",
@@ -6889,7 +6958,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "VinWonders Nam Hoi An",
     "sourceUrl": "https://vinwonders.com/en/vinwonders-nam-hoi-an-price-and-regulations/",
-    "note": "운영사 표준 입장권 표의 140cm 이상 방문객 요금. 오후 2시 이후 별도 티켓은 제외."
+    "note": "운영사 표준 입장권 표의 140cm 이상 방문객 요금. 오후 2시 이후 별도 티켓은 제외.",
+    "nameJa": "ヴィンワンダーズ・ナムホイアン 入場券（大人）"
   },
   {
     "id": "DAD-AT-009",
@@ -6913,7 +6983,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Hoi An Impression",
     "sourceUrl": "https://www.hoianimpression.vn/schedule/",
-    "note": "공원 입장권만의 가격. 호이안 메모리즈 쇼 좌석 티켓과 구분."
+    "note": "공원 입장권만의 가격. 호이안 메모리즈 쇼 좌석 티켓과 구분.",
+    "nameJa": "ホイアン・インプレッション・テーマパーク 入場券（大人）"
   },
   {
     "id": "DAD-AT-010",
@@ -6937,7 +7008,8 @@
     "applied": "2026-10-04 공식 판매 페이지 조회",
     "sourceName": "Dong Dinh Museum",
     "sourceUrl": "https://dongdinhmuseum.com/dat-ve/",
-    "note": "공식 자유 관람 입장권. 음료·트레킹 등 포함 상품은 제외."
+    "note": "공식 자유 관람 입장권. 음료·트레킹 등 포함 상품은 제외.",
+    "nameJa": "ドンディン博物館 入場券（大人）"
   },
   {
     "id": "DAD-AT-011",
@@ -6961,7 +7033,8 @@
     "applied": "2026-01-01 적용 요금 게시",
     "sourceName": "Hoa Phu Thanh Tourist",
     "sourceUrl": "https://www.hoaphuthanh.com.vn/tin-tuc/bang-gia-ve-hoa-phu-thanh-2024-va-mua-o-dau-bao-nhieu-tien--166.html",
-    "note": "공식 관광지 입장료. 래프팅은 별도 활동이라 제외."
+    "note": "공식 관광지 입장료. 래프팅은 별도 활동이라 제외.",
+    "nameJa": "ホアフータン観光地 入場券（大人）"
   },
   {
     "id": "DAD-AT-012",
@@ -6985,7 +7058,8 @@
     "applied": "2026년 공식 관광정보 게시",
     "sourceName": "Da Nang City Tourism Information Portal",
     "sourceUrl": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites",
-    "note": "오행산 주봉·엘리베이터와 별도 요금; 시 공식 표는 참고요금·변동 가능으로 표시."
+    "note": "오행산 주봉·엘리베이터와 별도 요금; 시 공식 표는 참고요금·변동 가능으로 표시.",
+    "nameJa": "五行山 アムフー洞窟 入場券（大人）"
   },
   {
     "id": "DAD-AT-013",
@@ -7009,7 +7083,8 @@
     "applied": "2026년 공식 관광정보 게시",
     "sourceName": "Da Nang City Tourism Information Portal",
     "sourceUrl": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites",
-    "note": "공식 게시액 그대로 기록. 배·바구니배 등 추가 서비스는 제외; 표는 참고요금·변동 가능."
+    "note": "공식 게시액 그대로 기록. 배·바구니배 등 추가 서비스는 제외; 표는 참고요금·변동 가능.",
+    "nameJa": "カムタン ココナッツ村 入場券（大人）"
   },
   {
     "id": "DAD-AT-014",
@@ -7033,7 +7108,8 @@
     "applied": "2026년 공식 관광정보 게시",
     "sourceName": "Da Nang City Tourism Information Portal",
     "sourceUrl": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites",
-    "note": "공식 게시액 그대로 기록. 체험 등 추가 서비스는 별도; 표는 참고요금·변동 가능."
+    "note": "공식 게시액 그대로 기록. 체험 등 추가 서비스는 별도; 표는 참고요금·변동 가능.",
+    "nameJa": "タンハー陶器村 入場券（大人）"
   },
   {
     "id": "DAD-AT-015",
@@ -7057,7 +7133,8 @@
     "applied": "2025-07-03 적용",
     "sourceName": "Da Nang City Tourism Information Portal",
     "sourceUrl": "https://danangfantasticity.com/en/news/from-july-3-danang-museum-to-implement-new-admission-fees-and-opening-hours",
-    "note": "공식 요금 공지의 만 16세 미만 아동 무료 입장."
+    "note": "공식 요금 공지의 만 16세 미만 아동 무료 입장.",
+    "nameJa": "ダナン博物館 入場無料（16歳未満）"
   },
   {
     "id": "DAD-AT-016",
@@ -7081,7 +7158,8 @@
     "applied": "2026년 공식 관광정보 게시",
     "sourceName": "Da Nang City Tourism Information Portal",
     "sourceUrl": "https://danangfantasticity.com/en/new-tourism-products-in-da-nang-2026",
-    "note": "공식 미술관 안내의 학교 학생 무료 입장; 페이지에 연령은 따로 지정되지 않음."
+    "note": "공식 미술관 안내의 학교 학생 무료 입장; 페이지에 연령은 따로 지정되지 않음.",
+    "nameJa": "ダナン美術館 入場無料（学生）"
   },
   {
     "id": "DAD-AT-017",
@@ -7105,7 +7183,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "VinWonders Nam Hoi An",
     "sourceUrl": "https://vinwonders.com/en/vinwonders-nam-hoi-an-price-and-regulations/",
-    "note": "운영사 표준 입장권의 어린이 최저 유료 신장 구간."
+    "note": "운영사 표준 입장권의 어린이 최저 유료 신장 구간.",
+    "nameJa": "ヴィンワンダーズ・ナムホイアン 入場券（子ども）"
   },
   {
     "id": "DAD-AT-018",
@@ -7129,7 +7208,8 @@
     "applied": "2026-01-01 적용 요금 게시",
     "sourceName": "Hoa Phu Thanh Tourist",
     "sourceUrl": "https://www.hoaphuthanh.com.vn/tin-tuc/bang-gia-ve-hoa-phu-thanh-2024-va-mua-o-dau-bao-nhieu-tien--166.html",
-    "note": "운영사 공식 요금 안내의 어린이 요금."
+    "note": "운영사 공식 요금 안내의 어린이 요금.",
+    "nameJa": "ホアフータン観光地 入場券（子ども）"
   },
   {
     "id": "DAD-AT-019",
@@ -7153,7 +7233,8 @@
     "applied": "2026-01-01 적용 요금 게시",
     "sourceName": "Hoa Phu Thanh Tourist",
     "sourceUrl": "https://www.hoaphuthanh.com.vn/tin-tuc/bang-gia-ve-hoa-phu-thanh-2024-va-mua-o-dau-bao-nhieu-tien--166.html",
-    "note": "운영사 공식 안내에 신장 1m 미만 무료."
+    "note": "운영사 공식 안내에 신장 1m 미만 무료.",
+    "nameJa": "ホアフータン観光地 入場無料（身長1m未満）"
   },
   {
     "id": "DAD-AT-020",
@@ -7177,7 +7258,8 @@
     "applied": "2026년 공식 관광정보 게시",
     "sourceName": "Da Nang City Tourism Information Portal",
     "sourceUrl": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites",
-    "note": "공식 학생 요금. 페이지에 나이·학년 기준은 별도 지정되지 않아 학생 대상으로 기록."
+    "note": "공식 학생 요금. 페이지에 나이·학년 기준은 별도 지정되지 않아 학생 대상으로 기록.",
+    "nameJa": "五行山 アムフー洞窟 割引入場券（学生）"
   },
   {
     "id": "DAD-AT-021",
@@ -7201,7 +7283,8 @@
     "applied": "2026년 공식 관광정보 게시",
     "sourceName": "Da Nang City Tourism Information Portal",
     "sourceUrl": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites",
-    "note": "공식 요금표의 만 6세 미만 무료 입장."
+    "note": "공식 요금표의 만 6세 미만 무료 입장.",
+    "nameJa": "五行山 アムフー洞窟 入場無料（6歳未満）"
   },
   {
     "id": "TPE-AT-004",
@@ -7875,7 +7958,8 @@
     "applied": "2026-10-04 공식 브로셔 조회",
     "sourceName": "Singapore Flyer",
     "sourceUrl": "https://www.singaporeflyer.com/storage/amenities/Brochure/About%20Time%20Capsule%20%28English%29.pdf",
-    "note": "공식 표준요금 SGD40. 플라이어 1회전과 Time Capsule 입장이 포함된 일반 티켓."
+    "note": "공식 표준요금 SGD40. 플라이어 1회전과 Time Capsule 입장이 포함된 일반 티켓.",
+    "nameJa": "シンガポール・フライヤー 入場券（大人）"
   },
   {
     "id": "SIN-AT-012",
@@ -7901,7 +7985,8 @@
     "validTo": "2026-11-01",
     "sourceName": "ArtScience Museum / Marina Bay Sands",
     "sourceUrl": "https://www.marinabaysands.com/museum/ticket/search.html",
-    "note": "공식 단일전시 티켓표: 비피크 22, 피크 27 SGD. 전시 일정 2026-06-06~11-01."
+    "note": "공식 단일전시 티켓표: 비피크 22, 피크 27 SGD. 전시 일정 2026-06-06~11-01.",
+    "nameJa": "アートサイエンス・ミュージアム「Into the Ocean」展 入場券（大人）"
   },
   {
     "id": "SIN-AT-013",
@@ -7925,7 +8010,8 @@
     "applied": "2026-10-04 공식 방문정보 조회",
     "sourceName": "National Gallery Singapore",
     "sourceUrl": "https://www.nationalgallery.sg/sg/en/visit/visitor-information.html",
-    "note": "Other Nationalities 표준 일반입장료; 선택 전시·투어 포함."
+    "note": "Other Nationalities 표준 일반입장료; 선택 전시·투어 포함.",
+    "nameJa": "ナショナル・ギャラリー・シンガポール 入場券（大人）"
   },
   {
     "id": "SIN-AT-014",
@@ -7949,7 +8035,8 @@
     "applied": "2026-10-04 조회; GP 특별요금 10/10~10/11",
     "sourceName": "Marina Bay Sands SkyPark",
     "sourceUrl": "https://www.marinabaysands.com/attractions/skypark-observation-deck.html",
-    "note": "공식 우대표: 비피크 31, 피크 35, GP Weekend 41 SGD. 자격을 아동 연령으로 추정하지 않음."
+    "note": "공식 우대표: 비피크 31, 피크 35, GP Weekend 41 SGD. 자격을 아동 연령으로 추정하지 않음.",
+    "nameJa": "マリーナベイ・サンズ スカイパーク展望デッキ 割引入場券（割引対象者）"
   },
   {
     "id": "SIN-AT-015",
@@ -7973,7 +8060,8 @@
     "applied": "2026-10-04 운영사 이용약관 조회",
     "sourceName": "Marina Bay Sands",
     "sourceUrl": "https://www.marinabaysands.com/entertainment/terms-and-conditions.html",
-    "note": "공식 입장 조건에 만 2세 미만은 티켓 없이 입장 가능으로 명시."
+    "note": "공식 입장 조건에 만 2세 미만은 티켓 없이 입장 가능으로 명시.",
+    "nameJa": "マリーナベイ・サンズ スカイパーク展望デッキ 入場無料（2歳未満）"
   },
   {
     "id": "SIN-AT-016",
@@ -7997,7 +8085,8 @@
     "applied": "2026-10-04 공식 요금 페이지 조회",
     "sourceName": "Mandai Wildlife Reserve",
     "sourceUrl": "https://www.mandai.com/en/tickets-and-passes/single-attractions/singapore-zoo.html",
-    "note": "운영사 공식 비거주 어린이 요금. 만 3세 미만 무료 별도 행."
+    "note": "운영사 공식 비거주 어린이 요금. 만 3세 미만 무료 별도 행.",
+    "nameJa": "シンガポール動物園 入場券（子ども）"
   },
   {
     "id": "SIN-AT-017",
@@ -8021,7 +8110,8 @@
     "applied": "2026-10-04 공식 요금 페이지 조회",
     "sourceName": "Mandai Wildlife Reserve",
     "sourceUrl": "https://www.mandai.com/en/tickets-and-passes/single-attractions/singapore-zoo.html",
-    "note": "운영사 공식 이용조건의 만 3세 미만 무료."
+    "note": "운영사 공식 이용조건의 만 3세 미만 무료.",
+    "nameJa": "シンガポール動物園 入場無料（3歳未満）"
   },
   {
     "id": "SIN-AT-018",
@@ -8045,7 +8135,8 @@
     "applied": "2026-10-04 공식 요금 페이지 조회",
     "sourceName": "Mandai Wildlife Reserve",
     "sourceUrl": "https://www.mandai.com/en/tickets-and-passes/single-attractions/night-safari.html",
-    "note": "운영사 공식 비거주 어린이 요금. 만 3세 미만 무료 별도 행."
+    "note": "운영사 공식 비거주 어린이 요금. 만 3세 미만 무료 별도 행.",
+    "nameJa": "ナイトサファリ 入場券（子ども）"
   },
   {
     "id": "SIN-AT-019",
@@ -8069,7 +8160,8 @@
     "applied": "2026-10-04 공식 요금 페이지 조회",
     "sourceName": "Mandai Wildlife Reserve",
     "sourceUrl": "https://www.mandai.com/en/tickets-and-passes/single-attractions/night-safari.html",
-    "note": "운영사 공식 이용조건의 만 3세 미만 무료."
+    "note": "운영사 공식 이용조건의 만 3세 미만 무료.",
+    "nameJa": "ナイトサファリ 入場無料（3歳未満）"
   },
   {
     "id": "SIN-AT-020",
@@ -8093,7 +8185,8 @@
     "applied": "2026-10-04 공식 요금 페이지 조회",
     "sourceName": "Mandai Wildlife Reserve",
     "sourceUrl": "https://www.mandai.com/en/tickets-and-passes/single-attractions/river-wonders.html",
-    "note": "운영사 공식 비거주 어린이 요금. 만 3세 미만 무료 별도 행."
+    "note": "운영사 공식 비거주 어린이 요금. 만 3세 미만 무료 별도 행.",
+    "nameJa": "リバー・ワンダーズ 入場券（子ども）"
   },
   {
     "id": "SIN-AT-021",
@@ -8117,7 +8210,8 @@
     "applied": "2026-10-04 공식 요금 페이지 조회",
     "sourceName": "Mandai Wildlife Reserve",
     "sourceUrl": "https://www.mandai.com/en/tickets-and-passes/single-attractions/river-wonders.html",
-    "note": "운영사 공식 이용조건의 만 3세 미만 무료."
+    "note": "운영사 공식 이용조건의 만 3세 미만 무료.",
+    "nameJa": "リバー・ワンダーズ 入場無料（3歳未満）"
   },
   {
     "id": "SIN-AT-022",
@@ -8141,7 +8235,8 @@
     "applied": "2026-10-04 공식 요금 페이지 조회",
     "sourceName": "Mandai Wildlife Reserve",
     "sourceUrl": "https://www.mandai.com/en/tickets-and-passes/single-attractions/bird-paradise.html",
-    "note": "운영사 공식 비거주 어린이 요금. 만 3세 미만 무료 별도 행."
+    "note": "운영사 공식 비거주 어린이 요금. 만 3세 미만 무료 별도 행.",
+    "nameJa": "バード・パラダイス 入場券（子ども）"
   },
   {
     "id": "SIN-AT-023",
@@ -8165,7 +8260,8 @@
     "applied": "2026-10-04 공식 요금 페이지 조회",
     "sourceName": "Mandai Wildlife Reserve",
     "sourceUrl": "https://www.mandai.com/en/tickets-and-passes/single-attractions/bird-paradise.html",
-    "note": "운영사 공식 이용조건의 만 3세 미만 무료."
+    "note": "운영사 공식 이용조건의 만 3세 미만 무료.",
+    "nameJa": "バード・パラダイス 入場無料（3歳未満）"
   },
   {
     "id": "SIN-AT-024",
@@ -8189,7 +8285,8 @@
     "applied": "2026-10-04 운영사 페이지 조회",
     "sourceName": "Resorts World Sentosa - Singapore Oceanarium",
     "sourceUrl": "https://www.rwsentosa.com/en/play/singapore-oceanarium/",
-    "note": "공식 안내의 'From SGD43'. 상한은 게시되지 않아 최대값을 비워 둠."
+    "note": "공식 안내의 'From SGD43'. 상한은 게시되지 않아 최대값을 비워 둠.",
+    "nameJa": "シンガポール・オセアナリウム 入場券（子ども）"
   },
   {
     "id": "SIN-AT-025",
@@ -8213,7 +8310,8 @@
     "applied": "2026-10-04 공식 브로셔 조회",
     "sourceName": "Singapore Flyer",
     "sourceUrl": "https://www.singaporeflyer.com/storage/amenities/Brochure/About%20Time%20Capsule%20%28English%29.pdf",
-    "note": "공식 어린이 표준요금 SGD25. 만 3세 미만 무료 별도 행."
+    "note": "공식 어린이 표준요금 SGD25. 만 3세 미만 무료 별도 행.",
+    "nameJa": "シンガポール・フライヤー 入場券（子ども）"
   },
   {
     "id": "SIN-AT-026",
@@ -8237,7 +8335,8 @@
     "applied": "2026-10-04 공식 브로셔 조회",
     "sourceName": "Singapore Flyer",
     "sourceUrl": "https://www.singaporeflyer.com/storage/amenities/Brochure/About%20Time%20Capsule%20%28English%29.pdf",
-    "note": "공식 브로셔에 만 3세 미만 무료 입장 명시."
+    "note": "공식 브로셔에 만 3세 미만 무료 입장 명시.",
+    "nameJa": "シンガポール・フライヤー 入場無料（3歳未満）"
   },
   {
     "id": "SIN-AT-027",
@@ -8263,7 +8362,8 @@
     "validTo": "2026-11-01",
     "sourceName": "ArtScience Museum / Marina Bay Sands",
     "sourceUrl": "https://www.marinabaysands.com/museum/ticket/search.html",
-    "note": "공식 전시 단일권 우대료: 비피크 18, 피크 22 SGD. 자격을 아동 연령으로 추정하지 않음."
+    "note": "공식 전시 단일권 우대료: 비피크 18, 피크 22 SGD. 자격을 아동 연령으로 추정하지 않음.",
+    "nameJa": "アートサイエンス・ミュージアム「Into the Ocean」展 割引入場券（割引対象者）"
   },
   {
     "id": "SIN-AT-028",
@@ -8287,7 +8387,8 @@
     "applied": "2026-10-04 운영사 이용약관 조회",
     "sourceName": "Marina Bay Sands",
     "sourceUrl": "https://www.marinabaysands.com/entertainment/terms-and-conditions.html",
-    "note": "공식 기본 입장조건: 별도 예외가 없으면 만 2세 미만 무료."
+    "note": "공식 기본 입장조건: 별도 예외가 없으면 만 2세 미만 무료.",
+    "nameJa": "アートサイエンス・ミュージアム 入場無料（2歳未満）"
   },
   {
     "id": "SIN-AT-029",
@@ -8311,7 +8412,8 @@
     "applied": "2026-10-04 공식 방문정보 조회",
     "sourceName": "National Gallery Singapore",
     "sourceUrl": "https://www.nationalgallery.sg/sg/en/visit/visitor-information.html",
-    "note": "표준 SGD20에서 어린이 할인 SGD5 차감. 만 6세 이하는 무료 별도 행."
+    "note": "표준 SGD20에서 어린이 할인 SGD5 차감. 만 6세 이하는 무료 별도 행.",
+    "nameJa": "ナショナル・ギャラリー・シンガポール 割引入場券（子ども）"
   },
   {
     "id": "SIN-AT-030",
@@ -8335,7 +8437,8 @@
     "applied": "2026-10-04 공식 방문정보 조회",
     "sourceName": "National Gallery Singapore",
     "sourceUrl": "https://www.nationalgallery.sg/sg/en/visit/visitor-information.html",
-    "note": "미술관 공식 방문정보의 만 6세 이하 무료 입장."
+    "note": "미술관 공식 방문정보의 만 6세 이하 무료 입장.",
+    "nameJa": "ナショナル・ギャラリー・シンガポール 入場無料（6歳以下）"
   },
   {
     "id": "PAR-AT-007",
@@ -8359,7 +8462,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Musée d'Orsay",
     "sourceUrl": "https://www.musee-orsay.fr/en/Visit/rates",
-    "note": "공식 요금표의 온라인 일반권 €16; 현장권은 €14."
+    "note": "공식 요금표의 온라인 일반권 €16; 현장권은 €14.",
+    "nameJa": "オルセー美術館 入場券（大人）"
   },
   {
     "id": "PAR-AT-008",
@@ -8383,7 +8487,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Musée de l'Orangerie",
     "sourceUrl": "https://www.musee-orangerie.fr/en/visit-orangerie",
-    "note": "공식 요금표의 온라인 일반권 €12.50; 현장권은 €11."
+    "note": "공식 요금표의 온라인 일반권 €12.50; 현장권은 €11.",
+    "nameJa": "オランジュリー美術館 入場券（大人）"
   },
   {
     "id": "PAR-AT-009",
@@ -8407,7 +8512,8 @@
     "applied": "2026년 4월 1일~10월 31일 고성수기",
     "sourceName": "Palace of Versailles",
     "sourceUrl": "https://en.chateauversailles.fr/2026-ticketing",
-    "note": "2026년 공식 요금의 고성수기 표준 파스포트 요금. 정원과 트리아농 영지 포함."
+    "note": "2026년 공식 요금의 고성수기 표준 파스포트 요금. 정원과 트리아농 영지 포함.",
+    "nameJa": "ヴェルサイユ宮殿 パスポート券（大人）"
   },
   {
     "id": "PAR-AT-010",
@@ -8432,7 +8538,8 @@
     "validFrom": "2026-01-12",
     "sourceName": "Sainte-Chapelle",
     "sourceUrl": "https://www.sainte-chapelle.fr/en/visiter/informations-pratiques/",
-    "note": "공식 2026 요금표의 EEA 비국적·비거주 방문객 요금."
+    "note": "공식 2026 요금표의 EEA 비국적·비거주 방문객 요금.",
+    "nameJa": "サント・シャペル 入場券（外国人・大人）"
   },
   {
     "id": "PAR-AT-011",
@@ -8456,7 +8563,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Musée Rodin",
     "sourceUrl": "https://www.musee-rodin.fr/en/plan-your-visit/plan-your-visit-musee-rodin",
-    "note": "공식 방문 안내의 표준 입장료 €14."
+    "note": "공식 방문 안내의 표준 입장료 €14.",
+    "nameJa": "ロダン美術館 入場券（大人）"
   },
   {
     "id": "PAR-AT-012",
@@ -8480,7 +8588,8 @@
     "applied": "파리 시립박물관 상설전시 무료 정책",
     "sourceName": "Paris Musées",
     "sourceUrl": "https://parismusees.paris.fr/fr/votre-visite/tarifs",
-    "note": "파리 뮤제 공식 요금 안내: 상설 컬렉션은 모든 관람객 무료."
+    "note": "파리 뮤제 공식 요금 안내: 상설 컬렉션은 모든 관람객 무료.",
+    "nameJa": "カルナヴァレ博物館 入場無料"
   },
   {
     "id": "PAR-AT-013",
@@ -8504,7 +8613,8 @@
     "applied": "파리 시립박물관 상설전시 무료 정책",
     "sourceName": "Paris Musées",
     "sourceUrl": "https://parismusees.paris.fr/fr/votre-visite/tarifs",
-    "note": "파리 뮤제 공식 요금 안내: 상설 컬렉션은 모든 관람객 무료."
+    "note": "파리 뮤제 공식 요금 안내: 상설 컬렉션은 모든 관람객 무료.",
+    "nameJa": "プティ・パレ 入場無料"
   },
   {
     "id": "PAR-AT-014",
@@ -8528,7 +8638,8 @@
     "applied": "파리 시립박물관 상설전시 무료 정책",
     "sourceName": "Paris Musées",
     "sourceUrl": "https://parismusees.paris.fr/fr/votre-visite/tarifs",
-    "note": "파리 뮤제 공식 요금 안내: 상설 컬렉션은 모든 관람객 무료."
+    "note": "파리 뮤제 공식 요금 안내: 상설 컬렉션은 모든 관람객 무료.",
+    "nameJa": "パリ市立近代美術館 入場無料"
   },
   {
     "id": "PAR-AT-015",
@@ -8552,7 +8663,8 @@
     "applied": "파리 시립박물관 상설전시 무료 정책",
     "sourceName": "Paris Musées",
     "sourceUrl": "https://parismusees.paris.fr/fr/votre-visite/tarifs",
-    "note": "파리 뮤제 공식 요금 안내: 상설 컬렉션은 모든 관람객 무료."
+    "note": "파리 뮤제 공식 요금 안내: 상설 컬렉션은 모든 관람객 무료.",
+    "nameJa": "ヴィクトル・ユゴー記念館 入場無料"
   },
   {
     "id": "PAR-AT-016",
@@ -8576,7 +8688,8 @@
     "applied": "2026-10-04 공식 무료 대상 안내",
     "sourceName": "Musée d'Orsay",
     "sourceUrl": "https://www.musee-orsay.fr/en/Visit/rates",
-    "note": "공식 무료 입장 대상: 만 18세 미만."
+    "note": "공식 무료 입장 대상: 만 18세 미만.",
+    "nameJa": "オルセー美術館 入場無料（18歳未満）"
   },
   {
     "id": "PAR-AT-017",
@@ -8600,7 +8713,8 @@
     "applied": "2026-10-04 공식 무료 대상 안내",
     "sourceName": "Musée de l'Orangerie",
     "sourceUrl": "https://www.musee-orangerie.fr/en/articles/free-admission-105449",
-    "note": "공식 무료 입장 대상: 만 18세 미만."
+    "note": "공식 무료 입장 대상: 만 18세 미만.",
+    "nameJa": "オランジュリー美術館 入場無料（18歳未満）"
   },
   {
     "id": "PAR-AT-018",
@@ -8624,7 +8738,8 @@
     "applied": "2026년 공식 무료입장 규정",
     "sourceName": "Palace of Versailles",
     "sourceUrl": "https://en.chateauversailles.fr/2026-ticketing",
-    "note": "공식 일반 입장 규정에 만 18세 미만 무료 명시; 무료 티켓 예약 필요."
+    "note": "공식 일반 입장 규정에 만 18세 미만 무료 명시; 무료 티켓 예약 필요.",
+    "nameJa": "ヴェルサイユ宮殿 入場無料（18歳未満）"
   },
   {
     "id": "PAR-AT-019",
@@ -8648,7 +8763,8 @@
     "applied": "2026-10-04 공식 무료 대상 안내",
     "sourceName": "Sainte-Chapelle",
     "sourceUrl": "https://www.sainte-chapelle.fr/en/visiter/informations-pratiques/",
-    "note": "공식 2026 요금표에 만 18세 미만 무료 명시."
+    "note": "공식 2026 요금표에 만 18세 미만 무료 명시.",
+    "nameJa": "サント・シャペル 入場無料（18歳未満）"
   },
   {
     "id": "PAR-AT-020",
@@ -8672,7 +8788,8 @@
     "applied": "2026-10-04 공식 무료 대상 안내",
     "sourceName": "Musée Rodin",
     "sourceUrl": "https://www.musee-rodin.fr/en/plan-your-visit/plan-your-visit-musee-rodin",
-    "note": "공식 무료입장 규정에 만 18세 미만 포함."
+    "note": "공식 무료입장 규정에 만 18세 미만 포함.",
+    "nameJa": "ロダン美術館 入場無料（18歳未満）"
   },
   {
     "id": "LON-AT-006",
@@ -8696,7 +8813,8 @@
     "applied": "2026-10-04 일반 요금(여름 할인 기간 외)",
     "sourceName": "St Paul's Cathedral",
     "sourceUrl": "https://www.stpauls.co.uk/ticket-types-and-prices",
-    "note": "공식 일반 관광권 요금; 성당 바닥, 지하실, 돔 갤러리 포함. 선택 기부 제외."
+    "note": "공식 일반 관광권 요금; 성당 바닥, 지하실, 돔 갤러리 포함. 선택 기부 제외.",
+    "nameJa": "セント・ポール大聖堂 入場券（大人）"
   },
   {
     "id": "LON-AT-007",
@@ -8720,7 +8838,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Tower Bridge",
     "sourceUrl": "https://www.towerbridge.org.uk/whats-on/entry-to-tower-bridge",
-    "note": "공식 성인 입장료; 상부 보행로와 엔진룸 포함."
+    "note": "공식 성인 입장료; 상부 보행로와 엔진룸 포함.",
+    "nameJa": "タワー・ブリッジ 入場券（大人）"
   },
   {
     "id": "LON-AT-008",
@@ -8746,7 +8865,8 @@
     "validTo": "2026-10-31",
     "sourceName": "Royal Botanic Gardens, Kew",
     "sourceUrl": "https://www.kew.org/kew-gardens/visit-kew-gardens/tickets",
-    "note": "공식 온라인 표준 성인권. 화요일 £10 프로모션과 선택 기부는 제외."
+    "note": "공식 온라인 표준 성인권. 화요일 £10 프로모션과 선택 기부는 제외.",
+    "nameJa": "キュー・ガーデン 入場券（大人）"
   },
   {
     "id": "LON-AT-009",
@@ -8772,7 +8892,8 @@
     "validTo": "2026-11-08",
     "sourceName": "Historic Royal Palaces",
     "sourceUrl": "https://www.hrp.org.uk/kensington-palace/visit/tickets-and-prices/",
-    "note": "공식 무기부 표준 성인권; 해당 기간 전시 입장 포함."
+    "note": "공식 무기부 표준 성인권; 해당 기간 전시 입장 포함.",
+    "nameJa": "ケンジントン宮殿 入場券（大人）"
   },
   {
     "id": "LON-AT-010",
@@ -8796,7 +8917,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Royal Museums Greenwich",
     "sourceUrl": "https://www.rmg.co.uk/plan-your-visit/tickets-prices",
-    "note": "왕립 박물관 그리니치 공식 성인 입장료."
+    "note": "왕립 박물관 그리니치 공식 성인 입장료.",
+    "nameJa": "グリニッジ天文台 入場券（大人）"
   },
   {
     "id": "LON-AT-011",
@@ -8820,7 +8942,8 @@
     "applied": "2026-10-04 일반 입장 안내",
     "sourceName": "The National Gallery",
     "sourceUrl": "https://www.nationalgallery.org.uk/visiting/plan-your-visit",
-    "note": "공식 일반 입장 무료; 일부 특별전은 별도 유료."
+    "note": "공식 일반 입장 무료; 일부 특별전은 별도 유료.",
+    "nameJa": "ナショナル・ギャラリー 入場無料"
   },
   {
     "id": "LON-AT-012",
@@ -8844,7 +8967,8 @@
     "applied": "2026-10-04 일반 입장 안내",
     "sourceName": "Natural History Museum",
     "sourceUrl": "https://www.nhm.ac.uk/visit.html",
-    "note": "공식 갤러리 일반 입장은 무료; 일부 전시는 별도 유료."
+    "note": "공식 갤러리 일반 입장은 무료; 일부 전시는 별도 유료.",
+    "nameJa": "自然史博物館 入場無料"
   },
   {
     "id": "LON-AT-013",
@@ -8868,7 +8992,8 @@
     "applied": "2026-10-04 일반 입장 안내",
     "sourceName": "Science Museum",
     "sourceUrl": "https://www.sciencemuseum.org.uk/visit",
-    "note": "공식 일반 입장 무료; 사전 무료 티켓 예약 안내."
+    "note": "공식 일반 입장 무료; 사전 무료 티켓 예약 안내.",
+    "nameJa": "科学博物館 入場無料"
   },
   {
     "id": "LON-AT-014",
@@ -8892,7 +9017,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Royal Museums Greenwich",
     "sourceUrl": "https://www.rmg.co.uk/plan-your-visit/tickets-prices",
-    "note": "왕립 박물관 그리니치 공식 요금표에서 일반 입장 무료."
+    "note": "왕립 박물관 그리니치 공식 요금표에서 일반 입장 무료.",
+    "nameJa": "国立海事博物館 入場無料"
   },
   {
     "id": "LON-AT-015",
@@ -8916,7 +9042,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Royal Museums Greenwich",
     "sourceUrl": "https://www.rmg.co.uk/plan-your-visit/tickets-prices",
-    "note": "왕립 박물관 그리니치 공식 요금표에서 일반 입장 무료."
+    "note": "왕립 박물관 그리니치 공식 요금표에서 일반 입장 무료.",
+    "nameJa": "クイーンズ・ハウス 入場無料"
   },
   {
     "id": "LON-AT-016",
@@ -8940,7 +9067,8 @@
     "applied": "2026-10-04 일반 요금(여름 할인 기간 외)",
     "sourceName": "St Paul's Cathedral",
     "sourceUrl": "https://www.stpauls.co.uk/ticket-types-and-prices",
-    "note": "공식 일반 관광권 아동 요금."
+    "note": "공식 일반 관광권 아동 요금.",
+    "nameJa": "セント・ポール大聖堂 入場券（子ども・6〜17歳）"
   },
   {
     "id": "LON-AT-017",
@@ -8964,7 +9092,8 @@
     "applied": "2026-10-04 일반 요금(여름 할인 기간 외)",
     "sourceName": "St Paul's Cathedral",
     "sourceUrl": "https://www.stpauls.co.uk/ticket-types-and-prices",
-    "note": "공식 일반 관광권에서 만 0~5세 무료."
+    "note": "공식 일반 관광권에서 만 0~5세 무료.",
+    "nameJa": "セント・ポール大聖堂 入場無料（6歳未満）"
   },
   {
     "id": "LON-AT-018",
@@ -8988,7 +9117,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Tower Bridge",
     "sourceUrl": "https://www.towerbridge.org.uk/whats-on/entry-to-tower-bridge",
-    "note": "공식 어린이 입장료."
+    "note": "공식 어린이 입장료.",
+    "nameJa": "タワー・ブリッジ 入場券（子ども・5〜15歳）"
   },
   {
     "id": "LON-AT-019",
@@ -9012,7 +9142,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Tower Bridge",
     "sourceUrl": "https://www.towerbridge.org.uk/whats-on/entry-to-tower-bridge",
-    "note": "공식 입장 조건에 만 5세 미만 무료."
+    "note": "공식 입장 조건에 만 5세 미만 무료.",
+    "nameJa": "タワー・ブリッジ 入場無料（5歳未満）"
   },
   {
     "id": "LON-AT-020",
@@ -9037,7 +9168,8 @@
     "validFrom": "2026-09-02",
     "sourceName": "Royal Botanic Gardens, Kew",
     "sourceUrl": "https://www.kew.org/kew-gardens/visit-kew-gardens/tickets",
-    "note": "공식 온라인 어린이 요금. 현장 어린이권은 £4."
+    "note": "공식 온라인 어린이 요금. 현장 어린이권은 £4.",
+    "nameJa": "キュー・ガーデン 入場券（子ども・4〜15歳）"
   },
   {
     "id": "LON-AT-021",
@@ -9061,7 +9193,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Royal Botanic Gardens, Kew",
     "sourceUrl": "https://www.kew.org/kew-gardens/visit-kew-gardens/tickets",
-    "note": "공식 요금표에 만 4세 미만 무료."
+    "note": "공식 요금표에 만 4세 미만 무료.",
+    "nameJa": "キュー・ガーデン 入場無料（4歳未満）"
   },
   {
     "id": "LON-AT-022",
@@ -9087,7 +9220,8 @@
     "validTo": "2026-11-08",
     "sourceName": "Historic Royal Palaces",
     "sourceUrl": "https://www.hrp.org.uk/kensington-palace/visit/tickets-and-prices/",
-    "note": "공식 무기부 어린이 입장료."
+    "note": "공식 무기부 어린이 입장료.",
+    "nameJa": "ケンジントン宮殿 入場券（子ども・5〜15歳）"
   },
   {
     "id": "LON-AT-023",
@@ -9113,7 +9247,8 @@
     "validTo": "2026-11-08",
     "sourceName": "Historic Royal Palaces",
     "sourceUrl": "https://www.hrp.org.uk/kensington-palace/visit/tickets-and-prices/",
-    "note": "공식 티켓 안내에 만 5세 미만 무료."
+    "note": "공식 티켓 안내에 만 5세 미만 무료.",
+    "nameJa": "ケンジントン宮殿 入場無料（5歳未満）"
   },
   {
     "id": "LON-AT-024",
@@ -9137,7 +9272,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Royal Museums Greenwich",
     "sourceUrl": "https://www.rmg.co.uk/plan-your-visit/tickets-prices",
-    "note": "공식 어린이 요금표; 어린이권 연령은 4~15세."
+    "note": "공식 어린이 요금표; 어린이권 연령은 4~15세.",
+    "nameJa": "グリニッジ天文台 入場券（子ども・4〜15歳）"
   },
   {
     "id": "LON-AT-025",
@@ -9161,7 +9297,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Royal Museums Greenwich",
     "sourceUrl": "https://www.rmg.co.uk/plan-your-visit/tickets-prices",
-    "note": "왕립 박물관 그리니치 사이트 전반의 공식 규정: 만 4세 미만 무료."
+    "note": "왕립 박물관 그리니치 사이트 전반의 공식 규정: 만 4세 미만 무료.",
+    "nameJa": "グリニッジ天文台 入場無料（4歳未満）"
   },
   {
     "id": "BCN-AT-001",
@@ -9185,7 +9322,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "L'Aquàrium de Barcelona",
     "sourceUrl": "https://www.aquariumbcn.com/en/visit/prices/",
-    "note": "공식 일반권 요금; 온라인·현장 가격 동일."
+    "note": "공식 일반권 요금; 온라인·현장 가격 동일.",
+    "nameJa": "バルセロナ水族館 入場券（大人）"
   },
   {
     "id": "BCN-AT-002",
@@ -9209,7 +9347,8 @@
     "applied": "2026-10-04 공식 관광 방문 요금표",
     "sourceName": "Barcelona Cathedral",
     "sourceUrl": "https://catedralbcn.org/en/tourist-visit/visiting-hours/",
-    "note": "공식 개인 관광 방문 입장료. 단체권·학생 할인 제외."
+    "note": "공식 개인 관광 방문 입장료. 단체권·학생 할인 제외.",
+    "nameJa": "バルセロナ大聖堂 入場券（大人）"
   },
   {
     "id": "BCN-AT-003",
@@ -9233,7 +9372,8 @@
     "applied": "2026년 3~10월 공식 요금표",
     "sourceName": "Castell de Montjuïc / Barcelona City Council",
     "sourceUrl": "https://guia.barcelona.cat/en/detall/castell-de-montjuic_99077121755.html",
-    "note": "시 공식 안내의 일반 입장료 €12."
+    "note": "시 공식 안내의 일반 입장료 €12.",
+    "nameJa": "モンジュイック城 入場券（大人）"
   },
   {
     "id": "BCN-AT-004",
@@ -9257,7 +9397,8 @@
     "applied": "2026-10-04 공식 요금표 조회(14시 전)",
     "sourceName": "Recinte Modernista de Sant Pau",
     "sourceUrl": "https://santpaubarcelona.org/en/prepara-la-teva-visita/",
-    "note": "공식 일반 자유관람 요금: 14시 이전 €18, 이후 €17. 기록값은 14시 이전 일반권."
+    "note": "공식 일반 자유관람 요금: 14시 이전 €18, 이후 €17. 기록값은 14시 이전 일반권.",
+    "nameJa": "サン・パウ病院 入場券（大人）"
   },
   {
     "id": "BCN-AT-005",
@@ -9281,7 +9422,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Palau Güell",
     "sourceUrl": "https://inici.palauguell.cat/en/rates/",
-    "note": "공식 개인 일반 요금 €15."
+    "note": "공식 개인 일반 요금 €15.",
+    "nameJa": "グエル邸 入場券（大人）"
   },
   {
     "id": "BCN-AT-006",
@@ -9305,7 +9447,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "MACBA",
     "sourceUrl": "https://www.macba.cat/es/planifica-tu-visita/",
-    "note": "공식 온라인 일반권 €13.50; 현장 일반권은 €15."
+    "note": "공식 온라인 일반권 €13.50; 현장 일반권은 €15.",
+    "nameJa": "バルセロナ現代美術館（MACBA） 入場券（大人）"
   },
   {
     "id": "BCN-AT-007",
@@ -9329,7 +9472,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Museu Nacional d'Art de Catalunya",
     "sourceUrl": "https://www.museunacional.cat/en/opening-hours-and-prices",
-    "note": "공식 일반 입장료 €12."
+    "note": "공식 일반 입장료 €12.",
+    "nameJa": "カタルーニャ美術館 入場券（大人）"
   },
   {
     "id": "BCN-AT-008",
@@ -9353,7 +9497,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Museu Picasso Barcelona",
     "sourceUrl": "https://museupicassobcn.cat/index.php/en/plan-your-visit/buy-tickets-and-opening-hours",
-    "note": "공식 온라인 일반권 €14; 매표소 일반권은 €15."
+    "note": "공식 온라인 일반권 €14; 매표소 일반권은 €15.",
+    "nameJa": "ピカソ美術館 入場券（大人）"
   },
   {
     "id": "BCN-AT-009",
@@ -9377,7 +9522,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "L'Aquàrium de Barcelona",
     "sourceUrl": "https://www.aquariumbcn.com/en/visit/prices/",
-    "note": "운영사 공식 어린이 요금표의 최저 유료 연령 구간."
+    "note": "운영사 공식 어린이 요금표의 최저 유료 연령 구간.",
+    "nameJa": "バルセロナ水族館 入場券（子ども・3〜4歳）"
   },
   {
     "id": "BCN-AT-010",
@@ -9401,7 +9547,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "L'Aquàrium de Barcelona",
     "sourceUrl": "https://www.aquariumbcn.com/en/visit/prices/",
-    "note": "운영사 공식 요금표에서 0~2세 무료."
+    "note": "운영사 공식 요금표에서 0~2세 무료.",
+    "nameJa": "バルセロナ水族館 入場無料（3歳未満）"
   },
   {
     "id": "BCN-AT-011",
@@ -9425,7 +9572,8 @@
     "applied": "2026년 공식 요금표",
     "sourceName": "Castell de Montjuïc / Barcelona City Council",
     "sourceUrl": "https://guia.barcelona.cat/en/detall/castell-de-montjuic_99077121755.html",
-    "note": "시 공식 안내의 어린이 할인 요금."
+    "note": "시 공식 안내의 어린이 할인 요금.",
+    "nameJa": "モンジュイック城 入場券（子ども・8〜12歳）"
   },
   {
     "id": "BCN-AT-012",
@@ -9449,7 +9597,8 @@
     "applied": "2026년 공식 무료 대상 안내",
     "sourceName": "Castell de Montjuïc / Barcelona City Council",
     "sourceUrl": "https://guia.barcelona.cat/en/detall/castell-de-montjuic_99077121755.html",
-    "note": "시 공식 안내에 만 8세 미만 무료."
+    "note": "시 공식 안내에 만 8세 미만 무료.",
+    "nameJa": "モンジュイック城 入場無料（8歳未満）"
   },
   {
     "id": "BCN-AT-013",
@@ -9473,7 +9622,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Recinte Modernista de Sant Pau",
     "sourceUrl": "https://santpaubarcelona.org/en/prepara-la-teva-visita/",
-    "note": "공식 청년 감면은 만 12~24세; 학교 학생 만 12세 미만은 무료."
+    "note": "공식 청년 감면은 만 12~24세; 학교 학생 만 12세 미만은 무료.",
+    "nameJa": "サン・パウ病院 割引入場券（12〜24歳）"
   },
   {
     "id": "BCN-AT-014",
@@ -9497,7 +9647,8 @@
     "applied": "2026-10-04 공식 무료 대상 안내",
     "sourceName": "Recinte Modernista de Sant Pau",
     "sourceUrl": "https://santpaubarcelona.org/en/prepara-la-teva-visita/",
-    "note": "동반 성인과 함께 방문하는 만 12세 미만 무료."
+    "note": "동반 성인과 함께 방문하는 만 12세 미만 무료.",
+    "nameJa": "サン・パウ病院 入場無料（12歳未満）"
   },
   {
     "id": "BCN-AT-015",
@@ -9521,7 +9672,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Palau Güell",
     "sourceUrl": "https://inici.palauguell.cat/en/rates/",
-    "note": "공식 미니 요금 €5; 만 13~18세 대상."
+    "note": "공식 미니 요금 €5; 만 13~18세 대상.",
+    "nameJa": "グエル邸 割引入場券（13〜18歳）"
   },
   {
     "id": "BCN-AT-016",
@@ -9545,7 +9697,8 @@
     "applied": "2026-10-04 공식 무료 대상 안내",
     "sourceName": "Palau Güell",
     "sourceUrl": "https://inici.palauguell.cat/en/rates/",
-    "note": "공식 요금표의 만 13세 미만 무료."
+    "note": "공식 요금표의 만 13세 미만 무료.",
+    "nameJa": "グエル邸 入場無料（13歳未満）"
   },
   {
     "id": "BCN-AT-017",
@@ -9569,7 +9722,8 @@
     "applied": "2026-10-04 공식 FAQ 조회",
     "sourceName": "MACBA",
     "sourceUrl": "https://www.macba.cat/es/planifica-tu-visita/",
-    "note": "운영사 FAQ에 만 16세 미만 무료 입장 명시."
+    "note": "운영사 FAQ에 만 16세 미만 무료 입장 명시.",
+    "nameJa": "バルセロナ現代美術館（MACBA） 入場無料（16歳未満）"
   },
   {
     "id": "BCN-AT-018",
@@ -9593,7 +9747,8 @@
     "applied": "2026-10-04 공식 무료 대상 안내",
     "sourceName": "Museu Picasso Barcelona",
     "sourceUrl": "https://museupicassobcn.cat/index.php/en/plan-your-visit/buy-tickets-and-opening-hours",
-    "note": "공식 요금 안내에 만 18세 미만 무료 입장 명시."
+    "note": "공식 요금 안내에 만 18세 미만 무료 입장 명시.",
+    "nameJa": "ピカソ美術館 入場無料（18歳未満）"
   },
   {
     "id": "BCN-AT-019",
@@ -9617,7 +9772,8 @@
     "applied": "2026-10-04 공식 무료 대상 안내",
     "sourceName": "Museu Nacional d'Art de Catalunya",
     "sourceUrl": "https://www.museunacional.cat/en/opening-hours-and-prices",
-    "note": "공식 요금표에 만 16세 미만 무료 입장 명시."
+    "note": "공식 요금표에 만 16세 미만 무료 입장 명시.",
+    "nameJa": "カタルーニャ美術館 入場無料（16歳未満）"
   },
   {
     "id": "ROM-AT-001",
@@ -9642,7 +9798,8 @@
     "validFrom": "2026-07-01",
     "sourceName": "Pantheon and Castel Sant'Angelo – National Museums of Rome",
     "sourceUrl": "https://direzionemuseiroma.cultura.gov.it/en/pantheon/",
-    "note": "2026년 7월 1일부터 일반 요금 €7. 예약은 공식 Musei Italiani 포털 또는 현장 매표소."
+    "note": "2026년 7월 1일부터 일반 요금 €7. 예약은 공식 Musei Italiani 포털 또는 현장 매표소.",
+    "nameJa": "パンテオン 入場券（外国人・大人）"
   },
   {
     "id": "ROM-AT-002",
@@ -9668,7 +9825,8 @@
     "validTo": "2026-11-01",
     "sourceName": "Musei in Comune Roma",
     "sourceUrl": "https://www.museiincomuneroma.it/en/informazioni_pratiche/biglietti_e_audioguide",
-    "note": "공식 가격표의 현행 전시 포함 비거주 성인 요금 €16.50. 온라인 예매 수수료 별도."
+    "note": "공식 가격표의 현행 전시 포함 비거주 성인 요금 €16.50. 온라인 예매 수수료 별도.",
+    "nameJa": "カピトリーニ美術館 入場券（非居住者・大人）"
   },
   {
     "id": "ROM-AT-003",
@@ -9692,7 +9850,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Ministero della Cultura",
     "sourceUrl": "https://cultura.gov.it/luogo/terme-di-caracalla",
-    "note": "정가 €8. 전시가 있을 때 €5 추가요금이 붙을 수 있음."
+    "note": "정가 €8. 전시가 있을 때 €5 추가요금이 붙을 수 있음.",
+    "nameJa": "カラカラ浴場 入場券（大人）"
   },
   {
     "id": "ROM-AT-004",
@@ -9716,7 +9875,8 @@
     "applied": "2026-10-04 공식 방문 안내 조회",
     "sourceName": "Doria Pamphilj Gallery",
     "sourceUrl": "https://www.doriapamphilj.it/en/rome/your-visit/",
-    "note": "현장 표준권 €16. 온라인 예약권은 €17."
+    "note": "현장 표준권 €16. 온라인 예약권은 €17.",
+    "nameJa": "ドーリア・パンフィーリ美術館 入場券（大人）"
   },
   {
     "id": "ROM-AT-005",
@@ -9740,7 +9900,8 @@
     "applied": "공식 통합권(첫 입장일부터 8일 유효)",
     "sourceName": "Archaeological Park of Ostia Antica",
     "sourceUrl": "https://ostiaantica.cultura.gov.it/en/info/archaeological-area-of-ostia-antica-visitor-information/",
-    "note": "공원 내 고고·박물관 시설을 8일간 각각 1회 방문하는 통합권. 특정 전시 시 가격이 오를 수 있음."
+    "note": "공원 내 고고·박물관 시설을 8일간 각각 1회 방문하는 통합권. 특정 전시 시 가격이 오를 수 있음.",
+    "nameJa": "オスティア・アンティカ遺跡 共通入場券（大人）"
   },
   {
     "id": "ROM-AT-006",
@@ -9764,7 +9925,8 @@
     "applied": "2026-10-04 공식 요금표 조회; 첫 입장 후 1주 유효",
     "sourceName": "Museo Nazionale Romano",
     "sourceUrl": "https://museonazionaleromano.it/en/opening-hours-and-tickets/",
-    "note": "현재 통합권은 디오클레티아누스 욕장·팔라초 마시모·팔라초 알템프스 각 1회 입장. 크립타 발비는 임시 폐관."
+    "note": "현재 통합권은 디오클레티아누스 욕장·팔라초 마시모·팔라초 알템프스 각 1회 입장. 크립타 발비는 임시 폐관.",
+    "nameJa": "ローマ国立博物館 共通入場券（大人）"
   },
   {
     "id": "ROM-AT-007",
@@ -9788,7 +9950,8 @@
     "applied": "2026-08-27 공식 2026 안내 조회",
     "sourceName": "Villa Adriana e Villa d'Este",
     "sourceUrl": "https://villae.cultura.gov.it/2026/08/27/il-14-settembre-a-villa-deste-il-canto-delle-creature-un-omaggio-a-francesco-dassisi/",
-    "note": "운영기관의 2026년 안내에 명시된 일반 입장료 €15."
+    "note": "운영기관의 2026년 안내에 명시된 일반 입장료 €15.",
+    "nameJa": "ヴィラ・デステ 入場券（大人）"
   },
   {
     "id": "ROM-AT-008",
@@ -9812,7 +9975,8 @@
     "applied": "2026-10-04 공식 예약 상품 조회",
     "sourceName": "Basilica Papale di San Pietro / official booking",
     "sourceUrl": "https://booking.basilicasanpietro.va/en/idea/52250633/-dome-with-lift-includes-basilica-",
-    "note": "공식 대성당 사이트의 돔 리프트 개인 티켓 €22. 돔 입장과 대성당 방문 및 대성당 디지털 오디오 가이드 포함."
+    "note": "공식 대성당 사이트의 돔 리프트 개인 티켓 €22. 돔 입장과 대성당 방문 및 대성당 디지털 오디오 가이드 포함.",
+    "nameJa": "サン・ピエトロ大聖堂 クーポラ入場券（エレベーター利用・大聖堂含む）"
   },
   {
     "id": "ROM-AT-009",
@@ -9836,7 +10000,8 @@
     "applied": "2026-10-04 공식 안내 조회",
     "sourceName": "St. Peter's Basilica",
     "sourceUrl": "https://www.basilicasanpietro.va/en/faq/is-the-visit-to-the-dome-included-in-the-entrance-ticket-to-st-peters-basilica",
-    "note": "공식 안내에서 대성당 입장은 무료이며 돔은 별도 티켓이라고 명시."
+    "note": "공식 안내에서 대성당 입장은 무료이며 돔은 별도 티켓이라고 명시.",
+    "nameJa": "サン・ピエトロ大聖堂 入場無料"
   },
   {
     "id": "ROM-AT-010",
@@ -9861,7 +10026,8 @@
     "validFrom": "2026-07-01",
     "sourceName": "Pantheon and Castel Sant'Angelo – National Museums of Rome",
     "sourceUrl": "https://direzionemuseiroma.cultura.gov.it/en/pantheon/",
-    "note": "공식 요금표의 만 18세 미만 무료 입장."
+    "note": "공식 요금표의 만 18세 미만 무료 입장.",
+    "nameJa": "パンテオン 入場無料（18歳未満）"
   },
   {
     "id": "ROM-AT-011",
@@ -9887,7 +10053,8 @@
     "validTo": "2026-11-01",
     "sourceName": "Musei in Comune Roma",
     "sourceUrl": "https://www.museiincomuneroma.it/en/informazioni_pratiche/biglietti_e_audioguide",
-    "note": "공식 가격표의 비거주 6~25세 감면 요금 €11. 6세 미만은 무료 대상."
+    "note": "공식 가격표의 비거주 6~25세 감면 요금 €11. 6세 미만은 무료 대상.",
+    "nameJa": "カピトリーニ美術館 割引入場券（非居住者・6〜25歳）"
   },
   {
     "id": "ROM-AT-012",
@@ -9911,7 +10078,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Ministero della Cultura",
     "sourceUrl": "https://cultura.gov.it/luogo/terme-di-caracalla",
-    "note": "문화부 공식 요금 안내에 만 18세 미만 무료 명시."
+    "note": "문화부 공식 요금 안내에 만 18세 미만 무료 명시.",
+    "nameJa": "カラカラ浴場 入場無料（18歳未満）"
   },
   {
     "id": "ROM-AT-013",
@@ -9935,7 +10103,8 @@
     "applied": "2026-10-04 공식 방문 안내 조회",
     "sourceName": "Doria Pamphilj Gallery",
     "sourceUrl": "https://www.doriapamphilj.it/en/rome/your-visit/",
-    "note": "운영기관 안내의 만 12세 미만 무료 현장 입장. 온라인 예약 수수료 €1과 구분."
+    "note": "운영기관 안내의 만 12세 미만 무료 현장 입장. 온라인 예약 수수료 €1과 구분.",
+    "nameJa": "ドーリア・パンフィーリ美術館 入場無料（12歳未満）"
   },
   {
     "id": "ROM-AT-014",
@@ -9959,7 +10128,8 @@
     "applied": "2026-10-04 공식 무료 입장 규정 조회",
     "sourceName": "Museo Nazionale Romano",
     "sourceUrl": "https://museonazionaleromano.it/en/opening-hours-and-tickets/",
-    "note": "운영기관의 무료 입장 조건과 이탈리아 문화부 규정에 따른 만 18세 미만 무료."
+    "note": "운영기관의 무료 입장 조건과 이탈리아 문화부 규정에 따른 만 18세 미만 무료.",
+    "nameJa": "ローマ国立博物館 入場無料（18歳未満）"
   },
   {
     "id": "ROM-AT-015",
@@ -9983,7 +10153,8 @@
     "applied": "2026-09-17 공식 안내 조회",
     "sourceName": "Villa Adriana e Villa d'Este",
     "sourceUrl": "https://villae.cultura.gov.it/2026/09/17/giornate-europee-del-patrimonio-sabato-26-settembre-le-villae-di-tivoli-aperte-di-sera-a-1-euro-un-ricco-fine-settimana-tra-inaugurazioni-attivita-e-laboratori/",
-    "note": "운영기관의 2026년 안내에서 만 18세 미만 무료 명시."
+    "note": "운영기관의 2026년 안내에서 만 18세 미만 무료 명시.",
+    "nameJa": "ヴィラ・デステ 入場無料（18歳未満）"
   },
   {
     "id": "ROM-AT-016",
@@ -10007,7 +10178,8 @@
     "applied": "2026-10-04 공식 안내 조회",
     "sourceName": "St. Peter's Basilica",
     "sourceUrl": "https://www.basilicasanpietro.va/en/faq/is-the-visit-to-the-dome-included-in-the-entrance-ticket-to-st-peters-basilica",
-    "note": "대성당은 모든 연령 무료 입장. 돔은 별도 티켓."
+    "note": "대성당은 모든 연령 무료 입장. 돔은 별도 티켓.",
+    "nameJa": "サン・ピエトロ大聖堂 入場無料（18歳未満）"
   },
   {
     "id": "NYC-AT-001",
@@ -10031,7 +10203,8 @@
     "applied": "2026-10-04 공식 시작가 조회",
     "sourceName": "SUMMIT One Vanderbilt",
     "sourceUrl": "https://summitov.com/tickets/",
-    "note": "날짜에 따라 달라지는 공식 시작가 $44. 주문당 온라인 처리 수수료 $3 별도."
+    "note": "날짜에 따라 달라지는 공식 시작가 $44. 주문당 온라인 처리 수수료 $3 별도.",
+    "nameJa": "サミット・ワン・ヴァンダービルト 入場券（大人）"
   },
   {
     "id": "NYC-AT-002",
@@ -10055,7 +10228,8 @@
     "applied": "2026-10-04 공식 티켓 요금표 조회",
     "sourceName": "Intrepid Museum",
     "sourceUrl": "https://intrepidmuseum.org/plan-your-visit/visitor-information/tickets",
-    "note": "항공모함 Intrepid, 우주왕복선 파빌리온, 잠수함 Growler 및 전시 포함."
+    "note": "항공모함 Intrepid, 우주왕복선 파빌리온, 잠수함 Growler 및 전시 포함.",
+    "nameJa": "イントレピッド博物館 入場券（大人）"
   },
   {
     "id": "NYC-AT-003",
@@ -10079,7 +10253,8 @@
     "applied": "2026-10-04 공식 Flex 시작가 조회",
     "sourceName": "Bronx Zoo",
     "sourceUrl": "https://bronxzoo.com/plan-your-visit/hours-and-rates",
-    "note": "운영사 공시 최저가 $37.70+. 날짜·수요에 따라 가격 변동; 본 표본은 공식 시작가."
+    "note": "운영사 공시 최저가 $37.70+. 날짜·수요에 따라 가격 변동; 본 표본은 공식 시작가.",
+    "nameJa": "ブロンクス動物園 入場券（大人）"
   },
   {
     "id": "NYC-AT-004",
@@ -10103,7 +10278,8 @@
     "applied": "2026-10-04 공식 표준 요금 조회",
     "sourceName": "American Museum of Natural History",
     "sourceUrl": "https://www.amnh.org/plan-your-visit",
-    "note": "뉴욕주 밖 거주 방문객의 표준 일반 입장권. 뉴욕주 거주자 Pay-What-You-Wish 요금은 제외."
+    "note": "뉴욕주 밖 거주 방문객의 표준 일반 입장권. 뉴욕주 거주자 Pay-What-You-Wish 요금은 제외.",
+    "nameJa": "アメリカ自然史博物館 入場券（州外居住者・大人）"
   },
   {
     "id": "NYC-AT-005",
@@ -10127,7 +10303,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Whitney Museum of American Art",
     "sourceUrl": "https://whitney.org/visit",
-    "note": "성인 일반 입장권. 25세 이하와 특정 무료 시간대는 별도 정책."
+    "note": "성인 일반 입장권. 25세 이하와 특정 무료 시간대는 별도 정책.",
+    "nameJa": "ホイットニー美術館 入場券（大人）"
   },
   {
     "id": "NYC-AT-006",
@@ -10151,7 +10328,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Solomon R. Guggenheim Museum",
     "sourceUrl": "https://www.guggenheim.org/plan-your-visit",
-    "note": "공식 일반 입장료 $30."
+    "note": "공식 일반 입장료 $30.",
+    "nameJa": "グッゲンハイム美術館 入場券（大人）"
   },
   {
     "id": "NYC-AT-007",
@@ -10175,7 +10353,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "The Frick Collection",
     "sourceUrl": "https://www.frick.org/tickets",
-    "note": "공식 일반 성인 입장료 $30. 만 10세 미만은 관람이 허용되지 않음."
+    "note": "공식 일반 성인 입장료 $30. 만 10세 미만은 관람이 허용되지 않음.",
+    "nameJa": "フリック・コレクション 入場券（大人）"
   },
   {
     "id": "NYC-AT-008",
@@ -10199,7 +10378,8 @@
     "applied": "2026-10-04 공식 시작가 조회",
     "sourceName": "SUMMIT One Vanderbilt",
     "sourceUrl": "https://tickets.summitov.com/Webstore/shop/viewitems.aspx?C=adm&CG=sum",
-    "note": "공식 일반 입장 시작가의 청소년 요금. 날짜별 변동; 주문당 온라인 처리 수수료 $3 별도."
+    "note": "공식 일반 입장 시작가의 청소년 요금. 날짜별 변동; 주문당 온라인 처리 수수료 $3 별도.",
+    "nameJa": "サミット・ワン・ヴァンダービルト 入場券（子ども・6〜12歳）"
   },
   {
     "id": "NYC-AT-009",
@@ -10223,7 +10403,8 @@
     "applied": "2026-10-04 공식 티켓 안내 조회",
     "sourceName": "SUMMIT One Vanderbilt",
     "sourceUrl": "https://tickets.summitov.com/Webstore/shop/viewitems.aspx?C=adm&CG=sum",
-    "note": "운영사 티켓 안내에 만 5세 이하 무료 명시."
+    "note": "운영사 티켓 안내에 만 5세 이하 무료 명시.",
+    "nameJa": "サミット・ワン・ヴァンダービルト 入場無料（5歳以下）"
   },
   {
     "id": "NYC-AT-010",
@@ -10247,7 +10428,8 @@
     "applied": "2026-10-04 공식 티켓 요금표 조회",
     "sourceName": "Intrepid Museum",
     "sourceUrl": "https://intrepidmuseum.org/plan-your-visit/visitor-information/tickets",
-    "note": "공식 어린이 일반 입장료 $28."
+    "note": "공식 어린이 일반 입장료 $28.",
+    "nameJa": "イントレピッド博物館 入場券（子ども・5〜12歳）"
   },
   {
     "id": "NYC-AT-011",
@@ -10271,7 +10453,8 @@
     "applied": "2026-10-04 공식 티켓 요금표 조회",
     "sourceName": "Intrepid Museum",
     "sourceUrl": "https://intrepidmuseum.org/plan-your-visit/visitor-information/tickets",
-    "note": "공식 요금표에 만 4세 이하 무료."
+    "note": "공식 요금표에 만 4세 이하 무료.",
+    "nameJa": "イントレピッド博物館 入場無料（4歳以下）"
   },
   {
     "id": "NYC-AT-012",
@@ -10295,7 +10478,8 @@
     "applied": "2026-10-04 공식 Flex 시작가 조회",
     "sourceName": "Bronx Zoo",
     "sourceUrl": "https://bronxzoo.com/plan-your-visit/hours-and-rates",
-    "note": "운영사 공시 최저가 $27.70+. 날짜·수요에 따라 가격 변동; 본 표본은 공식 시작가."
+    "note": "운영사 공시 최저가 $27.70+. 날짜·수요에 따라 가격 변동; 본 표본은 공식 시작가.",
+    "nameJa": "ブロンクス動物園 入場券（子ども・3〜12歳）"
   },
   {
     "id": "NYC-AT-013",
@@ -10319,7 +10503,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Bronx Zoo",
     "sourceUrl": "https://bronxzoo.com/plan-your-visit/hours-and-rates",
-    "note": "운영사 공식 요금표에 만 2세 이하 무료."
+    "note": "운영사 공식 요금표에 만 2세 이하 무료.",
+    "nameJa": "ブロンクス動物園 入場無料（2歳以下）"
   },
   {
     "id": "NYC-AT-014",
@@ -10343,7 +10528,8 @@
     "applied": "2026-10-04 공식 표준 요금 조회",
     "sourceName": "American Museum of Natural History",
     "sourceUrl": "https://www.amnh.org/plan-your-visit",
-    "note": "뉴욕주 밖 거주 방문객 표준 요금표의 아동 일반 입장은 무료. 만 3세 미만도 무료."
+    "note": "뉴욕주 밖 거주 방문객 표준 요금표의 아동 일반 입장은 무료. 만 3세 미만도 무료.",
+    "nameJa": "アメリカ自然史博物館 入場無料（3〜12歳）"
   },
   {
     "id": "NYC-AT-015",
@@ -10367,7 +10553,8 @@
     "applied": "2026-10-04 공식 무료 입장 정책 조회",
     "sourceName": "Whitney Museum of American Art",
     "sourceUrl": "https://whitney.org/visit/free-admission",
-    "note": "공식 정책상 만 25세 이하 무료이므로 아동·청소년도 무료. 시간 지정 티켓 필요."
+    "note": "공식 정책상 만 25세 이하 무료이므로 아동·청소년도 무료. 시간 지정 티켓 필요.",
+    "nameJa": "ホイットニー美術館 入場無料（18歳未満）"
   },
   {
     "id": "NYC-AT-016",
@@ -10391,7 +10578,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Solomon R. Guggenheim Museum",
     "sourceUrl": "https://www.guggenheim.org/plan-your-visit",
-    "note": "운영사 요금표에 만 12세 미만 무료."
+    "note": "운영사 요금표에 만 12세 미만 무료.",
+    "nameJa": "グッゲンハイム美術館 入場無料（12歳未満）"
   },
   {
     "id": "NYC-AT-017",
@@ -10415,7 +10603,8 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "The Frick Collection",
     "sourceUrl": "https://www.frick.org/tickets",
-    "note": "운영사 요금표에 만 10~18세 무료; 만 10세 미만은 입장 불가."
+    "note": "운영사 요금표에 만 10~18세 무료; 만 10세 미만은 입장 불가.",
+    "nameJa": "フリック・コレクション 入場無料（10〜18歳）"
   },
   {
     "id": "BCN-FD-101",

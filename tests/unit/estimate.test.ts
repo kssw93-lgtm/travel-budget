@@ -533,5 +533,18 @@ describe('자세히 설정', () => {
     expect(e.warnings.find((w) => w.code === 'mustEat')).toMatchObject({ names: ['라멘'], n: 1 });
     expect(e.warnings.find((w) => w.code === 'customPrice')).toMatchObject({ names: ['라멘'] });
   });
+
+  it('음주 자세히: 고른 술 1잔 가격(최저~최고) × 하루 잔 수 × 성인 × 일자 비중(3.2)', () => {
+    const base = estimateTrip(trip(), city, baseSamples()).categories.food.total!;
+    const e = estimateTrip(trip({ drinks: true, drinksPerDay: 2, drinkPicks: [{ name: '맥주', price: 5 }, { name: '와인', price: 8 }] }), city, baseSamples());
+    // 2잔 × 3.2 × 성인 2 × [5, 8] = [64, 102.4]
+    close(e.categories.food.total, base.min + 64, base.max + 102.4);
+    expect(e.warnings.find((w) => w.code === 'drinkPicks')).toMatchObject({ names: ['맥주', '와인'], n: 2 });
+  });
+
+  it('음주를 끄면 고른 술이 있어도 더하지 않는다', () => {
+    const base = estimateTrip(trip(), city, baseSamples()).categories.food.total!;
+    close(estimateTrip(trip({ drinks: false, drinkPicks: [{ name: '맥주', price: 5 }] }), city, baseSamples()).categories.food.total, base.min, base.max);
+  });
 });
 

@@ -30,6 +30,8 @@ const KEYS = {
   passId: 'pass',
   mealsPerDay: 'meals',
   mustEat: 'eat',
+  drinksPerDay: 'dpd',
+  drinkPicks: 'dk',
 } as const satisfies Record<keyof FormState, string>;
 
 const CURRENCY = /^[A-Z]{3}$/;
@@ -69,7 +71,7 @@ export function readForm(search: string, cityIds: string[]): Partial<FormState> 
   }
   const tm = get('transportMode');
   if (tm === 'none' || tm === 'rides' || tm === 'pass') out.transportMode = tm;
-  for (const k of ['ridesPerDay', 'transitDays', 'mealsPerDay'] as const) {
+  for (const k of ['ridesPerDay', 'transitDays', 'mealsPerDay', 'drinksPerDay'] as const) {
     const v = get(k);
     if (v && /^\d{1,2}$/.test(v)) out[k] = v;
   }
@@ -77,6 +79,8 @@ export function readForm(search: string, cityIds: string[]): Partial<FormState> 
   if (pass && EXTRA_ID.test(pass)) out.passId = pass;
   const eat = get('mustEat');
   if (eat) out.mustEat = decodeMustEat(eat);
+  const dk = get('drinkPicks');
+  if (dk) out.drinkPicks = decodeMustEat(dk);
   return out;
 }
 
@@ -128,10 +132,11 @@ export function formToSearch(form: FormState, lang: Lang): string {
     if (k === 'ridesPerDay' && form.transportMode !== 'rides') return;
     if (k === 'transitDays' && form.transportMode !== 'rides' && form.transportMode !== 'pass') return;
     if (k === 'passId' && form.transportMode !== 'pass') return;
-    if (k === 'mustEat') {
-      if (form.mustEat.length) q.set(KEYS.mustEat, encodeMustEat(form.mustEat));
+    if (k === 'mustEat' || k === 'drinkPicks') {
+      if (form[k].length && (k === 'mustEat' || form.drinks)) q.set(KEYS[k], encodeMustEat(form[k]));
       return;
     }
+    if (k === 'drinksPerDay' && !form.drinks) return;
     const v = form[k];
     if (v === '' || ((k === 'flight' || k === 'lodging' || k === 'directCurrency') && !form.flight && !form.lodging)) return;
     q.set(KEYS[k], v);

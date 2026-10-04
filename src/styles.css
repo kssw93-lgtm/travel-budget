@@ -175,3 +175,7 @@ a.button:hover { filter: brightness(1.08); }
 .must-eat-add button, .plan-group button:not(.link-button) { min-height: 44px; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--brand); background: var(--panel, transparent); color: var(--brand); font: inherit; font-weight: 600; cursor: pointer; }
 .must-eat-add button:disabled { opacity: .5; cursor: not-allowed; }
 @media (max-width: 560px) { .must-eat-row { grid-template-columns: minmax(0, 1fr); } }
+
+/* 접히는 카드: 머리글 오른쪽에 열기/접기 표시 */
+.toggle-hint { margin-left: auto; color: var(--brand); font-weight: 600; font-size: .9rem; white-space: nowrap; }
+details:not([open]) > summary .toggle-hint .when-open, details[open] > summary .toggle-hint .when-closed { display: none; }

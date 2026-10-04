@@ -11,6 +11,7 @@ import {
   type TransportMode,
 } from "./form";
 import { RangeText } from "./money";
+import { DrinkOptions } from "./DrinkOptions";
 
 interface Props {
   city: City;
@@ -60,6 +61,8 @@ export function PlanOptions({
   const [pick, setPick] = useState("");
   const customized =
     form.transportMode !== "auto" ||
+    form.drinksPerDay !== "" ||
+    form.drinkPicks.length > 0 ||
     form.mealsPerDay !== "" ||
     form.mustEat.length > 0;
   const autoRides = MODEL.usage.ride[form.style];
@@ -189,6 +192,7 @@ export function PlanOptions({
                         lang,
                         o.adult.sample.nameKo,
                         o.adult.sample.nameEn,
+                        o.adult.sample.nameJa,
                       )}{" "}
                       ·{" "}
                       {o.adult.sample.min === o.adult.sample.max
@@ -357,6 +361,8 @@ export function PlanOptions({
             </div>
           )}
         </fieldset>
+
+        <DrinkOptions city={city} samples={samples} form={form} onChange={onChange} errors={errors} />
       </details>
     </section>
   );

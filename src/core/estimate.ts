@@ -323,11 +323,7 @@ export function estimateTrip(input: TripInput, city: City, samples: PriceSample[
         : c === 'transport' && input.transport
           ? plannedTransport(input.transport, city, samples, classified, input, dates, weights)
           : c === 'food'
-            ? withMustEat(
-                estimateCategory(c, classified, input, dates, weights, { opts: (b) => (b === 'meal' && input.mealsPerDay ? { perUse: input.mealsPerDay } : {}) }),
-                input,
-                weights,
-              )
+            ? withMustEat(foodWithDrinks(classified, input, dates, weights), input, weights)
             : estimateCategory(c, classified, input, dates, weights);
     categories[c] = run.estimate;
     warnings.push(...run.warnings);
@@ -581,5 +577,34 @@ function withMustEat(run: { estimate: CategoryEstimate; warnings: Warning[] }, i
   return {
     warnings,
     estimate: { ...e, total, lines: [...e.lines, ...lines], perPersonPerDay: scale(total, 1 / Math.max(1, people * weights.length)) },
+  };
+}
+
+/**
+ * 외식(식사·간식·주류). 자세히 설정의 하루 끼니 수·하루 잔 수를 반영하고,
+ * 마실 술을 골랐으면 주류 가격 분포 대신 고른 술 1잔 가격의 최저~최고 × 하루 잔 수 × 성인 × 일자 비중으로 계산한다.
+ */
+function foodWithDrinks(classified: Classified[], input: TripInput, dates: string[], weights: number[]): { estimate: CategoryEstimate; warnings: Warning[] } {
+  const picks = (input.drinkPicks ?? []).filter((d) => d.price >= 0 && d.name.trim());
+  const usePicks = Boolean(input.drinks) && picks.length > 0;
+  const opts = (b: Basket): BasketOpts =>
+    b === 'meal' && input.mealsPerDay ? { perUse: input.mealsPerDay } : b === 'drink' && input.drinksPerDay !== undefined ? { perUse: input.drinksPerDay } : {};
+  const run = estimateCategory('food', classified, usePicks ? { ...input, drinks: false } : input, dates, weights, { opts });
+  if (!usePicks || !run.estimate.total) return run;
+  const perDay = input.drinksPerDay ?? MODEL.usage.drink[input.style];
+  const unit = { min: Math.min(...picks.map((d) => d.price)), max: Math.max(...picks.map((d) => d.price)) };
+  const lines: DetailLine[] = dates.map((date, i) => {
+    const w = weights[i] as number;
+    return { kind: 'day', basket: 'drink', day: i + 1, date, units: perDay * w, weight: w, unitPrice: unit, total: scale(unit, perDay * w * input.adults) };
+  });
+  const added = lines.reduce((sum, l) => add(sum, l.total), ZERO);
+  const total = add(run.estimate.total, added);
+  const people = input.adults + input.children;
+  const warnings: Warning[] = [...run.warnings, { category: 'food', code: 'drinkPicks', names: picks.map((d) => d.name), n: perDay }];
+  const custom = picks.filter((d) => !d.sampleId).map((d) => d.name);
+  if (custom.length) warnings.push({ category: 'food', code: 'customPrice', names: custom, n: custom.length });
+  return {
+    warnings,
+    estimate: { ...run.estimate, total, lines: [...run.estimate.lines, ...lines], perPersonPerDay: scale(total, 1 / Math.max(1, people * dates.length)) },
   };
 }

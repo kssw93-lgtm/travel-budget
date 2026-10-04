@@ -266,6 +266,14 @@ function main() {
     }
   }
 
+  // 일본어 이름 보완(data/overlays/names-ja.json): 엑셀 일본어 열보다 우선한다(음역 행을 통용 표기로 고친 것)
+  const namesJa = JSON.parse(readFileSync(`${root}/data/overlays/names-ja.json`, 'utf8')) as Record<string, string>;
+  for (const x of [...samples, ...extras]) {
+    const ja = namesJa[x.id];
+    if (ja) x.nameJa = ja;
+  }
+  for (const id of Object.keys(namesJa)) if (!id.startsWith('_') && ![...samples, ...extras].some((x) => x.id === id)) notes.push(`names-ja.json: 없는 표본 ID '${id}'`);
+
   // 교차 검수 결과(data/reviews/*.csv, 예: Gemini 검수). '불일치'·'확인불가' 판정만 재검증 표시로 붙인다.
   // 가격은 바꾸지 않는다 — 고칠 값은 조사 엑셀 다음 버전에 반영한다. review-flags.json 이 먼저 붙은 표본은 그대로 둔다.
   const byId = new Map<string, PriceSample | ExtraSample>([...samples, ...extras].map((x) => [x.id, x]));

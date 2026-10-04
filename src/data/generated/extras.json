@@ -22,7 +22,8 @@
     "sourceName": "공항철도 여객운송약관 별표 2",
     "sourceUrl": "https://www.arex.or.kr/file/%EC%97%AC%EA%B0%9D%EC%9A%B4%EC%86%A1%EC%95%BD%EA%B4%80%282025.12.26.%29.pdf",
     "note": "2026-01-05 시행 공식 약관: 서울역~인천공항1터미널 성인 18,100원. 기존 11,000원 정정",
-    "kind": "airport"
+    "kind": "airport",
+    "nameJa": "空港鉄道 AREX 直通列車 片道（大人・第1ターミナル）"
   },
   {
     "id": "SEL-AP-002",
@@ -47,7 +48,8 @@
     "sourceName": "공항철도 여객운송약관 별표 2",
     "sourceUrl": "https://www.arex.or.kr/file/%EC%97%AC%EA%B0%9D%EC%9A%B4%EC%86%A1%EC%95%BD%EA%B4%80%282025.12.26.%29.pdf",
     "note": "2026-01-05 시행 공식 약관: 서울역~인천공항1터미널 어린이 9,500원. 기존 8,800원 정정",
-    "kind": "airport"
+    "kind": "airport",
+    "nameJa": "空港鉄道 AREX 直通列車 片道（子ども・第1ターミナル）"
   },
   {
     "id": "SEL-AP-003",
@@ -71,7 +73,8 @@
     "sourceName": "공항리무진 공식 운임안내",
     "sourceUrl": "https://airportlimousine.co.kr/sub/sub02_01.php",
     "note": "서울시내~인천공항 직통 고급형 리무진 성인 17,000원. 기존 CSV 링크 404를 현재 공식 운임표로 교체",
-    "kind": "airport"
+    "kind": "airport",
+    "nameJa": "空港リムジンバス 片道（大人・市内↔仁川空港）"
   },
   {
     "id": "SEL-AP-004",
@@ -96,7 +99,8 @@
     "sourceName": "공항철도 여객운송약관 별표 2",
     "sourceUrl": "https://www.arex.or.kr/file/%EC%97%AC%EA%B0%9D%EC%9A%B4%EC%86%A1%EC%95%BD%EA%B4%80%282025.12.26.%29.pdf",
     "note": "제2터미널 성인 요금은 제1터미널과 달라 별도 관측치로 추가: 공식 요금 18,700원",
-    "kind": "airport"
+    "kind": "airport",
+    "nameJa": "空港鉄道 AREX 直通列車 片道（大人・第2ターミナル）"
   },
   {
     "id": "SEL-AP-005",
@@ -121,7 +125,8 @@
     "sourceName": "공항철도 여객운송약관 별표 2",
     "sourceUrl": "https://www.arex.or.kr/file/%EC%97%AC%EA%B0%9D%EC%9A%B4%EC%86%A1%EC%95%BD%EA%B4%80%282025.12.26.%29.pdf",
     "note": "제2터미널 어린이 공식 요금 9,500원. 제1터미널 성인·아동과 분리해 기록",
-    "kind": "airport"
+    "kind": "airport",
+    "nameJa": "空港鉄道 AREX 直通列車 片道（子ども・第2ターミナル）"
   },
   {
     "id": "IST-AP-001",
@@ -145,7 +150,8 @@
     "sourceName": "HAVAİST",
     "sourceUrl": "https://my.hava.ist/buy-ticket",
     "note": "공식 예매 화면에서 İstanbul Havalimanı→Silivri Otogar, 승객 1명 선택 후 표시된 편도 운임 ₺450. 예매 진행 단계는 선택하지 않음. · 모델 제외: 공항–실리브리(서쪽 외곽) 노선이라 관광객의 공항↔시내 이동 요금이 아님",
-    "kind": "airport"
+    "kind": "airport",
+    "nameJa": "HAVAİST 空港バス イスタンブール空港–シリヴリ 片道"
   },
   {
     "id": "IST-AP-002",
@@ -169,7 +175,8 @@
     "sourceName": "HAVAİST",
     "sourceUrl": "https://my.hava.ist/buy-ticket",
     "note": "공식 예매 화면에서 İstanbul Havalimanı→Selimpaşa, 승객 1명 선택 후 표시된 편도 운임 ₺450. 예매 진행 단계는 선택하지 않음. · 모델 제외: 공항–셀림파샤(서쪽 외곽) 노선이라 관광객의 공항↔시내 이동 요금이 아님",
-    "kind": "airport"
+    "kind": "airport",
+    "nameJa": "HAVAİST 空港バス イスタンブール空港–セリムパシャ 片道"
   },
   {
     "id": "SHA-AP-001",
@@ -193,7 +200,8 @@
     "sourceName": "上海机场(集团)有限公司",
     "sourceUrl": "https://www.shanghaiairport.com/cxf/index.html",
     "note": "상하이공항그룹 공식 안내의 일반석 편도 50위안. 왕복권 가격은 사용하지 않음.",
-    "kind": "airport"
+    "kind": "airport",
+    "nameJa": "上海リニアモーターカー 浦東空港–龍陽路 片道（普通席）"
   },
   {
     "id": "SHA-AP-002",
@@ -217,7 +225,8 @@
     "sourceName": "Shanghai Airport (Group) Co Ltd",
     "sourceUrl": "https://www.shanghaiairport.com/ensh/dmjt/index.html",
     "note": "상하이공항그룹 공식 버스표에서 출발 Hongqiao Airport Terminal 1, 목적지 Qingjian Xincun, 운임 2위안.",
-    "kind": "airport"
+    "kind": "airport",
+    "nameJa": "807路バス 虹橋空港T1–青建新村 片道"
   },
   {
     "id": "BCN-AP-001",

@@ -6,7 +6,7 @@ const ids = ['tokyo', 'taipei'];
 const form: FormState = {
   cityId: 'taipei', visitDate: '2026-11-04', nights: '3', adults: '2', children: '1', style: 'comfort',
   currency: 'EUR', flight: '', lodging: '', directCurrency: 'EUR', attractions: [], drinks: false, airport: '', airportTrips: '2', rental: '', rentalDays: '',
-  transportMode: 'auto', ridesPerDay: '3', transitDays: '', passId: '', mealsPerDay: '', mustEat: [],
+  transportMode: 'auto', ridesPerDay: '3', transitDays: '', passId: '', mealsPerDay: '', mustEat: [], drinksPerDay: '', drinkPicks: [],
 };
 
 describe('URL 입력 상태', () => {
@@ -56,6 +56,12 @@ describe('페이지 주소', () => {
       mustEat: [{ name: '라멘  ', price: '1500' }, { name: '규동', price: '450', sampleId: 'TYO-FD-001' }],
     });
     expect(readForm(formToSearch({ ...form, transportMode: 'rides', ridesPerDay: '5' }, 'ko'), ids)).toMatchObject({ transportMode: 'rides', ridesPerDay: '5' });
+  });
+  it('음주 자세히(하루 잔 수·마실 술)는 음주 포함일 때만 담는다', () => {
+    const picks = [{ name: '맥주', price: '600', sampleId: 'TYO-AL-001' }];
+    expect(formToSearch({ ...form, drinksPerDay: '2', drinkPicks: picks }, 'ko')).not.toMatch(/dpd=|dk=/);
+    const search = formToSearch({ ...form, drinks: true, drinksPerDay: '2', drinkPicks: picks }, 'ko');
+    expect(readForm(search, ids)).toMatchObject({ drinks: true, drinksPerDay: '2', drinkPicks: picks });
   });
 });
 

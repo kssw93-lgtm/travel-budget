@@ -5,6 +5,7 @@ import { ExternalLink } from './ExternalLink';
 import { formatMoney } from '../core/money';
 import { convertRange, RangeText } from './money';
 import type { RatesState } from './useRates';
+import { ToggleHint } from './ToggleHint';
 
 interface Props {
   city: City;
@@ -59,9 +60,11 @@ export function AttractionPicker({ city, samples, selected, onChange, display, r
 
   return (
     <section className="card attractions" aria-labelledby="attr-title" data-testid="attractions">
-      <details open>
+      {/* 기본은 접힘. 이미 고른 곳이 있으면(공유 링크 등) 펼쳐서 보여 준다 */}
+      <details open={chosen.length > 0 || undefined}>
         <summary>
           <span id="attr-title" className="summary-title">{t.attractions.title}</span>{' '}
+          <ToggleHint count={options.length} />
           <span className="muted" data-testid="attractions-status">
             {chosen.length ? fmt(t.attractions.summarySome, { n: chosen.length, amount: amountText(added) }) : t.attractions.summaryNone}
           </span>

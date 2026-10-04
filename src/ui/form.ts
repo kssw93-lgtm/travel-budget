@@ -41,9 +41,12 @@ export interface FormState {
   mealsPerDay: string;
   /** 자세히 설정: 꼭 먹을 음식 */
   mustEat: MustEatInput[];
+  /** 자세히 설정(음주): 성인 1인 하루 잔 수(비우면 스타일 기본)와 마실 술 */
+  drinksPerDay: string;
+  drinkPicks: MustEatInput[];
 }
 
-export type FieldError = 'date' | 'nights' | 'adults' | 'children' | 'flight' | 'lodging' | 'rentalDays' | 'ridesPerDay' | 'transitDays' | 'mustEat';
+export type FieldError = 'date' | 'nights' | 'adults' | 'children' | 'flight' | 'lodging' | 'rentalDays' | 'ridesPerDay' | 'transitDays' | 'mustEat' | 'drinkPicks';
 
 /** 자세히 설정의 입력 한도 */
 export const PLAN_LIMITS = { ridesMax: 20, mustEatMax: 10, nameMax: 40 } as const;
@@ -106,6 +109,16 @@ export function parseForm(f: FormState): ParsedForm {
     mustEat.push({ name: m.name.trim(), price, ...(m.sampleId ? { sampleId: m.sampleId } : {}) });
   }
   const meals = toInt(f.mealsPerDay);
+  const drinkPicks: MustEat[] = [];
+  for (const d of f.drinkPicks) {
+    const price = d.price.trim() === '' ? Number.NaN : toAmount(d.price);
+    if (!d.name.trim() || Number.isNaN(price)) {
+      errors.drinkPicks = true;
+      continue;
+    }
+    drinkPicks.push({ name: d.name.trim(), price, ...(d.sampleId ? { sampleId: d.sampleId } : {}) });
+  }
+  const drinksPerDay = toInt(f.drinksPerDay);
 
   const tripValid = !errors.date && !errors.nights && !errors.adults && !errors.children;
   return {
@@ -114,7 +127,9 @@ export function parseForm(f: FormState): ParsedForm {
           ...(f.rental && !errors.rentalDays ? { rentalId: f.rental, rentalDays } : {}),
           ...(transport ? { transport } : {}),
           ...(meals >= 1 && meals <= 4 ? { mealsPerDay: meals } : {}),
-          ...(mustEat.length ? { mustEat } : {}) } : null,
+          ...(mustEat.length ? { mustEat } : {}),
+          ...(f.drinks && drinksPerDay >= 0 && drinksPerDay <= 10 ? { drinksPerDay } : {}),
+          ...(f.drinks && drinkPicks.length ? { drinkPicks } : {}) } : null,
     direct: { flight: errors.flight ? 0 : flight, lodging: errors.lodging ? 0 : lodging },
     errors,
   };

@@ -119,8 +119,8 @@ test.describe('계산기 핵심 흐름', () => {
   test('조건부·부족 바스켓 경고가 결과에 표시된다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/');
-    // v0.4 실데이터: 파리 외식은 조건부·시작가 표본을 쓴다(부족 바스켓 경고 문구는 단위 테스트가 고정)
-    await fillTrip(page, { city: 'paris' });
+    // 실데이터: 로마 외식은 조건부 표본을 쓴다(파리는 공식 표본이 늘어 조건부를 쓰지 않음). 부족 바스켓 경고 문구는 단위 테스트가 고정
+    await fillTrip(page, { city: 'rome' });
     const q = page.getByTestId('quality');
     await page.locator('details.evidence > summary').click();
     await expect(q.locator('[data-category="food"]')).toContainText('"조건부"');

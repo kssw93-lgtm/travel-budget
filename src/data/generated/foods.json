@@ -515,7 +515,9 @@
     "nameJa": "オニオングラタンスープ",
     "reasonJa": "パリの伝統的なビストロ料理",
     "budgetBand": "중",
-    "linkedPriceIds": [],
+    "linkedPriceIds": [
+      "PAR-FD-721"
+    ],
     "priceStatus": "대기",
     "recommendSource": "Paris je t'aime",
     "recommendUrl": "https://parisjetaime.com/eng/article/what-to-eat-in-paris-a954",

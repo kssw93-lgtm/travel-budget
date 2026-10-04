@@ -29,7 +29,7 @@
 | 파리 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 파리 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 런던 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 런던 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 런던 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 뉴욕 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -264,6 +264,11 @@
 | BKK-FD-714 | 방콕 | MK 채식 완탕 똠얌 수프 | 89 THB | A | 예 | 재검증 | [MK Restaurants](https://www.mkrestaurant.com/en/mk-menu/single-dish) |
 | TPE-SN-715 | 타이베이 | 85도씨 아메리카노 (대) | 75 TWD | A | 예 | 재검증 | [85度C](https://www.85cafe.com/Product.php?datatid=9) |
 | TPE-SN-716 | 타이베이 | 85도씨 오디 아이스 아메리카노 (중) | 65 TWD | A | 예 | 재검증 | [85度C](https://www.85cafe.com/Product.php?datatid=9) |
+| PUS-FD-720 | 부산 | 본죽 팥칼국수 | 10000 KRW | A | 예 | 재검증 | [본죽&비빔밥](https://m.bonif.co.kr/brand/menu?brdCd=BF102) |
+| PAR-FD-721 | 파리 | 셰 폴 양파수프 | 13.5 EUR | A | 예 | 재검증 | [Chez Paul](https://chezpaul.com/tarifs-chez-paul/) |
+| PAR-FD-722 | 파리 | 셰 폴 점심 세트(전채+메인 또는 메인+디저트) | 21 EUR | A | 예 | 재검증 | [Chez Paul](https://chezpaul.com/tarifs-chez-paul/) |
+| LON-FD-723 | 런던 | 웨더스푼 스테이크 앤 에일 푸딩 | 8.92 GBP | A | 예 | 재검증 | [J D Wetherspoon](https://www.jdwetherspoon.com/wp-content/uploads/menus/currentmenus/MENU_2060.pdf) |
+| LON-SN-730 | 런던 | 에비앙 생수 500ml (테스코) | 1.5 GBP | A | 예 | 재검증 | [Tesco Groceries](https://www.tesco.com/shop/en-GB/products/252168830) |
 | TYO-FD-951 | 도쿄 | 생맥주 아사히 슈퍼드라이·기린 하트랜드 (호텔 레스토랑) | 1000 JPY | A | 예 | 재검증 | [Hotel Metropolitan Edmont Tokyo Beltempo](https://edmont-tokyo.hotel-metropolitan.com/restaurant/list/beltempo/index.html) |
 | TYO-FD-952 | 도쿄 | 생맥주 프리미엄 몰츠 (와카도리 마루노우치) | 630 JPY | C | 조건부 | C등급, 조건부, 재검증 | [Wakadori Marunouchi (restaurants-guide.tokyo)](https://restaurants-guide.tokyo/restaurants/drink/?id=95) |
 | TYO-FD-953 | 도쿄 | 브루클린 라거 레귤러 (게이오 플라자 호텔) | 1850 JPY | A | 예 | 재검증, 세금·서비스료 별도 | [Keio Plaza Hotel Aurora](https://www.keioplaza.co.jp/en/restaurant/list/aurora/) |

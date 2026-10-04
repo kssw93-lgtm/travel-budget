@@ -23,7 +23,9 @@
     "nameJa": "そば",
     "reasonJa": "江戸時代から続く大衆料理",
     "budgetBand": "저~중",
-    "linkedPriceIds": [],
+    "linkedPriceIds": [
+      "TYO-FD-701"
+    ],
     "priceStatus": "대기",
     "recommendSource": "GO TOKYO",
     "recommendUrl": "https://www.gotokyo.org/en/see-and-do/drinking-and-dining/tokyo-local-food/index.html",
@@ -55,7 +57,9 @@
     "nameJa": "ラーメン",
     "reasonJa": "世界的に知られる東京の食事の選択肢",
     "budgetBand": "저~중",
-    "linkedPriceIds": [],
+    "linkedPriceIds": [
+      "TYO-FD-702"
+    ],
     "priceStatus": "대기",
     "recommendSource": "GO TOKYO",
     "recommendUrl": "https://www.gotokyo.org/en/see-and-do/drinking-and-dining/tokyo-local-food/index.html",
@@ -104,7 +108,9 @@
     "nameJa": "お好み焼き",
     "reasonJa": "大阪のソウルフード",
     "budgetBand": "저~중",
-    "linkedPriceIds": [],
+    "linkedPriceIds": [
+      "OSA-FD-703"
+    ],
     "priceStatus": "대기",
     "recommendSource": "OSAKA INFO",
     "recommendUrl": "https://www.osaka-info.jp/en/gourmet/osaka_cuisine/",

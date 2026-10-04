@@ -1,7 +1,7 @@
 {
   "tokyo": {
     "counts": {
-      "food": 3,
+      "food": 5,
       "transport": 3,
       "attraction": 11,
       "souvenir": 3
@@ -9,7 +9,7 @@
     "baskets": {
       "pass": 1,
       "ride": 3,
-      "meal": 3,
+      "meal": 5,
       "snack": 0,
       "drink": 3,
       "attraction": 11,
@@ -18,7 +18,7 @@
     "basketRows": {
       "pass": 3,
       "ride": 3,
-      "meal": 3,
+      "meal": 5,
       "snack": 0,
       "drink": 3,
       "attraction": 11,
@@ -30,7 +30,7 @@
   },
   "osaka": {
     "counts": {
-      "food": 5,
+      "food": 6,
       "transport": 3,
       "attraction": 10,
       "souvenir": 3
@@ -38,7 +38,7 @@
     "baskets": {
       "pass": 1,
       "ride": 3,
-      "meal": 5,
+      "meal": 6,
       "snack": 1,
       "drink": 2,
       "attraction": 10,
@@ -47,7 +47,7 @@
     "basketRows": {
       "pass": 2,
       "ride": 3,
-      "meal": 5,
+      "meal": 6,
       "snack": 1,
       "drink": 2,
       "attraction": 10,

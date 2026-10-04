@@ -256,6 +256,9 @@
 | SIN-FD-903 | 싱가포르 | 올드창키 커리퍼프 | 2.2 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [Old Chang Kee](https://www.oldchangkee.com/dipngo.com.sg/menu.html) |
 | SIN-SV-901 | 싱가포르 | 올드창키 커리퍼프 10개 상자 | 22 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [Old Chang Kee](https://www.oldchangkee.com/dipngo.com.sg/menu.html) |
 | PAR-SV-901 | 파리 | 루브르 사모트라케의 니케 마그넷 | 4.9 EUR | A | 예 | 재검증 | [Louvre Official Boutique](https://boutique.louvre.fr/en/product/19430-magnet-victory-of-samothrace.html) |
+| TYO-FD-701 | 도쿄 | 모리소바 | 800 JPY | A | 예 | 재검증 | [Maruyamacho Wadatsumi](https://maruyamachowadatsumi.com/en/menu-shibuya-authentic-japanese/lunch-menu) |
+| TYO-FD-702 | 도쿄 | 라멘 곱빼기 | 1050 JPY | A | 예 | 재검증 | [Tokyo Ramen Yokocho Ramen Butayama](https://tokyo-ramenyokocho.com/assets/img/top/store/ramenbutayama/en/menu.pdf?20260601) |
+| OSA-FD-703 | 오사카 | 돼지고기 오코노미야키 | 980 JPY | A | 예 | 재검증 | [Osaka Botejyu](https://osaka-botejyu.com/en/menu-en/) |
 | TYO-FD-951 | 도쿄 | 생맥주 아사히 슈퍼드라이·기린 하트랜드 (호텔 레스토랑) | 1000 JPY | A | 예 | 재검증 | [Hotel Metropolitan Edmont Tokyo Beltempo](https://edmont-tokyo.hotel-metropolitan.com/restaurant/list/beltempo/index.html) |
 | TYO-FD-952 | 도쿄 | 생맥주 프리미엄 몰츠 (와카도리 마루노우치) | 630 JPY | C | 조건부 | C등급, 조건부, 재검증 | [Wakadori Marunouchi (restaurants-guide.tokyo)](https://restaurants-guide.tokyo/restaurants/drink/?id=95) |
 | TYO-FD-953 | 도쿄 | 브루클린 라거 레귤러 (게이오 플라자 호텔) | 1850 JPY | A | 예 | 재검증, 세금·서비스료 별도 | [Keio Plaza Hotel Aurora](https://www.keioplaza.co.jp/en/restaurant/list/aurora/) |

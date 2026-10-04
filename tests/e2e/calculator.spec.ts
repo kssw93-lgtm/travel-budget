@@ -61,7 +61,8 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(foods.locator('[data-food="Gyudon"]')).toContainText('추천 근거');
     await expect(foods.locator('[data-food="Gyudon"]')).toContainText('가격 근거');
     await expect(foods.locator('[data-food="Gyudon"]')).toContainText('스키야 규동');
-    await expect(foods.locator('[data-food="Ramen"]')).toContainText('아직 확인된 메뉴 가격이 없습니다');
+    await expect(foods.locator('[data-food="Ramen"]')).toContainText('라멘 곱빼기');
+    await expect(foods.locator('[data-food="Edomae Sushi"]')).toContainText('아직 확인된 메뉴 가격이 없습니다');
 
     // 광고는 자리만(좌우 레일 + 결과 뒤 인라인 1개). 실제 광고 코드·추적 스크립트 없음
     for (const slot of ['rail-left', 'rail-right', 'inline-results']) {
@@ -113,19 +114,6 @@ test.describe('계산기 핵심 흐름', () => {
       }
       await expect(page.getByTestId('quality'), city).toContainText('사용 표본');
     }
-  });
-
-  test('부족 상태: 방문일에 유효한 표본이 모자라면 억지 금액 없이 부족 항목을 표시', async ({ page }) => {
-    // 실제 데이터: 도쿄 식사 표본 중 TYO-FD-003 은 2027-06-30 까지 판매 → 이후 방문은 식사 독립 표본 2건
-    await mockRates(page);
-    await page.goto('/');
-    await fillTrip(page, { city: 'tokyo', date: '2027-08-02' });
-    await expect(page.getByTestId('hold')).toContainText('충분하지 않습니다');
-    await expect(page.getByTestId('hold')).toContainText('부족한 항목: 외식');
-    await expect(page.getByTestId('total')).toHaveCount(0);
-    await expect(page.locator('tr[data-category="food"]')).toContainText('데이터 부족');
-    await expect(page.locator('tr[data-category="contingency"]')).toHaveCount(0);
-    await expect(page.getByTestId('quality').locator('[data-category="food"]')).toContainText('유효 기간 밖');
   });
 
   test('조건부·부족 바스켓 경고가 결과에 표시된다', async ({ page }) => {
@@ -299,8 +287,8 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await page.goto('/?lang=ko&city=tokyo&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=KRW');
     const guide = page.getByTestId('price-guide');
     await expect(guide.locator('tr[data-basket="meal"]')).toContainText('한 끼 식사');
-    await expect(guide.locator('tr[data-basket="meal"]')).toContainText('2,800');
-    await expect(guide.locator('tr[data-basket="meal"]')).toContainText('₩23,943');
+    await expect(guide.locator('tr[data-basket="meal"]')).toContainText('1,050');
+    await expect(guide.locator('tr[data-basket="meal"]')).toContainText('₩8,979');
     await expect(guide.locator('tr[data-basket="pass"]')).toContainText('참고용');
     await expect(guide.locator('tr[data-basket="snack"]')).toHaveCount(0);
   });

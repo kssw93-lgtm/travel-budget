@@ -1,0 +1,6 @@
+{
+  "_note": "대표 음식(도시ID:Food 영문명)에 추가 자료의 메뉴 가격 ID 를 더 연결한다. 엑셀 '연결 가격 ID' 에 덧붙여진다.",
+  "tokyo:Soba": ["TYO-FD-701"],
+  "tokyo:Ramen": ["TYO-FD-702"],
+  "osaka:Okonomiyaki": ["OSA-FD-703"]
+}

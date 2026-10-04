@@ -316,12 +316,13 @@ function main() {
 
   // 음식 추천
   const overlay = JSON.parse(readFileSync(`${root}/data/overlays/food-reasons-en.json`, 'utf8')) as Record<string, string>;
+  const foodLinks = JSON.parse(readFileSync(`${root}/data/overlays/food-links.json`, 'utf8')) as Record<string, string[]>;
   const foodJa = ['음식(일본어)', '추천 이유(일본어)', '일본어 근거 URL', '일본어 확인 방법'];
   const foodRows: Row[] = [...readTable(wb, '음식 추천', '국가', foodJa), ...additionRows('foods', '국가', ['비고', '연결 가격 ID', ...foodJa]).map((x) => x.r)];
   const foods: FoodRecommendation[] = foodRows.map((r) => {
     const city = cityByKo.get(r('도시'));
     if (!city) throw new Error(`음식 추천: 도시 '${r('도시')}'가 '도시 우선순위'에 없음`);
-    const linked = r('연결 가격 ID').split(/[\s,;/]+/).filter(Boolean);
+    const linked = [...new Set([...r('연결 가격 ID').split(/[\s,;/]+/).filter(Boolean), ...(foodLinks[`${city.id}:${r('Food')}`] ?? [])])];
     for (const id of linked) if (!ids.has(id)) errors.push(`음식 '${r('음식(한글)')}': 연결 가격 ID '${id}' 없음`);
     const reasonEn = overlay[`${city.id}:${r('Food')}`];
     if (!reasonEn) notes.push(`영문 추천 이유 없음: ${city.id}:${r('Food')}`);

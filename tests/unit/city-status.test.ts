@@ -34,14 +34,14 @@ describe('파일럿 도시 데이터 상태', () => {
         "jeju": "5/3/6/3 · 100% · ready",
         "london": "3/3/14/3 · 100% · ready",
         "new-york": "3/4/12/3 · 100% · ready",
-        "osaka": "5/3/10/3 · 100% · ready",
+        "osaka": "6/3/10/3 · 100% · ready",
         "paris": "3/3/12/4 · 100% · ready",
         "rome": "5/3/13/3 · 100% · ready",
         "seoul": "5/3/7/6 · 100% · ready",
         "shanghai": "3/3/5/3 · 100% · ready",
         "singapore": "6/3/12/4 · 100% · ready",
         "taipei": "3/3/12/3 · 100% · ready",
-        "tokyo": "3/3/11/3 · 100% · ready",
+        "tokyo": "5/3/11/3 · 100% · ready",
       }
     `);
   });
@@ -64,14 +64,14 @@ describe('파일럿 도시 데이터 상태', () => {
         "jeju": "pass 0/0 · ride 3/3 · meal 5/5 · snack 3/3 · attraction 6/6 · souvenir 3/3",
         "london": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 14/14 · souvenir 3/3",
         "new-york": "pass 0/0 · ride 4/4 · meal 3/3 · snack 1/1 · attraction 12/13 · souvenir 3/3",
-        "osaka": "pass 1/2 · ride 3/3 · meal 5/5 · snack 1/1 · attraction 10/10 · souvenir 3/4",
+        "osaka": "pass 1/2 · ride 3/3 · meal 6/6 · snack 1/1 · attraction 10/10 · souvenir 3/4",
         "paris": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 12/14 · souvenir 4/4",
         "rome": "pass 1/3 · ride 3/3 · meal 5/5 · snack 3/3 · attraction 13/13 · souvenir 3/3",
         "seoul": "pass 1/1 · ride 3/3 · meal 5/5 · snack 0/0 · attraction 7/7 · souvenir 6/6",
         "shanghai": "pass 0/0 · ride 3/3 · meal 3/3 · snack 3/3 · attraction 5/5 · souvenir 3/3",
         "singapore": "pass 1/1 · ride 3/3 · meal 6/6 · snack 1/1 · attraction 12/14 · souvenir 4/4",
         "taipei": "pass 1/3 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 12/14 · souvenir 3/4",
-        "tokyo": "pass 1/3 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 11/11 · souvenir 3/4",
+        "tokyo": "pass 1/3 · ride 3/3 · meal 5/5 · snack 0/0 · attraction 11/11 · souvenir 3/4",
       }
     `);
   });

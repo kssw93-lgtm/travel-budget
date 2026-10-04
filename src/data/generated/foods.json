@@ -58,7 +58,8 @@
     "reasonJa": "世界的に知られる東京の食事の選択肢",
     "budgetBand": "저~중",
     "linkedPriceIds": [
-      "TYO-FD-702"
+      "TYO-FD-702",
+      "TYO-FD-711"
     ],
     "priceStatus": "대기",
     "recommendSource": "GO TOKYO",

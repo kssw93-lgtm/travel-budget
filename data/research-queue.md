@@ -23,7 +23,7 @@
 | 다낭 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 다낭 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 타이베이 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 타이베이 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 타이베이 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 싱가포르 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 싱가포르 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 파리 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -259,6 +259,11 @@
 | TYO-FD-701 | 도쿄 | 모리소바 | 800 JPY | A | 예 | 재검증 | [Maruyamacho Wadatsumi](https://maruyamachowadatsumi.com/en/menu-shibuya-authentic-japanese/lunch-menu) |
 | TYO-FD-702 | 도쿄 | 라멘 곱빼기 | 1050 JPY | A | 예 | 재검증 | [Tokyo Ramen Yokocho Ramen Butayama](https://tokyo-ramenyokocho.com/assets/img/top/store/ramenbutayama/en/menu.pdf?20260601) |
 | OSA-FD-703 | 오사카 | 돼지고기 오코노미야키 | 980 JPY | A | 예 | 재검증 | [Osaka Botejyu](https://osaka-botejyu.com/en/menu-en/) |
+| TYO-FD-711 | 도쿄 | 이치란 클래식 돈코츠 라멘 | 1180 JPY | A | 예 | 재검증 | [ICHIRAN Asakusa](https://en.ichiran.com/shop/tokyo/asakusa/) |
+| TYO-AL-712 | 도쿄 | 이치란 생맥주 (중) | 650 JPY | A | 예 | 재검증 | [ICHIRAN Asakusa](https://en.ichiran.com/shop/tokyo/asakusa/) |
+| BKK-FD-714 | 방콕 | MK 채식 완탕 똠얌 수프 | 89 THB | A | 예 | 재검증 | [MK Restaurants](https://www.mkrestaurant.com/en/mk-menu/single-dish) |
+| TPE-SN-715 | 타이베이 | 85도씨 아메리카노 (대) | 75 TWD | A | 예 | 재검증 | [85度C](https://www.85cafe.com/Product.php?datatid=9) |
+| TPE-SN-716 | 타이베이 | 85도씨 오디 아이스 아메리카노 (중) | 65 TWD | A | 예 | 재검증 | [85度C](https://www.85cafe.com/Product.php?datatid=9) |
 | TYO-FD-951 | 도쿄 | 생맥주 아사히 슈퍼드라이·기린 하트랜드 (호텔 레스토랑) | 1000 JPY | A | 예 | 재검증 | [Hotel Metropolitan Edmont Tokyo Beltempo](https://edmont-tokyo.hotel-metropolitan.com/restaurant/list/beltempo/index.html) |
 | TYO-FD-952 | 도쿄 | 생맥주 프리미엄 몰츠 (와카도리 마루노우치) | 630 JPY | C | 조건부 | C등급, 조건부, 재검증 | [Wakadori Marunouchi (restaurants-guide.tokyo)](https://restaurants-guide.tokyo/restaurants/drink/?id=95) |
 | TYO-FD-953 | 도쿄 | 브루클린 라거 레귤러 (게이오 플라자 호텔) | 1850 JPY | A | 예 | 재검증, 세금·서비스료 별도 | [Keio Plaza Hotel Aurora](https://www.keioplaza.co.jp/en/restaurant/list/aurora/) |

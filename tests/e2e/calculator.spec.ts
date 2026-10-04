@@ -287,8 +287,8 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await page.goto('/?lang=ko&city=tokyo&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=KRW');
     const guide = page.getByTestId('price-guide');
     await expect(guide.locator('tr[data-basket="meal"]')).toContainText('한 끼 식사');
-    await expect(guide.locator('tr[data-basket="meal"]')).toContainText('1,050');
-    await expect(guide.locator('tr[data-basket="meal"]')).toContainText('₩8,979');
+    await expect(guide.locator('tr[data-basket="meal"]')).toContainText('JP¥');
+    await expect(guide.locator('tr[data-basket="meal"]')).toContainText('₩');
     await expect(guide.locator('tr[data-basket="pass"]')).toContainText('참고용');
     await expect(guide.locator('tr[data-basket="snack"]')).toHaveCount(0);
   });

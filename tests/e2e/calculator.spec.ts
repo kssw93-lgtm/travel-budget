@@ -53,7 +53,7 @@ test.describe('계산기 핵심 흐름', () => {
     await page.locator('details.evidence > summary').click();
     await expect(page.getByTestId('quality').getByRole('link').first()).toHaveAttribute('href', /^https?:\/\//);
     await expect(page.getByTestId('rates-info')).toContainText('2026-10-02');
-    await expect(page.getByTestId('rates-info')).toContainText('Test Rates');
+    await expect(page.getByTestId('rates-info')).toContainText('ECB');
 
     // 대표 음식: 추천 근거와 가격 근거 분리
     const foods = page.getByTestId('foods');
@@ -189,41 +189,28 @@ test.describe('검수 지적 사항 화면 확인', () => {
   });
 });
 
-test.describe('환율 장애 처리', () => {
-  test('환율 API 실패: 임의 환율 없이 현지 통화만 표시', async ({ page }) => {
-    await mockRates(page, 'fail');
+test.describe('환율(조사 고정값)', () => {
+  test('외부 환율 API 없이 조사한 환율표로 환산하고 기준일·출처를 보여준다', async ({ page }) => {
+    // 환율 서버·공개 환율 API 를 모두 막아도 환산이 된다
+    await page.route('**/api/rates', (route) => route.abort());
+    await page.route(/open\.er-api\.com|frankfurter|jsdelivr/, (route) => route.abort());
     await page.goto('/');
     await fillTrip(page);
-    await expect(page.getByTestId('rates-error')).toBeVisible();
-    await expect(page.getByTestId('total')).toContainText('JPY');
-    await expect(page.getByTestId('total')).toContainText('환산 불가');
-    await expect(page.getByTestId('total')).not.toContainText('₩');
-  });
-
-  test('환율 서버가 실패하면 브라우저에서 공개 환율 API 를 직접 불러 환산한다', async ({ page }) => {
-    await mockRates(page, 'fail', 0, 'ok');
-    await page.goto('/');
-    await fillTrip(page);
+    await page.selectOption('#currency', 'KRW');
     await expect(page.getByTestId('rates-error')).toHaveCount(0);
     await expect(page.getByTestId('total')).toContainText('₩');
-    await expect(page.getByText(/ExchangeRate-API/).first()).toBeVisible();
+    await expect(page.getByTestId('rates-info')).toContainText('2026-10-02');
+    await expect(page.getByTestId('rates-info')).toContainText('ECB');
   });
 
-  test('오래된 환율은 stale 표시와 함께 사용', async ({ page }) => {
-    await mockRates(page, { stale: true, asOf: '2026-09-20' });
+  test('목록의 모든 통화가 조사 환율표에 있다(환산 불가 통화 없음)', async ({ page }) => {
     await page.goto('/');
     await fillTrip(page);
-    await expect(page.getByTestId('rates-stale')).toContainText('2026-09-20');
-    await expect(page.getByTestId('total')).toContainText('₩');
-  });
-
-  test('지원하지 않는 통화는 명확히 안내', async ({ page }) => {
-    await mockRates(page, { rates: { USD: 1, KRW: 1400, JPY: 150 } });
-    await page.goto('/');
-    await fillTrip(page);
-    await page.selectOption('#currency', 'VND');
-    await expect(page.getByTestId('rates-unsupported')).toContainText('VND');
-    await expect(page.getByTestId('total')).toContainText('환산 불가');
+    for (const code of ['VND', 'TWD', 'AED', 'TRY', 'CNY']) {
+      await page.selectOption('#currency', code);
+      await expect(page.getByTestId('rates-unsupported')).toHaveCount(0);
+      await expect(page.getByTestId('total')).not.toContainText('환산 불가');
+    }
   });
 });
 
@@ -310,7 +297,7 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     const guide = page.getByTestId('price-guide');
     await expect(guide.locator('tr[data-basket="meal"]')).toContainText('한 끼 식사');
     await expect(guide.locator('tr[data-basket="meal"]')).toContainText('2,800');
-    await expect(guide.locator('tr[data-basket="meal"]')).toContainText('₩26,133');
+    await expect(guide.locator('tr[data-basket="meal"]')).toContainText('₩23,943');
     await expect(guide.locator('tr[data-basket="pass"]')).toContainText('참고용');
     await expect(guide.locator('tr[data-basket="snack"]')).toHaveCount(0);
   });

@@ -18,5 +18,5 @@
     "tsBuildInfoFile": "./node_modules/.cache/tsc-node.tsbuildinfo",
     "types": ["node", "@cloudflare/workers-types"]
   },
-  "include": ["worker", "scripts", "vite.config.ts", "vitest.config.ts", "src/core", "src/data", "src/data/generated/*.json", "tests/worker", "tests/build"]
+  "include": ["worker", "scripts", "vite.config.ts", "vitest.config.ts", "src/core", "src/data", "src/data/generated/*.json", "data/rates/*.json", "tests/worker", "tests/build"]
 }

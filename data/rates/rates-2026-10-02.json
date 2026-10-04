@@ -1,0 +1,80 @@
+{
+  "asOf": "2026-10-02",
+  "researchedAt": "2026-10-04",
+  "note": "조사한 환율 원자료. 화면은 이 파일을 1 USD 기준으로 바꿔 쓴다(scripts/convert-rates.ts 없이 src/core/rates/static.ts 가 계산). 갱신 방법은 data/rates/README.md.",
+  "ecb": {
+    "name": "European Central Bank euro reference rates",
+    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+    "date": "2026-10-02",
+    "perEUR": {
+      "USD": 1.1225,
+      "JPY": 176.99,
+      "GBP": 0.8503,
+      "CHF": 0.9279,
+      "NZD": 2.0002,
+      "PHP": 70.265,
+      "SGD": 1.4366,
+      "THB": 37.71,
+      "ZAR": 18.7839,
+      "KRW": 1513.44,
+      "CNY": 7.5259,
+      "HKD": 8.8084,
+      "TRY": 55.165,
+      "BRL": 5.861,
+      "IDR": 20149.32,
+      "INR": 108.1245,
+      "MXN": 20.5806,
+      "MYR": 4.5849,
+      "CZK": 24.47,
+      "DKK": 7.4736,
+      "PLN": 4.3775,
+      "SEK": 11.29,
+      "NOK": 10.8315,
+      "AUD": 1.6176,
+      "CAD": 1.5984
+    },
+    "crossCheck": [
+      "https://euro-rates.info/",
+      "https://www.xrates.eu/",
+      "https://www.centralbankmalta.org/exchange-rates",
+      "https://www.bundesbank.de/resource/blob/810486/a6f85aac3ac47b07ea32eae66e4bfa82/mL/ii-euro-referenzkurse-der-ezb-data.pdf"
+    ]
+  },
+  "perUSD": {
+    "TWD": {
+      "rate": 31.83,
+      "date": "2026-10-02",
+      "name": "중앙은행(대만) 新臺幣/美元 銀行間收盤匯率",
+      "url": "https://www.cbc.gov.tw/tw/lp-645-1.html"
+    },
+    "VND": {
+      "rate": 25980,
+      "date": "2026-10-02",
+      "name": "Vietcombank 송금 매입 25,790·매도 26,170 의 중간값(국가은행 중심환율 25,636 은 시장 환율과 차이가 커서 쓰지 않음)",
+      "url": "https://thanhnien.vn/gia-usd-hom-nay-2102026-dong-loat-tang-18526100208332845.htm"
+    },
+    "AED": {
+      "rate": 3.6725,
+      "date": "1997-11-01",
+      "name": "UAE 중앙은행 미국 달러 고정환율(페그)",
+      "url": "https://gulfnews.com/amp/story/uae%2Fyear-of-the-50th%2Fcreation-history-and-evolution-of-the-uae-dirham-1.1621767243152"
+    },
+    "SAR": {
+      "rate": 3.75,
+      "date": "1986-06-01",
+      "name": "사우디 중앙은행(SAMA) 미국 달러 고정환율(페그)",
+      "url": "https://www.arabianbusiness.com/currencies/446152-saudi-central-bank-affirms-commitment-to-currency-peg-against-dollar"
+    }
+  },
+  "crossChecks": [
+    {
+      "what": "USD/KRW = 1513.44 ÷ 1.1225 = 1,348.3",
+      "against": "서울 외환시장 2026-10-02 15:30 1,350.60원",
+      "url": "https://www.snmnews.com/news/articleView.html?idxno=575456"
+    },
+    {
+      "what": "USD/HKD = 8.8084 ÷ 1.1225 = 7.847",
+      "against": "홍콩 달러 연동 범위 7.75~7.85 안"
+    }
+  ]
+}

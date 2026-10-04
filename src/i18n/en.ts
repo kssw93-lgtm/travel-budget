@@ -195,7 +195,7 @@ export const en: Messages = {
     enough: '{n} independent',
   },
   preview: {
-    banner: 'Demo preview. Exchange rates are loaded directly in your browser from public rate APIs (ExchangeRate-API and others).',
+    banner: 'Demo preview. Exchange rates come from a researched fixed rate table (as of 2026-10-02).',
     rates: 'Preview: the public exchange rate APIs could not be reached, so only local-currency amounts are shown. The live site uses rates its server refreshes once a day.',
   },
   detail: {
@@ -257,7 +257,7 @@ export const en: Messages = {
         'Your chosen language and display currency are saved in your browser\'s local storage (localStorage) so they are kept on your next visit. They stay only on your device and you can clear them in your browser settings at any time.',
       ] },
       { h: 'Server and access logs', body: [
-        'Loading exchange rates sends a request to our server (Cloudflare); it contains no information that identifies you. Our hosting provider (Cloudflare) may process access records such as IP addresses to operate and secure the service.',
+        'Exchange rates come from a fixed table built into the site, so no separate request is sent for them. Our hosting provider (Cloudflare) may process access records such as IP addresses to operate and secure the service.',
       ] },
       { h: 'Advertising and cookies', body: [
         'This site may show third-party advertising such as Google AdSense in the future. When ads are shown, third-party vendors, including Google, may use cookies to serve ads based on your prior visits to this website or other websites.',

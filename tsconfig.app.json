@@ -19,5 +19,5 @@
     "tsBuildInfoFile": "./node_modules/.cache/tsc-app.tsbuildinfo",
     "types": ["vite/client"]
   },
-  "include": ["src", "tests/unit", "src/**/*.json"]
+  "include": ["src", "tests/unit", "src/**/*.json", "data/rates/*.json"]
 }

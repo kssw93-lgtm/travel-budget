@@ -4,7 +4,7 @@
 한국어/영어/일본어 지원(일본어 용어 근거: `docs/i18n-ja-glossary.md`), 언어와 통화는 독립 선택. 항공권·숙박은 실시간 조회하지 않고 사용자가 직접 입력한 금액만 합산합니다.
 
 - 스택: TypeScript · React + Vite(정적 사이트) · Cloudflare Workers(환율 API + 정적 에셋)
-- 데이터베이스 없음: 가격은 정적 JSON, 환율은 Worker 가 호출해 약 24시간 캐시
+- 데이터베이스 없음: 가격은 정적 JSON, 환율은 조사한 고정 환율표(`data/rates/`)
 - 1차 화면에는 조사 단계가 `파일럿`인 8개 도시만 노출(도쿄·오사카·방콕·다낭·타이베이·싱가포르·파리·런던)
 - **관광지·테마파크 입장료**(성인·아동 요금, 출처·확인일) 목록에서 체크한 곳만 경비에 추가(자동으로 넣지 않음, 체크하지 않으면 0)
 - 결과 아래 **현지 물가 한눈에**: 한 끼·간식·교통 1회·1일권·입장료·기념품의 대표 가격(중앙값)과 범위
@@ -85,11 +85,10 @@ GitHub Actions(`.github/workflows/ci.yml`)가 push·PR 마다 같은 순서로 �
 
 ## 환율
 
-`src/core/rates/providers.ts` 의 `defaultProviders` 순서대로 무료 API 를 호출합니다(ExchangeRate-API 오픈 엔드포인트 → Frankfurter(유럽중앙은행) → jsDelivr currency-api).
-24시간 캐시, 실패 시 마지막 정상값을 `stale` 로 표시, 값이 전혀 없으면 임의 환율 없이 현지 통화만 표시합니다.
-Worker(`/api/rates`)와 브라우저가 같은 코드를 씁니다. Worker 가 없거나 실패하면(미리보기·정적 호스팅) 브라우저가 같은 제공자를 직접 호출하고,
-마지막 정상값을 이 기기의 localStorage 에 24시간 보관합니다(`src/ui/useRates.ts`).
-제공자를 바꾸려면 `RateProvider` 인터페이스를 구현해 배열에 넣으면 됩니다.
+화면은 외부 환율 API 를 부르지 않고 **조사한 고정 환율표**(`data/rates/`, 현재 2026-10-02 기준)를 씁니다(운영자 결정, 2026-10-04).
+유럽중앙은행 기준환율 25개 통화 + 대만 달러(대만 중앙은행)·베트남 동(Vietcombank 매입·매도 중간값)·디르함·리얄(공식 달러 고정환율).
+출처·교차 확인·갱신 방법은 `data/rates/README.md`. 계산은 `src/core/rates/static.ts`.
+`worker/` 의 `/api/rates`(무료 API 자동 갱신)는 코드만 남아 있고 화면에서는 쓰지 않습니다.
 
 ## URL·SEO
 

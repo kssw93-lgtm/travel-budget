@@ -1,5 +1,5 @@
 import type { City, FoodRecommendation, PriceSample } from '../core/types';
-import { fmt, localName, useI18n } from '../i18n';
+import { fmt, localName, useI18n, type Lang } from '../i18n';
 import { convertRange, RangeText } from './money';
 import type { RatesState } from './useRates';
 import { cityName } from './TripForm';
@@ -11,6 +11,14 @@ interface Props {
   samples: PriceSample[];
   display: string;
   rates: RatesState;
+}
+
+/** 추천 이유: 화면 언어의 문장이 없으면 영문, 그것도 없으면 한국어 원문(lang 속성으로 표시) */
+function pickReason(lang: Lang, f: FoodRecommendation): { text: string; lang?: string } {
+  if (lang === 'ko') return { text: f.reason };
+  if (lang === 'ja' && f.reasonJa) return { text: f.reasonJa };
+  if (f.reasonEn) return { text: f.reasonEn, ...(lang === 'ja' ? { lang: 'en' } : {}) };
+  return { text: f.reason, lang: 'ko' };
 }
 
 export function FoodSection({ city, foods, samples, display, rates }: Props) {
@@ -30,13 +38,13 @@ export function FoodSection({ city, foods, samples, display, rates }: Props) {
           return (
             <li key={f.nameEn} className="food" data-food={f.nameEn}>
               <h3>
-                {localName(lang, f.nameKo, f.nameEn)}
+                {localName(lang, f.nameKo, f.nameEn, f.nameJa)}
                 {lang !== 'ja' && <small>{lang === 'ko' ? f.nameEn : f.nameKo}</small>}
               </h3>
               <p className="band">{t.foods.band}: {t.foods.bands[f.budgetBand] ?? f.budgetBand}</p>
               <div className="evidence">
                 <h4>{t.foods.why}</h4>
-                <p lang={lang === 'ko' ? undefined : f.reasonEn ? (lang === 'ja' ? 'en' : undefined) : 'ko'}>{lang === 'ko' ? f.reason : (f.reasonEn ?? f.reason)}</p>
+                <p lang={pickReason(lang, f).lang}>{pickReason(lang, f).text}</p>
                 <p className="src">
                   <ExternalLink href={f.recommendUrl}>{f.recommendSource}</ExternalLink>
                 </p>
@@ -51,7 +59,7 @@ export function FoodSection({ city, foods, samples, display, rates }: Props) {
                       const local = { min: s.min, max: s.max };
                       return (
                         <li key={s.id}>
-                          {localName(lang, s.nameKo, s.nameEn)} · <RangeText range={local} currency={s.currency} />
+                          {localName(lang, s.nameKo, s.nameEn, s.nameJa)} · <RangeText range={local} currency={s.currency} />
                           {display !== s.currency && ratesData && (
                             <> (≈ <RangeText range={convertRange(local, s.currency, display, ratesData)} currency={display} />)</>
                           )}{' '}

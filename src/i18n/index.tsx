@@ -13,8 +13,8 @@ export const LANG_NAMES: Record<Lang, string> = { ko: '한국어', en: 'English'
 export const DEFAULT_CURRENCY: Record<Lang, string> = { ko: 'KRW', en: 'USD', ja: 'JPY' };
 export const isLang = (v: unknown): v is Lang => v === 'ko' || v === 'en' || v === 'ja';
 
-/** 데이터의 한글·영문 이름 중 화면 언어에 맞는 것. 일본어 열이 없는 데이터는 영문으로 보인다 */
-export const localName = (lang: Lang, ko = '', en = ''): string => (lang === 'ko' ? ko : en || ko);
+/** 데이터의 한글·영문·일본어 이름 중 화면 언어에 맞는 것. 일본어 이름이 없으면 일본어 화면에서 영문으로 보인다 */
+export const localName = (lang: Lang, ko = '', en = '', ja = ''): string => (lang === 'ko' ? ko : lang === 'ja' ? ja || en || ko : en || ko);
 
 /** `{name}` 자리표시자를 채운다 */
 export function fmt(template: string, vars: Record<string, string | number> = {}): string {

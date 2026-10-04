@@ -64,6 +64,7 @@ export function estimateExtras(input: TripInput, extras: ExtraSample[]): ExtraEs
     id: o.id,
     nameKo: o.adult.nameKo,
     nameEn: o.adult.nameEn,
+    ...(o.adult.nameJa ? { nameJa: o.adult.nameJa } : {}),
     roundTrip: o.roundTrip,
     unitPrice: range(o.adult),
     sourceName: o.adult.sourceName,

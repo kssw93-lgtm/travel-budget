@@ -73,7 +73,7 @@ export function AttractionPicker({ city, samples, selected, onChange, display, r
           <ul className="attr-list">
             {options.map((o) => {
               const s = o.adult.sample;
-              const name = localName(lang, s.nameKo, s.nameEn);
+              const name = localName(lang, s.nameKo, s.nameEn, s.nameJa);
               const flags = [
                 o.variable && t.attractions.variable,
                 (s.status.includes('재검증') || s.review) && t.attractions.check,

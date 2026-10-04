@@ -82,7 +82,7 @@ export function CategoryDetail({ est, currency, display, rates, people, adults }
                 {lines.map((l) => (
                   <tr key={l.id} data-line={l.id}>
                     <th scope="row">
-                      {localName(lang, l.nameKo, l.nameEn)}
+                      {localName(lang, l.nameKo, l.nameEn, l.nameJa)}
                       {isPass && <small> × {fmt(d.passCount, { n: l.units })}</small>}
                     </th>
                     <td data-label={d.colAdult}>{money(l.unitPrice)}</td>

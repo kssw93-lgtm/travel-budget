@@ -60,7 +60,7 @@ function warningText(w: Warning, byId: Map<string, PriceSample>, lang: Lang, t: 
   const names = [...(w.names ?? []), ...(w.ids ?? []).map((id) => {
     const s = byId.get(id);
     if (!s) return id;
-    const name = localName(lang, s.nameKo, s.nameEn);
+    const name = localName(lang, s.nameKo, s.nameEn, s.nameJa);
     // 변동 가격은 단일 가격으로 오인하지 않도록 표본의 현지 통화 범위를 함께 적는다
     return w.code === 'variablePricing' && s.min !== s.max ? `${name} (${s.min}~${s.max} ${s.currency})` : name;
   })].join(', ');
@@ -208,7 +208,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
           })}
           {e.extras.map((x) => {
             const label = x.kind === 'airport' ? t.extras.rowAirport : t.extras.rowRental;
-            const name = localName(lang, x.nameKo, x.nameEn);
+            const name = localName(lang, x.nameKo, x.nameEn, x.nameJa);
             const kids = x.kind === 'airport' && trip.children > 0 ? fmt(t.extras.lineKids, { n: trip.children }) : '';
             const line =
               x.kind === 'rental'
@@ -306,7 +306,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
           <ul className="sources" data-testid="extras-sources">
             {e.extras.map((x) => (
               <li key={x.id}>
-                <strong>{x.kind === 'airport' ? t.extras.rowAirport : t.extras.rowRental}</strong> · {localName(lang, x.nameKo, x.nameEn)} ·{' '}
+                <strong>{x.kind === 'airport' ? t.extras.rowAirport : t.extras.rowRental}</strong> · {localName(lang, x.nameKo, x.nameEn, x.nameJa)} ·{' '}
                 <ExternalLink href={x.sourceUrl}>{x.sourceName}</ExternalLink> · {fmt(t.extras.checked, { date: x.checkedAt })}
                 {x.variable ? ` · ${t.extras.variable}` : ''}
                 {x.kind === 'airport' && trip.children > 0 && !x.childPrice ? ` · ${t.extras.noChild}` : ''}

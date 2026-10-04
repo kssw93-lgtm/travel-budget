@@ -417,6 +417,8 @@ test.describe('도시 가이드', () => {
     await expect(page).toHaveTitle(/^東京の旅行費用・現地の物価/);
     await expect(page.locator('html')).toHaveAttribute('lang', 'ja');
     await expect(page.getByTestId('guide-attractions')).toContainText('大人');
+    // 일본어권 표기로 확인된 데이터 이름은 일본어로 보인다(음역 행은 영문)
+    await expect(page.getByTestId('guide-attractions')).toContainText('東京タワー');
     await page.goto('/?lang=ja');
     await expect(page.locator('main h1')).toHaveText('現地でいくら使う？');
     await page.locator('#city-search').fill('上海');

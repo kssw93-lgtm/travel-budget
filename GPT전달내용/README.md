@@ -16,7 +16,7 @@ ChatGPT 에게 전달할 내용을 모두 이 폴더에 모았습니다. **이 �
 
 | 자료 | 위치 | 용도 |
 | --- | --- | --- |
-| 현재 조사 엑셀 v0.9d | [`data/source/travel_cost_research_pilot_v0.9d_2026-10-04.xlsx`](../data/source/travel_cost_research_pilot_v0.9d_2026-10-04.xlsx) | 이 파일을 복사해 다음 버전을 만듭니다(원본은 수정하지 않음) |
+| 현재 조사 엑셀 v0.9i | [`data/source/travel_cost_research_pilot_v0.9i_2026-10-04.xlsx`](../data/source/travel_cost_research_pilot_v0.9i_2026-10-04.xlsx) | 이 파일을 복사해 다음 버전을 만듭니다(원본은 수정하지 않음) |
 | Gemini 수집 서울 가격 | [`data/additions/prices-seoul.csv`](../data/additions/prices-seoul.csv) | 0순위-2 확인 대상 |
 | 부족 항목 목록(자동 생성) | [`data/research-queue.md`](../data/research-queue.md) | 도시별로 더 필요한 바스켓, 재검증이 필요한 표본 |
 | 데이터 변경 기록 | [`data/CHANGELOG.md`](../data/CHANGELOG.md) | v0.1~v0.3 에서 무엇이 바뀌었는지 |
@@ -33,7 +33,7 @@ ChatGPT 에게 전달할 내용을 모두 이 폴더에 모았습니다. **이 �
 
 ```
 travel-budget 저장소(kssw93-lgtm/travel-budget)의 "GPT전달내용" 폴더를 확인해줘. README.md 순서대로 읽고 HANDOFF_GPT.md 의 ★★ 항목을 위에서부터 진행해줘.
-최신 엑셀(data/source/latest.json 이 가리키는 파일, 현재 v0.9d)을 복사해 같은 브랜치에 새 버전 이름으로 올려줘. 기존 시트·열 이름은 그대로 둬.
+최신 엑셀(data/source/latest.json 이 가리키는 파일, 현재 v0.9i)을 복사해 같은 브랜치에 새 버전 이름으로 올려줘. 기존 시트·열 이름은 그대로 둬.
 가격은 판매 주체의 공식 페이지에서 직접 본 현지 통화 원값만 쓰고, 추정·환산·블로그·예약 사이트 값은 쓰지 마.
 분량이 많으면 항목별·도시별로 끊어서 중간 결과 엑셀을 먼저 올려줘.
 ```

@@ -19,6 +19,8 @@ export interface PriceSample {
   subtype: string;
   nameKo: string;
   nameEn: string;
+  /** 일본어권 표기로 확인된 일본어 이름(없으면 일본어 화면에서 영문) */
+  nameJa?: string;
   min: number;
   max: number;
   currency: string;
@@ -83,6 +85,9 @@ export interface FoodRecommendation {
   nameEn: string;
   reason: string;
   reasonEn?: string;
+  /** 일본어 이름(확인된 표기만)과 일본어 추천 이유 */
+  nameJa?: string;
+  reasonJa?: string;
   /** 저 / 저~중 / 중 / 중~고 / 고 */
   budgetBand: string;
   linkedPriceIds: string[];
@@ -141,6 +146,7 @@ export interface ExtraEstimate {
   id: string;
   nameKo: string;
   nameEn: string;
+  nameJa?: string;
   /** 공항: 1인 이용 횟수(왕복 상품은 1) / 렌터카: 대여 일수 */
   units: number;
   /** 왕복 상품 */
@@ -178,6 +184,7 @@ export interface DetailLine {
   id?: string;
   nameKo?: string;
   nameEn?: string;
+  nameJa?: string;
   childPrice?: Range | null;
 }
 

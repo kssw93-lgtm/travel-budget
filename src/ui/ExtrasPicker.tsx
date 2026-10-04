@@ -41,7 +41,7 @@ export function ExtrasPicker({ city, extras, form, onChange, display, rates, nig
       )}
     </>
   );
-  const name = (o: ExtraOption) => (localName(lang, o.adult.nameKo, o.adult.nameEn));
+  const name = (o: ExtraOption) => (localName(lang, o.adult.nameKo, o.adult.nameEn, o.adult.nameJa));
   const chosen = [airport.find((o) => o.id === form.airport), rental.find((o) => o.id === form.rental)].filter(Boolean) as ExtraOption[];
   const status = chosen.length ? chosen.map(name).join(' · ') : x.summaryNone;
 

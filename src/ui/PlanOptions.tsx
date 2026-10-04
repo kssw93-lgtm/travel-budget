@@ -77,7 +77,7 @@ export function PlanOptions({
     setEat([
       ...form.mustEat,
       {
-        name: localName(lang, f.nameKo, f.nameEn),
+        name: localName(lang, f.nameKo, f.nameEn, f.nameJa),
         price: s ? midPrice(s) : "",
         ...(s ? { sampleId: s.id } : {}),
       },
@@ -325,7 +325,7 @@ export function PlanOptions({
                       const s = researchedPrice(f, byId);
                       return (
                         <option key={f.nameEn} value={f.nameEn}>
-                          {localName(lang, f.nameKo, f.nameEn)}
+                          {localName(lang, f.nameKo, f.nameEn, f.nameJa)}
                           {s
                             ? ` · ${s.min === s.max ? s.min : `${s.min}~${s.max}`} ${s.currency}`
                             : ""}

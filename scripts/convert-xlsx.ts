@@ -73,6 +73,16 @@ function readTable(wb: XLSX.WorkBook, sheetName: string, anchor: string, optiona
 
 type Row = (h: string) => string;
 
+/** 일본어 이름 열(조사 엑셀 v0.9i~). 없는 파일은 빈 값으로 읽는다 */
+const JA_PRICE_COLS = ['품목(일본어)', '일본어 근거 URL', '일본어 확인 방법'];
+/**
+ * 일본어 이름은 일본어권 표기로 확인된 것만 쓴다(공식 일본어 페이지·공공 일본어 표기·일본 언론·여행사 표기,
+ * 메뉴·상품은 가게 이름 원어 + 일본 일반 명칭인 '일반 명칭 번역').
+ * '음역'(근거 없이 가타카나로 옮긴 것)은 쓰지 않고 영문 이름으로 보인다 — 예: 대영박물관을 'ブリティッシュ・ミュージアム'으로 옮긴 행.
+ */
+const JA_TRUSTED = ['공식 일본어 페이지', '공공 일본어 표기', '일본 언론·여행사 표기', '일반 명칭 번역'];
+const jaName = (name: string, method: string): { nameJa?: string } => (name && JA_TRUSTED.includes(method) ? { nameJa: name } : {});
+
 /**
  * 엑셀 밖에서 받은 추가 자료(data/additions/<종류>-*.csv, 예: Gemini 수집분). 머리글은 엑셀 시트와 같다.
  * 엑셀 원본은 건드리지 않고 변환할 때만 합친다.
@@ -143,8 +153,8 @@ function main() {
   const exclusions = JSON.parse(readFileSync(`${root}/data/overlays/exclusions.json`, 'utf8')) as Record<string, string>;
   const exclusionIds = new Set(Object.keys(exclusions).filter((k) => !k.startsWith('_')));
   const priceRows: Array<{ file: string; r: Row }> = [
-    ...readTable(wb, '가격 표본', 'ID').map((r) => ({ file: '', r })),
-    ...additionRows('prices', 'ID', ['비고']),
+    ...readTable(wb, '가격 표본', 'ID', JA_PRICE_COLS).map((r) => ({ file: '', r })),
+    ...additionRows('prices', 'ID', ['비고', ...JA_PRICE_COLS]),
   ];
   for (const { file, r } of priceRows) {
     const id = r('ID');
@@ -211,6 +221,7 @@ function main() {
       subtype: r('세부유형'),
       nameKo: r('항목(한글)'),
       nameEn: r('Item (English)'),
+      ...jaName(r('품목(일본어)'), r('일본어 확인 방법')),
       min,
       max,
       currency,
@@ -297,7 +308,8 @@ function main() {
 
   // 음식 추천
   const overlay = JSON.parse(readFileSync(`${root}/data/overlays/food-reasons-en.json`, 'utf8')) as Record<string, string>;
-  const foodRows: Row[] = [...readTable(wb, '음식 추천', '국가'), ...additionRows('foods', '국가', ['비고', '연결 가격 ID']).map((x) => x.r)];
+  const foodJa = ['음식(일본어)', '추천 이유(일본어)', '일본어 근거 URL', '일본어 확인 방법'];
+  const foodRows: Row[] = [...readTable(wb, '음식 추천', '국가', foodJa), ...additionRows('foods', '국가', ['비고', '연결 가격 ID', ...foodJa]).map((x) => x.r)];
   const foods: FoodRecommendation[] = foodRows.map((r) => {
     const city = cityByKo.get(r('도시'));
     if (!city) throw new Error(`음식 추천: 도시 '${r('도시')}'가 '도시 우선순위'에 없음`);
@@ -311,6 +323,8 @@ function main() {
       nameEn: r('Food'),
       reason: r('추천 이유'),
       ...(reasonEn ? { reasonEn } : {}),
+      ...jaName(r('음식(일본어)'), r('일본어 확인 방법')),
+      ...(r('추천 이유(일본어)') ? { reasonJa: r('추천 이유(일본어)') } : {}),
       budgetBand: r('예산대'),
       linkedPriceIds: linked,
       priceStatus: r('가격조사 상태'),

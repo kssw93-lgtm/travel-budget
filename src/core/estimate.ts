@@ -462,7 +462,7 @@ function selectedAttractions(city: City, samples: PriceSample[], input: TripInpu
     const line = add(scale(adult, input.adults), scale(child, input.children));
     total = add(total, line);
     lines.push({
-      kind: 'item', basket: 'attraction', id: o.id, nameKo: o.adult.sample.nameKo, nameEn: o.adult.sample.nameEn,
+      kind: 'item', basket: 'attraction', id: o.id, nameKo: o.adult.sample.nameKo, nameEn: o.adult.sample.nameEn, nameJa: o.adult.sample.nameJa,
       units: 1, unitPrice: adult, childPrice: o.child ? child : null, total: line,
     });
     used.push(o.adult);
@@ -549,7 +549,7 @@ function plannedTransport(
   const warnings: Warning[] = [...qualityWarnings('transport', used)];
   if (input.children > 0 && !option.child) warnings.push({ category: 'transport', code: 'childAsAdult' });
   const line: DetailLine = {
-    kind: 'item', basket: 'pass', id: option.id, nameKo: option.adult.sample.nameKo, nameEn: option.adult.sample.nameEn,
+    kind: 'item', basket: 'pass', id: option.id, nameKo: option.adult.sample.nameKo, nameEn: option.adult.sample.nameEn, nameJa: option.adult.sample.nameJa,
     units: count, unitPrice: adult, childPrice: option.child ? child : null, total,
   };
   return { estimate: fixedEstimate('transport', total, [line], used, people, dates.length), warnings };

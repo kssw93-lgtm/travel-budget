@@ -115,7 +115,7 @@ function AttractionTable({ guide, display, rates }: { guide: ReturnType<typeof c
               const s = o.adult.sample;
               return (
                 <tr key={o.id} data-attraction={o.id}>
-                  <th scope="row">{localName(lang, s.nameKo, s.nameEn)}</th>
+                  <th scope="row">{localName(lang, s.nameKo, s.nameEn, s.nameJa)}</th>
                   <td data-label={g.adult}>{price(s, o.adult.fromPrice, o.variable)}</td>
                   {hasChild && <td data-label={g.child}>{o.child ? price(o.child.sample, o.child.fromPrice) : <span className="muted">—</span>}</td>}
                   <td data-label={g.source}>

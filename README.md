@@ -63,7 +63,7 @@ GitHub Actions(`.github/workflows/ci.yml`)가 push·PR 마다 같은 순서로 �
 | `scripts/convert-xlsx.ts` | 엑셀 → JSON 변환 |
 | `src/i18n/` | 한/영 문구 (`ko.ts` 가 기준, `en.ts` 는 타입으로 구조 강제) |
 | `src/ui/` | 계산기·결과·대표 음식·소개/개인정보처리방침 페이지·광고 자리 |
-| `worker/` | `/api/rates` — 교체 가능한 환율 제공자, 캐시, 장애 시 마지막 정상값(stale) |
+| `worker/` | `/api/rates` — `src/core/rates/` 의 환율 제공자·캐시 규칙을 Worker 저장소로 실행, 장애 시 마지막 정상값(stale) |
 | `tests/` | 단위 테스트, Worker 테스트, e2e |
 
 ## 계산 요약
@@ -85,8 +85,10 @@ GitHub Actions(`.github/workflows/ci.yml`)가 push·PR 마다 같은 순서로 �
 
 ## 환율
 
-`worker/rates/providers.ts` 의 `defaultProviders` 순서대로 무료 API 를 호출합니다(ExchangeRate-API 오픈 엔드포인트 → Frankfurter).
+`src/core/rates/providers.ts` 의 `defaultProviders` 순서대로 무료 API 를 호출합니다(ExchangeRate-API 오픈 엔드포인트 → Frankfurter(유럽중앙은행) → jsDelivr currency-api).
 24시간 캐시, 실패 시 마지막 정상값을 `stale` 로 표시, 값이 전혀 없으면 임의 환율 없이 현지 통화만 표시합니다.
+Worker(`/api/rates`)와 브라우저가 같은 코드를 씁니다. Worker 가 없거나 실패하면(미리보기·정적 호스팅) 브라우저가 같은 제공자를 직접 호출하고,
+마지막 정상값을 이 기기의 localStorage 에 24시간 보관합니다(`src/ui/useRates.ts`).
 제공자를 바꾸려면 `RateProvider` 인터페이스를 구현해 배열에 넣으면 됩니다.
 
 ## URL·SEO

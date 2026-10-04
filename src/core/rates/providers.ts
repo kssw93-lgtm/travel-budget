@@ -42,5 +42,25 @@ export const frankfurter: RateProvider = {
   },
 };
 
+/**
+ * fawazahmed0 currency-api: jsDelivr CDN 으로 배포되는 무료 일일 환율(키 없음, 200여 개 통화).
+ * 응답 통화 코드는 소문자라 대문자로 바꾼다. 앞의 두 제공자가 모두 막힌 환경을 위한 3순위.
+ */
+export const currencyApiCdn: RateProvider = {
+  id: 'currency-api',
+  name: 'Currency API (fawazahmed0, jsDelivr)',
+  url: 'https://github.com/fawazahmed0/exchange-api',
+  async load(fetchFn): Promise<ProviderResult> {
+    const body = (await getJson(fetchFn, 'https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json')) as {
+      date?: string;
+      usd?: Record<string, number>;
+    };
+    if (!body.usd) throw new Error('unexpected response');
+    const rates: Record<string, number> = {};
+    for (const [code, rate] of Object.entries(body.usd)) rates[code.toUpperCase()] = rate;
+    return { rates, asOf: body.date ?? '' };
+  },
+};
+
 /** 앞에서부터 시도한다. 제공자를 바꾸려면 이 배열만 수정한다. */
-export const defaultProviders: RateProvider[] = [openErApi, frankfurter];
+export const defaultProviders: RateProvider[] = [openErApi, frankfurter, currencyApiCdn];

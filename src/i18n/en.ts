@@ -195,8 +195,8 @@ export const en: Messages = {
     enough: '{n} independent',
   },
   preview: {
-    banner: 'Demo preview. The exchange rate server is not connected, so only local-currency amounts are shown (selected currency and USD show "N/A").',
-    rates: 'Preview: exchange rate server not connected. On the live site, selected-currency and USD amounts are shown using rates refreshed once a day.',
+    banner: 'Demo preview. Exchange rates are loaded directly in your browser from public rate APIs (ExchangeRate-API and others).',
+    rates: 'Preview: the public exchange rate APIs could not be reached, so only local-currency amounts are shown. The live site uses rates its server refreshes once a day.',
   },
   detail: {
     open: 'Show details',

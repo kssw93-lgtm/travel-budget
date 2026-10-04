@@ -1,4 +1,4 @@
-import type { RatesPayload } from '../../src/core/types';
+import type { RatesPayload } from '../types';
 
 export interface ProviderResult {
   /** 1 USD 당 해당 통화 단위 수 */

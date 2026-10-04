@@ -1,6 +1,6 @@
-import { defaultProviders } from './rates/providers';
-import { getRates } from './rates/service';
-import { RatesUnavailableError, type RateStore, type StoredRates } from './rates/types';
+import { defaultProviders } from '../src/core/rates/providers';
+import { getRates } from '../src/core/rates/service';
+import { RatesUnavailableError, type RateStore, type StoredRates } from '../src/core/rates/types';
 
 /** Cloudflare Cache API 를 저장소로 쓴다(별도 바인딩 없이 배포 가능). 30일 뒤 만료. */
 const CACHE_KEY = 'https://rates.internal/v1/latest-usd';

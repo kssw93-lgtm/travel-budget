@@ -9,7 +9,24 @@ export const RATES = {
   stale: false,
 };
 
-export async function mockRates(page: Page, override: Record<string, unknown> | 'fail' = {}, delayMs = 0) {
+/** 브라우저가 직접 부르는 공개 환율 API(서버 장애 시 대체). 테스트는 외부 네트워크에 기대지 않도록 모두 가로챈다 */
+export const PUBLIC_RATE_HOSTS = ['open.er-api.com', 'api.frankfurter.dev', 'cdn.jsdelivr.net'];
+
+/**
+ * /api/rates 를 흉내 낸다. 공개 환율 API 는 기본으로 실패시키고(browser='fail'),
+ * browser='ok' 이면 ExchangeRate-API 형식으로 성공 응답을 준다.
+ */
+export async function mockRates(page: Page, override: Record<string, unknown> | 'fail' = {}, delayMs = 0, browser: 'ok' | 'fail' = 'fail') {
+  await page.route(/open\.er-api\.com|api\.frankfurter\.dev|cdn\.jsdelivr\.net\/npm\/@fawazahmed0/, (route) =>
+    browser === 'ok' && route.request().url().includes('open.er-api.com')
+      ? route.fulfill({
+          status: 200,
+          contentType: 'application/json',
+          headers: { 'access-control-allow-origin': '*' },
+          body: JSON.stringify({ result: 'success', time_last_update_unix: 1791072000, rates: { ...RATES.rates, KRW: 1500 } }),
+        })
+      : route.fulfill({ status: 503, headers: { 'access-control-allow-origin': '*' }, body: '' }),
+  );
   await page.route('**/api/rates', async (route) => {
     if (delayMs) await new Promise((r) => setTimeout(r, delayMs));
     return override === 'fail'
@@ -36,7 +53,8 @@ export const test = base.extend<{ consoleErrors: string[] }>({
       const errors: string[] = [];
       page.on('console', (msg) => {
         if (msg.type() !== 'error') return;
-        if (msg.location().url.includes('/api/rates')) return;
+        const where = msg.location().url;
+        if (where.includes('/api/rates') || PUBLIC_RATE_HOSTS.some((h) => where.includes(h))) return;
         errors.push(msg.text());
       });
       page.on('pageerror', (err) => errors.push(`pageerror: ${err.message}`));

@@ -200,6 +200,15 @@ test.describe('환율 장애 처리', () => {
     await expect(page.getByTestId('total')).not.toContainText('₩');
   });
 
+  test('환율 서버가 실패하면 브라우저에서 공개 환율 API 를 직접 불러 환산한다', async ({ page }) => {
+    await mockRates(page, 'fail', 0, 'ok');
+    await page.goto('/');
+    await fillTrip(page);
+    await expect(page.getByTestId('rates-error')).toHaveCount(0);
+    await expect(page.getByTestId('total')).toContainText('₩');
+    await expect(page.getByText(/ExchangeRate-API/).first()).toBeVisible();
+  });
+
   test('오래된 환율은 stale 표시와 함께 사용', async ({ page }) => {
     await mockRates(page, { stale: true, asOf: '2026-09-20' });
     await page.goto('/');

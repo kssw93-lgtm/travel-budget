@@ -1,4 +1,4 @@
-import type { RatesPayload } from '../../src/core/types';
+import type { RatesPayload } from '../types';
 import { RatesUnavailableError, type ProviderResult, type RateProvider, type RateStore } from './types';
 
 /** 정상 환율을 이 시간 동안 그대로 쓴다(하루) */

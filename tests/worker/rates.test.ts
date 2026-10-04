@@ -1,7 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
-import { FRESH_MS, getRates, sanitize } from '../../worker/rates/service';
-import { openErApi } from '../../worker/rates/providers';
-import { RatesUnavailableError, type RateProvider, type RateStore, type StoredRates } from '../../worker/rates/types';
+import { FRESH_MS, getRates, sanitize } from '../../src/core/rates/service';
+import { currencyApiCdn, openErApi } from '../../src/core/rates/providers';
+import { RatesUnavailableError, type RateProvider, type RateStore, type StoredRates } from '../../src/core/rates/types';
 import { handle } from '../../worker/index';
 
 const good = { USD: 1, KRW: 1400, JPY: 150, EUR: 0.9, GBP: 0.8, VND: 25000 };
@@ -81,6 +81,12 @@ describe('제공자 응답 해석', () => {
   it('HTTP 오류는 예외', async () => {
     const f = vi.fn(async () => new Response('x', { status: 500 }));
     await expect(openErApi.load(f as unknown as typeof fetch)).rejects.toThrow('HTTP 500');
+  });
+  it('jsDelivr currency-api 응답은 소문자 통화 코드를 대문자로 바꾼다', async () => {
+    const f = vi.fn(async () => new Response(JSON.stringify({ date: '2026-10-03', usd: { krw: 1400, jpy: 150, eur: 0.9 } })));
+    const r = await currencyApiCdn.load(f as unknown as typeof fetch);
+    expect(r.rates.KRW).toBe(1400);
+    expect(r.asOf).toBe('2026-10-03');
   });
 });
 

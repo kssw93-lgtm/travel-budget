@@ -900,7 +900,9 @@
     "reason": "쫄깃하고 달콤한 흑설탕 호떡 사이에 해바라기씨와 땅콩 등 고소한 견과류를 듬뿍 채워 넣은 대표 길거리 간식이다.",
     "reasonEn": "Chewy brown-sugar pancake stuffed with sunflower seeds and peanuts — Busan's signature street snack.",
     "budgetBand": "저",
-    "linkedPriceIds": [],
+    "linkedPriceIds": [
+      "PUS-SN-776"
+    ],
     "priceStatus": "대기",
     "recommendSource": "비짓부산(부산관광공사)",
     "recommendUrl": "https://www.visitbusan.net/index.do?menuCd=DOM_000000202003001000&uc_seq=1005&lang_cd=ko",
@@ -913,7 +915,9 @@
     "reason": "신선한 생선살 함량이 높아 탱글탱글하고 쫄깃한 식감을 자랑하는 부산을 대표하는 특산 명물이다.",
     "reasonEn": "Springy, chewy fish cake with a high fish content — a famous Busan specialty.",
     "budgetBand": "저",
-    "linkedPriceIds": [],
+    "linkedPriceIds": [
+      "PUS-SN-779"
+    ],
     "priceStatus": "대기",
     "recommendSource": "한국관광공사 대한민국 구석구석",
     "recommendUrl": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=08f2354e-c8be-430d-9719-be4259272db2",

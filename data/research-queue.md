@@ -37,7 +37,6 @@
 | 이스탄불 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 상하이 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 서울 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 서울 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 부산 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 제주 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 
@@ -181,6 +180,12 @@
 | PUS-FD-766 | 부산 | 신발원 쿵푸면 | 5900 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 신발원](https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0) |
 | PUS-SN-767 | 부산 | 신발원 고기만두 (1인분 4개) | 4800 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 신발원](https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0) |
 | PUS-SN-768 | 부산 | 신발원 수제찐빵 | 3800 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 신발원](https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0) |
+| PUS-SN-776 | 부산 | 해운대명품호떡 씨앗호떡 | 2500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 해운대명품호떡](https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1) |
+| PUS-SN-777 | 부산 | 해운대명품호떡 꿀호떡 | 2000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 해운대명품호떡](https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1) |
+| PUS-SN-778 | 부산 | 부곡분식 쌀떡볶이 | 3000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 부곡분식](https://map.naver.com/p/search/%EB%B6%80%EA%B3%A1%EB%B6%84%EC%8B%9D) |
+| PUS-SN-779 | 부산 | 부곡분식 오뎅 (4개) | 2000~4000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 부곡분식](https://map.naver.com/p/search/%EB%B6%80%EA%B3%A1%EB%B6%84%EC%8B%9D) |
+| PUS-SN-780 | 부산 | 스탠다드번 아메리카노 | 5500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 스탠다드번 해운대](https://map.naver.com/p/search/%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%EB%B2%88%20%ED%95%B4%EC%9A%B4%EB%8C%80) |
+| PUS-SN-781 | 부산 | 스탠다드번 상하이 버터떡 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 스탠다드번 해운대](https://map.naver.com/p/search/%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%EB%B2%88%20%ED%95%B4%EC%9A%B4%EB%8C%80) |
 | PUS-TR-001 | 부산 | 부산 도시철도 1구간 (교통카드) | 1600 KRW | A | 예 | 재검증 | [부산교통공사](https://www.humetro.busan.kr/default/main.do) |
 | PUS-TR-002 | 부산 | 부산 도시철도 2구간 (교통카드) | 1800 KRW | A | 예 | 재검증 | [부산교통공사](https://www.humetro.busan.kr/default/main.do) |
 | PUS-TR-003 | 부산 | 부산 시내버스 일반 (교통카드) | 1550 KRW | A | 예 | 재검증 | [부산광역시 버스정보관리시스템](https://bus.busan.go.kr/) |
@@ -225,6 +230,15 @@
 | SEL-AL-764 | 서울 | 송탄진대광부대찌개 소주 1병 | 4000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 송탄진대광부대찌개](https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C) |
 | SEL-AL-765 | 서울 | 송탄진대광부대찌개 맥주 1병 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 송탄진대광부대찌개](https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C) |
 | SEL-SN-766 | 서울 | 송탄진대광부대찌개 탄산음료 1캔 | 2000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 송탄진대광부대찌개](https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C) |
+| CJU-SN-770 | 제주 | 미르오메기떡 오메기떡 낱개 | 900 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 미르오메기떡](https://map.naver.com/p/search/%EB%AF%B8%EB%A5%B4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
+| CJU-SN-771 | 제주 | 춘심이네 오메기떡 낱개 | 1200 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 춘심이네오메기떡](https://map.naver.com/p/search/%EC%B6%98%EC%8B%AC%EC%9D%B4%EB%84%A4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
+| CJU-SN-772 | 제주 | 할머니떡집 감귤모찌 1팩 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 할머니떡집 오메기떡](https://map.naver.com/p/search/%ED%95%A0%EB%A8%B8%EB%8B%88%EB%96%A1%EC%A7%91%20%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
+| CJU-SV-773 | 제주 | 미르오메기떡 혼합 30알 | 27000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 미르오메기떡](https://map.naver.com/p/search/%EB%AF%B8%EB%A5%B4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
+| CJU-SV-774 | 제주 | 춘심이네 오메기떡 40개 | 39000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 춘심이네오메기떡](https://map.naver.com/p/search/%EC%B6%98%EC%8B%AC%EC%9D%B4%EB%84%A4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
+| CJU-SV-775 | 제주 | 할머니떡집 오메기떡 11개 (4종류) | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 할머니떡집 오메기떡](https://map.naver.com/p/search/%ED%95%A0%EB%A8%B8%EB%8B%88%EB%96%A1%EC%A7%91%20%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
+| SEL-SN-782 | 서울 | 루프 베이커리 카페 아메리카노 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · LOOOP 루프 베이커리 카페 성수](https://map.naver.com/p/search/LOOOP%20%EB%A3%A8%ED%94%84%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%B9%B4%ED%8E%98%20%EC%84%B1%EC%88%98) |
+| SEL-SN-783 | 서울 | 아쿠아산타 1인용 딸기 프레지에 | 12900 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 아쿠아산타 성수카페](https://map.naver.com/p/search/%EC%95%84%EC%BF%A0%EC%95%84%EC%82%B0%ED%83%80%20%EC%84%B1%EC%88%98%EC%B9%B4%ED%8E%98) |
+| SEL-SN-784 | 서울 | 아쿠아산타 수박주스 | 8500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 아쿠아산타 성수카페](https://map.naver.com/p/search/%EC%95%84%EC%BF%A0%EC%95%84%EC%82%B0%ED%83%80%20%EC%84%B1%EC%88%98%EC%B9%B4%ED%8E%98) |
 | CJU-TR-001 | 제주 | 제주 간선/지선버스 기본요금 (카드) | 1150 KRW | A | 예 | 재검증 | [제주버스정보시스템](http://bus.jeju.go.kr/guide/fare) |
 | CJU-TR-002 | 제주 | 제주 급행버스 기본/구간요금 (카드) | 2000~3000 KRW | A | 예 | 재검증 | [제주버스정보시스템](http://bus.jeju.go.kr/guide/fare) |
 | CJU-TR-003 | 제주 | 제주 관광지순환버스 1회권 (카드) | 1150 KRW | A | 예 | 재검증 | [제주관광지순환버스 공식홈페이지](http://www.jejutourbus.com/sub02/sub01.php) |

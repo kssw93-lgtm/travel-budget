@@ -387,7 +387,7 @@
       "pass": 1,
       "ride": 3,
       "meal": 5,
-      "snack": 1,
+      "snack": 4,
       "drink": 3,
       "attraction": 7,
       "souvenir": 6
@@ -396,7 +396,7 @@
       "pass": 1,
       "ride": 3,
       "meal": 5,
-      "snack": 1,
+      "snack": 4,
       "drink": 3,
       "attraction": 7,
       "souvenir": 6
@@ -416,7 +416,7 @@
       "pass": 1,
       "ride": 3,
       "meal": 12,
-      "snack": 5,
+      "snack": 11,
       "drink": 3,
       "attraction": 7,
       "souvenir": 3
@@ -425,7 +425,7 @@
       "pass": 1,
       "ride": 4,
       "meal": 12,
-      "snack": 5,
+      "snack": 11,
       "drink": 3,
       "attraction": 7,
       "souvenir": 3
@@ -439,25 +439,25 @@
       "food": 14,
       "transport": 3,
       "attraction": 6,
-      "souvenir": 3
+      "souvenir": 6
     },
     "baskets": {
       "pass": 0,
       "ride": 3,
       "meal": 14,
-      "snack": 3,
+      "snack": 6,
       "drink": 3,
       "attraction": 6,
-      "souvenir": 3
+      "souvenir": 6
     },
     "basketRows": {
       "pass": 0,
       "ride": 3,
       "meal": 14,
-      "snack": 3,
+      "snack": 6,
       "drink": 3,
       "attraction": 6,
-      "souvenir": 3
+      "souvenir": 6
     },
     "fillRate": 1,
     "missing": [],

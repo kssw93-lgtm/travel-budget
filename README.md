@@ -45,7 +45,7 @@ GitHub Actions(`.github/workflows/ci.yml`)가 push·PR 마다 같은 순서로 �
 
 1. 새 버전 엑셀을 `data/source/` 에 **새 파일로 추가**하고, `data/source/latest.json` 의 `version`·`file`·`date` 를 그 파일로 바꿉니다.
    이전 버전 파일은 기록용으로 그대로 둡니다. (원본 엑셀은 읽기만 하며 수정하지 않습니다.)
-   현재 최신: `travel_cost_research_pilot_v0.9a_2026-10-03.xlsx` (**v0.9a, 가격 표본 306건** + `data/additions/` 추가 자료). 이전: v0.8(250건), v0.7.1(248건), v0.7(218건), v0.6(186건), v0.5(178건), v0.4(136건), v0.3(134건), v0.2(130건), v0.1(77건).
+   현재 최신: `travel_cost_research_pilot_v0.9d_2026-10-04.xlsx` (**v0.9d, 가격 표본 455건** + `data/additions/` 추가 자료). 이전: v0.9a(306건), v0.8(250건), v0.7.1(248건), v0.7(218건), v0.6(186건), v0.5(178건), v0.4(136건), v0.3(134건), v0.2(130건), v0.1(77건).
    버전별 변경은 [`data/CHANGELOG.md`](data/CHANGELOG.md) 에 기록합니다.
 2. `npm run data:convert` — 머리글 이름으로 열을 찾아 `src/data/generated/*.json` 을 다시 만듭니다.
    `latest.json` 이 가리키는 파일을 읽으며, 결과 `meta.json` 에 원본 파일명·버전이 기록됩니다. 형식 오류(숫자 아닌 가격, 알 수 없는 도시, 없는 연결 가격 ID 등)가 있으면 실패하고, 분류하지 못한 세부유형은 경고로 알려줍니다.

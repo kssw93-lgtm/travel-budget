@@ -100,4 +100,11 @@ describe('현지 물가 한눈에', () => {
     const opt = attractionOptions(city('tokyo'), samples).find((o) => o.id === 'TYO-AT-006');
     expect(opt?.adult.fromPrice).toBe(true);
   });
+
+  it('학생·우대 할인 요금은 관광지 목록에 따로 세우지 않는다(성인·대학생처럼 성인 표기가 있으면 유지)', () => {
+    const ids = (c: string) => attractionOptions(city(c), samples).map((o) => o.id);
+    expect(ids('taipei')).not.toContain('TPE-AT-015');
+    expect(ids('singapore')).not.toContain('SIN-AT-014');
+    expect(ids('osaka')).toContain('OSA-AT-008');
+  });
 });

@@ -1,6 +1,6 @@
 # 조사 요청 목록 (자동 생성)
 
-> `npm run data:convert` 가 `travel_cost_research_pilot_v0.9a_2026-10-03.xlsx` (v0.9a) 로부터 만든 파일입니다. 직접 고치지 마세요.
+> `npm run data:convert` 가 `travel_cost_research_pilot_v0.9d_2026-10-04.xlsx` (v0.9d) 로부터 만든 파일입니다. 직접 고치지 마세요.
 > 기준: 바스켓마다 **독립 표본 3건 이상**(같은 출처·같은 상품의 용량·기간·요일 변형, 같은 명소의 관람 옵션은 1건).
 > 수치는 가격 원장과 계산 코드로 다시 만든 것입니다. 엑셀의 "도시 초안"·"다음 조사 큐" 시트 수치는 쓰지 않습니다(작성 시점이 달라 오래된 값이 있을 수 있음).
 
@@ -106,6 +106,48 @@
 | BKK-AT-013 | 방콕 | 방콕 플라네타리움 성인 입장권 | 50 THB | B | 예 | B등급 | [Science Centre for Education, Thailand](https://sciplanet.org/wp-content/uploads/2026/01/%E0%B8%AD-%E0%B9%80%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A-21-%E0%B8%A1.%E0%B8%84.69-%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%A1-2569-%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B8%E0%B8%94.pdf) |
 | BKK-AT-014 | 방콕 | 방콕 플라네타리움 어린이 입장권 | 30 THB | B | 예 | B등급 | [Science Centre for Education, Thailand](https://sciplanet.org/wp-content/uploads/2026/01/%E0%B8%AD-%E0%B9%80%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A-21-%E0%B8%A1.%E0%B8%84.69-%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%A1-2569-%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B8%E0%B8%94.pdf) |
 | BKK-AT-016 | 방콕 | 룸피니 공원 입장 | 0 THB | B | 예 | B등급 | [Bangkok Metropolitan Administration, Greener Bangkok](https://greener.bangkok.go.th/en/park/suan-lumpini/) |
+| DAD-AT-005 | 다낭 | 다낭 박물관 일반 입장권 | 50000 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/news/from-july-3-danang-museum-to-implement-new-admission-fees-and-opening-hours) |
+| DAD-AT-006 | 다낭 | 다낭 미술관 일반 입장권 | 20000 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/new-tourism-products-in-da-nang-2026) |
+| DAD-AT-007 | 다낭 | 군구 5 박물관 국제 방문객 입장권 | 60000 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
+| DAD-AT-012 | 다낭 | 오행산 암푸 동굴 입장권 | 20000 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
+| DAD-AT-013 | 다낭 | 껌탄 코코넛 숲 입장료 | 30000 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
+| DAD-AT-014 | 다낭 | 탄하 도자기 마을 입장권 | 35000 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
+| DAD-AT-015 | 다낭 | 다낭 박물관 만 16세 미만 무료 입장 | 0 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/news/from-july-3-danang-museum-to-implement-new-admission-fees-and-opening-hours) |
+| DAD-AT-016 | 다낭 | 다낭 미술관 학생 무료 입장 | 0 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/new-tourism-products-in-da-nang-2026) |
+| DAD-AT-020 | 다낭 | 암푸 동굴 학생 입장료 | 7000 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
+| DAD-AT-021 | 다낭 | 암푸 동굴 만 6세 미만 무료 입장 | 0 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
+| TPE-AT-005 | 타이베이 | 스린 관저 본관 일반 입장권 | 100 TWD | B | 예 | B등급 | [Taipei City Government Department of Cultural Affairs](https://culture.gov.taipei/cp.aspx?n=5FB2672C1EFD7588) |
+| TPE-AT-006 | 타이베이 | 타이베이 천문관 전시관 일반 입장권 | 40 TWD | B | 예 | B등급 | [Taipei Astronomical Museum](https://en.tam.gov.taipei/cp.aspx?n=1E87B50585DEAB2D) |
+| TPE-AT-007 | 타이베이 | 베이터우 온천박물관 무료 관람 | 0 TWD | B | 예 | B등급 | [Taipei City Government Department of Cultural Affairs](https://culture.gov.taipei/cp.aspx?n=680DE22A4F00B25F) |
+| TPE-AT-008 | 타이베이 | 룽산사 무료 입장 | 0 TWD | B | 예 | B등급 | [Taiwan Religious Culture Map, Ministry of the Interior](https://taiwangods.moi.gov.tw/html/landscape_en/1_0011.aspx?i=15) |
+| TPE-AT-009 | 타이베이 | 국립대만과학교육관 상설전시 일반 입장권 | 120 TWD | B | 예 | B등급 | [National Taiwan Science Education Center](https://www.ntsec.gov.tw/article/detail.aspx?a=23&print=1) |
+| TPE-AT-010 | 타이베이 | 타이베이 어린이신락원 입장권(시설 별도) | 30 TWD | B | 예 | B등급 | [Taipei Children's Amusement Park](https://www.tcap.taipei/cp.aspx?n=EE083F2DED91AB99&s=8611B230461F0250) |
+| TPE-AT-011 | 타이베이 | 국립 228 기념박물관 무료 입장 | 0 TWD | B | 예 | B등급 | [Taipei City Tourism Information](https://www.travel.taipei/en/attraction/details/2007) |
+| TPE-AT-012 | 타이베이 | 손윤선 기념관 일반 입장권 | 50 TWD | B | 예 | B등급 | [Taipei City Government Department of Cultural Affairs](https://culture.gov.taipei/cp.aspx?n=7F5537B1FD015C40) |
+| TPE-AT-015 | 타이베이 | 스린 관저 본관 학생 우대 입장권 | 50 TWD | B | 예 | B등급 | [Taipei City Government Department of Cultural Affairs](https://culture.gov.taipei/cp.aspx?n=5FB2672C1EFD7588) |
+| TPE-AT-016 | 타이베이 | 스린 관저 본관 미취학 아동 무료 입장 | 0 TWD | B | 예 | B등급 | [Taipei City Government Department of Cultural Affairs](https://culture.gov.taipei/cp.aspx?n=5FB2672C1EFD7588) |
+| TPE-AT-017 | 타이베이 | 타이베이 천문관 전시관 아동 할인 입장권 | 20 TWD | B | 예 | B등급 | [Taipei Astronomical Museum](https://en.tam.gov.taipei/cp.aspx?n=1E87B50585DEAB2D) |
+| TPE-AT-018 | 타이베이 | 타이베이 천문관 만 6세 미만 무료 입장 | 0 TWD | B | 예 | B등급 | [Taipei Astronomical Museum](https://en.tam.gov.taipei/cp.aspx?n=1E87B50585DEAB2D) |
+| TPE-AT-019 | 타이베이 | 국립대만과학교육관 학생 할인 상설전시권 | 90 TWD | B | 예 | B등급 | [National Taiwan Science Education Center](https://www.ntsec.gov.tw/article/detail.aspx?a=23&print=1) |
+| TPE-AT-020 | 타이베이 | 국립대만과학교육관 만 6세 이하 무료 입장 | 0 TWD | B | 예 | B등급 | [National Taiwan Science Education Center](https://www.ntsec.gov.tw/article/detail.aspx?a=23&print=1) |
+| TPE-AT-021 | 타이베이 | 타이베이 어린이신락원 어린이 입장권(시설 별도) | 15 TWD | B | 예 | B등급 | [Taipei Children's Amusement Park](https://www.tcap.taipei/cp.aspx?n=EE083F2DED91AB99&s=8611B230461F0250) |
+| TPE-AT-022 | 타이베이 | 타이베이 어린이신락원 만 6세 이하 무료 입장 | 0 TWD | B | 예 | B등급 | [Taipei Children's Amusement Park](https://www.tcap.taipei/cp.aspx?n=EE083F2DED91AB99&s=8611B230461F0250) |
+| TPE-AT-023 | 타이베이 | 손윤선 기념관 만 6세 미만 무료 입장 | 0 TWD | B | 예 | B등급 | [Taipei City Government Department of Cultural Affairs](https://culture.gov.taipei/cp.aspx?n=7F5537B1FD015C40) |
+| SIN-AT-010 | 싱가포르 | 싱가포르 오셔나리움 성인 1일 입장권(시작가) | 55 SGD | A | 예 | 시작가 표기 | [Resorts World Sentosa - Singapore Oceanarium](https://www.rwsentosa.com/en/play/singapore-oceanarium/) |
+| SIN-AT-024 | 싱가포르 | 싱가포르 오셔나리움 어린이 1일 입장권(시작가) | 43 SGD | A | 예 | 시작가 표기 | [Resorts World Sentosa - Singapore Oceanarium](https://www.rwsentosa.com/en/play/singapore-oceanarium/) |
+| PAR-AT-012 | 파리 | 카르나발레 박물관 상설전시 무료 입장 | 0 EUR | B | 예 | B등급 | [Paris Musées](https://parismusees.paris.fr/fr/votre-visite/tarifs) |
+| PAR-AT-013 | 파리 | 쁘띠 팔레 상설전시 무료 입장 | 0 EUR | B | 예 | B등급 | [Paris Musées](https://parismusees.paris.fr/fr/votre-visite/tarifs) |
+| PAR-AT-014 | 파리 | 파리 시립현대미술관 상설전시 무료 입장 | 0 EUR | B | 예 | B등급 | [Paris Musées](https://parismusees.paris.fr/fr/votre-visite/tarifs) |
+| PAR-AT-015 | 파리 | 빅토르 위고의 집 상설전시 무료 입장 | 0 EUR | B | 예 | B등급 | [Paris Musées](https://parismusees.paris.fr/fr/votre-visite/tarifs) |
+| BCN-AT-003 | 바르셀로나 | 몬주익 성 일반 입장권 | 12 EUR | B | 예 | B등급 | [Castell de Montjuïc / Barcelona City Council](https://guia.barcelona.cat/en/detall/castell-de-montjuic_99077121755.html) |
+| BCN-AT-008 | 바르셀로나 | 피카소 미술관 일반 온라인 입장권 | 14 EUR | B | 예 | B등급 | [Museu Picasso Barcelona](https://museupicassobcn.cat/index.php/en/plan-your-visit/buy-tickets-and-opening-hours) |
+| BCN-AT-011 | 바르셀로나 | 몬주익 성 만 8~12세 입장권 | 8 EUR | B | 예 | B등급 | [Castell de Montjuïc / Barcelona City Council](https://guia.barcelona.cat/en/detall/castell-de-montjuic_99077121755.html) |
+| BCN-AT-012 | 바르셀로나 | 몬주익 성 만 8세 미만 무료 입장 | 0 EUR | B | 예 | B등급 | [Castell de Montjuïc / Barcelona City Council](https://guia.barcelona.cat/en/detall/castell-de-montjuic_99077121755.html) |
+| BCN-AT-018 | 바르셀로나 | 피카소 미술관 만 18세 미만 무료 입장 | 0 EUR | B | 예 | B등급 | [Museu Picasso Barcelona](https://museupicassobcn.cat/index.php/en/plan-your-visit/buy-tickets-and-opening-hours) |
+| NYC-AT-001 | 뉴욕 | 서밋 원 밴더빌트 일반 입장권(최저 온라인가) | 44 USD | A | 예 | 시작가 표기 | [SUMMIT One Vanderbilt](https://summitov.com/tickets/) |
+| NYC-AT-003 | 뉴욕 | 브롱크스 동물원 일반 입장권(최저 Flex 요금) | 37.7 USD | A | 예 | 시작가 표기 | [Bronx Zoo](https://bronxzoo.com/plan-your-visit/hours-and-rates) |
+| NYC-AT-008 | 뉴욕 | 서밋 원 밴더빌트 만 6~12세 입장권(최저 온라인가) | 39 USD | A | 예 | 시작가 표기 | [SUMMIT One Vanderbilt](https://tickets.summitov.com/Webstore/shop/viewitems.aspx?C=adm&CG=sum) |
+| NYC-AT-012 | 뉴욕 | 브롱크스 동물원 만 3~12세 입장권(최저 Flex 요금) | 27.7 USD | A | 예 | 시작가 표기 | [Bronx Zoo](https://bronxzoo.com/plan-your-visit/hours-and-rates) |
 | BCN-FD-101 | 바르셀로나 | 바르사 카페 점심 메뉴 | 23.95 EUR | A | 예 | 재검증 | [FC Barcelona Barca Cafe](https://www.fcbarcelona.es/es/entradas/camp-nou-experience/planifica-tu-visita/2554523/barca-cafe) |
 | BCN-FD-102 | 바르셀로나 | 아네마 에 코레 점심 세트 | 14.9 EUR | A | 예 | 재검증 | [Restaurante Anema e Core Barcelona](https://www.anemaecorebcn.es/en/menus_grupo) |
 | BCN-FD-103 | 바르셀로나 | 아네마 에 코레 피자 점심 세트 | 12.9 EUR | A | 예 | 재검증 | [Restaurante Anema e Core Barcelona](https://www.anemaecorebcn.es/en/menus_grupo) |
@@ -125,11 +167,11 @@
 | BCN-SV-001 | 바르셀로나 | FC 바르셀로나 키링 | 12.99 EUR | A | 예 | 재검증 | [FC Barcelona Official Store](https://store.fcbarcelona.com/collections/souvenirs) |
 | BCN-SV-002 | 바르셀로나 | FC 바르셀로나 머그컵 | 24.99 EUR | A | 예 | 재검증 | [FC Barcelona Official Store](https://store.fcbarcelona.com/collections/souvenirs) |
 | BCN-SV-003 | 바르셀로나 | FC 바르셀로나 초콜릿 | 19.99 EUR | A | 예 | 재검증 | [FC Barcelona Official Store](https://store.fcbarcelona.com/collections/souvenirs) |
-| BCN-AT-001 | 바르셀로나 | 사그라다 파밀리아 기본 입장권 | 26 EUR | A | 예 | 재검증 | [Sagrada Familia Official Website](https://sagradafamilia.org/en/prices) |
-| BCN-AT-002 | 바르셀로나 | 사그라다 파밀리아 탑 포함 입장권 | 36 EUR | A | 예 | 재검증 | [Sagrada Familia Official Website](https://sagradafamilia.org/en/prices) |
-| BCN-AT-003 | 바르셀로나 | 구엘 공원 일반 입장권 | 18 EUR | A | 예 | 재검증 | [Park Guell Official Website](https://parkguell.barcelona/en/planning-your-visit/prices-and-times) |
-| BCN-AT-004 | 바르셀로나 | 카사 밀라 라 페드레라 일반 입장권 | 29~35 EUR | A | 예 | 재검증 | [La Pedrera Official Website](https://www.lapedrera.com/en/tickets/) |
-| BCN-AT-005 | 바르셀로나 | 카사 바트요 일반 입장권 | 29~37 EUR | A | 예 | 재검증 | [Casa Batllo Official Website](https://www.casabatllo.es/en/online-tickets/) |
+| BCN-AT-101 | 바르셀로나 | 사그라다 파밀리아 기본 입장권 | 26 EUR | A | 예 | 재검증 | [Sagrada Familia Official Website](https://sagradafamilia.org/en/prices) |
+| BCN-AT-102 | 바르셀로나 | 사그라다 파밀리아 탑 포함 입장권 | 36 EUR | A | 예 | 재검증 | [Sagrada Familia Official Website](https://sagradafamilia.org/en/prices) |
+| BCN-AT-103 | 바르셀로나 | 구엘 공원 일반 입장권 | 18 EUR | A | 예 | 재검증 | [Park Guell Official Website](https://parkguell.barcelona/en/planning-your-visit/prices-and-times) |
+| BCN-AT-104 | 바르셀로나 | 카사 밀라 라 페드레라 일반 입장권 | 29~35 EUR | A | 예 | 재검증 | [La Pedrera Official Website](https://www.lapedrera.com/en/tickets/) |
+| BCN-AT-105 | 바르셀로나 | 카사 바트요 일반 입장권 | 29~37 EUR | A | 예 | 재검증 | [Casa Batllo Official Website](https://www.casabatllo.es/en/online-tickets/) |
 | PUS-TR-001 | 부산 | 부산 도시철도 1구간 (교통카드) | 1600 KRW | A | 예 | 재검증 | [부산교통공사](https://www.humetro.busan.kr/default/main.do) |
 | PUS-TR-002 | 부산 | 부산 도시철도 2구간 (교통카드) | 1800 KRW | A | 예 | 재검증 | [부산교통공사](https://www.humetro.busan.kr/default/main.do) |
 | PUS-TR-003 | 부산 | 부산 시내버스 일반 (교통카드) | 1550 KRW | A | 예 | 재검증 | [부산광역시 버스정보관리시스템](https://bus.busan.go.kr/) |
@@ -195,12 +237,12 @@
 | NYC-FD-202 | 뉴욕 | 휴스턴 홀 골든 라거 스몰 | 9.5 USD | A | 예 | 재검증 | [Houston Hall](https://www.houstonhallny.com/menus/) |
 | NYC-FD-203 | 뉴욕 | 휴스턴 홀 소비뇽 블랑 1잔 | 14.5 USD | A | 예 | 재검증 | [Houston Hall](https://www.houstonhallny.com/menus/) |
 | NYC-SV-101 | 뉴욕 | 메트 로고 비닐 토트백 | 55 USD | A | 예 | 재검증 | [The Met Store](https://store.metmuseum.org/met-logo-vinyl-tote-logovinyltote) |
-| NYC-AT-001 | 뉴욕 | 자유의 여신상·엘리스섬 그라운드 티켓 | 23.5 USD | A | 예 | 재검증 | [Statue of Liberty & Ellis Island Foundation](https://www.statueofliberty.org/visit/faq-2/) |
-| NYC-AT-002 | 뉴욕 | 엠파이어 스테이트 빌딩 86층 전망대 | 46 USD | A | 예 | 재검증 | [Empire State Building](https://www.esbnyc.com/buy-tickets) |
-| NYC-AT-003 | 뉴욕 | 엠파이어 스테이트 빌딩 102층·86층 | 81 USD | A | 예 | 재검증 | [Empire State Building](https://www.esbnyc.com/buy-tickets) |
-| NYC-AT-004 | 뉴욕 | 메트로폴리탄 미술관 성인 입장권 | 30 USD | A | 예 | 재검증 | [The Metropolitan Museum of Art](https://www.metmuseum.org/visit-guides/membership) |
-| NYC-AT-005 | 뉴욕 | MoMA 성인 입장권 | 30 USD | A | 예 | 재검증 | [MoMA](https://www.moma.org/visit/tips) |
-| NYC-AT-006 | 뉴욕 | 9/11 메모리얼 박물관 성인 입장권 | 33 USD | A | 예 | 재검증 | [9/11 Memorial & Museum](https://www.911memorial.org/visit/museum) |
+| NYC-AT-101 | 뉴욕 | 자유의 여신상·엘리스섬 그라운드 티켓 | 23.5 USD | A | 예 | 재검증 | [Statue of Liberty & Ellis Island Foundation](https://www.statueofliberty.org/visit/faq-2/) |
+| NYC-AT-102 | 뉴욕 | 엠파이어 스테이트 빌딩 86층 전망대 | 46 USD | A | 예 | 재검증 | [Empire State Building](https://www.esbnyc.com/buy-tickets) |
+| NYC-AT-103 | 뉴욕 | 엠파이어 스테이트 빌딩 102층·86층 | 81 USD | A | 예 | 재검증 | [Empire State Building](https://www.esbnyc.com/buy-tickets) |
+| NYC-AT-104 | 뉴욕 | 메트로폴리탄 미술관 성인 입장권 | 30 USD | A | 예 | 재검증 | [The Metropolitan Museum of Art](https://www.metmuseum.org/visit-guides/membership) |
+| NYC-AT-105 | 뉴욕 | MoMA 성인 입장권 | 30 USD | A | 예 | 재검증 | [MoMA](https://www.moma.org/visit/tips) |
+| NYC-AT-106 | 뉴욕 | 9/11 메모리얼 박물관 성인 입장권 | 33 USD | A | 예 | 재검증 | [9/11 Memorial & Museum](https://www.911memorial.org/visit/museum) |
 | NYC-SV-111 | 뉴욕 | 메트 로고 접이식 우산 | 25 USD | A | 예 | 재검증 | [The Met Store](https://store.metmuseum.org/met-logo-folding-umbrella-80056083) |
 | NYC-FD-121 | 뉴욕 | 카츠 델리 파스트라미 샌드위치 | 28.95 USD | A | 예 | 재검증 | [Katz's Delicatessen](https://katzsdelicatessen.com/) |
 | NYC-SV-121 | 뉴욕 | 자유의 여신상 공식 숍 문서 홀더 소형 | 25 USD | A | 예 | 재검증 | [Statue of Liberty & Ellis Island Foundation](https://www.statueofliberty.org/product/logo-embossed-leatherette-eight-corner-document-holder-small/) |
@@ -261,10 +303,10 @@
 | ROM-FD-301 | 로마 | 라 사피엔자 대학 바 병맥주 33cl | 2.05~3.1 EUR | A | 예 | 재검증 | [La Sapienza Bar Marco Polo](https://www.uniroma1.it/sites/default/files/user/531/listino_prezzi_bar_marco_polo.pdf) |
 | ROM-FD-302 | 로마 | 라 사피엔자 대학 바 레드 와인 1잔 | 2.2 EUR | A | 예 | 재검증 | [La Sapienza Bar Marco Polo](https://www.uniroma1.it/sites/default/files/user/531/listino_prezzi_bar_marco_polo.pdf) |
 | ROM-FD-303 | 로마 | 라 사피엔자 대학 바 프로세코 1잔 | 2.5 EUR | A | 예 | 재검증 | [La Sapienza Bar Marco Polo](https://www.uniroma1.it/sites/default/files/user/531/listino_prezzi_bar_marco_polo.pdf) |
-| ROM-AT-001 | 로마 | 콜로세움·포로 로마노·팔라티노 통합 입장권 | 16 EUR | A | 예 | 재검증, 검수: 요금 확인 필요 | [CoopCulture](https://www.coopculture.it/en/tickets/) |
-| ROM-AT-002 | 로마 | 바티칸 박물관·시스티나 성당 입장권 | 20~25 EUR | A | 예 | 재검증 | [Vatican Museums](https://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti.html) |
-| ROM-AT-004 | 로마 | 보르게세 미술관 입장권 | 15 EUR | A | 예 | 재검증 | [Galleria Borghese](https://galleriaborghese.beniculturali.it/en/) |
-| ROM-AT-005 | 로마 | 산탄젤로 성 입장권 | 12~16 EUR | A | 예 | 재검증 | [Castel Sant'Angelo](http://castelsantangelo.beniculturali.it/getFile.php?id=538) |
+| ROM-AT-101 | 로마 | 콜로세움·포로 로마노·팔라티노 통합 입장권 | 16 EUR | A | 예 | 재검증, 검수: 요금 확인 필요 | [CoopCulture](https://www.coopculture.it/en/tickets/) |
+| ROM-AT-102 | 로마 | 바티칸 박물관·시스티나 성당 입장권 | 20~25 EUR | A | 예 | 재검증 | [Vatican Museums](https://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti.html) |
+| ROM-AT-104 | 로마 | 보르게세 미술관 입장권 | 15 EUR | A | 예 | 재검증 | [Galleria Borghese](https://galleriaborghese.beniculturali.it/en/) |
+| ROM-AT-105 | 로마 | 산탄젤로 성 입장권 | 12~16 EUR | A | 예 | 재검증 | [Castel Sant'Angelo](http://castelsantangelo.beniculturali.it/getFile.php?id=538) |
 | SEL-FD-101 | 서울 | 한솥 제육 비빔밥 | 6500 KRW | A | 예 | 재검증 | [HANSOT 한솥](https://en.hsd.co.kr/Menu) |
 | SEL-FD-102 | 서울 | 한솥 김치볶음밥 | 4400 KRW | A | 예 | 재검증 | [HANSOT 한솥](https://en.hsd.co.kr/Menu) |
 | SEL-FD-103 | 서울 | 골드참치 점심 코스 B | 35000 KRW | A | 예 | 재검증 | [Goldtuna 골드참치](https://www.goldtuna.co.kr/en) |

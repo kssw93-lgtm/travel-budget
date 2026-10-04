@@ -27,20 +27,20 @@ describe('파일럿 도시 데이터 상태', () => {
     expect(table).toMatchInlineSnapshot(`
       {
         "bangkok": "3/3/11/4 · 100% · ready",
-        "barcelona": "5/3/4/3 · 100% · ready",
+        "barcelona": "5/3/12/3 · 100% · ready",
         "busan": "5/3/7/3 · 100% · ready",
-        "da-nang": "5/3/3/3 · 100% · ready",
+        "da-nang": "5/3/12/3 · 100% · ready",
         "istanbul": "5/3/6/3 · 100% · ready",
         "jeju": "5/3/6/3 · 100% · ready",
-        "london": "3/3/4/3 · 100% · ready",
-        "new-york": "3/4/5/3 · 100% · ready",
+        "london": "3/3/14/3 · 100% · ready",
+        "new-york": "3/4/12/3 · 100% · ready",
         "osaka": "5/3/10/3 · 100% · ready",
-        "paris": "3/3/3/4 · 100% · ready",
-        "rome": "5/3/4/3 · 100% · ready",
+        "paris": "3/3/12/4 · 100% · ready",
+        "rome": "5/3/13/3 · 100% · ready",
         "seoul": "5/3/7/6 · 100% · ready",
         "shanghai": "3/3/5/3 · 100% · ready",
-        "singapore": "6/3/3/4 · 100% · ready",
-        "taipei": "3/3/4/3 · 100% · ready",
+        "singapore": "6/3/12/4 · 100% · ready",
+        "taipei": "3/3/12/3 · 100% · ready",
         "tokyo": "3/3/11/3 · 100% · ready",
       }
     `);
@@ -57,20 +57,20 @@ describe('파일럿 도시 데이터 상태', () => {
     expect(table).toMatchInlineSnapshot(`
       {
         "bangkok": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 11/11 · souvenir 4/4",
-        "barcelona": "pass 1/1 · ride 3/3 · meal 5/5 · snack 5/5 · attraction 4/5 · souvenir 3/3",
+        "barcelona": "pass 1/1 · ride 3/3 · meal 5/5 · snack 5/5 · attraction 12/13 · souvenir 3/3",
         "busan": "pass 1/1 · ride 3/4 · meal 5/5 · snack 3/3 · attraction 7/7 · souvenir 3/3",
-        "da-nang": "pass 0/0 · ride 3/3 · meal 5/5 · snack 1/1 · attraction 3/4 · souvenir 3/3",
+        "da-nang": "pass 0/0 · ride 3/3 · meal 5/5 · snack 1/1 · attraction 12/12 · souvenir 3/3",
         "istanbul": "pass 0/0 · ride 3/3 · meal 5/5 · snack 3/3 · attraction 6/6 · souvenir 3/3",
         "jeju": "pass 0/0 · ride 3/3 · meal 5/5 · snack 3/3 · attraction 6/6 · souvenir 3/3",
-        "london": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 4/4 · souvenir 3/3",
-        "new-york": "pass 0/0 · ride 4/4 · meal 3/3 · snack 1/1 · attraction 5/6 · souvenir 3/3",
+        "london": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 14/14 · souvenir 3/3",
+        "new-york": "pass 0/0 · ride 4/4 · meal 3/3 · snack 1/1 · attraction 12/13 · souvenir 3/3",
         "osaka": "pass 1/2 · ride 3/3 · meal 5/5 · snack 1/1 · attraction 10/10 · souvenir 3/4",
-        "paris": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 3/5 · souvenir 4/4",
-        "rome": "pass 1/3 · ride 3/3 · meal 5/5 · snack 3/3 · attraction 4/4 · souvenir 3/3",
+        "paris": "pass 1/1 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 12/14 · souvenir 4/4",
+        "rome": "pass 1/3 · ride 3/3 · meal 5/5 · snack 3/3 · attraction 13/13 · souvenir 3/3",
         "seoul": "pass 1/1 · ride 3/3 · meal 5/5 · snack 0/0 · attraction 7/7 · souvenir 6/6",
         "shanghai": "pass 0/0 · ride 3/3 · meal 3/3 · snack 3/3 · attraction 5/5 · souvenir 3/3",
-        "singapore": "pass 1/1 · ride 3/3 · meal 6/6 · snack 1/1 · attraction 3/3 · souvenir 4/4",
-        "taipei": "pass 1/3 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 4/4 · souvenir 3/4",
+        "singapore": "pass 1/1 · ride 3/3 · meal 6/6 · snack 1/1 · attraction 12/14 · souvenir 4/4",
+        "taipei": "pass 1/3 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 12/14 · souvenir 3/4",
         "tokyo": "pass 1/3 · ride 3/3 · meal 3/3 · snack 0/0 · attraction 11/11 · souvenir 3/4",
       }
     `);
@@ -95,9 +95,9 @@ describe('v0.3 신규 공식 표본이 실제 분류 규칙으로 부족 항목�
     expect(byId('DAD-AT-002').productKey).toBe(byId('DAD-AT-003').productKey); // 오행산 입장권·엘리베이터
   });
 
-  it('다낭 관광·파리 관광·타이베이 교통·런던 교통이 독립 표본 3건으로 계산 가능', () => {
-    expect(cityStatusFile['da-nang']!.baskets.attraction).toBe(3);
-    expect(cityStatusFile.paris!.baskets.attraction).toBe(3);
+  it('다낭 관광·파리 관광·타이베이 교통·런던 교통이 독립 표본 3건 이상으로 계산 가능', () => {
+    expect(cityStatusFile['da-nang']!.baskets.attraction).toBeGreaterThanOrEqual(3);
+    expect(cityStatusFile.paris!.baskets.attraction).toBeGreaterThanOrEqual(3);
     expect(cityStatusFile.taipei!.baskets.ride).toBe(3);
     expect(cityStatusFile.london!.baskets.ride).toBe(3);
     // 판정 자체는 다른 바스켓(v0.4 에서 보류된 식사·기념품)에 따라 달라지므로 상태 파일 스냅숏이 고정한다

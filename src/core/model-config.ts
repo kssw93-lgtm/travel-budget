@@ -100,5 +100,7 @@ export const KEYWORDS = {
   weekend: /주말|공휴일|weekend|holiday/i,
   dailyPass: /1일|당일|영업종료|일일|\bday\b|one-day|daily/i,
   hours: /(\d+)\s*(?:시간|-?\s*hour)/i,
-  fromPrice: /시작가|최저 게시가|\bfrom\b|starting price/i,
+  fromPrice: /시작가|최저|\bfrom\b|starting price|lowest/i,
+  /** 학생·우대·감면 같은 할인 대상 요금(대상 열에 성인 표기가 없을 때). 관광지 목록에 성인 요금으로 따로 세우지 않는다 */
+  concession: /학생|우대|감면|할인\s*대상|student|concession/i,
 } as const;

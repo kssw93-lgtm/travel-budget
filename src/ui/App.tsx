@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState, type MouseEvent, type ReactNode } from 'react';
 import { cities, cityById, dataDate } from '../data';
-import { I18nProvider, detectLang, fmt, messages, type Lang } from '../i18n';
+import { I18nProvider, LANG_NAMES, LANGS, detectLang, fmt, messages, type Lang } from '../i18n';
 import { AdSlot } from './AdSlot';
 import { Calculator } from './Calculator';
 import { About, Privacy } from './InfoPages';
@@ -9,6 +9,10 @@ import { routeOf } from './pages';
 import { applyMeta } from './meta';
 import { calcMemory, readLang, withLang } from './urlState';
 import { currentLoc, isPreview, pushLoc, replaceLoc, type Loc } from './router';
+import { cityName } from './TripForm';
+
+/** 머리글 사이트 이름 */
+const BRAND: Record<Lang, string> = { ko: '여행 경비 계산', en: 'Travel Budget', ja: '旅行費用計算' };
 
 export type Go = (to: string) => void;
 
@@ -91,7 +95,7 @@ export function App() {
       <header className="site-header">
         <div className="wrap bar">
           <InternalLink className="brand" to={calcHref} go={go}>
-            <span aria-hidden="true">✈</span> {lang === 'ko' ? '여행 경비 계산' : 'Travel Budget'}
+            <span aria-hidden="true">✈</span> {BRAND[lang]}
           </InternalLink>
           <nav aria-label={t.nav.main}>
             <InternalLink to={calcHref} go={go} aria-current={page === 'calculator' ? 'page' : undefined}>{t.nav.calculator}</InternalLink>
@@ -99,9 +103,9 @@ export function App() {
             <InternalLink to={`/about?lang=${lang}`} go={go} aria-current={page === 'about' ? 'page' : undefined}>{t.footer.about}</InternalLink>
           </nav>
           <div className="lang" role="group" aria-label={t.nav.language}>
-            {(['ko', 'en'] as const).map((l) => (
+            {LANGS.map((l) => (
               <button key={l} type="button" lang={l} aria-pressed={lang === l} onClick={() => setLang(l)}>
-                {l === 'ko' ? '한국어' : 'English'}
+                {LANG_NAMES[l]}
               </button>
             ))}
           </div>
@@ -146,7 +150,7 @@ export function App() {
             {cities.map((c, i) => (
               <span key={c.id}>
                 {i > 0 && ' · '}
-                <InternalLink to={`/guide/${c.id}?lang=${lang}`} go={go}>{lang === 'ko' ? c.nameKo : c.nameEn}</InternalLink>
+                <InternalLink to={`/guide/${c.id}?lang=${lang}`} go={go}>{cityName(c, lang)}</InternalLink>
               </span>
             ))}
           </p>

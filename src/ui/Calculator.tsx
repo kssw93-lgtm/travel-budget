@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { estimateTrip } from '../core/estimate';
 import { cityById, cities, extras, foods, memos, samples } from '../data';
-import { useI18n } from '../i18n';
+import { DEFAULT_CURRENCY, useI18n } from '../i18n';
 import { AttractionPicker } from './AttractionPicker';
 import { CityMemos } from './CityMemos';
 import { ExtrasPicker } from './ExtrasPicker';
@@ -33,7 +33,7 @@ export function Calculator() {
   const rates = useRates();
   const [form, setForm] = useState<FormState>(() => {
     const fromUrl = readForm(currentLoc().search, cities.map((c) => c.id));
-    const currency = savedCurrency() ?? (lang === 'ko' ? 'KRW' : 'USD');
+    const currency = savedCurrency() ?? DEFAULT_CURRENCY[lang];
     return {
       cityId: cities[0]?.id ?? '',
       visitDate: today(),

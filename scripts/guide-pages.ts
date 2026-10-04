@@ -68,7 +68,7 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
       '@context': 'https://schema.org',
       '@type': 'Article',
       headline: `${city.nameKo} 여행 경비 가이드`,
-      inLanguage: ['ko', 'en'],
+      inLanguage: ['ko', 'en', 'ja'],
       dateModified: d.refDate,
       about: { '@type': 'City', name: city.nameEn, containedInPlace: { '@type': 'Country', name: city.countryEn } },
     },
@@ -87,7 +87,7 @@ export function guideIndexMeta(d: GuideData): PageMeta {
     title: '도시별 여행 경비 가이드 — 여행 경비 계산기 — 현지 체류비 범위',
     description: '도쿄·파리 등 도시별 한 끼 식사·대중교통·관광지 입장료와 3박 4일 예상 현지 체류비를 공식 가격 자료로 정리했습니다.',
     path: '/guides',
-    ld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: '도시별 여행 경비 가이드', inLanguage: ['ko', 'en'] },
+    ld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: '도시별 여행 경비 가이드', inLanguage: ['ko', 'en', 'ja'] },
     fallbackHtml: `        <h1>도시별 여행 경비 가이드</h1>\n        <ul>${items}</ul>`,
   };
 }

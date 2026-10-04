@@ -1,6 +1,6 @@
 import { MODEL } from '../core/model-config';
 import type { CategoryEstimate, DetailLine, RatesPayload } from '../core/types';
-import { fmt, useI18n } from '../i18n';
+import { fmt, localName, useI18n } from '../i18n';
 import { convertRange, RangeText } from './money';
 
 const round1 = (n: number) => Math.round(n * 10) / 10;
@@ -49,7 +49,7 @@ export function CategoryDetail({ est, currency, display, rates, people, adults }
               <tbody>
                 {lines.map((l) => (
                   <tr key={l.id} data-line={l.id}>
-                    <th scope="row">{lang === 'ko' ? l.nameKo : l.nameEn}</th>
+                    <th scope="row">{localName(lang, l.nameKo, l.nameEn)}</th>
                     <td data-label={d.colAdult}>{money(l.unitPrice)}</td>
                     <td data-label={d.colChild}>
                       {l.childPrice ? money(l.childPrice) : people > adults ? <span className="muted">{d.childAsAdult}</span> : <span className="muted">—</span>}

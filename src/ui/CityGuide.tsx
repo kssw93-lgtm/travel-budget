@@ -2,14 +2,14 @@ import { useMemo } from 'react';
 import { cityGuide, guidePath, GUIDE_EXAMPLE } from '../core/guide';
 import type { City, PriceSample } from '../core/types';
 import { cities, dataDate, dataMeta, extras, foods, memos, samples } from '../data';
-import { fmt, useI18n, type Lang } from '../i18n';
+import { DEFAULT_CURRENCY, fmt, localName, useI18n, type Lang } from '../i18n';
 import { InternalLink, type Go } from './App';
 import { CityMemos } from './CityMemos';
 import { ExternalLink } from './ExternalLink';
 import { FoodSection } from './FoodSection';
 import { convertRange, RangeText } from './money';
 import { PriceGuide } from './PriceGuide';
-import { cityName } from './TripForm';
+import { cityName, countryName } from './TripForm';
 import { useRates, type RatesState } from './useRates';
 
 /** 가이드의 예시 일정 기준일: 가격 자료 기준일(정적 HTML 과 화면이 같은 값을 쓰도록 고정) */
@@ -17,9 +17,9 @@ export const guideRefDate = dataMeta.date || dataDate;
 
 function displayCurrency(lang: Lang): string {
   try {
-    return localStorage.getItem('currency') ?? (lang === 'ko' ? 'KRW' : 'USD');
+    return localStorage.getItem('currency') ?? DEFAULT_CURRENCY[lang];
   } catch {
-    return lang === 'ko' ? 'KRW' : 'USD';
+    return DEFAULT_CURRENCY[lang];
   }
 }
 
@@ -56,7 +56,7 @@ export function GuideIndex({ go }: { go: Go }) {
               </InternalLink>
               <span className="muted">
                 {' '}
-                · {lang === 'ko' ? r.city.country : r.city.countryEn} ·{' '}
+                · {countryName(r.city, lang)} ·{' '}
                 {std?.perDay ? (
                   <>
                     {g.perDay} <RangeText range={std.perDay} currency={r.city.currency} />
@@ -115,7 +115,7 @@ function AttractionTable({ guide, display, rates }: { guide: ReturnType<typeof c
               const s = o.adult.sample;
               return (
                 <tr key={o.id} data-attraction={o.id}>
-                  <th scope="row">{lang === 'ko' ? s.nameKo : s.nameEn}</th>
+                  <th scope="row">{localName(lang, s.nameKo, s.nameEn)}</th>
                   <td data-label={g.adult}>{price(s, o.adult.fromPrice, o.variable)}</td>
                   {hasChild && <td data-label={g.child}>{o.child ? price(o.child.sample, o.child.fromPrice) : <span className="muted">—</span>}</td>}
                   <td data-label={g.source}>

@@ -411,4 +411,19 @@ test.describe('도시 가이드', () => {
     await expect(page).toHaveTitle(/^London travel costs & local prices/);
     await expect(page).toHaveURL(/\/guide\/london\?lang=en$/);
   });
+
+  test('일본어로 바꾸면 화면·도시 이름·기본 통화가 일본어 기준이 된다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/guide/tokyo?lang=ko');
+    await page.getByRole('button', { name: '日本語' }).click();
+    await expect(page).toHaveURL(/\/guide\/tokyo\?lang=ja$/);
+    await expect(page.locator('main h1')).toHaveText('東京の旅行費用ガイド');
+    await expect(page).toHaveTitle(/^東京の旅行費用・現地の物価/);
+    await expect(page.locator('html')).toHaveAttribute('lang', 'ja');
+    await expect(page.getByTestId('guide-attractions')).toContainText('大人');
+    await page.goto('/?lang=ja');
+    await expect(page.locator('main h1')).toHaveText('現地でいくら使う？');
+    await page.locator('#city-search').fill('上海');
+    await expect(page.locator('#city')).toHaveValue('shanghai');
+  });
 });

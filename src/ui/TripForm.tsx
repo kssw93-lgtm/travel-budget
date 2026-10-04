@@ -1,7 +1,8 @@
 import { MODEL, STYLES } from '../core/model-config';
 import type { City, RatesPayload } from '../core/types';
 import { useState } from 'react';
-import { fmt, useI18n } from '../i18n';
+import { COUNTRY_JA, CITY_JA } from '../i18n/places';
+import { fmt, localName, useI18n, type Lang } from '../i18n';
 import { currencyLabel, currencyOptions } from './currencies';
 import type { FieldError, FormState } from './form';
 
@@ -13,8 +14,15 @@ interface Props {
   rates: RatesPayload | null;
 }
 
-export function cityName(c: City, lang: 'ko' | 'en'): string {
-  return lang === 'ko' ? c.nameKo : c.nameEn;
+export function cityName(c: City, lang: Lang): string {
+  if (lang === 'ja') return CITY_JA[c.id] ?? c.nameEn;
+  return localName(lang, c.nameKo, c.nameEn);
+}
+
+/** 도시의 나라 이름(화면 언어) */
+export function countryName(c: City, lang: Lang): string {
+  if (lang === 'ja') return COUNTRY_JA[c.countryEn] ?? c.countryEn;
+  return localName(lang, c.country, c.countryEn);
 }
 
 const norm = (v: string) => v.toLowerCase().normalize('NFKC').replace(/[\s\-·.,()]/g, '');
@@ -23,13 +31,13 @@ const norm = (v: string) => v.toLowerCase().normalize('NFKC').replace(/[\s\-·.,
 export function matchCity(c: City, query: string): boolean {
   const q = norm(query);
   if (!q) return true;
-  return [c.nameKo, c.nameEn, c.country, c.countryEn, c.id].some((v) => norm(v).includes(q));
+  return [c.nameKo, c.nameEn, c.country, c.countryEn, c.id, CITY_JA[c.id] ?? '', COUNTRY_JA[c.countryEn] ?? ''].some((v) => norm(v).includes(q));
 }
 
 /** 나라별로 묶는다(나라·도시 이름순, 현재 언어 기준). 사용자 위치와 무관하게 같은 규칙 */
-export function cityGroups(list: City[], lang: 'ko' | 'en'): Array<{ country: string; items: City[] }> {
-  const locale = lang === 'ko' ? 'ko' : 'en';
-  const label = (c: City) => (lang === 'ko' ? c.country : c.countryEn);
+export function cityGroups(list: City[], lang: Lang): Array<{ country: string; items: City[] }> {
+  const locale = lang;
+  const label = (c: City) => countryName(c, lang);
   const groups = new Map<string, City[]>();
   for (const c of list) groups.set(label(c), [...(groups.get(label(c)) ?? []), c]);
   return [...groups.entries()]
@@ -37,7 +45,7 @@ export function cityGroups(list: City[], lang: 'ko' | 'en'): Array<{ country: st
     .map(([country, items]) => ({ country, items: items.sort((a, b) => cityName(a, lang).localeCompare(cityName(b, lang), locale)) }));
 }
 
-function CityOption({ c, lang }: { c: City; lang: 'ko' | 'en' }) {
+function CityOption({ c, lang }: { c: City; lang: Lang }) {
   return <option value={c.id}>{cityName(c, lang)}</option>;
 }
 

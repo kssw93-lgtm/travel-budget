@@ -64,7 +64,7 @@ export const en: Messages = {
     quality: 'Price evidence, sources and warnings',
     qualityLead: 'Sample counts, sources and check dates. Prices are stored in the original local currency; exchange rates are applied at request time.',
     sampleCount: '{n} samples used ({ind} independent)',
-    childSamples: '(incl. {n} child)',
+    childSamples: '(incl. {n} child prices)',
     checked: 'Checked {from} – {to}',
     checkedOne: 'Checked {date}',
     sources: 'Sources',

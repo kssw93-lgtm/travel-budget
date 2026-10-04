@@ -11,8 +11,9 @@ describe('배포 보조 파일', () => {
     const site = normalizeSite('https://example.com/')!;
     expect(robotsTxt(site)).toContain('Sitemap: https://example.com/sitemap.xml');
     const xml = sitemapXml(site);
-    expect(xml.match(/<loc>/g)).toHaveLength(SITE_PAGES.length * 2);
+    expect(xml.match(/<loc>/g)).toHaveLength(SITE_PAGES.length * 3);
     for (const p of ['/about', '/privacy']) expect(xml).toContain(`<loc>https://example.com${p}?lang=en</loc>`);
+    expect(xml).toContain('hreflang="ja"');
   });
 
   it('canonical 태그는 페이지 경로를 쓴다', () => {

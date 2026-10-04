@@ -1,7 +1,7 @@
 import { CATEGORIES, MODEL } from '../core/model-config';
 import { isSupported } from '../core/money';
 import type { Category, CategoryEstimate, City, Estimate, PriceSample, Range, TripInput, Warning } from '../core/types';
-import { fmt, useI18n } from '../i18n';
+import { fmt, localName, useI18n, type Lang } from '../i18n';
 import { AdSlot } from './AdSlot';
 import { CategoryDetail } from './CategoryDetail';
 import { convertRange, RangeText } from './money';
@@ -56,11 +56,11 @@ function AmountRows({ range, local, display, rates }: { range: Range | null; loc
   );
 }
 
-function warningText(w: Warning, byId: Map<string, PriceSample>, lang: 'ko' | 'en', t: ReturnType<typeof useI18n>['t']): string {
+function warningText(w: Warning, byId: Map<string, PriceSample>, lang: Lang, t: ReturnType<typeof useI18n>['t']): string {
   const names = (w.ids ?? []).map((id) => {
     const s = byId.get(id);
     if (!s) return id;
-    const name = lang === 'ko' ? s.nameKo : s.nameEn;
+    const name = localName(lang, s.nameKo, s.nameEn);
     // 변동 가격은 단일 가격으로 오인하지 않도록 표본의 현지 통화 범위를 함께 적는다
     return w.code === 'variablePricing' && s.min !== s.max ? `${name} (${s.min}~${s.max} ${s.currency})` : name;
   }).join(', ');
@@ -203,7 +203,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
           })}
           {e.extras.map((x) => {
             const label = x.kind === 'airport' ? t.extras.rowAirport : t.extras.rowRental;
-            const name = lang === 'ko' ? x.nameKo : x.nameEn;
+            const name = localName(lang, x.nameKo, x.nameEn);
             const kids = x.kind === 'airport' && trip.children > 0 ? fmt(t.extras.lineKids, { n: trip.children }) : '';
             const line =
               x.kind === 'rental'
@@ -301,7 +301,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
           <ul className="sources" data-testid="extras-sources">
             {e.extras.map((x) => (
               <li key={x.id}>
-                <strong>{x.kind === 'airport' ? t.extras.rowAirport : t.extras.rowRental}</strong> · {lang === 'ko' ? x.nameKo : x.nameEn} ·{' '}
+                <strong>{x.kind === 'airport' ? t.extras.rowAirport : t.extras.rowRental}</strong> · {localName(lang, x.nameKo, x.nameEn)} ·{' '}
                 <ExternalLink href={x.sourceUrl}>{x.sourceName}</ExternalLink> · {fmt(t.extras.checked, { date: x.checkedAt })}
                 {x.variable ? ` · ${t.extras.variable}` : ''}
                 {x.kind === 'airport' && trip.children > 0 && !x.childPrice ? ` · ${t.extras.noChild}` : ''}

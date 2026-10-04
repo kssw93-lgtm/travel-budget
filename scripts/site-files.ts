@@ -13,7 +13,7 @@ export const SITE_PAGES: SitePage[] = [
   { file: 'privacy.html', path: '/privacy' },
 ];
 
-const LANGS = ['ko', 'en'] as const;
+const LANGS = ['ko', 'en', 'ja'] as const;
 
 export function normalizeSite(siteUrl: string | undefined): string | undefined {
   const s = siteUrl?.trim().replace(/\/+$/, '');
@@ -42,6 +42,7 @@ export function headTags(site: string, page: SitePage): string[] {
     `<link rel="canonical" data-base="${site}" href="${url('ko')}" />`,
     `<link rel="alternate" hreflang="ko" href="${url('ko')}" />`,
     `<link rel="alternate" hreflang="en" href="${url('en')}" />`,
+    `<link rel="alternate" hreflang="ja" href="${url('ja')}" />`,
     `<link rel="alternate" hreflang="x-default" href="${site}${page.path}" />`,
     `<meta property="og:url" content="${url('ko')}" />`,
   ];

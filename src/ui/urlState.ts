@@ -1,6 +1,6 @@
 import { STYLES } from '../core/model-config';
 import type { TravelStyle } from '../core/types';
-import type { Lang } from '../i18n';
+import { isLang, type Lang } from '../i18n';
 import type { FormState } from './form';
 
 /**
@@ -66,7 +66,7 @@ export function readForm(search: string, cityIds: string[]): Partial<FormState> 
 
 export function readLang(search: string): Lang | null {
   const v = new URLSearchParams(search).get('lang');
-  return v === 'ko' || v === 'en' ? v : null;
+  return isLang(v) ? v : null;
 }
 
 /** 계산기 상태 + 언어를 쿼리 문자열로. 빈 선택 입력은 생략한다. */

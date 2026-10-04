@@ -1,5 +1,5 @@
 import type { City, FoodRecommendation, PriceSample } from '../core/types';
-import { fmt, useI18n } from '../i18n';
+import { fmt, localName, useI18n } from '../i18n';
 import { convertRange, RangeText } from './money';
 import type { RatesState } from './useRates';
 import { cityName } from './TripForm';
@@ -30,13 +30,13 @@ export function FoodSection({ city, foods, samples, display, rates }: Props) {
           return (
             <li key={f.nameEn} className="food" data-food={f.nameEn}>
               <h3>
-                {lang === 'ko' ? f.nameKo : f.nameEn}
-                <small>{lang === 'ko' ? f.nameEn : f.nameKo}</small>
+                {localName(lang, f.nameKo, f.nameEn)}
+                {lang !== 'ja' && <small>{lang === 'ko' ? f.nameEn : f.nameKo}</small>}
               </h3>
               <p className="band">{t.foods.band}: {t.foods.bands[f.budgetBand] ?? f.budgetBand}</p>
               <div className="evidence">
                 <h4>{t.foods.why}</h4>
-                <p lang={lang === 'en' && !f.reasonEn ? 'ko' : undefined}>{lang === 'en' ? (f.reasonEn ?? f.reason) : f.reason}</p>
+                <p lang={lang === 'ko' ? undefined : f.reasonEn ? (lang === 'ja' ? 'en' : undefined) : 'ko'}>{lang === 'ko' ? f.reason : (f.reasonEn ?? f.reason)}</p>
                 <p className="src">
                   <ExternalLink href={f.recommendUrl}>{f.recommendSource}</ExternalLink>
                 </p>
@@ -51,7 +51,7 @@ export function FoodSection({ city, foods, samples, display, rates }: Props) {
                       const local = { min: s.min, max: s.max };
                       return (
                         <li key={s.id}>
-                          {lang === 'ko' ? s.nameKo : s.nameEn} · <RangeText range={local} currency={s.currency} />
+                          {localName(lang, s.nameKo, s.nameEn)} · <RangeText range={local} currency={s.currency} />
                           {display !== s.currency && ratesData && (
                             <> (≈ <RangeText range={convertRange(local, s.currency, display, ratesData)} currency={display} />)</>
                           )}{' '}

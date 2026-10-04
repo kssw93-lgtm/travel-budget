@@ -23,7 +23,7 @@ function Contact() {
 
 export function About() {
   const { t, lang } = useI18n();
-  const list = cities.map((c) => cityName(c, lang)).join(lang === 'ko' ? '·' : ', ');
+  const list = cities.map((c) => cityName(c, lang)).join({ ko: '·', ja: '・', en: ', ' }[lang]);
   const a = t.about;
   return (
     <article className="card prose" data-testid="about">

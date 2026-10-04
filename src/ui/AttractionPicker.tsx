@@ -1,6 +1,6 @@
 import { attractionOptions } from '../core/attractions';
 import type { City, PriceSample, Range } from '../core/types';
-import { fmt, useI18n } from '../i18n';
+import { fmt, localName, useI18n } from '../i18n';
 import { ExternalLink } from './ExternalLink';
 import { formatMoney } from '../core/money';
 import { convertRange, RangeText } from './money';
@@ -73,7 +73,7 @@ export function AttractionPicker({ city, samples, selected, onChange, display, r
           <ul className="attr-list">
             {options.map((o) => {
               const s = o.adult.sample;
-              const name = lang === 'ko' ? s.nameKo : s.nameEn;
+              const name = localName(lang, s.nameKo, s.nameEn);
               const flags = [
                 o.variable && t.attractions.variable,
                 (s.status.includes('재검증') || s.review) && t.attractions.check,

@@ -24,9 +24,9 @@ export function CityMemos({ city, memos }: { city: City; memos: CityMemo[] }) {
         <tbody>
           {rows.map((r, i) => (
             <tr key={`${r.item}${i}`}>
-              <th scope="row">{(lang === 'en' && r.itemEn) || r.item}</th>
+              <th scope="row">{(lang !== 'ko' && r.itemEn) || r.item}</th>
               <td data-label={m.value}>
-                {(lang === 'en' && r.valueEn) || r.value}
+                {(lang !== 'ko' && r.valueEn) || r.value}
                 {r.unit ? ` ${r.unit}` : ''}
                 {r.note && <small className="muted"> · {r.note}</small>}
               </td>

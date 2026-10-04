@@ -81,9 +81,13 @@ describe('가격 데이터 무결성', () => {
     expect(cities.every((c) => c.stage === PILOT_STAGE)).toBe(true);
     expect(cities.some((c) => c.id === 'fukuoka')).toBe(false);
   });
-  it('지도·리뷰 플랫폼 출처(네이버 플레이스 등) 가격은 공식으로 쓰지 않는다(C등급·조건부)', () => {
-    const platform = samples.filter((s) => /map\.naver\.com|place\.naver\.com/.test(s.sourceUrl));
-    for (const s of platform) expect([s.id, s.grade, s.modelUse]).toEqual([s.id, 'C', 'conditional']);
+  it('지도·리뷰 플랫폼 출처(네이버 플레이스 등) 가격은 C등급, 운영자가 직접 확인한 캡처만 계산에 쓰고 나머지는 조건부', () => {
+    const platform = samples.filter((s) => /map\.naver\.com|place\.naver\.com|kakao\.com|tripadvisor|ubereats|grab\.com/.test(s.sourceUrl));
+    expect(platform.length).toBeGreaterThan(0);
+    for (const s of platform) {
+      expect([s.id, s.grade]).toEqual([s.id, 'C']);
+      expect([s.id, s.modelUse]).toEqual([s.id, s.note.includes('운영자 제공') ? 'yes' : 'conditional']);
+    }
   });
   it('음식 추천이 연결한 가격 ID 는 모두 존재한다', () => {
     const ids = new Set(samples.map((s) => s.id));

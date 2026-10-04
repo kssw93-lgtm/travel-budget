@@ -210,7 +210,10 @@ function main() {
     if (min > max) errors.push(`${id}: 최소 > 최대`);
     if (platform.has(id)) {
       if (grade === 'A' || grade === 'B') grade = 'C';
-      if (modelUse === 'yes') modelUse = 'conditional';
+      // 운영자가 메뉴 탭을 직접 확인한 캡처(비고 '운영자 제공')는 공식 표본과 함께 계산에 쓴다(C등급 경고는 그대로).
+      // 그 밖의 플랫폼 수집분은 공식 표본이 부족할 때만 쓰는 조건부로 낮춘다
+      if (r('비고').includes('운영자 제공')) modelUse = 'yes';
+      else if (modelUse === 'yes') modelUse = 'conditional';
     }
     const row = {
       id,

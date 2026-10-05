@@ -290,7 +290,7 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(guide.locator('tr[data-basket="meal"]')).toContainText('JP¥');
     await expect(guide.locator('tr[data-basket="meal"]')).toContainText('₩');
     await expect(guide.locator('tr[data-basket="pass"]')).toContainText('참고용');
-    await expect(guide.locator('tr[data-basket="snack"]')).toHaveCount(0);
+    await expect(guide.locator('tr[data-basket="snack"]')).toContainText('참고용');
   });
 });
 

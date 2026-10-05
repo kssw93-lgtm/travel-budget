@@ -41,7 +41,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "shanghai": "3/3/5/3 · 100% · ready",
         "singapore": "6/3/12/4 · 100% · ready",
         "taipei": "3/3/12/3 · 100% · ready",
-        "tokyo": "6/3/11/3 · 100% · ready",
+        "tokyo": "8/3/11/3 · 100% · ready",
       }
     `);
   });
@@ -71,7 +71,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "shanghai": "pass 0/0 · ride 3/3 · meal 3/3 · snack 3/3 · attraction 5/5 · souvenir 3/3",
         "singapore": "pass 1/1 · ride 3/3 · meal 6/6 · snack 1/1 · attraction 12/14 · souvenir 4/4",
         "taipei": "pass 1/3 · ride 3/3 · meal 3/3 · snack 3/3 · attraction 12/14 · souvenir 3/4",
-        "tokyo": "pass 1/3 · ride 3/3 · meal 6/6 · snack 0/0 · attraction 11/11 · souvenir 3/4",
+        "tokyo": "pass 1/3 · ride 3/3 · meal 8/8 · snack 1/1 · attraction 11/11 · souvenir 3/4",
       }
     `);
   });

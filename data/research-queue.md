@@ -15,7 +15,7 @@
 | 도시 | 바스켓 | 현재 독립 표본 | 메모 |
 | --- | --- | --- | --- |
 | 도쿄 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 도쿄 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 도쿄 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 오사카 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오사카 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 방콕 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -330,6 +330,9 @@
 | TPE-SN-803 | 타이베이 | 롯데 광천수 500ml (전련) | 23 TWD | A | 예 | 재검증 | [全聯 PX Mart 온라인](https://pxbox.es.pxmart.com.tw/category/500/501/502) |
 | TYO-AL-804 | 도쿄 | 세븐프리미엄 더 브루 350ml (세븐일레븐) | 172.7 JPY | A | 예 | 재검증, 세금·서비스료 별도 | [세븐일레븐 재팬](https://www.sej.co.jp/products/a/7premium/alcohol/) |
 | IST-SN-805 | 이스탄불 | 아반트 생수 500ml (미그로스) | 6.95 TRY | A | 예 | 재검증 | [Migros Sanal Market](https://www.migros.com.tr/su-c-84) |
+| TYO-FD-810 | 도쿄 | 요시노야 규동 보통 | 498 JPY | A | 예 | 재검증, 세금·서비스료 별도 | [요시노야](https://www.yoshinoya.com/menu/gyudon/) |
+| TYO-FD-812 | 도쿄 | 마쓰야 규메시 보통 | 460 JPY | A | 예 | 재검증 | [마쓰야](https://www.matsuyafoods.co.jp/matsuya/menu/gyumeshi/gyumeshi_hp_250422.html) |
+| TYO-SN-813 | 도쿄 | 도토루 아이스커피 M | 350 JPY | A | 예 | 재검증 | [도토루 커피숍](https://www.doutor.co.jp/dcs/menu/detail/20110912122047.html) |
 | TYO-FD-951 | 도쿄 | 생맥주 아사히 슈퍼드라이·기린 하트랜드 (호텔 레스토랑) | 1000 JPY | A | 예 | 재검증 | [Hotel Metropolitan Edmont Tokyo Beltempo](https://edmont-tokyo.hotel-metropolitan.com/restaurant/list/beltempo/index.html) |
 | TYO-FD-952 | 도쿄 | 생맥주 프리미엄 몰츠 (와카도리 마루노우치) | 630 JPY | C | 조건부 | C등급, 조건부, 재검증 | [Wakadori Marunouchi (restaurants-guide.tokyo)](https://restaurants-guide.tokyo/restaurants/drink/?id=95) |
 | TYO-FD-953 | 도쿄 | 브루클린 라거 레귤러 (게이오 플라자 호텔) | 1850 JPY | A | 예 | 재검증, 세금·서비스료 별도 | [Keio Plaza Hotel Aurora](https://www.keioplaza.co.jp/en/restaurant/list/aurora/) |

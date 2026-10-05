@@ -76,7 +76,9 @@
     "reasonJa": "手早く安く食べられる現地の一食の目安",
     "budgetBand": "저",
     "linkedPriceIds": [
-      "TYO-FD-001"
+      "TYO-FD-001",
+      "TYO-FD-810",
+      "TYO-FD-812"
     ],
     "priceStatus": "확보",
     "recommendSource": "Sukiya",

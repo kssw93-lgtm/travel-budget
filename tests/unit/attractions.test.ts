@@ -76,15 +76,18 @@ describe('현지 물가 한눈에', () => {
   it('바스켓별 대표 가격(중앙값·범위)과 독립 표본 수를 낸다', () => {
     const rows = Object.fromEntries(priceGuide(city('tokyo'), samples).map((r) => [r.basket, r]));
     // 식사 표본의 최저·최고와 그 사이의 중앙값(자료가 늘면 중앙값이 바뀌므로 범위만 고정)
-    expect(rows.meal).toMatchObject({ min: 480, max: 4200, sufficient: true });
-    expect(rows.meal!.median).toBeGreaterThan(480);
-    expect(rows.meal!.median).toBeLessThan(4200);
+    expect(rows.meal).toMatchObject({ max: 4200, sufficient: true });
+    expect(rows.meal!.min).toBeLessThan(1000); // 규동 체인 한 끼(460~498엔)
+    expect(rows.meal!.median).toBeGreaterThan(rows.meal!.min);
+    expect(rows.meal!.median).toBeLessThan(rows.meal!.max);
     expect(rows.meal!.independent).toBeGreaterThanOrEqual(3);
     // 1일권은 1일 환산(1000, 750, 666.7) — 같은 상품 변형이라 독립 1건(참고용)
     expect(rows.pass!.independent).toBe(1);
     expect(rows.pass!.sufficient).toBe(false);
     expect(rows.pass!.max).toBe(1000);
-    expect(rows.snack).toBeUndefined(); // 표본이 없으면 줄 자체가 없다
+    // 독립 표본이 3건 미만인 바스켓은 참고용으로만 보인다(도쿄 간식·음료: 도토루 커피 1건)
+    expect(rows.snack?.sufficient ?? false).toBe(false);
+    expect(priceGuide(city('jeju'), samples).some((r) => r.basket === 'pass')).toBe(false); // 표본이 없으면 줄 자체가 없다
   });
 
   it('나이·학년으로 적은 아동 요금도 아동으로, "성인" 표기가 있으면 나이 범위가 있어도 성인으로 본다', () => {

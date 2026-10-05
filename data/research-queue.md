@@ -19,11 +19,10 @@
 | 오사카 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오사카 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 방콕 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 방콕 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 방콕 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 다낭 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 다낭 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 타이베이 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 타이베이 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 싱가포르 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 싱가포르 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 파리 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -324,6 +323,13 @@
 | BCN-FD-740 | 바르셀로나 | 콜롬 치킨 파에야 | 16.8 EUR | A | 예 | 재검증 | [COLOM Restaurant Barcelona](https://www.colomrestaurant.com/) |
 | NYC-SN-741 | 뉴욕 | 조스 피자 한 조각 | 3.95 USD | A | 예 | 재검증, 세금·서비스료 별도 | [Joe's New York Pizzeria](https://joesnewyorkpizzeria.com/wp-content/uploads/2025/06/JNYP_11.5x14_color_menu_PROOF.pdf) |
 | IST-FD-742 | 이스탄불 | 뮌하스르 가든 되네르 샌드위치 (70g) | 420 TRY | A | 예 | 재검증 | [Münhasır Garden Döner & Kebap](https://www.munhasirgarden.istanbul/en/menu) |
+| SEL-SN-800 | 서울 | 삼다수 생수 500ml (이마트몰) | 480 KRW | A | 예 | 재검증 | [이마트몰](https://emart.ssg.com/search.ssg?query=%EB%AC%BC500ml) |
+| SEL-SN-801 | 서울 | 아이시스8.0 생수 500ml (이마트몰) | 380~470 KRW | A | 예 | 재검증 | [이마트몰](https://emart.ssg.com/search.ssg?query=%EB%AC%BC500ml) |
+| SEL-AL-806 | 서울 | 참이슬 후레쉬 소주 360ml (이마트 에브리데이) | 1410 KRW | A | 예 | 재검증 | [이마트 에브리데이](https://emile.emarteveryday.co.kr/product/ProductList?lCode=025&mCode=22000139) |
+| BKK-SN-802 | 방콕 | 아쿠아 파나 생수 500ml (로터스) | 59 THB | A | 예 | 재검증 | [Lotus's Shop Online](https://www.lotuss.com/th/category/milk-and-beverages-1/milk-and-beverages-water) |
+| TPE-SN-803 | 타이베이 | 롯데 광천수 500ml (전련) | 23 TWD | A | 예 | 재검증 | [全聯 PX Mart 온라인](https://pxbox.es.pxmart.com.tw/category/500/501/502) |
+| TYO-AL-804 | 도쿄 | 세븐프리미엄 더 브루 350ml (세븐일레븐) | 172.7 JPY | A | 예 | 재검증, 세금·서비스료 별도 | [세븐일레븐 재팬](https://www.sej.co.jp/products/a/7premium/alcohol/) |
+| IST-SN-805 | 이스탄불 | 아반트 생수 500ml (미그로스) | 6.95 TRY | A | 예 | 재검증 | [Migros Sanal Market](https://www.migros.com.tr/su-c-84) |
 | TYO-FD-951 | 도쿄 | 생맥주 아사히 슈퍼드라이·기린 하트랜드 (호텔 레스토랑) | 1000 JPY | A | 예 | 재검증 | [Hotel Metropolitan Edmont Tokyo Beltempo](https://edmont-tokyo.hotel-metropolitan.com/restaurant/list/beltempo/index.html) |
 | TYO-FD-952 | 도쿄 | 생맥주 프리미엄 몰츠 (와카도리 마루노우치) | 630 JPY | C | 조건부 | C등급, 조건부, 재검증 | [Wakadori Marunouchi (restaurants-guide.tokyo)](https://restaurants-guide.tokyo/restaurants/drink/?id=95) |
 | TYO-FD-953 | 도쿄 | 브루클린 라거 레귤러 (게이오 플라자 호텔) | 1850 JPY | A | 예 | 재검증, 세금·서비스료 별도 | [Keio Plaza Hotel Aurora](https://www.keioplaza.co.jp/en/restaurant/list/aurora/) |

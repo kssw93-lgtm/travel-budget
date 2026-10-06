@@ -1,26 +1,26 @@
 {
   "tokyo": {
     "counts": {
-      "food": 9,
+      "food": 10,
       "transport": 3,
       "attraction": 11,
       "souvenir": 3
     },
     "baskets": {
-      "pass": 1,
+      "pass": 3,
       "ride": 3,
-      "meal": 9,
-      "snack": 13,
-      "drink": 4,
+      "meal": 10,
+      "snack": 14,
+      "drink": 11,
       "attraction": 11,
       "souvenir": 3
     },
     "basketRows": {
-      "pass": 3,
+      "pass": 5,
       "ride": 3,
-      "meal": 9,
-      "snack": 13,
-      "drink": 4,
+      "meal": 10,
+      "snack": 14,
+      "drink": 11,
       "attraction": 11,
       "souvenir": 4
     },
@@ -30,7 +30,7 @@
   },
   "osaka": {
     "counts": {
-      "food": 6,
+      "food": 7,
       "transport": 3,
       "attraction": 10,
       "souvenir": 3
@@ -38,18 +38,18 @@
     "baskets": {
       "pass": 1,
       "ride": 3,
-      "meal": 6,
-      "snack": 12,
-      "drink": 2,
+      "meal": 7,
+      "snack": 13,
+      "drink": 9,
       "attraction": 10,
       "souvenir": 3
     },
     "basketRows": {
       "pass": 2,
       "ride": 3,
-      "meal": 6,
-      "snack": 12,
-      "drink": 2,
+      "meal": 7,
+      "snack": 13,
+      "drink": 9,
       "attraction": 10,
       "souvenir": 4
     },
@@ -210,7 +210,7 @@
       "souvenir": 3
     },
     "baskets": {
-      "pass": 1,
+      "pass": 2,
       "ride": 3,
       "meal": 4,
       "snack": 1,
@@ -219,7 +219,7 @@
       "souvenir": 3
     },
     "basketRows": {
-      "pass": 1,
+      "pass": 2,
       "ride": 3,
       "meal": 4,
       "snack": 1,
@@ -234,13 +234,13 @@
   "barcelona": {
     "counts": {
       "food": 6,
-      "transport": 3,
+      "transport": 4,
       "attraction": 12,
       "souvenir": 3
     },
     "baskets": {
       "pass": 1,
-      "ride": 3,
+      "ride": 4,
       "meal": 6,
       "snack": 5,
       "drink": 2,
@@ -249,7 +249,7 @@
     },
     "basketRows": {
       "pass": 1,
-      "ride": 3,
+      "ride": 4,
       "meal": 6,
       "snack": 5,
       "drink": 2,

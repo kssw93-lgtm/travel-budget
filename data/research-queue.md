@@ -14,7 +14,6 @@
 
 | 도시 | 바스켓 | 현재 독립 표본 | 메모 |
 | --- | --- | --- | --- |
-| 도쿄 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오사카 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 방콕 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 방콕 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -25,7 +24,7 @@
 | 싱가포르 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 파리 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 파리 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
-| 런던 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 런던 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 런던 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -242,6 +241,28 @@
 | CJU-FD-858 | 제주 | 한솥 치킨마요 | 3900 KRW | A | 조건부 | 조건부, 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
 | CJU-FD-859 | 제주 | 한솥 돈까스도련님 | 5200 KRW | A | 조건부 | 조건부, 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
 | CJU-FD-860 | 제주 | 한솥 묵은지 김치찌개 | 6000 KRW | A | 조건부 | 조건부, 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| TYO-AL-861 | 도쿄 | 쿠시카츠 다나카 짐빔 하이볼 | 319 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-862 | 도쿄 | 쿠시카츠 다나카 레몬사워 | 319 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-863 | 도쿄 | 쿠시카츠 다나카 생맥주(프리미엄 몰츠 카오루 에일) | 605 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-864 | 도쿄 | 쿠시카츠 다나카 사케 180ml | 550 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-865 | 도쿄 | 쿠시카츠 다나카 본격 소주 | 550 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-866 | 도쿄 | 쿠시카츠 다나카 우메슈 | 495 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-867 | 오사카 | 쿠시카츠 다나카 짐빔 하이볼 | 319 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-868 | 오사카 | 쿠시카츠 다나카 레몬사워 | 319 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-869 | 오사카 | 쿠시카츠 다나카 생맥주(프리미엄 몰츠 카오루 에일) | 605 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-870 | 오사카 | 쿠시카츠 다나카 사케 180ml | 550 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-871 | 오사카 | 쿠시카츠 다나카 본격 소주 | 550 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-872 | 오사카 | 쿠시카츠 다나카 우메슈 | 495 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-873 | 도쿄 | 로손 PB 맥주류 캔 350ml | 171 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/liquor/) |
+| OSA-AL-874 | 오사카 | 로손 PB 맥주류 캔 350ml | 171 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/liquor/) |
+| TYO-SN-875 | 도쿄 | 교자노오쇼 교자 | 363 JPY | A | 예 | 재검증 | [餃子の王将](https://www.ohsho.co.jp/menu/east/) |
+| TYO-FD-876 | 도쿄 | 교자노오쇼 라멘(극왕) | 980 JPY | A | 예 | 재검증 | [餃子の王将](https://www.ohsho.co.jp/menu/east/) |
+| OSA-SN-877 | 오사카 | 교자노오쇼 교자 | 341 JPY | A | 예 | 재검증 | [餃子の王将](https://www.ohsho.co.jp/menu/west/) |
+| OSA-FD-878 | 오사카 | 교자노오쇼 라멘(극왕) | 980 JPY | A | 예 | 재검증 | [餃子の王将](https://www.ohsho.co.jp/menu/west/) |
+| TYO-TR-879 | 도쿄 | 도쿄메트로 24시간권 | 700 JPY | A | 예 | 재검증 | [도쿄메트로](https://www.tokyometro.jp/ticket/value/1day/index.html) |
+| TYO-TR-880 | 도쿄 | 도쿄메트로·도에이 지하철 공통 1일 승차권 | 1100 JPY | A | 예 | 재검증 | [도쿄메트로](https://www.tokyometro.jp/ticket/value/1day/index.html) |
+| LON-TR-885 | 런던 | 런던 버스·트램 1일 패스 | 6 GBP | A | 예 | 재검증 | [Transport for London](https://tfl.gov.uk/fares/find-fares/bus-and-tram-fares) |
+| BCN-TR-889 | 바르셀로나 | 바르셀로나 T-casual 10회권 1회 환산(1존) | 1.3 EUR | A | 예 | 재검증 | [TMB](https://www.tmb.cat/en/barcelona-fares-metro-bus/single-and-integrated/t-casual) |
 | CJU-FD-760 | 제주 | 소산도 우도흑돼지 안심카츠 | 17000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-761 | 제주 | 소산도 흑돼지 우도 등심카츠 | 16000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-762 | 제주 | 제주식 고사리해장국 | 11000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 제주고사리해장국 중문](https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8) |

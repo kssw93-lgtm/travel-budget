@@ -25,6 +25,30 @@
   },
   {
     "cityId": "new-york",
+    "item": "OMNY 7일 요금 상한",
+    "value": "같은 카드·기기로 7일 안에 지하철·시내버스 요금이 35달러에 이르면 이후 무료",
+    "itemEn": "OMNY 7-day fare cap",
+    "valueEn": "Subway and local bus fares stop at $35 within 7 days when tapping with the same card or device",
+    "unit": "USD",
+    "sourceName": "MTA",
+    "sourceUrl": "https://www.mta.info/fares-tolls/subway-bus",
+    "checkedAt": "2026-10-06",
+    "note": "운영사 공식 'You won't spend more than $35 a week on subway and local bus fares'. 7일 이상 머물며 매일 타면 1회 3달러 × 12회째부터 무료. Claude(Chrome) 수집"
+  },
+  {
+    "cityId": "london",
+    "item": "버스·트램 일일 상한",
+    "value": "비접촉 카드·Oyster로 버스·트램만 탈 때 하루 5.25파운드(1회 1.75파운드)",
+    "itemEn": "Bus & tram daily cap",
+    "valueEn": "GBP 5.25 per day on buses and trams only (GBP 1.75 per ride) with contactless or Oyster",
+    "unit": "GBP",
+    "sourceName": "Transport for London",
+    "sourceUrl": "https://tfl.gov.uk/fares/find-fares/bus-and-tram-fares",
+    "checkedAt": "2026-10-06",
+    "note": "운영사 공식 'Pay as you go £1.75 Daily cap £5.25'. 지하철을 타면 존별 상한이 따로 적용됨. 페이지에 'Fares from 1 November 2026' 문구가 있어 11월 이후 변동 가능. Claude(Chrome) 수집"
+  },
+  {
+    "cityId": "new-york",
     "item": "판매세",
     "value": "8.875%",
     "itemEn": "Sales tax",

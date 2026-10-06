@@ -81,10 +81,11 @@ describe('현지 물가 한눈에', () => {
     expect(rows.meal!.median).toBeGreaterThan(rows.meal!.min);
     expect(rows.meal!.median).toBeLessThan(rows.meal!.max);
     expect(rows.meal!.independent).toBeGreaterThanOrEqual(3);
-    // 1일권은 1일 환산(1000, 750, 666.7) — 같은 상품 변형이라 독립 1건(참고용)
-    expect(rows.pass!.independent).toBe(1);
-    expect(rows.pass!.sufficient).toBe(false);
-    expect(rows.pass!.max).toBe(1000);
+    // 1일 환산: 도쿄 지하철 24/48/72시간권(같은 상품 변형 1건) + 도쿄메트로 24시간권 700 + 메트로·도에이 공통 1일권 1100 → 독립 3건
+    expect(rows.pass!.independent).toBe(3);
+    expect(rows.pass!.sufficient).toBe(true);
+    expect(rows.pass!.min).toBeCloseTo(666.67, 1);
+    expect(rows.pass!.max).toBe(1100);
     // 간식·음료는 체인 카페·편의점 공식가가 모여 3건 이상(Chrome 수집 2026-10-05)
     expect(rows.snack!.sufficient).toBe(true);
     expect(rows.snack!.independent).toBeGreaterThanOrEqual(3);

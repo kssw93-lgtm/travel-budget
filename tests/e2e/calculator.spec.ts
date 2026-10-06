@@ -45,8 +45,8 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(page.getByTestId('quality')).toContainText('사용 표본');
     // 단위가 다른 가격은 유형별 바스켓으로 나뉘어 표시된다
     await expect(page.getByTestId('baskets-food')).toContainText('식사');
-    // 도쿄 지하철 24·48·72시간권은 같은 상품이라 독립 1건 → 1일권 바스켓 제외, 1회권 바스켓으로 계산
-    await expect(page.getByTestId('baskets-transport').locator('[data-basket="pass"]')).toContainText('1일 이용권 독립 1건 (가격 3건) · 제외');
+    // 도쿄 지하철 24·48·72시간권(같은 상품 변형 1건) + 메트로 24시간권 + 메트로·도에이 공통 1일권 → 독립 3건(가격 5건)
+    await expect(page.getByTestId('baskets-transport').locator('[data-basket="pass"]')).toContainText('1일 이용권 독립 3건 (가격 5건) · 합계에 반영');
     await expect(page.getByTestId('baskets-transport').locator('[data-basket="ride"]')).toContainText('1회권 독립 3건 (가격 3건) · 합계에 반영');
     // 근거·출처 패널은 기본으로 접혀 있고, 펼치면 출처 링크가 보인다
     await expect(page.locator('details.evidence')).not.toHaveAttribute('open', '');
@@ -289,7 +289,7 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(guide.locator('tr[data-basket="meal"]')).toContainText('한 끼 식사');
     await expect(guide.locator('tr[data-basket="meal"]')).toContainText('JP¥');
     await expect(guide.locator('tr[data-basket="meal"]')).toContainText('₩');
-    await expect(guide.locator('tr[data-basket="pass"]')).toContainText('참고용');
+    await expect(guide.locator('tr[data-basket="pass"]')).not.toContainText('참고용');
     // 간식·음료는 체인 카페·편의점 공식가로 3건 이상 → 참고용 표시가 없다
     await expect(guide.locator('tr[data-basket="snack"]')).toContainText('JP¥');
     await expect(guide.locator('tr[data-basket="snack"]')).not.toContainText('참고용');
@@ -328,8 +328,8 @@ test.describe('항목별 자세히 보기·음주', () => {
     await expect(page).toHaveURL(/drink=1/);
     await expect(food).not.toHaveText(before);
     await expect(page.getByTestId('drink-note')).toHaveCount(0);
-    // 오사카: 주류 2건 → 합계에 넣지 않고 부족하다고 알린다
-    await page.goto('/?lang=ko&city=osaka&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=JPY&drink=1');
+    // 바르셀로나: 주류 2건 → 합계에 넣지 않고 부족하다고 알린다
+    await page.goto('/?lang=ko&city=barcelona&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=EUR&drink=1');
     await page.locator('details.evidence > summary').click();
     await expect(page.getByTestId('quality').locator('[data-category="food"]')).toContainText('주류은(는) 표본이 3건 미만');
   });

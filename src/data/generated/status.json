@@ -10,7 +10,7 @@
       "pass": 1,
       "ride": 3,
       "meal": 9,
-      "snack": 2,
+      "snack": 13,
       "drink": 4,
       "attraction": 11,
       "souvenir": 3
@@ -19,7 +19,7 @@
       "pass": 3,
       "ride": 3,
       "meal": 9,
-      "snack": 2,
+      "snack": 13,
       "drink": 4,
       "attraction": 11,
       "souvenir": 4
@@ -39,7 +39,7 @@
       "pass": 1,
       "ride": 3,
       "meal": 6,
-      "snack": 1,
+      "snack": 12,
       "drink": 2,
       "attraction": 10,
       "souvenir": 3
@@ -48,7 +48,7 @@
       "pass": 2,
       "ride": 3,
       "meal": 6,
-      "snack": 1,
+      "snack": 12,
       "drink": 2,
       "attraction": 10,
       "souvenir": 4

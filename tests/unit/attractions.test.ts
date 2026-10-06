@@ -85,8 +85,9 @@ describe('현지 물가 한눈에', () => {
     expect(rows.pass!.independent).toBe(1);
     expect(rows.pass!.sufficient).toBe(false);
     expect(rows.pass!.max).toBe(1000);
-    // 독립 표본이 3건 미만인 바스켓은 참고용으로만 보인다(도쿄 간식·음료: 도토루 커피 1건)
-    expect(rows.snack?.sufficient ?? false).toBe(false);
+    // 간식·음료는 체인 카페·편의점 공식가가 모여 3건 이상(Chrome 수집 2026-10-05)
+    expect(rows.snack!.sufficient).toBe(true);
+    expect(rows.snack!.independent).toBeGreaterThanOrEqual(3);
     expect(priceGuide(city('jeju'), samples).some((r) => r.basket === 'pass')).toBe(false); // 표본이 없으면 줄 자체가 없다
   });
 

@@ -290,7 +290,9 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(guide.locator('tr[data-basket="meal"]')).toContainText('JP¥');
     await expect(guide.locator('tr[data-basket="meal"]')).toContainText('₩');
     await expect(guide.locator('tr[data-basket="pass"]')).toContainText('참고용');
-    await expect(guide.locator('tr[data-basket="snack"]')).toContainText('참고용');
+    // 간식·음료는 체인 카페·편의점 공식가로 3건 이상 → 참고용 표시가 없다
+    await expect(guide.locator('tr[data-basket="snack"]')).toContainText('JP¥');
+    await expect(guide.locator('tr[data-basket="snack"]')).not.toContainText('참고용');
   });
 });
 
@@ -300,10 +302,11 @@ test.describe('항목별 자세히 보기·음주', () => {
     await page.goto('/?lang=ko&city=tokyo&date=2026-11-04&nights=3&adults=2&children=1&style=standard&cur=JPY&attr=TYO-AT-001,TYO-AT-002');
     const food = page.locator('[data-detail="food"]');
     await food.locator('summary').click();
-    await expect(food.locator('[data-line="day-1"]')).toContainText('1일차');
-    await expect(food.locator('[data-line="day-1"]')).toContainText('3끼 × 60%');
-    await expect(food.locator('[data-line="day-2"]')).toContainText('3끼');
-    await expect(food.locator('[data-line="day-4"]')).toContainText('2026-11-07');
+    // 식사 줄이 먼저, 이어서 간식·음료 줄(같은 일차 표시)이 나온다
+    await expect(food.locator('[data-line="day-1"]').first()).toContainText('1일차');
+    await expect(food.locator('[data-line="day-1"]').first()).toContainText('3끼 × 60%');
+    await expect(food.locator('[data-line="day-2"]').first()).toContainText('3끼');
+    await expect(food.locator('[data-line="day-4"]').first()).toContainText('2026-11-07');
     await expect(food.locator('[data-line="contingency"]')).toContainText('예비비 10%');
     const attr = page.locator('[data-detail="attraction"]');
     await attr.locator('summary').click();

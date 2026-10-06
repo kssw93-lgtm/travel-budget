@@ -15,9 +15,7 @@
 | 도시 | 바스켓 | 현재 독립 표본 | 메모 |
 | --- | --- | --- | --- |
 | 도쿄 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 도쿄 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 오사카 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 오사카 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 방콕 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 방콕 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 다낭 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -213,6 +211,28 @@
 | PUS-AT-008 | 부산 | 스카이라인 루지 부산 3회권 (1인) | 30000 KRW | A | 예 | 재검증 | [스카이라인루지 부산 공식홈페이지](https://www.skylineluge.kr/busan/prices/) |
 | PUS-AT-009 | 부산 | SEA LIFE 부산아쿠아리움 입장권 (대인) | 31000 KRW | A | 예 | 재검증 | [씨라이프 부산아쿠아리움 공식홈페이지](https://www.visitsealife.com/busan/tickets/) |
 | PUS-AT-010 | 부산 | 부산시립박물관 상설전시 | 0 KRW | A | 예 | 재검증 | [부산박물관 공식홈페이지](https://museum.busan.go.kr/busan/viewinfo01) |
+| TYO-SN-830 | 도쿄 | 스타벅스 카페 아메리카노 Tall | 490 JPY | A | 예 | 재검증 | [스타벅스 커피 재팬](https://menu.starbucks.co.jp/4524785000315) |
+| TYO-SN-831 | 도쿄 | 스타벅스 라테 Tall | 500 JPY | A | 예 | 재검증 | [스타벅스 커피 재팬](https://menu.starbucks.co.jp/4524785000223) |
+| TYO-SN-832 | 도쿄 | 털리스 카페 아메리카노 Tall | 450 JPY | A | 예 | 재검증 | [털리스 커피 재팬](https://www.tullys.co.jp/menu/drink/coffee/es_americano.html) |
+| TYO-SN-833 | 도쿄 | 털리스 카페라테 Tall | 510 JPY | A | 예 | 재검증 | [털리스 커피 재팬](https://www.tullys.co.jp/menu/drink/coffee/cafe_latte.html) |
+| TYO-SN-834 | 도쿄 | 도토루 블렌드 커피 S | 300 JPY | A | 예 | 재검증, 검수: 원문 재확인 필요 | [도토루 커피숍](https://www.doutor.co.jp/dcs/menu/detail/20110907153810.html) |
+| TYO-SN-835 | 도쿄 | 도토루 카페라테 S | 400 JPY | A | 예 | 재검증, 검수: 원문 재확인 필요 | [도토루 커피숍](https://www.doutor.co.jp/dcs/menu/detail/20110907154342.html) |
+| TYO-SN-836 | 도쿄 | 패밀리마트 블렌드 커피 S | 158 JPY | A | 예 | 재검증 | [패밀리마트](https://www.family.co.jp/goods/cafe.html) |
+| TYO-SN-837 | 도쿄 | 패밀리마트 카페라테 M | 255 JPY | A | 예 | 재검증 | [패밀리마트](https://www.family.co.jp/goods/cafe.html) |
+| TYO-SN-838 | 도쿄 | 로손 커피 S | 160 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/coffee/) |
+| TYO-SN-839 | 도쿄 | 로손 카페라테 M | 230 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/coffee/) |
+| TYO-SN-840 | 도쿄 | 패밀리마트 생수 600ml | 118 JPY | A | 예 | 재검증 | [패밀리마트](https://www.family.co.jp/goods/drink/4251934.html) |
+| OSA-SN-841 | 오사카 | 스타벅스 카페 아메리카노 Tall | 490 JPY | A | 예 | 재검증 | [스타벅스 커피 재팬](https://menu.starbucks.co.jp/4524785000315) |
+| OSA-SN-842 | 오사카 | 스타벅스 라테 Tall | 500 JPY | A | 예 | 재검증 | [스타벅스 커피 재팬](https://menu.starbucks.co.jp/4524785000223) |
+| OSA-SN-843 | 오사카 | 털리스 카페 아메리카노 Tall | 450 JPY | A | 예 | 재검증 | [털리스 커피 재팬](https://www.tullys.co.jp/menu/drink/coffee/es_americano.html) |
+| OSA-SN-844 | 오사카 | 털리스 카페라테 Tall | 510 JPY | A | 예 | 재검증 | [털리스 커피 재팬](https://www.tullys.co.jp/menu/drink/coffee/cafe_latte.html) |
+| OSA-SN-845 | 오사카 | 도토루 블렌드 커피 S | 300 JPY | A | 예 | 재검증, 검수: 원문 재확인 필요 | [도토루 커피숍](https://www.doutor.co.jp/dcs/menu/detail/20110907153810.html) |
+| OSA-SN-846 | 오사카 | 도토루 카페라테 S | 400 JPY | A | 예 | 재검증, 검수: 원문 재확인 필요 | [도토루 커피숍](https://www.doutor.co.jp/dcs/menu/detail/20110907154342.html) |
+| OSA-SN-847 | 오사카 | 패밀리마트 블렌드 커피 S | 158 JPY | A | 예 | 재검증 | [패밀리마트](https://www.family.co.jp/goods/cafe.html) |
+| OSA-SN-848 | 오사카 | 패밀리마트 카페라테 M | 255 JPY | A | 예 | 재검증 | [패밀리마트](https://www.family.co.jp/goods/cafe.html) |
+| OSA-SN-849 | 오사카 | 로손 커피 S | 160 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/coffee/) |
+| OSA-SN-850 | 오사카 | 로손 카페라테 M | 230 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/coffee/) |
+| OSA-SN-851 | 오사카 | 패밀리마트 생수 600ml | 118 JPY | A | 예 | 재검증 | [패밀리마트](https://www.family.co.jp/goods/drink/4251934.html) |
 | CJU-FD-760 | 제주 | 소산도 우도흑돼지 안심카츠 | 17000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-761 | 제주 | 소산도 흑돼지 우도 등심카츠 | 16000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-762 | 제주 | 제주식 고사리해장국 | 11000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 제주고사리해장국 중문](https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8) |

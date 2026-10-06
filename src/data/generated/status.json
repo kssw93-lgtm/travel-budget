@@ -378,7 +378,7 @@
   },
   "seoul": {
     "counts": {
-      "food": 14,
+      "food": 17,
       "transport": 3,
       "attraction": 7,
       "souvenir": 6
@@ -386,7 +386,7 @@
     "baskets": {
       "pass": 1,
       "ride": 3,
-      "meal": 14,
+      "meal": 17,
       "snack": 7,
       "drink": 10,
       "attraction": 7,
@@ -395,7 +395,7 @@
     "basketRows": {
       "pass": 1,
       "ride": 3,
-      "meal": 14,
+      "meal": 17,
       "snack": 7,
       "drink": 10,
       "attraction": 7,
@@ -407,7 +407,7 @@
   },
   "busan": {
     "counts": {
-      "food": 7,
+      "food": 10,
       "transport": 3,
       "attraction": 7,
       "souvenir": 3
@@ -415,7 +415,7 @@
     "baskets": {
       "pass": 1,
       "ride": 3,
-      "meal": 7,
+      "meal": 10,
       "snack": 9,
       "drink": 3,
       "attraction": 7,
@@ -424,7 +424,7 @@
     "basketRows": {
       "pass": 1,
       "ride": 4,
-      "meal": 7,
+      "meal": 10,
       "snack": 9,
       "drink": 3,
       "attraction": 7,

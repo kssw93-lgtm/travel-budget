@@ -215,8 +215,8 @@
 | TYO-SN-831 | 도쿄 | 스타벅스 라테 Tall | 500 JPY | A | 예 | 재검증 | [스타벅스 커피 재팬](https://menu.starbucks.co.jp/4524785000223) |
 | TYO-SN-832 | 도쿄 | 털리스 카페 아메리카노 Tall | 450 JPY | A | 예 | 재검증 | [털리스 커피 재팬](https://www.tullys.co.jp/menu/drink/coffee/es_americano.html) |
 | TYO-SN-833 | 도쿄 | 털리스 카페라테 Tall | 510 JPY | A | 예 | 재검증 | [털리스 커피 재팬](https://www.tullys.co.jp/menu/drink/coffee/cafe_latte.html) |
-| TYO-SN-834 | 도쿄 | 도토루 블렌드 커피 S | 300 JPY | A | 예 | 재검증, 검수: 원문 재확인 필요 | [도토루 커피숍](https://www.doutor.co.jp/dcs/menu/detail/20110907153810.html) |
-| TYO-SN-835 | 도쿄 | 도토루 카페라테 S | 400 JPY | A | 예 | 재검증, 검수: 원문 재확인 필요 | [도토루 커피숍](https://www.doutor.co.jp/dcs/menu/detail/20110907154342.html) |
+| TYO-SN-834 | 도쿄 | 도토루 블렌드 커피 S | 300 JPY | A | 예 | 재검증 | [도토루 커피숍](https://www.doutor.co.jp/dcs/menu/detail/20110907153810.html) |
+| TYO-SN-835 | 도쿄 | 도토루 카페라테 S | 400 JPY | A | 예 | 재검증 | [도토루 커피숍](https://www.doutor.co.jp/dcs/menu/detail/20110907154342.html) |
 | TYO-SN-836 | 도쿄 | 패밀리마트 블렌드 커피 S | 158 JPY | A | 예 | 재검증 | [패밀리마트](https://www.family.co.jp/goods/cafe.html) |
 | TYO-SN-837 | 도쿄 | 패밀리마트 카페라테 M | 255 JPY | A | 예 | 재검증 | [패밀리마트](https://www.family.co.jp/goods/cafe.html) |
 | TYO-SN-838 | 도쿄 | 로손 커피 S | 160 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/coffee/) |
@@ -226,13 +226,22 @@
 | OSA-SN-842 | 오사카 | 스타벅스 라테 Tall | 500 JPY | A | 예 | 재검증 | [스타벅스 커피 재팬](https://menu.starbucks.co.jp/4524785000223) |
 | OSA-SN-843 | 오사카 | 털리스 카페 아메리카노 Tall | 450 JPY | A | 예 | 재검증 | [털리스 커피 재팬](https://www.tullys.co.jp/menu/drink/coffee/es_americano.html) |
 | OSA-SN-844 | 오사카 | 털리스 카페라테 Tall | 510 JPY | A | 예 | 재검증 | [털리스 커피 재팬](https://www.tullys.co.jp/menu/drink/coffee/cafe_latte.html) |
-| OSA-SN-845 | 오사카 | 도토루 블렌드 커피 S | 300 JPY | A | 예 | 재검증, 검수: 원문 재확인 필요 | [도토루 커피숍](https://www.doutor.co.jp/dcs/menu/detail/20110907153810.html) |
-| OSA-SN-846 | 오사카 | 도토루 카페라테 S | 400 JPY | A | 예 | 재검증, 검수: 원문 재확인 필요 | [도토루 커피숍](https://www.doutor.co.jp/dcs/menu/detail/20110907154342.html) |
+| OSA-SN-845 | 오사카 | 도토루 블렌드 커피 S | 300 JPY | A | 예 | 재검증 | [도토루 커피숍](https://www.doutor.co.jp/dcs/menu/detail/20110907153810.html) |
+| OSA-SN-846 | 오사카 | 도토루 카페라테 S | 400 JPY | A | 예 | 재검증 | [도토루 커피숍](https://www.doutor.co.jp/dcs/menu/detail/20110907154342.html) |
 | OSA-SN-847 | 오사카 | 패밀리마트 블렌드 커피 S | 158 JPY | A | 예 | 재검증 | [패밀리마트](https://www.family.co.jp/goods/cafe.html) |
 | OSA-SN-848 | 오사카 | 패밀리마트 카페라테 M | 255 JPY | A | 예 | 재검증 | [패밀리마트](https://www.family.co.jp/goods/cafe.html) |
 | OSA-SN-849 | 오사카 | 로손 커피 S | 160 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/coffee/) |
 | OSA-SN-850 | 오사카 | 로손 카페라테 M | 230 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/coffee/) |
 | OSA-SN-851 | 오사카 | 패밀리마트 생수 600ml | 118 JPY | A | 예 | 재검증 | [패밀리마트](https://www.family.co.jp/goods/drink/4251934.html) |
+| SEL-FD-852 | 서울 | 한솥 치킨마요 | 3900 KRW | A | 예 | 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| SEL-FD-853 | 서울 | 한솥 돈까스도련님 | 5200 KRW | A | 예 | 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| SEL-FD-854 | 서울 | 한솥 묵은지 김치찌개 | 6000 KRW | A | 예 | 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| PUS-FD-855 | 부산 | 한솥 치킨마요 | 3900 KRW | A | 예 | 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| PUS-FD-856 | 부산 | 한솥 돈까스도련님 | 5200 KRW | A | 예 | 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| PUS-FD-857 | 부산 | 한솥 묵은지 김치찌개 | 6000 KRW | A | 예 | 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| CJU-FD-858 | 제주 | 한솥 치킨마요 | 3900 KRW | A | 조건부 | 조건부, 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| CJU-FD-859 | 제주 | 한솥 돈까스도련님 | 5200 KRW | A | 조건부 | 조건부, 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| CJU-FD-860 | 제주 | 한솥 묵은지 김치찌개 | 6000 KRW | A | 조건부 | 조건부, 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
 | CJU-FD-760 | 제주 | 소산도 우도흑돼지 안심카츠 | 17000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-761 | 제주 | 소산도 흑돼지 우도 등심카츠 | 16000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-762 | 제주 | 제주식 고사리해장국 | 11000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 제주고사리해장국 중문](https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8) |

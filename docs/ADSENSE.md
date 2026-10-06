@@ -16,6 +16,19 @@
 - [x] 접근성(axe WCAG 2.1 AA)·모바일 320px 가로 스크롤 없음 테스트
 - [x] 도시별 가이드 `/guide/<도시>` 와 목록 `/guides`: 실제 가격 자료로 만든 도시별 고유 콘텐츠, 정적 HTML·sitemap 포함
 - [x] 방법론 페이지는 운영자 판단으로 제거(가격 출처는 결과 화면의 "가격 근거·출처·경고 보기"에 표시)
+- [x] **사이트 소유권 확인 태그 자동 삽입**: `ADSENSE_PUBLISHER_ID` 를 주고 빌드하면 모든 페이지(계산기·소개·개인정보·가이드 17개)
+  `<head>` 에 `<meta name="google-adsense-account" content="ca-pub-…">` 가 들어감. 손으로 HTML 을 고칠 필요 없음.
+  광고 스크립트(adsbygoogle.js)는 넣지 않음 — 승인 후 광고 단위를 정하고 따로 연결
+- [x] **소개·개인정보처리방침 정적 HTML 에 전문 포함**: JS 를 실행하지 않는 크롤러·심사자도 화면과 같은 전체 문구와 문의처를 봄
+- [x] **신청 전 점검 명령** `npm run adsense:check`: 빌드 결과에 sitemap·robots·문의 이메일·ads.txt·소유권 태그·
+  광고 쿠키 안내·가이드 본문 분량·페이지 제목 중복·예시 값 잔존 여부를 확인하고, 빠진 것과 할 일을 알려 줌
+
+## 신청 순서 한눈에
+
+```
+SITE_URL=https://내도메인 VITE_CONTACT_EMAIL=문의@내도메인 ADSENSE_PUBLISHER_ID=pub-0000000000000000 npm run build
+npm run adsense:check     # 전부 ✅ 가 나와야 함 (위 pub-0… 는 예시 — 실제 ID 로)
+```
 
 ## 운영자가 해야 할 일
 
@@ -25,8 +38,8 @@
    - `VITE_CONTACT_EMAIL=연락처@도메인` → 소개·개인정보처리방침의 문의처(없으면 "준비 중" 문구가 보임. 승인 전 꼭 설정)
    - `ADSENSE_PUBLISHER_ID=pub-…` → ads.txt (AdSense 계정 생성 후)
 3. **Google Search Console** 에 사이트 등록, `sitemap.xml` 제출
-4. **AdSense 신청** 후 받은 사이트 확인 코드를 `index.html`·`about.html`·`privacy.html` 의 `<head>` 에 넣기
-   (계정 ID 가 생긴 다음 별도 작업으로 요청해 주세요)
+4. **AdSense 가입·사이트 추가** → 받은 게시자 ID(pub-16자리)를 `ADSENSE_PUBLISHER_ID` 로 넣고 다시 빌드·배포
+   → `npm run adsense:check` 가 전부 ✅ 인지 확인 → AdSense 화면에서 "메타 태그" 방식으로 소유권 확인 → 검토 요청
 5. **동의 관리(CMP)**: EEA·영국·스위스 방문자에게 광고를 보이려면 Google 인증 CMP 필요.
    AdSense 의 "개인정보 보호 및 메시지" 에서 Google 제공 CMP 를 켜는 것이 가장 간단합니다
 6. 광고 코드 연결은 `src/ui/AdSlot.tsx` 한 곳에서. 채워지면 레일이 광고 높이만큼 늘어나는 것까지 테스트되어 있음

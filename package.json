@@ -16,6 +16,7 @@
     "build": "vite build",
     "build:preview": "tsx scripts/build-preview.ts",
     "preview": "vite preview",
+    "adsense:check": "tsx scripts/adsense-check.ts",
     "deploy:check": "npm run build && wrangler deploy --dry-run --outdir .wrangler/dry-run",
     "verify": "npm run data:convert && npm run lint && npm run typecheck && npm test && npm run build && npm run test:e2e && wrangler deploy --dry-run --outdir .wrangler/dry-run"
   },

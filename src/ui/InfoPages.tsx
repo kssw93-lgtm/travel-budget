@@ -1,6 +1,7 @@
 import { fmt, useI18n } from '../i18n';
 import { ExternalLink } from './ExternalLink';
 import { contactEmail } from './pages';
+import { PRIVACY_EFFECTIVE } from './policy';
 import { cities } from '../data';
 import { cityName } from './TripForm';
 
@@ -49,7 +50,7 @@ export function Privacy() {
   return (
     <article className="card prose" data-testid="privacy">
       <h1 tabIndex={-1}>{p.title}</h1>
-      <p className="muted">{fmt(p.effective, { date: '2026-10-02' })}</p>
+      <p className="muted">{fmt(p.effective, { date: PRIVACY_EFFECTIVE })}</p>
       <p className="lead">{p.lead}</p>
       {p.sections.map((s) => (
         <section key={s.h}>

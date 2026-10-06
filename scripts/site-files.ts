@@ -56,6 +56,49 @@ export function adsTxt(publisherId: string | undefined): string | null {
   return `google.com, ${id}, DIRECT, f08c47fec0942fa0\n`;
 }
 
+/**
+ * AdSense 사이트 소유권 확인 메타 태그. 게시자 ID 가 있을 때만 모든 페이지 <head> 에 넣는다.
+ * 광고 스크립트(adsbygoogle.js)는 넣지 않는다 — 승인 후 광고 단위를 정하고 따로 연결한다.
+ */
+export function adsenseMeta(publisherId: string | undefined): string | null {
+  if (adsTxt(publisherId) === null) return null;
+  const id = publisherId!.trim().replace(/^ca-/, '');
+  return `<meta name="google-adsense-account" content="ca-${id}" />`;
+}
+
+/** 안내 페이지(소개·개인정보처리방침) 문구 구조: i18n 의 about / privacy 와 같다 */
+export interface InfoText {
+  title: string;
+  lead: string;
+  effective?: string;
+  sections: ReadonlyArray<{ h: string; body: readonly string[] }>;
+}
+
+/**
+ * 안내 페이지의 정적 본문(JS 실행 전 크롤러·심사용). 화면(InfoPages.tsx)과 같은 문구를 쓰고,
+ * 자리표시자 {name} 은 vars 로 채운다. 문의처가 없으면 "준비 중" 문구.
+ */
+export function infoFallbackHtml(
+  text: InfoText,
+  vars: Record<string, string | number>,
+  contact: { title: string; label: string; pending: string; email: string | null },
+): string {
+  const fill = (s: string) => s.replace(/\{(\w+)\}/g, (m, k: string) => (k in vars ? String(vars[k]) : m));
+  const out = [`<h1>${escapeHtml(text.title)}</h1>`];
+  if (text.effective) out.push(`<p>${escapeHtml(fill(text.effective))}</p>`);
+  out.push(`<p>${escapeHtml(fill(text.lead))}</p>`);
+  for (const sec of text.sections) {
+    out.push(`<h2>${escapeHtml(sec.h)}</h2>`, ...sec.body.map((b) => `<p>${escapeHtml(fill(b))}</p>`));
+  }
+  out.push(`<h2>${escapeHtml(contact.title)}</h2>`);
+  out.push(`<p>${escapeHtml(contact.email ? `${contact.label} ${contact.email}` : contact.pending)}</p>`);
+  return out.map((l) => `        ${l}`).join('\n');
+}
+
+/** 빌드된 HTML 의 정적 본문(`<div class="fallback">` 안, noscript 앞)을 바꾼다 */
+export const replaceFallback = (html: string, fallbackHtml: string) =>
+  html.replace(/<div class="fallback">[\s\S]*?<noscript>/, `<div class="fallback">\n${fallbackHtml}\n        <noscript>`);
+
 export interface PageMeta {
   title: string;
   description: string;
@@ -83,8 +126,8 @@ export function pageHtml(indexHtml: string, meta: PageMeta, site: string | undef
     .replace(/(<meta property="og:description" content=")[^"]*(")/, `$1${d}$2`)
     .replace(/(<meta name="twitter:title" content=")[^"]*(")/, `$1${t}$2`)
     .replace(/(<meta name="twitter:description" content=")[^"]*(")/, `$1${d}$2`)
-    .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${JSON.stringify(meta.ld).replace(/</g, '\\u003c')}</script>`)
-    .replace(/<div class="fallback">[\s\S]*?<noscript>/, `<div class="fallback">\n${meta.fallbackHtml}\n        <noscript>`);
+    .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${JSON.stringify(meta.ld).replace(/</g, '\\u003c')}</script>`);
+  html = replaceFallback(html, meta.fallbackHtml);
   // 계산기용 canonical·hreflang·og:url 을 이 페이지 주소로 교체
   html = html.replace(/\s*<link rel="(?:canonical|alternate)"[^>]*>/g, '').replace(/\s*<meta property="og:url"[^>]*>/g, '');
   if (site) html = html.replace('</head>', `    ${headTags(site, { file: '', path: meta.path }).join('\n    ')}\n  </head>`);

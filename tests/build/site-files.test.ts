@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { SITE_PAGES, adsTxt, headTags, normalizeSite, pageHtml, robotsTxt, sitemapXml } from '../../scripts/site-files';
+import { SITE_PAGES, adsTxt, adsenseMeta, headTags, infoFallbackHtml, normalizeSite, pageHtml, robotsTxt, sitemapXml } from '../../scripts/site-files';
+import { checkAdsenseReady } from '../../scripts/adsense-ready';
 
 describe('배포 보조 파일', () => {
   it('사이트 주소가 없으면 sitemap 줄 없는 robots.txt', () => {
@@ -41,5 +42,32 @@ describe('정적 페이지 HTML', () => {
     expect(html).not.toContain('href="https://a.com/?lang=ko"');
     expect(html).toContain('<h1>도쿄</h1>');
     expect(html).not.toContain('<h1>계산기</h1>');
+  });
+});
+
+describe('AdSense 신청 준비', () => {
+  it('소유권 확인 메타 태그는 게시자 ID 가 있을 때만, 형식이 맞을 때만', () => {
+    expect(adsenseMeta(undefined)).toBeNull();
+    expect(adsenseMeta('pub-1234567890123456')).toBe('<meta name="google-adsense-account" content="ca-pub-1234567890123456" />');
+    expect(adsenseMeta('ca-pub-1234567890123456')).toContain('content="ca-pub-1234567890123456"');
+    expect(() => adsenseMeta('pub-1')).toThrow();
+  });
+
+  it('안내 페이지 정적 본문: 화면과 같은 문구·자리표시자 채움·이스케이프·문의처', () => {
+    const text = { title: '방침 <A>', lead: '{n}개 도시', effective: '시행일 {date}', sections: [{ h: '쿠키', body: ['Google 광고'] }] };
+    const contact = { title: '문의', label: '이메일:', pending: '준비 중', email: null };
+    const html = infoFallbackHtml(text, { n: 16, date: '2026-10-02' }, contact);
+    expect(html).toContain('<h1>방침 &lt;A&gt;</h1>');
+    expect(html).toContain('<p>16개 도시</p>');
+    expect(html).toContain('<p>시행일 2026-10-02</p>');
+    expect(html).toContain('<h2>쿠키</h2>');
+    expect(html).toContain('<p>준비 중</p>');
+    expect(infoFallbackHtml(text, {}, { ...contact, email: 'a@b.kr' })).toContain('<p>이메일: a@b.kr</p>');
+  });
+
+  it('신청 전 점검은 빈 빌드 결과에서 실패 항목과 할 일을 알려 준다', () => {
+    const results = checkAdsenseReady('/nonexistent-dist', '준비 중');
+    expect(results.some((r) => !r.ok && r.fix.includes('npm run build'))).toBe(true);
+    expect(results.find((r) => r.item.includes('ads.txt'))?.ok).toBe(false);
   });
 });

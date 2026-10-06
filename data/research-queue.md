@@ -263,6 +263,9 @@
 | TYO-TR-880 | 도쿄 | 도쿄메트로·도에이 지하철 공통 1일 승차권 | 1100 JPY | A | 예 | 재검증 | [도쿄메트로](https://www.tokyometro.jp/ticket/value/1day/index.html) |
 | LON-TR-885 | 런던 | 런던 버스·트램 1일 패스 | 6 GBP | A | 예 | 재검증 | [Transport for London](https://tfl.gov.uk/fares/find-fares/bus-and-tram-fares) |
 | BCN-TR-889 | 바르셀로나 | 바르셀로나 T-casual 10회권 1회 환산(1존) | 1.3 EUR | A | 예 | 재검증 | [TMB](https://www.tmb.cat/en/barcelona-fares-metro-bus/single-and-integrated/t-casual) |
+| LON-FD-893 | 런던 | 디슘 치킨 루비(커리) | 18.9 GBP | A | 예 | 재검증 | [Dishoom](https://www.dishoom.com/menu/all-day-main/) |
+| LON-FD-894 | 런던 | 디슘 파우 바지 | 8.7 GBP | A | 예 | 재검증 | [Dishoom](https://www.dishoom.com/menu/all-day-main/) |
+| LON-FD-895 | 런던 | 디슘 하우스 블랙 달 | 11.5 GBP | A | 예 | 재검증 | [Dishoom](https://www.dishoom.com/menu/all-day-main/) |
 | CJU-FD-760 | 제주 | 소산도 우도흑돼지 안심카츠 | 17000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-761 | 제주 | 소산도 흑돼지 우도 등심카츠 | 16000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-762 | 제주 | 제주식 고사리해장국 | 11000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 제주고사리해장국 중문](https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8) |

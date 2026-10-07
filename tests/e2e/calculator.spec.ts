@@ -65,15 +65,15 @@ test.describe('계산기 핵심 흐름', () => {
     // 계산 결과 화면에는 물가표·현지 비용 메모·대표 음식을 두지 않는다(자료는 계산에만 쓴다)
     for (const id of ['price-guide', 'city-memos', 'foods']) await expect(page.getByTestId(id)).toHaveCount(0);
 
-    // 대표 음식은 도시 가이드에: 추천 근거와 가격 근거 분리
+    // 먹어 볼 음식은 도시 가이드에: 이름과 무슨 음식인지 한 줄(가게·예산대·추천 근거 없음)
     await page.goto('/guide/tokyo?lang=ko');
     const foods = page.getByTestId('foods');
-    await expect(foods).toContainText('규동');
-    await expect(foods.locator('[data-food="Gyudon"]')).toContainText('추천 근거');
-    await expect(foods.locator('[data-food="Gyudon"]')).toContainText('가격 근거');
-    await expect(foods.locator('[data-food="Gyudon"]')).toContainText('스키야 규동');
-    await expect(foods.locator('[data-food="Ramen"]')).toContainText('라멘 곱빼기');
-    await expect(foods.locator('[data-food="Edomae Sushi"]')).toContainText('아직 확인된 메뉴 가격이 없습니다');
+    await expect(foods).toContainText('도쿄에서 먹어 볼 음식');
+    await expect(foods.locator('[data-food="Gyudon"]')).toContainText('규동');
+    await expect(foods.locator('[data-food="Gyudon"]')).toContainText('소고기');
+    await expect(foods).not.toContainText('추천 근거');
+    await expect(foods).not.toContainText('예산대');
+    await expect(foods).not.toContainText('스키야');
 
   });
 
@@ -428,7 +428,7 @@ test.describe('도시 가이드', () => {
 });
 
 test.describe('자세히 설정', () => {
-  test('교통 이용권·꼭 먹을 음식을 고르면 결과와 URL 에 반영되고, 가격 없는 음식은 입력을 요구한다', async ({ page }) => {
+  test('교통 이용권을 고르면 결과와 URL 에 반영되고, 꼭 먹을 음식 선택은 없다', async ({ page }) => {
     await page.goto('/?lang=ko&city=tokyo&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=JPY');
     const plan = page.getByTestId('plan');
     await plan.locator('summary').click();
@@ -439,21 +439,9 @@ test.describe('자세히 설정', () => {
     await expect(page.locator('tr[data-category="transport"]')).toContainText('이용권 1인 2장');
     await expect(page).toHaveURL(/tm=pass/);
     await expect(page).toHaveURL(/pass=TYO-TR-003/);
-    // 꼭 먹을 음식: 조사 가격이 있는 규동은 가격이 자동으로 들어간다
-    await page.selectOption('#eat-pick', 'Gyudon');
-    await plan.getByRole('button', { name: '추가', exact: true }).click();
-    await expect(page.locator('#eat-price-0')).not.toHaveValue('');
-    await expect(page).toHaveURL(/eat=/);
-    // 직접 추가한 음식은 가격을 입력하라고 한다
-    await plan.getByRole('button', { name: '직접 추가' }).click();
-    await page.fill('#eat-name-1', '이치란 라멘');
-    await expect(plan.getByText('가격을 입력해 주세요')).toBeVisible();
-    await page.fill('#eat-price-1', '1500');
-    await expect(plan.getByText('가격을 입력해 주세요')).toHaveCount(0);
-    await expect(page.getByTestId('quality')).toContainText('이치란 라멘');
+    await expect(page.getByTestId('plan-must-eat')).toHaveCount(0);
     // 새로고침해도 유지
     await page.reload();
-    await expect(page.locator('#eat-name-1')).toHaveValue('이치란 라멘');
     await expect(page.locator('#pass-id')).toHaveValue('TYO-TR-003');
   });
 

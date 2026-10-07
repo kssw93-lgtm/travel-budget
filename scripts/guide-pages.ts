@@ -48,7 +48,7 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
       return `<li>${e(s.nameKo)}: ${s.max === 0 ? '무료' : e(range(s, s.currency))}${o.child ? ` · 아동 ${e(range(o.child.sample, s.currency))}` : ''}</li>`;
     })
     .join('');
-  const foods = d.foods.filter((f) => f.cityId === city.id).map((f) => `<li>${e(f.nameKo)} — ${e(f.reason)}</li>`).join('');
+  const foods = d.foods.filter((f) => f.cityId === city.id).map((f) => `<li>${e(f.nameKo)} — ${e(f.desc?.ko ?? f.reason)}</li>`).join('');
   const passTips = ride
     ? g.passTips
         .map((p) =>
@@ -71,7 +71,7 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
     passTips &&
       `        <h2>이용권, 하루 몇 번 타야 이득일까</h2><p>대중교통 1회 요금 대표값(중앙값) ${e(money(ride!.median, cur))} 기준입니다. 실제 요금은 노선·거리에 따라 달라 참고용입니다.</p><ul>${passTips}</ul>`,
     attractions && `        <h2>${e(city.nameKo)} 관광지·테마파크 입장료</h2><ul>${attractions}</ul>`,
-    foods && `        <h2>${e(city.nameKo)}의 대표 음식</h2><ul>${foods}</ul>`,
+    foods && `        <h2>${e(city.nameKo)}에서 먹어 볼 음식</h2><ul>${foods}</ul>`,
     memos && `        <h2>${e(city.nameKo)} 알아두면 좋은 현지 비용</h2><p>팁·세금·숙박세처럼 계산에는 넣지 않았지만 미리 알아두면 좋은 항목입니다.</p><ul>${memos}</ul>`,
   ]
     .filter(Boolean)
@@ -124,7 +124,7 @@ export function homeFallbackHtml(d: GuideData): string {
     '        <h1>현지에서 얼마나 쓸까?</h1>',
     '        <p>도시와 일정을 고르면 외식·교통·관광·기념품 예상 경비를 최소~최대 범위로 계산합니다. 항공권과 숙박은 직접 입력한 경우에만 더합니다.</p>',
     '        <h2>이 계산기로 할 수 있는 것</h2>',
-    '        <ul><li>도시·날짜·인원·여행 스타일(절약·일반·여유)에 맞춘 현지 체류비 범위</li><li>가고 싶은 관광지를 골라 공식 입장료(성인·아동) 더하기</li><li>교통 이용 방식(1회권·이용권), 하루 끼니 수, 꼭 먹을 음식, 음주까지 내 일정에 맞게 조정</li><li>현지 통화와 원화·달러·엔화 환산을 함께 표시</li></ul>',
+    '        <ul><li>도시·날짜·인원·여행 스타일(절약·일반·여유)에 맞춘 현지 체류비 범위</li><li>가고 싶은 관광지를 골라 공식 입장료(성인·아동) 더하기</li><li>교통 이용 방식(1회권·이용권), 하루 끼니 수, 음주까지 내 일정에 맞게 조정</li><li>현지 통화와 원화·달러·엔화 환산을 함께 표시</li></ul>',
     `        <p>모든 금액은 교통 운영사·관광지·식당의 공식 페이지에서 확인한 가격 표본으로 계산하며, 각 가격에는 출처와 확인일이 붙어 있습니다. 가격 자료 기준일 ${e(d.refDate)}.</p>`,
     `        <h2>도시별 여행 경비 가이드 (${d.cities.length}개 도시)</h2>`,
     `        <ul>${items}</ul>`,

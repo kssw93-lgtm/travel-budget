@@ -14,7 +14,15 @@ import * as XLSX from 'xlsx';
 import { classify } from '../src/core/classify';
 import { cityStatus } from '../src/core/estimate';
 import { BASKET_RULES, MODEL } from '../src/core/model-config';
-import type { Category, City, CityMemo, ExtraKind, ExtraSample, FoodRecommendation, ModelUse, PriceSample, SourceGrade } from '../src/core/types';
+
+/** data/overlays/food-info.json 의 한 음식 */
+interface FoodInfo {
+  ko: string;
+  en: string;
+  ja: string;
+  photo?: FoodPhoto;
+}
+import type { Category, City, CityMemo, ExtraKind, ExtraSample, FoodPhoto, FoodRecommendation, ModelUse, PriceSample, SourceGrade } from '../src/core/types';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const latest = JSON.parse(readFileSync(`${root}/data/source/latest.json`, 'utf8')) as { version: string; file: string; date: string };
@@ -320,6 +328,9 @@ function main() {
   // 음식 추천
   const overlay = JSON.parse(readFileSync(`${root}/data/overlays/food-reasons-en.json`, 'utf8')) as Record<string, string>;
   const foodLinks = JSON.parse(readFileSync(`${root}/data/overlays/food-links.json`, 'utf8')) as Record<string, string[]>;
+  // 한 줄 설명(무슨 음식인지)·사진. 사진은 자유 이용 허락 라이선스·위키미디어 원본만 받는다
+  const foodInfo = JSON.parse(readFileSync(`${root}/data/overlays/food-info.json`, 'utf8')) as Record<string, FoodInfo>;
+  const FREE_LICENSE = /^(CC0|Public domain|CC BY(-SA)? [1-4]\.0)/i;
   const foodJa = ['음식(일본어)', '추천 이유(일본어)', '일본어 근거 URL', '일본어 확인 방법'];
   const foodRows: Row[] = [...readTable(wb, '음식 추천', '국가', foodJa), ...additionRows('foods', '국가', ['비고', '연결 가격 ID', ...foodJa]).map((x) => x.r)];
   const foods: FoodRecommendation[] = foodRows.map((r) => {
@@ -328,6 +339,12 @@ function main() {
     const linked = [...new Set([...r('연결 가격 ID').split(/[\s,;/]+/).filter(Boolean), ...(foodLinks[`${city.id}:${r('Food')}`] ?? [])])];
     for (const id of linked) if (!ids.has(id)) errors.push(`음식 '${r('음식(한글)')}': 연결 가격 ID '${id}' 없음`);
     const reasonEn = overlay[`${city.id}:${r('Food')}`];
+    const info = foodInfo[`${city.id}:${r('Food')}`];
+    if (!info) notes.push(`음식 설명 없음: ${city.id}:${r('Food')}`);
+    const photo = info?.photo;
+    if (photo && (!/^https:\/\/upload\.wikimedia\.org\//.test(photo.url) || !FREE_LICENSE.test(photo.license) || !photo.author || !photo.page)) {
+      errors.push(`음식 사진 '${city.id}:${r('Food')}': 위키미디어 원본 주소·자유 라이선스(CC0/PD/CC BY/CC BY-SA)·작가·원본 페이지가 모두 있어야 함`);
+    }
     if (!reasonEn) notes.push(`영문 추천 이유 없음: ${city.id}:${r('Food')}`);
     return {
       cityId: city.id,
@@ -335,6 +352,8 @@ function main() {
       nameEn: r('Food'),
       reason: r('추천 이유'),
       ...(reasonEn ? { reasonEn } : {}),
+      ...(info ? { desc: { ko: info.ko, en: info.en, ja: info.ja } } : {}),
+      ...(photo ? { photo } : {}),
       ...jaName(r('음식(일본어)'), r('일본어 확인 방법')),
       ...(r('추천 이유(일본어)') ? { reasonJa: r('추천 이유(일본어)') } : {}),
       budgetBand: r('예산대'),

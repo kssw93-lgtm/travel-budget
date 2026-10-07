@@ -1,22 +1,18 @@
-import { useState } from "react";
 import { MODEL } from "../core/model-config";
 import { passOptions, passesNeeded } from "../core/transport";
-import type { City, FoodRecommendation, PriceSample } from "../core/types";
+import type { City, PriceSample } from "../core/types";
 import { fmt, localName, useI18n } from "../i18n";
 import {
   PLAN_LIMITS,
   type FieldError,
   type FormState,
-  type MustEatInput,
   type TransportMode,
 } from "./form";
-import { RangeText } from "./money";
 import { DrinkOptions } from "./DrinkOptions";
 
 interface Props {
   city: City;
   samples: PriceSample[];
-  foods: FoodRecommendation[];
   form: FormState;
   onChange: (p: Partial<FormState>) => void;
   errors: Partial<Record<FieldError, true>>;
@@ -24,30 +20,13 @@ interface Props {
   days: number;
 }
 
-/** 대표 음식의 조사된 메뉴 가격(연결된 외식 표본 중 첫 번째). 없으면 null */
-function researchedPrice(
-  f: FoodRecommendation,
-  byId: Map<string, PriceSample>,
-): PriceSample | null {
-  for (const id of f.linkedPriceIds) {
-    const s = byId.get(id);
-    if (s && s.category === "food" && s.modelUse !== "no") return s;
-  }
-  return null;
-}
-
-/** 계산기에 넣을 1인분 가격: 조사 가격 범위의 가운데(소수 둘째 자리까지) */
-const midPrice = (s: PriceSample) =>
-  String(Math.round(((s.min + s.max) / 2) * 100) / 100);
-
 /**
- * 자세히 설정(선택): 교통 이용 방식·하루 끼니 수·꼭 먹을 음식. 접혀 있으면 기본(여행 스타일 기준)으로 계산한다.
+ * 자세히 설정(선택): 교통 이용 방식·하루 끼니 수·음주. 접혀 있으면 기본(여행 스타일 기준)으로 계산한다.
  * 고른 값은 모두 URL 에 남는다.
  */
 export function PlanOptions({
   city,
   samples,
-  foods,
   form,
   onChange,
   errors,
@@ -56,15 +35,11 @@ export function PlanOptions({
   const { t, lang } = useI18n();
   const p = t.plan;
   const passes = passOptions(city, samples);
-  const byId = new Map(samples.map((s) => [s.id, s]));
-  const cityFoods = foods.filter((f) => f.cityId === city.id);
-  const [pick, setPick] = useState("");
   const customized =
     form.transportMode !== "auto" ||
     form.drinksPerDay !== "" ||
     form.drinkPicks.length > 0 ||
-    form.mealsPerDay !== "" ||
-    form.mustEat.length > 0;
+    form.mealsPerDay !== "";
   const autoRides = MODEL.usage.ride[form.style];
 
   const setMode = (transportMode: TransportMode) =>
@@ -74,19 +49,6 @@ export function PlanOptions({
         ? { passId: passes[0].id }
         : {}),
     });
-  const setEat = (mustEat: MustEatInput[]) => onChange({ mustEat });
-  const addFood = (f: FoodRecommendation) => {
-    const s = researchedPrice(f, byId);
-    setEat([
-      ...form.mustEat,
-      {
-        name: localName(lang, f.nameKo, f.nameEn, f.nameJa),
-        price: s ? midPrice(s) : "",
-        ...(s ? { sampleId: s.id } : {}),
-      },
-    ]);
-  };
-  const full = form.mustEat.length >= PLAN_LIMITS.mustEatMax;
   const transitDays =
     form.transitDays.trim() === "" ? days : Number(form.transitDays) || 0;
   const chosenPass = passes.find((o) => o.id === form.passId);
@@ -237,130 +199,6 @@ export function PlanOptions({
             ))}
           </select>
         </div>
-
-        <fieldset className="plan-group" data-testid="plan-must-eat">
-          <legend>{p.mustEat}</legend>
-          <p className="hint">{p.mustEatLead}</p>
-          {form.mustEat.length > 0 && (
-            <ul className="must-eat-list">
-              {form.mustEat.map((m, i) => {
-                const s = m.sampleId ? byId.get(m.sampleId) : undefined;
-                const missing = m.price.trim() === "" || !m.name.trim();
-                const set = (patch: Partial<MustEatInput>) =>
-                  setEat(
-                    form.mustEat.map((x, j) =>
-                      j === i ? { ...x, ...patch } : x,
-                    ),
-                  );
-                return (
-                  <li key={i} className="must-eat-row" data-must-eat={i}>
-                    <div className="field">
-                      <label htmlFor={`eat-name-${i}`}>{p.name}</label>
-                      <input
-                        id={`eat-name-${i}`}
-                        type="text"
-                        maxLength={PLAN_LIMITS.nameMax}
-                        value={m.name}
-                        onChange={(e) => set({ name: e.target.value })}
-                      />
-                    </div>
-                    <div className="field">
-                      <label htmlFor={`eat-price-${i}`}>
-                        {fmt(p.price, { currency: city.currency })}
-                      </label>
-                      <input
-                        id={`eat-price-${i}`}
-                        type="text"
-                        inputMode="decimal"
-                        value={m.price}
-                        // 가격을 고치면 조사 가격이 아니라 직접 입력한 값이 된다
-                        onChange={(e) =>
-                          set({ price: e.target.value, sampleId: undefined })
-                        }
-                        aria-invalid={missing ? true : undefined}
-                      />
-                      {s ? (
-                        <p className="hint">
-                          {p.priceAuto}{" "}
-                          <RangeText
-                            range={{ min: s.min, max: s.max }}
-                            currency={s.currency}
-                          />{" "}
-                          · {s.sourceName}
-                        </p>
-                      ) : (
-                        missing && (
-                          <p className="field-error" role="alert">
-                            {p.priceNeeded}
-                          </p>
-                        )
-                      )}
-                    </div>
-                    <button
-                      type="button"
-                      className="link-button"
-                      onClick={() =>
-                        setEat(form.mustEat.filter((_, j) => j !== i))
-                      }
-                    >
-                      {p.remove}
-                    </button>
-                  </li>
-                );
-              })}
-            </ul>
-          )}
-          {full ? (
-            <p className="hint">{fmt(p.max, { n: PLAN_LIMITS.mustEatMax })}</p>
-          ) : (
-            <div className="must-eat-add">
-              {cityFoods.length > 0 && (
-                <>
-                  <label htmlFor="eat-pick" className="sr-only">
-                    {p.pick}
-                  </label>
-                  <select
-                    id="eat-pick"
-                    value={pick}
-                    onChange={(e) => setPick(e.target.value)}
-                  >
-                    <option value="">{p.pickPlaceholder}</option>
-                    {cityFoods.map((f) => {
-                      const s = researchedPrice(f, byId);
-                      return (
-                        <option key={f.nameEn} value={f.nameEn}>
-                          {localName(lang, f.nameKo, f.nameEn, f.nameJa)}
-                          {s
-                            ? ` · ${s.min === s.max ? s.min : `${s.min}~${s.max}`} ${s.currency}`
-                            : ""}
-                        </option>
-                      );
-                    })}
-                  </select>
-                  <button
-                    type="button"
-                    disabled={!pick}
-                    onClick={() => {
-                      const f = cityFoods.find((x) => x.nameEn === pick);
-                      if (f) addFood(f);
-                      setPick("");
-                    }}
-                  >
-                    {p.add}
-                  </button>
-                </>
-              )}
-              <button
-                type="button"
-                onClick={() =>
-                  setEat([...form.mustEat, { name: "", price: "" }])
-                }
-              >
-                {p.addCustom}
-              </button>
-            </div>
-          )}
-        </fieldset>
 
         <DrinkOptions city={city} samples={samples} form={form} onChange={onChange} errors={errors} />
       </details>

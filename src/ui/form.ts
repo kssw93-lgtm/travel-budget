@@ -40,13 +40,12 @@ export interface FormState {
   /** 자세히 설정: 하루 끼니 수(비우면 기본) */
   mealsPerDay: string;
   /** 자세히 설정: 꼭 먹을 음식 */
-  mustEat: MustEatInput[];
   /** 자세히 설정(음주): 성인 1인 하루 잔 수(비우면 스타일 기본)와 마실 술 */
   drinksPerDay: string;
   drinkPicks: MustEatInput[];
 }
 
-export type FieldError = 'date' | 'nights' | 'adults' | 'children' | 'flight' | 'lodging' | 'rentalDays' | 'ridesPerDay' | 'transitDays' | 'mustEat' | 'drinkPicks';
+export type FieldError = 'date' | 'nights' | 'adults' | 'children' | 'flight' | 'lodging' | 'rentalDays' | 'ridesPerDay' | 'transitDays' | 'drinkPicks';
 
 /** 자세히 설정의 입력 한도 */
 export const PLAN_LIMITS = { ridesMax: 20, mustEatMax: 10, nameMax: 40 } as const;
@@ -98,16 +97,6 @@ export function parseForm(f: FormState): ParsedForm {
   if (f.transportMode === 'none') transport = { mode: 'none' };
   else if (f.transportMode === 'rides' && !errors.ridesPerDay && !errors.transitDays) transport = { mode: 'rides', perDay: rides, days: useDays };
   else if (f.transportMode === 'pass' && f.passId && !errors.transitDays) transport = { mode: 'pass', passId: f.passId, days: useDays };
-  // 꼭 먹을 음식: 이름과 가격이 모두 있어야 계산에 넣는다. 가격이 비었거나 틀리면 오류로 알린다
-  const mustEat: MustEat[] = [];
-  for (const m of f.mustEat) {
-    const price = m.price.trim() === '' ? Number.NaN : toAmount(m.price);
-    if (!m.name.trim() || Number.isNaN(price)) {
-      errors.mustEat = true;
-      continue;
-    }
-    mustEat.push({ name: m.name.trim(), price, ...(m.sampleId ? { sampleId: m.sampleId } : {}) });
-  }
   const meals = toInt(f.mealsPerDay);
   const drinkPicks: MustEat[] = [];
   for (const d of f.drinkPicks) {
@@ -127,7 +116,6 @@ export function parseForm(f: FormState): ParsedForm {
           ...(f.rental && !errors.rentalDays ? { rentalId: f.rental, rentalDays } : {}),
           ...(transport ? { transport } : {}),
           ...(meals >= 1 && meals <= 4 ? { mealsPerDay: meals } : {}),
-          ...(mustEat.length ? { mustEat } : {}),
           ...(f.drinks && drinksPerDay >= 0 && drinksPerDay <= 10 ? { drinksPerDay } : {}),
           ...(f.drinks && drinkPicks.length ? { drinkPicks } : {}) } : null,
     direct: { flight: errors.flight ? 0 : flight, lodging: errors.lodging ? 0 : lodging },

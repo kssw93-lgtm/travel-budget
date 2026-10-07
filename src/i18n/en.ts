@@ -102,14 +102,8 @@ export const en: Messages = {
   },
   baskets: { pass: 'Daily pass', ride: 'Single ride', meal: 'Meals', snack: 'Snacks & drinks', drink: 'Alcohol', attraction: 'Admission', souvenir: 'Souvenirs' },
   foods: {
-    title: 'Signature dishes in {city}',
-    lead: 'Recommendations are based on tourism boards and official guides; prices come only from separate menu-price research. The two use different sources.',
-    why: 'Why recommended', priceEvidence: 'Price evidence',
-    band: 'Budget',
-    noPrice: 'No verified menu price yet (research pending).',
-    priceLine: '{name} · {range}',
+    title: 'What to eat in {city}',
     newWindow: '(opens in a new window)',
-    bands: { '저': 'Low', '저~중': 'Low–mid', '중': 'Mid', '중~고': 'Mid–high', '고': 'High' },
   },
   cityGuide: {
     indexTitle: 'Travel cost guides by city',
@@ -148,7 +142,7 @@ export const en: Messages = {
   },
   plan: {
     title: 'Detailed settings (optional)',
-    lead: 'Set how you get around, meals per day and dishes you must try to get an estimate closer to your own plan. Otherwise the travel style assumptions are used.',
+    lead: 'Set how you get around, meals per day and drinks to get an estimate closer to your own plan. Otherwise the travel style assumptions are used.',
     summaryDefault: 'Based on travel style',
     transport: 'Getting around',
     tAuto: 'Based on travel style ({n} rides per person per day)',

@@ -106,14 +106,8 @@ export const ja: Messages = {
   },
   baskets: { pass: '1日乗車券', ride: '1回券', meal: '食事', snack: '軽食・飲み物', drink: '酒類', attraction: '入場券', souvenir: 'お土産' } as Record<string, string>,
   foods: {
-    title: '{city}の代表的な料理',
-    lead: 'おすすめは観光局・公式ガイドを根拠としており、価格は別途調査したメニュー価格のみを表示します。両者は別々の根拠です。',
-    why: 'おすすめの根拠', priceEvidence: '価格の根拠',
-    band: '価格帯',
-    noPrice: '確認済みのメニュー価格はまだありません（調査待ち）。',
-    priceLine: '{name} · {range}',
+    title: '{city}で食べたい料理',
     newWindow: '（新しいウィンドウ）',
-    bands: { '저': '低価格', '저~중': '低〜中価格', '중': '中価格', '중~고': '中〜高価格', '고': '高価格' } as Record<string, string>,
   },
   cityGuide: {
     indexTitle: '都市別旅行費用ガイド',
@@ -152,7 +146,7 @@ export const ja: Messages = {
   },
   plan: {
     title: '詳しい設定（任意）',
-    lead: '交通機関の使い方、1日の食事回数、必ず食べたい料理を決めると、自分の日程により近い金額で計算します。決めなければ旅行スタイルを基準に計算します。',
+    lead: '交通機関の使い方、1日の食事回数、お酒を決めると、自分の日程により近い金額で計算します。決めなければ旅行スタイルを基準に計算します。',
     summaryDefault: '旅行スタイル基準',
     transport: '交通機関の使い方',
     tAuto: '旅行スタイル基準（毎日1人{n}回）',

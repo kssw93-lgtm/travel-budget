@@ -88,6 +88,10 @@ export interface FoodRecommendation {
   /** 일본어 이름(확인된 표기만)과 일본어 추천 이유 */
   nameJa?: string;
   reasonJa?: string;
+  /** 무슨 음식인지 한 줄 설명(한·영·일) */
+  desc?: { ko: string; en: string; ja: string };
+  /** 자유 이용 허락 사진(위키미디어 공용). 없으면 사진 없이 보인다 */
+  photo?: FoodPhoto;
   /** 저 / 저~중 / 중 / 중~고 / 고 */
   budgetBand: string;
   linkedPriceIds: string[];
@@ -95,6 +99,16 @@ export interface FoodRecommendation {
   recommendSource: string;
   recommendUrl: string;
   note: string;
+}
+
+export interface FoodPhoto {
+  /** 이미지 주소(upload.wikimedia.org) */
+  url: string;
+  author: string;
+  /** 예: CC BY-SA 4.0, CC0, Public domain */
+  license: string;
+  /** 위키미디어 공용 파일 페이지 */
+  page: string;
 }
 
 export interface TripInput {

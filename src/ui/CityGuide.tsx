@@ -245,7 +245,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
       <PriceGuide city={city} samples={samples} display={display} rates={rates} />
       <PassTips guide={guide} />
       <AttractionTable guide={guide} display={display} rates={rates} />
-      <FoodSection city={city} foods={foods} samples={samples} display={display} rates={rates} />
+      <FoodSection city={city} foods={foods} />
       <CityMemos city={city} memos={memos} />
 
       <nav className="card" aria-labelledby="guide-others-title" data-testid="guide-others">

@@ -29,7 +29,6 @@ const KEYS = {
   transitDays: 'tdays',
   passId: 'pass',
   mealsPerDay: 'meals',
-  mustEat: 'eat',
   drinksPerDay: 'dpd',
   drinkPicks: 'dk',
 } as const satisfies Record<keyof FormState, string>;
@@ -77,14 +76,12 @@ export function readForm(search: string, cityIds: string[]): Partial<FormState> 
   }
   const pass = get('passId');
   if (pass && EXTRA_ID.test(pass)) out.passId = pass;
-  const eat = get('mustEat');
-  if (eat) out.mustEat = decodeMustEat(eat);
   const dk = get('drinkPicks');
   if (dk) out.drinkPicks = decodeMustEat(dk);
   return out;
 }
 
-/** 꼭 먹을 음식은 "이름~가격~표본ID" 를 | 로 이어 담는다(이름의 ~·| 는 지운다) */
+/** 마실 술은 "이름~가격~표본ID" 를 | 로 이어 담는다(이름의 ~·| 는 지운다) */
 const clean = (v: string) => v.replace(/[~|]/g, ' ').slice(0, PLAN_LIMITS.nameMax);
 function encodeMustEat(list: MustEatInput[]): string {
   return list.map((m) => [clean(m.name), m.price.trim(), m.sampleId ?? ''].join('~').replace(/~$/, '')).join('|');
@@ -132,8 +129,8 @@ export function formToSearch(form: FormState, lang: Lang): string {
     if (k === 'ridesPerDay' && form.transportMode !== 'rides') return;
     if (k === 'transitDays' && form.transportMode !== 'rides' && form.transportMode !== 'pass') return;
     if (k === 'passId' && form.transportMode !== 'pass') return;
-    if (k === 'mustEat' || k === 'drinkPicks') {
-      if (form[k].length && (k === 'mustEat' || form.drinks)) q.set(KEYS[k], encodeMustEat(form[k]));
+    if (k === 'drinkPicks') {
+      if (form.drinkPicks.length && form.drinks) q.set(KEYS.drinkPicks, encodeMustEat(form.drinkPicks));
       return;
     }
     if (k === 'drinksPerDay' && !form.drinks) return;

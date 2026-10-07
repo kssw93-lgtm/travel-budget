@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { estimateTrip } from '../core/estimate';
-import { cityById, cities, extras, foods, samples } from '../data';
+import { cityById, cities, extras, samples } from '../data';
 import { DEFAULT_CURRENCY, useI18n } from '../i18n';
 import { AttractionPicker } from './AttractionPicker';
 import { ExtrasPicker } from './ExtrasPicker';
@@ -56,7 +56,6 @@ export function Calculator() {
       transitDays: fromUrl.transitDays ?? '',
       passId: fromUrl.passId ?? '',
       mealsPerDay: fromUrl.mealsPerDay ?? '',
-      mustEat: fromUrl.mustEat ?? [],
       drinksPerDay: fromUrl.drinksPerDay ?? '',
       drinkPicks: fromUrl.drinkPicks ?? [],
     };
@@ -67,7 +66,7 @@ export function Calculator() {
       ...f,
       ...p,
       ...(p.cityId && p.cityId !== f.cityId
-        ? { attractions: [], airport: '', airportTrips: '2' as const, rental: '', rentalDays: '', passId: '', mustEat: [], drinkPicks: [], ...(f.transportMode === 'pass' ? { transportMode: 'auto' as const } : {}) }
+        ? { attractions: [], airport: '', airportTrips: '2' as const, rental: '', rentalDays: '', passId: '', drinkPicks: [], ...(f.transportMode === 'pass' ? { transportMode: 'auto' as const } : {}) }
         : {}),
     }));
 
@@ -106,7 +105,6 @@ export function Calculator() {
         <PlanOptions
           city={city}
           samples={samples}
-          foods={foods}
           form={form}
           onChange={patch}
           errors={parsed.errors}

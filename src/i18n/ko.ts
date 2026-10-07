@@ -101,14 +101,8 @@ export const ko = {
   },
   baskets: { pass: '1일 이용권', ride: '1회권', meal: '식사', snack: '간식·음료', drink: '주류', attraction: '입장권', souvenir: '기념품' } as Record<string, string>,
   foods: {
-    title: '{city}의 대표 음식',
-    lead: '추천은 관광청·공식 가이드를 근거로 하고, 가격은 별도의 메뉴 가격 조사로만 표시합니다. 둘은 서로 다른 근거입니다.',
-    why: '추천 근거', priceEvidence: '가격 근거',
-    band: '예산대',
-    noPrice: '아직 확인된 메뉴 가격이 없습니다 (조사 대기).',
-    priceLine: '{name} · {range}',
+    title: '{city}에서 먹어 볼 음식',
     newWindow: '(새 창)',
-    bands: { '저': '저가', '저~중': '저가~중가', '중': '중가', '중~고': '중가~고가', '고': '고가' } as Record<string, string>,
   },
   cityGuide: {
     indexTitle: '도시별 여행 경비 가이드',
@@ -147,7 +141,7 @@ export const ko = {
   },
   plan: {
     title: '자세히 설정 (선택)',
-    lead: '교통을 타는 방식, 하루 끼니 수, 꼭 먹을 음식을 정하면 내 일정에 더 가깝게 계산합니다. 정하지 않으면 여행 스타일 기준으로 계산합니다.',
+    lead: '교통을 타는 방식, 하루 끼니 수, 음주를 정하면 내 일정에 더 가깝게 계산합니다. 정하지 않으면 여행 스타일 기준으로 계산합니다.',
     summaryDefault: '여행 스타일 기준',
     transport: '교통 이용 방식',
     tAuto: '여행 스타일 기준 (매일 1인 {n}회)',

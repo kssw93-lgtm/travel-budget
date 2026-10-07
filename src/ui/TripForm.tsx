@@ -73,7 +73,6 @@ export function TripForm({ form, onChange, errors, cities, rates }: Props) {
     rentalDays: fmt(t.form.errors.rentalDays, { max: L.nightsMax + 1 }),
     ridesPerDay: t.form.errors.ridesPerDay,
     transitDays: fmt(t.form.errors.transitDays, { max: L.nightsMax + 1 }),
-    mustEat: t.form.errors.mustEat,
     drinkPicks: t.form.errors.drinkPicks,
   };
   const field = (id: FieldError) =>

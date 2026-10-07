@@ -85,7 +85,9 @@ td.insufficient, .insufficient { color: var(--err); }
 .table-wrap:focus-visible { outline: 3px solid var(--brand); outline-offset: 2px; }
 .quality details { border-top: 1px solid var(--line); padding: 8px 0; } .quality p { margin: .3rem 0; font-size: .92rem; } .warnings { margin: .3rem 0; padding-left: 1.2rem; font-size: .9rem; color: var(--muted); }
 .food-list { list-style: none; padding: 0; margin: 12px 0 0; display: grid; gap: 12px; }
-.food { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; } .food h3 { margin: 0 0 4px; } .food h3 small { color: var(--muted); font-weight: 400; margin-left: 8px; }
+.food { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; } .food-body { padding: 12px 14px; } .food h3 { margin: 0 0 4px; font-size: 1.05rem; } .food h3 small { color: var(--muted); font-weight: 400; margin-left: 8px; font-size: .82rem; } .food p { margin: 0; }
+.food-photo { margin: 0; } .food-photo img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; background: var(--line); }
+.food-photo figcaption { font-size: .7rem; color: var(--muted); padding: 2px 14px 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .band { margin: 0 0 6px; font-size: .88rem; color: var(--muted); } .evidence { border-top: 1px dashed var(--line); margin-top: 8px; } .evidence p, .evidence ul { margin: .2rem 0; font-size: .92rem; } .evidence ul { padding-left: 1.1rem; }
 .prose ul { padding-left: 1.2rem; } .prose li { margin: .35rem 0; } .prose h2 { margin-top: 1.5rem; }
 .site-footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; padding: 16px 0 32px; } .site-footer p { margin: .2rem 0; }

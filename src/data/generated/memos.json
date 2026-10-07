@@ -24,6 +24,42 @@
     "note": "만족 시 5~10% 관행(출처가 시청 공식 사이트가 아님)"
   },
   {
+    "cityId": "cebu",
+    "item": "일반 택시 요금(2026-09-28 시행)",
+    "value": "기본 65페소 + 1km당 13.50페소 + 이동 1분당 2페소",
+    "itemEn": "Regular taxi fare (from 28 Sep 2026)",
+    "valueEn": "PHP 65 flag-down + PHP 13.50 per km + PHP 2 per minute",
+    "unit": "",
+    "sourceName": "LTFRB",
+    "sourceUrl": "https://ltfrb.gov.ph/fare-rates",
+    "checkedAt": "2026-10-07",
+    "note": "운영자 제공 LTFRB 공지(NEW REGULAR TAXI FARE RATES). 세부 지역 적용 여부는 LTFRB 7지역 확인 필요. 학생·노인·장애인 20% 할인"
+  },
+  {
+    "cityId": "cebu",
+    "item": "공항 택시 요금(2026-09-28 시행)",
+    "value": "기본 115페소(첫 500m) + 300m마다 4페소 + 2분마다 4페소",
+    "itemEn": "Airport taxi fare (from 28 Sep 2026)",
+    "valueEn": "PHP 115 for the first 500 m + PHP 4 per 300 m + PHP 4 per 2 minutes",
+    "unit": "",
+    "sourceName": "LTFRB",
+    "sourceUrl": "https://ltfrb.gov.ph/fare-rates",
+    "checkedAt": "2026-10-07",
+    "note": "운영자 제공 LTFRB 공지(NEW AIRPORT TAXI FARE RATES). 막탄 세부 공항 적용 여부 확인 필요"
+  },
+  {
+    "cityId": "cebu",
+    "item": "차량 호출(그랩 등 TNVS) 요금(2026-09-28 시행)",
+    "value": "소형 기본 55페소+1km 13페소, 세단 65페소+15페소, SUV 75페소+18페소, 프리미엄 165페소+36페소 + 1분당 2~4페소",
+    "itemEn": "Ride-hailing (TNVS, e.g. Grab) fares (from 28 Sep 2026)",
+    "valueEn": "Hatchback PHP 55 + PHP 13/km, sedan PHP 65 + PHP 15/km, SUV PHP 75 + PHP 18/km, premium PHP 165 + PHP 36/km, plus PHP 2–4 per minute",
+    "unit": "",
+    "sourceName": "LTFRB",
+    "sourceUrl": "https://ltfrb.gov.ph/fare-rates",
+    "checkedAt": "2026-10-07",
+    "note": "운영자 제공 LTFRB 공지(NEW TNVS FARE RATES). 픽업 요금 1km당 15페소 별도 표기. 앱의 수요 할증은 이 표와 다를 수 있음"
+  },
+  {
     "cityId": "new-york",
     "item": "OMNY 7일 요금 상한",
     "value": "같은 카드·기기로 7일 안에 지하철·시내버스 요금이 35달러에 이르면 이후 무료",

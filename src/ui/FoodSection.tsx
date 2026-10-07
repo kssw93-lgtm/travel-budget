@@ -31,7 +31,7 @@ export function FoodSection({ city, foods }: Props) {
                 <figure className="food-photo">
                   <img src={f.photo.url} alt={name} loading="lazy" decoding="async" width={400} height={300} />
                   <figcaption>
-                    <ExternalLink href={f.photo.page}>{`${f.photo.author} · ${f.photo.license}`}</ExternalLink>
+                    <ExternalLink href={f.photo.page}>{`${t.foods.photo} ${f.photo.author} · ${f.photo.license}`}</ExternalLink>
                   </figcaption>
                 </figure>
               )}

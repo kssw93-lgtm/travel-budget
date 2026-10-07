@@ -102,6 +102,7 @@ export const en: Messages = {
   },
   baskets: { pass: 'Daily pass', ride: 'Single ride', meal: 'Meals', snack: 'Snacks & drinks', drink: 'Alcohol', attraction: 'Admission', souvenir: 'Souvenirs' },
   foods: {
+    photo: 'Photo:',
     title: 'What to eat in {city}',
     newWindow: '(opens in a new window)',
   },
@@ -324,6 +325,7 @@ export const en: Messages = {
       ] },
       { h: 'External links', body: [
         'Price sources and food recommendation sources link to the sites of those organisations and businesses, whose own privacy policies apply.',
+        'Food photos in the city guides are loaded directly from Wikimedia Commons (upload.wikimedia.org), so your browser connects to Wikimedia servers when it shows them, and the Wikimedia Foundation privacy policy (https://foundation.wikimedia.org/wiki/Policy:Privacy_policy) applies.',
       ] },
       { h: 'Changes', body: [
         'If this policy changes, we will post the update on this page with its effective date.',

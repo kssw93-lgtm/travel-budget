@@ -1,2 +1,2 @@
 /** 개인정보처리방침 시행일(화면·정적 HTML 공통). 방침 내용을 바꾸면 함께 바꾼다. 빌드 설정에서도 읽으므로 브라우저 전용 코드를 두지 않는다 */
-export const PRIVACY_EFFECTIVE = '2026-10-02';
+export const PRIVACY_EFFECTIVE = '2026-10-07';

@@ -101,6 +101,7 @@ export const ko = {
   },
   baskets: { pass: '1일 이용권', ride: '1회권', meal: '식사', snack: '간식·음료', drink: '주류', attraction: '입장권', souvenir: '기념품' } as Record<string, string>,
   foods: {
+    photo: '사진:',
     title: '{city}에서 먹어 볼 음식',
     newWindow: '(새 창)',
   },
@@ -323,6 +324,7 @@ export const ko = {
       ] },
       { h: '외부 링크', body: [
         '가격 출처와 대표 음식 추천 출처는 해당 기관·업체의 사이트로 연결되며, 그 사이트의 개인정보 처리는 각 사이트의 방침을 따릅니다.',
+        '도시 가이드의 음식 사진은 위키미디어 공용(upload.wikimedia.org)에서 직접 불러오므로, 사진을 볼 때 브라우저가 위키미디어 서버에 접속하며 위키미디어 재단의 개인정보 정책(https://foundation.wikimedia.org/wiki/Policy:Privacy_policy)이 적용됩니다.',
       ] },
       { h: '방침 변경', body: [
         '이 방침이 바뀌면 이 페이지에 시행일과 함께 알립니다.',

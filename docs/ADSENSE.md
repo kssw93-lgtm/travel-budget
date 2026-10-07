@@ -7,7 +7,7 @@
 
 - [x] **사이트 소개** `/about`, **개인정보처리방침** `/privacy`(한/영). 헤더·푸터에서 모든 페이지로 연결
   - 개인정보처리방침에 Google 광고 쿠키, 맞춤 광고 해제(adssettings.google.com), aboutads.info,
-    EEA·영국·스위스 동의 안내, 시행일(2026-10-02) 포함
+    EEA·영국·스위스 동의 안내, 시행일(2026-10-07, 위키미디어 사진 안내 추가) 포함
 - [x] 정적 HTML(`about.html`, `privacy.html`)도 자체 제목·설명·JSON-LD 를 가짐(JS 실행 전 크롤러용)
 - [x] `robots.txt` 항상 생성, `SITE_URL` 이 있으면 `sitemap.xml`·canonical·hreflang 생성
 - [x] `ADSENSE_PUBLISHER_ID=pub-16자리` 를 주고 빌드하면 `ads.txt` 생성(형식이 틀리면 빌드 실패)

@@ -106,6 +106,7 @@ export const ja: Messages = {
   },
   baskets: { pass: '1日乗車券', ride: '1回券', meal: '食事', snack: '軽食・飲み物', drink: '酒類', attraction: '入場券', souvenir: 'お土産' } as Record<string, string>,
   foods: {
+    photo: '写真：',
     title: '{city}で食べたい料理',
     newWindow: '（新しいウィンドウ）',
   },
@@ -328,6 +329,7 @@ export const ja: Messages = {
       ] },
       { h: '外部リンク', body: [
         '価格の出典と代表的な料理のおすすめの出典は、各機関・事業者のサイトにリンクしており、そのサイトでの個人情報の取り扱いは各サイトの方針に従います。',
+        '都市ガイドの料理写真はウィキメディア・コモンズ（upload.wikimedia.org）から直接読み込むため、写真を表示する際にブラウザがウィキメディアのサーバーに接続し、ウィキメディア財団のプライバシーポリシー（https://foundation.wikimedia.org/wiki/Policy:Privacy_policy）が適用されます。',
       ] },
       { h: 'ポリシーの変更', body: [
         'このポリシーを変更する場合は、このページで施行日とあわせてお知らせします。',

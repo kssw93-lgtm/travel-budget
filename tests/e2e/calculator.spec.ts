@@ -220,7 +220,7 @@ test.describe('사이트 소개·개인정보처리방침', () => {
     await page.getByRole('contentinfo').getByRole('link', { name: '개인정보처리방침' }).click();
     await expect(page).toHaveURL(/\/privacy\?lang=ko$/);
     const privacy = page.getByTestId('privacy');
-    await expect(privacy).toContainText('2026-10-02');
+    await expect(privacy).toContainText('2026-10-07');
     await expect(privacy).toContainText('쿠키');
     await expect(privacy.locator('a[href="https://adssettings.google.com/"], a[href^="https://adssettings.google.com"]')).toHaveCount(1);
     await page.getByRole('button', { name: 'English' }).click();

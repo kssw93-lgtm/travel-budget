@@ -106,7 +106,8 @@ test.describe('광고 자리 CLS', () => {
       }).observe({ type: 'layout-shift', buffered: true });
     });
     await page.goto('/?city=tokyo&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=KRW');
-    await expect(page.getByTestId('rates-info')).toBeVisible({ timeout: 5000 });
+    await expect(page.getByTestId('total')).toBeVisible({ timeout: 5000 });
+    await expect(page.getByTestId('total')).toContainText('₩', { timeout: 5000 }); // 환율 적용 후 선택 통화 금액
     await page.waitForTimeout(300);
     const cls = await page.evaluate(() => (window as unknown as { __cls: number }).__cls);
     expect(cls).toBeLessThan(0.1);

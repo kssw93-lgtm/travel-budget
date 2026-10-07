@@ -45,6 +45,7 @@ export const ko = {
     total: '전체 현지 체류비 (예비비 포함)',
     range: '최소 ~ 최대',
     local: '현지 통화', selected: '선택 통화', usd: 'USD 참고',
+    amount: '금액',
     dailyFood: '하루 평균 외식비',
     dailyFoodNote: '전체 인원 합계 ÷ {days}일',
     breakdown: '항목별 경비',

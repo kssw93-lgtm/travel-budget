@@ -33,9 +33,10 @@ test.describe('계산기 핵심 흐름', () => {
 
     const total = page.getByTestId('total');
     await expect(total).toBeVisible();
-    await expect(total).toContainText('JPY');
+    // 선택 통화(원화)를 크게, 현지 통화(엔화)를 작게. USD 참고값은 따로 보이지 않는다
+    await expect(total).toContainText('JP¥');
     await expect(total).toContainText('₩');
-    await expect(total).toContainText('USD 참고');
+    await expect(total).not.toContainText('US$');
     await expect(total).toContainText('~'); // 최소~최대 범위
     await expect(page.getByTestId('daily-food')).toContainText('하루 평균 외식비');
 
@@ -55,7 +56,17 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(page.getByTestId('rates-info')).toContainText('2026-10-02');
     await expect(page.getByTestId('rates-info')).toContainText('ECB');
 
-    // 대표 음식: 추천 근거와 가격 근거 분리
+    // 광고는 자리만(좌우 레일 + 결과 뒤 인라인 1개). 실제 광고 코드·추적 스크립트 없음
+    for (const slot of ['rail-left', 'rail-right', 'inline-results']) {
+      await expect(page.locator(`[data-ad-slot="${slot}"]`)).toHaveCount(1);
+    }
+    expect(await page.locator('script[src*="googlesyndication"], script[src*="googletagmanager"], script[src*="doubleclick"], ins.adsbygoogle').count()).toBe(0);
+
+    // 계산 결과 화면에는 물가표·현지 비용 메모·대표 음식을 두지 않는다(자료는 계산에만 쓴다)
+    for (const id of ['price-guide', 'city-memos', 'foods']) await expect(page.getByTestId(id)).toHaveCount(0);
+
+    // 대표 음식은 도시 가이드에: 추천 근거와 가격 근거 분리
+    await page.goto('/guide/tokyo?lang=ko');
     const foods = page.getByTestId('foods');
     await expect(foods).toContainText('규동');
     await expect(foods.locator('[data-food="Gyudon"]')).toContainText('추천 근거');
@@ -64,11 +75,6 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(foods.locator('[data-food="Ramen"]')).toContainText('라멘 곱빼기');
     await expect(foods.locator('[data-food="Edomae Sushi"]')).toContainText('아직 확인된 메뉴 가격이 없습니다');
 
-    // 광고는 자리만(좌우 레일 + 결과 뒤 인라인 1개). 실제 광고 코드·추적 스크립트 없음
-    for (const slot of ['rail-left', 'rail-right', 'inline-results']) {
-      await expect(page.locator(`[data-ad-slot="${slot}"]`)).toHaveCount(1);
-    }
-    expect(await page.locator('script[src*="googlesyndication"], script[src*="googletagmanager"], script[src*="doubleclick"], ins.adsbygoogle').count()).toBe(0);
   });
 
   test('언어와 통화는 독립적이다', async ({ page }) => {
@@ -284,7 +290,8 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
 
   test('현지 물가 한눈에: 한 끼·교통 1회·입장료 등 대표 가격을 현지·선택 통화로 보여준다', async ({ page }) => {
     await mockRates(page);
-    await page.goto('/?lang=ko&city=tokyo&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=KRW');
+    // 현지 물가표는 도시 가이드에만 있다
+    await page.goto('/guide/tokyo?lang=ko');
     const guide = page.getByTestId('price-guide');
     await expect(guide.locator('tr[data-basket="meal"]')).toContainText('한 끼 식사');
     await expect(guide.locator('tr[data-basket="meal"]')).toContainText('JP¥');
@@ -314,14 +321,14 @@ test.describe('항목별 자세히 보기·음주', () => {
     await expect(attr.locator('[data-line="TYO-AT-002"]')).toContainText('JP¥1,500');
     await expect(attr.locator('[data-line="TYO-AT-002"]')).toContainText('성인 요금 적용'); // 아동 요금 없음
     await expect(attr.locator('[data-line="TYO-AT-002"]')).toContainText('JP¥4,500'); // 1,500 × 3명
-    await expect(page.locator('tr[data-category="food"] .cont')).toContainText('예비비 10%');
+    await expect(page.locator('tr[data-category="contingency"]')).toContainText('예비비');
   });
 
   test('음주 포함을 고르면 URL 에 남고 외식비에 주류가 더해진다(주류 표본이 3건 미만이면 더하지 않고 알린다)', async ({ page }) => {
     await mockRates(page);
     // 파리: 주류 독립 표본 3건 → 외식 합계가 늘고 자세히 보기에 주류 줄이 생긴다
     await page.goto('/?lang=ko&city=paris&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=EUR');
-    await expect(page.getByTestId('rates-info')).toBeVisible();
+    await expect(page.getByTestId('rates-info')).toHaveCount(1); // 환율 안내는 근거·출처 패널 안
     const food = page.locator('tr[data-category="food"]');
     const before = (await food.textContent()) ?? '';
     await page.getByLabel('음주 포함 (성인)').check();

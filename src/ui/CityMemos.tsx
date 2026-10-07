@@ -28,7 +28,6 @@ export function CityMemos({ city, memos }: { city: City; memos: CityMemo[] }) {
               <td data-label={m.value}>
                 {(lang !== 'ko' && r.valueEn) || r.value}
                 {r.unit ? ` ${r.unit}` : ''}
-                {r.note && <small className="muted"> · {r.note}</small>}
               </td>
               <td data-label={m.source}>
                 <ExternalLink href={r.sourceUrl}>{r.sourceName || new URL(r.sourceUrl).hostname}</ExternalLink>{' '}

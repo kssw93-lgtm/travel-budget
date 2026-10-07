@@ -46,6 +46,7 @@ export const en: Messages = {
     total: 'Total local spending (incl. contingency)',
     range: 'Min – Max',
     local: 'Local currency', selected: 'Selected currency', usd: 'USD reference',
+    amount: 'Amount',
     dailyFood: 'Average daily dining cost',
     dailyFoodNote: 'All travelers combined ÷ {days} days',
     breakdown: 'Cost breakdown',

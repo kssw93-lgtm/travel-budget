@@ -33,26 +33,21 @@ export function numberedSources(sources: { name: string; url: string }[]): { lab
   });
 }
 
-function AmountRows({ range, local, display, rates }: { range: Range | null; local: string; display: string; rates: RatesState }) {
-  const { t } = useI18n();
+/** 금액 한 덩어리: 선택 통화를 크게, 현지 통화를 그 아래 작게(같은 통화면 한 줄). USD 참고값은 따로 보이지 않는다 */
+function Amount({ range, local, display, rates, big = false }: { range: Range | null; local: string; display: string; rates: RatesState; big?: boolean }) {
   const r = rates.status === 'ok' ? rates.data : null;
+  const converted = display === local ? range : range && convertRange(range, local, display, r);
   return (
-    <dl className="amounts">
-      <div>
-        <dt>{t.result.local} ({local})</dt>
-        <dd><RangeText range={range} currency={local} /></dd>
-      </div>
-      {display !== local && (
-        <div>
-          <dt>{t.result.selected} ({display})</dt>
-          <dd><RangeText range={range && convertRange(range, local, display, r)} currency={display} /></dd>
-        </div>
+    <span className={`amount${big ? ' big' : ''}`}>
+      <span className="amount-main">
+        <RangeText range={converted ?? range} currency={converted ? display : local} />
+      </span>
+      {display !== local && converted && (
+        <span className="amount-local">
+          <RangeText range={range} currency={local} />
+        </span>
       )}
-      <div>
-        <dt>{t.result.usd}</dt>
-        <dd><RangeText range={range && convertRange(range, local, 'USD', r)} currency="USD" /></dd>
-      </div>
-    </dl>
+    </span>
   );
 }
 
@@ -72,8 +67,6 @@ function warningText(w: Warning, byId: Map<string, PriceSample>, lang: Lang, t: 
 export function ResultView({ estimate: e, trip, city, display, rates, samples, direct }: Props) {
   const { t, lang } = useI18n();
   const ratesData = rates.status === 'ok' ? rates.data : null;
-  // 현지 통화와 선택 통화가 같으면(예: 서울 + KRW) 같은 금액 열을 두 번 보이지 않는다
-  const showSel = display !== e.currency;
   const byId = new Map(samples.map((s) => [s.id, s]));
   const catName = (c: Category) => t.categories[c];
   const kids = trip.children > 0 ? fmt(t.result.kids, { n: trip.children }) : '';
@@ -89,7 +82,6 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
     const r = convertRange({ min: entered, max: entered }, direct.currency, display, ratesData);
     directConverted = r ? r.min : null;
   }
-  const directUsd = entered > 0 ? convertRange({ min: entered, max: entered }, direct.currency, 'USD', ratesData) : null;
 
   const holdList = e.missing.map((c) => `${catName(c)} (${fmt(t.result.needMore, { have: e.categories[c].independentCount, need: MODEL.minSamplesPerCategory })})`).join(', ');
   const fillPct = Math.round(e.fillRate * 100);
@@ -104,13 +96,11 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
       {e.computable && e.total ? (
         <div className="total" data-testid="total">
           <h3>{t.result.total}</h3>
-          <AmountRows range={e.total} local={e.currency} display={display} rates={rates} />
+          <Amount range={e.total} local={e.currency} display={display} rates={rates} big />
           {e.dailyFoodAverage && (
-            <div className="daily-food" data-testid="daily-food">
-              <h4>{t.result.dailyFood}</h4>
-              <AmountRows range={e.dailyFoodAverage} local={e.currency} display={display} rates={rates} />
-              <p className="hint">{fmt(t.result.dailyFoodNote, { days: e.days })}</p>
-            </div>
+            <p className="daily-food" data-testid="daily-food">
+              <span>{t.result.dailyFood}</span> <Amount range={e.dailyFoodAverage} local={e.currency} display={display} rates={rates} />
+            </p>
           )}
         </div>
       ) : (
@@ -147,10 +137,6 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
                   </dd>
                 </div>
               )}
-              <div>
-                <dt>{t.result.usd}</dt>
-                <dd><RangeText range={directUsd} currency="USD" /></dd>
-              </div>
             </dl>
           )}
         </div>
@@ -161,9 +147,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
         <thead>
           <tr>
             <th scope="col">{t.result.item}</th>
-            <th scope="col">{t.result.local} ({e.currency})</th>
-            {showSel && <th scope="col">{t.result.selected} ({display})</th>}
-            <th scope="col">{t.result.usd}</th>
+            <th scope="col">{t.result.amount}</th>
           </tr>
         </thead>
         <tbody>
@@ -173,30 +157,21 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
               <tr key={c} data-category={c}>
                 <th scope="row">
                   {catName(c)}
-                  <small>{est.mode === 'selected' ? selectedLabel(est) : est.sufficient ? fmt(t.result.samples, { n: est.independentCount }) : ''}</small>
+                  {est.mode === 'selected' && <small>{selectedLabel(est)}</small>}
                 </th>
                 {est.total ? (
-                  <>
-                    <td data-label={`${t.result.local} (${e.currency})`}>
-                      <RangeText range={est.total} currency={e.currency} />
-                      {est.contingency && (
-                        <small className="cont">
-                          + {t.detail.contingency.replace('{rate}', String(Math.round(MODEL.contingencyRate * 100)))} <RangeText range={est.contingency} currency={e.currency} />
-                        </small>
-                      )}
-                    </td>
-                    {showSel && <td data-label={`${t.result.selected} (${display})`}><RangeText range={convertRange(est.total, e.currency, display, ratesData)} currency={display} /></td>}
-                    <td data-label={t.result.usd}><RangeText range={convertRange(est.total, e.currency, 'USD', ratesData)} currency="USD" /></td>
-                  </>
+                  <td data-label={t.result.amount}>
+                    <Amount range={est.total} local={e.currency} display={display} rates={rates} />
+                  </td>
                 ) : (
-                  <td colSpan={showSel ? 3 : 2} className="insufficient">
+                  <td className="insufficient">
                     {t.result.notEnough} · {fmt(t.result.needMore, { have: est.independentCount, need: MODEL.minSamplesPerCategory })}
                   </td>
                 )}
               </tr>,
               est.total && est.lines.length > 0 ? (
                 <tr key={`${c}-detail`} className="detail-row" data-detail={c}>
-                  <td colSpan={showSel ? 4 : 3}>
+                  <td colSpan={2}>
                     <details>
                       <summary>{t.detail.open}</summary>
                       <CategoryDetail est={est} currency={e.currency} display={display} rates={ratesData} people={trip.adults + trip.children} adults={trip.adults} />
@@ -220,25 +195,18 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
                   {label}
                   <small>{line}</small>
                 </th>
-                <td data-label={`${t.result.local} (${e.currency})`}>
-                  <RangeText range={x.total} currency={e.currency} />
-                  {x.contingency && (
-                    <small className="cont">
-                      + {t.detail.contingency.replace('{rate}', String(Math.round(MODEL.contingencyRate * 100)))} <RangeText range={x.contingency} currency={e.currency} />
-                    </small>
-                  )}
+                <td data-label={t.result.amount}>
+                  <Amount range={x.total} local={e.currency} display={display} rates={rates} />
                 </td>
-                {showSel && <td data-label={`${t.result.selected} (${display})`}><RangeText range={convertRange(x.total, e.currency, display, ratesData)} currency={display} /></td>}
-                <td data-label={t.result.usd}><RangeText range={convertRange(x.total, e.currency, 'USD', ratesData)} currency="USD" /></td>
               </tr>
             );
           })}
           {e.contingency && (
             <tr data-category="contingency">
               <th scope="row">{t.categories.contingency}</th>
-              <td data-label={`${t.result.local} (${e.currency})`}><RangeText range={e.contingency} currency={e.currency} /></td>
-              {showSel && <td data-label={`${t.result.selected} (${display})`}><RangeText range={convertRange(e.contingency, e.currency, display, ratesData)} currency={display} /></td>}
-              <td data-label={t.result.usd}><RangeText range={convertRange(e.contingency, e.currency, 'USD', ratesData)} currency="USD" /></td>
+              <td data-label={t.result.amount}>
+                <Amount range={e.contingency} local={e.currency} display={display} rates={rates} />
+              </td>
             </tr>
           )}
         </tbody>
@@ -318,8 +286,8 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
           <p key={i} className="notice warn">{warningText(w, byId, lang, t)}</p>
         ))}
       </div>
-      </details>
       <RatesNotice rates={rates} display={display} />
+      </details>
       <AdSlot name="inline-results" />
     </section>
   );

@@ -50,6 +50,7 @@ export const ja: Messages = {
     total: '現地滞在費の合計（予備費込み）',
     range: '最小 〜 最大',
     local: '現地通貨', selected: '選択通貨', usd: 'USD（参考）',
+    amount: '金額',
     dailyFood: '1日あたりの外食費（平均）',
     dailyFoodNote: '全員の合計 ÷ {days}日',
     breakdown: '項目別の費用',

@@ -95,6 +95,10 @@ td.insufficient, .insufficient { color: var(--err); }
   table.stack tr { display: block; border-bottom: 1px solid var(--line); padding: 8px 0; }
   table.stack th, table.stack td { display: block; border: 0; padding: 2px 0; }
   table.stack td[data-label]::before { content: attr(data-label) ' — '; color: var(--muted); font-size: .82rem; }
+  /* 항목별 경비: 항목명 왼쪽, 금액 오른쪽 한 줄(금액 라벨은 생략) */
+  table.breakdown.stack tr[data-category] { display: flex; justify-content: space-between; align-items: flex-start; gap: 4px 12px; }
+  table.breakdown.stack tr[data-category] td::before { content: none; }
+  table.breakdown.stack tr[data-category] td { text-align: right; }
   fieldset.styles { grid-template-columns: 1fr; }
   /* 모바일 머리글: 1줄 사이트명 + 언어, 2줄 메뉴. 화면을 가리지 않도록 고정 해제 */
   .site-header { position: static; }
@@ -179,3 +183,15 @@ a.button:hover { filter: brightness(1.08); }
 /* 접히는 카드: 머리글 오른쪽에 열기/접기 표시 */
 .toggle-hint { margin-left: auto; color: var(--brand); font-weight: 600; font-size: .9rem; white-space: nowrap; }
 details:not([open]) > summary .toggle-hint .when-open, details[open] > summary .toggle-hint .when-closed { display: none; }
+
+/* 결과 금액: 선택 통화를 크게, 현지 통화를 그 아래 작게 */
+.amount { display: inline-flex; flex-direction: column; align-items: flex-end; font-variant-numeric: tabular-nums; }
+.amount-main { font-weight: 700; }
+.amount-local { color: var(--muted); font-size: .82rem; font-weight: 400; }
+.amount.big { align-items: flex-start; }
+.amount.big .amount-main { font-size: 1.5rem; }
+.amount.big .amount-local { font-size: .9rem; }
+.daily-food { margin: 12px 0 0; padding-top: 10px; border-top: 1px solid var(--line); }
+.daily-food > span:first-child { display: block; }
+.daily-food .amount { align-items: flex-start; }
+.daily-food > span:first-child { color: var(--muted); font-size: .9rem; }

@@ -1,13 +1,10 @@
 import { useEffect, useMemo, useState } from 'react';
 import { estimateTrip } from '../core/estimate';
-import { cityById, cities, extras, foods, memos, samples } from '../data';
+import { cityById, cities, extras, foods, samples } from '../data';
 import { DEFAULT_CURRENCY, useI18n } from '../i18n';
 import { AttractionPicker } from './AttractionPicker';
-import { CityMemos } from './CityMemos';
 import { ExtrasPicker } from './ExtrasPicker';
-import { FoodSection } from './FoodSection';
 import { PlanOptions } from './PlanOptions';
-import { PriceGuide } from './PriceGuide';
 import { parseForm, type FormState } from './form';
 import { RatesNotice, ResultView } from './ResultView';
 import { TripForm } from './TripForm';
@@ -151,9 +148,6 @@ export function Calculator() {
             samples={samples}
             direct={{ ...parsed.direct, currency: form.directCurrency }}
           />
-          <PriceGuide city={city} samples={samples} display={form.currency} rates={rates} />
-          <CityMemos city={city} memos={memos} />
-          <FoodSection city={city} foods={foods} samples={samples} display={form.currency} rates={rates} />
         </>
       ) : (
         <RatesNotice rates={rates} display={form.currency} />

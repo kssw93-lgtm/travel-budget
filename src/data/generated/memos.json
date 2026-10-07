@@ -2,14 +2,14 @@
   {
     "cityId": "barcelona",
     "item": "관광세(숙박세)",
-    "value": "4성 호텔 1인 1박 8.40유로 (카탈루냐 관광세 3.40 + 바르셀로나 시 부과금 5)",
-    "itemEn": "Tourist tax",
-    "valueEn": "EUR 8.40 per person per night at a 4-star hotel (3.40 regional + 5 city surcharge)",
+    "value": "1인 1박: 5성 호텔 7유로, 4성 호텔 3.40유로, 관광용 주택 4.50유로, 그 외 시설 2유로, 유스호스텔 1유로 + 바르셀로나 시 추가세 5유로(2026-04-01~2027-03-31). 시 추가세는 2027-04부터 6유로, 2028-04부터 7유로",
+    "itemEn": "Tourist tax (Catalan stay tax + Barcelona surcharge)",
+    "valueEn": "Per person per night: 5-star hotel EUR 7, 4-star EUR 3.40, tourist-use dwelling EUR 4.50, other EUR 2, youth hostel EUR 1, plus Barcelona surcharge EUR 5 (Apr 2026 to Mar 2027), rising to EUR 6 from Apr 2027 and EUR 7 from Apr 2028",
     "unit": "",
-    "sourceName": "Barcelona City Council",
-    "sourceUrl": "https://ajuntament.barcelona.cat/turisme/en/latest-news/news/the-parliament-of-catalonia-passes-an-increase-of-the-tourist-tax-1607097",
-    "checkedAt": "2026-10-04",
-    "note": "숙소 등급별로 다름(이 값은 4성 기준) · Perplexity 수집"
+    "sourceName": "Agència Tributària de Catalunya",
+    "sourceUrl": "https://atc.gencat.cat/ca/tributs/ieet/quota-tributaria/",
+    "checkedAt": "2026-10-07",
+    "note": "카탈루냐 세무청 요율표(Tarifa general 01.04.2026~31.03.2027, Recàrrec de l'Ajuntament de Barcelona 5,00/6,00/7,00 €). 예: 4성 호텔 3.40 + 5 = 8.40유로. 이전 메모(바르셀로나 시, 2026-10-04)와 4성 금액 일치. Claude(Chrome) 수집"
   },
   {
     "cityId": "barcelona",
@@ -154,6 +154,30 @@
     "sourceUrl": "https://pay.tmoney.co.kr/ncs/pct/tmnyintd/ReadClmtAcmpCardGd.dev",
     "checkedAt": "2026-10-06",
     "note": "원문: 실물카드 구매 3,000원 별도. 지하철 1~8호선 역사 키오스크 판매. 카드값 환불 여부 미확인. Claude(Chrome) 수집"
+  },
+  {
+    "cityId": "bangkok",
+    "item": "부가가치세(VAT)",
+    "value": "7%(일반 세율)",
+    "itemEn": "VAT",
+    "valueEn": "7 percent (general rate)",
+    "unit": "%",
+    "sourceName": "The Revenue Department (Thailand)",
+    "sourceUrl": "https://www.rd.go.th/english/6043.html",
+    "checkedAt": "2026-10-07",
+    "note": "원문: 4.1 General Rate Currently, the rate is 7 percent. 식당 봉사료 10%(++) 관행은 이 페이지에 없음. Claude(Chrome) 수집"
+  },
+  {
+    "cityId": "paris",
+    "item": "식당 가격 표시",
+    "value": "테이블 서비스가 있는 업소의 표시 가격은 세금과 봉사료 포함",
+    "itemEn": "Restaurant price display",
+    "valueEn": "In establishments with table service, the displayed price includes taxes and service (nationwide)",
+    "unit": "-",
+    "sourceName": "DGCCRF (economie.gouv.fr)",
+    "sourceUrl": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/restaurants-droits-et-obligations-des-professionnels",
+    "checkedAt": "2026-10-07",
+    "note": "원문: Dans les établissements avec service, le prix affiché inclut taxes et services. 프랑스 전국 공통. Claude(Chrome) 수집"
   },
   {
     "cityId": "new-york",

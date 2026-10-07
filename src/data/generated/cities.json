@@ -160,6 +160,16 @@
     "stage": "2차"
   },
   {
+    "id": "cebu",
+    "country": "필리핀",
+    "countryEn": "Philippines",
+    "nameKo": "세부",
+    "nameEn": "Cebu",
+    "currency": "PHP",
+    "tier": "B",
+    "stage": "조사 중"
+  },
+  {
     "id": "barcelona",
     "country": "스페인",
     "countryEn": "Spain",

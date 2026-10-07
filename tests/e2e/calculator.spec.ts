@@ -53,7 +53,7 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(page.locator('details.evidence')).not.toHaveAttribute('open', '');
     await page.locator('details.evidence > summary').click();
     await expect(page.getByTestId('quality').getByRole('link').first()).toHaveAttribute('href', /^https?:\/\//);
-    await expect(page.getByTestId('rates-info')).toContainText('2026-10-02');
+    await expect(page.getByTestId('rates-info')).toContainText('2026-10-06');
     await expect(page.getByTestId('rates-info')).toContainText('ECB');
 
     // 광고는 자리만(좌우 레일 + 결과 뒤 인라인 1개). 실제 광고 코드·추적 스크립트 없음
@@ -192,7 +192,7 @@ test.describe('환율(조사 고정값)', () => {
     await page.selectOption('#currency', 'KRW');
     await expect(page.getByTestId('rates-error')).toHaveCount(0);
     await expect(page.getByTestId('total')).toContainText('₩');
-    await expect(page.getByTestId('rates-info')).toContainText('2026-10-02');
+    await expect(page.getByTestId('rates-info')).toContainText('2026-10-06');
     await expect(page.getByTestId('rates-info')).toContainText('ECB');
   });
 

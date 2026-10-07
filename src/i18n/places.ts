@@ -7,7 +7,7 @@ export const CITY_JA: Record<string, string> = {
   bangkok: 'バンコク', 'da-nang': 'ダナン', 'nha-trang': 'ニャチャン', 'phu-quoc': 'フーコック',
   taipei: '台北', singapore: 'シンガポール', 'hong-kong': '香港', 'kuala-lumpur': 'クアラルンプール', bali: 'バリ島',
   paris: 'パリ', london: 'ロンドン', barcelona: 'バルセロナ', rome: 'ローマ', 'new-york': 'ニューヨーク',
-  istanbul: 'イスタンブール', dubai: 'ドバイ', shanghai: '上海',
+  istanbul: 'イスタンブール', dubai: 'ドバイ', shanghai: '上海', cebu: 'セブ',
   seoul: 'ソウル', busan: '釜山', jeju: '済州島',
 };
 
@@ -16,5 +16,5 @@ export const COUNTRY_JA: Record<string, string> = {
   Japan: '日本', Thailand: 'タイ', Vietnam: 'ベトナム', Taiwan: '台湾', Singapore: 'シンガポール', France: 'フランス',
   'United Kingdom': 'イギリス', Indonesia: 'インドネシア', 'Hong Kong': '香港', Malaysia: 'マレーシア',
   'United Arab Emirates': 'アラブ首長国連邦', Spain: 'スペイン', Italy: 'イタリア', 'United States': 'アメリカ',
-  Türkiye: 'トルコ', China: '中国', 'South Korea': '韓国',
+  Türkiye: 'トルコ', China: '中国', 'South Korea': '韓国', Philippines: 'フィリピン',
 };

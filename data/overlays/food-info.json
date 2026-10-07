@@ -766,5 +766,60 @@
       "license": "CC BY 2.0",
       "page": "https://commons.wikimedia.org/wiki/File:Mango_gelato_(9368461646).jpg"
     }
+  },
+  "cebu:Lechon": {
+    "ko": "통돼지를 숯불에 천천히 돌려 구워 껍질은 바삭하고 속은 촉촉한 세부 대표 요리",
+    "en": "Whole pig roasted slowly over charcoal: crisp skin, juicy meat; Cebu's signature dish",
+    "ja": "豚を丸ごと炭火でじっくり焼いた、皮はパリッと中はジューシーなセブ名物",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lechon_Cebu_2.jpg/960px-Lechon_Cebu_2.jpg",
+      "author": "Bim24",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Lechon_Cebu_2.jpg"
+    }
+  },
+  "cebu:Sutukil (Kinilaw)": {
+    "ko": "해산물을 구이(수)·탕(투)·식초 회무침(킬)으로 내는 상차림. 사진은 식초로 버무린 회 키닐라우",
+    "en": "Seafood served three ways: grilled, in soup and kinilaw (raw fish cured in vinegar, shown)",
+    "ja": "魚介を焼く・スープ・酢じめ（キニラウ、写真）の3通りで出すセブ式の海鮮料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/KINILAW_%28Carcar%2C_Cebu%29.jpg/960px-KINILAW_%28Carcar%2C_Cebu%29.jpg",
+      "author": "whologwhy",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:KINILAW_(Carcar,_Cebu).jpg"
+    }
+  },
+  "cebu:Puso": {
+    "ko": "야자 잎을 엮은 주머니에 쌀을 넣어 찐 밥. 레촌·꼬치구이에 곁들인다",
+    "en": "Rice cooked in a pouch of woven palm leaves, eaten with lechon or grilled skewers",
+    "ja": "ヤシの葉で編んだ袋に米を入れて炊いたご飯。レチョンや串焼きと一緒に食べる",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Puso_or_Hanging_Rice.jpg/960px-Puso_or_Hanging_Rice.jpg",
+      "author": "LadyPinayForever",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Puso_or_Hanging_Rice.jpg"
+    }
+  },
+  "cebu:Ngohiong": {
+    "ko": "오향으로 양념한 채소·고기를 얇은 피에 말아 튀긴 세부식 롤",
+    "en": "Five-spice seasoned vegetables and meat rolled in a thin wrapper and fried",
+    "ja": "五香粉で味付けした野菜や肉を薄い皮で巻いて揚げたセブ式の春巻き",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ngohiong_%28Philippines%29_02.jpg/960px-Ngohiong_%28Philippines%29_02.jpg",
+      "author": "Obsidian Soul",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ngohiong_(Philippines)_02.jpg"
+    }
+  },
+  "cebu:Siomai sa Tisa": {
+    "ko": "세부 티사 지역에서 시작된 찐 만두. 칠리 갈릭 소스에 찍어 먹는다",
+    "en": "Steamed dumplings from the Tisa district of Cebu, dipped in chili-garlic sauce",
+    "ja": "セブのティサ地区発祥の蒸し焼売。チリガーリックソースにつけて食べる",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Siomai_sa_Tisa.jpg/960px-Siomai_sa_Tisa.jpg",
+      "author": "Herbertkikoy",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Siomai_sa_Tisa.jpg"
+    }
   }
 }

@@ -164,7 +164,6 @@ a.button:hover { filter: brightness(1.08); }
 .guide-index a { font-weight: 700; }
 .inline-list { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px 16px; }
 .inline-list a { display: inline-block; padding: 6px 0; }
-.footer-guides a { display: inline-block; padding: 4px 0; }
 
 /* 자세히 설정(교통 이용 방식·끼니·꼭 먹을 음식) */
 .plan summary { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: baseline; }

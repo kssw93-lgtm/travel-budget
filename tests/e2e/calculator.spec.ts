@@ -62,11 +62,10 @@ test.describe('계산기 핵심 흐름', () => {
     }
     expect(await page.locator('script[src*="googlesyndication"], script[src*="googletagmanager"], script[src*="doubleclick"], ins.adsbygoogle').count()).toBe(0);
 
-    // 계산 결과 화면에는 물가표·현지 비용 메모·대표 음식을 두지 않는다(자료는 계산에만 쓴다)
-    for (const id of ['price-guide', 'city-memos', 'foods']) await expect(page.getByTestId(id)).toHaveCount(0);
+    // 계산 결과 화면에는 물가표·현지 비용 메모를 두지 않는다(자료는 계산에만 쓴다)
+    for (const id of ['price-guide', 'city-memos']) await expect(page.getByTestId(id)).toHaveCount(0);
 
-    // 먹어 볼 음식은 도시 가이드에: 이름과 무슨 음식인지 한 줄(가게·예산대·추천 근거 없음)
-    await page.goto('/guide/tokyo?lang=ko');
+    // 먹어 볼 음식은 결과 바로 아래에: 사진·이름·무슨 음식인지 한 줄(가게·예산대·추천 근거 없음)
     const foods = page.getByTestId('foods');
     await expect(foods).toContainText('도쿄에서 먹어 볼 음식');
     await expect(foods.locator('[data-food="Gyudon"]')).toContainText('규동');

@@ -9,7 +9,6 @@ import { routeOf } from './pages';
 import { applyMeta } from './meta';
 import { calcMemory, readLang, withLang } from './urlState';
 import { currentLoc, isPreview, pushLoc, replaceLoc, type Loc } from './router';
-import { cityName } from './TripForm';
 
 /** 머리글 사이트 이름 */
 const BRAND: Record<Lang, string> = { ko: '여행 경비 계산', en: 'Travel Budget', ja: '旅行費用計算' };
@@ -144,15 +143,6 @@ export function App() {
             {fmt(t.footer.data, { date: dataDate })} ·{' '}
             <InternalLink to={`/about?lang=${lang}`} go={go}>{t.footer.about}</InternalLink> ·{' '}
             <InternalLink to={`/privacy?lang=${lang}`} go={go}>{t.footer.privacy}</InternalLink>
-          </p>
-          <p className="footer-guides">
-            {t.nav.guides}:{' '}
-            {cities.map((c, i) => (
-              <span key={c.id}>
-                {i > 0 && ' · '}
-                <InternalLink to={`/guide/${c.id}?lang=${lang}`} go={go}>{cityName(c, lang)}</InternalLink>
-              </span>
-            ))}
           </p>
         </div>
       </footer>

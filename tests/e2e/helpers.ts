@@ -50,6 +50,10 @@ export async function fillTrip(page: Page, o: { city?: string; date?: string; ni
 export const test = base.extend<{ consoleErrors: string[] }>({
   consoleErrors: [
     async ({ page }, use) => {
+      // 음식 사진(위키미디어 공용)은 테스트 환경에서 외부 접속이 막혀 있으므로 1×1 PNG 로 대신 응답한다
+      await page.route('https://upload.wikimedia.org/**', (route) =>
+        route.fulfill({ contentType: 'image/png', body: Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=', 'base64') }),
+      );
       const errors: string[] = [];
       page.on('console', (msg) => {
         if (msg.type() !== 'error') return;

@@ -1,0 +1,74 @@
+﻿도시,음식,가격 상태,연결 가격 ID,예산대(데이터 원문),추천 출처,추천 URL,메모(데이터 원문),점검 결과
+도쿄,에도마에 스시,대기,,중~고,GO TOKYO,https://www.gotokyo.org/en/see-and-do/drinking-and-dining/tokyo-local-food/index.html,저가 회전초밥·중가·오마카세를 분리 조사,링크 가격 ID 없음; 가격 조사 대기
+도쿄,소바,대기,TYO-FD-701,저~중,GO TOKYO,https://www.gotokyo.org/en/see-and-do/drinking-and-dining/tokyo-local-food/index.html,현지 체인 3개 표본 필요,가격 ID 연결됨에도 대기 상태; 동일 메뉴·가격 유효성 대조 필요
+도쿄,덴푸라,진행,TYO-FD-002,중,GO TOKYO,https://www.gotokyo.org/en/see-and-do/drinking-and-dining/tokyo-local-food/index.html,관광지 식당 표본 확보,진행 중; 완료 근거 없음
+도쿄,라멘,대기,TYO-FD-702;TYO-FD-711,저~중,GO TOKYO,https://www.gotokyo.org/en/see-and-do/drinking-and-dining/tokyo-local-food/index.html,체인/개인점 분리,가격 ID 연결됨에도 대기 상태; 동일 메뉴·가격 유효성 대조 필요
+도쿄,규동,확보,TYO-FD-001;TYO-FD-810;TYO-FD-812,저,Sukiya,https://www.sukiya.jp/en/,가격 기준 메뉴로 사용,자료상 확보 상태; 원장 판정 공란이므로 공식 가격 확정은 별도 확인
+오사카,타코야키,재검증,OSA-FD-001,저,OSAKA INFO,https://www.osaka-info.jp/en/gourmet/osaka_cuisine/,공식 메뉴 URL 보강,가격/추천 근거 재검증 상태
+오사카,오코노미야키,대기,OSA-FD-703,저~중,OSAKA INFO,https://www.osaka-info.jp/en/gourmet/osaka_cuisine/,2개 전문점 메뉴 수집,가격 ID 연결됨에도 대기 상태; 동일 메뉴·가격 유효성 대조 필요
+오사카,쿠시카츠,대기,,저~중,OSAKA INFO,https://www.osaka-info.jp/en/gourmet/osaka_cuisine/,1개 가격 대신 세트/인당액 수집,링크 가격 ID 없음; 가격 조사 대기
+오사카,우동스키,대기,,중,OSAKA INFO,https://www.osaka-info.jp/en/gourmet/osaka_cuisine/,계절 메뉴 여부 확인,링크 가격 ID 없음; 가격 조사 대기
+오사카,니쿠만,확보,OSA-SV-001,저,551 HORAI,https://www.551horai.co.jp/menu/butaman/,식사와 기념품 양쪽 후보,자료상 확보 상태; 원장 판정 공란이므로 공식 가격 확정은 별도 확인
+방콕,팟타이,확보,BKK-FD-003,저~중,Tourism Authority of Thailand,https://www.tourismthailand.org/Articles/10-thai-dishes-you-must-try,저가 전문점 표본 추가,자료상 확보 상태; 원장 판정 공란이므로 공식 가격 확정은 별도 확인
+방콕,똠얌꿍,대기,,중,Tourism Authority of Thailand,https://www.tourismthailand.org/Articles/10-thai-dishes-you-must-try,해산물 크기에 따른 변동 조사,링크 가격 ID 없음; 가격 조사 대기
+방콕,쏨땀,대기,,저,Tourism Authority of Thailand,https://www.tourismthailand.org/Articles/10-thai-dishes-you-must-try,시장/식당 가격 분리,링크 가격 ID 없음; 가격 조사 대기
+방콕,카오팟,확보,BKK-FD-001,저,Bully's Bangkok,https://bullys-bangkok.com/menu/thaidishes/,재료별 범위 확보,자료상 확보 상태; 원장 판정 공란이므로 공식 가격 확정은 별도 확인
+방콕,망고 찹쌀밥,대기,,저,Tourism Authority of Thailand,https://www.tourismthailand.org/,망고 계절성 확인,링크 가격 ID 없음; 가격 조사 대기
+다낭,미꽝,확보,DAD-FD-001,저,Vietnam Tourism,https://www.vietnamtourism.com/en/da-nang-food-scene-what-and-where-to-eat,길거리와 전문점 범위 확보,자료상 확보 상태; 원장 판정 공란이므로 공식 가격 확정은 별도 확인
+다낭,반쎄오,대기,,저,Vietnam Tourism,https://www.vietnamtourism.com/en/da-nang-food-scene-what-and-where-to-eat,1인분 단위 통일 필요,링크 가격 ID 없음; 가격 조사 대기
+다낭,분짜까,대기,,저,Vietnam Tourism,https://www.vietnamtourism.com/en/da-nang-food-scene-what-and-where-to-eat,아침 영업점 조사,링크 가격 ID 없음; 가격 조사 대기
+다낭,해산물,대기,,중~고,Vietnam Tourism,https://www.vietnamtourism.com/en/da-nang-food-scene-what-and-where-to-eat,kg 가격·2인 식사 총액 분리,링크 가격 ID 없음; 가격 조사 대기
+다낭,반미,대기,,저,Vietnam Tourism,https://www.vietnamtourism.com/en/da-nang-food-scene-what-and-where-to-eat,관광지/현지 매장 분리,링크 가격 ID 없음; 가격 조사 대기
+타이베이,샤오롱바오,재검증,TPE-FD-001,중,Taipei Travel,https://www.travel.taipei/en/must-visit/eat,공식 매장가 보강,가격/추천 근거 재검증 상태
+타이베이,우육면,재검증,TPE-FD-002,저~중,Taipei Travel,https://www.travel.taipei/en/must-visit/eat,고기 포함 일반 메뉴 표본 필요,가격/추천 근거 재검증 상태
+타이베이,망고빙수,대기,,저~중,Taipei Travel,https://www.travel.taipei/en/must-visit/eat,망고 계절성 확인,링크 가격 ID 없음; 가격 조사 대기
+타이베이,루러우판,대기,,저,Taipei Travel,https://www.travel.taipei/en/must-visit/eat,야시장 3곳 표본,링크 가격 ID 없음; 가격 조사 대기
+타이베이,지파이,대기,,저,Taipei Travel,https://www.travel.taipei/en/must-visit/eat,크기/브랜드별 가격,링크 가격 ID 없음; 가격 조사 대기
+싱가포르,치킨라이스,대기,,저,Visit Singapore,https://www.visitsingapore.com/dining-drinks-singapore/local-dishes/,호커센터 3곳 표본,링크 가격 ID 없음; 가격 조사 대기
+싱가포르,카야토스트,재검증,SIN-FD-001,저,Visit Singapore,https://www.visitsingapore.com/dining-drinks-singapore/local-dishes/,브랜드 공식 가격 확인,가격/추천 근거 재검증 상태
+싱가포르,락사,재검증,SIN-FD-002,저~중,Visit Singapore,https://www.visitsingapore.com/dining-drinks-singapore/local-dishes/,호커/체인 분리,가격/추천 근거 재검증 상태
+싱가포르,로티 프라타,대기,,저,Visit Singapore,https://www.visitsingapore.com/dining-drinks-singapore/local-dishes/,플레인/계란 세트 분리,링크 가격 ID 없음; 가격 조사 대기
+싱가포르,호키엔 미,대기,,저~중,Visit Singapore,https://www.visitsingapore.com/dining-drinks-singapore/local-dishes/,호커센터 표본 필요,링크 가격 ID 없음; 가격 조사 대기
+파리,바게트,대기,,저,Paris je t'aime,https://parisjetaime.com/eng/article/what-to-eat-in-paris-a954,동네 빵집 3곳,링크 가격 ID 없음; 가격 조사 대기
+파리,크루아상,대기,,저,Paris je t'aime,https://parisjetaime.com/eng/article/what-to-eat-in-paris-a954,커피 세트와 단품 분리,링크 가격 ID 없음; 가격 조사 대기
+파리,양파수프,대기,PAR-FD-721,중,Paris je t'aime,https://parisjetaime.com/eng/article/what-to-eat-in-paris-a954,부용/호텔 가격대 분리,가격 ID 연결됨에도 대기 상태; 동일 메뉴·가격 유효성 대조 필요
+파리,크레프,대기,,저~중,Paris je t'aime,https://parisjetaime.com/eng/article/what-to-eat-in-paris-a954,달콤/식사용 분리,링크 가격 ID 없음; 가격 조사 대기
+파리,마카롱,재검증,PAR-SV-003,중,Paris je t'aime,https://parisjetaime.com/eng/article/what-to-eat-in-paris-a954,3개 브랜드 공식몰 수집,가격/추천 근거 재검증 상태
+런던,피시앤칩스,재검증,LON-FD-004,중,Visit London,https://www.visitlondon.com/blog/british-food-to-try-in-london,공식 펍/전문점 3곳,가격/추천 근거 재검증 상태
+런던,선데이 로스트,대기,,중~고,Visit London,https://www.visitlondon.com/blog/british-food-to-try-in-london,요일 한정·세트 구성,링크 가격 ID 없음; 가격 조사 대기
+런던,애프터눈티,대기,,고,Visit London,https://www.visitlondon.com/blog/british-food-to-try-in-london,호텔/일반 카페 가격 분리,링크 가격 ID 없음; 가격 조사 대기
+런던,스테이크 앤 에일 파이,대기,,중,Visit London,https://www.visitlondon.com/blog/british-food-to-try-in-london,펍 3곳 메뉴,링크 가격 ID 없음; 가격 조사 대기
+런던,풀 잉글리시 브렉퍼스트,재검증,LON-FD-003,저~중,Visit London,https://www.visitlondon.com/blog/british-food-to-try-in-london,공식 지점별 가격 확보,가격/추천 근거 재검증 상태
+이스탄불,되네르 케밥,대기,IST-FD-742,미조사,GoTürkiye,https://goturkiye.com/branding/the-10-most-popular-street-foods-of-istanbul,관광청 음식 추천만 기록. 공식 판매 가격 표본은 별도로 확인하지 않아 가격대는 입력하지 않음.,가격 ID 연결됨에도 대기 상태; 동일 메뉴·가격 유효성 대조 필요
+이스탄불,시미트,대기,,미조사,GoTürkiye,https://goturkiye.com/branding/the-10-most-popular-street-foods-of-istanbul,관광청 음식 추천만 기록. 공식 판매 가격 표본은 별도로 확인하지 않아 가격대는 입력하지 않음.,링크 가격 ID 없음; 가격 조사 대기
+이스탄불,코코레치,대기,,미조사,GoTürkiye,https://goturkiye.com/branding/the-10-most-popular-street-foods-of-istanbul,관광청 음식 추천만 기록. 공식 판매 가격 표본은 별도로 확인하지 않아 가격대는 입력하지 않음.,링크 가격 ID 없음; 가격 조사 대기
+이스탄불,바클라바,대기,,미조사,GoTürkiye,https://goturkiye.com/istanbul/the-sweet-happy-ever-after,관광청 음식 추천만 기록. 공식 판매 가격 표본은 별도로 확인하지 않아 가격대는 입력하지 않음.,링크 가격 ID 없음; 가격 조사 대기
+이스탄불,퀴네페,대기,,미조사,GoTürkiye,https://goturkiye.com/istanbul/the-sweet-happy-ever-after,관광청 음식 추천만 기록. 공식 판매 가격 표본은 별도로 확인하지 않아 가격대는 입력하지 않음.,링크 가격 ID 없음; 가격 조사 대기
+상하이,샤오롱바오,대기,,미조사,Shanghai Municipal Administration of Culture and Tourism,https://english.shanghai.gov.cn/en-GlobalTasteinShanghai2026-LocalFlavors/20260316/00b0c6d1698d406c8d532a6e169e1a1e.html,공식 관광 안내의 음식 추천만 기록. 이 행에는 판매가를 입력하지 않음.,링크 가격 ID 없음; 가격 조사 대기
+상하이,성젠바오,대기,,미조사,Shanghai Municipal Administration of Culture and Tourism,https://english.shanghai.gov.cn/en-Snack-travelinshanghai/20231205/1b1c394feda144c283df2abd3e8b2cec.html,공식 관광 안내의 음식 추천만 기록. 이 행에는 판매가를 입력하지 않음.,링크 가격 ID 없음; 가격 조사 대기
+상하이,옌두셴,대기,,미조사,Shanghai Municipal Administration of Culture and Tourism,https://english.shanghai.gov.cn/en-GlobalTasteinShanghai2026-LocalFlavors/20260410/1554e7ea15da4a6796e5bf8dc5cfb57f.html,공식 관광 안내의 음식 추천만 기록. 본문에 가격 언급이 있어도 평균값은 사용하지 않음.,링크 가격 ID 없음; 가격 조사 대기
+바르셀로나,파에야,대기,BCN-FD-740,중,Barcelona Tourism guide,https://www.barcelonatourism.org/2026/07/26/family-restaurants/,추천 출처가 시청 공식 관광 사이트가 아님(재확인 필요),가격 ID 연결됨에도 대기 상태; 동일 메뉴·가격 유효성 대조 필요
+바르셀로나,타파스,대기,,저~중,Barcelona Tourism guide,https://www.barcelonatourism.org/2026/07/08/breakfast-brunch/,추천 출처가 시청 공식 관광 사이트가 아님(재확인 필요),링크 가격 ID 없음; 가격 조사 대기
+바르셀로나,메누 델 디아,대기,,저~중,Barcelona Tourism guide,https://www.barcelonatourism.org/2026/07/26/family-restaurants/,추천 출처가 시청 공식 관광 사이트가 아님(재확인 필요),링크 가격 ID 없음; 가격 조사 대기
+바르셀로나,상그리아,대기,BCN-FD-009,저~중,Barcelona Tourism guide,https://www.barcelonatourism.org/2026/07/08/breakfast-brunch/,추천 출처가 시청 공식 관광 사이트가 아님(재확인 필요),가격 ID 연결됨에도 대기 상태; 동일 메뉴·가격 유효성 대조 필요
+서울,설렁탕,대기,,저~중,한국관광공사 대한민국 구석구석,https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=befc472b-f62c-4ea9-a0e7-a77863f4326d,,링크 가격 ID 없음; 가격 조사 대기
+서울,서울식 추탕,대기,,중,한국관광공사 대한민국 구석구석,https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=ead7865b-4325-4840-ad7d-8530c549b88f,,링크 가격 ID 없음; 가격 조사 대기
+서울,녹두빈대떡,대기,,저,한국관광공사 대한민국 구석구석,https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=aeaa8f41-62c8-4c20-9854-a9193721ea93,,링크 가격 ID 없음; 가격 조사 대기
+서울,신당동 즉석떡볶이,대기,,저~중,서울관광재단 비짓서울,https://korean.visitseoul.net/,,링크 가격 ID 없음; 가격 조사 대기
+부산,돼지국밥,대기,PUS-FD-764;PUS-FD-765,저~중,비짓부산(부산관광공사),https://www.visitbusan.net/index.do?menuCd=DOM_000000202003001000&uc_seq=1005&lang_cd=ko,,가격 ID 연결됨에도 대기 상태; 동일 메뉴·가격 유효성 대조 필요
+부산,밀면,대기,,저,한국관광공사 대한민국 구석구석,https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=08f2354e-c8be-430d-9719-be4259272db2,,링크 가격 ID 없음; 가격 조사 대기
+부산,씨앗호떡,대기,PUS-SN-776,저,비짓부산(부산관광공사),https://www.visitbusan.net/index.do?menuCd=DOM_000000202003001000&uc_seq=1005&lang_cd=ko,,가격 ID 연결됨에도 대기 상태; 동일 메뉴·가격 유효성 대조 필요
+부산,부산어묵,대기,PUS-SN-779,저,한국관광공사 대한민국 구석구석,https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=08f2354e-c8be-430d-9719-be4259272db2,,가격 ID 연결됨에도 대기 상태; 동일 메뉴·가격 유효성 대조 필요
+제주,고기국수,대기,,저~중,비짓제주(제주관광공사),https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000013389,,링크 가격 ID 없음; 가격 조사 대기
+제주,옥돔구이,대기,,중~고,비짓제주(제주관광공사),https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000013389,,링크 가격 ID 없음; 가격 조사 대기
+제주,갈치국,대기,,중,비짓제주(제주관광공사),https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000013389,,링크 가격 ID 없음; 가격 조사 대기
+제주,빙떡,대기,,저,비짓제주(제주관광공사),https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000013389,,링크 가격 ID 없음; 가격 조사 대기
+뉴욕,베이글,대기,,저,NYC Tourism,https://www.nyctourism.com/,추천 근거 페이지가 홈페이지라 재확인 필요,링크 가격 ID 없음; 가격 조사 대기
+뉴욕,뉴욕 스타일 피자,대기,NYC-SN-741,저,NYC Tourism,https://www.nyctourism.com/,추천 근거 페이지가 홈페이지라 재확인 필요,가격 ID 연결됨에도 대기 상태; 동일 메뉴·가격 유효성 대조 필요
+뉴욕,치즈케이크,대기,NYC-FD-102,저~중,NYC Tourism,https://www.nyctourism.com/,추천 근거 페이지가 홈페이지라 재확인 필요,가격 ID 연결됨에도 대기 상태; 동일 메뉴·가격 유효성 대조 필요
+뉴욕,버거,대기,NYC-FD-101,저~중,NYC Tourism,https://www.nyctourism.com/,추천 근거 페이지가 홈페이지라 재확인 필요,가격 ID 연결됨에도 대기 상태; 동일 메뉴·가격 유효성 대조 필요
+로마,카르보나라,대기,ROM-FD-104,저~중,Turismo Roma,https://turismoroma.it/en,추천 출처 재확인 필요(받은 주소가 숙박세 안내 페이지였음),가격 ID 연결됨에도 대기 상태; 동일 메뉴·가격 유효성 대조 필요
+로마,아마트리차나,대기,ROM-FD-102,저~중,Turismo Roma,https://turismoroma.it/en,추천 출처 재확인 필요(받은 주소가 숙박세 안내 페이지였음),가격 ID 연결됨에도 대기 상태; 동일 메뉴·가격 유효성 대조 필요
+로마,카초 에 페페,대기,,저,Turismo Roma,https://turismoroma.it/en,추천 출처 재확인 필요(받은 주소가 숙박세 안내 페이지였음),링크 가격 ID 없음; 가격 조사 대기
+로마,피자 알 탈리오,대기,,저,Turismo Roma,https://turismoroma.it/en,추천 출처 재확인 필요(받은 주소가 숙박세 안내 페이지였음),링크 가격 ID 없음; 가격 조사 대기
+로마,젤라토,대기,ROM-FD-201,저,Turismo Roma,https://turismoroma.it/en,추천 출처 재확인 필요(받은 주소가 숙박세 안내 페이지였음),가격 ID 연결됨에도 대기 상태; 동일 메뉴·가격 유효성 대조 필요

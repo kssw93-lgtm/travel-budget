@@ -180,6 +180,18 @@
     "note": "원문: Dans les établissements avec service, le prix affiché inclut taxes et services. 프랑스 전국 공통. Claude(Chrome) 수집"
   },
   {
+    "cityId": "taipei",
+    "item": "영업세(營業稅·부가가치세)",
+    "value": "일반 세율 5%",
+    "itemEn": "Business tax (VAT)",
+    "valueEn": "5% general rate (nationwide)",
+    "unit": "%",
+    "sourceName": "財政部稅務入口網",
+    "sourceUrl": "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-saving-manual/national/business-tax/6opmkDW",
+    "checkedAt": "2026-10-07",
+    "note": "원문: 營業稅稅額計算表 課稅方式 稅率 … 一般稅額計算 5%. 대만 전국 공통. 식당 봉사료 10% 관행은 이 페이지에 없음. Claude(Chrome) 수집"
+  },
+  {
     "cityId": "new-york",
     "item": "판매세",
     "value": "8.875%",

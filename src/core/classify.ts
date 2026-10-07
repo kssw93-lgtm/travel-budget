@@ -70,6 +70,9 @@ export function transportPassDays(s: PriceSample): number | null {
   const text = `${s.unit} ${s.nameKo} ${s.nameEn}`;
   const hours = KEYWORDS.hours.exec(text);
   if (hours?.[1]) return Math.max(1, Math.ceil(Number(hours[1]) / 24));
+  const days = KEYWORDS.days.exec(text);
+  const n = Number(days?.[1] ?? days?.[2]);
+  if (n >= 1) return n;
   if (KEYWORDS.dailyPass.test(text)) return 1;
   return null;
 }

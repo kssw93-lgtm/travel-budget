@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { dayWeights, estimateTrip, summarizeCity } from '../../src/core/estimate';
 import { MODEL } from '../../src/core/model-config';
+import { transportPassDays } from '../../src/core/classify';
+import type { PriceSample } from '../../src/core/types';
 import { attr, baseSamples, city, gift, meal, pass, ride, sample, snack, trip } from './fixtures';
 
 const close = (r: { min: number; max: number } | null, min: number, max: number) => {
@@ -548,3 +550,14 @@ describe('자세히 설정', () => {
   });
 });
 
+
+describe('교통 이용권 일수', () => {
+  const mk = (unit: string, nameKo: string, nameEn = '') => ({ unit, nameKo, nameEn }) as unknown as PriceSample;
+  it('N시간권·N일권·N-day·1일권을 일수로 읽고 1회권은 null', () => {
+    expect(transportPassDays(mk('성인 1인 48시간', '로마 48시간권'))).toBe(2);
+    expect(transportPassDays(mk('성인 1인 7일권', '기후동행카드 관광권 7일권'))).toBe(7);
+    expect(transportPassDays(mk('성인 1인', 'Pass', '3-day pass'))).toBe(3);
+    expect(transportPassDays(mk('성인 1인 1일', '부산 도시철도 1일권'))).toBe(1);
+    expect(transportPassDays(mk('성인 1인 1회', '지하철 1회권'))).toBeNull();
+  });
+});

@@ -32,7 +32,7 @@
 | 뉴욕 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 이스탄불 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 상하이 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 서울 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 서울 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 부산 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 제주 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 
@@ -266,6 +266,10 @@
 | LON-FD-893 | 런던 | 디슘 치킨 루비(커리) | 18.9 GBP | A | 예 | 재검증 | [Dishoom](https://www.dishoom.com/menu/all-day-main/) |
 | LON-FD-894 | 런던 | 디슘 파우 바지 | 8.7 GBP | A | 예 | 재검증 | [Dishoom](https://www.dishoom.com/menu/all-day-main/) |
 | LON-FD-895 | 런던 | 디슘 하우스 블랙 달 | 11.5 GBP | A | 예 | 재검증 | [Dishoom](https://www.dishoom.com/menu/all-day-main/) |
+| SEL-TR-896 | 서울 | 기후동행카드 관광권 2일권 | 8000 KRW | A | 예 | 재검증 | [티머니 카드&페이](https://pay.tmoney.co.kr/ncs/pct/tmnyintd/ReadClmtAcmpCardGd.dev) |
+| SEL-TR-897 | 서울 | 기후동행카드 관광권 3일권 | 10000 KRW | A | 예 | 재검증 | [티머니 카드&페이](https://pay.tmoney.co.kr/ncs/pct/tmnyintd/ReadClmtAcmpCardGd.dev) |
+| SEL-TR-898 | 서울 | 기후동행카드 관광권 5일권 | 15000 KRW | A | 예 | 재검증 | [티머니 카드&페이](https://pay.tmoney.co.kr/ncs/pct/tmnyintd/ReadClmtAcmpCardGd.dev) |
+| SEL-TR-899 | 서울 | 기후동행카드 관광권 7일권 | 20000 KRW | A | 예 | 재검증 | [티머니 카드&페이](https://pay.tmoney.co.kr/ncs/pct/tmnyintd/ReadClmtAcmpCardGd.dev) |
 | CJU-FD-760 | 제주 | 소산도 우도흑돼지 안심카츠 | 17000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-761 | 제주 | 소산도 흑돼지 우도 등심카츠 | 16000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-762 | 제주 | 제주식 고사리해장국 | 11000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 제주고사리해장국 중문](https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8) |

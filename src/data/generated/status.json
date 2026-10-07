@@ -384,7 +384,7 @@
       "souvenir": 6
     },
     "baskets": {
-      "pass": 1,
+      "pass": 2,
       "ride": 3,
       "meal": 17,
       "snack": 7,
@@ -393,7 +393,7 @@
       "souvenir": 6
     },
     "basketRows": {
-      "pass": 1,
+      "pass": 5,
       "ride": 3,
       "meal": 17,
       "snack": 7,

@@ -10,6 +10,8 @@ export interface CheckResult {
   item: string;
   /** 실패했을 때 할 일 */
   fix: string;
+  /** 선택 항목: 없어도 신청은 가능(점검 실패로 세지 않음) */
+  optional?: boolean;
 }
 
 const PLACEHOLDER = /example\.com|pub-0{16}|test@/i;
@@ -18,9 +20,9 @@ const read = (dir: string, file: string) => (existsSync(join(dir, file)) ? readF
 const fallbackText = (html: string) =>
   (/<div class="fallback">([\s\S]*?)<noscript>/.exec(html)?.[1] ?? '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 
-export function checkAdsenseReady(dir: string, contactPending: string): CheckResult[] {
+export function checkAdsenseReady(dir: string): CheckResult[] {
   const out: CheckResult[] = [];
-  const add = (ok: boolean, item: string, fix: string) => out.push({ ok, item, fix });
+  const add = (ok: boolean, item: string, fix: string, optional = false) => out.push({ ok, item, fix, optional });
 
   const pages = ['index.html', 'about.html', 'privacy.html', 'guides.html'];
   const guideDir = join(dir, 'guide');
@@ -41,9 +43,10 @@ export function checkAdsenseReady(dir: string, contactPending: string): CheckRes
   const about = html['about.html'] ?? '';
   const privacy = html['privacy.html'] ?? '';
   add(
-    !!about && !!privacy && !about.includes(contactPending) && !privacy.includes(contactPending) && /@/.test(fallbackText(privacy)),
-    '소개·개인정보처리방침에 문의 이메일이 보임',
-    'VITE_CONTACT_EMAIL=문의용@이메일 을 빌드 환경변수로 넣으세요.',
+    /@/.test(fallbackText(privacy)),
+    '(선택) 소개·개인정보처리방침에 문의 이메일이 보임',
+    '필수는 아님. 가격 오류 제보를 받고 싶으면 VITE_CONTACT_EMAIL=이메일 을 넣으세요.',
+    true,
   );
   add(
     ['Google', 'adssettings.google.com', 'aboutads.info'].every((w) => fallbackText(privacy).includes(w)),

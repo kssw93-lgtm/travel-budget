@@ -139,6 +139,10 @@ export const en: Messages = {
     free: 'Free',
     source: 'Source · checked',
     cta: 'Calculate for my trip',
+    passTipTitle: 'Is a transit pass worth it?',
+    passTipLead: 'Based on a typical (median) single fare of {ride}. Actual fares vary by line and distance, so treat this as a guide.',
+    passTipRow: '{pass} {price} → worth it from {n} rides a day',
+    passTipRowDays: '{pass} {price} ({days} days) → worth it from {n} rides a day over {days} days',
     others: 'Other city guides',
   },
   plan: {
@@ -282,7 +286,6 @@ export const en: Messages = {
   info: {
     contactTitle: 'Contact',
     contactLabel: 'Email:',
-    contactPending: 'A contact email will be listed here when the site officially launches.',
   },
   about: {
     title: 'About',

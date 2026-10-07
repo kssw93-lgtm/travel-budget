@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
-import { cityGuide, guidePath, GUIDE_EXAMPLE } from '../core/guide';
+import { cityGuide, guidePath, GUIDE_EXAMPLE, type CityGuide as CityGuideData } from '../core/guide';
+import { formatMoney } from '../core/money';
 import type { City, PriceSample } from '../core/types';
 import { cities, dataDate, dataMeta, extras, foods, memos, samples } from '../data';
 import { DEFAULT_CURRENCY, fmt, localName, useI18n, type Lang } from '../i18n';
@@ -71,6 +72,34 @@ export function GuideIndex({ go }: { go: Go }) {
         })}
       </ul>
     </article>
+  );
+}
+
+/** 이용권 손익분기(하루 몇 번 타야 이용권이 이득인지). 1회 요금 표본이 부족하거나 이용권이 없으면 그리지 않는다 */
+function PassTips({ guide }: { guide: CityGuideData }) {
+  const { t, lang, locale } = useI18n();
+  const g = t.cityGuide;
+  const ride = guide.prices.find((p) => p.basket === 'ride');
+  if (!ride || guide.passTips.length === 0) return null;
+  const cur = guide.city.currency;
+  const money = (n: number) => formatMoney(n, cur, locale);
+  return (
+    <section className="card" aria-labelledby="guide-pass-title" data-testid="guide-pass-tips">
+      <h2 id="guide-pass-title">{g.passTipTitle}</h2>
+      <p className="hint">{fmt(g.passTipLead, { ride: money(ride.median) })}</p>
+      <ul>
+        {guide.passTips.map((p) => (
+          <li key={p.id} data-pass={p.id}>
+            {fmt(p.days > 1 ? g.passTipRowDays : g.passTipRow, {
+              pass: localName(lang, p.nameKo, p.nameEn, p.nameJa),
+              price: money(p.price),
+              days: p.days,
+              n: p.ridesPerDay,
+            })}
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }
 
@@ -214,6 +243,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
       </section>
 
       <PriceGuide city={city} samples={samples} display={display} rates={rates} />
+      <PassTips guide={guide} />
       <AttractionTable guide={guide} display={display} rates={rates} />
       <FoodSection city={city} foods={foods} samples={samples} display={display} rates={rates} />
       <CityMemos city={city} memos={memos} />

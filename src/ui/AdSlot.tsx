@@ -5,7 +5,8 @@ import { useI18n } from '../i18n';
  * 광고 자리. 실제 Google 광고 코드·계정 ID 는 넣지 않았다(광고를 붙일 때는 이 컴포넌트의 `.ad-slot__content` 안에서만).
  *
  * 상태(data-state)
- * - placeholder: 내용이 없을 때. "광고 영역" 표지만 보이고 작게 고정(레일 160×120, 인라인 320×50 / 728×90).
+ * - placeholder: 내용이 없을 때. 자리 크기만 작게 고정(레일 160×120, 인라인 320×50 / 728×90)하고 화면에는 아무것도 그리지 않는다
+ *   (빈 "광고 영역" 상자는 미완성 사이트처럼 보여 광고 심사에 불리하다). 스크린 리더에도 숨긴다.
  * - filled: `.ad-slot__content` 에 노드가 들어오면(React children 또는 광고 스크립트의 직접 삽입) 자동 전환.
  *   레일은 광고 높이만큼 늘어나고 세로로 잘리지 않는다(가로는 160px 를 넘는 부분만 잘라 본문을 침범하지 않음).
  *   인라인은 CLS 방지를 위해 표준 규격 높이를 그대로 유지한다.
@@ -35,12 +36,13 @@ export function AdSlot({ name, children }: { name: AdSlotName; children?: ReactN
   }, []);
 
   return (
-    <aside className={`ad-slot ${kind}`} data-ad-slot={name} data-state={filled ? 'filled' : 'placeholder'} aria-label={t.ads.label}>
-      {!filled && (
-        <span className="ad-slot__label" aria-hidden="true">
-          {t.ads.label}
-        </span>
-      )}
+    <aside
+      className={`ad-slot ${kind}`}
+      data-ad-slot={name}
+      data-state={filled ? 'filled' : 'placeholder'}
+      aria-label={t.ads.label}
+      aria-hidden={filled ? undefined : true}
+    >
       <div className="ad-slot__content" ref={content}>
         {children}
       </div>

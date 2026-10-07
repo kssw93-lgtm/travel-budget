@@ -55,18 +55,18 @@ describe('AdSense 신청 준비', () => {
 
   it('안내 페이지 정적 본문: 화면과 같은 문구·자리표시자 채움·이스케이프·문의처', () => {
     const text = { title: '방침 <A>', lead: '{n}개 도시', effective: '시행일 {date}', sections: [{ h: '쿠키', body: ['Google 광고'] }] };
-    const contact = { title: '문의', label: '이메일:', pending: '준비 중', email: null };
+    const contact = { title: '문의', label: '이메일:', email: null };
     const html = infoFallbackHtml(text, { n: 16, date: '2026-10-02' }, contact);
     expect(html).toContain('<h1>방침 &lt;A&gt;</h1>');
     expect(html).toContain('<p>16개 도시</p>');
     expect(html).toContain('<p>시행일 2026-10-02</p>');
     expect(html).toContain('<h2>쿠키</h2>');
-    expect(html).toContain('<p>준비 중</p>');
+    expect(html).not.toContain('<h2>문의</h2>'); // 이메일이 없으면 문의 절 없음
     expect(infoFallbackHtml(text, {}, { ...contact, email: 'a@b.kr' })).toContain('<p>이메일: a@b.kr</p>');
   });
 
   it('신청 전 점검은 빈 빌드 결과에서 실패 항목과 할 일을 알려 준다', () => {
-    const results = checkAdsenseReady('/nonexistent-dist', '준비 중');
+    const results = checkAdsenseReady('/nonexistent-dist');
     expect(results.some((r) => !r.ok && r.fix.includes('npm run build'))).toBe(true);
     expect(results.find((r) => r.item.includes('ads.txt'))?.ok).toBe(false);
   });

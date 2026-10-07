@@ -143,6 +143,10 @@ export const ja: Messages = {
     free: '無料',
     source: '出典・確認日',
     cta: '自分の日程で計算する',
+    passTipTitle: '乗り放題券は1日何回乗ればお得？',
+    passTipLead: '公共交通1回の代表運賃（中央値）{ride}を基準にしています。実際の運賃は路線・距離で変わるため目安です。',
+    passTipRow: '{pass} {price} → 1日{n}回以上乗ればお得',
+    passTipRowDays: '{pass} {price}（{days}日間）→ {days}日間、1日{n}回以上乗ればお得',
     others: '他の都市のガイド',
   },
   plan: {
@@ -286,7 +290,6 @@ export const ja: Messages = {
   info: {
     contactTitle: 'お問い合わせ',
     contactLabel: 'メール：',
-    contactPending: 'お問い合わせ用のメールアドレスは、正式運営の開始時にここに記載します。',
   },
   about: {
     title: 'このサイトについて',

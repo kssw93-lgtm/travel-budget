@@ -11,14 +11,17 @@ function Para({ text }: { text: string }) {
   return <p>{parts.map((p, i) => (/^https?:\/\//.test(p) ? <ExternalLink key={i} href={p}>{p}</ExternalLink> : p))}</p>;
 }
 
+/** 문의 이메일은 선택. 없으면 문의 절 자체를 두지 않는다("준비 중" 문구는 미완성 사이트처럼 보인다) */
 function Contact() {
   const { t } = useI18n();
-  return contactEmail ? (
-    <p data-testid="contact">
-      {t.info.contactLabel} <span className="selectable">{contactEmail}</span>
-    </p>
-  ) : (
-    <p className="muted" data-testid="contact">{t.info.contactPending}</p>
+  if (!contactEmail) return null;
+  return (
+    <>
+      <h2>{t.info.contactTitle}</h2>
+      <p data-testid="contact">
+        {t.info.contactLabel} <span className="selectable">{contactEmail}</span>
+      </p>
+    </>
   );
 }
 
@@ -38,7 +41,6 @@ export function About() {
           ))}
         </section>
       ))}
-      <h2>{t.info.contactTitle}</h2>
       <Contact />
     </article>
   );
@@ -60,7 +62,6 @@ export function Privacy() {
           ))}
         </section>
       ))}
-      <h2>{t.info.contactTitle}</h2>
       <Contact />
     </article>
   );

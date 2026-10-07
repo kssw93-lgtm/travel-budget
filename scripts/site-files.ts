@@ -76,12 +76,12 @@ export interface InfoText {
 
 /**
  * 안내 페이지의 정적 본문(JS 실행 전 크롤러·심사용). 화면(InfoPages.tsx)과 같은 문구를 쓰고,
- * 자리표시자 {name} 은 vars 로 채운다. 문의처가 없으면 "준비 중" 문구.
+ * 자리표시자 {name} 은 vars 로 채운다. 문의 이메일은 선택이며 없으면 문의 절을 넣지 않는다.
  */
 export function infoFallbackHtml(
   text: InfoText,
   vars: Record<string, string | number>,
-  contact: { title: string; label: string; pending: string; email: string | null },
+  contact: { title: string; label: string; email: string | null },
 ): string {
   const fill = (s: string) => s.replace(/\{(\w+)\}/g, (m, k: string) => (k in vars ? String(vars[k]) : m));
   const out = [`<h1>${escapeHtml(text.title)}</h1>`];
@@ -90,8 +90,7 @@ export function infoFallbackHtml(
   for (const sec of text.sections) {
     out.push(`<h2>${escapeHtml(sec.h)}</h2>`, ...sec.body.map((b) => `<p>${escapeHtml(fill(b))}</p>`));
   }
-  out.push(`<h2>${escapeHtml(contact.title)}</h2>`);
-  out.push(`<p>${escapeHtml(contact.email ? `${contact.label} ${contact.email}` : contact.pending)}</p>`);
+  if (contact.email) out.push(`<h2>${escapeHtml(contact.title)}</h2>`, `<p>${escapeHtml(`${contact.label} ${contact.email}`)}</p>`);
   return out.map((l) => `        ${l}`).join('\n');
 }
 

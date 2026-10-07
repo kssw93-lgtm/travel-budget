@@ -2,6 +2,7 @@ import { attractionOptions, type AttractionOption } from './attractions';
 import { estimateTrip } from './estimate';
 import { STYLES } from './model-config';
 import { priceGuide, type GuideRow } from './price-guide';
+import { passOptions } from './transport';
 import type { Category, City, ExtraSample, PriceSample, Range, TravelStyle } from './types';
 
 /** 예시 경비 내역의 줄: 외식·현지 교통·기념품·예비비 */
@@ -25,6 +26,33 @@ export interface CityGuide {
   }>;
   prices: GuideRow[];
   attractions: AttractionOption[];
+  /** 이용권 손익분기: 1회 요금 대표값 기준으로 하루 몇 번 이상 타면 이용권이 이득인지. 1회 요금 표본이 충분할 때만 */
+  passTips: PassTip[];
+}
+
+export interface PassTip {
+  id: string;
+  nameKo: string;
+  nameEn: string;
+  nameJa?: string;
+  /** 이용권 1장 가격(현지 통화, 가격 범위면 최고가로 보수적으로) */
+  price: number;
+  /** 이용권 1장이 덮는 일수 */
+  days: number;
+  /** 하루 이 횟수 이상 타면 1회권보다 이용권이 싸다 */
+  ridesPerDay: number;
+}
+
+/** 이용권 손익분기 = ⌈(이용권 가격 ÷ 일수) ÷ 1회 요금 중앙값⌉. 이용권이 가장 싼 1회 요금보다도 싸면(1회 이하) 보여 줄 의미가 없어 뺀다 */
+export function passTips(city: City, samples: PriceSample[], rides: GuideRow | undefined): PassTip[] {
+  if (!rides || !rides.sufficient || rides.median <= 0) return [];
+  return passOptions(city, samples)
+    .map((o) => {
+      const s = o.adult.sample;
+      return { id: s.id, nameKo: s.nameKo, nameEn: s.nameEn, nameJa: s.nameJa, price: s.max, days: o.days, ridesPerDay: Math.ceil(s.max / o.days / rides.median) };
+    })
+    .filter((p) => p.ridesPerDay >= 2)
+    .sort((a, b) => a.days - b.days || a.price - b.price);
 }
 
 /** 도시 가이드 페이지 데이터. 계산기와 같은 엔진·같은 표본만 쓴다(별도 수치 없음) */
@@ -38,7 +66,15 @@ export function cityGuide(city: City, samples: PriceSample[], refDate: string, e
     ];
     return { style, total: e.total, perDay: e.total ? { min: e.total.min / days, max: e.total.max / days } : null, breakdown };
   });
-  return { city, refDate, styles, prices: priceGuide(city, samples), attractions: attractionOptions(city, samples) };
+  const prices = priceGuide(city, samples);
+  return {
+    city,
+    refDate,
+    styles,
+    prices,
+    attractions: attractionOptions(city, samples),
+    passTips: passTips(city, samples, prices.find((p) => p.basket === 'ride')),
+  };
 }
 
 /** 도시 가이드 주소 */

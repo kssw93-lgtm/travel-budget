@@ -138,6 +138,10 @@ export const ko = {
     free: '무료',
     source: '출처·확인일',
     cta: '내 일정으로 계산하기',
+    passTipTitle: '이용권, 하루 몇 번 타야 이득일까',
+    passTipLead: '대중교통 1회 요금 대표값(중앙값) {ride} 기준입니다. 실제 요금은 노선·거리에 따라 달라 참고용입니다.',
+    passTipRow: '{pass} {price} → 하루 {n}회 이상 타면 이득',
+    passTipRowDays: '{pass} {price}({days}일) → {days}일 동안 하루 {n}회 이상 타면 이득',
     others: '다른 도시 가이드',
   },
   plan: {
@@ -281,7 +285,6 @@ export const ko = {
   info: {
     contactTitle: '문의',
     contactLabel: '이메일:',
-    contactPending: '문의 이메일은 정식 운영 시작 시 이곳에 기재합니다.',
   },
   about: {
     title: '사이트 소개',

@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { attractionOptions } from '../../src/core/attractions';
 import { classify } from '../../src/core/classify';
 import { estimateTrip } from '../../src/core/estimate';
+import { cityGuide, passTips } from '../../src/core/guide';
 import { priceGuide } from '../../src/core/price-guide';
 import type { TripInput } from '../../src/core/types';
 import { cityById, samples } from '../../src/data';
@@ -114,5 +115,19 @@ describe('현지 물가 한눈에', () => {
     expect(ids('taipei')).not.toContain('TPE-AT-015');
     expect(ids('singapore')).not.toContain('SIN-AT-014');
     expect(ids('osaka')).toContain('OSA-AT-008');
+  });
+});
+
+describe('도시 가이드: 이용권 손익분기', () => {
+  it('하루 ⌈(이용권 가격 ÷ 일수) ÷ 1회 요금 중앙값⌉ 번 이상 타면 이득, 1회 요금이 부족하면 없음', () => {
+    const g = cityGuide(city('tokyo'), samples, '2026-10-06');
+    const ride = g.prices.find((p) => p.basket === 'ride')!;
+    expect(g.passTips.length).toBeGreaterThan(0);
+    for (const p of g.passTips) {
+      expect(p.ridesPerDay).toBe(Math.ceil(p.price / p.days / ride.median));
+      expect(p.ridesPerDay).toBeGreaterThanOrEqual(2);
+    }
+    expect(g.passTips.find((p) => p.id === 'TYO-TR-879')).toMatchObject({ price: 700, days: 1 });
+    expect(passTips(city('tokyo'), samples, undefined)).toEqual([]);
   });
 });

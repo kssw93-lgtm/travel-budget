@@ -1,11 +1,11 @@
 import { resolve } from 'node:path';
 import { defineConfig, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
-import { guideIndexMeta, guidePageMeta, type GuideData } from './scripts/guide-pages';
+import { guideIndexMeta, guidePageMeta, homeFallbackHtml, type GuideData } from './scripts/guide-pages';
 import { SITE_PAGES, adsTxt, adsenseMeta, headTags, infoFallbackHtml, normalizeSite, pageHtml, replaceFallback, robotsTxt, sitemapXml } from './scripts/site-files';
 import { ko } from './src/i18n/ko';
 import { guidePath } from './src/core/guide';
-import { cities, dataDate, dataMeta, extras, foods, samples } from './src/data';
+import { cities, dataDate, dataMeta, extras, foods, memos, samples } from './src/data';
 import { PRIVACY_EFFECTIVE } from './src/ui/policy';
 
 /**
@@ -18,8 +18,10 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
   const ads = adsTxt(publisherId);
   const adsMeta = adsenseMeta(publisherId);
   const email = contactEmail?.trim() || null;
-  const contact = { title: ko.info.contactTitle, label: ko.info.contactLabel, pending: ko.info.contactPending, email };
+  const contact = { title: ko.info.contactTitle, label: ko.info.contactLabel, email };
+  const guideData: GuideData = { cities, samples, foods, extras, memos, refDate: dataMeta.date || dataDate };
   const infoHtml: Record<string, string> = {
+    'index.html': homeFallbackHtml(guideData),
     'about.html': infoFallbackHtml(ko.about, { cities: cities.map((c) => c.nameKo).join('·'), n: cities.length }, contact),
     'privacy.html': infoFallbackHtml(ko.privacy, { date: PRIVACY_EFFECTIVE }, contact),
   };
@@ -41,7 +43,7 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
         if (ads) this.emitFile({ type: 'asset', fileName: 'ads.txt', source: ads });
         const index = bundle['index.html'];
         if (index?.type !== 'asset' || typeof index.source !== 'string') return;
-        const data: GuideData = { cities, samples, foods, extras, refDate: dataMeta.date || dataDate };
+        const data = guideData;
         this.emitFile({ type: 'asset', fileName: 'guides.html', source: pageHtml(index.source, guideIndexMeta(data), site) });
         for (const c of cities) {
           this.emitFile({ type: 'asset', fileName: `guide/${c.id}.html`, source: pageHtml(index.source, guidePageMeta(c, data), site) });

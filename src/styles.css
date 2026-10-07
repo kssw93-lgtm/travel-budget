@@ -55,7 +55,7 @@ h2[id] { scroll-margin-top: 72px; }
 /* 광고 자리(표지만). 높이를 고정해 광고가 들어와도 본문이 움직이지 않게 하고, 고정·오버레이는 쓰지 않는다 */
 /* placeholder: 표지만 있을 때 작게 고정. filled: 실제 광고가 들어오면 레일은 광고 높이에 맞춰 늘어난다(아래 규칙) */
 .ad-slot { border: 1px dashed var(--line); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: .72rem; letter-spacing: .04em; overflow: hidden; }
-.ad-slot[data-state="placeholder"] { contain: layout size; }
+.ad-slot[data-state="placeholder"] { contain: layout size; border-color: transparent; }
 .ad-slot[data-state="placeholder"] .ad-slot__content { display: none; }
 .ad-slot__content { width: 100%; }
 /* 인라인 자리: 모바일 320×50, 태블릿 728×90 표준 크기에 맞춘 고정 높이 */

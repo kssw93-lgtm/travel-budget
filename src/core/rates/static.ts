@@ -1,4 +1,4 @@
-import table from '../../../data/rates/rates-2026-10-02.json';
+import table from '../../../data/rates/rates-2026-10-06.json';
 import type { RatesPayload } from '../types';
 
 /**

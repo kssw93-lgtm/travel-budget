@@ -1,0 +1,78 @@
+{
+  "asOf": "2026-10-06",
+  "researchedAt": "2026-10-07",
+  "note": "조사한 공식 환율 원자료. 사이트 표시값은 1 USD 기준이며 src/core/rates/static.ts가 ECB의 1 EUR 기준 환율을 ECB EUR/USD로 나눠 계산한다. TWD·VND·AED·SAR는 perUSD의 통화별 공식 자료를 쓴다. VND는 Vietcombank의 송금 매입·매도 중간값이며 실제 환전 시 적용되는 환율과 다를 수 있다.",
+  "ecb": {
+    "name": "European Central Bank euro foreign exchange reference rates",
+    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+    "date": "2026-10-06",
+    "perEUR": {
+      "USD": 1.1269,
+      "JPY": 178.15,
+      "GBP": 0.8488,
+      "CHF": 0.9359,
+      "NZD": 2.0061,
+      "PHP": 70.702,
+      "SGD": 1.4392,
+      "THB": 37.836,
+      "ZAR": 18.5829,
+      "KRW": 1508.67,
+      "CNY": 7.5554,
+      "HKD": 8.8438,
+      "TRY": 55.4196,
+      "BRL": 5.5991,
+      "IDR": 20104.8,
+      "INR": 108.6615,
+      "MXN": 20.2217,
+      "MYR": 4.6034,
+      "CZK": 24.405,
+      "DKK": 7.4747,
+      "PLN": 4.365,
+      "SEK": 11.2425,
+      "NOK": 10.778,
+      "AUD": 1.614,
+      "CAD": 1.6058
+    },
+    "crossCheck": [
+      "https://centralbank.ae/umbraco/Surface/Exchange/GetExchangeRateAllCurrency"
+    ]
+  },
+  "perUSD": {
+    "TWD": {
+      "rate": 31.781,
+      "date": "2026-10-06",
+      "name": "대만 중앙은행 新臺幣/美元 은행간 마감환율",
+      "url": "https://www.cbc.gov.tw/tw/lp-645-1-1-40.html"
+    },
+    "VND": {
+      "rate": 25990,
+      "date": "2026-10-06",
+      "name": "Vietcombank 송금 매입 25,800·매도 26,180의 중간값",
+      "url": "https://www.vietcombank.com.vn/KHCN/Cong-cu-Tien-ich/Ty-gia"
+    },
+    "AED": {
+      "rate": 3.6725,
+      "date": "2026-10-06",
+      "name": "UAE 중앙은행의 USD/AED 기준환율",
+      "url": "https://centralbank.ae/umbraco/Surface/Exchange/GetExchangeRateAllCurrency"
+    },
+    "SAR": {
+      "rate": 3.75,
+      "date": "2026-10-06",
+      "name": "사우디 중앙은행(SAMA) 공식 환율 화면의 USD 3.7500 SAR",
+      "url": "https://www.sama.gov.sa/en-US/pages/default.aspx"
+    }
+  },
+  "crossChecks": [
+    {
+      "what": "USD/CNY: ECB 7.5554 ÷ 1.1269 = 6.7046 CNY",
+      "against": "UAE 중앙은행 3.6725 AED/USD ÷ 0.547758 AED/CNY = 6.7046 CNY",
+      "url": "https://centralbank.ae/umbraco/Surface/Exchange/GetExchangeRateAllCurrency"
+    },
+    {
+      "what": "USD/HKD: ECB 8.8438 ÷ 1.1269 = 7.8479 HKD",
+      "against": "UAE 중앙은행 3.6725 AED/USD ÷ 0.467960 AED/HKD = 7.8479 HKD",
+      "url": "https://centralbank.ae/umbraco/Surface/Exchange/GetExchangeRateAllCurrency"
+    }
+  ]
+}

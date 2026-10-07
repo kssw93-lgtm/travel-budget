@@ -251,7 +251,7 @@ export const en: Messages = {
     enough: '{n} independent samples',
   },
   preview: {
-    banner: 'Demo preview. Exchange rates come from a researched fixed rate table (as of 2026-10-02).',
+    banner: 'Demo preview. Exchange rates come from a researched fixed rate table (as of 2026-10-06).',
     rates: 'Preview: the public exchange rate APIs could not be reached, so only local-currency amounts are shown. The live site uses rates its server refreshes once a day.',
   },
   detail: {

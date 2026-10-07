@@ -23,6 +23,8 @@ export interface GuideData {
   extras: ExtraSample[];
   memos: CityMemo[];
   refDate: string;
+  /** 화면에 보이는 가격 자료 기준일(가장 최근 확인일). 푸터와 같은 값 */
+  updated: string;
 }
 
 export function guidePageMeta(city: City, d: GuideData): PageMeta {
@@ -65,7 +67,7 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
 
   const fallbackHtml = [
     `        <h1>${e(city.nameKo)} 여행 경비 가이드</h1>`,
-    `        <p>${e(city.nameKo)}에서 실제로 쓰게 될 돈을 공식 가격 자료로 정리했습니다. 가격 자료 기준일 ${e(d.refDate)}.</p>`,
+    `        <p>${e(city.nameKo)}에서 실제로 쓰게 될 돈을 공식 가격 자료로 정리했습니다. 가격 자료 기준일 ${e(d.updated)}.</p>`,
     `        <h2>3박 4일 예상 현지 체류비 (성인 1명)</h2><p>외식·현지 교통·기념품 + 예비비 10%. 관광지 입장료·항공·숙박 제외.</p><ul>${styles}</ul>`,
     prices && `        <h2>${e(city.nameKo)} 현지 물가 한눈에</h2><ul>${prices}</ul>`,
     passTips &&
@@ -86,7 +88,7 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
       '@type': 'Article',
       headline: `${city.nameKo} 여행 경비 가이드`,
       inLanguage: ['ko', 'en', 'ja'],
-      dateModified: d.refDate,
+      dateModified: d.updated,
       about: { '@type': 'City', name: city.nameEn, containedInPlace: { '@type': 'Country', name: city.countryEn } },
     },
     fallbackHtml,
@@ -125,7 +127,7 @@ export function homeFallbackHtml(d: GuideData): string {
     '        <p>도시와 일정을 고르면 외식·교통·관광·기념품 예상 경비를 최소~최대 범위로 계산합니다. 항공권과 숙박은 직접 입력한 경우에만 더합니다.</p>',
     '        <h2>이 계산기로 할 수 있는 것</h2>',
     '        <ul><li>도시·날짜·인원·여행 스타일(절약·일반·여유)에 맞춘 현지 체류비 범위</li><li>가고 싶은 관광지를 골라 공식 입장료(성인·아동) 더하기</li><li>교통 이용 방식(1회권·이용권), 하루 끼니 수, 음주까지 내 일정에 맞게 조정</li><li>현지 통화와 원화·달러·엔화 환산을 함께 표시</li></ul>',
-    `        <p>모든 금액은 교통 운영사·관광지·식당의 공식 페이지에서 확인한 가격 표본으로 계산하며, 각 가격에는 출처와 확인일이 붙어 있습니다. 가격 자료 기준일 ${e(d.refDate)}.</p>`,
+    `        <p>모든 금액은 교통 운영사·관광지·식당의 공식 페이지에서 확인한 가격 표본으로 계산하며, 각 가격에는 출처와 확인일이 붙어 있습니다. 가격 자료 기준일 ${e(d.updated)}.</p>`,
     `        <h2>도시별 여행 경비 가이드 (${d.cities.length}개 도시)</h2>`,
     `        <ul>${items}</ul>`,
   ].join('\n');

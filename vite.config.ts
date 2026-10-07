@@ -19,7 +19,7 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
   const adsMeta = adsenseMeta(publisherId);
   const email = contactEmail?.trim() || null;
   const contact = { title: ko.info.contactTitle, label: ko.info.contactLabel, email };
-  const guideData: GuideData = { cities, samples, foods, extras, memos, refDate: dataMeta.date || dataDate };
+  const guideData: GuideData = { cities, samples, foods, extras, memos, refDate: dataMeta.date || dataDate, updated: dataDate };
   const infoHtml: Record<string, string> = {
     'index.html': homeFallbackHtml(guideData),
     'about.html': infoFallbackHtml(ko.about, { cities: cities.map((c) => c.nameKo).join('·'), n: cities.length }, contact),

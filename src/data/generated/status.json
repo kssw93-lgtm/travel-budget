@@ -322,7 +322,7 @@
     "counts": {
       "food": 6,
       "transport": 3,
-      "attraction": 6,
+      "attraction": 12,
       "souvenir": 3
     },
     "baskets": {
@@ -331,7 +331,7 @@
       "meal": 6,
       "snack": 6,
       "drink": 3,
-      "attraction": 6,
+      "attraction": 12,
       "souvenir": 3
     },
     "basketRows": {
@@ -340,7 +340,7 @@
       "meal": 6,
       "snack": 6,
       "drink": 3,
-      "attraction": 6,
+      "attraction": 12,
       "souvenir": 3
     },
     "fillRate": 1,
@@ -351,7 +351,7 @@
     "counts": {
       "food": 3,
       "transport": 3,
-      "attraction": 5,
+      "attraction": 12,
       "souvenir": 3
     },
     "baskets": {
@@ -360,7 +360,7 @@
       "meal": 3,
       "snack": 3,
       "drink": 3,
-      "attraction": 5,
+      "attraction": 12,
       "souvenir": 3
     },
     "basketRows": {
@@ -369,7 +369,7 @@
       "meal": 3,
       "snack": 3,
       "drink": 3,
-      "attraction": 5,
+      "attraction": 12,
       "souvenir": 3
     },
     "fillRate": 1,
@@ -380,7 +380,7 @@
     "counts": {
       "food": 17,
       "transport": 3,
-      "attraction": 7,
+      "attraction": 12,
       "souvenir": 6
     },
     "baskets": {
@@ -389,7 +389,7 @@
       "meal": 17,
       "snack": 7,
       "drink": 10,
-      "attraction": 7,
+      "attraction": 12,
       "souvenir": 6
     },
     "basketRows": {
@@ -398,7 +398,7 @@
       "meal": 17,
       "snack": 7,
       "drink": 10,
-      "attraction": 7,
+      "attraction": 12,
       "souvenir": 6
     },
     "fillRate": 1,
@@ -409,7 +409,7 @@
     "counts": {
       "food": 10,
       "transport": 3,
-      "attraction": 7,
+      "attraction": 12,
       "souvenir": 3
     },
     "baskets": {
@@ -418,7 +418,7 @@
       "meal": 10,
       "snack": 9,
       "drink": 3,
-      "attraction": 7,
+      "attraction": 12,
       "souvenir": 3
     },
     "basketRows": {
@@ -427,7 +427,7 @@
       "meal": 10,
       "snack": 9,
       "drink": 3,
-      "attraction": 7,
+      "attraction": 12,
       "souvenir": 3
     },
     "fillRate": 1,
@@ -438,7 +438,7 @@
     "counts": {
       "food": 9,
       "transport": 3,
-      "attraction": 6,
+      "attraction": 12,
       "souvenir": 5
     },
     "baskets": {
@@ -447,7 +447,7 @@
       "meal": 9,
       "snack": 4,
       "drink": 3,
-      "attraction": 6,
+      "attraction": 12,
       "souvenir": 5
     },
     "basketRows": {
@@ -456,7 +456,7 @@
       "meal": 9,
       "snack": 4,
       "drink": 3,
-      "attraction": 6,
+      "attraction": 12,
       "souvenir": 5
     },
     "fillRate": 1,

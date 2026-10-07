@@ -26,5 +26,6 @@ export const cities: City[] = allCities.filter((c) => c.stage === PILOT_STAGE);
 
 export const cityById = (id: string): City | undefined => cities.find((c) => c.id === id);
 
-/** 가격 표본 중 가장 최근 확인일 */
-export const dataDate = samples.reduce((d, s) => (s.checkedAt > d ? s.checkedAt : d), '');
+/** 공개 도시 가격 표본 중 가장 최근 확인일(화면의 '가격 자료 기준일'). 숨긴 조사 중 도시는 세지 않는다 */
+const publicIds = new Set(cities.map((c) => c.id));
+export const dataDate = samples.reduce((d, s) => (publicIds.has(s.cityId) && s.checkedAt > d ? s.checkedAt : d), '');

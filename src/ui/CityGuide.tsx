@@ -173,7 +173,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
     <>
       <section className="hero" data-testid="city-guide" data-city={city.id}>
         <h1 tabIndex={-1}>{fmt(g.title, { city: name })}</h1>
-        <p>{fmt(g.lead, { city: name, date: guideRefDate })}</p>
+        <p>{fmt(g.lead, { city: name, date: dataDate })}</p>
         <p>
           <InternalLink className="button" to={calc} go={go}>
             {g.cta}

@@ -142,6 +142,53 @@
 | NYC-AT-003 | 뉴욕 | 브롱크스 동물원 일반 입장권(최저 Flex 요금) | 37.7 USD | A | 예 | 시작가 표기 | [Bronx Zoo](https://bronxzoo.com/plan-your-visit/hours-and-rates) |
 | NYC-AT-008 | 뉴욕 | 서밋 원 밴더빌트 만 6~12세 입장권(최저 온라인가) | 39 USD | A | 예 | 시작가 표기 | [SUMMIT One Vanderbilt](https://tickets.summitov.com/Webstore/shop/viewitems.aspx?C=adm&CG=sum) |
 | NYC-AT-012 | 뉴욕 | 브롱크스 동물원 만 3~12세 입장권(최저 Flex 요금) | 27.7 USD | A | 예 | 시작가 표기 | [Bronx Zoo](https://bronxzoo.com/plan-your-visit/hours-and-rates) |
+| IST-AT-101 | 이스탄불 | 미니아튀르크 외국인 입장권 (성인) | 900 TRY | A | 예 | 재검증 | [Miniatürk 공식 입장료](https://miniaturk.com.tr/Home/Index) |
+| IST-AT-102 | 이스탄불 | 페라 박물관 입장권 (성인) | 450 TRY | A | 예 | 재검증 | [Pera Museum 공식 방문 안내](https://peramuseum.org/Home/Visit) |
+| IST-AT-111 | 이스탄불 | 페라 박물관 입장권 (만 12세 이하) | 0 TRY | A | 예 | 재검증 | [Pera Museum 공식 방문 안내](https://peramuseum.org/Home/Visit) |
+| IST-AT-103 | 이스탄불 | 라흐미 M. 코치 박물관 입장권 (성인) | 1000 TRY | A | 예 | 재검증 | [Rahmi M. Koç Museum 공식 요금 안내](https://rmk-museum.org.tr/istanbul/en/visit-us/hours-and-prices) |
+| IST-AT-104 | 이스탄불 | 참르자 타워 전망대 입장권 (외국인 성인) | 900 TRY | A | 예 | 재검증 | [Çamlıca Tower 공식 티켓 페이지](https://camlicakule.istanbul/en/observation-deck-ticket) |
+| IST-AT-112 | 이스탄불 | 참르자 타워 전망대 (만 0~6세) | 0 TRY | A | 예 | 재검증 | [Çamlıca Tower 공식 티켓 페이지](https://camlicakule.istanbul/en/observation-deck-ticket) |
+| IST-AT-105 | 이스탄불 | 파노라마 1453 역사박물관 입장권 (외국인 성인) | 900 TRY | A | 예 | 재검증 | [KÜLTÜR.İSTANBUL 공식 요금 안내](https://kultur.istanbul/panorama-1453-muzesi/) |
+| IST-AT-106 | 이스탄불 | İBB 디지털 체험센터 입장권 (외국인 성인) | 990 TRY | A | 예 | 재검증 | [KÜLTÜR.İSTANBUL 공식 요금 안내](https://kultur.istanbul/ibb-kultur-as-dijital-deneyim-merkezi/) |
+| IST-AT-113 | 이스탄불 | İBB 디지털 체험센터 입장 (만 7세 미만) | 0 TRY | A | 예 | 재검증 | [KÜLTÜR.İSTANBUL 공식 요금 안내](https://kultur.istanbul/ibb-kultur-as-dijital-deneyim-merkezi/) |
+| SHA-AT-101 | 상하이 | 상하이 동물원 입장권 (성인) | 40 CNY | A | 예 | 재검증 | [Shanghai Municipal Government Services](https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0) |
+| SHA-AT-102 | 상하이 | 마담 투소 상하이 입장권 (성인) | 210 CNY | A | 예 | 재검증 | [Shanghai Municipal Government Services](https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0) |
+| SHA-AT-103 | 상하이 | 상하이 영화파크 입장권 (성인) | 80 CNY | A | 예 | 재검증 | [Shanghai Municipal Government Services](https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0) |
+| SHA-AT-104 | 상하이 | 중국 해양박물관 입장권 (성인) | 30 CNY | A | 예 | 재검증 | [Shanghai Municipal Government Services](https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0) |
+| SHA-AT-105 | 상하이 | 상하이 월호 조각공원 입장권 (성인) | 100 CNY | A | 예 | 재검증 | [Shanghai Municipal Government Services](https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0) |
+| SHA-AT-106 | 상하이 | 상하이 화훼항 입장권 (성인) | 50 CNY | A | 예 | 재검증 | [Shanghai Municipal Government Services](https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0) |
+| SHA-AT-111 | 상하이 | 상하이 화훼항 입장권 (아동) | 25 CNY | A | 예 | 재검증 | [Shanghai Municipal Government Services](https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0) |
+| SHA-AT-107 | 상하이 | 상하이 다관원 입장권 (성인) | 55 CNY | A | 예 | 재검증 | [Shanghai Municipal Government Services](https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0) |
+| SHA-AT-112 | 상하이 | 상하이 다관원 입장권 (아동) | 27 CNY | A | 예 | 재검증 | [Shanghai Municipal Government Services](https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0) |
+| SEL-AT-101 | 서울 | 창경궁 입장권 (외국인 성인) | 1000 KRW | A | 예 | 재검증 | [궁능유적본부 관람요금·무료개방 공지](https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view) |
+| SEL-AT-102 | 서울 | 종묘 입장권 (외국인 성인) | 1000 KRW | A | 예 | 재검증 | [궁능유적본부 관람요금·무료개방 공지](https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view) |
+| SEL-AT-103 | 서울 | 서울 선릉과 정릉 입장권 (외국인 성인) | 1000 KRW | A | 예 | 재검증 | [궁능유적본부 관람요금·무료개방 공지](https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view) |
+| SEL-AT-104 | 서울 | 서울 헌릉과 인릉 입장권 (외국인 성인) | 1000 KRW | A | 예 | 재검증 | [궁능유적본부 관람요금·무료개방 공지](https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view) |
+| SEL-AT-111 | 서울 | 창경궁 입장권 (외국인 만 18세 이하) | 0 KRW | A | 예 | 재검증 | [궁능유적본부 관람요금·무료개방 공지](https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view) |
+| SEL-AT-112 | 서울 | 종묘 입장권 (외국인 만 18세 이하) | 0 KRW | A | 예 | 재검증 | [궁능유적본부 관람요금·무료개방 공지](https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view) |
+| SEL-AT-113 | 서울 | 서울 선릉과 정릉 입장권 (외국인 만 18세 이하) | 0 KRW | A | 예 | 재검증 | [궁능유적본부 관람요금·무료개방 공지](https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view) |
+| SEL-AT-114 | 서울 | 서울 헌릉과 인릉 입장권 (외국인 만 18세 이하) | 0 KRW | A | 예 | 재검증 | [궁능유적본부 관람요금·무료개방 공지](https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view) |
+| SEL-AT-105 | 서울 | 서대문형무소역사관 입장권 (성인) | 3000 KRW | A | 예 | 재검증 | [Seoul Metropolitan Government](https://english.seoul.go.kr/seodaemun-prison/) |
+| SEL-AT-115 | 서울 | 서대문형무소역사관 입장권 (아동) | 1000 KRW | A | 예 | 재검증 | [Seoul Metropolitan Government](https://english.seoul.go.kr/seodaemun-prison/) |
+| PUS-AT-101 | 부산 | 태종대 다누비열차 순환권 (성인) | 4000 KRW | A | 예 | 재검증 | [부산광역시 부산지오파크](https://www.busan.go.kr/geopark/taejongdae) |
+| PUS-AT-111 | 부산 | 태종대 다누비열차 순환권 (소인) | 1500 KRW | A | 예 | 재검증 | [부산광역시 부산지오파크](https://www.busan.go.kr/geopark/taejongdae) |
+| PUS-AT-102 | 부산 | 부산타워 전망대 입장권 (성인) | 12000 KRW | A | 예 | 재검증 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=84864) |
+| PUS-AT-112 | 부산 | 부산타워 전망대 입장권 (아동) | 9000 KRW | A | 예 | 재검증 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=84864) |
+| PUS-AT-103 | 부산 | 부산영화체험박물관 입장권 (성인) | 10000 KRW | A | 예 | 재검증 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=194989) |
+| PUS-AT-113 | 부산 | 부산영화체험박물관 입장권 (아동) | 7000 KRW | A | 예 | 재검증 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=194989) |
+| PUS-AT-104 | 부산 | 금강공원 케이블카 왕복권 (성인) | 9000 KRW | A | 예 | 재검증 | [부산광역시 부산지오파크](https://www.busan.go.kr/geopark/geumjeongsan) |
+| PUS-AT-114 | 부산 | 금강공원 케이블카 왕복권 (소인) | 6000 KRW | A | 예 | 재검증 | [부산광역시 부산지오파크](https://www.busan.go.kr/geopark/geumjeongsan) |
+| PUS-AT-105 | 부산 | 국립부산과학관 상설전시관 입장권 (성인) | 3000 KRW | A | 예 | 재검증 | [국립부산과학관](https://www.sciport.or.kr/kor/CMS/Contents/Contents.do?mCode=MN129) |
+| CJU-AT-101 | 제주 | 제주민속촌 입장권 (성인) | 15000 KRW | A | 예 | 재검증 | [제주민속촌 공식 요금 안내](https://jejufolk.com/m/pages.php?p=3_1_1_1) |
+| CJU-AT-111 | 제주 | 제주민속촌 입장권 (어린이) | 11000 KRW | A | 예 | 재검증 | [제주민속촌 공식 요금 안내](https://jejufolk.com/m/pages.php?p=3_1_1_1) |
+| CJU-AT-102 | 제주 | 아르떼뮤지엄 제주 입장권 (성인) | 18000 KRW | A | 예 | 재검증 | [아르떼뮤지엄 제주 공식 요금 안내](https://kr.artemuseum.com/jeju) |
+| CJU-AT-103 | 제주 | 김창열미술관 입장권 (성인) | 2000 KRW | A | 예 | 재검증 | [제주특별자치도 김창열미술관](https://kimtschang-yeul.jeju.go.kr/cnt/cntManagerView.do?idx=12&menuNum=7200) |
+| CJU-AT-114 | 제주 | 김창열미술관 입장권 (어린이) | 500 KRW | A | 예 | 재검증 | [제주특별자치도 김창열미술관](https://kimtschang-yeul.jeju.go.kr/cnt/cntManagerView.do?idx=12&menuNum=7200) |
+| CJU-AT-104 | 제주 | 제주돌문화공원 입장권 (성인) | 5000 KRW | A | 예 | 재검증 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=351&vcontsId=76736) |
+| CJU-AT-105 | 제주 | 제주 유리의성 입장권 (성인) | 11000 KRW | A | 예 | 재검증 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=97532) |
+| CJU-AT-116 | 제주 | 제주 유리의성 입장권 (어린이) | 8000 KRW | A | 예 | 재검증 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=97532) |
+| CJU-AT-106 | 제주 | 제주목관아 입장권 (성인) | 1500 KRW | A | 예 | 재검증 | [제주관광공사 VISITJEJU](https://www.visitjeju.net/kr/themtour/view?contentsid=CNTS_300000000013313&menuId=DOM_000002000000000227) |
+| CJU-AT-117 | 제주 | 제주목관아 입장권 (어린이) | 400 KRW | A | 예 | 재검증 | [제주관광공사 VISITJEJU](https://www.visitjeju.net/kr/themtour/view?contentsid=CNTS_300000000013313&menuId=DOM_000002000000000227) |
 | BCN-FD-101 | 바르셀로나 | 바르사 카페 점심 메뉴 | 23.95 EUR | A | 예 | 재검증 | [FC Barcelona Barca Cafe](https://www.fcbarcelona.es/es/entradas/camp-nou-experience/planifica-tu-visita/2554523/barca-cafe) |
 | BCN-FD-102 | 바르셀로나 | 아네마 에 코레 점심 세트 | 14.9 EUR | A | 예 | 재검증 | [Restaurante Anema e Core Barcelona](https://www.anemaecorebcn.es/en/menus_grupo) |
 | BCN-FD-103 | 바르셀로나 | 아네마 에 코레 피자 점심 세트 | 12.9 EUR | A | 예 | 재검증 | [Restaurante Anema e Core Barcelona](https://www.anemaecorebcn.es/en/menus_grupo) |

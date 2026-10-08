@@ -1,0 +1,24 @@
+{
+  "_note": "교차 검수(data/reviews)에서 공식 현행 가격이 저장값과 달랐던 엑셀 원본 행. 엑셀은 바꾸지 않고 변환할 때만 가격·출처·조회일을 바꾼다. 다음 엑셀에 반영되면 여기서 지운다.",
+  "DAD-TR-006": {
+    "min": 15000,
+    "max": 22000,
+    "sourceUrl": "https://www.danangbus.vn/tin-tuc/tin-tuc/thong-bao-ve-viec-mo-tuyen-xe-buyt-so-06-san-bay-da-nang--dai-hoc-viet-han-5582.html",
+    "checkedAt": "2026-10-08",
+    "reason": "Danabus 공식 요금: 절반 이하 15,000동, 절반 초과~종점 22,000동(이전 상한 30,000동)."
+  },
+  "LON-AT-001": {
+    "min": 38,
+    "max": 38,
+    "sourceUrl": "https://www.hrp.org.uk/tower-of-london/",
+    "checkedAt": "2026-10-08",
+    "reason": "Historic Royal Palaces 공식 성인 요금 £38.00(기부 제외)."
+  },
+  "LON-AT-002": {
+    "min": 19,
+    "max": 19,
+    "sourceUrl": "https://www.hrp.org.uk/tower-of-london/",
+    "checkedAt": "2026-10-08",
+    "reason": "Historic Royal Palaces 공식 5–15세 요금 £19.00(기부 제외)."
+  }
+}

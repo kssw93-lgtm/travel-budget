@@ -277,6 +277,27 @@ function main() {
     }
   }
 
+  // 가격 정정(data/overlays/price-corrections.json): 교차 검수에서 공식 현행 가격이 달라진 엑셀 원본 행.
+  // 엑셀은 그대로 두고 변환할 때만 가격·출처·조회일을 바꾼다. 추가 CSV 행은 CSV 를 직접 고친다.
+  const corrections = JSON.parse(readFileSync(`${root}/data/overlays/price-corrections.json`, 'utf8')) as Record<
+    string,
+    { min: number; max: number; sourceUrl?: string; checkedAt: string; reason: string } | string
+  >;
+  for (const [id, c] of Object.entries(corrections)) {
+    if (id.startsWith('_') || typeof c === 'string') continue;
+    const s = samples.find((x) => x.id === id);
+    if (!s) {
+      errors.push(`price-corrections.json: 없는 표본 ID '${id}'`);
+      continue;
+    }
+    if (!(c.min >= 0 && c.max >= c.min)) errors.push(`price-corrections.json ${id}: 최소·최대가 잘못됨`);
+    s.min = c.min;
+    s.max = c.max;
+    if (c.sourceUrl) s.sourceUrl = c.sourceUrl;
+    s.checkedAt = c.checkedAt;
+    s.note = [s.note, `가격 정정(${c.checkedAt}): ${c.reason}`].filter(Boolean).join(' · ');
+  }
+
   // 일본어 이름 보완(data/overlays/names-ja.json): 엑셀 일본어 열보다 우선한다(음역 행을 통용 표기로 고친 것)
   const namesJa = JSON.parse(readFileSync(`${root}/data/overlays/names-ja.json`, 'utf8')) as Record<string, string>;
   for (const x of [...samples, ...extras]) {
@@ -308,6 +329,9 @@ function main() {
       }
       reviewed.push({ file, id, verdict });
       if (verdict === '일치' || target.review) continue;
+      // 검수 뒤 고친 표본(검수 당시 저장된 가격·상품명과 지금 값이 다름)은 판정이 이미 반영된 것으로 본다
+      const num = (h: string) => Number(r(h).replace(/,/g, ''));
+      if ('min' in target && r('최소') && (num('최소') !== target.min || num('최대') !== target.max || r('항목') !== target.nameKo)) continue;
       const found = r('확인 가격');
       target.review = {
         flag: verdict === '불일치' ? '교차 검수 불일치' : '원문 확인 불가',

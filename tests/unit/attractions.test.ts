@@ -53,8 +53,8 @@ describe('선택한 관광지로 관광 비용 계산', () => {
 
   it('아동 요금이 있으면 아동 요금, 범위 가격은 범위 그대로 — 런던탑 + 런던아이, 성인 2·아동 1', () => {
     const e = estimateTrip(trip('london', { children: 1, attractionIds: ['LON-AT-001', 'LON-AT-003'] }), city('london'), samples);
-    // v0.4 런던탑 성인 £37·아동 £18.5 → 최소: 2×(37+29) + (18.5+26) = 176.5, 최대: 2×(37+39) + (18.5+35) = 205.5
-    expect(e.categories.attraction.total).toEqual({ min: 176.5, max: 205.5 });
+    // 런던탑 성인 £38·아동 £19(2026-10-08 정정) → 최소: 2×(38+29) + (19+26) = 179, 최대: 2×(38+39) + (19+35) = 208
+    expect(e.categories.attraction.total).toEqual({ min: 179, max: 208 });
     expect(e.categories.attraction.usedIds).toEqual(expect.arrayContaining(['LON-AT-002', 'LON-AT-004']));
     expect(e.warnings.find((w) => w.code === 'variablePricing' && w.category === 'attraction')?.ids).toEqual(['LON-AT-003', 'LON-AT-004']); // 성인·아동 모두 수요형
     expect(e.warnings.some((w) => w.code === 'childAsAdult' && w.category === 'attraction')).toBe(false);

@@ -251,7 +251,13 @@
     "sourceName": "Aerobús Barcelona",
     "sourceUrl": "https://aerobusbarcelona.es/en/rates/",
     "note": "Perplexity 수집. 왕복 12.85 EUR · 원문: you can buy it for only 7,45€ · 수집: prices-barcelona.csv",
-    "kind": "airport"
+    "kind": "airport",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "확인 가격 확인불가 · https://aerobusbarcelona.es/en/rates/ · 현재 Aerobús 공식 요금 페이지는 서비스 티켓·아동 조건은 설명하지만 금액을 표시하지 않습니다. 공식 구매 화면은 가격을 페이지 본문에 노출하지 않아 7.45€를 재확인하지 못했습니다.",
+      "reportedAt": "2026-10-08"
+    }
   },
   {
     "id": "BCN-AP-002",
@@ -299,7 +305,13 @@
     "sourceName": "부산-김해경전철 공식홈페이지",
     "sourceUrl": "https://www.bglrt.com/sub/02_01.php",
     "note": "김해공항역~사상역 1구간 이동 교통카드 요금 · 원문: 교통카드 1구간 일반 1,600원 · 수집: prices-busan.csv",
-    "kind": "airport"
+    "kind": "airport",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "https://www.bglrt.com/sub/02_01.php · 지정 부산김해경전철 공식 요금 페이지를 두 차례 열었으나 이 도구에서 접근할 수 없어 현재 운임을 확인하지 못했습니다.",
+      "reportedAt": "2026-10-08"
+    }
   },
   {
     "id": "PUS-AP-002",
@@ -323,7 +335,13 @@
     "sourceName": "부산-김해경전철 공식홈페이지",
     "sourceUrl": "https://www.bglrt.com/sub/02_01.php",
     "note": "만 6세 이상~만 13세 미만 어린이 교통카드 요금 · 원문: 교통카드 1구간 어린이 650원 · 수집: prices-busan.csv",
-    "kind": "airport"
+    "kind": "airport",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "https://www.bglrt.com/sub/02_01.php · 지정 부산김해경전철 공식 요금 페이지를 두 차례 열었으나 이 도구에서 접근할 수 없어 현재 운임을 확인하지 못했습니다.",
+      "reportedAt": "2026-10-08"
+    }
   },
   {
     "id": "PUS-AP-003",
@@ -347,7 +365,13 @@
     "sourceName": "한국공항공사 김해국제공항",
     "sourceUrl": "https://www.airport.co.kr/gimhae/cms/frCon/index.do?MENU_ID=320",
     "note": "김해공항↔해운대 주요 호텔 및 벡스코 방면 노선 · 원문: 해운대 방면 일반 8,500원 · 수집: prices-busan.csv",
-    "kind": "airport"
+    "kind": "airport",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "https://www.airport.co.kr/gimhae/cms/frCon/index.do?MENU_ID=320 · 김해국제공항 공식 안내 페이지를 두 차례 열었으나 해운대 방면 리무진 노선·운임을 찾지 못했습니다.",
+      "reportedAt": "2026-10-08"
+    }
   },
   {
     "id": "CJU-AP-001",
@@ -371,7 +395,13 @@
     "sourceName": "삼영교통 공식 운임표",
     "sourceUrl": "https://www.samyoungbus.co.kr/",
     "note": "하차 정류장 구간 거리 비례 운임 적용 (종점 서귀포 칼호텔 기준 5 · 원문: 일반 1,300원 ~ 5,500원 · 수집: prices-jeju.csv",
-    "kind": "airport"
+    "kind": "airport",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "https://www.samyoungbus.co.kr/ · 지정 삼영교통 운영사 공식 홈페이지를 두 차례 열었으나 접근할 수 없어 600번 공항리무진 운임을 확인하지 못했습니다.",
+      "reportedAt": "2026-10-08"
+    }
   },
   {
     "id": "CJU-AP-002",
@@ -395,7 +425,13 @@
     "sourceName": "삼영교통 공식 운임표",
     "sourceUrl": "https://www.samyoungbus.co.kr/",
     "note": "초등학생 기준 구간 거리 비례 운임 적용 · 원문: 어린이 650원 ~ 2,800원 · 수집: prices-jeju.csv",
-    "kind": "airport"
+    "kind": "airport",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "https://www.samyoungbus.co.kr/ · 지정 삼영교통 운영사 공식 홈페이지를 두 차례 열었으나 접근할 수 없어 600번 공항리무진 운임을 확인하지 못했습니다.",
+      "reportedAt": "2026-10-08"
+    }
   },
   {
     "id": "CJU-AP-003",
@@ -419,7 +455,13 @@
     "sourceName": "제주버스정보시스템",
     "sourceUrl": "http://bus.jeju.go.kr/guide/fare",
     "note": "제주공항 출발 일주도로 급행버스 교통카드 편도 요금 · 원문: 일반(만19세이상) 카드 2,000원 ~ 3,000원 · 수집: prices-jeju.csv",
-    "kind": "airport"
+    "kind": "airport",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "http://bus.jeju.go.kr/guide/fare · 지정 제주버스 공식 요금 URL을 두 차례 열었으나 접근할 수 없어 카드 기본·구간 운임을 확인하지 못했습니다.",
+      "reportedAt": "2026-10-08"
+    }
   },
   {
     "id": "CJU-RC-001",
@@ -443,7 +485,13 @@
     "sourceName": "롯데렌터카 공식홈페이지",
     "sourceUrl": "https://www.lotterentacar.net/",
     "note": "자차손해면책제도(CDW/보험) 별도 선택 · 원문: 표준대여료 24시간 기준 85,000원 (회원할인 적용 시 49,000원~) · 수집: prices-jeju.csv",
-    "kind": "rental"
+    "kind": "rental",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "https://www.lotterentacar.net/ · 롯데렌터카 공식 홈페이지를 두 차례 열었지만 요금·예약 화면의 차량별 제주 24시간 가격이 표시되지 않아 현재 대여료 범위를 확인하지 못했습니다.",
+      "reportedAt": "2026-10-08"
+    }
   },
   {
     "id": "CJU-RC-002",
@@ -467,7 +515,13 @@
     "sourceName": "SK렌터카 공식홈페이지",
     "sourceUrl": "https://www.skcarrental.com/",
     "note": "자차보험료 별도 · 원문: 24시간 기준 표준요금 110,000원 (비수기 평일 할인가 62,000원~) · 수집: prices-jeju.csv",
-    "kind": "rental"
+    "kind": "rental",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "https://www.skcarrental.com/ · SK렌터카 공식 홈페이지를 두 차례 열었지만 지정 첫 화면에는 차량별 제주 24시간 대여료가 표시되지 않아 현재 가격을 확인하지 못했습니다.",
+      "reportedAt": "2026-10-08"
+    }
   },
   {
     "id": "CJU-RC-003",
@@ -491,7 +545,13 @@
     "sourceName": "롯데렌터카 공식홈페이지",
     "sourceUrl": "https://www.lotterentacar.net/",
     "note": "자차손해면책제도(CDW/보험) 별도 선택 · 원문: 표준대여료 24시간 기준 140,000원 (시즌/예약할인 78,000원~) · 수집: prices-jeju.csv",
-    "kind": "rental"
+    "kind": "rental",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "https://www.lotterentacar.net/ · 롯데렌터카 공식 홈페이지를 두 차례 열었지만 요금·예약 화면의 차량별 제주 24시간 가격이 표시되지 않아 현재 대여료 범위를 확인하지 못했습니다.",
+      "reportedAt": "2026-10-08"
+    }
   },
   {
     "id": "ROM-AP-001",

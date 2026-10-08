@@ -249,7 +249,6 @@
 | PUS-SV-003 | 부산 | 부산관광기념품점 광안대교 자개 마그넷 | 8000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [부산관광기념품점 공식 안내](https://map.naver.com/p/entry/place/1971758950) |
 | PUS-AT-001 | 부산 | 부산엑스 더 스카이 전망대 (대인) | 27000 KRW | A | 예 | 재검증 | [부산엑스더스카이 공식홈페이지](https://www.busanxthesky.com/sub/sub02_01.php) |
 | PUS-AT-002 | 부산 | 부산엑스 더 스카이 전망대 (소인) | 24000 KRW | A | 예 | 재검증 | [부산엑스더스카이 공식홈페이지](https://www.busanxthesky.com/sub/sub02_01.php) |
-| PUS-AT-003 | 부산 | 해운대 블루라인파크 해변열차 편도 (성인) | 7000 KRW | A | 예 | 재검증 | [해운대블루라인파크 공식홈페이지](https://www.bluelinepark.com/fareInfo.do) |
 | PUS-AT-005 | 부산 | 송도해상케이블카 에어크루즈 왕복 (대인) | 17000 KRW | A | 예 | 재검증 | [송도해상케이블카 공식홈페이지](http://busanaircruise.co.kr/main/sub.html?Mode=view&BoardID=fare) |
 | PUS-AT-006 | 부산 | 송도해상케이블카 에어크루즈 왕복 (소인) | 12000 KRW | A | 예 | 재검증 | [송도해상케이블카 공식홈페이지](http://busanaircruise.co.kr/main/sub.html?Mode=view&BoardID=fare) |
 | PUS-AT-007 | 부산 | 롯데월드 어드벤처 부산 종일 종합이용권 (어른) | 47000 KRW | A | 예 | 재검증 | [롯데월드 어드벤처 부산 공식홈페이지](https://adventurebusan.lotteworld.com/kor/price/ticket/information/index.do) |
@@ -320,6 +319,13 @@
 | LON-SN-901 | 런던 | 세인즈버리 코카콜라 500ml | 2.15 GBP | A | 예 | 재검증 | [Sainsbury's](https://www.sainsburys.co.uk/gol-ui/product/coca-cola-original-taste-500ml) |
 | IST-SN-902 | 이스탄불 | 미그로스 에리클리 생수 500ml | 23.95 TRY | A | 예 | 재검증 | [Migros](https://www.migros.com.tr/erikli-su-500-ml-p-7b04f9) |
 | IST-SN-903 | 이스탄불 | 미그로스 코카콜라 캔 330ml | 55 TRY | A | 예 | 재검증 | [Migros](https://www.migros.com.tr/coca-cola-orijinal-tat-kutu-330-ml-p-7a3911) |
+| TYO-AT-201 | 도쿄 | 도쿄 스카이트리 전망대 세트권 (아동 6~14세) | 1500~2400 JPY | A | 예 | 재검증 | [TOKYO SKYTREE](https://www.tokyo-skytree.jp/datas/files/2026/03/19/da1ebeff3b1d6bbfa26f052f2d6a99c9a33b8143.pdf) |
+| TYO-AT-204 | 도쿄 | 도쿄국립박물관 컬렉션 전시 (고등학생 이하·만 18세 미만 무료) | 0 JPY | A | 예 | 재검증 | [도쿄국립박물관](https://www.tnm.jp/modules/r_free_page/index.php?id=113) |
+| SEL-AT-201 | 서울 | 경복궁 입장권 (외국인 만 18세 이하) | 0 KRW | A | 예 | 재검증 | [궁능유적본부](https://royal.khs.go.kr/ROYAL/contents/R703000000.do) |
+| SEL-AT-202 | 서울 | 창덕궁 전각관람 (외국인 만 18세 이하) | 0 KRW | A | 예 | 재검증 | [궁능유적본부](https://royal.khs.go.kr/ROYAL/contents/R703000000.do) |
+| SEL-AT-203 | 서울 | 덕수궁 입장권 (외국인 만 18세 이하) | 0 KRW | A | 예 | 재검증 | [궁능유적본부](https://royal.khs.go.kr/ROYAL/contents/R703000000.do) |
+| PUS-AT-201 | 부산 | 해운대 해변열차 1회 탑승권 (어린이) | 5600~7000 KRW | A | 예 | 재검증 | [해운대블루라인파크](https://www.bluelinepark.com/fare.do) |
+| PUS-AT-203 | 부산 | 해운대 해변열차 1회 탑승권 (성인) | 8000~10000 KRW | A | 예 | 재검증 | [해운대블루라인파크](https://www.bluelinepark.com/fare.do) |
 | CJU-FD-760 | 제주 | 소산도 우도흑돼지 안심카츠 | 17000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-761 | 제주 | 소산도 흑돼지 우도 등심카츠 | 16000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-762 | 제주 | 제주식 고사리해장국 | 11000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 제주고사리해장국 중문](https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8) |
@@ -503,5 +509,5 @@
 
 ## 4. 교차 검수 현황
 
-`data/reviews/*.csv` 에서 읽은 판정: 일치 0건 · 불일치 0건 · 확인불가 0건.
+`data/reviews/*.csv` 에서 읽은 판정: 일치 7건 · 불일치 1건 · 확인불가 0건.
 아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

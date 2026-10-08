@@ -20,5 +20,18 @@
     "sourceUrl": "https://www.hrp.org.uk/tower-of-london/",
     "checkedAt": "2026-10-08",
     "reason": "Historic Royal Palaces 공식 5–15세 요금 £19.00(기부 제외)."
+  },
+  "DAD-AT-001": {
+    "min": 1000000,
+    "max": 1000000,
+    "sourceUrl": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites",
+    "checkedAt": "2026-10-08",
+    "reason": "다낭 관광청 2026 입장료 안내: 비거주자 성인 1,000,000동(이전 950,000동)."
+  },
+  "BCN-AT-008": {
+    "min": 12,
+    "max": 12,
+    "checkedAt": "2026-10-08",
+    "reason": "공식 페이지: 온라인 €12, 매표소 €13(이전 €14)."
   }
 }

@@ -50,7 +50,7 @@
 | BKK-TR-001 | 방콕 | BTS 1일권 | 150 THB | A | 예 | 검수: 원문 확인 불가 | [BTS](https://www.bts.co.th/eng/tickets/ticket-daypass.html) |
 | BKK-AT-002 | 방콕 | 왓 아룬 입장권 | 200 THB | B | 조건부 | B등급, 조건부, 검수: 원문 확인 불가 | [Tourism Authority of Thailand](https://www.tourismthailand.org/Attraction/wat-arun-or-temple-of-dawn) |
 | BKK-FD-003 | 방콕 | 강새우 팟타이 | 450 THB | A | 예 | 세금·서비스료 별도 | [ChomSindh at Amari Bangkok](https://www.amari.com/bangkok/dine/chomsindh) |
-| DAD-AT-001 | 다낭 | 선월드 바나힐 입장권 | 950000 VND | A | 조건부 | 조건부, 재검증, 검수: 원문 확인 불가 | [Sun World Ba Na Hills](https://banahills.sunworld.vn/en/ticket-price) |
+| DAD-AT-001 | 다낭 | 선월드 바나힐 입장권 | 1000000 VND | A | 조건부 | 조건부, 재검증 | [Sun World Ba Na Hills](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
 | DAD-AT-002 | 다낭 | 오행산 입장권 | 40000 VND | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [Marble Mountains visitor guide](https://nguhanhson.org/) |
 | DAD-AT-003 | 다낭 | 오행산 엘리베이터 왕복 | 30000 VND | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [Marble Mountains visitor guide](https://nguhanhson.org/) |
 | TPE-SV-001 | 타이베이 | 치아더 펑리수 6개 | 252 TWD | A | 예 | 검수: 원문 확인 불가 | [Chia Te Bakery](https://chiate88.com.tw/Product/%E6%98%A5%E7%AF%80%E5%8F%AF%E9%A0%90%E8%A8%82%E7%9A%84%E5%95%86%E5%93%81/%E9%B3%B3%E9%BB%83%E9%85%A5) |
@@ -67,10 +67,6 @@
 | DAD-AT-004 | 다낭 | 다낭 참조각박물관 일반 입장권 | 60000 VND | A | 예 | 검수: 원문 미확인 | [Da Nang Museum of Cham Sculpture](https://chammuseum.vn/view.aspx?ID=45) |
 | BKK-SV-006 | 방콕 | 왓 아룬 디자인 자석 | 195 THB | A | 예 | 검수: 원문 확인 불가 | [SIAM MAGNET](https://siammagnet.co.th/en/products/12) |
 | SIN-FD-008 | 싱가포르 | 티옹바루 하이난 치킨라이스 | 14 SGD | A | 예 | 세금·서비스료 별도 | [Tiong Bahru Hainanese Chicken Rice](https://www.tiongbahruchickenrice.sg/menu/) |
-| SEL-AT-008 | 서울 | 롯데월드 어드벤처 1일 종합이용권 (어른) | 67000 KRW | A | 예 | 검수: 원문 확인 불가 | [롯데월드 어드벤처](https://adventure.lotteworld.com/price/benefit/view?bnftSeq=3721) |
-| SEL-AT-009 | 서울 | 롯데월드 어드벤처 1일 종합이용권 (어린이) | 50000 KRW | A | 예 | 검수: 원문 확인 불가 | [롯데월드 어드벤처](https://adventure.lotteworld.com/price/benefit/view?bnftSeq=3721) |
-| SEL-AT-006 | 서울 | 서울스카이 일반티켓 (어른) | 31000 KRW | A | 예 | 검수: 원문 확인 불가 | [SEOUL SKY 일반 혜택 안내](https://seoulsky.lotteworld.com/price/benefit/view?activeTab=0&bnftSeq=2159) |
-| SEL-AT-007 | 서울 | 서울스카이 일반티켓 (어린이) | 27000 KRW | A | 예 | 검수: 원문 확인 불가 | [SEOUL SKY 일반 혜택 안내](https://seoulsky.lotteworld.com/price/benefit/view?activeTab=0&bnftSeq=2159) |
 | SEL-SV-004 | 서울 | 오설록 차의 정원 9종 27입 | 54000 KRW | A | 예 | 검수: 교차 검수 불일치 | [오설록 공식몰](https://www.osulloc.com/kr/ko/shop/item/teashop/21773) |
 | IST-FD-003 | 이스탄불 | Pino Gare Tavuk Şiş | 975 TRY | A | 예 | 검수: 원문 확인 불가 | [Pino Gare Rooftop Restaurant](https://pinogareroofrestaurant.com/tr/menu) |
 | IST-AT-001 | 이스탄불 | Topkapı Sarayı 복합 입장권 외국인 성인 | 2750 TRY | B | 예 | B등급 | [Millî Saraylar](https://www.millisaraylar.gov.tr/Lokasyon/2/Topkapi-Sarayi?culture=en) |
@@ -159,7 +155,7 @@
 | PAR-AT-015 | 파리 | 빅토르 위고의 집 상설전시 무료 입장 | 0 EUR | B | 예 | B등급 | [Paris Musées](https://parismusees.paris.fr/fr/votre-visite/tarifs) |
 | BCN-AT-003 | 바르셀로나 | 몬주익 성 일반 입장권 | 12 EUR | B | 예 | B등급 | [Castell de Montjuïc / Barcelona City Council](https://guia.barcelona.cat/en/detall/castell-de-montjuic_99077121755.html) |
 | BCN-AT-004 | 바르셀로나 | 산트 파우 모더니즘 건축단지 일반 자유관람 | 18 EUR | A | 예 | 검수: 교차 검수 불일치 | [Recinte Modernista de Sant Pau](https://santpaubarcelona.org/en/prepara-la-teva-visita/) |
-| BCN-AT-008 | 바르셀로나 | 피카소 미술관 일반 온라인 입장권 | 14 EUR | B | 예 | B등급, 검수: 원문 확인 불가 | [Museu Picasso Barcelona](https://museupicassobcn.cat/index.php/en/plan-your-visit/buy-tickets-and-opening-hours) |
+| BCN-AT-008 | 바르셀로나 | 피카소 미술관 일반 온라인 입장권 | 12 EUR | B | 예 | B등급 | [Museu Picasso Barcelona](https://museupicassobcn.cat/index.php/en/plan-your-visit/buy-tickets-and-opening-hours) |
 | BCN-AT-011 | 바르셀로나 | 몬주익 성 만 8~12세 입장권 | 8 EUR | B | 예 | B등급 | [Castell de Montjuïc / Barcelona City Council](https://guia.barcelona.cat/en/detall/castell-de-montjuic_99077121755.html) |
 | BCN-AT-012 | 바르셀로나 | 몬주익 성 만 8세 미만 무료 입장 | 0 EUR | B | 예 | B등급 | [Castell de Montjuïc / Barcelona City Council](https://guia.barcelona.cat/en/detall/castell-de-montjuic_99077121755.html) |
 | BCN-AT-013 | 바르셀로나 | 산트 파우 만 12~24세 감면 입장권 | 12.6 EUR | A | 예 | 검수: 교차 검수 불일치 | [Recinte Modernista de Sant Pau](https://santpaubarcelona.org/en/prepara-la-teva-visita/) |
@@ -198,25 +194,25 @@
 | SEL-AT-112 | 서울 | 종묘 입장권 (외국인 만 18세 이하) | 0 KRW | A | 예 | 재검증 | [궁능유적본부 관람요금·무료개방 공지](https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view) |
 | SEL-AT-113 | 서울 | 서울 선릉과 정릉 입장권 (외국인 만 18세 이하) | 0 KRW | A | 예 | 재검증 | [궁능유적본부 관람요금·무료개방 공지](https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view) |
 | SEL-AT-114 | 서울 | 서울 헌릉과 인릉 입장권 (외국인 만 18세 이하) | 0 KRW | A | 예 | 재검증 | [궁능유적본부 관람요금·무료개방 공지](https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view) |
-| SEL-AT-105 | 서울 | 서대문형무소역사관 입장권 (성인) | 3000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [Seoul Metropolitan Government](https://english.seoul.go.kr/seodaemun-prison/) |
-| SEL-AT-115 | 서울 | 서대문형무소역사관 입장권 (아동) | 1000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [Seoul Metropolitan Government](https://english.seoul.go.kr/seodaemun-prison/) |
-| PUS-AT-101 | 부산 | 태종대 다누비열차 순환권 (성인) | 4000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [부산광역시 부산지오파크](https://www.busan.go.kr/geopark/taejongdae) |
-| PUS-AT-111 | 부산 | 태종대 다누비열차 순환권 (소인) | 1500 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [부산광역시 부산지오파크](https://www.busan.go.kr/geopark/taejongdae) |
+| SEL-AT-105 | 서울 | 서대문형무소역사관 입장권 (성인) | 3000 KRW | A | 예 | 재검증 | [Seoul Metropolitan Government](https://english.seoul.go.kr/seodaemun-prison/) |
+| SEL-AT-115 | 서울 | 서대문형무소역사관 입장권 (아동) | 1000 KRW | A | 예 | 재검증 | [Seoul Metropolitan Government](https://english.seoul.go.kr/seodaemun-prison/) |
+| PUS-AT-101 | 부산 | 태종대 다누비열차 순환권 (성인) | 4000 KRW | A | 예 | 재검증 | [부산광역시 부산지오파크](https://www.busan.go.kr/geopark/taejongdae) |
+| PUS-AT-111 | 부산 | 태종대 다누비열차 순환권 (소인) | 1500 KRW | A | 예 | 재검증 | [부산광역시 부산지오파크](https://www.busan.go.kr/geopark/taejongdae) |
 | PUS-AT-102 | 부산 | 부산타워 전망대 입장권 (성인) | 12000 KRW | A | 예 | 재검증 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=84864) |
 | PUS-AT-112 | 부산 | 부산타워 전망대 입장권 (아동) | 9000 KRW | A | 예 | 재검증 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=84864) |
 | PUS-AT-103 | 부산 | 부산영화체험박물관 입장권 (성인) | 10000 KRW | A | 예 | 재검증 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=194989) |
 | PUS-AT-113 | 부산 | 부산영화체험박물관 입장권 (아동) | 7000 KRW | A | 예 | 재검증 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=194989) |
-| PUS-AT-104 | 부산 | 금강공원 케이블카 왕복권 (성인) | 9000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [부산광역시 부산지오파크](https://www.busan.go.kr/geopark/geumjeongsan) |
-| PUS-AT-114 | 부산 | 금강공원 케이블카 왕복권 (소인) | 6000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [부산광역시 부산지오파크](https://www.busan.go.kr/geopark/geumjeongsan) |
-| PUS-AT-105 | 부산 | 국립부산과학관 상설전시관 입장권 (성인) | 3000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [국립부산과학관](https://www.sciport.or.kr/kor/CMS/Contents/Contents.do?mCode=MN129) |
+| PUS-AT-104 | 부산 | 금강공원 케이블카 왕복권 (성인) | 9000 KRW | A | 예 | 재검증 | [부산광역시 부산지오파크](https://www.busan.go.kr/geopark/geumjeongsan) |
+| PUS-AT-114 | 부산 | 금강공원 케이블카 왕복권 (소인) | 6000 KRW | A | 예 | 재검증 | [부산광역시 부산지오파크](https://www.busan.go.kr/geopark/geumjeongsan) |
+| PUS-AT-105 | 부산 | 국립부산과학관 상설전시관 입장권 (성인) | 3000 KRW | A | 예 | 재검증 | [국립부산과학관](https://www.sciport.or.kr/kor/CMS/Contents/Contents.do?mCode=MN129) |
 | CJU-AT-101 | 제주 | 제주민속촌 입장권 (성인) | 15000 KRW | A | 예 | 재검증 | [제주민속촌 공식 요금 안내](https://jejufolk.com/m/pages.php?p=3_1_1_1) |
 | CJU-AT-111 | 제주 | 제주민속촌 입장권 (어린이) | 11000 KRW | A | 예 | 재검증 | [제주민속촌 공식 요금 안내](https://jejufolk.com/m/pages.php?p=3_1_1_1) |
 | CJU-AT-102 | 제주 | 아르떼뮤지엄 제주 입장권 (성인) | 18000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [아르떼뮤지엄 제주 공식 요금 안내](https://kr.artemuseum.com/jeju) |
 | CJU-AT-103 | 제주 | 김창열미술관 입장권 (성인) | 2000 KRW | A | 예 | 재검증 | [제주특별자치도 김창열미술관](https://kimtschang-yeul.jeju.go.kr/cnt/cntManagerView.do?idx=12&menuNum=7200) |
 | CJU-AT-114 | 제주 | 김창열미술관 입장권 (어린이) | 500 KRW | A | 예 | 재검증 | [제주특별자치도 김창열미술관](https://kimtschang-yeul.jeju.go.kr/cnt/cntManagerView.do?idx=12&menuNum=7200) |
 | CJU-AT-104 | 제주 | 제주돌문화공원 입장권 (성인) | 5000 KRW | A | 예 | 재검증 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=351&vcontsId=76736) |
-| CJU-AT-105 | 제주 | 제주 유리의성 입장권 (성인) | 11000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=97532) |
-| CJU-AT-116 | 제주 | 제주 유리의성 입장권 (어린이) | 8000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=97532) |
+| CJU-AT-105 | 제주 | 제주 유리의성 입장권 (성인) | 11000 KRW | A | 예 | 재검증 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=97532) |
+| CJU-AT-116 | 제주 | 제주 유리의성 입장권 (어린이) | 8000 KRW | A | 예 | 재검증 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=97532) |
 | CJU-AT-106 | 제주 | 제주목관아 입장권 (성인) | 1500 KRW | A | 예 | 재검증 | [제주관광공사 VISITJEJU](https://www.visitjeju.net/kr/themtour/view?contentsid=CNTS_300000000013313&menuId=DOM_000002000000000227) |
 | CJU-AT-117 | 제주 | 제주목관아 입장권 (어린이) | 400 KRW | A | 예 | 재검증 | [제주관광공사 VISITJEJU](https://www.visitjeju.net/kr/themtour/view?contentsid=CNTS_300000000013313&menuId=DOM_000002000000000227) |
 | BCN-FD-101 | 바르셀로나 | 바르사 카페 점심 메뉴 | 23.95 EUR | A | 예 | 재검증 | [FC Barcelona Barca Cafe](https://www.fcbarcelona.es/es/entradas/camp-nou-experience/planifica-tu-visita/2554523/barca-cafe) |
@@ -258,11 +254,11 @@
 | PUS-SN-779 | 부산 | 부곡분식 오뎅 (4개) | 2000~4000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 부곡분식](https://map.naver.com/p/search/%EB%B6%80%EA%B3%A1%EB%B6%84%EC%8B%9D) |
 | PUS-SN-780 | 부산 | 스탠다드번 아메리카노 | 5500 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 스탠다드번 해운대](https://map.naver.com/p/search/%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%EB%B2%88%20%ED%95%B4%EC%9A%B4%EB%8C%80) |
 | PUS-SN-781 | 부산 | 스탠다드번 상하이 버터떡 | 6000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 스탠다드번 해운대](https://map.naver.com/p/search/%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%EB%B2%88%20%ED%95%B4%EC%9A%B4%EB%8C%80) |
-| PUS-TR-001 | 부산 | 부산 도시철도 1구간 (교통카드) | 1600 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [부산교통공사](https://www.humetro.busan.kr/default/main.do) |
-| PUS-TR-002 | 부산 | 부산 도시철도 2구간 (교통카드) | 1800 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [부산교통공사](https://www.humetro.busan.kr/default/main.do) |
-| PUS-TR-003 | 부산 | 부산 시내버스 일반 (교통카드) | 1550 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [부산광역시 버스정보관리시스템](https://bus.busan.go.kr/) |
-| PUS-TR-004 | 부산 | 부산 급행버스 (교통카드) | 2100 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [부산광역시 버스정보관리시스템](https://bus.busan.go.kr/) |
-| PUS-TR-005 | 부산 | 부산 도시철도 1일권 | 5000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [부산교통공사](https://www.humetro.busan.kr/default/main.do) |
+| PUS-TR-001 | 부산 | 부산 도시철도 1구간 (교통카드) | 1600 KRW | A | 예 | 재검증 | [부산교통공사](https://www.humetro.busan.kr/default/main.do) |
+| PUS-TR-002 | 부산 | 부산 도시철도 2구간 (교통카드) | 1800 KRW | A | 예 | 재검증 | [부산교통공사](https://www.humetro.busan.kr/default/main.do) |
+| PUS-TR-003 | 부산 | 부산 시내버스 일반 (교통카드) | 1550 KRW | A | 예 | 재검증 | [부산광역시 버스정보관리시스템](https://bus.busan.go.kr/) |
+| PUS-TR-004 | 부산 | 부산 급행버스 (교통카드) | 2100 KRW | A | 예 | 재검증 | [부산광역시 버스정보관리시스템](https://bus.busan.go.kr/) |
+| PUS-TR-005 | 부산 | 부산 도시철도 1일권 | 6000 KRW | A | 예 | 재검증 | [부산교통공사](https://work.humetro.busan.kr/homepage/default/page/subLocation.do?menu_no=1001010501) |
 | PUS-FD-001 | 부산 | 본전돼지국밥 돼지국밥 | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 본전돼지국밥 매장 공식 메뉴](https://map.naver.com/p/entry/place/11568285) |
 | PUS-FD-002 | 부산 | 초량밀면 물밀면 (소) | 7000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 초량밀면 매장 공식 메뉴](https://map.naver.com/p/entry/place/11603507) |
 | PUS-FD-003 | 부산 | 개미집 낙곱새볶음 (1인분) | 14000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [개미집 공식 매장 메뉴판](https://map.naver.com/p/entry/place/11628169) |
@@ -274,17 +270,17 @@
 | PUS-FD-009 | 부산 | 대선주조 대선소주 | 1950 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
 | PUS-FD-010 | 부산 | CU 편의점 켈리 캔맥주 | 2800 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
 | PUS-FD-011 | 부산 | 식당 일반 소주/맥주 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [본전돼지국밥 매장 공식 주류 메뉴](https://map.naver.com/p/entry/place/11568285) |
-| PUS-SV-001 | 부산 | 삼진어묵 1953세트 1호 | 23000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [삼진어묵 공식 온라인 직영몰](https://www.samjinfood.com/goods/goods_view.php?goodsNo=1000000301) |
-| PUS-SV-002 | 부산 | 부산바다샌드 1상자 (9개입) | 17500 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [부산바다샌드 공식 매장 메뉴](https://map.naver.com/p/entry/place/1694939243) |
+| PUS-SV-001 | 부산 | 삼진어묵 1953세트 1호 | 35000 KRW | A | 예 | 재검증 | [삼진어묵 공식 온라인 직영몰](https://www.samjinfood.com/goods/goods_view.php?goodsNo=1000000968) |
+| PUS-SV-002 | 부산 | 부산바다샌드 1상자 (9개입) | 17500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [부산바다샌드 공식 매장 메뉴](https://map.naver.com/p/entry/place/1694939243) |
 | PUS-SV-003 | 부산 | 부산관광기념품점 광안대교 자개 마그넷 | 8000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [부산관광기념품점 공식 안내](https://map.naver.com/p/entry/place/1971758950) |
-| PUS-AT-001 | 부산 | 부산엑스 더 스카이 전망대 (대인) | 27000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [부산엑스더스카이 공식홈페이지](https://www.busanxthesky.com/sub/sub02_01.php) |
-| PUS-AT-002 | 부산 | 부산엑스 더 스카이 전망대 (소인) | 24000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [부산엑스더스카이 공식홈페이지](https://www.busanxthesky.com/sub/sub02_01.php) |
-| PUS-AT-005 | 부산 | 송도해상케이블카 에어크루즈 왕복 (대인) | 17000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [송도해상케이블카 공식홈페이지](http://busanaircruise.co.kr/main/sub.html?Mode=view&BoardID=fare) |
-| PUS-AT-006 | 부산 | 송도해상케이블카 에어크루즈 왕복 (소인) | 12000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [송도해상케이블카 공식홈페이지](http://busanaircruise.co.kr/main/sub.html?Mode=view&BoardID=fare) |
-| PUS-AT-007 | 부산 | 롯데월드 어드벤처 부산 종일 종합이용권 (어른) | 47000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [롯데월드 어드벤처 부산 공식홈페이지](https://adventurebusan.lotteworld.com/kor/price/ticket/information/index.do) |
-| PUS-AT-008 | 부산 | 스카이라인 루지 부산 3회권 (1인) | 30000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [스카이라인루지 부산 공식홈페이지](https://www.skylineluge.kr/busan/prices/) |
-| PUS-AT-009 | 부산 | SEA LIFE 부산아쿠아리움 입장권 (대인) | 31000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [씨라이프 부산아쿠아리움 공식홈페이지](https://www.visitsealife.com/busan/tickets/) |
-| PUS-AT-010 | 부산 | 부산시립박물관 상설전시 | 0 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [부산박물관 공식홈페이지](https://museum.busan.go.kr/busan/viewinfo01) |
+| PUS-AT-001 | 부산 | 부산엑스 더 스카이 전망대 (대인) | 29000 KRW | A | 예 | 재검증 | [부산엑스더스카이 공식홈페이지](https://www.busanxthesky.com/sub/sub02_01.php) |
+| PUS-AT-002 | 부산 | 부산엑스 더 스카이 전망대 (소인) | 26000 KRW | A | 예 | 재검증 | [부산엑스더스카이 공식홈페이지](https://www.busanxthesky.com/sub/sub02_01.php) |
+| PUS-AT-005 | 부산 | 송도해상케이블카 에어크루즈 왕복 (대인) | 19000 KRW | A | 예 | 재검증 | [송도해상케이블카 공식홈페이지](https://busanaircruise.co.kr/info/price?rank=1) |
+| PUS-AT-006 | 부산 | 송도해상케이블카 에어크루즈 왕복 (소인) | 14000 KRW | A | 예 | 재검증 | [송도해상케이블카 공식홈페이지](https://busanaircruise.co.kr/info/price?rank=1) |
+| PUS-AT-007 | 부산 | 롯데월드 어드벤처 부산 종일 종합이용권 (어른) | 49000 KRW | A | 예 | 재검증 | [롯데월드 어드벤처 부산 공식홈페이지](https://adventurebusan.lotteworld.com/price/price) |
+| PUS-AT-008 | 부산 | 스카이라인 루지 부산 스카이라이드+루지 3회 콤보 (1인) | 36000 KRW | A | 예 | 재검증 | [스카이라인루지 부산 공식홈페이지](https://busan.skylineluge.kr/hyfly/pricing-packages) |
+| PUS-AT-009 | 부산 | SEA LIFE 부산아쿠아리움 입장권 (대인) | 30000 KRW | A | 예 | 재검증 | [씨라이프 부산아쿠아리움 공식홈페이지](https://www.visitsealife.com/busan/tickets-passes/book-tickets/admission-qr/) |
+| PUS-AT-010 | 부산 | 부산시립박물관 상설전시 | 0 KRW | A | 예 | 재검증 | [부산박물관 공식홈페이지](https://museum.busan.go.kr/busan/viewinfo01) |
 | TYO-SN-830 | 도쿄 | 스타벅스 카페 아메리카노 Tall | 490 JPY | A | 예 | 재검증 | [스타벅스 커피 재팬](https://menu.starbucks.co.jp/4524785000315) |
 | TYO-SN-831 | 도쿄 | 스타벅스 라테 Tall | 500 JPY | A | 예 | 재검증 | [스타벅스 커피 재팬](https://menu.starbucks.co.jp/4524785000223) |
 | TYO-SN-832 | 도쿄 | 털리스 카페 아메리카노 Tall | 450 JPY | A | 예 | 재검증 | [털리스 커피 재팬](https://www.tullys.co.jp/menu/drink/coffee/es_americano.html) |
@@ -307,15 +303,15 @@
 | OSA-SN-849 | 오사카 | 로손 커피 S | 160 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/coffee/) |
 | OSA-SN-850 | 오사카 | 로손 카페라테 M | 230 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/coffee/) |
 | OSA-SN-851 | 오사카 | 패밀리마트 생수 600ml | 118 JPY | A | 예 | 재검증 | [패밀리마트](https://www.family.co.jp/goods/drink/4251934.html) |
-| SEL-FD-852 | 서울 | 한솥 치킨마요 | 3900 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
-| SEL-FD-853 | 서울 | 한솥 돈까스도련님 | 5200 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
-| SEL-FD-854 | 서울 | 한솥 묵은지 김치찌개 | 6000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
-| PUS-FD-855 | 부산 | 한솥 치킨마요 | 3900 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
-| PUS-FD-856 | 부산 | 한솥 돈까스도련님 | 5200 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
-| PUS-FD-857 | 부산 | 한솥 묵은지 김치찌개 | 6000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
-| CJU-FD-858 | 제주 | 한솥 치킨마요 | 3900 KRW | A | 조건부 | 조건부, 재검증, 검수: 원문 확인 불가 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
-| CJU-FD-859 | 제주 | 한솥 돈까스도련님 | 5200 KRW | A | 조건부 | 조건부, 재검증, 검수: 원문 확인 불가 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
-| CJU-FD-860 | 제주 | 한솥 묵은지 김치찌개 | 6000 KRW | A | 조건부 | 조건부, 재검증, 검수: 원문 확인 불가 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| SEL-FD-852 | 서울 | 한솥 치킨마요 | 3900 KRW | A | 예 | 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| SEL-FD-853 | 서울 | 한솥 돈까스도련님 | 5200 KRW | A | 예 | 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| SEL-FD-854 | 서울 | 한솥 묵은지 김치찌개 | 6000 KRW | A | 예 | 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| PUS-FD-855 | 부산 | 한솥 치킨마요 | 3900 KRW | A | 예 | 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| PUS-FD-856 | 부산 | 한솥 돈까스도련님 | 5200 KRW | A | 예 | 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| PUS-FD-857 | 부산 | 한솥 묵은지 김치찌개 | 6000 KRW | A | 예 | 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| CJU-FD-858 | 제주 | 한솥 치킨마요 | 3900 KRW | A | 조건부 | 조건부, 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| CJU-FD-859 | 제주 | 한솥 돈까스도련님 | 5200 KRW | A | 조건부 | 조건부, 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
+| CJU-FD-860 | 제주 | 한솥 묵은지 김치찌개 | 6000 KRW | A | 조건부 | 조건부, 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
 | TYO-AL-861 | 도쿄 | 쿠시카츠 다나카 짐빔 하이볼 | 319 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
 | TYO-AL-862 | 도쿄 | 쿠시카츠 다나카 레몬사워 | 319 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
 | TYO-AL-863 | 도쿄 | 쿠시카츠 다나카 생맥주(프리미엄 몰츠 카오루 에일) | 605 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
@@ -341,10 +337,10 @@
 | LON-FD-893 | 런던 | 디슘 치킨 루비(커리) | 18.9 GBP | A | 예 | 재검증 | [Dishoom](https://www.dishoom.com/menu/all-day-main/) |
 | LON-FD-894 | 런던 | 디슘 파우 바지 | 8.7 GBP | A | 예 | 재검증 | [Dishoom](https://www.dishoom.com/menu/all-day-main/) |
 | LON-FD-895 | 런던 | 디슘 하우스 블랙 달 | 11.5 GBP | A | 예 | 재검증 | [Dishoom](https://www.dishoom.com/menu/all-day-main/) |
-| SEL-TR-896 | 서울 | 기후동행카드 관광권 2일권 | 8000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [티머니 카드&페이](https://pay.tmoney.co.kr/ncs/pct/tmnyintd/ReadClmtAcmpCardGd.dev) |
-| SEL-TR-897 | 서울 | 기후동행카드 관광권 3일권 | 10000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [티머니 카드&페이](https://pay.tmoney.co.kr/ncs/pct/tmnyintd/ReadClmtAcmpCardGd.dev) |
-| SEL-TR-898 | 서울 | 기후동행카드 관광권 5일권 | 15000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [티머니 카드&페이](https://pay.tmoney.co.kr/ncs/pct/tmnyintd/ReadClmtAcmpCardGd.dev) |
-| SEL-TR-899 | 서울 | 기후동행카드 관광권 7일권 | 20000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [티머니 카드&페이](https://pay.tmoney.co.kr/ncs/pct/tmnyintd/ReadClmtAcmpCardGd.dev) |
+| SEL-TR-896 | 서울 | 기후동행카드 관광권 2일권 | 8000 KRW | A | 예 | 재검증 | [티머니 카드&페이](https://pay.tmoney.co.kr/ncs/pct/tmnyintd/ReadClmtAcmpCardGd.dev) |
+| SEL-TR-897 | 서울 | 기후동행카드 관광권 3일권 | 10000 KRW | A | 예 | 재검증 | [티머니 카드&페이](https://pay.tmoney.co.kr/ncs/pct/tmnyintd/ReadClmtAcmpCardGd.dev) |
+| SEL-TR-898 | 서울 | 기후동행카드 관광권 5일권 | 15000 KRW | A | 예 | 재검증 | [티머니 카드&페이](https://pay.tmoney.co.kr/ncs/pct/tmnyintd/ReadClmtAcmpCardGd.dev) |
+| SEL-TR-899 | 서울 | 기후동행카드 관광권 7일권 | 20000 KRW | A | 예 | 재검증 | [티머니 카드&페이](https://pay.tmoney.co.kr/ncs/pct/tmnyintd/ReadClmtAcmpCardGd.dev) |
 | LON-SN-900 | 런던 | 세인즈버리 에비앙 생수 500ml | 1.55 GBP | A | 예 | 재검증 | [Sainsbury's](https://www.sainsburys.co.uk/gol-ui/product/evian-natural-bottled-mineral-still-water-500ml) |
 | LON-SN-901 | 런던 | 세인즈버리 코카콜라 500ml | 2.15 GBP | A | 예 | 재검증 | [Sainsbury's](https://www.sainsburys.co.uk/gol-ui/product/coca-cola-original-taste-500ml) |
 | IST-SN-902 | 이스탄불 | 미그로스 에리클리 생수 500ml | 23.95 TRY | A | 예 | 재검증, 검수: 원문 확인 불가 | [Migros](https://www.migros.com.tr/erikli-su-500-ml-p-7b04f9) |
@@ -428,9 +424,9 @@
 | SEL-AL-795 | 서울 | 올바른스시 참이슬 1병 | 5500 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 올바른스시 홍대역 직영점](https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90) |
 | SEL-AL-796 | 서울 | 올바른스시 카스 1병 | 5500 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 올바른스시 홍대역 직영점](https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90) |
 | SEL-AL-797 | 서울 | 올바른스시 매화수 1병 | 6000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 올바른스시 홍대역 직영점](https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90) |
-| CJU-TR-001 | 제주 | 제주 간선/지선버스 기본요금 (카드) | 1150 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [제주버스정보시스템](http://bus.jeju.go.kr/guide/fare) |
-| CJU-TR-002 | 제주 | 제주 급행버스 기본/구간요금 (카드) | 2000~3000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [제주버스정보시스템](http://bus.jeju.go.kr/guide/fare) |
-| CJU-TR-003 | 제주 | 제주 관광지순환버스 1회권 (카드) | 1150 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [제주관광지순환버스 공식홈페이지](http://www.jejutourbus.com/sub02/sub01.php) |
+| CJU-TR-001 | 제주 | 제주 간선/지선버스 기본요금 (카드) | 1150 KRW | A | 예 | 재검증 | [제주버스정보시스템](http://bus.jeju.go.kr/guide/fare) |
+| CJU-TR-002 | 제주 | 제주 급행버스 기본/구간요금 (카드) | 2000~3000 KRW | A | 예 | 재검증 | [제주버스정보시스템](http://bus.jeju.go.kr/guide/fare) |
+| CJU-TR-003 | 제주 | 제주 관광지순환버스 1회권 (카드) | 1150 KRW | A | 예 | 재검증 | [제주관광지순환버스 공식홈페이지](http://www.jejutourbus.com/sub02/sub01.php) |
 | CJU-FD-001 | 제주 | 자매국수 고기국수 | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 자매국수 공식 메뉴판](https://map.naver.com/p/entry/place/13570691) |
 | CJU-FD-002 | 제주 | 올래국수 고기국수 | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 올래국수 공식 메뉴판](https://map.naver.com/p/entry/place/11728283) |
 | CJU-FD-003 | 제주 | 숙성도 숙성 흑돼지 (1인분 200g) | 22000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [숙성도 노형본관 매장 공식 메뉴판](https://map.naver.com/p/entry/place/1070809277) |
@@ -449,18 +445,18 @@
 | CJU-AT-002 | 제주 | 성산일출봉 유료관람권 (어린이) | 2500 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [제주세계유산축전 성산일출봉 공식안내](https://www.jeju.go.kr/heritage/heritage/seongsan.htm) |
 | CJU-AT-003 | 제주 | 만장굴 입장료 (어른) | 4000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [제주세계자연유산센터 공식안내](https://www.jeju.go.kr/wnhcenter/geology/manjang.htm) |
 | CJU-AT-004 | 제주 | 만장굴 입장료 (어린이) | 2000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [제주세계자연유산센터 공식안내](https://www.jeju.go.kr/wnhcenter/geology/manjang.htm) |
-| CJU-AT-005 | 제주 | 아쿠아플라넷 제주 종합권 (대인) | 42400 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [아쿠아플라넷 제주 공식홈페이지](https://www.aquaplanet.co.kr/jeju/index.do) |
-| CJU-AT-006 | 제주 | 아쿠아플라넷 제주 종합권 (어린이) | 38500 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [아쿠아플라넷 제주 공식홈페이지](https://www.aquaplanet.co.kr/jeju/index.do) |
+| CJU-AT-005 | 제주 | 아쿠아플라넷 제주 종합권 (대인) | 45500 KRW | A | 예 | 재검증 | [아쿠아플라넷 제주 공식홈페이지](https://www.aquaplanet.co.kr/jeju/information/use_price.do;https://www.aquaplanet.co.kr/jeju/eng/information/use_price.do) |
+| CJU-AT-006 | 제주 | 아쿠아플라넷 제주 종합권 (어린이) | 41400 KRW | A | 예 | 재검증 | [아쿠아플라넷 제주 공식홈페이지](https://www.aquaplanet.co.kr/jeju/information/use_price.do;https://www.aquaplanet.co.kr/jeju/eng/information/use_price.do) |
 | CJU-AT-007 | 제주 | 신화테마파크 자유이용권 (1인) | 30000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [제주신화월드 공식홈페이지](https://www.shinhwaworld.com/park.php?url_lang=ko_KR) |
-| CJU-AT-008 | 제주 | 오설록 티뮤지엄 본관 관람 | 0 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [오설록 공식홈페이지 티뮤지엄 안내](https://www.osulloc.com/kr/ko/museum) |
-| CJU-AT-009 | 제주 | 천지연폭포 관람료 (어른) | 2000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [서귀포시 공영관광지 관람안내](https://www.seogwipo.go.kr/) |
-| CJU-AT-010 | 제주 | 천지연폭포 관람료 (어린이) | 1000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [서귀포시 공영관광지 관람안내](https://www.seogwipo.go.kr/) |
+| CJU-AT-008 | 제주 | 오설록 티뮤지엄 본관 관람 | 0 KRW | A | 예 | 재검증 | [오설록 공식홈페이지 티뮤지엄 안내](https://www.osulloc.com/kr/ko/museum) |
+| CJU-AT-009 | 제주 | 천지연폭포 관람료 (어른) | 2000 KRW | A | 예 | 재검증 | [서귀포시 공영관광지 관람안내](https://www.seogwipo.go.kr/) |
+| CJU-AT-010 | 제주 | 천지연폭포 관람료 (어린이) | 1000 KRW | A | 예 | 재검증 | [서귀포시 공영관광지 관람안내](https://www.seogwipo.go.kr/) |
 | NYC-TR-001 | 뉴욕 | 지하철·시내버스 기본 요금 | 3 USD | A | 예 | 재검증 | [MTA](https://www.mta.info/fares-tolls/subway-bus) |
 | NYC-TR-002 | 뉴욕 | 급행버스 기본 요금 | 7.25 USD | A | 예 | 재검증 | [MTA](https://www.mta.info/fares-tolls/subway-bus) |
 | NYC-TR-003 | 뉴욕 | NYC 페리 성인 편도 | 4.5 USD | A | 예 | 재검증 | [NYC Ferry](https://www.ferry.nyc/ticketing-info/) |
 | NYC-TR-004 | 뉴욕 | LIRR 시티티켓 비혼잡 시간 | 5.25 USD | A | 예 | 재검증 | [MTA LIRR](https://www.mta.info/fares-tolls/lirr-metro-north) |
 | NYC-FD-101 | 뉴욕 | 셰이크쉑 쉑버거 | 7.69 USD | A | 예 | 재검증, 검수: 원문 확인 불가 | [Shake Shack](https://shakeshack.com/location/theater-district-ny) |
-| NYC-FD-102 | 뉴욕 | 주니어스 체리 치즈케이크 1조각 | 9.95 USD | A | 예 | 재검증, 검수: 원문 확인 불가 | [Junior's Cheesecake](https://www.juniorscheesecake.com) |
+| NYC-FD-102 | 뉴욕 | 주니어스 체리 치즈케이크 1조각 | 9.75 USD | A | 예 | 재검증 | [Junior's Cheesecake](https://cdn.shopify.com/s/files/1/0694/7517/2609/files/45th_Main_Menu_3.1.26.pdf) |
 | NYC-FD-103 | 뉴욕 | 휴스턴 홀 버거와 감자튀김 | 21.95 USD | A | 예 | 재검증 | [Houston Hall](https://www.houstonhallny.com/menus/) |
 | NYC-FD-202 | 뉴욕 | 휴스턴 홀 골든 라거 스몰 | 9.5 USD | A | 예 | 재검증, 검수: 원문 확인 불가 | [Houston Hall](https://www.houstonhallny.com/menus/) |
 | NYC-FD-203 | 뉴욕 | 휴스턴 홀 소비뇽 블랑 1잔 | 14.5 USD | A | 예 | 재검증 | [Houston Hall](https://www.houstonhallny.com/menus/) |
@@ -492,7 +488,7 @@
 | BKK-FD-714 | 방콕 | MK 채식 완탕 똠얌 수프 | 89 THB | A | 예 | 재검증 | [MK Restaurants](https://www.mkrestaurant.com/en/mk-menu/single-dish) |
 | TPE-SN-715 | 타이베이 | 85도씨 아메리카노 (대) | 75 TWD | A | 예 | 재검증 | [85度C](https://www.85cafe.com/Product.php?datatid=9) |
 | TPE-SN-716 | 타이베이 | 85도씨 오디 아이스 아메리카노 (중) | 65 TWD | A | 예 | 재검증 | [85度C](https://www.85cafe.com/Product.php?datatid=9) |
-| PUS-FD-720 | 부산 | 본죽 팥칼국수 | 10000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [본죽&비빔밥](https://m.bonif.co.kr/brand/menu?brdCd=BF102) |
+| PUS-FD-720 | 부산 | 본죽 팥칼국수 | 10000 KRW | A | 예 | 재검증 | [본죽&비빔밥](https://m.bonif.co.kr/brand/menu?brdCd=BF102) |
 | PAR-FD-721 | 파리 | 셰 폴 양파수프 | 13.5 EUR | A | 예 | 재검증 | [Chez Paul](https://chezpaul.com/tarifs-chez-paul/) |
 | PAR-FD-722 | 파리 | 셰 폴 점심 세트(전채+메인 또는 메인+디저트) | 21 EUR | A | 예 | 재검증 | [Chez Paul](https://chezpaul.com/tarifs-chez-paul/) |
 | LON-FD-723 | 런던 | 웨더스푼 스테이크 앤 에일 푸딩 | 9.12 GBP | A | 예 | 재검증 | [J D Wetherspoon](https://www.jdwetherspoon.com/wp-content/uploads/menus/currentmenus/MENU_2060.pdf) |
@@ -573,5 +569,5 @@
 
 ## 4. 교차 검수 현황
 
-`data/reviews/*.csv` 에서 읽은 판정: 일치 536건 · 불일치 29건 · 확인불가 252건.
+`data/reviews/*.csv` 에서 읽은 판정: 일치 578건 · 불일치 41건 · 확인불가 198건.
 아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

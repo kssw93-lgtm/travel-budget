@@ -253,3 +253,6 @@
   - [샌드위치 식빵 공식 상품 페이지](https://www.bigc.co.th/product/big-c-sandwich-sliced-bread-480-g.35819), [핫도그 번 공식 상품 페이지](https://www.bigc.co.th/product/we-are-fresh-hot-dog-bun-210-g.3860739)
 - 두 항목은 서로 다른 상품이며 원문 요금은 바트 그대로 기록했습니다. 새 ID는 `samples.json`, `data/additions/*.csv` 31개, 기존 보강 파일과 대조했습니다. `BKK-SN-802`는 이미 `data/additions/prices-perplexity-2026-10-04.csv`와 `samples.json`에 있어 사용하지 않았습니다.
 - 보강 CSV는 총 13행입니다: 1일 교통권 11행, 방콕 간식 2행. 요청한 간식·음료 10행 중 2행이 채워져 8행, 주류 2행은 모두 남았습니다. 1일권은 33개 중 11개가 기록되어 22개가 남았습니다.
+
+
+- 추가 확인 불가: 타이베이 국립 228 기념박물관 성인 표본 `TPE-AT-011`의 공식 관광청 URL을 두 번 열었으나 모두 403으로 막혔습니다. 무료 요약이나 다른 페이지로 대체하지 않았고 아동 0원 행을 넣지 않았습니다. [원 URL](https://www.travel.taipei/en/attraction/details/2007)

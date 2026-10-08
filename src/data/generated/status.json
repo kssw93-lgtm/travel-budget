@@ -152,19 +152,19 @@
       "souvenir": 4
     },
     "baskets": {
-      "pass": 1,
+      "pass": 2,
       "ride": 3,
       "meal": 6,
-      "snack": 1,
+      "snack": 3,
       "drink": 3,
       "attraction": 12,
       "souvenir": 4
     },
     "basketRows": {
-      "pass": 1,
+      "pass": 2,
       "ride": 3,
       "meal": 6,
-      "snack": 1,
+      "snack": 3,
       "drink": 3,
       "attraction": 14,
       "souvenir": 4
@@ -268,7 +268,7 @@
       "souvenir": 3
     },
     "baskets": {
-      "pass": 1,
+      "pass": 2,
       "ride": 3,
       "meal": 5,
       "snack": 3,
@@ -277,7 +277,7 @@
       "souvenir": 3
     },
     "basketRows": {
-      "pass": 3,
+      "pass": 4,
       "ride": 3,
       "meal": 5,
       "snack": 3,

@@ -20,13 +20,12 @@
 | 다낭 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 다낭 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 타이베이 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 싱가포르 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 싱가포르 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 싱가포르 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 파리 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 파리 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 런던 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 로마 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 뉴욕 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 뉴욕 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 이스탄불 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -319,6 +318,35 @@
 | LON-SN-901 | 런던 | 세인즈버리 코카콜라 500ml | 2.15 GBP | A | 예 | 재검증 | [Sainsbury's](https://www.sainsburys.co.uk/gol-ui/product/coca-cola-original-taste-500ml) |
 | IST-SN-902 | 이스탄불 | 미그로스 에리클리 생수 500ml | 23.95 TRY | A | 예 | 재검증 | [Migros](https://www.migros.com.tr/erikli-su-500-ml-p-7b04f9) |
 | IST-SN-903 | 이스탄불 | 미그로스 코카콜라 캔 330ml | 55 TRY | A | 예 | 재검증 | [Migros](https://www.migros.com.tr/coca-cola-orijinal-tat-kutu-330-ml-p-7a3911) |
+| TYO-AT-206 | 도쿄 | 도쿄타워 메인데크 초등학생 입장권 | 900 JPY | A | 예 | 재검증 | [TOKYO TOWER](https://en.tokyotower.co.jp/fee/) |
+| OSA-AT-201 | 오사카 | 산타마리아 데이크루즈 초등학생 요금 | 1000 JPY | A | 예 | 재검증 | [大阪水上バス](https://suijo-bus.osaka/cruiselist/santamaria/) |
+| BKK-AT-201 | 방콕 | 방콕 예술문화센터 일반 전시 아동 관람 | 0 THB | A | 예 | 재검증 | [Bangkok Art and Culture Centre](https://www.bacc.or.th/en/plan-your-visit) |
+| BKK-AT-202 | 방콕 | 룸피니 공원 입장 아동 | 0 THB | A | 예 | 재검증 | [Greener Bangkok](https://greener.bangkok.go.th/en/park/suan-lumpini/) |
+| SHA-AT-201 | 상하이 | 상하이 세계박람회박물관 아동 입장 | 0 CNY | A | 예 | 재검증 | [World Expo Museum](https://www.expo-museum.cn/sbbwg/n55/n266/n267/index.html) |
+| SEL-AT-204 | 서울 | 국립중앙박물관 상설전시 아동 관람 | 0 KRW | A | 예 | 재검증 | [국립중앙박물관](https://vcm.museum.go.kr/MUSEUM/contents/M0201010000.do) |
+| PAR-AT-202 | 파리 | 루브르 비EEA 방문객 아동 입장 (만 18세 미만) | 0 EUR | A | 예 | 재검증 | [Musée du Louvre](https://www.louvre.fr/en/visit/hours-admission/tickets-and-prices) |
+| PAR-AT-203 | 파리 | 개선문 아동 입장권 (만 18세 미만) | 0 EUR | A | 예 | 재검증 | [Centre des monuments nationaux](https://www.paris-arc-de-triomphe.fr/en/visit/practical-information) |
+| LON-AT-201 | 런던 | 내셔널 갤러리 일반 관람 아동 | 0 GBP | A | 예 | 재검증 | [The National Gallery](https://www.nationalgallery.org.uk/visiting/plan-your-visit) |
+| LON-AT-202 | 런던 | 자연사박물관 일반 갤러리 아동 입장 | 0 GBP | A | 예 | 재검증 | [Natural History Museum](https://www.nhm.ac.uk/visit.html) |
+| LON-AT-203 | 런던 | 과학박물관 일반 관람 아동 입장 | 0 GBP | A | 예 | 재검증 | [Science Museum](https://www.sciencemuseum.org.uk/visit) |
+| TPE-AT-201 | 타이베이 | 베이터우 온천박물관 아동 관람 | 0 TWD | A | 예 | 재검증 | [臺北市政府文化局](https://culture.gov.taipei/cp.aspx?n=680DE22A4F00B25F) |
+| TPE-AT-202 | 타이베이 | 룽산사 아동 참배 | 0 TWD | A | 예 | 재검증 | [Taiwan Religious Culture Map (Ministry of the Interior)](https://taiwangods.moi.gov.tw/html/landscape_en/1_0011.aspx?i=15) |
+| PAR-AT-204 | 파리 | 카르나발레 박물관 상설전시 아동 입장 | 0 EUR | A | 예 | 재검증 | [Paris Musées](https://parismusees.paris.fr/fr/votre-visite/tarifs) |
+| PAR-AT-205 | 파리 | 쁘띠 팔레 상설전시 아동 입장 | 0 EUR | A | 예 | 재검증 | [Paris Musées](https://parismusees.paris.fr/fr/votre-visite/tarifs) |
+| PAR-AT-206 | 파리 | 파리 시립현대미술관 상설전시 아동 입장 | 0 EUR | A | 예 | 재검증 | [Paris Musées](https://parismusees.paris.fr/fr/votre-visite/tarifs) |
+| PAR-AT-207 | 파리 | 빅토르 위고의 집 상설전시 아동 입장 | 0 EUR | A | 예 | 재검증 | [Paris Musées](https://parismusees.paris.fr/fr/votre-visite/tarifs) |
+| BCN-AT-201 | 바르셀로나 | 구엘 공원 아동 입장권 (만 7~12세) | 13.5 EUR | A | 예 | 재검증 | [Park Güell](https://parkguell.barcelona/en/planning-your-visit/prices-and-times) |
+| SIN-AT-201 | 싱가포르 | 싱가포르 국립 난초 정원 12세 미만 입장 | 0 SGD | A | 예 | 재검증 | [Singapore Botanic Gardens / NParks](https://sbg.nparks.gov.sg/attractions/national-orchid-garden/) |
+| NYC-AT-201 | 뉴욕 | 뉴욕 현대미술관 16세 이하 입장 | 0 USD | A | 예 | 재검증 | [The Museum of Modern Art (MoMA)](https://www.moma.org/visit/tips) |
+| BCN-AT-202 | 바르셀로나 | 카사 밀라 일반 관람 아동 입장 | 0 EUR | A | 예 | 재검증 | [La Pedrera - Casa Milà](https://www.lapedrera.com/en/tickets/) |
+| BCN-AT-203 | 바르셀로나 | 카사 바트요 일반 관람 아동 입장 | 0 EUR | A | 예 | 재검증 | [Casa Batlló](https://www.casabatllo.es/en/online-tickets/) |
+| ROM-AT-201 | 로마 | 산탄젤로 성 만 18세 미만 입장 | 0 EUR | A | 예 | 재검증 | [Direzione Musei nazionali della città di Roma](http://castelsantangelo.beniculturali.it/getFile.php?id=538) |
+| ROM-AT-202 | 로마 | 바티칸 박물관 7~12세 아동 입장권 | 10 EUR | A | 예 | 재검증 | [Vatican Museums](https://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti.html) |
+| NYC-AT-202 | 뉴욕 | 자유의 여신상·엘리스섬 그라운드 티켓 아동 4~12세 | 12 USD | A | 예 | 재검증 | [Statue of Liberty-Ellis Island Foundation / Statue Cruises](https://www.statueofliberty.org/visit/faq-2/) |
+| PAR-AT-209 | 파리 | 에펠탑 2층 계단 아동 4~11세 | 3.8 EUR | A | 예 | 재검증 | [Eiffel Tower](https://www.toureiffel.paris/en/rates-opening-times) |
+| PAR-AT-210 | 파리 | 에펠탑 2층 엘리베이터 아동 4~11세 | 6 EUR | A | 예 | 재검증 | [Eiffel Tower](https://www.toureiffel.paris/en/rates-opening-times) |
+| PAR-AT-211 | 파리 | 에펠탑 정상 엘리베이터 아동 4~11세 | 9.2 EUR | A | 예 | 재검증 | [Eiffel Tower](https://www.toureiffel.paris/en/rates-opening-times) |
+| OSA-AT-205 | 오사카 | 우메다 스카이빌딩 전망대 초등학생 입장권 | 500 JPY | A | 예 | 재검증 | [OSAKA AMAZING PASS](https://osaka-amazing-pass.com/en/service_free.html) |
 | TYO-AT-201 | 도쿄 | 도쿄 스카이트리 전망대 세트권 (아동 6~14세) | 1500~2400 JPY | A | 예 | 재검증 | [TOKYO SKYTREE](https://www.tokyo-skytree.jp/datas/files/2026/03/19/da1ebeff3b1d6bbfa26f052f2d6a99c9a33b8143.pdf) |
 | TYO-AT-204 | 도쿄 | 도쿄국립박물관 컬렉션 전시 (고등학생 이하·만 18세 미만 무료) | 0 JPY | A | 예 | 재검증 | [도쿄국립박물관](https://www.tnm.jp/modules/r_free_page/index.php?id=113) |
 | SEL-AT-201 | 서울 | 경복궁 입장권 (외국인 만 18세 이하) | 0 KRW | A | 예 | 재검증 | [궁능유적본부](https://royal.khs.go.kr/ROYAL/contents/R703000000.do) |
@@ -326,6 +354,11 @@
 | SEL-AT-203 | 서울 | 덕수궁 입장권 (외국인 만 18세 이하) | 0 KRW | A | 예 | 재검증 | [궁능유적본부](https://royal.khs.go.kr/ROYAL/contents/R703000000.do) |
 | PUS-AT-201 | 부산 | 해운대 해변열차 1회 탑승권 (어린이) | 5600~7000 KRW | A | 예 | 재검증 | [해운대블루라인파크](https://www.bluelinepark.com/fare.do) |
 | PUS-AT-203 | 부산 | 해운대 해변열차 1회 탑승권 (성인) | 8000~10000 KRW | A | 예 | 재검증 | [해운대블루라인파크](https://www.bluelinepark.com/fare.do) |
+| OSA-TR-801 | 오사카 | 오사카 어메이징 패스 기본형 1일권 | 3500 JPY | A | 예 | 재검증 | [SURUTTO KANSAI / OSAKA AMAZING PASS](https://osaka-amazing-pass.com/en/howto_about_1day.html?amazingPass=) |
+| SIN-TR-802 | 싱가포르 | 싱가포르 투어리스트 패스 참(머라이언 원형) 1일권 | 22 SGD | A | 예 | 재검증 | [Singapore Tourist Pass / SimplyGo](https://thesingaporetouristpass.com.sg/type-of-passes/) |
+| ROM-TR-801 | 로마 | ATAC BIRG 로마 구역 A 지역 통합 1일권 | 7.2 EUR | A | 예 | 재검증 | [ATAC](https://www.atac.roma.it/en/tickets-and-passes/birg) |
+| SIN-SN-801 | 싱가포르 | FairPrice 오리지널 감자칩 60g | 1.2 SGD | A | 예 | 재검증 | [NTUC FairPrice](https://www.fairprice.com.sg/product/fairprice-potato-chips-original-60g-13207660) |
+| SIN-SN-802 | 싱가포르 | Mitsuya 맛 비스킷 스틱 40g | 1.9 SGD | A | 예 | 재검증 | [NTUC FairPrice](https://www.fairprice.com.sg/product/491837) |
 | CJU-FD-760 | 제주 | 소산도 우도흑돼지 안심카츠 | 17000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-761 | 제주 | 소산도 흑돼지 우도 등심카츠 | 16000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-762 | 제주 | 제주식 고사리해장국 | 11000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 제주고사리해장국 중문](https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8) |
@@ -509,5 +542,5 @@
 
 ## 4. 교차 검수 현황
 
-`data/reviews/*.csv` 에서 읽은 판정: 일치 7건 · 불일치 1건 · 확인불가 0건.
+`data/reviews/*.csv` 에서 읽은 판정: 일치 14건 · 불일치 1건 · 확인불가 0건.
 아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

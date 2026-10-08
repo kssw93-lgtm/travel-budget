@@ -66,10 +66,10 @@ describe('파일럿 도시 데이터 상태', () => {
         "new-york": "pass 0/0 · ride 4/4 · meal 3/3 · snack 2/2 · attraction 12/13 · souvenir 3/3",
         "osaka": "pass 1/2 · ride 3/3 · meal 7/7 · snack 13/13 · attraction 10/10 · souvenir 3/4",
         "paris": "pass 1/1 · ride 3/3 · meal 4/4 · snack 0/0 · attraction 12/14 · souvenir 4/4",
-        "rome": "pass 1/3 · ride 3/3 · meal 5/5 · snack 3/3 · attraction 13/13 · souvenir 3/3",
+        "rome": "pass 2/4 · ride 3/3 · meal 5/5 · snack 3/3 · attraction 13/13 · souvenir 3/3",
         "seoul": "pass 2/5 · ride 3/3 · meal 17/17 · snack 7/7 · attraction 12/12 · souvenir 6/6",
         "shanghai": "pass 0/0 · ride 3/3 · meal 3/3 · snack 3/3 · attraction 12/12 · souvenir 3/3",
-        "singapore": "pass 1/1 · ride 3/3 · meal 6/6 · snack 1/1 · attraction 12/14 · souvenir 4/4",
+        "singapore": "pass 2/2 · ride 3/3 · meal 6/6 · snack 3/3 · attraction 12/14 · souvenir 4/4",
         "taipei": "pass 1/3 · ride 3/3 · meal 3/3 · snack 3/3 · attraction 12/14 · souvenir 3/4",
         "tokyo": "pass 3/5 · ride 3/3 · meal 10/10 · snack 14/14 · attraction 11/11 · souvenir 3/4",
       }

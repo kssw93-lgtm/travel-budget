@@ -318,8 +318,8 @@ test.describe('항목별 자세히 보기·음주', () => {
     await attr.locator('summary').click();
     await expect(attr.locator('[data-line="TYO-AT-001"]')).toContainText('도쿄 스카이트리');
     await expect(attr.locator('[data-line="TYO-AT-002"]')).toContainText('JP¥1,500');
-    await expect(attr.locator('[data-line="TYO-AT-002"]')).toContainText('성인 요금 적용'); // 아동 요금 없음
-    await expect(attr.locator('[data-line="TYO-AT-002"]')).toContainText('JP¥4,500'); // 1,500 × 3명
+    await expect(attr.locator('[data-line="TYO-AT-002"]')).toContainText('JP¥900'); // 초등학생 요금
+    await expect(attr.locator('[data-line="TYO-AT-002"]')).toContainText('JP¥3,900'); // 1,500 × 2명 + 900
     await expect(page.locator('tr[data-category="contingency"]')).toContainText('예비비');
   });
 

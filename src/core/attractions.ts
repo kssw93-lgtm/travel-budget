@@ -1,4 +1,4 @@
-import { classify, isVariablePricing, type Classified } from './classify';
+import { classify, isVariablePricing, productName, type Classified } from './classify';
 import { KEYWORDS } from './model-config';
 import type { City, PriceSample } from './types';
 
@@ -14,7 +14,8 @@ export interface AttractionOption {
 /**
  * 도시의 관광지(입장권 바스켓) 목록. 계산 제외 규칙은 그대로 적용한다(EEA 전용·상한 문구·D등급 등은 빠짐).
  * 같은 명소의 관람 옵션(에펠탑 계단/엘리베이터/정상)은 각각 고를 수 있게 따로 보여 준다.
- * 아동 요금은 같은 상품(같은 출처·같은 명소) 의 아동 표본과 짝짓는다.
+ * 아동 요금은 같은 상품(같은 출처·같은 명소) 의 아동 표본과 짝짓는다. 관람 옵션별 아동 요금이 따로 있으면
+ * 이름이 같은 옵션(예: 정상 엘리베이터 성인 ↔ 정상 엘리베이터 아동)을 먼저 고른다.
  */
 export function attractionOptions(city: City, samples: PriceSample[]): AttractionOption[] {
   const rows = samples.filter((s) => s.cityId === city.id).map(classify).filter((r) => r.usable && r.basket === 'attraction');
@@ -26,7 +27,13 @@ export function attractionOptions(city: City, samples: PriceSample[]): Attractio
     .map((adult) => ({
       id: adult.sample.id,
       adult,
-      child: children.find((c) => c.productKey === adult.productKey) ?? null,
+      child: childFor(adult, children),
       variable: isVariablePricing(adult.sample, adult.variant),
     }));
+}
+
+function childFor(adult: Classified, children: Classified[]): Classified | null {
+  const same = children.filter((c) => c.productKey === adult.productKey);
+  const name = (r: Classified) => productName(r.sample.nameEn || r.sample.nameKo);
+  return same.find((c) => name(c).startsWith(name(adult))) ?? same[0] ?? null;
 }

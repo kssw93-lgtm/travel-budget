@@ -29,6 +29,11 @@ describe('관광지 입장료 목록', () => {
     expect(ids).not.toContain('PAR-AT-004');
     expect(ids).toEqual(expect.arrayContaining(['PAR-AT-001', 'PAR-AT-002', 'PAR-AT-003', 'PAR-AT-005', 'PAR-AT-006']));
   });
+
+  it('관람 옵션별 아동 요금은 이름이 같은 옵션끼리 짝짓는다(에펠탑 계단/엘리베이터/정상)', () => {
+    const byId = Object.fromEntries(attractionOptions(city('paris'), samples).map((o) => [o.id, o.child?.sample.id]));
+    expect(byId).toMatchObject({ 'PAR-AT-001': 'PAR-AT-209', 'PAR-AT-002': 'PAR-AT-210', 'PAR-AT-003': 'PAR-AT-211' });
+  });
 });
 
 describe('선택한 관광지로 관광 비용 계산', () => {
@@ -56,8 +61,8 @@ describe('선택한 관광지로 관광 비용 계산', () => {
   });
 
   it('아동 요금이 없는 곳은 성인 요금을 적용하고 경고한다', () => {
-    const e = estimateTrip(trip('paris', { adults: 1, children: 1, attractionIds: ['PAR-AT-001'] }), city('paris'), samples);
-    expect(e.categories.attraction.total).toEqual({ min: 29.6, max: 29.6 });
+    const e = estimateTrip(trip('paris', { adults: 1, children: 1, attractionIds: ['PAR-AT-008'] }), city('paris'), samples);
+    expect(e.categories.attraction.total).toEqual({ min: 25, max: 25 }); // 오랑주리 €12.5 × 2
     expect(e.warnings.some((w) => w.code === 'childAsAdult' && w.category === 'attraction')).toBe(true);
   });
 

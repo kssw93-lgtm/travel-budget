@@ -307,8 +307,10 @@ function main() {
   for (const id of Object.keys(namesJa)) if (!id.startsWith('_') && ![...samples, ...extras].some((x) => x.id === id)) notes.push(`names-ja.json: 없는 표본 ID '${id}'`);
 
   // 교차 검수 결과(data/reviews/*.csv, 예: Gemini 검수). '불일치'·'확인불가' 판정만 재검증 표시로 붙인다.
-  // 가격은 바꾸지 않는다 — 고칠 값은 조사 엑셀 다음 버전에 반영한다. review-flags.json 이 먼저 붙은 표본은 그대로 둔다.
+  // 가격은 바꾸지 않는다 — 고칠 값은 CSV·price-corrections.json 에서 고친다. review-flags.json 이 먼저 붙은 표본은 그대로 둔다.
+  // 같은 표본을 여러 번 검수했으면 확인일이 가장 늦은 판정(같은 날이면 파일 이름순으로 뒤 파일)만 쓴다(재검수로 확인불가 → 일치).
   const byId = new Map<string, PriceSample | ExtraSample>([...samples, ...extras].map((x) => [x.id, x]));
+  const latestReview = new Map<string, { file: string; verdict: string; date: string; r: (h: string) => string }>();
   for (const file of readdirSync(`${root}/data/reviews`).filter((f) => f.endsWith('.csv')).sort()) {
     const book = XLSX.read(readFileSync(`${root}/data/reviews/${file}`, 'utf8').replace(/^\uFEFF/, ''), { type: 'string', raw: true });
     const rows = XLSX.utils.sheet_to_json<Record<string, unknown>>(book.Sheets[book.SheetNames[0]!]!, { defval: '', raw: true });
@@ -318,8 +320,7 @@ function main() {
       if (!id) continue;
       const verdict = r('판정');
       if (!verdict) continue; // 아직 검수하지 않은 행
-      const target = byId.get(id);
-      if (!target) {
+      if (!byId.has(id)) {
         errors.push(`${file}: 없는 표본 ID '${id}'`);
         continue;
       }
@@ -327,19 +328,25 @@ function main() {
         errors.push(`${file} ${id}: 판정은 ${REVIEW_VERDICTS.join('/')} 중 하나여야 함('${verdict}')`);
         continue;
       }
-      reviewed.push({ file, id, verdict });
-      if (verdict === '일치' || target.review) continue;
-      // 검수 뒤 고친 표본(검수 당시 저장된 가격·상품명과 지금 값이 다름)은 판정이 이미 반영된 것으로 본다
-      const num = (h: string) => Number(r(h).replace(/,/g, ''));
-      if ('min' in target && r('최소') && (num('최소') !== target.min || num('최대') !== target.max || r('항목') !== target.nameKo)) continue;
-      const found = r('확인 가격');
-      target.review = {
-        flag: verdict === '불일치' ? '교차 검수 불일치' : '원문 확인 불가',
-        flagEn: verdict === '불일치' ? 'cross-check mismatch' : 'source could not be verified',
-        detail: [found && `확인 가격 ${found}`, r('확인 URL'), r('메모')].filter(Boolean).join(' · '),
-        reportedAt: isoDate(r('확인일')),
-      };
+      const date = isoDate(r('확인일'));
+      const prev = latestReview.get(id);
+      if (!prev || date >= prev.date) latestReview.set(id, { file, verdict, date, r });
     }
+  }
+  for (const [id, { file, verdict, r }] of latestReview) {
+    const target = byId.get(id)!;
+    reviewed.push({ file, id, verdict });
+    if (verdict === '일치' || target.review) continue;
+    // 검수 뒤 고친 표본(검수 당시 저장된 가격·상품명과 지금 값이 다름)은 판정이 이미 반영된 것으로 본다
+    const num = (h: string) => Number(r(h).replace(/,/g, ''));
+    if ('min' in target && r('최소') && (num('최소') !== target.min || num('최대') !== target.max || r('항목') !== target.nameKo)) continue;
+    const found = r('확인 가격');
+    target.review = {
+      flag: verdict === '불일치' ? '교차 검수 불일치' : '원문 확인 불가',
+      flagEn: verdict === '불일치' ? 'cross-check mismatch' : 'source could not be verified',
+      detail: [found && `확인 가격 ${found}`, r('확인 URL'), r('메모')].filter(Boolean).join(' · '),
+      reportedAt: isoDate(r('확인일')),
+    };
   }
 
   const ids = new Set<string>();

@@ -2110,5 +2110,103 @@
     "recommendSource": "Turismo Roma",
     "recommendUrl": "https://turismoroma.it/en",
     "note": "추천 출처 재확인 필요(받은 주소가 숙박세 안내 페이지였음)"
+  },
+  {
+    "cityId": "sapporo",
+    "nameKo": "미소 라멘",
+    "nameEn": "Sapporo Miso Ramen",
+    "reason": "진한 된장 국물에 꼬불꼬불한 면을 넣는 삿포로 대표 라멘",
+    "reasonEn": "Sapporo's signature ramen",
+    "desc": {
+      "ko": "진한 된장 국물에 쫄깃한 꼬불꼬불 면, 숙주·옥수수·버터를 올리기도 하는 삿포로 대표 라멘",
+      "en": "Sapporo's signature ramen: rich miso broth with curly noodles, often topped with bean sprouts, corn or butter",
+      "ja": "濃厚な味噌スープに縮れ麺。もやしやコーン、バターをのせることも多い札幌の代表的なラーメン"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sapporo_miso_ramen.jpg",
+      "author": "Schellack",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sapporo_miso_ramen.jpg"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-09)"
+  },
+  {
+    "cityId": "sapporo",
+    "nameKo": "수프카레",
+    "nameEn": "Soup Curry",
+    "reason": "큼직한 닭다리와 채소를 묽은 카레 국물에 담아 내는 삿포로 명물",
+    "reasonEn": "Sapporo's best-known local dish",
+    "desc": {
+      "ko": "큼직한 닭다리와 구운 채소를 묽은 향신 카레 국물에 담아 밥과 따로 먹는 삿포로 명물. 맵기를 고를 수 있습니다",
+      "en": "Sapporo specialty: chicken leg and roasted vegetables in a thin, spiced curry broth served with rice on the side; choose your spice level",
+      "ja": "大ぶりのチキンレッグと素揚げ野菜をサラッとしたスパイススープで。ライスは別皿、辛さを選べる札幌名物"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/A_soup_curry_dish_in_Sapporo_-_Flickr_-_odako1.jpg",
+      "author": "Koichi Oda",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:A_soup_curry_dish_in_Sapporo_-_Flickr_-_odako1.jpg"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "SPK-FD-001"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-09)"
+  },
+  {
+    "cityId": "sapporo",
+    "nameKo": "징기스칸",
+    "nameEn": "Jingisukan",
+    "reason": "가운데가 볼록한 철판에 양고기와 채소를 굽는 홋카이도 향토 요리",
+    "reasonEn": "Hokkaido's classic lamb barbecue",
+    "desc": {
+      "ko": "가운데가 볼록한 전용 철판에 양고기를 굽고 흘러내린 기름에 채소를 익혀 먹는 홋카이도 향토 요리",
+      "en": "Hokkaido-style grilled lamb and mutton on a domed iron pan, with vegetables cooked in the drippings",
+      "ja": "中央が盛り上がった専用鍋で羊肉を焼き、流れた脂で野菜を焼く北海道の郷土料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Jingisukan_japanese_mutton_barbecue.jpg",
+      "author": "Jesper Rautell Balle",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Jingisukan_japanese_mutton_barbecue.jpg"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-09)"
+  },
+  {
+    "cityId": "sapporo",
+    "nameKo": "해산물 덮밥",
+    "nameEn": "Kaisendon",
+    "reason": "연어알·성게·게살 등 홋카이도 해산물을 밥 위에 올린 덮밥",
+    "reasonEn": "Showcases Hokkaido seafood",
+    "desc": {
+      "ko": "연어알·성게·게살·가리비 등 홋카이도 해산물을 밥 위에 듬뿍 올린 덮밥. 아침 시장에서 많이 먹습니다",
+      "en": "Rice bowl piled with Hokkaido seafood such as salmon roe, sea urchin, crab and scallop; popular at morning markets",
+      "ja": "いくら・うに・カニ・ホタテなど北海道の海の幸をご飯にのせた丼。朝市で人気"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Jumbo_kaisendon.JPG",
+      "author": "Gpx-evo",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Jumbo_kaisendon.JPG"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-09)"
   }
 ]

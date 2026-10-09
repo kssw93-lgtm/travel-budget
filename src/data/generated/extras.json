@@ -642,5 +642,29 @@
     "sourceUrl": "https://www.terravision.eu/airport_transfer/bus-ciampino-airport-rome/",
     "note": "Perplexity 수집 · 원문: Adult from 6,50€ · 수집: prices-rome.csv",
     "kind": "airport"
+  },
+  {
+    "id": "SPK-AP-001",
+    "cityId": "sapporo",
+    "country": "일본",
+    "city": "삿포로",
+    "subtype": "철도",
+    "nameKo": "신치토세 공항–삿포로역 JR 쾌속 에어포트(자유석)",
+    "nameEn": "New Chitose Airport to Sapporo JR Rapid Airport (non-reserved)",
+    "min": 1150,
+    "max": 1230,
+    "currency": "JPY",
+    "unit": "성인 1인 편도",
+    "priceType": "고정형",
+    "target": "일반",
+    "grade": "A",
+    "modelUse": "yes",
+    "status": "확정 1차 재검증(교차 확인 전)",
+    "checkedAt": "2026-10-09",
+    "applied": "2026",
+    "sourceName": "JR北海道",
+    "sourceUrl": "https://www.jrhokkaido.co.jp/fare/pdf/02.pdf",
+    "note": "공식 표에 1,150엔과 인상 후 1,230엔(+80엔)이 함께 표기돼 범위로 둠. 지정석(u시트)은 840엔 추가 · Firecrawl로 공식 페이지 직접 확인(Claude, 2026-10-09) · 원문: 普通運賃（大人片道） 札幌駅 1,150円 1,230円 (+ 80円) … 自由席をご利用の場合、座席指定料金は不要です · 수집: prices-sapporo.csv",
+    "kind": "airport"
   }
 ]

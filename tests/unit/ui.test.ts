@@ -72,14 +72,14 @@ describe('한/영 문구', () => {
 
 describe('가격 데이터 무결성', () => {
   it('선택 가능한 도시는 파일럿 도시이고 모든 표본이 (공개 전 도시 포함) 도시에 연결된다', () => {
-    expect(cities.map((c) => c.id).sort()).toEqual(['bangkok', 'barcelona', 'busan', 'cebu', 'da-nang', 'fukuoka', 'istanbul', 'jeju', 'london', 'new-york', 'osaka', 'paris', 'rome', 'seoul', 'shanghai', 'singapore', 'taipei', 'tokyo']);
+    expect(cities.map((c) => c.id).sort()).toEqual(['bangkok', 'barcelona', 'busan', 'cebu', 'da-nang', 'fukuoka', 'istanbul', 'jeju', 'london', 'new-york', 'osaka', 'paris', 'rome', 'sapporo', 'seoul', 'shanghai', 'singapore', 'taipei', 'tokyo']);
     for (const s of samples) expect(allCities.some((c) => c.id === s.cityId && c.currency === s.currency)).toBe(true);
   });
   it('1차 화면에는 파일럿 도시만 노출하고 2차 이후 도시는 숨긴다', () => {
     expect(allCities.length).toBeGreaterThan(cities.length);
-    expect(cities).toHaveLength(18);
+    expect(cities).toHaveLength(19);
     expect(cities.every((c) => c.stage === PILOT_STAGE)).toBe(true);
-    expect(cities.some((c) => c.id === 'sapporo')).toBe(false);
+    expect(cities.some((c) => c.id === 'hong-kong')).toBe(false);
   });
   it('지도·리뷰 플랫폼 출처(네이버 플레이스 등) 가격은 C등급, 운영자가 직접 확인한 캡처만 계산에 쓰고 나머지는 조건부', () => {
     const platform = samples.filter((s) => /map\.naver\.com|place\.naver\.com|kakao\.com|tripadvisor|ubereats|grab\.com/.test(s.sourceUrl));
@@ -139,7 +139,7 @@ describe('도시 선택: 나라별 묶음과 검색', () => {
   it('도시·나라 이름(한/영)으로 찾고 공백·대소문자는 무시한다', () => {
     const find = (q: string) => cities.filter((c) => matchCity(c, q)).map((c) => c.id).sort();
     expect(find('도쿄')).toEqual(['tokyo']);
-    expect(find('일본')).toEqual(['fukuoka', 'osaka', 'tokyo']);
+    expect(find('일본')).toEqual(['fukuoka', 'osaka', 'sapporo', 'tokyo']);
     expect(find('south korea')).toEqual(['busan', 'jeju', 'seoul']);
     expect(find('ParIs')).toEqual(['paris']);
     expect(find('다 낭')).toEqual(['da-nang']);

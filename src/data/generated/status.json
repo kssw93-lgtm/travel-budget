@@ -502,5 +502,33 @@
     "fillRate": 1,
     "missing": [],
     "computable": true
+  },
+  "sapporo": {
+    "counts": {
+      "food": 4,
+      "transport": 3,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 1,
+      "ride": 3,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 1,
+      "ride": 3,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
   }
 }

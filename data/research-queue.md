@@ -31,6 +31,7 @@
 | 서울 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 부산 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 제주 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 삿포로 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 
 ## 3. 공식 재검증이 필요한 표본
 
@@ -616,6 +617,28 @@
 | ROM-AT-102 | 로마 | 바티칸 박물관·시스티나 성당 입장권 | 20~25 EUR | A | 예 | 재검증 | [Vatican Museums](https://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti.html) |
 | ROM-AT-104 | 로마 | 보르게세 미술관 입장권 | 16 EUR | A | 예 | 재검증 | [Galleria Borghese](https://galleriaborghese.cultura.gov.it/en/visita/info-biglietti/) |
 | ROM-AT-105 | 로마 | 산탄젤로 성 입장권 | 18 EUR | A | 예 | 재검증 | [Castel Sant'Angelo](http://castelsantangelo.beniculturali.it/getFile.php?id=538) |
+| SPK-TR-001 | 삿포로 | 삿포로시 지하철 1회권(1~6구간) | 210~380 JPY | A | 예 | 재검증 | [札幌市交通局](https://www.city.sapporo.jp/st/josyaken/ryokin/ryoukin.html) |
+| SPK-TR-002 | 삿포로 | 삿포로시 지하철 1회권 어린이(1~6구간) | 110~190 JPY | A | 예 | 재검증 | [札幌市交通局](https://www.city.sapporo.jp/st/josyaken/ryokin/ryoukin.html) |
+| SPK-TR-003 | 삿포로 | 삿포로 시덴(노면전차) 1회 승차 | 230 JPY | A | 예 | 재검증 | [札幌市交通局](https://www.city.sapporo.jp/st/josyaken/ryokin/ryoukin.html) |
+| SPK-TR-004 | 삿포로 | 삿포로 시덴(노면전차) 1회 승차 어린이 | 120 JPY | A | 예 | 재검증 | [札幌市交通局](https://www.city.sapporo.jp/st/josyaken/ryokin/ryoukin.html) |
+| SPK-TR-005 | 삿포로 | 삿포로 시내 노선버스 특수구간 1구 | 240 JPY | A | 예 | 재검증 | [ジェイ・アール北海道バス](https://www.jrhokkaidobus.com/wp/wp-content/uploads/2024/06/2406281410uuu.pdf) |
+| SPK-TR-006 | 삿포로 | 삿포로시 지하철 전용 1일 승차권 | 830 JPY | A | 예 | 재검증 | [札幌市交通局](https://www.city.sapporo.jp/st/josyaken/card.html) |
+| SPK-FD-001 | 삿포로 | 가라쿠 수프카레 부드러운 치킨레그와 채소 | 1480 JPY | A | 예 | 재검증 | [スープカレーGARAKU](https://s-garaku.com/menu.php) |
+| SPK-FD-002 | 삿포로 | 트레저 수프카레 치킨레그 | 1690 JPY | A | 예 | 재검증 | [Soup Curry TREASURE](https://s-treasure.jp/menu.php) |
+| SPK-FD-003 | 삿포로 | 피칸티 치킨레그와 채소 수프카레 | 1490 JPY | A | 예 | 재검증 | [Picante](https://www.picante-curry.com/menu) |
+| SPK-FD-004 | 삿포로 | 스키야 규동 보통 | 480 JPY | A | 예 | 재검증 | [すき家](https://www.sukiya.jp/menu/in/gyudon/100100/) |
+| SPK-SN-001 | 삿포로 | 패밀리마트 블렌드 커피 S | 158 JPY | A | 예 | 재검증 | [ファミリーマート](https://www.family.co.jp/goods/cafe.html) |
+| SPK-SN-002 | 삿포로 | 패밀리마트 카페라테 M | 255 JPY | A | 예 | 재검증 | [ファミリーマート](https://www.family.co.jp/goods/cafe.html) |
+| SPK-SN-003 | 삿포로 | 패밀리마트 아이스커피 S | 158 JPY | A | 예 | 재검증 | [ファミリーマート](https://www.family.co.jp/goods/cafe.html) |
+| SPK-AL-001 | 삿포로 | 트레저 생맥주 삿포로 클래식 | 660 JPY | A | 예 | 재검증 | [Soup Curry TREASURE](https://s-treasure.jp/menu.php) |
+| SPK-AL-002 | 삿포로 | 트레저 오타루 맥주 필스너 | 660 JPY | A | 예 | 재검증 | [Soup Curry TREASURE](https://s-treasure.jp/menu.php) |
+| SPK-AL-003 | 삿포로 | 트레저 하이볼 | 550 JPY | A | 예 | 재검증 | [Soup Curry TREASURE](https://s-treasure.jp/menu.php) |
+| SPK-AT-001 | 삿포로 | 삿포로 TV타워 전망대(성인) | 1200 JPY | A | 예 | 재검증 | [さっぽろテレビ塔](https://www.tv-tower.co.jp/pricetime.html) |
+| SPK-AT-002 | 삿포로 | 삿포로 TV타워 전망대(초중학생) | 600 JPY | A | 예 | 재검증 | [さっぽろテレビ塔](https://www.tv-tower.co.jp/pricetime.html) |
+| SPK-AT-003 | 삿포로 | 모이와야마 로프웨이+미니 케이블카 왕복(성인) | 2100 JPY | A | 예 | 재검증 | [札幌もいわ山ロープウェイ](https://mt-moiwa.jp/guide/) |
+| SPK-AT-004 | 삿포로 | 모이와야마 로프웨이+미니 케이블카 왕복(어린이) | 1050 JPY | A | 예 | 재검증 | [札幌もいわ山ロープウェイ](https://mt-moiwa.jp/guide/) |
+| SPK-AT-005 | 삿포로 | 삿포로시 시계탑 입관료(성인) | 350 JPY | A | 예 | 재검증 | [札幌市時計台](https://sapporoshi-tokeidai.jp/) |
+| SPK-AT-006 | 삿포로 | 삿포로시 시계탑 입관료(중학생 이하 무료) | 0 JPY | A | 예 | 재검증 | [札幌市時計台](https://sapporoshi-tokeidai.jp/) |
 | SEL-FD-101 | 서울 | 한솥 제육 비빔밥 | 6500 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [HANSOT 한솥](https://en.hsd.co.kr/Menu) |
 | SEL-FD-102 | 서울 | 한솥 김치볶음밥 | 4400 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [HANSOT 한솥](https://en.hsd.co.kr/Menu) |
 | SEL-FD-103 | 서울 | 골드참치 점심 코스 B | 35000 KRW | A | 예 | 재검증 | [Goldtuna 골드참치](https://www.goldtuna.co.kr/en) |

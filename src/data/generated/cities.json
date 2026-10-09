@@ -100,16 +100,6 @@
     "stage": "2차"
   },
   {
-    "id": "sapporo",
-    "country": "일본",
-    "countryEn": "Japan",
-    "nameKo": "삿포로",
-    "nameEn": "Sapporo",
-    "currency": "JPY",
-    "tier": "B",
-    "stage": "2차"
-  },
-  {
     "id": "phu-quoc",
     "country": "베트남",
     "countryEn": "Vietnam",
@@ -247,6 +237,16 @@
     "nameEn": "Jeju",
     "currency": "KRW",
     "tier": "A",
+    "stage": "파일럿"
+  },
+  {
+    "id": "sapporo",
+    "country": "일본",
+    "countryEn": "Japan",
+    "nameKo": "삿포로",
+    "nameEn": "Sapporo",
+    "currency": "JPY",
+    "tier": "B",
     "stage": "파일럿"
   }
 ]

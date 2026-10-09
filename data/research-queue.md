@@ -16,13 +16,11 @@
 | --- | --- | --- | --- |
 | 오사카 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 방콕 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 방콕 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 다낭 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 다낭 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 타이베이 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 싱가포르 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 파리 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 파리 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 런던 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -116,8 +114,6 @@
 | OSA-AT-026 | 오사카 | 오사카성 니시노마루 정원 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급, 검수: 원문 확인 불가 | [Osaka Castle Park Center](https://www.osakacastlepark.jp/articles/detail.html?id=3) |
 | BKK-AT-009 | 방콕 | 방콕 국립박물관 외국인 개인 입장권 | 200 THB | B | 예 | B등급, 검수: 원문 확인 불가 | [Fine Arts Department, Ministry of Culture](https://www.finearts.go.th/museumnationalgallery/view/10005-%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8A%E0%B8%B5%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%A1%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4) |
 | BKK-AT-010 | 방콕 | 방콕 국립미술관 외국인 개인 입장권 | 200 THB | B | 예 | B등급, 검수: 원문 확인 불가 | [Fine Arts Department, Ministry of Culture](https://www.finearts.go.th/museumnationalgallery/view/10005-%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8A%E0%B8%B5%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%A1%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%97%E0%B%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4) |
-| BKK-AT-011 | 방콕 | 뮤지엄 시암 외국인 성인 입장권 | 100 THB | A | 예 | 검수: 원문 확인 불가 | [Museum Siam](https://museumsiam.org/museumsiam-visit.php) |
-| BKK-AT-012 | 방콕 | 뮤지엄 시암 15세 미만 무료 입장 | 0 THB | A | 예 | 검수: 원문 확인 불가 | [Museum Siam](https://museumsiam.org/museumsiam-visit.php) |
 | BKK-AT-013 | 방콕 | 방콕 플라네타리움 성인 입장권 | 50 THB | B | 예 | B등급, 검수: 원문 확인 불가 | [Science Centre for Education, Thailand](https://sciplanet.org/wp-content/uploads/2026/01/%E0%B8%AD-%E0%B9%80%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A-21-%E0%B8%A1.%E0%B8%84.69-%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%A1-2569-%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B8%E0%B8%94.pdf) |
 | BKK-AT-014 | 방콕 | 방콕 플라네타리움 어린이 입장권 | 30 THB | B | 예 | B등급, 검수: 원문 확인 불가 | [Science Centre for Education, Thailand](https://sciplanet.org/wp-content/uploads/2026/01/%E0%B8%AD-%E0%B9%80%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A-21-%E0%B8%A1.%E0%B8%84.69-%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%A1-2569-%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B8%E0%B8%94.pdf) |
 | BKK-AT-016 | 방콕 | 룸피니 공원 입장 | 0 THB | B | 예 | B등급 | [Bangkok Metropolitan Administration, Greener Bangkok](https://greener.bangkok.go.th/en/park/suan-lumpini/) |
@@ -345,6 +341,13 @@
 | LON-SN-901 | 런던 | 세인즈버리 코카콜라 500ml | 2.15 GBP | A | 예 | 재검증 | [Sainsbury's](https://www.sainsburys.co.uk/gol-ui/product/coca-cola-original-taste-500ml) |
 | IST-SN-902 | 이스탄불 | 미그로스 에리클리 생수 500ml | 23.95 TRY | A | 예 | 재검증, 검수: 원문 확인 불가 | [Migros](https://www.migros.com.tr/erikli-su-500-ml-p-7b04f9) |
 | IST-SN-903 | 이스탄불 | 미그로스 코카콜라 캔 330ml | 55 TRY | A | 예 | 재검증, 검수: 원문 확인 불가 | [Migros](https://www.migros.com.tr/coca-cola-orijinal-tat-kutu-330-ml-p-7a3911) |
+| PAR-SN-901 | 파리 | 에비앙 생수 50cL (카르푸) | 1.39 EUR | A | 예 | 재검증 | [Carrefour](https://www.carrefour.fr/p/eau-minerale-naturelle-plate-evian-3068320124377) |
+| PAR-SN-902 | 파리 | 코카콜라 50cL 페트 (카르푸) | 1.45 EUR | A | 예 | 재검증 | [Carrefour](https://www.carrefour.fr/p/soda-au-cola-gout-original-coca-cola-3174780000363) |
+| PAR-SN-903 | 파리 | 트윅스 초코바 50g (카르푸) | 1.09 EUR | A | 예 | 재검증 | [Carrefour](https://www.carrefour.fr/p/barres-chocolatees-biscuits-enrobes-de-chocolat-et-caramel-twix-5900951313592) |
+| BKK-SN-901 | 방콕 | 환타 오렌지 캔 325ml (빅C) | 16 THB | A | 예 | 재검증 | [Big C Online](https://www.bigc.co.th/en/product/fanta-orange-flavored-soft-drink-can-325-ml-8851959132166.13206) |
+| BKK-SN-902 | 방콕 | 펩시 캔 325ml (빅C) | 16 THB | A | 예 | 재검증 | [Big C Online](https://www.bigc.co.th/en/product/pepsi-soft-drink-original-flavor-can-325-ml.1181643) |
+| NYC-AL-901 | 뉴욕 | 휴스턴 홀 필스너 스몰 | 10 USD | A | 예 | 재검증 | [Houston Hall](https://www.houstonhallny.com/menus/) |
+| BCN-AL-901 | 바르셀로나 | 파브리카 모리츠 라거 에스페시알 생맥주 25cl | 2.65 EUR | A | 예 | 재검증 | [Fàbrica Moritz Barcelona](https://fabricamoritzbarcelona.com/wp-content/uploads/2026/05/fmb_cartes-begudes_maig26_cat.pdf) |
 | TYO-AT-206 | 도쿄 | 도쿄타워 메인데크 초등학생 입장권 | 900 JPY | A | 예 | 재검증 | [TOKYO TOWER](https://en.tokyotower.co.jp/fee/) |
 | OSA-AT-201 | 오사카 | 산타마리아 데이크루즈 초등학생 요금 | 1000 JPY | A | 예 | 재검증 | [大阪水上バス](https://suijo-bus.osaka/cruiselist/santamaria/) |
 | BKK-AT-201 | 방콕 | 방콕 예술문화센터 일반 전시 아동 관람 | 0 THB | A | 예 | 재검증 | [Bangkok Art and Culture Centre](https://www.bacc.or.th/en/plan-your-visit) |
@@ -523,9 +526,9 @@
 | TPE-FD-951 | 타이베이 | 아사히 맥주 (호텔 라운지) | 250 TWD | A | 예 | 재검증, 세금·서비스료 별도 | [Courtyard by Marriott Taipei Lobby Lounge](https://www.courtyardtaipei.com.tw/uploads/restaurant_menu_pdf/39/5bf94d51756936d36a6a847dcbb71c97.pdf) |
 | TPE-FD-952 | 타이베이 | 코로나 맥주 (호텔 라운지) | 250 TWD | A | 예 | 재검증, 세금·서비스료 별도 | [Courtyard by Marriott Taipei Lobby Lounge](https://www.courtyardtaipei.com.tw/uploads/restaurant_menu_pdf/39/5bf94d51756936d36a6a847dcbb71c97.pdf) |
 | TPE-FD-953 | 타이베이 | 타이완 골드 맥주 (호텔 라운지) | 220 TWD | A | 예 | 재검증, 세금·서비스료 별도 | [Courtyard by Marriott Taipei Lobby Lounge](https://www.courtyardtaipei.com.tw/uploads/restaurant_menu_pdf/39/5bf94d51756936d36a6a847dcbb71c97.pdf) |
-| SIN-FD-951 | 싱가포르 | 하이네켄 (리퍼블릭 바) | 18 SGD | A | 예 | 재검증, 세금·서비스료 별도, 검수: 원문 확인 불가 | [Republic Bar Singapore](https://www.republicbar.com.sg/resourcefiles/pdf/republic-vol-4-menu.pdf) |
-| SIN-FD-952 | 싱가포르 | 아사히 (리퍼블릭 바) | 18 SGD | A | 예 | 재검증, 세금·서비스료 별도, 검수: 원문 확인 불가 | [Republic Bar Singapore](https://www.republicbar.com.sg/resourcefiles/pdf/republic-vol-4-menu.pdf) |
-| SIN-FD-953 | 싱가포르 | 타이거 (리퍼블릭 바) | 18 SGD | A | 예 | 재검증, 세금·서비스료 별도, 검수: 원문 확인 불가 | [Republic Bar Singapore](https://www.republicbar.com.sg/resourcefiles/pdf/republic-vol-4-menu.pdf) |
+| SIN-FD-951 | 싱가포르 | 하이네켄 (리퍼블릭 바) | 18 SGD | A | 예 | 재검증, 세금·서비스료 별도 | [Republic Bar Singapore](https://www.republicbar.com.sg/resourcefiles/pdf/republic-vol-4-menu.pdf) |
+| SIN-FD-952 | 싱가포르 | 아사히 (리퍼블릭 바) | 18 SGD | A | 예 | 재검증, 세금·서비스료 별도 | [Republic Bar Singapore](https://www.republicbar.com.sg/resourcefiles/pdf/republic-vol-4-menu.pdf) |
+| SIN-FD-953 | 싱가포르 | 타이거 (리퍼블릭 바) | 18 SGD | A | 예 | 재검증, 세금·서비스료 별도 | [Republic Bar Singapore](https://www.republicbar.com.sg/resourcefiles/pdf/republic-vol-4-menu.pdf) |
 | PAR-FD-951 | 파리 | 크로넨부르 1664 25cl | 6.9 EUR | A | 예 | 재검증 | [Le Do Ré Mi Paris](https://www.ledoremiparis.fr/en/menus/) |
 | PAR-FD-952 | 파리 | 브라스리 리프 블롱드 25cl | 7 EUR | A | 예 | 재검증 | [Brasserie Lipp](https://www.brasserielipp.fr/en/menus/) |
 | PAR-FD-953 | 파리 | 드모리 IPA 25cl | 6.9 EUR | A | 예 | 재검증 | [Le Do Ré Mi Paris](https://www.ledoremiparis.fr/en/menus/) |
@@ -569,5 +572,5 @@
 
 ## 4. 교차 검수 현황
 
-`data/reviews/*.csv` 에서 읽은 판정: 일치 578건 · 불일치 41건 · 확인불가 198건.
+`data/reviews/*.csv` 에서 읽은 판정: 일치 583건 · 불일치 41건 · 확인불가 193건.
 아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

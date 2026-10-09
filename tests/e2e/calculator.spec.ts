@@ -334,10 +334,11 @@ test.describe('항목별 자세히 보기·음주', () => {
     await expect(page).toHaveURL(/drink=1/);
     await expect(food).not.toHaveText(before);
     await expect(page.getByTestId('drink-note')).toHaveCount(0);
-    // 바르셀로나: 주류 2건 → 합계에 넣지 않고 부족하다고 알린다
+    // 바르셀로나: 주류 독립 표본 3건(2026-10-09 파브리카 모리츠 추가) → 근거 패널에 주류가 합계에 반영된다고 보인다
     await page.goto('/?lang=ko&city=barcelona&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=EUR&drink=1');
     await page.locator('details.evidence > summary').click();
-    await expect(page.getByTestId('quality').locator('[data-category="food"]')).toContainText('주류은(는) 표본이 3건 미만');
+    await expect(page.getByTestId('quality').locator('[data-category="food"]')).toContainText('주류 독립 3건');
+    await expect(page.getByTestId('drink-note')).toHaveCount(0);
   });
 });
 

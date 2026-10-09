@@ -6227,13 +6227,7 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Tempozan Giant Ferris Wheel / Senyo Kogyo",
     "sourceUrl": "https://tempozan-kanransya.com/tempozan-kanransya.com/ko/",
-    "note": "운영사 공식 페이지의 일반권 1인 1,000엔. 만 3세 이상 유료.",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://tempozan-kanransya.com/tempozan-kanransya.com/ko/ · 공식 덴포잔 대관람차 URL을 두 번 열었으나 두 번 모두 페이지 내부 오류가 반환됐습니다. 현재 요금을 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "운영사 공식 페이지의 일반권 1인 1,000엔. 만 3세 이상 유료."
   },
   {
     "id": "OSA-AT-010",
@@ -6570,13 +6564,7 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Tempozan Giant Ferris Wheel / Senyo Kogyo",
     "sourceUrl": "https://tempozan-kanransya.com/tempozan-kanransya.com/ko/",
-    "note": "운영사 공식 안내가 만 3세 이상 유료라고 명시하므로 만 3세 미만 무료.",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://tempozan-kanransya.com/tempozan-kanransya.com/ko/ · 공식 덴포잔 대관람차 URL을 두 번 열었으나 두 번 모두 페이지 내부 오류가 반환됐습니다. 만 3세 미만 무료 조건을 현재 페이지에서 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "운영사 공식 안내가 만 3세 이상 유료라고 명시하므로 만 3세 미만 무료."
   },
   {
     "id": "OSA-AT-023",
@@ -11948,13 +11936,7 @@
     "applied": "2026",
     "sourceName": "아르떼뮤지엄 제주 공식 요금 안내",
     "sourceUrl": "https://kr.artemuseum.com/jeju",
-    "note": "카페 이용 포함권과 구분한 전시 입장권. · 원문: 성인(1963년~2007년생) 입장권 18,000원 · 수집: prices-attractions-gpt-2026-10-07.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://kr.artemuseum.com/jeju;https://www.visitjeju.net/kr · 아르떼뮤지엄 공식 요금 페이지를 두 차례 열었으나 현재 이 환경에서 502 오류로 가격표를 직접 확인하지 못했습니다. 한국관광공사·Visit Jeju 공식 안내에서도 해당 성인권의 현재 정가를 확인하지 못했습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "카페 이용 포함권과 구분한 전시 입장권. · 원문: 성인(1963년~2007년생) 입장권 18,000원 · 수집: prices-attractions-gpt-2026-10-07.csv"
   },
   {
     "id": "CJU-AT-112",
@@ -12530,13 +12512,7 @@
     "applied": "2026",
     "sourceName": "TMB Transports Metropolitans de Barcelona",
     "sourceUrl": "https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares",
-    "note": "Perplexity 수집. 1존 통합요금 · 원문: Price: €2.90 · 수집: prices-barcelona.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "확인 가격 확인불가 · https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares; https://t-mobilitat.cat/en/web/t-mobilitat/fares/single-ticket · TMB 공식 페이지는 TMB 단일권이 지하철·버스에만 유효하다고 명시합니다. 교통 당국의 일반 단일권 표에는 1존 2,90€가 있지만 Tram 운영사 자체 단일권 가격을 특정하지 않아 확정하지 않았습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "Perplexity 수집. 1존 통합요금 · 원문: Price: €2.90 · 수집: prices-barcelona.csv"
   },
   {
     "id": "BCN-TR-004",
@@ -14462,6 +14438,150 @@
     "sourceName": "7 Pares Cebu",
     "sourceUrl": "https://www.7pares.com/",
     "note": "공식 메뉴에 품목·500 mL 용량·PHP 가격이 함께 표시됨. 메뉴는 사전 고지 없이 가격이 바뀔 수 있다고 명시. · GPT 조사(2026-10-08) · 원문: Water 500 mL · ₱30 · 수집: prices-cebu.csv"
+  },
+  {
+    "id": "DAD-SN-904",
+    "cityId": "da-nang",
+    "country": "베트남",
+    "city": "다낭",
+    "category": "food",
+    "subtype": "간식",
+    "nameKo": "하이랜드 커피 반미 꿰(파테)",
+    "nameEn": "Highlands Coffee Banh Mi Que (Pate)",
+    "min": 19000,
+    "max": 19000,
+    "currency": "VND",
+    "unit": "1개",
+    "priceType": "메뉴형",
+    "target": "일반",
+    "grade": "A",
+    "modelUse": "yes",
+    "status": "확정 1차 재검증(교차 확인 전)",
+    "checkedAt": "2026-10-09",
+    "applied": "2026",
+    "sourceName": "Highlands Coffee",
+    "sourceUrl": "https://www.highlandscoffee.com.vn/vn/banh-mi-que.html",
+    "note": "체인 카페의 막대 반미. 전국 공통 공식 메뉴가(다낭 전용 표기 없음). Firecrawl·Chrome으로 각각 확인(클로드 크롬, 2026-10-09) · 원문: Bánh Mì Que (Pate) Giá: 19,000 VNĐ · 수집: prices-chrome-firecrawl-2026-10-09.csv"
+  },
+  {
+    "id": "DAD-SN-905",
+    "cityId": "da-nang",
+    "country": "베트남",
+    "city": "다낭",
+    "category": "food",
+    "subtype": "음료",
+    "nameKo": "하이랜드 커피 핀 쓰어 다(S)",
+    "nameEn": "Highlands Coffee Phin Sua Da (S)",
+    "min": 29000,
+    "max": 29000,
+    "currency": "VND",
+    "unit": "1잔 S",
+    "priceType": "메뉴형",
+    "target": "일반",
+    "grade": "A",
+    "modelUse": "yes",
+    "status": "확정 1차 재검증(교차 확인 전)",
+    "checkedAt": "2026-10-09",
+    "applied": "2026",
+    "sourceName": "Highlands Coffee",
+    "sourceUrl": "https://www.highlandscoffee.com.vn/vn/phin-sua.html",
+    "note": "베트남식 연유 아이스커피 S 사이즈 가격. 전국 공통 공식 메뉴가. Firecrawl·Chrome으로 각각 확인(클로드 크롬, 2026-10-09) · 원문: Phin Sữa Đá Size : S M L Giá : 29,000 VNĐ · 수집: prices-chrome-firecrawl-2026-10-09.csv"
+  },
+  {
+    "id": "NYC-SN-906",
+    "cityId": "new-york",
+    "country": "미국",
+    "city": "뉴욕",
+    "category": "food",
+    "subtype": "간식",
+    "nameKo": "그레이스 파파야 핫도그",
+    "nameEn": "Gray's Papaya Frank",
+    "min": 3.25,
+    "max": 3.25,
+    "currency": "USD",
+    "unit": "1개",
+    "priceType": "메뉴형",
+    "target": "일반",
+    "grade": "A",
+    "modelUse": "yes",
+    "status": "확정 1차 재검증(교차 확인 전)",
+    "checkedAt": "2026-10-09",
+    "applied": "2026",
+    "sourceName": "Gray's Papaya",
+    "sourceUrl": "https://grayspapaya.nyc/uptown-menu/",
+    "note": "72nd Street 매장 공식 메뉴. 단품 세금 포함 여부 표기 없음(클로드 크롬, 2026-10-09) · 원문: FRANKS Frank with ketchup, mustard, sauerkraut, onions, relish $3.25 · 수집: prices-chrome-firecrawl-2026-10-09.csv"
+  },
+  {
+    "id": "NYC-SN-907",
+    "cityId": "new-york",
+    "country": "미국",
+    "city": "뉴욕",
+    "category": "food",
+    "subtype": "음료",
+    "nameKo": "그레이스 파파야 트로피컬 드링크 미디엄",
+    "nameEn": "Gray's Papaya Tropical Drink (Medium 14oz)",
+    "min": 3,
+    "max": 3,
+    "currency": "USD",
+    "unit": "1잔 14oz",
+    "priceType": "메뉴형",
+    "target": "일반",
+    "grade": "A",
+    "modelUse": "yes",
+    "status": "확정 1차 재검증(교차 확인 전)",
+    "checkedAt": "2026-10-09",
+    "applied": "2026",
+    "sourceName": "Gray's Papaya",
+    "sourceUrl": "https://grayspapaya.nyc/uptown-menu/",
+    "note": "72nd Street 매장 공식 메뉴. 단품 세금 포함 여부 표기 없음(클로드 크롬, 2026-10-09) · 원문: TROPICAL DRINKS … Regular - 8oz * $1.95 Medium - 14oz $3.00 · 수집: prices-chrome-firecrawl-2026-10-09.csv"
+  },
+  {
+    "id": "NYC-SN-908",
+    "cityId": "new-york",
+    "country": "미국",
+    "city": "뉴욕",
+    "category": "food",
+    "subtype": "음료",
+    "nameKo": "그레이스 파파야 생수",
+    "nameEn": "Gray's Papaya Bottled Water",
+    "min": 1.5,
+    "max": 1.5,
+    "currency": "USD",
+    "unit": "1병(용량 미표기)",
+    "priceType": "메뉴형",
+    "target": "일반",
+    "grade": "A",
+    "modelUse": "yes",
+    "status": "확정 1차 재검증(교차 확인 전)",
+    "checkedAt": "2026-10-09",
+    "applied": "2026",
+    "sourceName": "Gray's Papaya",
+    "sourceUrl": "https://grayspapaya.nyc/uptown-menu/",
+    "note": "72nd Street 매장 공식 메뉴. 단품 세금 포함 여부 표기 없음(클로드 크롬, 2026-10-09) · 원문: Bottled water $1.50 · 수집: prices-chrome-firecrawl-2026-10-09.csv"
+  },
+  {
+    "id": "NYC-SN-910",
+    "cityId": "new-york",
+    "country": "미국",
+    "city": "뉴욕",
+    "category": "food",
+    "subtype": "간식",
+    "nameKo": "로스 타코스 No.1 칩스 이 살사",
+    "nameEn": "Los Tacos No. 1 Chips y Salsa",
+    "min": 4.75,
+    "max": 4.75,
+    "currency": "USD",
+    "unit": "1인분",
+    "priceType": "메뉴형",
+    "target": "일반",
+    "grade": "A",
+    "modelUse": "yes",
+    "status": "확정 1차 재검증(교차 확인 전)",
+    "checkedAt": "2026-10-09",
+    "applied": "2026",
+    "sourceName": "Los Tacos No. 1",
+    "sourceUrl": "https://www.lostacos1.com/menus/",
+    "note": "뉴욕 타코 체인 공식 메뉴. 세금 포함 여부 표기 없음(클로드 크롬, 2026-10-09) · 원문: SIDES CHIPS Y SALSA $4.75 CHIPS Y GUACAMOLE $5.95 · 수집: prices-chrome-firecrawl-2026-10-09.csv"
   },
   {
     "id": "TYO-SN-830",
@@ -19029,13 +19149,7 @@
     "applied": "2026",
     "sourceName": "제주세계유산축전 성산일출봉 공식안내",
     "sourceUrl": "https://www.jeju.go.kr/heritage/heritage/seongsan.htm",
-    "note": "유료 정상 탐방 구간 관람료 · 원문: 개인 어른 5,000원 · 수집: prices-jeju.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://www.jeju.go.kr/heritage/heritage/seongsan.htm;https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500349&menuId=DOM_000001707009000000 · 성산일출봉 제주도 공식 요금 페이지를 두 차례 열었으나 가격표가 직접 확인되지 않았고 Visit Jeju 공식 안내도 금액을 제공하지 않습니다. 과거 공식 요금표는 현행 확인 자료가 아니어서 사용하지 않았습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "유료 정상 탐방 구간 관람료 · 원문: 개인 어른 5,000원 · 수집: prices-jeju.csv"
   },
   {
     "id": "CJU-AT-002",
@@ -19059,13 +19173,7 @@
     "applied": "2026",
     "sourceName": "제주세계유산축전 성산일출봉 공식안내",
     "sourceUrl": "https://www.jeju.go.kr/heritage/heritage/seongsan.htm",
-    "note": "초등학생 기준 관람료 · 원문: 개인 어린이 2,500원 · 수집: prices-jeju.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://www.jeju.go.kr/heritage/heritage/seongsan.htm;https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500349&menuId=DOM_000001707009000000 · 성산일출봉 제주도 공식 요금 페이지를 두 차례 열었으나 아동 가격을 직접 확인하지 못했고 Visit Jeju 공식 안내에도 금액이 없습니다. 과거 요금표는 현행 여부가 확인되지 않아 제외했습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "초등학생 기준 관람료 · 원문: 개인 어린이 2,500원 · 수집: prices-jeju.csv"
   },
   {
     "id": "CJU-AT-003",
@@ -19089,13 +19197,7 @@
     "applied": "2026",
     "sourceName": "제주세계자연유산센터 공식안내",
     "sourceUrl": "https://www.jeju.go.kr/wnhcenter/geology/manjang.htm",
-    "note": "천연기념물 동굴 관람료 (안전점검 재개장 기준) · 원문: 개인 어른 4,000원 · 수집: prices-jeju.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://www.jeju.go.kr/wnhcenter/geology/manjang.htm;https://jeju.go.kr/lifecycle/notice/allnews.htm?act=view&seq=2022374 · 만장굴 제주도 공식 페이지를 열었으나 현재 요금표가 확인되지 않았습니다. 2026년 재개장 관련 제주도 공식 공지도 요금을 게시하지 않습니다. 재개장 전 과거 표의 가격은 사용하지 않았습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "천연기념물 동굴 관람료 (안전점검 재개장 기준) · 원문: 개인 어른 4,000원 · 수집: prices-jeju.csv"
   },
   {
     "id": "CJU-AT-004",
@@ -19119,13 +19221,7 @@
     "applied": "2026",
     "sourceName": "제주세계자연유산센터 공식안내",
     "sourceUrl": "https://www.jeju.go.kr/wnhcenter/geology/manjang.htm",
-    "note": "만 7세 이상~만 12세 이하 어린이 요금 · 원문: 개인 어린이 2,000원 · 수집: prices-jeju.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://www.jeju.go.kr/wnhcenter/geology/manjang.htm;https://jeju.go.kr/lifecycle/notice/allnews.htm?act=view&seq=2022374 · 만장굴 제주도 공식 페이지를 열었으나 현재 어린이 요금표가 확인되지 않았습니다. 2026년 재개장 공지도 요금을 게시하지 않아 과거 요금표는 제외했습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "만 7세 이상~만 12세 이하 어린이 요금 · 원문: 개인 어린이 2,000원 · 수집: prices-jeju.csv"
   },
   {
     "id": "CJU-AT-005",
@@ -22018,8 +22114,8 @@
     "subtype": "미술관",
     "nameKo": "보르게세 미술관 입장권",
     "nameEn": "Borghese Gallery entry ticket",
-    "min": 15,
-    "max": 15,
+    "min": 16,
+    "max": 16,
     "currency": "EUR",
     "unit": "성인 1인",
     "priceType": "고정형",
@@ -22027,17 +22123,11 @@
     "grade": "A",
     "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
-    "checkedAt": "2026-10-03",
+    "checkedAt": "2026-10-09",
     "applied": "2026",
     "sourceName": "Galleria Borghese",
-    "sourceUrl": "https://galleriaborghese.beniculturali.it/en/",
-    "note": "Perplexity 수집. 온라인 예약 필수(출처 목록에 이 주소 없음) · 원문: Full ticket €15.00 · 수집: prices-rome.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://galleriaborghese.beniculturali.it/en/ · 보르게세 미술관 공식 홈페이지를 두 차례 열었으나 오류가 발생했고, 지정 URL에서 현재 일반권 가격을 확인하지 못했습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "sourceUrl": "https://galleriaborghese.cultura.gov.it/en/visita/info-biglietti/",
+    "note": "Perplexity 수집. 온라인 예약 필수(출처 목록에 이 주소 없음) · 교차 검수 반영(2026-10-09): 공식 티켓 안내 FULL PRICE € 16,00 + 예매 수수료 별도, 18세 미만 무료 · 원문: Full ticket €15.00 · 수집: prices-rome.csv"
   },
   {
     "id": "ROM-AT-105",

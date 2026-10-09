@@ -97,7 +97,7 @@
       "pass": 0,
       "ride": 3,
       "meal": 5,
-      "snack": 1,
+      "snack": 3,
       "drink": 3,
       "attraction": 12,
       "souvenir": 3
@@ -106,7 +106,7 @@
       "pass": 0,
       "ride": 3,
       "meal": 5,
-      "snack": 1,
+      "snack": 3,
       "drink": 3,
       "attraction": 12,
       "souvenir": 3
@@ -300,7 +300,7 @@
       "pass": 0,
       "ride": 4,
       "meal": 3,
-      "snack": 2,
+      "snack": 6,
       "drink": 3,
       "attraction": 12,
       "souvenir": 3
@@ -309,7 +309,7 @@
       "pass": 0,
       "ride": 4,
       "meal": 3,
-      "snack": 2,
+      "snack": 6,
       "drink": 3,
       "attraction": 13,
       "souvenir": 3

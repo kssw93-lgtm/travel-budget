@@ -485,6 +485,12 @@ describe('자세히 보기 내역·항목별 예비비·음주', () => {
     close(sum, 67.2, 86.4);
   });
 
+  it('음주 포함 + 주류 표본 2건(3건 미만): 합계에 넣지 않고 주류를 뺐다고 알린다', () => {
+    const e = estimateTrip(trip({ drinks: true }), city, [...baseSamples(), beer(5), beer(6)]);
+    close(e.categories.food.total, 240, 528);
+    expect(e.warnings).toContainEqual({ category: 'food', code: 'basketOmitted', basket: 'drink' });
+  });
+
   it('음주 포함을 골랐지만 주류 표본이 없으면 금액을 만들지 않고 알린다', () => {
     const e = estimateTrip(trip({ drinks: true }), city, baseSamples());
     close(e.categories.food.total, 240, 528);

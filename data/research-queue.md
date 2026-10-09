@@ -17,7 +17,6 @@
 | 오사카 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 방콕 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 다낭 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 다낭 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 타이베이 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 싱가포르 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 파리 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -25,7 +24,6 @@
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 뉴욕 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 뉴욕 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 이스탄불 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 상하이 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 서울 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -102,13 +100,11 @@
 | TYO-AT-021 | 도쿄 | 국립서양미술관 상설전시 18세 미만 무료 입장 | 0 JPY | B | 예 | B등급, 검수: 원문 확인 불가 | [The National Museum of Western Art](https://www.nmwa.go.jp/en/visit/index.html) |
 | OSA-AT-004 | 오사카 | 오사카성 박물관 천수각 입장권 | 1200 JPY | B | 예 | B등급 | [Osaka Castle Museum](https://www.osakacastle.net/guide/?lang=en) |
 | OSA-AT-007 | 오사카 | 오사카 역사박물관 상설전시 입장권 | 600 JPY | B | 예 | B등급 | [Osaka Museum of History](https://www.osakamushis.jp/eng/index.html) |
-| OSA-AT-009 | 오사카 | 덴포잔 대관람차 일반권 | 1000 JPY | A | 예 | 검수: 원문 확인 불가 | [Tempozan Giant Ferris Wheel / Senyo Kogyo](https://tempozan-kanransya.com/tempozan-kanransya.com/ko/) |
 | OSA-AT-010 | 오사카 | 오사카 시립미술관 기획전시 일반 입장권 | 500 JPY | B | 예 | B등급 | [Osaka City Museum of Fine Arts](https://www.osaka-art-museum.jp/information) |
 | OSA-AT-011 | 오사카 | 오사카성 공원 입장 | 0 JPY | B | 예 | B등급, 검수: 원문 확인 불가 | [Osaka Castle Park Center](https://www.osakacastlepark.jp/images/flowers/flowermap/flowermap5/map2026.pdf) |
 | OSA-AT-013 | 오사카 | 오사카성 니시노마루 정원 입장권 | 300 JPY | B | 예 | B등급, 검수: 원문 확인 불가 | [Osaka Castle Park Center](https://www.osakacastlepark.jp/articles/detail.html?id=3) |
 | OSA-AT-014 | 오사카 | 오사카성 박물관 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Osaka Castle Museum](https://www.osakacastle.net/guide/?lang=en) |
 | OSA-AT-018 | 오사카 | 오사카 역사박물관 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Osaka Museum of History](https://www.osakamushis.jp/eng/index.html) |
-| OSA-AT-022 | 오사카 | 덴포잔 대관람차 3세 미만 무료 입장 | 0 JPY | A | 예 | 검수: 원문 확인 불가 | [Tempozan Giant Ferris Wheel / Senyo Kogyo](https://tempozan-kanransya.com/tempozan-kanransya.com/ko/) |
 | OSA-AT-023 | 오사카 | 오사카 시립미술관 기획전시 고등학생·대학생 입장권 | 200 JPY | B | 예 | B등급 | [Osaka City Museum of Fine Arts](https://www.osaka-art-museum.jp/information) |
 | OSA-AT-024 | 오사카 | 오사카 시립미술관 기획전시 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Osaka City Museum of Fine Arts](https://www.osaka-art-museum.jp/information) |
 | OSA-AT-026 | 오사카 | 오사카성 니시노마루 정원 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급, 검수: 원문 확인 불가 | [Osaka Castle Park Center](https://www.osakacastlepark.jp/articles/detail.html?id=3) |
@@ -203,7 +199,7 @@
 | PUS-AT-105 | 부산 | 국립부산과학관 상설전시관 입장권 (성인) | 3000 KRW | A | 예 | 재검증 | [국립부산과학관](https://www.sciport.or.kr/kor/CMS/Contents/Contents.do?mCode=MN129) |
 | CJU-AT-101 | 제주 | 제주민속촌 입장권 (성인) | 15000 KRW | A | 예 | 재검증 | [제주민속촌 공식 요금 안내](https://jejufolk.com/m/pages.php?p=3_1_1_1) |
 | CJU-AT-111 | 제주 | 제주민속촌 입장권 (어린이) | 11000 KRW | A | 예 | 재검증 | [제주민속촌 공식 요금 안내](https://jejufolk.com/m/pages.php?p=3_1_1_1) |
-| CJU-AT-102 | 제주 | 아르떼뮤지엄 제주 입장권 (성인) | 18000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [아르떼뮤지엄 제주 공식 요금 안내](https://kr.artemuseum.com/jeju) |
+| CJU-AT-102 | 제주 | 아르떼뮤지엄 제주 입장권 (성인) | 18000 KRW | A | 예 | 재검증 | [아르떼뮤지엄 제주 공식 요금 안내](https://kr.artemuseum.com/jeju) |
 | CJU-AT-103 | 제주 | 김창열미술관 입장권 (성인) | 2000 KRW | A | 예 | 재검증 | [제주특별자치도 김창열미술관](https://kimtschang-yeul.jeju.go.kr/cnt/cntManagerView.do?idx=12&menuNum=7200) |
 | CJU-AT-114 | 제주 | 김창열미술관 입장권 (어린이) | 500 KRW | A | 예 | 재검증 | [제주특별자치도 김창열미술관](https://kimtschang-yeul.jeju.go.kr/cnt/cntManagerView.do?idx=12&menuNum=7200) |
 | CJU-AT-104 | 제주 | 제주돌문화공원 입장권 (성인) | 5000 KRW | A | 예 | 재검증 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=351&vcontsId=76736) |
@@ -223,7 +219,7 @@
 | BCN-FD-205 | 바르셀로나 | 킹 커피 카푸치노 | 3.2 EUR | A | 예 | 재검증 | [King Coffee Barcelona](https://kingcoffee.es/es_es/) |
 | BCN-TR-001 | 바르셀로나 | 지하철 단일 승차권 | 2.9 EUR | A | 예 | 재검증 | [TMB Transports Metropolitans de Barcelona](https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares) |
 | BCN-TR-002 | 바르셀로나 | 버스 단일 승차권 | 2.9 EUR | A | 예 | 재검증 | [TMB Transports Metropolitans de Barcelona](https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares) |
-| BCN-TR-003 | 바르셀로나 | 트램 단일 승차권 | 2.9 EUR | A | 예 | 재검증, 검수: 원문 확인 불가 | [TMB Transports Metropolitans de Barcelona](https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares) |
+| BCN-TR-003 | 바르셀로나 | 트램 단일 승차권 | 2.9 EUR | A | 예 | 재검증 | [TMB Transports Metropolitans de Barcelona](https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares) |
 | BCN-TR-004 | 바르셀로나 | T-dia 1일 무제한 승차권 | 12 EUR | A | 예 | 재검증 | [TMB Transports Metropolitans de Barcelona](https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares) |
 | BCN-FD-008 | 바르셀로나 | 가라지 바 스페인 와인 1잔 | 6 EUR | A | 예 | 재검증 | [Garage Bar Barcelona](https://garagebar.cat/natural-wines-menu3/) |
 | BCN-FD-009 | 바르셀로나 | 카사 모리츠 와인 상그리아 1잔 | 5.75 EUR | A | 예 | 재검증 | [Casa Moritz Barcelona](https://casamoritz.cat/wp-content/uploads/2025/09/AF-CM_CARTES-BEGUDES_JUN25_ENG_compressed.pdf) |
@@ -277,6 +273,12 @@
 | PUS-AT-008 | 부산 | 스카이라인 루지 부산 스카이라이드+루지 3회 콤보 (1인) | 36000 KRW | A | 예 | 재검증 | [스카이라인루지 부산 공식홈페이지](https://busan.skylineluge.kr/hyfly/pricing-packages) |
 | PUS-AT-009 | 부산 | SEA LIFE 부산아쿠아리움 입장권 (대인) | 30000 KRW | A | 예 | 재검증 | [씨라이프 부산아쿠아리움 공식홈페이지](https://www.visitsealife.com/busan/tickets-passes/book-tickets/admission-qr/) |
 | PUS-AT-010 | 부산 | 부산시립박물관 상설전시 | 0 KRW | A | 예 | 재검증 | [부산박물관 공식홈페이지](https://museum.busan.go.kr/busan/viewinfo01) |
+| DAD-SN-904 | 다낭 | 하이랜드 커피 반미 꿰(파테) | 19000 VND | A | 예 | 재검증 | [Highlands Coffee](https://www.highlandscoffee.com.vn/vn/banh-mi-que.html) |
+| DAD-SN-905 | 다낭 | 하이랜드 커피 핀 쓰어 다(S) | 29000 VND | A | 예 | 재검증 | [Highlands Coffee](https://www.highlandscoffee.com.vn/vn/phin-sua.html) |
+| NYC-SN-906 | 뉴욕 | 그레이스 파파야 핫도그 | 3.25 USD | A | 예 | 재검증 | [Gray's Papaya](https://grayspapaya.nyc/uptown-menu/) |
+| NYC-SN-907 | 뉴욕 | 그레이스 파파야 트로피컬 드링크 미디엄 | 3 USD | A | 예 | 재검증 | [Gray's Papaya](https://grayspapaya.nyc/uptown-menu/) |
+| NYC-SN-908 | 뉴욕 | 그레이스 파파야 생수 | 1.5 USD | A | 예 | 재검증 | [Gray's Papaya](https://grayspapaya.nyc/uptown-menu/) |
+| NYC-SN-910 | 뉴욕 | 로스 타코스 No.1 칩스 이 살사 | 4.75 USD | A | 예 | 재검증 | [Los Tacos No. 1](https://www.lostacos1.com/menus/) |
 | TYO-SN-830 | 도쿄 | 스타벅스 카페 아메리카노 Tall | 490 JPY | A | 예 | 재검증 | [스타벅스 커피 재팬](https://menu.starbucks.co.jp/4524785000315) |
 | TYO-SN-831 | 도쿄 | 스타벅스 라테 Tall | 500 JPY | A | 예 | 재검증 | [스타벅스 커피 재팬](https://menu.starbucks.co.jp/4524785000223) |
 | TYO-SN-832 | 도쿄 | 털리스 카페 아메리카노 Tall | 450 JPY | A | 예 | 재검증 | [털리스 커피 재팬](https://www.tullys.co.jp/menu/drink/coffee/es_americano.html) |
@@ -444,10 +446,10 @@
 | CJU-SV-001 | 제주 | 제주 마음샌드 (10개입) | 16000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [파리바게뜨 파바앱 공식 예약](https://www.paris.co.kr/) |
 | CJU-SV-002 | 제주 | 제주 감귤 초콜릿 선물세트 | 10000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [이제주숍 공식 특산물 온라인몰](https://mall.ejeju.net/) |
 | CJU-SV-003 | 제주 | 돌하르방 현무암 감귤 마그넷 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [제주기념품점 공식 안내](https://map.naver.com/p/entry/place/11624838) |
-| CJU-AT-001 | 제주 | 성산일출봉 유료관람권 (성인) | 5000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [제주세계유산축전 성산일출봉 공식안내](https://www.jeju.go.kr/heritage/heritage/seongsan.htm) |
-| CJU-AT-002 | 제주 | 성산일출봉 유료관람권 (어린이) | 2500 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [제주세계유산축전 성산일출봉 공식안내](https://www.jeju.go.kr/heritage/heritage/seongsan.htm) |
-| CJU-AT-003 | 제주 | 만장굴 입장료 (어른) | 4000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [제주세계자연유산센터 공식안내](https://www.jeju.go.kr/wnhcenter/geology/manjang.htm) |
-| CJU-AT-004 | 제주 | 만장굴 입장료 (어린이) | 2000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [제주세계자연유산센터 공식안내](https://www.jeju.go.kr/wnhcenter/geology/manjang.htm) |
+| CJU-AT-001 | 제주 | 성산일출봉 유료관람권 (성인) | 5000 KRW | A | 예 | 재검증 | [제주세계유산축전 성산일출봉 공식안내](https://www.jeju.go.kr/heritage/heritage/seongsan.htm) |
+| CJU-AT-002 | 제주 | 성산일출봉 유료관람권 (어린이) | 2500 KRW | A | 예 | 재검증 | [제주세계유산축전 성산일출봉 공식안내](https://www.jeju.go.kr/heritage/heritage/seongsan.htm) |
+| CJU-AT-003 | 제주 | 만장굴 입장료 (어른) | 4000 KRW | A | 예 | 재검증 | [제주세계자연유산센터 공식안내](https://www.jeju.go.kr/wnhcenter/geology/manjang.htm) |
+| CJU-AT-004 | 제주 | 만장굴 입장료 (어린이) | 2000 KRW | A | 예 | 재검증 | [제주세계자연유산센터 공식안내](https://www.jeju.go.kr/wnhcenter/geology/manjang.htm) |
 | CJU-AT-005 | 제주 | 아쿠아플라넷 제주 종합권 (대인) | 45500 KRW | A | 예 | 재검증 | [아쿠아플라넷 제주 공식홈페이지](https://www.aquaplanet.co.kr/jeju/information/use_price.do;https://www.aquaplanet.co.kr/jeju/eng/information/use_price.do) |
 | CJU-AT-006 | 제주 | 아쿠아플라넷 제주 종합권 (어린이) | 41400 KRW | A | 예 | 재검증 | [아쿠아플라넷 제주 공식홈페이지](https://www.aquaplanet.co.kr/jeju/information/use_price.do;https://www.aquaplanet.co.kr/jeju/eng/information/use_price.do) |
 | CJU-AT-007 | 제주 | 신화테마파크 자유이용권 (1인) | 30000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [제주신화월드 공식홈페이지](https://www.shinhwaworld.com/park.php?url_lang=ko_KR) |
@@ -561,7 +563,7 @@
 | ROM-FD-303 | 로마 | 라 사피엔자 대학 바 프로세코 1잔 | 2.5 EUR | A | 예 | 재검증 | [La Sapienza Bar Marco Polo](https://www.uniroma1.it/sites/default/files/user/531/listino_prezzi_bar_marco_polo.pdf) |
 | ROM-AT-101 | 로마 | 콜로세움·포로 로마노·팔라티노 통합 입장권 | 18 EUR | A | 예 | 재검증, 검수: 요금 확인 필요 | [CoopCulture](https://colosseo.it/en/tickets/colosseum-roman-forum-palatine/) |
 | ROM-AT-102 | 로마 | 바티칸 박물관·시스티나 성당 입장권 | 20~25 EUR | A | 예 | 재검증 | [Vatican Museums](https://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti.html) |
-| ROM-AT-104 | 로마 | 보르게세 미술관 입장권 | 15 EUR | A | 예 | 재검증, 검수: 원문 확인 불가 | [Galleria Borghese](https://galleriaborghese.beniculturali.it/en/) |
+| ROM-AT-104 | 로마 | 보르게세 미술관 입장권 | 16 EUR | A | 예 | 재검증 | [Galleria Borghese](https://galleriaborghese.cultura.gov.it/en/visita/info-biglietti/) |
 | ROM-AT-105 | 로마 | 산탄젤로 성 입장권 | 18 EUR | A | 예 | 재검증 | [Castel Sant'Angelo](http://castelsantangelo.beniculturali.it/getFile.php?id=538) |
 | SEL-FD-101 | 서울 | 한솥 제육 비빔밥 | 6500 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [HANSOT 한솥](https://en.hsd.co.kr/Menu) |
 | SEL-FD-102 | 서울 | 한솥 김치볶음밥 | 4400 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [HANSOT 한솥](https://en.hsd.co.kr/Menu) |
@@ -572,5 +574,5 @@
 
 ## 4. 교차 검수 현황
 
-`data/reviews/*.csv` 에서 읽은 판정: 일치 583건 · 불일치 41건 · 확인불가 193건.
+`data/reviews/*.csv` 에서 읽은 판정: 일치 591건 · 불일치 42건 · 확인불가 184건.
 아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

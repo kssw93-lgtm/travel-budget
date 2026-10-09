@@ -419,6 +419,34 @@
     "missing": [],
     "computable": true
   },
+  "hong-kong": {
+    "counts": {
+      "food": 6,
+      "transport": 3,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 1,
+      "ride": 3,
+      "meal": 6,
+      "snack": 4,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 1,
+      "ride": 3,
+      "meal": 6,
+      "snack": 4,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "seoul": {
     "counts": {
       "food": 17,

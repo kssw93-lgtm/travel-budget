@@ -1607,6 +1607,80 @@
     "note": "Claude 초안(2026-10-09)"
   },
   {
+    "cityId": "hong-kong",
+    "nameKo": "완탕면",
+    "nameEn": "Wonton Noodles",
+    "reason": "새우 완탕과 가는 달걀면을 맑은 국물에 말아 내는 홍콩 대표 국수",
+    "reasonEn": "Hong Kong's classic noodle soup",
+    "desc": {
+      "ko": "탱탱한 새우 완탕과 가는 달걀면을 새우·건어물로 우린 맑은 국물에 말아 내는 홍콩 대표 국수",
+      "en": "Hong Kong's signature noodle soup: plump shrimp wontons and thin egg noodles in a clear broth",
+      "ja": "プリプリの海老ワンタンと細い卵麺を澄んだスープで。香港を代表する麺料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-09)"
+  },
+  {
+    "cityId": "hong-kong",
+    "nameKo": "차슈 덮밥",
+    "nameEn": "Char Siu Rice",
+    "reason": "꿀을 발라 구운 돼지고기를 밥 위에 올린 홍콩식 구운 고기 덮밥",
+    "reasonEn": "The everyday Cantonese roast-meat meal",
+    "desc": {
+      "ko": "꿀·간장 양념을 발라 구운 돼지고기(차슈)를 밥 위에 올린 홍콩 식당의 기본 메뉴",
+      "en": "Honey-glazed Cantonese barbecue pork sliced over rice, a staple of Hong Kong roast-meat shops",
+      "ja": "蜂蜜だれで焼いた叉焼をご飯にのせた、香港の焼味店の定番"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "HKG-FD-101"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-09)"
+  },
+  {
+    "cityId": "hong-kong",
+    "nameKo": "딤섬",
+    "nameEn": "Dim Sum",
+    "reason": "하가우·씨우마이 등 작은 찜 요리를 차와 함께 먹는 광둥식 아침·점심",
+    "reasonEn": "Cantonese tea-house dining",
+    "desc": {
+      "ko": "새우 하가우·씨우마이·창펀 등 작은 찜·튀김 요리를 차와 함께 나눠 먹는 광둥식 식사",
+      "en": "Cantonese small plates such as har gow, siu mai and rice rolls, shared over tea",
+      "ja": "ハーガウ、シューマイ、腸粉など小皿の点心をお茶と一緒に楽しむ広東式の食事"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-09)"
+  },
+  {
+    "cityId": "hong-kong",
+    "nameKo": "에그타르트",
+    "nameEn": "Egg Tart",
+    "reason": "바삭한 페이스트리에 부드러운 달걀 커스터드를 채운 홍콩 빵집 간식",
+    "reasonEn": "Hong Kong's favorite bakery snack",
+    "desc": {
+      "ko": "바삭한 페이스트리나 쿠키 반죽에 부드러운 달걀 커스터드를 채운 홍콩 빵집 간식",
+      "en": "Flaky or shortcrust pastry filled with silky egg custard, a Hong Kong bakery classic",
+      "ja": "サクサクの生地になめらかな卵カスタードを詰めた、香港のベーカリーの定番"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-09)"
+  },
+  {
     "cityId": "seoul",
     "nameKo": "설렁탕",
     "nameEn": "Seolleongtang",

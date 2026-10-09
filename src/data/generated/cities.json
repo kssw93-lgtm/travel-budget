@@ -110,16 +110,6 @@
     "stage": "2차"
   },
   {
-    "id": "hong-kong",
-    "country": "중국 홍콩",
-    "countryEn": "Hong Kong",
-    "nameKo": "홍콩",
-    "nameEn": "Hong Kong",
-    "currency": "HKD",
-    "tier": "B",
-    "stage": "2차"
-  },
-  {
     "id": "kuala-lumpur",
     "country": "말레이시아",
     "countryEn": "Malaysia",
@@ -206,6 +196,16 @@
     "nameKo": "후쿠오카",
     "nameEn": "Fukuoka",
     "currency": "JPY",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "hong-kong",
+    "country": "중국 홍콩",
+    "countryEn": "Hong Kong",
+    "nameKo": "홍콩",
+    "nameEn": "Hong Kong",
+    "currency": "HKD",
     "tier": "B",
     "stage": "파일럿"
   },

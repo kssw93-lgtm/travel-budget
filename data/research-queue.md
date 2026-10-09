@@ -28,6 +28,7 @@
 | 이스탄불 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 상하이 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 후쿠오카 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 홍콩 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 서울 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 부산 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 제주 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -443,6 +444,31 @@
 | ROM-TR-801 | 로마 | ATAC BIRG 로마 구역 A 지역 통합 1일권 | 7.2 EUR | A | 예 | 재검증 | [ATAC](https://www.atac.roma.it/en/tickets-and-passes/birg) |
 | SIN-SN-801 | 싱가포르 | FairPrice 오리지널 감자칩 60g | 1.2 SGD | A | 예 | 재검증 | [NTUC FairPrice](https://www.fairprice.com.sg/product/fairprice-potato-chips-original-60g-13207660) |
 | SIN-SN-802 | 싱가포르 | Mitsuya 맛 비스킷 스틱 40g | 1.9 SGD | A | 예 | 재검증 | [NTUC FairPrice](https://www.fairprice.com.sg/product/491837) |
+| HKG-FD-101 | 홍콩 | 페어우드 구이고기 덮밥(1종)+따뜻한 음료 | 53 HKD | A | 예 | 재검증 | [Fairwood 大快活 공식](https://www.fairwood.com.hk/en/food_menus) |
+| HKG-FD-102 | 홍콩 | 페어우드 하이난 치킨라이스 세트 | 59 HKD | A | 예 | 재검증 | [Fairwood 大快活 공식](https://www.fairwood.com.hk/en/food_menus) |
+| HKG-FD-103 | 홍콩 | 프리츠 리치맨스 버거(감자튀김 포함) | 195 HKD | A | 예 | 재검증 | [FRITES Belgium on Tap 공식 메뉴 PDF](https://frites.com/wp-content/uploads/2026/03/FHK_ALC_2026.pdf) |
+| HKG-FD-104 | 홍콩 | 프리츠 피시 버거(감자튀김 포함) | 175 HKD | A | 예 | 재검증 | [FRITES Belgium on Tap 공식 메뉴 PDF](https://frites.com/wp-content/uploads/2026/03/FHK_ALC_2026.pdf) |
+| HKG-FD-105 | 홍콩 | 더 글로브 브리티시 비프 버거(칩스 포함) | 195 HKD | A | 예 | 재검증 | [The Globe 공식 (A La Carte 메뉴 이미지)](https://www.theglobe.com.hk/a-la-carte) |
+| HKG-FD-106 | 홍콩 | 더 글로브 피시 앤 칩스(해덕) | 195 HKD | A | 예 | 재검증 | [The Globe 공식 (A La Carte 메뉴 이미지)](https://www.theglobe.com.hk/a-la-carte) |
+| HKG-TR-101 | 홍콩 | MTR 1회권 센트럴–침사추이(성인) | 12.5 HKD | A | 예 | 재검증 | [MTR 공식 오픈데이터 (mtr_lines_fares.csv)](https://opendata.mtr.com.hk/data/mtr_lines_fares.csv) |
+| HKG-TR-102 | 홍콩 | MTR 1회권 센트럴–침사추이(어린이) | 5.5 HKD | A | 예 | 재검증 | [MTR 공식 오픈데이터 (mtr_lines_fares.csv)](https://opendata.mtr.com.hk/data/mtr_lines_fares.csv) |
+| HKG-SN-101 | 홍콩 | 페어우드 따뜻한 밀크티 | 12 HKD | A | 예 | 재검증 | [Fairwood 大快活 공식](https://www.fairwood.com.hk/en/food_menus) |
+| HKG-AL-101 | 홍콩 | 프리츠 스텔라 아르투아 생맥주 400ml | 100 HKD | A | 예 | 재검증 | [FRITES Belgium on Tap 공식 음료 메뉴 PDF](https://frites.com/wp-content/uploads/2025/08/2025-06-FR-Drinks-Magazine-WEB-Small-16-39.pdf) |
+| HKG-AL-102 | 홍콩 | 프리츠 레페 블론드 330ml | 100 HKD | A | 예 | 재검증 | [FRITES Belgium on Tap 공식 음료 메뉴 PDF](https://frites.com/wp-content/uploads/2025/08/2025-06-FR-Drinks-Magazine-WEB-Small-16-39.pdf) |
+| HKG-AL-103 | 홍콩 | 웰컴 칭다오 생맥주 병 640ml | 9.9 HKD | A | 예 | 재검증 | [Wellcome 惠康 공식 온라인몰](https://www.wellcome.com.hk/en/p/Tsing%20Tao%20Large%20Bottle%20Draft%20Beer%20640ML/i/101324246.html) |
+| HKG-TR-001 | 홍콩 | 스타페리 센트럴–침사추이(성인) | 4~6.5 HKD | A | 예 | 재검증 | [Star Ferry](https://www.starferry.com.hk/en/service) |
+| HKG-TR-002 | 홍콩 | 스타페리 센트럴–침사추이(어린이) | 2.8~3.9 HKD | A | 예 | 재검증 | [Star Ferry](https://www.starferry.com.hk/en/service) |
+| HKG-TR-003 | 홍콩 | 홍콩 트램(딩딩) 1회 승차 | 3.3 HKD | A | 예 | 재검증 | [Hong Kong Tramways](https://www.hktramways.com/en/schedules-fares) |
+| HKG-TR-004 | 홍콩 | 홍콩 트램(딩딩) 1회 승차(어린이) | 1.6 HKD | A | 예 | 재검증 | [Hong Kong Tramways](https://www.hktramways.com/en/schedules-fares) |
+| HKG-TR-005 | 홍콩 | MTR 관광객 1일권(성인) | 75 HKD | A | 예 | 재검증 | [MTR](https://www.mtr.com.hk/en/customer/tickets/day_pass_tourist.html) |
+| HKG-SN-001 | 홍콩 | 코카콜라 캔 330ml (웰컴) | 5 HKD | A | 예 | 재검증 | [Wellcome](https://www.wellcome.com.hk/en/p/Coco%20Cola%20Tall%20Can%20Single%20330ML/i/101343015.html) |
+| HKG-SN-002 | 홍콩 | 보나쿠아 생수 500ml (웰컴) | 6 HKD | A | 예 | 재검증 | [Wellcome](https://www.wellcome.com.hk/en/p/Bonaqua%20Mineralized%20Water%20500ML/i/101325449.html) |
+| HKG-SN-003 | 홍콩 | 비타 레몬티 500ml (웰컴) | 9.5 HKD | A | 예 | 재검증 | [Wellcome](https://www.wellcome.com.hk/en/p/Vita%20Lemon%20Tea%20Bottle%20500ML/i/101346707.html) |
+| HKG-AT-001 | 홍콩 | 옹핑 360 케이블카 스탠다드 왕복(성인) | 295 HKD | A | 예 | 재검증 | [Ngong Ping 360](https://www.np360.com.hk/en/tickets-promotions/tickets-tours/other-tickets/single-round-trip-cable-car-ticket) |
+| HKG-AT-002 | 홍콩 | 옹핑 360 케이블카 스탠다드 왕복(어린이) | 150 HKD | A | 예 | 재검증 | [Ngong Ping 360](https://www.np360.com.hk/en/tickets-promotions/tickets-tours/other-tickets/single-round-trip-cable-car-ticket) |
+| HKG-AT-003 | 홍콩 | 오션파크 일반 입장권(성인) | 538 HKD | A | 예 | 재검증 | [Ocean Park Hong Kong](https://www.oceanpark.com.hk/en/ticket-offer) |
+| HKG-AT-004 | 홍콩 | 오션파크 일반 입장권(어린이) | 269 HKD | A | 예 | 재검증 | [Ocean Park Hong Kong](https://www.oceanpark.com.hk/en/ticket-offer) |
+| HKG-AT-005 | 홍콩 | 홍콩 예술관 상설 관람(무료) | 0 HKD | A | 예 | 재검증 | [Hong Kong Museum of Art](https://hk.art.museum/en/web/ma/visit/opening-hours-and-admission.html) |
 | CJU-FD-760 | 제주 | 소산도 우도흑돼지 안심카츠 | 17000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-761 | 제주 | 소산도 흑돼지 우도 등심카츠 | 16000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-762 | 제주 | 제주식 고사리해장국 | 11000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 제주고사리해장국 중문](https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8) |

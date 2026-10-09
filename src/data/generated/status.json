@@ -223,6 +223,34 @@
     "missing": [],
     "computable": true
   },
+  "cebu": {
+    "counts": {
+      "food": 3,
+      "transport": 4,
+      "attraction": 4
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 3,
+      "snack": 4,
+      "drink": 2,
+      "attraction": 4,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 3,
+      "snack": 4,
+      "drink": 2,
+      "attraction": 6,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "barcelona": {
     "counts": {
       "food": 6,

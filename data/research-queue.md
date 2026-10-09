@@ -21,6 +21,7 @@
 | 싱가포르 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 파리 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 런던 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 세부 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 뉴욕 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -273,6 +274,29 @@
 | PUS-AT-008 | 부산 | 스카이라인 루지 부산 스카이라이드+루지 3회 콤보 (1인) | 36000 KRW | A | 예 | 재검증 | [스카이라인루지 부산 공식홈페이지](https://busan.skylineluge.kr/hyfly/pricing-packages) |
 | PUS-AT-009 | 부산 | SEA LIFE 부산아쿠아리움 입장권 (대인) | 30000 KRW | A | 예 | 재검증 | [씨라이프 부산아쿠아리움 공식홈페이지](https://www.visitsealife.com/busan/tickets-passes/book-tickets/admission-qr/) |
 | PUS-AT-010 | 부산 | 부산시립박물관 상설전시 | 0 KRW | A | 예 | 재검증 | [부산박물관 공식홈페이지](https://museum.busan.go.kr/busan/viewinfo01) |
+| CEB-TR-201 | 세부 | MyBus BDO 푸엔테–SM 시사이드 노선 | 30 PHP | A | 예 | 재검증 | [SM Seaside City Cebu (Official) 페이스북](https://www.facebook.com/smsscitycebu/posts/smannouncements-starting-august-1-2026-thebdo-fuente-sm-seaside-free-mybus-ride-/1464930125660351/) |
+| CEB-TR-202 | 세부 | MyBus 1번 노선 파크몰–SM 시사이드 | 30 PHP | A | 조건부 | 조건부, 재검증 | [MyBus 공식 페이스북](https://www.facebook.com/MyBusPH/posts/hello-mybusers-regular-bus-operations-resume-check-out-passenger-fare-schedules-/841015011159123/) |
+| CEB-AT-201 | 세부 | 무세오 수그보 일반 입장료 | 50 PHP | A | 예 | 재검증 | [Cebu Province 공식 페이스북](https://www.facebook.com/cebugovph/posts/museo-sugbo-reopens-on-august-29-2025-and-were-ready-to-welcome/1183292743825210/) |
+| CEB-AT-202 | 세부 | 무세오 수그보 학생·경로·장애인 입장료 | 25 PHP | A | 예 | 재검증 | [Cebu Province 공식 페이스북](https://www.facebook.com/cebugovph/posts/museo-sugbo-reopens-on-august-29-2025-and-were-ready-to-welcome/1183292743825210/) |
+| CEB-AT-203 | 세부 | 카사 고로르도 박물관 일반(앱 기반 투어) | 100 PHP | A | 예 | 재검증 | [Casa Gorordo Museum 공식 페이스북](https://www.facebook.com/casagorordomuseum/posts/uncover-the-beauty-of-cebus-heritage-at-casa-gorordo-museum-choose-between-guide/1225711243072090/) |
+| CEB-AT-204 | 세부 | 카사 고로르도 박물관 학생(앱 기반 투어) | 50 PHP | A | 예 | 재검증 | [Casa Gorordo Museum 공식 페이스북](https://www.facebook.com/casagorordomuseum/posts/uncover-the-beauty-of-cebus-heritage-at-casa-gorordo-museum-choose-between-guide/1225711243072090/) |
+| CEB-AT-101 | 세부 | 세부 오션파크 입장권(정가) | 800~1000 PHP | A | 예 | 재검증 | [Cebu Ocean Park](https://www.cebuoceanpark.com/tickets-and-hours/) |
+| CEB-AT-102 | 세부 | 세부 사파리 투어 익스피리언스 | 1200 PHP | A | 예 | 재검증 | [Cebu Safari & Adventure Park](https://www.cebusafari.ph/) |
+| CEB-FD-101 | 세부 | 카사 베르데 미트소스 스파게티 | 265 PHP | A | 예 | 재검증 | [Casa Verde](https://www.casaverde.ph/menu) |
+| CEB-FD-102 | 세부 | 카사 베르데 브라이언스 립(솔로) | 328 PHP | A | 예 | 재검증 | [Casa Verde](https://www.casaverde.ph/menu) |
+| CEB-FD-103 | 세부 | 카사 베르데 포크 스테이크 | 464 PHP | A | 예 | 재검증 | [Casa Verde](https://www.casaverde.ph/menu) |
+| CEB-SN-201 | 세부 | 카사 베르데 캔 탄산음료 | 90 PHP | A | 예 | 재검증 | [Casa Verde](https://www.casaverde.ph/menu) |
+| CEB-SN-202 | 세부 | 카사 베르데 생수 | 55 PHP | A | 예 | 재검증 | [Casa Verde](https://www.casaverde.ph/menu) |
+| CEB-SN-203 | 세부 | 카사 베르데 아메리카노 | 110 PHP | A | 예 | 재검증 | [Casa Verde](https://www.casaverde.ph/menu) |
+| CEB-AL-301 | 세부 | 카사 베르데 산미구엘 페일 필젠 | 90 PHP | A | 예 | 재검증 | [Casa Verde](https://www.casaverde.ph/menu) |
+| CEB-AL-302 | 세부 | 카사 베르데 산미구엘 라이트 | 100 PHP | A | 예 | 재검증 | [Casa Verde](https://www.casaverde.ph/menu) |
+| CEB-TR-101 | 세부 | 지프니(일반형) 기본요금(첫 4km) | 14 PHP | A | 조건부 | 조건부, 재검증 | [LTFRB(필리핀 육상교통규제위원회) PUJ 요금표](https://ltfrb.gov.ph/fare-rates) |
+| CEB-TR-102 | 세부 | 지프니(에어컨·전기 모던형) 기본요금(첫 4km) | 17 PHP | A | 조건부 | 조건부, 재검증 | [LTFRB(필리핀 육상교통규제위원회) PUJ 요금표](https://ltfrb.gov.ph/fare-rates) |
+| CEB-FD-104 | 세부 | 세븐 파레스 소고기 파레스 라이스 | 95 PHP | A | 조건부 | 조건부, 재검증 | [7 Pares Cebu](https://www.7pares.com/) |
+| CEB-FD-105 | 세부 | 세븐 파레스 파레스 오버로드 | 155 PHP | A | 조건부 | 조건부, 재검증 | [7 Pares Cebu](https://www.7pares.com/) |
+| CEB-FD-106 | 세부 | 이파르스 파에야 네그라 (싱글) | 500 PHP | A | 조건부 | 조건부, 재검증 | [Ipar's Authentic Spanish Restaurant](https://www.ipars.com.ph/menu/) |
+| CEB-FD-107 | 세부 | 이파르스 하우스 파에야 (싱글) | 650 PHP | A | 조건부 | 조건부, 재검증 | [Ipar's Authentic Spanish Restaurant](https://www.ipars.com.ph/menu/) |
+| CEB-SN-303 | 세부 | 7 파레스 생수 500ml | 30 PHP | A | 예 | 재검증 | [7 Pares Cebu](https://www.7pares.com/) |
 | DAD-SN-904 | 다낭 | 하이랜드 커피 반미 꿰(파테) | 19000 VND | A | 예 | 재검증 | [Highlands Coffee](https://www.highlandscoffee.com.vn/vn/banh-mi-que.html) |
 | DAD-SN-905 | 다낭 | 하이랜드 커피 핀 쓰어 다(S) | 29000 VND | A | 예 | 재검증 | [Highlands Coffee](https://www.highlandscoffee.com.vn/vn/phin-sua.html) |
 | NYC-SN-906 | 뉴욕 | 그레이스 파파야 핫도그 | 3.25 USD | A | 예 | 재검증 | [Gray's Papaya](https://grayspapaya.nyc/uptown-menu/) |

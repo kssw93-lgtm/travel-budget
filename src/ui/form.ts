@@ -26,6 +26,9 @@ export interface FormState {
   attractions: string[];
   /** 음주 비용 포함(성인) */
   drinks: boolean;
+  /** 쇼핑·선물 예산 포함 여부와 예정 금액(표시 통화, 여행 전체·일행 전체). 가격 표본으로 추정하지 않고 입력한 금액만 더한다 */
+  shopping: boolean;
+  shoppingAmount: string;
   /** 고른 공항↔시내 이동 상품 ID(없으면 '') 와 횟수('1' 편도, '2' 왕복) */
   airport: string;
   airportTrips: '1' | '2';
@@ -39,13 +42,12 @@ export interface FormState {
   passId: string;
   /** 자세히 설정: 하루 끼니 수(비우면 기본) */
   mealsPerDay: string;
-  /** 자세히 설정: 꼭 먹을 음식 */
   /** 자세히 설정(음주): 성인 1인 하루 잔 수(비우면 스타일 기본)와 마실 술 */
   drinksPerDay: string;
   drinkPicks: MustEatInput[];
 }
 
-export type FieldError = 'date' | 'nights' | 'adults' | 'children' | 'flight' | 'lodging' | 'rentalDays' | 'ridesPerDay' | 'transitDays' | 'drinkPicks';
+export type FieldError = 'date' | 'nights' | 'adults' | 'children' | 'flight' | 'lodging' | 'shoppingAmount' | 'rentalDays' | 'ridesPerDay' | 'transitDays' | 'drinkPicks';
 
 /** 자세히 설정의 입력 한도 */
 export const PLAN_LIMITS = { ridesMax: 20, mustEatMax: 10, nameMax: 40 } as const;
@@ -54,6 +56,8 @@ export interface ParsedForm {
   trip: TripInput | null;
   /** 직접 입력한 항공권·숙박 합계(입력 통화). 비워두면 0 */
   direct: { flight: number; lodging: number };
+  /** 쇼핑·선물 예산(표시 통화). 체크하지 않았거나 비우면 0 */
+  shopping: number;
   errors: Partial<Record<FieldError, true>>;
 }
 
@@ -81,6 +85,8 @@ export function parseForm(f: FormState): ParsedForm {
   if (!(children >= 0 && children <= L.childrenMax)) errors.children = true;
   if (Number.isNaN(flight)) errors.flight = true;
   if (Number.isNaN(lodging)) errors.lodging = true;
+  const shopping = f.shopping ? toAmount(f.shoppingAmount) : 0;
+  if (Number.isNaN(shopping)) errors.shoppingAmount = true;
   const rentalDays = f.rentalDays.trim() === '' ? nights : toInt(f.rentalDays);
   if (f.rental && !(rentalDays >= 1 && rentalDays <= L.nightsMax + 1)) errors.rentalDays = true;
 
@@ -119,6 +125,7 @@ export function parseForm(f: FormState): ParsedForm {
           ...(f.drinks && drinksPerDay >= 0 && drinksPerDay <= 10 ? { drinksPerDay } : {}),
           ...(f.drinks && drinkPicks.length ? { drinkPicks } : {}) } : null,
     direct: { flight: errors.flight ? 0 : flight, lodging: errors.lodging ? 0 : lodging },
+    shopping: errors.shoppingAmount ? 0 : shopping,
     errors,
   };
 }

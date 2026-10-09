@@ -8,7 +8,7 @@ import { endpoints, independentCount, poolOnDate, selectUsable, styleRange } fro
 import type {
   Basket,
   BasketEstimate,
-  Category,
+  CostCategory,
   CategoryEstimate,
   City,
   DetailLine,
@@ -74,7 +74,7 @@ interface BasketRun {
 const clampRange = (r: Range, cap: number): Range => ({ min: Math.min(r.min, cap), max: Math.min(r.max, cap) });
 
 /** 사용한 표본의 품질 경고(조건부·C등급·재검증·시작가·변동 가격·세금 별도·관광 탑승) */
-export function qualityWarnings(category: Category, rows: Classified[]): Warning[] {
+export function qualityWarnings(category: CostCategory, rows: Classified[]): Warning[] {
   const out: Warning[] = [];
   const pick = (f: (r: Classified) => boolean) => [...new Set(rows.filter(f).map((r) => r.sample.id))];
   const flag = (code: Warning['code'], ids: string[]) => {
@@ -167,15 +167,7 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
   };
 
   let total: Range = ZERO;
-  if (basket === 'souvenir') {
-    // 기념품은 여행 전체 기준: 성인 1인당 구매 개수 × 단가(어린이는 구매하지 않는 것으로 가정)
-    const unit = priceDay(adultRows, dates[0] as string, MODEL.minSamplesPerCategory);
-    if (!unit) run.sufficient = false;
-    else {
-      total = scale(unit, perUse * input.adults);
-      run.lines.push({ kind: 'trip', basket, units: perUse * input.adults, unitPrice: unit, total });
-    }
-  } else {
+  {
     const useDates = opts.days === undefined ? dates : dates.slice(0, Math.max(0, Math.min(dates.length, opts.days)));
     for (const [i, date] of useDates.entries()) {
       const adult = personDay(adultRows, date, MODEL.minSamplesPerCategory);
@@ -209,7 +201,7 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
 }
 
 function estimateCategory(
-  category: Category,
+  category: CostCategory,
   all: Classified[],
   input: TripInput,
   dates: string[],
@@ -300,7 +292,7 @@ function estimateCategory(
 const dedupe = (rows: Classified[]) => [...new Map(rows.map((r) => [r.sample.id, r])).values()];
 
 /** 부족 안내에 쓰는 대표 표본 수: 필수 바스켓의 수(대안형은 가장 많은 바스켓) */
-function primaryCount(category: Category, runs: BasketRun[], kind: 'rows' | 'independent'): number {
+function primaryCount(category: CostCategory, runs: BasketRun[], kind: 'rows' | 'independent'): number {
   const rule = BASKET_RULES[category];
   const pool = rule.mode === 'alternatives' ? runs : runs.filter((r) => rule.required.includes(r.basket));
   return Math.max(0, ...pool.map((r) => (kind === 'rows' ? r.adultCount : r.adultIndependent)));
@@ -313,7 +305,7 @@ export function estimateTrip(input: TripInput, city: City, samples: PriceSample[
   const weights = dayWeights(days);
   const classified = samples.filter((s) => s.cityId === city.id).map(classify);
 
-  const categories = {} as Record<Category, CategoryEstimate>;
+  const categories = {} as Record<CostCategory, CategoryEstimate>;
   const warnings: Warning[] = [];
   for (const c of CATEGORIES) {
     // 관광지는 자동 추정하지 않는다: 고른 곳의 입장료 합계, 고르지 않으면 0
@@ -367,14 +359,14 @@ export function estimateTrip(input: TripInput, city: City, samples: PriceSample[
 
 export interface CitySummary {
   /** 비용군별 대표 바스켓의 독립 표본 수(성인 기준) — 충족 판정 기준 */
-  counts: Record<Category, number>;
+  counts: Record<CostCategory, number>;
   /** 바스켓별 독립 표본 수(성인 기준) */
   baskets: Record<Basket, number>;
   /** 바스켓별 표본 행 수(성인 기준, 변형 포함) */
   basketRows: Record<Basket, number>;
   fillRate: number;
   /** 표본 수가 최소 기준 미만인 비용군 */
-  missing: Category[];
+  missing: CostCategory[];
   excluded: Array<{ sample: PriceSample; reason: ExcludeReason }>;
   totalRows: number;
 }
@@ -389,7 +381,7 @@ export function summarizeCity(city: City, samples: PriceSample[]): CitySummary {
     baskets[b] = independentCount(pool);
     basketRows[b] = pool.length;
   }
-  const counts = {} as Record<Category, number>;
+  const counts = {} as Record<CostCategory, number>;
   for (const c of CATEGORIES) {
     const rule = BASKET_RULES[c];
     const pool = rule.mode === 'alternatives' ? rule.baskets : rule.required;
@@ -411,13 +403,13 @@ export function summarizeCity(city: City, samples: PriceSample[]): CitySummary {
 /** 방문일·인원과 무관한 도시 판정. data:convert 가 status.json 으로 저장하고 고정 테스트가 비교한다. */
 export interface CityStatus {
   /** 비용군별 독립 표본 수(성인, 대표 바스켓) */
-  counts: Record<Category, number>;
+  counts: Record<CostCategory, number>;
   /** 바스켓별 독립 표본 수 */
   baskets: Record<Basket, number>;
   /** 바스켓별 가격 행 수(변형 포함) */
   basketRows: Record<Basket, number>;
   fillRate: number;
-  missing: Category[];
+  missing: CostCategory[];
   computable: boolean;
 }
 
@@ -491,7 +483,7 @@ function selectedAttractions(city: City, samples: PriceSample[], input: TripInpu
 }
 
 /** 금액만 정해진 비용군(교통 안 탐·이용권 선택 등)의 결과 모양 */
-function fixedEstimate(category: Category, total: Range, lines: DetailLine[], used: Classified[], people: number, days: number): CategoryEstimate {
+function fixedEstimate(category: CostCategory, total: Range, lines: DetailLine[], used: Classified[], people: number, days: number): CategoryEstimate {
   const checked = used.map((r) => r.sample.checkedAt).sort();
   return {
     category,

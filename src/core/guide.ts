@@ -3,11 +3,11 @@ import { estimateTrip } from './estimate';
 import { STYLES } from './model-config';
 import { priceGuide, type GuideRow } from './price-guide';
 import { passOptions } from './transport';
-import type { Category, City, ExtraSample, PriceSample, Range, TravelStyle } from './types';
+import type { CostCategory, City, ExtraSample, PriceSample, Range, TravelStyle } from './types';
 
-/** 예시 경비 내역의 줄: 외식·현지 교통·기념품·예비비 */
-export type GuideBreakdownKey = Exclude<Category, 'attraction'> | 'contingency';
-const BREAKDOWN: readonly Exclude<Category, 'attraction'>[] = ['food', 'transport', 'souvenir'];
+/** 예시 경비 내역의 줄: 외식·현지 교통·예비비 */
+export type GuideBreakdownKey = Exclude<CostCategory, 'attraction'> | 'contingency';
+const BREAKDOWN: readonly Exclude<CostCategory, 'attraction'>[] = ['food', 'transport'];
 
 /** 도시 가이드의 예시 일정: 성인 1명, 3박 4일. 스타일별 현지 체류비(예비비 포함)를 보여 준다 */
 export const GUIDE_EXAMPLE = { nights: 3, adults: 1, children: 0 } as const;

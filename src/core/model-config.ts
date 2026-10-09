@@ -1,4 +1,4 @@
-import type { Basket, Category, TravelStyle } from './types';
+import type { Basket, CostCategory, TravelStyle } from './types';
 
 /**
  * 계산 모델의 "가정" 값. 가격이 아니라 사용 방식에 대한 가정이다.
@@ -7,7 +7,7 @@ import type { Basket, Category, TravelStyle } from './types';
 export const MODEL = {
   /** 바스켓(필수 비용 유형)당 최소 표본 수 */
   minSamplesPerCategory: 3,
-  /** 충족률 = Σmin(cap, 표본수) / (cap × 4). 이 값 미만이면 계산 보류 */
+  /** 충족률 = Σmin(cap, 표본수) / (cap × 자동 추정 비용군 수). 이 값 미만이면 계산 보류 */
   fillRateCap: 3,
   minFillRate: 0.75,
   contingencyRate: 0.1,
@@ -15,7 +15,7 @@ export const MODEL = {
   edgeDayFactor: 0.6,
   /**
    * 바스켓별 이용 횟수 가정(가격이 아니라 사용 방식).
-   * pass·ride·meal·snack·attraction 은 1인 하루 기준, souvenir 는 성인 1인 여행 전체 구매 개수.
+   * pass·ride·meal·snack·attraction 은 1인 하루 기준.
    */
   usage: {
     pass: { budget: 1, standard: 1, comfort: 1 },
@@ -26,7 +26,8 @@ export const MODEL = {
     drink: { budget: 1, standard: 2, comfort: 3 },
     /** 관광지는 자동 추정하지 않는다(사용자가 고른 곳 1회씩). 바스켓 구조상 값만 둔다 */
     attraction: { budget: 1, standard: 1, comfort: 1 },
-    souvenir: { budget: 2, standard: 3, comfort: 5 },
+    /** 기념품은 계산하지 않는다(사용자가 쇼핑 예산을 직접 입력). 바스켓 구조상 값만 둔다 */
+    souvenir: { budget: 0, standard: 0, comfort: 0 },
   } as Record<Basket, Record<TravelStyle, number>>,
   /** 여행 스타일별로 가격 분포(표본 끝점 정렬)에서 읽는 분위 구간 */
   styleBand: {
@@ -40,13 +41,13 @@ export const MODEL = {
   limits: { nightsMin: 1, nightsMax: 30, adultsMin: 1, adultsMax: 20, childrenMax: 20 },
 } as const;
 
-export const CATEGORIES: readonly Category[] = ['food', 'transport', 'attraction', 'souvenir'];
+export const CATEGORIES: readonly CostCategory[] = ['food', 'transport', 'attraction'];
 
 /**
  * 가격 분포로 자동 추정하는 비용군. 관광지는 갈지 말지 사용자가 정하는 것이라 자동으로 넣지 않고,
  * 사용자가 고른 곳의 입장료만 더한다(고르지 않으면 0). 따라서 도시 판정(최소 표본·충족률)에서도 빠진다.
  */
-export const ESTIMATED_CATEGORIES: readonly Category[] = ['food', 'transport', 'souvenir'];
+export const ESTIMATED_CATEGORIES: readonly CostCategory[] = ['food', 'transport'];
 
 export const BASKETS: readonly Basket[] = ['pass', 'ride', 'meal', 'snack', 'drink', 'attraction', 'souvenir'];
 
@@ -58,11 +59,10 @@ export const EDGE_WEIGHTED: readonly Basket[] = ['meal', 'snack', 'drink', 'attr
  * sum: 필수 바스켓에 선택 바스켓(표본이 충분할 때만)을 더한다.
  * alternatives: 이용권과 1회권처럼 서로 대안이다. 표본이 충분한 바스켓들의 범위를 합쳐 하나 이상이면 된다.
  */
-export const BASKET_RULES: Record<Category, { baskets: readonly Basket[]; mode: 'sum' | 'alternatives'; required: readonly Basket[] }> = {
+export const BASKET_RULES: Record<CostCategory, { baskets: readonly Basket[]; mode: 'sum' | 'alternatives'; required: readonly Basket[] }> = {
   food: { baskets: ['meal', 'snack', 'drink'], mode: 'sum', required: ['meal'] },
   transport: { baskets: ['pass', 'ride'], mode: 'alternatives', required: [] },
   attraction: { baskets: ['attraction'], mode: 'sum', required: ['attraction'] },
-  souvenir: { baskets: ['souvenir'], mode: 'sum', required: ['souvenir'] },
 };
 export const STYLES: readonly TravelStyle[] = ['budget', 'standard', 'comfort'];
 

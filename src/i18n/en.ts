@@ -10,13 +10,14 @@ export const en: Messages = {
   nav: { calculator: 'Calculator', guides: 'City guides', language: 'Language', skip: 'Skip to content', main: 'Main menu' },
   home: {
     title: 'How much will you spend there?',
-    lead: 'Choose a city and trip details to get a min–max estimate for food, local transport, attractions and souvenirs. Flights and lodging are added only if you enter them yourself.',
+    lead: 'Choose a city and trip details to get a min–max estimate for food, local transport and attractions. A shopping/gift budget, flights and lodging are added only if you enter them yourself.',
   },
   form: {
     title: 'Trip details',
     city: 'City', citySearch: 'Search city or country', citySearchPlaceholder: 'Search city or country (e.g. Tokyo, Japan, Paris)', cityMatches: '{n} cities', cityNoMatch: 'Not available yet. More cities are added as research is completed.', visitDate: 'Visit date', nights: 'Nights', adults: 'Adults', children: 'Children',
     style: 'Travel style',
     drinks: 'Include drinks (adults)',
+    shopping: 'Include shopping and gifts', shoppingHint: 'Spending on souvenirs and gifts varies too much to estimate from prices. Tick this and set the amount yourself (for the whole group and trip, no contingency added).', shoppingAmount: 'Planned shopping and gifts ({currency})',
     drinksHint: 'Beer, wine and similar: 1/2/3 drinks per adult per day (Budget/Standard/Comfort) · Set drinks per day and what you drink under "Detailed settings" below', currency: 'Display currency', currencyHint: 'Currency is independent of the page language.',
     optional: 'Costs you already know (optional)', optionalHint: 'Flights and lodging are not searched live. Only the amounts you enter are added.',
     flight: 'Flights total', lodging: 'Lodging total', directCurrency: 'Currency of these amounts',
@@ -60,6 +61,7 @@ export const en: Messages = {
     included: 'in total', notIncluded: 'left out',
     directTitle: 'Costs you entered',
     directSum: 'Entered costs total',
+    shoppingRow: 'Shopping and gifts (your amount)', shoppingNoRate: 'Exchange rates are unavailable, so your shopping amount could not be converted and was not added to the total.',
     grand: 'Local spending + entered costs',
     directNoRate: 'Exchange rates are unavailable, so your entered costs cannot be converted.',
     holdTitle: 'Not enough price data yet to show a total for this city',
@@ -117,7 +119,7 @@ export const en: Messages = {
     metaDescription: 'Meal, public transport and attraction prices in {city} from official sources, plus a 4-day local spending estimate for budget, standard and comfort styles.',
     lead: 'What you will actually spend in {city}, compiled from official price sources. Price data as of {date}.',
     exampleTitle: 'Estimated local spending for 4 days / 3 nights (1 adult)',
-    exampleLead: 'Food, local transport and souvenirs plus a 10% buffer. Attraction tickets, flights and lodging are not included.',
+    exampleLead: 'Food and local transport plus a 10% buffer. Attraction tickets, shopping, flights and lodging are not included.',
     breakdownTitle: 'Breakdown by item (4-day total, 1 adult)',
     breakdownNote: 'Add the tickets you want from the attraction table below; tick them in the calculator to include them automatically.',
     item: 'Item',
@@ -264,7 +266,6 @@ export const en: Messages = {
     colTotal: 'Day total',
     units: { meal: '{n} meals', snack: '{n} items', drink: '{n} drinks', ride: '{n} rides', pass: '{n} day', attraction: '{n} places', souvenir: '{n} items' },
     unitWord: { meal: 'per meal', snack: 'per item', drink: 'per drink', ride: 'per ride', pass: 'per day', attraction: 'per place', souvenir: 'per item' },
-    souvenirLine: 'Souvenir total: {n} items ({adults} adults × {per} per adult)',
     alternatives: 'A daily pass and single rides are alternatives, so their ranges are combined.',
     colPlace: 'Attraction',
     colAdult: 'Adult',
@@ -285,10 +286,10 @@ export const en: Messages = {
   },
   about: {
     title: 'About',
-    lead: 'Travel Budget is a free calculator that estimates a min–max range for local spending on dining, transport, souvenirs, and admission to selected attractions, based on your destination, dates, party size, and travel style. It helps you estimate and prepare for local costs before you leave.',
+    lead: 'Travel Budget is a free calculator that estimates a min–max range for local spending on dining, transport and admission to selected attractions, plus a shopping budget you set, based on your destination, dates, party size, and travel style. It helps you estimate and prepare for local costs before you leave.',
     sections: [
       { h: 'What it shows', body: [
-        'Typical prices for each city, such as a meal, a single public transport ride or a souvenir, and the estimated local spending for your whole trip. Results are shown in the local currency, your selected currency and a USD reference.',
+        'Typical prices for each city, such as a meal or a single public transport ride, and the estimated local spending for your whole trip. Results are shown in the local currency, your selected currency and a USD reference.',
         'Tick the attractions and theme parks you want to visit to add their official admission (adult and child), and open each item to see day-by-day details and its contingency.',
       ] },
       { h: 'Where prices come from', body: [

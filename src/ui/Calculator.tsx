@@ -48,6 +48,8 @@ export function Calculator() {
       ...fromUrl,
       attractions: fromUrl.attractions ?? [],
       drinks: fromUrl.drinks ?? false,
+      shopping: fromUrl.shopping ?? false,
+      shoppingAmount: fromUrl.shoppingAmount ?? '',
       airport: fromUrl.airport ?? '',
       airportTrips: fromUrl.airportTrips ?? '2',
       rental: fromUrl.rental ?? '',
@@ -146,6 +148,7 @@ export function Calculator() {
             rates={rates}
             samples={samples}
             direct={{ ...parsed.direct, currency: form.directCurrency }}
+            shopping={parsed.shopping}
           />
           <FoodSection city={city} foods={foods} />
         </>

@@ -1,5 +1,10 @@
 /** 엑셀 `가격 표본` 시트의 한 행. 가격은 조회 당시 현지 통화 원값 그대로 보존한다. */
 export type Category = 'transport' | 'food' | 'attraction' | 'souvenir';
+/**
+ * 계산 결과에 들어가는 비용군. 기념품·쇼핑은 필수 비용이 아니라 가격 표본으로 추정하지 않고,
+ * 사용자가 직접 입력한 예산(직접 입력 비용)으로만 더한다. 기념품 표본은 조사 자료로만 남는다.
+ */
+export type CostCategory = Exclude<Category, 'souvenir'>;
 export type SourceGrade = 'A' | 'B' | 'C' | 'D';
 export type ModelUse = 'yes' | 'conditional' | 'no';
 export type TravelStyle = 'budget' | 'standard' | 'comfort';
@@ -186,7 +191,7 @@ export interface ExtraEstimate {
  * day: 일차별(그날 1인 이용 횟수 × 1회 가격 → 전 인원 합계), trip: 여행 전체(기념품), item: 고른 관광지 1곳
  */
 export interface DetailLine {
-  kind: 'day' | 'trip' | 'item';
+  kind: 'day' | 'item';
   basket: Basket;
   /** 1부터 시작하는 일차 */
   day?: number;
@@ -265,7 +270,7 @@ export interface BasketEstimate {
 }
 
 export interface CategoryEstimate {
-  category: Category;
+  category: CostCategory;
   /** estimated: 바스켓 가격 분포로 추정 / selected: 사용자가 고른 관광지 입장료 합계 */
   mode: 'estimated' | 'selected';
   baskets: BasketEstimate[];
@@ -293,7 +298,7 @@ export interface Estimate {
   cityId: string;
   currency: string;
   days: number;
-  categories: Record<Category, CategoryEstimate>;
+  categories: Record<CostCategory, CategoryEstimate>;
   /** 사용자가 고른 공항 이동·렌터카(합계·예비비에 포함) */
   extras: ExtraEstimate[];
   /** 4개 비용군 + 고른 공항 이동·렌터카 합(예비비 전). 하나라도 부족하면 null */
@@ -303,7 +308,7 @@ export interface Estimate {
   total: Range | null;
   /** 하루 평균 외식비(전 인원 합계 ÷ 여행일 수) */
   dailyFoodAverage: Range | null;
-  missing: Category[];
+  missing: CostCategory[];
   fillRate: number;
   /** 도시 단위 계산 가능 여부(비용군별 최소 표본 + 충족률) */
   computable: boolean;

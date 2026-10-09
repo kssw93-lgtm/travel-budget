@@ -464,12 +464,12 @@ function main() {
 
   console.log(`원본: ${meta.source} (${meta.version})`);
   console.log(`도시 ${cities.length} · 가격 표본 ${samples.length} · 공항이동·렌터카 ${extras.length} · 도시 메모 ${memos.length} · 음식 추천 ${foods.length} → ${outDir}`);
-  console.log('\n파일럿 도시 판정 (독립 표본: 외식/교통/관광/기념품)');
+  console.log('\n파일럿 도시 판정 (독립 표본: 외식/교통/관광)');
   for (const c of pilot) {
     const st = status[c.id]!;
     const n = st.counts;
     console.log(
-      `  ${c.nameKo.padEnd(6, '　')} ${n.food}/${n.transport}/${n.attraction}/${n.souvenir}  충족률 ${Math.round(st.fillRate * 100)}%  ` +
+      `  ${c.nameKo.padEnd(6, '　')} ${n.food}/${n.transport}/${n.attraction}  충족률 ${Math.round(st.fillRate * 100)}%  ` +
         (st.computable ? '계산 가능' : `부족: ${st.missing.join(', ') || '충족률 미달'}`),
     );
   }

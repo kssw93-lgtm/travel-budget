@@ -22,7 +22,7 @@ describe('기본 계산 규칙', () => {
     expect(estimateTrip(trip({ nights: 3 }), city, baseSamples()).days).toBe(4);
   });
 
-  it('외식 + 교통 + 기념품(+ 고른 관광지) 합에 예비비 10%를 더해 최소~최대로 낸다 (일반형, 성인 2, 3박)', () => {
+  it('외식 + 교통(+ 고른 관광지) 합에 예비비 10%를 더해 최소~최대로 낸다 (일반형, 성인 2, 3박)', () => {
     const e = estimateTrip(trip(), city, baseSamples());
     // 식사 3회 × [12.5, 27.5] × 가중합 3.2 × 2인
     close(e.categories.food.total, 240, 528);
@@ -30,11 +30,11 @@ describe('기본 계산 규칙', () => {
     close(e.categories.transport.total, 100, 220);
     // 관광지는 자동 추정하지 않는다: 고른 곳이 없으면 0
     expect(e.categories.attraction).toMatchObject({ mode: 'selected', total: { min: 0, max: 0 }, sufficient: true });
-    // 기념품 3개 × 2인 × [7.5, 22.5]
-    close(e.categories.souvenir.total, 45, 135);
-    close(e.subtotal, 385, 883);
-    close(e.contingency, 38.5, 88.3);
-    close(e.total, 423.5, 971.3);
+    // 기념품 표본은 계산에 쓰지 않는다(쇼핑·선물은 사용자가 금액을 직접 정함)
+    expect(Object.keys(e.categories)).toEqual(['food', 'transport', 'attraction']);
+    close(e.subtotal, 340, 748);
+    close(e.contingency, 34, 74.8);
+    close(e.total, 374, 822.8);
     close(e.dailyFoodAverage, 60, 132);
     expect(e.computable).toBe(true);
     expect(e.currency).toBe('TST');
@@ -146,7 +146,7 @@ describe('독립 표본(같은 출처의 용량·기간 변형 과대 계산 방
   it('같은 상품의 용량 차이(4개입·8개입)도 1건으로 센다', () => {
     const box = (n: number, v: number) => sample({ category: 'souvenir', subtype: '식품', unit: '1상자', sourceUrl: 'https://banana.example/p/28', nameKo: `바나나 과자 ${n}개입`, nameEn: `Banana Cake ${n} pcs`, min: v });
     const rows = [...without(baseSamples(), 'souvenir'), box(4, 691), box(8, 1296), box(12, 1800)];
-    expect(estimateTrip(trip(), city, rows).categories.souvenir.sufficient).toBe(false);
+    expect(summarizeCity(city, rows).baskets.souvenir).toBe(1);
   });
 
   it('변형은 표본 수로는 1건이지만 가격 분포에는 모두 반영한다', () => {
@@ -190,7 +190,7 @@ describe('교통 대체 방식은 이중 합산하지 않는다', () => {
   it('전체 합계에도 교통은 한 번만 들어간다', () => {
     const e = estimateTrip(trip(), city, [...baseSamples(), ride(1), ride(2), ride(3)]);
     const sum = (k: 'min' | 'max') =>
-      e.categories.food.total![k] + e.categories.transport.total![k] + e.categories.attraction.total![k] + e.categories.souvenir.total![k];
+      e.categories.food.total![k] + e.categories.transport.total![k] + e.categories.attraction.total![k];
     close(e.subtotal, sum('min'), sum('max'));
   });
 
@@ -272,7 +272,7 @@ describe('데이터 부족 상태', () => {
 
   it('표본이 아예 없는 도시는 모든 비용군이 부족이다', () => {
     const e = estimateTrip(trip(), city, []);
-    expect(e.missing).toEqual(['food', 'transport', 'souvenir']); // 관광지는 선택형이라 부족 판정 대상이 아님
+    expect(e.missing).toEqual(['food', 'transport']); // 관광지는 선택형, 쇼핑은 직접 입력이라 부족 판정 대상이 아님
     expect(e.total).toBeNull();
   });
 
@@ -364,9 +364,11 @@ describe('어린이', () => {
     expect(b.warnings.some((w) => w.code === 'childAsAdult' && w.category === 'transport')).toBe(true);
   });
 
-  it('기념품은 성인만 구매하는 것으로 가정', () => {
-    const e = estimateTrip(trip({ adults: 1, children: 3 }), city, baseSamples());
-    close(e.categories.souvenir.total, 3 * 7.5, 3 * 22.5);
+  it('기념품 표본이 있어도 없어도 합계는 같다(쇼핑은 직접 입력)', () => {
+    const withGifts = estimateTrip(trip(), city, baseSamples());
+    const without_ = estimateTrip(trip(), city, without(baseSamples(), 'souvenir'));
+    expect(withGifts.total).toEqual(without_.total);
+    expect(without_.computable).toBe(true);
   });
 });
 
@@ -451,13 +453,12 @@ describe('자세히 보기 내역·항목별 예비비·음주', () => {
     expect(lines[0]!.unitPrice).toEqual({ min: 12.5, max: 27.5 });
     const sum = lines.reduce((s, l) => ({ min: s.min + l.total.min, max: s.max + l.total.max }), { min: 0, max: 0 });
     close(sum, e.categories.food.total!.min, e.categories.food.total!.max);
-    expect(e.categories.souvenir.lines).toEqual([{ kind: 'trip', basket: 'souvenir', units: 6, unitPrice: { min: 7.5, max: 22.5 }, total: { min: 45, max: 135 } }]);
   });
 
   it('항목별 예비비는 각 항목의 10%이고 합은 전체 예비비와 같다', () => {
     const e = estimateTrip(trip(), city, baseSamples());
     close(e.categories.food.contingency, 24, 52.8);
-    const sum = (['food', 'transport', 'attraction', 'souvenir'] as const).reduce(
+    const sum = (['food', 'transport', 'attraction'] as const).reduce(
       (s, c) => ({ min: s.min + e.categories[c].contingency!.min, max: s.max + e.categories[c].contingency!.max }),
       { min: 0, max: 0 },
     );

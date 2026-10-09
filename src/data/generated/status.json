@@ -3,8 +3,7 @@
     "counts": {
       "food": 10,
       "transport": 3,
-      "attraction": 11,
-      "souvenir": 3
+      "attraction": 11
     },
     "baskets": {
       "pass": 3,
@@ -32,8 +31,7 @@
     "counts": {
       "food": 7,
       "transport": 3,
-      "attraction": 10,
-      "souvenir": 3
+      "attraction": 10
     },
     "baskets": {
       "pass": 1,
@@ -61,8 +59,7 @@
     "counts": {
       "food": 4,
       "transport": 3,
-      "attraction": 11,
-      "souvenir": 4
+      "attraction": 11
     },
     "baskets": {
       "pass": 1,
@@ -90,8 +87,7 @@
     "counts": {
       "food": 5,
       "transport": 3,
-      "attraction": 12,
-      "souvenir": 3
+      "attraction": 12
     },
     "baskets": {
       "pass": 0,
@@ -119,8 +115,7 @@
     "counts": {
       "food": 3,
       "transport": 3,
-      "attraction": 12,
-      "souvenir": 3
+      "attraction": 12
     },
     "baskets": {
       "pass": 1,
@@ -148,8 +143,7 @@
     "counts": {
       "food": 6,
       "transport": 3,
-      "attraction": 12,
-      "souvenir": 4
+      "attraction": 12
     },
     "baskets": {
       "pass": 2,
@@ -177,8 +171,7 @@
     "counts": {
       "food": 4,
       "transport": 3,
-      "attraction": 12,
-      "souvenir": 4
+      "attraction": 12
     },
     "baskets": {
       "pass": 1,
@@ -206,8 +199,7 @@
     "counts": {
       "food": 6,
       "transport": 3,
-      "attraction": 14,
-      "souvenir": 3
+      "attraction": 14
     },
     "baskets": {
       "pass": 2,
@@ -235,8 +227,7 @@
     "counts": {
       "food": 6,
       "transport": 4,
-      "attraction": 12,
-      "souvenir": 3
+      "attraction": 12
     },
     "baskets": {
       "pass": 1,
@@ -264,8 +255,7 @@
     "counts": {
       "food": 5,
       "transport": 3,
-      "attraction": 13,
-      "souvenir": 3
+      "attraction": 13
     },
     "baskets": {
       "pass": 2,
@@ -293,8 +283,7 @@
     "counts": {
       "food": 3,
       "transport": 4,
-      "attraction": 12,
-      "souvenir": 3
+      "attraction": 12
     },
     "baskets": {
       "pass": 0,
@@ -322,8 +311,7 @@
     "counts": {
       "food": 6,
       "transport": 3,
-      "attraction": 12,
-      "souvenir": 3
+      "attraction": 12
     },
     "baskets": {
       "pass": 0,
@@ -351,8 +339,7 @@
     "counts": {
       "food": 3,
       "transport": 3,
-      "attraction": 12,
-      "souvenir": 3
+      "attraction": 12
     },
     "baskets": {
       "pass": 0,
@@ -380,8 +367,7 @@
     "counts": {
       "food": 17,
       "transport": 3,
-      "attraction": 12,
-      "souvenir": 6
+      "attraction": 12
     },
     "baskets": {
       "pass": 2,
@@ -409,8 +395,7 @@
     "counts": {
       "food": 10,
       "transport": 3,
-      "attraction": 12,
-      "souvenir": 3
+      "attraction": 12
     },
     "baskets": {
       "pass": 1,
@@ -438,8 +423,7 @@
     "counts": {
       "food": 9,
       "transport": 3,
-      "attraction": 12,
-      "souvenir": 5
+      "attraction": 12
     },
     "baskets": {
       "pass": 0,

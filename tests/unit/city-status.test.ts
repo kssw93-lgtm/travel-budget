@@ -15,33 +15,33 @@ describe('파일럿 도시 데이터 상태', () => {
     expect(cityStatusFile).toEqual(live);
   });
 
-  it('파일럿 도시의 현재 부족 상태(독립 표본 수 외식/교통/관광/기념품 · 충족률 · 판정)', () => {
+  it('파일럿 도시의 현재 부족 상태(독립 표본 수 외식/교통/관광 · 충족률 · 판정)', () => {
     const table = Object.fromEntries(
       cities.map((c) => {
         const s = cityStatusFile[c.id]!;
         const n = s.counts;
         const verdict = s.computable ? 'ready' : `hold: ${s.missing.join(', ')}`;
-        return [c.id, `${n.food}/${n.transport}/${n.attraction}/${n.souvenir} · ${Math.round(s.fillRate * 100)}% · ${verdict}`];
+        return [c.id, `${n.food}/${n.transport}/${n.attraction} · ${Math.round(s.fillRate * 100)}% · ${verdict}`];
       }),
     );
     expect(table).toMatchInlineSnapshot(`
       {
-        "bangkok": "4/3/11/4 · 100% · ready",
-        "barcelona": "6/4/12/3 · 100% · ready",
-        "busan": "10/3/12/3 · 100% · ready",
-        "da-nang": "5/3/12/3 · 100% · ready",
-        "istanbul": "6/3/12/3 · 100% · ready",
-        "jeju": "9/3/12/5 · 100% · ready",
-        "london": "6/3/14/3 · 100% · ready",
-        "new-york": "3/4/12/3 · 100% · ready",
-        "osaka": "7/3/10/3 · 100% · ready",
-        "paris": "4/3/12/4 · 100% · ready",
-        "rome": "5/3/13/3 · 100% · ready",
-        "seoul": "17/3/12/6 · 100% · ready",
-        "shanghai": "3/3/12/3 · 100% · ready",
-        "singapore": "6/3/12/4 · 100% · ready",
-        "taipei": "3/3/12/3 · 100% · ready",
-        "tokyo": "10/3/11/3 · 100% · ready",
+        "bangkok": "4/3/11 · 100% · ready",
+        "barcelona": "6/4/12 · 100% · ready",
+        "busan": "10/3/12 · 100% · ready",
+        "da-nang": "5/3/12 · 100% · ready",
+        "istanbul": "6/3/12 · 100% · ready",
+        "jeju": "9/3/12 · 100% · ready",
+        "london": "6/3/14 · 100% · ready",
+        "new-york": "3/4/12 · 100% · ready",
+        "osaka": "7/3/10 · 100% · ready",
+        "paris": "4/3/12 · 100% · ready",
+        "rome": "5/3/13 · 100% · ready",
+        "seoul": "17/3/12 · 100% · ready",
+        "shanghai": "3/3/12 · 100% · ready",
+        "singapore": "6/3/12 · 100% · ready",
+        "taipei": "3/3/12 · 100% · ready",
+        "tokyo": "10/3/11 · 100% · ready",
       }
     `);
   });

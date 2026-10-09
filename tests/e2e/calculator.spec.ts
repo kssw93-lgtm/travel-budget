@@ -40,9 +40,12 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(total).toContainText('~'); // 최소~최대 범위
     await expect(page.getByTestId('daily-food')).toContainText('하루 평균 외식비');
 
-    for (const c of ['food', 'transport', 'attraction', 'souvenir', 'contingency']) {
+    for (const c of ['food', 'transport', 'attraction', 'contingency']) {
       await expect(page.locator(`tr[data-category="${c}"]`)).toBeVisible();
     }
+    // 기념품은 가격으로 추정하지 않는다(쇼핑·선물은 체크해서 금액을 직접 정할 때만)
+    await expect(page.locator('tr[data-category="souvenir"]')).toHaveCount(0);
+    await expect(page.locator('tr[data-category="shopping"]')).toHaveCount(0);
     await expect(page.getByTestId('quality')).toContainText('사용 표본');
     // 단위가 다른 가격은 유형별 바스켓으로 나뉘어 표시된다
     await expect(page.getByTestId('baskets-food')).toContainText('식사');
@@ -103,10 +106,29 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(page.getByTestId('total')).not.toHaveText(before);
   });
 
+  test('쇼핑·선물을 체크하면 금액 입력칸이 나오고, 입력한 금액이 총액에 더해진다(예비비 없음)', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/?lang=ko&city=tokyo&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=JPY');
+    await expect(page.getByLabel(/쇼핑·선물 예정 금액/)).toHaveCount(0);
+    const before = (await page.getByTestId('total').textContent()) ?? '';
+    const contingency = (await page.locator('tr[data-category="contingency"]').textContent()) ?? '';
+    await page.getByLabel('쇼핑·선물 비용 포함').check();
+    await page.getByLabel('쇼핑·선물 예정 금액 (JPY)').fill('30000');
+    await expect(page).toHaveURL(/shop=1/);
+    await expect(page).toHaveURL(/shopamt=30000/);
+    await expect(page.locator('tr[data-category="shopping"]')).toContainText('JP¥30,000');
+    await expect(page.getByTestId('total')).not.toHaveText(before);
+    await expect(page.locator('tr[data-category="contingency"]')).toHaveText(contingency);
+    // 체크를 풀면 금액 칸과 줄이 사라지고 총액이 원래대로
+    await page.getByLabel('쇼핑·선물 비용 포함').uncheck();
+    await expect(page.locator('tr[data-category="shopping"]')).toHaveCount(0);
+    await expect(page.getByTestId('total')).toHaveText(before);
+  });
+
   test('파일럿 도시 화면이 실제 데이터 판정과 일치한다(계산 가능 → 합계, 부족 → 부족 항목)', async ({ page }) => {
     await mockRates(page);
     await page.goto('/');
-    const label: Record<string, string> = { food: '외식', transport: '현지 교통', attraction: '관광지', souvenir: '기념품' };
+    const label: Record<string, string> = { food: '외식', transport: '현지 교통', attraction: '관광지' };
     expect(Object.keys(status)).toHaveLength(16);
     for (const [city, st] of Object.entries(status)) {
       await fillTrip(page, { city });
@@ -375,7 +397,7 @@ test.describe('도시 가이드', () => {
     await expect(page.locator('main h1')).toHaveText('파리 여행 경비 가이드');
     await expect(page).toHaveTitle(/^파리 여행 경비·현지 물가 — /);
     await expect(page.getByTestId('guide-example').locator('table').first().locator('tbody tr')).toHaveCount(3);
-    await expect(page.getByTestId('guide-breakdown').locator('tbody tr')).toHaveCount(4);
+    await expect(page.getByTestId('guide-breakdown').locator('tbody tr')).toHaveCount(3); // 외식·현지 교통·예비비(기념품은 직접 입력으로 바뀌어 빠짐)
     await expect(page.getByTestId('guide-attractions')).toContainText('에펠탑');
     await page.getByRole('link', { name: '내 일정으로 계산하기' }).click();
     await expect(page.locator('#city')).toHaveValue('paris');

@@ -1,11 +1,11 @@
 import { describe, expect, it } from 'vitest';
-import type { FormState } from '../../src/ui/form';
+import { parseForm, type FormState } from '../../src/ui/form';
 import { formToSearch, readForm, readLang, withLang } from '../../src/ui/urlState';
 
 const ids = ['tokyo', 'taipei'];
 const form: FormState = {
   cityId: 'taipei', visitDate: '2026-11-04', nights: '3', adults: '2', children: '1', style: 'comfort',
-  currency: 'EUR', flight: '', lodging: '', directCurrency: 'EUR', attractions: [], drinks: false, airport: '', airportTrips: '2', rental: '', rentalDays: '',
+  currency: 'EUR', flight: '', lodging: '', directCurrency: 'EUR', attractions: [], drinks: false, shopping: false, shoppingAmount: '', airport: '', airportTrips: '2', rental: '', rentalDays: '',
   transportMode: 'auto', ridesPerDay: '3', transitDays: '', passId: '', mealsPerDay: '', drinksPerDay: '', drinkPicks: [],
 };
 
@@ -18,6 +18,14 @@ describe('URL 입력 상태', () => {
   it('직접 입력 금액이 있으면 금액과 입력 통화도 담는다', () => {
     const search = formToSearch({ ...form, flight: '500000', directCurrency: 'KRW' }, 'ko');
     expect(readForm(search, ids)).toMatchObject({ flight: '500000', directCurrency: 'KRW' });
+  });
+  it('쇼핑·선물 예산은 체크했을 때만 금액과 함께 담는다', () => {
+    expect(formToSearch({ ...form, shoppingAmount: '300000' }, 'ko')).not.toMatch(/shop/);
+    const search = formToSearch({ ...form, shopping: true, shoppingAmount: '300000' }, 'ko');
+    expect(readForm(search, ids)).toMatchObject({ shopping: true, shoppingAmount: '300000' });
+    expect(parseForm({ ...form, shopping: true, shoppingAmount: '300,000' }).shopping).toBe(300000);
+    expect(parseForm({ ...form, shopping: false, shoppingAmount: '300000' }).shopping).toBe(0);
+    expect(parseForm({ ...form, shopping: true, shoppingAmount: '-5' }).errors.shoppingAmount).toBe(true);
   });
   it('형식이 틀린 값은 버린다', () => {
     expect(readForm('?city=atlantis&style=lux&cur=<x>&date=tomorrow&nights=abc&dcur=ko', ids)).toEqual({});

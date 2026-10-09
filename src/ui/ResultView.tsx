@@ -17,6 +17,8 @@ interface Props {
   rates: RatesState;
   samples: PriceSample[];
   direct: { flight: number; lodging: number; currency: string };
+  /** 사용자가 정한 쇼핑·선물 예산(표시 통화). 0 이면 없음 */
+  shopping?: number;
 }
 
 const sumRange = (a: Range, b: Range): Range => ({ min: a.min + b.min, max: a.max + b.max });
@@ -64,7 +66,7 @@ function warningText(w: Warning, byId: Map<string, PriceSample>, lang: Lang, t: 
   return fmt(t.warnings[w.code], { names, min: MODEL.minSamplesPerCategory, rate, basket, n: w.n ?? 0 });
 }
 
-export function ResultView({ estimate: e, trip, city, display, rates, samples, direct }: Props) {
+export function ResultView({ estimate: e, trip, city, display, rates, samples, direct, shopping = 0 }: Props) {
   const { t, lang } = useI18n();
   const ratesData = rates.status === 'ok' ? rates.data : null;
   const byId = new Map(samples.map((s) => [s.id, s]));
@@ -75,6 +77,11 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
     if (est.category === 'transport') return est.lines[0] ? fmt(t.result.transportPassShort, { n: est.lines[0].units }) : t.result.transportNoneShort;
     return est.sampleCount ? fmt(t.result.selectedAttractions, { n: est.sampleCount }) : t.result.noAttractions;
   };
+
+  // 쇼핑·선물 예산은 표시 통화로 입력받아 현지 통화로 바꿔 총액에 더한다(예비비는 붙이지 않는다)
+  const shopLocal: Range | null =
+    shopping > 0 ? (display === e.currency ? { min: shopping, max: shopping } : convertRange({ min: shopping, max: shopping }, display, e.currency, ratesData)) : null;
+  const stayTotal: Range | null = e.total && shopLocal ? sumRange(e.total, shopLocal) : e.total;
 
   const entered = direct.flight + direct.lodging;
   let directConverted: number | null = 0;
@@ -96,7 +103,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
       {e.computable && e.total ? (
         <div className="total" data-testid="total">
           <h3>{t.result.total}</h3>
-          <Amount range={e.total} local={e.currency} display={display} rates={rates} big />
+          <Amount range={stayTotal} local={e.currency} display={display} rates={rates} big />
           {e.dailyFoodAverage && (
             <p className="daily-food" data-testid="daily-food">
               <span>{t.result.dailyFood}</span> <Amount range={e.dailyFoodAverage} local={e.currency} display={display} rates={rates} />
@@ -123,13 +130,13 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
                 <dt>{t.result.directSum} ({display})</dt>
                 <dd><RangeText range={{ min: directConverted, max: directConverted }} currency={display} /></dd>
               </div>
-              {e.computable && e.total && (
+              {e.computable && stayTotal && (
                 <div>
                   <dt>{t.result.grand} ({display})</dt>
                   <dd>
                     <RangeText
                       range={(() => {
-                        const stay = convertRange(e.total, e.currency, display, ratesData);
+                        const stay = stayTotal && convertRange(stayTotal, e.currency, display, ratesData);
                         return stay ? sumRange(stay, { min: directConverted, max: directConverted }) : null;
                       })()}
                       currency={display}
@@ -209,8 +216,21 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
               </td>
             </tr>
           )}
+          {shopping > 0 && (
+            <tr data-category="shopping">
+              <th scope="row">{t.result.shoppingRow}</th>
+              <td data-label={t.result.amount}>
+                {shopLocal ? (
+                  <Amount range={shopLocal} local={e.currency} display={display} rates={rates} />
+                ) : (
+                  <RangeText range={{ min: shopping, max: shopping }} currency={display} />
+                )}
+              </td>
+            </tr>
+          )}
         </tbody>
       </table>
+      {shopping > 0 && !shopLocal && <p className="notice warn" data-testid="shopping-no-rate">{t.result.shoppingNoRate}</p>}
       {e.warnings.some((w) => w.code === 'drinkNoData') && (
         <p className="notice warn" data-testid="drink-note">{t.warnings.drinkNoData}</p>
       )}

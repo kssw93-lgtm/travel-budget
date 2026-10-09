@@ -20,6 +20,8 @@ const KEYS = {
   directCurrency: 'dcur',
   attractions: 'attr',
   drinks: 'drink',
+  shopping: 'shop',
+  shoppingAmount: 'shopamt',
   airport: 'apt',
   airportTrips: 'aptw',
   rental: 'car',
@@ -57,6 +59,11 @@ export function readForm(search: string, cityIds: string[]): Partial<FormState> 
     if (ids.length) out.attractions = ids;
   }
   if (get('drinks') === '1') out.drinks = true;
+  if (get('shopping') === '1') {
+    out.shopping = true;
+    const amt = get('shoppingAmount');
+    if (amt && SHORT.test(amt)) out.shoppingAmount = amt;
+  }
   for (const k of ['airport', 'rental'] as const) {
     const v = get(k);
     if (v && EXTRA_ID.test(v)) out[k] = v;
@@ -115,6 +122,11 @@ export function formToSearch(form: FormState, lang: Lang): string {
       if (form.drinks) q.set(KEYS.drinks, '1');
       return;
     }
+    if (k === 'shopping') {
+      if (form.shopping) q.set(KEYS.shopping, '1');
+      return;
+    }
+    if (k === 'shoppingAmount' && !form.shopping) return;
     // 공항 이동 횟수·렌터카 일수는 상품을 골랐을 때만, 기본값(왕복·숙박 수)이 아닐 때만 남긴다
     if (k === 'airportTrips') {
       if (form.airport && form.airportTrips === '1') q.set(KEYS.airportTrips, '1');

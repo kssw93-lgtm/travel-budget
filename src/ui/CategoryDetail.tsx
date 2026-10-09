@@ -99,15 +99,6 @@ export function CategoryDetail({ est, currency, display, rates, people, adults }
             </table>
           );
         }
-        if (first.kind === 'trip') {
-          const per = adults ? round1(first.units / adults) : first.units;
-          return (
-            <p key={key} className="detail-line" data-line="trip">
-              {fmt(d.souvenirLine, { adults, per, n: round1(first.units) })} · {d.unitWord[basket]} {money(first.unitPrice)} → <strong>{money(first.total)}</strong>
-              {shown(first.total)}
-            </p>
-          );
-        }
         return (
           <div key={key}>
             {(byBasket.size > 1 || isAlt) && <h4>{t.baskets[basket] ?? basket}</h4>}

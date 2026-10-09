@@ -70,6 +70,7 @@ export function TripForm({ form, onChange, errors, cities, rates }: Props) {
     children: fmt(t.form.errors.children, { max: L.childrenMax }),
     flight: t.form.errors.amount,
     lodging: t.form.errors.amount,
+    shoppingAmount: t.form.errors.amount,
     rentalDays: fmt(t.form.errors.rentalDays, { max: L.nightsMax + 1 }),
     ridesPerDay: t.form.errors.ridesPerDay,
     transitDays: fmt(t.form.errors.transitDays, { max: L.nightsMax + 1 }),
@@ -170,6 +171,28 @@ export function TripForm({ form, onChange, errors, cities, rates }: Props) {
           {t.form.drinks}
         </label>
         <p className="hint">{t.form.drinksHint}</p>
+      </div>
+
+      <div className="check-field">
+        <label htmlFor="shopping">
+          <input id="shopping" type="checkbox" checked={form.shopping} onChange={(e) => onChange({ shopping: e.target.checked })} />
+          {t.form.shopping}
+        </label>
+        <p className="hint">{t.form.shoppingHint}</p>
+        {form.shopping && (
+          <div className="field">
+            <label htmlFor="shoppingAmount">{fmt(t.form.shoppingAmount, { currency: form.currency })}</label>
+            <input
+              id="shoppingAmount"
+              type="text"
+              inputMode="decimal"
+              value={form.shoppingAmount}
+              onChange={(e) => onChange({ shoppingAmount: e.target.value })}
+              {...field('shoppingAmount')}
+            />
+            {err('shoppingAmount')}
+          </div>
+        )}
       </div>
 
       <div className="field">

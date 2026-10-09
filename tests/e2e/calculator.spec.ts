@@ -9,7 +9,7 @@ test.describe('계산기 핵심 흐름', () => {
     await mockRates(page);
     await page.goto('/');
     const values = await page.locator('#city option').evaluateAll((os) => os.map((o) => (o as HTMLOptionElement).value));
-    expect([...values].sort()).toEqual(['bangkok', 'barcelona', 'busan', 'cebu', 'da-nang', 'istanbul', 'jeju', 'london', 'new-york', 'osaka', 'paris', 'rome', 'seoul', 'shanghai', 'singapore', 'taipei', 'tokyo']);
+    expect([...values].sort()).toEqual(['bangkok', 'barcelona', 'busan', 'cebu', 'da-nang', 'fukuoka', 'istanbul', 'jeju', 'london', 'new-york', 'osaka', 'paris', 'rome', 'seoul', 'shanghai', 'singapore', 'taipei', 'tokyo']);
     // 국내/해외가 아니라 나라별로 묶는다
     const pilot = (JSON.parse(readFileSync('src/data/generated/cities.json', 'utf8')) as Array<{ stage: string; country: string }>).filter((c) => c.stage === '파일럿');
     await expect(page.locator('#city optgroup')).toHaveCount(new Set(pilot.map((c) => c.country)).size);
@@ -17,8 +17,8 @@ test.describe('계산기 핵심 흐름', () => {
     await page.getByLabel('도시·나라 검색').fill('바르셀로나');
     await expect(page.locator('#city')).toHaveValue('barcelona');
     await page.getByLabel('도시·나라 검색').fill('일본');
-    await expect(page.getByTestId('city-search-status')).toHaveText('2개 도시');
-    await expect(page.locator('#city option')).toHaveCount(3); // 고른 도시(바르셀로나) + 일본 2곳
+    await expect(page.getByTestId('city-search-status')).toHaveText('3개 도시');
+    await expect(page.locator('#city option')).toHaveCount(4); // 고른 도시(바르셀로나) + 일본 3곳
     await page.getByLabel('도시·나라 검색').press('Enter'); // 보이는 순서(가나다)의 첫 도시: 도쿄
     await expect(page.locator('#city')).toHaveValue('tokyo');
     await page.getByLabel('도시·나라 검색').fill('아틀란티스');
@@ -129,7 +129,7 @@ test.describe('계산기 핵심 흐름', () => {
     await mockRates(page);
     await page.goto('/');
     const label: Record<string, string> = { food: '외식', transport: '현지 교통', attraction: '관광지' };
-    expect(Object.keys(status)).toHaveLength(17);
+    expect(Object.keys(status)).toHaveLength(18);
     for (const [city, st] of Object.entries(status)) {
       await fillTrip(page, { city });
       if (st.computable) {

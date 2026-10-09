@@ -1489,6 +1489,124 @@
     "note": "추천 출처 미확인(초안)"
   },
   {
+    "cityId": "fukuoka",
+    "nameKo": "하카타 돈코츠 라멘",
+    "nameEn": "Hakata Tonkotsu Ramen",
+    "reason": "뽀얀 돼지뼈 국물에 가는 면을 넣는 후쿠오카 대표 라멘",
+    "reasonEn": "Fukuoka's signature ramen",
+    "desc": {
+      "ko": "돼지뼈를 오래 끓인 뽀얀 국물에 아주 가는 면을 말아 먹는 후쿠오카 대표 라멘. 면 익힘 정도를 고르고 면만 추가(가에다마)할 수 있습니다",
+      "en": "Fukuoka's signature ramen: thin noodles in creamy pork-bone broth; choose noodle firmness and order a noodle refill (kaedama)",
+      "ja": "豚骨をじっくり炊いた白濁スープに極細麺を合わせた福岡の代表的なラーメン。麺の硬さを選べ、替え玉もできる"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Tonkotsu_ramen_in_Tokyo.jpg",
+      "author": "Syced",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tonkotsu_ramen_in_Tokyo.jpg"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-09)"
+  },
+  {
+    "cityId": "fukuoka",
+    "nameKo": "모쓰나베",
+    "nameEn": "Motsunabe",
+    "reason": "소곱창과 부추·양배추를 끓여 먹는 하카타식 곱창 전골",
+    "reasonEn": "Hakata's famous offal hot pot",
+    "desc": {
+      "ko": "소곱창을 부추·양배추와 함께 간장·된장 국물에 끓여 먹는 하카타식 곱창 전골. 마무리로 짬뽕면을 넣어 먹습니다",
+      "en": "Hakata hot pot of beef offal with chives and cabbage in soy or miso broth, finished with champon noodles",
+      "ja": "牛もつをニラ・キャベツと醤油や味噌のスープで煮込む博多の鍋。締めはちゃんぽん麺"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Motsunabe_-_Japan_-_August_2014.jpg",
+      "author": "nesnad",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Motsunabe_-_Japan_-_August_2014.jpg"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "FUK-FD-002"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-09)"
+  },
+  {
+    "cityId": "fukuoka",
+    "nameKo": "멘타이코",
+    "nameEn": "Mentaiko",
+    "reason": "고춧가루 양념에 절인 명란젓. 밥반찬·선물로 인기",
+    "reasonEn": "Fukuoka's best-known local delicacy",
+    "desc": {
+      "ko": "명태알을 고춧가루 양념에 절인 후쿠오카 명물. 밥에 올리거나 주먹밥·파스타로 먹고, 선물로도 많이 삽니다",
+      "en": "Fukuoka's famous spicy marinated pollock roe, eaten with rice, in onigiri or pasta, and a popular gift",
+      "ja": "スケトウダラの卵を唐辛子入りの調味液に漬けた福岡名物。ご飯やおにぎり、パスタに。お土産にも人気"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Myeongnanjeot_%28salted_pollock_roe%29.jpg",
+      "author": "hee17670",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Myeongnanjeot_(salted_pollock_roe).jpg"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-09)"
+  },
+  {
+    "cityId": "fukuoka",
+    "nameKo": "고보텐 우동",
+    "nameEn": "Gobo-ten Udon",
+    "reason": "우엉 튀김을 올린 부드러운 면발의 후쿠오카식 우동",
+    "reasonEn": "Fukuoka-style soft udon with burdock tempura",
+    "desc": {
+      "ko": "얇게 썬 우엉 튀김을 올린 우동. 후쿠오카 우동은 면이 부드럽고 국물이 맑은 것이 특징입니다",
+      "en": "Udon topped with crisp burdock tempura; Fukuoka udon is known for soft noodles and a light, clear broth",
+      "ja": "ごぼうの天ぷらをのせたうどん。福岡のうどんは柔らかい麺と澄んだだしが特徴"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Gobo-ten_Udon_Kyushu.JPG",
+      "author": "NY066",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Gobo-ten_Udon_Kyushu.JPG"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "FUK-FD-001"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-09)"
+  },
+  {
+    "cityId": "fukuoka",
+    "nameKo": "미즈타키",
+    "nameEn": "Mizutaki",
+    "reason": "닭을 통째로 고아 낸 뽀얀 국물에 닭고기와 채소를 익혀 먹는 전골",
+    "reasonEn": "Hakata's classic chicken hot pot",
+    "desc": {
+      "ko": "닭을 오래 고아 낸 뽀얀 국물에 닭고기와 채소를 익혀 폰즈에 찍어 먹는 하카타 전골",
+      "en": "Hakata chicken hot pot: chicken and vegetables simmered in a rich, milky chicken broth, dipped in ponzu",
+      "ja": "鶏をじっくり炊いた白濁スープで鶏肉と野菜を煮て、ポン酢でいただく博多の鍋"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-09)"
+  },
+  {
     "cityId": "seoul",
     "nameKo": "설렁탕",
     "nameEn": "Seolleongtang",

@@ -821,5 +821,54 @@
       "license": "CC BY-SA 4.0",
       "page": "https://commons.wikimedia.org/wiki/File:Siomai_sa_Tisa.jpg"
     }
+  },
+  "fukuoka:Hakata Tonkotsu Ramen": {
+    "ko": "돼지뼈를 오래 끓인 뽀얀 국물에 아주 가는 면을 말아 먹는 후쿠오카 대표 라멘. 면 익힘 정도를 고르고 면만 추가(가에다마)할 수 있습니다",
+    "en": "Fukuoka's signature ramen: thin noodles in creamy pork-bone broth; choose noodle firmness and order a noodle refill (kaedama)",
+    "ja": "豚骨をじっくり炊いた白濁スープに極細麺を合わせた福岡の代表的なラーメン。麺の硬さを選べ、替え玉もできる",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Tonkotsu_ramen_in_Tokyo.jpg",
+      "author": "Syced",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tonkotsu_ramen_in_Tokyo.jpg"
+    }
+  },
+  "fukuoka:Motsunabe": {
+    "ko": "소곱창을 부추·양배추와 함께 간장·된장 국물에 끓여 먹는 하카타식 곱창 전골. 마무리로 짬뽕면을 넣어 먹습니다",
+    "en": "Hakata hot pot of beef offal with chives and cabbage in soy or miso broth, finished with champon noodles",
+    "ja": "牛もつをニラ・キャベツと醤油や味噌のスープで煮込む博多の鍋。締めはちゃんぽん麺",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Motsunabe_-_Japan_-_August_2014.jpg",
+      "author": "nesnad",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Motsunabe_-_Japan_-_August_2014.jpg"
+    }
+  },
+  "fukuoka:Mentaiko": {
+    "ko": "명태알을 고춧가루 양념에 절인 후쿠오카 명물. 밥에 올리거나 주먹밥·파스타로 먹고, 선물로도 많이 삽니다",
+    "en": "Fukuoka's famous spicy marinated pollock roe, eaten with rice, in onigiri or pasta, and a popular gift",
+    "ja": "スケトウダラの卵を唐辛子入りの調味液に漬けた福岡名物。ご飯やおにぎり、パスタに。お土産にも人気",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Myeongnanjeot_%28salted_pollock_roe%29.jpg",
+      "author": "hee17670",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Myeongnanjeot_(salted_pollock_roe).jpg"
+    }
+  },
+  "fukuoka:Gobo-ten Udon": {
+    "ko": "얇게 썬 우엉 튀김을 올린 우동. 후쿠오카 우동은 면이 부드럽고 국물이 맑은 것이 특징입니다",
+    "en": "Udon topped with crisp burdock tempura; Fukuoka udon is known for soft noodles and a light, clear broth",
+    "ja": "ごぼうの天ぷらをのせたうどん。福岡のうどんは柔らかい麺と澄んだだしが特徴",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Gobo-ten_Udon_Kyushu.JPG",
+      "author": "NY066",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Gobo-ten_Udon_Kyushu.JPG"
+    }
+  },
+  "fukuoka:Mizutaki": {
+    "ko": "닭을 오래 고아 낸 뽀얀 국물에 닭고기와 채소를 익혀 폰즈에 찍어 먹는 하카타 전골",
+    "en": "Hakata chicken hot pot: chicken and vegetables simmered in a rich, milky chicken broth, dipped in ponzu",
+    "ja": "鶏をじっくり炊いた白濁スープで鶏肉と野菜を煮て、ポン酢でいただく博多の鍋"
   }
 }

@@ -27,6 +27,7 @@
 | 뉴욕 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 이스탄불 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 상하이 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 후쿠오카 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 서울 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 부산 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 제주 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -374,6 +375,32 @@
 | BKK-SN-902 | 방콕 | 펩시 캔 325ml (빅C) | 16 THB | A | 예 | 재검증 | [Big C Online](https://www.bigc.co.th/en/product/pepsi-soft-drink-original-flavor-can-325-ml.1181643) |
 | NYC-AL-901 | 뉴욕 | 휴스턴 홀 필스너 스몰 | 10 USD | A | 예 | 재검증 | [Houston Hall](https://www.houstonhallny.com/menus/) |
 | BCN-AL-901 | 바르셀로나 | 파브리카 모리츠 라거 에스페시알 생맥주 25cl | 2.65 EUR | A | 예 | 재검증 | [Fàbrica Moritz Barcelona](https://fabricamoritzbarcelona.com/wp-content/uploads/2026/05/fmb_cartes-begudes_maig26_cat.pdf) |
+| FUK-TR-001 | 후쿠오카 | 후쿠오카시 지하철 1회권(1~4구간) | 210~340 JPY | A | 예 | 재검증 | [福岡市地下鉄](https://subway.city.fukuoka.lg.jp/fare/futuken/) |
+| FUK-TR-002 | 후쿠오카 | 후쿠오카시 지하철 1회권 소아(1~4구간) | 110~170 JPY | A | 예 | 재검증 | [福岡市地下鉄](https://subway.city.fukuoka.lg.jp/fare/futuken/) |
+| FUK-TR-003 | 후쿠오카 | 니시테츠 버스 후쿠오카 도심 균일 운임 | 150 JPY | A | 예 | 재검증 | [西鉄グループ](https://www.nishitetsu.jp/bus/rosen/150/) |
+| FUK-TR-004 | 후쿠오카 | 니시테츠 버스 후쿠오카 도심 균일 운임 소아 | 80 JPY | A | 예 | 재검증 | [西鉄グループ](https://www.nishitetsu.jp/bus/rosen/150/) |
+| FUK-TR-005 | 후쿠오카 | 후쿠오카시 지하철 1일 승차권 | 640 JPY | A | 예 | 재검증 | [福岡市地下鉄](https://subway.city.fukuoka.lg.jp/fare/card/oneday.php) |
+| FUK-TR-006 | 후쿠오카 | 후쿠오카시 지하철 1일 승차권 소아 | 320 JPY | A | 예 | 재검증 | [福岡市地下鉄](https://subway.city.fukuoka.lg.jp/fare/card/oneday.php) |
+| FUK-FD-001 | 후쿠오카 | 마키노 우동 고보텐 우동 | 490 JPY | A | 예 | 재검증 | [釜揚げ牧のうどん](https://www.makinoudon.jp/cont1/main.html) |
+| FUK-FD-002 | 후쿠오카 | 라쿠텐치 모쓰나베 1인분 | 1771 JPY | A | 예 | 재검증 | [元祖もつ鍋 楽天地](https://rakutenti.com/menu/) |
+| FUK-FD-003 | 후쿠오카 | 마에다야 모쓰나베 1인분 | 2068 JPY | A | 예 | 재검증 | [博多もつ鍋 前田屋](https://motsunabe-maedaya.com/menu/) |
+| FUK-SN-001 | 후쿠오카 | 패밀리마트 블렌드 커피 S | 158 JPY | A | 예 | 재검증 | [ファミリーマート](https://www.family.co.jp/goods/cafe.html) |
+| FUK-SN-002 | 후쿠오카 | 패밀리마트 카페라테 M | 255 JPY | A | 예 | 재검증 | [ファミリーマート](https://www.family.co.jp/goods/cafe.html) |
+| FUK-SN-003 | 후쿠오카 | 패밀리마트 아이스커피 S | 158 JPY | A | 예 | 재검증 | [ファミリーマート](https://www.family.co.jp/goods/cafe.html) |
+| FUK-AL-001 | 후쿠오카 | 마에다야 생맥주(삿포로 쿠로라벨) | 693 JPY | A | 예 | 재검증 | [博多もつ鍋 前田屋](https://motsunabe-maedaya.com/menu/) |
+| FUK-AL-002 | 후쿠오카 | 마에다야 가쿠 하이볼 | 594 JPY | A | 예 | 재검증 | [博多もつ鍋 前田屋](https://motsunabe-maedaya.com/menu/) |
+| FUK-AL-003 | 후쿠오카 | 마에다야 소주 구로키리시마 | 528 JPY | A | 예 | 재검증 | [博多もつ鍋 前田屋](https://motsunabe-maedaya.com/menu/) |
+| FUK-AT-001 | 후쿠오카 | 후쿠오카 타워 전망 요금(성인) | 1000 JPY | A | 예 | 재검증 | [福岡タワー](https://www.fukuokatower.co.jp/charge/) |
+| FUK-AT-002 | 후쿠오카 | 후쿠오카 타워 전망 요금(초중학생) | 500 JPY | A | 예 | 재검증 | [福岡タワー](https://www.fukuokatower.co.jp/charge/) |
+| FUK-AT-003 | 후쿠오카 | 후쿠오카시 미술관 컬렉션전(일반) | 200 JPY | A | 예 | 재검증 | [福岡市美術館](https://www.fukuoka-art-museum.jp/guide/) |
+| FUK-AT-004 | 후쿠오카 | 후쿠오카시 미술관 컬렉션전(중학생 이하 무료) | 0 JPY | A | 예 | 재검증 | [福岡市美術館](https://www.fukuoka-art-museum.jp/guide/) |
+| FUK-AT-005 | 후쿠오카 | 후쿠오카시 박물관 상설전(일반) | 200 JPY | A | 예 | 재검증 | [福岡市博物館](https://museum.city.fukuoka.jp/sp/about/) |
+| FUK-AT-006 | 후쿠오카 | 후쿠오카시 박물관 상설전(중학생 이하 무료) | 0 JPY | A | 예 | 재검증 | [福岡市博物館](https://museum.city.fukuoka.jp/sp/about/) |
+| FUK-AT-007 | 후쿠오카 | 마린월드 우미노나카미치 입장료(성인) | 2500 JPY | A | 예 | 재검증 | [マリンワールド海の中道](https://marine-world.jp/general-guide/regular-fees/) |
+| FUK-AT-008 | 후쿠오카 | 마린월드 우미노나카미치 입장료(초중학생) | 1200 JPY | A | 예 | 재검증 | [マリンワールド海の中道](https://marine-world.jp/general-guide/regular-fees/) |
+| FUK-AT-009 | 후쿠오카 | 우미노나카미치 해변공원 입장료(성인) | 450 JPY | A | 예 | 재검증 | [国営海の中道海浜公園](https://uminaka-park.jp/guide/open-hour/) |
+| FUK-AT-010 | 후쿠오카 | 우미노나카미치 해변공원 입장료(중학생 이하 무료) | 0 JPY | A | 예 | 재검증 | [国営海の中道海浜公園](https://uminaka-park.jp/guide/open-hour/) |
+| FUK-TR-007 | 후쿠오카 | JR규슈 보통 운임 기본(초승) | 200 JPY | A | 예 | 재검증 | [JR九州](https://www.jrkyushu.co.jp/news/__icsFiles/afieldfile/2024/07/19/240719_fare_revision.pdf) |
 | TYO-AT-206 | 도쿄 | 도쿄타워 메인데크 초등학생 입장권 | 900 JPY | A | 예 | 재검증 | [TOKYO TOWER](https://en.tokyotower.co.jp/fee/) |
 | OSA-AT-201 | 오사카 | 산타마리아 데이크루즈 초등학생 요금 | 1000 JPY | A | 예 | 재검증 | [大阪水上バス](https://suijo-bus.osaka/cruiselist/santamaria/) |
 | BKK-AT-201 | 방콕 | 방콕 예술문화센터 일반 전시 아동 관람 | 0 THB | A | 예 | 재검증 | [Bangkok Art and Culture Centre](https://www.bacc.or.th/en/plan-your-visit) |

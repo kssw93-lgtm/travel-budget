@@ -80,16 +80,6 @@
     "stage": "파일럿"
   },
   {
-    "id": "fukuoka",
-    "country": "일본",
-    "countryEn": "Japan",
-    "nameKo": "후쿠오카",
-    "nameEn": "Fukuoka",
-    "currency": "JPY",
-    "tier": "B",
-    "stage": "2차"
-  },
-  {
     "id": "nha-trang",
     "country": "베트남",
     "countryEn": "Vietnam",
@@ -216,6 +206,16 @@
     "nameKo": "상하이",
     "nameEn": "Shanghai",
     "currency": "CNY",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "fukuoka",
+    "country": "일본",
+    "countryEn": "Japan",
+    "nameKo": "후쿠오카",
+    "nameEn": "Fukuoka",
+    "currency": "JPY",
     "tier": "B",
     "stage": "파일럿"
   },

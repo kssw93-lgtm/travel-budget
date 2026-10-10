@@ -531,6 +531,34 @@
     "missing": [],
     "computable": true
   },
+  "kuala-lumpur": {
+    "counts": {
+      "food": 5,
+      "transport": 4,
+      "attraction": 2
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 5,
+      "snack": 4,
+      "drink": 3,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 5,
+      "snack": 4,
+      "drink": 3,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "sapporo": {
     "counts": {
       "food": 4,

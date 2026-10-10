@@ -110,16 +110,6 @@
     "stage": "2차"
   },
   {
-    "id": "kuala-lumpur",
-    "country": "말레이시아",
-    "countryEn": "Malaysia",
-    "nameKo": "쿠알라룸푸르",
-    "nameEn": "Kuala Lumpur",
-    "currency": "MYR",
-    "tier": "B",
-    "stage": "2차"
-  },
-  {
     "id": "dubai",
     "country": "아랍에미리트",
     "countryEn": "United Arab Emirates",
@@ -237,6 +227,16 @@
     "nameEn": "Jeju",
     "currency": "KRW",
     "tier": "A",
+    "stage": "파일럿"
+  },
+  {
+    "id": "kuala-lumpur",
+    "country": "말레이시아",
+    "countryEn": "Malaysia",
+    "nameKo": "쿠알라룸푸르",
+    "nameEn": "Kuala Lumpur",
+    "currency": "MYR",
+    "tier": "B",
     "stage": "파일럿"
   },
   {

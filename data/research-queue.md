@@ -32,6 +32,7 @@
 | 서울 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 부산 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 제주 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 쿠알라룸푸르 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 삿포로 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 
 ## 3. 공식 재검증이 필요한 표본
@@ -534,6 +535,23 @@
 | CJU-AT-008 | 제주 | 오설록 티뮤지엄 본관 관람 | 0 KRW | A | 예 | 재검증 | [오설록 공식홈페이지 티뮤지엄 안내](https://www.osulloc.com/kr/ko/museum) |
 | CJU-AT-009 | 제주 | 천지연폭포 관람료 (어른) | 2000 KRW | A | 예 | 재검증 | [서귀포시 공영관광지 관람안내](https://www.seogwipo.go.kr/) |
 | CJU-AT-010 | 제주 | 천지연폭포 관람료 (어린이) | 1000 KRW | A | 예 | 재검증 | [서귀포시 공영관광지 관람안내](https://www.seogwipo.go.kr/) |
+| KUL-FD-101 | 쿠알라룸푸르 | 마담콴 나시르막(커리 치킨) | 25.9 MYR | A | 예 | 재검증 | [Madam Kwan's 공식 KL 지역 메뉴 PDF](https://www.madamkwans.com.my/3dflipbook/books/pdf/KLAreaMenu.pdf) |
+| KUL-FD-102 | 쿠알라룸푸르 | 마담콴 차콰이테오 | 27.9 MYR | A | 예 | 재검증 | [Madam Kwan's 공식 KL 지역 메뉴 PDF](https://www.madamkwans.com.my/3dflipbook/books/pdf/KLAreaMenu.pdf) |
+| KUL-FD-103 | 쿠알라룸푸르 | 더 소셜 나시르막 | 28 MYR | A | 예 | 재검증 | [TheSocial 공식 À La Carte 메뉴](https://thesocial.com.my/alacarte-menu/) |
+| KUL-FD-104 | 쿠알라룸푸르 | 더 소셜 피시 앤 칩스 | 44 MYR | A | 예 | 재검증 | [TheSocial 공식 À La Carte 메뉴](https://thesocial.com.my/alacarte-menu/) |
+| KUL-FD-105 | 쿠알라룸푸르 | 난도스 치킨 1/4마리 + 사이드 2개 | 28.9 MYR | A | 예 | 재검증 | [Nando's Malaysia 공식 메뉴](https://www.nandos.com.my/menu) |
+| KUL-TR-101 | 쿠알라룸푸르 | Rapid KL 피더버스 | 1 MYR | A | 예 | 재검증 | [MyRapid 공식 FAQ](https://myrapid.com.my/resources/faqs/) |
+| KUL-TR-102 | 쿠알라룸푸르 | Rapid KL 온디맨드 | 2 MYR | A | 예 | 재검증 | [MyRapid 공식](https://myrapid.com.my/bus-train/rapid-kl/on-demand/) |
+| KUL-SN-101 | 쿠알라룸푸르 | 마담콴 테타릭 | 8.5 MYR | A | 예 | 재검증 | [Madam Kwan's 공식 KL 지역 메뉴 PDF](https://www.madamkwans.com.my/3dflipbook/books/pdf/KLAreaMenu.pdf) |
+| KUL-SN-102 | 쿠알라룸푸르 | 마담콴 첸돌 | 13.9 MYR | A | 예 | 재검증 | [Madam Kwan's 공식 KL 지역 메뉴 PDF](https://www.madamkwans.com.my/3dflipbook/books/pdf/KLAreaMenu.pdf) |
+| KUL-SN-103 | 쿠알라룸푸르 | 더 소셜 콜라 | 8 MYR | A | 예 | 재검증 | [TheSocial 공식 음료 메뉴](https://thesocial.com.my/beverage-menu/) |
+| KUL-SN-104 | 쿠알라룸푸르 | 더 소셜 라테(핫) | 13 MYR | A | 예 | 재검증 | [TheSocial 공식 음료 메뉴](https://thesocial.com.my/beverage-menu/) |
+| KUL-AL-101 | 쿠알라룸푸르 | 더 소셜 타이거 생맥주 파인트 | 31 MYR | A | 예 | 재검증 | [TheSocial 공식 음료 메뉴](https://thesocial.com.my/beverage-menu/) |
+| KUL-AL-102 | 쿠알라룸푸르 | 더 소셜 기네스 생맥주 파인트 | 36 MYR | A | 예 | 재검증 | [TheSocial 공식 음료 메뉴](https://thesocial.com.my/beverage-menu/) |
+| KUL-AL-103 | 쿠알라룸푸르 | 마담콴 타이거 병맥주 | 24.5 MYR | A | 예 | 재검증 | [Madam Kwan's 공식 KL 지역 메뉴 PDF](https://www.madamkwans.com.my/3dflipbook/books/pdf/KLAreaMenu.pdf) |
+| KUL-AT-101 | 쿠알라룸푸르 | 페트로나스 트윈타워 일반 입장(성인 13~60세) | 127~137 MYR | A | 예 | 재검증 | [PETRONAS Twin Towers 공식 Admission Rate](https://www.petronastwintowers.com.my/plan-your-visit/admission-ticketing/) |
+| KUL-AT-102 | 쿠알라룸푸르 | 페트로나스 트윈타워 일반 입장(어린이 2~12세) | 65~69 MYR | A | 예 | 재검증 | [PETRONAS Twin Towers 공식 Admission Rate](https://www.petronastwintowers.com.my/plan-your-visit/admission-ticketing/) |
+| KUL-AT-103 | 쿠알라룸푸르 | 아쿠아리아 KLCC 일반 입장 | 82 MYR | A | 조건부 | 조건부, 재검증, 시작가 표기 | [Aquaria KLCC 공식 티켓 페이지(목록)](https://tickets.aquariaklcc.com/) |
 | NYC-TR-001 | 뉴욕 | 지하철·시내버스 기본 요금 | 3 USD | A | 예 | 재검증 | [MTA](https://www.mta.info/fares-tolls/subway-bus) |
 | NYC-TR-002 | 뉴욕 | 급행버스 기본 요금 | 7.25 USD | A | 예 | 재검증 | [MTA](https://www.mta.info/fares-tolls/subway-bus) |
 | NYC-TR-003 | 뉴욕 | NYC 페리 성인 편도 | 4.5 USD | A | 예 | 재검증 | [NYC Ferry](https://www.ferry.nyc/ticketing-info/) |
@@ -665,6 +683,9 @@
 | SPK-AT-004 | 삿포로 | 모이와야마 로프웨이+미니 케이블카 왕복(어린이) | 1050 JPY | A | 예 | 재검증 | [札幌もいわ山ロープウェイ](https://mt-moiwa.jp/guide/) |
 | SPK-AT-005 | 삿포로 | 삿포로시 시계탑 입관료(성인) | 350 JPY | A | 예 | 재검증 | [札幌市時計台](https://sapporoshi-tokeidai.jp/) |
 | SPK-AT-006 | 삿포로 | 삿포로시 시계탑 입관료(중학생 이하 무료) | 0 JPY | A | 예 | 재검증 | [札幌市時計台](https://sapporoshi-tokeidai.jp/) |
+| KUL-TR-201 | 쿠알라룸푸르 | LRT KL Sentral–KLCC 현금(토큰) | 2.4 MYR | A | 예 | 재검증 | [MyRapid 공식 통합 운임표(현금) 이미지](https://myrapid.com.my/wp-content/uploads/2022/10/INTEGRATED-FARE-TABLE_updated-06MAY21_Cash.png) |
+| KUL-TR-202 | 쿠알라룸푸르 | KL Sentral(LRT)–Bukit Bintang(모노레일) 현금 통합 운임 | 2.4 MYR | A | 조건부 | 조건부, 재검증 | [MyRapid 공식 통합 운임표(현금) 이미지](https://myrapid.com.my/wp-content/uploads/2022/10/INTEGRATED-FARE-TABLE_updated-06MAY21_Cash.png) |
+| KUL-TR-203 | 쿠알라룸푸르 | GoKL 시티버스(외국인) | 1 MYR | A | 예 | 재검증 | [쿠알라룸푸르 시청(DBKL) KLCCC 공식](https://klccc.dbkl.gov.my/gokl-2/) |
 | SEL-FD-101 | 서울 | 한솥 제육 비빔밥 | 6500 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [HANSOT 한솥](https://en.hsd.co.kr/Menu) |
 | SEL-FD-102 | 서울 | 한솥 김치볶음밥 | 4400 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [HANSOT 한솥](https://en.hsd.co.kr/Menu) |
 | SEL-FD-103 | 서울 | 골드참치 점심 코스 B | 35000 KRW | A | 예 | 재검증 | [Goldtuna 골드참치](https://www.goldtuna.co.kr/en) |

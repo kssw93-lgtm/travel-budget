@@ -1958,6 +1958,82 @@
     "note": ""
   },
   {
+    "cityId": "kuala-lumpur",
+    "nameKo": "나시르막",
+    "nameEn": "Nasi Lemak",
+    "reason": "코코넛 밥에 삼발 소스·멸치·땅콩·달걀을 곁들이는 말레이시아 국민 음식",
+    "reasonEn": "Malaysia's national dish",
+    "desc": {
+      "ko": "코코넛 밀크로 지은 밥에 매콤한 삼발 소스, 튀긴 멸치, 땅콩, 삶은 달걀을 곁들이는 말레이시아 국민 음식",
+      "en": "Malaysia's national dish: coconut-milk rice with spicy sambal, fried anchovies, peanuts and egg",
+      "ja": "ココナッツミルクで炊いたご飯に辛いサンバル、揚げ小魚、ピーナッツ、ゆで卵を添えたマレーシアの国民食"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "KUL-FD-101"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-10)"
+  },
+  {
+    "cityId": "kuala-lumpur",
+    "nameKo": "차퀘티아우",
+    "nameEn": "Char Kway Teow",
+    "reason": "넓적한 쌀국수를 새우·숙주와 센 불에 볶아 내는 노점 대표 메뉴",
+    "reasonEn": "The classic hawker noodle stir-fry",
+    "desc": {
+      "ko": "넓적한 쌀국수를 새우·숙주·달걀과 센 불에 볶아 불맛을 낸 노점 대표 메뉴",
+      "en": "Flat rice noodles stir-fried over high heat with prawns, bean sprouts and egg, a hawker favorite",
+      "ja": "平たい米麺を海老、もやし、卵と強火で炒めた屋台の定番"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "KUL-FD-102"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-10)"
+  },
+  {
+    "cityId": "kuala-lumpur",
+    "nameKo": "사테",
+    "nameEn": "Satay",
+    "reason": "양념한 닭·소고기 꼬치를 숯불에 구워 땅콩 소스에 찍어 먹는 요리",
+    "reasonEn": "Charcoal-grilled skewers with peanut sauce",
+    "desc": {
+      "ko": "양념에 재운 닭·소고기 꼬치를 숯불에 구워 달콤한 땅콩 소스에 찍어 먹는 요리",
+      "en": "Marinated chicken or beef skewers grilled over charcoal and dipped in sweet peanut sauce",
+      "ja": "下味をつけた鶏肉や牛肉の串を炭火で焼き、甘いピーナッツソースで食べる料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-10)"
+  },
+  {
+    "cityId": "kuala-lumpur",
+    "nameKo": "로티 차나이",
+    "nameEn": "Roti Canai",
+    "reason": "얇게 펴 구운 빵을 카레에 찍어 먹는 인도계 말레이시아 아침 메뉴",
+    "reasonEn": "The go-to Malaysian breakfast",
+    "desc": {
+      "ko": "반죽을 얇게 펴 겹겹이 구운 빵을 달·카레 소스에 찍어 먹는 인도계 말레이시아 아침 메뉴",
+      "en": "Flaky, layered flatbread served with dhal or curry, a Malaysian-Indian breakfast staple",
+      "ja": "薄く伸ばして層状に焼いたパンをダールやカレーにつけて食べる、インド系マレーシアの朝食の定番"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-10)"
+  },
+  {
     "cityId": "new-york",
     "nameKo": "베이글",
     "nameEn": "Bagel",

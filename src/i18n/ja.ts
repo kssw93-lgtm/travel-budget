@@ -86,6 +86,7 @@ export const ja: Messages = {
   },
   warnings: {
     insufficient: 'サンプル不足：計算に使える価格が{min}件未満のため、金額を出していません。',
+    countryShared: '{basket}：この都市の公式価格が少ないため、同じ国の他の都市の公式価格もあわせて使いました。',
     lowFillRate: '費用の区分ごとのサンプルはありますが、全体の充足率が{rate}%未満のため合計を出していません。',
     conditionalUsed: 'モデル利用が「条件付き」のサンプルを含みます：{names}',
     gradeCUsed: 'C等級（補助的な出典）の価格を含みます：{names}',

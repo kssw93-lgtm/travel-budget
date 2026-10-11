@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { classify } from '../core/classify';
+import { cityRows } from '../core/city-rows';
 import { MODEL } from '../core/model-config';
 import type { City, PriceSample } from '../core/types';
 import { fmt, localName, useI18n } from '../i18n';
@@ -24,7 +24,7 @@ export function DrinkOptions({ city, samples, form, onChange, errors }: Props) {
   const { t, lang } = useI18n();
   const p = t.plan;
   const [pick, setPick] = useState('');
-  const drinks = samples.filter((s) => s.cityId === city.id).map(classify).filter((r) => r.usable && r.basket === 'drink' && r.audience === 'adult').map((r) => r.sample);
+  const drinks = cityRows(city, samples).rows.filter((r) => r.usable && r.basket === 'drink' && r.audience === 'adult').map((r) => r.sample);
   const byId = new Map(drinks.map((s) => [s.id, s]));
   const list = form.drinkPicks;
   const setList = (drinkPicks: MustEatInput[]) => onChange({ drinkPicks });

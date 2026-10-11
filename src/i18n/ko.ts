@@ -81,6 +81,7 @@ export const ko = {
   },
   warnings: {
     insufficient: '표본 부족: 계산에 쓸 수 있는 가격이 {min}건 미만이라 금액을 내지 않았습니다.',
+    countryShared: '{basket}: 이 도시 공식 가격이 부족해 같은 나라 다른 도시의 공식 가격을 함께 썼습니다.',
     lowFillRate: '비용군별 표본은 있으나 전체 충족률이 {rate}% 미만이라 합계를 내지 않았습니다.',
     conditionalUsed: '모델 사용이 "조건부"인 표본을 포함했습니다: {names}',
     gradeCUsed: 'C등급(보조 출처) 가격을 포함했습니다: {names}',

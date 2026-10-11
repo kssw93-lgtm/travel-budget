@@ -1,7 +1,8 @@
-import { classify, isVariablePricing, type Classified, type ExcludeReason } from './classify';
+import { isVariablePricing, type Classified, type ExcludeReason } from './classify';
 import { addDays } from './dates';
 import { BASKET_RULES, BASKETS, CATEGORIES, EDGE_WEIGHTED, ESTIMATED_CATEGORIES, MODEL, minSamples, minSamplesForCategory } from './model-config';
 import { attractionOptions } from './attractions';
+import { cityRows } from './city-rows';
 import { passOptions, passesNeeded } from './transport';
 import { estimateExtras } from './extras';
 import { endpoints, independentCount, poolOnDate, selectUsable, styleRange } from './pool';
@@ -311,7 +312,8 @@ export function estimateTrip(input: TripInput, city: City, samples: PriceSample[
   const days = tripDays(input.nights);
   const dates = Array.from({ length: days }, (_, i) => addDays(input.visitDate, i));
   const weights = dayWeights(days);
-  const classified = samples.filter((s) => s.cityId === city.id).map(classify);
+  const { rows: classified, borrowed } = cityRows(city, samples);
+  const borrowedIds = new Set(classified.filter((r) => r.sample.cityId !== city.id).map((r) => r.sample.id));
 
   const categories = {} as Record<CostCategory, CategoryEstimate>;
   const warnings: Warning[] = [];
@@ -327,6 +329,13 @@ export function estimateTrip(input: TripInput, city: City, samples: PriceSample[
             : estimateCategory(c, classified, input, dates, weights);
     categories[c] = run.estimate;
     warnings.push(...run.warnings);
+  }
+
+  // 같은 나라 다른 도시 가격을 함께 쓴 바스켓은 해당 비용군에 알린다
+  for (const b of borrowed) {
+    const category = CATEGORIES.find((c) => BASKET_RULES[c].baskets.includes(b));
+    if (category && categories[category].usedIds.some((id) => borrowedIds.has(id)))
+      warnings.push({ category, code: 'countryShared', basket: b });
   }
 
   const missing = CATEGORIES.filter((c) => !categories[c].sufficient);
@@ -381,7 +390,7 @@ export interface CitySummary {
 
 /** 방문일·인원과 무관한 도시 데이터 현황(조사 큐·상태 파일·테스트에 쓴다) */
 export function summarizeCity(city: City, samples: PriceSample[]): CitySummary {
-  const rows = samples.filter((s) => s.cityId === city.id).map(classify);
+  const { rows } = cityRows(city, samples);
   const baskets = {} as Record<Basket, number>;
   const basketRows = {} as Record<Basket, number>;
   for (const b of BASKETS) {

@@ -12,6 +12,7 @@
     "typecheck": "tsc -b",
     "test": "vitest run",
     "test:e2e": "playwright test",
+    "data:compare": "tsx scripts/compare-country.ts",
     "status:update": "vitest run tests/unit/city-status.test.ts -u",
     "build": "vite build",
     "build:preview": "tsx scripts/build-preview.ts",

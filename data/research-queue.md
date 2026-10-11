@@ -23,10 +23,8 @@
 | 런던 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 세부 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 교토 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 교토 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 오키나와 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 나고야 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
-| 나고야 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 강릉 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 강릉 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 경주 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -38,7 +36,6 @@
 | 호치민 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 치앙마이 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 치앙마이 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
-| 치앙마이 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -54,7 +51,6 @@
 | 삿포로 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 나트랑 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 나트랑 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
-| 나트랑 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 푸꾸옥 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 푸꾸옥 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 발리 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -346,6 +342,25 @@
 | NYC-SN-907 | 뉴욕 | 그레이스 파파야 트로피컬 드링크 미디엄 | 3 USD | A | 예 | 재검증 | [Gray's Papaya](https://grayspapaya.nyc/uptown-menu/) |
 | NYC-SN-908 | 뉴욕 | 그레이스 파파야 생수 | 1.5 USD | A | 예 | 재검증 | [Gray's Papaya](https://grayspapaya.nyc/uptown-menu/) |
 | NYC-SN-910 | 뉴욕 | 로스 타코스 No.1 칩스 이 살사 | 4.75 USD | A | 예 | 재검증 | [Los Tacos No. 1](https://www.lostacos1.com/menus/) |
+| KYO-FD-201 | 교토 | 마쓰바 니신소바(청어 소바) | 1870 JPY | A | 예 | 재검증 | [総本家にしんそば 松葉 공식 메뉴](https://www.sobamatsuba.co.jp/menu/) |
+| KYO-FD-202 | 교토 | 마쓰바 덴푸라 소바 | 1980 JPY | A | 예 | 재검증 | [総本家にしんそば 松葉 공식 메뉴](https://www.sobamatsuba.co.jp/menu/) |
+| KYO-FD-203 | 교토 | 마쓰바 소바집 가쓰동 | 1925 JPY | A | 예 | 재검증 | [総本家にしんそば 松葉 공식 메뉴](https://www.sobamatsuba.co.jp/menu/) |
+| NGO-FD-201 | 나고야 | 아쓰타 호라이켄 본점 히쓰마부시 | 4950 JPY | A | 예 | 재검증 | [あつた蓬莱軒 本店 공식 메뉴](https://www.houraiken.com/honten/index.html) |
+| NGO-FD-202 | 나고야 | 아쓰타 호라이켄 본점 장어덮밥(3조각) | 3300 JPY | A | 예 | 재검증 | [あつた蓬莱軒 本店 공식 메뉴](https://www.houraiken.com/honten/index.html) |
+| NGO-FD-203 | 나고야 | 세카이노 야마짱 마보로시노 데바사키(5개, 1인분) | 660 JPY | A | 예 | 재검증 | [世界の山ちゃん 공식 그랜드 메뉴(이미지 2~3쪽)](https://www.yamachan.co.jp/menu/images/GM2026_P2P3_pc.jpg) |
+| NGO-FD-204 | 나고야 | 세카이노 야마짱 타이완 야키소바 | 858 JPY | A | 예 | 재검증 | [世界の山ちゃん 공식 그랜드 메뉴(이미지 2~3쪽)](https://www.yamachan.co.jp/menu/images/GM2026_P2P3_pc.jpg) |
+| NGO-FD-205 | 나고야 | 세카이노 야마짱 철판 나폴리탄 | 946 JPY | A | 예 | 재검증 | [世界の山ちゃん 공식 그랜드 메뉴(이미지 2~3쪽)](https://www.yamachan.co.jp/menu/images/GM2026_P2P3_pc.jpg) |
+| OKA-FD-201 | 오키나와 | 잭스 스테이크하우스 텐더로인 스테이크(S) | 3200 JPY | A | 예 | 재검증 | [JACK'S STEAK HOUSE 공식 MENU](https://steak.co.jp/pages/menu) |
+| OKA-FD-202 | 오키나와 | 잭스 스테이크하우스 A런치 | 1200 JPY | A | 예 | 재검증 | [JACK'S STEAK HOUSE 공식 MENU](https://steak.co.jp/pages/menu) |
+| OKA-FD-203 | 오키나와 | 잭스 스테이크하우스 타코라이스 | 600 JPY | A | 예 | 재검증 | [JACK'S STEAK HOUSE 공식 MENU](https://steak.co.jp/pages/menu) |
+| OKA-AL-201 | 오키나와 | 잭스 스테이크하우스 오리온 생맥주(중) | 550 JPY | A | 예 | 재검증 | [JACK'S STEAK HOUSE 공식 MENU](https://steak.co.jp/pages/menu) |
+| OKA-AL-202 | 오키나와 | 잭스 스테이크하우스 하이볼 | 450 JPY | A | 예 | 재검증 | [JACK'S STEAK HOUSE 공식 MENU](https://steak.co.jp/pages/menu) |
+| OKA-SN-201 | 오키나와 | 잭스 스테이크하우스 코카콜라 | 300 JPY | A | 예 | 재검증 | [JACK'S STEAK HOUSE 공식 MENU](https://steak.co.jp/pages/menu) |
+| OKA-SN-202 | 오키나와 | 잭스 스테이크하우스 커피(아이스·핫) | 300 JPY | A | 예 | 재검증 | [JACK'S STEAK HOUSE 공식 MENU](https://steak.co.jp/pages/menu) |
+| CNX-FD-301 | 치앙마이 | MK 믹스 수키 스탠다드(1인 단품) | 114 THB | A | 조건부 | 조건부, 재검증 | [MK Restaurants 공식 메뉴(Single Dish)](https://www.mkrestaurant.com/en/mk-menu/single-dish) |
+| CNX-FD-302 | 치앙마이 | MK 해물 수키(국물) | 142 THB | A | 조건부 | 조건부, 재검증 | [MK Restaurants 공식 메뉴(Single Dish)](https://www.mkrestaurant.com/en/mk-menu/single-dish) |
+| CNX-SN-301 | 치앙마이 | MK 아이스 레몬티 | 50 THB | A | 조건부 | 조건부, 재검증 | [MK Restaurants 공식 메뉴(Beverage)](https://www.mkrestaurant.com/en/mk-menu/beverage) |
+| CNX-SN-302 | 치앙마이 | MK 라임 주스(블렌디드) | 65 THB | A | 조건부 | 조건부, 재검증 | [MK Restaurants 공식 메뉴(Beverage)](https://www.mkrestaurant.com/en/mk-menu/beverage) |
 | TYO-SN-830 | 도쿄 | 스타벅스 카페 아메리카노 Tall | 490 JPY | A | 예 | 재검증 | [스타벅스 커피 재팬](https://menu.starbucks.co.jp/4524785000315) |
 | TYO-SN-831 | 도쿄 | 스타벅스 라테 Tall | 500 JPY | A | 예 | 재검증 | [스타벅스 커피 재팬](https://menu.starbucks.co.jp/4524785000223) |
 | TYO-SN-832 | 도쿄 | 털리스 카페 아메리카노 Tall | 450 JPY | A | 예 | 재검증 | [털리스 커피 재팬](https://www.tullys.co.jp/menu/drink/coffee/es_americano.html) |

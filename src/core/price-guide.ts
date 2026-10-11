@@ -1,4 +1,4 @@
-import { classify } from './classify';
+import { cityRows } from './city-rows';
 import { BASKET_RULES, BASKETS, MODEL, minSamples } from './model-config';
 import { endpoints, independentCount, quantile, selectUsable } from './pool';
 import type { Basket, City, PriceSample } from './types';
@@ -16,7 +16,7 @@ export interface GuideRow {
 }
 
 export function priceGuide(city: City, samples: PriceSample[]): GuideRow[] {
-  const all = samples.filter((s) => s.cityId === city.id).map(classify);
+  const all = cityRows(city, samples).rows;
   const out: GuideRow[] = [];
   for (const basket of BASKETS) {
     const pool = selectUsable(all.filter((r) => r.basket === basket && r.audience === 'adult'));

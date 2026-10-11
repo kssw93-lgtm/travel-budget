@@ -253,15 +253,15 @@
   },
   "kyoto": {
     "counts": {
-      "food": 3,
+      "food": 6,
       "transport": 3,
       "attraction": 2
     },
     "baskets": {
       "pass": 1,
       "ride": 3,
-      "meal": 3,
-      "snack": 2,
+      "meal": 6,
+      "snack": 22,
       "drink": 4,
       "attraction": 2,
       "souvenir": 0
@@ -269,8 +269,8 @@
     "basketRows": {
       "pass": 1,
       "ride": 3,
-      "meal": 3,
-      "snack": 2,
+      "meal": 6,
+      "snack": 38,
       "drink": 4,
       "attraction": 2,
       "souvenir": 0
@@ -281,25 +281,25 @@
   },
   "okinawa": {
     "counts": {
-      "food": 3,
+      "food": 6,
       "transport": 3,
       "attraction": 3
     },
     "baskets": {
       "pass": 2,
       "ride": 3,
-      "meal": 3,
-      "snack": 4,
-      "drink": 1,
+      "meal": 6,
+      "snack": 3,
+      "drink": 3,
       "attraction": 3,
       "souvenir": 0
     },
     "basketRows": {
       "pass": 3,
       "ride": 3,
-      "meal": 3,
-      "snack": 4,
-      "drink": 1,
+      "meal": 6,
+      "snack": 3,
+      "drink": 3,
       "attraction": 3,
       "souvenir": 0
     },
@@ -309,25 +309,25 @@
   },
   "nagoya": {
     "counts": {
-      "food": 3,
+      "food": 8,
       "transport": 4,
       "attraction": 0
     },
     "baskets": {
       "pass": 4,
       "ride": 2,
-      "meal": 3,
-      "snack": 0,
-      "drink": 0,
+      "meal": 8,
+      "snack": 22,
+      "drink": 23,
       "attraction": 0,
       "souvenir": 0
     },
     "basketRows": {
       "pass": 4,
       "ride": 2,
-      "meal": 3,
-      "snack": 0,
-      "drink": 0,
+      "meal": 8,
+      "snack": 38,
+      "drink": 30,
       "attraction": 0,
       "souvenir": 0
     },
@@ -513,8 +513,8 @@
       "pass": 0,
       "ride": 1,
       "meal": 3,
-      "snack": 1,
-      "drink": 0,
+      "snack": 3,
+      "drink": 3,
       "attraction": 3,
       "souvenir": 0
     },
@@ -522,8 +522,8 @@
       "pass": 0,
       "ride": 1,
       "meal": 3,
-      "snack": 1,
-      "drink": 0,
+      "snack": 3,
+      "drink": 3,
       "attraction": 3,
       "souvenir": 0
     },
@@ -794,7 +794,7 @@
       "ride": 3,
       "meal": 9,
       "snack": 3,
-      "drink": 2,
+      "drink": 14,
       "attraction": 12,
       "souvenir": 5
     },
@@ -803,7 +803,7 @@
       "ride": 3,
       "meal": 9,
       "snack": 3,
-      "drink": 2,
+      "drink": 14,
       "attraction": 12,
       "souvenir": 5
     },
@@ -877,7 +877,7 @@
       "pass": 0,
       "ride": 2,
       "meal": 5,
-      "snack": 2,
+      "snack": 8,
       "drink": 4,
       "attraction": 3,
       "souvenir": 0
@@ -886,7 +886,7 @@
       "pass": 0,
       "ride": 2,
       "meal": 5,
-      "snack": 2,
+      "snack": 8,
       "drink": 4,
       "attraction": 4,
       "souvenir": 0

@@ -82,6 +82,7 @@ export const en: Messages = {
   },
   warnings: {
     insufficient: 'Not enough samples: fewer than {min} usable prices, so no amount is shown.',
+    countryShared: '{basket}: this city has too few official prices, so official prices from other cities in the same country were used as well.',
     lowFillRate: 'Every cost group has samples, but overall coverage is below {rate}%, so no total is shown.',
     conditionalUsed: 'Includes samples marked "conditional" for model use: {names}',
     gradeCUsed: 'Includes grade C (secondary source) prices: {names}',

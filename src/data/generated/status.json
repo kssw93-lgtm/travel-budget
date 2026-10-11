@@ -335,6 +335,118 @@
     "missing": [],
     "computable": true
   },
+  "gangneung": {
+    "counts": {
+      "food": 3,
+      "transport": 2,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 2,
+      "meal": 3,
+      "snack": 4,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 2,
+      "meal": 3,
+      "snack": 4,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "gyeongju": {
+    "counts": {
+      "food": 3,
+      "transport": 4,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "yeosu": {
+    "counts": {
+      "food": 3,
+      "transport": 1,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "jeonju": {
+    "counts": {
+      "food": 3,
+      "transport": 2,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 1,
+      "ride": 2,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 1,
+      "ride": 2,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "barcelona": {
     "counts": {
       "food": 6,
@@ -662,6 +774,118 @@
       "pass": 1,
       "ride": 3,
       "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "nha-trang": {
+    "counts": {
+      "food": 5,
+      "transport": 2,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 2,
+      "meal": 5,
+      "snack": 2,
+      "drink": 4,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 2,
+      "meal": 5,
+      "snack": 2,
+      "drink": 4,
+      "attraction": 4,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "phu-quoc": {
+    "counts": {
+      "food": 5,
+      "transport": 2,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 2,
+      "meal": 5,
+      "snack": 3,
+      "drink": 4,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 2,
+      "meal": 5,
+      "snack": 3,
+      "drink": 4,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "bali": {
+    "counts": {
+      "food": 3,
+      "transport": 3,
+      "attraction": 2
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 3,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 3,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "dubai": {
+    "counts": {
+      "food": 3,
+      "transport": 3,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 3,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 3,
+      "meal": 3,
       "snack": 3,
       "drink": 3,
       "attraction": 3,

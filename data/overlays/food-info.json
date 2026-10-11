@@ -1014,5 +1014,125 @@
     "ko": "일본에서는 오키나와에만 있는 미국식 체인 A&W의 버거와 리필되는 루트비어",
     "en": "Burgers and root beer from A&W, an American drive-in chain found in Japan only in Okinawa",
     "ja": "日本では沖縄だけにあるアメリカ発チェーンA&Wのバーガーとルートビア"
+  },
+  "gangneung:Chodang Sundubu": {
+    "ko": "바닷물 간수로 굳힌 부드러운 초당두부를 순두부로 끓인 강릉 명물",
+    "en": "Soft tofu made with seawater brine in Chodang village, Gangneung's best-known dish",
+    "ja": "海水をにがりに使った草堂豆腐を使う江陵名物のおぼろ豆腐"
+  },
+  "gangneung:Gamja Ongsimi": {
+    "ko": "감자를 갈아 빚은 쫄깃한 새알을 맑은 국물에 끓인 강원도 향토 음식",
+    "en": "Chewy grated-potato dumplings in clear broth, a Gangwon-do classic",
+    "ja": "すりおろしたじゃがいもの団子を澄んだスープで煮た江原道の郷土料理"
+  },
+  "gangneung:Anmok Coffee Street Coffee": {
+    "ko": "바다를 보며 마시는 강릉 안목해변 커피거리의 핸드드립 커피",
+    "en": "Hand-drip coffee by the sea on Anmok Beach Coffee Street",
+    "ja": "海を眺めながら飲む江陵・安木海辺コーヒー通りのハンドドリップコーヒー"
+  },
+  "gyeongju:Gyori Gimbap": {
+    "ko": "달걀지단을 듬뿍 넣어 두툼하게 만 경주 교촌마을 명물 김밥",
+    "en": "Thick gimbap packed with shredded egg, a Gyochon Village specialty",
+    "ja": "錦糸卵をたっぷり巻いた慶州・校村村名物のキンパ"
+  },
+  "gyeongju:Hwangnam-ppang": {
+    "ko": "얇은 반죽에 팥소를 가득 채워 구운 경주 대표 빵",
+    "en": "Thin-crusted bun filled with sweet red bean paste, Gyeongju's signature treat",
+    "ja": "薄い生地にあんこをたっぷり詰めて焼いた慶州名物のパン"
+  },
+  "gyeongju:Kongguksu": {
+    "ko": "진하게 간 콩물에 차가운 국수를 말아 먹는 여름 별미",
+    "en": "Cold noodles in rich ground soybean broth, a summer favorite",
+    "ja": "濃厚な豆乳スープに冷たい麺を入れた夏の味"
+  },
+  "yeosu:Gejang Baekban": {
+    "ko": "간장·양념에 재운 게장을 반찬 가득한 백반과 먹는 여수 대표 밥상",
+    "en": "Soy- or spicy-marinated raw crab with rice and side dishes, Yeosu's signature meal",
+    "ja": "醤油や薬味だれに漬けたワタリガニをご飯と食べる麗水の定食"
+  },
+  "yeosu:Gat Kimchi": {
+    "ko": "여수 돌산 갓으로 담가 알싸한 맛이 나는 김치",
+    "en": "Pungent mustard-leaf kimchi made with Dolsan greens",
+    "ja": "麗水・突山産からし菜で漬けたピリッとしたキムチ"
+  },
+  "yeosu:Seodae-hoe": {
+    "ko": "서대 생선회를 새콤달콤한 초무침으로 버무린 여수 향토 음식",
+    "en": "Sole sashimi tossed in sweet-sour chili dressing, a Yeosu local dish",
+    "ja": "シタビラメの刺身を甘酸っぱいたれで和えた麗水の郷土料理"
+  },
+  "jeonju:Jeonju Bibimbap": {
+    "ko": "고슬고슬한 밥에 나물·육회·고추장을 올려 비벼 먹는 전주 대표 음식",
+    "en": "Rice with seasoned vegetables, beef and gochujang, Jeonju's signature dish",
+    "ja": "ご飯にナムルやユッケ、コチュジャンをのせて混ぜる全州名物"
+  },
+  "jeonju:Kongnamul Gukbap": {
+    "ko": "콩나물을 듬뿍 넣은 시원한 국물에 밥을 말아 먹는 전주식 해장국",
+    "en": "Rice in clear bean-sprout soup, Jeonju's classic morning meal",
+    "ja": "もやしたっぷりのさっぱりスープにご飯を入れた全州式クッパ"
+  },
+  "jeonju:Jeonju Choco Pie": {
+    "ko": "한옥마을에서 파는 수제 초코파이 등 길거리 간식",
+    "en": "Handmade choco pies and street snacks in Jeonju Hanok Village",
+    "ja": "全州韓屋村で売られる手作りチョコパイなどの食べ歩きおやつ"
+  },
+  "nha-trang:Banh Can": {
+    "ko": "작은 틀에 구운 쌀 반죽 위에 달걀·해산물을 올려 소스에 찍어 먹는 나트랑 간식",
+    "en": "Mini rice-batter cakes with egg or seafood, dipped in fish sauce, a Nha Trang street snack",
+    "ja": "小さな型で焼いた米粉生地に卵や海鮮をのせ、たれにつけて食べるニャチャンの軽食"
+  },
+  "nha-trang:Bun Cha Ca": {
+    "ko": "어묵과 생선을 올린 쌀국수를 맑은 생선 국물에 말아 낸 나트랑 대표 국수",
+    "en": "Rice noodles with fish cake in clear fish broth, Nha Trang's signature noodle",
+    "ja": "さつま揚げと魚をのせた米麺を魚だしのスープでいただくニャチャン名物"
+  },
+  "nha-trang:Grilled Seafood": {
+    "ko": "바닷가 도시답게 새우·조개·오징어를 숯불에 구워 먹는 요리",
+    "en": "Charcoal-grilled prawns, clams and squid in this beach city",
+    "ja": "海辺の町らしく海老や貝、イカを炭火で焼く料理"
+  },
+  "phu-quoc:Bun Quay": {
+    "ko": "즉석에서 만든 쌀국수에 새우·어묵을 넣고 직접 양념해 먹는 푸꾸옥 명물 국수",
+    "en": "Fresh-made rice noodles with prawn and fish cake, seasoned at the table, a Phu Quoc specialty",
+    "ja": "その場で作る米麺に海老やすり身を入れ、自分で味付けするフーコック名物"
+  },
+  "phu-quoc:Goi Ca Trich": {
+    "ko": "날 정어리를 코코넛·채소와 버무려 라이스페이퍼에 싸 먹는 푸꾸옥 샐러드",
+    "en": "Raw herring salad with coconut and herbs wrapped in rice paper",
+    "ja": "生のニシンをココナッツや香草と和え、ライスペーパーで包む島のサラダ"
+  },
+  "phu-quoc:Grilled Seafood": {
+    "ko": "야시장과 해변 식당에서 즐기는 성게·새우·조개 숯불구이",
+    "en": "Charcoal-grilled sea urchin, prawns and clams at night markets and beach restaurants",
+    "ja": "ナイトマーケットや浜辺の店で味わうウニや海老、貝の炭火焼き"
+  },
+  "bali:Babi Guling": {
+    "ko": "향신료를 채워 통째로 구운 돼지고기를 밥과 곁들이는 발리 전통 요리",
+    "en": "Spice-stuffed spit-roasted pig served with rice, a Balinese feast dish",
+    "ja": "香辛料を詰めて丸焼きにした豚をご飯と食べるバリの伝統料理"
+  },
+  "bali:Nasi Campur": {
+    "ko": "밥 한 접시에 여러 반찬을 조금씩 올려 먹는 발리식 한 끼",
+    "en": "A plate of rice with small portions of several dishes",
+    "ja": "ご飯にいろいろなおかずを少しずつ盛り合わせたバリ式の一皿"
+  },
+  "bali:Sate Lilit": {
+    "ko": "다진 생선·고기에 코코넛과 향신료를 섞어 레몬그라스 줄기에 감아 구운 꼬치",
+    "en": "Minced fish or meat with coconut and spices grilled on lemongrass sticks",
+    "ja": "ひき肉や魚にココナッツと香辛料を混ぜ、レモングラスに巻いて焼く串"
+  },
+  "dubai:Shawarma": {
+    "ko": "얇게 썬 구운 고기를 빵에 채소·소스와 말아 먹는 중동식 랩",
+    "en": "Spit-roasted meat sliced and wrapped in flatbread with vegetables and sauce",
+    "ja": "回転焼きの肉を薄く切り、野菜やソースと一緒にパンで巻いた中東のラップ"
+  },
+  "dubai:Al Machboos": {
+    "ko": "향신료로 지은 밥에 닭고기나 양고기를 올린 아랍에미리트 전통 요리",
+    "en": "Spiced rice with chicken or lamb, an Emirati home-style classic",
+    "ja": "香辛料で炊いたご飯に鶏肉や羊肉をのせたUAEの伝統料理"
+  },
+  "dubai:Luqaimat": {
+    "ko": "바삭하게 튀긴 작은 반죽 공에 대추야자 시럽을 뿌린 디저트",
+    "en": "Crisp fried dough balls drizzled with date syrup",
+    "ja": "揚げた小さな生地にデーツシロップをかけたデザート"
   }
 }

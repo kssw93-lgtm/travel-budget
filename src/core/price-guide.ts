@@ -1,5 +1,5 @@
 import { classify } from './classify';
-import { BASKETS, MODEL } from './model-config';
+import { BASKET_RULES, BASKETS, MODEL, minSamples } from './model-config';
 import { endpoints, independentCount, quantile, selectUsable } from './pool';
 import type { Basket, City, PriceSample } from './types';
 
@@ -32,6 +32,11 @@ export function priceGuide(city: City, samples: PriceSample[]): GuideRow[] {
       independent,
       sufficient: independent >= MODEL.minSamplesPerCategory,
     });
+  }
+  // 교통(1회권·이용권 대안): 어느 쪽도 3건이 안 되면 공식 요금 1건부터 쓴다(계산과 같은 규칙)
+  const transport = BASKET_RULES.transport.baskets;
+  if (!out.some((r) => transport.includes(r.basket) && r.sufficient)) {
+    for (const r of out) if (transport.includes(r.basket)) r.sufficient = r.independent >= minSamples(r.basket);
   }
   return out;
 }

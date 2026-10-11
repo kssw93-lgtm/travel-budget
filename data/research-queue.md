@@ -1,7 +1,7 @@
 # 조사 요청 목록 (자동 생성)
 
 > `npm run data:convert` 가 `travel_cost_research_pilot_v0.9i_2026-10-04.xlsx` (v0.9i) 로부터 만든 파일입니다. 직접 고치지 마세요.
-> 기준: 바스켓마다 **독립 표본 3건 이상**(같은 출처·같은 상품의 용량·기간·요일 변형, 같은 명소의 관람 옵션은 1건).
+> 기준: 식사 바스켓은 **독립 표본 3건 이상**, 교통은 1회권 또는 1일권 공식 요금 **1건 이상**(대략 계산이 목적). 독립 표본은 같은 출처·같은 상품의 용량·기간·요일 변형, 같은 명소의 관람 옵션은 1건).
 > 수치는 가격 원장과 계산 코드로 다시 만든 것입니다. 엑셀의 "도시 초안"·"다음 조사 큐" 시트 수치는 쓰지 않습니다(작성 시점이 달라 오래된 값이 있을 수 있음).
 
 ## 1. 계산을 막는 부족 바스켓
@@ -27,6 +27,13 @@
 | 오키나와 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 나고야 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 나고야 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 강릉 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 강릉 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 경주 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 여수 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 여수 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 전주 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 전주 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -40,6 +47,13 @@
 | 제주 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 쿠알라룸푸르 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 삿포로 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 나트랑 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 나트랑 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 나트랑 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 푸꾸옥 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 푸꾸옥 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 발리 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 두바이 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 
 ## 3. 공식 재검증이 필요한 표본
 
@@ -211,6 +225,19 @@
 | CJU-AT-116 | 제주 | 제주 유리의성 입장권 (어린이) | 8000 KRW | A | 예 | 재검증 | [한국관광공사 VISITKOREA](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=97532) |
 | CJU-AT-106 | 제주 | 제주목관아 입장권 (성인) | 1500 KRW | A | 예 | 재검증 | [제주관광공사 VISITJEJU](https://www.visitjeju.net/kr/themtour/view?contentsid=CNTS_300000000013313&menuId=DOM_000002000000000227) |
 | CJU-AT-117 | 제주 | 제주목관아 입장권 (어린이) | 400 KRW | A | 예 | 재검증 | [제주관광공사 VISITJEJU](https://www.visitjeju.net/kr/themtour/view?contentsid=CNTS_300000000013313&menuId=DOM_000002000000000227) |
+| DPS-FD-101 | 발리 | 하드락 카페 발리 오리지널 레전더리 버거 | 239000 IDR | A | 예 | 재검증, 세금·서비스료 별도 | [Hard Rock Cafe Bali 공식 메뉴 PDF](https://cafe.hardrock.com/bali/files/5307/Menu_2025_Eats&Drinks_web.pdf) |
+| DPS-FD-102 | 발리 | 더블 이캇 나시고렝 캄풍 | 150000 IDR | A | 예 | 재검증, 세금·서비스료 별도 | [Double Ikat 레스토랑(울루와뚜) 공식 메뉴](https://www.doubleikatrestaurant.com/our-menus) |
+| DPS-FD-103 | 발리 | 비우비우 더 뷰 블랙 앵거스 버거 | 189000 IDR | A | 예 | 재검증, 세금·서비스료 별도 | [Biu Biu Resort Bali 공식 The View 메뉴](https://biubiuresortbali.com/the-view-restaurant-menu-biu-biu-resort-bali/) |
+| DPS-SN-101 | 발리 | 하드락 카페 발리 소다 | 49000 IDR | A | 예 | 재검증, 세금·서비스료 별도 | [Hard Rock Cafe Bali 공식 메뉴 PDF](https://cafe.hardrock.com/bali/files/5307/Menu_2025_Eats&Drinks_web.pdf) |
+| DPS-SN-102 | 발리 | 비우비우 더 뷰 카페라테 | 52000 IDR | A | 예 | 재검증, 세금·서비스료 별도 | [Biu Biu Resort Bali 공식 The View 메뉴](https://biubiuresortbali.com/the-view-restaurant-menu-biu-biu-resort-bali/) |
+| DPS-SN-103 | 발리 | 비우비우 더 뷰 코카콜라 | 60000 IDR | A | 예 | 재검증, 세금·서비스료 별도 | [Biu Biu Resort Bali 공식 The View 메뉴](https://biubiuresortbali.com/the-view-restaurant-menu-biu-biu-resort-bali/) |
+| DPS-AL-101 | 발리 | 하드락 카페 발리 빈땅 병맥주 | 59000 IDR | A | 예 | 재검증, 세금·서비스료 별도 | [Hard Rock Cafe Bali 공식 메뉴 PDF](https://cafe.hardrock.com/bali/files/5307/Menu_2025_Eats&Drinks_web.pdf) |
+| DPS-AL-102 | 발리 | 하드락 카페 발리 하이네켄 병맥주 | 69000 IDR | A | 예 | 재검증, 세금·서비스료 별도 | [Hard Rock Cafe Bali 공식 메뉴 PDF](https://cafe.hardrock.com/bali/files/5307/Menu_2025_Eats&Drinks_web.pdf) |
+| DPS-AL-103 | 발리 | 비우비우 더 뷰 빈땅 | 72000 IDR | A | 예 | 재검증, 세금·서비스료 별도 | [Biu Biu Resort Bali 공식 The View 메뉴](https://biubiuresortbali.com/the-view-restaurant-menu-biu-biu-resort-bali/) |
+| DPS-AT-101 | 발리 | 워터봄 발리 1일권(성인) | 630000 IDR | A | 조건부 | 조건부, 재검증 | [Waterbom Bali 공식 Tickets & Pricing](https://www.waterbom-bali.com/ticket) |
+| DPS-AT-102 | 발리 | 워터봄 발리 1일권(어린이 2~11세) | 495000 IDR | A | 조건부 | 조건부, 재검증 | [Waterbom Bali 공식 Tickets & Pricing](https://www.waterbom-bali.com/ticket) |
+| DPS-AT-103 | 발리 | GWK 문화공원 일반 입장(성인) | 150000 IDR | A | 예 | 재검증 | [GWK Cultural Park 공식 티켓 페이지](https://ticket.gwkbali.com/fit/get-regular-ticket) |
+| DPS-AT-104 | 발리 | GWK 문화공원 일반 입장(어린이) | 150000 IDR | A | 예 | 재검증 | [GWK Cultural Park 공식 티켓 페이지](https://ticket.gwkbali.com/fit/get-regular-ticket) |
 | BCN-FD-101 | 바르셀로나 | 바르사 카페 점심 메뉴 | 23.95 EUR | A | 예 | 재검증 | [FC Barcelona Barca Cafe](https://www.fcbarcelona.es/es/entradas/camp-nou-experience/planifica-tu-visita/2554523/barca-cafe) |
 | BCN-FD-102 | 바르셀로나 | 아네마 에 코레 점심 세트 | 14.9 EUR | A | 예 | 재검증 | [Restaurante Anema e Core Barcelona](https://www.anemaecorebcn.es/en/menus_grupo) |
 | BCN-FD-103 | 바르셀로나 | 아네마 에 코레 피자 점심 세트 | 12.9 EUR | A | 예 | 재검증 | [Restaurante Anema e Core Barcelona](https://www.anemaecorebcn.es/en/menus_grupo) |
@@ -367,6 +394,24 @@
 | LON-SN-901 | 런던 | 세인즈버리 코카콜라 500ml | 2.15 GBP | A | 예 | 재검증 | [Sainsbury's](https://www.sainsburys.co.uk/gol-ui/product/coca-cola-original-taste-500ml) |
 | IST-SN-902 | 이스탄불 | 미그로스 에리클리 생수 500ml | 23.95 TRY | A | 예 | 재검증 | [Migros](https://www.migros.com.tr/erikli-su-500-ml-p-7b04f9) |
 | IST-SN-903 | 이스탄불 | 미그로스 코카콜라 캔 330ml | 55 TRY | A | 예 | 재검증 | [Migros](https://www.migros.com.tr/coca-cola-orijinal-tat-kutu-330-ml-p-7a3911) |
+| DXB-FD-101 | 두바이 | 1/4 치킨 + 레귤러 사이드 1개 | 47 AED | A | 예 | 재검증 | [Nando's UAE 공식 메뉴](https://www.nandos.ae/eat/menu) |
+| DXB-FD-102 | 두바이 | 치킨 아보카도 랩 | 30 AED | A | 예 | 재검증 | [ROAST Dubai 공식 메뉴](https://www.roastdubai.com/menu) |
+| DXB-FD-103 | 두바이 | 파히타 (소고기 또는 닭고기 선택) | 90 AED | A | 예 | 재검증 | [Dubai Polo Bar 공식 메뉴](https://polo.emaar.com/food-menu/dubai-polo-bar/) |
+| DXB-SN-101 | 두바이 | 매콤한 믹스 올리브 | 25 AED | A | 예 | 재검증 | [Nando's UAE 공식 메뉴](https://www.nandos.ae/eat/menu) |
+| DXB-SN-102 | 두바이 | 치즈 크루아상 | 14 AED | A | 예 | 재검증 | [ROAST Dubai 공식 메뉴](https://www.roastdubai.com/menu) |
+| DXB-SN-103 | 두바이 | 사모사 | 22 AED | A | 예 | 재검증 | [The Bhukkad Café 공식 2026 메뉴 PDF](https://www.thebhukkadcafe.com/assets/menu/the-bhukkad-cafe-menu.pdf) |
+| DXB-AL-101 | 두바이 | 비라 모레티 생맥주 | 50 AED | A | 예 | 재검증 | [Dubai Polo Bar 공식 메뉴](https://polo.emaar.com/food-menu/dubai-polo-bar/) |
+| DXB-AL-102 | 두바이 | 기네스 생맥주 | 55 AED | A | 예 | 재검증 | [Dubai Polo Bar 공식 메뉴](https://polo.emaar.com/food-menu/dubai-polo-bar/) |
+| DXB-AL-103 | 두바이 | 하이네켄 생맥주 | 50 AED | A | 예 | 재검증 | [Dubai Polo Bar 공식 메뉴](https://polo.emaar.com/food-menu/dubai-polo-bar/) |
+| DXB-TR-101 | 두바이 | 메트로 1구역 편도 (nol Red Ticket 일반) | 4 AED | A | 예 | 재검증 | [두바이 도로교통청 RTA nol 요금표](https://rta.ae/wps/portal/rta/ae/public-transport/Nol-Fares?lang=en) |
+| DXB-TR-102 | 두바이 | 시내버스 1구역 편도 (nol Red Ticket 일반) | 4 AED | A | 예 | 재검증 | [두바이 도로교통청 RTA nol 요금표](https://rta.ae/wps/portal/rta/ae/public-transport/Nol-Fares?lang=en) |
+| DXB-TR-103 | 두바이 | 트램 1구역 편도 (nol Red Ticket 일반) | 4 AED | A | 예 | 재검증 | [두바이 도로교통청 RTA nol 요금표](https://rta.ae/wps/portal/rta/ae/public-transport/Nol-Fares?lang=en) |
+| DXB-AT-101 | 두바이 | 두바이 프레임 입장권 (성인) | 50 AED | A | 예 | 재검증 | [두바이 정부 법령 포털·Dubai Municipality](https://dlp.dubai.gov.ae/Legislation%20Reference/2022/Administrative%20Resolution%20No.%20(78)%20of%202022%20Prescribing%20the%20Dubai%20Frame%20Ticket%20Price.html) |
+| DXB-AT-102 | 두바이 | 두바이 프레임 입장권 (아동) | 20 AED | A | 예 | 재검증 | [두바이 정부 법령 포털·Dubai Municipality](https://dlp.dubai.gov.ae/Legislation%20Reference/2022/Administrative%20Resolution%20No.%20(78)%20of%202022%20Prescribing%20the%20Dubai%20Frame%20Ticket%20Price.html) |
+| DXB-AT-103 | 두바이 | 미래 박물관 입장권 (성인) | 169 AED | A | 예 | 재검증 | [Museum of the Future 공식 방문 안내](https://prod-origin.museumofthefuture.ae/en/plan-your-visit) |
+| DXB-AT-104 | 두바이 | 미래 박물관 입장권 (아동) | 169 AED | A | 예 | 재검증 | [Museum of the Future 공식 방문 안내](https://prod-origin.museumofthefuture.ae/en/plan-your-visit) |
+| DXB-AT-105 | 두바이 | 두바이 사파리 파크 입장권 (성인) | 50 AED | A | 예 | 재검증 | [두바이 정부 법령 포털·Dubai Municipality](https://dlp.dubai.gov.ae/Legislation%20Reference/2025/Administrative%20Resolution%20No.%20(221)%20of%202025%20Prices%20of%20Dubai%20Safari%20Park%20Entry%20Tickets.html) |
+| DXB-AT-106 | 두바이 | 두바이 사파리 파크 입장권 (아동) | 50 AED | A | 예 | 재검증 | [두바이 정부 법령 포털·Dubai Municipality](https://dlp.dubai.gov.ae/Legislation%20Reference/2025/Administrative%20Resolution%20No.%20(221)%20of%202025%20Prices%20of%20Dubai%20Safari%20Park%20Entry%20Tickets.html) |
 | KYO-TR-001 | 교토 | 교토 시버스 균일 운임(성인) | 230 JPY | A | 예 | 재검증 | [교토시 교통국](https://www2.city.kyoto.lg.jp/kotsu/webguide/en/bus/howtoride_bus.html) |
 | KYO-TR-002 | 교토 | 교토 시버스 균일 운임(아동) | 120 JPY | A | 예 | 재검증 | [교토시 교통국](https://www2.city.kyoto.lg.jp/kotsu/webguide/en/bus/howtoride_bus.html) |
 | KYO-TR-003 | 교토 | 지하철·버스 1일 승차권(성인) | 1100 JPY | A | 예 | 재검증 | [교토시 교통국](https://www2.city.kyoto.lg.jp/kotsu/webguide/en/bus/howtoride_bus.html) |
@@ -403,6 +448,28 @@
 | FUK-AT-009 | 후쿠오카 | 우미노나카미치 해변공원 입장료(성인) | 450 JPY | A | 예 | 재검증 | [国営海の中道海浜公園](https://uminaka-park.jp/guide/open-hour/) |
 | FUK-AT-010 | 후쿠오카 | 우미노나카미치 해변공원 입장료(중학생 이하 무료) | 0 JPY | A | 예 | 재검증 | [国営海の中道海浜公園](https://uminaka-park.jp/guide/open-hour/) |
 | FUK-TR-007 | 후쿠오카 | JR규슈 보통 운임 기본(초승) | 200 JPY | A | 예 | 재검증 | [JR九州](https://www.jrkyushu.co.jp/news/__icsFiles/afieldfile/2024/07/19/240719_fare_revision.pdf) |
+| GNG-TR-101 | 강릉 | 강릉 시내버스 성인 현금 | 1700 KRW | A | 예 | 재검증 | [강릉 버스정보시스템](https://bis.gn.go.kr/info) |
+| GNG-TR-102 | 강릉 | 강릉 시내버스 성인 교통카드 | 1530 KRW | A | 예 | 재검증 | [강릉 버스정보시스템](https://bis.gn.go.kr/info) |
+| GNG-TR-103 | 강릉 | 강릉 시내버스 청소년 현금 | 1360 KRW | A | 예 | 재검증 | [강릉 버스정보시스템](https://bis.gn.go.kr/info) |
+| GNG-TR-104 | 강릉 | 강릉 시내버스 청소년 교통카드 | 1230 KRW | A | 예 | 재검증 | [강릉 버스정보시스템](https://bis.gn.go.kr/info) |
+| GNG-TR-105 | 강릉 | 강릉 시내버스 어린이 현금 | 850 KRW | A | 예 | 재검증 | [강릉 버스정보시스템](https://bis.gn.go.kr/info) |
+| GNG-TR-106 | 강릉 | 강릉 시내버스 어린이 교통카드 | 770 KRW | A | 예 | 재검증 | [강릉 버스정보시스템](https://bis.gn.go.kr/info) |
+| GNG-AT-101 | 강릉 | 오죽헌·시립박물관 입장료 성인 | 3000 KRW | A | 예 | 재검증 | [강릉시 오죽헌·시립박물관(강릉시 공식 관광·시설 안내)](https://www.gn.go.kr/museum/contents.do?key=892) |
+| GNG-AT-102 | 강릉 | 오죽헌·시립박물관 입장료 어린이 | 1000 KRW | A | 예 | 재검증 | [강릉시 오죽헌·시립박물관(강릉시 공식 관광·시설 안내)](https://www.gn.go.kr/museum/contents.do?key=892) |
+| GNG-AT-103 | 강릉 | 대관령박물관 입장료 성인 | 1000 KRW | A | 예 | 재검증 | [강릉시 오죽헌·시립박물관(강릉시 공식 관광·시설 안내)](https://www.gn.go.kr/museum/contents.do?key=892) |
+| GNG-AT-104 | 강릉 | 대관령박물관 입장료 어린이 | 400 KRW | A | 예 | 재검증 | [강릉시 오죽헌·시립박물관(강릉시 공식 관광·시설 안내)](https://www.gn.go.kr/museum/contents.do?key=892) |
+| GNG-AT-105 | 강릉 | 정동진시간박물관 입장료 성인 | 9000 KRW | A | 예 | 재검증 | [강릉시 오죽헌·시립박물관(강릉시 공식 관광·시설 안내)](https://www.gn.go.kr/museum/contents.do?key=892) |
+| GNG-AT-106 | 강릉 | 정동진시간박물관 입장료 어린이 | 5000 KRW | A | 예 | 재검증 | [강릉시 오죽헌·시립박물관(강릉시 공식 관광·시설 안내)](https://www.gn.go.kr/museum/contents.do?key=892) |
+| GNG-FD-101 | 강릉 | 초당할머니순두부 순두부백반 | 14000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [초당할머니순두부 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/707048046/menu/list) |
+| GNG-FD-102 | 강릉 | 강릉역옹막 경포점 감자옹심이 | 11000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [강릉역옹막 경포점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/2037157200/menu/list) |
+| GNG-FD-103 | 강릉 | 강릉한정식 하서주미역 하서주 미역국 정찬 | 15000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [강릉한정식 하서주미역 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1625048966/menu/list) |
+| GNG-SN-101 | 강릉 | 강릉역옹막 경포점 옹막감자쫀드기 | 9000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [강릉역옹막 경포점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/2037157200/menu/list) |
+| GNG-SN-102 | 강릉 | 테라로사 커피공장 강릉본점 아메리카노 | 5500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [테라로사 커피공장 강릉본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/10968214/menu/list) |
+| GNG-SN-103 | 강릉 | 테라로사 커피공장 강릉본점 카페라테 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [테라로사 커피공장 강릉본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/10968214/menu/list) |
+| GNG-SN-104 | 강릉 | 테라로사 커피공장 강릉본점 카푸치노 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [테라로사 커피공장 강릉본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/10968214/menu/list) |
+| GNG-AL-101 | 강릉 | 강릉역옹막 경포점 옹막딸기막걸리 | 8000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [강릉역옹막 경포점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/2037157200/menu/list) |
+| GNG-AL-102 | 강릉 | 강릉브루어리 바이 현 페일에일 | 6500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [강릉브루어리 바이 현 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1832471577/menu/list) |
+| GNG-AL-103 | 강릉 | 강릉브루어리 바이 현 바이젠 | 7000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [강릉브루어리 바이 현 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1832471577/menu/list) |
 | TYO-AT-206 | 도쿄 | 도쿄타워 메인데크 초등학생 입장권 | 900 JPY | A | 예 | 재검증 | [TOKYO TOWER](https://en.tokyotower.co.jp/fee/) |
 | OSA-AT-201 | 오사카 | 산타마리아 데이크루즈 초등학생 요금 | 1000 JPY | A | 예 | 재검증 | [大阪水上バス](https://suijo-bus.osaka/cruiselist/santamaria/) |
 | BKK-AT-201 | 방콕 | 방콕 예술문화센터 일반 전시 아동 관람 | 0 THB | A | 예 | 재검증 | [Bangkok Art and Culture Centre](https://www.bacc.or.th/en/plan-your-visit) |
@@ -444,6 +511,27 @@
 | ROM-TR-801 | 로마 | ATAC BIRG 로마 구역 A 지역 통합 1일권 | 7.2 EUR | A | 예 | 재검증 | [ATAC](https://www.atac.roma.it/en/tickets-and-passes/birg) |
 | SIN-SN-801 | 싱가포르 | FairPrice 오리지널 감자칩 60g | 1.2 SGD | A | 예 | 재검증 | [NTUC FairPrice](https://www.fairprice.com.sg/product/fairprice-potato-chips-original-60g-13207660) |
 | SIN-SN-802 | 싱가포르 | Mitsuya 맛 비스킷 스틱 40g | 1.9 SGD | A | 예 | 재검증 | [NTUC FairPrice](https://www.fairprice.com.sg/product/491837) |
+| GJU-TR-101 | 경주 | 경주 시내버스 성인 현금 | 1500 KRW | A | 예 | 재검증 | [경주시 보건소(경주시 교통행정과 고시)](https://www.gyeongju.go.kr/health/page.do?mnu_uid=3143&pageNo=128&pageOrder=0&pagePrvNxt=1&pageRef=0&parm_bod_uid=316506&parm_mnu_uid=423&srchBgpUid=-1&srchColumn=&srchEDate=9999-12-31&srchEnable=1&srchKeyword=&srchSDate=1960-01-01&srchVoteType=-1&step=258) |
+| GJU-TR-102 | 경주 | 경주 시내버스 성인 교통카드 | 1450 KRW | A | 예 | 재검증 | [경주시 보건소(경주시 교통행정과 고시)](https://www.gyeongju.go.kr/health/page.do?mnu_uid=3143&pageNo=128&pageOrder=0&pagePrvNxt=1&pageRef=0&parm_bod_uid=316506&parm_mnu_uid=423&srchBgpUid=-1&srchColumn=&srchEDate=9999-12-31&srchEnable=1&srchKeyword=&srchSDate=1960-01-01&srchVoteType=-1&step=258) |
+| GJU-TR-103 | 경주 | 경주 시내버스 청소년 현금 | 1200 KRW | A | 예 | 재검증 | [경주시 보건소(경주시 교통행정과 고시)](https://www.gyeongju.go.kr/health/page.do?mnu_uid=3143&pageNo=128&pageOrder=0&pagePrvNxt=1&pageRef=0&parm_bod_uid=316506&parm_mnu_uid=423&srchBgpUid=-1&srchColumn=&srchEDate=9999-12-31&srchEnable=1&srchKeyword=&srchSDate=1960-01-01&srchVoteType=-1&step=258) |
+| GJU-TR-104 | 경주 | 경주 시내버스 청소년 교통카드 | 0 KRW | A | 예 | 재검증 | [경주시 보건소(경주시 교통행정과 고시)](https://www.gyeongju.go.kr/health/page.do?mnu_uid=3143&pageNo=128&pageOrder=0&pagePrvNxt=1&pageRef=0&parm_bod_uid=316506&parm_mnu_uid=423&srchBgpUid=-1&srchColumn=&srchEDate=9999-12-31&srchEnable=1&srchKeyword=&srchSDate=1960-01-01&srchVoteType=-1&step=258) |
+| GJU-TR-105 | 경주 | 경주 시내버스 어린이 현금 | 800 KRW | A | 예 | 재검증 | [경주시 보건소(경주시 교통행정과 고시)](https://www.gyeongju.go.kr/health/page.do?mnu_uid=3143&pageNo=128&pageOrder=0&pagePrvNxt=1&pageRef=0&parm_bod_uid=316506&parm_mnu_uid=423&srchBgpUid=-1&srchColumn=&srchEDate=9999-12-31&srchEnable=1&srchKeyword=&srchSDate=1960-01-01&srchVoteType=-1&step=258) |
+| GJU-TR-106 | 경주 | 경주 시내버스 어린이 교통카드 | 0 KRW | A | 예 | 재검증 | [경주시 보건소(경주시 교통행정과 고시)](https://www.gyeongju.go.kr/health/page.do?mnu_uid=3143&pageNo=128&pageOrder=0&pagePrvNxt=1&pageRef=0&parm_bod_uid=316506&parm_mnu_uid=423&srchBgpUid=-1&srchColumn=&srchEDate=9999-12-31&srchEnable=1&srchKeyword=&srchSDate=1960-01-01&srchVoteType=-1&step=258) |
+| GJU-AT-101 | 경주 | 천마총 입장료 성인 | 3000 KRW | A | 예 | 재검증 | [경주문화관광(경주시)](https://www.gyeongju.go.kr/tour_bak/page.do?mnu_uid=2378) |
+| GJU-AT-102 | 경주 | 천마총 입장료 어린이 | 1000 KRW | A | 예 | 재검증 | [경주문화관광(경주시)](https://www.gyeongju.go.kr/tour_bak/page.do?mnu_uid=2378) |
+| GJU-AT-103 | 경주 | 경주 동궁과 월지 입장료 성인 | 3000 KRW | A | 예 | 재검증 | [경주문화관광(경주시)](https://www.gyeongju.go.kr/tour_bak/page.do?mnu_uid=2378) |
+| GJU-AT-104 | 경주 | 경주 동궁과 월지 입장료 어린이 | 1000 KRW | A | 예 | 재검증 | [경주문화관광(경주시)](https://www.gyeongju.go.kr/tour_bak/page.do?mnu_uid=2378) |
+| GJU-AT-105 | 경주 | 오릉 입장료 성인 | 2000 KRW | A | 예 | 재검증 | [경주문화관광(경주시)](https://www.gyeongju.go.kr/tour_bak/page.do?mnu_uid=2378) |
+| GJU-AT-106 | 경주 | 오릉 입장료 어린이 | 500 KRW | A | 예 | 재검증 | [경주문화관광(경주시)](https://www.gyeongju.go.kr/tour_bak/page.do?mnu_uid=2378) |
+| GJU-FD-101 | 경주 | 교리김밥 본점 교리국수 | 9000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [교리김밥 본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/21701372/menu/list) |
+| GJU-FD-102 | 경주 | 경주 원조콩국 콩국수 | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [경주 원조콩국 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/11889476/menu/list) |
+| GJU-FD-103 | 경주 | 경주밀면여행밀면 물밀면 | 9000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [경주밀면여행밀면 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/34647228/menu/list) |
+| GJU-SN-101 | 경주 | 두낫디스터브 경주본점 아메리카노 | 5500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [두낫디스터브 경주본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1412715086/menu/list) |
+| GJU-SN-102 | 경주 | 두낫디스터브 경주본점 카페라떼 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [두낫디스터브 경주본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1412715086/menu/list) |
+| GJU-SN-103 | 경주 | 두낫디스터브 경주본점 두낫슈페너 | 7000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [두낫디스터브 경주본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1412715086/menu/list) |
+| GJU-AL-101 | 경주 | 계림주막 계림 생막걸리 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [계림주막 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1045912984/menu/list) |
+| GJU-AL-102 | 경주 | 계림주막 경주법주 쌀 막걸리 | 7000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [계림주막 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1045912984/menu/list) |
+| GJU-AL-103 | 경주 | 계림주막 장수 생막걸리 | 8000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [계림주막 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1045912984/menu/list) |
 | HKG-FD-101 | 홍콩 | 페어우드 구이고기 덮밥(1종)+따뜻한 음료 | 53 HKD | A | 예 | 재검증 | [Fairwood 大快活 공식](https://www.fairwood.com.hk/en/food_menus) |
 | HKG-FD-102 | 홍콩 | 페어우드 하이난 치킨라이스 세트 | 59 HKD | A | 예 | 재검증 | [Fairwood 大快活 공식](https://www.fairwood.com.hk/en/food_menus) |
 | HKG-FD-103 | 홍콩 | 프리츠 리치맨스 버거(감자튀김 포함) | 195 HKD | A | 예 | 재검증 | [FRITES Belgium on Tap 공식 메뉴 PDF](https://frites.com/wp-content/uploads/2026/03/FHK_ALC_2026.pdf) |
@@ -549,6 +637,25 @@
 | CJU-AT-008 | 제주 | 오설록 티뮤지엄 본관 관람 | 0 KRW | A | 예 | 재검증 | [오설록 공식홈페이지 티뮤지엄 안내](https://www.osulloc.com/kr/ko/museum) |
 | CJU-AT-009 | 제주 | 천지연폭포 관람료 (어른) | 2000 KRW | A | 예 | 재검증 | [서귀포시 공영관광지 관람안내](https://www.seogwipo.go.kr/) |
 | CJU-AT-010 | 제주 | 천지연폭포 관람료 (어린이) | 1000 KRW | A | 예 | 재검증 | [서귀포시 공영관광지 관람안내](https://www.seogwipo.go.kr/) |
+| JJU-FD-101 | 전주 | 풍남정 전주콩나물국밥 | 9000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [풍남정 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/16795271/menu/list) |
+| JJU-FD-102 | 전주 | 전주는전주 전주한옥마을 본점 육회비빔밥 | 15000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [전주는전주 전주한옥마을 본점 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/1694616852/menu/list) |
+| JJU-FD-103 | 전주 | 전주왱이콩나물국밥전문점 전주왱이국밥 | 9000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [전주왱이콩나물국밥전문점 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/33342797/menu/list) |
+| JJU-SN-101 | 전주 | 공간봄 에스프레소 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [공간봄 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/16793271/menu/list) |
+| JJU-SN-102 | 전주 | 공간봄 아메리카노 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [공간봄 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/16793271/menu/list) |
+| JJU-SN-103 | 전주 | 공간봄 카페라떼 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [공간봄 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/16793271/menu/list) |
+| JJU-AL-101 | 전주 | 전주왱이콩나물국밥전문점 모주 한잔 | 2000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [전주왱이콩나물국밥전문점 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/33342797/menu/list) |
+| JJU-AL-102 | 전주 | 전주왱이콩나물국밥전문점 모주 작은병 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [전주왱이콩나물국밥전문점 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/33342797/menu/list) |
+| JJU-AL-103 | 전주 | 전주왱이콩나물국밥전문점 모주 큰병 | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [전주왱이콩나물국밥전문점 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/33342797/menu/list) |
+| JJU-TR-101 | 전주 | 전주시내버스 일반 현금요금 | 1700 KRW | A | 예 | 재검증 | [전주시청 보도자료](https://www.jeonju.go.kr/planweb/board/view.9is?boardUid=ff8080818b5bc5cf018ba8ca7216641f&contentUid=ff8080818990c349018b041a87fe3960&dataUid=9be517a89719f44001985ec4fa226feb&page=1) |
+| JJU-TR-102 | 전주 | 전주시내버스 청소년 현금요금 | 1350 KRW | A | 예 | 재검증 | [전주시청 보도자료](https://www.jeonju.go.kr/planweb/board/view.9is?boardUid=ff8080818b5bc5cf018ba8ca7216641f&contentUid=ff8080818990c349018b041a87fe3960&dataUid=9be517a89719f44001985ec4fa226feb&page=1) |
+| JJU-TR-103 | 전주 | 전주시내버스 어린이 현금요금 | 850 KRW | A | 예 | 재검증 | [전주시청 보도자료](https://www.jeonju.go.kr/planweb/board/view.9is?boardUid=ff8080818b5bc5cf018ba8ca7216641f&contentUid=ff8080818990c349018b041a87fe3960&dataUid=9be517a89719f44001985ec4fa226feb&page=1) |
+| JJU-TR-104 | 전주 | 전주시내버스 정기권 1일권 | 6000 KRW | A | 예 | 재검증 | [전주시청 전주시내버스 정기권 안내](https://www.jeonju.go.kr/index.9is?contentUid=ff8080818990c349018b041ad4cc3c2f) |
+| JJU-AT-101 | 전주 | 경기전 일반권 성인 | 3000 KRW | A | 예 | 재검증 | [전주한옥마을 공식 홈페이지](https://hanok.jeonju.go.kr/contents/place) |
+| JJU-AT-102 | 전주 | 경기전 일반권 어린이 | 1000 KRW | A | 예 | 재검증 | [전주한옥마을 공식 홈페이지](https://hanok.jeonju.go.kr/contents/place) |
+| JJU-AT-103 | 전주 | 전주동물원 개인 일반 입장료 | 3000 KRW | A | 예 | 재검증 | [비짓전주 공식 관광 안내](https://tour.jeonju.go.kr/board/view.jeonju?boardId=BBS_0000003&contentsSid=1&dataSid=9784&paging=ok&startPage=1) |
+| JJU-AT-104 | 전주 | 전주동물원 어린이 개인 입장료 | 1000 KRW | A | 예 | 재검증 | [비짓전주 공식 관광 안내](https://tour.jeonju.go.kr/board/view.jeonju?boardId=BBS_0000003&contentsSid=1&dataSid=9784&paging=ok&startPage=1) |
+| JJU-AT-105 | 전주 | 전주자연생태관 개인 성인 | 2000 KRW | A | 예 | 재검증 | [비짓전주 공식 공지](https://tour.jeonju.go.kr/board/view.jeonju?boardId=BBS_0000046&dataSid=14445&menuCd=DOM_000000113001000000) |
+| JJU-AT-106 | 전주 | 전주자연생태관 개인 어린이 | 500 KRW | A | 예 | 재검증 | [비짓전주 공식 공지](https://tour.jeonju.go.kr/board/view.jeonju?boardId=BBS_0000046&dataSid=14445&menuCd=DOM_000000113001000000) |
 | KUL-FD-101 | 쿠알라룸푸르 | 마담콴 나시르막(커리 치킨) | 25.9 MYR | A | 예 | 재검증 | [Madam Kwan's 공식 KL 지역 메뉴 PDF](https://www.madamkwans.com.my/3dflipbook/books/pdf/KLAreaMenu.pdf) |
 | KUL-FD-102 | 쿠알라룸푸르 | 마담콴 차콰이테오 | 27.9 MYR | A | 예 | 재검증 | [Madam Kwan's 공식 KL 지역 메뉴 PDF](https://www.madamkwans.com.my/3dflipbook/books/pdf/KLAreaMenu.pdf) |
 | KUL-FD-103 | 쿠알라룸푸르 | 더 소셜 나시르막 | 28 MYR | A | 예 | 재검증 | [TheSocial 공식 À La Carte 메뉴](https://thesocial.com.my/alacarte-menu/) |
@@ -598,6 +705,23 @@
 | NYC-SV-111 | 뉴욕 | 메트 로고 접이식 우산 | 25 USD | A | 예 | 재검증 | [The Met Store](https://store.metmuseum.org/met-logo-folding-umbrella-80056083) |
 | NYC-FD-121 | 뉴욕 | 카츠 델리 파스트라미 샌드위치 | 28.95 USD | A | 예 | 재검증 | [Katz's Delicatessen](https://katzsdelicatessen.com/) |
 | NYC-SV-121 | 뉴욕 | 자유의 여신상 공식 숍 문서 홀더 소형 | 25 USD | A | 예 | 재검증 | [Statue of Liberty & Ellis Island Foundation](https://www.statueofliberty.org/product/logo-embossed-leatherette-eight-corner-document-holder-small/) |
+| NHA-FD-101 | 나트랑 | 피시하우스 볼로네제 파스타 | 165000 VND | A | 예 | 재검증 | [Fish House Nha Trang 공식 메뉴](https://fishhousenhatrang.com/menu) |
+| NHA-FD-102 | 나트랑 | 피시하우스 피시 앤 칩스(250g) | 240000 VND | A | 예 | 재검증 | [Fish House Nha Trang 공식 메뉴](https://fishhousenhatrang.com/menu) |
+| NHA-FD-103 | 나트랑 | 맘 레스토랑 닌호아 소금 허브 볶음밥 | 139000 VND | A | 예 | 재검증 | [Mắm Restaurant 공식 메뉴(이미지)](https://www.mamrestaurant.com/pages/menu-mam) |
+| NHA-FD-104 | 나트랑 | 맘 레스토랑 소고기 볶음면 | 219000 VND | A | 예 | 재검증 | [Mắm Restaurant 공식 메뉴(이미지)](https://www.mamrestaurant.com/pages/menu-mam) |
+| NHA-FD-105 | 나트랑 | 루이지안 브루하우스 버거(감자튀김·코울슬로 포함) | 335000 VND | A | 예 | 재검증 | [Louisiane Brewhouse 공식 메뉴(이미지)](https://louisianebrewhouse.com.vn/wp-content/uploads/2026/07/Menu-2026-ENG-06.webp) |
+| NHA-TR-101 | 나트랑 | 나트랑 시내버스 1회(1·4·6번) | 7000 VND | A | 예 | 재검증 | [칸호아성 경제구역·산업단지 관리위원회(정부) 오시는 길](https://vanphong.khanhhoa.gov.vn/dia-chi-ban-do-chi-duong) |
+| NHA-TR-102 | 나트랑 | 나트랑 시티투어 버스 1바퀴권 | 100000 VND | A | 예 | 재검증 | [Nha Trang Bus City Tour 공식](https://nhatrangbuscitytour.com/dat-ve) |
+| NHA-SN-101 | 나트랑 | 맘 레스토랑 베트남 연유 커피 | 35000 VND | A | 예 | 재검증 | [Mắm Restaurant 공식 메뉴(이미지)](https://www.mamrestaurant.com/pages/menu-mam) |
+| NHA-SN-102 | 나트랑 | 맘 레스토랑 코카콜라 | 50000 VND | A | 예 | 재검증 | [Mắm Restaurant 공식 메뉴(이미지)](https://www.mamrestaurant.com/pages/menu-mam) |
+| NHA-AL-101 | 나트랑 | 피시하우스 타이거 맥주 330ml | 45000 VND | A | 예 | 재검증 | [Fish House Nha Trang 공식 메뉴](https://fishhousenhatrang.com/menu) |
+| NHA-AL-102 | 나트랑 | 피시하우스 하이네켄 330ml | 50000 VND | A | 예 | 재검증 | [Fish House Nha Trang 공식 메뉴](https://fishhousenhatrang.com/menu) |
+| NHA-AL-103 | 나트랑 | 루이지안 브루하우스 수제맥주 330ml | 70000 VND | A | 예 | 재검증 | [Louisiane Brewhouse 공식 메뉴(이미지)](https://louisianebrewhouse.com.vn/wp-content/uploads/2026/07/Menu-2026-ENG-01.webp) |
+| NHA-AL-104 | 나트랑 | 맘 레스토랑 이스트웨스트 서머 330ml | 89000 VND | A | 예 | 재검증 | [Mắm Restaurant 공식 메뉴(이미지)](https://www.mamrestaurant.com/pages/menu-mam) |
+| NHA-AT-101 | 나트랑 | 탑바 온천 광천수 수영장(성인) | 120000 VND | A | 예 | 재검증 | [Tắm bùn Tháp Bà 공식 요금표(이미지)](https://tambunthapba.vn/pages/bang-gia-dich-vu) |
+| NHA-AT-102 | 나트랑 | 탑바 온천 광천수 수영장(어린이 1m~1m4) | 60000 VND | A | 예 | 재검증 | [Tắm bùn Tháp Bà 공식 요금표(이미지)](https://tambunthapba.vn/pages/bang-gia-dich-vu) |
+| NHA-AT-103 | 나트랑 | 탑바 온천 머드 온천(성인) | 260000~350000 VND | A | 예 | 재검증 | [Tắm bùn Tháp Bà 공식 요금표(이미지)](https://tambunthapba.vn/pages/bang-gia-dich-vu) |
+| NHA-AT-104 | 나트랑 | 해양학 박물관(성인) | 40000 VND | A | 조건부 | 조건부, 재검증 | [칸호아성 디지털 관광 포털(정부)](https://dulichso.khanhhoa.gov.vn/article/cong-vien-truong-sa-004) |
 | OKA-FD-101 | 오키나와 | A&W 오키나와 The A&W 버거(단품) | 890 JPY | A | 예 | 재검증 | [A&W 오키나와 공식 메뉴(햄버거)](https://www.awok.co.jp/menu-list/humberger/) |
 | OKA-FD-102 | 오키나와 | A&W 오키나와 모짜 버거(단품) | 650 JPY | A | 예 | 재검증 | [A&W 오키나와 공식 메뉴(햄버거)](https://www.awok.co.jp/menu-list/humberger/) |
 | OKA-FD-103 | 오키나와 | 이치란 나하 국제거리점 돈코츠 라멘 | 1080 JPY | A | 예 | 재검증 | [이치란 공식 매장 안내(나하 국제거리점)](https://ichiran.com/shop/kyushu/naha-kokusaidori/) |
@@ -674,6 +798,24 @@
 | LON-FD-953 | 런던 | 페로니 1파인트 (풀러스 펍) | 6 GBP | A | 예 | 재검증, 검수: 출처 확인 필요 | [Fuller's Pubs London](https://www.fullers.co.uk/pubs/pub-finder/london) |
 | DAD-FD-911 | 다낭 | 쿠치나 루카 해산물 스파게티 | 310000 VND | A | 예 | 재검증 | [Cucina Luca Da Nang](https://cucinaluca.vn/) |
 | SIN-FD-911 | 싱가포르 | 맥도날드 빅맥 | 7.95 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [McDonald's Singapore](https://www.mcdonalds.com.sg/full-menu) |
+| PQC-FD-101 | 푸꾸옥 | 스파이스 하우스 카시아 시그니처 버거 | 269000 VND | A | 예 | 재검증 | [Cassia Cottage - The Spice House 공식 메뉴 PDF](https://cassiacottage.com/wp-content/uploads/2025/09/The-Spice-House-Food-Menu-08.09.2025.pdf) |
+| PQC-FD-102 | 푸꾸옥 | 스파이스 하우스 볼로네제 스파게티 | 295000 VND | A | 예 | 재검증 | [Cassia Cottage - The Spice House 공식 메뉴 PDF](https://cassiacottage.com/wp-content/uploads/2025/09/The-Spice-House-Food-Menu-08.09.2025.pdf) |
+| PQC-FD-103 | 푸꾸옥 | 크랩하우스 푸꾸옥 게살 덮밥 | 270000 VND | A | 예 | 재검증 | [Si's Crab House 공식 사이트 메뉴(구글 드라이브 PDF)](https://drive.google.com/file/d/1aCT1SR2RoeG5P5ckGGY_rljYCOzQV7g-/view) |
+| PQC-FD-104 | 푸꾸옥 | 크랩하우스 해산물 링귀니 마리나라 | 420000 VND | A | 예 | 재검증 | [Si's Crab House 공식 사이트 메뉴(구글 드라이브 PDF)](https://drive.google.com/file/d/1aCT1SR2RoeG5P5ckGGY_rljYCOzQV7g-/view) |
+| PQC-FD-105 | 푸꾸옥 | 선월드 혼똠 망고 레스토랑 점심 뷔페 | 390000 VND | A | 예 | 재검증 | [Sun World Hon Thom 공식](https://sunworld.vn/en/hon-thom) |
+| PQC-TR-101 | 푸꾸옥 | 빈버스 19번 인터컨티넨탈–그랜드월드 | 50000 VND | A | 예 | 재검증 | [VinBus 공식 노선 조회(푸꾸옥)](https://maps.vinbus.vn/pq) |
+| PQC-TR-102 | 푸꾸옥 | 빈버스 20번 바이봉 항구–그랜드월드 | 50000 VND | A | 예 | 재검증 | [VinBus 공식 노선 조회(푸꾸옥)](https://maps.vinbus.vn/pq) |
+| PQC-SN-101 | 푸꾸옥 | 더 말라바 코카콜라 | 45000 VND | A | 예 | 재검증 | [Cassia Cottage 공식(The Malabar 메뉴 안내)](https://cassiacottage.com/en/the-malabar-phu-quoc-best-beach-bar-for-sunset-cocktails-chill-vibes/) |
+| PQC-SN-102 | 푸꾸옥 | 더 말라바 베트남 아이스 연유커피 | 68000 VND | A | 예 | 재검증 | [Cassia Cottage 공식(The Malabar 메뉴 안내)](https://cassiacottage.com/en/the-malabar-phu-quoc-best-beach-bar-for-sunset-cocktails-chill-vibes/) |
+| PQC-SN-103 | 푸꾸옥 | 더 말라바 생수 450ml | 45000 VND | A | 예 | 재검증 | [Cassia Cottage 공식(The Malabar 메뉴 안내)](https://cassiacottage.com/en/the-malabar-phu-quoc-best-beach-bar-for-sunset-cocktails-chill-vibes/) |
+| PQC-AL-101 | 푸꾸옥 | 크랩하우스 타이거 맥주 | 50000 VND | A | 예 | 재검증 | [Si's Crab House 공식 사이트 음료 메뉴(구글 드라이브 PDF)](https://drive.google.com/file/d/1HcLm2bKr4eTmuvVjuYwM--zPKp5RVf9T/view) |
+| PQC-AL-102 | 푸꾸옥 | 크랩하우스 사이공 스페셜 | 50000 VND | A | 예 | 재검증 | [Si's Crab House 공식 사이트 음료 메뉴(구글 드라이브 PDF)](https://drive.google.com/file/d/1HcLm2bKr4eTmuvVjuYwM--zPKp5RVf9T/view) |
+| PQC-AL-103 | 푸꾸옥 | 크랩하우스 이스트웨스트 퍼시픽 필스너 생맥주 330ml | 100000 VND | A | 예 | 재검증 | [Si's Crab House 공식 사이트 음료 메뉴(구글 드라이브 PDF)](https://drive.google.com/file/d/1HcLm2bKr4eTmuvVjuYwM--zPKp5RVf9T/view) |
+| PQC-AL-104 | 푸꾸옥 | 더 말라바 리치 모히토 | 205000 VND | A | 예 | 재검증 | [Cassia Cottage 공식(The Malabar 메뉴 안내)](https://cassiacottage.com/en/the-malabar-phu-quoc-best-beach-bar-for-sunset-cocktails-chill-vibes/) |
+| PQC-AT-101 | 푸꾸옥 | 혼똠 케이블카 왕복(성인) | 850000 VND | A | 예 | 재검증 | [Sun World Hon Thom 공식 요금 안내](https://sunworld.vn/vi/hon-thom/di-chuyen/thong-bao-bang-gia-tai-sun-world-phu-quoc-tu-24-04-2023html) |
+| PQC-AT-102 | 푸꾸옥 | 혼똠 케이블카 왕복(어린이 1m~1m4) | 700000 VND | A | 예 | 재검증 | [Sun World Hon Thom 공식 요금 안내](https://sunworld.vn/vi/hon-thom/di-chuyen/thong-bao-bang-gia-tai-sun-world-phu-quoc-tu-24-04-2023html) |
+| PQC-AT-103 | 푸꾸옥 | 키스 브리지 체험 | 100000 VND | A | 조건부 | 조건부, 재검증, 시작가 표기 | [Sun World Hon Thom 공식](https://sunworld.vn/en/hon-thom) |
+| PQC-AT-104 | 푸꾸옥 | 심포니 오브 더 시 쇼 | 660000 VND | A | 조건부 | 조건부, 재검증 | [Sun World Hon Thom 공식](https://sunworld.vn/en/hon-thom) |
 | ROM-TR-101 | 로마 | 로마 48시간권 | 15 EUR | A | 예 | 재검증 | [ATAC Roma](https://www.atac.roma.it/en/tickets-and-passes/birg) |
 | ROM-TR-102 | 로마 | 로마 72시간권 | 22 EUR | A | 예 | 재검증 | [ATAC Roma](https://www.atac.roma.it/en/tickets-and-passes/birg) |
 | ROM-TR-103 | 로마 | 트레니탈리아 지역열차 편도 성인 | 1.9~9 EUR | A | 예 | 재검증, 검수: 원문 확인 불가 | [Trenitalia](https://www.trenitalia.com/en/connections/regionale-trains.html) |
@@ -722,15 +864,36 @@
 | SPK-AT-004 | 삿포로 | 모이와야마 로프웨이+미니 케이블카 왕복(어린이) | 1050 JPY | A | 예 | 재검증 | [札幌もいわ山ロープウェイ](https://mt-moiwa.jp/guide/) |
 | SPK-AT-005 | 삿포로 | 삿포로시 시계탑 입관료(성인) | 350 JPY | A | 예 | 재검증 | [札幌市時計台](https://sapporoshi-tokeidai.jp/) |
 | SPK-AT-006 | 삿포로 | 삿포로시 시계탑 입관료(중학생 이하 무료) | 0 JPY | A | 예 | 재검증 | [札幌市時計台](https://sapporoshi-tokeidai.jp/) |
+| NHA-TR-201 | 나트랑 | 빈버스 23번 아나 마리나–빈펄 나트랑 | 15000 VND | A | 예 | 재검증 | [VinBus 공식 노선 조회(나트랑)](https://maps.vinbus.vn/nt) |
 | KUL-TR-201 | 쿠알라룸푸르 | LRT KL Sentral–KLCC 현금(토큰) | 2.4 MYR | A | 예 | 재검증 | [MyRapid 공식 통합 운임표(현금) 이미지](https://myrapid.com.my/wp-content/uploads/2022/10/INTEGRATED-FARE-TABLE_updated-06MAY21_Cash.png) |
 | KUL-TR-202 | 쿠알라룸푸르 | KL Sentral(LRT)–Bukit Bintang(모노레일) 현금 통합 운임 | 2.4 MYR | A | 조건부 | 조건부, 재검증 | [MyRapid 공식 통합 운임표(현금) 이미지](https://myrapid.com.my/wp-content/uploads/2022/10/INTEGRATED-FARE-TABLE_updated-06MAY21_Cash.png) |
 | KUL-TR-203 | 쿠알라룸푸르 | GoKL 시티버스(외국인) | 1 MYR | A | 예 | 재검증 | [쿠알라룸푸르 시청(DBKL) KLCCC 공식](https://klccc.dbkl.gov.my/gokl-2/) |
+| DPS-TR-201 | 발리 | 트랜스 메트로 데와타 | 4400 IDR | A | 조건부 | 조건부, 재검증 | [Trans Metro Dewata 공식 인스타그램(@transmetrodewata 공동 게시물)](https://www.instagram.com/p/DeJ1GzlTUT0/) |
+| DPS-TR-202 | 발리 | 트랜스 메트로 데와타 특별 요금(초등~대학생) | 2000 IDR | A | 조건부 | 조건부, 재검증 | [Trans Metro Dewata 공식 인스타그램(@transmetrodewata)](https://www.instagram.com/p/DKA6ONUzI5-/) |
+| DPS-TR-203 | 발리 | 쿠라쿠라 버스 편도(1B·2·3·4 라인, 쿠타–사누르–우붓) | 100000 IDR | A | 예 | 재검증 | [Kura-Kura Bus 공식 Ticket Info](https://kura2bus.com/ubud-shuttles/ticket-info) |
+| DPS-TR-301 | 발리 | Trans Sarbagita 일반 승객 편도 | 4400 IDR | A | 예 | 재검증 | [JDIH 발리주, Peraturan Gubernur Bali Nomor 17 Tahun 2026](https://jdih.baliprov.go.id/dokumen-hukum/98343d25-b6f1-4303-b979-791135165710; https://dishub.baliprov.go.id/rute-angkutan-umum-trans-sarbagita/) |
 | SEL-FD-101 | 서울 | 한솥 제육 비빔밥 | 6500 KRW | A | 예 | 재검증 | [HANSOT 한솥](https://en.hsd.co.kr/Menu) |
 | SEL-FD-102 | 서울 | 한솥 김치볶음밥 | 4400 KRW | A | 예 | 재검증 | [HANSOT 한솥](https://en.hsd.co.kr/Menu) |
 | SEL-FD-103 | 서울 | 골드참치 점심 코스 B | 35000 KRW | A | 예 | 재검증 | [Goldtuna 골드참치](https://www.goldtuna.co.kr/en) |
 | SEL-SV-101 | 서울 | 서울마이소울 리본 모자 | 53000 KRW | A | 예 | 재검증 | [서울특별시 (Seoul My Soul Shop)](https://english.seoul.go.kr/the-cap-with-2-7-million-views-on-japanese-social-media-seoul-merch-wins-over-international-visitors/) |
 | SEL-SV-102 | 서울 | 서울굿즈 서울라면·서울짜장 4개 번들 | 5450 KRW | A | 예 | 재검증 | [서울특별시 (Seoul My Soul Shop)](https://love.seoul.go.kr/articles/10473) |
 | SEL-SV-103 | 서울 | 서울굿즈 픽토그램 에코백 | 34500 KRW | A | 예 | 재검증 | [서울특별시 (Seoul My Soul Shop)](https://love.seoul.go.kr/articles/10473) |
+| YSU-FD-101 | 여수 | 청정게장촌 돌게장정식 | 16000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [청정게장촌 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/20553144/menu/list) |
+| YSU-FD-102 | 여수 | 여수게장 나래밥상 황태해장국 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [여수게장 나래밥상 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1787911441/menu/list) |
+| YSU-FD-103 | 여수 | 광장서대회 장어탕 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [광장서대회 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1757367265/menu/list) |
+| YSU-TR-101 | 여수 | 여수 시내버스 관광객 선불카드 편도 | 2000 KRW | A | 예 | 재검증 | [여수시 2026 시내버스 운영계획](https://www.yeosu.go.kr/contents/88/2026_plan2.pdf) |
+| YSU-SN-101 | 여수 | 카페모카힐 이순신광장점 모카힐 크림 라떼 | 7500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [카페모카힐 이순신광장점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1631832876/menu/list) |
+| YSU-SN-102 | 여수 | 카페모카힐 이순신광장점 레드청귤차 | 7000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [카페모카힐 이순신광장점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1631832876/menu/list) |
+| YSU-SN-103 | 여수 | 카페모카힐 이순신광장점 청귤에이드 | 7500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [카페모카힐 이순신광장점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1631832876/menu/list) |
+| YSU-AL-101 | 여수 | 소주주소 수산시장 본점 생맥주 300cc | 1900 KRW | C | 조건부 | C등급, 조건부, 재검증 | [소주주소 수산시장 본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1460778099/menu/list) |
+| YSU-AL-102 | 여수 | 백팩커스 펍 & 카페 클라우드 생맥주 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [백팩커스 펍 & 카페 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1976054322/menu/list) |
+| YSU-AL-103 | 여수 | 백팩커스 펍 & 카페 수제생맥주 | 8000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [백팩커스 펍 & 카페 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1976054322/menu/list) |
+| YSU-AT-101 | 여수 | 여수해상케이블카 일반캐빈 성인 왕복 | 15000 KRW | A | 예 | 재검증 | [여수시 관광문화 공식 관광지 안내](https://yeosu.go.kr/tour/travel/info_each_area?idx=879&mode=view) |
+| YSU-AT-102 | 여수 | 여수해상케이블카 일반캐빈 어린이 왕복 | 11000 KRW | A | 예 | 재검증 | [여수시 관광문화 공식 관광지 안내](https://yeosu.go.kr/tour/travel/info_each_area?idx=879&mode=view) |
+| YSU-AT-103 | 여수 | 국립여수해양기상과학관 성인 개인 관람 | 3000 KRW | A | 예 | 재검증 | [여수시 관광문화 공식 관광지 안내](https://www.yeosu.go.kr/tour/travel/info_each_area?idx=6881&mode=view) |
+| YSU-AT-104 | 여수 | 국립여수해양기상과학관 어린이·청소년 개인 관람 | 1500 KRW | A | 예 | 재검증 | [여수시 관광문화 공식 관광지 안내](https://www.yeosu.go.kr/tour/travel/info_each_area?idx=6881&mode=view) |
+| YSU-AT-105 | 여수 | 아쿠아플라넷 여수 입장권 성인 | 37900 KRW | A | 예 | 재검증 | [아쿠아플라넷 여수 운영사 공식 홈페이지](https://www.aquaplanet.co.kr/yeosu/index.do) |
+| YSU-AT-106 | 여수 | 아쿠아플라넷 여수 입장권 어린이 | 32900 KRW | A | 예 | 재검증 | [아쿠아플라넷 여수 운영사 공식 홈페이지](https://www.aquaplanet.co.kr/yeosu/index.do) |
 
 ## 4. 교차 검수 현황
 

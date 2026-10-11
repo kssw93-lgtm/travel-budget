@@ -80,46 +80,6 @@
     "stage": "파일럿"
   },
   {
-    "id": "nha-trang",
-    "country": "베트남",
-    "countryEn": "Vietnam",
-    "nameKo": "나트랑",
-    "nameEn": "Nha Trang",
-    "currency": "VND",
-    "tier": "B",
-    "stage": "2차"
-  },
-  {
-    "id": "bali",
-    "country": "인도네시아",
-    "countryEn": "Indonesia",
-    "nameKo": "발리",
-    "nameEn": "Bali",
-    "currency": "IDR",
-    "tier": "B",
-    "stage": "2차"
-  },
-  {
-    "id": "phu-quoc",
-    "country": "베트남",
-    "countryEn": "Vietnam",
-    "nameKo": "푸꾸옥",
-    "nameEn": "Phu Quoc",
-    "currency": "VND",
-    "tier": "B",
-    "stage": "2차"
-  },
-  {
-    "id": "dubai",
-    "country": "아랍에미리트",
-    "countryEn": "United Arab Emirates",
-    "nameKo": "두바이",
-    "nameEn": "Dubai",
-    "currency": "AED",
-    "tier": "B",
-    "stage": "2차"
-  },
-  {
     "id": "cebu",
     "country": "필리핀",
     "countryEn": "Philippines",
@@ -167,7 +127,7 @@
     "nameEn": "Gangneung",
     "currency": "KRW",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "gyeongju",
@@ -177,7 +137,7 @@
     "nameEn": "Gyeongju",
     "currency": "KRW",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "yeosu",
@@ -187,7 +147,7 @@
     "nameEn": "Yeosu",
     "currency": "KRW",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "jeonju",
@@ -197,7 +157,7 @@
     "nameEn": "Jeonju",
     "currency": "KRW",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "hanoi",
@@ -376,6 +336,46 @@
     "nameKo": "삿포로",
     "nameEn": "Sapporo",
     "currency": "JPY",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "nha-trang",
+    "country": "베트남",
+    "countryEn": "Vietnam",
+    "nameKo": "나트랑",
+    "nameEn": "Nha Trang",
+    "currency": "VND",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "phu-quoc",
+    "country": "베트남",
+    "countryEn": "Vietnam",
+    "nameKo": "푸꾸옥",
+    "nameEn": "Phu Quoc",
+    "currency": "VND",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "bali",
+    "country": "인도네시아",
+    "countryEn": "Indonesia",
+    "nameKo": "발리",
+    "nameEn": "Bali",
+    "currency": "IDR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "dubai",
+    "country": "아랍에미리트",
+    "countryEn": "United Arab Emirates",
+    "nameKo": "두바이",
+    "nameEn": "Dubai",
+    "currency": "AED",
     "tier": "B",
     "stage": "파일럿"
   }

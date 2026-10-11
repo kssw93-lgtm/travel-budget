@@ -1,9 +1,37 @@
-import { describe, expect, it } from 'vitest';
+import { afterAll, beforeAll, describe, expect, it } from 'vitest';
 import { dayWeights, estimateTrip, summarizeCity } from '../../src/core/estimate';
 import { MODEL } from '../../src/core/model-config';
 import { transportPassDays } from '../../src/core/classify';
 import type { PriceSample } from '../../src/core/types';
-import { attr, baseSamples, city, gift, meal, pass, ride, sample, snack, trip } from './fixtures';
+import { attr, baseSamples, city, meal, pass, ride, sample, snack, trip } from './fixtures';
+
+// 아래 계산 규칙 테스트의 기대값은 스타일 분위 구간 0~0.5 / 0.25~0.75 / 0.5~1 로 손계산한 값이다.
+// 운영 구간(MODEL.styleBand)은 대략 계산용으로 좁혀 두었으므로, 계산 규칙만 검증하도록 여기서 고정한다.
+// 주문량 가정(한 끼 배수·간식 횟수·첫날 비율)도 같은 이유로 예전 값으로 고정한다.
+type Mutable = { styleBand: unknown; edgeDayFactor: number; mealItemFactor: unknown; usage: { snack: unknown } };
+const M = MODEL as unknown as Mutable;
+const LEGACY = { styleBand: { budget: [0, 0.5], standard: [0.25, 0.75], comfort: [0.5, 1] }, edgeDayFactor: 0.6, mealItemFactor: { budget: 1, standard: 1, comfort: 1 }, snack: { budget: 1, standard: 1, comfort: 2 } };
+const PROD = { styleBand: M.styleBand, edgeDayFactor: M.edgeDayFactor, mealItemFactor: M.mealItemFactor, snack: M.usage.snack };
+const PROD_BANDS = PROD.styleBand;
+beforeAll(() => {
+  Object.assign(M, { styleBand: LEGACY.styleBand, edgeDayFactor: LEGACY.edgeDayFactor, mealItemFactor: LEGACY.mealItemFactor });
+  M.usage.snack = LEGACY.snack;
+});
+afterAll(() => {
+  Object.assign(M, { styleBand: PROD.styleBand, edgeDayFactor: PROD.edgeDayFactor, mealItemFactor: PROD.mealItemFactor });
+  M.usage.snack = PROD.snack;
+});
+
+describe('운영 스타일 구간', () => {
+  it('대략 계산용으로 좁은 구간을 쓴다(일반형 0.4~0.65)', () => {
+    expect(PROD_BANDS).toEqual({ budget: [0.15, 0.4], standard: [0.4, 0.65], comfort: [0.65, 0.9] });
+  });
+  it('여행 중 주문량 가정: 한 끼 배수 1.0/1.3/1.6, 간식 하루 1/2/3회, 첫날·마지막 날 80%', () => {
+    expect(PROD.mealItemFactor).toEqual({ budget: 1, standard: 1.3, comfort: 1.6 });
+    expect(PROD.snack).toEqual({ budget: 1, standard: 2, comfort: 3 });
+    expect(PROD.edgeDayFactor).toBe(0.8);
+  });
+});
 
 const close = (r: { min: number; max: number } | null, min: number, max: number) => {
   expect(r).not.toBeNull();
@@ -122,7 +150,7 @@ describe('독립 표본(같은 출처의 용량·기간 변형 과대 계산 방
   const variant = (nameKo: string, nameEn: string, v: number, over: Parameters<typeof sample>[0] | object = {}) =>
     sample({ category: 'transport', subtype: '무제한권', unit: '성인 1인', sourceUrl: 'https://metro.example/tickets', nameKo, nameEn, min: v, ...over });
 
-  it('같은 출처의 24·48·72시간권은 가격 3건이지만 독립 표본 1건이라 부족이다', () => {
+  it('같은 출처의 24·48·72시간권은 가격 3건이지만 독립 표본 1건으로 센다(교통은 1건부터 대략 계산)', () => {
     const rows = [
       ...without(baseSamples(), 'transport'),
       variant('지하철 24시간권', 'Subway 24-hour Ticket', 10),
@@ -130,10 +158,11 @@ describe('독립 표본(같은 출처의 용량·기간 변형 과대 계산 방
       variant('지하철 72시간권', 'Subway 72-hour Ticket', 20),
     ];
     const e = estimateTrip(trip(), city, rows);
-    expect(e.categories.transport.sufficient).toBe(false);
     expect(e.categories.transport.independentCount).toBe(1);
     expect(e.categories.transport.baskets[0]).toMatchObject({ basket: 'pass', sampleCount: 3, independentCount: 1 });
-    expect(e.missing).toContain('transport');
+    // 3건 기준을 채운 교통 바스켓이 없으면 공식 요금 1건부터 쓴다(시내버스뿐인 소도시용)
+    expect(e.categories.transport.sufficient).toBe(true);
+    expect(e.missing).not.toContain('transport');
   });
 
   it('같은 상품의 성인·아동 가격은 성인 표본 수를 늘리지 않는다', () => {
@@ -207,7 +236,7 @@ describe('불확실성 줄이기 규칙', () => {
     const cable = sample({ category: 'transport', subtype: '케이블카 1회권', unit: '성인 1인 1회', nameKo: '케이블카', nameEn: 'Cable Car One-Way', sourceUrl: 'https://cable.example', min: 7 });
     const rows = [...without(baseSamples(), 'transport'), ride(1), ride(2), cable];
     const e = estimateTrip(trip({ attractionIds: [cable.id] }), city, rows);
-    expect(e.categories.transport.sufficient).toBe(false); // 1회권은 2건만 남음
+    expect(e.categories.transport.independentCount).toBe(2); // 케이블카는 1회권으로 세지 않음(1회권 2건만 남음)
     expect(summarizeCity(city, rows).baskets.attraction).toBe(4);
     expect(e.warnings).toContainEqual({ category: 'attraction', code: 'sightseeingRide', ids: [cable.id] });
   });
@@ -276,21 +305,13 @@ describe('데이터 부족 상태', () => {
     expect(e.total).toBeNull();
   });
 
-  it('충족률이 기준 미만이면 비용군마다 최소 표본이 있어도 계산을 보류한다', () => {
-    const M = MODEL as unknown as { minSamplesPerCategory: number };
-    M.minSamplesPerCategory = 2;
-    try {
-      // 최소 표본을 2건으로 낮춘 상황에서 비용군마다 2건 → 충족률 8/12 = 0.67 < 0.75
-      const two = [pass(1), pass(2), meal(1), meal(2), attr(1), attr(2), gift(1), gift(2)];
-      const e = estimateTrip(trip(), city, two);
-      expect(e.missing).toEqual([]);
-      expect(e.fillRate).toBeCloseTo(6 / 9, 6);
-      expect(e.computable).toBe(false);
-      expect(e.total).toBeNull();
-      expect(e.warnings.some((w) => w.code === 'lowFillRate')).toBe(true);
-    } finally {
-      M.minSamplesPerCategory = 3;
-    }
+  it('충족률은 비용군마다 기준 표본 수 대비 채운 비율(최대 1)의 평균이다', () => {
+    // 식사 2건(기준 3건) → 2/3, 교통 이용권 1건(3건 기준을 채운 바스켓이 없어 1건 기준) → 1 → 평균 5/6
+    const e = estimateTrip(trip(), city, [pass(1), meal(1), meal(2), attr(1)]);
+    expect(e.missing).toEqual(['food']);
+    expect(e.fillRate).toBeCloseTo(5 / 6, 6);
+    expect(e.computable).toBe(false);
+    expect(e.total).toBeNull();
   });
 });
 

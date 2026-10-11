@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url';
 import * as XLSX from 'xlsx';
 import { classify } from '../src/core/classify';
 import { cityStatus } from '../src/core/estimate';
-import { BASKET_RULES, MODEL } from '../src/core/model-config';
+import { BASKET_RULES, MODEL, minSamples } from '../src/core/model-config';
 
 /** data/overlays/food-info.json 의 한 음식 */
 interface FoodInfo {
@@ -495,7 +495,7 @@ function researchQueue(pilot: City[], samples: PriceSample[], status: Record<str
     '# 조사 요청 목록 (자동 생성)',
     '',
     `> \`npm run data:convert\` 가 \`${meta.source}\` (${meta.version}) 로부터 만든 파일입니다. 직접 고치지 마세요.`,
-    `> 기준: 바스켓마다 **독립 표본 ${min}건 이상**(같은 출처·같은 상품의 용량·기간·요일 변형, 같은 명소의 관람 옵션은 1건).`,
+    `> 기준: 식사 바스켓은 **독립 표본 ${min}건 이상**, 교통은 1회권 또는 1일권 공식 요금 **1건 이상**(대략 계산이 목적). 독립 표본은 같은 출처·같은 상품의 용량·기간·요일 변형, 같은 명소의 관람 옵션은 1건).`,
     '> 수치는 가격 원장과 계산 코드로 다시 만든 것입니다. 엑셀의 "도시 초안"·"다음 조사 큐" 시트 수치는 쓰지 않습니다(작성 시점이 달라 오래된 값이 있을 수 있음).',
     '',
     '## 1. 계산을 막는 부족 바스켓',
@@ -511,7 +511,7 @@ function researchQueue(pilot: City[], samples: PriceSample[], status: Record<str
       const pool = rule.mode === 'alternatives' ? rule.baskets : rule.required;
       for (const b of pool) {
         const either = rule.mode === 'alternatives' ? ' (1일 이용권·1회권 중 하나만 채우면 됨)' : '';
-        lines.push(`| ${c.nameKo} | ${BASKET_KO[b]} | ${st.baskets[b]} | ${min - st.baskets[b]}건 더 | ${NEED_HINT[b]}${either} |`);
+        lines.push(`| ${c.nameKo} | ${BASKET_KO[b]} | ${st.baskets[b]} | ${minSamples(b) - st.baskets[b]}건 더 | ${NEED_HINT[b]}${either} |`);
         blocking++;
       }
     }

@@ -72,14 +72,14 @@ describe('한/영 문구', () => {
 
 describe('가격 데이터 무결성', () => {
   it('선택 가능한 도시는 파일럿 도시이고 모든 표본이 (공개 전 도시 포함) 도시에 연결된다', () => {
-    expect(cities.map((c) => c.id).sort()).toEqual(['bangkok', 'barcelona', 'busan', 'cebu', 'da-nang', 'fukuoka', 'hong-kong', 'istanbul', 'jeju', 'kuala-lumpur', 'kyoto', 'london', 'nagoya', 'new-york', 'okinawa', 'osaka', 'paris', 'rome', 'sapporo', 'seoul', 'shanghai', 'singapore', 'taipei', 'tokyo']);
+    expect(cities.map((c) => c.id).sort()).toEqual(['bali', 'bangkok', 'barcelona', 'busan', 'cebu', 'da-nang', 'dubai', 'fukuoka', 'gangneung', 'gyeongju', 'hong-kong', 'istanbul', 'jeju', 'jeonju', 'kuala-lumpur', 'kyoto', 'london', 'nagoya', 'new-york', 'nha-trang', 'okinawa', 'osaka', 'paris', 'phu-quoc', 'rome', 'sapporo', 'seoul', 'shanghai', 'singapore', 'taipei', 'tokyo', 'yeosu']);
     for (const s of samples) expect(allCities.some((c) => c.id === s.cityId && c.currency === s.currency)).toBe(true);
   });
   it('1차 화면에는 파일럿 도시만 노출하고 2차 이후 도시는 숨긴다', () => {
     expect(allCities.length).toBeGreaterThan(cities.length);
-    expect(cities).toHaveLength(24);
+    expect(cities).toHaveLength(32);
     expect(cities.every((c) => c.stage === PILOT_STAGE)).toBe(true);
-    expect(cities.some((c) => c.id === 'dubai')).toBe(false);
+    expect(cities.some((c) => c.id === 'hanoi')).toBe(false);
   });
   it('지도·리뷰 플랫폼 출처(네이버 플레이스 등) 가격은 C등급, 운영자가 직접 확인한 캡처만 계산에 쓰고 나머지는 조건부', () => {
     const platform = samples.filter((s) => /map\.naver\.com|place\.naver\.com|kakao\.com|tripadvisor|ubereats|grab\.com/.test(s.sourceUrl));
@@ -132,7 +132,7 @@ describe('도시 선택: 나라별 묶음과 검색', () => {
   it('사용자 위치와 무관하게 나라별로 묶고, 나라·도시 이름순으로 정렬한다', () => {
     const ko = cityGroups(cities, 'ko');
     expect(ko.map((g) => g.country)).toEqual([...new Set(cities.map((c) => c.country))].sort((a, b) => a.localeCompare(b, 'ko')));
-    expect(ko.find((g) => g.country === '한국')!.items.map((c) => c.nameKo)).toEqual(['부산', '서울', '제주']);
+    expect(ko.find((g) => g.country === '한국')!.items.map((c) => c.nameKo)).toEqual(['강릉', '경주', '부산', '서울', '여수', '전주', '제주']);
     const en = cityGroups(cities, 'en');
     expect(en[0]!.country.localeCompare(en[1]!.country, 'en')).toBeLessThan(0);
     expect(en.flatMap((g) => g.items)).toHaveLength(cities.length);
@@ -141,7 +141,7 @@ describe('도시 선택: 나라별 묶음과 검색', () => {
     const find = (q: string) => cities.filter((c) => matchCity(c, q)).map((c) => c.id).sort();
     expect(find('도쿄')).toEqual(['tokyo']);
     expect(find('일본')).toEqual(['fukuoka', 'kyoto', 'nagoya', 'okinawa', 'osaka', 'sapporo', 'tokyo']);
-    expect(find('south korea')).toEqual(['busan', 'jeju', 'seoul']);
+    expect(find('south korea')).toEqual(['busan', 'gangneung', 'gyeongju', 'jeju', 'jeonju', 'seoul', 'yeosu']);
     expect(find('ParIs')).toEqual(['paris']);
     expect(find('다 낭')).toEqual(['da-nang']);
     expect(find('')).toHaveLength(cities.length);

@@ -1,4 +1,4 @@
-import { CATEGORIES, MODEL } from '../core/model-config';
+import { CATEGORIES, MODEL, minSamplesForCategory } from '../core/model-config';
 import { isSupported } from '../core/money';
 import type { Category, CategoryEstimate, City, Estimate, PriceSample, Range, TripInput, Warning } from '../core/types';
 import { fmt, localName, useI18n, type Lang } from '../i18n';
@@ -90,7 +90,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
     directConverted = r ? r.min : null;
   }
 
-  const holdList = e.missing.map((c) => `${catName(c)} (${fmt(t.result.needMore, { have: e.categories[c].independentCount, need: MODEL.minSamplesPerCategory })})`).join(', ');
+  const holdList = e.missing.map((c) => `${catName(c)} (${fmt(t.result.needMore, { have: e.categories[c].independentCount, need: minSamplesForCategory(c) })})`).join(', ');
   const fillPct = Math.round(e.fillRate * 100);
 
   return (
@@ -172,7 +172,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
                   </td>
                 ) : (
                   <td className="insufficient">
-                    {t.result.notEnough} · {fmt(t.result.needMore, { have: est.independentCount, need: MODEL.minSamplesPerCategory })}
+                    {t.result.notEnough} · {fmt(t.result.needMore, { have: est.independentCount, need: minSamplesForCategory(c) })}
                   </td>
                 )}
               </tr>,

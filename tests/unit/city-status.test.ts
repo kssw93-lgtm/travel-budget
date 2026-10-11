@@ -26,23 +26,30 @@ describe('파일럿 도시 데이터 상태', () => {
     );
     expect(table).toMatchInlineSnapshot(`
       {
+        "bali": "3/3/2 · 100% · ready",
         "bangkok": "4/3/11 · 100% · ready",
         "barcelona": "6/4/12 · 100% · ready",
         "busan": "10/3/12 · 100% · ready",
         "cebu": "3/4/4 · 100% · ready",
         "da-nang": "5/3/12 · 100% · ready",
+        "dubai": "3/3/3 · 100% · ready",
         "fukuoka": "3/3/5 · 100% · ready",
+        "gangneung": "3/2/3 · 100% · ready",
+        "gyeongju": "3/4/3 · 100% · ready",
         "hong-kong": "6/3/3 · 100% · ready",
         "istanbul": "6/3/12 · 100% · ready",
         "jeju": "9/3/12 · 100% · ready",
+        "jeonju": "3/2/3 · 100% · ready",
         "kuala-lumpur": "5/4/2 · 100% · ready",
         "kyoto": "3/3/2 · 100% · ready",
         "london": "6/3/14 · 100% · ready",
         "nagoya": "3/4/0 · 100% · ready",
         "new-york": "3/4/12 · 100% · ready",
+        "nha-trang": "5/2/3 · 100% · ready",
         "okinawa": "3/3/3 · 100% · ready",
         "osaka": "7/3/10 · 100% · ready",
         "paris": "4/3/12 · 100% · ready",
+        "phu-quoc": "5/2/3 · 100% · ready",
         "rome": "9/3/13 · 100% · ready",
         "sapporo": "4/3/3 · 100% · ready",
         "seoul": "17/3/12 · 100% · ready",
@@ -50,6 +57,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "singapore": "5/3/12 · 100% · ready",
         "taipei": "3/3/12 · 100% · ready",
         "tokyo": "10/3/11 · 100% · ready",
+        "yeosu": "3/1/3 · 100% · ready",
       }
     `);
   });
@@ -64,23 +72,30 @@ describe('파일럿 도시 데이터 상태', () => {
     );
     expect(table).toMatchInlineSnapshot(`
       {
+        "bali": "pass 0/0 · ride 3/3 · meal 3/3 · snack 3/3 · attraction 2/2 · souvenir 0/0",
         "bangkok": "pass 1/1 · ride 3/3 · meal 4/4 · snack 3/3 · attraction 11/11 · souvenir 4/4",
         "barcelona": "pass 1/1 · ride 4/4 · meal 6/6 · snack 5/5 · attraction 12/13 · souvenir 3/3",
         "busan": "pass 1/1 · ride 3/4 · meal 10/10 · snack 8/8 · attraction 12/12 · souvenir 3/3",
         "cebu": "pass 0/0 · ride 4/4 · meal 3/3 · snack 4/4 · attraction 4/6 · souvenir 0/0",
         "da-nang": "pass 0/0 · ride 3/3 · meal 5/5 · snack 3/3 · attraction 12/12 · souvenir 3/3",
+        "dubai": "pass 0/0 · ride 3/3 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "fukuoka": "pass 1/1 · ride 3/3 · meal 3/3 · snack 3/3 · attraction 5/5 · souvenir 0/0",
+        "gangneung": "pass 0/0 · ride 2/2 · meal 3/3 · snack 4/4 · attraction 3/3 · souvenir 0/0",
+        "gyeongju": "pass 0/0 · ride 4/4 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "hong-kong": "pass 1/1 · ride 3/3 · meal 6/6 · snack 4/4 · attraction 3/3 · souvenir 0/0",
         "istanbul": "pass 0/0 · ride 3/3 · meal 6/6 · snack 6/6 · attraction 12/12 · souvenir 3/3",
         "jeju": "pass 0/0 · ride 3/3 · meal 9/9 · snack 3/3 · attraction 12/12 · souvenir 5/5",
+        "jeonju": "pass 1/1 · ride 2/2 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "kuala-lumpur": "pass 0/0 · ride 4/4 · meal 5/5 · snack 4/4 · attraction 2/2 · souvenir 0/0",
         "kyoto": "pass 1/1 · ride 3/3 · meal 3/3 · snack 2/2 · attraction 2/2 · souvenir 0/0",
         "london": "pass 2/2 · ride 3/3 · meal 6/7 · snack 3/3 · attraction 14/14 · souvenir 3/3",
         "nagoya": "pass 4/4 · ride 2/2 · meal 3/3 · snack 0/0 · attraction 0/0 · souvenir 0/0",
         "new-york": "pass 0/0 · ride 4/4 · meal 3/3 · snack 6/6 · attraction 12/13 · souvenir 3/3",
+        "nha-trang": "pass 0/0 · ride 2/2 · meal 5/5 · snack 2/2 · attraction 3/4 · souvenir 0/0",
         "okinawa": "pass 2/3 · ride 3/3 · meal 3/3 · snack 4/4 · attraction 3/3 · souvenir 0/0",
         "osaka": "pass 1/2 · ride 3/3 · meal 7/7 · snack 13/13 · attraction 10/10 · souvenir 3/4",
         "paris": "pass 1/1 · ride 3/3 · meal 4/4 · snack 3/3 · attraction 12/14 · souvenir 4/4",
+        "phu-quoc": "pass 0/0 · ride 2/2 · meal 5/5 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "rome": "pass 2/4 · ride 3/3 · meal 9/9 · snack 1/1 · attraction 13/13 · souvenir 3/3",
         "sapporo": "pass 1/1 · ride 3/3 · meal 4/4 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "seoul": "pass 2/5 · ride 3/3 · meal 17/17 · snack 7/7 · attraction 12/12 · souvenir 6/6",
@@ -88,6 +103,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "singapore": "pass 2/2 · ride 3/3 · meal 5/5 · snack 3/3 · attraction 12/14 · souvenir 4/4",
         "taipei": "pass 1/3 · ride 3/3 · meal 3/3 · snack 3/3 · attraction 12/14 · souvenir 3/4",
         "tokyo": "pass 3/5 · ride 3/3 · meal 10/10 · snack 14/14 · attraction 11/11 · souvenir 3/4",
+        "yeosu": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
       }
     `);
   });

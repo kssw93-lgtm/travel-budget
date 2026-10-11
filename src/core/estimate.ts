@@ -1,6 +1,6 @@
 import { classify, isVariablePricing, type Classified, type ExcludeReason } from './classify';
 import { addDays } from './dates';
-import { BASKET_RULES, BASKETS, CATEGORIES, EDGE_WEIGHTED, ESTIMATED_CATEGORIES, MODEL } from './model-config';
+import { BASKET_RULES, BASKETS, CATEGORIES, EDGE_WEIGHTED, ESTIMATED_CATEGORIES, MODEL, minSamples, minSamplesForCategory } from './model-config';
 import { attractionOptions } from './attractions';
 import { passOptions, passesNeeded } from './transport';
 import { estimateExtras } from './extras';
@@ -91,7 +91,7 @@ export function qualityWarnings(category: CostCategory, rows: Classified[]): War
 }
 
 /** 한 바스켓(같은 단위의 표본 묶음)의 전체 일정·전체 인원 합계. 다른 바스켓의 가격과 섞지 않는다. */
-function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates: string[], weights: number[], opts: BasketOpts = {}): BasketRun {
+function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates: string[], weights: number[], opts: BasketOpts = {}, minIndependent: number = MODEL.minSamplesPerCategory): BasketRun {
   const rows = all.filter((r) => r.basket === basket);
   const adultRows = selectUsable(rows.filter((r) => r.audience === 'adult'));
   const childRows = selectUsable(rows.filter((r) => r.audience === 'child'));
@@ -100,7 +100,7 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
     adultCount: adultRows.length,
     adultIndependent: independentCount(adultRows),
     childCount: childRows.length,
-    sufficient: independentCount(adultRows) >= MODEL.minSamplesPerCategory,
+    sufficient: independentCount(adultRows) >= minIndependent,
     total: null,
     used: [],
     excludedByDate: [],
@@ -127,7 +127,9 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
     if (day.rows.length === 0 || independentCount(day.rows) < minIndependent) return null;
     day.resolvedVariants.forEach((id) => resolved.add(id));
     day.rows.forEach((r) => used.set(r.sample.id, r));
-    return styleRange(endpoints(day.rows, basket), input.style);
+    const range = styleRange(endpoints(day.rows, basket), input.style);
+    // 한 끼는 대표 메뉴 1개 가격에 곁들임·음료 추가 주문 배수를 곱한다(스타일별 주문량 가정)
+    return basket === 'meal' ? scale(range, MODEL.mealItemFactor[input.style]) : range;
   };
 
   // 1회권은 하루 상한 요금(TfL daily cap 등 공식 요금 규칙)이 있으면 1인 하루 비용을 그 금액으로 자른다.
@@ -170,7 +172,7 @@ function priceBasket(basket: Basket, all: Classified[], input: TripInput, dates:
   {
     const useDates = opts.days === undefined ? dates : dates.slice(0, Math.max(0, Math.min(dates.length, opts.days)));
     for (const [i, date] of useDates.entries()) {
-      const adult = personDay(adultRows, date, MODEL.minSamplesPerCategory);
+      const adult = personDay(adultRows, date, minIndependent);
       if (!adult) {
         run.sufficient = false;
         break;
@@ -210,7 +212,13 @@ function estimateCategory(
 ): { estimate: CategoryEstimate; warnings: Warning[] } {
   const rule = { ...BASKET_RULES[category], ...(override.baskets ? { baskets: override.baskets } : {}) };
   // 주류는 사용자가 "음주 포함"을 고른 경우에만 계산한다
-  const runs = rule.baskets.filter((b) => b !== 'drink' || input.drinks).map((b) => priceBasket(b, all, input, dates, weights, override.opts?.(b) ?? {}));
+  const active = rule.baskets.filter((b) => b !== 'drink' || input.drinks);
+  let runs = active.map((b) => priceBasket(b, all, input, dates, weights, override.opts?.(b) ?? {}));
+  // 대안 바스켓(교통): 어느 쪽도 기본 기준(3건)을 못 채우면 바스켓별 완화 기준(공식 요금 1건)으로 다시 계산한다.
+  // 기준을 채운 도시는 결과가 그대로이고, 시내버스 하나뿐인 소도시도 대략의 교통비를 낼 수 있다.
+  if (rule.mode === 'alternatives' && !runs.some((r) => r.sufficient)) {
+    runs = active.map((b) => priceBasket(b, all, input, dates, weights, override.opts?.(b) ?? {}, minSamples(b)));
+  }
   const warnings: Warning[] = [];
   const drinkRun = runs.find((r) => r.basket === 'drink');
   if (drinkRun && drinkRun.adultCount === 0) warnings.push({ category, code: 'drinkNoData', basket: 'drink' });
@@ -387,14 +395,15 @@ export function summarizeCity(city: City, samples: PriceSample[]): CitySummary {
     const pool = rule.mode === 'alternatives' ? rule.baskets : rule.required;
     counts[c] = Math.max(0, ...pool.map((b) => baskets[b]));
   }
+  // 충족률: 비용군마다 기준 표본 수 대비 채운 비율(최대 1)의 평균. 기준이 3건이면 예전 식(Σmin(3, n) / 3k)과 같다
   const fillRate =
-    ESTIMATED_CATEGORIES.reduce((sum, c) => sum + Math.min(MODEL.fillRateCap, counts[c]), 0) / (MODEL.fillRateCap * ESTIMATED_CATEGORIES.length);
+    ESTIMATED_CATEGORIES.reduce((sum, c) => sum + Math.min(1, counts[c] / Math.min(MODEL.fillRateCap, minSamplesForCategory(c))), 0) / ESTIMATED_CATEGORIES.length;
   return {
     counts,
     baskets,
     basketRows,
     fillRate,
-    missing: ESTIMATED_CATEGORIES.filter((c) => counts[c] < MODEL.minSamplesPerCategory),
+    missing: ESTIMATED_CATEGORIES.filter((c) => counts[c] < minSamplesForCategory(c)),
     excluded: rows.filter((r) => !r.usable).map((r) => ({ sample: r.sample, reason: r.excludeReason as ExcludeReason })),
     totalRows: rows.length,
   };

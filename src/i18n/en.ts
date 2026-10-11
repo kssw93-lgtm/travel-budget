@@ -259,7 +259,7 @@ export const en: Messages = {
   detail: {
     open: 'Show details',
     day: 'Day {n}',
-    edgeNote: 'The arrival and departure days count as 60% of a full day.',
+    edgeNote: 'The arrival and departure days count as 80% of a full day. A meal is priced as one main dish plus extra sides and drinks (×1.3 standard, ×1.6 comfort).',
     colDay: 'Day',
     colUnits: 'Per person',
     colUnit: 'Unit price',

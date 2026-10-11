@@ -9,7 +9,7 @@ test.describe('계산기 핵심 흐름', () => {
     await mockRates(page);
     await page.goto('/');
     const values = await page.locator('#city option').evaluateAll((os) => os.map((o) => (o as HTMLOptionElement).value));
-    expect([...values].sort()).toEqual(['bangkok', 'barcelona', 'busan', 'cebu', 'da-nang', 'fukuoka', 'hong-kong', 'istanbul', 'jeju', 'kuala-lumpur', 'kyoto', 'london', 'nagoya', 'new-york', 'okinawa', 'osaka', 'paris', 'rome', 'sapporo', 'seoul', 'shanghai', 'singapore', 'taipei', 'tokyo']);
+    expect([...values].sort()).toEqual(['bali', 'bangkok', 'barcelona', 'busan', 'cebu', 'da-nang', 'dubai', 'fukuoka', 'gangneung', 'gyeongju', 'hong-kong', 'istanbul', 'jeju', 'jeonju', 'kuala-lumpur', 'kyoto', 'london', 'nagoya', 'new-york', 'nha-trang', 'okinawa', 'osaka', 'paris', 'phu-quoc', 'rome', 'sapporo', 'seoul', 'shanghai', 'singapore', 'taipei', 'tokyo', 'yeosu']);
     // 국내/해외가 아니라 나라별로 묶는다
     const pilot = (JSON.parse(readFileSync('src/data/generated/cities.json', 'utf8')) as Array<{ stage: string; country: string }>).filter((c) => c.stage === '파일럿');
     await expect(page.locator('#city optgroup')).toHaveCount(new Set(pilot.map((c) => c.country)).size);
@@ -129,7 +129,7 @@ test.describe('계산기 핵심 흐름', () => {
     await mockRates(page);
     await page.goto('/');
     const label: Record<string, string> = { food: '외식', transport: '현지 교통', attraction: '관광지' };
-    expect(Object.keys(status)).toHaveLength(24);
+    expect(Object.keys(status)).toHaveLength(32);
     for (const [city, st] of Object.entries(status)) {
       await fillTrip(page, { city });
       if (st.computable) {
@@ -332,7 +332,7 @@ test.describe('항목별 자세히 보기·음주', () => {
     await food.locator('summary').click();
     // 식사 줄이 먼저, 이어서 간식·음료 줄(같은 일차 표시)이 나온다
     await expect(food.locator('[data-line="day-1"]').first()).toContainText('1일차');
-    await expect(food.locator('[data-line="day-1"]').first()).toContainText('3끼 × 60%');
+    await expect(food.locator('[data-line="day-1"]').first()).toContainText('3끼 × 80%');
     await expect(food.locator('[data-line="day-2"]').first()).toContainText('3끼');
     await expect(food.locator('[data-line="day-4"]').first()).toContainText('2026-11-07');
     await expect(food.locator('[data-line="contingency"]')).toContainText('예비비 10%');

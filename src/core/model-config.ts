@@ -11,8 +11,13 @@ export const MODEL = {
   fillRateCap: 3,
   minFillRate: 0.75,
   contingencyRate: 0.1,
-  /** 첫날·마지막 날 식비·활동비 비율 */
-  edgeDayFactor: 0.6,
+  /** 첫날·마지막 날 식비·활동비 비율(도착·출발일도 2끼 이상은 먹는다고 보고 0.6 → 0.8, 2026-10-11) */
+  edgeDayFactor: 0.8,
+  /**
+   * 한 끼 단가 = 대표 메뉴 1개 가격 × 이 배수. 여행 중에는 메뉴 하나만 먹기보다 곁들임·음료·나눠 먹을 메뉴를 더 시키는 일이 많아
+   * 스타일별로 추가 주문을 반영한다(가격이 아니라 주문량 가정, 2026-10-11).
+   */
+  mealItemFactor: { budget: 1.0, standard: 1.3, comfort: 1.6 } as Record<TravelStyle, number>,
   /**
    * 바스켓별 이용 횟수 가정(가격이 아니라 사용 방식).
    * pass·ride·meal·snack·attraction 은 1인 하루 기준.
@@ -21,7 +26,7 @@ export const MODEL = {
     pass: { budget: 1, standard: 1, comfort: 1 },
     ride: { budget: 2, standard: 3, comfort: 4 },
     meal: { budget: 3, standard: 3, comfort: 3 },
-    snack: { budget: 1, standard: 1, comfort: 2 },
+    snack: { budget: 1, standard: 2, comfort: 3 },
     /** 성인 1인 하루 술 잔(병) 수 — 음주 포함을 고른 경우만 */
     drink: { budget: 1, standard: 2, comfort: 3 },
     /** 관광지는 자동 추정하지 않는다(사용자가 고른 곳 1회씩). 바스켓 구조상 값만 둔다 */
@@ -29,11 +34,14 @@ export const MODEL = {
     /** 기념품은 계산하지 않는다(사용자가 쇼핑 예산을 직접 입력). 바스켓 구조상 값만 둔다 */
     souvenir: { budget: 0, standard: 0, comfort: 0 },
   } as Record<Basket, Record<TravelStyle, number>>,
-  /** 여행 스타일별로 가격 분포(표본 끝점 정렬)에서 읽는 분위 구간 */
+  /**
+   * 여행 스타일별로 가격 분포(표본 끝점 정렬)에서 읽는 분위 구간.
+   * 대략적인 체류비 범위가 목적이라 구간을 좁게 둔다(2026-10-11: 일반형 0.25~0.75 → 0.4~0.65, 최소·최대 차이 축소).
+   */
   styleBand: {
-    budget: [0, 0.5],
-    standard: [0.25, 0.75],
-    comfort: [0.5, 1],
+    budget: [0.15, 0.4],
+    standard: [0.4, 0.65],
+    comfort: [0.65, 0.9],
   } as Record<TravelStyle, [number, number]>,
   /** 방문객이 해당하지 않는 거주자 전용 대상(`대상` 열 값) */
   excludedTargets: ['EEA'],
@@ -65,6 +73,26 @@ export const BASKET_RULES: Record<CostCategory, { baskets: readonly Basket[]; mo
   attraction: { baskets: ['attraction'], mode: 'sum', required: ['attraction'] },
 };
 export const STYLES: readonly TravelStyle[] = ['budget', 'standard', 'comfort'];
+
+/**
+ * 바스켓별 최소 독립 표본 수(없으면 MODEL.minSamplesPerCategory).
+ * 이 계산기는 대략적인 체류비 범위가 목적이라, 시내버스 하나뿐인 소도시처럼 대중교통 요금 체계가 하나인 곳도
+ * 공식 1회 요금(또는 1일권) 1건이면 교통비를 계산한다. 식사는 그대로 3건(가게마다 값 차이가 커서).
+ */
+export const MIN_SAMPLES_BY_BASKET: Partial<Record<Basket, number>> = { ride: 1, pass: 1 };
+
+export function minSamples(basket: Basket): number {
+  return MIN_SAMPLES_BY_BASKET[basket] ?? MODEL.minSamplesPerCategory;
+}
+
+/** 비용군을 계산하는 데 필요한 최소 독립 표본 수(대체 바스켓이면 가장 낮은 기준, 합산이면 필수 바스켓 중 가장 높은 기준) */
+export function minSamplesForCategory(category: CostCategory): number {
+  const rule = BASKET_RULES[category];
+  const pool = rule.mode === 'alternatives' ? rule.baskets : rule.required;
+  if (pool.length === 0) return MODEL.minSamplesPerCategory;
+  const mins = pool.map(minSamples);
+  return rule.mode === 'alternatives' ? Math.min(...mins) : Math.max(...mins);
+}
 
 /** `세부유형`·`단위`·항목명 해석용 키워드. 새 조사자료의 표기가 늘면 여기에만 추가한다. */
 export const KEYWORDS = {

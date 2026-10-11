@@ -1823,6 +1823,82 @@
     "note": "Claude 초안(2026-10-11)"
   },
   {
+    "cityId": "guam",
+    "nameKo": "차모로 BBQ",
+    "nameEn": "Chamorro BBQ",
+    "reason": "간장·식초 양념에 재운 고기를 숯불에 구워 레드라이스와 먹는 괌 대표 요리",
+    "reasonEn": "Guam's signature grilled meat",
+    "desc": {
+      "ko": "간장·식초 양념에 재운 고기를 숯불에 구워 레드라이스와 먹는 괌 대표 요리",
+      "en": "Meat marinated in soy and vinegar, grilled over charcoal and served with red rice",
+      "ja": "醤油と酢に漬けた肉を炭火で焼き、レッドライスと食べるグアムの代表料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "GUM-FD-101"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-12)"
+  },
+  {
+    "cityId": "guam",
+    "nameKo": "레드라이스",
+    "nameEn": "Red Rice",
+    "reason": "아치오테 씨앗으로 붉게 물들인 차모로식 밥",
+    "reasonEn": "The Chamorro side dish",
+    "desc": {
+      "ko": "아치오테 씨앗으로 붉게 물들인 차모로식 밥",
+      "en": "Chamorro rice colored red with achiote seeds",
+      "ja": "アチョーテの種で赤く色づけたチャモロ風ごはん"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-12)"
+  },
+  {
+    "cityId": "guam",
+    "nameKo": "켈라구엔",
+    "nameEn": "Kelaguen",
+    "reason": "닭고기·새우를 레몬즙·코코넛·고추로 버무린 차모로식 무침",
+    "reasonEn": "A tangy Chamorro salad",
+    "desc": {
+      "ko": "닭고기·새우를 레몬즙·코코넛·고추로 버무린 차모로식 무침",
+      "en": "Chicken or shrimp tossed with lemon juice, coconut and chili, Chamorro style",
+      "ja": "鶏肉やエビをレモン汁・ココナッツ・唐辛子で和えたチャモロ料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-12)"
+  },
+  {
+    "cityId": "guam",
+    "nameKo": "스팸 무스비",
+    "nameEn": "Spam Musubi",
+    "reason": "구운 스팸을 밥 위에 올리고 김으로 감싼 간식",
+    "reasonEn": "A favorite island snack",
+    "desc": {
+      "ko": "구운 스팸을 밥 위에 올리고 김으로 감싼 간식",
+      "en": "Grilled Spam on rice wrapped with seaweed, a popular island snack",
+      "ja": "焼いたスパムをごはんにのせ海苔で巻いた軽食"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "GUM-SN-101"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-12)"
+  },
+  {
     "cityId": "gyeongju",
     "nameKo": "교리김밥",
     "nameEn": "Gyori Gimbap",

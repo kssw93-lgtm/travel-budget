@@ -36,6 +36,9 @@
 | 호치민 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 치앙마이 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 치앙마이 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 괌 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 괌 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 괌 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 시드니 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 시드니 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 프라하 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -340,6 +343,27 @@
 | CNX-AT-105 | 치앙마이 | 라차프륵 왕립공원(외국인 성인) | 200 THB | A | 예 | 재검증 | [Royal Park Rajapruek 공식 요금 안내(태국어)](https://www.royalparkrajapruek.org/Admission) |
 | CNX-AT-106 | 치앙마이 | 라차프륵 왕립공원(외국인 아동) | 150 THB | A | 예 | 재검증 | [Royal Park Rajapruek 공식 요금 안내(태국어)](https://www.royalparkrajapruek.org/Admission) |
 | CNX-SN-101 | 치앙마이 | 리버사이드 초콜릿 선데 | 120 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴](https://riverside1984.com/menu) |
+| GUM-FD-104 | 괌 | 피카스 카페 로코모코 | 19 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
+| GUM-FD-105 | 괌 | 피카스 카페 티낙탁 버거(사이드 포함) | 18 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
+| GUM-FD-106 | 괌 | 피카스 카페 콘비프 어니언 볶음밥 | 19 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
+| GUM-SN-101 | 괌 | 피카스 카페 스팸 무스비 | 4.5 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
+| CNX-AL-301 | 치앙마이 | 리버사이드 싱하 생맥주 0.3L | 90 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴(Drinks·Beer)](https://riverside1984.com/menu) |
+| CNX-AL-302 | 치앙마이 | 리버사이드 창 생맥주 0.3L | 85 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴(Drinks·Beer)](https://riverside1984.com/menu) |
+| CNX-AL-303 | 치앙마이 | 리버사이드 창 병맥주(소) | 75 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴(Drinks·Beer)](https://riverside1984.com/menu) |
+| CNX-SN-303 | 치앙마이 | 리버사이드 콜라·스프라이트 병 | 40 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴(Drinks)](https://riverside1984.com/menu) |
+| CNX-SN-304 | 치앙마이 | 리버사이드 핫 커피 | 60 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴(Drinks)](https://riverside1984.com/menu) |
+| CNX-SN-305 | 치앙마이 | 리버사이드 생수 70cl | 40 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴(Drinks)](https://riverside1984.com/menu) |
+| SYD-AT-103 | 시드니 | 씨라이프 시드니 아쿠아리움 당일권(성인) | 57 AUD | A | 예 | 재검증 | [SEA LIFE Sydney Aquarium 공식 Price Table](https://www.visitsealife.com/sydney/tickets-passes/price-table/) |
+| SYD-AT-104 | 시드니 | 씨라이프 시드니 아쿠아리움 당일권(아동) | 42 AUD | A | 예 | 재검증 | [SEA LIFE Sydney Aquarium 공식 Price Table](https://www.visitsealife.com/sydney/tickets-passes/price-table/) |
+| SYD-AT-105 | 시드니 | 와일드 라이프 시드니 동물원 당일권(성인) | 49 AUD | A | 예 | 재검증 | [WILD LIFE Sydney Zoo 공식 Price Table](https://www.wildlifesydney.com.au/tickets-passes/price-table/) |
+| SYD-AT-106 | 시드니 | 와일드 라이프 시드니 동물원 당일권(아동) | 36 AUD | A | 예 | 재검증 | [WILD LIFE Sydney Zoo 공식 Price Table](https://www.wildlifesydney.com.au/tickets-passes/price-table/) |
+| PRG-FD-105 | 프라하 | 우 플레쿠 스비치코바 | 309 CZK | A | 예 | 재검증 | [Pivovar a restaurace U Fleků 공식 식사 메뉴](https://ufleku.cz/restaurace/jidelni-listek/) |
+| PRG-FD-106 | 프라하 | 우 플레쿠 굴라시 | 309 CZK | A | 예 | 재검증 | [Pivovar a restaurace U Fleků 공식 식사 메뉴](https://ufleku.cz/restaurace/jidelni-listek/) |
+| PRG-AL-104 | 프라하 | 우 플레쿠 플레코프스케 라이트 맥주 13° 0.4L | 99 CZK | A | 조건부 | 조건부, 재검증 | [Pivovar a restaurace U Fleků 공식 음료 메뉴](https://ufleku.cz/restaurace/napojovy-listek/) |
+| PRG-SN-104 | 프라하 | 우 플레쿠 커피(에스프레소·카푸치노·라테) | 59 CZK | A | 예 | 재검증 | [Pivovar a restaurace U Fleků 공식 음료 메뉴](https://ufleku.cz/restaurace/napojovy-listek/) |
+| PRG-AT-107 | 프라하 | 구시청사(천문시계) 기본 입장권 | 350 CZK | A | 예 | 재검증 | [Prague City Tourism 공식(prague.eu)](https://prague.eu/cs/objevujte/staromestska-radnice-s-orlojem/) |
+| PRG-AT-108 | 프라하 | 구시청사(천문시계) 할인 입장권(6~15세) | 230 CZK | A | 예 | 재검증 | [Prague City Tourism 공식(prague.eu)](https://prague.eu/cs/objevujte/staromestska-radnice-s-orlojem/) |
+| PRG-SN-105 | 프라하 | 우 플레쿠 코카콜라 | 79 CZK | A | 조건부 | 조건부, 재검증 | [Pivovar a restaurace U Fleků 공식 음료 메뉴](https://ufleku.cz/restaurace/napojovy-listek/) |
 | DAD-SN-904 | 다낭 | 하이랜드 커피 반미 꿰(파테) | 19000 VND | A | 예 | 재검증 | [Highlands Coffee](https://www.highlandscoffee.com.vn/vn/banh-mi-que.html) |
 | DAD-SN-905 | 다낭 | 하이랜드 커피 핀 쓰어 다(S) | 29000 VND | A | 예 | 재검증 | [Highlands Coffee](https://www.highlandscoffee.com.vn/vn/phin-sua.html) |
 | NYC-SN-906 | 뉴욕 | 그레이스 파파야 핫도그 | 3.25 USD | A | 예 | 재검증 | [Gray's Papaya](https://grayspapaya.nyc/uptown-menu/) |
@@ -547,11 +571,38 @@
 | SEL-AT-203 | 서울 | 덕수궁 입장권 (외국인 만 18세 이하) | 0 KRW | A | 예 | 재검증 | [궁능유적본부](https://royal.khs.go.kr/ROYAL/contents/R703000000.do) |
 | PUS-AT-201 | 부산 | 해운대 해변열차 1회 탑승권 (어린이) | 5600~7000 KRW | A | 예 | 재검증 | [해운대블루라인파크](https://www.bluelinepark.com/fare.do) |
 | PUS-AT-203 | 부산 | 해운대 해변열차 1회 탑승권 (성인) | 8000~10000 KRW | A | 예 | 재검증 | [해운대블루라인파크](https://www.bluelinepark.com/fare.do) |
+| DXB-TR-104 | 두바이 | 공항 터미널 1 출발 지하철 실버 nol 1구역 요금 | 3 AED | A | 예 | 재검증, 시작가 표기 | [두바이 도로교통청 RTA nol 요금표·지하철 역 안내](https://rta.ae/wps/portal/rta/ae/public-transport/Nol-Fares?lang=en;https://www.rta.ae/wps/portal/rta/ae/public-transport/metro-stations-map;https://www.rta.ae/links/rail/rail-network-map.pdf) |
+| SEL-FD-900 | 서울 | 명동교자 본점 칼국수 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [명동교자 본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11592650/menu/list) |
+| SEL-FD-901 | 서울 | 황생가칼국수 사골칼국수 | 13000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [황생가칼국수 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11679429/menu/list) |
+| SEL-FD-902 | 서울 | 이문설농탕 설농탕 | 15000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [이문설농탕 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11711983/menu/list) |
+| SEL-FD-903 | 서울 | 오레노라멘 본점 토리빠이탄 라멘 | 13000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [오레노라멘 본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/814481697/menu/list) |
+| SEL-FD-904 | 서울 | 광화문미진 냉메밀 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [광화문미진 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11680222/menu/list) |
+| PUS-FD-900 | 부산 | 진돼지곰탕 돼지곰탕 | 13000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [진돼지곰탕 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/1417059494/menu/list) |
+| PUS-FD-901 | 부산 | 나막집 용호동본점 돼지곰탕 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [나막집 용호동본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/1964006114/menu/list) |
+| PUS-FD-902 | 부산 | 금수복국 해운대본점 은복국 [지리, 탕] | 15000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [금수복국 해운대본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11672174/menu/list) |
+| PUS-FD-903 | 부산 | 뉴러우멘관즈 홍샤오 뉴러우멘(소) | 13000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [뉴러우멘관즈 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/1394729619/menu/list) |
+| PUS-FD-904 | 부산 | 합천국밥집 따로국밥 | 13000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [합천국밥집 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11872316/menu/list) |
+| CJU-FD-900 | 제주 | 명진전복 전복돌솥밥 | 16000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [명진전복 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/17032617/menu/list) |
+| CJU-FD-901 | 제주 | 순옥이네명가 전복죽 | 13000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [순옥이네명가 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11595461/menu/list) |
+| CJU-FD-902 | 제주 | 이춘옥원조고등어쌈밥 제주애월본점 전복뚝배기 1인 | 17000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [이춘옥원조고등어쌈밥 제주애월본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/19872990/menu/list) |
+| CJU-FD-903 | 제주 | 협재수우동 협재점 자작냉우동 | 15500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [협재수우동 협재점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/36823910/menu/list) |
+| CJU-FD-904 | 제주 | 한라산아래첫마을 제주메밀 비비작작면 | 16000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [한라산아래첫마을 영농조합법인 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/363214380/menu/list) |
 | OSA-TR-801 | 오사카 | 오사카 어메이징 패스 기본형 1일권 | 3500 JPY | A | 예 | 재검증 | [SURUTTO KANSAI / OSAKA AMAZING PASS](https://osaka-amazing-pass.com/en/howto_about_1day.html?amazingPass=) |
 | SIN-TR-802 | 싱가포르 | 싱가포르 투어리스트 패스 참(머라이언 원형) 1일권 | 22 SGD | A | 예 | 재검증 | [Singapore Tourist Pass / SimplyGo](https://thesingaporetouristpass.com.sg/type-of-passes/) |
 | ROM-TR-801 | 로마 | ATAC BIRG 로마 구역 A 지역 통합 1일권 | 7.2 EUR | A | 예 | 재검증 | [ATAC](https://www.atac.roma.it/en/tickets-and-passes/birg) |
 | SIN-SN-801 | 싱가포르 | FairPrice 오리지널 감자칩 60g | 1.2 SGD | A | 예 | 재검증 | [NTUC FairPrice](https://www.fairprice.com.sg/product/fairprice-potato-chips-original-60g-13207660) |
 | SIN-SN-802 | 싱가포르 | Mitsuya 맛 비스킷 스틱 40g | 1.9 SGD | A | 예 | 재검증 | [NTUC FairPrice](https://www.fairprice.com.sg/product/491837) |
+| GUM-FD-101 | 괌 | 메스클라 BBQ 쇼트립(런치) | 18.95 USD | A | 예 | 재검증 | [Meskla Chamoru Fusion Bistro 공식 런치 메뉴 PDF](https://mesklaguam.com/wp-content/uploads/2024/03/meskla-lunch-2024.pdf) |
+| GUM-FD-102 | 괌 | 메스클라 BBQ 치킨(런치) | 19.95 USD | A | 예 | 재검증 | [Meskla Chamoru Fusion Bistro 공식 런치 메뉴 PDF](https://mesklaguam.com/wp-content/uploads/2024/03/meskla-lunch-2024.pdf) |
+| GUM-FD-103 | 괌 | 메스클라 차모루 시저 샐러드(런치) | 18.95 USD | A | 조건부 | 조건부, 재검증 | [Meskla Chamoru Fusion Bistro 공식 런치 메뉴 PDF](https://mesklaguam.com/wp-content/uploads/2024/03/meskla-lunch-2024.pdf) |
+| GUM-TR-101 | 괌 | 괌 대중교통(GRTA) 1회 승차권(일반) | 1.5 USD | A | 예 | 재검증 | [Guam Regional Transit Authority 공식 Bus Fares](https://grta.guam.gov/how-do-i/bus-fares) |
+| GUM-TR-102 | 괌 | 괌 대중교통(GRTA) 1회 승차권(학생 6~18세) | 0.5 USD | A | 예 | 재검증 | [Guam Regional Transit Authority 공식 Bus Fares](https://grta.guam.gov/how-do-i/bus-fares) |
+| GUM-TR-103 | 괌 | 괌 대중교통(GRTA) 1일권(일반) | 4 USD | A | 예 | 재검증 | [Guam Regional Transit Authority 공식 Bus Fares](https://grta.guam.gov/how-do-i/bus-fares) |
+| GUM-TR-104 | 괌 | 레드 셔틀 1회 승차권 | 7 USD | A | 조건부 | 조건부, 재검증 | [Guam Red Shuttle 공식 사이트](https://guamredshuttle.com/?lng=en-US) |
+| GUM-TR-105 | 괌 | 레드 셔틀 1일권 | 15 USD | A | 조건부 | 조건부, 재검증 | [Guam Red Shuttle 공식 사이트](https://guamredshuttle.com/?lng=en-US) |
+| GUM-AT-101 | 괌 | 사랑의 절벽(투 러버스 포인트) 입장료 | 3 USD | A | 예 | 재검증 | [Two Lovers Point 공식 Visit](https://tlpguam.com/pages/visit) |
+| GUM-AT-102 | 괌 | 아쿠아리움 오브 괌(성인 12세 이상) | 30 USD | A | 예 | 재검증 | [Aquarium of Guam 공식 General Admission](https://www.aquariumofguam.com/general-admission) |
+| GUM-AT-103 | 괌 | 아쿠아리움 오브 괌(아동 3~11세) | 20 USD | A | 예 | 재검증 | [Aquarium of Guam 공식 General Admission](https://www.aquariumofguam.com/general-admission) |
 | GJU-TR-101 | 경주 | 경주 시내버스 성인 현금 | 1500 KRW | A | 예 | 재검증 | [경주시 보건소(경주시 교통행정과 고시)](https://www.gyeongju.go.kr/health/page.do?mnu_uid=3143&pageNo=128&pageOrder=0&pagePrvNxt=1&pageRef=0&parm_bod_uid=316506&parm_mnu_uid=423&srchBgpUid=-1&srchColumn=&srchEDate=9999-12-31&srchEnable=1&srchKeyword=&srchSDate=1960-01-01&srchVoteType=-1&step=258) |
 | GJU-TR-102 | 경주 | 경주 시내버스 성인 교통카드 | 1450 KRW | A | 예 | 재검증 | [경주시 보건소(경주시 교통행정과 고시)](https://www.gyeongju.go.kr/health/page.do?mnu_uid=3143&pageNo=128&pageOrder=0&pagePrvNxt=1&pageRef=0&parm_bod_uid=316506&parm_mnu_uid=423&srchBgpUid=-1&srchColumn=&srchEDate=9999-12-31&srchEnable=1&srchKeyword=&srchSDate=1960-01-01&srchVoteType=-1&step=258) |
 | GJU-TR-103 | 경주 | 경주 시내버스 청소년 현금 | 1200 KRW | A | 예 | 재검증 | [경주시 보건소(경주시 교통행정과 고시)](https://www.gyeongju.go.kr/health/page.do?mnu_uid=3143&pageNo=128&pageOrder=0&pagePrvNxt=1&pageRef=0&parm_bod_uid=316506&parm_mnu_uid=423&srchBgpUid=-1&srchColumn=&srchEDate=9999-12-31&srchEnable=1&srchKeyword=&srchSDate=1960-01-01&srchVoteType=-1&step=258) |

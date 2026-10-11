@@ -513,7 +513,7 @@
       "pass": 0,
       "ride": 1,
       "meal": 3,
-      "snack": 3,
+      "snack": 4,
       "drink": 3,
       "attraction": 3,
       "souvenir": 0
@@ -522,9 +522,37 @@
       "pass": 0,
       "ride": 1,
       "meal": 3,
-      "snack": 3,
+      "snack": 4,
       "drink": 3,
       "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "guam": {
+    "counts": {
+      "food": 5,
+      "transport": 2,
+      "attraction": 2
+    },
+    "baskets": {
+      "pass": 2,
+      "ride": 2,
+      "meal": 5,
+      "snack": 1,
+      "drink": 0,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 2,
+      "ride": 2,
+      "meal": 5,
+      "snack": 1,
+      "drink": 0,
+      "attraction": 2,
       "souvenir": 0
     },
     "fillRate": 1,
@@ -535,7 +563,7 @@
     "counts": {
       "food": 4,
       "transport": 4,
-      "attraction": 1
+      "attraction": 3
     },
     "baskets": {
       "pass": 0,
@@ -543,7 +571,7 @@
       "meal": 4,
       "snack": 2,
       "drink": 3,
-      "attraction": 1,
+      "attraction": 3,
       "souvenir": 0
     },
     "basketRows": {
@@ -552,7 +580,7 @@
       "meal": 4,
       "snack": 2,
       "drink": 3,
-      "attraction": 1,
+      "attraction": 3,
       "souvenir": 0
     },
     "fillRate": 1,
@@ -563,24 +591,24 @@
     "counts": {
       "food": 4,
       "transport": 1,
-      "attraction": 3
+      "attraction": 4
     },
     "baskets": {
       "pass": 1,
       "ride": 1,
       "meal": 4,
-      "snack": 3,
+      "snack": 4,
       "drink": 3,
-      "attraction": 3,
+      "attraction": 4,
       "souvenir": 0
     },
     "basketRows": {
       "pass": 2,
       "ride": 2,
       "meal": 4,
-      "snack": 3,
+      "snack": 4,
       "drink": 3,
-      "attraction": 5,
+      "attraction": 6,
       "souvenir": 0
     },
     "fillRate": 1,
@@ -1010,12 +1038,12 @@
   "dubai": {
     "counts": {
       "food": 3,
-      "transport": 3,
+      "transport": 4,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 3,
+      "ride": 4,
       "meal": 3,
       "snack": 3,
       "drink": 3,
@@ -1024,7 +1052,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 3,
+      "ride": 4,
       "meal": 3,
       "snack": 3,
       "drink": 3,

@@ -72,14 +72,15 @@ describe('한/영 문구', () => {
 
 describe('가격 데이터 무결성', () => {
   it('선택 가능한 도시는 파일럿 도시이고 모든 표본이 (공개 전 도시 포함) 도시에 연결된다', () => {
-    expect(cities.map((c) => c.id).sort()).toEqual(['bali', 'bangkok', 'barcelona', 'busan', 'cebu', 'chiang-mai', 'da-nang', 'dubai', 'fukuoka', 'gangneung', 'gyeongju', 'hanoi', 'ho-chi-minh-city', 'hong-kong', 'istanbul', 'jeju', 'jeonju', 'kuala-lumpur', 'kyoto', 'london', 'nagoya', 'new-york', 'nha-trang', 'okinawa', 'osaka', 'paris', 'phu-quoc', 'prague', 'rome', 'sapporo', 'seoul', 'shanghai', 'singapore', 'sydney', 'taipei', 'tokyo', 'yeosu']);
+    expect(cities.map((c) => c.id).sort()).toEqual(['bali', 'bangkok', 'barcelona', 'busan', 'cebu', 'chiang-mai', 'da-nang', 'dubai', 'fukuoka', 'gangneung', 'guam', 'gyeongju', 'hanoi', 'ho-chi-minh-city', 'hong-kong', 'istanbul', 'jeju', 'jeonju', 'kuala-lumpur', 'kyoto', 'london', 'nagoya', 'new-york', 'nha-trang', 'okinawa', 'osaka', 'paris', 'phu-quoc', 'prague', 'rome', 'sapporo', 'seoul', 'shanghai', 'singapore', 'sydney', 'taipei', 'tokyo', 'yeosu']);
     for (const s of samples) expect(allCities.some((c) => c.id === s.cityId && c.currency === s.currency)).toBe(true);
   });
   it('1차 화면에는 파일럿 도시만 노출하고 2차 이후 도시는 숨긴다', () => {
-    expect(allCities.length).toBeGreaterThan(cities.length);
-    expect(cities).toHaveLength(37);
+    expect(allCities.length).toBeGreaterThanOrEqual(cities.length);
+    expect(cities).toHaveLength(38);
     expect(cities.every((c) => c.stage === PILOT_STAGE)).toBe(true);
-    expect(cities.some((c) => c.id === 'guam')).toBe(false);
+    const hidden = allCities.filter((c) => c.stage !== PILOT_STAGE).map((c) => c.id);
+    expect(cities.some((c) => hidden.includes(c.id))).toBe(false);
   });
   it('지도·리뷰 플랫폼 출처(네이버 플레이스 등) 가격은 C등급, 운영자가 직접 확인한 캡처만 계산에 쓰고 나머지는 조건부', () => {
     const platform = samples.filter((s) => /map\.naver\.com|place\.naver\.com|kakao\.com|tripadvisor|ubereats|grab\.com/.test(s.sourceUrl));

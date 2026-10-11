@@ -90,7 +90,7 @@ export function productName(name: string): string {
 
 const VARIANT_TOKENS = [
   '\\bpcs?\\b', '\\bpieces?\\b', '\\bhours?\\b', '\\bdays?\\b', '\\bone\\b', '\\bweekdays?\\b', '\\bweekends?\\b',
-  '\\bholidays?\\b', '시간', '일권', '개입', '개', '평일', '주말', '공휴일',
+  '\\bholidays?\\b', '시간', '일권', '개입', '개', '평일', '주말', '공휴일', '교통카드', '현금',
 ];
 
 function normalizeSource(s: PriceSample): string {

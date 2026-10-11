@@ -33,5 +33,51 @@
     "max": 12,
     "checkedAt": "2026-10-08",
     "reason": "공식 페이지: 온라인 €12, 매표소 €13(이전 €14)."
+  },
+  "PUS-FD-001": {
+    "min": 11000,
+    "max": 11000,
+    "checkedAt": "2026-10-11",
+    "reason": "본전돼지국밥 업주 등록 메뉴 \"돼지국밥 11,000원\"(기존 출처 ID는 다른 업소로 연결) · GPT 네이버 재확인",
+    "sourceUrl": "https://pcmap.place.naver.com/restaurant/13485911/menu/list"
+  },
+  "PUS-FD-004": {
+    "min": 6000,
+    "max": 6000,
+    "checkedAt": "2026-10-11",
+    "reason": "고래사어묵 부전본점 업주 등록 메뉴 \"어우동 6,000원\" · GPT 네이버 재확인",
+    "sourceUrl": "https://pcmap.place.naver.com/restaurant/1814388146/menu/list"
+  },
+  "PUS-FD-005": {
+    "min": 11000,
+    "max": 11000,
+    "checkedAt": "2026-10-11",
+    "reason": "수변최고돼지국밥 민락점 업주 등록 메뉴 \"고기국밥 11,000원\" · GPT 네이버 재확인",
+    "sourceUrl": "https://pcmap.place.naver.com/restaurant/37535404/menu/list"
+  },
+  "PUS-FD-007": {
+    "min": 6800,
+    "max": 6800,
+    "checkedAt": "2026-10-11",
+    "reason": "모모스커피 본점 업주 등록 메뉴 \"오늘의 핸드드립 6,800원\" · GPT 네이버 재확인",
+    "sourceUrl": "https://pcmap.place.naver.com/restaurant/37160995/menu/list"
+  },
+  "CJU-FD-002": {
+    "min": 11000,
+    "max": 11000,
+    "checkedAt": "2026-10-11",
+    "reason": "올래국수 본점 업주 등록 메뉴 11,000원 · GPT 네이버 재확인"
+  },
+  "CJU-FD-004": {
+    "min": 12000,
+    "max": 12000,
+    "checkedAt": "2026-10-11",
+    "reason": "오조해녀의집 업주 등록 메뉴 12,000원 · GPT 네이버 재확인"
+  },
+  "SEL-FD-794": {
+    "min": 15000,
+    "max": 15000,
+    "checkedAt": "2026-10-11",
+    "reason": "올바른스시 업주 등록 메뉴 매장 15,000원(포장 14,500원) · GPT 네이버 재확인"
   }
 }

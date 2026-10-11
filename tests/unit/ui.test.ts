@@ -86,6 +86,7 @@ describe('가격 데이터 무결성', () => {
     expect(platform.length).toBeGreaterThan(0);
     for (const s of platform) {
       expect([s.id, s.grade]).toEqual([s.id, 'C']);
+      if (s.modelUse === 'no') continue; // 재확인에서 출처가 사라져 계산에서 뺀 행(exclusions.json)
       expect([s.id, s.modelUse]).toEqual([s.id, s.note.includes('운영자 제공') ? 'yes' : 'conditional']);
     }
   });

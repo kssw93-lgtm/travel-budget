@@ -1164,5 +1164,20 @@
     "ko": "맑은 돼지뼈 국물에 쌀국수와 새우·돼지고기를 넣은 남부식 국수",
     "en": "Southern-style noodle soup with pork, shrimp and clear pork broth",
     "ja": "澄んだ豚骨スープに米麺と海老や豚肉を入れた南部のフーティウ"
+  },
+  "chiang-mai:Khao Soi": {
+    "ko": "코코넛 카레 국물에 삶은 면과 튀긴 면을 함께 올린 치앙마이 대표 국수",
+    "en": "Egg noodles in coconut curry broth topped with crispy noodles, Chiang Mai's signature dish",
+    "ja": "ココナッツカレースープに茹で麺と揚げ麺をのせたチェンマイ名物の麺"
+  },
+  "chiang-mai:Sai Ua": {
+    "ko": "레몬그라스·고추·허브를 듬뿍 넣어 구운 북부식 소시지",
+    "en": "Northern Thai grilled sausage packed with lemongrass, chili and herbs",
+    "ja": "レモングラスや唐辛子、ハーブをたっぷり入れて焼いた北タイのソーセージ"
+  },
+  "chiang-mai:Gaeng Hang Le": {
+    "ko": "돼지고기를 생강·타마린드로 달콤새콤하게 조린 북부식 카레",
+    "en": "Northern-style pork curry simmered with ginger and tamarind",
+    "ja": "豚肉を生姜とタマリンドで甘酸っぱく煮込んだ北タイのカレー"
   }
 }

@@ -1543,6 +1543,60 @@
     "note": "추천 출처 미확인(초안)"
   },
   {
+    "cityId": "chiang-mai",
+    "nameKo": "카오소이",
+    "nameEn": "Khao Soi",
+    "reason": "코코넛 카레 국물에 삶은 면과 튀긴 면을 함께 올린 치앙마이 대표 국수",
+    "reasonEn": "Chiang Mai's signature curry noodle",
+    "desc": {
+      "ko": "코코넛 카레 국물에 삶은 면과 튀긴 면을 함께 올린 치앙마이 대표 국수",
+      "en": "Egg noodles in coconut curry broth topped with crispy noodles, Chiang Mai's signature dish",
+      "ja": "ココナッツカレースープに茹で麺と揚げ麺をのせたチェンマイ名物の麺"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "chiang-mai",
+    "nameKo": "사이우아",
+    "nameEn": "Sai Ua",
+    "reason": "레몬그라스·고추·허브를 듬뿍 넣어 구운 북부식 소시지",
+    "reasonEn": "A Northern Thai grilled sausage",
+    "desc": {
+      "ko": "레몬그라스·고추·허브를 듬뿍 넣어 구운 북부식 소시지",
+      "en": "Northern Thai grilled sausage packed with lemongrass, chili and herbs",
+      "ja": "レモングラスや唐辛子、ハーブをたっぷり入れて焼いた北タイのソーセージ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "chiang-mai",
+    "nameKo": "깽항레",
+    "nameEn": "Gaeng Hang Le",
+    "reason": "돼지고기를 생강·타마린드로 달콤새콤하게 조린 북부식 카레",
+    "reasonEn": "A rich Northern Thai pork curry",
+    "desc": {
+      "ko": "돼지고기를 생강·타마린드로 달콤새콤하게 조린 북부식 카레",
+      "en": "Northern-style pork curry simmered with ginger and tamarind",
+      "ja": "豚肉を生姜とタマリンドで甘酸っぱく煮込んだ北タイのカレー"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
     "cityId": "dubai",
     "nameKo": "샤와르마",
     "nameEn": "Shawarma",

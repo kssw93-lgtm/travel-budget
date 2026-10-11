@@ -36,6 +36,9 @@
 | 전주 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 하노이 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 호치민 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 치앙마이 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 치앙마이 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 치앙마이 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -326,6 +329,17 @@
 | CEB-FD-106 | 세부 | 이파르스 파에야 네그라 (싱글) | 500 PHP | A | 조건부 | 조건부, 재검증 | [Ipar's Authentic Spanish Restaurant](https://www.ipars.com.ph/menu/) |
 | CEB-FD-107 | 세부 | 이파르스 하우스 파에야 (싱글) | 650 PHP | A | 조건부 | 조건부, 재검증 | [Ipar's Authentic Spanish Restaurant](https://www.ipars.com.ph/menu/) |
 | CEB-SN-303 | 세부 | 7 파레스 생수 500ml | 30 PHP | A | 예 | 재검증 | [7 Pares Cebu](https://www.7pares.com/) |
+| CNX-FD-101 | 치앙마이 | 리버사이드 카오소이(닭다리) | 180 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴](https://riverside1984.com/menu) |
+| CNX-FD-102 | 치앙마이 | 리버사이드 닭고기/돼지고기 볶음밥(소) | 130 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴](https://riverside1984.com/menu) |
+| CNX-FD-103 | 치앙마이 | 리버사이드 비프 버거 | 255 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴](https://riverside1984.com/menu) |
+| CNX-TR-101 | 치앙마이 | RTC 치앙마이 시티버스 | 30 THB | A | 예 | 재검증 | [치앙마이 국제공항(AOT) 공식 교통 안내](https://chiangmai.airportthai.co.th/service/transportation/detail/139) |
+| CNX-AT-101 | 치앙마이 | 치앙마이 나이트 사파리 사파리 트램(외국인 성인) | 1200 THB | A | 예 | 재검증 | [Chiang Mai Night Safari 공식 Ticket Price(이미지)](https://chiangmainightsafari.com/en/promotion/ticket-price/) |
+| CNX-AT-102 | 치앙마이 | 치앙마이 나이트 사파리 사파리 트램(외국인 아동) | 600 THB | A | 예 | 재검증 | [Chiang Mai Night Safari 공식 Ticket Price(이미지)](https://chiangmainightsafari.com/en/promotion/ticket-price/) |
+| CNX-AT-103 | 치앙마이 | 치앙마이 동물원(성인) | 350 THB | A | 조건부 | 조건부, 재검증 | [Chiang Mai Zoo 공식 Ticket prices(영문)](https://chiangmai.zoothailand.org/en/ewt_news.php?nid=173) |
+| CNX-AT-104 | 치앙마이 | 치앙마이 동물원(아동 3~12세) | 120 THB | A | 조건부 | 조건부, 재검증 | [Chiang Mai Zoo 공식 Ticket prices(영문)](https://chiangmai.zoothailand.org/en/ewt_news.php?nid=173) |
+| CNX-AT-105 | 치앙마이 | 라차프륵 왕립공원(외국인 성인) | 200 THB | A | 예 | 재검증 | [Royal Park Rajapruek 공식 요금 안내(태국어)](https://www.royalparkrajapruek.org/Admission) |
+| CNX-AT-106 | 치앙마이 | 라차프륵 왕립공원(외국인 아동) | 150 THB | A | 예 | 재검증 | [Royal Park Rajapruek 공식 요금 안내(태국어)](https://www.royalparkrajapruek.org/Admission) |
+| CNX-SN-101 | 치앙마이 | 리버사이드 초콜릿 선데 | 120 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴](https://riverside1984.com/menu) |
 | DAD-SN-904 | 다낭 | 하이랜드 커피 반미 꿰(파테) | 19000 VND | A | 예 | 재검증 | [Highlands Coffee](https://www.highlandscoffee.com.vn/vn/banh-mi-que.html) |
 | DAD-SN-905 | 다낭 | 하이랜드 커피 핀 쓰어 다(S) | 29000 VND | A | 예 | 재검증 | [Highlands Coffee](https://www.highlandscoffee.com.vn/vn/phin-sua.html) |
 | NYC-SN-906 | 뉴욕 | 그레이스 파파야 핫도그 | 3.25 USD | A | 예 | 재검증 | [Gray's Papaya](https://grayspapaya.nyc/uptown-menu/) |

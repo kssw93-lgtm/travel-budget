@@ -48,7 +48,6 @@
 | OSA-AT-003 | 오사카 | 산타마리아 데이크루즈 | 2000 JPY | A | 조건부 | 조건부 | [Osaka Suijyo Bus](https://suijo-bus.osaka/cruiselist/santamaria/) |
 | OSA-FD-001 | 오사카 | 타코야키 6개 | 630 JPY | A | 예 | 검수: 원문 확인 불가 | [Takohachi](https://www.takohachi.jp/wp-content/uploads/2025/03/f9d7c787c113f386cc64c16c2608abb4.pdf) |
 | OSA-SV-003 | 오사카 | 리쿠로 선물 파이 8개 | 980 JPY | A | 조건부 | 조건부, 재검증 | [Rikuro](https://www.rikuro.co.jp/newsitem/1647.html) |
-| BKK-TR-001 | 방콕 | BTS 1일권 | 150 THB | A | 예 | 검수: 원문 확인 불가 | [BTS](https://www.bts.co.th/eng/tickets/ticket-daypass.html) |
 | BKK-AT-002 | 방콕 | 왓 아룬 입장권 | 200 THB | B | 조건부 | B등급, 조건부, 검수: 원문 확인 불가 | [Tourism Authority of Thailand](https://www.tourismthailand.org/Attraction/wat-arun-or-temple-of-dawn) |
 | BKK-FD-003 | 방콕 | 강새우 팟타이 | 450 THB | A | 예 | 세금·서비스료 별도 | [ChomSindh at Amari Bangkok](https://www.amari.com/bangkok/dine/chomsindh) |
 | DAD-AT-001 | 다낭 | 선월드 바나힐 입장권 | 1000000 VND | A | 조건부 | 조건부, 재검증 | [Sun World Ba Na Hills](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
@@ -59,17 +58,11 @@
 | SIN-TR-001 | 싱가포르 | 싱가포르 투어리스트 패스 | 17 SGD | A | 예 | 시작가 표기 | [SimplyGo](https://simplygo.com.sg/locations/singapore-tourist-pass-sales-channels/) |
 | PAR-FD-001 | 파리 | 부용 샤르티에 메인 시작가 | 7 EUR | A | 조건부 | 조건부, 시작가 표기 | [Bouillon Chartier](https://www.bouillon-chartier.com/chartier_medias/2025/10/Anglais.pdf) |
 | LON-AT-005 | 런던 | 대영박물관 상설 관람 | 0 GBP | A | 예 | 재검증, 검수: 원문 확인 불가 | [British Museum](https://www.britishmuseum.org/visit) |
-| OSA-FD-004 | 오사카 | 치보 도톤보리야키 | 1480 JPY | A | 예 | 검수: 원문 확인 불가 | [Chibo](https://www.chibo.com/menu/) |
-| BKK-TR-002 | 방콕 | BTS 단일 여정 요금 | 17~47 THB | A | 예 | 검수: 원문 확인 불가 | [BTS](https://www.bts.co.th/eng/tickets/ticket-journey.html) |
-| BKK-TR-004 | 방콕 | 레드라인 단일 여정 요금 | 12~42 THB | A | 예 | 검수: 원문 확인 불가 | [SRT Electrified Train](https://www.srtet.co.th/en/fare-timetable) |
-| DAD-TR-007 | 다낭 | 다낭 공항-바나힐 03번 버스 | 15000~30000 VND | A | 예 | 검수: 원문 확인 불가 | [Danabus](https://www.danangbus.vn/tin-tuc/tin-tuc/cung-danabus-du-lich-ba-na-hills-5445.html) |
 | PAR-TR-004 | 파리 | 나비고 리베르테 플러스 메트로-기차-RER | 2.04 EUR | A | 예 | 검수: 원문 확인 불가 | [Île-de-France Mobilités](https://www.iledefrance-mobilites.fr/en/titres-et-tarifs/detail/navigo-liberte-plus) |
-| PAR-FD-003 | 파리 | 부용 서비스 3코스 세트 | 10 EUR | A | 예 | 검수: 원문 확인 불가 | [Bouillon Service](https://bouillonlesite.com/) |
 | DAD-AT-004 | 다낭 | 다낭 참조각박물관 일반 입장권 | 60000 VND | A | 예 | 검수: 원문 미확인 | [Da Nang Museum of Cham Sculpture](https://chammuseum.vn/view.aspx?ID=45) |
 | BKK-SV-006 | 방콕 | 왓 아룬 디자인 자석 | 195 THB | A | 예 | 검수: 원문 확인 불가 | [SIAM MAGNET](https://siammagnet.co.th/en/products/12) |
 | SIN-FD-008 | 싱가포르 | 티옹바루 하이난 치킨라이스 | 14 SGD | A | 예 | 세금·서비스료 별도 | [Tiong Bahru Hainanese Chicken Rice](https://www.tiongbahruchickenrice.sg/menu/) |
 | SEL-SV-004 | 서울 | 오설록 차의 정원 9종 27입 | 54000 KRW | A | 예 | 검수: 교차 검수 불일치 | [오설록 공식몰](https://www.osulloc.com/kr/ko/shop/item/teashop/21773) |
-| IST-FD-003 | 이스탄불 | Pino Gare Tavuk Şiş | 975 TRY | A | 예 | 검수: 원문 확인 불가 | [Pino Gare Rooftop Restaurant](https://pinogareroofrestaurant.com/tr/menu) |
 | IST-AT-001 | 이스탄불 | Topkapı Sarayı 복합 입장권 외국인 성인 | 2750 TRY | B | 예 | B등급 | [Millî Saraylar](https://www.millisaraylar.gov.tr/Lokasyon/2/Topkapi-Sarayi?culture=en) |
 | IST-AT-002 | 이스탄불 | Dolmabahçe Sarayı 통합 입장권 외국인 성인 | 2000 TRY | B | 예 | B등급 | [Millî Saraylar](https://millisaraylar.gov.tr/Lokasyon/3/Dolmabahce-Sarayi) |
 | IST-AT-003 | 이스탄불 | Beylerbeyi Sarayı 외국인 성인 입장 | 800 TRY | B | 예 | B등급 | [Millî Saraylar](https://millisaraylar.gov.tr/Lokasyon/4/Beylerbeyi-Sarayi) |
@@ -314,7 +307,7 @@
 | TYO-SN-834 | 도쿄 | 도토루 블렌드 커피 S | 300 JPY | A | 예 | 재검증 | [도토루 커피숍](https://www.doutor.co.jp/dcs/menu/detail/20110907153810.html) |
 | TYO-SN-835 | 도쿄 | 도토루 카페라테 S | 400 JPY | A | 예 | 재검증 | [도토루 커피숍](https://www.doutor.co.jp/dcs/menu/detail/20110907154342.html) |
 | TYO-SN-836 | 도쿄 | 패밀리마트 블렌드 커피 S | 158 JPY | A | 예 | 재검증 | [패밀리마트](https://www.family.co.jp/goods/cafe.html) |
-| TYO-SN-837 | 도쿄 | 패밀리마트 카페라테 M | 255 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [패밀리마트](https://www.family.co.jp/goods/cafe.html) |
+| TYO-SN-837 | 도쿄 | 패밀리마트 카페라테 M | 255 JPY | A | 예 | 재검증 | [패밀리마트](https://www.family.co.jp/goods/cafe.html) |
 | TYO-SN-838 | 도쿄 | 로손 커피 S | 160 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/coffee/) |
 | TYO-SN-839 | 도쿄 | 로손 카페라테 M | 230 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/coffee/) |
 | TYO-SN-840 | 도쿄 | 패밀리마트 생수 600ml | 118 JPY | A | 예 | 재검증 | [패밀리마트](https://www.family.co.jp/goods/drink/4251934.html) |
@@ -359,7 +352,7 @@
 | TYO-TR-879 | 도쿄 | 도쿄메트로 24시간권 | 700 JPY | A | 예 | 재검증 | [도쿄메트로](https://www.tokyometro.jp/ticket/value/1day/index.html) |
 | TYO-TR-880 | 도쿄 | 도쿄메트로·도에이 지하철 공통 1일 승차권 | 1100 JPY | A | 예 | 재검증 | [도쿄메트로](https://www.tokyometro.jp/ticket/value/1day/index.html) |
 | LON-TR-885 | 런던 | 런던 버스·트램 1일 패스 | 6 GBP | A | 예 | 재검증 | [Transport for London](https://tfl.gov.uk/fares/find-fares/bus-and-tram-fares) |
-| BCN-TR-889 | 바르셀로나 | 바르셀로나 T-casual 10회권 1회 환산(1존) | 1.3 EUR | A | 예 | 재검증, 검수: 교차 검수 불일치 | [TMB](https://www.tmb.cat/en/barcelona-fares-metro-bus/single-and-integrated/t-casual) |
+| BCN-TR-889 | 바르셀로나 | 바르셀로나 T-casual 10회권 1회 환산(1존) | 1.3 EUR | A | 예 | 재검증 | [TMB](https://www.tmb.cat/en/barcelona-fares-metro-bus/single-and-integrated/t-casual) |
 | LON-FD-893 | 런던 | 디슘 치킨 루비(커리) | 18.9 GBP | A | 예 | 재검증 | [Dishoom](https://www.dishoom.com/menu/all-day-main/) |
 | LON-FD-894 | 런던 | 디슘 파우 바지 | 8.7 GBP | A | 예 | 재검증 | [Dishoom](https://www.dishoom.com/menu/all-day-main/) |
 | LON-FD-895 | 런던 | 디슘 하우스 블랙 달 | 11.5 GBP | A | 예 | 재검증 | [Dishoom](https://www.dishoom.com/menu/all-day-main/) |
@@ -369,8 +362,8 @@
 | SEL-TR-899 | 서울 | 기후동행카드 관광권 7일권 | 20000 KRW | A | 예 | 재검증 | [티머니 카드&페이](https://pay.tmoney.co.kr/ncs/pct/tmnyintd/ReadClmtAcmpCardGd.dev) |
 | LON-SN-900 | 런던 | 세인즈버리 에비앙 생수 500ml | 1.55 GBP | A | 예 | 재검증 | [Sainsbury's](https://www.sainsburys.co.uk/gol-ui/product/evian-natural-bottled-mineral-still-water-500ml) |
 | LON-SN-901 | 런던 | 세인즈버리 코카콜라 500ml | 2.15 GBP | A | 예 | 재검증 | [Sainsbury's](https://www.sainsburys.co.uk/gol-ui/product/coca-cola-original-taste-500ml) |
-| IST-SN-902 | 이스탄불 | 미그로스 에리클리 생수 500ml | 23.95 TRY | A | 예 | 재검증, 검수: 원문 확인 불가 | [Migros](https://www.migros.com.tr/erikli-su-500-ml-p-7b04f9) |
-| IST-SN-903 | 이스탄불 | 미그로스 코카콜라 캔 330ml | 55 TRY | A | 예 | 재검증, 검수: 원문 확인 불가 | [Migros](https://www.migros.com.tr/coca-cola-orijinal-tat-kutu-330-ml-p-7a3911) |
+| IST-SN-902 | 이스탄불 | 미그로스 에리클리 생수 500ml | 23.95 TRY | A | 예 | 재검증 | [Migros](https://www.migros.com.tr/erikli-su-500-ml-p-7b04f9) |
+| IST-SN-903 | 이스탄불 | 미그로스 코카콜라 캔 330ml | 55 TRY | A | 예 | 재검증 | [Migros](https://www.migros.com.tr/coca-cola-orijinal-tat-kutu-330-ml-p-7a3911) |
 | PAR-SN-901 | 파리 | 에비앙 생수 50cL (카르푸) | 1.39 EUR | A | 예 | 재검증 | [Carrefour](https://www.carrefour.fr/p/eau-minerale-naturelle-plate-evian-3068320124377) |
 | PAR-SN-902 | 파리 | 코카콜라 50cL 페트 (카르푸) | 1.45 EUR | A | 예 | 재검증 | [Carrefour](https://www.carrefour.fr/p/soda-au-cola-gout-original-coca-cola-3174780000363) |
 | PAR-SN-903 | 파리 | 트윅스 초코바 50g (카르푸) | 1.09 EUR | A | 예 | 재검증 | [Carrefour](https://www.carrefour.fr/p/barres-chocolatees-biscuits-enrobes-de-chocolat-et-caramel-twix-5900951313592) |
@@ -695,5 +688,5 @@
 
 ## 4. 교차 검수 현황
 
-`data/reviews/*.csv` 에서 읽은 판정: 일치 591건 · 불일치 42건 · 확인불가 184건.
+`data/reviews/*.csv` 에서 읽은 판정: 일치 602건 · 불일치 41건 · 확인불가 174건.
 아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

@@ -146,11 +146,11 @@ test.describe('계산기 핵심 흐름', () => {
   test('조건부·부족 바스켓 경고가 결과에 표시된다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/');
-    // 실데이터: 로마 외식은 조건부 표본을 쓴다(파리는 공식 표본이 늘어 조건부를 쓰지 않음). 부족 바스켓 경고 문구는 단위 테스트가 고정
-    await fillTrip(page, { city: 'rome' });
+    // 실데이터: 세부 시내 교통은 조건부 표본(MyBus 등)을 쓴다(로마 외식은 2026-10-11 공식 메뉴로 바뀌어 조건부를 쓰지 않음). 부족 바스켓 경고 문구는 단위 테스트가 고정
+    await fillTrip(page, { city: 'cebu' });
     const q = page.getByTestId('quality');
     await page.locator('details.evidence > summary').click();
-    await expect(q.locator('[data-category="food"]')).toContainText('"조건부"');
+    await expect(q.locator('[data-category="transport"]')).toContainText('"조건부"');
   });
 
   test('항공권·숙박을 직접 입력하면 합산된다', async ({ page }) => {

@@ -632,13 +632,17 @@
 | ROM-SV-102 | 로마 | 바티칸 박물관 공식 숍 시스티나 천장 퍼즐 540조각 | 11 EUR | A | 예 | 재검증 | [Vatican Museums Official Shop](https://shop.museivaticani.va/kkshop/ALTRI-PRODOTTI/Puzzle/Opera-Sillabe/Puzzle-540-Pezzi-%E2%80%93-Volta-Cappella-Sistina/E757/2_630.do) |
 | ROM-SV-103 | 로마 | 바티칸 박물관 공식 숍 2027 다이어리 | 10 EUR | A | 예 | 재검증 | [Vatican Museums Official Shop](https://shop.museivaticani.va/kkshop/Musei-Vaticani/Agenda-2026-Musei-Vaticani/E010/2_1539.do) |
 | ROM-TR-201 | 로마 | 트레니탈리아 로마 시내(Anello) 지역열차 1회권 | 1 EUR | A | 예 | 재검증 | [Trenitalia](https://www.trenitalia.com/content/dam/trenitalia/allegati/info/condizioni-generali-di-trasporto/parte-iii-trasporto-regionale/tariffe-14/Tariffa_14_RM.pdf) |
+| ROM-FD-401 | 로마 | 토나렐로 카초 에 페페 | 11 EUR | A | 예 | 재검증, 세금·서비스료 별도 | [Locanda Tonnarello 공식 메뉴 PDF](https://tonnarello.it/wp-content/uploads/2026/07/Tonnarello_ITA_EST2026-1.pdf) |
+| ROM-FD-402 | 로마 | 토나렐로 카르보나라 | 13 EUR | A | 예 | 재검증, 세금·서비스료 별도 | [Locanda Tonnarello 공식 메뉴 PDF](https://tonnarello.it/wp-content/uploads/2026/07/Tonnarello_ITA_EST2026-1.pdf) |
+| ROM-FD-403 | 로마 | 토나렐로 피자 마르게리타 | 11 EUR | A | 예 | 재검증, 세금·서비스료 별도 | [Locanda Tonnarello 공식 메뉴 PDF](https://tonnarello.it/wp-content/uploads/2026/07/Tonnarello_ITA_EST2026-1.pdf) |
+| ROM-FD-404 | 로마 | 카페 마르티니 리가토니 카르보나라 | 15 EUR | A | 예 | 재검증 | [Caffè Martini 공식 메뉴 PDF](https://www.caffemartiniroma.com/wp-content/uploads/2026/07/food-2024.pdf) |
+| ROM-FD-405 | 로마 | 카페 마르티니 리가토니 아마트리차나 | 15 EUR | A | 예 | 재검증 | [Caffè Martini 공식 메뉴 PDF](https://www.caffemartiniroma.com/wp-content/uploads/2026/07/food-2024.pdf) |
+| ROM-FD-406 | 로마 | 카페 마르티니 피자 마르게리타 | 12 EUR | A | 예 | 재검증 | [Caffè Martini 공식 메뉴 PDF](https://www.caffemartiniroma.com/wp-content/uploads/2026/07/food-2024.pdf) |
+| ROM-FD-407 | 로마 | 엠마 피체리아 피자 마르게리타 | 10 EUR | A | 예 | 재검증 | [Emma Pizzeria 공식 메뉴 PDF](https://www.emmapizzeria.com/wp-content/uploads/2025/12/MENU_WEB_ITA_Aprile-2025.pdf) |
+| ROM-FD-408 | 로마 | 엠마 피체리아 카르보나라 | 17 EUR | A | 예 | 재검증 | [Emma Pizzeria 공식 메뉴 PDF](https://www.emmapizzeria.com/wp-content/uploads/2025/12/MENU_WEB_ITA_Aprile-2025.pdf) |
+| ROM-FD-409 | 로마 | 엠마 피체리아 아마트리차나 | 16 EUR | A | 예 | 재검증 | [Emma Pizzeria 공식 메뉴 PDF](https://www.emmapizzeria.com/wp-content/uploads/2025/12/MENU_WEB_ITA_Aprile-2025.pdf) |
 | ROM-TR-001 | 로마 | BIT 통합 100분권 | 1.5 EUR | A | 예 | 재검증 | [ATAC Roma](https://www.atac.roma.it/en/tickets-and-passes/bit) |
 | ROM-TR-004 | 로마 | 로마 24시간권 | 8.5 EUR | A | 예 | 재검증 | [ATAC Roma](https://www.atac.roma.it/en/tickets-and-passes/birg) |
-| ROM-FD-101 | 로마 | 단테스 바 토마토 바질 파스타 | 8 EUR | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [Dante's Bar Caffe (quandoo)](https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu) |
-| ROM-FD-102 | 로마 | 카페 리페타 아마트리차나 | 10 EUR | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [Caffe Ripetta (quandoo)](https://www.quandoo.it/en/place/caffe-ripetta-95692/menu) |
-| ROM-FD-103 | 로마 | 단테스 바 피자 마르게리타 | 10 EUR | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [Dante's Bar Caffe (quandoo)](https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu) |
-| ROM-FD-104 | 로마 | 그란 카페 로시 마르티니 리가토니 카르보나라 | 15 EUR | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [Gran Caffe Rossi Martini (quandoo)](https://www.quandoo.it/en/place/gran-caffe-rossi-martini-48508/menu) |
-| ROM-FD-105 | 로마 | 단테스 바 고기 세트 메뉴 | 22 EUR | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [Dante's Bar Caffe (quandoo)](https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu) |
 | ROM-FD-201 | 로마 | 지올리티 젤라토 컵 | 3~3.5 EUR | A | 예 | 재검증, 검수: 출처 확인 필요 | [Giolitti](https://www.giolitti.it/en/) |
 | ROM-FD-301 | 로마 | 라 사피엔자 대학 바 병맥주 33cl | 2.05~3.1 EUR | A | 예 | 재검증 | [La Sapienza Bar Marco Polo](https://www.uniroma1.it/sites/default/files/user/531/listino_prezzi_bar_marco_polo.pdf) |
 | ROM-FD-302 | 로마 | 라 사피엔자 대학 바 레드 와인 1잔 | 2.2 EUR | A | 예 | 재검증 | [La Sapienza Bar Marco Polo](https://www.uniroma1.it/sites/default/files/user/531/listino_prezzi_bar_marco_polo.pdf) |

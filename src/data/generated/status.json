@@ -281,14 +281,14 @@
   },
   "rome": {
     "counts": {
-      "food": 5,
+      "food": 9,
       "transport": 3,
       "attraction": 13
     },
     "baskets": {
       "pass": 2,
       "ride": 3,
-      "meal": 5,
+      "meal": 9,
       "snack": 1,
       "drink": 3,
       "attraction": 13,
@@ -297,7 +297,7 @@
     "basketRows": {
       "pass": 4,
       "ride": 3,
-      "meal": 5,
+      "meal": 9,
       "snack": 1,
       "drink": 3,
       "attraction": 13,

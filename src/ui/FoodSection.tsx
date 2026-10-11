@@ -24,7 +24,7 @@ export function FoodSection({ city, foods }: Props) {
         {mine.map((f) => {
           const name = localName(lang, f.nameKo, f.nameEn, f.nameJa);
           // 원어에 가까운 이름을 작게: 한국어 화면은 영문, 그 밖에는 한국 음식만 한글
-          const sub = lang === 'ko' ? f.nameEn : f.cityId === 'seoul' || f.cityId === 'busan' || f.cityId === 'jeju' ? f.nameKo : '';
+          const sub = lang === 'ko' ? f.nameEn : city.countryEn === 'South Korea' ? f.nameKo : '';
           return (
             <li key={f.nameEn} className="food" data-food={f.nameEn}>
               {f.photo && (

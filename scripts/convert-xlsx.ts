@@ -39,6 +39,7 @@ const COUNTRY_EN: Record<string, string> = {
   일본: 'Japan', 태국: 'Thailand', 베트남: 'Vietnam', 대만: 'Taiwan', 싱가포르: 'Singapore', 프랑스: 'France',
   영국: 'United Kingdom', 인도네시아: 'Indonesia', '중국 홍콩': 'Hong Kong', 말레이시아: 'Malaysia',
   튀르키예: 'Türkiye', 중국: 'China', 필리핀: 'Philippines', 아랍에미리트: 'United Arab Emirates', 미국: 'United States', 이탈리아: 'Italy', 스페인: 'Spain',
+  호주: 'Australia', 체코: 'Czechia', '미국 괌': 'Guam',
 };
 
 const errors: string[] = [];

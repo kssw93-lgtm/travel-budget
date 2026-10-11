@@ -130,6 +130,136 @@
     "stage": "파일럿"
   },
   {
+    "id": "kyoto",
+    "country": "일본",
+    "countryEn": "Japan",
+    "nameKo": "교토",
+    "nameEn": "Kyoto",
+    "currency": "JPY",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "okinawa",
+    "country": "일본",
+    "countryEn": "Japan",
+    "nameKo": "오키나와",
+    "nameEn": "Okinawa",
+    "currency": "JPY",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "nagoya",
+    "country": "일본",
+    "countryEn": "Japan",
+    "nameKo": "나고야",
+    "nameEn": "Nagoya",
+    "currency": "JPY",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "gangneung",
+    "country": "한국",
+    "countryEn": "South Korea",
+    "nameKo": "강릉",
+    "nameEn": "Gangneung",
+    "currency": "KRW",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "gyeongju",
+    "country": "한국",
+    "countryEn": "South Korea",
+    "nameKo": "경주",
+    "nameEn": "Gyeongju",
+    "currency": "KRW",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "yeosu",
+    "country": "한국",
+    "countryEn": "South Korea",
+    "nameKo": "여수",
+    "nameEn": "Yeosu",
+    "currency": "KRW",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "jeonju",
+    "country": "한국",
+    "countryEn": "South Korea",
+    "nameKo": "전주",
+    "nameEn": "Jeonju",
+    "currency": "KRW",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "hanoi",
+    "country": "베트남",
+    "countryEn": "Vietnam",
+    "nameKo": "하노이",
+    "nameEn": "Hanoi",
+    "currency": "VND",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "ho-chi-minh-city",
+    "country": "베트남",
+    "countryEn": "Vietnam",
+    "nameKo": "호치민",
+    "nameEn": "Ho Chi Minh City",
+    "currency": "VND",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "chiang-mai",
+    "country": "태국",
+    "countryEn": "Thailand",
+    "nameKo": "치앙마이",
+    "nameEn": "Chiang Mai",
+    "currency": "THB",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "guam",
+    "country": "미국 괌",
+    "countryEn": "Guam",
+    "nameKo": "괌",
+    "nameEn": "Guam",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "sydney",
+    "country": "호주",
+    "countryEn": "Australia",
+    "nameKo": "시드니",
+    "nameEn": "Sydney",
+    "currency": "AUD",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "prague",
+    "country": "체코",
+    "countryEn": "Czechia",
+    "nameKo": "프라하",
+    "nameEn": "Prague",
+    "currency": "CZK",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
     "id": "barcelona",
     "country": "스페인",
     "countryEn": "Spain",

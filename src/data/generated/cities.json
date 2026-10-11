@@ -207,7 +207,7 @@
     "nameEn": "Sydney",
     "currency": "AUD",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "prague",
@@ -217,7 +217,7 @@
     "nameEn": "Prague",
     "currency": "CZK",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "barcelona",

@@ -2896,6 +2896,84 @@
     "note": "Claude 초안(2026-10-11)"
   },
   {
+    "cityId": "prague",
+    "nameKo": "스비치코바",
+    "nameEn": "Svíčková",
+    "reason": "소고기 구이에 채소 크림소스와 크네들리키(빵 경단)를 곁들인 체코 대표 요리",
+    "reasonEn": "The Czech national beef dish",
+    "desc": {
+      "ko": "소고기 구이에 채소 크림소스와 크네들리키(빵 경단)를 곁들인 체코 대표 요리",
+      "en": "Roast beef in vegetable cream sauce with bread dumplings, a Czech classic",
+      "ja": "牛肉のローストに野菜のクリームソースとパン団子クネドリーキを添えたチェコの代表料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "PRG-FD-101"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "prague",
+    "nameKo": "굴라시",
+    "nameEn": "Guláš",
+    "reason": "소고기를 파프리카·양파와 푹 끓여 크네들리키와 먹는 스튜",
+    "reasonEn": "A hearty Czech beef stew",
+    "desc": {
+      "ko": "소고기를 파프리카·양파와 푹 끓여 크네들리키와 먹는 스튜",
+      "en": "Beef stewed with paprika and onion, eaten with bread dumplings",
+      "ja": "牛肉をパプリカと玉ねぎで煮込み、クネドリーキと食べるシチュー"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "PRG-FD-102"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "prague",
+    "nameKo": "필스너 생맥주",
+    "nameEn": "Pilsner Urquell",
+    "reason": "체코 플젠에서 처음 만든 라거를 펍에서 생맥주로 마시는 경험",
+    "reasonEn": "The original Czech lager on tap",
+    "desc": {
+      "ko": "체코 플젠에서 처음 만든 라거를 펍에서 생맥주로 마시는 경험",
+      "en": "The original pilsner lager from Plzeň, poured fresh in Prague pubs",
+      "ja": "プルゼニ発祥のラガーをプラハのパブで生ビールで味わう体験"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "PRG-AL-101"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "prague",
+    "nameKo": "트르델니크",
+    "nameEn": "Trdelník",
+    "reason": "반죽을 막대에 감아 구운 뒤 설탕을 묻힌 관광지 길거리 간식",
+    "reasonEn": "A sweet street pastry",
+    "desc": {
+      "ko": "반죽을 막대에 감아 구운 뒤 설탕을 묻힌 관광지 길거리 간식",
+      "en": "Dough wrapped on a rod, grilled and rolled in sugar, a tourist street snack",
+      "ja": "生地を棒に巻いて焼き砂糖をまぶした観光地の屋台菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
     "cityId": "rome",
     "nameKo": "카르보나라",
     "nameEn": "Carbonara",
@@ -3118,6 +3196,60 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-09)"
+  },
+  {
+    "cityId": "sydney",
+    "nameKo": "미트파이",
+    "nameEn": "Meat Pie",
+    "reason": "다진 고기와 그레이비를 바삭한 파이에 넣은 호주 국민 간식",
+    "reasonEn": "Australia's classic hand-held pie",
+    "desc": {
+      "ko": "다진 고기와 그레이비를 바삭한 파이에 넣은 호주 국민 간식",
+      "en": "Flaky pie filled with minced meat and gravy, Australia's everyday snack",
+      "ja": "ひき肉とグレイビーをサクサクのパイに包んだオーストラリアの定番軽食"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "sydney",
+    "nameKo": "바라문디",
+    "nameEn": "Barramundi",
+    "reason": "호주 바다·강에서 나는 흰살생선을 구이나 피시앤칩스로 먹는 요리",
+    "reasonEn": "A popular Australian white fish",
+    "desc": {
+      "ko": "호주 바다·강에서 나는 흰살생선을 구이나 피시앤칩스로 먹는 요리",
+      "en": "Mild white fish from Australian waters, served grilled or as fish and chips",
+      "ja": "オーストラリア産の白身魚をグリルやフィッシュアンドチップスで味わう料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "sydney",
+    "nameKo": "플랫화이트",
+    "nameEn": "Flat White",
+    "reason": "에스프레소에 얇은 우유 거품을 올린 호주식 커피",
+    "reasonEn": "The Australian café coffee",
+    "desc": {
+      "ko": "에스프레소에 얇은 우유 거품을 올린 호주식 커피",
+      "en": "Espresso topped with thin, velvety steamed milk, an Australian café staple",
+      "ja": "エスプレッソに薄くなめらかなミルクをのせたオーストラリア式コーヒー"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
   },
   {
     "cityId": "yeosu",

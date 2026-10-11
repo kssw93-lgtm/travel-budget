@@ -36,6 +36,10 @@
 | 호치민 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 치앙마이 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 치앙마이 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 시드니 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 시드니 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 프라하 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 프라하 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -446,6 +450,12 @@
 | KYO-TR-001 | 교토 | 교토 시버스 균일 운임(성인) | 230 JPY | A | 예 | 재검증 | [교토시 교통국](https://www2.city.kyoto.lg.jp/kotsu/webguide/en/bus/howtoride_bus.html) |
 | KYO-TR-002 | 교토 | 교토 시버스 균일 운임(아동) | 120 JPY | A | 예 | 재검증 | [교토시 교통국](https://www2.city.kyoto.lg.jp/kotsu/webguide/en/bus/howtoride_bus.html) |
 | KYO-TR-003 | 교토 | 지하철·버스 1일 승차권(성인) | 1100 JPY | A | 예 | 재검증 | [교토시 교통국](https://www2.city.kyoto.lg.jp/kotsu/webguide/en/bus/howtoride_bus.html) |
+| PRG-TR-001 | 프라하 | 프라하 PID 30분권(성인) | 36~39 CZK | A | 예 | 재검증 | [PID 프라하 통합교통](https://pid.cz/en/tickets-and-fare/) |
+| PRG-TR-002 | 프라하 | 프라하 PID 90분권(성인) | 46~50 CZK | A | 예 | 재검증 | [PID 프라하 통합교통](https://pid.cz/en/tickets-and-fare/) |
+| PRG-TR-003 | 프라하 | 프라하 PID 24시간권(성인) | 140~150 CZK | A | 예 | 재검증 | [PID 프라하 통합교통](https://pid.cz/en/tickets-and-fare/) |
+| PRG-TR-004 | 프라하 | 프라하 PID 72시간권(성인) | 340~350 CZK | A | 예 | 재검증 | [PID 프라하 통합교통](https://pid.cz/en/tickets-and-fare/) |
+| PRG-TR-005 | 프라하 | 프라하 PID 아동(15세 미만) 무료 | 0 CZK | A | 예 | 재검증 | [PID 프라하 통합교통](https://pid.cz/en/tickets-and-fare/) |
+| PRG-AT-001 | 프라하 | 페트린 푸니쿨라 편도 | 90~100 CZK | A | 예 | 재검증 | [PID 프라하 통합교통](https://pid.cz/en/tickets-and-fare/) |
 | PAR-SN-901 | 파리 | 에비앙 생수 50cL (카르푸) | 1.39 EUR | A | 예 | 재검증 | [Carrefour](https://www.carrefour.fr/p/eau-minerale-naturelle-plate-evian-3068320124377) |
 | PAR-SN-902 | 파리 | 코카콜라 50cL 페트 (카르푸) | 1.45 EUR | A | 예 | 재검증 | [Carrefour](https://www.carrefour.fr/p/soda-au-cola-gout-original-coca-cola-3174780000363) |
 | PAR-SN-903 | 파리 | 트윅스 초코바 50g (카르푸) | 1.09 EUR | A | 예 | 재검증 | [Carrefour](https://www.carrefour.fr/p/barres-chocolatees-biscuits-enrobes-de-chocolat-et-caramel-twix-5900951313592) |
@@ -884,6 +894,22 @@
 | PQC-AT-102 | 푸꾸옥 | 혼똠 케이블카 왕복(어린이 1m~1m4) | 700000 VND | A | 예 | 재검증 | [Sun World Hon Thom 공식 요금 안내](https://sunworld.vn/vi/hon-thom/di-chuyen/thong-bao-bang-gia-tai-sun-world-phu-quoc-tu-24-04-2023html) |
 | PQC-AT-103 | 푸꾸옥 | 키스 브리지 체험 | 100000 VND | A | 조건부 | 조건부, 재검증, 시작가 표기 | [Sun World Hon Thom 공식](https://sunworld.vn/en/hon-thom) |
 | PQC-AT-104 | 푸꾸옥 | 심포니 오브 더 시 쇼 | 660000 VND | A | 조건부 | 조건부, 재검증 | [Sun World Hon Thom 공식](https://sunworld.vn/en/hon-thom) |
+| PRG-FD-101 | 프라하 | 콜코브나 첼니체 스비치코바(소고기 크림소스+크네들리키) | 329 CZK | A | 예 | 재검증 | [Kolkovna Celnice 공식 메뉴](https://celnice.kolkovna.cz/) |
+| PRG-FD-102 | 프라하 | 콜코브나 첼니체 굴라시 | 319 CZK | A | 예 | 재검증 | [Kolkovna Celnice 공식 메뉴](https://celnice.kolkovna.cz/) |
+| PRG-FD-103 | 프라하 | 콜코브나 첼니체 오늘의 요리 2(점심 메뉴) | 179 CZK | A | 조건부 | 조건부, 재검증 | [Kolkovna Celnice 공식 점심 메뉴](https://celnice.kolkovna.cz/) |
+| PRG-FD-104 | 프라하 | 로칼 들로우하 프르제슈티츠카 소시지 | 255 CZK | A | 조건부 | 조건부, 재검증 | [Lokál Dlouhááá 공식 메뉴](https://lokal-dlouha.ambi.cz/menu) |
+| PRG-SN-101 | 프라하 | 콜코브나 첼니체 코카콜라 0.33L | 72 CZK | A | 예 | 재검증 | [Kolkovna Celnice 공식 음료 메뉴](https://celnice.kolkovna.cz/) |
+| PRG-SN-102 | 프라하 | 콜코브나 첼니체 에스프레소 | 69 CZK | A | 예 | 재검증 | [Kolkovna Celnice 공식 음료 메뉴](https://celnice.kolkovna.cz/) |
+| PRG-SN-103 | 프라하 | 로칼 들로우하 라크비치카(크림 디저트) | 69 CZK | A | 예 | 재검증 | [Lokál Dlouhááá 공식 메뉴](https://lokal-dlouha.ambi.cz/menu) |
+| PRG-AL-101 | 프라하 | 콜코브나 첼니체 필스너 우르켈 0.5L | 76 CZK | A | 예 | 재검증 | [Kolkovna Celnice 공식 음료 메뉴](https://celnice.kolkovna.cz/) |
+| PRG-AL-102 | 프라하 | 로칼 들로우하 필스너(라거) 0.5L | 74 CZK | A | 예 | 재검증 | [Lokál Dlouhááá 공식 음료 메뉴](https://lokal-dlouha.ambi.cz/menu/napoje) |
+| PRG-AL-103 | 프라하 | 로칼 들로우하 코젤 흑맥주 0.5L | 76 CZK | A | 예 | 재검증 | [Lokál Dlouhááá 공식 음료 메뉴](https://lokal-dlouha.ambi.cz/menu/napoje) |
+| PRG-AT-101 | 프라하 | 프라하성 메인 서킷(성인) | 450 CZK | A | 예 | 재검증 | [프라하성 공식 요금표 PDF](https://www.hrad.cz/file/edee/2024/01/price-list-english-sph-valid-from-1.-3.-2024.pdf) |
+| PRG-AT-102 | 프라하 | 프라하성 메인 서킷(할인: 6~16세 등) | 300 CZK | A | 예 | 재검증 | [프라하성 공식 요금표 PDF](https://www.hrad.cz/file/edee/2024/01/price-list-english-sph-valid-from-1.-3.-2024.pdf) |
+| PRG-AT-103 | 프라하 | 프라하성 대성당 탑 전망대(성인) | 200 CZK | A | 예 | 재검증 | [프라하성 공식 요금표 PDF](https://www.hrad.cz/file/edee/2024/01/price-list-english-sph-valid-from-1.-3.-2024.pdf) |
+| PRG-AT-104 | 프라하 | 프라하 유대인 박물관(성인) | 600 CZK | A | 예 | 재검증 | [Jewish Museum in Prague 공식 Admission](https://www.jewishmuseum.cz/en/info/visit/admission/) |
+| PRG-AT-105 | 프라하 | 프라하 유대인 박물관(아동 7~15세) | 200 CZK | A | 예 | 재검증 | [Jewish Museum in Prague 공식 Admission](https://www.jewishmuseum.cz/en/info/visit/admission/) |
+| PRG-AT-106 | 프라하 | 프라하성 상설 전시(성인) | 300 CZK | A | 예 | 재검증 | [프라하성 공식 요금표 PDF](https://www.hrad.cz/file/edee/2024/01/price-list-english-sph-valid-from-1.-3.-2024.pdf) |
 | ROM-TR-101 | 로마 | 로마 48시간권 | 15 EUR | A | 예 | 재검증 | [ATAC Roma](https://www.atac.roma.it/en/tickets-and-passes/birg) |
 | ROM-TR-102 | 로마 | 로마 72시간권 | 22 EUR | A | 예 | 재검증 | [ATAC Roma](https://www.atac.roma.it/en/tickets-and-passes/birg) |
 | ROM-TR-103 | 로마 | 트레니탈리아 지역열차 편도 성인 | 1.9~9 EUR | A | 예 | 재검증, 검수: 원문 확인 불가 | [Trenitalia](https://www.trenitalia.com/en/connections/regionale-trains.html) |
@@ -946,6 +972,21 @@
 | SEL-SV-101 | 서울 | 서울마이소울 리본 모자 | 53000 KRW | A | 예 | 재검증 | [서울특별시 (Seoul My Soul Shop)](https://english.seoul.go.kr/the-cap-with-2-7-million-views-on-japanese-social-media-seoul-merch-wins-over-international-visitors/) |
 | SEL-SV-102 | 서울 | 서울굿즈 서울라면·서울짜장 4개 번들 | 5450 KRW | A | 예 | 재검증 | [서울특별시 (Seoul My Soul Shop)](https://love.seoul.go.kr/articles/10473) |
 | SEL-SV-103 | 서울 | 서울굿즈 픽토그램 에코백 | 34500 KRW | A | 예 | 재검증 | [서울특별시 (Seoul My Soul Shop)](https://love.seoul.go.kr/articles/10473) |
+| SYD-TR-101 | 시드니 | 메트로·기차 0~10km 성인 Opal 요금 | 3.03~4.33 AUD | A | 예 | 재검증 | [Transport for NSW 공식 Adult Opal fares](https://transportnsw.info/tickets-fares/fares/adult-opal-fares) |
+| SYD-TR-102 | 시드니 | 버스 0~3km 성인 Opal 요금 | 2.31~3.3 AUD | A | 예 | 재검증 | [Transport for NSW 공식 Adult Opal fares](https://transportnsw.info/tickets-fares/fares/adult-opal-fares) |
+| SYD-TR-103 | 시드니 | 라이트레일 0~3km 성인 Opal 요금 | 2.31~3.3 AUD | A | 예 | 재검증 | [Transport for NSW 공식 Adult Opal fares](https://transportnsw.info/tickets-fares/fares/adult-opal-fares) |
+| SYD-TR-104 | 시드니 | 페리 0~9km 성인 Opal 요금 | 7.35 AUD | A | 예 | 재검증 | [Transport for NSW 공식 Adult Opal fares](https://transportnsw.info/tickets-fares/fares/adult-opal-fares) |
+| SYD-FD-101 | 시드니 | 마막 나시르막 | 15 AUD | A | 예 | 재검증 | [Mamak 공식 메뉴](https://mamak.com.au/mamakmenu) |
+| SYD-FD-102 | 시드니 | 마막 미고렝 | 20 AUD | A | 예 | 재검증 | [Mamak 공식 메뉴](https://mamak.com.au/mamakmenu) |
+| SYD-FD-103 | 시드니 | 더 글렌모어 호텔 더 록스 버거(감자튀김 포함) | 25 AUD | A | 예 | 재검증 | [The Glenmore Hotel 공식 메뉴](https://www.theglenmore.com.au/menu) |
+| SYD-FD-104 | 시드니 | 더 글렌모어 호텔 슈니첼 | 27 AUD | A | 예 | 재검증 | [The Glenmore Hotel 공식 메뉴](https://www.theglenmore.com.au/menu) |
+| SYD-SN-101 | 시드니 | 마막 테타릭 | 7.5 AUD | A | 예 | 재검증 | [Mamak 공식 메뉴](https://mamak.com.au/mamakmenu) |
+| SYD-SN-102 | 시드니 | 마막 로티 차나이(1인) | 11.5 AUD | A | 예 | 재검증 | [Mamak 공식 메뉴](https://mamak.com.au/mamakmenu) |
+| SYD-AL-101 | 시드니 | 더 글렌모어 호텔 그리프터 페일 에일 | 12 AUD | A | 조건부 | 조건부, 재검증 | [The Glenmore Hotel 공식 메뉴(BEER LIST)](https://www.theglenmore.com.au/menu) |
+| SYD-AL-102 | 시드니 | 더 글렌모어 호텔 스톤 앤 우드 퍼시픽 에일 | 11.5 AUD | A | 조건부 | 조건부, 재검증 | [The Glenmore Hotel 공식 메뉴(BEER LIST)](https://www.theglenmore.com.au/menu) |
+| SYD-AL-103 | 시드니 | 더 글렌모어 호텔 로제 와인 150ml(휩버드) | 13 AUD | A | 예 | 재검증 | [The Glenmore Hotel 공식 메뉴](https://www.theglenmore.com.au/menu) |
+| SYD-AT-101 | 시드니 | 시드니 타워 아이 당일권(성인) | 39 AUD | A | 예 | 재검증 | [Sydney Tower Eye 공식 Price Table](https://www.sydneytowereye.com.au/tickets-passes/price-table/) |
+| SYD-AT-102 | 시드니 | 시드니 타워 아이 당일권(아동) | 29 AUD | A | 예 | 재검증 | [Sydney Tower Eye 공식 Price Table](https://www.sydneytowereye.com.au/tickets-passes/price-table/) |
 | YSU-FD-101 | 여수 | 청정게장촌 돌게장정식 | 16000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [청정게장촌 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/20553144/menu/list) |
 | YSU-FD-102 | 여수 | 여수게장 나래밥상 황태해장국 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [여수게장 나래밥상 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1787911441/menu/list) |
 | YSU-FD-103 | 여수 | 광장서대회 장어탕 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [광장서대회 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1757367265/menu/list) |

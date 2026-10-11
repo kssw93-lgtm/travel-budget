@@ -2282,6 +2282,80 @@
     "note": "추천 근거 페이지가 홈페이지라 재확인 필요"
   },
   {
+    "cityId": "okinawa",
+    "nameKo": "오키나와 소바",
+    "nameEn": "Okinawa Soba",
+    "reason": "돼지고기를 올린 굵은 밀면을 가쓰오·돼지뼈 국물에 말아 낸 오키나와 대표 국수",
+    "reasonEn": "Okinawa's signature noodle",
+    "desc": {
+      "ko": "굵은 밀면에 조린 돼지고기를 올리고 가쓰오·돼지뼈 국물을 부은 오키나와 대표 국수",
+      "en": "Thick wheat noodles in bonito-pork broth topped with braised pork, Okinawa's signature noodle",
+      "ja": "太めの小麦麺にかつおと豚のだし、煮込んだ豚肉をのせた沖縄を代表する麺"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "okinawa",
+    "nameKo": "고야 참푸르",
+    "nameEn": "Goya Champuru",
+    "reason": "여주(고야)를 두부·돼지고기·달걀과 볶은 오키나와 가정식",
+    "reasonEn": "Classic Okinawan home cooking",
+    "desc": {
+      "ko": "쌉싸름한 여주(고야)를 두부·돼지고기·달걀과 함께 볶은 오키나와 가정식",
+      "en": "Stir-fried bitter melon with tofu, pork and egg, an Okinawan home-cooking staple",
+      "ja": "ゴーヤーを豆腐・豚肉・卵と炒めた沖縄の家庭料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "okinawa",
+    "nameKo": "타코라이스",
+    "nameEn": "Taco Rice",
+    "reason": "타코 속재료를 밥 위에 올린 오키나와식 덮밥",
+    "reasonEn": "An Okinawan fusion favorite",
+    "desc": {
+      "ko": "양념한 다진 고기·치즈·양상추·토마토를 밥 위에 올린 오키나와식 덮밥",
+      "en": "Seasoned ground meat, cheese, lettuce and tomato over rice, an Okinawan invention",
+      "ja": "味付けひき肉・チーズ・レタス・トマトをご飯にのせた沖縄生まれの料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "okinawa",
+    "nameKo": "A&W 버거와 루트비어",
+    "nameEn": "A&W Burger and Root Beer",
+    "reason": "오키나와에만 남은 미국식 드라이브인 체인의 버거와 루트비어",
+    "reasonEn": "A only-in-Okinawa fast-food classic",
+    "desc": {
+      "ko": "일본에서는 오키나와에만 있는 미국식 체인 A&W의 버거와 리필되는 루트비어",
+      "en": "Burgers and root beer from A&W, an American drive-in chain found in Japan only in Okinawa",
+      "ja": "日本では沖縄だけにあるアメリカ発チェーンA&Wのバーガーとルートビア"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "OKA-FD-101"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
     "cityId": "rome",
     "nameKo": "카르보나라",
     "nameEn": "Carbonara",

@@ -24,6 +24,7 @@
 | 세부 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 교토 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 교토 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 오키나와 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 나고야 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 나고야 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -483,7 +484,14 @@
 | NGO-TR-006 | 나고야 | 지하철 전선 24시간권(성인) | 760 JPY | A | 예 | 재검증 | [나고야시 교통국](https://www.kotsu.city.nagoya.jp/rp/ticket/trp0000310.htm) |
 | NGO-TR-007 | 나고야 | 시버스 전선 1일 승차권(성인) | 620 JPY | A | 예 | 재검증 | [나고야시 교통국](https://www.kotsu.city.nagoya.jp/rp/ticket/trp0000310.htm) |
 | NGO-TR-008 | 나고야 | 도니치 에코 킷푸(주말·공휴일·매월 8일, 성인) | 620 JPY | A | 예 | 재검증 | [나고야시 교통국](https://www.kotsu.city.nagoya.jp/rp/ticket/trp0000310.htm) |
+| OKA-TR-001 | 오키나와 | 유이레일 1회권(성인) | 250~390 JPY | A | 예 | 재검증 | [오키나와 도시 모노레일(유이레일)](https://www.yui-rail.co.jp/ticketinfo-ticket/ticketinfo/ticket/) |
+| OKA-TR-002 | 오키나와 | 유이레일 1회권(소아) | 130~200 JPY | A | 예 | 재검증 | [오키나와 도시 모노레일(유이레일)](https://www.yui-rail.co.jp/ticketinfo-ticket/ticketinfo/ticket/) |
+| OKA-TR-003 | 오키나와 | 나하버스 시내선 균일 요금(성인) | 280 JPY | A | 예 | 재검증 | [류큐버스교통·나하버스 공식](https://daiichibus.co.jp/news/2026021101/) |
+| OKA-TR-004 | 오키나와 | 유이레일 1일 승차권(성인) | 1000 JPY | A | 예 | 재검증 | [오키나와 도시 모노레일(유이레일)](https://www.yui-rail.co.jp/ticketinfo-ticket/ticketinfo/ticket/) |
+| OKA-TR-005 | 오키나와 | 버스모노패스(나하버스+유이레일 1일, 성인) | 1500 JPY | A | 예 | 재검증 | [오키나와 도시 모노레일(유이레일)](https://www.yui-rail.co.jp/ticketinfo-ticket/ticketinfo/ticket/) |
 | KYO-TR-004 | 교토 | 게이한 전철 첫 구간 운임(성인) | 180 JPY | A | 예 | 재검증 | [게이한 전기철도](https://www.keihan.co.jp/traffic/unchinkaitei_2025/index.html) |
+| OKA-TR-006 | 오키나와 | 유이레일 2일 승차권(성인) | 1800 JPY | A | 예 | 재검증 | [오키나와 도시 모노레일(유이레일)](https://www.yui-rail.co.jp/ticketinfo-ticket/ticketinfo/ticket/) |
+| OKA-TR-007 | 오키나와 | 류큐버스교통 나하 시내 균일 요금(성인) | 280 JPY | A | 예 | 재검증 | [류큐버스교통·나하버스 공식 보도자료(PDF)](https://daiichibus.co.jp/ryukyubus/wp-content/uploads/2026/02/%E6%B2%96%E7%B8%84%E6%9C%AC%E5%B3%B6%E5%86%85%E3%81%AE%E4%B9%97%E5%90%88%E3%83%90%E3%82%B9%E8%B7%AF%E7%B7%9A%E3%80%8C%E9%82%A3%E8%A6%87%E5%B8%82%E5%86%85%E5%9D%87%E4%B8%80%E5%88%B6%E9%81%8B%E8%B3%83%E7%AD%89%E3%80%8D%E3%81%AE%E6%94%B9%E5%AE%9A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf) |
 | CJU-FD-760 | 제주 | 소산도 우도흑돼지 안심카츠 | 17000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-761 | 제주 | 소산도 흑돼지 우도 등심카츠 | 16000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-762 | 제주 | 제주식 고사리해장국 | 11000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 제주고사리해장국 중문](https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8) |
@@ -597,6 +605,20 @@
 | NYC-SV-111 | 뉴욕 | 메트 로고 접이식 우산 | 25 USD | A | 예 | 재검증 | [The Met Store](https://store.metmuseum.org/met-logo-folding-umbrella-80056083) |
 | NYC-FD-121 | 뉴욕 | 카츠 델리 파스트라미 샌드위치 | 28.95 USD | A | 예 | 재검증 | [Katz's Delicatessen](https://katzsdelicatessen.com/) |
 | NYC-SV-121 | 뉴욕 | 자유의 여신상 공식 숍 문서 홀더 소형 | 25 USD | A | 예 | 재검증 | [Statue of Liberty & Ellis Island Foundation](https://www.statueofliberty.org/product/logo-embossed-leatherette-eight-corner-document-holder-small/) |
+| OKA-FD-101 | 오키나와 | A&W 오키나와 The A&W 버거(단품) | 890 JPY | A | 예 | 재검증 | [A&W 오키나와 공식 메뉴(햄버거)](https://www.awok.co.jp/menu-list/humberger/) |
+| OKA-FD-102 | 오키나와 | A&W 오키나와 모짜 버거(단품) | 650 JPY | A | 예 | 재검증 | [A&W 오키나와 공식 메뉴(햄버거)](https://www.awok.co.jp/menu-list/humberger/) |
+| OKA-FD-103 | 오키나와 | 이치란 나하 국제거리점 돈코츠 라멘 | 1080 JPY | A | 예 | 재검증 | [이치란 공식 매장 안내(나하 국제거리점)](https://ichiran.com/shop/kyushu/naha-kokusaidori/) |
+| OKA-SN-101 | 오키나와 | A&W 오키나와 루트비어 | 200 JPY | A | 조건부 | 조건부, 재검증, 시작가 표기 | [A&W 오키나와 공식 메뉴(드링크)](https://www.awok.co.jp/menu-list/drink-menu/) |
+| OKA-SN-102 | 오키나와 | A&W 오키나와 드립 커피 | 290 JPY | A | 조건부 | 조건부, 재검증, 시작가 표기 | [A&W 오키나와 공식 메뉴(드링크)](https://www.awok.co.jp/menu-list/drink-menu/) |
+| OKA-SN-103 | 오키나와 | A&W 오키나와 컬리 프라이 | 350 JPY | A | 조건부 | 조건부, 재검증, 시작가 표기 | [A&W 오키나와 공식 메뉴(사이드)](https://www.awok.co.jp/menu-list/side-menu/) |
+| OKA-SN-104 | 오키나와 | 이치란 나하 국제거리점 콜라 | 200 JPY | A | 예 | 재검증 | [이치란 공식 매장 안내(나하 국제거리점)](https://ichiran.com/shop/kyushu/naha-kokusaidori/) |
+| OKA-AL-101 | 오키나와 | 이치란 나하 국제거리점 생맥주(중) | 650 JPY | A | 예 | 재검증 | [이치란 공식 매장 안내(나하 국제거리점)](https://ichiran.com/shop/kyushu/naha-kokusaidori/) |
+| OKA-AT-101 | 오키나와 | 추라우미 수족관(성인) | 2180 JPY | A | 예 | 재검증 | [오키나와 추라우미 수족관 공식 입관 요금](https://churaumi.okinawa/guide/info/) |
+| OKA-AT-102 | 오키나와 | 추라우미 수족관(초·중학생) | 710 JPY | A | 예 | 재검증 | [오키나와 추라우미 수족관 공식 입관 요금](https://churaumi.okinawa/guide/info/) |
+| OKA-AT-103 | 오키나와 | 오키나와 월드 입장권(성인) | 2000 JPY | A | 예 | 재검증 | [오키나와 월드 공식 요금·영업시간](https://www.gyokusendo.co.jp/okinawaworld/fee/) |
+| OKA-AT-104 | 오키나와 | 오키나와 월드 입장권(아동) | 1000 JPY | A | 예 | 재검증 | [오키나와 월드 공식 요금·영업시간](https://www.gyokusendo.co.jp/okinawaworld/fee/) |
+| OKA-AT-105 | 오키나와 | 슈리성 유료구역(성인, 2026-11-23부터) | 1000 JPY | A | 조건부 | 조건부, 재검증, 시작가 표기 | [슈리성 공원 공식 공지(요금 개정)](https://oki-park.jp/shurijo/information/detail/11164) |
+| OKA-AT-106 | 오키나와 | 슈리성 유료구역(초·중학생, 2026-11-23부터) | 370 JPY | A | 조건부 | 조건부, 재검증, 시작가 표기 | [슈리성 공원 공식 공지(요금 개정)](https://oki-park.jp/shurijo/information/detail/11164) |
 | OSA-FD-901 | 오사카 | 이치란 돈코츠 라멘 | 1180 JPY | A | 예 | 재검증 | [一蘭 心斎橋店](https://ichiran.com/shop/kinki/shinsaibashi/) |
 | OSA-FD-902 | 오사카 | 호텔 뉴오타니 오사카 SATSUKI 연어 허브버터 구이 | 3800 JPY | A | 예 | 재검증 | [ホテルニューオータニ大阪 SATSUKI](https://www.newotani.co.jp/en/osaka/restaurant/satsuki/) |
 | BKK-SV-901 | 방콕 | 짐 톰슨 코끼리 실크 스카프 52인치 | 8500 THB | A | 예 | 재검증 | [Jim Thompson Official Shop](https://www.jimthompson.com/products/elephant-bath-silk-scarf-52-green) |

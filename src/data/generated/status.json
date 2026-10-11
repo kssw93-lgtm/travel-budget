@@ -279,6 +279,34 @@
     "missing": [],
     "computable": true
   },
+  "okinawa": {
+    "counts": {
+      "food": 3,
+      "transport": 3,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 2,
+      "ride": 3,
+      "meal": 3,
+      "snack": 4,
+      "drink": 1,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 3,
+      "ride": 3,
+      "meal": 3,
+      "snack": 4,
+      "drink": 1,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "nagoya": {
     "counts": {
       "food": 3,

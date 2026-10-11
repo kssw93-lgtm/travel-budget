@@ -994,5 +994,25 @@
     "ko": "쫄깃하고 단단한 면을 진한 된장 국물에 질그릇째 끓여 내는 우동",
     "en": "Firm udon simmered in rich red-miso broth and served in an earthenware pot",
     "ja": "コシの強い麺を赤味噌のつゆで土鍋ごと煮込んだうどん"
+  },
+  "okinawa:Okinawa Soba": {
+    "ko": "굵은 밀면에 조린 돼지고기를 올리고 가쓰오·돼지뼈 국물을 부은 오키나와 대표 국수",
+    "en": "Thick wheat noodles in bonito-pork broth topped with braised pork, Okinawa's signature noodle",
+    "ja": "太めの小麦麺にかつおと豚のだし、煮込んだ豚肉をのせた沖縄を代表する麺"
+  },
+  "okinawa:Goya Champuru": {
+    "ko": "쌉싸름한 여주(고야)를 두부·돼지고기·달걀과 함께 볶은 오키나와 가정식",
+    "en": "Stir-fried bitter melon with tofu, pork and egg, an Okinawan home-cooking staple",
+    "ja": "ゴーヤーを豆腐・豚肉・卵と炒めた沖縄の家庭料理"
+  },
+  "okinawa:Taco Rice": {
+    "ko": "양념한 다진 고기·치즈·양상추·토마토를 밥 위에 올린 오키나와식 덮밥",
+    "en": "Seasoned ground meat, cheese, lettuce and tomato over rice, an Okinawan invention",
+    "ja": "味付けひき肉・チーズ・レタス・トマトをご飯にのせた沖縄生まれの料理"
+  },
+  "okinawa:A&W Burger and Root Beer": {
+    "ko": "일본에서는 오키나와에만 있는 미국식 체인 A&W의 버거와 리필되는 루트비어",
+    "en": "Burgers and root beer from A&W, an American drive-in chain found in Japan only in Okinawa",
+    "ja": "日本では沖縄だけにあるアメリカ発チェーンA&Wのバーガーとルートビア"
   }
 }

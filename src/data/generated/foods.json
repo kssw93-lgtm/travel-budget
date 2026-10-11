@@ -2034,6 +2034,152 @@
     "note": "Claude 초안(2026-10-10)"
   },
   {
+    "cityId": "kyoto",
+    "nameKo": "유도후",
+    "nameEn": "Yudofu",
+    "reason": "다시마 국물에 데운 두부를 양념장에 찍어 먹는 교토 사찰 음식",
+    "reasonEn": "Kyoto's temple-cuisine classic",
+    "desc": {
+      "ko": "다시마 국물에 데운 부드러운 두부를 간장 양념에 찍어 먹는 교토 사찰 요리",
+      "en": "Simmered tofu in kombu broth with a soy dipping sauce, a Kyoto temple-cuisine classic",
+      "ja": "昆布だしで温めた豆腐をつけだれでいただく、京都の精進料理の定番"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "kyoto",
+    "nameKo": "니신 소바",
+    "nameEn": "Nishin Soba",
+    "reason": "달콤짭짤하게 조린 청어를 올린 교토식 메밀국수",
+    "reasonEn": "A Kyoto noodle specialty",
+    "desc": {
+      "ko": "달콤짭짤하게 조린 청어를 따뜻한 메밀국수 위에 올린 교토 명물",
+      "en": "Hot soba topped with sweet-savory simmered herring, a Kyoto specialty",
+      "ja": "甘辛く炊いた身欠きにしんを温かいそばにのせた京都名物"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "kyoto",
+    "nameKo": "말차 디저트",
+    "nameEn": "Matcha Sweets",
+    "reason": "우지 말차로 만든 파르페·아이스크림·화과자",
+    "reasonEn": "Uji matcha in every form",
+    "desc": {
+      "ko": "우지 말차로 만든 파르페·아이스크림·화과자 등 진한 녹차 디저트",
+      "en": "Desserts made with Uji matcha, from parfaits and soft-serve to traditional wagashi",
+      "ja": "宇治抹茶を使ったパフェやソフトクリーム、和菓子などの濃い抹茶スイーツ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "kyoto",
+    "nameKo": "규동",
+    "nameEn": "Gyudon",
+    "reason": "얇게 썬 소고기와 양파를 달콤한 간장 국물에 조려 밥에 올린 덮밥",
+    "reasonEn": "Japan's everyday quick meal",
+    "desc": {
+      "ko": "얇게 썬 소고기와 양파를 달콤한 간장 국물에 조려 밥 위에 올린 덮밥",
+      "en": "Thinly sliced beef and onion simmered in sweet soy broth over rice",
+      "ja": "薄切り牛肉と玉ねぎを甘辛いつゆで煮てご飯にのせた丼"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "KYO-FD-102"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "nagoya",
+    "nameKo": "히쓰마부시",
+    "nameEn": "Hitsumabushi",
+    "reason": "구운 장어를 밥 위에 올려 그대로·양념·차를 부어 세 가지로 먹는 나고야 명물",
+    "reasonEn": "Nagoya's signature eel dish",
+    "desc": {
+      "ko": "잘게 썬 장어구이를 밥에 올려 그대로, 양념을 더해, 차를 부어 세 가지로 먹는 나고야 명물",
+      "en": "Grilled eel over rice eaten three ways: plain, with condiments, then with dashi or tea",
+      "ja": "刻んだうなぎの蒲焼をそのまま、薬味で、だしをかけての三通りで味わう名古屋名物"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "nagoya",
+    "nameKo": "미소카쓰",
+    "nameEn": "Miso Katsu",
+    "reason": "돈카쓰에 진한 핫초 된장 소스를 끼얹은 나고야식 돈가스",
+    "reasonEn": "The iconic Nagoya-meshi cutlet",
+    "desc": {
+      "ko": "바삭한 돈카쓰에 진한 핫초 된장 소스를 끼얹은 나고야식 돈가스",
+      "en": "Pork cutlet topped with rich, sweet Hatcho miso sauce, Nagoya style",
+      "ja": "とんかつに濃厚な八丁味噌だれをかけた名古屋めし"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "nagoya",
+    "nameKo": "데바사키",
+    "nameEn": "Tebasaki",
+    "reason": "달콤짭짤한 양념에 후추를 듬뿍 뿌린 나고야식 닭날개 튀김",
+    "reasonEn": "Nagoya's famous chicken wings",
+    "desc": {
+      "ko": "달콤짭짤한 양념을 바르고 후추를 듬뿍 뿌린 나고야식 닭날개 튀김",
+      "en": "Fried chicken wings glazed sweet-savory and dusted with pepper, a Nagoya izakaya favorite",
+      "ja": "甘辛いたれと胡椒を効かせた名古屋の手羽先唐揚げ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "nagoya",
+    "nameKo": "미소니코미 우동",
+    "nameEn": "Miso Nikomi Udon",
+    "reason": "단단한 면을 진한 된장 국물에 질그릇째 끓인 우동",
+    "reasonEn": "Hearty red-miso udon",
+    "desc": {
+      "ko": "쫄깃하고 단단한 면을 진한 된장 국물에 질그릇째 끓여 내는 우동",
+      "en": "Firm udon simmered in rich red-miso broth and served in an earthenware pot",
+      "ja": "コシの強い麺を赤味噌のつゆで土鍋ごと煮込んだうどん"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
     "cityId": "new-york",
     "nameKo": "베이글",
     "nameEn": "Bagel",

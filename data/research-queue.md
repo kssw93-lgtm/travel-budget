@@ -22,6 +22,10 @@
 | 파리 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 런던 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 세부 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 교토 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 교토 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 나고야 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 나고야 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -364,6 +368,9 @@
 | LON-SN-901 | 런던 | 세인즈버리 코카콜라 500ml | 2.15 GBP | A | 예 | 재검증 | [Sainsbury's](https://www.sainsburys.co.uk/gol-ui/product/coca-cola-original-taste-500ml) |
 | IST-SN-902 | 이스탄불 | 미그로스 에리클리 생수 500ml | 23.95 TRY | A | 예 | 재검증 | [Migros](https://www.migros.com.tr/erikli-su-500-ml-p-7b04f9) |
 | IST-SN-903 | 이스탄불 | 미그로스 코카콜라 캔 330ml | 55 TRY | A | 예 | 재검증 | [Migros](https://www.migros.com.tr/coca-cola-orijinal-tat-kutu-330-ml-p-7a3911) |
+| KYO-TR-001 | 교토 | 교토 시버스 균일 운임(성인) | 230 JPY | A | 예 | 재검증 | [교토시 교통국](https://www2.city.kyoto.lg.jp/kotsu/webguide/en/bus/howtoride_bus.html) |
+| KYO-TR-002 | 교토 | 교토 시버스 균일 운임(아동) | 120 JPY | A | 예 | 재검증 | [교토시 교통국](https://www2.city.kyoto.lg.jp/kotsu/webguide/en/bus/howtoride_bus.html) |
+| KYO-TR-003 | 교토 | 지하철·버스 1일 승차권(성인) | 1100 JPY | A | 예 | 재검증 | [교토시 교통국](https://www2.city.kyoto.lg.jp/kotsu/webguide/en/bus/howtoride_bus.html) |
 | PAR-SN-901 | 파리 | 에비앙 생수 50cL (카르푸) | 1.39 EUR | A | 예 | 재검증 | [Carrefour](https://www.carrefour.fr/p/eau-minerale-naturelle-plate-evian-3068320124377) |
 | PAR-SN-902 | 파리 | 코카콜라 50cL 페트 (카르푸) | 1.45 EUR | A | 예 | 재검증 | [Carrefour](https://www.carrefour.fr/p/soda-au-cola-gout-original-coca-cola-3174780000363) |
 | PAR-SN-903 | 파리 | 트윅스 초코바 50g (카르푸) | 1.09 EUR | A | 예 | 재검증 | [Carrefour](https://www.carrefour.fr/p/barres-chocolatees-biscuits-enrobes-de-chocolat-et-caramel-twix-5900951313592) |
@@ -463,6 +470,20 @@
 | HKG-AT-003 | 홍콩 | 오션파크 일반 입장권(성인) | 538 HKD | A | 예 | 재검증 | [Ocean Park Hong Kong](https://www.oceanpark.com.hk/en/ticket-offer) |
 | HKG-AT-004 | 홍콩 | 오션파크 일반 입장권(어린이) | 269 HKD | A | 예 | 재검증 | [Ocean Park Hong Kong](https://www.oceanpark.com.hk/en/ticket-offer) |
 | HKG-AT-005 | 홍콩 | 홍콩 예술관 상설 관람(무료) | 0 HKD | A | 예 | 재검증 | [Hong Kong Museum of Art](https://hk.art.museum/en/web/ma/visit/opening-hours-and-admission.html) |
+| KYO-FD-102 | 교토 | 요시노야 규동 보통 | 498 JPY | A | 예 | 재검증 | [요시노야](https://www.yoshinoya.com/menu/gyudon/) |
+| KYO-FD-103 | 교토 | 스키야 규동 보통 | 480 JPY | A | 예 | 재검증 | [すき家](https://www.sukiya.jp/menu/in/gyudon/100100/) |
+| NGO-FD-101 | 나고야 | 요시노야 규동 보통 | 498 JPY | A | 예 | 재검증 | [요시노야](https://www.yoshinoya.com/menu/gyudon/) |
+| NGO-FD-102 | 나고야 | 스키야 규동 보통 | 480 JPY | A | 예 | 재검증 | [すき家](https://www.sukiya.jp/menu/in/gyudon/100100/) |
+| NGO-FD-103 | 나고야 | 코코이치방야 포크 카레 | 570~591 JPY | A | 예 | 재검증 | [カレーハウスCoCo壱番屋](https://www.ichibanya.co.jp/menu/) |
+| NGO-TR-001 | 나고야 | 나고야시 지하철 1회권(1~5구, 성인) | 210~340 JPY | A | 예 | 재검증 | [나고야시 교통국](https://www.kotsu.city.nagoya.jp/rp/subway/trp0000172.htm) |
+| NGO-TR-002 | 나고야 | 나고야시 지하철 1회권(1~5구, 소아) | 100~170 JPY | A | 예 | 재검증 | [나고야시 교통국](https://www.kotsu.city.nagoya.jp/rp/subway/trp0000172.htm) |
+| NGO-TR-003 | 나고야 | 나고야 시버스 균일 요금(성인) | 210 JPY | A | 예 | 재검증 | [나고야시 교통국](https://www.kotsu.city.nagoya.jp/rp/bus/trp0000165.htm) |
+| NGO-TR-004 | 나고야 | 나고야 시버스 균일 요금(소아) | 100 JPY | A | 예 | 재검증 | [나고야시 교통국](https://www.kotsu.city.nagoya.jp/rp/bus/trp0000165.htm) |
+| NGO-TR-005 | 나고야 | 버스·지하철 전선 1일 승차권(성인) | 870 JPY | A | 예 | 재검증 | [나고야시 교통국](https://www.kotsu.city.nagoya.jp/rp/ticket/trp0000310.htm) |
+| NGO-TR-006 | 나고야 | 지하철 전선 24시간권(성인) | 760 JPY | A | 예 | 재검증 | [나고야시 교통국](https://www.kotsu.city.nagoya.jp/rp/ticket/trp0000310.htm) |
+| NGO-TR-007 | 나고야 | 시버스 전선 1일 승차권(성인) | 620 JPY | A | 예 | 재검증 | [나고야시 교통국](https://www.kotsu.city.nagoya.jp/rp/ticket/trp0000310.htm) |
+| NGO-TR-008 | 나고야 | 도니치 에코 킷푸(주말·공휴일·매월 8일, 성인) | 620 JPY | A | 예 | 재검증 | [나고야시 교통국](https://www.kotsu.city.nagoya.jp/rp/ticket/trp0000310.htm) |
+| KYO-TR-004 | 교토 | 게이한 전철 첫 구간 운임(성인) | 180 JPY | A | 예 | 재검증 | [게이한 전기철도](https://www.keihan.co.jp/traffic/unchinkaitei_2025/index.html) |
 | CJU-FD-760 | 제주 | 소산도 우도흑돼지 안심카츠 | 17000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-761 | 제주 | 소산도 흑돼지 우도 등심카츠 | 16000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
 | CJU-FD-762 | 제주 | 제주식 고사리해장국 | 11000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 제주고사리해장국 중문](https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8) |
@@ -544,6 +565,19 @@
 | KUL-AT-101 | 쿠알라룸푸르 | 페트로나스 트윈타워 일반 입장(성인 13~60세) | 127~137 MYR | A | 예 | 재검증 | [PETRONAS Twin Towers 공식 Admission Rate](https://www.petronastwintowers.com.my/plan-your-visit/admission-ticketing/) |
 | KUL-AT-102 | 쿠알라룸푸르 | 페트로나스 트윈타워 일반 입장(어린이 2~12세) | 65~69 MYR | A | 예 | 재검증 | [PETRONAS Twin Towers 공식 Admission Rate](https://www.petronastwintowers.com.my/plan-your-visit/admission-ticketing/) |
 | KUL-AT-103 | 쿠알라룸푸르 | 아쿠아리아 KLCC 일반 입장 | 82 MYR | A | 조건부 | 조건부, 재검증, 시작가 표기 | [Aquaria KLCC 공식 티켓 페이지(목록)](https://tickets.aquariaklcc.com/) |
+| KYO-FD-101 | 교토 | 이치란 교토 가와라마치점 돈코츠 라멘 | 1080 JPY | A | 예 | 재검증 | [이치란 공식 매장 안내(교토 가와라마치점)](https://ichiran.com/shop/kinki/kyoto-kawaramachi/) |
+| KYO-SN-101 | 교토 | 이치란 교토 가와라마치점 콜라 | 200 JPY | A | 예 | 재검증 | [이치란 공식 매장 안내(교토 가와라마치점)](https://ichiran.com/shop/kinki/kyoto-kawaramachi/) |
+| KYO-SN-102 | 교토 | 이치란 교토 가와라마치점 말차 안닌두부 | 450 JPY | A | 예 | 재검증 | [이치란 공식 매장 안내(교토 가와라마치점)](https://ichiran.com/shop/kinki/kyoto-kawaramachi/) |
+| KYO-AL-101 | 교토 | 이치란 교토 가와라마치점 생맥주(중) | 650 JPY | A | 예 | 재검증 | [이치란 공식 매장 안내(교토 가와라마치점)](https://ichiran.com/shop/kinki/kyoto-kawaramachi/) |
+| KYO-AL-102 | 교토 | 쿠시카츠 다나카 짐빔 하이볼 | 319 JPY | A | 조건부 | 조건부, 재검증 | [쿠시카츠 다나카 공식 드링크 메뉴 이미지](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| KYO-AL-103 | 교토 | 쿠시카츠 다나카 생맥주(프리미엄 몰츠 카오루 에일) | 605 JPY | A | 조건부 | 조건부, 재검증 | [쿠시카츠 다나카 공식 드링크 메뉴 이미지](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| KYO-AL-104 | 교토 | 쿠시카츠 다나카 사케 180ml | 550 JPY | A | 조건부 | 조건부, 재검증 | [쿠시카츠 다나카 공식 드링크 메뉴 이미지](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| KYO-TR-101 | 교토 | 교토 시영 지하철 교토역–시조·가라스마오이케(성인) | 220 JPY | A | 예 | 재검증 | [교토시 교통국 공식 운임 안내(영문)](https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html) |
+| KYO-TR-102 | 교토 | 교토 시영 지하철 교토역–시조·가라스마오이케(아동) | 110 JPY | A | 예 | 재검증 | [교토시 교통국 공식 운임 안내(영문)](https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html) |
+| KYO-AT-101 | 교토 | 니조성 입성료(일반) | 800 JPY | A | 예 | 재검증 | [니조성 공식 Fees](https://nijo-jocastle.city.kyoto.lg.jp/admission/fee/?lang=en) |
+| KYO-AT-102 | 교토 | 니조성 입성료(초등학생) | 300 JPY | A | 예 | 재검증 | [니조성 공식 Fees](https://nijo-jocastle.city.kyoto.lg.jp/admission/fee/?lang=en) |
+| KYO-AT-103 | 교토 | 금각사 참배료(일반) | 500 JPY | A | 예 | 재검증 | [쇼코쿠지 공식(금각사 ACCESS)](https://www.shokoku-ji.jp/en/kinkakuji/access/) |
+| KYO-AT-104 | 교토 | 금각사 참배료(초·중학생) | 300 JPY | A | 예 | 재검증 | [쇼코쿠지 공식(금각사 ACCESS)](https://www.shokoku-ji.jp/en/kinkakuji/access/) |
 | NYC-TR-001 | 뉴욕 | 지하철·시내버스 기본 요금 | 3 USD | A | 예 | 재검증 | [MTA](https://www.mta.info/fares-tolls/subway-bus) |
 | NYC-TR-002 | 뉴욕 | 급행버스 기본 요금 | 7.25 USD | A | 예 | 재검증 | [MTA](https://www.mta.info/fares-tolls/subway-bus) |
 | NYC-TR-003 | 뉴욕 | NYC 페리 성인 편도 | 4.5 USD | A | 예 | 재검증 | [NYC Ferry](https://www.ferry.nyc/ticketing-info/) |

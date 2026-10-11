@@ -251,6 +251,62 @@
     "missing": [],
     "computable": true
   },
+  "kyoto": {
+    "counts": {
+      "food": 3,
+      "transport": 3,
+      "attraction": 2
+    },
+    "baskets": {
+      "pass": 1,
+      "ride": 3,
+      "meal": 3,
+      "snack": 2,
+      "drink": 4,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 1,
+      "ride": 3,
+      "meal": 3,
+      "snack": 2,
+      "drink": 4,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "nagoya": {
+    "counts": {
+      "food": 3,
+      "transport": 4,
+      "attraction": 0
+    },
+    "baskets": {
+      "pass": 4,
+      "ride": 2,
+      "meal": 3,
+      "snack": 0,
+      "drink": 0,
+      "attraction": 0,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 4,
+      "ride": 2,
+      "meal": 3,
+      "snack": 0,
+      "drink": 0,
+      "attraction": 0,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "barcelona": {
     "counts": {
       "food": 6,

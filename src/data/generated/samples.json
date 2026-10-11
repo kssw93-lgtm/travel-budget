@@ -405,8 +405,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.takohachi.jp/wp-content/uploads/2025/03/f9d7c787c113f386cc64c16c2608abb4.pdf · 공식 타코하치 메뉴 PDF URL을 두 번 열었으나 두 번 모두 페이지 내부 오류가 반환됐습니다. 현재 메뉴 가격을 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://www.takohachi.jp/wp-content/uploads/2025/03/f9d7c787c113f386cc64c16c2608abb4.pdf · PDF 글자층에 숫자 630은 있으나 품목명이 이미지라 어느 메뉴 가격인지 연결 못함. 화면 표시도 로딩이 끝나지 않음. 공식 /menu/ 페이지에는 가격 없음 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -2866,7 +2866,7 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.iledefrance-mobilites.fr/en/titres-et-tarifs/detail/navigo-liberte-plus · IDFM 공식 페이지가 2026-10-11 현재 500 오류(Cannot read properties of undefined). 다시 확인 필요",
+      "detail": "https://www.iledefrance-mobilites.fr/en/titres-et-tarifs/detail/navigo-liberte-plus · 원문: Error 500 (500) An error has occurred. Please check again later. · 영문·불문 페이지 모두 500 오류(2회 시도) · Claude 크롬 재확인(2026-10-11)",
       "reportedAt": "2026-10-11"
     }
   },
@@ -13081,8 +13081,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13111,8 +13111,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13141,8 +13141,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13171,8 +13171,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13201,8 +13201,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/search/%EC%88%98%EB%B3%80%EC%B5%9C%EA%B3%A0%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5%20%EB%AF%BC%EB%9D%BD",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%88%98%EB%B3%80%EC%B5%9C%EA%B3%A0%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5%20%EB%AF%BC%EB%9D%BD · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13231,8 +13231,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/search/%EC%88%98%EB%B3%80%EC%B5%9C%EA%B3%A0%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5%20%EB%AF%BC%EB%9D%BD",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%88%98%EB%B3%80%EC%B5%9C%EA%B3%A0%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5%20%EB%AF%BC%EB%9D%BD · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13261,8 +13261,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13291,8 +13291,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13321,8 +13321,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13351,8 +13351,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13381,8 +13381,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13411,8 +13411,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/search/%EB%B6%80%EA%B3%A1%EB%B6%84%EC%8B%9D",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EB%B6%80%EA%B3%A1%EB%B6%84%EC%8B%9D · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13441,8 +13441,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/search/%EB%B6%80%EA%B3%A1%EB%B6%84%EC%8B%9D",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EB%B6%80%EA%B3%A1%EB%B6%84%EC%8B%9D · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13471,8 +13471,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/search/%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%EB%B2%88%20%ED%95%B4%EC%9A%B4%EB%8C%80",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%EB%B2%88%20%ED%95%B4%EC%9A%B4%EB%8C%80 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13501,8 +13501,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/search/%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%EB%B2%88%20%ED%95%B4%EC%9A%B4%EB%8C%80",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%EB%B2%88%20%ED%95%B4%EC%9A%B4%EB%8C%80 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13655,8 +13655,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/entry/place/11568285",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/entry/place/11568285 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13685,8 +13685,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/entry/place/11603507",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/entry/place/11603507 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13715,8 +13715,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/entry/place/11628169",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/entry/place/11628169 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13745,8 +13745,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/entry/place/36737521",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/entry/place/36737521 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13775,8 +13775,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/entry/place/12836262",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/entry/place/12836262 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13795,17 +13795,17 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "A",
-    "modelUse": "yes",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "컴포즈커피 공식홈페이지",
     "sourceUrl": "https://composecoffee.com/menu_coffee",
-    "note": "부산 태생 테이크아웃 커피 브랜드 매장 정가 · 원문: 아메리카노 1,500원 · 수집: prices-busan.csv",
+    "note": "부산 태생 테이크아웃 커피 브랜드 매장 정가 · 원문: 아메리카노 1,500원 · 수집: prices-busan.csv · 모델 제외: 출처 페이지(composecoffee.com/menu_coffee)가 404로 사라져 공식 가격을 확인할 수 없음(2026-10-11)",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://composecoffee.com/menu_coffee · 컴포즈커피 공식 사이트가 해외 접속 차단(403 Access denied country US)",
+      "detail": "https://composecoffee.com/menu_coffee · 원문: 404 Oops, Sorry. Page is Not Found! · 출처 페이지가 404. 대체 공식 가격 페이지 못 찾음 · Claude 크롬 재확인(2026-10-11)",
       "reportedAt": "2026-10-11"
     }
   },
@@ -13835,8 +13835,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/entry/place/12108752",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/entry/place/12108752 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13865,8 +13865,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 지도 URL을 재확인했지만 판매자 공식 요금표가 아니며, 같은 가게의 공식 메뉴판·공식 홈페이지에서 현재 동일 메뉴와 단위의 가격을 직접 확인할 수 있는 URL을 찾지 못함. 비공식 지도·리뷰·배달앱 가격은 근거에서 제외함. 원본 위치: https://map.naver.com/p/entry/place/12134547",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/entry/place/12134547 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13895,8 +13895,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "CU 공식 상품 목록(https://cu.bgfretail.com/product/product.do?category=04) 및 공식 상품 페이지(https://cu.bgfretail.com/en/product/product05.do?cat=product&d1=2&d2=1)를 확인했으나 해당 대선소주 360ml / 켈리 500ml SKU의 현재 CU 판매가를 확인하지 못함. 다른 상품 가격 및 비공식 행사 가격은 대체하지 않음.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://cu.bgfretail.com/product/product.do?category=04 · 해당 URL 첫 화면은 도시락·샌드위치 등 간편식 목록이고 대선소주가 없음. 상품 검색까지는 하지 못함 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13925,8 +13925,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "CU 공식 상품 목록(https://cu.bgfretail.com/product/product.do?category=04) 및 공식 상품 페이지(https://cu.bgfretail.com/en/product/product05.do?cat=product&d1=2&d2=1)를 확인했으나 해당 대선소주 360ml / 켈리 500ml SKU의 현재 CU 판매가를 확인하지 못함. 다른 상품 가격 및 비공식 행사 가격은 대체하지 않음.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://cu.bgfretail.com/product/product.do?category=04 · 해당 URL 첫 화면에 켈리 캔맥주 없음. 상품 검색까지는 하지 못함 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -13955,8 +13955,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "지정 네이버 장소 페이지(https://map.naver.com/p/entry/place/11568285)는 일반 식당의 소주·맥주 정가를 제공하는 판매자 공식 메뉴판이 아님. 동일 식당의 공개 공식 메뉴에서 병 단위 현재 정가를 확인하지 못했고, 특정 음식점이나 편의점 가격으로 일반 식당 평균을 대체하지 않음.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/entry/place/11568285 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -15763,13 +15763,7 @@
     "applied": "2026-09-10",
     "sourceName": "串カツ田中 공식 드링크 메뉴",
     "sourceUrl": "https://kushi-tanaka.com/img/files/up/20260910_drink.png",
-    "note": "이자카야 체인. 세금 포함가 기재. 전국 공통 표준가(도쿄 전용 표기 없음, 점포에 따라 다를 수 있음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: ジムビームハイボール 290円(税込319円) · 수집: prices-claude-chrome-2026-10-05.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://kushi-tanaka.com/img/files/up/20260910_drink.png · 공식 메뉴 이미지 URL을 두 차례 열었으나 오류로 열리지 않아 품목과 가격을 확인할 수 없음.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "이자카야 체인. 세금 포함가 기재. 전국 공통 표준가(도쿄 전용 표기 없음, 점포에 따라 다를 수 있음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: ジムビームハイボール 290円(税込319円) · 수집: prices-claude-chrome-2026-10-05.csv"
   },
   {
     "id": "TYO-AL-862",
@@ -15793,13 +15787,7 @@
     "applied": "2026-09-10",
     "sourceName": "串カツ田中 공식 드링크 메뉴",
     "sourceUrl": "https://kushi-tanaka.com/img/files/up/20260910_drink.png",
-    "note": "이자카야 체인. サワー・酎ハイ 묶음의 '各' 가격. 세금 포함가 기재. 전국 공통 표준가(도쿄 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: こだわり酒場のレモンサワー 各290円(税込319円) · 수집: prices-claude-chrome-2026-10-05.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://kushi-tanaka.com/img/files/up/20260910_drink.png · 공식 메뉴 이미지 URL을 두 차례 열었으나 오류로 열리지 않아 품목과 가격을 확인할 수 없음.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "이자카야 체인. サワー・酎ハイ 묶음의 '各' 가격. 세금 포함가 기재. 전국 공통 표준가(도쿄 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: こだわり酒場のレモンサワー 各290円(税込319円) · 수집: prices-claude-chrome-2026-10-05.csv"
   },
   {
     "id": "TYO-AL-863",
@@ -15823,13 +15811,7 @@
     "applied": "2026-09-10",
     "sourceName": "串カツ田中 공식 드링크 메뉴",
     "sourceUrl": "https://kushi-tanaka.com/img/files/up/20260910_drink.png",
-    "note": "이자카야 체인. 'こだわりの生ビール' 표기, 잔 크기 미표기. 세금 포함가 기재. 전국 공통 표준가(도쿄 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: ザ・プレミアム・モルツ 香るエール 550円(税込605円) · 수집: prices-claude-chrome-2026-10-05.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://kushi-tanaka.com/img/files/up/20260910_drink.png · 공식 메뉴 이미지 URL을 두 차례 열었으나 오류로 열리지 않아 품목과 가격을 확인할 수 없음.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "이자카야 체인. 'こだわりの生ビール' 표기, 잔 크기 미표기. 세금 포함가 기재. 전국 공통 표준가(도쿄 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: ザ・プレミアム・モルツ 香るエール 550円(税込605円) · 수집: prices-claude-chrome-2026-10-05.csv"
   },
   {
     "id": "TYO-AL-864",
@@ -15853,13 +15835,7 @@
     "applied": "2026-09-10",
     "sourceName": "串カツ田中 공식 드링크 메뉴",
     "sourceUrl": "https://kushi-tanaka.com/img/files/up/20260910_drink.png",
-    "note": "이자카야 체인. 1합(180ml) 상당. 세금 포함가 기재. 전국 공통 표준가(도쿄 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: 日本酒 各500円(税込550円) 上撰 黒松白鹿 超辛 本醸造 180ml · 수집: prices-claude-chrome-2026-10-05.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://kushi-tanaka.com/img/files/up/20260910_drink.png · 공식 메뉴 이미지 URL을 두 차례 열었으나 오류로 열리지 않아 품목과 가격을 확인할 수 없음.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "이자카야 체인. 1합(180ml) 상당. 세금 포함가 기재. 전국 공통 표준가(도쿄 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: 日本酒 各500円(税込550円) 上撰 黒松白鹿 超辛 本醸造 180ml · 수집: prices-claude-chrome-2026-10-05.csv"
   },
   {
     "id": "TYO-AL-865",
@@ -15883,13 +15859,7 @@
     "applied": "2026-09-10",
     "sourceName": "串カツ田中 공식 드링크 메뉴",
     "sourceUrl": "https://kushi-tanaka.com/img/files/up/20260910_drink.png",
-    "note": "이자카야 체인. 록·미즈와리·오유와리·소다와리 선택. 세금 포함가 기재. 전국 공통 표준가(도쿄 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: 本格焼酎 各500円(税込550円) 富乃宝山 佐藤黒 中々 · 수집: prices-claude-chrome-2026-10-05.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://kushi-tanaka.com/img/files/up/20260910_drink.png · 공식 메뉴 이미지 URL을 두 차례 열었으나 오류로 열리지 않아 품목과 가격을 확인할 수 없음.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "이자카야 체인. 록·미즈와리·오유와리·소다와리 선택. 세금 포함가 기재. 전국 공통 표준가(도쿄 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: 本格焼酎 各500円(税込550円) 富乃宝山 佐藤黒 中々 · 수집: prices-claude-chrome-2026-10-05.csv"
   },
   {
     "id": "TYO-AL-866",
@@ -15913,13 +15883,7 @@
     "applied": "2026-09-10",
     "sourceName": "串カツ田中 공식 드링크 메뉴",
     "sourceUrl": "https://kushi-tanaka.com/img/files/up/20260910_drink.png",
-    "note": "이자카야 체인. 세금 포함가 기재. 전국 공통 표준가(도쿄 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: 梅酒 450円(税込495円) · 수집: prices-claude-chrome-2026-10-05.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://kushi-tanaka.com/img/files/up/20260910_drink.png · 공식 메뉴 이미지 URL을 두 차례 열었으나 오류로 열리지 않아 품목과 가격을 확인할 수 없음.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "이자카야 체인. 세금 포함가 기재. 전국 공통 표준가(도쿄 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: 梅酒 450円(税込495円) · 수집: prices-claude-chrome-2026-10-05.csv"
   },
   {
     "id": "OSA-AL-867",
@@ -15943,13 +15907,7 @@
     "applied": "2026-09-10",
     "sourceName": "串カツ田中 공식 드링크 메뉴",
     "sourceUrl": "https://kushi-tanaka.com/img/files/up/20260910_drink.png",
-    "note": "이자카야 체인. 세금 포함가 기재. 전국 공통 표준가(오사카 전용 표기 없음, 점포에 따라 다를 수 있음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: ジムビームハイボール 290円(税込319円) · 수집: prices-claude-chrome-2026-10-05.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://kushi-tanaka.com/img/files/up/20260910_drink.png · 공식 음료 메뉴 이미지 URL을 두 번 열었으나 두 번 모두 페이지 내부 오류가 반환됐습니다. 짐빔 하이볼 가격을 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "이자카야 체인. 세금 포함가 기재. 전국 공통 표준가(오사카 전용 표기 없음, 점포에 따라 다를 수 있음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: ジムビームハイボール 290円(税込319円) · 수집: prices-claude-chrome-2026-10-05.csv"
   },
   {
     "id": "OSA-AL-868",
@@ -15973,13 +15931,7 @@
     "applied": "2026-09-10",
     "sourceName": "串カツ田中 공식 드링크 메뉴",
     "sourceUrl": "https://kushi-tanaka.com/img/files/up/20260910_drink.png",
-    "note": "이자카야 체인. サワー・酎ハイ 묶음의 '各' 가격. 세금 포함가 기재. 전국 공통 표준가(오사카 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: こだわり酒場のレモンサワー 各290円(税込319円) · 수집: prices-claude-chrome-2026-10-05.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://kushi-tanaka.com/img/files/up/20260910_drink.png · 공식 음료 메뉴 이미지 URL을 두 번 열었으나 두 번 모두 페이지가 도구에서 접근 불가로 반환됐습니다. 레몬사워 가격을 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "이자카야 체인. サワー・酎ハイ 묶음의 '各' 가격. 세금 포함가 기재. 전국 공통 표준가(오사카 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: こだわり酒場のレモンサワー 各290円(税込319円) · 수집: prices-claude-chrome-2026-10-05.csv"
   },
   {
     "id": "OSA-AL-869",
@@ -16003,13 +15955,7 @@
     "applied": "2026-09-10",
     "sourceName": "串カツ田中 공식 드링크 메뉴",
     "sourceUrl": "https://kushi-tanaka.com/img/files/up/20260910_drink.png",
-    "note": "이자카야 체인. 잔 크기 미표기. 세금 포함가 기재. 전국 공통 표준가(오사카 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: ザ・プレミアム・モルツ 香るエール 550円(税込605円) · 수집: prices-claude-chrome-2026-10-05.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://kushi-tanaka.com/img/files/up/20260910_drink.png · 공식 음료 메뉴 이미지 URL을 두 번 열었으나 두 번 모두 페이지가 도구에서 접근 불가로 반환됐습니다. 생맥주 상품·용량·가격을 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "이자카야 체인. 잔 크기 미표기. 세금 포함가 기재. 전국 공통 표준가(오사카 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: ザ・プレミアム・モルツ 香るエール 550円(税込605円) · 수집: prices-claude-chrome-2026-10-05.csv"
   },
   {
     "id": "OSA-AL-870",
@@ -16033,13 +15979,7 @@
     "applied": "2026-09-10",
     "sourceName": "串カツ田中 공식 드링크 메뉴",
     "sourceUrl": "https://kushi-tanaka.com/img/files/up/20260910_drink.png",
-    "note": "이자카야 체인. 1합(180ml) 상당. 세금 포함가 기재. 전국 공통 표준가(오사카 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: 日本酒 各500円(税込550円) 上撰 黒松白鹿 超辛 本醸造 180ml · 수집: prices-claude-chrome-2026-10-05.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://kushi-tanaka.com/img/files/up/20260910_drink.png · 공식 음료 메뉴 이미지 URL을 두 번 열었으나 두 번 모두 페이지가 도구에서 접근 불가로 반환됐습니다. 사케 180 mL 가격을 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "이자카야 체인. 1합(180ml) 상당. 세금 포함가 기재. 전국 공통 표준가(오사카 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: 日本酒 各500円(税込550円) 上撰 黒松白鹿 超辛 本醸造 180ml · 수집: prices-claude-chrome-2026-10-05.csv"
   },
   {
     "id": "OSA-AL-871",
@@ -16063,13 +16003,7 @@
     "applied": "2026-09-10",
     "sourceName": "串カツ田中 공식 드링크 메뉴",
     "sourceUrl": "https://kushi-tanaka.com/img/files/up/20260910_drink.png",
-    "note": "이자카야 체인. 세금 포함가 기재. 전국 공통 표준가(오사카 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: 本格焼酎 各500円(税込550円) 富乃宝山 佐藤黒 中々 · 수집: prices-claude-chrome-2026-10-05.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://kushi-tanaka.com/img/files/up/20260910_drink.png · 공식 음료 메뉴 이미지 URL을 두 번 열었으나 두 번 모두 페이지가 도구에서 접근 불가로 반환됐습니다. 본격 소주 가격을 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "이자카야 체인. 세금 포함가 기재. 전국 공통 표준가(오사카 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: 本格焼酎 各500円(税込550円) 富乃宝山 佐藤黒 中々 · 수집: prices-claude-chrome-2026-10-05.csv"
   },
   {
     "id": "OSA-AL-872",
@@ -16093,13 +16027,7 @@
     "applied": "2026-09-10",
     "sourceName": "串カツ田中 공식 드링크 메뉴",
     "sourceUrl": "https://kushi-tanaka.com/img/files/up/20260910_drink.png",
-    "note": "이자카야 체인. 세금 포함가 기재. 전국 공통 표준가(오사카 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: 梅酒 450円(税込495円) · 수집: prices-claude-chrome-2026-10-05.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://kushi-tanaka.com/img/files/up/20260910_drink.png · 공식 음료 메뉴 이미지 URL을 두 번 열었으나 두 번 모두 페이지가 도구에서 접근 불가로 반환됐습니다. 우메슈 가격을 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "이자카야 체인. 세금 포함가 기재. 전국 공통 표준가(오사카 전용 표기 없음). 메뉴 이미지 판독. Claude(Chrome) 수집. 더블체크 완료 · 원문: 梅酒 450円(税込495円) · 수집: prices-claude-chrome-2026-10-05.csv"
   },
   {
     "id": "TYO-AL-873",
@@ -19135,8 +19063,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.visitjeju.net/kr;https://www.jeju.go.kr · 공식 관광·지자체 사이트와 판매자 공식 메뉴판에서 소산도 해당 안심카츠의 현재 가격을 확인하지 못했습니다. 검색 가능한 지도·리뷰 가격은 근거에서 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19165,8 +19093,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.visitjeju.net/kr;https://www.jeju.go.kr · 공식 관광·지자체 사이트와 판매자 공식 메뉴판에서 소산도 해당 등심카츠의 현재 가격을 확인하지 못했습니다. 검색 가능한 지도·리뷰 가격은 근거에서 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19195,8 +19123,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://visitjeju.net/kr/detail/view?contentsid=CNTS_200000000013114&menuId=DOM_000001719002000000;https://www.visitjeju.net/kr · Visit Jeju 공식 식당 안내에서 고사리해장국 메뉴는 확인했으나 현재 메뉴 가격이 없습니다. 동일 상품의 공식 가격표를 찾지 못했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19225,8 +19153,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000020185;https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000022709 · Visit Jeju 공식 식당·관광 안내에서 몸국을 확인했으나 현재 메뉴 가격은 게시되어 있지 않습니다. 두 공식 안내 모두 가격을 제공하지 않습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19255,8 +19183,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_300000000015672;https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000014699 · Visit Jeju 공식 식당 안내에서 접짝뼈국은 소개하지만 현재 가격은 표시하지 않습니다. 같은 메뉴의 판매자 공식 가격표를 찾지 못했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19285,8 +19213,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.visitjeju.net/kr;https://www.jeju.go.kr · 성산바다풍경의 공식 메뉴판·운영사 가격 페이지를 찾지 못했고, 공식 관광·지자체 안내에서도 해물뚝배기 가격을 확인하지 못했습니다. 지도·리뷰 가격은 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%84%B1%EC%82%B0%EB%B0%94%EB%8B%A4%ED%92%8D%EA%B2%BD%20%EC%A0%9C%EC%A3%BC%EC%84%B1%EC%82%B0 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19315,8 +19243,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.visitjeju.net/kr;https://www.jeju.go.kr · 성산바다풍경의 공식 메뉴판·운영사 가격 페이지를 찾지 못했고, 공식 관광·지자체 안내에서도 오분자기뚝배기 가격을 확인하지 못했습니다. 지도·리뷰 가격은 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%84%B1%EC%82%B0%EB%B0%94%EB%8B%A4%ED%92%8D%EA%B2%BD%20%EC%A0%9C%EC%A3%BC%EC%84%B1%EC%82%B0 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19345,8 +19273,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.visitjeju.net/kr;https://www.jeju.go.kr · 금돗의 공식 메뉴판을 찾지 못했고, Visit Jeju·제주도 공식 안내에서도 해당 김치찌개 가격을 확인하지 못했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EA%B8%88%EB%8F%97%20%EC%84%B1%EC%82%B0%ED%9D%91%EB%8F%BC%EC%A7%80 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19375,8 +19303,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.visitjeju.net/kr;https://www.jeju.go.kr · 금돗의 공식 메뉴판을 찾지 못했고, Visit Jeju·제주도 공식 안내에서도 열무국수 가격을 확인하지 못했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EA%B8%88%EB%8F%97%20%EC%84%B1%EC%82%B0%ED%9D%91%EB%8F%BC%EC%A7%80 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19405,8 +19333,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%B2%AD%EB%8F%88%EC%98%A5%20%ED%99%8D%EB%8C%80%EB%B3%B8%EC%A0%90 · 원본 네이버 지도에서 가격을 확인할 수 없었습니다. 운영자 공식 홈페이지·메뉴판을 검색했으나 해당 상품의 현재 가격을 게시한 공식 페이지를 찾지 못했습니다. 제3자 메뉴·후기 값은 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%B2%AD%EB%8F%88%EC%98%A5%20%ED%99%8D%EB%8C%80%EB%B3%B8%EC%A0%90 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19435,8 +19363,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%B2%AD%EB%8F%88%EC%98%A5%20%ED%99%8D%EB%8C%80%EB%B3%B8%EC%A0%90 · 원본 네이버 지도에서 가격을 확인할 수 없었습니다. 운영자 공식 홈페이지·메뉴판을 검색했으나 해당 상품의 현재 가격을 게시한 공식 페이지를 찾지 못했습니다. 제3자 메뉴·후기 값은 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%B2%AD%EB%8F%88%EC%98%A5%20%ED%99%8D%EB%8C%80%EB%B3%B8%EC%A0%90 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19465,8 +19393,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%B2%AD%EB%8F%88%EC%98%A5%20%ED%99%8D%EB%8C%80%EB%B3%B8%EC%A0%90 · 원본 네이버 지도에서 가격을 확인할 수 없었습니다. 운영자 공식 홈페이지·메뉴판을 검색했으나 해당 상품의 현재 가격을 게시한 공식 페이지를 찾지 못했습니다. 제3자 메뉴·후기 값은 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%B2%AD%EB%8F%88%EC%98%A5%20%ED%99%8D%EB%8C%80%EB%B3%B8%EC%A0%90 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19495,8 +19423,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EB%B0%95%EB%A7%8C%EB%B0%B0%EC%95%84%EB%A6%AC%EB%9E%91%EB%B3%B4%EC%8C%88%20%EB%B0%A9%EC%9D%B4%EC%A0%90 · 원본 네이버 지도에서 가격을 확인할 수 없었습니다. 매장 공식 홈페이지·공식 메뉴판을 검색했지만 평일 점심 보쌈정식의 현재 가격을 적은 공식 페이지를 찾지 못했습니다. 제3자 업소정보는 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EB%B0%95%EB%A7%8C%EB%B0%B0%EC%95%84%EB%A6%AC%EB%9E%91%EB%B3%B4%EC%8C%88%20%EB%B0%A9%EC%9D%B4%EC%A0%90 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19525,8 +19453,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C; https://xn--h49a4rm6lba355ke5fv0pvjeq8m.kr/ · 원본 지도 가격을 공식 확인할 수 없었습니다. 송탄진대광 공식 사이트는 브랜드·매장 안내만 있으며 해당 소주/맥주/탄산음료 상품 가격은 없습니다. 공식 사이트와 메뉴 안내에서 현재 가격을 찾지 못해 확인불가입니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19555,8 +19483,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C; https://xn--h49a4rm6lba355ke5fv0pvjeq8m.kr/ · 원본 지도 가격을 공식 확인할 수 없었습니다. 송탄진대광 공식 사이트는 브랜드·매장 안내만 있으며 해당 소주/맥주/탄산음료 상품 가격은 없습니다. 공식 사이트와 메뉴 안내에서 현재 가격을 찾지 못해 확인불가입니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19585,8 +19513,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C; https://xn--h49a4rm6lba355ke5fv0pvjeq8m.kr/ · 원본 지도 가격을 공식 확인할 수 없었습니다. 송탄진대광 공식 사이트는 브랜드·매장 안내만 있으며 해당 소주/맥주/탄산음료 상품 가격은 없습니다. 공식 사이트와 메뉴 안내에서 현재 가격을 찾지 못해 확인불가입니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19615,8 +19543,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://mirromegi.com/;https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_300000000013525&menuId=DOM_000001719000000000 · 미르오메기떡 공식 홈페이지와 Visit Jeju 공식 매장 안내를 확인했으나 낱개 상품의 현재 판매가가 표시되지 않습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EB%AF%B8%EB%A5%B4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19645,8 +19573,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.visitjeju.net/en/detail/view?contentsid=CNTS_200000000012714;http://blog.naver.com/chunsim4010 · Visit Jeju 공식 매장 소개 및 연결된 판매자 페이지에서 낱개 오메기떡의 현재 공식 가격을 확인하지 못했습니다. 제3자 판매·리뷰 가격은 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%B6%98%EC%8B%AC%EC%9D%B4%EB%84%A4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19675,8 +19603,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000012732;https://www.visitjeju.net/u/KXx · Visit Jeju 공식 매장·상품 소개에서 감귤모찌 1팩의 현재 판매가를 확인하지 못했습니다. 제3자 가격은 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%ED%95%A0%EB%A8%B8%EB%8B%88%EB%96%A1%EC%A7%91%20%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19795,8 +19723,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/LOOOP%20%EB%A3%A8%ED%94%84%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%B9%B4%ED%8E%98%20%EC%84%B1%EC%88%98; https://www.instagram.com/looop_official/ · 원본 지도에서 가격을 확인할 수 없었습니다. 매장 공식 인스타그램을 두 차례 열었으나 접근 오류가 나 가격을 볼 수 없었고, 아메리카노 가격이 게시된 공식 메뉴도 찾지 못했습니다. 제3자 가격은 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/LOOOP%20%EB%A3%A8%ED%94%84%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%B9%B4%ED%8E%98%20%EC%84%B1%EC%88%98 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19825,8 +19753,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%95%84%EC%BF%A0%EC%95%84%EC%82%B0%ED%83%80%20%EC%84%B1%EC%88%98%EC%B9%B4%ED%8E%98 · 원본 지도에서 가격을 확인할 수 없었습니다. 매장 운영 주체의 공식 웹사이트·공식 SNS·메뉴판 가격 페이지를 검색했으나 해당 상품의 현재 가격이 게시된 공식 페이지를 찾지 못했습니다. 예약·후기·제3자 업소정보는 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%95%84%EC%BF%A0%EC%95%84%EC%82%B0%ED%83%80%20%EC%84%B1%EC%88%98%EC%B9%B4%ED%8E%98 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19855,8 +19783,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%95%84%EC%BF%A0%EC%95%84%EC%82%B0%ED%83%80%20%EC%84%B1%EC%88%98%EC%B9%B4%ED%8E%98 · 원본 지도에서 가격을 확인할 수 없었습니다. 매장 운영 주체의 공식 웹사이트·공식 SNS·메뉴판 가격 페이지를 검색했으나 해당 상품의 현재 가격이 게시된 공식 페이지를 찾지 못했습니다. 예약·후기·제3자 업소정보는 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%95%84%EC%BF%A0%EC%95%84%EC%82%B0%ED%83%80%20%EC%84%B1%EC%88%98%EC%B9%B4%ED%8E%98 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19885,8 +19813,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%84%B1%EC%88%98%EB%8B%A4%EB%9D%BD; https://www.instagram.com/sungsu_darak/ · 원본 지도에서 가격을 확인할 수 없었습니다. 매장 공식 인스타그램을 두 차례 열었으나 접근 오류가 났고, 공식 메뉴판에서 해당 메뉴 가격을 확인하지 못했습니다. 제3자 메뉴 값은 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%84%B1%EC%88%98%EB%8B%A4%EB%9D%BD · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19915,8 +19843,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%84%B1%EC%88%98%EB%8B%A4%EB%9D%BD; https://www.instagram.com/sungsu_darak/ · 원본 지도에서 가격을 확인할 수 없었습니다. 매장 공식 인스타그램을 두 차례 열었으나 접근 오류가 났고, 공식 메뉴판에서 해당 메뉴 가격을 확인하지 못했습니다. 제3자 메뉴 값은 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%84%B1%EC%88%98%EB%8B%A4%EB%9D%BD · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19945,8 +19873,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EA%BE%B8%EB%9D%A0%EC%9E%90%EB%A5%B4%EB%8B%B9 · 원본 지도에서 가격을 확인할 수 없었습니다. 식당 운영자 공식 홈페이지·메뉴판을 검색했으나 에그 베네딕트 런치 세트의 현재 가격이 적힌 공식 페이지를 찾지 못했습니다. 제3자 업소정보는 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EA%BE%B8%EB%9D%A0%EC%9E%90%EB%A5%B4%EB%8B%B9 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -19975,8 +19903,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84 · 원본 지도에서 가격을 확인할 수 없었습니다. 매장 운영 주체의 공식 홈페이지·메뉴판에서 현재 가격을 찾지 못했습니다. 제3자 예약·메뉴 정보는 공식 가격 근거로 사용하지 않았습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20005,8 +19933,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84 · 원본 지도에서 가격을 확인할 수 없었습니다. 매장 운영 주체의 공식 홈페이지·메뉴판에서 현재 가격을 찾지 못했습니다. 제3자 예약·메뉴 정보는 공식 가격 근거로 사용하지 않았습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20035,8 +19963,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84 · 원본 지도에서 가격을 확인할 수 없었습니다. 매장 운영 주체의 공식 홈페이지·메뉴판에서 현재 가격을 찾지 못했습니다. 제3자 예약·메뉴 정보는 공식 가격 근거로 사용하지 않았습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20065,8 +19993,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84 · 원본 지도에서 가격을 확인할 수 없었습니다. 매장 운영 주체의 공식 홈페이지·메뉴판에서 현재 가격을 찾지 못했습니다. 제3자 예약·메뉴 정보는 공식 가격 근거로 사용하지 않았습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20095,8 +20023,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84 · 원본 지도에서 가격을 확인할 수 없었습니다. 매장 운영 주체의 공식 홈페이지·메뉴판에서 현재 가격을 찾지 못했습니다. 제3자 예약·메뉴 정보는 공식 가격 근거로 사용하지 않았습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20125,8 +20053,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90; https://sushiolleh1.modoo.at/ · 올바른스시 공식 매장 페이지를 두 차례 열었으나 매장 소개만 있고 메뉴·가격은 없습니다. 원본 지도에서도 동일 상품의 현재 가격을 확인할 수 없어 확인불가입니다. 제3자 메뉴·후기 값은 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20155,8 +20083,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90; https://sushiolleh1.modoo.at/ · 올바른스시 공식 매장 페이지를 두 차례 열었으나 매장 소개만 있고 메뉴·가격은 없습니다. 원본 지도에서도 동일 상품의 현재 가격을 확인할 수 없어 확인불가입니다. 제3자 메뉴·후기 값은 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20185,8 +20113,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90; https://sushiolleh1.modoo.at/ · 올바른스시 공식 매장 페이지를 두 차례 열었으나 매장 소개만 있고 메뉴·가격은 없습니다. 원본 지도에서도 동일 상품의 현재 가격을 확인할 수 없어 확인불가입니다. 제3자 메뉴·후기 값은 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20215,8 +20143,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90; https://sushiolleh1.modoo.at/ · 올바른스시 공식 매장 페이지를 두 차례 열었으나 매장 소개만 있고 메뉴·가격은 없습니다. 원본 지도에서도 동일 상품의 현재 가격을 확인할 수 없어 확인불가입니다. 제3자 메뉴·후기 값은 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20245,8 +20173,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90; https://sushiolleh1.modoo.at/ · 올바른스시 공식 매장 페이지를 두 차례 열었으나 매장 소개만 있고 메뉴·가격은 없습니다. 원본 지도에서도 동일 상품의 현재 가격을 확인할 수 없어 확인불가입니다. 제3자 메뉴·후기 값은 제외했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20347,8 +20275,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000012575;https://m.smartstore.naver.com/jamae_jeju · Visit Jeju 공식 식당 안내는 고기국수를 소개하지만 현재 메뉴 가격을 싣지 않습니다. 자매국수 판매자 공식 스마트스토어도 가격을 확인할 수 없어 확인불가입니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/entry/place/13570691 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20377,8 +20305,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000020099;https://www.jeju.go.kr · Visit Jeju 공식 안내에서 올래국수 메뉴는 확인했으나 현재 고기국수 가격은 표시되지 않습니다. 제주도 공식 안내에서도 가격을 확인하지 못했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/entry/place/11728283 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20407,8 +20335,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://m.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000012590;https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=5ca00a8c-2869-42a0-8121-56362241d667 · Visit Jeju·한국관광공사 공식 식당 안내에서 숙성도는 확인했으나 현재 200g 흑돼지 메뉴 가격은 게시되어 있지 않습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/entry/place/1070809277 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20437,8 +20365,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://m.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000001155;https://www.visitjeju.net/kr/themtour/view?contentsid=CNTS_300000000013659 · Visit Jeju 공식 매장 소개와 공식 관광 안내에서 오조해녀의집 전복죽의 현재 메뉴 가격을 찾지 못했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/entry/place/11831417 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20467,8 +20395,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.visitjeju.net/kr;https://www.jeju.go.kr · 진두강정의 공식 메뉴판·판매자 가격 페이지를 찾지 못했고, Visit Jeju·제주도 공식 안내에서도 전복해물뚝배기 가격을 확인하지 못했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/entry/place/11831343 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20487,17 +20415,17 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "A",
-    "modelUse": "yes",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "에이바우트커피 공식홈페이지",
     "sourceUrl": "https://aboutcoffee.co.kr/",
-    "note": "제주 토종 프랜차이즈 카페 매장 정가 · 원문: 아메리카노 2,900원 (모닝 1,900원) · 수집: prices-jeju.csv",
+    "note": "제주 토종 프랜차이즈 카페 매장 정가 · 원문: 아메리카노 2,900원 (모닝 1,900원) · 수집: prices-jeju.csv · 모델 제외: 출처 사이트(aboutcoffee.co.kr)가 열리지 않아(도메인 없음) 공식 가격을 확인할 수 없음(2026-10-11)",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://aboutcoffee.co.kr/ · 출처 도메인 aboutcoffee.co.kr 이 DNS에서 확인되지 않음(사이트 없음). 공식 출처 교체 필요",
+      "detail": "https://aboutcoffee.co.kr/ · 사이트가 열리지 않음(브라우저 오류 페이지) · Claude 크롬 재확인(2026-10-11)",
       "reportedAt": "2026-10-11"
     }
   },
@@ -20527,8 +20455,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000012626;https://www.visitjeju.net/kr · Visit Jeju 공식 판매처 소개에서 착즙 주스는 소개하지만 동문시장 해당 한라봉주스 1병의 현재 가격은 확인되지 않습니다. 다른 주스 상품 가격은 대체하지 않았습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/entry/place/11624838 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20557,8 +20485,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.visitjeju.net/kr;https://www.jeju.go.kr · 동문시장 해당 판매자의 공식 메뉴·상품 페이지에서 낱개 오메기떡 가격을 확인하지 못했고, 공공 관광 페이지에도 현재 가격이 없습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/entry/place/11831418 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20587,8 +20515,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "http://www.hallasan.co.kr/shop/list.php?ca_id=10;https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_200000000008050&menuId=DOM_000001718000000000 · 한라산소주 제조사 공식 판매 페이지는 열리지 않았고 Visit Jeju 공식 제조장 안내에도 소매가가 없습니다. CU 공식 상품 페이지에서도 현재 가격을 확인하지 못해 추정하지 않았습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://cu.bgfretail.com/product/product.do?category=04 · 해당 URL 첫 화면에 한라산 소주 없음. 상품 검색까지는 하지 못함 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20617,8 +20545,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://hanwoolnjeju.com/;https://cu.bgfretail.com/product/product.do?category=04 · 제주맥주 제조사 공식 페이지와 CU 공식 상품 목록에서 제주위트에일 캔의 현재 판매가를 확인하지 못했습니다. 가격이 없는 상품 설명만으로 값을 추정하지 않았습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://cu.bgfretail.com/product/product.do?category=04 · 해당 URL 첫 화면에 제주위트에일 없음. 상품 검색까지는 하지 못함 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -20647,8 +20575,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_000000000012575;https://m.smartstore.naver.com/jamae_jeju · 자매국수 공식 관광 안내 및 판매자 공식 페이지에서 식당 주류 판매 가격을 확인하지 못했습니다. 일반 편의점 주류가를 대신 쓰지 않았습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://map.naver.com/p/entry/place/13570691 · 네이버 플레이스가 브라우저 도구에서 차단됨 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -21519,7 +21447,7 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://shakeshack.com/location/theater-district-ny · Shake Shack 매장 페이지에서 가격을 읽지 못함(주문 화면 안에 있음)",
+      "detail": "https://shakeshack.com/location/theater-district-ny · 매장 페이지에 가격 표기 없음(가격은 주문 화면 안) · Claude 크롬 재확인(2026-10-11)",
       "reportedAt": "2026-10-11"
     }
   },
@@ -21593,13 +21521,7 @@
     "applied": "2026",
     "sourceName": "Houston Hall",
     "sourceUrl": "https://www.houstonhallny.com/menus/",
-    "note": "Perplexity 수집(음료로 왔으나 맥주라 주류). 판매세 별도 · 원문: Golden Lager Small $9.50 · 수집: prices-newyork.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://www.houstonhallny.com/menus/ · Houston Hall 메뉴 페이지 본문에서 가격을 읽지 못함(이미지·PDF 메뉴로 보임)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "Perplexity 수집(음료로 왔으나 맥주라 주류). 판매세 별도 · 원문: Golden Lager Small $9.50 · 수집: prices-newyork.csv"
   },
   {
     "id": "NYC-FD-203",
@@ -22295,13 +22217,7 @@
     "applied": "2026",
     "sourceName": "一蘭 心斎橋店",
     "sourceUrl": "https://ichiran.com/shop/kinki/shinsaibashi/",
-    "note": "Perplexity 수집. 일반 메뉴판 정가 · 원문: 天然とんこつラーメン（創業以来）（1180 円） · 수집: prices-perplexity-2026-10-03.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://ichiran.com/shop/kinki/shinsaibashi/ · 이치란 신사이바시점의 공식 점포 안내 URL을 두 번 열었습니다. 점포 안내와 사진만 있고 메뉴 가격이나 1,180 JPY 표시가 없어 현재 가격을 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "Perplexity 수집. 일반 메뉴판 정가 · 원문: 天然とんこつラーメン（創業以来）（1180 円） · 수집: prices-perplexity-2026-10-03.csv"
   },
   {
     "id": "OSA-FD-902",
@@ -22425,7 +22341,7 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://yakun.com.sg/ · Ya Kun 공식 사이트(app.yakun.com) 첫 화면에 가격이 없음",
+      "detail": "https://app.yakun.com/menu/value-set-meal.html · yakun.com.sg가 app.yakun.com으로 이동. 세트 메뉴 페이지에 가격 표기 없음 · Claude 크롬 재확인(2026-10-11)",
       "reportedAt": "2026-10-11"
     }
   },
@@ -22445,13 +22361,13 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "A",
-    "modelUse": "yes",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "一蘭 ICHIRAN Singapore",
     "sourceUrl": "https://en.ichiran.com/np/shop/singapore/",
-    "note": "Perplexity 수집. 출처 목록에 이 주소가 없어 지점 존재 확인 필요 · 원문: Classic Tonkotsu Ramen SGD 11.80 · 수집: prices-perplexity-2026-10-03.csv",
+    "note": "Perplexity 수집. 출처 목록에 이 주소가 없어 지점 존재 확인 필요 · 원문: Classic Tonkotsu Ramen SGD 11.80 · 수집: prices-perplexity-2026-10-03.csv · 모델 제외: 출처 페이지(이치란 싱가포르)가 404·빈 페이지라 공식 가격을 확인할 수 없음(2026-10-11)",
     "review": {
       "flag": "출처 확인 필요",
       "flagEn": "source needs checking",
@@ -22953,8 +22869,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://emart.ssg.com/search.ssg?query=%EB%AC%BC500ml; https://emart.ssg.com/search.ssg?query=%EC%82%BC%EB%8B%A4%EC%88%98 · 이마트몰 공식 검색 페이지를 두 차례 열었으나 단품 삼다수 500ml의 현재 가격이 페이지 본문에 표시되지 않았습니다. 공식 다입수 상품은 40개 묶음으로 단위가 달라 대체하지 않았으며 단품 가격을 확인하지 못했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://emart.ssg.com/search.ssg?query=%EB%AC%BC500ml · 검색 필터만 보이고 상품 목록이 표시되지 않음 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -22983,8 +22899,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://emart.ssg.com/search.ssg?query=%EB%AC%BC500ml; https://emart.ssg.com/item/itemDtl.ssg?itemId=1000015314587 · 이마트몰 공식 검색 페이지를 두 차례 열었으나 단품 가격이 노출되지 않았습니다. 공식 SKU 페이지의 아이시스8.0 500ml는 품절 표시이며 현재 판매가격이 없습니다. 검색 색인에 남은 과거 380~470원은 현행 가격 근거로 사용하지 않았습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://emart.ssg.com/search.ssg?query=%EB%AC%BC500ml · 검색 필터만 보이고 상품 목록이 표시되지 않음 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -23109,8 +23025,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "확인 가격 확인불가 · https://www.migros.com.tr/su-c-84 · Migros 공식 물 카테고리 페이지에는 제품별 목록·현재 가격이 표시되지 않아 Avant 500 ml의 가격을 확인하지 못함.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://www.migros.com.tr/su-c-84 · 생수 카테고리 첫 화면과 'avant su' 검색 결과에 Avant 500ml 상품이 안 보임 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -23297,18 +23213,18 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "conditional",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "Wakadori Marunouchi (restaurants-guide.tokyo)",
     "sourceUrl": "https://restaurants-guide.tokyo/restaurants/drink/?id=95",
-    "note": "Perplexity 수집. 출처가 식당 공식 사이트가 아닌 안내 사이트라 보조·조건부로 낮춤 · 원문: Draft Beer The Premium Malt's 630 JPY · 수집: prices-perplexity-drinks-2026-10-03.csv",
+    "note": "Perplexity 수집. 출처가 식당 공식 사이트가 아닌 안내 사이트라 보조·조건부로 낮춤 · 원문: Draft Beer The Premium Malt's 630 JPY · 수집: prices-perplexity-drinks-2026-10-03.csv · 모델 제외: 출처가 배달·예약·가이드 사이트라 공식 출처가 아니고, 2026-10-11 크롬 재확인에서 매장 공식 메뉴를 찾지 못함",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://restaurants-guide.tokyo/restaurants/drink/?id=95 · 제공 URL 원문에는 제3자 “TOKYO RESTAURANTS GUIDE”의 메뉴와 630 JPY가 표시되지만 판매 식당의 공식 페이지가 아니므로 공식 가격으로 검증할 수 없음. 원문: \"Draft Beer The Premium Malt's 630 JPY\".",
-      "reportedAt": "2026-10-08"
+      "detail": "https://restaurants-guide.tokyo/restaurants/drink/?id=95 · 공식 출처 없음. 와카도리 마루노우치 공식 메뉴 페이지를 검색으로 못 찾음 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -23873,18 +23789,18 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "conditional",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "광표우육면 (foodpanda)",
     "sourceUrl": "https://www.foodpanda.com.tw/en/restaurant/sjcf/kuang-biao-niu-rou-mian",
-    "note": "Perplexity 수집. 배달앱 가격(매장가와 다를 수 있음) — 공식 메뉴로 교체 필요 · 플랫폼 출처(공식 페이지 아님) · 원문: Braised Beef Noodle $169 · 수집: prices-perplexity-meals-2026-10-03.csv",
+    "note": "Perplexity 수집. 배달앱 가격(매장가와 다를 수 있음) — 공식 메뉴로 교체 필요 · 플랫폼 출처(공식 페이지 아님) · 원문: Braised Beef Noodle $169 · 수집: prices-perplexity-meals-2026-10-03.csv · 모델 제외: 출처가 배달·예약·가이드 사이트라 공식 출처가 아니고, 2026-10-11 크롬 재확인에서 매장 공식 메뉴를 찾지 못함",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.foodpanda.com.tw/en/restaurant/sjcf/kuang-biao-niu-rou-mian · 원 출처가 Foodpanda(배달앱)이며 허용되지 않은 출처입니다. 식당 운영 주체의 공식 가격표를 찾지 못했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://www.foodpanda.com.tw/en/restaurant/sjcf/kuang-biao-niu-rou-mian · 공식 출처 없음. 廣標牛肉麵 공식 사이트·SNS 메뉴를 검색으로 못 찾음 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -23903,18 +23819,18 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "conditional",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "문가우육면 (foodpanda)",
     "sourceUrl": "https://www.foodpanda.com.tw/restaurant/r2nr/wen-jia-niu-rou-mian",
-    "note": "Perplexity 수집. 배달앱 가격(매장가와 다를 수 있음)·시작가 — 공식 메뉴로 교체 필요 · 플랫폼 출처(공식 페이지 아님) · 원문: 三寶牛肉麵 $210 起 · 수집: prices-perplexity-meals-2026-10-03.csv",
+    "note": "Perplexity 수집. 배달앱 가격(매장가와 다를 수 있음)·시작가 — 공식 메뉴로 교체 필요 · 플랫폼 출처(공식 페이지 아님) · 원문: 三寶牛肉麵 $210 起 · 수집: prices-perplexity-meals-2026-10-03.csv · 모델 제외: 출처가 배달·예약·가이드 사이트라 공식 출처가 아니고, 2026-10-11 크롬 재확인에서 매장 공식 메뉴를 찾지 못함",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.foodpanda.com.tw/restaurant/r2nr/wen-jia-niu-rou-mian · 원 출처가 Foodpanda(배달앱)이며 허용되지 않은 출처입니다. 식당 운영 주체의 공식 가격표를 찾지 못했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://www.facebook.com/WenJiaNiuRouMian/ · 공식 출처 없음. 文家牛肉麵 페이스북 페이지는 검색에 나오지만 타이베이 매장인지와 메뉴 가격은 확인 못함(페이지를 열어 보지는 않음) · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -24453,7 +24369,7 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.trenitalia.com/en/connections/regionale-trains.html · Trenitalia 지역열차 안내 페이지에 운임 금액이 없음(구간 검색 화면만). 출처 URL을 운임표로 바꿔야 함",
+      "detail": "https://www.trenitalia.com/en/connections/regionale-trains.html · 페이지에 요금 금액 표기 없음 · Claude 크롬 재확인(2026-10-11)",
       "reportedAt": "2026-10-11"
     }
   },
@@ -24627,8 +24543,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu · 출처가 예약 플랫폼 Quandoo의 식당 메뉴입니다. 사용자가 제외한 비공식 예약 사이트 값이므로 공식 판매가로 인정하지 않았습니다. 현재 공식 식당 메뉴 페이지를 찾지 못했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu · 공식 출처 없음. Dante's Bar Caffè 공식 사이트를 검색으로 못 찾음 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -24657,8 +24573,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.quandoo.it/en/place/caffe-ripetta-95692/menu · 출처가 예약 플랫폼 Quandoo의 식당 메뉴입니다. 운영자가 직접 발행한 현행 가격표를 확인하지 못해 가격을 인정하지 않았습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://www.quandoo.it/en/place/caffe-ripetta-95692/menu · 공식 출처 없음. Caffè Ripetta 공식 메뉴를 검색으로 못 찾음 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -24687,8 +24603,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu · 출처가 예약 플랫폼 Quandoo이며, 직접 운영하는 공식 메뉴에서 마르게리타 가격을 확인하지 못했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu · 공식 출처 없음. Dante's Bar Caffè 공식 사이트를 검색으로 못 찾음 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -24717,8 +24633,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.quandoo.it/en/place/gran-caffe-rossi-martini-48508/menu; https://www.caffemartiniroma.com/restaurant-menu-colosseum/ · Quandoo는 허용되지 않은 예약 플랫폼입니다. 식당 자체 공식 메뉴 페이지는 두 차례 열리지 않아 카르보나라 현행가를 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://www.caffemartiniroma.com/ · 공식 사이트로 보이는 주소는 검색에 나왔으나 열어서 메뉴 가격을 확인하지는 못함 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -24747,8 +24663,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu · 출처가 예약 플랫폼의 세트메뉴 목록으로, 가게 공식 메뉴판 가격을 찾지 못했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu · 공식 출처 없음. Dante's Bar Caffè 공식 사이트를 검색으로 못 찾음 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -24797,18 +24713,18 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "conditional",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "Caffe Ciampini (quandoo)",
     "sourceUrl": "https://www.quandoo.it/en/place/caffe-ciampini-21378/menu",
-    "note": "Perplexity 수집. 예약 플랫폼 메뉴 · 플랫폼 출처(공식 페이지 아님) · 원문: Caffè espresso 1,20€ · 수집: prices-rome.csv",
+    "note": "Perplexity 수집. 예약 플랫폼 메뉴 · 플랫폼 출처(공식 페이지 아님) · 원문: Caffè espresso 1,20€ · 수집: prices-rome.csv · 모델 제외: 출처가 배달·예약·가이드 사이트라 공식 출처가 아니고, 2026-10-11 크롬 재확인에서 매장 공식 메뉴를 찾지 못함",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.quandoo.it/en/place/caffe-ciampini-21378/menu; https://ciampini.com/caffe/ · 원 출처는 예약 플랫폼입니다. Ciampini 공식 카페 페이지에는 메뉴 가격이 없고, 2022년 공식 비스트로 PDF는 다른 장소·오래된 메뉴라 현행 에스프레소 값으로 쓰지 않았습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://ciampini.com/caffe/ · 공식 사이트에 카페 메뉴 PDF(Ciampini-Caffe-Menu.pdf, 2022-08 업로드, 16쪽)가 있으나 이미지형이라 에스프레소 가격을 읽지 못함 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -24827,18 +24743,18 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "conditional",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "Caffe Ciampini (quandoo)",
     "sourceUrl": "https://www.quandoo.it/en/place/caffe-ciampini-21378/menu",
-    "note": "Perplexity 수집. 예약 플랫폼 메뉴 · 플랫폼 출처(공식 페이지 아님) · 원문: Cappuccino 1,50€ · 수집: prices-rome.csv",
+    "note": "Perplexity 수집. 예약 플랫폼 메뉴 · 플랫폼 출처(공식 페이지 아님) · 원문: Cappuccino 1,50€ · 수집: prices-rome.csv · 모델 제외: 출처가 배달·예약·가이드 사이트라 공식 출처가 아니고, 2026-10-11 크롬 재확인에서 매장 공식 메뉴를 찾지 못함",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.quandoo.it/en/place/caffe-ciampini-21378/menu; https://ciampini.com/caffe/ · 원 출처는 예약 플랫폼입니다. Ciampini 공식 카페 페이지에 현행 카푸치노 가격이 없으며, 오래된 비스트로 메뉴는 같은 상품·장소의 현재 가격으로 볼 수 없습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://ciampini.com/caffe/ · ROM-FD-202와 같은 PDF. 카푸치노 가격을 읽지 못함 · Claude 크롬 재확인(2026-10-11)",
+      "reportedAt": "2026-10-11"
     }
   },
   {
@@ -25733,13 +25649,7 @@
     "applied": "2026",
     "sourceName": "HANSOT 한솥",
     "sourceUrl": "https://en.hsd.co.kr/Menu",
-    "note": "Perplexity 수집. 공식 홈페이지 메뉴 · 원문: Spicy Pork Bibimbap (Tofu & Soybean Paste) 6,500 KRW · 수집: prices-seoul-official.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://en.hsd.co.kr/Menu · 한솥 영문 메뉴 페이지가 자바스크립트로만 메뉴를 그려 가격이 보이지 않음",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "Perplexity 수집. 공식 홈페이지 메뉴 · 원문: Spicy Pork Bibimbap (Tofu & Soybean Paste) 6,500 KRW · 수집: prices-seoul-official.csv"
   },
   {
     "id": "SEL-FD-102",
@@ -25763,13 +25673,7 @@
     "applied": "2026",
     "sourceName": "HANSOT 한솥",
     "sourceUrl": "https://en.hsd.co.kr/Menu",
-    "note": "Perplexity 수집. 공식 홈페이지 메뉴 · 원문: Kimchi Fried Rice 4,400 KRW · 수집: prices-seoul-official.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://en.hsd.co.kr/Menu · 한솥 영문 메뉴 페이지가 자바스크립트로만 메뉴를 그려 가격이 보이지 않음",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "Perplexity 수집. 공식 홈페이지 메뉴 · 원문: Kimchi Fried Rice 4,400 KRW · 수집: prices-seoul-official.csv"
   },
   {
     "id": "SEL-FD-103",

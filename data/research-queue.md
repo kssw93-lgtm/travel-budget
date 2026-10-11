@@ -24,6 +24,7 @@
 | 세부 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 뉴욕 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 이스탄불 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 상하이 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -254,7 +255,6 @@
 | PUS-FD-003 | 부산 | 개미집 낙곱새볶음 (1인분) | 14000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [개미집 공식 매장 메뉴판](https://map.naver.com/p/entry/place/11628169) |
 | PUS-FD-004 | 부산 | 고래사어묵 어우동 | 8000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [고래사어묵 해운대점 매장 메뉴](https://map.naver.com/p/entry/place/36737521) |
 | PUS-FD-005 | 부산 | 수변최고돼지국밥 고기국밥 | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [수변최고돼지국밥 매장 공식 메뉴](https://map.naver.com/p/entry/place/12836262) |
-| PUS-FD-006 | 부산 | 컴포즈커피 아메리카노 (HOT/ICE) | 1500 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [컴포즈커피 공식홈페이지](https://composecoffee.com/menu_coffee) |
 | PUS-FD-007 | 부산 | 모모스커피 오늘의 드립커피 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [모모스커피 온천장 본점 메뉴](https://map.naver.com/p/entry/place/12108752) |
 | PUS-FD-008 | 부산 | BIFF거리 씨앗호떡 | 2000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [남포동 BIFF거리 노점 공통 가격게시](https://map.naver.com/p/entry/place/12134547) |
 | PUS-FD-009 | 부산 | 대선주조 대선소주 | 1950 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
@@ -331,18 +331,18 @@
 | CJU-FD-858 | 제주 | 한솥 치킨마요 | 3900 KRW | A | 조건부 | 조건부, 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
 | CJU-FD-859 | 제주 | 한솥 돈까스도련님 | 5200 KRW | A | 조건부 | 조건부, 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
 | CJU-FD-860 | 제주 | 한솥 묵은지 김치찌개 | 6000 KRW | A | 조건부 | 조건부, 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
-| TYO-AL-861 | 도쿄 | 쿠시카츠 다나카 짐빔 하이볼 | 319 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| TYO-AL-862 | 도쿄 | 쿠시카츠 다나카 레몬사워 | 319 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| TYO-AL-863 | 도쿄 | 쿠시카츠 다나카 생맥주(프리미엄 몰츠 카오루 에일) | 605 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| TYO-AL-864 | 도쿄 | 쿠시카츠 다나카 사케 180ml | 550 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| TYO-AL-865 | 도쿄 | 쿠시카츠 다나카 본격 소주 | 550 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| TYO-AL-866 | 도쿄 | 쿠시카츠 다나카 우메슈 | 495 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| OSA-AL-867 | 오사카 | 쿠시카츠 다나카 짐빔 하이볼 | 319 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| OSA-AL-868 | 오사카 | 쿠시카츠 다나카 레몬사워 | 319 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| OSA-AL-869 | 오사카 | 쿠시카츠 다나카 생맥주(프리미엄 몰츠 카오루 에일) | 605 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| OSA-AL-870 | 오사카 | 쿠시카츠 다나카 사케 180ml | 550 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| OSA-AL-871 | 오사카 | 쿠시카츠 다나카 본격 소주 | 550 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| OSA-AL-872 | 오사카 | 쿠시카츠 다나카 우메슈 | 495 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-861 | 도쿄 | 쿠시카츠 다나카 짐빔 하이볼 | 319 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-862 | 도쿄 | 쿠시카츠 다나카 레몬사워 | 319 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-863 | 도쿄 | 쿠시카츠 다나카 생맥주(프리미엄 몰츠 카오루 에일) | 605 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-864 | 도쿄 | 쿠시카츠 다나카 사케 180ml | 550 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-865 | 도쿄 | 쿠시카츠 다나카 본격 소주 | 550 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-866 | 도쿄 | 쿠시카츠 다나카 우메슈 | 495 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-867 | 오사카 | 쿠시카츠 다나카 짐빔 하이볼 | 319 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-868 | 오사카 | 쿠시카츠 다나카 레몬사워 | 319 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-869 | 오사카 | 쿠시카츠 다나카 생맥주(프리미엄 몰츠 카오루 에일) | 605 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-870 | 오사카 | 쿠시카츠 다나카 사케 180ml | 550 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-871 | 오사카 | 쿠시카츠 다나카 본격 소주 | 550 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-872 | 오사카 | 쿠시카츠 다나카 우메슈 | 495 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
 | TYO-AL-873 | 도쿄 | 로손 PB 맥주류 캔 350ml | 171 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/liquor/) |
 | OSA-AL-874 | 오사카 | 로손 PB 맥주류 캔 350ml | 171 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/liquor/) |
 | TYO-SN-875 | 도쿄 | 교자노오쇼 교자 | 363 JPY | A | 예 | 재검증 | [餃子の王将](https://www.ohsho.co.jp/menu/east/) |
@@ -509,7 +509,6 @@
 | CJU-FD-003 | 제주 | 숙성도 숙성 흑돼지 (1인분 200g) | 22000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [숙성도 노형본관 매장 공식 메뉴판](https://map.naver.com/p/entry/place/1070809277) |
 | CJU-FD-004 | 제주 | 오조해녀의집 전복죽 | 13000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 오조해녀의집 공식 메뉴판](https://map.naver.com/p/entry/place/11831417) |
 | CJU-FD-005 | 제주 | 진두강정 전복해물뚝배기 | 15000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 삼보식당 공식 메뉴판](https://map.naver.com/p/entry/place/11831343) |
-| CJU-FD-006 | 제주 | 에이바우트커피 아메리카노 (모닝할인/일반) | 1900~2900 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [에이바우트커피 공식홈페이지](https://aboutcoffee.co.kr/) |
 | CJU-FD-007 | 제주 | 동문시장 착즙 한라봉주스 (1병) | 4000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [동문시장 공식 판매처 가격표시](https://map.naver.com/p/entry/place/11624838) |
 | CJU-FD-008 | 제주 | 동문시장 원조 오메기떡 (낱개 1개) | 1000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 진아떡집 공식 메뉴](https://map.naver.com/p/entry/place/11831418) |
 | CJU-FD-009 | 제주 | 한라산 21도 소주 | 1950 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
@@ -552,7 +551,7 @@
 | NYC-FD-101 | 뉴욕 | 셰이크쉑 쉑버거 | 7.69 USD | A | 예 | 재검증, 검수: 원문 확인 불가 | [Shake Shack](https://shakeshack.com/location/theater-district-ny) |
 | NYC-FD-102 | 뉴욕 | 주니어스 체리 치즈케이크 1조각 | 9.75 USD | A | 예 | 재검증 | [Junior's Cheesecake](https://cdn.shopify.com/s/files/1/0694/7517/2609/files/45th_Main_Menu_3.1.26.pdf) |
 | NYC-FD-103 | 뉴욕 | 휴스턴 홀 버거와 감자튀김 | 21.95 USD | A | 예 | 재검증 | [Houston Hall](https://www.houstonhallny.com/menus/) |
-| NYC-FD-202 | 뉴욕 | 휴스턴 홀 골든 라거 스몰 | 9.5 USD | A | 예 | 재검증, 검수: 원문 확인 불가 | [Houston Hall](https://www.houstonhallny.com/menus/) |
+| NYC-FD-202 | 뉴욕 | 휴스턴 홀 골든 라거 스몰 | 9.5 USD | A | 예 | 재검증 | [Houston Hall](https://www.houstonhallny.com/menus/) |
 | NYC-FD-203 | 뉴욕 | 휴스턴 홀 소비뇽 블랑 1잔 | 14.5 USD | A | 예 | 재검증 | [Houston Hall](https://www.houstonhallny.com/menus/) |
 | NYC-SV-101 | 뉴욕 | 메트 로고 비닐 토트백 | 55 USD | A | 예 | 재검증 | [The Met Store](https://store.metmuseum.org/met-logo-vinyl-tote-logovinyltote) |
 | NYC-AT-101 | 뉴욕 | 자유의 여신상·엘리스섬 그라운드 티켓 | 23.5 USD | A | 예 | 재검증 | [Statue of Liberty & Ellis Island Foundation](https://www.statueofliberty.org/visit/faq-2/) |
@@ -564,13 +563,12 @@
 | NYC-SV-111 | 뉴욕 | 메트 로고 접이식 우산 | 25 USD | A | 예 | 재검증 | [The Met Store](https://store.metmuseum.org/met-logo-folding-umbrella-80056083) |
 | NYC-FD-121 | 뉴욕 | 카츠 델리 파스트라미 샌드위치 | 28.95 USD | A | 예 | 재검증 | [Katz's Delicatessen](https://katzsdelicatessen.com/) |
 | NYC-SV-121 | 뉴욕 | 자유의 여신상 공식 숍 문서 홀더 소형 | 25 USD | A | 예 | 재검증 | [Statue of Liberty & Ellis Island Foundation](https://www.statueofliberty.org/product/logo-embossed-leatherette-eight-corner-document-holder-small/) |
-| OSA-FD-901 | 오사카 | 이치란 돈코츠 라멘 | 1180 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [一蘭 心斎橋店](https://ichiran.com/shop/kinki/shinsaibashi/) |
+| OSA-FD-901 | 오사카 | 이치란 돈코츠 라멘 | 1180 JPY | A | 예 | 재검증 | [一蘭 心斎橋店](https://ichiran.com/shop/kinki/shinsaibashi/) |
 | OSA-FD-902 | 오사카 | 호텔 뉴오타니 오사카 SATSUKI 연어 허브버터 구이 | 3800 JPY | A | 예 | 재검증 | [ホテルニューオータニ大阪 SATSUKI](https://www.newotani.co.jp/en/osaka/restaurant/satsuki/) |
 | BKK-SV-901 | 방콕 | 짐 톰슨 코끼리 실크 스카프 52인치 | 8500 THB | A | 예 | 재검증 | [Jim Thompson Official Shop](https://www.jimthompson.com/products/elephant-bath-silk-scarf-52-green) |
 | DAD-FD-901 | 다낭 | 인더스 베지 파코라 | 119000 VND | A | 예 | 재검증 | [Indus Indian Restaurant Da Nang](https://www.indus.vn/menu/) |
 | DAD-FD-902 | 다낭 | 인더스 치킨 티카 마살라 | 149000 VND | A | 예 | 재검증 | [Indus Indian Restaurant Da Nang](https://www.indus.vn/menu/) |
 | SIN-FD-901 | 싱가포르 | 야쿤 카야토스트 버터 세트 | 5.6 SGD | A | 예 | 재검증, 검수: 원문 확인 불가 | [Ya Kun Kaya Toast](https://yakun.com.sg/) |
-| SIN-FD-902 | 싱가포르 | 이치란 돈코츠 라멘 (싱가포르) | 11.8 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [一蘭 ICHIRAN Singapore](https://en.ichiran.com/np/shop/singapore/) |
 | SIN-FD-903 | 싱가포르 | 올드창키 커리퍼프 | 2.2 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [Old Chang Kee](https://www.oldchangkee.com/dipngo.com.sg/menu.html) |
 | SIN-SV-901 | 싱가포르 | 올드창키 커리퍼프 10개 상자 | 22 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [Old Chang Kee](https://www.oldchangkee.com/dipngo.com.sg/menu.html) |
 | PAR-SV-901 | 파리 | 루브르 사모트라케의 니케 마그넷 | 4.9 EUR | A | 예 | 재검증 | [Louvre Official Boutique](https://boutique.louvre.fr/en/product/19430-magnet-victory-of-samothrace.html) |
@@ -604,7 +602,6 @@
 | SEL-FD-821 | 서울 | 한솥 메가치킨마요 도시락 | 6600 KRW | A | 예 | 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_view/250?cate1=4&cate2=12) |
 | TYO-SN-822 | 도쿄 | 엑셀시오르 카페 블렌드커피 | 390 JPY | A | 예 | 재검증 | [엑셀시오르 카페(도토루 니치레스)](https://www.doutor.co.jp/news/2026priceEXC.pdf) |
 | TYO-FD-951 | 도쿄 | 생맥주 아사히 슈퍼드라이·기린 하트랜드 (호텔 레스토랑) | 1000 JPY | A | 예 | 재검증 | [Hotel Metropolitan Edmont Tokyo Beltempo](https://edmont-tokyo.hotel-metropolitan.com/restaurant/list/beltempo/index.html) |
-| TYO-FD-952 | 도쿄 | 생맥주 프리미엄 몰츠 (와카도리 마루노우치) | 630 JPY | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [Wakadori Marunouchi (restaurants-guide.tokyo)](https://restaurants-guide.tokyo/restaurants/drink/?id=95) |
 | TYO-FD-953 | 도쿄 | 브루클린 라거 레귤러 (게이오 플라자 호텔) | 1850 JPY | A | 예 | 재검증, 세금·서비스료 별도 | [Keio Plaza Hotel Aurora](https://www.keioplaza.co.jp/en/restaurant/list/aurora/) |
 | OSA-FD-951 | 오사카 | 프리미엄 몰츠 향기로운 에일 생맥주 소 | 550 JPY | A | 예 | 재검증 | [Shinsaibashi Kagura](https://www.kaguraosaka.com/en/menu/tabs/UQRGHn9cYQdfrsVJZDLa/) |
 | OSA-FD-952 | 오사카 | 프리미엄 몰츠 중병 | 850 JPY | A | 예 | 재검증 | [Shinsaibashi Kagura](https://www.kaguraosaka.com/en/menu/tabs/UQRGHn9cYQdfrsVJZDLa/) |
@@ -627,8 +624,6 @@
 | LON-FD-952 | 런던 | 기네스 1파인트 (풀러스 펍) | 6.2 GBP | A | 예 | 재검증, 검수: 출처 확인 필요 | [Fuller's Pubs London](https://www.fullers.co.uk/pubs/pub-finder/london) |
 | LON-FD-953 | 런던 | 페로니 1파인트 (풀러스 펍) | 6 GBP | A | 예 | 재검증, 검수: 출처 확인 필요 | [Fuller's Pubs London](https://www.fullers.co.uk/pubs/pub-finder/london) |
 | DAD-FD-911 | 다낭 | 쿠치나 루카 해산물 스파게티 | 310000 VND | A | 예 | 재검증 | [Cucina Luca Da Nang](https://cucinaluca.vn/) |
-| TPE-FD-911 | 타이베이 | 광표우육면 홍소 우육면 | 169 TWD | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [광표우육면 (foodpanda)](https://www.foodpanda.com.tw/en/restaurant/sjcf/kuang-biao-niu-rou-mian) |
-| TPE-FD-912 | 타이베이 | 문가우육면 삼보 우육면 | 210 TWD | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [문가우육면 (foodpanda)](https://www.foodpanda.com.tw/restaurant/r2nr/wen-jia-niu-rou-mian) |
 | SIN-FD-911 | 싱가포르 | 맥도날드 빅맥 | 7.95 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [McDonald's Singapore](https://www.mcdonalds.com.sg/full-menu) |
 | ROM-TR-101 | 로마 | 로마 48시간권 | 15 EUR | A | 예 | 재검증 | [ATAC Roma](https://www.atac.roma.it/en/tickets-and-passes/birg) |
 | ROM-TR-102 | 로마 | 로마 72시간권 | 22 EUR | A | 예 | 재검증 | [ATAC Roma](https://www.atac.roma.it/en/tickets-and-passes/birg) |
@@ -645,8 +640,6 @@
 | ROM-FD-104 | 로마 | 그란 카페 로시 마르티니 리가토니 카르보나라 | 15 EUR | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [Gran Caffe Rossi Martini (quandoo)](https://www.quandoo.it/en/place/gran-caffe-rossi-martini-48508/menu) |
 | ROM-FD-105 | 로마 | 단테스 바 고기 세트 메뉴 | 22 EUR | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [Dante's Bar Caffe (quandoo)](https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu) |
 | ROM-FD-201 | 로마 | 지올리티 젤라토 컵 | 3~3.5 EUR | A | 예 | 재검증, 검수: 출처 확인 필요 | [Giolitti](https://www.giolitti.it/en/) |
-| ROM-FD-202 | 로마 | 카페 참피니 에스프레소 | 1.2 EUR | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [Caffe Ciampini (quandoo)](https://www.quandoo.it/en/place/caffe-ciampini-21378/menu) |
-| ROM-FD-203 | 로마 | 카페 참피니 카푸치노 | 1.5 EUR | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [Caffe Ciampini (quandoo)](https://www.quandoo.it/en/place/caffe-ciampini-21378/menu) |
 | ROM-FD-301 | 로마 | 라 사피엔자 대학 바 병맥주 33cl | 2.05~3.1 EUR | A | 예 | 재검증 | [La Sapienza Bar Marco Polo](https://www.uniroma1.it/sites/default/files/user/531/listino_prezzi_bar_marco_polo.pdf) |
 | ROM-FD-302 | 로마 | 라 사피엔자 대학 바 레드 와인 1잔 | 2.2 EUR | A | 예 | 재검증 | [La Sapienza Bar Marco Polo](https://www.uniroma1.it/sites/default/files/user/531/listino_prezzi_bar_marco_polo.pdf) |
 | ROM-FD-303 | 로마 | 라 사피엔자 대학 바 프로세코 1잔 | 2.5 EUR | A | 예 | 재검증 | [La Sapienza Bar Marco Polo](https://www.uniroma1.it/sites/default/files/user/531/listino_prezzi_bar_marco_polo.pdf) |
@@ -679,8 +672,8 @@
 | KUL-TR-201 | 쿠알라룸푸르 | LRT KL Sentral–KLCC 현금(토큰) | 2.4 MYR | A | 예 | 재검증 | [MyRapid 공식 통합 운임표(현금) 이미지](https://myrapid.com.my/wp-content/uploads/2022/10/INTEGRATED-FARE-TABLE_updated-06MAY21_Cash.png) |
 | KUL-TR-202 | 쿠알라룸푸르 | KL Sentral(LRT)–Bukit Bintang(모노레일) 현금 통합 운임 | 2.4 MYR | A | 조건부 | 조건부, 재검증 | [MyRapid 공식 통합 운임표(현금) 이미지](https://myrapid.com.my/wp-content/uploads/2022/10/INTEGRATED-FARE-TABLE_updated-06MAY21_Cash.png) |
 | KUL-TR-203 | 쿠알라룸푸르 | GoKL 시티버스(외국인) | 1 MYR | A | 예 | 재검증 | [쿠알라룸푸르 시청(DBKL) KLCCC 공식](https://klccc.dbkl.gov.my/gokl-2/) |
-| SEL-FD-101 | 서울 | 한솥 제육 비빔밥 | 6500 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [HANSOT 한솥](https://en.hsd.co.kr/Menu) |
-| SEL-FD-102 | 서울 | 한솥 김치볶음밥 | 4400 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [HANSOT 한솥](https://en.hsd.co.kr/Menu) |
+| SEL-FD-101 | 서울 | 한솥 제육 비빔밥 | 6500 KRW | A | 예 | 재검증 | [HANSOT 한솥](https://en.hsd.co.kr/Menu) |
+| SEL-FD-102 | 서울 | 한솥 김치볶음밥 | 4400 KRW | A | 예 | 재검증 | [HANSOT 한솥](https://en.hsd.co.kr/Menu) |
 | SEL-FD-103 | 서울 | 골드참치 점심 코스 B | 35000 KRW | A | 예 | 재검증 | [Goldtuna 골드참치](https://www.goldtuna.co.kr/en) |
 | SEL-SV-101 | 서울 | 서울마이소울 리본 모자 | 53000 KRW | A | 예 | 재검증 | [서울특별시 (Seoul My Soul Shop)](https://english.seoul.go.kr/the-cap-with-2-7-million-views-on-japanese-social-media-seoul-merch-wins-over-international-visitors/) |
 | SEL-SV-102 | 서울 | 서울굿즈 서울라면·서울짜장 4개 번들 | 5450 KRW | A | 예 | 재검증 | [서울특별시 (Seoul My Soul Shop)](https://love.seoul.go.kr/articles/10473) |
@@ -688,5 +681,5 @@
 
 ## 4. 교차 검수 현황
 
-`data/reviews/*.csv` 에서 읽은 판정: 일치 602건 · 불일치 41건 · 확인불가 174건.
+`data/reviews/*.csv` 에서 읽은 판정: 일치 618건 · 불일치 41건 · 확인불가 158건.
 아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

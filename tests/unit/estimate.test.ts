@@ -23,11 +23,11 @@ afterAll(() => {
 });
 
 describe('운영 스타일 구간', () => {
-  it('대략 계산용으로 좁은 구간을 쓴다(일반형 0.4~0.65)', () => {
-    expect(PROD_BANDS).toEqual({ budget: [0.15, 0.4], standard: [0.4, 0.65], comfort: [0.65, 0.9] });
+  it('보통 여행자 기준의 좁은 구간을 쓴다(일반형 0.5~0.72)', () => {
+    expect(PROD_BANDS).toEqual({ budget: [0.2, 0.4], standard: [0.5, 0.72], comfort: [0.75, 0.9] });
   });
-  it('여행 중 주문량 가정: 한 끼 배수 1.0/1.3/1.6, 간식 하루 1/2/3회, 첫날·마지막 날 80%', () => {
-    expect(PROD.mealItemFactor).toEqual({ budget: 1, standard: 1.3, comfort: 1.6 });
+  it('여행 중 주문량 가정: 한 끼 배수 1.15/1.5/2.0, 간식 하루 1/2/3회, 첫날·마지막 날 80%', () => {
+    expect(PROD.mealItemFactor).toEqual({ budget: 1.15, standard: 1.5, comfort: 2 });
     expect(PROD.snack).toEqual({ budget: 1, standard: 2, comfort: 3 });
     expect(PROD.edgeDayFactor).toBe(0.8);
   });

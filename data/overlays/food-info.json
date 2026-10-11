@@ -1134,5 +1134,35 @@
     "ko": "바삭하게 튀긴 작은 반죽 공에 대추야자 시럽을 뿌린 디저트",
     "en": "Crisp fried dough balls drizzled with date syrup",
     "ja": "揚げた小さな生地にデーツシロップをかけたデザート"
+  },
+  "hanoi:Bun Cha": {
+    "ko": "숯불에 구운 돼지고기와 완자를 새콤달콤한 느억맘 국물에 쌀국수와 찍어 먹는 하노이 대표 음식",
+    "en": "Grilled pork and patties in sweet-sour fish sauce broth with rice noodles, Hanoi's signature dish",
+    "ja": "炭火焼きの豚肉とつくねを甘酸っぱいヌクマムのたれでブンと食べるハノイ名物"
+  },
+  "hanoi:Pho Bo": {
+    "ko": "맑고 깊은 소뼈 육수에 쌀국수와 소고기를 넣은 베트남 쌀국수의 원조",
+    "en": "Beef noodle soup in clear, deep bone broth, born in Hanoi",
+    "ja": "澄んだ牛骨スープに米麺と牛肉を入れたベトナムのフォーの元祖"
+  },
+  "hanoi:Egg Coffee": {
+    "ko": "달걀노른자 크림을 진한 커피 위에 올린 하노이 명물 커피",
+    "en": "Strong coffee topped with whipped egg-yolk cream, a Hanoi café classic",
+    "ja": "濃いコーヒーに卵黄クリームをのせたハノイ名物のコーヒー"
+  },
+  "ho-chi-minh-city:Com Tam": {
+    "ko": "부서진 쌀로 지은 밥에 구운 돼지갈비·달걀을 올린 호치민 대표 덮밥",
+    "en": "Broken rice with grilled pork chop and egg, Saigon's everyday favorite",
+    "ja": "砕き米のご飯に焼いた豚スペアリブや卵をのせたホーチミンの定番"
+  },
+  "ho-chi-minh-city:Banh Mi": {
+    "ko": "바삭한 바게트에 고기·채소·소스를 채운 베트남식 샌드위치",
+    "en": "Crisp baguette filled with meats, pickled vegetables and herbs",
+    "ja": "パリッとしたバゲットに肉や野菜、ソースを挟んだベトナム風サンドイッチ"
+  },
+  "ho-chi-minh-city:Hu Tieu": {
+    "ko": "맑은 돼지뼈 국물에 쌀국수와 새우·돼지고기를 넣은 남부식 국수",
+    "en": "Southern-style noodle soup with pork, shrimp and clear pork broth",
+    "ja": "澄んだ豚骨スープに米麺と海老や豚肉を入れた南部のフーティウ"
   }
 }

@@ -34,6 +34,8 @@
 | 여수 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 전주 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 전주 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 하노이 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 호치민 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -532,6 +534,43 @@
 | GJU-AL-101 | 경주 | 계림주막 계림 생막걸리 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [계림주막 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1045912984/menu/list) |
 | GJU-AL-102 | 경주 | 계림주막 경주법주 쌀 막걸리 | 7000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [계림주막 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1045912984/menu/list) |
 | GJU-AL-103 | 경주 | 계림주막 장수 생막걸리 | 8000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [계림주막 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1045912984/menu/list) |
+| HAN-TR-101 | 하노이 | 하노이 메트로 2A호선(깟린–하동) 현금 1회권 | 9000~19000 VND | A | 예 | 재검증 | [Hanoi Metro 공식 운임표(이미지)](https://metrohanoi.vn/wp-content/uploads/2025/09/gia-ve-tuyen-2-1024x768.jpg) |
+| HAN-TR-102 | 하노이 | 하노이 메트로 2A호선 1일권 | 40000 VND | A | 예 | 재검증 | [Hanoi Metro 공식 운임표(이미지)](https://metrohanoi.vn/wp-content/uploads/2025/09/gia-ve-tuyen-2-1024x768.jpg) |
+| HAN-TR-103 | 하노이 | 빈버스 E04 스마트시티–빈컴 롱비엔 | 12000 VND | A | 예 | 재검증 | [VinBus 공식 노선 조회(하노이)](https://maps.vinbus.vn/hn) |
+| HAN-TR-104 | 하노이 | 하노이 시내버스 08A 롱비엔–동미 | 10000 VND | A | 조건부 | 조건부, 재검증 | [VinBus 공식 노선 조회(하노이, 'Buýt thành phố' 목록)](https://maps.vinbus.vn/hn) |
+| HAN-SN-101 | 하노이 | 하이랜드 커피 핀 쓰어 다 | 29000 VND | A | 조건부 | 조건부, 재검증 | [Highlands Coffee 공식 메뉴(전통 커피)](https://www.highlandscoffee.com.vn/vn/ca-phe-truyen-thong.html) |
+| HAN-SN-102 | 하노이 | 하이랜드 커피 아메리카노 | 45000 VND | A | 조건부 | 조건부, 재검증 | [Highlands Coffee 공식 메뉴(전통 커피)](https://www.highlandscoffee.com.vn/vn/ca-phe-truyen-thong.html) |
+| HAN-SN-103 | 하노이 | 하이랜드 커피 반미 꾸에 | 19000 VND | A | 조건부 | 조건부, 재검증 | [Highlands Coffee 공식 메뉴(반미 꾸에)](https://www.highlandscoffee.com.vn/vn/banh-mi-que.html) |
+| HAN-AT-101 | 하노이 | 문묘-국자감 표준 입장권(성인) | 70000 VND | A | 예 | 재검증 | [문묘-국자감 공식 방문 안내](https://vanmieu.gov.vn/vi/introduction/visitor-information) |
+| HAN-AT-102 | 하노이 | 문묘-국자감 우대 입장권(학생) | 35000 VND | A | 조건부 | 조건부, 재검증 | [문묘-국자감 공식 방문 안내](https://vanmieu.gov.vn/vi/introduction/visitor-information) |
+| HAN-AT-103 | 하노이 | 호아로 수용소 유적 입장료 | 50000 VND | A | 예 | 재검증 | [호아로 수용소 유적 공식 공지](https://hoalo.vn/Articles/12/26017/thong-bao-thay-%C4%91oi-phi-tham-quan-ban-ngay.html) |
+| HAN-AT-104 | 하노이 | 호아로 수용소 유적 입장료(16세 미만) | 0 VND | A | 예 | 재검증 | [호아로 수용소 유적 공식 공지](https://hoalo.vn/Articles/12/26017/thong-bao-thay-%C4%91oi-phi-tham-quan-ban-ngay.html) |
+| HAN-AT-105 | 하노이 | 탕롱 황성 입장료 | 100000 VND | A | 예 | 재검증 | [탕롱 황성 공식 Ticket Price](https://hoangthanhthanglong.vn/en/ticket-price/) |
+| HAN-FD-101 | 하노이 | KFC 베트남 콤보 껌 가 꾸아이 솔로(닭구이 덮밥+펩시) | 59000 VND | A | 조건부 | 조건부, 재검증 | [KFC Việt Nam 공식 메뉴](https://kfcvietnam.com.vn/menu) |
+| HAN-FD-102 | 하노이 | KFC 베트남 콤보 버거 징거(버거+감자튀김+펩시) | 79000 VND | A | 조건부 | 조건부, 재검증 | [KFC Việt Nam 공식 메뉴](https://kfcvietnam.com.vn/menu) |
+| HAN-FD-103 | 하노이 | 롯데리아 베트남 콤보 버거 똠(새우버거 콤보) | 85000~93000 VND | A | 조건부 | 조건부, 재검증 | [Lotteria Việt Nam 공식 메뉴](https://www.lotteria.vn/menu) |
+| HAN-FD-104 | 하노이 | Pizza 4P's 마르게리타 피자 | 168000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
+| HAN-FD-105 | 하노이 | Pizza 4P's 볼로네제 스파게티(훈제 부라타) | 221000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
+| HAN-SN-104 | 하노이 | 롯데리아 베트남 펩시(M) | 15000 VND | A | 조건부 | 조건부, 재검증 | [Lotteria Việt Nam 공식 메뉴](https://www.lotteria.vn/menu) |
+| HAN-AL-101 | 하노이 | Pizza 4P's 오리지널 세션 IPA | 95000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
+| HAN-AL-102 | 하노이 | Pizza 4P's 유자 위트 맥주 | 105000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
+| HAN-AL-103 | 하노이 | Pizza 4P's 레드 상그리아(글라스) | 109000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
+| SGN-FD-101 | 호치민 | KFC 베트남 콤보 껌 가 꾸아이 솔로 | 59000 VND | A | 조건부 | 조건부, 재검증 | [KFC Việt Nam 공식 메뉴](https://kfcvietnam.com.vn/menu) |
+| SGN-FD-102 | 호치민 | KFC 베트남 콤보 버거 징거 | 79000 VND | A | 조건부 | 조건부, 재검증 | [KFC Việt Nam 공식 메뉴](https://kfcvietnam.com.vn/menu) |
+| SGN-FD-103 | 호치민 | 롯데리아 베트남 콤보 버거 똠 | 85000~93000 VND | A | 조건부 | 조건부, 재검증 | [Lotteria Việt Nam 공식 메뉴](https://www.lotteria.vn/menu) |
+| SGN-FD-104 | 호치민 | Pizza 4P's 마르게리타 피자 | 168000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
+| SGN-FD-105 | 호치민 | Pizza 4P's 볼로네제 스파게티(훈제 부라타) | 221000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
+| SGN-SN-101 | 호치민 | 하이랜드 커피 핀 쓰어 다 | 29000 VND | A | 조건부 | 조건부, 재검증 | [Highlands Coffee 공식 메뉴(전통 커피)](https://www.highlandscoffee.com.vn/vn/ca-phe-truyen-thong.html) |
+| SGN-SN-102 | 호치민 | 하이랜드 커피 반미 꾸에 | 19000 VND | A | 조건부 | 조건부, 재검증 | [Highlands Coffee 공식 메뉴(반미 꾸에)](https://www.highlandscoffee.com.vn/vn/banh-mi-que.html) |
+| SGN-SN-103 | 호치민 | Pizza 4P's 코카콜라 | 42000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
+| SGN-AL-101 | 호치민 | Pizza 4P's 오리지널 세션 IPA | 95000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
+| SGN-AL-102 | 호치민 | Pizza 4P's 유자 위트 맥주 | 105000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
+| SGN-AL-103 | 호치민 | Pizza 4P's 레드 상그리아(글라스) | 109000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
+| SGN-TR-101 | 호치민 | 메트로 1호선 벤탄–수오이띠엔(전 구간) | 20000 VND | A | 조건부 | 조건부, 재검증 | [VinBus 공식 노선 조회(호치민)](https://maps.vinbus.vn/hcm) |
+| SGN-TR-102 | 호치민 | 호치민 시내버스 03번 벤탄–탄쑤언 | 6000 VND | A | 조건부 | 조건부, 재검증 | [VinBus 공식 노선 조회(호치민, 'Buýt thành phố' 목록)](https://maps.vinbus.vn/hcm) |
+| SGN-TR-103 | 호치민 | 빈버스 D4 빈홈즈 그랜드파크–사이공 버스터미널 | 7000 VND | A | 예 | 재검증 | [VinBus 공식 노선 조회(호치민)](https://maps.vinbus.vn/hcm) |
+| SGN-AT-101 | 호치민 | 통일궁(독립궁) 제한 입장권(18~59세) | 40000 VND | A | 예 | 재검증 | [통일궁 공식 관람 시간·요금](https://dinhdoclap.gov.vn/gio-tham-quan-va-gia-ve-moi-nhat-ap-dung-tu-01-8-2025-2/) |
+| SGN-AT-102 | 호치민 | 통일궁(독립궁) 제한 입장권(6~17세) | 10000 VND | A | 예 | 재검증 | [통일궁 공식 관람 시간·요금](https://dinhdoclap.gov.vn/gio-tham-quan-va-gia-ve-moi-nhat-ap-dung-tu-01-8-2025-2/) |
 | HKG-FD-101 | 홍콩 | 페어우드 구이고기 덮밥(1종)+따뜻한 음료 | 53 HKD | A | 예 | 재검증 | [Fairwood 大快活 공식](https://www.fairwood.com.hk/en/food_menus) |
 | HKG-FD-102 | 홍콩 | 페어우드 하이난 치킨라이스 세트 | 59 HKD | A | 예 | 재검증 | [Fairwood 大快活 공식](https://www.fairwood.com.hk/en/food_menus) |
 | HKG-FD-103 | 홍콩 | 프리츠 리치맨스 버거(감자튀김 포함) | 195 HKD | A | 예 | 재검증 | [FRITES Belgium on Tap 공식 메뉴 PDF](https://frites.com/wp-content/uploads/2026/03/FHK_ALC_2026.pdf) |

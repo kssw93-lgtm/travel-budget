@@ -17,7 +17,7 @@ export const MODEL = {
    * 한 끼 단가 = 대표 메뉴 1개 가격 × 이 배수. 여행 중에는 메뉴 하나만 먹기보다 곁들임·음료·나눠 먹을 메뉴를 더 시키는 일이 많아
    * 스타일별로 추가 주문을 반영한다(가격이 아니라 주문량 가정, 2026-10-11).
    */
-  mealItemFactor: { budget: 1.0, standard: 1.3, comfort: 1.6 } as Record<TravelStyle, number>,
+  mealItemFactor: { budget: 1.15, standard: 1.5, comfort: 2.0 } as Record<TravelStyle, number>,
   /**
    * 바스켓별 이용 횟수 가정(가격이 아니라 사용 방식).
    * pass·ride·meal·snack·attraction 은 1인 하루 기준.
@@ -36,12 +36,13 @@ export const MODEL = {
   } as Record<Basket, Record<TravelStyle, number>>,
   /**
    * 여행 스타일별로 가격 분포(표본 끝점 정렬)에서 읽는 분위 구간.
-   * 대략적인 체류비 범위가 목적이라 구간을 좁게 둔다(2026-10-11: 일반형 0.25~0.75 → 0.4~0.65, 최소·최대 차이 축소).
+   * 최저가 계산기가 아니라 "보통 여행자가 실제로 쓰는 금액"이 목적이라, 일반형은 가격 분포의 중간~위쪽(50~72%)을 읽고
+   * 구간을 좁게 둔다(2026-10-11: 일반형 0.25~0.75 → 0.5~0.72).
    */
   styleBand: {
-    budget: [0.15, 0.4],
-    standard: [0.4, 0.65],
-    comfort: [0.65, 0.9],
+    budget: [0.2, 0.4],
+    standard: [0.5, 0.72],
+    comfort: [0.75, 0.9],
   } as Record<TravelStyle, [number, number]>,
   /** 방문객이 해당하지 않는 거주자 전용 대상(`대상` 열 값) */
   excludedTargets: ['EEA'],

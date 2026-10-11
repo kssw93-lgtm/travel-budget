@@ -167,7 +167,7 @@
     "nameEn": "Hanoi",
     "currency": "VND",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "ho-chi-minh-city",
@@ -177,7 +177,7 @@
     "nameEn": "Ho Chi Minh City",
     "currency": "VND",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "chiang-mai",

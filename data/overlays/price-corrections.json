@@ -114,5 +114,12 @@
     "sourceUrl": "https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets",
     "checkedAt": "2026-10-12",
     "reason": "GPT 교차 검수: 6~17세 €9는 월~금만, 주말·공휴일은 €16."
+  },
+  "HNL-SN-102": {
+    "min": 6.25,
+    "max": 6.5,
+    "sourceUrl": "https://www.rainbowdrivein.com/menu-kapahulu",
+    "checkedAt": "2026-10-12",
+    "reason": "GPT 교차 검수: 공식 메뉴 Small Slush Float $6.25, Medium $6.50(이전 $5)."
   }
 }

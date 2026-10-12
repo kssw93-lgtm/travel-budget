@@ -395,7 +395,7 @@
 | GUM-FD-104 | 괌 | 피카스 카페 로코모코 | 19 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
 | GUM-FD-105 | 괌 | 피카스 카페 티낙탁 버거(사이드 포함) | 18 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
 | GUM-FD-106 | 괌 | 피카스 카페 콘비프 어니언 볶음밥 | 19 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
-| GUM-SN-101 | 괌 | 피카스 카페 스팸 무스비 | 4.5 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
+| GUM-SN-101 | 괌 | 피카스 카페 스팸 무스비 | 4.5 USD | A | 예 | 재검증, 검수: 원문 확인 불가 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
 | CNX-AL-301 | 치앙마이 | 리버사이드 싱하 생맥주 0.3L | 90 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴(Drinks·Beer)](https://riverside1984.com/menu) |
 | CNX-AL-302 | 치앙마이 | 리버사이드 창 생맥주 0.3L | 85 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴(Drinks·Beer)](https://riverside1984.com/menu) |
 | CNX-AL-303 | 치앙마이 | 리버사이드 창 병맥주(소) | 75 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴(Drinks·Beer)](https://riverside1984.com/menu) |
@@ -888,7 +888,7 @@
 | HNL-FD-104 | 호놀룰루 | 듀크스 와이키키 치즈버거(감자튀김 포함, 런치) | 23.5 USD | A | 예 | 재검증, 세금·서비스료 별도 | [Duke's Waikiki 공식 런치 메뉴 PDF](https://www.dukeswaikiki.com/menus/) |
 | HNL-FD-105 | 호놀룰루 | 듀크스 와이키키 피시 타코(런치) | 29 USD | A | 예 | 재검증 | [Duke's Waikiki 공식 런치 메뉴 PDF](https://www.dukeswaikiki.com/menus/) |
 | HNL-SN-101 | 호놀룰루 | 레인보우 드라이브인 감자튀김 | 4.95 USD | A | 예 | 재검증 | [Rainbow Drive-In 공식 메뉴(Kapahulu)](https://www.rainbowdrivein.com/menu-kapahulu) |
-| HNL-SN-102 | 호놀룰루 | 레인보우 드라이브인 슬러시 플로트 | 5 USD | A | 예 | 재검증 | [Rainbow Drive-In 공식 메뉴(Kapahulu)](https://www.rainbowdrivein.com/menu-kapahulu) |
+| HNL-SN-102 | 호놀룰루 | 레인보우 드라이브인 슬러시 플로트 | 6.25~6.5 USD | A | 예 | 재검증 | [Rainbow Drive-In 공식 메뉴(Kapahulu)](https://www.rainbowdrivein.com/menu-kapahulu) |
 | HNL-AL-101 | 호놀룰루 | 듀크스 와이키키 롱보드 라거 생맥주 16oz | 11 USD | A | 예 | 재검증 | [Duke's Waikiki 공식 런치 메뉴 PDF](https://www.dukeswaikiki.com/menus/) |
 | HNL-AL-102 | 호놀룰루 | 듀크스 와이키키 쿠어스 라이트 생맥주 16oz | 9 USD | A | 예 | 재검증 | [Duke's Waikiki 공식 런치 메뉴 PDF](https://www.dukeswaikiki.com/menus/) |
 | HNL-AL-103 | 호놀룰루 | 듀크스 와이키키 마이타이 | 18 USD | A | 예 | 재검증 | [Duke's Waikiki 공식 런치 메뉴 PDF](https://www.dukeswaikiki.com/menus/) |
@@ -1295,5 +1295,5 @@
 
 ## 4. 교차 검수 현황
 
-`data/reviews/*.csv` 에서 읽은 판정: 일치 1029건 · 불일치 32건 · 확인불가 103건.
+`data/reviews/*.csv` 에서 읽은 판정: 일치 1096건 · 불일치 30건 · 확인불가 104건.
 아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

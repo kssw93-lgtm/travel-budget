@@ -16027,7 +16027,13 @@
     "applied": "게시일 없음",
     "sourceName": "Pika's Cafe 공식 All Day Menu",
     "sourceUrl": "https://www.pikascafeguam.com/menu",
-    "note": "표기는 원문 그대로 'Masubi'. 더블체크 완료 · 원문: Spam Masubi $4.50 Spam Masubi with Egg $6.50 · 수집: prices-chrome-2026-10-12.csv"
+    "note": "표기는 원문 그대로 'Masubi'. 더블체크 완료 · 원문: Spam Masubi $4.50 Spam Masubi with Egg $6.50 · 수집: prices-chrome-2026-10-12.csv",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "https://www.pikascafeguam.com/menu · The official all-day menu page opened twice and does not list Spam Musubi or a price.",
+      "reportedAt": "2026-10-12"
+    }
   },
   {
     "id": "CNX-AL-301",
@@ -28478,8 +28484,8 @@
     "subtype": "음료",
     "nameKo": "레인보우 드라이브인 슬러시 플로트",
     "nameEn": "Rainbow Drive-In Slush Float",
-    "min": 5,
-    "max": 5,
+    "min": 6.25,
+    "max": 6.5,
     "currency": "USD",
     "unit": "1잔",
     "priceType": "정가",
@@ -28491,7 +28497,7 @@
     "applied": "게시일 없음",
     "sourceName": "Rainbow Drive-In 공식 메뉴(Kapahulu)",
     "sourceUrl": "https://www.rainbowdrivein.com/menu-kapahulu",
-    "note": "1회 확인 · 원문: SLUSH FLOAT Cool and refreshing strawberry flavored drink topped with a scoop of vanilla ice cream. $5.00 · 수집: prices-honolulu-2026-10-12.csv"
+    "note": "1회 확인 · 원문: SLUSH FLOAT Cool and refreshing strawberry flavored drink topped with a scoop of vanilla ice cream. $5.00 · 수집: prices-honolulu-2026-10-12.csv · 가격 정정(2026-10-12): GPT 교차 검수: 공식 메뉴 Small Slush Float $6.25, Medium $6.50(이전 $5)."
   },
   {
     "id": "HNL-AL-101",
@@ -32535,8 +32541,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://shakeshack.com/location/theater-district-ny · 매장 페이지에 가격 표기 없음(가격은 주문 화면 안) · Claude 크롬 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
+      "detail": "https://shakeshack.com/location/theater-district-ny · Official location page opened twice but exposes no itemized ShackBurger price; its order link exits to an independent order provider, which was excluded.",
+      "reportedAt": "2026-10-12"
     }
   },
   {

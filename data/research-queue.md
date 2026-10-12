@@ -32,7 +32,7 @@
 | 여수 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 전주 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 전주 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
-| 하노이 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 하노이 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 호치민 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 치앙마이 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 치앙마이 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
@@ -352,6 +352,17 @@
 | CNX-AT-106 | 치앙마이 | 라차프륵 왕립공원(외국인 아동) | 150 THB | A | 예 | 재검증 | [Royal Park Rajapruek 공식 요금 안내(태국어)](https://www.royalparkrajapruek.org/Admission) |
 | CNX-SN-101 | 치앙마이 | 리버사이드 초콜릿 선데 | 120 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴](https://riverside1984.com/menu) |
 | HNL-SN-103 | 호놀룰루 | 레너즈 베이커리 말라사다 | 2.25 USD | A | 예 | 재검증 | [Leonard's Bakery 공식 메뉴](https://leonardshawaii.com/menu/malasadas-and-doughnuts/) |
+| KUL-AT-901 | 쿠알라룸푸르 | 선웨이 라군 1일 입장권(Non-MyKad) | 200~268 MYR | A | 조건부 | 조건부, 재검증 | [Sunway Lagoon 공식 Tickets](https://sunwaylagoon.com/etickets/) |
+| HAN-TR-105 | 하노이 | 하노이 메트로 3.1호선(뇬–하노이역) 현금 1회권 | 9000~15000 VND | A | 예 | 재검증 | [Hanoi Metro 공식 운임표(이미지)](https://metrohanoi.vn/wp-content/uploads/2025/09/gia-ve-tuyen-3-1024x768.jpg) |
+| SGN-AT-103 | 호치민 | 전쟁증적박물관 일반 입장권 | 60000 VND | A | 예 | 재검증 | [전쟁증적박물관 공식 Tham quan](https://baotangchungtichchientranh.vn/vi/tham-quan) |
+| SGN-AT-104 | 호치민 | 전쟁증적박물관 무료 관람(학생 등) | 0 VND | A | 조건부 | 조건부, 재검증 | [전쟁증적박물관 공식 Tham quan](https://baotangchungtichchientranh.vn/vi/tham-quan) |
+| HNL-AT-107 | 호놀룰루 | 이올라니 궁전 셀프 오디오 투어(성인 18세 이상) | 28 USD | A | 예 | 재검증 | [Iolani Palace 공식 Self-led Audio Tours](https://www.iolanipalace.org/visit/tours-admission/self-led-audio-tours/) |
+| HNL-AT-108 | 호놀룰루 | 이올라니 궁전 셀프 오디오 투어(아동 5~12세) | 13 USD | A | 예 | 재검증 | [Iolani Palace 공식 Self-led Audio Tours](https://www.iolanipalace.org/visit/tours-admission/self-led-audio-tours/) |
+| HNL-AT-109 | 호놀룰루 | 이올라니 궁전 도슨트 가이드 투어(성인 18세 이상) | 34 USD | A | 예 | 재검증 | [Iolani Palace 공식 Docent-Led Tours](https://www.iolanipalace.org/visit/tours-admission/guided-tours/) |
+| PRG-AT-109 | 프라하 | 페트르진 전망대 기본 입장권 | 250 CZK | A | 예 | 재검증 | [Prague City Tourism 공식(prague.eu)](https://prague.eu/cs/objevujte/petrinska-rozhledna/) |
+| PRG-AT-110 | 프라하 | 페트르진 전망대 할인 입장권(6~15세) | 170 CZK | A | 예 | 재검증 | [Prague City Tourism 공식(prague.eu)](https://prague.eu/cs/objevujte/petrinska-rozhledna/) |
+| HAN-TR-106 | 하노이 | 하노이 메트로 3.1호선 1일권 | 40000 VND | A | 예 | 재검증 | [Hanoi Metro 공식 운임표(이미지)](https://metrohanoi.vn/wp-content/uploads/2025/09/gia-ve-tuyen-3-1024x768.jpg) |
+| HNL-AT-110 | 호놀룰루 | 이올라니 궁전 도슨트 가이드 투어(아동 5~12세) | 16 USD | A | 예 | 재검증 | [Iolani Palace 공식 Docent-Led Tours](https://www.iolanipalace.org/visit/tours-admission/guided-tours/) |
 | GUM-FD-104 | 괌 | 피카스 카페 로코모코 | 19 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
 | GUM-FD-105 | 괌 | 피카스 카페 티낙탁 버거(사이드 포함) | 18 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
 | GUM-FD-106 | 괌 | 피카스 카페 콘비프 어니언 볶음밥 | 19 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |

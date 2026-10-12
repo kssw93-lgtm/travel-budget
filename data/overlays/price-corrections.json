@@ -93,5 +93,26 @@
     "sourceUrl": "https://www.mtr.com.hk/en/customer/tickets/tf_index.html",
     "checkedAt": "2026-10-12",
     "reason": "GPT 교차 검수: MTR 요금표 홍콩역 성인 편도 HK$120(130은 당일 왕복이라 편도 범위에서 뺌)."
+  },
+  "BCN-AT-004": {
+    "min": 17,
+    "max": 18,
+    "sourceUrl": "https://santpaubarcelona.org/en/prepara-la-teva-visita/",
+    "checkedAt": "2026-10-12",
+    "reason": "GPT 교차 검수: 자유관람 일반권 14:00까지 €18, 14:00 이후 €17(시간대별)."
+  },
+  "BCN-AT-013": {
+    "min": 11.9,
+    "max": 12.6,
+    "sourceUrl": "https://santpaubarcelona.org/en/prepara-la-teva-visita/",
+    "checkedAt": "2026-10-12",
+    "reason": "GPT 교차 검수: 12~24세 감면권 14:00까지 €12.60, 이후 €11.90."
+  },
+  "MUC-AT-302": {
+    "min": 9,
+    "max": 16,
+    "sourceUrl": "https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets",
+    "checkedAt": "2026-10-12",
+    "reason": "GPT 교차 검수: 6~17세 €9는 월~금만, 주말·공휴일은 €16."
   }
 }

@@ -191,11 +191,9 @@
 | PAR-AT-014 | 파리 | 파리 시립현대미술관 상설전시 무료 입장 | 0 EUR | B | 예 | B등급 | [Paris Musées](https://parismusees.paris.fr/fr/votre-visite/tarifs) |
 | PAR-AT-015 | 파리 | 빅토르 위고의 집 상설전시 무료 입장 | 0 EUR | B | 예 | B등급 | [Paris Musées](https://parismusees.paris.fr/fr/votre-visite/tarifs) |
 | BCN-AT-003 | 바르셀로나 | 몬주익 성 일반 입장권 | 12 EUR | B | 예 | B등급 | [Castell de Montjuïc / Barcelona City Council](https://guia.barcelona.cat/en/detall/castell-de-montjuic_99077121755.html) |
-| BCN-AT-004 | 바르셀로나 | 산트 파우 모더니즘 건축단지 일반 자유관람 | 18 EUR | A | 예 | 검수: 교차 검수 불일치 | [Recinte Modernista de Sant Pau](https://santpaubarcelona.org/en/prepara-la-teva-visita/) |
 | BCN-AT-008 | 바르셀로나 | 피카소 미술관 일반 온라인 입장권 | 12 EUR | B | 예 | B등급 | [Museu Picasso Barcelona](https://museupicassobcn.cat/index.php/en/plan-your-visit/buy-tickets-and-opening-hours) |
 | BCN-AT-011 | 바르셀로나 | 몬주익 성 만 8~12세 입장권 | 8 EUR | B | 예 | B등급 | [Castell de Montjuïc / Barcelona City Council](https://guia.barcelona.cat/en/detall/castell-de-montjuic_99077121755.html) |
 | BCN-AT-012 | 바르셀로나 | 몬주익 성 만 8세 미만 무료 입장 | 0 EUR | B | 예 | B등급 | [Castell de Montjuïc / Barcelona City Council](https://guia.barcelona.cat/en/detall/castell-de-montjuic_99077121755.html) |
-| BCN-AT-013 | 바르셀로나 | 산트 파우 만 12~24세 감면 입장권 | 12.6 EUR | A | 예 | 검수: 교차 검수 불일치 | [Recinte Modernista de Sant Pau](https://santpaubarcelona.org/en/prepara-la-teva-visita/) |
 | BCN-AT-018 | 바르셀로나 | 피카소 미술관 만 18세 미만 무료 입장 | 0 EUR | B | 예 | B등급 | [Museu Picasso Barcelona](https://museupicassobcn.cat/index.php/en/plan-your-visit/buy-tickets-and-opening-hours) |
 | NYC-AT-001 | 뉴욕 | 서밋 원 밴더빌트 일반 입장권(최저 온라인가) | 44 USD | A | 예 | 시작가 표기 | [SUMMIT One Vanderbilt](https://summitov.com/tickets/) |
 | NYC-AT-003 | 뉴욕 | 브롱크스 동물원 일반 입장권(최저 Flex 요금) | 37.7 USD | A | 예 | 시작가 표기 | [Bronx Zoo](https://bronxzoo.com/plan-your-visit/hours-and-rates) |
@@ -421,7 +419,7 @@
 | SPN-AT-101 | 사이판 | 마나가하 섬 상륙료(비거주자) | 5 USD | A | 조건부 | 조건부, 재검증 | [CNMI Law Revision Commission – Commonwealth Code 2 CMC § 1621](https://cnmilaw.gov/commonwealth-code/1598) |
 | BUD-AT-301 | 부다페스트 | 세체니 온천 1일권(라커 포함) | 13200~15800 HUF | A | 예 | 재검증 | [Széchenyi Thermal Bath](https://www.szechenyibath.hu/prices) |
 | MUC-AT-301 | 뮌헨 | 독일박물관 1일권(성인) | 16 EUR | A | 예 | 재검증 | [Deutsches Museum](https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets) |
-| MUC-AT-302 | 뮌헨 | 독일박물관 1일권(아동·청소년 6~17세) | 9 EUR | A | 예 | 재검증 | [Deutsches Museum](https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets) |
+| MUC-AT-302 | 뮌헨 | 독일박물관 1일권(아동·청소년 6~17세) | 9~16 EUR | A | 예 | 재검증 | [Deutsches Museum](https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets) |
 | MUC-AT-303 | 뮌헨 | 님펜부르크 궁전 입장권(성인) | 10 EUR | A | 예 | 재검증 | [Bavarian Palace Administration – Nymphenburg](https://www.schloss-nymphenburg.de/englisch/tourist/admiss.htm) |
 | MUC-AT-304 | 뮌헨 | 님펜부르크 궁전 입장권(18세 미만) | 0 EUR | A | 예 | 재검증 | [Bavarian Palace Administration – Nymphenburg](https://www.schloss-nymphenburg.de/englisch/tourist/admiss.htm) |
 | LIS-AT-301 | 리스본 | 발견기념비 전망대·전시·영상 입장권(성인) | 10 EUR | A | 예 | 재검증 | [Padrão dos Descobrimentos (Lisboa Cultura / EGEAC)](https://padraodosdescobrimentos.pt/en/tickets/) |

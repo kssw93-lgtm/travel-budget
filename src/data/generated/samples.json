@@ -9582,7 +9582,7 @@
     "subtype": "박물관",
     "nameKo": "산트 파우 모더니즘 건축단지 일반 자유관람",
     "nameEn": "Sant Pau Art Nouveau Site Self-Guided Admission",
-    "min": 18,
+    "min": 17,
     "max": 18,
     "currency": "EUR",
     "unit": "성인 1인 1회",
@@ -9591,18 +9591,12 @@
     "grade": "A",
     "modelUse": "yes",
     "status": "확정 1차",
-    "checkedAt": "2026-10-04",
+    "checkedAt": "2026-10-12",
     "applied": "2026-10-04 공식 요금표 조회(14시 전)",
     "sourceName": "Recinte Modernista de Sant Pau",
     "sourceUrl": "https://santpaubarcelona.org/en/prepara-la-teva-visita/",
-    "note": "공식 일반 자유관람 요금: 14시 이전 €18, 이후 €17. 기록값은 14시 이전 일반권.",
-    "nameJa": "サン・パウ病院 入場券（大人）",
-    "review": {
-      "flag": "교차 검수 불일치",
-      "flagEn": "cross-check mismatch",
-      "detail": "확인 가격 €18 (until 2 PM); €17 (after 2 PM) · https://santpaubarcelona.org/en/prepara-la-teva-visita/ · 현재 셀프 관람 일반요금은 시간대별 18€/17€입니다. 표본은 18€ 단일값으로 저장되어 있어 오후 2시 이후 금액이 반영되지 않았습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "공식 일반 자유관람 요금: 14시 이전 €18, 이후 €17. 기록값은 14시 이전 일반권. · 가격 정정(2026-10-12): GPT 교차 검수: 자유관람 일반권 14:00까지 €18, 14:00 이후 €17(시간대별).",
+    "nameJa": "サン・パウ病院 入場券（大人）"
   },
   {
     "id": "BCN-AT-005",
@@ -9813,7 +9807,7 @@
     "subtype": "박물관",
     "nameKo": "산트 파우 만 12~24세 감면 입장권",
     "nameEn": "Sant Pau Reduced Admission (Age 12-24)",
-    "min": 12.6,
+    "min": 11.9,
     "max": 12.6,
     "currency": "EUR",
     "unit": "아동 1인",
@@ -9822,18 +9816,12 @@
     "grade": "A",
     "modelUse": "yes",
     "status": "확정 1차",
-    "checkedAt": "2026-10-04",
+    "checkedAt": "2026-10-12",
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Recinte Modernista de Sant Pau",
     "sourceUrl": "https://santpaubarcelona.org/en/prepara-la-teva-visita/",
-    "note": "공식 청년 감면은 만 12~24세; 학교 학생 만 12세 미만은 무료.",
-    "nameJa": "サン・パウ病院 割引入場券（12〜24歳）",
-    "review": {
-      "flag": "교차 검수 불일치",
-      "flagEn": "cross-check mismatch",
-      "detail": "확인 가격 Self-guided reduced rate: €12.60 (until 2 PM), €11.90 (after 2 PM) · https://santpaubarcelona.org/en/prepara-la-teva-visita/ · 공식 감면 대상인 12–24세는 시간대별 12.60€/11.90€입니다. 표본은 12.60€ 단일값으로 저장되어 오후 2시 이후 금액이 누락됐습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "공식 청년 감면은 만 12~24세; 학교 학생 만 12세 미만은 무료. · 가격 정정(2026-10-12): GPT 교차 검수: 12~24세 감면권 14:00까지 €12.60, 이후 €11.90.",
+    "nameJa": "サン・パウ病院 割引入場券（12〜24歳）"
   },
   {
     "id": "BCN-AT-014",
@@ -16681,7 +16669,7 @@
     "nameKo": "독일박물관 1일권(아동·청소년 6~17세)",
     "nameEn": "Deutsches Museum Day ticket (Children and teenagers 6–17)",
     "min": 9,
-    "max": 9,
+    "max": 16,
     "currency": "EUR",
     "unit": "아동 1인",
     "priceType": "정가",
@@ -16693,7 +16681,7 @@
     "applied": "게시일 없음",
     "sourceName": "Deutsches Museum",
     "sourceUrl": "https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets",
-    "note": "같은 사이트 가족 방문 안내 페이지의 검색 요약에는 6세 이상 €8로 적혀 있어 요금 페이지 값(€9)을 따름. 1회 확인 · 원문: Discounted – only with valid ID Day ticket €9 Children and teenagers (aged 6 to 17) · 수집: prices-chrome-attractions-2026-10-12.csv"
+    "note": "같은 사이트 가족 방문 안내 페이지의 검색 요약에는 6세 이상 €8로 적혀 있어 요금 페이지 값(€9)을 따름. 1회 확인 · 원문: Discounted – only with valid ID Day ticket €9 Children and teenagers (aged 6 to 17) · 수집: prices-chrome-attractions-2026-10-12.csv · 가격 정정(2026-10-12): GPT 교차 검수: 6~17세 €9는 월~금만, 주말·공휴일은 €16."
   },
   {
     "id": "MUC-AT-303",

@@ -270,37 +270,37 @@
 | BCN-AT-103 | 바르셀로나 | 구엘 공원 일반 입장권 | 18 EUR | A | 예 | 재검증 | [Park Guell Official Website](https://parkguell.barcelona/en/planning-your-visit/prices-and-times) |
 | BCN-AT-104 | 바르셀로나 | 카사 밀라 라 페드레라 일반 입장권 | 29 EUR | A | 예 | 재검증 | [La Pedrera Official Website](https://www.lapedrera.com/en/tickets/) |
 | BCN-AT-105 | 바르셀로나 | 카사 바트요 일반 입장권 | 29 EUR | A | 예 | 재검증 | [Casa Batllo Official Website](https://www.casabatllo.es/en/online-tickets/) |
-| PUS-FD-760 | 부산 | 해목 히츠마부시 | 39000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 해목 해운대점](https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90) |
-| PUS-FD-761 | 부산 | 해목 카이센동 | 37000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 해목 해운대점](https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90) |
-| PUS-FD-762 | 부산 | 해목 참치+네기도로 덮밥 | 23000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 해목 해운대점](https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90) |
-| PUS-FD-763 | 부산 | 해목 어린이 장어 덮밥 | 11000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 해목 해운대점](https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90) |
-| PUS-FD-764 | 부산 | 수변최고돼지국밥 고기국밥 | 11000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 수변최고돼지국밥 민락](https://map.naver.com/p/search/%EC%88%98%EB%B3%80%EC%B5%9C%EA%B3%A0%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5%20%EB%AF%BC%EB%9D%BD) |
-| PUS-FD-765 | 부산 | 수변최고돼지국밥 항정국밥 | 13000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 수변최고돼지국밥 민락](https://map.naver.com/p/search/%EC%88%98%EB%B3%80%EC%B5%9C%EA%B3%A0%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5%20%EB%AF%BC%EB%9D%BD) |
-| PUS-FD-766 | 부산 | 신발원 쿵푸면 | 5900 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 신발원](https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0) |
-| PUS-SN-767 | 부산 | 신발원 고기만두 (1인분 4개) | 4800 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 신발원](https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0) |
-| PUS-SN-768 | 부산 | 신발원 수제찐빵 | 3800 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 신발원](https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0) |
-| PUS-SN-776 | 부산 | 해운대명품호떡 씨앗호떡 | 2500 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 해운대명품호떡](https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1) |
-| PUS-SN-777 | 부산 | 해운대명품호떡 꿀호떡 | 2000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 해운대명품호떡](https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1) |
-| PUS-SN-778 | 부산 | 부곡분식 쌀떡볶이 | 3000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 부곡분식](https://map.naver.com/p/search/%EB%B6%80%EA%B3%A1%EB%B6%84%EC%8B%9D) |
-| PUS-SN-779 | 부산 | 부곡분식 오뎅 (4개) | 2000~4000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 부곡분식](https://map.naver.com/p/search/%EB%B6%80%EA%B3%A1%EB%B6%84%EC%8B%9D) |
-| PUS-SN-780 | 부산 | 스탠다드번 아메리카노 | 5500 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 스탠다드번 해운대](https://map.naver.com/p/search/%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%EB%B2%88%20%ED%95%B4%EC%9A%B4%EB%8C%80) |
-| PUS-SN-781 | 부산 | 스탠다드번 상하이 버터떡 | 6000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 스탠다드번 해운대](https://map.naver.com/p/search/%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%EB%B2%88%20%ED%95%B4%EC%9A%B4%EB%8C%80) |
+| PUS-FD-760 | 부산 | 해목 히츠마부시 | 39000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 해목 해운대점](https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90) |
+| PUS-FD-761 | 부산 | 해목 카이센동 | 37000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 해목 해운대점](https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90) |
+| PUS-FD-762 | 부산 | 해목 참치+네기도로 덮밥 | 23000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 해목 해운대점](https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90) |
+| PUS-FD-763 | 부산 | 해목 어린이 장어 덮밥 | 11000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 해목 해운대점](https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90) |
+| PUS-FD-764 | 부산 | 수변최고돼지국밥 고기국밥 | 11000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 수변최고돼지국밥 민락](https://map.naver.com/p/search/%EC%88%98%EB%B3%80%EC%B5%9C%EA%B3%A0%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5%20%EB%AF%BC%EB%9D%BD) |
+| PUS-FD-765 | 부산 | 수변최고돼지국밥 항정국밥 | 13000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 수변최고돼지국밥 민락](https://map.naver.com/p/search/%EC%88%98%EB%B3%80%EC%B5%9C%EA%B3%A0%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5%20%EB%AF%BC%EB%9D%BD) |
+| PUS-FD-766 | 부산 | 신발원 쿵푸면 | 5900 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 신발원](https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0) |
+| PUS-SN-767 | 부산 | 신발원 고기만두 (1인분 4개) | 4800 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 신발원](https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0) |
+| PUS-SN-768 | 부산 | 신발원 수제찐빵 | 3800 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 신발원](https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0) |
+| PUS-SN-776 | 부산 | 해운대명품호떡 씨앗호떡 | 2500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 해운대명품호떡](https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1) |
+| PUS-SN-777 | 부산 | 해운대명품호떡 꿀호떡 | 2000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 해운대명품호떡](https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1) |
+| PUS-SN-778 | 부산 | 부곡분식 쌀떡볶이 | 3000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 부곡분식](https://map.naver.com/p/search/%EB%B6%80%EA%B3%A1%EB%B6%84%EC%8B%9D) |
+| PUS-SN-779 | 부산 | 부곡분식 오뎅 (4개) | 2000~4000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 부곡분식](https://map.naver.com/p/search/%EB%B6%80%EA%B3%A1%EB%B6%84%EC%8B%9D) |
+| PUS-SN-780 | 부산 | 스탠다드번 아메리카노 | 5500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 스탠다드번 해운대](https://map.naver.com/p/search/%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%EB%B2%88%20%ED%95%B4%EC%9A%B4%EB%8C%80) |
+| PUS-SN-781 | 부산 | 스탠다드번 상하이 버터떡 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 스탠다드번 해운대](https://map.naver.com/p/search/%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%EB%B2%88%20%ED%95%B4%EC%9A%B4%EB%8C%80) |
 | PUS-TR-001 | 부산 | 부산 도시철도 1구간 (교통카드) | 1600 KRW | A | 예 | 재검증 | [부산교통공사](https://www.humetro.busan.kr/default/main.do) |
 | PUS-TR-002 | 부산 | 부산 도시철도 2구간 (교통카드) | 1800 KRW | A | 예 | 재검증 | [부산교통공사](https://www.humetro.busan.kr/default/main.do) |
 | PUS-TR-003 | 부산 | 부산 시내버스 일반 (교통카드) | 1550 KRW | A | 예 | 재검증 | [부산광역시 버스정보관리시스템](https://bus.busan.go.kr/) |
 | PUS-TR-004 | 부산 | 부산 급행버스 (교통카드) | 2100 KRW | A | 예 | 재검증 | [부산광역시 버스정보관리시스템](https://bus.busan.go.kr/) |
 | PUS-TR-005 | 부산 | 부산 도시철도 1일권 | 6000 KRW | A | 예 | 재검증 | [부산교통공사](https://work.humetro.busan.kr/homepage/default/page/subLocation.do?menu_no=1001010501) |
-| PUS-FD-001 | 부산 | 본전돼지국밥 돼지국밥 | 11000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 본전돼지국밥 매장 공식 메뉴](https://pcmap.place.naver.com/restaurant/13485911/menu/list) |
-| PUS-FD-002 | 부산 | 초량밀면 물밀면 (소) | 7000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 초량밀면 매장 공식 메뉴](https://map.naver.com/p/entry/place/11603507) |
-| PUS-FD-004 | 부산 | 고래사어묵 어우동 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [고래사어묵 해운대점 매장 메뉴](https://pcmap.place.naver.com/restaurant/1814388146/menu/list) |
-| PUS-FD-005 | 부산 | 수변최고돼지국밥 고기국밥 | 11000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [수변최고돼지국밥 매장 공식 메뉴](https://pcmap.place.naver.com/restaurant/37535404/menu/list) |
-| PUS-FD-007 | 부산 | 모모스커피 오늘의 드립커피 | 6800 KRW | C | 조건부 | C등급, 조건부, 재검증 | [모모스커피 온천장 본점 메뉴](https://pcmap.place.naver.com/restaurant/37160995/menu/list) |
+| PUS-FD-001 | 부산 | 본전돼지국밥 돼지국밥 | 11000 KRW | B | 예 | B등급, 재검증 | [네이버 플레이스 본전돼지국밥 매장 공식 메뉴](https://pcmap.place.naver.com/restaurant/13485911/menu/list) |
+| PUS-FD-002 | 부산 | 초량밀면 물밀면 (소) | 7000 KRW | B | 예 | B등급, 재검증 | [네이버 플레이스 초량밀면 매장 공식 메뉴](https://map.naver.com/p/entry/place/11603507) |
+| PUS-FD-004 | 부산 | 고래사어묵 어우동 | 6000 KRW | B | 예 | B등급, 재검증 | [고래사어묵 해운대점 매장 메뉴](https://pcmap.place.naver.com/restaurant/1814388146/menu/list) |
+| PUS-FD-005 | 부산 | 수변최고돼지국밥 고기국밥 | 11000 KRW | B | 예 | B등급, 재검증 | [수변최고돼지국밥 매장 공식 메뉴](https://pcmap.place.naver.com/restaurant/37535404/menu/list) |
+| PUS-FD-007 | 부산 | 모모스커피 오늘의 드립커피 | 6800 KRW | B | 예 | B등급, 재검증 | [모모스커피 온천장 본점 메뉴](https://pcmap.place.naver.com/restaurant/37160995/menu/list) |
 | PUS-FD-009 | 부산 | 대선주조 대선소주 | 1950 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
 | PUS-FD-010 | 부산 | CU 편의점 켈리 캔맥주 | 2800 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
-| PUS-FD-011 | 부산 | 식당 일반 소주/맥주 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [본전돼지국밥 매장 공식 주류 메뉴](https://map.naver.com/p/entry/place/11568285) |
+| PUS-FD-011 | 부산 | 식당 일반 소주/맥주 | 5000 KRW | B | 예 | B등급, 재검증 | [본전돼지국밥 매장 공식 주류 메뉴](https://map.naver.com/p/entry/place/11568285) |
 | PUS-SV-001 | 부산 | 삼진어묵 1953세트 1호 | 35000 KRW | A | 예 | 재검증 | [삼진어묵 공식 온라인 직영몰](https://www.samjinfood.com/goods/goods_view.php?goodsNo=1000000968) |
-| PUS-SV-002 | 부산 | 부산바다샌드 1상자 (9개입) | 17500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [부산바다샌드 공식 매장 메뉴](https://map.naver.com/p/entry/place/1694939243) |
-| PUS-SV-003 | 부산 | 부산관광기념품점 광안대교 자개 마그넷 | 8000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [부산관광기념품점 공식 안내](https://map.naver.com/p/entry/place/1971758950) |
+| PUS-SV-002 | 부산 | 부산바다샌드 1상자 (9개입) | 17500 KRW | B | 예 | B등급, 재검증 | [부산바다샌드 공식 매장 메뉴](https://map.naver.com/p/entry/place/1694939243) |
+| PUS-SV-003 | 부산 | 부산관광기념품점 광안대교 자개 마그넷 | 8000 KRW | B | 조건부 | B등급, 조건부, 재검증, 검수: 원문 확인 불가 | [부산관광기념품점 공식 안내](https://map.naver.com/p/entry/place/1971758950) |
 | PUS-AT-001 | 부산 | 부산엑스 더 스카이 전망대 (대인) | 29000 KRW | A | 예 | 재검증 | [부산엑스더스카이 공식홈페이지](https://www.busanxthesky.com/sub/sub02_01.php) |
 | PUS-AT-002 | 부산 | 부산엑스 더 스카이 전망대 (소인) | 26000 KRW | A | 예 | 재검증 | [부산엑스더스카이 공식홈페이지](https://www.busanxthesky.com/sub/sub02_01.php) |
 | PUS-AT-005 | 부산 | 송도해상케이블카 에어크루즈 왕복 (대인) | 19000 KRW | A | 예 | 재검증 | [송도해상케이블카 공식홈페이지](https://busanaircruise.co.kr/info/price?rank=1) |
@@ -525,16 +525,16 @@
 | GNG-AT-104 | 강릉 | 대관령박물관 입장료 어린이 | 400 KRW | A | 예 | 재검증 | [강릉시 오죽헌·시립박물관(강릉시 공식 관광·시설 안내)](https://www.gn.go.kr/museum/contents.do?key=892) |
 | GNG-AT-105 | 강릉 | 정동진시간박물관 입장료 성인 | 9000 KRW | A | 예 | 재검증 | [강릉시 오죽헌·시립박물관(강릉시 공식 관광·시설 안내)](https://www.gn.go.kr/museum/contents.do?key=892) |
 | GNG-AT-106 | 강릉 | 정동진시간박물관 입장료 어린이 | 5000 KRW | A | 예 | 재검증 | [강릉시 오죽헌·시립박물관(강릉시 공식 관광·시설 안내)](https://www.gn.go.kr/museum/contents.do?key=892) |
-| GNG-FD-101 | 강릉 | 초당할머니순두부 순두부백반 | 14000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [초당할머니순두부 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/707048046/menu/list) |
-| GNG-FD-102 | 강릉 | 강릉역옹막 경포점 감자옹심이 | 11000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [강릉역옹막 경포점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/2037157200/menu/list) |
-| GNG-FD-103 | 강릉 | 강릉한정식 하서주미역 하서주 미역국 정찬 | 15000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [강릉한정식 하서주미역 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1625048966/menu/list) |
-| GNG-SN-101 | 강릉 | 강릉역옹막 경포점 옹막감자쫀드기 | 9000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [강릉역옹막 경포점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/2037157200/menu/list) |
-| GNG-SN-102 | 강릉 | 테라로사 커피공장 강릉본점 아메리카노 | 5500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [테라로사 커피공장 강릉본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/10968214/menu/list) |
-| GNG-SN-103 | 강릉 | 테라로사 커피공장 강릉본점 카페라테 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [테라로사 커피공장 강릉본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/10968214/menu/list) |
-| GNG-SN-104 | 강릉 | 테라로사 커피공장 강릉본점 카푸치노 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [테라로사 커피공장 강릉본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/10968214/menu/list) |
-| GNG-AL-101 | 강릉 | 강릉역옹막 경포점 옹막딸기막걸리 | 8000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [강릉역옹막 경포점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/2037157200/menu/list) |
-| GNG-AL-102 | 강릉 | 강릉브루어리 바이 현 페일에일 | 6500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [강릉브루어리 바이 현 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1832471577/menu/list) |
-| GNG-AL-103 | 강릉 | 강릉브루어리 바이 현 바이젠 | 7000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [강릉브루어리 바이 현 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1832471577/menu/list) |
+| GNG-FD-101 | 강릉 | 초당할머니순두부 순두부백반 | 14000 KRW | B | 예 | B등급, 재검증 | [초당할머니순두부 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/707048046/menu/list) |
+| GNG-FD-102 | 강릉 | 강릉역옹막 경포점 감자옹심이 | 11000 KRW | B | 예 | B등급, 재검증 | [강릉역옹막 경포점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/2037157200/menu/list) |
+| GNG-FD-103 | 강릉 | 강릉한정식 하서주미역 하서주 미역국 정찬 | 15000 KRW | B | 예 | B등급, 재검증 | [강릉한정식 하서주미역 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1625048966/menu/list) |
+| GNG-SN-101 | 강릉 | 강릉역옹막 경포점 옹막감자쫀드기 | 9000 KRW | B | 예 | B등급, 재검증 | [강릉역옹막 경포점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/2037157200/menu/list) |
+| GNG-SN-102 | 강릉 | 테라로사 커피공장 강릉본점 아메리카노 | 5500 KRW | B | 예 | B등급, 재검증 | [테라로사 커피공장 강릉본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/10968214/menu/list) |
+| GNG-SN-103 | 강릉 | 테라로사 커피공장 강릉본점 카페라테 | 6000 KRW | B | 예 | B등급, 재검증 | [테라로사 커피공장 강릉본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/10968214/menu/list) |
+| GNG-SN-104 | 강릉 | 테라로사 커피공장 강릉본점 카푸치노 | 6000 KRW | B | 예 | B등급, 재검증 | [테라로사 커피공장 강릉본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/10968214/menu/list) |
+| GNG-AL-101 | 강릉 | 강릉역옹막 경포점 옹막딸기막걸리 | 8000 KRW | B | 예 | B등급, 재검증 | [강릉역옹막 경포점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/2037157200/menu/list) |
+| GNG-AL-102 | 강릉 | 강릉브루어리 바이 현 페일에일 | 6500 KRW | B | 예 | B등급, 재검증 | [강릉브루어리 바이 현 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1832471577/menu/list) |
+| GNG-AL-103 | 강릉 | 강릉브루어리 바이 현 바이젠 | 7000 KRW | B | 예 | B등급, 재검증 | [강릉브루어리 바이 현 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1832471577/menu/list) |
 | TYO-AT-206 | 도쿄 | 도쿄타워 메인데크 초등학생 입장권 | 900 JPY | A | 예 | 재검증 | [TOKYO TOWER](https://en.tokyotower.co.jp/fee/) |
 | OSA-AT-201 | 오사카 | 산타마리아 데이크루즈 초등학생 요금 | 1000 JPY | A | 예 | 재검증 | [大阪水上バス](https://suijo-bus.osaka/cruiselist/santamaria/) |
 | BKK-AT-201 | 방콕 | 방콕 예술문화센터 일반 전시 아동 관람 | 0 THB | A | 예 | 재검증 | [Bangkok Art and Culture Centre](https://www.bacc.or.th/en/plan-your-visit) |
@@ -572,21 +572,21 @@
 | PUS-AT-201 | 부산 | 해운대 해변열차 1회 탑승권 (어린이) | 5600~7000 KRW | A | 예 | 재검증 | [해운대블루라인파크](https://www.bluelinepark.com/fare.do) |
 | PUS-AT-203 | 부산 | 해운대 해변열차 1회 탑승권 (성인) | 8000~10000 KRW | A | 예 | 재검증 | [해운대블루라인파크](https://www.bluelinepark.com/fare.do) |
 | DXB-TR-104 | 두바이 | 공항 터미널 1 출발 지하철 실버 nol 1구역 요금 | 3 AED | A | 예 | 재검증, 시작가 표기 | [두바이 도로교통청 RTA nol 요금표·지하철 역 안내](https://rta.ae/wps/portal/rta/ae/public-transport/Nol-Fares?lang=en;https://www.rta.ae/wps/portal/rta/ae/public-transport/metro-stations-map;https://www.rta.ae/links/rail/rail-network-map.pdf) |
-| SEL-FD-900 | 서울 | 명동교자 본점 칼국수 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [명동교자 본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11592650/menu/list) |
-| SEL-FD-901 | 서울 | 황생가칼국수 사골칼국수 | 13000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [황생가칼국수 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11679429/menu/list) |
-| SEL-FD-902 | 서울 | 이문설농탕 설농탕 | 15000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [이문설농탕 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11711983/menu/list) |
-| SEL-FD-903 | 서울 | 오레노라멘 본점 토리빠이탄 라멘 | 13000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [오레노라멘 본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/814481697/menu/list) |
-| SEL-FD-904 | 서울 | 광화문미진 냉메밀 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [광화문미진 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11680222/menu/list) |
-| PUS-FD-900 | 부산 | 진돼지곰탕 돼지곰탕 | 13000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [진돼지곰탕 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/1417059494/menu/list) |
-| PUS-FD-901 | 부산 | 나막집 용호동본점 돼지곰탕 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [나막집 용호동본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/1964006114/menu/list) |
-| PUS-FD-902 | 부산 | 금수복국 해운대본점 은복국 [지리, 탕] | 15000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [금수복국 해운대본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11672174/menu/list) |
-| PUS-FD-903 | 부산 | 뉴러우멘관즈 홍샤오 뉴러우멘(소) | 13000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [뉴러우멘관즈 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/1394729619/menu/list) |
-| PUS-FD-904 | 부산 | 합천국밥집 따로국밥 | 13000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [합천국밥집 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11872316/menu/list) |
-| CJU-FD-900 | 제주 | 명진전복 전복돌솥밥 | 16000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [명진전복 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/17032617/menu/list) |
-| CJU-FD-901 | 제주 | 순옥이네명가 전복죽 | 13000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [순옥이네명가 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11595461/menu/list) |
-| CJU-FD-902 | 제주 | 이춘옥원조고등어쌈밥 제주애월본점 전복뚝배기 1인 | 17000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [이춘옥원조고등어쌈밥 제주애월본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/19872990/menu/list) |
-| CJU-FD-903 | 제주 | 협재수우동 협재점 자작냉우동 | 15500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [협재수우동 협재점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/36823910/menu/list) |
-| CJU-FD-904 | 제주 | 한라산아래첫마을 제주메밀 비비작작면 | 16000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [한라산아래첫마을 영농조합법인 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/363214380/menu/list) |
+| SEL-FD-900 | 서울 | 명동교자 본점 칼국수 | 12000 KRW | B | 예 | B등급, 재검증 | [명동교자 본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11592650/menu/list) |
+| SEL-FD-901 | 서울 | 황생가칼국수 사골칼국수 | 13000 KRW | B | 예 | B등급, 재검증 | [황생가칼국수 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11679429/menu/list) |
+| SEL-FD-902 | 서울 | 이문설농탕 설농탕 | 15000 KRW | B | 예 | B등급, 재검증 | [이문설농탕 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11711983/menu/list) |
+| SEL-FD-903 | 서울 | 오레노라멘 본점 토리빠이탄 라멘 | 13000 KRW | B | 예 | B등급, 재검증 | [오레노라멘 본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/814481697/menu/list) |
+| SEL-FD-904 | 서울 | 광화문미진 냉메밀 | 12000 KRW | B | 예 | B등급, 재검증 | [광화문미진 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11680222/menu/list) |
+| PUS-FD-900 | 부산 | 진돼지곰탕 돼지곰탕 | 13000 KRW | B | 예 | B등급, 재검증 | [진돼지곰탕 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/1417059494/menu/list) |
+| PUS-FD-901 | 부산 | 나막집 용호동본점 돼지곰탕 | 12000 KRW | B | 예 | B등급, 재검증 | [나막집 용호동본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/1964006114/menu/list) |
+| PUS-FD-902 | 부산 | 금수복국 해운대본점 은복국 [지리, 탕] | 15000 KRW | B | 예 | B등급, 재검증 | [금수복국 해운대본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11672174/menu/list) |
+| PUS-FD-903 | 부산 | 뉴러우멘관즈 홍샤오 뉴러우멘(소) | 13000 KRW | B | 예 | B등급, 재검증 | [뉴러우멘관즈 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/1394729619/menu/list) |
+| PUS-FD-904 | 부산 | 합천국밥집 따로국밥 | 13000 KRW | B | 예 | B등급, 재검증 | [합천국밥집 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11872316/menu/list) |
+| CJU-FD-900 | 제주 | 명진전복 전복돌솥밥 | 16000 KRW | B | 예 | B등급, 재검증 | [명진전복 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/17032617/menu/list) |
+| CJU-FD-901 | 제주 | 순옥이네명가 전복죽 | 13000 KRW | B | 예 | B등급, 재검증 | [순옥이네명가 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11595461/menu/list) |
+| CJU-FD-902 | 제주 | 이춘옥원조고등어쌈밥 제주애월본점 전복뚝배기 1인 | 17000 KRW | B | 예 | B등급, 재검증 | [이춘옥원조고등어쌈밥 제주애월본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/19872990/menu/list) |
+| CJU-FD-903 | 제주 | 협재수우동 협재점 자작냉우동 | 15500 KRW | B | 예 | B등급, 재검증 | [협재수우동 협재점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/36823910/menu/list) |
+| CJU-FD-904 | 제주 | 한라산아래첫마을 제주메밀 비비작작면 | 16000 KRW | B | 예 | B등급, 재검증 | [한라산아래첫마을 영농조합법인 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/363214380/menu/list) |
 | OSA-TR-801 | 오사카 | 오사카 어메이징 패스 기본형 1일권 | 3500 JPY | A | 예 | 재검증 | [SURUTTO KANSAI / OSAKA AMAZING PASS](https://osaka-amazing-pass.com/en/howto_about_1day.html?amazingPass=) |
 | SIN-TR-802 | 싱가포르 | 싱가포르 투어리스트 패스 참(머라이언 원형) 1일권 | 22 SGD | A | 예 | 재검증 | [Singapore Tourist Pass / SimplyGo](https://thesingaporetouristpass.com.sg/type-of-passes/) |
 | ROM-TR-801 | 로마 | ATAC BIRG 로마 구역 A 지역 통합 1일권 | 7.2 EUR | A | 예 | 재검증 | [ATAC](https://www.atac.roma.it/en/tickets-and-passes/birg) |
@@ -615,15 +615,15 @@
 | GJU-AT-104 | 경주 | 경주 동궁과 월지 입장료 어린이 | 1000 KRW | A | 예 | 재검증 | [경주문화관광(경주시)](https://www.gyeongju.go.kr/tour_bak/page.do?mnu_uid=2378) |
 | GJU-AT-105 | 경주 | 오릉 입장료 성인 | 2000 KRW | A | 예 | 재검증 | [경주문화관광(경주시)](https://www.gyeongju.go.kr/tour_bak/page.do?mnu_uid=2378) |
 | GJU-AT-106 | 경주 | 오릉 입장료 어린이 | 500 KRW | A | 예 | 재검증 | [경주문화관광(경주시)](https://www.gyeongju.go.kr/tour_bak/page.do?mnu_uid=2378) |
-| GJU-FD-101 | 경주 | 교리김밥 본점 교리국수 | 9000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [교리김밥 본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/21701372/menu/list) |
-| GJU-FD-102 | 경주 | 경주 원조콩국 콩국수 | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [경주 원조콩국 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/11889476/menu/list) |
-| GJU-FD-103 | 경주 | 경주밀면여행밀면 물밀면 | 9000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [경주밀면여행밀면 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/34647228/menu/list) |
-| GJU-SN-101 | 경주 | 두낫디스터브 경주본점 아메리카노 | 5500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [두낫디스터브 경주본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1412715086/menu/list) |
-| GJU-SN-102 | 경주 | 두낫디스터브 경주본점 카페라떼 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [두낫디스터브 경주본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1412715086/menu/list) |
-| GJU-SN-103 | 경주 | 두낫디스터브 경주본점 두낫슈페너 | 7000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [두낫디스터브 경주본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1412715086/menu/list) |
-| GJU-AL-101 | 경주 | 계림주막 계림 생막걸리 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [계림주막 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1045912984/menu/list) |
-| GJU-AL-102 | 경주 | 계림주막 경주법주 쌀 막걸리 | 7000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [계림주막 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1045912984/menu/list) |
-| GJU-AL-103 | 경주 | 계림주막 장수 생막걸리 | 8000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [계림주막 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1045912984/menu/list) |
+| GJU-FD-101 | 경주 | 교리김밥 본점 교리국수 | 9000 KRW | B | 예 | B등급, 재검증 | [교리김밥 본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/21701372/menu/list) |
+| GJU-FD-102 | 경주 | 경주 원조콩국 콩국수 | 10000 KRW | B | 예 | B등급, 재검증 | [경주 원조콩국 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/11889476/menu/list) |
+| GJU-FD-103 | 경주 | 경주밀면여행밀면 물밀면 | 9000 KRW | B | 예 | B등급, 재검증 | [경주밀면여행밀면 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/34647228/menu/list) |
+| GJU-SN-101 | 경주 | 두낫디스터브 경주본점 아메리카노 | 5500 KRW | B | 예 | B등급, 재검증 | [두낫디스터브 경주본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1412715086/menu/list) |
+| GJU-SN-102 | 경주 | 두낫디스터브 경주본점 카페라떼 | 6000 KRW | B | 예 | B등급, 재검증 | [두낫디스터브 경주본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1412715086/menu/list) |
+| GJU-SN-103 | 경주 | 두낫디스터브 경주본점 두낫슈페너 | 7000 KRW | B | 예 | B등급, 재검증 | [두낫디스터브 경주본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1412715086/menu/list) |
+| GJU-AL-101 | 경주 | 계림주막 계림 생막걸리 | 12000 KRW | B | 예 | B등급, 재검증 | [계림주막 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1045912984/menu/list) |
+| GJU-AL-102 | 경주 | 계림주막 경주법주 쌀 막걸리 | 7000 KRW | B | 예 | B등급, 재검증 | [계림주막 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1045912984/menu/list) |
+| GJU-AL-103 | 경주 | 계림주막 장수 생막걸리 | 8000 KRW | B | 예 | B등급, 재검증 | [계림주막 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1045912984/menu/list) |
 | HAN-TR-101 | 하노이 | 하노이 메트로 2A호선(깟린–하동) 현금 1회권 | 9000~19000 VND | A | 예 | 재검증 | [Hanoi Metro 공식 운임표(이미지)](https://metrohanoi.vn/wp-content/uploads/2025/09/gia-ve-tuyen-2-1024x768.jpg) |
 | HAN-TR-102 | 하노이 | 하노이 메트로 2A호선 1일권 | 40000 VND | A | 예 | 재검증 | [Hanoi Metro 공식 운임표(이미지)](https://metrohanoi.vn/wp-content/uploads/2025/09/gia-ve-tuyen-2-1024x768.jpg) |
 | HAN-TR-103 | 하노이 | 빈버스 E04 스마트시티–빈컴 롱비엔 | 12000 VND | A | 예 | 재검증 | [VinBus 공식 노선 조회(하노이)](https://maps.vinbus.vn/hn) |
@@ -707,55 +707,55 @@
 | KYO-TR-004 | 교토 | 게이한 전철 첫 구간 운임(성인) | 180 JPY | A | 예 | 재검증 | [게이한 전기철도](https://www.keihan.co.jp/traffic/unchinkaitei_2025/index.html) |
 | OKA-TR-006 | 오키나와 | 유이레일 2일 승차권(성인) | 1800 JPY | A | 예 | 재검증 | [오키나와 도시 모노레일(유이레일)](https://www.yui-rail.co.jp/ticketinfo-ticket/ticketinfo/ticket/) |
 | OKA-TR-007 | 오키나와 | 류큐버스교통 나하 시내 균일 요금(성인) | 280 JPY | A | 예 | 재검증 | [류큐버스교통·나하버스 공식 보도자료(PDF)](https://daiichibus.co.jp/ryukyubus/wp-content/uploads/2026/02/%E6%B2%96%E7%B8%84%E6%9C%AC%E5%B3%B6%E5%86%85%E3%81%AE%E4%B9%97%E5%90%88%E3%83%90%E3%82%B9%E8%B7%AF%E7%B7%9A%E3%80%8C%E9%82%A3%E8%A6%87%E5%B8%82%E5%86%85%E5%9D%87%E4%B8%80%E5%88%B6%E9%81%8B%E8%B3%83%E7%AD%89%E3%80%8D%E3%81%AE%E6%94%B9%E5%AE%9A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf) |
-| CJU-FD-760 | 제주 | 소산도 우도흑돼지 안심카츠 | 17000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
-| CJU-FD-761 | 제주 | 소산도 흑돼지 우도 등심카츠 | 16000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
-| CJU-FD-762 | 제주 | 제주식 고사리해장국 | 11000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 제주고사리해장국 중문](https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8) |
-| CJU-FD-763 | 제주 | 제주 몸국 | 11000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 제주고사리해장국 중문](https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8) |
-| CJU-FD-764 | 제주 | 제주 접짝뼈국 | 12000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 제주고사리해장국 중문](https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8) |
-| CJU-FD-765 | 제주 | 성산바다풍경 해물뚝배기 | 16000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 성산바다풍경 제주성산](https://map.naver.com/p/search/%EC%84%B1%EC%82%B0%EB%B0%94%EB%8B%A4%ED%92%8D%EA%B2%BD%20%EC%A0%9C%EC%A3%BC%EC%84%B1%EC%82%B0) |
-| CJU-FD-766 | 제주 | 성산바다풍경 오분자기뚝배기 | 19000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 성산바다풍경 제주성산](https://map.naver.com/p/search/%EC%84%B1%EC%82%B0%EB%B0%94%EB%8B%A4%ED%92%8D%EA%B2%BD%20%EC%A0%9C%EC%A3%BC%EC%84%B1%EC%82%B0) |
-| CJU-FD-767 | 제주 | 금돗 묵은지 흑돼지 김치찌개 | 7000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 금돗 성산흑돼지](https://map.naver.com/p/search/%EA%B8%88%EB%8F%97%20%EC%84%B1%EC%82%B0%ED%9D%91%EB%8F%BC%EC%A7%80) |
-| CJU-FD-768 | 제주 | 금돗 열무국수 | 7000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 금돗 성산흑돼지](https://map.naver.com/p/search/%EA%B8%88%EB%8F%97%20%EC%84%B1%EC%82%B0%ED%9D%91%EB%8F%BC%EC%A7%80) |
-| SEL-FD-760 | 서울 | 청돈옥 묵은지김치찌개 | 8000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 청돈옥 홍대본점](https://map.naver.com/p/search/%EC%B2%AD%EB%8F%88%EC%98%A5%20%ED%99%8D%EB%8C%80%EB%B3%B8%EC%A0%90) |
-| SEL-FD-761 | 서울 | 청돈옥 수육비빔면 | 8000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 청돈옥 홍대본점](https://map.naver.com/p/search/%EC%B2%AD%EB%8F%88%EC%98%A5%20%ED%99%8D%EB%8C%80%EB%B3%B8%EC%A0%90) |
-| SEL-AL-762 | 서울 | 청돈옥 하이볼 | 8000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 청돈옥 홍대본점](https://map.naver.com/p/search/%EC%B2%AD%EB%8F%88%EC%98%A5%20%ED%99%8D%EB%8C%80%EB%B3%B8%EC%A0%90) |
-| SEL-FD-763 | 서울 | 박만배아리랑보쌈 점심 보쌈정식 (평일) | 12000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 박만배아리랑보쌈 방이점](https://map.naver.com/p/search/%EB%B0%95%EB%A7%8C%EB%B0%B0%EC%95%84%EB%A6%AC%EB%9E%91%EB%B3%B4%EC%8C%88%20%EB%B0%A9%EC%9D%B4%EC%A0%90) |
-| SEL-AL-764 | 서울 | 송탄진대광부대찌개 소주 1병 | 4000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 송탄진대광부대찌개](https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C) |
-| SEL-AL-765 | 서울 | 송탄진대광부대찌개 맥주 1병 | 5000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 송탄진대광부대찌개](https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C) |
-| SEL-SN-766 | 서울 | 송탄진대광부대찌개 탄산음료 1캔 | 2000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 송탄진대광부대찌개](https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C) |
-| CJU-SN-770 | 제주 | 미르오메기떡 오메기떡 낱개 | 900 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 미르오메기떡](https://map.naver.com/p/search/%EB%AF%B8%EB%A5%B4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
-| CJU-SN-771 | 제주 | 춘심이네 오메기떡 낱개 | 1200 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 춘심이네오메기떡](https://map.naver.com/p/search/%EC%B6%98%EC%8B%AC%EC%9D%B4%EB%84%A4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
-| CJU-SN-772 | 제주 | 할머니떡집 감귤모찌 1팩 | 5000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 할머니떡집 오메기떡](https://map.naver.com/p/search/%ED%95%A0%EB%A8%B8%EB%8B%88%EB%96%A1%EC%A7%91%20%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
-| CJU-SV-773 | 제주 | 미르오메기떡 혼합 30알 | 27000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 미르오메기떡](https://map.naver.com/p/search/%EB%AF%B8%EB%A5%B4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
-| CJU-SV-774 | 제주 | 춘심이네 오메기떡 40개 | 39000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 춘심이네오메기떡](https://map.naver.com/p/search/%EC%B6%98%EC%8B%AC%EC%9D%B4%EB%84%A4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
-| CJU-SV-775 | 제주 | 할머니떡집 오메기떡 11개 (4종류) | 10000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 할머니떡집 오메기떡](https://map.naver.com/p/search/%ED%95%A0%EB%A8%B8%EB%8B%88%EB%96%A1%EC%A7%91%20%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
-| SEL-SN-782 | 서울 | 루프 베이커리 카페 아메리카노 | 6000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · LOOOP 루프 베이커리 카페 성수](https://map.naver.com/p/search/LOOOP%20%EB%A3%A8%ED%94%84%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%B9%B4%ED%8E%98%20%EC%84%B1%EC%88%98) |
-| SEL-SN-783 | 서울 | 아쿠아산타 1인용 딸기 프레지에 | 12900 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 아쿠아산타 성수카페](https://map.naver.com/p/search/%EC%95%84%EC%BF%A0%EC%95%84%EC%82%B0%ED%83%80%20%EC%84%B1%EC%88%98%EC%B9%B4%ED%8E%98) |
-| SEL-SN-784 | 서울 | 아쿠아산타 수박주스 | 8500 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 아쿠아산타 성수카페](https://map.naver.com/p/search/%EC%95%84%EC%BF%A0%EC%95%84%EC%82%B0%ED%83%80%20%EC%84%B1%EC%88%98%EC%B9%B4%ED%8E%98) |
-| SEL-FD-785 | 서울 | 성수다락 다락 오므라이스 | 17000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 성수다락](https://map.naver.com/p/search/%EC%84%B1%EC%88%98%EB%8B%A4%EB%9D%BD) |
-| SEL-FD-786 | 서울 | 성수다락 다락 로제 파스타 | 19000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 성수다락](https://map.naver.com/p/search/%EC%84%B1%EC%88%98%EB%8B%A4%EB%9D%BD) |
-| SEL-FD-787 | 서울 | 꾸띠자르당 에그 베네딕트 런치 세트 | 17000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 꾸띠자르당](https://map.naver.com/p/search/%EA%BE%B8%EB%9D%A0%EC%9E%90%EB%A5%B4%EB%8B%B9) |
-| SEL-FD-788 | 서울 | 이태원사랑채 충무김밥 | 13000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 이태원사랑채](https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84) |
-| SEL-AL-789 | 서울 | 이태원사랑채 장수막걸리 1병 | 6000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 이태원사랑채](https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84) |
-| SEL-AL-790 | 서울 | 이태원사랑채 소주 1병 | 6000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 이태원사랑채](https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84) |
-| SEL-AL-791 | 서울 | 이태원사랑채 맥주 1병 | 6000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 이태원사랑채](https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84) |
-| SEL-SN-792 | 서울 | 이태원사랑채 콜라·사이다 | 3000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 이태원사랑채](https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84) |
-| SEL-FD-793 | 서울 | 올바른스시 올바른초밥 (10피스) | 15000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 올바른스시 홍대역 직영점](https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90) |
-| SEL-FD-794 | 서울 | 올바른스시 어린이초밥 (10피스) | 15000 KRW | C | 예 | C등급, 재검증 | [네이버 플레이스 · 올바른스시 홍대역 직영점](https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90) |
-| SEL-AL-795 | 서울 | 올바른스시 참이슬 1병 | 5500 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 올바른스시 홍대역 직영점](https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90) |
-| SEL-AL-796 | 서울 | 올바른스시 카스 1병 | 5500 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 올바른스시 홍대역 직영점](https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90) |
-| SEL-AL-797 | 서울 | 올바른스시 매화수 1병 | 6000 KRW | C | 예 | C등급, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 올바른스시 홍대역 직영점](https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90) |
+| CJU-FD-760 | 제주 | 소산도 우도흑돼지 안심카츠 | 17000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
+| CJU-FD-761 | 제주 | 소산도 흑돼지 우도 등심카츠 | 16000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 소산도](https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84) |
+| CJU-FD-762 | 제주 | 제주식 고사리해장국 | 11000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 제주고사리해장국 중문](https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8) |
+| CJU-FD-763 | 제주 | 제주 몸국 | 11000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 제주고사리해장국 중문](https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8) |
+| CJU-FD-764 | 제주 | 제주 접짝뼈국 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 제주고사리해장국 중문](https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8) |
+| CJU-FD-765 | 제주 | 성산바다풍경 해물뚝배기 | 16000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 성산바다풍경 제주성산](https://map.naver.com/p/search/%EC%84%B1%EC%82%B0%EB%B0%94%EB%8B%A4%ED%92%8D%EA%B2%BD%20%EC%A0%9C%EC%A3%BC%EC%84%B1%EC%82%B0) |
+| CJU-FD-766 | 제주 | 성산바다풍경 오분자기뚝배기 | 19000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 성산바다풍경 제주성산](https://map.naver.com/p/search/%EC%84%B1%EC%82%B0%EB%B0%94%EB%8B%A4%ED%92%8D%EA%B2%BD%20%EC%A0%9C%EC%A3%BC%EC%84%B1%EC%82%B0) |
+| CJU-FD-767 | 제주 | 금돗 묵은지 흑돼지 김치찌개 | 7000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 금돗 성산흑돼지](https://map.naver.com/p/search/%EA%B8%88%EB%8F%97%20%EC%84%B1%EC%82%B0%ED%9D%91%EB%8F%BC%EC%A7%80) |
+| CJU-FD-768 | 제주 | 금돗 열무국수 | 7000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 금돗 성산흑돼지](https://map.naver.com/p/search/%EA%B8%88%EB%8F%97%20%EC%84%B1%EC%82%B0%ED%9D%91%EB%8F%BC%EC%A7%80) |
+| SEL-FD-760 | 서울 | 청돈옥 묵은지김치찌개 | 8000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 청돈옥 홍대본점](https://map.naver.com/p/search/%EC%B2%AD%EB%8F%88%EC%98%A5%20%ED%99%8D%EB%8C%80%EB%B3%B8%EC%A0%90) |
+| SEL-FD-761 | 서울 | 청돈옥 수육비빔면 | 8000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 청돈옥 홍대본점](https://map.naver.com/p/search/%EC%B2%AD%EB%8F%88%EC%98%A5%20%ED%99%8D%EB%8C%80%EB%B3%B8%EC%A0%90) |
+| SEL-AL-762 | 서울 | 청돈옥 하이볼 | 8000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 청돈옥 홍대본점](https://map.naver.com/p/search/%EC%B2%AD%EB%8F%88%EC%98%A5%20%ED%99%8D%EB%8C%80%EB%B3%B8%EC%A0%90) |
+| SEL-FD-763 | 서울 | 박만배아리랑보쌈 점심 보쌈정식 (평일) | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 박만배아리랑보쌈 방이점](https://map.naver.com/p/search/%EB%B0%95%EB%A7%8C%EB%B0%B0%EC%95%84%EB%A6%AC%EB%9E%91%EB%B3%B4%EC%8C%88%20%EB%B0%A9%EC%9D%B4%EC%A0%90) |
+| SEL-AL-764 | 서울 | 송탄진대광부대찌개 소주 1병 | 4000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 송탄진대광부대찌개](https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C) |
+| SEL-AL-765 | 서울 | 송탄진대광부대찌개 맥주 1병 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 송탄진대광부대찌개](https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C) |
+| SEL-SN-766 | 서울 | 송탄진대광부대찌개 탄산음료 1캔 | 2000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 송탄진대광부대찌개](https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C) |
+| CJU-SN-770 | 제주 | 미르오메기떡 오메기떡 낱개 | 900 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 미르오메기떡](https://map.naver.com/p/search/%EB%AF%B8%EB%A5%B4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
+| CJU-SN-771 | 제주 | 춘심이네 오메기떡 낱개 | 1200 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 춘심이네오메기떡](https://map.naver.com/p/search/%EC%B6%98%EC%8B%AC%EC%9D%B4%EB%84%A4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
+| CJU-SN-772 | 제주 | 할머니떡집 감귤모찌 1팩 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 할머니떡집 오메기떡](https://map.naver.com/p/search/%ED%95%A0%EB%A8%B8%EB%8B%88%EB%96%A1%EC%A7%91%20%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
+| CJU-SV-773 | 제주 | 미르오메기떡 혼합 30알 | 27000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 미르오메기떡](https://map.naver.com/p/search/%EB%AF%B8%EB%A5%B4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
+| CJU-SV-774 | 제주 | 춘심이네 오메기떡 40개 | 39000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 춘심이네오메기떡](https://map.naver.com/p/search/%EC%B6%98%EC%8B%AC%EC%9D%B4%EB%84%A4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
+| CJU-SV-775 | 제주 | 할머니떡집 오메기떡 11개 (4종류) | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 할머니떡집 오메기떡](https://map.naver.com/p/search/%ED%95%A0%EB%A8%B8%EB%8B%88%EB%96%A1%EC%A7%91%20%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1) |
+| SEL-SN-782 | 서울 | 루프 베이커리 카페 아메리카노 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · LOOOP 루프 베이커리 카페 성수](https://map.naver.com/p/search/LOOOP%20%EB%A3%A8%ED%94%84%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%B9%B4%ED%8E%98%20%EC%84%B1%EC%88%98) |
+| SEL-SN-783 | 서울 | 아쿠아산타 1인용 딸기 프레지에 | 12900 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 아쿠아산타 성수카페](https://map.naver.com/p/search/%EC%95%84%EC%BF%A0%EC%95%84%EC%82%B0%ED%83%80%20%EC%84%B1%EC%88%98%EC%B9%B4%ED%8E%98) |
+| SEL-SN-784 | 서울 | 아쿠아산타 수박주스 | 8500 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 아쿠아산타 성수카페](https://map.naver.com/p/search/%EC%95%84%EC%BF%A0%EC%95%84%EC%82%B0%ED%83%80%20%EC%84%B1%EC%88%98%EC%B9%B4%ED%8E%98) |
+| SEL-FD-785 | 서울 | 성수다락 다락 오므라이스 | 17000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 성수다락](https://map.naver.com/p/search/%EC%84%B1%EC%88%98%EB%8B%A4%EB%9D%BD) |
+| SEL-FD-786 | 서울 | 성수다락 다락 로제 파스타 | 19000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 성수다락](https://map.naver.com/p/search/%EC%84%B1%EC%88%98%EB%8B%A4%EB%9D%BD) |
+| SEL-FD-787 | 서울 | 꾸띠자르당 에그 베네딕트 런치 세트 | 17000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 꾸띠자르당](https://map.naver.com/p/search/%EA%BE%B8%EB%9D%A0%EC%9E%90%EB%A5%B4%EB%8B%B9) |
+| SEL-FD-788 | 서울 | 이태원사랑채 충무김밥 | 13000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 이태원사랑채](https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84) |
+| SEL-AL-789 | 서울 | 이태원사랑채 장수막걸리 1병 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 이태원사랑채](https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84) |
+| SEL-AL-790 | 서울 | 이태원사랑채 소주 1병 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 이태원사랑채](https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84) |
+| SEL-AL-791 | 서울 | 이태원사랑채 맥주 1병 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 이태원사랑채](https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84) |
+| SEL-SN-792 | 서울 | 이태원사랑채 콜라·사이다 | 3000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 이태원사랑채](https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84) |
+| SEL-FD-793 | 서울 | 올바른스시 올바른초밥 (10피스) | 15000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 올바른스시 홍대역 직영점](https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90) |
+| SEL-FD-794 | 서울 | 올바른스시 어린이초밥 (10피스) | 15000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 · 올바른스시 홍대역 직영점](https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90) |
+| SEL-AL-795 | 서울 | 올바른스시 참이슬 1병 | 5500 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 올바른스시 홍대역 직영점](https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90) |
+| SEL-AL-796 | 서울 | 올바른스시 카스 1병 | 5500 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 올바른스시 홍대역 직영점](https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90) |
+| SEL-AL-797 | 서울 | 올바른스시 매화수 1병 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [네이버 플레이스 · 올바른스시 홍대역 직영점](https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90) |
 | CJU-TR-001 | 제주 | 제주 간선/지선버스 기본요금 (카드) | 1150 KRW | A | 예 | 재검증 | [제주버스정보시스템](http://bus.jeju.go.kr/guide/fare) |
 | CJU-TR-002 | 제주 | 제주 급행버스 기본/구간요금 (카드) | 2000~3000 KRW | A | 예 | 재검증 | [제주버스정보시스템](http://bus.jeju.go.kr/guide/fare) |
 | CJU-TR-003 | 제주 | 제주 관광지순환버스 1회권 (카드) | 1150 KRW | A | 예 | 재검증 | [제주관광지순환버스 공식홈페이지](http://www.jejutourbus.com/sub02/sub01.php) |
-| CJU-FD-001 | 제주 | 자매국수 고기국수 | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 자매국수 공식 메뉴판](https://map.naver.com/p/entry/place/13570691) |
-| CJU-FD-002 | 제주 | 올래국수 고기국수 | 11000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 올래국수 공식 메뉴판](https://map.naver.com/p/entry/place/11728283) |
-| CJU-FD-004 | 제주 | 오조해녀의집 전복죽 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [네이버 플레이스 오조해녀의집 공식 메뉴판](https://map.naver.com/p/entry/place/11831417) |
+| CJU-FD-001 | 제주 | 자매국수 고기국수 | 10000 KRW | B | 예 | B등급, 재검증 | [네이버 플레이스 자매국수 공식 메뉴판](https://map.naver.com/p/entry/place/13570691) |
+| CJU-FD-002 | 제주 | 올래국수 고기국수 | 11000 KRW | B | 예 | B등급, 재검증 | [네이버 플레이스 올래국수 공식 메뉴판](https://map.naver.com/p/entry/place/11728283) |
+| CJU-FD-004 | 제주 | 오조해녀의집 전복죽 | 12000 KRW | B | 예 | B등급, 재검증 | [네이버 플레이스 오조해녀의집 공식 메뉴판](https://map.naver.com/p/entry/place/11831417) |
 | CJU-FD-009 | 제주 | 한라산 21도 소주 | 1950 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
 | CJU-FD-010 | 제주 | 제주맥주 제주위트에일 캔 | 4500 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [CU 공식홈페이지(포켓CU)](https://cu.bgfretail.com/product/product.do?category=04) |
 | CJU-SV-001 | 제주 | 제주 마음샌드 (10개입) | 16000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [파리바게뜨 파바앱 공식 예약](https://www.paris.co.kr/) |
 | CJU-SV-002 | 제주 | 제주 감귤 초콜릿 선물세트 | 10000 KRW | A | 예 | 재검증, 검수: 원문 확인 불가 | [이제주숍 공식 특산물 온라인몰](https://mall.ejeju.net/) |
-| CJU-SV-003 | 제주 | 돌하르방 현무암 감귤 마그넷 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [제주기념품점 공식 안내](https://map.naver.com/p/entry/place/11624838) |
+| CJU-SV-003 | 제주 | 돌하르방 현무암 감귤 마그넷 | 5000 KRW | B | 조건부 | B등급, 조건부, 재검증, 검수: 원문 확인 불가 | [제주기념품점 공식 안내](https://map.naver.com/p/entry/place/11624838) |
 | CJU-AT-001 | 제주 | 성산일출봉 유료관람권 (성인) | 5000 KRW | A | 예 | 재검증 | [제주세계유산축전 성산일출봉 공식안내](https://www.jeju.go.kr/heritage/heritage/seongsan.htm) |
 | CJU-AT-002 | 제주 | 성산일출봉 유료관람권 (어린이) | 2500 KRW | A | 예 | 재검증 | [제주세계유산축전 성산일출봉 공식안내](https://www.jeju.go.kr/heritage/heritage/seongsan.htm) |
 | CJU-AT-003 | 제주 | 만장굴 입장료 (어른) | 4000 KRW | A | 예 | 재검증 | [제주세계자연유산센터 공식안내](https://www.jeju.go.kr/wnhcenter/geology/manjang.htm) |
@@ -766,15 +766,15 @@
 | CJU-AT-008 | 제주 | 오설록 티뮤지엄 본관 관람 | 0 KRW | A | 예 | 재검증 | [오설록 공식홈페이지 티뮤지엄 안내](https://www.osulloc.com/kr/ko/museum) |
 | CJU-AT-009 | 제주 | 천지연폭포 관람료 (어른) | 2000 KRW | A | 예 | 재검증 | [서귀포시 공영관광지 관람안내](https://www.seogwipo.go.kr/) |
 | CJU-AT-010 | 제주 | 천지연폭포 관람료 (어린이) | 1000 KRW | A | 예 | 재검증 | [서귀포시 공영관광지 관람안내](https://www.seogwipo.go.kr/) |
-| JJU-FD-101 | 전주 | 풍남정 전주콩나물국밥 | 9000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [풍남정 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/16795271/menu/list) |
-| JJU-FD-102 | 전주 | 전주는전주 전주한옥마을 본점 육회비빔밥 | 15000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [전주는전주 전주한옥마을 본점 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/1694616852/menu/list) |
-| JJU-FD-103 | 전주 | 전주왱이콩나물국밥전문점 전주왱이국밥 | 9000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [전주왱이콩나물국밥전문점 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/33342797/menu/list) |
-| JJU-SN-101 | 전주 | 공간봄 에스프레소 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [공간봄 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/16793271/menu/list) |
-| JJU-SN-102 | 전주 | 공간봄 아메리카노 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [공간봄 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/16793271/menu/list) |
-| JJU-SN-103 | 전주 | 공간봄 카페라떼 | 6000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [공간봄 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/16793271/menu/list) |
-| JJU-AL-101 | 전주 | 전주왱이콩나물국밥전문점 모주 한잔 | 2000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [전주왱이콩나물국밥전문점 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/33342797/menu/list) |
-| JJU-AL-102 | 전주 | 전주왱이콩나물국밥전문점 모주 작은병 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [전주왱이콩나물국밥전문점 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/33342797/menu/list) |
-| JJU-AL-103 | 전주 | 전주왱이콩나물국밥전문점 모주 큰병 | 10000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [전주왱이콩나물국밥전문점 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/33342797/menu/list) |
+| JJU-FD-101 | 전주 | 풍남정 전주콩나물국밥 | 9000 KRW | B | 예 | B등급, 재검증 | [풍남정 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/16795271/menu/list) |
+| JJU-FD-102 | 전주 | 전주는전주 전주한옥마을 본점 육회비빔밥 | 15000 KRW | B | 예 | B등급, 재검증 | [전주는전주 전주한옥마을 본점 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/1694616852/menu/list) |
+| JJU-FD-103 | 전주 | 전주왱이콩나물국밥전문점 전주왱이국밥 | 9000 KRW | B | 예 | B등급, 재검증 | [전주왱이콩나물국밥전문점 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/33342797/menu/list) |
+| JJU-SN-101 | 전주 | 공간봄 에스프레소 | 5000 KRW | B | 예 | B등급, 재검증 | [공간봄 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/16793271/menu/list) |
+| JJU-SN-102 | 전주 | 공간봄 아메리카노 | 5000 KRW | B | 예 | B등급, 재검증 | [공간봄 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/16793271/menu/list) |
+| JJU-SN-103 | 전주 | 공간봄 카페라떼 | 6000 KRW | B | 예 | B등급, 재검증 | [공간봄 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/16793271/menu/list) |
+| JJU-AL-101 | 전주 | 전주왱이콩나물국밥전문점 모주 한잔 | 2000 KRW | B | 예 | B등급, 재검증 | [전주왱이콩나물국밥전문점 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/33342797/menu/list) |
+| JJU-AL-102 | 전주 | 전주왱이콩나물국밥전문점 모주 작은병 | 5000 KRW | B | 예 | B등급, 재검증 | [전주왱이콩나물국밥전문점 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/33342797/menu/list) |
+| JJU-AL-103 | 전주 | 전주왱이콩나물국밥전문점 모주 큰병 | 10000 KRW | B | 예 | B등급, 재검증 | [전주왱이콩나물국밥전문점 네이버 플레이스 업주 등록 메뉴](https://pcmap.place.naver.com/restaurant/33342797/menu/list) |
 | JJU-TR-101 | 전주 | 전주시내버스 일반 현금요금 | 1700 KRW | A | 예 | 재검증 | [전주시청 보도자료](https://www.jeonju.go.kr/planweb/board/view.9is?boardUid=ff8080818b5bc5cf018ba8ca7216641f&contentUid=ff8080818990c349018b041a87fe3960&dataUid=9be517a89719f44001985ec4fa226feb&page=1) |
 | JJU-TR-102 | 전주 | 전주시내버스 청소년 현금요금 | 1350 KRW | A | 예 | 재검증 | [전주시청 보도자료](https://www.jeonju.go.kr/planweb/board/view.9is?boardUid=ff8080818b5bc5cf018ba8ca7216641f&contentUid=ff8080818990c349018b041a87fe3960&dataUid=9be517a89719f44001985ec4fa226feb&page=1) |
 | JJU-TR-103 | 전주 | 전주시내버스 어린이 현금요금 | 850 KRW | A | 예 | 재검증 | [전주시청 보도자료](https://www.jeonju.go.kr/planweb/board/view.9is?boardUid=ff8080818b5bc5cf018ba8ca7216641f&contentUid=ff8080818990c349018b041a87fe3960&dataUid=9be517a89719f44001985ec4fa226feb&page=1) |
@@ -1038,16 +1038,16 @@
 | SYD-AL-103 | 시드니 | 더 글렌모어 호텔 로제 와인 150ml(휩버드) | 13 AUD | A | 예 | 재검증 | [The Glenmore Hotel 공식 메뉴](https://www.theglenmore.com.au/menu) |
 | SYD-AT-101 | 시드니 | 시드니 타워 아이 당일권(성인) | 39 AUD | A | 예 | 재검증 | [Sydney Tower Eye 공식 Price Table](https://www.sydneytowereye.com.au/tickets-passes/price-table/) |
 | SYD-AT-102 | 시드니 | 시드니 타워 아이 당일권(아동) | 29 AUD | A | 예 | 재검증 | [Sydney Tower Eye 공식 Price Table](https://www.sydneytowereye.com.au/tickets-passes/price-table/) |
-| YSU-FD-101 | 여수 | 청정게장촌 돌게장정식 | 16000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [청정게장촌 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/20553144/menu/list) |
-| YSU-FD-102 | 여수 | 여수게장 나래밥상 황태해장국 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [여수게장 나래밥상 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1787911441/menu/list) |
-| YSU-FD-103 | 여수 | 광장서대회 장어탕 | 12000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [광장서대회 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1757367265/menu/list) |
+| YSU-FD-101 | 여수 | 청정게장촌 돌게장정식 | 16000 KRW | B | 예 | B등급, 재검증 | [청정게장촌 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/20553144/menu/list) |
+| YSU-FD-102 | 여수 | 여수게장 나래밥상 황태해장국 | 12000 KRW | B | 예 | B등급, 재검증 | [여수게장 나래밥상 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1787911441/menu/list) |
+| YSU-FD-103 | 여수 | 광장서대회 장어탕 | 12000 KRW | B | 예 | B등급, 재검증 | [광장서대회 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1757367265/menu/list) |
 | YSU-TR-101 | 여수 | 여수 시내버스 관광객 선불카드 편도 | 2000 KRW | A | 예 | 재검증 | [여수시 2026 시내버스 운영계획](https://www.yeosu.go.kr/contents/88/2026_plan2.pdf) |
-| YSU-SN-101 | 여수 | 카페모카힐 이순신광장점 모카힐 크림 라떼 | 7500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [카페모카힐 이순신광장점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1631832876/menu/list) |
-| YSU-SN-102 | 여수 | 카페모카힐 이순신광장점 레드청귤차 | 7000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [카페모카힐 이순신광장점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1631832876/menu/list) |
-| YSU-SN-103 | 여수 | 카페모카힐 이순신광장점 청귤에이드 | 7500 KRW | C | 조건부 | C등급, 조건부, 재검증 | [카페모카힐 이순신광장점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1631832876/menu/list) |
-| YSU-AL-101 | 여수 | 소주주소 수산시장 본점 생맥주 300cc | 1900 KRW | C | 조건부 | C등급, 조건부, 재검증 | [소주주소 수산시장 본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1460778099/menu/list) |
-| YSU-AL-102 | 여수 | 백팩커스 펍 & 카페 클라우드 생맥주 | 5000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [백팩커스 펍 & 카페 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1976054322/menu/list) |
-| YSU-AL-103 | 여수 | 백팩커스 펍 & 카페 수제생맥주 | 8000 KRW | C | 조건부 | C등급, 조건부, 재검증 | [백팩커스 펍 & 카페 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1976054322/menu/list) |
+| YSU-SN-101 | 여수 | 카페모카힐 이순신광장점 모카힐 크림 라떼 | 7500 KRW | B | 예 | B등급, 재검증 | [카페모카힐 이순신광장점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1631832876/menu/list) |
+| YSU-SN-102 | 여수 | 카페모카힐 이순신광장점 레드청귤차 | 7000 KRW | B | 예 | B등급, 재검증 | [카페모카힐 이순신광장점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1631832876/menu/list) |
+| YSU-SN-103 | 여수 | 카페모카힐 이순신광장점 청귤에이드 | 7500 KRW | B | 예 | B등급, 재검증 | [카페모카힐 이순신광장점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1631832876/menu/list) |
+| YSU-AL-101 | 여수 | 소주주소 수산시장 본점 생맥주 300cc | 1900 KRW | B | 예 | B등급, 재검증 | [소주주소 수산시장 본점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1460778099/menu/list) |
+| YSU-AL-102 | 여수 | 백팩커스 펍 & 카페 클라우드 생맥주 | 5000 KRW | B | 예 | B등급, 재검증 | [백팩커스 펍 & 카페 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1976054322/menu/list) |
+| YSU-AL-103 | 여수 | 백팩커스 펍 & 카페 수제생맥주 | 8000 KRW | B | 예 | B등급, 재검증 | [백팩커스 펍 & 카페 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1976054322/menu/list) |
 | YSU-AT-101 | 여수 | 여수해상케이블카 일반캐빈 성인 왕복 | 15000 KRW | A | 예 | 재검증 | [여수시 관광문화 공식 관광지 안내](https://yeosu.go.kr/tour/travel/info_each_area?idx=879&mode=view) |
 | YSU-AT-102 | 여수 | 여수해상케이블카 일반캐빈 어린이 왕복 | 11000 KRW | A | 예 | 재검증 | [여수시 관광문화 공식 관광지 안내](https://yeosu.go.kr/tour/travel/info_each_area?idx=879&mode=view) |
 | YSU-AT-103 | 여수 | 국립여수해양기상과학관 성인 개인 관람 | 3000 KRW | A | 예 | 재검증 | [여수시 관광문화 공식 관광지 안내](https://www.yeosu.go.kr/tour/travel/info_each_area?idx=6881&mode=view) |

@@ -13071,13 +13071,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 해목 해운대점",
     "sourceUrl": "https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 플랫폼 출처(공식 페이지 아님) · 원문: 히츠마부시 39,000원 · 수집: prices-busan-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 지도 플랫폼 업주 등록 메뉴 · 원문: 히츠마부시 39,000원 · 수집: prices-busan-naver-2026-10-04.csv"
   },
   {
     "id": "PUS-FD-761",
@@ -13095,13 +13095,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 해목 해운대점",
     "sourceUrl": "https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 플랫폼 출처(공식 페이지 아님) · 원문: 카이센동 37,000원 · 수집: prices-busan-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 지도 플랫폼 업주 등록 메뉴 · 원문: 카이센동 37,000원 · 수집: prices-busan-naver-2026-10-04.csv"
   },
   {
     "id": "PUS-FD-762",
@@ -13119,13 +13119,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 해목 해운대점",
     "sourceUrl": "https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 플랫폼 출처(공식 페이지 아님) · 원문: 참치+네기도로 23,000원 · 수집: prices-busan-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 지도 플랫폼 업주 등록 메뉴 · 원문: 참치+네기도로 23,000원 · 수집: prices-busan-naver-2026-10-04.csv"
   },
   {
     "id": "PUS-FD-763",
@@ -13143,13 +13143,13 @@
     "priceType": "메뉴형",
     "target": "어린이",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 해목 해운대점",
     "sourceUrl": "https://map.naver.com/p/search/%ED%95%B4%EB%AA%A9%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 아동 메뉴 · 플랫폼 출처(공식 페이지 아님) · 원문: 어린이 장어 덮밥 11,000원 · 수집: prices-busan-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 아동 메뉴 · 지도 플랫폼 업주 등록 메뉴 · 원문: 어린이 장어 덮밥 11,000원 · 수집: prices-busan-naver-2026-10-04.csv"
   },
   {
     "id": "PUS-FD-764",
@@ -13167,13 +13167,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 수변최고돼지국밥 민락",
     "sourceUrl": "https://map.naver.com/p/search/%EC%88%98%EB%B3%80%EC%B5%9C%EA%B3%A0%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5%20%EB%AF%BC%EB%9D%BD",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 대표 음식: 돼지국밥 · 상호 일부가 화면에서 잘림 · 플랫폼 출처(공식 페이지 아님) · 원문: 고기국밥 11,000원 · 수집: prices-busan-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 대표 음식: 돼지국밥 · 상호 일부가 화면에서 잘림 · 지도 플랫폼 업주 등록 메뉴 · 원문: 고기국밥 11,000원 · 수집: prices-busan-naver-2026-10-04.csv"
   },
   {
     "id": "PUS-FD-765",
@@ -13191,13 +13191,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 수변최고돼지국밥 민락",
     "sourceUrl": "https://map.naver.com/p/search/%EC%88%98%EB%B3%80%EC%B5%9C%EA%B3%A0%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5%20%EB%AF%BC%EB%9D%BD",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 대표 음식: 돼지국밥 · 플랫폼 출처(공식 페이지 아님) · 원문: 항정국밥 13,000원 · 수집: prices-busan-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 대표 음식: 돼지국밥 · 지도 플랫폼 업주 등록 메뉴 · 원문: 항정국밥 13,000원 · 수집: prices-busan-naver-2026-10-04.csv"
   },
   {
     "id": "PUS-FD-766",
@@ -13215,13 +13215,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 신발원",
     "sourceUrl": "https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 플랫폼 출처(공식 페이지 아님) · 원문: 쿵푸면 5,900원 · 수집: prices-busan-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 지도 플랫폼 업주 등록 메뉴 · 원문: 쿵푸면 5,900원 · 수집: prices-busan-naver-2026-10-04.csv"
   },
   {
     "id": "PUS-SN-767",
@@ -13239,13 +13239,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 신발원",
     "sourceUrl": "https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 플랫폼 출처(공식 페이지 아님) · 원문: 고기만두(1인분 4개) 4,800원 · 수집: prices-busan-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 지도 플랫폼 업주 등록 메뉴 · 원문: 고기만두(1인분 4개) 4,800원 · 수집: prices-busan-naver-2026-10-04.csv"
   },
   {
     "id": "PUS-SN-768",
@@ -13263,13 +13263,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 신발원",
     "sourceUrl": "https://map.naver.com/p/search/%EC%8B%A0%EB%B0%9C%EC%9B%90%20%EB%B6%80%EC%82%B0",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 플랫폼 출처(공식 페이지 아님) · 원문: 수제찐빵 3,800원 · 수집: prices-busan-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 지도 플랫폼 업주 등록 메뉴 · 원문: 수제찐빵 3,800원 · 수집: prices-busan-naver-2026-10-04.csv"
   },
   {
     "id": "PUS-SN-776",
@@ -13287,13 +13287,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 해운대명품호떡",
     "sourceUrl": "https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 대표 음식: 씨앗호떡 · 메뉴 최근 업데이트 26.09.11 · 플랫폼 출처(공식 페이지 아님) · 원문: 씨앗 호떡 2,500원 · 수집: prices-busan-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 대표 음식: 씨앗호떡 · 메뉴 최근 업데이트 26.09.11 · 지도 플랫폼 업주 등록 메뉴 · 원문: 씨앗 호떡 2,500원 · 수집: prices-busan-naver-2026-10-04.csv"
   },
   {
     "id": "PUS-SN-777",
@@ -13311,13 +13311,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 해운대명품호떡",
     "sourceUrl": "https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 메뉴 최근 업데이트 26.09.11 · 플랫폼 출처(공식 페이지 아님) · 원문: 꿀 호떡 2,000원 · 수집: prices-busan-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 메뉴 최근 업데이트 26.09.11 · 지도 플랫폼 업주 등록 메뉴 · 원문: 꿀 호떡 2,000원 · 수집: prices-busan-naver-2026-10-04.csv"
   },
   {
     "id": "PUS-SN-778",
@@ -13335,13 +13335,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 부곡분식",
     "sourceUrl": "https://map.naver.com/p/search/%EB%B6%80%EA%B3%A1%EB%B6%84%EC%8B%9D",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 플랫폼 출처(공식 페이지 아님) · 원문: 쌀떡볶이 3,000원 · 수집: prices-busan-naver-2026-10-04.csv",
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 지도 플랫폼 업주 등록 메뉴 · 원문: 쌀떡볶이 3,000원 · 수집: prices-busan-naver-2026-10-04.csv",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -13365,13 +13365,13 @@
     "priceType": "수요형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 부곡분식",
     "sourceUrl": "https://map.naver.com/p/search/%EB%B6%80%EA%B3%A1%EB%B6%84%EC%8B%9D",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 대표 음식: 부산 어묵 · 정가 4,000원, 할인가 2,000원(할인 기간 미표기) · 플랫폼 출처(공식 페이지 아님) · 원문: 오뎅(4개) 50% 2,000원 4,000원 · 수집: prices-busan-naver-2026-10-04.csv",
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 대표 음식: 부산 어묵 · 정가 4,000원, 할인가 2,000원(할인 기간 미표기) · 지도 플랫폼 업주 등록 메뉴 · 원문: 오뎅(4개) 50% 2,000원 4,000원 · 수집: prices-busan-naver-2026-10-04.csv",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -13395,13 +13395,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 스탠다드번 해운대",
     "sourceUrl": "https://map.naver.com/p/search/%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%EB%B2%88%20%ED%95%B4%EC%9A%B4%EB%8C%80",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 카페 커피 · 상호 일부가 화면에서 잘림(해운대 해리…) · 플랫폼 출처(공식 페이지 아님) · 원문: 아메리카노 (H / I) 5,500원 · 수집: prices-busan-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 카페 커피 · 상호 일부가 화면에서 잘림(해운대 해리…) · 지도 플랫폼 업주 등록 메뉴 · 원문: 아메리카노 (H / I) 5,500원 · 수집: prices-busan-naver-2026-10-04.csv"
   },
   {
     "id": "PUS-SN-781",
@@ -13419,13 +13419,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 스탠다드번 해운대",
     "sourceUrl": "https://map.naver.com/p/search/%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%EB%B2%88%20%ED%95%B4%EC%9A%B4%EB%8C%80",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 디저트 · 상호 일부가 화면에서 잘림(해운대 해리…) · 플랫폼 출처(공식 페이지 아님) · 원문: 상하이 버터떡 6,000원 · 수집: prices-busan-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 디저트 · 상호 일부가 화면에서 잘림(해운대 해리…) · 지도 플랫폼 업주 등록 메뉴 · 원문: 상하이 버터떡 6,000원 · 수집: prices-busan-naver-2026-10-04.csv"
   },
   {
     "id": "PUS-TR-001",
@@ -13566,14 +13566,14 @@
     "unit": "1그릇",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "2026",
     "sourceName": "네이버 플레이스 본전돼지국밥 매장 공식 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/13485911/menu/list",
-    "note": "부산역 인근 대표 식당 메뉴판 정가 · 플랫폼 출처(공식 페이지 아님) · 원문: 돼지국밥 10,000원 · 수집: prices-busan.csv · 가격 정정(2026-10-11): 본전돼지국밥 업주 등록 메뉴 \"돼지국밥 11,000원\"(기존 출처 ID는 다른 업소로 연결) · GPT 네이버 재확인"
+    "note": "부산역 인근 대표 식당 메뉴판 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 돼지국밥 10,000원 · 수집: prices-busan.csv · 가격 정정(2026-10-11): 본전돼지국밥 업주 등록 메뉴 \"돼지국밥 11,000원\"(기존 출처 ID는 다른 업소로 연결) · GPT 네이버 재확인"
   },
   {
     "id": "PUS-FD-002",
@@ -13590,14 +13590,14 @@
     "unit": "1그릇",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "네이버 플레이스 초량밀면 매장 공식 메뉴",
     "sourceUrl": "https://map.naver.com/p/entry/place/11603507",
-    "note": "부산 전통 밀면 전문점 메뉴판 정가 · 플랫폼 출처(공식 페이지 아님) · 원문: 물밀면 (소) 7,000원 · 수집: prices-busan.csv"
+    "note": "부산 전통 밀면 전문점 메뉴판 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 물밀면 (소) 7,000원 · 수집: prices-busan.csv"
   },
   {
     "id": "PUS-FD-003",
@@ -13614,14 +13614,14 @@
     "unit": "1인분",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
+    "grade": "B",
     "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "개미집 공식 매장 메뉴판",
     "sourceUrl": "https://map.naver.com/p/entry/place/11628169",
-    "note": "낙지·곱창·새우 볶음(공깃밥 포함 기준) · 플랫폼 출처(공식 페이지 아님) · 원문: 낙곱새 14,000원 · 수집: prices-busan.csv · 모델 제외: 출처 네이버 플레이스 페이지가 사라졌고 지점이 여러 곳이라 가격을 특정할 수 없음(2026-10-11 GPT 재확인)",
+    "note": "낙지·곱창·새우 볶음(공깃밥 포함 기준) · 지도 플랫폼 업주 등록 메뉴 · 원문: 낙곱새 14,000원 · 수집: prices-busan.csv · 모델 제외: 출처 네이버 플레이스 페이지가 사라졌고 지점이 여러 곳이라 가격을 특정할 수 없음(2026-10-11 GPT 재확인)",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -13644,14 +13644,14 @@
     "unit": "1그릇",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "2026",
     "sourceName": "고래사어묵 해운대점 매장 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1814388146/menu/list",
-    "note": "어묵면으로 제조한 우동 식사 메뉴판 정가 · 플랫폼 출처(공식 페이지 아님) · 원문: 어우동 8,000원 · 수집: prices-busan.csv · 가격 정정(2026-10-11): 고래사어묵 부전본점 업주 등록 메뉴 \"어우동 6,000원\" · GPT 네이버 재확인"
+    "note": "어묵면으로 제조한 우동 식사 메뉴판 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 어우동 8,000원 · 수집: prices-busan.csv · 가격 정정(2026-10-11): 고래사어묵 부전본점 업주 등록 메뉴 \"어우동 6,000원\" · GPT 네이버 재확인"
   },
   {
     "id": "PUS-FD-005",
@@ -13668,14 +13668,14 @@
     "unit": "1그릇",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "2026",
     "sourceName": "수변최고돼지국밥 매장 공식 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/37535404/menu/list",
-    "note": "민락본점 메뉴판 정가 · 플랫폼 출처(공식 페이지 아님) · 원문: 고기국밥 10,000원 · 수집: prices-busan.csv · 가격 정정(2026-10-11): 수변최고돼지국밥 민락점 업주 등록 메뉴 \"고기국밥 11,000원\" · GPT 네이버 재확인"
+    "note": "민락본점 메뉴판 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 고기국밥 10,000원 · 수집: prices-busan.csv · 가격 정정(2026-10-11): 수변최고돼지국밥 민락점 업주 등록 메뉴 \"고기국밥 11,000원\" · GPT 네이버 재확인"
   },
   {
     "id": "PUS-FD-006",
@@ -13722,14 +13722,14 @@
     "unit": "1잔",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "2026",
     "sourceName": "모모스커피 온천장 본점 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/37160995/menu/list",
-    "note": "부산 대표 스페셜티 브랜드 핸드드립 메뉴 · 플랫폼 출처(공식 페이지 아님) · 원문: 오늘의 드립커피 6,000원 · 수집: prices-busan.csv · 가격 정정(2026-10-11): 모모스커피 본점 업주 등록 메뉴 \"오늘의 핸드드립 6,800원\" · GPT 네이버 재확인"
+    "note": "부산 대표 스페셜티 브랜드 핸드드립 메뉴 · 지도 플랫폼 업주 등록 메뉴 · 원문: 오늘의 드립커피 6,000원 · 수집: prices-busan.csv · 가격 정정(2026-10-11): 모모스커피 본점 업주 등록 메뉴 \"오늘의 핸드드립 6,800원\" · GPT 네이버 재확인"
   },
   {
     "id": "PUS-FD-008",
@@ -13746,14 +13746,14 @@
     "unit": "1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
+    "grade": "B",
     "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "남포동 BIFF거리 노점 공통 가격게시",
     "sourceUrl": "https://map.naver.com/p/entry/place/12134547",
-    "note": "남포동 BIFF거리 판매 표준 단품 가격 · 플랫폼 출처(공식 페이지 아님) · 원문: 씨앗호떡 2,000원 · 수집: prices-busan.csv · 모델 제외: 출처 네이버 플레이스 페이지가 사라졌고 같은 판매자를 찾지 못함(2026-10-11 GPT 재확인)",
+    "note": "남포동 BIFF거리 판매 표준 단품 가격 · 지도 플랫폼 업주 등록 메뉴 · 원문: 씨앗호떡 2,000원 · 수집: prices-busan.csv · 모델 제외: 출처 네이버 플레이스 페이지가 사라졌고 같은 판매자를 찾지 못함(2026-10-11 GPT 재확인)",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -13836,14 +13836,14 @@
     "unit": "1병",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "본전돼지국밥 매장 공식 주류 메뉴",
     "sourceUrl": "https://map.naver.com/p/entry/place/11568285",
-    "note": "일반 국밥집/식당 매장 메뉴판 주류 정가 · 플랫폼 출처(공식 페이지 아님) · 원문: 소주 5,000원 맥주 5,000원 · 수집: prices-busan.csv"
+    "note": "일반 국밥집/식당 매장 메뉴판 주류 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 소주 5,000원 맥주 5,000원 · 수집: prices-busan.csv"
   },
   {
     "id": "PUS-SV-001",
@@ -13884,14 +13884,14 @@
     "unit": "1상자",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "부산바다샌드 공식 매장 메뉴",
     "sourceUrl": "https://map.naver.com/p/entry/place/1694939243",
-    "note": "해운대 직영 매장 판매 카라멜 샌드쿠키 정가 · 플랫폼 출처(공식 페이지 아님) · 원문: 부산바다샌드 9개입 17,500원 · 수집: prices-busan.csv"
+    "note": "해운대 직영 매장 판매 카라멜 샌드쿠키 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 부산바다샌드 9개입 17,500원 · 수집: prices-busan.csv"
   },
   {
     "id": "PUS-SV-003",
@@ -13908,14 +13908,14 @@
     "unit": "1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
+    "grade": "B",
     "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "부산관광기념품점 공식 안내",
     "sourceUrl": "https://map.naver.com/p/entry/place/1971758950",
-    "note": "부산 대표 랜드마크 마그넷 공식 판매처 가격 · 플랫폼 출처(공식 페이지 아님) · 원문: 광안대교 마그넷 8,000원 · 수집: prices-busan.csv",
+    "note": "부산 대표 랜드마크 마그넷 공식 판매처 가격 · 지도 플랫폼 업주 등록 메뉴 · 원문: 광안대교 마그넷 8,000원 · 수집: prices-busan.csv",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -19386,14 +19386,14 @@
     "unit": "1인분",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.05.04",
     "sourceName": "초당할머니순두부 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/707048046/menu/list",
-    "note": "동일 메뉴 페이지를 다시 접속해 14,000원을 재확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 순두부백반 14,000원 · 수집: prices-gangneung-2026-10-11.csv"
+    "note": "동일 메뉴 페이지를 다시 접속해 14,000원을 재확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 순두부백반 14,000원 · 수집: prices-gangneung-2026-10-11.csv"
   },
   {
     "id": "GNG-FD-102",
@@ -19410,14 +19410,14 @@
     "unit": "1인분",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.10.11",
     "sourceName": "강릉역옹막 경포점 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/2037157200/menu/list",
-    "note": "같은 메뉴 페이지를 재접속·새로고침해 11,000원을 재확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 감자옹심이 매일 아침 직접 갈아만드는 100% 생감자 옹심이 11,000원 · 수집: prices-gangneung-2026-10-11.csv"
+    "note": "같은 메뉴 페이지를 재접속·새로고침해 11,000원을 재확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 감자옹심이 매일 아침 직접 갈아만드는 100% 생감자 옹심이 11,000원 · 수집: prices-gangneung-2026-10-11.csv"
   },
   {
     "id": "GNG-FD-103",
@@ -19434,14 +19434,14 @@
     "unit": "1인분",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.09.25",
     "sourceName": "강릉한정식 하서주미역 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1625048966/menu/list",
-    "note": "동일 페이지 재접속·새로고침 후 동일 가격 확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 하서주 미역국 정찬 15,000원 · 수집: prices-gangneung-2026-10-11.csv"
+    "note": "동일 페이지 재접속·새로고침 후 동일 가격 확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 하서주 미역국 정찬 15,000원 · 수집: prices-gangneung-2026-10-11.csv"
   },
   {
     "id": "GNG-SN-101",
@@ -19458,14 +19458,14 @@
     "unit": "1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.10.11",
     "sourceName": "강릉역옹막 경포점 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/2037157200/menu/list",
-    "note": "메뉴에 크기·중량은 별도 표기되지 않음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 옹막감자쫀드기 9,000원 · 수집: prices-gangneung-2026-10-11.csv"
+    "note": "메뉴에 크기·중량은 별도 표기되지 않음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 옹막감자쫀드기 9,000원 · 수집: prices-gangneung-2026-10-11.csv"
   },
   {
     "id": "GNG-SN-102",
@@ -19482,14 +19482,14 @@
     "unit": "1잔",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.08.31",
     "sourceName": "테라로사 커피공장 강릉본점 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/10968214/menu/list",
-    "note": "동일 페이지를 다시 열고 새로고침해 같은 가격 재확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 아메리카노 5,500원 · 수집: prices-gangneung-2026-10-11.csv"
+    "note": "동일 페이지를 다시 열고 새로고침해 같은 가격 재확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 아메리카노 5,500원 · 수집: prices-gangneung-2026-10-11.csv"
   },
   {
     "id": "GNG-SN-103",
@@ -19506,14 +19506,14 @@
     "unit": "1잔",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.08.31",
     "sourceName": "테라로사 커피공장 강릉본점 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/10968214/menu/list",
-    "note": "동일 페이지 재접속·새로고침으로 재확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 카페라테 6,000원 · 수집: prices-gangneung-2026-10-11.csv"
+    "note": "동일 페이지 재접속·새로고침으로 재확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 카페라테 6,000원 · 수집: prices-gangneung-2026-10-11.csv"
   },
   {
     "id": "GNG-SN-104",
@@ -19530,14 +19530,14 @@
     "unit": "1잔",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.08.31",
     "sourceName": "테라로사 커피공장 강릉본점 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/10968214/menu/list",
-    "note": "동일 페이지 재접속·새로고침으로 재확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 카푸치노 6,000원 · 수집: prices-gangneung-2026-10-11.csv"
+    "note": "동일 페이지 재접속·새로고침으로 재확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 카푸치노 6,000원 · 수집: prices-gangneung-2026-10-11.csv"
   },
   {
     "id": "GNG-AL-101",
@@ -19554,14 +19554,14 @@
     "unit": "1개 메뉴",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.10.11",
     "sourceName": "강릉역옹막 경포점 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/2037157200/menu/list",
-    "note": "메뉴에 용량·병 수는 별도 표시되지 않아 메뉴 단위 그대로 기재. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 옹막딸기막걸리 8,000원 · 수집: prices-gangneung-2026-10-11.csv"
+    "note": "메뉴에 용량·병 수는 별도 표시되지 않아 메뉴 단위 그대로 기재. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 옹막딸기막걸리 8,000원 · 수집: prices-gangneung-2026-10-11.csv"
   },
   {
     "id": "GNG-AL-102",
@@ -19578,14 +19578,14 @@
     "unit": "메뉴 1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.08.16",
     "sourceName": "강릉브루어리 바이 현 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1832471577/menu/list",
-    "note": "업주 메뉴 페이지를 다시 열어 재확인. 메뉴에 용량·잔 크기 표기 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 페일에일 6,500원 · 수집: prices-gangneung-2026-10-11.csv"
+    "note": "업주 메뉴 페이지를 다시 열어 재확인. 메뉴에 용량·잔 크기 표기 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 페일에일 6,500원 · 수집: prices-gangneung-2026-10-11.csv"
   },
   {
     "id": "GNG-AL-103",
@@ -19602,14 +19602,14 @@
     "unit": "메뉴 1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.08.16",
     "sourceName": "강릉브루어리 바이 현 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1832471577/menu/list",
-    "note": "업주 메뉴 페이지를 다시 열어 재확인. 메뉴에 용량·잔 크기 표기 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 바이젠 7,000원 · 수집: prices-gangneung-2026-10-11.csv"
+    "note": "업주 메뉴 페이지를 다시 열어 재확인. 메뉴에 용량·잔 크기 표기 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 바이젠 7,000원 · 수집: prices-gangneung-2026-10-11.csv"
   },
   {
     "id": "TYO-AT-206",
@@ -20544,14 +20544,14 @@
     "unit": "1인분",
     "priceType": "메뉴가",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-12",
     "applied": "게시일 표기 없음",
     "sourceName": "명동교자 본점 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://m.place.naver.com/restaurant/11592650/menu/list",
-    "note": "개별 그릇 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 플랫폼 출처(공식 페이지 아님) · 원문: 칼국수 12,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
+    "note": "개별 그릇 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 지도 플랫폼 업주 등록 메뉴 · 원문: 칼국수 12,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
   },
   {
     "id": "SEL-FD-901",
@@ -20568,14 +20568,14 @@
     "unit": "1인분",
     "priceType": "메뉴가",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-12",
     "applied": "게시일 표기 없음",
     "sourceName": "황생가칼국수 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://m.place.naver.com/restaurant/11679429/menu/list",
-    "note": "개별 그릇 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 플랫폼 출처(공식 페이지 아님) · 원문: 대표 사골칼국수 13,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
+    "note": "개별 그릇 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 지도 플랫폼 업주 등록 메뉴 · 원문: 대표 사골칼국수 13,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
   },
   {
     "id": "SEL-FD-902",
@@ -20592,14 +20592,14 @@
     "unit": "1인분",
     "priceType": "메뉴가",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-12",
     "applied": "게시일 표기 없음",
     "sourceName": "이문설농탕 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://m.place.naver.com/restaurant/11711983/menu/list",
-    "note": "개별 그릇 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 플랫폼 출처(공식 페이지 아님) · 원문: 대표 설농탕 15,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
+    "note": "개별 그릇 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 지도 플랫폼 업주 등록 메뉴 · 원문: 대표 설농탕 15,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
   },
   {
     "id": "SEL-FD-903",
@@ -20616,14 +20616,14 @@
     "unit": "1인분",
     "priceType": "메뉴가",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-12",
     "applied": "네이버 표시 최근 업데이트 2026-09-21",
     "sourceName": "오레노라멘 본점 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://m.place.naver.com/restaurant/814481697/menu/list",
-    "note": "개별 그릇 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 플랫폼 출처(공식 페이지 아님) · 원문: 토리빠이탄 라멘 13,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
+    "note": "개별 그릇 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 지도 플랫폼 업주 등록 메뉴 · 원문: 토리빠이탄 라멘 13,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
   },
   {
     "id": "SEL-FD-904",
@@ -20640,14 +20640,14 @@
     "unit": "1인분",
     "priceType": "메뉴가",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-12",
     "applied": "네이버 표시 최근 업데이트 2026-03-03",
     "sourceName": "광화문미진 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://m.place.naver.com/restaurant/11680222/menu/list",
-    "note": "개별 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 플랫폼 출처(공식 페이지 아님) · 원문: 냉메밀 12,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
+    "note": "개별 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 지도 플랫폼 업주 등록 메뉴 · 원문: 냉메밀 12,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
   },
   {
     "id": "PUS-FD-900",
@@ -20664,14 +20664,14 @@
     "unit": "1인분",
     "priceType": "메뉴가",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-12",
     "applied": "네이버 표시 최근 업데이트 2026-09-11",
     "sourceName": "진돼지곰탕 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://m.place.naver.com/restaurant/1417059494/menu/list",
-    "note": "개별 그릇 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 플랫폼 출처(공식 페이지 아님) · 원문: 대표 돼지곰탕 13,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
+    "note": "개별 그릇 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 지도 플랫폼 업주 등록 메뉴 · 원문: 대표 돼지곰탕 13,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
   },
   {
     "id": "PUS-FD-901",
@@ -20688,14 +20688,14 @@
     "unit": "1인분",
     "priceType": "메뉴가",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-12",
     "applied": "게시일 표기 없음",
     "sourceName": "나막집 용호동본점 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://m.place.naver.com/restaurant/1964006114/menu/list",
-    "note": "개별 그릇 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 플랫폼 출처(공식 페이지 아님) · 원문: 돼지곰탕 12,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
+    "note": "개별 그릇 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 지도 플랫폼 업주 등록 메뉴 · 원문: 돼지곰탕 12,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
   },
   {
     "id": "PUS-FD-902",
@@ -20712,14 +20712,14 @@
     "unit": "1인분",
     "priceType": "메뉴가",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-12",
     "applied": "네이버 표시 최근 업데이트 2026-09-11",
     "sourceName": "금수복국 해운대본점 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://m.place.naver.com/restaurant/11672174/menu/list",
-    "note": "표시된 기본 메뉴 가격. 지리·탕 외 선택 및 추가 옵션은 별도 표기됨. 같은 메뉴 페이지 재확인. · 플랫폼 출처(공식 페이지 아님) · 원문: 은복국 [지리, 탕] 15,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
+    "note": "표시된 기본 메뉴 가격. 지리·탕 외 선택 및 추가 옵션은 별도 표기됨. 같은 메뉴 페이지 재확인. · 지도 플랫폼 업주 등록 메뉴 · 원문: 은복국 [지리, 탕] 15,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
   },
   {
     "id": "PUS-FD-903",
@@ -20736,14 +20736,14 @@
     "unit": "1인분",
     "priceType": "메뉴가",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-12",
     "applied": "게시일 표기 없음",
     "sourceName": "뉴러우멘관즈 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://m.place.naver.com/restaurant/1394729619/menu/list",
-    "note": "개별 그릇 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 플랫폼 출처(공식 페이지 아님) · 원문: 대표 홍샤오 뉴러우멘(소) 13,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
+    "note": "개별 그릇 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 지도 플랫폼 업주 등록 메뉴 · 원문: 대표 홍샤오 뉴러우멘(소) 13,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
   },
   {
     "id": "PUS-FD-904",
@@ -20760,14 +20760,14 @@
     "unit": "1인분",
     "priceType": "메뉴가",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-12",
     "applied": "네이버 표시 최근 업데이트 2026-07-31",
     "sourceName": "합천국밥집 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://m.place.naver.com/restaurant/11872316/menu/list",
-    "note": "개별 그릇 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 플랫폼 출처(공식 페이지 아님) · 원문: 따로국밥 13,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
+    "note": "개별 그릇 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 지도 플랫폼 업주 등록 메뉴 · 원문: 따로국밥 13,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
   },
   {
     "id": "CJU-FD-900",
@@ -20784,14 +20784,14 @@
     "unit": "1인분",
     "priceType": "메뉴가",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-12",
     "applied": "네이버 표시 최근 업데이트 2025-10-27",
     "sourceName": "명진전복 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://m.place.naver.com/restaurant/17032617/menu/list",
-    "note": "단품 식사 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 플랫폼 출처(공식 페이지 아님) · 원문: 전복돌솥밥 16,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
+    "note": "단품 식사 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 지도 플랫폼 업주 등록 메뉴 · 원문: 전복돌솥밥 16,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
   },
   {
     "id": "CJU-FD-901",
@@ -20808,14 +20808,14 @@
     "unit": "1인분",
     "priceType": "메뉴가",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-12",
     "applied": "네이버 표시 최근 업데이트 2025-07-31",
     "sourceName": "순옥이네명가 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://m.place.naver.com/restaurant/11595461/menu/list",
-    "note": "단품 식사 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 플랫폼 출처(공식 페이지 아님) · 원문: 전복죽 13,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
+    "note": "단품 식사 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 지도 플랫폼 업주 등록 메뉴 · 원문: 전복죽 13,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
   },
   {
     "id": "CJU-FD-902",
@@ -20832,14 +20832,14 @@
     "unit": "1인분",
     "priceType": "메뉴가",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-12",
     "applied": "네이버 표시 최근 업데이트 2026-09-23",
     "sourceName": "이춘옥원조고등어쌈밥 제주애월본점 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://m.place.naver.com/restaurant/19872990/menu/list",
-    "note": "메뉴명에 1인 표기가 있음. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 플랫폼 출처(공식 페이지 아님) · 원문: 전복뚝배기 1인 17,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
+    "note": "메뉴명에 1인 표기가 있음. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 지도 플랫폼 업주 등록 메뉴 · 원문: 전복뚝배기 1인 17,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
   },
   {
     "id": "CJU-FD-903",
@@ -20856,14 +20856,14 @@
     "unit": "1인분",
     "priceType": "메뉴가",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-12",
     "applied": "네이버 표시 최근 업데이트 2026-04-30",
     "sourceName": "협재수우동 협재점 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://m.place.naver.com/restaurant/36823910/menu/list",
-    "note": "단품 면 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 플랫폼 출처(공식 페이지 아님) · 원문: 자작냉우동 15,500원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
+    "note": "단품 면 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 지도 플랫폼 업주 등록 메뉴 · 원문: 자작냉우동 15,500원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
   },
   {
     "id": "CJU-FD-904",
@@ -20880,14 +20880,14 @@
     "unit": "1인분",
     "priceType": "메뉴가",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-12",
     "applied": "게시일 표기 없음",
     "sourceName": "한라산아래첫마을 영농조합법인 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://m.place.naver.com/restaurant/363214380/menu/list",
-    "note": "단품 면 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 플랫폼 출처(공식 페이지 아님) · 원문: 제주메밀 비비작작면 16,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
+    "note": "단품 면 메뉴. 같은 메뉴 페이지를 다시 열어 가격을 대조함. · 지도 플랫폼 업주 등록 메뉴 · 원문: 제주메밀 비비작작면 16,000원 · 수집: prices-gpt-korea-mid-2026-10-12.csv"
   },
   {
     "id": "OSA-TR-801",
@@ -21722,14 +21722,14 @@
     "unit": "메뉴 1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.01.02",
     "sourceName": "교리김밥 본점 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/21701372/menu/list",
-    "note": "직접 주문 단위 가격으로 확인; 메뉴에 1인분/중량 표기는 별도 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 교리국수 9,000원 · 수집: prices-gyeongju-2026-10-11.csv"
+    "note": "직접 주문 단위 가격으로 확인; 메뉴에 1인분/중량 표기는 별도 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 교리국수 9,000원 · 수집: prices-gyeongju-2026-10-11.csv"
   },
   {
     "id": "GJU-FD-102",
@@ -21746,14 +21746,14 @@
     "unit": "메뉴 1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.05.29",
     "sourceName": "경주 원조콩국 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/11889476/menu/list",
-    "note": "직접 주문 단위 가격으로 확인; 메뉴에 1인분/중량 표기는 별도 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 콩국수 10,000원 · 수집: prices-gyeongju-2026-10-11.csv"
+    "note": "직접 주문 단위 가격으로 확인; 메뉴에 1인분/중량 표기는 별도 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 콩국수 10,000원 · 수집: prices-gyeongju-2026-10-11.csv"
   },
   {
     "id": "GJU-FD-103",
@@ -21770,14 +21770,14 @@
     "unit": "메뉴 1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.09.11",
     "sourceName": "경주밀면여행밀면 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/34647228/menu/list",
-    "note": "직접 주문 단위 가격으로 확인; 메뉴는 기본 물밀면 9,000원, 곱빼기 추가 1,000원으로 표기. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 대표 물밀면 (곱빼기1000원추가) 자가제면, 한방육수, 소고기육전 9,000원 · 수집: prices-gyeongju-2026-10-11.csv"
+    "note": "직접 주문 단위 가격으로 확인; 메뉴는 기본 물밀면 9,000원, 곱빼기 추가 1,000원으로 표기. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 대표 물밀면 (곱빼기1000원추가) 자가제면, 한방육수, 소고기육전 9,000원 · 수집: prices-gyeongju-2026-10-11.csv"
   },
   {
     "id": "GJU-SN-101",
@@ -21794,14 +21794,14 @@
     "unit": "1잔",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.01.29",
     "sourceName": "두낫디스터브 경주본점 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1412715086/menu/list",
-    "note": "동일 업주 메뉴 페이지를 새로고침해 같은 가격 재확인. 메뉴 크기·용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 아메리카노 5,500원 · 수집: prices-gyeongju-2026-10-11.csv"
+    "note": "동일 업주 메뉴 페이지를 새로고침해 같은 가격 재확인. 메뉴 크기·용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 아메리카노 5,500원 · 수집: prices-gyeongju-2026-10-11.csv"
   },
   {
     "id": "GJU-SN-102",
@@ -21818,14 +21818,14 @@
     "unit": "1잔",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.01.29",
     "sourceName": "두낫디스터브 경주본점 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1412715086/menu/list",
-    "note": "동일 업주 메뉴 페이지를 새로고침해 같은 가격 재확인. 메뉴 크기·용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 카페라떼 6,000원 · 수집: prices-gyeongju-2026-10-11.csv"
+    "note": "동일 업주 메뉴 페이지를 새로고침해 같은 가격 재확인. 메뉴 크기·용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 카페라떼 6,000원 · 수집: prices-gyeongju-2026-10-11.csv"
   },
   {
     "id": "GJU-SN-103",
@@ -21842,14 +21842,14 @@
     "unit": "1잔",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.01.29",
     "sourceName": "두낫디스터브 경주본점 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1412715086/menu/list",
-    "note": "동일 업주 메뉴 페이지를 새로고침해 같은 가격 재확인. 메뉴 크기·용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 두낫슈페너 7,000원 · 수집: prices-gyeongju-2026-10-11.csv"
+    "note": "동일 업주 메뉴 페이지를 새로고침해 같은 가격 재확인. 메뉴 크기·용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 두낫슈페너 7,000원 · 수집: prices-gyeongju-2026-10-11.csv"
   },
   {
     "id": "GJU-AL-101",
@@ -21866,14 +21866,14 @@
     "unit": "메뉴 1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.08.15",
     "sourceName": "계림주막 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1045912984/menu/list",
-    "note": "동일 업주 메뉴 페이지를 새로고침해 같은 가격 재확인. 병 용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 계림 생막걸리 12,000원 · 수집: prices-gyeongju-2026-10-11.csv"
+    "note": "동일 업주 메뉴 페이지를 새로고침해 같은 가격 재확인. 병 용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 계림 생막걸리 12,000원 · 수집: prices-gyeongju-2026-10-11.csv"
   },
   {
     "id": "GJU-AL-102",
@@ -21890,14 +21890,14 @@
     "unit": "메뉴 1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.08.15",
     "sourceName": "계림주막 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1045912984/menu/list",
-    "note": "동일 업주 메뉴 페이지를 새로고침해 같은 가격 재확인. 병 용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 경주법주 쌀 막걸리 7,000원 · 수집: prices-gyeongju-2026-10-11.csv"
+    "note": "동일 업주 메뉴 페이지를 새로고침해 같은 가격 재확인. 병 용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 경주법주 쌀 막걸리 7,000원 · 수집: prices-gyeongju-2026-10-11.csv"
   },
   {
     "id": "GJU-AL-103",
@@ -21914,14 +21914,14 @@
     "unit": "메뉴 1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 26.08.15",
     "sourceName": "계림주막 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1045912984/menu/list",
-    "note": "동일 업주 메뉴 페이지를 새로고침해 같은 가격 재확인. 병 용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 장수 생막걸리 8,000원 · 수집: prices-gyeongju-2026-10-11.csv"
+    "note": "동일 업주 메뉴 페이지를 새로고침해 같은 가격 재확인. 병 용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 장수 생막걸리 8,000원 · 수집: prices-gyeongju-2026-10-11.csv"
   },
   {
     "id": "HAN-TR-101",
@@ -23955,13 +23955,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 소산도",
     "sourceUrl": "https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 플랫폼 출처(공식 페이지 아님) · 원문: 우도흑돼지안심카츠 17,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 지도 플랫폼 업주 등록 메뉴 · 원문: 우도흑돼지안심카츠 17,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "CJU-FD-761",
@@ -23979,13 +23979,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 소산도",
     "sourceUrl": "https://map.naver.com/p/search/%EC%86%8C%EC%82%B0%EB%8F%84",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 플랫폼 출처(공식 페이지 아님) · 원문: 흑돼지우도등심카츠 16,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 지도 플랫폼 업주 등록 메뉴 · 원문: 흑돼지우도등심카츠 16,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "CJU-FD-762",
@@ -24003,13 +24003,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 제주고사리해장국 중문",
     "sourceUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 상호 일부가 화면에서 잘림(중문…) · 플랫폼 출처(공식 페이지 아님) · 원문: 제주식 고사리해장국 11,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 상호 일부가 화면에서 잘림(중문…) · 지도 플랫폼 업주 등록 메뉴 · 원문: 제주식 고사리해장국 11,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "CJU-FD-763",
@@ -24027,13 +24027,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 제주고사리해장국 중문",
     "sourceUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 상호 일부가 화면에서 잘림(중문…) · 플랫폼 출처(공식 페이지 아님) · 원문: 몸국 11,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 상호 일부가 화면에서 잘림(중문…) · 지도 플랫폼 업주 등록 메뉴 · 원문: 몸국 11,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "CJU-FD-764",
@@ -24051,13 +24051,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 제주고사리해장국 중문",
     "sourceUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%EA%B3%A0%EC%82%AC%EB%A6%AC%ED%95%B4%EC%9E%A5%EA%B5%AD%20%EC%A4%91%EB%AC%B8",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 상호 일부가 화면에서 잘림(중문…) · 플랫폼 출처(공식 페이지 아님) · 원문: 접짝뼈국 12,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 상호 일부가 화면에서 잘림(중문…) · 지도 플랫폼 업주 등록 메뉴 · 원문: 접짝뼈국 12,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "CJU-FD-765",
@@ -24075,13 +24075,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 성산바다풍경 제주성산",
     "sourceUrl": "https://map.naver.com/p/search/%EC%84%B1%EC%82%B0%EB%B0%94%EB%8B%A4%ED%92%8D%EA%B2%BD%20%EC%A0%9C%EC%A3%BC%EC%84%B1%EC%82%B0",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 메뉴 최근 업데이트 26.03.06 · 플랫폼 출처(공식 페이지 아님) · 원문: ♠바다풍경뚝배기♠ 16,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 메뉴 최근 업데이트 26.03.06 · 지도 플랫폼 업주 등록 메뉴 · 원문: ♠바다풍경뚝배기♠ 16,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "CJU-FD-766",
@@ -24099,13 +24099,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 성산바다풍경 제주성산",
     "sourceUrl": "https://map.naver.com/p/search/%EC%84%B1%EC%82%B0%EB%B0%94%EB%8B%A4%ED%92%8D%EA%B2%BD%20%EC%A0%9C%EC%A3%BC%EC%84%B1%EC%82%B0",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 메뉴 최근 업데이트 26.03.06 · 플랫폼 출처(공식 페이지 아님) · 원문: ♠오분자기뚝배기♠ 19,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 메뉴 최근 업데이트 26.03.06 · 지도 플랫폼 업주 등록 메뉴 · 원문: ♠오분자기뚝배기♠ 19,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "CJU-FD-767",
@@ -24123,13 +24123,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 금돗 성산흑돼지",
     "sourceUrl": "https://map.naver.com/p/search/%EA%B8%88%EB%8F%97%20%EC%84%B1%EC%82%B0%ED%9D%91%EB%8F%BC%EC%A7%80",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 고기 주문 시 곁들이는 식사 메뉴일 수 있음 · 플랫폼 출처(공식 페이지 아님) · 원문: 금돗 묵은지 흑돼지 김치찌개 7,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 고기 주문 시 곁들이는 식사 메뉴일 수 있음 · 지도 플랫폼 업주 등록 메뉴 · 원문: 금돗 묵은지 흑돼지 김치찌개 7,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "CJU-FD-768",
@@ -24147,13 +24147,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 금돗 성산흑돼지",
     "sourceUrl": "https://map.naver.com/p/search/%EA%B8%88%EB%8F%97%20%EC%84%B1%EC%82%B0%ED%9D%91%EB%8F%BC%EC%A7%80",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 고기 주문 시 곁들이는 식사 메뉴일 수 있음 · 플랫폼 출처(공식 페이지 아님) · 원문: 금돗열무국수 7,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 고기 주문 시 곁들이는 식사 메뉴일 수 있음 · 지도 플랫폼 업주 등록 메뉴 · 원문: 금돗열무국수 7,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "SEL-FD-760",
@@ -24171,13 +24171,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 청돈옥 홍대본점",
     "sourceUrl": "https://map.naver.com/p/search/%EC%B2%AD%EB%8F%88%EC%98%A5%20%ED%99%8D%EB%8C%80%EB%B3%B8%EC%A0%90",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 플랫폼 출처(공식 페이지 아님) · 원문: 묵은지김치찌개 8,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 지도 플랫폼 업주 등록 메뉴 · 원문: 묵은지김치찌개 8,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "SEL-FD-761",
@@ -24195,13 +24195,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 청돈옥 홍대본점",
     "sourceUrl": "https://map.naver.com/p/search/%EC%B2%AD%EB%8F%88%EC%98%A5%20%ED%99%8D%EB%8C%80%EB%B3%B8%EC%A0%90",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 플랫폼 출처(공식 페이지 아님) · 원문: 수육비빔면 8,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 지도 플랫폼 업주 등록 메뉴 · 원문: 수육비빔면 8,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "SEL-AL-762",
@@ -24219,13 +24219,13 @@
     "priceType": "메뉴형",
     "target": "성인",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 청돈옥 홍대본점",
     "sourceUrl": "https://map.naver.com/p/search/%EC%B2%AD%EB%8F%88%EC%98%A5%20%ED%99%8D%EB%8C%80%EB%B3%B8%EC%A0%90",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 식당 하이볼 1잔 · 플랫폼 출처(공식 페이지 아님) · 원문: 하이볼(얼그레이,히비스커스,복숭아) 8,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 식당 하이볼 1잔 · 지도 플랫폼 업주 등록 메뉴 · 원문: 하이볼(얼그레이,히비스커스,복숭아) 8,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "SEL-FD-763",
@@ -24243,13 +24243,13 @@
     "priceType": "요일형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 박만배아리랑보쌈 방이점",
     "sourceUrl": "https://map.naver.com/p/search/%EB%B0%95%EB%A7%8C%EB%B0%B0%EC%95%84%EB%A6%AC%EB%9E%91%EB%B3%B4%EC%8C%88%20%EB%B0%A9%EC%9D%B4%EC%A0%90",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 평일 오후 3시까지 판매 · 플랫폼 출처(공식 페이지 아님) · 원문: [점심] 보쌈정식 (평일 한정) 12,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 평일 오후 3시까지 판매 · 지도 플랫폼 업주 등록 메뉴 · 원문: [점심] 보쌈정식 (평일 한정) 12,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "SEL-AL-764",
@@ -24267,13 +24267,13 @@
     "priceType": "메뉴형",
     "target": "성인",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 송탄진대광부대찌개",
     "sourceUrl": "https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 식당 소주 · 나눠 마시는 병 · 지점명 일부가 화면에서 잘림(성…) · 플랫폼 출처(공식 페이지 아님) · 원문: 소주 4,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 식당 소주 · 나눠 마시는 병 · 지점명 일부가 화면에서 잘림(성…) · 지도 플랫폼 업주 등록 메뉴 · 원문: 소주 4,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -24297,13 +24297,13 @@
     "priceType": "메뉴형",
     "target": "성인",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 송탄진대광부대찌개",
     "sourceUrl": "https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 식당 병맥주(카스) · 지점명 일부가 화면에서 잘림(성…) · 플랫폼 출처(공식 페이지 아님) · 원문: 맥주 5,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 식당 병맥주(카스) · 지점명 일부가 화면에서 잘림(성…) · 지도 플랫폼 업주 등록 메뉴 · 원문: 맥주 5,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -24327,13 +24327,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 송탄진대광부대찌개",
     "sourceUrl": "https://map.naver.com/p/search/%EC%86%A1%ED%83%84%EC%A7%84%EB%8C%80%EA%B4%91%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 식당 탄산음료 · 지점명 일부가 화면에서 잘림(성…) · 플랫폼 출처(공식 페이지 아님) · 원문: 음료 2,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 식당 탄산음료 · 지점명 일부가 화면에서 잘림(성…) · 지도 플랫폼 업주 등록 메뉴 · 원문: 음료 2,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -24357,13 +24357,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 미르오메기떡",
     "sourceUrl": "https://map.naver.com/p/search/%EB%AF%B8%EB%A5%B4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 플랫폼 출처(공식 페이지 아님) · 원문: 오메기떡(낱개) 900원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 지도 플랫폼 업주 등록 메뉴 · 원문: 오메기떡(낱개) 900원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "CJU-SN-771",
@@ -24381,13 +24381,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 춘심이네오메기떡",
     "sourceUrl": "https://map.naver.com/p/search/%EC%B6%98%EC%8B%AC%EC%9D%B4%EB%84%A4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 메뉴 최근 업데이트 26.06.23 · 플랫폼 출처(공식 페이지 아님) · 원문: 4종 오메기떡 (개당) 1,200원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 메뉴 최근 업데이트 26.06.23 · 지도 플랫폼 업주 등록 메뉴 · 원문: 4종 오메기떡 (개당) 1,200원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "CJU-SN-772",
@@ -24405,13 +24405,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 할머니떡집 오메기떡",
     "sourceUrl": "https://map.naver.com/p/search/%ED%95%A0%EB%A8%B8%EB%8B%88%EB%96%A1%EC%A7%91%20%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 플랫폼 출처(공식 페이지 아님) · 원문: 감귤모찌 1팩 5,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 지도 플랫폼 업주 등록 메뉴 · 원문: 감귤모찌 1팩 5,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "CJU-SV-773",
@@ -24429,13 +24429,13 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 미르오메기떡",
     "sourceUrl": "https://map.naver.com/p/search/%EB%AF%B8%EB%A5%B4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 택배 주문 시 택배비 5,000원 추가 · 플랫폼 출처(공식 페이지 아님) · 원문: 미르오메기떡 혼합30알 27,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 택배 주문 시 택배비 5,000원 추가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 미르오메기떡 혼합30알 27,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -24459,13 +24459,13 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 춘심이네오메기떡",
     "sourceUrl": "https://map.naver.com/p/search/%EC%B6%98%EC%8B%AC%EC%9D%B4%EB%84%A4%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 메뉴 최근 업데이트 26.06.23 · 플랫폼 출처(공식 페이지 아님) · 원문: 오메기떡 40개 39,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 메뉴 최근 업데이트 26.06.23 · 지도 플랫폼 업주 등록 메뉴 · 원문: 오메기떡 40개 39,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -24489,13 +24489,13 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 할머니떡집 오메기떡",
     "sourceUrl": "https://map.naver.com/p/search/%ED%95%A0%EB%A8%B8%EB%8B%88%EB%96%A1%EC%A7%91%20%EC%98%A4%EB%A9%94%EA%B8%B0%EB%96%A1",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 플랫폼 출처(공식 페이지 아님) · 원문: 오메기떡 11개 (4종류) 10,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 지도 플랫폼 업주 등록 메뉴 · 원문: 오메기떡 11개 (4종류) 10,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -24519,13 +24519,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · LOOOP 루프 베이커리 카페 성수",
     "sourceUrl": "https://map.naver.com/p/search/LOOOP%20%EB%A3%A8%ED%94%84%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%B9%B4%ED%8E%98%20%EC%84%B1%EC%88%98",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 카페 커피 · 성수 · 플랫폼 출처(공식 페이지 아님) · 원문: 아메리카노 6,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 카페 커피 · 성수 · 지도 플랫폼 업주 등록 메뉴 · 원문: 아메리카노 6,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "SEL-SN-783",
@@ -24543,13 +24543,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 아쿠아산타 성수카페",
     "sourceUrl": "https://map.naver.com/p/search/%EC%95%84%EC%BF%A0%EC%95%84%EC%82%B0%ED%83%80%20%EC%84%B1%EC%88%98%EC%B9%B4%ED%8E%98",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 디저트 · 성수 · 플랫폼 출처(공식 페이지 아님) · 원문: 1인용 프레지에*시그니처* 12,900원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 디저트 · 성수 · 지도 플랫폼 업주 등록 메뉴 · 원문: 1인용 프레지에*시그니처* 12,900원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "SEL-SN-784",
@@ -24567,13 +24567,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 아쿠아산타 성수카페",
     "sourceUrl": "https://map.naver.com/p/search/%EC%95%84%EC%BF%A0%EC%95%84%EC%82%B0%ED%83%80%20%EC%84%B1%EC%88%98%EC%B9%B4%ED%8E%98",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 성수 · 플랫폼 출처(공식 페이지 아님) · 원문: 수박주스 8,500원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 성수 · 지도 플랫폼 업주 등록 메뉴 · 원문: 수박주스 8,500원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -24597,13 +24597,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 성수다락",
     "sourceUrl": "https://map.naver.com/p/search/%EC%84%B1%EC%88%98%EB%8B%A4%EB%9D%BD",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 성수 · 플랫폼 출처(공식 페이지 아님) · 원문: 다락 오므라이스 17,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 성수 · 지도 플랫폼 업주 등록 메뉴 · 원문: 다락 오므라이스 17,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "SEL-FD-786",
@@ -24621,13 +24621,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 성수다락",
     "sourceUrl": "https://map.naver.com/p/search/%EC%84%B1%EC%88%98%EB%8B%A4%EB%9D%BD",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 성수 · 플랫폼 출처(공식 페이지 아님) · 원문: 다락 로제 파스타 19,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 성수 · 지도 플랫폼 업주 등록 메뉴 · 원문: 다락 로제 파스타 19,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "SEL-FD-787",
@@ -24645,13 +24645,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 꾸띠자르당",
     "sourceUrl": "https://map.naver.com/p/search/%EA%BE%B8%EB%9D%A0%EC%9E%90%EB%A5%B4%EB%8B%B9",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 1인 세트(수프·커피 포함) · 이태원 · 플랫폼 출처(공식 페이지 아님) · 원문: 에그 베네딕트 런치 세트(수프+커피) 17,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 1인 세트(수프·커피 포함) · 이태원 · 지도 플랫폼 업주 등록 메뉴 · 원문: 에그 베네딕트 런치 세트(수프+커피) 17,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "SEL-FD-788",
@@ -24669,13 +24669,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 이태원사랑채",
     "sourceUrl": "https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 이태원 · 메뉴 최근 업데이트 26.09.17 · 플랫폼 출처(공식 페이지 아님) · 원문: 충무김밥 13,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 이태원 · 메뉴 최근 업데이트 26.09.17 · 지도 플랫폼 업주 등록 메뉴 · 원문: 충무김밥 13,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "SEL-AL-789",
@@ -24693,13 +24693,13 @@
     "priceType": "메뉴형",
     "target": "성인",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 이태원사랑채",
     "sourceUrl": "https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 식당 막걸리 · 나눠 마시는 병 · 이태원 · 플랫폼 출처(공식 페이지 아님) · 원문: 장수막걸리 6,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 식당 막걸리 · 나눠 마시는 병 · 이태원 · 지도 플랫폼 업주 등록 메뉴 · 원문: 장수막걸리 6,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "SEL-AL-790",
@@ -24717,13 +24717,13 @@
     "priceType": "메뉴형",
     "target": "성인",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 이태원사랑채",
     "sourceUrl": "https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 식당 소주 · 나눠 마시는 병 · 이태원 · 플랫폼 출처(공식 페이지 아님) · 원문: 소주 6,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 식당 소주 · 나눠 마시는 병 · 이태원 · 지도 플랫폼 업주 등록 메뉴 · 원문: 소주 6,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "SEL-AL-791",
@@ -24741,13 +24741,13 @@
     "priceType": "메뉴형",
     "target": "성인",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 이태원사랑채",
     "sourceUrl": "https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 식당 병맥주 · 이태원 · 플랫폼 출처(공식 페이지 아님) · 원문: 맥주 6,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 식당 병맥주 · 이태원 · 지도 플랫폼 업주 등록 메뉴 · 원문: 맥주 6,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "SEL-SN-792",
@@ -24765,13 +24765,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 이태원사랑채",
     "sourceUrl": "https://map.naver.com/p/search/%EC%9D%B4%ED%83%9C%EC%9B%90%EC%82%AC%EB%9E%91%EC%B1%84",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 식당 탄산음료 · 이태원 · 플랫폼 출처(공식 페이지 아님) · 원문: 콜라 사이다 제로콜라 3,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 식당 탄산음료 · 이태원 · 지도 플랫폼 업주 등록 메뉴 · 원문: 콜라 사이다 제로콜라 3,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "SEL-FD-793",
@@ -24789,13 +24789,13 @@
     "priceType": "메뉴형",
     "target": "일반",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 올바른스시 홍대역 직영점",
     "sourceUrl": "https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 포장 탭 가격(매장 가격과 다를 수 있음) · 홍대 · 플랫폼 출처(공식 페이지 아님) · 원문: 올바른초밥(10ps) 15,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 포장 탭 가격(매장 가격과 다를 수 있음) · 홍대 · 지도 플랫폼 업주 등록 메뉴 · 원문: 올바른초밥(10ps) 15,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv"
   },
   {
     "id": "SEL-FD-794",
@@ -24813,13 +24813,13 @@
     "priceType": "메뉴형",
     "target": "어린이",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 올바른스시 홍대역 직영점",
     "sourceUrl": "https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 포장 탭 가격(매장 가격과 다를 수 있음) · 홍대 · 아동 메뉴 · 플랫폼 출처(공식 페이지 아님) · 원문: 어린이초밥(10ps) 14,500원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv · 가격 정정(2026-10-11): 올바른스시 업주 등록 메뉴 매장 15,000원(포장 14,500원) · GPT 네이버 재확인"
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 포장 탭 가격(매장 가격과 다를 수 있음) · 홍대 · 아동 메뉴 · 지도 플랫폼 업주 등록 메뉴 · 원문: 어린이초밥(10ps) 14,500원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv · 가격 정정(2026-10-11): 올바른스시 업주 등록 메뉴 매장 15,000원(포장 14,500원) · GPT 네이버 재확인"
   },
   {
     "id": "SEL-AL-795",
@@ -24837,13 +24837,13 @@
     "priceType": "메뉴형",
     "target": "성인",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 올바른스시 홍대역 직영점",
     "sourceUrl": "https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 포장 탭 가격(매장 가격과 다를 수 있음) · 식당 소주 · 나눠 마시는 병 · 홍대 · 플랫폼 출처(공식 페이지 아님) · 원문: 참이슬클래식 5,500원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 포장 탭 가격(매장 가격과 다를 수 있음) · 식당 소주 · 나눠 마시는 병 · 홍대 · 지도 플랫폼 업주 등록 메뉴 · 원문: 참이슬클래식 5,500원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -24867,13 +24867,13 @@
     "priceType": "메뉴형",
     "target": "성인",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 올바른스시 홍대역 직영점",
     "sourceUrl": "https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 포장 탭 가격(매장 가격과 다를 수 있음) · 식당 병맥주 · 홍대 · 플랫폼 출처(공식 페이지 아님) · 원문: 카스(병) 5,500원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 포장 탭 가격(매장 가격과 다를 수 있음) · 식당 병맥주 · 홍대 · 지도 플랫폼 업주 등록 메뉴 · 원문: 카스(병) 5,500원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -24897,13 +24897,13 @@
     "priceType": "메뉴형",
     "target": "성인",
     "grade": "C",
-    "modelUse": "yes",
+    "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-04",
     "applied": "2026",
     "sourceName": "네이버 플레이스 · 올바른스시 홍대역 직영점",
     "sourceUrl": "https://map.naver.com/p/search/%EC%98%AC%EB%B0%94%EB%A5%B8%EC%8A%A4%EC%8B%9C%20%ED%99%8D%EB%8C%80%EC%97%AD%20%EC%A7%81%EC%98%81%EC%A0%90",
-    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 포장 탭 가격(매장 가격과 다를 수 있음) · 식당 매실주 · 나눠 마시는 병 · 홍대 · 플랫폼 출처(공식 페이지 아님) · 원문: 매화수 6,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
+    "note": "운영자 제공 네이버 플레이스 메뉴 탭 캡처(2026-10-04) · 포장 탭 가격(매장 가격과 다를 수 있음) · 식당 매실주 · 나눠 마시는 병 · 홍대 · 지도 플랫폼 업주 등록 메뉴 · 원문: 매화수 6,000원 · 수집: prices-jeju-seoul-naver-2026-10-04.csv",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -24998,14 +24998,14 @@
     "unit": "1그릇",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "네이버 플레이스 자매국수 공식 메뉴판",
     "sourceUrl": "https://map.naver.com/p/entry/place/13570691",
-    "note": "제주 대표 고기국수 전문점 단품 정가 · 플랫폼 출처(공식 페이지 아님) · 원문: 고기국수 10,000원 · 수집: prices-jeju.csv"
+    "note": "제주 대표 고기국수 전문점 단품 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 고기국수 10,000원 · 수집: prices-jeju.csv"
   },
   {
     "id": "CJU-FD-002",
@@ -25022,14 +25022,14 @@
     "unit": "1그릇",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "2026",
     "sourceName": "네이버 플레이스 올래국수 공식 메뉴판",
     "sourceUrl": "https://map.naver.com/p/entry/place/11728283",
-    "note": "단일 메뉴 매장 정가 · 플랫폼 출처(공식 페이지 아님) · 원문: 고기국수 10,000원 · 수집: prices-jeju.csv · 가격 정정(2026-10-11): 올래국수 본점 업주 등록 메뉴 11,000원 · GPT 네이버 재확인"
+    "note": "단일 메뉴 매장 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 고기국수 10,000원 · 수집: prices-jeju.csv · 가격 정정(2026-10-11): 올래국수 본점 업주 등록 메뉴 11,000원 · GPT 네이버 재확인"
   },
   {
     "id": "CJU-FD-003",
@@ -25046,14 +25046,14 @@
     "unit": "1인분",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
+    "grade": "B",
     "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "숙성도 노형본관 매장 공식 메뉴판",
     "sourceUrl": "https://map.naver.com/p/entry/place/1070809277",
-    "note": "제주 흑돼지 전문점 1인분 정가 · 플랫폼 출처(공식 페이지 아님) · 원문: 720 숙성 흑돼지 22,000원 · 수집: prices-jeju.csv · 모델 제외: 공식 메뉴에 같은 상품(숙성 흑돼지 1인분 200g)이 없음(2026-10-11 GPT 재확인)",
+    "note": "제주 흑돼지 전문점 1인분 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 720 숙성 흑돼지 22,000원 · 수집: prices-jeju.csv · 모델 제외: 공식 메뉴에 같은 상품(숙성 흑돼지 1인분 200g)이 없음(2026-10-11 GPT 재확인)",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -25076,14 +25076,14 @@
     "unit": "1그릇",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "2026",
     "sourceName": "네이버 플레이스 오조해녀의집 공식 메뉴판",
     "sourceUrl": "https://map.naver.com/p/entry/place/11831417",
-    "note": "해녀 직영점 식사 메뉴판 정가 · 플랫폼 출처(공식 페이지 아님) · 원문: 전복죽 13,000원 · 수집: prices-jeju.csv · 가격 정정(2026-10-11): 오조해녀의집 업주 등록 메뉴 12,000원 · GPT 네이버 재확인"
+    "note": "해녀 직영점 식사 메뉴판 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 전복죽 13,000원 · 수집: prices-jeju.csv · 가격 정정(2026-10-11): 오조해녀의집 업주 등록 메뉴 12,000원 · GPT 네이버 재확인"
   },
   {
     "id": "CJU-FD-005",
@@ -25100,14 +25100,14 @@
     "unit": "1그릇",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
+    "grade": "B",
     "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "네이버 플레이스 삼보식당 공식 메뉴판",
     "sourceUrl": "https://map.naver.com/p/entry/place/11831343",
-    "note": "서귀포 전통 해물뚝배기 식사 메뉴 정가 · 플랫폼 출처(공식 페이지 아님) · 원문: 전복뚝배기 15,000원 · 수집: prices-jeju.csv · 모델 제외: 출처 메뉴 페이지가 사라졌고 업체 검색 결과도 없음(2026-10-11 GPT 재확인)",
+    "note": "서귀포 전통 해물뚝배기 식사 메뉴 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 전복뚝배기 15,000원 · 수집: prices-jeju.csv · 모델 제외: 출처 메뉴 페이지가 사라졌고 업체 검색 결과도 없음(2026-10-11 GPT 재확인)",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -25160,14 +25160,14 @@
     "unit": "1병 350ml",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
+    "grade": "B",
     "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "동문시장 공식 판매처 가격표시",
     "sourceUrl": "https://map.naver.com/p/entry/place/11624838",
-    "note": "동문재래시장 생과일 착즙 보틀 주스 정가 · 플랫폼 출처(공식 페이지 아님) · 원문: 착즙 한라봉주스 4,000원 · 수집: prices-jeju.csv · 모델 제외: 출처 메뉴 페이지가 열리지 않고 판매자를 특정할 수 없음(2026-10-11 GPT 재확인)",
+    "note": "동문재래시장 생과일 착즙 보틀 주스 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 착즙 한라봉주스 4,000원 · 수집: prices-jeju.csv · 모델 제외: 출처 메뉴 페이지가 열리지 않고 판매자를 특정할 수 없음(2026-10-11 GPT 재확인)",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -25190,14 +25190,14 @@
     "unit": "1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
+    "grade": "B",
     "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "네이버 플레이스 진아떡집 공식 메뉴",
     "sourceUrl": "https://map.naver.com/p/entry/place/11831418",
-    "note": "낱개 기준 포장/매장 정가 · 플랫폼 출처(공식 페이지 아님) · 원문: 오메기떡 1개 1,000원 · 수집: prices-jeju.csv · 모델 제외: 출처 ID가 다른 업소(전주 의원)로 연결되고 판매자를 찾지 못함(2026-10-11 GPT 재확인)",
+    "note": "낱개 기준 포장/매장 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 오메기떡 1개 1,000원 · 수집: prices-jeju.csv · 모델 제외: 출처 ID가 다른 업소(전주 의원)로 연결되고 판매자를 찾지 못함(2026-10-11 GPT 재확인)",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -25280,14 +25280,14 @@
     "unit": "1병",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
+    "grade": "B",
     "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "자매국수 매장 공식 주류 메뉴판",
     "sourceUrl": "https://map.naver.com/p/entry/place/13570691",
-    "note": "일반 국수 및 고기 전문 식당 매장 판매가 · 플랫폼 출처(공식 페이지 아님) · 원문: 소주 5,000원 / 맥주 5,000원 · 수집: prices-jeju.csv · 모델 제외: 출처 ID가 다른 업소로 연결되고 자매국수 공식 메뉴에 술 가격이 없음(2026-10-11 GPT 재확인)",
+    "note": "일반 국수 및 고기 전문 식당 매장 판매가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 소주 5,000원 / 맥주 5,000원 · 수집: prices-jeju.csv · 모델 제외: 출처 ID가 다른 업소로 연결되고 자매국수 공식 메뉴에 술 가격이 없음(2026-10-11 GPT 재확인)",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -25370,14 +25370,14 @@
     "unit": "1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
+    "grade": "B",
     "modelUse": "conditional",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "제주기념품점 공식 안내",
     "sourceUrl": "https://map.naver.com/p/entry/place/11624838",
-    "note": "제주 대표 특산 캐릭터 굿즈 정가 · 플랫폼 출처(공식 페이지 아님) · 원문: 돌하르방 마그넷 5,000원 · 수집: prices-jeju.csv",
+    "note": "제주 대표 특산 캐릭터 굿즈 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 돌하르방 마그넷 5,000원 · 수집: prices-jeju.csv",
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
@@ -25646,14 +25646,14 @@
     "unit": "1인분",
     "priceType": "메뉴 가격",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "2025-11-21",
     "sourceName": "풍남정 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/16795271/menu/list",
-    "note": "같은 메뉴 페이지를 다시 열어 가격 재확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 전주콩나물국밥 9,000원 · 수집: prices-jeonju-2026-10-11.csv"
+    "note": "같은 메뉴 페이지를 다시 열어 가격 재확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 전주콩나물국밥 9,000원 · 수집: prices-jeonju-2026-10-11.csv"
   },
   {
     "id": "JJU-FD-102",
@@ -25670,14 +25670,14 @@
     "unit": "1인분",
     "priceType": "메뉴 가격",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "2026-10-06",
     "sourceName": "전주는전주 전주한옥마을 본점 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1694616852/menu/list",
-    "note": "같은 메뉴 페이지를 다시 열어 메뉴와 가격 재확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 육회비빔밥 전주의 맛을 담은 알록달록 건강 육회 비빔밥 신선한 야채와 육회의 만남!! 15,000원 · 수집: prices-jeonju-2026-10-11.csv"
+    "note": "같은 메뉴 페이지를 다시 열어 메뉴와 가격 재확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 육회비빔밥 전주의 맛을 담은 알록달록 건강 육회 비빔밥 신선한 야채와 육회의 만남!! 15,000원 · 수집: prices-jeonju-2026-10-11.csv"
   },
   {
     "id": "JJU-FD-103",
@@ -25694,14 +25694,14 @@
     "unit": "1인분",
     "priceType": "메뉴 가격",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "게시일 없음",
     "sourceName": "전주왱이콩나물국밥전문점 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/33342797/menu/list",
-    "note": "같은 메뉴 페이지를 다시 열어 가격 재확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 전주왱이국밥 9,000원 · 수집: prices-jeonju-2026-10-11.csv"
+    "note": "같은 메뉴 페이지를 다시 열어 가격 재확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 전주왱이국밥 9,000원 · 수집: prices-jeonju-2026-10-11.csv"
   },
   {
     "id": "JJU-SN-101",
@@ -25718,14 +25718,14 @@
     "unit": "1잔",
     "priceType": "메뉴 가격",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "2025-12-13",
     "sourceName": "공간봄 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/16793271/menu/list",
-    "note": "같은 메뉴 페이지를 다시 열어 가격 재확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 에스프레소 5,000원 · 수집: prices-jeonju-2026-10-11.csv"
+    "note": "같은 메뉴 페이지를 다시 열어 가격 재확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 에스프레소 5,000원 · 수집: prices-jeonju-2026-10-11.csv"
   },
   {
     "id": "JJU-SN-102",
@@ -25742,14 +25742,14 @@
     "unit": "1잔",
     "priceType": "메뉴 가격",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "2025-12-13",
     "sourceName": "공간봄 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/16793271/menu/list",
-    "note": "같은 메뉴 페이지를 다시 열어 가격 재확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 아메리카노 5,000원 · 수집: prices-jeonju-2026-10-11.csv"
+    "note": "같은 메뉴 페이지를 다시 열어 가격 재확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 아메리카노 5,000원 · 수집: prices-jeonju-2026-10-11.csv"
   },
   {
     "id": "JJU-SN-103",
@@ -25766,14 +25766,14 @@
     "unit": "1잔",
     "priceType": "메뉴 가격",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "2025-12-13",
     "sourceName": "공간봄 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/16793271/menu/list",
-    "note": "같은 메뉴 페이지를 다시 열어 가격 재확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 카페라떼 6,000원 · 수집: prices-jeonju-2026-10-11.csv"
+    "note": "같은 메뉴 페이지를 다시 열어 가격 재확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 카페라떼 6,000원 · 수집: prices-jeonju-2026-10-11.csv"
   },
   {
     "id": "JJU-AL-101",
@@ -25790,14 +25790,14 @@
     "unit": "1잔",
     "priceType": "메뉴 가격",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "게시일 없음",
     "sourceName": "전주왱이콩나물국밥전문점 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/33342797/menu/list",
-    "note": "같은 메뉴 페이지를 다시 열어 가격 재확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 모주 한잔 2,000원 · 수집: prices-jeonju-2026-10-11.csv"
+    "note": "같은 메뉴 페이지를 다시 열어 가격 재확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 모주 한잔 2,000원 · 수집: prices-jeonju-2026-10-11.csv"
   },
   {
     "id": "JJU-AL-102",
@@ -25814,14 +25814,14 @@
     "unit": "작은 병 1병",
     "priceType": "메뉴 가격",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "게시일 없음",
     "sourceName": "전주왱이콩나물국밥전문점 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/33342797/menu/list",
-    "note": "같은 메뉴 페이지를 다시 열어 가격 재확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 모주 작은병 5,000원 · 수집: prices-jeonju-2026-10-11.csv"
+    "note": "같은 메뉴 페이지를 다시 열어 가격 재확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 모주 작은병 5,000원 · 수집: prices-jeonju-2026-10-11.csv"
   },
   {
     "id": "JJU-AL-103",
@@ -25838,14 +25838,14 @@
     "unit": "큰 병 1병",
     "priceType": "메뉴 가격",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "게시일 없음",
     "sourceName": "전주왱이콩나물국밥전문점 네이버 플레이스 업주 등록 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/33342797/menu/list",
-    "note": "같은 메뉴 페이지를 다시 열어 가격 재확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 모주 큰병 10,000원 · 수집: prices-jeonju-2026-10-11.csv"
+    "note": "같은 메뉴 페이지를 다시 열어 가격 재확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 모주 큰병 10,000원 · 수집: prices-jeonju-2026-10-11.csv"
   },
   {
     "id": "JJU-TR-101",
@@ -32590,14 +32590,14 @@
     "unit": "메뉴 1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 2026-09-30",
     "sourceName": "청정게장촌 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/20553144/menu/list",
-    "note": "업주 등록 메뉴 페이지를 다시 열어 가격을 확인. 메뉴에 별도 인분·중량 표기 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 돌게장정식 16,000원 · 수집: prices-yeosu-2026-10-11.csv"
+    "note": "업주 등록 메뉴 페이지를 다시 열어 가격을 확인. 메뉴에 별도 인분·중량 표기 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 돌게장정식 16,000원 · 수집: prices-yeosu-2026-10-11.csv"
   },
   {
     "id": "YSU-FD-102",
@@ -32614,14 +32614,14 @@
     "unit": "메뉴 1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 2026-08-21",
     "sourceName": "여수게장 나래밥상 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1787911441/menu/list",
-    "note": "메뉴에 오전 11시 이전 아침 메뉴 조건 표시. 업주 등록 메뉴 페이지 재확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 황태해장국(아침메뉴) 12,000원 · 수집: prices-yeosu-2026-10-11.csv"
+    "note": "메뉴에 오전 11시 이전 아침 메뉴 조건 표시. 업주 등록 메뉴 페이지 재확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 황태해장국(아침메뉴) 12,000원 · 수집: prices-yeosu-2026-10-11.csv"
   },
   {
     "id": "YSU-FD-103",
@@ -32638,14 +32638,14 @@
     "unit": "메뉴 1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 2026-09-11",
     "sourceName": "광장서대회 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1757367265/menu/list",
-    "note": "업주 등록 메뉴 페이지를 다시 열어 가격을 확인. 메뉴에 별도 인분·중량 표기 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 장어탕 12,000원 · 수집: prices-yeosu-2026-10-11.csv"
+    "note": "업주 등록 메뉴 페이지를 다시 열어 가격을 확인. 메뉴에 별도 인분·중량 표기 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 장어탕 12,000원 · 수집: prices-yeosu-2026-10-11.csv"
   },
   {
     "id": "YSU-TR-101",
@@ -32734,14 +32734,14 @@
     "unit": "1잔",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 2026-10-04",
     "sourceName": "카페모카힐 이순신광장점 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1631832876/menu/list",
-    "note": "업주 등록 메뉴 페이지를 다시 열어 가격을 확인. 용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 모카힐 크림 라떼 7,500원 · 수집: prices-yeosu-2026-10-11.csv"
+    "note": "업주 등록 메뉴 페이지를 다시 열어 가격을 확인. 용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 모카힐 크림 라떼 7,500원 · 수집: prices-yeosu-2026-10-11.csv"
   },
   {
     "id": "YSU-SN-102",
@@ -32758,14 +32758,14 @@
     "unit": "1잔",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 2026-10-04",
     "sourceName": "카페모카힐 이순신광장점 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1631832876/menu/list",
-    "note": "업주 등록 메뉴 페이지를 다시 열어 가격을 확인. 용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 레드청귤차 7,000원 · 수집: prices-yeosu-2026-10-11.csv"
+    "note": "업주 등록 메뉴 페이지를 다시 열어 가격을 확인. 용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 레드청귤차 7,000원 · 수집: prices-yeosu-2026-10-11.csv"
   },
   {
     "id": "YSU-SN-103",
@@ -32782,14 +32782,14 @@
     "unit": "1잔",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 2026-10-04",
     "sourceName": "카페모카힐 이순신광장점 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1631832876/menu/list",
-    "note": "업주 등록 메뉴 페이지를 다시 열어 가격을 확인. 용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 청귤에이드 7,500원 · 수집: prices-yeosu-2026-10-11.csv"
+    "note": "업주 등록 메뉴 페이지를 다시 열어 가격을 확인. 용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 청귤에이드 7,500원 · 수집: prices-yeosu-2026-10-11.csv"
   },
   {
     "id": "YSU-AL-101",
@@ -32806,14 +32806,14 @@
     "unit": "300cc 1잔",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 2026-09-14",
     "sourceName": "소주주소 수산시장 본점 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1460778099/menu/list",
-    "note": "업주 등록 메뉴 페이지를 다시 열어 가격과 용량을 확인. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 생맥주300cc 1,900원 · 수집: prices-yeosu-2026-10-11.csv"
+    "note": "업주 등록 메뉴 페이지를 다시 열어 가격과 용량을 확인. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 생맥주300cc 1,900원 · 수집: prices-yeosu-2026-10-11.csv"
   },
   {
     "id": "YSU-AL-102",
@@ -32830,14 +32830,14 @@
     "unit": "메뉴 1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 2025-12-21",
     "sourceName": "백팩커스 펍 & 카페 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1976054322/menu/list",
-    "note": "업주 등록 메뉴 페이지 재확인. 메뉴에 용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 클라우드 생맥주 5,000원 · 수집: prices-yeosu-2026-10-11.csv"
+    "note": "업주 등록 메뉴 페이지 재확인. 메뉴에 용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 클라우드 생맥주 5,000원 · 수집: prices-yeosu-2026-10-11.csv"
   },
   {
     "id": "YSU-AL-103",
@@ -32854,14 +32854,14 @@
     "unit": "메뉴 1개",
     "priceType": "고정형",
     "target": "일반",
-    "grade": "C",
-    "modelUse": "conditional",
+    "grade": "B",
+    "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-11",
     "applied": "업주 메뉴 최근 업데이트 2025-12-21",
     "sourceName": "백팩커스 펍 & 카페 네이버 플레이스 업주 메뉴",
     "sourceUrl": "https://pcmap.place.naver.com/restaurant/1976054322/menu/list",
-    "note": "업주 등록 메뉴 페이지 재확인. 메뉴에 용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 플랫폼 출처(공식 페이지 아님) · 원문: 수제생맥주 8,000원 · 수집: prices-yeosu-2026-10-11.csv"
+    "note": "업주 등록 메뉴 페이지 재확인. 메뉴에 용량 표기 없음. · GPT 조사(2026-10-11) 반영 · 지도 플랫폼 업주 등록 메뉴 · 원문: 수제생맥주 8,000원 · 수집: prices-yeosu-2026-10-11.csv"
   },
   {
     "id": "YSU-AT-101",

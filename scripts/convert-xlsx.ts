@@ -47,6 +47,10 @@ const REVIEW_VERDICTS = ['일치', '불일치', '확인불가'];
 /** 지도·리뷰·배달 플랫폼 주소(판매 주체 공식 페이지가 아님) */
 const PLATFORM_HOSTS = /^https?:\/\/(?:[\w-]+\.)*(?:map\.naver\.com|place\.naver\.com|m\.place\.naver\.com|map\.kakao\.com|place\.map\.kakao\.com|ubereats\.com|grab\.com|foodpanda\.|deliveroo\.|quandoo\.|tripadvisor\.|thefork\.)/i;
 const platform = new Set<string>();
+// 지도 플랫폼 장소 페이지(네이버·카카오 플레이스)의 메뉴 탭은 업주가 직접 올린 실제 판매 가격이다 → B등급·계산에 사용.
+// 재확인에서 '확인불가'가 나온 행만 조건부로 낮춘다(아래 교차 검수 처리)
+const MAP_PLACE_HOSTS = /^https?:\/\/(?:[\w-]+\.)*(?:map\.naver\.com|place\.naver\.com|map\.kakao\.com|place\.map\.kakao\.com)/i;
+const mapPlace = new Set<string>();
 /** 교차 검수 결과 요약(조사 큐에 표시) */
 const reviewed: Array<{ file: string; id: string; verdict: string }> = [];
 const notes: string[] = [];
@@ -207,7 +211,10 @@ function main() {
       // 지도·리뷰 플랫폼(네이버 플레이스 등)은 판매 주체의 공식 페이지가 아니다 → 보조 출처·조건부로 낮춘다
       if (PLATFORM_HOSTS.test(r('출처 URL'))) {
         platform.add(id);
-        note = [note, '플랫폼 출처(공식 페이지 아님)'].filter(Boolean).join(' · ');
+        if (MAP_PLACE_HOSTS.test(r('출처 URL'))) {
+          mapPlace.add(id);
+          note = [note, '지도 플랫폼 업주 등록 메뉴'].filter(Boolean).join(' · ');
+        } else note = [note, '플랫폼 출처(공식 페이지 아님)'].filter(Boolean).join(' · ');
       }
       note = [note, `원문: ${quote}`, `수집: ${file}`].filter(Boolean).join(' · ');
     }
@@ -217,7 +224,9 @@ function main() {
     if (fromOnly) notes.push(`${id}: 최대 미게시 → 시작가로 처리`);
     const max = fromOnly ? min : num(r('최대'), id);
     if (min > max) errors.push(`${id}: 최소 > 최대`);
-    if (platform.has(id)) {
+    if (mapPlace.has(id)) {
+      if (grade === 'A') grade = 'B';
+    } else if (platform.has(id)) {
       if (grade === 'A' || grade === 'B') grade = 'C';
       // 운영자가 메뉴 탭을 직접 확인한 캡처(비고 '운영자 제공')는 공식 표본과 함께 계산에 쓴다(C등급 경고는 그대로).
       // 그 밖의 플랫폼 수집분은 공식 표본이 부족할 때만 쓰는 조건부로 낮춘다
@@ -337,6 +346,8 @@ function main() {
   for (const [id, { file, verdict, r }] of latestReview) {
     const target = byId.get(id)!;
     reviewed.push({ file, id, verdict });
+    // 업주 등록 메뉴에서 같은 상품·가격을 다시 찾지 못한 지도 플랫폼 행은 계산에서 보조로만 쓴다
+    if (mapPlace.has(id) && verdict === '확인불가' && 'modelUse' in target && target.modelUse === 'yes') target.modelUse = 'conditional';
     if (verdict === '일치' || target.review) continue;
     // 검수 뒤 고친 표본(검수 당시 저장된 가격·상품명과 지금 값이 다름)은 판정이 이미 반영된 것으로 본다
     const num = (h: string) => Number(r(h).replace(/,/g, ''));

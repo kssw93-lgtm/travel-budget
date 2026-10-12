@@ -82,14 +82,20 @@ describe('가격 데이터 무결성', () => {
     const hidden = allCities.filter((c) => c.stage !== PILOT_STAGE).map((c) => c.id);
     expect(cities.some((c) => hidden.includes(c.id))).toBe(false);
   });
-  it('지도·리뷰 플랫폼 출처(네이버 플레이스 등) 가격은 C등급, 운영자가 직접 확인한 캡처만 계산에 쓰고 나머지는 조건부', () => {
-    const platform = samples.filter((s) => /map\.naver\.com|place\.naver\.com|kakao\.com|tripadvisor|ubereats|grab\.com/.test(s.sourceUrl));
+  it('지도 플랫폼(네이버·카카오 플레이스) 업주 등록 메뉴는 B등급으로 계산에 쓰고, 그 밖의 플랫폼 출처는 C등급·조건부', () => {
+    const place = /map\.naver\.com|place\.naver\.com|map\.kakao\.com/;
+    const platform = samples.filter((s) => place.test(s.sourceUrl) || /tripadvisor|ubereats|grab\.com/.test(s.sourceUrl));
     expect(platform.length).toBeGreaterThan(0);
     for (const s of platform) {
+      if (place.test(s.sourceUrl)) {
+        expect([s.id, s.grade]).toEqual([s.id, s.grade === 'C' ? 'C' : 'B']);
+        continue;
+      }
       expect([s.id, s.grade]).toEqual([s.id, 'C']);
       if (s.modelUse === 'no') continue; // 재확인에서 출처가 사라져 계산에서 뺀 행(exclusions.json)
       expect([s.id, s.modelUse]).toEqual([s.id, s.note.includes('운영자 제공') ? 'yes' : 'conditional']);
     }
+    expect(samples.filter((s) => place.test(s.sourceUrl) && s.modelUse === 'yes').length).toBeGreaterThan(0);
   });
   it('음식 추천이 연결한 가격 ID 는 모두 존재한다', () => {
     const ids = new Set(samples.map((s) => s.id));

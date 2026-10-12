@@ -859,6 +859,9 @@
 | HNL-AT-106 | 호놀룰루 | 다이아몬드 헤드 주립 기념물(3세 이하) | 0 USD | A | 예 | 재검증 | [하와이주 DLNR 주립공원 공식](https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/) |
 | INT-AT-301 | 인터라켄 | 성 베아투스 동굴·박물관 입장권(성인) | 20 CHF | A | 예 | 재검증 | [St. Beatus-Höhlen](https://www.beatushoehlen.swiss/en/info-centre/#c409) |
 | INT-AT-302 | 인터라켄 | 성 베아투스 동굴·박물관 입장권(아동 6~16세) | 12 CHF | A | 예 | 재검증 | [St. Beatus-Höhlen](https://www.beatushoehlen.swiss/en/info-centre/#c409) |
+| INT-AT-303 | 인터라켄 | 하더쿨름 푸니쿨라 왕복(인터라켄 오스트 출발, 성인) | 38~44 CHF | A | 예 | 재검증, 시작가 표기 | [Jungfraubahnen – Fahrpreise / Prices / Prix (공식 요금표 PDF)](https://dam.jungfrau.ch/en/prices-and-brochures) |
+| INT-AT-304 | 인터라켄 | 쉬니게 플라테 왕복(인터라켄 오스트 출발, 빌더스빌 경유, 성인) | 75.6 CHF | A | 예 | 재검증, 시작가 표기 | [Jungfraubahnen – Fahrpreise / Prices / Prix (공식 요금표 PDF)](https://dam.jungfrau.ch/en/prices-and-brochures) |
+| INT-AT-305 | 인터라켄 | 피르스트 곤돌라 왕복(그린델발트 출발, 성인) | 72~76 CHF | A | 예 | 재검증 | [Jungfraubahnen – Fahrpreise / Prices / Prix (공식 요금표 PDF)](https://dam.jungfrau.ch/en/prices-and-brochures) |
 | KYO-FD-102 | 교토 | 요시노야 규동 보통 | 498 JPY | A | 예 | 재검증 | [요시노야](https://www.yoshinoya.com/menu/gyudon/) |
 | KYO-FD-103 | 교토 | 스키야 규동 보통 | 480 JPY | A | 예 | 재검증 | [すき家](https://www.sukiya.jp/menu/in/gyudon/100100/) |
 | NGO-FD-101 | 나고야 | 요시노야 규동 보통 | 498 JPY | A | 예 | 재검증 | [요시노야](https://www.yoshinoya.com/menu/gyudon/) |

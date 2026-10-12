@@ -1254,5 +1254,105 @@
     "ko": "설탕을 듬뿍 묻힌 포르투갈식 튀김 도넛",
     "en": "Portuguese-style fried doughnut rolled in sugar",
     "ja": "砂糖をたっぷりまぶしたポルトガル風の揚げドーナツ"
+  },
+  "vienna:Wiener Schnitzel": {
+    "ko": "송아지고기를 얇게 펴 빵가루를 입혀 튀긴 빈 대표 요리",
+    "en": "Thin breaded and fried veal cutlet, Vienna's signature dish",
+    "ja": "薄くのばした子牛肉にパン粉をつけて揚げたウィーンの代表料理"
+  },
+  "vienna:Tafelspitz": {
+    "ko": "소고기를 채소와 함께 푹 삶아 사과·홀스래디시 소스와 먹는 요리",
+    "en": "Beef boiled with root vegetables, served with apple-horseradish sauce",
+    "ja": "牛肉を野菜と煮込み、リンゴとホースラディッシュのソースで食べる料理"
+  },
+  "vienna:Wiener Saftgulasch": {
+    "ko": "파프리카와 양파로 진하게 끓인 빈식 소고기 굴라시",
+    "en": "Rich Viennese beef goulash stewed with paprika and onion",
+    "ja": "パプリカと玉ねぎで濃厚に煮込んだウィーン風牛肉グーラッシュ"
+  },
+  "vienna:Apfelstrudel": {
+    "ko": "얇은 반죽에 사과·건포도·계피를 말아 구운 디저트",
+    "en": "Thin pastry rolled around apple, raisins and cinnamon",
+    "ja": "薄い生地にリンゴ・レーズン・シナモンを巻いて焼いたデザート"
+  },
+  "budapest:Gulyás": {
+    "ko": "소고기·감자·파프리카를 넣고 끓인 헝가리 대표 수프",
+    "en": "Hungarian beef soup with potatoes and paprika",
+    "ja": "牛肉・じゃがいも・パプリカを煮込んだハンガリーの代表的なスープ"
+  },
+  "budapest:Lángos": {
+    "ko": "튀긴 납작빵에 사워크림·치즈를 올린 길거리 음식",
+    "en": "Deep-fried flatbread topped with sour cream and cheese",
+    "ja": "揚げた平たいパンにサワークリームとチーズをのせた屋台料理"
+  },
+  "budapest:Kürtőskalács": {
+    "ko": "반죽을 막대에 감아 구운 뒤 설탕을 묻힌 굴뚝빵",
+    "en": "Chimney cake: dough wrapped on a spit, grilled and sugared",
+    "ja": "生地を棒に巻いて焼き砂糖をまぶした煙突パン"
+  },
+  "budapest:Rétes": {
+    "ko": "얇은 반죽에 사과·체리·양귀비씨 등을 말아 구운 헝가리식 슈트루델",
+    "en": "Hungarian strudel filled with apple, cherry or poppy seed",
+    "ja": "薄い生地にリンゴやサクランボ、ケシの実を巻いたハンガリー風シュトゥルーデル"
+  },
+  "munich:Weißwurst": {
+    "ko": "송아지고기로 만든 흰 소시지를 단 겨자·프레첼과 먹는 뮌헨 아침 요리",
+    "en": "White veal sausage eaten with sweet mustard and a pretzel",
+    "ja": "子牛肉の白ソーセージを甘いマスタードとプレッツェルで食べるミュンヘンの朝食"
+  },
+  "munich:Schweinebraten": {
+    "ko": "돼지고기를 오븐에 구워 그레이비·크뇌델과 먹는 바이에른 요리",
+    "en": "Bavarian roast pork with gravy and dumplings",
+    "ja": "豚肉をオーブンで焼き、グレイビーとクネーデルで食べるバイエルン料理"
+  },
+  "munich:Leberkässemmel": {
+    "ko": "두툼한 미트로프를 빵에 끼운 간단한 한 끼",
+    "en": "Thick slice of Bavarian meatloaf in a bread roll",
+    "ja": "厚切りのミートローフをパンに挟んだ手軽な一品"
+  },
+  "munich:Käsespätzle": {
+    "ko": "짧은 생면에 치즈와 튀긴 양파를 올린 요리",
+    "en": "Soft egg noodles with melted cheese and fried onions",
+    "ja": "短い卵麺にチーズと揚げ玉ねぎをのせた料理"
+  },
+  "interlaken:Cheese fondue": {
+    "ko": "녹인 치즈에 빵을 찍어 먹는 스위스 대표 요리",
+    "en": "Bread dipped in melted cheese, Switzerland's signature dish",
+    "ja": "溶かしたチーズにパンをつけて食べるスイスの代表料理"
+  },
+  "interlaken:Raclette": {
+    "ko": "녹인 치즈를 감자·피클에 긁어 얹어 먹는 요리",
+    "en": "Melted cheese scraped over potatoes and pickles",
+    "ja": "溶かしたチーズをじゃがいもやピクルスにかけて食べる料理"
+  },
+  "interlaken:Rösti": {
+    "ko": "감자를 채 썰어 노릇하게 부친 스위스식 감자전",
+    "en": "Crispy Swiss grated potato cake",
+    "ja": "じゃがいもを細切りにしてこんがり焼いたスイス風ポテトパンケーキ"
+  },
+  "interlaken:Älplermagronen": {
+    "ko": "파스타·감자·치즈·양파에 사과 소스를 곁들인 알프스 요리",
+    "en": "Alpine pasta with potatoes, cheese and onions, served with apple sauce",
+    "ja": "パスタ・じゃがいも・チーズ・玉ねぎにリンゴソースを添えたアルプス料理"
+  },
+  "lisbon:Pastel de nata": {
+    "ko": "바삭한 페이스트리에 커스터드를 채워 구운 에그타르트",
+    "en": "Custard tart in crisp puff pastry",
+    "ja": "サクサクの生地にカスタードを詰めて焼いたエッグタルト"
+  },
+  "lisbon:Bifana": {
+    "ko": "마늘·와인에 재운 돼지고기를 빵에 끼운 샌드위치",
+    "en": "Garlic and wine marinated pork in a bread roll",
+    "ja": "ニンニクとワインに漬けた豚肉をパンに挟んだサンドイッチ"
+  },
+  "lisbon:Caldo verde": {
+    "ko": "감자 수프에 케일과 초리소를 넣은 포르투갈 국민 수프",
+    "en": "Potato soup with kale and chouriço",
+    "ja": "じゃがいものスープにケールとチョリソーを入れたポルトガルの定番スープ"
+  },
+  "lisbon:Sardinhas assadas": {
+    "ko": "숯불에 통째로 구운 정어리",
+    "en": "Whole sardines grilled over charcoal",
+    "ja": "炭火で丸ごと焼いたイワシ"
   }
 }

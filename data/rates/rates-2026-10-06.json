@@ -1,7 +1,7 @@
 {
   "asOf": "2026-10-06",
   "researchedAt": "2026-10-07",
-  "note": "조사한 공식 환율 원자료. 사이트 표시값은 1 USD 기준이며 src/core/rates/static.ts가 ECB의 1 EUR 기준 환율을 ECB EUR/USD로 나눠 계산한다. TWD·VND·AED·SAR는 perUSD의 통화별 공식 자료를 쓴다. VND는 Vietcombank의 송금 매입·매도 중간값이며 실제 환전 시 적용되는 환율과 다를 수 있다.",
+  "note": "조사한 공식 환율 원자료. 사이트 표시값은 1 USD 기준이며 src/core/rates/static.ts가 ECB의 1 EUR 기준 환율을 ECB EUR/USD로 나눠 계산한다. TWD·VND·AED·SAR는 perUSD의 통화별 공식 자료를 쓴다. VND는 Vietcombank의 송금 매입·매도 중간값이며 실제 환전 시 적용되는 환율과 다를 수 있다. HUF는 ECB 2026-10-09 고시값(365.08 HUF/EUR)을 넣었다(다른 통화는 2026-10-06).",
   "ecb": {
     "name": "European Central Bank euro foreign exchange reference rates",
     "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
@@ -31,7 +31,8 @@
       "SEK": 11.2425,
       "NOK": 10.778,
       "AUD": 1.614,
-      "CAD": 1.6058
+      "CAD": 1.6058,
+      "HUF": 365.08
     },
     "crossCheck": [
       "https://centralbank.ae/umbraco/Surface/Exchange/GetExchangeRateAllCurrency"

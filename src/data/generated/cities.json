@@ -277,7 +277,7 @@
     "nameEn": "Budapest",
     "currency": "HUF",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "munich",
@@ -287,7 +287,7 @@
     "nameEn": "Munich",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "interlaken",
@@ -297,7 +297,7 @@
     "nameEn": "Interlaken",
     "currency": "CHF",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "lisbon",

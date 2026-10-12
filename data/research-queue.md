@@ -46,6 +46,12 @@
 | 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 호놀룰루 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 호놀룰루 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 부다페스트 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 부다페스트 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 뮌헨 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 뮌헨 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 인터라켄 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 인터라켄 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -575,6 +581,58 @@
 | PUS-AT-201 | 부산 | 해운대 해변열차 1회 탑승권 (어린이) | 5600~7000 KRW | A | 예 | 재검증 | [해운대블루라인파크](https://www.bluelinepark.com/fare.do) |
 | PUS-AT-203 | 부산 | 해운대 해변열차 1회 탑승권 (성인) | 8000~10000 KRW | A | 예 | 재검증 | [해운대블루라인파크](https://www.bluelinepark.com/fare.do) |
 | DXB-TR-104 | 두바이 | 공항 터미널 1 출발 지하철 실버 nol 1구역 요금 | 3 AED | A | 예 | 재검증, 시작가 표기 | [두바이 도로교통청 RTA nol 요금표·지하철 역 안내](https://rta.ae/wps/portal/rta/ae/public-transport/Nol-Fares?lang=en;https://www.rta.ae/wps/portal/rta/ae/public-transport/metro-stations-map;https://www.rta.ae/links/rail/rail-network-map.pdf) |
+| BUD-FD-101 | 부다페스트 | 와인스톤 굴라시 수프 | 4200 HUF | A | 예 | 재검증 | [WineStone City Center 공식 메뉴](https://winestone-citycenter.hu/en) |
+| BUD-FD-102 | 부다페스트 | 와인스톤 탄두리 돼지 안심 | 8200 HUF | A | 예 | 재검증 | [WineStone City Center 공식 메뉴](https://winestone-citycenter.hu/en) |
+| BUD-FD-103 | 부다페스트 | 보헤미아 치킨 플랫브레드 | 2890 HUF | A | 예 | 재검증 | [Bohémia 공식 영문 메뉴(PDF)](https://bohemia.hu/Bohemia_Menu_EN.pdf) |
+| BUD-FD-104 | 부다페스트 | 보헤미아 풀드덕 번 | 3190 HUF | A | 예 | 재검증 | [Bohémia 공식 영문 메뉴(PDF)](https://bohemia.hu/Bohemia_Menu_EN.pdf) |
+| BUD-SN-101 | 부다페스트 | 와인스톤 생수 33cl | 1210 HUF | A | 예 | 재검증 | [WineStone City Center 공식 메뉴](https://winestone-citycenter.hu/en) |
+| BUD-SN-102 | 부다페스트 | 와인스톤 코카콜라 25cl | 1210 HUF | A | 예 | 재검증 | [WineStone City Center 공식 메뉴](https://winestone-citycenter.hu/en) |
+| BUD-SN-103 | 부다페스트 | 와인스톤 오렌지 주스 20cl | 1210 HUF | A | 예 | 재검증 | [WineStone City Center 공식 메뉴](https://winestone-citycenter.hu/en) |
+| BUD-AL-101 | 부다페스트 | 와인스톤 파울루스 소비뇽 블랑 2025 | 1480 HUF | A | 예 | 재검증 | [WineStone City Center 공식 메뉴](https://winestone-citycenter.hu/en) |
+| BUD-AL-102 | 부다페스트 | 와인스톤 이콘 샤르도네 2025 | 1480 HUF | A | 예 | 재검증 | [WineStone City Center 공식 메뉴](https://winestone-citycenter.hu/en) |
+| BUD-AL-103 | 부다페스트 | 와인스톤 사바르 피노 그리 | 1800 HUF | A | 예 | 재검증 | [WineStone City Center 공식 메뉴](https://winestone-citycenter.hu/en) |
+| BUD-TR-101 | 부다페스트 | BKK 단일 승차권 | 500 HUF | A | 예 | 재검증 | [BKK 공식 티켓 가격](https://bkk.hu/en/tickets-and-passes/prices/) |
+| BUD-TR-102 | 부다페스트 | BKK 24시간권 | 2750 HUF | A | 예 | 재검증 | [BKK 공식 티켓 가격](https://bkk.hu/en/tickets-and-passes/prices/) |
+| BUD-AT-101 | 부다페스트 | 부다페스트 동물원 입장권(성인) | 5900 HUF | A | 예 | 재검증 | [Budapest Zoo 공식 요금](https://zoobudapest.com/en/tickets-and-passes/prices/) |
+| BUD-AT-102 | 부다페스트 | 부다페스트 동물원 입장권(아동 2~18세) | 4200 HUF | A | 예 | 재검증 | [Budapest Zoo 공식 요금](https://zoobudapest.com/en/tickets-and-passes/prices/) |
+| BUD-AT-103 | 부다페스트 | 트로피카리움 평일 입장권(성인) | 4700 HUF | A | 예 | 재검증 | [Tropicarium 공식 요금](https://tropicarium.hu/en/tickets-and-prices/) |
+| BUD-AT-104 | 부다페스트 | 트로피카리움 평일 입장권(아동 2~18세) | 3500 HUF | A | 예 | 재검증 | [Tropicarium 공식 요금](https://tropicarium.hu/en/tickets-and-prices/) |
+| BUD-AT-105 | 부다페스트 | 마담 투소 부다페스트 입장권(성인) | 12490 HUF | A | 예 | 재검증 | [Madame Tussauds Budapest 공식 요금](https://www.madametussauds.hu/en/jegyek/) |
+| BUD-AT-106 | 부다페스트 | 마담 투소 부다페스트 입장권(아동 4~15세) | 7990 HUF | A | 예 | 재검증 | [Madame Tussauds Budapest 공식 요금](https://www.madametussauds.hu/en/jegyek/) |
+| MUC-FD-101 | 뮌헨 | 파크 카페 시저 샐러드 | 17.5 EUR | A | 조건부 | 조건부, 재검증 | [Park Café 공식 여름 메뉴(PDF)](https://www.parkcafe089.de/media/Speisekarten/2026-02/2026-02-Speisekarte-sommer-englisch.pdf) |
+| MUC-FD-102 | 뮌헨 | 파크 카페 병아리콩·고구마 커리 | 16.5 EUR | A | 조건부 | 조건부, 재검증 | [Park Café 공식 여름 메뉴(PDF)](https://www.parkcafe089.de/media/Speisekarten/2026-02/2026-02-Speisekarte-sommer-englisch.pdf) |
+| MUC-FD-103 | 뮌헨 | 호프브로이하우스 바삭한 구운 돼지고기 | 18.9 EUR | A | 조건부 | 조건부, 재검증 | [Hofbräuhaus München 공식 영문 메뉴(PDF)](https://www.hofbraeuhaus.de/wp-content/uploads/2026/01/HB_Standard-Speisekarte_EN.pdf) |
+| MUC-SN-101 | 뮌헨 | 호프브로이하우스 프레첼 | 2.1 EUR | A | 조건부 | 조건부, 재검증 | [Hofbräuhaus München 공식 영문 메뉴(PDF)](https://www.hofbraeuhaus.de/wp-content/uploads/2026/01/HB_Standard-Speisekarte_EN.pdf) |
+| MUC-SN-102 | 뮌헨 | 파크 카페 테이블 워터 | 3.2 EUR | A | 조건부 | 조건부, 재검증 | [Park Café 공식 여름 메뉴(PDF)](https://www.parkcafe089.de/media/Speisekarten/2026-02/2026-02-Speisekarte-sommer-englisch.pdf) |
+| MUC-SN-103 | 뮌헨 | 파크 카페 코카콜라 또는 스프라이트 | 3.5 EUR | A | 조건부 | 조건부, 재검증 | [Park Café 공식 여름 메뉴(PDF)](https://www.parkcafe089.de/media/Speisekarten/2026-02/2026-02-Speisekarte-sommer-englisch.pdf) |
+| MUC-AL-101 | 뮌헨 | 호프브로이 오리지널 맥주 | 5.4 EUR | A | 조건부 | 조건부, 재검증 | [Hofbräuhaus München 공식 영문 메뉴(PDF)](https://www.hofbraeuhaus.de/wp-content/uploads/2026/01/HB_Standard-Speisekarte_EN.pdf) |
+| MUC-AL-102 | 뮌헨 | 호프브로이 뮌헨 바이세 맥주 | 5.7 EUR | A | 조건부 | 조건부, 재검증 | [Hofbräuhaus München 공식 영문 메뉴(PDF)](https://www.hofbraeuhaus.de/wp-content/uploads/2026/01/HB_Standard-Speisekarte_EN.pdf) |
+| MUC-AL-103 | 뮌헨 | 파크 카페 하우스 화이트 와인 | 7.5 EUR | A | 조건부 | 조건부, 재검증 | [Park Café 공식 여름 메뉴(PDF)](https://www.parkcafe089.de/media/Speisekarten/2026-02/2026-02-Speisekarte-sommer-englisch.pdf) |
+| MUC-TR-101 | 뮌헨 | MVV 뮌헨 시내 Zone M 편도 승차권 | 4.2 EUR | A | 예 | 재검증 | [MVV 공식 2026 티켓 가격 PDF](https://www.mvv-muenchen.de/fileadmin/mediapool/downloads/tickets/2026_MVVeasy_Tickets_web.pdf) |
+| MUC-TR-102 | 뮌헨 | MVV Zone M 1인 1일권 | 10.1 EUR | A | 예 | 재검증 | [MVV 공식 2026 티켓 가격 PDF](https://www.mvv-muenchen.de/fileadmin/mediapool/downloads/tickets/2026_MVVeasy_Tickets_web.pdf) |
+| MUC-AT-101 | 뮌헨 | 레지덴츠 박물관(성인) | 10 EUR | A | 예 | 재검증 | [Bavarian Palace Administration 공식 요금](https://www.residenz-muenchen.de/englisch/tourist/admiss.htm) |
+| MUC-AT-102 | 뮌헨 | 레지덴츠 박물관(만 18세 미만) | 0 EUR | A | 예 | 재검증 | [Bavarian Palace Administration 공식 요금](https://www.residenz-muenchen.de/englisch/tourist/admiss.htm) |
+| MUC-AT-103 | 뮌헨 | 헬라브룬 동물원(성인) | 23 EUR | A | 예 | 재검증 | [Hellabrunn Zoo 공식 admission fees](https://www.hellabrunn.de/en/park-visit/general-information/admission-fees) |
+| MUC-AT-104 | 뮌헨 | 헬라브룬 동물원(아동 4~14세) | 9 EUR | A | 예 | 재검증 | [Hellabrunn Zoo 공식 admission fees](https://www.hellabrunn.de/en/park-visit/general-information/admission-fees) |
+| MUC-AT-105 | 뮌헨 | 피나코테크 데어 모데르네(성인) | 10 EUR | A | 예 | 재검증 | [Bavarian State Painting Collections 공식 방문·요금 안내](https://www.pinakothek.de/en/visit) |
+| MUC-AT-106 | 뮌헨 | 피나코테크 데어 모데르네(만 18세 미만) | 0 EUR | A | 예 | 재검증 | [Bavarian State Painting Collections 공식 방문·요금 안내](https://www.pinakothek.de/en/visit) |
+| INT-FD-101 | 인터라켄 | 더 비스 클럽 스파이시 바질 치킨 | 18.5 CHF | A | 예 | 재검증 | [The B's Club 공식 메뉴](https://www.thebsclub.ch/menu/) |
+| INT-FD-102 | 인터라켄 | 더 비스 클럽 그린 커리 치킨 | 18.5 CHF | A | 예 | 재검증 | [The B's Club 공식 메뉴](https://www.thebsclub.ch/menu/) |
+| INT-FD-103 | 인터라켄 | 스파이스빌리지 치킨 커리 | 29 CHF | A | 예 | 재검증 | [SpiceVillage 공식 메뉴](https://spicevillage-restaurant.ch/menu-best-halal-food-indian-pakistani/) |
+| INT-SN-101 | 인터라켄 | 더 비스 클럽 브라운슈거 밀크티 | 7.9 CHF | A | 예 | 재검증 | [The B's Club 공식 메뉴](https://www.thebsclub.ch/menu/) |
+| INT-SN-102 | 인터라켄 | 스파이스빌리지 생수 5dl | 4 CHF | A | 예 | 재검증 | [SpiceVillage 공식 메뉴](https://spicevillage-restaurant.ch/menu-best-halal-food-indian-pakistani/) |
+| INT-SN-103 | 인터라켄 | 스파이스빌리지 망고 주스 3dl | 5 CHF | A | 예 | 재검증 | [SpiceVillage 공식 메뉴](https://spicevillage-restaurant.ch/menu-best-halal-food-indian-pakistani/) |
+| INT-AL-101 | 인터라켄 | 스파이스빌리지 코브라 인도 맥주 | 6 CHF | A | 예 | 재검증 | [SpiceVillage 공식 메뉴](https://spicevillage-restaurant.ch/menu-best-halal-food-indian-pakistani/) |
+| INT-AL-102 | 인터라켄 | 스파이스빌리지 펠트슐뢰스헨 맥주 | 6 CHF | A | 예 | 재검증 | [SpiceVillage 공식 메뉴](https://spicevillage-restaurant.ch/menu-best-halal-food-indian-pakistani/) |
+| INT-AL-103 | 인터라켄 | 스파이스빌리지 킹피셔 인도 맥주 | 6 CHF | A | 예 | 재검증 | [SpiceVillage 공식 메뉴](https://spicevillage-restaurant.ch/menu-best-halal-food-indian-pakistani/) |
+| INT-TR-101 | 인터라켄 | 리베로 인터라켄 Localzone 750 편도 2등석 | 4 CHF | A | 예 | 재검증 | [Libero 2026 공식 요금 안내(PDF)](https://www.mylibero.ch/sites/default/files/2025-12/Libero-Prospekt-2026.pdf) |
+| INT-TR-102 | 인터라켄 | 리베로 인터라켄 Localzone 750 1일권 | 8 CHF | A | 예 | 재검증 | [Libero 2026 공식 요금 안내(PDF)](https://www.mylibero.ch/sites/default/files/2025-12/Libero-Prospekt-2026.pdf) |
+| INT-AT-101 | 인터라켄 | 그린델발트 퍼스트 플라이어(성인) | 35 CHF | A | 예 | 재검증 | [Jungfraubahnen 공식 페이지](https://www.jungfrau.ch/en-gb/grindelwaldfirst/first-flyer/) |
+| INT-AT-102 | 인터라켄 | 그린델발트 퍼스트 플라이어(아동 6~15세) | 26 CHF | A | 예 | 재검증 | [Jungfraubahnen 공식 페이지](https://www.jungfrau.ch/en-gb/grindelwaldfirst/first-flyer/) |
+| INT-AT-103 | 인터라켄 | 쉬니게 플라테 왕복열차+간식 티켓(성인) | 62 CHF | A | 예 | 재검증 | [Jungfraubahnen Schynige Platte 공식 요금표](https://www.jungfrau.ch/de-ch/schynige-platte/zvieri-ticket/) |
+| INT-AT-104 | 인터라켄 | 쉬니게 플라테 왕복열차+간식 티켓(아동 6~15세) | 45 CHF | A | 예 | 재검증 | [Jungfraubahnen Schynige Platte 공식 요금표](https://www.jungfrau.ch/de-ch/schynige-platte/zvieri-ticket/) |
+| INT-AT-105 | 인터라켄 | 융프라우요흐 스노우 펀 파크 짚라인(성인) | 20 CHF | A | 예 | 재검증 | [Jungfraubahnen 공식 페이지](https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/snow-fun-park/) |
+| INT-AT-106 | 인터라켄 | 융프라우요흐 스노우 펀 파크 짚라인(아동 6~15세) | 15 CHF | A | 예 | 재검증 | [Jungfraubahnen 공식 페이지](https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/snow-fun-park/) |
 | SEL-FD-900 | 서울 | 명동교자 본점 칼국수 | 12000 KRW | B | 예 | B등급, 재검증 | [명동교자 본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11592650/menu/list) |
 | SEL-FD-901 | 서울 | 황생가칼국수 사골칼국수 | 13000 KRW | B | 예 | B등급, 재검증 | [황생가칼국수 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11679429/menu/list) |
 | SEL-FD-902 | 서울 | 이문설농탕 설농탕 | 15000 KRW | B | 예 | B등급, 재검증 | [이문설농탕 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11711983/menu/list) |

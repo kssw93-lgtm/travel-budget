@@ -1423,6 +1423,78 @@
     "note": "추천 출처가 시청 공식 관광 사이트가 아님(재확인 필요)"
   },
   {
+    "cityId": "budapest",
+    "nameKo": "굴라시",
+    "nameEn": "Gulyás",
+    "reason": "소고기·감자·파프리카를 넣고 끓인 헝가리 대표 수프",
+    "reasonEn": "Hungary's paprika soup",
+    "desc": {
+      "ko": "소고기·감자·파프리카를 넣고 끓인 헝가리 대표 수프",
+      "en": "Hungarian beef soup with potatoes and paprika",
+      "ja": "牛肉・じゃがいも・パプリカを煮込んだハンガリーの代表的なスープ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "budapest",
+    "nameKo": "랑고시",
+    "nameEn": "Lángos",
+    "reason": "튀긴 납작빵에 사워크림·치즈를 올린 길거리 음식",
+    "reasonEn": "A fried street flatbread",
+    "desc": {
+      "ko": "튀긴 납작빵에 사워크림·치즈를 올린 길거리 음식",
+      "en": "Deep-fried flatbread topped with sour cream and cheese",
+      "ja": "揚げた平たいパンにサワークリームとチーズをのせた屋台料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "budapest",
+    "nameKo": "퀴르퇴시컬라치",
+    "nameEn": "Kürtőskalács",
+    "reason": "반죽을 막대에 감아 구운 뒤 설탕을 묻힌 굴뚝빵",
+    "reasonEn": "A sweet chimney cake",
+    "desc": {
+      "ko": "반죽을 막대에 감아 구운 뒤 설탕을 묻힌 굴뚝빵",
+      "en": "Chimney cake: dough wrapped on a spit, grilled and sugared",
+      "ja": "生地を棒に巻いて焼き砂糖をまぶした煙突パン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "budapest",
+    "nameKo": "레테시",
+    "nameEn": "Rétes",
+    "reason": "얇은 반죽에 사과·체리·양귀비씨 등을 말아 구운 헝가리식 슈트루델",
+    "reasonEn": "Hungarian strudel",
+    "desc": {
+      "ko": "얇은 반죽에 사과·체리·양귀비씨 등을 말아 구운 헝가리식 슈트루델",
+      "en": "Hungarian strudel filled with apple, cherry or poppy seed",
+      "ja": "薄い生地にリンゴやサクランボ、ケシの実を巻いたハンガリー風シュトゥルーデル"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
     "cityId": "cebu",
     "nameKo": "레촌",
     "nameEn": "Lechon",
@@ -2211,6 +2283,78 @@
     "note": "Claude 초안(2026-10-12)"
   },
   {
+    "cityId": "interlaken",
+    "nameKo": "치즈 퐁뒤",
+    "nameEn": "Cheese fondue",
+    "reason": "녹인 치즈에 빵을 찍어 먹는 스위스 대표 요리",
+    "reasonEn": "Swiss melted cheese pot",
+    "desc": {
+      "ko": "녹인 치즈에 빵을 찍어 먹는 스위스 대표 요리",
+      "en": "Bread dipped in melted cheese, Switzerland's signature dish",
+      "ja": "溶かしたチーズにパンをつけて食べるスイスの代表料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "interlaken",
+    "nameKo": "라클렛",
+    "nameEn": "Raclette",
+    "reason": "녹인 치즈를 감자·피클에 긁어 얹어 먹는 요리",
+    "reasonEn": "Melted cheese over potatoes",
+    "desc": {
+      "ko": "녹인 치즈를 감자·피클에 긁어 얹어 먹는 요리",
+      "en": "Melted cheese scraped over potatoes and pickles",
+      "ja": "溶かしたチーズをじゃがいもやピクルスにかけて食べる料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "interlaken",
+    "nameKo": "뢰스티",
+    "nameEn": "Rösti",
+    "reason": "감자를 채 썰어 노릇하게 부친 스위스식 감자전",
+    "reasonEn": "A crispy potato cake",
+    "desc": {
+      "ko": "감자를 채 썰어 노릇하게 부친 스위스식 감자전",
+      "en": "Crispy Swiss grated potato cake",
+      "ja": "じゃがいもを細切りにしてこんがり焼いたスイス風ポテトパンケーキ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "interlaken",
+    "nameKo": "앨플러마그로넨",
+    "nameEn": "Älplermagronen",
+    "reason": "파스타·감자·치즈·양파에 사과 소스를 곁들인 알프스 요리",
+    "reasonEn": "Alpine macaroni",
+    "desc": {
+      "ko": "파스타·감자·치즈·양파에 사과 소스를 곁들인 알프스 요리",
+      "en": "Alpine pasta with potatoes, cheese and onions, served with apple sauce",
+      "ja": "パスタ・じゃがいも・チーズ・玉ねぎにリンゴソースを添えたアルプス料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
     "cityId": "jeonju",
     "nameKo": "전주비빔밥",
     "nameEn": "Jeonju Bibimbap",
@@ -2690,6 +2834,150 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "lisbon",
+    "nameKo": "파스텔 드 나타",
+    "nameEn": "Pastel de nata",
+    "reason": "바삭한 페이스트리에 커스터드를 채워 구운 에그타르트",
+    "reasonEn": "Portugal's custard tart",
+    "desc": {
+      "ko": "바삭한 페이스트리에 커스터드를 채워 구운 에그타르트",
+      "en": "Custard tart in crisp puff pastry",
+      "ja": "サクサクの生地にカスタードを詰めて焼いたエッグタルト"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "lisbon",
+    "nameKo": "비파나",
+    "nameEn": "Bifana",
+    "reason": "마늘·와인에 재운 돼지고기를 빵에 끼운 샌드위치",
+    "reasonEn": "A Portuguese pork sandwich",
+    "desc": {
+      "ko": "마늘·와인에 재운 돼지고기를 빵에 끼운 샌드위치",
+      "en": "Garlic and wine marinated pork in a bread roll",
+      "ja": "ニンニクとワインに漬けた豚肉をパンに挟んだサンドイッチ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "lisbon",
+    "nameKo": "칼두 베르드",
+    "nameEn": "Caldo verde",
+    "reason": "감자 수프에 케일과 초리소를 넣은 포르투갈 국민 수프",
+    "reasonEn": "Portugal's kale soup",
+    "desc": {
+      "ko": "감자 수프에 케일과 초리소를 넣은 포르투갈 국민 수프",
+      "en": "Potato soup with kale and chouriço",
+      "ja": "じゃがいものスープにケールとチョリソーを入れたポルトガルの定番スープ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "lisbon",
+    "nameKo": "정어리 구이",
+    "nameEn": "Sardinhas assadas",
+    "reason": "숯불에 통째로 구운 정어리",
+    "reasonEn": "Grilled sardines",
+    "desc": {
+      "ko": "숯불에 통째로 구운 정어리",
+      "en": "Whole sardines grilled over charcoal",
+      "ja": "炭火で丸ごと焼いたイワシ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "munich",
+    "nameKo": "바이스부르스트",
+    "nameEn": "Weißwurst",
+    "reason": "송아지고기로 만든 흰 소시지를 단 겨자·프레첼과 먹는 뮌헨 아침 요리",
+    "reasonEn": "Munich's white sausage",
+    "desc": {
+      "ko": "송아지고기로 만든 흰 소시지를 단 겨자·프레첼과 먹는 뮌헨 아침 요리",
+      "en": "White veal sausage eaten with sweet mustard and a pretzel",
+      "ja": "子牛肉の白ソーセージを甘いマスタードとプレッツェルで食べるミュンヘンの朝食"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "munich",
+    "nameKo": "슈바인스브라텐",
+    "nameEn": "Schweinebraten",
+    "reason": "돼지고기를 오븐에 구워 그레이비·크뇌델과 먹는 바이에른 요리",
+    "reasonEn": "Bavarian roast pork",
+    "desc": {
+      "ko": "돼지고기를 오븐에 구워 그레이비·크뇌델과 먹는 바이에른 요리",
+      "en": "Bavarian roast pork with gravy and dumplings",
+      "ja": "豚肉をオーブンで焼き、グレイビーとクネーデルで食べるバイエルン料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "munich",
+    "nameKo": "레버케제젬멜",
+    "nameEn": "Leberkässemmel",
+    "reason": "두툼한 미트로프를 빵에 끼운 간단한 한 끼",
+    "reasonEn": "A Bavarian meatloaf roll",
+    "desc": {
+      "ko": "두툼한 미트로프를 빵에 끼운 간단한 한 끼",
+      "en": "Thick slice of Bavarian meatloaf in a bread roll",
+      "ja": "厚切りのミートローフをパンに挟んだ手軽な一品"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "munich",
+    "nameKo": "케제슈페츨레",
+    "nameEn": "Käsespätzle",
+    "reason": "짧은 생면에 치즈와 튀긴 양파를 올린 요리",
+    "reasonEn": "Cheesy egg noodles",
+    "desc": {
+      "ko": "짧은 생면에 치즈와 튀긴 양파를 올린 요리",
+      "en": "Soft egg noodles with melted cheese and fried onions",
+      "ja": "短い卵麺にチーズと揚げ玉ねぎをのせた料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
     "cityId": "nagoya",
@@ -3402,6 +3690,78 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "vienna",
+    "nameKo": "비너 슈니첼",
+    "nameEn": "Wiener Schnitzel",
+    "reason": "송아지고기를 얇게 펴 빵가루를 입혀 튀긴 빈 대표 요리",
+    "reasonEn": "Vienna's breaded veal cutlet",
+    "desc": {
+      "ko": "송아지고기를 얇게 펴 빵가루를 입혀 튀긴 빈 대표 요리",
+      "en": "Thin breaded and fried veal cutlet, Vienna's signature dish",
+      "ja": "薄くのばした子牛肉にパン粉をつけて揚げたウィーンの代表料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "vienna",
+    "nameKo": "타펠슈피츠",
+    "nameEn": "Tafelspitz",
+    "reason": "소고기를 채소와 함께 푹 삶아 사과·홀스래디시 소스와 먹는 요리",
+    "reasonEn": "Boiled beef, Viennese style",
+    "desc": {
+      "ko": "소고기를 채소와 함께 푹 삶아 사과·홀스래디시 소스와 먹는 요리",
+      "en": "Beef boiled with root vegetables, served with apple-horseradish sauce",
+      "ja": "牛肉を野菜と煮込み、リンゴとホースラディッシュのソースで食べる料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "vienna",
+    "nameKo": "자프트굴라슈",
+    "nameEn": "Wiener Saftgulasch",
+    "reason": "파프리카와 양파로 진하게 끓인 빈식 소고기 굴라시",
+    "reasonEn": "A rich Viennese beef stew",
+    "desc": {
+      "ko": "파프리카와 양파로 진하게 끓인 빈식 소고기 굴라시",
+      "en": "Rich Viennese beef goulash stewed with paprika and onion",
+      "ja": "パプリカと玉ねぎで濃厚に煮込んだウィーン風牛肉グーラッシュ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "vienna",
+    "nameKo": "아펠슈트루델",
+    "nameEn": "Apfelstrudel",
+    "reason": "얇은 반죽에 사과·건포도·계피를 말아 구운 디저트",
+    "reasonEn": "The classic apple pastry",
+    "desc": {
+      "ko": "얇은 반죽에 사과·건포도·계피를 말아 구운 디저트",
+      "en": "Thin pastry rolled around apple, raisins and cinnamon",
+      "ja": "薄い生地にリンゴ・レーズン・シナモンを巻いて焼いたデザート"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
     "cityId": "yeosu",

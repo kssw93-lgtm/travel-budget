@@ -4142,13 +4142,7 @@
     "applied": "2026-10-03 확인",
     "sourceName": "오설록 공식몰",
     "sourceUrl": "https://www.osulloc.com/kr/ko/shop/item/teashop/21773",
-    "note": "공식 상품 페이지 판매가 54,000원. 선물포장 옵션은 별도 금액.",
-    "review": {
-      "flag": "교차 검수 불일치",
-      "flagEn": "cross-check mismatch",
-      "detail": "확인 가격 ₩45,900 판매가 (권장소비자가 ₩54,000) · https://www.osulloc.com/kr/ko/shop/item/teashop/21773 · 오설록 공식 상품 상세는 권장소비자가 54,000원과 15% 할인 판매가 45,900원을 함께 표시합니다. 조회일의 현재 판매가는 저장가보다 8,100원 낮습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "공식 상품 페이지 판매가 54,000원. 선물포장 옵션은 별도 금액."
   },
   {
     "id": "SEL-SV-005",

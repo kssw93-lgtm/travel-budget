@@ -104,7 +104,6 @@
 | DAD-AT-004 | 다낭 | 다낭 참조각박물관 일반 입장권 | 60000 VND | A | 예 | 검수: 원문 미확인 | [Da Nang Museum of Cham Sculpture](https://chammuseum.vn/view.aspx?ID=45) |
 | BKK-SV-006 | 방콕 | 왓 아룬 디자인 자석 | 195 THB | A | 예 | 검수: 원문 확인 불가 | [SIAM MAGNET](https://siammagnet.co.th/en/products/12) |
 | SIN-FD-008 | 싱가포르 | 티옹바루 하이난 치킨라이스 | 14 SGD | A | 예 | 세금·서비스료 별도 | [Tiong Bahru Hainanese Chicken Rice](https://www.tiongbahruchickenrice.sg/menu/) |
-| SEL-SV-004 | 서울 | 오설록 차의 정원 9종 27입 | 54000 KRW | A | 예 | 검수: 교차 검수 불일치 | [오설록 공식몰](https://www.osulloc.com/kr/ko/shop/item/teashop/21773) |
 | IST-AT-001 | 이스탄불 | Topkapı Sarayı 복합 입장권 외국인 성인 | 2750 TRY | B | 예 | B등급 | [Millî Saraylar](https://www.millisaraylar.gov.tr/Lokasyon/2/Topkapi-Sarayi?culture=en) |
 | IST-AT-002 | 이스탄불 | Dolmabahçe Sarayı 통합 입장권 외국인 성인 | 2000 TRY | B | 예 | B등급 | [Millî Saraylar](https://millisaraylar.gov.tr/Lokasyon/3/Dolmabahce-Sarayi) |
 | IST-AT-003 | 이스탄불 | Beylerbeyi Sarayı 외국인 성인 입장 | 800 TRY | B | 예 | B등급 | [Millî Saraylar](https://millisaraylar.gov.tr/Lokasyon/4/Beylerbeyi-Sarayi) |
@@ -1240,5 +1239,5 @@
 
 ## 4. 교차 검수 현황
 
-`data/reviews/*.csv` 에서 읽은 판정: 일치 682건 · 불일치 48건 · 확인불가 108건.
+`data/reviews/*.csv` 에서 읽은 판정: 일치 712건 · 불일치 42건 · 확인불가 108건.
 아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

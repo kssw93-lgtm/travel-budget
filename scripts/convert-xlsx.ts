@@ -298,7 +298,7 @@ function main() {
   >;
   for (const [id, c] of Object.entries(corrections)) {
     if (id.startsWith('_') || typeof c === 'string') continue;
-    const s = samples.find((x) => x.id === id);
+    const s = samples.find((x) => x.id === id) ?? extras.find((x) => x.id === id);
     if (!s) {
       errors.push(`price-corrections.json: 없는 표본 ID '${id}'`);
       continue;

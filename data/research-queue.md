@@ -873,7 +873,7 @@
 | HKG-TR-003 | 홍콩 | 홍콩 트램(딩딩) 1회 승차 | 3.3 HKD | A | 예 | 재검증 | [Hong Kong Tramways](https://www.hktramways.com/en/schedules-fares) |
 | HKG-TR-004 | 홍콩 | 홍콩 트램(딩딩) 1회 승차(어린이) | 1.6 HKD | A | 예 | 재검증 | [Hong Kong Tramways](https://www.hktramways.com/en/schedules-fares) |
 | HKG-TR-005 | 홍콩 | MTR 관광객 1일권(성인) | 75 HKD | A | 예 | 재검증 | [MTR](https://www.mtr.com.hk/en/customer/tickets/day_pass_tourist.html) |
-| HKG-SN-001 | 홍콩 | 코카콜라 캔 330ml (웰컴) | 5 HKD | A | 예 | 재검증 | [Wellcome](https://www.wellcome.com.hk/en/p/Coco%20Cola%20Tall%20Can%20Single%20330ML/i/101343015.html) |
+| HKG-SN-001 | 홍콩 | 코카콜라 캔 330ml (웰컴) | 8 HKD | A | 예 | 재검증 | [Wellcome](https://www.wellcome.com.hk/en/p/Coco%20Cola%20Tall%20Can%20Single%20330ML/i/101343015.html) |
 | HKG-SN-002 | 홍콩 | 보나쿠아 생수 500ml (웰컴) | 6 HKD | A | 예 | 재검증 | [Wellcome](https://www.wellcome.com.hk/en/p/Bonaqua%20Mineralized%20Water%20500ML/i/101325449.html) |
 | HKG-SN-003 | 홍콩 | 비타 레몬티 500ml (웰컴) | 9.5 HKD | A | 예 | 재검증 | [Wellcome](https://www.wellcome.com.hk/en/p/Vita%20Lemon%20Tea%20Bottle%20500ML/i/101346707.html) |
 | HKG-AT-001 | 홍콩 | 옹핑 360 케이블카 스탠다드 왕복(성인) | 295 HKD | A | 예 | 재검증 | [Ngong Ping 360](https://www.np360.com.hk/en/tickets-promotions/tickets-tours/other-tickets/single-round-trip-cable-car-ticket) |

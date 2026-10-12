@@ -28106,8 +28106,8 @@
     "subtype": "음료",
     "nameKo": "코카콜라 캔 330ml (웰컴)",
     "nameEn": "Coca-Cola can 330ml (Wellcome)",
-    "min": 5,
-    "max": 5,
+    "min": 8,
+    "max": 8,
     "currency": "HKD",
     "unit": "1캔 330ml",
     "priceType": "고정형",
@@ -28115,11 +28115,11 @@
     "grade": "A",
     "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
-    "checkedAt": "2026-10-09",
+    "checkedAt": "2026-10-12",
     "applied": "2026",
     "sourceName": "Wellcome",
     "sourceUrl": "https://www.wellcome.com.hk/en/p/Coco%20Cola%20Tall%20Can%20Single%20330ML/i/101343015.html",
-    "note": "슈퍼마켓 웰컴 공식 온라인몰 단품가 · Firecrawl로 공식 페이지 직접 확인(Claude, 2026-10-09) · 원문: Coco Cola Tall Can Single 330ML $5.00 · 수집: prices-hong-kong.csv"
+    "note": "슈퍼마켓 웰컴 공식 온라인몰 단품가 · Firecrawl로 공식 페이지 직접 확인(Claude, 2026-10-09) · 원문: Coco Cola Tall Can Single 330ML $5.00 · 수집: prices-hong-kong.csv · 가격 정정(2026-10-12): GPT 교차 검수: Wellcome 상품 페이지 $8.00(이전 HKD 5)."
   },
   {
     "id": "HKG-SN-002",

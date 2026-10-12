@@ -79,5 +79,19 @@
     "max": 15000,
     "checkedAt": "2026-10-11",
     "reason": "올바른스시 업주 등록 메뉴 매장 15,000원(포장 14,500원) · GPT 네이버 재확인"
+  },
+  "HKG-SN-001": {
+    "min": 8,
+    "max": 8,
+    "sourceUrl": "https://www.wellcome.com.hk/en/p/Coco%20Cola%20Tall%20Can%20Single%20330ML/i/101343015.html",
+    "checkedAt": "2026-10-12",
+    "reason": "GPT 교차 검수: Wellcome 상품 페이지 $8.00(이전 HKD 5)."
+  },
+  "HKG-AP-001": {
+    "min": 120,
+    "max": 120,
+    "sourceUrl": "https://www.mtr.com.hk/en/customer/tickets/tf_index.html",
+    "checkedAt": "2026-10-12",
+    "reason": "GPT 교차 검수: MTR 요금표 홍콩역 성인 편도 HK$120(130은 당일 왕복이라 편도 범위에서 뺌)."
   }
 }

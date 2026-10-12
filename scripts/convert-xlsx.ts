@@ -42,6 +42,7 @@ const COUNTRY_EN: Record<string, string> = {
   호주: 'Australia', 체코: 'Czechia', '미국 괌': 'Guam',
   '중국 마카오': 'Macau', '미국 하와이': 'Hawaii', '미국 사이판': 'Saipan', 몽골: 'Mongolia', 오스트리아: 'Austria', 헝가리: 'Hungary',
   독일: 'Germany', 스위스: 'Switzerland', 포르투갈: 'Portugal', 캄보디아: 'Cambodia', 라오스: 'Laos', 캐나다: 'Canada', 뉴질랜드: 'New Zealand',
+  네덜란드: 'Netherlands', 그리스: 'Greece', 크로아티아: 'Croatia',
 };
 
 const errors: string[] = [];

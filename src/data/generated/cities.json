@@ -350,6 +350,186 @@
     "stage": "2차"
   },
   {
+    "id": "sokcho",
+    "country": "한국",
+    "countryEn": "South Korea",
+    "nameKo": "속초",
+    "nameEn": "Sokcho",
+    "currency": "KRW",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "tongyeong",
+    "country": "한국",
+    "countryEn": "South Korea",
+    "nameKo": "통영",
+    "nameEn": "Tongyeong",
+    "currency": "KRW",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "daegu",
+    "country": "한국",
+    "countryEn": "South Korea",
+    "nameKo": "대구",
+    "nameEn": "Daegu",
+    "currency": "KRW",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "incheon",
+    "country": "한국",
+    "countryEn": "South Korea",
+    "nameKo": "인천",
+    "nameEn": "Incheon",
+    "currency": "KRW",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "kobe",
+    "country": "일본",
+    "countryEn": "Japan",
+    "nameKo": "고베",
+    "nameEn": "Kobe",
+    "currency": "JPY",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "hiroshima",
+    "country": "일본",
+    "countryEn": "Japan",
+    "nameKo": "히로시마",
+    "nameEn": "Hiroshima",
+    "currency": "JPY",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "kanazawa",
+    "country": "일본",
+    "countryEn": "Japan",
+    "nameKo": "가나자와",
+    "nameEn": "Kanazawa",
+    "currency": "JPY",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "hakodate",
+    "country": "일본",
+    "countryEn": "Japan",
+    "nameKo": "하코다테",
+    "nameEn": "Hakodate",
+    "currency": "JPY",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "phuket",
+    "country": "태국",
+    "countryEn": "Thailand",
+    "nameKo": "푸껫",
+    "nameEn": "Phuket",
+    "currency": "THB",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "pattaya",
+    "country": "태국",
+    "countryEn": "Thailand",
+    "nameKo": "파타야",
+    "nameEn": "Pattaya",
+    "currency": "THB",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "da-lat",
+    "country": "베트남",
+    "countryEn": "Vietnam",
+    "nameKo": "달랏",
+    "nameEn": "Da Lat",
+    "currency": "VND",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "kaohsiung",
+    "country": "대만",
+    "countryEn": "Taiwan",
+    "nameKo": "가오슝",
+    "nameEn": "Kaohsiung",
+    "currency": "TWD",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "boracay",
+    "country": "필리핀",
+    "countryEn": "Philippines",
+    "nameKo": "보라카이",
+    "nameEn": "Boracay",
+    "currency": "PHP",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "qingdao",
+    "country": "중국",
+    "countryEn": "China",
+    "nameKo": "칭다오",
+    "nameEn": "Qingdao",
+    "currency": "CNY",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "beijing",
+    "country": "중국",
+    "countryEn": "China",
+    "nameKo": "베이징",
+    "nameEn": "Beijing",
+    "currency": "CNY",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "amsterdam",
+    "country": "네덜란드",
+    "countryEn": "Netherlands",
+    "nameKo": "암스테르담",
+    "nameEn": "Amsterdam",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "athens",
+    "country": "그리스",
+    "countryEn": "Greece",
+    "nameKo": "아테네",
+    "nameEn": "Athens",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "dubrovnik",
+    "country": "크로아티아",
+    "countryEn": "Croatia",
+    "nameKo": "두브로브니크",
+    "nameEn": "Dubrovnik",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
     "id": "barcelona",
     "country": "스페인",
     "countryEn": "Spain",

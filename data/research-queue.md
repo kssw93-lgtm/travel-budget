@@ -1038,6 +1038,13 @@
 | SYD-AL-103 | 시드니 | 더 글렌모어 호텔 로제 와인 150ml(휩버드) | 13 AUD | A | 예 | 재검증 | [The Glenmore Hotel 공식 메뉴](https://www.theglenmore.com.au/menu) |
 | SYD-AT-101 | 시드니 | 시드니 타워 아이 당일권(성인) | 39 AUD | A | 예 | 재검증 | [Sydney Tower Eye 공식 Price Table](https://www.sydneytowereye.com.au/tickets-passes/price-table/) |
 | SYD-AT-102 | 시드니 | 시드니 타워 아이 당일권(아동) | 29 AUD | A | 예 | 재검증 | [Sydney Tower Eye 공식 Price Table](https://www.sydneytowereye.com.au/tickets-passes/price-table/) |
+| OSA-AT-901 | 오사카 | 유니버설 스튜디오 재팬 1데이 스튜디오 패스(성인) | 8400 JPY | A | 조건부 | 조건부, 재검증 | [USJ 공식 티켓 라인업](https://www.usj.co.jp/web/ja/jp/tickets/lineup) |
+| OSA-AT-902 | 오사카 | 유니버설 스튜디오 재팬 1데이 스튜디오 패스(어린이) | 5500 JPY | A | 조건부 | 조건부, 재검증 | [USJ 공식 티켓 라인업](https://www.usj.co.jp/web/ja/jp/tickets/lineup) |
+| TYO-AT-901 | 도쿄 | 도쿄 디즈니리조트 1데이 패스포트(성인 18세 이상) | 8900~12400 JPY | A | 조건부 | 조건부, 재검증 | [도쿄 디즈니리조트 공식 파크 티켓](https://www.tokyodisneyresort.jp/ticket/index/202610/) |
+| TYO-AT-902 | 도쿄 | 도쿄 디즈니리조트 1데이 패스포트(소인 4~11세) | 5300 JPY | A | 조건부 | 조건부, 재검증 | [도쿄 디즈니리조트 공식 파크 티켓](https://www.tokyodisneyresort.jp/ticket/index/202610/) |
+| HKG-AT-901 | 홍콩 | 홍콩 디즈니랜드 1일권(일반) | 669 HKD | A | 조건부 | 조건부, 재검증 | [Hong Kong Disneyland 공식 Tickets](https://www.hongkongdisneyland.com/book/general-tickets?page=widget) |
+| SIN-AT-901 | 싱가포르 | 유니버설 스튜디오 싱가포르 1일권(성인 13세 이상, 피크) | 83 SGD | A | 조건부 | 조건부, 재검증 | [Resorts World Sentosa 공식 USS 티켓](https://www.rwsentosa.com/en/play/universal-studios-singapore/tickets) |
+| SIN-AT-902 | 싱가포르 | 유니버설 스튜디오 싱가포르 1일권(아동 4~12세, 피크) | 69 SGD | A | 조건부 | 조건부, 재검증 | [Resorts World Sentosa 공식 USS 티켓](https://www.rwsentosa.com/en/play/universal-studios-singapore/tickets) |
 | YSU-FD-101 | 여수 | 청정게장촌 돌게장정식 | 16000 KRW | B | 예 | B등급, 재검증 | [청정게장촌 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/20553144/menu/list) |
 | YSU-FD-102 | 여수 | 여수게장 나래밥상 황태해장국 | 12000 KRW | B | 예 | B등급, 재검증 | [여수게장 나래밥상 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1787911441/menu/list) |
 | YSU-FD-103 | 여수 | 광장서대회 장어탕 | 12000 KRW | B | 예 | B등급, 재검증 | [광장서대회 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1757367265/menu/list) |

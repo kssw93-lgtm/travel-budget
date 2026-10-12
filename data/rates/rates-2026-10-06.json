@@ -61,6 +61,12 @@
       "date": "2026-10-06",
       "name": "사우디 중앙은행(SAMA) 공식 환율 화면의 USD 3.7500 SAR",
       "url": "https://www.sama.gov.sa/en-US/pages/default.aspx"
+    },
+    "MOP": {
+      "rate": 8.0837,
+      "date": "2026-10-12",
+      "name": "마카오 금융관리국(AMCM) Interbank Middle Rates의 USD 중간값(고시일은 페이지 날짜 선택칸 기본값)",
+      "url": "https://www.amcm.gov.mo/en/financial-information/interbank-midpoint"
     }
   },
   "crossChecks": [

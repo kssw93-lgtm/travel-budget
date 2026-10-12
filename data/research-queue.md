@@ -43,6 +43,9 @@
 | 시드니 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 프라하 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 프라하 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 호놀룰루 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 호놀룰루 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -686,6 +689,25 @@
 | HKG-AT-003 | 홍콩 | 오션파크 일반 입장권(성인) | 538 HKD | A | 예 | 재검증 | [Ocean Park Hong Kong](https://www.oceanpark.com.hk/en/ticket-offer) |
 | HKG-AT-004 | 홍콩 | 오션파크 일반 입장권(어린이) | 269 HKD | A | 예 | 재검증 | [Ocean Park Hong Kong](https://www.oceanpark.com.hk/en/ticket-offer) |
 | HKG-AT-005 | 홍콩 | 홍콩 예술관 상설 관람(무료) | 0 HKD | A | 예 | 재검증 | [Hong Kong Museum of Art](https://hk.art.museum/en/web/ma/visit/opening-hours-and-admission.html) |
+| HNL-TR-101 | 호놀룰루 | TheBus 현금 1회 요금(성인) | 3.25 USD | A | 예 | 재검증 | [TheBus 공식 Fares – Adult](https://www.thebus.org/Fare/FareAndPasses.asp) |
+| HNL-TR-102 | 호놀룰루 | HOLO 카드 2시간 패스(TheBus·Skyline) | 3 USD | A | 예 | 재검증 | [TheBus 공식 Fares – Adult](https://www.thebus.org/Fare/FareAndPasses.asp) |
+| HNL-TR-103 | 호놀룰루 | HOLO 카드 24시간 패스 | 7.5 USD | A | 예 | 재검증 | [TheBus 공식 Fares – Adult](https://www.thebus.org/Fare/FareAndPasses.asp) |
+| HNL-FD-101 | 호놀룰루 | 레인보우 드라이브인 로코모코 플레이트 | 15.5 USD | A | 예 | 재검증 | [Rainbow Drive-In 공식 메뉴(Kapahulu)](https://www.rainbowdrivein.com/menu-kapahulu) |
+| HNL-FD-102 | 호놀룰루 | 레인보우 드라이브인 믹스 플레이트 | 16.75 USD | A | 예 | 재검증 | [Rainbow Drive-In 공식 메뉴(Kapahulu)](https://www.rainbowdrivein.com/menu-kapahulu) |
+| HNL-FD-103 | 호놀룰루 | 레인보우 드라이브인 BBQ 비프 플레이트 | 15.95 USD | A | 예 | 재검증 | [Rainbow Drive-In 공식 메뉴(Kapahulu)](https://www.rainbowdrivein.com/menu-kapahulu) |
+| HNL-FD-104 | 호놀룰루 | 듀크스 와이키키 치즈버거(감자튀김 포함, 런치) | 23.5 USD | A | 예 | 재검증, 세금·서비스료 별도 | [Duke's Waikiki 공식 런치 메뉴 PDF](https://www.dukeswaikiki.com/menus/) |
+| HNL-FD-105 | 호놀룰루 | 듀크스 와이키키 피시 타코(런치) | 29 USD | A | 예 | 재검증 | [Duke's Waikiki 공식 런치 메뉴 PDF](https://www.dukeswaikiki.com/menus/) |
+| HNL-SN-101 | 호놀룰루 | 레인보우 드라이브인 감자튀김 | 4.95 USD | A | 예 | 재검증 | [Rainbow Drive-In 공식 메뉴(Kapahulu)](https://www.rainbowdrivein.com/menu-kapahulu) |
+| HNL-SN-102 | 호놀룰루 | 레인보우 드라이브인 슬러시 플로트 | 5 USD | A | 예 | 재검증 | [Rainbow Drive-In 공식 메뉴(Kapahulu)](https://www.rainbowdrivein.com/menu-kapahulu) |
+| HNL-AL-101 | 호놀룰루 | 듀크스 와이키키 롱보드 라거 생맥주 16oz | 11 USD | A | 예 | 재검증 | [Duke's Waikiki 공식 런치 메뉴 PDF](https://www.dukeswaikiki.com/menus/) |
+| HNL-AL-102 | 호놀룰루 | 듀크스 와이키키 쿠어스 라이트 생맥주 16oz | 9 USD | A | 예 | 재검증 | [Duke's Waikiki 공식 런치 메뉴 PDF](https://www.dukeswaikiki.com/menus/) |
+| HNL-AL-103 | 호놀룰루 | 듀크스 와이키키 마이타이 | 18 USD | A | 예 | 재검증 | [Duke's Waikiki 공식 런치 메뉴 PDF](https://www.dukeswaikiki.com/menus/) |
+| HNL-AT-101 | 호놀룰루 | 호놀룰루 동물원 일반 입장(성인 13세 이상) | 21 USD | A | 예 | 재검증 | [Honolulu Zoo 공식 Buy Tickets](https://www.honoluluzoo.org/visit/buy-tickets/) |
+| HNL-AT-102 | 호놀룰루 | 호놀룰루 동물원 일반 입장(아동 3~12세) | 13 USD | A | 예 | 재검증 | [Honolulu Zoo 공식 Buy Tickets](https://www.honoluluzoo.org/visit/buy-tickets/) |
+| HNL-AT-103 | 호놀룰루 | 와이키키 아쿠아리움 일반 입장 | 12 USD | A | 예 | 재검증 | [Waikīkī Aquarium 공식 Admission Information](https://www.waikikiaquarium.org/visit/admission-information/) |
+| HNL-AT-104 | 호놀룰루 | 와이키키 아쿠아리움(아동 4~12세) | 5 USD | A | 예 | 재검증 | [Waikīkī Aquarium 공식 Admission Information](https://www.waikikiaquarium.org/visit/admission-information/) |
+| HNL-AT-105 | 호놀룰루 | 다이아몬드 헤드 주립 기념물 입장료(비거주자) | 5 USD | A | 예 | 재검증 | [하와이주 DLNR 주립공원 공식](https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/) |
+| HNL-AT-106 | 호놀룰루 | 다이아몬드 헤드 주립 기념물(3세 이하) | 0 USD | A | 예 | 재검증 | [하와이주 DLNR 주립공원 공식](https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/) |
 | KYO-FD-102 | 교토 | 요시노야 규동 보통 | 498 JPY | A | 예 | 재검증 | [요시노야](https://www.yoshinoya.com/menu/gyudon/) |
 | KYO-FD-103 | 교토 | 스키야 규동 보통 | 480 JPY | A | 예 | 재검증 | [すき家](https://www.sukiya.jp/menu/in/gyudon/100100/) |
 | NGO-FD-101 | 나고야 | 요시노야 규동 보통 | 498 JPY | A | 예 | 재검증 | [요시노야](https://www.yoshinoya.com/menu/gyudon/) |

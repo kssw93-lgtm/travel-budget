@@ -67,6 +67,12 @@
       "date": "2026-10-12",
       "name": "마카오 금융관리국(AMCM) Interbank Middle Rates의 USD 중간값(고시일은 페이지 날짜 선택칸 기본값)",
       "url": "https://www.amcm.gov.mo/en/financial-information/interbank-midpoint"
+    },
+    "MNT": {
+      "rate": 3595.56,
+      "date": "2026-10-11",
+      "name": "몽골 중앙은행(Mongolbank) Official Daily Foreign Exchange Rates의 USD 마감 환율",
+      "url": "https://www.mongolbank.mn/en/currency-rates"
     }
   },
   "crossChecks": [

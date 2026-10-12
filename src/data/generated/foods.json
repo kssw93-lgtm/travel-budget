@@ -2135,6 +2135,82 @@
     "note": "Claude 초안(2026-10-09)"
   },
   {
+    "cityId": "honolulu",
+    "nameKo": "로코모코",
+    "nameEn": "Loco Moco",
+    "reason": "밥 위에 햄버그 패티·달걀 프라이·그레이비를 올린 하와이 대표 한 끼",
+    "reasonEn": "Hawaii's comfort plate",
+    "desc": {
+      "ko": "밥 위에 햄버그 패티·달걀 프라이·그레이비를 올린 하와이 대표 한 끼",
+      "en": "Rice topped with a hamburger patty, fried egg and gravy, a Hawaiian classic",
+      "ja": "ごはんにハンバーグ、目玉焼き、グレイビーをのせたハワイの定番"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "HNL-FD-101"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-12)"
+  },
+  {
+    "cityId": "honolulu",
+    "nameKo": "플레이트 런치",
+    "nameEn": "Plate Lunch",
+    "reason": "고기 요리에 밥 두 스쿱과 마카로니 샐러드를 곁들인 하와이식 도시락",
+    "reasonEn": "The local Hawaiian lunch",
+    "desc": {
+      "ko": "고기 요리에 밥 두 스쿱과 마카로니 샐러드를 곁들인 하와이식 도시락",
+      "en": "A main dish with two scoops of rice and macaroni salad, Hawaii's local lunch",
+      "ja": "メインのおかずにごはん2スクープとマカロニサラダを添えたハワイのローカルランチ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "HNL-FD-102"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-12)"
+  },
+  {
+    "cityId": "honolulu",
+    "nameKo": "포케",
+    "nameEn": "Poke",
+    "reason": "깍둑 썬 생참치를 간장·참기름·양파로 버무린 하와이식 회 무침",
+    "reasonEn": "Hawaiian raw fish salad",
+    "desc": {
+      "ko": "깍둑 썬 생참치를 간장·참기름·양파로 버무린 하와이식 회 무침",
+      "en": "Cubed raw tuna tossed with soy sauce, sesame oil and onion",
+      "ja": "角切りの生マグロを醤油・ごま油・玉ねぎで和えたハワイの料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-12)"
+  },
+  {
+    "cityId": "honolulu",
+    "nameKo": "말라사다",
+    "nameEn": "Malasada",
+    "reason": "설탕을 듬뿍 묻힌 포르투갈식 튀김 도넛",
+    "reasonEn": "A sugary island doughnut",
+    "desc": {
+      "ko": "설탕을 듬뿍 묻힌 포르투갈식 튀김 도넛",
+      "en": "Portuguese-style fried doughnut rolled in sugar",
+      "ja": "砂糖をたっぷりまぶしたポルトガル風の揚げドーナツ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-12)"
+  },
+  {
     "cityId": "jeonju",
     "nameKo": "전주비빔밥",
     "nameEn": "Jeonju Bibimbap",

@@ -615,6 +615,34 @@
     "missing": [],
     "computable": true
   },
+  "honolulu": {
+    "counts": {
+      "food": 5,
+      "transport": 2,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 2,
+      "ride": 1,
+      "meal": 5,
+      "snack": 2,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 2,
+      "ride": 1,
+      "meal": 5,
+      "snack": 2,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "barcelona": {
     "counts": {
       "food": 6,

@@ -45,8 +45,8 @@
 | 프라하 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 호놀룰루 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
-| 빈 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 빈 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 빈 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 빈 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 부다페스트 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 부다페스트 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 뮌헨 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -451,18 +451,18 @@
 | CJU-FD-858 | 제주 | 한솥 치킨마요 | 3900 KRW | A | 조건부 | 조건부, 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
 | CJU-FD-859 | 제주 | 한솥 돈까스도련님 | 5200 KRW | A | 조건부 | 조건부, 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
 | CJU-FD-860 | 제주 | 한솥 묵은지 김치찌개 | 6000 KRW | A | 조건부 | 조건부, 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_list) |
-| TYO-AL-861 | 도쿄 | 쿠시카츠 다나카 짐빔 하이볼 | 319 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| TYO-AL-862 | 도쿄 | 쿠시카츠 다나카 레몬사워 | 319 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| TYO-AL-863 | 도쿄 | 쿠시카츠 다나카 생맥주(프리미엄 몰츠 카오루 에일) | 605 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| TYO-AL-864 | 도쿄 | 쿠시카츠 다나카 사케 180ml | 550 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| TYO-AL-865 | 도쿄 | 쿠시카츠 다나카 본격 소주 | 550 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| TYO-AL-866 | 도쿄 | 쿠시카츠 다나카 우메슈 | 495 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| OSA-AL-867 | 오사카 | 쿠시카츠 다나카 짐빔 하이볼 | 319 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| OSA-AL-868 | 오사카 | 쿠시카츠 다나카 레몬사워 | 319 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| OSA-AL-869 | 오사카 | 쿠시카츠 다나카 생맥주(프리미엄 몰츠 카오루 에일) | 605 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| OSA-AL-870 | 오사카 | 쿠시카츠 다나카 사케 180ml | 550 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| OSA-AL-871 | 오사카 | 쿠시카츠 다나카 본격 소주 | 550 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| OSA-AL-872 | 오사카 | 쿠시카츠 다나카 우메슈 | 495 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-861 | 도쿄 | 짐빔 하이볼 (이자카야 쿠시카츠 다나카 가격) | 319 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-862 | 도쿄 | 레몬사워 (이자카야 쿠시카츠 다나카 가격) | 319 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-863 | 도쿄 | 생맥주(프리미엄 몰츠 카오루 에일) (이자카야 쿠시카츠 다나카 가격) | 605 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-864 | 도쿄 | 사케 180ml (이자카야 쿠시카츠 다나카 가격) | 550 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-865 | 도쿄 | 본격 소주 (이자카야 쿠시카츠 다나카 가격) | 550 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| TYO-AL-866 | 도쿄 | 우메슈 (이자카야 쿠시카츠 다나카 가격) | 495 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-867 | 오사카 | 짐빔 하이볼 (이자카야 쿠시카츠 다나카 가격) | 319 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-868 | 오사카 | 레몬사워 (이자카야 쿠시카츠 다나카 가격) | 319 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-869 | 오사카 | 생맥주(프리미엄 몰츠 카오루 에일) (이자카야 쿠시카츠 다나카 가격) | 605 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-870 | 오사카 | 사케 180ml (이자카야 쿠시카츠 다나카 가격) | 550 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-871 | 오사카 | 본격 소주 (이자카야 쿠시카츠 다나카 가격) | 550 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| OSA-AL-872 | 오사카 | 우메슈 (이자카야 쿠시카츠 다나카 가격) | 495 JPY | A | 예 | 재검증 | [串カツ田中 공식 드링크 메뉴](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
 | TYO-AL-873 | 도쿄 | 로손 PB 맥주류 캔 350ml | 171 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/liquor/) |
 | OSA-AL-874 | 오사카 | 로손 PB 맥주류 캔 350ml | 171 JPY | A | 예 | 재검증 | [로손](https://www.lawson.co.jp/recommend/original/liquor/) |
 | TYO-SN-875 | 도쿄 | 교자노오쇼 교자 | 363 JPY | A | 예 | 재검증 | [餃子の王将](https://www.ohsho.co.jp/menu/east/) |
@@ -688,6 +688,17 @@
 | LIS-AT-104 | 리스본 | 리스본 동물원 입장권(아동 3~12세) | 19 EUR | A | 예 | 재검증 | [Lisbon Zoo 공식 입장료](https://www.zoo.pt/en/visit/en/visit/entry-costs/) |
 | LIS-AT-105 | 리스본 | 상조르즈 성 입장권(성인) | 17 EUR | A | 예 | 재검증 | [Castelo de São Jorge 공식 티켓 요금](https://castelodesaojorge.pt/en/plan-your-visit/choose-your-ticket/) |
 | LIS-AT-106 | 리스본 | 상조르즈 성 입장권(12세 이하) | 0 EUR | A | 예 | 재검증 | [Castelo de São Jorge 공식 티켓 요금](https://castelodesaojorge.pt/en/plan-your-visit/choose-your-ticket/) |
+| VIE-TR-201 | 빈 | 빈 대중교통 1회권(성인) | 3.2 EUR | A | 예 | 재검증 | [Vienna Tourist Board 공식 대중교통 요금 안내](https://www.wien.info/en/travel-info/transport/tickets-361360?set_language=en) |
+| VIE-TR-202 | 빈 | 빈 대중교통 1회권(아동 6~14세) | 1.6 EUR | A | 예 | 재검증 | [Vienna Tourist Board 공식 대중교통 요금 안내](https://www.wien.info/en/travel-info/transport/tickets-361360?set_language=en) |
+| VIE-TR-203 | 빈 | 빈 대중교통 24시간권(성인) | 10.2 EUR | A | 예 | 재검증 | [Vienna Tourist Board 공식 대중교통 요금 안내](https://www.wien.info/en/travel-info/transport/tickets-361360?set_language=en) |
+| SGN-AT-901 | 호치민 | 사이공 동식물원 입장권(성인·키 1.3m 이상) | 60000 VND | A | 조건부 | 조건부, 재검증 | [사이공 동식물원 공식 입장권 안내](https://www.saigonzoo.vn/ve-tham-quan) |
+| SGN-AT-902 | 호치민 | 사이공 동식물원 입장권(어린이·키 1~1.3m 미만) | 40000 VND | A | 조건부 | 조건부, 재검증 | [사이공 동식물원 공식 입장권 안내](https://www.saigonzoo.vn/ve-tham-quan) |
+| NYC-AT-901 | 뉴욕 | 9·11 메모리얼 박물관 입장권(7~12세) | 24 USD | A | 예 | 재검증 | [National September 11 Memorial & Museum 공식 티켓 스토어](https://visit.911memorial.org/WebStore/shop/ViewItems.aspx?C=museum&CG=tickets) |
+| NYC-AT-902 | 뉴욕 | 9·11 메모리얼 박물관 입장권(6세 이하) | 0 USD | A | 조건부 | 조건부, 재검증 | [National September 11 Memorial & Museum 공식 티켓 스토어](https://visit.911memorial.org/WebStore/shop/ViewItems.aspx?C=museum&CG=tickets) |
+| ROM-AT-901 | 로마 | 보르게세 미술관 입장권(18세 미만, 예약료 별도) | 0 EUR | A | 조건부 | 조건부, 재검증 | [Galleria Borghese / 이탈리아 문화부 공식 티켓 안내](https://galleriaborghese.cultura.gov.it/en/visita/info-biglietti/) |
+| GUM-AT-901 | 괌 | 투러버스포인트 입장(1인) | 3 USD | A | 조건부 | 조건부, 재검증 | [Two Lovers Point 공식 방문 안내](https://tlpguam.com/pages/visit) |
+| DPS-AT-901 | 발리 | GWK 문화공원 일반 입장권(성인) | 150000 IDR | A | 예 | 재검증 | [GWK Cultural Park 공식 티켓 스토어](https://ticket.gwkbali.com/fit/get-regular-ticket) |
+| DPS-AT-902 | 발리 | GWK 문화공원 일반 입장권(어린이·키 100cm 이상) | 150000 IDR | A | 조건부 | 조건부, 재검증 | [GWK Cultural Park 공식 티켓 스토어](https://ticket.gwkbali.com/fit/get-regular-ticket) |
 | SEL-FD-900 | 서울 | 명동교자 본점 칼국수 | 12000 KRW | B | 예 | B등급, 재검증 | [명동교자 본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11592650/menu/list) |
 | SEL-FD-901 | 서울 | 황생가칼국수 사골칼국수 | 13000 KRW | B | 예 | B등급, 재검증 | [황생가칼국수 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11679429/menu/list) |
 | SEL-FD-902 | 서울 | 이문설농탕 설농탕 | 15000 KRW | B | 예 | B등급, 재검증 | [이문설농탕 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11711983/menu/list) |
@@ -941,9 +952,9 @@
 | KYO-SN-101 | 교토 | 이치란 교토 가와라마치점 콜라 | 200 JPY | A | 예 | 재검증 | [이치란 공식 매장 안내(교토 가와라마치점)](https://ichiran.com/shop/kinki/kyoto-kawaramachi/) |
 | KYO-SN-102 | 교토 | 이치란 교토 가와라마치점 말차 안닌두부 | 450 JPY | A | 예 | 재검증 | [이치란 공식 매장 안내(교토 가와라마치점)](https://ichiran.com/shop/kinki/kyoto-kawaramachi/) |
 | KYO-AL-101 | 교토 | 이치란 교토 가와라마치점 생맥주(중) | 650 JPY | A | 예 | 재검증 | [이치란 공식 매장 안내(교토 가와라마치점)](https://ichiran.com/shop/kinki/kyoto-kawaramachi/) |
-| KYO-AL-102 | 교토 | 쿠시카츠 다나카 짐빔 하이볼 | 319 JPY | A | 조건부 | 조건부, 재검증 | [쿠시카츠 다나카 공식 드링크 메뉴 이미지](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| KYO-AL-103 | 교토 | 쿠시카츠 다나카 생맥주(프리미엄 몰츠 카오루 에일) | 605 JPY | A | 조건부 | 조건부, 재검증 | [쿠시카츠 다나카 공식 드링크 메뉴 이미지](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
-| KYO-AL-104 | 교토 | 쿠시카츠 다나카 사케 180ml | 550 JPY | A | 조건부 | 조건부, 재검증 | [쿠시카츠 다나카 공식 드링크 메뉴 이미지](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| KYO-AL-102 | 교토 | 짐빔 하이볼 (이자카야 쿠시카츠 다나카 가격) | 319 JPY | A | 조건부 | 조건부, 재검증 | [쿠시카츠 다나카 공식 드링크 메뉴 이미지](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| KYO-AL-103 | 교토 | 생맥주(프리미엄 몰츠 카오루 에일) (이자카야 쿠시카츠 다나카 가격) | 605 JPY | A | 조건부 | 조건부, 재검증 | [쿠시카츠 다나카 공식 드링크 메뉴 이미지](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
+| KYO-AL-104 | 교토 | 사케 180ml (이자카야 쿠시카츠 다나카 가격) | 550 JPY | A | 조건부 | 조건부, 재검증 | [쿠시카츠 다나카 공식 드링크 메뉴 이미지](https://kushi-tanaka.com/img/files/up/20260910_drink.png) |
 | KYO-TR-101 | 교토 | 교토 시영 지하철 교토역–시조·가라스마오이케(성인) | 220 JPY | A | 예 | 재검증 | [교토시 교통국 공식 운임 안내(영문)](https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html) |
 | KYO-TR-102 | 교토 | 교토 시영 지하철 교토역–시조·가라스마오이케(아동) | 110 JPY | A | 예 | 재검증 | [교토시 교통국 공식 운임 안내(영문)](https://www2.city.kyoto.lg.jp/kotsu/webguide/en/fare/fare_tika.html) |
 | KYO-AT-101 | 교토 | 니조성 입성료(일반) | 800 JPY | A | 예 | 재검증 | [니조성 공식 Fees](https://nijo-jocastle.city.kyoto.lg.jp/admission/fee/?lang=en) |

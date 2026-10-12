@@ -238,7 +238,8 @@ export type WarningCode =
   | 'customPrice'
   | 'transportNone'
   | 'drinkPicks'
-  | 'countryShared';
+  | 'countryShared'
+  | 'menuSurcharge';
 
 export interface Warning {
   code: WarningCode;

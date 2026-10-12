@@ -85,6 +85,7 @@ export const en: Messages = {
   },
   warnings: {
     insufficient: 'Not enough samples: fewer than {min} usable prices, so no amount is shown.',
+    menuSurcharge: "Menu prices here exclude tax and tip, so meals and drinks include tax and tip ({names}) and snacks include tax, to match what you actually pay.",
     countryShared: '{basket}: this city has too few official prices, so official prices from other cities in the same country were used as well.',
     lowFillRate: 'Every cost group has samples, but overall coverage is below {rate}%, so no total is shown.',
     conditionalUsed: 'Includes samples marked "conditional" for model use: {names}',

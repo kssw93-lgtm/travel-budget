@@ -33,3 +33,23 @@ describe('같은 나라 가격 빌려 쓰기', () => {
     }
   });
 });
+
+describe('메뉴 가격에 세금·팁이 빠지는 도시', () => {
+  it('뉴욕 식비는 세금·팁을 더해 결제 기준으로 계산하고 안내한다', async () => {
+    const { estimateTrip } = await import('../../src/core/estimate');
+    const { MENU_SURCHARGE } = await import('../../src/core/model-config');
+    const c = city('new-york');
+    const input = { cityId: c.id, visitDate: '2026-11-04', nights: 3, adults: 2, children: 0, style: 'standard' as const };
+    const withSur = estimateTrip(input, c, samples);
+    const saved = MENU_SURCHARGE['new-york'];
+    delete MENU_SURCHARGE['new-york'];
+    try {
+      const plain = estimateTrip(input, c, samples);
+      expect(withSur.categories.food.total!.min).toBeGreaterThan(plain.categories.food.total!.min);
+      expect(plain.warnings.some((w) => w.code === 'menuSurcharge')).toBe(false);
+    } finally {
+      MENU_SURCHARGE['new-york'] = saved!;
+    }
+    expect(withSur.warnings.some((w) => w.code === 'menuSurcharge')).toBe(true);
+  });
+});

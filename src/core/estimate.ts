@@ -1,6 +1,6 @@
 import { isVariablePricing, type Classified, type ExcludeReason } from './classify';
 import { addDays } from './dates';
-import { BASKET_RULES, BASKETS, CATEGORIES, EDGE_WEIGHTED, ESTIMATED_CATEGORIES, MODEL, minSamples, minSamplesForCategory } from './model-config';
+import { BASKET_RULES, BASKETS, CATEGORIES, EDGE_WEIGHTED, ESTIMATED_CATEGORIES, MENU_SURCHARGE, MODEL, minSamples, minSamplesForCategory } from './model-config';
 import { attractionOptions } from './attractions';
 import { cityRows } from './city-rows';
 import { passOptions, passesNeeded } from './transport';
@@ -312,7 +312,10 @@ export function estimateTrip(input: TripInput, city: City, samples: PriceSample[
   const days = tripDays(input.nights);
   const dates = Array.from({ length: days }, (_, i) => addDays(input.visitDate, i));
   const weights = dayWeights(days);
-  const { rows: classified, borrowed } = cityRows(city, samples);
+  const { rows: cityAll, borrowed } = cityRows(city, samples);
+  // 메뉴 가격에 세금·팁이 빠지는 도시는 결제 기준으로 올려 계산한다(가격 안내·출처 표시는 원래 메뉴 가격)
+  const sur = MENU_SURCHARGE[city.id];
+  const classified = sur ? cityAll.map((r) => withSurcharge(r, sur)) : cityAll;
   const borrowedIds = new Set(classified.filter((r) => r.sample.cityId !== city.id).map((r) => r.sample.id));
 
   const categories = {} as Record<CostCategory, CategoryEstimate>;
@@ -336,6 +339,12 @@ export function estimateTrip(input: TripInput, city: City, samples: PriceSample[
     const category = CATEGORIES.find((c) => BASKET_RULES[c].baskets.includes(b));
     if (category && categories[category].usedIds.some((id) => borrowedIds.has(id)))
       warnings.push({ category, code: 'countryShared', basket: b });
+  }
+
+  if (sur) {
+    const pct = (n: number) => `${Math.round(n * 1000) / 10}%`;
+    const tax = sur.drinkTax ? `${pct(sur.tax)}/${pct(sur.drinkTax)}` : pct(sur.tax);
+    warnings.push({ category: 'food', code: 'menuSurcharge', names: [`${tax} + ${pct(sur.tip[0])}~${pct(sur.tip[1])}`] });
   }
 
   const missing = CATEGORIES.filter((c) => !categories[c].sufficient);
@@ -372,6 +381,14 @@ export function estimateTrip(input: TripInput, city: City, samples: PriceSample[
     computable,
     warnings,
   };
+}
+
+/** 식사·술: 세금 + 팁(최소~최대), 간식·음료: 세금만 */
+function withSurcharge(r: Classified, sur: (typeof MENU_SURCHARGE)[string]): Classified {
+  if (r.basket !== 'meal' && r.basket !== 'drink' && r.basket !== 'snack') return r;
+  const tax = r.basket === 'drink' ? (sur.drinkTax ?? sur.tax) : sur.tax;
+  const [tipMin, tipMax] = r.basket === 'snack' ? [0, 0] : sur.tip;
+  return { ...r, sample: { ...r.sample, min: r.sample.min * (1 + tax + tipMin), max: r.sample.max * (1 + tax + tipMax) } };
 }
 
 export interface CitySummary {

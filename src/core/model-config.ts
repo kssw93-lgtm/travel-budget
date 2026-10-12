@@ -80,6 +80,17 @@ export const STYLES: readonly TravelStyle[] = ['budget', 'standard', 'comfort'];
  * 이 계산기는 대략적인 체류비 범위가 목적이라, 시내버스 하나뿐인 소도시처럼 대중교통 요금 체계가 하나인 곳도
  * 공식 1회 요금(또는 1일권) 1건이면 교통비를 계산한다. 식사는 그대로 3건(가게마다 값 차이가 커서).
  */
+/**
+ * 메뉴 가격에 판매세·팁이 빠지는 도시의 외식 가산(결제 기준으로 맞춤). tax 는 정부 공식 세율,
+ * tip 은 테이블 서비스 팁 관행(가격이 아니라 계산 가정 — 식사·술에만, 카페·간식에는 붙이지 않음).
+ * drinkTax 가 있으면 술에는 그 세율을 쓴다(예: BC 주류 PST 10% + GST 5%).
+ */
+export const MENU_SURCHARGE: Record<string, { tax: number; drinkTax?: number; tip: readonly [number, number]; taxSource: string }> = {
+  'new-york': { tax: 0.08875, tip: [0.18, 0.2], taxSource: 'New York State Department of Taxation and Finance — New York City 8.875%' },
+  honolulu: { tax: 0.045, tip: [0.18, 0.2], taxSource: 'Hawaii Department of Taxation — GET 4% + Oahu county surcharge 0.5%' },
+  vancouver: { tax: 0.05, drinkTax: 0.15, tip: [0.15, 0.18], taxSource: 'Canada Revenue Agency GST 5%, BC PST 10% on liquor' },
+};
+
 export const MIN_SAMPLES_BY_BASKET: Partial<Record<Basket, number>> = { ride: 1, pass: 1 };
 
 export function minSamples(basket: Basket): number {

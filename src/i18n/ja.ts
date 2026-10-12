@@ -89,6 +89,7 @@ export const ja: Messages = {
   },
   warnings: {
     insufficient: 'サンプル不足：計算に使える価格が{min}件未満のため、金額を出していません。',
+    menuSurcharge: "この都市はメニュー価格に税・チップが含まれないため、支払額に合わせて食事・お酒に税とチップ（{names}）、軽食・飲み物に税を加えて計算しました。",
     countryShared: '{basket}：この都市の公式価格が少ないため、同じ国の他の都市の公式価格もあわせて使いました。',
     lowFillRate: '費用の区分ごとのサンプルはありますが、全体の充足率が{rate}%未満のため合計を出していません。',
     conditionalUsed: 'モデル利用が「条件付き」のサンプルを含みます：{names}',

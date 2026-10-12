@@ -41,6 +41,9 @@ export const en: Messages = {
   },
   categories: { food: 'Dining', transport: 'Local transport', attraction: 'Attractions', souvenir: 'Souvenirs', contingency: 'Contingency (10%)' },
   result: {
+    share: 'Share this result',
+    shareCopied: 'Link copied. Paste it to share.',
+    shareFailed: "Couldn't copy. Please copy the address from the address bar.",
     title: 'Estimated on-the-ground costs',
     summary: '{city} · {days}-day trip ({nights}-night stay) · Adults: {adults}{kids} · {style}',
     kids: ' · Children: {n}',

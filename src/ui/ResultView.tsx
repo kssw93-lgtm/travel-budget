@@ -1,10 +1,11 @@
 import { CATEGORIES, MODEL, minSamplesForCategory } from '../core/model-config';
-import { isSupported } from '../core/money';
+import { formatMoney, isSupported } from '../core/money';
 import type { Category, CategoryEstimate, City, Estimate, PriceSample, Range, TripInput, Warning } from '../core/types';
 import { fmt, localName, useI18n, type Lang } from '../i18n';
 import { AdSlot } from './AdSlot';
 import { CategoryDetail } from './CategoryDetail';
 import { convertRange, RangeText } from './money';
+import { ShareButton } from './ShareButton';
 import type { RatesState } from './useRates';
 import { cityName } from './TripForm';
 import { ExternalLink } from './ExternalLink';
@@ -67,7 +68,7 @@ function warningText(w: Warning, byId: Map<string, PriceSample>, lang: Lang, t: 
 }
 
 export function ResultView({ estimate: e, trip, city, display, rates, samples, direct, shopping = 0 }: Props) {
-  const { t, lang } = useI18n();
+  const { t, lang, locale } = useI18n();
   const ratesData = rates.status === 'ok' ? rates.data : null;
   const byId = new Map(samples.map((s) => [s.id, s]));
   const catName = (c: Category) => t.categories[c];
@@ -92,13 +93,22 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
 
   const holdList = e.missing.map((c) => `${catName(c)} (${fmt(t.result.needMore, { have: e.categories[c].independentCount, need: minSamplesForCategory(c) })})`).join(', ');
   const fillPct = Math.round(e.fillRate * 100);
+  const summary = fmt(t.result.summary, { city: cityName(city, lang), days: e.days, nights: trip.nights, adults: trip.adults, kids, style: t.styles[trip.style].name });
+  // 공유 문구: 요약 + 총액(표시 통화로 바꿀 수 없으면 현지 통화)
+  const shareText = (() => {
+    if (!e.computable || !stayTotal) return summary;
+    const shown = display === e.currency ? stayTotal : convertRange(stayTotal, e.currency, display, ratesData);
+    const cur = shown ? display : e.currency;
+    const r = shown ?? stayTotal;
+    const a = formatMoney(r.min, cur, locale);
+    const b = formatMoney(r.max, cur, locale);
+    return `${summary}\n${t.result.total}: ${a === b ? a : `${a} ~ ${b}`}`;
+  })();
 
   return (
     <section className="card result" aria-labelledby="result-title" data-testid="result">
       <h2 id="result-title">{t.result.title}</h2>
-      <p className="summary">
-        {fmt(t.result.summary, { city: cityName(city, lang), days: e.days, nights: trip.nights, adults: trip.adults, kids, style: t.styles[trip.style].name })}
-      </p>
+      <p className="summary">{summary}</p>
 
       {e.computable && e.total ? (
         <div className="total" data-testid="total">
@@ -109,6 +119,7 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
               <span>{t.result.dailyFood}</span> <Amount range={e.dailyFoodAverage} local={e.currency} display={display} rates={rates} />
             </p>
           )}
+          <ShareButton text={shareText} />
         </div>
       ) : (
         <div className="notice hold" role="status" data-testid="hold">

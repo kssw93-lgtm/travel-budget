@@ -196,3 +196,8 @@ details:not([open]) > summary .toggle-hint .when-open, details[open] > summary .
 .daily-food > span:first-child { display: block; }
 .daily-food .amount { align-items: flex-start; }
 .daily-food > span:first-child { color: var(--muted); font-size: .9rem; }
+
+.share { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-top: 12px; }
+.share-button { font: inherit; font-weight: 600; padding: 8px 16px; border-radius: 8px; border: 1px solid var(--brand); background: var(--brand); color: var(--brand-ink); cursor: pointer; }
+.share-button:hover { filter: brightness(1.08); }
+.share-status { font-size: 0.9em; color: var(--muted); }

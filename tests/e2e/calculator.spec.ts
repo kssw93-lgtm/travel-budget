@@ -97,6 +97,28 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(page.getByTestId('total')).toContainText('₩');
   });
 
+  test('결과 공유: 지금 주소(입력값 포함)와 요약·총액을 복사하고, 그 주소로 들어오면 같은 결과가 나온다', async ({ page, context }) => {
+    await mockRates(page);
+    await page.addInitScript(() => {
+      // 공유 창이 없는 환경(데스크톱)을 가정하고 클립보드 내용을 기록한다
+      Object.defineProperty(navigator, 'share', { value: undefined, configurable: true });
+      Object.defineProperty(navigator, 'clipboard', { value: { writeText: async (s: string) => { (window as unknown as { copied: string }).copied = s; } }, configurable: true });
+    });
+    await page.goto('/');
+    await fillTrip(page);
+    const total = await page.getByTestId('total').locator('.amount').first().innerText();
+    await page.getByTestId('share').click();
+    await expect(page.getByText('링크를 복사했어요')).toBeVisible();
+    const copied = await page.evaluate(() => (window as unknown as { copied: string }).copied);
+    expect(copied).toContain(page.url());
+    expect(copied).toContain('city=');
+    const other = await context.newPage();
+    await mockRates(other);
+    await other.goto(page.url());
+    await expect(other.getByTestId('total')).toBeVisible();
+    expect(await other.getByTestId('total').locator('.amount').first().innerText()).toBe(total);
+  });
+
   test('여행 스타일에 따라 결과가 바뀐다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/');

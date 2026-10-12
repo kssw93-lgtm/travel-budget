@@ -45,6 +45,9 @@ export const ja: Messages = {
   },
   categories: { food: '外食', transport: '現地交通', attraction: '観光施設', souvenir: 'お土産', contingency: '予備費（10%）' },
   result: {
+    share: '結果を共有',
+    shareCopied: 'リンクをコピーしました。貼り付けて共有できます。',
+    shareFailed: 'コピーできませんでした。アドレスバーのURLをコピーしてください。',
     title: '現地滞在費の目安',
     summary: '{city} · {nights}泊{days}日 · 大人{adults}人{kids} · {style}',
     kids: ' · 子ども{n}人',

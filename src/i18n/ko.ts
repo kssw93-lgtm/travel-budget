@@ -40,6 +40,9 @@ export const ko = {
   },
   categories: { food: '외식', transport: '현지 교통', attraction: '관광지', souvenir: '기념품', contingency: '예비비 (10%)' },
   result: {
+    share: '결과 공유하기',
+    shareCopied: '링크를 복사했어요. 붙여 넣어 공유해 보세요.',
+    shareFailed: '복사하지 못했어요. 주소창의 주소를 복사해 주세요.',
     title: '예상 현지 체류비',
     summary: '{city} · {days}일({nights}박) · 성인 {adults}명{kids} · {style}',
     kids: ' · 어린이 {n}명',

@@ -65,6 +65,8 @@
 | 오클랜드 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 고베 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 히로시마 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 가나자와 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 하코다테 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -774,6 +776,12 @@
 | GUM-AT-901 | 괌 | 투러버스포인트 입장(1인) | 3 USD | A | 조건부 | 조건부, 재검증 | [Two Lovers Point 공식 방문 안내](https://tlpguam.com/pages/visit) |
 | DPS-AT-901 | 발리 | GWK 문화공원 일반 입장권(성인) | 150000 IDR | A | 예 | 재검증 | [GWK Cultural Park 공식 티켓 스토어](https://ticket.gwkbali.com/fit/get-regular-ticket) |
 | DPS-AT-902 | 발리 | GWK 문화공원 일반 입장권(어린이·키 100cm 이상) | 150000 IDR | A | 조건부 | 조건부, 재검증 | [GWK Cultural Park 공식 티켓 스토어](https://ticket.gwkbali.com/fit/get-regular-ticket) |
+| HKD-AT-101 | 하코다테 | 고료카쿠 타워 전망대 입장권 (성인) | 1200 JPY | A | 예 | 재검증 | [五稜郭タワー株式会社](https://www.goryokaku-tower.co.jp/price/) |
+| HKD-AT-102 | 하코다테 | 고료카쿠 타워 전망대 입장권 (아동) | 600 JPY | A | 예 | 재검증 | [五稜郭タワー株式会社](https://www.goryokaku-tower.co.jp/price/) |
+| HKD-AT-103 | 하코다테 | 하코다테산 로프웨이 왕복 승차권 (성인) | 1800 JPY | A | 예 | 재검증 | [函館山ロープウェイ株式会社](https://334.co.jp/ropeway/price/) |
+| HKD-AT-104 | 하코다테 | 하코다테산 로프웨이 왕복 승차권 (아동) | 900 JPY | A | 예 | 재검증 | [函館山ロープウェイ株式会社](https://334.co.jp/ropeway/price/) |
+| HKD-AT-105 | 하코다테 | 하코다테시 열대식물원 입장료 (성인) | 300 JPY | A | 예 | 재검증 | [函館市熱帯植物園（函館エコロジークラブ指定管理）](https://hako-eco.com/about) |
+| HKD-AT-106 | 하코다테 | 하코다테시 열대식물원 입장료 (아동) | 100 JPY | A | 예 | 재검증 | [函館市熱帯植物園（函館エコロジークラブ指定管理）](https://hako-eco.com/about) |
 | HIJ-AT-101 | 히로시마 | 히로시마 오리즈루 타워 입장권 (성인) | 2200 JPY | A | 예 | 재검증 | [HIROSHIMA ORIZURU TOWER](https://orizurutower.jp/en/user-guide/ticket/) |
 | HIJ-AT-102 | 히로시마 | 히로시마 오리즈루 타워 입장권 (아동) | 900 JPY | A | 예 | 재검증 | [HIROSHIMA ORIZURU TOWER](https://orizurutower.jp/en/user-guide/ticket/) |
 | HIJ-AT-103 | 히로시마 | 히로시마 오리즈루 타워 입장권 (아동) | 1400 JPY | A | 예 | 재검증 | [HIROSHIMA ORIZURU TOWER](https://orizurutower.jp/en/user-guide/ticket/) |
@@ -781,6 +789,12 @@
 | HIJ-AT-105 | 히로시마 | 슈케이엔 입장권 (아동) | 0 JPY | A | 예 | 재검증 | [縮景園](https://shukkeien.jp/guide/) |
 | HIJ-AT-106 | 히로시마 | 히로시마시 식물공원 입장권 (성인) | 510 JPY | A | 예 | 재검증 | [広島市](https://www.city.hiroshima.lg.jp/living/park-green/1005983/1026357/1018194.html) |
 | HIJ-AT-107 | 히로시마 | 히로시마시 식물공원 입장권 (아동) | 0 JPY | A | 예 | 재검증 | [広島市](https://www.city.hiroshima.lg.jp/living/park-green/1005983/1026357/1018194.html) |
+| KNZ-AT-101 | 가나자와 | 겐로쿠엔 입장권 (성인) | 320 JPY | A | 예 | 재검증 | [VISIT KANAZAWA, JAPAN — Official Travel Guide](https://visitkanazawa.jp/en/attractions/detail_10106.html) |
+| KNZ-AT-102 | 가나자와 | 겐로쿠엔 입장권 (아동) | 100 JPY | A | 예 | 재검증 | [VISIT KANAZAWA, JAPAN — Official Travel Guide](https://visitkanazawa.jp/en/attractions/detail_10106.html) |
+| KNZ-AT-103 | 가나자와 | 야스에 금박공예관 관람료 (성인) | 310 JPY | A | 예 | 재검증 | [金沢市立安江金箔工芸館](https://kanazawa-museum.jp/kinpaku/guide/index.htm) |
+| KNZ-AT-104 | 가나자와 | 야스에 금박공예관 관람료 (아동) | 0 JPY | A | 예 | 재검증 | [金沢市立安江金箔工芸館](https://kanazawa-museum.jp/kinpaku/guide/index.htm) |
+| KNZ-AT-105 | 가나자와 | 사무라이 저택 데라시마 구란도 저택 입장료 (성인) | 310 JPY | A | 예 | 재검증 | [The Old Site of Mr. Kurando Terashima’s House](https://www.kanazawa-museum.jp/terashima/english/index.html) |
+| KNZ-AT-106 | 가나자와 | 사무라이 저택 데라시마 구란도 저택 입장료 (아동) | 0 JPY | A | 예 | 재검증 | [The Old Site of Mr. Kurando Terashima’s House](https://www.kanazawa-museum.jp/terashima/english/index.html) |
 | UKB-AT-101 | 고베 | 고베 동물왕국 입장권 (성인) | 2400 JPY | A | 예 | 재검증 | [神戸どうぶつ王国](https://www.kobe-oukoku.com/information/fees) |
 | UKB-AT-102 | 고베 | 고베 동물왕국 입장권 (아동) | 1200 JPY | A | 예 | 재검증 | [神戸どうぶつ王国](https://www.kobe-oukoku.com/information/fees) |
 | UKB-AT-103 | 고베 | 고베 포트타워 전망층 입장권 (성인) | 1000 JPY | A | 예 | 재검증 | [Kobe Port Tower](https://www.kobe-port-tower.com/en/ticket/) |

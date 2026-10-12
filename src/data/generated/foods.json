@@ -2097,6 +2097,78 @@
     "note": "Claude 초안(2026-10-11)"
   },
   {
+    "cityId": "hakodate",
+    "nameKo": "하코다테 시오라멘",
+    "nameEn": "Hakodate Shio Ramen",
+    "reason": "맑은 소금 맛 국물의 하코다테 라멘",
+    "reasonEn": "Clear salt ramen",
+    "desc": {
+      "ko": "맑은 소금 맛 국물의 하코다테 라멘",
+      "en": "Ramen in a clear salt-based broth, Hakodate style",
+      "ja": "透き通った塩味スープの函館ラーメン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://www.hakodate.travel/en/experience/gourmet/",
+    "note": "GPT 수집(2026-10-12)"
+  },
+  {
+    "cityId": "hakodate",
+    "nameKo": "해산물 덮밥",
+    "nameEn": "Seafood Rice Bowl",
+    "reason": "갓 잡은 해산물을 밥 위에 올린 덮밥",
+    "reasonEn": "Fresh seafood bowl",
+    "desc": {
+      "ko": "갓 잡은 해산물을 밥 위에 올린 덮밥",
+      "en": "Fresh seafood piled on rice",
+      "ja": "新鮮な魚介をご飯にのせた丼"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://www.hakodate.travel/en/sightseeing-spots/food-drink/",
+    "note": "GPT 수집(2026-10-12)"
+  },
+  {
+    "cityId": "hakodate",
+    "nameKo": "이카메시",
+    "nameEn": "Ikameshi",
+    "reason": "오징어 안에 찹쌀을 채워 달게 조린 음식",
+    "reasonEn": "Stuffed squid",
+    "desc": {
+      "ko": "오징어 안에 찹쌀을 채워 달게 조린 음식",
+      "en": "Squid stuffed with rice and simmered in sweet soy sauce",
+      "ja": "イカにもち米を詰めて甘辛く煮た料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://www.hakodate.travel/en/what-to-buy/",
+    "note": "GPT 수집(2026-10-12)"
+  },
+  {
+    "cityId": "hakodate",
+    "nameKo": "하코다테 오징어",
+    "nameEn": "Hakodate Squid",
+    "reason": "하코다테 대표 수산물인 오징어(여름 제철)",
+    "reasonEn": "Hakodate's squid",
+    "desc": {
+      "ko": "하코다테 대표 수산물인 오징어(여름 제철)",
+      "en": "Hakodate's signature squid, best in summer",
+      "ja": "函館を代表する海産物のイカ（夏が旬）"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://www.hakodate.travel/en/enjoy-4-seasons/summer/",
+    "note": "GPT 수집(2026-10-12)"
+  },
+  {
     "cityId": "hanoi",
     "nameKo": "분짜",
     "nameEn": "Bun Cha",
@@ -2551,6 +2623,78 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "kanazawa",
+    "nameKo": "지부니",
+    "nameEn": "Jibu-ni",
+    "reason": "오리와 제철 채소를 넣고 전분으로 걸쭉하게 끓인 가나자와 전통 요리",
+    "reasonEn": "Kanazawa duck stew",
+    "desc": {
+      "ko": "오리와 제철 채소를 넣고 전분으로 걸쭉하게 끓인 가나자와 전통 요리",
+      "en": "Duck and seasonal vegetables simmered in a thickened broth",
+      "ja": "鴨と季節の野菜をとろみのある汁で煮た金沢の郷土料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://visitkanazawa.jp/en/trip-ideas/detail_239.html",
+    "note": "GPT 수집(2026-10-12)"
+  },
+  {
+    "cityId": "kanazawa",
+    "nameKo": "하스무시",
+    "nameEn": "Hasu-mushi",
+    "reason": "간 연근을 쪄서 걸쭉한 국물을 끼얹은 가나자와 특산 요리",
+    "reasonEn": "Steamed lotus root",
+    "desc": {
+      "ko": "간 연근을 쪄서 걸쭉한 국물을 끼얹은 가나자와 특산 요리",
+      "en": "Steamed grated lotus root topped with thick broth",
+      "ja": "すりおろしたレンコンを蒸して餡をかけた料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://visitkanazawa.jp/en/faq/",
+    "note": "GPT 수집(2026-10-12)"
+  },
+  {
+    "cityId": "kanazawa",
+    "nameKo": "한톤라이스",
+    "nameEn": "Hanton Rice",
+    "reason": "오므라이스 위에 생선튀김과 소스를 올린 가나자와 서민 음식",
+    "reasonEn": "Kanazawa's omelette rice",
+    "desc": {
+      "ko": "오므라이스 위에 생선튀김과 소스를 올린 가나자와 서민 음식",
+      "en": "Omelette rice topped with fried fish and sauce, a local comfort dish",
+      "ja": "オムライスにフライとソースをのせた金沢の洋食"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://visitkanazawa.jp/en/faq/",
+    "note": "GPT 수집(2026-10-12)"
+  },
+  {
+    "cityId": "kanazawa",
+    "nameKo": "가나자와 오뎅",
+    "nameEn": "Kanazawa Oden",
+    "reason": "다시 국물에 채소·해산물을 넣어 사계절 먹는 가나자와식 오뎅",
+    "reasonEn": "Year-round oden",
+    "desc": {
+      "ko": "다시 국물에 채소·해산물을 넣어 사계절 먹는 가나자와식 오뎅",
+      "en": "Oden simmered in dashi with local vegetables and seafood, eaten year-round",
+      "ja": "だしで野菜や海産物を煮込む、一年中食べる金沢おでん"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://visitkanazawa.jp/en/trip-ideas/detail_239.html",
+    "note": "GPT 수집(2026-10-12)"
   },
   {
     "cityId": "kobe",

@@ -1474,5 +1474,45 @@
     "ko": "단팥을 카스텔라 반죽으로 감싸 단풍잎 모양으로 구운 과자",
     "en": "Maple-leaf shaped sponge cake filled with sweet bean paste",
     "ja": "あんを生地で包み紅葉の形に焼いた和菓子"
+  },
+  "kanazawa:Jibu-ni": {
+    "ko": "오리와 제철 채소를 넣고 전분으로 걸쭉하게 끓인 가나자와 전통 요리",
+    "en": "Duck and seasonal vegetables simmered in a thickened broth",
+    "ja": "鴨と季節の野菜をとろみのある汁で煮た金沢の郷土料理"
+  },
+  "kanazawa:Hasu-mushi": {
+    "ko": "간 연근을 쪄서 걸쭉한 국물을 끼얹은 가나자와 특산 요리",
+    "en": "Steamed grated lotus root topped with thick broth",
+    "ja": "すりおろしたレンコンを蒸して餡をかけた料理"
+  },
+  "kanazawa:Hanton Rice": {
+    "ko": "오므라이스 위에 생선튀김과 소스를 올린 가나자와 서민 음식",
+    "en": "Omelette rice topped with fried fish and sauce, a local comfort dish",
+    "ja": "オムライスにフライとソースをのせた金沢の洋食"
+  },
+  "kanazawa:Kanazawa Oden": {
+    "ko": "다시 국물에 채소·해산물을 넣어 사계절 먹는 가나자와식 오뎅",
+    "en": "Oden simmered in dashi with local vegetables and seafood, eaten year-round",
+    "ja": "だしで野菜や海産物を煮込む、一年中食べる金沢おでん"
+  },
+  "hakodate:Hakodate Shio Ramen": {
+    "ko": "맑은 소금 맛 국물의 하코다테 라멘",
+    "en": "Ramen in a clear salt-based broth, Hakodate style",
+    "ja": "透き通った塩味スープの函館ラーメン"
+  },
+  "hakodate:Seafood Rice Bowl": {
+    "ko": "갓 잡은 해산물을 밥 위에 올린 덮밥",
+    "en": "Fresh seafood piled on rice",
+    "ja": "新鮮な魚介をご飯にのせた丼"
+  },
+  "hakodate:Ikameshi": {
+    "ko": "오징어 안에 찹쌀을 채워 달게 조린 음식",
+    "en": "Squid stuffed with rice and simmered in sweet soy sauce",
+    "ja": "イカにもち米を詰めて甘辛く煮た料理"
+  },
+  "hakodate:Hakodate Squid": {
+    "ko": "하코다테 대표 수산물인 오징어(여름 제철)",
+    "en": "Hakodate's signature squid, best in summer",
+    "ja": "函館を代表する海産物のイカ（夏が旬）"
   }
 }

@@ -1,0 +1,5 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+일본,하코다테,하코다테 시오라멘,Hakodate Shio Ramen,맑은 소금 맛 국물의 하코다테 라멘,저,,대기,관광청 공식 안내,https://www.hakodate.travel/en/experience/gourmet/,GPT 수집(2026-10-12)
+일본,하코다테,해산물 덮밥,Seafood Rice Bowl,갓 잡은 해산물을 밥 위에 올린 덮밥,중,,대기,관광청 공식 안내,https://www.hakodate.travel/en/sightseeing-spots/food-drink/,GPT 수집(2026-10-12)
+일본,하코다테,이카메시,Ikameshi,오징어 안에 찹쌀을 채워 달게 조린 음식,저,,대기,관광청 공식 안내,https://www.hakodate.travel/en/what-to-buy/,GPT 수집(2026-10-12)
+일본,하코다테,하코다테 오징어,Hakodate Squid,하코다테 대표 수산물인 오징어(여름 제철),중,,대기,관광청 공식 안내,https://www.hakodate.travel/en/enjoy-4-seasons/summer/,GPT 수집(2026-10-12)

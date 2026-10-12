@@ -9,7 +9,7 @@ test.describe('계산기 핵심 흐름', () => {
     await mockRates(page);
     await page.goto('/');
     const values = await page.locator('#city option').evaluateAll((os) => os.map((o) => (o as HTMLOptionElement).value));
-    expect([...values].sort()).toEqual(['auckland', 'bali', 'bangkok', 'barcelona', 'budapest', 'busan', 'cebu', 'chiang-mai', 'da-nang', 'dubai', 'fukuoka', 'gangneung', 'guam', 'gyeongju', 'hanoi', 'hiroshima', 'ho-chi-minh-city', 'hong-kong', 'honolulu', 'interlaken', 'istanbul', 'jeju', 'jeonju', 'kobe', 'kuala-lumpur', 'kyoto', 'lisbon', 'london', 'munich', 'nagoya', 'new-york', 'nha-trang', 'okinawa', 'osaka', 'paris', 'phu-quoc', 'prague', 'rome', 'saipan', 'sapporo', 'seoul', 'shanghai', 'singapore', 'sydney', 'taipei', 'tokyo', 'ulaanbaatar', 'vancouver', 'vienna', 'yeosu']);
+    expect([...values].sort()).toEqual(['auckland', 'bali', 'bangkok', 'barcelona', 'budapest', 'busan', 'cebu', 'chiang-mai', 'da-nang', 'dubai', 'fukuoka', 'gangneung', 'guam', 'gyeongju', 'hakodate', 'hanoi', 'hiroshima', 'ho-chi-minh-city', 'hong-kong', 'honolulu', 'interlaken', 'istanbul', 'jeju', 'jeonju', 'kanazawa', 'kobe', 'kuala-lumpur', 'kyoto', 'lisbon', 'london', 'munich', 'nagoya', 'new-york', 'nha-trang', 'okinawa', 'osaka', 'paris', 'phu-quoc', 'prague', 'rome', 'saipan', 'sapporo', 'seoul', 'shanghai', 'singapore', 'sydney', 'taipei', 'tokyo', 'ulaanbaatar', 'vancouver', 'vienna', 'yeosu']);
     // 국내/해외가 아니라 나라별로 묶는다
     const pilot = (JSON.parse(readFileSync('src/data/generated/cities.json', 'utf8')) as Array<{ stage: string; country: string }>).filter((c) => c.stage === '파일럿');
     await expect(page.locator('#city optgroup')).toHaveCount(new Set(pilot.map((c) => c.country)).size);
@@ -17,10 +17,10 @@ test.describe('계산기 핵심 흐름', () => {
     await page.getByLabel('도시·나라 검색').fill('바르셀로나');
     await expect(page.locator('#city')).toHaveValue('barcelona');
     await page.getByLabel('도시·나라 검색').fill('일본');
-    await expect(page.getByTestId('city-search-status')).toHaveText('9개 도시');
-    await expect(page.locator('#city option')).toHaveCount(10); // 고른 도시(바르셀로나) + 일본 9곳
-    await page.getByLabel('도시·나라 검색').press('Enter'); // 보이는 순서(가나다)의 첫 도시: 고베
-    await expect(page.locator('#city')).toHaveValue('kobe');
+    await expect(page.getByTestId('city-search-status')).toHaveText('11개 도시');
+    await expect(page.locator('#city option')).toHaveCount(12); // 고른 도시(바르셀로나) + 일본 11곳
+    await page.getByLabel('도시·나라 검색').press('Enter'); // 보이는 순서(가나다)의 첫 도시: 가나자와
+    await expect(page.locator('#city')).toHaveValue('kanazawa');
     await page.getByLabel('도시·나라 검색').fill('아틀란티스');
     await expect(page.getByTestId('city-search-status')).toContainText('아직 없는 도시');
   });
@@ -151,7 +151,7 @@ test.describe('계산기 핵심 흐름', () => {
     await mockRates(page);
     await page.goto('/');
     const label: Record<string, string> = { food: '외식', transport: '현지 교통', attraction: '관광지' };
-    expect(Object.keys(status)).toHaveLength(50);
+    expect(Object.keys(status)).toHaveLength(52);
     for (const [city, st] of Object.entries(status)) {
       await fillTrip(page, { city });
       if (st.computable) {

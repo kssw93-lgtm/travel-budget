@@ -951,6 +951,62 @@
     "missing": [],
     "computable": true
   },
+  "kanazawa": {
+    "counts": {
+      "food": 47,
+      "transport": 20,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 20,
+      "meal": 47,
+      "snack": 22,
+      "drink": 23,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 20,
+      "meal": 51,
+      "snack": 38,
+      "drink": 30,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "hakodate": {
+    "counts": {
+      "food": 47,
+      "transport": 20,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 20,
+      "meal": 47,
+      "snack": 22,
+      "drink": 23,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 20,
+      "meal": 51,
+      "snack": 38,
+      "drink": 30,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "barcelona": {
     "counts": {
       "food": 6,

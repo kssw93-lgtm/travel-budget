@@ -754,12 +754,8 @@
 | LIS-AT-104 | 리스본 | 리스본 동물원 입장권(아동 3~12세) | 19 EUR | A | 예 | 재검증 | [Lisbon Zoo 공식 입장료](https://www.zoo.pt/en/visit/en/visit/entry-costs/) |
 | LIS-AT-105 | 리스본 | 상조르즈 성 입장권(성인) | 17 EUR | A | 예 | 재검증 | [Castelo de São Jorge 공식 티켓 요금](https://castelodesaojorge.pt/en/plan-your-visit/choose-your-ticket/) |
 | LIS-AT-106 | 리스본 | 상조르즈 성 입장권(12세 이하) | 0 EUR | A | 예 | 재검증 | [Castelo de São Jorge 공식 티켓 요금](https://castelodesaojorge.pt/en/plan-your-visit/choose-your-ticket/) |
-| FUK-FD-501 | 후쿠오카 | 菊武 명란 토로로 모츠나베 (1인분) | 2980 JPY | A | 예 | 재검증 | [博多もつ鍋 菊武](https://kikutake.store/menu) |
-| FUK-FD-502 | 후쿠오카 | 菊武 매운 모츠나베 (1인분) | 2580 JPY | A | 예 | 재검증 | [博多もつ鍋 菊武](https://kikutake.store/menu) |
 | FUK-FD-503 | 후쿠오카 | 菊武 된장 모츠나베 (1인분) | 2180 JPY | A | 예 | 재검증 | [博多もつ鍋 菊武](https://kikutake.store/menu) |
 | FUK-FD-504 | 후쿠오카 | 오오야마 모츠나베 정식 | 2068 JPY | A | 예 | 재검증 | [博多もつ鍋 おおやま博多1番街](https://www.motu-ooyama.com/shop/hakataichibangai/) |
-| FUK-FD-505 | 후쿠오카 | 오오야마 모츠나베 고젠 | 2398 JPY | A | 예 | 재검증 | [博多もつ鍋 おおやま博多1番街](https://www.motu-ooyama.com/shop/hakataichibangai/) |
-| FUK-FD-506 | 후쿠오카 | 오오야마 고젠 | 2728 JPY | A | 예 | 재검증 | [博多もつ鍋 おおやま博多1番街](https://www.motu-ooyama.com/shop/hakataichibangai/) |
 | FUK-FD-511 | 후쿠오카 | 가케 우동/소바 | 500 JPY | A | 예 | 재검증 | [博多めん処 峰松本家](https://mineya.co.jp/menu/standard-menus/) |
 | FUK-FD-512 | 후쿠오카 | 자루 우동/소바 | 720 JPY | A | 예 | 재검증 | [博多めん処 峰松本家](https://mineya.co.jp/menu/standard-menus/) |
 | FUK-FD-513 | 후쿠오카 | 마루텐 우동/소바 | 750 JPY | A | 예 | 재검증 | [博多めん処 峰松本家](https://mineya.co.jp/menu/standard-menus/) |

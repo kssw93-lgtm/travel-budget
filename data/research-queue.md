@@ -47,6 +47,8 @@
 | 호놀룰루 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 사이판 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 사이판 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 울란바토르 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 울란바토르 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 빈 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 빈 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 부다페스트 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1078,6 +1080,11 @@
 | TYO-FD-820 | 도쿄 | 사이제리야 밀라노풍 도리아 | 300 JPY | A | 예 | 재검증, 세금·서비스료 별도 | [사이제리야](https://www.saizeriya.co.jp/menu-popular/2101/) |
 | SEL-FD-821 | 서울 | 한솥 메가치킨마요 도시락 | 6600 KRW | A | 예 | 재검증 | [한솥도시락](https://www.hsd.co.kr/menu/menu_view/250?cate1=4&cate2=12) |
 | TYO-SN-822 | 도쿄 | 엑셀시오르 카페 블렌드커피 | 390 JPY | A | 예 | 재검증 | [엑셀시오르 카페(도토루 니치레스)](https://www.doutor.co.jp/news/2026priceEXC.pdf) |
+| ULN-TR-201 | 울란바토르 | 울란바토르 시내버스 1회(현금·은행 NFC 카드) | 1000 MNT | A | 예 | 재검증 | [울란바토르시 대중교통정책국 공지](https://www.transport.ub.gov.mn/a/4) |
+| SEL-AT-951 | 서울 | 에버랜드 종일권(대인·청소년) | 71000 KRW | A | 예 | 재검증 | [에버랜드 공식 이용요금](https://www.everland.com/everland/promotion/usage-fee) |
+| SEL-AT-952 | 서울 | 에버랜드 종일권(소인·경로) | 61000 KRW | A | 예 | 재검증 | [에버랜드 공식 이용요금](https://www.everland.com/everland/promotion/usage-fee) |
+| CJU-AT-951 | 제주 | 스누피가든 입장권(성인) | 19000 KRW | A | 예 | 재검증 | [스누피가든 공식 요금표](https://www.snoopygarden.com/ticket) |
+| CJU-AT-952 | 제주 | 스누피가든 입장권(어린이) | 13000 KRW | A | 예 | 재검증 | [스누피가든 공식 요금표](https://www.snoopygarden.com/ticket) |
 | TYO-FD-951 | 도쿄 | 생맥주 아사히 슈퍼드라이·기린 하트랜드 (호텔 레스토랑) | 1000 JPY | A | 예 | 재검증 | [Hotel Metropolitan Edmont Tokyo Beltempo](https://edmont-tokyo.hotel-metropolitan.com/restaurant/list/beltempo/index.html) |
 | TYO-FD-953 | 도쿄 | 브루클린 라거 레귤러 (게이오 플라자 호텔) | 1850 JPY | A | 예 | 재검증, 세금·서비스료 별도 | [Keio Plaza Hotel Aurora](https://www.keioplaza.co.jp/en/restaurant/list/aurora/) |
 | OSA-FD-951 | 오사카 | 프리미엄 몰츠 향기로운 에일 생맥주 소 | 550 JPY | A | 예 | 재검증 | [Shinsaibashi Kagura](https://www.kaguraosaka.com/en/menu/tabs/UQRGHn9cYQdfrsVJZDLa/) |
@@ -1220,6 +1227,15 @@
 | HKG-AT-901 | 홍콩 | 홍콩 디즈니랜드 1일권(일반) | 669 HKD | A | 조건부 | 조건부, 재검증 | [Hong Kong Disneyland 공식 Tickets](https://www.hongkongdisneyland.com/book/general-tickets?page=widget) |
 | SIN-AT-901 | 싱가포르 | 유니버설 스튜디오 싱가포르 1일권(성인 13세 이상, 피크) | 83 SGD | A | 조건부 | 조건부, 재검증 | [Resorts World Sentosa 공식 USS 티켓](https://www.rwsentosa.com/en/play/universal-studios-singapore/tickets) |
 | SIN-AT-902 | 싱가포르 | 유니버설 스튜디오 싱가포르 1일권(아동 4~12세, 피크) | 69 SGD | A | 조건부 | 조건부, 재검증 | [Resorts World Sentosa 공식 USS 티켓](https://www.rwsentosa.com/en/play/universal-studios-singapore/tickets) |
+| ULN-FD-101 | 울란바토르 | 모던 노마즈 부즈(몽골식 찐만두) | 30900 MNT | A | 예 | 재검증 | [Nomads Hospitality(Modern Nomads) 공식 메뉴](https://www.modernnomads.mn/menu) |
+| ULN-FD-102 | 울란바토르 | 모던 노마즈 나담 호쇼르(튀김만두) | 28900 MNT | A | 예 | 재검증 | [Nomads Hospitality(Modern Nomads) 공식 메뉴](https://www.modernnomads.mn/menu) |
+| ULN-FD-103 | 울란바토르 | 모던 노마즈 초이왕(소 양지 볶음면) | 29900 MNT | A | 예 | 재검증 | [Nomads Hospitality(Modern Nomads) 공식 메뉴](https://www.modernnomads.mn/menu) |
+| ULN-FD-104 | 울란바토르 | 모던 노마즈 몽골 스테이크 | 59900 MNT | A | 예 | 재검증 | [Nomads Hospitality(Modern Nomads) 공식 메뉴](https://www.modernnomads.mn/menu) |
+| ULN-SN-101 | 울란바토르 | 모던 노마즈 아메리카노 | 8900 MNT | A | 예 | 재검증 | [Nomads Hospitality(Modern Nomads) 공식 메뉴](https://www.modernnomads.mn/menu) |
+| ULN-SN-102 | 울란바토르 | 모던 노마즈 수테차(몽골식 밀크티) | 3500 MNT | A | 예 | 재검증 | [Nomads Hospitality(Modern Nomads) 공식 메뉴](https://www.modernnomads.mn/menu) |
+| ULN-SN-103 | 울란바토르 | 모던 노마즈 생수 0.5L | 5500 MNT | A | 예 | 재검증 | [Nomads Hospitality(Modern Nomads) 공식 메뉴](https://www.modernnomads.mn/menu) |
+| ULN-AT-101 | 울란바토르 | 칭기즈칸 국립박물관 상설전시관(성인) | 30000 MNT | A | 예 | 재검증 | [Chinggis Khaan National Museum 공식 Visit Museum](https://chinggismuseum.com/en/visit) |
+| ULN-FD-105 | 울란바토르 | 모던 노마즈 보르츠 볶음밥 | 28900 MNT | A | 예 | 재검증 | [Nomads Hospitality(Modern Nomads) 공식 메뉴](https://www.modernnomads.mn/menu) |
 | YSU-FD-101 | 여수 | 청정게장촌 돌게장정식 | 16000 KRW | B | 예 | B등급, 재검증 | [청정게장촌 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/20553144/menu/list) |
 | YSU-FD-102 | 여수 | 여수게장 나래밥상 황태해장국 | 12000 KRW | B | 예 | B등급, 재검증 | [여수게장 나래밥상 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1787911441/menu/list) |
 | YSU-FD-103 | 여수 | 광장서대회 장어탕 | 12000 KRW | B | 예 | B등급, 재검증 | [광장서대회 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1757367265/menu/list) |

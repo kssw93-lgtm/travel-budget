@@ -1374,5 +1374,25 @@
     "ko": "야자게를 쪄서 먹는 마리아나 제도 별미",
     "en": "Steamed coconut crab, a Mariana Islands delicacy",
     "ja": "ヤシガニを蒸して食べるマリアナ諸島の名物"
+  },
+  "ulaanbaatar:Buuz": {
+    "ko": "다진 양고기·소고기를 넣어 찐 몽골식 만두",
+    "en": "Steamed Mongolian dumplings filled with minced mutton or beef",
+    "ja": "羊肉や牛肉のひき肉を包んで蒸したモンゴルの蒸し餃子"
+  },
+  "ulaanbaatar:Khuushuur": {
+    "ko": "고기소를 넣고 납작하게 튀긴 몽골식 튀김만두",
+    "en": "Flat deep-fried pastry filled with minced meat",
+    "ja": "ひき肉を包んで平たく揚げたモンゴルの揚げ餃子"
+  },
+  "ulaanbaatar:Tsuivan": {
+    "ko": "손으로 뽑은 면을 고기·채소와 볶은 요리",
+    "en": "Hand-cut noodles stir-fried with meat and vegetables",
+    "ja": "手打ち麺を肉や野菜と炒めたモンゴルの焼きうどん"
+  },
+  "ulaanbaatar:Suutei tsai": {
+    "ko": "우유와 소금을 넣어 끓인 몽골식 밀크티",
+    "en": "Salty Mongolian milk tea",
+    "ja": "牛乳と塩で煮出したモンゴルのミルクティー"
   }
 }

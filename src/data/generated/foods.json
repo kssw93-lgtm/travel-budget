@@ -3766,6 +3766,86 @@
     "note": "Claude 초안(2026-10-11)"
   },
   {
+    "cityId": "ulaanbaatar",
+    "nameKo": "부즈",
+    "nameEn": "Buuz",
+    "reason": "다진 양고기·소고기를 넣어 찐 몽골식 만두",
+    "reasonEn": "Mongolian steamed dumplings",
+    "desc": {
+      "ko": "다진 양고기·소고기를 넣어 찐 몽골식 만두",
+      "en": "Steamed Mongolian dumplings filled with minced mutton or beef",
+      "ja": "羊肉や牛肉のひき肉を包んで蒸したモンゴルの蒸し餃子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "ULN-FD-101"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-13)"
+  },
+  {
+    "cityId": "ulaanbaatar",
+    "nameKo": "호쇼르",
+    "nameEn": "Khuushuur",
+    "reason": "고기소를 넣고 납작하게 튀긴 몽골식 튀김만두",
+    "reasonEn": "Fried meat pastry",
+    "desc": {
+      "ko": "고기소를 넣고 납작하게 튀긴 몽골식 튀김만두",
+      "en": "Flat deep-fried pastry filled with minced meat",
+      "ja": "ひき肉を包んで平たく揚げたモンゴルの揚げ餃子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "ULN-FD-102"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-13)"
+  },
+  {
+    "cityId": "ulaanbaatar",
+    "nameKo": "초이왕",
+    "nameEn": "Tsuivan",
+    "reason": "손으로 뽑은 면을 고기·채소와 볶은 요리",
+    "reasonEn": "Mongolian fried noodles",
+    "desc": {
+      "ko": "손으로 뽑은 면을 고기·채소와 볶은 요리",
+      "en": "Hand-cut noodles stir-fried with meat and vegetables",
+      "ja": "手打ち麺を肉や野菜と炒めたモンゴルの焼きうどん"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "ULN-FD-103"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-13)"
+  },
+  {
+    "cityId": "ulaanbaatar",
+    "nameKo": "수테차",
+    "nameEn": "Suutei tsai",
+    "reason": "우유와 소금을 넣어 끓인 몽골식 밀크티",
+    "reasonEn": "Salty milk tea",
+    "desc": {
+      "ko": "우유와 소금을 넣어 끓인 몽골식 밀크티",
+      "en": "Salty Mongolian milk tea",
+      "ja": "牛乳と塩で煮出したモンゴルのミルクティー"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "ULN-SN-102"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-13)"
+  },
+  {
     "cityId": "vienna",
     "nameKo": "비너 슈니첼",
     "nameEn": "Wiener Schnitzel",

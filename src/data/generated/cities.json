@@ -310,6 +310,46 @@
     "stage": "파일럿"
   },
   {
+    "id": "siem-reap",
+    "country": "캄보디아",
+    "countryEn": "Cambodia",
+    "nameKo": "시엠레아프",
+    "nameEn": "Siem Reap",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "luang-prabang",
+    "country": "라오스",
+    "countryEn": "Laos",
+    "nameKo": "루앙프라방",
+    "nameEn": "Luang Prabang",
+    "currency": "LAK",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "vancouver",
+    "country": "캐나다",
+    "countryEn": "Canada",
+    "nameKo": "밴쿠버",
+    "nameEn": "Vancouver",
+    "currency": "CAD",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "auckland",
+    "country": "뉴질랜드",
+    "countryEn": "New Zealand",
+    "nameKo": "오클랜드",
+    "nameEn": "Auckland",
+    "currency": "NZD",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
     "id": "barcelona",
     "country": "스페인",
     "countryEn": "Spain",

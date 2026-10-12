@@ -55,7 +55,7 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
 
 // 개발 중에는 `npm run dev:worker`(wrangler dev, 8787)로 /api/* 를 프록시한다.
 export default defineConfig(() => ({
-  plugins: [react(), seo(process.env.SITE_URL, process.env.ADSENSE_PUBLISHER_ID, process.env.VITE_CONTACT_EMAIL)],
+  plugins: [react(), seo(process.env.SITE_URL ?? 'https://travel-budget.xxxjkim.workers.dev', process.env.ADSENSE_PUBLISHER_ID, process.env.VITE_CONTACT_EMAIL)],
   build: {
     rollupOptions: {
       input: Object.fromEntries(SITE_PAGES.map((p) => [p.file.replace('.html', ''), resolve(__dirname, p.file)])),

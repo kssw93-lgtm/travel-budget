@@ -754,6 +754,12 @@
 | LIS-AT-104 | 리스본 | 리스본 동물원 입장권(아동 3~12세) | 19 EUR | A | 예 | 재검증 | [Lisbon Zoo 공식 입장료](https://www.zoo.pt/en/visit/en/visit/entry-costs/) |
 | LIS-AT-105 | 리스본 | 상조르즈 성 입장권(성인) | 17 EUR | A | 예 | 재검증 | [Castelo de São Jorge 공식 티켓 요금](https://castelodesaojorge.pt/en/plan-your-visit/choose-your-ticket/) |
 | LIS-AT-106 | 리스본 | 상조르즈 성 입장권(12세 이하) | 0 EUR | A | 예 | 재검증 | [Castelo de São Jorge 공식 티켓 요금](https://castelodesaojorge.pt/en/plan-your-visit/choose-your-ticket/) |
+| FUK-FD-501 | 후쿠오카 | 菊武 명란 토로로 모츠나베 (1인분) | 2980 JPY | A | 예 | 재검증 | [博多もつ鍋 菊武](https://kikutake.store/menu) |
+| FUK-FD-502 | 후쿠오카 | 菊武 매운 모츠나베 (1인분) | 2580 JPY | A | 예 | 재검증 | [博多もつ鍋 菊武](https://kikutake.store/menu) |
+| FUK-FD-503 | 후쿠오카 | 菊武 된장 모츠나베 (1인분) | 2180 JPY | A | 예 | 재검증 | [博多もつ鍋 菊武](https://kikutake.store/menu) |
+| FUK-FD-504 | 후쿠오카 | 오오야마 모츠나베 정식 | 2068 JPY | A | 예 | 재검증 | [博多もつ鍋 おおやま博多1番街](https://www.motu-ooyama.com/shop/hakataichibangai/) |
+| FUK-FD-505 | 후쿠오카 | 오오야마 모츠나베 고젠 | 2398 JPY | A | 예 | 재검증 | [博多もつ鍋 おおやま博多1番街](https://www.motu-ooyama.com/shop/hakataichibangai/) |
+| FUK-FD-506 | 후쿠오카 | 오오야마 고젠 | 2728 JPY | A | 예 | 재검증 | [博多もつ鍋 おおやま博多1番街](https://www.motu-ooyama.com/shop/hakataichibangai/) |
 | VIE-TR-201 | 빈 | 빈 대중교통 1회권(성인) | 3.2 EUR | A | 예 | 재검증 | [Vienna Tourist Board 공식 대중교통 요금 안내](https://www.wien.info/en/travel-info/transport/tickets-361360?set_language=en) |
 | VIE-TR-202 | 빈 | 빈 대중교통 1회권(아동 6~14세) | 1.6 EUR | A | 예 | 재검증 | [Vienna Tourist Board 공식 대중교통 요금 안내](https://www.wien.info/en/travel-info/transport/tickets-361360?set_language=en) |
 | VIE-TR-203 | 빈 | 빈 대중교통 24시간권(성인) | 10.2 EUR | A | 예 | 재검증 | [Vienna Tourist Board 공식 대중교통 요금 안내](https://www.wien.info/en/travel-info/transport/tickets-361360?set_language=en) |
@@ -1170,7 +1176,7 @@
 | PRG-FD-101 | 프라하 | 콜코브나 첼니체 스비치코바(소고기 크림소스+크네들리키) | 329 CZK | A | 예 | 재검증 | [Kolkovna Celnice 공식 메뉴](https://celnice.kolkovna.cz/) |
 | PRG-FD-102 | 프라하 | 콜코브나 첼니체 굴라시 | 319 CZK | A | 예 | 재검증 | [Kolkovna Celnice 공식 메뉴](https://celnice.kolkovna.cz/) |
 | PRG-FD-103 | 프라하 | 콜코브나 첼니체 오늘의 요리 2(점심 메뉴) | 179 CZK | A | 조건부 | 조건부, 재검증 | [Kolkovna Celnice 공식 점심 메뉴](https://celnice.kolkovna.cz/) |
-| PRG-FD-104 | 프라하 | 로칼 들로우하 프르제슈티츠카 소시지 | 255 CZK | A | 조건부 | 조건부, 재검증 | [Lokál Dlouhááá 공식 메뉴](https://lokal-dlouha.ambi.cz/menu) |
+| PRG-FD-104 | 프라하 | 로칼 들로우하 프르제슈티츠카 소시지 | 255 CZK | A | 조건부 | 조건부, 재검증, 검수: 원문 확인 불가 | [Lokál Dlouhááá 공식 메뉴](https://lokal-dlouha.ambi.cz/menu) |
 | PRG-SN-101 | 프라하 | 콜코브나 첼니체 코카콜라 0.33L | 72 CZK | A | 예 | 재검증 | [Kolkovna Celnice 공식 음료 메뉴](https://celnice.kolkovna.cz/) |
 | PRG-SN-102 | 프라하 | 콜코브나 첼니체 에스프레소 | 69 CZK | A | 예 | 재검증 | [Kolkovna Celnice 공식 음료 메뉴](https://celnice.kolkovna.cz/) |
 | PRG-SN-103 | 프라하 | 로칼 들로우하 라크비치카(크림 디저트) | 69 CZK | A | 예 | 재검증 | [Lokál Dlouhááá 공식 메뉴](https://lokal-dlouha.ambi.cz/menu) |
@@ -1295,5 +1301,5 @@
 
 ## 4. 교차 검수 현황
 
-`data/reviews/*.csv` 에서 읽은 판정: 일치 1096건 · 불일치 30건 · 확인불가 104건.
+`data/reviews/*.csv` 에서 읽은 판정: 일치 1121건 · 불일치 25건 · 확인불가 104건.
 아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

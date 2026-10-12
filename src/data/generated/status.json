@@ -1037,14 +1037,14 @@
   },
   "fukuoka": {
     "counts": {
-      "food": 3,
+      "food": 9,
       "transport": 3,
       "attraction": 5
     },
     "baskets": {
       "pass": 1,
       "ride": 3,
-      "meal": 3,
+      "meal": 9,
       "snack": 3,
       "drink": 3,
       "attraction": 5,
@@ -1053,7 +1053,7 @@
     "basketRows": {
       "pass": 1,
       "ride": 3,
-      "meal": 3,
+      "meal": 9,
       "snack": 3,
       "drink": 3,
       "attraction": 5,

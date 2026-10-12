@@ -63,6 +63,8 @@
 | 밴쿠버 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 오클랜드 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오클랜드 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 고베 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 히로시마 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -772,6 +774,19 @@
 | GUM-AT-901 | 괌 | 투러버스포인트 입장(1인) | 3 USD | A | 조건부 | 조건부, 재검증 | [Two Lovers Point 공식 방문 안내](https://tlpguam.com/pages/visit) |
 | DPS-AT-901 | 발리 | GWK 문화공원 일반 입장권(성인) | 150000 IDR | A | 예 | 재검증 | [GWK Cultural Park 공식 티켓 스토어](https://ticket.gwkbali.com/fit/get-regular-ticket) |
 | DPS-AT-902 | 발리 | GWK 문화공원 일반 입장권(어린이·키 100cm 이상) | 150000 IDR | A | 조건부 | 조건부, 재검증 | [GWK Cultural Park 공식 티켓 스토어](https://ticket.gwkbali.com/fit/get-regular-ticket) |
+| HIJ-AT-101 | 히로시마 | 히로시마 오리즈루 타워 입장권 (성인) | 2200 JPY | A | 예 | 재검증 | [HIROSHIMA ORIZURU TOWER](https://orizurutower.jp/en/user-guide/ticket/) |
+| HIJ-AT-102 | 히로시마 | 히로시마 오리즈루 타워 입장권 (아동) | 900 JPY | A | 예 | 재검증 | [HIROSHIMA ORIZURU TOWER](https://orizurutower.jp/en/user-guide/ticket/) |
+| HIJ-AT-103 | 히로시마 | 히로시마 오리즈루 타워 입장권 (아동) | 1400 JPY | A | 예 | 재검증 | [HIROSHIMA ORIZURU TOWER](https://orizurutower.jp/en/user-guide/ticket/) |
+| HIJ-AT-104 | 히로시마 | 슈케이엔 입장권 (성인) | 350 JPY | A | 예 | 재검증 | [縮景園](https://shukkeien.jp/guide/) |
+| HIJ-AT-105 | 히로시마 | 슈케이엔 입장권 (아동) | 0 JPY | A | 예 | 재검증 | [縮景園](https://shukkeien.jp/guide/) |
+| HIJ-AT-106 | 히로시마 | 히로시마시 식물공원 입장권 (성인) | 510 JPY | A | 예 | 재검증 | [広島市](https://www.city.hiroshima.lg.jp/living/park-green/1005983/1026357/1018194.html) |
+| HIJ-AT-107 | 히로시마 | 히로시마시 식물공원 입장권 (아동) | 0 JPY | A | 예 | 재검증 | [広島市](https://www.city.hiroshima.lg.jp/living/park-green/1005983/1026357/1018194.html) |
+| UKB-AT-101 | 고베 | 고베 동물왕국 입장권 (성인) | 2400 JPY | A | 예 | 재검증 | [神戸どうぶつ王国](https://www.kobe-oukoku.com/information/fees) |
+| UKB-AT-102 | 고베 | 고베 동물왕국 입장권 (아동) | 1200 JPY | A | 예 | 재검증 | [神戸どうぶつ王国](https://www.kobe-oukoku.com/information/fees) |
+| UKB-AT-103 | 고베 | 고베 포트타워 전망층 입장권 (성인) | 1000 JPY | A | 예 | 재검증 | [Kobe Port Tower](https://www.kobe-port-tower.com/en/ticket/) |
+| UKB-AT-104 | 고베 | 고베 포트타워 전망층 입장권 (아동) | 400 JPY | A | 예 | 재검증 | [Kobe Port Tower](https://www.kobe-port-tower.com/en/ticket/) |
+| UKB-AT-105 | 고베 | 고베 누노비키 허브원·로프웨이 주간 왕복 (성인) | 2500 JPY | A | 예 | 재검증 | [Kobe Nunobiki Herb Gardens & Ropeway](https://www.kobeherb.com/en/hours-of-operation-and-fares/) |
+| UKB-AT-106 | 고베 | 고베 누노비키 허브원·로프웨이 주간 왕복 (아동) | 1250 JPY | A | 예 | 재검증 | [Kobe Nunobiki Herb Gardens & Ropeway](https://www.kobeherb.com/en/hours-of-operation-and-fares/) |
 | SEL-FD-900 | 서울 | 명동교자 본점 칼국수 | 12000 KRW | B | 예 | B등급, 재검증 | [명동교자 본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11592650/menu/list) |
 | SEL-FD-901 | 서울 | 황생가칼국수 사골칼국수 | 13000 KRW | B | 예 | B등급, 재검증 | [황생가칼국수 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11679429/menu/list) |
 | SEL-FD-902 | 서울 | 이문설농탕 설농탕 | 15000 KRW | B | 예 | B등급, 재검증 | [이문설농탕 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11711983/menu/list) |

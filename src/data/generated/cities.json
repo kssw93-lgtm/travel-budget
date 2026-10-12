@@ -397,7 +397,7 @@
     "nameEn": "Kobe",
     "currency": "JPY",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "hiroshima",
@@ -407,7 +407,7 @@
     "nameEn": "Hiroshima",
     "currency": "JPY",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "kanazawa",
@@ -526,6 +526,26 @@
     "nameKo": "두브로브니크",
     "nameEn": "Dubrovnik",
     "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "los-angeles",
+    "country": "미국",
+    "countryEn": "United States",
+    "nameKo": "로스앤젤레스",
+    "nameEn": "Los Angeles",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "las-vegas",
+    "country": "미국",
+    "countryEn": "United States",
+    "nameKo": "라스베이거스",
+    "nameEn": "Las Vegas",
+    "currency": "USD",
     "tier": "B",
     "stage": "2차"
   },

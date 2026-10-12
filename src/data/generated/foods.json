@@ -2151,6 +2151,78 @@
     "note": "Claude 초안(2026-10-11)"
   },
   {
+    "cityId": "hiroshima",
+    "nameKo": "히로시마 오코노미야키",
+    "nameEn": "Hiroshima Okonomiyaki",
+    "reason": "재료를 섞지 않고 층층이 쌓아 철판에 구운 면 위에 올린 오코노미야키",
+    "reasonEn": "Layered okonomiyaki",
+    "desc": {
+      "ko": "재료를 섞지 않고 층층이 쌓아 철판에 구운 면 위에 올린 오코노미야키",
+      "en": "Layered okonomiyaki cooked on the griddle over noodles",
+      "ja": "具材を混ぜずに重ね、焼いた麺にのせる広島風お好み焼き"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://www.japan.travel/en/destinations/chugoku/hiroshima/",
+    "note": "GPT 수집(2026-10-12)"
+  },
+  {
+    "cityId": "hiroshima",
+    "nameKo": "히로시마 굴",
+    "nameEn": "Hiroshima Oysters",
+    "reason": "생으로 먹거나 굽거나 튀겨 먹는 히로시마 특산 굴",
+    "reasonEn": "Hiroshima's famous oysters",
+    "desc": {
+      "ko": "생으로 먹거나 굽거나 튀겨 먹는 히로시마 특산 굴",
+      "en": "Local oysters eaten raw, grilled or fried",
+      "ja": "生や焼き、フライで味わう広島名産のカキ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://www.japan.travel/en/destinations/chugoku/hiroshima/",
+    "note": "GPT 수집(2026-10-12)"
+  },
+  {
+    "cityId": "hiroshima",
+    "nameKo": "츠케멘",
+    "nameEn": "Tsukemen",
+    "reason": "면과 고명을 뜨거운 국물에 찍어 먹는 라멘",
+    "reasonEn": "Dipping noodles",
+    "desc": {
+      "ko": "면과 고명을 뜨거운 국물에 찍어 먹는 라멘",
+      "en": "Noodles dipped into a hot, spicy broth",
+      "ja": "麺を辛いつけ汁につけて食べるラーメン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://www.japan.travel/en/destinations/chugoku/hiroshima/",
+    "note": "GPT 수집(2026-10-12)"
+  },
+  {
+    "cityId": "hiroshima",
+    "nameKo": "모미지 만주",
+    "nameEn": "Momiji Manju",
+    "reason": "단팥을 카스텔라 반죽으로 감싸 단풍잎 모양으로 구운 과자",
+    "reasonEn": "Maple-leaf sweet",
+    "desc": {
+      "ko": "단팥을 카스텔라 반죽으로 감싸 단풍잎 모양으로 구운 과자",
+      "en": "Maple-leaf shaped sponge cake filled with sweet bean paste",
+      "ja": "あんを生地で包み紅葉の形に焼いた和菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://www.japan.travel/en/destinations/chugoku/hiroshima/",
+    "note": "GPT 수집(2026-10-12)"
+  },
+  {
     "cityId": "ho-chi-minh-city",
     "nameKo": "껌땀",
     "nameEn": "Com Tam",
@@ -2479,6 +2551,78 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "kobe",
+    "nameKo": "고베규",
+    "nameEn": "Kobe Beef",
+    "reason": "고베 관광 안내가 지역 음식문화 대표로 소개하는 브랜드 소고기",
+    "reasonEn": "Kobe's famous wagyu",
+    "desc": {
+      "ko": "고베 관광 안내가 지역 음식문화 대표로 소개하는 브랜드 소고기",
+      "en": "Premium wagyu brand beef, Kobe's best-known food",
+      "ja": "神戸の食文化を代表するブランド牛"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://www.feel-kobe.jp/app/wp-content/uploads/Travel_Guide_KOBE_A5_en.pdf",
+    "note": "GPT 수집(2026-10-12)"
+  },
+  {
+    "cityId": "kobe",
+    "nameKo": "소바메시",
+    "nameEn": "Sobameshi",
+    "reason": "잘게 썬 야키소바와 밥을 섞어 볶는 나가타구 유래 음식",
+    "reasonEn": "Fried noodles with rice",
+    "desc": {
+      "ko": "잘게 썬 야키소바와 밥을 섞어 볶는 나가타구 유래 음식",
+      "en": "Chopped yakisoba noodles stir-fried with rice, born in Nagata Ward",
+      "ja": "刻んだ焼きそばとご飯を一緒に炒めた長田区発祥の料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://www.feel-kobe.jp/column/nagata-gourmet/",
+    "note": "GPT 수집(2026-10-12)"
+  },
+  {
+    "cityId": "kobe",
+    "nameKo": "스지야키",
+    "nameEn": "Sujiyaki",
+    "reason": "달콤하게 조린 소 힘줄·곤약을 넣은 철판 요리",
+    "reasonEn": "Beef tendon griddle cake",
+    "desc": {
+      "ko": "달콤하게 조린 소 힘줄·곤약을 넣은 철판 요리",
+      "en": "Griddle dish with sweet-simmered beef tendon and konjac",
+      "ja": "甘辛く煮た牛すじとこんにゃくを入れた鉄板焼き"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://www.feel-kobe.jp/column/nagata-gourmet/",
+    "note": "GPT 수집(2026-10-12)"
+  },
+  {
+    "cityId": "kobe",
+    "nameKo": "일본주",
+    "nameEn": "Japanese Sake",
+    "reason": "고베 관광 안내가 고베규와 함께 지역 식문화로 소개하는 일본 술",
+    "reasonEn": "Local Nada sake",
+    "desc": {
+      "ko": "고베 관광 안내가 고베규와 함께 지역 식문화로 소개하는 일본 술",
+      "en": "Local sake from the Nada brewing district",
+      "ja": "灘の酒蔵で造られる日本酒"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://www.feel-kobe.jp/app/wp-content/uploads/Travel_Guide_KOBE_A5_en.pdf",
+    "note": "GPT 수집(2026-10-12)"
   },
   {
     "cityId": "seoul",

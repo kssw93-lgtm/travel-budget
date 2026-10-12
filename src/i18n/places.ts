@@ -16,7 +16,7 @@ export const CITY_JA: Record<string, string> = {
   'siem-reap': 'シェムリアップ', 'luang-prabang': 'ルアンパバーン', vancouver: 'バンクーバー', auckland: 'オークランド',
   sokcho: '束草', tongyeong: '統営', daegu: '大邱', incheon: '仁川', kobe: '神戸', hiroshima: '広島', kanazawa: '金沢', hakodate: '函館',
   phuket: 'プーケット', pattaya: 'パタヤ', 'da-lat': 'ダラット', kaohsiung: '高雄', boracay: 'ボラカイ島', qingdao: '青島', beijing: '北京',
-  amsterdam: 'アムステルダム', athens: 'アテネ', dubrovnik: 'ドゥブロヴニク',
+  amsterdam: 'アムステルダム', athens: 'アテネ', dubrovnik: 'ドゥブロヴニク', 'los-angeles': 'ロサンゼルス', 'las-vegas': 'ラスベガス',
 };
 
 /** 영문 나라 이름 → 일본어 */

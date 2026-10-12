@@ -1434,5 +1434,45 @@
     "ko": "땅속 화덕에서 찐 마오리 전통 고기·채소 요리",
     "en": "Meat and vegetables slow-cooked in an earth oven, a Māori tradition",
     "ja": "地中のかまどで蒸し焼きにするマオリの伝統料理"
+  },
+  "kobe:Kobe Beef": {
+    "ko": "고베 관광 안내가 지역 음식문화 대표로 소개하는 브랜드 소고기",
+    "en": "Premium wagyu brand beef, Kobe's best-known food",
+    "ja": "神戸の食文化を代表するブランド牛"
+  },
+  "kobe:Sobameshi": {
+    "ko": "잘게 썬 야키소바와 밥을 섞어 볶는 나가타구 유래 음식",
+    "en": "Chopped yakisoba noodles stir-fried with rice, born in Nagata Ward",
+    "ja": "刻んだ焼きそばとご飯を一緒に炒めた長田区発祥の料理"
+  },
+  "kobe:Sujiyaki": {
+    "ko": "달콤하게 조린 소 힘줄·곤약을 넣은 철판 요리",
+    "en": "Griddle dish with sweet-simmered beef tendon and konjac",
+    "ja": "甘辛く煮た牛すじとこんにゃくを入れた鉄板焼き"
+  },
+  "kobe:Japanese Sake": {
+    "ko": "고베 관광 안내가 고베규와 함께 지역 식문화로 소개하는 일본 술",
+    "en": "Local sake from the Nada brewing district",
+    "ja": "灘の酒蔵で造られる日本酒"
+  },
+  "hiroshima:Hiroshima Okonomiyaki": {
+    "ko": "재료를 섞지 않고 층층이 쌓아 철판에 구운 면 위에 올린 오코노미야키",
+    "en": "Layered okonomiyaki cooked on the griddle over noodles",
+    "ja": "具材を混ぜずに重ね、焼いた麺にのせる広島風お好み焼き"
+  },
+  "hiroshima:Hiroshima Oysters": {
+    "ko": "생으로 먹거나 굽거나 튀겨 먹는 히로시마 특산 굴",
+    "en": "Local oysters eaten raw, grilled or fried",
+    "ja": "生や焼き、フライで味わう広島名産のカキ"
+  },
+  "hiroshima:Tsukemen": {
+    "ko": "면과 고명을 뜨거운 국물에 찍어 먹는 라멘",
+    "en": "Noodles dipped into a hot, spicy broth",
+    "ja": "麺を辛いつけ汁につけて食べるラーメン"
+  },
+  "hiroshima:Momiji Manju": {
+    "ko": "단팥을 카스텔라 반죽으로 감싸 단풍잎 모양으로 구운 과자",
+    "en": "Maple-leaf shaped sponge cake filled with sweet bean paste",
+    "ja": "あんを生地で包み紅葉の形に焼いた和菓子"
   }
 }

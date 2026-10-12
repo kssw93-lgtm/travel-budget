@@ -1,0 +1,5 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+일본,고베,고베규,Kobe Beef,고베 관광 안내가 지역 음식문화 대표로 소개하는 브랜드 소고기,중,,대기,관광청 공식 안내,https://www.feel-kobe.jp/app/wp-content/uploads/Travel_Guide_KOBE_A5_en.pdf,GPT 수집(2026-10-12)
+일본,고베,소바메시,Sobameshi,잘게 썬 야키소바와 밥을 섞어 볶는 나가타구 유래 음식,저,,대기,관광청 공식 안내,https://www.feel-kobe.jp/column/nagata-gourmet/,GPT 수집(2026-10-12)
+일본,고베,스지야키,Sujiyaki,달콤하게 조린 소 힘줄·곤약을 넣은 철판 요리,저,,대기,관광청 공식 안내,https://www.feel-kobe.jp/column/nagata-gourmet/,GPT 수집(2026-10-12)
+일본,고베,일본주,Japanese Sake,고베 관광 안내가 고베규와 함께 지역 식문화로 소개하는 일본 술,중,,대기,관광청 공식 안내,https://www.feel-kobe.jp/app/wp-content/uploads/Travel_Guide_KOBE_A5_en.pdf,GPT 수집(2026-10-12)

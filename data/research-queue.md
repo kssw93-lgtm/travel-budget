@@ -760,6 +760,11 @@
 | FUK-FD-504 | 후쿠오카 | 오오야마 모츠나베 정식 | 2068 JPY | A | 예 | 재검증 | [博多もつ鍋 おおやま博多1番街](https://www.motu-ooyama.com/shop/hakataichibangai/) |
 | FUK-FD-505 | 후쿠오카 | 오오야마 모츠나베 고젠 | 2398 JPY | A | 예 | 재검증 | [博多もつ鍋 おおやま博多1番街](https://www.motu-ooyama.com/shop/hakataichibangai/) |
 | FUK-FD-506 | 후쿠오카 | 오오야마 고젠 | 2728 JPY | A | 예 | 재검증 | [博多もつ鍋 おおやま博多1番街](https://www.motu-ooyama.com/shop/hakataichibangai/) |
+| FUK-FD-511 | 후쿠오카 | 가케 우동/소바 | 500 JPY | A | 예 | 재검증 | [博多めん処 峰松本家](https://mineya.co.jp/menu/standard-menus/) |
+| FUK-FD-512 | 후쿠오카 | 자루 우동/소바 | 720 JPY | A | 예 | 재검증 | [博多めん処 峰松本家](https://mineya.co.jp/menu/standard-menus/) |
+| FUK-FD-513 | 후쿠오카 | 마루텐 우동/소바 | 750 JPY | A | 예 | 재검증 | [博多めん処 峰松本家](https://mineya.co.jp/menu/standard-menus/) |
+| FUK-FD-514 | 후쿠오카 | 생강구이 정식 | 890 JPY | A | 예 | 재검증 | [やよい軒](https://www.yayoiken.com/menu_list/view/47/842) |
+| FUK-FD-515 | 후쿠오카 | 가을 제철 정식 | 1140 JPY | A | 예 | 재검증 | [やよい軒](https://www.yayoiken.com/menu_list/view/33/795) |
 | VIE-TR-201 | 빈 | 빈 대중교통 1회권(성인) | 3.2 EUR | A | 예 | 재검증 | [Vienna Tourist Board 공식 대중교통 요금 안내](https://www.wien.info/en/travel-info/transport/tickets-361360?set_language=en) |
 | VIE-TR-202 | 빈 | 빈 대중교통 1회권(아동 6~14세) | 1.6 EUR | A | 예 | 재검증 | [Vienna Tourist Board 공식 대중교통 요금 안내](https://www.wien.info/en/travel-info/transport/tickets-361360?set_language=en) |
 | VIE-TR-203 | 빈 | 빈 대중교통 24시간권(성인) | 10.2 EUR | A | 예 | 재검증 | [Vienna Tourist Board 공식 대중교통 요금 안내](https://www.wien.info/en/travel-info/transport/tickets-361360?set_language=en) |

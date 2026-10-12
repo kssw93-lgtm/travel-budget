@@ -858,13 +858,7 @@
     "applied": "2026",
     "sourceName": "Marble Mountains visitor guide",
     "sourceUrl": "https://nguhanhson.org/",
-    "note": "지자체/매표소 가격표 추가 확보",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://nguhanhson.org/ · 공식 오행산 홈페이지에는 입장료 숫자가 없고, 연결된 공식 요금 안내 페이지는 403으로 열리지 않아 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "지자체/매표소 가격표 추가 확보"
   },
   {
     "id": "DAD-AT-003",
@@ -893,8 +887,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://nguhanhson.org/ · 공식 오행산 홈페이지에는 엘리베이터 왕복 요금 숫자가 없고, 연결된 공식 요금 안내 페이지는 403으로 열리지 않아 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://nguhanhson.org/ · Official operator homepage and official Da Nang tourism 2026 admission list were opened; neither lists a separate round-trip elevator fare.",
+      "reportedAt": "2026-10-12"
     }
   },
   {
@@ -4880,8 +4874,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "확인 가격 확인불가 · https://kultur.istanbul/yerebatan-sarnici-muzesi/ · 공식 Kültür.İstanbul 페이지에는 관람 시간과 운영사 링크만 있고 평일 외국인 입장료가 없음. 연결된 운영사 페이지에서도 현재 요금을 확인하지 못함.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://kultur.istanbul/yerebatan-sarnici-muzesi/ · 공식 KÜLTÜR.İSTANBUL 명소 안내 페이지를 열었으나 외국인 주간 입장 요금이 기재되지 않음. 운영사 공식 홈페이지 https://yerebatan.com/en/home 은 열람 도구 Internal Error로 확인 불가.",
+      "reportedAt": "2026-10-12"
     }
   },
   {
@@ -7221,13 +7215,7 @@
     "sourceName": "Da Nang City Tourism Information Portal",
     "sourceUrl": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites",
     "note": "오행산 주봉·엘리베이터와 별도 요금; 시 공식 표는 참고요금·변동 가능으로 표시.",
-    "nameJa": "五行山 アムフー洞窟 入場券（大人）",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites · 다낭 관광청 2026년 최신 입장료 안내 페이지를 두 차례 열었으나 오류로 가격을 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "nameJa": "五行山 アムフー洞窟 入場券（大人）"
   },
   {
     "id": "DAD-AT-013",
@@ -7252,13 +7240,7 @@
     "sourceName": "Da Nang City Tourism Information Portal",
     "sourceUrl": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites",
     "note": "공식 게시액 그대로 기록. 배·바구니배 등 추가 서비스는 제외; 표는 참고요금·변동 가능.",
-    "nameJa": "カムタン ココナッツ村 入場券（大人）",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites · 다낭 관광청 2026년 최신 입장료 안내 페이지를 두 차례 열었으나 오류로 가격을 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "nameJa": "カムタン ココナッツ村 入場券（大人）"
   },
   {
     "id": "DAD-AT-014",
@@ -7283,13 +7265,7 @@
     "sourceName": "Da Nang City Tourism Information Portal",
     "sourceUrl": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites",
     "note": "공식 게시액 그대로 기록. 체험 등 추가 서비스는 별도; 표는 참고요금·변동 가능.",
-    "nameJa": "タンハー陶器村 入場券（大人）",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites · 다낭 관광청 2026년 최신 입장료 안내 페이지를 두 차례 열었으나 오류로 가격을 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "nameJa": "タンハー陶器村 入場券（大人）"
   },
   {
     "id": "DAD-AT-015",
@@ -7439,13 +7415,7 @@
     "sourceName": "Da Nang City Tourism Information Portal",
     "sourceUrl": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites",
     "note": "공식 학생 요금. 페이지에 나이·학년 기준은 별도 지정되지 않아 학생 대상으로 기록.",
-    "nameJa": "五行山 アムフー洞窟 割引入場券（学生）",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites · 다낭 관광청 2026년 최신 입장료 안내 페이지를 두 차례 열었으나 오류로 가격을 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "nameJa": "五行山 アムフー洞窟 割引入場券（学生）"
   },
   {
     "id": "DAD-AT-021",
@@ -7470,13 +7440,7 @@
     "sourceName": "Da Nang City Tourism Information Portal",
     "sourceUrl": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites",
     "note": "공식 요금표의 만 6세 미만 무료 입장.",
-    "nameJa": "五行山 アムフー洞窟 入場無料（6歳未満）",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites · 다낭 관광청 2026년 최신 입장료 안내 페이지를 두 차례 열었으나 오류로 가격을 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "nameJa": "五行山 アムフー洞窟 入場無料（6歳未満）"
   },
   {
     "id": "TPE-AT-004",
@@ -10946,13 +10910,7 @@
     "applied": "2026",
     "sourceName": "Çamlıca Tower 공식 티켓 페이지",
     "sourceUrl": "https://camlicakule.istanbul/en/observation-deck-ticket",
-    "note": "공식 선택 페이지의 외국인 방문객 가격. 튀르키예 시민 성인 390 TL과 구분. · 원문: Adult 900.00 TL · 수집: prices-attractions-gpt-2026-10-07.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "확인 가격 확인불가 · https://camlicakule.istanbul/en/observation-deck-ticket · 공식 예매 페이지에 Adult ₺390와 Adult ₺900가 모두 있으나, ₺900가 외국인 일반 전망대권인지 대상·상품 구분이 표시되지 않아 확정 불가.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "공식 선택 페이지의 외국인 방문객 가격. 튀르키예 시민 성인 390 TL과 구분. · 원문: Adult 900.00 TL · 수집: prices-attractions-gpt-2026-10-07.csv"
   },
   {
     "id": "IST-AT-112",
@@ -11048,13 +11006,7 @@
     "applied": "2026",
     "sourceName": "KÜLTÜR.İSTANBUL 공식 요금 안내",
     "sourceUrl": "https://kultur.istanbul/ibb-kultur-as-dijital-deneyim-merkezi/",
-    "note": "공식 안내에서 7세 미만 무료. · 원문: 65 yaş üstü ve 7 yaş altı girişler ücretsizdir. · 수집: prices-attractions-gpt-2026-10-07.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "확인 가격 확인불가 · https://www.dijitaldeneyimmerkezi.com/Eng/Tickets · 현재 공식 티켓 페이지는 일반 입장료 ₺900만 표시하고 7세 미만 무료 조건은 표시하지 않음. 이전 운영사 안내에는 5세 미만만 무료라고 있어 현재 under-7 요금은 확정 불가.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "공식 안내에서 7세 미만 무료. · 원문: 65 yaş üstü ve 7 yaş altı girişler ücretsizdir. · 수집: prices-attractions-gpt-2026-10-07.csv"
   },
   {
     "id": "SHA-AT-101",
@@ -11106,8 +11058,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "확인 가격 확인불가 · https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0 · 지정 가격은 2023년 상하이 관광절 행사 공지의 정상가 210元. 현재 운영사 공식 가격 페이지에서 현행 성인 가격을 확인하지 못함.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0 · Opened government service article is from September 2023 and covers a past half-price tourism week; it does not establish the current regular ticket price.",
+      "reportedAt": "2026-10-12"
     }
   },
   {
@@ -11136,8 +11088,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "확인 가격 확인불가 · https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0 · 지정 가격은 2023년 상하이 관광절 공지의 정상가 80元. 최근 공식 안내에서 확인한 것은 기간한정 할인 가격이며, 현재 정상가를 확인할 수 없음.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0 · Opened government service article is from September 2023 and covers a past half-price tourism week; it does not establish the current regular ticket price.",
+      "reportedAt": "2026-10-12"
     }
   },
   {
@@ -11166,8 +11118,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "확인 가격 확인불가 · https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0 · 지정 가격은 2023년 관광절 공지의 정상가 30元. 현재 운영사 공식 가격 페이지에서 성인 정상가를 다시 확인하지 못함.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0 · Opened government service article is from September 2023 and covers a past half-price tourism week; it does not establish the current regular ticket price.",
+      "reportedAt": "2026-10-12"
     }
   },
   {
@@ -11196,8 +11148,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "확인 가격 확인불가 · https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0 · 지정 가격은 2023년 관광절 공지의 정상가 100元. 2026년 행사 공식 가격은 기간한정 할인 80元이므로, 오늘 적용되는 정상가를 직접 확인하지 못함.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0 · Opened government service article is from September 2023 and covers a past half-price tourism week; it does not establish the current regular ticket price.",
+      "reportedAt": "2026-10-12"
     }
   },
   {
@@ -12374,7 +12326,13 @@
     "applied": "",
     "sourceName": "Waterbom Bali 공식 Tickets & Pricing",
     "sourceUrl": "https://www.waterbom-bali.com/ticket",
-    "note": "같은 사이트가 검색 결과에서는 다른 금액(885,000 / 635,000)으로도 잡힘 → 접속 지역·시장별 가격일 수 있어 '조건부'. 인도네시아 신분증(KTP/KITAS) 할인 별도. 더블체크 완료 · Claude 크롬 조사(2026-10-09) 반영 · 원문: SINGLE DAY PASS ... CHILD 2-11 years old IDR 495,000 ADULT IDR 630,000 FAMILY 2 Adults 2 Children (2-11 years old) IDR 2,200,000 · 수집: prices-bali.csv"
+    "note": "같은 사이트가 검색 결과에서는 다른 금액(885,000 / 635,000)으로도 잡힘 → 접속 지역·시장별 가격일 수 있어 '조건부'. 인도네시아 신분증(KTP/KITAS) 할인 별도. 더블체크 완료 · Claude 크롬 조사(2026-10-09) 반영 · 원문: SINGLE DAY PASS ... CHILD 2-11 years old IDR 495,000 ADULT IDR 630,000 FAMILY 2 Adults 2 Children (2-11 years old) IDR 2,200,000 · 수집: prices-bali.csv",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "https://www.waterbom-bali.com/ticket · Official ticket page shows a 10% discount label with IDR 630,000; regular undiscounted price is not shown.",
+      "reportedAt": "2026-10-12"
+    }
   },
   {
     "id": "DPS-AT-102",
@@ -12398,7 +12356,13 @@
     "applied": "",
     "sourceName": "Waterbom Bali 공식 Tickets & Pricing",
     "sourceUrl": "https://www.waterbom-bali.com/ticket",
-    "note": "AT-101과 같은 주의. 더블체크 완료 · Claude 크롬 조사(2026-10-09) 반영 · 원문: CHILD 2-11 years old IDR 495,000 · 수집: prices-bali.csv"
+    "note": "AT-101과 같은 주의. 더블체크 완료 · Claude 크롬 조사(2026-10-09) 반영 · 원문: CHILD 2-11 years old IDR 495,000 · 수집: prices-bali.csv",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "https://www.waterbom-bali.com/ticket · Official ticket page shows a 10% discount label with IDR 495,000; regular undiscounted price is not shown.",
+      "reportedAt": "2026-10-12"
+    }
   },
   {
     "id": "DPS-AT-103",
@@ -12907,8 +12871,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "확인 가격 확인불가 · https://store.fcbarcelona.com/collections/souvenirs · 현재 공식 Souvenirs 상품 목록에서 초콜릿 상품 또는 €19.99 가격 표기를 찾지 못했습니다.",
-      "reportedAt": "2026-10-08"
+      "detail": "https://store.fcbarcelona.com/collections/souvenirs · 공식몰 기념품 컬렉션을 열어 현재 상품 목록을 확인했으나 초콜릿 상품이나 해당 가격이 노출되지 않음. 가격을 확인할 수 있는 공식 판매 페이지를 찾지 못함.",
+      "reportedAt": "2026-10-12"
     }
   },
   {
@@ -14305,7 +14269,13 @@
     "applied": "2026",
     "sourceName": "Cebu Ocean Park",
     "sourceUrl": "https://www.cebuoceanpark.com/tickets-and-hours/",
-    "note": "평일 800·주말 및 공휴일 1000. 온라인 프로모션가(평일 750·주말 900)는 할인가라 제외. Claude(Chrome) 수집. 더블체크 완료 · 원문: regular non-promo rates – Weekday P800, Weekend P1000 · 수집: prices-cebu.csv"
+    "note": "평일 800·주말 및 공휴일 1000. 온라인 프로모션가(평일 750·주말 900)는 할인가라 제외. Claude(Chrome) 수집. 더블체크 완료 · 원문: regular non-promo rates – Weekday P800, Weekend P1000 · 수집: prices-cebu.csv",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "https://www.cebuoceanpark.com/tickets-and-hours/ · Official page gives weekday/weekend amounts alongside a senior/PWD 20% discount note, but does not expose a matching regular adult ticket price in the retrieved text.",
+      "reportedAt": "2026-10-12"
+    }
   },
   {
     "id": "CEB-AT-102",
@@ -20857,7 +20827,13 @@
     "applied": "현재 상품 가격",
     "sourceName": "Carrefour",
     "sourceUrl": "https://www.carrefour.fr/p/eau-minerale-naturelle-plate-evian-3068320124377",
-    "note": "온라인몰 표시가. 매장·수령 방식에 따라 다를 수 있다는 안내가 있음 · Firecrawl로 공식 페이지 직접 확인(Claude, 2026-10-09) · 원문: Eau Minerale Naturelle Plate EVIAN 50cL 1,39 € 2.78 € / L · 수집: prices-firecrawl-2026-10-09.csv"
+    "note": "온라인몰 표시가. 매장·수령 방식에 따라 다를 수 있다는 안내가 있음 · Firecrawl로 공식 페이지 직접 확인(Claude, 2026-10-09) · 원문: Eau Minerale Naturelle Plate EVIAN 50cL 1,39 € 2.78 € / L · 수집: prices-firecrawl-2026-10-09.csv",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "https://www.carrefour.fr/p/eau-minerale-naturelle-plate-evian-3068320124377 · 카르푸 공식 상품 페이지를 열었으나 상품이 판매 진열에서 내려갔다고 표시. 페이지에 남은 €1.39는 현재 구매 가능한 가격으로 볼 수 없어 현재 판매가 확인불가.",
+      "reportedAt": "2026-10-12"
+    }
   },
   {
     "id": "PAR-SN-902",
@@ -28803,7 +28779,13 @@
     "applied": "유효 14.12.2025 - 12.12.2026",
     "sourceName": "Jungfraubahnen – Fahrpreise / Prices / Prix (공식 요금표 PDF)",
     "sourceUrl": "https://dam.jungfrau.ch/en/prices-and-brochures",
-    "note": "최소=시즌 1, 최대=시즌 2(5~10월). 편도는 19.00/22.00. 8.1% 부가세 포함. 표의 편도·왕복 열 머리글이 기호라서 왕복=편도의 2배인 것으로 열을 판단함. 1회 확인 · 원문: ab / from / de Interlaken Ost … Harder Kulm | 1 | 19.00 | 38.00 / 2 | 22.00 | 44.00 … Saison 1 14.12.2025 - 30.04.2026 / 01.11. - 12.12.2026 Saison 2 01.05. - 31.10.2026 · 수집: prices-interlaken-jungfrau-2026-10-12.csv"
+    "note": "최소=시즌 1, 최대=시즌 2(5~10월). 편도는 19.00/22.00. 8.1% 부가세 포함. 표의 편도·왕복 열 머리글이 기호라서 왕복=편도의 2배인 것으로 열을 판단함. 1회 확인 · 원문: ab / from / de Interlaken Ost … Harder Kulm | 1 | 19.00 | 38.00 / 2 | 22.00 | 44.00 … Saison 1 14.12.2025 - 30.04.2026 / 01.11. - 12.12.2026 Saison 2 01.05. - 31.10.2026 · 수집: prices-interlaken-jungfrau-2026-10-12.csv",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "https://www.jungfrau.ch/en-gb/prices-and-tickets/ · 운영사 가격 페이지를 두 번 열어 확인. 현재 일반 페이지는 출발지·도착지·왕복/편도·여행일·할인 자격을 입력해야 금액이 표시되고, 입력 전에는 시작가만 제시합니다. 기준 여행일이 없는 표본과 동일 조건의 확정 왕복 요금은 확인할 수 없습니다. 확인 URL: https://www.jungfrau.ch/en-gb/prices-and-tickets/ ; 원출처 가격·브로셔: https://dam.jungfrau.ch/en/prices-and-brochures",
+      "reportedAt": "2026-10-12"
+    }
   },
   {
     "id": "INT-AT-304",
@@ -28827,7 +28809,13 @@
     "applied": "유효 14.12.2025 - 12.12.2026",
     "sourceName": "Jungfraubahnen – Fahrpreise / Prices / Prix (공식 요금표 PDF)",
     "sourceUrl": "https://dam.jungfrau.ch/en/prices-and-brochures",
-    "note": "시즌 구분 없음. 편도 37.80. 기존 'Zvieri Return Ticket'(62)과는 다른 일반 왕복권. 1회 확인 · 원문: ab / from / de Interlaken Ost … Schynige Platte via Wilderswil | 37.80 | 75.60 · 수집: prices-interlaken-jungfrau-2026-10-12.csv"
+    "note": "시즌 구분 없음. 편도 37.80. 기존 'Zvieri Return Ticket'(62)과는 다른 일반 왕복권. 1회 확인 · 원문: ab / from / de Interlaken Ost … Schynige Platte via Wilderswil | 37.80 | 75.60 · 수집: prices-interlaken-jungfrau-2026-10-12.csv",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "https://www.jungfrau.ch/en-gb/prices-and-tickets/ · 운영사 가격 페이지를 두 번 열어 확인. 현재 일반 페이지는 출발지·도착지·왕복/편도·여행일·할인 자격을 입력해야 금액이 표시되고, 입력 전에는 시작가만 제시합니다. 기준 여행일이 없는 표본과 동일 조건의 확정 왕복 요금은 확인할 수 없습니다. 확인 URL: https://www.jungfrau.ch/en-gb/prices-and-tickets/ ; 원출처 가격·브로셔: https://dam.jungfrau.ch/en/prices-and-brochures",
+      "reportedAt": "2026-10-12"
+    }
   },
   {
     "id": "INT-AT-305",
@@ -28851,7 +28839,13 @@
     "applied": "유효 14.12.2025 - 12.12.2026",
     "sourceName": "Jungfraubahnen – Fahrpreise / Prices / Prix (공식 요금표 PDF)",
     "sourceUrl": "https://dam.jungfrau.ch/en/prices-and-brochures",
-    "note": "최소=시즌 1, 최대=시즌 2. 그린델발트 출발 기준이며, 인터라켄 오스트에서 피르스트까지 왕복은 95.60/99.60. 1회 확인 · 원문: ab / from / de Grindelwald … First | 1 | 36.00 | 72.00 / 2 | 38.00 | 76.00 · 수집: prices-interlaken-jungfrau-2026-10-12.csv"
+    "note": "최소=시즌 1, 최대=시즌 2. 그린델발트 출발 기준이며, 인터라켄 오스트에서 피르스트까지 왕복은 95.60/99.60. 1회 확인 · 원문: ab / from / de Grindelwald … First | 1 | 36.00 | 72.00 / 2 | 38.00 | 76.00 · 수집: prices-interlaken-jungfrau-2026-10-12.csv",
+    "review": {
+      "flag": "원문 확인 불가",
+      "flagEn": "source could not be verified",
+      "detail": "https://www.jungfrau.ch/en-gb/prices-and-tickets/ · 운영사 가격 페이지를 두 번 열어 확인. 현재 일반 페이지는 출발지·도착지·왕복/편도·여행일·할인 자격을 입력해야 금액이 표시되고, 입력 전에는 시작가만 제시합니다. 기준 여행일이 없는 표본과 동일 조건의 확정 왕복 요금은 확인할 수 없습니다. 확인 URL: https://www.jungfrau.ch/en-gb/prices-and-tickets/ ; 원출처 가격·브로셔: https://dam.jungfrau.ch/en/prices-and-brochures",
+      "reportedAt": "2026-10-12"
+    }
   },
   {
     "id": "KYO-FD-102",
@@ -34455,8 +34449,8 @@
     "review": {
       "flag": "원문 확인 불가",
       "flagEn": "source could not be verified",
-      "detail": "https://www.migros.com.tr/su-c-84 · 생수 카테고리 첫 화면과 'avant su' 검색 결과에 Avant 500ml 상품이 안 보임 · Claude 크롬 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
+      "detail": "https://www.migros.com.tr/su-c-84 · Migros 공식 물 카테고리 페이지를 두 번 열었으나 배송지역 선택 전 상품 목록이 렌더링되지 않고 AVANT 500 ml의 상품명·정가·재고가 표시되지 않았습니다. 같은 판매처 페이지에서 해당 SKU 가격을 확인하지 못함. 확인 URL: https://www.migros.com.tr/su-c-84",
+      "reportedAt": "2026-10-12"
     }
   },
   {

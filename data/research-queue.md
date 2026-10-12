@@ -99,7 +99,7 @@
 | BKK-AT-002 | 방콕 | 왓 아룬 입장권 | 200 THB | B | 조건부 | B등급, 조건부, 검수: 원문 확인 불가 | [Tourism Authority of Thailand](https://www.tourismthailand.org/Attraction/wat-arun-or-temple-of-dawn) |
 | BKK-FD-003 | 방콕 | 강새우 팟타이 | 450 THB | A | 예 | 세금·서비스료 별도 | [ChomSindh at Amari Bangkok](https://www.amari.com/bangkok/dine/chomsindh) |
 | DAD-AT-001 | 다낭 | 선월드 바나힐 입장권 | 1000000 VND | A | 조건부 | 조건부, 재검증 | [Sun World Ba Na Hills](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
-| DAD-AT-002 | 다낭 | 오행산 입장권 | 40000 VND | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [Marble Mountains visitor guide](https://nguhanhson.org/) |
+| DAD-AT-002 | 다낭 | 오행산 입장권 | 40000 VND | C | 조건부 | C등급, 조건부, 재검증 | [Marble Mountains visitor guide](https://nguhanhson.org/) |
 | DAD-AT-003 | 다낭 | 오행산 엘리베이터 왕복 | 30000 VND | C | 조건부 | C등급, 조건부, 재검증, 검수: 원문 확인 불가 | [Marble Mountains visitor guide](https://nguhanhson.org/) |
 | TPE-SV-001 | 타이베이 | 치아더 펑리수 6개 | 252 TWD | A | 예 | 검수: 원문 확인 불가 | [Chia Te Bakery](https://chiate88.com.tw/Product/%E6%98%A5%E7%AF%80%E5%8F%AF%E9%A0%90%E8%A8%82%E7%9A%84%E5%95%86%E5%93%81/%E9%B3%B3%E9%BB%83%E9%85%A5) |
 | TPE-SV-002 | 타이베이 | 치아더 펑리수 12개 | 504 TWD | A | 예 | 검수: 원문 확인 불가 | [Chia Te Bakery](https://chiate88.com.tw/Product/%E6%98%A5%E7%AF%80%E5%8F%AF%E9%A0%90%E8%A8%82%E7%9A%84%E5%95%86%E5%93%81/%E9%B3%B3%E9%BB%83%E9%85%A5) |
@@ -161,13 +161,13 @@
 | DAD-AT-005 | 다낭 | 다낭 박물관 일반 입장권 | 50000 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/news/from-july-3-danang-museum-to-implement-new-admission-fees-and-opening-hours) |
 | DAD-AT-006 | 다낭 | 다낭 미술관 일반 입장권 | 20000 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/new-tourism-products-in-da-nang-2026) |
 | DAD-AT-007 | 다낭 | 군구 5 박물관 국제 방문객 입장권 | 60000 VND | B | 예 | B등급, 검수: 원문 확인 불가 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
-| DAD-AT-012 | 다낭 | 오행산 암푸 동굴 입장권 | 20000 VND | B | 예 | B등급, 검수: 원문 확인 불가 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
-| DAD-AT-013 | 다낭 | 껌탄 코코넛 숲 입장료 | 30000 VND | B | 예 | B등급, 검수: 원문 확인 불가 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
-| DAD-AT-014 | 다낭 | 탄하 도자기 마을 입장권 | 35000 VND | B | 예 | B등급, 검수: 원문 확인 불가 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
+| DAD-AT-012 | 다낭 | 오행산 암푸 동굴 입장권 | 20000 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
+| DAD-AT-013 | 다낭 | 껌탄 코코넛 숲 입장료 | 30000 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
+| DAD-AT-014 | 다낭 | 탄하 도자기 마을 입장권 | 35000 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
 | DAD-AT-015 | 다낭 | 다낭 박물관 만 16세 미만 무료 입장 | 0 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/news/from-july-3-danang-museum-to-implement-new-admission-fees-and-opening-hours) |
 | DAD-AT-016 | 다낭 | 다낭 미술관 학생 무료 입장 | 0 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/new-tourism-products-in-da-nang-2026) |
-| DAD-AT-020 | 다낭 | 암푸 동굴 학생 입장료 | 7000 VND | B | 예 | B등급, 검수: 원문 확인 불가 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
-| DAD-AT-021 | 다낭 | 암푸 동굴 만 6세 미만 무료 입장 | 0 VND | B | 예 | B등급, 검수: 원문 확인 불가 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
+| DAD-AT-020 | 다낭 | 암푸 동굴 학생 입장료 | 7000 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
+| DAD-AT-021 | 다낭 | 암푸 동굴 만 6세 미만 무료 입장 | 0 VND | B | 예 | B등급 | [Da Nang City Tourism Information Portal](https://danangfantasticity.com/en/plan-your-da-nang-journey-2026-updated-admission-prices-for-attractions-and-tourist-sites) |
 | TPE-AT-005 | 타이베이 | 스린 관저 본관 일반 입장권 | 100 TWD | B | 예 | B등급 | [Taipei City Government Department of Cultural Affairs](https://culture.gov.taipei/cp.aspx?n=5FB2672C1EFD7588) |
 | TPE-AT-006 | 타이베이 | 타이베이 천문관 전시관 일반 입장권 | 40 TWD | B | 예 | B등급 | [Taipei Astronomical Museum](https://en.tam.gov.taipei/cp.aspx?n=1E87B50585DEAB2D) |
 | TPE-AT-007 | 타이베이 | 베이터우 온천박물관 무료 관람 | 0 TWD | B | 예 | B등급 | [Taipei City Government Department of Cultural Affairs](https://culture.gov.taipei/cp.aspx?n=680DE22A4F00B25F) |
@@ -207,11 +207,11 @@
 | IST-AT-102 | 이스탄불 | 페라 박물관 입장권 (성인) | 450 TRY | A | 예 | 재검증 | [Pera Museum 공식 방문 안내](https://peramuseum.org/Home/Visit) |
 | IST-AT-111 | 이스탄불 | 페라 박물관 입장권 (만 12세 이하) | 0 TRY | A | 예 | 재검증 | [Pera Museum 공식 방문 안내](https://peramuseum.org/Home/Visit) |
 | IST-AT-103 | 이스탄불 | 라흐미 M. 코치 박물관 입장권 (성인) | 1000 TRY | A | 예 | 재검증 | [Rahmi M. Koç Museum 공식 요금 안내](https://rmk-museum.org.tr/istanbul/en/visit-us/hours-and-prices) |
-| IST-AT-104 | 이스탄불 | 참르자 타워 전망대 입장권 (외국인 성인) | 900 TRY | A | 예 | 재검증, 검수: 원문 확인 불가 | [Çamlıca Tower 공식 티켓 페이지](https://camlicakule.istanbul/en/observation-deck-ticket) |
+| IST-AT-104 | 이스탄불 | 참르자 타워 전망대 입장권 (외국인 성인) | 900 TRY | A | 예 | 재검증 | [Çamlıca Tower 공식 티켓 페이지](https://camlicakule.istanbul/en/observation-deck-ticket) |
 | IST-AT-112 | 이스탄불 | 참르자 타워 전망대 (만 0~6세) | 0 TRY | A | 예 | 재검증 | [Çamlıca Tower 공식 티켓 페이지](https://camlicakule.istanbul/en/observation-deck-ticket) |
 | IST-AT-105 | 이스탄불 | 파노라마 1453 역사박물관 입장권 (외국인 성인) | 900 TRY | A | 예 | 재검증 | [KÜLTÜR.İSTANBUL 공식 요금 안내](https://kultur.istanbul/panorama-1453-muzesi/) |
 | IST-AT-106 | 이스탄불 | İBB 디지털 체험센터 입장권 (외국인 성인) | 900 TRY | A | 예 | 재검증 | [KÜLTÜR.İSTANBUL 공식 요금 안내](https://www.dijitaldeneyimmerkezi.com/Eng/Tickets) |
-| IST-AT-113 | 이스탄불 | İBB 디지털 체험센터 입장 (만 7세 미만) | 0 TRY | A | 예 | 재검증, 검수: 원문 확인 불가 | [KÜLTÜR.İSTANBUL 공식 요금 안내](https://kultur.istanbul/ibb-kultur-as-dijital-deneyim-merkezi/) |
+| IST-AT-113 | 이스탄불 | İBB 디지털 체험센터 입장 (만 7세 미만) | 0 TRY | A | 예 | 재검증 | [KÜLTÜR.İSTANBUL 공식 요금 안내](https://kultur.istanbul/ibb-kultur-as-dijital-deneyim-merkezi/) |
 | SHA-AT-101 | 상하이 | 상하이 동물원 입장권 (성인) | 40 CNY | A | 예 | 재검증 | [Shanghai Municipal Government Services](https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0) |
 | SHA-AT-102 | 상하이 | 마담 투소 상하이 입장권 (성인) | 210 CNY | A | 예 | 재검증, 검수: 원문 확인 불가 | [Shanghai Municipal Government Services](https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0) |
 | SHA-AT-103 | 상하이 | 상하이 영화파크 입장권 (성인) | 80 CNY | A | 예 | 재검증, 검수: 원문 확인 불가 | [Shanghai Municipal Government Services](https://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=2ab707d3-5c68-40c3-9a54-87f96f8dedf0) |
@@ -259,8 +259,8 @@
 | DPS-AL-101 | 발리 | 하드락 카페 발리 빈땅 병맥주 | 59000 IDR | A | 예 | 재검증, 세금·서비스료 별도 | [Hard Rock Cafe Bali 공식 메뉴 PDF](https://cafe.hardrock.com/bali/files/5307/Menu_2025_Eats&Drinks_web.pdf) |
 | DPS-AL-102 | 발리 | 하드락 카페 발리 하이네켄 병맥주 | 69000 IDR | A | 예 | 재검증, 세금·서비스료 별도 | [Hard Rock Cafe Bali 공식 메뉴 PDF](https://cafe.hardrock.com/bali/files/5307/Menu_2025_Eats&Drinks_web.pdf) |
 | DPS-AL-103 | 발리 | 비우비우 더 뷰 빈땅 | 72000 IDR | A | 예 | 재검증, 세금·서비스료 별도 | [Biu Biu Resort Bali 공식 The View 메뉴](https://biubiuresortbali.com/the-view-restaurant-menu-biu-biu-resort-bali/) |
-| DPS-AT-101 | 발리 | 워터봄 발리 1일권(성인) | 630000 IDR | A | 조건부 | 조건부, 재검증 | [Waterbom Bali 공식 Tickets & Pricing](https://www.waterbom-bali.com/ticket) |
-| DPS-AT-102 | 발리 | 워터봄 발리 1일권(어린이 2~11세) | 495000 IDR | A | 조건부 | 조건부, 재검증 | [Waterbom Bali 공식 Tickets & Pricing](https://www.waterbom-bali.com/ticket) |
+| DPS-AT-101 | 발리 | 워터봄 발리 1일권(성인) | 630000 IDR | A | 조건부 | 조건부, 재검증, 검수: 원문 확인 불가 | [Waterbom Bali 공식 Tickets & Pricing](https://www.waterbom-bali.com/ticket) |
+| DPS-AT-102 | 발리 | 워터봄 발리 1일권(어린이 2~11세) | 495000 IDR | A | 조건부 | 조건부, 재검증, 검수: 원문 확인 불가 | [Waterbom Bali 공식 Tickets & Pricing](https://www.waterbom-bali.com/ticket) |
 | DPS-AT-103 | 발리 | GWK 문화공원 일반 입장(성인) | 150000 IDR | A | 예 | 재검증 | [GWK Cultural Park 공식 티켓 페이지](https://ticket.gwkbali.com/fit/get-regular-ticket) |
 | DPS-AT-104 | 발리 | GWK 문화공원 일반 입장(어린이) | 150000 IDR | A | 예 | 재검증 | [GWK Cultural Park 공식 티켓 페이지](https://ticket.gwkbali.com/fit/get-regular-ticket) |
 | BCN-FD-101 | 바르셀로나 | 바르사 카페 점심 메뉴 | 23.95 EUR | A | 예 | 재검증 | [FC Barcelona Barca Cafe](https://www.fcbarcelona.es/es/entradas/camp-nou-experience/planifica-tu-visita/2554523/barca-cafe) |
@@ -332,7 +332,7 @@
 | CEB-AT-202 | 세부 | 무세오 수그보 학생·경로·장애인 입장료 | 25 PHP | A | 예 | 재검증 | [Cebu Province 공식 페이스북](https://www.facebook.com/cebugovph/posts/museo-sugbo-reopens-on-august-29-2025-and-were-ready-to-welcome/1183292743825210/) |
 | CEB-AT-203 | 세부 | 카사 고로르도 박물관 일반(앱 기반 투어) | 100 PHP | A | 예 | 재검증 | [Casa Gorordo Museum 공식 페이스북](https://www.facebook.com/casagorordomuseum/posts/uncover-the-beauty-of-cebus-heritage-at-casa-gorordo-museum-choose-between-guide/1225711243072090/) |
 | CEB-AT-204 | 세부 | 카사 고로르도 박물관 학생(앱 기반 투어) | 50 PHP | A | 예 | 재검증 | [Casa Gorordo Museum 공식 페이스북](https://www.facebook.com/casagorordomuseum/posts/uncover-the-beauty-of-cebus-heritage-at-casa-gorordo-museum-choose-between-guide/1225711243072090/) |
-| CEB-AT-101 | 세부 | 세부 오션파크 입장권(정가) | 800~1000 PHP | A | 예 | 재검증 | [Cebu Ocean Park](https://www.cebuoceanpark.com/tickets-and-hours/) |
+| CEB-AT-101 | 세부 | 세부 오션파크 입장권(정가) | 800~1000 PHP | A | 예 | 재검증, 검수: 원문 확인 불가 | [Cebu Ocean Park](https://www.cebuoceanpark.com/tickets-and-hours/) |
 | CEB-AT-102 | 세부 | 세부 사파리 투어 익스피리언스 | 1200 PHP | A | 예 | 재검증 | [Cebu Safari & Adventure Park](https://www.cebusafari.ph/) |
 | CEB-FD-101 | 세부 | 카사 베르데 미트소스 스파게티 | 265 PHP | A | 예 | 재검증 | [Casa Verde](https://www.casaverde.ph/menu) |
 | CEB-FD-102 | 세부 | 카사 베르데 브라이언스 립(솔로) | 328 PHP | A | 예 | 재검증 | [Casa Verde](https://www.casaverde.ph/menu) |
@@ -577,7 +577,7 @@
 | PRG-TR-004 | 프라하 | 프라하 PID 72시간권(성인) | 340~350 CZK | A | 예 | 재검증 | [PID 프라하 통합교통](https://pid.cz/en/tickets-and-fare/) |
 | PRG-TR-005 | 프라하 | 프라하 PID 아동(15세 미만) 무료 | 0 CZK | A | 예 | 재검증 | [PID 프라하 통합교통](https://pid.cz/en/tickets-and-fare/) |
 | PRG-AT-001 | 프라하 | 페트린 푸니쿨라 편도 | 90~100 CZK | A | 예 | 재검증 | [PID 프라하 통합교통](https://pid.cz/en/tickets-and-fare/) |
-| PAR-SN-901 | 파리 | 에비앙 생수 50cL (카르푸) | 1.39 EUR | A | 예 | 재검증 | [Carrefour](https://www.carrefour.fr/p/eau-minerale-naturelle-plate-evian-3068320124377) |
+| PAR-SN-901 | 파리 | 에비앙 생수 50cL (카르푸) | 1.39 EUR | A | 예 | 재검증, 검수: 원문 확인 불가 | [Carrefour](https://www.carrefour.fr/p/eau-minerale-naturelle-plate-evian-3068320124377) |
 | PAR-SN-902 | 파리 | 코카콜라 50cL 페트 (카르푸) | 1.45 EUR | A | 예 | 재검증 | [Carrefour](https://www.carrefour.fr/p/soda-au-cola-gout-original-coca-cola-3174780000363) |
 | PAR-SN-903 | 파리 | 트윅스 초코바 50g (카르푸) | 1.09 EUR | A | 예 | 재검증 | [Carrefour](https://www.carrefour.fr/p/barres-chocolatees-biscuits-enrobes-de-chocolat-et-caramel-twix-5900951313592) |
 | BKK-SN-901 | 방콕 | 환타 오렌지 캔 325ml (빅C) | 16 THB | A | 예 | 재검증 | [Big C Online](https://www.bigc.co.th/en/product/fanta-orange-flavored-soft-drink-can-325-ml-8851959132166.13206) |
@@ -900,9 +900,9 @@
 | HNL-AT-106 | 호놀룰루 | 다이아몬드 헤드 주립 기념물(3세 이하) | 0 USD | A | 예 | 재검증 | [하와이주 DLNR 주립공원 공식](https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/) |
 | INT-AT-301 | 인터라켄 | 성 베아투스 동굴·박물관 입장권(성인) | 20 CHF | A | 예 | 재검증 | [St. Beatus-Höhlen](https://www.beatushoehlen.swiss/en/info-centre/#c409) |
 | INT-AT-302 | 인터라켄 | 성 베아투스 동굴·박물관 입장권(아동 6~16세) | 12 CHF | A | 예 | 재검증 | [St. Beatus-Höhlen](https://www.beatushoehlen.swiss/en/info-centre/#c409) |
-| INT-AT-303 | 인터라켄 | 하더쿨름 푸니쿨라 왕복(인터라켄 오스트 출발, 성인) | 38~44 CHF | A | 예 | 재검증, 시작가 표기 | [Jungfraubahnen – Fahrpreise / Prices / Prix (공식 요금표 PDF)](https://dam.jungfrau.ch/en/prices-and-brochures) |
-| INT-AT-304 | 인터라켄 | 쉬니게 플라테 왕복(인터라켄 오스트 출발, 빌더스빌 경유, 성인) | 75.6 CHF | A | 예 | 재검증, 시작가 표기 | [Jungfraubahnen – Fahrpreise / Prices / Prix (공식 요금표 PDF)](https://dam.jungfrau.ch/en/prices-and-brochures) |
-| INT-AT-305 | 인터라켄 | 피르스트 곤돌라 왕복(그린델발트 출발, 성인) | 72~76 CHF | A | 예 | 재검증 | [Jungfraubahnen – Fahrpreise / Prices / Prix (공식 요금표 PDF)](https://dam.jungfrau.ch/en/prices-and-brochures) |
+| INT-AT-303 | 인터라켄 | 하더쿨름 푸니쿨라 왕복(인터라켄 오스트 출발, 성인) | 38~44 CHF | A | 예 | 재검증, 시작가 표기, 검수: 원문 확인 불가 | [Jungfraubahnen – Fahrpreise / Prices / Prix (공식 요금표 PDF)](https://dam.jungfrau.ch/en/prices-and-brochures) |
+| INT-AT-304 | 인터라켄 | 쉬니게 플라테 왕복(인터라켄 오스트 출발, 빌더스빌 경유, 성인) | 75.6 CHF | A | 예 | 재검증, 시작가 표기, 검수: 원문 확인 불가 | [Jungfraubahnen – Fahrpreise / Prices / Prix (공식 요금표 PDF)](https://dam.jungfrau.ch/en/prices-and-brochures) |
+| INT-AT-305 | 인터라켄 | 피르스트 곤돌라 왕복(그린델발트 출발, 성인) | 72~76 CHF | A | 예 | 재검증, 검수: 원문 확인 불가 | [Jungfraubahnen – Fahrpreise / Prices / Prix (공식 요금표 PDF)](https://dam.jungfrau.ch/en/prices-and-brochures) |
 | KYO-FD-102 | 교토 | 요시노야 규동 보통 | 498 JPY | A | 예 | 재검증 | [요시노야](https://www.yoshinoya.com/menu/gyudon/) |
 | KYO-FD-103 | 교토 | 스키야 규동 보통 | 480 JPY | A | 예 | 재검증 | [すき家](https://www.sukiya.jp/menu/in/gyudon/100100/) |
 | NGO-FD-101 | 나고야 | 요시노야 규동 보통 | 498 JPY | A | 예 | 재검증 | [요시노야](https://www.yoshinoya.com/menu/gyudon/) |
@@ -1295,5 +1295,5 @@
 
 ## 4. 교차 검수 현황
 
-`data/reviews/*.csv` 에서 읽은 판정: 일치 801건 · 불일치 41건 · 확인불가 106건.
+`data/reviews/*.csv` 에서 읽은 판정: 일치 1029건 · 불일치 32건 · 확인불가 103건.
 아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

@@ -325,7 +325,7 @@ function main() {
   const byId = new Map<string, PriceSample | ExtraSample>([...samples, ...extras].map((x) => [x.id, x]));
   const latestReview = new Map<string, { file: string; verdict: string; date: string; r: (h: string) => string }>();
   for (const file of readdirSync(`${root}/data/reviews`).filter((f) => f.endsWith('.csv')).sort()) {
-    const book = XLSX.read(readFileSync(`${root}/data/reviews/${file}`, 'utf8').replace(/^\uFEFF/, ''), { type: 'string', raw: true });
+    const book = XLSX.read(readFileSync(`${root}/data/reviews/${file}`, 'utf8').replace(/\uFEFF/g, ''), { type: 'string', raw: true });
     const rows = XLSX.utils.sheet_to_json<Record<string, unknown>>(book.Sheets[book.SheetNames[0]!]!, { defval: '', raw: true });
     for (const row of rows) {
       const r = (h: string) => text(row[h]);

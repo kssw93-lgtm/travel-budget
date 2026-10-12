@@ -1,4 +1,4 @@
-"﻿ID","도시","항목","최소","최대","통화","단위","대상","가격형태","출처 URL","조회일","판정","확인 가격","확인 URL","확인일","메모"
+"ID","도시","항목","최소","최대","통화","단위","대상","가격형태","출처 URL","조회일","판정","확인 가격","확인 URL","확인일","메모"
 "LON-AT-001","런던","런던탑 성인권","38","38","GBP","성인 1인","성인","고정형","https://www.hrp.org.uk/tower-of-london/","2026-10-08","일치","GBP 38","https://www.hrp.org.uk/tower-of-london/","2026-10-12","Tower 공식 티켓 안내에 성인 입장료 £38 표시."
 "LON-AT-002","런던","런던탑 아동권","19","19","GBP","아동 1인","5-15세","고정형","https://www.hrp.org.uk/tower-of-london/","2026-10-08","일치","GBP 19","https://www.hrp.org.uk/tower-of-london/","2026-10-12","Tower 공식 티켓 안내에 5~15세 아동 입장료 £19 표시."
 "IST-AT-014","이스탄불","예레바탄 사르느즈 주간 외국인 입장권","1950","1950","TRY","외국인 1인","외국인 성인","고정형","https://kultur.istanbul/yerebatan-sarnici-muzesi/","2026-10-03","확인불가","","https://kultur.istanbul/yerebatan-sarnici-muzesi/","2026-10-12","공식 KÜLTÜR.İSTANBUL 명소 안내 페이지를 열었으나 외국인 주간 입장 요금이 기재되지 않음. 운영사 공식 홈페이지 https://yerebatan.com/en/home 은 열람 도구 Internal Error로 확인 불가."

@@ -98,7 +98,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "hanoi": "pass 1/1 · ride 3/3 · meal 5/5 · snack 4/4 · attraction 3/3 · souvenir 0/0",
         "ho-chi-minh-city": "pass 0/0 · ride 3/3 · meal 5/5 · snack 3/3 · attraction 1/1 · souvenir 0/0",
         "hong-kong": "pass 1/1 · ride 3/3 · meal 6/6 · snack 4/4 · attraction 3/3 · souvenir 0/0",
-        "honolulu": "pass 2/2 · ride 1/1 · meal 5/5 · snack 2/2 · attraction 3/3 · souvenir 0/0",
+        "honolulu": "pass 2/2 · ride 1/1 · meal 5/5 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "interlaken": "pass 1/1 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "istanbul": "pass 0/0 · ride 3/3 · meal 6/6 · snack 6/6 · attraction 12/12 · souvenir 3/3",
         "jeju": "pass 0/0 · ride 3/3 · meal 8/8 · snack 3/3 · attraction 12/12 · souvenir 6/6",

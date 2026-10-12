@@ -45,7 +45,6 @@
 | 프라하 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 호놀룰루 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
-| 호놀룰루 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 부다페스트 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 부다페스트 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 뮌헨 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -352,6 +351,7 @@
 | CNX-AT-105 | 치앙마이 | 라차프륵 왕립공원(외국인 성인) | 200 THB | A | 예 | 재검증 | [Royal Park Rajapruek 공식 요금 안내(태국어)](https://www.royalparkrajapruek.org/Admission) |
 | CNX-AT-106 | 치앙마이 | 라차프륵 왕립공원(외국인 아동) | 150 THB | A | 예 | 재검증 | [Royal Park Rajapruek 공식 요금 안내(태국어)](https://www.royalparkrajapruek.org/Admission) |
 | CNX-SN-101 | 치앙마이 | 리버사이드 초콜릿 선데 | 120 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴](https://riverside1984.com/menu) |
+| HNL-SN-103 | 호놀룰루 | 레너즈 베이커리 말라사다 | 2.25 USD | A | 예 | 재검증 | [Leonard's Bakery 공식 메뉴](https://leonardshawaii.com/menu/malasadas-and-doughnuts/) |
 | GUM-FD-104 | 괌 | 피카스 카페 로코모코 | 19 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
 | GUM-FD-105 | 괌 | 피카스 카페 티낙탁 버거(사이드 포함) | 18 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
 | GUM-FD-106 | 괌 | 피카스 카페 콘비프 어니언 볶음밥 | 19 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |

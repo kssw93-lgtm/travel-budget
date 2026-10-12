@@ -1269,6 +1269,78 @@
     "note": "공식 관광 안내의 음식 추천만 기록. 본문에 가격 언급이 있어도 평균값은 사용하지 않음."
   },
   {
+    "cityId": "auckland",
+    "nameKo": "피시 앤 칩스",
+    "nameEn": "Fish and Chips",
+    "reason": "흰살생선 튀김과 감자튀김으로 된 뉴질랜드 바닷가의 대표 한 끼",
+    "reasonEn": "A Kiwi seaside classic",
+    "desc": {
+      "ko": "흰살생선 튀김과 감자튀김으로 된 뉴질랜드 바닷가의 대표 한 끼",
+      "en": "Battered white fish with chips, a Kiwi seaside classic",
+      "ja": "白身魚のフライとフライドポテト、ニュージーランドの定番"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-13)"
+  },
+  {
+    "cityId": "auckland",
+    "nameKo": "미트 파이",
+    "nameEn": "Meat Pie",
+    "reason": "다진 고기와 그레이비를 넣은 파이",
+    "reasonEn": "The Kiwi meat pie",
+    "desc": {
+      "ko": "다진 고기와 그레이비를 넣은 파이",
+      "en": "Pie filled with minced meat and gravy",
+      "ja": "ひき肉とグレイビーを詰めたパイ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-13)"
+  },
+  {
+    "cityId": "auckland",
+    "nameKo": "파블로바",
+    "nameEn": "Pavlova",
+    "reason": "머랭 위에 생크림과 과일을 올린 디저트",
+    "reasonEn": "Meringue and fruit dessert",
+    "desc": {
+      "ko": "머랭 위에 생크림과 과일을 올린 디저트",
+      "en": "Meringue dessert topped with cream and fruit",
+      "ja": "メレンゲに生クリームとフルーツをのせたデザート"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-13)"
+  },
+  {
+    "cityId": "auckland",
+    "nameKo": "항이",
+    "nameEn": "Hāngī",
+    "reason": "땅속 화덕에서 찐 마오리 전통 고기·채소 요리",
+    "reasonEn": "Māori earth-oven feast",
+    "desc": {
+      "ko": "땅속 화덕에서 찐 마오리 전통 고기·채소 요리",
+      "en": "Meat and vegetables slow-cooked in an earth oven, a Māori tradition",
+      "ja": "地中のかまどで蒸し焼きにするマオリの伝統料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-13)"
+  },
+  {
     "cityId": "bali",
     "nameKo": "바비굴링",
     "nameEn": "Babi Guling",
@@ -3841,6 +3913,78 @@
       "ULN-SN-102"
     ],
     "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-13)"
+  },
+  {
+    "cityId": "vancouver",
+    "nameKo": "BC 연어",
+    "nameEn": "BC Salmon",
+    "reason": "태평양에서 잡은 브리티시컬럼비아 연어를 굽거나 훈제한 요리",
+    "reasonEn": "BC's signature salmon",
+    "desc": {
+      "ko": "태평양에서 잡은 브리티시컬럼비아 연어를 굽거나 훈제한 요리",
+      "en": "Pacific salmon from British Columbia, grilled or smoked",
+      "ja": "ブリティッシュコロンビア州産の太平洋サーモンを焼いたり燻製にした料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-13)"
+  },
+  {
+    "cityId": "vancouver",
+    "nameKo": "푸틴",
+    "nameEn": "Poutine",
+    "reason": "감자튀김에 치즈 커드와 그레이비를 얹은 캐나다 국민 음식",
+    "reasonEn": "Canada's fries with gravy",
+    "desc": {
+      "ko": "감자튀김에 치즈 커드와 그레이비를 얹은 캐나다 국민 음식",
+      "en": "Fries topped with cheese curds and gravy, Canada's comfort food",
+      "ja": "フライドポテトにチーズカードとグレイビーをかけたカナダの定番"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-13)"
+  },
+  {
+    "cityId": "vancouver",
+    "nameKo": "재패도그",
+    "nameEn": "Japadog",
+    "reason": "데리야키·김·무 등 일본식 토핑을 올린 밴쿠버 명물 핫도그",
+    "reasonEn": "Vancouver's Japanese-style hot dog",
+    "desc": {
+      "ko": "데리야키·김·무 등 일본식 토핑을 올린 밴쿠버 명물 핫도그",
+      "en": "Vancouver hot dog with Japanese toppings like teriyaki and seaweed",
+      "ja": "照り焼きや海苔など和風トッピングをのせたバンクーバー名物のホットドッグ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-13)"
+  },
+  {
+    "cityId": "vancouver",
+    "nameKo": "BC 롤",
+    "nameEn": "BC Roll",
+    "reason": "구운 연어 껍질을 넣은 밴쿠버식 김초밥",
+    "reasonEn": "A Vancouver-born sushi roll",
+    "desc": {
+      "ko": "구운 연어 껍질을 넣은 밴쿠버식 김초밥",
+      "en": "Sushi roll with grilled salmon skin, invented in Vancouver",
+      "ja": "焼いたサーモンの皮を巻いたバンクーバー発祥の巻き寿司"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-13)"

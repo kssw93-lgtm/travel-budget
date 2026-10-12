@@ -337,7 +337,7 @@
     "nameEn": "Vancouver",
     "currency": "CAD",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "auckland",
@@ -347,7 +347,7 @@
     "nameEn": "Auckland",
     "currency": "NZD",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "sokcho",

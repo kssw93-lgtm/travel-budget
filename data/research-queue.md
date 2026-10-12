@@ -59,6 +59,10 @@
 | 인터라켄 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 리스본 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 리스본 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 밴쿠버 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 밴쿠버 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 오클랜드 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 오클랜드 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -446,6 +450,41 @@
 | CNX-FD-302 | 치앙마이 | MK 해물 수키(국물) | 142 THB | A | 조건부 | 조건부, 재검증 | [MK Restaurants 공식 메뉴(Single Dish)](https://www.mkrestaurant.com/en/mk-menu/single-dish) |
 | CNX-SN-301 | 치앙마이 | MK 아이스 레몬티 | 50 THB | A | 조건부 | 조건부, 재검증 | [MK Restaurants 공식 메뉴(Beverage)](https://www.mkrestaurant.com/en/mk-menu/beverage) |
 | CNX-SN-302 | 치앙마이 | MK 라임 주스(블렌디드) | 65 THB | A | 조건부 | 조건부, 재검증 | [MK Restaurants 공식 메뉴(Beverage)](https://www.mkrestaurant.com/en/mk-menu/beverage) |
+| YVR-TR-101 | 밴쿠버 | 트랜스링크 성인 현금 1존 요금 | 3.5 CAD | A | 예 | 재검증 | [TransLink](https://www.translink.ca/transit-fares/pricing-and-fare-zones) |
+| YVR-TR-102 | 밴쿠버 | 트랜스링크 성인 컴패스 카드 1존 요금 | 2.85 CAD | A | 예 | 재검증 | [TransLink](https://www.translink.ca/transit-fares/pricing-and-fare-zones) |
+| YVR-FD-101 | 밴쿠버 | 캑터스 클럽 케이준 치킨 샌드위치(감자튀김 포함) | 25 CAD | A | 예 | 재검증, 세금·서비스료 별도 | [Cactus Club Cafe Coal Harbour](https://www.cactusclubcafe.com/locations/coal-harbour/menu/food/) |
+| YVR-FD-102 | 밴쿠버 | 캑터스 클럽 더 피니 버거(감자튀김 포함) | 28.25 CAD | A | 예 | 재검증 | [Cactus Club Cafe Coal Harbour](https://www.cactusclubcafe.com/locations/coal-harbour/menu/food/) |
+| YVR-FD-103 | 밴쿠버 | 캑터스 클럽 치폴레 치킨 타코 | 21.5 CAD | A | 예 | 재검증 | [Cactus Club Cafe Coal Harbour](https://www.cactusclubcafe.com/locations/coal-harbour/menu/food/) |
+| YVR-FD-104 | 밴쿠버 | 얼스 비거 베터 버거 | 22.75 CAD | A | 예 | 재검증 | [Earls Robson](https://earls.ca/locations/robson/menu/) |
+| YVR-FD-105 | 밴쿠버 | 얼스 바하 타코 | 21.75 CAD | A | 예 | 재검증 | [Earls Robson](https://earls.ca/locations/robson/menu/) |
+| YVR-SN-101 | 밴쿠버 | 얼스 스파클링 라즈베리 레모네이드(무알코올) | 7.5 CAD | A | 예 | 재검증 | [Earls Robson](https://earls.ca/locations/robson/menu/) |
+| YVR-SN-102 | 밴쿠버 | 얼스 크렘 브륄레 치즈케이크 | 14.5 CAD | A | 예 | 재검증 | [Earls Robson](https://earls.ca/locations/robson/menu/) |
+| YVR-SN-103 | 밴쿠버 | 캑터스 클럽 얌 프라이 | 14.75 CAD | A | 예 | 재검증 | [Cactus Club Cafe Coal Harbour](https://www.cactusclubcafe.com/locations/coal-harbour/menu/food/) |
+| YVR-AL-101 | 밴쿠버 | 캑터스 클럽 생맥주 롱보드 라거 14oz | 8.5 CAD | A | 예 | 재검증 | [Cactus Club Cafe Coal Harbour](https://www.cactusclubcafe.com/locations/coal-harbour/menu/drink/) |
+| YVR-AL-102 | 밴쿠버 | 캑터스 클럽 생맥주 하이네켄 14oz | 9.75 CAD | A | 예 | 재검증 | [Cactus Club Cafe Coal Harbour](https://www.cactusclubcafe.com/locations/coal-harbour/menu/drink/) |
+| YVR-AL-103 | 밴쿠버 | 캑터스 클럽 하우스 와인 피노 그리지오 6oz | 11.5 CAD | A | 예 | 재검증 | [Cactus Club Cafe Coal Harbour](https://www.cactusclubcafe.com/locations/coal-harbour/menu/drink/) |
+| YVR-AT-101 | 밴쿠버 | 캐필라노 현수교 공원 입장권(성인 18~64세) | 75 CAD | A | 조건부 | 조건부, 재검증 | [Capilano Suspension Bridge Park](https://www.capbridge.com/tickets-and-hours/) |
+| YVR-AT-102 | 밴쿠버 | 캐필라노 현수교 공원 입장권(아동 6~12세) | 28 CAD | A | 조건부 | 조건부, 재검증 | [Capilano Suspension Bridge Park](https://www.capbridge.com/tickets-and-hours/) |
+| YVR-AT-103 | 밴쿠버 | 밴듀슨 식물원 입장권(성인 19~64세) | 11.19~15.81 CAD | A | 예 | 재검증 | [VanDusen Botanical Garden (City of Vancouver)](https://vandusengarden.org/plan-your-visit/hours-admission/) |
+| YVR-AT-104 | 밴쿠버 | 밴듀슨 식물원 입장권(아동 5~12세) | 5.6~7.9 CAD | A | 예 | 재검증 | [VanDusen Botanical Garden (City of Vancouver)](https://vandusengarden.org/plan-your-visit/hours-admission/) |
+| AKL-TR-101 | 오클랜드 | 오클랜드 버스·기차 성인 1존 요금(AT HOP·비접촉 결제) | 3 NZD | A | 예 | 재검증 | [Auckland Transport](https://at.govt.nz/bus-train-ferry/fares-and-discounts/bus-and-train-fares) |
+| AKL-TR-102 | 오클랜드 | 오클랜드 버스·기차 성인 1존 요금(두 번째 표) | 4 NZD | A | 조건부 | 조건부, 재검증 | [Auckland Transport](https://at.govt.nz/bus-train-ferry/fares-and-discounts/bus-and-train-fares) |
+| AKL-TR-103 | 오클랜드 | 오클랜드 버스·기차 아동(5~15세) 1존 요금 | 1.55 NZD | A | 예 | 재검증 | [Auckland Transport](https://at.govt.nz/bus-train-ferry/fares-and-discounts/bus-and-train-fares) |
+| AKL-FD-101 | 오클랜드 | 버거 버거 비프 앤 치즈 버거 | 19.5 NZD | A | 예 | 재검증 | [Burger Burger (공식 메뉴 PDF)](https://burgerburger.co.nz/wp-content/uploads/2026/01/BB_Menu_2025.pdf) |
+| AKL-FD-102 | 오클랜드 | 버거 버거 크리스피 케일 치킨 시저 샐러드 | 20.9 NZD | A | 예 | 재검증 | [Burger Burger (공식 메뉴 PDF)](https://burgerburger.co.nz/wp-content/uploads/2026/01/BB_Menu_2025.pdf) |
+| AKL-FD-103 | 오클랜드 | 페더럴 델리카트슨 토스티드 루벤 | 26.5 NZD | A | 예 | 재검증 | [Federal Delicatessen (런치 메뉴 PDF)](https://thefed.co.nz/assets/documents/lunch-menu-1788395480.pdf) |
+| AKL-FD-104 | 오클랜드 | 페더럴 델리카트슨 베지 팔라펠 베이글 | 16 NZD | A | 예 | 재검증 | [Federal Delicatessen (런치 메뉴 PDF)](https://thefed.co.nz/assets/documents/lunch-menu-1788395480.pdf) |
+| AKL-SN-101 | 오클랜드 | 버거 버거 탄산음료 | 7 NZD | A | 예 | 재검증 | [Burger Burger (공식 메뉴 PDF)](https://burgerburger.co.nz/wp-content/uploads/2026/01/BB_Menu_2025.pdf) |
+| AKL-SN-102 | 오클랜드 | 버거 버거 BB 셰이크 | 13 NZD | A | 예 | 재검증 | [Burger Burger (공식 메뉴 PDF)](https://burgerburger.co.nz/wp-content/uploads/2026/01/BB_Menu_2025.pdf) |
+| AKL-SN-103 | 오클랜드 | 버거 버거 슈스트링 프라이 | 11 NZD | A | 예 | 재검증 | [Burger Burger (공식 메뉴 PDF)](https://burgerburger.co.nz/wp-content/uploads/2026/01/BB_Menu_2025.pdf) |
+| AKL-AL-101 | 오클랜드 | 페더럴 델리카트슨 생맥주 할러타우 '09' 라거 330ml | 14 NZD | A | 예 | 재검증 | [Federal Delicatessen (드링크 메뉴 PDF)](https://thefed.co.nz/assets/documents/drinks-menu-1788395493.pdf) |
+| AKL-AL-102 | 오클랜드 | 페더럴 델리카트슨 패럿독 APA 330ml | 12.5 NZD | A | 예 | 재검증 | [Federal Delicatessen (드링크 메뉴 PDF)](https://thefed.co.nz/assets/documents/drinks-menu-1788395493.pdf) |
+| AKL-AL-103 | 오클랜드 | 버거 버거 BB 라거 글라스 | 13 NZD | A | 조건부 | 조건부, 재검증 | [Burger Burger (공식 메뉴 PDF)](https://burgerburger.co.nz/wp-content/uploads/2026/01/BB_Menu_2025.pdf) |
+| AKL-AT-101 | 오클랜드 | 스카이 타워 입장권(성인 15세 이상) | 47 NZD | A | 예 | 재검증 | [SkyCity Auckland](https://skycityauckland.co.nz/sky-tower/) |
+| AKL-AT-102 | 오클랜드 | 스카이 타워 입장권(아동 3~9세) | 25~32 NZD | A | 예 | 재검증 | [SkyCity Auckland](https://skycityauckland.co.nz/sky-tower/) |
+| AKL-AT-103 | 오클랜드 | 오클랜드 박물관 일반 입장권(해외 방문객 성인) | 32 NZD | A | 예 | 재검증 | [Auckland War Memorial Museum](https://www.aucklandmuseum.com/visit/visit-plan-your-visit/hours-and-admission) |
+| AKL-AT-104 | 오클랜드 | 오클랜드 박물관 일반 입장권(해외 방문객 아동 5~15세) | 16 NZD | A | 예 | 재검증 | [Auckland War Memorial Museum](https://www.aucklandmuseum.com/visit/visit-plan-your-visit/hours-and-admission) |
+| AKL-AT-105 | 오클랜드 | 켈리 탈턴 수족관 일반 입장권(성인, 당일 현장) | 49 NZD | A | 조건부 | 조건부, 재검증 | [SEA LIFE Kelly Tarlton's Aquarium](https://www.visitsealife.com/auckland/tickets-passes/price-table/) |
 | TYO-SN-830 | 도쿄 | 스타벅스 카페 아메리카노 Tall | 490 JPY | A | 예 | 재검증 | [스타벅스 커피 재팬](https://menu.starbucks.co.jp/4524785000315) |
 | TYO-SN-831 | 도쿄 | 스타벅스 라테 Tall | 500 JPY | A | 예 | 재검증 | [스타벅스 커피 재팬](https://menu.starbucks.co.jp/4524785000223) |
 | TYO-SN-832 | 도쿄 | 털리스 카페 아메리카노 Tall | 450 JPY | A | 예 | 재검증 | [털리스 커피 재팬](https://www.tullys.co.jp/menu/drink/coffee/es_americano.html) |

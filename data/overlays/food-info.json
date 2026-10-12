@@ -1394,5 +1394,45 @@
     "ko": "우유와 소금을 넣어 끓인 몽골식 밀크티",
     "en": "Salty Mongolian milk tea",
     "ja": "牛乳と塩で煮出したモンゴルのミルクティー"
+  },
+  "vancouver:BC Salmon": {
+    "ko": "태평양에서 잡은 브리티시컬럼비아 연어를 굽거나 훈제한 요리",
+    "en": "Pacific salmon from British Columbia, grilled or smoked",
+    "ja": "ブリティッシュコロンビア州産の太平洋サーモンを焼いたり燻製にした料理"
+  },
+  "vancouver:Poutine": {
+    "ko": "감자튀김에 치즈 커드와 그레이비를 얹은 캐나다 국민 음식",
+    "en": "Fries topped with cheese curds and gravy, Canada's comfort food",
+    "ja": "フライドポテトにチーズカードとグレイビーをかけたカナダの定番"
+  },
+  "vancouver:Japadog": {
+    "ko": "데리야키·김·무 등 일본식 토핑을 올린 밴쿠버 명물 핫도그",
+    "en": "Vancouver hot dog with Japanese toppings like teriyaki and seaweed",
+    "ja": "照り焼きや海苔など和風トッピングをのせたバンクーバー名物のホットドッグ"
+  },
+  "vancouver:BC Roll": {
+    "ko": "구운 연어 껍질을 넣은 밴쿠버식 김초밥",
+    "en": "Sushi roll with grilled salmon skin, invented in Vancouver",
+    "ja": "焼いたサーモンの皮を巻いたバンクーバー発祥の巻き寿司"
+  },
+  "auckland:Fish and Chips": {
+    "ko": "흰살생선 튀김과 감자튀김으로 된 뉴질랜드 바닷가의 대표 한 끼",
+    "en": "Battered white fish with chips, a Kiwi seaside classic",
+    "ja": "白身魚のフライとフライドポテト、ニュージーランドの定番"
+  },
+  "auckland:Meat Pie": {
+    "ko": "다진 고기와 그레이비를 넣은 파이",
+    "en": "Pie filled with minced meat and gravy",
+    "ja": "ひき肉とグレイビーを詰めたパイ"
+  },
+  "auckland:Pavlova": {
+    "ko": "머랭 위에 생크림과 과일을 올린 디저트",
+    "en": "Meringue dessert topped with cream and fruit",
+    "ja": "メレンゲに生クリームとフルーツをのせたデザート"
+  },
+  "auckland:Hāngī": {
+    "ko": "땅속 화덕에서 찐 마오리 전통 고기·채소 요리",
+    "en": "Meat and vegetables slow-cooked in an earth oven, a Māori tradition",
+    "ja": "地中のかまどで蒸し焼きにするマオリの伝統料理"
   }
 }

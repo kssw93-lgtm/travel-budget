@@ -76,10 +76,10 @@
       "url": "https://www.mongolbank.mn/en/currency-rates"
     },
     "LAK": {
-      "rate": 20240,
-      "date": "2026-02-20",
-      "name": "라오스 중앙은행(Bank of the Lao PDR) Reference Rate의 USD 기준환율(공식 페이지에서 확인 가능한 최신 고시가 2026-02-20)",
-      "url": "https://www.bol.gov.la/en/referencerate"
+      "rate": 22493.5,
+      "date": "2026-10-12",
+      "name": "라오스 중앙은행(Bank of the Lao PDR) 고시 USD 매입 22,382·매도 22,605의 중간값",
+      "url": "https://www.bol.gov.la/en/ExchangRate"
     }
   },
   "crossChecks": [

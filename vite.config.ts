@@ -1,5 +1,5 @@
 import { resolve } from 'node:path';
-import { defineConfig, type Plugin } from 'vite';
+import { defineConfig, loadEnv, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
 import { guideIndexMeta, guidePageMeta, homeFallbackHtml, type GuideData } from './scripts/guide-pages';
 import { SITE_PAGES, adsTxt, adsenseMeta, headTags, infoFallbackHtml, normalizeSite, pageHtml, replaceFallback, robotsTxt, sitemapXml } from './scripts/site-files';
@@ -54,8 +54,8 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
 };
 
 // 개발 중에는 `npm run dev:worker`(wrangler dev, 8787)로 /api/* 를 프록시한다.
-export default defineConfig(() => ({
-  plugins: [react(), seo(process.env.SITE_URL ?? 'https://travel-budget.xxxjkim.workers.dev', process.env.ADSENSE_PUBLISHER_ID, process.env.VITE_CONTACT_EMAIL)],
+export default defineConfig(({ mode }) => ({
+  plugins: [react(), seo(process.env.SITE_URL ?? 'https://travel-budget.xxxjkim.workers.dev', process.env.ADSENSE_PUBLISHER_ID, process.env.VITE_CONTACT_EMAIL ?? loadEnv(mode, process.cwd(), 'VITE_').VITE_CONTACT_EMAIL)],
   build: {
     rollupOptions: {
       input: Object.fromEntries(SITE_PAGES.map((p) => [p.file.replace('.html', ''), resolve(__dirname, p.file)])),

@@ -643,6 +643,34 @@
     "missing": [],
     "computable": true
   },
+  "saipan": {
+    "counts": {
+      "food": 5,
+      "transport": 1,
+      "attraction": 0
+    },
+    "baskets": {
+      "pass": 1,
+      "ride": 1,
+      "meal": 5,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 0,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 1,
+      "ride": 1,
+      "meal": 5,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 0,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "vienna": {
     "counts": {
       "food": 4,

@@ -1354,5 +1354,25 @@
     "ko": "숯불에 통째로 구운 정어리",
     "en": "Whole sardines grilled over charcoal",
     "ja": "炭火で丸ごと焼いたイワシ"
+  },
+  "saipan:Poke": {
+    "ko": "깍둑 썬 생참치를 간장·양파로 버무린 회 무침(사이판에서는 티티야스 납작빵과 함께)",
+    "en": "Cubed raw tuna tossed with soy and onion, served in Saipan with titiyas flatbread",
+    "ja": "角切りの生マグロを醤油と玉ねぎで和えた料理。サイパンではティティヤスと一緒に"
+  },
+  "saipan:Kelaguen": {
+    "ko": "닭고기·새우를 레몬즙·코코넛·고추로 버무린 차모로식 무침",
+    "en": "Chicken or shrimp tossed with lemon juice, coconut and chili, Chamorro style",
+    "ja": "鶏肉やエビをレモン汁・ココナッツ・唐辛子で和えたチャモロ料理"
+  },
+  "saipan:Red Rice": {
+    "ko": "아치오테 씨앗으로 붉게 물들인 차모로식 밥",
+    "en": "Chamorro rice colored red with achiote seeds",
+    "ja": "アチョーテの種で赤く色づけたチャモロ風ごはん"
+  },
+  "saipan:Coconut Crab": {
+    "ko": "야자게를 쪄서 먹는 마리아나 제도 별미",
+    "en": "Steamed coconut crab, a Mariana Islands delicacy",
+    "ja": "ヤシガニを蒸して食べるマリアナ諸島の名物"
   }
 }

@@ -45,6 +45,8 @@
 | 프라하 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 호놀룰루 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 사이판 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 사이판 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 빈 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 빈 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 부다페스트 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -355,6 +357,17 @@
 | CNX-AT-105 | 치앙마이 | 라차프륵 왕립공원(외국인 성인) | 200 THB | A | 예 | 재검증 | [Royal Park Rajapruek 공식 요금 안내(태국어)](https://www.royalparkrajapruek.org/Admission) |
 | CNX-AT-106 | 치앙마이 | 라차프륵 왕립공원(외국인 아동) | 150 THB | A | 예 | 재검증 | [Royal Park Rajapruek 공식 요금 안내(태국어)](https://www.royalparkrajapruek.org/Admission) |
 | CNX-SN-101 | 치앙마이 | 리버사이드 초콜릿 선데 | 120 THB | A | 예 | 재검증 | [The Riverside 공식 메뉴](https://riverside1984.com/menu) |
+| SPN-FD-101 | 사이판 | 마제스티 치킨 볶음밥 | 14 USD | A | 예 | 재검증 | [Majesty Chinese Restaurant 공식 메뉴](https://majesty-restaurant.com/menu) |
+| SPN-FD-102 | 사이판 | 마제스티 소고기 볶음면 | 14 USD | A | 예 | 재검증 | [Majesty Chinese Restaurant 공식 메뉴](https://majesty-restaurant.com/menu) |
+| SPN-FD-103 | 사이판 | 네이키드 피시 마가스 버거 | 15 USD | A | 예 | 재검증 | [Naked Fish Saipan 공식 Food 메뉴](https://www.nakedfishsaipan.com/food/) |
+| SPN-FD-104 | 사이판 | 네이키드 피시 참치 포케(S) | 13 USD | A | 예 | 재검증 | [Naked Fish Saipan 공식 Food 메뉴](https://www.nakedfishsaipan.com/food/) |
+| SPN-SN-101 | 사이판 | 네이키드 피시 탄산음료 | 3.5 USD | A | 예 | 재검증 | [Naked Fish Saipan 공식 Drinks 메뉴](https://www.nakedfishsaipan.com/drinks-cocktails/) |
+| SPN-SN-102 | 사이판 | 네이키드 피시 주스 | 4 USD | A | 예 | 재검증 | [Naked Fish Saipan 공식 Drinks 메뉴](https://www.nakedfishsaipan.com/drinks-cocktails/) |
+| SPN-SN-103 | 사이판 | 마제스티 스프링롤 | 6 USD | A | 예 | 재검증 | [Majesty Chinese Restaurant 공식 메뉴](https://majesty-restaurant.com/menu) |
+| SPN-AL-101 | 사이판 | 네이키드 피시 아사히 슈퍼드라이 생맥주 | 6 USD | A | 예 | 재검증 | [Naked Fish Saipan 공식 Drinks 메뉴](https://www.nakedfishsaipan.com/drinks-cocktails/) |
+| SPN-AL-102 | 사이판 | 네이키드 피시 버드와이저·버드라이트 | 5.5 USD | A | 예 | 재검증 | [Naked Fish Saipan 공식 Drinks 메뉴](https://www.nakedfishsaipan.com/drinks-cocktails/) |
+| SPN-AL-103 | 사이판 | 네이키드 피시 코로나 엑스트라 | 6 USD | A | 예 | 재검증 | [Naked Fish Saipan 공식 Drinks 메뉴](https://www.nakedfishsaipan.com/drinks-cocktails/) |
+| SPN-FD-105 | 사이판 | 네이키드 피시 타코(2개) | 13 USD | A | 예 | 재검증 | [Naked Fish Saipan 공식 Food 메뉴](https://www.nakedfishsaipan.com/food/) |
 | HNL-SN-103 | 호놀룰루 | 레너즈 베이커리 말라사다 | 2.25 USD | A | 예 | 재검증 | [Leonard's Bakery 공식 메뉴](https://leonardshawaii.com/menu/malasadas-and-doughnuts/) |
 | KUL-AT-901 | 쿠알라룸푸르 | 선웨이 라군 1일 입장권(Non-MyKad) | 200~268 MYR | A | 조건부 | 조건부, 재검증 | [Sunway Lagoon 공식 Tickets](https://sunwaylagoon.com/etickets/) |
 | HAN-TR-105 | 하노이 | 하노이 메트로 3.1호선(뇬–하노이역) 현금 1회권 | 9000~15000 VND | A | 예 | 재검증 | [Hanoi Metro 공식 운임표(이미지)](https://metrohanoi.vn/wp-content/uploads/2025/09/gia-ve-tuyen-3-1024x768.jpg) |
@@ -374,6 +387,8 @@
 | LIS-FD-107 | 리스본 | 아 파다리아 포르투게사 스낵 세트 | 6.99 EUR | A | 조건부 | 조건부, 재검증 | [A Padaria Portuguesa](https://www.apadariaportuguesa.pt/) |
 | LIS-FD-108 | 리스본 | 오노라투 X-버거 | 11 EUR | A | 예 | 재검증 | [Honorato (공식 메뉴 PDF, PRINCIPAL)](https://www.honorato.pt/_files/ugd/e249d0_814f134ba6e5427aa13f2656b6fae979.pdf) |
 | LIS-FD-109 | 리스본 | 오노라투 버거 | 13.5 EUR | A | 예 | 재검증 | [Honorato (공식 메뉴 PDF, PRINCIPAL)](https://www.honorato.pt/_files/ugd/e249d0_814f134ba6e5427aa13f2656b6fae979.pdf) |
+| SPN-TR-101 | 사이판 | 사이판 노선버스 편도(일반) | 2 USD | A | 예 | 재검증 | [Transit CNMI (Commonwealth Office of Transit Authority)](https://transit.cnmi.gov/fixed-route/) |
+| SPN-TR-102 | 사이판 | 사이판 노선버스 1일권(일반) | 10 USD | A | 예 | 재검증 | [Transit CNMI (Commonwealth Office of Transit Authority)](https://transit.cnmi.gov/fixed-route/) |
 | GUM-FD-104 | 괌 | 피카스 카페 로코모코 | 19 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
 | GUM-FD-105 | 괌 | 피카스 카페 티낙탁 버거(사이드 포함) | 18 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
 | GUM-FD-106 | 괌 | 피카스 카페 콘비프 어니언 볶음밥 | 19 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |

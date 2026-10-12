@@ -3540,6 +3540,80 @@
     "note": "추천 출처 재확인 필요(받은 주소가 숙박세 안내 페이지였음)"
   },
   {
+    "cityId": "saipan",
+    "nameKo": "포케",
+    "nameEn": "Poke",
+    "reason": "깍둑 썬 생참치를 간장·양파로 버무린 회 무침(사이판에서는 티티야스 납작빵과 함께)",
+    "reasonEn": "Fresh tuna poke",
+    "desc": {
+      "ko": "깍둑 썬 생참치를 간장·양파로 버무린 회 무침(사이판에서는 티티야스 납작빵과 함께)",
+      "en": "Cubed raw tuna tossed with soy and onion, served in Saipan with titiyas flatbread",
+      "ja": "角切りの生マグロを醤油と玉ねぎで和えた料理。サイパンではティティヤスと一緒に"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "SPN-FD-104"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-12)"
+  },
+  {
+    "cityId": "saipan",
+    "nameKo": "켈라구엔",
+    "nameEn": "Kelaguen",
+    "reason": "닭고기·새우를 레몬즙·코코넛·고추로 버무린 차모로식 무침",
+    "reasonEn": "A tangy Chamorro salad",
+    "desc": {
+      "ko": "닭고기·새우를 레몬즙·코코넛·고추로 버무린 차모로식 무침",
+      "en": "Chicken or shrimp tossed with lemon juice, coconut and chili, Chamorro style",
+      "ja": "鶏肉やエビをレモン汁・ココナッツ・唐辛子で和えたチャモロ料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-12)"
+  },
+  {
+    "cityId": "saipan",
+    "nameKo": "레드라이스",
+    "nameEn": "Red Rice",
+    "reason": "아치오테 씨앗으로 붉게 물들인 차모로식 밥",
+    "reasonEn": "The Chamorro side dish",
+    "desc": {
+      "ko": "아치오테 씨앗으로 붉게 물들인 차모로식 밥",
+      "en": "Chamorro rice colored red with achiote seeds",
+      "ja": "アチョーテの種で赤く色づけたチャモロ風ごはん"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-12)"
+  },
+  {
+    "cityId": "saipan",
+    "nameKo": "코코넛 크랩",
+    "nameEn": "Coconut Crab",
+    "reason": "야자게를 쪄서 먹는 마리아나 제도 별미",
+    "reasonEn": "A Mariana Islands delicacy",
+    "desc": {
+      "ko": "야자게를 쪄서 먹는 마리아나 제도 별미",
+      "en": "Steamed coconut crab, a Mariana Islands delicacy",
+      "ja": "ヤシガニを蒸して食べるマリアナ諸島の名物"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-12)"
+  },
+  {
     "cityId": "sapporo",
     "nameKo": "미소 라멘",
     "nameEn": "Sapporo Miso Ramen",

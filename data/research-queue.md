@@ -410,6 +410,16 @@
 | PRG-AT-107 | 프라하 | 구시청사(천문시계) 기본 입장권 | 350 CZK | A | 예 | 재검증 | [Prague City Tourism 공식(prague.eu)](https://prague.eu/cs/objevujte/staromestska-radnice-s-orlojem/) |
 | PRG-AT-108 | 프라하 | 구시청사(천문시계) 할인 입장권(6~15세) | 230 CZK | A | 예 | 재검증 | [Prague City Tourism 공식(prague.eu)](https://prague.eu/cs/objevujte/staromestska-radnice-s-orlojem/) |
 | PRG-SN-105 | 프라하 | 우 플레쿠 코카콜라 | 79 CZK | A | 조건부 | 조건부, 재검증 | [Pivovar a restaurace U Fleků 공식 음료 메뉴](https://ufleku.cz/restaurace/napojovy-listek/) |
+| SPN-AT-101 | 사이판 | 마나가하 섬 상륙료(비거주자) | 5 USD | A | 조건부 | 조건부, 재검증 | [CNMI Law Revision Commission – Commonwealth Code 2 CMC § 1621](https://cnmilaw.gov/commonwealth-code/1598) |
+| BUD-AT-301 | 부다페스트 | 세체니 온천 1일권(라커 포함) | 13200~15800 HUF | A | 예 | 재검증 | [Széchenyi Thermal Bath](https://www.szechenyibath.hu/prices) |
+| MUC-AT-301 | 뮌헨 | 독일박물관 1일권(성인) | 16 EUR | A | 예 | 재검증 | [Deutsches Museum](https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets) |
+| MUC-AT-302 | 뮌헨 | 독일박물관 1일권(아동·청소년 6~17세) | 9 EUR | A | 예 | 재검증 | [Deutsches Museum](https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets) |
+| MUC-AT-303 | 뮌헨 | 님펜부르크 궁전 입장권(성인) | 10 EUR | A | 예 | 재검증 | [Bavarian Palace Administration – Nymphenburg](https://www.schloss-nymphenburg.de/englisch/tourist/admiss.htm) |
+| MUC-AT-304 | 뮌헨 | 님펜부르크 궁전 입장권(18세 미만) | 0 EUR | A | 예 | 재검증 | [Bavarian Palace Administration – Nymphenburg](https://www.schloss-nymphenburg.de/englisch/tourist/admiss.htm) |
+| LIS-AT-301 | 리스본 | 발견기념비 전망대·전시·영상 입장권(성인) | 10 EUR | A | 예 | 재검증 | [Padrão dos Descobrimentos (Lisboa Cultura / EGEAC)](https://padraodosdescobrimentos.pt/en/tickets/) |
+| LIS-AT-302 | 리스본 | 발견기념비 입장권(12세 미만) | 0 EUR | A | 조건부 | 조건부, 재검증 | [Padrão dos Descobrimentos (Lisboa Cultura / EGEAC)](https://padraodosdescobrimentos.pt/en/tickets/) |
+| VIE-AT-301 | 빈 | 빈 미술사 박물관 입장권(성인, 현장가) | 24 EUR | A | 예 | 재검증 | [Kunsthistorisches Museum Wien](https://www.khm.at/en/visit#admission-prices) |
+| VIE-AT-302 | 빈 | 빈 미술사 박물관 입장권(19세 미만) | 0 EUR | A | 예 | 재검증 | [Kunsthistorisches Museum Wien](https://www.khm.at/en/visit#admission-prices) |
 | DAD-SN-904 | 다낭 | 하이랜드 커피 반미 꿰(파테) | 19000 VND | A | 예 | 재검증 | [Highlands Coffee](https://www.highlandscoffee.com.vn/vn/banh-mi-que.html) |
 | DAD-SN-905 | 다낭 | 하이랜드 커피 핀 쓰어 다(S) | 29000 VND | A | 예 | 재검증 | [Highlands Coffee](https://www.highlandscoffee.com.vn/vn/phin-sua.html) |
 | NYC-SN-906 | 뉴욕 | 그레이스 파파야 핫도그 | 3.25 USD | A | 예 | 재검증 | [Gray's Papaya](https://grayspapaya.nyc/uptown-menu/) |

@@ -228,6 +228,42 @@
     "note": "원문: 營業稅稅額計算表 課稅方式 稅率 … 一般稅額計算 5%. 대만 전국 공통. 식당 봉사료 10% 관행은 이 페이지에 없음. Claude(Chrome) 수집"
   },
   {
+    "cityId": "tokyo",
+    "item": "이자카야 오토시(자릿세)",
+    "value": "이자카야는 자릿세 겸 기본 안주(오토시)를 받는 곳이 많습니다. 예: 쿠시카츠 다나카 20세 이상 1인 319엔(세금 포함, 술을 안 마셔도 부과), 토리키조쿠는 오토시·자릿세 없음.",
+    "itemEn": "Izakaya cover charge (otoshi)",
+    "valueEn": "Many izakaya add a per-person cover charge with a small appetizer (otoshi). Example: Kushikatsu Tanaka JPY 319 incl. tax per person aged 20+ (charged even without drinking); Torikizoku charges no otoshi or seat fee.",
+    "unit": "1인",
+    "sourceName": "串カツ田中 よくあるご質問 / 鳥貴族 鳥貴族のこだわり",
+    "sourceUrl": "https://kushi-tanaka.com/contact-reply/",
+    "checkedAt": "2026-10-12",
+    "note": "쿠시카츠 다나카 FAQ 원문: お一人様290円（税込319円）. 같은 회사 고객상담실 페이지에는 270円(税込297円)으로 달라 FAQ 값 사용. 토리키조쿠 원문: お客様からお通し代や席料、深夜料金はいただきません (https://torikizoku.co.jp/about/). Claude(Chrome) 수집"
+  },
+  {
+    "cityId": "osaka",
+    "item": "이자카야 오토시(자릿세)",
+    "value": "이자카야는 자릿세 겸 기본 안주(오토시)를 받는 곳이 많습니다. 예: 쿠시카츠 다나카 20세 이상 1인 319엔(세금 포함, 술을 안 마셔도 부과), 토리키조쿠는 오토시·자릿세 없음.",
+    "itemEn": "Izakaya cover charge (otoshi)",
+    "valueEn": "Many izakaya add a per-person cover charge with a small appetizer (otoshi). Example: Kushikatsu Tanaka JPY 319 incl. tax per person aged 20+ (charged even without drinking); Torikizoku charges no otoshi or seat fee.",
+    "unit": "1인",
+    "sourceName": "串カツ田中 よくあるご質問 / 鳥貴族 鳥貴族のこだわり",
+    "sourceUrl": "https://kushi-tanaka.com/contact-reply/",
+    "checkedAt": "2026-10-12",
+    "note": "쿠시카츠 다나카 FAQ 원문: お一人様290円（税込319円）. 같은 회사 고객상담실 페이지에는 270円(税込297円)으로 달라 FAQ 값 사용. 토리키조쿠 원문: お客様からお通し代や席料、深夜料金はいただきません (https://torikizoku.co.jp/about/). Claude(Chrome) 수집"
+  },
+  {
+    "cityId": "kyoto",
+    "item": "이자카야 오토시(자릿세)",
+    "value": "이자카야는 자릿세 겸 기본 안주(오토시)를 받는 곳이 많습니다. 예: 쿠시카츠 다나카 20세 이상 1인 319엔(세금 포함, 술을 안 마셔도 부과), 토리키조쿠는 오토시·자릿세 없음.",
+    "itemEn": "Izakaya cover charge (otoshi)",
+    "valueEn": "Many izakaya add a per-person cover charge with a small appetizer (otoshi). Example: Kushikatsu Tanaka JPY 319 incl. tax per person aged 20+ (charged even without drinking); Torikizoku charges no otoshi or seat fee.",
+    "unit": "1인",
+    "sourceName": "串カツ田中 よくあるご質問 / 鳥貴族 鳥貴族のこだわり",
+    "sourceUrl": "https://kushi-tanaka.com/contact-reply/",
+    "checkedAt": "2026-10-12",
+    "note": "쿠시카츠 다나카 FAQ 원문: お一人様290円（税込319円）. 같은 회사 고객상담실 페이지에는 270円(税込297円)으로 달라 FAQ 값 사용. 토리키조쿠 원문: お客様からお通し代や席料、深夜料金はいただきません (https://torikizoku.co.jp/about/). Claude(Chrome) 수집"
+  },
+  {
     "cityId": "new-york",
     "item": "판매세",
     "value": "8.875%",

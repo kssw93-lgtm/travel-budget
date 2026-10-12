@@ -786,6 +786,10 @@
 | CJU-FD-902 | 제주 | 이춘옥원조고등어쌈밥 제주애월본점 전복뚝배기 1인 | 17000 KRW | B | 예 | B등급, 재검증 | [이춘옥원조고등어쌈밥 제주애월본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/19872990/menu/list) |
 | CJU-FD-903 | 제주 | 협재수우동 협재점 자작냉우동 | 15500 KRW | B | 예 | B등급, 재검증 | [협재수우동 협재점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/36823910/menu/list) |
 | CJU-FD-904 | 제주 | 한라산아래첫마을 제주메밀 비비작작면 | 16000 KRW | B | 예 | B등급, 재검증 | [한라산아래첫마을 영농조합법인 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/363214380/menu/list) |
+| SPK-AT-501 | 삿포로 | 시로이 코이비토 파크 유료 구역 입장권(성인) | 1200 JPY | A | 예 | 재검증 | [白い恋人パーク](https://www.shiroikoibitopark.jp/en/about.html?funnel_source=content_article) |
+| SPK-AT-502 | 삿포로 | 시로이 코이비토 파크 유료 구역 입장권(아동) | 600 JPY | A | 예 | 재검증 | [白い恋人パーク](https://www.shiroikoibitopark.jp/en/about.html?funnel_source=content_article) |
+| SPK-AT-503 | 삿포로 | 삿포로 맥주 박물관 입관료(성인) | 1000 JPY | A | 예 | 재검증 | [サッポロビール博物館](https://www.sapporobeer.jp/brewery/s_museum/kengaku/) |
+| SPK-AT-504 | 삿포로 | 삿포로 맥주 박물관 입관료(초등학생) | 0 JPY | A | 예 | 재검증 | [サッポロビール博物館](https://www.sapporobeer.jp/brewery/s_museum/kengaku/) |
 | OSA-TR-801 | 오사카 | 오사카 어메이징 패스 기본형 1일권 | 3500 JPY | A | 예 | 재검증 | [SURUTTO KANSAI / OSAKA AMAZING PASS](https://osaka-amazing-pass.com/en/howto_about_1day.html?amazingPass=) |
 | SIN-TR-802 | 싱가포르 | 싱가포르 투어리스트 패스 참(머라이언 원형) 1일권 | 22 SGD | A | 예 | 재검증 | [Singapore Tourist Pass / SimplyGo](https://thesingaporetouristpass.com.sg/type-of-passes/) |
 | ROM-TR-801 | 로마 | ATAC BIRG 로마 구역 A 지역 통합 1일권 | 7.2 EUR | A | 예 | 재검증 | [ATAC](https://www.atac.roma.it/en/tickets-and-passes/birg) |

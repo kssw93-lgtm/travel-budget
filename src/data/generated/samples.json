@@ -6229,13 +6229,7 @@
     "applied": "2026-10-03 확인",
     "sourceName": "Osaka Castle Park Center",
     "sourceUrl": "https://www.osakacastlepark.jp/images/flowers/flowermap/flowermap5/map2026.pdf",
-    "note": "공원 공식 2026 안내도의 입장 무료 표기. 원내 개별 시설은 별도 요금.",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://www.osakacastlepark.jp/images/flowers/flowermap/flowermap5/map2026.pdf · 공식 PDF는 오사카성 공원 산책 지도이며 입장료나 무료 입장 조건을 표시하지 않습니다. \"0 JPY\"를 뒷받침하는 가격 근거를 확인할 수 없습니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "공원 공식 2026 안내도의 입장 무료 표기. 원내 개별 시설은 별도 요금."
   },
   {
     "id": "OSA-AT-012",
@@ -22819,13 +22813,7 @@
     "applied": "2026",
     "sourceName": "도쿄국립박물관",
     "sourceUrl": "https://www.tnm.jp/modules/r_free_page/index.php?id=113",
-    "note": "특별전은 별도 요금일 수 있어 컬렉션 전시 행에만 적용. · GPT 조사(Claude크롬전달내용, 2026-10-08), Claude 검수 반영 · 원문: 고등학생 이하 및 만 18세 미만은 컬렉션 전시 무료. · 수집: prices-gpt-child-2026-10-08.csv",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://www.tnm.jp/modules/r_free_page/index.php?id=113 · 공식 도쿄국립박물관 URL을 두 차례 열었으나 해당 본문에서 연령별 무료 입장 문구·가격이 텍스트로 확인되지 않음.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "특별전은 별도 요금일 수 있어 컬렉션 전시 행에만 적용. · GPT 조사(Claude크롬전달내용, 2026-10-08), Claude 검수 반영 · 원문: 고등학생 이하 및 만 18세 미만은 컬렉션 전시 무료. · 수집: prices-gpt-child-2026-10-08.csv"
   },
   {
     "id": "SEL-AT-201",

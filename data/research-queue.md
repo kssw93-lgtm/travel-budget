@@ -146,7 +146,7 @@
 | OSA-AT-004 | 오사카 | 오사카성 박물관 천수각 입장권 | 1200 JPY | B | 예 | B등급 | [Osaka Castle Museum](https://www.osakacastle.net/guide/?lang=en) |
 | OSA-AT-007 | 오사카 | 오사카 역사박물관 상설전시 입장권 | 600 JPY | B | 예 | B등급 | [Osaka Museum of History](https://www.osakamushis.jp/eng/index.html) |
 | OSA-AT-010 | 오사카 | 오사카 시립미술관 기획전시 일반 입장권 | 500 JPY | B | 예 | B등급 | [Osaka City Museum of Fine Arts](https://www.osaka-art-museum.jp/information) |
-| OSA-AT-011 | 오사카 | 오사카성 공원 입장 | 0 JPY | B | 예 | B등급, 검수: 원문 확인 불가 | [Osaka Castle Park Center](https://www.osakacastlepark.jp/images/flowers/flowermap/flowermap5/map2026.pdf) |
+| OSA-AT-011 | 오사카 | 오사카성 공원 입장 | 0 JPY | B | 예 | B등급 | [Osaka Castle Park Center](https://www.osakacastlepark.jp/images/flowers/flowermap/flowermap5/map2026.pdf) |
 | OSA-AT-013 | 오사카 | 오사카성 니시노마루 정원 입장권 | 300 JPY | B | 예 | B등급, 검수: 원문 확인 불가 | [Osaka Castle Park Center](https://www.osakacastlepark.jp/articles/detail.html?id=3) |
 | OSA-AT-014 | 오사카 | 오사카성 박물관 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Osaka Castle Museum](https://www.osakacastle.net/guide/?lang=en) |
 | OSA-AT-018 | 오사카 | 오사카 역사박물관 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Osaka Museum of History](https://www.osakamushis.jp/eng/index.html) |
@@ -661,7 +661,7 @@
 | PAR-AT-211 | 파리 | 에펠탑 정상 엘리베이터 아동 4~11세 | 9.2 EUR | A | 예 | 재검증 | [Eiffel Tower](https://www.toureiffel.paris/en/rates-opening-times) |
 | OSA-AT-205 | 오사카 | 우메다 스카이빌딩 전망대 초등학생 입장권 | 500 JPY | A | 예 | 재검증 | [OSAKA AMAZING PASS](https://osaka-amazing-pass.com/en/service_free.html) |
 | TYO-AT-201 | 도쿄 | 도쿄 스카이트리 전망대 세트권 (아동 6~14세) | 1500~2400 JPY | A | 예 | 재검증 | [TOKYO SKYTREE](https://www.tokyo-skytree.jp/datas/files/2026/03/19/da1ebeff3b1d6bbfa26f052f2d6a99c9a33b8143.pdf) |
-| TYO-AT-204 | 도쿄 | 도쿄국립박물관 컬렉션 전시 (고등학생 이하·만 18세 미만 무료) | 0 JPY | A | 예 | 재검증, 검수: 원문 확인 불가 | [도쿄국립박물관](https://www.tnm.jp/modules/r_free_page/index.php?id=113) |
+| TYO-AT-204 | 도쿄 | 도쿄국립박물관 컬렉션 전시 (고등학생 이하·만 18세 미만 무료) | 0 JPY | A | 예 | 재검증 | [도쿄국립박물관](https://www.tnm.jp/modules/r_free_page/index.php?id=113) |
 | SEL-AT-201 | 서울 | 경복궁 입장권 (외국인 만 18세 이하) | 0 KRW | A | 예 | 재검증 | [궁능유적본부](https://royal.khs.go.kr/ROYAL/contents/R703000000.do) |
 | SEL-AT-202 | 서울 | 창덕궁 전각관람 (외국인 만 18세 이하) | 0 KRW | A | 예 | 재검증 | [궁능유적본부](https://royal.khs.go.kr/ROYAL/contents/R703000000.do) |
 | SEL-AT-203 | 서울 | 덕수궁 입장권 (외국인 만 18세 이하) | 0 KRW | A | 예 | 재검증 | [궁능유적본부](https://royal.khs.go.kr/ROYAL/contents/R703000000.do) |
@@ -1294,5 +1294,5 @@
 
 ## 4. 교차 검수 현황
 
-`data/reviews/*.csv` 에서 읽은 판정: 일치 712건 · 불일치 42건 · 확인불가 108건.
+`data/reviews/*.csv` 에서 읽은 판정: 일치 801건 · 불일치 41건 · 확인불가 106건.
 아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

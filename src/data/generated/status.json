@@ -841,14 +841,14 @@
   },
   "vancouver": {
     "counts": {
-      "food": 5,
+      "food": 8,
       "transport": 2,
       "attraction": 2
     },
     "baskets": {
       "pass": 0,
       "ride": 2,
-      "meal": 5,
+      "meal": 8,
       "snack": 3,
       "drink": 3,
       "attraction": 2,
@@ -857,7 +857,7 @@
     "basketRows": {
       "pass": 0,
       "ride": 2,
-      "meal": 5,
+      "meal": 8,
       "snack": 3,
       "drink": 3,
       "attraction": 2,

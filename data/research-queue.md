@@ -415,6 +415,9 @@
 | PRG-AT-107 | 프라하 | 구시청사(천문시계) 기본 입장권 | 350 CZK | A | 예 | 재검증 | [Prague City Tourism 공식(prague.eu)](https://prague.eu/cs/objevujte/staromestska-radnice-s-orlojem/) |
 | PRG-AT-108 | 프라하 | 구시청사(천문시계) 할인 입장권(6~15세) | 230 CZK | A | 예 | 재검증 | [Prague City Tourism 공식(prague.eu)](https://prague.eu/cs/objevujte/staromestska-radnice-s-orlojem/) |
 | PRG-SN-105 | 프라하 | 우 플레쿠 코카콜라 | 79 CZK | A | 조건부 | 조건부, 재검증 | [Pivovar a restaurace U Fleků 공식 음료 메뉴](https://ufleku.cz/restaurace/napojovy-listek/) |
+| YVR-FD-106 | 밴쿠버 | 더 남 그릴드 치즈 샌드위치 | 11.5 CAD | A | 예 | 재검증 | [The Naam Restaurant (공식 메뉴 PDF)](https://img1.wsimg.com/blobby/go/5e236959-9cd0-494c-a234-1a99eb928d06/MENU%20UPDATE%20JUNE%202025%20web%20version.pdf) |
+| YVR-FD-107 | 밴쿠버 | 더 남 베지 딜라이트 랩 | 15.25 CAD | A | 예 | 재검증 | [The Naam Restaurant (공식 메뉴 PDF)](https://img1.wsimg.com/blobby/go/5e236959-9cd0-494c-a234-1a99eb928d06/MENU%20UPDATE%20JUNE%202025%20web%20version.pdf) |
+| YVR-FD-108 | 밴쿠버 | 더 남 크루아상 멜트 | 15.95 CAD | A | 예 | 재검증 | [The Naam Restaurant (공식 메뉴 PDF)](https://img1.wsimg.com/blobby/go/5e236959-9cd0-494c-a234-1a99eb928d06/MENU%20UPDATE%20JUNE%202025%20web%20version.pdf) |
 | SPN-AT-101 | 사이판 | 마나가하 섬 상륙료(비거주자) | 5 USD | A | 조건부 | 조건부, 재검증 | [CNMI Law Revision Commission – Commonwealth Code 2 CMC § 1621](https://cnmilaw.gov/commonwealth-code/1598) |
 | BUD-AT-301 | 부다페스트 | 세체니 온천 1일권(라커 포함) | 13200~15800 HUF | A | 예 | 재검증 | [Széchenyi Thermal Bath](https://www.szechenyibath.hu/prices) |
 | MUC-AT-301 | 뮌헨 | 독일박물관 1일권(성인) | 16 EUR | A | 예 | 재검증 | [Deutsches Museum](https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets) |

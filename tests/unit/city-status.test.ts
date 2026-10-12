@@ -71,7 +71,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "taipei": "3/3/12 · 100% · ready",
         "tokyo": "10/3/11 · 100% · ready",
         "ulaanbaatar": "5/1/1 · 100% · ready",
-        "vancouver": "5/2/2 · 100% · ready",
+        "vancouver": "8/2/2 · 100% · ready",
         "vienna": "4/2/4 · 100% · ready",
         "yeosu": "3/1/3 · 100% · ready",
       }
@@ -133,7 +133,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "taipei": "pass 1/3 · ride 3/3 · meal 3/3 · snack 3/3 · attraction 12/14 · souvenir 3/4",
         "tokyo": "pass 3/5 · ride 3/3 · meal 10/10 · snack 14/14 · attraction 11/11 · souvenir 3/4",
         "ulaanbaatar": "pass 0/0 · ride 1/1 · meal 5/5 · snack 3/3 · attraction 1/1 · souvenir 0/0",
-        "vancouver": "pass 0/0 · ride 2/2 · meal 5/5 · snack 3/3 · attraction 2/2 · souvenir 0/0",
+        "vancouver": "pass 0/0 · ride 2/2 · meal 8/8 · snack 3/3 · attraction 2/2 · souvenir 0/0",
         "vienna": "pass 2/2 · ride 1/1 · meal 4/4 · snack 3/3 · attraction 4/5 · souvenir 0/0",
         "yeosu": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
       }

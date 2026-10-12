@@ -643,6 +643,34 @@
     "missing": [],
     "computable": true
   },
+  "vienna": {
+    "counts": {
+      "food": 4,
+      "transport": 1,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 1,
+      "ride": 0,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 1,
+      "ride": 0,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 4,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "budapest": {
     "counts": {
       "food": 4,
@@ -718,6 +746,34 @@
       "pass": 1,
       "ride": 1,
       "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "lisbon": {
+    "counts": {
+      "food": 8,
+      "transport": 1,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 1,
+      "ride": 1,
+      "meal": 8,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 1,
+      "ride": 1,
+      "meal": 8,
       "snack": 3,
       "drink": 3,
       "attraction": 3,

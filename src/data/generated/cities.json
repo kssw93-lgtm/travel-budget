@@ -267,7 +267,7 @@
     "nameEn": "Vienna",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "budapest",
@@ -307,7 +307,7 @@
     "nameEn": "Lisbon",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "barcelona",

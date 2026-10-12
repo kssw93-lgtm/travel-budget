@@ -45,12 +45,16 @@
 | 프라하 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 호놀룰루 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 빈 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 빈 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 부다페스트 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 부다페스트 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 뮌헨 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 뮌헨 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 인터라켄 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 인터라켄 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 리스본 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 리스본 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -363,6 +367,13 @@
 | PRG-AT-110 | 프라하 | 페트르진 전망대 할인 입장권(6~15세) | 170 CZK | A | 예 | 재검증 | [Prague City Tourism 공식(prague.eu)](https://prague.eu/cs/objevujte/petrinska-rozhledna/) |
 | HAN-TR-106 | 하노이 | 하노이 메트로 3.1호선 1일권 | 40000 VND | A | 예 | 재검증 | [Hanoi Metro 공식 운임표(이미지)](https://metrohanoi.vn/wp-content/uploads/2025/09/gia-ve-tuyen-3-1024x768.jpg) |
 | HNL-AT-110 | 호놀룰루 | 이올라니 궁전 도슨트 가이드 투어(아동 5~12세) | 16 USD | A | 예 | 재검증 | [Iolani Palace 공식 Docent-Led Tours](https://www.iolanipalace.org/visit/tours-admission/guided-tours/) |
+| VIE-TR-101 | 빈 | 빈 24시간권 | 9.7 EUR | A | 예 | 재검증 | [Wiener Linien](https://www.wienerlinien.at/web/wl-en/24-hours-vienna) |
+| LIS-FD-104 | 리스본 | 아 파다리아 포르투게사 프레기뉴 세트 | 8.99 EUR | A | 예 | 재검증 | [A Padaria Portuguesa](https://www.apadariaportuguesa.pt/) |
+| LIS-FD-105 | 리스본 | 아 파다리아 포르투게사 오늘의 요리(참치 라자냐) | 8.99 EUR | A | 예 | 재검증 | [A Padaria Portuguesa](https://www.apadariaportuguesa.pt/) |
+| LIS-FD-106 | 리스본 | 아 파다리아 포르투게사 오리밥과 샐러드 | 9.75 EUR | A | 예 | 재검증 | [A Padaria Portuguesa](https://www.apadariaportuguesa.pt/) |
+| LIS-FD-107 | 리스본 | 아 파다리아 포르투게사 스낵 세트 | 6.99 EUR | A | 조건부 | 조건부, 재검증 | [A Padaria Portuguesa](https://www.apadariaportuguesa.pt/) |
+| LIS-FD-108 | 리스본 | 오노라투 X-버거 | 11 EUR | A | 예 | 재검증 | [Honorato (공식 메뉴 PDF, PRINCIPAL)](https://www.honorato.pt/_files/ugd/e249d0_814f134ba6e5427aa13f2656b6fae979.pdf) |
+| LIS-FD-109 | 리스본 | 오노라투 버거 | 13.5 EUR | A | 예 | 재검증 | [Honorato (공식 메뉴 PDF, PRINCIPAL)](https://www.honorato.pt/_files/ugd/e249d0_814f134ba6e5427aa13f2656b6fae979.pdf) |
 | GUM-FD-104 | 괌 | 피카스 카페 로코모코 | 19 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
 | GUM-FD-105 | 괌 | 피카스 카페 티낙탁 버거(사이드 포함) | 18 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
 | GUM-FD-106 | 괌 | 피카스 카페 콘비프 어니언 볶음밥 | 19 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
@@ -592,6 +603,22 @@
 | PUS-AT-201 | 부산 | 해운대 해변열차 1회 탑승권 (어린이) | 5600~7000 KRW | A | 예 | 재검증 | [해운대블루라인파크](https://www.bluelinepark.com/fare.do) |
 | PUS-AT-203 | 부산 | 해운대 해변열차 1회 탑승권 (성인) | 8000~10000 KRW | A | 예 | 재검증 | [해운대블루라인파크](https://www.bluelinepark.com/fare.do) |
 | DXB-TR-104 | 두바이 | 공항 터미널 1 출발 지하철 실버 nol 1구역 요금 | 3 AED | A | 예 | 재검증, 시작가 표기 | [두바이 도로교통청 RTA nol 요금표·지하철 역 안내](https://rta.ae/wps/portal/rta/ae/public-transport/Nol-Fares?lang=en;https://www.rta.ae/wps/portal/rta/ae/public-transport/metro-stations-map;https://www.rta.ae/links/rail/rail-network-map.pdf) |
+| VIE-FD-101 | 빈 | 아페티트 대구 필레 | 26 EUR | A | 예 | 재검증 | [Appetit 공식 메뉴(PDF)](https://www.restaurantappetit.at/wp-content/uploads/2026/05/Appetit-Restaurant-Speisekarte-Mai-2026.pdf) |
+| VIE-FD-102 | 빈 | 아페티트 콜리플라워 트리오 | 19 EUR | A | 예 | 재검증 | [Appetit 공식 메뉴(PDF)](https://www.restaurantappetit.at/wp-content/uploads/2026/05/Appetit-Restaurant-Speisekarte-Mai-2026.pdf) |
+| VIE-FD-103 | 빈 | 피글뮐러 슈니첼(돼지고기) | 21.9 EUR | A | 예 | 재검증 | [Figlmüller Bäckerstraße 공식 메뉴](https://www.figlmueller.at/en/baeckerstrasse/menu/) |
+| VIE-FD-104 | 빈 | 피글뮐러 치킨 코르동 블루 | 21.5 EUR | A | 예 | 재검증 | [Figlmüller Bäckerstraße 공식 메뉴](https://www.figlmueller.at/en/baeckerstrasse/menu/) |
+| VIE-SN-101 | 빈 | 레스토랑 비너 코카콜라(병) | 4.8 EUR | A | 예 | 재검증 | [Restaurant Wiener 2026 공식 메뉴](https://restaurant-wiener.brcp.at/en) |
+| VIE-SN-102 | 빈 | 레스토랑 비너 보슬라우 생수 | 3.9 EUR | A | 예 | 재검증 | [Restaurant Wiener 2026 공식 메뉴](https://restaurant-wiener.brcp.at/en) |
+| VIE-SN-103 | 빈 | 레스토랑 비너 과일주스 | 4.5 EUR | A | 예 | 재검증 | [Restaurant Wiener 2026 공식 메뉴](https://restaurant-wiener.brcp.at/en) |
+| VIE-AL-101 | 빈 | 레스토랑 비너 슈티글 필스 생맥주 | 4.9 EUR | A | 예 | 재검증 | [Restaurant Wiener 2026 공식 메뉴](https://restaurant-wiener.brcp.at/en) |
+| VIE-AL-102 | 빈 | 레스토랑 비너 히르터 켈러마이스터 츠비클 | 4.9 EUR | A | 예 | 재검증 | [Restaurant Wiener 2026 공식 메뉴](https://restaurant-wiener.brcp.at/en) |
+| VIE-AL-103 | 빈 | 레스토랑 비너 슈티글 바이스 | 6.2 EUR | A | 예 | 재검증 | [Restaurant Wiener 2026 공식 메뉴](https://restaurant-wiener.brcp.at/en) |
+| VIE-AT-101 | 빈 | 쇤브룬 궁전 입장권(성인) | 42 EUR | A | 예 | 재검증 | [Schönbrunn 공식 티켓·투어 요금](https://www.schoenbrunn.at/en/tickets-and-prices/all-tickets-tours?ADMCMD_editIcons=16&cHash=fdd9dd0c44594a1b25fe449e05578c6f) |
+| VIE-AT-102 | 빈 | 쇤브룬 궁전 입장권(아동 6~18세) | 30 EUR | A | 예 | 재검증 | [Schönbrunn 공식 티켓·투어 요금](https://www.schoenbrunn.at/en/tickets-and-prices/all-tickets-tours?ADMCMD_editIcons=16&cHash=fdd9dd0c44594a1b25fe449e05578c6f) |
+| VIE-AT-103 | 빈 | 빈 동물원 입장권(성인) | 29 EUR | A | 예 | 재검증 | [Tiergarten Schönbrunn 공식 visitor information](https://www.zoovienna.at/en/zoo-and-visitors/visitor-information/) |
+| VIE-AT-104 | 빈 | 빈 동물원 입장권(아동 6~18세) | 17 EUR | A | 예 | 재검증 | [Tiergarten Schönbrunn 공식 visitor information](https://www.zoovienna.at/en/zoo-and-visitors/visitor-information/) |
+| VIE-AT-105 | 빈 | 벨베데레 상궁 입장권(성인) | 23 EUR | A | 예 | 재검증 | [Belvedere 공식 상궁 안내](https://www.belvedere.at/besuch/oberes-belvedere) |
+| VIE-AT-106 | 빈 | 벨베데레 상궁 입장권(만 19세 미만) | 0 EUR | A | 예 | 재검증 | [Belvedere 공식 상궁 안내](https://www.belvedere.at/besuch/oberes-belvedere) |
 | BUD-FD-101 | 부다페스트 | 와인스톤 굴라시 수프 | 4200 HUF | A | 예 | 재검증 | [WineStone City Center 공식 메뉴](https://winestone-citycenter.hu/en) |
 | BUD-FD-102 | 부다페스트 | 와인스톤 탄두리 돼지 안심 | 8200 HUF | A | 예 | 재검증 | [WineStone City Center 공식 메뉴](https://winestone-citycenter.hu/en) |
 | BUD-FD-103 | 부다페스트 | 보헤미아 치킨 플랫브레드 | 2890 HUF | A | 예 | 재검증 | [Bohémia 공식 영문 메뉴(PDF)](https://bohemia.hu/Bohemia_Menu_EN.pdf) |
@@ -644,6 +671,23 @@
 | INT-AT-104 | 인터라켄 | 쉬니게 플라테 왕복열차+간식 티켓(아동 6~15세) | 45 CHF | A | 예 | 재검증 | [Jungfraubahnen Schynige Platte 공식 요금표](https://www.jungfrau.ch/de-ch/schynige-platte/zvieri-ticket/) |
 | INT-AT-105 | 인터라켄 | 융프라우요흐 스노우 펀 파크 짚라인(성인) | 20 CHF | A | 예 | 재검증 | [Jungfraubahnen 공식 페이지](https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/snow-fun-park/) |
 | INT-AT-106 | 인터라켄 | 융프라우요흐 스노우 펀 파크 짚라인(아동 6~15세) | 15 CHF | A | 예 | 재검증 | [Jungfraubahnen 공식 페이지](https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/snow-fun-park/) |
+| LIS-FD-101 | 리스본 | 베르시쿨루 구운 생선·콩·새우 | 27 EUR | A | 예 | 재검증 | [Versículo d'oFaia 공식 메뉴](https://www.versiculo.pt/) |
+| LIS-FD-102 | 리스본 | 베르시쿨루 라가레이루식 문어 | 29 EUR | A | 예 | 재검증 | [Versículo d'oFaia 공식 메뉴](https://www.versiculo.pt/) |
+| LIS-FD-103 | 리스본 | 파스테이스 드 벨렝 치킨 샌드위치 | 3.9 EUR | A | 예 | 재검증 | [Pastéis de Belém 공식 디지털 메뉴](https://www.pasteisdebelem.pt/menu/) |
+| LIS-SN-101 | 리스본 | 파스텔 드 벨렝 | 1.6 EUR | A | 예 | 재검증 | [Pastéis de Belém 공식 디지털 메뉴](https://www.pasteisdebelem.pt/menu/) |
+| LIS-SN-102 | 리스본 | 파스테이스 드 벨렝 생수 | 1.6 EUR | A | 예 | 재검증 | [Pastéis de Belém 공식 디지털 메뉴](https://www.pasteisdebelem.pt/menu/) |
+| LIS-SN-103 | 리스본 | 파스테이스 드 벨렝 생오렌지 주스 | 4 EUR | A | 예 | 재검증 | [Pastéis de Belém 공식 디지털 메뉴](https://www.pasteisdebelem.pt/menu/) |
+| LIS-AL-101 | 리스본 | 파스테이스 드 벨렝 슈퍼복 생맥주 | 1.75 EUR | A | 예 | 재검증 | [Pastéis de Belém 공식 디지털 메뉴](https://www.pasteisdebelem.pt/menu/) |
+| LIS-AL-102 | 리스본 | 사그레스 또는 슈퍼복 병맥주 | 2.5 EUR | A | 예 | 재검증 | [Pastéis de Belém 공식 디지털 메뉴](https://www.pasteisdebelem.pt/menu/) |
+| LIS-AL-103 | 리스본 | 슈퍼복 소머스비 사과주 | 3 EUR | A | 예 | 재검증 | [Pastéis de Belém 공식 디지털 메뉴](https://www.pasteisdebelem.pt/menu/) |
+| LIS-TR-101 | 리스본 | 카리스·메트로 단일권 | 1.9 EUR | A | 예 | 재검증 | [CARRIS 공식 티켓 안내](https://www.carris.pt/en/buy/occasional-journeys-2/) |
+| LIS-TR-102 | 리스본 | 카리스·메트로 24시간권 | 7.25 EUR | A | 예 | 재검증 | [CARRIS 공식 티켓 안내](https://www.carris.pt/en/buy/occasional-journeys-2/) |
+| LIS-AT-101 | 리스본 | 리스본 해양수족관(13~64세, 16:00~18:30 시간대) | 25.5 EUR | A | 예 | 재검증 | [Oceanário de Lisboa 공식 요금표](https://oceanario.pt/en/plan-your-visit/) |
+| LIS-AT-102 | 리스본 | 리스본 해양수족관(아동 3~12세, 16:00~18:30 시간대) | 15.5 EUR | A | 예 | 재검증 | [Oceanário de Lisboa 공식 요금표](https://oceanario.pt/en/plan-your-visit/) |
+| LIS-AT-103 | 리스본 | 리스본 동물원 입장권(성인 13~64세) | 31 EUR | A | 예 | 재검증 | [Lisbon Zoo 공식 입장료](https://www.zoo.pt/en/visit/en/visit/entry-costs/) |
+| LIS-AT-104 | 리스본 | 리스본 동물원 입장권(아동 3~12세) | 19 EUR | A | 예 | 재검증 | [Lisbon Zoo 공식 입장료](https://www.zoo.pt/en/visit/en/visit/entry-costs/) |
+| LIS-AT-105 | 리스본 | 상조르즈 성 입장권(성인) | 17 EUR | A | 예 | 재검증 | [Castelo de São Jorge 공식 티켓 요금](https://castelodesaojorge.pt/en/plan-your-visit/choose-your-ticket/) |
+| LIS-AT-106 | 리스본 | 상조르즈 성 입장권(12세 이하) | 0 EUR | A | 예 | 재검증 | [Castelo de São Jorge 공식 티켓 요금](https://castelodesaojorge.pt/en/plan-your-visit/choose-your-ticket/) |
 | SEL-FD-900 | 서울 | 명동교자 본점 칼국수 | 12000 KRW | B | 예 | B등급, 재검증 | [명동교자 본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11592650/menu/list) |
 | SEL-FD-901 | 서울 | 황생가칼국수 사골칼국수 | 13000 KRW | B | 예 | B등급, 재검증 | [황생가칼국수 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11679429/menu/list) |
 | SEL-FD-902 | 서울 | 이문설농탕 설농탕 | 15000 KRW | B | 예 | B등급, 재검증 | [이문설농탕 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/11711983/menu/list) |
@@ -1155,5 +1199,5 @@
 
 ## 4. 교차 검수 현황
 
-`data/reviews/*.csv` 에서 읽은 판정: 일치 661건 · 불일치 48건 · 확인불가 108건.
+`data/reviews/*.csv` 에서 읽은 판정: 일치 682건 · 불일치 48건 · 확인불가 108건.
 아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

@@ -220,6 +220,96 @@
     "stage": "파일럿"
   },
   {
+    "id": "macau",
+    "country": "중국 마카오",
+    "countryEn": "Macau",
+    "nameKo": "마카오",
+    "nameEn": "Macau",
+    "currency": "MOP",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "honolulu",
+    "country": "미국 하와이",
+    "countryEn": "Hawaii",
+    "nameKo": "호놀룰루",
+    "nameEn": "Honolulu",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "saipan",
+    "country": "미국 사이판",
+    "countryEn": "Saipan",
+    "nameKo": "사이판",
+    "nameEn": "Saipan",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "ulaanbaatar",
+    "country": "몽골",
+    "countryEn": "Mongolia",
+    "nameKo": "울란바토르",
+    "nameEn": "Ulaanbaatar",
+    "currency": "MNT",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "vienna",
+    "country": "오스트리아",
+    "countryEn": "Austria",
+    "nameKo": "빈",
+    "nameEn": "Vienna",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "budapest",
+    "country": "헝가리",
+    "countryEn": "Hungary",
+    "nameKo": "부다페스트",
+    "nameEn": "Budapest",
+    "currency": "HUF",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "munich",
+    "country": "독일",
+    "countryEn": "Germany",
+    "nameKo": "뮌헨",
+    "nameEn": "Munich",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "interlaken",
+    "country": "스위스",
+    "countryEn": "Switzerland",
+    "nameKo": "인터라켄",
+    "nameEn": "Interlaken",
+    "currency": "CHF",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "lisbon",
+    "country": "포르투갈",
+    "countryEn": "Portugal",
+    "nameKo": "리스본",
+    "nameEn": "Lisbon",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
     "id": "barcelona",
     "country": "스페인",
     "countryEn": "Spain",

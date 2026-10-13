@@ -65,6 +65,19 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
     .map((m) => `<li>${e(m.item)}: ${e(m.value)}${m.unit ? ` ${e(m.unit)}` : ''}</li>`)
     .join('');
 
+  // 같은 나라 다른 도시와 1인 1일 비교(내부 링크). 식당·교통 가격을 빌려 쓴 도시는 그 사실도 밝힌다
+  const siblings = d.cities
+    .filter((c) => c.country === city.country && c.id !== city.id)
+    .map((c) => {
+      const s2 = cityGuide(c, d.samples, d.refDate, d.extras).styles.find((x) => x.style === 'standard');
+      return `<li><a href="${guidePath(c.id)}">${e(c.nameKo)}</a>${s2?.perDay ? `: 1인 1일 ${e(range(s2.perDay, c.currency))}` : ''}</li>`;
+    })
+    .join('');
+  const ownMeals = d.samples.some((s) => s.cityId === city.id && s.category === 'food' && /한끼/.test(s.subtype));
+  const borrowedNote = ownMeals
+    ? ''
+    : `<p>${e(city.nameKo)} 식당 가격은 아직 모으는 중이라, 식비·교통비는 ${e(city.country)}의 다른 도시 공식 가격을 함께 써서 계산했습니다(한 나라 안에서는 도시마다 물가 차이가 크지 않습니다).</p>`;
+
   const fallbackHtml = [
     `        <h1>${e(city.nameKo)} 여행 경비 가이드</h1>`,
     `        <p>${e(city.nameKo)}에서 실제로 쓰게 될 돈을 공식 가격 자료로 정리했습니다. 가격 자료 기준일 ${e(d.updated)}.</p>`,
@@ -75,6 +88,8 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
     attractions && `        <h2>${e(city.nameKo)} 관광지·테마파크 입장료</h2><ul>${attractions}</ul>`,
     foods && `        <h2>${e(city.nameKo)}에서 먹어 볼 음식</h2><ul>${foods}</ul>`,
     memos && `        <h2>${e(city.nameKo)} 알아두면 좋은 현지 비용</h2><p>팁·세금·숙박세처럼 계산에는 넣지 않았지만 미리 알아두면 좋은 항목입니다.</p><ul>${memos}</ul>`,
+    siblings &&
+      `        <h2>${e(city.country)}의 다른 도시와 비교</h2>${borrowedNote}<p>같은 조건(성인 1명, 3박 4일, 일반형)의 1인 1일 현지 체류비입니다.</p><ul>${siblings}</ul>`,
   ]
     .filter(Boolean)
     .join('\n');

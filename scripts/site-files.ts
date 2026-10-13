@@ -45,6 +45,10 @@ export function headTags(site: string, page: SitePage): string[] {
     `<link rel="alternate" hreflang="ja" href="${url('ja')}" />`,
     `<link rel="alternate" hreflang="x-default" href="${site}${page.path}" />`,
     `<meta property="og:url" content="${url('ko')}" />`,
+    `<meta property="og:image" content="${site}/og-image.png" />`,
+    `<meta property="og:image:width" content="1200" />`,
+    `<meta property="og:image:height" content="630" />`,
+    `<meta name="twitter:image" content="${site}/og-image.png" />`,
   ];
 }
 

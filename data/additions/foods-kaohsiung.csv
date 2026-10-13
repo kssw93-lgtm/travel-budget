@@ -1,0 +1,5 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+대만,가오슝,옌수지,Yansuji,한입 크기로 튀겨 소금·후추를 뿌린 대만식 닭튀김,저,,대기,관광청·정부 공식 안내,https://khh.travel/zh-tw/board-and-lodging/,GPT 수집
+대만,가오슝,해산물죽,Seafood Congee,해산물을 넣고 끓인 야식 대표 죽,저,,대기,관광청·정부 공식 안내,https://takao.kcg.gov.tw/article/837,GPT 수집
+대만,가오슝,오리고기밥,Duck Rice,훈제 오리고기를 밥 위에 올린 요리,저,,대기,관광청·정부 공식 안내,https://khh.travel/zh-tw/shop/gourmet/786/,GPT 수집
+대만,가오슝,메이농 객가요리,Meinong Hakka Cuisine,메이농 지역의 전통 객가 요리(반탸오 국수 등),중,,대기,관광청·정부 공식 안내,https://khh.travel/zh-tw/board-and-lodging/cuisines/,GPT 수집

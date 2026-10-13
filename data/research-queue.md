@@ -67,6 +67,11 @@
 | 히로시마 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 가나자와 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 하코다테 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 푸껫 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 파타야 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 달랏 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 가오슝 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 베이징 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -636,6 +641,66 @@
 | GNG-AL-101 | 강릉 | 강릉역옹막 경포점 옹막딸기막걸리 | 8000 KRW | B | 예 | B등급, 재검증 | [강릉역옹막 경포점 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/2037157200/menu/list) |
 | GNG-AL-102 | 강릉 | 강릉브루어리 바이 현 페일에일 | 6500 KRW | B | 예 | B등급, 재검증 | [강릉브루어리 바이 현 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1832471577/menu/list) |
 | GNG-AL-103 | 강릉 | 강릉브루어리 바이 현 바이젠 | 7000 KRW | B | 예 | B등급, 재검증 | [강릉브루어리 바이 현 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1832471577/menu/list) |
+| LON-FD-507 | 런던 | Dishoom Carnaby 양고기 비리야니 | 21.9 GBP | A | 예 | 재검증 | [Dishoom Carnaby All Day Menu](https://www.dishoom.com/menu/carnaby-all-day/) |
+| LON-FD-508 | 런던 | Dishoom Carnaby 치킨 베리 브리타니아 | 19.2 GBP | A | 예 | 재검증 | [Dishoom Carnaby All Day Menu](https://www.dishoom.com/menu/carnaby-all-day/) |
+| LON-FD-509 | 런던 | Dishoom Carnaby 아와디 잭프루트 비리야니 | 18.7 GBP | A | 예 | 재검증 | [Dishoom Carnaby All Day Menu](https://www.dishoom.com/menu/carnaby-all-day/) |
+| LON-FD-511 | 런던 | Wagamama Holborn 치킨 가츠 커리 | 15.3 GBP | A | 예 | 재검증 | [Wagamama Holborn 공식 메인 메뉴 PDF](https://www.datocms-assets.com/177323/1791280185-oct26_msp_main_menu_no_kcal.pdf) |
+| LON-FD-512 | 런던 | Wagamama Holborn 치킨 라이수카레 | 16.9 GBP | A | 예 | 재검증 | [Wagamama Holborn 공식 메인 메뉴 PDF](https://www.datocms-assets.com/177323/1791280185-oct26_msp_main_menu_no_kcal.pdf) |
+| LON-FD-513 | 런던 | Wagamama Holborn 고추장 삼겹살 라멘 | 18.7 GBP | A | 예 | 재검증 | [Wagamama Holborn 공식 메인 메뉴 PDF](https://www.datocms-assets.com/177323/1791280185-oct26_msp_main_menu_no_kcal.pdf) |
+| GNG-AT-507 | 강릉 | 오죽헌 입장권 | 3000 KRW | A | 예 | 재검증 | [오죽헌·시립박물관(강릉시)](https://www.gn.go.kr/museum/contents.do?key=892) |
+| GNG-AT-508 | 강릉 | 오죽헌 입장권 | 1000 KRW | A | 예 | 재검증 | [오죽헌·시립박물관(강릉시)](https://www.gn.go.kr/museum/contents.do?key=892) |
+| GNG-AT-509 | 강릉 | 대관령박물관 입장권 | 1000 KRW | A | 예 | 재검증 | [오죽헌·시립박물관(강릉시)](https://www.gn.go.kr/museum/contents.do?key=892) |
+| GNG-AT-510 | 강릉 | 대관령박물관 입장권 | 400 KRW | A | 예 | 재검증 | [오죽헌·시립박물관(강릉시)](https://www.gn.go.kr/museum/contents.do?key=892) |
+| GNG-AT-511 | 강릉 | 하슬라아트월드 입장권 | 17000 KRW | A | 예 | 재검증 | [오죽헌·시립박물관(강릉시)](https://www.gn.go.kr/museum/contents.do?key=892) |
+| GNG-AT-512 | 강릉 | 하슬라아트월드 입장권 | 11000 KRW | A | 예 | 재검증 | [오죽헌·시립박물관(강릉시)](https://www.gn.go.kr/museum/contents.do?key=892) |
+| GJU-AT-501 | 경주 | 천마총 입장권 | 3000 KRW | A | 예 | 재검증 | [경주문화관광(경주시)](https://www.gyeongju.go.kr/tour_bak/page.do?mnu_uid=2378) |
+| GJU-AT-502 | 경주 | 천마총 입장권 | 1000 KRW | A | 예 | 재검증 | [경주문화관광(경주시)](https://www.gyeongju.go.kr/tour_bak/page.do?mnu_uid=2378) |
+| GJU-AT-503 | 경주 | 오릉 입장권 | 2000 KRW | A | 예 | 재검증 | [경주문화관광(경주시)](https://www.gyeongju.go.kr/tour_bak/page.do?mnu_uid=2378) |
+| GJU-AT-504 | 경주 | 오릉 입장권 | 500 KRW | A | 예 | 재검증 | [경주문화관광(경주시)](https://www.gyeongju.go.kr/tour_bak/page.do?mnu_uid=2378) |
+| GJU-AT-505 | 경주 | 황룡사역사문화관 입장권 | 3000 KRW | A | 예 | 재검증 | [경주문화관광(경주시)](https://www.gyeongju.go.kr/tour_bak/page.do?mnu_uid=2378) |
+| GJU-AT-506 | 경주 | 황룡사역사문화관 입장권 | 1500 KRW | A | 예 | 재검증 | [경주문화관광(경주시)](https://www.gyeongju.go.kr/tour_bak/page.do?mnu_uid=2378) |
+| NGO-AT-501 | 나고야 | 나고야성 입장권 | 1000 JPY | A | 예 | 재검증 | [나고야성 종합사무소](https://www.nagoyajo.city.nagoya.jp/info/fee/) |
+| NGO-AT-502 | 나고야 | 나고야성 입장권 | 0 JPY | A | 예 | 재검증 | [나고야성 종합사무소](https://www.nagoyajo.city.nagoya.jp/info/fee/) |
+| NGO-AT-503 | 나고야 | 나고야항 수족관 입장권 | 2030 JPY | A | 예 | 재검증 | [나고야항 수족관](https://nagoyaaqua.jp/fee/) |
+| NGO-AT-504 | 나고야 | 나고야항 수족관 입장권 | 1010 JPY | A | 예 | 재검증 | [나고야항 수족관](https://nagoyaaqua.jp/fee/) |
+| NGO-AT-505 | 나고야 | 히가시야마 동식물원 입장권 | 800 JPY | A | 예 | 재검증 | [히가시야마 동식물원(나고야시)](https://www.higashiyama.city.nagoya.jp/01_annai/faq/) |
+| NGO-AT-506 | 나고야 | 히가시야마 동식물원 입장권 | 0 JPY | A | 예 | 재검증 | [히가시야마 동식물원(나고야시)](https://www.higashiyama.city.nagoya.jp/01_annai/faq/) |
+| OKA-AT-501 | 오키나와 | 오키나와 추라우미 수족관 입장권 | 2180 JPY | A | 예 | 재검증 | [오키나와 추라우미 수족관](https://churaumi.okinawa/guide/info/) |
+| OKA-AT-502 | 오키나와 | 오키나와 추라우미 수족관 입장권 | 710 JPY | A | 예 | 재검증 | [오키나와 추라우미 수족관](https://churaumi.okinawa/guide/info/) |
+| OKA-AT-503 | 오키나와 | 류큐무라 입장권 | 2000 JPY | A | 예 | 재검증 | [류큐무라](https://www.ryukyumura.co.jp/official/official/guide/) |
+| OKA-AT-504 | 오키나와 | 류큐무라 입장권 | 800 JPY | A | 예 | 재검증 | [류큐무라](https://www.ryukyumura.co.jp/official/official/guide/) |
+| OKA-AT-505 | 오키나와 | 오키나와월드 입장권 | 2000 JPY | A | 예 | 재검증 | [오키나와월드](https://www.gyokusendo.co.jp/okinawaworld/fee/) |
+| OKA-AT-506 | 오키나와 | 오키나와월드 입장권 | 1000 JPY | A | 예 | 재검증 | [오키나와월드](https://www.gyokusendo.co.jp/okinawaworld/fee/) |
+| KHH-AT-101 | 가오슝 | 수산 동물원 입장권 | 40 TWD | A | 예 | 재검증 | [수산 동물원(가오슝시정부)](https://zoo.kcg.gov.tw/zh-tw/tour-information/) |
+| KHH-AT-102 | 가오슝 | 수산 동물원 입장권 | 20 TWD | A | 예 | 재검증 | [수산 동물원(가오슝시정부)](https://zoo.kcg.gov.tw/zh-tw/tour-information/) |
+| KHH-AT-103 | 가오슝 | 의다 놀이세계 종일 입장권 | 1080 TWD | A | 예 | 재검증 | [의다 놀이세계 공식 사이트](https://www.edathemepark.com.tw/Info) |
+| KHH-AT-104 | 가오슝 | 의다 놀이세계 종일 입장권 | 680 TWD | A | 예 | 재검증 | [의다 놀이세계 공식 사이트](https://www.edathemepark.com.tw/Info) |
+| KHH-AT-105 | 가오슝 | 가오슝 아이허 곤돌라 탑승권 | 200 TWD | A | 예 | 재검증 | [가오슝 관광망(가오슝시정부 관광국)](https://khh.travel/zh-tw/traffic/waterborne-traffic/) |
+| KHH-AT-106 | 가오슝 | 가오슝 아이허 곤돌라 탑승권 | 100 TWD | A | 예 | 재검증 | [가오슝 관광망(가오슝시정부 관광국)](https://khh.travel/zh-tw/traffic/waterborne-traffic/) |
+| DLI-AT-101 | 달랏 | 다딴라 폭포 관광지 입장권 | 80000 VND | A | 예 | 재검증 | [Dalattourist (Lam Dong Tourism JSC)](https://dalattourist.com.vn/diem-den/khu-du-lich-datanla) |
+| DLI-AT-102 | 달랏 | 다딴라 폭포 관광지 입장권 | 50000 VND | A | 예 | 재검증 | [Dalattourist (Lam Dong Tourism JSC)](https://dalattourist.com.vn/diem-den/khu-du-lich-datanla) |
+| DLI-AT-103 | 달랏 | 랑비앙 관광지 입장권 | 50000 VND | A | 예 | 재검증 | [Dalattourist (Lam Dong Tourism JSC)](https://dalattourist.com.vn/diem-den/khu-du-lich-langbiang) |
+| DLI-AT-104 | 달랏 | 랑비앙 관광지 입장권 | 25000 VND | A | 예 | 재검증 | [Dalattourist (Lam Dong Tourism JSC)](https://dalattourist.com.vn/diem-den/khu-du-lich-langbiang) |
+| DLI-AT-105 | 달랏 | 달랏 케이블카 이용권 | 150000 VND | A | 예 | 재검증 | [Dalattourist (Lam Dong Tourism JSC)](https://dalattourist.com.vn/diem-den/khu-du-lich-cap-treo) |
+| DLI-AT-106 | 달랏 | 달랏 케이블카 이용권 | 120000 VND | A | 예 | 재검증 | [Dalattourist (Lam Dong Tourism JSC)](https://dalattourist.com.vn/diem-den/khu-du-lich-cap-treo) |
+| PEK-AT-101 | 베이징 | 바다링 장성 성인 입장권 | 40 CNY | A | 예 | 재검증 | [베이징시 인민정부 Visit Beijing](https://english.beijing.gov.cn/specials/ticketing/attractions/202407/t20240717_3751609.html) |
+| PEK-AT-102 | 베이징 | 바다링 장성 미성년 입장권 | 0 CNY | A | 예 | 재검증 | [베이징시 인민정부 Visit Beijing](https://english.beijing.gov.cn/specials/ticketing/attractions/202407/t20240717_3751609.html) |
+| PEK-AT-103 | 베이징 | 무톈위 장성 성인 입장권 | 45 CNY | A | 예 | 재검증 | [베이징시 인민정부 Visit Beijing](https://english.beijing.gov.cn/specials/ticketing/attractions/202407/t20240717_3751593.html) |
+| PEK-AT-104 | 베이징 | 무톈위 장성 아동 할인 입장권 | 25 CNY | A | 예 | 재검증 | [베이징시 인민정부 Visit Beijing](https://english.beijing.gov.cn/specials/ticketing/attractions/202407/t20240717_3751593.html) |
+| PEK-AT-105 | 베이징 | 베이징 동물원 기본 입장권 | 15 CNY | A | 예 | 재검증 | [베이징시 공원관리센터·베이징 관광망](https://english.beijing.gov.cn/specials/ticketing/parks/202407/t20240719_3753328.html) |
+| PEK-AT-106 | 베이징 | 베이징 동물원 기본 입장권 | 7.5 CNY | A | 예 | 재검증 | [베이징시 공원관리센터·베이징 관광망](https://english.beijing.gov.cn/specials/ticketing/parks/202407/t20240719_3753328.html; https://s.visitbeijing.com.cn/attraction/117808) |
+| PYX-AT-101 | 파타야 | 진리의 성전 주간 입장권 | 500 THB | A | 예 | 재검증 | [태국관광청 일본사무소 공식 사이트](https://www.thailandtravel.or.jp/the-sanctuary-of-truth/) |
+| PYX-AT-102 | 파타야 | 진리의 성전 주간 입장권 | 250 THB | A | 예 | 재검증 | [태국관광청 일본사무소 공식 사이트](https://www.thailandtravel.or.jp/the-sanctuary-of-truth/) |
+| PYX-AT-103 | 파타야 | 아트 인 파라다이스 | 300 THB | A | 예 | 재검증 | [태국관광청 일본사무소 공식 사이트](https://www.thailandtravel.or.jp/art-in-paradise/) |
+| PYX-AT-104 | 파타야 | 아트 인 파라다이스 | 200 THB | A | 예 | 재검증 | [태국관광청 일본사무소 공식 사이트](https://www.thailandtravel.or.jp/art-in-paradise/) |
+| PYX-AT-105 | 파타야 | 파도 미디어 아트 스페이스 | 999 THB | A | 예 | 재검증 | [태국관광청 일본사무소 공식 사이트](https://www.thailandtravel.or.jp/pado-media-art-space/) |
+| PYX-AT-106 | 파타야 | 파도 미디어 아트 스페이스 | 599 THB | A | 예 | 재검증 | [태국관광청 일본사무소 공식 사이트](https://www.thailandtravel.or.jp/pado-media-art-space/) |
+| HKT-AT-101 | 푸껫 | 푸껫 판타씨 쇼 입장권(쇼만) | 1800 THB | A | 예 | 재검증 | [Phuket FantaSea](https://phuket-fantasea.com/eng/reservation/ticketing.php) |
+| HKT-AT-102 | 푸껫 | 푸껫 판타씨 쇼 입장권(쇼만) | 1800 THB | A | 예 | 재검증 | [Phuket FantaSea](https://phuket-fantasea.com/eng/reservation/ticketing.php) |
+| HKT-AT-103 | 푸껫 | 프라나칸 푸껫 박물관 | 300 THB | A | 예 | 재검증 | [태국관광청 일본사무소 공식 사이트](https://www.thailandtravel.or.jp/peranakan-phuket-museum/) |
+| HKT-AT-104 | 푸껫 | 프라나칸 푸껫 박물관 | 150 THB | A | 예 | 재검증 | [태국관광청 일본사무소 공식 사이트](https://www.thailandtravel.or.jp/peranakan-phuket-museum/) |
+| HKT-AT-105 | 푸껫 | 푸껫 조개박물관(외국인) | 200 THB | A | 예 | 재검증 | [푸껫주 공식 홈페이지](https://phuket.go.th/eng/Museums-Phuket%20Sea%20Shell%20Museum.php) |
+| HKT-AT-106 | 푸껫 | 푸껫 조개박물관(외국인) | 100 THB | A | 예 | 재검증 | [푸껫주 공식 홈페이지](https://phuket.go.th/eng/Museums-Phuket%20Sea%20Shell%20Museum.php) |
 | TYO-AT-206 | 도쿄 | 도쿄타워 메인데크 초등학생 입장권 | 900 JPY | A | 예 | 재검증 | [TOKYO TOWER](https://en.tokyotower.co.jp/fee/) |
 | OSA-AT-201 | 오사카 | 산타마리아 데이크루즈 초등학생 요금 | 1000 JPY | A | 예 | 재검증 | [大阪水上バス](https://suijo-bus.osaka/cruiselist/santamaria/) |
 | BKK-AT-201 | 방콕 | 방콕 예술문화센터 일반 전시 아동 관람 | 0 THB | A | 예 | 재검증 | [Bangkok Art and Culture Centre](https://www.bacc.or.th/en/plan-your-visit) |

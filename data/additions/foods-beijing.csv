@@ -1,0 +1,5 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+중국,베이징,베이징 카오야,Peking Duck,바삭하게 구운 오리를 얇은 전병에 싸 먹는 요리,중,,대기,관광청·정부 공식 안내,https://english.beijing.gov.cn/latest/news/202406/t20240624_3725018.html,GPT 수집
+중국,베이징,자장면,Zhajiangmian,볶은 콩장 소스를 비벼 먹는 베이징식 면,저,,대기,관광청·정부 공식 안내,https://english.beijing.gov.cn/latest/news/202406/t20240624_3725018.html,GPT 수집
+중국,베이징,루주,Luzhu,고기 육수에 밀전병·내장을 넣어 끓인 베이징 서민 음식,저,,대기,관광청·정부 공식 안내,https://english.beijing.gov.cn/latest/news/202406/t20240624_3725018.html,GPT 수집
+중국,베이징,더우즈,Douzhi,녹두를 발효시킨 시큼한 베이징 전통 음료,저,,대기,관광청·정부 공식 안내,https://english.beijing.gov.cn/latest/news/202406/t20240624_3725018.html,GPT 수집

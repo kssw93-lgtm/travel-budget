@@ -72,12 +72,12 @@ describe('한/영 문구', () => {
 
 describe('가격 데이터 무결성', () => {
   it('선택 가능한 도시는 파일럿 도시이고 모든 표본이 (공개 전 도시 포함) 도시에 연결된다', () => {
-    expect(cities.map((c) => c.id).sort()).toEqual(['auckland', 'bali', 'bangkok', 'barcelona', 'budapest', 'busan', 'cebu', 'chiang-mai', 'da-nang', 'dubai', 'fukuoka', 'gangneung', 'guam', 'gyeongju', 'hakodate', 'hanoi', 'hiroshima', 'ho-chi-minh-city', 'hong-kong', 'honolulu', 'interlaken', 'istanbul', 'jeju', 'jeonju', 'kanazawa', 'kobe', 'kuala-lumpur', 'kyoto', 'lisbon', 'london', 'munich', 'nagoya', 'new-york', 'nha-trang', 'okinawa', 'osaka', 'paris', 'phu-quoc', 'prague', 'rome', 'saipan', 'sapporo', 'seoul', 'shanghai', 'singapore', 'sydney', 'taipei', 'tokyo', 'ulaanbaatar', 'vancouver', 'vienna', 'yeosu']);
+    expect(cities.map((c) => c.id).sort()).toEqual(['auckland', 'bali', 'bangkok', 'barcelona', 'beijing', 'budapest', 'busan', 'cebu', 'chiang-mai', 'da-lat', 'da-nang', 'dubai', 'fukuoka', 'gangneung', 'guam', 'gyeongju', 'hakodate', 'hanoi', 'hiroshima', 'ho-chi-minh-city', 'hong-kong', 'honolulu', 'interlaken', 'istanbul', 'jeju', 'jeonju', 'kanazawa', 'kaohsiung', 'kobe', 'kuala-lumpur', 'kyoto', 'lisbon', 'london', 'munich', 'nagoya', 'new-york', 'nha-trang', 'okinawa', 'osaka', 'paris', 'pattaya', 'phu-quoc', 'phuket', 'prague', 'rome', 'saipan', 'sapporo', 'seoul', 'shanghai', 'singapore', 'sydney', 'taipei', 'tokyo', 'ulaanbaatar', 'vancouver', 'vienna', 'yeosu']);
     for (const s of samples) expect(allCities.some((c) => c.id === s.cityId && c.currency === s.currency)).toBe(true);
   });
   it('1차 화면에는 파일럿 도시만 노출하고 2차 이후 도시는 숨긴다', () => {
     expect(allCities.length).toBeGreaterThanOrEqual(cities.length);
-    expect(cities).toHaveLength(52);
+    expect(cities).toHaveLength(57);
     expect(cities.every((c) => c.stage === PILOT_STAGE)).toBe(true);
     const hidden = allCities.filter((c) => c.stage !== PILOT_STAGE).map((c) => c.id);
     expect(cities.some((c) => hidden.includes(c.id))).toBe(false);

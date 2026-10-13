@@ -9,7 +9,7 @@ test.describe('계산기 핵심 흐름', () => {
     await mockRates(page);
     await page.goto('/');
     const values = await page.locator('#city option').evaluateAll((os) => os.map((o) => (o as HTMLOptionElement).value));
-    expect([...values].sort()).toEqual(['auckland', 'bali', 'bangkok', 'barcelona', 'budapest', 'busan', 'cebu', 'chiang-mai', 'da-nang', 'dubai', 'fukuoka', 'gangneung', 'guam', 'gyeongju', 'hakodate', 'hanoi', 'hiroshima', 'ho-chi-minh-city', 'hong-kong', 'honolulu', 'interlaken', 'istanbul', 'jeju', 'jeonju', 'kanazawa', 'kobe', 'kuala-lumpur', 'kyoto', 'lisbon', 'london', 'munich', 'nagoya', 'new-york', 'nha-trang', 'okinawa', 'osaka', 'paris', 'phu-quoc', 'prague', 'rome', 'saipan', 'sapporo', 'seoul', 'shanghai', 'singapore', 'sydney', 'taipei', 'tokyo', 'ulaanbaatar', 'vancouver', 'vienna', 'yeosu']);
+    expect([...values].sort()).toEqual(['auckland', 'bali', 'bangkok', 'barcelona', 'beijing', 'budapest', 'busan', 'cebu', 'chiang-mai', 'da-lat', 'da-nang', 'dubai', 'fukuoka', 'gangneung', 'guam', 'gyeongju', 'hakodate', 'hanoi', 'hiroshima', 'ho-chi-minh-city', 'hong-kong', 'honolulu', 'interlaken', 'istanbul', 'jeju', 'jeonju', 'kanazawa', 'kaohsiung', 'kobe', 'kuala-lumpur', 'kyoto', 'lisbon', 'london', 'munich', 'nagoya', 'new-york', 'nha-trang', 'okinawa', 'osaka', 'paris', 'pattaya', 'phu-quoc', 'phuket', 'prague', 'rome', 'saipan', 'sapporo', 'seoul', 'shanghai', 'singapore', 'sydney', 'taipei', 'tokyo', 'ulaanbaatar', 'vancouver', 'vienna', 'yeosu']);
     // 국내/해외가 아니라 나라별로 묶는다
     const pilot = (JSON.parse(readFileSync('src/data/generated/cities.json', 'utf8')) as Array<{ stage: string; country: string }>).filter((c) => c.stage === '파일럿');
     await expect(page.locator('#city optgroup')).toHaveCount(new Set(pilot.map((c) => c.country)).size);
@@ -151,7 +151,7 @@ test.describe('계산기 핵심 흐름', () => {
     await mockRates(page);
     await page.goto('/');
     const label: Record<string, string> = { food: '외식', transport: '현지 교통', attraction: '관광지' };
-    expect(Object.keys(status)).toHaveLength(52);
+    expect(Object.keys(status)).toHaveLength(57);
     for (const [city, st] of Object.entries(status)) {
       await fillTrip(page, { city });
       if (st.computable) {

@@ -1495,6 +1495,78 @@
     "note": "추천 출처가 시청 공식 관광 사이트가 아님(재확인 필요)"
   },
   {
+    "cityId": "beijing",
+    "nameKo": "베이징 카오야",
+    "nameEn": "Peking Duck",
+    "reason": "바삭하게 구운 오리를 얇은 전병에 싸 먹는 요리",
+    "reasonEn": "Beijing roast duck",
+    "desc": {
+      "ko": "바삭하게 구운 오리를 얇은 전병에 싸 먹는 요리",
+      "en": "Roast duck with crisp skin, wrapped in thin pancakes",
+      "ja": "パリッと焼いたアヒルを薄餅で包んで食べる料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://english.beijing.gov.cn/latest/news/202406/t20240624_3725018.html",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "beijing",
+    "nameKo": "자장면",
+    "nameEn": "Zhajiangmian",
+    "reason": "볶은 콩장 소스를 비벼 먹는 베이징식 면",
+    "reasonEn": "Beijing noodles",
+    "desc": {
+      "ko": "볶은 콩장 소스를 비벼 먹는 베이징식 면",
+      "en": "Noodles tossed with fried soybean paste sauce",
+      "ja": "炒めた味噌だれを和えて食べる北京の麺"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://english.beijing.gov.cn/latest/news/202406/t20240624_3725018.html",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "beijing",
+    "nameKo": "루주",
+    "nameEn": "Luzhu",
+    "reason": "고기 육수에 밀전병·내장을 넣어 끓인 베이징 서민 음식",
+    "reasonEn": "Beijing offal stew",
+    "desc": {
+      "ko": "고기 육수에 밀전병·내장을 넣어 끓인 베이징 서민 음식",
+      "en": "Wheat cakes and offal simmered in meat broth",
+      "ja": "肉のスープで小麦の餅やモツを煮込んだ庶民料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://english.beijing.gov.cn/latest/news/202406/t20240624_3725018.html",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "beijing",
+    "nameKo": "더우즈",
+    "nameEn": "Douzhi",
+    "reason": "녹두를 발효시킨 시큼한 베이징 전통 음료",
+    "reasonEn": "Fermented bean drink",
+    "desc": {
+      "ko": "녹두를 발효시킨 시큼한 베이징 전통 음료",
+      "en": "Sour fermented mung bean drink",
+      "ja": "緑豆を発酵させた酸味のある伝統飲料"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://english.beijing.gov.cn/latest/news/202406/t20240624_3725018.html",
+    "note": "GPT 수집"
+  },
+  {
     "cityId": "budapest",
     "nameKo": "굴라시",
     "nameEn": "Gulyás",
@@ -1739,6 +1811,78 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "da-lat",
+    "nameKo": "반미 슈마이",
+    "nameEn": "Banh Mi Xiu Mai",
+    "reason": "미트볼 수프에 바게트를 찍어 먹는 달랏식 아침",
+    "reasonEn": "Meatball baguette",
+    "desc": {
+      "ko": "미트볼 수프에 바게트를 찍어 먹는 달랏식 아침",
+      "en": "Baguette dipped in meatball soup, a Da Lat breakfast",
+      "ja": "ミートボールスープにバゲットをつけて食べるダラットの朝食"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://vietnam.travel/jp/things-to-do/eating-dalat-chef-peter",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "da-lat",
+    "nameKo": "반깐",
+    "nameEn": "Banh Can",
+    "reason": "숯불에 구운 쌀 반죽에 메추리알을 올린 간식",
+    "reasonEn": "Grilled rice cakes",
+    "desc": {
+      "ko": "숯불에 구운 쌀 반죽에 메추리알을 올린 간식",
+      "en": "Charcoal-grilled rice cakes topped with quail egg",
+      "ja": "炭火で焼いた米粉の生地にうずらの卵をのせたおやつ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://vietnam.travel/jp/things-to-do/eating-dalat-chef-peter",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "da-lat",
+    "nameKo": "미꽝",
+    "nameEn": "Mi Quang",
+    "reason": "강황빛 쌀국수에 진한 돼지고기 국물을 조금 붓는 국수",
+    "reasonEn": "Turmeric noodles",
+    "desc": {
+      "ko": "강황빛 쌀국수에 진한 돼지고기 국물을 조금 붓는 국수",
+      "en": "Turmeric rice noodles with a little rich pork broth",
+      "ja": "ターメリック色の米麺に濃厚な豚スープをかけた麺"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://vietnam.travel/jp/things-to-do/eating-dalat-chef-peter",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "da-lat",
+    "nameKo": "소고기 퍼",
+    "nameEn": "Pho Bo",
+    "reason": "상추와 생허브를 곁들인 소고기 쌀국수",
+    "reasonEn": "Beef pho",
+    "desc": {
+      "ko": "상추와 생허브를 곁들인 소고기 쌀국수",
+      "en": "Beef noodle soup with lettuce and fresh herbs",
+      "ja": "レタスとハーブを添えた牛肉のフォー"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://vietnam.travel/jp/things-to-do/eating-dalat-chef-peter",
+    "note": "GPT 수집"
   },
   {
     "cityId": "dubai",
@@ -2697,6 +2841,78 @@
     "note": "GPT 수집(2026-10-12)"
   },
   {
+    "cityId": "kaohsiung",
+    "nameKo": "옌수지",
+    "nameEn": "Yansuji",
+    "reason": "한입 크기로 튀겨 소금·후추를 뿌린 대만식 닭튀김",
+    "reasonEn": "Taiwanese popcorn chicken",
+    "desc": {
+      "ko": "한입 크기로 튀겨 소금·후추를 뿌린 대만식 닭튀김",
+      "en": "Bite-sized Taiwanese fried chicken with salt and pepper",
+      "ja": "一口大に揚げて塩胡椒をふった台湾式唐揚げ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://khh.travel/zh-tw/board-and-lodging/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "kaohsiung",
+    "nameKo": "해산물죽",
+    "nameEn": "Seafood Congee",
+    "reason": "해산물을 넣고 끓인 야식 대표 죽",
+    "reasonEn": "Seafood rice porridge",
+    "desc": {
+      "ko": "해산물을 넣고 끓인 야식 대표 죽",
+      "en": "Rice porridge with seafood, a late-night favorite",
+      "ja": "海鮮を入れて煮た夜食の定番のお粥"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://takao.kcg.gov.tw/article/837",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "kaohsiung",
+    "nameKo": "오리고기밥",
+    "nameEn": "Duck Rice",
+    "reason": "훈제 오리고기를 밥 위에 올린 요리",
+    "reasonEn": "Duck over rice",
+    "desc": {
+      "ko": "훈제 오리고기를 밥 위에 올린 요리",
+      "en": "Smoked duck slices over rice",
+      "ja": "燻製した鴨肉をご飯にのせた料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://khh.travel/zh-tw/shop/gourmet/786/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "kaohsiung",
+    "nameKo": "메이농 객가요리",
+    "nameEn": "Meinong Hakka Cuisine",
+    "reason": "메이농 지역의 전통 객가 요리(반탸오 국수 등)",
+    "reasonEn": "Hakka home cooking",
+    "desc": {
+      "ko": "메이농 지역의 전통 객가 요리(반탸오 국수 등)",
+      "en": "Traditional Hakka dishes from Meinong, such as flat rice noodles",
+      "ja": "美濃地区の伝統的な客家料理（板條など）"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://khh.travel/zh-tw/board-and-lodging/cuisines/",
+    "note": "GPT 수집"
+  },
+  {
     "cityId": "kobe",
     "nameKo": "고베규",
     "nameEn": "Kobe Beef",
@@ -3642,6 +3858,78 @@
     "note": "Claude 초안(2026-10-11)"
   },
   {
+    "cityId": "pattaya",
+    "nameKo": "호목",
+    "nameEn": "Ho Mok",
+    "reason": "생선을 커리 페이스트·코코넛밀크와 쪄 낸 태국식 생선 커리",
+    "reasonEn": "Steamed fish curry",
+    "desc": {
+      "ko": "생선을 커리 페이스트·코코넛밀크와 쪄 낸 태국식 생선 커리",
+      "en": "Fish steamed with curry paste and coconut milk",
+      "ja": "魚をカレーペーストとココナッツミルクで蒸した料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://www.tourismthailand.org/Destinations/Provinces/Chon-Buri/464",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "pattaya",
+    "nameKo": "카오람",
+    "nameEn": "Khao Lam",
+    "reason": "대나무통에 찹쌀과 코코넛밀크를 넣어 구운 간식",
+    "reasonEn": "Sticky rice in bamboo",
+    "desc": {
+      "ko": "대나무통에 찹쌀과 코코넛밀크를 넣어 구운 간식",
+      "en": "Sweet sticky rice with coconut milk roasted in bamboo",
+      "ja": "竹筒にもち米とココナッツミルクを入れて焼いたおやつ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://www.tourismthailand.org/Destinations/Provinces/Chon-Buri/464",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "pattaya",
+    "nameKo": "바나나칩",
+    "nameEn": "Banana Chips",
+    "reason": "얇게 썰어 튀긴 달콤한 바나나 과자",
+    "reasonEn": "Sweet banana chips",
+    "desc": {
+      "ko": "얇게 썰어 튀긴 달콤한 바나나 과자",
+      "en": "Thin, sweet fried banana slices",
+      "ja": "薄切りにして揚げた甘いバナナチップス"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://www.tourismthailand.org/Destinations/Provinces/Chon-Buri/464",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "pattaya",
+    "nameKo": "설탕절임 과일",
+    "nameEn": "Candied Fruits",
+    "reason": "과일을 설탕에 졸여 말린 시장 간식",
+    "reasonEn": "Candied fruit",
+    "desc": {
+      "ko": "과일을 설탕에 졸여 말린 시장 간식",
+      "en": "Fruit preserved in sugar, a market snack",
+      "ja": "果物を砂糖で煮て乾かした市場のおやつ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://www.tourismthailand.org/Destinations/Provinces/Chon-Buri/464",
+    "note": "GPT 수집"
+  },
+  {
     "cityId": "phu-quoc",
     "nameKo": "분꾸이",
     "nameEn": "Bun Quay",
@@ -3694,6 +3982,78 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "phuket",
+    "nameKo": "무홍",
+    "nameEn": "Moo Hong",
+    "reason": "돼지고기를 간장·후추로 달게 조린 푸껫 페라나칸 요리",
+    "reasonEn": "Phuket braised pork",
+    "desc": {
+      "ko": "돼지고기를 간장·후추로 달게 조린 푸껫 페라나칸 요리",
+      "en": "Pork belly braised in soy sauce and black pepper, Phuket Peranakan style",
+      "ja": "豚バラを醤油と黒胡椒で甘く煮込んだプーケットのプラナカン料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://thai.tourismthailand.org/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "phuket",
+    "nameKo": "남프릭 꿍시압",
+    "nameEn": "Nam Phrik Kung Siap",
+    "reason": "훈제 건새우로 만든 매운 소스에 채소를 찍어 먹는 요리",
+    "reasonEn": "Smoked shrimp chili dip",
+    "desc": {
+      "ko": "훈제 건새우로 만든 매운 소스에 채소를 찍어 먹는 요리",
+      "en": "Spicy dip made with smoked dried shrimp, eaten with vegetables",
+      "ja": "燻製した干しエビの辛いディップを野菜につけて食べる料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://thai.tourismthailand.org/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "phuket",
+    "nameKo": "깽 느아 바이 차플루",
+    "nameEn": "Kaeng Nuea Bai Chaphlu",
+    "reason": "차플루 잎을 넣은 소고기 커리에 쌀국수를 곁들인 요리",
+    "reasonEn": "Beef curry with betel leaves",
+    "desc": {
+      "ko": "차플루 잎을 넣은 소고기 커리에 쌀국수를 곁들인 요리",
+      "en": "Beef curry with wild betel leaves, served with rice noodles",
+      "ja": "チャプルーの葉を入れた牛肉カレーを米麺と食べる料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://thai.tourismthailand.org/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "phuket",
+    "nameKo": "팟 팍 미앙",
+    "nameEn": "Phat Phak Miang",
+    "reason": "멜린조 잎을 당면·새우 페이스트와 볶은 푸껫 향토 요리",
+    "reasonEn": "Stir-fried melinjo leaves",
+    "desc": {
+      "ko": "멜린조 잎을 당면·새우 페이스트와 볶은 푸껫 향토 요리",
+      "en": "Melinjo leaves stir-fried with glass noodles and shrimp paste",
+      "ja": "メリンジョの葉を春雨とエビ味噌で炒めた郷土料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청·정부 공식 안내",
+    "recommendUrl": "https://thai.tourismthailand.org/",
+    "note": "GPT 수집"
   },
   {
     "cityId": "prague",

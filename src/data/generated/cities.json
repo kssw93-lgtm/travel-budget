@@ -437,7 +437,7 @@
     "nameEn": "Phuket",
     "currency": "THB",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "pattaya",
@@ -447,7 +447,7 @@
     "nameEn": "Pattaya",
     "currency": "THB",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "da-lat",
@@ -457,7 +457,7 @@
     "nameEn": "Da Lat",
     "currency": "VND",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "kaohsiung",
@@ -467,7 +467,7 @@
     "nameEn": "Kaohsiung",
     "currency": "TWD",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "boracay",
@@ -497,7 +497,7 @@
     "nameEn": "Beijing",
     "currency": "CNY",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "amsterdam",

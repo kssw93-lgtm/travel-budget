@@ -70,14 +70,19 @@ describe('한/영 문구', () => {
   });
 });
 
+const pilotIds = allCities.filter((c) => c.stage === PILOT_STAGE).map((c) => c.id).sort();
+const pilotOf = (country: string) => allCities.filter((c) => c.stage === PILOT_STAGE && c.country === country);
+
 describe('가격 데이터 무결성', () => {
   it('선택 가능한 도시는 파일럿 도시이고 모든 표본이 (공개 전 도시 포함) 도시에 연결된다', () => {
-    expect(cities.map((c) => c.id).sort()).toEqual(['auckland', 'bali', 'bangkok', 'barcelona', 'beijing', 'budapest', 'busan', 'cebu', 'chiang-mai', 'da-lat', 'da-nang', 'dubai', 'fukuoka', 'gangneung', 'guam', 'gyeongju', 'hakodate', 'hanoi', 'hiroshima', 'ho-chi-minh-city', 'hong-kong', 'honolulu', 'interlaken', 'istanbul', 'jeju', 'jeonju', 'kanazawa', 'kaohsiung', 'kobe', 'kuala-lumpur', 'kyoto', 'lisbon', 'london', 'munich', 'nagoya', 'new-york', 'nha-trang', 'okinawa', 'osaka', 'paris', 'pattaya', 'phu-quoc', 'phuket', 'prague', 'rome', 'saipan', 'sapporo', 'seoul', 'shanghai', 'singapore', 'sydney', 'taipei', 'tokyo', 'ulaanbaatar', 'vancouver', 'vienna', 'yeosu']);
+    // 공개 도시 목록은 data:convert 결과(파일럿 단계)와 같아야 한다 — 도시를 공개할 때 테스트를 고칠 필요 없음
+    expect(cities.map((c) => c.id).sort()).toEqual(pilotIds);
+    expect(cities.length).toBeGreaterThanOrEqual(30);
     for (const s of samples) expect(allCities.some((c) => c.id === s.cityId && c.currency === s.currency)).toBe(true);
   });
   it('1차 화면에는 파일럿 도시만 노출하고 2차 이후 도시는 숨긴다', () => {
     expect(allCities.length).toBeGreaterThanOrEqual(cities.length);
-    expect(cities).toHaveLength(57);
+    expect(cities).toHaveLength(pilotIds.length);
     expect(cities.every((c) => c.stage === PILOT_STAGE)).toBe(true);
     const hidden = allCities.filter((c) => c.stage !== PILOT_STAGE).map((c) => c.id);
     expect(cities.some((c) => hidden.includes(c.id))).toBe(false);
@@ -139,7 +144,7 @@ describe('도시 선택: 나라별 묶음과 검색', () => {
   it('사용자 위치와 무관하게 나라별로 묶고, 나라·도시 이름순으로 정렬한다', () => {
     const ko = cityGroups(cities, 'ko');
     expect(ko.map((g) => g.country)).toEqual([...new Set(cities.map((c) => c.country))].sort((a, b) => a.localeCompare(b, 'ko')));
-    expect(ko.find((g) => g.country === '한국')!.items.map((c) => c.nameKo)).toEqual(['강릉', '경주', '부산', '서울', '여수', '전주', '제주']);
+    expect(ko.find((g) => g.country === '한국')!.items.map((c) => c.nameKo)).toEqual(pilotOf('한국').map((c) => c.nameKo).sort((a, b) => a.localeCompare(b, 'ko')));
     const en = cityGroups(cities, 'en');
     expect(en[0]!.country.localeCompare(en[1]!.country, 'en')).toBeLessThan(0);
     expect(en.flatMap((g) => g.items)).toHaveLength(cities.length);
@@ -147,8 +152,10 @@ describe('도시 선택: 나라별 묶음과 검색', () => {
   it('도시·나라 이름(한/영)으로 찾고 공백·대소문자는 무시한다', () => {
     const find = (q: string) => cities.filter((c) => matchCity(c, q)).map((c) => c.id).sort();
     expect(find('도쿄')).toEqual(['tokyo']);
-    expect(find('일본')).toEqual(['fukuoka', 'hakodate', 'hiroshima', 'kanazawa', 'kobe', 'kyoto', 'nagoya', 'okinawa', 'osaka', 'sapporo', 'tokyo']);
-    expect(find('south korea')).toEqual(['busan', 'gangneung', 'gyeongju', 'jeju', 'jeonju', 'seoul', 'yeosu']);
+    expect(find('일본')).toEqual(pilotOf('일본').map((c) => c.id).sort());
+    expect(find('일본')).toContain('tokyo');
+    expect(find('south korea')).toEqual(pilotOf('한국').map((c) => c.id).sort());
+    expect(find('south korea')).toContain('seoul');
     expect(find('ParIs')).toEqual(['paris']);
     expect(find('다 낭')).toEqual(['da-nang']);
     expect(find('')).toHaveLength(cities.length);

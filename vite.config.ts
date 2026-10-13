@@ -7,6 +7,9 @@ import { ko } from './src/i18n/ko';
 import { guidePath } from './src/core/guide';
 import { cities, dataDate, dataMeta, extras, foods, memos, samples } from './src/data';
 import { PRIVACY_EFFECTIVE } from './src/ui/policy';
+import { KEYWORDS } from './src/core/model-config';
+
+const MODEL_TAX_EXCLUDED = KEYWORDS.taxExcluded;
 
 /**
  * SEO·광고 보조 파일. SITE_URL(예: https://example.com)이 있으면 canonical·hreflang·og:url 과 sitemap.xml,
@@ -53,9 +56,25 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
   };
 };
 
+/**
+ * 배포 번들 가볍게: 가격 표본의 note(수집 메모·원문 인용, 화면에 쓰지 않음)를 뺀다.
+ * 화면이 쓰는 유일한 용도(세금·서비스료 별도 판정)는 짧은 표시로 남긴다. 테스트(vitest)·스크립트는 원본을 그대로 쓴다.
+ */
+const slimData = (): Plugin => ({
+  name: 'slim-data',
+  apply: 'build',
+  enforce: 'pre',
+  transform(code, id) {
+    if (!id.replace(/\\/g, '/').endsWith('/src/data/generated/samples.json')) return null;
+    const rows = JSON.parse(code) as Array<{ note?: string; unit?: string }>;
+    for (const r of rows) r.note = MODEL_TAX_EXCLUDED.test(`${r.note ?? ''} ${r.unit ?? ''}`) ? '세금·서비스료 별도' : '';
+    return { code: JSON.stringify(rows), map: null };
+  },
+});
+
 // 개발 중에는 `npm run dev:worker`(wrangler dev, 8787)로 /api/* 를 프록시한다.
 export default defineConfig(({ mode }) => ({
-  plugins: [react(), seo(process.env.SITE_URL ?? 'https://travel-budget.xxxjkim.workers.dev', process.env.ADSENSE_PUBLISHER_ID, process.env.VITE_CONTACT_EMAIL ?? loadEnv(mode, process.cwd(), 'VITE_').VITE_CONTACT_EMAIL)],
+  plugins: [slimData(), react(), seo(process.env.SITE_URL ?? 'https://travel-budget.xxxjkim.workers.dev', process.env.ADSENSE_PUBLISHER_ID, process.env.VITE_CONTACT_EMAIL ?? loadEnv(mode, process.cwd(), 'VITE_').VITE_CONTACT_EMAIL)],
   build: {
     rollupOptions: {
       input: Object.fromEntries(SITE_PAGES.map((p) => [p.file.replace('.html', ''), resolve(__dirname, p.file)])),

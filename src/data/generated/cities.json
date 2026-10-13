@@ -357,7 +357,7 @@
     "nameEn": "Sokcho",
     "currency": "KRW",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "tongyeong",
@@ -367,7 +367,7 @@
     "nameEn": "Tongyeong",
     "currency": "KRW",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "daegu",
@@ -377,7 +377,7 @@
     "nameEn": "Daegu",
     "currency": "KRW",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "incheon",
@@ -507,7 +507,7 @@
     "nameEn": "Amsterdam",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "athens",
@@ -517,7 +517,7 @@
     "nameEn": "Athens",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "dubrovnik",

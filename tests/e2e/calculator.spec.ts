@@ -150,6 +150,7 @@ test.describe('계산기 핵심 흐름', () => {
   });
 
   test('파일럿 도시 화면이 실제 데이터 판정과 일치한다(계산 가능 → 합계, 부족 → 부족 항목)', async ({ page }) => {
+    test.setTimeout(30_000 + pilotCities.length * 1_500); // 도시가 늘어도 시간 초과로 실패하지 않게
     await mockRates(page);
     await page.goto('/');
     const label: Record<string, string> = { food: '외식', transport: '현지 교통', attraction: '관광지' };

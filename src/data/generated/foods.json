@@ -1269,6 +1269,150 @@
     "note": "공식 관광 안내의 음식 추천만 기록. 본문에 가격 언급이 있어도 평균값은 사용하지 않음."
   },
   {
+    "cityId": "amsterdam",
+    "nameKo": "비터발렌",
+    "nameEn": "Bitterballen",
+    "reason": "고기 라구를 동그랗게 빚어 튀긴 네덜란드 술안주",
+    "reasonEn": "Dutch fried meatballs",
+    "desc": {
+      "ko": "고기 라구를 동그랗게 빚어 튀긴 네덜란드 술안주",
+      "en": "Deep-fried meat ragout balls, a classic Dutch bar snack",
+      "ja": "肉のラグーを丸めて揚げたオランダのおつまみ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://www.iamsterdam.com/en/see-and-do/restaurant-and-bars/dutch-foods-to-try",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "amsterdam",
+    "nameKo": "스트룹와플",
+    "nameEn": "Stroopwafel",
+    "reason": "얇은 와플 두 장 사이에 캐러멜 시럽을 넣은 과자",
+    "reasonEn": "Caramel waffle cookie",
+    "desc": {
+      "ko": "얇은 와플 두 장 사이에 캐러멜 시럽을 넣은 과자",
+      "en": "Two thin waffles sandwiching caramel syrup",
+      "ja": "薄いワッフル2枚でキャラメルシロップを挟んだお菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://www.iamsterdam.com/en/see-and-do/restaurant-and-bars/dutch-foods-to-try",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "amsterdam",
+    "nameKo": "청어",
+    "nameEn": "Haring",
+    "reason": "소금에 절인 생청어를 양파와 함께 먹는 네덜란드 길거리 음식",
+    "reasonEn": "Raw Dutch herring",
+    "desc": {
+      "ko": "소금에 절인 생청어를 양파와 함께 먹는 네덜란드 길거리 음식",
+      "en": "Lightly salted raw herring eaten with onions",
+      "ja": "塩漬けの生ニシンを玉ねぎと食べる屋台料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://www.iamsterdam.com/en/see-and-do/restaurant-and-bars/dutch-foods-to-try",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "amsterdam",
+    "nameKo": "키벨링",
+    "nameEn": "Kibbeling",
+    "reason": "흰살생선을 튀겨 소스에 찍어 먹는 간식",
+    "reasonEn": "Fried fish bites",
+    "desc": {
+      "ko": "흰살생선을 튀겨 소스에 찍어 먹는 간식",
+      "en": "Battered fried fish chunks with dipping sauce",
+      "ja": "白身魚を揚げてソースにつけて食べる軽食"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://www.iamsterdam.com/en/see-and-do/restaurant-and-bars/dutch-foods-to-try",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "athens",
+    "nameKo": "호리아티키 샐러드",
+    "nameEn": "Choriatiki Salad",
+    "reason": "토마토·오이·양파·페타 치즈·올리브를 올리브오일로 버무린 그리스 샐러드",
+    "reasonEn": "Greek salad",
+    "desc": {
+      "ko": "토마토·오이·양파·페타 치즈·올리브를 올리브오일로 버무린 그리스 샐러드",
+      "en": "Tomato, cucumber, onion, feta and olives dressed with olive oil",
+      "ja": "トマト・きゅうり・玉ねぎ・フェタ・オリーブをオリーブ油で和えたサラダ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://www.visitgreece.gr/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "athens",
+    "nameKo": "수블라키",
+    "nameEn": "Souvlaki",
+    "reason": "꼬치구이 고기를 피타에 싸 먹는 그리스 대표 길거리 음식",
+    "reasonEn": "Greek skewers",
+    "desc": {
+      "ko": "꼬치구이 고기를 피타에 싸 먹는 그리스 대표 길거리 음식",
+      "en": "Grilled meat skewers, often wrapped in pita",
+      "ja": "串焼き肉をピタで包んで食べるギリシャの屋台料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://www.visitgreece.gr/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "athens",
+    "nameKo": "무사카",
+    "nameEn": "Moussaka",
+    "reason": "가지·감자·다진 고기·베샤멜 소스를 층층이 쌓아 구운 요리",
+    "reasonEn": "Baked eggplant layers",
+    "desc": {
+      "ko": "가지·감자·다진 고기·베샤멜 소스를 층층이 쌓아 구운 요리",
+      "en": "Layered eggplant, potato, minced meat and béchamel, baked",
+      "ja": "ナス・じゃがいも・ひき肉・ベシャメルを重ねて焼いた料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://www.visitgreece.gr/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "athens",
+    "nameKo": "차지키",
+    "nameEn": "Tzatziki",
+    "reason": "요거트·오이·마늘로 만든 차가운 딥",
+    "reasonEn": "Yogurt-cucumber dip",
+    "desc": {
+      "ko": "요거트·오이·마늘로 만든 차가운 딥",
+      "en": "Cold yogurt, cucumber and garlic dip",
+      "ja": "ヨーグルト・きゅうり・にんにくの冷たいディップ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://www.visitgreece.gr/",
+    "note": "GPT 수집"
+  },
+  {
     "cityId": "auckland",
     "nameKo": "피시 앤 칩스",
     "nameEn": "Fish and Chips",
@@ -1882,6 +2026,78 @@
     "priceStatus": "대기",
     "recommendSource": "관광청·정부 공식 안내",
     "recommendUrl": "https://vietnam.travel/jp/things-to-do/eating-dalat-chef-peter",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "daegu",
+    "nameKo": "따로국밥",
+    "nameEn": "Ttaro-gukbap",
+    "reason": "밥과 매콤한 소고기 국을 따로 내는 대구식 국밥",
+    "reasonEn": "Daegu beef soup",
+    "desc": {
+      "ko": "밥과 매콤한 소고기 국을 따로 내는 대구식 국밥",
+      "en": "Spicy beef soup served with rice on the side",
+      "ja": "ご飯と辛い牛肉スープを別々に出す大邱式クッパ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://korean.visitkorea.or.kr/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "daegu",
+    "nameKo": "막창구이",
+    "nameEn": "Grilled Makchang",
+    "reason": "소 막창을 숯불에 구워 된장 소스에 찍어 먹는 대구 명물",
+    "reasonEn": "Grilled beef tripe",
+    "desc": {
+      "ko": "소 막창을 숯불에 구워 된장 소스에 찍어 먹는 대구 명물",
+      "en": "Charcoal-grilled beef intestines with soybean dipping sauce",
+      "ja": "牛の第4胃を炭火で焼き味噌だれで食べる大邱名物"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://korean.visitkorea.or.kr/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "daegu",
+    "nameKo": "동인동 찜갈비",
+    "nameEn": "Dongin-dong Jjimgalbi",
+    "reason": "마늘·고춧가루로 매콤하게 찐 대구식 소갈비찜",
+    "reasonEn": "Spicy braised ribs",
+    "desc": {
+      "ko": "마늘·고춧가루로 매콤하게 찐 대구식 소갈비찜",
+      "en": "Spicy braised beef short ribs with garlic and chili",
+      "ja": "にんにくと唐辛子で辛く蒸した大邱式カルビ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://korean.visitkorea.or.kr/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "daegu",
+    "nameKo": "납작만두",
+    "nameEn": "Napjak-mandu",
+    "reason": "얇게 부친 납작한 만두에 양념을 얹어 먹는 대구 간식",
+    "reasonEn": "Flat dumplings",
+    "desc": {
+      "ko": "얇게 부친 납작한 만두에 양념을 얹어 먹는 대구 간식",
+      "en": "Thin flat dumplings pan-fried and topped with seasoning",
+      "ja": "薄く平たく焼いた餃子にたれをかけて食べる大邱のおやつ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://korean.visitkorea.or.kr/",
     "note": "GPT 수집"
   },
   {
@@ -4432,6 +4648,78 @@
     "note": "Claude 초안(2026-10-09)"
   },
   {
+    "cityId": "sokcho",
+    "nameKo": "오징어순대",
+    "nameEn": "Ojingeo Sundae",
+    "reason": "오징어 몸통에 당면·채소·두부를 채워 쪄 낸 속초 향토 음식",
+    "reasonEn": "Stuffed squid",
+    "desc": {
+      "ko": "오징어 몸통에 당면·채소·두부를 채워 쪄 낸 속초 향토 음식",
+      "en": "Squid stuffed with glass noodles, vegetables and tofu, then steamed",
+      "ja": "イカの胴に春雨・野菜・豆腐を詰めて蒸した束草の郷土料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://korean.visitkorea.or.kr/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "sokcho",
+    "nameKo": "아바이순대",
+    "nameEn": "Abai Sundae",
+    "reason": "실향민 음식문화가 이어진 아바이마을의 순대",
+    "reasonEn": "Abai Village sausage",
+    "desc": {
+      "ko": "실향민 음식문화가 이어진 아바이마을의 순대",
+      "en": "Sausage from Abai Village, carried on by North Korean refugees",
+      "ja": "失郷民の食文化が受け継がれたアバイ村のスンデ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://korean.visitkorea.or.kr/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "sokcho",
+    "nameKo": "가자미식해",
+    "nameEn": "Gajami Sikhae",
+    "reason": "가자미를 조밥·고춧가루와 삭힌 함경도식 젓갈",
+    "reasonEn": "Fermented flounder",
+    "desc": {
+      "ko": "가자미를 조밥·고춧가루와 삭힌 함경도식 젓갈",
+      "en": "Flounder fermented with millet and chili, a Hamgyeong-style dish",
+      "ja": "カレイを粟飯と唐辛子で発酵させた咸鏡道式の塩辛"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://korean.visitkorea.or.kr/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "sokcho",
+    "nameKo": "명태회무침",
+    "nameEn": "Pollock Hoe Muchim",
+    "reason": "명태를 매콤새콤하게 무친 북녘식 회무침",
+    "reasonEn": "Spicy pollock salad",
+    "desc": {
+      "ko": "명태를 매콤새콤하게 무친 북녘식 회무침",
+      "en": "Spicy and tangy seasoned raw pollock",
+      "ja": "スケトウダラを甘辛酸っぱく和えた料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://korean.visitkorea.or.kr/",
+    "note": "GPT 수집"
+  },
+  {
     "cityId": "sydney",
     "nameKo": "미트파이",
     "nameEn": "Meat Pie",
@@ -4484,6 +4772,60 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "tongyeong",
+    "nameKo": "충무김밥",
+    "nameEn": "Chungmu Gimbap",
+    "reason": "맨밥 김밥에 오징어무침·석박지를 곁들인 통영 대표 음식",
+    "reasonEn": "Tongyeong rice rolls",
+    "desc": {
+      "ko": "맨밥 김밥에 오징어무침·석박지를 곁들인 통영 대표 음식",
+      "en": "Plain rice rolls served with spicy squid and radish kimchi",
+      "ja": "具なしの海苔巻きにイカの和え物とカクテギを添えた統営名物"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://korean.visitkorea.or.kr/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "tongyeong",
+    "nameKo": "꿀빵",
+    "nameEn": "Kkulppang",
+    "reason": "팥소를 넣어 튀긴 뒤 꿀물을 입힌 통영 주전부리",
+    "reasonEn": "Honey-glazed bun",
+    "desc": {
+      "ko": "팥소를 넣어 튀긴 뒤 꿀물을 입힌 통영 주전부리",
+      "en": "Fried bean-paste bun glazed with honey syrup",
+      "ja": "あんを包んで揚げ、蜜をからめた統営のおやつ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://korean.visitkorea.or.kr/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "tongyeong",
+    "nameKo": "빼떼기죽",
+    "nameEn": "Ppaettegi-juk",
+    "reason": "말린 고구마로 쑨 달콤한 통영 전통 죽",
+    "reasonEn": "Sweet potato porridge",
+    "desc": {
+      "ko": "말린 고구마로 쑨 달콤한 통영 전통 죽",
+      "en": "Sweet porridge made from dried sweet potato",
+      "ja": "干しさつまいもで作る甘いお粥"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광공사·관광청 공식 안내",
+    "recommendUrl": "https://korean.visitkorea.or.kr/",
+    "note": "GPT 수집"
   },
   {
     "cityId": "ulaanbaatar",

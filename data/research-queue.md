@@ -63,15 +63,29 @@
 | 밴쿠버 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 오클랜드 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오클랜드 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 속초 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 통영 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 대구 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 고베 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 고베 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 히로시마 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 히로시마 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 가나자와 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 가나자와 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 하코다테 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 하코다테 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 푸껫 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 푸껫 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 파타야 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 달랏 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 가오슝 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 가오슝 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 베이징 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 베이징 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 암스테르담 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 암스테르담 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 아테네 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 아테네 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -701,6 +715,84 @@
 | HKT-AT-104 | 푸껫 | 프라나칸 푸껫 박물관 | 150 THB | A | 예 | 재검증 | [태국관광청 일본사무소 공식 사이트](https://www.thailandtravel.or.jp/peranakan-phuket-museum/) |
 | HKT-AT-105 | 푸껫 | 푸껫 조개박물관(외국인) | 200 THB | A | 예 | 재검증 | [푸껫주 공식 홈페이지](https://phuket.go.th/eng/Museums-Phuket%20Sea%20Shell%20Museum.php) |
 | HKT-AT-106 | 푸껫 | 푸껫 조개박물관(외국인) | 100 THB | A | 예 | 재검증 | [푸껫주 공식 홈페이지](https://phuket.go.th/eng/Museums-Phuket%20Sea%20Shell%20Museum.php) |
+| UKB-TR-201 | 고베 | 고베 시영버스 일반구역 요금 | 230 JPY | A | 예 | 재검증 | [神戸市交通局](https://kotsu.city.kobe.lg.jp/bus/ryokin-teiki/) |
+| HIJ-TR-201 | 히로시마 | こいみゆきライン 실증운행 버스 요금 | 240 JPY | A | 예 | 재검증 | [広島バス株式会社](https://www.hirobus.co.jp/buspf-route-koimiyuki/) |
+| KNZ-TR-201 | 가나자와 | 성하마을 가나자와 주유버스 1회 운임 | 220 JPY | A | 예 | 재검증 | [北陸鉄道株式会社](https://www.hokutetsu.co.jp/tourism-bus/castle-town) |
+| HKD-TR-201 | 하코다테 | 하코다테 버스 기본 운임 | 250 JPY | A | 예 | 재검증 | [函館バス株式会社](https://map.hakobus.co.jp/fare/) |
+| HKT-TR-201 | 푸껫 | 푸껫 스마트버스 (공항~Rawai 노선) | 100 THB | A | 예 | 재검증 | [Airports of Thailand / Phuket International Airport](https://phuket.airportthai.co.th/service/transportation/detail/151) |
+| KHH-TR-201 | 가오슝 | 가오슝 MRT 기본 운임 (0~5km) | 20 TWD | A | 예 | 재검증 | [高雄捷運股份有限公司](https://www.krtc.com.tw/Service/faq_more?id=5bff9a71b6034b639b6faacafdf3bf61) |
+| HKT-FD-201 | 푸껫 | 아침 세트 메뉴 (VIVA Rooftop) | 270 THB | A | 예 | 재검증 | [VIVA Rooftop & Restaurant](https://vivarooftopandrestaurant.com/menu/) |
+| HKT-FD-202 | 푸껫 | 새우·바비큐 돼지고기·표고버섯 볶음 홀키엔면 (Yue Restaurant & Bar) | 390 THB | A | 예 | 재검증, 세금·서비스료 별도 | [Yue Restaurant & Bar Phuket](https://www.yuephukettown.com/our-menus) |
+| PYX-FD-201 | 파타야 | 알리오 올리오 페페론치노 파스타 (Thai Garden Resort) | 230 THB | A | 예 | 재검증 | [Thai Garden Resort Pattaya](https://thaigarden.com/wp-content/uploads/2025/05/thai-garden-resort-pattaya-restaurant-menu.pdf) |
+| PYX-FD-202 | 파타야 | 파스타 알라 크레마 (Amari Pattaya, Aqua Eatery & Bar) | 280 THB | A | 예 | 재검증, 세금·서비스료 별도 | [Amari Pattaya / Aqua Eatery & Bar](https://my.amari.com/pattaya/dine/aqua-eatery-bar) |
+| DLI-FD-201 | 달랏 | 해산물 볶음면 (Xóm Lèo) | 132000 VND | A | 예 | 재검증 | [Xóm Lèo](https://xomleo.vn/menu/) |
+| DLI-FD-202 | 달랏 | 새우 달걀볶음밥 (Dưới Tán Anh Đào) | 159000 VND | A | 예 | 재검증 | [Dưới Tán Anh Đào](https://duoitananhdao.com/) |
+| KHH-FD-201 | 가오슝 | 볶음밥 (阿榮海鮮鵝肉) | 170 TWD | A | 예 | 재검증 | [阿榮海鮮鵝肉](https://arongseafood.com/menu.html) |
+| KHH-FD-202 | 가오슝 | 4코스 식사 메뉴 (AILAV) | 990 TWD | A | 예 | 재검증 | [AILAV](https://www.ailav.com.tw/) |
+| PEK-FD-201 | 베이징 | 해산물 파스타 (Bosco by TRB) | 208 CNY | A | 예 | 재검증 | [Bosco by TRB](https://www.boscobytrb.com/menu) |
+| PEK-TR-201 | 베이징 | 베이징 지하철 기본요금 (6km 이내) | 3 CNY | A | 예 | 재검증 | [Beijing Municipal Government (source: Beijing Subway Co., Ltd.)](https://english.beijing.gov.cn/specials/beijinglifeonthesubway/noticeforpassengers/202504/t20250423_4072294.html) |
+| UKB-FD-201 | 고베 | 淡路鶏チキン南蛮ランチ（open air神戸元町店） | 1180 JPY | A | 예 | 재검증 | [WORLD ONE / open air神戸元町店](https://www.world-one-group.co.jp/shop_detail/openair-motomachi/menu/lunch/) |
+| UKB-FD-202 | 고베 | 神戸牛ステーキランチ（ステーキランド神戸館・神戸店） | 3500 JPY | A | 예 | 재검증 | [ステーキランド神戸館・神戸店](https://steakland-kobe.jp/pages/22/) |
+| HIJ-FD-201 | 히로시마 | 肉玉そば（安芸乃屋） | 880 JPY | A | 예 | 재검증 | [安芸乃屋](https://akinoya-okonomiyaki.com/wp-content/uploads/2025/09/%E5%AE%89%E8%8A%B8%E3%83%8E%E5%B1%8B%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%95%E5%B9%B4%EF%BC%95%E6%9C%88%EF%BC%91%E6%97%A5%EF%BD%9E.pdf) |
+| HIJ-FD-202 | 히로시마 | そば・ねぎかけ・キムチ入り（お好み村 たけのこ） | 1550 JPY | A | 예 | 재검증, 세금·서비스료 별도 | [お好み村 たけのこ](https://okonomimura-takenoko.com/menu/) |
+| KNZ-FD-201 | 가나자와 | ロースカツカレー（中サイズ、ゴーゴーカレー 金沢駅総本山） | 1030 JPY | A | 예 | 재검증 | [金沢市観光協会 公式ガイド](https://www.kanazawa-kankoukyoukai.or.jp/lsc/upfile/document/0000/0088/88_1_file.pdf) |
+| KNZ-FD-202 | 가나자와 | 海鮮山掛けどん（胡麻醤油、旬彩和食 口福） | 1848 JPY | A | 예 | 재검증 | [旬彩和食 口福](https://www.koufuku-kanazawa.com/list/109323/) |
+| HKD-FD-201 | 하코다테 | 味噌らーめん（らーめん 響 HIBIKI） | 1090 JPY | A | 예 | 재검증 | [らーめん 響 HIBIKI](https://hibiki-hakodate.com/menu/) |
+| HKD-FD-202 | 하코다테 | 大えび天丼セット（海峡 海味鮨） | 1980 JPY | A | 예 | 재검증, 세금·서비스료 별도 | [海峡 海味鮨](https://umi-zushi.com/menu/) |
+| TAE-AT-101 | 대구 | 이월드 종일 자유이용권 | 49000 KRW | A | 예 | 재검증 | [이월드 공식 요금 안내](https://eworld.kr/home/price/ticket/ticket) |
+| TAE-AT-102 | 대구 | 이월드 종일 자유이용권 (아동) | 39000 KRW | A | 예 | 재검증 | [이월드 공식 요금 안내](https://eworld.kr/home/price/ticket/ticket) |
+| TAE-AT-103 | 대구 | 대구아쿠아리움 입장권 | 29000 KRW | A | 예 | 재검증 | [대구아쿠아리움 공식 요금 안내](https://daeguaqua.com/aliveaqua/price) |
+| TAE-AT-104 | 대구 | 대구아쿠아리움 입장권 (아동) | 25000 KRW | A | 예 | 재검증 | [대구아쿠아리움 공식 요금 안내](https://daeguaqua.com/aliveaqua/price) |
+| TAE-AT-105 | 대구 | 팔공산 케이블카 왕복 | 14000 KRW | A | 예 | 재검증 | [대구광역시 관광 공식 안내](https://tour.daegu.go.kr/index.do?menu_id=00002942&menu_link=%2Ffront%2Ftour%2FtourMapsView.do%3FtourId%3DKOATTR_293) |
+| TAE-AT-106 | 대구 | 팔공산 케이블카 왕복 (아동) | 8000 KRW | A | 예 | 재검증 | [대구광역시 관광 공식 안내](https://tour.daegu.go.kr/index.do?menu_id=00002942&menu_link=%2Ffront%2Ftour%2FtourMapsView.do%3FtourId%3DKOATTR_293) |
+| SCH-AT-101 | 속초 | 설악 케이블카 왕복 | 16000 KRW | A | 예 | 재검증 | [설악 케이블카 공식 홈페이지](https://www.sorakcablecar.co.kr/guide) |
+| SCH-AT-102 | 속초 | 설악 케이블카 왕복 (아동) | 12000 KRW | A | 예 | 재검증 | [설악 케이블카 공식 홈페이지](https://www.sorakcablecar.co.kr/guide) |
+| SCH-AT-103 | 속초 | 속초시립박물관 개인 관람료 | 2000 KRW | A | 예 | 재검증 | [속초시립박물관 공식 관람안내](https://sokcho.go.kr/ct/museum/intro/guide) |
+| SCH-AT-104 | 속초 | 속초시립박물관 개인 관람료 (아동) | 700 KRW | A | 예 | 재검증 | [속초시립박물관 공식 관람안내](https://sokcho.go.kr/ct/museum/intro/guide) |
+| SCH-AT-105 | 속초 | 엑스포타워 입장료 | 2500 KRW | A | 예 | 재검증 | [속초시 관광 공식 누리집](https://www.sokcho.go.kr/ct/tour/attraction/experience?contentSeq=59) |
+| SCH-AT-106 | 속초 | 엑스포타워 입장료 (아동) | 1500 KRW | A | 예 | 재검증 | [속초시 관광 공식 누리집](https://www.sokcho.go.kr/ct/tour/attraction/experience?contentSeq=59) |
+| TYG-AT-101 | 통영 | 통영수산과학관 개인 관람료 | 3000 KRW | A | 예 | 재검증 | [통영수산과학관 공식 요금안내](https://muse.ttdc.kr/mobile/sub.aspx?page=guide01) |
+| TYG-AT-102 | 통영 | 통영수산과학관 개인 관람료 (아동) | 2000 KRW | A | 예 | 재검증 | [통영수산과학관 공식 요금안내](https://muse.ttdc.kr/mobile/sub.aspx?page=guide01) |
+| TYG-AT-103 | 통영 | 스카이라인 루지 통영 스카이라이드+루지 5회+디지털 사진 2매 | 41000 KRW | A | 예 | 재검증 | [스카이라인 루지 통영 공식 홈페이지](https://tongyeong.skylineluge.kr/) |
+| TYG-AT-104 | 통영 | 스카이라인 루지 통영 어린이 동반 추가요금 (5회 패키지) | 15000 KRW | A | 예 | 재검증 | [스카이라인 루지 통영 공식 홈페이지](https://tongyeong.skylineluge.kr/) |
+| TYG-AT-105 | 통영 | 통영 삼도수군통제영 개인 관람료 | 3000 KRW | A | 예 | 재검증 | [국가법령정보센터·통영시 조례](https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1928911) |
+| TYG-AT-106 | 통영 | 통영 삼도수군통제영 개인 관람료 (아동) | 1000 KRW | A | 예 | 재검증 | [국가법령정보센터·통영시 조례](https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1928911) |
+| ATH-TR-502 | 아테네 | 아테네 대중교통 24시간권 | 4.1 EUR | A | 예 | 재검증 | [OASA](https://www.oasa.gr/en/tickets/prices-of-products/) |
+| ATH-AT-501 | 아테네 | 아테네 아크로폴리스 입장권 (성인) | 30 EUR | A | 예 | 재검증 | [Visit Greece; Hellenic Ministry of Culture](https://www.visitgreece.gr/en/experiences/culture/archaeological-sites-monuments/acropolis-of-Athens; https://www.culture.gov.gr/en/service/SitePages/view.aspx?fs=e&iID=2695&s=cl) |
+| ATH-AT-502 | 아테네 | 아테네 아크로폴리스 입장권 (아동 6~12세) | 0 EUR | A | 예 | 재검증 | [Hellenic Ministry of Culture](https://www.culture.gov.gr/en/service/SitePages/view.aspx?fs=e&iID=2695&s=cl) |
+| ATH-AT-503 | 아테네 | 아크로폴리스 박물관 입장권 (성인) | 20 EUR | A | 예 | 재검증 | [Acropolis Museum](https://www.theacropolismuseum.gr/en/plan-your-visit) |
+| ATH-AT-504 | 아테네 | 아크로폴리스 박물관 입장권 (아동 6~12세) | 10 EUR | A | 예 | 재검증 | [Acropolis Museum](https://www.theacropolismuseum.gr/en/plan-your-visit) |
+| ATH-AT-505 | 아테네 | 아테네 국립고고학박물관 입장권 (성인) | 20 EUR | A | 예 | 재검증 | [National Archaeological Museum](https://www.namuseum.gr/en/episkepsi/) |
+| ATH-AT-506 | 아테네 | 아테네 국립고고학박물관 입장권 (아동 6~12세) | 0 EUR | A | 예 | 재검증 | [National Archaeological Museum](https://www.namuseum.gr/en/episkepsi/) |
+| ATH-FD-501 | 아테네 | 돼지고기 수블라키 | 11.5 EUR | A | 예 | 재검증 | [The New Era Athens](https://www.theneweraathens.gr/menu) |
+| ATH-FD-502 | 아테네 | 무사카 클레이팟 | 12.9 EUR | A | 예 | 재검증 | [The New Era Athens](https://www.theneweraathens.gr/menu) |
+| ATH-FD-503 | 아테네 | 소고기 라구 파파르델레 | 19.5 EUR | A | 예 | 재검증 | [Psarras Tavern](https://psaras-taverna.gr/menu/) |
+| ATH-SN-501 | 아테네 | 감자튀김 | 4.5 EUR | A | 예 | 재검증 | [The New Era Athens](https://www.theneweraathens.gr/menu) |
+| ATH-SN-502 | 아테네 | 바클라바 | 8.5 EUR | A | 예 | 재검증 | [The New Era Athens](https://www.theneweraathens.gr/menu) |
+| ATH-SN-503 | 아테네 | 오렌지 파이 | 7.5 EUR | A | 예 | 재검증 | [The New Era Athens](https://www.theneweraathens.gr/menu) |
+| ATH-AL-501 | 아테네 | 마모스 필스너 400ml 5% | 4.5 EUR | A | 예 | 재검증 | [The New Era Athens](https://www.theneweraathens.gr/menu) |
+| ATH-AL-502 | 아테네 | 알파 라거 330ml 5% | 5 EUR | A | 예 | 재검증 | [The New Era Athens](https://www.theneweraathens.gr/menu) |
+| ATH-AL-503 | 아테네 | 플로마리 우조 200ml 40% | 11 EUR | A | 예 | 재검증 | [The New Era Athens](https://www.theneweraathens.gr/menu) |
+| AMS-TR-501 | 암스테르담 | GVB 1시간권 | 3.4 EUR | A | 예 | 재검증 | [GVB](https://www.gvb.nl/reisproducten/uur-en-dagkaarten/gvb-1-uurkaart) |
+| AMS-FD-501 | 암스테르담 | 풀 아이리시 아침 식사 | 14.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
+| AMS-FD-502 | 암스테르담 | 클럽 샌드위치 | 12.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
+| AMS-FD-503 | 암스테르담 | 채식 버거 | 16.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
+| AMS-FD-504 | 암스테르담 | 페네 아라비아타 | 16.5 EUR | A | 예 | 재검증 | [Cafe Piazza](https://cafepiazza.nl/menu/) |
+| AMS-FD-505 | 암스테르담 | 참치 샐러드 | 16.4 EUR | A | 예 | 재검증 | [Cafe Piazza](https://cafepiazza.nl/menu/) |
+| AMS-FD-506 | 암스테르담 | 야채 피자 | 18 EUR | A | 예 | 재검증 | [Cafe Piazza](https://cafepiazza.nl/menu/) |
+| AMS-SN-501 | 암스테르담 | 비터발렌 | 7.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
+| AMS-SN-502 | 암스테르담 | 어니언 링 | 5.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
+| AMS-SN-503 | 암스테르담 | 치즈 스프링롤 | 7.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
+| AMS-AL-501 | 암스테르담 | 매그너스 오리지널 사이다 0.5L | 7.8 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
+| AMS-AL-502 | 암스테르담 | 바이엔슈테파너 맥주 0.5L | 7 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
+| AMS-AL-503 | 암스테르담 | 바르슈타이너 생맥주 소 0.3L | 4.3 EUR | A | 예 | 재검증 | [Cafe Piazza](https://cafepiazza.nl/menu/) |
+| AMS-AT-501 | 암스테르담 | 레이크스뮤지엄 입장권 (성인) | 25 EUR | A | 예 | 재검증 | [Rijksmuseum](https://www.rijksmuseum.nl/en/families-and-children) |
+| AMS-AT-502 | 암스테르담 | 레이크스뮤지엄 입장권 (아동) | 0 EUR | A | 예 | 재검증 | [Rijksmuseum](https://www.rijksmuseum.nl/en/families-and-children) |
+| AMS-AT-503 | 암스테르담 | 안네 프랑크의 집 입장권 (성인) | 16.5 EUR | A | 예 | 재검증 | [Anne Frank House](https://www.annefrank.org/en/museum/tickets/) |
+| AMS-AT-504 | 암스테르담 | 안네 프랑크의 집 입장권 (아동 0~9세) | 1 EUR | A | 예 | 재검증 | [Anne Frank House](https://www.annefrank.org/en/museum/tickets/) |
+| AMS-AT-505 | 암스테르담 | 안네 프랑크의 집 입장권 (아동 10~17세) | 7 EUR | A | 예 | 재검증 | [Anne Frank House](https://www.annefrank.org/en/museum/tickets/) |
+| AMS-AT-506 | 암스테르담 | NEMO 과학박물관 입장권 (성인) | 21.5 EUR | A | 예 | 재검증 | [NEMO Science Museum](https://tickets.nemosciencemuseum.nl/en/tickets) |
+| AMS-AT-507 | 암스테르담 | NEMO 과학박물관 입장권 (아동 4~12세) | 21.5 EUR | A | 예 | 재검증 | [NEMO Science Museum](https://tickets.nemosciencemuseum.nl/en/tickets) |
 | TYO-AT-206 | 도쿄 | 도쿄타워 메인데크 초등학생 입장권 | 900 JPY | A | 예 | 재검증 | [TOKYO TOWER](https://en.tokyotower.co.jp/fee/) |
 | OSA-AT-201 | 오사카 | 산타마리아 데이크루즈 초등학생 요금 | 1000 JPY | A | 예 | 재검증 | [大阪水上バス](https://suijo-bus.osaka/cruiselist/santamaria/) |
 | BKK-AT-201 | 방콕 | 방콕 예술문화센터 일반 전시 아동 관람 | 0 THB | A | 예 | 재검증 | [Bangkok Art and Culture Centre](https://www.bacc.or.th/en/plan-your-visit) |

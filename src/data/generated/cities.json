@@ -227,7 +227,7 @@
     "nameEn": "Macau",
     "currency": "MOP",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "honolulu",
@@ -527,7 +527,7 @@
     "nameEn": "Dubrovnik",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "los-angeles",

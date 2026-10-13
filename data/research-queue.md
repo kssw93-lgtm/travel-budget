@@ -43,6 +43,8 @@
 | 시드니 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 프라하 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 프라하 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 마카오 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 마카오 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 호놀룰루 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 사이판 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -86,6 +88,8 @@
 | 암스테르담 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 아테네 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 아테네 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 두브로브니크 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 두브로브니크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -394,6 +398,8 @@
 | SPN-AL-102 | 사이판 | 네이키드 피시 버드와이저·버드라이트 | 5.5 USD | A | 예 | 재검증 | [Naked Fish Saipan 공식 Drinks 메뉴](https://www.nakedfishsaipan.com/drinks-cocktails/) |
 | SPN-AL-103 | 사이판 | 네이키드 피시 코로나 엑스트라 | 6 USD | A | 예 | 재검증 | [Naked Fish Saipan 공식 Drinks 메뉴](https://www.nakedfishsaipan.com/drinks-cocktails/) |
 | SPN-FD-105 | 사이판 | 네이키드 피시 타코(2개) | 13 USD | A | 예 | 재검증 | [Naked Fish Saipan 공식 Food 메뉴](https://www.nakedfishsaipan.com/food/) |
+| MFM-FD-101 | 마카오 | 트롬바 리자 포르투갈식 런치 뷔페(평일, 성인) | 218 MOP | A | 예 | 재검증 | [Macau Tower 공식 Dining – Tromba Rija](https://www.macautower.com.mo/en/dining/tromba-rija/) |
+| MFM-FD-106 | 마카오 | 트롬바 리자 런치 뷔페(평일, 아동 3~11세) | 109 MOP | A | 예 | 재검증 | [Macau Tower 공식 Dining – Tromba Rija](https://www.macautower.com.mo/en/dining/tromba-rija/) |
 | HNL-SN-103 | 호놀룰루 | 레너즈 베이커리 말라사다 | 2.25 USD | A | 예 | 재검증 | [Leonard's Bakery 공식 메뉴](https://leonardshawaii.com/menu/malasadas-and-doughnuts/) |
 | KUL-AT-901 | 쿠알라룸푸르 | 선웨이 라군 1일 입장권(Non-MyKad) | 200~268 MYR | A | 조건부 | 조건부, 재검증 | [Sunway Lagoon 공식 Tickets](https://sunwaylagoon.com/etickets/) |
 | HAN-TR-105 | 하노이 | 하노이 메트로 3.1호선(뇬–하노이역) 현금 1회권 | 9000~15000 VND | A | 예 | 재검증 | [Hanoi Metro 공식 운임표(이미지)](https://metrohanoi.vn/wp-content/uploads/2025/09/gia-ve-tuyen-3-1024x768.jpg) |
@@ -415,6 +421,9 @@
 | LIS-FD-109 | 리스본 | 오노라투 버거 | 13.5 EUR | A | 예 | 재검증 | [Honorato (공식 메뉴 PDF, PRINCIPAL)](https://www.honorato.pt/_files/ugd/e249d0_814f134ba6e5427aa13f2656b6fae979.pdf) |
 | SPN-TR-101 | 사이판 | 사이판 노선버스 편도(일반) | 2 USD | A | 예 | 재검증 | [Transit CNMI (Commonwealth Office of Transit Authority)](https://transit.cnmi.gov/fixed-route/) |
 | SPN-TR-102 | 사이판 | 사이판 노선버스 1일권(일반) | 10 USD | A | 예 | 재검증 | [Transit CNMI (Commonwealth Office of Transit Authority)](https://transit.cnmi.gov/fixed-route/) |
+| MFM-FD-107 | 마카오 | 더 누들 키친 토마토 달걀 도삭면 | 90 MOP | A | 예 | 재검증 | [Galaxy Macau – The Noodle Kitchen (A La Carte Menu PDF)](https://img.galaxymacau.com/2026-10/TNK_DM_20261001.pdf) |
+| MFM-FD-108 | 마카오 | 더 누들 키친 우육 수타 라면 | 108 MOP | A | 예 | 재검증 | [Galaxy Macau – The Noodle Kitchen (A La Carte Menu PDF)](https://img.galaxymacau.com/2026-10/TNK_DM_20261001.pdf) |
+| MFM-FD-109 | 마카오 | 더 누들 키친 고추 닭고기 볶음면 | 108 MOP | A | 예 | 재검증 | [Galaxy Macau – The Noodle Kitchen (A La Carte Menu PDF)](https://img.galaxymacau.com/2026-10/TNK_DM_20261001.pdf) |
 | GUM-FD-104 | 괌 | 피카스 카페 로코모코 | 19 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
 | GUM-FD-105 | 괌 | 피카스 카페 티낙탁 버거(사이드 포함) | 18 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
 | GUM-FD-106 | 괌 | 피카스 카페 콘비프 어니언 볶음밥 | 19 USD | A | 예 | 재검증 | [Pika's Cafe 공식 All Day Menu](https://www.pikascafeguam.com/menu) |
@@ -757,6 +766,26 @@
 | TYG-AT-104 | 통영 | 스카이라인 루지 통영 어린이 동반 추가요금 (5회 패키지) | 15000 KRW | A | 예 | 재검증 | [스카이라인 루지 통영 공식 홈페이지](https://tongyeong.skylineluge.kr/) |
 | TYG-AT-105 | 통영 | 통영 삼도수군통제영 개인 관람료 | 3000 KRW | A | 예 | 재검증 | [국가법령정보센터·통영시 조례](https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1928911) |
 | TYG-AT-106 | 통영 | 통영 삼도수군통제영 개인 관람료 (아동) | 1000 KRW | A | 예 | 재검증 | [국가법령정보센터·통영시 조례](https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=1928911) |
+| DBV-FD-501 | 두브로브니크 | 클래식 치즈버거 | 13.9 EUR | A | 예 | 재검증 | [Mama's Urban Street Food](https://www.mamasdubrovnik.com/) |
+| DBV-FD-502 | 두브로브니크 | 해산물 파스타 | 18.6 EUR | A | 예 | 재검증 | [Mama's Urban Street Food](https://www.mamasdubrovnik.com/) |
+| DBV-FD-503 | 두브로브니크 | 갑오징어와 스톤 홍합 먹물 리조토 | 24 EUR | A | 예 | 재검증 | [Pino's Fun & Dine](https://pinosdubrovnik.com/menu.php?lang=en) |
+| DBV-SN-501 | 두브로브니크 | 클래식 감자튀김 | 8 EUR | A | 예 | 재검증 | [Pino's Fun & Dine](https://pinosdubrovnik.com/menu.php?lang=en) |
+| DBV-SN-502 | 두브로브니크 | 올리브 | 6 EUR | A | 예 | 재검증 | [Pino's Fun & Dine](https://pinosdubrovnik.com/menu.php?lang=en) |
+| DBV-SN-503 | 두브로브니크 | 초콜릿 랩소디 | 9 EUR | A | 예 | 재검증 | [Pino's Fun & Dine](https://pinosdubrovnik.com/menu.php?lang=en) |
+| DBV-AL-501 | 두브로브니크 | 포르투날 페일 에일 0.33L | 7.2 EUR | A | 예 | 재검증 | [Pizzeria Oliva Dubrovnik](https://www.pizzeriaolivadubrovnik.com/drinks/) |
+| DBV-AL-502 | 두브로브니크 | 스미노프 레드 보드카 0.03L | 5.6 EUR | A | 예 | 재검증 | [Pizzeria Oliva Dubrovnik](https://www.pizzeriaolivadubrovnik.com/drinks/) |
+| DBV-AL-503 | 두브로브니크 | 하비탯 두브로브니크 익스프레션 진 0.03L | 7.6 EUR | A | 예 | 재검증 | [Pizzeria Oliva Dubrovnik](https://www.pizzeriaolivadubrovnik.com/drinks/) |
+| DBV-TR-501 | 두브로브니크 | 두브로브니크 시내버스 1회 승차권 | 2.5 EUR | A | 예 | 재검증 | [Libertas Dubrovnik](https://www.libertasdubrovnik.hr/en/price-list) |
+| DBV-TR-502 | 두브로브니크 | 두브로브니크 시내버스 24시간권 | 5.31 EUR | A | 예 | 재검증 | [Libertas Dubrovnik](https://www.libertasdubrovnik.hr/en/price-list) |
+| DBV-AT-501 | 두브로브니크 | 두브로브니크 케이블카 왕복권 (성인) | 30 EUR | A | 예 | 재검증 | [Dubrovnik Cable Car](https://dubrovnikcablecar.com/timetable-and-prices/?path=timetable-and-prices) |
+| DBV-AT-502 | 두브로브니크 | 두브로브니크 케이블카 왕복권 (아동 6~12세) | 8 EUR | A | 예 | 재검증 | [Dubrovnik Cable Car](https://dubrovnikcablecar.com/timetable-and-prices/?path=timetable-and-prices) |
+| DBV-AT-503 | 두브로브니크 | 로크룸 자연보호구역 입장·왕복 수송 (성인) | 30 EUR | A | 예 | 재검증 | [Lokrum Reserve](https://www.lokrum.hr/storage/useful-links/Lokrum%20-%20Cjenik%20HR-EN%202026_2.pdf) |
+| DBV-AT-504 | 두브로브니크 | 로크룸 자연보호구역 입장·왕복 수송 (아동 8~12세) | 5 EUR | A | 예 | 재검증 | [Lokrum Reserve](https://www.lokrum.hr/storage/useful-links/Lokrum%20-%20Cjenik%20HR-EN%202026_2.pdf) |
+| DBV-AT-505 | 두브로브니크 | 로크룸 자연보호구역 입장·왕복 수송 (아동 6~7세) | 0 EUR | A | 예 | 재검증 | [Lokrum Reserve](https://www.lokrum.hr/storage/useful-links/Lokrum%20-%20Cjenik%20HR-EN%202026_2.pdf) |
+| DBV-AT-506 | 두브로브니크 | 두브로브니크 자연사박물관 입장권 (성인) | 8 EUR | A | 조건부 | 조건부, 재검증 | [Dubrovnik Natural History Museum](https://pmd.hr/en/pricelist/) |
+| DBV-AT-507 | 두브로브니크 | 두브로브니크 자연사박물관 입장권 (아동·초등학생 7~12세) | 5 EUR | A | 조건부 | 조건부, 재검증 | [Dubrovnik Natural History Museum](https://pmd.hr/en/pricelist/) |
+| DBV-AT-508 | 두브로브니크 | 두브로브니크 자연사박물관 입장권 (아동 6세, 무료) | 0 EUR | A | 조건부 | 조건부, 재검증 | [Dubrovnik Natural History Museum](https://pmd.hr/en/pricelist/) |
+| MFM-FD-301 | 마카오 | 파 달걀 볶음밥 | 75 MOP | A | 조건부 | 조건부, 재검증 | [City of Dreams Macau — Din Tai Fung](https://www.cityofdreamsmacau.com/assets/public/2025-09/DTF-NewMenu2025_compressed.pdf) |
 | ATH-TR-502 | 아테네 | 아테네 대중교통 24시간권 | 4.1 EUR | A | 예 | 재검증 | [OASA](https://www.oasa.gr/en/tickets/prices-of-products/) |
 | ATH-AT-501 | 아테네 | 아테네 아크로폴리스 입장권 (성인) | 30 EUR | A | 예 | 재검증 | [Visit Greece; Hellenic Ministry of Culture](https://www.visitgreece.gr/en/experiences/culture/archaeological-sites-monuments/acropolis-of-Athens; https://www.culture.gov.gr/en/service/SitePages/view.aspx?fs=e&iID=2695&s=cl) |
 | ATH-AT-502 | 아테네 | 아테네 아크로폴리스 입장권 (아동 6~12세) | 0 EUR | A | 예 | 재검증 | [Hellenic Ministry of Culture](https://www.culture.gov.gr/en/service/SitePages/view.aspx?fs=e&iID=2695&s=cl) |
@@ -1229,6 +1258,14 @@
 | KYO-AT-102 | 교토 | 니조성 입성료(초등학생) | 300 JPY | A | 예 | 재검증 | [니조성 공식 Fees](https://nijo-jocastle.city.kyoto.lg.jp/admission/fee/?lang=en) |
 | KYO-AT-103 | 교토 | 금각사 참배료(일반) | 500 JPY | A | 예 | 재검증 | [쇼코쿠지 공식(금각사 ACCESS)](https://www.shokoku-ji.jp/en/kinkakuji/access/) |
 | KYO-AT-104 | 교토 | 금각사 참배료(초·중학생) | 300 JPY | A | 예 | 재검증 | [쇼코쿠지 공식(금각사 ACCESS)](https://www.shokoku-ji.jp/en/kinkakuji/access/) |
+| MFM-AT-103 | 마카오 | 마카오 그랑프리 박물관 표준 입장권 | 80 MOP | A | 예 | 재검증 | [Macao Grand Prix Museum 공식 Ticket Admission](https://mgpm.macaotourism.gov.mo/en/about/ticketing) |
+| MFM-AT-104 | 마카오 | 마카오 그랑프리 박물관(12세 이하) | 0 MOP | A | 예 | 재검증 | [Macao Grand Prix Museum 공식 Ticket Admission](https://mgpm.macaotourism.gov.mo/en/about/ticketing) |
+| MFM-AT-105 | 마카오 | 마카오 박물관(성인) | 15 MOP | A | 예 | 재검증 | [Macao Museum 공식 Visiting Information](https://www.macaumuseum.gov.mo/en/visit/ticketing) |
+| MFM-TR-101 | 마카오 | 마카오 경전철(LRT) 1회권 | 6~12 MOP | A | 예 | 재검증 | [Macao Light Rapid Transit 공식 Tickets and Fares](https://www.mlm.com.mo/en/general_ticket.html) |
+| MFM-AT-101 | 마카오 | 마카오타워 전망대 바리스타 패키지(성인) | 208 MOP | A | 조건부 | 조건부, 재검증 | [Macau Tower 공식 Observation Deck](https://www.macautower.com.mo/en/entertainment/observation-deck/) |
+| MFM-AT-102 | 마카오 | 마카오타워 전망대 바리스타 패키지(아동 3~11세) | 138 MOP | A | 조건부 | 조건부, 재검증 | [Macau Tower 공식 Observation Deck](https://www.macautower.com.mo/en/entertainment/observation-deck/) |
+| MFM-TR-102 | 마카오 | 마카오 공공버스 정상 요금 | 6 MOP | A | 예 | 재검증 | [마카오 교통사무국(DSAT) 巴士車資](https://www.dsat.gov.mo/dsat/subpage.aspx?a_id=1612338099) |
+| MFM-TR-103 | 마카오 | 마카오 공공버스 충전카드 요금(일반 노선) | 3 MOP | A | 조건부 | 조건부, 재검증 | [마카오 교통사무국(DSAT) 巴士車資](https://www.dsat.gov.mo/dsat/subpage.aspx?a_id=1612338099) |
 | NYC-TR-001 | 뉴욕 | 지하철·시내버스 기본 요금 | 3 USD | A | 예 | 재검증 | [MTA](https://www.mta.info/fares-tolls/subway-bus) |
 | NYC-TR-002 | 뉴욕 | 급행버스 기본 요금 | 7.25 USD | A | 예 | 재검증 | [MTA](https://www.mta.info/fares-tolls/subway-bus) |
 | NYC-TR-003 | 뉴욕 | NYC 페리 성인 편도 | 4.5 USD | A | 예 | 재검증 | [NYC Ferry](https://www.ferry.nyc/ticketing-info/) |

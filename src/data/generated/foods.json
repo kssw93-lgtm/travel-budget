@@ -2155,6 +2155,78 @@
     "note": "Claude 초안(2026-10-11)"
   },
   {
+    "cityId": "dubrovnik",
+    "nameKo": "페카",
+    "nameEn": "Peka",
+    "reason": "고기와 채소를 덮개 아래에서 천천히 구운 크로아티아 요리",
+    "reasonEn": "Bell-roasted meat",
+    "desc": {
+      "ko": "고기와 채소를 덮개 아래에서 천천히 구운 크로아티아 요리",
+      "en": "Meat and vegetables slow-cooked under an iron bell",
+      "ja": "肉と野菜を鉄のふたの下でじっくり焼いたクロアチア料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://visitdubrovnik.hr/gastronomy/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "dubrovnik",
+    "nameKo": "그린 메네스트라",
+    "nameEn": "Green Menestra",
+    "reason": "잎채소와 여러 고기를 넣어 끓인 두브로브니크 전통 요리",
+    "reasonEn": "Greens and meat stew",
+    "desc": {
+      "ko": "잎채소와 여러 고기를 넣어 끓인 두브로브니크 전통 요리",
+      "en": "Stew of leafy greens with several kinds of meat",
+      "ja": "葉野菜と数種類の肉を煮込んだドゥブロヴニクの郷土料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://visitdubrovnik.hr/gastronomy/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "dubrovnik",
+    "nameKo": "스포르키 마카로니",
+    "nameEn": "Sporchi Macaroni",
+    "reason": "고기 소스를 곁들인 축제용 파스타",
+    "reasonEn": "Festive meat-sauce pasta",
+    "desc": {
+      "ko": "고기 소스를 곁들인 축제용 파스타",
+      "en": "Pasta with meat sauce, made for the St. Blaise festival",
+      "ja": "聖ブラシウス祭で作る肉ソースのパスタ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://visitdubrovnik.hr/gastronomy/",
+    "note": "GPT 수집"
+  },
+  {
+    "cityId": "dubrovnik",
+    "nameKo": "로자타",
+    "nameEn": "Rozata",
+    "reason": "크로아티아식 캐러멜 커스터드 디저트",
+    "reasonEn": "Croatian custard",
+    "desc": {
+      "ko": "크로아티아식 캐러멜 커스터드 디저트",
+      "en": "Croatian caramel custard pudding",
+      "ja": "クロアチア風のカラメルプリン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "관광청 공식 안내",
+    "recommendUrl": "https://visitdubrovnik.hr/gastronomy/",
+    "note": "GPT 수집"
+  },
+  {
     "cityId": "fukuoka",
     "nameKo": "하카타 돈코츠 라멘",
     "nameEn": "Hakata Tonkotsu Ramen",
@@ -3698,6 +3770,80 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "macau",
+    "nameKo": "에그타르트",
+    "nameEn": "Portuguese Egg Tart",
+    "reason": "겉이 바삭하고 커스터드가 살짝 그을린 마카오식 에그타르트",
+    "reasonEn": "Macau egg tart",
+    "desc": {
+      "ko": "겉이 바삭하고 커스터드가 살짝 그을린 마카오식 에그타르트",
+      "en": "Flaky tart with caramelized custard, Macau style",
+      "ja": "サクサクの生地に焦げ目のついたカスタードをのせたマカオ式エッグタルト"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-13)"
+  },
+  {
+    "cityId": "macau",
+    "nameKo": "주빠빠오",
+    "nameEn": "Pork Chop Bun",
+    "reason": "바삭한 빵에 튀긴 돼지갈비를 끼운 마카오 대표 간식",
+    "reasonEn": "Pork chop bun",
+    "desc": {
+      "ko": "바삭한 빵에 튀긴 돼지갈비를 끼운 마카오 대표 간식",
+      "en": "Crispy bun filled with a fried pork chop",
+      "ja": "カリッとしたパンに揚げた豚チョップを挟んだマカオ名物"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-13)"
+  },
+  {
+    "cityId": "macau",
+    "nameKo": "아프리칸 치킨",
+    "nameEn": "African Chicken",
+    "reason": "향신료와 코코넛 소스로 구운 매캐니즈 닭 요리",
+    "reasonEn": "Macanese spiced chicken",
+    "desc": {
+      "ko": "향신료와 코코넛 소스로 구운 매캐니즈 닭 요리",
+      "en": "Macanese chicken roasted with spices and coconut sauce",
+      "ja": "スパイスとココナッツソースで焼いたマカオ料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-13)"
+  },
+  {
+    "cityId": "macau",
+    "nameKo": "완탕면",
+    "nameEn": "Wonton Noodles",
+    "reason": "새우 완탕과 가는 면을 맑은 국물에 낸 국수",
+    "reasonEn": "Wonton noodle soup",
+    "desc": {
+      "ko": "새우 완탕과 가는 면을 맑은 국물에 낸 국수",
+      "en": "Shrimp wontons and thin noodles in clear broth",
+      "ja": "エビワンタンと細麺の澄んだスープ麺"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "MFM-FD-107"
+    ],
+    "priceStatus": "확정",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-13)"
   },
   {
     "cityId": "munich",

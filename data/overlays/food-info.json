@@ -1709,5 +1709,45 @@
     "ko": "요거트·오이·마늘로 만든 차가운 딥",
     "en": "Cold yogurt, cucumber and garlic dip",
     "ja": "ヨーグルト・きゅうり・にんにくの冷たいディップ"
+  },
+  "macau:Portuguese Egg Tart": {
+    "ko": "겉이 바삭하고 커스터드가 살짝 그을린 마카오식 에그타르트",
+    "en": "Flaky tart with caramelized custard, Macau style",
+    "ja": "サクサクの生地に焦げ目のついたカスタードをのせたマカオ式エッグタルト"
+  },
+  "macau:Pork Chop Bun": {
+    "ko": "바삭한 빵에 튀긴 돼지갈비를 끼운 마카오 대표 간식",
+    "en": "Crispy bun filled with a fried pork chop",
+    "ja": "カリッとしたパンに揚げた豚チョップを挟んだマカオ名物"
+  },
+  "macau:African Chicken": {
+    "ko": "향신료와 코코넛 소스로 구운 매캐니즈 닭 요리",
+    "en": "Macanese chicken roasted with spices and coconut sauce",
+    "ja": "スパイスとココナッツソースで焼いたマカオ料理"
+  },
+  "macau:Wonton Noodles": {
+    "ko": "새우 완탕과 가는 면을 맑은 국물에 낸 국수",
+    "en": "Shrimp wontons and thin noodles in clear broth",
+    "ja": "エビワンタンと細麺の澄んだスープ麺"
+  },
+  "dubrovnik:Peka": {
+    "ko": "고기와 채소를 덮개 아래에서 천천히 구운 크로아티아 요리",
+    "en": "Meat and vegetables slow-cooked under an iron bell",
+    "ja": "肉と野菜を鉄のふたの下でじっくり焼いたクロアチア料理"
+  },
+  "dubrovnik:Green Menestra": {
+    "ko": "잎채소와 여러 고기를 넣어 끓인 두브로브니크 전통 요리",
+    "en": "Stew of leafy greens with several kinds of meat",
+    "ja": "葉野菜と数種類の肉を煮込んだドゥブロヴニクの郷土料理"
+  },
+  "dubrovnik:Sporchi Macaroni": {
+    "ko": "고기 소스를 곁들인 축제용 파스타",
+    "en": "Pasta with meat sauce, made for the St. Blaise festival",
+    "ja": "聖ブラシウス祭で作る肉ソースのパスタ"
+  },
+  "dubrovnik:Rozata": {
+    "ko": "크로아티아식 캐러멜 커스터드 디저트",
+    "en": "Croatian caramel custard pudding",
+    "ja": "クロアチア風のカラメルプリン"
   }
 }

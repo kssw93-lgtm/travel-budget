@@ -29,7 +29,16 @@ export function FoodSection({ city, foods }: Props) {
             <li key={f.nameEn} className="food" data-food={f.nameEn}>
               {f.photo && (
                 <figure className="food-photo">
-                  <img src={f.photo.url} alt={name} loading="lazy" decoding="async" width={400} height={300} />
+                  <img
+                    src={f.photo.url}
+                    alt={name}
+                    loading="lazy"
+                    decoding="async"
+                    width={400}
+                    height={300}
+                    // 사진 주소가 깨지면 빈 회색 칸 대신 사진 자리를 숨긴다
+                    onError={(e) => e.currentTarget.closest('figure')?.setAttribute('hidden', '')}
+                  />
                   <figcaption>
                     <ExternalLink href={f.photo.page}>{`${t.foods.photo} ${f.photo.author} · ${f.photo.license}`}</ExternalLink>
                   </figcaption>

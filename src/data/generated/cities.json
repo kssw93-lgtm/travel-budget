@@ -550,6 +550,146 @@
     "stage": "2차"
   },
   {
+    "id": "nara",
+    "country": "일본",
+    "countryEn": "Japan",
+    "nameKo": "나라",
+    "nameEn": "Nara",
+    "currency": "JPY",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "taichung",
+    "country": "대만",
+    "countryEn": "Taiwan",
+    "nameKo": "타이중",
+    "nameEn": "Taichung",
+    "currency": "TWD",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "kota-kinabalu",
+    "country": "말레이시아",
+    "countryEn": "Malaysia",
+    "nameKo": "코타키나발루",
+    "nameEn": "Kota Kinabalu",
+    "currency": "MYR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "zhangjiajie",
+    "country": "중국",
+    "countryEn": "China",
+    "nameKo": "장가계",
+    "nameEn": "Zhangjiajie",
+    "currency": "CNY",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "melbourne",
+    "country": "호주",
+    "countryEn": "Australia",
+    "nameKo": "멜버른",
+    "nameEn": "Melbourne",
+    "currency": "AUD",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "florence",
+    "country": "이탈리아",
+    "countryEn": "Italy",
+    "nameKo": "피렌체",
+    "nameEn": "Florence",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "venice",
+    "country": "이탈리아",
+    "countryEn": "Italy",
+    "nameKo": "베네치아",
+    "nameEn": "Venice",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "madrid",
+    "country": "스페인",
+    "countryEn": "Spain",
+    "nameKo": "마드리드",
+    "nameEn": "Madrid",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "nice",
+    "country": "프랑스",
+    "countryEn": "France",
+    "nameKo": "니스",
+    "nameEn": "Nice",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "san-francisco",
+    "country": "미국",
+    "countryEn": "United States",
+    "nameKo": "샌프란시스코",
+    "nameEn": "San Francisco",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "almaty",
+    "country": "카자흐스탄",
+    "countryEn": "Kazakhstan",
+    "nameKo": "알마티",
+    "nameEn": "Almaty",
+    "currency": "KZT",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "tashkent",
+    "country": "우즈베키스탄",
+    "countryEn": "Uzbekistan",
+    "nameKo": "타슈켄트",
+    "nameEn": "Tashkent",
+    "currency": "UZS",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "tbilisi",
+    "country": "조지아",
+    "countryEn": "Georgia",
+    "nameKo": "트빌리시",
+    "nameEn": "Tbilisi",
+    "currency": "GEL",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "cancun",
+    "country": "멕시코",
+    "countryEn": "Mexico",
+    "nameKo": "칸쿤",
+    "nameEn": "Cancún",
+    "currency": "MXN",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
     "id": "barcelona",
     "country": "스페인",
     "countryEn": "Spain",

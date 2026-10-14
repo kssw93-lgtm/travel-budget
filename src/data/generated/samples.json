@@ -40159,13 +40159,13 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "A",
-    "modelUse": "yes",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2025-12 메뉴",
     "sourceName": "Rooftop Bar Sala Hospitality",
     "sourceUrl": "https://www.salahospitality.com/rattanakosin-bangkok/wp-content/uploads/sites/4/2025/12/Rooftop-Bar-Drink-Menu-DEC.pdf",
-    "note": "Perplexity 수집. 공식 PDF 메뉴 · 원문: Singha Original Thai, TH – 5.0% THB 240 · 수집: prices-perplexity-drinks-2026-10-03.csv"
+    "note": "Perplexity 수집. 공식 PDF 메뉴 · 원문: Singha Original Thai, TH – 5.0% THB 240 · 수집: prices-perplexity-drinks-2026-10-03.csv · 모델 제외: 같은 루프톱 바(Sala Rattanakosin)의 맥주 3종이 모두 240바트라 방콕 술값이 이 가게 하나로 정해짐 → 대표 1건(BKK-FD-951 창 330ml)만 계산에 남김. 가격 자체는 공식 확인"
   },
   {
     "id": "BKK-FD-953",
@@ -40183,13 +40183,13 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "A",
-    "modelUse": "yes",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2025-12 메뉴",
     "sourceName": "Rooftop Bar Sala Hospitality",
     "sourceUrl": "https://www.salahospitality.com/rattanakosin-bangkok/wp-content/uploads/sites/4/2025/12/Rooftop-Bar-Drink-Menu-DEC.pdf",
-    "note": "Perplexity 수집. 공식 PDF 메뉴 · 원문: Heineken, NE – 5.0% THB 240 · 수집: prices-perplexity-drinks-2026-10-03.csv"
+    "note": "Perplexity 수집. 공식 PDF 메뉴 · 원문: Heineken, NE – 5.0% THB 240 · 수집: prices-perplexity-drinks-2026-10-03.csv · 모델 제외: 같은 루프톱 바(Sala Rattanakosin)의 맥주 3종이 모두 240바트라 방콕 술값이 이 가게 하나로 정해짐 → 대표 1건(BKK-FD-951 창 330ml)만 계산에 남김. 가격 자체는 공식 확인"
   },
   {
     "id": "DAD-FD-951",

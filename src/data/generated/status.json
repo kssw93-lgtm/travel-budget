@@ -66,7 +66,7 @@
       "ride": 3,
       "meal": 4,
       "snack": 3,
-      "drink": 3,
+      "drink": 4,
       "attraction": 11,
       "souvenir": 4
     },
@@ -75,7 +75,7 @@
       "ride": 3,
       "meal": 4,
       "snack": 3,
-      "drink": 3,
+      "drink": 4,
       "attraction": 11,
       "souvenir": 4
     },
@@ -1130,7 +1130,7 @@
       "ride": 1,
       "meal": 11,
       "snack": 7,
-      "drink": 6,
+      "drink": 4,
       "attraction": 3,
       "souvenir": 0
     },
@@ -1139,7 +1139,7 @@
       "ride": 1,
       "meal": 11,
       "snack": 7,
-      "drink": 6,
+      "drink": 4,
       "attraction": 3,
       "souvenir": 0
     },
@@ -1158,7 +1158,7 @@
       "ride": 5,
       "meal": 11,
       "snack": 7,
-      "drink": 6,
+      "drink": 4,
       "attraction": 3,
       "souvenir": 0
     },
@@ -1167,7 +1167,7 @@
       "ride": 5,
       "meal": 11,
       "snack": 7,
-      "drink": 6,
+      "drink": 4,
       "attraction": 3,
       "souvenir": 0
     },

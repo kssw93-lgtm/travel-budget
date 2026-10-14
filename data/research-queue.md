@@ -1364,8 +1364,6 @@
 | OSA-FD-951 | 오사카 | 프리미엄 몰츠 향기로운 에일 생맥주 소 | 550 JPY | A | 예 | 재검증 | [Shinsaibashi Kagura](https://www.kaguraosaka.com/en/menu/tabs/UQRGHn9cYQdfrsVJZDLa/) |
 | OSA-FD-952 | 오사카 | 프리미엄 몰츠 중병 | 850 JPY | A | 예 | 재검증 | [Shinsaibashi Kagura](https://www.kaguraosaka.com/en/menu/tabs/UQRGHn9cYQdfrsVJZDLa/) |
 | BKK-FD-951 | 방콕 | 창 클래식 맥주 330ml (루프톱 바) | 240 THB | A | 예 | 재검증 | [Rooftop Bar Sala Hospitality](https://www.salahospitality.com/rattanakosin-bangkok/wp-content/uploads/sites/4/2025/12/Rooftop-Bar-Drink-Menu-DEC.pdf) |
-| BKK-FD-952 | 방콕 | 싱하 맥주 320ml (루프톱 바) | 240 THB | A | 예 | 재검증 | [Rooftop Bar Sala Hospitality](https://www.salahospitality.com/rattanakosin-bangkok/wp-content/uploads/sites/4/2025/12/Rooftop-Bar-Drink-Menu-DEC.pdf) |
-| BKK-FD-953 | 방콕 | 하이네켄 320ml (루프톱 바) | 240 THB | A | 예 | 재검증 | [Rooftop Bar Sala Hospitality](https://www.salahospitality.com/rattanakosin-bangkok/wp-content/uploads/sites/4/2025/12/Rooftop-Bar-Drink-Menu-DEC.pdf) |
 | DAD-FD-951 | 다낭 | 후다 생맥주 소 | 25000 VND | A | 예 | 재검증 | [The Mad Den Irish Bar Da Nang](https://themaddenirishbardanang.com/menu/) |
 | DAD-FD-952 | 다낭 | 산미구엘 생맥주 대 | 50000 VND | A | 예 | 재검증 | [The Mad Den Irish Bar Da Nang](https://themaddenirishbardanang.com/menu/) |
 | DAD-FD-953 | 다낭 | 이스트웨스트 퍼시픽 필스너 (루프톱) | 115000 VND | A | 예 | 재검증 | [The Roof Da Nang](https://www.theroofdanang.com/menu) |

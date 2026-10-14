@@ -437,3 +437,15 @@ ChatGPT가 할 일만 이 폴더에 모았습니다. **새 할 일은 `할일_20
 - 2026-10-14 GPT 후속 — M 음식 사진: 괌 Spam Musubi를 `결과/F_음식사진_2026-10-13.csv`에 추가했습니다. Commons 파일 페이지 2회에서 작가 Janine, CC BY 2.0, Guam 분류를 확인했습니다. 원본 링크는 브라우저 도구에서 Cache miss라 실제 이미지 전송은 미확인으로 메모했습니다. 사진 자료는 36/99개 확인, 63개 남았습니다. 이번 추가: 나고야 된장카츠(Commons 파일명·작가·CC BY 2.0 확인; 원본 링크 직접 확인). G~M은 여전히 미완료이며 O는 잔여 작업 후 진행합니다.
 
 - 2026-10-14 GPT 후속 — I 라스베이거스 주류: `결과/I_라스베이거스_중간_2026-10-14.csv`에 LAS-AL-101을 추가했습니다. Big Dog's Brewing 공식 Tap Room 메뉴 위젯에서 Las Vegas Craft Lager 16oz draft USD 8.00(메뉴 업데이트 10/8)을 확인했습니다. 페이지를 두 번 열었고, 본문 추출기가 메뉴 위젯 줄을 생략한 점을 CSV 비고에 밝혔습니다. 라스베이거스 주류 3건을 채웠습니다. G 베이징 저가 식당·파타야/달랏 교통, H 보라카이 단독 유료 관광지 2곳, J/K/L, M 사진 63개는 미완료입니다. O는 시작하지 않았고, P는 10/17 이후 크롬 결과 여부를 확인합니다.
+
+
+### 2026-10-14 GPT 재개 작업 — G~N 잔여 확인
+
+- N 쏠림 보강은 이미 `결과/N_쏠림보강_도시_2026-10-14.csv`에 15개 도시·30행으로 올라와 있어 중복 조사하지 않았습니다. I의 LA·라스베이거스와 K의 11개 도시도 기존 결과를 확인했습니다.
+- G 잔여: 베이징 저가 식당은 리화 공식 모바일 메뉴(`https://lihua.com/mobile.php?s=%2FCategory%2Findex.html`)가 직접 열기 2회 시간초과, KFC 공식 홈페이지(`https://www.kfc.com.cn/`)에는 상품별 가격이 없었습니다. 베이징시 정부 페이지는 “十几元至二十余元” 가격 범위만 있어 행에 넣지 않았습니다. 파타야 관광청(`https://www.tourismthailand.org/Destinations/Provinces/Pattaya/469`)은 두 번 열었지만 시내 교통 운임 숫자가 없었습니다. 달랏시 공식 페이지(`https://dalat.vn/en/detailutilities/?child=2377&id=2377`)는 2회 시간초과, FUTA 공식 시간표(`https://futabus.vn/lich-trinh`)에는 시내버스 운임이 없어 각각 미기록입니다.
+- H 보라카이 잔여: 아클란주 공식 관광 안내(`https://aklan.gov.ph/tourism/malay/`)는 403으로 두 번 열리지 않았습니다. Motag Living Museum 운영자 페이지(`https://motaglivingmuseum.wordpress.com/about/`)에서 확인한 가격은 2016년 댓글이라 현행 정가로 사용하지 않았고, Crystal Cove(`https://crystalcoveisland.com/`)는 두 번 시간초과였습니다. 기존에 직접 확인해 올린 Bat Caves PHP 50 한 건 외에 독립 관광지 2곳 요금은 찾지 못했습니다.
+- J 사이판 잔여: 기존 Grotto 요금 2행은 유지합니다. World Resort 공식 FAQ(`https://www.saipanworldresort.com/en/customer/faq/index.do?schCatg=2`)는 두 번 시간초과되어 검색 색인의 Wave Jungle 요금은 사용하지 않았습니다. Pororo Park 공식 안내(`https://www.saipanworldresort.com/en/experiences/kids/view.do?seq=5`)는 리조트 투숙객 무료만 안내하고 비투숙객 가격은 없어 추가 관광지 가격을 기록하지 않았습니다.
+- L 일본 교차검수: `결과/A2_교차검수_일본_재시도_2026-10-14.csv`에 공식 페이지를 다시 확인한 8행(일치 7·불일치 1)을 추가 저장했습니다. 누계 118 일치 / 3 불일치 / 0 확인불가 / 14 공란(135행)입니다. 불일치는 SPK-AP-001로 현재 JR 홋카이도 쾌속 에어포트 비예약 운임이 1,230엔이며 기존 하한 1,150엔이 오래된 값입니다.
+- L의 추가 재시도에서는 OSA-FD-001 메뉴 PDF가 21.7MB라 직접 열리지 않았고, 오사카성 공원 URL(`https://www.osakacastlepark.jp/articles/detail.html?id=3`)은 실제 요금 대신 더미 문구를 반환했습니다. 마쓰바 공식 메뉴는 2회 시간초과, 야마짱 메뉴 JPG와 쿠시카쓰 다나카 음료 PNG는 직접 열리지 않았습니다. CoCo壱番屋 메뉴는 2회 열렸지만 지역 가격 안내의 기준일이 2024-03-01이라 현행 검수에 쓰지 않았습니다. 도쿄 디즈니 2026-10-03 티켓은 대상 날짜가 지나 현재 공식 달력으로 재현할 수 없어 공란으로 유지합니다.
+- M 음식 사진 중간본: `결과/M_음식사진_2026-10-14.csv`에 12/150건을 확인해 올렸습니다(런던 1, 암스테르담 3, 아테네 4, 베이징 1, 달랏 1, 멜버른 1, 뮌헨 1). Commons 파일 페이지마다 두 번 확인하고 페이지의 Original file 링크를 사용했습니다. 베이징 Peking duck 사진은 촬영 위치 Singapore, 달랏 bánh mì xíu mại 사진은 Houston으로 표시되어 비고에 공개했고, Melbourne meat pie 페이지도 실제 호주식 파이라고 설명된 파일을 선택했습니다. 사진 138건은 아직 남았습니다.
+- 진행 상태: G·H·J는 공식 가격을 직접 확인할 수 없는 항목을 URL과 이유까지 확인했지만 데이터 요건 자체는 미완료입니다. L에는 위 14개 외 다른 지역 교차검수 공란도 남아 있고, M 사진 138건이 남아 있습니다. 따라서 G~N을 마친 뒤 시작하도록 지정된 O는 아직 시작하지 않았습니다. P는 10월 17일까지 크롬 결과가 없을 때만 재검토합니다.

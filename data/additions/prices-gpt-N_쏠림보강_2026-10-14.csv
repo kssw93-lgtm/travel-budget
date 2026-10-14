@@ -1,0 +1,58 @@
+"ID","국가","도시","카테고리","세부유형","항목(한글)","Item (English)","최소","최대","통화","단위","가격형태","대상","출처등급","모델사용","상태","조회일","적용/게시","출처명","출처 URL","원문 인용","비고"
+"BKK-FD-961","태국","방콕","외식","주류","비어라오 라거 맥주 1병 330ml (Hemingway Bangkok)","Beer Lao Lager (1 bottle, 330ml; Hemingway Bangkok)","155","155","THB","1병 330ml","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 메뉴","Hemingway Bangkok","https://hemingwaybangkok.com/beverage-menu/","Beer Lao – Lager 330ml
+฿155","공식 음료 메뉴 페이지를 두 번 열어 품목·용량·가격을 확인."
+"BKK-FD-962","태국","방콕","외식","주류","싱하 맥주 1병 320ml (Phoenix Nights)","Singha Beer (320ml; Phoenix Nights)","120","120","THB","1병 320ml","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 메뉴","Phoenix Nights Bangkok","https://phoenixnightsbkk.com/drinks.html","Singha Beer320ml฿120","공식 음료 메뉴가 현지 통화가 THB라고 명시. 일반 바 메뉴이며 페이지를 두 번 열어 품목·용량·가격을 확인."
+"TPE-FD-961","대만","타이베이","외식","주류","Budvar 맥주 0.33L (Divadlo)","Budvar beer (0.33 L; Divadlo)","210","210","TWD","0.33L","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 메뉴","Divadlo 捷克公寓","https://www.czech.com.tw/menu/","Budvar (0.33l)
+210元","타이베이 다안구 식당의 공식 메뉴. 페이지를 두 번 열어 품목·용량·가격을 확인."
+"TPE-FD-962","대만","타이베이","외식","주류","대만 맥주 1잔 330ml (Alleycats Pizza 화산점)","Taiwan Beer (330ml; Alleycats Pizza Huashan)","230","230","TWD","330ml","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 메뉴","Alleycats Pizza 華山店","https://www.alleycatspizza.com/mainssl/modules/MySpace/index.php?pg=ZC85505&sn=alleycats","Taiwan Beer 台灣啤酒NT230(330ml)/NT280(500ml)","공식 지점 메뉴에서 330ml 구간의 가격을 선택. 페이지를 두 번 열어 품목·용량·가격을 확인."
+"SIN-FD-961","싱가포르","싱가포르","외식","주류","타이거 맥주 1병 330ml (Gayatri Restaurant)","Tiger beer (1 bottle, 330ml; Gayatri Restaurant)","8.00","8.00","SGD","1병 330ml","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 메뉴","Gayatri Restaurant","https://gayatrirestaurant.com/menu/","Tiger (330ml bottle) $8.00","싱가포르 일반 인도 식당의 공식 메뉴. 공식 페이지에 싱가포르 매장 주소가 표시되며, 페이지를 두 번 열어 품목·용량·가격을 확인."
+"SIN-FD-962","싱가포르","싱가포르","외식","주류","타이거 맥주 1병 330ml (Club A380)","Tiger beer (1 bottle, 330ml; Club A380)","8.00","8.00","SGD","1병 330ml","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 메뉴","Club A380","https://www.cluba380.com/menu/","Tiger Bottle 330ml
+$8.00","일반 스포츠 펍의 공식 메뉴. 페이지를 두 번 열어 품목·용량·가격을 확인."
+"INT-FD-961","스위스","인터라켄","외식","주류","Rugenbräu Alpenperle 3.3dl (Spatz)","Rugenbräu Alpenperle beer (3.3 dl; Spatz)","5","5","CHF","3.3dl","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 메뉴","Spatz - gastro & so","https://www.spatzinterlaken.com/menu","Rugenbräu Alpenperle 3.3dl / 5dl
+CHF 5 / 7","공식 메뉴의 3.3dl·5dl 표기에서 소용량 3.3dl 가격을 사용. 매장 주소는 Interlaken 관광권역의 Unterseen(3800). 페이지를 두 번 열어 확인."
+"INT-FD-962","스위스","인터라켄","외식","주류","Simmentaler 라거 생맥주 0.3L (Pier One)","Simmentaler Lager draft beer (0.3 L; Pier One)","5.00","5.00","CHF","0.3L","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 메뉴","Pier One Interlaken","https://www.pieroneinterlaken.ch/en/sommerspeisen","Simmentaler beer lager
+0.3l
+CHF 5.00","공식 메뉴의 생맥주 구역에서 0.3L 용량·가격을 확인. 페이지를 두 번 열어 확인."
+"VIE-FD-961","오스트리아","빈","외식","주류","Corona 맥주 1병 0.33L (Isaac's Pub)","Corona beer (1 bottle, 0.33 L; Isaac's Pub)","5.10","5.10","EUR","1병 0.33L","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 메뉴","Isaac's Pub","https://www.isaacs.at/drinks","Corona - 0,33l | €5,10","공식 펍 음료 메뉴. 페이지를 두 번 열어 품목·용량·가격을 확인."
+"VIE-FD-962","오스트리아","빈","외식","주류","하우스 생맥주 0.33L (The Oak Pub and Restaurant)","The Oak house beer draft (0.33 L)","3.90","3.90","EUR","0.33L","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 메뉴","The Oak Pub and Restaurant","https://theoak1030.at/menu/drinks/","Beer (0,33L/0,5L)
+The Oak Hausbier €3,90/4,90","공식 펍 메뉴에서 0.33L/0.5L 두 규격 중 0.33L 가격을 선택. 페이지를 두 번 열어 확인."
+"DBV-FD-961","크로아티아","두브로브니크","외식","주류","Tuborg 생맥주 1잔 0.30L (Shelby Bar)","Tuborg draft beer (0.30 L; Shelby Bar)","4.50","4.50","EUR","1잔 0.30L","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 음료 메뉴","Shelby Bar Dubrovnik","https://shelbybardubrovnik.com/drink-menu/","Tuborg 0,30 l
+4,50€","공식 바 메뉴의 생맥주 항목. 페이지를 두 번 열어 용량·가격을 확인."
+"DBV-FD-962","크로아티아","두브로브니크","외식","주류","Pan Zlatni 맥주 1병 0.35L (Pizzeria Oliva)","Pan Zlatni beer (0.35 L; Pizzeria Oliva Dubrovnik)","5.60","5.60","EUR","1병 0.35L","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 음료 메뉴","Pizzeria Oliva Dubrovnik","https://www.pizzeriaolivadubrovnik.com/drinks/","Pan zlatni
+5,60€
+0,35 l","공식 피자 식당의 음료 메뉴. 페이지를 두 번 열어 품목·용량·가격을 확인."
+"DXB-FD-961","아랍에미리트","두바이","외식","주류","브루독 IPA 맥주 1병 330ml (Kickers Sports Bar)","Brewdog IPA (1 bottle, 330ml; Kickers Sports Bar)","50","50","AED","1병 330ml","정가","일반","A 공식","예","확정 1차","2026-10-14","공식 음료 메뉴, 2025-07-24","Kickers Sports Bar","https://kickerssportsbar.ae/wp-content/uploads/2025/07/Kick-Cafe-Drinks-Menu-Bar-Menu-Dubai-Sports-City-2025-07-24.pdf","Brewdog IPA 5.4% 330ml 50","메뉴에 AED 가격은 7% 지방자치 수수료와 5% VAT 포함이라고 명시. 공식 PDF를 두 번 열어 확인."
+"DXB-FD-962","아랍에미리트","두바이","외식","주류","타이거 생맥주 반 파인트 (The Irish Village Al Garhoud)","Tiger draft beer (half pint; The Irish Village Al Garhoud)","25","25","AED","1잔 half pint","정가","일반","A 공식","예","확정 1차","2026-10-14","공식 메뉴 현행 표시","The Irish Village Al Garhoud","https://theirishvillage.com/?i=1&id=3&page=menu","Tiger
+(half pint 25aed)
+47.00","Al Garhoud 지점 공식 메뉴. 반 파인트 25 AED를 사용했으며 같은 항목의 별도 표시 정가 47 AED도 원문에 함께 남김. 공식 페이지를 두 번 열어 확인."
+"HAN-FD-961","베트남","하노이","외식","주류","BACKYARD 라거 생맥주 330ml (Barbaros Restaurant)","BACKYARD lager (draft, 330ml; Barbaros Restaurant)","75000","75000","VND","1잔 330ml","정가","일반","A 공식","예","확정 1차","2026-10-14","Drink Menu March 2026","Barbaros Restaurant","https://barbarosrestaurant.com/wp-content/uploads/2026/03/Barbaros-Drink-Menu-March2026.pdf","Draft Beer BACKYARD lager
+ABV 5.20%
+75,000
+(330ml)","메뉴에 가격은 VAT 별도라고 명시. 공식 PDF를 두 번 열어 330ml 구간과 가격을 확인."
+"HAN-FD-962","베트남","하노이","외식","주류","삿포로 생맥주 330ml (1984 Coffee & Drinks)","Sapporo draft beer (330ml; 1984 Coffee & Drinks)","50000","50000","VND","1잔 330ml","정가","일반","A 공식","예","확정 1차","2026-10-14","공식 메뉴 현행 표시","1984 Coffee & Drinks","https://1984studio.vn/1984-coffee-pub-restaurant-new/","Draft beer /bia tươi
+Drink
+330ml
+Tower 3l
+Sapporo
+50K
+350K","330ml 생맥주 항목의 공식 표기는 50K, 3L 타워는 350K. 숫자 칸은 메뉴의 50K 표기를 VND 50,000으로 정규화했고 원문 표기는 인용란에 그대로 보존. 공식 페이지를 두 번 열어 확인."
+"SGN-FD-961","베트남","호치민","외식","주류","아사히 슈퍼 드라이 생맥주 330ml (OKRA FoodBar)","Asahi Super Dry draft beer (330ml; OKRA FoodBar)","105000","105000","VND","1잔 330ml","정가","일반","A 공식","예","확정 1차","2026-10-14","공식 메뉴 현행 표시","OKRA FoodBar","https://www.okra.asia/menu","ASAHI
+Draft JPN super dry 5%
+330ml per serving
+₫105,000","공식 메뉴의 일반 게시가를 기록하고 19시 이전 해피아워 할인은 제외. 공식 메뉴를 두 번 열어 확인."
+"SGN-FD-962","베트남","호치민","외식","주류","포멜로 IPA 1잔 175ml (Pasteur Street Craft Beer)","Pomelo IPA (175ml; Pasteur Street Craft Beer)","45000","45000","VND","1잔 175ml","정가","일반","A 공식","예","확정 1차","2026-10-14","공식 맥주 메뉴 현행 표시","Pasteur Street Craft Beer","https://pasteurstreet.com/vi/pasteur-street-menu/menu-x/","POMELO IPA | 7% ... 175ml 45.000 VND+","브랜드 공식 안내는 호치민 12개 탭룸을 안내. 메뉴의 175ml 기준 표기는 VND+로 표시되어 그 표기를 인용란에 보존. 공식 페이지를 두 번 열어 확인."
+"BUD-FD-961","헝가리","부다페스트","외식","주류","에티에키 애프터워크 헬레스 생맥주 0.3L (Madhouse)","Etyeki Afterwork Helles draft beer (0.3l; Madhouse)","1290","1290","HUF","1잔 0.3l","정가","일반","A 공식","예","확정 1차","2026-10-14","공식 음료 메뉴 현행 표시","Madhouse Bistro & Bar","https://madhousebudapest.hu/en/bar-en/","Etyeki Afterwork Helles
+0,3l:1,290 HUF","공식 바 메뉴에서 0.3l 구간을 사용. 페이지를 두 번 열어 확인."
+"BUD-FD-962","헝가리","부다페스트","외식","주류","드레허 클래식 맥주 1병 0.33L (Café Astoria Restaurant)","Dreher Classic beer (0.33l bottle; Café Astoria Restaurant)","1900","1900","HUF","1병 0.33l","정가","일반","A 공식","예","확정 1차","2026-10-14","공식 음료 메뉴 현행 표시","Café Astoria Restaurant","https://cafeastoriabudapest.hu/en/drinks/","Dreher Classic 0,33l
+1900 Ft","정상 메뉴가를 기록하고 Budapest Card 20% 할인은 적용하지 않음. 공식 메뉴 페이지를 두 번 열어 확인."
+"ATH-FD-961","그리스","아테네","외식","주류","님피 5 홉 라거 생맥주 330ml (Barrett)","Nymfi 5 Hops Lager draft beer (330ml; Barrett)","4","4","EUR","1잔 330ml","정가","일반","A 공식","예","확정 1차","2026-10-14","공식 메뉴 현행 표시","Barrett Coffee & Liquor Superstore","https://www.barrett-athens.gr/menu.html","330ml / 500ml
+Nymfi (5 Hops Lager - Greece)
+4€ / 5€","330ml와 500ml 가격 중 330ml 구간만 기록. 공식 메뉴를 두 번 열어 확인."
+"ATH-FD-962","그리스","아테네","외식","주류","픽스 헬라스 맥주 1병 330ml (APSYS Souvlaki & Grill)","Fix Hellas beer (330ml; APSYS Souvlaki & Grill)","3.50","3.50","EUR","1병 330ml","정가","일반","A 공식","예","확정 1차","2026-10-14","공식 메뉴 현행 표시","APSYS Souvlaki & Grill","https://apsys.gr/","Fix Hellas 330ml€3.50","일반 수블라키·그릴 식당 공식 메뉴. 페이지는 세금과 지방세 포함 가격이라고 명시. 두 번 열어 확인."
+"LIS-FD-961","포르투갈","리스본","외식","주류","코루자 맥주 1병 33cl (Shelter Bar)","Coruja beer (33cl bottle; Shelter Bar)","3.50","3.50","EUR","1병 33cl","정가","일반","A 공식","예","확정 1차","2026-10-14","공식 메뉴 현행 표시","Shelter Bar Lisboa","https://www.shelterbarlisboa.com/menu/","CORUJA GARRAFA DE VIDRO 33CL  | 3.50 | CORUJA GLASS BOTTLE 33","공식 메뉴에 표시된 세금 포함 메뉴 가격. 같은 메뉴를 두 번 열어 확인."
+"LIS-FD-962","포르투갈","리스본","외식","주류","GF 맥주 1병 33cl (Taberna da Baixa)","GF beer (33cl bottle; Taberna da Baixa)","3.00","3.00","EUR","1병 33cl","정가","일반","A 공식","예","확정 1차","2026-10-14","공식 메뉴 현행 표시","Taberna da Baixa","https://www.tabernadabaixa.pt/menus-1","CERVEJA GF 33CL 3,00€
+Beer bottle 33cl","리스본 전통 타베르나 공식 메뉴. 페이지를 두 번 열어 확인."
+"LON-FD-961","영국","런던","외식","주류","코로나 맥주 1병 330ml (The Windmill Clapham)","Corona beer (330ml bottle; The Windmill Clapham)","5.90","5.90","GBP","1병 330ml","정가","일반","A 공식","예","확정 1차","2026-10-14","공식 펍 메뉴 현행 표시","The Windmill Clapham","https://www.windmillclapham.co.uk/food-drink/","Corona
+330ml
+£5.90","Clapham Common의 일반 펍 공식 메뉴. 페이지를 두 번 열어 확인."
+"LON-FD-962","영국","런던","외식","주류","로스트 앤 그라운디드 헬레스 생맥주 반 파인트 (The Harrison)","Lost + Grounded Helles draft beer (half pint; The Harrison)","3.30","3.30","GBP","1잔 1/2 pint","정가","일반","A 공식","예","확정 1차","2026-10-14","공식 펍 메뉴 현행 표시","The Harrison Pub","https://theharrisonpub.com/food-and-drink-menus-kings-cross-bloomsbury-pub/","Lost + Grounded Helles UK 4.4% | £6.50 | £3.30","공식 메뉴 표의 Pt/½ Pt 두 가격 중 반 파인트 £3.30을 사용. 해당 펍은 일반 방문 가능한 pub이며 페이지를 두 번 열어 확인."

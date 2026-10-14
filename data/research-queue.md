@@ -589,8 +589,6 @@
 | DXB-SN-102 | 두바이 | 치즈 크루아상 | 14 AED | A | 예 | 재검증 | [ROAST Dubai 공식 메뉴](https://www.roastdubai.com/menu) |
 | DXB-SN-103 | 두바이 | 사모사 | 22 AED | A | 예 | 재검증 | [The Bhukkad Café 공식 2026 메뉴 PDF](https://www.thebhukkadcafe.com/assets/menu/the-bhukkad-cafe-menu.pdf) |
 | DXB-AL-101 | 두바이 | 비라 모레티 생맥주 | 50 AED | A | 예 | 재검증 | [Dubai Polo Bar 공식 메뉴](https://polo.emaar.com/food-menu/dubai-polo-bar/) |
-| DXB-AL-102 | 두바이 | 기네스 생맥주 | 55 AED | A | 예 | 재검증 | [Dubai Polo Bar 공식 메뉴](https://polo.emaar.com/food-menu/dubai-polo-bar/) |
-| DXB-AL-103 | 두바이 | 하이네켄 생맥주 | 50 AED | A | 예 | 재검증 | [Dubai Polo Bar 공식 메뉴](https://polo.emaar.com/food-menu/dubai-polo-bar/) |
 | DXB-TR-101 | 두바이 | 메트로 1구역 편도 (nol Red Ticket 일반) | 4 AED | A | 예 | 재검증 | [두바이 도로교통청 RTA nol 요금표](https://rta.ae/wps/portal/rta/ae/public-transport/Nol-Fares?lang=en) |
 | DXB-TR-102 | 두바이 | 시내버스 1구역 편도 (nol Red Ticket 일반) | 4 AED | A | 예 | 재검증 | [두바이 도로교통청 RTA nol 요금표](https://rta.ae/wps/portal/rta/ae/public-transport/Nol-Fares?lang=en) |
 | DXB-TR-103 | 두바이 | 트램 1구역 편도 (nol Red Ticket 일반) | 4 AED | A | 예 | 재검증 | [두바이 도로교통청 RTA nol 요금표](https://rta.ae/wps/portal/rta/ae/public-transport/Nol-Fares?lang=en) |
@@ -803,6 +801,32 @@
 | ATH-AL-502 | 아테네 | 알파 라거 330ml 5% | 5 EUR | A | 예 | 재검증 | [The New Era Athens](https://www.theneweraathens.gr/menu) |
 | ATH-AL-503 | 아테네 | 플로마리 우조 200ml 40% | 11 EUR | A | 예 | 재검증 | [The New Era Athens](https://www.theneweraathens.gr/menu) |
 | AMS-TR-501 | 암스테르담 | GVB 1시간권 | 3.4 EUR | A | 예 | 재검증 | [GVB](https://www.gvb.nl/reisproducten/uur-en-dagkaarten/gvb-1-uurkaart) |
+| BKK-FD-961 | 방콕 | 비어라오 라거 맥주 1병 330ml (Hemingway Bangkok) | 155 THB | A | 예 | 재검증 | [Hemingway Bangkok](https://hemingwaybangkok.com/beverage-menu/) |
+| BKK-FD-962 | 방콕 | 싱하 맥주 1병 320ml (Phoenix Nights) | 120 THB | A | 예 | 재검증 | [Phoenix Nights Bangkok](https://phoenixnightsbkk.com/drinks.html) |
+| TPE-FD-961 | 타이베이 | Budvar 맥주 0.33L (Divadlo) | 210 TWD | A | 예 | 재검증 | [Divadlo 捷克公寓](https://www.czech.com.tw/menu/) |
+| TPE-FD-962 | 타이베이 | 대만 맥주 1잔 330ml (Alleycats Pizza 화산점) | 230 TWD | A | 예 | 재검증 | [Alleycats Pizza 華山店](https://www.alleycatspizza.com/mainssl/modules/MySpace/index.php?pg=ZC85505&sn=alleycats) |
+| SIN-FD-961 | 싱가포르 | 타이거 맥주 1병 330ml (Gayatri Restaurant) | 8 SGD | A | 예 | 재검증 | [Gayatri Restaurant](https://gayatrirestaurant.com/menu/) |
+| SIN-FD-962 | 싱가포르 | 타이거 맥주 1병 330ml (Club A380) | 8 SGD | A | 예 | 재검증 | [Club A380](https://www.cluba380.com/menu/) |
+| INT-FD-961 | 인터라켄 | Rugenbräu Alpenperle 3.3dl (Spatz) | 5 CHF | A | 예 | 재검증 | [Spatz - gastro & so](https://www.spatzinterlaken.com/menu) |
+| INT-FD-962 | 인터라켄 | Simmentaler 라거 생맥주 0.3L (Pier One) | 5 CHF | A | 예 | 재검증 | [Pier One Interlaken](https://www.pieroneinterlaken.ch/en/sommerspeisen) |
+| VIE-FD-961 | 빈 | Corona 맥주 1병 0.33L (Isaac's Pub) | 5.1 EUR | A | 예 | 재검증 | [Isaac's Pub](https://www.isaacs.at/drinks) |
+| VIE-FD-962 | 빈 | 하우스 생맥주 0.33L (The Oak Pub and Restaurant) | 3.9 EUR | A | 예 | 재검증 | [The Oak Pub and Restaurant](https://theoak1030.at/menu/drinks/) |
+| DBV-FD-961 | 두브로브니크 | Tuborg 생맥주 1잔 0.30L (Shelby Bar) | 4.5 EUR | A | 예 | 재검증 | [Shelby Bar Dubrovnik](https://shelbybardubrovnik.com/drink-menu/) |
+| DBV-FD-962 | 두브로브니크 | Pan Zlatni 맥주 1병 0.35L (Pizzeria Oliva) | 5.6 EUR | A | 예 | 재검증 | [Pizzeria Oliva Dubrovnik](https://www.pizzeriaolivadubrovnik.com/drinks/) |
+| DXB-FD-961 | 두바이 | 브루독 IPA 맥주 1병 330ml (Kickers Sports Bar) | 50 AED | A | 예 | 재검증 | [Kickers Sports Bar](https://kickerssportsbar.ae/wp-content/uploads/2025/07/Kick-Cafe-Drinks-Menu-Bar-Menu-Dubai-Sports-City-2025-07-24.pdf) |
+| DXB-FD-962 | 두바이 | 타이거 생맥주 반 파인트 (The Irish Village Al Garhoud) | 25 AED | A | 예 | 재검증 | [The Irish Village Al Garhoud](https://theirishvillage.com/?i=1&id=3&page=menu) |
+| HAN-FD-961 | 하노이 | BACKYARD 라거 생맥주 330ml (Barbaros Restaurant) | 75000 VND | A | 예 | 재검증 | [Barbaros Restaurant](https://barbarosrestaurant.com/wp-content/uploads/2026/03/Barbaros-Drink-Menu-March2026.pdf) |
+| HAN-FD-962 | 하노이 | 삿포로 생맥주 330ml (1984 Coffee & Drinks) | 50000 VND | A | 예 | 재검증 | [1984 Coffee & Drinks](https://1984studio.vn/1984-coffee-pub-restaurant-new/) |
+| SGN-FD-961 | 호치민 | 아사히 슈퍼 드라이 생맥주 330ml (OKRA FoodBar) | 105000 VND | A | 예 | 재검증 | [OKRA FoodBar](https://www.okra.asia/menu) |
+| SGN-FD-962 | 호치민 | 포멜로 IPA 1잔 175ml (Pasteur Street Craft Beer) | 45000 VND | A | 예 | 재검증 | [Pasteur Street Craft Beer](https://pasteurstreet.com/vi/pasteur-street-menu/menu-x/) |
+| BUD-FD-961 | 부다페스트 | 에티에키 애프터워크 헬레스 생맥주 0.3L (Madhouse) | 1290 HUF | A | 예 | 재검증 | [Madhouse Bistro & Bar](https://madhousebudapest.hu/en/bar-en/) |
+| BUD-FD-962 | 부다페스트 | 드레허 클래식 맥주 1병 0.33L (Café Astoria Restaurant) | 1900 HUF | A | 예 | 재검증 | [Café Astoria Restaurant](https://cafeastoriabudapest.hu/en/drinks/) |
+| ATH-FD-961 | 아테네 | 님피 5 홉 라거 생맥주 330ml (Barrett) | 4 EUR | A | 예 | 재검증 | [Barrett Coffee & Liquor Superstore](https://www.barrett-athens.gr/menu.html) |
+| ATH-FD-962 | 아테네 | 픽스 헬라스 맥주 1병 330ml (APSYS Souvlaki & Grill) | 3.5 EUR | A | 예 | 재검증 | [APSYS Souvlaki & Grill](https://apsys.gr/) |
+| LIS-FD-961 | 리스본 | 코루자 맥주 1병 33cl (Shelter Bar) | 3.5 EUR | A | 예 | 재검증 | [Shelter Bar Lisboa](https://www.shelterbarlisboa.com/menu/) |
+| LIS-FD-962 | 리스본 | GF 맥주 1병 33cl (Taberna da Baixa) | 3 EUR | A | 예 | 재검증 | [Taberna da Baixa](https://www.tabernadabaixa.pt/menus-1) |
+| LON-FD-961 | 런던 | 코로나 맥주 1병 330ml (The Windmill Clapham) | 5.9 GBP | A | 예 | 재검증 | [The Windmill Clapham](https://www.windmillclapham.co.uk/food-drink/) |
+| LON-FD-962 | 런던 | 로스트 앤 그라운디드 헬레스 생맥주 반 파인트 (The Harrison) | 3.3 GBP | A | 예 | 재검증 | [The Harrison Pub](https://theharrisonpub.com/food-and-drink-menus-kings-cross-bloomsbury-pub/) |
 | AMS-FD-501 | 암스테르담 | 풀 아이리시 아침 식사 | 14.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
 | AMS-FD-502 | 암스테르담 | 클럽 샌드위치 | 12.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
 | AMS-FD-503 | 암스테르담 | 채식 버거 | 16.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
@@ -867,8 +891,6 @@
 | VIE-SN-102 | 빈 | 레스토랑 비너 보슬라우 생수 | 3.9 EUR | A | 예 | 재검증 | [Restaurant Wiener 2026 공식 메뉴](https://restaurant-wiener.brcp.at/en) |
 | VIE-SN-103 | 빈 | 레스토랑 비너 과일주스 | 4.5 EUR | A | 예 | 재검증 | [Restaurant Wiener 2026 공식 메뉴](https://restaurant-wiener.brcp.at/en) |
 | VIE-AL-101 | 빈 | 레스토랑 비너 슈티글 필스 생맥주 | 4.9 EUR | A | 예 | 재검증 | [Restaurant Wiener 2026 공식 메뉴](https://restaurant-wiener.brcp.at/en) |
-| VIE-AL-102 | 빈 | 레스토랑 비너 히르터 켈러마이스터 츠비클 | 4.9 EUR | A | 예 | 재검증 | [Restaurant Wiener 2026 공식 메뉴](https://restaurant-wiener.brcp.at/en) |
-| VIE-AL-103 | 빈 | 레스토랑 비너 슈티글 바이스 | 6.2 EUR | A | 예 | 재검증 | [Restaurant Wiener 2026 공식 메뉴](https://restaurant-wiener.brcp.at/en) |
 | VIE-AT-101 | 빈 | 쇤브룬 궁전 입장권(성인) | 42 EUR | A | 예 | 재검증 | [Schönbrunn 공식 티켓·투어 요금](https://www.schoenbrunn.at/en/tickets-and-prices/all-tickets-tours?ADMCMD_editIcons=16&cHash=fdd9dd0c44594a1b25fe449e05578c6f) |
 | VIE-AT-102 | 빈 | 쇤브룬 궁전 입장권(아동 6~18세) | 30 EUR | A | 예 | 재검증 | [Schönbrunn 공식 티켓·투어 요금](https://www.schoenbrunn.at/en/tickets-and-prices/all-tickets-tours?ADMCMD_editIcons=16&cHash=fdd9dd0c44594a1b25fe449e05578c6f) |
 | VIE-AT-103 | 빈 | 빈 동물원 입장권(성인) | 29 EUR | A | 예 | 재검증 | [Tiergarten Schönbrunn 공식 visitor information](https://www.zoovienna.at/en/zoo-and-visitors/visitor-information/) |
@@ -883,8 +905,6 @@
 | BUD-SN-102 | 부다페스트 | 와인스톤 코카콜라 25cl | 1210 HUF | A | 예 | 재검증 | [WineStone City Center 공식 메뉴](https://winestone-citycenter.hu/en) |
 | BUD-SN-103 | 부다페스트 | 와인스톤 오렌지 주스 20cl | 1210 HUF | A | 예 | 재검증 | [WineStone City Center 공식 메뉴](https://winestone-citycenter.hu/en) |
 | BUD-AL-101 | 부다페스트 | 와인스톤 파울루스 소비뇽 블랑 2025 | 1480 HUF | A | 예 | 재검증 | [WineStone City Center 공식 메뉴](https://winestone-citycenter.hu/en) |
-| BUD-AL-102 | 부다페스트 | 와인스톤 이콘 샤르도네 2025 | 1480 HUF | A | 예 | 재검증 | [WineStone City Center 공식 메뉴](https://winestone-citycenter.hu/en) |
-| BUD-AL-103 | 부다페스트 | 와인스톤 사바르 피노 그리 | 1800 HUF | A | 예 | 재검증 | [WineStone City Center 공식 메뉴](https://winestone-citycenter.hu/en) |
 | BUD-TR-101 | 부다페스트 | BKK 단일 승차권 | 500 HUF | A | 예 | 재검증 | [BKK 공식 티켓 가격](https://bkk.hu/en/tickets-and-passes/prices/) |
 | BUD-TR-102 | 부다페스트 | BKK 24시간권 | 2750 HUF | A | 예 | 재검증 | [BKK 공식 티켓 가격](https://bkk.hu/en/tickets-and-passes/prices/) |
 | BUD-AT-101 | 부다페스트 | 부다페스트 동물원 입장권(성인) | 5900 HUF | A | 예 | 재검증 | [Budapest Zoo 공식 요금](https://zoobudapest.com/en/tickets-and-passes/prices/) |
@@ -917,8 +937,6 @@
 | INT-SN-102 | 인터라켄 | 스파이스빌리지 생수 5dl | 4 CHF | A | 예 | 재검증 | [SpiceVillage 공식 메뉴](https://spicevillage-restaurant.ch/menu-best-halal-food-indian-pakistani/) |
 | INT-SN-103 | 인터라켄 | 스파이스빌리지 망고 주스 3dl | 5 CHF | A | 예 | 재검증 | [SpiceVillage 공식 메뉴](https://spicevillage-restaurant.ch/menu-best-halal-food-indian-pakistani/) |
 | INT-AL-101 | 인터라켄 | 스파이스빌리지 코브라 인도 맥주 | 6 CHF | A | 예 | 재검증 | [SpiceVillage 공식 메뉴](https://spicevillage-restaurant.ch/menu-best-halal-food-indian-pakistani/) |
-| INT-AL-102 | 인터라켄 | 스파이스빌리지 펠트슐뢰스헨 맥주 | 6 CHF | A | 예 | 재검증 | [SpiceVillage 공식 메뉴](https://spicevillage-restaurant.ch/menu-best-halal-food-indian-pakistani/) |
-| INT-AL-103 | 인터라켄 | 스파이스빌리지 킹피셔 인도 맥주 | 6 CHF | A | 예 | 재검증 | [SpiceVillage 공식 메뉴](https://spicevillage-restaurant.ch/menu-best-halal-food-indian-pakistani/) |
 | INT-TR-101 | 인터라켄 | 리베로 인터라켄 Localzone 750 편도 2등석 | 4 CHF | A | 예 | 재검증 | [Libero 2026 공식 요금 안내(PDF)](https://www.mylibero.ch/sites/default/files/2025-12/Libero-Prospekt-2026.pdf) |
 | INT-TR-102 | 인터라켄 | 리베로 인터라켄 Localzone 750 1일권 | 8 CHF | A | 예 | 재검증 | [Libero 2026 공식 요금 안내(PDF)](https://www.mylibero.ch/sites/default/files/2025-12/Libero-Prospekt-2026.pdf) |
 | INT-AT-101 | 인터라켄 | 그린델발트 퍼스트 플라이어(성인) | 35 CHF | A | 예 | 재검증 | [Jungfraubahnen 공식 페이지](https://www.jungfrau.ch/en-gb/grindelwaldfirst/first-flyer/) |
@@ -1062,8 +1080,6 @@
 | HAN-FD-105 | 하노이 | Pizza 4P's 볼로네제 스파게티(훈제 부라타) | 221000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
 | HAN-SN-104 | 하노이 | 롯데리아 베트남 펩시(M) | 15000 VND | A | 조건부 | 조건부, 재검증 | [Lotteria Việt Nam 공식 메뉴](https://www.lotteria.vn/menu) |
 | HAN-AL-101 | 하노이 | Pizza 4P's 오리지널 세션 IPA | 95000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
-| HAN-AL-102 | 하노이 | Pizza 4P's 유자 위트 맥주 | 105000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
-| HAN-AL-103 | 하노이 | Pizza 4P's 레드 상그리아(글라스) | 109000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
 | SGN-FD-101 | 호치민 | KFC 베트남 콤보 껌 가 꾸아이 솔로 | 59000 VND | A | 조건부 | 조건부, 재검증 | [KFC Việt Nam 공식 메뉴](https://kfcvietnam.com.vn/menu) |
 | SGN-FD-102 | 호치민 | KFC 베트남 콤보 버거 징거 | 79000 VND | A | 조건부 | 조건부, 재검증 | [KFC Việt Nam 공식 메뉴](https://kfcvietnam.com.vn/menu) |
 | SGN-FD-103 | 호치민 | 롯데리아 베트남 콤보 버거 똠 | 85000~93000 VND | A | 조건부 | 조건부, 재검증 | [Lotteria Việt Nam 공식 메뉴](https://www.lotteria.vn/menu) |
@@ -1073,8 +1089,6 @@
 | SGN-SN-102 | 호치민 | 하이랜드 커피 반미 꾸에 | 19000 VND | A | 조건부 | 조건부, 재검증 | [Highlands Coffee 공식 메뉴(반미 꾸에)](https://www.highlandscoffee.com.vn/vn/banh-mi-que.html) |
 | SGN-SN-103 | 호치민 | Pizza 4P's 코카콜라 | 42000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
 | SGN-AL-101 | 호치민 | Pizza 4P's 오리지널 세션 IPA | 95000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
-| SGN-AL-102 | 호치민 | Pizza 4P's 유자 위트 맥주 | 105000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
-| SGN-AL-103 | 호치민 | Pizza 4P's 레드 상그리아(글라스) | 109000 VND | A | 조건부 | 조건부, 재검증 | [Pizza 4P's 공식 메뉴(베트남)](https://pizza4ps.com/vn/menu/) |
 | SGN-TR-101 | 호치민 | 메트로 1호선 벤탄–수오이띠엔(전 구간) | 20000 VND | A | 조건부 | 조건부, 재검증 | [VinBus 공식 노선 조회(호치민)](https://maps.vinbus.vn/hcm) |
 | SGN-TR-102 | 호치민 | 호치민 시내버스 03번 벤탄–탄쑤언 | 6000 VND | A | 조건부 | 조건부, 재검증 | [VinBus 공식 노선 조회(호치민, 'Buýt thành phố' 목록)](https://maps.vinbus.vn/hcm) |
 | SGN-TR-103 | 호치민 | 빈버스 D4 빈홈즈 그랜드파크–사이공 버스터미널 | 7000 VND | A | 예 | 재검증 | [VinBus 공식 노선 조회(호치민)](https://maps.vinbus.vn/hcm) |
@@ -1367,11 +1381,7 @@
 | DAD-FD-951 | 다낭 | 후다 생맥주 소 | 25000 VND | A | 예 | 재검증 | [The Mad Den Irish Bar Da Nang](https://themaddenirishbardanang.com/menu/) |
 | DAD-FD-952 | 다낭 | 산미구엘 생맥주 대 | 50000 VND | A | 예 | 재검증 | [The Mad Den Irish Bar Da Nang](https://themaddenirishbardanang.com/menu/) |
 | DAD-FD-953 | 다낭 | 이스트웨스트 퍼시픽 필스너 (루프톱) | 115000 VND | A | 예 | 재검증 | [The Roof Da Nang](https://www.theroofdanang.com/menu) |
-| TPE-FD-951 | 타이베이 | 아사히 맥주 (호텔 라운지) | 250 TWD | A | 예 | 재검증, 세금·서비스료 별도 | [Courtyard by Marriott Taipei Lobby Lounge](https://www.courtyardtaipei.com.tw/uploads/restaurant_menu_pdf/39/5bf94d51756936d36a6a847dcbb71c97.pdf) |
-| TPE-FD-952 | 타이베이 | 코로나 맥주 (호텔 라운지) | 250 TWD | A | 예 | 재검증, 세금·서비스료 별도 | [Courtyard by Marriott Taipei Lobby Lounge](https://www.courtyardtaipei.com.tw/uploads/restaurant_menu_pdf/39/5bf94d51756936d36a6a847dcbb71c97.pdf) |
 | TPE-FD-953 | 타이베이 | 타이완 골드 맥주 (호텔 라운지) | 220 TWD | A | 예 | 재검증, 세금·서비스료 별도 | [Courtyard by Marriott Taipei Lobby Lounge](https://www.courtyardtaipei.com.tw/uploads/restaurant_menu_pdf/39/5bf94d51756936d36a6a847dcbb71c97.pdf) |
-| SIN-FD-951 | 싱가포르 | 하이네켄 (리퍼블릭 바) | 18 SGD | A | 예 | 재검증, 세금·서비스료 별도 | [Republic Bar Singapore](https://www.republicbar.com.sg/resourcefiles/pdf/republic-vol-4-menu.pdf) |
-| SIN-FD-952 | 싱가포르 | 아사히 (리퍼블릭 바) | 18 SGD | A | 예 | 재검증, 세금·서비스료 별도 | [Republic Bar Singapore](https://www.republicbar.com.sg/resourcefiles/pdf/republic-vol-4-menu.pdf) |
 | SIN-FD-953 | 싱가포르 | 타이거 (리퍼블릭 바) | 18 SGD | A | 예 | 재검증, 세금·서비스료 별도 | [Republic Bar Singapore](https://www.republicbar.com.sg/resourcefiles/pdf/republic-vol-4-menu.pdf) |
 | PAR-FD-951 | 파리 | 크로넨부르 1664 25cl | 6.9 EUR | A | 예 | 재검증 | [Le Do Ré Mi Paris](https://www.ledoremiparis.fr/en/menus/) |
 | PAR-FD-952 | 파리 | 브라스리 리프 블롱드 25cl | 7 EUR | A | 예 | 재검증 | [Brasserie Lipp](https://www.brasserielipp.fr/en/menus/) |

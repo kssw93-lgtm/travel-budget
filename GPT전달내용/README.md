@@ -374,3 +374,5 @@ ChatGPT가 할 일만 이 폴더에 모았습니다. **새 할 일은 `할일_20
 - M 음식 사진 추가: 경주 황남빵(ProjectManhattan, CC0 1.0)과 싱가포르 로티 프라타(Al-Ameen Eating Corner, ZanGun, CC BY-SA 4.0)를 Commons 파일 페이지에서 각 2회 열어 확인하고 원본 링크를 추가했습니다. 현재 24/99건, 75건 남음.
 
 - M 음식 사진 추가: 프라하 Trdelník(MOs810, CC BY-SA 4.0)과 리스본 Pastel de nata(Philip Mallis from Melbourne, CC BY-SA 4.0)를 Commons 파일 페이지에서 각각 두 번 확인해 `결과/F_음식사진_2026-10-13.csv`에 추가했습니다. 도시/음식 설명, 작가, 라이선스를 확인하고 Commons가 제공한 원본 링크를 사용했습니다. 누계 26/99건, 73건 남음.
+
+- M 음식 사진 추가: 경주 교리김밥(Fred Cherrygarden, CC BY-SA 4.0)과 전주비빔밥(Douglas Paul Perkins, CC BY 3.0)을 Commons 파일 페이지에서 각 2회 열어 음식·도시 설명, 작가, 라이선스를 확인했습니다. 교리김밥 원본은 크기 제한으로 직접 열리지 않아 페이지가 제공한 1280px 썸네일을 사용했고, 전주비빔밥 원본은 열었습니다. `결과/F_음식사진_2026-10-13.csv` 누계 28/99건, 71건 남음.

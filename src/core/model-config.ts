@@ -89,6 +89,10 @@ export const MENU_SURCHARGE: Record<string, { tax: number; drinkTax?: number; ti
   'new-york': { tax: 0.08875, tip: [0.18, 0.2], taxSource: 'New York State Department of Taxation and Finance — New York City 8.875%' },
   honolulu: { tax: 0.045, tip: [0.18, 0.2], taxSource: 'Hawaii Department of Taxation — GET 4% + Oahu county surcharge 0.5%' },
   vancouver: { tax: 0.05, drinkTax: 0.15, tip: [0.15, 0.18], taxSource: 'Canada Revenue Agency GST 5%, BC PST 10% on liquor' },
+  // 아래 셋은 숨김(조사 중) 도시. 공개하면 바로 적용된다. 세율은 퍼플렉시티가 세무청 공식 세율표에서 확인(2026-10-14)
+  'los-angeles': { tax: 0.1025, tip: [0.18, 0.2], taxSource: 'CDTFA — Los Angeles City 10.250% (effective October 1, 2026)' },
+  'san-francisco': { tax: 0.08625, tip: [0.18, 0.2], taxSource: 'CDTFA — San Francisco 8.625% (effective October 1, 2026)' },
+  'las-vegas': { tax: 0.08375, tip: [0.18, 0.2], taxSource: 'Nevada Department of Taxation — Clark County 8.375%' },
 };
 
 export const MIN_SAMPLES_BY_BASKET: Partial<Record<Basket, number>> = { ride: 1, pass: 1 };

@@ -80,6 +80,24 @@
       "date": "2026-10-12",
       "name": "라오스 중앙은행(Bank of the Lao PDR) 고시 USD 매입 22,382·매도 22,605의 중간값",
       "url": "https://www.bol.gov.la/en/ExchangRate"
+    },
+    "KZT": {
+      "rate": 448.45,
+      "date": "2026-10-14",
+      "name": "카자흐스탄 국립은행 Official (market) Exchange Rates의 USD 공식 환율",
+      "url": "https://nationalbank.kz/en/exchangerates/ezhednevnye-oficialnye-rynochnye-kursy-valyut"
+    },
+    "UZS": {
+      "rate": 11913.35,
+      "date": "2026-10-14",
+      "name": "우즈베키스탄 중앙은행(CBU) Currency Rates의 USD 공식 환율",
+      "url": "https://cbu.uz/en/press_center/media_library/"
+    },
+    "GEL": {
+      "rate": 2.5994,
+      "date": "2026-10-13",
+      "name": "조지아 국립은행(NBG) 공식 환율 USD",
+      "url": "https://nbg.gov.ge/en/monetary-policy/currency"
     }
   },
   "crossChecks": [

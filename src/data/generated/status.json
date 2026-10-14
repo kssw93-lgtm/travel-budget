@@ -1007,6 +1007,34 @@
     "missing": [],
     "computable": true
   },
+  "incheon": {
+    "counts": {
+      "food": 43,
+      "transport": 18,
+      "attraction": 2
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 18,
+      "meal": 43,
+      "snack": 16,
+      "drink": 18,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 19,
+      "meal": 46,
+      "snack": 16,
+      "drink": 18,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "kobe": {
     "counts": {
       "food": 55,
@@ -1222,6 +1250,34 @@
       "pass": 0,
       "ride": 1,
       "meal": 5,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "qingdao": {
+    "counts": {
+      "food": 4,
+      "transport": 4,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 4,
       "snack": 3,
       "drink": 3,
       "attraction": 3,

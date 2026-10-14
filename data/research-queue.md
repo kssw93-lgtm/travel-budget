@@ -68,6 +68,7 @@
 | 속초 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 통영 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 대구 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 인천 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 고베 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 고베 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 히로시마 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -82,6 +83,7 @@
 | 달랏 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 가오슝 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 가오슝 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 칭다오 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 베이징 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 베이징 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 암스테르담 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -710,6 +712,10 @@
 | PEK-AT-104 | 베이징 | 무톈위 장성 아동 할인 입장권 | 25 CNY | A | 예 | 재검증 | [베이징시 인민정부 Visit Beijing](https://english.beijing.gov.cn/specials/ticketing/attractions/202407/t20240717_3751593.html) |
 | PEK-AT-105 | 베이징 | 베이징 동물원 기본 입장권 | 15 CNY | A | 예 | 재검증 | [베이징시 공원관리센터·베이징 관광망](https://english.beijing.gov.cn/specials/ticketing/parks/202407/t20240719_3753328.html) |
 | PEK-AT-106 | 베이징 | 베이징 동물원 기본 입장권 | 7.5 CNY | A | 예 | 재검증 | [베이징시 공원관리센터·베이징 관광망](https://english.beijing.gov.cn/specials/ticketing/parks/202407/t20240719_3753328.html; https://s.visitbeijing.com.cn/attraction/117808) |
+| TAO-AT-101 | 칭다오 | 칭다오 맥주박물관 일반 입장권 | 60 CNY | A | 예 | 재검증 | [칭다오 맥주박물관](https://www.tsingtaomuseum.com/articleTitleCus/1823961726126940161?viewName=newPiaowu2Detail) |
+| TAO-AT-102 | 칭다오 | 칭다오 맥주박물관 일반 입장권 | 0 CNY | A | 예 | 재검증 | [칭다오 맥주박물관](https://www.tsingtaomuseum.com/articleTitleCus/1823961726126940161?viewName=newPiaowu2Detail) |
+| TAO-AT-103 | 칭다오 | 칭다오 하이톈센터 81층 도시관람홀 입장권 | 200 CNY | A | 예 | 재검증 | [칭다오국신문화관광관리유한회사](https://qdgxwl.com/service.html) |
+| TAO-AT-104 | 칭다오 | 칭다오 하이톈센터 81층 도시관람홀 입장권 | 0 CNY | A | 예 | 재검증 | [칭다오국신문화관광관리유한회사](https://qdgxwl.com/service.html) |
 | PYX-AT-101 | 파타야 | 진리의 성전 주간 입장권 | 500 THB | A | 예 | 재검증 | [태국관광청 일본사무소 공식 사이트](https://www.thailandtravel.or.jp/the-sanctuary-of-truth/) |
 | PYX-AT-102 | 파타야 | 진리의 성전 주간 입장권 | 250 THB | A | 예 | 재검증 | [태국관광청 일본사무소 공식 사이트](https://www.thailandtravel.or.jp/the-sanctuary-of-truth/) |
 | PYX-AT-103 | 파타야 | 아트 인 파라다이스 | 300 THB | A | 예 | 재검증 | [태국관광청 일본사무소 공식 사이트](https://www.thailandtravel.or.jp/art-in-paradise/) |
@@ -758,6 +764,12 @@
 | SCH-AT-104 | 속초 | 속초시립박물관 개인 관람료 (아동) | 700 KRW | A | 예 | 재검증 | [속초시립박물관 공식 관람안내](https://sokcho.go.kr/ct/museum/intro/guide) |
 | SCH-AT-105 | 속초 | 엑스포타워 입장료 | 2500 KRW | A | 예 | 재검증 | [속초시 관광 공식 누리집](https://www.sokcho.go.kr/ct/tour/attraction/experience?contentSeq=59) |
 | SCH-AT-106 | 속초 | 엑스포타워 입장료 (아동) | 1500 KRW | A | 예 | 재검증 | [속초시 관광 공식 누리집](https://www.sokcho.go.kr/ct/tour/attraction/experience?contentSeq=59) |
+| ICN-AT-101 | 인천 | 짜장면박물관 입장료 | 1000 KRW | A | 예 | 재검증 | [인천투어(한국관광공사 제공)](https://itour.incheon.go.kr/ssst/ssst/detail.do?cotId=ITD21121415141255311) |
+| ICN-AT-102 | 인천 | 짜장면박물관 입장료 (아동) | 0 KRW | A | 예 | 재검증 | [인천투어(한국관광공사 제공)](https://itour.incheon.go.kr/ssst/ssst/detail.do?cotId=ITD21121415141255311) |
+| ICN-AT-103 | 인천 | 인천어린이박물관 입장료 | 6000 KRW | A | 예 | 재검증 | [인천투어(한국관광공사 제공)](https://itour.incheon.go.kr/ssst/ssst/detail.do?cotId=ITD21121516371293891) |
+| ICN-AT-104 | 인천 | 인천어린이박물관 입장료 (아동) | 7000 KRW | A | 예 | 재검증 | [인천투어(한국관광공사 제공)](https://itour.incheon.go.kr/ssst/ssst/detail.do?cotId=ITD21121516371293891) |
+| ICN-AT-105 | 인천 | 기차왕국박물관카페 입장료 | 5000 KRW | A | 예 | 재검증 | [인천투어(한국관광공사 제공)](https://itour.incheon.go.kr/ssst/ssst/detail.do?cotId=APD21120110001403679) |
+| ICN-AT-106 | 인천 | 기차왕국박물관카페 입장료 (아동) | 4000 KRW | A | 예 | 재검증 | [인천투어(한국관광공사 제공)](https://itour.incheon.go.kr/ssst/ssst/detail.do?cotId=APD21120110001403679) |
 | TYG-AT-101 | 통영 | 통영수산과학관 개인 관람료 | 3000 KRW | A | 예 | 재검증 | [통영수산과학관 공식 요금안내](https://muse.ttdc.kr/mobile/sub.aspx?page=guide01) |
 | TYG-AT-102 | 통영 | 통영수산과학관 개인 관람료 (아동) | 2000 KRW | A | 예 | 재검증 | [통영수산과학관 공식 요금안내](https://muse.ttdc.kr/mobile/sub.aspx?page=guide01) |
 | TYG-AT-103 | 통영 | 스카이라인 루지 통영 스카이라이드+루지 5회+디지털 사진 2매 | 41000 KRW | A | 예 | 재검증 | [스카이라인 루지 통영 공식 홈페이지](https://tongyeong.skylineluge.kr/) |
@@ -801,6 +813,9 @@
 | ATH-AL-502 | 아테네 | 알파 라거 330ml 5% | 5 EUR | A | 예 | 재검증 | [The New Era Athens](https://www.theneweraathens.gr/menu) |
 | ATH-AL-503 | 아테네 | 플로마리 우조 200ml 40% | 11 EUR | A | 예 | 재검증 | [The New Era Athens](https://www.theneweraathens.gr/menu) |
 | AMS-TR-501 | 암스테르담 | GVB 1시간권 | 3.4 EUR | A | 예 | 재검증 | [GVB](https://www.gvb.nl/reisproducten/uur-en-dagkaarten/gvb-1-uurkaart) |
+| TAO-AT-201 | 칭다오 | 칭다오시박물관 「海屿神辉——意大利普利亚古希腊文化艺术珍藏展」 성인 | 68 CNY | A | 예 | 재검증 | [青岛市博物馆](https://www.qingdaomuseum.cn/exhibition/detail/556) |
+| TAO-AT-202 | 칭다오 | 칭다오시박물관 「海屿神辉——意大利普利亚古希腊文化艺术珍藏展」 만 6세 | 0 CNY | A | 예 | 재검증 | [青岛市博物馆](https://www.qingdaomuseum.cn/exhibition/detail/556) |
+| TAO-AT-203 | 칭다오 | 칭다오시박물관 「海屿神辉——意大利普利亚古希腊文化艺术珍藏展」 아동·청소년 | 35 CNY | A | 예 | 재검증 | [青岛市博物馆](https://www.qingdaomuseum.cn/exhibition/detail/556) |
 | BKK-FD-961 | 방콕 | 비어라오 라거 맥주 1병 330ml (Hemingway Bangkok) | 155 THB | A | 예 | 재검증 | [Hemingway Bangkok](https://hemingwaybangkok.com/beverage-menu/) |
 | BKK-FD-962 | 방콕 | 싱하 맥주 1병 320ml (Phoenix Nights) | 120 THB | A | 예 | 재검증 | [Phoenix Nights Bangkok](https://phoenixnightsbkk.com/drinks.html) |
 | TPE-FD-961 | 타이베이 | Budvar 맥주 0.33L (Divadlo) | 210 TWD | A | 예 | 재검증 | [Divadlo 捷克公寓](https://www.czech.com.tw/menu/) |

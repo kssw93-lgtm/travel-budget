@@ -1749,5 +1749,35 @@
     "ko": "크로아티아식 캐러멜 커스터드 디저트",
     "en": "Croatian caramel custard pudding",
     "ja": "クロアチア風のカラメルプリン"
+  },
+  "incheon:Jajangmyeon": {
+    "ko": "인천 차이나타운에서 시작된 춘장 소스 비빔면",
+    "en": "Black bean sauce noodles that began in Incheon Chinatown",
+    "ja": "仁川チャイナタウン発祥のジャージャー麺"
+  },
+  "incheon:Jjolmyeon": {
+    "ko": "인천에서 처음 만들어진 쫄깃한 면을 매콤새콤하게 비빈 국수",
+    "en": "Chewy noodles in a sweet-spicy sauce, first made in Incheon",
+    "ja": "仁川生まれの弾力ある麺を甘辛く和えた麺"
+  },
+  "incheon:Dakgangjeong": {
+    "ko": "바삭하게 튀긴 닭에 달콤매콤한 양념을 입힌 신포시장 명물",
+    "en": "Crispy fried chicken glazed in sweet-spicy sauce, a Sinpo Market favorite",
+    "ja": "甘辛いタレを絡めたカリカリの揚げ鶏、新浦市場の名物"
+  },
+  "qingdao:Tsingtao Beer": {
+    "ko": "칭다오에서 만드는 맥주, 시내 곳곳에서 갓 뽑은 생맥주를 마실 수 있음",
+    "en": "Beer brewed in Qingdao, sold fresh on tap around the city",
+    "ja": "青島で造られるビール、街中で生ビールが飲める"
+  },
+  "qingdao:Spicy Stir-fried Clams": {
+    "ko": "바지락을 고추와 함께 센 불에 볶은 칭다오 대표 안주",
+    "en": "Clams stir-fried over high heat with chili",
+    "ja": "アサリを唐辛子と強火で炒めた青島の定番料理"
+  },
+  "qingdao:Mackerel Dumplings": {
+    "ko": "삼치 살을 다져 소로 넣은 칭다오식 물만두",
+    "en": "Boiled dumplings filled with minced Spanish mackerel",
+    "ja": "サワラのすり身を包んだ青島式水餃子"
   }
 }

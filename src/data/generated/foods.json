@@ -2931,6 +2931,60 @@
     "note": "Claude 초안(2026-10-12)"
   },
   {
+    "cityId": "incheon",
+    "nameKo": "짜장면",
+    "nameEn": "Jajangmyeon",
+    "reason": "인천 차이나타운에서 시작된 춘장 소스 비빔면",
+    "reasonEn": "Jajangmyeon from Chinatown",
+    "desc": {
+      "ko": "인천 차이나타운에서 시작된 춘장 소스 비빔면",
+      "en": "Black bean sauce noodles that began in Incheon Chinatown",
+      "ja": "仁川チャイナタウン発祥のジャージャー麺"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-14)"
+  },
+  {
+    "cityId": "incheon",
+    "nameKo": "쫄면",
+    "nameEn": "Jjolmyeon",
+    "reason": "인천에서 처음 만들어진 쫄깃한 면을 매콤새콤하게 비빈 국수",
+    "reasonEn": "Chewy spicy noodles",
+    "desc": {
+      "ko": "인천에서 처음 만들어진 쫄깃한 면을 매콤새콤하게 비빈 국수",
+      "en": "Chewy noodles in a sweet-spicy sauce, first made in Incheon",
+      "ja": "仁川生まれの弾力ある麺を甘辛く和えた麺"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-14)"
+  },
+  {
+    "cityId": "incheon",
+    "nameKo": "닭강정",
+    "nameEn": "Dakgangjeong",
+    "reason": "바삭하게 튀긴 닭에 달콤매콤한 양념을 입힌 신포시장 명물",
+    "reasonEn": "Sweet-spicy fried chicken",
+    "desc": {
+      "ko": "바삭하게 튀긴 닭에 달콤매콤한 양념을 입힌 신포시장 명물",
+      "en": "Crispy fried chicken glazed in sweet-spicy sauce, a Sinpo Market favorite",
+      "ja": "甘辛いタレを絡めたカリカリの揚げ鶏、新浦市場の名物"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-14)"
+  },
+  {
     "cityId": "interlaken",
     "nameKo": "치즈 퐁뒤",
     "nameEn": "Cheese fondue",
@@ -4494,6 +4548,60 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "qingdao",
+    "nameKo": "칭다오 맥주",
+    "nameEn": "Tsingtao Beer",
+    "reason": "칭다오에서 만드는 맥주, 시내 곳곳에서 갓 뽑은 생맥주를 마실 수 있음",
+    "reasonEn": "Local Tsingtao beer",
+    "desc": {
+      "ko": "칭다오에서 만드는 맥주, 시내 곳곳에서 갓 뽑은 생맥주를 마실 수 있음",
+      "en": "Beer brewed in Qingdao, sold fresh on tap around the city",
+      "ja": "青島で造られるビール、街中で生ビールが飲める"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-14)"
+  },
+  {
+    "cityId": "qingdao",
+    "nameKo": "라차오거리",
+    "nameEn": "Spicy Stir-fried Clams",
+    "reason": "바지락을 고추와 함께 센 불에 볶은 칭다오 대표 안주",
+    "reasonEn": "Spicy stir-fried clams",
+    "desc": {
+      "ko": "바지락을 고추와 함께 센 불에 볶은 칭다오 대표 안주",
+      "en": "Clams stir-fried over high heat with chili",
+      "ja": "アサリを唐辛子と強火で炒めた青島の定番料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-14)"
+  },
+  {
+    "cityId": "qingdao",
+    "nameKo": "삼치만두",
+    "nameEn": "Mackerel Dumplings",
+    "reason": "삼치 살을 다져 소로 넣은 칭다오식 물만두",
+    "reasonEn": "Mackerel dumplings",
+    "desc": {
+      "ko": "삼치 살을 다져 소로 넣은 칭다오식 물만두",
+      "en": "Boiled dumplings filled with minced Spanish mackerel",
+      "ja": "サワラのすり身を包んだ青島式水餃子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(2026-10-14)"
   },
   {
     "cityId": "rome",

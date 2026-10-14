@@ -4,6 +4,7 @@
  */
 import { cityGuide, guidePath } from '../src/core/guide';
 import { formatMoney } from '../src/core/money';
+import { STATIC_RATES } from '../src/core/rates/static';
 import type { City, CityMemo, ExtraSample, FoodRecommendation, PriceSample, Range } from '../src/core/types';
 import { escapeHtml as e, type PageMeta } from './site-files';
 
@@ -14,6 +15,15 @@ const UNIT_KO: Record<string, string> = {
 };
 
 const money = (n: number, cur: string) => formatMoney(n, cur, 'ko-KR');
+/** 원화 어림값(조사 고정 환율, 0.1만 원 단위). 원화 도시나 환율이 없는 통화는 빈 문자열 */
+const krw = (r: Range, cur: string) => {
+  const per = STATIC_RATES.rates[cur];
+  const won = STATIC_RATES.rates.KRW;
+  if (cur === 'KRW' || !per || !won) return '';
+  const k = (n: number) => `${(Math.round(((n / per) * won) / 1000) / 10).toLocaleString('ko-KR')}만 원`;
+  const [a, b] = [k(r.min), k(r.max)];
+  return ` · 약 ${a === b ? a : `${a} ~ ${b}`}`;
+};
 const range = (r: Range, cur: string) => (money(r.min, cur) === money(r.max, cur) ? money(r.min, cur) : `${money(r.min, cur)} ~ ${money(r.max, cur)}`);
 
 export interface GuideData {
@@ -41,7 +51,7 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
   const description = `${city.nameKo} 여행 경비와 현지 물가: ${facts.join(', ')}(대표값). 관광지 입장료와 3박 4일 예상 경비를 공식 가격 자료로 정리했습니다.`;
 
   const styles = g.styles
-    .map((s) => `<li>${STYLE_KO[s.style]}: ${s.total ? `4일 합계 ${e(range(s.total, cur))} (1일 평균 ${e(range(s.perDay as Range, cur))})` : '가격 자료 보강 중'}</li>`)
+    .map((s) => `<li>${STYLE_KO[s.style]}: ${s.total ? `4일 합계 ${e(range(s.total, cur))}${e(krw(s.total, cur))} (1일 평균 ${e(range(s.perDay as Range, cur))})` : '가격 자료 보강 중'}</li>`)
     .join('');
   const prices = g.prices.map((p) => `<li>${UNIT_KO[p.basket] ?? p.basket}: 대표 ${e(money(p.median, cur))} (범위 ${e(range(p, cur))})</li>`).join('');
   const attractions = g.attractions
@@ -60,6 +70,12 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
         )
         .join('')
     : '';
+  // 실제 메뉴 가격 예시: 이 도시 식당의 1인 한 끼 공식 메뉴를 싼 것부터 비싼 것까지 고르게 최대 6개
+  const meals = d.samples
+    .filter((s) => s.cityId === city.id && s.category === 'food' && /한끼/.test(s.subtype) && s.modelUse !== 'no' && !/아동|어린이|child/i.test(`${s.target} ${s.nameKo}`))
+    .sort((a, b) => a.min + a.max - (b.min + b.max));
+  const pick = meals.length <= 6 ? meals : Array.from({ length: 6 }, (_, i) => meals[Math.round((i * (meals.length - 1)) / 5)]!);
+  const menuExamples = pick.map((s) => `<li>${e(s.nameKo)}: ${e(range(s, s.currency))}</li>`).join('');
   const memos = d.memos
     .filter((m) => m.cityId === city.id)
     .map((m) => `<li>${e(m.item)}: ${e(m.value)}${m.unit ? ` ${e(m.unit)}` : ''}</li>`)
@@ -81,8 +97,10 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
   const fallbackHtml = [
     `        <h1>${e(city.nameKo)} 여행 경비 가이드</h1>`,
     `        <p>${e(city.nameKo)}에서 실제로 쓰게 될 돈을 공식 가격 자료로 정리했습니다. 가격 자료 기준일 ${e(d.updated)}.</p>`,
-    `        <h2>3박 4일 예상 현지 체류비 (성인 1명)</h2><p>외식·현지 교통 + 예비비 10%. 관광지 입장료·쇼핑·항공·숙박 제외.</p><ul>${styles}</ul>`,
+    `        <h2>3박 4일 예상 현지 체류비 (성인 1명)</h2><p>외식·현지 교통 + 예비비 10%. 관광지 입장료·쇼핑·항공·숙박 제외.${cur === 'KRW' ? '' : ` 원화는 ${e(STATIC_RATES.asOf)} 기준 환율로 어림한 값입니다.`}</p><ul>${styles}</ul>`,
     prices && `        <h2>${e(city.nameKo)} 현지 물가 한눈에</h2><ul>${prices}</ul>`,
+    menuExamples &&
+      `        <h2>${e(city.nameKo)} 식당 실제 메뉴 가격</h2><p>식당 공식 메뉴판에 적힌 1인 한 끼 가격입니다(세금·팁 별도인 도시는 계산할 때 더합니다).</p><ul>${menuExamples}</ul>`,
     passTips &&
       `        <h2>이용권, 하루 몇 번 타야 이득일까</h2><p>대중교통 1회 요금 대표값(중앙값) ${e(money(ride!.median, cur))} 기준입니다. 실제 요금은 노선·거리에 따라 달라 참고용입니다.</p><ul>${passTips}</ul>`,
     attractions && `        <h2>${e(city.nameKo)} 관광지·테마파크 입장료</h2><ul>${attractions}</ul>`,

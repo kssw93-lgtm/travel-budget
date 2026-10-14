@@ -170,7 +170,7 @@
 | TYO-AT-014 | 도쿄 | 도쿄 디즈니랜드 1데이 패스포트(아동, 2026년 10월 최저 게시가) | 5300 JPY | A | 예 | 시작가 표기 | [Tokyo Disney Resort](https://www.tokyodisneyresort.jp/en/ticket/index/202610/) |
 | TYO-AT-018 | 도쿄 | 신주쿠 교엔 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Ministry of the Environment, Japan](https://policies.env.go.jp/national-garden/shinjukugyoen/english/guide/information/) |
 | TYO-AT-019 | 도쿄 | 하마리큐 은사정원 초등학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Tokyo Metropolitan Park Association](https://www.tokyo-park.or.jp/park/hama-rikyu/index.html) |
-| TYO-AT-020 | 도쿄 | 우에노 동물원 12세 이하 무료 입장 | 0 JPY | B | 예 | B등급, 검수: 교차 검수 불일치 | [Tokyo Zoological Park Society](https://www.tokyo-zoo.net/en/ueno/visitor-info/tickets/index.html) |
+| TYO-AT-020 | 도쿄 | 우에노 동물원 12세 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Tokyo Zoological Park Society](https://www.tokyo-zoo.net/en/ueno/visitor-info/tickets/index.html) |
 | TYO-AT-021 | 도쿄 | 국립서양미술관 상설전시 18세 미만 무료 입장 | 0 JPY | B | 예 | B등급, 검수: 원문 확인 불가 | [The National Museum of Western Art](https://www.nmwa.go.jp/en/visit/index.html) |
 | OSA-AT-004 | 오사카 | 오사카성 박물관 천수각 입장권 | 1200 JPY | B | 예 | B등급 | [Osaka Castle Museum](https://www.osakacastle.net/guide/?lang=en) |
 | OSA-AT-007 | 오사카 | 오사카 역사박물관 상설전시 입장권 | 600 JPY | B | 예 | B등급 | [Osaka Museum of History](https://www.osakamushis.jp/eng/index.html) |
@@ -842,6 +842,10 @@
 | LIS-FD-962 | 리스본 | GF 맥주 1병 33cl (Taberna da Baixa) | 3 EUR | A | 예 | 재검증 | [Taberna da Baixa](https://www.tabernadabaixa.pt/menus-1) |
 | LON-FD-961 | 런던 | 코로나 맥주 1병 330ml (The Windmill Clapham) | 5.9 GBP | A | 예 | 재검증 | [The Windmill Clapham](https://www.windmillclapham.co.uk/food-drink/) |
 | LON-FD-962 | 런던 | 로스트 앤 그라운디드 헬레스 생맥주 반 파인트 (The Harrison) | 3.3 GBP | A | 예 | 재검증 | [The Harrison Pub](https://theharrisonpub.com/food-and-drink-menus-kings-cross-bloomsbury-pub/) |
+| ULN-FD-961 | 울란바토르 | 살름 펍 앤 바 바삭한 감자칩 | 7900 MNT | A | 예 | 재검증 | [Nomads Hospitality — Salm Pub & Bar](https://modernnomads.mn/menu-viewer-salm) |
+| ULN-FD-962 | 울란바토르 | 카페베네 플레인 와플 | 4900 MNT | A | 예 | 재검증 | [Caffe Bene Mongolia](https://caffebene.mn/en/menu) |
+| SPN-FD-961 | 사이판 | 사이판 트라이블렌드 IPA 생맥주 1잔 12oz (Tapped Out Taproom) | 6 USD | A | 예 | 재검증 | [Tapped Out Taproom / Nåpu Brewing Co.](https://www.tappedout.mp/napu-craft-liquors?location=Micro+Beach+Road&menu=craft-beer) |
+| SPN-FD-962 | 사이판 | 새우 또는 닭고기 팟타이 (Keto Thai) | 10 USD | A | 예 | 재검증 | [Keto Thai Saipan](https://ketothaisaipan.com/menu/) |
 | AMS-FD-501 | 암스테르담 | 풀 아이리시 아침 식사 | 14.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
 | AMS-FD-502 | 암스테르담 | 클럽 샌드위치 | 12.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
 | AMS-FD-503 | 암스테르담 | 채식 버거 | 16.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
@@ -1552,5 +1556,5 @@
 
 ## 4. 교차 검수 현황
 
-`data/reviews/*.csv` 에서 읽은 판정: 일치 1121건 · 불일치 25건 · 확인불가 104건.
+`data/reviews/*.csv` 에서 읽은 판정: 일치 1124건 · 불일치 24건 · 확인불가 104건.
 아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

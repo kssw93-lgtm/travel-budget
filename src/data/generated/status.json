@@ -673,25 +673,25 @@
   },
   "saipan": {
     "counts": {
-      "food": 5,
+      "food": 6,
       "transport": 1,
       "attraction": 1
     },
     "baskets": {
       "pass": 1,
       "ride": 1,
-      "meal": 5,
+      "meal": 6,
       "snack": 3,
-      "drink": 3,
+      "drink": 4,
       "attraction": 1,
       "souvenir": 0
     },
     "basketRows": {
       "pass": 1,
       "ride": 1,
-      "meal": 5,
+      "meal": 6,
       "snack": 3,
-      "drink": 3,
+      "drink": 4,
       "attraction": 1,
       "souvenir": 0
     },
@@ -709,7 +709,7 @@
       "pass": 0,
       "ride": 1,
       "meal": 5,
-      "snack": 3,
+      "snack": 5,
       "drink": 0,
       "attraction": 1,
       "souvenir": 0
@@ -718,7 +718,7 @@
       "pass": 0,
       "ride": 1,
       "meal": 5,
-      "snack": 3,
+      "snack": 5,
       "drink": 0,
       "attraction": 1,
       "souvenir": 0

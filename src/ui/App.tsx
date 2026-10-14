@@ -94,7 +94,8 @@ export function App() {
       <header className="site-header">
         <div className="wrap bar">
           <InternalLink className="brand" to={calcHref} go={go}>
-            <span aria-hidden="true">✈</span> {BRAND[lang]}
+            <svg className="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--brand)" /><path d="M7 17l18-8-6 15-3-6z" fill="var(--brand-ink)" /></svg>
+            {BRAND[lang]}
           </InternalLink>
           <nav aria-label={t.nav.main}>
             <InternalLink to={calcHref} go={go} aria-current={page === 'calculator' ? 'page' : undefined}>{t.nav.calculator}</InternalLink>

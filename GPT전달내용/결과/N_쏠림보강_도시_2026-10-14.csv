@@ -8,3 +8,16 @@
 "SIN-FD-961","싱가포르","싱가포르","외식","주류","타이거 맥주 1병 330ml (Gayatri Restaurant)","Tiger beer (1 bottle, 330ml; Gayatri Restaurant)","8.00","8.00","SGD","1병 330ml","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 메뉴","Gayatri Restaurant","https://gayatrirestaurant.com/menu/","Tiger (330ml bottle) $8.00","싱가포르 일반 인도 식당의 공식 메뉴. 공식 페이지에 싱가포르 매장 주소가 표시되며, 페이지를 두 번 열어 품목·용량·가격을 확인."
 "SIN-FD-962","싱가포르","싱가포르","외식","주류","타이거 맥주 1병 330ml (Club A380)","Tiger beer (1 bottle, 330ml; Club A380)","8.00","8.00","SGD","1병 330ml","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 메뉴","Club A380","https://www.cluba380.com/menu/","Tiger Bottle 330ml
 $8.00","일반 스포츠 펍의 공식 메뉴. 페이지를 두 번 열어 품목·용량·가격을 확인."
+"INT-FD-961","스위스","인터라켄","외식","주류","Rugenbräu Alpenperle 3.3dl (Spatz)","Rugenbräu Alpenperle beer (3.3 dl; Spatz)","5","5","CHF","3.3dl","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 메뉴","Spatz - gastro & so","https://www.spatzinterlaken.com/menu","Rugenbräu Alpenperle 3.3dl / 5dl
+CHF 5 / 7","공식 메뉴의 3.3dl·5dl 표기에서 소용량 3.3dl 가격을 사용. 매장 주소는 Interlaken 관광권역의 Unterseen(3800). 페이지를 두 번 열어 확인."
+"INT-FD-962","스위스","인터라켄","외식","주류","Simmentaler 라거 생맥주 0.3L (Pier One)","Simmentaler Lager draft beer (0.3 L; Pier One)","5.00","5.00","CHF","0.3L","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 메뉴","Pier One Interlaken","https://www.pieroneinterlaken.ch/en/sommerspeisen","Simmentaler beer lager
+0.3l
+CHF 5.00","공식 메뉴의 생맥주 구역에서 0.3L 용량·가격을 확인. 페이지를 두 번 열어 확인."
+"VIE-FD-961","오스트리아","빈","외식","주류","Corona 맥주 1병 0.33L (Isaac's Pub)","Corona beer (1 bottle, 0.33 L; Isaac's Pub)","5.10","5.10","EUR","1병 0.33L","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 메뉴","Isaac's Pub","https://www.isaacs.at/drinks","Corona - 0,33l | €5,10","공식 펍 음료 메뉴. 페이지를 두 번 열어 품목·용량·가격을 확인."
+"VIE-FD-962","오스트리아","빈","외식","주류","하우스 생맥주 0.33L (The Oak Pub and Restaurant)","The Oak house beer draft (0.33 L)","3.90","3.90","EUR","0.33L","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 메뉴","The Oak Pub and Restaurant","https://theoak1030.at/menu/drinks/","Beer (0,33L/0,5L)
+The Oak Hausbier €3,90/4,90","공식 펍 메뉴에서 0.33L/0.5L 두 규격 중 0.33L 가격을 선택. 페이지를 두 번 열어 확인."
+"DBV-FD-961","크로아티아","두브로브니크","외식","주류","Tuborg 생맥주 1잔 0.30L (Shelby Bar)","Tuborg draft beer (0.30 L; Shelby Bar)","4.50","4.50","EUR","1잔 0.30L","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 음료 메뉴","Shelby Bar Dubrovnik","https://shelbybardubrovnik.com/drink-menu/","Tuborg 0,30 l
+4,50€","공식 바 메뉴의 생맥주 항목. 페이지를 두 번 열어 용량·가격을 확인."
+"DBV-FD-962","크로아티아","두브로브니크","외식","주류","Pan Zlatni 맥주 1병 0.35L (Pizzeria Oliva)","Pan Zlatni beer (0.35 L; Pizzeria Oliva Dubrovnik)","5.60","5.60","EUR","1병 0.35L","정가","일반","A 공식","예","확정 1차","2026-10-14","현행 공식 음료 메뉴","Pizzeria Oliva Dubrovnik","https://www.pizzeriaolivadubrovnik.com/drinks/","Pan zlatni
+5,60€
+0,35 l","공식 피자 식당의 음료 메뉴. 페이지를 두 번 열어 품목·용량·가격을 확인."

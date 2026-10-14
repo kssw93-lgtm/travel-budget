@@ -18,7 +18,7 @@ export const ja: Messages = {
   },
   form: {
     title: '旅行の条件',
-    city: '都市', citySearch: '都市・国を検索', citySearchPlaceholder: '都市・国を検索（例：東京、日本、Paris）', cityMatches: '{n}都市', cityNoMatch: 'まだ対応していない都市です。調査が終わり次第追加します。', visitDate: '訪問日', nights: '泊数', adults: '大人', children: '子ども',
+    city: '都市', citySearch: '都市・国を検索', citySearchPlaceholder: '都市・国を検索（例：東京、日本、Paris）', cityMatches: '{n}都市', cityNoMatch: 'まだ対応していない都市です。調査が終わり次第追加します。', cityUpcoming: '{names}：公式価格を調査中です。近日追加予定です。', visitDate: '訪問日', nights: '泊数', adults: '大人', children: '子ども',
     style: '旅行スタイル',
     drinks: '飲酒を含める（大人）',
     shopping: '買い物・お土産の費用を含める', shoppingHint: 'お土産やプレゼントなどの買い物は人によって大きく違うため、価格から推定しません。チェックして使う金額をご自身で決めてください（グループ全体・旅行全体、予備費なし）。', shoppingAmount: '買い物・お土産の予定額（{currency}）',

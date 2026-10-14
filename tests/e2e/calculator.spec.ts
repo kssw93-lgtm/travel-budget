@@ -3,7 +3,8 @@ import { readFileSync } from 'node:fs';
 
 /** data:convert 가 만든 실제 도시 판정. 데이터가 바뀌면 기대값도 자동으로 따라간다. */
 /** 공개(파일럿) 도시 목록. 도시를 공개해도 테스트를 고칠 필요가 없게 데이터에서 읽는다 */
-const pilotCities = (JSON.parse(readFileSync('src/data/generated/cities.json', 'utf8')) as Array<{ id: string; stage: string; country: string; nameKo: string }>).filter((c) => c.stage === '파일럿');
+const allCities = JSON.parse(readFileSync('src/data/generated/cities.json', 'utf8')) as Array<{ id: string; stage: string; country: string; nameKo: string }>;
+const pilotCities = allCities.filter((c) => c.stage === '파일럿');
 const status = JSON.parse(readFileSync('src/data/generated/status.json', 'utf8')) as Record<string, { computable: boolean; missing: string[] }>;
 
 test.describe('계산기 핵심 흐름', () => {
@@ -25,6 +26,11 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(page.locator('#city')).toHaveValue(japan[0]!.id);
     await page.getByLabel('도시·나라 검색').fill('아틀란티스');
     await expect(page.getByTestId('city-search-status')).toContainText('아직 없는 도시');
+    const soon = allCities.find((c) => c.stage !== '파일럿');
+    if (soon) {
+      await page.getByLabel('도시·나라 검색').fill(soon.nameKo);
+      await expect(page.getByTestId('city-search-status')).toContainText(`${soon.nameKo}: 공식 가격을 모으는 중`);
+    }
   });
 
   test('데이터가 충분한 도시: 범위·항목·출처·대표 음식·광고 자리까지 표시', async ({ page }) => {

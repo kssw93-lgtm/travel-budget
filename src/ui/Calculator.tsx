@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { estimateTrip } from '../core/estimate';
-import { cityById, cities, extras, foods, samples } from '../data';
+import { cityById, cities, extras, foods, samples, upcomingCities } from '../data';
 import { DEFAULT_CURRENCY, useI18n } from '../i18n';
 import { AttractionPicker } from './AttractionPicker';
 import { ExtrasPicker } from './ExtrasPicker';
@@ -103,7 +103,7 @@ export function Calculator() {
         <h1 tabIndex={-1}>{t.home.title}</h1>
         <p>{t.home.lead}</p>
       </section>
-      <TripForm form={form} onChange={patch} errors={parsed.errors} cities={cities} rates={rates.status === 'ok' ? rates.data : null} />
+      <TripForm form={form} onChange={patch} errors={parsed.errors} cities={cities} upcoming={upcomingCities} rates={rates.status === 'ok' ? rates.data : null} />
       {city && (
         <PlanOptions
           city={city}

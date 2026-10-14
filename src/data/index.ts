@@ -23,6 +23,8 @@ export const dataMeta = metaJson as { source: string; version: string; date: str
 /** 1차 화면에는 조사 단계가 '파일럿'인 도시만 노출한다. 2차 이후 도시는 데이터에 있어도 숨긴다. */
 export const PILOT_STAGE = '파일럿';
 export const cities: City[] = allCities.filter((c) => c.stage === PILOT_STAGE);
+/** 숨긴 조사 중 도시(검색하면 '곧 추가'만 안내하고 고를 수는 없다) */
+export const upcomingCities: City[] = allCities.filter((c) => c.stage !== PILOT_STAGE);
 
 export const cityById = (id: string): City | undefined => cities.find((c) => c.id === id);
 

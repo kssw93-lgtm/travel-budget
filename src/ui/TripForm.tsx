@@ -11,6 +11,8 @@ interface Props {
   onChange: (patch: Partial<FormState>) => void;
   errors: Partial<Record<FieldError, true>>;
   cities: City[];
+  /** 조사 중이라 숨긴 도시: 검색 결과가 없을 때 '곧 추가'로 안내 */
+  upcoming?: City[];
   rates: RatesPayload | null;
 }
 
@@ -49,11 +51,12 @@ function CityOption({ c, lang }: { c: City; lang: Lang }) {
   return <option value={c.id}>{cityName(c, lang)}</option>;
 }
 
-export function TripForm({ form, onChange, errors, cities, rates }: Props) {
+export function TripForm({ form, onChange, errors, cities, upcoming = [], rates }: Props) {
   const { t, lang, locale } = useI18n();
   const L = MODEL.limits;
   const [query, setQuery] = useState('');
   const matches = cities.filter((c) => matchCity(c, query));
+  const soon = query.trim() && !matches.length ? upcoming.filter((c) => matchCity(c, query)) : [];
   // 고른 도시는 검색어와 맞지 않아도 목록에 남긴다(선택값이 사라지지 않게)
   const shown = matches.some((c) => c.id === form.cityId) ? matches : [...cities.filter((c) => c.id === form.cityId), ...matches];
   const onSearch = (q: string) => {
@@ -120,7 +123,11 @@ export function TripForm({ form, onChange, errors, cities, rates }: Props) {
             autoComplete="off"
           />
           <p className="hint" id="city-search-status" role="status" data-testid="city-search-status">
-            {query.trim() ? (matches.length ? fmt(t.form.cityMatches, { n: matches.length }) : t.form.cityNoMatch) : ''}
+            {query.trim() ? matches.length
+                ? fmt(t.form.cityMatches, { n: matches.length })
+                : soon.length
+                  ? fmt(t.form.cityUpcoming, { names: soon.map((c) => cityName(c, lang)).join(', ') })
+                  : t.form.cityNoMatch : ''}
           </p>
           <select id="city" value={form.cityId} onChange={(e) => onChange({ cityId: e.target.value })}>
             {cityGroups(shown, lang).map((g) => (

@@ -828,6 +828,7 @@
 | LAS-SN-103 | 라스베이거스 | Take It Easy Roasters 아메리카노 | 4.5 USD | A | 예 | 재검증 | [Take It Easy Roasters](https://www.easystreetlv.com/menu) |
 | LAS-TR-101 | 라스베이거스 | RTC 주거노선 버스 1회 요금 | 2 USD | A | 예 | 재검증 | [RTC of Southern Nevada](https://rtcws.rtcsnv.com/mobile/geoFares.html) |
 | LAS-TR-102 | 라스베이거스 | RTC Strip·Downtown 버스 24시간권 | 8 USD | A | 예 | 재검증 | [RTC of Southern Nevada](https://rtcws.rtcsnv.com/mobile/geoFares.html) |
+| LAS-AL-101 | 라스베이거스 | Big Dog's Brewing 클래식 크래프트 라거 16oz 생맥주 | 8 USD | A | 예 | 재검증 | [Big Dog's Brewing Company](https://www.bigdogsbrews.com/tap-room/) |
 | LAS-AT-101 | 라스베이거스 | 라스베이거스 과학·자연사박물관 일반 입장료(성인) | 14 USD | A | 예 | 재검증 | [Las Vegas Science & Natural History Museum](https://www.lvnhm.org/plan-your-visit) |
 | LAS-AT-102 | 라스베이거스 | 라스베이거스 과학·자연사박물관 일반 입장료(아동) | 7 USD | A | 예 | 재검증 | [Las Vegas Science & Natural History Museum](https://www.lvnhm.org/plan-your-visit) |
 | LAS-AT-103 | 라스베이거스 | DISCOVERY 어린이 박물관 일반 입장료(성인) | 20 USD | A | 예 | 재검증 | [DISCOVERY Children's Museum](https://discoverykidslv.org/visit/buy-tickets/) |

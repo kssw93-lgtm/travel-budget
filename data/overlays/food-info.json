@@ -1395,7 +1395,13 @@
   "guam:Spam Musubi": {
     "ko": "구운 스팸을 밥 위에 올리고 김으로 감싼 간식",
     "en": "Grilled Spam on rice wrapped with seaweed, a popular island snack",
-    "ja": "焼いたスパムをごはんにのせ海苔で巻いた軽食"
+    "ja": "焼いたスパムをごはんにのせ海苔で巻いた軽食",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Spam_musubi_%283915187982%29.jpg/960px-Spam_musubi_%283915187982%29.jpg",
+      "author": "Janine",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Spam_musubi_(3915187982).jpg"
+    }
   },
   "honolulu:Loco Moco": {
     "ko": "밥 위에 햄버그 패티·달걀 프라이·그레이비를 올린 하와이 대표 한 끼",

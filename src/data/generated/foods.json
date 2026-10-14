@@ -2317,6 +2317,12 @@
       "en": "Spit-roasted meat sliced and wrapped in flatbread with vegetables and sauce",
       "ja": "回転焼きの肉を薄く切り、野菜やソースと一緒にパンで巻いた中東のラップ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Sharwama_should_be_included_in_a_struggling_man%E2%80%99s_Meal.jpg/960px-Sharwama_should_be_included_in_a_struggling_man%E2%80%99s_Meal.jpg",
+      "author": "John the bouncer",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sharwama_should_be_included_in_a_struggling_man’s_Meal.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2352,6 +2358,12 @@
       "ko": "바삭하게 튀긴 작은 반죽 공에 대추야자 시럽을 뿌린 디저트",
       "en": "Crisp fried dough balls drizzled with date syrup",
       "ja": "揚げた小さな生地にデーツシロップをかけたデザート"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Luqaimat_an_arabic_dessert.jpg/960px-Luqaimat_an_arabic_dessert.jpg",
+      "author": "Pshahma",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Luqaimat_an_arabic_dessert.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -2579,6 +2591,12 @@
       "en": "Chewy grated-potato dumplings in clear broth, a Gangwon-do classic",
       "ja": "すりおろしたじゃがいもの団子を澄んだスープで煮た江原道の郷土料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Kalguksu_with_Gamja-Ongsimi_20220430_001.jpg/960px-Kalguksu_with_Gamja-Ongsimi_20220430_001.jpg",
+      "author": "Mobius6",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kalguksu_with_Gamja-Ongsimi_20220430_001.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2596,6 +2614,12 @@
       "ko": "바다를 보며 마시는 강릉 안목해변 커피거리의 핸드드립 커피",
       "en": "Hand-drip coffee by the sea on Anmok Beach Coffee Street",
       "ja": "海を眺めながら飲む江陵・安木海辺コーヒー通りのハンドドリップコーヒー"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Gangneung_coffee_street.jpg/960px-Gangneung_coffee_street.jpg",
+      "author": "Altostratus",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Gangneung_coffee_street.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -4062,6 +4086,60 @@
     "note": "Claude 초안(2026-10-11)"
   },
   {
+    "cityId": "las-vegas",
+    "nameKo": "트래시 캔 나초",
+    "nameEn": "Trash Can Nachos",
+    "reason": "양동이째 뒤집어 내는 푸짐한 나초",
+    "reasonEn": "Towering nachos",
+    "desc": {
+      "ko": "양동이째 뒤집어 내는 푸짐한 나초",
+      "en": "A towering pile of nachos turned out of a can",
+      "ja": "缶ごとひっくり返して出す山盛りナチョス"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Las Vegas",
+    "recommendUrl": "https://www.visitlasvegas.com/experience/post/cant-miss-las-vegas-dishes/",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-14)"
+  },
+  {
+    "cityId": "las-vegas",
+    "nameKo": "테이블사이드 시저 샐러드",
+    "nameEn": "Caesar Salad",
+    "reason": "직원이 테이블 옆에서 바로 버무려 주는 클래식 샐러드",
+    "reasonEn": "Tableside Caesar salad",
+    "desc": {
+      "ko": "직원이 테이블 옆에서 바로 버무려 주는 클래식 샐러드",
+      "en": "Classic salad tossed tableside",
+      "ja": "テーブルの横でその場で作るクラシックなサラダ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Las Vegas",
+    "recommendUrl": "https://www.visitlasvegas.com/experience/post/cant-miss-las-vegas-dishes/",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-14)"
+  },
+  {
+    "cityId": "las-vegas",
+    "nameKo": "리퍼 피자",
+    "nameEn": "Reaper Pizza",
+    "reason": "아주 매운 고추를 올린 도전형 피자",
+    "reasonEn": "Extra-spicy challenge pizza",
+    "desc": {
+      "ko": "아주 매운 고추를 올린 도전형 피자",
+      "en": "A challenge pizza topped with very hot peppers",
+      "ja": "激辛唐辛子をのせたチャレンジピザ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Las Vegas",
+    "recommendUrl": "https://www.visitlasvegas.com/experience/post/cant-miss-las-vegas-dishes/",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-14)"
+  },
+  {
     "cityId": "lisbon",
     "nameKo": "파스텔 드 나타",
     "nameEn": "Pastel de nata",
@@ -4138,6 +4216,60 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "los-angeles",
+    "nameKo": "프렌치 딥 샌드위치",
+    "nameEn": "French Dip",
+    "reason": "다운타운 LA에서 시작된 로스트 비프 샌드위치, 고기 육즙에 적셔 먹음",
+    "reasonEn": "LA-born roast beef sandwich",
+    "desc": {
+      "ko": "다운타운 LA에서 시작된 로스트 비프 샌드위치, 고기 육즙에 적셔 먹음",
+      "en": "Roast beef sandwich born in downtown LA, dipped in meat juices",
+      "ja": "ダウンタウンLA発祥のローストビーフサンドイッチ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Discover Los Angeles",
+    "recommendUrl": "https://www.discoverlosangeles.com/eat-drink/las-most-iconic-dishes-the-classics",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-14)"
+  },
+  {
+    "cityId": "los-angeles",
+    "nameKo": "다저 도그",
+    "nameEn": "Dodger Dog",
+    "reason": "다저 스타디움에서 1962년부터 팔아 온 긴 핫도그",
+    "reasonEn": "Dodger Stadium hot dog",
+    "desc": {
+      "ko": "다저 스타디움에서 1962년부터 팔아 온 긴 핫도그",
+      "en": "Foot-long hot dog sold at Dodger Stadium since 1962",
+      "ja": "1962年からドジャー・スタジアムで売られている長いホットドッグ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Discover Los Angeles",
+    "recommendUrl": "https://www.discoverlosangeles.com/eat-drink/las-most-iconic-dishes-the-classics",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-14)"
+  },
+  {
+    "cityId": "los-angeles",
+    "nameKo": "치킨 앤 와플",
+    "nameEn": "Chicken and Waffles",
+    "reason": "튀긴 치킨과 와플을 함께 먹는 단짠 조합",
+    "reasonEn": "Fried chicken and waffles",
+    "desc": {
+      "ko": "튀긴 치킨과 와플을 함께 먹는 단짠 조합",
+      "en": "Fried chicken with waffles, sweet and salty",
+      "ja": "フライドチキンとワッフルの甘じょっぱい組み合わせ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Discover Los Angeles",
+    "recommendUrl": "https://www.discoverlosangeles.com/eat-drink/las-most-iconic-dishes-the-classics",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-14)"
   },
   {
     "cityId": "macau",

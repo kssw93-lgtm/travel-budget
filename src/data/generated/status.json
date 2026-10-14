@@ -1399,6 +1399,62 @@
     "missing": [],
     "computable": true
   },
+  "los-angeles": {
+    "counts": {
+      "food": 3,
+      "transport": 1,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 1,
+      "ride": 1,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 1,
+      "ride": 1,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "las-vegas": {
+    "counts": {
+      "food": 3,
+      "transport": 1,
+      "attraction": 2
+    },
+    "baskets": {
+      "pass": 1,
+      "ride": 1,
+      "meal": 3,
+      "snack": 3,
+      "drink": 7,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 1,
+      "ride": 1,
+      "meal": 3,
+      "snack": 3,
+      "drink": 7,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "barcelona": {
     "counts": {
       "food": 6,

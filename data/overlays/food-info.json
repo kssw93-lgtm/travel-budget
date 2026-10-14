@@ -1077,12 +1077,24 @@
   "gangneung:Gamja Ongsimi": {
     "ko": "감자를 갈아 빚은 쫄깃한 새알을 맑은 국물에 끓인 강원도 향토 음식",
     "en": "Chewy grated-potato dumplings in clear broth, a Gangwon-do classic",
-    "ja": "すりおろしたじゃがいもの団子を澄んだスープで煮た江原道の郷土料理"
+    "ja": "すりおろしたじゃがいもの団子を澄んだスープで煮た江原道の郷土料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Kalguksu_with_Gamja-Ongsimi_20220430_001.jpg/960px-Kalguksu_with_Gamja-Ongsimi_20220430_001.jpg",
+      "author": "Mobius6",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kalguksu_with_Gamja-Ongsimi_20220430_001.jpg"
+    }
   },
   "gangneung:Anmok Coffee Street Coffee": {
     "ko": "바다를 보며 마시는 강릉 안목해변 커피거리의 핸드드립 커피",
     "en": "Hand-drip coffee by the sea on Anmok Beach Coffee Street",
-    "ja": "海を眺めながら飲む江陵・安木海辺コーヒー通りのハンドドリップコーヒー"
+    "ja": "海を眺めながら飲む江陵・安木海辺コーヒー通りのハンドドリップコーヒー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Gangneung_coffee_street.jpg/960px-Gangneung_coffee_street.jpg",
+      "author": "Altostratus",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Gangneung_coffee_street.jpg"
+    }
   },
   "gyeongju:Gyori Gimbap": {
     "ko": "달걀지단을 듬뿍 넣어 두툼하게 만 경주 교촌마을 명물 김밥",
@@ -1213,7 +1225,13 @@
   "dubai:Shawarma": {
     "ko": "얇게 썬 구운 고기를 빵에 채소·소스와 말아 먹는 중동식 랩",
     "en": "Spit-roasted meat sliced and wrapped in flatbread with vegetables and sauce",
-    "ja": "回転焼きの肉を薄く切り、野菜やソースと一緒にパンで巻いた中東のラップ"
+    "ja": "回転焼きの肉を薄く切り、野菜やソースと一緒にパンで巻いた中東のラップ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Sharwama_should_be_included_in_a_struggling_man%E2%80%99s_Meal.jpg/960px-Sharwama_should_be_included_in_a_struggling_man%E2%80%99s_Meal.jpg",
+      "author": "John the bouncer",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sharwama_should_be_included_in_a_struggling_man’s_Meal.jpg"
+    }
   },
   "dubai:Al Machboos": {
     "ko": "향신료로 지은 밥에 닭고기나 양고기를 올린 아랍에미리트 전통 요리",
@@ -1223,7 +1241,13 @@
   "dubai:Luqaimat": {
     "ko": "바삭하게 튀긴 작은 반죽 공에 대추야자 시럽을 뿌린 디저트",
     "en": "Crisp fried dough balls drizzled with date syrup",
-    "ja": "揚げた小さな生地にデーツシロップをかけたデザート"
+    "ja": "揚げた小さな生地にデーツシロップをかけたデザート",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Luqaimat_an_arabic_dessert.jpg/960px-Luqaimat_an_arabic_dessert.jpg",
+      "author": "Pshahma",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Luqaimat_an_arabic_dessert.jpg"
+    }
   },
   "hanoi:Bun Cha": {
     "ko": "숯불에 구운 돼지고기와 완자를 새콤달콤한 느억맘 국물에 쌀국수와 찍어 먹는 하노이 대표 음식",
@@ -2039,5 +2063,35 @@
     "ko": "콩을 채운 토르티야를 튀겨 고기를 올린 유카탄 간식",
     "en": "Bean-stuffed fried tortillas topped with meat",
     "ja": "豆を詰めて揚げたトルティーヤに肉をのせたユカタンの軽食"
+  },
+  "los-angeles:French Dip": {
+    "ko": "다운타운 LA에서 시작된 로스트 비프 샌드위치, 고기 육즙에 적셔 먹음",
+    "en": "Roast beef sandwich born in downtown LA, dipped in meat juices",
+    "ja": "ダウンタウンLA発祥のローストビーフサンドイッチ"
+  },
+  "los-angeles:Dodger Dog": {
+    "ko": "다저 스타디움에서 1962년부터 팔아 온 긴 핫도그",
+    "en": "Foot-long hot dog sold at Dodger Stadium since 1962",
+    "ja": "1962年からドジャー・スタジアムで売られている長いホットドッグ"
+  },
+  "los-angeles:Chicken and Waffles": {
+    "ko": "튀긴 치킨과 와플을 함께 먹는 단짠 조합",
+    "en": "Fried chicken with waffles, sweet and salty",
+    "ja": "フライドチキンとワッフルの甘じょっぱい組み合わせ"
+  },
+  "las-vegas:Trash Can Nachos": {
+    "ko": "양동이째 뒤집어 내는 푸짐한 나초",
+    "en": "A towering pile of nachos turned out of a can",
+    "ja": "缶ごとひっくり返して出す山盛りナチョス"
+  },
+  "las-vegas:Caesar Salad": {
+    "ko": "직원이 테이블 옆에서 바로 버무려 주는 클래식 샐러드",
+    "en": "Classic salad tossed tableside",
+    "ja": "テーブルの横でその場で作るクラシックなサラダ"
+  },
+  "las-vegas:Reaper Pizza": {
+    "ko": "아주 매운 고추를 올린 도전형 피자",
+    "en": "A challenge pizza topped with very hot peppers",
+    "ja": "激辛唐辛子をのせたチャレンジピザ"
   }
 }

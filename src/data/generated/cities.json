@@ -537,7 +537,7 @@
     "nameEn": "Los Angeles",
     "currency": "USD",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "las-vegas",
@@ -547,7 +547,7 @@
     "nameEn": "Las Vegas",
     "currency": "USD",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "nara",

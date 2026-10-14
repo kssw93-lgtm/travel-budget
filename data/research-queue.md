@@ -92,6 +92,10 @@
 | 아테네 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 두브로브니크 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 두브로브니크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 로스앤젤레스 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 로스앤젤레스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 라스베이거스 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 라스베이거스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -816,6 +820,37 @@
 | TAO-AT-201 | 칭다오 | 칭다오시박물관 「海屿神辉——意大利普利亚古希腊文化艺术珍藏展」 성인 | 68 CNY | A | 예 | 재검증 | [青岛市博物馆](https://www.qingdaomuseum.cn/exhibition/detail/556) |
 | TAO-AT-202 | 칭다오 | 칭다오시박물관 「海屿神辉——意大利普利亚古希腊文化艺术珍藏展」 만 6세 | 0 CNY | A | 예 | 재검증 | [青岛市博物馆](https://www.qingdaomuseum.cn/exhibition/detail/556) |
 | TAO-AT-203 | 칭다오 | 칭다오시박물관 「海屿神辉——意大利普利亚古希腊文化艺术珍藏展」 아동·청소년 | 35 CNY | A | 예 | 재검증 | [青岛市博物馆](https://www.qingdaomuseum.cn/exhibition/detail/556) |
+| LAS-FD-101 | 라스베이거스 | Lou's Diner 달걀 2개와 햄·베이컨 또는 소시지 아침 | 11.99 USD | A | 예 | 재검증 | [Lou's Diner](https://lousdinerlv.com/menu/) |
+| LAS-FD-102 | 라스베이거스 | Vickie's Diner 브렉퍼스트 머핀 | 11.45 USD | A | 예 | 재검증 | [Vickie's Diner](https://www.vickiesdiner.com/) |
+| LAS-FD-103 | 라스베이거스 | Las Vegas Brewing Company 스매시 버거 | 13 USD | A | 예 | 재검증 | [Las Vegas Brewing Company](https://lvbrewco.com/las-vegas-summerlin-las-vegas-brewing-company-food-menu) |
+| LAS-SN-101 | 라스베이거스 | Corsa Coffee 펌킨 스파이스 라떼 | 8.5 USD | A | 예 | 재검증 | [Corsa Coffee](https://corsacoffee.co/) |
+| LAS-SN-102 | 라스베이거스 | Coffee Religion 드립 커피 | 3.75 USD | A | 예 | 재검증 | [Coffee Religion](https://www.coffeereligionlv.com/) |
+| LAS-SN-103 | 라스베이거스 | Take It Easy Roasters 아메리카노 | 4.5 USD | A | 예 | 재검증 | [Take It Easy Roasters](https://www.easystreetlv.com/menu) |
+| LAS-TR-101 | 라스베이거스 | RTC 주거노선 버스 1회 요금 | 2 USD | A | 예 | 재검증 | [RTC of Southern Nevada](https://rtcws.rtcsnv.com/mobile/geoFares.html) |
+| LAS-TR-102 | 라스베이거스 | RTC Strip·Downtown 버스 24시간권 | 8 USD | A | 예 | 재검증 | [RTC of Southern Nevada](https://rtcws.rtcsnv.com/mobile/geoFares.html) |
+| LAS-AT-101 | 라스베이거스 | 라스베이거스 과학·자연사박물관 일반 입장료(성인) | 14 USD | A | 예 | 재검증 | [Las Vegas Science & Natural History Museum](https://www.lvnhm.org/plan-your-visit) |
+| LAS-AT-102 | 라스베이거스 | 라스베이거스 과학·자연사박물관 일반 입장료(아동) | 7 USD | A | 예 | 재검증 | [Las Vegas Science & Natural History Museum](https://www.lvnhm.org/plan-your-visit) |
+| LAS-AT-103 | 라스베이거스 | DISCOVERY 어린이 박물관 일반 입장료(성인) | 20 USD | A | 예 | 재검증 | [DISCOVERY Children's Museum](https://discoverykidslv.org/visit/buy-tickets/) |
+| LAS-AT-104 | 라스베이거스 | DISCOVERY 어린이 박물관 일반 입장료(아동) | 20 USD | A | 예 | 재검증 | [DISCOVERY Children's Museum](https://discoverykidslv.org/visit/buy-tickets/) |
+| LAS-AT-105 | 라스베이거스 | 스프링스 프리저브·네바다 주립박물관 입장(성인) | 18.95 USD | A | 예 | 재검증 | [Springs Preserve Foundation](https://19986a.blackbaudhosting.com/19986a/page.aspx?pid=196&tab=2&txobjid=4f8581e0-4c81-4b6f-82e8-ec971f6e788e) |
+| LAS-AT-106 | 라스베이거스 | 스프링스 프리저브·네바다 주립박물관 입장(아동) | 10.95 USD | A | 예 | 재검증 | [Springs Preserve Foundation](https://19986a.blackbaudhosting.com/19986a/page.aspx?pid=196&tab=2&txobjid=4f8581e0-4c81-4b6f-82e8-ec971f6e788e) |
+| LAX-AT-101 | 로스앤젤레스 | 로스앤젤레스 자연사박물관 일반 입장료(성인) | 18 USD | A | 예 | 재검증 | [Natural History Museum of Los Angeles County](https://nhm.org/plan-your-visit) |
+| LAX-AT-102 | 로스앤젤레스 | 로스앤젤레스 자연사박물관 일반 입장료(아동) | 7 USD | A | 예 | 재검증 | [Natural History Museum of Los Angeles County](https://nhm.org/plan-your-visit) |
+| LAX-AT-103 | 로스앤젤레스 | 로스앤젤레스 카운티 미술관 일반 입장료(성인) | 30 USD | A | 예 | 재검증 | [Los Angeles County Museum of Art (LACMA)](https://www.lacma.org/visit/plan-your-visit/tickets) |
+| LAX-AT-104 | 로스앤젤레스 | 로스앤젤레스 카운티 미술관 일반 입장료(아동) | 15 USD | A | 예 | 재검증 | [Los Angeles County Museum of Art (LACMA)](https://www.lacma.org/visit/plan-your-visit/tickets) |
+| LAX-AT-105 | 로스앤젤레스 | 아카데미 영화박물관 일반 입장료(성인) | 25 USD | A | 예 | 재검증 | [Academy Museum of Motion Pictures](https://www.academymuseum.org/en/visit?cta_type=buy_ticket) |
+| LAX-AT-106 | 로스앤젤레스 | 아카데미 영화박물관 일반 입장료(아동) | 0 USD | A | 예 | 재검증 | [Academy Museum of Motion Pictures](https://www.academymuseum.org/en/visit?cta_type=buy_ticket) |
+| LAX-FD-101 | 로스앤젤레스 | 올림피안 버거 1/4파운드 햄버거 콤보 | 11 USD | A | 예 | 재검증, 세금·서비스료 별도 | [Olympian Burgers](https://www.olympianburgers.com/menu/) |
+| LAX-FD-102 | 로스앤젤레스 | LA 타코스 앤 케밥스 타코 플레이트 | 14.99 USD | A | 예 | 재검증 | [LA Tacos & Kabobs](https://latacosandkabobs.com/menu) |
+| LAX-FD-103 | 로스앤젤레스 | 팬스 치즈버거 | 14.95 USD | A | 예 | 재검증 | [Pann's Restaurant](https://panns.com/menu) |
+| LAX-SN-101 | 로스앤젤레스 | Federal Coffee 드립 커피 | 3.5 USD | A | 예 | 재검증 | [Federal Coffee](https://federalcoffee.la/pages/menu) |
+| LAX-SN-102 | 로스앤젤레스 | Cafe Fresco 아메리카노 중간 | 4.25 USD | A | 예 | 재검증 | [Cafe Fresco Los Angeles](https://www.cafefrescola.com/menu) |
+| LAX-SN-103 | 로스앤젤레스 | Cafe Fig 카페 라테 | 6 USD | A | 예 | 재검증 | [Cafe Fig](https://www.cafefig.com/menu/coffee-beverage/) |
+| LAX-AL-101 | 로스앤젤레스 | The Mermaid Bar 생맥주 라거/필스너 파인트 | 9 USD | A | 예 | 재검증 | [The Mermaid Bar](https://www.themermaid.la/menu/) |
+| LAX-AL-102 | 로스앤젤레스 | The Roost Pabst Blue Ribbon 캔 | 8 USD | A | 예 | 재검증 | [The Roost Cocktails](https://theroostcocktails.com/) |
+| LAX-AL-103 | 로스앤젤레스 | The Fable Hamm's Premium Lager 캔 | 7 USD | A | 예 | 재검증 | [The Fable](https://www.thefable.la/beer) |
+| LAX-TR-101 | 로스앤젤레스 | LA Metro 일반 운임 1회 | 1.75 USD | A | 예 | 재검증 | [Los Angeles County Metropolitan Transportation Authority](https://www.metro.net/riding/) |
+| LAX-TR-102 | 로스앤젤레스 | LA Metro 일일 요금 상한 | 5 USD | A | 예 | 재검증 | [Los Angeles County Metropolitan Transportation Authority](https://www.metro.net/riding/) |
 | BKK-FD-961 | 방콕 | 비어라오 라거 맥주 1병 330ml (Hemingway Bangkok) | 155 THB | A | 예 | 재검증 | [Hemingway Bangkok](https://hemingwaybangkok.com/beverage-menu/) |
 | BKK-FD-962 | 방콕 | 싱하 맥주 1병 320ml (Phoenix Nights) | 120 THB | A | 예 | 재검증 | [Phoenix Nights Bangkok](https://phoenixnightsbkk.com/drinks.html) |
 | TPE-FD-961 | 타이베이 | Budvar 맥주 0.33L (Divadlo) | 210 TWD | A | 예 | 재검증 | [Divadlo 捷克公寓](https://www.czech.com.tw/menu/) |

@@ -1990,86 +1990,6 @@
     "en": "Boiled dumplings filled with minced Spanish mackerel",
     "ja": "サワラのすり身を包んだ青島式水餃子"
   },
-  "almaty:Beshbarmak": {
-    "ko": "삶은 고기를 넓은 면 위에 올린 카자흐 대표 요리",
-    "en": "Boiled meat served over wide flat noodles",
-    "ja": "茹でた肉を平たい麺にのせたカザフの代表料理"
-  },
-  "almaty:Plov": {
-    "ko": "고기·당근·쌀을 큰 솥에 함께 지은 볶음밥",
-    "en": "Rice cooked in a cauldron with meat and carrots",
-    "ja": "肉と人参を大鍋で炊き込んだピラフ"
-  },
-  "almaty:Manty": {
-    "ko": "다진 고기를 넣어 찐 큼직한 만두",
-    "en": "Large steamed dumplings filled with minced meat",
-    "ja": "ひき肉を包んだ大ぶりの蒸し餃子"
-  },
-  "almaty:Baursak": {
-    "ko": "차와 함께 먹는 동그란 튀김빵",
-    "en": "Puffy fried dough served with tea",
-    "ja": "お茶と一緒に食べる丸い揚げパン"
-  },
-  "tashkent:Plov": {
-    "ko": "고기·당근·쌀을 큰 솥에 지은 우즈베크 국민 요리",
-    "en": "Uzbekistan’s national rice dish with meat and carrots",
-    "ja": "肉と人参を炊き込んだウズベキスタンの国民食"
-  },
-  "tashkent:Somsa": {
-    "ko": "화덕에 구운 고기 속 삼각 페이스트리",
-    "en": "Tandoor-baked pastry filled with meat",
-    "ja": "タンドールで焼いた肉入りパイ"
-  },
-  "tashkent:Lagman": {
-    "ko": "손으로 늘린 면에 고기·채소 국물을 부은 국수",
-    "en": "Hand-pulled noodles with meat and vegetable sauce",
-    "ja": "手延べ麺に肉と野菜のスープをかけた麺料理"
-  },
-  "tashkent:Shashlik": {
-    "ko": "양념한 고기를 꼬치에 꿰어 숯불에 구운 요리",
-    "en": "Marinated meat skewers grilled over charcoal",
-    "ja": "味付け肉を串に刺して炭火で焼いた料理"
-  },
-  "tbilisi:Khinkali": {
-    "ko": "육즙이 가득한 주머니 모양 만두",
-    "en": "Juicy pleated dumplings filled with spiced meat",
-    "ja": "肉汁たっぷりの包み型の餃子"
-  },
-  "tbilisi:Khachapuri": {
-    "ko": "치즈를 듬뿍 넣어 구운 조지아 빵",
-    "en": "Georgian bread baked with plenty of cheese",
-    "ja": "チーズをたっぷり入れて焼いたジョージアのパン"
-  },
-  "tbilisi:Mtsvadi": {
-    "ko": "포도나무 장작에 구운 고기 꼬치",
-    "en": "Meat skewers grilled over grapevine wood",
-    "ja": "ぶどうの木の薪で焼いた肉串"
-  },
-  "tbilisi:Churchkhela": {
-    "ko": "견과를 실에 꿰어 포도즙을 입혀 굳힌 간식",
-    "en": "Nuts threaded on string and coated in grape juice",
-    "ja": "ナッツを糸に通しぶどう果汁で固めたお菓子"
-  },
-  "cancun:Cochinita Pibil": {
-    "ko": "아치오테로 양념해 천천히 익힌 유카탄식 돼지고기",
-    "en": "Yucatán pork slow-cooked with achiote",
-    "ja": "アチョーテで味付けし じっくり蒸し焼きにしたユカタンの豚肉"
-  },
-  "cancun:Tacos al Pastor": {
-    "ko": "꼬치에 돌려 구운 양념 돼지고기 타코",
-    "en": "Tacos of spit-roasted marinated pork",
-    "ja": "回転串で焼いた味付け豚肉のタコス"
-  },
-  "cancun:Ceviche": {
-    "ko": "생선·새우를 라임즙에 버무린 해산물 요리",
-    "en": "Fish or shrimp cured in lime juice",
-    "ja": "魚やエビをライム果汁で和えた料理"
-  },
-  "cancun:Panuchos": {
-    "ko": "콩을 채운 토르티야를 튀겨 고기를 올린 유카탄 간식",
-    "en": "Bean-stuffed fried tortillas topped with meat",
-    "ja": "豆を詰めて揚げたトルティーヤに肉をのせたユカタンの軽食"
-  },
   "los-angeles:French Dip": {
     "ko": "다운타운 LA에서 시작된 로스트 비프 샌드위치, 고기 육즙에 적셔 먹음",
     "en": "Roast beef sandwich born in downtown LA, dipped in meat juices",
@@ -2099,5 +2019,75 @@
     "ko": "아주 매운 고추를 올린 도전형 피자",
     "en": "A challenge pizza topped with very hot peppers",
     "ja": "激辛唐辛子をのせたチャレンジピザ"
+  },
+  "almaty:Beshbarmak": {
+    "ko": "삶은 고기를 넓은 면 위에 올린 카자흐 대표 요리",
+    "en": "Boiled meat served over wide flat noodles",
+    "ja": "茹でた肉を平たい麺にのせたカザフの代表料理"
+  },
+  "almaty:Kazy": {
+    "ko": "지방이 고르게 박힌 말고기 소시지",
+    "en": "Horse-meat sausage marbled with soft fat",
+    "ja": "脂が均一に入った馬肉ソーセージ"
+  },
+  "almaty:Kuyrdak": {
+    "ko": "여러 부위 고기를 함께 볶은 유목민식 요리",
+    "en": "Nomad-style stir-fry of several kinds of meat",
+    "ja": "数種類の肉を炒めた遊牧民の料理"
+  },
+  "almaty:Plov": {
+    "ko": "고기·당근·쌀을 큰 솥에 함께 지은 볶음밥",
+    "en": "Rice cooked in a cauldron with meat and carrots",
+    "ja": "肉と人参を大鍋で炊き込んだピラフ"
+  },
+  "tashkent:Plov": {
+    "ko": "고기·당근·쌀을 큰 솥에 지은 우즈베크 국민 요리",
+    "en": "Uzbekistan’s national rice dish with meat and carrots",
+    "ja": "肉と人参を炊き込んだウズベキスタンの国民食"
+  },
+  "tashkent:Somsa": {
+    "ko": "화덕에 구운 고기 속 페이스트리",
+    "en": "Tandoor-baked pastry filled with meat",
+    "ja": "タンドールで焼いた肉入りパイ"
+  },
+  "tashkent:Lagman": {
+    "ko": "손으로 늘린 면에 고기·채소 국물을 부은 국수",
+    "en": "Hand-pulled noodles with meat and vegetable sauce",
+    "ja": "手延べ麺に肉と野菜のスープをかけた麺料理"
+  },
+  "tbilisi:Khinkali": {
+    "ko": "고기와 육즙을 반죽으로 감싼 주머니 모양 만두",
+    "en": "Pleated dumplings holding meat and broth",
+    "ja": "肉と肉汁を生地で包んだ巾着型の餃子"
+  },
+  "tbilisi:Khachapuri": {
+    "ko": "잔칫상에 빠지지 않는 치즈빵",
+    "en": "Cheese bread found on every feast table",
+    "ja": "祝いの席に欠かせないチーズパン"
+  },
+  "tbilisi:Satsivi": {
+    "ko": "호두 소스에 닭고기를 버무린 잔치 요리",
+    "en": "Chicken in walnut sauce, a feast dish",
+    "ja": "くるみソースで和えた鶏肉の祝い料理"
+  },
+  "tbilisi:Churchkhela": {
+    "ko": "견과를 실에 꿰어 포도즙을 입혀 굳힌 간식",
+    "en": "Nuts threaded on string and coated in grape juice",
+    "ja": "ナッツを糸に通しぶどう果汁で固めたお菓子"
+  },
+  "cancun:Cochinita Pibil": {
+    "ko": "아치오테로 양념해 천천히 익힌 대표 마야 돼지고기 요리",
+    "en": "The best-known Maya dish: pork slow-cooked with achiote",
+    "ja": "アチョーテで味付けしじっくり蒸し焼きにした代表的なマヤの豚肉料理"
+  },
+  "cancun:Papadzules": {
+    "ko": "삶은 달걀을 넣은 토르티야에 호박씨 소스와 토마토 소스를 얹은 요리",
+    "en": "Egg-filled tortillas with pumpkin-seed and tomato sauces",
+    "ja": "ゆで卵入りトルティーヤにカボチャの種とトマトのソースをかけた料理"
+  },
+  "cancun:Sopa de Lima": {
+    "ko": "지역 감귤즙을 넣은 닭고기 국물에 튀긴 토르티야를 올린 수프",
+    "en": "Chicken broth with local lime and fried tortilla strips",
+    "ja": "地元の柑橘を加えた鶏スープに揚げトルティーヤをのせたスープ"
   }
 }

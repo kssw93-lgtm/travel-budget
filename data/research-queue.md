@@ -96,6 +96,9 @@
 | 로스앤젤레스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 라스베이거스 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 라스베이거스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 칸쿤 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 칸쿤 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 칸쿤 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -454,6 +457,18 @@
 | YVR-FD-106 | 밴쿠버 | 더 남 그릴드 치즈 샌드위치 | 11.5 CAD | A | 예 | 재검증 | [The Naam Restaurant (공식 메뉴 PDF)](https://img1.wsimg.com/blobby/go/5e236959-9cd0-494c-a234-1a99eb928d06/MENU%20UPDATE%20JUNE%202025%20web%20version.pdf) |
 | YVR-FD-107 | 밴쿠버 | 더 남 베지 딜라이트 랩 | 15.25 CAD | A | 예 | 재검증 | [The Naam Restaurant (공식 메뉴 PDF)](https://img1.wsimg.com/blobby/go/5e236959-9cd0-494c-a234-1a99eb928d06/MENU%20UPDATE%20JUNE%202025%20web%20version.pdf) |
 | YVR-FD-108 | 밴쿠버 | 더 남 크루아상 멜트 | 15.95 CAD | A | 예 | 재검증 | [The Naam Restaurant (공식 메뉴 PDF)](https://img1.wsimg.com/blobby/go/5e236959-9cd0-494c-a234-1a99eb928d06/MENU%20UPDATE%20JUNE%202025%20web%20version.pdf) |
+| CUN-TR-101 | 칸쿤 | 칸쿤 시내버스 요금(시내·호텔존) | 9.5~12 MXN | A | 조건부 | 조건부, 재검증 | [Municipio de Benito Juárez (Cancún)](https://cancun.gob.mx/cancun/noticias/leer/1408) |
+| CUN-AT-101 | 칸쿤 | 칸쿤 마야 박물관(산 미겔리토 유적 포함, 외국인) | 210 MXN | A | 예 | 재검증 | [INAH](https://www.inah.gob.mx/museos/museo-maya-de-cancun) |
+| CUN-AT-102 | 칸쿤 | 칸쿤 마야 박물관(13세 미만) | 0 MXN | A | 예 | 재검증 | [INAH](https://www.inah.gob.mx/museos/museo-maya-de-cancun) |
+| CUN-AT-103 | 칸쿤 | 엘 레이 유적(외국인) | 145 MXN | A | 예 | 재검증 | [INAH](https://www.inah.gob.mx/zonas/zona-arqueologica-el-rey) |
+| CUN-AT-104 | 칸쿤 | 엘 메코 유적(외국인) | 145 MXN | A | 예 | 재검증 | [INAH](https://www.inah.gob.mx/zonas/zona-arqueologica-el-meco) |
+| CUN-FD-101 | 칸쿤 | 로스 데 페스카도 생선 부리토 | 86 MXN | A | 예 | 재검증 | [Los de Pescado](https://losdepescado.com/) |
+| CUN-FD-102 | 칸쿤 | 엘 피시 프리탕가 새우 수프(235g) | 290 MXN | A | 예 | 재검증 | [El Fish Fritanga (EFFHY-MenuAlimentosESP2026.pdf)](https://drive.google.com/file/d/1HRG00o1tIGGiNSlqoGQdE1_Cdw_0Bzfb/view) |
+| CUN-FD-103 | 칸쿤 | 라 파리야 멕시칸 뷔페(주말, 성인) | 240 MXN | A | 조건부 | 조건부, 재검증 | [La Parrilla Mexican Grill](https://laparrilla.com.mx/menus.php) |
+| CUN-SN-101 | 칸쿤 | 로스 데 페스카도 과일 아이스바 | 54 MXN | A | 예 | 재검증 | [Los de Pescado](https://losdepescado.com/) |
+| CUN-SN-102 | 칸쿤 | 엘 피시 프리탕가 아메리카노 | 60 MXN | A | 예 | 재검증 | [El Fish Fritanga (EFF HY Menu Bebidas 020525 DIGITAL.pdf)](https://drive.google.com/file/d/182ugnK1fJvteQo06yCNaRf9_9G9eB9R6/view) |
+| CUN-AL-101 | 칸쿤 | 엘 피시 프리탕가 XX 라거 355ml | 70 MXN | A | 예 | 재검증 | [El Fish Fritanga (EFF HY Menu Bebidas 020525 DIGITAL.pdf)](https://drive.google.com/file/d/182ugnK1fJvteQo06yCNaRf9_9G9eB9R6/view) |
+| CUN-AL-102 | 칸쿤 | 로스 데 페스카도 맥주 | 54 MXN | A | 조건부 | 조건부, 재검증 | [Los de Pescado](https://losdepescado.com/) |
 | SPN-AT-101 | 사이판 | 마나가하 섬 상륙료(비거주자) | 5 USD | A | 조건부 | 조건부, 재검증 | [CNMI Law Revision Commission – Commonwealth Code 2 CMC § 1621](https://cnmilaw.gov/commonwealth-code/1598) |
 | BUD-AT-301 | 부다페스트 | 세체니 온천 1일권(라커 포함) | 13200~15800 HUF | A | 예 | 재검증 | [Széchenyi Thermal Bath](https://www.szechenyibath.hu/prices) |
 | MUC-AT-301 | 뮌헨 | 독일박물관 1일권(성인) | 16 EUR | A | 예 | 재검증 | [Deutsches Museum](https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets) |

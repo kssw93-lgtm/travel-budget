@@ -1,5 +1,5 @@
 국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
-조지아,트빌리시,힌칼리,Khinkali,육즙이 가득한 주머니 모양 만두,저,,대기,,,"Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
-조지아,트빌리시,하차푸리,Khachapuri,치즈를 듬뿍 넣어 구운 조지아 빵,저,,대기,,,"Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
-조지아,트빌리시,므츠바디,Mtsvadi,포도나무 장작에 구운 고기 꼬치,중,,대기,,,"Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
-조지아,트빌리시,추르치헬라,Churchkhela,견과를 실에 꿰어 포도즙을 입혀 굳힌 간식,저,,대기,,,"Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
+조지아,트빌리시,힌칼리,Khinkali,고기와 육즙을 반죽으로 감싼 주머니 모양 만두,저,TBS-FD-101,대기,Georgia Travel,https://georgia.travel/khinkali,관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)
+조지아,트빌리시,하차푸리,Khachapuri,잔칫상에 빠지지 않는 치즈빵,저,,대기,Georgia Travel,https://georgia.travel/georgian-ritual-foods,관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)
+조지아,트빌리시,사치비,Satsivi,호두 소스에 닭고기를 버무린 잔치 요리,중,,대기,Georgia Travel,https://georgia.travel/georgian-ritual-foods,관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)
+조지아,트빌리시,추르치헬라,Churchkhela,견과를 실에 꿰어 포도즙을 입혀 굳힌 간식,저,,대기,Georgia Travel,https://georgia.travel/georgian-ritual-foods,관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)

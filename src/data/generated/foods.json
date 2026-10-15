@@ -1288,9 +1288,45 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
+    "recommendSource": "Kazakhstan Travel",
+    "recommendUrl": "https://kazakhstan.travel/en/publications/gastronomy",
+    "note": "관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)"
+  },
+  {
+    "cityId": "almaty",
+    "nameKo": "카지",
+    "nameEn": "Kazy",
+    "reason": "지방이 고르게 박힌 말고기 소시지",
+    "reasonEn": "Horse-meat sausage",
+    "desc": {
+      "ko": "지방이 고르게 박힌 말고기 소시지",
+      "en": "Horse-meat sausage marbled with soft fat",
+      "ja": "脂が均一に入った馬肉ソーセージ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Kazakhstan Travel",
+    "recommendUrl": "https://kazakhstan.travel/en/publications/gastronomy",
+    "note": "관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)"
+  },
+  {
+    "cityId": "almaty",
+    "nameKo": "쿠이르다크",
+    "nameEn": "Kuyrdak",
+    "reason": "여러 부위 고기를 함께 볶은 유목민식 요리",
+    "reasonEn": "Nomad meat stir-fry",
+    "desc": {
+      "ko": "여러 부위 고기를 함께 볶은 유목민식 요리",
+      "en": "Nomad-style stir-fry of several kinds of meat",
+      "ja": "数種類の肉を炒めた遊牧民の料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Kazakhstan Travel",
+    "recommendUrl": "https://kazakhstan.travel/en/publications/gastronomy",
+    "note": "관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)"
   },
   {
     "cityId": "almaty",
@@ -1310,43 +1346,7 @@
     "priceStatus": "대기",
     "recommendSource": "",
     "recommendUrl": "",
-    "note": "Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
-  },
-  {
-    "cityId": "almaty",
-    "nameKo": "만티",
-    "nameEn": "Manty",
-    "reason": "다진 고기를 넣어 찐 큼직한 만두",
-    "reasonEn": "Steamed meat dumplings",
-    "desc": {
-      "ko": "다진 고기를 넣어 찐 큼직한 만두",
-      "en": "Large steamed dumplings filled with minced meat",
-      "ja": "ひき肉を包んだ大ぶりの蒸し餃子"
-    },
-    "budgetBand": "저",
-    "linkedPriceIds": [],
-    "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
-  },
-  {
-    "cityId": "almaty",
-    "nameKo": "바우르삭",
-    "nameEn": "Baursak",
-    "reason": "차와 함께 먹는 동그란 튀김빵",
-    "reasonEn": "Fried dough with tea",
-    "desc": {
-      "ko": "차와 함께 먹는 동그란 튀김빵",
-      "en": "Puffy fried dough served with tea",
-      "ja": "お茶と一緒に食べる丸い揚げパン"
-    },
-    "budgetBand": "저",
-    "linkedPriceIds": [],
-    "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
+    "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
     "cityId": "amsterdam",
@@ -1908,73 +1908,55 @@
     "cityId": "cancun",
     "nameKo": "코치니타 피빌",
     "nameEn": "Cochinita Pibil",
-    "reason": "아치오테로 양념해 천천히 익힌 유카탄식 돼지고기",
-    "reasonEn": "Yucatán slow-cooked pork",
+    "reason": "아치오테로 양념해 천천히 익힌 대표 마야 돼지고기 요리",
+    "reasonEn": "Maya slow-cooked pork",
     "desc": {
-      "ko": "아치오테로 양념해 천천히 익힌 유카탄식 돼지고기",
-      "en": "Yucatán pork slow-cooked with achiote",
-      "ja": "アチョーテで味付けし じっくり蒸し焼きにしたユカタンの豚肉"
+      "ko": "아치오테로 양념해 천천히 익힌 대표 마야 돼지고기 요리",
+      "en": "The best-known Maya dish: pork slow-cooked with achiote",
+      "ja": "アチョーテで味付けしじっくり蒸し焼きにした代表的なマヤの豚肉料理"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
+    "recommendSource": "Caribe Mexicano",
+    "recommendUrl": "https://caribemexicano.travel/noticias/degustando-la-tradicion-la-cocina-maya-en-la-riviera-maya",
+    "note": "관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)"
   },
   {
     "cityId": "cancun",
-    "nameKo": "타코스 알 파스토르",
-    "nameEn": "Tacos al Pastor",
-    "reason": "꼬치에 돌려 구운 양념 돼지고기 타코",
-    "reasonEn": "Spit-roasted pork tacos",
+    "nameKo": "파파드술레스",
+    "nameEn": "Papadzules",
+    "reason": "삶은 달걀을 넣은 토르티야에 호박씨 소스와 토마토 소스를 얹은 요리",
+    "reasonEn": "Egg tortillas in pumpkin-seed sauce",
     "desc": {
-      "ko": "꼬치에 돌려 구운 양념 돼지고기 타코",
-      "en": "Tacos of spit-roasted marinated pork",
-      "ja": "回転串で焼いた味付け豚肉のタコス"
+      "ko": "삶은 달걀을 넣은 토르티야에 호박씨 소스와 토마토 소스를 얹은 요리",
+      "en": "Egg-filled tortillas with pumpkin-seed and tomato sauces",
+      "ja": "ゆで卵入りトルティーヤにカボチャの種とトマトのソースをかけた料理"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
+    "recommendSource": "Caribe Mexicano",
+    "recommendUrl": "https://caribemexicano.travel/noticias/degustando-la-tradicion-la-cocina-maya-en-la-riviera-maya",
+    "note": "관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)"
   },
   {
     "cityId": "cancun",
-    "nameKo": "세비체",
-    "nameEn": "Ceviche",
-    "reason": "생선·새우를 라임즙에 버무린 해산물 요리",
-    "reasonEn": "Lime-cured seafood",
+    "nameKo": "소파 데 리마",
+    "nameEn": "Sopa de Lima",
+    "reason": "지역 감귤즙을 넣은 닭고기 국물에 튀긴 토르티야를 올린 수프",
+    "reasonEn": "Lime chicken soup",
     "desc": {
-      "ko": "생선·새우를 라임즙에 버무린 해산물 요리",
-      "en": "Fish or shrimp cured in lime juice",
-      "ja": "魚やエビをライム果汁で和えた料理"
-    },
-    "budgetBand": "중",
-    "linkedPriceIds": [],
-    "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
-  },
-  {
-    "cityId": "cancun",
-    "nameKo": "파누초스",
-    "nameEn": "Panuchos",
-    "reason": "콩을 채운 토르티야를 튀겨 고기를 올린 유카탄 간식",
-    "reasonEn": "Yucatán stuffed tortillas",
-    "desc": {
-      "ko": "콩을 채운 토르티야를 튀겨 고기를 올린 유카탄 간식",
-      "en": "Bean-stuffed fried tortillas topped with meat",
-      "ja": "豆を詰めて揚げたトルティーヤに肉をのせたユカタンの軽食"
+      "ko": "지역 감귤즙을 넣은 닭고기 국물에 튀긴 토르티야를 올린 수프",
+      "en": "Chicken broth with local lime and fried tortilla strips",
+      "ja": "地元の柑橘を加えた鶏スープに揚げトルティーヤをのせたスープ"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
+    "recommendSource": "Caribe Mexicano",
+    "recommendUrl": "https://caribemexicano.travel/noticias/degustando-la-tradicion-la-cocina-maya-en-la-riviera-maya",
+    "note": "관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)"
   },
   {
     "cityId": "cebu",
@@ -5499,27 +5481,27 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
+    "recommendSource": "Uzbekistan Travel",
+    "recommendUrl": "https://uzbekistan.travel/en/o/the-legend-of-pilaf/",
+    "note": "관광청 페이지는 검색 요약으로만 확인(Claude 크롬 2026-10-14)"
   },
   {
     "cityId": "tashkent",
-    "nameKo": "솜사",
+    "nameKo": "삼사",
     "nameEn": "Somsa",
-    "reason": "화덕에 구운 고기 속 삼각 페이스트리",
+    "reason": "화덕에 구운 고기 속 페이스트리",
     "reasonEn": "Tandoor meat pastry",
     "desc": {
-      "ko": "화덕에 구운 고기 속 삼각 페이스트리",
+      "ko": "화덕에 구운 고기 속 페이스트리",
       "en": "Tandoor-baked pastry filled with meat",
       "ja": "タンドールで焼いた肉入りパイ"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
+    "recommendSource": "Uzbekistan Travel",
+    "recommendUrl": "https://uzbekistan.travel/en/o/uzbek-samsa/",
+    "note": "관광청 페이지는 검색 요약으로만 확인(Claude 크롬 2026-10-14)"
   },
   {
     "cityId": "tashkent",
@@ -5535,81 +5517,65 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
-  },
-  {
-    "cityId": "tashkent",
-    "nameKo": "샤슬릭",
-    "nameEn": "Shashlik",
-    "reason": "양념한 고기를 꼬치에 꿰어 숯불에 구운 요리",
-    "reasonEn": "Grilled meat skewers",
-    "desc": {
-      "ko": "양념한 고기를 꼬치에 꿰어 숯불에 구운 요리",
-      "en": "Marinated meat skewers grilled over charcoal",
-      "ja": "味付け肉を串に刺して炭火で焼いた料理"
-    },
-    "budgetBand": "저",
-    "linkedPriceIds": [],
-    "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
+    "recommendSource": "Uzbekistan Travel",
+    "recommendUrl": "https://uzbekistan.travel/fr/o/5-plats-de-fast-food-ouzbek/",
+    "note": "관광청 페이지는 검색 요약으로만 확인(Claude 크롬 2026-10-14)"
   },
   {
     "cityId": "tbilisi",
     "nameKo": "힌칼리",
     "nameEn": "Khinkali",
-    "reason": "육즙이 가득한 주머니 모양 만두",
+    "reason": "고기와 육즙을 반죽으로 감싼 주머니 모양 만두",
     "reasonEn": "Juicy dumplings",
     "desc": {
-      "ko": "육즙이 가득한 주머니 모양 만두",
-      "en": "Juicy pleated dumplings filled with spiced meat",
-      "ja": "肉汁たっぷりの包み型の餃子"
+      "ko": "고기와 육즙을 반죽으로 감싼 주머니 모양 만두",
+      "en": "Pleated dumplings holding meat and broth",
+      "ja": "肉と肉汁を生地で包んだ巾着型の餃子"
     },
     "budgetBand": "저",
-    "linkedPriceIds": [],
+    "linkedPriceIds": [
+      "TBS-FD-101"
+    ],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
+    "recommendSource": "Georgia Travel",
+    "recommendUrl": "https://georgia.travel/khinkali",
+    "note": "관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)"
   },
   {
     "cityId": "tbilisi",
     "nameKo": "하차푸리",
     "nameEn": "Khachapuri",
-    "reason": "치즈를 듬뿍 넣어 구운 조지아 빵",
+    "reason": "잔칫상에 빠지지 않는 치즈빵",
     "reasonEn": "Cheese-filled bread",
     "desc": {
-      "ko": "치즈를 듬뿍 넣어 구운 조지아 빵",
-      "en": "Georgian bread baked with plenty of cheese",
-      "ja": "チーズをたっぷり入れて焼いたジョージアのパン"
+      "ko": "잔칫상에 빠지지 않는 치즈빵",
+      "en": "Cheese bread found on every feast table",
+      "ja": "祝いの席に欠かせないチーズパン"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
+    "recommendSource": "Georgia Travel",
+    "recommendUrl": "https://georgia.travel/georgian-ritual-foods",
+    "note": "관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)"
   },
   {
     "cityId": "tbilisi",
-    "nameKo": "므츠바디",
-    "nameEn": "Mtsvadi",
-    "reason": "포도나무 장작에 구운 고기 꼬치",
-    "reasonEn": "Grilled meat skewers",
+    "nameKo": "사치비",
+    "nameEn": "Satsivi",
+    "reason": "호두 소스에 닭고기를 버무린 잔치 요리",
+    "reasonEn": "Chicken in walnut sauce",
     "desc": {
-      "ko": "포도나무 장작에 구운 고기 꼬치",
-      "en": "Meat skewers grilled over grapevine wood",
-      "ja": "ぶどうの木の薪で焼いた肉串"
+      "ko": "호두 소스에 닭고기를 버무린 잔치 요리",
+      "en": "Chicken in walnut sauce, a feast dish",
+      "ja": "くるみソースで和えた鶏肉の祝い料理"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
+    "recommendSource": "Georgia Travel",
+    "recommendUrl": "https://georgia.travel/georgian-ritual-foods",
+    "note": "관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)"
   },
   {
     "cityId": "tbilisi",
@@ -5625,9 +5591,9 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-14), 크롬 조사 음식 이름 기준"
+    "recommendSource": "Georgia Travel",
+    "recommendUrl": "https://georgia.travel/georgian-ritual-foods",
+    "note": "관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)"
   },
   {
     "cityId": "tongyeong",

@@ -657,7 +657,7 @@
     "nameEn": "Almaty",
     "currency": "KZT",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "tashkent",
@@ -667,7 +667,7 @@
     "nameEn": "Tashkent",
     "currency": "UZS",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "tbilisi",
@@ -677,7 +677,7 @@
     "nameEn": "Tbilisi",
     "currency": "GEL",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "cancun",

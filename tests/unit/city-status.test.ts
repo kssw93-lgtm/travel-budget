@@ -26,6 +26,7 @@ describe('파일럿 도시 데이터 상태', () => {
     );
     expect(table).toMatchInlineSnapshot(`
       {
+        "almaty": "3/1/3 · 100% · ready",
         "amsterdam": "6/1/3 · 100% · ready",
         "athens": "3/1/3 · 100% · ready",
         "auckland": "4/2/3 · 100% · ready",
@@ -89,6 +90,8 @@ describe('파일럿 도시 데이터 상태', () => {
         "sokcho": "43/18/3 · 100% · ready",
         "sydney": "4/4/3 · 100% · ready",
         "taipei": "3/3/12 · 100% · ready",
+        "tashkent": "3/1/2 · 100% · ready",
+        "tbilisi": "3/1/3 · 100% · ready",
         "tokyo": "10/3/11 · 100% · ready",
         "tongyeong": "43/18/3 · 100% · ready",
         "ulaanbaatar": "5/1/1 · 100% · ready",
@@ -109,6 +112,7 @@ describe('파일럿 도시 데이터 상태', () => {
     );
     expect(table).toMatchInlineSnapshot(`
       {
+        "almaty": "pass 0/0 · ride 1/1 · meal 3/3 · snack 2/2 · attraction 3/3 · souvenir 0/0",
         "amsterdam": "pass 1/1 · ride 0/0 · meal 6/6 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "athens": "pass 1/1 · ride 0/0 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "auckland": "pass 0/0 · ride 2/2 · meal 4/4 · snack 3/3 · attraction 3/3 · souvenir 0/0",
@@ -172,6 +176,8 @@ describe('파일럿 도시 데이터 상태', () => {
         "sokcho": "pass 0/0 · ride 18/19 · meal 43/46 · snack 16/16 · attraction 3/3 · souvenir 0/0",
         "sydney": "pass 0/0 · ride 4/4 · meal 4/4 · snack 2/2 · attraction 3/3 · souvenir 0/0",
         "taipei": "pass 1/3 · ride 3/3 · meal 3/3 · snack 3/3 · attraction 12/14 · souvenir 3/4",
+        "tashkent": "pass 0/0 · ride 1/1 · meal 3/3 · snack 2/2 · attraction 2/2 · souvenir 0/0",
+        "tbilisi": "pass 1/1 · ride 1/1 · meal 3/3 · snack 0/0 · attraction 3/3 · souvenir 0/0",
         "tokyo": "pass 3/5 · ride 3/3 · meal 10/10 · snack 14/14 · attraction 11/11 · souvenir 3/4",
         "tongyeong": "pass 0/0 · ride 18/19 · meal 43/46 · snack 16/16 · attraction 3/3 · souvenir 0/0",
         "ulaanbaatar": "pass 0/0 · ride 1/1 · meal 5/5 · snack 5/5 · attraction 1/1 · souvenir 0/0",

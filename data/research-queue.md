@@ -96,6 +96,15 @@
 | 로스앤젤레스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 라스베이거스 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 라스베이거스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 알마티 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 알마티 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 알마티 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 타슈켄트 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 타슈켄트 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 타슈켄트 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 트빌리시 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 트빌리시 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 트빌리시 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 칸쿤 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 칸쿤 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 칸쿤 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -457,6 +466,21 @@
 | YVR-FD-106 | 밴쿠버 | 더 남 그릴드 치즈 샌드위치 | 11.5 CAD | A | 예 | 재검증 | [The Naam Restaurant (공식 메뉴 PDF)](https://img1.wsimg.com/blobby/go/5e236959-9cd0-494c-a234-1a99eb928d06/MENU%20UPDATE%20JUNE%202025%20web%20version.pdf) |
 | YVR-FD-107 | 밴쿠버 | 더 남 베지 딜라이트 랩 | 15.25 CAD | A | 예 | 재검증 | [The Naam Restaurant (공식 메뉴 PDF)](https://img1.wsimg.com/blobby/go/5e236959-9cd0-494c-a234-1a99eb928d06/MENU%20UPDATE%20JUNE%202025%20web%20version.pdf) |
 | YVR-FD-108 | 밴쿠버 | 더 남 크루아상 멜트 | 15.95 CAD | A | 예 | 재검증 | [The Naam Restaurant (공식 메뉴 PDF)](https://img1.wsimg.com/blobby/go/5e236959-9cd0-494c-a234-1a99eb928d06/MENU%20UPDATE%20JUNE%202025%20web%20version.pdf) |
+| ALA-FD-101 | 알마티 | 차이하나 나밧 플로브(토이 아쉬) 325g | 3050 KZT | A | 예 | 재검증 | [Chaikhana NAVAT 공식 메뉴(Almaty-menu-rus.pdf)](https://drive.google.com/file/d/18B6qcNRECTktVYUjDFpuABrnnRPTUvOk/view) |
+| ALA-SN-101 | 알마티 | 차이하나 나밧 아트칸 차(1잔) | 1900 KZT | A | 예 | 재검증 | [Chaikhana NAVAT 공식 메뉴(Almaty-menu-rus.pdf)](https://drive.google.com/file/d/18B6qcNRECTktVYUjDFpuABrnnRPTUvOk/view) |
+| ALA-TR-101 | 알마티 | 알마티 지하철 1회 요금(스마트 카드) | 120 KZT | A | 예 | 재검증 | [Almaty Metropoliten](https://metroalmaty.kz/ru/payment) |
+| ALA-AT-101 | 알마티 | 콕토베 케이블카 왕복(성인) | 10000 KZT | A | 예 | 재검증 | [Kok Tobe](https://koktobe.com/public/price-list) |
+| ALA-AT-102 | 알마티 | 콕토베 케이블카 왕복(아동 6~12세) | 5000 KZT | A | 예 | 재검증 | [Kok Tobe](https://koktobe.com/public/price-list) |
+| ALA-AT-103 | 알마티 | 알마티 동물원 입장권(12세 이상·성인) | 1427 KZT | A | 예 | 재검증 | [Almaty Zoo](https://almatyzoo.kz/ru/plan-your-visit/) |
+| ALA-AT-104 | 알마티 | 알마티 동물원 입장권(아동 7~11세) | 562 KZT | A | 예 | 재검증 | [Almaty Zoo](https://almatyzoo.kz/ru/plan-your-visit/) |
+| ALA-AT-105 | 알마티 | 심불락 케이블카 도보 관광객 왕복권(메데우~콤비-2) | 4000 KZT | A | 조건부 | 조건부, 재검증 | [Shymbulak Resort](https://shymbulak.com/tickets) |
+| TAS-TR-101 | 타슈켄트 | 타슈켄트 지하철 1회 요금 | 1700~3000 UZS | A | 조건부 | 조건부, 재검증 | [Toshshahartransxizmat (tashtrans.uz)](https://tashtrans.uz/oplata-proezda-v-metropolitene-tashkenta/) |
+| TBS-TR-101 | 트빌리시 | 트빌리시 시내교통 1회 요금(90분 무제한) | 1 GEL | A | 예 | 재검증 | [Tbilisi Transport Company](https://ttc.com.ge/en/tariff/10) |
+| TBS-TR-102 | 트빌리시 | 트빌리시 시내교통 1일 무제한 | 3 GEL | A | 예 | 재검증 | [Tbilisi Transport Company](https://ttc.com.ge/en/tariff/10) |
+| TBS-AT-101 | 트빌리시 | 리케–나리칼라 케이블카 편도 | 2.5 GEL | A | 예 | 재검증 | [Tbilisi Transport Company](https://ttc.com.ge/en/tariff/10) |
+| TBS-AT-102 | 트빌리시 | 조지아 국립박물관(시몬 자나시아) 입장권(외국인 성인) | 40 GEL | A | 예 | 재검증 | [Georgian National Museum](https://www.museum.ge/index.php?m=319&lng=eng) |
+| TBS-AT-103 | 트빌리시 | 조지아 국립박물관(시몬 자나시아) 입장권(외국인 학생·초중고생) | 15 GEL | A | 예 | 재검증 | [Georgian National Museum](https://www.museum.ge/index.php?m=319&lng=eng) |
+| TBS-AT-104 | 트빌리시 | 거북이 호수 케이블카 편도 | 1 GEL | A | 예 | 재검증 | [Tbilisi Transport Company](https://ttc.com.ge/en/tariff/10) |
 | CUN-TR-101 | 칸쿤 | 칸쿤 시내버스 요금(시내·호텔존) | 9.5~12 MXN | A | 조건부 | 조건부, 재검증 | [Municipio de Benito Juárez (Cancún)](https://cancun.gob.mx/cancun/noticias/leer/1408) |
 | CUN-AT-101 | 칸쿤 | 칸쿤 마야 박물관(산 미겔리토 유적 포함, 외국인) | 210 MXN | A | 예 | 재검증 | [INAH](https://www.inah.gob.mx/museos/museo-maya-de-cancun) |
 | CUN-AT-102 | 칸쿤 | 칸쿤 마야 박물관(13세 미만) | 0 MXN | A | 예 | 재검증 | [INAH](https://www.inah.gob.mx/museos/museo-maya-de-cancun) |
@@ -469,6 +493,23 @@
 | CUN-SN-102 | 칸쿤 | 엘 피시 프리탕가 아메리카노 | 60 MXN | A | 예 | 재검증 | [El Fish Fritanga (EFF HY Menu Bebidas 020525 DIGITAL.pdf)](https://drive.google.com/file/d/182ugnK1fJvteQo06yCNaRf9_9G9eB9R6/view) |
 | CUN-AL-101 | 칸쿤 | 엘 피시 프리탕가 XX 라거 355ml | 70 MXN | A | 예 | 재검증 | [El Fish Fritanga (EFF HY Menu Bebidas 020525 DIGITAL.pdf)](https://drive.google.com/file/d/182ugnK1fJvteQo06yCNaRf9_9G9eB9R6/view) |
 | CUN-AL-102 | 칸쿤 | 로스 데 페스카도 맥주 | 54 MXN | A | 조건부 | 조건부, 재검증 | [Los de Pescado](https://losdepescado.com/) |
+| TBS-FD-101 | 트빌리시 | 프칼리 힌칼리 칼라쿠리 힌칼리 5개(400g) | 11.5 GEL | A | 조건부 | 조건부, 재검증 | [Pkhali Khinkali](https://pkhalikhinkali.ge/en/menu/) |
+| TAS-FD-101 | 타슈켄트 | 플로브 라운지 우즈베크식 추치바라(300g) | 45000 UZS | A | 예 | 재검증 | [Plov Lounge (공식 사이트 메뉴판 사진)](https://plovlounge.uz/menu/6.jpg) |
+| TAS-SN-101 | 타슈켄트 | 플로브 라운지 코카콜라 250ml | 28000 UZS | A | 예 | 재검증 | [Plov Lounge (공식 사이트 메뉴판 사진)](https://plovlounge.uz/menu/21.jpg) |
+| TAS-AL-101 | 타슈켄트 | 플로브 라운지 생맥주 칼스버그 500ml | 35000 UZS | A | 예 | 재검증 | [Plov Lounge (공식 사이트 메뉴판 사진)](https://plovlounge.uz/menu/19.jpg) |
+| ALA-FD-102 | 알마티 | 도도피자 솔로 콤보 | 2190 KZT | A | 조건부 | 조건부, 재검증 | [Dodo Pizza Kazakhstan (자체 주문 사이트)](https://dodopizza.kz/almaty) |
+| ALA-FD-103 | 알마티 | 미아 피자 라그만 구이루 | 1990 KZT | A | 조건부 | 조건부, 재검증 | [Mia Pizza (자체 주문 사이트, 알마티 Darkhan 지구)](https://miapizza.kz/lagman) |
+| ALA-SN-102 | 알마티 | 도도피자 아이스 카푸치노 | 1600 KZT | A | 조건부 | 조건부, 재검증 | [Dodo Pizza Kazakhstan (자체 주문 사이트)](https://dodopizza.kz/almaty) |
+| TAS-FD-102 | 타슈켄트 | 에보스 소고기 도네르(콤비네이션 용기) | 63000 UZS | A | 예 | 재검증 | [EVOS (자체 사이트)](https://evos.uz/) |
+| TAS-FD-103 | 타슈켄트 | 레 제일 모차렐라 버거 세트(코카콜라) | 39000 UZS | A | 예 | 재검증 | [Les Ailes (자체 사이트, 타슈켄트)](https://lesailes.uz/tashkent) |
+| TAS-SN-102 | 타슈켄트 | 에보스 감자튀김 S | 13000 UZS | A | 예 | 재검증 | [EVOS (자체 사이트)](https://evos.uz/) |
+| TAS-AT-101 | 타슈켄트 | 타슈켄트 동물원 입장권(16세 이상) | 40000 UZS | A | 예 | 재검증 | [Toshkent hayvonot bog'i (Tashkent Zoo)](https://www.tashkentzoo.uz/uz/content/ceny-vhodnyh-biletov-0) |
+| TAS-AT-102 | 타슈켄트 | 타슈켄트 동물원 입장권(아동 7~16세) | 25000 UZS | A | 예 | 재검증 | [Toshkent hayvonot bog'i (Tashkent Zoo)](https://www.tashkentzoo.uz/uz/content/ceny-vhodnyh-biletov-0) |
+| TAS-AT-103 | 타슈켄트 | 타슈켄트 TV 타워 입장권(16세 초과, 거주자 요금) | 100000 UZS | A | 조건부 | 조건부, 재검증 | [Tashkent TV Tower](https://uztv-tower.uz/en/tour) |
+| TAS-AT-104 | 타슈켄트 | 타슈켄트 TV 타워 입장권(7~16세, 거주자 요금) | 40000 UZS | A | 조건부 | 조건부, 재검증 | [Tashkent TV Tower](https://uztv-tower.uz/en/tour) |
+| TBS-FD-102 | 트빌리시 | 케리아 이메룰리 하차푸리(작은 것) | 14 GEL | A | 예 | 재검증 | [Keria (트빌리시 빵집·식당 체인 자체 사이트)](https://keria.com.ge/menu/) |
+| TBS-FD-103 | 트빌리시 | 라디오카페 아자룰리 하차푸리(440g) | 21 GEL | A | 조건부 | 조건부, 재검증 | [RadioCafe](https://radiocafe.ge/en/adzharskiy) |
+| TBS-AL-101 | 트빌리시 | 라디오카페 이메레티 와인 '다섯 포도'(테라 키시) 0.15L | 19 GEL | A | 예 | 재검증 | [RadioCafe](https://radiocafe.ge/en/adzharskiy) |
 | SPN-AT-101 | 사이판 | 마나가하 섬 상륙료(비거주자) | 5 USD | A | 조건부 | 조건부, 재검증 | [CNMI Law Revision Commission – Commonwealth Code 2 CMC § 1621](https://cnmilaw.gov/commonwealth-code/1598) |
 | BUD-AT-301 | 부다페스트 | 세체니 온천 1일권(라커 포함) | 13200~15800 HUF | A | 예 | 재검증 | [Széchenyi Thermal Bath](https://www.szechenyibath.hu/prices) |
 | MUC-AT-301 | 뮌헨 | 독일박물관 1일권(성인) | 16 EUR | A | 예 | 재검증 | [Deutsches Museum](https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets) |

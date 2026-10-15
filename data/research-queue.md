@@ -153,7 +153,6 @@
 | LON-AT-005 | 런던 | 대영박물관 상설 관람 | 0 GBP | A | 예 | 재검증, 검수: 원문 확인 불가 | [British Museum](https://www.britishmuseum.org/visit) |
 | PAR-TR-004 | 파리 | 나비고 리베르테 플러스 메트로-기차-RER | 2.04 EUR | A | 예 | 검수: 원문 확인 불가 | [Île-de-France Mobilités](https://www.iledefrance-mobilites.fr/en/titres-et-tarifs/detail/navigo-liberte-plus) |
 | DAD-AT-004 | 다낭 | 다낭 참조각박물관 일반 입장권 | 60000 VND | A | 예 | 검수: 원문 미확인 | [Da Nang Museum of Cham Sculpture](https://chammuseum.vn/view.aspx?ID=45) |
-| BKK-SV-006 | 방콕 | 왓 아룬 디자인 자석 | 195 THB | A | 예 | 검수: 원문 확인 불가 | [SIAM MAGNET](https://siammagnet.co.th/en/products/12) |
 | SIN-FD-008 | 싱가포르 | 티옹바루 하이난 치킨라이스 | 14 SGD | A | 예 | 세금·서비스료 별도 | [Tiong Bahru Hainanese Chicken Rice](https://www.tiongbahruchickenrice.sg/menu/) |
 | IST-AT-001 | 이스탄불 | Topkapı Sarayı 복합 입장권 외국인 성인 | 2750 TRY | B | 예 | B등급 | [Millî Saraylar](https://www.millisaraylar.gov.tr/Lokasyon/2/Topkapi-Sarayi?culture=en) |
 | IST-AT-002 | 이스탄불 | Dolmabahçe Sarayı 통합 입장권 외국인 성인 | 2000 TRY | B | 예 | B등급 | [Millî Saraylar](https://millisaraylar.gov.tr/Lokasyon/3/Dolmabahce-Sarayi) |
@@ -181,7 +180,7 @@
 | TYO-AT-009 | 도쿄 | 하마리큐 은사정원 일반 입장권 | 300 JPY | B | 예 | B등급 | [Tokyo Metropolitan Park Association](https://www.tokyo-park.or.jp/park/hama-rikyu/index.html) |
 | TYO-AT-010 | 도쿄 | 우에노 동물원 일반 입장권 | 600 JPY | B | 예 | B등급 | [Tokyo Zoological Park Society](https://www.tokyo-zoo.net/en/ueno/visitor-info/tickets/index.html) |
 | TYO-AT-011 | 도쿄 | 국립서양미술관 상설전시 입장권 | 500 JPY | B | 예 | B등급 | [The National Museum of Western Art](https://www.nmwa.go.jp/en/visit/index.html) |
-| TYO-AT-012 | 도쿄 | 도쿄도청 전망실 | 0 JPY | B | 예 | B등급, 검수: 원문 확인 불가 | [Tokyo Metropolitan Government](https://www.english.metro.tokyo.lg.jp/w/000-101-000542) |
+| TYO-AT-012 | 도쿄 | 도쿄도청 전망실 | 0 JPY | B | 예 | B등급 | [Tokyo Metropolitan Government](https://www.english.metro.tokyo.lg.jp/w/000-101-000542) |
 | TYO-AT-013 | 도쿄 | 시부야 스카이 입장권(아동) | 1200 JPY | A | 예 | 검수: 원문 확인 불가 | [SHIBUYA SKY](https://www.shibuya-scramble-square.com/sky/ticket/) |
 | TYO-AT-014 | 도쿄 | 도쿄 디즈니랜드 1데이 패스포트(아동, 2026년 10월 최저 게시가) | 5300 JPY | A | 예 | 시작가 표기 | [Tokyo Disney Resort](https://www.tokyodisneyresort.jp/en/ticket/index/202610/) |
 | TYO-AT-018 | 도쿄 | 신주쿠 교엔 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Ministry of the Environment, Japan](https://policies.env.go.jp/national-garden/shinjukugyoen/english/guide/information/) |
@@ -1648,5 +1647,5 @@
 
 ## 4. 교차 검수 현황
 
-`data/reviews/*.csv` 에서 읽은 판정: 일치 1124건 · 불일치 24건 · 확인불가 104건.
+`data/reviews/*.csv` 에서 읽은 판정: 일치 1134건 · 불일치 27건 · 확인불가 102건.
 아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

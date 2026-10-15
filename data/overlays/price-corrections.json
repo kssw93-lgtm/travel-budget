@@ -121,5 +121,12 @@
     "sourceUrl": "https://www.rainbowdrivein.com/menu-kapahulu",
     "checkedAt": "2026-10-12",
     "reason": "GPT 교차 검수: 공식 메뉴 Small Slush Float $6.25, Medium $6.50(이전 $5)."
+  },
+  "HKG-AP-002": {
+    "min": 60,
+    "max": 65,
+    "sourceUrl": "https://www.mtr.com.hk/en/customer/tickets/tf_index.html",
+    "checkedAt": "2026-10-15",
+    "reason": "GPT 교차 검수: MTR 요금표 홍콩역 3~11세 편도 Octopus/QR HK$60, Smart Ticket HK$65."
   }
 }

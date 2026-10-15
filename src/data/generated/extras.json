@@ -868,7 +868,7 @@
     "nameKo": "에어포트 익스프레스 공항–홍콩역(어린이)",
     "nameEn": "Airport Express Airport–Hong Kong Station (child)",
     "min": 60,
-    "max": 60,
+    "max": 65,
     "currency": "HKD",
     "unit": "아동 1인 편도",
     "priceType": "고정형",
@@ -876,11 +876,11 @@
     "grade": "A",
     "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
-    "checkedAt": "2026-10-09",
+    "checkedAt": "2026-10-15",
     "applied": "2026",
     "sourceName": "MTR",
     "sourceUrl": "https://www.mtr.com.hk/en/customer/tickets/tf_index.html",
-    "note": "Firecrawl로 공식 페이지 직접 확인(Claude, 2026-10-09) · 원문: Child (aged 3-11) … Hong Kong $60 · 수집: prices-hong-kong.csv",
+    "note": "Firecrawl로 공식 페이지 직접 확인(Claude, 2026-10-09) · 원문: Child (aged 3-11) … Hong Kong $60 · 수집: prices-hong-kong.csv · 가격 정정(2026-10-15): GPT 교차 검수: MTR 요금표 홍콩역 3~11세 편도 Octopus/QR HK$60, Smart Ticket HK$65.",
     "kind": "airport"
   },
   {

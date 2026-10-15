@@ -690,6 +690,86 @@
     "stage": "파일럿"
   },
   {
+    "id": "copenhagen",
+    "country": "덴마크",
+    "countryEn": "Denmark",
+    "nameKo": "코펜하겐",
+    "nameEn": "Copenhagen",
+    "currency": "DKK",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "stockholm",
+    "country": "스웨덴",
+    "countryEn": "Sweden",
+    "nameKo": "스톡홀름",
+    "nameEn": "Stockholm",
+    "currency": "SEK",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "helsinki",
+    "country": "핀란드",
+    "countryEn": "Finland",
+    "nameKo": "헬싱키",
+    "nameEn": "Helsinki",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "krakow",
+    "country": "폴란드",
+    "countryEn": "Poland",
+    "nameKo": "크라쿠프",
+    "nameEn": "Krakow",
+    "currency": "PLN",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "dublin",
+    "country": "아일랜드",
+    "countryEn": "Ireland",
+    "nameKo": "더블린",
+    "nameEn": "Dublin",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "brussels",
+    "country": "벨기에",
+    "countryEn": "Belgium",
+    "nameKo": "브뤼셀",
+    "nameEn": "Brussels",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "cairo",
+    "country": "이집트",
+    "countryEn": "Egypt",
+    "nameKo": "카이로",
+    "nameEn": "Cairo",
+    "currency": "EGP",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "reykjavik",
+    "country": "아이슬란드",
+    "countryEn": "Iceland",
+    "nameKo": "레이캬비크",
+    "nameEn": "Reykjavik",
+    "currency": "ISK",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
     "id": "barcelona",
     "country": "스페인",
     "countryEn": "Spain",

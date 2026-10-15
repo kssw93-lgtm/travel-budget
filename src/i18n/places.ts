@@ -20,6 +20,7 @@ export const CITY_JA: Record<string, string> = {
   nara: '奈良', taichung: '台中', 'kota-kinabalu': 'コタキナバル', zhangjiajie: '張家界', melbourne: 'メルボルン', florence: 'フィレンツェ',
   venice: 'ヴェネツィア', madrid: 'マドリード', nice: 'ニース', 'san-francisco': 'サンフランシスコ', almaty: 'アルマトイ', tashkent: 'タシケント',
   tbilisi: 'トビリシ', cancun: 'カンクン',
+  copenhagen: 'コペンハーゲン', stockholm: 'ストックホルム', helsinki: 'ヘルシンキ', krakow: 'クラクフ', dublin: 'ダブリン', brussels: 'ブリュッセル', cairo: 'カイロ', reykjavik: 'レイキャビク',
 };
 
 /** 영문 나라 이름 → 일본어 */
@@ -30,5 +31,5 @@ export const COUNTRY_JA: Record<string, string> = {
   Türkiye: 'トルコ', China: '中国', 'South Korea': '韓国', Philippines: 'フィリピン',
   Australia: 'オーストラリア', Czechia: 'チェコ', Guam: 'グアム',
   Macau: 'マカオ', Hawaii: 'ハワイ', Saipan: 'サイパン', Mongolia: 'モンゴル', Austria: 'オーストリア', Hungary: 'ハンガリー',
-  Germany: 'ドイツ', Switzerland: 'スイス', Portugal: 'ポルトガル', Cambodia: 'カンボジア', Laos: 'ラオス', Canada: 'カナダ', 'New Zealand': 'ニュージーランド', Netherlands: 'オランダ', Greece: 'ギリシャ', Croatia: 'クロアチア', Kazakhstan: 'カザフスタン', Uzbekistan: 'ウズベキスタン', Georgia: 'ジョージア', Mexico: 'メキシコ',
+  Germany: 'ドイツ', Switzerland: 'スイス', Portugal: 'ポルトガル', Cambodia: 'カンボジア', Laos: 'ラオス', Canada: 'カナダ', 'New Zealand': 'ニュージーランド', Netherlands: 'オランダ', Greece: 'ギリシャ', Croatia: 'クロアチア', Kazakhstan: 'カザフスタン', Uzbekistan: 'ウズベキスタン', Georgia: 'ジョージア', Mexico: 'メキシコ', Denmark: 'デンマーク', Sweden: 'スウェーデン', Finland: 'フィンランド', Poland: 'ポーランド', Ireland: 'アイルランド', Belgium: 'ベルギー', Egypt: 'エジプト', Iceland: 'アイスランド',
 };

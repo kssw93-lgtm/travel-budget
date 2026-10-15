@@ -410,7 +410,13 @@
   "london:Afternoon Tea": {
     "ko": "홍차와 함께 샌드위치·스콘·작은 케이크를 단계별로 즐기는 오후 차 문화",
     "en": "Tea served with sandwiches, scones and small cakes in the afternoon",
-    "ja": "紅茶とサンドイッチ・スコーン・小さなケーキを楽しむ午後のお茶"
+    "ja": "紅茶とサンドイッチ・スコーン・小さなケーキを楽しむ午後のお茶",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Afternoon_tea_with_biscuits.jpg/960px-Afternoon_tea_with_biscuits.jpg",
+      "author": "Shreya13jain",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Afternoon_tea_with_biscuits.jpg"
+    }
   },
   "london:Steak and Ale Pie": {
     "ko": "에일 맥주로 조린 소고기를 파이 반죽에 넣어 구운 펍 대표 메뉴",
@@ -986,7 +992,13 @@
   "kuala-lumpur:Nasi Lemak": {
     "ko": "코코넛 밀크로 지은 밥에 매콤한 삼발 소스, 튀긴 멸치, 땅콩, 삶은 달걀을 곁들이는 말레이시아 국민 음식",
     "en": "Malaysia's national dish: coconut-milk rice with spicy sambal, fried anchovies, peanuts and egg",
-    "ja": "ココナッツミルクで炊いたご飯に辛いサンバル、揚げ小魚、ピーナッツ、ゆで卵を添えたマレーシアの国民食"
+    "ja": "ココナッツミルクで炊いたご飯に辛いサンバル、揚げ小魚、ピーナッツ、ゆで卵を添えたマレーシアの国民食",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Nasi_Lemak%2C_di_Lapangan_Terbang_Antarabangsa_Kuala_Lumpur_2_%28KLIA_2%29.jpg/960px-Nasi_Lemak%2C_di_Lapangan_Terbang_Antarabangsa_Kuala_Lumpur_2_%28KLIA_2%29.jpg",
+      "author": "Meandkancil2020",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Nasi_Lemak,_di_Lapangan_Terbang_Antarabangsa_Kuala_Lumpur_2_(KLIA_2).jpg"
+    }
   },
   "kuala-lumpur:Char Kway Teow": {
     "ko": "넓적한 쌀국수를 새우·숙주·달걀과 센 불에 볶아 불맛을 낸 노점 대표 메뉴",
@@ -1006,17 +1018,35 @@
   "kyoto:Yudofu": {
     "ko": "다시마 국물에 데운 부드러운 두부를 간장 양념에 찍어 먹는 교토 사찰 요리",
     "en": "Simmered tofu in kombu broth with a soy dipping sauce, a Kyoto temple-cuisine classic",
-    "ja": "昆布だしで温めた豆腐をつけだれでいただく、京都の精進料理の定番"
+    "ja": "昆布だしで温めた豆腐をつけだれでいただく、京都の精進料理の定番",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Seizansoudou_Yudoufu.jpg/960px-Seizansoudou_Yudoufu.jpg",
+      "author": "Kykk wiki",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Seizansoudou_Yudoufu.jpg"
+    }
   },
   "kyoto:Nishin Soba": {
     "ko": "달콤짭짤하게 조린 청어를 따뜻한 메밀국수 위에 올린 교토 명물",
     "en": "Hot soba topped with sweet-savory simmered herring, a Kyoto specialty",
-    "ja": "甘辛く炊いた身欠きにしんを温かいそばにのせた京都名物"
+    "ja": "甘辛く炊いた身欠きにしんを温かいそばにのせた京都名物",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Nishin_soba_by_rhosoi_in_Kyoto.jpg/960px-Nishin_soba_by_rhosoi_in_Kyoto.jpg",
+      "author": "rhosoi",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Nishin_soba_by_rhosoi_in_Kyoto.jpg"
+    }
   },
   "kyoto:Matcha Sweets": {
     "ko": "우지 말차로 만든 파르페·아이스크림·화과자 등 진한 녹차 디저트",
     "en": "Desserts made with Uji matcha, from parfaits and soft-serve to traditional wagashi",
-    "ja": "宇治抹茶を使ったパフェやソフトクリーム、和菓子などの濃い抹茶スイーツ"
+    "ja": "宇治抹茶を使ったパフェやソフトクリーム、和菓子などの濃い抹茶スイーツ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Matcha_with_wagashi_by_rhosoi_in_Kyoto.jpg/960px-Matcha_with_wagashi_by_rhosoi_in_Kyoto.jpg",
+      "author": "rhosoi",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Matcha_with_wagashi_by_rhosoi_in_Kyoto.jpg"
+    }
   },
   "kyoto:Gyudon": {
     "ko": "얇게 썬 소고기와 양파를 달콤한 간장 국물에 조려 밥 위에 올린 덮밥",
@@ -1032,37 +1062,79 @@
   "nagoya:Hitsumabushi": {
     "ko": "잘게 썬 장어구이를 밥에 올려 그대로, 양념을 더해, 차를 부어 세 가지로 먹는 나고야 명물",
     "en": "Grilled eel over rice eaten three ways: plain, with condiments, then with dashi or tea",
-    "ja": "刻んだうなぎの蒲焼をそのまま、薬味で、だしをかけての三通りで味わう名古屋名物"
+    "ja": "刻んだうなぎの蒲焼をそのまま、薬味で、だしをかけての三通りで味わう名古屋名物",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Hitsumabushi_by_hirotomo_in_Nagoya.jpg/960px-Hitsumabushi_by_hirotomo_in_Nagoya.jpg",
+      "author": "hirotomo from Nagoya",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Hitsumabushi_by_hirotomo_in_Nagoya.jpg"
+    }
   },
   "nagoya:Miso Katsu": {
     "ko": "바삭한 돈카쓰에 진한 핫초 된장 소스를 끼얹은 나고야식 돈가스",
     "en": "Pork cutlet topped with rich, sweet Hatcho miso sauce, Nagoya style",
-    "ja": "とんかつに濃厚な八丁味噌だれをかけた名古屋めし"
+    "ja": "とんかつに濃厚な八丁味噌だれをかけた名古屋めし",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Miso_katsu%2C_tsukemono_and_miso_soup_by_shibainu_in_Nagoya.jpg/960px-Miso_katsu%2C_tsukemono_and_miso_soup_by_shibainu_in_Nagoya.jpg",
+      "author": "shibainu",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Miso_katsu,_tsukemono_and_miso_soup_by_shibainu_in_Nagoya.jpg"
+    }
   },
   "nagoya:Tebasaki": {
     "ko": "달콤짭짤한 양념을 바르고 후추를 듬뿍 뿌린 나고야식 닭날개 튀김",
     "en": "Fried chicken wings glazed sweet-savory and dusted with pepper, a Nagoya izakaya favorite",
-    "ja": "甘辛いたれと胡椒を効かせた名古屋の手羽先唐揚げ"
+    "ja": "甘辛いたれと胡椒を効かせた名古屋の手羽先唐揚げ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tebasaki_karaage_by_kawanet_in_Kanayama%2C_Nagoya.jpg/960px-Tebasaki_karaage_by_kawanet_in_Kanayama%2C_Nagoya.jpg",
+      "author": "kawanet",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tebasaki_karaage_by_kawanet_in_Kanayama,_Nagoya.jpg"
+    }
   },
   "nagoya:Miso Nikomi Udon": {
     "ko": "쫄깃하고 단단한 면을 진한 된장 국물에 질그릇째 끓여 내는 우동",
     "en": "Firm udon simmered in rich red-miso broth and served in an earthenware pot",
-    "ja": "コシの強い麺を赤味噌のつゆで土鍋ごと煮込んだうどん"
+    "ja": "コシの強い麺を赤味噌のつゆで土鍋ごと煮込んだうどん",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Miso_nikomi_udon_1_naotakem.jpg/960px-Miso_nikomi_udon_1_naotakem.jpg",
+      "author": "naotakem",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Miso_nikomi_udon_1_naotakem.jpg"
+    }
   },
   "okinawa:Okinawa Soba": {
     "ko": "굵은 밀면에 조린 돼지고기를 올리고 가쓰오·돼지뼈 국물을 부은 오키나와 대표 국수",
     "en": "Thick wheat noodles in bonito-pork broth topped with braised pork, Okinawa's signature noodle",
-    "ja": "太めの小麦麺にかつおと豚のだし、煮込んだ豚肉をのせた沖縄を代表する麺"
+    "ja": "太めの小麦麺にかつおと豚のだし、煮込んだ豚肉をのせた沖縄を代表する麺",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Okinawa_soba_in_Yamabare_2.jpg/960px-Okinawa_soba_in_Yamabare_2.jpg",
+      "author": "Syced",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Okinawa_soba_in_Yamabare_2.jpg"
+    }
   },
   "okinawa:Goya Champuru": {
     "ko": "쌉싸름한 여주(고야)를 두부·돼지고기·달걀과 함께 볶은 오키나와 가정식",
     "en": "Stir-fried bitter melon with tofu, pork and egg, an Okinawan home-cooking staple",
-    "ja": "ゴーヤーを豆腐・豚肉・卵と炒めた沖縄の家庭料理"
+    "ja": "ゴーヤーを豆腐・豚肉・卵と炒めた沖縄の家庭料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Goya_Champuru.jpg/960px-Goya_Champuru.jpg",
+      "author": "Banzai Hiroaki",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Goya_Champuru.jpg"
+    }
   },
   "okinawa:Taco Rice": {
     "ko": "양념한 다진 고기·치즈·양상추·토마토를 밥 위에 올린 오키나와식 덮밥",
     "en": "Seasoned ground meat, cheese, lettuce and tomato over rice, an Okinawan invention",
-    "ja": "味付けひき肉・チーズ・レタス・トマトをご飯にのせた沖縄生まれの料理"
+    "ja": "味付けひき肉・チーズ・レタス・トマトをご飯にのせた沖縄生まれの料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Tacos_in_Okinawa.jpg/960px-Tacos_in_Okinawa.jpg",
+      "author": "KQuhen",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tacos_in_Okinawa.jpg"
+    }
   },
   "okinawa:A&W Burger and Root Beer": {
     "ko": "일본에서는 오키나와에만 있는 미국식 체인 A&W의 버거와 리필되는 루트비어",
@@ -1072,7 +1144,13 @@
   "gangneung:Chodang Sundubu": {
     "ko": "바닷물 간수로 굳힌 부드러운 초당두부를 순두부로 끓인 강릉 명물",
     "en": "Soft tofu made with seawater brine in Chodang village, Gangneung's best-known dish",
-    "ja": "海水をにがりに使った草堂豆腐を使う江陵名物のおぼろ豆腐"
+    "ja": "海水をにがりに使った草堂豆腐を使う江陵名物のおぼろ豆腐",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Jjamppong_Sundubu_20220502_001.jpg/960px-Jjamppong_Sundubu_20220502_001.jpg",
+      "author": "Mobius6",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Jjamppong_Sundubu_20220502_001.jpg"
+    }
   },
   "gangneung:Gamja Ongsimi": {
     "ko": "감자를 갈아 빚은 쫄깃한 새알을 맑은 국물에 끓인 강원도 향토 음식",
@@ -1121,7 +1199,13 @@
   "gyeongju:Kongguksu": {
     "ko": "진하게 간 콩물에 차가운 국수를 말아 먹는 여름 별미",
     "en": "Cold noodles in rich ground soybean broth, a summer favorite",
-    "ja": "濃厚な豆乳スープに冷たい麺を入れた夏の味"
+    "ja": "濃厚な豆乳スープに冷たい麺を入れた夏の味",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Kongguksu_%28soybean_cold_noodle%29.jpg/960px-Kongguksu_%28soybean_cold_noodle%29.jpg",
+      "author": "vedanti",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kongguksu_(soybean_cold_noodle).jpg"
+    }
   },
   "yeosu:Gejang Baekban": {
     "ko": "간장·양념에 재운 게장을 반찬 가득한 백반과 먹는 여수 대표 밥상",
@@ -1152,7 +1236,13 @@
   "jeonju:Kongnamul Gukbap": {
     "ko": "콩나물을 듬뿍 넣은 시원한 국물에 밥을 말아 먹는 전주식 해장국",
     "en": "Rice in clear bean-sprout soup, Jeonju's classic morning meal",
-    "ja": "もやしたっぷりのさっぱりスープにご飯を入れた全州式クッパ"
+    "ja": "もやしたっぷりのさっぱりスープにご飯を入れた全州式クッパ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Kongnamul_gukbap_20230408_002.jpg/960px-Kongnamul_gukbap_20230408_002.jpg",
+      "author": "Mobius6",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kongnamul_gukbap_20230408_002.jpg"
+    }
   },
   "jeonju:Jeonju Choco Pie": {
     "ko": "한옥마을에서 파는 수제 초코파이 등 길거리 간식",
@@ -1167,7 +1257,13 @@
   "nha-trang:Bun Cha Ca": {
     "ko": "어묵과 생선을 올린 쌀국수를 맑은 생선 국물에 말아 낸 나트랑 대표 국수",
     "en": "Rice noodles with fish cake in clear fish broth, Nha Trang's signature noodle",
-    "ja": "さつま揚げと魚をのせた米麺を魚だしのスープでいただくニャチャン名物"
+    "ja": "さつま揚げと魚をのせた米麺を魚だしのスープでいただくニャチャン名物",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Bun_cha_ca.jpg/960px-Bun_cha_ca.jpg",
+      "author": "Everyday English",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bun_cha_ca.jpg"
+    }
   },
   "nha-trang:Grilled Seafood": {
     "ko": "바닷가 도시답게 새우·조개·오징어를 숯불에 구워 먹는 요리",
@@ -1236,7 +1332,13 @@
   "dubai:Al Machboos": {
     "ko": "향신료로 지은 밥에 닭고기나 양고기를 올린 아랍에미리트 전통 요리",
     "en": "Spiced rice with chicken or lamb, an Emirati home-style classic",
-    "ja": "香辛料で炊いたご飯に鶏肉や羊肉をのせたUAEの伝統料理"
+    "ja": "香辛料で炊いたご飯に鶏肉や羊肉をのせたUAEの伝統料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Machboos.JPG/960px-Machboos.JPG",
+      "author": "Miansari66",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Machboos.JPG"
+    }
   },
   "dubai:Luqaimat": {
     "ko": "바삭하게 튀긴 작은 반죽 공에 대추야자 시럽을 뿌린 디저트",
@@ -1274,12 +1376,24 @@
   "hanoi:Egg Coffee": {
     "ko": "달걀노른자 크림을 진한 커피 위에 올린 하노이 명물 커피",
     "en": "Strong coffee topped with whipped egg-yolk cream, a Hanoi café classic",
-    "ja": "濃いコーヒーに卵黄クリームをのせたハノイ名物のコーヒー"
+    "ja": "濃いコーヒーに卵黄クリームをのせたハノイ名物のコーヒー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Egg_coffee_at_Caf%C3%A9_Giang_closeup.jpg/960px-Egg_coffee_at_Caf%C3%A9_Giang_closeup.jpg",
+      "author": "Amenoc",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Egg_coffee_at_Café_Giang_closeup.jpg"
+    }
   },
   "ho-chi-minh-city:Com Tam": {
     "ko": "부서진 쌀로 지은 밥에 구운 돼지갈비·달걀을 올린 호치민 대표 덮밥",
     "en": "Broken rice with grilled pork chop and egg, Saigon's everyday favorite",
-    "ja": "砕き米のご飯に焼いた豚スペアリブや卵をのせたホーチミンの定番"
+    "ja": "砕き米のご飯に焼いた豚スペアリブや卵をのせたホーチミンの定番",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/C%C6%A1m_t%E1%BA%A5m_SG_l%E1%BB%81_%C4%91%C6%B0%E1%BB%9Dng_%28c%C6%A1m_s%C6%B0%E1%BB%9Dn%2C_mi%E1%BA%BFng_s%C6%B0%E1%BB%9Dn_n%C6%B0%E1%BB%9Bng_m%E1%BA%ADt_ong%29_ng30th7n2022_%283%29.jpg/960px-C%C6%A1m_t%E1%BA%A5m_SG_l%E1%BB%81_%C4%91%C6%B0%E1%BB%9Dng_%28c%C6%A1m_s%C6%B0%E1%BB%9Dn%2C_mi%E1%BA%BFng_s%C6%B0%E1%BB%9Dn_n%C6%B0%E1%BB%9Bng_m%E1%BA%ADt_ong%29_ng30th7n2022_%283%29.jpg",
+      "author": "Phương Huy",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cơm_tấm_SG_lề_đường_(cơm_sườn,_miếng_sườn_nướng_mật_ong)_ng30th7n2022_(3).jpg"
+    }
   },
   "ho-chi-minh-city:Banh Mi": {
     "ko": "바삭한 바게트에 고기·채소·소스를 채운 베트남식 샌드위치",
@@ -1295,7 +1409,13 @@
   "ho-chi-minh-city:Hu Tieu": {
     "ko": "맑은 돼지뼈 국물에 쌀국수와 새우·돼지고기를 넣은 남부식 국수",
     "en": "Southern-style noodle soup with pork, shrimp and clear pork broth",
-    "ja": "澄んだ豚骨スープに米麺と海老や豚肉を入れた南部のフーティウ"
+    "ja": "澄んだ豚骨スープに米麺と海老や豚肉を入れた南部のフーティウ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Hu-tieu-sai-gon.jpg/960px-Hu-tieu-sai-gon.jpg",
+      "author": "Vanthanh1220064",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Hu-tieu-sai-gon.jpg"
+    }
   },
   "chiang-mai:Khao Soi": {
     "ko": "코코넛 카레 국물에 삶은 면과 튀긴 면을 함께 올린 치앙마이 대표 국수",
@@ -1322,27 +1442,57 @@
   "chiang-mai:Gaeng Hang Le": {
     "ko": "돼지고기를 생강·타마린드로 달콤새콤하게 조린 북부식 카레",
     "en": "Northern-style pork curry simmered with ginger and tamarind",
-    "ja": "豚肉を生姜とタマリンドで甘酸っぱく煮込んだ北タイのカレー"
+    "ja": "豚肉を生姜とタマリンドで甘酸っぱく煮込んだ北タイのカレー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AE%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%A5_%E0%B8%97%E0%B8%B5%E0%B9%88_%E0%B8%AB%E0%B8%A5%E0%B8%B9%E0%B9%89%E0%B8%A5%E0%B8%B3.jpg/960px-%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AE%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%A5_%E0%B8%97%E0%B8%B5%E0%B9%88_%E0%B8%AB%E0%B8%A5%E0%B8%B9%E0%B9%89%E0%B8%A5%E0%B8%B3.jpg",
+      "author": "Chainwit.",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:แกงฮังเล_ที่_หลู้ลำ.jpg"
+    }
   },
   "sydney:Meat Pie": {
     "ko": "다진 고기와 그레이비를 바삭한 파이에 넣은 호주 국민 간식",
     "en": "Flaky pie filled with minced meat and gravy, Australia's everyday snack",
-    "ja": "ひき肉とグレイビーをサクサクのパイに包んだオーストラリアの定番軽食"
+    "ja": "ひき肉とグレイビーをサクサクのパイに包んだオーストラリアの定番軽食",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Pie_and_peas.jpg/960px-Pie_and_peas.jpg",
+      "author": "Stomme",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pie_and_peas.jpg"
+    }
   },
   "sydney:Barramundi": {
     "ko": "호주 바다·강에서 나는 흰살생선을 구이나 피시앤칩스로 먹는 요리",
     "en": "Mild white fish from Australian waters, served grilled or as fish and chips",
-    "ja": "オーストラリア産の白身魚をグリルやフィッシュアンドチップスで味わう料理"
+    "ja": "オーストラリア産の白身魚をグリルやフィッシュアンドチップスで味わう料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Barramundi_grilled_in_the_Sydney_Fish_Market.jpg/960px-Barramundi_grilled_in_the_Sydney_Fish_Market.jpg",
+      "author": "Oraola",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Barramundi_grilled_in_the_Sydney_Fish_Market.jpg"
+    }
   },
   "sydney:Flat White": {
     "ko": "에스프레소에 얇은 우유 거품을 올린 호주식 커피",
     "en": "Espresso topped with thin, velvety steamed milk, an Australian café staple",
-    "ja": "エスプレッソに薄くなめらかなミルクをのせたオーストラリア式コーヒー"
+    "ja": "エスプレッソに薄くなめらかなミルクをのせたオーストラリア式コーヒー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flat_white.jpg/960px-Flat_white.jpg",
+      "author": "Ashley Van Haeften",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Flat_white.jpg"
+    }
   },
   "prague:Svíčková": {
     "ko": "소고기 구이에 채소 크림소스와 크네들리키(빵 경단)를 곁들인 체코 대표 요리",
     "en": "Roast beef in vegetable cream sauce with bread dumplings, a Czech classic",
-    "ja": "牛肉のローストに野菜のクリームソースとパン団子クネドリーキを添えたチェコの代表料理"
+    "ja": "牛肉のローストに野菜のクリームソースとパン団子クネドリーキを添えたチェコの代表料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Sv%C3%AD%C4%8Dkov%C3%A1.JPG/960px-Sv%C3%AD%C4%8Dkov%C3%A1.JPG",
+      "author": "Dezidor",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Svíčková.JPG"
+    }
   },
   "prague:Guláš": {
     "ko": "소고기를 파프리카·양파와 푹 끓여 크네들리키와 먹는 스튜",
@@ -1368,7 +1518,13 @@
   "guam:Chamorro BBQ": {
     "ko": "간장·식초 양념에 재운 고기를 숯불에 구워 레드라이스와 먹는 괌 대표 요리",
     "en": "Meat marinated in soy and vinegar, grilled over charcoal and served with red rice",
-    "ja": "醤油と酢に漬けた肉を炭火で焼き、レッドライスと食べるグアムの代表料理"
+    "ja": "醤油と酢に漬けた肉を炭火で焼き、レッドライスと食べるグアムの代表料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Chamorro_bbq_meat_%26_fried_rice_plate_%283914403609%29.jpg/960px-Chamorro_bbq_meat_%26_fried_rice_plate_%283914403609%29.jpg",
+      "author": "Janine",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Chamorro_bbq_meat_&_fried_rice_plate_(3914403609).jpg"
+    }
   },
   "guam:Red Rice": {
     "ko": "아치오테 씨앗으로 붉게 물들인 차모로식 밥",
@@ -1417,12 +1573,24 @@
   "honolulu:Plate Lunch": {
     "ko": "고기 요리에 밥 두 스쿱과 마카로니 샐러드를 곁들인 하와이식 도시락",
     "en": "A main dish with two scoops of rice and macaroni salad, Hawaii's local lunch",
-    "ja": "メインのおかずにごはん2スクープとマカロニサラダを添えたハワイのローカルランチ"
+    "ja": "メインのおかずにごはん2スクープとマカロニサラダを添えたハワイのローカルランチ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Wardsplatelunch.jpg/960px-Wardsplatelunch.jpg",
+      "author": "christian razukas",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Wardsplatelunch.jpg"
+    }
   },
   "honolulu:Poke": {
     "ko": "깍둑 썬 생참치를 간장·참기름·양파로 버무린 하와이식 회 무침",
     "en": "Cubed raw tuna tossed with soy sauce, sesame oil and onion",
-    "ja": "角切りの生マグロを醤油・ごま油・玉ねぎで和えたハワイの料理"
+    "ja": "角切りの生マグロを醤油・ごま油・玉ねぎで和えたハワイの料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Ahi_poke_%28poh-kay%29.jpg/960px-Ahi_poke_%28poh-kay%29.jpg",
+      "author": "Janine",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ahi_poke_(poh-kay).jpg"
+    }
   },
   "honolulu:Malasada": {
     "ko": "설탕을 듬뿍 묻힌 포르투갈식 튀김 도넛",
@@ -1443,7 +1611,13 @@
   "vienna:Tafelspitz": {
     "ko": "소고기를 채소와 함께 푹 삶아 사과·홀스래디시 소스와 먹는 요리",
     "en": "Beef boiled with root vegetables, served with apple-horseradish sauce",
-    "ja": "牛肉を野菜と煮込み、リンゴとホースラディッシュのソースで食べる料理"
+    "ja": "牛肉を野菜と煮込み、リンゴとホースラディッシュのソースで食べる料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tafelspitz_of_veal%2C_Vienna.jpg/960px-Tafelspitz_of_veal%2C_Vienna.jpg",
+      "author": "Gerda Arendt",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tafelspitz_of_veal,_Vienna.jpg"
+    }
   },
   "vienna:Wiener Saftgulasch": {
     "ko": "파프리카와 양파로 진하게 끓인 빈식 소고기 굴라시",
@@ -1453,7 +1627,13 @@
   "vienna:Apfelstrudel": {
     "ko": "얇은 반죽에 사과·건포도·계피를 말아 구운 디저트",
     "en": "Thin pastry rolled around apple, raisins and cinnamon",
-    "ja": "薄い生地にリンゴ・レーズン・シナモンを巻いて焼いたデザート"
+    "ja": "薄い生地にリンゴ・レーズン・シナモンを巻いて焼いたデザート",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Apfelstrudel.jpg/960px-Apfelstrudel.jpg",
+      "author": "Alex Morley",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Apfelstrudel.jpg"
+    }
   },
   "budapest:Gulyás": {
     "ko": "소고기·감자·파프리카를 넣고 끓인 헝가리 대표 수프",
@@ -1502,32 +1682,68 @@
   "munich:Weißwurst": {
     "ko": "송아지고기로 만든 흰 소시지를 단 겨자·프레첼과 먹는 뮌헨 아침 요리",
     "en": "White veal sausage eaten with sweet mustard and a pretzel",
-    "ja": "子牛肉の白ソーセージを甘いマスタードとプレッツェルで食べるミュンヘンの朝食"
+    "ja": "子牛肉の白ソーセージを甘いマスタードとプレッツェルで食べるミュンヘンの朝食",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Wei%C3%9Fwurst%2C_Munich.jpg/960px-Wei%C3%9Fwurst%2C_Munich.jpg",
+      "author": "Gerda Arendt",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Weißwurst,_Munich.jpg"
+    }
   },
   "munich:Schweinebraten": {
     "ko": "돼지고기를 오븐에 구워 그레이비·크뇌델과 먹는 바이에른 요리",
     "en": "Bavarian roast pork with gravy and dumplings",
-    "ja": "豚肉をオーブンで焼き、グレイビーとクネーデルで食べるバイエルン料理"
+    "ja": "豚肉をオーブンで焼き、グレイビーとクネーデルで食べるバイエルン料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/GER_%E2%80%94_BY_%E2%80%94_Oberbayern_%E2%80%94_M%C3%BCnchen_%28Schweinsbraten_mit_So%C3%9Fe%2C_Knedln_und_Rotkraut%3B_Alu-Beh%C3%A4lter%29_2021.jpg/960px-GER_%E2%80%94_BY_%E2%80%94_Oberbayern_%E2%80%94_M%C3%BCnchen_%28Schweinsbraten_mit_So%C3%9Fe%2C_Knedln_und_Rotkraut%3B_Alu-Beh%C3%A4lter%29_2021.jpg",
+      "author": "Mateus2019",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:GER_—_BY_—_Oberbayern_—_München_(Schweinsbraten_mit_Soße,_Knedln_und_Rotkraut;_Alu-Behälter)_2021.jpg"
+    }
   },
   "munich:Leberkässemmel": {
     "ko": "두툼한 미트로프를 빵에 끼운 간단한 한 끼",
     "en": "Thick slice of Bavarian meatloaf in a bread roll",
-    "ja": "厚切りのミートローフをパンに挟んだ手軽な一品"
+    "ja": "厚切りのミートローフをパンに挟んだ手軽な一品",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Leberk%C3%A4sesemmel.jpg/960px-Leberk%C3%A4sesemmel.jpg",
+      "author": "Kobako",
+      "license": "CC BY-SA 2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:Leberkäsesemmel.jpg"
+    }
   },
   "munich:Käsespätzle": {
     "ko": "짧은 생면에 치즈와 튀긴 양파를 올린 요리",
     "en": "Soft egg noodles with melted cheese and fried onions",
-    "ja": "短い卵麺にチーズと揚げ玉ねぎをのせた料理"
+    "ja": "短い卵麺にチーズと揚げ玉ねぎをのせた料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/K%C3%A4sesp%C3%A4tzle_mit_Rostzwiebeln.jpg/960px-K%C3%A4sesp%C3%A4tzle_mit_Rostzwiebeln.jpg",
+      "author": "FakirNL",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Käsespätzle_mit_Rostzwiebeln.jpg"
+    }
   },
   "interlaken:Cheese fondue": {
     "ko": "녹인 치즈에 빵을 찍어 먹는 스위스 대표 요리",
     "en": "Bread dipped in melted cheese, Switzerland's signature dish",
-    "ja": "溶かしたチーズにパンをつけて食べるスイスの代表料理"
+    "ja": "溶かしたチーズにパンをつけて食べるスイスの代表料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Swiss_cheese_fondue.JPG/960px-Swiss_cheese_fondue.JPG",
+      "author": "Brücke-Osteuropa",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Swiss_cheese_fondue.JPG"
+    }
   },
   "interlaken:Raclette": {
     "ko": "녹인 치즈를 감자·피클에 긁어 얹어 먹는 요리",
     "en": "Melted cheese scraped over potatoes and pickles",
-    "ja": "溶かしたチーズをじゃがいもやピクルスにかけて食べる料理"
+    "ja": "溶かしたチーズをじゃがいもやピクルスにかけて食べる料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Raclette_20040817_140816.jpg/960px-Raclette_20040817_140816.jpg",
+      "author": "Ka23 13",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Raclette_20040817_140816.jpg"
+    }
   },
   "interlaken:Rösti": {
     "ko": "감자를 채 썰어 노릇하게 부친 스위스식 감자전",
@@ -1553,17 +1769,35 @@
   "lisbon:Bifana": {
     "ko": "마늘·와인에 재운 돼지고기를 빵에 끼운 샌드위치",
     "en": "Garlic and wine marinated pork in a bread roll",
-    "ja": "ニンニクとワインに漬けた豚肉をパンに挟んだサンドイッチ"
+    "ja": "ニンニクとワインに漬けた豚肉をパンに挟んだサンドイッチ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Delicious_Bifana_Sandwich%2C_As_Bifana_do_Afonso_%2849652989992%29.jpg/960px-Delicious_Bifana_Sandwich%2C_As_Bifana_do_Afonso_%2849652989992%29.jpg",
+      "author": "Sonse",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Delicious_Bifana_Sandwich,_As_Bifana_do_Afonso_(49652989992).jpg"
+    }
   },
   "lisbon:Caldo verde": {
     "ko": "감자 수프에 케일과 초리소를 넣은 포르투갈 국민 수프",
     "en": "Potato soup with kale and chouriço",
-    "ja": "じゃがいものスープにケールとチョリソーを入れたポルトガルの定番スープ"
+    "ja": "じゃがいものスープにケールとチョリソーを入れたポルトガルの定番スープ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Caldo_Verde_%28kale_soup%29_at_O_Faia_%2846934771085%29.jpg/960px-Caldo_Verde_%28kale_soup%29_at_O_Faia_%2846934771085%29.jpg",
+      "author": "MollySVH",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Caldo_Verde_(kale_soup)_at_O_Faia_(46934771085).jpg"
+    }
   },
   "lisbon:Sardinhas assadas": {
     "ko": "숯불에 통째로 구운 정어리",
     "en": "Whole sardines grilled over charcoal",
-    "ja": "炭火で丸ごと焼いたイワシ"
+    "ja": "炭火で丸ごと焼いたイワシ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Sardinhas_assadas.jpg/960px-Sardinhas_assadas.jpg",
+      "author": "Duarte Briz",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sardinhas_assadas.jpg"
+    }
   },
   "saipan:Poke": {
     "ko": "깍둑 썬 생참치를 간장·양파로 버무린 회 무침(사이판에서는 티티야스 납작빵과 함께)",
@@ -1573,7 +1807,13 @@
   "saipan:Kelaguen": {
     "ko": "닭고기·새우를 레몬즙·코코넛·고추로 버무린 차모로식 무침",
     "en": "Chicken or shrimp tossed with lemon juice, coconut and chili, Chamorro style",
-    "ja": "鶏肉やエビをレモン汁・ココナッツ・唐辛子で和えたチャモロ料理"
+    "ja": "鶏肉やエビをレモン汁・ココナッツ・唐辛子で和えたチャモロ料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Pickled_eggs%2C_daigo%2C_%26_chicken_kelaguen_%283915188142%29.jpg/960px-Pickled_eggs%2C_daigo%2C_%26_chicken_kelaguen_%283915188142%29.jpg",
+      "author": "Janine",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pickled_eggs,_daigo,_&_chicken_kelaguen_(3915188142).jpg"
+    }
   },
   "saipan:Red Rice": {
     "ko": "아치오테 씨앗으로 붉게 물들인 차모로식 밥",
@@ -1613,7 +1853,13 @@
   "vancouver:Poutine": {
     "ko": "감자튀김에 치즈 커드와 그레이비를 얹은 캐나다 국민 음식",
     "en": "Fries topped with cheese curds and gravy, Canada's comfort food",
-    "ja": "フライドポテトにチーズカードとグレイビーをかけたカナダの定番"
+    "ja": "フライドポテトにチーズカードとグレイビーをかけたカナダの定番",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flickr_dongkwan_124242873--Poutine.jpg/960px-Flickr_dongkwan_124242873--Poutine.jpg",
+      "author": "Ernesto Andrade",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Flickr_dongkwan_124242873--Poutine.jpg"
+    }
   },
   "vancouver:Japadog": {
     "ko": "데리야키·김·무 등 일본식 토핑을 올린 밴쿠버 명물 핫도그",
@@ -1628,32 +1874,68 @@
   "auckland:Fish and Chips": {
     "ko": "흰살생선 튀김과 감자튀김으로 된 뉴질랜드 바닷가의 대표 한 끼",
     "en": "Battered white fish with chips, a Kiwi seaside classic",
-    "ja": "白身魚のフライとフライドポテト、ニュージーランドの定番"
+    "ja": "白身魚のフライとフライドポテト、ニュージーランドの定番",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Fish_and_chips_u_Aucklandu.jpg/960px-Fish_and_chips_u_Aucklandu.jpg",
+      "author": "August Dominus",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Fish_and_chips_u_Aucklandu.jpg"
+    }
   },
   "auckland:Meat Pie": {
     "ko": "다진 고기와 그레이비를 넣은 파이",
     "en": "Pie filled with minced meat and gravy",
-    "ja": "ひき肉とグレイビーを詰めたパイ"
+    "ja": "ひき肉とグレイビーを詰めたパイ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Aussie_meat_pie_%28cropped%29.jpg/960px-Aussie_meat_pie_%28cropped%29.jpg",
+      "author": "Finbar.concaig",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Aussie_meat_pie_(cropped).jpg"
+    }
   },
   "auckland:Pavlova": {
     "ko": "머랭 위에 생크림과 과일을 올린 디저트",
     "en": "Meringue dessert topped with cream and fruit",
-    "ja": "メレンゲに生クリームとフルーツをのせたデザート"
+    "ja": "メレンゲに生クリームとフルーツをのせたデザート",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Pavlova.png/960px-Pavlova.png",
+      "author": "Glen Stollery",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pavlova.png"
+    }
   },
   "auckland:Hāngī": {
     "ko": "땅속 화덕에서 찐 마오리 전통 고기·채소 요리",
     "en": "Meat and vegetables slow-cooked in an earth oven, a Māori tradition",
-    "ja": "地中のかまどで蒸し焼きにするマオリの伝統料理"
+    "ja": "地中のかまどで蒸し焼きにするマオリの伝統料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/H%C4%81ngi_dinner.jpg/960px-H%C4%81ngi_dinner.jpg",
+      "author": "einalem",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Hāngi_dinner.jpg"
+    }
   },
   "kobe:Kobe Beef": {
     "ko": "고베 관광 안내가 지역 음식문화 대표로 소개하는 브랜드 소고기",
     "en": "Premium wagyu brand beef, Kobe's best-known food",
-    "ja": "神戸の食文化を代表するブランド牛"
+    "ja": "神戸の食文化を代表するブランド牛",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Kobe_steak_preparation%2C_in_kobe%2C_03.jpg/960px-Kobe_steak_preparation%2C_in_kobe%2C_03.jpg",
+      "author": "Sailko",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kobe_steak_preparation,_in_kobe,_03.jpg"
+    }
   },
   "kobe:Sobameshi": {
     "ko": "잘게 썬 야키소바와 밥을 섞어 볶는 나가타구 유래 음식",
     "en": "Chopped yakisoba noodles stir-fried with rice, born in Nagata Ward",
-    "ja": "刻んだ焼きそばとご飯を一緒に炒めた長田区発祥の料理"
+    "ja": "刻んだ焼きそばとご飯を一緒に炒めた長田区発祥の料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sobameshi_001.jpg/960px-Sobameshi_001.jpg",
+      "author": "Ocdp",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sobameshi_001.jpg"
+    }
   },
   "kobe:Sujiyaki": {
     "ko": "달콤하게 조린 소 힘줄·곤약을 넣은 철판 요리",
@@ -1668,27 +1950,57 @@
   "hiroshima:Hiroshima Okonomiyaki": {
     "ko": "재료를 섞지 않고 층층이 쌓아 철판에 구운 면 위에 올린 오코노미야키",
     "en": "Layered okonomiyaki cooked on the griddle over noodles",
-    "ja": "具材を混ぜずに重ね、焼いた麺にのせる広島風お好み焼き"
+    "ja": "具材を混ぜずに重ね、焼いた麺にのせる広島風お好み焼き",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Okonomiyaki_of_Hiroshima.jpg/960px-Okonomiyaki_of_Hiroshima.jpg",
+      "author": "ノボホショコロトソ",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Okonomiyaki_of_Hiroshima.jpg"
+    }
   },
   "hiroshima:Hiroshima Oysters": {
     "ko": "생으로 먹거나 굽거나 튀겨 먹는 히로시마 특산 굴",
     "en": "Local oysters eaten raw, grilled or fried",
-    "ja": "生や焼き、フライで味わう広島名産のカキ"
+    "ja": "生や焼き、フライで味わう広島名産のカキ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Grilled_oysters_Food_in_Miyajima_-_DSC02189.JPG/960px-Grilled_oysters_Food_in_Miyajima_-_DSC02189.JPG",
+      "author": "Daderot",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Grilled_oysters_Food_in_Miyajima_-_DSC02189.JPG"
+    }
   },
   "hiroshima:Tsukemen": {
     "ko": "면과 고명을 뜨거운 국물에 찍어 먹는 라멘",
     "en": "Noodles dipped into a hot, spicy broth",
-    "ja": "麺を辛いつけ汁につけて食べるラーメン"
+    "ja": "麺を辛いつけ汁につけて食べるラーメン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Hiroshima_tsukemen_-_flickr_4868018529_14936dc677_o.jpg/960px-Hiroshima_tsukemen_-_flickr_4868018529_14936dc677_o.jpg",
+      "author": "hirotomo t",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Hiroshima_tsukemen_-_flickr_4868018529_14936dc677_o.jpg"
+    }
   },
   "hiroshima:Momiji Manju": {
     "ko": "단팥을 카스텔라 반죽으로 감싸 단풍잎 모양으로 구운 과자",
     "en": "Maple-leaf shaped sponge cake filled with sweet bean paste",
-    "ja": "あんを生地で包み紅葉の形に焼いた和菓子"
+    "ja": "あんを生地で包み紅葉の形に焼いた和菓子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Momiji_Manju_Hiroshima.JPG/960px-Momiji_Manju_Hiroshima.JPG",
+      "author": "User: (WT-shared) NY066 at wts wikivoyage",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Momiji_Manju_Hiroshima.JPG"
+    }
   },
   "kanazawa:Jibu-ni": {
     "ko": "오리와 제철 채소를 넣고 전분으로 걸쭉하게 끓인 가나자와 전통 요리",
     "en": "Duck and seasonal vegetables simmered in a thickened broth",
-    "ja": "鴨と季節の野菜をとろみのある汁で煮た金沢の郷土料理"
+    "ja": "鴨と季節の野菜をとろみのある汁で煮た金沢の郷土料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Jibuni_01.jpg/960px-Jibuni_01.jpg",
+      "author": "Asacyan",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Jibuni_01.jpg"
+    }
   },
   "kanazawa:Hasu-mushi": {
     "ko": "간 연근을 쪄서 걸쭉한 국물을 끼얹은 가나자와 특산 요리",
@@ -1698,7 +2010,13 @@
   "kanazawa:Hanton Rice": {
     "ko": "오므라이스 위에 생선튀김과 소스를 올린 가나자와 서민 음식",
     "en": "Omelette rice topped with fried fish and sauce, a local comfort dish",
-    "ja": "オムライスにフライとソースをのせた金沢の洋食"
+    "ja": "オムライスにフライとソースをのせた金沢の洋食",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Hanton-rice.JPG/960px-Hanton-rice.JPG",
+      "author": "Katamakura",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Hanton-rice.JPG"
+    }
   },
   "kanazawa:Kanazawa Oden": {
     "ko": "다시 국물에 채소·해산물을 넣어 사계절 먹는 가나자와식 오뎅",
@@ -1708,22 +2026,46 @@
   "hakodate:Hakodate Shio Ramen": {
     "ko": "맑은 소금 맛 국물의 하코다테 라멘",
     "en": "Ramen in a clear salt-based broth, Hakodate style",
-    "ja": "透き通った塩味スープの函館ラーメン"
+    "ja": "透き通った塩味スープの函館ラーメン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Hakodate-Shio-Ramen.png/960px-Hakodate-Shio-Ramen.png",
+      "author": "Hector Martin",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Hakodate-Shio-Ramen.png"
+    }
   },
   "hakodate:Seafood Rice Bowl": {
     "ko": "갓 잡은 해산물을 밥 위에 올린 덮밥",
     "en": "Fresh seafood piled on rice",
-    "ja": "新鮮な魚介をご飯にのせた丼"
+    "ja": "新鮮な魚介をご飯にのせた丼",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rice_bowl_with_toppings_of_three-colors_sea_food_%289323384%29.jpg/960px-Rice_bowl_with_toppings_of_three-colors_sea_food_%289323384%29.jpg",
+      "author": "pelican from Tokyo, Japan",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Rice_bowl_with_toppings_of_three-colors_sea_food_(9323384).jpg"
+    }
   },
   "hakodate:Ikameshi": {
     "ko": "오징어 안에 찹쌀을 채워 달게 조린 음식",
     "en": "Squid stuffed with rice and simmered in sweet soy sauce",
-    "ja": "イカにもち米を詰めて甘辛く煮た料理"
+    "ja": "イカにもち米を詰めて甘辛く煮た料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ikameshi_%28ekiben%29_01.jpg/960px-Ikameshi_%28ekiben%29_01.jpg",
+      "author": "まさＮＡＬＵ",
+      "license": "CC BY-SA 2.1 JP",
+      "page": "https://commons.wikimedia.org/wiki/File:Ikameshi_(ekiben)_01.jpg"
+    }
   },
   "hakodate:Hakodate Squid": {
     "ko": "하코다테 대표 수산물인 오징어(여름 제철)",
     "en": "Hakodate's signature squid, best in summer",
-    "ja": "函館を代表する海産物のイカ（夏が旬）"
+    "ja": "函館を代表する海産物のイカ（夏が旬）",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Fishing_for_squid%2C_Hakodate_Morning_Market%2C_Hokkaido%2C_Japan.jpg/960px-Fishing_for_squid%2C_Hakodate_Morning_Market%2C_Hokkaido%2C_Japan.jpg",
+      "author": "OKJaguar",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Fishing_for_squid,_Hakodate_Morning_Market,_Hokkaido,_Japan.jpg"
+    }
   },
   "phuket:Moo Hong": {
     "ko": "돼지고기를 간장·후추로 달게 조린 푸껫 페라나칸 요리",
@@ -1768,12 +2110,24 @@
   "da-lat:Banh Mi Xiu Mai": {
     "ko": "미트볼 수프에 바게트를 찍어 먹는 달랏식 아침",
     "en": "Baguette dipped in meatball soup, a Da Lat breakfast",
-    "ja": "ミートボールスープにバゲットをつけて食べるダラットの朝食"
+    "ja": "ミートボールスープにバゲットをつけて食べるダラットの朝食",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/B%C3%A1nh_m%C3%AC_x%C3%ADu_m%E1%BA%A1i-meatball-sandwich.jpg/960px-B%C3%A1nh_m%C3%AC_x%C3%ADu_m%E1%BA%A1i-meatball-sandwich.jpg",
+      "author": "Nummymuffin",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Bánh_mì_xíu_mại-meatball-sandwich.jpg"
+    }
   },
   "da-lat:Banh Can": {
     "ko": "숯불에 구운 쌀 반죽에 메추리알을 올린 간식",
     "en": "Charcoal-grilled rice cakes topped with quail egg",
-    "ja": "炭火で焼いた米粉の生地にうずらの卵をのせたおやつ"
+    "ja": "炭火で焼いた米粉の生地にうずらの卵をのせたおやつ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/B%C3%A1nh_c%C4%83n_1.jpg/960px-B%C3%A1nh_c%C4%83n_1.jpg",
+      "author": "Memberofc1",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bánh_căn_1.jpg"
+    }
   },
   "da-lat:Mi Quang": {
     "ko": "강황빛 쌀국수에 진한 돼지고기 국물을 조금 붓는 국수",
@@ -1783,12 +2137,24 @@
   "da-lat:Pho Bo": {
     "ko": "상추와 생허브를 곁들인 소고기 쌀국수",
     "en": "Beef noodle soup with lettuce and fresh herbs",
-    "ja": "レタスとハーブを添えた牛肉のフォー"
+    "ja": "レタスとハーブを添えた牛肉のフォー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Pho_bo.jpg/960px-Pho_bo.jpg",
+      "author": "Blue Lotus",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pho_bo.jpg"
+    }
   },
   "kaohsiung:Yansuji": {
     "ko": "한입 크기로 튀겨 소금·후추를 뿌린 대만식 닭튀김",
     "en": "Bite-sized Taiwanese fried chicken with salt and pepper",
-    "ja": "一口大に揚げて塩胡椒をふった台湾式唐揚げ"
+    "ja": "一口大に揚げて塩胡椒をふった台湾式唐揚げ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Yansuji%2C_Taiwanese_karaage.jpg/960px-Yansuji%2C_Taiwanese_karaage.jpg",
+      "author": "Chocola Lala",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Yansuji,_Taiwanese_karaage.jpg"
+    }
   },
   "kaohsiung:Seafood Congee": {
     "ko": "해산물을 넣고 끓인 야식 대표 죽",
@@ -1808,27 +2174,57 @@
   "beijing:Peking Duck": {
     "ko": "바삭하게 구운 오리를 얇은 전병에 싸 먹는 요리",
     "en": "Roast duck with crisp skin, wrapped in thin pancakes",
-    "ja": "パリッと焼いたアヒルを薄餅で包んで食べる料理"
+    "ja": "パリッと焼いたアヒルを薄餅で包んで食べる料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Peking_duck.jpg/960px-Peking_duck.jpg",
+      "author": "Mokkie",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Peking_duck.jpg"
+    }
   },
   "beijing:Zhajiangmian": {
     "ko": "볶은 콩장 소스를 비벼 먹는 베이징식 면",
     "en": "Noodles tossed with fried soybean paste sauce",
-    "ja": "炒めた味噌だれを和えて食べる北京の麺"
+    "ja": "炒めた味噌だれを和えて食べる北京の麺",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Zhajiangmian_20180501.jpg/960px-Zhajiangmian_20180501.jpg",
+      "author": "Hal_0005",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Zhajiangmian_20180501.jpg"
+    }
   },
   "beijing:Luzhu": {
     "ko": "고기 육수에 밀전병·내장을 넣어 끓인 베이징 서민 음식",
     "en": "Wheat cakes and offal simmered in meat broth",
-    "ja": "肉のスープで小麦の餅やモツを煮込んだ庶民料理"
+    "ja": "肉のスープで小麦の餅やモツを煮込んだ庶民料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Luzhu_Huoshao_%2820191024192103%29.jpg/960px-Luzhu_Huoshao_%2820191024192103%29.jpg",
+      "author": "N509FZ",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Luzhu_Huoshao_(20191024192103).jpg"
+    }
   },
   "beijing:Douzhi": {
     "ko": "녹두를 발효시킨 시큼한 베이징 전통 음료",
     "en": "Sour fermented mung bean drink",
-    "ja": "緑豆を発酵させた酸味のある伝統飲料"
+    "ja": "緑豆を発酵させた酸味のある伝統飲料",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Douzhi_in_Beijing_%2854587295652%29.jpg/960px-Douzhi_in_Beijing_%2854587295652%29.jpg",
+      "author": "荧_Lumine",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Douzhi_in_Beijing_(54587295652).jpg"
+    }
   },
   "sokcho:Ojingeo Sundae": {
     "ko": "오징어 몸통에 당면·채소·두부를 채워 쪄 낸 속초 향토 음식",
     "en": "Squid stuffed with glass noodles, vegetables and tofu, then steamed",
-    "ja": "イカの胴に春雨・野菜・豆腐を詰めて蒸した束草の郷土料理"
+    "ja": "イカの胴に春雨・野菜・豆腐を詰めて蒸した束草の郷土料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ojingeo_Sundae.jpg/960px-Ojingeo_Sundae.jpg",
+      "author": "BBA97",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ojingeo_Sundae.jpg"
+    }
   },
   "sokcho:Abai Sundae": {
     "ko": "실향민 음식문화가 이어진 아바이마을의 순대",
@@ -1863,12 +2259,24 @@
   "daegu:Ttaro-gukbap": {
     "ko": "밥과 매콤한 소고기 국을 따로 내는 대구식 국밥",
     "en": "Spicy beef soup served with rice on the side",
-    "ja": "ご飯と辛い牛肉スープを別々に出す大邱式クッパ"
+    "ja": "ご飯と辛い牛肉スープを別々に出す大邱式クッパ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Ttaro_gukbap_2.JPG/960px-Ttaro_gukbap_2.JPG",
+      "author": "hyolee2",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ttaro_gukbap_2.JPG"
+    }
   },
   "daegu:Grilled Makchang": {
     "ko": "소 막창을 숯불에 구워 된장 소스에 찍어 먹는 대구 명물",
     "en": "Charcoal-grilled beef intestines with soybean dipping sauce",
-    "ja": "牛の第4胃を炭火で焼き味噌だれで食べる大邱名物"
+    "ja": "牛の第4胃を炭火で焼き味噌だれで食べる大邱名物",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Makchang.jpg/960px-Makchang.jpg",
+      "author": "채지형",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Makchang.jpg"
+    }
   },
   "daegu:Dongin-dong Jjimgalbi": {
     "ko": "마늘·고춧가루로 매콤하게 찐 대구식 소갈비찜",
@@ -1878,57 +2286,123 @@
   "daegu:Napjak-mandu": {
     "ko": "얇게 부친 납작한 만두에 양념을 얹어 먹는 대구 간식",
     "en": "Thin flat dumplings pan-fried and topped with seasoning",
-    "ja": "薄く平たく焼いた餃子にたれをかけて食べる大邱のおやつ"
+    "ja": "薄く平たく焼いた餃子にたれをかけて食べる大邱のおやつ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Napjak_mandu_at_Miseongdang_Napjak_Mandu.jpg/960px-Napjak_mandu_at_Miseongdang_Napjak_Mandu.jpg",
+      "author": "Arumdaum",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Napjak_mandu_at_Miseongdang_Napjak_Mandu.jpg"
+    }
   },
   "amsterdam:Bitterballen": {
     "ko": "고기 라구를 동그랗게 빚어 튀긴 네덜란드 술안주",
     "en": "Deep-fried meat ragout balls, a classic Dutch bar snack",
-    "ja": "肉のラグーを丸めて揚げたオランダのおつまみ"
+    "ja": "肉のラグーを丸めて揚げたオランダのおつまみ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Bitterballen.JPG/960px-Bitterballen.JPG",
+      "author": "Globered13",
+      "license": "Public domain (PD-self)",
+      "page": "https://commons.wikimedia.org/wiki/File:Bitterballen.JPG"
+    }
   },
   "amsterdam:Stroopwafel": {
     "ko": "얇은 와플 두 장 사이에 캐러멜 시럽을 넣은 과자",
     "en": "Two thin waffles sandwiching caramel syrup",
-    "ja": "薄いワッフル2枚でキャラメルシロップを挟んだお菓子"
+    "ja": "薄いワッフル2枚でキャラメルシロップを挟んだお菓子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Stroopwafel.jpg/960px-Stroopwafel.jpg",
+      "author": "Jacques Renier",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Stroopwafel.jpg"
+    }
   },
   "amsterdam:Haring": {
     "ko": "소금에 절인 생청어를 양파와 함께 먹는 네덜란드 길거리 음식",
     "en": "Lightly salted raw herring eaten with onions",
-    "ja": "塩漬けの生ニシンを玉ねぎと食べる屋台料理"
+    "ja": "塩漬けの生ニシンを玉ねぎと食べる屋台料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Herring_in_Amsterdam.JPG/960px-Herring_in_Amsterdam.JPG",
+      "author": "User: (WT-shared) Shoestring at wts wikivoyage",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Herring_in_Amsterdam.JPG"
+    }
   },
   "amsterdam:Kibbeling": {
     "ko": "흰살생선을 튀겨 소스에 찍어 먹는 간식",
     "en": "Battered fried fish chunks with dipping sauce",
-    "ja": "白身魚を揚げてソースにつけて食べる軽食"
+    "ja": "白身魚を揚げてソースにつけて食べる軽食",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Kibbeling_is_a_famous_Dutch_street_food.jpg/960px-Kibbeling_is_a_famous_Dutch_street_food.jpg",
+      "author": "Flanamsterdam",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kibbeling_is_a_famous_Dutch_street_food.jpg"
+    }
   },
   "athens:Choriatiki Salad": {
     "ko": "토마토·오이·양파·페타 치즈·올리브를 올리브오일로 버무린 그리스 샐러드",
     "en": "Tomato, cucumber, onion, feta and olives dressed with olive oil",
-    "ja": "トマト・きゅうり・玉ねぎ・フェタ・オリーブをオリーブ油で和えたサラダ"
+    "ja": "トマト・きゅうり・玉ねぎ・フェタ・オリーブをオリーブ油で和えたサラダ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Horiatiki_salad.jpg/960px-Horiatiki_salad.jpg",
+      "author": "Scudsvlad",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Horiatiki_salad.jpg"
+    }
   },
   "athens:Souvlaki": {
     "ko": "꼬치구이 고기를 피타에 싸 먹는 그리스 대표 길거리 음식",
     "en": "Grilled meat skewers, often wrapped in pita",
-    "ja": "串焼き肉をピタで包んで食べるギリシャの屋台料理"
+    "ja": "串焼き肉をピタで包んで食べるギリシャの屋台料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Souvlaki_in_Athens.JPG/960px-Souvlaki_in_Athens.JPG",
+      "author": "Miyagawa",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Souvlaki_in_Athens.JPG"
+    }
   },
   "athens:Moussaka": {
     "ko": "가지·감자·다진 고기·베샤멜 소스를 층층이 쌓아 구운 요리",
     "en": "Layered eggplant, potato, minced meat and béchamel, baked",
-    "ja": "ナス・じゃがいも・ひき肉・ベシャメルを重ねて焼いた料理"
+    "ja": "ナス・じゃがいも・ひき肉・ベシャメルを重ねて焼いた料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Moussaka.jpg/960px-Moussaka.jpg",
+      "author": "Cifo Buscemi",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Moussaka.jpg"
+    }
   },
   "athens:Tzatziki": {
     "ko": "요거트·오이·마늘로 만든 차가운 딥",
     "en": "Cold yogurt, cucumber and garlic dip",
-    "ja": "ヨーグルト・きゅうり・にんにくの冷たいディップ"
+    "ja": "ヨーグルト・きゅうり・にんにくの冷たいディップ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Tzatziki.jpg/960px-Tzatziki.jpg",
+      "author": "Marieke Kuijjer",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tzatziki.jpg"
+    }
   },
   "macau:Portuguese Egg Tart": {
     "ko": "겉이 바삭하고 커스터드가 살짝 그을린 마카오식 에그타르트",
     "en": "Flaky tart with caramelized custard, Macau style",
-    "ja": "サクサクの生地に焦げ目のついたカスタードをのせたマカオ式エッグタルト"
+    "ja": "サクサクの生地に焦げ目のついたカスタードをのせたマカオ式エッグタルト",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Macau_Eggtart.jpg/960px-Macau_Eggtart.jpg",
+      "author": "Tom Liu",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Macau_Eggtart.jpg"
+    }
   },
   "macau:Pork Chop Bun": {
     "ko": "바삭한 빵에 튀긴 돼지갈비를 끼운 마카오 대표 간식",
     "en": "Crispy bun filled with a fried pork chop",
-    "ja": "カリッとしたパンに揚げた豚チョップを挟んだマカオ名物"
+    "ja": "カリッとしたパンに揚げた豚チョップを挟んだマカオ名物",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/PorkChopBun.jpg/960px-PorkChopBun.jpg",
+      "author": "Glio~commonswiki (assumed)",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:PorkChopBun.jpg"
+    }
   },
   "macau:African Chicken": {
     "ko": "향신료와 코코넛 소스로 구운 매캐니즈 닭 요리",
@@ -1943,7 +2417,13 @@
   "dubrovnik:Peka": {
     "ko": "고기와 채소를 덮개 아래에서 천천히 구운 크로아티아 요리",
     "en": "Meat and vegetables slow-cooked under an iron bell",
-    "ja": "肉と野菜を鉄のふたの下でじっくり焼いたクロアチア料理"
+    "ja": "肉と野菜を鉄のふたの下でじっくり焼いたクロアチア料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Doma%C4%87a_peka.jpg/960px-Doma%C4%87a_peka.jpg",
+      "author": "MatSkvorc",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Domaća_peka.jpg"
+    }
   },
   "dubrovnik:Green Menestra": {
     "ko": "잎채소와 여러 고기를 넣어 끓인 두브로브니크 전통 요리",
@@ -1958,22 +2438,46 @@
   "dubrovnik:Rozata": {
     "ko": "크로아티아식 캐러멜 커스터드 디저트",
     "en": "Croatian caramel custard pudding",
-    "ja": "クロアチア風のカラメルプリン"
+    "ja": "クロアチア風のカラメルプリン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ro%C5%BEata-zg.jpg/960px-Ro%C5%BEata-zg.jpg",
+      "author": "Bonč",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Rožata-zg.jpg"
+    }
   },
   "incheon:Jajangmyeon": {
     "ko": "인천 차이나타운에서 시작된 춘장 소스 비빔면",
     "en": "Black bean sauce noodles that began in Incheon Chinatown",
-    "ja": "仁川チャイナタウン発祥のジャージャー麺"
+    "ja": "仁川チャイナタウン発祥のジャージャー麺",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Jajangmyeon.jpg/960px-Jajangmyeon.jpg",
+      "author": "국립국어원",
+      "license": "CC BY-SA 2.0 KR",
+      "page": "https://commons.wikimedia.org/wiki/File:Jajangmyeon.jpg"
+    }
   },
   "incheon:Jjolmyeon": {
     "ko": "인천에서 처음 만들어진 쫄깃한 면을 매콤새콤하게 비빈 국수",
     "en": "Chewy noodles in a sweet-spicy sauce, first made in Incheon",
-    "ja": "仁川生まれの弾力ある麺を甘辛く和えた麺"
+    "ja": "仁川生まれの弾力ある麺を甘辛く和えた麺",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Jjolmyeon.jpg/960px-Jjolmyeon.jpg",
+      "author": "국립국어원",
+      "license": "CC BY-SA 2.0 KR",
+      "page": "https://commons.wikimedia.org/wiki/File:Jjolmyeon.jpg"
+    }
   },
   "incheon:Dakgangjeong": {
     "ko": "바삭하게 튀긴 닭에 달콤매콤한 양념을 입힌 신포시장 명물",
     "en": "Crispy fried chicken glazed in sweet-spicy sauce, a Sinpo Market favorite",
-    "ja": "甘辛いタレを絡めたカリカリの揚げ鶏、新浦市場の名物"
+    "ja": "甘辛いタレを絡めたカリカリの揚げ鶏、新浦市場の名物",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Dak-gangjeong_4.jpg/960px-Dak-gangjeong_4.jpg",
+      "author": "Hyeon-Jeong Suk",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Dak-gangjeong_4.jpg"
+    }
   },
   "qingdao:Tsingtao Beer": {
     "ko": "칭다오에서 만드는 맥주, 시내 곳곳에서 갓 뽑은 생맥주를 마실 수 있음",
@@ -2089,5 +2593,13 @@
     "ko": "지역 감귤즙을 넣은 닭고기 국물에 튀긴 토르티야를 올린 수프",
     "en": "Chicken broth with local lime and fried tortilla strips",
     "ja": "地元の柑橘を加えた鶏スープに揚げトルティーヤをのせたスープ"
+  },
+  "melbourne:Meat Pie": {
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Aussie_meat_pie.jpg/960px-Aussie_meat_pie.jpg",
+      "author": "Finbar.concaig",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Aussie_meat_pie.jpg"
+    }
   }
 }

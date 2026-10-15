@@ -377,7 +377,7 @@ function main() {
   const foodLinks = JSON.parse(readFileSync(`${root}/data/overlays/food-links.json`, 'utf8')) as Record<string, string[]>;
   // 한 줄 설명(무슨 음식인지)·사진. 사진은 자유 이용 허락 라이선스·위키미디어 원본만 받는다
   const foodInfo = JSON.parse(readFileSync(`${root}/data/overlays/food-info.json`, 'utf8')) as Record<string, FoodInfo>;
-  const FREE_LICENSE = /^(CC0|Public domain|CC BY(-SA)? [1-4]\.0)/i;
+  const FREE_LICENSE = /^(CC0|Public domain|CC BY(-SA)? [1-4]\.[0-5])/i;
   const foodJa = ['음식(일본어)', '추천 이유(일본어)', '일본어 근거 URL', '일본어 확인 방법'];
   const foodRows: Row[] = [...readTable(wb, '음식 추천', '국가', foodJa), ...additionRows('foods', '국가', ['비고', '연결 가격 ID', ...foodJa]).map((x) => x.r)];
   const foods: FoodRecommendation[] = foodRows.map((r) => {

@@ -1259,6 +1259,34 @@
     "missing": [],
     "computable": true
   },
+  "boracay": {
+    "counts": {
+      "food": 3,
+      "transport": 4,
+      "attraction": 4
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 3,
+      "snack": 4,
+      "drink": 2,
+      "attraction": 4,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 3,
+      "snack": 4,
+      "drink": 2,
+      "attraction": 4,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "qingdao": {
     "counts": {
       "food": 4,
@@ -1449,6 +1477,258 @@
       "snack": 3,
       "drink": 8,
       "attraction": 2,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "taichung": {
+    "counts": {
+      "food": 5,
+      "transport": 4,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 5,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 5,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "kota-kinabalu": {
+    "counts": {
+      "food": 5,
+      "transport": 4,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 5,
+      "snack": 4,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 5,
+      "snack": 4,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "zhangjiajie": {
+    "counts": {
+      "food": 4,
+      "transport": 4,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "melbourne": {
+    "counts": {
+      "food": 4,
+      "transport": 4,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 4,
+      "snack": 2,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 4,
+      "snack": 2,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "florence": {
+    "counts": {
+      "food": 9,
+      "transport": 3,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 3,
+      "meal": 9,
+      "snack": 1,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 3,
+      "meal": 9,
+      "snack": 1,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "venice": {
+    "counts": {
+      "food": 9,
+      "transport": 3,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 3,
+      "meal": 9,
+      "snack": 1,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 3,
+      "meal": 9,
+      "snack": 1,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "madrid": {
+    "counts": {
+      "food": 6,
+      "transport": 4,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 6,
+      "snack": 5,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 4,
+      "meal": 6,
+      "snack": 5,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "nice": {
+    "counts": {
+      "food": 4,
+      "transport": 3,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 3,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 3,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "san-francisco": {
+    "counts": {
+      "food": 10,
+      "transport": 6,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 6,
+      "meal": 10,
+      "snack": 12,
+      "drink": 8,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 6,
+      "meal": 10,
+      "snack": 12,
+      "drink": 8,
+      "attraction": 3,
       "souvenir": 0
     },
     "fillRate": 1,

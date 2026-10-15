@@ -1917,6 +1917,60 @@
     "note": "GPT 수집"
   },
   {
+    "cityId": "boracay",
+    "nameKo": "레촌",
+    "nameEn": "Lechon",
+    "reason": "통째로 구운 돼지고기",
+    "reasonEn": "Roast pig",
+    "desc": {
+      "ko": "통째로 구운 돼지고기",
+      "en": "Whole roast pig",
+      "ja": "豚の丸焼き"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "boracay",
+    "nameKo": "아도보",
+    "nameEn": "Adobo",
+    "reason": "식초·간장에 졸인 필리핀 대표 고기 요리",
+    "reasonEn": "Vinegar-braised meat",
+    "desc": {
+      "ko": "식초·간장에 졸인 필리핀 대표 고기 요리",
+      "en": "Meat braised in vinegar and soy, a Filipino staple",
+      "ja": "酢と醤油で煮込んだフィリピンの定番料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "boracay",
+    "nameKo": "할로할로",
+    "nameEn": "Halo-halo",
+    "reason": "빙수에 과일·콩·우베를 섞은 디저트",
+    "reasonEn": "Mixed shaved ice",
+    "desc": {
+      "ko": "빙수에 과일·콩·우베를 섞은 디저트",
+      "en": "Shaved ice with fruit, beans and ube",
+      "ja": "かき氷に果物・豆・紫芋を混ぜたデザート"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
     "cityId": "budapest",
     "nameKo": "굴라시",
     "nameEn": "Gulyás",
@@ -2605,6 +2659,78 @@
     "recommendSource": "관광청 공식 안내",
     "recommendUrl": "https://visitdubrovnik.hr/gastronomy/",
     "note": "GPT 수집"
+  },
+  {
+    "cityId": "florence",
+    "nameKo": "리볼리타",
+    "nameEn": "Ribollita",
+    "reason": "빵·양배추·콩으로 끓인 토스카나식 수프",
+    "reasonEn": "Bread and bean soup",
+    "desc": {
+      "ko": "빵·양배추·콩으로 끓인 토스카나식 수프",
+      "en": "Tuscan bread, cabbage and bean soup",
+      "ja": "パン・キャベツ・豆のトスカーナ風スープ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Tuscany",
+    "recommendUrl": "https://www.visittuscany.com/en/ideas/florence-food-guide/",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "florence",
+    "nameKo": "파파 알 포모도로",
+    "nameEn": "Pappa al pomodoro",
+    "reason": "토마토와 빵으로 만든 걸쭉한 수프",
+    "reasonEn": "Tomato bread soup",
+    "desc": {
+      "ko": "토마토와 빵으로 만든 걸쭉한 수프",
+      "en": "Thick tomato and bread soup",
+      "ja": "トマトとパンで作る濃厚なスープ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Tuscany",
+    "recommendUrl": "https://www.visittuscany.com/en/ideas/florence-food-guide/",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "florence",
+    "nameKo": "비스테카 알라 피오렌티나",
+    "nameEn": "Bistecca alla Fiorentina",
+    "reason": "숯불에 굽는 두툼한 피렌체식 티본 스테이크",
+    "reasonEn": "Florentine T-bone",
+    "desc": {
+      "ko": "숯불에 굽는 두툼한 피렌체식 티본 스테이크",
+      "en": "Thick Florentine T-bone grilled over charcoal",
+      "ja": "炭火で焼く分厚いフィレンツェ風Tボーンステーキ"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Tuscany",
+    "recommendUrl": "https://www.visittuscany.com/en/ideas/florence-food-guide/",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "florence",
+    "nameKo": "람프레도토 샌드위치",
+    "nameEn": "Lampredotto sandwich",
+    "reason": "삶은 소 위를 빵에 끼운 피렌체 길거리 음식",
+    "reasonEn": "Tripe sandwich",
+    "desc": {
+      "ko": "삶은 소 위를 빵에 끼운 피렌체 길거리 음식",
+      "en": "Florentine street sandwich of slow-cooked tripe",
+      "ja": "煮込んだ牛の胃をパンに挟んだフィレンツェの屋台料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Tuscany",
+    "recommendUrl": "https://www.visittuscany.com/en/ideas/florence-food-guide/",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
   },
   {
     "cityId": "fukuoka",
@@ -4290,6 +4416,78 @@
     "note": ""
   },
   {
+    "cityId": "kota-kinabalu",
+    "nameKo": "히나바",
+    "nameEn": "Hinava",
+    "reason": "흰살 생선을 라임·고추·생강에 재운 사바 전통 샐러드",
+    "reasonEn": "Lime-cured fish",
+    "desc": {
+      "ko": "흰살 생선을 라임·고추·생강에 재운 사바 전통 샐러드",
+      "en": "Sabah raw fish salad cured in lime, chilli and ginger",
+      "ja": "白身魚をライム・唐辛子・生姜で和えたサバ州の伝統料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Sabah Tourism",
+    "recommendUrl": "https://japan.sabahtourism.com/2021/12/19/%E3%82%B5%E3%83%90%E5%B7%9E%E3%81%AE%E5%85%88%E4%BD%8F%E6%B0%91%E6%97%8F%E3%81%AE%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%95%E3%83%BC%E3%83%89%E3%82%92%E9%A3%9F%E3%81%B9%E3%82%8B%EF%BC%81/",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "kota-kinabalu",
+    "nameKo": "리노폿",
+    "nameEn": "Linopot",
+    "reason": "큰 잎으로 적미 밥을 싼 사바 전통 음식",
+    "reasonEn": "Leaf-wrapped rice",
+    "desc": {
+      "ko": "큰 잎으로 적미 밥을 싼 사바 전통 음식",
+      "en": "Rice wrapped in a large leaf, Sabah style",
+      "ja": "大きな葉でご飯を包んだサバ州の伝統食"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Sabah Tourism",
+    "recommendUrl": "https://japan.sabahtourism.com/2021/12/19/%E3%82%B5%E3%83%90%E5%B7%9E%E3%81%AE%E5%85%88%E4%BD%8F%E6%B0%91%E6%97%8F%E3%81%AE%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%95%E3%83%BC%E3%83%89%E3%82%92%E9%A3%9F%E3%81%B9%E3%82%8B%EF%BC%81/",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "kota-kinabalu",
+    "nameKo": "투하우 절임",
+    "nameEn": "Tuhau",
+    "reason": "야생 생강류를 고추·라임즙에 절인 반찬",
+    "reasonEn": "Wild ginger relish",
+    "desc": {
+      "ko": "야생 생강류를 고추·라임즙에 절인 반찬",
+      "en": "Wild ginger relish with chilli and lime",
+      "ja": "野生のショウガ類を唐辛子とライムで漬けた付け合わせ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Sabah Tourism",
+    "recommendUrl": "https://japan.sabahtourism.com/2021/12/19/%E3%82%B5%E3%83%90%E5%B7%9E%E3%81%AE%E5%85%88%E4%BD%8F%E6%B0%91%E6%97%8F%E3%81%AE%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%95%E3%83%BC%E3%83%89%E3%82%92%E9%A3%9F%E3%81%B9%E3%82%8B%EF%BC%81/",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "kota-kinabalu",
+    "nameKo": "밤방안 절임",
+    "nameEn": "Bambangan",
+    "reason": "보르네오 야생 망고로 만든 절임",
+    "reasonEn": "Wild mango pickle",
+    "desc": {
+      "ko": "보르네오 야생 망고로 만든 절임",
+      "en": "Pickled wild Borneo mango",
+      "ja": "ボルネオの野生マンゴーの漬物"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Sabah Tourism",
+    "recommendUrl": "https://japan.sabahtourism.com/2021/12/19/%E3%82%B5%E3%83%90%E5%B7%9E%E3%81%AE%E5%85%88%E4%BD%8F%E6%B0%91%E6%97%8F%E3%81%AE%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%95%E3%83%BC%E3%83%89%E3%82%92%E9%A3%9F%E3%81%B9%E3%82%8B%EF%BC%81/",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
     "cityId": "kuala-lumpur",
     "nameKo": "나시르막",
     "nameEn": "Nasi Lemak",
@@ -4790,6 +4988,132 @@
     "note": "Claude 초안(2026-10-13)"
   },
   {
+    "cityId": "madrid",
+    "nameKo": "마드리드식 코시도",
+    "nameEn": "Cocido madrileño",
+    "reason": "병아리콩과 고기·채소를 넣어 끓인 마드리드식 냄비 요리",
+    "reasonEn": "Chickpea stew",
+    "desc": {
+      "ko": "병아리콩과 고기·채소를 넣어 끓인 마드리드식 냄비 요리",
+      "en": "Madrid stew of chickpeas, meats and vegetables",
+      "ja": "ひよこ豆と肉・野菜を煮込んだマドリード風煮込み"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "esMadrid",
+    "recommendUrl": "https://www.esmadrid.com/gastronomia-madrid",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "madrid",
+    "nameKo": "오징어 샌드위치",
+    "nameEn": "Bocata de calamares",
+    "reason": "튀긴 오징어를 빵에 끼운 마드리드 명물 샌드위치",
+    "reasonEn": "Fried squid sandwich",
+    "desc": {
+      "ko": "튀긴 오징어를 빵에 끼운 마드리드 명물 샌드위치",
+      "en": "Fried squid sandwich, a Madrid classic",
+      "ja": "揚げたイカをパンに挟んだマドリード名物"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "esMadrid",
+    "recommendUrl": "https://www.esmadrid.com/gastronomia-madrid",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "madrid",
+    "nameKo": "마드리드식 칼요스",
+    "nameEn": "Cazuela de callos",
+    "reason": "소 내장을 진하게 끓인 타파스 요리",
+    "reasonEn": "Tripe stew",
+    "desc": {
+      "ko": "소 내장을 진하게 끓인 타파스 요리",
+      "en": "Rich tripe stew served as tapas",
+      "ja": "牛の胃を濃厚に煮込んだタパス料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "esMadrid",
+    "recommendUrl": "https://www.esmadrid.com/gastronomia-madrid",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "madrid",
+    "nameKo": "파비아 병정",
+    "nameEn": "Soldaditos de Pavía",
+    "reason": "붉은 피망을 곁들인 대구 튀김",
+    "reasonEn": "Fried cod strips",
+    "desc": {
+      "ko": "붉은 피망을 곁들인 대구 튀김",
+      "en": "Fried salt cod strips with red pepper",
+      "ja": "赤ピーマンを添えたタラのフリット"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "esMadrid",
+    "recommendUrl": "https://www.esmadrid.com/gastronomia-madrid",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "melbourne",
+    "nameKo": "핫 잼 도넛",
+    "nameEn": "Hot jam doughnuts",
+    "reason": "퀸 빅토리아 마켓에서 1950년대부터 팔아 온 갓 튀긴 잼 도넛",
+    "reasonEn": "Market jam doughnuts",
+    "desc": {
+      "ko": "퀸 빅토리아 마켓에서 1950년대부터 팔아 온 갓 튀긴 잼 도넛",
+      "en": "Fresh jam doughnuts sold at Queen Victoria Market since the 1950s",
+      "ja": "1950年代からクイーン・ヴィクトリア・マーケットで売られる揚げたてジャムドーナツ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Victoria",
+    "recommendUrl": "https://www.visitvictoria.com/regions/melbourne/eat-and-drink/11-must-try-melbourne-dishes-and-drinks",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "melbourne",
+    "nameKo": "매직 커피",
+    "nameEn": "Melbourne Magic coffee",
+    "reason": "더블 리스트레토에 부드러운 우유를 올린 멜버른식 커피",
+    "reasonEn": "Melbourne coffee",
+    "desc": {
+      "ko": "더블 리스트레토에 부드러운 우유를 올린 멜버른식 커피",
+      "en": "Double ristretto with silky steamed milk, Melbourne style",
+      "ja": "ダブルリストレットに滑らかなミルクを注いだメルボルン流コーヒー"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Victoria",
+    "recommendUrl": "https://www.visitvictoria.com/regions/melbourne/eat-and-drink/11-must-try-melbourne-dishes-and-drinks",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "melbourne",
+    "nameKo": "사우스 멜버른 디미스",
+    "nameEn": "South Melbourne dimmies",
+    "reason": "사우스 멜버른 마켓의 큼직한 딤섬, 간장·칠리를 곁들임",
+    "reasonEn": "Market dim sims",
+    "desc": {
+      "ko": "사우스 멜버른 마켓의 큼직한 딤섬, 간장·칠리를 곁들임",
+      "en": "Big dim sims from South Melbourne Market with soy and chilli",
+      "ja": "サウスメルボルン・マーケットの大きな点心"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Victoria",
+    "recommendUrl": "https://www.visitvictoria.com/regions/melbourne/eat-and-drink/11-must-try-melbourne-dishes-and-drinks",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
     "cityId": "munich",
     "nameKo": "바이스부르스트",
     "nameEn": "Weißwurst",
@@ -4982,6 +5306,60 @@
     "note": "Claude 초안(2026-10-11)"
   },
   {
+    "cityId": "nara",
+    "nameKo": "차가유",
+    "nameEn": "Chagayu",
+    "reason": "볶은 차를 우린 물에 밥을 넣고 끓인 차죽",
+    "reasonEn": "Tea porridge",
+    "desc": {
+      "ko": "볶은 차를 우린 물에 밥을 넣고 끓인 차죽",
+      "en": "Rice porridge cooked in roasted tea",
+      "ja": "ほうじ茶で炊いた茶粥"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Nara City Tourism Association",
+    "recommendUrl": "https://narashikanko.or.jp/feature/gourmet",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "nara",
+    "nameKo": "감잎초밥",
+    "nameEn": "Kakinoha-zushi",
+    "reason": "절인 생선을 감잎에 싼 누름초밥",
+    "reasonEn": "Persimmon-leaf sushi",
+    "desc": {
+      "ko": "절인 생선을 감잎에 싼 누름초밥",
+      "en": "Pressed sushi wrapped in persimmon leaves",
+      "ja": "柿の葉で包んだ押し寿司"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Nara City Tourism Association",
+    "recommendUrl": "https://narashikanko.or.jp/feature/gourmet",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "nara",
+    "nameKo": "미와소면",
+    "nameEn": "Miwa somen",
+    "reason": "탄력 있고 매끄러운 나라의 소면",
+    "reasonEn": "Thin wheat noodles",
+    "desc": {
+      "ko": "탄력 있고 매끄러운 나라의 소면",
+      "en": "Springy, smooth thin noodles from Nara",
+      "ja": "コシがあり滑らかな奈良の素麺"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Nara City Tourism Association",
+    "recommendUrl": "https://narashikanko.or.jp/feature/gourmet",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
     "cityId": "new-york",
     "nameKo": "베이글",
     "nameEn": "Bagel",
@@ -5148,6 +5526,78 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "nice",
+    "nameKo": "소카",
+    "nameEn": "Socca",
+    "reason": "병아리콩 가루로 얇게 구운 니스 전통 전병",
+    "reasonEn": "Chickpea pancake",
+    "desc": {
+      "ko": "병아리콩 가루로 얇게 구운 니스 전통 전병",
+      "en": "Thin chickpea-flour pancake, a Nice classic",
+      "ja": "ひよこ豆の粉で薄く焼いたニースの伝統料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Explore Nice Côte d’Azur",
+    "recommendUrl": "https://www.explorenicecotedazur.com/en/explore/art-of-living/gastronomy-and-local-produce/nicoise-recipes/",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "nice",
+    "nameKo": "피살라디에르",
+    "nameEn": "Pissaladière",
+    "reason": "부드럽게 익힌 양파를 올린 니스식 타르트",
+    "reasonEn": "Onion tart",
+    "desc": {
+      "ko": "부드럽게 익힌 양파를 올린 니스식 타르트",
+      "en": "Niçoise tart topped with slow-cooked onions",
+      "ja": "じっくり炒めた玉ねぎをのせたニース風タルト"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Explore Nice Côte d’Azur",
+    "recommendUrl": "https://www.explorenicecotedazur.com/en/explore/art-of-living/gastronomy-and-local-produce/nicoise-recipes/",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "nice",
+    "nameKo": "니스식 샐러드",
+    "nameEn": "Salade Niçoise",
+    "reason": "신선한 채소·달걀·참치를 담은 니스 대표 샐러드",
+    "reasonEn": "Niçoise salad",
+    "desc": {
+      "ko": "신선한 채소·달걀·참치를 담은 니스 대표 샐러드",
+      "en": "Nice’s signature salad of fresh vegetables, egg and tuna",
+      "ja": "新鮮な野菜・卵・ツナのニースを代表するサラダ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Explore Nice Côte d’Azur",
+    "recommendUrl": "https://www.explorenicecotedazur.com/en/explore/art-of-living/gastronomy-and-local-produce/nicoise-recipes/",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "nice",
+    "nameKo": "빵 바냐",
+    "nameEn": "Pan Bagnat",
+    "reason": "둥근 빵에 니스식 샐러드 재료를 채운 샌드위치",
+    "reasonEn": "Niçoise sandwich",
+    "desc": {
+      "ko": "둥근 빵에 니스식 샐러드 재료를 채운 샌드위치",
+      "en": "Round bread filled with Niçoise salad",
+      "ja": "ニース風サラダの具を丸パンに挟んだサンドイッチ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Explore Nice Côte d’Azur",
+    "recommendUrl": "https://www.explorenicecotedazur.com/en/explore/art-of-living/gastronomy-and-local-produce/nicoise-recipes/",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
   },
   {
     "cityId": "okinawa",
@@ -5826,6 +6276,78 @@
     "note": "Claude 초안(2026-10-12)"
   },
   {
+    "cityId": "san-francisco",
+    "nameKo": "사워도우 빵",
+    "nameEn": "Sourdough bread",
+    "reason": "샌프란시스코를 대표하는 시큼한 발효 빵",
+    "reasonEn": "Tangy sourdough",
+    "desc": {
+      "ko": "샌프란시스코를 대표하는 시큼한 발효 빵",
+      "en": "San Francisco’s famous tangy sourdough",
+      "ja": "サンフランシスコを代表する酸味のあるパン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "San Francisco Travel",
+    "recommendUrl": "https://www.sftravel.com/eat-drink",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "san-francisco",
+    "nameKo": "던지니스 크랩",
+    "nameEn": "Dungeness crab",
+    "reason": "샌프란시스코 대표 해산물인 큼직한 게",
+    "reasonEn": "Local crab",
+    "desc": {
+      "ko": "샌프란시스코 대표 해산물인 큼직한 게",
+      "en": "Big local crab, the city’s signature seafood",
+      "ja": "サンフランシスコを代表する大ぶりのカニ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "San Francisco Travel",
+    "recommendUrl": "https://www.sftravel.com/eat-drink",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "san-francisco",
+    "nameKo": "치오피노",
+    "nameEn": "Cioppino",
+    "reason": "샌프란시스코에서 시작된 토마토 해산물 스튜",
+    "reasonEn": "Seafood stew",
+    "desc": {
+      "ko": "샌프란시스코에서 시작된 토마토 해산물 스튜",
+      "en": "Tomato seafood stew born in San Francisco",
+      "ja": "サンフランシスコ発祥のトマト魚介シチュー"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "San Francisco Travel",
+    "recommendUrl": "https://www.sftravel.com/eat-drink",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "san-francisco",
+    "nameKo": "미션 버리토",
+    "nameEn": "Mission burrito",
+    "reason": "미션 지구에서 유명해진 큼직한 버리토",
+    "reasonEn": "Big burrito",
+    "desc": {
+      "ko": "미션 지구에서 유명해진 큼직한 버리토",
+      "en": "Hefty burrito made famous in the Mission District",
+      "ja": "ミッション地区で有名になった大きなブリトー"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "San Francisco Travel",
+    "recommendUrl": "https://www.sftravel.com/eat-drink",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
     "cityId": "sapporo",
     "nameKo": "미소 라멘",
     "nameEn": "Sapporo Miso Ramen",
@@ -6084,6 +6606,78 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "taichung",
+    "nameKo": "마이수프",
+    "nameEn": "Mayi soup",
+    "reason": "황마 어린잎으로 끓인 중부 대만 전통 수프",
+    "reasonEn": "Jute leaf soup",
+    "desc": {
+      "ko": "황마 어린잎으로 끓인 중부 대만 전통 수프",
+      "en": "Central Taiwan soup of young jute leaves",
+      "ja": "黄麻の若葉で作る台湾中部の伝統スープ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Taichung Travel",
+    "recommendUrl": "https://travel.taichung.gov.tw/zh-tw/experience/gourmet-guide",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "taichung",
+    "nameKo": "다미엔껑",
+    "nameEn": "Damiangeng",
+    "reason": "굵은 면을 걸쭉하게 끓인 타이중 아침 간식",
+    "reasonEn": "Thick noodle soup",
+    "desc": {
+      "ko": "굵은 면을 걸쭉하게 끓인 타이중 아침 간식",
+      "en": "Thick noodle soup, a Taichung breakfast",
+      "ja": "太麺をとろみのあるスープで煮た台中の朝ごはん"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Taichung Travel",
+    "recommendUrl": "https://travel.taichung.gov.tw/zh-tw/Experience/Souvenirs",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "taichung",
+    "nameKo": "펄 밀크티",
+    "nameEn": "Pearl milk tea",
+    "reason": "타이중에서 시작된 것으로 알려진 버블티",
+    "reasonEn": "Bubble tea",
+    "desc": {
+      "ko": "타이중에서 시작된 것으로 알려진 버블티",
+      "en": "Bubble tea, said to have started in Taichung",
+      "ja": "台中発祥とされるタピオカミルクティー"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Taichung Travel",
+    "recommendUrl": "https://travel.taichung.gov.tw/zh-tw/experience/gourmet-guide",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "taichung",
+    "nameKo": "타이양빙",
+    "nameEn": "Suncake",
+    "reason": "바삭한 껍질에 맥아 소를 넣은 타이중 대표 과자",
+    "reasonEn": "Malt pastry",
+    "desc": {
+      "ko": "바삭한 껍질에 맥아 소를 넣은 타이중 대표 과자",
+      "en": "Flaky pastry with malt filling, Taichung’s signature snack",
+      "ja": "サクサクの生地に麦芽あんを包んだ台中名物"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Taichung Travel",
+    "recommendUrl": "https://travel.taichung.gov.tw/zh-tw/Experience/Souvenirs",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
   },
   {
     "cityId": "tashkent",
@@ -6480,6 +7074,78 @@
     "note": "Claude 초안(2026-10-13)"
   },
   {
+    "cityId": "venice",
+    "nameKo": "리시 에 비시",
+    "nameEn": "Risi e bisi",
+    "reason": "완두콩과 쌀로 만든 베네치아 전통 요리",
+    "reasonEn": "Rice and peas",
+    "desc": {
+      "ko": "완두콩과 쌀로 만든 베네치아 전통 요리",
+      "en": "Venetian rice and peas",
+      "ja": "グリーンピースと米で作るヴェネツィアの伝統料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Veneto Region",
+    "recommendUrl": "https://scultura.veneto.eu/stampa-dettaglio?template=%2Fregioneveneto%2Fpresentation%2Fvenetoqualita-detail&uuid=a69a66f1-53f1-4cb8-aa99-fb6102de3ed3",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "venice",
+    "nameKo": "사르데 인 사오르",
+    "nameEn": "Sarde in saor",
+    "reason": "튀긴 정어리를 식초·양파 양념에 재운 새콤달콤한 요리",
+    "reasonEn": "Sweet-sour sardines",
+    "desc": {
+      "ko": "튀긴 정어리를 식초·양파 양념에 재운 새콤달콤한 요리",
+      "en": "Fried sardines marinated in vinegar and onions",
+      "ja": "揚げたイワシを酢と玉ねぎに漬けた甘酸っぱい料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Veneto Region",
+    "recommendUrl": "https://scultura.veneto.eu/veneto-qualita-dettaglio?lang=it&uuid=99afbf42-3611-43f6-8535-bf908baafdb4",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "venice",
+    "nameKo": "바이콜리",
+    "nameEn": "Baicoli",
+    "reason": "베네치아의 바삭한 마른 과자",
+    "reasonEn": "Venetian biscuits",
+    "desc": {
+      "ko": "베네치아의 바삭한 마른 과자",
+      "en": "Crisp Venetian biscuits",
+      "ja": "ヴェネツィアのサクサクした焼き菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Veneto Region",
+    "recommendUrl": "https://scultura.veneto.eu/dove-andare-dettaglio?lang=it&path=%2FDoveAndare%2FVeneziaLaguna%2FVenezia",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "venice",
+    "nameKo": "잘레티",
+    "nameEn": "Zaleti",
+    "reason": "건포도와 옥수수 가루로 만든 작은 과자",
+    "reasonEn": "Cornmeal cookies",
+    "desc": {
+      "ko": "건포도와 옥수수 가루로 만든 작은 과자",
+      "en": "Small cornmeal and raisin cookies",
+      "ja": "レーズンとトウモロコシ粉の小さなクッキー"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Veneto Region",
+    "recommendUrl": "https://scultura.veneto.eu/dove-andare-dettaglio?lang=it&path=%2FDoveAndare%2FVeneziaLaguna%2FVenezia",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
     "cityId": "vienna",
     "nameKo": "비너 슈니첼",
     "nameEn": "Wiener Schnitzel",
@@ -6640,5 +7306,59 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "zhangjiajie",
+    "nameKo": "토가 삼하궈",
+    "nameEn": "Three-item Pot",
+    "reason": "여러 고기 재료를 한 냄비에 끓인 토가족 요리",
+    "reasonEn": "Tujia meat pot",
+    "desc": {
+      "ko": "여러 고기 재료를 한 냄비에 끓인 토가족 요리",
+      "en": "Tujia hot pot of several meats",
+      "ja": "数種類の肉を一つの鍋で煮るトゥチャ族料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Hunan Provincial Government",
+    "recommendUrl": "https://www.enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/Dining_12/202509/t20250925_33979435.html",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "zhangjiajie",
+    "nameKo": "미꾸라지 두부탕",
+    "nameEn": "Loach Burrowing into Tofu",
+    "reason": "두부에 미꾸라지를 넣어 끓인 토가족 요리",
+    "reasonEn": "Loach and tofu",
+    "desc": {
+      "ko": "두부에 미꾸라지를 넣어 끓인 토가족 요리",
+      "en": "Tujia dish of loach cooked with tofu",
+      "ja": "豆腐にドジョウを入れて煮たトゥチャ族料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Hunan Provincial Government",
+    "recommendUrl": "https://www.enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/Dining_12/202509/t20250925_33979435.html",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "zhangjiajie",
+    "nameKo": "토가식 찐 삼겹살",
+    "nameEn": "Steamed Sliced Pork Belly",
+    "reason": "삶고 튀긴 뒤 쪄서 부드럽게 만든 잔치용 삼겹살",
+    "reasonEn": "Steamed pork belly",
+    "desc": {
+      "ko": "삶고 튀긴 뒤 쪄서 부드럽게 만든 잔치용 삼겹살",
+      "en": "Festive pork belly boiled, fried then steamed",
+      "ja": "茹でて揚げてから蒸した祝いの豚バラ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Hunan Provincial Government",
+    "recommendUrl": "https://www.enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/Dining_12/202509/t20250925_33979435.html",
+    "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
   }
 ]

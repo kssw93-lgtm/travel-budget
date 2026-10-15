@@ -83,6 +83,7 @@
 | 달랏 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 가오슝 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 가오슝 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 보라카이 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 칭다오 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 베이징 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 베이징 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
@@ -96,6 +97,18 @@
 | 로스앤젤레스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 라스베이거스 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 라스베이거스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 타이중 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 코타키나발루 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 장가계 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 멜버른 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 멜버른 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 피렌체 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 피렌체 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 베네치아 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 베네치아 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 마드리드 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 니스 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 샌프란시스코 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 알마티 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 알마티 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 알마티 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -855,6 +868,12 @@
 | DBV-AT-507 | 두브로브니크 | 두브로브니크 자연사박물관 입장권 (아동·초등학생 7~12세) | 5 EUR | A | 조건부 | 조건부, 재검증 | [Dubrovnik Natural History Museum](https://pmd.hr/en/pricelist/) |
 | DBV-AT-508 | 두브로브니크 | 두브로브니크 자연사박물관 입장권 (아동 6세, 무료) | 0 EUR | A | 조건부 | 조건부, 재검증 | [Dubrovnik Natural History Museum](https://pmd.hr/en/pricelist/) |
 | MFM-FD-301 | 마카오 | 파 달걀 볶음밥 | 75 MOP | A | 조건부 | 조건부, 재검증 | [City of Dreams Macau — Din Tai Fung](https://www.cityofdreamsmacau.com/assets/public/2025-09/DTF-NewMenu2025_compressed.pdf) |
+| MPH-AT-105 | 보라카이 | 박쥐 동굴 입장료 | 50 PHP | A | 예 | 재검증 | [Aklan Provincial Government — Malay tourism page](https://aklan.gov.ph/tourism/malay/) |
+| MPH-AT-106 | 보라카이 | 아리엘스 포인트 당일 투어(보트편) | 3500 PHP | A | 예 | 재검증 | [Ariel's Point](https://arielspoint.com/contact-our-team/) |
+| MPH-AT-101 | 보라카이 | 보라카이 터미널 요금(외국인 성인) | 300 PHP | A | 예 | 재검증 | [Shangri-La Boracay](https://www.shangri-la.com/boracay/boracayresort/about/map-directions/) |
+| MPH-AT-102 | 보라카이 | 보라카이 환경요금(외국인 성인) | 300 PHP | A | 예 | 재검증 | [Shangri-La Boracay](https://www.shangri-la.com/boracay/boracayresort/about/map-directions/) |
+| MPH-AT-103 | 보라카이 | 보라카이 터미널 요금(아동 만 12세) | 300 PHP | A | 예 | 재검증 | [Shangri-La Boracay](https://www.shangri-la.com/boracay/boracayresort/about/map-directions/) |
+| MPH-AT-104 | 보라카이 | 보라카이 환경요금(외국인 아동 만 12세) | 300 PHP | A | 예 | 재검증 | [Shangri-La Boracay](https://www.shangri-la.com/boracay/boracayresort/about/map-directions/) |
 | ATH-TR-502 | 아테네 | 아테네 대중교통 24시간권 | 4.1 EUR | A | 예 | 재검증 | [OASA](https://www.oasa.gr/en/tickets/prices-of-products/) |
 | ATH-AT-501 | 아테네 | 아테네 아크로폴리스 입장권 (성인) | 30 EUR | A | 예 | 재검증 | [Visit Greece; Hellenic Ministry of Culture](https://www.visitgreece.gr/en/experiences/culture/archaeological-sites-monuments/acropolis-of-Athens; https://www.culture.gov.gr/en/service/SitePages/view.aspx?fs=e&iID=2695&s=cl) |
 | ATH-AT-502 | 아테네 | 아테네 아크로폴리스 입장권 (아동 6~12세) | 0 EUR | A | 예 | 재검증 | [Hellenic Ministry of Culture](https://www.culture.gov.gr/en/service/SitePages/view.aspx?fs=e&iID=2695&s=cl) |
@@ -937,6 +956,60 @@
 | ULN-FD-962 | 울란바토르 | 카페베네 플레인 와플 | 4900 MNT | A | 예 | 재검증 | [Caffe Bene Mongolia](https://caffebene.mn/en/menu) |
 | SPN-FD-961 | 사이판 | 사이판 트라이블렌드 IPA 생맥주 1잔 12oz (Tapped Out Taproom) | 6 USD | A | 예 | 재검증 | [Tapped Out Taproom / Nåpu Brewing Co.](https://www.tappedout.mp/napu-craft-liquors?location=Micro+Beach+Road&menu=craft-beer) |
 | SPN-FD-962 | 사이판 | 새우 또는 닭고기 팟타이 (Keto Thai) | 10 USD | A | 예 | 재검증 | [Keto Thai Saipan](https://ketothaisaipan.com/menu/) |
+| NCE-AT-101 | 니스 | 코트다쥐르 천문대 공개 가이드 투어 (성인) | 12 EUR | A | 예 | 재검증 | [Provence-Alpes-Côte d’Azur Tourisme](https://provence-alpes-cotedazur.com/que-faire/culture-et-patrimoine/lieux/observatoire-de-la-cote-dazur-nice-fr-2850983/) |
+| NCE-AT-102 | 니스 | 코트다쥐르 천문대 공개 가이드 투어 (아동) | 6 EUR | A | 예 | 재검증 | [Provence-Alpes-Côte d’Azur Tourisme](https://provence-alpes-cotedazur.com/que-faire/culture-et-patrimoine/lieux/observatoire-de-la-cote-dazur-nice-fr-2850983/) |
+| NCE-AT-103 | 니스 | 파르크 피닉스 일반 입장 (성인) | 5.5 EUR | A | 예 | 재검증 | [Office de Tourisme Nice Côte d’Azur](https://www.explorenicecotedazur.com/culture/parc-phoenix/) |
+| NCE-AT-104 | 니스 | 파르크 피닉스 입장 (아동) | 0 EUR | A | 예 | 재검증 | [Office de Tourisme Nice Côte d’Azur](https://www.explorenicecotedazur.com/culture/parc-phoenix/) |
+| NCE-AT-105 | 니스 | 니스 자연사박물관 개별 입장 (성인) | 3.5 EUR | A | 예 | 재검증 | [Ville de Nice](https://www.nice.fr/lieux/museum-dhistoire-naturelle/) |
+| NCE-AT-106 | 니스 | 니스 자연사박물관 개별 입장 (아동) | 0 EUR | A | 예 | 재검증 | [Ville de Nice](https://www.nice.fr/lieux/museum-dhistoire-naturelle/) |
+| MAD-AT-101 | 마드리드 | 레이나 소피아 미술관 일반 입장 (성인) | 12 EUR | A | 예 | 재검증 | [Museo Nacional Centro de Arte Reina Sofía](https://www.museoreinasofia.es/en/visit/individual-visits/) |
+| MAD-AT-102 | 마드리드 | 레이나 소피아 미술관 일반 입장 (아동) | 0 EUR | A | 예 | 재검증 | [Museo Nacional Centro de Arte Reina Sofía](https://www.museoreinasofia.es/en/visit/individual-visits/) |
+| MAD-AT-103 | 마드리드 | 티센 보르네미사 미술관 일반 입장 (성인) | 14 EUR | A | 예 | 재검증 | [Museo Nacional Thyssen-Bornemisza](https://www.museothyssen.org/en/visit/opening-hours-prices) |
+| MAD-AT-104 | 마드리드 | 티센 보르네미사 미술관 일반 입장 (아동) | 0 EUR | A | 예 | 재검증 | [Museo Nacional Thyssen-Bornemisza](https://www.museothyssen.org/en/visit/opening-hours-prices) |
+| MAD-AT-105 | 마드리드 | 마드리드 왕궁 자유 관람 (성인) | 18 EUR | A | 예 | 재검증 | [Patrimonio Nacional](https://tickets.patrimonionacional.es/en/tickets/palacio-real-de-madrid) |
+| MAD-AT-106 | 마드리드 | 마드리드 왕궁 자유 관람 (아동) | 9 EUR | A | 예 | 재검증 | [Patrimonio Nacional](https://tickets.patrimonionacional.es/en/tickets/palacio-real-de-madrid) |
+| MEL-AT-101 | 멜버른 | 멜버른 동물원 일반 입장 (성인) | 58 AUD | A | 예 | 재검증 | [Zoos Victoria](https://www.zoo.org.au/melbourne/whats-on/events/entry/) |
+| MEL-AT-102 | 멜버른 | 멜버른 동물원 일반 입장 (아동, 평일) | 29 AUD | A | 예 | 재검증 | [Zoos Victoria](https://www.zoo.org.au/melbourne/whats-on/events/entry/) |
+| MEL-AT-103 | 멜버른 | SEA LIFE 멜버른 일반 입장 (성인, 당일·공휴일) | 54 AUD | A | 예 | 재검증 | [SEA LIFE Melbourne Aquarium](https://www.visitsealife.com/melbourne/tickets-passes/) |
+| MEL-AT-104 | 멜버른 | SEA LIFE 멜버른 일반 입장 (아동, 당일·공휴일) | 40 AUD | A | 예 | 재검증 | [SEA LIFE Melbourne Aquarium](https://www.visitsealife.com/melbourne/tickets-passes/) |
+| MEL-AT-105 | 멜버른 | 쿡스 코티지 개별 입장 (성인) | 8.2 AUD | A | 예 | 재검증 | [City of Melbourne / What's On Melbourne](https://whatson.melbourne.vic.gov.au/book-cooks-cottage) |
+| MEL-AT-106 | 멜버른 | 쿡스 코티지 개별 입장 (아동) | 4.5 AUD | A | 예 | 재검증 | [City of Melbourne / What's On Melbourne](https://whatson.melbourne.vic.gov.au/book-cooks-cottage) |
+| VCE-AT-101 | 베네치아 | 두칼레 궁전 포함 산마르코 광장 박물관 통합권 (성인) | 35 EUR | A | 예 | 재검증 | [Fondazione Musei Civici di Venezia (MUVE)](https://palazzoducale.visitmuve.it/en/visitor-information/) |
+| VCE-AT-102 | 베네치아 | 두칼레 궁전 포함 산마르코 광장 박물관 통합권 (아동) | 15 EUR | A | 예 | 재검증 | [Fondazione Musei Civici di Venezia (MUVE)](https://palazzoducale.visitmuve.it/en/visitor-information/) |
+| VCE-AT-103 | 베네치아 | 카 레초니코 18세기 베네치아 박물관 (성인) | 15 EUR | A | 예 | 재검증 | [Fondazione Musei Civici di Venezia (MUVE)](https://carezzonico.visitmuve.it/en/visitor-information/) |
+| VCE-AT-104 | 베네치아 | 카 레초니코 18세기 베네치아 박물관 (아동) | 7.5 EUR | A | 예 | 재검증 | [Fondazione Musei Civici di Venezia (MUVE)](https://carezzonico.visitmuve.it/en/visitor-information/) |
+| VCE-AT-105 | 베네치아 | 산마르코 시계탑 관람 (성인) | 15 EUR | A | 예 | 재검증 | [Fondazione Musei Civici di Venezia (MUVE)](https://torreorologio.visitmuve.it/en/pianifica-la-tua-visita/tickets/) |
+| VCE-AT-106 | 베네치아 | 산마르코 시계탑 관람 (아동) | 11 EUR | A | 예 | 재검증 | [Fondazione Musei Civici di Venezia (MUVE)](https://torreorologio.visitmuve.it/en/pianifica-la-tua-visita/tickets/) |
+| SFO-AT-101 | 샌프란시스코 | 아쿠아리움 오브 더 베이 일반 입장 (성인) | 28.25 USD | A | 예 | 재검증 | [Aquarium of the Bay](https://www.aquariumofthebay.org/tickets/) |
+| SFO-AT-102 | 샌프란시스코 | 아쿠아리움 오브 더 베이 일반 입장 (아동) | 20.25 USD | A | 예 | 재검증 | [Aquarium of the Bay](https://www.aquariumofthebay.org/tickets/) |
+| SFO-AT-103 | 샌프란시스코 | 캘리포니아 과학관 주간 입장 (성인) | 49~55 USD | A | 예 | 재검증 | [California Academy of Sciences](https://blog.calacademy.org/hours-admission) |
+| SFO-AT-104 | 샌프란시스코 | 캘리포니아 과학관 주간 입장 (아동) | 39~45 USD | A | 예 | 재검증 | [California Academy of Sciences](https://blog.calacademy.org/hours-admission) |
+| SFO-AT-105 | 샌프란시스코 | 샌프란시스코 현대미술관 일반 입장 (성인) | 30 USD | A | 예 | 재검증 | [San Francisco Museum of Modern Art (SFMOMA)](https://www.sfmoma.org/visit/) |
+| SFO-AT-106 | 샌프란시스코 | 샌프란시스코 현대미술관 일반 입장 (아동) | 0 USD | A | 예 | 재검증 | [San Francisco Museum of Modern Art (SFMOMA)](https://www.sfmoma.org/visit/) |
+| DYG-AT-101 | 장가계 | 무릉원 핵심경구 입장권 (성인) | 165 CNY | A | 예 | 재검증 | [湖南省发展和改革委员会](https://fgw.hunan.gov.cn/fgw/jgzc11/202507/t20250724_33748635.html) |
+| DYG-AT-102 | 장가계 | 무릉원 핵심경구 입장권 (아동) | 0 CNY | A | 예 | 재검증 | [Hunan Government Website International](https://www.enghunan.gov.cn/hneng/News/Localnews/202404/t20240425_33285051.html) |
+| DYG-AT-103 | 장가계 | 천문산 경구 입장권 (성인) | 72 CNY | A | 예 | 재검증 | [湖南省发展和改革委员会](https://fgw.hunan.gov.cn/fgw/xxgk_70899/tzgg/202508/t20250825_33782047.html) |
+| DYG-AT-104 | 장가계 | 천문산 경구 입장권 (아동) | 0 CNY | A | 예 | 재검증 | [湖南省发展和改革委员会](https://fgw.hunan.gov.cn/fgw/xxgk_70899/tzgg/202508/t20250825_33782047.html) |
+| DYG-AT-105 | 장가계 | 용왕동 입장권 (성인) | 70 CNY | A | 예 | 재검증 | [Hunan Government Website International](https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/TouristAttractions_12/202603/t20260327_33942668.html) |
+| DYG-AT-106 | 장가계 | 용왕동 입장권 (아동) | 0 CNY | A | 예 | 재검증 | [Hunan Government Website International](https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/TouristAttractions_12/202603/t20260327_33942668.html) |
+| BKI-AT-101 | 코타키나발루 | 툰쿠 압둘 라만 해양공원 입장료 (성인 외국인) | 25 MYR | A | 예 | 재검증 | [Sabah Parks](https://www.sabahparks.org.my/tunku-abdul-rahman-park) |
+| BKI-AT-102 | 코타키나발루 | 툰쿠 압둘 라만 해양공원 입장료 (아동 외국인) | 20 MYR | A | 예 | 재검증 | [Sabah Parks](https://www.sabahparks.org.my/tunku-abdul-rahman-park) |
+| BKI-AT-103 | 코타키나발루 | 키나발루 공원 입장료 (성인 외국인) | 50 MYR | A | 예 | 재검증 | [Sabah Parks](https://www.sabahparks.org.my/kinabalu-park) |
+| BKI-AT-104 | 코타키나발루 | 키나발루 공원 입장료 (아동 외국인) | 25 MYR | A | 예 | 재검증 | [Sabah Parks](https://www.sabahparks.org.my/kinabalu-park) |
+| BKI-AT-105 | 코타키나발루 | UMS 아쿠아리움·해양박물관 입장료 (성인 외국인) | 20 MYR | A | 예 | 재검증 | [Sabah Tourism Board](https://sabahtourism.com/destination/aquarium-marine-museum/) |
+| BKI-AT-106 | 코타키나발루 | UMS 아쿠아리움·해양박물관 입장료 (아동 외국인) | 10 MYR | A | 예 | 재검증 | [Sabah Tourism Board](https://sabahtourism.com/destination/aquarium-marine-museum/) |
+| RMQ-AT-101 | 타이중 | 국립자연과학박물관 전시관 입장료 (성인) | 120 TWD | A | 예 | 재검증 | [國立自然科學博物館](https://www.nmns.edu.tw/ch/visit/ticket/index.html) |
+| RMQ-AT-102 | 타이중 | 국립자연과학박물관 전시관 입장료 (아동) | 60 TWD | A | 예 | 재검증 | [國立自然科學博物館](https://www.nmns.edu.tw/ch/visit/ticket/index.html) |
+| RMQ-AT-103 | 타이중 | 리후 탐색세계 종일 입장권 (성인) | 1300 TWD | A | 예 | 재검증 | [麗寶樂園渡假區](https://www.lihpaoresort.com/LihpaolandApp/ticket/discover) |
+| RMQ-AT-104 | 타이중 | 리후 탐색세계 종일 입장권 (아동) | 1000 TWD | A | 예 | 재검증 | [麗寶樂園渡假區](https://www.lihpaoresort.com/LihpaolandApp/ticket/discover) |
+| RMQ-AT-105 | 타이중 | 신서 장원 정원 입장료 (성인) | 350 TWD | A | 예 | 재검증 | [新社莊園古堡](https://www.summit-resort.com/info.php) |
+| RMQ-AT-106 | 타이중 | 신서 장원 정원 입장료 (아동) | 250 TWD | A | 예 | 재검증 | [新社莊園古堡](https://www.summit-resort.com/info.php) |
+| FLR-AT-101 | 피렌체 | 우피치 미술관 일반 입장 (성인·당일) | 25 EUR | A | 예 | 재검증 | [Gallerie degli Uffizi](https://www.uffizi.it/en/pages/tickets-fares) |
+| FLR-AT-102 | 피렌체 | 우피치 미술관 일반 입장 (아동) | 0 EUR | A | 예 | 재검증 | [Gallerie degli Uffizi](https://shop.uffizi.it/en/info-ticket/) |
+| FLR-AT-103 | 피렌체 | 팔라초 베키오 박물관 입장 (성인) | 18 EUR | A | 예 | 재검증 | [MUS.E Foundation](https://musefirenze.it/en/museum/museo-di-palazzo-vecchio/) |
+| FLR-AT-104 | 피렌체 | 팔라초 베키오 박물관 입장 (아동) | 0 EUR | A | 예 | 재검증 | [MUS.E Foundation](https://musefirenze.it/en/museum/museo-di-palazzo-vecchio/) |
+| FLR-AT-105 | 피렌체 | 갈릴레오 박물관 입장 (성인) | 14 EUR | A | 예 | 재검증 | [Museo Galileo](https://www.museogalileo.it/it/organizza-la-visita/orari-e-prezzi?format=html) |
+| FLR-AT-106 | 피렌체 | 갈릴레오 박물관 입장 (아동 6~18세 요금) | 7 EUR | A | 예 | 재검증 | [Museo Galileo](https://www.museogalileo.it/it/organizza-la-visita/orari-e-prezzi?format=html) |
 | AMS-FD-501 | 암스테르담 | 풀 아이리시 아침 식사 | 14.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
 | AMS-FD-502 | 암스테르담 | 클럽 샌드위치 | 12.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
 | AMS-FD-503 | 암스테르담 | 채식 버거 | 16.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |

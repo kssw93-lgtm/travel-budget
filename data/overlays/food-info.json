@@ -2805,5 +2805,205 @@
       "license": "CC BY-SA 4.0",
       "page": "https://commons.wikimedia.org/wiki/File:Aussie_meat_pie.jpg"
     }
+  },
+  "nice:Socca": {
+    "ko": "병아리콩 가루로 얇게 구운 니스 전통 전병",
+    "en": "Thin chickpea-flour pancake, a Nice classic",
+    "ja": "ひよこ豆の粉で薄く焼いたニースの伝統料理"
+  },
+  "nice:Pissaladière": {
+    "ko": "부드럽게 익힌 양파를 올린 니스식 타르트",
+    "en": "Niçoise tart topped with slow-cooked onions",
+    "ja": "じっくり炒めた玉ねぎをのせたニース風タルト"
+  },
+  "nice:Salade Niçoise": {
+    "ko": "신선한 채소·달걀·참치를 담은 니스 대표 샐러드",
+    "en": "Nice’s signature salad of fresh vegetables, egg and tuna",
+    "ja": "新鮮な野菜・卵・ツナのニースを代表するサラダ"
+  },
+  "nice:Pan Bagnat": {
+    "ko": "둥근 빵에 니스식 샐러드 재료를 채운 샌드위치",
+    "en": "Round bread filled with Niçoise salad",
+    "ja": "ニース風サラダの具を丸パンに挟んだサンドイッチ"
+  },
+  "madrid:Cocido madrileño": {
+    "ko": "병아리콩과 고기·채소를 넣어 끓인 마드리드식 냄비 요리",
+    "en": "Madrid stew of chickpeas, meats and vegetables",
+    "ja": "ひよこ豆と肉・野菜を煮込んだマドリード風煮込み"
+  },
+  "madrid:Bocata de calamares": {
+    "ko": "튀긴 오징어를 빵에 끼운 마드리드 명물 샌드위치",
+    "en": "Fried squid sandwich, a Madrid classic",
+    "ja": "揚げたイカをパンに挟んだマドリード名物"
+  },
+  "madrid:Cazuela de callos": {
+    "ko": "소 내장을 진하게 끓인 타파스 요리",
+    "en": "Rich tripe stew served as tapas",
+    "ja": "牛の胃を濃厚に煮込んだタパス料理"
+  },
+  "madrid:Soldaditos de Pavía": {
+    "ko": "붉은 피망을 곁들인 대구 튀김",
+    "en": "Fried salt cod strips with red pepper",
+    "ja": "赤ピーマンを添えたタラのフリット"
+  },
+  "melbourne:Hot jam doughnuts": {
+    "ko": "퀸 빅토리아 마켓에서 1950년대부터 팔아 온 갓 튀긴 잼 도넛",
+    "en": "Fresh jam doughnuts sold at Queen Victoria Market since the 1950s",
+    "ja": "1950年代からクイーン・ヴィクトリア・マーケットで売られる揚げたてジャムドーナツ"
+  },
+  "melbourne:Melbourne Magic coffee": {
+    "ko": "더블 리스트레토에 부드러운 우유를 올린 멜버른식 커피",
+    "en": "Double ristretto with silky steamed milk, Melbourne style",
+    "ja": "ダブルリストレットに滑らかなミルクを注いだメルボルン流コーヒー"
+  },
+  "melbourne:South Melbourne dimmies": {
+    "ko": "사우스 멜버른 마켓의 큼직한 딤섬, 간장·칠리를 곁들임",
+    "en": "Big dim sims from South Melbourne Market with soy and chilli",
+    "ja": "サウスメルボルン・マーケットの大きな点心"
+  },
+  "venice:Risi e bisi": {
+    "ko": "완두콩과 쌀로 만든 베네치아 전통 요리",
+    "en": "Venetian rice and peas",
+    "ja": "グリーンピースと米で作るヴェネツィアの伝統料理"
+  },
+  "venice:Sarde in saor": {
+    "ko": "튀긴 정어리를 식초·양파 양념에 재운 새콤달콤한 요리",
+    "en": "Fried sardines marinated in vinegar and onions",
+    "ja": "揚げたイワシを酢と玉ねぎに漬けた甘酸っぱい料理"
+  },
+  "venice:Baicoli": {
+    "ko": "베네치아의 바삭한 마른 과자",
+    "en": "Crisp Venetian biscuits",
+    "ja": "ヴェネツィアのサクサクした焼き菓子"
+  },
+  "venice:Zaleti": {
+    "ko": "건포도와 옥수수 가루로 만든 작은 과자",
+    "en": "Small cornmeal and raisin cookies",
+    "ja": "レーズンとトウモロコシ粉の小さなクッキー"
+  },
+  "san-francisco:Sourdough bread": {
+    "ko": "샌프란시스코를 대표하는 시큼한 발효 빵",
+    "en": "San Francisco’s famous tangy sourdough",
+    "ja": "サンフランシスコを代表する酸味のあるパン"
+  },
+  "san-francisco:Dungeness crab": {
+    "ko": "샌프란시스코 대표 해산물인 큼직한 게",
+    "en": "Big local crab, the city’s signature seafood",
+    "ja": "サンフランシスコを代表する大ぶりのカニ"
+  },
+  "san-francisco:Cioppino": {
+    "ko": "샌프란시스코에서 시작된 토마토 해산물 스튜",
+    "en": "Tomato seafood stew born in San Francisco",
+    "ja": "サンフランシスコ発祥のトマト魚介シチュー"
+  },
+  "san-francisco:Mission burrito": {
+    "ko": "미션 지구에서 유명해진 큼직한 버리토",
+    "en": "Hefty burrito made famous in the Mission District",
+    "ja": "ミッション地区で有名になった大きなブリトー"
+  },
+  "zhangjiajie:Three-item Pot": {
+    "ko": "여러 고기 재료를 한 냄비에 끓인 토가족 요리",
+    "en": "Tujia hot pot of several meats",
+    "ja": "数種類の肉を一つの鍋で煮るトゥチャ族料理"
+  },
+  "zhangjiajie:Loach Burrowing into Tofu": {
+    "ko": "두부에 미꾸라지를 넣어 끓인 토가족 요리",
+    "en": "Tujia dish of loach cooked with tofu",
+    "ja": "豆腐にドジョウを入れて煮たトゥチャ族料理"
+  },
+  "zhangjiajie:Steamed Sliced Pork Belly": {
+    "ko": "삶고 튀긴 뒤 쪄서 부드럽게 만든 잔치용 삼겹살",
+    "en": "Festive pork belly boiled, fried then steamed",
+    "ja": "茹でて揚げてから蒸した祝いの豚バラ"
+  },
+  "kota-kinabalu:Hinava": {
+    "ko": "흰살 생선을 라임·고추·생강에 재운 사바 전통 샐러드",
+    "en": "Sabah raw fish salad cured in lime, chilli and ginger",
+    "ja": "白身魚をライム・唐辛子・生姜で和えたサバ州の伝統料理"
+  },
+  "kota-kinabalu:Linopot": {
+    "ko": "큰 잎으로 적미 밥을 싼 사바 전통 음식",
+    "en": "Rice wrapped in a large leaf, Sabah style",
+    "ja": "大きな葉でご飯を包んだサバ州の伝統食"
+  },
+  "kota-kinabalu:Tuhau": {
+    "ko": "야생 생강류를 고추·라임즙에 절인 반찬",
+    "en": "Wild ginger relish with chilli and lime",
+    "ja": "野生のショウガ類を唐辛子とライムで漬けた付け合わせ"
+  },
+  "kota-kinabalu:Bambangan": {
+    "ko": "보르네오 야생 망고로 만든 절임",
+    "en": "Pickled wild Borneo mango",
+    "ja": "ボルネオの野生マンゴーの漬物"
+  },
+  "florence:Ribollita": {
+    "ko": "빵·양배추·콩으로 끓인 토스카나식 수프",
+    "en": "Tuscan bread, cabbage and bean soup",
+    "ja": "パン・キャベツ・豆のトスカーナ風スープ"
+  },
+  "florence:Pappa al pomodoro": {
+    "ko": "토마토와 빵으로 만든 걸쭉한 수프",
+    "en": "Thick tomato and bread soup",
+    "ja": "トマトとパンで作る濃厚なスープ"
+  },
+  "florence:Bistecca alla Fiorentina": {
+    "ko": "숯불에 굽는 두툼한 피렌체식 티본 스테이크",
+    "en": "Thick Florentine T-bone grilled over charcoal",
+    "ja": "炭火で焼く分厚いフィレンツェ風Tボーンステーキ"
+  },
+  "florence:Lampredotto sandwich": {
+    "ko": "삶은 소 위를 빵에 끼운 피렌체 길거리 음식",
+    "en": "Florentine street sandwich of slow-cooked tripe",
+    "ja": "煮込んだ牛の胃をパンに挟んだフィレンツェの屋台料理"
+  },
+  "nara:Chagayu": {
+    "ko": "볶은 차를 우린 물에 밥을 넣고 끓인 차죽",
+    "en": "Rice porridge cooked in roasted tea",
+    "ja": "ほうじ茶で炊いた茶粥"
+  },
+  "nara:Kakinoha-zushi": {
+    "ko": "절인 생선을 감잎에 싼 누름초밥",
+    "en": "Pressed sushi wrapped in persimmon leaves",
+    "ja": "柿の葉で包んだ押し寿司"
+  },
+  "nara:Miwa somen": {
+    "ko": "탄력 있고 매끄러운 나라의 소면",
+    "en": "Springy, smooth thin noodles from Nara",
+    "ja": "コシがあり滑らかな奈良の素麺"
+  },
+  "taichung:Mayi soup": {
+    "ko": "황마 어린잎으로 끓인 중부 대만 전통 수프",
+    "en": "Central Taiwan soup of young jute leaves",
+    "ja": "黄麻の若葉で作る台湾中部の伝統スープ"
+  },
+  "taichung:Damiangeng": {
+    "ko": "굵은 면을 걸쭉하게 끓인 타이중 아침 간식",
+    "en": "Thick noodle soup, a Taichung breakfast",
+    "ja": "太麺をとろみのあるスープで煮た台中の朝ごはん"
+  },
+  "taichung:Pearl milk tea": {
+    "ko": "타이중에서 시작된 것으로 알려진 버블티",
+    "en": "Bubble tea, said to have started in Taichung",
+    "ja": "台中発祥とされるタピオカミルクティー"
+  },
+  "taichung:Suncake": {
+    "ko": "바삭한 껍질에 맥아 소를 넣은 타이중 대표 과자",
+    "en": "Flaky pastry with malt filling, Taichung’s signature snack",
+    "ja": "サクサクの生地に麦芽あんを包んだ台中名物"
+  },
+  "boracay:Lechon": {
+    "ko": "통째로 구운 돼지고기",
+    "en": "Whole roast pig",
+    "ja": "豚の丸焼き"
+  },
+  "boracay:Adobo": {
+    "ko": "식초·간장에 졸인 필리핀 대표 고기 요리",
+    "en": "Meat braised in vinegar and soy, a Filipino staple",
+    "ja": "酢と醤油で煮込んだフィリピンの定番料理"
+  },
+  "boracay:Halo-halo": {
+    "ko": "빙수에 과일·콩·우베를 섞은 디저트",
+    "en": "Shaved ice with fruit, beans and ube",
+    "ja": "かき氷に果物・豆・紫芋を混ぜたデザート"
   }
 }

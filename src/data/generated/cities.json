@@ -477,7 +477,7 @@
     "nameEn": "Boracay",
     "currency": "PHP",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "qingdao",
@@ -567,7 +567,7 @@
     "nameEn": "Taichung",
     "currency": "TWD",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "kota-kinabalu",
@@ -577,7 +577,7 @@
     "nameEn": "Kota Kinabalu",
     "currency": "MYR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "zhangjiajie",
@@ -587,7 +587,7 @@
     "nameEn": "Zhangjiajie",
     "currency": "CNY",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "melbourne",
@@ -597,7 +597,7 @@
     "nameEn": "Melbourne",
     "currency": "AUD",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "florence",
@@ -607,7 +607,7 @@
     "nameEn": "Florence",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "venice",
@@ -617,7 +617,7 @@
     "nameEn": "Venice",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "madrid",
@@ -627,7 +627,7 @@
     "nameEn": "Madrid",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "nice",
@@ -637,7 +637,7 @@
     "nameEn": "Nice",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "san-francisco",
@@ -647,7 +647,7 @@
     "nameEn": "San Francisco",
     "currency": "USD",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "almaty",

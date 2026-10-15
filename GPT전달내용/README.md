@@ -3,6 +3,9 @@
 > **2026-10-19부터 GPT가 운영(수집 + 반영 + 검사 + 배포)을 맡습니다. 먼저 [`인계_GPT주도_2026-10-19.md`](인계_GPT주도_2026-10-19.md)를 읽으세요.**
 
 ChatGPT가 할 일만 이 폴더에 모았습니다. **새 할 일은 `할일_2026-10-16.md`**(새 나라 4곳: 코펜하겐·스톡홀름·헬싱키·더블린) 입니다. `할일_2026-10-15.md`도 남은 것 계속. `할일_2026-10-14.md` G~N 중 남은 것을 먼저 마쳐 주세요(규칙·CSV 형식은 `할일_2026-10-11.md`).
+
+> **[2026-10-15 Claude] 대기 조건 없음.** 10-15 P(새 나라 4곳)는 크롬이 끝내서 모두 공개됐습니다. 10/17까지 기다리지 말고 **[`할일_2026-10-16.md`](할일_2026-10-16.md) Q(코펜하겐·스톡홀름·헬싱키·더블린)를 바로 시작**해 주세요. G~M 잔여(달랏 교통, 보라카이, L 공란, M 사진 16개)는 Q와 병행하되 Q를 먼저.
+
 예전 자료(10월 4일 인계 문서·UI 검수표)는 `이전_2026-10-04/`로 옮겼습니다. 이번 작업에는 쓰지 않습니다.
 
 ## 파일
@@ -611,3 +614,4 @@ ChatGPT가 할 일만 이 폴더에 모았습니다. **새 할 일은 `할일_20
 - M 음식사진 추가 재점검 (2026-10-15): `결과/M_음식사진_2026-10-14.csv`에 사이판 코코넛 크랩 후보 1건을 추가했습니다. Commons 파일 페이지를 두 번 열어 파일 설명·작가·CC BY-SA 3.0과 Original file URL을 확인했습니다. 사진 설명상 촬영지는 코타키나발루이고 조리 후 접시에 담긴 모습은 아니라서 비고에 제한을 분명히 적었습니다. 요청 키 기준 135/150개가 채워져 15개 남았습니다: `dubrovnik:Green Menestra`, `dubrovnik:Sporchi Macaroni`, `fukuoka:Mizutaki`, `jeonju:Jeonju Choco Pie`, `kanazawa:Hasu-mushi`, `kobe:Sujiyaki`, `nha-trang:Grilled Seafood`, `phu-quoc:Grilled Seafood`, `phuket:Moo Hong`, `phuket:Nam Phrik Kung Siap`, `phuket:Kaeng Nuea Bai Chaphlu`, `phuket:Phat Phak Miang`, `qingdao:Spicy Stir-fried Clams`, `sokcho:Pollock Hoe Muchim`, `tongyeong:Ppaettegi-juk`.
 
 - L 로마 메뉴 PDF 추가 재시도: Tonnarello 공식 대체 메뉴 `https://tonnarello.it/wp-content/uploads/2026/01/Tonnarello_MULTI_All-INV2025.pdf`를 두 번 열었지만 28,233,418 bytes 초과로 도구가 읽지 못했습니다. 검색 색인에 보인 금액은 직접 열람 요건을 충족하지 않아 ROM-FD-401~403 판정은 공란 유지.
+- 2026-10-15 Claude: 크롬 11행 반영(트빌리시 간식 3·주류 2, 칸쿤 간식·주류, 알마티 맥주 1). 타슈켄트 교통 출처를 교통부 공지(gov.uz, 2026-10-01 새 요금 2,500~3,000숨·1일권 13,500숨)로 교체.

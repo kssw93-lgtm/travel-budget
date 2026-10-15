@@ -112,15 +112,13 @@
 | 알마티 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 알마티 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 알마티 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
-| 타슈켄트 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 타슈켄트 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 타슈켄트 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 타슈켄트 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 트빌리시 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 트빌리시 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
-| 트빌리시 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 칸쿤 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 칸쿤 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
-| 칸쿤 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -486,7 +484,6 @@
 | ALA-AT-103 | 알마티 | 알마티 동물원 입장권(12세 이상·성인) | 1427 KZT | A | 예 | 재검증 | [Almaty Zoo](https://almatyzoo.kz/ru/plan-your-visit/) |
 | ALA-AT-104 | 알마티 | 알마티 동물원 입장권(아동 7~11세) | 562 KZT | A | 예 | 재검증 | [Almaty Zoo](https://almatyzoo.kz/ru/plan-your-visit/) |
 | ALA-AT-105 | 알마티 | 심불락 케이블카 도보 관광객 왕복권(메데우~콤비-2) | 4000 KZT | A | 조건부 | 조건부, 재검증 | [Shymbulak Resort](https://shymbulak.com/tickets) |
-| TAS-TR-101 | 타슈켄트 | 타슈켄트 지하철 1회 요금 | 1700~3000 UZS | A | 조건부 | 조건부, 재검증 | [Toshshahartransxizmat (tashtrans.uz)](https://tashtrans.uz/oplata-proezda-v-metropolitene-tashkenta/) |
 | TBS-TR-101 | 트빌리시 | 트빌리시 시내교통 1회 요금(90분 무제한) | 1 GEL | A | 예 | 재검증 | [Tbilisi Transport Company](https://ttc.com.ge/en/tariff/10) |
 | TBS-TR-102 | 트빌리시 | 트빌리시 시내교통 1일 무제한 | 3 GEL | A | 예 | 재검증 | [Tbilisi Transport Company](https://ttc.com.ge/en/tariff/10) |
 | TBS-AT-101 | 트빌리시 | 리케–나리칼라 케이블카 편도 | 2.5 GEL | A | 예 | 재검증 | [Tbilisi Transport Company](https://ttc.com.ge/en/tariff/10) |
@@ -522,6 +519,16 @@
 | TBS-FD-102 | 트빌리시 | 케리아 이메룰리 하차푸리(작은 것) | 14 GEL | A | 예 | 재검증 | [Keria (트빌리시 빵집·식당 체인 자체 사이트)](https://keria.com.ge/menu/) |
 | TBS-FD-103 | 트빌리시 | 라디오카페 아자룰리 하차푸리(440g) | 21 GEL | A | 조건부 | 조건부, 재검증 | [RadioCafe](https://radiocafe.ge/en/adzharskiy) |
 | TBS-AL-101 | 트빌리시 | 라디오카페 이메레티 와인 '다섯 포도'(테라 키시) 0.15L | 19 GEL | A | 예 | 재검증 | [RadioCafe](https://radiocafe.ge/en/adzharskiy) |
+| ALA-AL-101 | 알마티 | 지굴리 바 병맥주 구베르니야 500ml | 2290 KZT | A | 예 | 재검증 | [Zhiguli Bar (공식 사이트에서 연결된 QR 메뉴)](https://zhiguli-bar-main.pages.dev/) |
+| TBS-SN-101 | 트빌리시 | 라디오카페 수제 아이스크림(마다가스카르 바닐라) | 5 GEL | A | 예 | 재검증 | [RadioCafe](https://radiocafe.ge/en/menu) |
+| TBS-SN-102 | 트빌리시 | 케리아 로비아니(콩빵) 작은 것 | 8 GEL | A | 예 | 재검증 | [Keria](https://keria.com.ge/menu/) |
+| TBS-SN-103 | 트빌리시 | 올드 바라카 코카콜라 0.5L | 4 GEL | A | 예 | 재검증 | [Old Baraqa (자체 주문 사이트)](https://oldbaraqa.ge/en/shop/) |
+| TBS-AL-102 | 트빌리시 | 올드 바라카 나타흐타리 맥주 0.5L | 5.5 GEL | A | 예 | 재검증 | [Old Baraqa (자체 주문 사이트)](https://oldbaraqa.ge/en/shop/) |
+| TBS-AL-103 | 트빌리시 | 프칼리 힌칼리 병맥주 나타흐타리 500ml | 12 GEL | A | 예 | 재검증 | [Pkhali Khinkali (드링크 메뉴 PDF)](https://pkhalikhinkali.ge/wp-content/uploads/2026/04/Pkhali-drinks-menu.pdf) |
+| TAS-TR-101 | 타슈켄트 | 타슈켄트 버스·지하철 1회 요금 | 2500~3000 UZS | A | 예 | 재검증 | [Ministry of Transport of the Republic of Uzbekistan (gov.uz)](https://gov.uz/ru/mintrans/news/view/225119) |
+| TAS-TR-102 | 타슈켄트 | 타슈켄트 1일 정액권(버스+지하철) | 13500 UZS | A | 예 | 재검증 | [Ministry of Transport of the Republic of Uzbekistan (gov.uz)](https://gov.uz/ru/mintrans/news/view/225119) |
+| CUN-SN-103 | 칸쿤 | 애플비 칸쿤 아메리카노 260ml | 55 MXN | A | 예 | 재검증 | [Applebee's México (Menú Alta (Cancún) PDF)](https://applebeesmx.s3.amazonaws.com/cdn/assets/2024/12/Menu-Applebees-.pdf) |
+| CUN-AL-103 | 칸쿤 | 애플비 칸쿤 국산 맥주 355ml | 65 MXN | A | 예 | 재검증 | [Applebee's México (Menú Alta (Cancún) PDF)](https://applebeesmx.s3.amazonaws.com/cdn/assets/2024/12/Menu-Applebees-.pdf) |
 | SPN-AT-101 | 사이판 | 마나가하 섬 상륙료(비거주자) | 5 USD | A | 조건부 | 조건부, 재검증 | [CNMI Law Revision Commission – Commonwealth Code 2 CMC § 1621](https://cnmilaw.gov/commonwealth-code/1598) |
 | BUD-AT-301 | 부다페스트 | 세체니 온천 1일권(라커 포함) | 13200~15800 HUF | A | 예 | 재검증 | [Széchenyi Thermal Bath](https://www.szechenyibath.hu/prices) |
 | MUC-AT-301 | 뮌헨 | 독일박물관 1일권(성인) | 16 EUR | A | 예 | 재검증 | [Deutsches Museum](https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets) |

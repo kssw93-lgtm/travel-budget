@@ -219,3 +219,4 @@ details:not([open]) > summary .toggle-hint .when-open, details[open] > summary .
 .start-hint { color: var(--muted); margin: 0; }
 .city-notes .highlights li { margin: .5rem 0; } .city-notes .highlights strong { display: block; }
 .guide-cta { margin: 0; text-align: center; }
+.city-notes > h2:first-child { margin-top: 0; }

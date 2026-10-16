@@ -5,6 +5,7 @@
 import { cityGuide, guidePath } from '../src/core/guide';
 import { formatMoney } from '../src/core/money';
 import { CITY_GUIDES } from '../src/data/city-guides';
+import { CITY_INTROS } from '../src/data/city-intros';
 import { CITY_SEASONS } from '../src/data/city-seasons';
 import { COUNTRY_GUIDES } from '../src/data/country-guides';
 import type { City, CityMemo, ExtraSample, FoodRecommendation, PriceSample, Range } from '../src/core/types';
@@ -98,23 +99,32 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const ride = g.prices.find((p) => p.basket === 'ride');
   const std = g.styles.find((x) => x.style === 'standard');
   const facts = [meal && fill(s.meal, { v: money(meal.median, cur) }), ride && fill(s.ride, { v: money(ride.median, cur) }), std?.perDay && fill(s.perDay, { v: range(std.perDay, cur) })].filter(Boolean);
-  const description = `${fill(t.metaDescription, { city: name })} ${facts.length ? fill(s.descTail, { facts: facts.join(', ') }) : ''}`.trim();
+  const intro = CITY_INTROS[city.id];
+  const days = intro ? { min: intro.d[0], max: intro.d[1], nights: Math.max(1, intro.d[1] - 1) } : null;
+  const lead = intro ? intro.o[IDX[lang]] : fill(t.metaDescription, { city: name });
+  const description = `${lead} ${facts.length ? fill(s.descTail, { facts: facts.join(', ') }) : ''}`.trim();
 
   const note = CITY_GUIDES[city.id];
-  const notes = note
-    ? `        <h2>${e(fill(t.highlightsTitle, { city: name }))}</h2><ul>${note.highlights.map((h) => `<li><strong>${e(h.name[lang])}</strong> ${e(h.text[lang])}</li>`).join('')}</ul>` +
-      (note.tips.length ? `<h3>${e(fill(t.tipsTitle, { city: name }))}</h3><ul>${note.tips.map((x) => `<li>${e(x[lang])}</li>`).join('')}</ul>` : '') +
-      (CITY_SEASONS[city.id] ? `<h3>${e(fill(t.seasonTitle, { city: name }))}</h3><p>${e(CITY_SEASONS[city.id]![IDX[lang]])} ${e(t.seasonHint)}</p>` : '')
+  const sights = note
+    ? `        <h2>${e(fill(t.highlightsTitle, { city: name }))}</h2><ol>${note.highlights.map((h) => `<li><strong>${e(h.name[lang])}</strong> ${e(h.text[lang])}</li>`).join('')}</ol>`
     : '';
+  const stay = intro?.s.length
+    ? `        <h2>${e(fill(t.stayTitle, { city: name }))}</h2><dl>${intro.s.map((a) => `<dt>${e(a[IDX[lang]])}</dt><dd>${e(a[3 + IDX[lang]] ?? "")}</dd>`).join('')}</dl>`
+    : '';
+  const season = CITY_SEASONS[city.id];
+  const cityTips =
+    (season ? `<h3>${e(fill(t.seasonTitle, { city: name }))}</h3><p>${e(season[IDX[lang]])} ${e(t.seasonHint)}</p>` : '') +
+    (note?.tips.length ? `<h3>${e(fill(t.tipsTitle, { city: name }))}</h3><ul>${note.tips.map((x) => `<li>${e(x[lang])}</li>`).join('')}</ul>` : '');
   const cn = COUNTRY_GUIDES[city.countryEn];
   const i = IDX[lang];
   const item = (x: readonly [string, string, string, string?]) => `<li>${e(x[i])}${x[3] ? ` <small><a href="${e(x[3])}" rel="noopener">${e(t.sourceLink)}</a></small>` : ''}</li>`;
   const countryNotes = cn
-    ? `        <h2>${e(fill(t.countryTipsTitle, { country }))}</h2><ul>${cn.tips.map(item).join('')}</ul>` +
+    ? `<h3>${e(fill(t.countryTipsTitle, { country }))}</h3><ul>${cn.tips.map(item).join('')}</ul>` +
       `<h3>${e(fill(t.cautionsTitle, { country }))}</h3><ul>${cn.cautions.map(item).join('')}</ul>` +
       `<p>${e(t.countryNotesHint)}</p>`
     : '';
-  const cta = `        <p><a href="/?lang=${lang}&amp;city=${e(city.id)}">${e(fill(t.cta, { city: name }))}</a></p>`;
+  const ctaText = days ? fill(t.ctaNights, { city: name, n: days.nights, d: days.nights + 1 }) : fill(t.cta, { city: name });
+  const cta = `        <p><a href="/?lang=${lang}&amp;city=${e(city.id)}${days ? `&amp;nights=${days.nights}` : ''}">${e(ctaText)}</a></p>`;
   const attractions = g.attractions
     .map((o) => {
       const x = o.adult.sample;
@@ -147,20 +157,24 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const ownMeals = d.samples.some((x) => x.cityId === city.id && x.category === 'food' && /한끼/.test(x.subtype));
   const borrowedNote = ownMeals ? '' : `        <p>${e(fill(s.borrowed, { city: name, country }))}</p>`;
 
+  const tips = cityTips || countryNotes ? `        <h2>${e(fill(t.tipsSectionTitle, { city: name }))}</h2>${cityTips}${countryNotes}` : '';
   const fallbackHtml = [
     `        <nav><a href="/guides?lang=${lang}">${e(t.indexTitle)}</a> › ${e(country)}</nav>`,
     `        <h1>${e(fill(t.title, { city: name }))}</h1>`,
-    `        <p>${e(fill(t.lead, { city: name, date: d.updated }))}</p>`,
+    `        <p>${e(lead)}</p>`,
+    days && `        <p>${e(days.min === days.max ? fill(t.daysOne, { n: days.min }) : fill(t.daysRange, { min: days.min, max: days.max }))}</p>`,
     cta,
-    notes,
-    countryNotes,
+    sights,
+    stay,
+    passTips && `        <h2>${e(t.passTipTitle)}</h2><p>${e(fill(t.passTipLead, { ride: money(ride!.median, cur) }))}</p><ul>${passTips}</ul>`,
+    foods && `        <h2>${e(fill(MSG[lang].foods.title, { city: name }))}</h2><ul>${foods}</ul>`,
+    tips,
     borrowedNote,
     menuExamples && `        <h2>${e(fill(s.menuTitle, { city: name }))}</h2><p>${e(s.menuLead)}</p><ul>${menuExamples}</ul>`,
-    passTips && `        <h2>${e(t.passTipTitle)}</h2><p>${e(fill(t.passTipLead, { ride: money(ride!.median, cur) }))}</p><ul>${passTips}</ul>`,
     attractions && `        <h2>${e(fill(t.attractionsTitle, { city: name }))}</h2><p>${e(t.attractionsLead)}</p><ul>${attractions}</ul>`,
-    foods && `        <h2>${e(fill(MSG[lang].foods.title, { city: name }))}</h2><ul>${foods}</ul>`,
     memos && `        <h2>${e(fill(m.title, { city: name }))}</h2><p>${e(m.lead)}</p><ul>${memos}</ul>`,
     cta,
+    `        <p>${e(fill(t.lead, { city: name, date: d.updated }))}</p>`,
   ]
     .filter(Boolean)
     .join('\n');

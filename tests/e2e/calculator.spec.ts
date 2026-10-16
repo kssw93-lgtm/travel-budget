@@ -354,8 +354,12 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     const notes = page.getByTestId('guide-notes');
     await expect(notes).toContainText('도쿄에서 놓치지 말 것');
     await expect(notes).toContainText('센소지');
-    await expect(notes).toContainText('도쿄 여행 팁');
-    await expect(notes).toContainText('도쿄 여행하기 좋은 시기');
+    const tips = page.getByTestId('guide-tips');
+    await expect(tips).toContainText('도쿄 여행 팁과 조심할 점');
+    await expect(tips).toContainText('도쿄 여행하기 좋은 시기');
+    await expect(page.getByTestId('guide-intro')).toContainText('아사쿠사');
+    await expect(page.getByTestId('guide-stay')).toContainText('신주쿠');
+    await expect(page.getByTestId('guide-toc').getByRole('link', { name: '숙소 위치' })).toHaveAttribute('href', '#stay');
     await expect(page.getByTestId('guide-example')).toHaveCount(0);
     await expect(page.getByTestId('price-guide')).toHaveCount(0);
     const country = page.getByTestId('guide-country');
@@ -450,10 +454,11 @@ test.describe('도시 가이드', () => {
     await expect(page.locator('main h1')).toHaveText('파리 여행 경비 가이드');
     await expect(page).toHaveTitle(/^파리 여행 경비·물가, 볼거리와 여행 팁 — 여행 경비 계산기$/);
     await expect(page.getByTestId('guide-attractions')).toContainText('에펠탑');
-    // 위·아래 두 곳에 같은 버튼: 누르면 도시만 고른 계산기로 간다(일정은 사용자가 입력)
-    await expect(page.getByRole('link', { name: '파리 여행 경비 계산해 보기' })).toHaveCount(2);
-    await page.getByRole('link', { name: '파리 여행 경비 계산해 보기' }).first().click();
+    // 위·아래 두 곳에 같은 버튼: 누르면 도시와 추천 박 수를 채운 계산기로 간다(날짜는 사용자가 입력)
+    await expect(page.getByRole('link', { name: '파리 4박 5일 여행 경비 계산해 보기' })).toHaveCount(2);
+    await page.getByRole('link', { name: '파리 4박 5일 여행 경비 계산해 보기' }).first().click();
     await expect(page.locator('#city')).toHaveValue('paris');
+    await expect(page.locator('#nights')).toHaveValue('4');
     await expect(page.locator('#date')).toHaveValue('');
   });
 
@@ -461,7 +466,8 @@ test.describe('도시 가이드', () => {
     const html = await (await request.get('/guide/osaka.html')).text();
     expect(html).toContain('<title>오사카 여행 경비·물가, 볼거리와 여행 팁 — 여행 경비 계산기</title>');
     expect(html).toContain('<h1>오사카 여행 경비 가이드</h1>');
-    expect(html).toContain('오사카 여행 경비 계산해 보기');
+    expect(html).toContain('오사카 3박 4일 여행 경비 계산해 보기');
+    expect(html).toContain('오사카 숙소, 어디에 잡을까');
     expect(html).toContain('오사카에서 놓치지 말 것');
     expect(html).not.toContain('3박 4일 예상 현지 체류비');
     await mockRates(page);

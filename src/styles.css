@@ -227,3 +227,18 @@ details:not([open]) > summary .toggle-hint .when-open, details[open] > summary .
 .guide-group h2 { font-size: 1rem; color: var(--muted); margin: 0 0 8px; }
 .country-notes .cautions li::marker { color: var(--err); }
 .crumbs { font-size: .9rem; color: var(--muted); margin: 0 0 6px; } .crumbs a { color: inherit; }
+
+/* 도시 가이드: 소개·목차·숙소 */
+.guide-intro { font-size: 1.05rem; line-height: 1.75; max-width: 62ch; }
+.guide-facts { margin: 8px 0; }
+.chip { display: inline-block; padding: 4px 10px; border-radius: 999px; background: color-mix(in srgb, var(--brand) 12%, var(--card)); color: var(--ink); font-size: .9rem; font-weight: 600; }
+.guide-toc { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); font-size: .92rem; }
+.guide-toc a { font-weight: 600; }
+.city-notes ol.highlights { padding-left: 1.3em; }
+.city-notes ol.highlights li { margin: 6px 0; }
+.areas { display: grid; gap: 10px; margin: 0; }
+.areas div { border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
+.areas dt { font-weight: 700; }
+.areas dd { margin: 4px 0 0; color: var(--muted); }
+#sights, #stay, #transport, #food, #tips, #costs { scroll-margin-top: 16px; }
+.stay-areas h2, .city-tips h2 { margin-top: 0; }

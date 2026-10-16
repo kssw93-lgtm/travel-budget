@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { cities } from '../../src/data';
+import { CITY_INTROS } from '../../src/data/city-intros';
 import { CITY_SEASONS } from '../../src/data/city-seasons';
 import { COUNTRY_GUIDES } from '../../src/data/country-guides';
 
@@ -24,6 +25,17 @@ describe('나라별 알아둘 것·조심할 것', () => {
       expect(s, c.id).toBeDefined();
       expect(s!.slice(0, 3).every((x) => !!x && x.length > 10), c.id).toBe(true);
       expect(s![3], c.id).toMatch(/^https:\/\//);
+    }
+  });
+
+  it('공개된 모든 도시에 소개·추천 기간·숙소 동네가 있다', () => {
+    for (const c of cities) {
+      const i = CITY_INTROS[c.id];
+      expect(i, c.id).toBeDefined();
+      expect(i!.o.every((x) => x.length > 30), c.id).toBe(true);
+      expect(i!.d[0] >= 1 && i!.d[0] <= i!.d[1], c.id).toBe(true);
+      expect(i!.s.length, c.id).toBeGreaterThan(0);
+      expect(i!.o.join(' '), c.id).not.toMatch(/[$€£¥₩]\s?\d|\d\s?(원|円|달러|유로)/);
     }
   });
 });

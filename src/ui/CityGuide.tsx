@@ -4,6 +4,7 @@ import { formatMoney } from '../core/money';
 import type { City, PriceSample } from '../core/types';
 import { cities, dataDate, dataMeta, extras, foods, memos, samples } from '../data';
 import { CITY_GUIDES } from '../data/city-guides';
+import { CITY_INTROS } from '../data/city-intros';
 import { CITY_SEASONS } from '../data/city-seasons';
 import { COUNTRY_GUIDES } from '../data/country-guides';
 import { DEFAULT_CURRENCY, fmt, localName, useI18n, type Lang } from '../i18n';
@@ -78,72 +79,96 @@ export function GuideIndex({ go }: { go: Go }) {
   );
 }
 
-/** 나라별 알아둘 것·조심할 것(데이터가 있는 나라만) */
-function CountryNotes({ city }: { city: City }) {
-  const { t, lang } = useI18n();
-  const g = t.cityGuide;
-  const note = COUNTRY_GUIDES[city.countryEn];
-  if (!note) return null;
-  const i = lang === 'ko' ? 0 : lang === 'en' ? 1 : 2;
-  const country = countryName(city, lang);
-  return (
-    <section className="card prose country-notes" aria-labelledby="guide-country-title" data-testid="guide-country">
-      <h2 id="guide-country-title">{fmt(g.countryTipsTitle, { country })}</h2>
-      <ul>
-        {note.tips.map((x) => (
-          <li key={x[1]}>
-            {x[i]}
-            {x[3] && (
-              <>
-                {' '}
-                <small>
-                  <ExternalLink href={x[3]}>{g.sourceLink}</ExternalLink>
-                </small>
-              </>
-            )}
-          </li>
-        ))}
-      </ul>
-      <h3>{fmt(g.cautionsTitle, { country })}</h3>
-      <ul className="cautions">
-        {note.cautions.map((x) => (
-          <li key={x[1]}>
-            {x[i]}
-            {x[3] && (
-              <>
-                {' '}
-                <small>
-                  <ExternalLink href={x[3]}>{g.sourceLink}</ExternalLink>
-                </small>
-              </>
-            )}
-          </li>
-        ))}
-      </ul>
-      <p className="hint">{g.countryNotesHint}</p>
-    </section>
-  );
+const L = (lang: Lang) => (lang === 'ko' ? 0 : lang === 'en' ? 1 : 2);
+
+/** 추천 일정(일수)과 그에 맞춘 박 수. 소개 데이터가 없으면 null */
+export function tripDays(cityId: string): { min: number; max: number; nights: number } | null {
+  const intro = CITY_INTROS[cityId];
+  if (!intro) return null;
+  const [min, max] = intro.d;
+  return { min, max, nights: Math.max(1, max - 1) };
 }
 
-/** 그 도시만의 볼거리·현지 팁(데이터가 있는 도시만) */
-function CityNotes({ city }: { city: City }) {
+/** 놓치지 말 볼거리 */
+function Highlights({ city }: { city: City }) {
   const { t, lang } = useI18n();
   const g = t.cityGuide;
   const note = CITY_GUIDES[city.id];
-  if (!note) return null;
-  const name = cityName(city, lang);
-  const season = CITY_SEASONS[city.id];
+  if (!note || note.highlights.length === 0) return null;
   return (
-    <section className="card prose city-notes" aria-labelledby="guide-notes-title" data-testid="guide-notes">
-      <h2 id="guide-notes-title">{fmt(g.highlightsTitle, { city: name })}</h2>
-      <ul className="highlights">
+    <section id="sights" className="card prose city-notes" aria-labelledby="guide-notes-title" data-testid="guide-notes">
+      <h2 id="guide-notes-title">{fmt(g.highlightsTitle, { city: cityName(city, lang) })}</h2>
+      <ol className="highlights">
         {note.highlights.map((h) => (
           <li key={h.name.en}>
             <strong>{h.name[lang]}</strong> {h.text[lang]}
           </li>
         ))}
-      </ul>
-      {note.tips.length > 0 && (
+      </ol>
+      {note.source && (
+        <p className="hint">
+          {g.notesSource} <ExternalLink href={note.source.url}>{note.source.name}</ExternalLink>
+        </p>
+      )}
+    </section>
+  );
+}
+
+/** 숙소 잡기 좋은 동네 */
+function StayAreas({ city }: { city: City }) {
+  const { t, lang } = useI18n();
+  const g = t.cityGuide;
+  const intro = CITY_INTROS[city.id];
+  if (!intro || intro.s.length === 0) return null;
+  const i = L(lang);
+  return (
+    <section id="stay" className="card prose stay-areas" aria-labelledby="guide-stay-title" data-testid="guide-stay">
+      <h2 id="guide-stay-title">{fmt(g.stayTitle, { city: cityName(city, lang) })}</h2>
+      <dl className="areas">
+        {intro.s.map((a) => (
+          <div key={a[1]}>
+            <dt>{a[i]}</dt>
+            <dd>{a[3 + i]}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  );
+}
+
+/** 그 도시의 현지 팁 + 여행 시기 + 나라 전체의 알아둘 것·조심할 것 */
+function TipsAndCautions({ city }: { city: City }) {
+  const { t, lang } = useI18n();
+  const g = t.cityGuide;
+  const note = CITY_GUIDES[city.id];
+  const season = CITY_SEASONS[city.id];
+  const country = COUNTRY_GUIDES[city.countryEn];
+  if (!note?.tips.length && !season && !country) return null;
+  const name = cityName(city, lang);
+  const cname = countryName(city, lang);
+  const i = L(lang);
+  const src = (url?: string) =>
+    url && (
+      <>
+        {' '}
+        <small>
+          <ExternalLink href={url}>{g.sourceLink}</ExternalLink>
+        </small>
+      </>
+    );
+  return (
+    <section id="tips" className="card prose city-tips" aria-labelledby="guide-tips-title" data-testid="guide-tips">
+      <h2 id="guide-tips-title">{fmt(g.tipsSectionTitle, { city: name })}</h2>
+      {season && (
+        <>
+          <h3>{fmt(g.seasonTitle, { city: name })}</h3>
+          <p data-testid="guide-season">
+            {season[i]} <small className="muted">{g.seasonHint}</small>
+            {src(season[3])}
+          </p>
+        </>
+      )}
+      {note && note.tips.length > 0 && (
         <>
           <h3>{fmt(g.tipsTitle, { city: name })}</h3>
           <ul>
@@ -153,26 +178,28 @@ function CityNotes({ city }: { city: City }) {
           </ul>
         </>
       )}
-      {season && (
-        <>
-          <h3>{fmt(g.seasonTitle, { city: name })}</h3>
-          <p data-testid="guide-season">
-            {season[lang === 'ko' ? 0 : lang === 'en' ? 1 : 2]} <small className="muted">{g.seasonHint}</small>
-            {season[3] && (
-              <>
-                {' '}
-                <small>
-                  <ExternalLink href={season[3]}>{g.sourceLink}</ExternalLink>
-                </small>
-              </>
-            )}
-          </p>
-        </>
-      )}
-      {note.source && (
-        <p className="hint">
-          {g.notesSource} <ExternalLink href={note.source.url}>{note.source.name}</ExternalLink>
-        </p>
+      {country && (
+        <div className="country-notes" data-testid="guide-country">
+          <h3>{fmt(g.countryTipsTitle, { country: cname })}</h3>
+          <ul>
+            {country.tips.map((x) => (
+              <li key={x[1]}>
+                {x[i]}
+                {src(x[3])}
+              </li>
+            ))}
+          </ul>
+          <h3>{fmt(g.cautionsTitle, { country: cname })}</h3>
+          <ul className="cautions">
+            {country.cautions.map((x) => (
+              <li key={x[1]}>
+                {x[i]}
+                {src(x[3])}
+              </li>
+            ))}
+          </ul>
+          <p className="hint">{g.countryNotesHint}</p>
+        </div>
       )}
     </section>
   );
@@ -263,7 +290,7 @@ function AttractionTable({ guide, display, rates }: { guide: ReturnType<typeof c
   );
 }
 
-/** 도시 가이드(/guide/:city) — 계산기와 같은 엔진·같은 표본으로 만든 도시별 물가·예시 경비 */
+/** 도시 가이드(/guide/:city) — 이런 여행지 → 볼거리 → 숙소 → 교통 → 먹거리 → 팁·주의 → 비용 순서 */
 export function CityGuidePage({ city, go }: { city: City; go: Go }) {
   const { t, lang } = useI18n();
   const g = t.cityGuide;
@@ -271,10 +298,22 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
   const display = displayCurrency(lang);
   const guide = useMemo(() => cityGuide(city, samples, guideRefDate, extras), [city]);
   const name = cityName(city, lang);
-  const calc = `/?lang=${lang}&city=${city.id}`;
+  const intro = CITY_INTROS[city.id];
+  const days = tripDays(city.id);
+  const calc = `/?lang=${lang}&city=${city.id}${days ? `&nights=${days.nights}` : ''}`;
+  const ctaText = days ? fmt(g.ctaNights, { city: name, n: days.nights, d: days.nights + 1 }) : fmt(g.cta, { city: name });
+  const hasTransport = !!guide.prices.find((p) => p.basket === 'ride') && guide.passTips.length > 0;
+  const toc: Array<[string, string, boolean]> = [
+    ['sights', g.tocSights, !!CITY_GUIDES[city.id]?.highlights.length],
+    ['stay', g.tocStay, !!intro?.s.length],
+    ['transport', g.tocTransport, hasTransport],
+    ['food', g.tocFood, foods.some((f) => f.cityId === city.id)],
+    ['tips', g.tocTips, true],
+    ['costs', g.tocCosts, true],
+  ];
   return (
     <>
-      <section className="hero" data-testid="city-guide" data-city={city.id}>
+      <section className="hero guide-hero" data-testid="city-guide" data-city={city.id}>
         <nav className="crumbs" aria-label={g.indexTitle}>
           <InternalLink to={`/guides?lang=${lang}`} go={go}>
             {g.indexTitle}
@@ -282,25 +321,51 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
           › <span>{countryName(city, lang)}</span>
         </nav>
         <h1 tabIndex={-1}>{fmt(g.title, { city: name })}</h1>
-        <p>{fmt(g.lead, { city: name, date: dataDate })}</p>
+        {intro && (
+          <p className="guide-intro" data-testid="guide-intro">
+            {intro.o[L(lang)]}
+          </p>
+        )}
+        {days && (
+          <p className="guide-facts">
+            <span className="chip">{days.min === days.max ? fmt(g.daysOne, { n: days.min }) : fmt(g.daysRange, { min: days.min, max: days.max })}</span>
+          </p>
+        )}
         <p>
           <InternalLink className="button" to={calc} go={go}>
-            {fmt(g.cta, { city: name })}
+            {ctaText}
           </InternalLink>
         </p>
+        <nav className="guide-toc" aria-label={g.tocLabel} data-testid="guide-toc">
+          {toc
+            .filter(([, , on]) => on)
+            .map(([id, label]) => (
+              <a key={id} href={`#${id}`}>
+                {label}
+              </a>
+            ))}
+        </nav>
       </section>
 
-      <CityNotes city={city} />
-      <CountryNotes city={city} />
-      <PassTips guide={guide} />
-      <AttractionTable guide={guide} display={display} rates={rates} />
-      <FoodSection city={city} foods={foods} />
-      <CityMemos city={city} memos={memos} />
+      <Highlights city={city} />
+      <StayAreas city={city} />
+      <div id="transport">
+        <PassTips guide={guide} />
+      </div>
+      <div id="food">
+        <FoodSection city={city} foods={foods} />
+      </div>
+      <TipsAndCautions city={city} />
+      <div id="costs">
+        <AttractionTable guide={guide} display={display} rates={rates} />
+        <CityMemos city={city} memos={memos} />
+      </div>
       <p className="guide-cta">
         <InternalLink className="button" to={calc} go={go}>
-          {fmt(g.cta, { city: name })}
+          {ctaText}
         </InternalLink>
       </p>
+      <p className="hint">{fmt(g.lead, { city: name, date: dataDate })}</p>
     </>
   );
 }

@@ -1,4 +1,5 @@
 import type { City } from '../core/types';
+import { CITY_INTROS } from '../data/city-intros';
 import { fmt, LOCALES, messages, type Lang } from '../i18n';
 import { cityName } from './TripForm';
 import { routePath, type Route } from './pages';
@@ -31,7 +32,7 @@ export function applyMeta(lang: Lang, route: Route, city?: City) {
     about: t.meta.aboutDescription,
     privacy: t.meta.privacyDescription,
     guides: t.cityGuide.indexDescription,
-    guide: fmt(t.cityGuide.metaDescription, { city: name }),
+    guide: (city && CITY_INTROS[city.id]?.o[lang === 'ko' ? 0 : lang === 'en' ? 1 : 2]) || fmt(t.cityGuide.metaDescription, { city: name }),
   }[page];
   document.documentElement.lang = lang;
   document.title = title;

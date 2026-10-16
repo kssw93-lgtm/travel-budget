@@ -79,9 +79,12 @@ export function parseForm(f: FormState): ParsedForm {
   const flight = toAmount(f.flight);
   const lodging = toAmount(f.lodging);
 
-  if (!isIsoDate(f.visitDate)) errors.date = true;
-  if (!(nights >= L.nightsMin && nights <= L.nightsMax)) errors.nights = true;
-  if (!(adults >= L.adultsMin && adults <= L.adultsMax)) errors.adults = true;
+  // 아직 입력하지 않은 칸(빈칸)은 오류로 표시하지 않고, 계산만 하지 않는다
+  const blank = (v: string) => v.trim() === '';
+  const missing = !f.cityId || blank(f.visitDate) || blank(f.nights) || blank(f.adults);
+  if (!blank(f.visitDate) && !isIsoDate(f.visitDate)) errors.date = true;
+  if (!blank(f.nights) && !(nights >= L.nightsMin && nights <= L.nightsMax)) errors.nights = true;
+  if (!blank(f.adults) && !(adults >= L.adultsMin && adults <= L.adultsMax)) errors.adults = true;
   if (!(children >= 0 && children <= L.childrenMax)) errors.children = true;
   if (Number.isNaN(flight)) errors.flight = true;
   if (Number.isNaN(lodging)) errors.lodging = true;
@@ -115,7 +118,7 @@ export function parseForm(f: FormState): ParsedForm {
   }
   const drinksPerDay = toInt(f.drinksPerDay);
 
-  const tripValid = !errors.date && !errors.nights && !errors.adults && !errors.children;
+  const tripValid = !missing && !errors.date && !errors.nights && !errors.adults && !errors.children;
   return {
     trip: tripValid ? { cityId: f.cityId, visitDate: f.visitDate, nights, adults, children, style: f.style, attractionIds: f.attractions, drinks: f.drinks,
           ...(f.airport ? { airportId: f.airport, airportTrips: f.airportTrips === '1' ? 1 : 2 } : {}),

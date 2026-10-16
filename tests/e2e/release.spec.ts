@@ -74,7 +74,7 @@ test.describe('URL 입력 상태 보존', () => {
   test('잘못된 URL 값은 무시하고 기본값을 쓴다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/?city=atlantis&style=luxury&cur=<script>&lang=xx');
-    await expect(page.locator('#city')).toHaveValue('tokyo');
+    await expect(page.locator('#city')).toHaveValue('');
     await expect(page.locator('input[name="style"][value="standard"]')).toBeChecked();
     await expect(page.locator('#currency')).toHaveValue('KRW');
   });

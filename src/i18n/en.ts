@@ -10,11 +10,12 @@ export const en: Messages = {
   nav: { calculator: 'Calculator', guides: 'City guides', language: 'Language', skip: 'Skip to content', main: 'Main menu' },
   home: {
     title: 'How much will you spend there?',
+    startHint: 'Enter a city, visit date, nights and adults to see your estimated local costs here.',
     lead: 'Choose a city and trip details to get a min–max estimate for food, local transport and attractions. A shopping/gift budget, flights and lodging are added only if you enter them yourself.',
   },
   form: {
     title: 'Trip details',
-    city: 'City', citySearch: 'Search city or country', citySearchPlaceholder: 'Search city or country (e.g. Tokyo, Japan, Paris)', cityMatches: '{n} cities', cityNoMatch: 'Not available yet. More cities are added as research is completed.', cityUpcoming: "{names}: we're collecting official prices. Coming soon.", visitDate: 'Visit date', nights: 'Nights', adults: 'Adults', children: 'Children',
+    city: 'City', citySearch: 'Search city or country', citySearchPlaceholder: 'Search city or country (e.g. Tokyo, Japan, Paris)', cityMatches: '{n} cities', cityNoMatch: 'Not available yet. More cities are added as research is completed.', cityUpcoming: "{names}: we're collecting official prices. Coming soon.", cityPlaceholder: 'Choose a city', nightsPlaceholder: 'e.g. 3', adultsPlaceholder: 'e.g. 2', visitDate: 'Visit date', nights: 'Nights', adults: 'Adults', children: 'Children',
     style: 'Travel style',
     drinks: 'Include drinks (adults)',
     shopping: 'Include shopping and gifts', shoppingHint: 'Spending on souvenirs and gifts varies too much to estimate from prices. Tick this and set the amount yourself (for the whole group and trip, no contingency added).', shoppingAmount: 'Planned shopping and gifts ({currency})',

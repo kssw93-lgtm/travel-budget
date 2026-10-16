@@ -13,12 +13,6 @@ import { useRates } from './useRates';
 import { calcMemory, formToSearch, readForm } from './urlState';
 import { currentLoc, replaceLoc } from './router';
 
-const today = () => {
-  const d = new Date();
-  const p = (n: number) => String(n).padStart(2, '0');
-  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
-};
-
 function savedCurrency(): string | null {
   try {
     return localStorage.getItem('currency');
@@ -34,10 +28,11 @@ export function Calculator() {
     const fromUrl = readForm(currentLoc().search, cities.map((c) => c.id));
     const currency = savedCurrency() ?? DEFAULT_CURRENCY[lang];
     return {
-      cityId: cities[0]?.id ?? '',
-      visitDate: today(),
-      nights: '3',
-      adults: '2',
+      // 첫 화면은 아무 도시·일정도 미리 고르지 않는다(사용자가 직접 고른다)
+      cityId: '',
+      visitDate: '',
+      nights: '',
+      adults: '',
       children: '0',
       style: 'standard',
       currency,
@@ -153,7 +148,14 @@ export function Calculator() {
           <FoodSection city={city} foods={foods} />
         </>
       ) : (
-        <RatesNotice rates={rates} display={form.currency} />
+        <>
+          {!parsed.trip || !city ? (
+            <p className="card start-hint" data-testid="start-hint">
+              {t.home.startHint}
+            </p>
+          ) : null}
+          <RatesNotice rates={rates} display={form.currency} />
+        </>
       )}
     </>
   );

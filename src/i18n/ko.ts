@@ -9,11 +9,12 @@ export const ko = {
   nav: { calculator: '계산기', guides: '도시 가이드', language: '언어', skip: '본문으로 건너뛰기', main: '주 메뉴' },
   home: {
     title: '현지에서 얼마나 쓸까?',
+    startHint: '도시와 방문일·숙박 수·성인 인원을 입력하면 예상 현지 경비가 여기에 나옵니다.',
     lead: '도시와 일정을 고르면 외식·교통·관광 예상 경비를 최소~최대 범위로 계산합니다. 쇼핑·선물 예산과 항공권·숙박은 직접 입력한 경우에만 더합니다.',
   },
   form: {
     title: '여행 조건',
-    city: '도시', citySearch: '도시·나라 검색', citySearchPlaceholder: '도시·나라 검색 (예: 도쿄, 일본, Paris)', cityMatches: '{n}개 도시', cityNoMatch: '아직 없는 도시입니다. 조사가 끝나는 대로 추가됩니다.', cityUpcoming: '{names}: 공식 가격을 모으는 중이라 곧 추가됩니다.', visitDate: '방문일', nights: '숙박 수', adults: '성인', children: '어린이',
+    city: '도시', citySearch: '도시·나라 검색', citySearchPlaceholder: '도시·나라 검색 (예: 도쿄, 일본, Paris)', cityMatches: '{n}개 도시', cityNoMatch: '아직 없는 도시입니다. 조사가 끝나는 대로 추가됩니다.', cityUpcoming: '{names}: 공식 가격을 모으는 중이라 곧 추가됩니다.', cityPlaceholder: '도시를 선택하세요', nightsPlaceholder: '예: 3', adultsPlaceholder: '예: 2', visitDate: '방문일', nights: '숙박 수', adults: '성인', children: '어린이',
     style: '여행 스타일',
     drinks: '음주 포함 (성인)',
     shopping: '쇼핑·선물 비용 포함', shoppingHint: '기념품·선물 등 쇼핑에 쓸 돈은 사람마다 크게 달라 가격으로 추정하지 않습니다. 체크하고 쓸 금액을 직접 정하세요(일행 전체·여행 전체 기준, 예비비 없음).', shoppingAmount: '쇼핑·선물 예정 금액 ({currency})',

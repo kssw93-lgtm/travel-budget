@@ -14,11 +14,12 @@ export const ja: Messages = {
   nav: { calculator: '計算ツール', guides: '都市ガイド', language: '言語', skip: '本文へスキップ', main: 'メインメニュー' },
   home: {
     title: '現地でいくら使う？',
+    startHint: '都市・訪問日・泊数・大人の人数を入力すると、ここに現地費用の目安が表示されます。',
     lead: '都市と日程を選ぶと、外食・交通・観光の費用目安を最小〜最大の範囲で計算します。買い物・お土産の予算と航空券・宿泊費は、入力した場合のみ合計に加えます。',
   },
   form: {
     title: '旅行の条件',
-    city: '都市', citySearch: '都市・国を検索', citySearchPlaceholder: '都市・国を検索（例：東京、日本、Paris）', cityMatches: '{n}都市', cityNoMatch: 'まだ対応していない都市です。調査が終わり次第追加します。', cityUpcoming: '{names}：公式価格を調査中です。近日追加予定です。', visitDate: '訪問日', nights: '泊数', adults: '大人', children: '子ども',
+    city: '都市', citySearch: '都市・国を検索', citySearchPlaceholder: '都市・国を検索（例：東京、日本、Paris）', cityMatches: '{n}都市', cityNoMatch: 'まだ対応していない都市です。調査が終わり次第追加します。', cityUpcoming: '{names}：公式価格を調査中です。近日追加予定です。', cityPlaceholder: '都市を選んでください', nightsPlaceholder: '例：3', adultsPlaceholder: '例：2', visitDate: '訪問日', nights: '泊数', adults: '大人', children: '子ども',
     style: '旅行スタイル',
     drinks: '飲酒を含める（大人）',
     shopping: '買い物・お土産の費用を含める', shoppingHint: 'お土産やプレゼントなどの買い物は人によって大きく違うため、価格から推定しません。チェックして使う金額をご自身で決めてください（グループ全体・旅行全体、予備費なし）。', shoppingAmount: '買い物・お土産の予定額（{currency}）',

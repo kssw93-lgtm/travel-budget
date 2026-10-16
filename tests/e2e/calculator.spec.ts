@@ -11,7 +11,15 @@ test.describe('계산기 핵심 흐름', () => {
   test('도시 선택 목록에는 파일럿 도시만 나오고 나라별로 묶이며 검색할 수 있다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/');
-    const values = await page.locator('#city option').evaluateAll((os) => os.map((o) => (o as HTMLOptionElement).value));
+    // 첫 화면은 도시를 미리 고르지 않는다: '도시를 선택하세요' 자리 + 공개 도시, 일정 칸도 비어 있고 안내만 보인다
+    await expect(page.locator('#city')).toHaveValue('');
+    await expect(page.locator('#date')).toHaveValue('');
+    await expect(page.locator('#nights')).toHaveValue('');
+    await expect(page.locator('#adults')).toHaveValue('');
+    await expect(page.getByTestId('start-hint')).toBeVisible();
+    await expect(page.getByTestId('total')).toHaveCount(0);
+    await expect(page.locator('.field-error')).toHaveCount(0);
+    const values = await page.locator('#city option').evaluateAll((os) => os.map((o) => (o as HTMLOptionElement).value).filter(Boolean));
     expect([...values].sort()).toEqual(pilotCities.map((c) => c.id).sort());
     // 국내/해외가 아니라 나라별로 묶는다
     await expect(page.locator('#city optgroup')).toHaveCount(new Set(pilotCities.map((c) => c.country)).size);

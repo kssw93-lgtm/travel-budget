@@ -216,3 +216,4 @@ details:not([open]) > summary .toggle-hint .when-open, details[open] > summary .
 .share-status { font-size: 0.9em; color: var(--muted); }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }
+.start-hint { color: var(--muted); margin: 0; }

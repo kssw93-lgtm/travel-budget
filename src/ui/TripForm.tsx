@@ -130,6 +130,11 @@ export function TripForm({ form, onChange, errors, cities, upcoming = [], rates 
                   : t.form.cityNoMatch : ''}
           </p>
           <select id="city" value={form.cityId} onChange={(e) => onChange({ cityId: e.target.value })}>
+            {!form.cityId && (
+              <option value="" disabled>
+                {t.form.cityPlaceholder}
+              </option>
+            )}
             {cityGroups(shown, lang).map((g) => (
               <optgroup key={g.country} label={g.country}>
                 {g.items.map((c) => (
@@ -146,12 +151,12 @@ export function TripForm({ form, onChange, errors, cities, upcoming = [], rates 
         </div>
         <div className="field span-3 m-2">
           <label htmlFor="nights">{t.form.nights}</label>
-          <input id="nights" type="number" inputMode="numeric" min={L.nightsMin} max={L.nightsMax} value={form.nights} onChange={(e) => onChange({ nights: e.target.value })} {...field('nights')} />
+          <input id="nights" type="number" inputMode="numeric" min={L.nightsMin} max={L.nightsMax} value={form.nights} placeholder={t.form.nightsPlaceholder} onChange={(e) => onChange({ nights: e.target.value })} {...field('nights')} />
           {err('nights')}
         </div>
         <div className="field span-3 m-2">
           <label htmlFor="adults">{t.form.adults}</label>
-          <input id="adults" type="number" inputMode="numeric" min={L.adultsMin} max={L.adultsMax} value={form.adults} onChange={(e) => onChange({ adults: e.target.value })} {...field('adults')} />
+          <input id="adults" type="number" inputMode="numeric" min={L.adultsMin} max={L.adultsMax} value={form.adults} placeholder={t.form.adultsPlaceholder} onChange={(e) => onChange({ adults: e.target.value })} {...field('adults')} />
           {err('adults')}
         </div>
         <div className="field span-3 m-2">

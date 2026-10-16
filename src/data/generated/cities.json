@@ -770,6 +770,96 @@
     "stage": "파일럿"
   },
   {
+    "id": "dresden",
+    "country": "독일",
+    "countryEn": "Germany",
+    "nameKo": "드레스덴",
+    "nameEn": "Dresden",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "nuremberg",
+    "country": "독일",
+    "countryEn": "Germany",
+    "nameKo": "뉘른베르크",
+    "nameEn": "Nuremberg",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "cologne",
+    "country": "독일",
+    "countryEn": "Germany",
+    "nameKo": "쾰른",
+    "nameEn": "Cologne",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "strasbourg",
+    "country": "프랑스",
+    "countryEn": "France",
+    "nameKo": "스트라스부르",
+    "nameEn": "Strasbourg",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "colmar",
+    "country": "프랑스",
+    "countryEn": "France",
+    "nameKo": "콜마르",
+    "nameEn": "Colmar",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "salzburg",
+    "country": "오스트리아",
+    "countryEn": "Austria",
+    "nameKo": "잘츠부르크",
+    "nameEn": "Salzburg",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "zagreb",
+    "country": "크로아티아",
+    "countryEn": "Croatia",
+    "nameKo": "자그레브",
+    "nameEn": "Zagreb",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "rovaniemi",
+    "country": "핀란드",
+    "countryEn": "Finland",
+    "nameKo": "로바니에미",
+    "nameEn": "Rovaniemi",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "tallinn",
+    "country": "에스토니아",
+    "countryEn": "Estonia",
+    "nameKo": "탈린",
+    "nameEn": "Tallinn",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
     "id": "barcelona",
     "country": "스페인",
     "countryEn": "Spain",

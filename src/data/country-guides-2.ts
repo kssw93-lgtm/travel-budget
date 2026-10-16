@@ -250,4 +250,14 @@ export const COUNTRY_2: Record<string, CountryNote> = {
       ['메트로 안 음식·음료 섭취는 금지되어 벌금을 물 수 있습니다.', 'Eating and drinking on the metro is prohibited and fined.', '地下鉄内での飲食は禁止で、罰金の対象です。', 'https://rta.ae/wps/portal/rta/ae/public-transport/metro/about-metro'],
     ],
   },
+  Estonia: {
+    tips: [
+      ['탈린 버스·트램은 비접촉 카드로 차 안에서 바로 표를 살 수 있고, 공항·터미널에서도 1회권과 교통카드를 팝니다.', 'On Tallinn buses and trams you can buy a ticket on board with a contactless bank card; single tickets and travel cards are also sold at the airport and terminals.', 'タリンのバスやトラムはタッチ決済のカードで車内で切符が買え、空港やターミナルでも1回券や交通カードを販売しています。', 'https://isablog.ut.ee/?p=13156'],
+      ['유료 명소를 3곳 이상 갈 계획이면 탈린 카드가 유리할 수 있습니다.', 'If you plan to visit three or more paid attractions, the Tallinn Card can pay off.', '有料の名所を3か所以上回るなら、タリンカードがお得になることがあります。', 'https://chasingwhereabouts.com/blog/tallinn-pass-review'],
+    ],
+    cautions: [
+      ['구시가지의 붐비는 곳과 술집에서는 여럿이 짜고 하는 소매치기가 있으니 소지품을 잘 챙기세요.', 'Pickpockets, sometimes working in teams, target crowded parts of the Old Town and its bars; keep valuables secure.', '旧市街の混雑した場所や酒場では、グループでのスリがあるので持ち物に注意しましょう。', 'https://gov.uk/foreign-travel-advice/estonia/safety-and-security'],
+      ['일부 술집에서 관광객에게 터무니없는 술값을 받는 경우가 있으니 주문 전에 가격을 확인하세요.', 'Some bars charge tourists exorbitant drink prices; check prices before ordering.', '一部のバーでは観光客に法外な酒代を請求することがあるので、注文前に値段を確認しましょう。', 'https://gov.uk/foreign-travel-advice/estonia/safety-and-security'],
+    ],
+  },
 };

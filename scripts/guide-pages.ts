@@ -5,6 +5,7 @@
 import { cityGuide, guidePath } from '../src/core/guide';
 import { formatMoney } from '../src/core/money';
 import { CITY_GUIDES } from '../src/data/city-guides';
+import { COUNTRY_GUIDES } from '../src/data/country-guides';
 import type { City, CityMemo, ExtraSample, FoodRecommendation, PriceSample, Range } from '../src/core/types';
 import { escapeHtml as e, type PageMeta } from './site-files';
 
@@ -69,24 +70,25 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
     .map((m) => `<li>${e(m.item)}: ${e(m.value)}${m.unit ? ` ${e(m.unit)}` : ''}</li>`)
     .join('');
 
-  // 같은 나라 다른 도시와 1인 1일 비교(내부 링크). 식당·교통 가격을 빌려 쓴 도시는 그 사실도 밝힌다
-  const siblings = d.cities
-    .filter((c) => c.country === city.country && c.id !== city.id)
-    .map((c) => {
-      const s2 = cityGuide(c, d.samples, d.refDate, d.extras).styles.find((x) => x.style === 'standard');
-      return `<li><a href="${guidePath(c.id)}">${e(c.nameKo)}</a>${s2?.perDay ? `: 1인 1일 ${e(range(s2.perDay, c.currency))}` : ''}</li>`;
-    })
-    .join('');
   const ownMeals = d.samples.some((s) => s.cityId === city.id && s.category === 'food' && /한끼/.test(s.subtype));
   const borrowedNote = ownMeals
     ? ''
-    : `<p>${e(city.nameKo)} 식당 가격은 아직 모으는 중이라, 식비·교통비는 ${e(city.country)}의 다른 도시 공식 가격을 함께 써서 계산했습니다(한 나라 안에서는 도시마다 물가 차이가 크지 않습니다).</p>`;
+    : `        <p>${e(city.nameKo)} 식당 가격은 아직 모으는 중이라, 식비·교통비는 ${e(city.country)}의 다른 도시 공식 가격을 함께 써서 계산했습니다(한 나라 안에서는 도시마다 물가 차이가 크지 않습니다).</p>`;
+
+  const cn = COUNTRY_GUIDES[city.countryEn];
+  const countryNotes = cn
+    ? `        <h2>${e(city.country)} 여행 시 알아둘 것</h2><ul>${cn.tips.map((x) => `<li>${e(x[0])}</li>`).join('')}</ul>` +
+      `<h3>${e(city.country)}에서 조심할 것</h3><ul>${cn.cautions.map((x) => `<li>${e(x[0])}</li>`).join('')}</ul>` +
+      '<p>나라 전체에 해당하는 일반적인 안내입니다. 입국 규정·안전 정보는 출발 전에 외교부 해외안전여행 등 공식 안내를 확인하세요.</p>'
+    : '';
 
   const fallbackHtml = [
     `        <h1>${e(city.nameKo)} 여행 경비 가이드</h1>`,
     `        <p>${e(city.nameKo)}에서 꼭 볼 곳과 현지 팁, 입장료·먹어 볼 음식을 모았습니다. 가격 자료 기준일 ${e(d.updated)}.</p>`,
     cta,
     notes,
+    countryNotes,
+    borrowedNote,
     menuExamples &&
       `        <h2>${e(city.nameKo)} 식당 실제 메뉴 가격</h2><p>식당 공식 메뉴판에 적힌 1인 한 끼 가격입니다(세금·팁 별도인 도시는 계산할 때 더합니다).</p><ul>${menuExamples}</ul>`,
     passTips &&
@@ -95,8 +97,6 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
     foods && `        <h2>${e(city.nameKo)}에서 먹어 볼 음식</h2><ul>${foods}</ul>`,
     memos && `        <h2>${e(city.nameKo)} 알아두면 좋은 현지 비용</h2><p>팁·세금·숙박세처럼 계산에는 넣지 않았지만 미리 알아두면 좋은 항목입니다.</p><ul>${memos}</ul>`,
     cta,
-    siblings &&
-      `        <h2>${e(city.country)}의 다른 도시와 비교</h2>${borrowedNote}<p>같은 조건(성인 1명, 3박 4일, 일반형)의 1인 1일 현지 체류비입니다.</p><ul>${siblings}</ul>`,
   ]
     .filter(Boolean)
     .join('\n');

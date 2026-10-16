@@ -220,3 +220,9 @@ details:not([open]) > summary .toggle-hint .when-open, details[open] > summary .
 .city-notes .highlights li { margin: .5rem 0; } .city-notes .highlights strong { display: block; }
 .guide-cta { margin: 0; text-align: center; }
 .city-notes > h2:first-child { margin-top: 0; }
+
+/* 가이드 목록 검색·나라별 묶음, 나라별 알아둘 것 */
+.guide-search { margin: 4px 0 20px; max-width: 420px; }
+.guide-group + .guide-group { margin-top: 20px; }
+.guide-group h2 { font-size: 1rem; color: var(--muted); margin: 0 0 8px; }
+.country-notes .cautions li::marker { color: var(--err); }

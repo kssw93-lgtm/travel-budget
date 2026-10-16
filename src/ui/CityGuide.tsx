@@ -1,16 +1,17 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { cityGuide, guidePath, type CityGuide as CityGuideData } from '../core/guide';
 import { formatMoney } from '../core/money';
 import type { City, PriceSample } from '../core/types';
 import { cities, dataDate, dataMeta, extras, foods, memos, samples } from '../data';
 import { CITY_GUIDES } from '../data/city-guides';
+import { COUNTRY_GUIDES } from '../data/country-guides';
 import { DEFAULT_CURRENCY, fmt, localName, useI18n, type Lang } from '../i18n';
 import { InternalLink, type Go } from './App';
 import { CityMemos } from './CityMemos';
 import { ExternalLink } from './ExternalLink';
 import { FoodSection } from './FoodSection';
 import { convertRange, RangeText } from './money';
-import { cityName, countryName } from './TripForm';
+import { cityGroups, cityName, countryName, matchCity } from './TripForm';
 import { useRates, type RatesState } from './useRates';
 
 /** 가이드의 예시 일정 기준일: 가격 자료 기준일(정적 HTML 과 화면이 같은 값을 쓰도록 고정) */
@@ -36,28 +37,70 @@ function Converted({ range, from, to, rates }: { range: { min: number; max: numb
   );
 }
 
-/** 도시별 가이드 목록(/guides) */
+/** 도시별 가이드 목록(/guides): 나라별로 묶고, 도시·나라 이름으로 검색한다 */
 export function GuideIndex({ go }: { go: Go }) {
   const { t, lang } = useI18n();
   const g = t.cityGuide;
-  const rows = useMemo(() => cities.map((c) => cityGuide(c, samples, guideRefDate, extras)), []);
+  const [query, setQuery] = useState('');
+  const groups = cityGroups(
+    cities.filter((c) => matchCity(c, query)),
+    lang,
+  );
   return (
     <article className="card prose" data-testid="guides">
       <h1 tabIndex={-1}>{g.indexTitle}</h1>
       <p className="lead">{g.indexLead}</p>
-      <ul className="guide-index">
-        {rows.map((r) => {
-          return (
-            <li key={r.city.id} data-city={r.city.id}>
-              <InternalLink to={`${guidePath(r.city.id)}?lang=${lang}`} go={go}>
-                {fmt(g.title, { city: cityName(r.city, lang) })}
-              </InternalLink>
-              <span className="muted"> · {countryName(r.city, lang)}</span>
-            </li>
-          );
-        })}
-      </ul>
+      <div className="field guide-search">
+        <label htmlFor="guide-search">{g.searchLabel}</label>
+        <input id="guide-search" type="search" value={query} placeholder={g.searchPlaceholder} onChange={(e) => setQuery(e.target.value)} />
+      </div>
+      {groups.length === 0 && (
+        <p className="muted" role="status">
+          {g.searchEmpty}
+        </p>
+      )}
+      {groups.map((grp) => (
+        <section key={grp.country} className="guide-group" data-country={grp.items[0]!.countryEn}>
+          <h2>{grp.country}</h2>
+          <ul className="guide-index">
+            {grp.items.map((c) => (
+              <li key={c.id} data-city={c.id}>
+                <InternalLink to={`${guidePath(c.id)}?lang=${lang}`} go={go}>
+                  {fmt(g.title, { city: cityName(c, lang) })}
+                </InternalLink>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
     </article>
+  );
+}
+
+/** 나라별 알아둘 것·조심할 것(데이터가 있는 나라만) */
+function CountryNotes({ city }: { city: City }) {
+  const { t, lang } = useI18n();
+  const g = t.cityGuide;
+  const note = COUNTRY_GUIDES[city.countryEn];
+  if (!note) return null;
+  const i = lang === 'ko' ? 0 : lang === 'en' ? 1 : 2;
+  const country = countryName(city, lang);
+  return (
+    <section className="card prose country-notes" aria-labelledby="guide-country-title" data-testid="guide-country">
+      <h2 id="guide-country-title">{fmt(g.countryTipsTitle, { country })}</h2>
+      <ul>
+        {note.tips.map((x) => (
+          <li key={x[1]}>{x[i]}</li>
+        ))}
+      </ul>
+      <h3>{fmt(g.cautionsTitle, { country })}</h3>
+      <ul className="cautions">
+        {note.cautions.map((x) => (
+          <li key={x[1]}>{x[i]}</li>
+        ))}
+      </ul>
+      <p className="hint">{g.countryNotesHint}</p>
+    </section>
   );
 }
 
@@ -204,6 +247,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
       </section>
 
       <CityNotes city={city} />
+      <CountryNotes city={city} />
       <PassTips guide={guide} />
       <AttractionTable guide={guide} display={display} rates={rates} />
       <FoodSection city={city} foods={foods} />
@@ -213,21 +257,6 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
           {fmt(g.cta, { city: name })}
         </InternalLink>
       </p>
-
-      <nav className="card" aria-labelledby="guide-others-title" data-testid="guide-others">
-        <h2 id="guide-others-title">{g.others}</h2>
-        <ul className="inline-list">
-          {cities
-            .filter((c) => c.id !== city.id)
-            .map((c) => (
-              <li key={c.id}>
-                <InternalLink to={`${guidePath(c.id)}?lang=${lang}`} go={go}>
-                  {cityName(c, lang)}
-                </InternalLink>
-              </li>
-            ))}
-        </ul>
-      </nav>
     </>
   );
 }

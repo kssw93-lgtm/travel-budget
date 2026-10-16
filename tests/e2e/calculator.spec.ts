@@ -357,6 +357,22 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(notes).toContainText('도쿄 여행 팁');
     await expect(page.getByTestId('guide-example')).toHaveCount(0);
     await expect(page.getByTestId('price-guide')).toHaveCount(0);
+    const country = page.getByTestId('guide-country');
+    await expect(country).toContainText('일본 여행 시 알아둘 것');
+    await expect(country).toContainText('일본에서 조심할 것');
+    await expect(page.getByTestId('guide-others')).toHaveCount(0);
+  });
+
+  test('가이드 목록은 나라별로 묶이고 도시·나라 이름으로 검색된다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/guides?lang=ko');
+    const list = page.getByTestId('guides');
+    await expect(list.locator('[data-country="Japan"] [data-city="osaka"]')).toBeVisible();
+    await page.getByLabel('도시·나라 검색').fill('이탈리아');
+    await expect(list.locator('[data-city="rome"]')).toBeVisible();
+    await expect(list.locator('[data-city="osaka"]')).toHaveCount(0);
+    await page.getByLabel('도시·나라 검색').fill('없는도시zz');
+    await expect(list.getByRole('status')).toBeVisible();
   });
 });
 

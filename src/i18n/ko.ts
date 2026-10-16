@@ -149,7 +149,12 @@ export const ko = {
     passTipLead: '대중교통 1회 요금 대표값(중앙값) {ride} 기준입니다. 실제 요금은 노선·거리에 따라 달라 참고용입니다.',
     passTipRow: '{pass} {price} → 하루 {n}회 이상 타면 이득',
     passTipRowDays: '{pass} {price}({days}일) → {days}일 동안 하루 {n}회 이상 타면 이득',
-    others: '다른 도시 가이드',
+    searchLabel: '도시·나라 검색',
+    searchPlaceholder: '예: 오사카, 이탈리아, Paris',
+    searchEmpty: '찾는 도시가 없습니다. 다른 이름으로 검색해 보세요.',
+    countryTipsTitle: '{country} 여행 시 알아둘 것',
+    cautionsTitle: '{country}에서 조심할 것',
+    countryNotesHint: '나라 전체에 해당하는 일반적인 안내입니다. 입국 규정·안전 정보는 출발 전에 외교부 해외안전여행 등 공식 안내를 확인하세요.',
   },
   plan: {
     title: '자세히 설정 (선택)',

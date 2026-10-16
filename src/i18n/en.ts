@@ -150,7 +150,12 @@ export const en: Messages = {
     passTipLead: 'Based on a typical (median) single fare of {ride}. Actual fares vary by line and distance, so treat this as a guide.',
     passTipRow: '{pass} {price} → worth it from {n} rides a day',
     passTipRowDays: '{pass} {price} ({days} days) → worth it from {n} rides a day over {days} days',
-    others: 'Other city guides',
+    searchLabel: 'Search cities or countries',
+    searchPlaceholder: 'e.g. Osaka, Italy, Paris',
+    searchEmpty: 'No matching city. Try another name.',
+    countryTipsTitle: 'Good to know in {country}',
+    cautionsTitle: 'Watch out for in {country}',
+    countryNotesHint: 'General advice for the whole country. Check official government travel advice for entry rules and safety before you go.',
   },
   plan: {
     title: 'Detailed settings (optional)',

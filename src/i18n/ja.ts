@@ -154,7 +154,12 @@ export const ja: Messages = {
     passTipLead: '公共交通1回の代表運賃（中央値）{ride}を基準にしています。実際の運賃は路線・距離で変わるため目安です。',
     passTipRow: '{pass} {price} → 1日{n}回以上乗ればお得',
     passTipRowDays: '{pass} {price}（{days}日間）→ {days}日間、1日{n}回以上乗ればお得',
-    others: '他の都市のガイド',
+    searchLabel: '都市・国を検索',
+    searchPlaceholder: '例：大阪、イタリア、Paris',
+    searchEmpty: '該当する都市がありません。別の名前で検索してください。',
+    countryTipsTitle: '{country}旅行で知っておきたいこと',
+    cautionsTitle: '{country}で注意したいこと',
+    countryNotesHint: '国全体に当てはまる一般的な案内です。入国規定や安全情報は出発前に外務省 海外安全ホームページなど公式情報を確認してください。',
   },
   plan: {
     title: '詳しい設定（任意）',

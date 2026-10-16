@@ -90,13 +90,33 @@ function CountryNotes({ city }: { city: City }) {
       <h2 id="guide-country-title">{fmt(g.countryTipsTitle, { country })}</h2>
       <ul>
         {note.tips.map((x) => (
-          <li key={x[1]}>{x[i]}</li>
+          <li key={x[1]}>
+            {x[i]}
+            {x[3] && (
+              <>
+                {' '}
+                <small>
+                  <ExternalLink href={x[3]}>{g.sourceLink}</ExternalLink>
+                </small>
+              </>
+            )}
+          </li>
         ))}
       </ul>
       <h3>{fmt(g.cautionsTitle, { country })}</h3>
       <ul className="cautions">
         {note.cautions.map((x) => (
-          <li key={x[1]}>{x[i]}</li>
+          <li key={x[1]}>
+            {x[i]}
+            {x[3] && (
+              <>
+                {' '}
+                <small>
+                  <ExternalLink href={x[3]}>{g.sourceLink}</ExternalLink>
+                </small>
+              </>
+            )}
+          </li>
         ))}
       </ul>
       <p className="hint">{g.countryNotesHint}</p>

@@ -155,6 +155,7 @@ export const en: Messages = {
     searchEmpty: 'No matching city. Try another name.',
     countryTipsTitle: 'Good to know in {country}',
     cautionsTitle: 'Watch out for in {country}',
+    sourceLink: 'source',
     countryNotesHint: 'General advice for the whole country. Check official government travel advice for entry rules and safety before you go.',
   },
   plan: {

@@ -42,7 +42,7 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
       handler(_, bundle) {
         const guidePages = [{ file: 'guides.html', path: '/guides' }, ...cities.map((c) => ({ file: `guide/${c.id}.html`, path: guidePath(c.id) }))];
         this.emitFile({ type: 'asset', fileName: 'robots.txt', source: robotsTxt(site) });
-        if (site) this.emitFile({ type: 'asset', fileName: 'sitemap.xml', source: sitemapXml(site, [...SITE_PAGES, ...guidePages]) });
+        if (site) this.emitFile({ type: 'asset', fileName: 'sitemap.xml', source: sitemapXml(site, [...SITE_PAGES, ...guidePages], /^\d{4}-\d{2}-\d{2}$/.test(guideData.updated) ? guideData.updated : undefined) });
         if (ads) this.emitFile({ type: 'asset', fileName: 'ads.txt', source: ads });
         const index = bundle['index.html'];
         if (index?.type !== 'asset' || typeof index.source !== 'string') return;

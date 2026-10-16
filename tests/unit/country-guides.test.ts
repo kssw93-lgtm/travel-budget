@@ -10,8 +10,9 @@ describe('나라별 알아둘 것·조심할 것', () => {
       expect(note!.tips.length, country).toBeGreaterThan(0);
       expect(note!.cautions.length, country).toBeGreaterThan(0);
       for (const line of [...note!.tips, ...note!.cautions]) {
-        expect(line.every((t) => t.length > 0), country).toBe(true);
-        expect(line.join(' '), country).not.toMatch(/[$€£¥₩]\s?\d|\d\s?(원|円|달러|유로)/);
+        expect(line.slice(0, 3).every((t) => !!t && t.length > 0), country).toBe(true);
+        if (line[3]) expect(line[3], country).toMatch(/^https:\/\//);
+        expect(line.slice(0, 3).join(' '), country).not.toMatch(/[$€£¥₩]\s?\d|\d\s?(원|円|달러|유로)/);
       }
     }
   });

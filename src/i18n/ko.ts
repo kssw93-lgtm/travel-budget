@@ -154,6 +154,7 @@ export const ko = {
     searchEmpty: '찾는 도시가 없습니다. 다른 이름으로 검색해 보세요.',
     countryTipsTitle: '{country} 여행 시 알아둘 것',
     cautionsTitle: '{country}에서 조심할 것',
+    sourceLink: '근거',
     countryNotesHint: '나라 전체에 해당하는 일반적인 안내입니다. 입국 규정·안전 정보는 출발 전에 외교부 해외안전여행 등 공식 안내를 확인하세요.',
   },
   plan: {

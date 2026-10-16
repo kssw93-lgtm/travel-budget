@@ -24,11 +24,11 @@ export function robotsTxt(site: string | undefined): string {
   return ['User-agent: *', 'Allow: /', 'Disallow: /api/', 'Disallow: /_l/', ...(site ? [`Sitemap: ${site}/sitemap.xml`] : [])].join('\n') + '\n';
 }
 
-export function sitemapXml(site: string, pages: SitePage[] = SITE_PAGES): string {
+export function sitemapXml(site: string, pages: SitePage[] = SITE_PAGES, lastmod?: string): string {
   const urls = pages.flatMap((p) =>
     LANGS.map(
       (lang) =>
-        `  <url><loc>${site}${p.path}?lang=${lang}</loc>` +
+        `  <url><loc>${site}${p.path}?lang=${lang}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ''}` +
         LANGS.map((l) => `<xhtml:link rel="alternate" hreflang="${l}" href="${site}${p.path}?lang=${l}"/>`).join('') +
         `</url>`,
     ),
@@ -161,7 +161,7 @@ export function pageHtml(indexHtml: string, meta: PageMeta, site: string | undef
     .replace(/(<meta property="og:description" content=")[^"]*(")/, `$1${d}$2`)
     .replace(/(<meta name="twitter:title" content=")[^"]*(")/, `$1${t}$2`)
     .replace(/(<meta name="twitter:description" content=")[^"]*(")/, `$1${d}$2`)
-    .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${JSON.stringify(meta.ld).replace(/</g, '\\u003c')}</script>`);
+    .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${JSON.stringify(meta.ld).replace(/"item":"\//g, `"item":"${site ?? ''}/`).replace(/</g, '\\u003c')}</script>`);
   html = replaceFallback(html, meta.fallbackHtml);
   const lang = meta.lang ?? 'ko';
   if (lang !== 'ko') {

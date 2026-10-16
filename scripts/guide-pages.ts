@@ -106,9 +106,10 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
     : '';
   const cn = COUNTRY_GUIDES[city.countryEn];
   const i = IDX[lang];
+  const item = (x: readonly [string, string, string, string?]) => `<li>${e(x[i])}${x[3] ? ` <small><a href="${e(x[3])}" rel="noopener">${e(t.sourceLink)}</a></small>` : ''}</li>`;
   const countryNotes = cn
-    ? `        <h2>${e(fill(t.countryTipsTitle, { country }))}</h2><ul>${cn.tips.map((x) => `<li>${e(x[i])}</li>`).join('')}</ul>` +
-      `<h3>${e(fill(t.cautionsTitle, { country }))}</h3><ul>${cn.cautions.map((x) => `<li>${e(x[i])}</li>`).join('')}</ul>` +
+    ? `        <h2>${e(fill(t.countryTipsTitle, { country }))}</h2><ul>${cn.tips.map(item).join('')}</ul>` +
+      `<h3>${e(fill(t.cautionsTitle, { country }))}</h3><ul>${cn.cautions.map(item).join('')}</ul>` +
       `<p>${e(t.countryNotesHint)}</p>`
     : '';
   const cta = `        <p><a href="/?lang=${lang}&amp;city=${e(city.id)}">${e(fill(t.cta, { city: name }))}</a></p>`;
@@ -168,11 +169,24 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
     lang,
     ld: {
       '@context': 'https://schema.org',
-      '@type': 'Article',
-      headline: fill(t.title, { city: name }),
-      inLanguage: lang,
-      dateModified: d.updated,
-      about: { '@type': 'City', name: city.nameEn, containedInPlace: { '@type': 'Country', name: city.countryEn } },
+      '@graph': [
+        {
+          '@type': 'Article',
+          headline: fill(t.title, { city: name }),
+          description,
+          inLanguage: lang,
+          dateModified: d.updated,
+          author: { '@type': 'Organization', name: siteTitle(lang) },
+          about: { '@type': 'City', name: city.nameEn, containedInPlace: { '@type': 'Country', name: city.countryEn } },
+        },
+        {
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: t.indexTitle, item: `/guides?lang=${lang}` },
+            { '@type': 'ListItem', position: 2, name: fill(t.title, { city: name }) },
+          ],
+        },
+      ],
     },
     fallbackHtml,
   };

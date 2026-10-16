@@ -3350,5 +3350,25 @@
     "ko": "연어와 감자를 크림 국물에 끓인 핀란드식 수프",
     "en": "Finnish creamy salmon and potato soup",
     "ja": "サーモンとじゃがいものクリームスープ"
+  },
+  "edinburgh:Haggis, neeps and tatties": {
+    "ko": "양 내장·귀리로 만든 해기스에 순무·감자 으깬 것을 곁들인 스코틀랜드 대표 요리",
+    "en": "Haggis with mashed swede and potatoes, Scotland’s national dish",
+    "ja": "ハギスにカブとじゃがいものマッシュを添えたスコットランドの代表料理"
+  },
+  "edinburgh:Cullen skink": {
+    "ko": "훈제 해덕·감자·양파로 끓인 진한 스코틀랜드 수프",
+    "en": "Thick Scottish soup of smoked haddock, potato and onion",
+    "ja": "燻製ハドック・じゃがいも・玉ねぎの濃厚なスコットランドのスープ"
+  },
+  "edinburgh:Cranachan": {
+    "ko": "크림·라즈베리·귀리·위스키·꿀을 섞은 전통 디저트",
+    "en": "Dessert of cream, raspberries, toasted oats, whisky and honey",
+    "ja": "クリーム・ラズベリー・オーツ・ウイスキー・蜂蜜を合わせた伝統デザート"
+  },
+  "edinburgh:Scottish shortbread": {
+    "ko": "버터를 듬뿍 넣어 구운 바삭한 스코틀랜드 과자",
+    "en": "Rich, crumbly butter biscuit from Scotland",
+    "ja": "バターたっぷりのサクサクしたスコットランドの焼き菓子"
   }
 }

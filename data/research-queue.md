@@ -156,6 +156,8 @@
 | 로바니에미 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 탈린 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 탈린 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 에든버러 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 에든버러 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -1309,6 +1311,26 @@
 | PUS-AT-201 | 부산 | 해운대 해변열차 1회 탑승권 (어린이) | 5600~7000 KRW | A | 예 | 재검증 | [해운대블루라인파크](https://www.bluelinepark.com/fare.do) |
 | PUS-AT-203 | 부산 | 해운대 해변열차 1회 탑승권 (성인) | 8000~10000 KRW | A | 예 | 재검증 | [해운대블루라인파크](https://www.bluelinepark.com/fare.do) |
 | DXB-TR-104 | 두바이 | 공항 터미널 1 출발 지하철 실버 nol 1구역 요금 | 3 AED | A | 예 | 재검증, 시작가 표기 | [두바이 도로교통청 RTA nol 요금표·지하철 역 안내](https://rta.ae/wps/portal/rta/ae/public-transport/Nol-Fares?lang=en;https://www.rta.ae/wps/portal/rta/ae/public-transport/metro-stations-map;https://www.rta.ae/links/rail/rail-network-map.pdf) |
+| EDI-FD-501 | 에든버러 | 스코틀랜드식 아침 식사 | 16.5 GBP | A | 예 | 재검증 | [The City Cafe](https://thecitycafe.co.uk/menus) |
+| EDI-FD-502 | 에든버러 | 치킨 카티 롤 | 12.9 GBP | A | 예 | 재검증 | [Dishoom Edinburgh](https://www.dishoom.com/menu/edinburgh-all-day/) |
+| EDI-FD-503 | 에든버러 | 카레 볼 | 13 GBP | A | 예 | 재검증 | [Bellfield Brewery Taproom](https://www.bellfieldbrewery.com/pages/whats-pouring-at-the-bellfield-taproom) |
+| EDI-FD-504 | 에든버러 | 아메리카노 | 3.8 GBP | A | 예 | 재검증 | [The City Cafe](https://thecitycafe.co.uk/menus) |
+| EDI-FD-505 | 에든버러 | 코카콜라 | 4.35 GBP | A | 예 | 재검증 | [The City Cafe](https://thecitycafe.co.uk/menus) |
+| EDI-FD-506 | 에든버러 | 브라운백 크리스프스 | 1.5 GBP | A | 예 | 재검증 | [Bellfield Brewery Taproom](https://www.bellfieldbrewery.com/pages/whats-pouring-at-the-bellfield-taproom) |
+| EDI-FD-507 | 에든버러 | 파파드 바스켓 | 5.5 GBP | A | 예 | 재검증 | [Dishoom Edinburgh](https://www.dishoom.com/menu/edinburgh-all-day/) |
+| EDI-FD-508 | 에든버러 | 보헤미안 필스너 1파인트 | 6.2 GBP | A | 예 | 재검증 | [Bellfield Brewery Taproom](https://www.bellfieldbrewery.com/pages/whats-pouring-at-the-bellfield-taproom) |
+| EDI-FD-509 | 에든버러 | 아드벡 10 25ml | 5 GBP | A | 예 | 재검증 | [Bellfield Brewery Taproom](https://www.bellfieldbrewery.com/pages/whats-pouring-at-the-bellfield-taproom) |
+| EDI-FD-510 | 에든버러 | 비피터 드라이 진 25ml | 4.8 GBP | A | 예 | 재검증 | [Freddy's Edinburgh](https://www.freddysedin.com/drinks-menu) |
+| EDI-TR-501 | 에든버러 | 시내버스 성인 편도 | 2.4 GBP | A | 예 | 재검증 | [Lothian Buses](https://www.lothianbuses.com/festivals/) |
+| EDI-TR-502 | 에든버러 | 시내버스 아동 편도 | 1.2 GBP | A | 예 | 재검증 | [Lothian Buses](https://www.lothianbuses.com/festivals/) |
+| EDI-TR-503 | 에든버러 | 시내버스 성인 1일권 | 6 GBP | A | 예 | 재검증 | [Lothian Buses](https://www.lothianbuses.com/festivals/) |
+| EDI-TR-504 | 에든버러 | 시내버스 아동 1일권 | 3 GBP | A | 예 | 재검증 | [Lothian Buses](https://www.lothianbuses.com/festivals/) |
+| EDI-AT-501 | 에든버러 | 에든버러성 성인 입장권 | 26 GBP | A | 예 | 재검증 | [Edinburgh Castle / Historic Environment Scotland](https://www.edinburghcastle.scot/plan-your-visit/tickets/) |
+| EDI-AT-502 | 에든버러 | 에든버러성 아동 입장권 | 13 GBP | A | 예 | 재검증 | [Edinburgh Castle / Historic Environment Scotland](https://www.edinburghcastle.scot/plan-your-visit/tickets/) |
+| EDI-AT-503 | 에든버러 | 홀리루드 궁전 성인 입장권 | 26 GBP | A | 예 | 재검증 | [Royal Collection Trust](https://www.rct.uk/visit/palace-of-holyroodhouse) |
+| EDI-AT-504 | 에든버러 | 홀리루드 궁전 아동 입장권 | 13 GBP | A | 예 | 재검증 | [Royal Collection Trust](https://www.rct.uk/visit/palace-of-holyroodhouse) |
+| EDI-AT-505 | 에든버러 | 카메라 옵스큐라 성인 입장권 | 24.95 GBP | A | 예 | 재검증 | [Camera Obscura & World of Illusions](https://www.camera-obscura.co.uk/view-tickets/) |
+| EDI-AT-506 | 에든버러 | 카메라 옵스큐라 아동 입장권 | 17.95 GBP | A | 예 | 재검증 | [Camera Obscura & World of Illusions](https://www.camera-obscura.co.uk/view-tickets/) |
 | VIE-FD-101 | 빈 | 아페티트 대구 필레 | 26 EUR | A | 예 | 재검증 | [Appetit 공식 메뉴(PDF)](https://www.restaurantappetit.at/wp-content/uploads/2026/05/Appetit-Restaurant-Speisekarte-Mai-2026.pdf) |
 | VIE-FD-102 | 빈 | 아페티트 콜리플라워 트리오 | 19 EUR | A | 예 | 재검증 | [Appetit 공식 메뉴(PDF)](https://www.restaurantappetit.at/wp-content/uploads/2026/05/Appetit-Restaurant-Speisekarte-Mai-2026.pdf) |
 | VIE-FD-103 | 빈 | 피글뮐러 슈니첼(돼지고기) | 21.9 EUR | A | 예 | 재검증 | [Figlmüller Bäckerstraße 공식 메뉴](https://www.figlmueller.at/en/baeckerstrasse/menu/) |

@@ -110,4 +110,18 @@ export const NOTES_9: Record<string, Compact> = {
       ['에스토니아에서는 대부분의 가게가 직불·신용카드와 비접촉 결제를 받습니다.', 'Most businesses in Estonia accept debit and credit cards, including contactless payments.', 'エストニアでは多くの店舗がデビットカードやクレジットカード、非接触決済に対応しています。'],
     ],
   },
+  edinburgh: {
+    h: [
+      ['에든버러성', 'Edinburgh Castle', 'エディンバラ城', '도시 한가운데 바위산 위에 선 성. 스코틀랜드 왕관 보석과 운명의 돌을 볼 수 있습니다.', 'The castle on a volcanic rock at the city’s heart, home to the Scottish Crown Jewels and the Stone of Destiny.', '街の中心の岩山にそびえる城。スコットランドの王冠と運命の石が見られます。'],
+      ['로열 마일', 'Royal Mile', 'ロイヤル・マイル', '에든버러성에서 홀리루드 궁전까지 이어지는 구시가지의 중심 거리입니다.', 'The old town’s main street, running from the castle down to Holyrood.', 'エディンバラ城からホリールード宮殿まで続く旧市街の目抜き通りです。'],
+      ['홀리루드 궁전', 'Palace of Holyroodhouse', 'ホリールード宮殿', '영국 국왕의 스코틀랜드 공식 거처로, 메리 여왕의 방이 남아 있습니다.', 'The monarch’s official residence in Scotland, with Mary, Queen of Scots’ chambers.', '英国王のスコットランドでの公式住居で、メアリー女王の部屋が残っています。'],
+      ['아서스 시트', 'Arthur’s Seat', 'アーサーズ・シート', '시내 옆 옛 화산 언덕. 정상에 오르면 도시와 바다가 한눈에 보입니다.', 'An extinct volcano beside the city; the summit views take in the city and the sea.', '街のすぐ横にある死火山の丘。頂上から街と海が一望できます。'],
+    ],
+    t: [
+      ['8월에는 프린지 등 여러 축제가 한꺼번에 열려 숙소와 교통이 매우 붐비니, 이 시기라면 일찍 예약하세요.', 'In August several festivals, including the Fringe, run at once and hotels and transport fill up; book early for that month.', '8月はフリンジなど複数の祭りが同時に開かれ宿や交通が非常に混むので、この時期は早めの予約を。'],
+      ['공항과 시내는 공항버스(에어링크)로 연결되고, 시내는 로디언 버스로 다닙니다.', 'The Airlink bus connects the airport and the centre, and Lothian buses cover the city.', '空港と市内は空港バス（エアリンク）で結ばれ、市内はロージアン・バスで移動します。'],
+      ['에든버러성은 인기가 많아 방문 날짜와 표를 미리 확인하는 것이 좋습니다.', 'Edinburgh Castle is very popular, so check dates and tickets in advance.', 'エディンバラ城は人気が高いので、訪問日とチケットを事前に確認しましょう。'],
+    ],
+  },
 };
+

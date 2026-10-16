@@ -860,6 +860,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "edinburgh",
+    "country": "영국",
+    "countryEn": "United Kingdom",
+    "nameKo": "에든버러",
+    "nameEn": "Edinburgh",
+    "currency": "GBP",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "barcelona",
     "country": "스페인",
     "countryEn": "Spain",

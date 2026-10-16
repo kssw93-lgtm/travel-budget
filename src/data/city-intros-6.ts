@@ -50,4 +50,13 @@ export const INTROS_6: Record<string, Intro> = {
     d: [2, 2],
     s: [['구시가지', 'Old Town', '旧市街', '마켓과 성벽, 전망대를 걸어서 다닙니다.', 'Walk to the market, walls and viewpoints.', 'マーケットや城壁、展望台へ歩いて行けます。']],
   },
+  edinburgh: {
+    o: ['언덕 위 성과 중세 구시가지, 조지 왕조 시대의 신시가지가 함께 유네스코 세계유산인 스코틀랜드의 수도입니다. 8월 축제 시즌과 연말 호그머네이 때 특히 활기가 넘칩니다.', 'Scotland’s capital, whose hilltop castle, medieval Old Town and Georgian New Town are a UNESCO World Heritage Site together; it is liveliest during the August festivals and at Hogmanay.', '丘の上の城と中世の旧市街、ジョージ王朝時代の新市街がともに世界遺産に登録されたスコットランドの首都。8月の祭りシーズンと年末のホグマニーに特ににぎわいます。'],
+    d: [2, 3],
+    s: [
+      ['올드 타운', 'Old Town', 'オールドタウン', '로열 마일과 성을 걸어서 다닐 수 있습니다(언덕이 많음).', 'Walk to the Royal Mile and the castle (hilly).', 'ロイヤル・マイルや城へ歩いて行けます（坂が多い）。'],
+      ['뉴 타운', 'New Town', 'ニュータウン', '쇼핑 거리와 기차역이 가깝고 평지라 다니기 편합니다.', 'Flatter streets near the shops and Waverley Station.', '買い物通りや駅に近く、平らで歩きやすいです。'],
+    ],
+  },
 };
+

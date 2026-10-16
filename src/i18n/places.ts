@@ -21,7 +21,7 @@ export const CITY_JA: Record<string, string> = {
   venice: 'ヴェネツィア', madrid: 'マドリード', nice: 'ニース', 'san-francisco': 'サンフランシスコ', almaty: 'アルマトイ', tashkent: 'タシケント',
   tbilisi: 'トビリシ', cancun: 'カンクン',
   copenhagen: 'コペンハーゲン', stockholm: 'ストックホルム', helsinki: 'ヘルシンキ', krakow: 'クラクフ', dublin: 'ダブリン', brussels: 'ブリュッセル', cairo: 'カイロ', reykjavik: 'レイキャビク',
-  dresden: 'ドレスデン', nuremberg: 'ニュルンベルク', cologne: 'ケルン', strasbourg: 'ストラスブール', colmar: 'コルマール', salzburg: 'ザルツブルク', zagreb: 'ザグレブ', rovaniemi: 'ロヴァニエミ', tallinn: 'タリン',
+  dresden: 'ドレスデン', nuremberg: 'ニュルンベルク', cologne: 'ケルン', strasbourg: 'ストラスブール', colmar: 'コルマール', salzburg: 'ザルツブルク', zagreb: 'ザグレブ', rovaniemi: 'ロヴァニエミ', tallinn: 'タリン', edinburgh: 'エディンバラ',
 };
 
 /** 영문 나라 이름 → 일본어 */

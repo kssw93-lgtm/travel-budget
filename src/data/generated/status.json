@@ -2323,6 +2323,34 @@
     "missing": [],
     "computable": true
   },
+  "edinburgh": {
+    "counts": {
+      "food": 3,
+      "transport": 1,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 1,
+      "ride": 1,
+      "meal": 3,
+      "snack": 4,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 1,
+      "ride": 1,
+      "meal": 3,
+      "snack": 4,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "barcelona": {
     "counts": {
       "food": 6,

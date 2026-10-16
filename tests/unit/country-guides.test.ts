@@ -12,7 +12,7 @@ describe('나라별 알아둘 것·조심할 것', () => {
       expect(note!.cautions.length, country).toBeGreaterThan(0);
       for (const line of [...note!.tips, ...note!.cautions]) {
         expect(line.slice(0, 3).every((t) => !!t && t.length > 0), country).toBe(true);
-        if (line[3]) expect(line[3], country).toMatch(/^https:\/\//);
+        expect(line[3], country).toMatch(/^https:\/\//);
         expect(line.slice(0, 3).join(' '), country).not.toMatch(/[$€£¥₩]\s?\d|\d\s?(원|円|달러|유로)/);
       }
     }
@@ -22,7 +22,8 @@ describe('나라별 알아둘 것·조심할 것', () => {
     for (const c of cities) {
       const s = CITY_SEASONS[c.id];
       expect(s, c.id).toBeDefined();
-      expect(s!.every((x) => x.length > 10), c.id).toBe(true);
+      expect(s!.slice(0, 3).every((x) => !!x && x.length > 10), c.id).toBe(true);
+      expect(s![3], c.id).toMatch(/^https:\/\//);
     }
   });
 });

@@ -158,6 +158,14 @@ function CityNotes({ city }: { city: City }) {
           <h3>{fmt(g.seasonTitle, { city: name })}</h3>
           <p data-testid="guide-season">
             {season[lang === 'ko' ? 0 : lang === 'en' ? 1 : 2]} <small className="muted">{g.seasonHint}</small>
+            {season[3] && (
+              <>
+                {' '}
+                <small>
+                  <ExternalLink href={season[3]}>{g.sourceLink}</ExternalLink>
+                </small>
+              </>
+            )}
           </p>
         </>
       )}

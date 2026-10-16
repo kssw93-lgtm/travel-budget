@@ -348,18 +348,15 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(eye.getByRole('link')).toHaveAttribute('href', /^https:\/\//);
   });
 
-  test('현지 물가 한눈에: 한 끼·교통 1회·입장료 등 대표 가격을 현지·선택 통화로 보여준다', async ({ page }) => {
+  test('도시 가이드에는 그 도시만의 볼거리·팁이 있고, 경비 표·물가표는 없다', async ({ page }) => {
     await mockRates(page);
-    // 현지 물가표는 도시 가이드에만 있다
     await page.goto('/guide/tokyo?lang=ko');
-    const guide = page.getByTestId('price-guide');
-    await expect(guide.locator('tr[data-basket="meal"]')).toContainText('한 끼 식사');
-    await expect(guide.locator('tr[data-basket="meal"]')).toContainText('JP¥');
-    await expect(guide.locator('tr[data-basket="meal"]')).toContainText('₩');
-    await expect(guide.locator('tr[data-basket="pass"]')).not.toContainText('참고용');
-    // 간식·음료는 체인 카페·편의점 공식가로 3건 이상 → 참고용 표시가 없다
-    await expect(guide.locator('tr[data-basket="snack"]')).toContainText('JP¥');
-    await expect(guide.locator('tr[data-basket="snack"]')).not.toContainText('참고용');
+    const notes = page.getByTestId('guide-notes');
+    await expect(notes).toContainText('도쿄에서 놓치지 말 것');
+    await expect(notes).toContainText('센소지');
+    await expect(notes).toContainText('도쿄 여행 팁');
+    await expect(page.getByTestId('guide-example')).toHaveCount(0);
+    await expect(page.getByTestId('price-guide')).toHaveCount(0);
   });
 });
 
@@ -435,27 +432,21 @@ test.describe('도시 가이드', () => {
     await expect(page).toHaveURL(/\/guide\/paris\?lang=ko$/);
     await expect(page.locator('main h1')).toHaveText('파리 여행 경비 가이드');
     await expect(page).toHaveTitle(/^파리 여행 경비·현지 물가 — /);
-    await expect(page.getByTestId('guide-example').locator('table').first().locator('tbody tr')).toHaveCount(3);
-    await expect(page.getByTestId('guide-breakdown').locator('tbody tr')).toHaveCount(3); // 외식·현지 교통·예비비(기념품은 직접 입력으로 바뀌어 빠짐)
     await expect(page.getByTestId('guide-attractions')).toContainText('에펠탑');
-    await page.getByRole('link', { name: '내 일정으로 계산하기' }).click();
+    // 위·아래 두 곳에 같은 버튼: 누르면 도시만 고른 계산기로 간다(일정은 사용자가 입력)
+    await expect(page.getByRole('link', { name: '파리 여행 경비 계산해 보기' })).toHaveCount(2);
+    await page.getByRole('link', { name: '파리 여행 경비 계산해 보기' }).first().click();
     await expect(page.locator('#city')).toHaveValue('paris');
-  });
-
-  test('가이드 숫자는 계산기와 같은 엔진에서 나온다(일반형 4일 합계 = 계산기 성인 1명 3박 결과)', async ({ page }) => {
-    await mockRates(page);
-    const date = (JSON.parse(readFileSync('src/data/generated/meta.json', 'utf8')) as { date: string }).date;
-    await page.goto('/guide/tokyo?lang=ko');
-    const guideTotal = await page.getByTestId('guide-example').locator('[data-style="standard"] td').first().locator('.amount').first().textContent();
-    await page.goto(`/?lang=ko&city=tokyo&date=${date}&nights=3&adults=1&children=0&style=standard&cur=JPY`);
-    await expect(page.getByTestId('total').locator('.amount').first()).toHaveText(guideTotal!);
+    await expect(page.locator('#date')).toHaveValue('');
   });
 
   test('정적 HTML 에 도시별 제목·본문이 있고, 없는 도시는 계산기로 간다', async ({ page, request }) => {
     const html = await (await request.get('/guide/osaka.html')).text();
     expect(html).toContain('<title>오사카 여행 경비·현지 물가');
     expect(html).toContain('<h1>오사카 여행 경비 가이드</h1>');
-    expect(html).toContain('3박 4일 예상 현지 체류비');
+    expect(html).toContain('오사카 여행 경비 계산해 보기');
+    expect(html).toContain('오사카에서 놓치지 말 것');
+    expect(html).not.toContain('3박 4일 예상 현지 체류비');
     await mockRates(page);
     await page.goto('/guide/atlantis');
     await expect(page.locator('#city')).toBeVisible();

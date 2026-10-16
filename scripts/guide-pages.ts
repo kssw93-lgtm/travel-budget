@@ -4,26 +4,12 @@
  */
 import { cityGuide, guidePath } from '../src/core/guide';
 import { formatMoney } from '../src/core/money';
-import { STATIC_RATES } from '../src/core/rates/static';
+import { CITY_GUIDES } from '../src/data/city-guides';
 import type { City, CityMemo, ExtraSample, FoodRecommendation, PriceSample, Range } from '../src/core/types';
 import { escapeHtml as e, type PageMeta } from './site-files';
 
-const STYLE_KO = { budget: '절약형', standard: '일반형', comfort: '여유형' } as const;
-const UNIT_KO: Record<string, string> = {
-  pass: '1일 이용권(1일 환산)', ride: '대중교통·이동 1회', meal: '한 끼 식사', snack: '간식·음료 1개', drink: '맥주·와인 1잔',
-  attraction: '관광지 입장료(성인 1회)', souvenir: '기념품 1개',
-};
 
 const money = (n: number, cur: string) => formatMoney(n, cur, 'ko-KR');
-/** 원화 어림값(조사 고정 환율, 0.1만 원 단위). 원화 도시나 환율이 없는 통화는 빈 문자열 */
-const krw = (r: Range, cur: string) => {
-  const per = STATIC_RATES.rates[cur];
-  const won = STATIC_RATES.rates.KRW;
-  if (cur === 'KRW' || !per || !won) return '';
-  const k = (n: number) => `${(Math.round(((n / per) * won) / 1000) / 10).toLocaleString('ko-KR')}만 원`;
-  const [a, b] = [k(r.min), k(r.max)];
-  return ` · 약 ${a === b ? a : `${a} ~ ${b}`}`;
-};
 const range = (r: Range, cur: string) => (money(r.min, cur) === money(r.max, cur) ? money(r.min, cur) : `${money(r.min, cur)} ~ ${money(r.max, cur)}`);
 
 export interface GuideData {
@@ -48,12 +34,14 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
     ride && `대중교통 1회 ${money(ride.median, cur)}`,
     std?.perDay && `1인 1일 ${range(std.perDay, cur)}`,
   ].filter(Boolean);
-  const description = `${city.nameKo} 여행 경비와 현지 물가: ${facts.join(', ')}(대표값). 관광지 입장료와 3박 4일 예상 경비를 공식 가격 자료로 정리했습니다.`;
+  const description = `${city.nameKo}에서 꼭 볼 곳과 현지 팁, 관광지 입장료, 먹어 볼 음식을 정리했습니다. 참고 물가: ${facts.join(', ')}(대표값). ${city.nameKo} 여행 경비는 계산기로 바로 계산해 볼 수 있습니다.`;
 
-  const styles = g.styles
-    .map((s) => `<li>${STYLE_KO[s.style]}: ${s.total ? `4일 합계 ${e(range(s.total, cur))}${e(krw(s.total, cur))} (1일 평균 ${e(range(s.perDay as Range, cur))})` : '가격 자료 보강 중'}</li>`)
-    .join('');
-  const prices = g.prices.map((p) => `<li>${UNIT_KO[p.basket] ?? p.basket}: 대표 ${e(money(p.median, cur))} (범위 ${e(range(p, cur))})</li>`).join('');
+  const note = CITY_GUIDES[city.id];
+  const notes = note
+    ? `        <h2>${e(city.nameKo)}에서 놓치지 말 것</h2><ul>${note.highlights.map((h) => `<li><strong>${e(h.name.ko)}</strong> ${e(h.text.ko)}</li>`).join('')}</ul>` +
+      (note.tips.length ? `<h3>${e(city.nameKo)} 여행 팁</h3><ul>${note.tips.map((t) => `<li>${e(t.ko)}</li>`).join('')}</ul>` : '')
+    : '';
+  const cta = `        <p><a href="/?lang=ko&amp;city=${e(city.id)}">${e(city.nameKo)} 여행 경비 계산해 보기</a></p>`;
   const attractions = g.attractions
     .map((o) => {
       const s = o.adult.sample;
@@ -96,9 +84,9 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
 
   const fallbackHtml = [
     `        <h1>${e(city.nameKo)} 여행 경비 가이드</h1>`,
-    `        <p>${e(city.nameKo)}에서 실제로 쓰게 될 돈을 공식 가격 자료로 정리했습니다. 가격 자료 기준일 ${e(d.updated)}.</p>`,
-    `        <h2>3박 4일 예상 현지 체류비 (성인 1명)</h2><p>외식·현지 교통 + 예비비 10%. 관광지 입장료·쇼핑·항공·숙박 제외.${cur === 'KRW' ? '' : ` 원화는 ${e(STATIC_RATES.asOf)} 기준 환율로 어림한 값입니다.`}</p><ul>${styles}</ul>`,
-    prices && `        <h2>${e(city.nameKo)} 현지 물가 한눈에</h2><ul>${prices}</ul>`,
+    `        <p>${e(city.nameKo)}에서 꼭 볼 곳과 현지 팁, 입장료·먹어 볼 음식을 모았습니다. 가격 자료 기준일 ${e(d.updated)}.</p>`,
+    cta,
+    notes,
     menuExamples &&
       `        <h2>${e(city.nameKo)} 식당 실제 메뉴 가격</h2><p>식당 공식 메뉴판에 적힌 1인 한 끼 가격입니다(세금·팁 별도인 도시는 계산할 때 더합니다).</p><ul>${menuExamples}</ul>`,
     passTips &&
@@ -106,6 +94,7 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
     attractions && `        <h2>${e(city.nameKo)} 관광지·테마파크 입장료</h2><ul>${attractions}</ul>`,
     foods && `        <h2>${e(city.nameKo)}에서 먹어 볼 음식</h2><ul>${foods}</ul>`,
     memos && `        <h2>${e(city.nameKo)} 알아두면 좋은 현지 비용</h2><p>팁·세금·숙박세처럼 계산에는 넣지 않았지만 미리 알아두면 좋은 항목입니다.</p><ul>${memos}</ul>`,
+    cta,
     siblings &&
       `        <h2>${e(city.country)}의 다른 도시와 비교</h2>${borrowedNote}<p>같은 조건(성인 1명, 3박 4일, 일반형)의 1인 1일 현지 체류비입니다.</p><ul>${siblings}</ul>`,
   ]
@@ -131,13 +120,12 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
 export function guideIndexMeta(d: GuideData): PageMeta {
   const items = d.cities
     .map((c) => {
-      const std = cityGuide(c, d.samples, d.refDate, d.extras).styles.find((s) => s.style === 'standard');
-      return `<li><a href="${guidePath(c.id)}">${e(c.nameKo)} 여행 경비 가이드</a>${std?.perDay ? ` — 1인 1일 ${e(range(std.perDay, c.currency))}` : ''}</li>`;
+      return `<li><a href="${guidePath(c.id)}">${e(c.nameKo)} 여행 경비 가이드</a> · ${e(c.country)}</li>`;
     })
     .join('');
   return {
     title: '도시별 여행 경비 가이드 — 여행 경비 계산기 — 현지 체류비 범위',
-    description: '도쿄·파리 등 도시별 한 끼 식사·대중교통·관광지 입장료와 3박 4일 예상 현지 체류비를 공식 가격 자료로 정리했습니다.',
+    description: '도시마다 꼭 볼 곳과 현지 팁, 관광지 입장료, 먹어 볼 음식을 정리했습니다. 내 일정의 여행 경비는 계산기로 바로 계산할 수 있습니다.',
     path: '/guides',
     ld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: '도시별 여행 경비 가이드', inLanguage: ['ko', 'en', 'ja'] },
     fallbackHtml: `        <h1>도시별 여행 경비 가이드</h1>\n        <ul>${items}</ul>`,

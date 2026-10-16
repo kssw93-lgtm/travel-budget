@@ -217,3 +217,5 @@ details:not([open]) > summary .toggle-hint .when-open, details[open] > summary .
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }
 .start-hint { color: var(--muted); margin: 0; }
+.city-notes .highlights li { margin: .5rem 0; } .city-notes .highlights strong { display: block; }
+.guide-cta { margin: 0; text-align: center; }

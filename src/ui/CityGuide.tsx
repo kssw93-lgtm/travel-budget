@@ -1,15 +1,15 @@
 import { useMemo } from 'react';
-import { cityGuide, guidePath, GUIDE_EXAMPLE, type CityGuide as CityGuideData } from '../core/guide';
+import { cityGuide, guidePath, type CityGuide as CityGuideData } from '../core/guide';
 import { formatMoney } from '../core/money';
 import type { City, PriceSample } from '../core/types';
 import { cities, dataDate, dataMeta, extras, foods, memos, samples } from '../data';
+import { CITY_GUIDES } from '../data/city-guides';
 import { DEFAULT_CURRENCY, fmt, localName, useI18n, type Lang } from '../i18n';
 import { InternalLink, type Go } from './App';
 import { CityMemos } from './CityMemos';
 import { ExternalLink } from './ExternalLink';
 import { FoodSection } from './FoodSection';
 import { convertRange, RangeText } from './money';
-import { PriceGuide } from './PriceGuide';
 import { cityName, countryName } from './TripForm';
 import { useRates, type RatesState } from './useRates';
 
@@ -40,8 +40,6 @@ function Converted({ range, from, to, rates }: { range: { min: number; max: numb
 export function GuideIndex({ go }: { go: Go }) {
   const { t, lang } = useI18n();
   const g = t.cityGuide;
-  const rates = useRates();
-  const display = displayCurrency(lang);
   const rows = useMemo(() => cities.map((c) => cityGuide(c, samples, guideRefDate, extras)), []);
   return (
     <article className="card prose" data-testid="guides">
@@ -49,29 +47,53 @@ export function GuideIndex({ go }: { go: Go }) {
       <p className="lead">{g.indexLead}</p>
       <ul className="guide-index">
         {rows.map((r) => {
-          const std = r.styles.find((s) => s.style === 'standard');
           return (
             <li key={r.city.id} data-city={r.city.id}>
               <InternalLink to={`${guidePath(r.city.id)}?lang=${lang}`} go={go}>
                 {fmt(g.title, { city: cityName(r.city, lang) })}
               </InternalLink>
-              <span className="muted">
-                {' '}
-                · {countryName(r.city, lang)} ·{' '}
-                {std?.perDay ? (
-                  <>
-                    {g.perDay} <RangeText range={std.perDay} currency={r.city.currency} />
-                    <Converted range={std.perDay} from={r.city.currency} to={display} rates={rates} />
-                  </>
-                ) : (
-                  g.notComputable
-                )}
-              </span>
+              <span className="muted"> · {countryName(r.city, lang)}</span>
             </li>
           );
         })}
       </ul>
     </article>
+  );
+}
+
+/** 그 도시만의 볼거리·현지 팁(데이터가 있는 도시만) */
+function CityNotes({ city }: { city: City }) {
+  const { t, lang } = useI18n();
+  const g = t.cityGuide;
+  const note = CITY_GUIDES[city.id];
+  if (!note) return null;
+  const name = cityName(city, lang);
+  return (
+    <section className="card prose city-notes" aria-labelledby="guide-notes-title" data-testid="guide-notes">
+      <h2 id="guide-notes-title">{fmt(g.highlightsTitle, { city: name })}</h2>
+      <ul className="highlights">
+        {note.highlights.map((h) => (
+          <li key={h.name.en}>
+            <strong>{h.name[lang]}</strong> {h.text[lang]}
+          </li>
+        ))}
+      </ul>
+      {note.tips.length > 0 && (
+        <>
+          <h3>{fmt(g.tipsTitle, { city: name })}</h3>
+          <ul>
+            {note.tips.map((tip) => (
+              <li key={tip.en}>{tip[lang]}</li>
+            ))}
+          </ul>
+        </>
+      )}
+      {note.source && (
+        <p className="hint">
+          {g.notesSource} <ExternalLink href={note.source.url}>{note.source.name}</ExternalLink>
+        </p>
+      )}
+    </section>
   );
 }
 
@@ -168,7 +190,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
   const display = displayCurrency(lang);
   const guide = useMemo(() => cityGuide(city, samples, guideRefDate, extras), [city]);
   const name = cityName(city, lang);
-  const calc = `/?lang=${lang}&city=${city.id}&nights=${GUIDE_EXAMPLE.nights}&adults=2&children=0&style=standard`;
+  const calc = `/?lang=${lang}&city=${city.id}`;
   return (
     <>
       <section className="hero" data-testid="city-guide" data-city={city.id}>
@@ -176,77 +198,21 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
         <p>{fmt(g.lead, { city: name, date: dataDate })}</p>
         <p>
           <InternalLink className="button" to={calc} go={go}>
-            {g.cta}
+            {fmt(g.cta, { city: name })}
           </InternalLink>
         </p>
       </section>
 
-      <section className="card" aria-labelledby="guide-example-title" data-testid="guide-example">
-        <h2 id="guide-example-title">{g.exampleTitle}</h2>
-        <p className="hint">{g.exampleLead}</p>
-        <table className="guide-table stack">
-          <thead>
-            <tr>
-              <th scope="col">{g.style}</th>
-              <th scope="col">{g.total} ({city.currency})</th>
-              <th scope="col">{g.perDay} ({city.currency})</th>
-            </tr>
-          </thead>
-          <tbody>
-            {guide.styles.map((s) => (
-              <tr key={s.style} data-style={s.style}>
-                <th scope="row">{t.styles[s.style].name}</th>
-                <td data-label={`${g.total} (${city.currency})`}>
-                  {s.total ? (
-                    <>
-                      <RangeText range={s.total} currency={city.currency} />
-                      <Converted range={s.total} from={city.currency} to={display} rates={rates} />
-                    </>
-                  ) : (
-                    <span className="muted">{g.notComputable}</span>
-                  )}
-                </td>
-                <td data-label={`${g.perDay} (${city.currency})`}>{s.perDay ? <RangeText range={s.perDay} currency={city.currency} /> : '—'}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-        <h3 id="guide-breakdown-title">{g.breakdownTitle}</h3>
-        <table className="guide-table stack" aria-labelledby="guide-breakdown-title" data-testid="guide-breakdown">
-          <thead>
-            <tr>
-              <th scope="col">{g.item}</th>
-              {guide.styles.map((s) => (
-                <th scope="col" key={s.style}>
-                  {t.styles[s.style].name}
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {(guide.styles[0]?.breakdown ?? []).map((b, i) => (
-              <tr key={b.key} data-item={b.key}>
-                <th scope="row">{t.categories[b.key]}</th>
-                {guide.styles.map((s) => {
-                  const r = s.breakdown[i]?.total ?? null;
-                  return (
-                    <td key={s.style} data-label={t.styles[s.style].name}>
-                      {r ? <RangeText range={r} currency={city.currency} /> : <span className="muted">—</span>}
-                    </td>
-                  );
-                })}
-              </tr>
-            ))}
-          </tbody>
-        </table>
-        <p className="hint">{g.breakdownNote}</p>
-      </section>
-
-      <PriceGuide city={city} samples={samples} display={display} rates={rates} />
+      <CityNotes city={city} />
       <PassTips guide={guide} />
       <AttractionTable guide={guide} display={display} rates={rates} />
       <FoodSection city={city} foods={foods} />
       <CityMemos city={city} memos={memos} />
+      <p className="guide-cta">
+        <InternalLink className="button" to={calc} go={go}>
+          {fmt(g.cta, { city: name })}
+        </InternalLink>
+      </p>
 
       <nav className="card" aria-labelledby="guide-others-title" data-testid="guide-others">
         <h2 id="guide-others-title">{g.others}</h2>

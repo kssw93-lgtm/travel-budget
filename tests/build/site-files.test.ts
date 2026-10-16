@@ -71,3 +71,15 @@ describe('AdSense 신청 준비', () => {
     expect(results.find((r) => r.item.includes('ads.txt'))?.ok).toBe(false);
   });
 });
+
+describe('RSS 피드(네이버 서치어드바이저 제출용)', () => {
+  it('도시 가이드마다 item 이 있고 제목·설명은 XML 이스케이프된다', async () => {
+    const { rssXml } = await import('../../scripts/site-files');
+    const xml = rssXml('https://example.com', [{ title: 'A & B <도쿄>', path: '/guide/tokyo', description: '"설명"' }], '2026-10-16');
+    expect(xml).toContain('<rss version="2.0"');
+    expect(xml).toContain('<link>https://example.com/guide/tokyo?lang=ko</link>');
+    expect(xml).toContain('A &amp; B &lt;도쿄&gt;');
+    expect(xml).toContain('&quot;설명&quot;');
+    expect(xml).toContain('<pubDate>Thu, 15 Oct 2026 15:00:00 GMT</pubDate>');
+  });
+});

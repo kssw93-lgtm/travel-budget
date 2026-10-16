@@ -36,6 +36,33 @@ export function sitemapXml(site: string, pages: SitePage[] = SITE_PAGES): string
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join('\n')}\n</urlset>\n`;
 }
 
+const xmlEsc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+export interface RssItem {
+  title: string;
+  path: string;
+  description: string;
+}
+
+/** 네이버 서치어드바이저 등에 제출하는 RSS 2.0 피드. 날짜는 화면의 가격 자료 기준일(YYYY-MM-DD) */
+export function rssXml(site: string, items: RssItem[], updated: string): string {
+  const date = new Date(`${updated || '1970-01-01'}T00:00:00+09:00`).toUTCString();
+  const body = items
+    .map(
+      (i) =>
+        `    <item><title>${xmlEsc(i.title)}</title><link>${site}${i.path}?lang=ko</link><guid isPermaLink="true">${site}${i.path}?lang=ko</guid>` +
+        `<description>${xmlEsc(i.description)}</description><pubDate>${date}</pubDate></item>`,
+    )
+    .join('\n');
+  return (
+    `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n  <channel>\n` +
+    `    <title>여행 경비 계산기 — 도시별 여행 경비 가이드</title>\n    <link>${site}/</link>\n` +
+    `    <atom:link href="${site}/rss.xml" rel="self" type="application/rss+xml" />\n` +
+    `    <description>도시별 현지 물가와 3박 4일 예상 경비를 공식 가격 자료로 정리합니다.</description>\n` +
+    `    <language>ko</language>\n    <lastBuildDate>${date}</lastBuildDate>\n${body}\n  </channel>\n</rss>\n`
+  );
+}
+
 export function headTags(site: string, page: SitePage): string[] {
   const url = (lang: string) => `${site}${page.path}?lang=${lang}`;
   return [
@@ -49,6 +76,7 @@ export function headTags(site: string, page: SitePage): string[] {
     `<meta property="og:image:width" content="1200" />`,
     `<meta property="og:image:height" content="630" />`,
     `<meta name="twitter:image" content="${site}/og-image.png" />`,
+    `<link rel="alternate" type="application/rss+xml" title="여행 경비 가이드" href="${site}/rss.xml" />`,
   ];
 }
 

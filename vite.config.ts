@@ -2,7 +2,7 @@ import { resolve } from 'node:path';
 import { defineConfig, loadEnv, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
 import { guideIndexMeta, guidePageMeta, homeFallbackHtml, type GuideData } from './scripts/guide-pages';
-import { SITE_PAGES, adsTxt, adsenseMeta, headTags, infoFallbackHtml, normalizeSite, pageHtml, replaceFallback, robotsTxt, sitemapXml } from './scripts/site-files';
+import { SITE_PAGES, adsTxt, adsenseMeta, headTags, infoFallbackHtml, normalizeSite, pageHtml, replaceFallback, robotsTxt, rssXml, sitemapXml } from './scripts/site-files';
 import { ko } from './src/i18n/ko';
 import { guidePath } from './src/core/guide';
 import { cities, dataDate, dataMeta, extras, foods, memos, samples } from './src/data';
@@ -47,6 +47,10 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
         const index = bundle['index.html'];
         if (index?.type !== 'asset' || typeof index.source !== 'string') return;
         const data = guideData;
+        if (site) {
+          const rssItems = [guideIndexMeta(data), ...cities.map((c) => guidePageMeta(c, data))].map((m) => ({ title: m.title, path: m.path, description: m.description }));
+          this.emitFile({ type: 'asset', fileName: 'rss.xml', source: rssXml(site, rssItems, data.updated) });
+        }
         this.emitFile({ type: 'asset', fileName: 'guides.html', source: pageHtml(index.source, guideIndexMeta(data), site) });
         for (const c of cities) {
           this.emitFile({ type: 'asset', fileName: `guide/${c.id}.html`, source: pageHtml(index.source, guidePageMeta(c, data), site) });

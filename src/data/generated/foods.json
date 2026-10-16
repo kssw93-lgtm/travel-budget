@@ -2387,6 +2387,60 @@
     "note": "Claude 초안(2026-10-11)"
   },
   {
+    "cityId": "copenhagen",
+    "nameKo": "스뫼레브뢰드",
+    "nameEn": "Smørrebrød",
+    "reason": "호밀빵 위에 청어·새우·로스트비프 등을 올린 오픈 샌드위치",
+    "reasonEn": "Open sandwich",
+    "desc": {
+      "ko": "호밀빵 위에 청어·새우·로스트비프 등을 올린 오픈 샌드위치",
+      "en": "Open sandwiches on rye with herring, shrimp or roast beef",
+      "ja": "ライ麦パンにニシンやエビをのせたオープンサンド"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "copenhagen",
+    "nameKo": "데니시 페이스트리",
+    "nameEn": "Wienerbrød",
+    "reason": "버터를 겹겹이 넣어 구운 덴마크 빵",
+    "reasonEn": "Danish pastry",
+    "desc": {
+      "ko": "버터를 겹겹이 넣어 구운 덴마크 빵",
+      "en": "Flaky buttery Danish pastry",
+      "ja": "バターを重ねて焼いたデンマークのパン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "copenhagen",
+    "nameKo": "핫도그(펄세)",
+    "nameEn": "Pølse",
+    "reason": "거리 노점에서 파는 덴마크식 핫도그",
+    "reasonEn": "Danish hot dog",
+    "desc": {
+      "ko": "거리 노점에서 파는 덴마크식 핫도그",
+      "en": "Danish hot dog from street stands",
+      "ja": "屋台で売られるデンマーク風ホットドッグ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
     "cityId": "da-lat",
     "nameKo": "반미 슈마이",
     "nameEn": "Banh Mi Xiu Mai",
@@ -2649,6 +2703,64 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "dublin",
+    "nameKo": "아이리시 스튜",
+    "nameEn": "Irish stew",
+    "reason": "양고기와 감자를 푹 끓인 스튜",
+    "reasonEn": "Lamb stew",
+    "desc": {
+      "ko": "양고기와 감자를 푹 끓인 스튜",
+      "en": "Lamb and potato stew",
+      "ja": "羊肉とじゃがいもの煮込み"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "dublin",
+    "nameKo": "더블린 코들",
+    "nameEn": "Dublin coddle",
+    "reason": "소시지·베이컨·감자를 끓인 더블린 가정식",
+    "reasonEn": "Sausage stew",
+    "desc": {
+      "ko": "소시지·베이컨·감자를 끓인 더블린 가정식",
+      "en": "Sausage, bacon and potato stew, a Dublin classic",
+      "ja": "ソーセージとベーコン、じゃがいもを煮込んだダブリンの家庭料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "DUB-FD-502"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "dublin",
+    "nameKo": "박스티",
+    "nameEn": "Boxty",
+    "reason": "감자 반죽으로 만든 아일랜드식 팬케이크",
+    "reasonEn": "Potato pancake",
+    "desc": {
+      "ko": "감자 반죽으로 만든 아일랜드식 팬케이크",
+      "en": "Irish potato pancake",
+      "ja": "じゃがいも生地のアイルランド風パンケーキ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "DUB-FD-503"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
     "cityId": "dubrovnik",
@@ -3335,6 +3447,80 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "helsinki",
+    "nameKo": "호밀빵",
+    "nameEn": "Ruisleipä",
+    "reason": "시큼하고 촘촘한 핀란드 주식 호밀빵",
+    "reasonEn": "Finnish rye bread",
+    "desc": {
+      "ko": "시큼하고 촘촘한 핀란드 주식 호밀빵",
+      "en": "Dense, sour Finnish rye bread",
+      "ja": "酸味のある密なフィンランドのライ麦パン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Finland",
+    "recommendUrl": "https://www.visitfinland.com/en/articles/finlands-traditional-and-iconic-foods/",
+    "note": "관광청 공식 안내 기준(GPT 2026-10-16)"
+  },
+  {
+    "cityId": "helsinki",
+    "nameKo": "카렐리안 파이",
+    "nameEn": "Karjalanpiirakka",
+    "reason": "호밀 반죽에 쌀죽을 채운 작은 파이",
+    "reasonEn": "Rice-filled rye pasty",
+    "desc": {
+      "ko": "호밀 반죽에 쌀죽을 채운 작은 파이",
+      "en": "Rye pastry filled with rice porridge",
+      "ja": "ライ麦生地に米粥を詰めた小さなパイ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Finland",
+    "recommendUrl": "https://www.visitfinland.com/en/articles/finlands-traditional-and-iconic-foods/",
+    "note": "관광청 공식 안내 기준(GPT 2026-10-16)"
+  },
+  {
+    "cityId": "helsinki",
+    "nameKo": "연어 수프",
+    "nameEn": "Lohikeitto",
+    "reason": "크림 국물에 연어와 감자를 넣은 수프",
+    "reasonEn": "Creamy salmon soup",
+    "desc": {
+      "ko": "크림 국물에 연어와 감자를 넣은 수프",
+      "en": "Creamy salmon and potato soup",
+      "ja": "サーモンとじゃがいものクリームスープ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "HEL-FD-501"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Finland",
+    "recommendUrl": "https://www.visitfinland.com/en/articles/finlands-traditional-and-iconic-foods/",
+    "note": "관광청 공식 안내 기준(GPT 2026-10-16)"
+  },
+  {
+    "cityId": "helsinki",
+    "nameKo": "순록 볶음",
+    "nameEn": "Poronkäristys",
+    "reason": "얇게 저민 순록 고기를 볶아 으깬 감자와 먹는 요리",
+    "reasonEn": "Sautéed reindeer",
+    "desc": {
+      "ko": "얇게 저민 순록 고기를 볶아 으깬 감자와 먹는 요리",
+      "en": "Sautéed reindeer with mashed potatoes",
+      "ja": "薄切りトナカイ肉の炒め物、マッシュポテト添え"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Finland",
+    "recommendUrl": "https://www.visitfinland.com/en/articles/finlands-traditional-and-iconic-foods/",
+    "note": "관광청 공식 안내 기준(GPT 2026-10-16)"
   },
   {
     "cityId": "hiroshima",
@@ -6884,6 +7070,64 @@
     "recommendSource": "관광공사·관광청 공식 안내",
     "recommendUrl": "https://korean.visitkorea.or.kr/",
     "note": "GPT 수집"
+  },
+  {
+    "cityId": "stockholm",
+    "nameKo": "스웨덴 미트볼",
+    "nameEn": "Köttbullar",
+    "reason": "크림소스·감자·링곤베리잼과 먹는 미트볼",
+    "reasonEn": "Swedish meatballs",
+    "desc": {
+      "ko": "크림소스·감자·링곤베리잼과 먹는 미트볼",
+      "en": "Meatballs with cream sauce, potatoes and lingonberry",
+      "ja": "クリームソースとじゃがいも、コケモモジャムを添えたミートボール"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "STO-FD-503"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "stockholm",
+    "nameKo": "시나몬번",
+    "nameEn": "Kanelbulle",
+    "reason": "커피 휴식(피카) 때 먹는 계피빵",
+    "reasonEn": "Cinnamon bun",
+    "desc": {
+      "ko": "커피 휴식(피카) 때 먹는 계피빵",
+      "en": "Cinnamon bun for the fika coffee break",
+      "ja": "コーヒー休憩（フィーカ）に食べるシナモンロール"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "stockholm",
+    "nameKo": "스카겐",
+    "nameEn": "Toast Skagen",
+    "reason": "새우 샐러드를 토스트에 올린 요리",
+    "reasonEn": "Shrimp toast",
+    "desc": {
+      "ko": "새우 샐러드를 토스트에 올린 요리",
+      "en": "Shrimp salad on toast",
+      "ja": "エビのサラダをトーストにのせた料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "STO-FD-502"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
     "cityId": "sydney",

@@ -697,7 +697,7 @@
     "nameEn": "Copenhagen",
     "currency": "DKK",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "stockholm",
@@ -707,7 +707,7 @@
     "nameEn": "Stockholm",
     "currency": "SEK",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "helsinki",
@@ -717,7 +717,7 @@
     "nameEn": "Helsinki",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "krakow",
@@ -737,7 +737,7 @@
     "nameEn": "Dublin",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "brussels",

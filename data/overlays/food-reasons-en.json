@@ -334,5 +334,18 @@
   "siem-reap:Num Banh Chok": "Breakfast rice noodles",
   "krakow:Obwarzanek krakowski": "Kraków ring bread",
   "krakow:Maczanka krakowska": "Pork in gravy-soaked bread",
-  "krakow:Kwaśnica": "Sauerkraut soup"
+  "krakow:Kwaśnica": "Sauerkraut soup",
+  "helsinki:Ruisleipä": "Finnish rye bread",
+  "helsinki:Karjalanpiirakka": "Rice-filled rye pasty",
+  "helsinki:Lohikeitto": "Creamy salmon soup",
+  "helsinki:Poronkäristys": "Sautéed reindeer",
+  "copenhagen:Smørrebrød": "Open sandwich",
+  "copenhagen:Wienerbrød": "Danish pastry",
+  "copenhagen:Pølse": "Danish hot dog",
+  "stockholm:Köttbullar": "Swedish meatballs",
+  "stockholm:Kanelbulle": "Cinnamon bun",
+  "stockholm:Toast Skagen": "Shrimp toast",
+  "dublin:Irish stew": "Lamb stew",
+  "dublin:Dublin coddle": "Sausage stew",
+  "dublin:Boxty": "Potato pancake"
 }

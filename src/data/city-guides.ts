@@ -11,6 +11,7 @@ import { NOTES_4, NOTES_EXTRA } from './city-guides-4';
 import { NOTES_5 } from './city-guides-5';
 import { NOTES_6 } from './city-guides-6';
 import { NOTES_7 } from './city-guides-7';
+import { NOTES_8 } from './city-guides-8';
 export interface Localized {
   ko: string;
   en: string;
@@ -194,7 +195,7 @@ const expand = (c: Compact): CityGuideNote => ({
   tips: c.t.map(([ko, en, ja]) => ({ ko, en, ja })),
 });
 
-const compact: Record<string, Compact> = { ...NOTES_1, ...NOTES_2, ...NOTES_3, ...NOTES_4, ...NOTES_5, ...NOTES_6, ...NOTES_7 };
+const compact: Record<string, Compact> = { ...NOTES_1, ...NOTES_2, ...NOTES_3, ...NOTES_4, ...NOTES_5, ...NOTES_6, ...NOTES_7, ...NOTES_8 };
 for (const [id, extra] of Object.entries(NOTES_EXTRA)) {
   const base = compact[id];
   compact[id] = base ? { h: [...base.h, ...extra.h], t: [...base.t, ...extra.t] } : extra;

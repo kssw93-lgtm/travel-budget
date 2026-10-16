@@ -122,9 +122,17 @@
 | 트빌리시 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 칸쿤 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 칸쿤 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 코펜하겐 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 코펜하겐 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 스톡홀름 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 스톡홀름 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 헬싱키 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 헬싱키 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 크라쿠프 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 크라쿠프 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 크라쿠프 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 더블린 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 더블린 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 브뤼셀 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 브뤼셀 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 레이캬비크 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1087,6 +1095,70 @@
 | FLR-AT-104 | 피렌체 | 팔라초 베키오 박물관 입장 (아동) | 0 EUR | A | 예 | 재검증 | [MUS.E Foundation](https://musefirenze.it/en/museum/museo-di-palazzo-vecchio/) |
 | FLR-AT-105 | 피렌체 | 갈릴레오 박물관 입장 (성인) | 14 EUR | A | 예 | 재검증 | [Museo Galileo](https://www.museogalileo.it/it/organizza-la-visita/orari-e-prezzi?format=html) |
 | FLR-AT-106 | 피렌체 | 갈릴레오 박물관 입장 (아동 6~18세 요금) | 7 EUR | A | 예 | 재검증 | [Museo Galileo](https://www.museogalileo.it/it/organizza-la-visita/orari-e-prezzi?format=html) |
+| CPH-FD-501 | 코펜하겐 | 치킨 샌드위치 | 89 DKK | A | 예 | 재검증 | [Café Kopenhag](https://kopenhag.dk/menu/) |
+| CPH-FD-502 | 코펜하겐 | 할라페뇨 버거 | 95 DKK | A | 예 | 재검증 | [CPH SMASH](https://cphsmash.dk/menu) |
+| CPH-FD-503 | 코펜하겐 | 루이스 버거 콤보 | 135 DKK | A | 조건부 | 조건부, 재검증 | [Louis Burger](https://louisburger.dk/menu) |
+| CPH-SN-501 | 코펜하겐 | 카페라테 (소, 35cl) | 33 DKK | A | 조건부 | 조건부, 재검증 | [7-Eleven Denmark](https://7-eleven.dk/products) |
+| CPH-SN-502 | 코펜하겐 | 필터 커피 | 39 DKK | A | 예 | 재검증 | [Café Kopenhag](https://kopenhag.dk/menu/) |
+| CPH-SN-503 | 코펜하겐 | 솔티드 카라멜 라테 (10월 한정) | 39 DKK | A | 조건부 | 조건부, 재검증 | [Espresso House Denmark](https://dk.espressohouse.com/en) |
+| CPH-AL-501 | 코펜하겐 | 칼스버그 필스너 맥주 33cl | 18 DKK | A | 예 | 재검증 | [7-Eleven Denmark](https://7-eleven.dk/products) |
+| CPH-AL-502 | 코펜하겐 | 칼스버그 필스너 생맥주 0.4L | 69 DKK | A | 예 | 재검증 | [Café Kopenhag](https://kopenhag.dk/menu/) |
+| CPH-AL-503 | 코펜하겐 | 칼스버그 필스너 생맥주 40cl | 60 DKK | A | 예 | 재검증 | [Kappa Bar](https://kappabar.dk/wp-content/uploads/2026/02/Drinkmeny-Copenhagen.pdf) |
+| CPH-TR-501 | 코펜하겐 | 시내 대중교통 최저 성인 단일권 (2존) | 24 DKK | A | 예 | 재검증, 시작가 표기 | [Copenhagen Metro](https://m.dk/en/travel-with-the-metro/tickets/) |
+| CPH-AT-501 | 코펜하겐 | 덴마크 국립박물관 입장권 (성인) | 150 DKK | A | 예 | 재검증 | [National Museum of Denmark](https://nationalmuseet.dk/en/tickets) |
+| CPH-AT-502 | 코펜하겐 | 덴마크 국립박물관 입장권 (18세 미만) | 0 DKK | A | 예 | 재검증 | [National Museum of Denmark](https://nationalmuseet.dk/en/tickets) |
+| CPH-AT-503 | 코펜하겐 | 뉴 칼스버그 글립토테크 입장권 (성인) | 150 DKK | A | 예 | 재검증 | [Ny Carlsberg Glyptotek](https://glyptoteket.com/visit/tickets) |
+| CPH-AT-504 | 코펜하겐 | 뉴 칼스버그 글립토테크 입장권 (18세 미만) | 0 DKK | A | 예 | 재검증 | [Ny Carlsberg Glyptotek](https://glyptoteket.com/visit/tickets) |
+| CPH-AT-505 | 코펜하겐 | 라운드 타워 입장권 (성인) | 60 DKK | A | 예 | 재검증 | [The Round Tower (Rundetaarn)](https://www.rundetaarn.dk/en/visit-us/) |
+| CPH-AT-506 | 코펜하겐 | 라운드 타워 입장권 (아동) | 0 DKK | A | 예 | 재검증 | [The Round Tower (Rundetaarn)](https://www.rundetaarn.dk/en/visit-us/) |
+| STO-FD-501 | 스톡홀름 | 양파 소스와 삶은 감자를 곁들인 돼지 삼겹살 | 135 SEK | A | 예 | 재검증 | [Stockholm City Museum Cafe](https://stadsmuseet.stockholm/en/your-visit/cafe/) |
+| STO-FD-502 | 스톡홀름 | 새우 토스트 스카겐 | 220 SEK | A | 예 | 재검증 | [Restaurang Kvarnen](https://www.kvarnen.com/en/lunch) |
+| STO-FD-503 | 스톡홀름 | 스웨덴 미트볼 | 145 SEK | A | 예 | 재검증 | [Boqueria Stockholm](https://www.boqueria.se/en/lunch) |
+| STO-SN-501 | 스톡홀름 | 감자칩 | 45 SEK | A | 예 | 재검증 | [The Hills Stockholm](https://www.thehillsstockholm.se/meny/) |
+| STO-SN-502 | 스톡홀름 | 브루드 커피 | 37 SEK | A | 예 | 재검증 | [Hilma Stockholm](https://www.hilmastockholm.com/food) |
+| STO-SN-503 | 스톡홀름 | 커피 또는 차 | 30 SEK | A | 예 | 재검증 | [Stockholm City Museum Cafe](https://stadsmuseet.stockholm/en/your-visit/cafe/) |
+| STO-AL-501 | 스톡홀름 | 기네스 맥주 44cl | 105 SEK | A | 예 | 재검증 | [The Hills Stockholm](https://www.thehillsstockholm.se/dryck/) |
+| STO-AL-502 | 스톡홀름 | 팔콘 생맥주 40cl (5.2%) | 65 SEK | A | 예 | 재검증 | [Hamnen Kök & Bar](https://hamnenkokochbar.se/english/) |
+| STO-AL-503 | 스톡홀름 | 칼스버그 수출 생맥주 40cl | 82 SEK | A | 예 | 재검증 | [Waisam Bistro Bar](https://waisamasianbistrobar.se/english/) |
+| STO-TR-501 | 스톡홀름 | 성인 대중교통 단일권 (75분) | 43 SEK | A | 예 | 재검증 | [SL Stockholm Public Transport](https://sl.se/en/fares-and-tickets/visitor-tickets/single-journey-tickets) |
+| STO-AT-501 | 스톡홀름 | 스칸센 1일 입장권 (성인) | 240 SEK | A | 조건부 | 조건부, 재검증 | [Skansen](https://www.skansen.se/en/plan-your-visit/opening-hours-and-prices/) |
+| STO-AT-502 | 스톡홀름 | 스칸센 1일 입장권 (아동) | 0 SEK | A | 예 | 재검증 | [Skansen](https://www.skansen.se/en/plan-your-visit/opening-hours-and-prices/) |
+| STO-AT-503 | 스톡홀름 | 바사 박물관 입장권 (성인, 10~12월) | 195 SEK | A | 예 | 재검증 | [Vasa Museum](https://www.vasamuseet.se/globalassets/vasamuseet/dokument/bransch/2026-info--priser/2026-prislistor-ratt/t_vasa-museum-2026-english.pdf) |
+| STO-AT-504 | 스톡홀름 | 바사 박물관 입장권 (아동·청소년) | 0 SEK | A | 예 | 재검증 | [Vasa Museum](https://www.vasamuseet.se/globalassets/vasamuseet/dokument/bransch/2026-info--priser/2026-prislistor-ratt/t_vasa-museum-2026-english.pdf) |
+| STO-AT-505 | 스톡홀름 | 스톡홀름 왕궁 입장권 (성인, 10~4월) | 220 SEK | A | 예 | 재검증 | [The Royal Palaces](https://www.royalpalaces.se/english/royal-palaces-and-sites/admission-charges.html) |
+| STO-AT-506 | 스톡홀름 | 스톡홀름 왕궁 입장권 (아동 7~17세, 10~4월) | 110 SEK | A | 예 | 재검증 | [The Royal Palaces](https://www.royalpalaces.se/english/royal-palaces-and-sites/admission-charges.html) |
+| HEL-FD-501 | 헬싱키 | 연어 수프 | 14.5 EUR | A | 예 | 재검증 | [Scandinavia Cafe](https://scandinaviacafe.fi/en/menu) |
+| HEL-FD-502 | 헬싱키 | 연어 수프 (메인 크기) | 18 EUR | A | 예 | 재검증 | [Restaurant White Lady](https://whitelady.fi/english/) |
+| HEL-FD-503 | 헬싱키 | 으깬 감자를 곁들인 발트 청어 튀김 | 22 EUR | A | 예 | 재검증 | [Restaurant Kosmos](https://kosmos.fi/en/our-food/) |
+| HEL-SN-501 | 헬싱키 | 코르바푸스티 시나몬 롤 | 2.7 EUR | A | 예 | 재검증 | [Cafe Hiekka](https://www.cafehiekka.fi/menu/) |
+| HEL-SN-502 | 헬싱키 | 커피 1잔 | 4.7 EUR | A | 예 | 재검증 | [Cafe Aalto](https://www.cafeaalto.fi/menu-eng) |
+| HEL-SN-503 | 헬싱키 | 시나몬 롤 | 4 EUR | A | 예 | 재검증 | [Scandinavia Cafe](https://scandinaviacafe.fi/en/menu) |
+| HEL-AL-501 | 헬싱키 | 맥주 0.25L | 5 EUR | A | 예 | 재검증 | [Scandinavia Cafe](https://scandinaviacafe.fi/en/menu) |
+| HEL-AL-502 | 헬싱키 | Sandels III 페일 라거 0.33L | 10.4 EUR | A | 예 | 재검증 | [Cafe Aalto](https://www.cafeaalto.fi/menu-eng) |
+| HEL-AL-503 | 헬싱키 | 페로니 나스트로 아주로 5.1% 0.33L | 8.5 EUR | A | 예 | 재검증 | [Restaurant Suomenlinnan Panimo](https://www.panimoravintola.fi/listat.php?pageId=8&ruokalistaId=13) |
+| HEL-TR-501 | 헬싱키 | HSL AB 성인 단일권 (앱/HSL 카드) | 3.3 EUR | A | 예 | 재검증 | [HSL](https://www.hsl.fi/en/tickets-and-fares/single-tickets/single-ticket-prices-in-the-hsl-area) |
+| HEL-AT-501 | 헬싱키 | 아테네움 미술관 입장권 (성인 현장 표준) | 23 EUR | A | 예 | 재검증 | [Ateneum Art Museum](https://ateneum.fi/en/) |
+| HEL-AT-502 | 헬싱키 | 아테네움 미술관 입장권 (18세 미만) | 0 EUR | A | 예 | 재검증 | [Ateneum Art Museum](https://ateneum.fi/en/) |
+| HEL-AT-503 | 헬싱키 | 스카이휠 헬싱키 탑승권 (성인, 12세 초과) | 15 EUR | A | 예 | 재검증 | [SkyWheel Helsinki](https://skywheel.fi/en/faq/) |
+| HEL-AT-504 | 헬싱키 | 스카이휠 헬싱키 탑승권 (아동 3~11세) | 10.5 EUR | A | 예 | 재검증 | [SkyWheel Helsinki](https://skywheel.fi/en/faq/) |
+| HEL-AT-505 | 헬싱키 | 수오멘린나행 HSL 페리 AB 단일권 (성인) | 3.3 EUR | A | 예 | 재검증 | [Helsinki Regional Transport Authority (HSL)](https://www.hsl.fi/en/tickets-and-fares/single-tickets/single-ticket-prices-in-the-hsl-area) |
+| HEL-AT-506 | 헬싱키 | 수오멘린나행 HSL 페리 AB 단일권 (아동 7~17세) | 1.65 EUR | A | 예 | 재검증 | [Helsinki Regional Transport Authority (HSL)](https://www.hsl.fi/en/tickets-and-fares/single-tickets/single-ticket-prices-in-the-hsl-area) |
+| DUB-FD-501 | 더블린 | 8온스 소고기 버거 | 14.95 EUR | A | 예 | 재검증 | [The Quays Dublin](https://quaysdublin.ie/menus/) |
+| DUB-FD-502 | 더블린 | 전통 더블린 코들 | 19.95 EUR | A | 예 | 재검증 | [Murray's Bar & Grill](https://www.murraysbar.ie/menu) |
+| DUB-FD-503 | 더블린 | 치킨 박시 | 28 EUR | A | 예 | 재검증 | [Gallagher's Boxty House](https://www.boxtyhouse.ie/menu?menu=mains) |
+| DUB-SN-501 | 더블린 | 차 | 2.8 EUR | A | 예 | 재검증 | [The Green Door Coffee](https://thegreendoorcoffee.ie/menu) |
+| DUB-SN-502 | 더블린 | 수제 과일 스콘 | 3.5 EUR | A | 예 | 재검증 | [Amelia's Table](https://ameliastable.ie/menus) |
+| DUB-SN-503 | 더블린 | 아침 차 | 3.5 EUR | A | 예 | 재검증 | [The Bald Barista](https://thebaldbarista.ie/menu) |
+| DUB-AL-501 | 더블린 | 록쇼어 라거 병 330ml | 5.9 EUR | A | 조건부 | 조건부, 재검증 | [Harkins Bar](https://harkinsbar.ie/harkins-beverage-price-list-06-02-2026/) |
+| DUB-AL-502 | 더블린 | 코로나 병 330ml | 7.55 EUR | A | 조건부 | 조건부, 재검증 | [The Church Café, Bar & Restaurant](https://www.thechurch.ie/wp-content/uploads/2026/01/Full-Drinks-Menu-February-2026.pdf) |
+| DUB-AL-503 | 더블린 | 갤러거스 스타우트 생맥주 | 8 EUR | A | 예 | 재검증 | [Gallagher's Boxty House](https://www.boxtyhouse.ie/drinks-menu) |
+| DUB-TR-501 | 더블린 | TFI 90분 성인 요금 | 2 EUR | A | 예 | 재검증 | [Transport for Ireland](https://www.transportforireland.ie/fares/bus-fares/) |
+| DUB-AT-501 | 더블린 | 더블린 동물원 일반 입장권 | 26.5 EUR | A | 예 | 재검증 | [Dublin Zoo](https://www.dublinzoo.ie/book-now/) |
+| DUB-AT-502 | 더블린 | 더블린 동물원 아동 입장권 | 20 EUR | A | 예 | 재검증 | [Dublin Zoo](https://www.dublinzoo.ie/book-now/) |
+| DUB-AT-503 | 더블린 | 크라이스트처치 대성당 입장권 | 12 EUR | A | 예 | 재검증 | [Christ Church Cathedral](https://christchurchcathedral.ie/admission-tickets/) |
+| DUB-AT-504 | 더블린 | 크라이스트처치 대성당 아동 입장권 | 4 EUR | A | 예 | 재검증 | [Christ Church Cathedral](https://christchurchcathedral.ie/admission-tickets/) |
+| DUB-AT-505 | 더블린 | 아일랜드 국립박물관 고고학관 입장권 | 0 EUR | A | 예 | 재검증 | [National Museum of Ireland](https://source.museum.ie/en-IE/Museums/Archaeology/Visitor-Information/Opening-Hours%2C-Location-and-Facilities) |
+| DUB-AT-506 | 더블린 | 아일랜드 국립박물관 고고학관 아동 입장권 | 0 EUR | A | 예 | 재검증 | [National Museum of Ireland](https://source.museum.ie/en-IE/Museums/Archaeology/Visitor-Information/Opening-Hours%2C-Location-and-Facilities) |
 | AMS-FD-501 | 암스테르담 | 풀 아이리시 아침 식사 | 14.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
 | AMS-FD-502 | 암스테르담 | 클럽 샌드위치 | 12.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
 | AMS-FD-503 | 암스테르담 | 채식 버거 | 16.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |

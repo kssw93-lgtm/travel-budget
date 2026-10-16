@@ -5,6 +5,8 @@
   "compatibility_date": "2026-09-01",
   // 자체 도메인(Cloudflare 등록). 배포할 때 Worker 커스텀 도메인으로 자동 연결된다. workers.dev 주소도 계속 열린다.
   "routes": [{ "pattern": "howmuchthere.com", "custom_domain": true }],
+  // routes 를 쓰면 workers.dev 주소가 기본으로 꺼진다. 예전에 공유된 링크가 계속 열리도록 켜 둔다(canonical 은 howmuchthere.com).
+  "workers_dev": true,
   // 정적 사이트(Vite 빌드 결과)를 서빙하고, /api/* 와 첫 화면(/, 공유 링크 미리보기 제목·설명)만 Worker 코드가 처리한다.
   "assets": {
     "directory": "./dist",

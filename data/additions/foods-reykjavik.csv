@@ -1,0 +1,5 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+아이슬란드,레이캬비크,아이슬란드 양고기,Icelandic lamb,"방목해 키운 아이슬란드 양고기, 수프로도 많이 먹음",중,REK-FD-103,대기,Visit Iceland,https://www.visiticeland.com/enjoy-icelandic-food/,관광청 공식 안내 기준(Claude 크롬 2026-10-15)
+아이슬란드,레이캬비크,북극 곤들매기,Arctic char,연어와 비슷한 담백한 북쪽 민물고기,중,,대기,Visit Iceland,https://www.visiticeland.com/enjoy-icelandic-food/,관광청 공식 안내 기준(Claude 크롬 2026-10-15)
+아이슬란드,레이캬비크,스키르,Skyr,꾸덕한 아이슬란드식 발효 유제품,저,,대기,Visit Iceland,https://www.visiticeland.com/enjoy-icelandic-food/,관광청 공식 안내 기준(Claude 크롬 2026-10-15)
+아이슬란드,레이캬비크,하르드피스퀴르,Harðfiskur,버터를 발라 먹는 말린 생선,저,,대기,Visit Iceland,https://www.visiticeland.com/enjoy-icelandic-food/,관광청 공식 안내 기준(Claude 크롬 2026-10-15)

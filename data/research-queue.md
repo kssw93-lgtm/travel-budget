@@ -61,6 +61,9 @@
 | 인터라켄 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 리스본 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 리스본 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 시엠레아프 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 시엠레아프 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 시엠레아프 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 밴쿠버 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 밴쿠버 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 오클랜드 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -119,6 +122,12 @@
 | 트빌리시 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 칸쿤 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 칸쿤 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 크라쿠프 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 크라쿠프 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 크라쿠프 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 브뤼셀 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 브뤼셀 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 브뤼셀 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -473,6 +482,8 @@
 | PRG-AT-107 | 프라하 | 구시청사(천문시계) 기본 입장권 | 350 CZK | A | 예 | 재검증 | [Prague City Tourism 공식(prague.eu)](https://prague.eu/cs/objevujte/staromestska-radnice-s-orlojem/) |
 | PRG-AT-108 | 프라하 | 구시청사(천문시계) 할인 입장권(6~15세) | 230 CZK | A | 예 | 재검증 | [Prague City Tourism 공식(prague.eu)](https://prague.eu/cs/objevujte/staromestska-radnice-s-orlojem/) |
 | PRG-SN-105 | 프라하 | 우 플레쿠 코카콜라 | 79 CZK | A | 조건부 | 조건부, 재검증 | [Pivovar a restaurace U Fleků 공식 음료 메뉴](https://ufleku.cz/restaurace/napojovy-listek/) |
+| REP-FD-104 | 시엠레아프 | 스푼스 스테이크 록락(채소 볶음밥 포함) | 8 USD | A | 예 | 재검증 | [SPOONS Cambodia (A la Carte Photo Menu 2025 PDF)](https://www.spoonscambodia.org/s/EN-SPOONS-Ala-Carte-Photo-Menu-2025.pdf) |
+| REP-FD-105 | 시엠레아프 | 스푼스 그릴드 포크 룰라드 | 7.95 USD | A | 예 | 재검증 | [SPOONS Cambodia (A la Carte Photo Menu 2025 PDF)](https://www.spoonscambodia.org/s/EN-SPOONS-Ala-Carte-Photo-Menu-2025.pdf) |
 | YVR-FD-106 | 밴쿠버 | 더 남 그릴드 치즈 샌드위치 | 11.5 CAD | A | 예 | 재검증 | [The Naam Restaurant (공식 메뉴 PDF)](https://img1.wsimg.com/blobby/go/5e236959-9cd0-494c-a234-1a99eb928d06/MENU%20UPDATE%20JUNE%202025%20web%20version.pdf) |
 | YVR-FD-107 | 밴쿠버 | 더 남 베지 딜라이트 랩 | 15.25 CAD | A | 예 | 재검증 | [The Naam Restaurant (공식 메뉴 PDF)](https://img1.wsimg.com/blobby/go/5e236959-9cd0-494c-a234-1a99eb928d06/MENU%20UPDATE%20JUNE%202025%20web%20version.pdf) |
 | YVR-FD-108 | 밴쿠버 | 더 남 크루아상 멜트 | 15.95 CAD | A | 예 | 재검증 | [The Naam Restaurant (공식 메뉴 PDF)](https://img1.wsimg.com/blobby/go/5e236959-9cd0-494c-a234-1a99eb928d06/MENU%20UPDATE%20JUNE%202025%20web%20version.pdf) |
@@ -529,6 +540,31 @@
 | TAS-TR-102 | 타슈켄트 | 타슈켄트 1일 정액권(버스+지하철) | 13500 UZS | A | 예 | 재검증 | [Ministry of Transport of the Republic of Uzbekistan (gov.uz)](https://gov.uz/ru/mintrans/news/view/225119) |
 | CUN-SN-103 | 칸쿤 | 애플비 칸쿤 아메리카노 260ml | 55 MXN | A | 예 | 재검증 | [Applebee's México (Menú Alta (Cancún) PDF)](https://applebeesmx.s3.amazonaws.com/cdn/assets/2024/12/Menu-Applebees-.pdf) |
 | CUN-AL-103 | 칸쿤 | 애플비 칸쿤 국산 맥주 355ml | 65 MXN | A | 예 | 재검증 | [Applebee's México (Menú Alta (Cancún) PDF)](https://applebeesmx.s3.amazonaws.com/cdn/assets/2024/12/Menu-Applebees-.pdf) |
+| REP-TR-101 | 시엠레아프 | 시엠레아프 공항 셔틀버스(공항↔시내) | 8 USD | A | 조건부 | 조건부, 재검증 | [Siem Reap Airport Bus](https://www.siemreapairportbus.com/) |
+| KRK-FD-101 | 크라쿠프 | 피에로시키 우 빈첸타 피에로기 루스키에 10개 | 11.4 PLN | A | 조건부 | 조건부, 재검증 | [Pierożki u Vincenta (자체 주문 사이트, Lea 114 Kraków)](https://pierozkiuvincenta.pl/menu) |
+| KRK-FD-102 | 크라쿠프 | 키메라 샐러드바 작은 세트(4가지) | 28 PLN | A | 예 | 재검증 | [Chimera (ul. Św. Anny 3, Kraków)](https://chimera.com.pl/nasze-menu) |
+| KRK-FD-103 | 크라쿠프 | 포드 바라넴 돈가스(코틀레트 스하보비) | 55 PLN | A | 예 | 재검증 | [Restauracja Pod Baranem](https://podbaranem.com/menu/) |
+| KRK-TR-101 | 크라쿠프 | 크라쿠프 대중교통 30분·1회권(전 구역) | 6 PLN | A | 예 | 재검증 | [ZTP Kraków](https://ztp.krakow.pl/en/kmk-public-transport/kmk-ticket-guide) |
+| KRK-TR-102 | 크라쿠프 | 크라쿠프 대중교통 24시간권(1구역) | 20 PLN | A | 예 | 재검증 | [ZTP Kraków](https://ztp.krakow.pl/en/kmk-public-transport/kmk-ticket-guide) |
+| KRK-AT-101 | 크라쿠프 | 바벨성 2층(국빈실) 일반 | 57 PLN | A | 예 | 재검증 | [Wawel Royal Castle](https://wawel.krakow.pl/en/common-questions) |
+| KRK-AT-102 | 크라쿠프 | 바벨성 입장(0~6세) | 0 PLN | A | 예 | 재검증 | [Wawel Royal Castle](https://wawel.krakow.pl/en/common-questions) |
+| KRK-AT-103 | 크라쿠프 | 리넥 지하박물관 일반 | 45 PLN | A | 예 | 재검증 | [Museum of Krakow](https://muzeumkrakowa.pl/en/branches/rynek-underground) |
+| KRK-AT-104 | 크라쿠프 | 리넥 지하박물관 할인 | 35 PLN | A | 조건부 | 조건부, 재검증 | [Museum of Krakow](https://muzeumkrakowa.pl/en/branches/rynek-underground) |
+| KRK-AT-105 | 크라쿠프 | 오스카 쉰들러 공장 일반 | 60 PLN | A | 예 | 재검증 | [Museum of Krakow](https://muzeumkrakowa.pl/en/branches/oskar-schindlers-enamel-factory) |
+| KRK-AT-106 | 크라쿠프 | 오스카 쉰들러 공장 할인 | 45 PLN | A | 조건부 | 조건부, 재검증 | [Museum of Krakow](https://muzeumkrakowa.pl/en/branches/oskar-schindlers-enamel-factory) |
+| BRU-FD-101 | 브뤼셀 | 오 비외 브뤼셀 괴즈 맥주 카르보나드 | 19 EUR | A | 예 | 재검증 | [Au Vieux Bruxelles](https://m.auvieuxbruxelles.com/menus.php) |
+| BRU-FD-102 | 브뤼셀 | 브라스리 드 라 빌 아메리캥 샌드위치 | 6 EUR | A | 예 | 재검증 | [Brasserie de la Ville (Rue des Chapeliers 14)](https://menu3d.net/menu/brasseriedelaville) |
+| BRU-FD-103 | 브뤼셀 | 라 루 도르 홍합 마리니에르 | 27.5 EUR | A | 예 | 재검증 | [La Roue d'Or (Grand-Place)](https://restaurantlarouedor.com/moules-frites-bruxelles) |
+| BRU-SN-101 | 브뤼셀 | 브라스리 드 라 빌 스프라이트 | 3.5 EUR | A | 예 | 재검증 | [Brasserie de la Ville](https://menu3d.net/menu/brasseriedelaville) |
+| BRU-AL-101 | 브뤼셀 | 브라스리 드 라 빌 생맥주 주필레르 33cl | 4.5 EUR | A | 예 | 재검증 | [Brasserie de la Ville](https://menu3d.net/menu/brasseriedelaville) |
+| BRU-TR-101 | 브뤼셀 | STIB 비접촉 결제 1회(60분 환승) | 2.4 EUR | A | 예 | 재검증 | [STIB-MIVB](https://www.stib-mivb.be/home/client-support/fares-and-transport-tickets) |
+| BRU-TR-102 | 브뤼셀 | STIB 비접촉 결제 하루 상한 | 8.5 EUR | A | 예 | 재검증 | [STIB-MIVB](https://www.stib-mivb.be/home/client-support/fares-and-transport-tickets) |
+| BRU-AT-101 | 브뤼셀 | 아토미움 입장권(성인 18~64세) | 17 EUR | A | 예 | 재검증 | [Atomium](https://www.atomium.be/tickets) |
+| BRU-AT-102 | 브뤼셀 | 아토미움 입장권(아동 115cm 초과~17세) | 9 EUR | A | 예 | 재검증 | [Atomium](https://www.atomium.be/tickets) |
+| BRU-AT-103 | 브뤼셀 | 미니 유럽 입장권(성인, 현장) | 25 EUR | A | 예 | 재검증 | [Mini-Europe](https://www.minieurope.com/en/individual-rates/) |
+| BRU-AT-104 | 브뤼셀 | 미니 유럽 입장권(12세 미만, 현장) | 17.9 EUR | A | 예 | 재검증 | [Mini-Europe](https://www.minieurope.com/en/individual-rates/) |
+| BRU-AT-105 | 브뤼셀 | 벨기에 왕립미술관 고전관(성인) | 13 EUR | A | 예 | 재검증 | [Royal Museums of Fine Arts of Belgium](https://fine-arts-museum.be/fr/votre-visite/planifier-sa-visite/tarifs) |
+| BRU-AT-106 | 브뤼셀 | 벨기에 왕립미술관(0~17세) | 0 EUR | A | 예 | 재검증 | [Royal Museums of Fine Arts of Belgium](https://fine-arts-museum.be/fr/votre-visite/planifier-sa-visite/tarifs) |
 | SPN-AT-101 | 사이판 | 마나가하 섬 상륙료(비거주자) | 5 USD | A | 조건부 | 조건부, 재검증 | [CNMI Law Revision Commission – Commonwealth Code 2 CMC § 1621](https://cnmilaw.gov/commonwealth-code/1598) |
 | BUD-AT-301 | 부다페스트 | 세체니 온천 1일권(라커 포함) | 13200~15800 HUF | A | 예 | 재검증 | [Széchenyi Thermal Bath](https://www.szechenyibath.hu/prices) |
 | MUC-AT-301 | 뮌헨 | 독일박물관 1일권(성인) | 16 EUR | A | 예 | 재검증 | [Deutsches Museum](https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets) |
@@ -599,6 +635,19 @@
 | AKL-AT-103 | 오클랜드 | 오클랜드 박물관 일반 입장권(해외 방문객 성인) | 32 NZD | A | 예 | 재검증 | [Auckland War Memorial Museum](https://www.aucklandmuseum.com/visit/visit-plan-your-visit/hours-and-admission) |
 | AKL-AT-104 | 오클랜드 | 오클랜드 박물관 일반 입장권(해외 방문객 아동 5~15세) | 16 NZD | A | 예 | 재검증 | [Auckland War Memorial Museum](https://www.aucklandmuseum.com/visit/visit-plan-your-visit/hours-and-admission) |
 | AKL-AT-105 | 오클랜드 | 켈리 탈턴 수족관 일반 입장권(성인, 당일 현장) | 49 NZD | A | 조건부 | 조건부, 재검증 | [SEA LIFE Kelly Tarlton's Aquarium](https://www.visitsealife.com/auckland/tickets-passes/price-table/) |
+| REP-FD-101 | 시엠레아프 | 아목 레스토랑 시엠레아프 볶음밥(치킨) | 6.75 USD | A | 예 | 재검증 | [Amok Restaurant by Chef Kimsan (공식 메뉴 PDF)](https://amokrestaurant.com/wp-content/uploads/2026/04/Menu-Update-2026.pdf) |
+| REP-FD-102 | 시엠레아프 | 아목 레스토랑 메기 아목 | 9.75 USD | A | 예 | 재검증 | [Amok Restaurant by Chef Kimsan (공식 메뉴 PDF)](https://amokrestaurant.com/wp-content/uploads/2026/04/Menu-Update-2026.pdf) |
+| REP-FD-103 | 시엠레아프 | 아목 레스토랑 가물치 아목 | 9.75 USD | A | 예 | 재검증 | [Amok Restaurant by Chef Kimsan (공식 메뉴 PDF)](https://amokrestaurant.com/wp-content/uploads/2026/04/Menu-Update-2026.pdf) |
+| REP-SN-101 | 시엠레아프 | 아목 레스토랑 콜라 330ml | 2 USD | A | 예 | 재검증 | [Amok Restaurant by Chef Kimsan (공식 메뉴 PDF)](https://amokrestaurant.com/wp-content/uploads/2026/04/Menu-Update-2026.pdf) |
+| REP-SN-102 | 시엠레아프 | 아목 레스토랑 생코코넛 | 2.5 USD | A | 예 | 재검증 | [Amok Restaurant by Chef Kimsan (공식 메뉴 PDF)](https://amokrestaurant.com/wp-content/uploads/2026/04/Menu-Update-2026.pdf) |
+| REP-AL-101 | 시엠레아프 | 아목 레스토랑 앙코르 맥주 병 330ml | 2.75 USD | A | 예 | 재검증 | [Amok Restaurant by Chef Kimsan (공식 메뉴 PDF)](https://amokrestaurant.com/wp-content/uploads/2026/04/Menu-Update-2026.pdf) |
+| REP-AL-102 | 시엠레아프 | 아목 레스토랑 앙코르 맥주 병 650ml | 4.8 USD | A | 예 | 재검증 | [Amok Restaurant by Chef Kimsan (공식 메뉴 PDF)](https://amokrestaurant.com/wp-content/uploads/2026/04/Menu-Update-2026.pdf) |
+| REP-AL-103 | 시엠레아프 | 아목 레스토랑 타이거 맥주 병 330ml | 3.25 USD | A | 예 | 재검증 | [Amok Restaurant by Chef Kimsan (공식 메뉴 PDF)](https://amokrestaurant.com/wp-content/uploads/2026/04/Menu-Update-2026.pdf) |
+| REP-AT-101 | 시엠레아프 | 앙코르 유적 공원 1일권 | 37 USD | A | 예 | 재검증 | [Angkor Enterprise](https://www.angkorenterprise.gov.kh/en/available-tickets) |
+| REP-AT-102 | 시엠레아프 | 앙코르 유적 입장(12세 미만) | 0 USD | A | 예 | 재검증 | [Angkor Enterprise (FAQ)](https://www.angkorenterprise.gov.kh/en/faqs) |
+| REP-AT-103 | 시엠레아프 | 벵 밀리아 1일권 | 10 USD | A | 예 | 재검증 | [Angkor Enterprise](https://www.angkorenterprise.gov.kh/en/available-tickets) |
+| REP-AT-104 | 시엠레아프 | 파레 서커스 공연(성인 12세 이상) | 18~38 USD | A | 예 | 재검증 | [Phare, The Cambodian Circus](https://pharecircus.org/tickets/) |
+| REP-AT-105 | 시엠레아프 | 파레 서커스 공연(아동 5~11세) | 10~18 USD | A | 예 | 재검증 | [Phare, The Cambodian Circus](https://pharecircus.org/tickets/) |
 | TYO-SN-830 | 도쿄 | 스타벅스 카페 아메리카노 Tall | 490 JPY | A | 예 | 재검증 | [스타벅스 커피 재팬](https://menu.starbucks.co.jp/4524785000315) |
 | TYO-SN-831 | 도쿄 | 스타벅스 라테 Tall | 500 JPY | A | 예 | 재검증 | [스타벅스 커피 재팬](https://menu.starbucks.co.jp/4524785000223) |
 | TYO-SN-832 | 도쿄 | 털리스 카페 아메리카노 Tall | 450 JPY | A | 예 | 재검증 | [털리스 커피 재팬](https://www.tullys.co.jp/menu/drink/coffee/es_americano.html) |

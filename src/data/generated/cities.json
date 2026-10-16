@@ -317,7 +317,7 @@
     "nameEn": "Siem Reap",
     "currency": "USD",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "luang-prabang",
@@ -727,7 +727,7 @@
     "nameEn": "Krakow",
     "currency": "PLN",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "dublin",
@@ -747,7 +747,7 @@
     "nameEn": "Brussels",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "cairo",

@@ -3065,5 +3065,80 @@
     "ko": "빙수에 과일·콩·우베를 섞은 디저트",
     "en": "Shaved ice with fruit, beans and ube",
     "ja": "かき氷に果物・豆・紫芋を混ぜたデザート"
+  },
+  "brussels:Brussels waffles": {
+    "ko": "바삭하고 가벼운 직사각형 브뤼셀식 와플",
+    "en": "Light, crisp rectangular Brussels waffle",
+    "ja": "軽くてサクサクした長方形のブリュッセルワッフル"
+  },
+  "brussels:Stoemp": {
+    "ko": "으깬 감자에 채소를 섞은 벨기에 가정식",
+    "en": "Mashed potatoes mixed with vegetables",
+    "ja": "野菜を混ぜたマッシュポテト"
+  },
+  "brussels:Waterzooi": {
+    "ko": "크림으로 부드럽게 끓인 닭고기·생선 스튜",
+    "en": "Creamy chicken or fish stew",
+    "ja": "鶏肉や魚をクリームで煮込んだシチュー"
+  },
+  "brussels:Carbonnade flamande": {
+    "ko": "맥주로 푹 끓인 소고기 스튜",
+    "en": "Beef stew slow-cooked in beer",
+    "ja": "ビールでじっくり煮込んだ牛肉シチュー"
+  },
+  "reykjavik:Icelandic lamb": {
+    "ko": "방목해 키운 아이슬란드 양고기, 수프로도 많이 먹음",
+    "en": "Free-range Icelandic lamb, often served as soup",
+    "ja": "放牧で育てたアイスランドの羊肉、スープでもよく食べる"
+  },
+  "reykjavik:Arctic char": {
+    "ko": "연어와 비슷한 담백한 북쪽 민물고기",
+    "en": "Mild northern fish similar to salmon",
+    "ja": "サーモンに似たあっさりした北の魚"
+  },
+  "reykjavik:Skyr": {
+    "ko": "꾸덕한 아이슬란드식 발효 유제품",
+    "en": "Thick Icelandic cultured dairy",
+    "ja": "濃厚なアイスランドの発酵乳製品"
+  },
+  "reykjavik:Harðfiskur": {
+    "ko": "버터를 발라 먹는 말린 생선",
+    "en": "Dried fish eaten with butter",
+    "ja": "バターを塗って食べる干し魚"
+  },
+  "krakow:Pierogi": {
+    "ko": "감자·치즈 등을 채운 폴란드식 만두",
+    "en": "Polish dumplings filled with potato and cheese",
+    "ja": "じゃがいもとチーズなどを包んだポーランドの餃子"
+  },
+  "krakow:Obwarzanek": {
+    "ko": "크라쿠프 거리에서 파는 꼬인 고리 모양 빵",
+    "en": "Twisted ring bread sold on Kraków streets",
+    "ja": "クラクフの街角で売られるねじれた輪のパン"
+  },
+  "krakow:Żurek": {
+    "ko": "발효 호밀 국물에 소시지·달걀을 넣은 수프",
+    "en": "Sour rye soup with sausage and egg",
+    "ja": "発酵ライ麦のスープにソーセージと卵を入れたもの"
+  },
+  "krakow:Kotlet schabowy": {
+    "ko": "폴란드식 돼지고기 돈가스",
+    "en": "Polish breaded pork cutlet",
+    "ja": "ポーランド風の豚カツ"
+  },
+  "siem-reap:Amok": {
+    "ko": "코코넛 커리 양념으로 쪄 낸 캄보디아 대표 생선 요리",
+    "en": "Fish steamed in coconut curry, Cambodia’s signature dish",
+    "ja": "ココナッツカレーで蒸したカンボジアを代表する魚料理"
+  },
+  "siem-reap:Lok Lak": {
+    "ko": "후추 라임 소스를 곁들인 볶은 소고기",
+    "en": "Stir-fried beef with pepper-lime dip",
+    "ja": "胡椒とライムのたれを添えた牛肉炒め"
+  },
+  "siem-reap:Num Banh Chok": {
+    "ko": "쌀국수에 생선 카레 국물을 부은 아침 국수",
+    "en": "Rice noodles with fish curry broth, a breakfast staple",
+    "ja": "米麺に魚カレースープをかけた朝ごはんの麺"
   }
 }

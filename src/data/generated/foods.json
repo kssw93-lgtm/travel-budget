@@ -1971,6 +1971,80 @@
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
+    "cityId": "brussels",
+    "nameKo": "브뤼셀 와플",
+    "nameEn": "Brussels waffles",
+    "reason": "바삭하고 가벼운 직사각형 브뤼셀식 와플",
+    "reasonEn": "Brussels waffle",
+    "desc": {
+      "ko": "바삭하고 가벼운 직사각형 브뤼셀식 와플",
+      "en": "Light, crisp rectangular Brussels waffle",
+      "ja": "軽くてサクサクした長方形のブリュッセルワッフル"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "visit.brussels",
+    "recommendUrl": "https://www.visit.brussels/en/visitors/where-to-eat/brussels-culinary-specialities",
+    "note": "관광청 공식 안내 기준(Claude 크롬 2026-10-15)"
+  },
+  {
+    "cityId": "brussels",
+    "nameKo": "스툼프",
+    "nameEn": "Stoemp",
+    "reason": "으깬 감자에 채소를 섞은 벨기에 가정식",
+    "reasonEn": "Potato and vegetable mash",
+    "desc": {
+      "ko": "으깬 감자에 채소를 섞은 벨기에 가정식",
+      "en": "Mashed potatoes mixed with vegetables",
+      "ja": "野菜を混ぜたマッシュポテト"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "visit.brussels",
+    "recommendUrl": "https://www.visit.brussels/en/visitors/where-to-eat/gastronomie-belge-plaisir-hivernal-",
+    "note": "관광청 공식 안내 기준(Claude 크롬 2026-10-15)"
+  },
+  {
+    "cityId": "brussels",
+    "nameKo": "와테르조이",
+    "nameEn": "Waterzooi",
+    "reason": "크림으로 부드럽게 끓인 닭고기·생선 스튜",
+    "reasonEn": "Creamy stew",
+    "desc": {
+      "ko": "크림으로 부드럽게 끓인 닭고기·생선 스튜",
+      "en": "Creamy chicken or fish stew",
+      "ja": "鶏肉や魚をクリームで煮込んだシチュー"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "visit.brussels",
+    "recommendUrl": "https://www.visit.brussels/en/visitors/where-to-eat/brussels-culinary-specialities",
+    "note": "관광청 공식 안내 기준(Claude 크롬 2026-10-15)"
+  },
+  {
+    "cityId": "brussels",
+    "nameKo": "카르보나드",
+    "nameEn": "Carbonnade flamande",
+    "reason": "맥주로 푹 끓인 소고기 스튜",
+    "reasonEn": "Beef and beer stew",
+    "desc": {
+      "ko": "맥주로 푹 끓인 소고기 스튜",
+      "en": "Beef stew slow-cooked in beer",
+      "ja": "ビールでじっくり煮込んだ牛肉シチュー"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "BRU-FD-101"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
     "cityId": "budapest",
     "nameKo": "굴라시",
     "nameEn": "Gulyás",
@@ -4506,6 +4580,82 @@
     "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
   },
   {
+    "cityId": "krakow",
+    "nameKo": "피에로기",
+    "nameEn": "Pierogi",
+    "reason": "감자·치즈 등을 채운 폴란드식 만두",
+    "reasonEn": "Polish dumplings",
+    "desc": {
+      "ko": "감자·치즈 등을 채운 폴란드식 만두",
+      "en": "Polish dumplings filled with potato and cheese",
+      "ja": "じゃがいもとチーズなどを包んだポーランドの餃子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "KRK-FD-101"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "krakow",
+    "nameKo": "오바지넥",
+    "nameEn": "Obwarzanek",
+    "reason": "크라쿠프 거리에서 파는 꼬인 고리 모양 빵",
+    "reasonEn": "Kraków ring bread",
+    "desc": {
+      "ko": "크라쿠프 거리에서 파는 꼬인 고리 모양 빵",
+      "en": "Twisted ring bread sold on Kraków streets",
+      "ja": "クラクフの街角で売られるねじれた輪のパン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "krakow",
+    "nameKo": "주레크",
+    "nameEn": "Żurek",
+    "reason": "발효 호밀 국물에 소시지·달걀을 넣은 수프",
+    "reasonEn": "Sour rye soup",
+    "desc": {
+      "ko": "발효 호밀 국물에 소시지·달걀을 넣은 수프",
+      "en": "Sour rye soup with sausage and egg",
+      "ja": "発酵ライ麦のスープにソーセージと卵を入れたもの"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "krakow",
+    "nameKo": "코틀레트 스하보비",
+    "nameEn": "Kotlet schabowy",
+    "reason": "폴란드식 돼지고기 돈가스",
+    "reasonEn": "Pork cutlet",
+    "desc": {
+      "ko": "폴란드식 돼지고기 돈가스",
+      "en": "Polish breaded pork cutlet",
+      "ja": "ポーランド風の豚カツ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "KRK-FD-103"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
     "cityId": "kuala-lumpur",
     "nameKo": "나시르막",
     "nameEn": "Nasi Lemak",
@@ -6112,6 +6262,80 @@
     "note": "Claude 초안(2026-10-14)"
   },
   {
+    "cityId": "reykjavik",
+    "nameKo": "아이슬란드 양고기",
+    "nameEn": "Icelandic lamb",
+    "reason": "방목해 키운 아이슬란드 양고기, 수프로도 많이 먹음",
+    "reasonEn": "Icelandic lamb",
+    "desc": {
+      "ko": "방목해 키운 아이슬란드 양고기, 수프로도 많이 먹음",
+      "en": "Free-range Icelandic lamb, often served as soup",
+      "ja": "放牧で育てたアイスランドの羊肉、スープでもよく食べる"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [
+      "REK-FD-103"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Iceland",
+    "recommendUrl": "https://www.visiticeland.com/enjoy-icelandic-food/",
+    "note": "관광청 공식 안내 기준(Claude 크롬 2026-10-15)"
+  },
+  {
+    "cityId": "reykjavik",
+    "nameKo": "북극 곤들매기",
+    "nameEn": "Arctic char",
+    "reason": "연어와 비슷한 담백한 북쪽 민물고기",
+    "reasonEn": "Arctic char",
+    "desc": {
+      "ko": "연어와 비슷한 담백한 북쪽 민물고기",
+      "en": "Mild northern fish similar to salmon",
+      "ja": "サーモンに似たあっさりした北の魚"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Iceland",
+    "recommendUrl": "https://www.visiticeland.com/enjoy-icelandic-food/",
+    "note": "관광청 공식 안내 기준(Claude 크롬 2026-10-15)"
+  },
+  {
+    "cityId": "reykjavik",
+    "nameKo": "스키르",
+    "nameEn": "Skyr",
+    "reason": "꾸덕한 아이슬란드식 발효 유제품",
+    "reasonEn": "Icelandic skyr",
+    "desc": {
+      "ko": "꾸덕한 아이슬란드식 발효 유제품",
+      "en": "Thick Icelandic cultured dairy",
+      "ja": "濃厚なアイスランドの発酵乳製品"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Iceland",
+    "recommendUrl": "https://www.visiticeland.com/enjoy-icelandic-food/",
+    "note": "관광청 공식 안내 기준(Claude 크롬 2026-10-15)"
+  },
+  {
+    "cityId": "reykjavik",
+    "nameKo": "하르드피스퀴르",
+    "nameEn": "Harðfiskur",
+    "reason": "버터를 발라 먹는 말린 생선",
+    "reasonEn": "Dried fish",
+    "desc": {
+      "ko": "버터를 발라 먹는 말린 생선",
+      "en": "Dried fish eaten with butter",
+      "ja": "バターを塗って食べる干し魚"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Iceland",
+    "recommendUrl": "https://www.visiticeland.com/enjoy-icelandic-food/",
+    "note": "관광청 공식 안내 기준(Claude 크롬 2026-10-15)"
+  },
+  {
     "cityId": "rome",
     "nameKo": "카르보나라",
     "nameEn": "Carbonara",
@@ -6498,6 +6722,60 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-09)"
+  },
+  {
+    "cityId": "siem-reap",
+    "nameKo": "아목",
+    "nameEn": "Amok",
+    "reason": "코코넛 커리 양념으로 쪄 낸 캄보디아 대표 생선 요리",
+    "reasonEn": "Coconut fish curry",
+    "desc": {
+      "ko": "코코넛 커리 양념으로 쪄 낸 캄보디아 대표 생선 요리",
+      "en": "Fish steamed in coconut curry, Cambodia’s signature dish",
+      "ja": "ココナッツカレーで蒸したカンボジアを代表する魚料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "siem-reap",
+    "nameKo": "록락",
+    "nameEn": "Lok Lak",
+    "reason": "후추 라임 소스를 곁들인 볶은 소고기",
+    "reasonEn": "Pepper-lime beef",
+    "desc": {
+      "ko": "후추 라임 소스를 곁들인 볶은 소고기",
+      "en": "Stir-fried beef with pepper-lime dip",
+      "ja": "胡椒とライムのたれを添えた牛肉炒め"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "siem-reap",
+    "nameKo": "놈반촉",
+    "nameEn": "Num Banh Chok",
+    "reason": "쌀국수에 생선 카레 국물을 부은 아침 국수",
+    "reasonEn": "Breakfast rice noodles",
+    "desc": {
+      "ko": "쌀국수에 생선 카레 국물을 부은 아침 국수",
+      "en": "Rice noodles with fish curry broth, a breakfast staple",
+      "ja": "米麺に魚カレースープをかけた朝ごはんの麺"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
     "cityId": "sokcho",

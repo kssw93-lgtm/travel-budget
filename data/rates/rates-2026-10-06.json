@@ -98,6 +98,18 @@
       "date": "2026-10-13",
       "name": "조지아 국립은행(NBG) 공식 환율 USD",
       "url": "https://nbg.gov.ge/en/monetary-policy/currency"
+    },
+    "ISK": {
+      "rate": 121.7,
+      "date": "2026-10-15",
+      "name": "아이슬란드 중앙은행(Seðlabanki Íslands) 공식 기준환율 USD 중간율",
+      "url": "https://cb.is/statistics/official-exchange-rate/"
+    },
+    "EGP": {
+      "rate": 53.4634,
+      "date": "2026-10-16",
+      "name": "이집트 중앙은행(CBE) USD 매수 53.4134·매도 53.5134의 중간값(고시일 표기 미확인, 조회일 기준)",
+      "url": "https://www.cbe.org.eg/en/economic-research/statistics/exchange-rates"
     }
   },
   "crossChecks": [

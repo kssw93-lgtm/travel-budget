@@ -127,6 +127,9 @@
 | 크라쿠프 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 브뤼셀 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 브뤼셀 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 레이캬비크 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 레이캬비크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 레이캬비크 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -562,6 +565,18 @@
 | BRU-AT-104 | 브뤼셀 | 미니 유럽 입장권(12세 미만, 현장) | 17.9 EUR | A | 예 | 재검증 | [Mini-Europe](https://www.minieurope.com/en/individual-rates/) |
 | BRU-AT-105 | 브뤼셀 | 벨기에 왕립미술관 고전관(성인) | 13 EUR | A | 예 | 재검증 | [Royal Museums of Fine Arts of Belgium](https://fine-arts-museum.be/fr/votre-visite/planifier-sa-visite/tarifs) |
 | BRU-AT-106 | 브뤼셀 | 벨기에 왕립미술관(0~17세) | 0 EUR | A | 예 | 재검증 | [Royal Museums of Fine Arts of Belgium](https://fine-arts-museum.be/fr/votre-visite/planifier-sa-visite/tarifs) |
+| REK-FD-101 | 레이캬비크 | 햄보르가라뷜란 뷜루버거(120g) | 2340 ISK | A | 예 | 재검증 | [Hamborgarabúllan Tómasar (Tommi's Burger Joint)](https://bullan.is/matsedill/) |
+| REK-FD-102 | 레이캬비크 | 누들 스테이션 치킨 누들 수프 | 2690 ISK | A | 조건부 | 조건부, 재검증 | [Noodle Station](https://noodlestation.is/testnewmenu/) |
+| REK-FD-103 | 레이캬비크 | 카페 로키 양고기 수프 | 4850 ISK | A | 예 | 재검증 | [Café Loki](https://loki.is/menu) |
+| REK-SN-101 | 레이캬비크 | 카페 로키 호밀빵 아이스크림 | 1600 ISK | A | 예 | 재검증 | [Café Loki](https://loki.is/menu) |
+| REK-SN-102 | 레이캬비크 | 햄보르가라뷜란 감자튀김(작은 것) | 840 ISK | A | 예 | 재검증 | [Hamborgarabúllan Tómasar](https://bullan.is/matsedill/) |
+| REK-TR-101 | 레이캬비크 | 스트라이토 버스 1회권(성인) | 690 ISK | A | 예 | 재검증 | [Strætó](https://www.straeto.is/gjaldskra) |
+| REK-AT-101 | 레이캬비크 | 아이슬란드 국립박물관(성인) | 3300 ISK | A | 예 | 재검증 | [National Museum of Iceland](https://www.thjodminjasafn.is/en) |
+| REK-AT-102 | 레이캬비크 | 아이슬란드 국립박물관(18세 미만) | 0 ISK | A | 예 | 재검증 | [National Museum of Iceland](https://www.thjodminjasafn.is/en) |
+| REK-AT-103 | 레이캬비크 | 아르바이르 야외박물관(성인) | 2550 ISK | A | 예 | 재검증 | [Reykjavík City Museum](https://borgarsogusafn.is/en/rate-list) |
+| REK-AT-104 | 레이캬비크 | 아르바이르 야외박물관(0~17세) | 0 ISK | A | 예 | 재검증 | [Reykjavík City Museum](https://borgarsogusafn.is/en/rate-list) |
+| REK-AT-105 | 레이캬비크 | 정착 전시관 아달스트레티(성인) | 3100 ISK | A | 예 | 재검증 | [Reykjavík City Museum](https://borgarsogusafn.is/en/rate-list) |
+| REK-AT-106 | 레이캬비크 | 정착 전시관 아달스트레티(0~17세) | 0 ISK | A | 예 | 재검증 | [Reykjavík City Museum](https://borgarsogusafn.is/en/rate-list) |
 | BRU-SN-102 | 브뤼셀 | 오 비외 브뤼셀 소르베 컵 | 6.5 EUR | A | 예 | 재검증 | [Au Vieux Bruxelles](https://m.auvieuxbruxelles.com/menus.php) |
 | BRU-SN-103 | 브뤼셀 | 라 루 도르 브뤼셀 와플(생크림) | 10 EUR | A | 예 | 재검증 | [La Roue d'Or](https://restaurantlarouedor.com/carte) |
 | BRU-AL-102 | 브뤼셀 | 델리리움 카페 델리리움 트레멘스 생맥주 25cl | 4.6 EUR | A | 예 | 재검증 | [Delirium Village](https://www.deliriumvillage.com/menucafe/) |
@@ -569,6 +584,8 @@
 | KRK-SN-101 | 크라쿠프 | 포드 바라넴 카사타 아이스크림 | 34 PLN | A | 예 | 재검증 | [Restauracja Pod Baranem](https://podbaranem.com/menu/) |
 | KRK-SN-102 | 크라쿠프 | CK 브로바르 사과 슈트루델(바닐라 아이스크림) | 26 PLN | A | 예 | 재검증 | [C.K. Browar (Podwale 7, Kraków)](https://ckbrowar.choiceqr.com/section:menu/desery) |
 | KRK-AL-101 | 크라쿠프 | CK 브로바르 자가양조 라거(C.K. 야스네) 0.5L | 20 PLN | A | 예 | 재검증 | [C.K. Browar](https://ckbrowar.choiceqr.com/section:piwo-c.k.-browar/piwa-lane) |
+| REK-AL-101 | 레이캬비크 | 레보스키 바 굴 맥주 500ml | 1750 ISK | A | 예 | 재검증 | [Lebowski Bar](https://www.lebowskibar.is/menu) |
+| REK-AL-102 | 레이캬비크 | 아이슬란드 바 비킹 길틀뤼르 생맥주 0.5L | 1800 ISK | A | 예 | 재검증 | [Íslenski Barinn (The Icelandic Bar)](https://islenskibarinn.is/drykkjarsedill/) |
 | SPN-AT-101 | 사이판 | 마나가하 섬 상륙료(비거주자) | 5 USD | A | 조건부 | 조건부, 재검증 | [CNMI Law Revision Commission – Commonwealth Code 2 CMC § 1621](https://cnmilaw.gov/commonwealth-code/1598) |
 | BUD-AT-301 | 부다페스트 | 세체니 온천 1일권(라커 포함) | 13200~15800 HUF | A | 예 | 재검증 | [Széchenyi Thermal Bath](https://www.szechenyibath.hu/prices) |
 | MUC-AT-301 | 뮌헨 | 독일박물관 1일권(성인) | 16 EUR | A | 예 | 재검증 | [Deutsches Museum](https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets) |

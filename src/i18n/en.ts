@@ -19,7 +19,7 @@ export const en: Messages = {
     city: 'City', citySearch: 'Search city or country', citySearchPlaceholder: 'Search city or country (e.g. Tokyo, Japan, Paris)', cityMatches: '{n} cities', cityNoMatch: 'Not available yet. More cities are added as research is completed.', cityUpcoming: "{names}: we're collecting official prices. Coming soon.", cityPlaceholder: 'Choose a city', nightsPlaceholder: 'e.g. 3', adultsPlaceholder: 'e.g. 2', visitDate: 'Visit date', nights: 'Nights', adults: 'Adults', children: 'Children',
     style: 'Travel style',
     drinks: 'Include drinks (adults)',
-    shopping: 'Include shopping and gifts', shoppingHint: 'Spending on souvenirs and gifts varies too much to estimate from prices. Tick this and set the amount yourself (for the whole group and trip, no contingency added).', shoppingAmount: 'Planned shopping and gifts ({currency})',
+    shopping: 'Include shopping and gifts', shoppingHint: 'Spending on souvenirs and gifts varies too much to estimate from prices. Enter an amount to add it to the total (whole group and trip, no contingency).', shoppingAmount: 'Shopping and gifts budget (optional, {currency})', shoppingPlaceholder: 'Leave blank to skip',
     drinksHint: 'Beer, wine and similar: 1/2/3 drinks per adult per day (Budget/Standard/Comfort) · Set drinks per day and what you drink under "Detailed settings" below', currency: 'Display currency', currencyHint: 'Currency is independent of the page language.',
     optional: 'Costs you already know (optional)', optionalHint: 'Flights and lodging are not searched live. Only the amounts you enter are added.',
     flight: 'Flights total', lodging: 'Lodging total', directCurrency: 'Currency of these amounts',

@@ -138,6 +138,14 @@
 | 레이캬비크 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 레이캬비크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 레이캬비크 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 드레스덴 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 드레스덴 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 뉘른베르크 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 뉘른베르크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 쾰른 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 쾰른 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 탈린 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 탈린 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -594,6 +602,45 @@
 | KRK-AL-101 | 크라쿠프 | CK 브로바르 자가양조 라거(C.K. 야스네) 0.5L | 20 PLN | A | 예 | 재검증 | [C.K. Browar](https://ckbrowar.choiceqr.com/section:piwo-c.k.-browar/piwa-lane) |
 | REK-AL-101 | 레이캬비크 | 레보스키 바 굴 맥주 500ml | 1750 ISK | A | 예 | 재검증 | [Lebowski Bar](https://www.lebowskibar.is/menu) |
 | REK-AL-102 | 레이캬비크 | 아이슬란드 바 비킹 길틀뤼르 생맥주 0.5L | 1800 ISK | A | 예 | 재검증 | [Íslenski Barinn (The Icelandic Bar)](https://islenskibarinn.is/drykkjarsedill/) |
+| DRS-TR-101 | 드레스덴 | 시내 1회권(Tarifzone Dresden) | 3.6 EUR | A | 예 | 재검증 | [DVB 공식](https://www.dvb.de/de-de/preisstufen/preisstufe1/) |
+| DRS-TR-102 | 드레스덴 | 1일권 1인(Tarifzone Dresden) | 9.5 EUR | A | 예 | 재검증 | [DVB 공식](https://www.dvb.de/de-de/preisstufen/preisstufe1/) |
+| DRS-AT-101 | 드레스덴 | 프라우엔 교회 돔 오르기 | 12 EUR | A | 예 | 재검증 | [Frauenkirche Dresden 공식](https://www.frauenkirche-dresden.de/kuppelaufstieg) |
+| DRS-AT-102 | 드레스덴 | 프라우엔 교회 돔 오르기(할인) | 7 EUR | A | 조건부 | 조건부, 재검증 | [Frauenkirche Dresden 공식](https://www.frauenkirche-dresden.de/kuppelaufstieg) |
+| DRS-AT-103 | 드레스덴 | 츠빙거 하우스티켓(옛 거장 회화관 등) | 18 EUR | A | 예 | 재검증 | [SKD 공식](https://www.skd.museum/besuch/uebersicht-eintrittspreise/) |
+| DRS-AT-104 | 드레스덴 | 츠빙거 하우스티켓(학생 20세 미만) | 2 EUR | A | 예 | 재검증 | [SKD 공식](https://www.skd.museum/besuch/uebersicht-eintrittspreise/) |
+| DRS-AT-105 | 드레스덴 | 레지덴츠 궁전 하우스티켓 | 18 EUR | A | 예 | 재검증 | [SKD 공식](https://www.skd.museum/besuch/uebersicht-eintrittspreise/) |
+| DRS-AT-106 | 드레스덴 | 레지덴츠 궁전 하우스티켓(학생 20세 미만) | 2 EUR | A | 예 | 재검증 | [SKD 공식](https://www.skd.museum/besuch/uebersicht-eintrittspreise/) |
+| NUE-TR-101 | 뉘른베르크 | 시내 1회권 | 3.9 EUR | A | 예 | 재검증 | [VAG 공식](https://www.vag.de/tickets-abo/alle-tickets/detail/einzelfahrt-erwachsene) |
+| NUE-TR-102 | 뉘른베르크 | 1일권 1인(TagesTicket Solo) | 10.6 EUR | A | 예 | 재검증 | [VAG 공식](https://www.vag.de/tickets-abo/alle-tickets/detail/einzelfahrt-erwachsene) |
+| NUE-AT-101 | 뉘른베르크 | 카이저부르크 통합권 | 10 EUR | A | 예 | 재검증 | [Kaiserburg Nürnberg 공식(바이에른 궁전관리청)](https://www.kaiserburg-nuernberg.de/deutsch/tourist/eintritt.htm) |
+| NUE-AT-102 | 뉘른베르크 | 카이저부르크 통합권(18세 미만) | 0 EUR | A | 예 | 재검증 | [Kaiserburg Nürnberg 공식(바이에른 궁전관리청)](https://www.kaiserburg-nuernberg.de/deutsch/tourist/eintritt.htm) |
+| NUE-AT-103 | 뉘른베르크 | 나치 전당대회 기록관 | 7.5 EUR | A | 예 | 재검증 | [Museen der Stadt Nürnberg 공식](https://museen.nuernberg.de/dokuzentrum/besucherinformation/eintrittspreise4/) |
+| NUE-AT-104 | 뉘른베르크 | 나치 전당대회 기록관(4~18세) | 2.5 EUR | A | 예 | 재검증 | [Museen der Stadt Nürnberg 공식](https://museen.nuernberg.de/dokuzentrum/besucherinformation/eintrittspreise4/) |
+| NUE-AT-105 | 뉘른베르크 | 알브레히트 뒤러의 집 | 7.5 EUR | A | 예 | 재검증 | [Museen der Stadt Nürnberg 공식](https://museen.nuernberg.de/duererhaus/besucherinformation/eintrittspreise/) |
+| NUE-AT-106 | 뉘른베르크 | 알브레히트 뒤러의 집(4~18세) | 2.5 EUR | A | 예 | 재검증 | [Museen der Stadt Nürnberg 공식](https://museen.nuernberg.de/duererhaus/besucherinformation/eintrittspreise/) |
+| CGN-TR-101 | 쾰른 | 시내 1회권(요금단계 1b) | 4 EUR | A | 예 | 재검증 | [VRS 공식](https://www.vrs.de/tickets/ticketsortiment/einzelticket) |
+| CGN-TR-102 | 쾰른 | 시내 1회권(요금단계 1b, 6~14세) | 1.8 EUR | A | 예 | 재검증 | [VRS 공식](https://www.vrs.de/tickets/ticketsortiment/einzelticket) |
+| CGN-AT-101 | 쾰른 | 쾰른 대성당 탑 오르기 | 8 EUR | A | 예 | 재검증 | [Kölner Dom 공식](https://www.koelner-dom.de/besuchen/turmbesteigung) |
+| CGN-AT-102 | 쾰른 | 쾰른 대성당 탑 오르기(13세 이하) | 0 EUR | A | 예 | 재검증 | [Kölner Dom 공식](https://www.koelner-dom.de/besuchen/turmbesteigung) |
+| CGN-AT-103 | 쾰른 | 루트비히 미술관 | 15.4 EUR | A | 예 | 재검증 | [Museum Ludwig 공식](https://www.museum-ludwig.de/de/besuch/informationen/tickets-oeffnungszeiten) |
+| CGN-AT-104 | 쾰른 | 루트비히 미술관(18세 이하) | 0 EUR | A | 예 | 재검증 | [Museum Ludwig 공식](https://www.museum-ludwig.de/de/besuch/informationen/tickets-oeffnungszeiten) |
+| CGN-AT-105 | 쾰른 | 쾰른 동물원 1일권 | 22.5~29.5 EUR | A | 조건부 | 조건부, 재검증 | [Kölner Zoo 공식](https://koelnerzoo.de/article/eintrittspreise/) |
+| CGN-AT-106 | 쾰른 | 쾰른 동물원 1일권(아동) | 10.5~15 EUR | A | 조건부 | 조건부, 재검증 | [Kölner Zoo 공식](https://koelnerzoo.de/article/eintrittspreise/) |
+| TLL-FD-101 | 탈린 | 다진 고기·치즈 팬케이크(Kompressor) | 8.5 EUR | A | 예 | 재검증 | [Kompressor 공식](https://kompressorpub.ee/menuu/) |
+| TLL-FD-102 | 탈린 | 피시앤칩스 마늘 마요(Hell Hunt) | 12 EUR | A | 예 | 재검증 | [Hell Hunt 공식](https://hellhunt.ee/en/#menuu) |
+| TLL-FD-103 | 탈린 | 그뢰스틀 팬요리(Beer House) | 21 EUR | A | 예 | 재검증 | [Beer House 공식](https://beerhouse.ee/menuu/) |
+| TLL-SN-101 | 탈린 | 카푸치노(Kompressor) | 3.5 EUR | A | 예 | 재검증 | [Kompressor 공식](https://kompressorpub.ee/menuu/) |
+| TLL-SN-102 | 탈린 | 마늘빵(Beer House) | 7.5 EUR | A | 예 | 재검증 | [Beer House 공식](https://beerhouse.ee/menuu/) |
+| TLL-SN-103 | 탈린 | 마늘빵 오이소스(Hell Hunt) | 5.5 EUR | A | 예 | 재검증 | [Hell Hunt 공식](https://hellhunt.ee/en/#menuu) |
+| TLL-AL-101 | 탈린 | A. Le Coq Premium 맥주(Kompressor) | 5 EUR | A | 예 | 재검증 | [Kompressor 공식](https://kompressorpub.ee/menuu/) |
+| TLL-AL-102 | 탈린 | Helles Light 하우스 맥주(Beer House) | 8 EUR | A | 예 | 재검증 | [Beer House 공식](https://beerhouse.ee/menuu/) |
+| TLL-AL-103 | 탈린 | Hell Hunt Hele 생맥주 | 5.5 EUR | A | 예 | 재검증 | [Hell Hunt 공식](https://hellhunt.ee/en/#menuu) |
+| TLL-TR-101 | 탈린 | 대중교통 1시간권 | 2 EUR | A | 예 | 재검증 | [Visit Tallinn 공식(탈린시 관광청)](https://www.visittallinn.ee/eng/visitor/plan/transport/public-transport) |
+| TLL-TR-102 | 탈린 | 대중교통 1일권 | 5.5 EUR | A | 예 | 재검증 | [Visit Tallinn 공식(탈린시 관광청)](https://www.visittallinn.ee/eng/visitor/plan/transport/public-transport) |
+| TLL-AT-101 | 탈린 | 탈린 구시청사 | 7 EUR | A | 예 | 재검증 | [Tallinn Town Hall 공식](https://raekoda.tallinn.ee/en/visit-tickets-and-fees/) |
+| TLL-AT-102 | 탈린 | 탈린 구시청사(할인) | 5 EUR | A | 조건부 | 조건부, 재검증 | [Tallinn Town Hall 공식](https://raekoda.tallinn.ee/en/visit-tickets-and-fees/) |
+| TLL-AT-103 | 탈린 | 카드리오르그 미술관 | 15 EUR | A | 예 | 재검증 | [Art Museum of Estonia 공식](https://kunstimuuseum.ekm.ee/en/tickets-museum/#kadriorg-art-museum) |
+| TLL-AT-104 | 탈린 | 카드리오르그 미술관(할인) | 10 EUR | A | 조건부 | 조건부, 재검증 | [Art Museum of Estonia 공식](https://kunstimuuseum.ekm.ee/en/tickets-museum/#kadriorg-art-museum) |
 | SPN-AT-101 | 사이판 | 마나가하 섬 상륙료(비거주자) | 5 USD | A | 조건부 | 조건부, 재검증 | [CNMI Law Revision Commission – Commonwealth Code 2 CMC § 1621](https://cnmilaw.gov/commonwealth-code/1598) |
 | BUD-AT-301 | 부다페스트 | 세체니 온천 1일권(라커 포함) | 13200~15800 HUF | A | 예 | 재검증 | [Széchenyi Thermal Bath](https://www.szechenyibath.hu/prices) |
 | MUC-AT-301 | 뮌헨 | 독일박물관 1일권(성인) | 16 EUR | A | 예 | 재검증 | [Deutsches Museum](https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets) |

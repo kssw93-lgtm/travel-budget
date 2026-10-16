@@ -59,7 +59,7 @@ test.describe('계산기 핵심 흐름', () => {
     for (const c of ['food', 'transport', 'attraction', 'contingency']) {
       await expect(page.locator(`tr[data-category="${c}"]`)).toBeVisible();
     }
-    // 기념품은 가격으로 추정하지 않는다(쇼핑·선물은 체크해서 금액을 직접 정할 때만)
+    // 기념품은 가격으로 추정하지 않는다(쇼핑·선물은 금액을 직접 적을 때만)
     await expect(page.locator('tr[data-category="souvenir"]')).toHaveCount(0);
     await expect(page.locator('tr[data-category="shopping"]')).toHaveCount(0);
     await expect(page.getByTestId('quality')).toContainText('사용 표본');
@@ -144,21 +144,23 @@ test.describe('계산기 핵심 흐름', () => {
     await expect(page.getByTestId('total')).not.toHaveText(before);
   });
 
-  test('쇼핑·선물을 체크하면 금액 입력칸이 나오고, 입력한 금액이 총액에 더해진다(예비비 없음)', async ({ page }) => {
+  test('쇼핑·선물 예산 칸에 금액을 적으면 총액에 더해진다(예비비 없음)', async ({ page }) => {
     await mockRates(page);
     await page.goto('/?lang=ko&city=tokyo&date=2026-11-04&nights=3&adults=2&children=0&style=standard&cur=JPY');
-    await expect(page.getByLabel(/쇼핑·선물 예정 금액/)).toHaveCount(0);
     const before = (await page.getByTestId('total').textContent()) ?? '';
     const contingency = (await page.locator('tr[data-category="contingency"]').textContent()) ?? '';
-    await page.getByLabel('쇼핑·선물 비용 포함').check();
-    await page.getByLabel('쇼핑·선물 예정 금액 (JPY)').fill('30000');
+    // 체크 없이 금액 칸이 바로 보이고, 제대로 입력할 수 있는 크기여야 한다
+    const box = await page.getByLabel('쇼핑·선물 예산 (선택, JPY)').boundingBox();
+    expect(box!.width).toBeGreaterThan(120);
+    expect(box!.height).toBeGreaterThan(36);
+    await page.getByLabel('쇼핑·선물 예산 (선택, JPY)').fill('30000');
     await expect(page).toHaveURL(/shop=1/);
     await expect(page).toHaveURL(/shopamt=30000/);
     await expect(page.locator('tr[data-category="shopping"]')).toContainText('JP¥30,000');
     await expect(page.getByTestId('total')).not.toHaveText(before);
     await expect(page.locator('tr[data-category="contingency"]')).toHaveText(contingency);
-    // 체크를 풀면 금액 칸과 줄이 사라지고 총액이 원래대로
-    await page.getByLabel('쇼핑·선물 비용 포함').uncheck();
+    // 금액을 지우면 줄이 사라지고 총액이 원래대로
+    await page.getByLabel('쇼핑·선물 예산 (선택, JPY)').fill('');
     await expect(page.locator('tr[data-category="shopping"]')).toHaveCount(0);
     await expect(page.getByTestId('total')).toHaveText(before);
   });

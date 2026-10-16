@@ -2387,6 +2387,60 @@
     "note": "Claude 초안(2026-10-11)"
   },
   {
+    "cityId": "cologne",
+    "nameKo": "할버 한",
+    "nameEn": "Halve Hahn",
+    "reason": "호밀빵에 숙성 고다 치즈·양파·겨자를 곁들인 쾰른식 간단 요리(닭고기 아님)",
+    "reasonEn": "Rye roll with aged Gouda",
+    "desc": {
+      "ko": "호밀빵에 숙성 고다 치즈·양파·겨자를 곁들인 쾰른식 간단 요리(닭고기 아님)",
+      "en": "Rye roll with aged Gouda, onion and mustard (no chicken despite the name)",
+      "ja": "ライ麦パンに熟成ゴーダ・玉ねぎ・マスタードを添えたケルンの軽食（鶏肉ではない）"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "KölnTourismus",
+    "recommendUrl": "https://blog.koelntourismus.de/?p=15590",
+    "note": ""
+  },
+  {
+    "cityId": "cologne",
+    "nameKo": "힘멜 운 에트",
+    "nameEn": "Himmel un Ääd",
+    "reason": "으깬 감자와 사과 소스에 블러드 소시지·볶은 양파를 올린 요리",
+    "reasonEn": "Potato, apple and black pudding",
+    "desc": {
+      "ko": "으깬 감자와 사과 소스에 블러드 소시지·볶은 양파를 올린 요리",
+      "en": "Mashed potato and apple sauce with black pudding and fried onions",
+      "ja": "マッシュポテトとアップルソースにブラッドソーセージと炒め玉ねぎをのせた料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "KölnTourismus",
+    "recommendUrl": "https://blog.koelntourismus.de/?p=15590",
+    "note": ""
+  },
+  {
+    "cityId": "cologne",
+    "nameKo": "라이베쿠헨",
+    "nameEn": "Reibekuchen",
+    "reason": "감자를 갈아 바삭하게 부친 전으로 사과 소스와 먹음",
+    "reasonEn": "Potato pancakes",
+    "desc": {
+      "ko": "감자를 갈아 바삭하게 부친 전으로 사과 소스와 먹음",
+      "en": "Crisp grated-potato pancakes served with apple sauce",
+      "ja": "すりおろしたじゃがいもをカリッと焼いたパンケーキ、アップルソース添え"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "KölnTourismus",
+    "recommendUrl": "https://blog.koelntourismus.de/?p=15590",
+    "note": ""
+  },
+  {
     "cityId": "copenhagen",
     "nameKo": "스뫼레브뢰드",
     "nameEn": "Smørrebrød",
@@ -2631,6 +2685,60 @@
     "recommendSource": "관광공사·관광청 공식 안내",
     "recommendUrl": "https://korean.visitkorea.or.kr/",
     "note": "GPT 수집"
+  },
+  {
+    "cityId": "dresden",
+    "nameKo": "드레스드너 슈톨렌",
+    "nameEn": "Dresdner Christstollen",
+    "reason": "건과일과 버터를 넣고 슈거파우더를 뿌린 크리스마스 빵",
+    "reasonEn": "Christmas fruit loaf",
+    "desc": {
+      "ko": "건과일과 버터를 넣고 슈거파우더를 뿌린 크리스마스 빵",
+      "en": "Fruit-and-butter Christmas loaf dusted with icing sugar",
+      "ja": "ドライフルーツとバターを入れ粉糖をまぶしたクリスマスのパン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Landeshauptstadt Dresden",
+    "recommendUrl": "https://dresden.de/en/tourism/attractions/events/christmas-season/stollenmarkt.php",
+    "note": ""
+  },
+  {
+    "cityId": "dresden",
+    "nameKo": "아이어셰케",
+    "nameEn": "Eierschecke",
+    "reason": "쿼크 치즈와 달걀 크림을 층층이 구운 작센 지방 케이크",
+    "reasonEn": "Saxon quark-custard cake",
+    "desc": {
+      "ko": "쿼크 치즈와 달걀 크림을 층층이 구운 작센 지방 케이크",
+      "en": "Saxon layered bake of quark and egg custard",
+      "ja": "クワルクと卵クリームを重ねて焼いたザクセン地方のケーキ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Dresden Information",
+    "recommendUrl": "https://www.dresden.de/media/tourismus/pdf/printprodukte/Saechsische_Kueche_web.pdf",
+    "note": ""
+  },
+  {
+    "cityId": "dresden",
+    "nameKo": "크바르크쾨일헨",
+    "nameEn": "Quarkkeulchen",
+    "reason": "쿼크 치즈 반죽을 구워 설탕을 뿌린 작은 팬케이크",
+    "reasonEn": "Sweet quark fritters",
+    "desc": {
+      "ko": "쿼크 치즈 반죽을 구워 설탕을 뿌린 작은 팬케이크",
+      "en": "Small fried quark pancakes dusted with sugar",
+      "ja": "クワルクの生地を焼いて砂糖をまぶした小さなパンケーキ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Dresden Information",
+    "recommendUrl": "https://www.dresden.de/media/tourismus/pdf/printprodukte/Saechsische_Kueche_web.pdf",
+    "note": ""
   },
   {
     "cityId": "dubai",
@@ -5972,6 +6080,60 @@
     "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
   },
   {
+    "cityId": "nuremberg",
+    "nameKo": "뉘른베르거 로스트브라트부르스트",
+    "nameEn": "Nürnberger Rostbratwurst",
+    "reason": "손가락만 한 뉘른베르크 구운 소시지로 사우어크라우트와 곁들임",
+    "reasonEn": "Small grilled sausages",
+    "desc": {
+      "ko": "손가락만 한 뉘른베르크 구운 소시지로 사우어크라우트와 곁들임",
+      "en": "Finger-sized grilled Nuremberg sausages with sauerkraut",
+      "ja": "指ほどの大きさのニュルンベルク焼きソーセージ、ザワークラウト添え"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "nuremberg",
+    "nameKo": "렙쿠헨",
+    "nameEn": "Lebkuchen",
+    "reason": "향신료와 꿀을 넣은 뉘른베르크 전통 과자",
+    "reasonEn": "Spiced gingerbread",
+    "desc": {
+      "ko": "향신료와 꿀을 넣은 뉘른베르크 전통 과자",
+      "en": "Nuremberg’s spiced honey gingerbread",
+      "ja": "スパイスと蜂蜜を使ったニュルンベルク伝統の焼き菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "nuremberg",
+    "nameKo": "쇼이펠레",
+    "nameEn": "Schäufele",
+    "reason": "껍질이 바삭하게 구운 돼지 어깨살 요리",
+    "reasonEn": "Roast pork shoulder",
+    "desc": {
+      "ko": "껍질이 바삭하게 구운 돼지 어깨살 요리",
+      "en": "Roast pork shoulder with crackling skin",
+      "ja": "皮をパリッと焼いた豚肩肉のロースト"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
     "cityId": "okinawa",
     "nameKo": "오키나와 소바",
     "nameEn": "Okinawa Soba",
@@ -7272,6 +7434,78 @@
     "recommendSource": "Taichung Travel",
     "recommendUrl": "https://travel.taichung.gov.tw/zh-tw/Experience/Souvenirs",
     "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "tallinn",
+    "nameKo": "킬루뵈일레이브",
+    "nameEn": "Kiluvõileib",
+    "reason": "흑빵에 작은 청어류 생선(스프랫)을 올린 오픈 샌드위치로 삶은 달걀을 곁들이기도 함",
+    "reasonEn": "Sprat open sandwich",
+    "desc": {
+      "ko": "흑빵에 작은 청어류 생선(스프랫)을 올린 오픈 샌드위치",
+      "en": "Open sandwich of sprats on dark rye bread, often with boiled egg",
+      "ja": "黒パンに小魚（スプラット）をのせたオープンサンド"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Estonia",
+    "recommendUrl": "https://visitestonia.com/en/what-to-do/five-classic-foods-to-try-in-estonia",
+    "note": ""
+  },
+  {
+    "cityId": "tallinn",
+    "nameKo": "코후케",
+    "nameEn": "Kohuke",
+    "reason": "달콤한 커드 치즈를 초콜릿으로 감싼 간식",
+    "reasonEn": "Chocolate-coated curd snack",
+    "desc": {
+      "ko": "달콤한 커드 치즈를 초콜릿으로 감싼 간식",
+      "en": "Sweet curd-cheese snack coated in chocolate",
+      "ja": "甘いカード（凝乳）チーズをチョコでコーティングしたおやつ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Estonia",
+    "recommendUrl": "https://visitestonia.com/en/what-to-do/five-classic-foods-to-try-in-estonia",
+    "note": ""
+  },
+  {
+    "cityId": "tallinn",
+    "nameKo": "물기푸데르",
+    "nameEn": "Mulgipuder",
+    "reason": "감자와 보리를 섞어 만든 물기마 지방의 전통 죽",
+    "reasonEn": "Potato and barley porridge",
+    "desc": {
+      "ko": "감자와 보리를 섞어 만든 물기마 지방의 전통 죽",
+      "en": "Traditional Mulgi-region porridge of potato and barley",
+      "ja": "じゃがいもと大麦で作るムルギ地方の伝統的な粥"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Estonia",
+    "recommendUrl": "https://visitestonia.com/en/what-to-do/five-classic-foods-to-try-in-estonia",
+    "note": ""
+  },
+  {
+    "cityId": "tallinn",
+    "nameKo": "카마 디저트",
+    "nameEn": "Kama desserts",
+    "reason": "볶은 곡물 가루인 카마를 넣어 만든 디저트",
+    "reasonEn": "Roasted-grain kama desserts",
+    "desc": {
+      "ko": "볶은 곡물 가루인 카마를 넣어 만든 디저트",
+      "en": "Desserts made with kama, a roasted grain flour",
+      "ja": "炒った穀物の粉「カマ」を使ったデザート"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Estonia",
+    "recommendUrl": "https://visitestonia.com/en/what-to-do/five-classic-foods-to-try-in-estonia",
+    "note": ""
   },
   {
     "cityId": "tashkent",

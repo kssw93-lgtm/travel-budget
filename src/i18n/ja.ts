@@ -23,7 +23,7 @@ export const ja: Messages = {
     city: '都市', citySearch: '都市・国を検索', citySearchPlaceholder: '都市・国を検索（例：東京、日本、Paris）', cityMatches: '{n}都市', cityNoMatch: 'まだ対応していない都市です。調査が終わり次第追加します。', cityUpcoming: '{names}：公式価格を調査中です。近日追加予定です。', cityPlaceholder: '都市を選んでください', nightsPlaceholder: '例：3', adultsPlaceholder: '例：2', visitDate: '訪問日', nights: '泊数', adults: '大人', children: '子ども',
     style: '旅行スタイル',
     drinks: '飲酒を含める（大人）',
-    shopping: '買い物・お土産の費用を含める', shoppingHint: 'お土産やプレゼントなどの買い物は人によって大きく違うため、価格から推定しません。チェックして使う金額をご自身で決めてください（グループ全体・旅行全体、予備費なし）。', shoppingAmount: '買い物・お土産の予定額（{currency}）',
+    shopping: '買い物・お土産の費用を含める', shoppingHint: 'お土産やプレゼントなどの買い物は人によって大きく違うため、価格から推定しません。金額を入れると合計に加算します（グループ全体・旅行全体、予備費なし）。', shoppingAmount: '買い物・お土産の予算（任意、{currency}）', shoppingPlaceholder: '空欄なら加算しません',
     drinksHint: 'ビール・ワインなど、大人1人1日1／2／3杯（節約型／標準型／ゆとり型）が基準・杯数と飲むお酒は下の「詳しい設定」で選べます', currency: '表示通貨', currencyHint: '言語に関係なく、好きな通貨を選べます。',
     optional: 'すでに分かっている費用（任意）', optionalHint: '航空券・宿泊はリアルタイム検索しません。入力した金額のみ合計します。',
     flight: '航空券の合計', lodging: '宿泊費の合計', directCurrency: '入力通貨',

@@ -777,7 +777,7 @@
     "nameEn": "Dresden",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "nuremberg",
@@ -787,7 +787,7 @@
     "nameEn": "Nuremberg",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "cologne",
@@ -797,7 +797,7 @@
     "nameEn": "Cologne",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "strasbourg",
@@ -857,7 +857,7 @@
     "nameEn": "Tallinn",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "barcelona",

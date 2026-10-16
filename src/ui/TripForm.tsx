@@ -185,26 +185,19 @@ export function TripForm({ form, onChange, errors, cities, upcoming = [], rates 
         <p className="hint">{t.form.drinksHint}</p>
       </div>
 
-      <div className="check-field">
-        <label htmlFor="shopping">
-          <input id="shopping" type="checkbox" checked={form.shopping} onChange={(e) => onChange({ shopping: e.target.checked })} />
-          {t.form.shopping}
-        </label>
+      <div className="field">
+        <label htmlFor="shoppingAmount">{fmt(t.form.shoppingAmount, { currency: form.currency })}</label>
+        <input
+          id="shoppingAmount"
+          type="text"
+          inputMode="decimal"
+          value={form.shoppingAmount}
+          placeholder={t.form.shoppingPlaceholder}
+          onChange={(e) => onChange({ shopping: e.target.value.trim() !== '', shoppingAmount: e.target.value })}
+          {...field('shoppingAmount')}
+        />
+        {err('shoppingAmount')}
         <p className="hint">{t.form.shoppingHint}</p>
-        {form.shopping && (
-          <div className="field">
-            <label htmlFor="shoppingAmount">{fmt(t.form.shoppingAmount, { currency: form.currency })}</label>
-            <input
-              id="shoppingAmount"
-              type="text"
-              inputMode="decimal"
-              value={form.shoppingAmount}
-              onChange={(e) => onChange({ shoppingAmount: e.target.value })}
-              {...field('shoppingAmount')}
-            />
-            {err('shoppingAmount')}
-          </div>
-        )}
       </div>
 
       <div className="field">

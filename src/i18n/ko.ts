@@ -18,7 +18,7 @@ export const ko = {
     city: '도시', citySearch: '도시·나라 검색', citySearchPlaceholder: '도시·나라 검색 (예: 도쿄, 일본, Paris)', cityMatches: '{n}개 도시', cityNoMatch: '아직 없는 도시입니다. 조사가 끝나는 대로 추가됩니다.', cityUpcoming: '{names}: 공식 가격을 모으는 중이라 곧 추가됩니다.', cityPlaceholder: '도시를 선택하세요', nightsPlaceholder: '예: 3', adultsPlaceholder: '예: 2', visitDate: '방문일', nights: '숙박 수', adults: '성인', children: '어린이',
     style: '여행 스타일',
     drinks: '음주 포함 (성인)',
-    shopping: '쇼핑·선물 비용 포함', shoppingHint: '기념품·선물 등 쇼핑에 쓸 돈은 사람마다 크게 달라 가격으로 추정하지 않습니다. 체크하고 쓸 금액을 직접 정하세요(일행 전체·여행 전체 기준, 예비비 없음).', shoppingAmount: '쇼핑·선물 예정 금액 ({currency})',
+    shopping: '쇼핑·선물 비용 포함', shoppingHint: '기념품·선물 등 쇼핑에 쓸 돈은 사람마다 크게 달라 가격으로 추정하지 않습니다. 쓸 금액을 적으면 총액에 더합니다(일행 전체·여행 전체 기준, 예비비 없음).', shoppingAmount: '쇼핑·선물 예산 (선택, {currency})', shoppingPlaceholder: '비워 두면 더하지 않아요',
     drinksHint: '맥주·와인 등 성인 1인 하루 1/2/3잔(절약/일반/여유형) 기준 · 잔 수와 마실 술은 아래 "자세히 설정"에서 고를 수 있습니다', currency: '표시 통화', currencyHint: '언어와 상관없이 원하는 통화를 고를 수 있습니다.',
     optional: '이미 알고 있는 비용 (선택)', optionalHint: '항공권·숙박은 실시간 조회하지 않습니다. 입력한 금액만 합산합니다.',
     flight: '항공권 합계', lodging: '숙박 합계', directCurrency: '입력 통화',

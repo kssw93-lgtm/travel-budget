@@ -3210,5 +3210,70 @@
     "ko": "감자 반죽으로 만든 아일랜드식 팬케이크",
     "en": "Irish potato pancake",
     "ja": "じゃがいも生地のアイルランド風パンケーキ"
+  },
+  "tallinn:Kiluvõileib": {
+    "ko": "흑빵에 작은 청어류 생선(스프랫)을 올린 오픈 샌드위치",
+    "en": "Open sandwich of sprats on dark rye bread, often with boiled egg",
+    "ja": "黒パンに小魚（スプラット）をのせたオープンサンド"
+  },
+  "tallinn:Kohuke": {
+    "ko": "달콤한 커드 치즈를 초콜릿으로 감싼 간식",
+    "en": "Sweet curd-cheese snack coated in chocolate",
+    "ja": "甘いカード（凝乳）チーズをチョコでコーティングしたおやつ"
+  },
+  "tallinn:Mulgipuder": {
+    "ko": "감자와 보리를 섞어 만든 물기마 지방의 전통 죽",
+    "en": "Traditional Mulgi-region porridge of potato and barley",
+    "ja": "じゃがいもと大麦で作るムルギ地方の伝統的な粥"
+  },
+  "tallinn:Kama desserts": {
+    "ko": "볶은 곡물 가루인 카마를 넣어 만든 디저트",
+    "en": "Desserts made with kama, a roasted grain flour",
+    "ja": "炒った穀物の粉「カマ」を使ったデザート"
+  },
+  "dresden:Dresdner Christstollen": {
+    "ko": "건과일과 버터를 넣고 슈거파우더를 뿌린 크리스마스 빵",
+    "en": "Fruit-and-butter Christmas loaf dusted with icing sugar",
+    "ja": "ドライフルーツとバターを入れ粉糖をまぶしたクリスマスのパン"
+  },
+  "dresden:Eierschecke": {
+    "ko": "쿼크 치즈와 달걀 크림을 층층이 구운 작센 지방 케이크",
+    "en": "Saxon layered bake of quark and egg custard",
+    "ja": "クワルクと卵クリームを重ねて焼いたザクセン地方のケーキ"
+  },
+  "dresden:Quarkkeulchen": {
+    "ko": "쿼크 치즈 반죽을 구워 설탕을 뿌린 작은 팬케이크",
+    "en": "Small fried quark pancakes dusted with sugar",
+    "ja": "クワルクの生地を焼いて砂糖をまぶした小さなパンケーキ"
+  },
+  "nuremberg:Nürnberger Rostbratwurst": {
+    "ko": "손가락만 한 뉘른베르크 구운 소시지로 사우어크라우트와 곁들임",
+    "en": "Finger-sized grilled Nuremberg sausages with sauerkraut",
+    "ja": "指ほどの大きさのニュルンベルク焼きソーセージ、ザワークラウト添え"
+  },
+  "nuremberg:Lebkuchen": {
+    "ko": "향신료와 꿀을 넣은 뉘른베르크 전통 과자",
+    "en": "Nuremberg’s spiced honey gingerbread",
+    "ja": "スパイスと蜂蜜を使ったニュルンベルク伝統の焼き菓子"
+  },
+  "nuremberg:Schäufele": {
+    "ko": "껍질이 바삭하게 구운 돼지 어깨살 요리",
+    "en": "Roast pork shoulder with crackling skin",
+    "ja": "皮をパリッと焼いた豚肩肉のロースト"
+  },
+  "cologne:Halve Hahn": {
+    "ko": "호밀빵에 숙성 고다 치즈·양파·겨자를 곁들인 쾰른식 간단 요리(닭고기 아님)",
+    "en": "Rye roll with aged Gouda, onion and mustard (no chicken despite the name)",
+    "ja": "ライ麦パンに熟成ゴーダ・玉ねぎ・マスタードを添えたケルンの軽食（鶏肉ではない）"
+  },
+  "cologne:Himmel un Ääd": {
+    "ko": "으깬 감자와 사과 소스에 블러드 소시지·볶은 양파를 올린 요리",
+    "en": "Mashed potato and apple sauce with black pudding and fried onions",
+    "ja": "マッシュポテトとアップルソースにブラッドソーセージと炒め玉ねぎをのせた料理"
+  },
+  "cologne:Reibekuchen": {
+    "ko": "감자를 갈아 바삭하게 부친 전으로 사과 소스와 먹음",
+    "en": "Crisp grated-potato pancakes served with apple sauce",
+    "ja": "すりおろしたじゃがいもをカリッと焼いたパンケーキ、アップルソース添え"
   }
 }

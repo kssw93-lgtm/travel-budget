@@ -74,7 +74,7 @@ const slimData = (): Plugin => ({
 
 // 개발 중에는 `npm run dev:worker`(wrangler dev, 8787)로 /api/* 를 프록시한다.
 export default defineConfig(({ mode }) => ({
-  plugins: [slimData(), react(), seo(process.env.SITE_URL ?? 'https://travel-budget.xxxjkim.workers.dev', process.env.ADSENSE_PUBLISHER_ID, process.env.VITE_CONTACT_EMAIL ?? loadEnv(mode, process.cwd(), 'VITE_').VITE_CONTACT_EMAIL)],
+  plugins: [slimData(), react(), seo(process.env.SITE_URL ?? 'https://howmuchthere.com', process.env.ADSENSE_PUBLISHER_ID, process.env.VITE_CONTACT_EMAIL ?? loadEnv(mode, process.cwd(), 'VITE_').VITE_CONTACT_EMAIL)],
   build: {
     rollupOptions: {
       input: Object.fromEntries(SITE_PAGES.map((p) => [p.file.replace('.html', ''), resolve(__dirname, p.file)])),

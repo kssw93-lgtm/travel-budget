@@ -4,6 +4,10 @@
  * 근거 URL 이 없는 항목은 Claude 초안이며, GPT 할 일 R 에서 공식 출처로 확인·교체한다.
  * 데이터가 없는 도시는 화면에서 이 구역을 그리지 않는다.
  */
+import { NOTES_1, type Compact } from './city-guides-1';
+import { NOTES_2 } from './city-guides-2';
+import { NOTES_3 } from './city-guides-3';
+import { NOTES_4, NOTES_EXTRA } from './city-guides-4';
 export interface Localized {
   ko: string;
   en: string;
@@ -19,7 +23,7 @@ export interface CityGuideNote {
   source?: { name: string; url: string };
 }
 
-export const CITY_GUIDES: Record<string, CityGuideNote> = {
+const BASE: Record<string, CityGuideNote> = {
   tokyo: {
     highlights: [
       {
@@ -180,4 +184,19 @@ export const CITY_GUIDES: Record<string, CityGuideNote> = {
       },
     ],
   },
+};
+
+const expand = (c: Compact): CityGuideNote => ({
+  highlights: c.h.map(([nk, ne, nj, tk, te, tj]) => ({ name: { ko: nk, en: ne, ja: nj }, text: { ko: tk, en: te, ja: tj } })),
+  tips: c.t.map(([ko, en, ja]) => ({ ko, en, ja })),
+});
+
+const compact: Record<string, Compact> = { ...NOTES_1, ...NOTES_2, ...NOTES_3, ...NOTES_4 };
+for (const [id, extra] of Object.entries(NOTES_EXTRA)) {
+  const base = compact[id];
+  compact[id] = base ? { h: [...base.h, ...extra.h], t: [...base.t, ...extra.t] } : extra;
+}
+export const CITY_GUIDES: Record<string, CityGuideNote> = {
+  ...BASE,
+  ...Object.fromEntries(Object.entries(compact).map(([id, c]) => [id, expand(c)])),
 };

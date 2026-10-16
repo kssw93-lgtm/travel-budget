@@ -112,15 +112,15 @@ export const NOTES_9: Record<string, Compact> = {
   },
   edinburgh: {
     h: [
-      ['에든버러성', 'Edinburgh Castle', 'エディンバラ城', '도시 한가운데 바위산 위에 선 성. 스코틀랜드 왕관 보석과 운명의 돌을 볼 수 있습니다.', 'The castle on a volcanic rock at the city’s heart, home to the Scottish Crown Jewels and the Stone of Destiny.', '街の中心の岩山にそびえる城。スコットランドの王冠と運命の石が見られます。'],
-      ['로열 마일', 'Royal Mile', 'ロイヤル・マイル', '에든버러성에서 홀리루드 궁전까지 이어지는 구시가지의 중심 거리입니다.', 'The old town’s main street, running from the castle down to Holyrood.', 'エディンバラ城からホリールード宮殿まで続く旧市街の目抜き通りです。'],
-      ['홀리루드 궁전', 'Palace of Holyroodhouse', 'ホリールード宮殿', '영국 국왕의 스코틀랜드 공식 거처로, 메리 여왕의 방이 남아 있습니다.', 'The monarch’s official residence in Scotland, with Mary, Queen of Scots’ chambers.', '英国王のスコットランドでの公式住居で、メアリー女王の部屋が残っています。'],
+      ['에든버러성', 'Edinburgh Castle', 'エディンバラ城', '성 바위 위에 자리한 에든버러의 대표 명소입니다. 스코틀랜드의 왕실·군사 역사를 전시와 유적을 통해 만날 수 있습니다.', 'Set on Castle Rock, Edinburgh Castle is one of the city’s defining landmarks, with displays and historic sites linked to Scotland’s royal and military past.', 'キャッスル・ロックに建つエディンバラを代表する名所です。展示や史跡を通じて、スコットランドの王室と軍事の歴史に触れられます。'],
+      ['로열 마일', 'The Royal Mile', 'ロイヤル・マイル', '에든버러성과 홀리루드하우스 궁전을 잇는 구시가지의 역사 거리입니다. 골목길과 교회, 상점과 식당을 따라 걸어보세요.', 'This historic Old Town route links Edinburgh Castle with the Palace of Holyroodhouse. Walk it for its closes, churches, shops and places to eat.', 'エディンバラ城とホリールードハウス宮殿を結ぶ旧市街の歴史ある通りです。路地や教会、店、飲食店をたどって歩いてみましょう。'],
+      ['홀리루드하우스 궁전', 'Palace of Holyroodhouse', 'ホリールードハウス宮殿', '왕궁의 접견실과 메리 여왕의 방, 홀리루드 수도원 유적을 둘러볼 수 있습니다. 로열 마일의 동쪽 끝에 있습니다.', 'Explore the State Apartments, rooms associated with Mary, Queen of Scots, and the ruins of Holyrood Abbey at the eastern end of the Royal Mile.', 'ロイヤル・マイルの東端にあり、公式居室、メアリー女王ゆかりの部屋、ホリールード修道院の遺跡を見学できます。'],
       ['아서스 시트', 'Arthur’s Seat', 'アーサーズ・シート', '시내 옆 옛 화산 언덕. 정상에 오르면 도시와 바다가 한눈에 보입니다.', 'An extinct volcano beside the city; the summit views take in the city and the sea.', '街のすぐ横にある死火山の丘。頂上から街と海が一望できます。'],
     ],
     t: [
-      ['8월에는 프린지 등 여러 축제가 한꺼번에 열려 숙소와 교통이 매우 붐비니, 이 시기라면 일찍 예약하세요.', 'In August several festivals, including the Fringe, run at once and hotels and transport fill up; book early for that month.', '8月はフリンジなど複数の祭りが同時に開かれ宿や交通が非常に混むので、この時期は早めの予約を。'],
-      ['공항과 시내는 공항버스(에어링크)로 연결되고, 시내는 로디언 버스로 다닙니다.', 'The Airlink bus connects the airport and the centre, and Lothian buses cover the city.', '空港と市内は空港バス（エアリンク）で結ばれ、市内はロージアン・バスで移動します。'],
-      ['에든버러성은 인기가 많아 방문 날짜와 표를 미리 확인하는 것이 좋습니다.', 'Edinburgh Castle is very popular, so check dates and tickets in advance.', 'エディンバラ城は人気が高いので、訪問日とチケットを事前に確認しましょう。'],
+      ['8월에는 에든버러에서 여섯 개 축제가 열립니다. 여름 일정은 약 6개월 전부터 계획하라는 공식 안내가 있으니 행사와 숙소를 미리 살펴보세요.', 'Six festivals take place in Edinburgh in August. The official advice is to plan summer trips about six months ahead, so check events and accommodation early.', '8月のエディンバラでは6つのフェスティバルが開催されます。夏の旅行は約6か月前から計画するよう公式に案内されているため、催しや宿泊先を早めに確認しましょう。'],
+      ['에든버러성은 여름철을 중심으로 표가 일찍 매진될 수 있습니다. 공식 안내에 따라 방문일을 정하면 온라인으로 미리 예매하세요.', 'Edinburgh Castle tickets can sell out well in advance, especially in summer. Once you have a date, book through the official site.', 'エディンバラ城の入場券は、特に夏は早く売り切れることがあります。訪問日が決まったら公式サイトで事前に予約しましょう。'],
+      ['구시가지 명소를 한 번에 많이 넣기보다 로열 마일을 중심으로 성과 궁전, 주변 골목을 묶어 걷는 동선으로 계획하세요.', 'Rather than cramming in every Old Town sight, plan a walking route around the Royal Mile that groups the castle, palace and nearby closes.', '旧市街の名所を詰め込みすぎず、ロイヤル・マイルを軸に城や宮殿、周辺の路地をまとめて歩くルートを組みましょう。'],
     ],
   },
 };

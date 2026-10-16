@@ -51,11 +51,11 @@ export const INTROS_6: Record<string, Intro> = {
     s: [['구시가지', 'Old Town', '旧市街', '마켓과 성벽, 전망대를 걸어서 다닙니다.', 'Walk to the market, walls and viewpoints.', 'マーケットや城壁、展望台へ歩いて行けます。']],
   },
   edinburgh: {
-    o: ['언덕 위 성과 중세 구시가지, 조지 왕조 시대의 신시가지가 함께 유네스코 세계유산인 스코틀랜드의 수도입니다. 8월 축제 시즌과 연말 호그머네이 때 특히 활기가 넘칩니다.', 'Scotland’s capital, whose hilltop castle, medieval Old Town and Georgian New Town are a UNESCO World Heritage Site together; it is liveliest during the August festivals and at Hogmanay.', '丘の上の城と中世の旧市街、ジョージ王朝時代の新市街がともに世界遺産に登録されたスコットランドの首都。8月の祭りシーズンと年末のホグマニーに特ににぎわいます。'],
+    o: ['스코틀랜드의 수도로, 중세 구시가지와 계획적으로 조성된 조지 왕조 시대의 신시가지가 나란히 있습니다. 성에서 홀리루드하우스 궁전까지 이어지는 역사 지구를 걸으며 둘러볼 수 있습니다.', 'Scotland’s capital pairs a medieval Old Town with a planned Georgian New Town. You can explore the historic district on foot from the castle towards the Palace of Holyroodhouse.', 'スコットランドの首都で、中世の旧市街と計画的につくられたジョージアン様式の新市街が並びます。城からホリールードハウス宮殿へ続く歴史地区を歩いて巡れます。'],
     d: [2, 3],
     s: [
-      ['올드 타운', 'Old Town', 'オールドタウン', '로열 마일과 성을 걸어서 다닐 수 있습니다(언덕이 많음).', 'Walk to the Royal Mile and the castle (hilly).', 'ロイヤル・マイルや城へ歩いて行けます（坂が多い）。'],
-      ['뉴 타운', 'New Town', 'ニュータウン', '쇼핑 거리와 기차역이 가깝고 평지라 다니기 편합니다.', 'Flatter streets near the shops and Waverley Station.', '買い物通りや駅に近く、平らで歩きやすいです。'],
+      ['구시가지·로열 마일', 'Old Town / Royal Mile', '旧市街・ロイヤル・マイル', '에든버러성부터 홀리루드하우스 궁전까지 이어지는 역사 지구를 도보로 둘러보고 싶다면 이 주변을 살펴보세요.', 'Consider this area if you want to explore the historic route between Edinburgh Castle and the Palace of Holyroodhouse on foot.', 'エディンバラ城からホリールードハウス宮殿まで続く歴史地区を歩いて巡りたい人に向いています。'],
+      ['뉴타운·프린스 스트리트', 'New Town / Princes Street', 'ニュータウン・プリンシズ・ストリート', '조지 왕조 시대 건축과 쇼핑·식당을 즐기고 싶다면 뉴타운을 살펴보세요. 버스·기차·트램 거점도 걸어서 닿는 도심 구역입니다.', 'Consider New Town for Georgian architecture, shopping and dining. Bus, rail and tram hubs are within walking distance in the city centre.', 'ジョージアン様式の建築やショッピング、食事を楽しみたい人はニュータウンを検討できます。バス・鉄道・トラムの拠点も徒歩圏内にある中心地区です。'],
     ],
   },
 };

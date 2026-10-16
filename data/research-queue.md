@@ -1477,6 +1477,12 @@
 | ROM-TR-801 | 로마 | ATAC BIRG 로마 구역 A 지역 통합 1일권 | 7.2 EUR | A | 예 | 재검증 | [ATAC](https://www.atac.roma.it/en/tickets-and-passes/birg) |
 | SIN-SN-801 | 싱가포르 | FairPrice 오리지널 감자칩 60g | 1.2 SGD | A | 예 | 재검증 | [NTUC FairPrice](https://www.fairprice.com.sg/product/fairprice-potato-chips-original-60g-13207660) |
 | SIN-SN-802 | 싱가포르 | Mitsuya 맛 비스킷 스틱 40g | 1.9 SGD | A | 예 | 재검증 | [NTUC FairPrice](https://www.fairprice.com.sg/product/491837) |
+| TLL-AT-501 | 탈린 | 탈린 TV 타워 입장권 (성인) | 18~19 EUR | A | 예 | 재검증 | [Tallinn TV Tower](https://teletorn.ee/en/for-visitor/tickets/) |
+| TLL-AT-502 | 탈린 | 탈린 TV 타워 입장권 (아동 7–12세) | 13~14 EUR | A | 예 | 재검증 | [Tallinn TV Tower](https://teletorn.ee/en/for-visitor/tickets/) |
+| TLL-AT-503 | 탈린 | 탈린 TV 타워 입장권 (6세 이하 무료) | 0 EUR | A | 예 | 재검증 | [Tallinn TV Tower](https://teletorn.ee/en/for-visitor/tickets/) |
+| TLL-AT-504 | 탈린 | 수상비행기 항구 성인 입장권 | 22 EUR | A | 예 | 재검증 | [Estonian Maritime Museum / Seaplane Harbour](https://meremuuseum.ee/lennusadam/en/visitor-information/tickets/; https://meremuuseum.ee/lennusadam/kulastusinfo/piletihinnad/) |
+| TLL-AT-505 | 탈린 | 수상비행기 항구 아동 입장권 (9–12세) | 11 EUR | A | 예 | 재검증 | [Estonian Maritime Museum / Seaplane Harbour](https://meremuuseum.ee/lennusadam/en/visitor-information/tickets/; https://meremuuseum.ee/lennusadam/kulastusinfo/piletihinnad/) |
+| TLL-AT-506 | 탈린 | 수상비행기 항구 아동 입장권 (만 7세 이하 무료) | 0 EUR | A | 예 | 재검증 | [Estonian Maritime Museum / Seaplane Harbour](https://meremuuseum.ee/lennusadam/en/visitor-information/tickets/; https://meremuuseum.ee/lennusadam/kulastusinfo/piletihinnad/) |
 | GUM-FD-101 | 괌 | 메스클라 BBQ 쇼트립(런치) | 18.95 USD | A | 예 | 재검증 | [Meskla Chamoru Fusion Bistro 공식 런치 메뉴 PDF](https://mesklaguam.com/wp-content/uploads/2024/03/meskla-lunch-2024.pdf) |
 | GUM-FD-102 | 괌 | 메스클라 BBQ 치킨(런치) | 19.95 USD | A | 예 | 재검증 | [Meskla Chamoru Fusion Bistro 공식 런치 메뉴 PDF](https://mesklaguam.com/wp-content/uploads/2024/03/meskla-lunch-2024.pdf) |
 | GUM-FD-103 | 괌 | 메스클라 차모루 시저 샐러드(런치) | 18.95 USD | A | 조건부 | 조건부, 재검증 | [Meskla Chamoru Fusion Bistro 공식 런치 메뉴 PDF](https://mesklaguam.com/wp-content/uploads/2024/03/meskla-lunch-2024.pdf) |

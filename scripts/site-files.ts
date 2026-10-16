@@ -21,7 +21,7 @@ export function normalizeSite(siteUrl: string | undefined): string | undefined {
 }
 
 export function robotsTxt(site: string | undefined): string {
-  return ['User-agent: *', 'Allow: /', ...(site ? [`Sitemap: ${site}/sitemap.xml`] : [])].join('\n') + '\n';
+  return ['User-agent: *', 'Allow: /', 'Disallow: /api/', 'Disallow: /_l/', ...(site ? [`Sitemap: ${site}/sitemap.xml`] : [])].join('\n') + '\n';
 }
 
 export function sitemapXml(site: string, pages: SitePage[] = SITE_PAGES): string {
@@ -63,15 +63,15 @@ export function rssXml(site: string, items: RssItem[], updated: string): string 
   );
 }
 
-export function headTags(site: string, page: SitePage): string[] {
-  const url = (lang: string) => `${site}${page.path}?lang=${lang}`;
+export function headTags(site: string, page: SitePage, lang: (typeof LANGS)[number] = 'ko'): string[] {
+  const url = (l: string) => `${site}${page.path}?lang=${l}`;
   return [
-    `<link rel="canonical" data-base="${site}" href="${url('ko')}" />`,
+    `<link rel="canonical" data-base="${site}" href="${url(lang)}" />`,
     `<link rel="alternate" hreflang="ko" href="${url('ko')}" />`,
     `<link rel="alternate" hreflang="en" href="${url('en')}" />`,
     `<link rel="alternate" hreflang="ja" href="${url('ja')}" />`,
-    `<link rel="alternate" hreflang="x-default" href="${site}${page.path}" />`,
-    `<meta property="og:url" content="${url('ko')}" />`,
+    `<link rel="alternate" hreflang="x-default" href="${url('ko')}" />`,
+    `<meta property="og:url" content="${url(lang)}" />`,
     `<meta property="og:image" content="${site}/og-image.png" />`,
     `<meta property="og:image:width" content="1200" />`,
     `<meta property="og:image:height" content="630" />`,
@@ -138,7 +138,11 @@ export interface PageMeta {
   ld: Record<string, unknown>;
   /** `<div class="fallback">` 안에 넣을 정적 본문(이미 이스케이프된 HTML) */
   fallbackHtml: string;
+  /** 본문 언어(기본 ko). 영어·일본어 정적 HTML 은 Worker 가 ?lang= 에 맞춰 보낸다 */
+  lang?: (typeof LANGS)[number];
 }
+
+const OG_LOCALE = { ko: 'ko_KR', en: 'en_US', ja: 'ja_JP' } as const;
 
 export const escapeHtml = (s: string) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -159,8 +163,45 @@ export function pageHtml(indexHtml: string, meta: PageMeta, site: string | undef
     .replace(/(<meta name="twitter:description" content=")[^"]*(")/, `$1${d}$2`)
     .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${JSON.stringify(meta.ld).replace(/</g, '\\u003c')}</script>`);
   html = replaceFallback(html, meta.fallbackHtml);
+  const lang = meta.lang ?? 'ko';
+  if (lang !== 'ko') {
+    html = html
+      .replace(/<html lang="[^"]*"/, `<html lang="${lang}"`)
+      .replace(/(<meta property="og:locale" content=")[^"]*(")/, `$1${OG_LOCALE[lang]}$2`)
+      .replace(/<p>이 계산기는 JavaScript가 필요합니다\. \/ /, '<p>');
+  }
   // 계산기용 canonical·hreflang·og:url 을 이 페이지 주소로 교체
   html = html.replace(/\s*<link rel="(?:canonical|alternate)"[^>]*>/g, '').replace(/\s*<meta property="og:url"[^>]*>/g, '');
-  if (site) html = html.replace('</head>', `    ${headTags(site, { file: '', path: meta.path }).join('\n    ')}\n  </head>`);
+  if (site) html = html.replace('</head>', `    ${headTags(site, { file: '', path: meta.path }, lang).join('\n    ')}\n  </head>`);
   return html;
+}
+
+/** 없는 주소의 404 페이지(색인 제외). 앱을 띄우지 않는 가벼운 정적 페이지 */
+export function notFoundHtml(esc: (s: string) => string = escapeHtml): string {
+  const t = esc('페이지를 찾을 수 없습니다 · Page not found');
+  return `<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>${t}</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <style>
+      :root { color-scheme: light dark; --bg: #f7f8f6; --ink: #17201b; --muted: #5b6660; --brand: #0b6e4f; }
+      @media (prefers-color-scheme: dark) { :root { --bg: #111513; --ink: #e8ece9; --muted: #9aa59f; --brand: #4cc59a; } }
+      body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, sans-serif; }
+      main { max-width: 560px; margin: 12vh auto; padding: 0 16px; }
+      h1 { font-size: 1.5rem; margin: 0 0 8px; } p { color: var(--muted); } a { color: var(--brand); font-weight: 700; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>페이지를 찾을 수 없습니다</h1>
+      <p>주소가 바뀌었거나 아직 준비되지 않은 페이지입니다. / This page does not exist.</p>
+      <p><a href="/?lang=ko">여행 경비 계산기</a> · <a href="/guides?lang=ko">도시별 여행 가이드</a> · <a href="/?lang=en">Travel Budget (English)</a> · <a href="/?lang=ja">日本語</a></p>
+    </main>
+  </body>
+</html>
+`;
 }

@@ -1,8 +1,8 @@
 import { resolve } from 'node:path';
 import { defineConfig, loadEnv, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
-import { guideIndexMeta, guidePageMeta, homeFallbackHtml, type GuideData } from './scripts/guide-pages';
-import { SITE_PAGES, adsTxt, adsenseMeta, headTags, infoFallbackHtml, normalizeSite, pageHtml, replaceFallback, robotsTxt, rssXml, sitemapXml } from './scripts/site-files';
+import { MSG, guideIndexMeta, guidePageMeta, homeFallbackHtml, type GuideData } from './scripts/guide-pages';
+import { SITE_PAGES, adsTxt, escapeHtml, notFoundHtml, adsenseMeta, headTags, infoFallbackHtml, normalizeSite, pageHtml, replaceFallback, robotsTxt, rssXml, sitemapXml } from './scripts/site-files';
 import { ko } from './src/i18n/ko';
 import { guidePath } from './src/core/guide';
 import { cities, dataDate, dataMeta, extras, foods, memos, samples } from './src/data';
@@ -55,6 +55,25 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
         for (const c of cities) {
           this.emitFile({ type: 'asset', fileName: `guide/${c.id}.html`, source: pageHtml(index.source, guidePageMeta(c, data), site) });
         }
+        // 영어·일본어 정적 HTML(같은 주소 ?lang=en|ja 로 Worker 가 골라 보낸다). /_l/ 는 직접 열 수 없다
+        for (const lang of ['en', 'ja'] as const) {
+          const m = MSG[lang];
+          const ld = (name: string, description: string) => ({ '@context': 'https://schema.org', '@type': 'WebPage', name, description, inLanguage: lang });
+          const contactL = { title: m.info.contactTitle, label: m.info.contactLabel, email };
+          const info = [
+            { file: 'index.html', path: '/', title: m.meta.title, description: m.meta.description, html: homeFallbackHtml(data, lang) },
+            { file: 'about.html', path: '/about', title: `${m.about.title} — ${m.meta.title}`, description: m.meta.aboutDescription, html: infoFallbackHtml(m.about, { cities: cities.map((c) => c.nameEn).join(', '), n: cities.length }, contactL) },
+            { file: 'privacy.html', path: '/privacy', title: `${m.privacy.title} — ${m.meta.title}`, description: m.meta.privacyDescription, html: infoFallbackHtml(m.privacy, { date: PRIVACY_EFFECTIVE }, contactL) },
+          ];
+          for (const p of info) {
+            this.emitFile({ type: 'asset', fileName: `_l/${lang}/${p.file}`, source: pageHtml(index.source, { title: p.title, description: p.description, path: p.path, lang, ld: ld(p.title, p.description), fallbackHtml: p.html }, site) });
+          }
+          this.emitFile({ type: 'asset', fileName: `_l/${lang}/guides.html`, source: pageHtml(index.source, guideIndexMeta(data, lang), site) });
+          for (const c of cities) {
+            this.emitFile({ type: 'asset', fileName: `_l/${lang}/guide/${c.id}.html`, source: pageHtml(index.source, guidePageMeta(c, data, lang), site) });
+          }
+        }
+        this.emitFile({ type: 'asset', fileName: '404.html', source: notFoundHtml(escapeHtml) });
       },
     },
   };

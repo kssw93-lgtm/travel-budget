@@ -7,11 +7,13 @@
   "routes": [{ "pattern": "howmuchthere.com", "custom_domain": true }],
   // routes 를 쓰면 workers.dev 주소가 기본으로 꺼진다. 예전에 공유된 링크가 계속 열리도록 켜 둔다(canonical 은 howmuchthere.com).
   "workers_dev": true,
-  // 정적 사이트(Vite 빌드 결과)를 서빙하고, /api/* 와 첫 화면(/, 공유 링크 미리보기 제목·설명)만 Worker 코드가 처리한다.
+  // 정적 사이트(Vite 빌드 결과)를 서빙한다. 페이지 주소(/, 가이드, 소개·방침)와 /api/* 는 Worker 코드가 먼저 받아
+  // workers.dev → 자체 도메인 301, ?lang=en|ja → 그 언어 정적 HTML, 공유 링크 미리보기를 처리한다.
+  // 없는 주소는 404.html(색인 제외)을 404 로 보낸다(모든 주소를 계산기로 보내면 검색엔진이 가짜 페이지로 본다).
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
-    "not_found_handling": "single-page-application",
-    "run_worker_first": ["/api/*", "/"]
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/api/*", "/", "/guides", "/guide/*", "/about", "/privacy", "/_l/*", "/*.html"]
   }
 }

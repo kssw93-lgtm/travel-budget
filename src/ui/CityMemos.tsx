@@ -27,7 +27,7 @@ export function CityMemos({ city, memos }: { city: City; memos: CityMemo[] }) {
               <th scope="row">{(lang !== 'ko' && r.itemEn) || r.item}</th>
               <td data-label={m.value}>
                 {(lang !== 'ko' && r.valueEn) || r.value}
-                {r.unit ? ` ${r.unit}` : ''}
+                {r.unit && (lang === 'ko' || !/[가-힣]/.test(r.unit)) ? ` ${r.unit}` : ''}
               </td>
               <td data-label={m.source}>
                 <ExternalLink href={r.sourceUrl}>{r.sourceName || new URL(r.sourceUrl).hostname}</ExternalLink>{' '}

@@ -1,17 +1,75 @@
 /**
- * 도시 가이드의 정적 HTML(검색엔진·광고 심사용 본문). 화면(React)과 같은 엔진·같은 표본으로 만든다.
- * 정적 본문은 한국어 기본 언어로 쓰고, 화면은 로드 후 언어 설정에 맞춰 다시 그린다.
+ * 도시 가이드의 정적 HTML(검색엔진·광고 심사용 본문). 화면(React)과 같은 엔진·같은 표본·같은 문구로 만든다.
+ * 언어마다(ko·en·ja) 따로 만든다: 한국어는 기본 주소, 영어·일본어는 Worker 가 ?lang= 에 맞춰 골라 보낸다.
  */
 import { cityGuide, guidePath } from '../src/core/guide';
 import { formatMoney } from '../src/core/money';
 import { CITY_GUIDES } from '../src/data/city-guides';
 import { COUNTRY_GUIDES } from '../src/data/country-guides';
 import type { City, CityMemo, ExtraSample, FoodRecommendation, PriceSample, Range } from '../src/core/types';
+import { en } from '../src/i18n/en';
+import { ja } from '../src/i18n/ja';
+import { ko } from '../src/i18n/ko';
+import { CITY_JA, COUNTRY_JA } from '../src/i18n/places';
 import { escapeHtml as e, type PageMeta } from './site-files';
 
+export type Lang = 'ko' | 'en' | 'ja';
+export const MSG = { ko, en, ja } as const;
+const LOCALE: Record<Lang, string> = { ko: 'ko-KR', en: 'en-US', ja: 'ja-JP' };
+const IDX: Record<Lang, 0 | 1 | 2> = { ko: 0, en: 1, ja: 2 };
+export const fill = (s: string, v: Record<string, string | number>) => s.replace(/\{(\w+)\}/g, (m, k: string) => (k in v ? String(v[k]) : m));
+const pick = (lang: Lang, k = '', en_ = '', ja_ = '') => (lang === 'ko' ? k : lang === 'ja' ? ja_ || en_ || k : en_ || k);
+export const cityLabel = (c: City, lang: Lang) => (lang === 'ja' ? (CITY_JA[c.id] ?? c.nameEn) : pick(lang, c.nameKo, c.nameEn));
+export const countryLabel = (c: City, lang: Lang) => (lang === 'ja' ? (COUNTRY_JA[c.countryEn] ?? c.countryEn) : pick(lang, c.country, c.countryEn));
 
-const money = (n: number, cur: string) => formatMoney(n, cur, 'ko-KR');
-const range = (r: Range, cur: string) => (money(r.min, cur) === money(r.max, cur) ? money(r.min, cur) : `${money(r.min, cur)} ~ ${money(r.max, cur)}`);
+/** 화면 i18n 에 없는 정적 본문 전용 문구 */
+const S = {
+  ko: {
+    menuTitle: '{city} 식당 실제 메뉴 가격',
+    menuLead: '식당 공식 메뉴판에 적힌 1인 한 끼 가격입니다(세금·팁 별도인 도시는 계산할 때 더합니다).',
+    child: '아동',
+    borrowed: '{city} 식당 가격은 아직 모으는 중이라, 식비·교통비는 {country}의 다른 도시 공식 가격을 함께 써서 계산했습니다(한 나라 안에서는 도시마다 물가 차이가 크지 않습니다).',
+    meal: '한 끼 식사 {v}',
+    ride: '대중교통 1회 {v}',
+    perDay: '1인 1일 {v}',
+    descTail: '참고 물가: {facts}(대표값).',
+    homeH2: '이 계산기로 할 수 있는 것',
+    homeList: ['도시·날짜·인원·여행 스타일(절약·일반·여유)에 맞춘 현지 체류비 범위', '가고 싶은 관광지를 골라 공식 입장료(성인·아동) 더하기', '교통 이용 방식(1회권·이용권), 하루 끼니 수, 음주까지 내 일정에 맞게 조정', '현지 통화와 원화·달러·엔화 환산을 함께 표시'],
+    homeSource: '모든 금액은 교통 운영사·관광지·식당의 공식 페이지에서 확인한 가격 표본으로 계산하며, 각 가격에는 출처와 확인일이 붙어 있습니다. 가격 자료 기준일 {date}.',
+    homeGuides: '도시별 여행 경비 가이드 ({n}개 도시)',
+    homeFact: '한 끼 {meal}',
+  },
+  en: {
+    menuTitle: 'Real menu prices in {city}',
+    menuLead: 'Per-person meal prices from restaurants’ official menus (where tax and tips are extra, the calculator adds them).',
+    child: 'child',
+    borrowed: 'Restaurant prices for {city} are still being collected, so food and transport use official prices from other cities in {country} (prices within one country do not differ much).',
+    meal: 'a meal {v}',
+    ride: 'a transit ride {v}',
+    perDay: '{v} per person per day',
+    descTail: 'Typical prices: {facts}.',
+    homeH2: 'What this calculator does',
+    homeList: ['A min–max range of local costs for your city, dates, party size and travel style (budget, standard, comfort)', 'Add official admission prices (adult and child) for the attractions you pick', 'Fine-tune transport (single tickets or passes), meals per day and drinks', 'Shows local currency alongside KRW, USD and JPY conversions'],
+    homeSource: 'Every amount comes from price samples checked on official pages of transit operators, attractions and restaurants, each with its source and check date. Prices as of {date}.',
+    homeGuides: 'City travel cost guides ({n} cities)',
+    homeFact: 'meal {meal}',
+  },
+  ja: {
+    menuTitle: '{city}の飲食店の実際のメニュー価格',
+    menuLead: '飲食店の公式メニューに載っている1人1食の価格です（税・チップ別の都市は計算時に加算します）。',
+    child: '子ども',
+    borrowed: '{city}の飲食店価格はまだ収集中のため、食費・交通費は{country}の他都市の公式価格も使って計算しています（同じ国の中では物価差は大きくありません）。',
+    meal: '1食 {v}',
+    ride: '公共交通1回 {v}',
+    perDay: '1人1日 {v}',
+    descTail: '参考物価：{facts}（代表値）。',
+    homeH2: 'この計算機でできること',
+    homeList: ['都市・日付・人数・旅行スタイル（節約・標準・ゆとり）に合わせた現地滞在費の範囲', '行きたい観光地を選んで公式入場料（大人・子ども）を追加', '交通の使い方（1回券・パス）、1日の食事回数、飲酒まで日程に合わせて調整', '現地通貨とウォン・ドル・円の換算を併記'],
+    homeSource: 'すべての金額は交通事業者・観光地・飲食店の公式ページで確認した価格サンプルで計算し、各価格に出典と確認日を付けています。価格データ基準日 {date}。',
+    homeGuides: '都市別 旅行費用ガイド（{n}都市）',
+    homeFact: '1食 {meal}',
+  },
+} satisfies Record<Lang, Record<string, string | string[]>>;
 
 export interface GuideData {
   cities: City[];
@@ -24,92 +82,95 @@ export interface GuideData {
   updated: string;
 }
 
-export function guidePageMeta(city: City, d: GuideData): PageMeta {
+const siteTitle = (lang: Lang) => MSG[lang].meta.title;
+
+export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): PageMeta {
+  const t = MSG[lang].cityGuide;
+  const s = S[lang];
+  const money = (n: number, cur: string) => formatMoney(n, cur, LOCALE[lang]);
+  const range = (r: Range, cur: string) => (money(r.min, cur) === money(r.max, cur) ? money(r.min, cur) : `${money(r.min, cur)} ~ ${money(r.max, cur)}`);
   const g = cityGuide(city, d.samples, d.refDate, d.extras);
   const cur = city.currency;
+  const name = cityLabel(city, lang);
+  const country = countryLabel(city, lang);
   const meal = g.prices.find((p) => p.basket === 'meal');
   const ride = g.prices.find((p) => p.basket === 'ride');
-  const std = g.styles.find((s) => s.style === 'standard');
-  const facts = [
-    meal && `한 끼 식사 ${money(meal.median, cur)}`,
-    ride && `대중교통 1회 ${money(ride.median, cur)}`,
-    std?.perDay && `1인 1일 ${range(std.perDay, cur)}`,
-  ].filter(Boolean);
-  const description = `${city.nameKo}에서 꼭 볼 곳과 현지 팁, 관광지 입장료, 먹어 볼 음식을 정리했습니다. 참고 물가: ${facts.join(', ')}(대표값). ${city.nameKo} 여행 경비는 계산기로 바로 계산해 볼 수 있습니다.`;
+  const std = g.styles.find((x) => x.style === 'standard');
+  const facts = [meal && fill(s.meal, { v: money(meal.median, cur) }), ride && fill(s.ride, { v: money(ride.median, cur) }), std?.perDay && fill(s.perDay, { v: range(std.perDay, cur) })].filter(Boolean);
+  const description = `${fill(t.metaDescription, { city: name })} ${facts.length ? fill(s.descTail, { facts: facts.join(', ') }) : ''}`.trim();
 
   const note = CITY_GUIDES[city.id];
   const notes = note
-    ? `        <h2>${e(city.nameKo)}에서 놓치지 말 것</h2><ul>${note.highlights.map((h) => `<li><strong>${e(h.name.ko)}</strong> ${e(h.text.ko)}</li>`).join('')}</ul>` +
-      (note.tips.length ? `<h3>${e(city.nameKo)} 여행 팁</h3><ul>${note.tips.map((t) => `<li>${e(t.ko)}</li>`).join('')}</ul>` : '')
+    ? `        <h2>${e(fill(t.highlightsTitle, { city: name }))}</h2><ul>${note.highlights.map((h) => `<li><strong>${e(h.name[lang])}</strong> ${e(h.text[lang])}</li>`).join('')}</ul>` +
+      (note.tips.length ? `<h3>${e(fill(t.tipsTitle, { city: name }))}</h3><ul>${note.tips.map((x) => `<li>${e(x[lang])}</li>`).join('')}</ul>` : '')
     : '';
-  const cta = `        <p><a href="/?lang=ko&amp;city=${e(city.id)}">${e(city.nameKo)} 여행 경비 계산해 보기</a></p>`;
+  const cn = COUNTRY_GUIDES[city.countryEn];
+  const i = IDX[lang];
+  const countryNotes = cn
+    ? `        <h2>${e(fill(t.countryTipsTitle, { country }))}</h2><ul>${cn.tips.map((x) => `<li>${e(x[i])}</li>`).join('')}</ul>` +
+      `<h3>${e(fill(t.cautionsTitle, { country }))}</h3><ul>${cn.cautions.map((x) => `<li>${e(x[i])}</li>`).join('')}</ul>` +
+      `<p>${e(t.countryNotesHint)}</p>`
+    : '';
+  const cta = `        <p><a href="/?lang=${lang}&amp;city=${e(city.id)}">${e(fill(t.cta, { city: name }))}</a></p>`;
   const attractions = g.attractions
     .map((o) => {
-      const s = o.adult.sample;
-      return `<li>${e(s.nameKo)}: ${s.max === 0 ? '무료' : e(range(s, s.currency))}${o.child ? ` · 아동 ${e(range(o.child.sample, s.currency))}` : ''}</li>`;
+      const x = o.adult.sample;
+      return `<li>${e(pick(lang, x.nameKo, x.nameEn, x.nameJa))}: ${x.max === 0 ? e(t.free) : e(range(x, x.currency))}${o.child ? ` · ${e(s.child)} ${e(range(o.child.sample, x.currency))}` : ''}</li>`;
     })
     .join('');
-  const foods = d.foods.filter((f) => f.cityId === city.id).map((f) => `<li>${e(f.nameKo)} — ${e(f.desc?.ko ?? f.reason)}</li>`).join('');
+  const foods = d.foods
+    .filter((f) => f.cityId === city.id)
+    .map((f) => {
+      const desc = f.desc?.[lang] ?? (lang === 'ko' ? f.reason : lang === 'ja' ? (f.reasonJa ?? f.reasonEn) : f.reasonEn);
+      return `<li>${e(pick(lang, f.nameKo, f.nameEn, f.nameJa))}${desc ? ` — ${e(desc)}` : ''}</li>`;
+    })
+    .join('');
   const passTips = ride
     ? g.passTips
-        .map((p) =>
-          p.days > 1
-            ? `<li>${e(p.nameKo)} ${e(money(p.price, cur))}(${p.days}일) → ${p.days}일 동안 하루 ${p.ridesPerDay}회 이상 타면 이득</li>`
-            : `<li>${e(p.nameKo)} ${e(money(p.price, cur))} → 하루 ${p.ridesPerDay}회 이상 타면 이득</li>`,
-        )
+        .map((p) => `<li>${e(fill(p.days > 1 ? t.passTipRowDays : t.passTipRow, { pass: pick(lang, p.nameKo, p.nameEn, p.nameJa), price: money(p.price, cur), days: p.days, n: p.ridesPerDay }))}</li>`)
         .join('')
     : '';
   // 실제 메뉴 가격 예시: 이 도시 식당의 1인 한 끼 공식 메뉴를 싼 것부터 비싼 것까지 고르게 최대 6개
   const meals = d.samples
-    .filter((s) => s.cityId === city.id && s.category === 'food' && /한끼/.test(s.subtype) && s.modelUse !== 'no' && !/아동|어린이|child/i.test(`${s.target} ${s.nameKo}`))
+    .filter((x) => x.cityId === city.id && x.category === 'food' && /한끼/.test(x.subtype) && x.modelUse !== 'no' && !/아동|어린이|child/i.test(`${x.target} ${x.nameKo}`))
     .sort((a, b) => a.min + a.max - (b.min + b.max));
-  const pick = meals.length <= 6 ? meals : Array.from({ length: 6 }, (_, i) => meals[Math.round((i * (meals.length - 1)) / 5)]!);
-  const menuExamples = pick.map((s) => `<li>${e(s.nameKo)}: ${e(range(s, s.currency))}</li>`).join('');
+  const picked = meals.length <= 6 ? meals : Array.from({ length: 6 }, (_, k) => meals[Math.round((k * (meals.length - 1)) / 5)]!);
+  const menuExamples = picked.map((x) => `<li>${e(pick(lang, x.nameKo, x.nameEn, x.nameJa))}: ${e(range(x, x.currency))}</li>`).join('');
+  const m = MSG[lang].memos;
   const memos = d.memos
-    .filter((m) => m.cityId === city.id)
-    .map((m) => `<li>${e(m.item)}: ${e(m.value)}${m.unit ? ` ${e(m.unit)}` : ''}</li>`)
+    .filter((x) => x.cityId === city.id)
+    .map((x) => `<li>${e((lang !== 'ko' && x.itemEn) || x.item)}: ${e((lang !== 'ko' && x.valueEn) || x.value)}${x.unit && (lang === 'ko' || !/[가-힣]/.test(x.unit)) ? ` ${e(x.unit)}` : ''}</li>`)
     .join('');
-
-  const ownMeals = d.samples.some((s) => s.cityId === city.id && s.category === 'food' && /한끼/.test(s.subtype));
-  const borrowedNote = ownMeals
-    ? ''
-    : `        <p>${e(city.nameKo)} 식당 가격은 아직 모으는 중이라, 식비·교통비는 ${e(city.country)}의 다른 도시 공식 가격을 함께 써서 계산했습니다(한 나라 안에서는 도시마다 물가 차이가 크지 않습니다).</p>`;
-
-  const cn = COUNTRY_GUIDES[city.countryEn];
-  const countryNotes = cn
-    ? `        <h2>${e(city.country)} 여행 시 알아둘 것</h2><ul>${cn.tips.map((x) => `<li>${e(x[0])}</li>`).join('')}</ul>` +
-      `<h3>${e(city.country)}에서 조심할 것</h3><ul>${cn.cautions.map((x) => `<li>${e(x[0])}</li>`).join('')}</ul>` +
-      '<p>나라 전체에 해당하는 일반적인 안내입니다. 입국 규정·안전 정보는 출발 전에 외교부 해외안전여행 등 공식 안내를 확인하세요.</p>'
-    : '';
+  const ownMeals = d.samples.some((x) => x.cityId === city.id && x.category === 'food' && /한끼/.test(x.subtype));
+  const borrowedNote = ownMeals ? '' : `        <p>${e(fill(s.borrowed, { city: name, country }))}</p>`;
 
   const fallbackHtml = [
-    `        <h1>${e(city.nameKo)} 여행 경비 가이드</h1>`,
-    `        <p>${e(city.nameKo)}에서 꼭 볼 곳과 현지 팁, 입장료·먹어 볼 음식을 모았습니다. 가격 자료 기준일 ${e(d.updated)}.</p>`,
+    `        <h1>${e(fill(t.title, { city: name }))}</h1>`,
+    `        <p>${e(fill(t.lead, { city: name, date: d.updated }))}</p>`,
     cta,
     notes,
     countryNotes,
     borrowedNote,
-    menuExamples &&
-      `        <h2>${e(city.nameKo)} 식당 실제 메뉴 가격</h2><p>식당 공식 메뉴판에 적힌 1인 한 끼 가격입니다(세금·팁 별도인 도시는 계산할 때 더합니다).</p><ul>${menuExamples}</ul>`,
-    passTips &&
-      `        <h2>이용권, 하루 몇 번 타야 이득일까</h2><p>대중교통 1회 요금 대표값(중앙값) ${e(money(ride!.median, cur))} 기준입니다. 실제 요금은 노선·거리에 따라 달라 참고용입니다.</p><ul>${passTips}</ul>`,
-    attractions && `        <h2>${e(city.nameKo)} 관광지·테마파크 입장료</h2><ul>${attractions}</ul>`,
-    foods && `        <h2>${e(city.nameKo)}에서 먹어 볼 음식</h2><ul>${foods}</ul>`,
-    memos && `        <h2>${e(city.nameKo)} 알아두면 좋은 현지 비용</h2><p>팁·세금·숙박세처럼 계산에는 넣지 않았지만 미리 알아두면 좋은 항목입니다.</p><ul>${memos}</ul>`,
+    menuExamples && `        <h2>${e(fill(s.menuTitle, { city: name }))}</h2><p>${e(s.menuLead)}</p><ul>${menuExamples}</ul>`,
+    passTips && `        <h2>${e(t.passTipTitle)}</h2><p>${e(fill(t.passTipLead, { ride: money(ride!.median, cur) }))}</p><ul>${passTips}</ul>`,
+    attractions && `        <h2>${e(fill(t.attractionsTitle, { city: name }))}</h2><p>${e(t.attractionsLead)}</p><ul>${attractions}</ul>`,
+    foods && `        <h2>${e(fill(MSG[lang].foods.title, { city: name }))}</h2><ul>${foods}</ul>`,
+    memos && `        <h2>${e(fill(m.title, { city: name }))}</h2><p>${e(m.lead)}</p><ul>${memos}</ul>`,
     cta,
   ]
     .filter(Boolean)
     .join('\n');
 
   return {
-    title: `${city.nameKo} 여행 경비·현지 물가 — 여행 경비 계산기 — 현지 체류비 범위`,
+    title: `${fill(t.metaTitle, { city: name })} — ${siteTitle(lang)}`,
     description,
     path: guidePath(city.id),
+    lang,
     ld: {
       '@context': 'https://schema.org',
       '@type': 'Article',
-      headline: `${city.nameKo} 여행 경비 가이드`,
-      inLanguage: ['ko', 'en', 'ja'],
+      headline: fill(t.title, { city: name }),
+      inLanguage: lang,
       dateModified: d.updated,
       about: { '@type': 'City', name: city.nameEn, containedInPlace: { '@type': 'Country', name: city.countryEn } },
     },
@@ -117,39 +178,53 @@ export function guidePageMeta(city: City, d: GuideData): PageMeta {
   };
 }
 
-export function guideIndexMeta(d: GuideData): PageMeta {
-  const items = d.cities
-    .map((c) => {
-      return `<li><a href="${guidePath(c.id)}">${e(c.nameKo)} 여행 경비 가이드</a> · ${e(c.country)}</li>`;
-    })
-    .join('');
+/** 나라별로 묶은 도시 목록(나라·도시 이름순, 그 언어 기준) */
+function grouped(list: City[], lang: Lang): Array<[string, City[]]> {
+  const map = new Map<string, City[]>();
+  for (const c of list) map.set(countryLabel(c, lang), [...(map.get(countryLabel(c, lang)) ?? []), c]);
+  return [...map.entries()]
+    .sort(([a], [b]) => a.localeCompare(b, lang))
+    .map(([k, v]) => [k, v.sort((a, b) => cityLabel(a, lang).localeCompare(cityLabel(b, lang), lang))]);
+}
+
+export function guideIndexMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
+  const t = MSG[lang].cityGuide;
+  const groups = grouped(d.cities, lang)
+    .map(([country, list]) => `        <h2>${e(country)}</h2><ul>${list.map((c) => `<li><a href="${guidePath(c.id)}?lang=${lang}">${e(fill(t.title, { city: cityLabel(c, lang) }))}</a></li>`).join('')}</ul>`)
+    .join('\n');
   return {
-    title: '도시별 여행 경비 가이드 — 여행 경비 계산기 — 현지 체류비 범위',
-    description: '도시마다 꼭 볼 곳과 현지 팁, 관광지 입장료, 먹어 볼 음식을 정리했습니다. 내 일정의 여행 경비는 계산기로 바로 계산할 수 있습니다.',
+    title: `${t.indexTitle} — ${siteTitle(lang)}`,
+    description: t.indexDescription,
     path: '/guides',
-    ld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: '도시별 여행 경비 가이드', inLanguage: ['ko', 'en', 'ja'] },
-    fallbackHtml: `        <h1>도시별 여행 경비 가이드</h1>\n        <ul>${items}</ul>`,
+    lang,
+    ld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: t.indexTitle, inLanguage: lang },
+    fallbackHtml: `        <h1>${e(t.indexTitle)}</h1>\n        <p>${e(t.indexLead)}</p>\n${groups}`,
   };
 }
 
 /** 계산기(첫 화면)의 정적 본문: 무엇을 하는 도구인지와 도시별 가이드 목록(JS 실행 전 크롤러·심사용) */
-export function homeFallbackHtml(d: GuideData): string {
-  const items = d.cities
-    .map((c) => {
-      const g = cityGuide(c, d.samples, d.refDate, d.extras);
-      const std = g.styles.find((s) => s.style === 'standard');
-      const meal = g.prices.find((p) => p.basket === 'meal');
-      const facts = [meal && `한 끼 ${money(meal.median, c.currency)}`, std?.perDay && `1인 1일 ${range(std.perDay, c.currency)}`].filter(Boolean).join(', ');
-      return `<li><a href="${guidePath(c.id)}">${e(c.nameKo)} 여행 경비 가이드</a>${facts ? ` — ${e(facts)}` : ''}</li>`;
+export function homeFallbackHtml(d: GuideData, lang: Lang = 'ko'): string {
+  const t = MSG[lang];
+  const s = S[lang];
+  const money = (n: number, cur: string) => formatMoney(n, cur, LOCALE[lang]);
+  const items = grouped(d.cities, lang)
+    .map(([country, list]) => {
+      const li = list
+        .map((c) => {
+          const meal = cityGuide(c, d.samples, d.refDate, d.extras).prices.find((p) => p.basket === 'meal');
+          return `<li><a href="${guidePath(c.id)}?lang=${lang}">${e(fill(t.cityGuide.title, { city: cityLabel(c, lang) }))}</a>${meal ? ` — ${e(fill(s.homeFact, { meal: money(meal.median, c.currency) }))}` : ''}</li>`;
+        })
+        .join('');
+      return `        <h3>${e(country)}</h3><ul>${li}</ul>`;
     })
-    .join('');
+    .join('\n');
   return [
-    '        <h1>현지에서 얼마나 쓸까?</h1>',
-    '        <p>도시와 일정을 고르면 외식·교통·관광 예상 경비를 최소~최대 범위로 계산합니다. 쇼핑·선물 예산과 항공권·숙박은 직접 입력한 경우에만 더합니다.</p>',
-    '        <h2>이 계산기로 할 수 있는 것</h2>',
-    '        <ul><li>도시·날짜·인원·여행 스타일(절약·일반·여유)에 맞춘 현지 체류비 범위</li><li>가고 싶은 관광지를 골라 공식 입장료(성인·아동) 더하기</li><li>교통 이용 방식(1회권·이용권), 하루 끼니 수, 음주까지 내 일정에 맞게 조정</li><li>현지 통화와 원화·달러·엔화 환산을 함께 표시</li></ul>',
-    `        <p>모든 금액은 교통 운영사·관광지·식당의 공식 페이지에서 확인한 가격 표본으로 계산하며, 각 가격에는 출처와 확인일이 붙어 있습니다. 가격 자료 기준일 ${e(d.updated)}.</p>`,
-    `        <h2>도시별 여행 경비 가이드 (${d.cities.length}개 도시)</h2>`,
-    `        <ul>${items}</ul>`,
+    `        <h1>${e(t.home.title)}</h1>`,
+    `        <p>${e(t.home.lead)}</p>`,
+    `        <h2>${e(s.homeH2)}</h2>`,
+    `        <ul>${s.homeList.map((x) => `<li>${e(x)}</li>`).join('')}</ul>`,
+    `        <p>${e(fill(s.homeSource, { date: d.updated }))}</p>`,
+    `        <h2>${e(fill(s.homeGuides, { n: d.cities.length }))}</h2>`,
+    items,
   ].join('\n');
 }

@@ -4,7 +4,7 @@ import { checkAdsenseReady } from '../../scripts/adsense-ready';
 
 describe('배포 보조 파일', () => {
   it('사이트 주소가 없으면 sitemap 줄 없는 robots.txt', () => {
-    expect(robotsTxt(normalizeSite(undefined))).toBe('User-agent: *\nAllow: /\n');
+    expect(robotsTxt(normalizeSite(undefined))).toBe('User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /_l/\n');
     expect(normalizeSite('  ')).toBeUndefined();
   });
 

@@ -144,6 +144,16 @@
 | 뉘른베르크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 쾰른 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 쾰른 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 스트라스부르 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 스트라스부르 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 콜마르 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 콜마르 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 잘츠부르크 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 잘츠부르크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 자그레브 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 자그레브 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 로바니에미 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 로바니에미 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 탈린 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 탈린 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1206,6 +1216,43 @@
 | DUB-AT-504 | 더블린 | 크라이스트처치 대성당 아동 입장권 | 4 EUR | A | 예 | 재검증 | [Christ Church Cathedral](https://christchurchcathedral.ie/admission-tickets/) |
 | DUB-AT-505 | 더블린 | 아일랜드 국립박물관 고고학관 입장권 | 0 EUR | A | 예 | 재검증 | [National Museum of Ireland](https://source.museum.ie/en-IE/Museums/Archaeology/Visitor-Information/Opening-Hours%2C-Location-and-Facilities) |
 | DUB-AT-506 | 더블린 | 아일랜드 국립박물관 고고학관 아동 입장권 | 0 EUR | A | 예 | 재검증 | [National Museum of Ireland](https://source.museum.ie/en-IE/Museums/Archaeology/Visitor-Information/Opening-Hours%2C-Location-and-Facilities) |
+| SXB-TR-501 | 스트라스부르 | CTS 트램·버스 편도권 | 1.9 EUR | A | 예 | 재검증 | [Compagnie des Transports Strasbourgeois](https://www.cts-strasbourg.eu/fr/acheter/nos-titres/titres-occasionnels/) |
+| SXB-AT-501 | 스트라스부르 | 스트라스부르 대성당 전망대 | 10 EUR | A | 예 | 재검증 | [Fondation de l’Œuvre Notre-Dame](https://www.oeuvre-notre-dame.org/visiter-cathedrale/) |
+| SXB-AT-502 | 스트라스부르 | 스트라스부르 대성당 전망대 (아동) | 6 EUR | A | 예 | 재검증 | [Fondation de l’Œuvre Notre-Dame](https://www.oeuvre-notre-dame.org/visiter-cathedrale/) |
+| SXB-AT-503 | 스트라스부르 | 스트라스부르 플라네타륨 | 10 EUR | A | 예 | 재검증 | [Office de tourisme de Strasbourg et sa région](https://www.visitstrasbourg.fr/fiche-sit/f223013439_planetarium-de-strasbourg-strasbourg/) |
+| SXB-AT-504 | 스트라스부르 | 스트라스부르 플라네타륨 (아동) | 8 EUR | A | 예 | 재검증 | [Office de tourisme de Strasbourg et sa région](https://www.visitstrasbourg.fr/fiche-sit/f223013439_planetarium-de-strasbourg-strasbourg/) |
+| SXB-AT-505 | 스트라스부르 | 르 베소 과학 체험관 | 12 EUR | A | 예 | 재검증 | [Office de tourisme de Strasbourg et sa région](https://www.visitstrasbourg.fr/fiche-sit/f326000002_le-vaisseau-strasbourg/) |
+| SXB-AT-506 | 스트라스부르 | 르 베소 과학 체험관 (아동) | 12 EUR | A | 예 | 재검증 | [Office de tourisme de Strasbourg et sa région](https://www.visitstrasbourg.fr/fiche-sit/f326000002_le-vaisseau-strasbourg/) |
+| CMR-TR-501 | 콜마르 | Trace 버스 단회권 | 1.5 EUR | A | 예 | 재검증 | [Trace Colmar Bus](https://www.trace-colmar.fr/acheter/titres-de-transport/billets-et-abonnements/) |
+| CMR-AT-501 | 콜마르 | 운터린덴 미술관 | 14 EUR | A | 예 | 재검증 | [Musée Unterlinden](https://www.musee-unterlinden.com/visites-et-activites/infos-2/informations-pratiques/) |
+| CMR-AT-502 | 콜마르 | 운터린덴 미술관 (아동) | 0 EUR | A | 예 | 재검증 | [Musée Unterlinden](https://www.musee-unterlinden.com/visites-et-activites/infos-2/informations-pratiques/) |
+| CMR-AT-503 | 콜마르 | 장난감 박물관 | 6.5 EUR | A | 예 | 재검증 | [Office de tourisme de Colmar](https://www.tourisme-colmar.com/fr/toutes-les-fiches/F235016026_musee-du-jouet-colmar) |
+| CMR-AT-504 | 콜마르 | 장난감 박물관 (아동) | 5 EUR | A | 예 | 재검증 | [Office de tourisme de Colmar](https://www.tourisme-colmar.com/fr/toutes-les-fiches/F235016026_musee-du-jouet-colmar) |
+| CMR-AT-505 | 콜마르 | 왁스 오브 레전드 | 15 EUR | A | 예 | 재검증 | [Office de tourisme de Colmar](https://www.waxoflegends-colmar.fr/billets) |
+| CMR-AT-506 | 콜마르 | 왁스 오브 레전드 (아동) | 9 EUR | A | 예 | 재검증 | [Office de tourisme de Colmar](https://www.tourisme-colmar.com/fr/visiter/presentation/patrimoine/patrimoine-architectural/F235018096_wax-of-legends-colmar) |
+| SZG-TR-501 | 잘츠부르크 | 잘츠부르크 시내 단회권 (사전 구매) | 2.5 EUR | A | 예 | 재검증 | [Salzburg Verkehr](https://salzburg-verkehr.at/tickets-preise/einzelfahrkarten/einzelfahrt/) |
+| SZG-AT-501 | 잘츠부르크 | 호엔잘츠부르크 요새 기본권 (푸니쿨라 포함) | 15.5 EUR | A | 예 | 재검증 | [Festung Hohensalzburg](https://www.festung-hohensalzburg.at/en/your-visit/tickets) |
+| SZG-AT-502 | 잘츠부르크 | 호엔잘츠부르크 요새 기본권 (아동) | 6.3 EUR | A | 예 | 재검증 | [Festung Hohensalzburg](https://www.festung-hohensalzburg.at/en/your-visit/tickets) |
+| SZG-AT-503 | 잘츠부르크 | 모차르트 생가 | 18 EUR | A | 예 | 재검증 | [Salzburg Tourism](https://www.salzburg.info/en/sights/top10/mozarts-birthplace) |
+| SZG-AT-504 | 잘츠부르크 | 모차르트 생가 (아동) | 6 EUR | A | 예 | 재검증 | [Salzburg Tourism](https://www.salzburg.info/en/sights/top10/mozarts-birthplace) |
+| SZG-AT-505 | 잘츠부르크 | 헬브룬 궁전과 트릭 분수 | 16.5 EUR | A | 예 | 재검증 | [Salzburg Tourism](https://www.salzburg.info/en/travel-info/infos/hellbrunn-palace-trick-fountains_az_5390) |
+| SZG-AT-506 | 잘츠부르크 | 헬브룬 궁전과 트릭 분수 (아동) | 6.5 EUR | A | 예 | 재검증 | [Salzburg Tourism](https://www.salzburg.info/en/travel-info/infos/hellbrunn-palace-trick-fountains_az_5390) |
+| ZAG-TR-501 | 자그레브 | ZET 트램 종이 단회권 (60분) | 0.93 EUR | A | 예 | 재검증 | [ZET](https://www.zet.hr/tickets-and-fares/stored-value-card-and-multi-day-ticket/604) |
+| ZAG-AT-501 | 자그레브 | 환상 박물관 | 14 EUR | A | 예 | 재검증 | [Museum of Illusions](https://muzejiluzija.com/en/contact-us/) |
+| ZAG-AT-502 | 자그레브 | 환상 박물관 (아동) | 10 EUR | A | 예 | 재검증 | [Museum of Illusions](https://muzejiluzija.com/en/contact-us/) |
+| ZAG-AT-503 | 자그레브 | 자그레브 시립 박물관 | 8 EUR | A | 예 | 재검증 | [Zagreb City Museum](https://www.mgz.hr/en/visit-us/zagreb-city-museum/) |
+| ZAG-AT-504 | 자그레브 | 자그레브 시립 박물관 (학생) | 5 EUR | A | 예 | 재검증 | [Zagreb City Museum](https://www.mgz.hr/en/visit-us/zagreb-city-museum/) |
+| ZAG-AT-505 | 자그레브 | 슬례메 케이블카 편도 | 9.95 EUR | A | 예 | 재검증 | [Infozagreb; ZET](https://new.infozagreb.hr/en/travel-plan/traveling-in-town/public-transport-and-parking/sljeme-cable-car) |
+| ZAG-AT-506 | 자그레브 | 슬례메 케이블카 편도 (아동) | 2.65 EUR | A | 예 | 재검증 | [Infozagreb; ZET](https://new.infozagreb.hr/en/travel-plan/traveling-in-town/public-transport-and-parking/sljeme-cable-car) |
+| RVN-TR-501 | 로바니에미 | Linkkari A구역 시내 버스 단회권 (Waltti Mobile) | 3.3 EUR | A | 예 | 재검증 | [Linkkari (Waltti Mobile fare table)](https://www.linkkari.fi/loader.aspx?id=20055aad-76e2-4416-8eb7-2e89583c4979) |
+| RVN-AT-501 | 로바니에미 | 아르크티쿰 | 22 EUR | A | 예 | 재검증 | [Arktikum](https://arktikum.fi/en/visit/tickets/) |
+| RVN-AT-502 | 로바니에미 | 아르크티쿰 (아동) | 10 EUR | A | 예 | 재검증 | [Arktikum](https://arktikum.fi/en/visit/tickets/) |
+| RVN-AT-503 | 로바니에미 | 코룬디 하우스 | 13 EUR | A | 예 | 재검증 | [Korundi](https://korundi.fi/en/korundi/korundi-house-of-culture/tickets) |
+| RVN-AT-504 | 로바니에미 | 코룬디 하우스 (아동) | 7 EUR | A | 예 | 재검증 | [Korundi](https://korundi.fi/en/korundi/korundi-house-of-culture/tickets) |
+| RVN-AT-505 | 로바니에미 | 산타파크 | 42 EUR | A | 조건부 | 조건부, 재검증 | [SantaPark](https://santapark.fi/experience-santapark/plan-your-visit/opening-times-ticket-prices/) |
+| RVN-AT-506 | 로바니에미 | 산타파크 (아동) | 37 EUR | A | 조건부 | 조건부, 재검증 | [SantaPark](https://santapark.fi/experience-santapark/plan-your-visit/opening-times-ticket-prices/) |
+| RVN-AT-507 | 로바니에미 | 산타클로스 사무실 방문 | 0 EUR | A | 예 | 재검증 | [Visit Rovaniemi](https://www.visitrovaniemi.fi/attraction/santa-claus-office/) |
+| RVN-AT-508 | 로바니에미 | 산타클로스 사무실 방문 (아동) | 0 EUR | A | 예 | 재검증 | [Visit Rovaniemi](https://www.visitrovaniemi.fi/attraction/santa-claus-office/) |
 | AMS-FD-501 | 암스테르담 | 풀 아이리시 아침 식사 | 14.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
 | AMS-FD-502 | 암스테르담 | 클럽 샌드위치 | 12.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
 | AMS-FD-503 | 암스테르담 | 채식 버거 | 16.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |

@@ -11,21 +11,18 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['드레스덴의 명물 과자 슈톨렌(Stollen)은 크리스마스 시즌의 대표 간식이라 마켓에서 꼭 맛볼 만합니다.', 'Dresden Stollen, the city’s famous fruit loaf, is the classic Christmas treat to try at the market.', 'ドレスデン名物のシュトレンはクリスマスシーズンの定番菓子なので、マーケットでぜひ味わいましょう。'],
-      ['크리스마스 마켓의 따뜻한 와인(글뤼바인)은 컵 보증금을 함께 내고, 컵을 돌려주면 돌려받습니다. 기념으로 컵을 가져가도 됩니다.', 'Mulled wine at the markets comes with a cup deposit, refunded when you return the mug, or keep it as a souvenir.', 'マーケットのホットワイン（グリューワイン）はカップのデポジット込みで、返すと返金されます。記念に持ち帰ってもOKです。'],
-      ['구시가지 명소는 엘베강 남쪽에 모여 있어 걸어서 둘러볼 수 있습니다.', 'The main old-town sights sit close together on the south bank of the Elbe, easy to see on foot.', '旧市街の名所はエルベ川の南側に集まっていて、歩いて回れます。'],
     ],
   },
   nuremberg: {
     h: [
       ['크리스트킨들레스마르크트', 'Christkindlesmarkt', 'クリストキンドレスマルクト', '세계적으로 유명한 크리스마스 마켓. 개막일에 금빛 옷을 입은 「크리스트킨트」가 개막을 알립니다.', 'The world-famous Christmas market, opened each year by the golden-robed “Christkind”.', '世界的に有名なクリスマスマーケット。毎年金色の衣装の「クリストキント」が開幕を告げます。'],
       ['뉘른베르크 성', 'Imperial Castle', 'ニュルンベルク城（カイザーブルク）', '구시가지 언덕 위의 중세 황제 성. 성벽에서 붉은 지붕의 구시가지가 한눈에 보입니다.', 'The medieval imperial castle above the old town, with views over its red rooftops.', '旧市街の丘に建つ中世の皇帝の城。城壁から赤い屋根の旧市街が一望できます。'],
-      ['아름다운 분수', 'Schöner Brunnen', '美しの泉', '중앙 광장의 고딕 분수. 철망의 금 고리를 돌리면 소원이 이뤄진다는 이야기가 있습니다.', 'The Gothic fountain on the main square; turning its brass ring is said to bring luck.', '中央広場のゴシック様式の噴水。柵の金の輪を回すと願いが叶うと言われます。'],
-      ['나치 전당대회장 기록관', 'Documentation Center Nazi Party Rally Grounds', 'ナチ党大会会場記録センター', '나치 전당대회가 열렸던 거대한 건물 안에서 그 역사를 보여주는 전시관입니다.', 'A museum inside the vast unfinished rally hall explaining the Nazi party rallies.', 'ナチ党大会が開かれた巨大な建物の中で、その歴史を伝える展示館です。'],
+      ['아름다운 분수', 'Schöner Brunnen', '美しの泉', '중앙 광장의 고딕 분수. 철망의 황동 고리를 돌리면 행운이 온다는 전승이 있습니다.', 'A Gothic fountain on the main square. Local lore says turning its brass ring brings good luck.', '中央広場にあるゴシック様式の噴水。柵の真鍮の輪を回すと幸運が訪れるという言い伝えがあります。'],
+      ['나치 전당대회장 기록관', 'Documentation Center Nazi Party Rally Grounds', 'ナチ党大会会場記録センター', '옛 나치 전당대회장의 미완공 의회관 건물 안에 있는 기록관으로, 그 역사를 보여줍니다.', 'A documentation centre inside the unfinished Congress Hall of the former Nazi rally grounds.', '旧ナチ党大会会場の未完成の議会ホールの中にある記録センターで、その歴史を伝えます。'],
     ],
     t: [
       ['손가락만 한 뉘른베르크 소시지 3개를 빵에 끼운 「드라이 임 베클라」가 대표 길거리 음식입니다.', '“Drei im Weggla”, three small Nuremberg sausages in a roll, is the classic street snack.', '小さなニュルンベルク・ソーセージ3本をパンに挟んだ「ドライ・イム・ヴェクラ」が定番の屋台グルメです。'],
       ['향신료 과자 렙쿠헨(Lebkuchen)이 이 도시의 명물이라 선물용으로 인기가 많습니다.', 'Lebkuchen, spiced gingerbread, is the city’s speciality and a popular gift.', 'スパイス菓子のレープクーヘンが街の名物で、お土産として人気です。'],
-      ['마켓 기간 주말 저녁에는 매우 붐비니 평일 낮에 가면 여유롭게 둘러볼 수 있습니다.', 'Market weekends and evenings are packed; weekday daytime is much calmer.', 'マーケット期間の週末の夜はとても混むので、平日の昼に行くとゆっくり見られます。'],
     ],
   },
   cologne: {
@@ -38,7 +35,6 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['쾰른 맥주 쾰슈(Kölsch)는 작은 잔에 나오고, 잔 위에 코스터를 올려 두면 그만 마시겠다는 뜻입니다.', 'Kölsch beer comes in small glasses; put your coaster on top to signal you are done.', 'ケルンのビール「ケルシュ」は小さなグラスで出され、コースターをグラスの上に置くと「もう十分」の合図です。'],
       ['중앙역이 대성당 바로 옆이라 기차로 도착하면 바로 관광을 시작할 수 있습니다.', 'The main station is right next to the cathedral, so you can start sightseeing straight off the train.', '中央駅が大聖堂のすぐ隣なので、列車で着いてすぐ観光を始められます。'],
-      ['역과 대성당 주변, 마켓 인파 속에서는 소매치기를 조심하세요.', 'Watch for pickpockets around the station, the cathedral and the market crowds.', '駅や大聖堂周辺、マーケットの人混みではスリに注意しましょう。'],
     ],
   },
   strasbourg: {
@@ -49,9 +45,9 @@ export const NOTES_9: Record<string, Compact> = {
       ['운하 보트 투어', 'Canal boat tour', '運河ボートツアー', '일 강을 따라 구시가지와 유럽 의회 지구를 도는 유람선입니다.', 'River cruises on the Ill circle the old town and the European Parliament district.', 'イル川に沿って旧市街と欧州議会地区を巡る遊覧船です。'],
     ],
     t: [
-      ['독일과 맞닿은 알자스 지방이라 독일식 음식(슈크루트·타르트 플랑베)과 와인이 함께 발달했습니다.', 'Alsace borders Germany, so dishes like choucroute and tarte flambée sit alongside local white wines.', 'ドイツと接するアルザス地方なので、シュークルートやタルト・フランベなどドイツ風の料理とワインが発達しています。'],
-      ['마켓 기간에는 구시가지 섬 입구에서 보안 검색을 하고 차량 통행이 제한되니 트램을 이용하세요.', 'During the market, entry points to the old-town island have security checks and cars are restricted; use the tram.', 'マーケット期間は旧市街の島の入口で保安検査があり車両通行も制限されるので、トラムを利用しましょう。'],
-      ['콜마르까지 기차로 가까워 하루에 두 도시의 마켓을 함께 보는 일정도 많습니다.', 'Colmar is a short train ride away, so many visitors combine both markets.', 'コルマールまで列車ですぐなので、2つの街のマーケットを一緒に巡る旅程も多いです。'],
+      ['알자스의 대표 음식으로 슈크루트와 타르트 플랑베를 맛보고, 지역 와인도 함께 즐겨 보세요.', 'Try Alsatian specialities such as choucroute and tarte flambée, along with local wines.', 'アルザスの名物料理、シュークルートやタルト・フランベを、地元のワインと一緒に味わってみましょう。'],
+      ['크리스마스 마켓 기간에는 그랑드 일의 차량 통행과 출입이 제한될 수 있습니다. 트램·도보·P+R 이용 안내를 확인하세요.', 'During the Christmas market, vehicle access to Grande Île is restricted and entry checks may apply. Check the official advice on trams, walking and park-and-ride.', 'クリスマスマーケット期間中はグラン・ディルへの車両通行が制限され、入口で検査が行われる場合があります。トラム・徒歩・パーク＆ライドの公式案内を確認しましょう。'],
+      ['스트라스부르와 콜마르는 기차로 연결되어 있어 두 도시를 함께 둘러보는 일정을 짤 수 있습니다.', 'Strasbourg and Colmar are connected by train, so you can plan a visit to both cities.', 'ストラスブールとコルマールは鉄道で結ばれているため、両方を訪れる旅程を組めます。'],
     ],
   },
   colmar: {
@@ -61,9 +57,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['운터린덴 미술관', 'Unterlinden Museum', 'ウンターリンデン美術館', '옛 수도원 건물의 미술관으로 「이젠하임 제단화」가 유명합니다.', 'A museum in a former convent, famous for the Isenheim Altarpiece.', '旧修道院の美術館で、「イーゼンハイム祭壇画」が有名です。'],
     ],
     t: [
-      ['도시가 작아 걸어서 반나절이면 구시가지를 둘러볼 수 있고, 스트라스부르에서 당일치기로도 많이 옵니다.', 'The old town is small enough to see on foot in half a day, and many visit on a day trip from Strasbourg.', '旧市街は小さく半日で歩いて回れ、ストラスブールから日帰りで訪れる人も多いです。'],
-      ['주변 알자스 와인 마을(리크비르·에기스하임 등)도 크리스마스 장식으로 유명합니다.', 'Nearby Alsace wine villages such as Riquewihr and Eguisheim are also famous for Christmas decorations.', '周辺のアルザスのワイン村（リクヴィール、エギスハイムなど）もクリスマスの飾りで有名です。'],
-      ['마켓 시즌 주말에는 숙소가 빨리 차니 일찍 예약하는 것이 좋습니다.', 'Market-season weekends book up fast, so reserve accommodation early.', 'マーケットシーズンの週末は宿がすぐ埋まるので、早めの予約がおすすめです。'],
+      ['콜마르 구시가지에는 운하와 목조 가옥이 모여 있어 도보로 둘러보기 좋습니다.', 'Colmar’s old town has canal-side streets and half-timbered houses that are easy to explore on foot.', 'コルマールの旧市街には運河沿いの通りや木組みの家が集まり、徒歩で散策しやすいです。'],
+      ['콜마르 인근 에기스하임에서도 크리스마스 마켓이 열려 알자스 마을의 계절 장식을 즐길 수 있습니다.', 'Nearby Eguisheim also holds a Christmas market, offering a chance to see seasonal decorations in an Alsatian village.', '近郊のエギスハイムでもクリスマスマーケットが開かれ、アルザスの村の季節の飾りを楽しめます。'],
     ],
   },
   salzburg: {
@@ -74,9 +69,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['미라벨 정원', 'Mirabell Gardens', 'ミラベル庭園', '영화 「사운드 오브 뮤직」 촬영지로 알려진 정원입니다.', 'Gardens known as a filming location of The Sound of Music.', '映画「サウンド・オブ・ミュージック」のロケ地として知られる庭園です。'],
     ],
     t: [
-      ['「고요한 밤」이 처음 불린 근교 오베른도르프에 다녀오는 크리스마스 일정도 인기입니다.', 'A trip to nearby Oberndorf, where “Silent Night” was first sung, is a popular Christmas outing.', '「きよしこの夜」が初めて歌われた近郊のオーベルンドルフを訪ねるのもクリスマスに人気です。'],
+      ['「고요한 밤」이 1818년 처음 공연된 근교 오베른도르프의 기념 예배당을 방문해 보세요.', 'Visit the memorial chapel in nearby Oberndorf, where “Silent Night” was first performed in 1818.', '「きよしこの夜」が1818年に初演された、近郊オーベルンドルフの記念礼拝堂を訪ねてみましょう。'],
       ['구시가지는 걸어서 다닐 수 있을 만큼 작고, 잘츠부르크 카드가 있으면 여러 명소와 교통을 함께 이용할 수 있습니다.', 'The old town is compact and walkable, and the Salzburg Card bundles many sights with transport.', '旧市街は歩いて回れるほどコンパクトで、ザルツブルクカードで多くの名所と交通をまとめて利用できます。'],
-      ['겨울에는 비나 눈이 잦으니 미끄럽지 않은 신발을 준비하세요.', 'Winter brings frequent rain or snow; wear non-slip shoes.', '冬は雨や雪が多いので、滑りにくい靴を用意しましょう。'],
     ],
   },
   zagreb: {
@@ -101,7 +95,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['한겨울은 매우 추우니 방한복·장갑·모자를 겹겹이 준비하세요. 투어 업체가 방한복을 빌려주기도 합니다.', 'Midwinter is extremely cold; dress in layers with gloves and a hat. Tour operators often lend thermal suits.', '真冬は非常に寒いので、防寒着・手袋・帽子を重ね着しましょう。ツアー会社が防寒服を貸してくれることもあります。'],
       ['12월은 해가 거의 뜨지 않는 극야라 낮 시간이 매우 짧습니다. 일정은 밝은 시간에 맞춰 짜세요.', 'In December the polar night leaves only a short spell of daylight; plan around it.', '12月は極夜で日中がとても短いので、明るい時間に合わせて予定を組みましょう。'],
-      ['오로라는 날씨와 태양 활동에 따라 보이지 않을 수 있으니 여러 밤을 두는 것이 좋습니다.', 'Northern lights depend on weather and solar activity, so allow several nights.', 'オーロラは天気や太陽活動次第で見えないこともあるので、複数の夜を確保しましょう。'],
+      ['오로라는 늦은 8월부터 4월 초까지 어둡고 구름 없는 밤에 관측될 수 있어, 여러 밤을 두면 기회를 늘릴 수 있습니다.', 'The Northern Lights may appear from late August to early April on dark, cloudless nights; staying several nights gives you more opportunities.', 'オーロラは8月下旬から4月上旬まで、暗く雲のない夜に見られることがあります。複数泊すると観測の機会を増やせます。'],
     ],
   },
   tallinn: {
@@ -112,9 +106,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['알렉산드르 넵스키 대성당', 'Alexander Nevsky Cathedral', 'アレクサンドル・ネフスキー大聖堂', '양파 모양 돔이 있는 러시아 정교회 대성당입니다.', 'An onion-domed Russian Orthodox cathedral on Toompea hill.', '玉ねぎ型のドームを持つロシア正教の大聖堂です。'],
     ],
     t: [
-      ['헬싱키에서 페리로 2시간 남짓이라 두 도시를 함께 여행하는 일정이 많습니다.', 'Ferries from Helsinki take around two hours, so the two capitals are often combined.', 'ヘルシンキからフェリーで2時間ほどなので、2都市を一緒に巡る旅程が多いです。'],
-      ['구시가지 돌길은 겨울에 얼어 미끄러우니 밑창이 단단한 신발을 신으세요.', 'Old-town cobbles get icy in winter; wear shoes with good grip.', '旧市街の石畳は冬に凍って滑りやすいので、滑りにくい靴を。'],
-      ['에스토니아는 디지털 행정으로 유명하며 카드 결제가 거의 어디서나 됩니다.', 'Estonia is known for its digital society, and cards are accepted almost everywhere.', 'エストニアはデジタル行政で有名で、カード払いがほぼどこでも使えます。'],
+      ['헬싱키와 탈린은 페리로 약 2시간 거리입니다. 두 도시를 함께 여행한다면 공식 운항 시간표를 확인하세요.', 'Ferries between Helsinki and Tallinn take about two hours. Check the operators’ schedules if visiting both cities.', 'ヘルシンキとタリンはフェリーで約2時間です。両方を訪れる場合は運航会社の時刻表を確認しましょう。'],
+      ['에스토니아에서는 대부분의 가게가 직불·신용카드와 비접촉 결제를 받습니다.', 'Most businesses in Estonia accept debit and credit cards, including contactless payments.', 'エストニアでは多くの店舗がデビットカードやクレジットカード、非接触決済に対応しています。'],
     ],
   },
 };

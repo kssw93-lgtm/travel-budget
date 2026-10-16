@@ -2387,6 +2387,60 @@
     "note": "Claude 초안(2026-10-11)"
   },
   {
+    "cityId": "colmar",
+    "nameKo": "슈크루트",
+    "nameEn": "Choucroute",
+    "reason": "발효 양배추에 소시지·고기·감자를 곁들인 알자스 요리",
+    "reasonEn": "Alsatian sauerkraut platter",
+    "desc": {
+      "ko": "발효 양배추에 소시지·고기·감자를 곁들인 알자스 요리",
+      "en": "Alsatian sauerkraut with sausages, meats and potatoes",
+      "ja": "発酵キャベツにソーセージや肉、じゃがいもを添えたアルザス料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "colmar",
+    "nameKo": "타르트 플랑베",
+    "nameEn": "Tarte flambée",
+    "reason": "얇은 반죽에 크림·양파·베이컨을 올려 화덕에 구운 알자스식 납작 파이",
+    "reasonEn": "Alsatian flatbread",
+    "desc": {
+      "ko": "얇은 반죽에 크림·양파·베이컨을 올려 화덕에 구운 알자스식 납작 파이",
+      "en": "Thin Alsatian flatbread with cream, onion and bacon",
+      "ja": "薄い生地にクリーム・玉ねぎ・ベーコンをのせて焼いたアルザスの薄焼き"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "colmar",
+    "nameKo": "쿠겔호프",
+    "nameEn": "Kougelhopf",
+    "reason": "특유의 틀에 구운 건포도가 든 알자스 빵",
+    "reasonEn": "Fluted raisin bread",
+    "desc": {
+      "ko": "특유의 틀에 구운 건포도가 든 알자스 빵",
+      "en": "Raisin bread baked in a distinctive fluted mould",
+      "ja": "独特の型で焼くレーズン入りのアルザスのパン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
     "cityId": "cologne",
     "nameKo": "할버 한",
     "nameEn": "Halve Hahn",
@@ -6828,6 +6882,60 @@
     "note": "추천 출처 재확인 필요(받은 주소가 숙박세 안내 페이지였음)"
   },
   {
+    "cityId": "rovaniemi",
+    "nameKo": "순록 볶음",
+    "nameEn": "Sautéed reindeer",
+    "reason": "얇게 썬 순록 고기를 볶아 으깬 감자·링곤베리와 먹는 라플란드 요리",
+    "reasonEn": "Sautéed reindeer",
+    "desc": {
+      "ko": "얇게 썬 순록 고기를 볶아 으깬 감자·링곤베리와 먹는 라플란드 요리",
+      "en": "Sautéed reindeer with mashed potato and lingonberries",
+      "ja": "薄切りのトナカイ肉を炒め、マッシュポテトとコケモモを添えたラップランド料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "rovaniemi",
+    "nameKo": "레이패유스토",
+    "nameEn": "Leipäjuusto",
+    "reason": "구워서 먹는 핀란드식 「빵 치즈」로 클라우드베리 잼과 곁들임",
+    "reasonEn": "Baked bread cheese",
+    "desc": {
+      "ko": "구워서 먹는 핀란드식 「빵 치즈」로 클라우드베리 잼과 곁들임",
+      "en": "Finnish baked “bread cheese”, often with cloudberry jam",
+      "ja": "焼いて食べるフィンランドの「パンチーズ」、クラウドベリージャム添え"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "rovaniemi",
+    "nameKo": "연어 수프",
+    "nameEn": "Lohikeitto",
+    "reason": "연어와 감자를 크림 국물에 끓인 핀란드식 수프",
+    "reasonEn": "Creamy salmon soup",
+    "desc": {
+      "ko": "연어와 감자를 크림 국물에 끓인 핀란드식 수프",
+      "en": "Finnish creamy salmon and potato soup",
+      "ja": "サーモンとじゃがいものクリームスープ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
     "cityId": "saipan",
     "nameKo": "포케",
     "nameEn": "Poke",
@@ -6918,6 +7026,60 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-12)"
+  },
+  {
+    "cityId": "salzburg",
+    "nameKo": "잘츠부르거 노케를",
+    "nameEn": "Salzburger Nockerl",
+    "reason": "잘츠부르크의 언덕을 본뜬 폭신한 수플레 디저트",
+    "reasonEn": "Soufflé dessert",
+    "desc": {
+      "ko": "잘츠부르크의 언덕을 본뜬 폭신한 수플레 디저트",
+      "en": "A light soufflé dessert shaped like Salzburg’s hills",
+      "ja": "ザルツブルクの丘をかたどったふわふわのスフレ菓子"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Salzburg Tourismus",
+    "recommendUrl": "https://salzburg.info/en/dining-shopping/salzburg-culinary-classics",
+    "note": ""
+  },
+  {
+    "cityId": "salzburg",
+    "nameKo": "모차르트쿠겔",
+    "nameEn": "Mozartkugel",
+    "reason": "1890년 처음 만들어진 피스타치오 마지팬 초콜릿 과자",
+    "reasonEn": "Marzipan chocolate sweet",
+    "desc": {
+      "ko": "1890년 처음 만들어진 피스타치오 마지팬 초콜릿 과자",
+      "en": "Pistachio-marzipan chocolate sweet first made in 1890",
+      "ja": "1890年に生まれたピスタチオ入りマジパンのチョコ菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Salzburg Tourismus",
+    "recommendUrl": "https://salzburg.info/en/dining-shopping/salzburg-culinary-classics",
+    "note": ""
+  },
+  {
+    "cityId": "salzburg",
+    "nameKo": "보스나",
+    "nameEn": "Bosna",
+    "reason": "카레 가루를 뿌린 소시지 핫도그로 잘츠부르크 길거리 음식",
+    "reasonEn": "Curry sausage hot dog",
+    "desc": {
+      "ko": "카레 가루를 뿌린 소시지 핫도그로 잘츠부르크 길거리 음식",
+      "en": "Curry-spiced sausage hot dog, a Salzburg street snack",
+      "ja": "カレー粉をかけたソーセージのホットドッグ、ザルツブルクの屋台グルメ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Salzburg Tourismus",
+    "recommendUrl": "https://salzburg.info/en/dining-shopping/salzburg-culinary-classics",
+    "note": ""
   },
   {
     "cityId": "san-francisco",
@@ -7286,6 +7448,60 @@
     "linkedPriceIds": [
       "STO-FD-502"
     ],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "strasbourg",
+    "nameKo": "슈크루트",
+    "nameEn": "Choucroute",
+    "reason": "발효 양배추에 소시지·고기·감자를 곁들인 알자스 요리",
+    "reasonEn": "Alsatian sauerkraut platter",
+    "desc": {
+      "ko": "발효 양배추에 소시지·고기·감자를 곁들인 알자스 요리",
+      "en": "Alsatian sauerkraut with sausages, meats and potatoes",
+      "ja": "発酵キャベツにソーセージや肉、じゃがいもを添えたアルザス料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "strasbourg",
+    "nameKo": "타르트 플랑베",
+    "nameEn": "Tarte flambée",
+    "reason": "얇은 반죽에 크림·양파·베이컨을 올려 화덕에 구운 알자스식 납작 파이",
+    "reasonEn": "Alsatian flatbread",
+    "desc": {
+      "ko": "얇은 반죽에 크림·양파·베이컨을 올려 화덕에 구운 알자스식 납작 파이",
+      "en": "Thin Alsatian flatbread with cream, onion and bacon",
+      "ja": "薄い生地にクリーム・玉ねぎ・ベーコンをのせて焼いたアルザスの薄焼き"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "strasbourg",
+    "nameKo": "쿠겔호프",
+    "nameEn": "Kougelhopf",
+    "reason": "특유의 틀에 구운 건포도가 든 알자스 빵",
+    "reasonEn": "Fluted raisin bread",
+    "desc": {
+      "ko": "특유의 틀에 구운 건포도가 든 알자스 빵",
+      "en": "Raisin bread baked in a distinctive fluted mould",
+      "ja": "独特の型で焼くレーズン入りのアルザスのパン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
     "priceStatus": "대기",
     "recommendSource": "",
     "recommendUrl": "",
@@ -8140,6 +8356,60 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "zagreb",
+    "nameKo": "슈트루클리",
+    "nameEn": "Štrukli",
+    "reason": "코티지 치즈와 사워크림을 넣은 반죽을 삶거나 구운 요리",
+    "reasonEn": "Cheese-filled pastry",
+    "desc": {
+      "ko": "코티지 치즈와 사워크림을 넣은 반죽을 삶거나 구운 요리",
+      "en": "Pastry filled with cottage cheese and sour cream, boiled or baked",
+      "ja": "カッテージチーズとサワークリームを包み、茹でるか焼いた料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "zagreb",
+    "nameKo": "자그레바치키 오드레자크",
+    "nameEn": "Zagrebački odrezak",
+    "reason": "송아지 고기 사이에 햄·치즈를 넣고 튀긴 커틀릿",
+    "reasonEn": "Stuffed veal cutlet",
+    "desc": {
+      "ko": "송아지 고기 사이에 햄·치즈를 넣고 튀긴 커틀릿",
+      "en": "Veal cutlet stuffed with ham and cheese, breaded and fried",
+      "ja": "子牛肉でハムとチーズを挟んで揚げたカツレツ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "zagreb",
+    "nameKo": "푸리차 스 믈린치마",
+    "nameEn": "Purica s mlincima",
+    "reason": "구운 칠면조와 얇은 반죽(믈린치)을 곁들인 요리",
+    "reasonEn": "Roast turkey with mlinci",
+    "desc": {
+      "ko": "구운 칠면조와 얇은 반죽(믈린치)을 곁들인 요리",
+      "en": "Roast turkey with thin baked dough sheets (mlinci)",
+      "ja": "ローストターキーに薄い生地（ムリンツィ）を添えた料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
     "cityId": "zhangjiajie",

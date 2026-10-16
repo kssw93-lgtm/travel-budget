@@ -807,7 +807,7 @@
     "nameEn": "Strasbourg",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "colmar",
@@ -817,7 +817,7 @@
     "nameEn": "Colmar",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "salzburg",
@@ -827,7 +827,7 @@
     "nameEn": "Salzburg",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "zagreb",
@@ -837,7 +837,7 @@
     "nameEn": "Zagreb",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "rovaniemi",
@@ -847,7 +847,7 @@
     "nameEn": "Rovaniemi",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "tallinn",

@@ -328,10 +328,11 @@
   "reykjavik:Skyr": "Icelandic skyr",
   "reykjavik:Harðfiskur": "Dried fish",
   "krakow:Pierogi": "Polish dumplings",
-  "krakow:Obwarzanek": "Kraków ring bread",
-  "krakow:Żurek": "Sour rye soup",
   "krakow:Kotlet schabowy": "Pork cutlet",
   "siem-reap:Amok": "Coconut fish curry",
   "siem-reap:Lok Lak": "Pepper-lime beef",
-  "siem-reap:Num Banh Chok": "Breakfast rice noodles"
+  "siem-reap:Num Banh Chok": "Breakfast rice noodles",
+  "krakow:Obwarzanek krakowski": "Kraków ring bread",
+  "krakow:Maczanka krakowska": "Pork in gravy-soaked bread",
+  "krakow:Kwaśnica": "Sauerkraut soup"
 }

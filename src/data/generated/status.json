@@ -1885,8 +1885,8 @@
       "pass": 1,
       "ride": 1,
       "meal": 3,
-      "snack": 0,
-      "drink": 0,
+      "snack": 2,
+      "drink": 1,
       "attraction": 3,
       "souvenir": 0
     },
@@ -1894,8 +1894,8 @@
       "pass": 1,
       "ride": 1,
       "meal": 3,
-      "snack": 0,
-      "drink": 0,
+      "snack": 2,
+      "drink": 1,
       "attraction": 3,
       "souvenir": 0
     },
@@ -1913,8 +1913,8 @@
       "pass": 1,
       "ride": 1,
       "meal": 3,
-      "snack": 1,
-      "drink": 1,
+      "snack": 3,
+      "drink": 3,
       "attraction": 3,
       "souvenir": 0
     },
@@ -1922,8 +1922,8 @@
       "pass": 1,
       "ride": 1,
       "meal": 3,
-      "snack": 1,
-      "drink": 1,
+      "snack": 3,
+      "drink": 3,
       "attraction": 3,
       "souvenir": 0
     },

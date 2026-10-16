@@ -128,5 +128,12 @@
     "sourceUrl": "https://www.mtr.com.hk/en/customer/tickets/tf_index.html",
     "checkedAt": "2026-10-15",
     "reason": "GPT 교차 검수: MTR 요금표 홍콩역 3~11세 편도 Octopus/QR HK$60, Smart Ticket HK$65."
+  },
+  "NGO-FD-103": {
+    "min": 646,
+    "max": 646,
+    "sourceUrl": "https://www.ichibanya.co.jp/menu/list.html?cid=1",
+    "checkedAt": "2026-10-15",
+    "reason": "GPT 교차 검수: 코코이치방야 공식 메뉴 ポークカレー 588円（税込646円）. 세금 포함 가격으로 반영."
   }
 }

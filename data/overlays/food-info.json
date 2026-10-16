@@ -3111,16 +3111,6 @@
     "en": "Polish dumplings filled with potato and cheese",
     "ja": "じゃがいもとチーズなどを包んだポーランドの餃子"
   },
-  "krakow:Obwarzanek": {
-    "ko": "크라쿠프 거리에서 파는 꼬인 고리 모양 빵",
-    "en": "Twisted ring bread sold on Kraków streets",
-    "ja": "クラクフの街角で売られるねじれた輪のパン"
-  },
-  "krakow:Żurek": {
-    "ko": "발효 호밀 국물에 소시지·달걀을 넣은 수프",
-    "en": "Sour rye soup with sausage and egg",
-    "ja": "発酵ライ麦のスープにソーセージと卵を入れたもの"
-  },
   "krakow:Kotlet schabowy": {
     "ko": "폴란드식 돼지고기 돈가스",
     "en": "Polish breaded pork cutlet",
@@ -3140,5 +3130,20 @@
     "ko": "쌀국수에 생선 카레 국물을 부은 아침 국수",
     "en": "Rice noodles with fish curry broth, a breakfast staple",
     "ja": "米麺に魚カレースープをかけた朝ごはんの麺"
+  },
+  "krakow:Obwarzanek krakowski": {
+    "ko": "14세기 기록에도 남은 크라쿠프의 상징인 고리 모양 빵",
+    "en": "Kraków’s iconic ring bread, recorded since the 14th century",
+    "ja": "14世紀の記録にも残るクラクフ名物の輪のパン"
+  },
+  "krakow:Maczanka krakowska": {
+    "ko": "소스에 적신 빵에 고기를 끼운 크라쿠프 별미",
+    "en": "Bread soaked in gravy with sliced pork, a local favorite",
+    "ja": "ソースに浸したパンに肉を挟んだクラクフの名物"
+  },
+  "krakow:Kwaśnica": {
+    "ko": "훈제 고기·갈비로 끓인 사우어크라우트 수프",
+    "en": "Sauerkraut soup with smoked meat or ribs",
+    "ja": "燻製肉やスペアリブで作るザワークラウトのスープ"
   }
 }

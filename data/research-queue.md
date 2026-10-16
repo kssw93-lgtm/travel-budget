@@ -124,10 +124,9 @@
 | 칸쿤 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 크라쿠프 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 크라쿠프 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
-| 크라쿠프 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 크라쿠프 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 브뤼셀 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 브뤼셀 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
-| 브뤼셀 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -193,7 +192,6 @@
 | SHA-AT-005 | 상하이 | 상하이 천문관 성인 입장권 | 30 CNY | B | 예 | B등급, 검수: 원문 확인 불가 | [Shanghai Municipal People's Government](https://www.shanghai.gov.cn/pudong/index.html) |
 | SHA-AT-006 | 상하이 | 상하이 자연박물관 1.3m 이하 또는 만 6세 이하 무료 | 0 CNY | B | 예 | B등급 | [Shanghai Natural History Museum](https://www.snhm.org.cn/cgfw/cgzx.htm) |
 | SHA-AT-009 | 상하이 | 상하이 천문관 1.3m 이하 또는 만 6세 이하 무료 | 0 CNY | B | 예 | B등급, 검수: 원문 확인 불가 | [Shanghai Municipal People's Government](https://www.shanghai.gov.cn/pudong/index.html) |
-| TYO-AT-004 | 도쿄 | 시부야 스카이 입장권(성인, 14:59까지 입장) | 2700 JPY | A | 예 | 검수: 원문 확인 불가 | [SHIBUYA SKY](https://www.shibuya-scramble-square.com/sky/ticket/) |
 | TYO-AT-005 | 도쿄 | 도쿄 디즈니랜드 1데이 패스포트(성인, 2026-10-03) | 10900 JPY | A | 예 | 검수: 원문 확인 불가 | [Tokyo Disney Resort](https://www.tokyodisneyresort.jp/en/ticket/index/202610/) |
 | TYO-AT-006 | 도쿄 | 팀랩 플래닛 입장 패스(성인, 공식 최저 게시가) | 3800 JPY | A | 예 | 시작가 표기 | [teamLab Planets / DMM Official Ticket Store](https://teamlabplanets.dmm.com/en?dmmref=lp&i3_ref=cm2020) |
 | TYO-AT-008 | 도쿄 | 신주쿠 교엔 일반 입장권 | 500 JPY | B | 예 | B등급 | [Ministry of the Environment, Japan](https://policies.env.go.jp/national-garden/shinjukugyoen/english/guide/information/) |
@@ -201,22 +199,21 @@
 | TYO-AT-010 | 도쿄 | 우에노 동물원 일반 입장권 | 600 JPY | B | 예 | B등급 | [Tokyo Zoological Park Society](https://www.tokyo-zoo.net/en/ueno/visitor-info/tickets/index.html) |
 | TYO-AT-011 | 도쿄 | 국립서양미술관 상설전시 입장권 | 500 JPY | B | 예 | B등급 | [The National Museum of Western Art](https://www.nmwa.go.jp/en/visit/index.html) |
 | TYO-AT-012 | 도쿄 | 도쿄도청 전망실 | 0 JPY | B | 예 | B등급 | [Tokyo Metropolitan Government](https://www.english.metro.tokyo.lg.jp/w/000-101-000542) |
-| TYO-AT-013 | 도쿄 | 시부야 스카이 입장권(아동) | 1200 JPY | A | 예 | 검수: 원문 확인 불가 | [SHIBUYA SKY](https://www.shibuya-scramble-square.com/sky/ticket/) |
 | TYO-AT-014 | 도쿄 | 도쿄 디즈니랜드 1데이 패스포트(아동, 2026년 10월 최저 게시가) | 5300 JPY | A | 예 | 시작가 표기 | [Tokyo Disney Resort](https://www.tokyodisneyresort.jp/en/ticket/index/202610/) |
 | TYO-AT-018 | 도쿄 | 신주쿠 교엔 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Ministry of the Environment, Japan](https://policies.env.go.jp/national-garden/shinjukugyoen/english/guide/information/) |
 | TYO-AT-019 | 도쿄 | 하마리큐 은사정원 초등학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Tokyo Metropolitan Park Association](https://www.tokyo-park.or.jp/park/hama-rikyu/index.html) |
 | TYO-AT-020 | 도쿄 | 우에노 동물원 12세 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Tokyo Zoological Park Society](https://www.tokyo-zoo.net/en/ueno/visitor-info/tickets/index.html) |
-| TYO-AT-021 | 도쿄 | 국립서양미술관 상설전시 18세 미만 무료 입장 | 0 JPY | B | 예 | B등급, 검수: 원문 확인 불가 | [The National Museum of Western Art](https://www.nmwa.go.jp/en/visit/index.html) |
+| TYO-AT-021 | 도쿄 | 국립서양미술관 상설전시 18세 미만 무료 입장 | 0 JPY | B | 예 | B등급 | [The National Museum of Western Art](https://www.nmwa.go.jp/en/visit/index.html) |
 | OSA-AT-004 | 오사카 | 오사카성 박물관 천수각 입장권 | 1200 JPY | B | 예 | B등급 | [Osaka Castle Museum](https://www.osakacastle.net/guide/?lang=en) |
 | OSA-AT-007 | 오사카 | 오사카 역사박물관 상설전시 입장권 | 600 JPY | B | 예 | B등급 | [Osaka Museum of History](https://www.osakamushis.jp/eng/index.html) |
 | OSA-AT-010 | 오사카 | 오사카 시립미술관 기획전시 일반 입장권 | 500 JPY | B | 예 | B등급 | [Osaka City Museum of Fine Arts](https://www.osaka-art-museum.jp/information) |
 | OSA-AT-011 | 오사카 | 오사카성 공원 입장 | 0 JPY | B | 예 | B등급 | [Osaka Castle Park Center](https://www.osakacastlepark.jp/images/flowers/flowermap/flowermap5/map2026.pdf) |
-| OSA-AT-013 | 오사카 | 오사카성 니시노마루 정원 입장권 | 300 JPY | B | 예 | B등급, 검수: 원문 확인 불가 | [Osaka Castle Park Center](https://www.osakacastlepark.jp/articles/detail.html?id=3) |
+| OSA-AT-013 | 오사카 | 오사카성 니시노마루 정원 입장권 | 300 JPY | B | 예 | B등급 | [Osaka Castle Park Center](https://www.osakacastlepark.jp/articles/detail.html?id=3) |
 | OSA-AT-014 | 오사카 | 오사카성 박물관 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Osaka Castle Museum](https://www.osakacastle.net/guide/?lang=en) |
 | OSA-AT-018 | 오사카 | 오사카 역사박물관 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Osaka Museum of History](https://www.osakamushis.jp/eng/index.html) |
 | OSA-AT-023 | 오사카 | 오사카 시립미술관 기획전시 고등학생·대학생 입장권 | 200 JPY | B | 예 | B등급 | [Osaka City Museum of Fine Arts](https://www.osaka-art-museum.jp/information) |
 | OSA-AT-024 | 오사카 | 오사카 시립미술관 기획전시 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Osaka City Museum of Fine Arts](https://www.osaka-art-museum.jp/information) |
-| OSA-AT-026 | 오사카 | 오사카성 니시노마루 정원 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급, 검수: 원문 확인 불가 | [Osaka Castle Park Center](https://www.osakacastlepark.jp/articles/detail.html?id=3) |
+| OSA-AT-026 | 오사카 | 오사카성 니시노마루 정원 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Osaka Castle Park Center](https://www.osakacastlepark.jp/articles/detail.html?id=3) |
 | BKK-AT-009 | 방콕 | 방콕 국립박물관 외국인 개인 입장권 | 200 THB | B | 예 | B등급, 검수: 원문 확인 불가 | [Fine Arts Department, Ministry of Culture](https://www.finearts.go.th/museumnationalgallery/view/10005-%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8A%E0%B8%B5%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%A1%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4) |
 | BKK-AT-010 | 방콕 | 방콕 국립미술관 외국인 개인 입장권 | 200 THB | B | 예 | B등급, 검수: 원문 확인 불가 | [Fine Arts Department, Ministry of Culture](https://www.finearts.go.th/museumnationalgallery/view/10005-%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8A%E0%B8%B5%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%A1%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%97%E0%B%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4) |
 | BKK-AT-013 | 방콕 | 방콕 플라네타리움 성인 입장권 | 50 THB | B | 예 | B등급, 검수: 원문 확인 불가 | [Science Centre for Education, Thailand](https://sciplanet.org/wp-content/uploads/2026/01/%E0%B8%AD-%E0%B9%80%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A-21-%E0%B8%A1.%E0%B8%84.69-%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%A1-2569-%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B8%E0%B8%94.pdf) |
@@ -565,6 +562,13 @@
 | BRU-AT-104 | 브뤼셀 | 미니 유럽 입장권(12세 미만, 현장) | 17.9 EUR | A | 예 | 재검증 | [Mini-Europe](https://www.minieurope.com/en/individual-rates/) |
 | BRU-AT-105 | 브뤼셀 | 벨기에 왕립미술관 고전관(성인) | 13 EUR | A | 예 | 재검증 | [Royal Museums of Fine Arts of Belgium](https://fine-arts-museum.be/fr/votre-visite/planifier-sa-visite/tarifs) |
 | BRU-AT-106 | 브뤼셀 | 벨기에 왕립미술관(0~17세) | 0 EUR | A | 예 | 재검증 | [Royal Museums of Fine Arts of Belgium](https://fine-arts-museum.be/fr/votre-visite/planifier-sa-visite/tarifs) |
+| BRU-SN-102 | 브뤼셀 | 오 비외 브뤼셀 소르베 컵 | 6.5 EUR | A | 예 | 재검증 | [Au Vieux Bruxelles](https://m.auvieuxbruxelles.com/menus.php) |
+| BRU-SN-103 | 브뤼셀 | 라 루 도르 브뤼셀 와플(생크림) | 10 EUR | A | 예 | 재검증 | [La Roue d'Or](https://restaurantlarouedor.com/carte) |
+| BRU-AL-102 | 브뤼셀 | 델리리움 카페 델리리움 트레멘스 생맥주 25cl | 4.6 EUR | A | 예 | 재검증 | [Delirium Village](https://www.deliriumvillage.com/menucafe/) |
+| BRU-AL-103 | 브뤼셀 | 아 라 모르 쉬비트 마스 필스 생맥주(보통) | 4.2 EUR | A | 조건부 | 조건부, 재검증 | [À la Mort Subite](https://alamortsubite.com/en/menu/beers) |
+| KRK-SN-101 | 크라쿠프 | 포드 바라넴 카사타 아이스크림 | 34 PLN | A | 예 | 재검증 | [Restauracja Pod Baranem](https://podbaranem.com/menu/) |
+| KRK-SN-102 | 크라쿠프 | CK 브로바르 사과 슈트루델(바닐라 아이스크림) | 26 PLN | A | 예 | 재검증 | [C.K. Browar (Podwale 7, Kraków)](https://ckbrowar.choiceqr.com/section:menu/desery) |
+| KRK-AL-101 | 크라쿠프 | CK 브로바르 자가양조 라거(C.K. 야스네) 0.5L | 20 PLN | A | 예 | 재검증 | [C.K. Browar](https://ckbrowar.choiceqr.com/section:piwo-c.k.-browar/piwa-lane) |
 | SPN-AT-101 | 사이판 | 마나가하 섬 상륙료(비거주자) | 5 USD | A | 조건부 | 조건부, 재검증 | [CNMI Law Revision Commission – Commonwealth Code 2 CMC § 1621](https://cnmilaw.gov/commonwealth-code/1598) |
 | BUD-AT-301 | 부다페스트 | 세체니 온천 1일권(라커 포함) | 13200~15800 HUF | A | 예 | 재검증 | [Széchenyi Thermal Bath](https://www.szechenyibath.hu/prices) |
 | MUC-AT-301 | 뮌헨 | 독일박물관 1일권(성인) | 16 EUR | A | 예 | 재검증 | [Deutsches Museum](https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets) |
@@ -1386,7 +1390,7 @@
 | KYO-FD-103 | 교토 | 스키야 규동 보통 | 480 JPY | A | 예 | 재검증 | [すき家](https://www.sukiya.jp/menu/in/gyudon/100100/) |
 | NGO-FD-101 | 나고야 | 요시노야 규동 보통 | 498 JPY | A | 예 | 재검증 | [요시노야](https://www.yoshinoya.com/menu/gyudon/) |
 | NGO-FD-102 | 나고야 | 스키야 규동 보통 | 480 JPY | A | 예 | 재검증 | [すき家](https://www.sukiya.jp/menu/in/gyudon/100100/) |
-| NGO-FD-103 | 나고야 | 코코이치방야 포크 카레 | 570~591 JPY | A | 예 | 재검증 | [カレーハウスCoCo壱番屋](https://www.ichibanya.co.jp/menu/) |
+| NGO-FD-103 | 나고야 | 코코이치방야 포크 카레 | 646 JPY | A | 예 | 재검증 | [カレーハウスCoCo壱番屋](https://www.ichibanya.co.jp/menu/list.html?cid=1) |
 | NGO-TR-001 | 나고야 | 나고야시 지하철 1회권(1~5구, 성인) | 210~340 JPY | A | 예 | 재검증 | [나고야시 교통국](https://www.kotsu.city.nagoya.jp/rp/subway/trp0000172.htm) |
 | NGO-TR-002 | 나고야 | 나고야시 지하철 1회권(1~5구, 소아) | 100~170 JPY | A | 예 | 재검증 | [나고야시 교통국](https://www.kotsu.city.nagoya.jp/rp/subway/trp0000172.htm) |
 | NGO-TR-003 | 나고야 | 나고야 시버스 균일 요금(성인) | 210 JPY | A | 예 | 재검증 | [나고야시 교통국](https://www.kotsu.city.nagoya.jp/rp/bus/trp0000165.htm) |
@@ -1776,5 +1780,5 @@
 
 ## 4. 교차 검수 현황
 
-`data/reviews/*.csv` 에서 읽은 판정: 일치 1134건 · 불일치 27건 · 확인불가 102건.
+`data/reviews/*.csv` 에서 읽은 판정: 일치 1155건 · 불일치 28건 · 확인불가 97건.
 아직 "일치" 판정이 없는 표본은 `data/cross-check-queue.csv` 에 모여 있습니다(교차 검수 담당에게 그대로 전달).

@@ -4601,42 +4601,6 @@
   },
   {
     "cityId": "krakow",
-    "nameKo": "오바지넥",
-    "nameEn": "Obwarzanek",
-    "reason": "크라쿠프 거리에서 파는 꼬인 고리 모양 빵",
-    "reasonEn": "Kraków ring bread",
-    "desc": {
-      "ko": "크라쿠프 거리에서 파는 꼬인 고리 모양 빵",
-      "en": "Twisted ring bread sold on Kraków streets",
-      "ja": "クラクフの街角で売られるねじれた輪のパン"
-    },
-    "budgetBand": "저",
-    "linkedPriceIds": [],
-    "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(관광청 출처 미확인)"
-  },
-  {
-    "cityId": "krakow",
-    "nameKo": "주레크",
-    "nameEn": "Żurek",
-    "reason": "발효 호밀 국물에 소시지·달걀을 넣은 수프",
-    "reasonEn": "Sour rye soup",
-    "desc": {
-      "ko": "발효 호밀 국물에 소시지·달걀을 넣은 수프",
-      "en": "Sour rye soup with sausage and egg",
-      "ja": "発酵ライ麦のスープにソーセージと卵を入れたもの"
-    },
-    "budgetBand": "저",
-    "linkedPriceIds": [],
-    "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(관광청 출처 미확인)"
-  },
-  {
-    "cityId": "krakow",
     "nameKo": "코틀레트 스하보비",
     "nameEn": "Kotlet schabowy",
     "reason": "폴란드식 돼지고기 돈가스",
@@ -4654,6 +4618,60 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "krakow",
+    "nameKo": "오브바자네크",
+    "nameEn": "Obwarzanek krakowski",
+    "reason": "14세기 기록에도 남은 크라쿠프의 상징인 고리 모양 빵",
+    "reasonEn": "Kraków ring bread",
+    "desc": {
+      "ko": "14세기 기록에도 남은 크라쿠프의 상징인 고리 모양 빵",
+      "en": "Kraków’s iconic ring bread, recorded since the 14th century",
+      "ja": "14世紀の記録にも残るクラクフ名物の輪のパン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Polska Travel",
+    "recommendUrl": "https://www.polska.travel/kuchnia-malopolski/",
+    "note": "관광청 공식 안내 기준(Claude 크롬 2026-10-16)"
+  },
+  {
+    "cityId": "krakow",
+    "nameKo": "마찬카",
+    "nameEn": "Maczanka krakowska",
+    "reason": "소스에 적신 빵에 고기를 끼운 크라쿠프 별미",
+    "reasonEn": "Pork in gravy-soaked bread",
+    "desc": {
+      "ko": "소스에 적신 빵에 고기를 끼운 크라쿠프 별미",
+      "en": "Bread soaked in gravy with sliced pork, a local favorite",
+      "ja": "ソースに浸したパンに肉を挟んだクラクフの名物"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Polska Travel",
+    "recommendUrl": "https://www.polska.travel/kuchnia-malopolski/",
+    "note": "관광청 공식 안내 기준(Claude 크롬 2026-10-16)"
+  },
+  {
+    "cityId": "krakow",
+    "nameKo": "크바시니차",
+    "nameEn": "Kwaśnica",
+    "reason": "훈제 고기·갈비로 끓인 사우어크라우트 수프",
+    "reasonEn": "Sauerkraut soup",
+    "desc": {
+      "ko": "훈제 고기·갈비로 끓인 사우어크라우트 수프",
+      "en": "Sauerkraut soup with smoked meat or ribs",
+      "ja": "燻製肉やスペアリブで作るザワークラウトのスープ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Polska Travel",
+    "recommendUrl": "https://www.polska.travel/kuchnia-malopolski/",
+    "note": "관광청 공식 안내 기준(Claude 크롬 2026-10-16)"
   },
   {
     "cityId": "kuala-lumpur",

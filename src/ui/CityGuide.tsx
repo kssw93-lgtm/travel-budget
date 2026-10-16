@@ -257,6 +257,12 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
   return (
     <>
       <section className="hero" data-testid="city-guide" data-city={city.id}>
+        <nav className="crumbs" aria-label={g.indexTitle}>
+          <InternalLink to={`/guides?lang=${lang}`} go={go}>
+            {g.indexTitle}
+          </InternalLink>{' '}
+          › <span>{countryName(city, lang)}</span>
+        </nav>
         <h1 tabIndex={-1}>{fmt(g.title, { city: name })}</h1>
         <p>{fmt(g.lead, { city: name, date: dataDate })}</p>
         <p>

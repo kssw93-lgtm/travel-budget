@@ -145,7 +145,7 @@ test.describe('SEO 메타', () => {
     }
     await mockRates(page);
     await page.goto('/about?lang=ko');
-    await expect(page).toHaveTitle('사이트 소개 — 여행 경비 계산기 — 현지 체류비 범위');
+    await expect(page).toHaveTitle('사이트 소개 — 여행 경비 계산기');
     await page.goto('/privacy?lang=en');
     await expect(page).toHaveTitle(/^Privacy Policy — /);
     await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', /[Pp]rivacy/);

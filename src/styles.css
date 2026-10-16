@@ -226,3 +226,4 @@ details:not([open]) > summary .toggle-hint .when-open, details[open] > summary .
 .guide-group + .guide-group { margin-top: 20px; }
 .guide-group h2 { font-size: 1rem; color: var(--muted); margin: 0 0 8px; }
 .country-notes .cautions li::marker { color: var(--err); }
+.crumbs { font-size: .9rem; color: var(--muted); margin: 0 0 6px; } .crumbs a { color: inherit; }

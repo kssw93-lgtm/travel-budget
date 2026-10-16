@@ -62,8 +62,8 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
           const contactL = { title: m.info.contactTitle, label: m.info.contactLabel, email };
           const info = [
             { file: 'index.html', path: '/', title: m.meta.title, description: m.meta.description, html: homeFallbackHtml(data, lang) },
-            { file: 'about.html', path: '/about', title: `${m.about.title} — ${m.meta.title}`, description: m.meta.aboutDescription, html: infoFallbackHtml(m.about, { cities: cities.map((c) => c.nameEn).join(', '), n: cities.length }, contactL) },
-            { file: 'privacy.html', path: '/privacy', title: `${m.privacy.title} — ${m.meta.title}`, description: m.meta.privacyDescription, html: infoFallbackHtml(m.privacy, { date: PRIVACY_EFFECTIVE }, contactL) },
+            { file: 'about.html', path: '/about', title: `${m.about.title} — ${m.meta.brand}`, description: m.meta.aboutDescription, html: infoFallbackHtml(m.about, { cities: cities.map((c) => c.nameEn).join(', '), n: cities.length }, contactL) },
+            { file: 'privacy.html', path: '/privacy', title: `${m.privacy.title} — ${m.meta.brand}`, description: m.meta.privacyDescription, html: infoFallbackHtml(m.privacy, { date: PRIVACY_EFFECTIVE }, contactL) },
           ];
           for (const p of info) {
             this.emitFile({ type: 'asset', fileName: `_l/${lang}/${p.file}`, source: pageHtml(index.source, { title: p.title, description: p.description, path: p.path, lang, ld: ld(p.title, p.description), fallbackHtml: p.html }, site) });

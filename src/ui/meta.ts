@@ -25,7 +25,7 @@ export function applyMeta(lang: Lang, route: Route, city?: City) {
     guides: t.cityGuide.indexTitle,
     guide: fmt(t.cityGuide.metaTitle, { city: name }),
   }[page];
-  const title = pageTitle ? `${pageTitle} — ${t.meta.title}` : t.meta.title;
+  const title = pageTitle ? `${pageTitle} — ${t.meta.brand}` : t.meta.title;
   const description = {
     calculator: t.meta.description,
     about: t.meta.aboutDescription,

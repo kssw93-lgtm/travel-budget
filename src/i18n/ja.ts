@@ -7,6 +7,7 @@ import type { Messages } from './ko';
 export const ja: Messages = {
   meta: {
     title: '旅行費用計算ツール — 現地滞在費の目安',
+    brand: '旅行費用計算ツール',
     description: '都市・日程・旅行スタイルを選ぶと、現地で使う費用の目安を最小〜最大の範囲でお知らせします。',
     aboutDescription: '旅行費用計算ツールで分かること、価格の調べ方、運営方針を紹介します。',
     privacyDescription: '旅行費用計算ツールのプライバシーポリシー：入力内容・ブラウザのストレージ・広告 Cookie の取り扱いについて。',
@@ -125,7 +126,7 @@ export const ja: Messages = {
     perDayShort: '1人1日 約{amount}',
     notComputable: '価格データを補強中',
     title: '{city}の旅行費用ガイド',
-    metaTitle: '{city}の旅行費用・現地の物価',
+    metaTitle: '{city}の旅行費用・物価と旅のヒント',
     metaDescription: '{city}の見どころと現地のコツ、観光施設の入場料、食べてみたい料理をまとめました。{city}の旅行費用は計算ツールですぐに試算できます。',
     lead: '{city}の見どころと現地のコツ、入場料、食べてみたい料理をまとめました。価格データの基準日：{date}',
     exampleTitle: '3泊4日の現地滞在費の目安（大人1人）',

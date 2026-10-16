@@ -2,6 +2,7 @@
 export const ko = {
   meta: {
     title: '여행 경비 계산기 — 현지 체류비 범위',
+    brand: '여행 경비 계산기',
     description: '도시·일정·여행 스타일을 고르면 현지에서 쓸 예상 경비를 최소~최대 범위로 알려드립니다.',
     aboutDescription: '여행 경비 계산기가 무엇을 알려 주는지, 가격을 어디서 조사하는지, 어떻게 운영되는지 소개합니다.',
     privacyDescription: '여행 경비 계산기의 개인정보처리방침: 입력값·브라우저 저장소·광고 쿠키 처리 안내.',
@@ -120,7 +121,7 @@ export const ko = {
     perDayShort: '1인 1일 약 {amount}',
     notComputable: '가격 자료 보강 중',
     title: '{city} 여행 경비 가이드',
-    metaTitle: '{city} 여행 경비·현지 물가',
+    metaTitle: '{city} 여행 경비·물가, 볼거리와 여행 팁',
     metaDescription: '{city}에서 꼭 볼 곳과 현지 팁, 관광지 입장료, 먹어 볼 음식을 정리했습니다. {city} 여행 경비는 계산기로 바로 계산해 볼 수 있습니다.',
     lead: '{city}에서 꼭 볼 곳과 현지 팁, 입장료·먹어 볼 음식을 모았습니다. 가격 자료 기준일 {date}.',
     exampleTitle: '3박 4일 예상 현지 체류비 (성인 1명)',

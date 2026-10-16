@@ -447,7 +447,7 @@ test.describe('도시 가이드', () => {
     await page.getByRole('link', { name: '파리 여행 경비 가이드' }).click();
     await expect(page).toHaveURL(/\/guide\/paris\?lang=ko$/);
     await expect(page.locator('main h1')).toHaveText('파리 여행 경비 가이드');
-    await expect(page).toHaveTitle(/^파리 여행 경비·현지 물가 — /);
+    await expect(page).toHaveTitle(/^파리 여행 경비·물가, 볼거리와 여행 팁 — 여행 경비 계산기$/);
     await expect(page.getByTestId('guide-attractions')).toContainText('에펠탑');
     // 위·아래 두 곳에 같은 버튼: 누르면 도시만 고른 계산기로 간다(일정은 사용자가 입력)
     await expect(page.getByRole('link', { name: '파리 여행 경비 계산해 보기' })).toHaveCount(2);
@@ -458,7 +458,7 @@ test.describe('도시 가이드', () => {
 
   test('정적 HTML 에 도시별 제목·본문이 있고, 없는 도시는 계산기로 간다', async ({ page, request }) => {
     const html = await (await request.get('/guide/osaka.html')).text();
-    expect(html).toContain('<title>오사카 여행 경비·현지 물가');
+    expect(html).toContain('<title>오사카 여행 경비·물가, 볼거리와 여행 팁 — 여행 경비 계산기</title>');
     expect(html).toContain('<h1>오사카 여행 경비 가이드</h1>');
     expect(html).toContain('오사카 여행 경비 계산해 보기');
     expect(html).toContain('오사카에서 놓치지 말 것');
@@ -473,7 +473,7 @@ test.describe('도시 가이드', () => {
     await page.goto('/guide/london?lang=ko');
     await page.getByRole('button', { name: 'English' }).click();
     await expect(page.locator('main h1')).toHaveText('London travel cost guide');
-    await expect(page).toHaveTitle(/^London travel costs & local prices/);
+    await expect(page).toHaveTitle(/^London travel costs, local prices & tips/);
     await expect(page).toHaveURL(/\/guide\/london\?lang=en$/);
   });
 
@@ -483,7 +483,7 @@ test.describe('도시 가이드', () => {
     await page.getByRole('button', { name: '日本語' }).click();
     await expect(page).toHaveURL(/\/guide\/tokyo\?lang=ja$/);
     await expect(page.locator('main h1')).toHaveText('東京の旅行費用ガイド');
-    await expect(page).toHaveTitle(/^東京の旅行費用・現地の物価/);
+    await expect(page).toHaveTitle(/^東京の旅行費用・物価と旅のヒント/);
     await expect(page.locator('html')).toHaveAttribute('lang', 'ja');
     await expect(page.getByTestId('guide-attractions')).toContainText('大人');
     // 일본어권 표기로 확인된 데이터 이름은 일본어로 보인다(음역 행은 영문)

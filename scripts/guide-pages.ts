@@ -82,7 +82,7 @@ export interface GuideData {
   updated: string;
 }
 
-const siteTitle = (lang: Lang) => MSG[lang].meta.title;
+const siteTitle = (lang: Lang) => MSG[lang].meta.brand;
 
 export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): PageMeta {
   const t = MSG[lang].cityGuide;
@@ -146,6 +146,7 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const borrowedNote = ownMeals ? '' : `        <p>${e(fill(s.borrowed, { city: name, country }))}</p>`;
 
   const fallbackHtml = [
+    `        <nav><a href="/guides?lang=${lang}">${e(t.indexTitle)}</a> › ${e(country)}</nav>`,
     `        <h1>${e(fill(t.title, { city: name }))}</h1>`,
     `        <p>${e(fill(t.lead, { city: name, date: d.updated }))}</p>`,
     cta,

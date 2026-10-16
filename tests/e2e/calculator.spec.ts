@@ -355,6 +355,7 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(notes).toContainText('도쿄에서 놓치지 말 것');
     await expect(notes).toContainText('센소지');
     await expect(notes).toContainText('도쿄 여행 팁');
+    await expect(notes).toContainText('도쿄 여행하기 좋은 시기');
     await expect(page.getByTestId('guide-example')).toHaveCount(0);
     await expect(page.getByTestId('price-guide')).toHaveCount(0);
     const country = page.getByTestId('guide-country');

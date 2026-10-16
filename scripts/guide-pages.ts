@@ -5,6 +5,7 @@
 import { cityGuide, guidePath } from '../src/core/guide';
 import { formatMoney } from '../src/core/money';
 import { CITY_GUIDES } from '../src/data/city-guides';
+import { CITY_SEASONS } from '../src/data/city-seasons';
 import { COUNTRY_GUIDES } from '../src/data/country-guides';
 import type { City, CityMemo, ExtraSample, FoodRecommendation, PriceSample, Range } from '../src/core/types';
 import { en } from '../src/i18n/en';
@@ -102,7 +103,8 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const note = CITY_GUIDES[city.id];
   const notes = note
     ? `        <h2>${e(fill(t.highlightsTitle, { city: name }))}</h2><ul>${note.highlights.map((h) => `<li><strong>${e(h.name[lang])}</strong> ${e(h.text[lang])}</li>`).join('')}</ul>` +
-      (note.tips.length ? `<h3>${e(fill(t.tipsTitle, { city: name }))}</h3><ul>${note.tips.map((x) => `<li>${e(x[lang])}</li>`).join('')}</ul>` : '')
+      (note.tips.length ? `<h3>${e(fill(t.tipsTitle, { city: name }))}</h3><ul>${note.tips.map((x) => `<li>${e(x[lang])}</li>`).join('')}</ul>` : '') +
+      (CITY_SEASONS[city.id] ? `<h3>${e(fill(t.seasonTitle, { city: name }))}</h3><p>${e(CITY_SEASONS[city.id]![IDX[lang]])} ${e(t.seasonHint)}</p>` : '')
     : '';
   const cn = COUNTRY_GUIDES[city.countryEn];
   const i = IDX[lang];

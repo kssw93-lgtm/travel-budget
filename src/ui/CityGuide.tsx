@@ -4,6 +4,7 @@ import { formatMoney } from '../core/money';
 import type { City, PriceSample } from '../core/types';
 import { cities, dataDate, dataMeta, extras, foods, memos, samples } from '../data';
 import { CITY_GUIDES } from '../data/city-guides';
+import { CITY_SEASONS } from '../data/city-seasons';
 import { COUNTRY_GUIDES } from '../data/country-guides';
 import { DEFAULT_CURRENCY, fmt, localName, useI18n, type Lang } from '../i18n';
 import { InternalLink, type Go } from './App';
@@ -131,6 +132,7 @@ function CityNotes({ city }: { city: City }) {
   const note = CITY_GUIDES[city.id];
   if (!note) return null;
   const name = cityName(city, lang);
+  const season = CITY_SEASONS[city.id];
   return (
     <section className="card prose city-notes" aria-labelledby="guide-notes-title" data-testid="guide-notes">
       <h2 id="guide-notes-title">{fmt(g.highlightsTitle, { city: name })}</h2>
@@ -149,6 +151,14 @@ function CityNotes({ city }: { city: City }) {
               <li key={tip.en}>{tip[lang]}</li>
             ))}
           </ul>
+        </>
+      )}
+      {season && (
+        <>
+          <h3>{fmt(g.seasonTitle, { city: name })}</h3>
+          <p data-testid="guide-season">
+            {season[lang === 'ko' ? 0 : lang === 'en' ? 1 : 2]} <small className="muted">{g.seasonHint}</small>
+          </p>
         </>
       )}
       {note.source && (

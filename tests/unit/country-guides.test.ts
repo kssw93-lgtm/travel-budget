@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { cities } from '../../src/data';
+import { CITY_SEASONS } from '../../src/data/city-seasons';
 import { COUNTRY_GUIDES } from '../../src/data/country-guides';
 
 describe('나라별 알아둘 것·조심할 것', () => {
@@ -14,6 +15,14 @@ describe('나라별 알아둘 것·조심할 것', () => {
         if (line[3]) expect(line[3], country).toMatch(/^https:\/\//);
         expect(line.slice(0, 3).join(' '), country).not.toMatch(/[$€£¥₩]\s?\d|\d\s?(원|円|달러|유로)/);
       }
+    }
+  });
+
+  it('공개된 모든 도시에 여행하기 좋은 시기 안내가 있다', () => {
+    for (const c of cities) {
+      const s = CITY_SEASONS[c.id];
+      expect(s, c.id).toBeDefined();
+      expect(s!.every((x) => x.length > 10), c.id).toBe(true);
     }
   });
 });

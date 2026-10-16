@@ -160,6 +160,8 @@ export const ja: Messages = {
     searchEmpty: '該当する都市がありません。別の名前で検索してください。',
     countryTipsTitle: '{country}旅行で知っておきたいこと',
     cautionsTitle: '{country}で注意したいこと',
+    seasonTitle: '{city}旅行のベストシーズン',
+    seasonHint: '天候は年によって異なるので、出発前に天気予報を確認してください。',
     sourceLink: '出典',
     countryNotesHint: '国全体に当てはまる一般的な案内です。入国規定や安全情報は出発前に外務省 海外安全ホームページなど公式情報を確認してください。',
   },

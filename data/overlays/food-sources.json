@@ -683,5 +683,85 @@
     "name": "Ulaanbaatar City Tourism Department",
     "url": "https://tourism.ub.gov.mn/wp-content/uploads/English01.pdf",
     "checkedAt": "2026-10-17"
+  },
+  "ulaanbaatar:Tsuivan": {
+    "name": "Visit Ulaanbaatar — Ulaanbaatar City Tourism Department",
+    "url": "https://visitulaanbaatar.net/storage/files/Guide%20book%2020211026.pdf",
+    "checkedAt": "2026-10-17"
+  },
+  "ulaanbaatar:Suutei tsai": {
+    "name": "Visit Ulaanbaatar — Ulaanbaatar City Tourism Department",
+    "url": "https://www.visitulaanbaatar.net/p/89",
+    "checkedAt": "2026-10-17"
+  },
+  "vancouver:BC Salmon": {
+    "name": "Destination Vancouver",
+    "url": "https://www.destinationvancouver.com/inspirations/food-and-drink/super-canadian-comfort-foods-and-where-you-can-eat-them",
+    "checkedAt": "2026-10-17"
+  },
+  "vancouver:Poutine": {
+    "name": "Destination Vancouver",
+    "url": "https://www.destinationvancouver.com/inspirations/food-and-drink/super-canadian-comfort-foods-and-where-you-can-eat-them",
+    "checkedAt": "2026-10-17"
+  },
+  "vancouver:Japadog": {
+    "name": "Destination Vancouver",
+    "url": "https://www.destinationvancouver.com/inspirations/food-and-drink/super-canadian-comfort-foods-and-where-you-can-eat-them",
+    "checkedAt": "2026-10-17"
+  },
+  "vancouver:BC Roll": {
+    "name": "Destination Vancouver",
+    "url": "https://www.destinationvancouver.com/inspirations/food-and-drink/10-canadian-foods-you-must-try-in-vancouver",
+    "checkedAt": "2026-10-17"
+  },
+  "vienna:Wiener Schnitzel": {
+    "name": "WienTourismus (vienna.info)",
+    "url": "https://www.wien.info/de/essen-trinken/wiener-kueche/rezepte/fleisch-fisch",
+    "checkedAt": "2026-10-17"
+  },
+  "vienna:Tafelspitz": {
+    "name": "WienTourismus (vienna.info)",
+    "url": "https://www.wien.info/de/essen-trinken/wiener-kueche/rezepte/fleisch-fisch",
+    "checkedAt": "2026-10-17"
+  },
+  "vienna:Wiener Saftgulasch": {
+    "name": "WienTourismus (vienna.info)",
+    "url": "https://www.wien.info/de/essen-trinken/wiener-kueche/rezepte/fleisch-fisch",
+    "checkedAt": "2026-10-17"
+  },
+  "vienna:Apfelstrudel": {
+    "name": "WienTourismus (vienna.info)",
+    "url": "https://www.wien.info/de/essen-trinken/wiener-kueche/rezepte",
+    "checkedAt": "2026-10-17"
+  },
+  "yeosu:Gejang Baekban": {
+    "name": "Yeosu City Tourism — Yeosu 10 Tastes",
+    "url": "https://www.yeosu.go.kr/tour/lodge_food/10tastes/gejang",
+    "checkedAt": "2026-10-17"
+  },
+  "yeosu:Gat Kimchi": {
+    "name": "Yeosu City Tourism — Yeosu 10 Tastes",
+    "url": "https://www.yeosu.go.kr/tour/lodge_food/10tastes/dolsan_gatkimchi",
+    "checkedAt": "2026-10-17"
+  },
+  "yeosu:Seodae-hoe": {
+    "name": "Yeosu City Tourism — Yeosu 10 Tastes",
+    "url": "https://www.yeosu.go.kr/tour/lodge_food/10tastes/seodaehoe",
+    "checkedAt": "2026-10-17"
+  },
+  "zagreb:Štrukli": {
+    "name": "Zagreb Tourist Board (Infozagreb)",
+    "url": "https://www.infozagreb.hr/en/about-zagreb/basic-facts",
+    "checkedAt": "2026-10-17"
+  },
+  "zagreb:Zagrebački odrezak": {
+    "name": "Zagreb Tourist Board (Infozagreb)",
+    "url": "https://www.infozagreb.hr/en/about-zagreb/basic-facts",
+    "checkedAt": "2026-10-17"
+  },
+  "zagreb:Purica s mlincima": {
+    "name": "Zagreb Tourist Board (Infozagreb)",
+    "url": "https://www.infozagreb.hr/en/about-zagreb/basic-facts",
+    "checkedAt": "2026-10-17"
   }
 }

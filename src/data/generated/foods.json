@@ -7016,6 +7016,12 @@
       "en": "Charcoal-grilled prawns, clams and squid in this beach city",
       "ja": "海辺の町らしく海老や貝、イカを炭火で焼く料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Grilled_shrimp.jpg/960px-Grilled_shrimp.jpg",
+      "author": "Baoothersks",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Grilled_shrimp.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7033,6 +7039,12 @@
       "ko": "병아리콩 가루로 얇게 구운 니스 전통 전병",
       "en": "Thin chickpea-flour pancake, a Nice classic",
       "ja": "ひよこ豆の粉で薄く焼いたニースの伝統料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Socca_a_Nice.jpg/960px-Socca_a_Nice.jpg",
+      "author": "Myrabella",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Socca_a_Nice.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -7052,6 +7064,12 @@
       "en": "Niçoise tart topped with slow-cooked onions",
       "ja": "じっくり炒めた玉ねぎをのせたニース風タルト"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Pan-bagnat%2C_socca_et_pissaladi%C3%A8re_ni%C3%A7ois.jpg/960px-Pan-bagnat%2C_socca_et_pissaladi%C3%A8re_ni%C3%A7ois.jpg",
+      "author": "Arnaud 25",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pan-bagnat%2C_socca_et_pissaladi%C3%A8re_ni%C3%A7ois.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7069,6 +7087,12 @@
       "ko": "신선한 채소·달걀·참치를 담은 니스 대표 샐러드",
       "en": "Nice’s signature salad of fresh vegetables, egg and tuna",
       "ja": "新鮮な野菜・卵・ツナのニースを代表するサラダ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Salade_Nicoise.jpg/960px-Salade_Nicoise.jpg",
+      "author": "Nelson Minar",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Salade_Nicoise.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -7088,6 +7112,12 @@
       "en": "Round bread filled with Niçoise salad",
       "ja": "ニース風サラダの具を丸パンに挟んだサンドイッチ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Pan-bagnat%2C_socca_et_pissaladi%C3%A8re_ni%C3%A7ois.jpg/960px-Pan-bagnat%2C_socca_et_pissaladi%C3%A8re_ni%C3%A7ois.jpg",
+      "author": "Arnaud 25",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pan-bagnat%2C_socca_et_pissaladi%C3%A8re_ni%C3%A7ois.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7105,6 +7135,12 @@
       "ko": "손가락만 한 뉘른베르크 구운 소시지로 사우어크라우트와 곁들임",
       "en": "Finger-sized grilled Nuremberg sausages with sauerkraut",
       "ja": "指ほどの大きさのニュルンベルク焼きソーセージ、ザワークラウト添え"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/N%C3%BCrnberger_Rostbratw%C3%BCrste.JPG/960px-N%C3%BCrnberger_Rostbratw%C3%BCrste.JPG",
+      "author": "Schlurcher",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:N%C3%BCrnberger_Rostbratw%C3%BCrste.JPG"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -7124,6 +7160,12 @@
       "en": "Nuremberg’s spiced honey gingerbread",
       "ja": "スパイスと蜂蜜を使ったニュルンベルク伝統の焼き菓子"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/N%C3%BCrnberger_Lebkuchen.jpg/960px-N%C3%BCrnberger_Lebkuchen.jpg",
+      "author": "Leon Brocard",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:N%C3%BCrnberger_Lebkuchen.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7141,6 +7183,12 @@
       "ko": "껍질이 바삭하게 구운 돼지 어깨살 요리",
       "en": "Roast pork shoulder with crackling skin",
       "ja": "皮をパリッと焼いた豚肩肉のロースト"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Sch%C3%A4ufele_with_crispy_crust_and_dumpling.jpg/960px-Sch%C3%A4ufele_with_crispy_crust_and_dumpling.jpg",
+      "author": "Burkhard Mücke",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sch%C3%A4ufele_with_crispy_crust_and_dumpling.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],
@@ -7282,6 +7330,12 @@
       "en": "Sweet sticky rice with coconut milk roasted in bamboo",
       "ja": "竹筒にもち米とココナッツミルクを入れて焼いたおやつ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Khao_lam87.jpg/960px-Khao_lam87.jpg",
+      "author": "Xufanc",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Khao_lam87.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7395,6 +7449,12 @@
       "ko": "야시장과 해변 식당에서 즐기는 성게·새우·조개 숯불구이",
       "en": "Charcoal-grilled sea urchin, prawns and clams at night markets and beach restaurants",
       "ja": "ナイトマーケットや浜辺の店で味わうウニや海老、貝の炭火焼き"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Grilled_squid.jpg/960px-Grilled_squid.jpg",
+      "author": "Baoothersks",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Grilled_squid.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -7654,6 +7714,12 @@
       "en": "Free-range Icelandic lamb, often served as soup",
       "ja": "放牧で育てたアイスランドの羊肉、スープでもよく食べる"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Kj%C3%B6ts%C3%BApa.JPG/960px-Kj%C3%B6ts%C3%BApa.JPG",
+      "author": "Ypsilon from Finland",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kj%C3%B6ts%C3%BApa.JPG"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [
       "REK-FD-103"
@@ -7674,6 +7740,12 @@
       "en": "Mild northern fish similar to salmon",
       "ja": "サーモンに似たあっさりした北の魚"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Arctic_charr_smoked_fillet.jpg/960px-Arctic_charr_smoked_fillet.jpg",
+      "author": "Yozh",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Arctic_charr_smoked_fillet.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7691,6 +7763,12 @@
       "ko": "꾸덕한 아이슬란드식 발효 유제품",
       "en": "Thick Icelandic cultured dairy",
       "ja": "濃厚なアイスランドの発酵乳製品"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Icelandic_Skyr.jpg/960px-Icelandic_Skyr.jpg",
+      "author": "IcelandicProvisions",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Icelandic_Skyr.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -7710,6 +7788,12 @@
       "en": "Dried fish eaten with butter",
       "ja": "バターを塗って食べる干し魚"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Har%C3%B0fiskur.jpg/960px-Har%C3%B0fiskur.jpg",
+      "author": "Richard Eriksson",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Har%C3%B0fiskur.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7728,6 +7812,12 @@
       "en": "Latvia’s classic dish of grey peas with bacon, served even at Christmas",
       "ja": "灰色エンドウ豆をベーコンと炒めた料理で、クリスマスの食卓にも並ぶラトビアの代表料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Grey_peas_at_restaurant_Milda_in_Riga.jpg/960px-Grey_peas_at_restaurant_Milda_in_Riga.jpg",
+      "author": "JIP",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Grey_peas_at_restaurant_Milda_in_Riga.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7745,6 +7835,12 @@
       "ko": "사워크림을 곁들여 먹는 라트비아식 감자전",
       "en": "Latvian potato pancakes served with sour cream",
       "ja": "サワークリームを添えて食べるラトビア風ポテトパンケーキ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Potato_Pancakes_with_Sour_Cream.jpg/960px-Potato_Pancakes_with_Sour_Cream.jpg",
+      "author": "HeatherMarieKosur",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Potato_Pancakes_with_Sour_Cream.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [
@@ -7766,6 +7862,12 @@
       "en": "A pink chilled soup Latvians crave in early summer",
       "ja": "初夏になると恋しくなるピンク色の冷たいスープ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Latvian_cold_borscht.jpg/960px-Latvian_cold_borscht.jpg",
+      "author": "Андрей Романенко",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Latvian_cold_borscht.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7784,6 +7886,12 @@
       "en": "Cheese with caraway seeds, a symbol of the Jāņi midsummer feast",
       "ja": "キャラウェイシード入りのチーズで、夏至祭ヤーニの象徴的な食べ物"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Caraway_cheese.jpg/960px-Caraway_cheese.jpg",
+      "author": "Xil",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Caraway_cheese.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7801,6 +7909,12 @@
       "ko": "쿠르제메 지방의 당근·감자 파이",
       "en": "A carrot and potato pie from the Kurzeme region",
       "ja": "クルゼメ地方のにんじんとじゃがいものパイ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ryga%2C_Sklandrausis.jpg/960px-Ryga%2C_Sklandrausis.jpg",
+      "author": "MOs810",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ryga%2C_Sklandrausis.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -7964,6 +8078,12 @@
       "en": "Finnish baked “bread cheese”, often with cloudberry jam",
       "ja": "焼いて食べるフィンランドの「パンチーズ」、クラウドベリージャム添え"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Leip%C3%A4juusto_cheese_with_cloudberry_jam.jpg/960px-Leip%C3%A4juusto_cheese_with_cloudberry_jam.jpg",
+      "author": "Teemu Rajala",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Leip%C3%A4juusto_cheese_with_cloudberry_jam.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7981,6 +8101,12 @@
       "ko": "연어와 감자를 크림 국물에 끓인 핀란드식 수프",
       "en": "Finnish creamy salmon and potato soup",
       "ja": "サーモンとじゃがいものクリームスープ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Lohikeitto.jpg/960px-Lohikeitto.jpg",
+      "author": "Tuijasal",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Lohikeitto.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -8074,6 +8200,12 @@
       "en": "Steamed coconut crab, a Mariana Islands delicacy",
       "ja": "ヤシガニを蒸して食べるマリアナ諸島の名物"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Coconut_Crabs_Ready_to_be_Eaten.jpg/960px-Coconut_Crabs_Ready_to_be_Eaten.jpg",
+      "author": "Dcubillas",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Coconut_Crabs_Ready_to_be_Eaten.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -8092,6 +8224,12 @@
       "en": "A light soufflé dessert shaped like Salzburg’s hills",
       "ja": "ザルツブルクの丘をかたどったふわふわのスフレ菓子"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Salzburger_Nockerln_in_Wien_7.JPG/960px-Salzburger_Nockerln_in_Wien_7.JPG",
+      "author": "Dr. Bernd Gross",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Salzburger_Nockerln_in_Wien_7.JPG"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -8109,6 +8247,12 @@
       "ko": "1890년 처음 만들어진 피스타치오 마지팬 초콜릿 과자",
       "en": "Pistachio-marzipan chocolate sweet first made in 1890",
       "ja": "1890年に生まれたピスタチオ入りマジパンのチョコ菓子"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Salzburger_Mozartkugel.jpg/960px-Salzburger_Mozartkugel.jpg",
+      "author": "JH1880",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Salzburger_Mozartkugel.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -9045,8 +9189,8 @@
       "ULN-FD-103"
     ],
     "priceStatus": "확정",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Ulaanbaatar — Ulaanbaatar City Tourism Department",
+    "recommendUrl": "https://visitulaanbaatar.net/storage/files/Guide%20book%2020211026.pdf",
     "note": "Claude 초안(2026-10-13)"
   },
   {
@@ -9071,8 +9215,8 @@
       "ULN-SN-102"
     ],
     "priceStatus": "확정",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Ulaanbaatar — Ulaanbaatar City Tourism Department",
+    "recommendUrl": "https://www.visitulaanbaatar.net/p/89",
     "note": "Claude 초안(2026-10-13)"
   },
   {
@@ -9095,8 +9239,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Destination Vancouver",
+    "recommendUrl": "https://www.destinationvancouver.com/inspirations/food-and-drink/super-canadian-comfort-foods-and-where-you-can-eat-them",
     "note": "Claude 초안(2026-10-13)"
   },
   {
@@ -9119,8 +9263,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Destination Vancouver",
+    "recommendUrl": "https://www.destinationvancouver.com/inspirations/food-and-drink/super-canadian-comfort-foods-and-where-you-can-eat-them",
     "note": "Claude 초안(2026-10-13)"
   },
   {
@@ -9143,8 +9287,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Destination Vancouver",
+    "recommendUrl": "https://www.destinationvancouver.com/inspirations/food-and-drink/super-canadian-comfort-foods-and-where-you-can-eat-them",
     "note": "Claude 초안(2026-10-13)"
   },
   {
@@ -9167,8 +9311,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Destination Vancouver",
+    "recommendUrl": "https://www.destinationvancouver.com/inspirations/food-and-drink/10-canadian-foods-you-must-try-in-vancouver",
     "note": "Claude 초안(2026-10-13)"
   },
   {
@@ -9263,8 +9407,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "WienTourismus (vienna.info)",
+    "recommendUrl": "https://www.wien.info/de/essen-trinken/wiener-kueche/rezepte/fleisch-fisch",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
@@ -9287,8 +9431,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "WienTourismus (vienna.info)",
+    "recommendUrl": "https://www.wien.info/de/essen-trinken/wiener-kueche/rezepte/fleisch-fisch",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
@@ -9311,8 +9455,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "WienTourismus (vienna.info)",
+    "recommendUrl": "https://www.wien.info/de/essen-trinken/wiener-kueche/rezepte/fleisch-fisch",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
@@ -9335,8 +9479,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "WienTourismus (vienna.info)",
+    "recommendUrl": "https://www.wien.info/de/essen-trinken/wiener-kueche/rezepte",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
@@ -9359,8 +9503,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Yeosu City Tourism — Yeosu 10 Tastes",
+    "recommendUrl": "https://www.yeosu.go.kr/tour/lodge_food/10tastes/gejang",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -9383,8 +9527,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Yeosu City Tourism — Yeosu 10 Tastes",
+    "recommendUrl": "https://www.yeosu.go.kr/tour/lodge_food/10tastes/dolsan_gatkimchi",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -9407,8 +9551,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Yeosu City Tourism — Yeosu 10 Tastes",
+    "recommendUrl": "https://www.yeosu.go.kr/tour/lodge_food/10tastes/seodaehoe",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -9425,8 +9569,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Zagreb Tourist Board (Infozagreb)",
+    "recommendUrl": "https://www.infozagreb.hr/en/about-zagreb/basic-facts",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -9443,8 +9587,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Zagreb Tourist Board (Infozagreb)",
+    "recommendUrl": "https://www.infozagreb.hr/en/about-zagreb/basic-facts",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -9461,8 +9605,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Zagreb Tourist Board (Infozagreb)",
+    "recommendUrl": "https://www.infozagreb.hr/en/about-zagreb/basic-facts",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {

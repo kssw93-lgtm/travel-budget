@@ -128,5 +128,290 @@
     "name": "Visit Alsace (Alsace Regional Tourism Committee)",
     "url": "https://pro.visit.alsace/plaisirs-culinaires-en-alsace/",
     "checkedAt": "2026-10-17"
+  },
+  "colmar:Kougelhopf": {
+    "name": "Visit Alsace",
+    "url": "https://pro.visit.alsace/plaisirs-culinaires-en-alsace/",
+    "checkedAt": "2026-10-17"
+  },
+  "copenhagen:Smørrebrød": {
+    "name": "VisitDenmark / VisitCopenhagen",
+    "url": "https://www.visitdenmark.com/denmark/destinations/copenhagen/restaurants",
+    "checkedAt": "2026-10-17"
+  },
+  "copenhagen:Wienerbrød": {
+    "name": "VisitDenmark / VisitCopenhagen",
+    "url": "https://www.visitdenmark.com/denmark/destinations/copenhagen/restaurants",
+    "checkedAt": "2026-10-17"
+  },
+  "copenhagen:Pølse": {
+    "name": "VisitDenmark / VisitCopenhagen",
+    "url": "https://www.visitdenmark.com/denmark/destinations/copenhagen/restaurants",
+    "checkedAt": "2026-10-17"
+  },
+  "dubai:Shawarma": {
+    "name": "Visit Dubai",
+    "url": "https://www.visitdubai.com/en/articles/top-arabic-food-to-try-in-dubai",
+    "checkedAt": "2026-10-17"
+  },
+  "dubai:Al Machboos": {
+    "name": "Visit Dubai",
+    "url": "https://www.visitdubai.com/en/articles/cultural-and-traditional-festivals-in-dubai",
+    "checkedAt": "2026-10-17"
+  },
+  "dubai:Luqaimat": {
+    "name": "Visit Dubai",
+    "url": "https://www.visitdubai.com/en/articles/top-arabic-food-to-try-in-dubai",
+    "checkedAt": "2026-10-17"
+  },
+  "dublin:Irish stew": {
+    "name": "Ireland.com (관광청 공식 사이트)",
+    "url": "https://www.ireland.com/en/magazine/food-and-drink/traditional-irish-food/",
+    "checkedAt": "2026-10-17"
+  },
+  "dublin:Dublin coddle": {
+    "name": "Ireland.com (관광청 공식 사이트)",
+    "url": "https://www.ireland.com/en/magazine/food-and-drink/traditional-irish-food/",
+    "checkedAt": "2026-10-17"
+  },
+  "dublin:Boxty": {
+    "name": "Ireland.com (관광청 공식 사이트)",
+    "url": "https://www.ireland.com/en/magazine/food-and-drink/traditional-irish-food/",
+    "checkedAt": "2026-10-17"
+  },
+  "fukuoka:Hakata Tonkotsu Ramen": {
+    "name": "FUKUOKA CITY Official Tourist Guide",
+    "url": "https://gofukuoka.jp/en/articles/detail/5752bfdd-ed6f-41a6-b145-f69e3861692e",
+    "checkedAt": "2026-10-17"
+  },
+  "fukuoka:Motsunabe": {
+    "name": "FUKUOKA CITY Official Tourist Guide",
+    "url": "https://gofukuoka.jp/ko/articles/detail/c3b1bc9b-d80b-4502-a68d-560213256423",
+    "checkedAt": "2026-10-17"
+  },
+  "fukuoka:Mentaiko": {
+    "name": "FUKUOKA CITY Official Tourist Guide",
+    "url": "https://gofukuoka.jp/en/articles/detail/5752bfdd-ed6f-41a6-b145-f69e3861692e",
+    "checkedAt": "2026-10-17"
+  },
+  "fukuoka:Gobo-ten Udon": {
+    "name": "FUKUOKA CITY Official Tourist Guide",
+    "url": "https://www.gofukuoka.jp/ko/articles/detail/b5030679-6744-4a4a-9c4e-9887b0b780fc",
+    "checkedAt": "2026-10-17"
+  },
+  "fukuoka:Mizutaki": {
+    "name": "FUKUOKA CITY Official Tourist Guide",
+    "url": "https://gofukuoka.jp/ko/articles/detail/c3b1bc9b-d80b-4502-a68d-560213256423",
+    "checkedAt": "2026-10-17"
+  },
+  "gangneung:Chodang Sundubu": {
+    "name": "한국관광공사 VISITKOREA",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=219&vcontsId=1591437",
+    "checkedAt": "2026-10-17"
+  },
+  "gangneung:Gamja Ongsimi": {
+    "name": "한국관광공사 VISITKOREA",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=219&vcontsId=1591437",
+    "checkedAt": "2026-10-17"
+  },
+  "gangneung:Anmok Coffee Street Coffee": {
+    "name": "한국관광공사 VISITKOREA",
+    "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=351&vcontsId=66485",
+    "checkedAt": "2026-10-17"
+  },
+  "guam:Chamorro BBQ": {
+    "name": "Guam Visitors Bureau (Visit Guam)",
+    "url": "https://www.visitguam.com/about-guam/",
+    "checkedAt": "2026-10-17"
+  },
+  "guam:Red Rice": {
+    "name": "Guam Visitors Bureau (Visit Guam)",
+    "url": "https://www.visitguam.com/about-guam/",
+    "checkedAt": "2026-10-17"
+  },
+  "guam:Kelaguen": {
+    "name": "Guam Visitors Bureau (Visit Guam)",
+    "url": "https://www.visitguam.com/about-guam/",
+    "checkedAt": "2026-10-17"
+  },
+  "gyeongju:Gyori Gimbap": {
+    "name": "경주문화관광(경주시)",
+    "url": "https://www.gyeongju.go.kr/tour/page.do?cmd=2&con_uid=1717&listType=list&mnu_uid=2501&pageNo=4&sortKwd=name&srchKwd=",
+    "checkedAt": "2026-10-17"
+  },
+  "gyeongju:Hwangnam-ppang": {
+    "name": "VISIT GYEONGJU (경주 관광 공식 사이트)",
+    "url": "https://visitgyeongju.or.kr/kr/tema/view/535f414907010a450b420143425145404f",
+    "checkedAt": "2026-10-17"
+  },
+  "hanoi:Bun Cha": {
+    "name": "Vietnam Tourism (관광청 공식 사이트)",
+    "url": "https://vietnam.travel/node/1305",
+    "checkedAt": "2026-10-17"
+  },
+  "hanoi:Pho Bo": {
+    "name": "Vietnam Tourism (관광청 공식 사이트)",
+    "url": "https://vietnam.travel/node/1305",
+    "checkedAt": "2026-10-17"
+  },
+  "hanoi:Egg Coffee": {
+    "name": "Vietnam Tourism (관광청 공식 사이트)",
+    "url": "https://vietnam.travel/node/1305",
+    "checkedAt": "2026-10-17"
+  },
+  "ho-chi-minh-city:Com Tam": {
+    "name": "Visit HCMC (호치민시 관광홍보센터)",
+    "url": "https://visithcmc.vn/vi/chao-mung-den-voi-thanh-pho-ho-chi-minh/",
+    "checkedAt": "2026-10-17"
+  },
+  "ho-chi-minh-city:Banh Mi": {
+    "name": "Visit HCMC (호치민시 관광홍보센터)",
+    "url": "https://visithcmc.vn/vi/chao-mung-den-voi-thanh-pho-ho-chi-minh/",
+    "checkedAt": "2026-10-17"
+  },
+  "ho-chi-minh-city:Hu Tieu": {
+    "name": "Visit HCMC (호치민시 관광홍보센터)",
+    "url": "https://visithcmc.vn/vi/an-uong-nhu-nguoi-sai-gon/",
+    "checkedAt": "2026-10-17"
+  },
+  "hong-kong:Wonton Noodles": {
+    "name": "Hong Kong Tourism Board",
+    "url": "https://www.discoverhongkong.com/eng/tours/central-sheung-wan-foodie-tour.html",
+    "checkedAt": "2026-10-17"
+  },
+  "hong-kong:Char Siu Rice": {
+    "name": "Hong Kong Tourism Board",
+    "url": "https://www.discoverhongkong.com/eng/tours/central-sheung-wan-foodie-tour.html",
+    "checkedAt": "2026-10-17"
+  },
+  "hong-kong:Dim Sum": {
+    "name": "Hong Kong Tourism Board",
+    "url": "https://www.discoverhongkong.com/eng/food-and-drink/a-beginner-s-guide-to-dim-sum-must-order-dishes.html",
+    "checkedAt": "2026-10-17"
+  },
+  "hong-kong:Egg Tart": {
+    "name": "Hong Kong Tourism Board",
+    "url": "https://www.discoverhongkong.com/eng/tours/central-sheung-wan-foodie-tour.html",
+    "checkedAt": "2026-10-17"
+  },
+  "honolulu:Loco Moco": {
+    "name": "Hawaiʻi Tourism Authority (Go Hawaii)",
+    "url": "https://www.gohawaii.com/culinary-experiences-in-hawaii",
+    "checkedAt": "2026-10-17"
+  },
+  "honolulu:Plate Lunch": {
+    "name": "Hawaiʻi Tourism Authority (Go Hawaii)",
+    "url": "https://www.gohawaii.com/culinary-experiences-in-hawaii",
+    "checkedAt": "2026-10-17"
+  },
+  "honolulu:Poke": {
+    "name": "Hawaiʻi Tourism Authority (Go Hawaii)",
+    "url": "https://www.gohawaii.com/culinary-experiences-in-hawaii",
+    "checkedAt": "2026-10-17"
+  },
+  "honolulu:Malasada": {
+    "name": "Hawaiʻi Tourism Authority (Go Hawaii)",
+    "url": "https://www.gohawaii.com/culinary-experiences-in-hawaii",
+    "checkedAt": "2026-10-17"
+  },
+  "incheon:Jajangmyeon": {
+    "name": "인천투어 (인천관광공사)",
+    "url": "https://itour.incheon.go.kr/thmtour/rcmdtour/detail.do?cotId=ITA21122411073034700",
+    "checkedAt": "2026-10-17"
+  },
+  "incheon:Jjolmyeon": {
+    "name": "인천투어 (인천관광공사)",
+    "url": "https://itour.incheon.go.kr/thmtour/rcmdtour/detail.do?cotId=ITA21122411073034700",
+    "checkedAt": "2026-10-17"
+  },
+  "incheon:Dakgangjeong": {
+    "name": "인천광역시 보도자료",
+    "url": "https://press.incheon.go.kr/citynet/jsp/sap/SAPNewsBizProcess.do?command=searchDetailSvp&flag=&matOfYmd=20190917&matSno=6&sido=&viFlag=in",
+    "checkedAt": "2026-10-17"
+  },
+  "interlaken:Cheese fondue": {
+    "name": "Switzerland Tourism",
+    "url": "https://www.myswitzerland.com/en-gb/planning/about-switzerland/custom-and-tradition/typical-food/",
+    "checkedAt": "2026-10-17"
+  },
+  "interlaken:Raclette": {
+    "name": "Switzerland Tourism",
+    "url": "https://www.myswitzerland.com/en-gb/planning/about-switzerland/custom-and-tradition/typical-food/",
+    "checkedAt": "2026-10-17"
+  },
+  "interlaken:Rösti": {
+    "name": "Switzerland Tourism",
+    "url": "https://www.myswitzerland.com/en-gb/planning/about-switzerland/custom-and-tradition/typical-food/",
+    "checkedAt": "2026-10-17"
+  },
+  "interlaken:Älplermagronen": {
+    "name": "Switzerland Tourism",
+    "url": "https://www.myswitzerland.com/en-gb/planning/about-switzerland/custom-and-tradition/typical-food/",
+    "checkedAt": "2026-10-17"
+  },
+  "jeonju:Jeonju Bibimbap": {
+    "name": "전주시 관광 공식 사이트",
+    "url": "https://tour.jeonju.go.kr/eng/board/view.jeonju?boardId=BBS_0000025&dataSid=16441&menuCd=DOM_000000209001000000&paging=ok&startPage=1",
+    "checkedAt": "2026-10-17"
+  },
+  "jeonju:Kongnamul Gukbap": {
+    "name": "전주시 관광 공식 사이트",
+    "url": "https://tour.jeonju.go.kr/eng/board/view.jeonju?boardId=BBS_0000025&dataSid=16441&menuCd=DOM_000000209001000000&paging=ok&startPage=1",
+    "checkedAt": "2026-10-17"
+  },
+  "jeonju:Jeonju Choco Pie": {
+    "name": "전주시 관광 공식 사이트",
+    "url": "https://tour.jeonju.go.kr/eng/board/view.jeonju?boardId=BBS_0000025&dataSid=16441&menuCd=DOM_000000209001000000&paging=ok&startPage=1",
+    "checkedAt": "2026-10-17"
+  },
+  "krakow:Pierogi": {
+    "name": "Kraków City Office (Culinary Kraków)",
+    "url": "https://culinary.krakow.pl/culinary_krakow/226262%2C2058%2Ckomunikat%2Cpierogi__steak_tartare_and_zurek___a_handful_of_classics.html",
+    "checkedAt": "2026-10-17"
+  },
+  "krakow:Kotlet schabowy": {
+    "name": "Kraków City Office (Culinary Kraków)",
+    "url": "https://culinary.krakow.pl/culinary_krakow/226262%2C2058%2Ckomunikat%2Cpierogi__steak_tartare_and_zurek___a_handful_of_classics.html",
+    "checkedAt": "2026-10-17"
+  },
+  "kuala-lumpur:Nasi Lemak": {
+    "name": "Tourism Malaysia",
+    "url": "https://ebrochures.malaysia.travel/en/kuala-lumpur/45-49-eating-out/",
+    "checkedAt": "2026-10-17"
+  },
+  "kuala-lumpur:Char Kway Teow": {
+    "name": "Tourism Malaysia",
+    "url": "https://ebrochures.malaysia.travel/en/kuala-lumpur/45-49-eating-out/",
+    "checkedAt": "2026-10-17"
+  },
+  "kuala-lumpur:Satay": {
+    "name": "Tourism Malaysia",
+    "url": "https://ebrochures.malaysia.travel/en/kuala-lumpur/45-49-eating-out/",
+    "checkedAt": "2026-10-17"
+  },
+  "kuala-lumpur:Roti Canai": {
+    "name": "Tourism Malaysia",
+    "url": "https://ebrochures.malaysia.travel/en/kuala-lumpur/45-49-eating-out/",
+    "checkedAt": "2026-10-17"
+  },
+  "kyoto:Yudofu": {
+    "name": "Kyoto City Official Travel Guide",
+    "url": "https://kyoto.travel/en/food-and-drink/",
+    "checkedAt": "2026-10-17"
+  },
+  "kyoto:Nishin Soba": {
+    "name": "Kyoto City Official Travel Guide",
+    "url": "https://kyoto.travel/en/restaurants/39.html",
+    "checkedAt": "2026-10-17"
+  },
+  "kyoto:Matcha Sweets": {
+    "name": "Kyoto City Official Travel Guide",
+    "url": "https://kyoto.travel/en/see-and-do/foodculture.html",
+    "checkedAt": "2026-10-17"
+  },
+  "lisbon:Pastel de nata": {
+    "name": "Visit Lisboa",
+    "url": "https://www.visitlisboa.com/pt-pt/p/lisbon-flavours/especialidades/pastel-de-nata",
+    "checkedAt": "2026-10-17"
   }
 }

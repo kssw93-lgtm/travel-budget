@@ -9,6 +9,7 @@ import { CHRISTMAS_MARKETS } from '../src/data/christmas-markets';
 import { CITY_INTROS } from '../src/data/city-intros';
 import { CITY_SEASONS } from '../src/data/city-seasons';
 import { CITY_WHEN } from '../src/data/city-when';
+import { GUIDE_SOURCES } from '../src/data/city-guide-sources';
 import { COUNTRY_GUIDES } from '../src/data/country-guides';
 import type { City, CityMemo, ExtraSample, FoodRecommendation, PriceSample, Range } from '../src/core/types';
 import { en } from '../src/i18n/en';
@@ -107,8 +108,9 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const description = `${lead} ${facts.length ? fill(s.descTail, { facts: facts.join(', ') }) : ''}`.trim();
 
   const note = CITY_GUIDES[city.id];
+  const srcLink = (url?: string) => (url ? ` <small><a href="${e(url)}" rel="noopener">${e(t.sourceLink)}</a></small>` : '');
   const sights = note
-    ? `        <h2>${e(fill(t.highlightsTitle, { city: name }))}</h2><ol>${note.highlights.map((h) => `<li><strong>${e(h.name[lang])}</strong> ${e(h.text[lang])}</li>`).join('')}</ol>`
+    ? `        <h2>${e(fill(t.highlightsTitle, { city: name }))}</h2><ol>${note.highlights.map((h, k) => `<li><strong>${e(h.name[lang])}</strong> ${e(h.text[lang])}${srcLink(GUIDE_SOURCES[`${city.id}:h${k + 1}`])}</li>`).join('')}</ol>`
     : '';
   const xm = CHRISTMAS_MARKETS[city.id];
   const xmas = xm
@@ -130,7 +132,7 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
         `<p>${e(t.seasonHint)}</p>`
       : '';
   const cityTips =
-    (note?.tips.length ? `<h3>${e(fill(t.tipsTitle, { city: name }))}</h3><ul>${note.tips.map((x) => `<li>${e(x[lang])}</li>`).join('')}</ul>` : '');
+    (note?.tips.length ? `<h3>${e(fill(t.tipsTitle, { city: name }))}</h3><ul>${note.tips.map((x, k) => `<li>${e(x[lang])}${srcLink(GUIDE_SOURCES[`${city.id}:t${k + 1}`])}</li>`).join('')}</ul>` : '');
   const cn = COUNTRY_GUIDES[city.countryEn];
   const i = IDX[lang];
   const item = (x: readonly [string, string, string, string?]) => `<li>${e(x[i])}${x[3] ? ` <small><a href="${e(x[3])}" rel="noopener">${e(t.sourceLink)}</a></small>` : ''}</li>`;

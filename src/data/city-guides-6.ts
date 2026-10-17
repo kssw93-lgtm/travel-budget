@@ -26,9 +26,9 @@ export const NOTES_6: Record<string, Compact> = {
   },
   singapore: {
     h: [
-      ['가든스 바이 더 베이', 'Gardens by the Bay', 'ガーデンズ・バイ・ザ・ベイ', '거대한 인공 나무(슈퍼트리)에 저녁마다 무료 조명 쇼가 열립니다.', 'The Supertrees host a free light show every evening.', '巨大な人工樹スーパーツリーで毎晩無料のライトショーがあります。'],
+      ['가든스 바이 더 베이', 'Gardens by the Bay', 'ガーデンズ・バイ・ザ・ベイ', '해가 진 뒤 거대한 인공 나무(슈퍼트리) 숲에서 빛과 음악 쇼 「가든 랩소디」가 매일 무료로 열립니다.', 'After dusk the Supertree Grove hosts Garden Rhapsody, a free nightly light-and-sound show.', '日没後、スーパーツリー・グローブで光と音のショー「ガーデン・ラプソディ」が毎日無料で開かれます。'],
       ['마리나 베이', 'Marina Bay', 'マリーナ・ベイ', '마리나 베이 샌즈와 멀라이언 공원이 모인 항만 지역입니다.', 'The bay with Marina Bay Sands and the Merlion.', 'マリーナベイ・サンズとマーライオンが集まる湾岸エリアです。'],
-      ['호커 센터', 'Hawker centres', 'ホーカーセンター', '치킨라이스·락사 등을 저렴하게 먹을 수 있는 노천 푸드코트입니다.', 'Open-air food courts for chicken rice, laksa and more.', 'チキンライスやラクサを手頃に食べられる屋台村です。'],
+      ['호커 센터', 'Hawker centres', 'ホーカーセンター', '치킨라이스·락사 등 싱가포르 음식을 저렴하게 맛볼 수 있는 음식점 구역입니다.', 'Hawker food halls for affordable Singaporean dishes such as chicken rice and laksa.', 'チキンライスやラクサなどシンガポール料理を手頃に味わえる屋台街です。'],
     ],
     t: [
       ['호커 센터에서는 휴지 한 묶음을 자리에 올려 두면 자리를 맡았다는 표시입니다.', 'A packet of tissues on a hawker-centre seat means it is taken.', 'ホーカーセンターで席にティッシュを置くのは「席取り」の印です。'],

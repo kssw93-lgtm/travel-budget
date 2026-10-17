@@ -42,7 +42,7 @@ export const NOTES_2: Record<string, Compact> = {
       ['차모로 빌리지 야시장', 'Chamorro Village Night Market', 'チャモロ・ビレッジ・ナイトマーケット', '수요일 저녁에 열리는 야시장. 차모로 바비큐를 맛볼 수 있습니다.', 'The Wednesday evening market for Chamorro barbecue and crafts.', '水曜の夜に開かれる市場。チャモロ料理のバーベキューが味わえます。'],
     ],
     t: [
-      ['대중교통이 적어 렌터카를 빌리는 여행자가 많습니다. 운전은 오른쪽 차선입니다.', 'Public transport is limited, so many visitors rent a car; driving is on the right.', '公共交通が少ないためレンタカー利用が多く、右側通行です。'],
+      ['GMTA 버스 노선이 있지만 렌터카로 다니는 여행자가 많습니다. 운전은 오른쪽 차선이고, 버스 운행 정보는 미리 확인하세요.', 'GMTA buses run on Guam, but many visitors rent a car; driving is on the right, and check bus schedules in advance.', 'GMTAのバス路線がありますが、レンタカーで回る旅行者が多いです。右側通行で、バスの運行情報は事前に確認を。'],
       ['미국령이라 식당 메뉴 가격에 팁이 포함되지 않은 경우가 많습니다.', 'As a US territory, menu prices usually exclude the tip.', 'アメリカ領のため、メニュー価格にチップは含まれないことが多いです。'],
     ],
   },

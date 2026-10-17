@@ -103,7 +103,7 @@ export const NOTES_3: Record<string, Compact> = {
   },
   saipan: {
     h: [
-      ['마나가하 섬', 'Managaha Island', 'マニャガハ島', '배로 금방 가는 작은 섬. 맑은 물에서 스노클링을 즐깁니다.', 'A small island a short boat ride away, great for snorkelling.', '船ですぐ行ける小さな島。透明な海でシュノーケリングが楽しめます。'],
+      ['마나가하 섬', 'Managaha Island', 'マニャガハ島', '배로 금방 가는 작은 섬으로, 보전구역의 맑은 물과 산호초에서 스노클링을 즐깁니다.', 'A small island a short boat ride away, with clear water and coral reefs in a conservation area — great for snorkelling.', '船ですぐ行ける小さな島で、保護区の澄んだ海とサンゴ礁でシュノーケリングが楽しめます。'],
       ['그로토', 'The Grotto', 'グロット', '바다와 연결된 석회암 동굴 다이빙 명소입니다.', 'A limestone sea cave famous among divers.', '海とつながる石灰岩の洞窟で、ダイビングの名所です。'],
       ['만세 절벽', 'Banzai Cliff', 'バンザイクリフ', '태평양 전쟁의 역사가 남은 섬 북쪽 절벽입니다.', 'The northern cliffs marked by Pacific War history.', '太平洋戦争の歴史が残る島北部の断崖です。'],
     ],

@@ -5,6 +5,7 @@ import type { City, PriceSample } from '../core/types';
 import { cities, dataDate, dataMeta, extras, foods, memos, samples } from '../data';
 import { CITY_GUIDES } from '../data/city-guides';
 import { CHRISTMAS_MARKETS } from '../data/christmas-markets';
+import { GUIDE_SOURCES } from '../data/city-guide-sources';
 import { CITY_INTROS } from '../data/city-intros';
 import { CITY_SEASONS } from '../data/city-seasons';
 import { CITY_WHEN } from '../data/city-when';
@@ -117,9 +118,10 @@ function Highlights({ city }: { city: City }) {
     <section id="sights" className="card prose city-notes" aria-labelledby="guide-notes-title" data-testid="guide-notes">
       <h2 id="guide-notes-title">{fmt(g.highlightsTitle, { city: cityName(city, lang) })}</h2>
       <ol className="highlights">
-        {note.highlights.map((h) => (
+        {note.highlights.map((h, k) => (
           <li key={h.name.en}>
             <strong>{h.name[lang]}</strong> {h.text[lang]}
+            <SourceLink url={GUIDE_SOURCES[`${city.id}:h${k + 1}`]} />
           </li>
         ))}
       </ol>
@@ -129,6 +131,20 @@ function Highlights({ city }: { city: City }) {
         </p>
       )}
     </section>
+  );
+}
+
+/** 항목 끝에 붙는 작은 「근거」 링크(확인된 항목만) */
+function SourceLink({ url }: { url?: string }) {
+  const { t } = useI18n();
+  if (!url) return null;
+  return (
+    <>
+      {' '}
+      <small>
+        <ExternalLink href={url}>{t.cityGuide.sourceLink}</ExternalLink>
+      </small>
+    </>
   );
 }
 
@@ -254,8 +270,11 @@ function TipsAndCautions({ city }: { city: City }) {
         <>
           <h3>{fmt(g.tipsTitle, { city: name })}</h3>
           <ul>
-            {note.tips.map((tip) => (
-              <li key={tip.en}>{tip[lang]}</li>
+            {note.tips.map((tip, k) => (
+              <li key={tip.en}>
+                {tip[lang]}
+                <SourceLink url={GUIDE_SOURCES[`${city.id}:t${k + 1}`]} />
+              </li>
             ))}
           </ul>
         </>

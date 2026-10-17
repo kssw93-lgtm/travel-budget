@@ -376,6 +376,8 @@ function main() {
   // 음식 추천
   const overlay = JSON.parse(readFileSync(`${root}/data/overlays/food-reasons-en.json`, 'utf8')) as Record<string, string>;
   const foodLinks = JSON.parse(readFileSync(`${root}/data/overlays/food-links.json`, 'utf8')) as Record<string, string[]>;
+  // 추천 출처가 비어 있는 음식에 GPT 가 확인한 관광청 안내(scripts/import-food-sources.ts 로 합침)
+  const foodSources = JSON.parse(readFileSync(`${root}/data/overlays/food-sources.json`, 'utf8')) as Record<string, { name: string; url: string }>;
   // 한 줄 설명(무슨 음식인지)·사진. 사진은 자유 이용 허락 라이선스·위키미디어 원본만 받는다
   const foodInfo = JSON.parse(readFileSync(`${root}/data/overlays/food-info.json`, 'utf8')) as Record<string, FoodInfo>;
   const FREE_LICENSE = /^(CC0|Public domain|CC BY(-SA)? [1-4]\.[0-5])/i;
@@ -388,6 +390,7 @@ function main() {
     for (const id of linked) if (!ids.has(id)) errors.push(`음식 '${r('음식(한글)')}': 연결 가격 ID '${id}' 없음`);
     const reasonEn = overlay[`${city.id}:${r('Food')}`];
     const info = foodInfo[`${city.id}:${r('Food')}`];
+    const extraSource = r('출처 URL') ? undefined : foodSources[`${city.id}:${r('Food')}`];
     if (!info) notes.push(`음식 설명 없음: ${city.id}:${r('Food')}`);
     const photo = info?.photo;
     if (photo && (!/^https:\/\/upload\.wikimedia\.org\//.test(photo.url) || !FREE_LICENSE.test(photo.license) || !photo.author || !photo.page)) {
@@ -407,8 +410,8 @@ function main() {
       budgetBand: r('예산대'),
       linkedPriceIds: linked,
       priceStatus: r('가격조사 상태'),
-      recommendSource: r('추천 출처'),
-      recommendUrl: r('출처 URL'),
+      recommendSource: extraSource?.name ?? r('추천 출처'),
+      recommendUrl: extraSource?.url ?? r('출처 URL'),
       note: r('비고'),
     };
   });

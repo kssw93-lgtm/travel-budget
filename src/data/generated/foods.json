@@ -1572,8 +1572,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "100% Pure New Zealand (Tourism New Zealand)",
+    "recommendUrl": "https://www.newzealand.com/uk/feature/favourite-new-zealand-foods/",
     "note": "Claude 초안(2026-10-13)"
   },
   {
@@ -1596,8 +1596,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "100% Pure New Zealand (Tourism New Zealand)",
+    "recommendUrl": "https://www.newzealand.com/uk/feature/favourite-new-zealand-foods/",
     "note": "Claude 초안(2026-10-13)"
   },
   {
@@ -1620,8 +1620,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "100% Pure New Zealand (Tourism New Zealand)",
+    "recommendUrl": "https://www.newzealand.com/uk/feature/favourite-new-zealand-foods/",
     "note": "Claude 초안(2026-10-13)"
   },
   {
@@ -1644,8 +1644,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "100% Pure New Zealand (Tourism New Zealand)",
+    "recommendUrl": "https://www.newzealand.com/uk/feature/favourite-new-zealand-foods/",
     "note": "Claude 초안(2026-10-13)"
   },
   {
@@ -1668,8 +1668,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Indonesia Travel (인도네시아 관광부)",
+    "recommendUrl": "https://www.indonesia.travel/id/id/travel-ideas/gastronomy/10-iconic-cuisine-s-that-you-must-try-on-your-next-visit-to-bali",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -1692,8 +1692,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Indonesia Travel (인도네시아 관광부)",
+    "recommendUrl": "https://www.indonesia.travel/id/id/travel-ideas/gastronomy/10-iconic-cuisine-s-that-you-must-try-on-your-next-visit-to-bali",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -1716,8 +1716,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Indonesia Travel (인도네시아 관광부)",
+    "recommendUrl": "https://www.indonesia.travel/id/id/travel-ideas/gastronomy/10-iconic-cuisine-s-that-you-must-try-on-your-next-visit-to-bali",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -2056,8 +2056,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "필리핀 정부(주제네바 대표부) 관광·문화 안내",
+    "recommendUrl": "https://genevapm.dfa.gov.ph/resources/visit-the-philippines",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -2074,8 +2074,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "필리핀 정부(주제네바 대표부) 관광·문화 안내",
+    "recommendUrl": "https://genevapm.dfa.gov.ph/resources/visit-the-philippines",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -2092,8 +2092,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "필리핀 정부(주제네바 대표부) 관광·문화 안내",
+    "recommendUrl": "https://genevapm.dfa.gov.ph/resources/visit-the-philippines",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -2238,8 +2238,8 @@
       "BRU-FD-101"
     ],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Brussels",
+    "recommendUrl": "https://www.visit.brussels/fr/visiteurs/boire-et-manger/bruxelles-et-ses-specialites-culinaires",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -2262,8 +2262,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Hungary",
+    "recommendUrl": "https://visithungary.com/articles/all-you-need-to-know-about-hungarian-cuisine",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
@@ -2286,8 +2286,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Hungary",
+    "recommendUrl": "https://visithungary.com/articles/all-you-need-to-know-about-hungarian-cuisine",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
@@ -2310,8 +2310,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Hungary",
+    "recommendUrl": "https://visithungary.com/articles/all-you-need-to-know-about-hungarian-cuisine",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
@@ -2334,8 +2334,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Hungary",
+    "recommendUrl": "https://visithungary.com/articles/hungarian-gastro-glossary",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
@@ -2354,8 +2354,8 @@
       "CAI-FD-102"
     ],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Experience Egypt (Egyptian Tourism Authority)",
+    "recommendUrl": "https://www.experienceegypt.eg/en/attraction-details/315/gastronomy",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -2372,8 +2372,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Experience Egypt (Egyptian Tourism Authority)",
+    "recommendUrl": "https://www.experienceegypt.eg/en/attraction-details/315/gastronomy",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -2390,8 +2390,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Experience Egypt (Egyptian Tourism Authority)",
+    "recommendUrl": "https://www.experienceegypt.eg/en/attraction-details/315/gastronomy",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -2408,8 +2408,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Experience Egypt (Egyptian Tourism Authority)",
+    "recommendUrl": "https://www.experienceegypt.eg/en/attraction-details/315/gastronomy",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -2486,8 +2486,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Cebu Provincial Tourism Office",
+    "recommendUrl": "https://tourism.cebu.gov.ph/",
     "note": "추천 출처 미확인(초안)"
   },
   {
@@ -2534,8 +2534,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Tourism Promotions Board Philippines",
+    "recommendUrl": "https://tpb.gov.ph/wp-content/uploads/2024/08/SPOTLIGHT-24-Q2_final.pdf",
     "note": "추천 출처 미확인(초안)"
   },
   {
@@ -2606,8 +2606,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Tourism Authority of Thailand (TAT)",
+    "recommendUrl": "https://www.tatnews.org/2018/01/discover-thai-cuisine-famous-four-regions/",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -2630,8 +2630,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Tourism Authority of Thailand (TAT)",
+    "recommendUrl": "https://www.tatnews.org/2018/01/discover-thai-cuisine-famous-four-regions/",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -2654,8 +2654,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Tourism Authority of Thailand (TAT)",
+    "recommendUrl": "https://www.tatnews.org/2018/01/discover-thai-cuisine-famous-four-regions/",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -2672,8 +2672,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Alsace (Alsace Regional Tourism Committee)",
+    "recommendUrl": "https://pro.visit.alsace/plaisirs-culinaires-en-alsace/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -2690,8 +2690,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Alsace (Alsace Regional Tourism Committee)",
+    "recommendUrl": "https://pro.visit.alsace/plaisirs-culinaires-en-alsace/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {

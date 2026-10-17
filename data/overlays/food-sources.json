@@ -1,0 +1,132 @@
+{
+  "auckland:Fish and Chips": {
+    "name": "100% Pure New Zealand (Tourism New Zealand)",
+    "url": "https://www.newzealand.com/uk/feature/favourite-new-zealand-foods/",
+    "checkedAt": "2026-10-17"
+  },
+  "auckland:Meat Pie": {
+    "name": "100% Pure New Zealand (Tourism New Zealand)",
+    "url": "https://www.newzealand.com/uk/feature/favourite-new-zealand-foods/",
+    "checkedAt": "2026-10-17"
+  },
+  "auckland:Pavlova": {
+    "name": "100% Pure New Zealand (Tourism New Zealand)",
+    "url": "https://www.newzealand.com/uk/feature/favourite-new-zealand-foods/",
+    "checkedAt": "2026-10-17"
+  },
+  "auckland:Hāngī": {
+    "name": "100% Pure New Zealand (Tourism New Zealand)",
+    "url": "https://www.newzealand.com/uk/feature/favourite-new-zealand-foods/",
+    "checkedAt": "2026-10-17"
+  },
+  "bali:Babi Guling": {
+    "name": "Indonesia Travel (인도네시아 관광부)",
+    "url": "https://www.indonesia.travel/id/id/travel-ideas/gastronomy/10-iconic-cuisine-s-that-you-must-try-on-your-next-visit-to-bali",
+    "checkedAt": "2026-10-17"
+  },
+  "bali:Nasi Campur": {
+    "name": "Indonesia Travel (인도네시아 관광부)",
+    "url": "https://www.indonesia.travel/id/id/travel-ideas/gastronomy/10-iconic-cuisine-s-that-you-must-try-on-your-next-visit-to-bali",
+    "checkedAt": "2026-10-17"
+  },
+  "bali:Sate Lilit": {
+    "name": "Indonesia Travel (인도네시아 관광부)",
+    "url": "https://www.indonesia.travel/id/id/travel-ideas/gastronomy/10-iconic-cuisine-s-that-you-must-try-on-your-next-visit-to-bali",
+    "checkedAt": "2026-10-17"
+  },
+  "boracay:Lechon": {
+    "name": "필리핀 정부(주제네바 대표부) 관광·문화 안내",
+    "url": "https://genevapm.dfa.gov.ph/resources/visit-the-philippines",
+    "checkedAt": "2026-10-17"
+  },
+  "boracay:Adobo": {
+    "name": "필리핀 정부(주제네바 대표부) 관광·문화 안내",
+    "url": "https://genevapm.dfa.gov.ph/resources/visit-the-philippines",
+    "checkedAt": "2026-10-17"
+  },
+  "boracay:Halo-halo": {
+    "name": "필리핀 정부(주제네바 대표부) 관광·문화 안내",
+    "url": "https://genevapm.dfa.gov.ph/resources/visit-the-philippines",
+    "checkedAt": "2026-10-17"
+  },
+  "brussels:Carbonnade flamande": {
+    "name": "Visit Brussels",
+    "url": "https://www.visit.brussels/fr/visiteurs/boire-et-manger/bruxelles-et-ses-specialites-culinaires",
+    "checkedAt": "2026-10-17"
+  },
+  "budapest:Gulyás": {
+    "name": "Visit Hungary",
+    "url": "https://visithungary.com/articles/all-you-need-to-know-about-hungarian-cuisine",
+    "checkedAt": "2026-10-17"
+  },
+  "budapest:Lángos": {
+    "name": "Visit Hungary",
+    "url": "https://visithungary.com/articles/all-you-need-to-know-about-hungarian-cuisine",
+    "checkedAt": "2026-10-17"
+  },
+  "budapest:Kürtőskalács": {
+    "name": "Visit Hungary",
+    "url": "https://visithungary.com/articles/all-you-need-to-know-about-hungarian-cuisine",
+    "checkedAt": "2026-10-17"
+  },
+  "budapest:Rétes": {
+    "name": "Visit Hungary",
+    "url": "https://visithungary.com/articles/hungarian-gastro-glossary",
+    "checkedAt": "2026-10-17"
+  },
+  "cairo:Koshary": {
+    "name": "Experience Egypt (Egyptian Tourism Authority)",
+    "url": "https://www.experienceegypt.eg/en/attraction-details/315/gastronomy",
+    "checkedAt": "2026-10-17"
+  },
+  "cairo:Ful medames": {
+    "name": "Experience Egypt (Egyptian Tourism Authority)",
+    "url": "https://www.experienceegypt.eg/en/attraction-details/315/gastronomy",
+    "checkedAt": "2026-10-17"
+  },
+  "cairo:Taameya": {
+    "name": "Experience Egypt (Egyptian Tourism Authority)",
+    "url": "https://www.experienceegypt.eg/en/attraction-details/315/gastronomy",
+    "checkedAt": "2026-10-17"
+  },
+  "cairo:Molokhia": {
+    "name": "Experience Egypt (Egyptian Tourism Authority)",
+    "url": "https://www.experienceegypt.eg/en/attraction-details/315/gastronomy",
+    "checkedAt": "2026-10-17"
+  },
+  "cebu:Lechon": {
+    "name": "Cebu Provincial Tourism Office",
+    "url": "https://tourism.cebu.gov.ph/",
+    "checkedAt": "2026-10-17"
+  },
+  "cebu:Puso": {
+    "name": "Tourism Promotions Board Philippines",
+    "url": "https://tpb.gov.ph/wp-content/uploads/2024/08/SPOTLIGHT-24-Q2_final.pdf",
+    "checkedAt": "2026-10-17"
+  },
+  "chiang-mai:Khao Soi": {
+    "name": "Tourism Authority of Thailand (TAT)",
+    "url": "https://www.tatnews.org/2018/01/discover-thai-cuisine-famous-four-regions/",
+    "checkedAt": "2026-10-17"
+  },
+  "chiang-mai:Sai Ua": {
+    "name": "Tourism Authority of Thailand (TAT)",
+    "url": "https://www.tatnews.org/2018/01/discover-thai-cuisine-famous-four-regions/",
+    "checkedAt": "2026-10-17"
+  },
+  "chiang-mai:Gaeng Hang Le": {
+    "name": "Tourism Authority of Thailand (TAT)",
+    "url": "https://www.tatnews.org/2018/01/discover-thai-cuisine-famous-four-regions/",
+    "checkedAt": "2026-10-17"
+  },
+  "colmar:Choucroute": {
+    "name": "Visit Alsace (Alsace Regional Tourism Committee)",
+    "url": "https://pro.visit.alsace/plaisirs-culinaires-en-alsace/",
+    "checkedAt": "2026-10-17"
+  },
+  "colmar:Tarte flambée": {
+    "name": "Visit Alsace (Alsace Regional Tourism Committee)",
+    "url": "https://pro.visit.alsace/plaisirs-culinaires-en-alsace/",
+    "checkedAt": "2026-10-17"
+  }
+}

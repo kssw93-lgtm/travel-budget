@@ -4481,6 +4481,12 @@
       "en": "Creamy salmon and potato soup",
       "ja": "サーモンとじゃがいものクリームスープ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Lohikeitto.jpg/960px-Lohikeitto.jpg",
+      "author": "Tuijasal",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Lohikeitto.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [
       "HEL-FD-501"
@@ -4500,6 +4506,12 @@
       "ko": "얇게 저민 순록 고기를 볶아 으깬 감자와 먹는 요리",
       "en": "Sautéed reindeer with mashed potatoes",
       "ja": "薄切りトナカイ肉の炒め物、マッシュポテト添え"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Poronk%C3%A4ristys.jpg/960px-Poronk%C3%A4ristys.jpg",
+      "author": "Htm",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Poronk%C3%A4ristys.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],
@@ -5690,6 +5702,12 @@
       "en": "Sabah raw fish salad cured in lime, chilli and ginger",
       "ja": "白身魚をライム・唐辛子・生姜で和えたサバ州の伝統料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Hinava_Sabah.jpg/960px-Hinava_Sabah.jpg",
+      "author": "Terencetulus",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Hinava_Sabah.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -5707,6 +5725,12 @@
       "ko": "큰 잎으로 적미 밥을 싼 사바 전통 음식",
       "en": "Rice wrapped in a large leaf, Sabah style",
       "ja": "大きな葉でご飯を包んだサバ州の伝統食"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Makanan_tradisi(Linopot).jpg/960px-Makanan_tradisi(Linopot).jpg",
+      "author": "EZZLER NYECKRI TONY",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Makanan_tradisi(Linopot).jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -5726,6 +5750,12 @@
       "en": "Wild ginger relish with chilli and lime",
       "ja": "野生のショウガ類を唐辛子とライムで漬けた付け合わせ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Serunding_Tuhau.jpg/960px-Serunding_Tuhau.jpg",
+      "author": "Maslight",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Serunding_Tuhau.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -5744,6 +5774,12 @@
       "en": "Pickled wild Borneo mango",
       "ja": "ボルネオの野生マンゴーの漬物"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nonsom_Bambangan.jpg/960px-Nonsom_Bambangan.jpg",
+      "author": "Sweizhong",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Nonsom_Bambangan.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -5761,6 +5797,12 @@
       "ko": "감자·치즈 등을 채운 폴란드식 만두",
       "en": "Polish dumplings filled with potato and cheese",
       "ja": "じゃがいもとチーズなどを包んだポーランドの餃子"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Pierogi_Polish_dumplings_Katowice_Poland_Aug_2024.jpg/960px-Pierogi_Polish_dumplings_Katowice_Poland_Aug_2024.jpg",
+      "author": "Heidi Meudt",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pierogi_Polish_dumplings_Katowice_Poland_Aug_2024.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [
@@ -5782,6 +5824,12 @@
       "en": "Polish breaded pork cutlet",
       "ja": "ポーランド風の豚カツ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Kotlet_schabowy_z_ziemniakami_i_mizeri%C4%85_-_2025.11.16.jpg/960px-Kotlet_schabowy_z_ziemniakami_i_mizeri%C4%85_-_2025.11.16.jpg",
+      "author": "Aw58",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kotlet_schabowy_z_ziemniakami_i_mizeri%C4%85_-_2025.11.16.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [
       "KRK-FD-103"
@@ -5801,6 +5849,12 @@
       "ko": "14세기 기록에도 남은 크라쿠프의 상징인 고리 모양 빵",
       "en": "Kraków’s iconic ring bread, recorded since the 14th century",
       "ja": "14世紀の記録にも残るクラクフ名物の輪のパン"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Obwarzanek_krakowski_-_Wikimania_2024.jpg/960px-Obwarzanek_krakowski_-_Wikimania_2024.jpg",
+      "author": "Raflinoer32",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Obwarzanek_krakowski_-_Wikimania_2024.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -5837,6 +5891,12 @@
       "ko": "훈제 고기·갈비로 끓인 사우어크라우트 수프",
       "en": "Sauerkraut soup with smoked meat or ribs",
       "ja": "燻製肉やスペアリブで作るザワークラウトのスープ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Kwasnica.jpg/960px-Kwasnica.jpg",
+      "author": "Mariuszjbie",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kwasnica.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -6072,6 +6132,12 @@
       "en": "Classic salad tossed tableside",
       "ja": "テーブルの横でその場で作るクラシックなサラダ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Tableside_caesar_salad_prep_(42965794772).jpg/960px-Tableside_caesar_salad_prep_(42965794772).jpg",
+      "author": "T.Tseng",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tableside_caesar_salad_prep_(42965794772).jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -6204,6 +6270,12 @@
       "en": "Roast beef sandwich born in downtown LA, dipped in meat juices",
       "ja": "ダウンタウンLA発祥のローストビーフサンドイッチ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/French_Dip.jpg/960px-French_Dip.jpg",
+      "author": "milo-photo",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:French_Dip.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -6222,6 +6294,12 @@
       "en": "Foot-long hot dog sold at Dodger Stadium since 1962",
       "ja": "1962年からドジャー・スタジアムで売られている長いホットドッグ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Dodger_Dog.jpg/960px-Dodger_Dog.jpg",
+      "author": "bryce_edwards",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Dodger_Dog.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -6239,6 +6317,12 @@
       "ko": "튀긴 치킨과 와플을 함께 먹는 단짠 조합",
       "en": "Fried chicken with waffles, sweet and salty",
       "ja": "フライドチキンとワッフルの甘じょっぱい組み合わせ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Chicken_and_Waffles.jpg/960px-Chicken_and_Waffles.jpg",
+      "author": "Joost.janssens",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Chicken_and_Waffles.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -6356,6 +6440,12 @@
       "en": "Madrid stew of chickpeas, meats and vegetables",
       "ja": "ひよこ豆と肉・野菜を煮込んだマドリード風煮込み"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Cocido.jpg/960px-Cocido.jpg",
+      "author": "Rubendene",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cocido.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -6373,6 +6463,12 @@
       "ko": "튀긴 오징어를 빵에 끼운 마드리드 명물 샌드위치",
       "en": "Fried squid sandwich, a Madrid classic",
       "ja": "揚げたイカをパンに挟んだマドリード名物"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Bocata_de_calamares_con_salsa_brava_(Madrid).jpg/960px-Bocata_de_calamares_con_salsa_brava_(Madrid).jpg",
+      "author": "Cecilia",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bocata_de_calamares_con_salsa_brava_(Madrid).jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -6392,6 +6488,12 @@
       "en": "Rich tripe stew served as tapas",
       "ja": "牛の胃を濃厚に煮込んだタパス料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Callos_a_la_Madrile%C3%B1a_(Lhardy)-2009.jpg/960px-Callos_a_la_Madrile%C3%B1a_(Lhardy)-2009.jpg",
+      "author": "Tamorlan",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Callos_a_la_Madrile%C3%B1a_(Lhardy)-2009.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -6410,6 +6512,12 @@
       "en": "Fried salt cod strips with red pepper",
       "ja": "赤ピーマンを添えたタラのフリット"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Soldaditos_de_Pavia-Bacalao.jpg/960px-Soldaditos_de_Pavia-Bacalao.jpg",
+      "author": "Tamorlan",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Soldaditos_de_Pavia-Bacalao.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -6427,6 +6535,12 @@
       "ko": "퀸 빅토리아 마켓에서 1950년대부터 팔아 온 갓 튀긴 잼 도넛",
       "en": "Fresh jam doughnuts sold at Queen Victoria Market since the 1950s",
       "ja": "1950年代からクイーン・ヴィクトリア・マーケットで売られる揚げたてジャムドーナツ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hot_Jam_Doughnuts.jpg/960px-Hot_Jam_Doughnuts.jpg",
+      "author": "Finbar.concaig",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Hot_Jam_Doughnuts.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -6463,6 +6577,12 @@
       "ko": "사우스 멜버른 마켓의 큼직한 딤섬, 간장·칠리를 곁들임",
       "en": "Big dim sims from South Melbourne Market with soy and chilli",
       "ja": "サウスメルボルン・マーケットの大きな点心"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Fried_and_steamed_dim_sim_(cropped).jpg/960px-Fried_and_steamed_dim_sim_(cropped).jpg",
+      "author": "Finbar.concaig",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Fried_and_steamed_dim_sim_(cropped).jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -6674,6 +6794,12 @@
       "en": "Rice porridge cooked in roasted tea",
       "ja": "ほうじ茶で炊いた茶粥"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Cha_Gayu_20141001.jpg/960px-Cha_Gayu_20141001.jpg",
+      "author": "Degueulasse",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cha_Gayu_20141001.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -6692,6 +6818,12 @@
       "en": "Pressed sushi wrapped in persimmon leaves",
       "ja": "柿の葉で包んだ押し寿司"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Kakinoha-zushi_-_2.jpg/960px-Kakinoha-zushi_-_2.jpg",
+      "author": "Kyu3a",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kakinoha-zushi_-_2.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -6709,6 +6841,12 @@
       "ko": "탄력 있고 매끄러운 나라의 소면",
       "en": "Springy, smooth thin noodles from Nara",
       "ja": "コシがあり滑らかな奈良の素麺"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Miwa_Somen_ac.jpg/960px-Miwa_Somen_ac.jpg",
+      "author": "Asturio Cantabrio",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Miwa_Somen_ac.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],

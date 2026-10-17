@@ -244,7 +244,7 @@ export function guideIndexMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
   const t = MSG[lang].cityGuide;
   const xc = d.cities.filter((c) => CHRISTMAS_MARKETS[c.id]).sort((a, b) => cityLabel(a, lang).localeCompare(cityLabel(b, lang), lang));
   const xmasList = xc.length
-    ? `        <h2>${e(t.xmasIndexTitle)}</h2><p>${e(t.xmasIndexLead)} <a href="/christmas-markets?lang=${lang}">${e(t.xmasPageLink)}</a></p><ul>${xc.map((c) => `<li><a href="${guidePath(c.id)}?lang=${lang}">${e(fill(t.xmasTitle, { city: cityLabel(c, lang) }))}</a></li>`).join('')}</ul>\n`
+    ? `        <details><summary><h2>${e(t.xmasIndexTitle)} (${xc.length})</h2></summary><p>${e(t.xmasIndexLead)} <a href="/christmas-markets?lang=${lang}">${e(t.xmasPageLink)}</a></p><ul>${xc.map((c) => `<li><a href="${guidePath(c.id)}?lang=${lang}">${e(fill(t.xmasTitle, { city: cityLabel(c, lang) }))}</a></li>`).join('')}</ul></details>\n`
     : '';
   const groups = grouped(d.cities, lang)
     .map(([country, list]) => `        <h2>${e(country)}</h2><ul>${list.map((c) => `<li><a href="${guidePath(c.id)}?lang=${lang}">${e(fill(t.title, { city: cityLabel(c, lang) }))}</a></li>`).join('')}</ul>`)

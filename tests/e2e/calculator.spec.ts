@@ -383,12 +383,16 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await page.goto('/guide/bangkok?lang=ko');
     await expect(page.getByTestId('guide-christmas')).toHaveCount(0);
     await page.goto('/guides?lang=ko');
-    await expect(page.getByTestId('guide-xmas-cities').locator('[data-xmas-city="dresden"]')).toBeVisible();
+    const xc = page.getByTestId('guide-xmas-cities');
+    await expect(xc.locator('[data-xmas-city="dresden"]')).toBeHidden();
+    await xc.locator('summary').click();
+    await expect(xc.locator('[data-xmas-city="dresden"]')).toBeVisible();
   });
 
   test('크리스마스 마켓 일정 모음 페이지: 나라별 도시·기간·공식 안내, 가이드 목록에서 들어간다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/guides?lang=ko');
+    await page.getByTestId('guide-xmas-cities').locator('summary').click();
     await page.getByTestId('guide-xmas-cities').getByRole('link', { name: '2026 크리스마스 마켓 일정 한눈에 보기' }).click();
     await expect(page).toHaveURL(/\/christmas-markets\?lang=ko/);
     const x = page.getByTestId('xmas-page');

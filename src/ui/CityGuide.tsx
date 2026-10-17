@@ -62,8 +62,12 @@ export function GuideIndex({ go }: { go: Go }) {
         <input id="guide-search" type="search" value={query} placeholder={g.searchPlaceholder} onChange={(e) => setQuery(e.target.value)} />
       </div>
       {!query && xmas.length > 0 && (
-        <section className="guide-group xmas-cities" data-testid="guide-xmas-cities">
-          <h2>{g.xmasIndexTitle}</h2>
+        <details className="guide-group xmas-cities" data-testid="guide-xmas-cities">
+          <summary>
+            <h2>
+              {g.xmasIndexTitle} ({xmas.length})
+            </h2>
+          </summary>
           <p className="hint">
             {g.xmasIndexLead}{' '}
             <InternalLink to={`/christmas-markets?lang=${lang}`} go={go}>
@@ -79,7 +83,7 @@ export function GuideIndex({ go }: { go: Go }) {
               </li>
             ))}
           </ul>
-        </section>
+        </details>
       )}
       {groups.length === 0 && (
         <p className="muted" role="status">

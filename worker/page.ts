@@ -6,7 +6,7 @@ import { shareMeta } from './share-meta';
 /** 정식 주소(검색엔진·공유용). workers.dev 로 들어오면 이 주소로 영구 이동한다 */
 export const CANONICAL_ORIGIN = 'https://howmuchthere.com';
 
-const PAGE_PATHS = new Set(['/', '/guides', '/christmas-markets', '/about', '/privacy']);
+const PAGE_PATHS = new Set(['/', '/guides', '/christmas-markets', '/how-it-works', '/about', '/privacy']);
 const isPage = (p: string) => PAGE_PATHS.has(p) || /^\/guide\/[a-z0-9-]+$/.test(p);
 
 /** 페이지 요청 처리: 정식 주소로 이동, 언어별 정적 HTML 선택, 공유 링크 미리보기 */

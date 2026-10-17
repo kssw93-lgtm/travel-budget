@@ -3,7 +3,9 @@
  * 언어마다(ko·en·ja) 따로 만든다: 한국어는 기본 주소, 영어·일본어는 Worker 가 ?lang= 에 맞춰 골라 보낸다.
  */
 import { cityGuide, guidePath } from '../src/core/guide';
+import { methodExample } from '../src/core/method';
 import { formatMoney } from '../src/core/money';
+import { methodContent } from '../src/ui/method-content';
 import { CITY_GUIDES } from '../src/data/city-guides';
 import { CHRISTMAS_MARKETS } from '../src/data/christmas-markets';
 import { CITY_INTROS } from '../src/data/city-intros';
@@ -256,6 +258,39 @@ export function guideIndexMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
     lang,
     ld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: t.indexTitle, inLanguage: lang },
     fallbackHtml: `        <h1>${e(t.indexTitle)}</h1>\n        <p>${e(t.indexLead)}</p>\n${xmasList}${groups}`,
+  };
+}
+
+/** 계산 방법(/how-it-works)의 정적 HTML: 화면과 같은 문장·같은 계산 예시 */
+export function methodPageMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
+  const m = MSG[lang].method;
+  const ex = methodExample(d.cities, d.samples, d.extras, d.refDate);
+  const money = (r: Range) => {
+    const cur = ex?.city.currency ?? 'USD';
+    const a = formatMoney(Math.round(r.min), cur, LOCALE[lang]);
+    const b = formatMoney(Math.round(r.max), cur, LOCALE[lang]);
+    return a === b ? a : `${a}~${b}`;
+  };
+  const c = methodContent(m, { lang, samples: d.samples.length, cities: d.cities.length, cityName: ex ? cityLabel(ex.city, lang) : '', date: d.refDate, money }, ex);
+  const list = (tag: 'ol' | 'ul', items: string[]) => `<${tag}>${items.map((x) => `<li>${e(x)}</li>`).join('')}</${tag}>`;
+  const body = [
+    `        <h1>${e(m.title)}</h1>`,
+    `        <p>${e(m.lead)}</p>`,
+    `        <h2>${e(m.srcTitle)}</h2>${c.srcBody.map((x) => `<p>${e(x)}</p>`).join('')}`,
+    `        <h2>${e(m.stepsTitle)}</h2>${list('ol', c.steps)}`,
+    c.example && `        <h2>${e(c.example.title)}</h2><p>${e(c.example.lead)}</p>${list('ul', c.example.lines)}<p><a href="${e(c.example.href)}">${e(m.exOpen)}</a></p>`,
+    `        <h2>${e(m.limitsTitle)}</h2>${list('ul', c.limits)}`,
+    `        <h2>${e(m.troubleTitle)}</h2>${list('ul', c.trouble)}`,
+  ]
+    .filter(Boolean)
+    .join('\n');
+  return {
+    title: `${m.title} — ${siteTitle(lang)}`,
+    description: m.description,
+    path: '/how-it-works',
+    lang,
+    ld: { '@context': 'https://schema.org', '@type': 'WebPage', name: m.title, description: m.description, inLanguage: lang },
+    fallbackHtml: body,
   };
 }
 

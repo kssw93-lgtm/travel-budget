@@ -25,6 +25,7 @@ export function applyMeta(lang: Lang, route: Route, city?: City) {
     privacy: t.privacy.title,
     guides: t.cityGuide.indexTitle,
     christmas: t.cityGuide.xmasPageTitle,
+    method: t.method.title,
     guide: fmt(t.cityGuide.metaTitle, { city: name }),
   }[page];
   const title = pageTitle ? `${pageTitle} — ${t.meta.brand}` : t.meta.title;
@@ -34,6 +35,7 @@ export function applyMeta(lang: Lang, route: Route, city?: City) {
     privacy: t.meta.privacyDescription,
     guides: t.cityGuide.indexDescription,
     christmas: t.cityGuide.xmasPageDescription,
+    method: t.method.description,
     guide: (city && CITY_INTROS[city.id]?.o[lang === 'ko' ? 0 : lang === 'en' ? 1 : 2]) || fmt(t.cityGuide.metaDescription, { city: name }),
   }[page];
   document.documentElement.lang = lang;

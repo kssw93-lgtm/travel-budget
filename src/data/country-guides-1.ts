@@ -12,7 +12,7 @@ export interface CountryNote {
 export const COUNTRY_1: Record<string, CountryNote> = {
   Japan: {
     tips: [
-      ['길거리에 쓰레기통이 거의 없어 작은 비닐봉지를 들고 다니면 편합니다. 편의점 앞 쓰레기통을 쓸 수 있습니다.', 'Public bins are rare; carry a small bag for rubbish or use the bins outside convenience stores.', '街中にゴミ箱が少ないので、小さな袋を持ち歩くと便利です。コンビニ前のゴミ箱も使えます。', 'https://www.pelago.com/en/articles/japan-train-etiquette-guide'],
+      ['길거리에 쓰레기통이 거의 없어 작은 비닐봉지를 들고 다니면 편합니다. 편의점 앞 쓰레기통을 쓸 수 있습니다.', 'Public bins are rare; carry a small bag for rubbish or use the bins outside convenience stores.', '街中にゴミ箱が少ないので、小さな袋を持ち歩くと便利です。コンビニ前のゴミ箱も使えます。', 'https://www.cnn.com/travel/japan-trash-cans-explainer-intl-hnk'],
       ['비현금 결제가 널리 쓰이지만 이용할 수 없는 곳도 있으므로 현금을 예비로 준비하세요.', 'Cashless payment is common, but some places may not accept it; carry cash as a backup.', '非接触決済は広く使えますが、決済できない場所もあるため、現金を予備として用意しましょう。', 'https://www.japan.travel/en/plan/cashless-payments-in-japan/'],
     ],
     cautions: [
@@ -200,8 +200,8 @@ export const COUNTRY_1: Record<string, CountryNote> = {
       ['빈 병·캔은 마트 회수기에 넣으면 보증금(판트)을 돌려받습니다.', 'Return bottles and cans to supermarket machines to get the deposit (Pfand).', '空き瓶・缶はスーパーの回収機に入れるとデポジット（パント）が戻ります。', 'https://www.bundesumweltministerium.de/themen/kreislaufwirtschaft/abfallarten-und-abfallstroeme/verpackungsabfaelle/pfandflasche-mehrwegflasche'],
     ],
     cautions: [
-      ['일요일에는 대부분의 상점이 문을 닫습니다.', 'Most shops close on Sundays.', '日曜はほとんどの店が閉まります。', 'https://www.berlinwalk.com/post/are-shops-open-on-sunday-in-berlin-what-you-need-to-know'],
-      ['대중교통은 개찰구가 없지만 검표가 있고, 표를 개찰하지 않으면 벌금입니다.', 'No gates, but tickets are checked; unvalidated tickets are fined.', '改札はありませんが検札があり、刻印していない切符は罰金です。', 'https://www.berlinwalk.com/post/do-you-really-need-to-validate-your-ticket-on-berlin-trains'],
+      ['일요일에는 대부분의 상점이 문을 닫습니다.', 'Most shops close on Sundays.', '日曜はほとんどの店が閉まります。', 'https://www.visitberlin.de/en/frequently-asked-questions'],
+      ['대중교통은 개찰구가 없지만 검표가 있고, 표를 개찰하지 않으면 벌금입니다.', 'No gates, but tickets are checked; unvalidated tickets are fined.', '改札はありませんが検札があり、刻印していない切符は罰金です。', 'https://www.bvg.de/en/subscriptions-and-tickets/ticket-control'],
     ],
   },
   Switzerland: {

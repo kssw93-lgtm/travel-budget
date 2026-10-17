@@ -389,6 +389,19 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(xc.locator('[data-xmas-city="dresden"]')).toBeVisible();
   });
 
+  test('계산 방법 페이지: 계산 순서·실제 계산 예시·한계가 있고, 예시 조건으로 계산기를 연다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/how-it-works?lang=ko');
+    const m = page.getByTestId('how-it-works');
+    await expect(m.getByRole('heading', { level: 1 })).toHaveText('여행 경비 계산 방법');
+    const ex = page.getByTestId('method-example');
+    await expect(ex).toContainText('오사카 3박 4일, 성인 2명');
+    await expect(ex).toContainText('합계');
+    await ex.getByRole('link', { name: '같은 조건으로 계산기 열기' }).click();
+    await expect(page).toHaveURL(/city=osaka/);
+    await expect(page.getByTestId('total')).toBeVisible();
+  });
+
   test('크리스마스 마켓 일정 모음 페이지: 나라별 도시·기간·공식 안내, 가이드 목록에서 들어간다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/guides?lang=ko');

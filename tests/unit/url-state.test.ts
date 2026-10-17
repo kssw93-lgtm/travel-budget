@@ -52,6 +52,7 @@ describe('페이지 주소', () => {
     expect(routeOf('/guide/atlantis', ['tokyo'])).toEqual({ page: 'calculator' });
     expect(routeOf('/guides/', ['tokyo'])).toEqual({ page: 'guides' });
     expect(routeOf('/christmas-markets', ['tokyo'])).toEqual({ page: 'christmas' });
+    expect(routeOf('/how-it-works', ['tokyo'])).toEqual({ page: 'method' });
     expect(routePath({ page: 'guide', cityId: 'paris' })).toBe('/guide/paris');
   });
   it('자세히 설정(교통 방식·횟수·일수·이용권·끼니)은 기본값이 아닐 때만 담고 다시 읽힌다', () => {

@@ -4,6 +4,7 @@ import { I18nProvider, LANG_NAMES, LANGS, detectLang, fmt, messages, type Lang }
 import { AdSlot } from './AdSlot';
 import { Calculator } from './Calculator';
 import { About, Privacy } from './InfoPages';
+import { HowItWorks } from './HowItWorks';
 import { ChristmasMarketsPage, CityGuidePage, GuideIndex } from './CityGuide';
 import { routeOf } from './pages';
 import { applyMeta } from './meta';
@@ -127,6 +128,8 @@ export function App() {
             <Privacy />
           ) : page === 'guides' ? (
             <GuideIndex go={go} />
+          ) : page === 'method' ? (
+            <HowItWorks go={go} />
           ) : page === 'christmas' ? (
             <ChristmasMarketsPage go={go} />
           ) : page === 'guide' && guideCity ? (
@@ -144,6 +147,7 @@ export function App() {
           <p>{t.footer.disclaimer}</p>
           <p>
             {fmt(t.footer.data, { date: dataDate })} ·{' '}
+            <InternalLink to={`/how-it-works?lang=${lang}`} go={go}>{t.method.navLabel}</InternalLink> ·{' '}
             <InternalLink to={`/about?lang=${lang}`} go={go}>{t.footer.about}</InternalLink> ·{' '}
             <InternalLink to={`/privacy?lang=${lang}`} go={go}>{t.footer.privacy}</InternalLink>
           </p>

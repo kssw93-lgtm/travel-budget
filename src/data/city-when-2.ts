@@ -40,7 +40,7 @@ export const WHEN_2: Record<string, When> = {
   hanoi: {
     p: [
       ['10~12월 가을', 'October–December (autumn)', '10〜12月（秋）', '선선하고 맑은 하노이의 가장 좋은 계절로, 하롱베이 크루즈도 쾌적합니다.', 'Hanoi’s best season — cool and clear, and pleasant for Ha Long Bay cruises.', '涼しく晴れたハノイの最高の季節で、ハロン湾クルーズも快適です。'],
-      ['3~4월 봄', 'March–April (spring)', '3〜4月（春）', '날씨가 온화하고 닌빈의 논 풍경이 푸릇합니다.', 'Mild weather and green rice fields at Ninh Binh.', '穏やかな気候で、ニンビンの田園が青々としています。'],
+      ['4~6월', 'April–June', '4〜6月', '맑은 날이 많아 시내와 근교를 둘러보기 좋은 시기입니다.', 'Often clear skies — a good time to explore the city and around.', '晴れの日が多く、市内や近郊を巡るのに向いた時期です。'],
     ],
     x: ['설(뗏, 1~2월) 연휴에는 많은 상점이 며칠씩 문을 닫습니다.', 'Many shops close for days over Tết (Lunar New Year, January–February).', 'テト（旧正月、1〜2月）の連休は多くの店が数日休みます。'],
   },
@@ -52,7 +52,7 @@ export const WHEN_2: Record<string, When> = {
   },
   'da-lat': {
     p: [
-      ['12~3월 건기', 'December–March (dry season)', '12〜3月（乾季）', '맑은 날이 많고 꽃이 많이 피며, 연말에 꽃 축제가 열리는 해도 있습니다.', 'Clear days and plenty of blooms; the flower festival is held in some years.', '晴れの日が多く花が咲き誇り、年によって花祭りが開かれます。'],
+      ['11~5월 건기', 'November–May (dry season)', '11〜5月（乾季）', '비교적 건조하고 하늘이 맑은 날이 많습니다. 꽃 축제는 해마다 공지되는 일정을 확인하세요.', 'Generally drier with clearer skies; check each year’s announcement for the flower festival.', '比較的乾燥して空が澄む日が多いです。花祭りは毎年の発表で日程を確認を。'],
       ['11월 해바라기(야생 해바라기)', 'November (wild sunflowers)', '11月（野生のヒマワリ）', '고원 길가가 노란 야생 해바라기로 물듭니다.', 'Highland roadsides turn yellow with wild sunflowers.', '高原の道沿いが黄色い野生のヒマワリに染まります。'],
     ],
   },
@@ -60,13 +60,13 @@ export const WHEN_2: Record<string, When> = {
     p: [
       ['2~8월', 'February–August', '2〜8月', '바다가 맑고 잔잔해 섬 호핑과 스노클링에 좋습니다.', 'Clear, calm water for island-hopping and snorkelling.', '海が澄んで穏やかで、アイランドホッピングやシュノーケリングに最適です。'],
     ],
-    x: ['10~12월은 비가 많고 바다가 거칩니다.', 'October–December brings heavy rain and rough seas.', '10〜12月は雨が多く海が荒れます。'],
+    x: ['9~12월은 비가 잦고 흐린 날이 많습니다.', 'September–December can be rainy and cloudy.', '9〜12月は雨が多く曇りがちです。'],
   },
   'phu-quoc': {
     p: [
       ['11~4월 건기', 'November–April (dry season)', '11〜4月（乾季）', '바다가 가장 맑아 해상 케이블카와 남부 해변을 즐기기 좋습니다.', 'The clearest water, ideal for the sea cable car and southern beaches.', '海が最も澄み、海上ケーブルカーや南部のビーチに最適です。'],
     ],
-    x: ['5~10월 우기에는 비와 파도가 잦습니다.', 'Frequent rain and waves in the May–October wet season.', '5〜10月の雨季は雨や波が多いです。'],
+    x: ['7~9월은 폭풍과 비가 잦아 배편과 해변 일정에 영향을 줄 수 있습니다.', 'Storms and rain are more frequent July–September and can affect ferries and beach plans.', '7〜9月は嵐や雨が多く、船や海辺の予定に影響することがあります。'],
   },
   taipei: {
     p: [
@@ -102,18 +102,18 @@ export const WHEN_2: Record<string, When> = {
       ['음력 설', 'Lunar New Year', '旧正月', '퍼레이드와 빅토리아 하버 불꽃놀이가 열립니다.', 'A parade and fireworks over Victoria Harbour.', 'パレードとヴィクトリア・ハーバーの花火があります。'],
       ['12월 31일 새해 불꽃', '31 December (New Year fireworks)', '12月31日（年越し花火）', '하버를 둘러싼 빌딩에서 쏘아 올리는 새해 불꽃이 장관입니다.', 'Fireworks launched from the harbourfront towers are spectacular.', 'ハーバー沿いのビルから打ち上げる年越し花火が壮観です。'],
     ],
-    x: ['6~9월은 무덥고 태풍 경보로 일정이 멈출 수 있습니다.', 'June–September is hot, and typhoon signals can halt plans.', '6〜9月は蒸し暑く、台風警報で予定が止まることがあります。'],
+    x: ['5~11월은 태풍이 올 수 있으니 기상 경보를 확인하세요. 한여름은 무덥습니다.', 'Typhoons can occur May–November, so check weather warnings; midsummer is hot and humid.', '5〜11月は台風が来ることがあるので気象警報を確認を。真夏は蒸し暑いです。'],
   },
   macau: {
     p: [
       ['11월 마카오 그랑프리', 'November (Macau Grand Prix)', '11月（マカオ・グランプリ）', '도심 도로에서 열리는 국제 자동차 경주 대회입니다.', 'An international motor race on the city’s streets.', '市街地で開かれる国際的なモーターレースです。'],
-      ['10~12월', 'October–December', '10〜12月', '선선하고 맑아 구시가지를 걷기 좋습니다.', 'Cool and clear, perfect for walking the old town.', '涼しく晴れて、旧市街を歩くのに最適です。'],
+      ['10~11월', 'October–November', '10〜11月', '온화하고 건조해 구시가지를 걷기 좋은 시기입니다.', 'Mild and dry, perfect for walking the old town.', '穏やかで乾燥し、旧市街を歩くのに最適な時期です。'],
     ],
     x: ['그랑프리·연휴 기간에는 숙소가 비싸고 붐빕니다.', 'Rooms are pricey and crowded during the Grand Prix and holidays.', 'グランプリや連休中は宿が高く混雑します。'],
   },
   cebu: {
     p: [
-      ['1월 셋째 일요일 무렵 시눌로그', 'Around the third Sunday of January (Sinulog)', '1月第3日曜日頃（シヌログ）', '필리핀 최대급 축제로, 화려한 의상의 거리 퍼레이드가 열립니다.', 'One of the Philippines’ biggest festivals, with a colourful street parade.', 'フィリピン最大級の祭りで、色鮮やかな衣装の街頭パレードがあります。'],
+      ['1월 시눌로그', 'January (Sinulog)', '1月（シヌログ）', '필리핀 최대급 축제로, 순례와 화려한 의상의 거리 행렬이 열립니다.', 'One of the Philippines’ biggest festivals, with pilgrimages and a colourful street parade.', 'フィリピン最大級の祭りで、巡礼や色鮮やかな衣装の街頭パレードがあります。'],
       ['12~5월 건기', 'December–May (dry season)', '12〜5月（乾季）', '바다가 잔잔해 호핑 투어와 다이빙에 좋습니다.', 'Calm seas for island-hopping and diving.', '海が穏やかで、アイランドホッピングやダイビングに最適です。'],
     ],
     x: ['시눌로그 기간에는 숙소가 일찍 찹니다.', 'Rooms book out early for Sinulog.', 'シヌログ期間は宿が早く埋まります。'],

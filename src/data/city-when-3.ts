@@ -7,7 +7,7 @@ export const WHEN_3: Record<string, When> = {
   paris: {
     p: [
       ['4~6월 봄', 'April–June (spring)', '4〜6月（春）', '공원과 센강 변이 푸르고 테라스 카페가 활기를 띠는 파리의 가장 아름다운 계절입니다.', 'Parks and the Seine turn green and café terraces come alive — Paris at its loveliest.', '公園やセーヌ河岸が緑に包まれ、テラスカフェがにぎわうパリで最も美しい季節です。'],
-      ['7월 14일 혁명기념일', '14 July (Bastille Day)', '7月14日（革命記念日）', '샹젤리제 군사 퍼레이드와 에펠탑 불꽃놀이가 열립니다.', 'A military parade on the Champs-Élysées and fireworks at the Eiffel Tower.', 'シャンゼリゼの軍事パレードとエッフェル塔の花火があります。'],
+      ['7월 14일 혁명기념일', '14 July (Bastille Day)', '7月14日（革命記念日）', '샹젤리제 퍼레이드가 열립니다. 에펠탑 불꽃놀이 날짜는 해마다 달라질 수 있으니 확인하세요.', 'The Champs-Élysées parade takes place; the Eiffel Tower fireworks date can vary, so check each year.', 'シャンゼリゼのパレードがあります。エッフェル塔の花火の日付は年により変わるので確認を。'],
       ['12월 연말', 'December (festive season)', '12月（年末）', '샹젤리제 조명과 백화점 쇼윈도, 크리스마스 마켓이 겨울 파리를 빛냅니다.', 'Champs-Élysées lights, department-store windows and Christmas markets.', 'シャンゼリゼのイルミネーション、百貨店のショーウィンドウ、クリスマスマーケットが冬のパリを彩ります。'],
     ],
     x: ['8월에는 문을 닫는 현지 상점·식당이 많습니다.', 'Many local shops and restaurants close in August.', '8月は休業する地元の店や飲食店が多いです。'],

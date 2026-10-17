@@ -4,6 +4,7 @@ import { CHRISTMAS_MARKETS } from '../../src/data/christmas-markets';
 import { CITY_INTROS } from '../../src/data/city-intros';
 import { CITY_SEASONS } from '../../src/data/city-seasons';
 import { CITY_WHEN } from '../../src/data/city-when';
+import { WHEN_SOURCES } from '../../src/data/city-when-sources';
 import { CITY_GUIDES } from '../../src/data/city-guides';
 import { GUIDE_SOURCES } from '../../src/data/city-guide-sources';
 import { COUNTRY_GUIDES } from '../../src/data/country-guides';
@@ -43,6 +44,13 @@ describe('나라별 알아둘 것·조심할 것', () => {
       expect(all, c.id).not.toMatch(/[$€£¥₩]\s?\d|\d\s?(원|円|달러|유로)/);
     }
     for (const id of Object.keys(CITY_WHEN)) expect(allCities.some((c) => c.id === id), id).toBe(true);
+    for (const [key, url] of Object.entries(WHEN_SOURCES)) {
+      const [id, ref] = key.split(':') as [string, string];
+      const w = CITY_WHEN[id];
+      expect(w, key).toBeDefined();
+      expect(ref === 'x' ? !!w!.x : Number(ref.slice(1)) >= 1 && Number(ref.slice(1)) <= w!.p.length, key).toBe(true);
+      expect(url, key).toMatch(/^https:\/\//);
+    }
   });
 
   it('볼거리·팁 근거 URL 은 실제 있는 항목을 가리키는 https 주소다', () => {

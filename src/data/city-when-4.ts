@@ -11,7 +11,7 @@ export const WHEN_4: Record<string, When> = {
   },
   'los-angeles': {
     p: [
-      ['9~11월', 'September–November', '9〜11月', '여름 인파가 빠지고 해변은 여전히 따뜻한, 현지인이 꼽는 좋은 시기입니다.', 'Summer crowds thin while beaches stay warm — a local favourite.', '夏の混雑が落ち着き、ビーチはまだ暖かい、地元の人が勧める時期です。'],
+      ['9~10월', 'September–October', '9〜10月', '여름 성수기가 지나도 해변 날씨가 이어지고 맑고 온화한 날이 많습니다.', 'Beach weather lasts beyond the summer peak, with many clear, mild days.', '夏の繁忙期が過ぎてもビーチ日和が続き、晴れて穏やかな日が多いです。'],
       ['3~5월', 'March–May', '3〜5月', '맑고 온화해 테마파크와 시내 관광에 좋습니다.', 'Sunny, mild weather for theme parks and city sights.', '晴れて穏やかで、テーマパークや市内観光に最適です。'],
     ],
     x: ['5~6월 아침에는 바닷가 안개(메이 그레이·준 글룸)가 잦습니다.', 'May–June mornings often bring coastal fog (“May Gray”, “June Gloom”).', '5〜6月の朝は海沿いに霧（メイグレー・ジューングルーム）が多いです。'],
@@ -45,7 +45,7 @@ export const WHEN_4: Record<string, When> = {
   },
   honolulu: {
     p: [
-      ['4~5월·9~10월', 'April–May and September–October', '4〜5月・9〜10月', '날씨는 일 년 내내 좋지만 이 시기가 덜 붐비고 숙박비가 낮은 편입니다.', 'The weather is good year-round, but these months are quieter and cheaper.', '気候は一年中良いですが、この時期は空いていて宿泊費も安めです。'],
+      ['9~10월', 'September–October', '9〜10月', '날씨는 일 년 내내 좋지만, 여름·겨울 휴가철보다 비교적 한산합니다.', 'The weather is good year-round, but this is quieter than the summer and winter holidays.', '気候は一年中良いですが、夏や冬の休暇シーズンより比較的空いています。'],
       ['9월 알로하 페스티벌', 'September (Aloha Festivals)', '9月（アロハ・フェスティバル）', '하와이 문화를 기념하는 퍼레이드와 거리 축제가 열립니다.', 'Parades and street parties celebrating Hawaiian culture.', 'ハワイ文化を祝うパレードや街のお祭りがあります。'],
       ['11~2월 겨울 파도', 'November–February (winter surf)', '11〜2月（冬の大波）', '오아후 북쪽 해안의 거대한 파도와 서핑 대회를 구경할 수 있습니다(수영은 주의).', 'Watch giant North Shore waves and surf contests (swim with caution).', 'オアフ島北海岸の大波やサーフィン大会を見物できます（遊泳は注意）。'],
     ],

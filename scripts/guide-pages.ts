@@ -9,6 +9,7 @@ import { CHRISTMAS_MARKETS } from '../src/data/christmas-markets';
 import { CITY_INTROS } from '../src/data/city-intros';
 import { CITY_SEASONS } from '../src/data/city-seasons';
 import { CITY_WHEN } from '../src/data/city-when';
+import { WHEN_SOURCES } from '../src/data/city-when-sources';
 import { GUIDE_SOURCES } from '../src/data/city-guide-sources';
 import { COUNTRY_GUIDES } from '../src/data/country-guides';
 import type { City, CityMemo, ExtraSample, FoodRecommendation, PriceSample, Range } from '../src/core/types';
@@ -126,9 +127,9 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const when =
     wh || season
       ? `        <h2>${e(fill(t.whenTitle, { city: name }))}</h2>` +
-        (wh ? `<dl>${wh.p.map((p) => `<dt>${e(p[IDX[lang]])}</dt><dd>${e(p[3 + IDX[lang]] ?? '')}</dd>`).join('')}</dl>` : '') +
+        (wh ? `<dl>${wh.p.map((p, k) => `<dt>${e(p[IDX[lang]])}</dt><dd>${e(p[3 + IDX[lang]] ?? '')}${srcLink(WHEN_SOURCES[`${city.id}:p${k + 1}`])}</dd>`).join('')}</dl>` : '') +
         (season ? `<p><strong>${e(t.whenWeather)}</strong> ${e(season[IDX[lang]])}${season[3] ? ` <small><a href="${e(season[3])}" rel="noopener">${e(t.sourceLink)}</a></small>` : ''}</p>` : '') +
-        (wh?.x ? `<p><strong>${e(t.whenAvoid)}</strong> ${e(wh.x[IDX[lang]])}</p>` : '') +
+        (wh?.x ? `<p><strong>${e(t.whenAvoid)}</strong> ${e(wh.x[IDX[lang]])}${srcLink(WHEN_SOURCES[`${city.id}:x`])}</p>` : '') +
         `<p>${e(t.seasonHint)}</p>`
       : '';
   const cityTips =

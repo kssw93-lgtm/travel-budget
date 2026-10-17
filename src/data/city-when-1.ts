@@ -37,7 +37,7 @@ export const WHEN_1: Record<string, When> = {
   },
   okinawa: {
     p: [
-      ['4~6월 초', 'April–early June', '4〜6月初め', '바다에 들어가기 시작하는 시기로, 한여름보다 덜 붐비고 덜 덥습니다(5~6월은 장마).', 'Swimming season begins, less crowded and hot than midsummer (May–June is the rainy season).', '海開きの時期で、真夏より空いていて暑さも控えめです（5〜6月は梅雨）。'],
+      ['4월~5월 초', 'April–early May', '4月〜5月初め', '바다에 들어가기 시작하는 시기로, 한여름보다 덜 붐비고 덜 덥습니다(장마는 보통 5월 중순~6월 말).', 'Swimming season begins, less crowded and hot than midsummer (the rainy season usually runs mid-May to late June).', '海開きの時期で、真夏より空いていて暑さも控えめです（梅雨は例年5月中旬〜6月末）。'],
       ['1~2월 벚꽃', 'January–February (early cherry blossoms)', '1〜2月（早咲きの桜）', '일본에서 가장 먼저 피는 진분홍 벚꽃을 볼 수 있고, 겨울에도 따뜻합니다.', 'See Japan’s earliest deep-pink cherry blossoms in mild winter weather.', '日本で最も早く咲く濃いピンクの桜が見られ、冬でも温暖です。'],
       ['10~11월', 'October–November', '10〜11月', '태풍 시기가 지나고 바다가 아직 따뜻해 해변과 드라이브를 즐기기 좋습니다.', 'After typhoon season, with seas still warm for beaches and drives.', '台風シーズンが過ぎ、海がまだ温かくビーチやドライブに最適です。'],
     ],
@@ -94,7 +94,7 @@ export const WHEN_1: Record<string, When> = {
   seoul: {
     p: [
       ['4월 초 벚꽃', 'Early April (cherry blossoms)', '4月初め（桜）', '여의도 윤중로·석촌호수의 벚꽃 축제가 열리는 서울의 가장 화사한 시기입니다.', 'Cherry-blossom festivals at Yeouido and Seokchon Lake make it Seoul’s prettiest time.', '汝矣島の輪中路や石村湖で桜祭りが開かれる、ソウルで最も華やかな時期です。'],
-      ['10~11월 가을', 'October–November (autumn)', '10〜11月（秋）', '궁궐과 남산의 단풍이 아름답고, 맑은 날씨에 걷기 좋습니다. 10월에는 여의도 불꽃축제가 열립니다.', 'Palaces and Namsan turn red and gold, and October brings the Yeouido fireworks festival.', '王宮や南山の紅葉が美しく、10月には汝矣島の花火祭りがあります。'],
+      ['가을', 'Autumn', '秋', '궁궐과 남산의 단풍이 아름답고, 맑은 날씨에 걷기 좋습니다. 서울세계불꽃축제가 열리는 시기라 일정은 해마다 확인하세요.', 'Palaces and Namsan turn red and gold in clear walking weather; the Seoul International Fireworks Festival is held in this season — check the date each year.', '王宮や南山の紅葉が美しく、晴れて歩きやすい季節です。ソウル世界花火祭りの時期なので日程は毎年確認を。'],
       ['12월 연말', 'December (year-end)', '12月（年末）', '명동·광화문 일대 조명과 크리스마스 장식이 화려합니다.', 'Myeongdong and Gwanghwamun glow with festive lights.', '明洞や光化門一帯のイルミネーションが華やかです。'],
     ],
     x: ['7~8월 장마·무더위와 1~2월 혹한.', 'The July–August monsoon and heat, and the deep cold of January–February.', '7〜8月の梅雨と猛暑、1〜2月の厳しい寒さ。'],
@@ -102,7 +102,7 @@ export const WHEN_1: Record<string, When> = {
   busan: {
     p: [
       ['7~8월 해수욕', 'July–August (beach season)', '7〜8月（海水浴）', '해운대·광안리 해수욕장이 개장하고 밤바다 분위기가 가장 활기찹니다.', 'Haeundae and Gwangalli beaches open and the seaside nights are at their liveliest.', '海雲台・広安里の海水浴場が開き、夜の海辺が最もにぎわいます。'],
-      ['10~11월 영화제·불꽃축제', 'October–November (film festival, fireworks)', '10〜11月（映画祭・花火祭り）', '부산국제영화제와 광안대교를 배경으로 한 부산불꽃축제가 열리는 시기입니다.', 'Season of the Busan International Film Festival and the fireworks over Gwangan Bridge.', '釜山国際映画祭と、広安大橋を背景にした釜山花火祭りが開かれる時期です。'],
+      ['가을 부산국제영화제', 'Autumn (Busan International Film Festival)', '秋（釜山国際映画祭）', '부산국제영화제 등 큰 행사가 열리는 시기입니다. 행사 일정은 해마다 확인하세요.', 'Season of major events such as the Busan International Film Festival; check the dates each year.', '釜山国際映画祭など大きなイベントが開かれる時期です。日程は毎年確認を。'],
     ],
     x: ['늦여름 태풍 때는 해안이 위험할 수 있습니다.', 'Late-summer typhoons can make the coast dangerous.', '晩夏の台風時は海岸が危険になることがあります。'],
   },
@@ -115,7 +115,7 @@ export const WHEN_1: Record<string, When> = {
   },
   gangneung: {
     p: [
-      ['6월 강릉단오제', 'June (Gangneung Danoje)', '6月（江陵端午祭）', '유네스코 인류무형문화유산인 단오 축제로, 전통 굿과 공연이 열립니다.', 'A UNESCO-listed Dano festival of rituals and performances.', 'ユネスコ無形文化遺産の端午祭で、伝統儀礼や公演が行われます。'],
+      ['음력 5월 단오 무렵 강릉단오제', 'Around Dano, 5th day of the 5th lunar month (Gangneung Danoje)', '旧暦5月の端午の頃（江陵端午祭）', '유네스코 인류무형문화유산인 단오 축제로, 전통 굿과 공연이 열립니다. 양력 날짜는 해마다 달라집니다.', 'A UNESCO-listed Dano festival of rituals and performances; the calendar dates change every year.', 'ユネスコ無形文化遺産の端午祭で、伝統儀礼や公演が行われます。新暦の日付は毎年変わります。'],
       ['7~8월 바다', 'July–August (sea)', '7〜8月（海）', '경포 해변 등 동해 해수욕을 즐기기 좋습니다.', 'Beach days at Gyeongpo and along the east coast.', '鏡浦ビーチなど東海の海水浴を楽しめます。'],
       ['1월 해돋이', 'January (New Year sunrise)', '1月（初日の出）', '정동진·경포에서 새해 해돋이를 보러 많이 찾습니다.', 'Crowds come to Jeongdongjin and Gyeongpo for the first sunrise of the year.', '正東津や鏡浦で初日の出を見に多くの人が訪れます。'],
     ],
@@ -160,7 +160,7 @@ export const WHEN_1: Record<string, When> = {
   },
   incheon: {
     p: [
-      ['봄·가을', 'Spring and autumn', '春・秋', '차이나타운·개항장 산책과 섬 여행(배편)에 날씨가 좋습니다.', 'Good weather for Chinatown, the open-port district and island ferries.', 'チャイナタウンや開港場の散策、島への船旅に好天が続きます。'],
+      ['봄', 'Spring', '春', '차이나타운·개항장 일대를 걷기 좋은 계절입니다. 섬 여행은 배편 운항 정보를 미리 확인하세요.', 'A pleasant season for walking around Chinatown and the open-port district; check ferry schedules for island trips.', 'チャイナタウンや開港場周辺の散策に向く季節です。島への旅は船の運航情報を事前に確認を。'],
       ['출국 전후', 'Before or after a flight', '出国の前後', '공항과 가까워 여행의 첫날이나 마지막 날 하루를 보내기 좋습니다.', 'Close to the airport, ideal for the first or last day of a trip.', '空港に近く、旅の初日や最終日に過ごしやすいです。'],
     ],
   },

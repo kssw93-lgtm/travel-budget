@@ -9,6 +9,7 @@ import { GUIDE_SOURCES } from '../data/city-guide-sources';
 import { CITY_INTROS } from '../data/city-intros';
 import { CITY_SEASONS } from '../data/city-seasons';
 import { CITY_WHEN } from '../data/city-when';
+import { WHEN_SOURCES } from '../data/city-when-sources';
 import { COUNTRY_GUIDES } from '../data/country-guides';
 import { DEFAULT_CURRENCY, fmt, localName, useI18n, type Lang } from '../i18n';
 import { InternalLink, type Go } from './App';
@@ -161,10 +162,13 @@ function WhenToGo({ city }: { city: City }) {
       <h2 id="guide-when-title">{fmt(g.whenTitle, { city: cityName(city, lang) })}</h2>
       {w && (
         <dl className="areas">
-          {w.p.map((p) => (
+          {w.p.map((p, k) => (
             <div key={p[1]}>
               <dt>{p[i]}</dt>
-              <dd>{p[3 + i]}</dd>
+              <dd>
+                {p[3 + i]}
+                <SourceLink url={WHEN_SOURCES[`${city.id}:p${k + 1}`]} />
+              </dd>
             </div>
           ))}
         </dl>
@@ -185,6 +189,7 @@ function WhenToGo({ city }: { city: City }) {
       {w?.x && (
         <p>
           <strong>{g.whenAvoid}</strong> {w.x[i]}
+          <SourceLink url={WHEN_SOURCES[`${city.id}:x`]} />
         </p>
       )}
       <p className="hint">{g.seasonHint}</p>

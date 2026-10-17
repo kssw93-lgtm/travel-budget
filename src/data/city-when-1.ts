@@ -59,7 +59,7 @@ export const WHEN_1: Record<string, When> = {
   },
   hiroshima: {
     p: [
-      ['봄·가을', 'Spring and autumn', '春・秋', '미야지마 산책과 평화공원 관람에 가장 쾌적하고, 11월에는 모미지다니 단풍이 아름답습니다.', 'Best for Miyajima walks and the Peace Park; November brings Momijidani’s autumn colours.', '宮島の散策や平和公園の見学に最も快適で、11月は紅葉谷の紅葉が見事です。'],
+      ['봄·가을', 'Spring and autumn', '春・秋', '미야지마와 평화기념공원 산책을 계획하기 좋습니다. 미야지마 모미지다니의 단풍은 보통 11월 무렵 절정입니다.', 'Good seasons to plan walks on Miyajima and in Peace Memorial Park. Foliage at Miyajima\'s Momijidani usually peaks around November.', '宮島や平和記念公園の散策を計画しやすい時期です。宮島の紅葉谷の紅葉は例年11月ごろが見頃です。'],
       ['8월 6일 평화기념식', '6 August (Peace Memorial Ceremony)', '8月6日（平和記念式典）', '원폭의 날 저녁, 강 위에 등불을 띄우는 등롱 흘리기가 열립니다.', 'On the anniversary evening, lanterns are floated on the river.', '原爆の日の夜、川に灯籠を流す灯籠流しが行われます。'],
     ],
     x: ['6~7월 장마철에는 비가 잦습니다.', 'Rain is frequent in the June–July rainy season.', '6〜7月の梅雨は雨が多いです。'],
@@ -79,17 +79,17 @@ export const WHEN_1: Record<string, When> = {
   fukuoka: {
     p: [
       ['7월 1~15일 하카타 기온 야마카사', '1–15 July (Hakata Gion Yamakasa)', '7月1〜15日（博多祇園山笠）', '무거운 가마를 메고 시내를 달리는 축제로, 15일 새벽의 경주가 하이라이트입니다.', 'Teams race huge floats through the streets, peaking at dawn on 15 July.', '重い舁き山を担いで街を駆け抜ける祭りで、15日早朝の追い山がハイライトです。'],
-      ['봄·가을', 'Spring and autumn', '春・秋', '포장마차(야타이)에서 밤바람을 맞으며 먹기 좋은 계절입니다.', 'The nicest seasons for eating outdoors at the yatai stalls.', '屋台で夜風に当たりながら食べるのに最適な季節です。'],
+      ['일 년 내내 야타이', 'Year-round (yatai food stalls)', '通年（屋台）', '후쿠오카의 야타이에서는 저녁 거리 분위기와 현지 음식을 함께 즐길 수 있습니다.', 'Fukuoka\'s yatai food stalls let you enjoy local dishes and the evening street atmosphere.', '福岡の屋台では、夜の街の雰囲気と地元の料理を一緒に楽しめます。'],
     ],
     x: ['늦여름 태풍 때는 항공편이 지연될 수 있습니다.', 'Late-summer typhoons can delay flights.', '晩夏の台風で飛行機が遅れることがあります。'],
   },
   sapporo: {
     p: [
-      ['2월 초 삿포로 눈축제', 'Early February (Sapporo Snow Festival)', '2月初め（さっぽろ雪まつり）', '오도리 공원에 거대한 눈·얼음 조각이 늘어서는 세계적인 겨울 축제입니다.', 'A world-famous winter festival of giant snow and ice sculptures in Odori Park.', '大通公園に巨大な雪像・氷像が並ぶ世界的な冬の祭りです。'],
-      ['7월 라벤더', 'July (lavender)', '7月（ラベンダー）', '후라노·비에이의 라벤더 밭이 절정이고, 본토보다 선선합니다.', 'Furano and Biei lavender fields peak, and it is cooler than the mainland.', '富良野・美瑛のラベンダー畑が見頃で、本州より涼しいです。'],
-      ['12~3월 스키', 'December–March (skiing)', '12〜3月（スキー）', '근교 니세코·데이네 등 파우더 스노 스키장을 즐길 수 있습니다.', 'Powder skiing at nearby resorts such as Niseko and Teine.', '近郊のニセコや手稲などでパウダースノーのスキーが楽しめます。'],
+      ['2월 초 삿포로 눈축제', 'Early February (Sapporo Snow Festival)', '2月初め（さっぽろ雪まつり）', '오도리 공원에서 대형 눈 조각을 볼 수 있습니다. 연도별 개최 날짜를 확인하세요.', 'In early February, the Sapporo Snow Festival displays large snow sculptures in Odori Park. Check each year\'s dates.', '2月上旬のさっぽろ雪まつりでは、大通公園で大きな雪像を見られます。開催日は毎年確認してください。'],
+      ['7월 중순~8월 라벤더', 'Mid-July–August (lavender)', '7月中旬〜8月（ラベンダー）', '후라노·나카후라노 일대에서 라벤더를 볼 수 있습니다.', 'From mid-July into August, see lavender around Furano and Nakafurano.', '7月中旬から8月にかけて、富良野・中富良野周辺でラベンダーを楽しめます。'],
+      ['겨울 스키', 'Winter (skiing)', '冬（スキー）', '삿포로 근처 스키장과 니세코 지역에서 파우더 스노를 즐길 수 있습니다. 운영 기간은 스키장별로 확인하세요.', 'Winter skiing is available near Sapporo and in the Niseko area, with powder snow conditions. Check each resort\'s season.', '冬は札幌近郊やニセコ地域のスキー場でパウダースノーを楽しめます。営業期間は各施設で確認してください。'],
     ],
-    x: ['눈축제 기간에는 숙소가 매우 빨리 차니 일찍 예약하세요.', 'Hotels fill very early for the Snow Festival; book ahead.', '雪まつり期間は宿がすぐ埋まるので早めの予約を。'],
+    x: ['눈축제 방문객이 많으므로 축제 기간에 맞춰 여행한다면 숙소를 미리 알아보세요.', 'The Snow Festival draws many visitors, so look for accommodation early if traveling during the event.', '雪まつりには多くの来場者が集まるため、期間中の旅行なら宿泊先を早めに探しましょう。'],
   },
   seoul: {
     p: [
@@ -101,7 +101,7 @@ export const WHEN_1: Record<string, When> = {
   },
   busan: {
     p: [
-      ['7~8월 해수욕', 'July–August (beach season)', '7〜8月（海水浴）', '해운대·광안리 해수욕장이 개장하고 밤바다 분위기가 가장 활기찹니다.', 'Haeundae and Gwangalli beaches open and the seaside nights are at their liveliest.', '海雲台・広安里の海水浴場が開き、夜の海辺が最もにぎわいます。'],
+      ['여름 해수욕철', 'Summer (beach season)', '夏（海水浴シーズン）', '해운대·광안리 해수욕장이 운영됩니다. 개장 날짜는 해마다 확인하세요.', 'Summer beach season brings swimming at Haeundae and Gwangalli. Check each year\'s opening dates.', '夏の海水浴シーズンには海雲台と広安里の海水浴場が開きます。開設日は毎年確認してください。'],
       ['가을 부산국제영화제', 'Autumn (Busan International Film Festival)', '秋（釜山国際映画祭）', '부산국제영화제 등 큰 행사가 열리는 시기입니다. 행사 일정은 해마다 확인하세요.', 'Season of major events such as the Busan International Film Festival; check the dates each year.', '釜山国際映画祭など大きなイベントが開かれる時期です。日程は毎年確認を。'],
     ],
     x: ['늦여름 태풍 때는 해안이 위험할 수 있습니다.', 'Late-summer typhoons can make the coast dangerous.', '晩夏の台風時は海岸が危険になることがあります。'],
@@ -129,26 +129,26 @@ export const WHEN_1: Record<string, When> = {
   yeosu: {
     p: [
       ['3월 오동도 동백꽃', 'March (camellias on Odongdo)', '3月（梧桐島の椿）', '붉은 동백꽃이 섬 숲을 덮는 시기입니다.', 'Red camellias cover the island’s woods.', '赤い椿が島の森を覆う時期です。'],
-      ['여름 밤바다', 'Summer nights by the sea', '夏の夜の海', '해상 케이블카와 낭만포차 거리의 밤바다 분위기가 가장 좋습니다.', 'The sea cable car and seaside stalls are at their best on summer nights.', '海上ケーブルカーや海辺の屋台通りの夜の雰囲気が最高です。'],
+      ['여름 밤바다', 'Summer nights by the sea', '夏の夜の海', '해상 케이블카에서 야경을 보고 하멜등대 근처 낭만포차 거리를 걸어보세요.', 'Take in the night view from the marine cable car, then stroll past the seaside stalls near Hamel Lighthouse.', '夏の麗水の夜は、海上ケーブルカーから夜景を眺め、ハメル灯台近くの屋台通りを歩いてみましょう。'],
     ],
   },
   jeonju: {
     p: [
-      ['5월 전주국제영화제', 'May (Jeonju International Film Festival)', '5月（全州国際映画祭）', '독립·예술 영화 중심의 영화제로 도시 전체가 활기찹니다.', 'An independent-film festival that livens up the whole city.', 'インディーズ・アート系中心の映画祭で、街全体がにぎわいます。'],
+      ['4월 말~5월 초 전주국제영화제', 'Late April–early May (Jeonju International Film Festival)', '4月末〜5月初め（全州国際映画祭）', '독립·예술 영화 중심의 상영과 행사가 전주 곳곳에서 열립니다.', 'Independent and art films, screenings and events take place around the city.', '4月末～5月初めの全州国際映画祭では、インディペンデント映画や芸術映画の上映と催しが市内各地で開かれます。'],
       ['10~11월 가을', 'October–November (autumn)', '10〜11月（秋）', '한옥마을 은행나무와 경기전 단풍이 아름답고 걷기 좋습니다.', 'Golden ginkgos in the hanok village and autumn colour at Gyeonggijeon.', '韓屋村のイチョウや慶基殿の紅葉が美しく、歩きやすいです。'],
     ],
   },
   sokcho: {
     p: [
-      ['10월 설악산 단풍', 'October (Seoraksan foliage)', '10月（雪岳山の紅葉）', '한국에서 가장 먼저 단풍이 드는 산 중 하나로, 케이블카와 등산로가 붐빕니다.', 'One of Korea’s first mountains to change colour; the cable car and trails get busy.', '韓国で最も早く紅葉する山の一つで、ケーブルカーや登山道がにぎわいます。'],
+      ['10월 설악산 단풍', 'October (Seoraksan foliage)', '10月の雪岳山の紅葉', '국내에서 이른 편에 드는 단풍 명소입니다. 단풍철에는 케이블카 대기를 감안하세요.', 'One of Korea\'s earlier autumn-colour destinations. Allow for cable-car waits during foliage season.', '韓国でも早い時期に色づく紅葉の名所です。紅葉シーズンはロープウェイの待ち時間を見込んでください。'],
       ['7~8월 바다', 'July–August (sea)', '7〜8月（海）', '속초해변 해수욕과 시장 먹거리를 함께 즐기기 좋습니다.', 'Beach days plus the market’s seafood snacks.', '束草ビーチの海水浴と市場グルメを一緒に楽しめます。'],
     ],
-    x: ['단풍철 주말은 교통 체증이 심합니다.', 'Foliage-season weekends bring heavy traffic.', '紅葉シーズンの週末は渋滞がひどいです。'],
+    x: ['단풍철 주말에는 설악산 케이블카와 주변 이동에 여유 시간을 잡으세요.', 'On foliage-season weekends, leave extra time for the Seoraksan cable car and travel nearby.', '紅葉シーズンの週末は、雪岳山ロープウェイと周辺の移動に余裕を持たせましょう。'],
   },
   tongyeong: {
     p: [
-      ['봄·가을', 'Spring and autumn', '春・秋', '섬 여행과 케이블카, 한려수도 전망을 맑은 날씨에 즐기기 좋습니다.', 'Clear days for island trips, the cable car and Hallyeo Waterway views.', '島巡りやケーブルカー、閑麗水道の眺めを晴天で楽しめます。'],
-      ['11~2월 굴 제철', 'November–February (oyster season)', '11〜2月（牡蠣の旬）', '전국 굴 생산의 중심지라 겨울 굴 요리를 맛보기 좋습니다.', 'The centre of Korea’s oyster farming; winter is the time to eat them.', '韓国の牡蠣生産の中心地で、冬の牡蠣料理が味わえます。'],
+      ['봄·가을', 'Spring and autumn', '春・秋', '섬 여행과 미륵산 케이블카를 계획하기 좋습니다. 한려수도 전망은 당일 날씨를 확인하세요.', 'Plan an island trip and the Mireuksan cable car, and check the day\'s weather for Hallyeo Waterway views.', '島めぐりや弥勒山ロープウェイを計画しやすい時期です。閑麗水道の眺望は当日の天気を確認しましょう。'],
+      ['11~3월 굴 철', 'November–March oyster season', '11～3月のカキの季節', '통영의 식당에서 제철 굴 요리를 맛보기 좋습니다.', 'Try seasonal oyster dishes at restaurants in Tongyeong.', '統営の食堂で旬のカキ料理を楽しめます。'],
     ],
   },
   daegu: {
@@ -156,12 +156,12 @@ export const WHEN_1: Record<string, When> = {
       ['7월 치맥 페스티벌', 'July (Chimac Festival)', '7月（チメクフェスティバル）', '치킨과 맥주를 즐기는 여름 축제로 많은 사람이 찾습니다.', 'A summer festival of fried chicken and beer that draws big crowds.', 'チキンとビールを楽しむ夏祭りで、多くの人が訪れます。'],
       ['봄·가을', 'Spring and autumn', '春・秋', '근대골목과 팔공산을 걷기 좋은 날씨입니다.', 'Pleasant weather for the heritage alleys and Palgongsan.', '近代路地や八公山を歩くのに快適な気候です。'],
     ],
-    x: ['한여름은 한국에서 가장 더운 편입니다.', 'Summers are among Korea’s hottest.', '夏は韓国で最も暑い部類です。'],
+    x: ['한여름에는 대구의 폭염에 대비하세요.', 'Prepare for extreme heat in Daegu during midsummer.', '真夏の大邱では猛暑に備えましょう。'],
   },
   incheon: {
     p: [
       ['봄', 'Spring', '春', '차이나타운·개항장 일대를 걷기 좋은 계절입니다. 섬 여행은 배편 운항 정보를 미리 확인하세요.', 'A pleasant season for walking around Chinatown and the open-port district; check ferry schedules for island trips.', 'チャイナタウンや開港場周辺の散策に向く季節です。島への旅は船の運航情報を事前に確認を。'],
-      ['출국 전후', 'Before or after a flight', '出国の前後', '공항과 가까워 여행의 첫날이나 마지막 날 하루를 보내기 좋습니다.', 'Close to the airport, ideal for the first or last day of a trip.', '空港に近く、旅の初日や最終日に過ごしやすいです。'],
+      ['여행 첫날이나 마지막 날', 'First or last day of a trip', '旅の初日・最終日', '인천공항 일정을 고려해 차이나타운이나 영종도 관광을 계획할 수 있습니다. 이동 시간은 별도로 확인하세요.', 'You can plan a visit to Chinatown or Yeongjongdo around an Incheon Airport itinerary. Check the travel time separately.', '仁川空港の予定に合わせてチャイナタウンや永宗島の観光を計画できます。移動時間は別途確認しましょう。'],
     ],
   },
 };

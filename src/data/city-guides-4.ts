@@ -9,8 +9,8 @@ export const NOTES_4: Record<string, Compact> = {
       ['아바이마을 갯배', 'Abai Village and Gaetbae ferry', 'アバイ村とケッペ', '줄을 당겨 건너는 작은 배로 실향민 마을 아바이마을에 갑니다.', 'Pull yourself across on the rope ferry to Abai Village, settled by North Korean refugees.', 'ロープを引いて渡る小舟で、失郷民の村アバイ村へ行きます。'],
     ],
     t: [
-      ['설악산 케이블카는 주말·단풍철에 대기가 길어 이른 시간에 가는 것이 좋습니다.', 'The Seoraksan cable car has long waits on weekends and in foliage season; go early.', '雪岳山ロープウェイは週末や紅葉シーズンに待ち時間が長いので早めに。'],
-      ['영랑호·청초호 주변 산책로는 해 질 녘 걷기 좋습니다.', 'The paths around Yeongnangho and Cheongchoho lakes are lovely at sunset.', '永郎湖・青草湖周辺の散歩道は夕暮れどきにおすすめです。'],
+      ['설악산 케이블카는 사전 예약 없이 당일 현장에서만 표를 팝니다. 주말에는 대기가 생길 수 있으니 운행시간을 확인하고 여유 있게 방문하세요.', 'Seorak Cable Car sells tickets on site only, with no advance reservations. Weekend waits are possible, so check operating hours and allow extra time.', '雪岳山ケーブルカーのチケットは予約できず、当日の現地販売のみです。週末は待ち時間が生じることがあるため、運行時間を確認して余裕を持って訪れましょう。'],
+      ['영랑호와 청초호 주변 산책로를 걸어보세요. 청초호는 밤에 조명이 켜진 풍경도 볼 수 있습니다.', 'Walk the paths around Yeongnangho and Cheongchoho lakes. Cheongchoho is also lit up at night.', '永郎湖と青草湖の周辺を散策してみましょう。青草湖では夜のライトアップも楽しめます。'],
     ],
   },
   sydney: {
@@ -42,7 +42,7 @@ export const NOTES_4: Record<string, Compact> = {
       ['하즈라티 이맘 단지', 'Hazrati Imam Complex', 'ハズラティ・イマーム', '모스크와 마드라사가 모인 이슬람 종교 단지입니다.', 'A religious complex of mosques and madrasas.', 'モスクとマドラサが集まるイスラムの宗教施設群です。'],
     ],
     t: [
-      ['사마르칸트·부하라는 고속열차(아프로시욥)로 갈 수 있지만 표가 빨리 매진되니 미리 예매하세요.', 'High-speed Afrosiyob trains reach Samarkand and Bukhara but sell out; book ahead.', 'サマルカンドやブハラへは高速鉄道で行けますが、早く売り切れるので事前予約を。'],
+      ['타슈켄트에서 사마르칸트·부하라로 가는 아프로시욥 고속열차는 성수기에 표를 미리 예매하세요.', 'Book Afrosiyob high-speed train tickets from Tashkent to Samarkand and Bukhara in advance, especially in peak season.', 'タシュケントからサマルカンド・ブハラへ向かう高速列車アフラシアブの切符は、繁忙期には早めに予約しましょう。'],
       ['모스크에 들어갈 때는 어깨와 무릎을 가리고, 여성은 머리를 가릴 스카프를 챙기면 좋습니다.', 'Cover shoulders and knees at mosques; women may want a headscarf.', 'モスクでは肩と膝を隠し、女性はスカーフがあると安心です。'],
     ],
   },
@@ -61,11 +61,11 @@ export const NOTES_4: Record<string, Compact> = {
     h: [
       ['동피랑 벽화마을', 'Dongpirang Mural Village', '東ピラン壁画村', '언덕 골목이 벽화로 꾸며진 마을. 위에서 강구안 항구가 보입니다.', 'A hillside village of murals overlooking Gangguan harbour.', '坂道の路地が壁画で彩られた村。上から港が見えます。'],
       ['통영 케이블카와 미륵산', 'Tongyeong cable car and Mireuksan', '統営ケーブルカーと弥勒山', '케이블카로 올라 한려수도의 섬들을 내려다봅니다.', 'Ride up to view the islands of Hallyeosudo.', 'ケーブルカーで上り、閑麗水道の島々を見下ろします。'],
-      ['중앙시장', 'Jungang Market', '中央市場', '충무김밥과 꿀빵, 활어회를 맛볼 수 있는 항구 앞 시장입니다.', 'The harbour market for chungmu gimbap, honey bread and fresh fish.', '忠武キンパやクルパン、刺身が味わえる港の市場です。'],
+      ['중앙시장', 'Jungang Market', '中央市場', '강구안 항구 앞 시장으로 활어·건어물을 둘러볼 수 있습니다. 인근에서 충무김밥과 꿀빵도 찾아보세요.', 'Browse fresh and dried fish at this market by Gangguan Port, then look for chungmu gimbap and honey bread nearby.', '江口岸港の前にある市場で鮮魚や干物を見て回れます。近くで忠武キンパやクルパンも探してみましょう。'],
     ],
     t: [
-      ['섬 여행(소매물도·욕지도 등)은 배편이 날씨에 따라 결항될 수 있어 전날 운항 여부를 확인하세요.', 'Island ferries (Somaemuldo, Yokjido) can be cancelled for weather; check the day before.', '島へのフェリーは天候で欠航することがあるので、前日に運航を確認しましょう。'],
-      ['굴이 유명해 겨울(11~2월)에는 굴 요리를 맛보러 오는 여행자가 많습니다.', 'Famous for oysters; winter (November–February) draws visitors for oyster dishes.', '牡蠣が有名で、冬（11〜2月）は牡蠣料理目当ての旅行者が多いです。'],
+      ['소매물도·욕지도 등 섬 배편은 기상에 따라 변경·결항될 수 있으니 출발 전 선사에 운항 여부를 확인하세요.', 'Ferries to islands such as Somaemuldo and Yokjido may change or be cancelled because of weather; confirm the sailing with the operator before departure.', '小毎勿島や欲知島などへの船は天候により変更・欠航する場合があります。出発前に運航会社へ確認してください。'],
+      ['통영은 굴 산지입니다. 겨울에 제철 굴 요리를 맛보세요.', 'Tongyeong is an oyster-producing area. Try seasonal oyster dishes in winter.', '統営はカキの産地です。冬には旬のカキ料理を味わってみましょう。'],
     ],
   },
   ulaanbaatar: {
@@ -76,7 +76,7 @@ export const NOTES_4: Record<string, Compact> = {
     ],
     t: [
       ['시내 교통 체증이 심해 출퇴근 시간에는 이동 시간을 넉넉히 잡으세요.', 'Traffic is heavy; allow extra time at rush hour.', '渋滞がひどいので、通勤時間帯は移動時間に余裕を。'],
-      ['겨울은 영하 30도 아래로 내려가는 날이 있어 6~8월이 여행하기 가장 좋습니다.', 'Winters can drop below −30°C; June to August is the easiest time to visit.', '冬は氷点下30度以下になる日もあり、6〜8月が最も旅行しやすいです。'],
+      ['겨울은 매우 춥고 6~8월은 초원 여행을 즐기기 좋은 시기입니다. 계절별 날씨를 확인해 방한 준비를 하세요.', 'Winters are very cold, while June to August is a good period for grassland travel. Check seasonal weather and pack suitable warm clothing.', '冬は非常に寒く、6～8月は草原の旅を楽しみやすい時期です。季節ごとの天候を確認し、防寒の準備をしましょう。'],
     ],
   },
   vancouver: {
@@ -86,7 +86,7 @@ export const NOTES_4: Record<string, Compact> = {
       ['캐필라노 서스펜션 브리지', 'Capilano Suspension Bridge', 'キャピラノ吊り橋', '깊은 협곡 위에 걸린 흔들다리와 숲속 산책로입니다.', 'A swaying bridge over a deep canyon, with forest walkways.', '深い渓谷にかかる吊り橋と森の遊歩道です。'],
     ],
     t: [
-      ['식당 메뉴 가격에는 세금(GST, 주류에는 주세 포함)과 팁이 빠져 있습니다.', 'Menu prices exclude GST (plus liquor tax on drinks) and tip.', 'メニュー価格に税（GST、酒類は酒税）とチップは含まれません。'],
+      ['밴쿠버 식당에서는 식사에 GST가 적용되고, 주류에는 별도 주세도 붙습니다. 팁은 보통 계산서와 별도로 정하므로 최종 금액을 확인하세요.', 'Restaurant meals in Vancouver are subject to GST, and alcohol also carries a separate provincial tax. Tips are usually decided separately, so check the final bill.', 'バンクーバーの飲食店では食事にGSTがかかり、酒類には州税も加わります。チップは通常別途決めるため、最終的な請求額を確認しましょう。'],
       ['비가 잦은 도시라 가을·겨울에는 방수 겉옷을 챙기세요.', 'It rains often, especially autumn and winter; bring a waterproof jacket.', '雨が多い街なので、秋冬は防水の上着を持参しましょう。'],
     ],
   },
@@ -128,11 +128,11 @@ export const NOTES_4: Record<string, Compact> = {
 /** 볼거리·팁 보강(기존 항목 뒤에 이어 붙인다) */
 export const NOTES_EXTRA: Record<string, Compact> = {
   boracay: {
-    h: [['디니위드 비치', 'Diniwid Beach', 'ディニウィッド・ビーチ', '화이트 비치 북쪽 끝 언덕 너머의 작은 해변. 조용히 노을을 보기 좋습니다.', 'A small cove past the north end of White Beach, quiet for sunsets.', 'ホワイトビーチ北端の丘の向こうにある小さなビーチ。静かに夕日を眺められます。']],
-    t: [['화이트 비치는 스테이션 1·2·3 구역으로 나뉘며, 1번은 한적하고 2번은 식당·상점이 가장 많습니다.', 'White Beach is split into Stations 1–3: Station 1 is calmer, Station 2 has the most restaurants and shops.', 'ホワイトビーチはステーション1〜3に分かれ、1は静か、2は飲食店や店が最も多いです。']],
+    h: [['디니위드 비치', 'Diniwid Beach', 'ディニウィッド・ビーチ', '화이트 비치 스테이션 1 너머의 작은 해변으로, 한적하게 바다를 바라보기 좋습니다.', 'A small, quieter beach beyond White Beach Station 1 where you can relax by the sea.', 'ホワイトビーチのステーション1の先にある小さなビーチで、静かに海を眺められます。']],
+    t: [['화이트 비치는 스테이션 1·2·3으로 나뉩니다. 스테이션 2에 식당과 상점이 집중되고, 3은 비교적 한적합니다.', 'White Beach is divided into Stations 1, 2 and 3. Restaurants and shops cluster around Station 2, while Station 3 is relatively quieter.', 'ホワイトビーチはステーション1・2・3に分かれます。飲食店や店はステーション2に集まり、3は比較的静かです。']],
   },
   brussels: {
-    h: [['오줌싸개 동상', 'Manneken Pis', '小便小僧', '그랑플라스 근처의 작은 청동상. 날마다 다른 옷을 입히는 행사가 있습니다.', 'The tiny bronze statue near the Grand-Place, regularly dressed in costumes.', 'グラン・プラス近くの小さな銅像。衣装を着せる行事があります。']],
+    h: [['오줌싸개 동상', 'Manneken Pis', '小便小僧', '그랑플라스 근처의 작은 청동상입니다. 특별한 날이나 행사에 맞춰 다양한 의상을 입습니다.', 'Manneken-Pis is a small bronze statue near Grand-Place. It wears different costumes for special dates and events.', '小便小僧はグランプラス近くにある小さな銅像です。記念日や行事に合わせてさまざまな衣装を着ます。']],
     t: [['감자튀김(프리트)은 전문 가게에서 원뿔 종이에 담아 소스를 골라 먹는 것이 현지식입니다.', 'Fries are best from a friterie, served in a paper cone with your choice of sauce.', 'フリット（フライドポテト）は専門店で円錐の紙に入れ、ソースを選んで食べるのが地元流です。']],
   },
   cancun: {
@@ -149,10 +149,10 @@ export const NOTES_EXTRA: Record<string, Compact> = {
   },
   'siem-reap': {
     h: [['펍 스트리트·야시장', 'Pub Street and night markets', 'パブストリートとナイトマーケット', '저녁이면 식당·바와 기념품 시장이 모여 활기를 띠는 거리입니다.', 'The evening hub of restaurants, bars and souvenir markets.', '夕方になると飲食店やバー、土産物市場でにぎわう通りです。']],
-    t: [['유적은 넓게 흩어져 있어 툭툭을 하루 단위로 빌려 도는 여행자가 많습니다.', 'The temples are spread out, so many travellers hire a tuk-tuk for the day.', '遺跡が広く点在しているので、トゥクトゥクを1日貸し切って回る旅行者が多いです。']],
+    t: [['앙코르 유적은 여러 사원으로 넓게 펼쳐져 있습니다. 툭툭·택시·자전거 등으로 작은 순환 코스나 큰 순환 코스를 계획해 둘러보세요.', 'Angkor\'s temples are spread across a wide area. Plan a small or grand circuit using a tuk-tuk, taxi, or bicycle.', 'アンコールの寺院は広い範囲に点在しています。トゥクトゥク、タクシー、自転車などで小回り・大回りの巡回ルートを計画しましょう。']],
   },
   ulaanbaatar: {
     h: [['몽골 국립박물관', 'National Museum of Mongolia', 'モンゴル国立博物館', '선사시대부터 몽골 제국과 유목 생활까지 보여 주는 박물관입니다.', 'Covers prehistory, the Mongol Empire and nomadic life.', '先史時代からモンゴル帝国、遊牧生活までを紹介する博物館です。']],
-    t: [['7월 나담 축제 기간에는 씨름·말 경주·활쏘기를 볼 수 있지만 숙소가 빨리 찹니다.', 'The July Naadam festival brings wrestling, horse racing and archery, and hotels fill fast.', '7月のナーダム祭ではモンゴル相撲・競馬・弓射が見られますが、宿がすぐ埋まります。']],
+    t: [['7월 나담 축제에서는 씨름·말 경주·활쏘기를 볼 수 있습니다. 인기 행사라 관람권과 숙소를 일찍 확인하세요.', 'The July Naadam festival features wrestling, horse racing and archery. Check tickets and accommodation early for this popular event.', '7月のナーダム祭ではモンゴル相撲・競馬・弓射が見られます。人気の行事なので、観覧券と宿泊先は早めに確認しましょう。']],
   },
 };

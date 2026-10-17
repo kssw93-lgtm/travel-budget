@@ -10,7 +10,7 @@ export const NOTES_2: Record<string, Compact> = {
     ],
     t: [
       ['여름(6~9월)은 한낮 기온이 매우 높아 야외 관광은 아침이나 저녁에 하는 것이 좋습니다.', 'Summer (June–September) is extremely hot; do outdoor sightseeing early or late.', '夏（6〜9月）は日中が非常に暑いので、屋外観光は朝か夕方に。'],
-      ['모스크 방문이나 라마단 기간에는 어깨·무릎을 가리는 옷이 예의입니다.', 'Cover shoulders and knees when visiting mosques and during Ramadan.', 'モスク訪問やラマダン期間は肩と膝を隠す服装がマナーです。'],
+      ['모스크에서는 어깨와 팔·다리를 가리는 단정한 옷을 입고, 여성은 머리를 가릴 스카프도 준비하세요.', 'For mosque visits, wear modest clothing that covers shoulders, arms, and legs; women should also bring a headscarf.', 'モスクを訪れる際は肩・腕・脚を覆う服装にし、女性は頭を覆うスカーフも用意しましょう。'],
     ],
   },
   dubrovnik: {
@@ -21,7 +21,7 @@ export const NOTES_2: Record<string, Compact> = {
     ],
     t: [
       ['크루즈선이 들어오는 낮 시간에는 구시가지가 매우 붐빕니다. 성벽은 아침 일찍이나 늦은 오후가 좋습니다.', 'Cruise crowds pack the Old Town at midday; walk the walls early or late afternoon.', 'クルーズ船の寄港時間は旧市街が混むので、城壁は朝早くか夕方に。'],
-      ['구시가지 바닥 돌이 미끄러우니 밑창이 좋은 신발을 신으세요.', 'The polished stones are slippery; wear shoes with good grip.', '石畳が滑りやすいので、滑りにくい靴で。'],
+      ['구시가지의 매끈한 돌길과 성벽 계단을 걸을 때는 미끄럼에 주의하고 밑창이 잘 잡히는 신발을 신으세요.', 'Take care on the Old Town\'s smooth stone streets and the city wall steps, and wear shoes with good grip.', '旧市街の滑らかな石畳や城壁の階段では滑らないよう注意し、滑りにくい靴を履いてください。'],
     ],
   },
   florence: {
@@ -32,7 +32,7 @@ export const NOTES_2: Record<string, Compact> = {
     ],
     t: [
       ['아카데미아 미술관(다비드상)과 우피치는 줄이 길어 시간 지정 예약을 하는 것이 좋습니다.', 'The Accademia (David) and Uffizi have long queues; book timed entry.', 'アカデミア美術館（ダビデ像）とウフィツィは行列が長いので時間指定予約を。'],
-      ['시내 숙박에는 숙박세가 따로 붙으니 체크인 때 현장 결제를 준비하세요.', 'Hotels add a city tourist tax payable on site, so be ready at check-in.', '宿泊には観光税が別にかかるので、チェックイン時の現地払いに備えましょう。'],
+      ['피렌체 숙소에는 숙박세가 적용될 수 있으니 예약 내역에서 포함 여부와 결제 시점을 확인하세요.', 'A tourist tax may apply to accommodation in Florence; check your booking to see whether it is included and when it is collected.', 'フィレンツェの宿泊には宿泊税がかかる場合があります。予約内容で税の包含と支払い時期を確認してください。'],
     ],
   },
   guam: {
@@ -43,7 +43,7 @@ export const NOTES_2: Record<string, Compact> = {
     ],
     t: [
       ['GMTA 버스 노선이 있지만 렌터카로 다니는 여행자가 많습니다. 운전은 오른쪽 차선이고, 버스 운행 정보는 미리 확인하세요.', 'GMTA buses run on Guam, but many visitors rent a car; driving is on the right, and check bus schedules in advance.', 'GMTAのバス路線がありますが、レンタカーで回る旅行者が多いです。右側通行で、バスの運行情報は事前に確認を。'],
-      ['미국령이라 식당 메뉴 가격에 팁이 포함되지 않은 경우가 많습니다.', 'As a US territory, menu prices usually exclude the tip.', 'アメリカ領のため、メニュー価格にチップは含まれないことが多いです。'],
+      ['괌 식당에서는 팁을 남기는 관행이 있지만 선택 사항입니다. 계산서에 서비스료가 이미 붙었는지 확인하세요.', 'Tipping at restaurants in Guam is customary but optional. Check whether a service charge is already on the bill.', 'グアムの飲食店ではチップを渡す習慣がありますが、任意です。会計にサービス料が含まれているか確認しましょう。'],
     ],
   },
   'ho-chi-minh-city': {
@@ -53,8 +53,8 @@ export const NOTES_2: Record<string, Compact> = {
       ['전쟁기념관', 'War Remnants Museum', '戦争証跡博物館', '베트남 전쟁의 기록과 사진을 전시하는 박물관입니다.', 'A museum documenting the Vietnam War through photographs and exhibits.', 'ベトナム戦争の記録と写真を展示する博物館です。'],
     ],
     t: [
-      ['오토바이가 많아 길을 건널 때는 일정한 속도로 천천히 걸으면 운전자가 피해 갑니다.', 'Cross streets at a slow steady pace and the motorbikes will flow around you.', 'バイクが多いので、道を渡るときは一定のゆっくりした速さで歩くと避けてくれます。'],
-      ['그랩 등 차량 호출 앱을 쓰면 요금을 미리 알 수 있어 흥정할 필요가 없습니다.', 'Ride-hailing apps such as Grab show the fare upfront, so no haggling.', 'Grabなどの配車アプリなら料金が事前にわかり、交渉不要です。'],
+      ['오토바이가 많은 도로를 건널 때는 횡단보도를 이용하고, 초록불이어도 양쪽 차량을 확인하세요. 운전자가 알아서 피할 것이라고 믿고 걷지 마세요.', 'When crossing motorbike-heavy roads, use a crossing and check traffic in both directions even on a green signal. Do not assume drivers will move around you.', 'バイクの多い道路を渡るときは横断歩道を使い、青信号でも左右の車両を確認してください。運転者が必ず避けてくれると思って歩かないでください。'],
+      ['그랩의 GrabCar는 예약 전에 앱에 확정 요금이 표시되어 흥정할 필요가 없습니다. GrabTaxi는 미터 요금이므로 차량 유형을 확인하세요.', 'GrabCar shows a fixed fare in the app before booking, so there is no need to haggle. GrabTaxi uses a meter; check which service you select.', 'GrabのGrabCarは予約前に確定運賃がアプリに表示され、値段交渉は不要です。GrabTaxiはメーター制なので、選んだ車種を確認しましょう。'],
     ],
   },
   incheon: {
@@ -64,8 +64,8 @@ export const NOTES_2: Record<string, Compact> = {
       ['송도 센트럴파크', 'Songdo Central Park', '松島セントラルパーク', '고층 빌딩 사이 수로에서 보트를 탈 수 있는 공원입니다.', 'A park with a canal for boating between high-rise towers.', '高層ビルの間の水路でボートに乗れる公園です。'],
     ],
     t: [
-      ['인천공항에서 출국 전 반나절이 남으면 공항철도로 차이나타운(인천역)까지 다녀올 수 있습니다.', 'With half a day before a flight, take the airport railroad and subway to Chinatown (Incheon Station).', '出国前に半日あれば、空港鉄道と地下鉄でチャイナタウン（仁川駅）まで行けます。'],
-      ['월미도·영종도 바닷가는 해 질 녘 풍경이 좋습니다.', 'The waterfronts at Wolmido and Yeongjongdo are lovely at sunset.', '月尾島や永宗島の海辺は夕暮れの景色が素敵です。'],
+      ['출국 전 차이나타운을 들를 계획이라면 공항 왕복 시간과 환승 경로를 먼저 확인하세요. 차이나타운은 인천역 맞은편입니다.', 'If you plan to visit Chinatown before departure, check the round-trip travel time and transfer route to the airport first. Chinatown is across from Incheon Station.', '出国前にチャイナタウンへ立ち寄る場合は、空港との往復時間と乗り換え経路を先に確認しましょう。チャイナタウンは仁川駅の向かいです。'],
+      ['월미도에서는 서해 바다 전망을, 영종도 해변에서는 석양을 즐겨보세요.', 'Enjoy West Sea views on Wolmido and the sunset at a Yeongjongdo beach.', '月尾島では西海の眺めを、永宗島の海辺では夕日を楽しんでみましょう。'],
     ],
   },
   kaohsiung: {
@@ -108,7 +108,7 @@ export const NOTES_2: Record<string, Compact> = {
       ['28번 트램', 'Tram 28', '28番トラム', '언덕 동네를 지나는 옛 노란 트램 노선입니다.', 'The vintage yellow tram that climbs through the old neighbourhoods.', '丘の街を走る昔ながらの黄色いトラムです。'],
     ],
     t: [
-      ['언덕과 미끄러운 돌길이 많아 편한 운동화가 필수입니다.', 'Steep hills and slippery cobbles make comfy trainers a must.', '坂と滑りやすい石畳が多いので、歩きやすい靴が必須です。'],
+      ['리스본에는 언덕과 돌로 포장된 길이 많습니다. 걷기 편하고 미끄럼을 덜 타는 신발을 준비하세요.', 'Lisbon has many hills and stone-paved streets. Bring comfortable shoes with good grip for walking.', 'リスボンには坂道や石畳が多くあります。歩きやすく滑りにくい靴を用意しましょう。'],
       ['식당에서 앉자마자 나오는 빵·올리브는 먹으면 요금이 붙습니다. 원하지 않으면 돌려보내도 됩니다.', 'Bread and olives brought to the table are charged if eaten; you can send them back.', '席に着くと出てくるパンやオリーブは食べると料金がかかります。不要なら下げてもらえます。'],
     ],
   },

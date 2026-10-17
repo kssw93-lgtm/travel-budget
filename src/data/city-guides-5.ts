@@ -20,14 +20,14 @@ export const NOTES_5: Record<string, Compact> = {
       ['자갈치시장', 'Jagalchi Fish Market', 'チャガルチ市場', '국내 최대 수산시장. 1층에서 고른 생선을 위층 식당에서 먹을 수 있습니다.', 'Korea’s biggest fish market; pick seafood downstairs and eat it upstairs.', '国内最大の水産市場。1階で選んだ魚を上の階の食堂で食べられます。'],
     ],
     t: [
-      ['해변열차·스카이캡슐이 다니는 해운대 블루라인파크는 주말에 매진되기 쉬워 미리 예약하세요.', 'The Haeundae Blueline Park beach train and sky capsules sell out on weekends; book ahead.', '海雲台ブルーラインパークの海辺列車とスカイカプセルは週末に売り切れやすいので予約を。'],
-      ['돼지국밥·밀면 같은 부산 음식은 오래된 노포가 많은 서면·남포동에서 찾기 쉽습니다.', 'Look for dwaeji-gukbap and milmyeon in the old shops of Seomyeon and Nampo-dong.', 'テジクッパやミルミョンは老舗の多い西面や南浦洞で見つけやすいです。'],
+      ['해운대 블루라인파크의 해변열차·스카이캡슐은 온라인 예매가 가능하고 현장 표가 일찍 소진될 수 있으니 방문 전 예약 현황을 확인하세요.', 'The Haeundae Blueline Park Beach Train and Sky Capsule can be booked online, and limited on-site tickets may sell out early. Check availability before visiting.', '海雲台ブルーラインパークの海辺列車とスカイカプセルはオンライン予約が可能で、当日券は早く売り切れる場合があります。訪問前に空き状況を確認しましょう。'],
+      ['돼지국밥은 서면의 국밥 골목에서, 밀면과 씨앗호떡 등 부산 먹거리는 시내 여러 지역에서 찾아보세요.', 'Try dwaeji-gukbap in Seomyeon\'s pork soup alley, and look for milmyeon, seed hotteok, and other Busan foods across the city.', '豚クッパは西面のクッパ通りで、ミルミョンやシアホットクなどの釜山グルメは市内各地で探せます。'],
     ],
   },
   jeju: {
     h: [
       ['성산일출봉', 'Seongsan Ilchulbong', '城山日出峰', '바다에서 솟은 분화구 봉우리. 이름처럼 해돋이 명소입니다.', 'A crater peak rising from the sea, famous for sunrise.', '海からそびえる火口の峰。名前の通り日の出の名所です。'],
-      ['한라산', 'Hallasan', '漢拏山', '한국에서 가장 높은 산. 정상 코스는 탐방 예약이 필요합니다.', 'Korea’s highest mountain; summit trails require a reservation.', '韓国で一番高い山。山頂コースは入山予約が必要です。'],
+      ['한라산', 'Hallasan', '漢拏山', '한국에서 가장 높은 산. 백록담으로 가는 성판악·관음사 코스 일부 구간은 탐방 예약이 필요합니다.', 'Hallasan is South Korea\'s highest mountain. Reservations are required for parts of the Seongpanak and Gwaneumsa routes to Baengnokdam.', '漢拏山は韓国で最も高い山です。白鹿潭へ向かう城板岳・観音寺コースの一部区間は事前予約が必要です。'],
       ['올레길', 'Jeju Olle Trail', 'オルレ道', '섬 해안을 따라 이어지는 도보 코스. 한 구간씩 골라 걷기 좋습니다.', 'Walking routes that circle the island’s coast; pick a section to walk.', '島の海岸に沿って続く散策コース。区間を選んで歩けます。'],
     ],
     t: [
@@ -43,7 +43,7 @@ export const NOTES_5: Record<string, Compact> = {
     ],
     t: [
       ['서울에서 KTX로 2시간 안팎이라 당일치기 여행도 가능합니다.', 'About two hours from Seoul by KTX, so a day trip is possible.', 'ソウルからKTXで約2時間なので日帰りも可能です。'],
-      ['초당 순두부 마을의 두부 요리는 아침 식사로 먹는 현지인이 많습니다.', 'Many locals eat Chodang soft tofu for breakfast.', '草堂スンドゥブ村の豆腐料理は朝食に食べる地元の人が多いです。'],
+      ['초당 순두부 마을에는 아침 일찍 문을 여는 두부 식당이 있어 순두부로 아침을 먹기 좋습니다.', 'Some tofu restaurants in Chodang Village open early, making soft tofu a good breakfast option.', '草堂スンドゥブ村には朝早くから営業する豆腐料理店があり、スンドゥブを朝食に楽しめます。'],
     ],
   },
   gyeongju: {
@@ -54,18 +54,18 @@ export const NOTES_5: Record<string, Compact> = {
     ],
     t: [
       ['유적이 넓게 퍼져 있어 시내 구간은 자전거를 빌려 다니기 좋습니다.', 'Sites are spread out; renting a bike works well around town.', '遺跡が広く点在しているので、市内は自転車を借りると便利です。'],
-      ['경주역(KTX 신경주역)은 시내에서 떨어져 있어 버스로 갈아타야 합니다.', 'The KTX Singyeongju station is outside town, so you need a bus in.', 'KTX新慶州駅は市内から離れているので、バスに乗り換えます。'],
+      ['KTX 경주역(옛 신경주역)은 시내에서 떨어져 있습니다. 도착 후에는 시내버스나 택시로 중심지까지 이동하세요.', 'KTX Gyeongju Station, formerly Singyeongju Station, is outside the centre. Continue into town by local bus or taxi.', 'KTX慶州駅（旧・新慶州駅）は市街地から離れています。到着後は路線バスかタクシーで中心部へ向かいましょう。'],
     ],
   },
   yeosu: {
     h: [
-      ['여수 밤바다·낭만포차', 'Yeosu night sea and pojangmacha', '麗水の夜の海と屋台', '이순신광장 근처 바닷가에 저녁마다 포장마차 거리가 펼쳐집니다.', 'Seaside food tents set up every evening near Yi Sun-sin Square.', '李舜臣広場近くの海辺に毎晩屋台が並びます。'],
+      ['여수 밤바다·낭만포차', 'Yeosu night sea and pojangmacha', '麗水の夜の海と屋台', '이순신광장에서는 해양공원을 따라 걸어 하멜등대 근처의 낭만포차 거리를 찾을 수 있습니다.', 'Walk along the waterfront from Yi Sun-sin Square to the seaside stalls near Hamel Lighthouse.', '麗水の夜景と浪漫屋台。李舜臣広場から海沿いを歩くと、ハメル灯台近くの屋台通りに着きます。'],
       ['여수 해상케이블카', 'Yeosu Maritime Cable Car', '麗水海上ケーブルカー', '바다 위를 건너 돌산도까지 가는 케이블카입니다.', 'A cable car that crosses the sea to Dolsando.', '海の上を渡って突山島へ行くケーブルカーです。'],
       ['오동도', 'Odongdo Island', '梧桐島', '방파제 길로 걸어 들어가는 동백꽃 섬입니다.', 'A camellia island reached on foot along a breakwater.', '防波堤の道を歩いて渡る椿の島です。'],
     ],
     t: [
-      ['게장 백반은 간장·양념게장이 무한 리필되는 식당이 많습니다.', 'Many crab-rice restaurants offer free refills of soy and spicy marinated crab.', 'ケジャン定食は醤油・ヤンニョムケジャンがおかわり自由の店が多いです。'],
-      ['여수엑스포역에서 주요 명소가 가까워 KTX로 오면 이동이 편합니다.', 'Most sights are near Yeosu-EXPO station, convenient by KTX.', '主要名所が麗水EXPO駅から近く、KTXで来ると便利です。'],
+      ['게장 백반은 간장·양념게장을 함께 맛볼 수 있는 여수 대표 음식입니다. 리필 횟수와 조건은 식당마다 다르니 메뉴를 확인하세요.', 'Crab set meals are a Yeosu specialty, often with soy and spicy marinated crab. Check each restaurant\'s menu for its refill limits and conditions.', 'カンジャンケジャンとヤンニョムケジャンを味わえるケジャン定食は麗水の名物です。おかわりの回数や条件は店ごとに確認してください。'],
+      ['여수엑스포역에 KTX로 도착하면 엑스포 해변공원과 오동도 등 주변 명소를 도보나 대중교통으로 둘러보기 좋습니다.', 'Arriving by KTX at Yeosu-Expo Station makes nearby sights such as Expo Beach Park and Odongdo easy to reach on foot or by public transport.', 'KTXで麗水エキスポ駅に着けば、エキスポ海浜公園や梧桐島など周辺の名所を徒歩や公共交通で巡りやすくなります。'],
     ],
   },
   jeonju: {
@@ -76,7 +76,7 @@ export const NOTES_5: Record<string, Compact> = {
     ],
     t: [
       ['비빔밥과 콩나물국밥이 유명하며, 콩나물국밥은 아침 해장 메뉴로 즐겨 먹습니다.', 'Bibimbap and bean-sprout soup are famous; the soup is a favourite breakfast.', 'ビビンバとコンナムルクッパが有名で、クッパは朝食によく食べられます。'],
-      ['한옥마을 안 숙소(한옥스테이)는 주말에 빨리 차니 미리 예약하세요.', 'Hanok stays inside the village fill up on weekends; book early.', '韓屋村の宿（韓屋ステイ）は週末すぐ埋まるので早めに予約を。'],
+      ['한옥마을 안 한옥스테이에 묵을 계획이라면 원하는 객실을 미리 예약하세요. 주말에는 마을 안 차량 통행도 제한됩니다.', 'If you plan to stay in a hanok inside the village, book your preferred room ahead. Vehicle access to the village is also restricted on weekends.', '韓屋村内の韓屋ステイに泊まるなら、希望の部屋を早めに予約しましょう。週末は村内の車両通行も制限されます。'],
     ],
   },
   kyoto: {
@@ -109,7 +109,7 @@ export const NOTES_5: Record<string, Compact> = {
     ],
     t: [
       ['히쓰마부시는 그대로, 양념을 얹어서, 육수를 부어서 세 가지 방법으로 나눠 먹습니다.', 'Hitsumabushi is eaten three ways: plain, with condiments, then with broth.', 'ひつまぶしは、そのまま、薬味をのせて、だしをかけての3通りで食べます。'],
-      ['카페에서 음료를 시키면 오전에 토스트 등을 무료로 주는 모닝 서비스 문화가 있습니다.', 'Many cafés add free toast with a morning drink order (the “morning service”).', '喫茶店で飲み物を頼むと、朝はトーストなどが無料で付くモーニング文化があります。'],
+      ['나고야 카페에는 오전에 음료를 주문하면 토스트·달걀 등을 곁들이는 모닝 서비스가 있습니다. 가게에 따라 음료 가격에 포함되거나 추가 요금이 붙습니다.', 'Nagoya cafés have a morning service that pairs a drink with toast, eggs or similar food. Depending on the café, it may be included with the drink or cost a little extra.', '名古屋の喫茶店には、朝にドリンクを注文するとトーストやゆで卵などが付くモーニングサービスがあります。ドリンク代に含まれる店も、追加料金がかかる店もあります。'],
     ],
   },
   hanoi: {

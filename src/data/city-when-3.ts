@@ -10,12 +10,12 @@ export const WHEN_3: Record<string, When> = {
       ['7월 14일 혁명기념일', '14 July (Bastille Day)', '7月14日（革命記念日）', '샹젤리제 퍼레이드가 열립니다. 에펠탑 불꽃놀이 날짜는 해마다 달라질 수 있으니 확인하세요.', 'The Champs-Élysées parade takes place; the Eiffel Tower fireworks date can vary, so check each year.', 'シャンゼリゼのパレードがあります。エッフェル塔の花火の日付は年により変わるので確認を。'],
       ['12월 연말', 'December (festive season)', '12月（年末）', '샹젤리제 조명과 백화점 쇼윈도, 크리스마스 마켓이 겨울 파리를 빛냅니다.', 'Champs-Élysées lights, department-store windows and Christmas markets.', 'シャンゼリゼのイルミネーション、百貨店のショーウィンドウ、クリスマスマーケットが冬のパリを彩ります。'],
     ],
-    x: ['8월에는 문을 닫는 현지 상점·식당이 많습니다.', 'Many local shops and restaurants close in August.', '8月は休業する地元の店や飲食店が多いです。'],
+    x: ['8월에는 연차 휴가로 쉬는 작은 상점이 있으니, 가려는 가게·식당의 영업일을 미리 확인하세요.', 'Some small shops close for annual holidays in August, so check the opening days of any shops or restaurants you plan to visit.', '8月は夏休みで休業する小規模な店もあるため、訪問予定の店やレストランの営業日を事前に確認しましょう。'],
   },
   nice: {
     p: [
       ['2월 니스 카니발', 'February (Nice Carnival)', '2月（ニース・カーニバル）', '거대한 인형 수레 퍼레이드와 꽃 전투가 열리는 세계적인 카니발입니다.', 'A world-famous carnival of giant float parades and flower battles.', '巨大な山車のパレードと花合戦がある世界的なカーニバルです。'],
-      ['5~6월·9월', 'May–June and September', '5〜6月・9月', '바다가 따뜻하면서 한여름보다 덜 붐벼 해변과 근교 마을을 즐기기 좋습니다.', 'Warm sea and fewer crowds than midsummer for beaches and Riviera villages.', '海が温かく真夏より空いていて、ビーチや近郊の村を楽しめます。'],
+      ['5~6월·9월', 'May–June and September', '5～6月・9月', '한여름보다 비교적 차분하게 니스 해변과 근교 마을을 둘러보기 좋습니다. 바다 수온과 혼잡도는 방문 시기에 따라 확인하세요.', 'Good months to explore Nice\'s beaches and nearby towns with a generally calmer feel than midsummer. Check sea conditions and crowd levels for your dates.', '真夏より比較的落ち着いてニースの海岸や近郊の町を巡りやすい時期です。海水温と混雑状況は訪問日に合わせて確認してください。'],
     ],
     x: ['7~8월은 가장 붐비고 숙박비가 높습니다.', 'July–August is the busiest and priciest.', '7〜8月は最も混み、宿泊費も高いです。'],
   },
@@ -29,16 +29,16 @@ export const WHEN_3: Record<string, When> = {
   dublin: {
     p: [
       ['3월 17일 성 패트릭의 날', '17 March (St Patrick’s Day)', '3月17日（セント・パトリックス・デー）', '도시 전체가 초록색으로 물드는 아일랜드 최대 축제로 퍼레이드가 열립니다.', 'Ireland’s biggest celebration, with a parade and the city turned green.', '街全体が緑に染まるアイルランド最大の祭りで、パレードがあります。'],
-      ['5~9월', 'May–September', '5〜9月', '낮이 길고 비교적 따뜻해 근교 투어(모허 절벽 등)에 좋습니다.', 'Long, milder days for tours such as the Cliffs of Moher.', '日が長く比較的暖かく、モハーの断崖などのツアーに最適です。'],
+      ['5~9월', 'May–September', '5〜9月', '더블린은 비교적 온화하고 야외 행사가 많습니다. 모허 절벽은 더블린에서 먼 편이니 별도 이동 시간을 충분히 잡으세요.', 'May–September brings milder weather and outdoor events in Dublin. Allow substantial travel time if visiting the Cliffs of Moher from the city.', '5～9月のダブリンは比較的穏やかな気候で、屋外イベントも多い時期です。モハーの断崖へ行く場合は移動時間を十分に見込みましょう。'],
     ],
-    x: ['성 패트릭의 날 전후 숙소는 매우 비쌉니다.', 'Hotels are very expensive around St Patrick’s Day.', 'セント・パトリックス・デー前後は宿が非常に高いです。'],
+    x: ['3월 성 패트릭 축제 기간에는 더블린에 방문객이 몰리므로 숙소를 일찍 예약하세요.', 'Dublin attracts many visitors during the St Patrick\'s Festival in March, so book accommodation early.', '3月のセント・パトリックス・フェスティバル期間はダブリンに多くの人が訪れるため、宿泊先は早めに予約しましょう。'],
   },
   amsterdam: {
     p: [
       ['4월 중순~5월 초 튤립', 'Mid-April–early May (tulips)', '4月中旬〜5月初め（チューリップ）', '근교 쾨켄호프 정원과 튤립 밭이 절정을 이룹니다.', 'Keukenhof and the bulb fields reach their peak.', '近郊のキューケンホフ公園やチューリップ畑が見頃です。'],
       ['4월 27일 왕의 날', '27 April (King’s Day)', '4月27日（国王の日）', '도시 전체가 오렌지색 옷과 운하 위 파티로 들썩입니다.', 'The city turns orange with street markets and canal parties.', '街全体がオレンジ色の服と運河のパーティーで盛り上がります。'],
     ],
-    x: ['왕의 날과 튤립 시즌 주말은 숙소가 매우 빨리 찹니다.', 'King’s Day and tulip weekends book out fast.', '国王の日やチューリップの週末は宿がすぐ埋まります。'],
+    x: ['왕의 날이나 봄 튤립 시즌에 방문한다면 숙소와 인기 활동을 일찍 예약하세요.', 'If visiting for King\'s Day or the spring tulip season, book accommodation and popular activities early.', '国王の日や春のチューリップシーズンに訪れるなら、宿泊先や人気の体験を早めに予約しましょう。'],
   },
   brussels: {
     p: [
@@ -52,19 +52,19 @@ export const WHEN_3: Record<string, When> = {
       XMAS,
       ['5~9월 비어가르텐', 'May–September (beer gardens)', '5〜9月（ビアガーデン）', '영국정원 등 야외 비어가르텐을 즐기기 좋습니다.', 'Perfect for outdoor beer gardens such as the English Garden’s.', '英国庭園などの屋外ビアガーデンを楽しむのに最適です。'],
     ],
-    x: ['옥토버페스트 기간에는 숙박비가 몇 배로 오르니 일찍 예약하세요.', 'Hotel prices soar during Oktoberfest; book early.', 'オクトーバーフェスト期間は宿泊費が数倍になるので早めの予約を。'],
+    x: ['옥토버페스트 기간에는 중심가 숙소가 일찍 예약되고 객실료가 오를 수 있으니 미리 확인하세요.', 'City-centre accommodation can book out early and rates may rise during Oktoberfest, so check options well ahead.', 'オクトーバーフェストの期間は中心部の宿泊施設が早く埋まり、宿泊料金が上がることがあります。早めに確認しましょう。'],
   },
   interlaken: {
     p: [
-      ['6~9월 여름', 'June–September (summer)', '6〜9月（夏）', '하이킹 길과 산악 열차가 모두 열리고 융프라우요흐 전망이 가장 맑을 확률이 높습니다.', 'All hiking trails and mountain railways are open, with the best odds of clear views.', 'ハイキング道や登山鉄道がすべて開き、ユングフラウヨッホの眺めも晴れやすいです。'],
+      ['6~9월 여름', 'June–September (summer)', '6〜9月（夏）', '6~9월에는 고지대 하이킹과 계절 운행 산악 철도를 즐기기 좋습니다. 융프라우요흐 전망은 계절보다 당일 날씨에 좌우되므로 웹캠과 운행 정보를 확인하세요.', 'June to September is a good time for high-altitude hikes and seasonal mountain railways. Views from Jungfraujoch depend on the day\'s weather more than the season, so check webcams and operating information.', '6～9月は高地のハイキングや季節運行の登山鉄道を楽しみやすい時期です。ユングフラウヨッホの眺望は季節より当日の天候に左右されるため、ウェブカメラと運行情報を確認しましょう。'],
       ['12~3월 겨울', 'December–March (winter)', '12〜3月（冬）', '그린델발트·벵겐 일대에서 스키와 썰매를 즐길 수 있습니다.', 'Skiing and sledging around Grindelwald and Wengen.', 'グリンデルワルトやヴェンゲン一帯でスキーやそりが楽しめます。'],
     ],
-    x: ['4~5월·11월에는 일부 산악 교통이 정비로 쉽니다.', 'Some mountain lifts close for maintenance in April–May and November.', '4〜5月・11月は一部の山岳交通が点検で運休します。'],
+    x: ['봄·가을에는 일부 산악 철도가 계절 운행 종료나 정비로 쉬는 시기가 있습니다. 이동 전 노선별 운행 일정을 확인하세요.', 'Some mountain railways pause for seasonal closure or maintenance in spring and autumn. Check the operating dates for each route before travelling.', '春と秋には、季節運休や整備のため一部の登山鉄道が休む時期があります。移動前に路線ごとの運行日程を確認しましょう。'],
   },
   vienna: {
     p: [
       ['1~2월 무도회 시즌', 'January–February (ball season)', '1〜2月（舞踏会シーズン）', '오페라 무도회 등 수백 개의 무도회가 열리는 빈 고유의 겨울 문화입니다.', 'Hundreds of balls, including the Opera Ball — a uniquely Viennese winter tradition.', 'オペラ座舞踏会など数百の舞踏会が開かれる、ウィーン独特の冬の文化です。'],
-      XMAS,
+      ['11월 중순~12월 크리스마스 마켓', 'Mid-November–December (Christmas markets)', '11月中旬〜12月（クリスマスマーケット）', '시청 광장을 비롯한 여러 광장에 크리스마스 마켓과 조명이 펼쳐집니다(아래 「크리스마스 마켓」 칸 참고).', 'Christmas markets and lights fill Rathausplatz and several other squares (see the Christmas market section).', '市庁舎広場をはじめ各地の広場にクリスマスマーケットと光の装飾が広がります（「クリスマスマーケット」欄参照）。'],
       ['4~6월·9~10월', 'April–June and September–October', '4〜6月・9〜10月', '궁전 정원과 와인 선술집(호이리거)을 즐기기 좋습니다.', 'Lovely for palace gardens and wine taverns (Heuriger).', '宮殿の庭園やワイン酒場（ホイリゲ）を楽しむのに最適です。'],
     ],
   },
@@ -78,14 +78,14 @@ export const WHEN_3: Record<string, When> = {
   prague: {
     p: [
       XMAS,
-      ['5월 프라하의 봄 음악제', 'May (Prague Spring music festival)', '5月（プラハの春音楽祭）', '오랜 전통의 클래식 음악제로 도시가 음악으로 채워집니다.', 'A long-standing classical music festival fills the city with concerts.', '長い伝統のクラシック音楽祭で、街が音楽に包まれます。'],
-      ['4~6월·9~10월', 'April–June and September–October', '4〜6月・9〜10月', '여름보다 덜 붐벼 카를교와 구시가지를 여유롭게 걸을 수 있습니다.', 'Fewer crowds than summer on Charles Bridge and in the old town.', '夏より空いていて、カレル橋や旧市街をゆっくり歩けます。'],
+      ['5월~6월 초 프라하의 봄 음악제', 'May–early June (Prague Spring music festival)', '5月〜6月初め（プラハの春音楽祭）', '오랜 전통의 클래식 음악제가 열립니다.', 'The Prague Spring music festival runs from May into early June, bringing a long-standing classical music tradition to the city.', '5月から6月上旬にかけて「プラハの春」音楽祭が開かれ、伝統あるクラシック音楽を楽しめます。'],
+      ['봄·가을', 'Spring and autumn', '春・秋', '여름 성수기보다 덜 붐벼 카를교와 구시가지를 걷기 좋습니다.', 'Spring and autumn are generally less crowded than the summer peak, making them good times to walk across Charles Bridge and through Old Town.', '春と秋は夏の繁忙期より比較的混雑が少なく、カレル橋や旧市街の散策に向いています。'],
     ],
   },
   krakow: {
     p: [
       XMAS,
-      ['5~6월·9~10월', 'May–June and September–October', '5〜6月・9〜10月', '쾌적한 날씨에 구시가지와 근교 소금광산·아우슈비츠를 둘러보기 좋습니다.', 'Pleasant weather for the old town and day trips to the salt mine and Auschwitz.', '快適な気候で、旧市街や近郊の岩塩坑・アウシュヴィッツを巡れます。'],
+      ['5~6월·9~10월', 'May–June and September–October', '5〜6月・9〜10月', '크라쿠프 구시가지를 걷고 근교 비엘리치카 소금광산과 아우슈비츠 박물관 방문을 계획해 보세요.', 'Walk Kraków\'s Old Town and plan visits to the nearby Wieliczka Salt Mine and Auschwitz museum.', '春と秋はクラクフ旧市街を歩き、近郊のヴィエリチカ岩塩坑やアウシュヴィッツ博物館を訪れる計画を立てましょう。'],
     ],
   },
   copenhagen: {
@@ -103,7 +103,7 @@ export const WHEN_3: Record<string, When> = {
   },
   helsinki: {
     p: [
-      ['6~8월 백야', 'June–August (white nights)', '6〜8月（白夜）', '밤까지 밝아 섬 투어와 사우나, 야외 테라스를 즐기기 좋습니다.', 'Light all evening for island trips, saunas and terraces.', '夜まで明るく、島巡りやサウナ、屋外テラスを楽しめます。'],
+      ['6~8월 백야', 'June–August (white nights)', '6〜8月（白夜）', '밤까지 밝은 날에 섬을 둘러보고 사우나와 야외 테라스를 즐기기 좋습니다.', 'Long, light evenings suit island trips, saunas and outdoor terraces.', '6～8月の夏は夜まで明るく、島巡りやサウナ、屋外テラスを楽しめます。'],
       XMAS,
     ],
   },
@@ -129,28 +129,28 @@ export const WHEN_3: Record<string, When> = {
   },
   barcelona: {
     p: [
-      ['9월 24일 무렵 라 메르세', 'Around 24 September (La Mercè)', '9月24日頃（ラ・メルセ祭）', '인간 탑 쌓기(카스텔)와 불꽃 행진(코레폭)이 열리는 바르셀로나 최대 축제입니다.', 'Barcelona’s biggest festival, with human towers and fire-runs.', '人間の塔（カステル）や火の行進（コレフォック）がある、バルセロナ最大の祭りです。'],
-      ['5~6월', 'May–June', '5〜6月', '바다가 따뜻해지기 시작하고 한여름보다 덜 붐빕니다.', 'The sea warms up, with fewer crowds than midsummer.', '海が温かくなり始め、真夏より空いています。'],
+      ['9월 24일 무렵 라 메르세', 'Around 24 September (La Mercè)', '9月24日頃（ラ・メルセ祭）', '카스텔과 코레폭 등 전통 행사가 열리는 바르셀로나의 대표 축제입니다.', 'Around September 24, La Mercè brings traditional events such as castells and correfoc to Barcelona.', '9月24日ごろのラ・メルセ祭では、カステルやコレフォックなどの伝統行事が行われます。'],
+      ['5~6월', 'May–June', '5〜6月', '한여름보다 기온이 온화해 바닷가와 시내를 둘러보기 좋습니다.', 'May–June offers milder temperatures than midsummer for exploring the coast and city.', '5〜6月は真夏より気温が穏やかで、海辺や街歩きを楽しみやすい時期です。'],
     ],
-    x: ['7~8월은 가장 붐비고 덥습니다.', 'July–August is the busiest and hottest.', '7〜8月は最も混雑し暑いです。'],
+    x: ['7~8월은 기온이 높으니 한낮 야외 일정을 조절하세요.', 'July and August are hot, so plan outdoor activities around the midday heat.', '7〜8月は暑いため、日中の屋外予定を調整しましょう。'],
   },
   rome: {
     p: [
-      ['부활절 무렵', 'Around Easter', '復活祭の頃', '바티칸에서 교황 미사가 열리는 등 로마의 가장 큰 종교 행사 시기입니다(매우 붐빔).', 'Rome’s biggest religious season, with papal Masses at the Vatican (very crowded).', 'バチカンで教皇ミサが行われるなど、ローマ最大の宗教行事の時期です（大混雑）。'],
+      ['부활절 무렵', 'Around Easter', '復活祭の頃', '바티칸 성베드로 광장에서 교황이 주례하는 부활절 미사가 열립니다. 방문 전 행사 일정을 확인하세요.', 'Around Easter, the pope celebrates Easter Mass in St. Peter’s Square. Check the event schedule before visiting.', '復活祭の時期には、バチカンのサン・ピエトロ広場で教皇によるミサが行われます。訪問前に日程を確認してください。'],
       ['4~6월·9~10월', 'April–June and September–October', '4〜6月・9〜10月', '유적을 걸어서 둘러보기 좋은 날씨입니다.', 'The best weather for walking between ancient sites.', '遺跡を歩いて巡るのに最適な気候です。'],
     ],
-    x: ['7~8월은 매우 덥고 붐빕니다.', 'July–August is very hot and crowded.', '7〜8月は非常に暑く混雑します。'],
+    x: ['7~8월은 더위가 강해 한낮 유적지 도보 관광이 힘들 수 있습니다.', 'July and August bring strong heat, which can make midday walking tours of archaeological sites tiring.', '7〜8月は暑さが厳しく、日中の遺跡巡りは負担になることがあります。'],
   },
   florence: {
     p: [
       ['4~6월·9~10월', 'April–June and September–October', '4〜6月・9〜10月', '미술관과 두오모, 토스카나 근교 여행에 날씨가 가장 좋습니다(가을은 와인 수확철).', 'Ideal for museums, the Duomo and Tuscan day trips (autumn is harvest time).', '美術館やドゥオーモ、トスカーナ近郊の旅に最適です（秋はワインの収穫期）。'],
     ],
-    x: ['7~8월은 분지라 매우 덥습니다.', 'July–August is very hot in the river basin.', '7〜8月は盆地で非常に暑いです。'],
+    x: ['7~8월은 피렌체 시내가 매우 더울 수 있어 한낮 야외 관람에 주의하세요.', 'Florence can be very hot in July and August, so take care with outdoor sightseeing around midday.', '7～8月のフィレンツェ市内は非常に暑くなることがあるため、日中の屋外観光に注意してください。'],
   },
   venice: {
     p: [
       ['2월 베네치아 카니발', 'February (Venice Carnival)', '2月（ヴェネツィア・カーニバル）', '가면과 화려한 의상의 사람들이 거리를 채우는 세계적인 축제입니다.', 'A world-famous festival of masks and elaborate costumes.', '仮面と豪華な衣装の人々が街を埋める世界的な祭りです。'],
-      ['4~6월·9~10월', 'April–June and September–October', '4〜6月・9〜10月', '날씨가 좋고 한여름보다 덜 붐빕니다.', 'Fine weather and fewer crowds than midsummer.', '天気が良く、真夏より空いています。'],
+      ['4~6월·9~10월', 'April–June and September–October', '4～6月・9～10月', '베네치아를 걷기 좋은 계절이지만 인기 날짜에는 여전히 혼잡할 수 있습니다. 방문일의 행사와 혼잡 정보를 확인하세요.', 'Pleasant seasons for exploring Venice on foot, though popular dates can still be crowded. Check events and crowd information for your visit.', 'ベネチアを歩いて巡りやすい季節ですが、人気の日程は混雑することもあります。訪問日の行事や混雑情報を確認してください。'],
     ],
     x: ['한여름 낮은 당일 관광객으로 매우 붐비고, 늦가을~겨울에는 아쿠아 알타(침수)가 생길 수 있습니다.', 'Midsummer days are packed with day-trippers, and acqua alta flooding can occur from late autumn to winter.', '真夏の日中は日帰り客で大混雑し、晩秋〜冬はアックア・アルタ（冠水）が起こることがあります。'],
   },
@@ -164,12 +164,12 @@ export const WHEN_3: Record<string, When> = {
   dubrovnik: {
     p: [
       ['7월 중순~8월 두브로브니크 여름 축제', 'Mid-July–August (Dubrovnik Summer Festival)', '7月中旬〜8月（ドゥブロヴニク夏祭り）', '성벽과 광장을 무대로 연극·음악 공연이 열립니다.', 'Theatre and music staged on the walls and squares.', '城壁や広場を舞台に演劇や音楽の公演が行われます。'],
-      ['5~6월·9~10월', 'May–June and September–October', '5〜6月・9〜10月', '바다는 따뜻하고 크루즈 인파는 한여름보다 적습니다.', 'Warm sea with fewer cruise crowds than midsummer.', '海は温かく、クルーズ客は真夏より少なめです。'],
+      ['5~6월·9~10월', 'May–June and September–October', '5～6月・9～10月', '한여름보다 여행객이 적고 날씨가 대체로 온화해 구시가지 산책에 좋습니다. 수영 가능 여부는 방문 시기와 해수 상태에 따라 확인하세요.', 'Visitor numbers are lower than in midsummer and the weather is generally pleasant for walking the Old Town. Check sea conditions if you plan to swim.', '真夏より旅行者が少なく、旧市街の散策に適した穏やかな天候の日が多い時期です。泳ぐ予定なら、その時期の海の状態を確認してください。'],
     ],
   },
   istanbul: {
     p: [
-      ['4월 튤립 축제', 'April (Tulip Festival)', '4月（チューリップ祭り）', '귈하네 공원 등 도시 곳곳이 수백만 송이 튤립으로 물듭니다.', 'Millions of tulips bloom in Gülhane Park and across the city.', 'ギュルハネ公園など街中が数百万本のチューリップに彩られます。'],
+      ['4월 튤립 축제', 'April (Tulip Festival)', '4月（チューリップ祭り）', '귈하네 공원을 비롯한 이스탄불 곳곳에서 튤립을 볼 수 있습니다.', 'April\'s Tulip Festival brings tulips to Gülhane Park and other parts of Istanbul.', '4月のチューリップ祭では、ギュルハネ公園をはじめ市内各地でチューリップを楽しめます。'],
       ['9~10월', 'September–October', '9〜10月', '선선해 걷기 좋고 보스포루스 크루즈가 쾌적합니다.', 'Cool walking weather and pleasant Bosphorus cruises.', '涼しく歩きやすく、ボスポラス・クルーズも快適です。'],
     ],
   },
@@ -179,32 +179,32 @@ export const WHEN_3: Record<string, When> = {
       ['12월 31일 호그머네이', '31 December (Hogmanay)', '12月31日（ホグマニー）', '성 아래 거리 파티와 불꽃놀이로 새해를 맞는 스코틀랜드식 연말 축제입니다.', 'Scotland’s New Year street party and fireworks below the castle.', '城の下のストリートパーティーと花火で新年を迎えるスコットランド流の年越し祭りです。'],
       XMAS,
     ],
-    x: ['8월에는 숙소가 매우 비싸고 빨리 찹니다.', 'Accommodation is very expensive and scarce in August.', '8月は宿が非常に高く、すぐ埋まります。'],
+    x: ['8월은 에든버러의 주요 축제가 겹치는 성수기입니다. 숙소는 일찍 예약하세요.', 'August is a busy festival season in Edinburgh. Book accommodation early.', '8月のエディンバラは主要な祭典が重なる繁忙期です。宿泊先は早めに予約しましょう。'],
   },
-  dresden: { p: [XMAS, ['5~9월', 'May–September', '5〜9月', '엘베강 변 산책과 근교 작센 스위스 국립공원 하이킹에 좋습니다.', 'Elbe riverside walks and hikes in nearby Saxon Switzerland.', 'エルベ川沿いの散策や近郊のザクセン・スイス国立公園のハイキングに最適です。']] },
-  nuremberg: { p: [XMAS, ['5~9월', 'May–September', '5〜9月', '성벽 위 산책과 야외 비어가르텐을 즐기기 좋습니다.', 'Walks along the walls and outdoor beer gardens.', '城壁の散策や屋外ビアガーデンを楽しめます。']] },
+  dresden: { p: [XMAS, ['5~9월', 'May–September', '5〜9月', '엘베강 변을 걷고 드레스덴 근교 작센 스위스의 하이킹 코스를 둘러보기 좋습니다.', 'Walk by the Elbe and explore hiking routes in Saxon Switzerland near Dresden.', '晩春から初秋は、エルベ川沿いを歩き、ドレスデン近郊のザクセン・スイスでハイキングを楽しめます。']] },
+  nuremberg: { p: [XMAS, ['5~9월', 'May–September', '5〜9月', '뉘른베르크 구시가지와 성벽 주변을 산책하고 야외 비어가르텐에 들르기 좋습니다.', 'Walk around Nuremberg\'s Old Town and city walls, then stop at an outdoor beer garden.', '夏はニュルンベルク旧市街と城壁の周辺を散策し、屋外のビアガーデンに立ち寄れます。']] },
   cologne: {
     p: [
       XMAS,
-      ['2월 쾰른 카니발', 'February (Cologne Carnival)', '2月（ケルン・カーニバル）', '「장미의 월요일」 퍼레이드가 절정인 독일 최대급 카니발입니다.', 'One of Germany’s biggest carnivals, peaking with the Rose Monday parade.', '「バラの月曜日」のパレードが最高潮のドイツ最大級のカーニバルです。'],
+      ['2월 또는 3월 쾰른 카니발', 'February or March (Cologne Carnival)', '2月または3月（ケルン・カーニバル）', '해마다 2월 또는 3월에 열리며 \'장미의 월요일\' 퍼레이드가 대표 행사입니다. 정확한 날짜는 해당 연도 일정을 확인하세요.', 'Cologne Carnival takes place in February or March depending on the year, with the Rose Monday parade as a main event. Check that year\'s dates.', 'ケルンのカーニバルは年によって2月または3月に開かれ、「バラの月曜日」のパレードが主要行事です。その年の日程を確認しましょう。'],
     ],
   },
-  strasbourg: { p: [XMAS, ['5~9월', 'May–September', '5〜9月', '운하 보트와 알자스 와인 마을 드라이브에 좋습니다.', 'Canal boats and drives through the Alsace wine villages.', '運河ボートやアルザスのワイン村のドライブに最適です。']] },
-  colmar: { p: [XMAS, ['9~10월 포도 수확', 'September–October (grape harvest)', '9〜10月（ブドウ収穫）', '알자스 와인 마을의 수확철 풍경과 와인 축제를 즐길 수 있습니다.', 'Harvest scenes and wine festivals in the Alsace villages.', 'アルザスのワイン村の収穫風景やワイン祭りを楽しめます。']] },
+  strasbourg: { p: [XMAS, ['5~9월', 'May–September', '5〜9月', '스트라스부르의 운하 보트를 타고 근교 알자스 와인길 마을을 둘러보세요.', 'In warmer months, take a canal boat in Strasbourg and explore villages along the nearby Alsace Wine Route.', '暖かい季節はストラスブールで運河クルーズを楽しみ、近郊のアルザス・ワイン街道の村々を巡れます。']] },
+  colmar: { p: [XMAS, ['9~10월 포도 수확', 'September–October (grape harvest)', '9〜10月（ブドウ収穫）', '알자스 포도 수확철 풍경을 보며 콜마르 근교 와인 마을을 둘러보세요. 와인 축제 날짜는 마을별로 확인하세요.', 'Explore wine villages near Colmar during the Alsace grape harvest. Check each village\'s wine-festival dates.', '9～10月はアルザスのブドウ収穫期の風景を見ながら、コルマール近郊のワイン村を巡れます。ワイン祭りの日程は村ごとに確認しましょう。']] },
   salzburg: { p: [XMAS, ['7~8월 잘츠부르크 음악제', 'July–August (Salzburg Festival)', '7〜8月（ザルツブルク音楽祭）', '세계적인 클래식 음악·오페라 축제입니다(공연 예매 필수).', 'A world-class festival of music and opera (book performances ahead).', '世界的なクラシック音楽・オペラの祭典です（公演の予約必須）。']] },
-  zagreb: { p: [XMAS, ['4~6월·9~10월', 'April–June and September–October', '4〜6月・9〜10月', '카페 테라스와 근교 플리트비체 국립공원 여행에 좋습니다.', 'Café terraces and trips to Plitvice Lakes National Park.', 'カフェのテラスや近郊のプリトヴィツェ湖群国立公園への旅に最適です。']] },
+  zagreb: { p: [XMAS, ['4~6월·9~10월', 'April–June and September–October', '4〜6月・9〜10月', '자그레브의 카페 테라스를 즐기고 플리트비체 국립공원으로 별도 여행을 계획해 보세요.', 'Enjoy Zagreb\'s café terraces and plan a separate trip to Plitvice Lakes National Park.', '春と秋はザグレブのカフェテラスを楽しみ、プリトヴィツェ湖群国立公園への別の行程も計画できます。']] },
   rovaniemi: {
     p: [
-      ['12월 크리스마스', 'December (Christmas)', '12月（クリスマス）', '「산타의 고향」에서 맞는 크리스마스로, 산타 마을이 가장 활기찹니다(숙소 매우 일찍 마감).', 'Christmas in “Santa’s hometown”, when the village is at its liveliest (rooms sell out very early).', '「サンタの故郷」で迎えるクリスマスで、サンタ村が最もにぎわいます（宿は非常に早く埋まる）。'],
-      ['1~3월 오로라·설원', 'January–March (aurora and snow)', '1〜3月（オーロラ・雪原）', '눈이 깊고 낮이 조금씩 길어져 허스키 썰매와 오로라 투어에 좋습니다.', 'Deep snow and lengthening days for husky safaris and aurora hunts.', '雪が深く日も少しずつ長くなり、犬ぞりやオーロラツアーに最適です。'],
+      ['12월 크리스마스', 'December (Christmas)', '12月（クリスマス）', '로바니에미의 산타클로스 마을에서 크리스마스 장식과 겨울 활동을 즐길 수 있습니다. 숙소와 체험은 미리 예약하세요.', 'Enjoy Christmas decorations and winter activities at Santa Claus Village in Rovaniemi. Book accommodation and activities ahead.', '12月はロヴァニエミのサンタクロース村でクリスマスの装飾や冬の体験を楽しめます。宿泊と体験は早めに予約しましょう。'],
+      ['1~3월 오로라·설원', 'January–March (aurora and snow)', '1〜3月（オーロラ・雪原）', '설원에서 허스키 썰매를 즐기고, 맑고 어두운 밤에는 오로라 관측을 시도해 보세요.', 'Try a husky sled ride in the snow and look for the northern lights on clear, dark nights.', '1～3月は雪原でハスキーそりを楽しみ、晴れて暗い夜にはオーロラ観測を試せます。'],
     ],
   },
   tallinn: { p: [XMAS, ['6~8월', 'June–August', '6〜8月', '낮이 길고 구시가지 축제와 야외 테라스가 활기찹니다.', 'Long days, old-town festivals and lively terraces.', '日が長く、旧市街の祭りや屋外テラスがにぎわいます。']] },
-  frankfurt: { p: [XMAS, ['5~9월', 'May–September', '5〜9月', '마인강 변 산책과 사과 와인 주점의 야외 자리를 즐기기 좋습니다.', 'Main riverside walks and apple-wine tavern gardens.', 'マイン川沿いの散策やアップルワイン酒場の屋外席を楽しめます。']] },
-  berlin: { p: [XMAS, ['5~9월', 'May–September', '5〜9月', '공원과 야외 바, 슈프레강 변 생활을 즐기기 좋습니다.', 'Parks, open-air bars and life along the Spree.', '公園や屋外バー、シュプレー川沿いの暮らしを楽しめます。']] },
-  zurich: { p: [['11월 말~12월 크리스마스 마켓', 'Late November–December (Christmas markets)', '11月末〜12月（クリスマスマーケット）', '중앙역 홀 안의 실내 마켓을 비롯해 시내 곳곳에 크리스마스 마켓이 열리고 도시가 조명으로 빛납니다(아래 「크리스마스 마켓」 칸 참고).', 'An indoor market fills the main station hall and more markets and lights spread through town (see the Christmas market section).', '中央駅構内の屋内マーケットをはじめ市内各所にクリスマスマーケットが開かれ、街が光に包まれます（「クリスマスマーケット」欄参照）。'], ['6~9월', 'June–September', '6〜9月', '호수 수영과 근교 알프스 여행에 좋습니다.', 'Lake swimming and Alpine day trips.', '湖での水泳や近郊のアルプス旅行に最適です。']] },
-  basel: { p: [XMAS, ['2~3월 바젤 파스나흐트', 'February–March (Basel Fasnacht)', '2〜3月（バーゼル・ファスナハト）', '새벽 4시 「모르게슈트라이히」로 시작하는 스위스 최대 카니발로, 유네스코 무형유산입니다.', 'Switzerland’s biggest carnival, starting at 4am with the Morgestraich; UNESCO-listed.', '午前4時の「モルゲシュトライヒ」で始まるスイス最大のカーニバルで、ユネスコ無形文化遺産です。']] },
+  frankfurt: { p: [XMAS, ['5~9월', 'May–September', '5〜9月', '마인강 변을 산책하고 야외에서 프랑크푸르트의 사과 와인을 즐겨 보세요.', 'In warmer months, walk along the Main River and try Frankfurt apple wine outdoors.', '暖かい季節はマイン川沿いを散策し、屋外でフランクフルトのアップルワインを楽しめます。']] },
+  berlin: { p: [XMAS, ['5~9월', 'May–September', '5〜9月', '베를린의 공원과 슈프레강 변 야외 공간을 즐기기 좋습니다.', 'In warmer months, enjoy Berlin\'s parks and outdoor spots along the River Spree.', '暖かい季節はベルリンの公園やシュプレー川沿いの屋外スポットを楽しめます。']] },
+  zurich: { p: [['11월 말~12월 크리스마스 마켓', 'Late November–December (Christmas markets)', '11月末〜12月（クリスマスマーケット）', '중앙역 홀 안의 실내 마켓을 비롯해 시내 곳곳에 크리스마스 마켓이 열리고 도시가 조명으로 빛납니다(아래 「크리스마스 마켓」 칸 참고).', 'An indoor market fills the main station hall and more markets and lights spread through town (see the Christmas market section).', '中央駅構内の屋内マーケットをはじめ市内各所にクリスマスマーケットが開かれ、街が光に包まれます（「クリスマスマーケット」欄参照）。'], ['6~9월', 'June–September', '6〜9月', '취리히 호수와 강변 수영장을 즐기고, 날씨와 교통편을 확인해 근교 산악 여행을 계획하세요.', 'Swim at Lake Zurich or the riverside pools, and check weather and transport before a mountain outing.', '夏はチューリヒ湖や川沿いの水浴場を楽しめます。近郊の山へ行く際は天候と交通を確認しましょう。']] },
+  basel: { p: [XMAS, ['2월 또는 3월 바젤 파스나흐트', 'February or March (Basel Fasnacht)', '2月または3月（バーゼル・ファスナハト）', '해마다 2월 또는 3월에 열리며 월요일 새벽 4시 \'모르게슈트라이히\'로 시작합니다. 유네스코 무형유산에도 등재돼 있습니다.', 'Basel Fasnacht falls in February or March, depending on the year, and begins with the 4 a.m. Monday Morgestraich. It is UNESCO-listed intangible heritage.', 'バーゼルのファスナハトは年によって2月または3月に開かれ、月曜の午前4時に「モルゲシュトライヒ」で始まります。ユネスコ無形文化遺産にも登録されています。']] },
   riga: { p: [XMAS, ['6월 하지(야니)', 'June (Midsummer, Jāņi)', '6月（夏至祭ヤーニ）', '라트비아 최대 명절로 화관을 쓰고 모닥불을 피웁니다.', 'Latvia’s biggest holiday, with flower crowns and bonfires.', 'ラトビア最大の祝日で、花冠をかぶりかがり火を焚きます。']] },
   gdansk: { p: [XMAS, ['7~8월 성 도미니크 시장', 'July–August (St Dominic’s Fair)', '7〜8月（聖ドミニク市）', '수백 년 전통의 대형 여름 시장이 구시가지에 열립니다.', 'A centuries-old summer fair fills the old town.', '数百年の伝統がある大規模な夏市が旧市街に開かれます。']] },
-  bruges: { p: [XMAS, ['4~9월', 'April–September', '4〜9月', '운하 보트와 자전거로 근교 마을을 다니기 좋습니다.', 'Canal boats and cycling to nearby villages.', '運河ボートや自転車で近郊の村を巡るのに最適です。']] },
+  bruges: { p: [XMAS, ['4~9월', 'April–September', '4〜9月', '브뤼헤 운하 보트가 정기 운항하며, 자전거로 근교 담머 같은 마을을 둘러볼 수 있습니다.', 'Canal boats run regularly in Bruges, and you can cycle to nearby villages such as Damme.', '春から秋はブルージュの運河ボートが定期運航し、自転車で近郊のダンメなどの村を巡れます。']] },
 };

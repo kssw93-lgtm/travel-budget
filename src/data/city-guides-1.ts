@@ -17,8 +17,8 @@ export const NOTES_1: Record<string, Compact> = {
       ['그린 바자르', 'Green Bazaar', 'グリーン・バザール', '말고기 소시지·건과일·꿀 등 카자흐 식재료가 모인 큰 실내 시장입니다.', 'A large covered market for Kazakh foods such as horse-meat sausage, dried fruit and honey.', '馬肉ソーセージやドライフルーツ、蜂蜜などカザフの食材が集まる大きな市場です。'],
     ],
     t: [
-      ['시내 이동은 지하철보다 버스 노선이 촘촘합니다. 교통카드(ONAY)로 타면 편합니다.', 'Buses cover far more of the city than the metro; an ONAY transport card makes riding easy.', '市内の移動は地下鉄よりバス路線のほうが充実しています。交通カード（ONAY）があると便利です。'],
-      ['산 쪽 명소는 시내보다 기온이 낮으니 여름에도 겉옷을 챙기세요.', 'The mountain sights are much cooler than the city, so bring a layer even in summer.', '山側の名所は市内より気温が低いので、夏でも上着を持っていきましょう。'],
+      ['알마티의 버스와 지하철을 이용할 때는 ONAY 교통카드를 사용할 수 있습니다.', 'You can use an ONAY transport card on Almaty\'s buses and metro.', 'アルマトイのバスと地下鉄では、交通カード「ONAY」を利用できます。'],
+      ['빅 알마티 호수는 해발 약 2,500m에 있어 산책할 때 여벌 겉옷을 챙기면 좋습니다.', 'Big Almaty Lake sits at about 2,500 metres above sea level, so consider bringing an extra layer for your walk.', 'ビッグ・アルマティ湖は標高約2,500mにあるため、散策には羽織るものを持参すると安心です。'],
     ],
   },
   amsterdam: {
@@ -39,7 +39,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['플라카 지구', 'Plaka', 'プラカ地区', '아크로폴리스 아래 골목에 타베르나와 기념품 가게가 모인 옛 동네입니다.', 'The old quarter below the Acropolis, full of tavernas and souvenir shops.', 'アクロポリスの麓の路地にタベルナや土産物店が集まる旧市街です。'],
     ],
     t: [
-      ['고대 유적 통합권 하나로 여러 유적지를 볼 수 있어, 두 곳 이상 갈 계획이면 먼저 확인해 보세요.', 'A combined ticket covers several ancient sites; check it if you plan to visit more than one.', '共通券で複数の遺跡を見学できるので、2か所以上行くなら確認を。'],
+      ['아테네 고대 유적을 여러 곳 갈 계획이라면 각 유적의 공식 입장권과 방문 시간을 따로 확인하세요. 기존 통합권은 폐지됐습니다.', 'If you plan to visit several ancient sites in Athens, check each site\'s official ticket and visiting hours separately. The former combined ticket has been discontinued.', 'アテネの古代遺跡を複数訪れる場合は、各遺跡の公式入場券と見学時間を個別に確認してください。以前の共通券は廃止されました。'],
       ['그리스에서는 화장지를 변기에 버리지 않고 옆 휴지통에 버리는 곳이 많습니다.', 'In many places in Greece, toilet paper goes in the bin, not the toilet.', 'ギリシャではトイレットペーパーを便器に流さず、横のごみ箱に捨てる所が多いです。'],
     ],
   },
@@ -50,7 +50,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['와이헤케 섬', 'Waiheke Island', 'ワイヘケ島', '페리로 가는 섬. 해변과 와이너리가 많아 하루 나들이로 인기입니다.', 'A ferry ride away, known for beaches and vineyards; a popular day trip.', 'フェリーで行く島。ビーチとワイナリーが多く日帰り旅行に人気です。'],
     ],
     t: [
-      ['버스·페리·기차는 교통카드(AT HOP) 또는 비접촉 카드로 타면 현금보다 저렴합니다.', 'Buses, ferries and trains are cheaper with an AT HOP card or contactless payment than with cash.', 'バス・フェリー・電車はAT HOPカードやタッチ決済のほうが現金より安くなります。'],
+      ['오클랜드 시내버스는 현금을 받지 않습니다. AT HOP 카드나 비접촉 카드를 쓰고, 기차·페리의 종이 승차권과 요금 차이를 노선별로 확인하세요.', 'Auckland buses do not accept cash. Use an AT HOP card or contactless payment, and check route-specific fares against paper tickets for trains and ferries.', 'オークランドのバスでは現金払いができません。AT HOPカードかタッチ決済を使い、鉄道・フェリーの紙の切符との運賃差は路線ごとに確認しましょう。'],
       ['자외선이 매우 강한 지역이라 흐린 날에도 선크림과 모자를 챙기세요.', 'UV levels are very high, so wear sunscreen and a hat even on cloudy days.', '紫外線がとても強いので、曇りの日も日焼け止めと帽子を。'],
     ],
   },
@@ -62,7 +62,7 @@ export const NOTES_1: Record<string, Compact> = {
     ],
     t: [
       ['사원에 들어갈 때는 사롱(허리에 두르는 천)을 둘러야 합니다. 입구에서 빌려주는 곳이 많습니다.', 'Wear a sarong to enter temples; many lend them at the entrance.', '寺院に入る際はサロン（腰布）が必要です。入口で貸してくれる所が多いです。'],
-      ['지역 간 이동은 길이 막혀 생각보다 오래 걸립니다. 숙소를 지역별로 나눠 잡으면 편합니다.', 'Traffic makes cross-island trips slow; splitting your stay between areas helps.', '地域間の移動は渋滞で時間がかかります。宿を地域ごとに分けると楽です。'],
+      ['발리 남부는 교통이 혼잡할 수 있으니 지역 간 이동 시간을 넉넉히 잡으세요. 먼 지역을 함께 돌 경우 숙소 위치도 고려하세요.', 'Traffic in southern Bali can be heavy, so allow extra time between areas and consider where you stay for a multi-area trip.', 'バリ島南部は渋滞することがあります。地域間の移動には余裕を持ち、複数エリアを回るなら宿泊地も考えましょう。'],
     ],
   },
   beijing: {
@@ -73,18 +73,18 @@ export const NOTES_1: Record<string, Compact> = {
     ],
     t: [
       ['주요 관광지는 여권으로 실명 예약을 해야 하는 곳이 많습니다. 방문 전날까지 예약해 두세요.', 'Many major sights require real-name booking with your passport; book by the day before.', '主要観光地は旅券での実名予約が必要な所が多いので、前日までに予約を。'],
-      ['결제는 알리페이·위챗페이가 기본이라 출국 전에 외국 카드 연동을 해 두면 편합니다.', 'Alipay and WeChat Pay are the norm; link a foreign card before you travel.', '支払いはアリペイ・WeChatペイが基本。出発前に海外カードを連携しておくと便利です。'],
+      ['베이징에서는 알리페이·위챗페이를 준비하면 편리합니다. 해외 발행 카드 연결이 가능한지 출국 전에 확인하세요.', 'Alipay and WeChat Pay can be convenient in Beijing. Check before departure whether your foreign-issued card can be linked.', '北京ではアリペイやWeChat Payを用意すると便利です。海外発行カードを連携できるか、出発前に確認しましょう。'],
     ],
   },
   boracay: {
     h: [
       ['화이트 비치', 'White Beach', 'ホワイトビーチ', '고운 흰 모래가 길게 이어지는 보라카이 대표 해변입니다.', "Boracay's famous long stretch of fine white sand.", '細かい白砂が長く続くボラカイを代表するビーチです。'],
       ['푸카 셸 비치', 'Puka Shell Beach', 'プカシェルビーチ', '섬 북쪽의 한적한 해변. 화이트 비치보다 조용합니다.', 'A quieter beach on the north of the island.', '島の北側の静かなビーチです。'],
-      ['아일랜드 호핑', 'Island hopping', 'アイランドホッピング', '배를 타고 주변 섬과 스노클링 지점을 도는 하루 투어가 인기입니다.', 'Boat tours to nearby islets and snorkelling spots are a favourite day out.', '船で周辺の島やシュノーケリングスポットを巡るツアーが人気です。'],
+      ['아일랜드 호핑', 'Island hopping', 'アイランドホッピング', '배를 타고 보라카이 주변 섬과 해변을 둘러보며 스노클링을 즐기는 코스입니다.', 'Boat trips visit islands and beaches around Boracay, with opportunities to snorkel.', '船でボラカイ周辺の島やビーチを巡り、シュノーケリングを楽しむコースです。'],
     ],
     t: [
       ['섬에 들어갈 때 터미널 이용료와 환경 요금을 따로 냅니다(입도 절차에서 안내).', 'You pay a terminal fee and an environmental fee when entering the island.', '島に入る際、ターミナル使用料と環境料を別途支払います。'],
-      ['해변에서의 흡연·음주와 모래성 쌓기 등이 제한되니 해변 규칙 안내판을 확인하세요.', 'Smoking, drinking and some beach activities are restricted; check the posted beach rules.', 'ビーチでの喫煙・飲酒などは制限があるので、掲示されたルールを確認しましょう。'],
+      ['보라카이 해변에서는 흡연·음주 등 금지 행위를 피하고, 모래성 만들기처럼 규정이 바뀔 수 있는 활동은 현장 안내를 확인하세요.', 'Avoid prohibited activities such as smoking and drinking on Boracay\'s beaches, and check current posted rules for activities such as building sandcastles.', 'ボラカイのビーチでは喫煙や飲酒などの禁止行為を避け、砂の城作りのように規則が変わり得る活動は現地の案内を確認してください。'],
     ],
   },
   brussels: {
@@ -94,13 +94,13 @@ export const NOTES_1: Record<string, Compact> = {
       ['만화 벽화 거리', 'Comic Strip Route', 'コミック壁画ルート', '틴틴 등 벨기에 만화 캐릭터 벽화가 시내 곳곳에 그려져 있습니다.', 'Murals of Tintin and other Belgian comic heroes are painted around the city.', 'タンタンなどベルギー漫画の壁画が街のあちこちに描かれています。'],
     ],
     t: [
-      ['그랑플라스 바로 옆 골목의 식당은 호객이 많으니, 메뉴와 가격을 먼저 확인하고 들어가세요.', 'Restaurants in the lanes off the Grand-Place tout heavily; check the menu and prices first.', 'グラン・プラス周辺の路地は客引きが多いので、メニューと価格を先に確認しましょう。'],
-      ['벨기에 맥주는 종류마다 전용 잔에 나오는 것이 전통입니다. 도수가 높은 맥주가 많으니 천천히 드세요.', 'Each Belgian beer is served in its own glass; many are strong, so pace yourself.', 'ベルギービールは銘柄ごとの専用グラスで出されるのが伝統。度数が高いものが多いのでゆっくりと。'],
+      ['그랑플라스 주변에는 식당이 많습니다. 주문 전에 메뉴와 결제 조건을 확인하세요.', 'There are many restaurants around Grand-Place. Check the menu and payment terms before ordering.', 'グランプラス周辺には飲食店が多くあります。注文前にメニューと支払い条件を確認しましょう。'],
+      ['브뤼셀에서는 여러 종류의 벨기에 맥주를 맛볼 수 있습니다. 주문 전에 메뉴의 도수와 잔 크기를 확인하세요.', 'Brussels offers many varieties of Belgian beer. Check the alcohol content and serving size on the menu before ordering.', 'ブリュッセルではさまざまなベルギービールを味わえます。注文前にメニューのアルコール度数とグラスの大きさを確認しましょう。'],
     ],
   },
   budapest: {
     h: [
-      ['국회의사당', 'Hungarian Parliament Building', '国会議事堂', '다뉴브강 변의 대형 고딕 건축물. 내부는 가이드 투어로만 볼 수 있습니다.', 'The huge Gothic-revival building on the Danube; the interior is visited by guided tour.', 'ドナウ川沿いの巨大なゴシック建築。内部はガイドツアーで見学します。'],
+      ['국회의사당', 'Parliament Building', '国会議事堂', '다뉴브강변의 대형 네오고딕 건축물. 내부 관람은 정해진 시간의 가이드 또는 오디오 가이드 투어로 진행됩니다.', 'a large Neo-Gothic landmark on the Danube. Interior visits follow a timed guided or audio-guided tour.', 'ドナウ川沿いに建つ大規模なネオゴシック建築。内部見学は指定時刻のガイド付き、または音声ガイド付きツアーで行われます。'],
       ['어부의 요새', "Fisherman's Bastion", '漁夫の砦', '부다 언덕 위 전망 테라스. 강 건너 국회의사당이 정면으로 보입니다.', 'Viewing terraces on Buda hill facing the Parliament across the river.', 'ブダの丘の展望テラス。対岸の国会議事堂が正面に見えます。'],
       ['세체니 온천', 'Széchenyi Thermal Bath', 'セーチェーニ温泉', '노천 온천탕이 있는 대형 온천. 겨울에도 야외 탕에서 즐길 수 있습니다.', 'A grand spa with outdoor thermal pools, enjoyed even in winter.', '屋外の温泉プールがある大型温泉。冬も屋外で楽しめます。'],
     ],
@@ -116,8 +116,8 @@ export const NOTES_1: Record<string, Compact> = {
       ['이슬라 무헤레스', 'Isla Mujeres', 'イスラ・ムヘーレス', '페리로 가는 작은 섬. 북쪽 해변이 잔잔하고 물이 얕습니다.', 'A small island reached by ferry, with calm shallow water at its northern beach.', 'フェリーで行く小さな島。北のビーチは穏やかで遠浅です。'],
     ],
     t: [
-      ['호텔존과 시내 사이는 시내버스가 자주 다녀 택시보다 훨씬 저렴합니다.', 'Frequent city buses link the Hotel Zone and downtown, far cheaper than taxis.', 'ホテルゾーンと市街の間は路線バスが頻繁に走り、タクシーよりずっと安いです。'],
-      ['근교 세노테(천연 우물)나 치첸이트사 유적은 하루 일정으로 다녀올 수 있습니다.', 'Cenotes and the ruins of Chichén Itzá make good day trips.', '近郊のセノーテ（泉）やチチェン・イッツァ遺跡は日帰りで行けます。'],
+      ['칸쿤 호텔존과 시내는 시내버스로 이동할 수 있습니다. 탑승 전 노선과 운행 시간을 확인하세요.', 'City buses connect Cancún\'s Hotel Zone and downtown. Check the route and timetable before boarding.', 'カンクンのホテルゾーンと市街地は路線バスで移動できます。乗車前に路線と時刻を確認しましょう。'],
+      ['칸쿤에서 치첸이트사 유적까지 도로로 이동할 수 있습니다. 세노테를 함께 보려면 이동 시간과 각 시설의 운영 시간을 확인하세요.', 'You can reach Chichén Itzá by road from Cancún. If adding a cenote, check travel times and each site\'s opening hours.', 'カンクンからチチェン・イッツァ遺跡へは陸路で行けます。セノーテも巡る場合は、移動時間と各施設の開館時間を確認しましょう。'],
     ],
   },
   'chiang-mai': {
@@ -134,12 +134,12 @@ export const NOTES_1: Record<string, Compact> = {
   'da-lat': {
     h: [
       ['쑤언흐엉 호수', 'Xuan Huong Lake', 'スアンフーン湖', '시내 한가운데 호수. 산책하거나 자전거를 타기 좋습니다.', 'The lake at the centre of town, good for walks and cycling.', '市の中心にある湖。散歩やサイクリングに向いています。'],
-      ['달랏 야시장', 'Da Lat Night Market', 'ダラット・ナイトマーケット', '저녁마다 시장 앞 계단과 거리에 군것질 노점이 펼쳐집니다.', 'Street-food stalls spread over the steps and streets by the market every evening.', '毎晩、市場前の階段や通りに屋台が並びます。'],
+      ['달랏 야시장', 'Da Lat Night Market', 'ダラット・ナイトマーケット', '저녁이면 시장 주변에 길거리 음식 노점이 들어섭니다.', 'Street-food stalls gather around the market in the evening.', '夕方から市場周辺に屋台が並びます。'],
       ['크레이지 하우스', 'Crazy House', 'クレイジーハウス', '동화 속 나무집처럼 지은 독특한 건축물입니다.', 'A whimsical building designed like a fairy-tale tree house.', 'おとぎ話のツリーハウスのような独特の建物です。'],
     ],
     t: [
       ['고원 도시라 아침저녁이 쌀쌀합니다. 얇은 겉옷을 꼭 챙기세요.', 'It is a highland town with cool mornings and evenings; bring a light jacket.', '高原の街なので朝晩は肌寒いです。薄手の上着を必ず持参しましょう。'],
-      ['딸기·아티초크차 같은 고원 특산물이 많아 시장에서 맛보기 좋습니다.', 'Highland produce such as strawberries and artichoke tea is easy to try at the market.', 'イチゴやアーティチョーク茶など高原の名産が多く、市場で味わえます。'],
+      ['달랏의 시장에서는 고원 특산물인 딸기 가공품과 아티초크차를 찾아보세요.', 'Look for highland specialties such as strawberry products and artichoke tea at Da Lat\'s markets.', 'ダラットの市場では、高原の特産品であるイチゴ加工品やアーティチョーク茶を探してみましょう。'],
     ],
   },
   daegu: {
@@ -150,7 +150,7 @@ export const NOTES_1: Record<string, Compact> = {
     ],
     t: [
       ['여름이 특히 더운 도시로 알려져 있어, 7~8월에는 한낮 야외 일정을 줄이는 것이 좋습니다.', 'Daegu is known for very hot summers; keep midday outdoor plans light in July and August.', '夏が特に暑い街として知られるので、7〜8月は日中の屋外予定を控えめに。'],
-      ['막창·납작만두 등 대구식 먹거리는 서문시장과 안지랑 곱창골목에서 찾기 쉽습니다.', 'Local foods like makchang and flat dumplings are easy to find at Seomun Market and Anjirang alley.', 'マクチャンやナプチャクマンドゥなど大邱名物は西門市場やアンジラン・コプチャン通りで見つかります。'],
+      ['납작만두는 서문시장에서, 곱창·막창 구이는 안지랑 곱창골목에서 찾아보세요.', 'Look for flat dumplings at Seomun Market and grilled gopchang or makchang in Anjirang Gopchang Alley.', '納作餃子（ナプチャクマンドゥ）は西門市場で、コプチャンやマクチャンの焼き物はアンジラン・コプチャン通りで探してみましょう。'],
     ],
   },
 };

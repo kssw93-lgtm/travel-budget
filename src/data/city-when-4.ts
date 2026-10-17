@@ -4,10 +4,10 @@ import type { When } from './city-when-1';
 export const WHEN_4: Record<string, When> = {
   'new-york': {
     p: [
-      ['11월 말~12월 연말', 'Late November–December (holiday season)', '11月末〜12月（ホリデーシーズン）', '추수감사절 퍼레이드, 록펠러 센터 트리와 스케이트장, 타임스스퀘어 새해 카운트다운까지 이어지는 가장 유명한 시즌입니다.', 'The Thanksgiving parade, the Rockefeller Center tree and rink, and the Times Square countdown.', '感謝祭のパレード、ロックフェラーセンターのツリーとスケートリンク、タイムズスクエアのカウントダウンまで続く最も有名なシーズンです。'],
-      ['4~6월·9~10월', 'April–June and September–October', '4〜6月・9〜10月', '센트럴 파크가 푸르거나 단풍이 들어 걷기 가장 좋은 계절입니다.', 'Central Park is green or golden — the best walking seasons.', 'セントラルパークが緑や紅葉に染まり、最も歩きやすい季節です。'],
+      ['11월 말~12월 연말', 'Late November–December (holiday season)', '11月末〜12月（ホリデーシーズン）', '추수감사절 퍼레이드부터 연말 장식과 새해맞이 행사까지 이어집니다.', 'From late November through year-end, the Thanksgiving parade leads into holiday decorations and New Year\'s events.', '11月下旬から年末にかけて、感謝祭パレードに続き、ホリデーの装飾や年越し行事が楽しめます。'],
+      ['봄·가을', 'Spring and autumn', '春・秋', '센트럴 파크의 봄꽃과 가을 단풍을 보며 걷기 좋습니다.', 'Spring and fall are good times to walk through Central Park for blossoms and foliage.', '春と秋は、セントラルパークの花や紅葉を見ながら散歩するのに向いています。'],
     ],
-    x: ['연말 주간은 숙박비가 가장 높고, 1~2월은 매우 춥습니다.', 'Holiday weeks are the priciest, and January–February is bitterly cold.', '年末の週は宿泊費が最も高く、1〜2月は非常に寒いです。'],
+    x: ['1~2월에는 추위와 눈에 대비하세요. 연말에는 숙소를 일찍 확인하는 편이 좋습니다.', 'Prepare for cold and possible snow in January and February. Check lodging early for year-end travel.', '1〜2月は寒さや雪に備えましょう。年末の旅行では宿泊先を早めに確認すると安心です。'],
   },
   'los-angeles': {
     p: [
@@ -18,7 +18,7 @@ export const WHEN_4: Record<string, When> = {
   },
   'las-vegas': {
     p: [
-      ['3~5월·9~11월', 'March–May and September–November', '3〜5月・9〜11月', '그랜드캐니언 등 국립공원 투어와 수영장을 쾌적하게 즐길 수 있습니다.', 'Comfortable for Grand Canyon tours and the pools.', 'グランドキャニオンなど国立公園ツアーやプールを快適に楽しめます。'],
+      ['봄·가을', 'Spring and fall', '春・秋', '라스베이거스의 여름 폭염을 피해 그랜드캐니언 등 야외 명소를 계획하기 좋습니다. 수영장 운영 기간은 숙소마다 확인하세요.', 'These seasons are better for planning outdoor sights such as the Grand Canyon away from Las Vegas\'s extreme summer heat. Check each hotel\'s pool season separately.', 'ラスベガスの夏の猛暑を避けて、グランドキャニオンなどの屋外観光を計画しやすい時期です。プールの営業期間は宿泊先ごとに確認してください。'],
       ['12월 31일 새해', '31 December (New Year’s Eve)', '12月31日（年越し）', '스트립 거리를 막고 호텔들이 함께 쏘아 올리는 새해 불꽃놀이가 유명합니다.', 'The Strip closes to traffic for rooftop fireworks from the resorts.', 'ストリップが歩行者天国になり、ホテルが一斉に打ち上げる年越し花火が有名です。'],
     ],
     x: ['6~8월 한낮은 매우 뜨겁고, 큰 행사·연휴 주말은 숙박비가 크게 오릅니다.', 'June–August afternoons are scorching, and big-event weekends push rates up.', '6〜8月の日中は非常に暑く、大型イベントや連休の週末は宿泊費が大きく上がります。'],
@@ -31,10 +31,10 @@ export const WHEN_4: Record<string, When> = {
   },
   vancouver: {
     p: [
-      ['6~9월', 'June–September', '6〜9月', '맑고 건조해 스탠리 공원 자전거와 근교 산·섬 여행에 가장 좋습니다.', 'Dry, sunny weather for cycling Stanley Park and mountain or island trips.', '晴れて乾燥し、スタンレーパークのサイクリングや近郊の山・島の旅に最適です。'],
+      ['6~9월(특히 7~8월)', 'June–September (especially July–August)', '6〜9月（特に7〜8月）', '6~9월, 특히 7~8월은 비교적 건조한 여름입니다. 스탠리 공원 자전거와 근교 산·섬 여행을 즐기기 좋습니다.', 'June to September, especially July and August, brings a relatively dry summer suited to biking in Stanley Park and exploring nearby mountains and islands.', '6～9月、特に7～8月は比較的雨の少ない夏です。スタンレーパークのサイクリングや近郊の山・島への旅に向いています。'],
       ['12~3월 스키', 'December–March (skiing)', '12〜3月（スキー）', '시내 근처 그라우스산과 휘슬러에서 스키를 즐길 수 있습니다.', 'Ski on Grouse Mountain near town or at Whistler.', '市内近くのグラウス山やウィスラーでスキーが楽しめます。'],
     ],
-    x: ['11~3월 시내는 비가 잦습니다.', 'November–March is rainy in the city.', '11〜3月の市内は雨が多いです。'],
+    x: ['10월~3월 밴쿠버 시내는 비가 잦은 편입니다. 방수 겉옷을 준비하세요.', 'Rain is relatively frequent in Vancouver from October to March. Bring a waterproof outer layer.', 'バンクーバー市内では10～3月に雨が比較的多くなります。防水の上着を用意しましょう。'],
   },
   cancun: {
     p: [
@@ -52,14 +52,14 @@ export const WHEN_4: Record<string, When> = {
   },
   guam: {
     p: [
-      ['12~6월 건기', 'December–June (dry season)', '12〜6月（乾季）', '맑고 습도가 낮아 스노클링과 해변 휴식에 좋습니다.', 'Clear, drier days for snorkelling and beach time.', '晴れて湿度が低く、シュノーケリングやビーチでの休息に最適です。'],
+      ['1~5월 건기', 'January–May (dry season)', '1〜5月（乾季）', '비가 비교적 적어 투몬 해변과 스노클링을 즐기기 좋습니다.', 'January to May is the dry season, with relatively less rain for enjoying Tumon Beach and snorkeling.', '1～5月は乾季で、比較的雨が少なく、タモンビーチやシュノーケリングを楽しみやすい時期です。'],
       ['7월 해방 기념일', 'July (Liberation Day)', '7月（解放記念日）', '7월 21일 무렵 퍼레이드와 축제가 열리는 괌 최대 행사입니다.', 'Guam’s biggest celebration, with a parade around 21 July.', '7月21日頃にパレードや祭りが開かれるグアム最大の行事です。'],
     ],
     x: ['7~11월은 비가 잦고 태풍 가능성이 있습니다.', 'July–November is wetter with typhoon risk.', '7〜11月は雨が多く台風の可能性があります。'],
   },
   saipan: {
     p: [
-      ['12~6월 건기', 'December–June (dry season)', '12〜6月（乾季）', '바다가 맑아 마나가하섬과 그로토 다이빙에 좋습니다.', 'Clear water for Managaha Island and diving the Grotto.', '海が澄み、マニャガハ島やグロットのダイビングに最適です。'],
+      ['1~5월 건기', 'January–May (dry season)', '1〜5月（乾季）', '1~5월은 사이판의 비교적 건조한 시기입니다. 그로토 다이빙이나 마나가하섬 방문 전에는 해상 상황과 명소 운영 여부를 공식 안내에서 확인하세요.', 'January to May is Saipan\'s relatively dry season. Before planning a Grotto dive or a visit to Managaha Island, check sea conditions and the official status of each site.', '1～5月はサイパンで比較的雨の少ない時期です。グロットでのダイビングやマナガハ島への訪問を計画する前に、海の状況と施設の公式な営業情報を確認しましょう。'],
     ],
     x: ['7~11월은 비가 잦고 태풍 가능성이 있습니다.', 'July–November is wetter with typhoon risk.', '7〜11月は雨が多く台風の可能性があります。'],
   },
@@ -74,12 +74,12 @@ export const WHEN_4: Record<string, When> = {
   melbourne: {
     p: [
       ['1월 호주 오픈 테니스', 'January (Australian Open)', '1月（全豪オープン）', '세계 4대 테니스 대회로 도시 전체가 축제 분위기입니다.', 'A Grand Slam tennis tournament that gives the city a festival mood.', 'テニス四大大会の一つで、街全体がお祭りムードになります。'],
-      ['3~5월 가을', 'March–May (autumn)', '3〜5月（秋）', '날씨가 안정적이라 그레이트 오션 로드 여행에 좋습니다.', 'Settled weather for the Great Ocean Road.', '天気が安定し、グレートオーシャンロードの旅に最適です。'],
+      ['3~5월 가을', 'March–May autumn', '3～5月の秋', '그레이트 오션 로드의 해안 풍경을 즐길 수 있지만 날씨는 자주 바뀌므로 출발 전 예보를 확인하세요.', 'A good time to enjoy the Great Ocean Road\'s coastal scenery, but the weather can change quickly, so check the forecast before leaving.', 'グレート・オーシャン・ロードの海岸風景を楽しめますが、天候は変わりやすいため、出発前に予報を確認してください。'],
     ],
   },
   auckland: {
     p: [
-      ['12~3월 여름', 'December–March (summer)', '12〜3月（夏）', '해변·섬 여행과 와이헤케섬 와이너리를 즐기기 좋습니다.', 'Beaches, island trips and Waiheke’s wineries.', 'ビーチや島巡り、ワイヘケ島のワイナリーを楽しめます。'],
+      ['12~2월 여름', 'December–February (summer)', '12〜2月（夏）', '12~2월 여름은 해변·섬 여행을 즐기기 좋습니다. 와이헤케섬의 와이너리도 함께 둘러볼 수 있고, 3월은 초가을입니다.', 'December to February is summer for beach and island trips, including visits to Waiheke Island wineries; March is early autumn.', '12～2月の夏はビーチや島巡りに向き、ワイヘキ島のワイナリーも楽しめます。3月は初秋です。'],
     ],
     x: ['남반구라 6~8월이 겨울이고 비가 잦습니다.', 'June–August is winter in the southern hemisphere and often wet.', '南半球で6〜8月は冬で雨が多いです。'],
   },

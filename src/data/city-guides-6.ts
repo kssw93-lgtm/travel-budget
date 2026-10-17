@@ -10,7 +10,7 @@ export const NOTES_6: Record<string, Compact> = {
     ],
     t: [
       ['주말 밤 용다리(드래곤 브리지)에서 불과 물을 뿜는 쇼가 열립니다.', 'On weekend nights the Dragon Bridge breathes fire and water.', '週末の夜、ドラゴンブリッジで火と水を噴くショーがあります。'],
-      ['차량 호출 앱(그랩 등)을 쓰면 요금이 미리 정해져 흥정할 필요가 없습니다.', 'Ride-hailing apps like Grab show the fare upfront, so no haggling.', 'Grabなどの配車アプリなら料金が事前に決まり、交渉不要です。'],
+      ['그랩카처럼 앱에 확정 요금이 표시되는 차량 호출 서비스를 쓰면 흥정할 필요가 없습니다. 그랩택시는 미터 요금이 적용될 수 있습니다.', 'With ride-hailing services such as GrabCar that show a fixed fare in the app, there is no need to haggle. GrabTaxi may use a metered fare.', 'GrabCarのようにアプリで確定運賃が表示される配車サービスなら、料金交渉は不要です。GrabTaxiはメーター料金になる場合があります。'],
     ],
   },
   taipei: {
@@ -94,7 +94,7 @@ export const NOTES_6: Record<string, Compact> = {
     h: [
       ['평화기념공원·원폭 돔', 'Peace Memorial Park and Atomic Bomb Dome', '平和記念公園・原爆ドーム', '원폭의 기억을 전하는 공원과 자료관입니다.', 'The park and museum that preserve the memory of the atomic bombing.', '原爆の記憶を伝える公園と資料館です。'],
       ['미야지마 이쓰쿠시마 신사', 'Itsukushima Shrine, Miyajima', '宮島・厳島神社', '바다 위에 선 붉은 도리이로 유명한 섬의 신사입니다.', 'The island shrine famous for its red torii standing in the sea.', '海の上に立つ朱色の鳥居で有名な島の神社です。'],
-      ['히로시마성', 'Hiroshima Castle', '広島城', '해자에 둘러싸인 성으로, 시내 중심에 있습니다.', 'A moated castle in the city centre.', '堀に囲まれた市中心部の城です。'],
+      ['히로시마성', 'Hiroshima Castle', '広島城', '시내 중심의 해자와 성 외관을 볼 수 있습니다. 천수각은 2026년 3월부터 내부 관람이 중단됐습니다.', 'See the moat and castle exterior in the city centre. The castle keep closed to visitors in March 2026.', '市内中心部で堀と城の外観を見られます。天守は2026年3月に閉城し、内部を見学できません。'],
     ],
     t: [
       ['미야지마의 도리이는 썰물 때 걸어서 가까이 갈 수 있어 물때표를 확인하면 좋습니다.', 'At low tide you can walk out to the Miyajima torii; check the tide table.', '宮島の鳥居は干潮時に歩いて近づけるので、潮見表を確認しましょう。'],

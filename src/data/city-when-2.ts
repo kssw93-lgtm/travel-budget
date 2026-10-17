@@ -19,14 +19,14 @@ export const WHEN_2: Record<string, When> = {
   },
   phuket: {
     p: [
-      ['11~4월 건기', 'November–April (dry season)', '11〜4月（乾季）', '바다가 잔잔하고 맑아 피피섬·팡아만 투어와 해수욕에 가장 좋습니다.', 'Calm, clear seas for Phi Phi and Phang Nga Bay trips and swimming.', '海が穏やかで澄み、ピピ島やパンガー湾ツアー、海水浴に最適です。'],
+      ['11~4월 안다만 해안 관광철', 'November–April Andaman travel season', '11～4月のアンダマン海側の観光シーズン', '피피섬·팡아만 보트 여행과 해수욕을 계획하기 좋습니다. 바다 상태는 출발 전 확인하세요.', 'A good time to plan boat trips to Phi Phi and Phang Nga Bay and beach visits. Check sea conditions before departure.', 'ピピ諸島やパンガー湾への船旅、海水浴を計画しやすい時期です。出発前に海況を確認しましょう。'],
       ['10월 채식 축제', 'October (Vegetarian Festival)', '10月（ベジタリアン・フェスティバル）', '중국계 주민들의 독특한 종교 축제로, 거리 행렬이 열립니다(일부 의식은 자극적일 수 있음).', 'A striking festival of the Chinese community with street processions (some rituals are intense).', '中国系住民の独特な宗教祭りで、街頭行列があります（一部の儀式は刺激が強い）。'],
     ],
-    x: ['5~10월 우기에는 파도가 높아 일부 해변 수영이 금지됩니다.', 'In the May–October monsoon, rough surf closes some beaches to swimming.', '5〜10月の雨季は波が高く、一部ビーチで遊泳禁止になります。'],
+    x: ['5~10월 우기에는 안다만 해안의 파도와 기상에 유의하고, 적색 깃발이 있는 해변에서는 수영하지 마세요.', 'In the May–October rainy season, watch sea and weather conditions on the Andaman coast. Do not swim at beaches marked with a red flag.', '5～10月の雨季はアンダマン海沿岸の波と天候に注意し、赤い旗が立つビーチでは泳がないでください。'],
   },
   pattaya: {
     p: [
-      ['11~3월 건기', 'November–March (dry season)', '11〜3月（乾季）', '맑은 날씨에 꼬란섬 투어와 해변을 즐기기 좋습니다.', 'Sunny days for Koh Larn trips and the beach.', '晴天が続き、ラン島ツアーやビーチを楽しめます。'],
+      ['11~3월', 'November–March', '11～3月', '파타야 해변과 꼬란 섬 여행을 계획하기 좋은 시기입니다. 수영 가능 여부는 당일 날씨와 바다 상태를 확인하세요.', 'A useful season to plan Pattaya beach and Ko Lan trips. Check the day\'s weather and sea conditions before swimming.', 'パタヤのビーチやラン島への旅行を計画しやすい時期です。泳ぐ前に当日の天気と海況を確認しましょう。'],
       ['4월 송끄란', 'April (Songkran)', '4月（ソンクラーン）', '파타야는 송끄란 물축제가 다른 지역보다 길게 이어지는 것으로 유명합니다.', 'Pattaya is known for celebrating Songkran longer than elsewhere.', 'パタヤはソンクラーンが他の地域より長く続くことで有名です。'],
     ],
   },
@@ -72,14 +72,14 @@ export const WHEN_2: Record<string, When> = {
     p: [
       ['음력 정월 대보름 등불 축제', 'Lantern Festival (15th day of Lunar New Year)', '元宵節のランタン祭り', '핑시에서 소원을 적은 천등을 날리는 행사와 도시 곳곳의 등불 전시가 열립니다.', 'Sky lanterns at Pingxi and lantern displays across the city.', '平渓で願いを書いた天灯を飛ばす行事や、市内各所のランタン展示があります。'],
       ['12월 31일 101 불꽃놀이', '31 December (Taipei 101 fireworks)', '12月31日（台北101の花火）', '타이베이 101 빌딩에서 쏘아 올리는 새해 불꽃놀이가 유명합니다.', 'The New Year fireworks launched from Taipei 101 are famous.', '台北101から打ち上げる年越し花火が有名です。'],
-      ['10~12월 가을', 'October–December (autumn)', '10〜12月（秋）', '선선하고 비가 비교적 적어 야시장과 근교 여행에 좋습니다.', 'Cooler and drier, good for night markets and day trips.', '涼しく比較的雨が少なく、夜市や近郊旅行に最適です。'],
+      ['10~11월 가을', 'October–November (autumn)', '10〜11月の秋', '선선하고 비가 비교적 적어 야시장과 근교 여행에 좋습니다.', 'Cooler and relatively drier, good for night markets and day trips.', '涼しく、比較的雨が少ないため、夜市や近郊への小旅行に向いています。'],
     ],
     x: ['여름(6~9월)은 무덥고 태풍이 올 수 있습니다.', 'Summer (June–September) is hot with possible typhoons.', '夏（6〜9月）は蒸し暑く台風の可能性があります。'],
   },
   kaohsiung: {
     p: [
-      ['음력 정월 등불 축제', 'Lunar New Year lantern season', '旧正月のランタン祭り', '아이허(사랑의 강) 일대 등불 전시가 아름답습니다.', 'Lantern displays along the Love River are lovely.', '愛河一帯のランタン展示が美しいです。'],
-      ['10~4월', 'October–April', '10〜4月', '따뜻하고 맑은 날이 많아 항구 산책에 좋습니다.', 'Warm, sunny days for harbour walks.', '暖かく晴れの日が多く、港の散策に最適です。'],
+      ['음력 설 무렵', 'Around Lunar New Year', '旧正月のころ', '가오슝의 계절 축제와 조명 전시를 즐길 수 있습니다. 개최 장소와 기간은 해마다 공식 일정을 확인하세요.', 'Enjoy Kaohsiung\'s seasonal festivals and light displays. Check the official venue and dates each year.', '高雄の季節行事やライトアップを楽しめます。会場と期間は毎年公式日程を確認してください。'],
+      ['가을·겨울', 'Autumn and winter', '秋・冬', '비교적 온화한 날씨에 가오슝 항구와 치진 해변을 산책하기 좋습니다.', 'Generally mild weather makes it pleasant to walk around Kaohsiung Harbor and Cijin Beach.', '比較的穏やかな気候の中、高雄港や旗津の海辺を散策しやすい時期です。'],
     ],
   },
   taichung: {
@@ -91,7 +91,7 @@ export const WHEN_2: Record<string, When> = {
   singapore: {
     p: [
       ['음력 설(1~2월)', 'Lunar New Year (January–February)', '旧正月（1〜2月）', '차이나타운이 등불과 장식으로 화려해지고 리버 홍바오 행사가 열립니다.', 'Chinatown glows with lanterns and the River Hongbao celebrations take place.', 'チャイナタウンが提灯や飾りで華やぎ、リバー・ホンバオが開かれます。'],
-      ['9월 무렵 F1 싱가포르 그랑프리', 'Around September (Formula 1 Singapore Grand Prix)', '9月頃（F1シンガポールGP）', '도심 도로를 달리는 야간 레이스로 도시 전체가 축제 분위기입니다.', 'A night race on city streets that turns the city into a festival.', '市街地を走るナイトレースで、街全体がお祭りムードになります。'],
+      ['10월 무렵 F1 싱가포르 그랑프리', 'Around October (Formula 1 Singapore Grand Prix)', '10月頃（F1シンガポールGP）', '도심 도로를 달리는 야간 레이스로 도시 전체가 축제 분위기입니다.', 'Around October, the F1 Singapore Grand Prix brings a night race to city streets and a festival atmosphere across Singapore.', '10月ごろのF1シンガポールグランプリ。市街地を走るナイトレースで、街全体が祭りの雰囲気に包まれます。'],
       ['12월 연말', 'December (year-end)', '12月（年末）', '오차드 로드의 크리스마스 조명과 마리나 베이 새해 불꽃이 유명합니다.', 'Orchard Road’s Christmas lights and the Marina Bay New Year fireworks.', 'オーチャード通りのクリスマスイルミネーションとマリーナベイの年越し花火が有名です。'],
     ],
     x: ['F1 기간에는 호텔 요금이 크게 오릅니다.', 'Hotel rates jump during the Grand Prix.', 'F1期間はホテル料金が大きく上がります。'],
@@ -120,20 +120,20 @@ export const WHEN_2: Record<string, When> = {
   },
   boracay: {
     p: [
-      ['11~5월 건기', 'November–May (dry season)', '11〜5月（乾季）', '화이트 비치의 바다가 가장 맑고 노을이 아름답습니다.', 'White Beach at its clearest, with beautiful sunsets.', 'ホワイトビーチの海が最も澄み、夕日が美しいです。'],
+      ['11~4월 건기', 'November–April dry season', '11～4月の乾季', '화이트 비치에서 해변 산책과 노을을 즐기기 좋은 시기입니다.', 'A good time for White Beach walks and sunsets.', 'ホワイトビーチの散策や夕日を楽しみやすい時期です。'],
     ],
-    x: ['6~10월 우기에는 바람과 비가 잦고 배편이 지연될 수 있습니다.', 'In June–October winds and rain are frequent and boats may be delayed.', '6〜10月の雨季は風雨が多く、船が遅れることがあります。'],
+    x: ['5~10월 우기에는 비와 강한 바람에 대비하고, 배편은 기상에 따라 변경될 수 있으니 운항을 확인하세요.', 'During the May–October rainy season, prepare for rain and stronger winds and check boat operations, which may change with the weather.', '5～10月の雨季は雨や強い風に備え、天候で変更されることがある船の運航を確認してください。'],
   },
   'kuala-lumpur': {
     p: [
-      ['1~2월 타이푸삼', 'January–February (Thaipusam)', '1〜2月（タイプーサム）', '바투 동굴로 향하는 힌두교 순례 행렬이 장관입니다.', 'The Hindu pilgrimage procession to the Batu Caves is spectacular.', 'バトゥ洞窟へ向かうヒンドゥー教の巡礼行列が壮観です。'],
-      ['6~8월', 'June–August', '6〜8月', '비가 비교적 적은 편이라 시내 관광에 좋습니다.', 'Relatively drier months for city sightseeing.', '比較的雨が少なく、市内観光に向いています。'],
+      ['타이푸삼(보통 1~2월, 해마다 다름)', 'Thaipusam (usually January–February)', 'タイプーサム（通常1〜2月）', '쿠알라룸푸르에서 바투 동굴로 향하는 힌두교 순례 행렬을 볼 수 있습니다. 날짜는 해마다 확인하세요.', 'During Thaipusam, a Hindu procession travels from Kuala Lumpur toward Batu Caves. Check the date each year.', 'タイプーサムではクアラルンプールからバトゥ洞窟へ向かうヒンドゥー教の行列が行われます。日付は毎年確認してください。'],
+      ['6~8월', 'June–August', '6〜8月', '남서몬순 시기로 강수량이 다소 적은 편이지만, 소나기에 대비해 유동적인 일정을 잡으세요.', 'June–August is part of the southwest monsoon, when rainfall is somewhat lower, but keep plans flexible for showers.', '6〜8月は南西モンスーン期で降水量がやや少なめですが、にわか雨に備えて予定に余裕を持ちましょう。'],
     ],
   },
   'kota-kinabalu': {
     p: [
       ['2~4월', 'February–April', '2〜4月', '비교적 건조해 섬 호핑과 키나발루산 등반에 좋습니다.', 'Drier months for island-hopping and climbing Mount Kinabalu.', '比較的乾燥していて、島巡りやキナバル山の登山に最適です。'],
-      ['일 년 내내 석양', 'Sunsets all year', '一年中の夕日', '해안 석양은 계절과 관계없이 이 도시의 대표 볼거리입니다.', 'The coastal sunsets are the city’s signature sight in any season.', '海辺の夕日は季節を問わずこの街の代表的な見どころです。'],
+      ['해안 석양', 'Coastal sunset', '海辺の夕日', '탄중아루 해변의 석양은 코타키나발루의 대표 볼거리입니다. 맑게 보이는지는 그날 날씨에 따라 달라집니다.', 'The sunset at Tanjung Aru Beach is one of Kota Kinabalu\'s signature sights. Visibility depends on the day\'s weather.', 'タンジュンアル・ビーチの夕日はコタキナバルを代表する見どころです。きれいに見えるかどうかは当日の天候によります。'],
     ],
   },
   bali: {
@@ -141,7 +141,7 @@ export const WHEN_2: Record<string, When> = {
       ['4~10월 건기', 'April–October (dry season)', '4〜10月（乾季）', '맑은 날이 많아 해변·서핑·사원 관광에 가장 좋습니다.', 'Sunny days for beaches, surfing and temples.', '晴れの日が多く、ビーチ・サーフィン・寺院観光に最適です。'],
       ['갈룽안·쿠닝안', 'Galungan and Kuningan', 'ガルンガン・クニンガン', '약 210일마다 돌아오는 힌두 명절로, 마을 길가에 대나무 장식(펜조르)이 늘어섭니다.', 'A Hindu festival every 210 days, when bamboo penjor poles line village roads.', '約210日ごとに巡るヒンドゥーの祝日で、村の道沿いに竹飾り（ペンジョール）が並びます。'],
     ],
-    x: ['녀삐(발리 새해, 보통 3월)에는 하루 동안 공항과 거리가 모두 멈춥니다.', 'On Nyepi (Balinese New Year, usually March) the airport and streets shut for a day.', 'ニュピ（バリの新年、例年3月）は1日、空港も街も止まります。'],
+    x: ['녀삐(발리 새해)에는 하루 동안 공항과 교통시설이 중단되고 상점도 문을 닫습니다. 날짜는 해마다 확인하세요.', 'On Nyepi, Bali\'s day of silence, the airport and transport hubs close and shops shut for a day. Check the annual date.', 'バリの新年「ニュピ」には、1日間空港や交通機関が止まり、店も閉まります。日付は毎年確認してください。'],
   },
   'siem-reap': {
     p: [
@@ -152,41 +152,41 @@ export const WHEN_2: Record<string, When> = {
   },
   qingdao: {
     p: [
-      ['8월 칭다오 국제맥주축제', 'August (Qingdao International Beer Festival)', '8月（青島国際ビール祭り）', '세계 각국 맥주를 맛보는 대형 축제입니다(해마다 장소·기간 확인).', 'A huge festival of beers from around the world (check venue and dates each year).', '世界各国のビールが味わえる大規模な祭りです（年ごとに会場・期間を確認）。'],
-      ['5~6월·9~10월', 'May–June and September–October', '5〜6月・9〜10月', '선선한 바닷바람에 구시가지와 해변을 걷기 좋습니다.', 'Cool sea breezes for the old town and beaches.', '涼しい海風の中、旧市街や海辺を歩くのに最適です。'],
+      ['7~8월 무렵 칭다오 국제맥주축제', 'Qingdao International Beer Festival, usually around July–August', '7～8月ごろの青島国際ビール祭り', '대형 맥주 축제로, 해마다 개최 날짜와 회장을 공식 안내에서 확인하세요.', 'A major beer festival. Check the official dates and venue each year.', '大規模なビール祭りです。毎年、公式案内で開催日と会場を確認してください。'],
+      ['늦봄·초가을', 'Late spring and early autumn', '晩春・初秋', '칭다오의 구시가지와 해변을 걸어보세요. 해안 바람에 대비해 겉옷을 챙기면 좋습니다.', 'Explore Qingdao\'s old town and coast on foot, and bring a light layer for the sea breeze.', '青島の旧市街と海辺を歩いてみましょう。海風に備えて羽織るものがあると便利です。'],
     ],
   },
   beijing: {
     p: [
-      ['4~5월 봄', 'April–May (spring)', '4〜5月（春）', '맑은 날이 많아 만리장성과 이화원을 둘러보기 좋습니다.', 'Clear days for the Great Wall and the Summer Palace.', '晴れの日が多く、万里の長城や頤和園の見学に最適です。'],
+      ['4~5월 봄', 'April–May spring', '4～5月の春', '만리장성 주변 꽃과 이화원 정원을 둘러보기 좋은 시기입니다. 맑은 날은 당일 예보를 확인하세요.', 'A good time to see flowers near the Great Wall and explore the Summer Palace gardens. Check the day\'s forecast for clear skies.', '万里の長城周辺の花や頤和園の庭園を巡りやすい時期です。晴天かどうかは当日の予報を確認してください。'],
       ['9~10월 가을', 'September–October (autumn)', '9〜10月（秋）', '하늘이 맑고 향산 단풍이 아름다운 베이징 최고의 계절입니다.', 'Beijing’s best season, with clear skies and autumn colour at Xiangshan.', '空が澄み香山の紅葉が美しい、北京で最高の季節です。'],
     ],
-    x: ['국경절 연휴(10월 1일~7일 무렵)는 명소가 극도로 붐빕니다.', 'The National Day holiday (about 1–7 October) brings extreme crowds.', '国慶節連休（10月1〜7日頃）は名所が大混雑します。'],
+    x: ['중국 국경절 연휴(대개 10월 초)에는 베이징의 인기 명소가 붐빌 수 있으니 날짜별 공식 휴일과 예약 상황을 확인하세요.', 'During China\'s National Day holiday, usually in early October, popular Beijing sights can be crowded. Check that year\'s official holiday dates and reservations.', '中国の国慶節連休（通常10月上旬）は北京の人気観光地が混み合うことがあります。その年の公式休日と予約状況を確認してください。'],
   },
   shanghai: {
     p: [
       ['3~5월 봄', 'March–May (spring)', '3〜5月（春）', '예원과 옛 프랑스 조계지 산책, 근교 수향마을 여행에 좋습니다.', 'Good for Yu Garden, the former French Concession and nearby water towns.', '豫園や旧フランス租界の散策、近郊の水郷巡りに最適です。'],
-      ['10~11월 가을', 'October–November (autumn)', '10〜11月（秋）', '선선하고 맑아 와이탄 야경을 보기 좋습니다.', 'Cool, clear evenings for the Bund’s skyline.', '涼しく晴れて、外灘の夜景に最適です。'],
+      ['10~11월 가을', 'October–November (autumn)', '10〜11月（秋）', '선선해져 와이탄을 걷기 좋습니다.', 'October–November brings cooler autumn weather for a walk along the Bund.', '10〜11月の秋は涼しくなり、外灘の散策に向いています。'],
     ],
     x: ['6월 장마와 7~8월 무더위.', 'The June plum rains and July–August heat.', '6月の梅雨と7〜8月の猛暑。'],
   },
   zhangjiajie: {
     p: [
       ['4월·10월', 'April and October', '4月・10月', '안개 낀 봉우리와 맑은 날이 번갈아 와 경치가 가장 좋다고 꼽히는 시기입니다.', 'Often named the best months, mixing misty peaks with clear days.', '霧の峰と晴天が交互に訪れ、景色が最も良いとされる時期です。'],
-      ['1~2월 설경', 'January–February (snow)', '1〜2月（雪景色）', '눈 덮인 봉우리를 볼 수 있고 관광객이 적습니다(일부 길 통제 가능).', 'Snow-capped pillars and fewer visitors (some paths may close).', '雪をかぶった峰が見られ観光客も少なめです（一部通行止めの可能性）。'],
+      ['겨울 설경', 'Winter snowscape', '冬の雪景色', '눈이 오면 무릉원 봉우리의 설경을 볼 수 있습니다. 설 연휴에는 관광객이 많을 수 있고 눈·얼음 때문에 이동이 제한될 수 있으니 운영 공지를 확인하세요.', 'Snow can transform Wulingyuan\'s peaks. The Lunar New Year holiday may still be busy, and snow or ice can disrupt access, so check operating notices.', '雪が降ると武陵源の峰々が雪景色になります。春節休暇は混雑することがあり、雪や凍結で移動が制限される場合もあるため、運営情報を確認してください。'],
     ],
     x: ['5월 초·10월 초 중국 연휴는 매우 붐빕니다.', 'The early-May and early-October holidays are extremely crowded.', '5月初めと10月初めの中国の連休は大混雑します。'],
   },
   ulaanbaatar: {
     p: [
-      ['7월 11~13일 무렵 나담 축제', 'Around 11–13 July (Naadam)', '7月11〜13日頃（ナーダム）', '씨름·활쏘기·경마로 이뤄진 몽골 최대 축제입니다.', 'Mongolia’s biggest festival of wrestling, archery and horse racing.', 'モンゴル相撲・弓射・競馬からなるモンゴル最大の祭りです。'],
-      ['6~8월 초원', 'June–August (the steppe)', '6〜8月（草原）', '초원이 푸르고 게르 숙박과 별 보기에 가장 좋은 시기입니다.', 'Green steppe, ideal for ger stays and stargazing.', '草原が緑に染まり、ゲル泊や星空観察に最適です。'],
+      ['7월 11~15일 무렵 나담 축제', 'Around 11–15 July (Naadam)', '7月11〜15日頃（ナーダム）', '씨름·활쏘기·말 경주로 이뤄진 몽골의 큰 국가 축제입니다. 지역별 일정은 다를 수 있습니다.', 'Around July 11–15, Naadam brings wrestling, archery, and horse racing to one of Mongolia\'s major national celebrations. Local dates may vary.', '7月11～15日ごろのナーダム祭では、相撲・弓術・競馬が行われます。モンゴルの大きな国家行事で、地域により日程が異なる場合があります。'],
+      ['6~8월 초원 여행', 'June–August (steppe trips)', '6〜8月（草原の旅）', '초록빛 초원에서 게르 숙박과 승마를 즐기기 좋은 시기입니다. 별 보기는 현지 날씨를 확인하세요.', 'June to August is a good season for green grasslands, ger stays, and horseback riding. Check the local weather if you hope to stargaze.', '6～8月は緑の草原でゲル宿泊や乗馬を楽しみやすい時期です。星空観察を予定するなら現地の天気を確認しましょう。'],
     ],
-    x: ['11~3월은 세계에서 가장 추운 수도 중 하나이고 대기 오염이 심합니다.', 'November–March is bitterly cold with heavy air pollution.', '11〜3月は世界有数の寒さで、大気汚染もひどいです。'],
+    x: ['11~3월 울란바토르는 겨울 추위가 심하고 대기질이 나빠질 수 있습니다. 방문 전 날씨와 공기질을 확인하세요.', 'Ulaanbaatar is very cold from November to March, and air quality can deteriorate in winter. Check weather and air-quality updates before your visit.', '11～3月のウランバートルは寒さが厳しく、大気質が悪化することがあります。旅行前に天候と大気質の情報を確認しましょう。'],
   },
   almaty: {
     p: [
-      ['5~6월·9~10월', 'May–June and September–October', '5〜6月・9〜10月', '빅 알마티 호수·차린 캐니언 같은 자연 명소를 즐기기 좋습니다.', 'Best for Big Almaty Lake and Charyn Canyon.', 'ビッグ・アルマトイ湖やチャリン渓谷などの自然を楽しむのに最適です。'],
+      ['5~6월·9~10월', 'May–June and September–October', '5〜6月・9〜10月', '빅 알마티 호수에서는 산책과 사진 촬영을 즐길 수 있습니다. 차린 캐니언도 별도 일정을 잡아 둘러보세요.', 'Enjoy walks and photography at Big Almaty Lake, and plan a separate outing to Charyn Canyon.', '夏はビッグ・アルマティ湖で散策や写真撮影を楽しめます。チャリン渓谷は別の日程で訪れましょう。'],
       ['3월 나우르즈', 'March (Nauryz)', '3月（ナウルズ）', '봄맞이 새해 명절로 거리 축제와 전통 음식을 즐길 수 있습니다.', 'The spring new-year holiday with street festivities and traditional food.', '春の新年の祝日で、街の祭りや伝統料理を楽しめます。'],
       ['12~3월 스키', 'December–March (skiing)', '12〜3月（スキー）', '시내에서 가까운 침불락 스키장을 즐길 수 있습니다.', 'Ski at Shymbulak, close to the city.', '市内に近いシンブラク・スキー場が楽しめます。'],
     ],
@@ -194,14 +194,14 @@ export const WHEN_2: Record<string, When> = {
   tashkent: {
     p: [
       ['3월 21일 무렵 나브루즈', 'Around 21 March (Navruz)', '3月21日頃（ナヴルーズ）', '봄맞이 새해 명절로, 수말락 같은 전통 음식을 함께 나눕니다.', 'The spring New Year, when dishes such as sumalak are shared.', '春の新年の祝日で、スマラクなどの伝統料理を分かち合います。'],
-      ['4~5월·9~10월', 'April–May and September–October', '4〜5月・9〜10月', '사마르칸트·부하라까지 실크로드 여행을 이어 가기 좋은 날씨입니다.', 'Pleasant weather to continue along the Silk Road to Samarkand and Bukhara.', 'サマルカンド・ブハラまでシルクロードの旅を続けるのに快適な気候です。'],
+      ['4~5월·9~10월', 'April–May and September–October', '4〜5月・9〜10月', '여름 더위를 피해 사마르칸트·부하라의 실크로드 유적을 둘러보세요.', 'Explore the Silk Road sites of Samarkand and Bukhara outside the summer heat.', '春と秋は、夏の暑さを避けてサマルカンドとブハラのシルクロード遺跡を巡れます。'],
     ],
     x: ['7~8월은 매우 덥습니다.', 'July–August is very hot.', '7〜8月は非常に暑いです。'],
   },
   tbilisi: {
     p: [
       ['10월 트빌리소바·와인 수확', 'October (Tbilisoba and the grape harvest)', '10月（トビリソバ・ブドウ収穫）', '도시 축제 트빌리소바와 카헤티 와인 산지의 수확철이 겹칩니다.', 'The Tbilisoba city festival coincides with the Kakheti grape harvest.', '街の祭りトビリソバとカヘティのワイン産地の収穫期が重なります。'],
-      ['5~6월', 'May–June', '5〜6月', '푸른 산과 온화한 날씨에 카즈베기 당일 투어를 하기 좋습니다.', 'Green mountains and mild weather for a day trip to Kazbegi.', '緑の山と穏やかな気候で、カズベギへの日帰りに最適です。'],
+      ['5~6월', 'May–June', '5〜6月', '카즈베기 지역 하이킹을 계획하기 좋은 시기입니다. 트빌리시에서 스테판츠민다까지는 편도 약 3시간이므로 당일치기는 일찍 출발하세요.', 'May–June is a good time to plan hikes in the Kazbegi region. The drive from Tbilisi to Stepantsminda takes about three hours each way, so leave early for a day trip.', '5～6月はカズベギ周辺のハイキングを計画しやすい時期です。トビリシからステパンツミンダまでは片道約3時間なので、日帰りなら早朝に出発しましょう。'],
     ],
   },
   dubai: {
@@ -213,8 +213,8 @@ export const WHEN_2: Record<string, When> = {
   },
   cairo: {
     p: [
-      ['10~4월', 'October–April', '10〜4月', '선선해 피라미드와 유적을 둘러보기 가장 좋습니다.', 'Cool enough to explore the pyramids and ancient sites.', '涼しく、ピラミッドや遺跡を巡るのに最適です。'],
+      ['11~4월', 'November–April', '11〜4月', '이집트의 비교적 온화한 겨울에 피라미드와 유적을 둘러보기 좋습니다.', 'Egypt\'s relatively mild winter suits visits to the pyramids and archaeological sites.', '11～4月はエジプトの比較的穏やかな冬で、ピラミッドや遺跡を巡りやすい時期です。'],
     ],
-    x: ['한여름은 매우 덥고, 3~5월에는 모래바람(캄신)이 불 수 있습니다. 라마단 기간에는 낮 영업시간이 짧아질 수 있습니다.', 'Midsummer is very hot, the khamsin can blow March–May, and daytime hours may shorten during Ramadan.', '真夏は非常に暑く、3〜5月は砂嵐（ハムシーン）が吹くことがあり、ラマダン中は日中の営業時間が短くなることがあります。'],
+    x: ['한여름은 덥고 봄에는 먼지바람이 불 수 있습니다. 라마단에는 박물관과 상점의 운영 시간이 달라질 수 있으니 방문 전 확인하세요.', 'Summer can be hot and spring may bring dusty winds. Museum and shop hours may change during Ramadan, so check before visiting.', '真夏は暑く、春には砂ぼこりを伴う風が吹くことがあります。ラマダン中は博物館や店の営業時間が変わる場合があるため、訪問前に確認しましょう。'],
   },
 };

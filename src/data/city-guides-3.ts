@@ -17,7 +17,7 @@ export const NOTES_3: Record<string, Compact> = {
     h: [
       ['골목길(레인웨이)', 'Laneways', 'レーンウェイ', '호시어 레인 등 그래피티와 카페가 가득한 시내 골목들입니다.', 'City lanes such as Hosier Lane, packed with street art and cafés.', 'ホージア・レーンなど落書きアートとカフェが並ぶ路地です。'],
       ['퀸 빅토리아 마켓', 'Queen Victoria Market', 'クイーン・ヴィクトリア・マーケット', '식재료와 잡화가 모인 오래된 시장. 핫 잼 도넛이 명물입니다.', 'A historic market for food and goods, famous for hot jam doughnuts.', '食材と雑貨が集まる歴史ある市場。ホットジャムドーナツが名物です。'],
-      ['그레이트 오션 로드', 'Great Ocean Road', 'グレート・オーシャン・ロード', '해안 절벽과 12사도 바위를 보러 가는 하루 여행 코스입니다.', 'A day trip along coastal cliffs to the Twelve Apostles.', '海岸の断崖と十二使徒岩を見に行く日帰りコースです。'],
+      ['그레이트 오션 로드', 'Great Ocean Road', 'グレート・オーシャン・ロード', '해안 절벽과 12사도 바위를 볼 수 있는 해안도로입니다. 멜버른에서 당일 여행도 가능하지만 거리가 길어 여유롭게 보려면 1박 이상을 권합니다.', 'A coastal route with cliffs and the Twelve Apostles. A day trip from Melbourne is possible, but the distance makes an overnight stay better for an unhurried visit.', '海岸の断崖や十二使徒の奇岩を見られる道です。メルボルンから日帰りもできますが、距離があるため、ゆっくり巡るなら1泊以上がおすすめです。'],
     ],
     t: [
       ['시내 중심의 무료 트램 구역 안에서는 트램을 무료로 탈 수 있습니다.', 'Trams are free within the city-centre Free Tram Zone.', '市中心部のフリートラムゾーン内はトラムが無料です。'],
@@ -48,13 +48,13 @@ export const NOTES_3: Record<string, Compact> = {
   },
   pattaya: {
     h: [
-      ['진리의 성전', 'Sanctuary of Truth', 'サンクチュアリ・オブ・トゥルース', '못 없이 나무로만 지은 거대한 조각 건축물입니다.', 'A vast carved temple built entirely of wood without nails.', '釘を使わず木だけで建てた巨大な彫刻建築です。'],
-      ['꼬란 섬', 'Koh Larn', 'ラン島', '배로 가는 섬. 시내 해변보다 물이 맑아 해수욕하기 좋습니다.', 'An island reached by boat with clearer water than the city beaches.', '船で行く島。市内のビーチより水がきれいです。'],
-      ['워킹 스트리트', 'Walking Street', 'ウォーキング・ストリート', '저녁부터 차량이 통제되는 유흥가 거리입니다.', 'The nightlife strip closed to traffic in the evenings.', '夜は車両通行止めになる歓楽街です。'],
+      ['진리의 성전', 'Sanctuary of Truth', 'サンクチュアリー・オブ・トゥルース', '나무 조각으로 장식된 거대한 건축물입니다. 전통 목재 결합 기법을 써서 못 사용을 최소화했습니다.', 'A vast carved-wood structure built with traditional timber-joining techniques that minimize the use of nails.', '木彫で飾られた巨大建築です。伝統的な木組みの技法で釘の使用を抑えています。'],
+      ['꼬란 섬', 'Ko Lan', 'ラン島', '파타야에서 배로 가는 섬으로, 여러 해변에서 해수욕과 해양 활동을 즐길 수 있습니다.', 'An island reached by boat from Pattaya, with beaches for swimming and other water activities.', 'パタヤから船で渡る島で、複数のビーチで海水浴やマリンアクティビティを楽しめます。'],
+      ['워킹 스트리트', 'Walking Street', 'ウォーキングストリート', '파타야의 야간 유흥가로, 저녁에 거리와 업소가 활기를 띱니다.', 'Pattaya\'s nightlife district, lively in the evening.', 'パタヤの夜の繁華街で、夕方以降に通りや店がにぎわいます。'],
     ],
     t: [
-      ['시내 이동은 해변 도로를 도는 합승 트럭(썽태우)이 저렴합니다.', 'Shared songthaew trucks looping the beach roads are the cheap way around.', '市内移動はビーチ沿いを回る乗り合いソンテウが安いです。'],
-      ['제트스키 등 해양 레저는 대여 전 기체 상태를 사진으로 남겨 두면 분쟁을 막을 수 있습니다.', 'Photograph jet skis before renting to avoid damage disputes.', 'ジェットスキーなどは借りる前に機体の写真を撮っておくとトラブルを防げます。'],
+      ['파타야 시내에서는 해변도로와 세컨드로드를 다니는 합승 트럭 \'썽태우\'를 이용할 수 있습니다. 탑승 전 노선과 요금을 확인하세요.', 'Shared pickup trucks called songthaews serve Pattaya\'s Beach Road and Second Road. Confirm the route and fare before boarding.', 'パタヤ市内ではビーチロードとセカンドロードを走る乗合トラック「ソンテウ」を利用できます。乗る前に経路と料金を確認しましょう。'],
+      ['제트스키 등을 빌릴 때는 탑승 전 기체 상태를 사진으로 남기고, 여권을 보증금 대신 맡기지 마세요.', 'Before renting a jet ski, photograph its condition and do not leave your passport as a deposit.', 'ジェットスキーなどを借りる前に機体の状態を写真に残し、パスポートを保証金代わりに預けないでください。'],
     ],
   },
   'phu-quoc': {
@@ -64,7 +64,7 @@ export const NOTES_3: Record<string, Compact> = {
       ['즈엉동 야시장', 'Duong Dong Night Market', 'ズオンドン・ナイトマーケット', '해산물 구이 노점이 모인 섬의 대표 야시장입니다.', "The island's main night market, full of grilled-seafood stalls.", '海鮮焼きの屋台が並ぶ島の代表的な夜市です。'],
     ],
     t: [
-      ['섬 북쪽과 남쪽이 멀어 숙소 위치에 따라 이동 시간이 크게 달라집니다.', 'The north and south of the island are far apart; where you stay changes travel times a lot.', '島の北と南は離れているので、宿の場所で移動時間が大きく変わります。'],
+      ['푸꾸옥의 북부 국립공원과 남부 사오 비치는 서로 떨어져 있으므로 숙소 위치를 정할 때 방문할 지역을 먼저 살펴보세요.', 'Phu Quoc\'s northern national park and southern Sao Beach are far apart, so consider the areas you plan to visit when choosing a base.', 'フーコック島北部の国立公園と南部のサオビーチは離れています。宿泊先を決める前に訪問エリアを確認しましょう。'],
       ['피시 소스(느억맘)와 후추 농장이 유명해, 공장·농장 견학을 겸한 기념품 쇼핑이 가능합니다.', 'Famous for fish sauce and pepper farms, which double as souvenir stops.', '魚醤（ヌックマム）と胡椒農園が有名で、見学を兼ねたお土産選びができます。'],
     ],
   },
@@ -72,11 +72,11 @@ export const NOTES_3: Record<string, Compact> = {
     h: [
       ['푸껫 올드타운', 'Phuket Old Town', 'プーケット・オールドタウン', '파스텔색 시노-포르투갈 건물이 늘어선 옛 거리입니다.', 'Streets of pastel Sino-Portuguese shophouses.', 'パステルカラーの中国ポルトガル様式の建物が並ぶ旧市街です。'],
       ['빅 붓다', 'Big Buddha', 'ビッグ・ブッダ', '언덕 위 대형 불상. 섬 남쪽 바다가 내려다보입니다.', 'A giant hilltop Buddha with views over the south of the island.', '丘の上の大仏。島の南の海が見渡せます。'],
-      ['피피섬·팡아만', 'Phi Phi Islands and Phang Nga Bay', 'ピピ島・パンガー湾', '보트 투어로 가는 석회암 섬과 에메랄드빛 바다입니다.', 'Boat trips to limestone islands and emerald water.', 'ボートツアーで行く石灰岩の島々とエメラルドの海です。'],
+      ['피피섬·팡아만', 'Phi Phi Islands and Phang Nga Bay', 'ピピ諸島・パンガー湾', '보트로 찾는 두 지역의 석회암 절벽과 바다 풍경을 즐길 수 있습니다.', 'Travel by boat to enjoy their limestone cliffs and seascapes.', '船で訪れ、石灰岩の断崖と海の景色を楽しめます。'],
     ],
     t: [
       ['5~10월은 우기로 서쪽 해변 파도가 높아지는 날이 있으니 붉은 깃발이 꽂히면 수영을 피하세요.', 'May to October is the wet season; avoid swimming when red flags are up on the west coast.', '5〜10月は雨季で西側の波が高くなる日があるので、赤旗が立ったら泳がないでください。'],
-      ['해변 사이 이동은 택시 요금이 비싼 편이라 차량 호출 앱 요금을 비교해 보세요.', 'Taxis between beaches are pricey; compare with ride-hailing apps.', 'ビーチ間のタクシーは高めなので、配車アプリの料金と比べてみましょう。'],
+      ['해변 사이를 택시로 이동할 때는 태국 교통부가 승인한 차량 호출 앱의 요금을 미리 비교해 보세요.', 'For taxi trips between beaches, compare fares in ride-hailing apps approved by Thailand\'s transport department before booking.', 'ビーチ間をタクシーで移動する際は、タイ運輸省が認可した配車アプリで事前に料金を比べましょう。'],
     ],
   },
   qingdao: {
@@ -86,8 +86,8 @@ export const NOTES_3: Record<string, Compact> = {
       ['바다관 별장 거리', 'Badaguan', '八大関', '유럽풍 별장이 늘어선 나무 그늘 거리입니다.', 'Tree-lined streets of European-style villas.', 'ヨーロッパ風の別荘が並ぶ並木道です。'],
     ],
     t: [
-      ['여름 맥주 축제 기간에는 숙소가 빨리 차니 일찍 예약하세요.', 'Hotels fill fast during the summer beer festival; book early.', '夏のビール祭り期間は宿がすぐ埋まるので早めに予約を。'],
-      ['결제는 알리페이·위챗페이가 기본이라 출국 전에 외국 카드 연동을 해 두면 편합니다.', 'Alipay and WeChat Pay are the norm; link a foreign card before you go.', '支払いはアリペイ・WeChatペイが基本。出発前に海外カードを連携しておくと便利です。'],
+      ['칭다오 국제맥주축제에 맞춰 간다면 공식 개최 날짜와 회장을 확인한 뒤 숙소를 미리 예약하세요.', 'If visiting for the Qingdao International Beer Festival, check the official dates and venue, then book accommodation in advance.', '青島国際ビール祭りに合わせて行くなら、公式の開催日と会場を確認し、宿泊先を早めに予約しましょう。'],
+      ['중국에서는 알리페이·위챗페이 사용을 준비하면 편리합니다. 일부 해외 발행 카드도 연결할 수 있으니 출국 전 카드 지원 여부를 확인하세요.', 'Alipay and WeChat Pay can be convenient in China. Some foreign-issued cards can be linked; check your card\'s eligibility before departure.', '中国ではアリペイやWeChat Payを用意しておくと便利です。一部の海外発行カードは連携できるため、出発前に利用可否を確認しましょう。'],
     ],
   },
   reykjavik: {
@@ -108,8 +108,8 @@ export const NOTES_3: Record<string, Compact> = {
       ['만세 절벽', 'Banzai Cliff', 'バンザイクリフ', '태평양 전쟁의 역사가 남은 섬 북쪽 절벽입니다.', 'The northern cliffs marked by Pacific War history.', '太平洋戦争の歴史が残る島北部の断崖です。'],
     ],
     t: [
-      ['대중교통이 거의 없어 렌터카나 호텔 셔틀을 이용하는 경우가 많습니다.', 'There is almost no public transport, so most visitors rent a car or use hotel shuttles.', '公共交通がほとんどないので、レンタカーやホテルのシャトルを利用します。'],
-      ['미국령이라 식당 메뉴 가격에 팁이 포함되지 않은 경우가 많습니다.', 'As a US territory, menu prices usually exclude the tip.', 'アメリカ領のため、メニュー価格にチップは含まれないことが多いです。'],
+      ['사이판은 버스 노선과 운행 상태가 제한적이거나 변동될 수 있습니다. 관광지 이동 전 렌터카·택시·숙소 셔틀과 현재 버스 운행 여부를 확인하세요.', 'Bus routes and service on Saipan may be limited or change. Before visiting attractions, check current bus operations and options such as a rental car, taxi, or hotel shuttle.', 'サイパンのバス路線や運行状況は限られ、変更されることがあります。観光地へ向かう前に運行状況とレンタカー・タクシー・ホテル送迎を確認しましょう。'],
+      ['사이판에서도 식당 서비스에 팁을 주는 관행이 있습니다. 계산서의 서비스료를 확인하고 팁 여부를 정하세요.', 'Restaurant tipping is customary on Saipan. Check the bill for a service charge before deciding whether to leave a tip.', 'サイパンでも飲食店のサービスにチップを渡す習慣があります。会計にサービス料が含まれているか確認してから判断しましょう。'],
     ],
   },
   'san-francisco': {
@@ -125,12 +125,12 @@ export const NOTES_3: Record<string, Compact> = {
   },
   'siem-reap': {
     h: [
-      ['앙코르와트', 'Angkor Wat', 'アンコール・ワット', '세계 최대 규모의 사원 유적. 해 뜨는 모습을 보러 새벽에 가는 사람이 많습니다.', 'The vast temple complex; many go at dawn to watch the sunrise.', '世界最大級の寺院遺跡。日の出を見に早朝に訪れる人が多いです。'],
+      ['앙코르와트', 'Angkor Wat', 'アンコール・ワット', '세계에서 가장 큰 종교 건축물로 알려진 사원. 일출을 보려고 새벽부터 찾는 방문객이 많습니다.', 'recognized as the world\'s largest religious structure. Many visitors arrive before dawn to watch the sunrise.', '世界最大の宗教建築物として知られる寺院。日の出を見るため夜明け前から多くの人が訪れます。'],
       ['바이욘 사원', 'Bayon', 'バイヨン寺院', '앙코르톰 안에 미소 짓는 거대한 얼굴 조각이 가득한 사원입니다.', 'Inside Angkor Thom, a temple of giant smiling stone faces.', 'アンコール・トム内の、微笑む巨大な顔の彫刻が並ぶ寺院です。'],
       ['따프롬', 'Ta Prohm', 'タ・プローム', '거대한 나무뿌리가 유적을 감싸고 있는 사원입니다.', 'A temple wrapped in the roots of giant trees.', '巨大な木の根が遺跡を覆う寺院です。'],
     ],
     t: [
-      ['앙코르 유적 입장권은 사진이 들어간 본인 전용권이라 다른 사람과 나눠 쓸 수 없습니다.', 'Angkor passes carry your photo and cannot be shared.', 'アンコール遺跡のチケットは顔写真入りの本人専用で、共有できません。'],
+      ['앙코르 유적 1일권은 사진 없이 발급되지만 3일권·7일권은 본인 확인용 사진이 필요합니다. 입장할 때 각자의 유효한 티켓을 제시하세요.', 'Angkor\'s one-day pass does not require a photo, but the three- and seven-day passes require one for identification. Each visitor should present a valid ticket at entry.', 'アンコール遺跡の1日券には写真が不要ですが、3日券・7日券には本人確認用の写真が必要です。入場時は各自の有効なチケットを提示してください。'],
       ['유적 사원 안에서는 어깨와 무릎을 가리는 옷을 입어야 합니다.', 'Cover shoulders and knees inside the temples.', '寺院内では肩と膝を隠す服装が必要です。'],
     ],
   },

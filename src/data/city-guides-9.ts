@@ -125,14 +125,14 @@ export const NOTES_9: Record<string, Compact> = {
   },
   cairo: {
     h: [
-      ['기자 피라미드와 스핑크스', 'Giza Pyramids and Sphinx', 'ギザのピラミッドとスフィンクス', '고대 세계 7대 불가사의 중 유일하게 남은 피라미드 단지. 시내에서 차로 갑니다.', 'The only surviving wonder of the ancient world, a drive from central Cairo.', '古代世界の七不思議で唯一残るピラミッド群。市内から車で向かいます。'],
+      ['기자 피라미드와 스핑크스', 'The Giza Pyramids and Sphinx', 'ギザのピラミッドとスフィンクス', '쿠푸왕의 대피라미드는 고대 세계 7대 불가사의 가운데 유일하게 남았습니다. 기자 고원에서 다른 피라미드와 스핑크스도 함께 볼 수 있습니다.', 'Khufu\'s Great Pyramid is the only surviving Wonder of the Ancient World. The plateau also holds other pyramids and the Sphinx.', 'クフ王の大ピラミッドは古代世界七不思議で唯一現存する建造物です。ギザ台地ではほかのピラミッドやスフィンクスも見られます。'],
       ['이집트 박물관(타흐리르)', 'Egyptian Museum (Tahrir)', 'エジプト考古学博物館（タハリール）', '타흐리르 광장의 박물관으로 고대 이집트 유물이 가득합니다.', 'The museum on Tahrir Square, packed with ancient Egyptian treasures.', 'タハリール広場の博物館で、古代エジプトの遺物が詰まっています。'],
       ['살라딘 성채', 'Citadel of Saladin', 'サラディンの城塞', '언덕 위 중세 요새로, 안의 무함마드 알리 모스크에서 시내가 내려다보입니다.', 'A medieval hilltop fortress whose Muhammad Ali Mosque overlooks the city.', '丘の上の中世の要塞で、中のムハンマド・アリー・モスクから市内が見渡せます。'],
       ['칸 엘 칼릴리 시장', 'Khan el-Khalili', 'ハーン・ハリーリ市場', '이슬람 구시가지의 오래된 시장 골목입니다.', 'The historic bazaar lanes of Islamic Cairo.', 'イスラーム地区にある歴史ある市場の路地です。'],
     ],
     t: [
-      ['시내 이동은 지하철이 저렴하고 막힘이 없으며, 택시는 차량 호출 앱을 쓰면 요금 흥정을 피할 수 있습니다.', 'The metro is cheap and avoids traffic, and ride-hailing apps save you from haggling over taxi fares.', '市内移動は地下鉄が安く渋滞もなく、タクシーは配車アプリを使えば値段交渉を避けられます。'],
-      ['명소 입장권은 외국인 요금이 따로 있으니 공식 매표소에서 직접 사세요.', 'Sites charge separate foreigner prices; buy tickets yourself at the official counter.', '名所の入場券は外国人料金が別にあるので、公式窓口で直接購入しましょう。'],
+      ['카이로 지하철은 도로 정체를 피할 수 있는 이동 수단입니다. 택시나 차량 호출 서비스를 이용할 때는 탑승 전 요금 방식과 승차 지점을 확인하세요.', 'Cairo\'s metro is an option for avoiding road traffic. For taxis or ride-hailing, check the fare method and pickup point before you ride.', 'カイロの地下鉄は道路の渋滞を避ける移動手段です。タクシーや配車サービスでは、乗車前に料金方式と乗車場所を確認しましょう。'],
+      ['카이로의 유적·박물관은 외국인과 이집트인 요금을 구분하는 곳이 있습니다. 방문 전 각 시설의 공식 요금과 온라인 예매 안내를 확인하세요.', 'Some Cairo monuments and museums have separate foreign and Egyptian admission categories. Check each site\'s official rates and online booking instructions before visiting.', 'カイロの遺跡や博物館には、外国人とエジプト人で入場区分が異なる施設があります。訪問前に各施設の公式料金とオンライン予約案内を確認しましょう。'],
     ],
   },
   frankfurt: {

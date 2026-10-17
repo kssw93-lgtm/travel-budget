@@ -21,7 +21,7 @@ export const NOTES_7: Record<string, Compact> = {
     ],
     t: [
       ['람블라스 거리와 지하철에서는 소매치기가 많으니 가방을 앞으로 메세요.', 'Pickpockets work La Rambla and the metro; wear your bag in front.', 'ランブラス通りや地下鉄ではスリが多いので、バッグは前に。'],
-      ['시내 숙박에는 관광세가 따로 붙어 체크인 때 현장 결제하는 경우가 많습니다.', 'A tourist tax is added to stays, often paid at check-in.', '宿泊には観光税が別にかかり、チェックイン時に払うことが多いです。'],
+      ['바르셀로나 숙박에는 관광세가 부과됩니다. 숙소에서 청구 방식을 확인하세요.', 'A tourist tax applies to accommodation in Barcelona. Check how your lodging collects it.', 'バルセロナの宿泊には観光税がかかります。徴収方法は宿泊施設に確認してください。'],
     ],
   },
   rome: {
@@ -43,7 +43,7 @@ export const NOTES_7: Record<string, Compact> = {
     ],
     t: [
       ['지하철은 비접촉 카드로 찍고 타며, 일주일 안에 일정 횟수를 넘기면 나머지는 무료입니다.', 'Tap a contactless card on the subway; after a set number of rides in a week, the rest are free.', '地下鉄はタッチ決済で乗れ、1週間で一定回数を超えると残りは無料です。'],
-      ['식당 메뉴 가격에는 판매세와 팁이 빠져 있어 실제로는 메뉴 가격보다 꽤 더 나옵니다.', 'Menu prices exclude sales tax and tip, so the bill is well above the menu.', 'メニュー価格に税とチップは含まれず、実際の支払いはかなり高くなります。'],
+      ['뉴욕 식당에서는 메뉴 표시액에 판매세가 더해질 수 있고, 팁이나 명시된 서비스 요금도 확인해야 합니다.', 'At New York City restaurants, sales tax may be added to menu prices; check any tip or disclosed service charge as well.', 'ニューヨークの飲食店では、メニュー表示額に売上税が加わる場合があります。チップや明示されたサービス料も確認しましょう。'],
     ],
   },
   istanbul: {
@@ -54,7 +54,7 @@ export const NOTES_7: Record<string, Compact> = {
     ],
     t: [
       ['교통카드(이스탄불카르트) 하나로 지하철·트램·페리를 탈 수 있습니다.', 'One Istanbulkart covers metro, tram and ferry.', 'イスタンブールカード1枚で地下鉄・トラム・フェリーに乗れます。'],
-      ['모스크에서는 신발을 벗고, 여성은 머리를 가릴 스카프를 준비하세요.', 'Remove shoes in mosques; women should bring a headscarf.', 'モスクでは靴を脱ぎ、女性はスカーフを用意しましょう。'],
+      ['모스크에 들어갈 때는 신발을 벗고 복장 규칙을 지키세요. 여성은 머리를 가릴 스카프를 준비하면 좋습니다.', 'Remove your shoes and follow the dress code when entering a mosque. Women should bring a headscarf.', 'モスクに入る際は靴を脱ぎ、服装規定に従ってください。女性は頭を覆うスカーフを用意すると安心です。'],
     ],
   },
   shanghai: {
@@ -87,7 +87,7 @@ export const NOTES_7: Record<string, Compact> = {
     ],
     t: [
       ['교통카드(옥토퍼스)로 지하철·버스·페리와 편의점 결제까지 할 수 있습니다.', 'An Octopus card works on MTR, buses, ferries and in convenience stores.', 'オクトパスカードで地下鉄・バス・フェリーやコンビニの支払いができます。'],
-      ['딤섬은 오전에 여는 찻집(차찬텡·얌차)에서 먹는 것이 현지식입니다.', 'Dim sum is a morning yum cha meal at local teahouses.', '点心は午前の飲茶で食べるのが地元流です。'],
+      ['홍콩식 딤섬은 전통 찻집에서 얌차로 즐겨 보세요. 차찬텡은 별도의 홍콩식 카페 문화입니다.', 'Try Hong Kong dim sum at a traditional teahouse as yum cha. Cha chaan teng is a separate local café tradition.', '香港の点心は伝統的な茶楼で飲茶として楽しめます。茶餐廳は別の香港式カフェ文化です。'],
     ],
   },
   'kuala-lumpur': {
@@ -97,8 +97,8 @@ export const NOTES_7: Record<string, Compact> = {
       ['잘란 알로 야시장', 'Jalan Alor', 'ジャラン・アロー', '저녁마다 노점과 식당이 늘어서는 먹자골목입니다.', 'A food street of stalls and restaurants every evening.', '毎晩屋台と食堂が並ぶグルメ通りです。'],
     ],
     t: [
-      ['바투 동굴 사원은 짧은 바지·민소매 차림으로는 입장이 제한될 수 있습니다.', 'Batu Caves may refuse shorts and sleeveless tops.', 'バトゥ洞窟は短パンやノースリーブだと入場を断られることがあります。'],
-      ['그랩 등 차량 호출 앱이 택시보다 편하고 요금이 투명합니다.', 'Ride-hailing like Grab is easier than taxis, with clear fares.', 'Grabなどの配車アプリはタクシーより便利で料金も明確です。'],
+      ['바투 동굴의 사원 구역에서는 어깨와 무릎을 가리는 복장을 준비하세요. 노출이 큰 옷은 입장이 제한될 수 있습니다.', 'Cover your shoulders and knees in Batu Caves\' temple areas; revealing clothing may restrict entry.', 'バトゥ洞窟の寺院エリアでは肩と膝を覆う服装を用意しましょう。露出の多い服装では入場が制限される場合があります。'],
+      ['그랩 같은 차량 호출 앱에서는 예약 전에 예상 요금을 볼 수 있습니다. 택시와 어느 쪽이 편한지는 상황에 따라 다릅니다.', 'Ride-hailing apps such as Grab show an upfront fare before booking. Compare them with taxis for your route.', 'Grabなどの配車アプリでは予約前に料金を確認できます。タクシーとも比較して選びましょう。'],
     ],
   },
   sapporo: {
@@ -119,7 +119,7 @@ export const NOTES_7: Record<string, Compact> = {
       ['섬 투어', 'Island tours', 'アイランドツアー', '배를 타고 주변 섬을 돌며 스노클링을 즐깁니다.', 'Boat trips around nearby islands for snorkelling.', '船で周辺の島を巡り、シュノーケリングを楽しみます。'],
     ],
     t: [
-      ['진흙 온천(머드 스파)은 시내에서 가까워 반나절 일정으로 다녀오기 좋습니다.', 'Mud baths near town make an easy half-day trip.', '泥温泉（マッドスパ）は市内から近く、半日で行けます。'],
+      ['나트랑 근교에는 탑바 등 진흙 온천 시설이 있어 시내 관광과 함께 둘러볼 수 있습니다.', 'Mud bath venues such as Thap Ba lie near Nha Trang and can be combined with city sightseeing.', 'ニャチャン近郊にはタップバーなどの泥温泉施設があり、市内観光と合わせて訪れられます。'],
       ['차량 호출 앱(그랩 등)을 쓰면 요금이 미리 정해져 흥정할 필요가 없습니다.', 'Ride-hailing apps like Grab show the fare upfront.', 'Grabなどの配車アプリなら料金が事前に決まり、交渉不要です。'],
     ],
   },

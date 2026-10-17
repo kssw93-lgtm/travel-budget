@@ -103,9 +103,9 @@ const BASE: Record<string, CityGuideNote> = {
         ja: '串カツ店のソースは共用なので、二度づけは禁止がルールです。',
       },
       {
-        ko: '오사카에서는 에스컬레이터 오른쪽에 서고 왼쪽을 비워 둡니다(도쿄와 반대).',
-        en: 'In Osaka people stand on the right of escalators and leave the left free, the opposite of Tokyo.',
-        ja: '大阪ではエスカレーターの右側に立ち、左側を空けます（東京と逆）。',
+        ko: '오사카에서는 에스컬레이터 오른쪽에 서는 관행이 있지만, 안전 안내에 따라 한쪽을 비우려고 걷지 말고 손잡이를 잡고 서서 이용하세요.',
+        en: 'In Osaka, standing on the right of escalators is customary, but safety guidance asks everyone to stand still, hold the handrail and avoid walking to keep one side clear.',
+        ja: '大阪ではエスカレーターの右側に立つ習慣がありますが、安全のため片側を空けようとして歩かず、手すりにつかまって立ち止まって利用してください。',
       },
     ],
   },
@@ -130,9 +130,9 @@ const BASE: Record<string, CityGuideNote> = {
       {
         name: { ko: '짜뚜짝 주말시장', en: 'Chatuchak Weekend Market', ja: 'チャトゥチャック・ウィークエンドマーケット' },
         text: {
-          ko: '주말에만 열리는 대형 시장. 옷·잡화·길거리 음식 가게가 수천 곳 모여 있습니다.',
-          en: 'A huge weekend-only market with thousands of stalls selling clothes, crafts and street food.',
-          ja: '週末だけ開く巨大市場。服や雑貨、屋台料理の店が数千軒集まります。',
+          ko: '토·일요일에 전체 구역이 열리는 대형 시장. 옷·잡화·길거리 음식 가게가 수천 곳 모이고, 일부 구역은 평일에도 엽니다.',
+          en: 'A huge market fully open on Saturdays and Sundays, with thousands of clothing, craft and street-food stalls; some sections also open on weekdays.',
+          ja: '土・日曜に全区画が開く大規模な市場。衣類・雑貨・屋台が数千軒集まり、一部の区画は平日も営業します。',
         },
       },
     ],

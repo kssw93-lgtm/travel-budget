@@ -9494,6 +9494,12 @@
       "en": "Venetian rice and peas",
       "ja": "グリーンピースと米で作るヴェネツィアの伝統料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Risi_e_Bisi.jpg/960px-Risi_e_Bisi.jpg",
+      "author": "Solde",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Risi_e_Bisi.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -9511,6 +9517,12 @@
       "ko": "튀긴 정어리를 식초·양파 양념에 재운 새콤달콤한 요리",
       "en": "Fried sardines marinated in vinegar and onions",
       "ja": "揚げたイワシを酢と玉ねぎに漬けた甘酸っぱい料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Sarde_in_sa%C3%B2r.jpg/960px-Sarde_in_sa%C3%B2r.jpg",
+      "author": "ezioman",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sarde_in_sa%C3%B2r.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],
@@ -9530,6 +9542,12 @@
       "en": "Crisp Venetian biscuits",
       "ja": "ヴェネツィアのサクサクした焼き菓子"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Baicoli.jpg/960px-Baicoli.jpg",
+      "author": "Semolo75",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Baicoli.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -9547,6 +9565,12 @@
       "ko": "건포도와 옥수수 가루로 만든 작은 과자",
       "en": "Small cornmeal and raisin cookies",
       "ja": "レーズンとトウモロコシ粉の小さなクッキー"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Wikiraduno_Verona_ott_2023_abc9_zaletti.jpg/960px-Wikiraduno_Verona_ott_2023_abc9_zaletti.jpg",
+      "author": "Patafisik",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Wikiraduno_Verona_ott_2023_abc9_zaletti.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -9734,6 +9758,12 @@
       "en": "Pastry filled with cottage cheese and sour cream, boiled or baked",
       "ja": "カッテージチーズとサワークリームを包み、茹でるか焼いた料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/%C5%A0trukli_iz_Okrugljaka.jpg/960px-%C5%A0trukli_iz_Okrugljaka.jpg",
+      "author": "Bonč",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%C5%A0trukli_iz_Okrugljaka.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -9751,6 +9781,12 @@
       "ko": "송아지 고기 사이에 햄·치즈를 넣고 튀긴 커틀릿",
       "en": "Veal cutlet stuffed with ham and cheese, breaded and fried",
       "ja": "子牛肉でハムとチーズを挟んで揚げたカツレツ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Zagrebacki_odrezak.jpg/960px-Zagrebacki_odrezak.jpg",
+      "author": "Hibasi",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Zagrebacki_odrezak.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],
@@ -9787,6 +9823,12 @@
       "ko": "여러 고기 재료를 한 냄비에 끓인 토가족 요리",
       "en": "Tujia hot pot of several meats",
       "ja": "数種類の肉を一つの鍋で煮るトゥチャ族料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/China_WP_20160813_007_(28643522724).jpg/960px-China_WP_20160813_007_(28643522724).jpg",
+      "author": "Kuruman",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:China_WP_20160813_007_%2828643522724%29.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],
@@ -9842,6 +9884,12 @@
       "en": "Zurich’s signature dish of sliced veal in a mushroom cream sauce, served with rösti",
       "ja": "細切りの子牛肉をマッシュルームとクリームのソースで煮込み、レシュティを添えるチューリッヒ名物"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Z%C3%BCrcher_Geschnetzeltes_at_Zur_rote_Buech.jpg/960px-Z%C3%BCrcher_Geschnetzeltes_at_Zur_rote_Buech.jpg",
+      "author": "Jpatokal",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrcher_Geschnetzeltes_at_Zur_rote_Buech.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -9860,6 +9908,12 @@
       "en": "Oats, fruit and yogurt — the breakfast created by a Zurich doctor, Bircher-Benner",
       "ja": "チューリッヒの医師ビルヒャー＝ベンナーが考案した、オーツ麦・果物・ヨーグルトの朝食"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Birchermuesli_TLodico.jpg/960px-Birchermuesli_TLodico.jpg",
+      "author": "Bricetofly",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Birchermuesli_TLodico.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -9877,6 +9931,12 @@
       "ko": "한입 크기의 작은 마카롱으로, 취리히의 대표 선물 과자",
       "en": "Bite-sized macarons and a classic Zurich gift",
       "ja": "一口サイズの小さなマカロンで、チューリッヒ定番のお土産菓子"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Luxemburgerli_zurich_Sprungli.JPG/960px-Luxemburgerli_zurich_Sprungli.JPG",
+      "author": "Orever",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Luxemburgerli_zurich_Sprungli.JPG"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],

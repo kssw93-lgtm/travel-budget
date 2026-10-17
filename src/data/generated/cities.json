@@ -897,7 +897,7 @@
     "nameEn": "Zurich",
     "currency": "CHF",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "basel",
@@ -907,7 +907,7 @@
     "nameEn": "Basel",
     "currency": "CHF",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "riga",
@@ -937,7 +937,7 @@
     "nameEn": "Bruges",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "barcelona",

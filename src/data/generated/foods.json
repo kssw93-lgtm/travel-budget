@@ -1821,6 +1821,60 @@
     "note": "추천 출처가 시청 공식 관광 사이트가 아님(재확인 필요)"
   },
   {
+    "cityId": "basel",
+    "nameKo": "바슬러 레커리",
+    "nameEn": "Basler Läckerli",
+    "reason": "꿀·견과·설탕 절임 껍질을 넣은 바젤 전통 향신료 과자",
+    "reasonEn": "Basel’s traditional spiced biscuit with honey, nuts and candied peel",
+    "desc": {
+      "ko": "꿀·견과·설탕 절임 껍질을 넣은 바젤 전통 향신료 과자",
+      "en": "Basel’s traditional spiced biscuit with honey, nuts and candied peel",
+      "ja": "はちみつ・ナッツ・柑橘ピールを入れたバーゼル伝統のスパイス菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "basel.com",
+    "recommendUrl": "https://www.basel.com/de/attraktionen/laeckerli-huus-3ee80510ac",
+    "note": "공식 관광청 안내 기준(Claude 2026-10-17)"
+  },
+  {
+    "cityId": "basel",
+    "nameKo": "바슬러 멜주페",
+    "nameEn": "Basler Mehlsuppe",
+    "reason": "볶은 밀가루로 끓인 갈색 수프로, 파스나흐트 축제 새벽에 먹는 바젤 전통 음식",
+    "reasonEn": "A brown soup of toasted flour, eaten in the small hours of the Fasnacht carnival",
+    "desc": {
+      "ko": "볶은 밀가루로 끓인 갈색 수프로, 파스나흐트 축제 새벽에 먹는 바젤 전통 음식",
+      "en": "A brown soup of toasted flour, eaten in the small hours of the Fasnacht carnival",
+      "ja": "炒った小麦粉で作る茶色のスープで、ファスナハトの早朝に食べるバーゼルの伝統料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "basel.com",
+    "recommendUrl": "https://www.basel.com/de/attraktionen/laeckerli-huus-3ee80510ac",
+    "note": "공식 관광청 안내 기준(Claude 2026-10-17)"
+  },
+  {
+    "cityId": "basel",
+    "nameKo": "양파 타르트(츠비벨베에)",
+    "nameEn": "Zwiebelwähe",
+    "reason": "양파와 크림을 듬뿍 넣어 구운 스위스식 짭짤한 타르트",
+    "reasonEn": "A savoury Swiss tart filled with onions and cream",
+    "desc": {
+      "ko": "양파와 크림을 듬뿍 넣어 구운 스위스식 짭짤한 타르트",
+      "en": "A savoury Swiss tart filled with onions and cream",
+      "ja": "玉ねぎとクリームをたっぷり入れて焼いたスイス風の塩味タルト"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "basel.com",
+    "recommendUrl": "https://www.basel.com/de/attraktionen/laeckerli-huus-3ee80510ac",
+    "note": "공식 관광청 안내 기준(Claude 2026-10-17)"
+  },
+  {
     "cityId": "beijing",
     "nameKo": "베이징 카오야",
     "nameEn": "Peking Duck",
@@ -1969,6 +2023,78 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "bruges",
+    "nameKo": "벨기에 초콜릿",
+    "nameEn": "Belgian chocolate",
+    "reason": "「초콜릿의 도시」로 불릴 만큼 수제 초콜릿 가게가 많은 브뤼헤의 상징",
+    "reasonEn": "Bruges’ emblem — the city is packed with artisan chocolate shops",
+    "desc": {
+      "ko": "「초콜릿의 도시」로 불릴 만큼 수제 초콜릿 가게가 많은 브뤼헤의 상징",
+      "en": "Bruges’ emblem — the city is packed with artisan chocolate shops",
+      "ja": "「チョコレートの街」と呼ばれるほど手作りチョコレート店が多い、ブルージュの象徴"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "visitbruges.be",
+    "recommendUrl": "https://acc.visitbruges.be/nl/tempting-traditional-delicacies-from-bruges",
+    "note": "공식 관광청 안내 기준(Claude 2026-10-17)"
+  },
+  {
+    "cityId": "bruges",
+    "nameKo": "벨기에 와플",
+    "nameEn": "Belgian waffles",
+    "reason": "거리 가게에서 갓 구워 파는 벨기에 대표 간식",
+    "reasonEn": "Belgium’s classic snack, freshly baked at street stalls",
+    "desc": {
+      "ko": "거리 가게에서 갓 구워 파는 벨기에 대표 간식",
+      "en": "Belgium’s classic snack, freshly baked at street stalls",
+      "ja": "街の店で焼きたてを売るベルギー定番のおやつ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "visitbruges.be",
+    "recommendUrl": "https://acc.visitbruges.be/nl/tempting-traditional-delicacies-from-bruges",
+    "note": "공식 관광청 안내 기준(Claude 2026-10-17)"
+  },
+  {
+    "cityId": "bruges",
+    "nameKo": "감자튀김(프리트)",
+    "nameEn": "Belgian fries",
+    "reason": "두 번 튀겨 바삭한 벨기에식 감자튀김으로, 마르크트 광장 노점이 유명합니다",
+    "reasonEn": "Twice-fried Belgian fries; the stalls on the Markt are famous",
+    "desc": {
+      "ko": "두 번 튀겨 바삭한 벨기에식 감자튀김으로, 마르크트 광장 노점이 유명합니다",
+      "en": "Twice-fried Belgian fries; the stalls on the Markt are famous",
+      "ja": "二度揚げでカリッとしたベルギー式フライドポテトで、マルクト広場の屋台が有名"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "visitbruges.be",
+    "recommendUrl": "https://acc.visitbruges.be/nl/tempting-traditional-delicacies-from-bruges",
+    "note": "공식 관광청 안내 기준(Claude 2026-10-17)"
+  },
+  {
+    "cityId": "bruges",
+    "nameKo": "벨기에 맥주",
+    "nameEn": "Belgian beer",
+    "reason": "시내 양조장에서 만든 맥주를 맛볼 수 있는 맥주의 도시",
+    "reasonEn": "A beer city where you can taste brews made right in town",
+    "desc": {
+      "ko": "시내 양조장에서 만든 맥주를 맛볼 수 있는 맥주의 도시",
+      "en": "A beer city where you can taste brews made right in town",
+      "ja": "街中の醸造所で造られたビールが味わえるビールの街"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "visitbruges.be",
+    "recommendUrl": "https://acc.visitbruges.be/nl/tempting-traditional-delicacies-from-bruges",
+    "note": "공식 관광청 안내 기준(Claude 2026-10-17)"
   },
   {
     "cityId": "brussels",
@@ -8634,5 +8760,59 @@
     "recommendSource": "Hunan Provincial Government",
     "recommendUrl": "https://www.enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/Dining_12/202509/t20250925_33979435.html",
     "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "zurich",
+    "nameKo": "취리히식 송아지고기 크림 볶음",
+    "nameEn": "Zürcher Geschnetzeltes",
+    "reason": "얇게 썬 송아지고기를 버섯·크림 소스에 볶아 뢰스티와 곁들이는 취리히 대표 요리",
+    "reasonEn": "Zurich’s signature dish of sliced veal in a mushroom cream sauce, served with rösti",
+    "desc": {
+      "ko": "얇게 썬 송아지고기를 버섯·크림 소스에 볶아 뢰스티와 곁들이는 취리히 대표 요리",
+      "en": "Zurich’s signature dish of sliced veal in a mushroom cream sauce, served with rösti",
+      "ja": "細切りの子牛肉をマッシュルームとクリームのソースで煮込み、レシュティを添えるチューリッヒ名物"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "zuerich.com",
+    "recommendUrl": "https://www.zuerich.com/en/visit/regional-specialties",
+    "note": "공식 관광청 안내 기준(Claude 2026-10-17)"
+  },
+  {
+    "cityId": "zurich",
+    "nameKo": "비르허 뮤즐리",
+    "nameEn": "Bircher muesli",
+    "reason": "취리히 의사 비르허베너가 만든 귀리·과일·요거트 아침 식사",
+    "reasonEn": "Oats, fruit and yogurt — the breakfast created by a Zurich doctor, Bircher-Benner",
+    "desc": {
+      "ko": "취리히 의사 비르허베너가 만든 귀리·과일·요거트 아침 식사",
+      "en": "Oats, fruit and yogurt — the breakfast created by a Zurich doctor, Bircher-Benner",
+      "ja": "チューリッヒの医師ビルヒャー＝ベンナーが考案した、オーツ麦・果物・ヨーグルトの朝食"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "zuerich.com",
+    "recommendUrl": "https://www.zuerich.com/en/visit/regional-specialties",
+    "note": "공식 관광청 안내 기준(Claude 2026-10-17)"
+  },
+  {
+    "cityId": "zurich",
+    "nameKo": "룩셈부르게를리",
+    "nameEn": "Luxemburgerli",
+    "reason": "한입 크기의 작은 마카롱으로, 취리히의 대표 선물 과자",
+    "reasonEn": "Bite-sized macarons and a classic Zurich gift",
+    "desc": {
+      "ko": "한입 크기의 작은 마카롱으로, 취리히의 대표 선물 과자",
+      "en": "Bite-sized macarons and a classic Zurich gift",
+      "ja": "一口サイズの小さなマカロンで、チューリッヒ定番のお土産菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "zuerich.com",
+    "recommendUrl": "https://www.zuerich.com/en/visit/regional-specialties",
+    "note": "공식 관광청 안내 기준(Claude 2026-10-17)"
   }
 ]

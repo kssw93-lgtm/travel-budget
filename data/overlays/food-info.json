@@ -3414,5 +3414,55 @@
     "ko": "잘게 다진 몰로키야 잎을 마늘·고수와 끓인 초록색 수프로 밥·닭고기와 먹음",
     "en": "Green soup of chopped jute leaves with garlic and coriander, served with rice and chicken",
     "ja": "刻んだモロヘイヤをにんにくとコリアンダーで煮た緑のスープ、ご飯や鶏肉と"
+  },
+  "zurich:Zürcher Geschnetzeltes": {
+    "ko": "얇게 썬 송아지고기를 버섯·크림 소스에 볶아 뢰스티와 곁들이는 취리히 대표 요리",
+    "en": "Zurich’s signature dish of sliced veal in a mushroom cream sauce, served with rösti",
+    "ja": "細切りの子牛肉をマッシュルームとクリームのソースで煮込み、レシュティを添えるチューリッヒ名物"
+  },
+  "zurich:Bircher muesli": {
+    "ko": "취리히 의사 비르허베너가 만든 귀리·과일·요거트 아침 식사",
+    "en": "Oats, fruit and yogurt — the breakfast created by a Zurich doctor, Bircher-Benner",
+    "ja": "チューリッヒの医師ビルヒャー＝ベンナーが考案した、オーツ麦・果物・ヨーグルトの朝食"
+  },
+  "zurich:Luxemburgerli": {
+    "ko": "한입 크기의 작은 마카롱으로, 취리히의 대표 선물 과자",
+    "en": "Bite-sized macarons and a classic Zurich gift",
+    "ja": "一口サイズの小さなマカロンで、チューリッヒ定番のお土産菓子"
+  },
+  "basel:Basler Läckerli": {
+    "ko": "꿀·견과·설탕 절임 껍질을 넣은 바젤 전통 향신료 과자",
+    "en": "Basel’s traditional spiced biscuit with honey, nuts and candied peel",
+    "ja": "はちみつ・ナッツ・柑橘ピールを入れたバーゼル伝統のスパイス菓子"
+  },
+  "basel:Basler Mehlsuppe": {
+    "ko": "볶은 밀가루로 끓인 갈색 수프로, 파스나흐트 축제 새벽에 먹는 바젤 전통 음식",
+    "en": "A brown soup of toasted flour, eaten in the small hours of the Fasnacht carnival",
+    "ja": "炒った小麦粉で作る茶色のスープで、ファスナハトの早朝に食べるバーゼルの伝統料理"
+  },
+  "basel:Zwiebelwähe": {
+    "ko": "양파와 크림을 듬뿍 넣어 구운 스위스식 짭짤한 타르트",
+    "en": "A savoury Swiss tart filled with onions and cream",
+    "ja": "玉ねぎとクリームをたっぷり入れて焼いたスイス風の塩味タルト"
+  },
+  "bruges:Belgian chocolate": {
+    "ko": "「초콜릿의 도시」로 불릴 만큼 수제 초콜릿 가게가 많은 브뤼헤의 상징",
+    "en": "Bruges’ emblem — the city is packed with artisan chocolate shops",
+    "ja": "「チョコレートの街」と呼ばれるほど手作りチョコレート店が多い、ブルージュの象徴"
+  },
+  "bruges:Belgian waffles": {
+    "ko": "거리 가게에서 갓 구워 파는 벨기에 대표 간식",
+    "en": "Belgium’s classic snack, freshly baked at street stalls",
+    "ja": "街の店で焼きたてを売るベルギー定番のおやつ"
+  },
+  "bruges:Belgian fries": {
+    "ko": "두 번 튀겨 바삭한 벨기에식 감자튀김으로, 마르크트 광장 노점이 유명합니다",
+    "en": "Twice-fried Belgian fries; the stalls on the Markt are famous",
+    "ja": "二度揚げでカリッとしたベルギー式フライドポテトで、マルクト広場の屋台が有名"
+  },
+  "bruges:Belgian beer": {
+    "ko": "시내 양조장에서 만든 맥주를 맛볼 수 있는 맥주의 도시",
+    "en": "A beer city where you can taste brews made right in town",
+    "ja": "街中の醸造所で造られたビールが味わえるビールの街"
   }
 }

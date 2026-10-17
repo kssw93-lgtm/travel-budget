@@ -170,7 +170,7 @@ export const en: Messages = {
     tocCosts: 'Tickets & local costs',
     xmasTitle: '{city} Christmas market',
     xmasPlace: 'Where',
-    xmasPeriod: 'Usually open',
+    xmasPeriod: 'Dates',
     xmasCheck: 'Dates shift a little each year; check this year’s schedule at:',
     tocXmas: 'Christmas market',
     xmasIndexTitle: 'Christmas market cities',

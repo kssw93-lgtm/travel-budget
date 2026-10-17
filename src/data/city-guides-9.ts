@@ -143,7 +143,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['마인 타워', 'Main Tower', 'マインタワー', '고층 빌딩 전망대에서 「마인해튼」 스카이라인을 볼 수 있습니다.', 'A skyscraper viewing platform over the “Mainhattan” skyline.', '高層ビルの展望台から「マインハッタン」のスカイラインが見られます。'],
     ],
     t: [
-      ['프랑크푸르트 공항은 한국 직항이 많아 유럽 여행의 첫 도시나 마지막 도시로 일정에 넣기 좋습니다.', 'Frankfurt Airport has many direct flights from Korea, making the city an easy first or last stop.', 'フランクフルト空港は韓国からの直行便が多く、ヨーロッパ旅行の最初や最後の街にしやすいです。'],
+      ['뢰머베르크·대성당·마인 타워는 가까이 모여 있어 하루 도심 동선으로 묶어 다니기 좋습니다.', 'Römerberg, the cathedral and the Main Tower are close together, so they make an easy one-day city-centre route.', 'レーマーベルク・大聖堂・マインタワーは近くに集まっているので、1日の市内ルートにまとめやすいです。'],
       ['사과 와인(아펠바인)이 이 지역 명물이라 작센하우젠 지구의 전통 주점에서 맛볼 수 있습니다.', 'Apple wine (Apfelwein) is the local drink, served in the traditional taverns of Sachsenhausen.', 'アップルワイン（アプフェルヴァイン）が名物で、ザクセンハウゼン地区の伝統的な酒場で味わえます。'],
     ],
   },
@@ -155,8 +155,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['제국 의회 의사당 돔', 'Reichstag dome', '連邦議会議事堂のドーム', '유리 돔에 올라 시내를 볼 수 있으며 사전 등록이 필요합니다.', 'Climb the glass dome for city views; advance registration is required.', 'ガラスのドームに上って市内を眺められ、事前登録が必要です。'],
     ],
     t: [
-      ['명소가 넓게 흩어져 있어 지하철(U-Bahn)·S-Bahn 1일권으로 다니면 편합니다.', 'Sights are spread out, so a U-Bahn/S-Bahn day ticket makes getting around easy.', '名所が広く散らばっているので、地下鉄（Uバーン・Sバーン）の1日券で回ると便利です。'],
-      ['일요일에는 대부분의 상점이 문을 닫으니 쇼핑은 토요일까지 마치세요.', 'Most shops close on Sundays, so finish shopping by Saturday.', '日曜日はほとんどの店が閉まるので、買い物は土曜日までに。'],
+      ['명소가 여러 구역에 흩어져 있으니 하루 동선을 구역별로 묶고, 교통권은 BVG 공식 안내에서 일정에 맞게 고르세요.', 'Sights are spread across several districts, so group each day by area and pick the right ticket from BVG’s official guide.', '名所が複数の地区に散らばっているので、1日の動線を地区ごとにまとめ、乗車券はBVGの公式案内で日程に合わせて選びましょう。'],
+      ['대부분의 일반 상점은 일요일에 문을 닫으니 쇼핑은 토요일까지 마치는 편이 좋습니다.', 'Most regular shops close on Sundays, so plan shopping for Saturday or earlier.', 'ほとんどの一般の店は日曜日に閉まるので、買い物は土曜日までに済ませるのがおすすめです。'],
     ],
   },
   zurich: {
@@ -167,8 +167,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['취리히 호수', 'Lake Zurich', 'チューリッヒ湖', '호숫가 산책로와 유람선이 있습니다.', 'Lakeside promenades and boat trips.', '湖畔の遊歩道や遊覧船があります。'],
     ],
     t: [
-      ['스위스는 물가가 높은 편이라 슈퍼마켓 즉석식품이나 역 안 식당을 섞으면 식비를 줄일 수 있습니다.', 'Switzerland is expensive; mixing in supermarket meals and station eateries helps the food budget.', 'スイスは物価が高めなので、スーパーの総菜や駅の飲食店を組み合わせると食費を抑えられます。'],
-      ['대중교통이 정확하고 촘촘해 트램으로 시내 대부분을 다닐 수 있습니다.', 'Public transport is punctual and dense; trams reach most of the city.', '公共交通が正確で充実しており、トラムで市内のほとんどを回れます。'],
+      ['트램·버스는 목적지에 따라 필요한 ZVV 구역과 표가 달라지니 운영사 공식 안내에서 확인하세요.', 'The ZVV zone and ticket you need depend on your destination; check the operator’s official guide.', 'トラムやバスは目的地によって必要なZVVのゾーンと乗車券が変わるので、公式案内で確認しましょう。'],
+      ['호숫가 산책과 유람선을 같은 날 묶어 즐기기 좋습니다. 유람선 운항 시즌과 시간은 미리 확인하세요.', 'Pair a lakeside walk with a boat trip on the same day; check the cruise season and times in advance.', '湖畔の散策と遊覧船を同じ日に組み合わせるのがおすすめです。遊覧船の運航時期と時間は事前に確認を。'],
     ],
   },
   basel: {
@@ -179,40 +179,40 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['라인강을 건너는 작은 나룻배(페리)는 강물의 흐름만으로 움직이는 바젤의 명물입니다.', 'Basel’s little Rhine ferries cross the river powered only by the current.', 'ライン川を渡る小さな渡し船は川の流れだけで動くバーゼルの名物です。'],
-      ['프랑스·독일과 맞닿은 국경 도시라 이웃 나라 마을까지 트램·버스로 갈 수 있습니다.', 'A border city: trams and buses reach neighbouring French and German towns.', 'フランス・ドイツと接する国境の街で、隣国の町までトラムやバスで行けます。'],
+      ['프랑스·독일과 맞닿은 국경 도시라 이웃 나라 마을까지 대중교통으로 갈 수 있지만, 노선과 운행은 바젤 관광청 안내에서 확인하세요.', 'A border city with France and Germany; public transport reaches neighbouring towns, but check routes and schedules on Basel Tourism’s guide.', 'フランス・ドイツと接する国境の街で隣国の町まで公共交通で行けますが、路線と運行はバーゼル観光局の案内で確認を。'],
     ],
   },
   riga: {
     h: [
       ['리가 구시가지', 'Riga Old Town', 'リガ旧市街', '유네스코 세계유산으로, 중세 골목과 교회 탑이 모여 있습니다.', 'A UNESCO-listed old town of medieval lanes and church spires.', '世界遺産で、中世の路地や教会の塔が集まっています。'],
-      ['검은 머리 전당', 'House of the Blackheads', 'ブラックヘッドの会館', '시청 광장의 화려한 길드 건물로, 앞에 첫 크리스마스트리 기념 표지가 있습니다.', 'The ornate guild house on Town Hall Square, near the first-Christmas-tree marker.', '市庁舎広場の豪華なギルド会館で、前に最初のクリスマスツリーの記念の目印があります。'],
+      ['검은 머리 전당', 'House of the Blackheads', 'ブラックヘッドの会館', '시청 광장에 있는 화려한 길드 건물로, 리가 구시가지를 대표하는 역사 건축물입니다.', 'The ornate guild house on Town Hall Square, one of the Old Town’s landmark historic buildings.', '市庁舎広場にある豪華なギルド会館で、リガ旧市街を代表する歴史的建築です。'],
       ['아르누보 거리', 'Art Nouveau District', 'アール・ヌーヴォー地区', '알베르타 거리를 중심으로 장식이 화려한 아르누보 건물이 늘어서 있습니다.', 'Alberta iela and nearby streets are lined with ornate Art Nouveau facades.', 'アルベルタ通りを中心に装飾豊かなアール・ヌーヴォー建築が並びます。'],
       ['리가 중앙시장', 'Riga Central Market', 'リガ中央市場', '옛 비행선 격납고를 개조한 대형 시장입니다.', 'A huge market housed in former Zeppelin hangars.', '旧ツェッペリン格納庫を改装した大きな市場です。'],
     ],
     t: [
-      ['구시가지는 작아 걸어서 다닐 수 있고, 돌길이 겨울에 얼면 미끄러우니 밑창이 단단한 신발을 신으세요.', 'The old town is compact and walkable; cobbles get icy in winter, so wear grippy shoes.', '旧市街は小さく歩いて回れます。石畳は冬に凍って滑りやすいので、滑りにくい靴を。'],
-      ['탈린·빌뉴스와 버스로 이어져 발트 3국을 함께 여행하는 일정이 많습니다.', 'Buses link Riga with Tallinn and Vilnius, so many trips cover all three Baltic capitals.', 'タリンやヴィリニュスとバスで結ばれ、バルト三国を一緒に巡る旅程が多いです。'],
+      ['구시가지는 작아서 걸어서 둘러보기 좋습니다.', 'The Old Town is compact and easy to explore on foot.', '旧市街は小さく、歩いて回りやすいです。'],
+      ['구시가지와 중앙시장은 가까워 한 번에 묶어 둘러볼 수 있습니다. 탈린·빌뉴스로 가는 버스는 운행일과 시간을 운영사에서 확인하세요.', 'The Old Town and Central Market are close enough to combine; check dates and times with the bus operator for trips to Tallinn or Vilnius.', '旧市街と中央市場は近いので一緒に回れます。タリンやヴィリニュスへのバスは運行日と時間を運行会社で確認を。'],
     ],
   },
   gdansk: {
     h: [
       ['드우기 타르크(긴 시장 거리)', 'Long Market (Długi Targ)', 'ドゥーギ・タルク（長い市場）', '알록달록한 상인 가옥과 넵튠 분수가 있는 구시가지 중심 거리입니다.', 'The old-town main street of colourful merchant houses and the Neptune Fountain.', 'カラフルな商人の家とネプチューンの噴水がある旧市街の目抜き通りです。'],
       ['모트와바강 변 크레인', 'Gdańsk Crane (Żuraw)', 'クレーン（ジュラフ）', '중세 항구 크레인으로, 강변 산책로의 상징입니다.', 'A medieval port crane, the symbol of the riverside promenade.', '中世の港のクレーンで、川沿いの遊歩道の象徴です。'],
-      ['제2차 세계대전 박물관', 'Museum of the Second World War', '第二次世界大戦博物館', '전쟁이 시작된 도시에서 전쟁의 역사를 보여주는 대형 박물관입니다.', 'A major museum on the war, in the city where it began.', '戦争が始まった街で、その歴史を伝える大きな博物館です。'],
+      ['제2차 세계대전 박물관', 'Museum of the Second World War', '第二次世界大戦博物館', '제2차 세계대전의 역사를 폭넓게 보여주는 대형 박물관입니다.', 'A major museum presenting the history of the Second World War.', '第二次世界大戦の歴史を幅広く伝える大きな博物館です。'],
     ],
     t: [
-      ['발트해 연안이라 겨울 바람이 차고 습하니 따뜻한 겉옷을 챙기세요.', 'On the Baltic coast, winter winds are cold and damp; pack a warm coat.', 'バルト海沿岸で冬の風は冷たく湿っているので、暖かい上着を。'],
-      ['소폿·그디니아와 함께 「트리시티」로 불리며 근교 열차로 쉽게 오갈 수 있습니다.', 'With Sopot and Gdynia it forms the “Tricity”, linked by frequent local trains.', 'ソポト・グディニャとともに「三連都市」と呼ばれ、近郊列車で簡単に行き来できます。'],
+      ['발트해 연안이라 날씨가 날마다 달라지니, 출발 직전에 일기예보를 확인하세요.', 'Weather on the Baltic coast changes day to day, so check the forecast just before you go.', 'バルト海沿岸は日によって天気が変わるので、出発直前に天気予報を確認しましょう。'],
+      ['소폿·그디니아와 함께 「트리시티」로 불리며 근교 열차로 오갈 수 있습니다. 운행 정보는 지역 열차 운영사에서 확인하세요.', 'With Sopot and Gdynia it forms the “Tricity”, linked by local trains; check the regional operator’s timetable.', 'ソポト・グディニャとともに「三連都市」と呼ばれ、近郊列車で行き来できます。運行情報は地域鉄道会社で確認を。'],
     ],
   },
   bruges: {
     h: [
       ['마르크트 광장과 종탑', 'Markt and Belfry', 'マルクト広場と鐘楼', '중세 종탑이 서 있는 중앙 광장으로, 종탑에 오르면 시내가 내려다보입니다.', 'The main square under the medieval Belfry, which you can climb for views.', '中世の鐘楼が立つ中央広場で、鐘楼に登ると街を見渡せます。'],
       ['운하 보트', 'Canal boat tour', '運河ボート', '운하를 따라 도는 보트에서 중세 도시 풍경을 봅니다.', 'See the medieval city from a canal boat.', '運河を巡るボートから中世の街並みを眺めます。'],
-      ['성혈 성당', 'Basilica of the Holy Blood', '聖血礼拝堂', '부르크 광장의 작은 성당으로 성혈 유물로 알려져 있습니다.', 'A small basilica on the Burg square known for its relic.', 'ブルク広場の小さな聖堂で、聖血の聖遺物で知られます。'],
+      ['성혈 성당', 'Basilica of the Holy Blood', '聖血礼拝堂', '부르크 광장에 있는 예배당으로, 성혈 유물과 관련된 전승으로 알려져 있습니다.', 'A chapel on Burg Square associated with the relic of the Holy Blood.', 'ブルク広場にある礼拝堂で、聖血の聖遺物にまつわる伝承で知られます。'],
     ],
     t: [
-      ['브뤼셀에서 기차로 1시간 남짓이라 당일치기로 많이 오지만, 저녁의 조용한 운하를 보려면 1박을 추천합니다.', 'About an hour by train from Brussels; many day-trip, but stay a night to see the quiet canals in the evening.', 'ブリュッセルから電車で1時間ほどで日帰りが多いですが、夜の静かな運河を見るなら1泊がおすすめです。'],
+      ['브뤼셀에서 기차로 당일치기가 가능하지만, 저녁의 조용한 운하를 보려면 1박을 추천합니다. 소요 시간은 SNCB 시간표에서 확인하세요.', 'Bruges is an easy train day trip from Brussels, but stay a night to see the quiet canals in the evening; check journey times on the SNCB timetable.', 'ブリュッセルから電車で日帰りもできますが、夜の静かな運河を見るなら1泊がおすすめです。所要時間はSNCBの時刻表で確認を。'],
       ['구시가지는 걸어서 충분히 다닐 수 있습니다.', 'The historic centre is easily walkable.', '旧市街は歩いて十分に回れます。'],
     ],
   },

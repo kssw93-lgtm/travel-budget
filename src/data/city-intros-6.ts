@@ -67,7 +67,7 @@ export const INTROS_6: Record<string, Intro> = {
     ],
   },
   frankfurt: {
-    o: ['금융 중심지의 고층 빌딩과 복원된 구시가지가 마인강을 사이에 둔 도시입니다. 한국 직항이 많아 유럽 여행의 관문으로 자주 들르며, 겨울에는 뢰머베르크 광장의 크리스마스 마켓이 열립니다.', 'A banking city where skyscrapers face a rebuilt old town across the Main; with many direct flights from Korea it is a common gateway, and in winter the Römerberg hosts its Christmas market.', '金融街の高層ビルと復元された旧市街がマイン川を挟む街。韓国からの直行便が多くヨーロッパの玄関口としてよく立ち寄り、冬はレーマー広場でクリスマスマーケットが開かれます。'],
+    o: ['금융가의 고층 빌딩과 복원된 구시가지가 마인강을 사이에 두고 마주 보는 도시입니다. 겨울에는 뢰머베르크 광장을 비롯한 시내 여러 광장을 잇는 크리스마스 마켓이 열립니다.', 'A city where the financial district’s towers face the rebuilt old town across the Main; in winter a Christmas market links Römerberg and several other central squares.', '金融街の高層ビルと復元された旧市街がマイン川を挟んで向かい合う街です。冬はレーマーベルク広場をはじめ市内の広場をつなぐクリスマスマーケットが開かれます。'],
     d: [1, 2],
     s: [
       ['구시가지·대성당 주변', 'Old Town / Cathedral', '旧市街・大聖堂周辺', '마켓과 명소를 걸어서 다닙니다.', 'Walk to the market and sights.', 'マーケットや名所へ歩いて行けます。'],
@@ -75,7 +75,7 @@ export const INTROS_6: Record<string, Intro> = {
     ],
   },
   berlin: {
-    o: ['분단과 통일의 역사가 곳곳에 남은 독일의 수도로, 박물관과 예술, 밤 문화가 풍부합니다. 겨울에는 도시 곳곳에 수십 개의 크리스마스 마켓이 열립니다.', 'Germany’s capital, where the history of division and reunification is everywhere, rich in museums, art and nightlife; in winter dozens of Christmas markets open across the city.', '分断と統一の歴史が随所に残るドイツの首都で、博物館や芸術、夜の文化が豊か。冬は市内各所に数十のクリスマスマーケットが開かれます。'],
+    o: ['분단과 통일의 흔적이 곳곳에 남은 독일의 수도로, 박물관과 예술 공간이 많습니다. 크리스마스 시즌에는 여러 구역에서 저마다 다른 마켓이 열립니다.', 'Germany’s capital, with traces of division and reunification everywhere and a wide museum and arts scene; at Christmas, markets open in many districts.', '分断と統一の痕跡が随所に残るドイツの首都で、博物館や芸術スペースが豊富です。クリスマスシーズンには各地区でそれぞれ異なるマーケットが開かれます。'],
     d: [3, 4],
     s: [
       ['미테', 'Mitte', 'ミッテ', '주요 명소와 박물관 섬이 가깝습니다.', 'Close to the main sights and Museum Island.', '主要な名所や博物館島に近いです。'],
@@ -83,7 +83,7 @@ export const INTROS_6: Record<string, Intro> = {
     ],
   },
   zurich: {
-    o: ['호수와 알프스를 배경으로 한 스위스 최대 도시로, 깔끔한 구시가지와 고급 쇼핑 거리가 있습니다. 2026년 유럽 크리스마스 마켓 여행자 투표에서 2위에 올랐습니다.', 'Switzerland’s largest city, set by a lake with the Alps behind, with a neat old town and upscale shopping; it came second in the 2026 European Christmas market traveller vote.', '湖とアルプスを背景にしたスイス最大の都市で、整った旧市街と高級ショッピング街があります。2026年のヨーロッパ・クリスマスマーケット投票で2位になりました。'],
+    o: ['호수와 리마트강, 구시가지가 도심 가까이 모여 있는 스위스의 큰 도시입니다. 겨울에는 중앙역 홀의 실내 마켓을 비롯해 시내 곳곳에 크리스마스 마켓이 열립니다.', 'A major Swiss city where the Old Town, the Limmat and the lake sit close to the centre; in winter Christmas markets open around town, including one inside the main station hall.', '湖とリマト川、旧市街が都心近くに集まるスイスの大都市です。冬は中央駅構内の屋内マーケットをはじめ、市内各所にクリスマスマーケットが開かれます。'],
     d: [2, 3],
     s: [
       ['구시가지·중앙역 주변', 'Old Town / Hauptbahnhof', '旧市街・中央駅周辺', '공항 열차와 트램이 편하고 마켓이 가깝습니다.', 'Easy airport trains and trams, close to the markets.', '空港列車やトラムが便利で、マーケットに近いです。'],
@@ -97,21 +97,21 @@ export const INTROS_6: Record<string, Intro> = {
     ],
   },
   riga: {
-    o: ['발트 3국에서 가장 큰 도시로, 중세 구시가지와 아르누보 건축이 유명합니다. 1510년 세계 최초의 장식 트리를 세웠다는 이야기가 전해지며, 2026년 유럽 크리스마스 마켓 투표 3위에 올랐습니다.', 'The largest Baltic capital, known for its medieval old town and Art Nouveau architecture; it claims the first decorated Christmas tree (1510) and placed third in the 2026 European Christmas market vote.', 'バルト三国最大の都市で、中世の旧市街とアール・ヌーヴォー建築で有名。1510年に世界初の飾り付けたツリーを立てたと伝わり、2026年のクリスマスマーケット投票で3位になりました。'],
+    o: ['발트 3국에서 가장 큰 도시로, 유네스코 세계유산인 구시가지와 알베르타 거리 일대의 아르누보 건축이 유명합니다. 겨울에는 구시가지 돔 광장에 크리스마스 마켓이 열립니다.', 'The largest Baltic city, with a UNESCO-listed Old Town and Art Nouveau architecture around Alberta iela; in winter a Christmas market fills Dome Square.', 'バルト三国最大の都市で、世界遺産の旧市街とアルベルタ通り周辺のアール・ヌーヴォー建築が有名です。冬は旧市街のドーム広場にクリスマスマーケットが開かれます。'],
     d: [2, 3],
     s: [
       ['구시가지', 'Old Town', '旧市街', '마켓과 명소를 걸어서 다닙니다.', 'Walk to the market and sights.', 'マーケットや名所へ歩いて行けます。'],
     ],
   },
   gdansk: {
-    o: ['알록달록한 한자 동맹 상인 가옥이 늘어선 발트해의 항구 도시로, 제2차 세계대전이 시작된 곳이기도 합니다. 2025년 유럽 최고 크리스마스 마켓 투표 1위를 했습니다.', 'A Baltic port of colourful Hanseatic merchant houses, where the Second World War began; voted Europe’s Best Christmas Market in 2025.', 'カラフルなハンザ同盟の商人の家が並ぶバルト海の港町で、第二次世界大戦が始まった場所でもあります。2025年ヨーロッパ最高のクリスマスマーケット投票で1位になりました。'],
+    o: ['알록달록한 상인 가옥이 늘어선 발트해의 옛 한자 동맹 항구 도시로, 강변 산책과 제2차 세계대전 관련 역사 유적이 있습니다. 겨울에는 구시가지 여러 구역에 무료 크리스마스 마켓이 열립니다.', 'A former Hanseatic port on the Baltic with colourful merchant houses, waterfront walks and Second World War history; in winter a free Christmas market spreads across the old town.', 'カラフルな商人の家が並ぶバルト海の旧ハンザ同盟の港町で、川沿いの散策や第二次世界大戦の史跡があります。冬は旧市街の複数エリアで入場無料のクリスマスマーケットが開かれます。'],
     d: [2, 3],
     s: [
       ['구시가지(중앙 지구)', 'Main Town', '旧市街（中央地区）', '마켓과 명소를 걸어서 다닙니다.', 'Walk to the market and sights.', 'マーケットや名所へ歩いて行けます。'],
     ],
   },
   bruges: {
-    o: ['운하와 중세 건물이 그대로 남아 「북쪽의 베네치아」로 불리는 벨기에의 작은 도시로, 구시가지 전체가 유네스코 세계유산입니다. 겨울에는 종탑 아래 광장에 크리스마스 마켓이 열립니다.', 'A small Belgian city of canals and medieval buildings, nicknamed the “Venice of the North”, with a UNESCO-listed centre; in winter a Christmas market fills the square below the Belfry.', '運河と中世の建物がそのまま残り「北のヴェネツィア」と呼ばれるベルギーの小さな街で、旧市街全体が世界遺産。冬は鐘楼の下の広場にクリスマスマーケットが開かれます。'],
+    o: ['운하와 중세 건물이 그대로 남은 벨기에의 작은 도시로, 「브뤼헤 역사 지구」가 유네스코 세계유산입니다. 겨울에는 종탑 아래 마르크트 광장과 시몬 스테빈 광장에 크리스마스 마켓이 열립니다.', 'A small Belgian city of canals and medieval buildings whose Historic Centre is UNESCO-listed; in winter Christmas markets fill the Markt below the Belfry and Simon Stevinplein.', '運河と中世の建物が残るベルギーの小さな街で、「ブルージュ歴史地区」は世界遺産です。冬は鐘楼の下のマルクト広場とシモン・ステヴィン広場にクリスマスマーケットが開かれます。'],
     d: [1, 2],
     s: [
       ['구시가지', 'Historic centre', '旧市街', '운하와 명소를 걸어서 다닙니다.', 'Walk to the canals and sights.', '運河や名所へ歩いて行けます。'],

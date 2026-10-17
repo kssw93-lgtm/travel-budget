@@ -161,6 +161,12 @@
 | 탈린 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 에든버러 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 에든버러 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 취리히 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 취리히 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 바젤 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 바젤 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 브뤼헤 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 브뤼헤 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -1271,6 +1277,27 @@
 | RVN-AT-506 | 로바니에미 | 산타파크 (아동) | 37 EUR | A | 조건부 | 조건부, 재검증 | [SantaPark](https://santapark.fi/experience-santapark/plan-your-visit/opening-times-ticket-prices/) |
 | RVN-AT-507 | 로바니에미 | 산타클로스 사무실 방문 | 0 EUR | A | 예 | 재검증 | [Visit Rovaniemi](https://www.visitrovaniemi.fi/attraction/santa-claus-office/) |
 | RVN-AT-508 | 로바니에미 | 산타클로스 사무실 방문 (아동) | 0 EUR | A | 예 | 재검증 | [Visit Rovaniemi](https://www.visitrovaniemi.fi/attraction/santa-claus-office/) |
+| ZRH-TR-901 | 취리히 | 취리히 시내 ZVV 1~2존 단일권 | 4.7 CHF | A | 예 | 재검증 | [ZVV](https://www.zvv.ch/en/travelcards-and-tickets/tickets/single-tickets.html) |
+| ZRH-AT-901 | 취리히 | 스위스 국립박물관 취리히 성인 입장 | 13 CHF | A | 예 | 재검증 | [Swiss National Museum Zurich](https://www.landesmuseum.ch/en/your-visit/tickets) |
+| ZRH-AT-902 | 취리히 | 스위스 국립박물관 취리히 아동 입장 | 0 CHF | A | 예 | 재검증 | [Swiss National Museum Zurich](https://www.landesmuseum.ch/en/your-visit/tickets) |
+| ZRH-AT-903 | 취리히 | 그로스뮌스터 탑 성인 입장 | 5 CHF | A | 예 | 재검증 | [Zürich Tourism](https://www.zuerich.com/en/visit/attractions/grossmunster) |
+| ZRH-AT-904 | 취리히 | 그로스뮌스터 탑 아동 입장 | 2 CHF | A | 예 | 재검증 | [Zürich Tourism](https://www.zuerich.com/en/visit/attractions/grossmunster) |
+| ZRH-AT-905 | 취리히 | 취리히 미술관 컬렉션·소규모 전시 성인 | 24 CHF | A | 예 | 재검증 | [Kunsthaus Zürich](https://kunsthaus.ch/en/besuch-planen/) |
+| ZRH-AT-906 | 취리히 | 취리히 미술관 컬렉션·소규모 전시 아동 | 0 CHF | A | 예 | 재검증 | [Kunsthaus Zürich](https://kunsthaus.ch/en/besuch-planen/) |
+| BSL-TR-901 | 바젤 | 바젤 TNW/BVB 1존 단일권 | 4.2 CHF | A | 예 | 재검증 | [TNW / BVB](https://www.tnw.ch/en/tickets-preise/billette/einzelbillette) |
+| BSL-AT-901 | 바젤 | 바젤 시립 미술관 성인 입장 | 25 CHF | A | 예 | 재검증 | [Kunstmuseum Basel](https://kunstmuseumbasel.ch/en/visit/plan-your-visit) |
+| BSL-AT-902 | 바젤 | 바젤 시립 미술관 아동 입장 | 0 CHF | A | 예 | 재검증 | [Kunstmuseum Basel](https://kunstmuseumbasel.ch/en/visit/plan-your-visit) |
+| BSL-AT-903 | 바젤 | 바이엘러 재단 성인 입장 | 30 CHF | A | 예 | 재검증 | [Fondation Beyeler](https://www.fondationbeyeler.ch/en/visit/tickets) |
+| BSL-AT-904 | 바젤 | 바이엘러 재단 아동 입장 | 0 CHF | A | 예 | 재검증 | [Fondation Beyeler](https://www.fondationbeyeler.ch/en/visit/tickets) |
+| BSL-AT-905 | 바젤 | 팅겔리 미술관 성인 입장 | 18 CHF | A | 예 | 재검증 | [Museum Tinguely](https://www.tinguely.ch/en/information/admission.html) |
+| BSL-AT-906 | 바젤 | 팅겔리 미술관 아동 입장 | 0 CHF | A | 예 | 재검증 | [Museum Tinguely](https://www.tinguely.ch/en/information/admission.html) |
+| BRG-TR-901 | 브뤼헤 | De Lijn 시내버스 1회권 | 3 EUR | A | 예 | 재검증 | [De Lijn](https://www.delijn.be/en/content/tickets/ticket/) |
+| BRG-AT-901 | 브뤼헤 | 브뤼헤 종탑 성인 입장 | 16 EUR | A | 예 | 재검증 | [Musea Brugge](https://www.museabrugge.be/en/visit/locations/belfort) |
+| BRG-AT-902 | 브뤼헤 | 브뤼헤 종탑 아동 입장 | 14 EUR | A | 예 | 재검증 | [Musea Brugge](https://www.museabrugge.be/en/visit/locations/belfort) |
+| BRG-AT-903 | 브뤼헤 | 브뤼헤 시청 성인 입장 | 8 EUR | A | 예 | 재검증 | [Musea Brugge](https://www.museabrugge.be/en/visit/locations/stadhuis) |
+| BRG-AT-904 | 브뤼헤 | 브뤼헤 시청 아동 입장 | 0 EUR | A | 예 | 재검증 | [Musea Brugge](https://www.museabrugge.be/en/visit/locations/stadhuis) |
+| BRG-AT-905 | 브뤼헤 | 그루닝어 미술관 성인 입장 | 15 EUR | A | 예 | 재검증 | [Musea Brugge](https://www.museabrugge.be/en/visit/locations/groeningemuseum) |
+| BRG-AT-906 | 브뤼헤 | 그루닝어 미술관 아동 입장 | 0 EUR | A | 예 | 재검증 | [Musea Brugge](https://www.museabrugge.be/en/visit/locations/groeningemuseum) |
 | AMS-FD-501 | 암스테르담 | 풀 아이리시 아침 식사 | 14.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
 | AMS-FD-502 | 암스테르담 | 클럽 샌드위치 | 12.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
 | AMS-FD-503 | 암스테르담 | 채식 버거 | 16.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |

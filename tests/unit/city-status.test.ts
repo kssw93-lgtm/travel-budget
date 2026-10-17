@@ -33,8 +33,10 @@ describe('파일럿 도시 데이터 상태', () => {
         "bali": "3/3/2 · 100% · ready",
         "bangkok": "4/3/11 · 100% · ready",
         "barcelona": "6/4/12 · 100% · ready",
+        "basel": "3/1/3 · 100% · ready",
         "beijing": "4/1/3 · 100% · ready",
         "boracay": "3/4/4 · 100% · ready",
+        "bruges": "3/1/3 · 100% · ready",
         "brussels": "3/1/3 · 100% · ready",
         "budapest": "4/1/4 · 100% · ready",
         "busan": "13/3/12 · 100% · ready",
@@ -127,6 +129,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "yeosu": "3/1/3 · 100% · ready",
         "zagreb": "3/1/3 · 100% · ready",
         "zhangjiajie": "4/4/3 · 100% · ready",
+        "zurich": "3/1/3 · 100% · ready",
       }
     `);
   });
@@ -148,8 +151,10 @@ describe('파일럿 도시 데이터 상태', () => {
         "bali": "pass 0/0 · ride 3/3 · meal 3/3 · snack 3/3 · attraction 2/3 · souvenir 0/0",
         "bangkok": "pass 1/1 · ride 3/3 · meal 4/4 · snack 3/3 · attraction 11/11 · souvenir 4/4",
         "barcelona": "pass 1/1 · ride 4/4 · meal 6/6 · snack 5/5 · attraction 12/13 · souvenir 3/3",
+        "basel": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "beijing": "pass 0/0 · ride 1/1 · meal 4/4 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "boracay": "pass 0/0 · ride 4/4 · meal 3/3 · snack 4/4 · attraction 4/4 · souvenir 0/0",
+        "bruges": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "brussels": "pass 1/1 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "budapest": "pass 1/1 · ride 1/1 · meal 4/4 · snack 3/3 · attraction 4/4 · souvenir 0/0",
         "busan": "pass 1/1 · ride 3/4 · meal 13/13 · snack 9/9 · attraction 12/12 · souvenir 3/3",
@@ -242,6 +247,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "yeosu": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "zagreb": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "zhangjiajie": "pass 0/0 · ride 4/4 · meal 4/4 · snack 3/3 · attraction 3/3 · souvenir 0/0",
+        "zurich": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
       }
     `);
   });

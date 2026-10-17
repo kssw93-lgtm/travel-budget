@@ -169,7 +169,7 @@ export const ko = {
     tocCosts: '입장료·현지 비용',
     xmasTitle: '{city} 크리스마스 마켓',
     xmasPlace: '장소',
-    xmasPeriod: '보통 열리는 기간',
+    xmasPeriod: '열리는 기간',
     xmasCheck: '해마다 날짜가 조금씩 달라요. 그해 일정은 공식 안내에서 확인하세요:',
     tocXmas: '크리스마스 마켓',
     xmasIndexTitle: '겨울 크리스마스 마켓 도시',

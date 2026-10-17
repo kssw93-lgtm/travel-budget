@@ -174,7 +174,7 @@ export const ja: Messages = {
     tocCosts: '入場料・現地の費用',
     xmasTitle: '{city}のクリスマスマーケット',
     xmasPlace: '場所',
-    xmasPeriod: '例年の開催期間',
+    xmasPeriod: '開催期間',
     xmasCheck: '日程は毎年少しずつ変わります。その年の予定は公式案内で確認してください：',
     tocXmas: 'クリスマスマーケット',
     xmasIndexTitle: 'クリスマスマーケットの街',

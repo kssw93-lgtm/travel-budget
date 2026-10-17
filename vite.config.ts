@@ -1,7 +1,7 @@
 import { resolve } from 'node:path';
 import { defineConfig, loadEnv, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
-import { MSG, guideIndexMeta, guidePageMeta, homeFallbackHtml, type GuideData } from './scripts/guide-pages';
+import { MSG, christmasPageMeta, guideIndexMeta, guidePageMeta, homeFallbackHtml, type GuideData } from './scripts/guide-pages';
 import { SITE_PAGES, adsTxt, escapeHtml, notFoundHtml, adsenseMeta, headTags, infoFallbackHtml, normalizeSite, pageHtml, replaceFallback, robotsTxt, rssXml, sitemapXml } from './scripts/site-files';
 import { ko } from './src/i18n/ko';
 import { guidePath } from './src/core/guide';
@@ -40,7 +40,7 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
       // 도시 가이드 정적 HTML 은 빌드된 index.html(스크립트·스타일 경로 포함)을 바탕으로 만드므로 마지막에 실행
       order: 'post',
       handler(_, bundle) {
-        const guidePages = [{ file: 'guides.html', path: '/guides' }, ...cities.map((c) => ({ file: `guide/${c.id}.html`, path: guidePath(c.id) }))];
+        const guidePages = [{ file: 'guides.html', path: '/guides' }, { file: 'christmas-markets.html', path: '/christmas-markets' }, ...cities.map((c) => ({ file: `guide/${c.id}.html`, path: guidePath(c.id) }))];
         this.emitFile({ type: 'asset', fileName: 'robots.txt', source: robotsTxt(site) });
         if (site) this.emitFile({ type: 'asset', fileName: 'sitemap.xml', source: sitemapXml(site, [...SITE_PAGES, ...guidePages], /^\d{4}-\d{2}-\d{2}$/.test(guideData.updated) ? guideData.updated : undefined) });
         if (ads) this.emitFile({ type: 'asset', fileName: 'ads.txt', source: ads });
@@ -48,10 +48,11 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
         if (index?.type !== 'asset' || typeof index.source !== 'string') return;
         const data = guideData;
         if (site) {
-          const rssItems = [guideIndexMeta(data), ...cities.map((c) => guidePageMeta(c, data))].map((m) => ({ title: m.title, path: m.path, description: m.description }));
+          const rssItems = [guideIndexMeta(data), christmasPageMeta(data), ...cities.map((c) => guidePageMeta(c, data))].map((m) => ({ title: m.title, path: m.path, description: m.description }));
           this.emitFile({ type: 'asset', fileName: 'rss.xml', source: rssXml(site, rssItems, data.updated) });
         }
         this.emitFile({ type: 'asset', fileName: 'guides.html', source: pageHtml(index.source, guideIndexMeta(data), site) });
+        this.emitFile({ type: 'asset', fileName: 'christmas-markets.html', source: pageHtml(index.source, christmasPageMeta(data), site) });
         for (const c of cities) {
           this.emitFile({ type: 'asset', fileName: `guide/${c.id}.html`, source: pageHtml(index.source, guidePageMeta(c, data), site) });
         }
@@ -69,6 +70,7 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
             this.emitFile({ type: 'asset', fileName: `_l/${lang}/${p.file}`, source: pageHtml(index.source, { title: p.title, description: p.description, path: p.path, lang, ld: ld(p.title, p.description), fallbackHtml: p.html }, site) });
           }
           this.emitFile({ type: 'asset', fileName: `_l/${lang}/guides.html`, source: pageHtml(index.source, guideIndexMeta(data, lang), site) });
+          this.emitFile({ type: 'asset', fileName: `_l/${lang}/christmas-markets.html`, source: pageHtml(index.source, christmasPageMeta(data, lang), site) });
           for (const c of cities) {
             this.emitFile({ type: 'asset', fileName: `_l/${lang}/guide/${c.id}.html`, source: pageHtml(index.source, guidePageMeta(c, data, lang), site) });
           }

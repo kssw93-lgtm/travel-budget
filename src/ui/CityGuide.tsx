@@ -64,7 +64,12 @@ export function GuideIndex({ go }: { go: Go }) {
       {!query && xmas.length > 0 && (
         <section className="guide-group xmas-cities" data-testid="guide-xmas-cities">
           <h2>{g.xmasIndexTitle}</h2>
-          <p className="hint">{g.xmasIndexLead}</p>
+          <p className="hint">
+            {g.xmasIndexLead}{' '}
+            <InternalLink to={`/christmas-markets?lang=${lang}`} go={go}>
+              {g.xmasPageLink}
+            </InternalLink>
+          </p>
           <ul className="guide-index">
             {xmas.map((c) => (
               <li key={c.id} data-xmas-city={c.id}>
@@ -95,6 +100,56 @@ export function GuideIndex({ go }: { go: Go }) {
           </ul>
         </section>
       ))}
+    </article>
+  );
+}
+
+/** 크리스마스 마켓 일정 모음(/christmas-markets): 나라별로 도시·마켓 이름·기간·장소와 공식 안내 */
+export function ChristmasMarketsPage({ go }: { go: Go }) {
+  const { t, lang } = useI18n();
+  const g = t.cityGuide;
+  const i = L(lang);
+  const groups = cityGroups(
+    cities.filter((c) => CHRISTMAS_MARKETS[c.id]),
+    lang,
+  );
+  return (
+    <article className="card prose" data-testid="xmas-page">
+      <h1 tabIndex={-1}>{g.xmasPageTitle}</h1>
+      <p className="lead">{g.xmasPageLead}</p>
+      {groups.map((grp) => (
+        <section key={grp.country} className="guide-group">
+          <h2>{grp.country}</h2>
+          {grp.items.map((c) => {
+            const m = CHRISTMAS_MARKETS[c.id]!;
+            return (
+              <div key={c.id} className="xmas-row" data-xmas-row={c.id}>
+                <h3>
+                  {cityName(c, lang)} · {m.name[i]}
+                </h3>
+                <dl className="areas">
+                  <div>
+                    <dt>{g.xmasPeriod}</dt>
+                    <dd>{m.period[i]}</dd>
+                  </div>
+                  <div>
+                    <dt>{g.xmasPlace}</dt>
+                    <dd>{m.place[i]}</dd>
+                  </div>
+                </dl>
+                <p>
+                  <InternalLink to={`${guidePath(c.id)}?lang=${lang}#christmas`} go={go}>
+                    {fmt(g.xmasPageGuide, { city: cityName(c, lang) })}
+                  </InternalLink>
+                  {' · '}
+                  <ExternalLink href={m.url}>{g.xmasPageOfficial}</ExternalLink>
+                </p>
+              </div>
+            );
+          })}
+        </section>
+      ))}
+      <p className="hint">{g.xmasPageNote}</p>
     </article>
   );
 }
@@ -222,6 +277,9 @@ function ChristmasMarket({ city }: { city: City }) {
       </dl>
       <p className="hint">
         {g.xmasCheck} <ExternalLink href={m.url}>{new URL(m.url).hostname.replace(/^www\./, '')}</ExternalLink>
+      </p>
+      <p>
+        <a href={`/christmas-markets?lang=${lang}`}>{g.xmasPageLink}</a>
       </p>
     </section>
   );

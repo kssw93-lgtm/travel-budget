@@ -243,7 +243,7 @@ export function guideIndexMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
   const t = MSG[lang].cityGuide;
   const xc = d.cities.filter((c) => CHRISTMAS_MARKETS[c.id]).sort((a, b) => cityLabel(a, lang).localeCompare(cityLabel(b, lang), lang));
   const xmasList = xc.length
-    ? `        <h2>${e(t.xmasIndexTitle)}</h2><p>${e(t.xmasIndexLead)}</p><ul>${xc.map((c) => `<li><a href="${guidePath(c.id)}?lang=${lang}">${e(fill(t.xmasTitle, { city: cityLabel(c, lang) }))}</a></li>`).join('')}</ul>\n`
+    ? `        <h2>${e(t.xmasIndexTitle)}</h2><p>${e(t.xmasIndexLead)} <a href="/christmas-markets?lang=${lang}">${e(t.xmasPageLink)}</a></p><ul>${xc.map((c) => `<li><a href="${guidePath(c.id)}?lang=${lang}">${e(fill(t.xmasTitle, { city: cityLabel(c, lang) }))}</a></li>`).join('')}</ul>\n`
     : '';
   const groups = grouped(d.cities, lang)
     .map(([country, list]) => `        <h2>${e(country)}</h2><ul>${list.map((c) => `<li><a href="${guidePath(c.id)}?lang=${lang}">${e(fill(t.title, { city: cityLabel(c, lang) }))}</a></li>`).join('')}</ul>`)
@@ -255,6 +255,38 @@ export function guideIndexMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
     lang,
     ld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: t.indexTitle, inLanguage: lang },
     fallbackHtml: `        <h1>${e(t.indexTitle)}</h1>\n        <p>${e(t.indexLead)}</p>\n${xmasList}${groups}`,
+  };
+}
+
+/** 크리스마스 마켓 일정 모음(/christmas-markets)의 정적 HTML */
+export function christmasPageMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
+  const t = MSG[lang].cityGuide;
+  const i = IDX[lang];
+  const groups = grouped(
+    d.cities.filter((c) => CHRISTMAS_MARKETS[c.id]),
+    lang,
+  )
+    .map(
+      ([country, list]) =>
+        `        <h2>${e(country)}</h2>` +
+        list
+          .map((c) => {
+            const m = CHRISTMAS_MARKETS[c.id]!;
+            return (
+              `<h3>${e(cityLabel(c, lang))} · ${e(m.name[i])}</h3><dl><dt>${e(t.xmasPeriod)}</dt><dd>${e(m.period[i])}</dd><dt>${e(t.xmasPlace)}</dt><dd>${e(m.place[i])}</dd></dl>` +
+              `<p><a href="${guidePath(c.id)}?lang=${lang}#christmas">${e(fill(t.xmasPageGuide, { city: cityLabel(c, lang) }))}</a> · <a href="${e(m.url)}" rel="noopener">${e(t.xmasPageOfficial)}</a></p>`
+            );
+          })
+          .join(''),
+    )
+    .join('\n');
+  return {
+    title: `${t.xmasPageTitle} — ${siteTitle(lang)}`,
+    description: t.xmasPageDescription,
+    path: '/christmas-markets',
+    lang,
+    ld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: t.xmasPageTitle, description: t.xmasPageDescription, inLanguage: lang },
+    fallbackHtml: `        <nav><a href="/guides?lang=${lang}">${e(t.indexTitle)}</a></nav>\n        <h1>${e(t.xmasPageTitle)}</h1>\n        <p>${e(t.xmasPageLead)}</p>\n${groups}\n        <p>${e(t.xmasPageNote)}</p>`,
   };
 }
 

@@ -386,6 +386,21 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(page.getByTestId('guide-xmas-cities').locator('[data-xmas-city="dresden"]')).toBeVisible();
   });
 
+  test('크리스마스 마켓 일정 모음 페이지: 나라별 도시·기간·공식 안내, 가이드 목록에서 들어간다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/guides?lang=ko');
+    await page.getByTestId('guide-xmas-cities').getByRole('link', { name: '2026 크리스마스 마켓 일정 한눈에 보기' }).click();
+    await expect(page).toHaveURL(/\/christmas-markets\?lang=ko/);
+    const x = page.getByTestId('xmas-page');
+    await expect(x.getByRole('heading', { level: 1 })).toHaveText('2026 유럽 크리스마스 마켓 일정 총정리');
+    const dresden = x.locator('[data-xmas-row="dresden"]');
+    await expect(dresden).toContainText('2026년 11월 25일~12월 24일');
+    await expect(dresden.getByRole('link', { name: '공식 안내' })).toHaveAttribute('href', /^https:\/\//);
+    await dresden.getByRole('link', { name: '드레스덴 여행 가이드·경비 보기' }).click();
+    await expect(page.getByTestId('guide-christmas')).toBeVisible();
+    await expect(page).toHaveTitle(/드레스덴/);
+  });
+
   test('가이드 목록은 나라별로 묶이고 도시·나라 이름으로 검색된다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/guides?lang=ko');

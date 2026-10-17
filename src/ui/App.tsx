@@ -4,7 +4,7 @@ import { I18nProvider, LANG_NAMES, LANGS, detectLang, fmt, messages, type Lang }
 import { AdSlot } from './AdSlot';
 import { Calculator } from './Calculator';
 import { About, Privacy } from './InfoPages';
-import { CityGuidePage, GuideIndex } from './CityGuide';
+import { ChristmasMarketsPage, CityGuidePage, GuideIndex } from './CityGuide';
 import { routeOf } from './pages';
 import { applyMeta } from './meta';
 import { calcMemory, readLang, withLang } from './urlState';
@@ -99,7 +99,7 @@ export function App() {
           </InternalLink>
           <nav aria-label={t.nav.main}>
             <InternalLink to={calcHref} go={go} aria-current={page === 'calculator' ? 'page' : undefined}>{t.nav.calculator}</InternalLink>
-            <InternalLink to={`/guides?lang=${lang}`} go={go} aria-current={page === 'guides' || page === 'guide' ? 'page' : undefined}>{t.nav.guides}</InternalLink>
+            <InternalLink to={`/guides?lang=${lang}`} go={go} aria-current={page === 'guides' || page === 'guide' || page === 'christmas' ? 'page' : undefined}>{t.nav.guides}</InternalLink>
             <InternalLink to={`/about?lang=${lang}`} go={go} aria-current={page === 'about' ? 'page' : undefined}>{t.footer.about}</InternalLink>
           </nav>
           <div className="lang" role="group" aria-label={t.nav.language}>
@@ -127,6 +127,8 @@ export function App() {
             <Privacy />
           ) : page === 'guides' ? (
             <GuideIndex go={go} />
+          ) : page === 'christmas' ? (
+            <ChristmasMarketsPage go={go} />
           ) : page === 'guide' && guideCity ? (
             <CityGuidePage city={guideCity} go={go} />
           ) : (

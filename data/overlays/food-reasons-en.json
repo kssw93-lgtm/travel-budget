@@ -402,11 +402,12 @@
   "berlin:Döner kebab": "A German-Turkish fusion classic rooted in Berlin’s Turkish community",
   "berlin:Berliner Pfannkuchen": "Jam-filled doughnuts sold in many varieties at Berlin bakeries",
   "berlin:Eisbein": "Cured, boiled pork knuckle served with sauerkraut, a Berlin classic",
-  "riga:Grey peas with bacon": "Latvia’s national dish of large grey peas fried with bacon and onion",
+  "riga:Grey peas with bacon": "Latvia’s classic dish of grey peas with bacon, served even at Christmas",
   "riga:Potato pancakes": "Latvian potato pancakes served with sour cream",
-  "riga:Latvian rye bread": "Dense, slow-fermented dark rye bread, a staple of every Latvian table",
-  "riga:Riga Black Balsam": "Riga’s strong, dark herbal liqueur",
   "gdansk:Cod pierogi": "Polish dumplings filled with Baltic cod, Gdańsk-style",
   "gdansk:Goldwasser": "Gdańsk’s traditional herbal liqueur with flakes of gold leaf",
-  "gdansk:Kashubian fish soup": "Fish soup from the Kashubian region around Gdańsk"
+  "gdansk:Kashubian fish soup": "Fish soup from the Kashubian region around Gdańsk",
+  "riga:Cold beetroot soup": "A pink chilled soup Latvians crave in early summer",
+  "riga:Caraway cheese (Jāņu cheese)": "Cheese with caraway seeds, a symbol of the Jāņi midsummer feast",
+  "riga:Sklandrauši": "A carrot and potato pie from the Kurzeme region"
 }

@@ -7253,19 +7253,19 @@
     "cityId": "riga",
     "nameKo": "회색 완두콩과 베이컨",
     "nameEn": "Grey peas with bacon",
-    "reason": "큼직한 회색 완두콩을 베이컨·양파와 볶은 라트비아 대표 음식",
-    "reasonEn": "Latvia’s national dish of large grey peas fried with bacon and onion",
+    "reason": "회색 완두콩을 베이컨과 볶은 요리로, 크리스마스 식탁에도 오르는 라트비아 대표 음식",
+    "reasonEn": "Latvia’s classic dish of grey peas with bacon, served even at Christmas",
     "desc": {
-      "ko": "큼직한 회색 완두콩을 베이컨·양파와 볶은 라트비아 대표 음식",
-      "en": "Latvia’s national dish of large grey peas fried with bacon and onion",
-      "ja": "大粒の灰色エンドウ豆をベーコンや玉ねぎと炒めたラトビアの代表料理"
+      "ko": "회색 완두콩을 베이컨과 볶은 요리로, 크리스마스 식탁에도 오르는 라트비아 대표 음식",
+      "en": "Latvia’s classic dish of grey peas with bacon, served even at Christmas",
+      "ja": "灰色エンドウ豆をベーコンと炒めた料理で、クリスマスの食卓にも並ぶラトビアの代表料理"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "tablejourney.com",
-    "recommendUrl": "https://tablejourney.com/latvia/riga/signature-dishes/",
-    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+    "recommendSource": "라트비아 관광청",
+    "recommendUrl": "https://www.latvia.travel/en/flavours-latvia",
+    "note": "Claude 크롬 2026-10-17 공식 출처"
   },
   {
     "cityId": "riga",
@@ -7283,45 +7283,63 @@
       "RIX-FD-101"
     ],
     "priceStatus": "대기",
-    "recommendSource": "tablejourney.com",
-    "recommendUrl": "https://tablejourney.com/latvia/riga/signature-dishes/",
-    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+    "recommendSource": "Liberta 공식 메뉴",
+    "recommendUrl": "https://libertariga.lv/lv/menu",
+    "note": "Claude 크롬 2026-10-17 공식 출처"
   },
   {
     "cityId": "riga",
-    "nameKo": "라트비아 호밀빵",
-    "nameEn": "Latvian rye bread",
-    "reason": "천천히 발효해 굽는 짙은 색의 호밀빵으로, 라트비아 식탁의 기본",
-    "reasonEn": "Dense, slow-fermented dark rye bread, a staple of every Latvian table",
+    "nameKo": "차가운 비트 수프",
+    "nameEn": "Cold beetroot soup",
+    "reason": "초여름이면 떠오르는 분홍빛 차가운 수프",
+    "reasonEn": "A pink chilled soup Latvians crave in early summer",
     "desc": {
-      "ko": "천천히 발효해 굽는 짙은 색의 호밀빵으로, 라트비아 식탁의 기본",
-      "en": "Dense, slow-fermented dark rye bread, a staple of every Latvian table",
-      "ja": "じっくり発酵させて焼く黒いライ麦パンで、ラトビアの食卓の基本"
+      "ko": "초여름이면 떠오르는 분홍빛 차가운 수프",
+      "en": "A pink chilled soup Latvians crave in early summer",
+      "ja": "初夏になると恋しくなるピンク色の冷たいスープ"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "tablejourney.com",
-    "recommendUrl": "https://tablejourney.com/latvia/riga/signature-dishes/",
-    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+    "recommendSource": "라트비아 관광청",
+    "recommendUrl": "https://www.latvia.travel/en/flavours-latvia",
+    "note": "Claude 크롬 2026-10-17 공식 출처"
   },
   {
     "cityId": "riga",
-    "nameKo": "리가 블랙 발삼",
-    "nameEn": "Riga Black Balsam",
-    "reason": "여러 허브를 넣어 만든 리가의 진한 약초 술",
-    "reasonEn": "Riga’s strong, dark herbal liqueur",
+    "nameKo": "캐러웨이 치즈(야뉴 치즈)",
+    "nameEn": "Caraway cheese (Jāņu cheese)",
+    "reason": "캐러웨이 씨를 넣은 치즈로, 하지 축제 야니의 상징 음식",
+    "reasonEn": "Cheese with caraway seeds, a symbol of the Jāņi midsummer feast",
     "desc": {
-      "ko": "여러 허브를 넣어 만든 리가의 진한 약초 술",
-      "en": "Riga’s strong, dark herbal liqueur",
-      "ja": "さまざまなハーブで造るリガの濃厚な薬草酒"
+      "ko": "캐러웨이 씨를 넣은 치즈로, 하지 축제 야니의 상징 음식",
+      "en": "Cheese with caraway seeds, a symbol of the Jāņi midsummer feast",
+      "ja": "キャラウェイシード入りのチーズで、夏至祭ヤーニの象徴的な食べ物"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "tablejourney.com",
-    "recommendUrl": "https://tablejourney.com/latvia/riga/signature-dishes/",
-    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+    "recommendSource": "라트비아 관광청",
+    "recommendUrl": "https://www.latvia.travel/en/flavours-latvia",
+    "note": "Claude 크롬 2026-10-17 공식 출처"
+  },
+  {
+    "cityId": "riga",
+    "nameKo": "스클란드라우시",
+    "nameEn": "Sklandrauši",
+    "reason": "쿠르제메 지방의 당근·감자 파이",
+    "reasonEn": "A carrot and potato pie from the Kurzeme region",
+    "desc": {
+      "ko": "쿠르제메 지방의 당근·감자 파이",
+      "en": "A carrot and potato pie from the Kurzeme region",
+      "ja": "クルゼメ地方のにんじんとじゃがいものパイ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "라트비아 관광청",
+    "recommendUrl": "https://www.latvia.travel/en/latvian-national-cuisine",
+    "note": "Claude 크롬 2026-10-17 공식 출처"
   },
   {
     "cityId": "rome",

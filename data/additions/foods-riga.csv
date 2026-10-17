@@ -1,5 +1,6 @@
 국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
-라트비아,리가,회색 완두콩과 베이컨,Grey peas with bacon,큼직한 회색 완두콩을 베이컨·양파와 볶은 라트비아 대표 음식,저,,대기,tablejourney.com,https://tablejourney.com/latvia/riga/signature-dishes/,Claude 2026-10-17 (공식 관광청·음식 안내 기준)
-라트비아,리가,감자 팬케이크,Potato pancakes,사워크림을 곁들여 먹는 라트비아식 감자전,저,RIX-FD-101,대기,tablejourney.com,https://tablejourney.com/latvia/riga/signature-dishes/,Claude 2026-10-17 (공식 관광청·음식 안내 기준)
-라트비아,리가,라트비아 호밀빵,Latvian rye bread,"천천히 발효해 굽는 짙은 색의 호밀빵으로, 라트비아 식탁의 기본",저,,대기,tablejourney.com,https://tablejourney.com/latvia/riga/signature-dishes/,Claude 2026-10-17 (공식 관광청·음식 안내 기준)
-라트비아,리가,리가 블랙 발삼,Riga Black Balsam,여러 허브를 넣어 만든 리가의 진한 약초 술,저,,대기,tablejourney.com,https://tablejourney.com/latvia/riga/signature-dishes/,Claude 2026-10-17 (공식 관광청·음식 안내 기준)
+라트비아,리가,회색 완두콩과 베이컨,Grey peas with bacon,"회색 완두콩을 베이컨과 볶은 요리로, 크리스마스 식탁에도 오르는 라트비아 대표 음식",저,,대기,라트비아 관광청,https://www.latvia.travel/en/flavours-latvia,Claude 크롬 2026-10-17 공식 출처
+라트비아,리가,감자 팬케이크,Potato pancakes,사워크림을 곁들여 먹는 라트비아식 감자전,저,RIX-FD-101,대기,Liberta 공식 메뉴,https://libertariga.lv/lv/menu,Claude 크롬 2026-10-17 공식 출처
+라트비아,리가,차가운 비트 수프,Cold beetroot soup,초여름이면 떠오르는 분홍빛 차가운 수프,저,,대기,라트비아 관광청,https://www.latvia.travel/en/flavours-latvia,Claude 크롬 2026-10-17 공식 출처
+라트비아,리가,캐러웨이 치즈(야뉴 치즈),Caraway cheese (Jāņu cheese),"캐러웨이 씨를 넣은 치즈로, 하지 축제 야니의 상징 음식",저,,대기,라트비아 관광청,https://www.latvia.travel/en/flavours-latvia,Claude 크롬 2026-10-17 공식 출처
+라트비아,리가,스클란드라우시,Sklandrauši,쿠르제메 지방의 당근·감자 파이,저,,대기,라트비아 관광청,https://www.latvia.travel/en/latvian-national-cuisine,Claude 크롬 2026-10-17 공식 출처

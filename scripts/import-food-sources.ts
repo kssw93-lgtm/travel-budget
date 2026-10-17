@@ -8,7 +8,7 @@ const root = new URL('..', import.meta.url).pathname;
 const dir = `${root}GPT전달내용/결과/`;
 const out = `${root}data/overlays/food-sources.json`;
 
-function parseCsv(s: string): string[][] {
+export function parseCsv(s: string): string[][] {
   const rows: string[][] = [];
   let row: string[] = [];
   let f = '';
@@ -36,15 +36,24 @@ function parseCsv(s: string): string[][] {
   return rows;
 }
 
-const merged = JSON.parse(readFileSync(out, 'utf8')) as Record<string, { name: string; url: string; checkedAt: string }>;
-let added = 0;
-for (const file of readdirSync(dir).filter((n) => /^음식출처_.*\.csv$/.test(n)).sort()) {
-  for (const [key, verdict, name, urls, date] of parseCsv(readFileSync(dir + file, 'utf8').replace(/^﻿/, '')).slice(1)) {
-    const url = (urls ?? '').split(';').map((u) => u.trim()).find((u) => u.startsWith('https://'));
-    if (!key || verdict !== '확인' || !url) continue;
-    if (!merged[key]) added++;
-    merged[key] = { name: name ?? '', url, checkedAt: date ?? '' };
+if (process.argv[1]?.endsWith('import-food-sources.ts')) main();
+
+function main(): void {
+  const merged = JSON.parse(readFileSync(out, 'utf8')) as Record<string, { name: string; url: string; checkedAt: string }>;
+  let added = 0;
+  for (const file of readdirSync(dir)
+    .filter((n) => /^음식출처_.*\.csv$/.test(n))
+    .sort()) {
+    for (const [key, verdict, name, urls, date] of parseCsv(readFileSync(dir + file, 'utf8').replace(/^\uFEFF/, '')).slice(1)) {
+      const url = (urls ?? '')
+        .split(';')
+        .map((u) => u.trim())
+        .find((u) => u.startsWith('https://'));
+      if (!key || verdict !== '확인' || !url) continue;
+      if (!merged[key]) added++;
+      merged[key] = { name: name ?? '', url, checkedAt: date ?? '' };
+    }
   }
+  writeFileSync(out, `${JSON.stringify(merged, null, 2)}\n`);
+  console.log(`음식 출처 ${added}건 추가, 전체 ${Object.keys(merged).length}건`);
 }
-writeFileSync(out, `${JSON.stringify(merged, null, 2)}\n`);
-console.log(`음식 출처 ${added}건 추가, 전체 ${Object.keys(merged).length}건`);

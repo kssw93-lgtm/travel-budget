@@ -1297,6 +1297,12 @@
       "en": "Boiled meat served over wide flat noodles",
       "ja": "茹でた肉を平たい麺にのせたカザフの代表料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kazakh_beshbarmak.jpg/960px-Kazakh_beshbarmak.jpg",
+      "author": "Igors Jefimovs",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kazakh_beshbarmak.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -1314,6 +1320,12 @@
       "ko": "지방이 고르게 박힌 말고기 소시지",
       "en": "Horse-meat sausage marbled with soft fat",
       "ja": "脂が均一に入った馬肉ソーセージ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Kazakh_national_food.jpg/960px-Kazakh_national_food.jpg",
+      "author": "Symbat Bolatova",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kazakh_national_food.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],
@@ -1333,6 +1345,12 @@
       "en": "Nomad-style stir-fry of several kinds of meat",
       "ja": "数種類の肉を炒めた遊牧民の料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Kazakh_quwyrdaq.jpg/960px-Kazakh_quwyrdaq.jpg",
+      "author": "Rio Murr",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kazakh_quwyrdaq.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -1350,6 +1368,12 @@
       "ko": "고기·당근·쌀을 큰 솥에 함께 지은 볶음밥",
       "en": "Rice cooked in a cauldron with meat and carrots",
       "ja": "肉と人参を大鍋で炊き込んだピラフ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Uzbek_pilaf.jpg/960px-Uzbek_pilaf.jpg",
+      "author": "Ekaterina Kvelidze",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Uzbek_pilaf.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [
@@ -1831,6 +1855,12 @@
       "en": "Basel’s traditional spiced biscuit with honey, nuts and candied peel",
       "ja": "はちみつ・ナッツ・柑橘ピールを入れたバーゼル伝統のスパイス菓子"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Basler_L%C3%A4ckerli_01.jpeg/960px-Basler_L%C3%A4ckerli_01.jpeg",
+      "author": "Manuel Schneider",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Basler_L%C3%A4ckerli_01.jpeg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -1848,6 +1878,12 @@
       "ko": "볶은 밀가루로 끓인 갈색 수프로, 파스나흐트 축제 새벽에 먹는 바젤 전통 음식",
       "en": "A brown soup of toasted flour, eaten in the small hours of the Fasnacht carnival",
       "ja": "炒った小麦粉で作る茶色のスープで、ファスナハトの早朝に食べるバーゼルの伝統料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Basler-Mehlsuppe_2020-01-10_01.jpg/960px-Basler-Mehlsuppe_2020-01-10_01.jpg",
+      "author": "Luguriollum Basiliense",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Basler-Mehlsuppe_2020-01-10_01.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -1981,6 +2017,12 @@
       "en": "Sausage with curry ketchup — Berlin’s favourite street food",
       "ja": "ソーセージにカレーケチャップをかけた、ベルリンで一番人気の屋台料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Original_Berliner_Currywurst.jpg/960px-Original_Berliner_Currywurst.jpg",
+      "author": "Richard Mischau; Britta Mischau",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Original_Berliner_Currywurst.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -1998,6 +2040,12 @@
       "ko": "베를린의 튀르키예계 이민 문화에서 자리 잡은 독일식 되너",
       "en": "A German-Turkish fusion classic rooted in Berlin’s Turkish community",
       "ja": "ベルリンのトルコ系移民文化から根付いたドイツ風ドネル"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/D%C3%B6ner_kebap.jpg/960px-D%C3%B6ner_kebap.jpg",
+      "author": "FrugalGlutton.com",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:D%C3%B6ner_kebap.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -2017,6 +2065,12 @@
       "en": "Jam-filled doughnuts sold in many varieties at Berlin bakeries",
       "ja": "ジャム入りの丸いドーナツで、ベルリンのパン屋ごとにいろいろな味があります"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/BerlinerPfannkuchenVarianten.jpg/960px-BerlinerPfannkuchenVarianten.jpg",
+      "author": "Lear 21",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:BerlinerPfannkuchenVarianten.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2034,6 +2088,12 @@
       "ko": "소금에 절여 삶은 돼지 족발로, 사워크라우트와 함께 먹는 베를린 전통 요리",
       "en": "Cured, boiled pork knuckle served with sauerkraut, a Berlin classic",
       "ja": "塩漬けにして茹でた豚すね肉で、ザワークラウトと食べるベルリンの伝統料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/240612_Eisbein_mit_Sauerkraut_und_Bratkartoffeln_Restaurant_St%C3%A4ndige_Vertretung_Berlin_anagoria.jpg/960px-240612_Eisbein_mit_Sauerkraut_und_Bratkartoffeln_Restaurant_St%C3%A4ndige_Vertretung_Berlin_anagoria.jpg",
+      "author": "Anagoria",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:240612_Eisbein_mit_Sauerkraut_und_Bratkartoffeln_Restaurant_St%C3%A4ndige_Vertretung_Berlin_anagoria.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],
@@ -2053,6 +2113,12 @@
       "en": "Whole roast pig",
       "ja": "豚の丸焼き"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lechon_Cebu_2.jpg/960px-Lechon_Cebu_2.jpg",
+      "author": "Bim24",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Lechon_Cebu_2.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2070,6 +2136,12 @@
       "ko": "식초·간장에 졸인 필리핀 대표 고기 요리",
       "en": "Meat braised in vinegar and soy, a Filipino staple",
       "ja": "酢と醤油で煮込んだフィリピンの定番料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/PORK_ADOBO.jpg/960px-PORK_ADOBO.jpg",
+      "author": "whologwhy",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:PORK_ADOBO.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -2089,6 +2161,12 @@
       "en": "Shaved ice with fruit, beans and ube",
       "ja": "かき氷に果物・豆・紫芋を混ぜたデザート"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Halo-Halo.jpg/960px-Halo-Halo.jpg",
+      "author": "Herbertkikoy",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Halo-Halo.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2106,6 +2184,12 @@
       "ko": "「초콜릿의 도시」로 불릴 만큼 수제 초콜릿 가게가 많은 브뤼헤의 상징",
       "en": "Bruges’ emblem — the city is packed with artisan chocolate shops",
       "ja": "「チョコレートの街」と呼ばれるほど手作りチョコレート店が多い、ブルージュの象徴"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Belgian_chocolates_assortment.JPG/960px-Belgian_chocolates_assortment.JPG",
+      "author": "BrokenSphere",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Belgian_chocolates_assortment.JPG"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],
@@ -2125,6 +2209,12 @@
       "en": "Belgium’s classic snack, freshly baked at street stalls",
       "ja": "街の店で焼きたてを売るベルギー定番のおやつ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Belgian_Waffle_served_at_Brasserie_Resto_Sandwiches%2C_Bruges%2C_Belgium.jpg/960px-Belgian_Waffle_served_at_Brasserie_Resto_Sandwiches%2C_Bruges%2C_Belgium.jpg",
+      "author": "Stck w",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Belgian_Waffle_served_at_Brasserie_Resto_Sandwiches,_Bruges,_Belgium.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2142,6 +2232,12 @@
       "ko": "두 번 튀겨 바삭한 벨기에식 감자튀김으로, 마르크트 광장 노점이 유명합니다",
       "en": "Twice-fried Belgian fries; the stalls on the Markt are famous",
       "ja": "二度揚げでカリッとしたベルギー式フライドポテトで、マルクト広場の屋台が有名"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Belgian_frites_with_andalouse_sauce.jpg/960px-Belgian_frites_with_andalouse_sauce.jpg",
+      "author": "anders pearson",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Belgian_frites_with_andalouse_sauce.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -2161,6 +2257,12 @@
       "en": "A beer city where you can taste brews made right in town",
       "ja": "街中の醸造所で造られたビールが味わえるビールの街"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Belgian_beer_glass.jpg/960px-Belgian_beer_glass.jpg",
+      "author": "Egien (Arthur Maniet)",
+      "license": "CC BY 2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:Belgian_beer_glass.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2178,6 +2280,12 @@
       "ko": "바삭하고 가벼운 직사각형 브뤼셀식 와플",
       "en": "Light, crisp rectangular Brussels waffle",
       "ja": "軽くてサクサクした長方形のブリュッセルワッフル"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Brusselse_waffel.jpg/960px-Brusselse_waffel.jpg",
+      "author": "Hortensja Bukietowa",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Brusselse_waffel.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -2197,6 +2305,12 @@
       "en": "Mashed potatoes mixed with vegetables",
       "ja": "野菜を混ぜたマッシュポテト"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Stoemp.001_-_Brugge.jpg/960px-Stoemp.001_-_Brugge.jpg",
+      "author": "Fernando Losada Rodríguez",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Stoemp.001_-_Brugge.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2215,6 +2329,12 @@
       "en": "Creamy chicken or fish stew",
       "ja": "鶏肉や魚をクリームで煮込んだシチュー"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Waterzooi_(543041596).jpg/960px-Waterzooi_(543041596).jpg",
+      "author": "Masaaki Komori",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Waterzooi_(543041596).jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2232,6 +2352,12 @@
       "ko": "맥주로 푹 끓인 소고기 스튜",
       "en": "Beef stew slow-cooked in beer",
       "ja": "ビールでじっくり煮込んだ牛肉シチュー"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Carbonnade_flamande_accompagn%C3%A9e_de_stoemp.jpg/960px-Carbonnade_flamande_accompagn%C3%A9e_de_stoemp.jpg",
+      "author": "avlxyz",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Carbonnade_flamande_accompagn%C3%A9e_de_stoemp.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [
@@ -2349,6 +2475,12 @@
       "en": "Rice, lentils, pasta and chickpeas topped with spiced tomato sauce and fried onions",
       "ja": "米・レンズ豆・パスタ・ひよこ豆にスパイシーなトマトソースと揚げ玉ねぎをのせたカイロ名物"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Koshari.jpg/960px-Koshari.jpg",
+      "author": "Youmna9115",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Koshari.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [
       "CAI-FD-102"
@@ -2369,6 +2501,12 @@
       "en": "Slow-cooked fava beans with olive oil, lemon and cumin, a breakfast staple",
       "ja": "そら豆をじっくり煮てオリーブ油・レモン・クミンで味付けしたエジプトの朝食"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Ful_medames.jpg/960px-Ful_medames.jpg",
+      "author": "Zachbe",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ful_medames.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2386,6 +2524,12 @@
       "ko": "잠두콩으로 만든 이집트식 팔라펠",
       "en": "Egyptian falafel made from fava beans",
       "ja": "そら豆で作るエジプト式ファラフェル"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Tameya_Karoleen_Lindberg.jpg/960px-Tameya_Karoleen_Lindberg.jpg",
+      "author": "Andreas Eckerbert",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tameya_Karoleen_Lindberg.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -2405,6 +2549,12 @@
       "en": "Green soup of chopped jute leaves with garlic and coriander, served with rice and chicken",
       "ja": "刻んだモロヘイヤをにんにくとコリアンダーで煮た緑のスープ、ご飯や鶏肉と"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Molokhia.JPG/960px-Molokhia.JPG",
+      "author": "Showshow777",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Molokhia.JPG"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2422,6 +2572,12 @@
       "ko": "아치오테로 양념해 천천히 익힌 대표 마야 돼지고기 요리",
       "en": "The best-known Maya dish: pork slow-cooked with achiote",
       "ja": "アチョーテで味付けしじっくり蒸し焼きにした代表的なマヤの豚肉料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Tacos_cochinita.jpg/960px-Tacos_cochinita.jpg",
+      "author": "PABLO215",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tacos_cochinita.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -2441,6 +2597,12 @@
       "en": "Egg-filled tortillas with pumpkin-seed and tomato sauces",
       "ja": "ゆで卵入りトルティーヤにカボチャの種とトマトのソースをかけた料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Papadzules_(86823909).jpg/960px-Papadzules_(86823909).jpg",
+      "author": "Gideon",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Papadzules_(86823909).jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2458,6 +2620,12 @@
       "ko": "지역 감귤즙을 넣은 닭고기 국물에 튀긴 토르티야를 올린 수프",
       "en": "Chicken broth with local lime and fried tortilla strips",
       "ja": "地元の柑橘を加えた鶏スープに揚げトルティーヤをのせたスープ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sopa_de_lima.jpg/960px-Sopa_de_lima.jpg",
+      "author": "Aome7937",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sopa_de_lima.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -2668,6 +2836,12 @@
       "ko": "발효 양배추에 소시지·고기·감자를 곁들인 알자스 요리",
       "en": "Alsatian sauerkraut with sausages, meats and potatoes",
       "ja": "発酵キャベツにソーセージや肉、じゃがいもを添えたアルザス料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Choucroute_traditionnelle_d'Alsace.jpg/960px-Choucroute_traditionnelle_d'Alsace.jpg",
+      "author": "Lidine Mia",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Choucroute_traditionnelle_d%27Alsace.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],

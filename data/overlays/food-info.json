@@ -2791,22 +2791,46 @@
   "almaty:Beshbarmak": {
     "ko": "삶은 고기를 넓은 면 위에 올린 카자흐 대표 요리",
     "en": "Boiled meat served over wide flat noodles",
-    "ja": "茹でた肉を平たい麺にのせたカザフの代表料理"
+    "ja": "茹でた肉を平たい麺にのせたカザフの代表料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kazakh_beshbarmak.jpg/960px-Kazakh_beshbarmak.jpg",
+      "author": "Igors Jefimovs",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kazakh_beshbarmak.jpg"
+    }
   },
   "almaty:Kazy": {
     "ko": "지방이 고르게 박힌 말고기 소시지",
     "en": "Horse-meat sausage marbled with soft fat",
-    "ja": "脂が均一に入った馬肉ソーセージ"
+    "ja": "脂が均一に入った馬肉ソーセージ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Kazakh_national_food.jpg/960px-Kazakh_national_food.jpg",
+      "author": "Symbat Bolatova",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kazakh_national_food.jpg"
+    }
   },
   "almaty:Kuyrdak": {
     "ko": "여러 부위 고기를 함께 볶은 유목민식 요리",
     "en": "Nomad-style stir-fry of several kinds of meat",
-    "ja": "数種類の肉を炒めた遊牧民の料理"
+    "ja": "数種類の肉を炒めた遊牧民の料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Kazakh_quwyrdaq.jpg/960px-Kazakh_quwyrdaq.jpg",
+      "author": "Rio Murr",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kazakh_quwyrdaq.jpg"
+    }
   },
   "almaty:Plov": {
     "ko": "고기·당근·쌀을 큰 솥에 함께 지은 볶음밥",
     "en": "Rice cooked in a cauldron with meat and carrots",
-    "ja": "肉と人参を大鍋で炊き込んだピラフ"
+    "ja": "肉と人参を大鍋で炊き込んだピラフ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Uzbek_pilaf.jpg/960px-Uzbek_pilaf.jpg",
+      "author": "Ekaterina Kvelidze",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Uzbek_pilaf.jpg"
+    }
   },
   "tashkent:Plov": {
     "ko": "고기·당근·쌀을 큰 솥에 지은 우즈베크 국민 요리",
@@ -2846,17 +2870,35 @@
   "cancun:Cochinita Pibil": {
     "ko": "아치오테로 양념해 천천히 익힌 대표 마야 돼지고기 요리",
     "en": "The best-known Maya dish: pork slow-cooked with achiote",
-    "ja": "アチョーテで味付けしじっくり蒸し焼きにした代表的なマヤの豚肉料理"
+    "ja": "アチョーテで味付けしじっくり蒸し焼きにした代表的なマヤの豚肉料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Tacos_cochinita.jpg/960px-Tacos_cochinita.jpg",
+      "author": "PABLO215",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tacos_cochinita.jpg"
+    }
   },
   "cancun:Papadzules": {
     "ko": "삶은 달걀을 넣은 토르티야에 호박씨 소스와 토마토 소스를 얹은 요리",
     "en": "Egg-filled tortillas with pumpkin-seed and tomato sauces",
-    "ja": "ゆで卵入りトルティーヤにカボチャの種とトマトのソースをかけた料理"
+    "ja": "ゆで卵入りトルティーヤにカボチャの種とトマトのソースをかけた料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Papadzules_(86823909).jpg/960px-Papadzules_(86823909).jpg",
+      "author": "Gideon",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Papadzules_(86823909).jpg"
+    }
   },
   "cancun:Sopa de Lima": {
     "ko": "지역 감귤즙을 넣은 닭고기 국물에 튀긴 토르티야를 올린 수프",
     "en": "Chicken broth with local lime and fried tortilla strips",
-    "ja": "地元の柑橘を加えた鶏スープに揚げトルティーヤをのせたスープ"
+    "ja": "地元の柑橘を加えた鶏スープに揚げトルティーヤをのせたスープ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sopa_de_lima.jpg/960px-Sopa_de_lima.jpg",
+      "author": "Aome7937",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sopa_de_lima.jpg"
+    }
   },
   "melbourne:Meat Pie": {
     "photo": {
@@ -3054,37 +3096,79 @@
   "boracay:Lechon": {
     "ko": "통째로 구운 돼지고기",
     "en": "Whole roast pig",
-    "ja": "豚の丸焼き"
+    "ja": "豚の丸焼き",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lechon_Cebu_2.jpg/960px-Lechon_Cebu_2.jpg",
+      "author": "Bim24",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Lechon_Cebu_2.jpg"
+    }
   },
   "boracay:Adobo": {
     "ko": "식초·간장에 졸인 필리핀 대표 고기 요리",
     "en": "Meat braised in vinegar and soy, a Filipino staple",
-    "ja": "酢と醤油で煮込んだフィリピンの定番料理"
+    "ja": "酢と醤油で煮込んだフィリピンの定番料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/PORK_ADOBO.jpg/960px-PORK_ADOBO.jpg",
+      "author": "whologwhy",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:PORK_ADOBO.jpg"
+    }
   },
   "boracay:Halo-halo": {
     "ko": "빙수에 과일·콩·우베를 섞은 디저트",
     "en": "Shaved ice with fruit, beans and ube",
-    "ja": "かき氷に果物・豆・紫芋を混ぜたデザート"
+    "ja": "かき氷に果物・豆・紫芋を混ぜたデザート",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Halo-Halo.jpg/960px-Halo-Halo.jpg",
+      "author": "Herbertkikoy",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Halo-Halo.jpg"
+    }
   },
   "brussels:Brussels waffles": {
     "ko": "바삭하고 가벼운 직사각형 브뤼셀식 와플",
     "en": "Light, crisp rectangular Brussels waffle",
-    "ja": "軽くてサクサクした長方形のブリュッセルワッフル"
+    "ja": "軽くてサクサクした長方形のブリュッセルワッフル",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Brusselse_waffel.jpg/960px-Brusselse_waffel.jpg",
+      "author": "Hortensja Bukietowa",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Brusselse_waffel.jpg"
+    }
   },
   "brussels:Stoemp": {
     "ko": "으깬 감자에 채소를 섞은 벨기에 가정식",
     "en": "Mashed potatoes mixed with vegetables",
-    "ja": "野菜を混ぜたマッシュポテト"
+    "ja": "野菜を混ぜたマッシュポテト",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Stoemp.001_-_Brugge.jpg/960px-Stoemp.001_-_Brugge.jpg",
+      "author": "Fernando Losada Rodríguez",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Stoemp.001_-_Brugge.jpg"
+    }
   },
   "brussels:Waterzooi": {
     "ko": "크림으로 부드럽게 끓인 닭고기·생선 스튜",
     "en": "Creamy chicken or fish stew",
-    "ja": "鶏肉や魚をクリームで煮込んだシチュー"
+    "ja": "鶏肉や魚をクリームで煮込んだシチュー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Waterzooi_(543041596).jpg/960px-Waterzooi_(543041596).jpg",
+      "author": "Masaaki Komori",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Waterzooi_(543041596).jpg"
+    }
   },
   "brussels:Carbonnade flamande": {
     "ko": "맥주로 푹 끓인 소고기 스튜",
     "en": "Beef stew slow-cooked in beer",
-    "ja": "ビールでじっくり煮込んだ牛肉シチュー"
+    "ja": "ビールでじっくり煮込んだ牛肉シチュー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Carbonnade_flamande_accompagn%C3%A9e_de_stoemp.jpg/960px-Carbonnade_flamande_accompagn%C3%A9e_de_stoemp.jpg",
+      "author": "avlxyz",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Carbonnade_flamande_accompagn%C3%A9e_de_stoemp.jpg"
+    }
   },
   "reykjavik:Icelandic lamb": {
     "ko": "방목해 키운 아이슬란드 양고기, 수프로도 많이 먹음",
@@ -3294,7 +3378,13 @@
   "colmar:Choucroute": {
     "ko": "발효 양배추에 소시지·고기·감자를 곁들인 알자스 요리",
     "en": "Alsatian sauerkraut with sausages, meats and potatoes",
-    "ja": "発酵キャベツにソーセージや肉、じゃがいもを添えたアルザス料理"
+    "ja": "発酵キャベツにソーセージや肉、じゃがいもを添えたアルザス料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Choucroute_traditionnelle_d'Alsace.jpg/960px-Choucroute_traditionnelle_d'Alsace.jpg",
+      "author": "Lidine Mia",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Choucroute_traditionnelle_d%27Alsace.jpg"
+    }
   },
   "colmar:Tarte flambée": {
     "ko": "얇은 반죽에 크림·양파·베이컨을 올려 화덕에 구운 알자스식 납작 파이",
@@ -3398,22 +3488,46 @@
   "cairo:Koshary": {
     "ko": "쌀·렌틸콩·파스타·병아리콩에 매콤한 토마토소스와 튀긴 양파를 올린 카이로 대표 길거리 음식",
     "en": "Rice, lentils, pasta and chickpeas topped with spiced tomato sauce and fried onions",
-    "ja": "米・レンズ豆・パスタ・ひよこ豆にスパイシーなトマトソースと揚げ玉ねぎをのせたカイロ名物"
+    "ja": "米・レンズ豆・パスタ・ひよこ豆にスパイシーなトマトソースと揚げ玉ねぎをのせたカイロ名物",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Koshari.jpg/960px-Koshari.jpg",
+      "author": "Youmna9115",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Koshari.jpg"
+    }
   },
   "cairo:Ful medames": {
     "ko": "잠두콩을 오래 끓여 올리브유·레몬·쿠민으로 맛을 낸 이집트식 아침 식사",
     "en": "Slow-cooked fava beans with olive oil, lemon and cumin, a breakfast staple",
-    "ja": "そら豆をじっくり煮てオリーブ油・レモン・クミンで味付けしたエジプトの朝食"
+    "ja": "そら豆をじっくり煮てオリーブ油・レモン・クミンで味付けしたエジプトの朝食",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Ful_medames.jpg/960px-Ful_medames.jpg",
+      "author": "Zachbe",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ful_medames.jpg"
+    }
   },
   "cairo:Taameya": {
     "ko": "잠두콩으로 만든 이집트식 팔라펠",
     "en": "Egyptian falafel made from fava beans",
-    "ja": "そら豆で作るエジプト式ファラフェル"
+    "ja": "そら豆で作るエジプト式ファラフェル",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Tameya_Karoleen_Lindberg.jpg/960px-Tameya_Karoleen_Lindberg.jpg",
+      "author": "Andreas Eckerbert",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tameya_Karoleen_Lindberg.jpg"
+    }
   },
   "cairo:Molokhia": {
     "ko": "잘게 다진 몰로키야 잎을 마늘·고수와 끓인 초록색 수프로 밥·닭고기와 먹음",
     "en": "Green soup of chopped jute leaves with garlic and coriander, served with rice and chicken",
-    "ja": "刻んだモロヘイヤをにんにくとコリアンダーで煮た緑のスープ、ご飯や鶏肉と"
+    "ja": "刻んだモロヘイヤをにんにくとコリアンダーで煮た緑のスープ、ご飯や鶏肉と",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Molokhia.JPG/960px-Molokhia.JPG",
+      "author": "Showshow777",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Molokhia.JPG"
+    }
   },
   "zurich:Zürcher Geschnetzeltes": {
     "ko": "얇게 썬 송아지고기를 버섯·크림 소스에 볶아 뢰스티와 곁들이는 취리히 대표 요리",
@@ -3433,12 +3547,24 @@
   "basel:Basler Läckerli": {
     "ko": "꿀·견과·설탕 절임 껍질을 넣은 바젤 전통 향신료 과자",
     "en": "Basel’s traditional spiced biscuit with honey, nuts and candied peel",
-    "ja": "はちみつ・ナッツ・柑橘ピールを入れたバーゼル伝統のスパイス菓子"
+    "ja": "はちみつ・ナッツ・柑橘ピールを入れたバーゼル伝統のスパイス菓子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Basler_L%C3%A4ckerli_01.jpeg/960px-Basler_L%C3%A4ckerli_01.jpeg",
+      "author": "Manuel Schneider",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Basler_L%C3%A4ckerli_01.jpeg"
+    }
   },
   "basel:Basler Mehlsuppe": {
     "ko": "볶은 밀가루로 끓인 갈색 수프로, 파스나흐트 축제 새벽에 먹는 바젤 전통 음식",
     "en": "A brown soup of toasted flour, eaten in the small hours of the Fasnacht carnival",
-    "ja": "炒った小麦粉で作る茶色のスープで、ファスナハトの早朝に食べるバーゼルの伝統料理"
+    "ja": "炒った小麦粉で作る茶色のスープで、ファスナハトの早朝に食べるバーゼルの伝統料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Basler-Mehlsuppe_2020-01-10_01.jpg/960px-Basler-Mehlsuppe_2020-01-10_01.jpg",
+      "author": "Luguriollum Basiliense",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Basler-Mehlsuppe_2020-01-10_01.jpg"
+    }
   },
   "basel:Zwiebelwähe": {
     "ko": "양파와 크림을 듬뿍 넣어 구운 스위스식 짭짤한 타르트",
@@ -3448,22 +3574,46 @@
   "bruges:Belgian chocolate": {
     "ko": "「초콜릿의 도시」로 불릴 만큼 수제 초콜릿 가게가 많은 브뤼헤의 상징",
     "en": "Bruges’ emblem — the city is packed with artisan chocolate shops",
-    "ja": "「チョコレートの街」と呼ばれるほど手作りチョコレート店が多い、ブルージュの象徴"
+    "ja": "「チョコレートの街」と呼ばれるほど手作りチョコレート店が多い、ブルージュの象徴",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Belgian_chocolates_assortment.JPG/960px-Belgian_chocolates_assortment.JPG",
+      "author": "BrokenSphere",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Belgian_chocolates_assortment.JPG"
+    }
   },
   "bruges:Belgian waffles": {
     "ko": "거리 가게에서 갓 구워 파는 벨기에 대표 간식",
     "en": "Belgium’s classic snack, freshly baked at street stalls",
-    "ja": "街の店で焼きたてを売るベルギー定番のおやつ"
+    "ja": "街の店で焼きたてを売るベルギー定番のおやつ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Belgian_Waffle_served_at_Brasserie_Resto_Sandwiches%2C_Bruges%2C_Belgium.jpg/960px-Belgian_Waffle_served_at_Brasserie_Resto_Sandwiches%2C_Bruges%2C_Belgium.jpg",
+      "author": "Stck w",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Belgian_Waffle_served_at_Brasserie_Resto_Sandwiches,_Bruges,_Belgium.jpg"
+    }
   },
   "bruges:Belgian fries": {
     "ko": "두 번 튀겨 바삭한 벨기에식 감자튀김으로, 마르크트 광장 노점이 유명합니다",
     "en": "Twice-fried Belgian fries; the stalls on the Markt are famous",
-    "ja": "二度揚げでカリッとしたベルギー式フライドポテトで、マルクト広場の屋台が有名"
+    "ja": "二度揚げでカリッとしたベルギー式フライドポテトで、マルクト広場の屋台が有名",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Belgian_frites_with_andalouse_sauce.jpg/960px-Belgian_frites_with_andalouse_sauce.jpg",
+      "author": "anders pearson",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Belgian_frites_with_andalouse_sauce.jpg"
+    }
   },
   "bruges:Belgian beer": {
     "ko": "시내 양조장에서 만든 맥주를 맛볼 수 있는 맥주의 도시",
     "en": "A beer city where you can taste brews made right in town",
-    "ja": "街中の醸造所で造られたビールが味わえるビールの街"
+    "ja": "街中の醸造所で造られたビールが味わえるビールの街",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Belgian_beer_glass.jpg/960px-Belgian_beer_glass.jpg",
+      "author": "Egien (Arthur Maniet)",
+      "license": "CC BY 2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:Belgian_beer_glass.jpg"
+    }
   },
   "frankfurt:Frankfurt green sauce": {
     "ko": "일곱 가지 허브로 만든 차가운 초록 소스로, 삶은 달걀·감자와 먹는 프랑크푸르트 대표 음식",
@@ -3488,22 +3638,46 @@
   "berlin:Currywurst": {
     "ko": "소시지에 커리 케첩을 뿌린 베를린의 가장 인기 있는 길거리 음식",
     "en": "Sausage with curry ketchup — Berlin’s favourite street food",
-    "ja": "ソーセージにカレーケチャップをかけた、ベルリンで一番人気の屋台料理"
+    "ja": "ソーセージにカレーケチャップをかけた、ベルリンで一番人気の屋台料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Original_Berliner_Currywurst.jpg/960px-Original_Berliner_Currywurst.jpg",
+      "author": "Richard Mischau; Britta Mischau",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Original_Berliner_Currywurst.jpg"
+    }
   },
   "berlin:Döner kebab": {
     "ko": "베를린의 튀르키예계 이민 문화에서 자리 잡은 독일식 되너",
     "en": "A German-Turkish fusion classic rooted in Berlin’s Turkish community",
-    "ja": "ベルリンのトルコ系移民文化から根付いたドイツ風ドネル"
+    "ja": "ベルリンのトルコ系移民文化から根付いたドイツ風ドネル",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/D%C3%B6ner_kebap.jpg/960px-D%C3%B6ner_kebap.jpg",
+      "author": "FrugalGlutton.com",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:D%C3%B6ner_kebap.jpg"
+    }
   },
   "berlin:Berliner Pfannkuchen": {
     "ko": "잼을 채운 동그란 도넛으로, 베를린 빵집마다 다양한 맛이 있습니다",
     "en": "Jam-filled doughnuts sold in many varieties at Berlin bakeries",
-    "ja": "ジャム入りの丸いドーナツで、ベルリンのパン屋ごとにいろいろな味があります"
+    "ja": "ジャム入りの丸いドーナツで、ベルリンのパン屋ごとにいろいろな味があります",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/BerlinerPfannkuchenVarianten.jpg/960px-BerlinerPfannkuchenVarianten.jpg",
+      "author": "Lear 21",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:BerlinerPfannkuchenVarianten.jpg"
+    }
   },
   "berlin:Eisbein": {
     "ko": "소금에 절여 삶은 돼지 족발로, 사워크라우트와 함께 먹는 베를린 전통 요리",
     "en": "Cured, boiled pork knuckle served with sauerkraut, a Berlin classic",
-    "ja": "塩漬けにして茹でた豚すね肉で、ザワークラウトと食べるベルリンの伝統料理"
+    "ja": "塩漬けにして茹でた豚すね肉で、ザワークラウトと食べるベルリンの伝統料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/240612_Eisbein_mit_Sauerkraut_und_Bratkartoffeln_Restaurant_St%C3%A4ndige_Vertretung_Berlin_anagoria.jpg/960px-240612_Eisbein_mit_Sauerkraut_und_Bratkartoffeln_Restaurant_St%C3%A4ndige_Vertretung_Berlin_anagoria.jpg",
+      "author": "Anagoria",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:240612_Eisbein_mit_Sauerkraut_und_Bratkartoffeln_Restaurant_St%C3%A4ndige_Vertretung_Berlin_anagoria.jpg"
+    }
   },
   "riga:Grey peas with bacon": {
     "ko": "회색 완두콩을 베이컨과 볶은 요리로, 크리스마스 식탁에도 오르는 라트비아 대표 음식",

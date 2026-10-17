@@ -1971,6 +1971,78 @@
     "note": "GPT 수집"
   },
   {
+    "cityId": "berlin",
+    "nameKo": "커리부어스트",
+    "nameEn": "Currywurst",
+    "reason": "소시지에 커리 케첩을 뿌린 베를린의 가장 인기 있는 길거리 음식",
+    "reasonEn": "Sausage with curry ketchup — Berlin’s favourite street food",
+    "desc": {
+      "ko": "소시지에 커리 케첩을 뿌린 베를린의 가장 인기 있는 길거리 음식",
+      "en": "Sausage with curry ketchup — Berlin’s favourite street food",
+      "ja": "ソーセージにカレーケチャップをかけた、ベルリンで一番人気の屋台料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "berlin.de",
+    "recommendUrl": "https://www.berlin.de/en/tourism/insider-tips/5150899-5766508-berlin-specialties-must-try.en.html",
+    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+  },
+  {
+    "cityId": "berlin",
+    "nameKo": "되너 케밥",
+    "nameEn": "Döner kebab",
+    "reason": "베를린의 튀르키예계 이민 문화에서 자리 잡은 독일식 되너",
+    "reasonEn": "A German-Turkish fusion classic rooted in Berlin’s Turkish community",
+    "desc": {
+      "ko": "베를린의 튀르키예계 이민 문화에서 자리 잡은 독일식 되너",
+      "en": "A German-Turkish fusion classic rooted in Berlin’s Turkish community",
+      "ja": "ベルリンのトルコ系移民文化から根付いたドイツ風ドネル"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "berlin.de",
+    "recommendUrl": "https://www.berlin.de/en/tourism/insider-tips/5150899-5766508-berlin-specialties-must-try.en.html",
+    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+  },
+  {
+    "cityId": "berlin",
+    "nameKo": "베를리너 판쿠헨",
+    "nameEn": "Berliner Pfannkuchen",
+    "reason": "잼을 채운 동그란 도넛으로, 베를린 빵집마다 다양한 맛이 있습니다",
+    "reasonEn": "Jam-filled doughnuts sold in many varieties at Berlin bakeries",
+    "desc": {
+      "ko": "잼을 채운 동그란 도넛으로, 베를린 빵집마다 다양한 맛이 있습니다",
+      "en": "Jam-filled doughnuts sold in many varieties at Berlin bakeries",
+      "ja": "ジャム入りの丸いドーナツで、ベルリンのパン屋ごとにいろいろな味があります"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "berlin.de",
+    "recommendUrl": "https://www.berlin.de/en/tourism/insider-tips/5150899-5766508-berlin-specialties-must-try.en.html",
+    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+  },
+  {
+    "cityId": "berlin",
+    "nameKo": "아이스바인",
+    "nameEn": "Eisbein",
+    "reason": "소금에 절여 삶은 돼지 족발로, 사워크라우트와 함께 먹는 베를린 전통 요리",
+    "reasonEn": "Cured, boiled pork knuckle served with sauerkraut, a Berlin classic",
+    "desc": {
+      "ko": "소금에 절여 삶은 돼지 족발로, 사워크라우트와 함께 먹는 베를린 전통 요리",
+      "en": "Cured, boiled pork knuckle served with sauerkraut, a Berlin classic",
+      "ja": "塩漬けにして茹でた豚すね肉で、ザワークラウトと食べるベルリンの伝統料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "berlin.de",
+    "recommendUrl": "https://www.berlin.de/en/tourism/insider-tips/5150899-5766508-berlin-specialties-must-try.en.html",
+    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+  },
+  {
     "cityId": "boracay",
     "nameKo": "레촌",
     "nameEn": "Lechon",
@@ -3377,6 +3449,78 @@
     "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
   },
   {
+    "cityId": "frankfurt",
+    "nameKo": "그뤼네 조세(초록 소스)",
+    "nameEn": "Frankfurt green sauce",
+    "reason": "일곱 가지 허브로 만든 차가운 초록 소스로, 삶은 달걀·감자와 먹는 프랑크푸르트 대표 음식",
+    "reasonEn": "Frankfurt’s signature cold sauce of seven herbs, eaten with boiled eggs and potatoes",
+    "desc": {
+      "ko": "일곱 가지 허브로 만든 차가운 초록 소스로, 삶은 달걀·감자와 먹는 프랑크푸르트 대표 음식",
+      "en": "Frankfurt’s signature cold sauce of seven herbs, eaten with boiled eggs and potatoes",
+      "ja": "7種類のハーブで作る冷たい緑のソースで、ゆで卵やじゃがいもと食べるフランクフルト名物"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "visitfrankfurt.travel",
+    "recommendUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+  },
+  {
+    "cityId": "frankfurt",
+    "nameKo": "사과 와인(아펠바인)",
+    "nameEn": "Apfelwein",
+    "reason": "회색 도기 주전자 「벰벨」에 담아 마시는 새콤한 사과 와인",
+    "reasonEn": "Tart apple wine poured from the grey stoneware “Bembel” jug",
+    "desc": {
+      "ko": "회색 도기 주전자 「벰벨」에 담아 마시는 새콤한 사과 와인",
+      "en": "Tart apple wine poured from the grey stoneware “Bembel” jug",
+      "ja": "灰色の陶器の水差し「ベンベル」で注ぐ酸味のあるアップルワイン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "visitfrankfurt.travel",
+    "recommendUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+  },
+  {
+    "cityId": "frankfurt",
+    "nameKo": "한트케제 미트 무지크",
+    "nameEn": "Handkäs mit Musik",
+    "reason": "양파 식초 소스에 재운 시큼한 치즈로, 사과 와인 주점의 단골 안주",
+    "reasonEn": "Sour-milk cheese marinated in an onion vinaigrette, a staple of apple-wine taverns",
+    "desc": {
+      "ko": "양파 식초 소스에 재운 시큼한 치즈로, 사과 와인 주점의 단골 안주",
+      "en": "Sour-milk cheese marinated in an onion vinaigrette, a staple of apple-wine taverns",
+      "ja": "玉ねぎ入りの酢のソースに漬けた酸味のあるチーズで、アップルワイン酒場の定番"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "visitfrankfurt.travel",
+    "recommendUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+  },
+  {
+    "cityId": "frankfurt",
+    "nameKo": "프랑크푸르터 소시지",
+    "nameEn": "Frankfurter Würstchen",
+    "reason": "훈연 향이 살짝 나는 가늘고 긴 소시지로, 빵·머스터드와 함께 먹습니다",
+    "reasonEn": "Slim, lightly smoked sausages eaten with bread and mustard",
+    "desc": {
+      "ko": "훈연 향이 살짝 나는 가늘고 긴 소시지로, 빵·머스터드와 함께 먹습니다",
+      "en": "Slim, lightly smoked sausages eaten with bread and mustard",
+      "ja": "ほのかに燻製の香りがする細長いソーセージで、パンやマスタードと一緒に食べます"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "visitfrankfurt.travel",
+    "recommendUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+  },
+  {
     "cityId": "fukuoka",
     "nameKo": "하카타 돈코츠 라멘",
     "nameEn": "Hakata Tonkotsu Ramen",
@@ -3565,6 +3709,60 @@
     "recommendSource": "",
     "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "gdansk",
+    "nameKo": "피에로기(대구 소)",
+    "nameEn": "Cod pierogi",
+    "reason": "폴란드식 만두 피에로기를 발트해 대구로 채운 그단스크식",
+    "reasonEn": "Polish dumplings filled with Baltic cod, Gdańsk-style",
+    "desc": {
+      "ko": "폴란드식 만두 피에로기를 발트해 대구로 채운 그단스크식",
+      "en": "Polish dumplings filled with Baltic cod, Gdańsk-style",
+      "ja": "ポーランドの餃子ピエロギをバルト海のタラで包んだグダニスク風"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "tablejourney.com",
+    "recommendUrl": "https://tablejourney.com/poland/gdansk/signature-dishes/",
+    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+  },
+  {
+    "cityId": "gdansk",
+    "nameKo": "골트바서",
+    "nameEn": "Goldwasser",
+    "reason": "금박이 떠 있는 그단스크 전통 허브 리큐어",
+    "reasonEn": "Gdańsk’s traditional herbal liqueur with flakes of gold leaf",
+    "desc": {
+      "ko": "금박이 떠 있는 그단스크 전통 허브 리큐어",
+      "en": "Gdańsk’s traditional herbal liqueur with flakes of gold leaf",
+      "ja": "金箔が浮かぶグダニスク伝統のハーブリキュール"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "tablejourney.com",
+    "recommendUrl": "https://tablejourney.com/poland/gdansk/signature-dishes/",
+    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+  },
+  {
+    "cityId": "gdansk",
+    "nameKo": "카슈비아 생선 수프",
+    "nameEn": "Kashubian fish soup",
+    "reason": "그단스크 주변 카슈비아 지방의 생선 수프",
+    "reasonEn": "Fish soup from the Kashubian region around Gdańsk",
+    "desc": {
+      "ko": "그단스크 주변 카슈비아 지방의 생선 수프",
+      "en": "Fish soup from the Kashubian region around Gdańsk",
+      "ja": "グダニスク周辺のカシューブ地方の魚のスープ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "tablejourney.com",
+    "recommendUrl": "https://tablejourney.com/poland/gdansk/signature-dishes/",
+    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
   },
   {
     "cityId": "guam",
@@ -7050,6 +7248,80 @@
     "recommendSource": "Visit Iceland",
     "recommendUrl": "https://www.visiticeland.com/enjoy-icelandic-food/",
     "note": "관광청 공식 안내 기준(Claude 크롬 2026-10-15)"
+  },
+  {
+    "cityId": "riga",
+    "nameKo": "회색 완두콩과 베이컨",
+    "nameEn": "Grey peas with bacon",
+    "reason": "큼직한 회색 완두콩을 베이컨·양파와 볶은 라트비아 대표 음식",
+    "reasonEn": "Latvia’s national dish of large grey peas fried with bacon and onion",
+    "desc": {
+      "ko": "큼직한 회색 완두콩을 베이컨·양파와 볶은 라트비아 대표 음식",
+      "en": "Latvia’s national dish of large grey peas fried with bacon and onion",
+      "ja": "大粒の灰色エンドウ豆をベーコンや玉ねぎと炒めたラトビアの代表料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "tablejourney.com",
+    "recommendUrl": "https://tablejourney.com/latvia/riga/signature-dishes/",
+    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+  },
+  {
+    "cityId": "riga",
+    "nameKo": "감자 팬케이크",
+    "nameEn": "Potato pancakes",
+    "reason": "사워크림을 곁들여 먹는 라트비아식 감자전",
+    "reasonEn": "Latvian potato pancakes served with sour cream",
+    "desc": {
+      "ko": "사워크림을 곁들여 먹는 라트비아식 감자전",
+      "en": "Latvian potato pancakes served with sour cream",
+      "ja": "サワークリームを添えて食べるラトビア風ポテトパンケーキ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "RIX-FD-101"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "tablejourney.com",
+    "recommendUrl": "https://tablejourney.com/latvia/riga/signature-dishes/",
+    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+  },
+  {
+    "cityId": "riga",
+    "nameKo": "라트비아 호밀빵",
+    "nameEn": "Latvian rye bread",
+    "reason": "천천히 발효해 굽는 짙은 색의 호밀빵으로, 라트비아 식탁의 기본",
+    "reasonEn": "Dense, slow-fermented dark rye bread, a staple of every Latvian table",
+    "desc": {
+      "ko": "천천히 발효해 굽는 짙은 색의 호밀빵으로, 라트비아 식탁의 기본",
+      "en": "Dense, slow-fermented dark rye bread, a staple of every Latvian table",
+      "ja": "じっくり発酵させて焼く黒いライ麦パンで、ラトビアの食卓の基本"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "tablejourney.com",
+    "recommendUrl": "https://tablejourney.com/latvia/riga/signature-dishes/",
+    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+  },
+  {
+    "cityId": "riga",
+    "nameKo": "리가 블랙 발삼",
+    "nameEn": "Riga Black Balsam",
+    "reason": "여러 허브를 넣어 만든 리가의 진한 약초 술",
+    "reasonEn": "Riga’s strong, dark herbal liqueur",
+    "desc": {
+      "ko": "여러 허브를 넣어 만든 리가의 진한 약초 술",
+      "en": "Riga’s strong, dark herbal liqueur",
+      "ja": "さまざまなハーブで造るリガの濃厚な薬草酒"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "tablejourney.com",
+    "recommendUrl": "https://tablejourney.com/latvia/riga/signature-dishes/",
+    "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
   },
   {
     "cityId": "rome",

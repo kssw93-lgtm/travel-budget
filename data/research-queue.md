@@ -161,10 +161,19 @@
 | 탈린 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 에든버러 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 에든버러 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 프랑크푸르트 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 프랑크푸르트 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 베를린 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 베를린 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 취리히 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 취리히 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 바젤 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 바젤 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 리가 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 리가 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 그단스크 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 그단스크 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 그단스크 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 브뤼헤 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 브뤼헤 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -675,6 +684,48 @@
 | TLL-AT-104 | 탈린 | 카드리오르그 미술관(할인) | 10 EUR | A | 조건부 | 조건부, 재검증 | [Art Museum of Estonia 공식](https://kunstimuuseum.ekm.ee/en/tickets-museum/#kadriorg-art-museum) |
 | CAI-FD-103 | 카이로 | 알 베이루티 치킨 샤와르마(감자튀김 포함) | 455 EGP | A | 조건부 | 조건부, 재검증 | [Al Beiruti Egypt 공식](https://www.albeiruti.com/menu/egypt) |
 | EDI-FD-511 | 에든버러 | 킹피셔 맥주 330ml(Dishoom) | 6.7 GBP | A | 예 | 재검증 | [Dishoom Edinburgh 공식](https://www.dishoom.com/menu/drinks-edinburgh/) |
+| FRA-TR-101 | 프랑크푸르트 | 시내 1회권(요금구역 5000) | 3.8 EUR | A | 예 | 재검증 | [RMV 공식](https://www.rmv.de/c/de/tickets/sortiment/tickets-im-ueberblick/einzelpersonen/einzelfahrkarte) |
+| FRA-TR-102 | 프랑크푸르트 | 시내 1회권(요금구역 5000, 아동) | 1.55 EUR | A | 예 | 재검증 | [RMV 공식](https://www.rmv.de/c/de/tickets/sortiment/tickets-im-ueberblick/einzelpersonen/einzelfahrkarte) |
+| FRA-AT-101 | 프랑크푸르트 | 슈테델 미술관 | 19 EUR | A | 예 | 재검증 | [Städel Museum 공식](https://www.staedelmuseum.de/de/besuch/ticket-informationen) |
+| FRA-AT-102 | 프랑크푸르트 | 슈테델 미술관(12세 미만) | 0 EUR | A | 예 | 재검증 | [Städel Museum 공식](https://www.staedelmuseum.de/de/besuch/ticket-informationen) |
+| FRA-AT-103 | 프랑크푸르트 | 마인 타워 전망대 | 9 EUR | A | 예 | 재검증 | [MAIN TOWER 공식](https://www.maintower.de/eintrittspreise-oeffnungszeiten/) |
+| FRA-AT-104 | 프랑크푸르트 | 마인 타워 전망대(16세 미만) | 6 EUR | A | 예 | 재검증 | [MAIN TOWER 공식](https://www.maintower.de/eintrittspreise-oeffnungszeiten/) |
+| FRA-AT-105 | 프랑크푸르트 | 프랑크푸르트 대성당 탑 | 3 EUR | A | 예 | 재검증 | [Dommuseum Frankfurt 공식](https://dommuseum-frankfurt.de/fuehrungen/domturm) |
+| FRA-AT-106 | 프랑크푸르트 | 프랑크푸르트 대성당 탑(할인) | 2 EUR | A | 조건부 | 조건부, 재검증 | [Dommuseum Frankfurt 공식](https://dommuseum-frankfurt.de/fuehrungen/domturm) |
+| BER-TR-101 | 베를린 | 시내 1회권 AB | 4 EUR | A | 예 | 재검증 | [BVG 공식](https://www.bvg.de/de/abos-und-tickets/alle-tickets/einzelfahrscheine/einzelfahrausweis) |
+| BER-TR-102 | 베를린 | 시내 1회권 AB(6~14세) | 2.5 EUR | A | 예 | 재검증 | [BVG 공식](https://www.bvg.de/de/abos-und-tickets/alle-tickets/einzelfahrscheine/einzelfahrausweis) |
+| BER-AT-101 | 베를린 | 신 박물관(박물관 섬) | 14 EUR | A | 예 | 재검증 | [Staatliche Museen zu Berlin 공식](https://www.smb.museum/museen-einrichtungen/neues-museum/besuch-planen/preise-tickets/) |
+| BER-AT-102 | 베를린 | 신 박물관(18세 미만) | 0 EUR | A | 예 | 재검증 | [Staatliche Museen zu Berlin 공식](https://www.smb.museum/museen-einrichtungen/neues-museum/besuch-planen/ermaessigungen-freier-eintritt/) |
+| BER-AT-103 | 베를린 | DDR 박물관 | 13.9 EUR | A | 예 | 재검증 | [DDR Museum 공식](https://www.ddr-museum.de/de/besuch) |
+| BER-AT-104 | 베를린 | DDR 박물관(6세 이상 아동) | 8.5 EUR | A | 예 | 재검증, 시작가 표기 | [DDR Museum 공식](https://www.ddr-museum.de/de/besuch) |
+| BER-AT-105 | 베를린 | 독일 역사 박물관 통합권 | 10 EUR | A | 예 | 재검증 | [Deutsches Historisches Museum 공식](https://www.dhm.de/besuch/preise-und-tickets) |
+| BER-AT-106 | 베를린 | 독일 역사 박물관(18세까지) | 0 EUR | A | 예 | 재검증 | [Deutsches Historisches Museum 공식](https://www.dhm.de/besuch/preise-und-tickets) |
+| RIX-FD-101 | 리가 | 감자 팬케이크와 사워크림(Liberta) | 7.9 EUR | A | 예 | 재검증 | [Restorāns Liberta 공식](https://libertariga.lv/lv/menu) |
+| RIX-FD-102 | 리가 | 바질 페스토 송아지고기 파스타(B Bārs) | 17 EUR | A | 예 | 재검증 | [B Bārs 공식](https://bbars.lv/edienkarte-restorans-vecriga-b-bars-restorans-restorans-riga/) |
+| RIX-FD-103 | 리가 | 사슴고기·꾀꼬리버섯 수제 파스타(Pētergailis) | 18 EUR | A | 예 | 재검증 | [Restorāns Pētergailis 공식](https://petergailis.com/edienkarte/) |
+| RIX-SN-101 | 리가 | 바우스카스 크바스 500ml(Liberta) | 3.9 EUR | A | 예 | 재검증 | [Restorāns Liberta 공식](https://libertariga.lv/lv/drinks) |
+| RIX-SN-102 | 리가 | 카푸치노(Pētergailis) | 3.7 EUR | A | 예 | 재검증 | [Restorāns Pētergailis 공식](https://petergailis.com/edienkarte/) |
+| RIX-SN-103 | 리가 | 리가 블랙 매직 트러플 1개 | 2.6 EUR | A | 예 | 재검증 | [Riga Black Magic 공식](https://www.blackmagic.lv/wp-content/uploads/2025/12/Menu2026-1.webp) |
+| RIX-AL-101 | 리가 | 피에발가스 생맥주 400ml(Pētergailis) | 6 EUR | A | 예 | 재검증 | [Restorāns Pētergailis 공식](https://petergailis.com/edienkarte/) |
+| RIX-AL-102 | 리가 | 하이네켄 병맥주 0.33L(Liberta) | 5 EUR | A | 예 | 재검증 | [Restorāns Liberta 공식](https://libertariga.lv/lv/drinks) |
+| RIX-AL-103 | 리가 | 메주필스 맥주 0.5L(Riga Black Magic) | 6.2 EUR | A | 예 | 재검증 | [Riga Black Magic 공식](https://www.blackmagic.lv/wp-content/uploads/2025/12/Menu2026-6.webp) |
+| RIX-TR-101 | 리가 | 90분권 | 1.5 EUR | A | 예 | 재검증 | [LiveRiga 공식(리가 시 관광청)](https://www.liveriga.com/en/17-public-transportation/) |
+| RIX-TR-102 | 리가 | 24시간권 | 5 EUR | A | 예 | 재검증 | [LiveRiga 공식(리가 시 관광청)](https://www.liveriga.com/en/17-public-transportation/) |
+| RIX-AT-101 | 리가 | 리가 대성당 | 5 EUR | A | 예 | 재검증 | [Rīgas Doms 공식](https://doms.lv/lapas/47) |
+| RIX-AT-102 | 리가 | 리가 대성당(11~18세) | 3 EUR | A | 예 | 재검증 | [Rīgas Doms 공식](https://doms.lv/lapas/47) |
+| RIX-AT-103 | 리가 | 성 베드로 교회 탑·교회 | 9 EUR | A | 예 | 재검증 | [Rīgas Sv. Pētera baznīca 공식](https://svpetera.lv/wp-content/uploads/2024/09/Biletes_page-0001-1-1.jpg) |
+| RIX-AT-104 | 리가 | 성 베드로 교회 탑·교회(8~18세) | 3 EUR | A | 예 | 재검증 | [Rīgas Sv. Pētera baznīca 공식](https://svpetera.lv/wp-content/uploads/2024/09/Biletes_page-0001-1-1.jpg) |
+| RIX-AT-105 | 리가 | 라트비아 국립미술관 상설전 | 7 EUR | A | 예 | 재검증 | [LNMM 공식(lnmm.gov.lv)](https://lnmm.gov.lv/latvijas-nacionalais-makslas-muzejs/apmekle/cenas-lnmm) |
+| RIX-AT-106 | 리가 | 라트비아 국립미술관 상설전(학생) | 3.5 EUR | A | 조건부 | 조건부, 재검증 | [LNMM 공식(lnmm.gov.lv)](https://lnmm.gov.lv/latvijas-nacionalais-makslas-muzejs/apmekle/cenas-lnmm) |
+| GDN-TR-101 | 그단스크 | 1회 승차권 | 4.8 PLN | A | 예 | 재검증 | [ZTM Gdańsk 공식](https://ztm.gda.pl/bilety/bilety-jednorazowe,a,3019) |
+| GDN-TR-102 | 그단스크 | 75분권 | 6 PLN | A | 예 | 재검증 | [ZTM Gdańsk 공식](https://ztm.gda.pl/bilety/bilety-jednorazowe,a,3019) |
+| GDN-TR-103 | 그단스크 | 24시간권 | 22 PLN | A | 예 | 재검증 | [ZTM Gdańsk 공식](https://ztm.gda.pl/bilety/bilety-jednorazowe,a,3019) |
+| GDN-AT-101 | 그단스크 | 제2차 세계대전 박물관 | 33 PLN | A | 예 | 재검증 | [Muzeum II Wojny Światowej 공식](https://www.muzeum1939.pl/wizyta/wizyta-miiws/bilety-i-cennik) |
+| GDN-AT-102 | 그단스크 | 제2차 세계대전 박물관(할인) | 23 PLN | A | 조건부 | 조건부, 재검증 | [Muzeum II Wojny Światowej 공식](https://www.muzeum1939.pl/wizyta/wizyta-miiws/bilety-i-cennik) |
+| GDN-AT-103 | 그단스크 | 성모 마리아 대성당 전망탑 | 20 PLN | A | 조건부 | 조건부, 재검증 | [Bazylika Mariacka 공식](https://bazylikamariacka.gdansk.pl/bazylika/informacja-dla-turystow/) |
+| GDN-AT-104 | 그단스크 | 성모 마리아 대성당 전망탑(할인) | 10 PLN | A | 조건부 | 조건부, 재검증 | [Bazylika Mariacka 공식](https://bazylikamariacka.gdansk.pl/bazylika/informacja-dla-turystow/) |
+| GDN-AT-105 | 그단스크 | 유럽 연대 센터 상설전 | 40 PLN | A | 예 | 재검증 | [Europejskie Centrum Solidarności 공식](https://bilety.ecs.gda.pl/index/cennik.html) |
+| GDN-AT-106 | 그단스크 | 유럽 연대 센터 상설전(할인) | 35 PLN | A | 조건부 | 조건부, 재검증 | [Europejskie Centrum Solidarności 공식](https://bilety.ecs.gda.pl/index/cennik.html) |
 | SPN-AT-101 | 사이판 | 마나가하 섬 상륙료(비거주자) | 5 USD | A | 조건부 | 조건부, 재검증 | [CNMI Law Revision Commission – Commonwealth Code 2 CMC § 1621](https://cnmilaw.gov/commonwealth-code/1598) |
 | BUD-AT-301 | 부다페스트 | 세체니 온천 1일권(라커 포함) | 13200~15800 HUF | A | 예 | 재검증 | [Széchenyi Thermal Bath](https://www.szechenyibath.hu/prices) |
 | MUC-AT-301 | 뮌헨 | 독일박물관 1일권(성인) | 16 EUR | A | 예 | 재검증 | [Deutsches Museum](https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets) |

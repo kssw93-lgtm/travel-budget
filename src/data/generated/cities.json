@@ -877,7 +877,7 @@
     "nameEn": "Frankfurt",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "berlin",
@@ -887,7 +887,7 @@
     "nameEn": "Berlin",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "zurich",
@@ -917,7 +917,7 @@
     "nameEn": "Riga",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "gdansk",
@@ -927,7 +927,7 @@
     "nameEn": "Gdansk",
     "currency": "PLN",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "bruges",

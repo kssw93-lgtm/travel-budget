@@ -19,7 +19,11 @@
     "preview": "vite preview",
     "adsense:check": "tsx scripts/adsense-check.ts",
     "deploy:check": "npm run build && wrangler deploy --dry-run --outdir .wrangler/dry-run",
-    "verify": "npm run data:convert && npm run lint && npm run typecheck && npm test && npm run build && npm run test:e2e && wrangler deploy --dry-run --outdir .wrangler/dry-run"
+    "verify": "npm run data:convert && npm run lint && npm run typecheck && npm test && npm run build && npm run test:e2e && wrangler deploy --dry-run --outdir .wrangler/dry-run",
+    "import:food-sources": "tsx scripts/import-food-sources.ts",
+    "import:food-photos": "tsx scripts/import-food-photos.ts",
+    "import:guide-sources": "tsx scripts/import-guide-sources.ts",
+    "apply:guide-fixes": "tsx scripts/apply-guide-fixes.ts"
   },
   "dependencies": {
     "react": "^18.3.1",

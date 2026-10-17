@@ -413,5 +413,145 @@
     "name": "Visit Lisboa",
     "url": "https://www.visitlisboa.com/pt-pt/p/lisbon-flavours/especialidades/pastel-de-nata",
     "checkedAt": "2026-10-17"
+  },
+  "lisbon:Bifana": {
+    "name": "Turismo de Portugal (Visit Portugal)",
+    "url": "https://www.visitportugal.com/en/content/time-to-taste-portugal",
+    "checkedAt": "2026-10-17"
+  },
+  "lisbon:Caldo verde": {
+    "name": "Turismo de Portugal (Visit Portugal)",
+    "url": "https://www.visitportugal.com/en/content/time-to-taste-portugal",
+    "checkedAt": "2026-10-17"
+  },
+  "lisbon:Sardinhas assadas": {
+    "name": "Turismo de Lisboa (Visit Lisboa)",
+    "url": "https://www.visitlisboa.com/en/p/lisbon-flavours/gastronomy/grilled-sardines",
+    "checkedAt": "2026-10-17"
+  },
+  "macau:Portuguese Egg Tart": {
+    "name": "Macao Government Tourism Office",
+    "url": "https://www.macaotourism.gov.mo/en/dining/taste-of-macao/macanese-and-portuguese-dishes",
+    "checkedAt": "2026-10-17"
+  },
+  "macau:Pork Chop Bun": {
+    "name": "Macao Government Tourism Office",
+    "url": "https://www.macaotourism.gov.mo/en/dining/taste-of-macao/local-food",
+    "checkedAt": "2026-10-17"
+  },
+  "macau:African Chicken": {
+    "name": "Macao Government Tourism Office",
+    "url": "https://www.macaotourism.gov.mo/en/dining/taste-of-macao/macanese-and-portuguese-dishes",
+    "checkedAt": "2026-10-17"
+  },
+  "macau:Wonton Noodles": {
+    "name": "Macao Government Tourism Office",
+    "url": "https://www.macaotourism.gov.mo/en/dining/taste-of-macao/local-food",
+    "checkedAt": "2026-10-17"
+  },
+  "munich:Weißwurst": {
+    "name": "Munich Tourism (einfach München)",
+    "url": "https://www.munich.travel/artikel/essen-trinken/bayrisch-essen",
+    "checkedAt": "2026-10-17"
+  },
+  "munich:Schweinebraten": {
+    "name": "Munich Tourism (einfach München)",
+    "url": "https://www.munich.travel/artikel/essen-trinken/bayrisch-essen",
+    "checkedAt": "2026-10-17"
+  },
+  "munich:Leberkässemmel": {
+    "name": "Munich Tourism (einfach München)",
+    "url": "https://www.munich.travel/artikel/stadt-viertel/viertelliebe-muenchen/altstadt-auf-die-hand",
+    "checkedAt": "2026-10-17"
+  },
+  "munich:Käsespätzle": {
+    "name": "Munich Tourism (einfach München)",
+    "url": "https://www.munich.travel/artikel/essen-trinken/bayrisch-essen",
+    "checkedAt": "2026-10-17"
+  },
+  "nagoya:Hitsumabushi": {
+    "name": "Visit Nagoya (Nagoya Convention & Visitors Bureau)",
+    "url": "https://www.nagoya-info.jp/en/gourmet/",
+    "checkedAt": "2026-10-17"
+  },
+  "nagoya:Miso Katsu": {
+    "name": "Visit Nagoya (Nagoya Convention & Visitors Bureau)",
+    "url": "https://www.nagoya-info.jp/en/gourmet/",
+    "checkedAt": "2026-10-17"
+  },
+  "nagoya:Tebasaki": {
+    "name": "Visit Nagoya (Nagoya Convention & Visitors Bureau)",
+    "url": "https://www.nagoya-info.jp/en/gourmet/",
+    "checkedAt": "2026-10-17"
+  },
+  "nagoya:Miso Nikomi Udon": {
+    "name": "Visit Nagoya (Nagoya Convention & Visitors Bureau)",
+    "url": "https://www.nagoya-info.jp/en/gourmet/",
+    "checkedAt": "2026-10-17"
+  },
+  "nha-trang:Banh Can": {
+    "name": "Vietnam Tourism (Vietnam National Authority of Tourism)",
+    "url": "https://vietnam.travel/node/1333",
+    "checkedAt": "2026-10-17"
+  },
+  "nha-trang:Grilled Seafood": {
+    "name": "Vietnam Tourism (Vietnam National Authority of Tourism)",
+    "url": "https://vietnam.travel/things-to-do/phu-quoc-specialty-seafood",
+    "checkedAt": "2026-10-17"
+  },
+  "nuremberg:Nürnberger Rostbratwurst": {
+    "name": "Tourismus Nürnberg",
+    "url": "https://tourismus.nuernberg.de/geniessen/spezialitaeten/",
+    "checkedAt": "2026-10-17"
+  },
+  "nuremberg:Lebkuchen": {
+    "name": "Tourismus Nürnberg",
+    "url": "https://tourismus.nuernberg.de/geniessen/spezialitaeten/",
+    "checkedAt": "2026-10-17"
+  },
+  "nuremberg:Schäufele": {
+    "name": "Tourismus Nürnberg",
+    "url": "https://tourismus.nuernberg.de/geniessen/spezialitaeten/fraenkische-spezialitaeten/ofenfrisches-schaeufele/",
+    "checkedAt": "2026-10-17"
+  },
+  "okinawa:Okinawa Soba": {
+    "name": "Okinawa Tourism Information WEB Site (Okinawa Story)",
+    "url": "https://www.okinawastory.jp/feature/food/",
+    "checkedAt": "2026-10-17"
+  },
+  "okinawa:Goya Champuru": {
+    "name": "Okinawa Tourism Information WEB Site (Okinawa Story)",
+    "url": "https://www.okinawastory.jp/feature/food/",
+    "checkedAt": "2026-10-17"
+  },
+  "okinawa:Taco Rice": {
+    "name": "Okinawa Tourism Information WEB Site (Okinawa Story)",
+    "url": "https://www.okinawastory.jp/feature/food/",
+    "checkedAt": "2026-10-17"
+  },
+  "phu-quoc:Bun Quay": {
+    "name": "Vietnam Tourism (Vietnam National Authority of Tourism)",
+    "url": "https://vietnam.travel/things-to-do/phu-quoc-signature-noodle-bun-quay",
+    "checkedAt": "2026-10-17"
+  },
+  "phu-quoc:Goi Ca Trich": {
+    "name": "Vietnam Tourism (Vietnam National Authority of Tourism)",
+    "url": "https://vietnam.travel/things-to-do/phu-quoc-specialty-seafood",
+    "checkedAt": "2026-10-17"
+  },
+  "phu-quoc:Grilled Seafood": {
+    "name": "Vietnam Tourism (Vietnam National Authority of Tourism)",
+    "url": "https://vietnam.travel/things-to-do/phu-quoc-specialty-seafood",
+    "checkedAt": "2026-10-17"
+  },
+  "prague:Svíčková": {
+    "name": "CzechTourism (VisitCzechia)",
+    "url": "https://www.visitczechia.com/en-us/things-to-do/places/gastronomic-tourism/czech-cuisine-and-regional-products/g-svickova-na-smetane",
+    "checkedAt": "2026-10-17"
+  },
+  "prague:Guláš": {
+    "name": "CzechTourism (VisitCzechia)",
+    "url": "https://www.visitczechia.com/en-us/b2b/usa/press-and-media/press-releases/2025/czech-pub-specialties-iconic-dishes-you-cant-miss",
+    "checkedAt": "2026-10-17"
   }
 }

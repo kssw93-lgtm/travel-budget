@@ -2861,6 +2861,12 @@
       "en": "Thin Alsatian flatbread with cream, onion and bacon",
       "ja": "薄い生地にクリーム・玉ねぎ・ベーコンをのせて焼いたアルザスの薄焼き"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Tarte_flamb%C3%A9e.jpg/960px-Tarte_flamb%C3%A9e.jpg",
+      "author": "Will Bakker",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tarte_flamb%C3%A9e.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2878,6 +2884,12 @@
       "ko": "특유의 틀에 구운 건포도가 든 알자스 빵",
       "en": "Raisin bread baked in a distinctive fluted mould",
       "ja": "独特の型で焼くレーズン入りのアルザスのパン"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Kougelhopf.jpg/960px-Kougelhopf.jpg",
+      "author": "CaHeSo",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kougelhopf.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -2897,6 +2909,12 @@
       "en": "Rye roll with aged Gouda, onion and mustard (no chicken despite the name)",
       "ja": "ライ麦パンに熟成ゴーダ・玉ねぎ・マスタードを添えたケルンの軽食（鶏肉ではない）"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/2018-10-28-Halve_Hahn-9087.jpg/960px-2018-10-28-Halve_Hahn-9087.jpg",
+      "author": "Superbass",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:2018-10-28-Halve_Hahn-9087.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2914,6 +2932,12 @@
       "ko": "으깬 감자와 사과 소스에 블러드 소시지·볶은 양파를 올린 요리",
       "en": "Mashed potato and apple sauce with black pudding and fried onions",
       "ja": "マッシュポテトとアップルソースにブラッドソーセージと炒め玉ねぎをのせた料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Himmel_un_%C3%84%C3%A4d.JPG/960px-Himmel_un_%C3%84%C3%A4d.JPG",
+      "author": "AlexOk",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Himmel_un_%C3%84%C3%A4d.JPG"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],
@@ -2933,6 +2957,12 @@
       "en": "Crisp grated-potato pancakes served with apple sauce",
       "ja": "すりおろしたじゃがいもをカリッと焼いたパンケーキ、アップルソース添え"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Reibekuchen_mit_Apfelmus.jpg/960px-Reibekuchen_mit_Apfelmus.jpg",
+      "author": "Martin van Baal",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Reibekuchen_mit_Apfelmus.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2950,6 +2980,12 @@
       "ko": "호밀빵 위에 청어·새우·로스트비프 등을 올린 오픈 샌드위치",
       "en": "Open sandwiches on rye with herring, shrimp or roast beef",
       "ja": "ライ麦パンにニシンやエビをのせたオープンサンド"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Sm%C3%B8rrebr%C3%B8d_on_table.jpg/960px-Sm%C3%B8rrebr%C3%B8d_on_table.jpg",
+      "author": "Nillerdk",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sm%C3%B8rrebr%C3%B8d_on_table.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],
@@ -2969,6 +3005,12 @@
       "en": "Flaky buttery Danish pastry",
       "ja": "バターを重ねて焼いたデンマークのパン"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Wienerbr%C3%B8d_01.jpg/960px-Wienerbr%C3%B8d_01.jpg",
+      "author": "RhinoMind",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Wienerbr%C3%B8d_01.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2986,6 +3028,12 @@
       "ko": "거리 노점에서 파는 덴마크식 핫도그",
       "en": "Danish hot dog from street stands",
       "ja": "屋台で売られるデンマーク風ホットドッグ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/P%C3%B8lse_med_br%C3%B8d_(5674879367).jpg/960px-P%C3%B8lse_med_br%C3%B8d_(5674879367).jpg",
+      "author": "cyclonebill",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:P%C3%B8lse_med_br%C3%B8d_%285674879367%29.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -3197,6 +3245,12 @@
       "en": "Fruit-and-butter Christmas loaf dusted with icing sugar",
       "ja": "ドライフルーツとバターを入れ粉糖をまぶしたクリスマスのパン"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Dresdner_Stollen.jpg/960px-Dresdner_Stollen.jpg",
+      "author": "RalfUllrich",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Dresdner_Stollen.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -3215,6 +3269,12 @@
       "en": "Saxon layered bake of quark and egg custard",
       "ja": "クワルクと卵クリームを重ねて焼いたザクセン地方のケーキ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Eierschecke.jpg/960px-Eierschecke.jpg",
+      "author": "Sven Rost",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Eierschecke.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -3232,6 +3292,12 @@
       "ko": "쿼크 치즈 반죽을 구워 설탕을 뿌린 작은 팬케이크",
       "en": "Small fried quark pancakes dusted with sugar",
       "ja": "クワルクの生地を焼いて砂糖をまぶした小さなパンケーキ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Quarkk%C3%A4ulchen_mit_Apfelmus.JPG/960px-Quarkk%C3%A4ulchen_mit_Apfelmus.JPG",
+      "author": "Dr. Bernd Gross",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Quarkk%C3%A4ulchen_mit_Apfelmus.JPG"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -3323,6 +3389,12 @@
       "en": "Lamb and potato stew",
       "ja": "羊肉とじゃがいもの煮込み"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Irish_stew.jpg/960px-Irish_stew.jpg",
+      "author": "charles Haynes",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Irish_stew.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -3340,6 +3412,12 @@
       "ko": "소시지·베이컨·감자를 끓인 더블린 가정식",
       "en": "Sausage, bacon and potato stew, a Dublin classic",
       "ja": "ソーセージとベーコン、じゃがいもを煮込んだダブリンの家庭料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Coddle.jpg/960px-Coddle.jpg",
+      "author": "Coddle head",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Coddle.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [
@@ -3360,6 +3438,12 @@
       "ko": "감자 반죽으로 만든 아일랜드식 팬케이크",
       "en": "Irish potato pancake",
       "ja": "じゃがいも生地のアイルランド風パンケーキ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ansolas_boxty.jpg/960px-Ansolas_boxty.jpg",
+      "author": "さえぼー",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ansolas_boxty.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [
@@ -3561,6 +3645,12 @@
       "en": "Tuscan bread, cabbage and bean soup",
       "ja": "パン・キャベツ・豆のトスカーナ風スープ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Ribollita.jpg/960px-Ribollita.jpg",
+      "author": "Xaura",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ribollita.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -3578,6 +3668,12 @@
       "ko": "토마토와 빵으로 만든 걸쭉한 수프",
       "en": "Thick tomato and bread soup",
       "ja": "トマトとパンで作る濃厚なスープ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Pappa_al_pomodoro.jpg/960px-Pappa_al_pomodoro.jpg",
+      "author": "fugzu",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pappa_al_pomodoro.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -3597,6 +3693,12 @@
       "en": "Thick Florentine T-bone grilled over charcoal",
       "ja": "炭火で焼く分厚いフィレンツェ風Tボーンステーキ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Bistecca_alla_fiorentina.jpg/960px-Bistecca_alla_fiorentina.jpg",
+      "author": "Microsoikos",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Bistecca_alla_fiorentina.jpg"
+    },
     "budgetBand": "고",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -3614,6 +3716,12 @@
       "ko": "삶은 소 위를 빵에 끼운 피렌체 길거리 음식",
       "en": "Florentine street sandwich of slow-cooked tripe",
       "ja": "煮込んだ牛の胃をパンに挟んだフィレンツェの屋台料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Lampredotto_Sandwich.jpg/960px-Lampredotto_Sandwich.jpg",
+      "author": "William Held",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Lampredotto_Sandwich.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -3633,6 +3741,12 @@
       "en": "Frankfurt’s signature cold sauce of seven herbs, eaten with boiled eggs and potatoes",
       "ja": "7種類のハーブで作る冷たい緑のソースで、ゆで卵やじゃがいもと食べるフランクフルト名物"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Frankfurter_Gr%C3%BCne_So%C3%9Fe.jpg/960px-Frankfurter_Gr%C3%BCne_So%C3%9Fe.jpg",
+      "author": "Kai Oesterreich / Codc",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Frankfurter_Gr%C3%BCne_So%C3%9Fe.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -3650,6 +3764,12 @@
       "ko": "회색 도기 주전자 「벰벨」에 담아 마시는 새콤한 사과 와인",
       "en": "Tart apple wine poured from the grey stoneware “Bembel” jug",
       "ja": "灰色の陶器の水差し「ベンベル」で注ぐ酸味のあるアップルワイン"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Apfelwein_Geripptes_Bembel.jpg/960px-Apfelwein_Geripptes_Bembel.jpg",
+      "author": "Eva Kröcher",
+      "license": "CC BY-SA 2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:Apfelwein_Geripptes_Bembel.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -3669,6 +3789,12 @@
       "en": "Sour-milk cheese marinated in an onion vinaigrette, a staple of apple-wine taverns",
       "ja": "玉ねぎ入りの酢のソースに漬けた酸味のあるチーズで、アップルワイン酒場の定番"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Handk%C3%A4se_mit_Musik.jpg/960px-Handk%C3%A4se_mit_Musik.jpg",
+      "author": "Stefan Weil",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Handk%C3%A4se_mit_Musik.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -3686,6 +3812,12 @@
       "ko": "훈연 향이 살짝 나는 가늘고 긴 소시지로, 빵·머스터드와 함께 먹습니다",
       "en": "Slim, lightly smoked sausages eaten with bread and mustard",
       "ja": "ほのかに燻製の香りがする細長いソーセージで、パンやマスタードと一緒に食べます"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Frankfurter_wuerstchen.jpg/960px-Frankfurter_wuerstchen.jpg",
+      "author": "WordRidden / Jessica Spengler",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Frankfurter_wuerstchen.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -3913,6 +4045,12 @@
       "en": "Gdańsk’s traditional herbal liqueur with flakes of gold leaf",
       "ja": "金箔が浮かぶグダニスク伝統のハーブリキュール"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Goldwasser_-_The_spirit_of_Gda%C5%84sk.jpg/960px-Goldwasser_-_The_spirit_of_Gda%C5%84sk.jpg",
+      "author": "Goldwasser Gdańsk",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Goldwasser_-_The_spirit_of_Gda%C5%84sk.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -3930,6 +4068,12 @@
       "ko": "그단스크 주변 카슈비아 지방의 생선 수프",
       "en": "Fish soup from the Kashubian region around Gdańsk",
       "ja": "グダニスク周辺のカシューブ地方の魚のスープ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Kashubian_fish_soup.JPG/960px-Kashubian_fish_soup.JPG",
+      "author": "MOs810",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kashubian_fish_soup.JPG"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],
@@ -4289,6 +4433,12 @@
       "en": "Dense, sour Finnish rye bread",
       "ja": "酸味のある密なフィンランドのライ麦パン"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Ruisleip%C3%A4-limppu_reik%C3%A4leip%C3%A4_reissumies_hapankorppu-1.JPG/960px-Ruisleip%C3%A4-limppu_reik%C3%A4leip%C3%A4_reissumies_hapankorppu-1.JPG",
+      "author": "Hellahulla",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ruisleip%C3%A4-limppu_reik%C3%A4leip%C3%A4_reissumies_hapankorppu-1.JPG"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -4306,6 +4456,12 @@
       "ko": "호밀 반죽에 쌀죽을 채운 작은 파이",
       "en": "Rye pastry filled with rice porridge",
       "ja": "ライ麦生地に米粥を詰めた小さなパイ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Karjalanpiirakka.jpg/960px-Karjalanpiirakka.jpg",
+      "author": "Glome83",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Karjalanpiirakka.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -5985,8 +6141,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Turismo de Portugal (Visit Portugal)",
+    "recommendUrl": "https://www.visitportugal.com/en/content/time-to-taste-portugal",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
@@ -6009,8 +6165,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Turismo de Portugal (Visit Portugal)",
+    "recommendUrl": "https://www.visitportugal.com/en/content/time-to-taste-portugal",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
@@ -6033,8 +6189,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Turismo de Lisboa (Visit Lisboa)",
+    "recommendUrl": "https://www.visitlisboa.com/en/p/lisbon-flavours/gastronomy/grilled-sardines",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
@@ -6111,8 +6267,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Macao Government Tourism Office",
+    "recommendUrl": "https://www.macaotourism.gov.mo/en/dining/taste-of-macao/macanese-and-portuguese-dishes",
     "note": "Claude 초안(2026-10-13)"
   },
   {
@@ -6135,8 +6291,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Macao Government Tourism Office",
+    "recommendUrl": "https://www.macaotourism.gov.mo/en/dining/taste-of-macao/local-food",
     "note": "Claude 초안(2026-10-13)"
   },
   {
@@ -6159,8 +6315,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Macao Government Tourism Office",
+    "recommendUrl": "https://www.macaotourism.gov.mo/en/dining/taste-of-macao/macanese-and-portuguese-dishes",
     "note": "Claude 초안(2026-10-13)"
   },
   {
@@ -6185,8 +6341,8 @@
       "MFM-FD-107"
     ],
     "priceStatus": "확정",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Macao Government Tourism Office",
+    "recommendUrl": "https://www.macaotourism.gov.mo/en/dining/taste-of-macao/local-food",
     "note": "Claude 초안(2026-10-13)"
   },
   {
@@ -6335,8 +6491,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Munich Tourism (einfach München)",
+    "recommendUrl": "https://www.munich.travel/artikel/essen-trinken/bayrisch-essen",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
@@ -6359,8 +6515,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Munich Tourism (einfach München)",
+    "recommendUrl": "https://www.munich.travel/artikel/essen-trinken/bayrisch-essen",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
@@ -6383,8 +6539,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Munich Tourism (einfach München)",
+    "recommendUrl": "https://www.munich.travel/artikel/stadt-viertel/viertelliebe-muenchen/altstadt-auf-die-hand",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
@@ -6407,8 +6563,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Munich Tourism (einfach München)",
+    "recommendUrl": "https://www.munich.travel/artikel/essen-trinken/bayrisch-essen",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
@@ -6431,8 +6587,8 @@
     "budgetBand": "고",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Nagoya (Nagoya Convention & Visitors Bureau)",
+    "recommendUrl": "https://www.nagoya-info.jp/en/gourmet/",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -6455,8 +6611,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Nagoya (Nagoya Convention & Visitors Bureau)",
+    "recommendUrl": "https://www.nagoya-info.jp/en/gourmet/",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -6479,8 +6635,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Nagoya (Nagoya Convention & Visitors Bureau)",
+    "recommendUrl": "https://www.nagoya-info.jp/en/gourmet/",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -6503,8 +6659,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Nagoya (Nagoya Convention & Visitors Bureau)",
+    "recommendUrl": "https://www.nagoya-info.jp/en/gourmet/",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -6683,8 +6839,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Vietnam Tourism (Vietnam National Authority of Tourism)",
+    "recommendUrl": "https://vietnam.travel/node/1333",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -6725,8 +6881,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Vietnam Tourism (Vietnam National Authority of Tourism)",
+    "recommendUrl": "https://vietnam.travel/things-to-do/phu-quoc-specialty-seafood",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -6815,8 +6971,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Tourismus Nürnberg",
+    "recommendUrl": "https://tourismus.nuernberg.de/geniessen/spezialitaeten/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -6833,8 +6989,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Tourismus Nürnberg",
+    "recommendUrl": "https://tourismus.nuernberg.de/geniessen/spezialitaeten/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -6851,8 +7007,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Tourismus Nürnberg",
+    "recommendUrl": "https://tourismus.nuernberg.de/geniessen/spezialitaeten/fraenkische-spezialitaeten/ofenfrisches-schaeufele/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -6875,8 +7031,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Okinawa Tourism Information WEB Site (Okinawa Story)",
+    "recommendUrl": "https://www.okinawastory.jp/feature/food/",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -6899,8 +7055,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Okinawa Tourism Information WEB Site (Okinawa Story)",
+    "recommendUrl": "https://www.okinawastory.jp/feature/food/",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -6923,8 +7079,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Okinawa Tourism Information WEB Site (Okinawa Story)",
+    "recommendUrl": "https://www.okinawastory.jp/feature/food/",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -7063,8 +7219,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Vietnam Tourism (Vietnam National Authority of Tourism)",
+    "recommendUrl": "https://vietnam.travel/things-to-do/phu-quoc-signature-noodle-bun-quay",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -7087,8 +7243,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Vietnam Tourism (Vietnam National Authority of Tourism)",
+    "recommendUrl": "https://vietnam.travel/things-to-do/phu-quoc-specialty-seafood",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -7105,8 +7261,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Vietnam Tourism (Vietnam National Authority of Tourism)",
+    "recommendUrl": "https://vietnam.travel/things-to-do/phu-quoc-specialty-seafood",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -7203,8 +7359,8 @@
       "PRG-FD-101"
     ],
     "priceStatus": "확정",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "CzechTourism (VisitCzechia)",
+    "recommendUrl": "https://www.visitczechia.com/en-us/things-to-do/places/gastronomic-tourism/czech-cuisine-and-regional-products/g-svickova-na-smetane",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -7229,8 +7385,8 @@
       "PRG-FD-102"
     ],
     "priceStatus": "확정",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "CzechTourism (VisitCzechia)",
+    "recommendUrl": "https://www.visitczechia.com/en-us/b2b/usa/press-and-media/press-releases/2025/czech-pub-specialties-iconic-dishes-you-cant-miss",
     "note": "Claude 초안(2026-10-11)"
   },
   {

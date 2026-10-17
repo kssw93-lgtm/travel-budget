@@ -3041,22 +3041,46 @@
   "florence:Ribollita": {
     "ko": "빵·양배추·콩으로 끓인 토스카나식 수프",
     "en": "Tuscan bread, cabbage and bean soup",
-    "ja": "パン・キャベツ・豆のトスカーナ風スープ"
+    "ja": "パン・キャベツ・豆のトスカーナ風スープ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Ribollita.jpg/960px-Ribollita.jpg",
+      "author": "Xaura",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ribollita.jpg"
+    }
   },
   "florence:Pappa al pomodoro": {
     "ko": "토마토와 빵으로 만든 걸쭉한 수프",
     "en": "Thick tomato and bread soup",
-    "ja": "トマトとパンで作る濃厚なスープ"
+    "ja": "トマトとパンで作る濃厚なスープ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Pappa_al_pomodoro.jpg/960px-Pappa_al_pomodoro.jpg",
+      "author": "fugzu",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pappa_al_pomodoro.jpg"
+    }
   },
   "florence:Bistecca alla Fiorentina": {
     "ko": "숯불에 굽는 두툼한 피렌체식 티본 스테이크",
     "en": "Thick Florentine T-bone grilled over charcoal",
-    "ja": "炭火で焼く分厚いフィレンツェ風Tボーンステーキ"
+    "ja": "炭火で焼く分厚いフィレンツェ風Tボーンステーキ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Bistecca_alla_fiorentina.jpg/960px-Bistecca_alla_fiorentina.jpg",
+      "author": "Microsoikos",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Bistecca_alla_fiorentina.jpg"
+    }
   },
   "florence:Lampredotto sandwich": {
     "ko": "삶은 소 위를 빵에 끼운 피렌체 길거리 음식",
     "en": "Florentine street sandwich of slow-cooked tripe",
-    "ja": "煮込んだ牛の胃をパンに挟んだフィレンツェの屋台料理"
+    "ja": "煮込んだ牛の胃をパンに挟んだフィレンツェの屋台料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Lampredotto_Sandwich.jpg/960px-Lampredotto_Sandwich.jpg",
+      "author": "William Held",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Lampredotto_Sandwich.jpg"
+    }
   },
   "nara:Chagayu": {
     "ko": "볶은 차를 우린 물에 밥을 넣고 끓인 차죽",
@@ -3233,12 +3257,24 @@
   "helsinki:Ruisleipä": {
     "ko": "시큼하고 촘촘한 핀란드 주식 호밀빵",
     "en": "Dense, sour Finnish rye bread",
-    "ja": "酸味のある密なフィンランドのライ麦パン"
+    "ja": "酸味のある密なフィンランドのライ麦パン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Ruisleip%C3%A4-limppu_reik%C3%A4leip%C3%A4_reissumies_hapankorppu-1.JPG/960px-Ruisleip%C3%A4-limppu_reik%C3%A4leip%C3%A4_reissumies_hapankorppu-1.JPG",
+      "author": "Hellahulla",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ruisleip%C3%A4-limppu_reik%C3%A4leip%C3%A4_reissumies_hapankorppu-1.JPG"
+    }
   },
   "helsinki:Karjalanpiirakka": {
     "ko": "호밀 반죽에 쌀죽을 채운 작은 파이",
     "en": "Rye pastry filled with rice porridge",
-    "ja": "ライ麦生地に米粥を詰めた小さなパイ"
+    "ja": "ライ麦生地に米粥を詰めた小さなパイ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Karjalanpiirakka.jpg/960px-Karjalanpiirakka.jpg",
+      "author": "Glome83",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Karjalanpiirakka.jpg"
+    }
   },
   "helsinki:Lohikeitto": {
     "ko": "크림 국물에 연어와 감자를 넣은 수프",
@@ -3253,17 +3289,35 @@
   "copenhagen:Smørrebrød": {
     "ko": "호밀빵 위에 청어·새우·로스트비프 등을 올린 오픈 샌드위치",
     "en": "Open sandwiches on rye with herring, shrimp or roast beef",
-    "ja": "ライ麦パンにニシンやエビをのせたオープンサンド"
+    "ja": "ライ麦パンにニシンやエビをのせたオープンサンド",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Sm%C3%B8rrebr%C3%B8d_on_table.jpg/960px-Sm%C3%B8rrebr%C3%B8d_on_table.jpg",
+      "author": "Nillerdk",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sm%C3%B8rrebr%C3%B8d_on_table.jpg"
+    }
   },
   "copenhagen:Wienerbrød": {
     "ko": "버터를 겹겹이 넣어 구운 덴마크 빵",
     "en": "Flaky buttery Danish pastry",
-    "ja": "バターを重ねて焼いたデンマークのパン"
+    "ja": "バターを重ねて焼いたデンマークのパン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Wienerbr%C3%B8d_01.jpg/960px-Wienerbr%C3%B8d_01.jpg",
+      "author": "RhinoMind",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Wienerbr%C3%B8d_01.jpg"
+    }
   },
   "copenhagen:Pølse": {
     "ko": "거리 노점에서 파는 덴마크식 핫도그",
     "en": "Danish hot dog from street stands",
-    "ja": "屋台で売られるデンマーク風ホットドッグ"
+    "ja": "屋台で売られるデンマーク風ホットドッグ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/P%C3%B8lse_med_br%C3%B8d_(5674879367).jpg/960px-P%C3%B8lse_med_br%C3%B8d_(5674879367).jpg",
+      "author": "cyclonebill",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:P%C3%B8lse_med_br%C3%B8d_%285674879367%29.jpg"
+    }
   },
   "stockholm:Köttbullar": {
     "ko": "크림소스·감자·링곤베리잼과 먹는 미트볼",
@@ -3283,17 +3337,35 @@
   "dublin:Irish stew": {
     "ko": "양고기와 감자를 푹 끓인 스튜",
     "en": "Lamb and potato stew",
-    "ja": "羊肉とじゃがいもの煮込み"
+    "ja": "羊肉とじゃがいもの煮込み",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Irish_stew.jpg/960px-Irish_stew.jpg",
+      "author": "charles Haynes",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Irish_stew.jpg"
+    }
   },
   "dublin:Dublin coddle": {
     "ko": "소시지·베이컨·감자를 끓인 더블린 가정식",
     "en": "Sausage, bacon and potato stew, a Dublin classic",
-    "ja": "ソーセージとベーコン、じゃがいもを煮込んだダブリンの家庭料理"
+    "ja": "ソーセージとベーコン、じゃがいもを煮込んだダブリンの家庭料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Coddle.jpg/960px-Coddle.jpg",
+      "author": "Coddle head",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Coddle.jpg"
+    }
   },
   "dublin:Boxty": {
     "ko": "감자 반죽으로 만든 아일랜드식 팬케이크",
     "en": "Irish potato pancake",
-    "ja": "じゃがいも生地のアイルランド風パンケーキ"
+    "ja": "じゃがいも生地のアイルランド風パンケーキ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ansolas_boxty.jpg/960px-Ansolas_boxty.jpg",
+      "author": "さえぼー",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ansolas_boxty.jpg"
+    }
   },
   "tallinn:Kiluvõileib": {
     "ko": "흑빵에 작은 청어류 생선(스프랫)을 올린 오픈 샌드위치",
@@ -3318,17 +3390,35 @@
   "dresden:Dresdner Christstollen": {
     "ko": "건과일과 버터를 넣고 슈거파우더를 뿌린 크리스마스 빵",
     "en": "Fruit-and-butter Christmas loaf dusted with icing sugar",
-    "ja": "ドライフルーツとバターを入れ粉糖をまぶしたクリスマスのパン"
+    "ja": "ドライフルーツとバターを入れ粉糖をまぶしたクリスマスのパン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Dresdner_Stollen.jpg/960px-Dresdner_Stollen.jpg",
+      "author": "RalfUllrich",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Dresdner_Stollen.jpg"
+    }
   },
   "dresden:Eierschecke": {
     "ko": "쿼크 치즈와 달걀 크림을 층층이 구운 작센 지방 케이크",
     "en": "Saxon layered bake of quark and egg custard",
-    "ja": "クワルクと卵クリームを重ねて焼いたザクセン地方のケーキ"
+    "ja": "クワルクと卵クリームを重ねて焼いたザクセン地方のケーキ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Eierschecke.jpg/960px-Eierschecke.jpg",
+      "author": "Sven Rost",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Eierschecke.jpg"
+    }
   },
   "dresden:Quarkkeulchen": {
     "ko": "쿼크 치즈 반죽을 구워 설탕을 뿌린 작은 팬케이크",
     "en": "Small fried quark pancakes dusted with sugar",
-    "ja": "クワルクの生地を焼いて砂糖をまぶした小さなパンケーキ"
+    "ja": "クワルクの生地を焼いて砂糖をまぶした小さなパンケーキ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Quarkk%C3%A4ulchen_mit_Apfelmus.JPG/960px-Quarkk%C3%A4ulchen_mit_Apfelmus.JPG",
+      "author": "Dr. Bernd Gross",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Quarkk%C3%A4ulchen_mit_Apfelmus.JPG"
+    }
   },
   "nuremberg:Nürnberger Rostbratwurst": {
     "ko": "손가락만 한 뉘른베르크 구운 소시지로 사우어크라우트와 곁들임",
@@ -3348,17 +3438,35 @@
   "cologne:Halve Hahn": {
     "ko": "호밀빵에 숙성 고다 치즈·양파·겨자를 곁들인 쾰른식 간단 요리(닭고기 아님)",
     "en": "Rye roll with aged Gouda, onion and mustard (no chicken despite the name)",
-    "ja": "ライ麦パンに熟成ゴーダ・玉ねぎ・マスタードを添えたケルンの軽食（鶏肉ではない）"
+    "ja": "ライ麦パンに熟成ゴーダ・玉ねぎ・マスタードを添えたケルンの軽食（鶏肉ではない）",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/2018-10-28-Halve_Hahn-9087.jpg/960px-2018-10-28-Halve_Hahn-9087.jpg",
+      "author": "Superbass",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:2018-10-28-Halve_Hahn-9087.jpg"
+    }
   },
   "cologne:Himmel un Ääd": {
     "ko": "으깬 감자와 사과 소스에 블러드 소시지·볶은 양파를 올린 요리",
     "en": "Mashed potato and apple sauce with black pudding and fried onions",
-    "ja": "マッシュポテトとアップルソースにブラッドソーセージと炒め玉ねぎをのせた料理"
+    "ja": "マッシュポテトとアップルソースにブラッドソーセージと炒め玉ねぎをのせた料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Himmel_un_%C3%84%C3%A4d.JPG/960px-Himmel_un_%C3%84%C3%A4d.JPG",
+      "author": "AlexOk",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Himmel_un_%C3%84%C3%A4d.JPG"
+    }
   },
   "cologne:Reibekuchen": {
     "ko": "감자를 갈아 바삭하게 부친 전으로 사과 소스와 먹음",
     "en": "Crisp grated-potato pancakes served with apple sauce",
-    "ja": "すりおろしたじゃがいもをカリッと焼いたパンケーキ、アップルソース添え"
+    "ja": "すりおろしたじゃがいもをカリッと焼いたパンケーキ、アップルソース添え",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Reibekuchen_mit_Apfelmus.jpg/960px-Reibekuchen_mit_Apfelmus.jpg",
+      "author": "Martin van Baal",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Reibekuchen_mit_Apfelmus.jpg"
+    }
   },
   "strasbourg:Choucroute": {
     "ko": "발효 양배추에 소시지·고기·감자를 곁들인 알자스 요리",
@@ -3389,12 +3497,24 @@
   "colmar:Tarte flambée": {
     "ko": "얇은 반죽에 크림·양파·베이컨을 올려 화덕에 구운 알자스식 납작 파이",
     "en": "Thin Alsatian flatbread with cream, onion and bacon",
-    "ja": "薄い生地にクリーム・玉ねぎ・ベーコンをのせて焼いたアルザスの薄焼き"
+    "ja": "薄い生地にクリーム・玉ねぎ・ベーコンをのせて焼いたアルザスの薄焼き",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Tarte_flamb%C3%A9e.jpg/960px-Tarte_flamb%C3%A9e.jpg",
+      "author": "Will Bakker",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tarte_flamb%C3%A9e.jpg"
+    }
   },
   "colmar:Kougelhopf": {
     "ko": "특유의 틀에 구운 건포도가 든 알자스 빵",
     "en": "Raisin bread baked in a distinctive fluted mould",
-    "ja": "独特の型で焼くレーズン入りのアルザスのパン"
+    "ja": "独特の型で焼くレーズン入りのアルザスのパン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Kougelhopf.jpg/960px-Kougelhopf.jpg",
+      "author": "CaHeSo",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kougelhopf.jpg"
+    }
   },
   "salzburg:Salzburger Nockerl": {
     "ko": "잘츠부르크의 언덕을 본뜬 폭신한 수플레 디저트",
@@ -3618,22 +3738,46 @@
   "frankfurt:Frankfurt green sauce": {
     "ko": "일곱 가지 허브로 만든 차가운 초록 소스로, 삶은 달걀·감자와 먹는 프랑크푸르트 대표 음식",
     "en": "Frankfurt’s signature cold sauce of seven herbs, eaten with boiled eggs and potatoes",
-    "ja": "7種類のハーブで作る冷たい緑のソースで、ゆで卵やじゃがいもと食べるフランクフルト名物"
+    "ja": "7種類のハーブで作る冷たい緑のソースで、ゆで卵やじゃがいもと食べるフランクフルト名物",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Frankfurter_Gr%C3%BCne_So%C3%9Fe.jpg/960px-Frankfurter_Gr%C3%BCne_So%C3%9Fe.jpg",
+      "author": "Kai Oesterreich / Codc",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Frankfurter_Gr%C3%BCne_So%C3%9Fe.jpg"
+    }
   },
   "frankfurt:Apfelwein": {
     "ko": "회색 도기 주전자 「벰벨」에 담아 마시는 새콤한 사과 와인",
     "en": "Tart apple wine poured from the grey stoneware “Bembel” jug",
-    "ja": "灰色の陶器の水差し「ベンベル」で注ぐ酸味のあるアップルワイン"
+    "ja": "灰色の陶器の水差し「ベンベル」で注ぐ酸味のあるアップルワイン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Apfelwein_Geripptes_Bembel.jpg/960px-Apfelwein_Geripptes_Bembel.jpg",
+      "author": "Eva Kröcher",
+      "license": "CC BY-SA 2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:Apfelwein_Geripptes_Bembel.jpg"
+    }
   },
   "frankfurt:Handkäs mit Musik": {
     "ko": "양파 식초 소스에 재운 시큼한 치즈로, 사과 와인 주점의 단골 안주",
     "en": "Sour-milk cheese marinated in an onion vinaigrette, a staple of apple-wine taverns",
-    "ja": "玉ねぎ入りの酢のソースに漬けた酸味のあるチーズで、アップルワイン酒場の定番"
+    "ja": "玉ねぎ入りの酢のソースに漬けた酸味のあるチーズで、アップルワイン酒場の定番",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Handk%C3%A4se_mit_Musik.jpg/960px-Handk%C3%A4se_mit_Musik.jpg",
+      "author": "Stefan Weil",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Handk%C3%A4se_mit_Musik.jpg"
+    }
   },
   "frankfurt:Frankfurter Würstchen": {
     "ko": "훈연 향이 살짝 나는 가늘고 긴 소시지로, 빵·머스터드와 함께 먹습니다",
     "en": "Slim, lightly smoked sausages eaten with bread and mustard",
-    "ja": "ほのかに燻製の香りがする細長いソーセージで、パンやマスタードと一緒に食べます"
+    "ja": "ほのかに燻製の香りがする細長いソーセージで、パンやマスタードと一緒に食べます",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Frankfurter_wuerstchen.jpg/960px-Frankfurter_wuerstchen.jpg",
+      "author": "WordRidden / Jessica Spengler",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Frankfurter_wuerstchen.jpg"
+    }
   },
   "berlin:Currywurst": {
     "ko": "소시지에 커리 케첩을 뿌린 베를린의 가장 인기 있는 길거리 음식",
@@ -3697,12 +3841,24 @@
   "gdansk:Goldwasser": {
     "ko": "금박이 떠 있는 그단스크 전통 허브 리큐어",
     "en": "Gdańsk’s traditional herbal liqueur with flakes of gold leaf",
-    "ja": "金箔が浮かぶグダニスク伝統のハーブリキュール"
+    "ja": "金箔が浮かぶグダニスク伝統のハーブリキュール",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Goldwasser_-_The_spirit_of_Gda%C5%84sk.jpg/960px-Goldwasser_-_The_spirit_of_Gda%C5%84sk.jpg",
+      "author": "Goldwasser Gdańsk",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Goldwasser_-_The_spirit_of_Gda%C5%84sk.jpg"
+    }
   },
   "gdansk:Kashubian fish soup": {
     "ko": "그단스크 주변 카슈비아 지방의 생선 수프",
     "en": "Fish soup from the Kashubian region around Gdańsk",
-    "ja": "グダニスク周辺のカシューブ地方の魚のスープ"
+    "ja": "グダニスク周辺のカシューブ地方の魚のスープ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Kashubian_fish_soup.JPG/960px-Kashubian_fish_soup.JPG",
+      "author": "MOs810",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kashubian_fish_soup.JPG"
+    }
   },
   "riga:Cold beetroot soup": {
     "ko": "초여름이면 떠오르는 분홍빛 차가운 수프",

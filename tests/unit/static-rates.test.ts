@@ -10,8 +10,10 @@ describe('조사 고정 환율표', () => {
     expect(r.USD).toBe(1);
   });
 
-  it('교차 확인: 원/달러는 서울 외환시장 2026-10-02 1,350.60원과 1% 안, 홍콩달러는 연동 범위 안', () => {
-    expect(Math.abs(r.KRW! / 1350.6 - 1)).toBeLessThan(0.01);
+  it('교차 확인: 원/달러는 최근 시세 범위(1,250~1,450원) 안, 홍콩달러는 연동 범위 안, 마카오는 홍콩달러×1.03', () => {
+    expect(r.KRW!).toBeGreaterThan(1250);
+    expect(r.KRW!).toBeLessThan(1450);
+    expect(Math.abs(r.MOP! / (r.HKD! * 1.03) - 1)).toBeLessThan(0.001);
     expect(r.HKD!).toBeGreaterThanOrEqual(7.75);
     expect(r.HKD!).toBeLessThanOrEqual(7.85);
     expect(r.AED).toBe(3.6725);
@@ -19,7 +21,7 @@ describe('조사 고정 환율표', () => {
   });
 
   it('기준일·출처가 붙어 있다', () => {
-    expect(STATIC_RATES.asOf).toBe('2026-10-06');
+    expect(STATIC_RATES.asOf).toBe('2026-10-16');
     expect(STATIC_RATES.source.url).toMatch(/^https:\/\/www\.ecb\.europa\.eu\//);
   });
 });

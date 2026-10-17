@@ -1,0 +1,122 @@
+{
+  "asOf": "2026-10-16",
+  "researchedAt": "2026-10-17",
+  "note": "조사한 공식 환율 원자료(GPT 2026-10-17 재조사, Claude 대조). 사이트 표시값은 1 USD 기준이며 src/core/rates/static.ts가 ECB의 1 EUR 기준 환율을 ECB EUR/USD로 나눠 계산한다. ECB 표에 없는 통화는 perUSD의 통화별 공식 자료를 쓴다(기준일은 통화마다 다를 수 있어 date에 적는다). ISK는 이번부터 ECB 값을 쓴다.",
+  "ecb": {
+    "name": "European Central Bank euro foreign exchange reference rates",
+    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+    "date": "2026-10-16",
+    "perEUR": {
+      "KRW": 1499.01,
+      "USD": 1.1253,
+      "JPY": 177.82,
+      "GBP": 0.84385,
+      "CNY": 7.524,
+      "HKD": 8.8316,
+      "SGD": 1.4395,
+      "THB": 37.602,
+      "AUD": 1.6171,
+      "CAD": 1.5935,
+      "NZD": 1.9868,
+      "CHF": 0.9272,
+      "MYR": 4.5929,
+      "IDR": 20290.28,
+      "PHP": 70.858,
+      "INR": 106.864,
+      "TRY": 55.7328,
+      "BRL": 5.7197,
+      "MXN": 20.6871,
+      "SEK": 11.145,
+      "NOK": 10.624,
+      "DKK": 7.4748,
+      "PLN": 4.37,
+      "CZK": 24.323,
+      "ZAR": 18.493,
+      "HUF": 363.08,
+      "ISK": 136.2
+    },
+    "crossCheck": [
+      "https://centralbank.ae/umbraco/Surface/Exchange/GetExchangeRateAllCurrency"
+    ]
+  },
+  "perUSD": {
+    "TWD": {
+      "rate": 32.338,
+      "date": "2026-10-16",
+      "name": "대만 중앙은행 新臺幣/美元 은행간 마감환율",
+      "url": "https://www.cbc.gov.tw/tw/lp-645-1-1-40.html"
+    },
+    "VND": {
+      "rate": 25637,
+      "date": "2026-10-16",
+      "name": "베트남 NCB 공시 평균 은행간 환율(Average interbank exchange rate)",
+      "url": "https://www.ncb-bank.vn/en/exchange-rates"
+    },
+    "AED": {
+      "rate": 3.6725,
+      "date": "2026-10-16",
+      "name": "UAE 중앙은행의 USD/AED 기준환율",
+      "url": "https://centralbank.ae/umbraco/Surface/Exchange/GetExchangeRateAllCurrency"
+    },
+    "SAR": {
+      "rate": 3.75,
+      "date": "2016-01-11",
+      "name": "사우디 중앙은행(SAMA) 공식 고정 환율 3.7500 SAR/USD",
+      "url": "https://www.sama.gov.sa/en-us/mediacenter/news/pages/news11012016.aspx"
+    },
+    "MOP": {
+      "rate": 8.0837,
+      "date": "2026-10-16",
+      "name": "ECB HKD·USD(2026-10-16)와 마카오 금융관리국(AMCM) 고정 관계 HKD 1 = MOP 1.03 으로 교차 산출",
+      "url": "https://www.amcm.gov.mo/en/currency/currency-in-circulation-in-macao/coins/currency-in-circulation-in-macao"
+    },
+    "MNT": {
+      "rate": 3596.3,
+      "date": "2026-10-17",
+      "name": "몽골 중앙은행(Mongolbank) 홈페이지 USD 환율",
+      "url": "https://www.mongolbank.mn/en/"
+    },
+    "LAK": {
+      "rate": 22388,
+      "date": "2026-10-14",
+      "name": "라오스 중앙은행(Bank of the Lao PDR) 기준환율",
+      "url": "https://www.bol.gov.la/en/referenceRate"
+    },
+    "KZT": {
+      "rate": 452.12,
+      "date": "2026-10-17",
+      "name": "카자흐스탄 국립은행 Official (market) Exchange Rates의 USD 공식 환율",
+      "url": "https://nationalbank.kz/en/exchangerates/ezhednevnye-oficialnye-rynochnye-kursy-valyut"
+    },
+    "UZS": {
+      "rate": 12055.9,
+      "date": "2026-10-16",
+      "name": "우즈베키스탄 중앙은행(CBU) USD 공식 환율",
+      "url": "https://cbu.uz/en/arkhiv-kursov-valyut/informer-kursa-valyut/"
+    },
+    "GEL": {
+      "rate": 2.5982,
+      "date": "2026-10-17",
+      "name": "조지아 국립은행(NBG) 공식 환율 USD(표에 고시일 없음, 조회일 기준)",
+      "url": "https://nbg.gov.ge/en/monetary-policy/currency"
+    },
+    "EGP": {
+      "rate": 52.3878,
+      "date": "2026-10-07",
+      "name": "이집트 중앙은행(CBE) USD 매입 52.3378·매도 52.4378의 중간값(2026-10-17 조회 시 확인 가능한 최신 고시)",
+      "url": "https://www.cbe.org.eg/en/economic-research/statistics/exchange-rates?query=USD"
+    }
+  },
+  "crossChecks": [
+    {
+      "what": "USD/CNY: ECB 7.5554 ÷ 1.1269 = 6.7046 CNY",
+      "against": "UAE 중앙은행 3.6725 AED/USD ÷ 0.547758 AED/CNY = 6.7046 CNY",
+      "url": "https://centralbank.ae/umbraco/Surface/Exchange/GetExchangeRateAllCurrency"
+    },
+    {
+      "what": "USD/HKD: ECB 8.8438 ÷ 1.1269 = 7.8479 HKD",
+      "against": "UAE 중앙은행 3.6725 AED/USD ÷ 0.467960 AED/HKD = 7.8479 HKD",
+      "url": "https://centralbank.ae/umbraco/Surface/Exchange/GetExchangeRateAllCurrency"
+    }
+  ]
+}

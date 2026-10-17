@@ -5,6 +5,7 @@ import { AdSlot } from './AdSlot';
 import { Calculator } from './Calculator';
 import { About, Privacy } from './InfoPages';
 import { HowItWorks } from './HowItWorks';
+import { CostComparePage } from './CostCompare';
 import { ChristmasMarketsPage, CityGuidePage, GuideIndex } from './CityGuide';
 import { routeOf } from './pages';
 import { applyMeta } from './meta';
@@ -100,7 +101,7 @@ export function App() {
           </InternalLink>
           <nav aria-label={t.nav.main}>
             <InternalLink to={calcHref} go={go} aria-current={page === 'calculator' ? 'page' : undefined}>{t.nav.calculator}</InternalLink>
-            <InternalLink to={`/guides?lang=${lang}`} go={go} aria-current={page === 'guides' || page === 'guide' || page === 'christmas' ? 'page' : undefined}>{t.nav.guides}</InternalLink>
+            <InternalLink to={`/guides?lang=${lang}`} go={go} aria-current={page === 'guides' || page === 'guide' || page === 'christmas' || page === 'compare' ? 'page' : undefined}>{t.nav.guides}</InternalLink>
             <InternalLink to={`/about?lang=${lang}`} go={go} aria-current={page === 'about' ? 'page' : undefined}>{t.footer.about}</InternalLink>
           </nav>
           <div className="lang" role="group" aria-label={t.nav.language}>
@@ -128,6 +129,8 @@ export function App() {
             <Privacy />
           ) : page === 'guides' ? (
             <GuideIndex go={go} />
+          ) : page === 'compare' ? (
+            <CostComparePage go={go} />
           ) : page === 'method' ? (
             <HowItWorks go={go} />
           ) : page === 'christmas' ? (
@@ -147,6 +150,7 @@ export function App() {
           <p>{t.footer.disclaimer}</p>
           <p>
             {fmt(t.footer.data, { date: dataDate })} ·{' '}
+            <InternalLink to={`/compare?lang=${lang}`} go={go}>{t.compare.navLabel}</InternalLink> ·{' '}
             <InternalLink to={`/how-it-works?lang=${lang}`} go={go}>{t.method.navLabel}</InternalLink> ·{' '}
             <InternalLink to={`/about?lang=${lang}`} go={go}>{t.footer.about}</InternalLink> ·{' '}
             <InternalLink to={`/privacy?lang=${lang}`} go={go}>{t.footer.privacy}</InternalLink>

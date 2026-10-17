@@ -1,5 +1,5 @@
 /** 사이트 페이지 목록(계산기 + 정적 안내 페이지 + 도시 가이드). 주소·정적 HTML·메타가 모두 이 목록을 따른다. */
-export type PageId = 'calculator' | 'about' | 'privacy' | 'guides' | 'christmas' | 'method' | 'guide';
+export type PageId = 'calculator' | 'about' | 'privacy' | 'guides' | 'christmas' | 'method' | 'compare' | 'guide';
 
 export const PAGE_PATHS: Record<Exclude<PageId, 'guide'>, string> = {
   calculator: '/',
@@ -8,6 +8,7 @@ export const PAGE_PATHS: Record<Exclude<PageId, 'guide'>, string> = {
   guides: '/guides',
   christmas: '/christmas-markets',
   method: '/how-it-works',
+  compare: '/compare',
 };
 
 export interface Route {

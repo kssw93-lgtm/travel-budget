@@ -3,7 +3,9 @@
  * 언어마다(ko·en·ja) 따로 만든다: 한국어는 기본 주소, 영어·일본어는 Worker 가 ?lang= 에 맞춰 골라 보낸다.
  */
 import { cityGuide, guidePath } from '../src/core/guide';
+import { convertAmount, costComparison, formatCompareMoney } from '../src/core/compare';
 import { methodExample } from '../src/core/method';
+import { STATIC_RATES } from '../src/core/rates/static';
 import { formatMoney } from '../src/core/money';
 import { methodContent } from '../src/ui/method-content';
 import { CITY_GUIDES } from '../src/data/city-guides';
@@ -258,6 +260,41 @@ export function guideIndexMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
     lang,
     ld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: t.indexTitle, inLanguage: lang },
     fallbackHtml: `        <h1>${e(t.indexTitle)}</h1>\n        <p>${e(t.indexLead)}</p>\n${xmasList}${groups}`,
+  };
+}
+
+/** 도시별 하루 경비 비교(/compare)의 정적 HTML. 표시 통화는 언어 기본값(ko 원, en 달러, ja 엔) */
+export function comparePageMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
+  const m = MSG[lang].compare;
+  const display = ({ ko: 'KRW', en: 'USD', ja: 'JPY' } as const)[lang];
+  const rates = STATIC_RATES.rates;
+  const money = (n: number, cur: string) => formatCompareMoney(n, cur, LOCALE[lang]);
+  const rows = costComparison(d.cities, d.samples, d.extras, d.refDate)
+    .map((r) => ({ r, mid: (r.perDay.min + r.perDay.max) / 2 }))
+    .map((x) => ({ ...x, usd: convertAmount(x.mid, x.r.city.currency, 'USD', rates) ?? 0 }))
+    .sort((a, b) => a.usd - b.usd);
+  const n = rows.length;
+  const body = rows
+    .map(({ r, mid }, i) => {
+      const cur = r.city.currency;
+      const conv = convertAmount(mid, cur, display, rates);
+      const day = conv !== null && cur !== display ? `≈ ${money(conv, display)} (${money(r.perDay.min, cur)}~${money(r.perDay.max, cur)})` : money(mid, cur);
+      return `<tr><td>${i + 1}</td><td><a href="${guidePath(r.city.id)}?lang=${lang}">${e(cityLabel(r.city, lang))}</a> ${e(countryLabel(r.city, lang))}</td><td>${e(day)}</td><td>${r.meal !== null ? e(money(r.meal, cur)) : '–'}</td><td>${r.ride !== null ? e(money(r.ride, cur)) : '–'}</td></tr>`;
+    })
+    .join('');
+  const description = fill(m.description, { n });
+  return {
+    title: `${m.title} — ${siteTitle(lang)}`,
+    description,
+    path: '/compare',
+    lang,
+    ld: { '@context': 'https://schema.org', '@type': 'WebPage', name: m.title, description, inLanguage: lang },
+    fallbackHtml: [
+      `        <h1>${e(m.title)}</h1>`,
+      `        <p>${e(fill(m.lead, { n, date: d.updated, rate: STATIC_RATES.asOf }))}</p>`,
+      `        <table><thead><tr><th>${e(m.colRank)}</th><th>${e(m.colCity)}</th><th>${e(m.colDay)}</th><th>${e(m.colMeal)}</th><th>${e(m.colRide)}</th></tr></thead><tbody>${body}</tbody></table>`,
+      `        <p>${e(m.note)} <a href="/how-it-works?lang=${lang}">${e(MSG[lang].method.navLabel)}</a></p>`,
+    ].join('\n'),
   };
 }
 

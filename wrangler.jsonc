@@ -14,6 +14,6 @@
     "directory": "./dist",
     "binding": "ASSETS",
     "not_found_handling": "404-page",
-    "run_worker_first": ["/api/*", "/", "/guides", "/christmas-markets", "/how-it-works", "/guide/*", "/about", "/privacy", "/_l/*", "/*.html"]
+    "run_worker_first": ["/api/*", "/", "/guides", "/christmas-markets", "/how-it-works", "/compare", "/guide/*", "/about", "/privacy", "/_l/*", "/*.html"]
   }
 }

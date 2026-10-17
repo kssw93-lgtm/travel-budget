@@ -23,7 +23,7 @@ import { useRates, type RatesState } from './useRates';
 /** 가이드의 예시 일정 기준일: 가격 자료 기준일(정적 HTML 과 화면이 같은 값을 쓰도록 고정) */
 export const guideRefDate = dataMeta.date || dataDate;
 
-function displayCurrency(lang: Lang): string {
+export function displayCurrency(lang: Lang): string {
   try {
     return localStorage.getItem('currency') ?? DEFAULT_CURRENCY[lang];
   } catch {

@@ -389,6 +389,19 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(xc.locator('[data-xmas-city="dresden"]')).toBeVisible();
   });
 
+  test('도시별 하루 경비 비교: 싼 순 표, 도시·나라로 찾기, 도시 가이드로 이동', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/compare?lang=ko');
+    const c = page.getByTestId('compare');
+    await expect(c.getByRole('heading', { level: 1 })).toHaveText('도시별 하루 여행 경비 비교');
+    await expect(c.locator('tbody tr').first()).toContainText('1');
+    await page.getByLabel('도시·나라 찾기').fill('일본');
+    await expect(c.locator('[data-compare-city="osaka"]')).toBeVisible();
+    await expect(c.locator('[data-compare-city="paris"]')).toHaveCount(0);
+    await c.locator('[data-compare-city="osaka"]').getByRole('link').click();
+    await expect(page.getByTestId('city-guide')).toBeVisible();
+  });
+
   test('계산 방법 페이지: 계산 순서·실제 계산 예시·한계가 있고, 예시 조건으로 계산기를 연다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/how-it-works?lang=ko');

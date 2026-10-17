@@ -553,5 +553,135 @@
     "name": "CzechTourism (VisitCzechia)",
     "url": "https://www.visitczechia.com/en-us/b2b/usa/press-and-media/press-releases/2025/czech-pub-specialties-iconic-dishes-you-cant-miss",
     "checkedAt": "2026-10-17"
+  },
+  "prague:Pilsner Urquell": {
+    "name": "VisitCzechia (CzechTourism)",
+    "url": "https://www.visitczechia.com/en-us/news/2021/07/n-where-to-go-in-prague-czech-food-and-beer",
+    "checkedAt": "2026-10-17"
+  },
+  "prague:Trdelník": {
+    "name": "VisitCzechia (CzechTourism)",
+    "url": "https://www.visitczechia.com/en-us/things-to-do/places/gastronomic-tourism/czech-cuisine-and-regional-products/c-trdelnik-chimney-cake-in-czechia",
+    "checkedAt": "2026-10-17"
+  },
+  "qingdao:Tsingtao Beer": {
+    "name": "青岛市文化和旅游局（青岛政务网）",
+    "url": "https://www.qingdao.gov.cn/zwgk/xxgk/whly/gkml/gzxx/202507/t20250729_9934025.shtml",
+    "checkedAt": "2026-10-17"
+  },
+  "qingdao:Spicy Stir-fried Clams": {
+    "name": "青岛市文化和旅游局（青岛政务网）",
+    "url": "https://www.qingdao.gov.cn/zwgk/xxgk/whly/gkml/gzxx/202512/t20251222_10415836.shtml",
+    "checkedAt": "2026-10-17"
+  },
+  "qingdao:Mackerel Dumplings": {
+    "name": "青岛市文化和旅游局（青岛政务网）",
+    "url": "https://www.qingdao.gov.cn/zwgk/xxgk/whly/gkml/gzxx/202605/t20260511_10590400.shtml",
+    "checkedAt": "2026-10-17"
+  },
+  "rovaniemi:Sautéed reindeer": {
+    "name": "Visit Finland",
+    "url": "https://www.visitfinland.com/en/have-some-finnish/lapland-tasting/",
+    "checkedAt": "2026-10-17"
+  },
+  "rovaniemi:Leipäjuusto": {
+    "name": "Visit Finland",
+    "url": "https://www.visitfinland.com/en/have-some-finnish/lapland-tasting/",
+    "checkedAt": "2026-10-17"
+  },
+  "rovaniemi:Lohikeitto": {
+    "name": "Visit Finland",
+    "url": "https://www.visitfinland.com/en/have-some-finnish/lapland-tasting/",
+    "checkedAt": "2026-10-17"
+  },
+  "saipan:Kelaguen": {
+    "name": "Marianas Visitors Authority",
+    "url": "https://mva.mymarianas.com/press-release/chicken-kelaguen-cook-off-jpop-at-taste-of-the-marianas/",
+    "checkedAt": "2026-10-17"
+  },
+  "sapporo:Sapporo Miso Ramen": {
+    "name": "Visit Sapporo (official travel guide)",
+    "url": "https://visit.sapporo.travel/itineraries/05/",
+    "checkedAt": "2026-10-17"
+  },
+  "sapporo:Soup Curry": {
+    "name": "Visit Sapporo (official travel guide)",
+    "url": "https://visit.sapporo.travel/discover/cuisine/soup-curry/",
+    "checkedAt": "2026-10-17"
+  },
+  "sapporo:Jingisukan": {
+    "name": "Visit Sapporo (official travel guide)",
+    "url": "https://visit.sapporo.travel/itineraries/05/",
+    "checkedAt": "2026-10-17"
+  },
+  "sapporo:Kaisendon": {
+    "name": "Visit Sapporo (official travel guide)",
+    "url": "https://visit.sapporo.travel/itineraries/05/",
+    "checkedAt": "2026-10-17"
+  },
+  "siem-reap:Amok": {
+    "name": "Royal Embassy of Cambodia in London",
+    "url": "https://www.cambodiaembassyuk.org/10-best-cambodian-foods-every-visitor-should-eat/",
+    "checkedAt": "2026-10-17"
+  },
+  "siem-reap:Lok Lak": {
+    "name": "Royal Embassy of Cambodia in London",
+    "url": "https://www.cambodiaembassyuk.org/10-best-cambodian-foods-every-visitor-should-eat/",
+    "checkedAt": "2026-10-17"
+  },
+  "siem-reap:Num Banh Chok": {
+    "name": "Royal Embassy of Cambodia in London",
+    "url": "https://www.cambodiaembassyuk.org/10-best-cambodian-foods-every-visitor-should-eat/",
+    "checkedAt": "2026-10-17"
+  },
+  "stockholm:Köttbullar": {
+    "name": "Visit Stockholm",
+    "url": "https://www.visitstockholm.com/eat-drink/restaurants/swedish-classics/",
+    "checkedAt": "2026-10-17"
+  },
+  "stockholm:Kanelbulle": {
+    "name": "Visit Stockholm",
+    "url": "https://www.visitstockholm.com/eat-drink/cafes/fika-in-stockholm/",
+    "checkedAt": "2026-10-17"
+  },
+  "stockholm:Toast Skagen": {
+    "name": "Visit Stockholm",
+    "url": "https://www.visitstockholm.com/eat-drink/restaurants/my-favorite-spots-to-enjoy-the-classics-of-swedish-cuisine/",
+    "checkedAt": "2026-10-17"
+  },
+  "strasbourg:Choucroute": {
+    "name": "Strasbourg Tourism Office",
+    "url": "https://www.visitstrasbourg.fr/en/discover/as-you-like-it/gastronomy/",
+    "checkedAt": "2026-10-17"
+  },
+  "strasbourg:Tarte flambée": {
+    "name": "Strasbourg Tourism Office",
+    "url": "https://www.visitstrasbourg.fr/en/discover/as-you-like-it/gastronomy/",
+    "checkedAt": "2026-10-17"
+  },
+  "strasbourg:Kougelhopf": {
+    "name": "Strasbourg Tourism Office",
+    "url": "https://www.visitstrasbourg.fr/en/discover/as-you-like-it/gastronomy/",
+    "checkedAt": "2026-10-17"
+  },
+  "sydney:Meat Pie": {
+    "name": "Sydney.com (Destination NSW)",
+    "url": "https://www.sydney.com/things-to-do/tours/local-sauce-tours-sydney/ultimate-aussie-food-tour-semi-private-tour",
+    "checkedAt": "2026-10-17"
+  },
+  "sydney:Flat White": {
+    "name": "Sydney.com (Destination NSW)",
+    "url": "https://www.sydney.com/things-to-do/tours/local-sauce-tours-sydney/ultimate-aussie-food-tour-semi-private-tour",
+    "checkedAt": "2026-10-17"
+  },
+  "ulaanbaatar:Buuz": {
+    "name": "Ulaanbaatar City Tourism Department",
+    "url": "https://tourism.ub.gov.mn/wp-content/uploads/English01.pdf",
+    "checkedAt": "2026-10-17"
+  },
+  "ulaanbaatar:Khuushuur": {
+    "name": "Ulaanbaatar City Tourism Department",
+    "url": "https://tourism.ub.gov.mn/wp-content/uploads/English01.pdf",
+    "checkedAt": "2026-10-17"
   }
 }

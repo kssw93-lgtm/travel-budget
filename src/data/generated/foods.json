@@ -7549,8 +7549,8 @@
       "PRG-AL-101"
     ],
     "priceStatus": "확정",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "VisitCzechia (CzechTourism)",
+    "recommendUrl": "https://www.visitczechia.com/en-us/news/2021/07/n-where-to-go-in-prague-czech-food-and-beer",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -7573,8 +7573,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "VisitCzechia (CzechTourism)",
+    "recommendUrl": "https://www.visitczechia.com/en-us/things-to-do/places/gastronomic-tourism/czech-cuisine-and-regional-products/c-trdelnik-chimney-cake-in-czechia",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -7597,8 +7597,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "青岛市文化和旅游局（青岛政务网）",
+    "recommendUrl": "https://www.qingdao.gov.cn/zwgk/xxgk/whly/gkml/gzxx/202507/t20250729_9934025.shtml",
     "note": "Claude 초안(2026-10-14)"
   },
   {
@@ -7615,8 +7615,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "青岛市文化和旅游局（青岛政务网）",
+    "recommendUrl": "https://www.qingdao.gov.cn/zwgk/xxgk/whly/gkml/gzxx/202512/t20251222_10415836.shtml",
     "note": "Claude 초안(2026-10-14)"
   },
   {
@@ -7639,8 +7639,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "青岛市文化和旅游局（青岛政务网）",
+    "recommendUrl": "https://www.qingdao.gov.cn/zwgk/xxgk/whly/gkml/gzxx/202605/t20260511_10590400.shtml",
     "note": "Claude 초안(2026-10-14)"
   },
   {
@@ -7949,8 +7949,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Finland",
+    "recommendUrl": "https://www.visitfinland.com/en/have-some-finnish/lapland-tasting/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -7967,8 +7967,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Finland",
+    "recommendUrl": "https://www.visitfinland.com/en/have-some-finnish/lapland-tasting/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -7985,8 +7985,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Finland",
+    "recommendUrl": "https://www.visitfinland.com/en/have-some-finnish/lapland-tasting/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -8035,8 +8035,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Marianas Visitors Authority",
+    "recommendUrl": "https://mva.mymarianas.com/press-release/chicken-kelaguen-cook-off-jpop-at-taste-of-the-marianas/",
     "note": "Claude 초안(2026-10-12)"
   },
   {
@@ -8227,8 +8227,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Sapporo (official travel guide)",
+    "recommendUrl": "https://visit.sapporo.travel/itineraries/05/",
     "note": "Claude 초안(2026-10-09)"
   },
   {
@@ -8253,8 +8253,8 @@
       "SPK-FD-001"
     ],
     "priceStatus": "확정",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Sapporo (official travel guide)",
+    "recommendUrl": "https://visit.sapporo.travel/discover/cuisine/soup-curry/",
     "note": "Claude 초안(2026-10-09)"
   },
   {
@@ -8277,8 +8277,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Sapporo (official travel guide)",
+    "recommendUrl": "https://visit.sapporo.travel/itineraries/05/",
     "note": "Claude 초안(2026-10-09)"
   },
   {
@@ -8301,8 +8301,8 @@
     "budgetBand": "고",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Sapporo (official travel guide)",
+    "recommendUrl": "https://visit.sapporo.travel/itineraries/05/",
     "note": "Claude 초안(2026-10-09)"
   },
   {
@@ -8319,8 +8319,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Royal Embassy of Cambodia in London",
+    "recommendUrl": "https://www.cambodiaembassyuk.org/10-best-cambodian-foods-every-visitor-should-eat/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -8337,8 +8337,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Royal Embassy of Cambodia in London",
+    "recommendUrl": "https://www.cambodiaembassyuk.org/10-best-cambodian-foods-every-visitor-should-eat/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -8355,8 +8355,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Royal Embassy of Cambodia in London",
+    "recommendUrl": "https://www.cambodiaembassyuk.org/10-best-cambodian-foods-every-visitor-should-eat/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -8465,8 +8465,8 @@
       "STO-FD-503"
     ],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Stockholm",
+    "recommendUrl": "https://www.visitstockholm.com/eat-drink/restaurants/swedish-classics/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -8483,8 +8483,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Stockholm",
+    "recommendUrl": "https://www.visitstockholm.com/eat-drink/cafes/fika-in-stockholm/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -8503,8 +8503,8 @@
       "STO-FD-502"
     ],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Visit Stockholm",
+    "recommendUrl": "https://www.visitstockholm.com/eat-drink/restaurants/my-favorite-spots-to-enjoy-the-classics-of-swedish-cuisine/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -8521,8 +8521,8 @@
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Strasbourg Tourism Office",
+    "recommendUrl": "https://www.visitstrasbourg.fr/en/discover/as-you-like-it/gastronomy/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -8539,8 +8539,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Strasbourg Tourism Office",
+    "recommendUrl": "https://www.visitstrasbourg.fr/en/discover/as-you-like-it/gastronomy/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -8557,8 +8557,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Strasbourg Tourism Office",
+    "recommendUrl": "https://www.visitstrasbourg.fr/en/discover/as-you-like-it/gastronomy/",
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
@@ -8581,8 +8581,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Sydney.com (Destination NSW)",
+    "recommendUrl": "https://www.sydney.com/things-to-do/tours/local-sauce-tours-sydney/ultimate-aussie-food-tour-semi-private-tour",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -8629,8 +8629,8 @@
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Sydney.com (Destination NSW)",
+    "recommendUrl": "https://www.sydney.com/things-to-do/tours/local-sauce-tours-sydney/ultimate-aussie-food-tour-semi-private-tour",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -8993,8 +8993,8 @@
       "ULN-FD-101"
     ],
     "priceStatus": "확정",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Ulaanbaatar City Tourism Department",
+    "recommendUrl": "https://tourism.ub.gov.mn/wp-content/uploads/English01.pdf",
     "note": "Claude 초안(2026-10-13)"
   },
   {
@@ -9019,8 +9019,8 @@
       "ULN-FD-102"
     ],
     "priceStatus": "확정",
-    "recommendSource": "",
-    "recommendUrl": "",
+    "recommendSource": "Ulaanbaatar City Tourism Department",
+    "recommendUrl": "https://tourism.ub.gov.mn/wp-content/uploads/English01.pdf",
     "note": "Claude 초안(2026-10-13)"
   },
   {

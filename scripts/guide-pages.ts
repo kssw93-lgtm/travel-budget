@@ -259,7 +259,7 @@ export function guideIndexMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
     path: '/guides',
     lang,
     ld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: t.indexTitle, inLanguage: lang },
-    fallbackHtml: `        <h1>${e(t.indexTitle)}</h1>\n        <p>${e(t.indexLead)}</p>\n${xmasList}${groups}`,
+    fallbackHtml: `        <h1>${e(t.indexTitle)}</h1>\n        <p>${e(t.indexLead)}</p>\n        <p><a href="/compare?lang=${lang}">${e(MSG[lang].compare.title)}</a> · <a href="/christmas-markets?lang=${lang}">${e(t.xmasPageTitle)}</a></p>\n${xmasList}${groups}`,
   };
 }
 
@@ -410,6 +410,7 @@ export function homeFallbackHtml(d: GuideData, lang: Lang = 'ko'): string {
     `        <h2>${e(s.homeH2)}</h2>`,
     `        <ul>${s.homeList.map((x) => `<li>${e(x)}</li>`).join('')}</ul>`,
     `        <p>${e(fill(s.homeSource, { date: d.updated }))}</p>`,
+    `        <ul><li><a href="/compare?lang=${lang}">${e(t.compare.title)}</a></li><li><a href="/how-it-works?lang=${lang}">${e(t.method.title)}</a></li><li><a href="/christmas-markets?lang=${lang}">${e(t.cityGuide.xmasPageTitle)}</a></li></ul>`,
     `        <h2>${e(fill(s.homeGuides, { n: d.cities.length }))}</h2>`,
     items,
   ].join('\n');

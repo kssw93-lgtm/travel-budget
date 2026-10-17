@@ -57,6 +57,15 @@ export function GuideIndex({ go }: { go: Go }) {
     <article className="card prose" data-testid="guides">
       <h1 tabIndex={-1}>{g.indexTitle}</h1>
       <p className="lead">{g.indexLead}</p>
+      <p className="guide-links">
+        <InternalLink to={`/compare?lang=${lang}`} go={go}>
+          {t.compare.title}
+        </InternalLink>
+        {' · '}
+        <InternalLink to={`/christmas-markets?lang=${lang}`} go={go}>
+          {g.xmasPageTitle}
+        </InternalLink>
+      </p>
       <div className="field guide-search">
         <label htmlFor="guide-search">{g.searchLabel}</label>
         <input id="guide-search" type="search" value={query} placeholder={g.searchPlaceholder} onChange={(e) => setQuery(e.target.value)} />

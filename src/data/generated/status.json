@@ -2043,6 +2043,34 @@
     "missing": [],
     "computable": true
   },
+  "cairo": {
+    "counts": {
+      "food": 3,
+      "transport": 1,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 3,
+      "snack": 2,
+      "drink": 0,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 3,
+      "snack": 2,
+      "drink": 0,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "reykjavik": {
     "counts": {
       "food": 3,
@@ -2334,7 +2362,7 @@
       "ride": 1,
       "meal": 3,
       "snack": 4,
-      "drink": 3,
+      "drink": 4,
       "attraction": 3,
       "souvenir": 0
     },
@@ -2343,7 +2371,7 @@
       "ride": 1,
       "meal": 3,
       "snack": 4,
-      "drink": 3,
+      "drink": 4,
       "attraction": 3,
       "souvenir": 0
     },

@@ -135,6 +135,9 @@
 | 더블린 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 브뤼셀 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 브뤼셀 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 카이로 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 카이로 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 카이로 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 레이캬비크 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 레이캬비크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 레이캬비크 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -593,6 +596,17 @@
 | BRU-AT-104 | 브뤼셀 | 미니 유럽 입장권(12세 미만, 현장) | 17.9 EUR | A | 예 | 재검증 | [Mini-Europe](https://www.minieurope.com/en/individual-rates/) |
 | BRU-AT-105 | 브뤼셀 | 벨기에 왕립미술관 고전관(성인) | 13 EUR | A | 예 | 재검증 | [Royal Museums of Fine Arts of Belgium](https://fine-arts-museum.be/fr/votre-visite/planifier-sa-visite/tarifs) |
 | BRU-AT-106 | 브뤼셀 | 벨기에 왕립미술관(0~17세) | 0 EUR | A | 예 | 재검증 | [Royal Museums of Fine Arts of Belgium](https://fine-arts-museum.be/fr/votre-visite/planifier-sa-visite/tarifs) |
+| CAI-FD-101 | 카이로 | 버팔로 버거 올드 스쿨 버거 | 205 EGP | A | 예 | 재검증 | [Buffalo Burger (자체 주문 사이트)](https://buffaloburger.com/menu#1) |
+| CAI-FD-102 | 카이로 | 코샤리 아부 아야 코샤리 중 | 30 EGP | A | 예 | 재검증 | [Koshary Abou Aya (자체 주문 사이트, Dawaran Shubra)](https://aboaya.com/) |
+| CAI-SN-101 | 카이로 | 버팔로 버거 패션프루트 치즈케이크 | 110 EGP | A | 예 | 재검증 | [Buffalo Burger (자체 주문 사이트)](https://buffaloburger.com/menu#1) |
+| CAI-SN-102 | 카이로 | 코샤리 아부 아야 생수 350ml | 10 EGP | A | 예 | 재검증 | [Koshary Abou Aya](https://aboaya.com/) |
+| CAI-TR-101 | 카이로 | 카이로 지하철 1회권(9역까지~39역) | 10~20 EGP | A | 예 | 재검증 | [Cairo Governorate (cairo.gov.eg)](https://www.cairo.gov.eg/ar/governorate-services/transportation-services/metro/metro-tickets/) |
+| CAI-AT-101 | 카이로 | 기자 고원 입장권(외국인 성인) | 700 EGP | A | 예 | 재검증 | [Ministry of Tourism and Antiquities (egymonuments.gov.eg)](https://egymonuments.gov.eg/en/archaeological-sites/giza-plateau) |
+| CAI-AT-102 | 카이로 | 기자 고원 입장권(외국인 학생) | 350 EGP | A | 조건부 | 조건부, 재검증 | [Ministry of Tourism and Antiquities (egymonuments.gov.eg)](https://egymonuments.gov.eg/en/archaeological-sites/giza-plateau) |
+| CAI-AT-103 | 카이로 | 이집트 박물관(타흐리르) 외국인 성인 | 550 EGP | A | 예 | 재검증 | [Ministry of Tourism and Antiquities (egymonuments.gov.eg)](https://egymonuments.gov.eg/en/museums/egyptian-museum) |
+| CAI-AT-104 | 카이로 | 이집트 박물관(6세 미만) | 0 EGP | A | 예 | 재검증 | [Ministry of Tourism and Antiquities (egymonuments.gov.eg)](https://egymonuments.gov.eg/en/museums/egyptian-museum) |
+| CAI-AT-105 | 카이로 | 살라딘 성채 외국인 성인 | 550 EGP | A | 예 | 재검증 | [Ministry of Tourism and Antiquities (egymonuments.gov.eg)](https://egymonuments.gov.eg/archaeological-sites/cairo-citadel/) |
+| CAI-AT-106 | 카이로 | 살라딘 성채 외국인 학생 | 275 EGP | A | 조건부 | 조건부, 재검증 | [Ministry of Tourism and Antiquities (egymonuments.gov.eg)](https://egymonuments.gov.eg/archaeological-sites/cairo-citadel/) |
 | REK-FD-101 | 레이캬비크 | 햄보르가라뷜란 뷜루버거(120g) | 2340 ISK | A | 예 | 재검증 | [Hamborgarabúllan Tómasar (Tommi's Burger Joint)](https://bullan.is/matsedill/) |
 | REK-FD-102 | 레이캬비크 | 누들 스테이션 치킨 누들 수프 | 2690 ISK | A | 조건부 | 조건부, 재검증 | [Noodle Station](https://noodlestation.is/testnewmenu/) |
 | REK-FD-103 | 레이캬비크 | 카페 로키 양고기 수프 | 4850 ISK | A | 예 | 재검증 | [Café Loki](https://loki.is/menu) |
@@ -653,6 +667,8 @@
 | TLL-AT-102 | 탈린 | 탈린 구시청사(할인) | 5 EUR | A | 조건부 | 조건부, 재검증 | [Tallinn Town Hall 공식](https://raekoda.tallinn.ee/en/visit-tickets-and-fees/) |
 | TLL-AT-103 | 탈린 | 카드리오르그 미술관 | 15 EUR | A | 예 | 재검증 | [Art Museum of Estonia 공식](https://kunstimuuseum.ekm.ee/en/tickets-museum/#kadriorg-art-museum) |
 | TLL-AT-104 | 탈린 | 카드리오르그 미술관(할인) | 10 EUR | A | 조건부 | 조건부, 재검증 | [Art Museum of Estonia 공식](https://kunstimuuseum.ekm.ee/en/tickets-museum/#kadriorg-art-museum) |
+| CAI-FD-103 | 카이로 | 알 베이루티 치킨 샤와르마(감자튀김 포함) | 455 EGP | A | 조건부 | 조건부, 재검증 | [Al Beiruti Egypt 공식](https://www.albeiruti.com/menu/egypt) |
+| EDI-FD-511 | 에든버러 | 킹피셔 맥주 330ml(Dishoom) | 6.7 GBP | A | 예 | 재검증 | [Dishoom Edinburgh 공식](https://www.dishoom.com/menu/drinks-edinburgh/) |
 | SPN-AT-101 | 사이판 | 마나가하 섬 상륙료(비거주자) | 5 USD | A | 조건부 | 조건부, 재검증 | [CNMI Law Revision Commission – Commonwealth Code 2 CMC § 1621](https://cnmilaw.gov/commonwealth-code/1598) |
 | BUD-AT-301 | 부다페스트 | 세체니 온천 1일권(라커 포함) | 13200~15800 HUF | A | 예 | 재검증 | [Széchenyi Thermal Bath](https://www.szechenyibath.hu/prices) |
 | MUC-AT-301 | 뮌헨 | 독일박물관 1일권(성인) | 16 EUR | A | 예 | 재검증 | [Deutsches Museum](https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets) |

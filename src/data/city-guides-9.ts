@@ -123,5 +123,17 @@ export const NOTES_9: Record<string, Compact> = {
       ['구시가지 명소를 한 번에 많이 넣기보다 로열 마일을 중심으로 성과 궁전, 주변 골목을 묶어 걷는 동선으로 계획하세요.', 'Rather than cramming in every Old Town sight, plan a walking route around the Royal Mile that groups the castle, palace and nearby closes.', '旧市街の名所を詰め込みすぎず、ロイヤル・マイルを軸に城や宮殿、周辺の路地をまとめて歩くルートを組みましょう。'],
     ],
   },
+  cairo: {
+    h: [
+      ['기자 피라미드와 스핑크스', 'Giza Pyramids and Sphinx', 'ギザのピラミッドとスフィンクス', '고대 세계 7대 불가사의 중 유일하게 남은 피라미드 단지. 시내에서 차로 갑니다.', 'The only surviving wonder of the ancient world, a drive from central Cairo.', '古代世界の七不思議で唯一残るピラミッド群。市内から車で向かいます。'],
+      ['이집트 박물관(타흐리르)', 'Egyptian Museum (Tahrir)', 'エジプト考古学博物館（タハリール）', '타흐리르 광장의 박물관으로 고대 이집트 유물이 가득합니다.', 'The museum on Tahrir Square, packed with ancient Egyptian treasures.', 'タハリール広場の博物館で、古代エジプトの遺物が詰まっています。'],
+      ['살라딘 성채', 'Citadel of Saladin', 'サラディンの城塞', '언덕 위 중세 요새로, 안의 무함마드 알리 모스크에서 시내가 내려다보입니다.', 'A medieval hilltop fortress whose Muhammad Ali Mosque overlooks the city.', '丘の上の中世の要塞で、中のムハンマド・アリー・モスクから市内が見渡せます。'],
+      ['칸 엘 칼릴리 시장', 'Khan el-Khalili', 'ハーン・ハリーリ市場', '이슬람 구시가지의 오래된 시장 골목입니다.', 'The historic bazaar lanes of Islamic Cairo.', 'イスラーム地区にある歴史ある市場の路地です。'],
+    ],
+    t: [
+      ['시내 이동은 지하철이 저렴하고 막힘이 없으며, 택시는 차량 호출 앱을 쓰면 요금 흥정을 피할 수 있습니다.', 'The metro is cheap and avoids traffic, and ride-hailing apps save you from haggling over taxi fares.', '市内移動は地下鉄が安く渋滞もなく、タクシーは配車アプリを使えば値段交渉を避けられます。'],
+      ['명소 입장권은 외국인 요금이 따로 있으니 공식 매표소에서 직접 사세요.', 'Sites charge separate foreigner prices; buy tickets yourself at the official counter.', '名所の入場券は外国人料金が別にあるので、公式窓口で直接購入しましょう。'],
+    ],
+  },
 };
 

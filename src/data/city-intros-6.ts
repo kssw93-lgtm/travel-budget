@@ -58,5 +58,13 @@ export const INTROS_6: Record<string, Intro> = {
       ['뉴타운·프린스 스트리트', 'New Town / Princes Street', 'ニュータウン・プリンシズ・ストリート', '조지 왕조 시대 건축과 쇼핑·식당을 즐기고 싶다면 뉴타운을 살펴보세요. 버스·기차·트램 거점도 걸어서 닿는 도심 구역입니다.', 'Consider New Town for Georgian architecture, shopping and dining. Bus, rail and tram hubs are within walking distance in the city centre.', 'ジョージアン様式の建築やショッピング、食事を楽しみたい人はニュータウンを検討できます。バス・鉄道・トラムの拠点も徒歩圏内にある中心地区です。'],
     ],
   },
+  cairo: {
+    o: ['피라미드와 고대 이집트 유물, 이슬람 구시가지의 모스크와 시장이 한 도시에 있는 이집트의 수도입니다. 교통이 매우 혼잡해 지역별로 하루씩 묶어 다니는 일정이 편합니다.', 'Egypt’s capital, home to the pyramids, ancient treasures and the mosques and bazaars of Islamic Cairo. Traffic is intense, so plan a day per area.', 'ピラミッドと古代エジプトの遺物、イスラーム地区のモスクや市場が一つの街にあるエジプトの首都。交通がとても混むので、エリアごとに1日ずつ回るのが楽です。'],
+    d: [3, 4],
+    s: [
+      ['다운타운·자말렉', 'Downtown / Zamalek', 'ダウンタウン・ザマレク', '박물관과 지하철이 가깝고 나일강 섬 자말렉은 비교적 조용합니다.', 'Close to the museum and metro; Zamalek, a Nile island, is calmer.', '博物館や地下鉄に近く、ナイル川の中州ザマレクは比較的静かです。'],
+      ['기자', 'Giza', 'ギザ', '피라미드가 보이는 숙소가 많아 이른 아침 관람에 좋습니다.', 'Pyramid-view hotels, ideal for an early start at the site.', 'ピラミッドが見える宿が多く、早朝の見学に便利です。'],
+    ],
+  },
 };
 

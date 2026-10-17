@@ -260,4 +260,15 @@ export const COUNTRY_2: Record<string, CountryNote> = {
       ['일부 술집에서 관광객에게 터무니없는 술값을 받는 경우가 있으니 주문 전에 가격을 확인하세요.', 'Some bars charge tourists exorbitant drink prices; check prices before ordering.', '一部のバーでは観光客に法外な酒代を請求することがあるので、注文前に値段を確認しましょう。', 'https://gov.uk/foreign-travel-advice/estonia/safety-and-security'],
     ],
   },
+  Egypt: {
+    tips: [
+      ['식당·호텔·가이드 등에서 팁(박시시)을 주는 것이 일반적이니 작은 지폐를 넉넉히 챙기세요.', 'Tipping (baksheesh) is expected in restaurants, hotels and on tours, so carry plenty of small notes.', 'レストランやホテル、ガイドなどでチップ（バクシーシ）を渡すのが一般的なので、小額紙幣を多めに。', 'https://www.egypttoursplus.com/tipping-in-egypt/'],
+      ['수돗물보다 밀봉된 생수를 마시는 것이 안전합니다.', 'Drink sealed bottled water rather than tap water.', '水道水より未開封のミネラルウォーターを飲むのが安全です。', 'https://intrepidtravel.com/ca/egypt/is-water-safe-to-drink-in-egypt'],
+    ],
+    cautions: [
+      ['피라미드 주변에는 가짜 가이드와 호객꾼이 많으니 공식 매표소에서 표를 사고 낙타·마차는 가격을 먼저 정하세요.', 'Fake guides and touts work around the pyramids; buy tickets at official counters and agree camel or carriage prices first.', 'ピラミッド周辺には偽ガイドや客引きが多いので、公式窓口で切符を買い、ラクダや馬車は先に値段を決めましょう。', 'https://www.inyourpocket.com/egypt/common-egypt-travel-scams-and-how-to-avoid-them_81428f'],
+      ['일부 지역은 여행 자제·금지 경보가 있으니 출발 전에 정부 해외안전 안내를 확인하세요.', 'Some regions carry advice against travel; check official government travel advice before you go.', '一部地域には渡航中止・自粛の勧告があるので、出発前に政府の海外安全情報を確認しましょう。', 'https://www.gov.uk/foreign-travel-advice/egypt/safety-and-security'],
+    ],
+  },
 };
+

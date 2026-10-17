@@ -2141,6 +2141,80 @@
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
+    "cityId": "cairo",
+    "nameKo": "코샤리",
+    "nameEn": "Koshary",
+    "reason": "쌀·렌틸콩·파스타·병아리콩에 매콤한 토마토소스와 튀긴 양파를 올린 카이로 대표 길거리 음식",
+    "reasonEn": "Rice, lentil and pasta street dish",
+    "desc": {
+      "ko": "쌀·렌틸콩·파스타·병아리콩에 매콤한 토마토소스와 튀긴 양파를 올린 카이로 대표 길거리 음식",
+      "en": "Rice, lentils, pasta and chickpeas topped with spiced tomato sauce and fried onions",
+      "ja": "米・レンズ豆・パスタ・ひよこ豆にスパイシーなトマトソースと揚げ玉ねぎをのせたカイロ名物"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "CAI-FD-102"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "cairo",
+    "nameKo": "풀 메담마스",
+    "nameEn": "Ful medames",
+    "reason": "잠두콩을 오래 끓여 올리브유·레몬·쿠민으로 맛을 낸 이집트식 아침 식사",
+    "reasonEn": "Slow-cooked fava beans",
+    "desc": {
+      "ko": "잠두콩을 오래 끓여 올리브유·레몬·쿠민으로 맛을 낸 이집트식 아침 식사",
+      "en": "Slow-cooked fava beans with olive oil, lemon and cumin, a breakfast staple",
+      "ja": "そら豆をじっくり煮てオリーブ油・レモン・クミンで味付けしたエジプトの朝食"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "cairo",
+    "nameKo": "타메야",
+    "nameEn": "Taameya",
+    "reason": "잠두콩으로 만든 이집트식 팔라펠",
+    "reasonEn": "Fava-bean falafel",
+    "desc": {
+      "ko": "잠두콩으로 만든 이집트식 팔라펠",
+      "en": "Egyptian falafel made from fava beans",
+      "ja": "そら豆で作るエジプト式ファラフェル"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
+    "cityId": "cairo",
+    "nameKo": "몰로키야",
+    "nameEn": "Molokhia",
+    "reason": "잘게 다진 몰로키야 잎을 마늘·고수와 끓인 초록색 수프로 밥·닭고기와 먹음",
+    "reasonEn": "Green jute-leaf soup",
+    "desc": {
+      "ko": "잘게 다진 몰로키야 잎을 마늘·고수와 끓인 초록색 수프로 밥·닭고기와 먹음",
+      "en": "Green soup of chopped jute leaves with garlic and coriander, served with rice and chicken",
+      "ja": "刻んだモロヘイヤをにんにくとコリアンダーで煮た緑のスープ、ご飯や鶏肉と"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "",
+    "recommendUrl": "",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
     "cityId": "cancun",
     "nameKo": "코치니타 피빌",
     "nameEn": "Cochinita Pibil",

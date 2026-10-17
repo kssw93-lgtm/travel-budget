@@ -8,6 +8,7 @@ import { CITY_GUIDES } from '../src/data/city-guides';
 import { CHRISTMAS_MARKETS } from '../src/data/christmas-markets';
 import { CITY_INTROS } from '../src/data/city-intros';
 import { CITY_SEASONS } from '../src/data/city-seasons';
+import { CITY_WHEN } from '../src/data/city-when';
 import { COUNTRY_GUIDES } from '../src/data/country-guides';
 import type { City, CityMemo, ExtraSample, FoodRecommendation, PriceSample, Range } from '../src/core/types';
 import { en } from '../src/i18n/en';
@@ -119,8 +120,16 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
     ? `        <h2>${e(fill(t.stayTitle, { city: name }))}</h2><dl>${intro.s.map((a) => `<dt>${e(a[IDX[lang]])}</dt><dd>${e(a[3 + IDX[lang]] ?? "")}</dd>`).join('')}</dl>`
     : '';
   const season = CITY_SEASONS[city.id];
+  const wh = CITY_WHEN[city.id];
+  const when =
+    wh || season
+      ? `        <h2>${e(fill(t.whenTitle, { city: name }))}</h2>` +
+        (wh ? `<dl>${wh.p.map((p) => `<dt>${e(p[IDX[lang]])}</dt><dd>${e(p[3 + IDX[lang]] ?? '')}</dd>`).join('')}</dl>` : '') +
+        (season ? `<p><strong>${e(t.whenWeather)}</strong> ${e(season[IDX[lang]])}${season[3] ? ` <small><a href="${e(season[3])}" rel="noopener">${e(t.sourceLink)}</a></small>` : ''}</p>` : '') +
+        (wh?.x ? `<p><strong>${e(t.whenAvoid)}</strong> ${e(wh.x[IDX[lang]])}</p>` : '') +
+        `<p>${e(t.seasonHint)}</p>`
+      : '';
   const cityTips =
-    (season ? `<h3>${e(fill(t.seasonTitle, { city: name }))}</h3><p>${e(season[IDX[lang]])} ${e(t.seasonHint)}</p>` : '') +
     (note?.tips.length ? `<h3>${e(fill(t.tipsTitle, { city: name }))}</h3><ul>${note.tips.map((x) => `<li>${e(x[lang])}</li>`).join('')}</ul>` : '');
   const cn = COUNTRY_GUIDES[city.countryEn];
   const i = IDX[lang];
@@ -171,6 +180,7 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
     `        <p>${e(lead)}</p>`,
     days && `        <p>${e(days.min === days.max ? fill(t.daysOne, { n: days.min }) : fill(t.daysRange, { min: days.min, max: days.max }))}</p>`,
     cta,
+    when,
     xmas,
     sights,
     stay,

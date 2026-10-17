@@ -3,6 +3,7 @@ import { allCities, cities } from '../../src/data';
 import { CHRISTMAS_MARKETS } from '../../src/data/christmas-markets';
 import { CITY_INTROS } from '../../src/data/city-intros';
 import { CITY_SEASONS } from '../../src/data/city-seasons';
+import { CITY_WHEN } from '../../src/data/city-when';
 import { COUNTRY_GUIDES } from '../../src/data/country-guides';
 
 describe('나라별 알아둘 것·조심할 것', () => {
@@ -27,6 +28,19 @@ describe('나라별 알아둘 것·조심할 것', () => {
       expect(s!.slice(0, 3).every((x) => !!x && x.length > 10), c.id).toBe(true);
       expect(s![3], c.id).toMatch(/^https:\/\//);
     }
+  });
+
+  it('공개된 모든 도시에 「언제 가면 좋을까」 추천 시기와 이유가 있고, 금액은 쓰지 않는다', () => {
+    for (const c of cities) {
+      const w = CITY_WHEN[c.id];
+      expect(w, c.id).toBeDefined();
+      expect(w!.p.length, c.id).toBeGreaterThan(0);
+      for (const p of w!.p) expect(p.every((x) => x.length > 0), c.id).toBe(true);
+      if (w!.x) expect(w!.x.every((x) => x.length > 0), c.id).toBe(true);
+      const all = [...w!.p.flat(), ...(w!.x ?? [])].join(' ');
+      expect(all, c.id).not.toMatch(/[$€£¥₩]\s?\d|\d\s?(원|円|달러|유로)/);
+    }
+    for (const id of Object.keys(CITY_WHEN)) expect(allCities.some((c) => c.id === id), id).toBe(true);
   });
 
   it('공개된 모든 도시에 소개·추천 기간·숙소 동네가 있다', () => {

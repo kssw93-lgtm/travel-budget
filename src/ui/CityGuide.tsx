@@ -7,6 +7,7 @@ import { CITY_GUIDES } from '../data/city-guides';
 import { CHRISTMAS_MARKETS } from '../data/christmas-markets';
 import { CITY_INTROS } from '../data/city-intros';
 import { CITY_SEASONS } from '../data/city-seasons';
+import { CITY_WHEN } from '../data/city-when';
 import { COUNTRY_GUIDES } from '../data/country-guides';
 import { DEFAULT_CURRENCY, fmt, localName, useI18n, type Lang } from '../i18n';
 import { InternalLink, type Go } from './App';
@@ -131,6 +132,50 @@ function Highlights({ city }: { city: City }) {
   );
 }
 
+/** 언제 가면 좋을까: 추천 시기와 이유(축제·계절 풍경), 날씨, 피하면 좋은 때 */
+function WhenToGo({ city }: { city: City }) {
+  const { t, lang } = useI18n();
+  const g = t.cityGuide;
+  const w = CITY_WHEN[city.id];
+  const season = CITY_SEASONS[city.id];
+  if (!w && !season) return null;
+  const i = L(lang);
+  return (
+    <section id="when" className="card prose when-to-go" aria-labelledby="guide-when-title" data-testid="guide-when">
+      <h2 id="guide-when-title">{fmt(g.whenTitle, { city: cityName(city, lang) })}</h2>
+      {w && (
+        <dl className="areas">
+          {w.p.map((p) => (
+            <div key={p[1]}>
+              <dt>{p[i]}</dt>
+              <dd>{p[3 + i]}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
+      {season && (
+        <p data-testid="guide-season">
+          <strong>{g.whenWeather}</strong> {season[i]}
+          {season[3] && (
+            <>
+              {' '}
+              <small>
+                <ExternalLink href={season[3]}>{g.sourceLink}</ExternalLink>
+              </small>
+            </>
+          )}
+        </p>
+      )}
+      {w?.x && (
+        <p>
+          <strong>{g.whenAvoid}</strong> {w.x[i]}
+        </p>
+      )}
+      <p className="hint">{g.seasonHint}</p>
+    </section>
+  );
+}
+
 /** 겨울 크리스마스 마켓(데이터가 있는 도시만) */
 function ChristmasMarket({ city }: { city: City }) {
   const { t, lang } = useI18n();
@@ -183,14 +228,13 @@ function StayAreas({ city }: { city: City }) {
   );
 }
 
-/** 그 도시의 현지 팁 + 여행 시기 + 나라 전체의 알아둘 것·조심할 것 */
+/** 그 도시의 현지 팁 + 나라 전체의 알아둘 것·조심할 것 */
 function TipsAndCautions({ city }: { city: City }) {
   const { t, lang } = useI18n();
   const g = t.cityGuide;
   const note = CITY_GUIDES[city.id];
-  const season = CITY_SEASONS[city.id];
   const country = COUNTRY_GUIDES[city.countryEn];
-  if (!note?.tips.length && !season && !country) return null;
+  if (!note?.tips.length && !country) return null;
   const name = cityName(city, lang);
   const cname = countryName(city, lang);
   const i = L(lang);
@@ -206,15 +250,6 @@ function TipsAndCautions({ city }: { city: City }) {
   return (
     <section id="tips" className="card prose city-tips" aria-labelledby="guide-tips-title" data-testid="guide-tips">
       <h2 id="guide-tips-title">{fmt(g.tipsSectionTitle, { city: name })}</h2>
-      {season && (
-        <>
-          <h3>{fmt(g.seasonTitle, { city: name })}</h3>
-          <p data-testid="guide-season">
-            {season[i]} <small className="muted">{g.seasonHint}</small>
-            {src(season[3])}
-          </p>
-        </>
-      )}
       {note && note.tips.length > 0 && (
         <>
           <h3>{fmt(g.tipsTitle, { city: name })}</h3>
@@ -351,6 +386,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
   const ctaText = days ? fmt(g.ctaNights, { city: name, n: days.nights, d: days.nights + 1 }) : fmt(g.cta, { city: name });
   const hasTransport = !!guide.prices.find((p) => p.basket === 'ride') && guide.passTips.length > 0;
   const toc: Array<[string, string, boolean]> = [
+    ['when', g.tocWhen, !!CITY_WHEN[city.id] || !!CITY_SEASONS[city.id]],
     ['christmas', g.tocXmas, !!CHRISTMAS_MARKETS[city.id]],
     ['sights', g.tocSights, !!CITY_GUIDES[city.id]?.highlights.length],
     ['stay', g.tocStay, !!intro?.s.length],
@@ -395,6 +431,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
         </nav>
       </section>
 
+      <WhenToGo city={city} />
       <ChristmasMarket city={city} />
       <Highlights city={city} />
       <StayAreas city={city} />

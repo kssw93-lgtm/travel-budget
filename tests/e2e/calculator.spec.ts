@@ -358,7 +358,10 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(notes).toContainText('센소지');
     const tips = page.getByTestId('guide-tips');
     await expect(tips).toContainText('도쿄 여행 팁과 조심할 점');
-    await expect(tips).toContainText('도쿄 여행하기 좋은 시기');
+    const when = page.getByTestId('guide-when');
+    await expect(when).toContainText('도쿄 언제 가면 좋을까');
+    await expect(when).toContainText('벚꽃');
+    await expect(page.getByTestId('guide-toc').getByRole('link', { name: '언제 갈까' })).toHaveAttribute('href', '#when');
     await expect(page.getByTestId('guide-intro')).toContainText('아사쿠사');
     await expect(page.getByTestId('guide-stay')).toContainText('신주쿠');
     await expect(page.getByTestId('guide-toc').getByRole('link', { name: '숙소 위치' })).toHaveAttribute('href', '#stay');

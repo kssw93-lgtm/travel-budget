@@ -1,6 +1,6 @@
 /**
  * 「언제 가면 좋을까」 항목별 근거 URL. 키는 「도시id:p1」(추천 시기 1부터)·「도시id:x」(피하면 좋은 때).
- * GPT 할 일 Y(2026-10-19)에서 맞음/수정으로 확인된 것만. 항목 순서를 바꾸면 키도 함께 고친다.
+ * GPT 할 일 Y·AA(2026-10-19)에서 확인된 것만. 항목 순서를 바꾸면 키도 함께 고친다. scripts/import-guide-sources.ts 로 합친다.
  */
 export const WHEN_SOURCES: Record<string, string> = {
   'amsterdam:p1': 'https://www.iamsterdam.com/en/see-and-do/attractions-and-sights/tulips-and-flowers',

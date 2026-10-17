@@ -1,6 +1,6 @@
 /**
- * 도시 가이드 볼거리(h)·팁(t) 항목별 근거 URL. 키는 「도시id:h1」(1부터). GPT 검증(2026-10-18·19)에서 맞음/수정으로 확인된 항목만.
- * 금액 근거가 아니라 장소·사실 확인용이다. 항목 순서를 바꾸면 이 키도 함께 고친다.
+ * 도시 가이드 볼거리(h)·팁(t) 항목별 근거 URL. 키는 「도시id:h1」(1부터). GPT 검증(2026-10-18·19, 할 일 V·AA)에서 확인된 항목만.
+ * 금액 근거가 아니라 장소·사실 확인용이다. 항목 순서를 바꾸면 이 키도 함께 고친다. scripts/import-guide-sources.ts 로 합친다.
  */
 export const GUIDE_SOURCES: Record<string, string> = {
   'almaty:h1': 'https://www.kazakhstan.travel/en/regions/almaty',

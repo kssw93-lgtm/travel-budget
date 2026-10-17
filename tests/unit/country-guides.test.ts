@@ -80,6 +80,12 @@ describe('나라별 알아둘 것·조심할 것', () => {
       expect(allCities.some((c) => c.id === id), id).toBe(true);
       expect(m.url, id).toMatch(/^https:\/\//);
       for (const x of [m.name, m.place, m.period, m.note]) expect(x.every((v) => v.length > 0), id).toBe(true);
+      if (m.dates) {
+        const [start, end] = m.dates;
+        expect(start, id).toMatch(/^2026-1[12]-\d{2}$/);
+        if (end) expect(end >= start && end <= '2027-01-31', id).toBe(true);
+        expect(m.period[0], id).toContain(`${Number(start.slice(5, 7))}월 ${Number(start.slice(8))}일`);
+      }
       expect([...m.note, ...m.period].join(' '), id).not.toMatch(/[$€£¥₩]\s?\d|\d\s?(원|円|달러|유로)/);
     }
   });

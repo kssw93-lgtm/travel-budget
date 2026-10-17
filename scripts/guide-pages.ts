@@ -224,6 +224,7 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
             { '@type': 'ListItem', position: 2, name: fill(t.title, { city: name }) },
           ],
         },
+        ...[marketEvent(city, lang)].filter(Boolean),
       ],
     },
     fallbackHtml,
@@ -258,6 +259,25 @@ export function guideIndexMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
   };
 }
 
+/** 크리스마스 마켓의 검색엔진 행사 정보(schema.org Event). 공식 일정(dates)이 확인된 곳만 */
+function marketEvent(c: City, lang: Lang): Record<string, unknown> | null {
+  const m = CHRISTMAS_MARKETS[c.id];
+  if (!m?.dates) return null;
+  const i = IDX[lang];
+  return {
+    '@type': 'Event',
+    name: m.name[i],
+    description: m.note[i],
+    startDate: m.dates[0],
+    ...(m.dates[1] ? { endDate: m.dates[1] } : {}),
+    eventStatus: 'https://schema.org/EventScheduled',
+    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+    location: { '@type': 'Place', name: m.place[i], address: { '@type': 'PostalAddress', addressLocality: c.nameEn, addressCountry: c.countryEn } },
+    url: m.url,
+    inLanguage: lang,
+  };
+}
+
 /** 크리스마스 마켓 일정 모음(/christmas-markets)의 정적 HTML */
 export function christmasPageMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
   const t = MSG[lang].cityGuide;
@@ -285,7 +305,13 @@ export function christmasPageMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
     description: t.xmasPageDescription,
     path: '/christmas-markets',
     lang,
-    ld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: t.xmasPageTitle, description: t.xmasPageDescription, inLanguage: lang },
+    ld: {
+      '@context': 'https://schema.org',
+      '@graph': [
+        { '@type': 'CollectionPage', name: t.xmasPageTitle, description: t.xmasPageDescription, inLanguage: lang },
+        ...d.cities.map((c) => marketEvent(c, lang)).filter(Boolean),
+      ],
+    },
     fallbackHtml: `        <nav><a href="/guides?lang=${lang}">${e(t.indexTitle)}</a></nav>\n        <h1>${e(t.xmasPageTitle)}</h1>\n        <p>${e(t.xmasPageLead)}</p>\n${groups}\n        <p>${e(t.xmasPageNote)}</p>`,
   };
 }

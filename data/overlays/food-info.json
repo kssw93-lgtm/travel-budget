@@ -2883,37 +2883,79 @@
   "tashkent:Plov": {
     "ko": "고기·당근·쌀을 큰 솥에 지은 우즈베크 국민 요리",
     "en": "Uzbekistan’s national rice dish with meat and carrots",
-    "ja": "肉と人参を炊き込んだウズベキスタンの国民食"
+    "ja": "肉と人参を炊き込んだウズベキスタンの国民食",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Plov_Tashkent.jpg/960px-Plov_Tashkent.jpg",
+      "author": "Ekrem Canli",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Plov_Tashkent.jpg"
+    }
   },
   "tashkent:Somsa": {
     "ko": "화덕에 구운 고기 속 페이스트리",
     "en": "Tandoor-baked pastry filled with meat",
-    "ja": "タンドールで焼いた肉入りパイ"
+    "ja": "タンドールで焼いた肉入りパイ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Uyda_tayyorlangan_somsa.jpg/960px-Uyda_tayyorlangan_somsa.jpg",
+      "author": "Panpanchik",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Uyda_tayyorlangan_somsa.jpg"
+    }
   },
   "tashkent:Lagman": {
     "ko": "손으로 늘린 면에 고기·채소 국물을 부은 국수",
     "en": "Hand-pulled noodles with meat and vegetable sauce",
-    "ja": "手延べ麺に肉と野菜のスープをかけた麺料理"
+    "ja": "手延べ麺に肉と野菜のスープをかけた麺料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/%D0%9B%D0%B0%D0%B3%D0%BC%D0%B0%D0%BD.jpg/960px-%D0%9B%D0%B0%D0%B3%D0%BC%D0%B0%D0%BD.jpg",
+      "author": "Армен Авакян",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%B0%D0%B3%D0%BC%D0%B0%D0%BD.jpg"
+    }
   },
   "tbilisi:Khinkali": {
     "ko": "고기와 육즙을 반죽으로 감싼 주머니 모양 만두",
     "en": "Pleated dumplings holding meat and broth",
-    "ja": "肉と肉汁を生地で包んだ巾着型の餃子"
+    "ja": "肉と肉汁を生地で包んだ巾着型の餃子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Khinkali.jpg/960px-Khinkali.jpg",
+      "author": "TheMightyQuill",
+      "license": "CC BY-SA 2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:Khinkali.jpg"
+    }
   },
   "tbilisi:Khachapuri": {
     "ko": "잔칫상에 빠지지 않는 치즈빵",
     "en": "Cheese bread found on every feast table",
-    "ja": "祝いの席に欠かせないチーズパン"
+    "ja": "祝いの席に欠かせないチーズパン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Khachapuri.jpg/960px-Khachapuri.jpg",
+      "author": "Sercut",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Khachapuri.jpg"
+    }
   },
   "tbilisi:Satsivi": {
     "ko": "호두 소스에 닭고기를 버무린 잔치 요리",
     "en": "Chicken in walnut sauce, a feast dish",
-    "ja": "くるみソースで和えた鶏肉の祝い料理"
+    "ja": "くるみソースで和えた鶏肉の祝い料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Satsivi_(2).jpg/960px-Satsivi_(2).jpg",
+      "author": "Lesya Dolyk",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Satsivi_(2).jpg"
+    }
   },
   "tbilisi:Churchkhela": {
     "ko": "견과를 실에 꿰어 포도즙을 입혀 굳힌 간식",
     "en": "Nuts threaded on string and coated in grape juice",
-    "ja": "ナッツを糸に通しぶどう果汁で固めたお菓子"
+    "ja": "ナッツを糸に通しぶどう果汁で固めたお菓子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Churchkhela%2C_Tbilisi_(2023).jpg/960px-Churchkhela%2C_Tbilisi_(2023).jpg",
+      "author": "Lessormore",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Churchkhela,_Tbilisi_(2023).jpg"
+    }
   },
   "cancun:Cochinita Pibil": {
     "ko": "아치오테로 양념해 천천히 익힌 대표 마야 돼지고기 요리",
@@ -3094,22 +3136,46 @@
   "san-francisco:Sourdough bread": {
     "ko": "샌프란시스코를 대표하는 시큼한 발효 빵",
     "en": "San Francisco’s famous tangy sourdough",
-    "ja": "サンフランシスコを代表する酸味のあるパン"
+    "ja": "サンフランシスコを代表する酸味のあるパン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sourdough_bread.jpg/960px-Sourdough_bread.jpg",
+      "author": "Anasuyas",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sourdough_bread.jpg"
+    }
   },
   "san-francisco:Dungeness crab": {
     "ko": "샌프란시스코 대표 해산물인 큼직한 게",
     "en": "Big local crab, the city’s signature seafood",
-    "ja": "サンフランシスコを代表する大ぶりのカニ"
+    "ja": "サンフランシスコを代表する大ぶりのカニ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/DungenessCrab.jpg/960px-DungenessCrab.jpg",
+      "author": "Dan Boone",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:DungenessCrab.jpg"
+    }
   },
   "san-francisco:Cioppino": {
     "ko": "샌프란시스코에서 시작된 토마토 해산물 스튜",
     "en": "Tomato seafood stew born in San Francisco",
-    "ja": "サンフランシスコ発祥のトマト魚介シチュー"
+    "ja": "サンフランシスコ発祥のトマト魚介シチュー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Carthay_Shellfish_Cioppino_(29428096016).jpg/960px-Carthay_Shellfish_Cioppino_(29428096016).jpg",
+      "author": "HarshLight",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Carthay_Shellfish_Cioppino_(29428096016).jpg"
+    }
   },
   "san-francisco:Mission burrito": {
     "ko": "미션 지구에서 유명해진 큼직한 버리토",
     "en": "Hefty burrito made famous in the Mission District",
-    "ja": "ミッション地区で有名になった大きなブリトー"
+    "ja": "ミッション地区で有名になった大きなブリトー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Missionburrito.JPG/960px-Missionburrito.JPG",
+      "author": "Sfmissionstyle",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Missionburrito.JPG"
+    }
   },
   "zhangjiajie:Three-item Pot": {
     "ko": "여러 고기 재료를 한 냄비에 끓인 토가족 요리",
@@ -3250,7 +3316,13 @@
   "taichung:Mayi soup": {
     "ko": "황마 어린잎으로 끓인 중부 대만 전통 수프",
     "en": "Central Taiwan soup of young jute leaves",
-    "ja": "黄麻の若葉で作る台湾中部の伝統スープ"
+    "ja": "黄麻の若葉で作る台湾中部の伝統スープ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Soup_of_Tender_Leaves_of_Jutes.jpg/960px-Soup_of_Tender_Leaves_of_Jutes.jpg",
+      "author": "Yoxem",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Soup_of_Tender_Leaves_of_Jutes.jpg"
+    }
   },
   "taichung:Damiangeng": {
     "ko": "굵은 면을 걸쭉하게 끓인 타이중 아침 간식",
@@ -3260,12 +3332,24 @@
   "taichung:Pearl milk tea": {
     "ko": "타이중에서 시작된 것으로 알려진 버블티",
     "en": "Bubble tea, said to have started in Taichung",
-    "ja": "台中発祥とされるタピオカミルクティー"
+    "ja": "台中発祥とされるタピオカミルクティー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PearlMilkTea-ChunShuiTang-Taichung.jpg/960px-PearlMilkTea-ChunShuiTang-Taichung.jpg",
+      "author": "Coronium",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:PearlMilkTea-ChunShuiTang-Taichung.jpg"
+    }
   },
   "taichung:Suncake": {
     "ko": "바삭한 껍질에 맥아 소를 넣은 타이중 대표 과자",
     "en": "Flaky pastry with malt filling, Taichung’s signature snack",
-    "ja": "サクサクの生地に麦芽あんを包んだ台中名物"
+    "ja": "サクサクの生地に麦芽あんを包んだ台中名物",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Suncakes_in_taichung.jpg/960px-Suncakes_in_taichung.jpg",
+      "author": "Derek T's Photos",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Suncakes_in_taichung.jpg"
+    }
   },
   "boracay:Lechon": {
     "ko": "통째로 구운 돼지고기",
@@ -3413,17 +3497,35 @@
   "siem-reap:Amok": {
     "ko": "코코넛 커리 양념으로 쪄 낸 캄보디아 대표 생선 요리",
     "en": "Fish steamed in coconut curry, Cambodia’s signature dish",
-    "ja": "ココナッツカレーで蒸したカンボジアを代表する魚料理"
+    "ja": "ココナッツカレーで蒸したカンボジアを代表する魚料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Amok_with_fish_(8259154034).jpg/960px-Amok_with_fish_(8259154034).jpg",
+      "author": "eric yeargan",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Amok_with_fish_(8259154034).jpg"
+    }
   },
   "siem-reap:Lok Lak": {
     "ko": "후추 라임 소스를 곁들인 볶은 소고기",
     "en": "Stir-fried beef with pepper-lime dip",
-    "ja": "胡椒とライムのたれを添えた牛肉炒め"
+    "ja": "胡椒とライムのたれを添えた牛肉炒め",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Beef_Lok_Lak.jpg/960px-Beef_Lok_Lak.jpg",
+      "author": "James Antrobus",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Beef_Lok_Lak.jpg"
+    }
   },
   "siem-reap:Num Banh Chok": {
     "ko": "쌀국수에 생선 카레 국물을 부은 아침 국수",
     "en": "Rice noodles with fish curry broth, a breakfast staple",
-    "ja": "米麺に魚カレースープをかけた朝ごはんの麺"
+    "ja": "米麺に魚カレースープをかけた朝ごはんの麺",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Num_Banh_Chok.jpg/960px-Num_Banh_Chok.jpg",
+      "author": "Thomas Wanhoff",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Num_Banh_Chok.jpg"
+    }
   },
   "krakow:Obwarzanek krakowski": {
     "ko": "14세기 기록에도 남은 크라쿠프의 상징인 고리 모양 빵",
@@ -3532,17 +3634,35 @@
   "stockholm:Köttbullar": {
     "ko": "크림소스·감자·링곤베리잼과 먹는 미트볼",
     "en": "Meatballs with cream sauce, potatoes and lingonberry",
-    "ja": "クリームソースとじゃがいも、コケモモジャムを添えたミートボール"
+    "ja": "クリームソースとじゃがいも、コケモモジャムを添えたミートボール",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Swedish_meatballs_in_Gamla_stan%2C_Stockholm.jpg/960px-Swedish_meatballs_in_Gamla_stan%2C_Stockholm.jpg",
+      "author": "JIP",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Swedish_meatballs_in_Gamla_stan,_Stockholm.jpg"
+    }
   },
   "stockholm:Kanelbulle": {
     "ko": "커피 휴식(피카) 때 먹는 계피빵",
     "en": "Cinnamon bun for the fika coffee break",
-    "ja": "コーヒー休憩（フィーカ）に食べるシナモンロール"
+    "ja": "コーヒー休憩（フィーカ）に食べるシナモンロール",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Kanelbulle_in_Stockholm.jpg/960px-Kanelbulle_in_Stockholm.jpg",
+      "author": "optische_taeuschung",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kanelbulle_in_Stockholm.jpg"
+    }
   },
   "stockholm:Toast Skagen": {
     "ko": "새우 샐러드를 토스트에 올린 요리",
     "en": "Shrimp salad on toast",
-    "ja": "エビのサラダをトーストにのせた料理"
+    "ja": "エビのサラダをトーストにのせた料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Toast_skagen.jpg/960px-Toast_skagen.jpg",
+      "author": "Andreas Ivarsson",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Toast_skagen.jpg"
+    }
   },
   "dublin:Irish stew": {
     "ko": "양고기와 감자를 푹 끓인 스튜",
@@ -3580,22 +3700,46 @@
   "tallinn:Kiluvõileib": {
     "ko": "흑빵에 작은 청어류 생선(스프랫)을 올린 오픈 샌드위치",
     "en": "Open sandwich of sprats on dark rye bread, often with boiled egg",
-    "ja": "黒パンに小魚（スプラット）をのせたオープンサンド"
+    "ja": "黒パンに小魚（スプラット）をのせたオープンサンド",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Kiluv%C3%B5ileib.IMG_4378.JPG/960px-Kiluv%C3%B5ileib.IMG_4378.JPG",
+      "author": "Ave Maria Mõistlik",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kiluv%C3%B5ileib.IMG_4378.JPG"
+    }
   },
   "tallinn:Kohuke": {
     "ko": "달콤한 커드 치즈를 초콜릿으로 감싼 간식",
     "en": "Sweet curd-cheese snack coated in chocolate",
-    "ja": "甘いカード（凝乳）チーズをチョコでコーティングしたおやつ"
+    "ja": "甘いカード（凝乳）チーズをチョコでコーティングしたおやつ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kohuke_Poznan.jpg/960px-Kohuke_Poznan.jpg",
+      "author": "MOs810",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kohuke_Poznan.jpg"
+    }
   },
   "tallinn:Mulgipuder": {
     "ko": "감자와 보리를 섞어 만든 물기마 지방의 전통 죽",
     "en": "Traditional Mulgi-region porridge of potato and barley",
-    "ja": "じゃがいもと大麦で作るムルギ地方の伝統的な粥"
+    "ja": "じゃがいもと大麦で作るムルギ地方の伝統的な粥",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Mulgipuder.jpg/960px-Mulgipuder.jpg",
+      "author": "M0d3M",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Mulgipuder.jpg"
+    }
   },
   "tallinn:Kama desserts": {
     "ko": "볶은 곡물 가루인 카마를 넣어 만든 디저트",
     "en": "Desserts made with kama, a roasted grain flour",
-    "ja": "炒った穀物の粉「カマ」を使ったデザート"
+    "ja": "炒った穀物の粉「カマ」を使ったデザート",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Kamadessert_i_Palmse.JPG/960px-Kamadessert_i_Palmse.JPG",
+      "author": "Orf3us",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kamadessert_i_Palmse.JPG"
+    }
   },
   "dresden:Dresdner Christstollen": {
     "ko": "건과일과 버터를 넣고 슈거파우더를 뿌린 크리스마스 빵",
@@ -3699,17 +3843,35 @@
   "strasbourg:Choucroute": {
     "ko": "발효 양배추에 소시지·고기·감자를 곁들인 알자스 요리",
     "en": "Alsatian sauerkraut with sausages, meats and potatoes",
-    "ja": "発酵キャベツにソーセージや肉、じゃがいもを添えたアルザス料理"
+    "ja": "発酵キャベツにソーセージや肉、じゃがいもを添えたアルザス料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Choucroute_%40_Le_Clou_%40_Strasbourg_(43730747970).jpg/960px-Choucroute_%40_Le_Clou_%40_Strasbourg_(43730747970).jpg",
+      "author": "Guilhem Vellut",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Choucroute_%40_Le_Clou_%40_Strasbourg_(43730747970).jpg"
+    }
   },
   "strasbourg:Tarte flambée": {
     "ko": "얇은 반죽에 크림·양파·베이컨을 올려 화덕에 구운 알자스식 납작 파이",
     "en": "Thin Alsatian flatbread with cream, onion and bacon",
-    "ja": "薄い生地にクリーム・玉ねぎ・ベーコンをのせて焼いたアルザスの薄焼き"
+    "ja": "薄い生地にクリーム・玉ねぎ・ベーコンをのせて焼いたアルザスの薄焼き",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/January_2008%2C_tarte_flamb%C3%A9e_in_Strasbourg.jpg/960px-January_2008%2C_tarte_flamb%C3%A9e_in_Strasbourg.jpg",
+      "author": "Syced",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:January_2008,_tarte_flamb%C3%A9e_in_Strasbourg.jpg"
+    }
   },
   "strasbourg:Kougelhopf": {
     "ko": "특유의 틀에 구운 건포도가 든 알자스 빵",
     "en": "Raisin bread baked in a distinctive fluted mould",
-    "ja": "独特の型で焼くレーズン入りのアルザスのパン"
+    "ja": "独特の型で焼くレーズン入りのアルザスのパン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Kougelhopf.jpg/960px-Kougelhopf.jpg",
+      "author": "CaHeSo",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kougelhopf.jpg"
+    }
   },
   "colmar:Choucroute": {
     "ko": "발효 양배추에 소시지·고기·감자를 곁들인 알자스 요리",
@@ -3769,7 +3931,13 @@
   "salzburg:Bosna": {
     "ko": "카레 가루를 뿌린 소시지 핫도그로 잘츠부르크 길거리 음식",
     "en": "Curry-spiced sausage hot dog, a Salzburg street snack",
-    "ja": "カレー粉をかけたソーセージのホットドッグ、ザルツブルクの屋台グルメ"
+    "ja": "カレー粉をかけたソーセージのホットドッグ、ザルツブルクの屋台グルメ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/2174_-_Salzburg_-_Bosna.JPG/960px-2174_-_Salzburg_-_Bosna.JPG",
+      "author": "Andrew Bossi",
+      "license": "CC BY-SA 2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:2174_-_Salzburg_-_Bosna.JPG"
+    }
   },
   "zagreb:Štrukli": {
     "ko": "코티지 치즈와 사워크림을 넣은 반죽을 삶거나 구운 요리",

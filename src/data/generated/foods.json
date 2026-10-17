@@ -8272,6 +8272,12 @@
       "en": "Curry-spiced sausage hot dog, a Salzburg street snack",
       "ja": "カレー粉をかけたソーセージのホットドッグ、ザルツブルクの屋台グルメ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/2174_-_Salzburg_-_Bosna.JPG/960px-2174_-_Salzburg_-_Bosna.JPG",
+      "author": "Andrew Bossi",
+      "license": "CC BY-SA 2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:2174_-_Salzburg_-_Bosna.JPG"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -8289,6 +8295,12 @@
       "ko": "샌프란시스코를 대표하는 시큼한 발효 빵",
       "en": "San Francisco’s famous tangy sourdough",
       "ja": "サンフランシスコを代表する酸味のあるパン"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sourdough_bread.jpg/960px-Sourdough_bread.jpg",
+      "author": "Anasuyas",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sourdough_bread.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -8308,6 +8320,12 @@
       "en": "Big local crab, the city’s signature seafood",
       "ja": "サンフランシスコを代表する大ぶりのカニ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/DungenessCrab.jpg/960px-DungenessCrab.jpg",
+      "author": "Dan Boone",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:DungenessCrab.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -8326,6 +8344,12 @@
       "en": "Tomato seafood stew born in San Francisco",
       "ja": "サンフランシスコ発祥のトマト魚介シチュー"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Carthay_Shellfish_Cioppino_(29428096016).jpg/960px-Carthay_Shellfish_Cioppino_(29428096016).jpg",
+      "author": "HarshLight",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Carthay_Shellfish_Cioppino_(29428096016).jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -8343,6 +8367,12 @@
       "ko": "미션 지구에서 유명해진 큼직한 버리토",
       "en": "Hefty burrito made famous in the Mission District",
       "ja": "ミッション地区で有名になった大きなブリトー"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Missionburrito.JPG/960px-Missionburrito.JPG",
+      "author": "Sfmissionstyle",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Missionburrito.JPG"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -8460,6 +8490,12 @@
       "en": "Fish steamed in coconut curry, Cambodia’s signature dish",
       "ja": "ココナッツカレーで蒸したカンボジアを代表する魚料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Amok_with_fish_(8259154034).jpg/960px-Amok_with_fish_(8259154034).jpg",
+      "author": "eric yeargan",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Amok_with_fish_(8259154034).jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -8478,6 +8514,12 @@
       "en": "Stir-fried beef with pepper-lime dip",
       "ja": "胡椒とライムのたれを添えた牛肉炒め"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Beef_Lok_Lak.jpg/960px-Beef_Lok_Lak.jpg",
+      "author": "James Antrobus",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Beef_Lok_Lak.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -8495,6 +8537,12 @@
       "ko": "쌀국수에 생선 카레 국물을 부은 아침 국수",
       "en": "Rice noodles with fish curry broth, a breakfast staple",
       "ja": "米麺に魚カレースープをかけた朝ごはんの麺"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Num_Banh_Chok.jpg/960px-Num_Banh_Chok.jpg",
+      "author": "Thomas Wanhoff",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Num_Banh_Chok.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -8604,6 +8652,12 @@
       "en": "Meatballs with cream sauce, potatoes and lingonberry",
       "ja": "クリームソースとじゃがいも、コケモモジャムを添えたミートボール"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Swedish_meatballs_in_Gamla_stan%2C_Stockholm.jpg/960px-Swedish_meatballs_in_Gamla_stan%2C_Stockholm.jpg",
+      "author": "JIP",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Swedish_meatballs_in_Gamla_stan,_Stockholm.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [
       "STO-FD-503"
@@ -8624,6 +8678,12 @@
       "en": "Cinnamon bun for the fika coffee break",
       "ja": "コーヒー休憩（フィーカ）に食べるシナモンロール"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Kanelbulle_in_Stockholm.jpg/960px-Kanelbulle_in_Stockholm.jpg",
+      "author": "optische_taeuschung",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kanelbulle_in_Stockholm.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -8641,6 +8701,12 @@
       "ko": "새우 샐러드를 토스트에 올린 요리",
       "en": "Shrimp salad on toast",
       "ja": "エビのサラダをトーストにのせた料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Toast_skagen.jpg/960px-Toast_skagen.jpg",
+      "author": "Andreas Ivarsson",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Toast_skagen.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [
@@ -8662,6 +8728,12 @@
       "en": "Alsatian sauerkraut with sausages, meats and potatoes",
       "ja": "発酵キャベツにソーセージや肉、じゃがいもを添えたアルザス料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Choucroute_%40_Le_Clou_%40_Strasbourg_(43730747970).jpg/960px-Choucroute_%40_Le_Clou_%40_Strasbourg_(43730747970).jpg",
+      "author": "Guilhem Vellut",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Choucroute_%40_Le_Clou_%40_Strasbourg_(43730747970).jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -8680,6 +8752,12 @@
       "en": "Thin Alsatian flatbread with cream, onion and bacon",
       "ja": "薄い生地にクリーム・玉ねぎ・ベーコンをのせて焼いたアルザスの薄焼き"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/January_2008%2C_tarte_flamb%C3%A9e_in_Strasbourg.jpg/960px-January_2008%2C_tarte_flamb%C3%A9e_in_Strasbourg.jpg",
+      "author": "Syced",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:January_2008,_tarte_flamb%C3%A9e_in_Strasbourg.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -8697,6 +8775,12 @@
       "ko": "특유의 틀에 구운 건포도가 든 알자스 빵",
       "en": "Raisin bread baked in a distinctive fluted mould",
       "ja": "独特の型で焼くレーズン入りのアルザスのパン"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Kougelhopf.jpg/960px-Kougelhopf.jpg",
+      "author": "CaHeSo",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kougelhopf.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -8788,6 +8872,12 @@
       "en": "Central Taiwan soup of young jute leaves",
       "ja": "黄麻の若葉で作る台湾中部の伝統スープ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Soup_of_Tender_Leaves_of_Jutes.jpg/960px-Soup_of_Tender_Leaves_of_Jutes.jpg",
+      "author": "Yoxem",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Soup_of_Tender_Leaves_of_Jutes.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -8824,6 +8914,12 @@
       "en": "Bubble tea, said to have started in Taichung",
       "ja": "台中発祥とされるタピオカミルクティー"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PearlMilkTea-ChunShuiTang-Taichung.jpg/960px-PearlMilkTea-ChunShuiTang-Taichung.jpg",
+      "author": "Coronium",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:PearlMilkTea-ChunShuiTang-Taichung.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -8841,6 +8937,12 @@
       "ko": "바삭한 껍질에 맥아 소를 넣은 타이중 대표 과자",
       "en": "Flaky pastry with malt filling, Taichung’s signature snack",
       "ja": "サクサクの生地に麦芽あんを包んだ台中名物"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Suncakes_in_taichung.jpg/960px-Suncakes_in_taichung.jpg",
+      "author": "Derek T's Photos",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Suncakes_in_taichung.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -8860,6 +8962,12 @@
       "en": "Open sandwich of sprats on dark rye bread, often with boiled egg",
       "ja": "黒パンに小魚（スプラット）をのせたオープンサンド"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Kiluv%C3%B5ileib.IMG_4378.JPG/960px-Kiluv%C3%B5ileib.IMG_4378.JPG",
+      "author": "Ave Maria Mõistlik",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kiluv%C3%B5ileib.IMG_4378.JPG"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -8877,6 +8985,12 @@
       "ko": "달콤한 커드 치즈를 초콜릿으로 감싼 간식",
       "en": "Sweet curd-cheese snack coated in chocolate",
       "ja": "甘いカード（凝乳）チーズをチョコでコーティングしたおやつ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kohuke_Poznan.jpg/960px-Kohuke_Poznan.jpg",
+      "author": "MOs810",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kohuke_Poznan.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -8896,6 +9010,12 @@
       "en": "Traditional Mulgi-region porridge of potato and barley",
       "ja": "じゃがいもと大麦で作るムルギ地方の伝統的な粥"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Mulgipuder.jpg/960px-Mulgipuder.jpg",
+      "author": "M0d3M",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Mulgipuder.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -8913,6 +9033,12 @@
       "ko": "볶은 곡물 가루인 카마를 넣어 만든 디저트",
       "en": "Desserts made with kama, a roasted grain flour",
       "ja": "炒った穀物の粉「カマ」を使ったデザート"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Kamadessert_i_Palmse.JPG/960px-Kamadessert_i_Palmse.JPG",
+      "author": "Orf3us",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kamadessert_i_Palmse.JPG"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -8932,6 +9058,12 @@
       "en": "Uzbekistan’s national rice dish with meat and carrots",
       "ja": "肉と人参を炊き込んだウズベキスタンの国民食"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Plov_Tashkent.jpg/960px-Plov_Tashkent.jpg",
+      "author": "Ekrem Canli",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Plov_Tashkent.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -8949,6 +9081,12 @@
       "ko": "화덕에 구운 고기 속 페이스트리",
       "en": "Tandoor-baked pastry filled with meat",
       "ja": "タンドールで焼いた肉入りパイ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Uyda_tayyorlangan_somsa.jpg/960px-Uyda_tayyorlangan_somsa.jpg",
+      "author": "Panpanchik",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Uyda_tayyorlangan_somsa.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -8968,6 +9106,12 @@
       "en": "Hand-pulled noodles with meat and vegetable sauce",
       "ja": "手延べ麺に肉と野菜のスープをかけた麺料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/%D0%9B%D0%B0%D0%B3%D0%BC%D0%B0%D0%BD.jpg/960px-%D0%9B%D0%B0%D0%B3%D0%BC%D0%B0%D0%BD.jpg",
+      "author": "Армен Авакян",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%B0%D0%B3%D0%BC%D0%B0%D0%BD.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -8985,6 +9129,12 @@
       "ko": "고기와 육즙을 반죽으로 감싼 주머니 모양 만두",
       "en": "Pleated dumplings holding meat and broth",
       "ja": "肉と肉汁を生地で包んだ巾着型の餃子"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Khinkali.jpg/960px-Khinkali.jpg",
+      "author": "TheMightyQuill",
+      "license": "CC BY-SA 2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:Khinkali.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [
@@ -9006,6 +9156,12 @@
       "en": "Cheese bread found on every feast table",
       "ja": "祝いの席に欠かせないチーズパン"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Khachapuri.jpg/960px-Khachapuri.jpg",
+      "author": "Sercut",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Khachapuri.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -9024,6 +9180,12 @@
       "en": "Chicken in walnut sauce, a feast dish",
       "ja": "くるみソースで和えた鶏肉の祝い料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Satsivi_(2).jpg/960px-Satsivi_(2).jpg",
+      "author": "Lesya Dolyk",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Satsivi_(2).jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -9041,6 +9203,12 @@
       "ko": "견과를 실에 꿰어 포도즙을 입혀 굳힌 간식",
       "en": "Nuts threaded on string and coated in grape juice",
       "ja": "ナッツを糸に通しぶどう果汁で固めたお菓子"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Churchkhela%2C_Tbilisi_(2023).jpg/960px-Churchkhela%2C_Tbilisi_(2023).jpg",
+      "author": "Lessormore",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Churchkhela,_Tbilisi_(2023).jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],

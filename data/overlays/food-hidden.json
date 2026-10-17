@@ -5,12 +5,8 @@
   "gyeongju:Kongguksu": "제외: 경주 고유 음식 근거 없음(GPT 2026-10-19)",
   "sydney:Barramundi": "제외: 시드니 대표 음식 근거 없음(GPT 2026-10-19)",
   "guam:Spam Musubi": "제외: 괌 관광청 대표 음식 근거 없음(GPT 2026-10-19)",
-  "almaty:Plov": "보류: 공식 출처 확인 전(GPT 2026-10-19 확인불가)",
-  "cebu:Sutukil (Kinilaw)": "보류: 공식 출처 확인 전(GPT 2026-10-19 확인불가)",
-  "cebu:Ngohiong": "보류: 공식 출처 확인 전(GPT 2026-10-19 확인불가)",
-  "cebu:Siomai sa Tisa": "보류: 공식 출처 확인 전(GPT 2026-10-19 확인불가)",
-  "nha-trang:Bun Cha Ca": "보류: 공식 출처 확인 전(GPT 2026-10-19 확인불가)",
-  "saipan:Poke": "보류: 공식 출처 확인 전(GPT 2026-10-19 확인불가)",
-  "saipan:Red Rice": "보류: 공식 출처 확인 전(GPT 2026-10-19 확인불가)",
-  "saipan:Coconut Crab": "보류: 공식 출처 확인 전(GPT 2026-10-19 확인불가)"
+  "cebu:Ngohiong": "제외: 공식 출처 재조사에서도 대표 음식 근거 없음(GPT 할 일 Z, 2026-10-17)",
+  "cebu:Siomai sa Tisa": "제외: 공식 출처 재조사에서도 대표 음식 근거 없음(GPT 할 일 Z, 2026-10-17)",
+  "saipan:Poke": "제외: 공식 출처 재조사에서도 대표 음식 근거 없음(GPT 할 일 Z, 2026-10-17)",
+  "saipan:Coconut Crab": "제외: 공식 출처 재조사에서도 대표 음식 근거 없음(GPT 할 일 Z, 2026-10-17)"
 }

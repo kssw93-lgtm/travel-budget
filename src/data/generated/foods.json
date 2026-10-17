@@ -1359,6 +1359,32 @@
     "note": "관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)"
   },
   {
+    "cityId": "almaty",
+    "nameKo": "플로브",
+    "nameEn": "Plov",
+    "reason": "고기·당근·쌀을 큰 솥에 함께 지은 볶음밥",
+    "reasonEn": "Central Asian pilaf",
+    "desc": {
+      "ko": "고기·당근·쌀을 큰 솥에 함께 지은 볶음밥",
+      "en": "Rice cooked in a cauldron with meat and carrots",
+      "ja": "肉と人参を大鍋で炊き込んだピラフ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Uzbek_pilaf.jpg/960px-Uzbek_pilaf.jpg",
+      "author": "Ekaterina Kvelidze",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Uzbek_pilaf.jpg"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [
+      "ALA-FD-101"
+    ],
+    "priceStatus": "대기",
+    "recommendSource": "알마티시 관광부 (gov.kz)",
+    "recommendUrl": "https://www.gov.kz/memleket/entities/almaty/press/news/details/1257357?lang=ru",
+    "note": "Claude 초안(관광청 출처 미확인)"
+  },
+  {
     "cityId": "amsterdam",
     "nameKo": "비터발렌",
     "nameEn": "Bitterballen",
@@ -1876,6 +1902,12 @@
       "ko": "양파와 크림을 듬뿍 넣어 구운 스위스식 짭짤한 타르트",
       "en": "A savoury Swiss tart filled with onions and cream",
       "ja": "玉ねぎとクリームをたっぷり入れて焼いたスイス風の塩味タルト"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Zwiebelkuchen_1.JPG/960px-Zwiebelkuchen_1.JPG",
+      "author": "Biezl",
+      "license": "Public domain (PD-self)",
+      "page": "https://commons.wikimedia.org/wiki/File:Zwiebelkuchen_1.JPG"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -2630,6 +2662,30 @@
     "priceStatus": "대기",
     "recommendSource": "Cebu Provincial Tourism Office",
     "recommendUrl": "https://tourism.cebu.gov.ph/",
+    "note": "추천 출처 미확인(초안)"
+  },
+  {
+    "cityId": "cebu",
+    "nameKo": "수투킬(키닐라우)",
+    "nameEn": "Sutukil (Kinilaw)",
+    "reason": "해산물을 구이·탕·식초 회무침으로 내는 세부식 해산물 상차림",
+    "reasonEn": "Cebu-style seafood served grilled, in soup or as vinegar-cured kinilaw",
+    "desc": {
+      "ko": "해산물을 구이(수)·탕(투)·식초 회무침(킬)으로 내는 상차림. 사진은 식초로 버무린 회 키닐라우",
+      "en": "Seafood served three ways: grilled, in soup and kinilaw (raw fish cured in vinegar, shown)",
+      "ja": "魚介を焼く・スープ・酢じめ（キニラウ、写真）の3通りで出すセブ式の海鮮料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/KINILAW_%28Carcar%2C_Cebu%29.jpg/960px-KINILAW_%28Carcar%2C_Cebu%29.jpg",
+      "author": "whologwhy",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:KINILAW_(Carcar,_Cebu).jpg"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "세부주 정부 관광·음식 안내",
+    "recommendUrl": "https://www.cebu.gov.ph/about/",
     "note": "추천 출처 미확인(초안)"
   },
   {
@@ -6386,6 +6442,12 @@
       "en": "Double ristretto with silky steamed milk, Melbourne style",
       "ja": "ダブルリストレットに滑らかなミルクを注いだメルボルン流コーヒー"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Magic_coffee.jpg/960px-Magic_coffee.jpg",
+      "author": "Finbar.concaig",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Magic_coffee.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -6805,6 +6867,30 @@
     "priceStatus": "대기",
     "recommendSource": "Vietnam Tourism (Vietnam National Authority of Tourism)",
     "recommendUrl": "https://vietnam.travel/node/1333",
+    "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "nha-trang",
+    "nameKo": "분짜까",
+    "nameEn": "Bun Cha Ca",
+    "reason": "어묵과 생선을 올린 쌀국수를 맑은 생선 국물에 말아 낸 나트랑 대표 국수",
+    "reasonEn": "Nha Trang's fish-cake noodle soup",
+    "desc": {
+      "ko": "어묵과 생선을 올린 쌀국수를 맑은 생선 국물에 말아 낸 나트랑 대표 국수",
+      "en": "Rice noodles with fish cake in clear fish broth, Nha Trang's signature noodle",
+      "ja": "さつま揚げと魚をのせた米麺を魚だしのスープでいただくニャチャン名物"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Bun_cha_ca.jpg/960px-Bun_cha_ca.jpg",
+      "author": "Everyday English",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bun_cha_ca.jpg"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Vietnam Tourism (베트남 관광청)",
+    "recommendUrl": "https://vietnam.travel/node/195",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -7836,6 +7922,12 @@
       "en": "Sautéed reindeer with mashed potato and lingonberries",
       "ja": "薄切りのトナカイ肉を炒め、マッシュポテトとコケモモを添えたラップランド料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Poronk%C3%A4ristys.jpg/960px-Poronk%C3%A4ristys.jpg",
+      "author": "Htm",
+      "license": "Public domain (PD-self)",
+      "page": "https://commons.wikimedia.org/wiki/File:Poronk%C3%A4ristys.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7913,6 +8005,30 @@
     "priceStatus": "대기",
     "recommendSource": "Marianas Visitors Authority",
     "recommendUrl": "https://mva.mymarianas.com/press-release/chicken-kelaguen-cook-off-jpop-at-taste-of-the-marianas/",
+    "note": "Claude 초안(2026-10-12)"
+  },
+  {
+    "cityId": "saipan",
+    "nameKo": "레드라이스",
+    "nameEn": "Red Rice",
+    "reason": "아치오테 씨앗으로 붉게 물들인 차모로식 밥",
+    "reasonEn": "The Chamorro side dish",
+    "desc": {
+      "ko": "아치오테 씨앗으로 붉게 물들인 차모로식 밥",
+      "en": "Chamorro rice colored red with achiote seeds",
+      "ja": "アチョーテの種で赤く色づけたチャモロ風ごはん"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Chamorro_red_rice.png/960px-Chamorro_red_rice.png",
+      "author": "Joyakdol",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Chamorro_red_rice.png"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "사이판 시장실 (Municipality of Saipan)",
+    "recommendUrl": "https://saipanmayor.cnmi.gov/press-releases/saipan-mayors-office-exchange-program-with-kskk-group/",
     "note": "Claude 초안(2026-10-12)"
   },
   {

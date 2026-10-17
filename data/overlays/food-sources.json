@@ -763,5 +763,25 @@
     "name": "Zagreb Tourist Board (Infozagreb)",
     "url": "https://www.infozagreb.hr/en/about-zagreb/basic-facts",
     "checkedAt": "2026-10-17"
+  },
+  "almaty:Plov": {
+    "name": "알마티시 관광부 (gov.kz)",
+    "url": "https://www.gov.kz/memleket/entities/almaty/press/news/details/1257357?lang=ru",
+    "checkedAt": "2026-10-17"
+  },
+  "cebu:Sutukil (Kinilaw)": {
+    "name": "세부주 정부 관광·음식 안내",
+    "url": "https://www.cebu.gov.ph/about/",
+    "checkedAt": "2026-10-17"
+  },
+  "nha-trang:Bun Cha Ca": {
+    "name": "Vietnam Tourism (베트남 관광청)",
+    "url": "https://vietnam.travel/node/195",
+    "checkedAt": "2026-10-17"
+  },
+  "saipan:Red Rice": {
+    "name": "사이판 시장실 (Municipality of Saipan)",
+    "url": "https://saipanmayor.cnmi.gov/press-releases/saipan-mayors-office-exchange-program-with-kskk-group/",
+    "checkedAt": "2026-10-17"
   }
 }

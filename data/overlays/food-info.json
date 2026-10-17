@@ -3100,7 +3100,13 @@
   "melbourne:Melbourne Magic coffee": {
     "ko": "더블 리스트레토에 부드러운 우유를 올린 멜버른식 커피",
     "en": "Double ristretto with silky steamed milk, Melbourne style",
-    "ja": "ダブルリストレットに滑らかなミルクを注いだメルボルン流コーヒー"
+    "ja": "ダブルリストレットに滑らかなミルクを注いだメルボルン流コーヒー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Magic_coffee.jpg/960px-Magic_coffee.jpg",
+      "author": "Finbar.concaig",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Magic_coffee.jpg"
+    }
   },
   "melbourne:South Melbourne dimmies": {
     "ko": "사우스 멜버른 마켓의 큼직한 딤섬, 간장·칠리를 곁들임",
@@ -3999,7 +4005,13 @@
   "rovaniemi:Sautéed reindeer": {
     "ko": "얇게 썬 순록 고기를 볶아 으깬 감자·링곤베리와 먹는 라플란드 요리",
     "en": "Sautéed reindeer with mashed potato and lingonberries",
-    "ja": "薄切りのトナカイ肉を炒め、マッシュポテトとコケモモを添えたラップランド料理"
+    "ja": "薄切りのトナカイ肉を炒め、マッシュポテトとコケモモを添えたラップランド料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Poronk%C3%A4ristys.jpg/960px-Poronk%C3%A4ristys.jpg",
+      "author": "Htm",
+      "license": "Public domain (PD-self)",
+      "page": "https://commons.wikimedia.org/wiki/File:Poronk%C3%A4ristys.jpg"
+    }
   },
   "rovaniemi:Leipäjuusto": {
     "ko": "구워서 먹는 핀란드식 「빵 치즈」로 클라우드베리 잼과 곁들임",
@@ -4169,7 +4181,13 @@
   "basel:Zwiebelwähe": {
     "ko": "양파와 크림을 듬뿍 넣어 구운 스위스식 짭짤한 타르트",
     "en": "A savoury Swiss tart filled with onions and cream",
-    "ja": "玉ねぎとクリームをたっぷり入れて焼いたスイス風の塩味タルト"
+    "ja": "玉ねぎとクリームをたっぷり入れて焼いたスイス風の塩味タルト",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Zwiebelkuchen_1.JPG/960px-Zwiebelkuchen_1.JPG",
+      "author": "Biezl",
+      "license": "Public domain (PD-self)",
+      "page": "https://commons.wikimedia.org/wiki/File:Zwiebelkuchen_1.JPG"
+    }
   },
   "bruges:Belgian chocolate": {
     "ko": "「초콜릿의 도시」로 불릴 만큼 수제 초콜릿 가게가 많은 브뤼헤의 상징",

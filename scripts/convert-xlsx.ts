@@ -383,7 +383,16 @@ function main() {
   const FREE_LICENSE = /^(CC0|Public domain|CC BY(-SA)? [1-4]\.[0-5])/i;
   const foodJa = ['음식(일본어)', '추천 이유(일본어)', '일본어 근거 URL', '일본어 확인 방법'];
   const foodRows: Row[] = [...readTable(wb, '음식 추천', '국가', foodJa), ...additionRows('foods', '국가', ['비고', '연결 가격 ID', ...foodJa]).map((x) => x.r)];
-  const foods: FoodRecommendation[] = foodRows.map((r) => {
+  // 출처를 찾지 못해 화면에서 빼거나 보류한 음식(data/overlays/food-hidden.json)
+  const foodHidden = JSON.parse(readFileSync(`${root}/data/overlays/food-hidden.json`, 'utf8')) as Record<string, string>;
+  const shownFoodRows = foodRows.filter((r) => {
+    const city = cityByKo.get(r('도시'));
+    return !city || !foodHidden[`${city.id}:${r('Food')}`];
+  });
+  for (const key of Object.keys(foodHidden)) {
+    if (key !== '_note' && !foodRows.some((r) => `${cityByKo.get(r('도시'))?.id}:${r('Food')}` === key)) notes.push(`food-hidden.json: 없는 음식 '${key}'`);
+  }
+  const foods: FoodRecommendation[] = shownFoodRows.map((r) => {
     const city = cityByKo.get(r('도시'));
     if (!city) throw new Error(`음식 추천: 도시 '${r('도시')}'가 '도시 우선순위'에 없음`);
     const linked = [...new Set([...r('연결 가격 ID').split(/[\s,;/]+/).filter(Boolean), ...(foodLinks[`${city.id}:${r('Food')}`] ?? [])])];

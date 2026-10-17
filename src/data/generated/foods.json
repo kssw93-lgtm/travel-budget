@@ -1359,32 +1359,6 @@
     "note": "관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)"
   },
   {
-    "cityId": "almaty",
-    "nameKo": "플로브",
-    "nameEn": "Plov",
-    "reason": "고기·당근·쌀을 큰 솥에 함께 지은 볶음밥",
-    "reasonEn": "Central Asian pilaf",
-    "desc": {
-      "ko": "고기·당근·쌀을 큰 솥에 함께 지은 볶음밥",
-      "en": "Rice cooked in a cauldron with meat and carrots",
-      "ja": "肉と人参を大鍋で炊き込んだピラフ"
-    },
-    "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Uzbek_pilaf.jpg/960px-Uzbek_pilaf.jpg",
-      "author": "Ekaterina Kvelidze",
-      "license": "CC BY-SA 4.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Uzbek_pilaf.jpg"
-    },
-    "budgetBand": "저",
-    "linkedPriceIds": [
-      "ALA-FD-101"
-    ],
-    "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(관광청 출처 미확인)"
-  },
-  {
     "cityId": "amsterdam",
     "nameKo": "비터발렌",
     "nameEn": "Bitterballen",
@@ -2660,30 +2634,6 @@
   },
   {
     "cityId": "cebu",
-    "nameKo": "수투킬(키닐라우)",
-    "nameEn": "Sutukil (Kinilaw)",
-    "reason": "해산물을 구이·탕·식초 회무침으로 내는 세부식 해산물 상차림",
-    "reasonEn": "Cebu-style seafood served grilled, in soup or as vinegar-cured kinilaw",
-    "desc": {
-      "ko": "해산물을 구이(수)·탕(투)·식초 회무침(킬)으로 내는 상차림. 사진은 식초로 버무린 회 키닐라우",
-      "en": "Seafood served three ways: grilled, in soup and kinilaw (raw fish cured in vinegar, shown)",
-      "ja": "魚介を焼く・スープ・酢じめ（キニラウ、写真）の3通りで出すセブ式の海鮮料理"
-    },
-    "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/KINILAW_%28Carcar%2C_Cebu%29.jpg/960px-KINILAW_%28Carcar%2C_Cebu%29.jpg",
-      "author": "whologwhy",
-      "license": "CC BY 2.0",
-      "page": "https://commons.wikimedia.org/wiki/File:KINILAW_(Carcar,_Cebu).jpg"
-    },
-    "budgetBand": "중",
-    "linkedPriceIds": [],
-    "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "추천 출처 미확인(초안)"
-  },
-  {
-    "cityId": "cebu",
     "nameKo": "푸소",
     "nameEn": "Puso",
     "reason": "야자 잎에 싸서 찐 밥",
@@ -2704,54 +2654,6 @@
     "priceStatus": "대기",
     "recommendSource": "Tourism Promotions Board Philippines",
     "recommendUrl": "https://tpb.gov.ph/wp-content/uploads/2024/08/SPOTLIGHT-24-Q2_final.pdf",
-    "note": "추천 출처 미확인(초안)"
-  },
-  {
-    "cityId": "cebu",
-    "nameKo": "응오히옹",
-    "nameEn": "Ngohiong",
-    "reason": "오향 양념 채소를 말아 튀긴 세부식 롤",
-    "reasonEn": "Cebu-style fried roll of five-spice vegetables",
-    "desc": {
-      "ko": "오향으로 양념한 채소·고기를 얇은 피에 말아 튀긴 세부식 롤",
-      "en": "Five-spice seasoned vegetables and meat rolled in a thin wrapper and fried",
-      "ja": "五香粉で味付けした野菜や肉を薄い皮で巻いて揚げたセブ式の春巻き"
-    },
-    "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ngohiong_%28Philippines%29_02.jpg/960px-Ngohiong_%28Philippines%29_02.jpg",
-      "author": "Obsidian Soul",
-      "license": "CC0",
-      "page": "https://commons.wikimedia.org/wiki/File:Ngohiong_(Philippines)_02.jpg"
-    },
-    "budgetBand": "저",
-    "linkedPriceIds": [],
-    "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "추천 출처 미확인(초안)"
-  },
-  {
-    "cityId": "cebu",
-    "nameKo": "시오마이 사 티사",
-    "nameEn": "Siomai sa Tisa",
-    "reason": "티사 지역에서 유명한 찐 만두",
-    "reasonEn": "Steamed dumplings famous in Cebu's Tisa district",
-    "desc": {
-      "ko": "세부 티사 지역에서 시작된 찐 만두. 칠리 갈릭 소스에 찍어 먹는다",
-      "en": "Steamed dumplings from the Tisa district of Cebu, dipped in chili-garlic sauce",
-      "ja": "セブのティサ地区発祥の蒸し焼売。チリガーリックソースにつけて食べる"
-    },
-    "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Siomai_sa_Tisa.jpg/960px-Siomai_sa_Tisa.jpg",
-      "author": "Herbertkikoy",
-      "license": "CC BY-SA 4.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Siomai_sa_Tisa.jpg"
-    },
-    "budgetBand": "저",
-    "linkedPriceIds": [],
-    "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
     "note": "추천 출처 미확인(초안)"
   },
   {
@@ -4157,32 +4059,6 @@
     "note": "Claude 초안(2026-10-12)"
   },
   {
-    "cityId": "guam",
-    "nameKo": "스팸 무스비",
-    "nameEn": "Spam Musubi",
-    "reason": "구운 스팸을 밥 위에 올리고 김으로 감싼 간식",
-    "reasonEn": "A favorite island snack",
-    "desc": {
-      "ko": "구운 스팸을 밥 위에 올리고 김으로 감싼 간식",
-      "en": "Grilled Spam on rice wrapped with seaweed, a popular island snack",
-      "ja": "焼いたスパムをごはんにのせ海苔で巻いた軽食"
-    },
-    "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Spam_musubi_%283915187982%29.jpg/960px-Spam_musubi_%283915187982%29.jpg",
-      "author": "Janine",
-      "license": "CC BY 2.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Spam_musubi_(3915187982).jpg"
-    },
-    "budgetBand": "저",
-    "linkedPriceIds": [
-      "GUM-SN-101"
-    ],
-    "priceStatus": "확정",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-12)"
-  },
-  {
     "cityId": "gyeongju",
     "nameKo": "교리김밥",
     "nameEn": "Gyori Gimbap",
@@ -4228,30 +4104,6 @@
     "priceStatus": "대기",
     "recommendSource": "VISIT GYEONGJU (경주 관광 공식 사이트)",
     "recommendUrl": "https://visitgyeongju.or.kr/kr/tema/view/535f414907010a450b420143425145404f",
-    "note": "Claude 초안(2026-10-11)"
-  },
-  {
-    "cityId": "gyeongju",
-    "nameKo": "콩국수",
-    "nameEn": "Kongguksu",
-    "reason": "진하게 간 콩물에 차가운 국수를 말아 먹는 여름 별미",
-    "reasonEn": "A cool, nutty noodle dish",
-    "desc": {
-      "ko": "진하게 간 콩물에 차가운 국수를 말아 먹는 여름 별미",
-      "en": "Cold noodles in rich ground soybean broth, a summer favorite",
-      "ja": "濃厚な豆乳スープに冷たい麺を入れた夏の味"
-    },
-    "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Kongguksu_%28soybean_cold_noodle%29.jpg/960px-Kongguksu_%28soybean_cold_noodle%29.jpg",
-      "author": "vedanti",
-      "license": "CC0",
-      "page": "https://commons.wikimedia.org/wiki/File:Kongguksu_(soybean_cold_noodle).jpg"
-    },
-    "budgetBand": "저",
-    "linkedPriceIds": [],
-    "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -6078,32 +5930,6 @@
     "note": "Claude 초안(2026-10-11)"
   },
   {
-    "cityId": "kyoto",
-    "nameKo": "규동",
-    "nameEn": "Gyudon",
-    "reason": "얇게 썬 소고기와 양파를 달콤한 간장 국물에 조려 밥에 올린 덮밥",
-    "reasonEn": "Japan's everyday quick meal",
-    "desc": {
-      "ko": "얇게 썬 소고기와 양파를 달콤한 간장 국물에 조려 밥 위에 올린 덮밥",
-      "en": "Thinly sliced beef and onion simmered in sweet soy broth over rice",
-      "ja": "薄切り牛肉と玉ねぎを甘辛いつゆで煮てご飯にのせた丼"
-    },
-    "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/JP_%E6%97%A5%E6%9C%AC_Japan_%E4%BA%AC%E9%83%BD_Kyoto_%E5%9B%9B%E6%A2%9D_Shijo_side_Sukiya_Restaurant_food_Gyudon_%E7%89%9B%E8%82%89%E4%B8%BC_beef_toppings_and_rice_bowl_June_2026_N13P_01.jpg/960px-JP_%E6%97%A5%E6%9C%AC_Japan_%E4%BA%AC%E9%83%BD_Kyoto_%E5%9B%9B%E6%A2%9D_Shijo_side_Sukiya_Restaurant_food_Gyudon_%E7%89%9B%E8%82%89%E4%B8%BC_beef_toppings_and_rice_bowl_June_2026_N13P_01.jpg",
-      "author": "TKdows 2026",
-      "license": "CC0",
-      "page": "https://commons.wikimedia.org/wiki/File:JP_日本_Japan_京都_Kyoto_四條_Shijo_side_Sukiya_Restaurant_food_Gyudon_牛肉丼_beef_toppings_and_rice_bowl_June_2026_N13P_01.jpg"
-    },
-    "budgetBand": "저",
-    "linkedPriceIds": [
-      "KYO-FD-102"
-    ],
-    "priceStatus": "확정",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-11)"
-  },
-  {
     "cityId": "las-vegas",
     "nameKo": "트래시 캔 나초",
     "nameEn": "Trash Can Nachos",
@@ -6983,30 +6809,6 @@
   },
   {
     "cityId": "nha-trang",
-    "nameKo": "분짜까",
-    "nameEn": "Bun Cha Ca",
-    "reason": "어묵과 생선을 올린 쌀국수를 맑은 생선 국물에 말아 낸 나트랑 대표 국수",
-    "reasonEn": "Nha Trang's fish-cake noodle soup",
-    "desc": {
-      "ko": "어묵과 생선을 올린 쌀국수를 맑은 생선 국물에 말아 낸 나트랑 대표 국수",
-      "en": "Rice noodles with fish cake in clear fish broth, Nha Trang's signature noodle",
-      "ja": "さつま揚げと魚をのせた米麺を魚だしのスープでいただくニャチャン名物"
-    },
-    "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Bun_cha_ca.jpg/960px-Bun_cha_ca.jpg",
-      "author": "Everyday English",
-      "license": "CC BY-SA 4.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Bun_cha_ca.jpg"
-    },
-    "budgetBand": "저",
-    "linkedPriceIds": [],
-    "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-11)"
-  },
-  {
-    "cityId": "nha-trang",
     "nameKo": "해산물 구이",
     "nameEn": "Grilled Seafood",
     "reason": "바닷가 도시답게 새우·조개·오징어를 숯불에 구워 먹는 요리",
@@ -7267,32 +7069,6 @@
     "priceStatus": "대기",
     "recommendSource": "Okinawa Tourism Information WEB Site (Okinawa Story)",
     "recommendUrl": "https://www.okinawastory.jp/feature/food/",
-    "note": "Claude 초안(2026-10-11)"
-  },
-  {
-    "cityId": "okinawa",
-    "nameKo": "A&W 버거와 루트비어",
-    "nameEn": "A&W Burger and Root Beer",
-    "reason": "오키나와에만 남은 미국식 드라이브인 체인의 버거와 루트비어",
-    "reasonEn": "A only-in-Okinawa fast-food classic",
-    "desc": {
-      "ko": "일본에서는 오키나와에만 있는 미국식 체인 A&W의 버거와 리필되는 루트비어",
-      "en": "Burgers and root beer from A&W, an American drive-in chain found in Japan only in Okinawa",
-      "ja": "日本では沖縄だけにあるアメリカ発チェーンA&Wのバーガーとルートビア"
-    },
-    "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/A%26W_Okinawa_DX_Chicken_Curly_Flies_Root_beer.jpg/960px-A%26W_Okinawa_DX_Chicken_Curly_Flies_Root_beer.jpg",
-      "author": "Sanjo",
-      "license": "CC BY-SA 3.0",
-      "page": "https://commons.wikimedia.org/wiki/File:A&W_Okinawa_DX_Chicken_Curly_Flies_Root_beer.jpg"
-    },
-    "budgetBand": "저",
-    "linkedPriceIds": [
-      "OKA-FD-101"
-    ],
-    "priceStatus": "확정",
-    "recommendSource": "",
-    "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
   },
   {
@@ -8117,32 +7893,6 @@
   },
   {
     "cityId": "saipan",
-    "nameKo": "포케",
-    "nameEn": "Poke",
-    "reason": "깍둑 썬 생참치를 간장·양파로 버무린 회 무침(사이판에서는 티티야스 납작빵과 함께)",
-    "reasonEn": "Fresh tuna poke",
-    "desc": {
-      "ko": "깍둑 썬 생참치를 간장·양파로 버무린 회 무침(사이판에서는 티티야스 납작빵과 함께)",
-      "en": "Cubed raw tuna tossed with soy and onion, served in Saipan with titiyas flatbread",
-      "ja": "角切りの生マグロを醤油と玉ねぎで和えた料理。サイパンではティティヤスと一緒に"
-    },
-    "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Salmon_Poke.jpg/960px-Salmon_Poke.jpg",
-      "author": "Pokebros",
-      "license": "CC BY-SA 4.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Salmon_Poke.jpg"
-    },
-    "budgetBand": "저",
-    "linkedPriceIds": [
-      "SPN-FD-104"
-    ],
-    "priceStatus": "확정",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-12)"
-  },
-  {
-    "cityId": "saipan",
     "nameKo": "켈라구엔",
     "nameEn": "Kelaguen",
     "reason": "닭고기·새우를 레몬즙·코코넛·고추로 버무린 차모로식 무침",
@@ -8163,54 +7913,6 @@
     "priceStatus": "대기",
     "recommendSource": "Marianas Visitors Authority",
     "recommendUrl": "https://mva.mymarianas.com/press-release/chicken-kelaguen-cook-off-jpop-at-taste-of-the-marianas/",
-    "note": "Claude 초안(2026-10-12)"
-  },
-  {
-    "cityId": "saipan",
-    "nameKo": "레드라이스",
-    "nameEn": "Red Rice",
-    "reason": "아치오테 씨앗으로 붉게 물들인 차모로식 밥",
-    "reasonEn": "The Chamorro side dish",
-    "desc": {
-      "ko": "아치오테 씨앗으로 붉게 물들인 차모로식 밥",
-      "en": "Chamorro rice colored red with achiote seeds",
-      "ja": "アチョーテの種で赤く色づけたチャモロ風ごはん"
-    },
-    "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Chamorro_red_rice.png/960px-Chamorro_red_rice.png",
-      "author": "Joyakdol",
-      "license": "CC BY-SA 4.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Chamorro_red_rice.png"
-    },
-    "budgetBand": "저",
-    "linkedPriceIds": [],
-    "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
-    "note": "Claude 초안(2026-10-12)"
-  },
-  {
-    "cityId": "saipan",
-    "nameKo": "코코넛 크랩",
-    "nameEn": "Coconut Crab",
-    "reason": "야자게를 쪄서 먹는 마리아나 제도 별미",
-    "reasonEn": "A Mariana Islands delicacy",
-    "desc": {
-      "ko": "야자게를 쪄서 먹는 마리아나 제도 별미",
-      "en": "Steamed coconut crab, a Mariana Islands delicacy",
-      "ja": "ヤシガニを蒸して食べるマリアナ諸島の名物"
-    },
-    "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Coconut_Crabs_Ready_to_be_Eaten.jpg/960px-Coconut_Crabs_Ready_to_be_Eaten.jpg",
-      "author": "Dcubillas",
-      "license": "CC BY-SA 3.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Coconut_Crabs_Ready_to_be_Eaten.jpg"
-    },
-    "budgetBand": "중",
-    "linkedPriceIds": [],
-    "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
     "note": "Claude 초안(2026-10-12)"
   },
   {
@@ -8811,30 +8513,6 @@
     "priceStatus": "대기",
     "recommendSource": "Sydney.com (Destination NSW)",
     "recommendUrl": "https://www.sydney.com/things-to-do/tours/local-sauce-tours-sydney/ultimate-aussie-food-tour-semi-private-tour",
-    "note": "Claude 초안(2026-10-11)"
-  },
-  {
-    "cityId": "sydney",
-    "nameKo": "바라문디",
-    "nameEn": "Barramundi",
-    "reason": "호주 바다·강에서 나는 흰살생선을 구이나 피시앤칩스로 먹는 요리",
-    "reasonEn": "A popular Australian white fish",
-    "desc": {
-      "ko": "호주 바다·강에서 나는 흰살생선을 구이나 피시앤칩스로 먹는 요리",
-      "en": "Mild white fish from Australian waters, served grilled or as fish and chips",
-      "ja": "オーストラリア産の白身魚をグリルやフィッシュアンドチップスで味わう料理"
-    },
-    "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Barramundi_grilled_in_the_Sydney_Fish_Market.jpg/960px-Barramundi_grilled_in_the_Sydney_Fish_Market.jpg",
-      "author": "Oraola",
-      "license": "CC BY-SA 4.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Barramundi_grilled_in_the_Sydney_Fish_Market.jpg"
-    },
-    "budgetBand": "중",
-    "linkedPriceIds": [],
-    "priceStatus": "대기",
-    "recommendSource": "",
-    "recommendUrl": "",
     "note": "Claude 초안(2026-10-11)"
   },
   {

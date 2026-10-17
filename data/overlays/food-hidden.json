@@ -1,0 +1,16 @@
+{
+  "_note": "화면에서 빼는 대표 음식(도시ID:Food 영문명 → 이유). 「보류」는 관광청 등 공식 출처를 찾으면 다시 넣는다. 원본 엑셀·추가 자료는 그대로 둔다.",
+  "kyoto:Gyudon": "제외: 교토 고유 음식이 아님(전국 체인 음식), 관광청 대표 음식 근거 없음(GPT 2026-10-19)",
+  "okinawa:A&W Burger and Root Beer": "제외: 특정 체인 상품, 관광청 대표 음식 근거 없음(GPT 2026-10-19)",
+  "gyeongju:Kongguksu": "제외: 경주 고유 음식 근거 없음(GPT 2026-10-19)",
+  "sydney:Barramundi": "제외: 시드니 대표 음식 근거 없음(GPT 2026-10-19)",
+  "guam:Spam Musubi": "제외: 괌 관광청 대표 음식 근거 없음(GPT 2026-10-19)",
+  "almaty:Plov": "보류: 공식 출처 확인 전(GPT 2026-10-19 확인불가)",
+  "cebu:Sutukil (Kinilaw)": "보류: 공식 출처 확인 전(GPT 2026-10-19 확인불가)",
+  "cebu:Ngohiong": "보류: 공식 출처 확인 전(GPT 2026-10-19 확인불가)",
+  "cebu:Siomai sa Tisa": "보류: 공식 출처 확인 전(GPT 2026-10-19 확인불가)",
+  "nha-trang:Bun Cha Ca": "보류: 공식 출처 확인 전(GPT 2026-10-19 확인불가)",
+  "saipan:Poke": "보류: 공식 출처 확인 전(GPT 2026-10-19 확인불가)",
+  "saipan:Red Rice": "보류: 공식 출처 확인 전(GPT 2026-10-19 확인불가)",
+  "saipan:Coconut Crab": "보류: 공식 출처 확인 전(GPT 2026-10-19 확인불가)"
+}

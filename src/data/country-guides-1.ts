@@ -130,7 +130,7 @@ export const COUNTRY_1: Record<string, CountryNote> = {
     ],
     cautions: [
       ['"수수료 0%" 환전소라도 환율이 나쁠 수 있으니 실제 받는 금액을 먼저 확인하세요.', 'Even “0% commission” exchanges can have bad rates; check the amount you’ll receive.', '「手数料0%」の両替所でもレートが悪いことがあるので、受取額を先に確認しましょう。', 'https://www.expats.cz/czech-news/article/video-prague-worst-exchange-office-outed'],
-      ['구시가지 관광지 주변 소매치기를 조심하세요.', 'Watch for pickpockets around the Old Town sights.', '旧市街の観光地周辺ではスリに注意しましょう。', 'https://www.smartertravel.com/tips-czech-republic-warnings-dangers-stay-safe/'],
+      ['구시가지 관광지 주변 소매치기를 조심하세요.', 'Watch for pickpockets around the Old Town sights.', '旧市街の観光地周辺ではスリに注意しましょう。', 'https://www.gov.uk/foreign-travel-advice/czech-republic/safety-and-security'],
     ],
   },
   Macau: {

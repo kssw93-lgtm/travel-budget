@@ -64,7 +64,7 @@ export const COUNTRY_2: Record<string, CountryNote> = {
   'United States': {
     tips: [
       ['가격표에는 판매세가 빠져 있고, 식당에서는 팁을 따로 남기는 것이 관행입니다.', 'Shelf prices exclude sales tax, and leaving a tip in restaurants is expected.', '値札には売上税が含まれず、レストランではチップを置くのが慣習です。', 'https://www.ytravelblog.com/tipping-in-usa/'],
-      ['LA처럼 넓게 퍼진 도시는 대중교통으로 닿기 어려운 명소가 많아 차량 호출 앱을 함께 쓰게 됩니다.', 'Spread-out cities such as LA have many sights that are hard to reach by transit, so ride-hailing apps help.', 'LAのように広い都市は公共交通で行きにくい名所が多く、配車アプリを併用することになります。', 'https://www.kayak.com/Los-Angeles.16078.guide/getting-around-los-angeles'],
+      ['LA처럼 넓게 퍼진 도시는 대중교통으로 닿기 어려운 명소가 많아 차량 호출 앱을 함께 쓰게 됩니다.', 'Spread-out cities such as LA have many sights that are hard to reach by transit, so ride-hailing apps help.', 'LAのように広い都市は公共交通で行きにくい名所が多く、配車アプリを併用することになります。', 'https://www.discoverlosangeles.com/plan-your-trip/getting-around-los-angeles'],
     ],
     cautions: [
       ['차 안에 가방·물건을 보이게 두면 차량 털이가 잦으니 아무것도 남기지 마세요.', 'Car break-ins are common; never leave bags or anything visible in a parked car.', '車上荒らしが多いので、駐車した車内に荷物を見える状態で置かないように。', 'https://www.0404.go.kr/ntnSafetyInfo/69/detail'],
@@ -88,17 +88,17 @@ export const COUNTRY_2: Record<string, CountryNote> = {
     ],
     cautions: [
       ['로마·피렌체·베네치아 관광지와 대중교통에서는 소매치기가 매우 잦습니다.', 'Pickpocketing is very common at sights and on transit in Rome, Florence and Venice.', 'ローマ・フィレンツェ・ヴェネツィアの観光地や公共交通ではスリが非常に多いです。', 'https://www.0404.go.kr/ntnSafetyInfo/179/detail'],
-      ['일부 도시 중심부는 허가 차량만 들어갈 수 있는 구역(ZTL)이라 렌터카로 들어가면 벌금이 나옵니다.', 'Many historic centres are limited-traffic zones (ZTL); driving in with a rental car brings fines.', '多くの歴史地区は進入制限区域（ZTL）で、レンタカーで入ると罰金になります。', 'https://www.covingtontravel.com/2016/11/avoid-italys-ztl-restricted-driving-zones/'],
+      ['일부 도시 중심부는 허가 차량만 들어갈 수 있는 구역(ZTL)이라 렌터카로 들어가면 벌금이 나옵니다.', 'Many historic centres are limited-traffic zones (ZTL); driving in with a rental car brings fines.', '多くの歴史地区は進入制限区域（ZTL）で、レンタカーで入ると罰金になります。', 'https://constoronto.esteri.it/en/?p=960'],
     ],
   },
   Spain: {
     tips: [
       ['스페인은 다른 여러 나라보다 식사 시간이 늦은 편이지만 식당별 영업시간은 다르므로 방문 전에 확인하세요.', 'Meal times in Spain tend to be later than in many countries, but opening hours vary by restaurant; check before visiting.', 'スペインでは食事の時間が他国より遅い傾向がありますが、店によって営業時間は異なります。訪問前に確認しましょう。', 'https://www.spain.info/en/about-spain/'],
-      ['주요 성당·궁전은 시간 지정 예약제라 온라인 공식 판매처에서 미리 사 두는 것이 좋습니다.', 'Major monuments use timed entry; buy ahead from the official site.', '主要な聖堂や宮殿は時間指定制なので、公式サイトで事前購入がおすすめです。', 'https://thebettervacation.com/granada/alhambra-palace-official-website/'],
+      ['주요 성당·궁전은 시간 지정 예약제라 온라인 공식 판매처에서 미리 사 두는 것이 좋습니다.', 'Major monuments use timed entry; buy ahead from the official site.', '主要な聖堂や宮殿は時間指定制なので、公式サイトで事前購入がおすすめです。', 'https://tickets.alhambra-patronato.es/en/'],
     ],
     cautions: [
       ['바르셀로나 람블라스 거리·지하철과 마드리드 솔 광장 주변은 소매치기가 매우 많습니다.', 'Pickpockets are rife on Las Ramblas and the Barcelona metro, and around Madrid’s Puerta del Sol.', 'バルセロナのランブラス通りや地下鉄、マドリードのソル広場周辺はスリが非常に多いです。', 'https://www.0404.go.kr/ntnSafetyInfo/128/detail'],
-      ['테라스 자리에서 휴대폰을 테이블 위에 두면 순식간에 가져가는 경우가 있습니다.', 'Phones left on terrace tables can vanish in seconds.', 'テラス席でテーブルに携帯を置くと、一瞬で盗られることがあります。', 'https://barcelonaurbana.com/en/blog/barcelona-safety-guide'],
+      ['테라스 자리에서 휴대폰을 테이블 위에 두면 순식간에 가져가는 경우가 있습니다.', 'Phones left on terrace tables can vanish in seconds.', 'テラス席でテーブルに携帯を置くと、一瞬で盗られることがあります。', 'https://www.gov.uk/foreign-travel-advice/spain/safety-and-security'],
     ],
   },
   Kazakhstan: {
@@ -253,7 +253,7 @@ export const COUNTRY_2: Record<string, CountryNote> = {
   Estonia: {
     tips: [
       ['탈린 버스·트램은 비접촉 카드로 차 안에서 바로 표를 살 수 있고, 공항·터미널에서도 1회권과 교통카드를 팝니다.', 'On Tallinn buses and trams you can buy a ticket on board with a contactless bank card; single tickets and travel cards are also sold at the airport and terminals.', 'タリンのバスやトラムはタッチ決済のカードで車内で切符が買え、空港やターミナルでも1回券や交通カードを販売しています。', 'https://isablog.ut.ee/?p=13156'],
-      ['유료 명소를 3곳 이상 갈 계획이면 탈린 카드가 유리할 수 있습니다.', 'If you plan to visit three or more paid attractions, the Tallinn Card can pay off.', '有料の名所を3か所以上回るなら、タリンカードがお得になることがあります。', 'https://chasingwhereabouts.com/blog/tallinn-pass-review'],
+      ['유료 명소를 3곳 이상 갈 계획이면 탈린 카드가 유리할 수 있습니다.', 'If you plan to visit three or more paid attractions, the Tallinn Card can pay off.', '有料の名所を3か所以上回るなら、タリンカードがお得になることがあります。', 'https://www.visittallinn.ee/eng/visitor/tallinncard'],
     ],
     cautions: [
       ['구시가지의 붐비는 곳과 술집에서는 여럿이 짜고 하는 소매치기가 있으니 소지품을 잘 챙기세요.', 'Pickpockets, sometimes working in teams, target crowded parts of the Old Town and its bars; keep valuables secure.', '旧市街の混雑した場所や酒場では、グループでのスリがあるので持ち物に注意しましょう。', 'https://gov.uk/foreign-travel-advice/estonia/safety-and-security'],

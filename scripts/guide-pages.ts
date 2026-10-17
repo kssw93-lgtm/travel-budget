@@ -5,6 +5,7 @@
 import { cityGuide, guidePath } from '../src/core/guide';
 import { formatMoney } from '../src/core/money';
 import { CITY_GUIDES } from '../src/data/city-guides';
+import { CHRISTMAS_MARKETS } from '../src/data/christmas-markets';
 import { CITY_INTROS } from '../src/data/city-intros';
 import { CITY_SEASONS } from '../src/data/city-seasons';
 import { COUNTRY_GUIDES } from '../src/data/country-guides';
@@ -108,6 +109,12 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const sights = note
     ? `        <h2>${e(fill(t.highlightsTitle, { city: name }))}</h2><ol>${note.highlights.map((h) => `<li><strong>${e(h.name[lang])}</strong> ${e(h.text[lang])}</li>`).join('')}</ol>`
     : '';
+  const xm = CHRISTMAS_MARKETS[city.id];
+  const xmas = xm
+    ? `        <h2>${e(fill(t.xmasTitle, { city: name }))}</h2><p><strong>${e(xm.name[IDX[lang]])}</strong> ${e(xm.note[IDX[lang]])}</p>` +
+      `<dl><dt>${e(t.xmasPlace)}</dt><dd>${e(xm.place[IDX[lang]])}</dd><dt>${e(t.xmasPeriod)}</dt><dd>${e(xm.period[IDX[lang]])}</dd></dl>` +
+      `<p>${e(t.xmasCheck)} <a href="${e(xm.url)}" rel="noopener">${e(new URL(xm.url).hostname)}</a></p>`
+    : '';
   const stay = intro?.s.length
     ? `        <h2>${e(fill(t.stayTitle, { city: name }))}</h2><dl>${intro.s.map((a) => `<dt>${e(a[IDX[lang]])}</dt><dd>${e(a[3 + IDX[lang]] ?? "")}</dd>`).join('')}</dl>`
     : '';
@@ -164,6 +171,7 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
     `        <p>${e(lead)}</p>`,
     days && `        <p>${e(days.min === days.max ? fill(t.daysOne, { n: days.min }) : fill(t.daysRange, { min: days.min, max: days.max }))}</p>`,
     cta,
+    xmas,
     sights,
     stay,
     passTips && `        <h2>${e(t.passTipTitle)}</h2><p>${e(fill(t.passTipLead, { ride: money(ride!.median, cur) }))}</p><ul>${passTips}</ul>`,
@@ -220,6 +228,10 @@ function grouped(list: City[], lang: Lang): Array<[string, City[]]> {
 
 export function guideIndexMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
   const t = MSG[lang].cityGuide;
+  const xc = d.cities.filter((c) => CHRISTMAS_MARKETS[c.id]).sort((a, b) => cityLabel(a, lang).localeCompare(cityLabel(b, lang), lang));
+  const xmasList = xc.length
+    ? `        <h2>${e(t.xmasIndexTitle)}</h2><p>${e(t.xmasIndexLead)}</p><ul>${xc.map((c) => `<li><a href="${guidePath(c.id)}?lang=${lang}">${e(fill(t.xmasTitle, { city: cityLabel(c, lang) }))}</a></li>`).join('')}</ul>\n`
+    : '';
   const groups = grouped(d.cities, lang)
     .map(([country, list]) => `        <h2>${e(country)}</h2><ul>${list.map((c) => `<li><a href="${guidePath(c.id)}?lang=${lang}">${e(fill(t.title, { city: cityLabel(c, lang) }))}</a></li>`).join('')}</ul>`)
     .join('\n');
@@ -229,7 +241,7 @@ export function guideIndexMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
     path: '/guides',
     lang,
     ld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: t.indexTitle, inLanguage: lang },
-    fallbackHtml: `        <h1>${e(t.indexTitle)}</h1>\n        <p>${e(t.indexLead)}</p>\n${groups}`,
+    fallbackHtml: `        <h1>${e(t.indexTitle)}</h1>\n        <p>${e(t.indexLead)}</p>\n${xmasList}${groups}`,
   };
 }
 

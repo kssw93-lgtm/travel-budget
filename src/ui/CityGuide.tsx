@@ -4,6 +4,7 @@ import { formatMoney } from '../core/money';
 import type { City, PriceSample } from '../core/types';
 import { cities, dataDate, dataMeta, extras, foods, memos, samples } from '../data';
 import { CITY_GUIDES } from '../data/city-guides';
+import { CHRISTMAS_MARKETS } from '../data/christmas-markets';
 import { CITY_INTROS } from '../data/city-intros';
 import { CITY_SEASONS } from '../data/city-seasons';
 import { COUNTRY_GUIDES } from '../data/country-guides';
@@ -44,6 +45,7 @@ export function GuideIndex({ go }: { go: Go }) {
   const { t, lang } = useI18n();
   const g = t.cityGuide;
   const [query, setQuery] = useState('');
+  const xmas = cities.filter((c) => CHRISTMAS_MARKETS[c.id]).sort((a, b) => cityName(a, lang).localeCompare(cityName(b, lang), lang));
   const groups = cityGroups(
     cities.filter((c) => matchCity(c, query)),
     lang,
@@ -56,6 +58,21 @@ export function GuideIndex({ go }: { go: Go }) {
         <label htmlFor="guide-search">{g.searchLabel}</label>
         <input id="guide-search" type="search" value={query} placeholder={g.searchPlaceholder} onChange={(e) => setQuery(e.target.value)} />
       </div>
+      {!query && xmas.length > 0 && (
+        <section className="guide-group xmas-cities" data-testid="guide-xmas-cities">
+          <h2>{g.xmasIndexTitle}</h2>
+          <p className="hint">{g.xmasIndexLead}</p>
+          <ul className="guide-index">
+            {xmas.map((c) => (
+              <li key={c.id} data-xmas-city={c.id}>
+                <InternalLink to={`${guidePath(c.id)}?lang=${lang}#christmas`} go={go}>
+                  {fmt(g.xmasTitle, { city: cityName(c, lang) })}
+                </InternalLink>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
       {groups.length === 0 && (
         <p className="muted" role="status">
           {g.searchEmpty}
@@ -110,6 +127,36 @@ function Highlights({ city }: { city: City }) {
           {g.notesSource} <ExternalLink href={note.source.url}>{note.source.name}</ExternalLink>
         </p>
       )}
+    </section>
+  );
+}
+
+/** 겨울 크리스마스 마켓(데이터가 있는 도시만) */
+function ChristmasMarket({ city }: { city: City }) {
+  const { t, lang } = useI18n();
+  const g = t.cityGuide;
+  const m = CHRISTMAS_MARKETS[city.id];
+  if (!m) return null;
+  const i = L(lang);
+  return (
+    <section id="christmas" className="card prose xmas" aria-labelledby="guide-xmas-title" data-testid="guide-christmas">
+      <h2 id="guide-xmas-title">{fmt(g.xmasTitle, { city: cityName(city, lang) })}</h2>
+      <p>
+        <strong>{m.name[i]}</strong> {m.note[i]}
+      </p>
+      <dl className="areas">
+        <div>
+          <dt>{g.xmasPlace}</dt>
+          <dd>{m.place[i]}</dd>
+        </div>
+        <div>
+          <dt>{g.xmasPeriod}</dt>
+          <dd>{m.period[i]}</dd>
+        </div>
+      </dl>
+      <p className="hint">
+        {g.xmasCheck} <ExternalLink href={m.url}>{new URL(m.url).hostname.replace(/^www\./, '')}</ExternalLink>
+      </p>
     </section>
   );
 }
@@ -304,6 +351,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
   const ctaText = days ? fmt(g.ctaNights, { city: name, n: days.nights, d: days.nights + 1 }) : fmt(g.cta, { city: name });
   const hasTransport = !!guide.prices.find((p) => p.basket === 'ride') && guide.passTips.length > 0;
   const toc: Array<[string, string, boolean]> = [
+    ['christmas', g.tocXmas, !!CHRISTMAS_MARKETS[city.id]],
     ['sights', g.tocSights, !!CITY_GUIDES[city.id]?.highlights.length],
     ['stay', g.tocStay, !!intro?.s.length],
     ['transport', g.tocTransport, hasTransport],
@@ -347,6 +395,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
         </nav>
       </section>
 
+      <ChristmasMarket city={city} />
       <Highlights city={city} />
       <StayAreas city={city} />
       <div id="transport">

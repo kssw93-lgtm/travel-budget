@@ -135,5 +135,85 @@ export const NOTES_9: Record<string, Compact> = {
       ['명소 입장권은 외국인 요금이 따로 있으니 공식 매표소에서 직접 사세요.', 'Sites charge separate foreigner prices; buy tickets yourself at the official counter.', '名所の入場券は外国人料金が別にあるので、公式窓口で直接購入しましょう。'],
     ],
   },
+  frankfurt: {
+    h: [
+      ['뢰머베르크', 'Römerberg', 'レーマーベルク', '계단식 박공지붕의 옛 시청(뢰머)과 목조 가옥이 둘러싼 구시가지 광장입니다.', 'The old-town square framed by the stepped gables of the Römer town hall and half-timbered houses.', '階段状の切妻屋根の旧市庁舎（レーマー）と木組みの家に囲まれた旧市街の広場です。'],
+      ['프랑크푸르트 대성당', 'Frankfurt Cathedral', 'フランクフルト大聖堂', '신성 로마 제국 황제의 대관식이 열렸던 고딕 대성당으로, 탑에 오를 수 있습니다.', 'The Gothic cathedral where Holy Roman emperors were crowned; you can climb the tower.', '神聖ローマ皇帝の戴冠式が行われたゴシック大聖堂で、塔に登れます。'],
+      ['마인강 변 박물관 거리', 'Museumsufer', '博物館通り（ムゼウムスウーファー）', '마인강 남쪽 강변에 미술관·박물관이 줄지어 있습니다.', 'A row of museums and galleries along the south bank of the Main.', 'マイン川の南岸に美術館や博物館が並んでいます。'],
+      ['마인 타워', 'Main Tower', 'マインタワー', '고층 빌딩 전망대에서 「마인해튼」 스카이라인을 볼 수 있습니다.', 'A skyscraper viewing platform over the “Mainhattan” skyline.', '高層ビルの展望台から「マインハッタン」のスカイラインが見られます。'],
+    ],
+    t: [
+      ['프랑크푸르트 공항은 한국 직항이 많아 유럽 여행의 첫 도시나 마지막 도시로 일정에 넣기 좋습니다.', 'Frankfurt Airport has many direct flights from Korea, making the city an easy first or last stop.', 'フランクフルト空港は韓国からの直行便が多く、ヨーロッパ旅行の最初や最後の街にしやすいです。'],
+      ['사과 와인(아펠바인)이 이 지역 명물이라 작센하우젠 지구의 전통 주점에서 맛볼 수 있습니다.', 'Apple wine (Apfelwein) is the local drink, served in the traditional taverns of Sachsenhausen.', 'アップルワイン（アプフェルヴァイン）が名物で、ザクセンハウゼン地区の伝統的な酒場で味わえます。'],
+    ],
+  },
+  berlin: {
+    h: [
+      ['브란덴부르크 문', 'Brandenburg Gate', 'ブランデンブルク門', '분단과 통일의 상징인 신고전주의 문입니다.', 'The neoclassical gate that symbolises Germany’s division and reunification.', '分断と統一の象徴である新古典主義の門です。'],
+      ['박물관 섬', 'Museum Island', '博物館島', '슈프레강의 섬에 다섯 개 박물관이 모인 유네스코 세계유산입니다.', 'A UNESCO-listed island in the Spree with five major museums.', 'シュプレー川の島に5つの博物館が集まる世界遺産です。'],
+      ['이스트 사이드 갤러리', 'East Side Gallery', 'イーストサイドギャラリー', '남아 있는 베를린 장벽 위에 그려진 대형 야외 벽화 전시입니다.', 'Murals painted on the longest surviving stretch of the Berlin Wall.', '残されたベルリンの壁に描かれた大きな屋外壁画です。'],
+      ['제국 의회 의사당 돔', 'Reichstag dome', '連邦議会議事堂のドーム', '유리 돔에 올라 시내를 볼 수 있으며 사전 등록이 필요합니다.', 'Climb the glass dome for city views; advance registration is required.', 'ガラスのドームに上って市内を眺められ、事前登録が必要です。'],
+    ],
+    t: [
+      ['명소가 넓게 흩어져 있어 지하철(U-Bahn)·S-Bahn 1일권으로 다니면 편합니다.', 'Sights are spread out, so a U-Bahn/S-Bahn day ticket makes getting around easy.', '名所が広く散らばっているので、地下鉄（Uバーン・Sバーン）の1日券で回ると便利です。'],
+      ['일요일에는 대부분의 상점이 문을 닫으니 쇼핑은 토요일까지 마치세요.', 'Most shops close on Sundays, so finish shopping by Saturday.', '日曜日はほとんどの店が閉まるので、買い物は土曜日までに。'],
+    ],
+  },
+  zurich: {
+    h: [
+      ['취리히 구시가지', 'Old Town (Altstadt)', '旧市街', '리마트강 양쪽에 좁은 골목과 교회가 모인 구시가지입니다.', 'Narrow lanes and churches on both banks of the Limmat.', 'リマト川の両岸に細い路地と教会が集まる旧市街です。'],
+      ['그로스뮌스터', 'Grossmünster', 'グロスミュンスター', '두 개의 탑이 상징인 대성당으로, 탑에 오르면 시내와 호수가 보입니다.', 'The twin-towered church; climb a tower for views of the city and lake.', '2本の塔が象徴の大聖堂で、塔に登ると街と湖が見えます。'],
+      ['반호프 거리', 'Bahnhofstrasse', 'バーンホフ通り', '중앙역에서 호수까지 이어지는 고급 쇼핑 거리입니다.', 'The upmarket shopping street from the main station to the lake.', '中央駅から湖まで続く高級ショッピング街です。'],
+      ['취리히 호수', 'Lake Zurich', 'チューリッヒ湖', '호숫가 산책로와 유람선이 있습니다.', 'Lakeside promenades and boat trips.', '湖畔の遊歩道や遊覧船があります。'],
+    ],
+    t: [
+      ['스위스는 물가가 높은 편이라 슈퍼마켓 즉석식품이나 역 안 식당을 섞으면 식비를 줄일 수 있습니다.', 'Switzerland is expensive; mixing in supermarket meals and station eateries helps the food budget.', 'スイスは物価が高めなので、スーパーの総菜や駅の飲食店を組み合わせると食費を抑えられます。'],
+      ['대중교통이 정확하고 촘촘해 트램으로 시내 대부분을 다닐 수 있습니다.', 'Public transport is punctual and dense; trams reach most of the city.', '公共交通が正確で充実しており、トラムで市内のほとんどを回れます。'],
+    ],
+  },
+  basel: {
+    h: [
+      ['바젤 대성당(뮌스터)', 'Basel Minster', 'バーゼル大聖堂', '붉은 사암과 색 기와 지붕의 대성당으로, 뒤편 테라스에서 라인강이 내려다보입니다.', 'A red-sandstone cathedral with coloured roof tiles; the terrace behind overlooks the Rhine.', '赤い砂岩と色瓦の屋根の大聖堂で、裏のテラスからライン川が見下ろせます。'],
+      ['바젤 시청', 'Basel Town Hall', 'バーゼル市庁舎', '붉은 외벽과 벽화가 인상적인 시장 광장의 시청입니다.', 'The striking red town hall with painted walls on the Marktplatz.', '赤い外壁と壁画が印象的なマルクト広場の市庁舎です。'],
+      ['바젤 시립 미술관', 'Kunstmuseum Basel', 'バーゼル市立美術館', '세계에서 오래된 공공 미술관 중 하나로 꼽히는 미술관입니다.', 'Counted among the world’s oldest public art collections.', '世界で最も古い公共美術館の一つとされる美術館です。'],
+    ],
+    t: [
+      ['라인강을 건너는 작은 나룻배(페리)는 강물의 흐름만으로 움직이는 바젤의 명물입니다.', 'Basel’s little Rhine ferries cross the river powered only by the current.', 'ライン川を渡る小さな渡し船は川の流れだけで動くバーゼルの名物です。'],
+      ['프랑스·독일과 맞닿은 국경 도시라 이웃 나라 마을까지 트램·버스로 갈 수 있습니다.', 'A border city: trams and buses reach neighbouring French and German towns.', 'フランス・ドイツと接する国境の街で、隣国の町までトラムやバスで行けます。'],
+    ],
+  },
+  riga: {
+    h: [
+      ['리가 구시가지', 'Riga Old Town', 'リガ旧市街', '유네스코 세계유산으로, 중세 골목과 교회 탑이 모여 있습니다.', 'A UNESCO-listed old town of medieval lanes and church spires.', '世界遺産で、中世の路地や教会の塔が集まっています。'],
+      ['검은 머리 전당', 'House of the Blackheads', 'ブラックヘッドの会館', '시청 광장의 화려한 길드 건물로, 앞에 첫 크리스마스트리 기념 표지가 있습니다.', 'The ornate guild house on Town Hall Square, near the first-Christmas-tree marker.', '市庁舎広場の豪華なギルド会館で、前に最初のクリスマスツリーの記念の目印があります。'],
+      ['아르누보 거리', 'Art Nouveau District', 'アール・ヌーヴォー地区', '알베르타 거리를 중심으로 장식이 화려한 아르누보 건물이 늘어서 있습니다.', 'Alberta iela and nearby streets are lined with ornate Art Nouveau facades.', 'アルベルタ通りを中心に装飾豊かなアール・ヌーヴォー建築が並びます。'],
+      ['리가 중앙시장', 'Riga Central Market', 'リガ中央市場', '옛 비행선 격납고를 개조한 대형 시장입니다.', 'A huge market housed in former Zeppelin hangars.', '旧ツェッペリン格納庫を改装した大きな市場です。'],
+    ],
+    t: [
+      ['구시가지는 작아 걸어서 다닐 수 있고, 돌길이 겨울에 얼면 미끄러우니 밑창이 단단한 신발을 신으세요.', 'The old town is compact and walkable; cobbles get icy in winter, so wear grippy shoes.', '旧市街は小さく歩いて回れます。石畳は冬に凍って滑りやすいので、滑りにくい靴を。'],
+      ['탈린·빌뉴스와 버스로 이어져 발트 3국을 함께 여행하는 일정이 많습니다.', 'Buses link Riga with Tallinn and Vilnius, so many trips cover all three Baltic capitals.', 'タリンやヴィリニュスとバスで結ばれ、バルト三国を一緒に巡る旅程が多いです。'],
+    ],
+  },
+  gdansk: {
+    h: [
+      ['드우기 타르크(긴 시장 거리)', 'Long Market (Długi Targ)', 'ドゥーギ・タルク（長い市場）', '알록달록한 상인 가옥과 넵튠 분수가 있는 구시가지 중심 거리입니다.', 'The old-town main street of colourful merchant houses and the Neptune Fountain.', 'カラフルな商人の家とネプチューンの噴水がある旧市街の目抜き通りです。'],
+      ['모트와바강 변 크레인', 'Gdańsk Crane (Żuraw)', 'クレーン（ジュラフ）', '중세 항구 크레인으로, 강변 산책로의 상징입니다.', 'A medieval port crane, the symbol of the riverside promenade.', '中世の港のクレーンで、川沿いの遊歩道の象徴です。'],
+      ['제2차 세계대전 박물관', 'Museum of the Second World War', '第二次世界大戦博物館', '전쟁이 시작된 도시에서 전쟁의 역사를 보여주는 대형 박물관입니다.', 'A major museum on the war, in the city where it began.', '戦争が始まった街で、その歴史を伝える大きな博物館です。'],
+    ],
+    t: [
+      ['발트해 연안이라 겨울 바람이 차고 습하니 따뜻한 겉옷을 챙기세요.', 'On the Baltic coast, winter winds are cold and damp; pack a warm coat.', 'バルト海沿岸で冬の風は冷たく湿っているので、暖かい上着を。'],
+      ['소폿·그디니아와 함께 「트리시티」로 불리며 근교 열차로 쉽게 오갈 수 있습니다.', 'With Sopot and Gdynia it forms the “Tricity”, linked by frequent local trains.', 'ソポト・グディニャとともに「三連都市」と呼ばれ、近郊列車で簡単に行き来できます。'],
+    ],
+  },
+  bruges: {
+    h: [
+      ['마르크트 광장과 종탑', 'Markt and Belfry', 'マルクト広場と鐘楼', '중세 종탑이 서 있는 중앙 광장으로, 종탑에 오르면 시내가 내려다보입니다.', 'The main square under the medieval Belfry, which you can climb for views.', '中世の鐘楼が立つ中央広場で、鐘楼に登ると街を見渡せます。'],
+      ['운하 보트', 'Canal boat tour', '運河ボート', '운하를 따라 도는 보트에서 중세 도시 풍경을 봅니다.', 'See the medieval city from a canal boat.', '運河を巡るボートから中世の街並みを眺めます。'],
+      ['성혈 성당', 'Basilica of the Holy Blood', '聖血礼拝堂', '부르크 광장의 작은 성당으로 성혈 유물로 알려져 있습니다.', 'A small basilica on the Burg square known for its relic.', 'ブルク広場の小さな聖堂で、聖血の聖遺物で知られます。'],
+    ],
+    t: [
+      ['브뤼셀에서 기차로 1시간 남짓이라 당일치기로 많이 오지만, 저녁의 조용한 운하를 보려면 1박을 추천합니다.', 'About an hour by train from Brussels; many day-trip, but stay a night to see the quiet canals in the evening.', 'ブリュッセルから電車で1時間ほどで日帰りが多いですが、夜の静かな運河を見るなら1泊がおすすめです。'],
+      ['구시가지는 걸어서 충분히 다닐 수 있습니다.', 'The historic centre is easily walkable.', '旧市街は歩いて十分に回れます。'],
+    ],
+  },
 };
-

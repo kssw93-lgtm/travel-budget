@@ -370,6 +370,19 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(page.getByTestId('guide-others')).toHaveCount(0);
   });
 
+  test('크리스마스 마켓 도시는 가이드에 마켓 칸이 있고, 가이드 목록 맨 위에 모여 있다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/guide/dresden?lang=ko');
+    const x = page.getByTestId('guide-christmas');
+    await expect(x).toContainText('드레스덴 크리스마스 마켓');
+    await expect(x).toContainText('슈트리첼마르크트');
+    await expect(page.getByTestId('guide-toc').getByRole('link', { name: '크리스마스 마켓' })).toHaveAttribute('href', '#christmas');
+    await page.goto('/guide/bangkok?lang=ko');
+    await expect(page.getByTestId('guide-christmas')).toHaveCount(0);
+    await page.goto('/guides?lang=ko');
+    await expect(page.getByTestId('guide-xmas-cities').locator('[data-xmas-city="dresden"]')).toBeVisible();
+  });
+
   test('가이드 목록은 나라별로 묶이고 도시·나라 이름으로 검색된다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/guides?lang=ko');

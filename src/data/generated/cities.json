@@ -870,6 +870,76 @@
     "stage": "파일럿"
   },
   {
+    "id": "frankfurt",
+    "country": "독일",
+    "countryEn": "Germany",
+    "nameKo": "프랑크푸르트",
+    "nameEn": "Frankfurt",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "berlin",
+    "country": "독일",
+    "countryEn": "Germany",
+    "nameKo": "베를린",
+    "nameEn": "Berlin",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "zurich",
+    "country": "스위스",
+    "countryEn": "Switzerland",
+    "nameKo": "취리히",
+    "nameEn": "Zurich",
+    "currency": "CHF",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "basel",
+    "country": "스위스",
+    "countryEn": "Switzerland",
+    "nameKo": "바젤",
+    "nameEn": "Basel",
+    "currency": "CHF",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "riga",
+    "country": "라트비아",
+    "countryEn": "Latvia",
+    "nameKo": "리가",
+    "nameEn": "Riga",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "gdansk",
+    "country": "폴란드",
+    "countryEn": "Poland",
+    "nameKo": "그단스크",
+    "nameEn": "Gdansk",
+    "currency": "PLN",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "bruges",
+    "country": "벨기에",
+    "countryEn": "Belgium",
+    "nameKo": "브뤼헤",
+    "nameEn": "Bruges",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
     "id": "barcelona",
     "country": "스페인",
     "countryEn": "Spain",

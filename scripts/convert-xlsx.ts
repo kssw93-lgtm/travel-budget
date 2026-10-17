@@ -44,7 +44,7 @@ const COUNTRY_EN: Record<string, string> = {
   독일: 'Germany', 스위스: 'Switzerland', 포르투갈: 'Portugal', 캄보디아: 'Cambodia', 라오스: 'Laos', 캐나다: 'Canada', 뉴질랜드: 'New Zealand',
   네덜란드: 'Netherlands', 그리스: 'Greece', 크로아티아: 'Croatia',
   카자흐스탄: 'Kazakhstan', 우즈베키스탄: 'Uzbekistan', 조지아: 'Georgia', 멕시코: 'Mexico',
-  덴마크: 'Denmark', 스웨덴: 'Sweden', 핀란드: 'Finland', 폴란드: 'Poland', 아일랜드: 'Ireland', 벨기에: 'Belgium', 이집트: 'Egypt', 아이슬란드: 'Iceland', 에스토니아: 'Estonia',
+  덴마크: 'Denmark', 스웨덴: 'Sweden', 핀란드: 'Finland', 폴란드: 'Poland', 아일랜드: 'Ireland', 벨기에: 'Belgium', 이집트: 'Egypt', 아이슬란드: 'Iceland', 에스토니아: 'Estonia', 라트비아: 'Latvia',
 };
 
 const errors: string[] = [];

@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { cities } from '../../src/data';
+import { allCities, cities } from '../../src/data';
+import { CHRISTMAS_MARKETS } from '../../src/data/christmas-markets';
 import { CITY_INTROS } from '../../src/data/city-intros';
 import { CITY_SEASONS } from '../../src/data/city-seasons';
 import { COUNTRY_GUIDES } from '../../src/data/country-guides';
@@ -36,6 +37,15 @@ describe('나라별 알아둘 것·조심할 것', () => {
       expect(i!.d[0] >= 1 && i!.d[0] <= i!.d[1], c.id).toBe(true);
       expect(i!.s.length, c.id).toBeGreaterThan(0);
       expect(i!.o.join(' '), c.id).not.toMatch(/[$€£¥₩]\s?\d|\d\s?(원|円|달러|유로)/);
+    }
+  });
+
+  it('크리스마스 마켓 안내는 등록된 도시에만 있고, 공식 안내 주소와 세 언어 문장을 갖춘다', () => {
+    for (const [id, m] of Object.entries(CHRISTMAS_MARKETS)) {
+      expect(allCities.some((c) => c.id === id), id).toBe(true);
+      expect(m.url, id).toMatch(/^https:\/\//);
+      for (const x of [m.name, m.place, m.period, m.note]) expect(x.every((v) => v.length > 0), id).toBe(true);
+      expect([...m.note, ...m.period].join(' '), id).not.toMatch(/[$€£¥₩]\s?\d|\d\s?(원|円|달러|유로)/);
     }
   });
 });

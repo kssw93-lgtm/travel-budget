@@ -243,3 +243,7 @@ details:not([open]) > summary .toggle-hint .when-open, details[open] > summary .
 .areas dd { margin: 4px 0 0; color: var(--muted); }
 #sights, #stay, #transport, #food, #tips, #costs { scroll-margin-top: 16px; }
 .stay-areas h2, .city-tips h2 { margin-top: 0; }
+
+.xmas { border-top: 3px solid #b3261e; }
+.xmas-cities { padding: 12px 0; }
+#christmas { scroll-margin-top: 16px; }

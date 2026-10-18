@@ -2559,6 +2559,60 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "bremen",
+    "nameKo": "콜 운트 핀켈",
+    "nameEn": "Kohl und Pinkel",
+    "reason": "케일을 핀켈 소시지와 함께 오래 끓인 브레멘 겨울 요리",
+    "reasonEn": "Kale stewed with Pinkel grain sausage, a Bremen winter dish",
+    "desc": {
+      "ko": "케일을 핀켈 소시지와 함께 오래 끓인 브레멘 겨울 요리",
+      "en": "Kale stewed with Pinkel grain sausage, a Bremen winter dish",
+      "ja": "ケールをピンケル・ソーセージと煮込んだブレーメンの冬の料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Stadt Bremen",
+    "recommendUrl": "https://www.bremen.de/leben-in-bremen/gruenkohl-in-bremen",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "bremen",
+    "nameKo": "크니프",
+    "nameEn": "Knipp",
+    "reason": "곡물을 넣은 소시지를 바삭하게 구워 감자볶음과 먹는 요리",
+    "reasonEn": "Crisp-fried grain sausage with fried potatoes",
+    "desc": {
+      "ko": "곡물을 넣은 소시지를 바삭하게 구워 감자볶음과 먹는 요리",
+      "en": "Crisp-fried grain sausage with fried potatoes",
+      "ja": "穀物入りソーセージをカリッと焼き、炒めたじゃがいもと食べる料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Stadt Bremen",
+    "recommendUrl": "https://www.bremen.de/leben-in-bremen/kulinarisch/bremisch-geniessen",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "bremen",
+    "nameKo": "랍스카우스",
+    "nameEn": "Labskaus",
+    "reason": "뱃사람들이 먹던 고기·감자 요리로, 달걀프라이와 청어 절임을 곁들입니다",
+    "reasonEn": "Sailors’ corned-beef hash with fried egg and rollmops",
+    "desc": {
+      "ko": "뱃사람들이 먹던 고기·감자 요리로, 달걀프라이와 청어 절임을 곁들입니다",
+      "en": "Sailors’ corned-beef hash with fried egg and rollmops",
+      "ja": "船乗りが食べた肉とじゃがいもの料理で、目玉焼きやニシンの酢漬けを添えます"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Stadt Bremen",
+    "recommendUrl": "https://www.bremen.de/leben-in-bremen/kulinarisch/bremisch-geniessen",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "brisbane",
     "nameKo": "모턴 베이 벅",
     "nameEn": "Moreton Bay Bugs",

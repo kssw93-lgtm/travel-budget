@@ -957,4 +957,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['로잔 호텔·유스호스텔·캠핑장 투숙객은 머무는 동안(최대 15일) 대중교통을 무료로 타는 로잔 교통카드를 받습니다. 개인 숙소(아파트·방 임대)는 해당되지 않습니다.', 'Guests in Lausanne hotels, hostels and campsites get a free Lausanne Transport Card for their stay (up to 15 days); private rentals are excluded.', 'ローザンヌのホテル・ユースホステル・キャンプ場の宿泊者は、滞在中（最大15日）公共交通に無料で乗れるローザンヌ交通カードがもらえます。個人宅の貸し部屋などは対象外です。'],
     ],
   },
+  bremen: {
+    h: [
+      ['브레멘 시청과 롤란트', 'Town Hall and Roland', 'ブレーメン市庁舎とローラント像', '고딕·르네상스 양식의 시청과 거대한 롤란트 석상이 함께 유네스코 세계유산입니다.', 'The Gothic–Renaissance Town Hall and giant Roland statue form a UNESCO World Heritage Site.', 'ゴシック・ルネサンス様式の市庁舎と巨大なローラント像がともにユネスコ世界遺産です。'],
+      ['유니버숨 브레멘', 'Universum Bremen', 'ウニヴェルズム・ブレーメン', '직접 만지고 체험하는 과학관으로, 6세 미만은 무료입니다.', 'A hands-on science centre; under-sixes are free.', '実際に触れて体験できる科学館で、6歳未満は無料です。'],
+      ['브레멘 커피 문화', 'Bremen coffee culture', 'ブレーメンのコーヒー文化', '1673년 독일어권 최초의 커피하우스가 문을 연 도시로, 버터·설탕·계피를 바른 빵을 커피에 적셔 먹습니다.', 'Home of the first coffee house in the German-speaking world (1673); dunk buttered cinnamon-sugar bread in your coffee.', '1673年にドイツ語圏初のコーヒーハウスが開いた街で、バター・砂糖・シナモンを塗ったパンをコーヒーに浸して食べます。'],
+    ],
+    t: [
+      ['공항에서 시내: 트램 6번을 타면 약 11분 만에 중앙역·시내에 닿으며, 브레멘 시내 1회권(3시간 유효)으로 탈 수 있습니다.', 'Airport to city: tram 6 reaches the centre and Hauptbahnhof in about 11 minutes on a Bremen city single (valid 3 hours).', '空港から市内へ：トラム6番で約11分で中央駅・市内に着き、ブレーメン市内の1回券（3時間有効）で乗れます。'],
+    ],
+  },
 };

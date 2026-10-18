@@ -1330,6 +1330,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "bremen",
+    "country": "독일",
+    "countryEn": "Germany",
+    "nameKo": "브레멘",
+    "nameEn": "Bremen",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "copenhagen",
     "country": "덴마크",
     "countryEn": "Denmark",

@@ -466,4 +466,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'graz:x': 'https://www.museum-joanneum.at/en/palace-and-gardens-schloss-eggenberg/your-visit/admission/free-entry',
   'lausanne:p1': 'https://www.lausanne-tourisme.ch/en/seasons/',
   'lausanne:x': 'https://www.lausanne-tourisme.ch/en/the-lausanner/articles/vaudois-roots/',
+  'bremen:p1': 'https://www.bremen.de/leben-in-bremen/kulinarisch/bremisch-geniessen',
+  'bremen:p2': 'https://www.bremen.de/leben-in-bremen/gruenkohl-in-bremen',
+  'bremen:x': 'https://tourismus.bremen.de/bremen/experience/detail/Erlebnisbaustein-Rathausfuehrung-Bremen-DEU99999990083824262',
 };

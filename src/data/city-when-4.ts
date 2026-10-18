@@ -501,4 +501,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['파페 보두아(감자·대파 요리)는 주로 9~4월에 먹는 겨울 음식입니다.', 'Papet vaudois (leek and potato with sausage) is mostly a September–April dish.', 'パペ・ヴォードワ（ネギとじゃがいもの料理）は主に9〜4月に食べる冬の料理です。'],
   },
+  bremen: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '베저강 변 산책과 야외 카페를 즐기기 좋은 계절입니다.', 'The season for Weser riverside walks and outdoor cafés.', 'ヴェーザー川沿いの散策や屋外のカフェを楽しめる季節です。'],
+      ['11~2월', 'November–February', '11〜2月', '첫서리 뒤 케일 요리(콜 운트 핀켈) 제철이고, 12월에는 크리스마스 마켓이 열립니다.', 'After the first frost, kale-and-Pinkel season; Christmas markets in December.', '初霜の後はケール料理（コール・ウント・ピンケル）の旬で、12月にはクリスマスマーケットが開かれます。'],
+    ],
+    x: ['시청 내부는 가이드 투어로만 볼 수 있고, 투어 일정은 약 한 달 전에 정해지며 갑자기 취소되기도 합니다.', 'The Town Hall interior is by guided tour only; dates are set about a month ahead and can be cancelled at short notice.', '市庁舎の内部はガイドツアーでのみ見学でき、日程は約1か月前に決まり、急に中止されることもあります。'],
+  },
 };

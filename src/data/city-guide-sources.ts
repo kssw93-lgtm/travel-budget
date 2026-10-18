@@ -1160,4 +1160,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'lausanne:h2': 'https://www.lausanne-tourisme.ch/en/the-lausanner/articles/vaud-specialities/',
   'lausanne:h3': 'https://www.lausanne-tourisme.ch/en/the-lausanner/articles/vaudois-roots/',
   'lausanne:t1': 'https://www.lausanne-tourisme.ch/en/lausanne-transport-card-and-more/',
+  'bremen:h1': 'https://www.welterbe.bremen.de/aktuelles/mit-der-taschenlampe-durch-rathaus-und-ratskeller-23228',
+  'bremen:h2': 'https://universum-bremen.de/info-oeffnungszeiten-eintrittspreise/',
+  'bremen:h3': 'https://m.bremen-tourismus.de/so-isst-man-bremisch',
+  'bremen:t1': 'https://www.bremen-airport.com/en/service/arrival-parking/getting-to-the-airport',
 };

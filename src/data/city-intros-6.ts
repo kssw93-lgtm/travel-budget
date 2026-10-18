@@ -622,4 +622,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['우시(호숫가)', 'Ouchy (lakeside)', 'ウシー（湖畔）', '올림픽 박물관과 호숫가 산책로가 있는 지역입니다.', 'Lakeside, home to the Olympic Museum and promenade.', 'オリンピック博物館や湖畔の遊歩道がある地区です。'],
     ],
   },
+  bremen: {
+    o: ['독일 북부의 한자 도시로, 시청과 롤란트 석상이 유네스코 세계유산입니다. 그림 동화 ‘브레멘 음악대’ 동상과 좁은 골목 슈노어 지구가 유명하며, 독일에서 마시는 커피 세 잔 중 한 잔이 이곳을 거친다는 커피 도시이기도 합니다.', 'A Hanseatic city in northern Germany whose Town Hall and Roland statue are UNESCO-listed; famous for the Town Musicians of Bremen statue and the narrow Schnoor quarter, and a coffee city through which one in three cups drunk in Germany passes.', 'ドイツ北部のハンザ都市で、市庁舎とローラント像がユネスコ世界遺産です。グリム童話「ブレーメンの音楽隊」の像や細い路地のシュノーア地区が有名で、ドイツで飲まれるコーヒーの3杯に1杯がここを経由するというコーヒーの街でもあります。'],
+    d: [1, 2],
+    s: [
+      ['구시가지(마르크트 광장 주변)', 'Old Town (around the Marktplatz)', '旧市街（マルクト広場周辺）', '시청과 음악대 동상, 슈노어 지구가 걸어서 닿습니다.', 'A walk to the Town Hall, the Musicians statue and the Schnoor.', '市庁舎や音楽隊の像、シュノーア地区へ歩いて行けます。'],
+      ['중앙역 주변', 'Around the Hauptbahnhof', '中央駅周辺', '공항행 트램과 기차가 모이고, 유니버숨 과학관행 교통도 편합니다.', 'Trams to the airport and trains, with easy links to the Universum.', '空港行きのトラムや列車が集まり、ウニヴェルズム科学館へも行きやすいです。'],
+    ],
+  },
 };

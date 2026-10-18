@@ -5347,5 +5347,20 @@
     "ko": "보주 색인 초록색 아이싱을 올린 작은 타르트",
     "en": "Small tart with green icing in the canton’s colours",
     "ja": "州の色である緑のアイシングをのせた小さなタルト"
+  },
+  "bremen:Kohl und Pinkel": {
+    "ko": "케일을 핀켈 소시지와 함께 오래 끓인 브레멘 겨울 요리",
+    "en": "Kale stewed with Pinkel grain sausage, a Bremen winter dish",
+    "ja": "ケールをピンケル・ソーセージと煮込んだブレーメンの冬の料理"
+  },
+  "bremen:Knipp": {
+    "ko": "곡물을 넣은 소시지를 바삭하게 구워 감자볶음과 먹는 요리",
+    "en": "Crisp-fried grain sausage with fried potatoes",
+    "ja": "穀物入りソーセージをカリッと焼き、炒めたじゃがいもと食べる料理"
+  },
+  "bremen:Labskaus": {
+    "ko": "뱃사람들이 먹던 고기·감자 요리로, 달걀프라이와 청어 절임을 곁들입니다",
+    "en": "Sailors’ corned-beef hash with fried egg and rollmops",
+    "ja": "船乗りが食べた肉とじゃがいもの料理で、目玉焼きやニシンの酢漬けを添えます"
   }
 }

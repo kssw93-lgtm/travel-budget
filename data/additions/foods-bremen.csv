@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+독일,브레멘,콜 운트 핀켈,Kohl und Pinkel,케일을 핀켈 소시지와 함께 오래 끓인 브레멘 겨울 요리,중,,대기,Stadt Bremen,https://www.bremen.de/leben-in-bremen/gruenkohl-in-bremen,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+독일,브레멘,크니프,Knipp,곡물을 넣은 소시지를 바삭하게 구워 감자볶음과 먹는 요리,저,,대기,Stadt Bremen,https://www.bremen.de/leben-in-bremen/kulinarisch/bremisch-geniessen,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+독일,브레멘,랍스카우스,Labskaus,"뱃사람들이 먹던 고기·감자 요리로, 달걀프라이와 청어 절임을 곁들입니다",저,,대기,Stadt Bremen,https://www.bremen.de/leben-in-bremen/kulinarisch/bremisch-geniessen,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

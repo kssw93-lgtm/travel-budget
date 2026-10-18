@@ -102,6 +102,11 @@
 | 몬트리올 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 시애틀 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 시애틀 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 퍼스 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 퍼스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 퍼스 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 맨체스터 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 맨체스터 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 마카오 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 마카오 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1037,6 +1042,13 @@
 | SEA-AT-001 | 시애틀 | 스페이스 니들 일반 입장 (성인) | 35~55 USD | A | 예 | 재검증 | [Space Needle](https://www.spaceneedle.com/plan-your-visit) |
 | SEA-AT-002 | 시애틀 | 치훌리 가든 앤드 글라스 (성인) | 40~45 USD | A | 예 | 재검증 | [Chihuly Garden and Glass](https://www.chihulygardenandglass.com/visit/plan-your-visit) |
 | SEA-AT-003 | 시애틀 | 치훌리 가든 앤드 글라스 (아동) | 35~40 USD | A | 예 | 재검증 | [Chihuly Garden and Glass](https://www.chihulygardenandglass.com/visit/plan-your-visit) |
+| PER-TR-001 | 퍼스 | 트랜스퍼스 버스·열차 1회(2구간~고 애니웨어) | 2.4~3.5 AUD | A | 예 | 재검증 | [Transperth](https://www.transperth.wa.gov.au/tickets-fares/fares) |
+| PER-AT-001 | 퍼스 | 퍼스 동물원 (성인) | 40 AUD | A | 예 | 재검증 | [Perth Zoo](https://perthzoo.wa.gov.au/buy-tickets) |
+| PER-AT-002 | 퍼스 | 퍼스 동물원 (아동) | 20 AUD | A | 예 | 재검증 | [Perth Zoo](https://perthzoo.wa.gov.au/buy-tickets) |
+| MAN-TR-001 | 맨체스터 | 메트로링크 트램 1회(구간별) | 1.4~4.6 GBP | A | 예 | 재검증 | [Transport for Greater Manchester](https://tfgm.com/tickets-and-passes/tram-peak-single-ticket-adult) |
+| MAN-AT-001 | 맨체스터 | 올드 트래퍼드 투어 (성인, 사전 예약) | 28 GBP | A | 예 | 재검증 | [Manchester United](https://www.manutd.com/en/club/visit-old-trafford/museum-stadium-tours) |
+| MAN-AT-002 | 맨체스터 | 올드 트래퍼드 투어 (주니어, 사전 예약) | 15 GBP | A | 예 | 재검증 | [Manchester United](https://www.manutd.com/en/club/visit-old-trafford/museum-stadium-tours) |
+| MAN-AT-003 | 맨체스터 | 과학산업박물관 (입장 무료) | 0 GBP | A | 예 | 재검증 | [Science and Industry Museum](https://www.scienceandindustrymuseum.org.uk/visit) |
 | GRX-TR-001 | 그라나다 | 그라나다 시내버스 1회권 | 1.6 EUR | A | 예 | 재검증 | [Turismo de Granada](https://turismo.granada.org/es/bus-urbano) |
 | GRX-AT-001 | 그라나다 | 알람브라 일반 입장(낮) (성인) | 21~22.27 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://tickets.alhambra-patronato.es/producto/alhambra-general/) |
 | GRX-AT-002 | 그라나다 | 알람브라 (아동) | 0 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://www.alhambra-patronato.es/notas-prensa/la-alhambra-actualiza-sus-tarifas-en-agosto) |

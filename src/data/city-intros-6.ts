@@ -334,4 +334,20 @@ export const INTROS_6: Record<string, Intro> = {
       ['사우스 레이크 유니언·시애틀 센터 주변', 'South Lake Union / Seattle Center', 'サウス・レイク・ユニオン・シアトル・センター周辺', '스페이스 니들과 치훌리 가든 앤드 글라스가 가깝습니다.', 'Close to the Space Needle and Chihuly Garden and Glass.', 'スペース・ニードルやチフーリ・ガーデン・アンド・グラスに近いです。'],
     ],
   },
+  perth: {
+    o: ['호주 서해안 서호주주의 주도로, 맑은 날이 많고 시내 가까이에 해변과 넓은 킹스 파크가 있습니다. 항구 도시 프리맨틀과 쿼카가 사는 로트네스트섬을 함께 둘러보기 좋습니다.', 'The sunny capital of Western Australia, with beaches and the vast Kings Park close to the centre; pair it with the port of Fremantle and quokka-filled Rottnest Island.', 'オーストラリア西海岸、西オーストラリア州の州都で、晴れの日が多く、市内の近くにビーチや広大なキングス・パークがあります。港町フリーマントルやクオッカが住むロットネスト島と合わせて巡るのに良い街です。'],
+    d: [3, 4],
+    s: [
+      ['퍼스 시내(CBD)', 'Perth CBD', 'パース中心部（CBD）', '퍼스역과 강변이 가깝고, 공항 열차로 바로 연결됩니다.', 'Close to Perth Station and the river, with a direct airport train.', 'パース駅や川沿いに近く、空港行きの列車ですぐ行けます。'],
+      ['프리맨틀', 'Fremantle', 'フリーマントル', '항구와 시장, 수제 맥주로 유명한 옛 항구 도시로, 로트네스트섬 페리가 출발합니다.', 'The historic port of markets and craft beer, and a Rottnest ferry departure point.', '港や市場、クラフトビールで知られる古い港町で、ロットネスト島へのフェリーが出ています。'],
+    ],
+  },
+  manchester: {
+    o: ['세계 최초의 산업 도시로 불리는 잉글랜드 북서부의 중심지로, 붉은 벽돌 공장과 운하가 남아 있습니다. 맨체스터 유나이티드·시티의 축구 도시이자 무료 박물관이 많은 곳입니다.', 'The hub of north-west England, often called the world’s first industrial city, with red-brick mills and canals; home of Manchester United and City, and of many free museums.', '世界初の工業都市とも呼ばれるイングランド北西部の中心地で、赤れんがの工場や運河が残ります。マンチェスター・ユナイテッドとシティのサッカーの街で、無料の博物館も多いです。'],
+    d: [2, 3],
+    s: [
+      ['시티 센터(피카딜리 주변)', 'City Centre (around Piccadilly)', 'シティ・センター（ピカデリー周辺）', '기차역과 트램이 모이는 중심가로, 공항 트램·열차 연결이 편합니다.', 'The central hub of trains and trams, with easy airport links.', '鉄道駅とトラムが集まる中心街で、空港へのトラムや列車が便利です。'],
+      ['노던 쿼터', 'Northern Quarter', 'ノーザン・クォーター', '개성 있는 카페·식당·바가 모인 지역입니다.', 'Independent cafés, restaurants and bars.', '個性的なカフェや飲食店、バーが集まる地区です。'],
+    ],
+  },
 };

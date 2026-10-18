@@ -589,4 +589,24 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 시택 공항에서 경전철 1호선(링크)을 타면 다운타운까지 약 40분이며, 요금은 거리와 관계없이 3달러입니다.', 'Airport to city: Link light rail Line 1 runs from Sea-Tac to downtown in about 40 minutes for a flat $3.', '空港から市内へ：シータック空港からライトレール1号線（リンク）でダウンタウンまで約40分、運賃は距離に関係なく3ドルです。'],
     ],
   },
+  perth: {
+    h: [
+      ['킹스 파크', 'Kings Park', 'キングス・パーク', '시내 서쪽 언덕의 넓은 공원으로, 스완강과 시내 고층 빌딩이 한눈에 보이며 무료입니다.', 'A huge park on a hill west of the CBD, overlooking the Swan River and skyline — free.', '市内西側の丘にある広い公園で、スワン川と市内の高層ビルを一望でき、無料です。'],
+      ['프리맨틀', 'Fremantle', 'フリーマントル', '열차로 약 30분 거리의 항구 도시로, 어항에서 피시 앤드 칩스를 먹고 수제 맥주 양조장을 둘러봅니다.', 'The port town about 30 minutes by train: fish and chips at the Fishing Boat Harbour and craft breweries.', '列車で約30分の港町で、漁港でフィッシュ・アンド・チップスを食べ、クラフトビールの醸造所を巡ります。'],
+      ['퍼스 동물원', 'Perth Zoo', 'パース動物園', '스완강 건너 사우스 퍼스에 있는 동물원으로, 캥거루·코알라 등 호주 동물을 볼 수 있습니다.', 'Across the Swan River in South Perth, with kangaroos, koalas and other Australian animals.', 'スワン川の対岸サウス・パースにある動物園で、カンガルーやコアラなどオーストラリアの動物が見られます。'],
+    ],
+    t: [
+      ['공항에서 시내: 퍼스 공항의 에어포트 센트럴역에서 열차를 타면 퍼스역까지 약 18분이며, 3시간 동안 환승할 수 있는 ‘고 애니웨어’ 요금이 적용됩니다.', 'Airport to city: trains from Airport Central reach Perth Station in about 18 minutes on the Go Anywhere fare, valid for three hours of transfers.', '空港から市内へ：パース空港のエアポート・セントラル駅から列車でパース駅まで約18分で、3時間乗り継ぎできる「ゴー・エニウェア」運賃が適用されます。'],
+    ],
+  },
+  manchester: {
+    h: [
+      ['과학산업박물관', 'Science and Industry Museum', '科学産業博物館', '세계 최초의 여객 철도역 자리에 있는 박물관으로, 산업혁명 시대 기계를 볼 수 있습니다. 입장은 무료이며 무료 시간 지정권 예약을 권합니다.', 'On the site of the world’s first passenger railway station, with Industrial Revolution machines; free, with free timed tickets recommended.', '世界初の旅客鉄道駅の跡地にある博物館で、産業革命時代の機械が見られます。入場は無料で、無料の時間指定券の予約がおすすめです。'],
+      ['올드 트래퍼드 투어', 'Old Trafford Tour & Museum', 'オールド・トラッフォード・ツアー', '맨체스터 유나이티드 홈구장의 라커룸과 선수 입장 통로, 박물관을 둘러보는 투어입니다.', 'Tour Manchester United’s dressing room, players’ tunnel and museum.', 'マンチェスター・ユナイテッドの本拠地のロッカールームや選手入場通路、博物館を巡るツアーです。'],
+      ['무료 박물관과 미술관', 'Free museums and galleries', '無料の博物館・美術館', '맨체스터 박물관 등 시내의 많은 박물관과 미술관이 무료로 열려 있습니다.', 'Many city museums and galleries, including Manchester Museum, are free.', 'マンチェスター博物館など市内の多くの博物館や美術館が無料で公開されています。'],
+    ],
+    t: [
+      ['공항에서 시내: 맨체스터 공항에서 메트로링크 트램을 타면 시내까지 갈 수 있으며, 4개 구간 단일권이 필요합니다.', 'Airport to city: Metrolink trams run from Manchester Airport into the city on a four-zone single.', '空港から市内へ：マンチェスター空港からメトロリンクのトラムで市内まで行け、4ゾーンの片道券が必要です。'],
+    ],
+  },
 };

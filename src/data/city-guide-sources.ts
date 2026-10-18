@@ -1008,4 +1008,12 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'seattle:h3': 'https://www.chihulygardenandglass.com/visit/plan-your-visit',
   'seattle:t1': 'https://dor.wa.gov/taxes-rates/sales-use-tax-rates/local-sales-use-tax',
   'seattle:t2': 'https://www.soundtransit.org/get-to-know-us/news-events/news-releases/sound-transit-moves-to-flat-link-light-rail-fares-boosts',
+  'perth:h1': 'https://www.westernaustralia.com/sg/plan-my-trip/planning-tools/travel-stories/top-10-things-to-do-in-perth',
+  'perth:h2': 'https://www.westernaustralia.com/au/places-to-visit/perth-and-surrounds/fremantle',
+  'perth:h3': 'https://perthzoo.wa.gov.au/buy-tickets',
+  'perth:t1': 'https://www.transperth.wa.gov.au/using-transperth/visiting-perth',
+  'manchester:h1': 'https://www.scienceandindustrymuseum.org.uk/visit',
+  'manchester:h2': 'https://www.manutd.com/en/club/visit-old-trafford/museum-stadium-tours',
+  'manchester:h3': 'https://www.visitmanchester.com/ideas-and-inspiration/blog/post/free-things-to-do-in-greater-manchester/',
+  'manchester:t1': 'https://tfgm.com/tickets-and-passes/tram-peak-single-ticket-adult',
 };

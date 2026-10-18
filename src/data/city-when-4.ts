@@ -265,4 +265,17 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['10~4월은 비가 잦으니 우산과 방수 겉옷을 챙기고, 전망대는 맑은 날을 골라 가세요.', 'October–April is wet; pack a rain jacket and save the observation deck for a clear day.', '10〜4月は雨が多いので傘や防水の上着を持ち、展望台は晴れた日を選びましょう。'],
   },
+  perth: {
+    p: [
+      ['9~11월', 'September–November', '9〜11月', '봄꽃이 피어 킹스 파크 산책과 해변을 즐기기 좋습니다.', 'Spring wildflowers in Kings Park and pleasant beach days.', '春の花が咲き、キングス・パークの散策やビーチを楽しめます。'],
+      ['3~5월', 'March–May', '3〜5月', '여름 더위가 가라앉아 프리맨틀과 로트네스트섬을 다니기 좋습니다.', 'The summer heat eases — good for Fremantle and Rottnest.', '夏の暑さが和らぎ、フリーマントルやロットネスト島を巡りやすい時期です。'],
+    ],
+    x: ['12~2월에는 40도 가까운 더위가 오기도 하니, 한낮 야외 활동을 피하고 자외선 차단에 신경 쓰세요.', 'December–February can approach 40°C; avoid midday outdoors and protect against strong sun.', '12〜2月は40度近くになることもあるので、日中の屋外活動を避け、紫外線対策をしましょう。'],
+  },
+  manchester: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '낮이 길고 따뜻해 운하 산책과 야외 시장을 즐기기 좋습니다.', 'Long, mild days for canal walks and outdoor markets.', '日が長く暖かいので、運河の散策や屋外マーケットを楽しめます。'],
+    ],
+    x: ['축구 시즌(8~5월) 경기일에는 경기장 투어가 없거나 짧아지니, 투어는 경기 없는 날로 예약하세요.', 'During the football season (August–May) stadium tours are limited on match days; book on a non-match day.', 'サッカーシーズン（8〜5月）の試合日はスタジアムツアーがないか短くなるので、試合のない日に予約しましょう。'],
+  },
 };

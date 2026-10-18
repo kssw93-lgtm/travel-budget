@@ -1371,6 +1371,62 @@
     "missing": [],
     "computable": true
   },
+  "perth": {
+    "counts": {
+      "food": 4,
+      "transport": 1,
+      "attraction": 1
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 4,
+      "snack": 2,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 4,
+      "snack": 2,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "manchester": {
+    "counts": {
+      "food": 15,
+      "transport": 1,
+      "attraction": 2
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 15,
+      "snack": 7,
+      "drink": 9,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 16,
+      "snack": 7,
+      "drink": 9,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "macau": {
     "counts": {
       "food": 4,
@@ -2354,12 +2410,12 @@
   "melbourne": {
     "counts": {
       "food": 4,
-      "transport": 5,
+      "transport": 6,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 5,
+      "ride": 6,
       "meal": 4,
       "snack": 2,
       "drink": 3,
@@ -2368,7 +2424,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 6,
+      "ride": 7,
       "meal": 4,
       "snack": 2,
       "drink": 3,

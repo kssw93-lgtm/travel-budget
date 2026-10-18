@@ -4807,5 +4807,35 @@
     "ko": "태평양 북서부에서 잡은 자연산 연어 구이",
     "en": "Wild Pacific Northwest salmon, grilled",
     "ja": "太平洋北西部でとれた天然サーモンのグリル"
+  },
+  "perth:Fish and Chips": {
+    "ko": "프리맨틀 어항에서 맛보는 서호주식 생선 튀김과 감자튀김",
+    "en": "Fish and chips at the Fremantle Fishing Boat Harbour",
+    "ja": "フリーマントルの漁港で味わう西オーストラリアのフィッシュ・アンド・チップス"
+  },
+  "perth:Western Rock Lobster": {
+    "ko": "서호주 해안에서 잡히는 가시닭새우 요리",
+    "en": "Western rock lobster from the WA coast",
+    "ja": "西オーストラリアの沿岸でとれるイセエビの料理"
+  },
+  "perth:Marron": {
+    "ko": "서호주 민물에 사는 큰 가재로, 레스토랑에서 맛볼 수 있습니다",
+    "en": "Western Australia’s freshwater crayfish, served in restaurants",
+    "ja": "西オーストラリアの淡水に住む大きなザリガニで、レストランで味わえます"
+  },
+  "manchester:Eccles Cake": {
+    "ko": "건포도·설탕·향신료를 채운 작고 둥근 페이스트리",
+    "en": "Small round flaky pastry filled with currants, sugar and spice",
+    "ja": "干しぶどう・砂糖・スパイスを詰めた小さく丸いパイ菓子"
+  },
+  "manchester:Manchester Tart": {
+    "ko": "라즈베리 잼과 커스터드, 코코넛을 얹은 타르트",
+    "en": "Shortcrust tart with raspberry jam, custard and coconut",
+    "ja": "ラズベリージャムとカスタード、ココナッツをのせたタルト"
+  },
+  "manchester:Black Pudding": {
+    "ko": "근교 베리의 명물인 선지 소시지로, 시장에서 따뜻하게 먹습니다",
+    "en": "Blood sausage from nearby Bury, eaten hot at markets",
+    "ja": "近郊ベリーの名物の血のソーセージで、市場で温かいまま食べます"
   }
 }

@@ -7110,6 +7110,60 @@
     "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
   },
   {
+    "cityId": "manchester",
+    "nameKo": "에클스 케이크",
+    "nameEn": "Eccles Cake",
+    "reason": "건포도·설탕·향신료를 채운 작고 둥근 페이스트리",
+    "reasonEn": "Small round flaky pastry filled with currants, sugar and spice",
+    "desc": {
+      "ko": "건포도·설탕·향신료를 채운 작고 둥근 페이스트리",
+      "en": "Small round flaky pastry filled with currants, sugar and spice",
+      "ja": "干しぶどう・砂糖・スパイスを詰めた小さく丸いパイ菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Manchester",
+    "recommendUrl": "https://www.visitmanchester.com/ideas-and-inspiration/blog/post/greater-manchester-local-delicacies/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "manchester",
+    "nameKo": "맨체스터 타르트",
+    "nameEn": "Manchester Tart",
+    "reason": "라즈베리 잼과 커스터드, 코코넛을 얹은 타르트",
+    "reasonEn": "Shortcrust tart with raspberry jam, custard and coconut",
+    "desc": {
+      "ko": "라즈베리 잼과 커스터드, 코코넛을 얹은 타르트",
+      "en": "Shortcrust tart with raspberry jam, custard and coconut",
+      "ja": "ラズベリージャムとカスタード、ココナッツをのせたタルト"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Manchester",
+    "recommendUrl": "https://www.visitmanchester.com/ideas-and-inspiration/blog/post/greater-manchester-local-delicacies/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "manchester",
+    "nameKo": "블랙 푸딩",
+    "nameEn": "Black Pudding",
+    "reason": "근교 베리의 명물인 선지 소시지로, 시장에서 따뜻하게 먹습니다",
+    "reasonEn": "Blood sausage from nearby Bury, eaten hot at markets",
+    "desc": {
+      "ko": "근교 베리의 명물인 선지 소시지로, 시장에서 따뜻하게 먹습니다",
+      "en": "Blood sausage from nearby Bury, eaten hot at markets",
+      "ja": "近郊ベリーの名物の血のソーセージで、市場で温かいまま食べます"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Manchester",
+    "recommendUrl": "https://www.visitmanchester.com/ideas-and-inspiration/blog/post/greater-manchester-local-delicacies/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "marseille",
     "nameKo": "부야베스",
     "nameEn": "Bouillabaisse",
@@ -8116,6 +8170,60 @@
     "recommendSource": "관광청·정부 공식 안내",
     "recommendUrl": "https://www.tourismthailand.org/Destinations/Provinces/Chon-Buri/464",
     "note": "GPT 수집"
+  },
+  {
+    "cityId": "perth",
+    "nameKo": "피시 앤드 칩스",
+    "nameEn": "Fish and Chips",
+    "reason": "프리맨틀 어항에서 맛보는 서호주식 생선 튀김과 감자튀김",
+    "reasonEn": "Fish and chips at the Fremantle Fishing Boat Harbour",
+    "desc": {
+      "ko": "프리맨틀 어항에서 맛보는 서호주식 생선 튀김과 감자튀김",
+      "en": "Fish and chips at the Fremantle Fishing Boat Harbour",
+      "ja": "フリーマントルの漁港で味わう西オーストラリアのフィッシュ・アンド・チップス"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Western Australia",
+    "recommendUrl": "https://www.westernaustralia.com/us/plan-my-trip/planning-tools/travel-stories/matt-morans-top-10-food-and-drink-experiences-in-western-australia",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "perth",
+    "nameKo": "서호주 록 랍스터",
+    "nameEn": "Western Rock Lobster",
+    "reason": "서호주 해안에서 잡히는 가시닭새우 요리",
+    "reasonEn": "Western rock lobster from the WA coast",
+    "desc": {
+      "ko": "서호주 해안에서 잡히는 가시닭새우 요리",
+      "en": "Western rock lobster from the WA coast",
+      "ja": "西オーストラリアの沿岸でとれるイセエビの料理"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Western Australia",
+    "recommendUrl": "https://www.westernaustralia.com/us/things-to-do/food-and-drink/unique-food-experiences",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "perth",
+    "nameKo": "마론",
+    "nameEn": "Marron",
+    "reason": "서호주 민물에 사는 큰 가재로, 레스토랑에서 맛볼 수 있습니다",
+    "reasonEn": "Western Australia’s freshwater crayfish, served in restaurants",
+    "desc": {
+      "ko": "서호주 민물에 사는 큰 가재로, 레스토랑에서 맛볼 수 있습니다",
+      "en": "Western Australia’s freshwater crayfish, served in restaurants",
+      "ja": "西オーストラリアの淡水に住む大きなザリガニで、レストランで味わえます"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Western Australia",
+    "recommendUrl": "https://www.westernaustralia.com/us/plan-my-trip/planning-tools/travel-stories/matt-morans-top-10-food-and-drink-experiences-in-western-australia",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
     "cityId": "phu-quoc",

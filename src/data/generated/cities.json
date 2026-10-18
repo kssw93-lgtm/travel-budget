@@ -500,6 +500,26 @@
     "stage": "파일럿"
   },
   {
+    "id": "perth",
+    "country": "호주",
+    "countryEn": "Australia",
+    "nameKo": "퍼스",
+    "nameEn": "Perth",
+    "currency": "AUD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "manchester",
+    "country": "영국",
+    "countryEn": "United Kingdom",
+    "nameKo": "맨체스터",
+    "nameEn": "Manchester",
+    "currency": "GBP",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "macau",
     "country": "중국 마카오",
     "countryEn": "Macau",

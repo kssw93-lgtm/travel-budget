@@ -374,4 +374,9 @@ export const WHEN_SOURCES: Record<string, string> = {
   'montreal:x': 'https://www.mtl.org/en/experience/faq',
   'seattle:p1': 'https://visitseattle.org/things-to-do/sightseeing/waterfrontexpansion/',
   'seattle:x': 'https://www.spaceneedle.com/plan-your-visit',
+  'perth:p1': 'https://www.westernaustralia.com/sg/plan-my-trip/planning-tools/travel-stories/top-10-things-to-do-in-perth',
+  'perth:p2': 'https://www.westernaustralia.com/au/places-to-visit/perth-and-surrounds/fremantle',
+  'perth:x': 'https://www.westernaustralia.com/sg/plan-my-trip/planning-tools/travel-stories/a-city-rich-with-natural-wonders',
+  'manchester:p1': 'https://www.visitmanchester.com/ideas-and-inspiration/blog/post/free-things-to-do-in-greater-manchester/',
+  'manchester:x': 'https://www.manutd.com/en/club/visit-old-trafford/museum-stadium-tours',
 };

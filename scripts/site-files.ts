@@ -170,8 +170,11 @@ export function pageHtml(indexHtml: string, meta: PageMeta, site: string | undef
       .replace(/(<meta property="og:locale" content=")[^"]*(")/, `$1${OG_LOCALE[lang]}$2`)
       .replace(/<p>이 계산기는 JavaScript가 필요합니다\. \/ /, '<p>');
   }
-  // 계산기용 canonical·hreflang·og:url 을 이 페이지 주소로 교체
-  html = html.replace(/\s*<link rel="(?:canonical|alternate)"[^>]*>/g, '').replace(/\s*<meta property="og:url"[^>]*>/g, '');
+  // 계산기용 canonical·hreflang·og:url·공유 이미지 태그를 이 페이지 것으로 교체(두 번 들어가지 않게)
+  html = html
+    .replace(/\s*<link rel="(?:canonical|alternate)"[^>]*>/g, '')
+    .replace(/\s*<meta property="og:(?:url|image(?::\w+)?)"[^>]*>/g, '')
+    .replace(/\s*<meta name="twitter:image"[^>]*>/g, '');
   if (site) html = html.replace('</head>', `    ${headTags(site, { file: '', path: meta.path }, lang).join('\n    ')}\n  </head>`);
   return html;
 }

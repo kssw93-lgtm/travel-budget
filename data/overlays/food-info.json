@@ -5167,5 +5167,20 @@
     "ko": "미트 앤드 스리 식당의 대표 메뉴인 남부식 프라이드치킨",
     "en": "Southern fried chicken, a meat-and-three staple",
     "ja": "ミート・アンド・スリー食堂の定番、南部風フライドチキン"
+  },
+  "edmonton:Green Onion Cake": {
+    "ko": "파를 넣어 바삭하게 부친 에드먼턴 명물 전",
+    "en": "Crispy pan-fried scallion cake, an Edmonton favourite",
+    "ja": "ネギを入れてカリッと焼いたエドモントン名物の餅"
+  },
+  "edmonton:Perogies": {
+    "ko": "감자·치즈 등을 채운 우크라이나식 만두",
+    "en": "Ukrainian dumplings filled with potato and cheese",
+    "ja": "じゃがいもやチーズを詰めたウクライナ風の餃子"
+  },
+  "edmonton:Ukrainian Sausage": {
+    "ko": "우크라이나계 정육점에서 만드는 훈제 소시지",
+    "en": "Smoked sausage from Ukrainian-style butchers",
+    "ja": "ウクライナ系の精肉店で作る燻製ソーセージ"
   }
 }

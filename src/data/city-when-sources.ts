@@ -440,4 +440,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'nashville:p1': 'https://www.visitmusiccity.com/nashville-trip-ideas/first-timer',
   'nashville:p2': 'https://www.visitmusiccity.com/nashville-trip-ideas/first-timer',
   'nashville:x': 'https://www.visitmusiccity.com/nashville-trip-ideas/first-timer',
+  'edmonton:p1': 'https://exploreedmonton.com/articles/things-to-do-in-july',
+  'edmonton:x': 'https://www.edmonton.ca/ets/edmonton-international-airport',
 };

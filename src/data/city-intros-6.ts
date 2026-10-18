@@ -526,4 +526,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['더 걸치', 'The Gulch', 'ザ・ガルチ', '식당과 바가 모인 다운타운 남서쪽의 새 지역입니다.', 'A newer district of restaurants and bars southwest of downtown.', '飲食店やバーが集まるダウンタウン南西の新しい地区です。'],
     ],
   },
+  edmonton: {
+    o: ['캐나다 앨버타주의 주도로, 노스서스캐처원강 골짜기를 따라 북미 최대 규모의 도시 녹지가 이어집니다. 재스퍼 국립공원으로 가는 관문이며, 초대형 쇼핑몰과 우크라이나계 이민 문화가 남긴 피로기, 그린 어니언 케이크가 유명합니다.', 'Alberta’s capital, with North America’s largest stretch of urban parkland along the North Saskatchewan River valley; a gateway to Jasper National Park, known for its giant mall and for perogies and green onion cakes from its immigrant communities.', 'カナダ・アルバータ州の州都で、ノースサスカチュワン川の渓谷に沿って北米最大級の都市緑地が続きます。ジャスパー国立公園への玄関口で、巨大ショッピングモールや、移民文化が伝えたピエロギ、ネギ餅（グリーンオニオンケーキ）が有名です。'],
+    d: [2, 3],
+    s: [
+      ['다운타운', 'Downtown', 'ダウンタウン', '로열 앨버타 박물관과 경전철(LRT)역이 가까운 중심가입니다.', 'Near the Royal Alberta Museum and LRT stations.', 'ロイヤル・アルバータ博物館やLRTの駅に近い中心街です。'],
+      ['올드 스트래스코나', 'Old Strathcona', 'オールド・ストラスコナ', '강 건너 화이트 애비뉴의 오래된 거리로, 식당과 바, 공연장이 많습니다.', 'Historic Whyte Avenue across the river, full of restaurants, bars and venues.', '川向こうのホワイト・アベニューの古い街並みで、飲食店やバー、劇場が多いです。'],
+    ],
+  },
 };

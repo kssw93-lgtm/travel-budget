@@ -1111,4 +1111,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'nashville:h3': 'https://www.visitmusiccity.com/things-to-do-in-nashville/food-drink/meat-and-three',
   'nashville:t1': 'https://www.tn.gov/content/dam/tn/revenue/documents/notices/sales/sales24-11.pdf',
   'nashville:t2': 'https://www.wegotransit.com/ride/transit-services/airport/',
+  'edmonton:h1': 'https://www.royalalbertamuseum.ca/visit/hours-admission',
+  'edmonton:h2': 'https://www.travelalberta.com/articles/signature-foods-in-edmonton',
+  'edmonton:h3': 'https://www.travelalberta.com/articles/signature-foods-in-edmonton',
+  'edmonton:t1': 'https://www.edmonton.ca/ets/fares-passes',
 };

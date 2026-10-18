@@ -4241,6 +4241,60 @@
     "note": ""
   },
   {
+    "cityId": "edmonton",
+    "nameKo": "그린 어니언 케이크",
+    "nameEn": "Green Onion Cake",
+    "reason": "파를 넣어 바삭하게 부친 에드먼턴 명물 전",
+    "reasonEn": "Crispy pan-fried scallion cake, an Edmonton favourite",
+    "desc": {
+      "ko": "파를 넣어 바삭하게 부친 에드먼턴 명물 전",
+      "en": "Crispy pan-fried scallion cake, an Edmonton favourite",
+      "ja": "ネギを入れてカリッと焼いたエドモントン名物の餅"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Travel Alberta",
+    "recommendUrl": "https://www.travelalberta.com/articles/signature-foods-in-edmonton",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "edmonton",
+    "nameKo": "피로기",
+    "nameEn": "Perogies",
+    "reason": "감자·치즈 등을 채운 우크라이나식 만두",
+    "reasonEn": "Ukrainian dumplings filled with potato and cheese",
+    "desc": {
+      "ko": "감자·치즈 등을 채운 우크라이나식 만두",
+      "en": "Ukrainian dumplings filled with potato and cheese",
+      "ja": "じゃがいもやチーズを詰めたウクライナ風の餃子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Travel Alberta",
+    "recommendUrl": "https://www.travelalberta.com/articles/signature-foods-in-edmonton",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "edmonton",
+    "nameKo": "우크라이나 소시지",
+    "nameEn": "Ukrainian Sausage",
+    "reason": "우크라이나계 정육점에서 만드는 훈제 소시지",
+    "reasonEn": "Smoked sausage from Ukrainian-style butchers",
+    "desc": {
+      "ko": "우크라이나계 정육점에서 만드는 훈제 소시지",
+      "en": "Smoked sausage from Ukrainian-style butchers",
+      "ja": "ウクライナ系の精肉店で作る燻製ソーセージ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Travel Alberta",
+    "recommendUrl": "https://www.travelalberta.com/articles/signature-foods-in-edmonton",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "florence",
     "nameKo": "리볼리타",
     "nameEn": "Ribollita",

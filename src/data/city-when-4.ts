@@ -427,4 +427,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['주말 브로드웨이는 매우 붐비니, 조용히 즐기려면 평일 저녁에 가 보세요.', 'Broadway gets packed at weekends; try a weeknight for a calmer evening.', '週末のブロードウェイは非常に混むので、落ち着いて楽しむなら平日の夜に行きましょう。'],
   },
+  edmonton: {
+    p: [
+      ['6~9월', 'June–September', '6〜9月', '강 골짜기 공원 산책과 여름 축제, 재스퍼 여행을 즐기기 좋습니다.', 'River-valley trails, summer festivals and trips to Jasper.', '川の渓谷の公園散策や夏の祭り、ジャスパーへの旅行を楽しめます。'],
+    ],
+    x: ['공항에서 시내로 가는 747번 버스는 일반 요금이 아닌 공항 전용 요금이고, 센추리 파크역에서 경전철로 갈아탑니다.', 'Airport bus 747 has its own airport fare and runs to Century Park, where you change to the LRT.', '空港から市内へ向かう747番バスは通常運賃ではなく空港専用運賃で、センチュリー・パーク駅でLRTに乗り換えます。'],
+  },
 };

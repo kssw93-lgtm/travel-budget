@@ -836,4 +836,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 위고(WeGo) 18번 버스를 타면 다운타운 환승센터까지 가며, 요금은 2달러(2시간 유효)입니다. 주말 운행 시간은 시간표를 확인하세요.', 'Airport to city: WeGo route 18 runs to the downtown transit centre for $2 (valid 2 hours); check weekend times.', '空港から市内へ：WeGoの18番バスでダウンタウンの乗り換えセンターまで行け、運賃は2ドル（2時間有効）です。週末の運行時間は時刻表で確認しましょう。'],
     ],
   },
+  edmonton: {
+    h: [
+      ['로열 앨버타 박물관', 'Royal Alberta Museum', 'ロイヤル・アルバータ博物館', '앨버타의 자연사와 원주민 역사를 다루는 서부 캐나다 최대 박물관입니다.', 'Western Canada’s largest museum of natural and human history.', 'アルバータの自然史や先住民の歴史を扱う西カナダ最大の博物館です。'],
+      ['그린 어니언 케이크', 'Green onion cakes', 'グリーンオニオンケーキ', '1980년 에드먼턴의 중식당에서 인기를 끈 파전 같은 음식으로, 도시 공식 음식으로 하자는 운동까지 있었습니다.', 'Pan-fried scallion cakes made famous by a local restaurateur in 1980 — once proposed as Edmonton’s official dish.', '1980年にエドモントンの中華料理店で人気になったネギ餅で、市の公式料理にしようという運動まで起きました。'],
+      ['우크라이나 피로기', 'Ukrainian perogies', 'ウクライナのピエロギ', '우크라이나계 이민 역사가 깊은 지역답게 감자·치즈를 채운 만두 피로기 가게가 많습니다.', 'Reflecting deep Ukrainian roots, many spots serve potato-and-cheese perogies.', 'ウクライナ系移民の歴史が深い地域らしく、じゃがいもやチーズを詰めたピエロギの店が多いです。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 GST(5%)와 팁이 빠져 있습니다. 앨버타는 주 판매세가 없고, 팁은 15~18%가 일반적입니다. 버스·경전철은 아크(Arc) 카드나 신용카드 탭이 현금보다 쌉니다.', 'Menu prices exclude 5% GST and tip; Alberta has no provincial sales tax, and a 15–18% tip is usual. Arc or contactless card fares are cheaper than cash.', '飲食店のメニュー価格にはGST（5%）とチップが含まれていません。アルバータ州は州の売上税がなく、チップは15〜18%が一般的です。バスやLRTはArcカードやタッチ決済の方が現金より安いです。'],
+    ],
+  },
 };

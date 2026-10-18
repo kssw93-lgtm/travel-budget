@@ -2795,6 +2795,60 @@
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
   },
   {
+    "cityId": "cairns",
+    "nameKo": "바라문디",
+    "nameEn": "Barramundi",
+    "reason": "지역 식당의 ‘오늘의 생선’으로 자주 나오는 열대 흰살생선",
+    "reasonEn": "Tropical white fish, often the local “fish of the day”",
+    "desc": {
+      "ko": "지역 식당의 ‘오늘의 생선’으로 자주 나오는 열대 흰살생선",
+      "en": "Tropical white fish, often the local “fish of the day”",
+      "ja": "地元の店で「本日の魚」としてよく出る熱帯の白身魚"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Tropical North Queensland",
+    "recommendUrl": "https://tropicalnorthqueensland.org.au/articles/seafood-guide-to-cairns/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "cairns",
+    "nameKo": "머드크랩",
+    "nameEn": "Mud Crab",
+    "reason": "열대 맹그로브에서 잡히는 큰 게 요리",
+    "reasonEn": "Big tropical mangrove crab",
+    "desc": {
+      "ko": "열대 맹그로브에서 잡히는 큰 게 요리",
+      "en": "Big tropical mangrove crab",
+      "ja": "熱帯のマングローブでとれる大きなカニの料理"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Tropical North Queensland",
+    "recommendUrl": "https://tropicalnorthqueensland.org.au/articles/eating-local-cairns/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "cairns",
+    "nameKo": "열대 과일",
+    "nameEn": "Tropical Fruit",
+    "reason": "망고·람부탄·용과 등 근교 농장에서 나는 열대 과일",
+    "reasonEn": "Mangoes, rambutan, dragon fruit and more from local farms",
+    "desc": {
+      "ko": "망고·람부탄·용과 등 근교 농장에서 나는 열대 과일",
+      "en": "Mangoes, rambutan, dragon fruit and more from local farms",
+      "ja": "マンゴーやランブータン、ドラゴンフルーツなど近郊の農園でとれる熱帯フルーツ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Tropical North Queensland",
+    "recommendUrl": "https://tropicalnorthqueensland.org.au/articles/eating-local-cairns/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "cairo",
     "nameKo": "코샤리",
     "nameEn": "Koshary",
@@ -11262,6 +11316,60 @@
     "recommendSource": "Veneto Region",
     "recommendUrl": "https://scultura.veneto.eu/dove-andare-dettaglio?lang=it&path=%2FDoveAndare%2FVeneziaLaguna%2FVenezia",
     "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "verona",
+    "nameKo": "아마로네 리소토",
+    "nameEn": "Risotto all’Amarone",
+    "reason": "아마로네 와인과 비알로네 나노 쌀로 지은 리소토",
+    "reasonEn": "Risotto made with Amarone wine and Vialone Nano rice",
+    "desc": {
+      "ko": "아마로네 와인과 비알로네 나노 쌀로 지은 리소토",
+      "en": "Risotto made with Amarone wine and Vialone Nano rice",
+      "ja": "アマローネワインとヴィアローネ・ナノ米で作るリゾット"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Verona",
+    "recommendUrl": "https://www.visitverona.it/it/esplora/degustare-verona",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "verona",
+    "nameKo": "파스티사다 데 카발",
+    "nameEn": "Pastissada de Caval",
+    "reason": "말고기를 레드와인과 채소로 오래 끓인 베로나 전통 스튜",
+    "reasonEn": "Slow-cooked horse-meat stew in red wine, served with polenta or gnocchi",
+    "desc": {
+      "ko": "말고기를 레드와인과 채소로 오래 끓인 베로나 전통 스튜",
+      "en": "Slow-cooked horse-meat stew in red wine, served with polenta or gnocchi",
+      "ja": "馬肉を赤ワインと野菜で長時間煮込んだヴェローナの伝統シチュー"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Comune di Verona",
+    "recommendUrl": "https://turismo.comune.verona.it/nqcontent.cfm?a_id=36312",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "verona",
+    "nameKo": "판도로",
+    "nameEn": "Pandoro",
+    "reason": "별 모양의 베로나 전통 크리스마스 빵",
+    "reasonEn": "Verona’s star-shaped Christmas sweet bread",
+    "desc": {
+      "ko": "별 모양의 베로나 전통 크리스마스 빵",
+      "en": "Verona’s star-shaped Christmas sweet bread",
+      "ja": "星形をしたヴェローナの伝統的なクリスマスの菓子パン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Comune di Verona",
+    "recommendUrl": "https://turismo.comune.verona.it/nqcontent.cfm?a_id=35632",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
     "cityId": "vienna",

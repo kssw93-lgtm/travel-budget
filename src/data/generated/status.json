@@ -1651,6 +1651,62 @@
     "missing": [],
     "computable": true
   },
+  "cairns": {
+    "counts": {
+      "food": 4,
+      "transport": 1,
+      "attraction": 1
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 4,
+      "snack": 2,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 4,
+      "snack": 2,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "verona": {
+    "counts": {
+      "food": 9,
+      "transport": 1,
+      "attraction": 1
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 9,
+      "snack": 1,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 9,
+      "snack": 1,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "macau": {
     "counts": {
       "food": 4,
@@ -2634,12 +2690,12 @@
   "melbourne": {
     "counts": {
       "food": 4,
-      "transport": 7,
+      "transport": 8,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 7,
+      "ride": 8,
       "meal": 4,
       "snack": 2,
       "drink": 3,
@@ -2648,7 +2704,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 8,
+      "ride": 9,
       "meal": 4,
       "snack": 2,
       "drink": 3,
@@ -2662,12 +2718,12 @@
   "florence": {
     "counts": {
       "food": 9,
-      "transport": 5,
+      "transport": 6,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 5,
+      "ride": 6,
       "meal": 9,
       "snack": 1,
       "drink": 3,
@@ -2676,7 +2732,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 5,
+      "ride": 6,
       "meal": 9,
       "snack": 1,
       "drink": 3,
@@ -2690,12 +2746,12 @@
   "venice": {
     "counts": {
       "food": 9,
-      "transport": 5,
+      "transport": 6,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 5,
+      "ride": 6,
       "meal": 9,
       "snack": 1,
       "drink": 3,
@@ -2704,7 +2760,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 5,
+      "ride": 6,
       "meal": 9,
       "snack": 1,
       "drink": 3,

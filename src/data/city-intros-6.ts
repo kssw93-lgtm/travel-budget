@@ -414,4 +414,20 @@ export const INTROS_6: Record<string, Intro> = {
       ['마타비오역 주변', 'Around Matabiau Station', 'マタビオ駅周辺', '기차역과 공항 셔틀 버스 정류장이 있어 이동이 편합니다.', 'The train station and airport shuttle stop.', '鉄道駅と空港シャトルバスの乗り場があり移動に便利です。'],
     ],
   },
+  cairns: {
+    o: ['호주 퀸즐랜드 북부의 열대 도시로, 그레이트 배리어 리프와 데인트리 열대우림으로 가는 관문입니다. 바닷가 산책로 에스플러네이드와 무료 수영 라군이 있고, 열대 과일과 해산물이 풍부합니다.', 'A tropical city in far north Queensland and gateway to the Great Barrier Reef and Daintree Rainforest, with the Esplanade boardwalk and free swimming lagoon, plus abundant tropical fruit and seafood.', 'オーストラリア・クイーンズランド州北部の熱帯の街で、グレートバリアリーフやデインツリー熱帯雨林への玄関口です。海沿いの遊歩道エスプラネードと無料の遊泳ラグーンがあり、熱帯フルーツや海産物が豊富です。'],
+    d: [3, 4],
+    s: [
+      ['에스플러네이드·시내', 'Esplanade / City', 'エスプラネード・市内', '바닷가 산책로와 라군, 리프 투어 선착장이 걸어서 닿습니다.', 'A walk to the boardwalk, lagoon and reef-tour terminal.', '海沿いの遊歩道やラグーン、リーフツアーの桟橋へ歩いて行けます。'],
+      ['노던 비치', 'Northern Beaches', 'ノーザン・ビーチ', '팜 코브 등 조용한 해변 마을로, 휴양에 좋습니다.', 'Quieter beach villages such as Palm Cove, for a resort stay.', 'パーム・コーブなど静かなビーチの町で、リゾート滞在に向いています。'],
+    ],
+  },
+  verona: {
+    o: ['로미오와 줄리엣의 무대로 알려진 이탈리아 북부 도시로, 시내 한가운데에 로마 시대 원형극장 아레나가 남아 있습니다. 여름 오페라 축제와 아마로네 와인, 리소토로 유명합니다.', 'The northern Italian city of Romeo and Juliet, with the Roman Arena at its heart; famous for its summer opera festival, Amarone wine and risotto.', 'ロミオとジュリエットの舞台として知られるイタリア北部の街で、市の中心にローマ時代の円形闘技場アレーナが残ります。夏のオペラ祭やアマローネワイン、リゾットで有名です。'],
+    d: [1, 2],
+    s: [
+      ['구시가지(브라 광장·에르베 광장)', 'Old Town (Piazza Bra / Piazza delle Erbe)', '旧市街（ブラ広場・エルベ広場）', '아레나와 줄리엣의 집이 걸어서 닿는 중심지입니다.', 'The heart of town, a walk from the Arena and Juliet’s House.', 'アレーナやジュリエットの家へ歩いて行ける中心地です。'],
+      ['포르타 누오바역 주변', 'Around Porta Nuova Station', 'ポルタ・ヌオーヴァ駅周辺', '기차역과 공항버스가 있어 이동이 편합니다.', 'Handy for trains and the airport bus.', '鉄道駅と空港バスがあり移動に便利です。'],
+    ],
+  },
 };

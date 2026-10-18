@@ -4957,5 +4957,35 @@
     "ko": "툴루즈의 상징인 제비꽃으로 만든 사탕과 과자",
     "en": "Candies and treats made with Toulouse’s emblem violet",
     "ja": "トゥールーズのシンボルのスミレで作ったキャンディーやお菓子"
+  },
+  "cairns:Barramundi": {
+    "ko": "지역 식당의 ‘오늘의 생선’으로 자주 나오는 열대 흰살생선",
+    "en": "Tropical white fish, often the local “fish of the day”",
+    "ja": "地元の店で「本日の魚」としてよく出る熱帯の白身魚"
+  },
+  "cairns:Mud Crab": {
+    "ko": "열대 맹그로브에서 잡히는 큰 게 요리",
+    "en": "Big tropical mangrove crab",
+    "ja": "熱帯のマングローブでとれる大きなカニの料理"
+  },
+  "cairns:Tropical Fruit": {
+    "ko": "망고·람부탄·용과 등 근교 농장에서 나는 열대 과일",
+    "en": "Mangoes, rambutan, dragon fruit and more from local farms",
+    "ja": "マンゴーやランブータン、ドラゴンフルーツなど近郊の農園でとれる熱帯フルーツ"
+  },
+  "verona:Risotto all’Amarone": {
+    "ko": "아마로네 와인과 비알로네 나노 쌀로 지은 리소토",
+    "en": "Risotto made with Amarone wine and Vialone Nano rice",
+    "ja": "アマローネワインとヴィアローネ・ナノ米で作るリゾット"
+  },
+  "verona:Pastissada de Caval": {
+    "ko": "말고기를 레드와인과 채소로 오래 끓인 베로나 전통 스튜",
+    "en": "Slow-cooked horse-meat stew in red wine, served with polenta or gnocchi",
+    "ja": "馬肉を赤ワインと野菜で長時間煮込んだヴェローナの伝統シチュー"
+  },
+  "verona:Pandoro": {
+    "ko": "별 모양의 베로나 전통 크리스마스 빵",
+    "en": "Verona’s star-shaped Christmas sweet bread",
+    "ja": "星形をしたヴェローナの伝統的なクリスマスの菓子パン"
   }
 }

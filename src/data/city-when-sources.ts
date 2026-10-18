@@ -401,4 +401,9 @@ export const WHEN_SOURCES: Record<string, string> = {
   'toulouse:p1': 'https://www.toulouse-tourisme.com/manger-boire-un-verre/les-specialites-culinaires-de-toulouse/',
   'toulouse:p2': 'https://en.cite-espace.com/visit/tickets-and-stays/1-day-ticket/',
   'toulouse:x': 'https://eboutique.tisseo.fr/fr/produits/1-deplacement-navette-aeroport-occ',
+  'cairns:p1': 'https://tropicalnorthqueensland.org.au/articles/eating-local-cairns/',
+  'cairns:x': 'https://tropicalnorthqueensland.org.au/articles/eating-local-cairns/',
+  'verona:p1': 'https://www.arena.it/en/arena-verona-opera-festival/get-ready-for-the-opera/visitare-l-arena-di-verona/',
+  'verona:p2': 'https://www.visitverona.it/it/esplora/degustare-verona',
+  'verona:x': 'https://casadigiulietta.comune.verona.it/nqcontent.cfm?a_name=ticket_42703',
 };

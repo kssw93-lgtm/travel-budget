@@ -600,6 +600,26 @@
     "stage": "파일럿"
   },
   {
+    "id": "cairns",
+    "country": "호주",
+    "countryEn": "Australia",
+    "nameKo": "케언스",
+    "nameEn": "Cairns",
+    "currency": "AUD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "verona",
+    "country": "이탈리아",
+    "countryEn": "Italy",
+    "nameKo": "베로나",
+    "nameEn": "Verona",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "macau",
     "country": "중국 마카오",
     "countryEn": "Macau",

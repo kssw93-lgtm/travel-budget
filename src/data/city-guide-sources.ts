@@ -1049,4 +1049,12 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'toulouse:h2': 'https://www.toulouse-tourisme.com/manger-boire-un-verre/les-specialites-culinaires-de-toulouse/',
   'toulouse:h3': 'https://www.toulouse-tourisme.com/manger-boire-un-verre/les-specialites-culinaires-de-toulouse/',
   'toulouse:t1': 'https://eboutique.tisseo.fr/fr/produits/1-deplacement-navette-aeroport-occ',
+  'cairns:h1': 'https://www.cairnsaquarium.com.au/general-admission/',
+  'cairns:h2': 'https://tropicalnorthqueensland.org.au/articles/eating-local-cairns/',
+  'cairns:h3': 'https://www.queensland.com/nz/en/places-to-see/destinations/cairns-and-great-barrier-reef/locals-guide-cairns-great-barrier-reef',
+  'cairns:t1': 'https://translink.com.au/news-and-media/articles/1115371',
+  'verona:h1': 'https://museomaffeiano.comune.verona.it/nqcontent.cfm?a_id=69387',
+  'verona:h2': 'https://casadigiulietta.comune.verona.it/nqcontent.cfm?a_name=ticket_42703',
+  'verona:h3': 'https://www.visitverona.it/it/esplora/degustare-verona',
+  'verona:t1': 'https://www.aeroportoverona.it/en_gb/transport/from-to/verona',
 };

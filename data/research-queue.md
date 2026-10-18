@@ -124,6 +124,12 @@
 | 빌바오 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 툴루즈 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 툴루즈 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 케언스 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 케언스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 케언스 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 베로나 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 베로나 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 베로나 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 마카오 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 마카오 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1096,6 +1102,12 @@
 | TLS-TR-001 | 툴루즈 | 티세오 1회권 | 1.9 EUR | A | 예 | 재검증 | [Tisséo](https://eboutique.tisseo.fr/fr/produits/1-deplacement-pour-tous-occ) |
 | TLS-AT-001 | 툴루즈 | 시테 드 레스파스 1일권 (성인) | 29 EUR | A | 예 | 재검증 | [Cité de l’espace](https://en.cite-espace.com/visit/tickets-and-stays/1-day-ticket/) |
 | TLS-AT-002 | 툴루즈 | 시테 드 레스파스 1일권 (아동) | 22.5 EUR | A | 예 | 재검증 | [Cité de l’espace](https://en.cite-espace.com/visit/tickets-and-stays/1-day-ticket/) |
+| CNS-TR-001 | 케언스 | 케언스 시내버스 1회(트랜스링크) | 0.5 AUD | A | 예 | 재검증 | [Translink](https://translink.com.au/tickets-and-fares/fares-and-zones/cairns) |
+| CNS-AT-001 | 케언스 | 케언스 아쿠아리움 (성인) | 61 AUD | A | 예 | 재검증 | [Cairns Aquarium](https://www.cairnsaquarium.com.au/general-admission/) |
+| CNS-AT-002 | 케언스 | 케언스 아쿠아리움 (아동) | 35 AUD | A | 예 | 재검증 | [Cairns Aquarium](https://www.cairnsaquarium.com.au/general-admission/) |
+| VRN-TR-001 | 베로나 | ATV 베로나 시내버스 1회권(90분) | 1.5~2 EUR | A | 예 | 재검증 | [ATV Verona](https://www.atv.verona.it/tickets/verona) |
+| VRN-AT-001 | 베로나 | 아레나 디 베로나 (성인) | 12 EUR | A | 예 | 재검증 | [Musei Civici di Verona](https://museomaffeiano.comune.verona.it/nqcontent.cfm?a_id=69387) |
+| VRN-AT-002 | 베로나 | 아레나 디 베로나 (14세 미만 무료) | 0 EUR | A | 예 | 재검증 | [Musei Civici di Verona](https://museomaffeiano.comune.verona.it/nqcontent.cfm?a_id=69387) |
 | GRX-TR-001 | 그라나다 | 그라나다 시내버스 1회권 | 1.6 EUR | A | 예 | 재검증 | [Turismo de Granada](https://turismo.granada.org/es/bus-urbano) |
 | GRX-AT-001 | 그라나다 | 알람브라 일반 입장(낮) (성인) | 21~22.27 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://tickets.alhambra-patronato.es/producto/alhambra-general/) |
 | GRX-AT-002 | 그라나다 | 알람브라 (아동) | 0 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://www.alhambra-patronato.es/notas-prensa/la-alhambra-actualiza-sus-tarifas-en-agosto) |

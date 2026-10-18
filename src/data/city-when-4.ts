@@ -332,4 +332,17 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['공항 셔틀은 일반 1회권으로 탈 수 없고 공항 전용 승차권이 필요합니다.', 'The airport shuttle needs its own airport ticket; a standard single isn’t valid.', '空港シャトルは通常の1回券では乗れず、空港専用の乗車券が必要です。'],
   },
+  cairns: {
+    p: [
+      ['5~10월', 'May–October', '5〜10月', '맑고 건조해 리프 투어와 열대우림 여행에 가장 좋은 시기입니다.', 'Clear, dry weather — the best time for reef trips and the rainforest.', '晴れて乾燥しており、リーフツアーや熱帯雨林の旅に最適な時期です。'],
+    ],
+    x: ['11~4월에는 바다에 독성 해파리가 나오니, 그물이 쳐진 해변에서만 수영하고 시내에서는 무료 라군을 이용하세요.', 'November–April brings stingers; swim only inside netted areas, or use the free city lagoon.', '11〜4月は海に毒のあるクラゲが出るので、ネットが張られたビーチだけで泳ぎ、市内では無料のラグーンを利用しましょう。'],
+  },
+  verona: {
+    p: [
+      ['6~9월', 'June–September', '6〜9月', '로마 원형극장에서 열리는 아레나 오페라 축제를 볼 수 있습니다.', 'See the Arena opera festival in the Roman amphitheatre.', 'ローマ時代の円形闘技場で開かれるアレーナのオペラ祭を観られます。'],
+      ['9~10월', 'September–October', '9〜10月', '발폴리첼라 포도 수확기로, 와인과 함께 지역 요리를 즐기기 좋습니다.', 'Valpolicella harvest time — good for local food and wine.', 'ヴァルポリチェッラのブドウ収穫期で、ワインと郷土料理を楽しむのに良い時期です。'],
+    ],
+    x: ['줄리엣의 집은 온라인 사전 예약이 필수이니 미리 표를 사 두세요.', 'Juliet’s House requires online booking — buy tickets in advance.', 'ジュリエットの家はオンラインでの事前予約が必須なので、前もってチケットを買っておきましょう。'],
+  },
 };

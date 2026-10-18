@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+호주,케언스,바라문디,Barramundi,지역 식당의 ‘오늘의 생선’으로 자주 나오는 열대 흰살생선,중,,대기,Tourism Tropical North Queensland,https://tropicalnorthqueensland.org.au/articles/seafood-guide-to-cairns/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+호주,케언스,머드크랩,Mud Crab,열대 맹그로브에서 잡히는 큰 게 요리,고,,대기,Tourism Tropical North Queensland,https://tropicalnorthqueensland.org.au/articles/eating-local-cairns/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+호주,케언스,열대 과일,Tropical Fruit,망고·람부탄·용과 등 근교 농장에서 나는 열대 과일,저,,대기,Tourism Tropical North Queensland,https://tropicalnorthqueensland.org.au/articles/eating-local-cairns/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

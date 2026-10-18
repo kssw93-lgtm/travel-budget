@@ -690,4 +690,24 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 툴루즈-블라냐크 공항에서 공항 셔틀을 타면 약 15분 간격으로 마타비오역까지 가며, 시간은 20~45분 걸립니다. 공항 승차권 1장으로 시내 교통도 이어서 탈 수 있습니다.', 'Airport to city: the airport shuttle runs to Matabiau station about every 15 minutes, taking 20–45 minutes; the airport ticket also covers onward Tisséo travel.', '空港から市内へ：トゥールーズ・ブラニャック空港から空港シャトルで約15分間隔でマタビオ駅へ行け、所要20〜45分です。空港の乗車券1枚で市内の交通にも乗り継げます。'],
     ],
   },
+  cairns: {
+    h: [
+      ['케언스 아쿠아리움', 'Cairns Aquarium', 'ケアンズ水族館', '열대 북퀸즐랜드의 강과 산호초 생물을 모아 놓은 수족관입니다.', 'Showcases the rivers and reefs of tropical north Queensland.', '熱帯の北クイーンズランドの川やサンゴ礁の生き物を集めた水族館です。'],
+      ['러스티스 마켓', 'Rusty’s Markets', 'ラスティーズ・マーケット', '약 180개 가게에서 람부탄·용과·망고스틴 같은 열대 과일을 파는 시장입니다.', 'About 180 stalls of tropical fruit like rambutan, dragon fruit and mangosteen.', '約180の店でランブータンやドラゴンフルーツ、マンゴスチンなどの熱帯フルーツを売る市場です。'],
+      ['그레이트 배리어 리프', 'Great Barrier Reef', 'グレートバリアリーフ', '시내 선착장에서 출발하는 투어 배로 산호초 스노클링과 다이빙을 즐깁니다.', 'Reef boats leave from the city terminal for snorkelling and diving.', '市内の桟橋から出るツアー船でサンゴ礁のシュノーケリングやダイビングを楽しめます。'],
+    ],
+    t: [
+      ['시내버스는 1회 50센트이며 2시간 안에 환승할 수 있습니다. 11월 23일부터는 공항과 시내를 잇는 100번 버스도 50센트에 운행합니다.', 'City buses cost 50 cents a trip with two hours of transfers; from 23 November, route 100 links the airport and city for 50 cents too.', '市内バスは1回50セントで、2時間以内なら乗り換えできます。11月23日からは空港と市内を結ぶ100番バスも50セントで運行します。'],
+    ],
+  },
+  verona: {
+    h: [
+      ['아레나 디 베로나', 'Arena di Verona', 'アレーナ・ディ・ヴェローナ', '1세기에 지어진 로마 원형극장으로, 지금도 여름 오페라 공연장으로 쓰입니다. 14세 미만은 보호자 동반 시 무료입니다.', 'A 1st-century Roman amphitheatre still used for summer opera; under-14s accompanied by an adult enter free.', '1世紀に建てられたローマの円形闘技場で、今も夏のオペラ会場として使われています。14歳未満は保護者同伴で無料です。'],
+      ['줄리엣의 집', 'Juliet’s House', 'ジュリエットの家', '유명한 발코니가 있는 중세 저택으로, 온라인 예약이 필수입니다.', 'The medieval house with the famous balcony; online booking is required.', '有名なバルコニーがある中世の邸宅で、オンライン予約が必須です。'],
+      ['아마로네 리소토', 'Risotto all’Amarone', 'アマローネのリゾット', '발폴리첼라의 아마로네 와인으로 지은 베로나 대표 리소토입니다.', 'Verona’s signature risotto made with Valpolicella’s Amarone wine.', 'ヴァルポリチェッラのアマローネワインで作るヴェローナを代表するリゾットです。'],
+    ],
+    t: [
+      ['공항에서 시내: 베로나 공항에서 에어링크 버스(199번)를 타면 약 15분 만에 포르타 누오바역에 닿으며, 버스 안에서 카드로 낼 수 있습니다. 시내버스 1회권은 버스 안에서 사면 더 비쌉니다.', 'Airport to city: the Airlink bus (line 199) reaches Porta Nuova station in about 15 minutes, with card payment on board; city bus singles cost more when bought on board.', '空港から市内へ：ヴェローナ空港からエアリンクバス（199番）で約15分でポルタ・ヌオーヴァ駅に着き、車内でカード払いができます。市内バスの1回券は車内で買うと高くなります。'],
+    ],
+  },
 };

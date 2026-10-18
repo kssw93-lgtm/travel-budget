@@ -40,6 +40,8 @@ export const NOTES_6: Record<string, Compact> = {
       ['대영박물관', 'British Museum', '大英博物館', '로제타석 등 세계 유물을 모은 박물관. 상설 전시는 무료입니다.', 'World treasures including the Rosetta Stone; the permanent collection is free.', 'ロゼッタ・ストーンなど世界の遺物を集めた博物館。常設展は無料です。'],
       ['런던 타워', 'Tower of London', 'ロンドン塔', '왕관 보석이 보관된 옛 요새입니다.', 'The old fortress that guards the Crown Jewels.', '王冠の宝石が保管されている古い要塞です。'],
       ['버로우 마켓', 'Borough Market', 'バラ・マーケット', '먹거리 노점과 식재료 가게가 모인 오래된 시장입니다.', 'A historic market of food stalls and producers.', '屋台や食材店が集まる歴史ある市場です。'],
+      ['웨스트민스터 사원', 'Westminster Abbey', 'ウェストミンスター寺院', '대관식과 왕실 결혼식이 열려 온 고딕 사원으로, 국회의사당·빅벤과 함께 둘러봅니다.', 'The Gothic abbey of coronations and royal weddings, next to Parliament and Big Ben.', '戴冠式や王室の結婚式が行われてきたゴシック様式の寺院で、国会議事堂やビッグ・ベンと一緒に巡れます。'],
+      ['코벤트 가든', 'Covent Garden', 'コヴェント・ガーデン', '옛 청과 시장 건물에 상점·식당이 모여 있고 거리 공연이 자주 열리는 웨스트엔드의 광장입니다.', 'A West End piazza where the old market hall is full of shops and cafés and street performers draw crowds.', '旧青果市場の建物に店やレストランが集まり、大道芸もよく見られるウエストエンドの広場です。'],
     ],
     t: [
       ['지하철·버스는 비접촉 카드로 타면 하루·주간 요금 상한이 자동 적용됩니다.', 'Tapping a contactless card applies daily and weekly fare caps automatically.', '地下鉄・バスはタッチ決済で乗ると1日・週の上限運賃が自動で適用されます。'],

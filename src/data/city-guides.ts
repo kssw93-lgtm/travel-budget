@@ -55,6 +55,22 @@ const BASE: Record<string, CityGuideNote> = {
           ja: '卸売市場が豊洲へ移った後も残る商店街。海鮮丼や玉子焼きなどの食べ歩きが楽しめます。',
         },
       },
+      {
+        name: { ko: '메이지 신궁', en: 'Meiji Jingu', ja: '明治神宮' },
+        text: {
+          ko: '하라주쿠역 바로 옆, 전국에서 기증한 나무로 만든 넓은 숲속의 신사입니다. 도심 한가운데서 조용히 산책하기 좋습니다.',
+          en: 'A shrine in a vast forest of trees donated from across Japan, right beside Harajuku Station — a quiet walk in the middle of the city.',
+          ja: '原宿駅のすぐそば、全国から献木された広大な森の中にある神社です。都心で静かに散策できます。',
+        },
+      },
+      {
+        name: { ko: '신주쿠교엔', en: 'Shinjuku Gyoen National Garden', ja: '新宿御苑' },
+        text: {
+          ko: '영국식 풍경 정원·프랑스식 정원·일본 정원이 한곳에 모인 국민 정원으로, 봄 벚꽃과 가을 단풍 명소입니다.',
+          en: 'A national garden combining English landscape, French formal and Japanese gardens — a favourite for spring blossoms and autumn colour.',
+          ja: 'イギリス風景式・フランス整形式・日本庭園が一つになった国民公園で、春の桜と秋の紅葉の名所です。',
+        },
+      },
     ],
     tips: [
       {
@@ -93,6 +109,22 @@ const BASE: Record<string, CityGuideNote> = {
           ko: '쓰텐카쿠 타워 아래 옛 번화가. 쿠시카쓰 가게가 모여 있어 저녁에 가기 좋습니다.',
           en: 'An old entertainment district below Tsutenkaku Tower, packed with kushikatsu shops; best in the evening.',
           ja: '通天閣の下に広がる昔ながらの繁華街。串カツ店が集まり、夜に訪れるのがおすすめです。',
+        },
+      },
+      {
+        name: { ko: '우메다 스카이빌딩 공중정원', en: 'Umeda Sky Building Floating Garden', ja: '梅田スカイビル 空中庭園' },
+        text: {
+          ko: '두 빌딩을 잇는 꼭대기 전망대로, 옥상 회랑을 한 바퀴 돌며 오사카 야경을 볼 수 있습니다.',
+          en: 'The rooftop observatory linking two towers; walk the open-air ring for night views over Osaka.',
+          ja: '二つのビルをつなぐ屋上展望台で、屋外回廊を一周しながら大阪の夜景を楽しめます。',
+        },
+      },
+      {
+        name: { ko: '구로몬 시장', en: 'Kuromon Market', ja: '黒門市場' },
+        text: {
+          ko: '「오사카의 부엌」으로 불리는 오래된 시장으로, 해산물·과일을 그 자리에서 맛볼 수 있습니다.',
+          en: 'The old market known as “Osaka’s kitchen”, where you can eat seafood and fruit on the spot.',
+          ja: '「大阪の台所」と呼ばれる歴史ある市場で、海鮮や果物をその場で味わえます。',
         },
       },
     ],
@@ -135,6 +167,22 @@ const BASE: Record<string, CityGuideNote> = {
           ja: '土・日曜に全区画が開く大規模な市場。衣類・雑貨・屋台が数千軒集まり、一部の区画は平日も営業します。',
         },
       },
+      {
+        name: { ko: '왓 포', en: 'Wat Pho', ja: 'ワット・ポー' },
+        text: {
+          ko: '길이 46m의 금빛 와불로 유명한 사원으로, 왕궁 바로 남쪽에 있어 함께 둘러보기 좋습니다.',
+          en: 'Home of the 46-metre golden Reclining Buddha, just south of the Grand Palace — easy to combine.',
+          ja: '全長46mの金色の寝釈迦仏で知られる寺院で、王宮のすぐ南にあり一緒に回れます。',
+        },
+      },
+      {
+        name: { ko: '야오와랏(차이나타운)', en: 'Yaowarat (Chinatown)', ja: 'ヤワラート（チャイナタウン）' },
+        text: {
+          ko: '네온사인이 켜지는 저녁에 길거리 음식 노점이 줄지어 서는 방콕의 차이나타운입니다.',
+          en: 'Bangkok’s Chinatown, where street-food stalls line the neon-lit road in the evening.',
+          ja: 'ネオンが灯る夕方に屋台がずらりと並ぶバンコクのチャイナタウンです。',
+        },
+      },
     ],
     tips: [
       {
@@ -173,6 +221,22 @@ const BASE: Record<string, CityGuideNote> = {
           ko: '사크레쾨르 대성당이 있는 언덕. 화가들이 모이는 테르트르 광장과 파리 시내 전망이 유명합니다.',
           en: 'The hill topped by Sacré-Cœur, known for the painters of Place du Tertre and views over Paris.',
           ja: 'サクレ・クール寺院が建つ丘。画家が集まるテルトル広場とパリ市内の眺めが有名です。',
+        },
+      },
+      {
+        name: { ko: '오르세 미술관', en: 'Musée d’Orsay', ja: 'オルセー美術館' },
+        text: {
+          ko: '옛 기차역을 고친 미술관으로, 모네·르누아르·반 고흐 등 인상파 작품이 모여 있습니다.',
+          en: 'A former railway station housing the great Impressionists — Monet, Renoir, Van Gogh and more.',
+          ja: '旧駅舎を改装した美術館で、モネ・ルノワール・ゴッホなど印象派の作品が集まっています。',
+        },
+      },
+      {
+        name: { ko: '노트르담 대성당', en: 'Notre-Dame de Paris', ja: 'ノートルダム大聖堂' },
+        text: {
+          ko: '2019년 화재 뒤 복원을 마치고 2024년 12월 다시 문을 연 고딕 대성당입니다. 입장은 무료이며 대기 줄이 생길 수 있습니다.',
+          en: 'The Gothic cathedral reopened in December 2024 after restoration following the 2019 fire; entry is free, though queues can form.',
+          ja: '2019年の火災後の修復を終え、2024年12月に再開したゴシック様式の大聖堂です。入場は無料ですが行列ができることもあります。',
         },
       },
     ],

@@ -217,4 +217,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['바다 수영은 빨강·노랑 깃발 사이, 안전요원이 있는 구역에서만 하세요. 이안류가 강한 날이 많습니다.', 'Swim only between the red-and-yellow flags at patrolled beaches; rip currents are common.', '海で泳ぐのは赤と黄色の旗の間、監視員がいる区域だけにしましょう。離岸流が強い日が多いです。'],
   },
+  brisbane: {
+    p: [
+      ['4~10월', 'April–October', '4〜10月', '맑고 선선해 강변 산책과 다리 등반, 근교 여행에 좋은 시기입니다.', 'Clear and mild — ideal for riverside walks, the bridge climb and day trips.', '晴れて涼しく、川沿いの散策や橋のクライム、近郊への旅に最適な時期です。'],
+      ['여름(12~2월)', 'Summer (December–February)', '夏（12〜2月）', '사우스 뱅크의 무료 인공 해변 스트리츠 비치에서 더위를 식히기 좋습니다.', 'Cool off at Streets Beach, South Bank’s free man-made beach.', 'サウスバンクの無料人工ビーチ、ストリーツ・ビーチで涼むのに良い季節です。'],
+    ],
+    x: ['스트리츠 비치는 겨울철 정비 기간에 문을 닫는 때가 있으니 방문 전에 확인하세요.', 'Streets Beach closes for maintenance for a period each winter; check before you go.', 'ストリーツ・ビーチは冬に整備のため閉まる期間があるので、訪れる前に確認しましょう。'],
+  },
 };

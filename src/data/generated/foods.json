@@ -2289,6 +2289,60 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "brisbane",
+    "nameKo": "모턴 베이 벅",
+    "nameEn": "Moreton Bay Bugs",
+    "reason": "작은 랍스터를 닮은 퀸즐랜드 근해의 갑각류 요리",
+    "reasonEn": "Queensland slipper lobster, like a small lobster",
+    "desc": {
+      "ko": "작은 랍스터를 닮은 퀸즐랜드 근해의 갑각류 요리",
+      "en": "Queensland slipper lobster, like a small lobster",
+      "ja": "小さなロブスターに似たクイーンズランド近海の甲殻類の料理"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Queensland Tourism",
+    "recommendUrl": "https://www.queensland.com/au/en/things-to-do/food-and-drink/restaurants-and-cafes/best-seafood-brisbane",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "brisbane",
+    "nameKo": "퀸즐랜드 새우",
+    "nameEn": "Queensland Prawns",
+    "reason": "근해에서 잡은 새우를 차갑게 또는 구워 먹는 해산물 요리",
+    "reasonEn": "Local prawns served chilled or grilled",
+    "desc": {
+      "ko": "근해에서 잡은 새우를 차갑게 또는 구워 먹는 해산물 요리",
+      "en": "Local prawns served chilled or grilled",
+      "ja": "近海でとれたエビを冷やして、または焼いて食べる海鮮料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Queensland Tourism",
+    "recommendUrl": "https://www.queensland.com/au/en/things-to-do/food-and-drink/restaurants-and-cafes/best-seafood-brisbane",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "brisbane",
+    "nameKo": "머드크랩",
+    "nameEn": "Mud Crab",
+    "reason": "제철에 맛보는 퀸즐랜드의 큰 진흙게 요리",
+    "reasonEn": "Queensland’s big mud crabs, in season",
+    "desc": {
+      "ko": "제철에 맛보는 퀸즐랜드의 큰 진흙게 요리",
+      "en": "Queensland’s big mud crabs, in season",
+      "ja": "旬に味わうクイーンズランドの大きなマッドクラブの料理"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Queensland Tourism",
+    "recommendUrl": "https://www.queensland.com/au/en/things-to-do/food-and-drink/restaurants-and-cafes/best-seafood-brisbane",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "bruges",
     "nameKo": "벨기에 초콜릿",
     "nameEn": "Belgian chocolate",

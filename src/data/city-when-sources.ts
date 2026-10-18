@@ -354,4 +354,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'gold-coast:p1': 'https://destinationgoldcoast.com/blog/escape-hinterland',
   'gold-coast:p2': 'https://parks.qld.gov.au/parks/springbrook/things-to-do',
   'gold-coast:x': 'https://www.goldcoast.qld.gov.au/Services/Safety-security/Lifeguards-beach-safety',
+  'brisbane:p1': 'https://storybridgeadventureclimb.com.au/activity/story-bridge-day-climb/',
+  'brisbane:p2': 'https://www.visitbrisbane.com.au/south-bank/things-to-do/swimming-at-south-bank?sc_lang=en-au',
+  'brisbane:x': 'https://www.visitbrisbane.com.au/south-bank/things-to-do/swimming-at-south-bank?sc_lang=en-au',
 };

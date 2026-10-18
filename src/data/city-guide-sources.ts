@@ -968,4 +968,10 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'gold-coast:h4': 'https://parks.qld.gov.au/parks/springbrook/things-to-do',
   'gold-coast:t1': 'https://translink.com.au/tickets-and-fares/50-cent-fares',
   'gold-coast:t2': 'https://translink.com.au/travel-with-us/airport-services',
+  'brisbane:h1': 'https://www.visitbrisbane.com.au/brisbane/things-to-do/sport-and-recreation/beaches-and-lakes/streets-beach?sc_lang=en-au',
+  'brisbane:h2': 'https://www.museum.qld.gov.au/kurilpa/plan-your-visit/hours-and-admission/',
+  'brisbane:h3': 'https://www.qagoma.qld.gov.au/corporate-information/conditions-of-entry/',
+  'brisbane:h4': 'https://storybridgeadventureclimb.com.au/activity/story-bridge-day-climb/',
+  'brisbane:t1': 'https://translink.com.au/tickets-and-fares/50-cent-fares',
+  'brisbane:t2': 'https://translink.com.au/travel-with-us/airport-services',
 };

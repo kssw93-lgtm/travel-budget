@@ -66,6 +66,9 @@
 | 골드코스트 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 골드코스트 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 골드코스트 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 브리즈번 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 브리즈번 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 브리즈번 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 교토 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오키나와 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 나고야 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
@@ -961,6 +964,10 @@
 | OOL-AT-002 | 골드코스트 | 커럼빈 야생동물 보호구역 (성인) | 70 AUD | A | 예 | 재검증 | [Currumbin Wildlife Sanctuary](https://currumbinsanctuary.com.au/visit/tickets/) |
 | OOL-AT-003 | 골드코스트 | 커럼빈 야생동물 보호구역 (아동) | 50 AUD | A | 예 | 재검증 | [Currumbin Wildlife Sanctuary](https://currumbinsanctuary.com.au/visit/tickets/) |
 | OOL-AT-004 | 골드코스트 | 스프링브룩 국립공원 (입장 무료) | 0 AUD | A | 예 | 재검증 | [Queensland Parks](https://parks.qld.gov.au/parks/springbrook/things-to-do) |
+| BNE-TR-001 | 브리즈번 | 트랜스링크 1회(50센트 균일) | 0.5 AUD | A | 예 | 재검증 | [Translink](https://translink.com.au/tickets-and-fares/50-cent-fares) |
+| BNE-AT-001 | 브리즈번 | 스토리 브리지 낮 등반 (성인) | 150 AUD | A | 예 | 재검증 | [Story Bridge Adventure Climb](https://storybridgeadventureclimb.com.au/activity/story-bridge-day-climb/) |
+| BNE-AT-002 | 브리즈번 | 퀸즐랜드 박물관 (입장 무료) | 0 AUD | A | 예 | 재검증 | [Queensland Museum](https://www.museum.qld.gov.au/kurilpa/plan-your-visit/hours-and-admission/) |
+| BNE-AT-003 | 브리즈번 | QAGOMA (입장 무료) | 0 AUD | A | 예 | 재검증 | [QAGOMA](https://www.qagoma.qld.gov.au/corporate-information/conditions-of-entry/) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

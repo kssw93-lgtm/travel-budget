@@ -4702,5 +4702,20 @@
     "ko": "항구 수산시장에서 바로 까 주는 생굴",
     "en": "Just-shucked oysters from the harbour fish markets",
     "ja": "港の魚市場でその場で剥いてくれる生ガキ"
+  },
+  "brisbane:Moreton Bay Bugs": {
+    "ko": "작은 랍스터를 닮은 퀸즐랜드 근해의 갑각류 요리",
+    "en": "Queensland slipper lobster, like a small lobster",
+    "ja": "小さなロブスターに似たクイーンズランド近海の甲殻類の料理"
+  },
+  "brisbane:Queensland Prawns": {
+    "ko": "근해에서 잡은 새우를 차갑게 또는 구워 먹는 해산물 요리",
+    "en": "Local prawns served chilled or grilled",
+    "ja": "近海でとれたエビを冷やして、または焼いて食べる海鮮料理"
+  },
+  "brisbane:Mud Crab": {
+    "ko": "제철에 맛보는 퀸즐랜드의 큰 진흙게 요리",
+    "en": "Queensland’s big mud crabs, in season",
+    "ja": "旬に味わうクイーンズランドの大きなマッドクラブの料理"
   }
 }

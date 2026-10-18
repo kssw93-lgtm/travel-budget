@@ -507,4 +507,16 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 골드코스트 공항에서 777번 버스를 타고 브로드비치 사우스에서 트램(G:link)으로 갈아타면 서퍼스 파라다이스로 갑니다. 같은 50센트 요금이 적용됩니다.', 'Airport to city: bus 777 from Gold Coast Airport connects with the G:link tram at Broadbeach South for Surfers Paradise, on the same 50-cent fare.', '空港から市内へ：ゴールドコースト空港から777番バスに乗り、ブロードビーチ・サウスでトラム（G:link）に乗り換えるとサーファーズ・パラダイスへ行けます。同じ50セント運賃です。'],
     ],
   },
+  brisbane: {
+    h: [
+      ['사우스 뱅크와 스트리츠 비치', 'South Bank and Streets Beach', 'サウスバンクとストリーツ・ビーチ', '강변 공원 안의 무료 인공 해변으로, 안전요원이 상주합니다.', 'A free man-made beach in the riverside parklands, patrolled by lifeguards.', '川沿いの公園の中にある無料の人工ビーチで、監視員が常駐しています。'],
+      ['퀸즐랜드 박물관', 'Queensland Museum Kurilpa', 'クイーンズランド博物館', '공룡 전시 등 자연사·문화 전시를 무료로 볼 수 있는 박물관입니다(일부 기획전 유료).', 'Natural history and culture, including dinosaurs, free to enter (some exhibitions ticketed).', '恐竜展示など自然史・文化の展示を無料で見られる博物館です（一部の企画展は有料）。'],
+      ['QAGOMA(퀸즐랜드 미술관·현대미술관)', 'QAGOMA', 'QAGOMA（クイーンズランド美術館・近代美術館）', '사우스 뱅크의 두 미술관으로, 소장품 전시 대부분이 무료입니다.', 'Two galleries at South Bank where most collection displays are free.', 'サウスバンクにある2つの美術館で、所蔵品展示の多くが無料です。'],
+      ['스토리 브리지 클라임', 'Story Bridge Adventure Climb', 'ストーリー・ブリッジ・アドベンチャー・クライム', '강 위의 철교 꼭대기까지 올라가 시내를 내려다보는 가이드 등반 체험입니다.', 'A guided climb to the top of the steel bridge for views over the city.', '川に架かる鉄橋の頂上まで登って市内を見下ろすガイド付きのクライム体験です。'],
+    ],
+    t: [
+      ['버스·기차·페리·트램은 거리와 상관없이 1회 50센트입니다. 강을 오가는 시티캣 페리를 타면 저렴하게 시내를 둘러볼 수 있습니다.', 'Buses, trains, ferries and trams cost a flat 50 cents; the CityCat ferry makes a cheap river tour.', 'バス・列車・フェリー・トラムは距離に関係なく1回50セントです。川を行き来するシティキャット・フェリーで安く市内を巡れます。'],
+      ['공항에서 시내: 브리즈번 공항에서 에어트레인을 타면 시내 역까지 20분 안팎입니다. 에어트레인은 50센트 균일 요금이 적용되지 않습니다.', 'Airport to city: the Airtrain reaches the city stations in about 20 minutes; the 50-cent fare does not apply to Airtrain.', '空港から市内へ：ブリスベン空港からエアトレインで市内の駅まで20分ほどです。エアトレインには50セント運賃が適用されません。'],
+    ],
+  },
 };

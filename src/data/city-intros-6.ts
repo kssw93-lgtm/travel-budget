@@ -278,4 +278,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['브로드비치', 'Broadbeach', 'ブロードビーチ', '서퍼스 파라다이스보다 조금 조용하고, 공항버스와 트램이 만나는 곳입니다.', 'A little calmer than Surfers, where the airport bus meets the tram.', 'サーファーズ・パラダイスより少し落ち着いていて、空港バスとトラムが接続する場所です。'],
     ],
   },
+  brisbane: {
+    o: ['브리즈번강을 따라 펼쳐진 퀸즐랜드의 주도로, 1년 내내 따뜻한 날씨와 강변 공원이 매력입니다. 박물관·미술관 대부분이 무료이고, 대중교통도 50센트 균일 요금이라 경비 부담이 적습니다.', 'Queensland’s riverside capital, with warm weather year-round and parklands along the Brisbane River; most museums and galleries are free and public transport costs a flat 50 cents.', 'ブリスベン川沿いに広がるクイーンズランド州の州都で、一年中温暖な気候と川沿いの公園が魅力です。博物館・美術館の多くが無料で、公共交通も一律50セントなので費用を抑えられます。'],
+    d: [2, 3],
+    s: [
+      ['시티(CBD)', 'City (CBD)', 'シティ（CBD）', '쇼핑 거리와 페리·버스·기차가 모이는 중심가입니다.', 'The centre of shops, ferries, buses and trains.', 'ショッピング街とフェリー・バス・列車が集まる中心部です。'],
+      ['사우스 뱅크', 'South Bank', 'サウスバンク', '강 건너 공원과 무료 박물관·미술관이 모인 문화 지구입니다.', 'Across the river: parklands and the free museums and galleries.', '川向こうの公園と無料の博物館・美術館が集まる文化地区です。'],
+    ],
+  },
 };

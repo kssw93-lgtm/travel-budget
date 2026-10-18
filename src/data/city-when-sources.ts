@@ -351,4 +351,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'turin:p1': 'https://turismotorino.org/en/visit/things-to-do-and-things-to-see/food-and-wine',
   'turin:p2': 'https://turismotorino.org/en/visit/things-to-do-and-things-to-see/food-and-wine/typical-products',
   'turin:x': 'https://museoegizio.it/esplora/notizie/biglietteria-ufficiale',
+  'gold-coast:p1': 'https://destinationgoldcoast.com/blog/escape-hinterland',
+  'gold-coast:p2': 'https://parks.qld.gov.au/parks/springbrook/things-to-do',
+  'gold-coast:x': 'https://www.goldcoast.qld.gov.au/Services/Safety-security/Lifeguards-beach-safety',
 };

@@ -4257,6 +4257,60 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "gold-coast",
+    "nameKo": "모턴 베이 벅",
+    "nameEn": "Moreton Bay Bugs",
+    "reason": "작은 랍스터를 닮은 퀸즐랜드 근해의 갑각류 요리",
+    "reasonEn": "Queensland slipper lobster, like a small lobster",
+    "desc": {
+      "ko": "작은 랍스터를 닮은 퀸즐랜드 근해의 갑각류 요리",
+      "en": "Queensland slipper lobster, like a small lobster",
+      "ja": "小さなロブスターに似たクイーンズランド近海の甲殻類の料理"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Queensland Tourism",
+    "recommendUrl": "https://www.queensland.com/au/en/things-to-do/food-and-drink/restaurants-and-cafes/gold-coast-fish-and-chips",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "gold-coast",
+    "nameKo": "피시 앤드 칩스",
+    "nameEn": "Fish and Chips",
+    "reason": "갓 잡은 생선을 튀겨 해변에서 먹는 호주식 피시 앤드 칩스",
+    "reasonEn": "Fresh-caught fish fried and eaten on the beach",
+    "desc": {
+      "ko": "갓 잡은 생선을 튀겨 해변에서 먹는 호주식 피시 앤드 칩스",
+      "en": "Fresh-caught fish fried and eaten on the beach",
+      "ja": "とれたての魚を揚げてビーチで食べるオーストラリア風フィッシュ・アンド・チップス"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Queensland Tourism",
+    "recommendUrl": "https://www.queensland.com/au/en/things-to-do/food-and-drink/restaurants-and-cafes/gold-coast-fish-and-chips",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "gold-coast",
+    "nameKo": "생굴",
+    "nameEn": "Fresh Oysters",
+    "reason": "항구 수산시장에서 바로 까 주는 생굴",
+    "reasonEn": "Just-shucked oysters from the harbour fish markets",
+    "desc": {
+      "ko": "항구 수산시장에서 바로 까 주는 생굴",
+      "en": "Just-shucked oysters from the harbour fish markets",
+      "ja": "港の魚市場でその場で剥いてくれる生ガキ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Queensland Tourism",
+    "recommendUrl": "https://www.queensland.com/au/en/things-to-do/food-and-drink/restaurants-and-cafes/gold-coast-fish-and-chips",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "granada",
     "nameKo": "하바스 콘 하몬",
     "nameEn": "Habas con Jamón",

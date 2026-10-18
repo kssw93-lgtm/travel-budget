@@ -290,6 +290,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "gold-coast",
+    "country": "호주",
+    "countryEn": "Australia",
+    "nameKo": "골드코스트",
+    "nameEn": "Gold Coast",
+    "currency": "AUD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "kyoto",
     "country": "일본",
     "countryEn": "Japan",

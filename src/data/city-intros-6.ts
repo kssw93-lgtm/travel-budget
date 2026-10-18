@@ -270,4 +270,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['중심가(카스텔로 광장·포르타 누오바)', 'Centre (Piazza Castello / Porta Nuova)', '中心部（カステッロ広場・ポルタ・ヌオーヴァ）', '왕궁과 박물관, 아케이드 거리를 걸어서 다니고 공항버스도 이 근처에서 탑니다.', 'Walk to the royal palaces, museums and arcades; airport buses leave nearby.', '王宮や博物館、アーケード街へ歩いて行け、空港バスもこの近くから出ます。'],
     ],
   },
+  'gold-coast': {
+    o: ['70km 가까이 이어지는 해변과 서핑, 테마파크로 유명한 호주 퀸즐랜드의 휴양 도시입니다. 내륙으로 조금만 가면 세계유산 곤드와나 열대우림의 스프링브룩 국립공원이 있습니다.', 'Queensland’s resort city of near-endless beaches, surf and theme parks, with the World Heritage Gondwana rainforest of Springbrook National Park a short drive inland.', '約70km続くビーチとサーフィン、テーマパークで知られるオーストラリア・クイーンズランド州のリゾート都市です。少し内陸へ行くと世界遺産ゴンドワナ雨林のスプリングブルック国立公園があります。'],
+    d: [3, 4],
+    s: [
+      ['서퍼스 파라다이스', 'Surfers Paradise', 'サーファーズ・パラダイス', '해변과 식당, 트램(G:link)이 모인 중심가로 이동이 편합니다.', 'The beachfront hub of restaurants and G:link tram stops.', 'ビーチや飲食店、トラム（G:link）が集まる中心地で移動に便利です。'],
+      ['브로드비치', 'Broadbeach', 'ブロードビーチ', '서퍼스 파라다이스보다 조금 조용하고, 공항버스와 트램이 만나는 곳입니다.', 'A little calmer than Surfers, where the airport bus meets the tram.', 'サーファーズ・パラダイスより少し落ち着いていて、空港バスとトラムが接続する場所です。'],
+    ],
+  },
 };

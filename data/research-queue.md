@@ -63,6 +63,9 @@
 | 토리노 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 토리노 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 토리노 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 골드코스트 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 골드코스트 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 골드코스트 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 교토 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오키나와 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 나고야 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
@@ -953,6 +956,11 @@
 | TNN-AT-003 | 타이난 | 안핑 고성 (성인) | 70 TWD | A | 예 | 재검증 | [臺南市政府文化局](https://historic.tainan.gov.tw/index.php?option=module&lang=cht&task=pageinfo&id=58&index=2) |
 | TNN-AT-004 | 타이난 | 안핑 트리하우스 (성인) | 70 TWD | A | 예 | 재검증 | [臺南市政府文化局](https://historic.tainan.gov.tw/index.php?id=60&index=4&lang=cht&option=module&task=pageinfo) |
 | TNN-AT-005 | 타이난 | 이짜이진청 (성인) | 70 TWD | A | 예 | 재검증 | [臺南市政府文化局](https://historic.tainan.gov.tw/index.php?option=module&lang=cht&task=pageinfo&id=59&index=5) |
+| OOL-TR-001 | 골드코스트 | 트랜스링크 1회(50센트 균일) | 0.5 AUD | A | 예 | 재검증 | [Translink](https://translink.com.au/tickets-and-fares/50-cent-fares) |
+| OOL-AT-001 | 골드코스트 | 드림월드 1일권 (성인) | 99~109 AUD | A | 예 | 재검증 | [Dreamworld](https://www.dreamworld.com.au/tickets/dreamworld-tickets/) |
+| OOL-AT-002 | 골드코스트 | 커럼빈 야생동물 보호구역 (성인) | 70 AUD | A | 예 | 재검증 | [Currumbin Wildlife Sanctuary](https://currumbinsanctuary.com.au/visit/tickets/) |
+| OOL-AT-003 | 골드코스트 | 커럼빈 야생동물 보호구역 (아동) | 50 AUD | A | 예 | 재검증 | [Currumbin Wildlife Sanctuary](https://currumbinsanctuary.com.au/visit/tickets/) |
+| OOL-AT-004 | 골드코스트 | 스프링브룩 국립공원 (입장 무료) | 0 AUD | A | 예 | 재검증 | [Queensland Parks](https://parks.qld.gov.au/parks/springbrook/things-to-do) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

@@ -210,4 +210,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['이집트 박물관은 공식 사이트 온라인 판매가 유일한 공식 경로이니 미리 예약하세요.', 'The Egyptian Museum sells tickets only through its official online shop; book ahead.', 'エジプト博物館は公式サイトのオンライン販売が唯一の正規ルートなので、事前に予約しましょう。'],
   },
+  'gold-coast': {
+    p: [
+      ['9~11월·3~5월', 'September–November and March–May', '9〜11月・3〜5月', '물놀이와 하이킹, 테마파크를 무리 없이 즐길 수 있는 날씨입니다.', 'Comfortable weather for swimming, hikes and theme parks alike.', '海遊びやハイキング、テーマパークを無理なく楽しめる気候です。'],
+      ['여름(12~2월)', 'Summer (December–February)', '夏（12〜2月）', '해변 시즌이 절정이고, 스프링브룩의 반딧불이(글로웜)도 겨울보다 잘 보입니다.', 'Peak beach season, and Springbrook’s glow-worms shine brighter than in winter.', 'ビーチシーズンの最盛期で、スプリングブルックの土ボタル（グローワーム）も冬より多く見られます。'],
+    ],
+    x: ['바다 수영은 빨강·노랑 깃발 사이, 안전요원이 있는 구역에서만 하세요. 이안류가 강한 날이 많습니다.', 'Swim only between the red-and-yellow flags at patrolled beaches; rip currents are common.', '海で泳ぐのは赤と黄色の旗の間、監視員がいる区域だけにしましょう。離岸流が強い日が多いです。'],
+  },
 };

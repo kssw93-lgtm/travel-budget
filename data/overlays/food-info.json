@@ -4687,5 +4687,20 @@
     "ko": "헤이즐넛을 섞은 토리노의 배 모양 초콜릿",
     "en": "Boat-shaped hazelnut chocolate from Turin",
     "ja": "ヘーゼルナッツを混ぜたトリノの舟形チョコレート"
+  },
+  "gold-coast:Moreton Bay Bugs": {
+    "ko": "작은 랍스터를 닮은 퀸즐랜드 근해의 갑각류 요리",
+    "en": "Queensland slipper lobster, like a small lobster",
+    "ja": "小さなロブスターに似たクイーンズランド近海の甲殻類の料理"
+  },
+  "gold-coast:Fish and Chips": {
+    "ko": "갓 잡은 생선을 튀겨 해변에서 먹는 호주식 피시 앤드 칩스",
+    "en": "Fresh-caught fish fried and eaten on the beach",
+    "ja": "とれたての魚を揚げてビーチで食べるオーストラリア風フィッシュ・アンド・チップス"
+  },
+  "gold-coast:Fresh Oysters": {
+    "ko": "항구 수산시장에서 바로 까 주는 생굴",
+    "en": "Just-shucked oysters from the harbour fish markets",
+    "ja": "港の魚市場でその場で剥いてくれる生ガキ"
   }
 }

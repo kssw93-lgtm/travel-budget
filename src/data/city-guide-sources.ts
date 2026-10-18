@@ -962,4 +962,10 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'turin:h3': 'https://museireali.beniculturali.it/il-2026-dei-musei-reali-di-torino-attivita-culturali-mostre-progetti/',
   'turin:t1': 'https://turismotorino.org/en/visit/things-to-do-and-things-to-see/food-and-wine/traditional-dishes',
   'turin:t2': 'https://www.aeroportoditorino.it/en/tomove/parking-transport/by-bus',
+  'gold-coast:h1': 'https://www.goldcoast.qld.gov.au/Things-to-do/Gold-Coast-beaches/Beach-locations/Surfers-Paradise',
+  'gold-coast:h2': 'https://www.goldcoast.qld.gov.au/Things-to-do/Gold-Coast-beaches/Beach-locations/Burleigh-Heads',
+  'gold-coast:h3': 'https://www.dreamworld.com.au/tickets/dreamworld-tickets/',
+  'gold-coast:h4': 'https://parks.qld.gov.au/parks/springbrook/things-to-do',
+  'gold-coast:t1': 'https://translink.com.au/tickets-and-fares/50-cent-fares',
+  'gold-coast:t2': 'https://translink.com.au/travel-with-us/airport-services',
 };

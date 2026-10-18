@@ -495,4 +495,16 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 토리노 공항에서 아리바 공항버스를 타면 시내(포르타 누오바 근처)까지 45~50분입니다.', 'Airport to city: the Arriva airport bus reaches the centre near Porta Nuova in 45–50 minutes.', '空港から市内へ：トリノ空港からアリーヴァの空港バスで中心部（ポルタ・ヌオーヴァ付近）まで45〜50分です。'],
     ],
   },
+  'gold-coast': {
+    h: [
+      ['서퍼스 파라다이스 해변', 'Surfers Paradise Beach', 'サーファーズ・パラダイス・ビーチ', '고층 빌딩을 등지고 펼쳐진 골드코스트의 대표 해변으로, 안전요원 탑이 세 곳 있습니다.', 'The Gold Coast’s signature beach backed by high-rises, with three patrol towers.', '高層ビルを背に広がるゴールドコーストを代表するビーチで、監視塔が3か所あります。'],
+      ['벌리 헤즈', 'Burleigh Heads', 'バーレイ・ヘッズ', '곶 위 국립공원 산책로와 서핑 포인트가 있는 해변 마을로, 해 질 녘 풍경이 아름답습니다.', 'A beach village with a headland national-park walk and surf breaks, lovely at sunset.', '岬の上の国立公園の遊歩道とサーフポイントがあるビーチの町で、夕暮れの景色が美しいです。'],
+      ['드림월드', 'Dreamworld', 'ドリームワールド', '호주 최대급 테마파크로, 놀이기구와 호주 동물 구역이 함께 있습니다.', 'One of Australia’s biggest theme parks, combining rides with Australian wildlife.', 'オーストラリア最大級のテーマパークで、アトラクションとオーストラリアの動物エリアがあります。'],
+      ['스프링브룩 국립공원', 'Springbrook National Park', 'スプリングブルック国立公園', '세계유산 열대우림 속 폭포와 동굴의 반딧불이(글로웜)를 볼 수 있습니다. 동굴에서는 불빛을 반딧불이에 비추지 마세요.', 'World Heritage rainforest with waterfalls and a glow-worm cave; never shine lights on the glow-worms.', '世界遺産の熱帯雨林で滝や洞窟の土ボタル（グローワーム）が見られます。洞窟では土ボタルに光を当てないように。'],
+    ],
+    t: [
+      ['퀸즐랜드 대중교통(버스·트램)은 거리와 상관없이 1회 50센트입니다. 고카드나 비접촉 카드를 탈 때와 내릴 때 모두 찍으세요. 공항철도 에어트레인은 예외입니다.', 'Queensland buses and trams cost a flat 50 cents per journey; tap on and off with a go card or contactless card. Airtrain is the exception.', 'クイーンズランドの公共交通（バス・トラム）は距離に関係なく1回50セントです。ゴーカードか非接触カードで乗車時と降車時の両方タッチを。空港鉄道エアトレインは例外です。'],
+      ['공항에서 시내: 골드코스트 공항에서 777번 버스를 타고 브로드비치 사우스에서 트램(G:link)으로 갈아타면 서퍼스 파라다이스로 갑니다. 같은 50센트 요금이 적용됩니다.', 'Airport to city: bus 777 from Gold Coast Airport connects with the G:link tram at Broadbeach South for Surfers Paradise, on the same 50-cent fare.', '空港から市内へ：ゴールドコースト空港から777番バスに乗り、ブロードビーチ・サウスでトラム（G:link）に乗り換えるとサーファーズ・パラダイスへ行けます。同じ50セント運賃です。'],
+    ],
+  },
 };

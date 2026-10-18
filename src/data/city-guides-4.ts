@@ -13,6 +13,7 @@ export const NOTES_4: Record<string, Compact> = {
     t: [
       ['설악산 케이블카는 사전 예약 없이 당일 현장에서만 표를 팝니다. 주말에는 대기가 생길 수 있으니 운행시간을 확인하고 여유 있게 방문하세요.', 'Seorak Cable Car sells tickets on site only, with no advance reservations. Weekend waits are possible, so check operating hours and allow extra time.', '雪岳山ケーブルカーのチケットは予約できず、当日の現地販売のみです。週末は待ち時間が生じることがあるため、運行時間を確認して余裕を持って訪れましょう。'],
       ['영랑호와 청초호 주변 산책로를 걸어보세요. 청초호는 밤에 조명이 켜진 풍경도 볼 수 있습니다.', 'Walk the paths around Yeongnangho and Cheongchoho lakes. Cheongchoho is also lit up at night.', '永郎湖と青草湖の周辺を散策してみましょう。青草湖では夜のライトアップも楽しめます。'],
+      ['가는 법: 속초에는 철도가 없어 서울 고속버스터미널이나 동서울터미널에서 고속버스를 타면 2시간 반 안팎입니다.', 'Getting there: Sokcho has no railway, so take an express bus from Seoul Express Bus Terminal or Dong Seoul Terminal — about 2.5 hours.', '行き方：束草には鉄道がないため、ソウル高速バスターミナルか東ソウルターミナルから高速バスで2時間半ほどです。'],
     ],
   },
   sydney: {
@@ -78,6 +79,7 @@ export const NOTES_4: Record<string, Compact> = {
     t: [
       ['소매물도·욕지도 등 섬 배편은 기상에 따라 변경·결항될 수 있으니 출발 전 선사에 운항 여부를 확인하세요.', 'Ferries to islands such as Somaemuldo and Yokjido may change or be cancelled because of weather; confirm the sailing with the operator before departure.', '小毎勿島や欲知島などへの船は天候により変更・欠航する場合があります。出発前に運航会社へ確認してください。'],
       ['통영은 굴 산지입니다. 겨울에 제철 굴 요리를 맛보세요.', 'Tongyeong is an oyster-producing area. Try seasonal oyster dishes in winter.', '統営はカキの産地です。冬には旬のカキ料理を味わってみましょう。'],
+      ['가는 법: 통영에는 철도가 없어 서울 고속버스터미널이나 남부터미널에서 버스를 타면 4시간 안팎입니다. 부산에서도 버스가 자주 다닙니다.', 'Getting there: Tongyeong has no railway, so take a bus from Seoul Express Bus Terminal or Nambu Terminal — about four hours; buses from Busan are frequent too.', '行き方：統営には鉄道がないため、ソウル高速バスターミナルか南部ターミナルからバスで4時間ほどです。釜山からもバスが頻繁に出ています。'],
     ],
   },
   ulaanbaatar: {

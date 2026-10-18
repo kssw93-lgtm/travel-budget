@@ -54,6 +54,7 @@ export const NOTES_5: Record<string, Compact> = {
     t: [
       ['서울에서 KTX로 2시간 안팎이라 당일치기 여행도 가능합니다.', 'About two hours from Seoul by KTX, so a day trip is possible.', 'ソウルからKTXで約2時間なので日帰りも可能です。'],
       ['초당 순두부 마을에는 아침 일찍 문을 여는 두부 식당이 있어 순두부로 아침을 먹기 좋습니다.', 'Some tofu restaurants in Chodang Village open early, making soft tofu a good breakfast option.', '草堂スンドゥブ村には朝早くから営業する豆腐料理店があり、スンドゥブを朝食に楽しめます。'],
+      ['가는 법: 서울역·청량리역에서 KTX를 타면 강릉역까지 2시간 안팎입니다. 강릉역에서 경포·안목까지는 버스나 택시로 갑니다.', 'Getting there: KTX trains from Seoul or Cheongnyangni stations reach Gangneung in about two hours; buses or taxis continue to Gyeongpo and Anmok.', '行き方：ソウル駅・清凉里駅からKTXで江陵駅まで2時間ほどです。江陵駅から鏡浦・安木まではバスかタクシーで行きます。'],
     ],
   },
   gyeongju: {
@@ -67,6 +68,7 @@ export const NOTES_5: Record<string, Compact> = {
     t: [
       ['유적이 넓게 퍼져 있어 시내 구간은 자전거를 빌려 다니기 좋습니다.', 'Sites are spread out; renting a bike works well around town.', '遺跡が広く点在しているので、市内は自転車を借りると便利です。'],
       ['KTX 경주역(옛 신경주역)은 시내에서 떨어져 있습니다. 도착 후에는 시내버스나 택시로 중심지까지 이동하세요.', 'KTX Gyeongju Station, formerly Singyeongju Station, is outside the centre. Continue into town by local bus or taxi.', 'KTX慶州駅（旧・新慶州駅）は市街地から離れています。到着後は路線バスかタクシーで中心部へ向かいましょう。'],
+      ['가는 법: 서울역에서 KTX를 타면 신경주역까지 2시간 남짓이고, 신경주역에서 시내까지는 버스·택시로 20분 안팎입니다.', 'Getting there: KTX trains from Seoul Station reach Singyeongju in a little over two hours; buses and taxis take about 20 minutes into town.', '行き方：ソウル駅からKTXで新慶州駅まで2時間あまり。新慶州駅から市内まではバスやタクシーで20分ほどです。'],
     ],
   },
   yeosu: {
@@ -79,6 +81,7 @@ export const NOTES_5: Record<string, Compact> = {
     t: [
       ['게장 백반은 간장·양념게장을 함께 맛볼 수 있는 여수 대표 음식입니다. 리필 횟수와 조건은 식당마다 다르니 메뉴를 확인하세요.', 'Crab set meals are a Yeosu specialty, often with soy and spicy marinated crab. Check each restaurant\'s menu for its refill limits and conditions.', 'カンジャンケジャンとヤンニョムケジャンを味わえるケジャン定食は麗水の名物です。おかわりの回数や条件は店ごとに確認してください。'],
       ['여수엑스포역에 KTX로 도착하면 엑스포 해변공원과 오동도 등 주변 명소를 도보나 대중교통으로 둘러보기 좋습니다.', 'Arriving by KTX at Yeosu-Expo Station makes nearby sights such as Expo Beach Park and Odongdo easy to reach on foot or by public transport.', 'KTXで麗水エキスポ駅に着けば、エキスポ海浜公園や梧桐島など周辺の名所を徒歩や公共交通で巡りやすくなります。'],
+      ['가는 법: 용산역에서 KTX를 타면 종점인 여수엑스포역까지 3시간 안팎이고, 역에서 오동도까지 걸어갈 수 있습니다. 김포에서 여수공항으로 가는 비행기도 있습니다.', 'Getting there: KTX from Yongsan runs to the terminus at Yeosu-EXPO in about three hours, and Odongdo is walkable from the station; there are also flights from Gimpo to Yeosu Airport.', '行き方：龍山駅からKTXで終点の麗水エキスポ駅まで3時間ほど。駅から梧桐島まで歩けます。金浦から麗水空港への便もあります。'],
     ],
   },
   jeonju: {
@@ -92,6 +95,7 @@ export const NOTES_5: Record<string, Compact> = {
     t: [
       ['비빔밥과 콩나물국밥이 유명하며, 콩나물국밥은 아침 해장 메뉴로 즐겨 먹습니다.', 'Bibimbap and bean-sprout soup are famous; the soup is a favourite breakfast.', 'ビビンバとコンナムルクッパが有名で、クッパは朝食によく食べられます。'],
       ['한옥마을 안 한옥스테이에 묵을 계획이라면 원하는 객실을 미리 예약하세요. 주말에는 마을 안 차량 통행도 제한됩니다.', 'If you plan to stay in a hanok inside the village, book your preferred room ahead. Vehicle access to the village is also restricted on weekends.', '韓屋村内の韓屋ステイに泊まるなら、希望の部屋を早めに予約しましょう。週末は村内の車両通行も制限されます。'],
+      ['가는 법: 용산역에서 KTX를 타면 전주역까지 2시간 안팎이고, 전주역에서 한옥마을까지는 버스·택시로 20분 안팎입니다. 고속버스도 자주 다닙니다.', 'Getting there: KTX from Yongsan reaches Jeonju in about two hours, then about 20 minutes by bus or taxi to the Hanok Village; express buses are also frequent.', '行き方：龍山駅からKTXで全州駅まで2時間ほど、全州駅から韓屋村まではバスかタクシーで20分ほどです。高速バスも頻繁に出ています。'],
     ],
   },
   kyoto: {

@@ -837,4 +837,10 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'saipan:t3': 'https://mva.mymarianas.com/saipan/',
   'daegu:t3': 'https://www.airport.co.kr/',
   'lyon:t3': 'https://www.rhonexpress.fr/',
+  'gyeongju:t3': 'https://www.letskorail.com/',
+  'gangneung:t3': 'https://www.letskorail.com/',
+  'jeonju:t3': 'https://www.letskorail.com/',
+  'yeosu:t3': 'https://www.letskorail.com/',
+  'sokcho:t3': 'https://www.kobus.co.kr/',
+  'tongyeong:t3': 'https://www.kobus.co.kr/',
 };

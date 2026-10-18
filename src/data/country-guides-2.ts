@@ -4,21 +4,21 @@ import type { CountryNote } from './country-guides-1';
 export const COUNTRY_2: Record<string, CountryNote> = {
   Canada: {
     tips: [
-      ['메뉴판·가격표 가격에는 판매세가 빠져 있어 계산할 때 더해집니다. 식당에서는 팁을 따로 남기는 것이 일반적입니다.', 'Menu and shelf prices exclude sales tax, which is added at the till; tipping in restaurants is customary.', 'メニューや値札の価格には売上税が含まれず、会計時に加算されます。レストランではチップを置くのが一般的です。', 'https://fanvancouver.com/vancouver/tipping/'],
+      ['캐나다에서는 판매세가 표시 가격에 포함되거나 계산 때 따로 더해질 수 있으니 영수증을 확인하세요.', 'Sales tax may be included in the displayed price or added separately; check your receipt.', 'カナダでは売上税が表示価格に含まれる場合と別途加算される場合があるため、レシートを確認しましょう。', 'https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4022/general-information-gst-hst-registrants.html'],
       ['대부분의 상점·대중교통에서 비접촉 카드 결제가 됩니다.', 'Contactless card payment works in most shops and on public transit.', 'ほとんどの店や公共交通でタッチ決済が使えます。', 'https://www.timescolonist.com/bc-news/transit-in-metro-vancouver-accepting-credit-card-tap-payments-4662339'],
     ],
     cautions: [
       ['국립공원이나 산길에서는 곰 같은 야생동물을 만날 수 있으니 안내판 규칙을 지키고 음식을 밖에 두지 마세요.', 'In parks and on trails you may meet bears and other wildlife; follow posted rules and never leave food out.', '国立公園や山道ではクマなどの野生動物に出会うことがあります。掲示のルールを守り、食べ物を外に置かないように。', 'https://www.parks.canada.ca/voyage-travel/conseils-tips/faune-wildlife'],
-      ['밴쿠버 다운타운 이스트사이드처럼 일부 도심 구역은 밤에 혼자 걷지 않는 것이 좋습니다.', 'In some inner-city areas such as Vancouver’s Downtown Eastside, avoid walking alone at night.', 'バンクーバーのダウンタウン・イーストサイドなど一部の都心地区は、夜の一人歩きを避けましょう。', 'https://www.smartertravel.com/downtown-eastside-vancouver-warnings-dangers/'],
+      ['캐나다 도시에서는 가방을 방치하지 말고 귀중품과 여권을 안전한 곳에 보관하세요.', 'In Canadian cities, do not leave bags unattended and keep valuables and your passport secure.', 'カナダの都市部ではバッグを放置せず、貴重品やパスポートを安全な場所に保管しましょう。', 'https://www.gov.uk/foreign-travel-advice/canada/safety-and-security'],
     ],
   },
   'New Zealand': {
     tips: [
-      ['자외선이 매우 강해 흐린 날에도 선크림과 모자를 챙기세요.', 'UV is very strong, even on cloudy days; bring sunscreen and a hat.', '紫外線がとても強いので、曇りの日も日焼け止めと帽子を。', 'https://www.sunsmart.org.nz/assets/UV-Index-Flyer-July-2025.pdf'],
+      ['뉴질랜드에서는 흐린 날에도 자외선에 노출될 수 있으니 자외선 지수를 확인하고 모자·선크림을 챙기세요.', 'In New Zealand, UV exposure is possible on cloudy days. Check the UV index and bring a hat and sunscreen.', 'ニュージーランドでは曇りの日も紫外線を浴びるため、UV指数を確認し、帽子と日焼け止めを用意しましょう。', 'https://www.sunsmart.org.nz/sunsmart-facts/uv-radiation/'],
       ['차는 왼쪽으로 다니므로 길을 건널 때 오른쪽을 먼저 보세요.', 'Traffic drives on the left, so look right first when crossing.', '車は左側通行なので、道を渡るときはまず右を確認しましょう。', 'https://www.nzta.govt.nz/resources/roadcode/about-driving/keeping-left/'],
     ],
     cautions: [
-      ['산과 해안의 날씨는 급변할 수 있습니다. 트레킹 전 MetService 예보·경보를 확인하고 방수 옷을 준비하세요.', 'Mountain and coastal weather can change quickly. Check MetService forecasts and warnings before a hike, and carry waterproof clothing.', '山や海岸の天気は急変することがあります。トレッキング前にMetServiceの予報・警報を確認し、防水の服を用意しましょう。', 'https://about.metservice.com/roles-and-responsibilities'],
+      ['뉴질랜드의 산길 날씨는 빠르게 바뀔 수 있습니다. 트레킹 전에 예보를 확인하고 방수 옷을 챙기세요.', 'Weather on New Zealand mountain trails can change quickly. Check the forecast before hiking and carry waterproof clothing.', 'ニュージーランドの山道では天気が急変することがあります。トレッキング前に予報を確認し、防水の服を持ちましょう。', 'https://www.doc.govt.nz/parks-and-recreation/places-to-go/wellington-kapiti/places/tararua-forest-park/things-to-do/tracks/kiriwhakapapa-to-blue-range-hut/'],
     ],
   },
   China: {
@@ -33,8 +33,8 @@ export const COUNTRY_2: Record<string, CountryNote> = {
   },
   Netherlands: {
     tips: [
-      ['대중교통은 운영사 안내를 확인하고, 비접촉 결제가 지원되면 승차·하차 때 같은 카드를 태그하세요.', 'Check the operator’s guidance; where contactless is accepted, use the same card to check in and out.', '交通機関では、利用する会社の案内を確認し、対応するカードなら乗車時と降車時に同じカードをタッチしてください。', 'https://www.ovpay.nl/en/'],
-      ['많은 가게가 카드만 받고 현금을 받지 않는 경우도 있습니다.', 'Many places are card-only and some refuse cash altogether.', 'カードのみで現金を受け付けない店も多くあります。', 'https://www.remitly.com/blog/travel/what-is-used-most-in-netherlands-cash-or-card/'],
+      ['네덜란드 대중교통에서 비접촉 카드로 승차했다면 내릴 때도 같은 카드로 태그하세요. 휴대전화와 실물 카드는 서로 다른 카드로 인식될 수 있습니다.', 'When using contactless payment on Dutch public transport, check out with the same card used to check in. A phone and its physical card may be treated as different cards.', 'オランダの公共交通でタッチ決済カードを使う場合、乗車時と降車時に同じカードを使いましょう。スマートフォンと実物のカードは別のカードとして扱われることがあります。', 'https://www.ns.nl/en/service-and-contact/your-card/faq-about-travelling-with-debit-card'],
+      ['네덜란드에서는 대부분의 소매점이 현금을 받지만 일부는 카드 전용입니다. 입구의 결제 안내를 확인하세요.', 'Most Dutch retailers accept cash, but some are card-only; check the payment notice at the entrance.', 'オランダでは多くの小売店で現金が使えますが、カード専用の店もあります。入口の支払い案内を確認しましょう。', 'https://www.dnb.nl/en/general-news/news-2026/cash-acceptance-in-the-netherlands-remains-stable/'],
     ],
     cautions: [
       ['자전거 도로를 걷거나 확인 없이 가로지르지 마세요. 자전거 통행을 방해해 충돌할 수 있습니다.', 'Do not walk along cycle lanes or step across them without checking; this can obstruct cyclists and cause collisions.', '自転車道を歩いたり、横切る前に確認せずに進んだりしないでください。自転車の通行を妨げるおそれがあります。', 'https://www.0404.go.kr/ntnSafetyInfo/21/detail'],
@@ -44,7 +44,7 @@ export const COUNTRY_2: Record<string, CountryNote> = {
   Greece: {
     tips: [
       ['여름 더위에 대비해 공식 폭염 정보를 확인하고, 야외 유적 관람은 더운 시간을 피해 계획하세요.', 'During summer, check official heat alerts and plan outdoor archaeological visits to avoid the hottest periods.', '夏の暑さに備え、気温や熱波に関する公式情報を確認し、屋外の遺跡観光は暑さを避けて計画しましょう。', 'https://civilprotection.gov.gr/en/odigies-prostasias/kaysonas?lang=en'],
-      ['식당에서 빵과 물이 자리 요금처럼 계산서에 붙는 경우가 있으니 메뉴판을 확인하세요.', 'Bread and water can appear on the bill as a cover; check the menu.', 'パンや水が席料のように会計に加わることがあるので、メニューを確認しましょう。', 'https://www.smartertravel.com/tipping-in-greece-the-greece-tipping-guide/'],
+      ['그리스 식당에서는 빵·생수를 동의 없이 제공하고 청구하거나 식기·수저 사용료를 받을 수 없습니다. 주문 내용과 계산서를 확인하세요.', 'Greek restaurants may not charge for bread or bottled water without your consent, or add a cover charge for tableware. Check your order and bill.', 'ギリシャの飲食店では、同意なくパンやボトル水を提供して請求したり、食器類の席料を取ったりできません。注文内容と会計を確認しましょう。', 'https://gge.mindev.gov.gr/tomeas-emporiou/kanones-dieppy/'],
     ],
     cautions: [
       ['아테네 지하철, 특히 공항·관광지 노선에서는 소매치기를 조심하세요.', 'Watch for pickpockets on the Athens metro, especially the airport and tourist lines.', 'アテネの地下鉄、特に空港や観光地の路線ではスリに注意しましょう。', 'https://www.0404.go.kr/ntnSafetyInfo/11/detail'],
@@ -53,22 +53,22 @@ export const COUNTRY_2: Record<string, CountryNote> = {
   },
   Croatia: {
     tips: [
-      ['성수기(여름)에는 구시가지가 크루즈 관광객으로 붐비니 이른 아침이나 저녁에 둘러보세요.', 'In summer the old towns fill with cruise crowds; explore early morning or evening.', '夏の繁忙期は旧市街がクルーズ客で混むので、早朝か夕方に回りましょう。', 'https://www.responsibletravel.com/holidays/dubrovnik/travel-guide/avoid-the-crowds-in-dubrovnik'],
-      ['해변은 자갈이 많아 물놀이 신발이 있으면 편합니다.', 'Beaches are mostly pebbly, so water shoes help.', 'ビーチは小石が多いので、マリンシューズがあると便利です。', 'https://www.croatiatraveller.com/Practicalities/Water-Shoes.html'],
+      ['두브로브니크 구시가지는 크루즈선 입항 때 붐빌 수 있습니다. 시 당국의 방문객·입항 안내를 확인하고 방문 시간을 잡으세요.', 'Dubrovnik Old Town can be crowded when cruise ships arrive. Check the city’s visitor and ship-arrival information when planning your visit.', 'ドゥブロヴニク旧市街はクルーズ船の入港時に混雑することがあります。市の訪問者・入港案内を確認して訪問時間を決めましょう。', 'https://www.dubrovnik.hr/vijesti/obavijest-izmjena-plana-dolaska-kruzera-15-listopada%3A-tri-broda-na-vezu-u-luci-gruz-21072'],
+      ['두브로브니크 주변에는 자갈 해변도 있으니 해변 바닥을 확인하고 필요하면 물놀이 신발을 챙기세요.', 'Some beaches around Dubrovnik are pebbly. Check the beach surface and bring water shoes if useful.', 'ドゥブロヴニク周辺には小石の浜もあります。浜の状態を確認し、必要ならマリンシューズを用意しましょう。', 'https://visitdubrovnik.hr/wp-content/uploads/2023/10/brosura-en-web.pdf'],
     ],
     cautions: [
-      ['구시가지 성벽과 돌계단은 그늘이 적고 미끄러워, 한낮 더위와 발밑을 조심하세요.', 'City walls and stone steps have little shade and get slippery; mind the midday heat and your footing.', '城壁や石段は日陰が少なく滑りやすいので、日中の暑さと足元に注意を。', 'https://happytowander.com/avoid-crowds-dubrovnik/'],
-      ['스플리트·두브로브니크 등은 해변이 아닌 시내에서 수영복 차림이나 웃통을 벗고 다니면 벌금을 물릴 수 있습니다.', 'Split, Dubrovnik and other towns fine people walking the streets in swimwear or shirtless.', 'スプリットやドゥブロヴニクなどでは、ビーチ以外の市内を水着や上半身裸で歩くと罰金になることがあります。', 'https://www.croatiaweek.com/dubrovnik-tourists-face-fines-for-walking-streets-in-swimwear/'],
+      ['두브로브니크 구시가지 등 관광객이 많은 곳에서는 소매치기에 대비해 귀중품을 잘 챙기세요.', 'In busy tourist areas such as Dubrovnik Old Town, secure valuables against pickpockets.', 'ドゥブロヴニク旧市街など観光客の多い場所では、スリに備えて貴重品を管理しましょう。', 'https://www.gov.uk/foreign-travel-advice/croatia/safety-and-security'],
+      ['두브로브니크 구시가지에서는 수영복 차림이나 상의를 벗고 걸으면 벌금을 물릴 수 있습니다.', 'In Dubrovnik’s Old Town, walking in swimwear or without a shirt can result in a fine.', 'ドゥブロヴニク旧市街では、水着姿や上半身裸で歩くと罰金を科されることがあります。', 'https://www.dubrovnik.hr/vijesti/nedolicno-odjeveni-posjetitelji-novcano-kaznjeni-15940'],
     ],
   },
   'United States': {
     tips: [
-      ['가격표에는 판매세가 빠져 있고, 식당에서는 팁을 따로 남기는 것이 관행입니다.', 'Shelf prices exclude sales tax, and leaving a tip in restaurants is expected.', '値札には売上税が含まれず、レストランではチップを置くのが慣習です。', 'https://www.ytravelblog.com/tipping-in-usa/'],
-      ['LA처럼 넓게 퍼진 도시는 대중교통으로 닿기 어려운 명소가 많아 차량 호출 앱을 함께 쓰게 됩니다.', 'Spread-out cities such as LA have many sights that are hard to reach by transit, so ride-hailing apps help.', 'LAのように広い都市は公共交通で行きにくい名所が多く、配車アプリを併用することになります。', 'https://www.discoverlosangeles.com/plan-your-trip/getting-around-los-angeles'],
+      ['미국에서는 지역과 상품에 따라 표시 가격에 판매세가 더해질 수 있습니다. 식당의 추가 요금은 주문 전에 메뉴에서 확인하세요.', 'In the US, sales tax may be added to the displayed price depending on the place and product. Check a restaurant menu for extra charges before ordering.', '米国では地域や商品によって表示価格に売上税が加わることがあります。飲食店の追加料金は注文前にメニューで確認しましょう。', 'https://oag.ca.gov/hiddenfees'],
+      ['LA에서는 대중교통과 차량 호출을 모두 이용할 수 있습니다. 명소 간 이동 전에 메트로 노선과 차량 호출 승차 위치를 확인하세요.', 'In LA, both public transit and ride-hailing are available. Check Metro routes and ride-hail pickup points before moving between sights.', 'ロサンゼルスでは公共交通と配車サービスの両方を利用できます。名所間の移動前に地下鉄路線と配車の乗車場所を確認しましょう。', 'https://www.discoverlosangeles.com/travel/smart-travel-tips-information'],
     ],
     cautions: [
       ['차 안에 가방·물건을 보이게 두면 차량 털이가 잦으니 아무것도 남기지 마세요.', 'Car break-ins are common; never leave bags or anything visible in a parked car.', '車上荒らしが多いので、駐車した車内に荷物を見える状態で置かないように。', 'https://www.0404.go.kr/ntnSafetyInfo/69/detail'],
-      ['늦은 밤에는 걸어서 이동하기보다 택시나 차량 호출로 숙소까지 가는 것이 안전합니다.', 'Late at night, take a taxi or ride-hail back to your hotel rather than walking.', '夜遅くは歩くより、タクシーや配車アプリで宿まで戻るほうが安全です。', 'https://thebettervacation.com/travel-tips/is-chicago-safe/amp/'],
+      ['미국의 낯선 지역에서는 특히 밤에 한적한 곳을 혼자 걷지 마세요.', 'In unfamiliar parts of the US, avoid walking alone through quiet areas, especially at night.', '米国の不慣れな地域では、特に夜間に人通りの少ない場所を一人で歩かないようにしましょう。', 'https://www.gov.uk/foreign-travel-advice/usa/safety-and-security'],
     ],
   },
   Malaysia: {
@@ -83,18 +83,18 @@ export const COUNTRY_2: Record<string, CountryNote> = {
   },
   Italy: {
     tips: [
-      ['바에서 서서 마시는 커피와 테이블에 앉아 마시는 커피는 값이 다를 수 있습니다.', 'Coffee drunk standing at the bar can cost less than at a table.', 'バールで立って飲むコーヒーと席で飲むコーヒーは値段が違うことがあります。', 'https://italyhandbook.com/how-to-order-coffee-in-italy-like-a-local/'],
-      ['기차표는 탑승 전에 개찰(검인)이 필요한 종류가 있으니 표에 적힌 안내를 확인하세요.', 'Some paper train tickets must be validated before boarding; check what your ticket says.', '一部の紙の切符は乗車前に刻印が必要なので、切符の案内を確認しましょう。', 'https://cinqueterre.eu.com/en/cinque-terre-how-to-validate-train-ticket'],
+      ['이탈리아 바에서 커피를 마실 때는 카운터와 테이블 이용 가격이 다를 수 있으니 주문 전에 메뉴를 확인하세요.', 'At an Italian café, counter and table-service prices may differ; check the menu before ordering.', 'イタリアのバールではカウンターとテーブルで料金が異なる場合があるため、注文前にメニューを確認しましょう。', 'https://www.mimit.gov.it/images/stories/Bandi/Appendice_Capitolato_LISTINO2013_PREZZI_ASSOBAR.pdf'],
+      ['트레니탈리아 지역열차 종이 1회권은 출발 전 역 검표기에서 개찰해야 합니다. 디지털 지역열차표는 종류에 따라 자동으로 유효화됩니다.', 'Validate a Trenitalia regional paper single ticket at the station before departure. Digital regional tickets are validated automatically according to their type.', 'トレニタリアの地域列車の紙の1回券は発車前に駅で刻印が必要です。デジタルの地域列車券は種類に応じて自動的に有効になります。', 'https://www.trenitalia.com/en/information/travelling-on-regional-trains.html'],
     ],
     cautions: [
       ['로마·피렌체·베네치아 관광지와 대중교통에서는 소매치기가 매우 잦습니다.', 'Pickpocketing is very common at sights and on transit in Rome, Florence and Venice.', 'ローマ・フィレンツェ・ヴェネツィアの観光地や公共交通ではスリが非常に多いです。', 'https://www.0404.go.kr/ntnSafetyInfo/179/detail'],
-      ['일부 도시 중심부는 허가 차량만 들어갈 수 있는 구역(ZTL)이라 렌터카로 들어가면 벌금이 나옵니다.', 'Many historic centres are limited-traffic zones (ZTL); driving in with a rental car brings fines.', '多くの歴史地区は進入制限区域（ZTL）で、レンタカーで入ると罰金になります。', 'https://constoronto.esteri.it/en/?p=960'],
+      ['이탈리아 여러 도시의 역사 지구에는 차량 제한 구역(ZTL)이 있습니다. 렌터카로 진입하기 전에 표지와 허가 조건을 확인하세요.', 'Many Italian historic centres have limited-traffic zones (ZTL). Check signs and permit rules before driving in with a rental car.', 'イタリアの多くの歴史地区には車両進入制限区域（ZTL）があります。レンタカーで入る前に標識と許可条件を確認しましょう。', 'https://www.gov.uk/foreign-travel-advice/italy/safety-and-security'],
     ],
   },
   Spain: {
     tips: [
       ['스페인은 다른 여러 나라보다 식사 시간이 늦은 편이지만 식당별 영업시간은 다르므로 방문 전에 확인하세요.', 'Meal times in Spain tend to be later than in many countries, but opening hours vary by restaurant; check before visiting.', 'スペインでは食事の時間が他国より遅い傾向がありますが、店によって営業時間は異なります。訪問前に確認しましょう。', 'https://www.spain.info/en/about-spain/'],
-      ['주요 성당·궁전은 시간 지정 예약제라 온라인 공식 판매처에서 미리 사 두는 것이 좋습니다.', 'Major monuments use timed entry; buy ahead from the official site.', '主要な聖堂や宮殿は時間指定制なので、公式サイトで事前購入がおすすめです。', 'https://tickets.alhambra-patronato.es/en/'],
+      ['그라나다 알함브라 궁전은 공식 예매 사이트에서 방문 날짜와 입장 시간을 선택해 예매하세요.', 'For Granada’s Alhambra, select your visit date and entry time on its official ticket site.', 'グラナダのアルハンブラ宮殿は公式予約サイトで訪問日と入場時間を選んで予約しましょう。', 'https://tickets.alhambra-patronato.es/en/'],
     ],
     cautions: [
       ['바르셀로나 람블라스 거리·지하철과 마드리드 솔 광장 주변은 소매치기가 매우 많습니다.', 'Pickpockets are rife on Las Ramblas and the Barcelona metro, and around Madrid’s Puerta del Sol.', 'バルセロナのランブラス通りや地下鉄、マドリードのソル広場周辺はスリが非常に多いです。', 'https://www.0404.go.kr/ntnSafetyInfo/128/detail'],
@@ -104,7 +104,7 @@ export const COUNTRY_2: Record<string, CountryNote> = {
   Kazakhstan: {
     tips: [
       ['현지 차량 호출 앱(Yandex Go 등)으로 택시를 부르면 요금이 미리 정해져 편합니다.', 'Local ride-hailing apps such as Yandex Go give fixed fares upfront.', '現地の配車アプリ（Yandex Goなど）を使うと料金が事前に決まり便利です。', 'https://www.airporttransferportal.com/es/airport-guides/ala/taxi-vs-transfer'],
-      ['러시아어가 널리 쓰여 번역 앱을 준비하면 메뉴와 표지판을 읽기 쉽습니다.', 'Russian is widely used; a translation app helps with menus and signs.', 'ロシア語が広く使われるので、翻訳アプリがあるとメニューや標識が読みやすくなります。', 'https://welcome.kz/en/info-cities/almaty/info-about-almaty'],
+      ['카자흐스탄에서는 카자흐어와 러시아어가 쓰입니다. 메뉴·표지판을 읽을 수 있도록 번역 수단을 준비하세요.', 'Kazakh and Russian are used in Kazakhstan. Prepare a way to translate menus and signs.', 'カザフスタンではカザフ語とロシア語が使われます。メニューや標識を読めるよう翻訳手段を用意しましょう。', 'https://www.gov.kz/org/mfa-london/press/article/details/8509?lang=en'],
     ],
     cautions: [
       ['겨울에는 영하로 크게 내려가고 길이 얼어 미끄러우니 미끄럼 방지 신발과 방한복을 챙기세요.', 'Winters drop well below freezing with icy pavements; bring grippy boots and warm layers.', '冬は氷点下を大きく下回り道が凍るので、滑りにくい靴と防寒着を。', 'https://www.0404.go.kr/ntnSafetyInfo/201/detail'],
@@ -122,18 +122,18 @@ export const COUNTRY_2: Record<string, CountryNote> = {
   },
   Georgia: {
     tips: [
-      ['현지 차량 호출 앱(Bolt 등)을 쓰면 택시 요금을 흥정하지 않아도 됩니다.', 'Ride-hailing apps such as Bolt save you from haggling taxi fares.', '配車アプリ（Boltなど）を使えばタクシー料金の交渉が不要です。', 'https://travelvient.com/packing-list/tbilisi-georgia/'],
-      ['교회에 들어갈 때 여성은 머리를 가리고 치마를 두르는 것이 예절이며, 입구에서 빌려주는 곳도 있습니다.', 'Women cover their hair and wear a skirt in churches; wraps are often lent at the door.', '教会では女性は髪を覆いスカートを着用するのが礼儀で、入口で貸してくれる所もあります。', 'https://madloba.info/en/faq/holidays-and-traditions/what-to-wear-in-georgia/'],
+      ['트빌리시에서는 Bolt·Yandex 같은 차량 호출 앱을 이용할 수 있습니다. 길에서 택시를 잡으면 출발 전에 목적지와 요금을 정하세요.', 'In Tbilisi, taxi apps such as Bolt and Yandex are available. If hailing a street taxi, agree the destination and fare before departure.', 'トビリシではBoltやYandexなどの配車アプリが使えます。流しのタクシーに乗る場合は出発前に行き先と料金を決めましょう。', 'https://georgia.travel/travel-tips-for-exploring-tbilisi'],
+      ['조지아의 교회 등 종교시설을 방문할 때는 단정한 복장을 하고 시설별 안내를 따르세요.', 'Dress modestly when visiting churches and other religious sites in Georgia, and follow each site’s guidance.', 'ジョージアの教会など宗教施設を訪れる際は控えめな服装にし、施設ごとの案内に従いましょう。', 'https://www.gov.uk/foreign-travel-advice/georgia/safety-and-security'],
     ],
     cautions: [
-      ['트빌리시 구시가지는 언덕과 울퉁불퉁한 돌길이 많아 편한 신발이 필요합니다.', 'Tbilisi’s old town is hilly with uneven cobbles; wear comfortable shoes.', 'トビリシ旧市街は坂と凸凹の石畳が多いので、歩きやすい靴が必要です。', 'https://travelvient.com/packing-list/tbilisi-georgia/'],
+      ['트빌리시 구시가지에는 구불구불한 돌길이 있으니 걷기 편한 신발을 준비하세요.', 'Old Tbilisi has winding cobbled streets, so wear comfortable walking shoes.', 'トビリシ旧市街には曲がりくねった石畳の道があるため、歩きやすい靴を用意しましょう。', 'https://georgia.travel/cities-towns/tbilisi'],
       ['운전이 거칠어 길을 건널 때는 신호가 있어도 차를 확인하세요.', 'Driving can be aggressive; check for cars even at a green crossing.', '運転が荒いので、信号があっても車を確認して渡りましょう。', 'https://www.0404.go.kr/ntnSafetyInfo/332/detail'],
     ],
   },
   Mexico: {
     tips: [
-      ['식당에서는 팁을 따로 남기는 것이 일반적이니 계산서에 포함됐는지 확인하세요.', 'Tipping in restaurants is customary; check whether it is already on the bill.', 'レストランではチップを置くのが一般的なので、会計に含まれているか確認しましょう。', 'https://www.mexpro.com/blog/how-to-tip-mexico/'],
-      ['관광지에서는 가격을 페소와 달러로 함께 적는 곳이 많으니 어느 통화인지 확인하고, 팁은 페소로 주는 편이 좋습니다.', 'Tourist areas often list prices in both pesos and dollars, so confirm the currency, and tip in pesos.', '観光地ではペソとドルの両方で価格を表示する店が多いので通貨を確認し、チップはペソで渡しましょう。', 'https://www.mexpro.com/blog/how-to-tip-mexico/'],
+      ['식당에서는 팁을 남기는 것이 관례입니다. 계산서에 이미 포함됐는지 확인하세요.', 'Tipping in restaurants is customary; check whether it is already included on the bill.', 'レストランでチップを渡すのは慣例です。会計にすでに含まれていないか確認しましょう。', 'https://mexicocity.cdmx.gob.mx/e/basics-for-mexico-city-travel/'],
+      ['멕시코의 법정 화폐는 페소입니다. 가격표의 통화를 확인하고 페소 기준 금액을 살피세요.', 'The peso is Mexico’s legal currency. Check the currency shown on price labels and the amount in pesos.', 'メキシコの法定通貨はペソです。値札の通貨を確認し、ペソ建ての金額を確かめましょう。', 'https://www.banxico.org.mx/regulations-and-supervision/d/%7B502F01D8-F5FA-E8AF-9D10-E1B70FE04830%7D.pdf'],
     ],
     cautions: [
       ['멕시코에서는 생수를 마시고, 수돗물은 마시지 않는 편이 안전합니다.', 'Drink bottled water in Mexico; it is safer not to drink tap water.', 'メキシコではボトル入りの水を飲み、水道水は飲まないほうが安全です。', 'https://wwwnc.cdc.gov/travel/destinations/traveler/none/mexico'],
@@ -143,17 +143,17 @@ export const COUNTRY_2: Record<string, CountryNote> = {
   Denmark: {
     tips: [
       ['대부분 카드로 결제해 현금이 거의 필요 없습니다.', 'Almost everything is paid by card, so you rarely need cash.', 'ほぼカード払いなので、現金はほとんど必要ありません。', 'https://www.travelgo.gr/en/travel-tips/502239/10-things-you-need-know-visiting-copenhagen'],
-      ['수돗물이 깨끗해 그냥 마셔도 됩니다. 물병을 채워 다니세요.', 'Tap water is safe and good; refill a bottle as you go.', '水道水は安全なので、ボトルに入れて持ち歩きましょう。', 'https://www.studieskolen.dk/en/danish/danish-courses/summer-course/practical-information-about-denmark-and-copenhagen'],
+      ['코펜하겐에서는 수돗물을 마실 수 있고 공공 식수대에서 물병을 채울 수 있습니다.', 'In Copenhagen, tap water is safe to drink and you can refill a bottle at public drinking fountains.', 'コペンハーゲンでは水道水を飲めます。公共の給水所でボトルに補充できます。', 'https://www.hofor.dk/english/hofor-utilities/water-supply/free-drinking-water-in-copenhagen/'],
     ],
     cautions: [
-      ['자전거가 많아 자전거 도로를 걷거나 갑자기 멈추면 위험합니다.', 'Bikes are everywhere; walking in or stopping suddenly on cycle lanes is dangerous.', '自転車が多いので、自転車道を歩いたり急に止まったりすると危険です。', 'https://uniavisen.dk/en/surviving-copenhagen-a-guide/'],
-      ['겨울에는 해가 짧아 오후 일찍 어두워지니 일정을 낮 시간에 맞추세요.', 'Winter days are short and dark by mid-afternoon; plan sights around daylight.', '冬は日が短く午後早くに暗くなるので、日中に予定を組みましょう。', 'https://uniavisen.dk/en/surviving-copenhagen-a-guide/'],
+      ['코펜하겐에서는 자전거 도로와 보행로를 구분해 걷고, 자전거 도로를 건널 때 오가는 자전거를 살피세요.', 'In Copenhagen, keep to pedestrian paths and watch for cyclists when crossing a cycle lane.', 'コペンハーゲンでは歩道と自転車道を見分けて歩き、自転車道を横切るときは自転車を確認しましょう。', 'https://international.kk.dk/live/transport-and-parking/cycling-in-copenhagen'],
+      ['코펜하겐은 겨울에 낮이 짧으므로 야외 관광 시간을 미리 계획하세요.', 'Winter days are short in Copenhagen, so plan outdoor sightseeing around daylight.', 'コペンハーゲンは冬の日照時間が短いため、屋外観光を明るい時間に計画しましょう。', 'https://www.visitcopenhagen.com/copenhagen/this-is-copenhagen/seasons/the-changing-seasons-of-copenhagen'],
       ['코펜하겐 중심가·공항·중앙역과 혼잡한 대중교통에서는 소매치기를 조심하고 소지품을 눈에 띄게 두지 마세요.', 'Watch for pickpockets in central Copenhagen, the airport, the central station and crowded public transport; keep valuables out of sight.', 'コペンハーゲン中心部・空港・中央駅や混雑した公共交通ではスリに注意し、貴重品を見える所に置かないでください。', 'https://www.0404.go.kr/ntnSafetyInfo/31/detail'],
     ],
   },
   Sweden: {
     tips: [
-      ['현금을 받지 않는 가게가 많아 카드나 모바일 결제를 준비하세요.', 'Many places refuse cash; have a card or mobile payment ready.', '現金不可の店が多いので、カードかモバイル決済を用意しましょう。', 'https://www.riksbank.se/en-gb/payments--cash/payments-in-sweden/payments-in-sweden-2019/the-payment-market-is-being-digitalised/cash-use-in-constant-decline/why-are-we-no-longer-using-cash/'],
+      ['스웨덴에서는 카드 결제가 널리 쓰이지만 현금을 받지 않는 곳도 있습니다. 결제 수단을 미리 확인하세요.', 'Card payment is widespread in Sweden, but some places do not accept cash. Check payment options in advance.', 'スウェーデンではカード決済が広く使われますが、現金を受け付けない店もあります。事前に支払い方法を確認しましょう。', 'https://www.riksbank.se/en-gb/payments--cash/payments-in-sweden/payments-report-2025/trends-on-the-payments-market/the-swedish-payments-market-is-almost-entirely-digital/'],
       ['상점과 약국에서 번호표를 뽑고 차례를 기다리는 문화가 있습니다.', 'Take a queue ticket in shops and pharmacies and wait to be called.', '店や薬局では番号札を取って順番を待つ文化があります。', 'https://www.oru.se/english/about-us/life-in-orebro-and-sweden/social-guide/'],
     ],
     cautions: [
@@ -173,8 +173,8 @@ export const COUNTRY_2: Record<string, CountryNote> = {
   },
   Poland: {
     tips: [
-      ['식당 팁은 의무가 아니지만, 서비스가 좋았다면 조금 남기는 경우가 많습니다.', 'Tipping is not required, but leaving a little for good service is common.', 'チップは義務ではありませんが、良いサービスには少し置くことが多いです。', 'https://www.hellocracow.com/krakow-tourist-mistakes-to-avoid'],
-      ['트램·버스표는 탄 뒤 안의 단말기에서 개찰해야 하는 종류가 있습니다.', 'Some tram and bus tickets must be validated in the machine once on board.', 'トラムやバスの切符は、乗車後に車内の機械で刻印が必要なものがあります。', 'https://www.inyourpocket.com/krakow/joka_17001v'],
+      ['폴란드 식당에서 팁은 의무는 아니지만 좋은 서비스에 감사 표시로 남길 수 있습니다.', 'A restaurant tip in Poland is not required, but you may leave one to thank staff for good service.', 'ポーランドのレストランでチップは義務ではありませんが、良いサービスへの感謝として渡すことができます。', 'https://herway.poland.travel/travel-tips-for-poland/'],
+      ['크라쿠프의 종이 승차권은 버스·트램에 타자마자 개찰하세요. 앱으로 산 표는 구매 때 유효화되는 종류가 있습니다.', 'Validate a Kraków paper ticket immediately after boarding a bus or tram. Some app tickets are validated when purchased.', 'クラクフの紙の乗車券はバス・トラムに乗ったらすぐ刻印しましょう。アプリ券には購入時に有効になる種類もあります。', 'https://ztp.krakow.pl/en/kmk-public-transport/buy-a-kmk-ticket'],
     ],
     cautions: [
       ['길에서 환전을 권하는 사람이나 환율이 크게 좋다는 환전소는 수수료가 높은 경우가 많습니다.', 'Street money changers and booths with “great rates” often hide steep fees.', '路上の両替や「好レート」をうたう両替所は手数料が高いことが多いです。', 'https://www.isitsafetovisit.com/cities/krakow'],
@@ -183,17 +183,17 @@ export const COUNTRY_2: Record<string, CountryNote> = {
   },
   Ireland: {
     tips: [
-      ['날씨가 자주 바뀌니 하루에도 여러 번 비가 올 수 있다고 생각하고 방수 겉옷을 챙기세요.', 'Weather changes constantly; expect showers several times a day and pack a waterproof.', '天気がよく変わるので、1日に何度も雨が降ると思って防水の上着を。', 'https://www.lonelyplanet.com/articles/things-to-know-before-traveling-to-ireland'],
+      ['아일랜드 날씨는 변덕스럽고 비가 올 수 있으니 방수 겉옷을 챙기세요.', 'Ireland’s weather can change and bring rain, so pack a waterproof jacket.', 'アイルランドは天気が変わりやすく雨も降るため、防水の上着を用意しましょう。', 'https://www.ireland.com/en/help-and-advice/practical-information/weather/'],
     ],
     cautions: [
-      ['차는 왼쪽으로 다니니 길을 건널 때 양쪽을 모두 확인하세요.', 'Traffic drives on the left; look both ways before crossing.', '車は左側通行なので、道を渡るときは左右を必ず確認しましょう。', 'https://www.lonelyplanet.com/articles/things-to-know-before-traveling-to-ireland'],
+      ['아일랜드는 차량이 왼쪽으로 다니므로 길을 건널 때 오른쪽과 왼쪽을 모두 확인하세요.', 'Traffic drives on the left in Ireland; look right and left before crossing.', 'アイルランドの車は左側通行です。道路を渡るときは右と左の両方を確認しましょう。', 'https://www.rsa.ie/road-safety/road-users/tourists'],
       ['해안 절벽 산책로는 바람이 강하고 가장자리가 무너질 수 있어 안전선 안쪽으로 다니세요.', 'Cliff paths are windy and edges can crumble; stay behind the barriers.', '海岸の崖の遊歩道は風が強く縁が崩れることがあるので、柵の内側を歩きましょう。', 'https://www.travelextra.ie/an-branan-mor-sea-stack-collapses-at-cliffs-of-moher/'],
     ],
   },
   Belgium: {
     tips: [
-      ['프랑스어와 네덜란드어를 함께 쓰는 나라라 같은 곳도 이름이 두 가지로 표시됩니다.', 'Signs use both French and Dutch, so the same place can have two names.', 'フランス語とオランダ語を併用する国なので、同じ場所でも名前が二つ表示されます。', 'https://www.belgium.be/en/about_belgium/country/languages'],
-      ['식당 계산서에는 봉사료가 포함되어 팁은 선택입니다.', 'Service is included in restaurant bills, so tipping is optional.', 'レストランの会計にはサービス料が含まれるので、チップは任意です。', 'https://www.smartertravel.com/tipping-in-belgium-the-belgium-tipping-guide/'],
+      ['벨기에는 지역마다 언어가 다릅니다. 브뤼셀에서는 프랑스어·네덜란드어 지명이 함께 쓰이므로 두 표기를 확인하세요.', 'Languages vary by region in Belgium. In Brussels, check both French and Dutch place names.', 'ベルギーでは地域によって言語が異なります。ブリュッセルではフランス語とオランダ語の地名を確認しましょう。', 'https://www.visit.brussels/en/visitors/plan-your-trip/practical-info/about-brussels'],
+      ['벨기에 식당에서는 서비스가 계산에 포함되지만, 마음에 들면 팁을 더 남길 수 있습니다.', 'Service is included in Belgian restaurant bills, but you may leave an additional tip if you wish.', 'ベルギーの飲食店ではサービス料が会計に含まれますが、希望すれば追加でチップを渡せます。', 'https://www.visit.brussels/it/visitatori/organizza-il-tuo-viaggio/practical-info/money-currency-and-change'],
     ],
     cautions: [
       ['브뤼셀 중앙역·남역 주변과 지하철에서는 소매치기를 조심하세요.', 'Watch for pickpockets around Brussels Central and Midi stations and on the metro.', 'ブリュッセル中央駅・南駅周辺や地下鉄ではスリに注意しましょう。', 'https://brusselstimes.com/209360/brussels-police-warns-of-pickpocketing-in-city-centre'],
@@ -201,8 +201,8 @@ export const COUNTRY_2: Record<string, CountryNote> = {
   },
   Iceland: {
     tips: [
-      ['거의 모든 곳에서 카드를 받아 현금이 거의 필요 없습니다. 신용카드도 PIN을 요구하는 경우가 많으니 미리 확인하세요.', 'Cards are accepted almost everywhere, but terminals often ask for a PIN even on credit cards.', 'ほぼどこでもカードが使えますが、クレジットカードでもPINを求められることが多いので確認を。', 'https://wise.com/gb/blog/cash-or-card-in-iceland'],
-      ['수돗물이 깨끗해 생수를 살 필요가 없습니다.', 'Tap water is excellent; no need to buy bottled water.', '水道水がきれいなので、ミネラルウォーターを買う必要はありません。', 'https://www.funiceland.is/facts/travel-guide/useful-information/'],
+      ['아이슬란드에서는 카드 결제가 널리 가능하지만, 무인 주유소에서는 카드 PIN이 필요한 곳이 많으니 확인하세요.', 'Card payments are widely accepted in Iceland, but many self-service petrol stations require a card PIN.', 'アイスランドではカード決済が広く使えますが、セルフ給油所では暗証番号が必要な所が多いため確認しましょう。', 'https://www.visiticeland.com/article/driving-in-iceland/'],
+      ['아이슬란드의 수돗물은 마실 수 있으니 물병을 채워 다니세요.', 'Icelandic tap water is safe to drink; refill your bottle as you travel.', 'アイスランドの水道水は飲めます。ボトルに水を補充して持ち歩きましょう。', 'https://visitreykjavik.is/icelandic-tap-water'],
     ],
     cautions: [
       ['검은 모래 해변(레이니스피아라 등)은 갑자기 큰 파도가 덮쳐 사고가 나니 바다에 가까이 가지 마세요.', 'Sneaker waves at black-sand beaches like Reynisfjara are deadly; keep well back from the water.', 'レイニスファラなどの黒砂海岸は突然大波が来て事故が起きるので、海に近づかないように。', 'https://www.visiticeland.com/article/reynisfjara-black-sand-beach-is-dangerous/'],
@@ -211,8 +211,8 @@ export const COUNTRY_2: Record<string, CountryNote> = {
   },
   Türkiye: {
     tips: [
-      ['이스탄불카드는 대중교통 결제에 쓰이지만, 노선·운영사별 적용 여부는 현장 안내를 확인하세요.', 'Istanbulkart is used to pay for public transport, but check local guidance for coverage by route and operator.', 'イスタンブールカードは公共交通の支払いに使えますが、路線や運営会社ごとの対応状況は現地案内を確認してください。', 'https://www.iett.istanbul/'],
-      ['모스크에서는 신발을 벗고, 여성은 머리를 가리며 기도 시간에는 관람이 제한됩니다.', 'At mosques remove shoes, women cover their hair, and visits pause at prayer times.', 'モスクでは靴を脱ぎ、女性は髪を覆い、礼拝の時間は見学が制限されます。', 'https://turkeytravelplanner.com/Religion/mosque_etiquette.html'],
+      ['이스탄불카드는 버스·메트로·트램·페리 등 대중교통 결제에 쓰입니다. 이용 노선의 현장 안내를 확인하세요.', 'Istanbulkart can pay for buses, metro, trams and ferries. Check the guidance for your route.', 'イスタンブールカードはバス・地下鉄・トラム・フェリーなどの公共交通で使えます。利用路線の案内を確認しましょう。', 'https://www.istanbulkart.istanbul/blog/detay?id=2376'],
+      ['튀르키예의 모스크나 종교시설을 방문할 때는 단정하게 입고 시설별 방문 규칙을 확인하세요.', 'Dress modestly when visiting a mosque or religious shrine in Türkiye, and check the site’s visitor rules.', 'トルコのモスクや宗教施設を訪れる際は控えめな服装にし、施設ごとの見学ルールを確認しましょう。', 'https://www.gov.uk/foreign-travel-advice/turkey/safety-and-security'],
     ],
     cautions: [
       ['친근하게 말을 걸며 바·카펫 가게로 데려가는 사람은 바가지 수법일 수 있습니다.', 'Friendly strangers who lead you to a bar or carpet shop may be setting up a rip-off.', '親しげに話しかけてバーや絨毯店に連れて行く人は、ぼったくりの手口のことがあります。', 'https://www.0404.go.kr/ntnSafetyInfo/228/detail'],
@@ -222,17 +222,17 @@ export const COUNTRY_2: Record<string, CountryNote> = {
   'Hong Kong': {
     tips: [
       ['옥토퍼스 카드 하나로 지하철·버스·페리와 편의점 결제를 모두 할 수 있습니다.', 'One Octopus card covers MTR, buses, ferries and convenience stores.', 'オクトパスカード1枚で地下鉄・バス・フェリーやコンビニ払いができます。', 'https://www.octopus.com.hk/en/consumer/customer-service/faq/get-your-octopus/about-octopus.html'],
-      ['현지 식당(차찬텡)은 팁을 기대하지 않고, 계산서에 봉사료가 붙는 곳도 있으니 확인하세요.', 'Local cha chaan tengs don’t expect tips, and some restaurants add a service charge, so check the bill.', 'ローカル食堂（茶餐廳）ではチップは不要で、サービス料が加算される店もあるので会計を確認しましょう。', 'https://www.cathaypacific.com/cx/en_GB/inspiration/travel/guide-tipping-hong-kong.html'],
+      ['홍콩 식당 대부분은 봉사료를 더하지만 차찬텡 같은 식당은 그렇지 않을 수 있으니 계산서를 확인하세요.', 'Most Hong Kong restaurants add a service charge, but some diners such as cha chaan tengs do not; check the bill.', '香港の多くのレストランはサービス料を加算しますが、茶餐廳などでは加算しない場合もあるため、会計を確認しましょう。', 'https://www.discoverhongkong.com/eng/travel-guide/traveller-essentials.html'],
     ],
     cautions: [
       ['여름~가을에는 태풍이 오면 교통·관광지가 멈출 수 있으니 기상청 경보를 확인하세요.', 'Typhoons in summer and autumn can halt transport and attractions; follow Observatory signals.', '夏から秋は台風で交通や観光地が止まることがあるので、天文台の警報を確認しましょう。', 'https://www.0404.go.kr/ntnSafetyInfo/377/detail'],
-      ['홍콩 MTR 시설에서는 음식·음료 섭취가 금지되어 있으므로 역과 열차에서 먹거나 마시지 마세요.', 'Eating and drinking are prohibited on Hong Kong MTR premises; do not eat or drink in stations or trains.', '香港のMTR施設内では飲食が禁止されています。駅や車内で食べたり飲んだりしないでください。', 'https://www.mtr.com.hk/en/customer/services/lt_bus_index.html'],
+      ['홍콩 MTR의 유료 구역과 열차에서는 음식·음료를 먹거나 마시지 마세요.', 'Do not eat or drink in the paid area or on trains of Hong Kong’s MTR.', '香港MTRの改札内や車内では飲食しないでください。', 'https://www.mtr.com.hk/en/customer/main/mtr_by_laws.html'],
     ],
   },
   Indonesia: {
     tips: [
       ['발리 사원에 들어갈 때는 허리에 두르는 천(사롱)이 필요하며, 입구에서 빌려주는 곳이 많습니다.', 'Bali temples require a sarong around the waist; many lend one at the gate.', 'バリの寺院では腰に巻く布（サロン）が必要で、入口で貸してくれる所が多いです。', 'https://www.indonesia.travel/gb/en/trip-ideas/a-guide-to-the-holy-springs-of-tirta-empul-bali'],
-      ['차량 호출 앱(Grab·Gojek)을 쓰면 요금 흥정 없이 이동할 수 있지만, 일부 지역은 호출 차량 진입을 막기도 합니다.', 'Grab and Gojek avoid haggling, though some areas restrict app pickups.', '配車アプリ（Grab・Gojek）で交渉なしに移動できますが、一部地域では乗車が制限されます。', 'https://baliuntold.com/getting-around/online-taxis-grab-and-gojek/'],
+      ['인도네시아에서 앱으로 차량을 부르면 탑승 전 기사·차량 정보가 앱과 일치하는지 확인하고 이동 경로를 지인과 공유하세요.', 'When booking a car by app in Indonesia, check the driver and vehicle against the app and share your journey with someone you trust.', 'インドネシアでアプリ配車を使う際は、乗車前に運転手と車両がアプリの表示と一致するか確認し、移動情報を知人と共有しましょう。', 'https://www.gov.uk/foreign-travel-advice/indonesia/safety-and-security'],
     ],
     cautions: [
       ['수돗물은 마시지 말고 생수를 드세요. 얼음과 날음식도 조심하는 것이 좋습니다.', 'Do not drink tap water; take care with ice and raw food too.', '水道水は飲まず、ミネラルウォーターを。氷や生ものにも注意しましょう。', 'https://www.0404.go.kr/ntnSafetyInfo/181/detail'],
@@ -252,7 +252,7 @@ export const COUNTRY_2: Record<string, CountryNote> = {
   },
   Estonia: {
     tips: [
-      ['탈린 버스·트램은 비접촉 카드로 차 안에서 바로 표를 살 수 있고, 공항·터미널에서도 1회권과 교통카드를 팝니다.', 'On Tallinn buses and trams you can buy a ticket on board with a contactless bank card; single tickets and travel cards are also sold at the airport and terminals.', 'タリンのバスやトラムはタッチ決済のカードで車内で切符が買え、空港やターミナルでも1回券や交通カードを販売しています。', 'https://isablog.ut.ee/?p=13156'],
+      ['탈린 버스·트램에서는 차 안 단말기에 비접촉 카드를 대고 1시간권을 살 수 있습니다. 공항에도 승차권 발매기가 있습니다.', 'On Tallinn buses and trams, tap a contactless card at an onboard validator to buy a one-hour ticket. There is also a ticket machine at the airport.', 'タリンのバス・トラムでは車内の端末にタッチ決済カードをかざして1時間券を買えます。空港にも券売機があります。', 'https://www.visittallinn.ee/eng/visitor/plan/transport/arrival'],
       ['유료 명소를 3곳 이상 갈 계획이면 탈린 카드가 유리할 수 있습니다.', 'If you plan to visit three or more paid attractions, the Tallinn Card can pay off.', '有料の名所を3か所以上回るなら、タリンカードがお得になることがあります。', 'https://www.visittallinn.ee/eng/visitor/tallinncard'],
     ],
     cautions: [
@@ -272,11 +272,11 @@ export const COUNTRY_2: Record<string, CountryNote> = {
   },
   Egypt: {
     tips: [
-      ['식당·호텔·가이드 등에서 팁(박시시)을 주는 것이 일반적이니 작은 지폐를 넉넉히 챙기세요.', 'Tipping (baksheesh) is expected in restaurants, hotels and on tours, so carry plenty of small notes.', 'レストランやホテル、ガイドなどでチップ（バクシーシ）を渡すのが一般的なので、小額紙幣を多めに。', 'https://www.egypttoursplus.com/tipping-in-egypt/'],
-      ['수돗물보다 밀봉된 생수를 마시는 것이 안전합니다.', 'Drink sealed bottled water rather than tap water.', '水道水より未開封のミネラルウォーターを飲むのが安全です。', 'https://intrepidtravel.com/ca/egypt/is-water-safe-to-drink-in-egypt'],
+      ['이집트 관광지에서 바가지 요금이나 비공식 서비스가 의심되면 현장 관광경찰에 도움을 요청하고, 피해가 생기면 출국 전에 신고하세요.', 'At Egyptian tourist sites, seek help from the tourist police if you suspect overcharging or unofficial services; report any crime before leaving the country.', 'エジプトの観光地で高額請求や非公式サービスが疑われる場合は観光警察に相談し、被害に遭ったら出国前に届け出ましょう。', 'https://www.gov.uk/foreign-travel-advice/egypt/safety-and-security'],
+      ['이집트에서는 수돗물 대신 밀봉된 생수를 마시고, 얼음도 여과수나 생수로 만든 것인지 확인하세요.', 'In Egypt, drink sealed bottled water rather than tap water, and check that ice is made from filtered or bottled water.', 'エジプトでは水道水ではなく未開封のボトル水を飲み、氷もろ過水かボトル水から作られたか確認しましょう。', 'https://www.gov.uk/government/news/phe-issues-advice-to-people-travelling-to-egypt'],
     ],
     cautions: [
-      ['피라미드 주변에는 가짜 가이드와 호객꾼이 많으니 공식 매표소에서 표를 사고 낙타·마차는 가격을 먼저 정하세요.', 'Fake guides and touts work around the pyramids; buy tickets at official counters and agree camel or carriage prices first.', 'ピラミッド周辺には偽ガイドや客引きが多いので、公式窓口で切符を買い、ラクダや馬車は先に値段を決めましょう。', 'https://www.inyourpocket.com/egypt/common-egypt-travel-scams-and-how-to-avoid-them_81428f'],
+      ['피라미드 등 유적지에서는 끈질긴 호객과 비공식 서비스를 경계하세요. 무료 선물도 나중에 돈을 요구할 수 있으니 이용 조건을 먼저 확인하세요.', 'At the pyramids and other archaeological sites, beware of aggressive touts and unregulated services. A “free” gift can lead to a demand for money; confirm terms first.', 'ピラミッドなどの遺跡では、強引な客引きや無許可のサービスに注意しましょう。「無料」の贈り物でも後から代金を求められることがあるため、条件を先に確認してください。', 'https://travel.state.gov/en/international-travel/travel-advisories/egypt.html'],
       ['일부 지역은 여행 자제·금지 경보가 있으니 출발 전에 정부 해외안전 안내를 확인하세요.', 'Some regions carry advice against travel; check official government travel advice before you go.', '一部地域には渡航中止・自粛の勧告があるので、出発前に政府の海外安全情報を確認しましょう。', 'https://www.gov.uk/foreign-travel-advice/egypt/safety-and-security'],
     ],
   },

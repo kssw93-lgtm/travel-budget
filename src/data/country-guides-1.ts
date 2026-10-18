@@ -17,7 +17,7 @@ export const COUNTRY_1: Record<string, CountryNote> = {
     ],
     cautions: [
       ['지진이 나면 건물 안에서는 머리를 보호하고, 휴대폰 긴급 알림과 안내 방송을 따르세요.', 'In an earthquake, protect your head indoors and follow phone alerts and announcements.', '地震の際は室内で頭を守り、携帯の緊急速報と案内放送に従いましょう。', 'https://www.0404.go.kr/ntnSafetyInfo/183/detail'],
-      ['전철 안에서는 통화를 삼가고 휴대폰을 무음으로 두는 것이 예절입니다. 급한 전화는 다음 역에서 내려 받으세요.', 'On trains, keep your phone on silent and avoid calls; for an urgent call, get off at the next stop.', '電車内では通話を控え、携帯はマナーモードにするのが礼儀です。急ぎの電話は次の駅で降りてから。', 'https://www.jrpass.com/ja/blog/japan-train-etiquette-mistakes-tourists-make-and-how-to-avoid-them'],
+      ['전철 안에서는 통화를 삼가고 휴대폰을 무음으로 두는 것이 예절입니다. 급한 전화는 다음 역에서 내려 받으세요.', 'On trains, keep your phone on silent and avoid calls; for an urgent call, get off at the next stop.', '電車内では通話を控え、携帯はマナーモードにするのが礼儀です。急ぎの電話は次の駅で降りてから。', 'https://www.japan.travel/en/plan/custom-manners/'],
       ['관광지·역·숙소처럼 사람이 붐비는 곳에서는 소매치기와 날치기를 경계하고, 휴대전화와 가방을 몸 가까이 두세요.', 'Watch for pickpocketing and bag snatching in crowded attractions, stations and accommodation areas; keep phones and bags close.', '観光地・駅・宿泊施設など人混みでは、スリやひったくりに注意し、携帯電話やバッグを身近に保管しましょう。', 'https://www.0404.go.kr/ntnSafetyInfo/183/detail'],
     ],
   },
@@ -45,7 +45,7 @@ export const COUNTRY_1: Record<string, CountryNote> = {
   },
   Taiwan: {
     tips: [
-      ['교통카드(이지카드·아이패스)로 지하철·버스와 편의점 결제까지 할 수 있습니다.', 'An EasyCard or iPASS works on trains and buses and in convenience stores.', '悠遊カードやiPASSで電車・バスやコンビニの支払いができます。', 'https://www.easycard.com.tw/en/introduction?id=2'],
+      ['이지카드는 대만의 여러 지하철·버스와 제휴 매장에서 사용할 수 있습니다. 이용처 표지를 확인하세요.', 'EasyCard works on many Taiwanese metro and bus services and at participating shops. Check for the acceptance sign.', '悠遊カードは台湾の多くの地下鉄・バスや加盟店で使えます。利用可能の表示を確認しましょう。', 'https://www.easycard.com.tw/en/use-range'],
       ['야시장은 현금 위주라 작은 지폐와 동전을 챙기세요.', 'Night markets are mostly cash; bring small notes and coins.', '夜市は現金中心なので小額紙幣と小銭を用意しましょう。', 'https://www.taipeitourism.org/tipping-in-taipei/'],
     ],
     cautions: [
@@ -56,7 +56,7 @@ export const COUNTRY_1: Record<string, CountryNote> = {
   Singapore: {
     tips: [
       ['지하철·버스는 비접촉 카드로 바로 탈 수 있습니다.', 'Tap a contactless card to ride trains and buses.', '電車・バスはタッチ決済でそのまま乗れます。', 'https://www.lta.gov.sg/content/ltagov/en/getting_around/public_transport/plan_your_journey.html'],
-      ['호커 센터에서는 휴지 한 묶음을 자리에 올려 두면 자리를 맡았다는 표시입니다.', 'A packet of tissues on a hawker-centre seat means it is taken.', 'ホーカーセンターで席にティッシュを置くのは席取りの印です。', 'https://mili.eu/insights/chope-culture-in-singapore'],
+      ['호커 센터에서는 휴지 한 묶음을 자리에 올려 두면 자리를 맡았다는 표시입니다.', 'A packet of tissues on a hawker-centre seat means it is taken.', 'ホーカーセンターで席にティッシュを置くのは席取りの印です。', 'https://www.visitsingapore.com/content/dam/desktop/global/about-singapore/traveller-information/tos_SingaporeLBBB-Full.pdf'],
     ],
     cautions: [
       ['쓰레기 무단 투기, 지하철 안 음식물 섭취 등에 벌금이 엄격하게 부과됩니다.', 'Littering and eating on trains are fined strictly.', 'ポイ捨てや電車内での飲食などに厳しい罰金があります。', 'https://www.0404.go.kr/ntnSafetyInfo/134/detail'],
@@ -86,11 +86,11 @@ export const COUNTRY_1: Record<string, CountryNote> = {
   Philippines: {
     tips: [
       ['섬 사이 여객선은 기상과 운항 공지를 확인하고, 일정에 여유를 두세요.', 'Check weather and operator notices for inter-island ferries, and leave flexibility in your schedule.', '島間のフェリーは天候と運航会社のお知らせを確認し、日程に余裕を持たせましょう。', 'https://www.0404.go.kr/ntnSafetyInfo/252/detail'],
-      ['큰 지폐는 거스름돈이 없는 곳이 많아 작은 지폐를 챙기세요.', 'Many places lack change for large notes; carry small bills.', '高額紙幣はお釣りがない所が多いので、小額紙幣を。', 'https://backpackmoments.com/money-in-the-philippines/'],
+      ['트라이시클·시장·입장료를 낼 때는 작은 지폐를 준비하세요.', 'Carry small bills for tricycle rides, markets and entrance fees.', 'トライシクルや市場、入場料の支払いには小額紙幣を用意しましょう。', 'https://philippines.travel/destinations/puerto-princesa/index'],
     ],
     cautions: [
-      ['태풍 시즌(대략 6~11월)에는 결항·결항 후 숙박 연장에 대비하세요.', 'In typhoon season (roughly June–November), be ready for cancellations.', '台風シーズン（おおむね6〜11月）は欠航に備えましょう。', 'https://www.sunstar.com.ph/cebu/rough-seas-halt-ferry-operations-across-cebu'],
-      ['환전은 공항·은행·공식 환전소에서 하고, 길거리 환전은 피하세요.', 'Change money at banks or licensed exchangers, not on the street.', '両替は銀行や公認両替所で行い、路上両替は避けましょう。', 'https://backpackmoments.com/money-in-the-philippines/'],
+      ['태풍이 예보되면 항공·배편 결항 가능성을 확인하고 일정 변경에 대비하세요.', 'When a typhoon is forecast, check for flight and ferry cancellations and be ready to adjust your plans.', '台風の予報が出たら、航空便やフェリーの欠航情報を確認し、日程変更に備えましょう。', 'https://www.pna.gov.ph/articles/1254885'],
+      ['환전은 BSP 등록 은행·환전업체를 이용하고, 등록 여부는 BSP Verifier에서 확인하세요.', 'Use BSP-registered banks or money changers, and check their registration in the BSP Verifier.', '両替はBSP登録の銀行・両替業者を利用し、BSP Verifierで登録状況を確認しましょう。', 'https://www.bsp.gov.ph/SitePages/FinancialStability/BSPVerifier.aspx'],
       ['지역별 안전 상황이 크게 다를 수 있으므로 이동 전에 외교부의 국가·지역별 여행경보와 안전공지를 확인하세요.', 'Safety conditions can differ substantially by area; check the foreign ministry’s country and regional advisories before travelling.', '地域によって安全状況が大きく異なるため、移動前に外務省の国・地域別の渡航情報と安全通知を確認してください。', 'https://www.0404.go.kr/ntnSafetyInfo/252/detail'],
     ],
   },
@@ -100,23 +100,23 @@ export const COUNTRY_1: Record<string, CountryNote> = {
       ['명절 등 특별 수송 기간에는 코레일의 공식 예매 일정과 좌석 현황을 미리 확인하세요.', 'During major holiday travel periods, check KORAIL’s official booking dates and seat availability in advance.', '祝祭日などの繁忙期は、KORAILの公式予約日程と空席状況を早めに確認しましょう。', 'https://info.korail.com/info/selectBbsNttView.do?bbsNo=199&key=911&nttNo=26019&pageIndex=8&searchCnd=all'],
     ],
     cautions: [
-      ['여름 장마·태풍 때는 섬·산 일정(배편·탐방로)이 통제될 수 있습니다.', 'Monsoon and typhoon weather can close island ferries and mountain trails.', '梅雨や台風の時期は島の船便や登山道が規制されることがあります。', 'https://www.thegardenisland.com/2023/08/08/news/flights-ferries-halted-in-south-korea-ahead-of-storm/'],
+      ['태풍특보 때는 선박 출항이 통제될 수 있고 산간 계곡은 위험하므로, 기상특보와 운항 공지를 확인하세요.', 'Typhoon warnings can restrict boat departures and make mountain valleys dangerous; check weather alerts and operator notices.', '台風警報・注意報の際は船の出航が制限され、山間の渓谷も危険です。気象情報と運航案内を確認しましょう。', 'https://www.weather.go.kr/w/typhoon/ko/weather/typhoon_02_popup02.jsp'],
     ],
   },
   Guam: {
     tips: [
-      ['식당에 따라 계산서에 봉사료(10% 안팎)가 붙기도 하니 먼저 확인하고, 없으면 팁을 남기는 것이 일반적입니다.', 'Some restaurants add a service charge of around 10%; check the bill, and tip if it is not included.', '店によっては会計にサービス料（10%前後）が含まれるので確認し、含まれていなければチップを置くのが一般的です。', 'https://www.milehacker.com/travel/guam/guam-travel-tips-money-safety-culture/'],
+      ['식당에 따라 봉사료가 추가되기도 하니 메뉴와 계산서를 확인하세요.', 'Some restaurants add a service charge; check the menu and bill.', '店によってはサービス料が加算されるため、メニューと会計を確認しましょう。', 'https://www.visitguam.com/listing/islander-terrace/357/'],
       ['공공 버스는 노선과 운행 요일이 제한적이라 렌터카나 쇼핑몰 셔틀을 많이 이용합니다.', 'Public buses run limited routes and days, so most visitors rent a car or use shopping shuttles.', '路線バスは路線や運行日が限られるため、レンタカーやショッピングシャトルを使う人が多いです。', 'https://www.visitguam.com/planning/transportation/buses/'],
     ],
     cautions: [
-      ['자외선이 매우 강해 선크림과 모자가 필수입니다.', 'The sun is intense; sunscreen and a hat are essential.', '紫外線がとても強いので、日焼け止めと帽子は必須です。', 'https://www.milehacker.com/travel/guam/what-to-pack-for-guam-clothes-accessories-essentia/'],
-      ['산호초 해변에서는 맨발로 걷다 다칠 수 있어 물놀이 신발이 있으면 좋습니다.', 'Reef shallows can cut bare feet; water shoes help.', 'サンゴ礁の浅瀬は素足だとけがをしやすいので、マリンシューズがあると安心です。', 'https://guam.stripes.com/travel/safety-risks-guam-shores.html'],
+      ['자외선이 매우 강해 선크림과 모자가 필수입니다.', 'The sun is intense; sunscreen and a hat are essential.', '紫外線がとても強いので、日焼け止めと帽子は必須です。', 'https://www.visitguam.com/about-guam/safety-tips/sun-safety/'],
+      ['산호초 해변에서는 맨발로 걷다 다칠 수 있어 물놀이 신발이 있으면 좋습니다.', 'Reef shallows can cut bare feet; water shoes help.', 'サンゴ礁の浅瀬は素足だとけがをしやすいので、マリンシューズがあると安心です。', 'https://www.visitguam.com/about-guam/safety-tips/water-safety/'],
       ['태풍·열대폭풍 경보가 있으면 해안가를 피하고 현지 당국과 기상기관의 안전 지침을 따르세요.', 'During typhoon or tropical-storm warnings, stay away from the coast and follow local authorities’ and weather services’ safety instructions.', '台風・熱帯暴風雨の警報時は海岸を避け、現地当局や気象機関の安全指示に従ってください。', 'https://www.visitguam.com/about-guam/safety-tips/storms-typhoons/'],
     ],
   },
   Australia: {
     tips: [
-      ['카드 결제가 널리 쓰이고, 시드니 등 일부 도시는 대중교통도 카드 터치로 탈 수 있습니다. 도시마다 방식이 달라 운영사 안내를 확인하세요.', 'Cards are widely accepted, and in cities such as Sydney you can tap a bank card on public transport; systems differ by city, so check the operator.', 'カード払いが広く使え、シドニーなどでは公共交通もカードのタッチで乗れます。都市ごとに方式が違うので運営会社の案内を確認しましょう。', 'https://www.nerdwallet.com/au/credit-cards/tap-on-train-with-credit-card'],
+      ['시드니에서는 은행 카드나 휴대전화로 대중교통 승차·하차를 태그할 수 있습니다. 다른 도시에서는 운영사 안내를 확인하세요.', 'In Sydney you can tap on and off public transport with a bank card or phone. Check the operator’s guidance in other cities.', 'シドニーでは銀行カードやスマートフォンで公共交通の乗車・降車時にタッチできます。他の都市では運行事業者の案内を確認しましょう。', 'https://transportnsw.info/tickets-fares/contactless-payments'],
       ['식당 팁은 의무가 아니며, 서비스가 좋았을 때만 남기는 편입니다.', 'Tipping is not expected; leave one only for great service.', 'チップは義務ではなく、良いサービスのときに置く程度です。', 'https://www.australia.com/en/facts-and-planning/about-australia/key-facts-about-australia.html'],
     ],
     cautions: [
@@ -129,28 +129,28 @@ export const COUNTRY_1: Record<string, CountryNote> = {
       ['종이 승차권은 처음 탈 때 한 번 개찰기에 찍어야 합니다(차내 단말기·앱으로 산 표는 제외).', 'Paper tickets must be validated once when you first board (tickets from on-board terminals or the app are exempt).', '紙の乗車券は最初に乗るときに一度刻印が必要です（車内端末やアプリで買った券は不要）。', 'https://pid.cz/en/tickets-and-fare/how-to-buy-ticket/'],
     ],
     cautions: [
-      ['"수수료 0%" 환전소라도 환율이 나쁠 수 있으니 실제 받는 금액을 먼저 확인하세요.', 'Even “0% commission” exchanges can have bad rates; check the amount you’ll receive.', '「手数料0%」の両替所でもレートが悪いことがあるので、受取額を先に確認しましょう。', 'https://www.expats.cz/czech-news/article/video-prague-worst-exchange-office-outed'],
+      ['"수수료 0%" 환전소라도 환율이 나쁠 수 있으니 실제 받는 금액을 먼저 확인하세요.', 'Even “0% commission” exchanges can have bad rates; check the amount you’ll receive.', '「手数料0%」の両替所でもレートが悪いことがあるので、受取額を先に確認しましょう。', 'https://www.visitczechia.com/en-us/news/2019/04/n-money-exchange'],
       ['구시가지 관광지 주변 소매치기를 조심하세요.', 'Watch for pickpockets around the Old Town sights.', '旧市街の観光地周辺ではスリに注意しましょう。', 'https://www.gov.uk/foreign-travel-advice/czech-republic/safety-and-security'],
     ],
   },
   Macau: {
     tips: [
       ['일부 대형 리조트는 페리 터미널·공항 등에서 무료 셔틀을 운행합니다. 노선과 조건은 리조트 공식 안내에서 확인하세요.', 'Some major resorts run free shuttles from terminals and the airport; check each resort’s official route and conditions.', '一部の大型リゾートは、フェリーターミナルや空港などから無料シャトルを運行しています。運行先と条件は各リゾートの公式案内で確認してください。', 'https://www.mgm.mo/en/visit/operating-hours'],
-      ['홍콩달러를 받지만 거스름돈은 파타카로 받는 경우가 많습니다.', 'Hong Kong dollars are accepted, but change usually comes in patacas.', '香港ドルも使えますが、お釣りはパタカのことが多いです。', 'https://wise.com/hk/blog/hkd-in-macau'],
+      ['마카오의 공식 화폐는 파타카이며, 공항·선착장·호텔과 은행에서 환전할 수 있습니다.', 'Macao’s official currency is the pataca; you can exchange money at airports, ferry terminals, hotels and banks.', 'マカオの公式通貨はパタカで、空港、フェリーターミナル、ホテル、銀行で両替できます。', 'https://www.macaotourism.gov.mo/en/travelessential/before-you-travel/practical-info'],
     ],
     cautions: [
       ['카지노 구역은 21세 미만 출입이 금지됩니다.', 'Casino floors are off-limits to anyone under 21.', 'カジノフロアは21歳未満の入場が禁止です。', 'https://www.macaotourism.gov.mo/en/shows-and-entertainment/gaming'],
-      ['중국 노동절·국경절 연휴와 주말에는 국경과 페리가 매우 붐비니 시간 여유를 두세요.', 'Border crossings and ferries are packed during China’s May and October holidays and at weekends; allow extra time.', '中国の労働節・国慶節の連休や週末は国境やフェリーが大混雑するので、時間に余裕を。', 'https://agbrief.com/news/macau/29/09/2025/border-traffic-projected-at-750k-daily-during-macaus-golden-week/'],
+      ['중국 국경절 연휴에는 마카오 방문객과 국경 통과 인원이 크게 늘어나므로 이동 시간에 여유를 두세요.', 'During China’s National Day holiday, visitor arrivals and border traffic in Macao rise sharply; allow extra travel time.', '中国の国慶節連休中はマカオへの訪問者と出入境者が大幅に増えるため、移動時間に余裕を持ちましょう。', 'https://www.gcs.gov.mo/news/detail/zh-hant/N26JHk2YOn'],
     ],
   },
   Hawaii: {
     tips: [
       ['식당·택시·호텔 청소 등에 팁을 주는 것이 일반적입니다.', 'Tipping is standard for restaurants, taxis and housekeeping.', 'レストランやタクシー、ホテルの清掃にチップを渡すのが一般的です。', 'https://www.hawaii-guide.com/blog/tipping-in-hawaii-visitor-guide'],
-      ['인기 명소(다이아몬드 헤드, 하나우마 베이)는 예약제라 미리 예약하세요.', 'Popular spots like Diamond Head and Hanauma Bay require advance reservations.', '人気スポット（ダイヤモンドヘッド、ハナウマ湾）は予約制なので事前予約を。', 'https://www.hawaii-guide.com/oahu/sights/hanauma-bay-reservations'],
+      ['인기 명소(다이아몬드 헤드, 하나우마 베이)는 예약제라 미리 예약하세요.', 'Popular spots like Diamond Head and Hanauma Bay require advance reservations.', '人気スポット（ダイヤモンドヘッド、ハナウマ湾）は予約制なので事前予約を。', 'https://www.gohawaii.com/experiences/sightseeing'],
     ],
     cautions: [
       ['렌터카 안에 귀중품을 두지 마세요. 차량 털이가 있습니다.', 'Never leave valuables in rental cars; break-ins happen.', 'レンタカーの中に貴重品を置かないでください。車上荒らしがあります。', 'https://beatofhawaii.com/terrible-mistakes-hawaii-visitors-should-never-make/'],
-      ['하와이는 산호에 해로운 성분(옥시벤존 등)이 든 선크림 판매를 금지합니다. 산호초에 안전한 선크림을 쓰고, 바다거북은 만지지 말고 거리를 두고 보세요.', 'Hawaii bans the sale of sunscreens with coral-harming chemicals such as oxybenzone; use reef-safe sunscreen and never touch sea turtles.', 'ハワイではオキシベンゾンなどサンゴに有害な成分を含む日焼け止めの販売が禁止されています。リーフセーフの日焼け止めを使い、ウミガメには触らず距離を保ちましょう。', 'https://abc7news.com/post/hawaii-bans-certain-sunscreens-to-protect-coral-reefs/3714861/'],
+      ['하와이는 산호에 해로운 성분(옥시벤존 등)이 든 선크림 판매를 금지합니다. 산호초에 안전한 선크림을 쓰고, 바다거북은 만지지 말고 거리를 두고 보세요.', 'Hawaii bans the sale of sunscreens with coral-harming chemicals such as oxybenzone; use reef-safe sunscreen and never touch sea turtles.', 'ハワイではオキシベンゾンなどサンゴに有害な成分を含む日焼け止めの販売が禁止されています。リーフセーフの日焼け止めを使い、ウミガメには触らず距離を保ちましょう。', 'https://media.gohawaii.com/statewide/media-support/media-tips'],
     ],
   },
   Saipan: {
@@ -159,13 +159,13 @@ export const COUNTRY_1: Record<string, CountryNote> = {
       ['대중교통이 거의 없어 렌터카나 호텔 셔틀을 이용합니다.', 'There is almost no public transport; rent a car or use hotel shuttles.', '公共交通がほとんどないので、レンタカーかホテルのシャトルを使います。', 'https://www.iexplore.com/articles/travel-guides/australia-and-south-pacific/northern-mariana-islands/transportation'],
     ],
     cautions: [
-      ['바깥 바다 쪽 해안은 이안류와 높은 파도 경보가 자주 나옵니다. 경보를 확인하고 안전요원이 있는 곳에서만 수영하세요.', 'High-surf and rip-current warnings are common on exposed coasts; check alerts and swim only near lifeguards.', '外洋側の海岸では高波や離岸流の警報がよく出ます。警報を確認し、監視員のいる場所でのみ泳ぎましょう。', 'https://saipantribune.com/index.php/public-warned-of-rip-currents-rough-seas'],
+      ['사이판 해변에서는 이안류·높은 파도 경보를 확인하고, 위험 경보가 있으면 바다에 들어가지 마세요.', 'Check rip-current and high-surf warnings for Saipan beaches, and stay out of the water when conditions are dangerous.', 'サイパンの海岸では離岸流や高波の警報を確認し、危険な状況では海に入らないでください。', 'https://www.weather.gov/media/gum/safety/High%20Surf%20Advisory%20Brochure.pdf'],
       ['태풍·열대폭풍 경보가 있으면 해안가를 피하고 현지 당국과 기상기관의 안전 지침을 따르세요.', 'During typhoon or tropical-storm warnings, stay away from the coast and follow local authorities’ and weather services’ safety instructions.', '台風・熱帯暴風雨の警報時は海岸を避け、現地当局や気象機関の安全指示に従ってください。', 'https://www.weather.gov/gum/activeHazards'],
     ],
   },
   Mongolia: {
     tips: [
-      ['도시 밖은 카드가 안 되는 곳이 많아 현금을 챙기세요.', 'Outside the city cards are often not accepted; carry cash.', '都市の外ではカードが使えない所が多いので、現金を持ちましょう。', 'https://discover.mn/things-to-know-when-traveling-in-mongolia'],
+      ['도시 밖은 카드가 안 되는 곳이 많아 현금을 챙기세요.', 'Outside the city cards are often not accepted; carry cash.', '都市の外ではカードが使えない所が多いので、現金を持ちましょう。', 'https://www.smartraveller.gov.au/destinations/asia/mongolia'],
       ['몽골은 도시 밖에 비포장도로가 많아 이동 시간이 길어질 수 있습니다. 도로 상황과 이동 일정을 미리 확인하세요.', 'Outside cities, unpaved roads are common and journeys can take longer; check road conditions and plan ahead.', 'モンゴルでは都市部の外に未舗装道路が多く、移動に時間がかかることがあります。道路状況と移動日程を事前に確認しましょう。', 'https://www.0404.go.kr/ntnSafetyInfo/68/detail'],
     ],
     cautions: [
@@ -177,27 +177,27 @@ export const COUNTRY_1: Record<string, CountryNote> = {
   Austria: {
     tips: [
       ['오스트리아에서는 일요일·공휴일 상점 영업이 제한되지만 역·공항 등 예외도 있습니다. 방문할 곳의 영업시간을 확인하세요.', 'Shop opening on Sundays and public holidays is restricted in Austria, with exceptions such as some station and airport shops; check local hours.', 'オーストリアでは日曜・祝日の店舗営業に制限がありますが、駅や空港など例外もあります。訪問先の営業時間を確認しましょう。', 'https://www.bmwet.gv.at/en/Topics/Enterprise/Trades/Businesshours.html'],
-      ['식당에서는 계산할 때 금액을 조금 올려 말하는 방식으로 팁을 줍니다.', 'Tip by rounding up when you pay at the table.', 'レストランでは支払い時に金額を少し上乗せしてチップを渡します。', 'https://chasingwhereabouts.com/blog/how-much-to-tip-in-austria'],
+      ['식당에서는 서비스가 좋았다면 팁을 주는 것이 관례입니다. 계산서에 이미 포함됐는지 확인하세요.', 'Tipping for good service is customary in restaurants; check whether it is already included in the bill.', 'レストランでは良いサービスへのチップが慣例です。会計に含まれていないか確認しましょう。', 'https://www.wien.info/en/travel-info/tourist-info/money-needs-352200'],
     ],
     cautions: [
-      ['대중교통은 개찰구가 없지만 검표원이 불시에 확인하며 무임승차 벌금이 큽니다.', 'There are no gates, but inspectors check tickets and fines are steep.', '改札はありませんが、抜き打ち検札があり罰金が高額です。', 'https://theculturetrip.com/articles/11-things-tourists-should-never-do-in-austria'],
-      ['자전거 도로를 걷지 않도록 조심하세요.', 'Keep out of the bike lanes when walking.', '歩くときは自転車道に入らないように。', 'https://www.smartertravel.com/tips-vienna-warnings-dangers-stay-safe/'],
+      ['빈 대중교통에는 개찰구가 없어도 검표가 있으니 유효한 승차권을 목적지까지 보관하세요.', 'Vienna public transport has no ticket barriers, but tickets are inspected; keep a valid ticket until your destination.', 'ウィーンの公共交通には改札がなくても検札があります。有効な乗車券を目的地まで保管しましょう。', 'https://www.wien.info/en/travel-info/transport/viennas-public-transportation-system-435356'],
+      ['빈에서 걸을 때는 자전거 전용도로와 보행로를 구분해 이동하세요.', 'In Vienna, keep to pedestrian paths and watch for dedicated cycle lanes.', 'ウィーンでは歩道と自転車専用道を見分けて歩きましょう。', 'https://www.wien.gv.at/en/transportation/cycling-traffic-rules'],
     ],
   },
   Hungary: {
     tips: [
-      ['화폐는 포린트입니다. 카드 결제 시 원화·유로 대신 현지 통화로 결제하면 유리한 경우가 많습니다.', 'The currency is the forint; when paying by card, choose forints rather than conversion.', '通貨はフォリント。カード払いでは現地通貨を選ぶ方が有利なことが多いです。', 'https://thebettervacation.com/budapest/budapest-travel-tips/'],
-      ['온천 갈 때는 수영복과 슬리퍼를 챙기세요.', 'Bring swimwear and flip-flops for the thermal baths.', '温泉には水着とサンダルを持参しましょう。', 'https://www.lonelyplanet.com/articles/things-to-know-before-traveling-to-budapest'],
+      ['화폐는 포린트입니다. 카드 결제나 ATM 출금 때 원화·유로로 즉시 환산할지 묻는다면 적용 환율을 확인하세요.', 'Hungary uses the forint. If a card terminal or ATM offers conversion into won or euros, check the exchange rate before choosing.', 'ハンガリーの通貨はフォリントです。カード決済やATMでウォン・ユーロへの換算を提案されたら、選ぶ前に適用レートを確認しましょう。', 'https://www.mnb.hu/felugyelet/felugyeleti-keretrendszer/felugyeleti-hirek/hirek-ujdonsagok/helyszini-atvaltassal-dragabb-lehet-a-kulfoldi-bankkartyahasznalat'],
+      ['온천 갈 때는 수영복과 슬리퍼를 챙기세요.', 'Bring swimwear and flip-flops for the thermal baths.', '温泉には水着とサンダルを持参しましょう。', 'https://www.szechenyibath.hu/en/faq'],
     ],
     cautions: [
-      ['대중교통 표는 탈 때마다 개찰해야 하며, 검표원 확인이 잦습니다.', 'Validate your ticket on every ride; inspectors check often.', '公共交通の切符は乗るたびに刻印が必要で、検札がよくあります。', 'https://amateurtraveler.com/budapest-travel-tips/'],
-      ['택시 기사가 추천하는 바·식당은 수수료를 받는 곳일 수 있습니다. 가격을 확인한 뒤 주문하세요.', 'Bars and restaurants recommended by taxi drivers may pay them commission; check prices before ordering.', 'タクシー運転手が勧めるバーや店は手数料を払っていることがあります。値段を確認してから注文を。', 'https://archiv.budapest.hu/sites/english/Lapok/Handy-tips.aspx'],
+      ['부다페스트의 종이 1회권은 지하철에서는 승차 전, 버스·트램에서는 탑승 직후 개찰하세요.', 'Validate a Budapest paper single ticket before entering the metro or immediately after boarding a bus or tram.', 'ブダペストの紙の1回券は地下鉄では乗車前、バス・トラムでは乗車直後に刻印しましょう。', 'https://bkk.hu/en/tickets-and-passes/validation-of-paper-tickets/guide-for-tourists-on-how-to-use-tickets-travelcards-and-passes-in-budapest.12402/'],
+      ['헝가리에서는 택시 기사가 수수료를 받고 특정 바·식당을 추천하는 사기가 있습니다. 메뉴 가격을 먼저 확인하세요.', 'In Hungary, some taxi drivers receive a commission for recommending certain bars and restaurants. Check menu prices first.', 'ハンガリーでは一部のタクシー運転手が手数料を受けて特定のバーや飲食店を勧める詐欺があります。先にメニューの価格を確認しましょう。', 'https://www.gov.uk/foreign-travel-advice/hungary/safety-and-security'],
     ],
   },
   Germany: {
     tips: [
-      ['카드가 늘었지만 작은 식당·빵집은 현금만 받는 곳이 아직 있습니다.', 'Cards are spreading, but small eateries and bakeries can be cash-only.', 'カードは増えましたが、小さな飲食店やパン屋は現金のみの所もあります。', 'https://europe.stripes.com/lifestyle/10-things-to-remember-when-shopping-in-germany.html'],
-      ['빈 병·캔은 마트 회수기에 넣으면 보증금(판트)을 돌려받습니다.', 'Return bottles and cans to supermarket machines to get the deposit (Pfand).', '空き瓶・缶はスーパーの回収機に入れるとデポジット（パント）が戻ります。', 'https://www.bundesumweltministerium.de/themen/kreislaufwirtschaft/abfallarten-und-abfallstroeme/verpackungsabfaelle/pfandflasche-mehrwegflasche'],
+      ['독일에서는 카드 결제가 안 되는 매장·식당도 있으므로 현금을 조금 준비하세요.', 'Some shops and restaurants in Germany still do not accept cards, so carry some cash.', 'ドイツではカードを使えない店舗や飲食店もあるため、現金を少し用意しましょう。', 'https://www.bundesbank.de/en/tasks/topics/clear-majority-in-favour-of-mandatory-cashless-payment-acceptance-966848'],
+      ['독일에서 판트 표시가 있는 빈 음료 용기는 회수처에 반납하면 보증금을 돌려받을 수 있습니다.', 'In Germany, return empty drink containers marked with a Pfand deposit to an eligible collection point for a refund.', 'ドイツではPfandの表示がある空の飲料容器を回収場所へ返すと、デポジットの返金を受けられます。', 'https://www.bundesumweltministerium.de/themen/kreislaufwirtschaft/abfallarten-und-abfallstroeme/verpackungsabfaelle/pfandflasche-mehrwegflasche'],
     ],
     cautions: [
       ['일요일에는 대부분의 상점이 문을 닫습니다.', 'Most shops close on Sundays.', '日曜はほとんどの店が閉まります。', 'https://www.visitberlin.de/en/frequently-asked-questions'],
@@ -206,8 +206,8 @@ export const COUNTRY_1: Record<string, CountryNote> = {
   },
   Switzerland: {
     tips: [
-      ['스위스 트래블 패스·지역 패스로 기차·유람선·산악 교통을 할인받을 수 있습니다.', 'Swiss Travel Pass and regional passes cut costs on trains, boats and mountain lifts.', 'スイストラベルパスや地域パスで鉄道・遊覧船・登山交通が割引になります。', 'https://www.sbb.ch/en/offers/swiss-travel-pass'],
-      ['수돗물과 공공 식수대 물을 그대로 마실 수 있습니다.', 'Tap water and public fountains are safe to drink.', '水道水や公共の水飲み場の水はそのまま飲めます。', 'https://www.thelocal.ch/20210920/what-you-need-to-know-about-the-drinking-water-in-switzerland/'],
+      ['스위스 트래블 패스로 적용 구간의 기차·버스·유람선을 이용할 수 있고, 일부 산악 교통은 할인됩니다. 이용 구간을 확인하세요.', 'The Swiss Travel Pass covers eligible trains, buses and boats, while some mountain excursions are discounted. Check the area of validity.', 'スイストラベルパスでは対象の鉄道・バス・船を利用でき、一部の登山交通は割引になります。適用区間を確認しましょう。', 'https://www.sbb.ch/en/offers/swiss-travel-pass'],
+      ['스위스 수돗물은 마실 수 있습니다. 식수대에서는 음용 가능 표시를 확인하세요.', 'Swiss tap water is safe to drink; check that a public fountain is marked as drinking water.', 'スイスの水道水は飲めます。公共の泉では飲用可能の表示を確認しましょう。', 'https://www.myswitzerland.com/en-se/planning/about-switzerland/general-facts/general-information/drinking-water/'],
     ],
     cautions: [
       ['높은 산은 여름에도 춥고 날씨가 빨리 바뀌니 겉옷을 챙기세요.', 'High mountains are cold even in summer and change fast; bring layers.', '高い山は夏でも寒く天気が変わりやすいので、上着を。', 'https://www.0404.go.kr/ntnSafetyInfo/127/detail'],
@@ -216,7 +216,7 @@ export const COUNTRY_1: Record<string, CountryNote> = {
   },
   Portugal: {
     tips: [
-      ['식당에서 처음 제공되는 빵·올리브 같은 couvert는 무료가 아닐 수 있으니 메뉴의 가격을 확인하고 원치 않으면 먹지 마세요.', 'Bread, olives or other couvert served at the start may not be free; check the menu price and leave it untouched if unwanted.', 'レストランで最初に出されるパンやオリーブなどの couvert は無料とは限りません。メニューで価格を確認し、不要なら手をつけないようにしましょう。', 'https://www.amt-autoridade.pt/media/3824/brochura-jmj2023_en.pdf'],
+      ['포르투갈 식당에서는 빵·올리브 같은 쿠베르 가격을 메뉴에서 확인하세요. 요청하지 않았고 먹지도 않은 음식은 청구할 수 없습니다.', 'At Portuguese restaurants, check the menu price for bread, olives or other couvert. Food you neither requested nor consumed cannot be charged.', 'ポルトガルの飲食店ではパンやオリーブなどのクヴェールの価格をメニューで確認しましょう。注文せず食べてもいない品目は請求できません。', 'https://www.asae.gov.pt/perguntas-frequentes1/area-economica/precos/precos-em-servicos-de-restauracao.aspx'],
       ['커피는 "비카"(에스프레소)를 서서 마시면 저렴합니다.', 'A bica (espresso) at the counter is the cheap local way.', 'コーヒーはカウンターで「ビカ」（エスプレッソ）を飲むのが安くて地元流です。', 'https://www.lisbontourism.org/lisbon-coffee-cafes/'],
     ],
     cautions: [
@@ -226,8 +226,8 @@ export const COUNTRY_1: Record<string, CountryNote> = {
   },
   Cambodia: {
     tips: [
-      ['달러와 리엘을 함께 쓰며, 달러로 내면 거스름돈을 리엘로 받는 경우가 많습니다.', 'US dollars and riel are both used; change often comes in riel.', '米ドルとリエルの両方が使われ、お釣りはリエルのことが多いです。', 'https://adventurescambodia.com/blog/understanding-currency-in-cambodia/'],
-      ['낡거나 조금 찢어진 달러도 받도록 중앙은행이 안내했지만, 현장에서는 거절되는 경우가 있어 깨끗한 지폐가 편합니다.', 'The central bank says old or slightly torn dollars must be accepted, but some places still refuse them, so clean notes are easier.', '中央銀行は古い・少し破れたドル札も受け取るよう案内していますが、現場で断られることもあるので、きれいな紙幣が無難です。', 'https://en.vietstock.vn/2024/08/old-dollar-bills-to-be-accepted-nationwide-nbc-says-114-576913.htm'],
+      ['캄보디아에서는 미국 달러와 리엘이 모두 쓰입니다. 결제 전 표시 통화와 거스름돈을 확인하세요.', 'Both US dollars and riel are used in Cambodia; check the quoted currency and your change when paying.', 'カンボジアでは米ドルとリエルの両方が使われます。支払い前に表示通貨とお釣りを確認しましょう。', 'https://www.nbc.gov.kh/english/payment_systems/overview_of_payments_instruments.php'],
+      ['캄보디아에서는 낡거나 손상된 미국 달러 지폐가 거절될 수 있습니다. 결제할 때 리엘이나 디지털 결제도 고려하세요.', 'Old or damaged US dollar notes may be refused in Cambodia. Consider paying in riel or digitally.', 'カンボジアでは古い米ドル札や傷んだ札を断られることがあります。リエルやデジタル決済も検討しましょう。', 'https://www.tourismcambodia.org/public/index.php/official-activities/tourists-urged-to-use-riel-digital-payments'],
     ],
     cautions: [
       ['유적 사원에서는 어깨·무릎을 가려야 하며, 일부 계단은 경사가 매우 급합니다.', 'Cover shoulders and knees at temples; some stairs are very steep.', '寺院では肩と膝を隠し、一部の階段はとても急です。', 'https://fulltimeexplorer.com/visiting-cambodia-guide-tips/'],

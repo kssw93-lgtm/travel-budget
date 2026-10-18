@@ -790,6 +790,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "new-orleans",
+    "country": "미국",
+    "countryEn": "United States",
+    "nameKo": "뉴올리언스",
+    "nameEn": "New Orleans",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "sokcho",
     "country": "한국",
     "countryEn": "South Korea",

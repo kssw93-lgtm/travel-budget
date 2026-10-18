@@ -751,4 +751,15 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: SEPTA 공항선 열차로 센터 시티까지 갈 수 있으며, 교통카드(SEPTA Key)나 신용카드 탭으로 내면 차내 현금 요금보다 쌉니다.', 'Airport to city: the SEPTA Airport Line runs to Center City; paying with SEPTA Key or a contactless card is cheaper than paying on board.', '空港から市内へ：SEPTA空港線でセンター・シティまで行けます。交通カード（SEPTA Key）やクレジットカードのタッチ決済で払うと車内での支払いより安くなります。'],
     ],
   },
+  'new-orleans': {
+    h: [
+      ['국립 2차 세계대전 박물관', 'The National WWII Museum', '国立第二次世界大戦博物館', '미국의 2차 세계대전 참전 역사를 체험형 전시로 보여 주는 대형 박물관입니다.', 'A vast, immersive museum of America’s role in the Second World War.', 'アメリカの第二次世界大戦の歴史を体験型展示で伝える大規模な博物館です。'],
+      ['카페 뒤 몽드의 베녜', 'Beignets at Café du Monde', 'カフェ・デュ・モンドのベニエ', '1862년부터 프렌치 마켓에서 슈거파우더를 뿌린 튀긴 빵 베녜와 카페오레를 팔고 있습니다.', 'Powdered-sugar beignets and café au lait at the French Market since 1862.', '1862年からフレンチ・マーケットで粉砂糖をかけた揚げパン「ベニエ」とカフェオレを出しています。'],
+      ['세인트찰스 노면전차', 'St. Charles streetcar', 'セント・チャールズ線の路面電車', '오래된 저택이 늘어선 가든 디스트릭트를 지나는 노면전차로, 일반 버스와 같은 요금입니다.', 'Historic streetcars through the mansion-lined Garden District at the regular bus fare.', '古い邸宅が並ぶガーデン・ディストリクトを走る路面電車で、運賃は通常のバスと同じです。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 세금(10%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude 10% sales tax and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（10%）とチップが含まれていません。チップは18〜20%が一般的です。'],
+      ['공항에서 시내: RTA 202번 공항 급행버스를 타면 다운타운까지 가며, 요금은 일반 버스와 같은 1.25달러입니다.', 'Airport to city: RTA Airport Express route 202 runs downtown for the regular $1.25 fare.', '空港から市内へ：RTAの202番空港急行バスでダウンタウンまで行け、運賃は通常のバスと同じ1.25ドルです。'],
+    ],
+  },
 };

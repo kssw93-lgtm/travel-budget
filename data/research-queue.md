@@ -163,6 +163,8 @@
 | 멕시코시티 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 필라델피아 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 필라델피아 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 뉴올리언스 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 뉴올리언스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 속초 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 통영 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 대구 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1027,6 +1029,9 @@
 | PHL-TR-001 | 필라델피아 | SEPTA 버스·지하철 1회 | 2.9 USD | A | 예 | 재검증 | [SEPTA](https://www.septa.org/news/septa-board-approves-fy26-budget/) |
 | PHL-AT-001 | 필라델피아 | 필라델피아 미술관 (성인) | 30 USD | A | 예 | 재검증 | [Philadelphia Museum of Art](https://philamuseum.org/visit/admission) |
 | PHL-AT-002 | 필라델피아 | 필라델피아 미술관 (18세 이하 무료) | 0 USD | A | 예 | 재검증 | [Philadelphia Museum of Art](https://philamuseum.org/visit/admission) |
+| MSY-TR-001 | 뉴올리언스 | RTA 버스·노면전차 1회 | 1.25 USD | A | 예 | 재검증 | [New Orleans RTA](https://www.norta.com/ride-with-us/how-to-pay/fares) |
+| MSY-AT-001 | 뉴올리언스 | 국립 2차 세계대전 박물관 (성인) | 37 USD | A | 예 | 재검증 | [The National WWII Museum](https://www.nationalww2museum.org/visit/plan-your-visit) |
+| MSY-AT-002 | 뉴올리언스 | 국립 2차 세계대전 박물관 (학생) | 27 USD | A | 예 | 재검증 | [The National WWII Museum](https://www.nationalww2museum.org/visit/plan-your-visit) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

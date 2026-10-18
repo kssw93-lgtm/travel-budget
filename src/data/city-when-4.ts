@@ -373,4 +373,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['미술관은 매달 첫째 일요일에 원하는 만큼 내고 입장할 수 있고, 18세 이하는 항상 무료입니다.', 'The art museum is pay-what-you-wish on the first Sunday of each month, and visitors 18 and under are always free.', '美術館は毎月第1日曜日に好きな金額で入場でき、18歳以下はいつでも無料です。'],
   },
+  'new-orleans': {
+    p: [
+      ['2~5월', 'February–May', '2〜5月', '마디 그라와 봄 음악 축제가 이어지고, 1~6월은 크로피시 제철입니다.', 'Mardi Gras and spring music festivals, plus crawfish season (roughly January–June).', 'マルディグラや春の音楽祭が続き、1〜6月はザリガニの旬です。'],
+      ['10~11월', 'October–November', '10〜11月', '더위가 가라앉아 프렌치 쿼터 산책과 야외 음악을 즐기기 좋습니다.', 'The heat breaks — ideal for French Quarter strolls and outdoor music.', '暑さが和らぎ、フレンチ・クォーターの散策や屋外の音楽を楽しめます。'],
+    ],
+    x: ['6~11월은 허리케인 시즌이니 여행 전 날씨 예보를 꼭 확인하세요.', 'June–November is hurricane season; check the forecast before you go.', '6〜11月はハリケーンの季節なので、旅行前に天気予報を必ず確認しましょう。'],
+  },
 };

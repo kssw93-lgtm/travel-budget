@@ -1074,4 +1074,9 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'philadelphia:h3': 'https://www.visitphilly.com/articles/philadelphia/iconic-philadelphia-foods-must-have-philly-eats/',
   'philadelphia:t1': 'https://www.phila.gov/services/payments-assistance-taxes/taxes/business-taxes/business-taxes-by-type/sales-use-hotel-occupancy-tax/',
   'philadelphia:t2': 'https://www.septa.org/fares/',
+  'new-orleans:h1': 'https://www.nationalww2museum.org/visit/plan-your-visit',
+  'new-orleans:h2': 'https://www.neworleans.com/blog/post/foods-that-are-worth-the-hype/',
+  'new-orleans:h3': 'https://www.norta.com/ride-with-us/how-to-pay/fares',
+  'new-orleans:t1': 'https://nola.gov/sales-tax-rate/',
+  'new-orleans:t2': 'https://www.norta.com/RTA/media/RTABusPDFSchedules/route_202.pdf',
 };

@@ -462,4 +462,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['리튼하우스 광장 주변', 'Around Rittenhouse Square', 'リッテンハウス広場周辺', '공원과 식당이 모인 조용한 지역입니다.', 'A leafy area of restaurants around the square.', '公園と飲食店が集まる落ち着いた地区です。'],
     ],
   },
+  'new-orleans': {
+    o: ['미시시피강 하구의 재즈 발상지로, 철제 발코니가 늘어선 프렌치 쿼터와 노면전차가 다니는 거리가 인상적입니다. 검보·잠발라야 같은 크리올·케이준 요리와 마디 그라 축제로 유명합니다.', 'The birthplace of jazz near the mouth of the Mississippi, with the iron-balconied French Quarter and historic streetcars; famous for Creole and Cajun dishes like gumbo and jambalaya, and for Mardi Gras.', 'ミシシッピ川河口近くのジャズ発祥の地で、鉄製バルコニーが並ぶフレンチ・クォーターや路面電車が走る通りが印象的です。ガンボやジャンバラヤなどのクレオール・ケイジャン料理とマルディグラ祭で有名です。'],
+    d: [2, 3],
+    s: [
+      ['프렌치 쿼터', 'French Quarter', 'フレンチ・クォーター', '재즈 클럽과 식당, 카페 뒤 몽드가 걸어서 닿는 중심지입니다.', 'The heart of town, a walk from jazz clubs, restaurants and Café du Monde.', 'ジャズクラブや飲食店、カフェ・デュ・モンドへ歩いて行ける中心地です。'],
+      ['웨어하우스 디스트릭트', 'Warehouse District', 'ウェアハウス・ディストリクト', '2차 세계대전 박물관과 가깝고, 공항버스 정류장이 있는 다운타운 쪽입니다.', 'Near the WWII Museum and the downtown airport-bus stops.', '第二次世界大戦博物館に近く、空港バスの乗り場があるダウンタウン側です。'],
+    ],
+  },
 };

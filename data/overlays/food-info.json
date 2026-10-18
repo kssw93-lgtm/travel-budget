@@ -5047,5 +5047,20 @@
     "ko": "머스터드를 곁들여 먹는 필라델피아식 부드러운 프레첼",
     "en": "Philly-style soft pretzel, eaten with mustard",
     "ja": "マスタードを添えて食べるフィラデルフィア風の柔らかいプレッツェル"
+  },
+  "new-orleans:Gumbo": {
+    "ko": "짙은 루에 닭고기·소시지·해산물·오크라를 넣고 끓인 스튜",
+    "en": "Dark-roux stew with chicken, andouille, seafood or okra",
+    "ja": "濃いルーに鶏肉やソーセージ、魚介、オクラを入れて煮込んだシチュー"
+  },
+  "new-orleans:Beignets": {
+    "ko": "슈거파우더를 듬뿍 뿌린 네모난 튀긴 빵",
+    "en": "Fried dough squares under powdered sugar",
+    "ja": "粉砂糖をたっぷりかけた四角い揚げパン"
+  },
+  "new-orleans:Po-Boy": {
+    "ko": "튀긴 해산물이나 로스트 비프를 바게트에 끼운 샌드위치",
+    "en": "Sandwich of fried seafood or roast beef on French bread",
+    "ja": "揚げた魚介やローストビーフをフランスパンに挟んだサンドイッチ"
   }
 }

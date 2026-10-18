@@ -8148,6 +8148,60 @@
     "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
   },
   {
+    "cityId": "new-orleans",
+    "nameKo": "검보",
+    "nameEn": "Gumbo",
+    "reason": "짙은 루에 닭고기·소시지·해산물·오크라를 넣고 끓인 스튜",
+    "reasonEn": "Dark-roux stew with chicken, andouille, seafood or okra",
+    "desc": {
+      "ko": "짙은 루에 닭고기·소시지·해산물·오크라를 넣고 끓인 스튜",
+      "en": "Dark-roux stew with chicken, andouille, seafood or okra",
+      "ja": "濃いルーに鶏肉やソーセージ、魚介、オクラを入れて煮込んだシチュー"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "New Orleans & Company",
+    "recommendUrl": "https://www.neworleans.com/blog/post/foods-that-are-worth-the-hype/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "new-orleans",
+    "nameKo": "베녜",
+    "nameEn": "Beignets",
+    "reason": "슈거파우더를 듬뿍 뿌린 네모난 튀긴 빵",
+    "reasonEn": "Fried dough squares under powdered sugar",
+    "desc": {
+      "ko": "슈거파우더를 듬뿍 뿌린 네모난 튀긴 빵",
+      "en": "Fried dough squares under powdered sugar",
+      "ja": "粉砂糖をたっぷりかけた四角い揚げパン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "New Orleans & Company",
+    "recommendUrl": "https://www.neworleans.com/blog/post/foods-that-are-worth-the-hype/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "new-orleans",
+    "nameKo": "포보이",
+    "nameEn": "Po-Boy",
+    "reason": "튀긴 해산물이나 로스트 비프를 바게트에 끼운 샌드위치",
+    "reasonEn": "Sandwich of fried seafood or roast beef on French bread",
+    "desc": {
+      "ko": "튀긴 해산물이나 로스트 비프를 바게트에 끼운 샌드위치",
+      "en": "Sandwich of fried seafood or roast beef on French bread",
+      "ja": "揚げた魚介やローストビーフをフランスパンに挟んだサンドイッチ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "New Orleans & Company",
+    "recommendUrl": "https://www.neworleans.com/blog/post/foods-that-are-worth-the-hype/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "new-york",
     "nameKo": "베이글",
     "nameEn": "Bagel",

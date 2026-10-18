@@ -407,4 +407,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['부차트 가든 입장료는 계절마다 달라지니(봄·여름이 가장 비쌈) 방문 날짜의 요금을 확인하세요.', 'Butchart Gardens prices change by season (highest in spring and summer); check the rate for your date.', 'ブッチャート・ガーデンの入場料は季節ごとに変わる（春・夏が最も高い）ので、訪問日の料金を確認しましょう。'],
   },
+  austin: {
+    p: [
+      ['10~11월', 'October–November', '10〜11月', '더위가 가라앉아 야외 음악 공연과 바비큐를 즐기기 좋습니다.', 'The heat breaks — great for outdoor music and barbecue.', '暑さが和らぎ、屋外のライブやバーベキューを楽しめます。'],
+      ['3~5월', 'March–May', '3〜5月', '따뜻한 봄 날씨로, 3월에는 SXSW 축제가 열립니다.', 'Warm spring days, with SXSW in March.', '暖かい春の気候で、3月にはSXSWが開かれます。'],
+    ],
+    x: ['유명 바비큐 가게는 오전부터 줄이 길고 고기가 떨어지면 문을 닫으니 일찍 가세요.', 'Famous barbecue joints draw morning lines and close when the meat sells out — go early.', '有名なバーベキュー店は朝から行列ができ、肉が売り切れると閉店するので早めに行きましょう。'],
+  },
 };

@@ -804,4 +804,15 @@ export const NOTES_9: Record<string, Compact> = {
       ['식당 메뉴 가격에는 GST(5%)와 팁이 빠져 있고, 술에는 주 판매세(PST)가 더 붙습니다. 팁은 15~18%가 일반적입니다. 버스는 1회 3달러이며 거스름돈을 주지 않습니다.', 'Menu prices exclude 5% GST and tip, with provincial tax added on alcohol; tip 15–18%. Buses cost $3 a ride, exact fare only.', '飲食店のメニュー価格にはGST（5%）とチップが含まれず、酒類には州税（PST）がさらにかかります。チップは15〜18%が一般的です。バスは1回3ドルで、おつりは出ません。'],
     ],
   },
+  austin: {
+    h: [
+      ['불럭 텍사스 주 역사박물관', 'Bullock Texas State History Museum', 'ブロック・テキサス州歴史博物館', '주 의사당 근처에서 텍사스의 역사를 보여 주는 박물관으로, 5세 이하는 무료입니다.', 'Texas history near the Capitol; free for children five and under.', '州議事堂の近くでテキサスの歴史を紹介する博物館で、5歳以下は無料です。'],
+      ['텍사스 바비큐', 'Texas barbecue', 'テキサス・バーベキュー', '오랜 시간 훈연한 브리스킷이 대표 메뉴로, 이름난 가게에는 아침부터 줄이 섭니다.', 'Slow-smoked brisket is the star; famous joints draw lines from the morning.', '長時間燻製したブリスケットが代表メニューで、有名店には朝から行列ができます。'],
+      ['아침 타코', 'Breakfast tacos', '朝食タコス', '달걀·베이컨·콩 등을 토르티야에 싼 오스틴식 아침 식사입니다.', 'Austin’s breakfast of eggs, bacon or beans wrapped in tortillas.', '卵やベーコン、豆などをトルティーヤで包んだオースティン流の朝食です。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 세금(8.25%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude 8.25% sales tax and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（8.25%）とチップが含まれていません。チップは18〜20%が一般的です。'],
+      ['공항에서 시내: 오스틴 공항에서 캡메트로 20번 버스를 타면 다운타운까지 1.25달러이며, 카드 탭으로 내면 하루 2회 요금까지만 청구됩니다. 요금은 2027년 1월 10일에 오를 예정입니다.', 'Airport to city: CapMetro route 20 runs downtown for $1.25, with tap-to-pay capped at two rides a day; fares rise on 10 January 2027.', '空港から市内へ：オースティン空港からキャップメトロ20番バスでダウンタウンまで1.25ドルで、カードのタッチ決済なら1日2回分までしか請求されません。運賃は2027年1月10日に値上げ予定です。'],
+    ],
+  },
 };

@@ -432,4 +432,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'victoria:p1': 'https://butchartgardens.com/hours-rates/',
   'victoria:p2': 'https://butchartgardens.com/hours-rates/',
   'victoria:x': 'https://butchartgardens.com/hours-rates/',
+  'austin:p1': 'https://www.austintexas.org/austin-insider-blog/blog/post/things-to-do-in-austin/',
+  'austin:p2': 'https://www.austintexas.org/austin-insider-blog/blog/post/things-to-do-in-austin/',
+  'austin:x': 'https://www.austintexas.org/austin-insider-blog/blog/post/iconic-austin-restaurants/',
 };

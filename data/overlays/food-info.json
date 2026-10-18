@@ -5122,5 +5122,20 @@
     "ko": "피셔맨스 워프에서 맛보는 생선 튀김과 감자튀김",
     "en": "Fish and chips at Fisherman’s Wharf",
     "ja": "フィッシャーマンズ・ワーフで味わうフィッシュ・アンド・チップス"
+  },
+  "austin:Brisket Barbecue": {
+    "ko": "오랜 시간 훈연한 소 양지 바비큐",
+    "en": "Slow-smoked beef brisket",
+    "ja": "長時間燻製した牛肩バラ肉のバーベキュー"
+  },
+  "austin:Breakfast Tacos": {
+    "ko": "달걀·베이컨·콩 등을 토르티야에 싼 아침 타코",
+    "en": "Tortillas filled with eggs, bacon or beans",
+    "ja": "卵やベーコン、豆などをトルティーヤで包んだ朝食タコス"
+  },
+  "austin:Queso": {
+    "ko": "칩을 찍어 먹는 텍스멕스식 녹인 치즈 딥",
+    "en": "Tex-Mex melted cheese dip with chips",
+    "ja": "チップスにつけて食べるテクスメクス風の溶かしチーズのディップ"
   }
 }

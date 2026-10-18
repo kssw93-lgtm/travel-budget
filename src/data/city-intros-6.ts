@@ -502,4 +502,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['피셔맨스 워프 주변', 'Around Fisherman’s Wharf', 'フィッシャーマンズ・ワーフ周辺', '수상 가옥과 피시 앤드 칩스 가게가 있는 항구 쪽 동네입니다.', 'The harbourside area of float homes and fish-and-chip stands.', '水上ハウスやフィッシュ・アンド・チップスの店がある港沿いの地区です。'],
     ],
   },
+  austin: {
+    o: ['텍사스주의 주도로, ‘세계 라이브 음악의 수도’를 내세우는 음악 도시입니다. 브리스킷 바비큐와 아침 타코, 퀘소 같은 텍스멕스 음식이 유명합니다.', 'Texas’s capital and self-styled “Live Music Capital of the World”, famous for brisket barbecue, breakfast tacos and Tex-Mex queso.', 'テキサス州の州都で、「世界のライブ音楽の首都」を掲げる音楽の街です。ブリスケットのバーベキューや朝食タコス、ケソなどのテクスメクス料理が有名です。'],
+    d: [2, 3],
+    s: [
+      ['다운타운', 'Downtown', 'ダウンタウン', '주 의사당과 라이브 음악 거리(6번가)가 가깝고, 공항버스 20번이 지납니다.', 'Near the Capitol and the Sixth Street music strip, on airport bus 20.', '州議事堂やライブ音楽の通り（6番街）に近く、空港バス20番が通ります。'],
+      ['사우스 콩그레스', 'South Congress', 'サウス・コングレス', '개성 있는 가게와 식당, 음악 공연장이 모인 거리입니다.', 'A strip of quirky shops, restaurants and music venues.', '個性的な店や飲食店、ライブ会場が集まる通りです。'],
+    ],
+  },
 };

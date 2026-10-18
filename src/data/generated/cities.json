@@ -840,6 +840,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "austin",
+    "country": "미국",
+    "countryEn": "United States",
+    "nameKo": "오스틴",
+    "nameEn": "Austin",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "sokcho",
     "country": "한국",
     "countryEn": "South Korea",

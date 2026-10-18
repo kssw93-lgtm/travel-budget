@@ -2295,6 +2295,34 @@
     "missing": [],
     "computable": true
   },
+  "austin": {
+    "counts": {
+      "food": 10,
+      "transport": 1,
+      "attraction": 1
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 10,
+      "snack": 12,
+      "drink": 8,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 10,
+      "snack": 12,
+      "drink": 8,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "sokcho": {
     "counts": {
       "food": 43,
@@ -3082,12 +3110,12 @@
   "san-francisco": {
     "counts": {
       "food": 10,
-      "transport": 13,
+      "transport": 14,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 13,
+      "ride": 14,
       "meal": 10,
       "snack": 12,
       "drink": 8,
@@ -3096,7 +3124,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 13,
+      "ride": 14,
       "meal": 10,
       "snack": 12,
       "drink": 8,

@@ -1097,4 +1097,9 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'victoria:h2': 'https://www.royalbcmuseum.bc.ca/visit/plan-your-visit/buy-tickets',
   'victoria:h3': 'https://www.tourismvictoria.com/plan-your-trip/travel-itineraries/food-lovers-journey',
   'victoria:t1': 'https://www.bctransit.com/victoria/fares/',
+  'austin:h1': 'https://www.thestoryoftexas.com/visit/',
+  'austin:h2': 'https://www.austintexas.org/austin-insider-blog/blog/post/iconic-austin-restaurants/',
+  'austin:h3': 'https://www.austintexas.org/austin-insider-blog/blog/post/essential-breakfast-tacos-in-austin/',
+  'austin:t1': 'https://comptroller.texas.gov/taxes/sales/city.php',
+  'austin:t2': 'https://www.capmetro.org/airport',
 };

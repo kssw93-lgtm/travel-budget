@@ -1781,6 +1781,60 @@
     "note": "Claude 초안(2026-10-13)"
   },
   {
+    "cityId": "austin",
+    "nameKo": "브리스킷 바비큐",
+    "nameEn": "Brisket Barbecue",
+    "reason": "오랜 시간 훈연한 소 양지 바비큐",
+    "reasonEn": "Slow-smoked beef brisket",
+    "desc": {
+      "ko": "오랜 시간 훈연한 소 양지 바비큐",
+      "en": "Slow-smoked beef brisket",
+      "ja": "長時間燻製した牛肩バラ肉のバーベキュー"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Austin",
+    "recommendUrl": "https://www.austintexas.org/austin-insider-blog/blog/post/iconic-austin-restaurants/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "austin",
+    "nameKo": "아침 타코",
+    "nameEn": "Breakfast Tacos",
+    "reason": "달걀·베이컨·콩 등을 토르티야에 싼 아침 타코",
+    "reasonEn": "Tortillas filled with eggs, bacon or beans",
+    "desc": {
+      "ko": "달걀·베이컨·콩 등을 토르티야에 싼 아침 타코",
+      "en": "Tortillas filled with eggs, bacon or beans",
+      "ja": "卵やベーコン、豆などをトルティーヤで包んだ朝食タコス"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Austin",
+    "recommendUrl": "https://www.austintexas.org/austin-insider-blog/blog/post/essential-breakfast-tacos-in-austin/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "austin",
+    "nameKo": "퀘소",
+    "nameEn": "Queso",
+    "reason": "칩을 찍어 먹는 텍스멕스식 녹인 치즈 딥",
+    "reasonEn": "Tex-Mex melted cheese dip with chips",
+    "desc": {
+      "ko": "칩을 찍어 먹는 텍스멕스식 녹인 치즈 딥",
+      "en": "Tex-Mex melted cheese dip with chips",
+      "ja": "チップスにつけて食べるテクスメクス風の溶かしチーズのディップ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Austin",
+    "recommendUrl": "https://www.austintexas.org/austin-insider-blog/blog/post/top-queso-in-austin/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "bali",
     "nameKo": "바비굴링",
     "nameEn": "Babi Guling",

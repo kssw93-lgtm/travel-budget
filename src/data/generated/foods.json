@@ -8712,6 +8712,60 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "philadelphia",
+    "nameKo": "치즈스테이크",
+    "nameEn": "Cheesesteak",
+    "reason": "얇게 썬 소고기와 치즈를 긴 빵에 끼운 샌드위치",
+    "reasonEn": "Thin-sliced beef with provolone, American or Cheez Whiz on a roll",
+    "desc": {
+      "ko": "얇게 썬 소고기와 치즈를 긴 빵에 끼운 샌드위치",
+      "en": "Thin-sliced beef with provolone, American or Cheez Whiz on a roll",
+      "ja": "薄切り牛肉とチーズを長いパンに挟んだサンドイッチ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Philadelphia",
+    "recommendUrl": "https://www.visitphilly.com/articles/philadelphia/iconic-philadelphia-foods-must-have-philly-eats/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "philadelphia",
+    "nameKo": "로스트 포크 샌드위치",
+    "nameEn": "Roast Pork Sandwich",
+    "reason": "천천히 구운 돼지고기에 샤프 프로볼로네와 브로콜리 라베를 얹은 샌드위치",
+    "reasonEn": "Slow-roasted pork, sharp provolone and broccoli rabe on an Italian roll",
+    "desc": {
+      "ko": "천천히 구운 돼지고기에 샤프 프로볼로네와 브로콜리 라베를 얹은 샌드위치",
+      "en": "Slow-roasted pork, sharp provolone and broccoli rabe on an Italian roll",
+      "ja": "じっくり焼いた豚肉にシャープ・プロヴォローネとブロッコリー・ラーブをのせたサンドイッチ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Philadelphia",
+    "recommendUrl": "https://www.visitphilly.com/articles/philadelphia/the-best-roast-pork-sandwiches-in-philadelphia/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "philadelphia",
+    "nameKo": "소프트 프레첼",
+    "nameEn": "Soft Pretzel",
+    "reason": "머스터드를 곁들여 먹는 필라델피아식 부드러운 프레첼",
+    "reasonEn": "Philly-style soft pretzel, eaten with mustard",
+    "desc": {
+      "ko": "머스터드를 곁들여 먹는 필라델피아식 부드러운 프레첼",
+      "en": "Philly-style soft pretzel, eaten with mustard",
+      "ja": "マスタードを添えて食べるフィラデルフィア風の柔らかいプレッツェル"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Philadelphia",
+    "recommendUrl": "https://www.visitphilly.com/articles/philadelphia/iconic-philadelphia-foods-must-have-philly-eats/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "phu-quoc",
     "nameKo": "분꾸이",
     "nameEn": "Bun Quay",

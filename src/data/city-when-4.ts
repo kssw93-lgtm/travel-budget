@@ -366,4 +366,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['고도가 높아 도착 첫날에는 숨이 차거나 피곤할 수 있으니, 첫날 일정은 가볍게 잡으세요.', 'The altitude can leave you breathless on day one; keep the first day light.', '標高が高いため到着初日は息切れや疲れを感じることがあるので、初日の予定は軽めにしましょう。'],
   },
+  philadelphia: {
+    p: [
+      ['4~6월', 'April–June', '4〜6月', '역사 지구 산책과 야외 식사를 즐기기 좋은 계절입니다.', 'Great for walking the historic district and outdoor dining.', '歴史地区の散策や屋外での食事を楽しめる季節です。'],
+      ['9~10월', 'September–October', '9〜10月', '선선한 날씨에 미술관과 시내 관광을 즐기기 좋습니다.', 'Cool days for museums and sightseeing.', '涼しい気候で美術館や市内観光を楽しめます。'],
+    ],
+    x: ['미술관은 매달 첫째 일요일에 원하는 만큼 내고 입장할 수 있고, 18세 이하는 항상 무료입니다.', 'The art museum is pay-what-you-wish on the first Sunday of each month, and visitors 18 and under are always free.', '美術館は毎月第1日曜日に好きな金額で入場でき、18歳以下はいつでも無料です。'],
+  },
 };

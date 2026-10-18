@@ -740,4 +740,15 @@ export const NOTES_9: Record<string, Compact> = {
       ['지하철은 거리와 환승에 관계없이 1회 5페소이며, 교통카드나 신용카드 탭으로 탈 수 있습니다. 공항에서 시내까지는 메트로부스 공항 노선(30페소)을 타면 되고, 현금은 받지 않습니다.', 'The metro costs 5 pesos per trip regardless of distance or transfers, paid by transit card or contactless card; from the airport, the Metrobús airport service costs 30 pesos and takes no cash.', '地下鉄は距離や乗り換えに関係なく1回5ペソで、交通カードやクレジットカードのタッチ決済で乗れます。空港から市内へはメトロブスの空港路線（30ペソ）が便利で、現金は使えません。'],
     ],
   },
+  philadelphia: {
+    h: [
+      ['필라델피아 미술관', 'Philadelphia Museum of Art', 'フィラデルフィア美術館', '영화 〈록키〉의 계단으로 유명한 대형 미술관으로, 입장권으로 로댕 박물관도 이틀간 볼 수 있습니다.', 'The great museum atop the “Rocky Steps”; admission also covers the Rodin Museum for two days.', '映画「ロッキー」の階段で有名な大規模な美術館で、入場券でロダン美術館も2日間見学できます。'],
+      ['리딩 터미널 마켓', 'Reading Terminal Market', 'リーディング・ターミナル・マーケット', '로스트 포크 샌드위치와 소프트 프레첼 등 필라델피아 명물을 한곳에서 맛볼 수 있는 실내 시장입니다.', 'An indoor market for roast pork sandwiches, soft pretzels and other Philly classics.', 'ローストポーク・サンドイッチやソフトプレッツェルなど、フィラデルフィアの名物を一度に味わえる屋内市場です。'],
+      ['치즈스테이크', 'Cheesesteak', 'チーズステーキ', '얇게 썬 소고기와 치즈를 빵에 끼운 필라델피아 대표 샌드위치로, 1930년에 처음 만들어졌다고 합니다.', 'Thin-sliced beef and cheese on a roll, said to date from 1930.', '薄切り牛肉とチーズをパンに挟んだフィラデルフィア名物のサンドイッチで、1930年に生まれたといわれます。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 세금(8%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude 8% sales tax and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（8%）とチップが含まれていません。チップは18〜20%が一般的です。'],
+      ['공항에서 시내: SEPTA 공항선 열차로 센터 시티까지 갈 수 있으며, 교통카드(SEPTA Key)나 신용카드 탭으로 내면 차내 현금 요금보다 쌉니다.', 'Airport to city: the SEPTA Airport Line runs to Center City; paying with SEPTA Key or a contactless card is cheaper than paying on board.', '空港から市内へ：SEPTA空港線でセンター・シティまで行けます。交通カード（SEPTA Key）やクレジットカードのタッチ決済で払うと車内での支払いより安くなります。'],
+    ],
+  },
 };

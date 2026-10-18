@@ -780,6 +780,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "philadelphia",
+    "country": "미국",
+    "countryEn": "United States",
+    "nameKo": "필라델피아",
+    "nameEn": "Philadelphia",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "sokcho",
     "country": "한국",
     "countryEn": "South Korea",

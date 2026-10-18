@@ -415,4 +415,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'mexico-city:p1': 'https://mexicocity.cdmx.gob.mx/e/food-basics/street-food/?lang=en',
   'mexico-city:p2': 'https://mna.inah.gob.mx/',
   'mexico-city:x': 'https://mexicocity.cdmx.gob.mx/e/getting-around/using-the-metro/?lang=en',
+  'philadelphia:p1': 'https://www.visitphilly.com/features/essential-guide-to-philadelphia/',
+  'philadelphia:p2': 'https://philamuseum.org/visit/admission',
+  'philadelphia:x': 'https://philamuseum.org/visit/admission',
 };

@@ -454,4 +454,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['로마·콘데사', 'Roma / Condesa', 'ローマ・コンデサ', '공원과 카페, 식당이 많은 지역으로 비교적 조용합니다.', 'Leafy neighbourhoods of parks, cafés and restaurants.', '公園やカフェ、飲食店が多い比較的落ち着いた地区です。'],
     ],
   },
+  philadelphia: {
+    o: ['미국 독립선언과 헌법이 탄생한 도시로, 독립기념관과 자유의 종이 있는 역사 지구가 무료로 열려 있습니다. 영화 〈록키〉의 계단으로 유명한 미술관과 치즈스테이크의 본고장입니다.', 'Birthplace of the Declaration of Independence and the Constitution, with a free historic district around Independence Hall and the Liberty Bell; home of the art museum’s “Rocky Steps” and of the cheesesteak.', 'アメリカ独立宣言と合衆国憲法が生まれた街で、独立記念館や自由の鐘がある歴史地区は無料で見学できます。映画「ロッキー」の階段で有名な美術館と、チーズステーキの本場です。'],
+    d: [2, 3],
+    s: [
+      ['올드 시티·센터 시티 동쪽', 'Old City / east Center City', 'オールド・シティ・センター・シティ東側', '독립기념관과 리딩 터미널 마켓이 걸어서 닿습니다.', 'A walk to Independence Hall and Reading Terminal Market.', '独立記念館やリーディング・ターミナル・マーケットへ歩いて行けます。'],
+      ['리튼하우스 광장 주변', 'Around Rittenhouse Square', 'リッテンハウス広場周辺', '공원과 식당이 모인 조용한 지역입니다.', 'A leafy area of restaurants around the square.', '公園と飲食店が集まる落ち着いた地区です。'],
+    ],
+  },
 };

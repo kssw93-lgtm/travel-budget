@@ -1069,4 +1069,9 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'mexico-city:h2': 'https://mexicocity.cdmx.gob.mx/e/delicias-chilangas/cuauhtemoc-el-corazon-gastronomico-de-la-capital/?lang=en',
   'mexico-city:h3': 'https://mexicocity.cdmx.gob.mx/e/food-basics/street-food/?lang=en',
   'mexico-city:t1': 'https://mexicocity.cdmx.gob.mx/e/getting-around/mexico-city-metro-faq/?lang=en',
+  'philadelphia:h1': 'https://philamuseum.org/visit/admission',
+  'philadelphia:h2': 'https://www.visitphilly.com/articles/philadelphia/best-things-to-eat-at-reading-terminal-market/',
+  'philadelphia:h3': 'https://www.visitphilly.com/articles/philadelphia/iconic-philadelphia-foods-must-have-philly-eats/',
+  'philadelphia:t1': 'https://www.phila.gov/services/payments-assistance-taxes/taxes/business-taxes/business-taxes-by-type/sales-use-hotel-occupancy-tax/',
+  'philadelphia:t2': 'https://www.septa.org/fares/',
 };

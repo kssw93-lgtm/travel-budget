@@ -5032,5 +5032,20 @@
     "ko": "옥수수 알갱이와 고기를 넣고 끓인 멕시코 전통 수프",
     "en": "Traditional hominy and meat soup",
     "ja": "とうもろこしの粒と肉を煮込んだメキシコの伝統的なスープ"
+  },
+  "philadelphia:Cheesesteak": {
+    "ko": "얇게 썬 소고기와 치즈를 긴 빵에 끼운 샌드위치",
+    "en": "Thin-sliced beef with provolone, American or Cheez Whiz on a roll",
+    "ja": "薄切り牛肉とチーズを長いパンに挟んだサンドイッチ"
+  },
+  "philadelphia:Roast Pork Sandwich": {
+    "ko": "천천히 구운 돼지고기에 샤프 프로볼로네와 브로콜리 라베를 얹은 샌드위치",
+    "en": "Slow-roasted pork, sharp provolone and broccoli rabe on an Italian roll",
+    "ja": "じっくり焼いた豚肉にシャープ・プロヴォローネとブロッコリー・ラーブをのせたサンドイッチ"
+  },
+  "philadelphia:Soft Pretzel": {
+    "ko": "머스터드를 곁들여 먹는 필라델피아식 부드러운 프레첼",
+    "en": "Philly-style soft pretzel, eaten with mustard",
+    "ja": "マスタードを添えて食べるフィラデルフィア風の柔らかいプレッツェル"
   }
 }

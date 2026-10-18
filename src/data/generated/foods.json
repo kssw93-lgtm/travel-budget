@@ -3091,6 +3091,60 @@
     "note": "추천 출처 미확인(초안)"
   },
   {
+    "cityId": "chengdu",
+    "nameKo": "훠궈",
+    "nameEn": "Sichuan Hotpot",
+    "reason": "맵고 얼얼한 국물에 고기와 채소를 데쳐 먹는 쓰촨식 샤부샤부",
+    "reasonEn": "Meats and vegetables cooked in a numbing-spicy broth",
+    "desc": {
+      "ko": "맵고 얼얼한 국물에 고기와 채소를 데쳐 먹는 쓰촨식 샤부샤부",
+      "en": "Meats and vegetables cooked in a numbing-spicy broth",
+      "ja": "しびれる辛さのスープで肉や野菜を煮て食べる四川の鍋料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Go Chengdu",
+    "recommendUrl": "https://www.gochengdu.cn/travel/food/gourmet-chengdu/have-hotpot-in-hot-summer-a3083.html",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "chengdu",
+    "nameKo": "단단면",
+    "nameEn": "Dandan Noodles",
+    "reason": "매콤한 양념에 볶은 다진 돼지고기를 얹어 비벼 먹는 국물 없는 면",
+    "reasonEn": "Soupless noodles tossed in spicy sauce with fried minced pork",
+    "desc": {
+      "ko": "매콤한 양념에 볶은 다진 돼지고기를 얹어 비벼 먹는 국물 없는 면",
+      "en": "Soupless noodles tossed in spicy sauce with fried minced pork",
+      "ja": "辛いタレとそぼろ肉を混ぜて食べる汁なし麺"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Go Chengdu",
+    "recommendUrl": "https://www.gochengdu.cn/en/article/food/89",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "chengdu",
+    "nameKo": "종 만두",
+    "nameEn": "Zhong Dumplings",
+    "reason": "달콤하고 매콤한 고추기름 소스를 끼얹은 청두식 물만두",
+    "reasonEn": "Boiled dumplings in a sweet-spicy chilli-oil sauce",
+    "desc": {
+      "ko": "달콤하고 매콤한 고추기름 소스를 끼얹은 청두식 물만두",
+      "en": "Boiled dumplings in a sweet-spicy chilli-oil sauce",
+      "ja": "甘辛いラー油のタレをかけた成都風の水餃子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Go Chengdu",
+    "recommendUrl": "https://www.gochengdu.cn/en/article/food/89",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "chiang-mai",
     "nameKo": "카오소이",
     "nameEn": "Khao Soi",

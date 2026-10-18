@@ -438,4 +438,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['아노 폴리(윗마을)', 'Ano Poli (Upper Town)', 'アノ・ポリ（旧市街の高台）', '성벽과 오래된 골목이 남은 언덕 위 동네로, 시내 전망이 좋습니다.', 'The hilltop old quarter of walls and lanes with city views.', '城壁や古い路地が残る丘の上の地区で、市内の眺めが良いです。'],
     ],
   },
+  chengdu: {
+    o: ['중국 서남부 쓰촨성의 성도로, 자이언트 판다 번식 연구기지가 있는 ‘판다의 도시’입니다. 얼얼하게 매운 쓰촨 요리와 훠궈의 본고장이며, 느긋한 찻집 문화로도 유명합니다.', 'Capital of Sichuan in south-west China and “City of the Giant Panda”, home to the panda breeding base; the birthplace of numbing-spicy Sichuan cooking and hotpot, and famous for its relaxed teahouse culture.', '中国西南部・四川省の省都で、ジャイアントパンダ繁育研究基地がある「パンダの街」です。しびれる辛さの四川料理と火鍋の本場で、のんびりした茶館文化でも有名です。'],
+    d: [3, 4],
+    s: [
+      ['춘시루·타이구리 주변', 'Chunxi Road / Taikoo Li', '春熙路・太古里周辺', '쇼핑가와 식당이 모인 중심가로, 지하철 2·3호선이 지납니다.', 'The central shopping and dining district on Metro Lines 2 and 3.', 'ショッピング街や飲食店が集まる中心街で、地下鉄2・3号線が通ります。'],
+      ['콴자이샹쯔(넓고 좁은 골목) 주변', 'Around Kuanzhai Xiangzi', '寛窄巷子周辺', '옛 골목을 복원한 거리로, 찻집과 쓰촨 간식 가게가 많습니다.', 'Restored old lanes with teahouses and Sichuan snacks.', '昔の路地を復元した通りで、茶館や四川の軽食の店が多いです。'],
+    ],
+  },
 };

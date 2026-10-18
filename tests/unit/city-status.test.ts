@@ -51,6 +51,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "cairo": "3/1/3 · 100% · ready",
         "cancun": "3/1/3 · 100% · ready",
         "cebu": "3/4/4 · 100% · ready",
+        "chengdu": "4/1/1 · 100% · ready",
         "chiang-mai": "3/1/3 · 100% · ready",
         "chicago": "10/1/1 · 100% · ready",
         "christchurch": "4/1/2 · 100% · ready",
@@ -128,7 +129,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "phuket": "11/1/3 · 100% · ready",
         "porto": "8/1/3 · 100% · ready",
         "prague": "4/1/5 · 100% · ready",
-        "qingdao": "4/4/3 · 100% · ready",
+        "qingdao": "4/5/3 · 100% · ready",
         "quebec-city": "8/1/3 · 100% · ready",
         "queenstown": "4/1/3 · 100% · ready",
         "reykjavik": "3/1/3 · 100% · ready",
@@ -172,7 +173,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "washington-dc": "10/1/2 · 100% · ready",
         "yeosu": "3/1/3 · 100% · ready",
         "zagreb": "3/1/3 · 100% · ready",
-        "zhangjiajie": "4/4/3 · 100% · ready",
+        "zhangjiajie": "4/5/3 · 100% · ready",
         "zurich": "3/1/3 · 100% · ready",
       }
     `);
@@ -213,6 +214,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "cairo": "pass 0/0 · ride 1/1 · meal 3/3 · snack 2/2 · attraction 3/3 · souvenir 0/0",
         "cancun": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "cebu": "pass 0/0 · ride 4/4 · meal 3/3 · snack 4/4 · attraction 4/6 · souvenir 0/0",
+        "chengdu": "pass 0/0 · ride 1/1 · meal 4/4 · snack 3/3 · attraction 1/1 · souvenir 0/0",
         "chiang-mai": "pass 0/0 · ride 1/1 · meal 3/3 · snack 4/4 · attraction 3/3 · souvenir 0/0",
         "chicago": "pass 0/0 · ride 1/1 · meal 10/10 · snack 12/12 · attraction 1/1 · souvenir 0/0",
         "christchurch": "pass 0/0 · ride 1/1 · meal 4/4 · snack 3/3 · attraction 2/2 · souvenir 0/0",
@@ -290,7 +292,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "phuket": "pass 0/0 · ride 1/1 · meal 11/11 · snack 7/7 · attraction 3/3 · souvenir 0/0",
         "porto": "pass 0/0 · ride 1/1 · meal 8/8 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "prague": "pass 1/2 · ride 1/2 · meal 4/4 · snack 4/4 · attraction 5/7 · souvenir 0/0",
-        "qingdao": "pass 0/0 · ride 4/4 · meal 4/4 · snack 3/3 · attraction 3/3 · souvenir 0/0",
+        "qingdao": "pass 0/0 · ride 5/5 · meal 4/4 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "quebec-city": "pass 0/0 · ride 1/1 · meal 8/8 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "queenstown": "pass 0/0 · ride 1/1 · meal 4/4 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "reykjavik": "pass 0/0 · ride 1/1 · meal 3/3 · snack 2/2 · attraction 3/3 · souvenir 0/0",
@@ -334,7 +336,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "washington-dc": "pass 0/0 · ride 1/1 · meal 10/10 · snack 12/12 · attraction 2/2 · souvenir 0/0",
         "yeosu": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "zagreb": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
-        "zhangjiajie": "pass 0/0 · ride 4/4 · meal 4/4 · snack 3/3 · attraction 3/3 · souvenir 0/0",
+        "zhangjiajie": "pass 0/0 · ride 5/5 · meal 4/4 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "zurich": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
       }
     `);

@@ -409,4 +409,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'thessaloniki:p1': 'https://thessaloniki.travel/pdf/Thessaloniki_EN.pdf',
   'thessaloniki:p2': 'https://thessaloniki.travel/pdf/Thessaloniki_EN.pdf',
   'thessaloniki:x': 'https://www.amth.gr/en/visit/hours-and-tickets',
+  'chengdu:p1': 'https://www.panda.org.cn/cn/pandavalley/tickets/',
+  'chengdu:p2': 'https://www.gochengdu.cn/en/article/food/89',
+  'chengdu:x': 'https://www.panda.org.cn/cn/pandavalley/tickets/',
 };

@@ -352,4 +352,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['11~3월에는 매달 첫째·셋째 일요일에 고고학 박물관 등 국립 유적지 입장이 무료입니다.', 'From November to March, national sites such as the Archaeological Museum are free on the first and third Sunday of each month.', '11〜3月は毎月第1・第3日曜日に考古学博物館など国立の遺跡が入場無料です。'],
   },
+  chengdu: {
+    p: [
+      ['3~5월', 'March–May', '3〜5月', '선선한 날씨에 판다 기지와 시내 골목을 둘러보기 좋습니다.', 'Mild weather for the panda base and the old lanes.', '穏やかな気候で、パンダ基地や市内の路地を巡るのに良い時期です。'],
+      ['9~11월', 'September–November', '9〜11月', '더위가 가라앉아 훠궈와 야시장을 즐기기 좋습니다.', 'The heat fades — perfect hotpot and night-market weather.', '暑さが和らぎ、火鍋や夜市を楽しむのに良い時期です。'],
+    ],
+    x: ['판다 기지는 오전에 판다가 가장 활발하니 개장 시간에 맞춰 가고, 입장권은 미리 온라인으로 예약하세요(60세 이상 제외).', 'Pandas are most active in the morning, so arrive at opening; book tickets online in advance (except visitors 60+).', 'パンダは午前中が最も活発なので開園時間に合わせて行き、入場券は事前にオンラインで予約しましょう（60歳以上を除く）。'],
+  },
 };

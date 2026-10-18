@@ -1061,4 +1061,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'thessaloniki:h2': 'https://www.lpth.gr/indexeg.php',
   'thessaloniki:h3': 'https://blog.thessaloniki.travel/en/experience/food-drink/105-must-try-dishes-in-thessaloniki',
   'thessaloniki:t1': 'https://www.skg-airport.gr/en/category-detailed/ctg_id-37/nd_id-425',
+  'chengdu:h1': 'https://www.panda.org.cn/cn/pandavalley/tickets/',
+  'chengdu:h2': 'https://www.gochengdu.cn/travel/food/gourmet-chengdu/have-hotpot-in-hot-summer-a3083.html',
+  'chengdu:h3': 'https://www.gochengdu.cn/en/article/food/89',
+  'chengdu:t1': 'https://www.chengdurail.com/info/1801/41152.htm',
 };

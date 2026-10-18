@@ -5002,5 +5002,20 @@
     "ko": "테살로니키 바다에서 나는 홍합으로 지은 밥 요리",
     "en": "Rice cooked with local mussels",
     "ja": "テッサロニキの海でとれたムール貝で炊いたご飯料理"
+  },
+  "chengdu:Sichuan Hotpot": {
+    "ko": "맵고 얼얼한 국물에 고기와 채소를 데쳐 먹는 쓰촨식 샤부샤부",
+    "en": "Meats and vegetables cooked in a numbing-spicy broth",
+    "ja": "しびれる辛さのスープで肉や野菜を煮て食べる四川の鍋料理"
+  },
+  "chengdu:Dandan Noodles": {
+    "ko": "매콤한 양념에 볶은 다진 돼지고기를 얹어 비벼 먹는 국물 없는 면",
+    "en": "Soupless noodles tossed in spicy sauce with fried minced pork",
+    "ja": "辛いタレとそぼろ肉を混ぜて食べる汁なし麺"
+  },
+  "chengdu:Zhong Dumplings": {
+    "ko": "달콤하고 매콤한 고추기름 소스를 끼얹은 청두식 물만두",
+    "en": "Boiled dumplings in a sweet-spicy chilli-oil sauce",
+    "ja": "甘辛いラー油のタレをかけた成都風の水餃子"
   }
 }

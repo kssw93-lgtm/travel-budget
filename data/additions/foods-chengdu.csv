@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+중국,청두,훠궈,Sichuan Hotpot,맵고 얼얼한 국물에 고기와 채소를 데쳐 먹는 쓰촨식 샤부샤부,중,,대기,Go Chengdu,https://www.gochengdu.cn/travel/food/gourmet-chengdu/have-hotpot-in-hot-summer-a3083.html,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+중국,청두,단단면,Dandan Noodles,매콤한 양념에 볶은 다진 돼지고기를 얹어 비벼 먹는 국물 없는 면,저,,대기,Go Chengdu,https://www.gochengdu.cn/en/article/food/89,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+중국,청두,종 만두,Zhong Dumplings,달콤하고 매콤한 고추기름 소스를 끼얹은 청두식 물만두,저,,대기,Go Chengdu,https://www.gochengdu.cn/en/article/food/89,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

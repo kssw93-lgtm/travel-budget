@@ -2071,6 +2071,34 @@
     "missing": [],
     "computable": true
   },
+  "chengdu": {
+    "counts": {
+      "food": 4,
+      "transport": 1,
+      "attraction": 1
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "sokcho": {
     "counts": {
       "food": 43,
@@ -2438,12 +2466,12 @@
   "qingdao": {
     "counts": {
       "food": 4,
-      "transport": 4,
+      "transport": 5,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 4,
+      "ride": 5,
       "meal": 4,
       "snack": 3,
       "drink": 3,
@@ -2452,7 +2480,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 4,
+      "ride": 5,
       "meal": 4,
       "snack": 3,
       "drink": 3,
@@ -2690,12 +2718,12 @@
   "zhangjiajie": {
     "counts": {
       "food": 4,
-      "transport": 4,
+      "transport": 5,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 4,
+      "ride": 5,
       "meal": 4,
       "snack": 3,
       "drink": 3,
@@ -2704,7 +2732,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 4,
+      "ride": 5,
       "meal": 4,
       "snack": 3,
       "drink": 3,

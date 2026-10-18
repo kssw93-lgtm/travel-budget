@@ -760,6 +760,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "chengdu",
+    "country": "중국",
+    "countryEn": "China",
+    "nameKo": "청두",
+    "nameEn": "Chengdu",
+    "currency": "CNY",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "sokcho",
     "country": "한국",
     "countryEn": "South Korea",

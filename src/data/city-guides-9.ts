@@ -720,4 +720,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 마케도니아 공항 1번 터미널 4번 출구 앞에서 01X번(심야 01N번) 버스를 타면 시내와 기차역을 거쳐 시외버스 터미널까지 갑니다. 공항 노선은 일반 승차권이 아닌 전용 1회권이 필요합니다.', 'Airport to city: bus 01X (night 01N) leaves from Exit 4 of Terminal 1 for the centre, the railway station and the intercity bus terminal; it needs its own single ticket, not a standard one.', '空港から市内へ：マケドニア空港第1ターミナル4番出口前から01X番（深夜は01N番）バスで市内や鉄道駅を経て長距離バスターミナルまで行けます。空港路線は通常の乗車券ではなく専用の1回券が必要です。'],
     ],
   },
+  chengdu: {
+    h: [
+      ['청두 판다 번식 연구기지', 'Chengdu Research Base of Giant Panda Breeding', '成都ジャイアントパンダ繁育研究基地', '숲속 넓은 부지에서 자이언트 판다와 레서판다를 볼 수 있는 연구기지로, 온라인 사전 예약이 필요합니다.', 'See giant and red pandas in leafy grounds; online booking required.', '緑豊かな広い敷地でジャイアントパンダやレッサーパンダが見られる研究基地で、オンラインでの事前予約が必要です。'],
+      ['쓰촨 훠궈', 'Sichuan hotpot', '四川火鍋', '맵고 얼얼한 국물에 소고기·내장 등을 데쳐 먹으며, 처음이라면 맑은 국물과 반반인 원앙 냄비를 고르세요.', 'Cook beef, tripe and more in a numbing-spicy broth; first-timers should try the half-and-half “yuan-yang” pot.', 'しびれる辛さのスープで牛肉や内臓などをしゃぶしゃぶして食べます。初めてなら辛いスープと白湯が半分ずつの鴛鴦鍋を選びましょう。'],
+      ['청두 간식', 'Chengdu snacks', '成都の軽食', '단단면, 종 만두, 촨촨샹 꼬치 등 저렴한 쓰촨 간식을 골목과 야시장에서 맛볼 수 있습니다.', 'Dandan noodles, Zhong dumplings and chuan chuan skewers in lanes and night markets.', '担担麺や鍾水餃、串串香など手頃な四川の軽食を路地や夜市で味わえます。'],
+    ],
+    t: [
+      ['지하철은 거리에 따라 2위안부터 요금이 오르며, 1일권(20위안)으로 하루 동안 무제한 탈 수 있습니다. 톈푸 국제공항은 18호선 급행으로 시내 남역까지 약 37분 걸립니다.', 'The metro starts at ¥2 and rises with distance; a ¥20 day ticket gives unlimited rides. From Tianfu International Airport, Line 18 express reaches South Railway Station in about 37 minutes.', '地下鉄は2元から距離に応じて運賃が上がり、1日券（20元）で一日乗り放題です。天府国際空港からは18号線の快速で成都南駅まで約37分です。'],
+    ],
+  },
 };

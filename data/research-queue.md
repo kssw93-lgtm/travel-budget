@@ -157,6 +157,8 @@
 | 밴쿠버 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 오클랜드 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오클랜드 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 청두 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 청두 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 속초 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 통영 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 대구 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1012,6 +1014,9 @@
 | BNE-AT-003 | 브리즈번 | QAGOMA (입장 무료) | 0 AUD | A | 예 | 재검증 | [QAGOMA](https://www.qagoma.qld.gov.au/corporate-information/conditions-of-entry/) |
 | SKG-TR-001 | 테살로니키 | 테살로니키 지하철 1회권 | 0.6 EUR | A | 예 | 재검증 | [Thessaloniki Metro](https://www.thessmetro.gr/en/tickets/) |
 | SKG-AT-001 | 테살로니키 | 테살로니키 고고학 박물관 (성인) | 10 EUR | A | 예 | 재검증 | [Archaeological Museum of Thessaloniki](https://www.amth.gr/en/visit/hours-and-tickets) |
+| CTU-TR-001 | 청두 | 청두 지하철 기본운임(4km까지) | 2 CNY | A | 예 | 재검증 | [Chengdu Rail Transit](https://www.chengdurail.com/stroke/Inquire.html) |
+| CTU-AT-001 | 청두 | 청두 판다 번식 연구기지 (성인) | 55 CNY | A | 예 | 재검증 | [Chengdu Research Base of Giant Panda Breeding](https://www.panda.org.cn/cn/pandavalley/tickets/) |
+| CTU-AT-002 | 청두 | 청두 판다 번식 연구기지 (아동 무료) | 0 CNY | A | 예 | 재검증 | [Chengdu Research Base of Giant Panda Breeding](https://www.panda.org.cn/cn/pandavalley/tickets/) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

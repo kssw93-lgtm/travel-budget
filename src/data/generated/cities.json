@@ -1320,6 +1320,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "lausanne",
+    "country": "스위스",
+    "countryEn": "Switzerland",
+    "nameKo": "로잔",
+    "nameEn": "Lausanne",
+    "currency": "CHF",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "copenhagen",
     "country": "덴마크",
     "countryEn": "Denmark",

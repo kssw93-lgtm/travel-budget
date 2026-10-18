@@ -614,4 +614,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['레엔트 지구', 'Lend district', 'レント地区', '쿤스트하우스가 있는 무어강 서쪽의 젊은 분위기의 지역입니다.', 'The lively area west of the Mur, home to the Kunsthaus.', 'クンストハウスがあるムーア川西側の若々しい雰囲気の地区です。'],
     ],
   },
+  lausanne: {
+    o: ['레만호 북쪽 언덕에 자리한 스위스 서부의 도시로, 국제올림픽위원회 본부가 있는 ‘올림픽 수도’입니다. 호숫가 우시에서 언덕 위 대성당까지 지하철이 오르내리고, 근교에는 세계유산 라보 포도밭이 펼쳐집니다.', 'A hillside city on the north shore of Lake Geneva and the “Olympic Capital”, home to the International Olympic Committee; a metro climbs from lakeside Ouchy to the cathedral, and the UNESCO-listed Lavaux vineyards lie nearby.', 'レマン湖北岸の丘に広がるスイス西部の街で、国際オリンピック委員会の本部がある「オリンピックの首都」です。湖畔のウシーから丘の上の大聖堂まで地下鉄が上り下りし、近郊には世界遺産ラヴォーのブドウ畑が広がります。'],
+    d: [1, 2],
+    s: [
+      ['플롱·구시가지', 'Flon / Old Town', 'フロン・旧市街', '지하철역이 모이고 대성당과 식당가가 가깝습니다.', 'The metro hub, close to the cathedral and restaurants.', '地下鉄の駅が集まり、大聖堂や飲食店街に近いです。'],
+      ['우시(호숫가)', 'Ouchy (lakeside)', 'ウシー（湖畔）', '올림픽 박물관과 호숫가 산책로가 있는 지역입니다.', 'Lakeside, home to the Olympic Museum and promenade.', 'オリンピック博物館や湖畔の遊歩道がある地区です。'],
+    ],
+  },
 };

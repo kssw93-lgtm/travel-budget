@@ -7450,6 +7450,60 @@
     "note": "GPT 관광청 공식 안내 기준(2026-10-14)"
   },
   {
+    "cityId": "lausanne",
+    "nameKo": "파페 보두아",
+    "nameEn": "Papet Vaudois",
+    "reason": "대파·감자 요리에 양배추 소시지를 곁들인 보 지방 전통 음식",
+    "reasonEn": "Leek and potato stew with cabbage sausage",
+    "desc": {
+      "ko": "대파·감자 요리에 양배추 소시지를 곁들인 보 지방 전통 음식",
+      "en": "Leek and potato stew with cabbage sausage",
+      "ja": "ネギとじゃがいもの煮込みにキャベツ入りソーセージを添えた料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Lausanne Tourisme",
+    "recommendUrl": "https://www.lausanne-tourisme.ch/en/the-lausanner/articles/vaudois-roots/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "lausanne",
+    "nameKo": "치즈 퐁뒤",
+    "nameEn": "Cheese Fondue",
+    "reason": "두 가지 치즈를 섞어 녹인 퐁뒤",
+    "reasonEn": "Melted cheese fondue, often half-and-half",
+    "desc": {
+      "ko": "두 가지 치즈를 섞어 녹인 퐁뒤",
+      "en": "Melted cheese fondue, often half-and-half",
+      "ja": "2種類のチーズを溶かしたフォンデュ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Lausanne Tourisme",
+    "recommendUrl": "https://www.lausanne-tourisme.ch/en/explore/cafe-du-grutli/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "lausanne",
+    "nameKo": "카락",
+    "nameEn": "Carac",
+    "reason": "보주 색인 초록색 아이싱을 올린 작은 타르트",
+    "reasonEn": "Small tart with green icing in the canton’s colours",
+    "desc": {
+      "ko": "보주 색인 초록색 아이싱을 올린 작은 타르트",
+      "en": "Small tart with green icing in the canton’s colours",
+      "ja": "州の色である緑のアイシングをのせた小さなタルト"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Lausanne Tourisme",
+    "recommendUrl": "https://www.lausanne-tourisme.ch/en/the-lausanner/articles/vaud-specialities/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "leipzig",
     "nameKo": "라이프치히 레르헤",
     "nameEn": "Leipziger Lerche",

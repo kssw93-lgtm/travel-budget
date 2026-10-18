@@ -5332,5 +5332,20 @@
     "ko": "햄·소시지·치즈를 나무판에 담아 내는 슈타이어마르크식 모둠",
     "en": "Styrian platter of cured meats and cheese on a wooden board",
     "ja": "ハムやソーセージ、チーズを木の板に盛ったシュタイアーマルク風の盛り合わせ"
+  },
+  "lausanne:Papet Vaudois": {
+    "ko": "대파·감자 요리에 양배추 소시지를 곁들인 보 지방 전통 음식",
+    "en": "Leek and potato stew with cabbage sausage",
+    "ja": "ネギとじゃがいもの煮込みにキャベツ入りソーセージを添えた料理"
+  },
+  "lausanne:Cheese Fondue": {
+    "ko": "두 가지 치즈를 섞어 녹인 퐁뒤",
+    "en": "Melted cheese fondue, often half-and-half",
+    "ja": "2種類のチーズを溶かしたフォンデュ"
+  },
+  "lausanne:Carac": {
+    "ko": "보주 색인 초록색 아이싱을 올린 작은 타르트",
+    "en": "Small tart with green icing in the canton’s colours",
+    "ja": "州の色である緑のアイシングをのせた小さなタルト"
   }
 }

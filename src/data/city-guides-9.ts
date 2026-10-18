@@ -947,4 +947,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['그라츠 공항도 시내 요금 구역(101)에 속해 시내 1시간권으로 갈 수 있습니다. 중앙역에서 S반 S1을 타거나, 트램 5번 종점에서 630번 버스로 갈아탑니다.', 'Graz Airport is inside the city fare zone (101), so a city hourly ticket works: take S-Bahn S1 from the Hauptbahnhof, or tram 5 then bus 630.', 'グラーツ空港も市内の運賃ゾーン（101）に含まれるため、市内の1時間券で行けます。中央駅からSバーンS1に乗るか、トラム5番の終点で630番バスに乗り換えます。'],
     ],
   },
+  lausanne: {
+    h: [
+      ['올림픽 박물관', 'The Olympic Museum', 'オリンピック博物館', '호숫가 공원에 있는 올림픽 역사 박물관으로, 15세 이하는 무료입니다.', 'The lakeside museum of Olympic history; children up to 15 are free.', '湖畔の公園にあるオリンピックの歴史博物館で、15歳以下は無料です。'],
+      ['라보 포도밭', 'Lavaux vineyards', 'ラヴォーのブドウ畑', '호수를 향해 계단식으로 펼쳐진 세계유산 포도밭으로, 로잔에서 기차로 금방 갑니다.', 'UNESCO-listed terraced vineyards above the lake, a short train ride away.', '湖に向かって段々に広がる世界遺産のブドウ畑で、ローザンヌから列車ですぐです。'],
+      ['파페 보두아', 'Papet vaudois', 'パペ・ヴォードワ', '대파와 감자를 크림·화이트와인으로 익혀 양배추 소시지를 곁들인 보 지방 요리입니다.', 'Leeks and potatoes with cream and white wine, served with cabbage sausage.', 'ネギとじゃがいもをクリームと白ワインで煮て、キャベツ入りソーセージを添えたヴォー地方の料理です。'],
+    ],
+    t: [
+      ['로잔 호텔·유스호스텔·캠핑장 투숙객은 머무는 동안(최대 15일) 대중교통을 무료로 타는 로잔 교통카드를 받습니다. 개인 숙소(아파트·방 임대)는 해당되지 않습니다.', 'Guests in Lausanne hotels, hostels and campsites get a free Lausanne Transport Card for their stay (up to 15 days); private rentals are excluded.', 'ローザンヌのホテル・ユースホステル・キャンプ場の宿泊者は、滞在中（最大15日）公共交通に無料で乗れるローザンヌ交通カードがもらえます。個人宅の貸し部屋などは対象外です。'],
+    ],
+  },
 };

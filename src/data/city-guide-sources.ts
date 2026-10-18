@@ -1156,4 +1156,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'graz:h2': 'https://www.graztourismus.at/de/sightseeing-kultur/graz-entdecken/winter-fruehling',
   'graz:h3': 'https://www.graztourismus.at/de/essen-trinken-shoppen/genusshauptstadt-graz/verkostungen',
   'graz:t1': 'https://www.verbundlinie.at/en/service-network/service/arriving-in-graz',
+  'lausanne:h1': 'https://www.olympics.com/museum/events/entrance-ticket',
+  'lausanne:h2': 'https://www.lausanne-tourisme.ch/en/the-lausanner/articles/vaud-specialities/',
+  'lausanne:h3': 'https://www.lausanne-tourisme.ch/en/the-lausanner/articles/vaudois-roots/',
+  'lausanne:t1': 'https://www.lausanne-tourisme.ch/en/lausanne-transport-card-and-more/',
 };

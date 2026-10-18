@@ -495,4 +495,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['19세 미만은 요아네움 박물관(에겐베르크 성 포함)에 무료로 입장할 수 있습니다.', 'Visitors under 19 enter Joanneum museums, including Schloss Eggenberg, free.', '19歳未満はヨアネウム博物館（エッゲンベルク城を含む）に無料で入場できます。'],
   },
+  lausanne: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '호숫가 산책과 유람선, 라보 포도밭 하이킹을 즐기기 좋습니다.', 'Lakeside walks, boat trips and Lavaux vineyard hikes.', '湖畔の散策や遊覧船、ラヴォーのブドウ畑のハイキングを楽しめます。'],
+    ],
+    x: ['파페 보두아(감자·대파 요리)는 주로 9~4월에 먹는 겨울 음식입니다.', 'Papet vaudois (leek and potato with sausage) is mostly a September–April dish.', 'パペ・ヴォードワ（ネギとじゃがいもの料理）は主に9〜4月に食べる冬の料理です。'],
+  },
 };

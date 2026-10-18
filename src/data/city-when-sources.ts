@@ -464,4 +464,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'wellington:x': 'https://www.metlink.org.nz/getting-started/tickets-and-fares',
   'graz:p1': 'https://www.graztourismus.at/incoming/de/programm-vorschlaege/steirischer-wein-und-backhenderl_gp-2474',
   'graz:x': 'https://www.museum-joanneum.at/en/palace-and-gardens-schloss-eggenberg/your-visit/admission/free-entry',
+  'lausanne:p1': 'https://www.lausanne-tourisme.ch/en/seasons/',
+  'lausanne:x': 'https://www.lausanne-tourisme.ch/en/the-lausanner/articles/vaudois-roots/',
 };

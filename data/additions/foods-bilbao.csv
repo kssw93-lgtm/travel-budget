@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+스페인,빌바오,바칼라오 알 필필,Bacalao al Pil-Pil,올리브유와 마늘로 대구의 젤라틴을 끌어내 소스를 만든 바스크 대표 요리,중,,대기,Bilbao Turismo,https://www.bilbaoturismo.net/BilbaoTurismo/es/los-clasicos-de-la-gastronomia,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+스페인,빌바오,치피로네스 엔 수 틴타,Txipirones en su Tinta,작은 오징어를 먹물 소스로 조린 요리,중,,대기,Bilbao Turismo,https://www.bilbaoturismo.net/BilbaoTurismo/es/buscador-de-pintxos/saibigain,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+스페인,빌바오,핀초,Pintxos,빵 위에 다양한 재료를 얹은 바스크식 한입 요리,저,,대기,Bilbao Turismo,https://www.bilbaoturismo.net/BilbaoTurismo/es/buscador-de-pintxos/gure-toki,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

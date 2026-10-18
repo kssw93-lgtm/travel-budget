@@ -120,6 +120,10 @@
 | 리버풀 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 하이델베르크 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 하이델베르크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 빌바오 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 빌바오 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 툴루즈 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 툴루즈 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 마카오 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 마카오 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1086,6 +1090,12 @@
 | HEI-TR-001 | 하이델베르크 | VRN 하이델베르크 시내 1회권(단거리~시내) | 2.3~3.5 EUR | A | 예 | 재검증 | [VRN](https://www.vrn.de/mam/tickets/tarif/dokumente/2026/fahrpreistabelle-2026.pdf) |
 | HEI-AT-001 | 하이델베르크 | 하이델베르크 고성 슐로스티켓 (성인, 케이블카 포함) | 11 EUR | A | 예 | 재검증 | [Staatliche Schlösser und Gärten Baden-Württemberg](https://www.schloss-heidelberg.de/en/visitor-information) |
 | HEI-AT-002 | 하이델베르크 | 하이델베르크 고성 슐로스티켓 (할인, 케이블카 포함) | 5.5 EUR | A | 예 | 재검증 | [Staatliche Schlösser und Gärten Baden-Württemberg](https://www.schloss-heidelberg.de/en/visitor-information) |
+| BIO-TR-001 | 빌바오 | 빌보부스 1회권 | 1.7 EUR | A | 예 | 재검증 | [Ayuntamiento de Bilbao](https://www.bilbao.eus/cs/Satellite/bilbobus/es/tarifas) |
+| BIO-AT-001 | 빌바오 | 구겐하임 미술관 빌바오 (성인) | 15 EUR | A | 예 | 재검증 | [Guggenheim Museum Bilbao](https://tickets.guggenheim-bilbao.eus/en/369-tickets/2940-entrada-museo/info) |
+| BIO-AT-002 | 빌바오 | 구겐하임 미술관 빌바오 (18세 미만 무료) | 0 EUR | A | 예 | 재검증 | [Guggenheim Museum Bilbao](https://tickets.guggenheim-bilbao.eus/en) |
+| TLS-TR-001 | 툴루즈 | 티세오 1회권 | 1.9 EUR | A | 예 | 재검증 | [Tisséo](https://eboutique.tisseo.fr/fr/produits/1-deplacement-pour-tous-occ) |
+| TLS-AT-001 | 툴루즈 | 시테 드 레스파스 1일권 (성인) | 29 EUR | A | 예 | 재검증 | [Cité de l’espace](https://en.cite-espace.com/visit/tickets-and-stays/1-day-ticket/) |
+| TLS-AT-002 | 툴루즈 | 시테 드 레스파스 1일권 (아동) | 22.5 EUR | A | 예 | 재검증 | [Cité de l’espace](https://en.cite-espace.com/visit/tickets-and-stays/1-day-ticket/) |
 | GRX-TR-001 | 그라나다 | 그라나다 시내버스 1회권 | 1.6 EUR | A | 예 | 재검증 | [Turismo de Granada](https://turismo.granada.org/es/bus-urbano) |
 | GRX-AT-001 | 그라나다 | 알람브라 일반 입장(낮) (성인) | 21~22.27 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://tickets.alhambra-patronato.es/producto/alhambra-general/) |
 | GRX-AT-002 | 그라나다 | 알람브라 (아동) | 0 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://www.alhambra-patronato.es/notas-prensa/la-alhambra-actualiza-sus-tarifas-en-agosto) |

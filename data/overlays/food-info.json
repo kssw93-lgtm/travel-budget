@@ -4927,5 +4927,35 @@
     "ko": "누가 트뤼플을 채운 하이델베르크 명물 초콜릿",
     "en": "Heidelberg’s signature nougat-truffle chocolate",
     "ja": "ヌガー・トリュフを詰めたハイデルベルク名物のチョコレート"
+  },
+  "bilbao:Bacalao al Pil-Pil": {
+    "ko": "올리브유와 마늘로 대구의 젤라틴을 끌어내 소스를 만든 바스크 대표 요리",
+    "en": "Salt cod in an emulsified olive-oil and garlic sauce",
+    "ja": "オリーブオイルとにんにくでタラのゼラチンを乳化させたソースで仕上げるバスク料理"
+  },
+  "bilbao:Txipirones en su Tinta": {
+    "ko": "작은 오징어를 먹물 소스로 조린 요리",
+    "en": "Baby squid stewed in their own ink",
+    "ja": "小さなイカをイカ墨のソースで煮込んだ料理"
+  },
+  "bilbao:Pintxos": {
+    "ko": "빵 위에 다양한 재료를 얹은 바스크식 한입 요리",
+    "en": "Basque bite-sized snacks, often on bread",
+    "ja": "パンの上にさまざまな具をのせたバスクの一口料理"
+  },
+  "toulouse:Cassoulet": {
+    "ko": "흰콩과 오리 콩피, 툴루즈 소시지를 질그릇에 오래 익힌 요리",
+    "en": "White beans, duck confit and Toulouse sausage slow-cooked in a cassole",
+    "ja": "白いんげん豆と鴨のコンフィ、トゥールーズ・ソーセージを土鍋で煮込んだ料理"
+  },
+  "toulouse:Saucisse de Toulouse": {
+    "ko": "카술레와 바비큐에 빠지지 않는 툴루즈식 돼지고기 소시지",
+    "en": "Toulouse’s pork sausage, star of cassoulet and barbecues",
+    "ja": "カスレやバーベキューに欠かせないトゥールーズの豚肉ソーセージ"
+  },
+  "toulouse:Violet Sweets": {
+    "ko": "툴루즈의 상징인 제비꽃으로 만든 사탕과 과자",
+    "en": "Candies and treats made with Toulouse’s emblem violet",
+    "ja": "トゥールーズのシンボルのスミレで作ったキャンディーやお菓子"
   }
 }

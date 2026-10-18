@@ -2217,6 +2217,60 @@
     "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
   },
   {
+    "cityId": "bilbao",
+    "nameKo": "바칼라오 알 필필",
+    "nameEn": "Bacalao al Pil-Pil",
+    "reason": "올리브유와 마늘로 대구의 젤라틴을 끌어내 소스를 만든 바스크 대표 요리",
+    "reasonEn": "Salt cod in an emulsified olive-oil and garlic sauce",
+    "desc": {
+      "ko": "올리브유와 마늘로 대구의 젤라틴을 끌어내 소스를 만든 바스크 대표 요리",
+      "en": "Salt cod in an emulsified olive-oil and garlic sauce",
+      "ja": "オリーブオイルとにんにくでタラのゼラチンを乳化させたソースで仕上げるバスク料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Bilbao Turismo",
+    "recommendUrl": "https://www.bilbaoturismo.net/BilbaoTurismo/es/los-clasicos-de-la-gastronomia",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "bilbao",
+    "nameKo": "치피로네스 엔 수 틴타",
+    "nameEn": "Txipirones en su Tinta",
+    "reason": "작은 오징어를 먹물 소스로 조린 요리",
+    "reasonEn": "Baby squid stewed in their own ink",
+    "desc": {
+      "ko": "작은 오징어를 먹물 소스로 조린 요리",
+      "en": "Baby squid stewed in their own ink",
+      "ja": "小さなイカをイカ墨のソースで煮込んだ料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Bilbao Turismo",
+    "recommendUrl": "https://www.bilbaoturismo.net/BilbaoTurismo/es/buscador-de-pintxos/saibigain",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "bilbao",
+    "nameKo": "핀초",
+    "nameEn": "Pintxos",
+    "reason": "빵 위에 다양한 재료를 얹은 바스크식 한입 요리",
+    "reasonEn": "Basque bite-sized snacks, often on bread",
+    "desc": {
+      "ko": "빵 위에 다양한 재료를 얹은 바스크식 한입 요리",
+      "en": "Basque bite-sized snacks, often on bread",
+      "ja": "パンの上にさまざまな具をのせたバスクの一口料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Bilbao Turismo",
+    "recommendUrl": "https://www.bilbaoturismo.net/BilbaoTurismo/es/buscador-de-pintxos/gure-toki",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "boracay",
     "nameKo": "레촌",
     "nameEn": "Lechon",
@@ -10749,6 +10803,60 @@
     "priceStatus": "대기",
     "recommendSource": "Destination Toronto",
     "recommendUrl": "https://www.destinationtoronto.com/travel-trade/tools-resources/itineraries/more-ideas/canadian-experiences/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "toulouse",
+    "nameKo": "카술레",
+    "nameEn": "Cassoulet",
+    "reason": "흰콩과 오리 콩피, 툴루즈 소시지를 질그릇에 오래 익힌 요리",
+    "reasonEn": "White beans, duck confit and Toulouse sausage slow-cooked in a cassole",
+    "desc": {
+      "ko": "흰콩과 오리 콩피, 툴루즈 소시지를 질그릇에 오래 익힌 요리",
+      "en": "White beans, duck confit and Toulouse sausage slow-cooked in a cassole",
+      "ja": "白いんげん豆と鴨のコンフィ、トゥールーズ・ソーセージを土鍋で煮込んだ料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Toulouse Tourisme",
+    "recommendUrl": "https://www.toulouse-tourisme.com/manger-boire-un-verre/les-specialites-culinaires-de-toulouse/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "toulouse",
+    "nameKo": "툴루즈 소시지",
+    "nameEn": "Saucisse de Toulouse",
+    "reason": "카술레와 바비큐에 빠지지 않는 툴루즈식 돼지고기 소시지",
+    "reasonEn": "Toulouse’s pork sausage, star of cassoulet and barbecues",
+    "desc": {
+      "ko": "카술레와 바비큐에 빠지지 않는 툴루즈식 돼지고기 소시지",
+      "en": "Toulouse’s pork sausage, star of cassoulet and barbecues",
+      "ja": "カスレやバーベキューに欠かせないトゥールーズの豚肉ソーセージ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Toulouse Tourisme",
+    "recommendUrl": "https://www.toulouse-tourisme.com/manger-boire-un-verre/les-specialites-culinaires-de-toulouse/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "toulouse",
+    "nameKo": "제비꽃 사탕",
+    "nameEn": "Violet Sweets",
+    "reason": "툴루즈의 상징인 제비꽃으로 만든 사탕과 과자",
+    "reasonEn": "Candies and treats made with Toulouse’s emblem violet",
+    "desc": {
+      "ko": "툴루즈의 상징인 제비꽃으로 만든 사탕과 과자",
+      "en": "Candies and treats made with Toulouse’s emblem violet",
+      "ja": "トゥールーズのシンボルのスミレで作ったキャンディーやお菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Toulouse Tourisme",
+    "recommendUrl": "https://www.toulouse-tourisme.com/manger-boire-un-verre/les-specialites-culinaires-de-toulouse/",
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {

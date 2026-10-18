@@ -580,6 +580,26 @@
     "stage": "파일럿"
   },
   {
+    "id": "bilbao",
+    "country": "스페인",
+    "countryEn": "Spain",
+    "nameKo": "빌바오",
+    "nameEn": "Bilbao",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "toulouse",
+    "country": "프랑스",
+    "countryEn": "France",
+    "nameKo": "툴루즈",
+    "nameEn": "Toulouse",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "macau",
     "country": "중국 마카오",
     "countryEn": "Macau",

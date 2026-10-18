@@ -1595,6 +1595,62 @@
     "missing": [],
     "computable": true
   },
+  "bilbao": {
+    "counts": {
+      "food": 6,
+      "transport": 1,
+      "attraction": 1
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 6,
+      "snack": 5,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 6,
+      "snack": 5,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "toulouse": {
+    "counts": {
+      "food": 4,
+      "transport": 1,
+      "attraction": 1
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "macau": {
     "counts": {
       "food": 4,
@@ -2662,12 +2718,12 @@
   "madrid": {
     "counts": {
       "food": 6,
-      "transport": 7,
+      "transport": 8,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 7,
+      "ride": 8,
       "meal": 6,
       "snack": 5,
       "drink": 3,
@@ -2676,7 +2732,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 7,
+      "ride": 8,
       "meal": 6,
       "snack": 5,
       "drink": 3,
@@ -2690,12 +2746,12 @@
   "nice": {
     "counts": {
       "food": 4,
-      "transport": 7,
+      "transport": 8,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 7,
+      "ride": 8,
       "meal": 4,
       "snack": 3,
       "drink": 3,
@@ -2704,7 +2760,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 7,
+      "ride": 8,
       "meal": 4,
       "snack": 3,
       "drink": 3,

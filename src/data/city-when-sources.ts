@@ -395,4 +395,10 @@ export const WHEN_SOURCES: Record<string, string> = {
   'heidelberg:p1': 'https://www.schloss-heidelberg.de/en/visitor-information',
   'heidelberg:p2': 'https://www.heidelberg-marketing.de/en/book/travel-packages/individuals/winter-magic',
   'heidelberg:x': 'https://www.schloss-heidelberg.de/en/visitor-information',
+  'bilbao:p1': 'https://www.bilbaoturismo.net/BilbaoTurismo/es/los-clasicos-de-la-gastronomia',
+  'bilbao:p2': 'https://www.guggenheim-bilbao.eus/en/hours-and-admission',
+  'bilbao:x': 'https://tickets.guggenheim-bilbao.eus/en',
+  'toulouse:p1': 'https://www.toulouse-tourisme.com/manger-boire-un-verre/les-specialites-culinaires-de-toulouse/',
+  'toulouse:p2': 'https://en.cite-espace.com/visit/tickets-and-stays/1-day-ticket/',
+  'toulouse:x': 'https://eboutique.tisseo.fr/fr/produits/1-deplacement-navette-aeroport-occ',
 };

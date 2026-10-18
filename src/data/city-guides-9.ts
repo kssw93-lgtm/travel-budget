@@ -670,4 +670,24 @@ export const NOTES_9: Record<string, Compact> = {
       ['시내 대중교통 1회권(시내 요금)은 90분 동안 유효합니다. 정류장 몇 개만 타면 더 싼 단거리권(쿠르츠슈트레케)을 쓸 수 있습니다.', 'A city single (Stadttarif HD) is valid for 90 minutes; for just a few stops, the cheaper short-hop ticket (Kurzstrecke) works.', '市内の公共交通の1回券（市内料金）は90分間有効です。数駅だけ乗るなら安い短距離券（クルツシュトレッケ）が使えます。'],
     ],
   },
+  bilbao: {
+    h: [
+      ['구겐하임 미술관 빌바오', 'Guggenheim Museum Bilbao', 'グッゲンハイム美術館ビルバオ', '프랭크 게리가 설계한 티타늄 건물의 현대미술관으로, 입장권에 오디오 가이드가 포함되고 18세 미만은 무료입니다.', 'Frank Gehry’s titanium-clad modern art museum; the ticket includes an audio guide, and under-18s are free.', 'フランク・ゲーリー設計のチタンの建物の現代美術館で、入場券に音声ガイドが含まれ、18歳未満は無料です。'],
+      ['구시가지 핀초 바', 'Old Town pintxo bars', '旧市街のピンチョス・バル', '바 카운터에 놓인 핀초를 골라 먹으며 여러 바를 돌아다니는 것이 빌바오식입니다.', 'Pick pintxos from the counters and hop from bar to bar, Bilbao-style.', 'カウンターに並ぶピンチョスを選んで食べ、何軒もバルを巡るのがビルバオ流です。'],
+      ['바스크 전통 요리', 'Basque classics', 'バスクの伝統料理', '바칼라오 알 필필(대구 요리)과 오징어 먹물 요리 등 바스크 전통 요리를 맛볼 수 있습니다.', 'Taste bacalao al pil-pil, squid in its ink and other Basque classics.', 'バカラオ・アル・ピルピル（タラ料理）やイカの墨煮などバスクの伝統料理が味わえます。'],
+    ],
+    t: [
+      ['시내버스(빌보부스) 1회권은 1.70유로이며, 교통카드 바릭(Barik)을 쓰면 훨씬 싸고 45분 안에 무료 환승이 됩니다. 공항에서는 비스카이부스 A3247번이 시내까지 갑니다.', 'A Bilbobus single costs €1.70; a Barik card is much cheaper and gives free transfers within 45 minutes. Bizkaibus A3247 links the airport to the city.', '市内バス（ビルボブス）の1回券は1.70ユーロで、交通カード「バリック（Barik）」を使うとずっと安く、45分以内の乗り換えが無料です。空港からはビスカイブスA3247番で市内へ行けます。'],
+    ],
+  },
+  toulouse: {
+    h: [
+      ['시테 드 레스파스', 'Cité de l’espace', 'シテ・ドゥ・レスパス', '실물 크기 로켓과 우주정거장 모형, 플라네타리움이 있는 우주 테마 과학관입니다.', 'A space theme park with a full-size rocket, space-station mock-ups and a planetarium.', '実物大のロケットや宇宙ステーションの模型、プラネタリウムがある宇宙テーマの科学館です。'],
+      ['카술레', 'Cassoulet', 'カスレ', '흰콩과 오리 콩피, 툴루즈 소시지를 질그릇에 오래 익힌 툴루즈 대표 요리입니다.', 'Toulouse’s classic of white beans, duck confit and Toulouse sausage slow-cooked in an earthenware cassole.', '白いんげん豆と鴨のコンフィ、トゥールーズ・ソーセージを土鍋でじっくり煮込んだトゥールーズの代表料理です。'],
+      ['제비꽃(비올레트)', 'Toulouse violets', 'スミレ（ヴィオレット）', '도시의 상징 꽃으로, 미디 운하에 떠 있는 배 ‘제비꽃의 집’에서 사탕과 기념품을 살 수 있습니다.', 'The city’s emblem flower; find violet sweets and gifts at the Maison de la Violette, a barge on the Canal du Midi.', '街のシンボルの花で、ミディ運河に浮かぶ船「スミレの家」でお菓子やお土産が買えます。'],
+    ],
+    t: [
+      ['공항에서 시내: 툴루즈-블라냐크 공항에서 공항 셔틀을 타면 약 15분 간격으로 마타비오역까지 가며, 시간은 20~45분 걸립니다. 공항 승차권 1장으로 시내 교통도 이어서 탈 수 있습니다.', 'Airport to city: the airport shuttle runs to Matabiau station about every 15 minutes, taking 20–45 minutes; the airport ticket also covers onward Tisséo travel.', '空港から市内へ：トゥールーズ・ブラニャック空港から空港シャトルで約15分間隔でマタビオ駅へ行け、所要20〜45分です。空港の乗車券1枚で市内の交通にも乗り継げます。'],
+    ],
+  },
 };

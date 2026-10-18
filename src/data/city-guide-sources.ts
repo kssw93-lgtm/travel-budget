@@ -1041,4 +1041,12 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'heidelberg:h2': 'https://www.vielmehr.heidelberg.de/dankstelle/chocolaterie-knoesel-heidelberger-studentenkuss/',
   'heidelberg:h3': 'https://www.heidelberg-marketing.de/en/discover/culinary-heidelberg',
   'heidelberg:t1': 'https://www.vrn.de/tickets/tarifsystem/fahrpreise/index.html',
+  'bilbao:h1': 'https://tickets.guggenheim-bilbao.eus/en',
+  'bilbao:h2': 'https://www.bilbaoturismo.net/BilbaoTurismo/es/buscador-de-pintxos/gure-toki',
+  'bilbao:h3': 'https://www.bilbaoturismo.net/BilbaoTurismo/es/los-clasicos-de-la-gastronomia',
+  'bilbao:t1': 'https://www.bilbao.eus/cs/Satellite/bilbobus/es/tarifas',
+  'toulouse:h1': 'https://en.cite-espace.com/visit/tickets-and-stays/1-day-ticket/',
+  'toulouse:h2': 'https://www.toulouse-tourisme.com/manger-boire-un-verre/les-specialites-culinaires-de-toulouse/',
+  'toulouse:h3': 'https://www.toulouse-tourisme.com/manger-boire-un-verre/les-specialites-culinaires-de-toulouse/',
+  'toulouse:t1': 'https://eboutique.tisseo.fr/fr/produits/1-deplacement-navette-aeroport-occ',
 };

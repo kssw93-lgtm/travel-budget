@@ -398,4 +398,20 @@ export const INTROS_6: Record<string, Intro> = {
       ['중앙역 주변', 'Around the Main Station', '中央駅周辺', '기차 이동이 편하고, 트램·버스로 구시가지까지 금방입니다.', 'Handy for trains, with quick trams and buses to the Old Town.', '列車の移動に便利で、トラムやバスで旧市街まですぐです。'],
     ],
   },
+  bilbao: {
+    o: ['스페인 북부 바스크 지방의 중심 도시로, 티타늄 곡선의 구겐하임 미술관이 도시를 바꾼 상징이 되었습니다. 구시가지 바에서 핀초(한입 요리)를 골라 먹는 문화와 바스크 요리로 유명합니다.', 'The Basque Country’s main city in northern Spain, transformed by the titanium curves of the Guggenheim; famous for pintxo-hopping in the old town bars and Basque cooking.', 'スペイン北部バスク地方の中心都市で、チタンの曲線が印象的なグッゲンハイム美術館が街を変えたシンボルです。旧市街のバルでピンチョス（一口料理）を選んで食べる文化とバスク料理で有名です。'],
+    d: [2, 3],
+    s: [
+      ['구시가지(카스코 비에호)', 'Old Town (Casco Viejo)', '旧市街（カスコ・ビエホ）', '핀초 바가 모인 일곱 거리(시에테 카예스)가 있는 지역입니다.', 'The Siete Calles, packed with pintxo bars.', 'ピンチョスのバルが集まる「7つの通り」がある地区です。'],
+      ['아반도·구겐하임 주변', 'Abando / around the Guggenheim', 'アバンド・グッゲンハイム周辺', '미술관과 강변 산책로가 가깝고, 공항버스가 서는 곳입니다.', 'Near the museum and riverside promenade, served by the airport bus.', '美術館や川沿いの遊歩道に近く、空港バスが停まります。'],
+    ],
+  },
+  toulouse: {
+    o: ['붉은 벽돌 건물이 많아 ‘장밋빛 도시’로 불리는 프랑스 남서부의 중심 도시로, 에어버스 본사가 있는 항공우주 산업의 수도입니다. 카술레와 툴루즈 소시지 같은 남서부 요리로 유명합니다.', 'South-west France’s “Pink City” of rosy brick, capital of the aerospace industry and home of Airbus; famous for cassoulet and Toulouse sausage.', '赤れんがの建物が多く「バラ色の街」と呼ばれるフランス南西部の中心都市で、エアバス本社がある航空宇宙産業の都です。カスレやトゥールーズ・ソーセージなど南西部の料理で有名です。'],
+    d: [2, 3],
+    s: [
+      ['카피톨 광장 주변', 'Around Place du Capitole', 'キャピトル広場周辺', '시청이 있는 중심 광장으로, 지하철 A선이 지나고 구시가지 관광에 편합니다.', 'The main square by the town hall, on Metro line A and handy for the old town.', '市庁舎がある中心広場で、地下鉄A線が通り旧市街の観光に便利です。'],
+      ['마타비오역 주변', 'Around Matabiau Station', 'マタビオ駅周辺', '기차역과 공항 셔틀 버스 정류장이 있어 이동이 편합니다.', 'The train station and airport shuttle stop.', '鉄道駅と空港シャトルバスの乗り場があり移動に便利です。'],
+    ],
+  },
 };

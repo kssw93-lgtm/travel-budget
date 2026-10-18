@@ -318,4 +318,18 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['고성 입장권(슐로스티켓)에 케이블카 왕복이 포함되니, 케이블카를 따로 사지 마세요.', 'The castle ticket (Schlossticket) includes the funicular, so don’t buy a separate ride.', '古城の入場券（シュロスチケット）にケーブルカーが含まれるので、別に買わないようにしましょう。'],
   },
+  bilbao: {
+    p: [
+      ['5~6월', 'May–June', '5〜6月', '따뜻하고 비교적 맑아 강변 산책과 핀초 바 순례를 즐기기 좋습니다.', 'Warm and relatively dry — good for riverside walks and pintxo crawls.', '暖かく比較的晴れが多く、川沿いの散策やピンチョスのバル巡りを楽しめます。'],
+      ['9~10월', 'September–October', '9〜10月', '여름 인파가 빠지고 선선해 미술관과 시내 관광에 좋습니다.', 'Summer crowds fade; cool days for museums and the city.', '夏の人出が落ち着き、涼しく美術館や市内観光に向いています。'],
+    ],
+    x: ['18세 미만은 구겐하임 미술관 입장이 무료이니, 가족 여행이면 성인 입장권만 준비하면 됩니다.', 'Under-18s enter the Guggenheim free, so families only need adult tickets.', '18歳未満はグッゲンハイム美術館の入場が無料なので、家族旅行なら大人の入場券だけ用意すれば大丈夫です。'],
+  },
+  toulouse: {
+    p: [
+      ['4~6월', 'April–June', '4〜6月', '미디 운하 산책과 테라스 식사를 즐기기 좋은 계절입니다.', 'A lovely season for Canal du Midi walks and terrace dining.', 'ミディ運河の散策やテラスでの食事を楽しめる季節です。'],
+      ['9~10월', 'September–October', '9〜10月', '더위가 가라앉아 시내 관광과 시테 드 레스파스 방문에 좋습니다.', 'The heat eases — good for the city and the Cité de l’espace.', '暑さが和らぎ、市内観光やシテ・ドゥ・レスパスを訪れるのに良い時期です。'],
+    ],
+    x: ['공항 셔틀은 일반 1회권으로 탈 수 없고 공항 전용 승차권이 필요합니다.', 'The airport shuttle needs its own airport ticket; a standard single isn’t valid.', '空港シャトルは通常の1回券では乗れず、空港専用の乗車券が必要です。'],
+  },
 };

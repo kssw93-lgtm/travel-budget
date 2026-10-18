@@ -727,6 +727,62 @@
     "missing": [],
     "computable": true
   },
+  "antwerp": {
+    "counts": {
+      "food": 3,
+      "transport": 1,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "turin": {
+    "counts": {
+      "food": 9,
+      "transport": 1,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 9,
+      "snack": 1,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 9,
+      "snack": 1,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "kyoto": {
     "counts": {
       "food": 6,
@@ -2102,12 +2158,12 @@
   "florence": {
     "counts": {
       "food": 9,
-      "transport": 4,
+      "transport": 5,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 4,
+      "ride": 5,
       "meal": 9,
       "snack": 1,
       "drink": 3,
@@ -2116,7 +2172,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 4,
+      "ride": 5,
       "meal": 9,
       "snack": 1,
       "drink": 3,
@@ -2130,12 +2186,12 @@
   "venice": {
     "counts": {
       "food": 9,
-      "transport": 4,
+      "transport": 5,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 4,
+      "ride": 5,
       "meal": 9,
       "snack": 1,
       "drink": 3,
@@ -2144,7 +2200,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 4,
+      "ride": 5,
       "meal": 9,
       "snack": 1,
       "drink": 3,

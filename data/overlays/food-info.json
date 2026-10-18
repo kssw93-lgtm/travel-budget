@@ -4657,5 +4657,35 @@
     "ko": "레만 호수의 농어를 버터에 구워 감자튀김과 내는 요리",
     "en": "Lake perch fillets pan-fried in butter, served with fries",
     "ja": "レマン湖のパーチをバターで焼き、フライドポテトと出す料理"
+  },
+  "antwerp:Antwerpse Handjes": {
+    "ko": "안트베르펜 전설에 나오는 손 모양의 초콜릿·비스킷",
+    "en": "Hand-shaped chocolates or biscuits from Antwerp legend",
+    "ja": "アントワープの伝説にちなんだ手の形のチョコレートやビスケット"
+  },
+  "antwerp:Belgian Fries": {
+    "ko": "두 번 튀겨 소스를 곁들이는 벨기에식 감자튀김",
+    "en": "Twice-fried Belgian fries with a choice of sauces",
+    "ja": "二度揚げしてソースを添えるベルギー風フライドポテト"
+  },
+  "antwerp:Bolleke (De Koninck)": {
+    "ko": "둥근 잔에 내는 안트베르펜 대표 맥주",
+    "en": "Antwerp’s signature amber beer served in a round glass",
+    "ja": "丸いグラスで出すアントワープを代表するビール"
+  },
+  "turin:Agnolotti del Plin": {
+    "ko": "고기를 채워 작게 집은 피에몬테식 파스타",
+    "en": "Small pinched pasta parcels filled with meat, Piedmont style",
+    "ja": "肉を詰めて小さくつまんだピエモンテ風のパスタ"
+  },
+  "turin:Bicerin": {
+    "ko": "에스프레소·초콜릿·크림을 층층이 담은 토리노 전통 음료",
+    "en": "Layered espresso, chocolate and cream, Turin’s traditional drink",
+    "ja": "エスプレッソ・チョコレート・クリームを層にしたトリノ伝統の飲み物"
+  },
+  "turin:Gianduiotto": {
+    "ko": "헤이즐넛을 섞은 토리노의 배 모양 초콜릿",
+    "en": "Boat-shaped hazelnut chocolate from Turin",
+    "ja": "ヘーゼルナッツを混ぜたトリノの舟形チョコレート"
   }
 }

@@ -58,6 +58,11 @@
 | 겐트 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 제네바 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 제네바 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 안트베르펜 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 안트베르펜 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 토리노 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 토리노 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 토리노 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 교토 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오키나와 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 나고야 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
@@ -969,6 +974,17 @@
 | MRS-AT-001 | 마르세유 | 뮈셈 (성인) | 11 EUR | A | 예 | 재검증 | [Mucem](https://mucem.org/en/questions-frequentes/) |
 | MRS-AT-002 | 마르세유 | 이프 성 (성인, 배 요금 별도) | 7 EUR | A | 예 | 재검증 | [Centre des monuments nationaux](https://www.chateau-if.fr/en) |
 | MRS-AT-003 | 마르세유 | 노트르담 드 라 가르드 (입장 무료) | 0 EUR | A | 예 | 재검증 | [Marseille Tourisme](https://www.marseille-tourisme.com/en/vivez-marseille/blog-marseille/top-free-and-low-cost-activities-in-marseille/) |
+| ANR-TR-001 | 안트베르펜 | De Lijn 1회권 | 3 EUR | A | 예 | 재검증 | [De Lijn](https://www.delijn.be/en/content/vervoerbewijzen/tarieven/) |
+| ANR-AT-001 | 안트베르펜 | 성모 대성당 (성인) | 12 EUR | A | 예 | 재검증 | [De Kathedraal Antwerpen](https://www.dekathedraal.be/en/visit) |
+| ANR-AT-002 | 안트베르펜 | 성모 대성당 (아동) | 0 EUR | A | 예 | 재검증 | [De Kathedraal Antwerpen](https://www.dekathedraal.be/en/visit) |
+| ANR-AT-003 | 안트베르펜 | MAS 박물관 (성인) | 12 EUR | A | 예 | 재검증 | [MAS](https://mas.be/en/page/tickets) |
+| ANR-AT-004 | 안트베르펜 | 루벤스의 집 (성인, 정원 포함) | 15 EUR | A | 예 | 재검증 | [Rubenshuis](https://rubenshuis.be/en/visit) |
+| TRN-TR-001 | 토리노 | GTT 시티 100(100분) | 1.9~2 EUR | A | 예 | 재검증 | [GTT](https://www.gtt.to.it/cms/biglietti-abbonamenti/biglietti/biglietti-carnet) |
+| TRN-AT-001 | 토리노 | 이집트 박물관 (성인) | 18 EUR | A | 예 | 재검증 | [Museo Egizio](https://www.museoegizio.it/info/prezzi) |
+| TRN-AT-002 | 토리노 | 이집트 박물관 (아동) | 1 EUR | A | 예 | 재검증 | [Museo Egizio](https://www.museoegizio.it/info/prezzi) |
+| TRN-AT-003 | 토리노 | 영화 박물관 (성인) | 18 EUR | A | 예 | 재검증 | [Museo Nazionale del Cinema](https://www.museocinema.it/en/plan-your-visit/ticket-prices) |
+| TRN-AT-004 | 토리노 | 토리노 왕궁(무세이 레알리) (성인) | 15 EUR | A | 예 | 재검증 | [Musei Reali Torino](https://museireali.beniculturali.it/il-2026-dei-musei-reali-di-torino-attivita-culturali-mostre-progetti/) |
+| TRN-AT-005 | 토리노 | 토리노 왕궁 (아동) | 0 EUR | A | 예 | 재검증 | [Musei Reali Torino](https://museireali.beniculturali.it/il-2026-dei-musei-reali-di-torino-attivita-culturali-mostre-progetti/) |
 | GRX-TR-001 | 그라나다 | 그라나다 시내버스 1회권 | 1.6 EUR | A | 예 | 재검증 | [Turismo de Granada](https://turismo.granada.org/es/bus-urbano) |
 | GRX-AT-001 | 그라나다 | 알람브라 일반 입장(낮) (성인) | 21~22.27 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://tickets.alhambra-patronato.es/producto/alhambra-general/) |
 | GRX-AT-002 | 그라나다 | 알람브라 (아동) | 0 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://www.alhambra-patronato.es/notas-prensa/la-alhambra-actualiza-sus-tarifas-en-agosto) |

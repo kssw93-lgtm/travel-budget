@@ -345,4 +345,10 @@ export const WHEN_SOURCES: Record<string, string> = {
   'geneva:p1': 'https://www.geneve.com/en/eat-drink/restaurants/where-to-eat-fondue',
   'geneva:p2': 'https://www.geneve.com/en/see-do/things-to-do-this-winter-in-geneva',
   'geneva:x': 'https://www.geneve.com/en/plan-stay/getting-around/free-geneva-transport-card',
+  'antwerp:p1': 'https://mas.be/en/page/tickets',
+  'antwerp:p2': 'https://visit.antwerpen.be/en/food-drinks',
+  'antwerp:x': 'https://visit.antwerpen.be/en/what-to-do-in-rainy-weather',
+  'turin:p1': 'https://turismotorino.org/en/visit/things-to-do-and-things-to-see/food-and-wine',
+  'turin:p2': 'https://turismotorino.org/en/visit/things-to-do-and-things-to-see/food-and-wine/typical-products',
+  'turin:x': 'https://museoegizio.it/esplora/notizie/biglietteria-ufficiale',
 };

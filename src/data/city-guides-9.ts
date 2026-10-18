@@ -472,4 +472,27 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 제네바 공항역에서 열차를 타면 코르나뱅역까지 7분 안팎입니다. 예전의 공항 무료 승차권은 2022년에 없어져, 10구역 1회권을 사야 합니다(숙소 교통카드가 있으면 무료).', 'Airport to city: trains from the airport reach Cornavin in about 7 minutes. The old free arrivals ticket ended in 2022, so buy a zone 10 ticket (free with a Geneva Transport Card).', '空港から市内へ：ジュネーブ空港駅から列車でコルナヴァン駅まで7分ほどです。以前の空港無料乗車券は2022年に廃止されたので、ゾーン10の1回券を買います（宿の交通カードがあれば無料）。'],
     ],
   },
+  antwerp: {
+    h: [
+      ['성모 대성당', 'Cathedral of Our Lady', '聖母大聖堂', '루벤스의 제단화 「십자가에서 내려지심」 등 4점이 걸린 고딕 대성당입니다. 18세 미만은 무료입니다.', 'A Gothic cathedral hung with four Rubens altarpieces including The Descent from the Cross; free under 18.', 'ルーベンスの祭壇画「キリスト降架」など4点が掛かるゴシック大聖堂です。18歳未満は無料です。'],
+      ['루벤스의 집', 'Rubens House', 'ルーベンスの家', '루벤스가 살며 작업하던 저택과 정원으로, 새로 단장한 정원과 체험관이 있습니다.', 'The house, studio and garden where Rubens lived and worked, with a renewed garden and visitor centre.', 'ルーベンスが暮らし制作した邸宅と庭園で、新しく整備された庭と体験施設があります。'],
+      ['MAS 박물관', 'MAS (Museum aan de Stroom)', 'MAS（ミュージアム・アーン・デ・ストローム）', '항구와 도시의 역사를 다루는 박물관으로, 옥상 전망대는 입장권 없이 무료로 올라갈 수 있습니다.', 'A museum of the port and city; the rooftop panorama is free without a ticket.', '港と街の歴史を扱う博物館で、屋上の展望台はチケットなしで無料で上れます。'],
+      ['안트베르펜 중앙역', 'Antwerpen-Centraal station', 'アントワープ中央駅', '대리석과 철골 돔이 웅장한 기차역으로, 세계에서 가장 아름다운 역 중 하나로 꼽힙니다.', 'A marble-and-iron domed station often ranked among the world’s most beautiful.', '大理石と鉄骨のドームが壮麗な駅で、世界で最も美しい駅の一つに数えられます。'],
+    ],
+    t: [
+      ['트램·버스는 De Lijn 1회권이나 비접촉 카드로 탑니다. 구시가지는 대부분 걸어서 다닐 수 있습니다.', 'Trams and buses take a De Lijn ticket or contactless card, though most of the old town is walkable.', 'トラムやバスはDe Lijnの1回券か非接触カードで乗れますが、旧市街はほとんど歩いて回れます。'],
+      ['가는 법: 브뤼셀 공항이나 브뤼셀 시내에서 기차로 40분 안팎이면 안트베르펜 중앙역에 닿습니다.', 'Getting there: trains from Brussels Airport or central Brussels reach Antwerpen-Centraal in about 40 minutes.', '行き方：ブリュッセル空港やブリュッセル市内から列車で40分ほどでアントワープ中央駅に着きます。'],
+    ],
+  },
+  turin: {
+    h: [
+      ['이집트 박물관', 'Museo Egizio', 'エジプト博物館', '카이로 다음가는 규모의 이집트 유물 박물관으로, 미라와 석상, 파피루스 컬렉션이 방대합니다.', 'One of the largest collections of Egyptian antiquities outside Cairo, with mummies, statues and papyri.', 'カイロに次ぐ規模のエジプト遺物の博物館で、ミイラや石像、パピルスのコレクションが膨大です。'],
+      ['몰레 안토넬리아나와 영화 박물관', 'Mole Antonelliana and the Cinema Museum', 'モーレ・アントネッリアーナと映画博物館', '토리노의 상징인 탑 안에 영화 박물관이 있고, 유리 엘리베이터로 전망대에 올라갑니다.', 'Turin’s landmark tower houses the cinema museum, with a glass lift to the viewing deck.', 'トリノの象徴の塔の中に映画博物館があり、ガラスのエレベーターで展望台に上れます。'],
+      ['토리노 왕궁(무세이 레알리)', 'Royal Museums of Turin', 'トリノ王宮（ムゼイ・レアーリ）', '사보이 왕가의 궁전과 무기고, 미술관을 묶은 복합 박물관으로, 18세 미만은 무료입니다.', 'The Savoy royal palace, armoury and gallery combined; free under 18.', 'サヴォイア家の宮殿や武器庫、美術館をまとめた複合博物館で、18歳未満は無料です。'],
+    ],
+    t: [
+      ['오래된 카페에서 에스프레소·초콜릿·크림을 층층이 담은 음료 비체린을 맛보세요. 토리노에서 시작된 음료입니다.', 'Try a bicerin — layered espresso, chocolate and cream — in a historic café; it was born in Turin.', '老舗カフェで、エスプレッソ・チョコレート・クリームを層にした飲み物ビチェリンを味わってみましょう。トリノ発祥の飲み物です。'],
+      ['공항에서 시내: 토리노 공항에서 아리바 공항버스를 타면 시내(포르타 누오바 근처)까지 45~50분입니다.', 'Airport to city: the Arriva airport bus reaches the centre near Porta Nuova in 45–50 minutes.', '空港から市内へ：トリノ空港からアリーヴァの空港バスで中心部（ポルタ・ヌオーヴァ付近）まで45〜50分です。'],
+    ],
+  },
 };

@@ -1481,6 +1481,60 @@
     "note": "GPT 수집"
   },
   {
+    "cityId": "antwerp",
+    "nameKo": "안트베르펜 손 과자",
+    "nameEn": "Antwerpse Handjes",
+    "reason": "안트베르펜 전설에 나오는 손 모양의 초콜릿·비스킷",
+    "reasonEn": "Hand-shaped chocolates or biscuits from Antwerp legend",
+    "desc": {
+      "ko": "안트베르펜 전설에 나오는 손 모양의 초콜릿·비스킷",
+      "en": "Hand-shaped chocolates or biscuits from Antwerp legend",
+      "ja": "アントワープの伝説にちなんだ手の形のチョコレートやビスケット"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Antwerpen",
+    "recommendUrl": "https://visit.antwerpen.be/en/regional-products",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "antwerp",
+    "nameKo": "벨기에 감자튀김",
+    "nameEn": "Belgian Fries",
+    "reason": "두 번 튀겨 소스를 곁들이는 벨기에식 감자튀김",
+    "reasonEn": "Twice-fried Belgian fries with a choice of sauces",
+    "desc": {
+      "ko": "두 번 튀겨 소스를 곁들이는 벨기에식 감자튀김",
+      "en": "Twice-fried Belgian fries with a choice of sauces",
+      "ja": "二度揚げしてソースを添えるベルギー風フライドポテト"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Antwerpen",
+    "recommendUrl": "https://visit.antwerpen.be/en/chipshops-in-antwerp",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "antwerp",
+    "nameKo": "볼레케(데 코닝크 맥주)",
+    "nameEn": "Bolleke (De Koninck)",
+    "reason": "둥근 잔에 내는 안트베르펜 대표 맥주",
+    "reasonEn": "Antwerp’s signature amber beer served in a round glass",
+    "desc": {
+      "ko": "둥근 잔에 내는 안트베르펜 대표 맥주",
+      "en": "Antwerp’s signature amber beer served in a round glass",
+      "ja": "丸いグラスで出すアントワープを代表するビール"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Antwerpen",
+    "recommendUrl": "https://visit.antwerpen.be/en/have-fun-with-belgian-beer",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "athens",
     "nameKo": "호리아티키 샐러드",
     "nameEn": "Choriatiki Salad",
@@ -9886,6 +9940,60 @@
     "recommendSource": "관광공사·관광청 공식 안내",
     "recommendUrl": "https://korean.visitkorea.or.kr/",
     "note": "GPT 수집"
+  },
+  {
+    "cityId": "turin",
+    "nameKo": "아뇰로티 델 플린",
+    "nameEn": "Agnolotti del Plin",
+    "reason": "고기를 채워 작게 집은 피에몬테식 파스타",
+    "reasonEn": "Small pinched pasta parcels filled with meat, Piedmont style",
+    "desc": {
+      "ko": "고기를 채워 작게 집은 피에몬테식 파스타",
+      "en": "Small pinched pasta parcels filled with meat, Piedmont style",
+      "ja": "肉を詰めて小さくつまんだピエモンテ風のパスタ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Turismo Torino",
+    "recommendUrl": "https://turismotorino.org/en/visit/things-to-do-and-things-to-see/food-and-wine/traditional-dishes",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "turin",
+    "nameKo": "비체린",
+    "nameEn": "Bicerin",
+    "reason": "에스프레소·초콜릿·크림을 층층이 담은 토리노 전통 음료",
+    "reasonEn": "Layered espresso, chocolate and cream, Turin’s traditional drink",
+    "desc": {
+      "ko": "에스프레소·초콜릿·크림을 층층이 담은 토리노 전통 음료",
+      "en": "Layered espresso, chocolate and cream, Turin’s traditional drink",
+      "ja": "エスプレッソ・チョコレート・クリームを層にしたトリノ伝統の飲み物"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Turismo Torino",
+    "recommendUrl": "https://turismotorino.org/en/visit/things-to-do-and-things-to-see/food-and-wine/traditional-dishes",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "turin",
+    "nameKo": "잔두요토",
+    "nameEn": "Gianduiotto",
+    "reason": "헤이즐넛을 섞은 토리노의 배 모양 초콜릿",
+    "reasonEn": "Boat-shaped hazelnut chocolate from Turin",
+    "desc": {
+      "ko": "헤이즐넛을 섞은 토리노의 배 모양 초콜릿",
+      "en": "Boat-shaped hazelnut chocolate from Turin",
+      "ja": "ヘーゼルナッツを混ぜたトリノの舟形チョコレート"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Turismo Torino",
+    "recommendUrl": "https://turismotorino.org/en/visit/things-to-do-and-things-to-see/food-and-wine/typical-products",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
     "cityId": "ulaanbaatar",

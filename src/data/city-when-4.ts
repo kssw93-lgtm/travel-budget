@@ -196,4 +196,18 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['국제회의가 몰리는 시기에는 호텔 요금이 크게 오르니 일정이 정해지면 숙소를 일찍 잡으세요.', 'Hotel rates soar during big international conferences, so book early once your dates are set.', '大きな国際会議が重なる時期はホテル料金が大きく上がるので、日程が決まったら早めに宿を押さえましょう。'],
   },
+  antwerp: {
+    p: [
+      ['4~6월·9~10월', 'April–June and September–October', '4〜6月・9〜10月', '강변 산책과 MAS 옥상 전망, 미술관 관람을 함께 즐기기 좋습니다.', 'Good for riverside walks, the MAS rooftop view and museum visits.', '川沿いの散策やMASの屋上展望、美術館巡りを一緒に楽しめます。'],
+      ['12월 겨울 장터', 'December (winter fair)', '12月（冬の市）', '흐로테 마르크트와 주변 광장에 크리스마스 장터와 스케이트장이 들어섭니다.', 'Christmas stalls and skating fill the Grote Markt and nearby squares.', 'グローテ・マルクトや周辺の広場にクリスマスの屋台やスケートリンクが立ちます。'],
+    ],
+    x: ['비 오는 날이 많으니 미술관·박물관 같은 실내 일정을 섞어 두면 좋습니다.', 'Rain is common, so mix in indoor plans such as museums.', '雨の日が多いので、美術館や博物館など屋内の予定を組み合わせておくと安心です。'],
+  },
+  turin: {
+    p: [
+      ['4~6월·9~10월', 'April–June and September–October', '4〜6月・9〜10月', '아케이드 거리와 포 강변 산책, 박물관 관람을 함께 즐기기 좋습니다.', 'Good for the arcades, Po riverside walks and museums.', 'アーケード街やポー川沿いの散策、博物館巡りを一緒に楽しめます。'],
+      ['가을 트러플 철', 'Autumn truffle season', '秋のトリュフの季節', '근교 알바의 흰 트러플 시즌으로, 피에몬테 요리를 맛보기 좋은 때입니다.', 'White-truffle season in nearby Alba, a great time for Piedmontese food.', '近郊アルバの白トリュフのシーズンで、ピエモンテ料理を味わうのに良い時期です。'],
+    ],
+    x: ['이집트 박물관은 공식 사이트 온라인 판매가 유일한 공식 경로이니 미리 예약하세요.', 'The Egyptian Museum sells tickets only through its official online shop; book ahead.', 'エジプト博物館は公式サイトのオンライン販売が唯一の正規ルートなので、事前に予約しましょう。'],
+  },
 };

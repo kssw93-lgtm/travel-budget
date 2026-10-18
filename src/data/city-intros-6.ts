@@ -255,4 +255,19 @@ export const INTROS_6: Record<string, Intro> = {
       ['구시가지', 'Old Town', '旧市街', '생피에르 대성당과 골목 카페가 있는 언덕 위 동네입니다.', 'The hilltop quarter of St Pierre Cathedral and café lanes.', 'サン・ピエール大聖堂や路地のカフェがある丘の上の地区です。'],
     ],
   },
+  antwerp: {
+    o: ['벨기에 제2의 도시이자 유럽 큰 항구로, 화가 루벤스가 살았던 도시입니다. 성모 대성당의 루벤스 제단화와 아름다운 중앙역, 다이아몬드 거리로 유명합니다.', 'Belgium’s second city and a major European port, home of the painter Rubens; famous for the Rubens altarpieces in the Cathedral of Our Lady, its grand Central Station and the diamond quarter.', 'ベルギー第2の都市でヨーロッパ有数の港町、画家ルーベンスが暮らした街です。聖母大聖堂のルーベンスの祭壇画や美しい中央駅、ダイヤモンド街で知られます。'],
+    d: [1, 2],
+    s: [
+      ['구시가지(흐로테 마르크트 주변)', 'Old town (Grote Markt)', '旧市街（グローテ・マルクト周辺）', '대성당과 시청, 강변이 걸어서 닿는 중심가입니다.', 'The heart of town, walkable to the cathedral, town hall and riverfront.', '大聖堂や市庁舎、川沿いへ歩いて行ける中心部です。'],
+      ['중앙역 주변', 'Around Antwerpen-Centraal', '中央駅周辺', '국제 열차가 서는 역 앞으로, 브뤼셀·암스테르담 이동이 편합니다.', 'By the international train station, handy for Brussels and Amsterdam.', '国際列車が停まる駅前で、ブリュッセルやアムステルダムへの移動に便利です。'],
+    ],
+  },
+  turin: {
+    o: ['알프스를 배경으로 한 피에몬테주 주도로, 이탈리아 최초의 수도였던 사보이 왕가의 도시입니다. 세계적인 이집트 박물관과 몰레 안토넬리아나의 영화 박물관, 초콜릿·카페 문화로 유명합니다.', 'Piedmont’s capital against the Alps and Italy’s first capital under the House of Savoy, famous for its world-class Egyptian Museum, the cinema museum in the Mole Antonelliana and its chocolate and café culture.', 'アルプスを背にしたピエモンテ州の州都で、イタリア最初の首都だったサヴォイア家の街です。世界有数のエジプト博物館やモーレ・アントネッリアーナの映画博物館、チョコレートとカフェの文化で知られます。'],
+    d: [2, 3],
+    s: [
+      ['중심가(카스텔로 광장·포르타 누오바)', 'Centre (Piazza Castello / Porta Nuova)', '中心部（カステッロ広場・ポルタ・ヌオーヴァ）', '왕궁과 박물관, 아케이드 거리를 걸어서 다니고 공항버스도 이 근처에서 탑니다.', 'Walk to the royal palaces, museums and arcades; airport buses leave nearby.', '王宮や博物館、アーケード街へ歩いて行け、空港バスもこの近くから出ます。'],
+    ],
+  },
 };

@@ -270,6 +270,26 @@
     "stage": "파일럿"
   },
   {
+    "id": "antwerp",
+    "country": "벨기에",
+    "countryEn": "Belgium",
+    "nameKo": "안트베르펜",
+    "nameEn": "Antwerp",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "turin",
+    "country": "이탈리아",
+    "countryEn": "Italy",
+    "nameKo": "토리노",
+    "nameEn": "Turin",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "kyoto",
     "country": "일본",
     "countryEn": "Japan",

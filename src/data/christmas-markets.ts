@@ -237,4 +237,27 @@ export const CHRISTMAS_MARKETS: Record<string, ChristmasMarket> = {
     url: 'https://www.quebec-cite.com/en/what-to-do-quebec-city/events/german-christmas-market',
     dates: ['2026-11-19', '2026-12-23'],
   },
+  hamburg: {
+    name: ['함부르크 시청 광장 역사 크리스마스 마켓', 'Historic Christmas Market on Rathausmarkt', 'ハンブルク市庁舎広場の歴史的クリスマスマーケット'],
+    place: ['시청 앞 라트하우스마르크트', 'Rathausmarkt in front of City Hall', '市庁舎前のラートハウスマルクト'],
+    period: ['2026년 11월 23일~12월 23일', '23 November–23 December 2026', '2026年11月23日〜12月23日'],
+    note: ['웅장한 시청 건물을 배경으로 수공예 노점이 늘어서는 함부르크 대표 마켓입니다. 시내 곳곳에도 마켓이 열립니다.', 'Hamburg’s flagship market of craft stalls set against the grand City Hall, with more markets across the centre.', '壮麗な市庁舎を背景に手工芸の屋台が並ぶハンブルクを代表するマーケットで、市内各地にもマーケットが立ちます。'],
+    url: 'https://www.hamburg.de/tourismus/weihnachten-hamburg/weihnachtsmarkt-hamburg/weihnachtsmarkt-rathausmarkt-301092',
+    dates: ['2026-11-23', '2026-12-23'],
+  },
+  innsbruck: {
+    name: ['인스브루크 구시가지 크리스마스 마켓', 'Innsbruck Old Town Christmas Market', 'インスブルック旧市街のクリスマスマーケット'],
+    place: ['황금 지붕 앞 헤어초크프리드리히 거리', 'Herzog-Friedrich-Strasse in front of the Golden Roof', '黄金の小屋根前のヘルツォーク・フリードリヒ通り'],
+    period: ['2026년 11월 13일~12월 23일', '13 November–23 December 2026', '2026年11月13日〜12月23日'],
+    note: ['도시에서 가장 오래되고 큰 마켓으로, 황금 지붕 앞에 큰 전나무가 서고 알프스를 배경으로 노점이 이어집니다.', 'The city’s oldest and largest market, with a tall fir tree before the Golden Roof and the Alps as a backdrop.', '街で最も古く大きなマーケットで、黄金の小屋根の前に大きなモミの木が立ち、アルプスを背景に屋台が続きます。'],
+    url: 'https://www.christkindlmarkt.cc/en/markets/innsbruck-old-town/35-0.html',
+    dates: ['2026-11-13', '2026-12-23'],
+  },
+  warsaw: {
+    name: ['바르샤바 구시가지 크리스마스 마켓', 'Warsaw Old Town Christmas Market', 'ワルシャワ旧市街のクリスマスマーケット'],
+    place: ['구시가지 성벽 사이 산책로(바르바칸 주변)', 'Between the Old Town walls near the Barbican', '旧市街の城壁の間（バルバカン周辺）'],
+    period: ['보통 11월 말~1월 초', 'Usually late November–early January', '例年11月末〜1月初め'],
+    note: ['재건된 구시가지 성벽을 따라 노점이 늘어서고, 왕궁 광장에서 크라쿠프 거리까지 화려한 조명 장식이 이어집니다.', 'Stalls line the rebuilt Old Town walls, with festive lights running from Castle Square along the Royal Route.', '再建された旧市街の城壁沿いに屋台が並び、王宮広場から王の道沿いに華やかなイルミネーションが続きます。'],
+    url: 'https://go2warsaw.pl/en/which-christmas-market-to-visit-in-warsaw/',
+  },
 };

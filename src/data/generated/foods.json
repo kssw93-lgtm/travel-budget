@@ -9394,6 +9394,60 @@
     "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
   },
   {
+    "cityId": "tainan",
+    "nameKo": "소고기탕",
+    "nameEn": "Beef Soup",
+    "reason": "갓 잡은 생소고기를 얇게 썰어 뜨거운 육수를 부어 익혀 먹는 타이난 아침 음식",
+    "reasonEn": "Thin slices of fresh beef cooked by pouring over hot broth, a Tainan breakfast",
+    "desc": {
+      "ko": "갓 잡은 생소고기를 얇게 썰어 뜨거운 육수를 부어 익혀 먹는 타이난 아침 음식",
+      "en": "Thin slices of fresh beef cooked by pouring over hot broth, a Tainan breakfast",
+      "ja": "新鮮な牛肉の薄切りに熱いスープを注いで火を通す台南の朝ごはん"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tainan Travel",
+    "recommendUrl": "https://www.twtainan.net/zh-tw/shop/cuisines/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "tainan",
+    "nameKo": "단자이면",
+    "nameEn": "Danzai Noodles",
+    "reason": "작은 그릇에 고기 소스와 새우를 얹은 타이난 전통 국수",
+    "reasonEn": "Small bowls of noodles with minced-pork sauce and shrimp",
+    "desc": {
+      "ko": "작은 그릇에 고기 소스와 새우를 얹은 타이난 전통 국수",
+      "en": "Small bowls of noodles with minced-pork sauce and shrimp",
+      "ja": "小さな器に肉そぼろとエビをのせた台南伝統の麺"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tainan Travel",
+    "recommendUrl": "https://www.twtainan.net/zh-tw/event/newsdetail/5155/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "tainan",
+    "nameKo": "관차이반",
+    "nameEn": "Coffin Bread",
+    "reason": "두꺼운 토스트 속을 파내 크림 스튜를 채운 타이난 간식",
+    "reasonEn": "Thick hollowed toast filled with creamy stew",
+    "desc": {
+      "ko": "두꺼운 토스트 속을 파내 크림 스튜를 채운 타이난 간식",
+      "en": "Thick hollowed toast filled with creamy stew",
+      "ja": "厚切りトーストの中をくり抜いてクリームシチューを詰めた台南の軽食"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tainan Travel",
+    "recommendUrl": "https://www.twtainan.net/zh-tw/shop/cuisines/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "tallinn",
     "nameKo": "킬루뵈일레이브",
     "nameEn": "Kiluvõileib",

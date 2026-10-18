@@ -230,6 +230,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "tainan",
+    "country": "대만",
+    "countryEn": "Taiwan",
+    "nameKo": "타이난",
+    "nameEn": "Tainan",
+    "currency": "TWD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "kyoto",
     "country": "일본",
     "countryEn": "Japan",

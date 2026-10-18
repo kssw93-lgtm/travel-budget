@@ -168,4 +168,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['여름철 칼랑크는 산불 위험에 따라 당일 출입이 제한될 수 있으니 전날 공식 안내를 확인하세요.', 'In summer the Calanques may close at short notice for fire risk; check the official notice the day before.', '夏のカランクは山火事の危険度によって当日立入が制限されることがあるので、前日に公式案内を確認しましょう。'],
   },
+  tainan: {
+    p: [
+      ['11~3월', 'November–March', '11〜3月', '고적과 골목을 걸으며 먹거리를 즐기기 좋은 선선한 계절입니다.', 'The cool season for walking the historic sites and food lanes.', '古跡や路地を歩きながら食べ歩くのに向いた涼しい季節です。'],
+      ['음력 설 전후 원소절 무렵', 'Around the Lantern Festival after Lunar New Year', '旧正月明けの元宵節の頃', '인근 옌수이의 벌집 폭죽 축제 등 남부 대만의 큰 행사가 열립니다.', 'Southern Taiwan’s big events, such as the nearby Yanshui beehive fireworks, take place.', '近郊の塩水の蜂炮祭など、台湾南部の大きな行事が開かれます。'],
+    ],
+    x: ['여름(6~9월)에는 한낮 더위가 심하고 태풍으로 일정이 바뀔 수 있으니 실내 명소와 아침·저녁 일정을 섞으세요.', 'Summer (June–September) middays are very hot and typhoons can disrupt plans; mix in indoor sights and early or late outings.', '夏（6〜9月）は日中の暑さが厳しく台風で予定が変わることもあるので、屋内の名所や朝夕の予定を組み合わせましょう。'],
+  },
 };

@@ -333,4 +333,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'marseille:p1': 'https://www.marseille-tourisme.com/en/vivez-marseille/blog-marseille/top-free-and-low-cost-activities-in-marseille/',
   'marseille:p2': 'https://www.marseille-tourisme.com/en/discover-marseille/gastronomy-in-marseille/culinary-specialities-of-marseille/',
   'marseille:x': 'https://www.marseille-tourisme.com/en/vivez-marseille/blog-marseille/top-free-and-low-cost-activities-in-marseille/',
+  'tainan:p1': 'https://www.twtainan.net/zh-tw/shop/cuisines/',
+  'tainan:p2': 'https://www.twtainan.net/zh-tw/shop/cuisines/',
+  'tainan:x': 'https://www.twtainan.net/zh-tw/statics/thsr/',
 };

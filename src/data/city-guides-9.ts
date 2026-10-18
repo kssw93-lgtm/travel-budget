@@ -426,4 +426,15 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 마르세유 공항에서 공항 셔틀버스를 타면 생샤를역까지 30분 안팎입니다. 시내 대중교통 1회권을 묶은 할인권도 있습니다.', 'Airport to city: the airport shuttle bus reaches Saint-Charles station in about 30 minutes; combined tickets with city transit are available.', '空港から市内へ：マルセイユ空港から空港シャトルバスでサン・シャルル駅まで30分ほどです。市内交通の1回券を組み合わせた割引券もあります。'],
     ],
   },
+  tainan: {
+    h: [
+      ['츠칸러우', 'Chihkan Tower', '赤崁楼', '네덜란드 시대 요새 터에 세운 누각과 사당으로, 타이난 구시가지의 상징입니다.', 'Pavilions and shrines on the site of a Dutch-era fort, symbol of old Tainan.', 'オランダ時代の要塞跡に建てられた楼閣と廟で、台南旧市街の象徴です。'],
+      ['안핑 고성', 'Anping Old Fort', '安平古堡', '17세기 네덜란드가 세운 질란디아 요새 터로, 전망대에서 안핑 일대가 내려다보입니다.', 'The site of the 17th-century Dutch Fort Zeelandia, with views over Anping from its lookout.', '17世紀にオランダが築いたゼーランディア城の跡で、展望台から安平一帯を見渡せます。'],
+      ['안핑 트리하우스', 'Anping Tree House', '安平樹屋', '옛 무역 회사 창고를 반얀나무 뿌리가 감싸 버린 독특한 공간입니다.', 'An old trading company warehouse engulfed by banyan roots.', 'かつての貿易会社の倉庫をガジュマルの根が覆い尽くした独特の空間です。'],
+    ],
+    t: [
+      ['츠칸러우·안핑 고성 등 시가 운영하는 고적은 대부분 오전 8시 반에 문을 열어, 더위를 피해 아침 일찍 둘러보기 좋습니다.', 'Most city-run historic sites, such as Chihkan Tower and Anping Old Fort, open at 8:30 a.m., so go early to beat the heat.', '赤崁楼や安平古堡など市が運営する古跡の多くは朝8時半に開くので、暑さを避けて朝早く回るのがおすすめです。'],
+      ['가는 법: 고속철 타이난역은 시내에서 떨어져 있어, 연결된 사룬역에서 타이완철도 사룬선으로 갈아타 타이난역까지 갑니다. 국제선은 보통 가오슝 공항을 이용합니다.', 'Getting there: the HSR Tainan station is outside town; change at the linked Shalun station to the TRA Shalun Line for Tainan Station. International flights usually use Kaohsiung Airport.', '行き方：高鉄台南駅は市街から離れているため、連絡通路でつながる沙崙駅で台鉄沙崙線に乗り換えて台南駅へ。国際線はふつう高雄空港を使います。'],
+    ],
+  },
 };

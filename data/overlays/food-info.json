@@ -4597,5 +4597,20 @@
     "ko": "오렌지꽃 향을 넣은 배 모양 과자로, 1781년 마르세유에서 시작됐습니다",
     "en": "Boat-shaped orange-blossom biscuits, made in Marseille since 1781",
     "ja": "オレンジフラワーの香りの舟形の焼き菓子で、1781年にマルセイユで生まれました"
+  },
+  "tainan:Beef Soup": {
+    "ko": "갓 잡은 생소고기를 얇게 썰어 뜨거운 육수를 부어 익혀 먹는 타이난 아침 음식",
+    "en": "Thin slices of fresh beef cooked by pouring over hot broth, a Tainan breakfast",
+    "ja": "新鮮な牛肉の薄切りに熱いスープを注いで火を通す台南の朝ごはん"
+  },
+  "tainan:Danzai Noodles": {
+    "ko": "작은 그릇에 고기 소스와 새우를 얹은 타이난 전통 국수",
+    "en": "Small bowls of noodles with minced-pork sauce and shrimp",
+    "ja": "小さな器に肉そぼろとエビをのせた台南伝統の麺"
+  },
+  "tainan:Coffin Bread": {
+    "ko": "두꺼운 토스트 속을 파내 크림 스튜를 채운 타이난 간식",
+    "en": "Thick hollowed toast filled with creamy stew",
+    "ja": "厚切りトーストの中をくり抜いてクリームシチューを詰めた台南の軽食"
   }
 }

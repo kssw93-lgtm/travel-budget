@@ -615,6 +615,34 @@
     "missing": [],
     "computable": true
   },
+  "tainan": {
+    "counts": {
+      "food": 5,
+      "transport": 1,
+      "attraction": 4
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 5,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 4,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 5,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 4,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "kyoto": {
     "counts": {
       "food": 6,
@@ -1878,12 +1906,12 @@
   "taichung": {
     "counts": {
       "food": 5,
-      "transport": 4,
+      "transport": 5,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 4,
+      "ride": 5,
       "meal": 5,
       "snack": 3,
       "drink": 3,
@@ -1892,7 +1920,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 4,
+      "ride": 5,
       "meal": 5,
       "snack": 3,
       "drink": 3,

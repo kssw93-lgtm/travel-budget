@@ -929,4 +929,9 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'marseille:h4': 'https://www.marseille-tourisme.com/en/vivez-marseille/blog-marseille/top-free-and-low-cost-activities-in-marseille/',
   'marseille:t1': 'https://www.rtm.fr/tarifs/carte-1-voyage',
   'marseille:t2': 'https://www.rtm.fr/tarifs/combines-aeroport-marseille-rtm-1-voyage',
+  'tainan:h1': 'https://historic.tainan.gov.tw/index.php?option=module&lang=cht&task=pageinfo&id=46&index=3',
+  'tainan:h2': 'https://historic.tainan.gov.tw/index.php?option=module&lang=cht&task=pageinfo&id=58&index=2',
+  'tainan:h3': 'https://historic.tainan.gov.tw/index.php?id=60&index=4&lang=cht&option=module&task=pageinfo',
+  'tainan:t1': 'https://historic.tainan.gov.tw/index.php?option=module&lang=cht&task=pageinfo&id=64&index=6',
+  'tainan:t2': 'https://www.thsrc.com.tw/ArticleContent/9c5ac6ca-ec89-48f8-aab0-41b738cb1814',
 };

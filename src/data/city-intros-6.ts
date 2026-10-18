@@ -224,4 +224,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['생샤를역 주변', 'Around Saint-Charles station', 'サン・シャルル駅周辺', 'TGV와 공항 셔틀이 서는 역 주변으로 이동이 편합니다.', 'Handy for TGVs and the airport shuttle.', 'TGVや空港シャトルが発着し移動に便利です。'],
     ],
   },
+  tainan: {
+    o: ['대만에서 가장 오래된 도시로, 네덜란드·청나라 시대의 요새와 사당이 곳곳에 남아 있습니다. 새벽 소고기탕부터 단자이면까지 대만 먹거리의 본고장으로 불립니다.', 'Taiwan’s oldest city, dotted with Dutch- and Qing-era forts and temples, and celebrated as the capital of Taiwanese street food — from dawn beef soup to danzai noodles.', '台湾で最も古い都市で、オランダ・清朝時代の要塞や廟が各地に残っています。早朝の牛肉スープから担仔麺まで、台湾グルメの本場と呼ばれます。'],
+    d: [2, 3],
+    s: [
+      ['중서구(츠칸러우 주변)', 'West Central District (around Chihkan Tower)', '中西区（赤崁楼周辺）', '사당과 오래된 골목, 노포 먹거리가 모인 구시가지 중심입니다.', 'The old core of temples, lanes and long-running food stalls.', '廟や古い路地、老舗グルメが集まる旧市街の中心です。'],
+      ['타이난역 주변', 'Around Tainan Station', '台南駅周辺', '타이완철도 역과 버스가 모여 고속철·근교 이동이 편합니다.', 'The TRA station and buses make HSR and day trips easy.', '台湾鉄道の駅とバスが集まり、高速鉄道や近郊への移動に便利です。'],
+    ],
+  },
 };

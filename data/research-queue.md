@@ -49,6 +49,8 @@
 | 인스브루크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 마르세유 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 마르세유 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 타이난 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 타이난 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 교토 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오키나와 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 나고야 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
@@ -933,6 +935,12 @@
 | LUZ-AT-002 | 루체른 | 필라투스 크린스↔정상 왕복(여름) (성인) | 84 CHF | A | 예 | 재검증 | [Pilatus-Bahnen](https://pilatus.ch/en/railway-cableways/prices) |
 | LUZ-AT-003 | 루체른 | 리기 산악열차 1일권 (성인) | 84 CHF | A | 예 | 재검증 | [Rigi Bahnen](https://www.rigi.ch/en/inform/q-a) |
 | LUZ-AT-004 | 루체른 | 리기 산악열차 (아동, 성인 동반) | 0 CHF | A | 예 | 재검증 | [Rigi Bahnen](https://www.rigi.ch/en/inform/prices/discounts-for-individuals) |
+| TNN-TR-001 | 타이난 | 타이난 시내버스 1구간 (전표) | 26 TWD | A | 예 | 재검증 | [臺南市政府 公車](https://busmap.tainan.gov.tw/ebus/pathInfo.jsp?pathId=1100) |
+| TNN-AT-001 | 타이난 | 츠칸러우 (성인) | 70 TWD | A | 예 | 재검증 | [臺南市政府文化局](https://historic.tainan.gov.tw/index.php?option=module&lang=cht&task=pageinfo&id=46&index=3) |
+| TNN-AT-002 | 타이난 | 츠칸러우 (아동, 반표) | 35 TWD | A | 예 | 재검증 | [臺南市政府文化局](https://historic.tainan.gov.tw/index.php?option=module&lang=cht&task=pageinfo&id=46&index=3) |
+| TNN-AT-003 | 타이난 | 안핑 고성 (성인) | 70 TWD | A | 예 | 재검증 | [臺南市政府文化局](https://historic.tainan.gov.tw/index.php?option=module&lang=cht&task=pageinfo&id=58&index=2) |
+| TNN-AT-004 | 타이난 | 안핑 트리하우스 (성인) | 70 TWD | A | 예 | 재검증 | [臺南市政府文化局](https://historic.tainan.gov.tw/index.php?id=60&index=4&lang=cht&option=module&task=pageinfo) |
+| TNN-AT-005 | 타이난 | 이짜이진청 (성인) | 70 TWD | A | 예 | 재검증 | [臺南市政府文化局](https://historic.tainan.gov.tw/index.php?option=module&lang=cht&task=pageinfo&id=59&index=5) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

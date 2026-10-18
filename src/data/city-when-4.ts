@@ -278,4 +278,17 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['축구 시즌(8~5월) 경기일에는 경기장 투어가 없거나 짧아지니, 투어는 경기 없는 날로 예약하세요.', 'During the football season (August–May) stadium tours are limited on match days; book on a non-match day.', 'サッカーシーズン（8〜5月）の試合日はスタジアムツアーがないか短くなるので、試合のない日に予約しましょう。'],
   },
+  christchurch: {
+    p: [
+      ['12~2월', 'December–February', '12〜2月', '낮이 길고 따뜻해 에이번강 펀팅과 근교 여행을 즐기기 좋습니다.', 'Long warm days for punting on the Avon and day trips.', '日が長く暖かいので、エイボン川のパンティングや近郊への旅行を楽しめます。'],
+      ['3~4월', 'March–April', '3〜4月', '해글리 공원과 식물원의 단풍이 아름다운 시기입니다.', 'Autumn colour in Hagley Park and the Botanic Gardens.', 'ハグレー公園や植物園の紅葉が美しい時期です。'],
+    ],
+    x: ['11월 23일부터 메트로카드와 현금을 받지 않으니, 버스는 신용카드 탭(컨택리스)으로 타세요.', 'From 23 November Metrocard and cash are no longer accepted; tap a contactless card to ride the bus.', '11月23日からメトロカードと現金が使えなくなるので、バスはクレジットカードのタッチ決済で乗りましょう。'],
+  },
+  glasgow: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '낮이 길어 시내 산책과 스코틀랜드 근교 여행을 함께 하기 좋습니다.', 'Long days for city walks and trips into the Scottish countryside.', '日が長く、市内の散策とスコットランド近郊への旅行を組み合わせやすいです。'],
+    ],
+    x: ['비가 잦은 도시라, 켈빈그로브 같은 무료 실내 명소를 일정에 넉넉히 넣어 두면 좋습니다.', 'It rains often, so keep free indoor sights like Kelvingrove in your plans.', '雨の多い街なので、ケルヴィングローヴのような無料の屋内スポットを予定に入れておくと安心です。'],
+  },
 };

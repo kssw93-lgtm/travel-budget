@@ -520,6 +520,26 @@
     "stage": "파일럿"
   },
   {
+    "id": "christchurch",
+    "country": "뉴질랜드",
+    "countryEn": "New Zealand",
+    "nameKo": "크라이스트처치",
+    "nameEn": "Christchurch",
+    "currency": "NZD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "glasgow",
+    "country": "영국",
+    "countryEn": "United Kingdom",
+    "nameKo": "글래스고",
+    "nameEn": "Glasgow",
+    "currency": "GBP",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "macau",
     "country": "중국 마카오",
     "countryEn": "Macau",

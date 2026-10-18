@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+영국,글래스고,치킨 티카 마살라,Chicken Tikka Masala,글래스고에서 처음 만들어졌다고 알려진 크림 카레,중,,대기,VisitScotland,https://www.visitscotland.com/info/food-drink/namaste-by-delhi-darbar-p3109501,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+영국,글래스고,론 소시지,Lorne Sausage,"다진 고기를 네모나게 썬 스코틀랜드식 소시지로, 아침 빵에 끼워 먹습니다",저,,대기,VisitScotland,https://www.visitscotland.com/things-to-do/food-drink/must-try-food,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+영국,글래스고,해기스,Haggis,"양 내장과 귀리, 향신료로 만든 스코틀랜드 전통 음식",중,,대기,VisitScotland,https://www.visitscotland.com/things-to-do/food-drink/haggis,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

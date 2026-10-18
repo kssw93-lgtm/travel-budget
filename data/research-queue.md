@@ -107,6 +107,10 @@
 | 퍼스 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 맨체스터 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 맨체스터 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 크라이스트처치 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 크라이스트처치 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 글래스고 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 글래스고 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 마카오 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 마카오 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1049,6 +1053,15 @@
 | MAN-AT-001 | 맨체스터 | 올드 트래퍼드 투어 (성인, 사전 예약) | 28 GBP | A | 예 | 재검증 | [Manchester United](https://www.manutd.com/en/club/visit-old-trafford/museum-stadium-tours) |
 | MAN-AT-002 | 맨체스터 | 올드 트래퍼드 투어 (주니어, 사전 예약) | 15 GBP | A | 예 | 재검증 | [Manchester United](https://www.manutd.com/en/club/visit-old-trafford/museum-stadium-tours) |
 | MAN-AT-003 | 맨체스터 | 과학산업박물관 (입장 무료) | 0 GBP | A | 예 | 재검증 | [Science and Industry Museum](https://www.scienceandindustrymuseum.org.uk/visit) |
+| CHC-TR-001 | 크라이스트처치 | 메트로 버스 1회(카드 탭~현금) | 3~4 NZD | A | 예 | 재검증 | [Metro (Environment Canterbury)](https://www.metroinfo.co.nz/metrocard-and-fares/fares/) |
+| CHC-AT-001 | 크라이스트처치 | 국제 남극센터 (성인) | 74 NZD | A | 예 | 재검증 | [International Antarctic Centre](https://www.iceberg.co.nz/tickets/) |
+| CHC-AT-002 | 크라이스트처치 | 국제 남극센터 (아동) | 49 NZD | A | 예 | 재검증 | [International Antarctic Centre](https://www.iceberg.co.nz/tickets/) |
+| CHC-AT-003 | 크라이스트처치 | 크라이스트처치 트램 1일권 (성인) | 42 NZD | A | 예 | 재검증 | [Christchurch Attractions](https://www.christchurchattractions.nz/christchurch-tram/) |
+| CHC-AT-004 | 크라이스트처치 | 크라이스트처치 트램 1일권 (아동) | 10 NZD | A | 예 | 재검증 | [Christchurch Attractions](https://www.christchurchattractions.nz/christchurch-tram/) |
+| GLA-TR-001 | 글래스고 | 글래스고 지하철 1회(카드 탭~종이 승차권) | 1.8~1.85 GBP | A | 예 | 재검증 | [SPT](https://www.spt.co.uk/about-us/news/subway-fares-revised-for-2026/) |
+| GLA-AT-001 | 글래스고 | 글래스고 과학센터 (성인) | 15.5 GBP | A | 예 | 재검증 | [Glasgow Science Centre](https://www.glasgowsciencecentre.org/visit/ticket-prices) |
+| GLA-AT-002 | 글래스고 | 글래스고 과학센터 (아동) | 12 GBP | A | 예 | 재검증 | [Glasgow Science Centre](https://www.glasgowsciencecentre.org/visit/ticket-prices) |
+| GLA-AT-003 | 글래스고 | 켈빈그로브 미술관·박물관 (입장 무료) | 0 GBP | A | 예 | 재검증 | [Glasgow Life](https://www.glasgowlife.org.uk/museums/venues/kelvingrove-art-gallery-and-museum) |
 | GRX-TR-001 | 그라나다 | 그라나다 시내버스 1회권 | 1.6 EUR | A | 예 | 재검증 | [Turismo de Granada](https://turismo.granada.org/es/bus-urbano) |
 | GRX-AT-001 | 그라나다 | 알람브라 일반 입장(낮) (성인) | 21~22.27 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://tickets.alhambra-patronato.es/producto/alhambra-general/) |
 | GRX-AT-002 | 그라나다 | 알람브라 (아동) | 0 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://www.alhambra-patronato.es/notas-prensa/la-alhambra-actualiza-sus-tarifas-en-agosto) |

@@ -3055,6 +3055,60 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "christchurch",
+    "nameKo": "캔터베리 양고기",
+    "nameEn": "Canterbury Lamb",
+    "reason": "캔터베리 평원에서 기른 양고기 요리",
+    "reasonEn": "Lamb raised on the Canterbury Plains",
+    "desc": {
+      "ko": "캔터베리 평원에서 기른 양고기 요리",
+      "en": "Lamb raised on the Canterbury Plains",
+      "ja": "カンタベリー平野で育ったラム肉の料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "ChristchurchNZ",
+    "recommendUrl": "https://www.christchurchnz.com/visit/eat-and-drink/Canterburys-food-and-wine-scene",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "christchurch",
+    "nameKo": "아카로아 연어",
+    "nameEn": "Akaroa Salmon",
+    "reason": "근교 아카로아 항구에서 기른 연어",
+    "reasonEn": "Salmon from nearby Akaroa Harbour",
+    "desc": {
+      "ko": "근교 아카로아 항구에서 기른 연어",
+      "en": "Salmon from nearby Akaroa Harbour",
+      "ja": "近郊のアカロア湾で育てられたサーモン"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "ChristchurchNZ",
+    "recommendUrl": "https://www.christchurchnz.com/visit/eat-and-drink/Canterburys-food-and-wine-scene",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "christchurch",
+    "nameKo": "굴",
+    "nameEn": "Oysters",
+    "reason": "캔터베리 바다에서 나는 신선한 굴",
+    "reasonEn": "Fresh local oysters",
+    "desc": {
+      "ko": "캔터베리 바다에서 나는 신선한 굴",
+      "en": "Fresh local oysters",
+      "ja": "カンタベリーの海でとれる新鮮なカキ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism New Zealand",
+    "recommendUrl": "https://www.newzealand.com/us/feature/food-and-wine-in-christchurch-and-canterbury/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "colmar",
     "nameKo": "슈크루트",
     "nameEn": "Choucroute",
@@ -4416,6 +4470,60 @@
     "priceStatus": "대기",
     "recommendSource": "Visit Gent",
     "recommendUrl": "https://visit.gent.be/en/good-know/practical-information/inspiration/ghent-specialties-and-sweets",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "glasgow",
+    "nameKo": "치킨 티카 마살라",
+    "nameEn": "Chicken Tikka Masala",
+    "reason": "글래스고에서 처음 만들어졌다고 알려진 크림 카레",
+    "reasonEn": "Creamy curry said to have been created in Glasgow",
+    "desc": {
+      "ko": "글래스고에서 처음 만들어졌다고 알려진 크림 카레",
+      "en": "Creamy curry said to have been created in Glasgow",
+      "ja": "グラスゴーで生まれたといわれるクリーミーなカレー"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "VisitScotland",
+    "recommendUrl": "https://www.visitscotland.com/info/food-drink/namaste-by-delhi-darbar-p3109501",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "glasgow",
+    "nameKo": "론 소시지",
+    "nameEn": "Lorne Sausage",
+    "reason": "다진 고기를 네모나게 썬 스코틀랜드식 소시지로, 아침 빵에 끼워 먹습니다",
+    "reasonEn": "Square sliced sausage, often in a breakfast roll",
+    "desc": {
+      "ko": "다진 고기를 네모나게 썬 스코틀랜드식 소시지로, 아침 빵에 끼워 먹습니다",
+      "en": "Square sliced sausage, often in a breakfast roll",
+      "ja": "ひき肉を四角く切ったスコットランドのソーセージで、朝食のパンに挟んで食べます"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "VisitScotland",
+    "recommendUrl": "https://www.visitscotland.com/things-to-do/food-drink/must-try-food",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "glasgow",
+    "nameKo": "해기스",
+    "nameEn": "Haggis",
+    "reason": "양 내장과 귀리, 향신료로 만든 스코틀랜드 전통 음식",
+    "reasonEn": "Scotland’s national dish of sheep offal, oats and spices",
+    "desc": {
+      "ko": "양 내장과 귀리, 향신료로 만든 스코틀랜드 전통 음식",
+      "en": "Scotland’s national dish of sheep offal, oats and spices",
+      "ja": "羊の内臓とオーツ麦、スパイスで作るスコットランドの伝統料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "VisitScotland",
+    "recommendUrl": "https://www.visitscotland.com/things-to-do/food-drink/haggis",
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {

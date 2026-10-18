@@ -4837,5 +4837,35 @@
     "ko": "근교 베리의 명물인 선지 소시지로, 시장에서 따뜻하게 먹습니다",
     "en": "Blood sausage from nearby Bury, eaten hot at markets",
     "ja": "近郊ベリーの名物の血のソーセージで、市場で温かいまま食べます"
+  },
+  "christchurch:Canterbury Lamb": {
+    "ko": "캔터베리 평원에서 기른 양고기 요리",
+    "en": "Lamb raised on the Canterbury Plains",
+    "ja": "カンタベリー平野で育ったラム肉の料理"
+  },
+  "christchurch:Akaroa Salmon": {
+    "ko": "근교 아카로아 항구에서 기른 연어",
+    "en": "Salmon from nearby Akaroa Harbour",
+    "ja": "近郊のアカロア湾で育てられたサーモン"
+  },
+  "christchurch:Oysters": {
+    "ko": "캔터베리 바다에서 나는 신선한 굴",
+    "en": "Fresh local oysters",
+    "ja": "カンタベリーの海でとれる新鮮なカキ"
+  },
+  "glasgow:Chicken Tikka Masala": {
+    "ko": "글래스고에서 처음 만들어졌다고 알려진 크림 카레",
+    "en": "Creamy curry said to have been created in Glasgow",
+    "ja": "グラスゴーで生まれたといわれるクリーミーなカレー"
+  },
+  "glasgow:Lorne Sausage": {
+    "ko": "다진 고기를 네모나게 썬 스코틀랜드식 소시지로, 아침 빵에 끼워 먹습니다",
+    "en": "Square sliced sausage, often in a breakfast roll",
+    "ja": "ひき肉を四角く切ったスコットランドのソーセージで、朝食のパンに挟んで食べます"
+  },
+  "glasgow:Haggis": {
+    "ko": "양 내장과 귀리, 향신료로 만든 스코틀랜드 전통 음식",
+    "en": "Scotland’s national dish of sheep offal, oats and spices",
+    "ja": "羊の内臓とオーツ麦、スパイスで作るスコットランドの伝統料理"
   }
 }

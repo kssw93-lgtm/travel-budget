@@ -350,4 +350,20 @@ export const INTROS_6: Record<string, Intro> = {
       ['노던 쿼터', 'Northern Quarter', 'ノーザン・クォーター', '개성 있는 카페·식당·바가 모인 지역입니다.', 'Independent cafés, restaurants and bars.', '個性的なカフェや飲食店、バーが集まる地区です。'],
     ],
   },
+  christchurch: {
+    o: ['뉴질랜드 남섬 최대 도시로, 에이번강과 넓은 해글리 공원이 있는 ‘정원의 도시’입니다. 남극 탐험의 출발지였고, 남섬 렌터카 여행과 알프스 열차 여행의 시작점이기도 합니다.', 'The South Island’s largest city, a “Garden City” on the Avon River with vast Hagley Park; a historic gateway to Antarctica and the start of many South Island road and rail trips.', 'ニュージーランド南島最大の都市で、エイボン川と広いハグレー公園がある「ガーデンシティ」です。南極探検の出発地で、南島のレンタカー旅行や山岳鉄道の旅の起点でもあります。'],
+    d: [2, 3],
+    s: [
+      ['시티 센터', 'City Centre', 'シティ・センター', '트램 노선과 버스 환승 센터가 있어 걸어서 둘러보기 좋습니다.', 'Compact and walkable, with the heritage tram loop and bus interchange.', 'トラムの路線とバスの乗り換えセンターがあり、歩いて回りやすいです。'],
+      ['해글리 공원 주변', 'Around Hagley Park', 'ハグレー公園周辺', '식물원과 박물관이 가까운 조용한 지역입니다.', 'A quiet area close to the Botanic Gardens and museum.', '植物園や博物館に近い静かな地区です。'],
+    ],
+  },
+  glasgow: {
+    o: ['스코틀랜드 최대 도시로, 빅토리아 시대 건축과 찰스 레니 매킨토시의 디자인이 곳곳에 남아 있습니다. 켈빈그로브 미술관 등 무료 박물관이 많고, 에든버러와 기차로 약 1시간 거리입니다.', 'Scotland’s largest city, rich in Victorian architecture and Charles Rennie Mackintosh design; many museums such as Kelvingrove are free, and Edinburgh is about an hour by train.', 'スコットランド最大の都市で、ヴィクトリア朝の建築やチャールズ・レニー・マッキントッシュのデザインが各地に残ります。ケルヴィングローヴ美術館など無料の博物館が多く、エディンバラまで列車で約1時間です。'],
+    d: [2, 3],
+    s: [
+      ['시티 센터(조지 스퀘어 주변)', 'City Centre (around George Square)', 'シティ・センター（ジョージ・スクエア周辺）', '기차역과 지하철역이 가깝고, 공항버스가 서는 곳입니다.', 'Near the main stations and Subway, served by the airport bus.', '鉄道駅や地下鉄駅に近く、空港バスが停まります。'],
+      ['웨스트 엔드', 'West End', 'ウエスト・エンド', '켈빈그로브 미술관과 글래스고 대학이 있는 지역으로, 카페와 식당이 많습니다.', 'Home to Kelvingrove and the University, with plenty of cafés and restaurants.', 'ケルヴィングローヴ美術館やグラスゴー大学がある地区で、カフェや飲食店が多いです。'],
+    ],
+  },
 };

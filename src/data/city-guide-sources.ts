@@ -1016,4 +1016,12 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'manchester:h2': 'https://www.manutd.com/en/club/visit-old-trafford/museum-stadium-tours',
   'manchester:h3': 'https://www.visitmanchester.com/ideas-and-inspiration/blog/post/free-things-to-do-in-greater-manchester/',
   'manchester:t1': 'https://tfgm.com/tickets-and-passes/tram-peak-single-ticket-adult',
+  'christchurch:h1': 'https://www.iceberg.co.nz/tickets/',
+  'christchurch:h2': 'https://www.christchurchattractions.nz/christchurch-tram/',
+  'christchurch:h3': 'https://www.christchurchnz.com/visit/eat-and-drink/Canterburys-food-and-wine-scene',
+  'christchurch:t1': 'https://www.metroinfo.co.nz/timetables/getting-to-the-airport/',
+  'glasgow:h1': 'https://www.glasgowlife.org.uk/museums/venues/kelvingrove-art-gallery-and-museum',
+  'glasgow:h2': 'https://www.glasgowsciencecentre.org/visit/ticket-prices',
+  'glasgow:h3': 'https://www.spt.co.uk/travel-with-spt/subway/',
+  'glasgow:t1': 'https://www.glasgowairport.com/to-and-from/glasgow-airport-express-service-500/',
 };

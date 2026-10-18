@@ -609,4 +609,24 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 맨체스터 공항에서 메트로링크 트램을 타면 시내까지 갈 수 있으며, 4개 구간 단일권이 필요합니다.', 'Airport to city: Metrolink trams run from Manchester Airport into the city on a four-zone single.', '空港から市内へ：マンチェスター空港からメトロリンクのトラムで市内まで行け、4ゾーンの片道券が必要です。'],
     ],
   },
+  christchurch: {
+    h: [
+      ['국제 남극센터', 'International Antarctic Centre', '国際南極センター', '공항 옆에 있는 체험관으로, 남극 폭풍 체험과 펭귄, 설상차 체험을 할 수 있습니다.', 'Beside the airport: an Antarctic storm room, penguins and Hägglund rides.', '空港の隣にある体験施設で、南極の嵐体験やペンギン、雪上車の体験ができます。'],
+      ['크라이스트처치 트램', 'Christchurch Tram', 'クライストチャーチ・トラム', '시내를 한 바퀴 도는 옛 트램으로, 해설을 들으며 하루 동안 자유롭게 타고 내릴 수 있습니다.', 'A heritage tram loop through the centre with commentary; hop on and off all day.', '市内を一周するレトロなトラムで、解説を聞きながら一日自由に乗り降りできます。'],
+      ['캔터베리 식재료', 'Canterbury produce', 'カンタベリーの食材', '캔터베리 양고기와 아카로아 연어 등 지역 식재료를 쓰는 식당이 많습니다.', 'Restaurants showcase Canterbury lamb, Akaroa salmon and other local produce.', 'カンタベリーのラム肉やアカロア産サーモンなど、地元の食材を使う店が多いです。'],
+    ],
+    t: [
+      ['공항에서 시내: 크라이스트처치 공항에서 29번 메트로 버스를 타면 시내 버스 환승 센터까지 갈 수 있으며, 일반 버스 요금이 적용됩니다.', 'Airport to city: Metro route 29 runs from the airport to the central bus interchange at the standard bus fare.', '空港から市内へ：クライストチャーチ空港からメトロの29番バスで市内のバス乗り換えセンターまで行け、通常のバス運賃が適用されます。'],
+    ],
+  },
+  glasgow: {
+    h: [
+      ['켈빈그로브 미술관·박물관', 'Kelvingrove Art Gallery and Museum', 'ケルヴィングローヴ美術館・博物館', '달리의 〈십자가의 성 요한의 그리스도〉 등을 소장한 붉은 사암 건물의 미술관으로, 입장은 무료입니다.', 'A red-sandstone gallery holding Dalí’s Christ of St John of the Cross — free to enter.', 'ダリの「十字架の聖ヨハネのキリスト」などを所蔵する赤砂岩の美術館で、入場は無料です。'],
+      ['글래스고 과학센터', 'Glasgow Science Centre', 'グラスゴー科学センター', '클라이드강 변의 체험형 과학관으로, 플라네타리움과 아이맥스 영화관이 있습니다.', 'A hands-on science centre on the Clyde with a planetarium and IMAX.', 'クライド川沿いの体験型科学館で、プラネタリウムやIMAXシアターがあります。'],
+      ['글래스고 지하철', 'Glasgow Subway', 'グラスゴー地下鉄', '시내와 웨스트 엔드를 원형으로 잇는 세계에서 세 번째로 오래된 지하철입니다.', 'The world’s third-oldest underground, a circle linking the centre and West End.', '市内とウエスト・エンドを環状に結ぶ、世界で3番目に古い地下鉄です。'],
+    ],
+    t: [
+      ['공항에서 시내: 글래스고 공항에서 500번 공항버스(24시간 운행)를 타면 약 15~25분이면 시내에 닿습니다. 요금은 최근 바뀌었으니 운영사 사이트에서 확인하세요.', 'Airport to city: the 24-hour Airport Express 500 bus reaches the centre in about 15–25 minutes; fares changed recently, so check the operator’s site.', '空港から市内へ：グラスゴー空港から24時間運行の500番空港バスで約15〜25分で市内に着きます。運賃は最近変わったので運行会社のサイトで確認しましょう。'],
+    ],
+  },
 };

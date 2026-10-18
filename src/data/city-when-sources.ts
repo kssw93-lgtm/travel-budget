@@ -379,4 +379,9 @@ export const WHEN_SOURCES: Record<string, string> = {
   'perth:x': 'https://www.westernaustralia.com/sg/plan-my-trip/planning-tools/travel-stories/a-city-rich-with-natural-wonders',
   'manchester:p1': 'https://www.visitmanchester.com/ideas-and-inspiration/blog/post/free-things-to-do-in-greater-manchester/',
   'manchester:x': 'https://www.manutd.com/en/club/visit-old-trafford/museum-stadium-tours',
+  'christchurch:p1': 'https://www.christchurchattractions.nz/',
+  'christchurch:p2': 'https://www.christchurchattractions.nz/',
+  'christchurch:x': 'https://www.metroinfo.co.nz/metrocard-and-fares/fares/',
+  'glasgow:p1': 'https://www.glasgowlife.org.uk/museums/venues/kelvingrove-art-gallery-and-museum',
+  'glasgow:x': 'https://www.glasgowlife.org.uk/museums/venues/kelvingrove-art-gallery-and-museum',
 };

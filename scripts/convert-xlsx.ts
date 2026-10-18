@@ -477,10 +477,16 @@ function main() {
     process.exit(1);
   }
 
+  const publicCityIds = new Set(cities.filter((city) => city.stage === '파일럿').map((city) => city.id));
+  const latestPriceCheckedAt = samples.reduce(
+    (latest, sample) => (publicCityIds.has(sample.cityId) && sample.checkedAt > latest ? sample.checkedAt : latest),
+    '',
+  );
   const meta = {
     source: basename(xlsxPath),
     version: usingLatest ? latest.version : 'custom',
     date: usingLatest ? latest.date : '',
+    latestPriceCheckedAt,
     sha256: createHash('sha256').update(readFileSync(xlsxPath)).digest('hex').slice(0, 16),
     sampleCount: samples.length,
   };

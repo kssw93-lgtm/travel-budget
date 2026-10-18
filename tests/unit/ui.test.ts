@@ -3,7 +3,7 @@ import { en } from '../../src/i18n/en';
 import { ko } from '../../src/i18n/ko';
 import { fmt } from '../../src/i18n';
 import { parseForm, type FormState } from '../../src/ui/form';
-import { allCities, cities, foods, PILOT_STAGE, samples } from '../../src/data';
+import { allCities, cities, dataDate, foods, PILOT_STAGE, samples } from '../../src/data';
 import { cityGroups, matchCity } from '../../src/ui/TripForm';
 
 const base: FormState = {
@@ -130,12 +130,16 @@ describe('출처 표시', () => {
 });
 
 describe('데이터 버전', () => {
-  it('운영 JSON 은 latest.json 이 가리키는 최신 엑셀(v0.2, 130건)에서 만들어졌다', async () => {
+  it('운영 JSON 은 latest.json 이 가리키는 최신 엑셀에서 만들어졌다', async () => {
     const { dataMeta } = await import('../../src/data');
     const { readFileSync } = await import('node:fs');
     const latest = JSON.parse(readFileSync('data/source/latest.json', 'utf8')) as { version: string; file: string };
     expect(dataMeta).toMatchObject({ source: latest.file, version: latest.version });
     expect(dataMeta.sampleCount).toBe(samples.length);
+    const publicIds = new Set(cities.map((city) => city.id));
+    const latestCheckedAt = samples.reduce((date, sample) => (publicIds.has(sample.cityId) && sample.checkedAt > date ? sample.checkedAt : date), '');
+    expect(dataMeta.latestPriceCheckedAt).toBe(latestCheckedAt);
+    expect(dataDate).toBe(latestCheckedAt);
     expect(samples.some((s) => s.id.includes('TEST'))).toBe(false);
   });
 });

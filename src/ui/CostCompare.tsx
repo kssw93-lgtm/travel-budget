@@ -5,7 +5,7 @@ import { STATIC_RATES } from '../core/rates/static';
 import { cities, dataDate, extras, samples } from '../data';
 import { LOCALES, fmt, useI18n } from '../i18n';
 import { InternalLink, type Go } from './App';
-import { displayCurrency, guideRefDate } from './CityGuide';
+import { displayCurrency, guideRefDate } from './guide-utils';
 import { cityName, countryName, matchCity } from './TripForm';
 
 /** 도시별 하루 여행 경비 비교(/compare): 같은 조건의 1인 1일 현지 체류비를 낮은 순으로 */

@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { cityGuide, guidePath, type CityGuide as CityGuideData } from '../core/guide';
 import { formatMoney } from '../core/money';
 import type { City, PriceSample } from '../core/types';
-import { cities, dataDate, dataMeta, extras, foods, memos, samples } from '../data';
+import { cities, dataDate, extras, foods, memos, samples } from '../data';
 import { CITY_GUIDES } from '../data/city-guides';
 import { CHRISTMAS_MARKETS } from '../data/christmas-markets';
 import { GUIDE_SOURCES } from '../data/city-guide-sources';
@@ -11,25 +11,15 @@ import { CITY_SEASONS } from '../data/city-seasons';
 import { CITY_WHEN } from '../data/city-when';
 import { WHEN_SOURCES } from '../data/city-when-sources';
 import { COUNTRY_GUIDES } from '../data/country-guides';
-import { DEFAULT_CURRENCY, fmt, localName, useI18n, type Lang } from '../i18n';
+import { fmt, localName, useI18n, type Lang } from '../i18n';
 import { InternalLink, type Go } from './App';
 import { CityMemos } from './CityMemos';
 import { ExternalLink } from './ExternalLink';
 import { FoodSection } from './FoodSection';
 import { convertRange, RangeText } from './money';
+import { displayCurrency, guideRefDate } from './guide-utils';
 import { cityGroups, cityName, countryName, matchCity } from './TripForm';
 import { useRates, type RatesState } from './useRates';
-
-/** 가이드의 예시 일정 기준일: 가격 자료 기준일(정적 HTML 과 화면이 같은 값을 쓰도록 고정) */
-export const guideRefDate = dataMeta.date || dataDate;
-
-export function displayCurrency(lang: Lang): string {
-  try {
-    return localStorage.getItem('currency') ?? DEFAULT_CURRENCY[lang];
-  } catch {
-    return DEFAULT_CURRENCY[lang];
-  }
-}
 
 function Converted({ range, from, to, rates }: { range: { min: number; max: number } | null; from: string; to: string; rates: RatesState }) {
   if (!range || from === to || rates.status !== 'ok') return null;

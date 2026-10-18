@@ -1,12 +1,9 @@
-import { useCallback, useEffect, useRef, useState, type MouseEvent, type ReactNode } from 'react';
-import { cities, cityById, dataDate } from '../data';
+import { lazy, Suspense, useCallback, useEffect, useRef, useState, type MouseEvent, type ReactNode } from 'react';
+import { cities, cityById, dataDate } from '../data/catalog';
 import { I18nProvider, LANG_NAMES, LANGS, detectLang, fmt, messages, type Lang } from '../i18n';
 import { AdSlot } from './AdSlot';
 import { Calculator } from './Calculator';
 import { About, Privacy } from './InfoPages';
-import { HowItWorks } from './HowItWorks';
-import { CostComparePage } from './CostCompare';
-import { ChristmasMarketsPage, CityGuidePage, GuideIndex } from './CityGuide';
 import { routeOf } from './pages';
 import { applyMeta } from './meta';
 import { calcMemory, readLang, withLang } from './urlState';
@@ -16,6 +13,12 @@ import { currentLoc, isPreview, pushLoc, replaceLoc, type Loc } from './router';
 const BRAND: Record<Lang, string> = { ko: '여행 경비 계산', en: 'Travel Budget', ja: '旅行費用計算' };
 
 export type Go = (to: string) => void;
+
+const HowItWorks = lazy(() => import('./HowItWorks').then((module) => ({ default: module.HowItWorks })));
+const CostComparePage = lazy(() => import('./CostCompare').then((module) => ({ default: module.CostComparePage })));
+const ChristmasMarketsPage = lazy(() => import('./CityGuide').then((module) => ({ default: module.ChristmasMarketsPage })));
+const CityGuidePage = lazy(() => import('./CityGuide').then((module) => ({ default: module.CityGuidePage })));
+const GuideIndex = lazy(() => import('./CityGuide').then((module) => ({ default: module.GuideIndex })));
 
 
 const current = (): Loc => currentLoc();
@@ -123,23 +126,25 @@ export function App() {
               {t.preview.banner}
             </p>
           )}
-          {page === 'about' ? (
-            <About />
-          ) : page === 'privacy' ? (
-            <Privacy />
-          ) : page === 'guides' ? (
-            <GuideIndex go={go} />
-          ) : page === 'compare' ? (
-            <CostComparePage go={go} />
-          ) : page === 'method' ? (
-            <HowItWorks go={go} />
-          ) : page === 'christmas' ? (
-            <ChristmasMarketsPage go={go} />
-          ) : page === 'guide' && guideCity ? (
-            <CityGuidePage city={guideCity} go={go} />
-          ) : (
-            <Calculator />
-          )}
+          <Suspense fallback={<p className="card" role="status">{t.home.loadingData}</p>}>
+            {page === 'about' ? (
+              <About />
+            ) : page === 'privacy' ? (
+              <Privacy />
+            ) : page === 'guides' ? (
+              <GuideIndex go={go} />
+            ) : page === 'compare' ? (
+              <CostComparePage go={go} />
+            ) : page === 'method' ? (
+              <HowItWorks go={go} />
+            ) : page === 'christmas' ? (
+              <ChristmasMarketsPage go={go} />
+            ) : page === 'guide' && guideCity ? (
+              <CityGuidePage city={guideCity} go={go} />
+            ) : (
+              <Calculator />
+            )}
+          </Suspense>
         </main>
         <div className="ad-rail">
           <AdSlot name="rail-right" />

@@ -2,7 +2,7 @@ import { fmt, useI18n } from '../i18n';
 import { ExternalLink } from './ExternalLink';
 import { contactEmail } from './pages';
 import { PRIVACY_EFFECTIVE } from './policy';
-import { cities } from '../data';
+import { cities } from '../data/catalog';
 import { cityName } from './TripForm';
 
 /** 문단 안의 http(s) 주소는 외부 링크로 바꾼다 */

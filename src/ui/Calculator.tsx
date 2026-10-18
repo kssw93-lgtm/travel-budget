@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { estimateTrip } from '../core/estimate';
-import { cityById, cities, extras, foods, samples, upcomingCities } from '../data';
+import type { ExtraSample, FoodRecommendation, PriceSample } from '../core/types';
+import { cityById, cities, upcomingCities } from '../data/catalog';
 import { DEFAULT_CURRENCY, useI18n } from '../i18n';
 import { AttractionPicker } from './AttractionPicker';
 import { ExtrasPicker } from './ExtrasPicker';
@@ -58,6 +59,27 @@ export function Calculator() {
       drinkPicks: fromUrl.drinkPicks ?? [],
     };
   });
+  const [priceData, setPriceData] = useState<{ extras: ExtraSample[]; foods: FoodRecommendation[]; samples: PriceSample[] } | null>(null);
+  const [priceDataError, setPriceDataError] = useState(false);
+
+  // 첫 화면에는 무거운 가격 JSON을 받지 않고, 사용자가 도시를 고른 뒤 한 번 불러온다.
+  useEffect(() => {
+    if (!form.cityId || priceData) return;
+    let active = true;
+    import('../data/calculator')
+      .then(({ calculatorData }) => {
+        if (active) {
+          setPriceData(calculatorData);
+          setPriceDataError(false);
+        }
+      })
+      .catch(() => {
+        if (active) setPriceDataError(true);
+      });
+    return () => {
+      active = false;
+    };
+  }, [form.cityId, priceData]);
   // 도시를 바꾸면 이전 도시의 관광지·공항 이동·렌터카 선택은 의미가 없으므로 비운다
   const patch = (p: Partial<FormState>) =>
     setForm((f) => ({
@@ -88,8 +110,8 @@ export function Calculator() {
   const parsed = useMemo(() => parseForm(form), [form]);
   const city = cityById(form.cityId);
   const estimate = useMemo(
-    () => (parsed.trip && city ? estimateTrip(parsed.trip, city, samples, extras) : null),
-    [parsed.trip, city],
+    () => (parsed.trip && city && priceData ? estimateTrip(parsed.trip, city, priceData.samples, priceData.extras) : null),
+    [parsed.trip, city, priceData],
   );
 
   return (
@@ -99,20 +121,22 @@ export function Calculator() {
         <p>{t.home.lead}</p>
       </section>
       <TripForm form={form} onChange={patch} errors={parsed.errors} cities={cities} upcoming={upcomingCities} rates={rates.status === 'ok' ? rates.data : null} />
-      {city && (
+      {city && !priceData && !priceDataError && <p className="card" role="status">{t.home.loadingData}</p>}
+      {city && priceDataError && <p className="card" role="alert">{t.home.dataLoadError}</p>}
+      {city && priceData && (
         <PlanOptions
           city={city}
-          samples={samples}
+          samples={priceData.samples}
           form={form}
           onChange={patch}
           errors={parsed.errors}
           days={parsed.trip ? parsed.trip.nights + 1 : (Number(form.nights) || 0) + 1}
         />
       )}
-      {city && (
+      {city && priceData && (
         <AttractionPicker
           city={city}
-          samples={samples}
+          samples={priceData.samples}
           selected={form.attractions}
           onChange={(attractions) => patch({ attractions })}
           display={form.currency}
@@ -121,10 +145,10 @@ export function Calculator() {
           children={parsed.trip?.children ?? 0}
         />
       )}
-      {city && (
+      {city && priceData && (
         <ExtrasPicker
           city={city}
-          extras={extras}
+          extras={priceData.extras}
           form={form}
           onChange={patch}
           display={form.currency}
@@ -133,7 +157,7 @@ export function Calculator() {
           errors={parsed.errors}
         />
       )}
-      {estimate && parsed.trip && city ? (
+      {estimate && parsed.trip && city && priceData ? (
         <>
           <ResultView
             estimate={estimate}
@@ -141,11 +165,11 @@ export function Calculator() {
             city={city}
             display={form.currency}
             rates={rates}
-            samples={samples}
+            samples={priceData.samples}
             direct={{ ...parsed.direct, currency: form.directCurrency }}
             shopping={parsed.shopping}
           />
-          <FoodSection city={city} foods={foods} />
+          <FoodSection city={city} foods={priceData.foods} />
         </>
       ) : (
         <>

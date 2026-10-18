@@ -5,7 +5,7 @@ import type { Range } from '../core/types';
 import { cities, extras, samples } from '../data';
 import { LOCALES, useI18n } from '../i18n';
 import { InternalLink, type Go } from './App';
-import { guideRefDate } from './CityGuide';
+import { guideRefDate } from './guide-utils';
 import { methodContent } from './method-content';
 import { cityName } from './TripForm';
 

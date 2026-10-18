@@ -12,6 +12,8 @@ export const en: Messages = {
   home: {
     title: 'How much will you spend there?',
     startHint: 'Enter a city, visit date, nights and adults to see your estimated local costs here.',
+    loadingData: 'Loading price data…',
+    dataLoadError: 'Could not load price data. Please refresh the page.',
     lead: 'Choose a city and trip details to get a min–max estimate for food, local transport and attractions. A shopping/gift budget, flights and lodging are added only if you enter them yourself.',
   },
   form: {

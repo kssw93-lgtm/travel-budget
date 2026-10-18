@@ -1,5 +1,5 @@
 import type { City } from '../core/types';
-import { cities } from '../data';
+import { cities } from '../data/catalog';
 import { CITY_INTROS } from '../data/city-intros';
 import { fmt, LOCALES, messages, type Lang } from '../i18n';
 import { cityName } from './TripForm';

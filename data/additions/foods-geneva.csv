@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+스위스,제네바,퐁뒤,Fondue,녹인 치즈에 빵을 찍어 먹는 스위스 대표 요리,중,,대기,Geneva Tourism,https://www.geneve.com/en/eat-drink/restaurants/where-to-eat-fondue,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+스위스,제네바,롱졸,Longeole,회향 씨를 넣은 제네바 지역의 돼지고기 소시지(IGP),중,,대기,Geneva Tourism,https://www.geneve.com/en/eat-drink/restaurants/local-food,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+스위스,제네바,호수 농어 필레,Perch Fillets,레만 호수의 농어를 버터에 구워 감자튀김과 내는 요리,고,,대기,Geneva Tourism,https://www.geneve.com/en/eat-drink/restaurants/perche-fillets-restaurant-in-geneva,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

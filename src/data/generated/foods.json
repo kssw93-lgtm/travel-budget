@@ -4095,6 +4095,114 @@
     "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
   },
   {
+    "cityId": "geneva",
+    "nameKo": "퐁뒤",
+    "nameEn": "Fondue",
+    "reason": "녹인 치즈에 빵을 찍어 먹는 스위스 대표 요리",
+    "reasonEn": "Bread dipped in melted cheese, Switzerland’s classic",
+    "desc": {
+      "ko": "녹인 치즈에 빵을 찍어 먹는 스위스 대표 요리",
+      "en": "Bread dipped in melted cheese, Switzerland’s classic",
+      "ja": "溶かしたチーズにパンをつけて食べるスイスの代表料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Geneva Tourism",
+    "recommendUrl": "https://www.geneve.com/en/eat-drink/restaurants/where-to-eat-fondue",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "geneva",
+    "nameKo": "롱졸",
+    "nameEn": "Longeole",
+    "reason": "회향 씨를 넣은 제네바 지역의 돼지고기 소시지(IGP)",
+    "reasonEn": "Geneva’s fennel-seed pork sausage (IGP)",
+    "desc": {
+      "ko": "회향 씨를 넣은 제네바 지역의 돼지고기 소시지(IGP)",
+      "en": "Geneva’s fennel-seed pork sausage (IGP)",
+      "ja": "フェンネルシードを入れたジュネーブ地方の豚肉ソーセージ（IGP）"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Geneva Tourism",
+    "recommendUrl": "https://www.geneve.com/en/eat-drink/restaurants/local-food",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "geneva",
+    "nameKo": "호수 농어 필레",
+    "nameEn": "Perch Fillets",
+    "reason": "레만 호수의 농어를 버터에 구워 감자튀김과 내는 요리",
+    "reasonEn": "Lake perch fillets pan-fried in butter, served with fries",
+    "desc": {
+      "ko": "레만 호수의 농어를 버터에 구워 감자튀김과 내는 요리",
+      "en": "Lake perch fillets pan-fried in butter, served with fries",
+      "ja": "レマン湖のパーチをバターで焼き、フライドポテトと出す料理"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Geneva Tourism",
+    "recommendUrl": "https://www.geneve.com/en/eat-drink/restaurants/perche-fillets-restaurant-in-geneva",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "ghent",
+    "nameKo": "겐트식 바테르조이",
+    "nameEn": "Gentse Waterzooi",
+    "reason": "닭이나 생선을 채소와 함께 크림 육수에 끓인 겐트 전통 스튜",
+    "reasonEn": "Creamy stew of chicken or fish with vegetables",
+    "desc": {
+      "ko": "닭이나 생선을 채소와 함께 크림 육수에 끓인 겐트 전통 스튜",
+      "en": "Creamy stew of chicken or fish with vegetables",
+      "ja": "鶏肉か魚を野菜とクリーム仕立てのスープで煮込んだヘント伝統の料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Gent",
+    "recommendUrl": "https://visit.gent.be/en/good-know/practical-information/inspiration/ghent-specialties-and-sweets",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "ghent",
+    "nameKo": "퀴베르동",
+    "nameEn": "Cuberdons",
+    "reason": "코 모양의 라즈베리 맛 젤리 사탕으로, 겐트의 상징 같은 과자",
+    "reasonEn": "Nose-shaped raspberry gum sweets, a Ghent icon",
+    "desc": {
+      "ko": "코 모양의 라즈베리 맛 젤리 사탕으로, 겐트의 상징 같은 과자",
+      "en": "Nose-shaped raspberry gum sweets, a Ghent icon",
+      "ja": "鼻の形をしたラズベリー味のゼリー菓子で、ヘントの象徴のようなお菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Gent",
+    "recommendUrl": "https://visit.gent.be/en/good-know/practical-information/inspiration/ghent-specialties-and-sweets",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "ghent",
+    "nameKo": "겐트식 스토베레이",
+    "nameEn": "Ghent-style Stoverij",
+    "reason": "맥주로 소고기를 푹 끓인 벨기에식 스튜",
+    "reasonEn": "Belgian beef stew slow-cooked in beer",
+    "desc": {
+      "ko": "맥주로 소고기를 푹 끓인 벨기에식 스튜",
+      "en": "Belgian beef stew slow-cooked in beer",
+      "ja": "牛肉をビールでじっくり煮込んだベルギー風シチュー"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Gent",
+    "recommendUrl": "https://visit.gent.be/en/good-know/practical-information/inspiration/ghent-specialties-and-sweets",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "granada",
     "nameKo": "하바스 콘 하몬",
     "nameEn": "Habas con Jamón",
@@ -10224,6 +10332,60 @@
     "recommendSource": "WienTourismus (vienna.info)",
     "recommendUrl": "https://www.wien.info/de/essen-trinken/wiener-kueche/rezepte",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "warsaw",
+    "nameKo": "피에로기",
+    "nameEn": "Pierogi",
+    "reason": "고기·양배추·버섯이나 감자·치즈를 채운 폴란드 만두",
+    "reasonEn": "Polish dumplings filled with meat, sauerkraut and mushrooms or potato and cheese",
+    "desc": {
+      "ko": "고기·양배추·버섯이나 감자·치즈를 채운 폴란드 만두",
+      "en": "Polish dumplings filled with meat, sauerkraut and mushrooms or potato and cheese",
+      "ja": "肉やキャベツ・きのこ、じゃがいもとチーズを包んだポーランドの餃子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Warsaw Tourist Office",
+    "recommendUrl": "https://go2warsaw.pl/en/whats-for-dinner/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "warsaw",
+    "nameKo": "주레크",
+    "nameEn": "Żurek",
+    "reason": "삶은 달걀과 흰 소시지를 넣은 시큼한 호밀 수프",
+    "reasonEn": "Sour rye soup with egg and white sausage",
+    "desc": {
+      "ko": "삶은 달걀과 흰 소시지를 넣은 시큼한 호밀 수프",
+      "en": "Sour rye soup with egg and white sausage",
+      "ja": "ゆで卵と白ソーセージを入れた酸味のあるライ麦のスープ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Warsaw Tourist Office",
+    "recommendUrl": "https://go2warsaw.pl/en/whats-for-dinner/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "warsaw",
+    "nameKo": "퉁치키",
+    "nameEn": "Pączki",
+    "reason": "장미잼 등을 채우고 설탕을 입힌 폴란드식 도넛",
+    "reasonEn": "Polish doughnuts filled with rose jam and glazed",
+    "desc": {
+      "ko": "장미잼 등을 채우고 설탕을 입힌 폴란드식 도넛",
+      "en": "Polish doughnuts filled with rose jam and glazed",
+      "ja": "バラのジャムなどを詰めて砂糖をまぶしたポーランド風ドーナツ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Warsaw Tourist Office",
+    "recommendUrl": "https://go2warsaw.pl/en/dessert/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
     "cityId": "yeosu",

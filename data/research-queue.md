@@ -51,6 +51,13 @@
 | 마르세유 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 타이난 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 타이난 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 바르샤바 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 바르샤바 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 바르샤바 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 겐트 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 겐트 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 제네바 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 제네바 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 교토 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오키나와 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 나고야 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
@@ -979,6 +986,20 @@
 | BOD-AT-003 | 보르도 | 페이베를랑 탑 (성인) | 9 EUR | A | 예 | 재검증 | [Centre des monuments nationaux](https://www.pey-berland.fr/en/visiter/practical-information) |
 | BOD-AT-004 | 보르도 | 페이베를랑 탑 (아동) | 0 EUR | A | 예 | 재검증 | [Centre des monuments nationaux](https://www.pey-berland.fr/en/visiter/practical-information) |
 | BOD-AT-005 | 보르도 | 아키텐 박물관 (성인) | 6~8 EUR | A | 예 | 재검증 | [Ville de Bordeaux](https://www.bordeaux.fr/le-musee-daquitaine) |
+| WAW-TR-001 | 바르샤바 | 바르샤바 75분권(1구역) | 4.4 PLN | A | 예 | 재검증 | [Warszawski Transport Publiczny](https://www.wtp.waw.pl/en/ticket-tariff/) |
+| WAW-AT-001 | 바르샤바 | 바르샤바 왕궁 로열 루트 (성인) | 60 PLN | A | 예 | 재검증 | [Zamek Królewski w Warszawie](https://zamek-krolewski.pl/en/godziny-otwarcia-i-ceny-biletow) |
+| WAW-AT-002 | 바르샤바 | 바르샤바 봉기 박물관 (성인) | 35 PLN | A | 예 | 재검증 | [Muzeum Powstania Warszawskiego](https://bilety.1944.pl/cennik.html) |
+| WAW-AT-003 | 바르샤바 | 폴린 박물관 (성인) | 45 PLN | A | 예 | 재검증 | [POLIN Museum](https://polin.pl/en/planning-your-visit/admission) |
+| WAW-AT-004 | 바르샤바 | 폴린 박물관 (아동) | 1 PLN | A | 예 | 재검증 | [POLIN Museum](https://polin.pl/en/planning-your-visit/admission) |
+| GNT-TR-001 | 겐트 | De Lijn 1회권 | 3 EUR | A | 예 | 재검증 | [De Lijn](https://www.delijn.be/en/content/vervoerbewijzen/tarieven/) |
+| GNT-AT-001 | 겐트 | 그라벤스틴 성 (성인) | 15 EUR | A | 예 | 재검증 | [Visit Gent](https://visit.gent.be/en/see-do/castle-counts) |
+| GNT-AT-002 | 겐트 | 그라벤스틴 성 (아동) | 0 EUR | A | 예 | 재검증 | [Visit Gent](https://visit.gent.be/en/see-do/castle-counts) |
+| GNT-AT-003 | 겐트 | 헨트 제단화 관람 (성인) | 12.5~16 EUR | A | 예 | 재검증 | [Sint-Baafskathedraal](https://www.sintbaafskathedraal.be/en/buy-tickets/type-tour/) |
+| GNT-AT-004 | 겐트 | 헨트 제단화 AR 투어 (아동) | 8 EUR | A | 예 | 재검증 | [Sint-Baafskathedraal](https://www.sintbaafskathedraal.be/en/buy-tickets/type-tour/) |
+| GVA-TR-001 | 제네바 | 유니레소 10구역(제네바 전역) 1회권 | 3 CHF | A | 예 | 재검증 | [tpg](https://www.tpg.ch/en/ticket-fares) |
+| GVA-AT-001 | 제네바 | 국제적십자 박물관 (성인) | 15 CHF | A | 예 | 재검증 | [Musée International de la Croix-Rouge](https://redcrossmuseum.ch/en/prices-opening-hours-access/) |
+| GVA-AT-002 | 제네바 | 국제적십자 박물관 (아동) | 0 CHF | A | 예 | 재검증 | [Musée International de la Croix-Rouge](https://redcrossmuseum.ch/en/prices-opening-hours-access/) |
+| GVA-AT-003 | 제네바 | CERN 사이언스 게이트웨이 (무료, 등록 필요) | 0 CHF | A | 예 | 재검증 | [CERN](https://visit.cern/families-individual-visitors) |
 | DXB-FD-101 | 두바이 | 1/4 치킨 + 레귤러 사이드 1개 | 47 AED | A | 예 | 재검증 | [Nando's UAE 공식 메뉴](https://www.nandos.ae/eat/menu) |
 | DXB-FD-102 | 두바이 | 치킨 아보카도 랩 | 30 AED | A | 예 | 재검증 | [ROAST Dubai 공식 메뉴](https://www.roastdubai.com/menu) |
 | DXB-FD-103 | 두바이 | 파히타 (소고기 또는 닭고기 선택) | 90 AED | A | 예 | 재검증 | [Dubai Polo Bar 공식 메뉴](https://polo.emaar.com/food-menu/dubai-polo-bar/) |

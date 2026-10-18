@@ -175,4 +175,25 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['여름(6~9월)에는 한낮 더위가 심하고 태풍으로 일정이 바뀔 수 있으니 실내 명소와 아침·저녁 일정을 섞으세요.', 'Summer (June–September) middays are very hot and typhoons can disrupt plans; mix in indoor sights and early or late outings.', '夏（6〜9月）は日中の暑さが厳しく台風で予定が変わることもあるので、屋内の名所や朝夕の予定を組み合わせましょう。'],
   },
+  warsaw: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '공원과 비스와 강변 산책, 야외 행사가 많은 계절입니다.', 'The season for parks, Vistula riverside walks and outdoor events.', '公園やヴィスワ川沿いの散策、野外イベントが多い季節です。'],
+      ['사순절 전 「기름진 목요일」', 'Fat Thursday (before Lent)', '脂の木曜日（四旬節前）', '폴란드 사람들이 도넛 퉁치키를 먹는 날로, 유명 빵집 앞에 긴 줄이 섭니다.', 'The day Poles eat pączki doughnuts, with long queues at famous bakeries.', 'ポーランドの人々がドーナツ「ポンチキ」を食べる日で、有名店の前に長い列ができます。'],
+    ],
+    x: ['바르샤바 봉기 박물관·폴린 박물관은 목요일에 무료라 그날은 특히 붐빕니다. 여유롭게 보려면 다른 요일이 낫습니다.', 'The Warsaw Uprising Museum and POLIN are free on Thursdays, so they get crowded then; pick another day for a calmer visit.', 'ワルシャワ蜂起博物館とポーリン博物館は木曜が無料のため特に混みます。ゆっくり見るなら別の曜日がおすすめです。'],
+  },
+  ghent: {
+    p: [
+      ['7월 중순 겐트 축제', 'Mid-July (Gentse Feesten)', '7月中旬（ヘント祭）', '열흘 동안 음악·거리 공연이 이어지는 유럽 최대급 도심 축제입니다.', 'One of Europe’s biggest city festivals, ten days of music and street theatre.', '10日間にわたり音楽や路上公演が続く、ヨーロッパ最大級の街の祭りです。'],
+      ['4~6월·9~10월', 'April–June and September–October', '4〜6月・9〜10月', '운하 보트와 성곽, 대성당을 여유 있게 둘러보기 좋습니다.', 'A relaxed time for canal boats, the castle and the cathedral.', '運河ボートや城、大聖堂をゆったり見て回るのに向いています。'],
+    ],
+    x: ['겐트 축제 기간에는 숙소 요금이 오르고 구시가지가 매우 붐비니 조용한 여행을 원하면 피하세요.', 'During the Gentse Feesten rooms cost more and the centre is packed; avoid it if you want a quiet trip.', 'ヘント祭の期間は宿泊料金が上がり旧市街が非常に混むので、静かな旅をしたいなら避けましょう。'],
+  },
+  geneva: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '호숫가 산책로와 파키 수영장, 유람선을 즐기기 좋은 계절입니다.', 'The season for lakeside promenades, the Bains des Pâquis and boat trips.', '湖畔の遊歩道やパキの水浴場、遊覧船を楽しむのに良い季節です。'],
+      ['12월 중순 에스칼라드', 'Mid-December (Escalade)', '12月中旬（エスカラード）', '1602년 사보이 공국의 기습을 막아 낸 일을 기념하는 축제로, 초콜릿 냄비를 깨는 풍습이 있습니다.', 'Celebrates repelling the 1602 Savoyard attack, with the custom of smashing a chocolate cauldron.', '1602年のサヴォイア公国の奇襲を退けたことを記念する祭りで、チョコレートの鍋を割る風習があります。'],
+    ],
+    x: ['국제회의가 몰리는 시기에는 호텔 요금이 크게 오르니 일정이 정해지면 숙소를 일찍 잡으세요.', 'Hotel rates soar during big international conferences, so book early once your dates are set.', '大きな国際会議が重なる時期はホテル料金が大きく上がるので、日程が決まったら早めに宿を押さえましょう。'],
+  },
 };

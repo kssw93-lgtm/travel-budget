@@ -437,4 +437,39 @@ export const NOTES_9: Record<string, Compact> = {
       ['가는 법: 고속철 타이난역은 시내에서 떨어져 있어, 연결된 사룬역에서 타이완철도 사룬선으로 갈아타 타이난역까지 갑니다. 국제선은 보통 가오슝 공항을 이용합니다.', 'Getting there: the HSR Tainan station is outside town; change at the linked Shalun station to the TRA Shalun Line for Tainan Station. International flights usually use Kaohsiung Airport.', '行き方：高鉄台南駅は市街から離れているため、連絡通路でつながる沙崙駅で台鉄沙崙線に乗り換えて台南駅へ。国際線はふつう高雄空港を使います。'],
     ],
   },
+  warsaw: {
+    h: [
+      ['구시가지와 왕궁', 'Old Town and the Royal Castle', '旧市街と王宮', '전쟁 뒤 옛 그림과 자료를 바탕으로 재건한 구시가지로, 왕궁에서는 왕의 거처와 미술품을 볼 수 있습니다.', 'The Old Town rebuilt after the war from old paintings and records; the Royal Castle shows the royal apartments and art.', '戦後に古い絵画や資料をもとに再建された旧市街で、王宮では王の居室や美術品が見られます。'],
+      ['바르샤바 봉기 박물관', 'Warsaw Uprising Museum', 'ワルシャワ蜂起博物館', '1944년 나치 점령에 맞선 시민 봉기를 체험형 전시로 보여 주는 박물관입니다. 목요일은 무료입니다.', 'An immersive museum of the 1944 uprising against Nazi occupation; free on Thursdays.', '1944年のナチス占領に抗した市民蜂起を体験型展示で伝える博物館です。木曜は無料です。'],
+      ['폴린 폴란드 유대인 역사박물관', 'POLIN Museum of the History of Polish Jews', 'ポーリン・ポーランドユダヤ人歴史博物館', '폴란드 유대인 천 년의 역사를 다루는 박물관으로, 최소 2시간은 잡는 것이 좋습니다.', 'A thousand years of Polish Jewish history; allow at least two hours.', 'ポーランドのユダヤ人の千年の歴史を扱う博物館で、少なくとも2時間は見ておきましょう。'],
+      ['와지엔키 공원', 'Łazienki Park', 'ワジェンキ公園', '물 위의 궁전과 쇼팽 동상이 있는 넓은 왕실 공원으로, 여름 일요일에는 무료 쇼팽 연주회가 열립니다.', 'A royal park with the Palace on the Isle and the Chopin monument, hosting free summer Sunday recitals.', '水上宮殿とショパン像がある広い王室庭園で、夏の日曜には無料のショパン演奏会が開かれます。'],
+    ],
+    t: [
+      ['대중교통은 20분권과 75분권이 있어, 갈아탈 일이 있으면 75분권을 사는 것이 안전합니다.', 'Transit tickets come in 20- and 75-minute versions; buy the 75-minute ticket if you need to change.', '公共交通には20分券と75分券があり、乗り換えがあるなら75分券を買うのが安心です。'],
+      ['공항에서 시내: 쇼팽 공항에서 S2·S3 열차나 175번 버스를 타면 시내 중심까지 30분 안팎이며, 75분권을 사면 됩니다.', 'Airport to city: S2/S3 trains or bus 175 reach the centre in about 30 minutes from Chopin Airport; buy a 75-minute ticket.', '空港から市内へ：ショパン空港からS2・S3線の列車か175番バスで中心部まで30分ほどで、75分券を買えば大丈夫です。'],
+    ],
+  },
+  ghent: {
+    h: [
+      ['헨트 제단화(성 바보 대성당)', 'Ghent Altarpiece (St Bavo’s Cathedral)', 'ヘントの祭壇画（聖バーフ大聖堂）', '반에이크 형제의 「신비한 어린양」을 방문자 센터에서 볼 수 있고, 증강현실 투어로 제단화의 역사를 따라갑니다.', 'See the van Eycks’ Adoration of the Mystic Lamb in the visitor centre, with an AR tour of its history.', 'ファン・エイク兄弟の「神秘の子羊」を見学センターで鑑賞でき、ARツアーで祭壇画の歴史をたどれます。'],
+      ['그라벤스틴 성', 'Gravensteen (Castle of the Counts)', 'フランドル伯居城', '도심 한가운데의 중세 성으로, 성벽 위에서 겐트 시내가 내려다보입니다. 12세 미만은 무료입니다.', 'A medieval castle in the middle of town with views from its ramparts; free under 12.', '街の真ん中にある中世の城で、城壁の上からヘント市内を見渡せます。12歳未満は無料です。'],
+      ['흐라슬레이와 코렌레이', 'Graslei and Korenlei', 'グラスレイとコーレンレイ', '운하 양쪽에 길드 건물이 늘어선 겐트의 대표 풍경으로, 운하 보트가 여기서 출발합니다.', 'Guildhouses lining both banks of the canal — Ghent’s signature view, where canal boats depart.', '運河の両岸にギルドハウスが並ぶヘントを代表する風景で、運河ボートがここから出発します。'],
+    ],
+    t: [
+      ['트램·버스는 De Lijn 1회권이나 비접촉 카드로 탑니다. 1회권은 일정 시간 안에 갈아탈 수 있습니다.', 'Trams and buses take a De Lijn single ticket or contactless card, with transfers allowed within the time limit.', 'トラムやバスはDe Lijnの1回券か非接触カードで乗れます。1回券は一定時間内なら乗り換えできます。'],
+      ['가는 법: 겐트에는 큰 공항이 없어 브뤼셀 공항이나 브뤼셀에서 기차로 갑니다. 겐트 신트피터르스역에서 구시가지까지는 트램으로 15분 안팎입니다.', 'Getting there: Ghent has no major airport; take the train from Brussels Airport or Brussels. From Gent-Sint-Pieters station, a tram reaches the old centre in about 15 minutes.', '行き方：ヘントには大きな空港がないため、ブリュッセル空港かブリュッセルから列車で行きます。ヘント・シント・ピータース駅から旧市街まではトラムで15分ほどです。'],
+    ],
+  },
+  geneva: {
+    h: [
+      ['제토 분수', 'Jet d’Eau', 'ジェ・ドー（大噴水）', '호수 위로 140m까지 물을 뿜어 올리는 제네바의 상징으로, 방파제 끝까지 걸어가 가까이서 볼 수 있습니다.', 'Geneva’s icon, shooting water 140 m above the lake; walk out along the jetty for a close look.', '湖上140mまで水を噴き上げるジュネーブの象徴で、防波堤の先まで歩いて近くで見られます。'],
+      ['국제적십자·적신월 박물관', 'International Red Cross and Red Crescent Museum', '国際赤十字・赤新月博物館', '인도주의 활동의 역사를 체험형 전시로 보여 주는 박물관으로, 유엔 유럽본부 맞은편에 있습니다.', 'An immersive museum of humanitarian action, opposite the UN’s Palais des Nations.', '人道支援の歴史を体験型展示で伝える博物館で、国連欧州本部の向かいにあります。'],
+      ['CERN 사이언스 게이트웨이', 'CERN Science Gateway', 'CERNサイエンス・ゲートウェイ', '세계 최대 입자물리연구소의 과학 체험관으로, 입장은 무료지만 등록이 필요합니다. 16세 미만은 보호자 동반이어야 합니다.', 'The science centre of the world’s largest particle physics lab — free, but registration is required; under-16s need an adult.', '世界最大の素粒子物理学研究所の科学体験施設で、入場無料ですが登録が必要です。16歳未満は保護者同伴です。'],
+      ['구시가지와 생피에르 대성당', 'Old Town and St Pierre Cathedral', '旧市街とサン・ピエール大聖堂', '종교개혁가 칼뱅이 설교한 대성당으로, 탑에 오르면 호수와 시내가 내려다보입니다.', 'The cathedral where Calvin preached; climb the towers for lake and city views.', '宗教改革者カルヴァンが説教した大聖堂で、塔に上ると湖と市内を見渡せます。'],
+    ],
+    t: [
+      ['제네바 숙소에 묵으면 체류 기간 동안 시내 대중교통을 무료로 탈 수 있는 「제네바 교통카드」를 받을 수 있습니다. 숙소에 확인하세요.', 'Staying in Geneva accommodation usually gets you a free Geneva Transport Card for city transit during your stay; ask your host.', 'ジュネーブの宿に泊まると、滞在中の市内交通が無料になる「ジュネーブ交通カード」がもらえます。宿に確認しましょう。'],
+      ['공항에서 시내: 제네바 공항역에서 열차를 타면 코르나뱅역까지 7분 안팎입니다. 예전의 공항 무료 승차권은 2022년에 없어져, 10구역 1회권을 사야 합니다(숙소 교통카드가 있으면 무료).', 'Airport to city: trains from the airport reach Cornavin in about 7 minutes. The old free arrivals ticket ended in 2022, so buy a zone 10 ticket (free with a Geneva Transport Card).', '空港から市内へ：ジュネーブ空港駅から列車でコルナヴァン駅まで7分ほどです。以前の空港無料乗車券は2022年に廃止されたので、ゾーン10の1回券を買います（宿の交通カードがあれば無料）。'],
+    ],
+  },
 };

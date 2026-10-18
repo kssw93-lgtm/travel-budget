@@ -232,4 +232,27 @@ export const INTROS_6: Record<string, Intro> = {
       ['타이난역 주변', 'Around Tainan Station', '台南駅周辺', '타이완철도 역과 버스가 모여 고속철·근교 이동이 편합니다.', 'The TRA station and buses make HSR and day trips easy.', '台湾鉄道の駅とバスが集まり、高速鉄道や近郊への移動に便利です。'],
     ],
   },
+  warsaw: {
+    o: ['폴란드의 수도로, 2차 대전 때 파괴된 뒤 옛 모습 그대로 재건한 구시가지가 유네스코 세계유산입니다. 바르샤바 봉기 박물관·폴린 박물관 등 역사 박물관이 충실하고, 쇼팽의 도시로도 알려져 있습니다.', 'Poland’s capital, whose Old Town — rebuilt as it was after WWII — is UNESCO-listed; strong on history museums such as the Warsaw Uprising Museum and POLIN, and known as Chopin’s city.', 'ポーランドの首都で、第二次大戦で破壊された後に元の姿どおり再建された旧市街は世界遺産です。ワルシャワ蜂起博物館やポーリン博物館など歴史博物館が充実し、ショパンの街としても知られます。'],
+    d: [2, 3],
+    s: [
+      ['중앙역·문화과학궁전 주변', 'Around Centralna / Palace of Culture', '中央駅・文化科学宮殿周辺', '공항버스와 지하철이 모이는 중심가로 이동이 편합니다.', 'The transport hub for airport buses and the metro.', '空港バスや地下鉄が集まる中心部で移動に便利です。'],
+      ['구시가지·신세계 거리', 'Old Town / Nowy Świat', '旧市街・ノヴィ・シフィアト通り', '왕궁과 구시장 광장, 카페 거리를 걸어서 다닙니다.', 'Walk to the Royal Castle, Old Town Market Square and café streets.', '王宮や旧市街広場、カフェ通りへ歩いて行けます。'],
+    ],
+  },
+  ghent: {
+    o: ['운하를 따라 중세 길드 건물이 늘어선 플랑드르의 대학 도시로, 브뤼헤보다 덜 붐비면서 활기가 있습니다. 성 바보 대성당의 반에이크 형제 「헨트 제단화」가 유명합니다.', 'A Flemish university city of medieval guildhouses along canals — livelier and less crowded than Bruges — famous for the van Eyck brothers’ Ghent Altarpiece in St Bavo’s Cathedral.', '運河沿いに中世のギルドハウスが並ぶフランドルの大学都市で、ブルッヘより混雑が少なく活気があります。聖バーフ大聖堂のファン・エイク兄弟による「ヘントの祭壇画」が有名です。'],
+    d: [1, 2],
+    s: [
+      ['구시가지(코렌레이·흐라슬레이 주변)', 'Old centre (Korenlei / Graslei)', '旧市街（コーレンレイ・グラスレイ周辺）', '운하 풍경과 대성당·성이 모두 걸어서 닿는 중심가입니다.', 'The canal-side heart, walkable to the cathedral and castle.', '運河の景色と大聖堂・城へすべて歩いて行ける中心部です。'],
+    ],
+  },
+  geneva: {
+    o: ['레만 호숫가의 국제도시로, 유엔 유럽본부와 국제적십자, 입자물리연구소 CERN이 있습니다. 호수 위로 140m 높이로 솟는 분수 제토가 상징입니다.', 'An international city on Lake Geneva, home to the UN’s European headquarters, the Red Cross and CERN, symbolised by the 140 m Jet d’Eau fountain.', 'レマン湖畔の国際都市で、国連欧州本部や国際赤十字、素粒子物理学研究所CERNがあります。湖上に140mの高さで噴き上がる噴水ジェ・ドーが象徴です。'],
+    d: [2, 3],
+    s: [
+      ['코르나뱅역 주변', 'Around Cornavin station', 'コルナヴァン駅周辺', '공항열차와 장거리 열차가 서는 역 앞으로, 호숫가까지 걸어갈 수 있습니다.', 'By the station for airport and intercity trains, walkable to the lake.', '空港への列車や長距離列車が発着する駅前で、湖畔まで歩けます。'],
+      ['구시가지', 'Old Town', '旧市街', '생피에르 대성당과 골목 카페가 있는 언덕 위 동네입니다.', 'The hilltop quarter of St Pierre Cathedral and café lanes.', 'サン・ピエール大聖堂や路地のカフェがある丘の上の地区です。'],
+    ],
+  },
 };

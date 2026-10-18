@@ -336,4 +336,13 @@ export const WHEN_SOURCES: Record<string, string> = {
   'tainan:p1': 'https://www.twtainan.net/zh-tw/shop/cuisines/',
   'tainan:p2': 'https://www.twtainan.net/zh-tw/shop/cuisines/',
   'tainan:x': 'https://www.twtainan.net/zh-tw/statics/thsr/',
+  'warsaw:p1': 'https://go2warsaw.pl/en/warsaws-springtime-kitchen-breakfast-coffee-and-a-walk-by-the-river/',
+  'warsaw:p2': 'https://go2warsaw.pl/en/from-sweet-carnival-to-salty-herring-for-lent-warsaws-culinary-attractions-in-winter-and-early-spring/',
+  'warsaw:x': 'https://www.1944.pl/artykul/warunki-zwiedzania,4499.html',
+  'ghent:p1': 'https://www.delijn.be/en/nieuws/gentse-feesten/',
+  'ghent:p2': 'https://visit.gent.be/en/see-do/castle-counts',
+  'ghent:x': 'https://www.delijn.be/en/nieuws/gentse-feesten/',
+  'geneva:p1': 'https://www.geneve.com/en/eat-drink/restaurants/where-to-eat-fondue',
+  'geneva:p2': 'https://www.geneve.com/en/see-do/things-to-do-this-winter-in-geneva',
+  'geneva:x': 'https://www.geneve.com/en/plan-stay/getting-around/free-geneva-transport-card',
 };

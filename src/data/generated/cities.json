@@ -240,6 +240,36 @@
     "stage": "파일럿"
   },
   {
+    "id": "warsaw",
+    "country": "폴란드",
+    "countryEn": "Poland",
+    "nameKo": "바르샤바",
+    "nameEn": "Warsaw",
+    "currency": "PLN",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "ghent",
+    "country": "벨기에",
+    "countryEn": "Belgium",
+    "nameKo": "겐트",
+    "nameEn": "Ghent",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "geneva",
+    "country": "스위스",
+    "countryEn": "Switzerland",
+    "nameKo": "제네바",
+    "nameEn": "Geneva",
+    "currency": "CHF",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "kyoto",
     "country": "일본",
     "countryEn": "Japan",

@@ -846,4 +846,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['식당 메뉴 가격에는 GST(5%)와 팁이 빠져 있습니다. 앨버타는 주 판매세가 없고, 팁은 15~18%가 일반적입니다. 버스·경전철은 아크(Arc) 카드나 신용카드 탭이 현금보다 쌉니다.', 'Menu prices exclude 5% GST and tip; Alberta has no provincial sales tax, and a 15–18% tip is usual. Arc or contactless card fares are cheaper than cash.', '飲食店のメニュー価格にはGST（5%）とチップが含まれていません。アルバータ州は州の売上税がなく、チップは15〜18%が一般的です。バスやLRTはArcカードやタッチ決済の方が現金より安いです。'],
     ],
   },
+  winnipeg: {
+    h: [
+      ['캐나다 인권박물관', 'Canadian Museum for Human Rights', 'カナダ人権博物館', '인권을 주제로 한 세계 최초의 국립박물관으로, 꼭대기 유리 탑에서 시내가 내려다보입니다.', 'The world’s first national museum devoted to human rights, with city views from its glass tower.', '人権をテーマにした世界初の国立博物館で、最上部のガラスの塔から市内を見渡せます。'],
+      ['더 포크스 마켓', 'The Forks Market', 'ザ・フォークス・マーケット', '두 강이 만나는 곳의 옛 철도 창고를 고친 시장으로, 피로기와 훈제 생선 가게가 있습니다.', 'A market in old rail buildings where the rivers meet, with perogy and smoked-fish stalls.', '二つの川が合流する場所にある鉄道倉庫を改装した市場で、ピエロギや燻製魚の店があります。'],
+      ['훈제 골드아이', 'Smoked goldeye', '燻製ゴールドアイ', '매니토바 호수에서 잡은 생선을 훈제한 위니펙 명물입니다.', 'Winnipeg’s smoked local freshwater fish.', 'マニトバの湖でとれた魚を燻製にしたウィニペグ名物です。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 GST(5%)와 매니토바 소매판매세(7%)가 빠져 있고, 팁은 15~18%가 일반적입니다. 버스는 피고(peggo) 카드로 내면 현금보다 쌉니다.', 'Menu prices exclude 5% GST and Manitoba’s 7% retail sales tax; tip 15–18%. Bus fares are cheaper on a peggo card than in cash.', '飲食店のメニュー価格にはGST（5%）とマニトバ州小売売上税（7%）が含まれず、チップは15〜18%が一般的です。バスはpeggoカードで払うと現金より安くなります。'],
+    ],
+  },
 };

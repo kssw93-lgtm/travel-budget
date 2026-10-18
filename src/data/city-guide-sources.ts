@@ -1115,4 +1115,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'edmonton:h2': 'https://www.travelalberta.com/articles/signature-foods-in-edmonton',
   'edmonton:h3': 'https://www.travelalberta.com/articles/signature-foods-in-edmonton',
   'edmonton:t1': 'https://www.edmonton.ca/ets/fares-passes',
+  'winnipeg:h1': 'https://humanrights.ca/visit/hours-admission-fees',
+  'winnipeg:h2': 'https://www.tourismwinnipeg.com/eat-and-drink/peg-city-grub/read,post/615/peg-city-grub-s-guide-to-dining-at-the-forks-market',
+  'winnipeg:h3': 'https://www.tourismwinnipeg.com/things-to-do/winnipeg-guides/display,guide/43/guide-to-winnipeg-s-iconic-eats',
+  'winnipeg:t1': 'https://www.gov.mb.ca/finance/taxation/taxes/retail.html',
 };

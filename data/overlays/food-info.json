@@ -5182,5 +5182,20 @@
     "ko": "우크라이나계 정육점에서 만드는 훈제 소시지",
     "en": "Smoked sausage from Ukrainian-style butchers",
     "ja": "ウクライナ系の精肉店で作る燻製ソーセージ"
+  },
+  "winnipeg:Perogies": {
+    "ko": "구운 양파와 베이컨을 곁들인 우크라이나식 만두",
+    "en": "Ukrainian dumplings with fried onions and bacon",
+    "ja": "炒めた玉ねぎとベーコンを添えたウクライナ風の餃子"
+  },
+  "winnipeg:Farmer’s Sausage": {
+    "ko": "메노나이트 이민자가 전한 냉훈제 돼지고기 소시지",
+    "en": "Cold-smoked pork sausage from Mennonite tradition",
+    "ja": "メノナイトの移民が伝えた冷燻の豚肉ソーセージ"
+  },
+  "winnipeg:Smoked Goldeye": {
+    "ko": "매니토바 민물고기를 훈제한 위니펙 명물",
+    "en": "Smoked local freshwater fish",
+    "ja": "マニトバの淡水魚を燻製にしたウィニペグ名物"
   }
 }

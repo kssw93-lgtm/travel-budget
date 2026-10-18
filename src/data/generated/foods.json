@@ -12278,6 +12278,60 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "winnipeg",
+    "nameKo": "피로기",
+    "nameEn": "Perogies",
+    "reason": "구운 양파와 베이컨을 곁들인 우크라이나식 만두",
+    "reasonEn": "Ukrainian dumplings with fried onions and bacon",
+    "desc": {
+      "ko": "구운 양파와 베이컨을 곁들인 우크라이나식 만두",
+      "en": "Ukrainian dumplings with fried onions and bacon",
+      "ja": "炒めた玉ねぎとベーコンを添えたウクライナ風の餃子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Winnipeg",
+    "recommendUrl": "https://www.tourismwinnipeg.com/eat-and-drink/peg-city-grub/read,post/347/winnipeg-s-perogy-fix",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "winnipeg",
+    "nameKo": "파머스 소시지",
+    "nameEn": "Farmer’s Sausage",
+    "reason": "메노나이트 이민자가 전한 냉훈제 돼지고기 소시지",
+    "reasonEn": "Cold-smoked pork sausage from Mennonite tradition",
+    "desc": {
+      "ko": "메노나이트 이민자가 전한 냉훈제 돼지고기 소시지",
+      "en": "Cold-smoked pork sausage from Mennonite tradition",
+      "ja": "メノナイトの移民が伝えた冷燻の豚肉ソーセージ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Winnipeg",
+    "recommendUrl": "https://www.tourismwinnipeg.com/things-to-do/winnipeg-guides/display,guide/43/guide-to-winnipeg-s-iconic-eats",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "winnipeg",
+    "nameKo": "훈제 골드아이",
+    "nameEn": "Smoked Goldeye",
+    "reason": "매니토바 민물고기를 훈제한 위니펙 명물",
+    "reasonEn": "Smoked local freshwater fish",
+    "desc": {
+      "ko": "매니토바 민물고기를 훈제한 위니펙 명물",
+      "en": "Smoked local freshwater fish",
+      "ja": "マニトバの淡水魚を燻製にしたウィニペグ名物"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Winnipeg",
+    "recommendUrl": "https://www.tourismwinnipeg.com/things-to-do/winnipeg-guides/display,guide/43/guide-to-winnipeg-s-iconic-eats",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "yeosu",
     "nameKo": "게장 백반",
     "nameEn": "Gejang Baekban",

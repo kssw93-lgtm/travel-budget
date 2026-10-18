@@ -214,6 +214,8 @@
 | 내슈빌 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 에드먼턴 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 에드먼턴 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 위니펙 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 위니펙 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 타이중 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 코타키나발루 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 장가계 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1075,6 +1077,9 @@
 | YEG-TR-001 | 에드먼턴 | 에드먼턴 교통 1회(아크 카드~현금) | 3~3.75 CAD | A | 예 | 재검증 | [Edmonton Transit Service](https://www.edmonton.ca/ets/fares-passes) |
 | YEG-AT-001 | 에드먼턴 | 로열 앨버타 박물관 (성인) | 25 CAD | A | 예 | 재검증 | [Royal Alberta Museum](https://www.royalalbertamuseum.ca/visit/hours-admission) |
 | YEG-AT-002 | 에드먼턴 | 로열 앨버타 박물관 (청소년) | 12 CAD | A | 예 | 재검증 | [Royal Alberta Museum](https://www.royalalbertamuseum.ca/visit/hours-admission) |
+| YWG-TR-001 | 위니펙 | 위니펙 트랜짓 1회(피고 카드~현금) | 3.1~3.45 CAD | A | 예 | 재검증 | [City of Winnipeg](https://www.winnipeg.ca/services-programs/transportation-roads-parking/transit/fares) |
+| YWG-AT-001 | 위니펙 | 캐나다 인권박물관 (성인) | 23 CAD | A | 예 | 재검증 | [Canadian Museum for Human Rights](https://humanrights.ca/visit/hours-admission-fees) |
+| YWG-AT-002 | 위니펙 | 캐나다 인권박물관 (청소년) | 11 CAD | A | 예 | 재검증 | [Canadian Museum for Human Rights](https://humanrights.ca/visit/hours-admission-fees) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

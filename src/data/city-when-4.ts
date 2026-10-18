@@ -433,4 +433,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['공항에서 시내로 가는 747번 버스는 일반 요금이 아닌 공항 전용 요금이고, 센추리 파크역에서 경전철로 갈아탑니다.', 'Airport bus 747 has its own airport fare and runs to Century Park, where you change to the LRT.', '空港から市内へ向かう747番バスは通常運賃ではなく空港専用運賃で、センチュリー・パーク駅でLRTに乗り換えます。'],
   },
+  winnipeg: {
+    p: [
+      ['6~9월', 'June–September', '6〜9月', '강변 산책과 포크스의 야외 식사, 여름 축제를 즐기기 좋습니다.', 'Riverside walks, outdoor dining at The Forks and summer festivals.', '川沿いの散策やザ・フォークスでの屋外の食事、夏の祭りを楽しめます。'],
+    ],
+    x: ['인권박물관은 매달 첫째 일요일에 무료로 입장할 수 있습니다.', 'The Human Rights museum is free on the first Sunday of every month.', '人権博物館は毎月第1日曜日に無料で入場できます。'],
+  },
 };

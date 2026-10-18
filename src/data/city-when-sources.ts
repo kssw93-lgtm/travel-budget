@@ -442,4 +442,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'nashville:x': 'https://www.visitmusiccity.com/nashville-trip-ideas/first-timer',
   'edmonton:p1': 'https://exploreedmonton.com/articles/things-to-do-in-july',
   'edmonton:x': 'https://www.edmonton.ca/ets/edmonton-international-airport',
+  'winnipeg:p1': 'https://www.tourismwinnipeg.com/eat-and-drink/peg-city-grub/read,post/615/peg-city-grub-s-guide-to-dining-at-the-forks-market',
+  'winnipeg:x': 'https://humanrights.ca/visit/hours-admission-fees',
 };

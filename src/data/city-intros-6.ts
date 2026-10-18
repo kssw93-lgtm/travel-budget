@@ -534,4 +534,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['올드 스트래스코나', 'Old Strathcona', 'オールド・ストラスコナ', '강 건너 화이트 애비뉴의 오래된 거리로, 식당과 바, 공연장이 많습니다.', 'Historic Whyte Avenue across the river, full of restaurants, bars and venues.', '川向こうのホワイト・アベニューの古い街並みで、飲食店やバー、劇場が多いです。'],
     ],
   },
+  winnipeg: {
+    o: ['캐나다 대륙 한가운데에 있는 매니토바주의 주도로, 레드강과 아시니보인강이 만나는 ‘더 포크스’가 도시의 중심입니다. 캐나다 인권박물관이 있고, 우크라이나·메노나이트 이민자가 전한 피로기와 훈제 소시지로 유명합니다.', 'Manitoba’s capital at the heart of the continent, centred on The Forks where the Red and Assiniboine rivers meet; home of the Canadian Museum for Human Rights, and of perogies and smoked sausage from its Ukrainian and Mennonite communities.', 'カナダ大陸のほぼ中央にあるマニトバ州の州都で、レッド川とアシニボイン川が合流する「ザ・フォークス」が街の中心です。カナダ人権博物館があり、ウクライナ系やメノナイトの移民が伝えたピエロギや燻製ソーセージで有名です。'],
+    d: [2, 3],
+    s: [
+      ['다운타운·더 포크스', 'Downtown / The Forks', 'ダウンタウン・ザ・フォークス', '인권박물관과 포크스 마켓이 걸어서 닿습니다.', 'A walk to the Human Rights museum and The Forks Market.', '人権博物館やザ・フォークス・マーケットへ歩いて行けます。'],
+      ['익스체인지 디스트릭트', 'Exchange District', 'エクスチェンジ地区', '20세기 초 건물이 잘 남은 지역으로, 식당과 극장이 모여 있습니다.', 'Early-20th-century buildings full of restaurants and theatres.', '20世紀初めの建物がよく残る地区で、飲食店や劇場が集まっています。'],
+    ],
+  },
 };

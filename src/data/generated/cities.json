@@ -1080,6 +1080,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "winnipeg",
+    "country": "캐나다",
+    "countryEn": "Canada",
+    "nameKo": "위니펙",
+    "nameEn": "Winnipeg",
+    "currency": "CAD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "nara",
     "country": "일본",
     "countryEn": "Japan",

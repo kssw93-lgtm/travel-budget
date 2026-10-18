@@ -5227,5 +5227,20 @@
     "ko": "메스키트 숯불에 구운 고기를 얹은 타코",
     "en": "Tacos of mesquite-grilled meats",
     "ja": "メスキートの炭火で焼いた肉をのせたタコス"
+  },
+  "san-antonio:Puffy Tacos": {
+    "ko": "튀겨서 부풀린 토르티야에 속을 채운 타코",
+    "en": "Tacos in a fried, puffed tortilla shell",
+    "ja": "揚げて膨らませたトルティーヤに具を詰めたタコス"
+  },
+  "san-antonio:Breakfast Tacos": {
+    "ko": "달걀·감자·베이컨을 부드러운 밀 토르티야에 싼 타코",
+    "en": "Egg, potato and bacon in soft flour tortillas",
+    "ja": "卵・じゃがいも・ベーコンを柔らかい小麦のトルティーヤで包んだタコス"
+  },
+  "san-antonio:Fajitas": {
+    "ko": "구운 고기와 채소를 토르티야에 싸 먹는 텍스멕스 요리",
+    "en": "Grilled meat and peppers wrapped in tortillas",
+    "ja": "焼いた肉と野菜をトルティーヤで包んで食べるテクスメクス料理"
   }
 }

@@ -448,4 +448,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'halifax:x': 'https://discoverhalifaxns.com/things-to-do/attractions/how-to-experience-halifax-in-all-kinds-of-weather',
   'phoenix:p1': 'https://dbg.org/visit/',
   'phoenix:x': 'https://dbg.org/visit/',
+  'san-antonio:p1': 'https://nps.gov/saan/planyourvisit/fees.htm',
+  'san-antonio:p2': 'https://www.visitsanantonio.com/blog/post/a-first-timers-guide-to-eating-your-way-through-san-antonio/',
+  'san-antonio:x': 'https://www.thealamo.org/visit/calendar/alamo-free-timed-entry',
 };

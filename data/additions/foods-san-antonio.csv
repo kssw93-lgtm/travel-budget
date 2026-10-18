@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+미국,샌안토니오,퍼피 타코,Puffy Tacos,튀겨서 부풀린 토르티야에 속을 채운 타코,저,,대기,Visit San Antonio,https://www.visitsanantonio.com/blog/post/a-first-timers-guide-to-eating-your-way-through-san-antonio/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+미국,샌안토니오,아침 타코,Breakfast Tacos,달걀·감자·베이컨을 부드러운 밀 토르티야에 싼 타코,저,,대기,Visit San Antonio,https://www.visitsanantonio.com/blog/post/a-first-timers-guide-to-eating-your-way-through-san-antonio/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+미국,샌안토니오,파히타,Fajitas,구운 고기와 채소를 토르티야에 싸 먹는 텍스멕스 요리,중,,대기,Visit San Antonio,https://www.visitsanantonio.com/blog/post/12-authentic-tex-mex-restaurants-to-check-out-in-san-antonio/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

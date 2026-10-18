@@ -451,4 +451,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['여름(6~9월)에는 아침 일찍이나 해 진 뒤에 움직이고, 물을 충분히 챙기세요.', 'In summer (June–September) go out early or after dark and carry plenty of water.', '夏（6〜9月）は朝早くか日没後に行動し、水を十分に持ちましょう。'],
   },
+  'san-antonio': {
+    p: [
+      ['10~11월', 'October–November', '10〜11月', '선선한 날씨에 리버워크와 미션 트레일을 걷기 좋습니다.', 'Cool weather for the River Walk and the Mission Trail.', '涼しい気候でリバーウォークやミッション・トレイルを歩くのに良い時期です。'],
+      ['3~5월', 'March–May', '3〜5月', '따뜻한 봄으로, 4월에는 도시 전체가 축제 분위기입니다.', 'Warm spring days, with the city in festival mode in April.', '暖かい春で、4月は街全体が祭りの雰囲気になります。'],
+    ],
+    x: ['알라모 교회는 무료지만 무료 시간 지정권을 미리 예약해야 합니다.', 'The Alamo Church is free, but you must reserve a free timed ticket in advance.', 'アラモ教会は無料ですが、無料の時間指定券を事前に予約する必要があります。'],
+  },
 };

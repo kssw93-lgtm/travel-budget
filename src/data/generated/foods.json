@@ -10318,6 +10318,60 @@
     "note": ""
   },
   {
+    "cityId": "san-antonio",
+    "nameKo": "퍼피 타코",
+    "nameEn": "Puffy Tacos",
+    "reason": "튀겨서 부풀린 토르티야에 속을 채운 타코",
+    "reasonEn": "Tacos in a fried, puffed tortilla shell",
+    "desc": {
+      "ko": "튀겨서 부풀린 토르티야에 속을 채운 타코",
+      "en": "Tacos in a fried, puffed tortilla shell",
+      "ja": "揚げて膨らませたトルティーヤに具を詰めたタコス"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit San Antonio",
+    "recommendUrl": "https://www.visitsanantonio.com/blog/post/a-first-timers-guide-to-eating-your-way-through-san-antonio/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "san-antonio",
+    "nameKo": "아침 타코",
+    "nameEn": "Breakfast Tacos",
+    "reason": "달걀·감자·베이컨을 부드러운 밀 토르티야에 싼 타코",
+    "reasonEn": "Egg, potato and bacon in soft flour tortillas",
+    "desc": {
+      "ko": "달걀·감자·베이컨을 부드러운 밀 토르티야에 싼 타코",
+      "en": "Egg, potato and bacon in soft flour tortillas",
+      "ja": "卵・じゃがいも・ベーコンを柔らかい小麦のトルティーヤで包んだタコス"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit San Antonio",
+    "recommendUrl": "https://www.visitsanantonio.com/blog/post/a-first-timers-guide-to-eating-your-way-through-san-antonio/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "san-antonio",
+    "nameKo": "파히타",
+    "nameEn": "Fajitas",
+    "reason": "구운 고기와 채소를 토르티야에 싸 먹는 텍스멕스 요리",
+    "reasonEn": "Grilled meat and peppers wrapped in tortillas",
+    "desc": {
+      "ko": "구운 고기와 채소를 토르티야에 싸 먹는 텍스멕스 요리",
+      "en": "Grilled meat and peppers wrapped in tortillas",
+      "ja": "焼いた肉と野菜をトルティーヤで包んで食べるテクスメクス料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit San Antonio",
+    "recommendUrl": "https://www.visitsanantonio.com/blog/post/12-authentic-tex-mex-restaurants-to-check-out-in-san-antonio/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "san-diego",
     "nameKo": "피시 타코",
     "nameEn": "Fish Tacos",

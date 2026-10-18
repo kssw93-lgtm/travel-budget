@@ -3051,6 +3051,34 @@
     "missing": [],
     "computable": true
   },
+  "san-antonio": {
+    "counts": {
+      "food": 10,
+      "transport": 1,
+      "attraction": 2
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 10,
+      "snack": 12,
+      "drink": 8,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 10,
+      "snack": 12,
+      "drink": 8,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "taichung": {
     "counts": {
       "food": 5,
@@ -3278,12 +3306,12 @@
   "san-francisco": {
     "counts": {
       "food": 10,
-      "transport": 15,
+      "transport": 16,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 15,
+      "ride": 16,
       "meal": 10,
       "snack": 12,
       "drink": 8,
@@ -3292,7 +3320,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 15,
+      "ride": 16,
       "meal": 10,
       "snack": 12,
       "drink": 8,

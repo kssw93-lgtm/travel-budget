@@ -574,5 +574,8 @@
   "halifax:Seafood Chowder": "Creamy chowder of haddock, scallops, lobster and mussels",
   "phoenix:Sonoran Hot Dog": "Bacon-wrapped frank with beans, tomato and onion in a bolillo bun",
   "phoenix:Chimichanga": "Deep-fried filled burrito",
-  "phoenix:Sonoran Tacos": "Tacos of mesquite-grilled meats"
+  "phoenix:Sonoran Tacos": "Tacos of mesquite-grilled meats",
+  "san-antonio:Puffy Tacos": "Tacos in a fried, puffed tortilla shell",
+  "san-antonio:Breakfast Tacos": "Egg, potato and bacon in soft flour tortillas",
+  "san-antonio:Fajitas": "Grilled meat and peppers wrapped in tortillas"
 }

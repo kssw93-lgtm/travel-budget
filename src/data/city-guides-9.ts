@@ -877,4 +877,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 피닉스 공항의 무료 스카이 트레인을 타고 44번가역으로 가서 경전철로 갈아타면 시내까지 갈 수 있습니다.', 'Airport to city: ride the free PHX Sky Train to 44th Street and change to Valley Metro Rail.', '空港から市内へ：フェニックス空港の無料スカイトレインで44番街駅へ行き、ライトレールに乗り換えます。'],
     ],
   },
+  'san-antonio': {
+    h: [
+      ['알라모', 'The Alamo', 'アラモ', '1836년 텍사스 독립 전쟁의 격전지로, 교회 내부는 무료 예약제로 입장합니다.', 'The 1836 battle site of the Texas Revolution; the church is free with a reserved ticket.', '1836年のテキサス独立戦争の激戦地で、教会内部は無料の予約制で入場できます。'],
+      ['샌안토니오 미션 국립역사공원', 'San Antonio Missions', 'サンアントニオ・ミッションズ', '18세기 스페인 선교 시설 네 곳이 남은 유네스코 세계유산으로, 모두 무료입니다.', 'Four 18th-century Spanish missions, a UNESCO World Heritage Site — all free.', '18世紀のスペイン伝道所4か所が残るユネスコ世界遺産で、すべて無料です。'],
+      ['퍼피 타코', 'Puffy tacos', 'パフィータコス', '튀겨서 부풀린 토르티야에 속을 채운 샌안토니오 발상 타코입니다.', 'San Antonio’s own taco in a fried, puffed tortilla shell.', '揚げて膨らませたトルティーヤに具を詰めた、サンアントニオ発祥のタコスです。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 세금(8.25%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다. 공항에서 시내까지는 VIA 5번 버스가 다닙니다.', 'Menu prices exclude 8.25% sales tax and tip (18–20% usual). VIA route 5 links the airport and downtown.', '飲食店のメニュー価格には税（8.25%）とチップが含まれていません。チップは18〜20%が一般的です。空港から市内へはVIAの5番バスが走っています。'],
+    ],
+  },
 };

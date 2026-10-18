@@ -1128,4 +1128,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'phoenix:h3': 'https://www.visitphoenix.com/stories/post/5-signature-phoenix-dishes/',
   'phoenix:t1': 'https://www.phoenix.gov/administration/departments/finance/privilege-sales-use-tax/about-tpt-use-tax/current-combined-tax-rates-phoenix-state-county.html',
   'phoenix:t2': 'https://www.skyharbor.com/ground-transportation/phx-sky-train/',
+  'san-antonio:h1': 'https://www.thealamo.org/visit/calendar/alamo-free-timed-entry',
+  'san-antonio:h2': 'https://nps.gov/saan/planyourvisit/fees.htm',
+  'san-antonio:h3': 'https://www.visitsanantonio.com/blog/post/a-first-timers-guide-to-eating-your-way-through-san-antonio/',
+  'san-antonio:t1': 'https://comptroller.texas.gov/taxes/sales/quarterly-updates/jan-2026.php',
 };

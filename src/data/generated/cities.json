@@ -1110,6 +1110,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "san-antonio",
+    "country": "미국",
+    "countryEn": "United States",
+    "nameKo": "샌안토니오",
+    "nameEn": "San Antonio",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "nara",
     "country": "일본",
     "countryEn": "Japan",

@@ -558,4 +558,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['스코츠데일 구시가지', 'Old Town Scottsdale', 'オールドタウン・スコッツデール', '서부풍 거리와 갤러리, 식당이 모인 인근 도시의 중심가입니다.', 'The western-style heart of neighbouring Scottsdale, with galleries and dining.', '西部風の通りやギャラリー、飲食店が集まる隣町の中心街です。'],
     ],
   },
+  'san-antonio': {
+    o: ['텍사스 남부의 역사 도시로, 텍사스 독립 전쟁의 무대 알라모와 강을 따라 식당이 늘어선 리버워크가 상징입니다. 유네스코 세계유산인 스페인 선교 시설들이 무료로 열려 있고, 퍼피 타코 같은 텍스멕스 음식으로 유명합니다.', 'A historic south Texas city, symbolised by the Alamo of the Texas Revolution and the restaurant-lined River Walk; its UNESCO-listed Spanish missions are free to visit, and it is famous for Tex-Mex like the puffy taco.', 'テキサス南部の歴史ある街で、テキサス独立戦争の舞台アラモと、川沿いに飲食店が並ぶリバーウォークがシンボルです。ユネスコ世界遺産のスペイン伝道所は無料で見学でき、パフィータコスなどのテクスメクス料理で有名です。'],
+    d: [2, 3],
+    s: [
+      ['리버워크·다운타운', 'River Walk / Downtown', 'リバーウォーク・ダウンタウン', '알라모와 강변 산책로, 식당이 걸어서 닿는 중심지입니다.', 'A walk to the Alamo, the River Walk and restaurants.', 'アラモや川沿いの遊歩道、飲食店へ歩いて行ける中心地です。'],
+      ['펄 지구', 'Pearl District', 'パール地区', '옛 맥주 공장을 개조한 지역으로, 식당과 주말 농산물 시장이 있습니다.', 'A converted brewery district with restaurants and a weekend farmers market.', 'かつてのビール工場を改装した地区で、飲食店や週末のファーマーズマーケットがあります。'],
+    ],
+  },
 };

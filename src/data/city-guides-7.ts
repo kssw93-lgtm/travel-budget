@@ -26,6 +26,7 @@ export const NOTES_7: Record<string, Compact> = {
     t: [
       ['람블라스 거리와 지하철에서는 소매치기가 많으니 가방을 앞으로 메세요.', 'Pickpockets work La Rambla and the metro; wear your bag in front.', 'ランブラス通りや地下鉄ではスリが多いので、バッグは前に。'],
       ['바르셀로나 숙박에는 관광세가 부과됩니다. 숙소에서 청구 방식을 확인하세요.', 'A tourist tax applies to accommodation in Barcelona. Check how your lodging collects it.', 'バルセロナの宿泊には観光税がかかります。徴収方法は宿泊施設に確認してください。'],
+      ['공항에서 시내: 엘프라트 공항에서 에어로버스를 타면 에스파냐 광장을 거쳐 카탈루냐 광장까지 갑니다. 제2터미널에서는 R2 Nord 열차, 두 터미널 모두에서 메트로 L9 Sud도 탈 수 있습니다.', 'Airport to city: the Aerobús runs from El Prat via Plaça d\'Espanya to Plaça de Catalunya; Terminal 2 also has R2 Nord trains, and both terminals have Metro L9 Sud.', '空港から市内へ：エル・プラット空港からはアエロバスでスペイン広場を経てカタルーニャ広場へ行けます。第2ターミナルからはR2 Nord線、両ターミナルから地下鉄L9 Sud線も使えます。'],
     ],
   },
   rome: {
@@ -39,6 +40,7 @@ export const NOTES_7: Record<string, Compact> = {
     t: [
       ['성당에 들어갈 때는 어깨와 무릎을 가려야 합니다.', 'Cover shoulders and knees to enter churches.', '教会に入る際は肩と膝を隠しましょう。'],
       ['시내 곳곳의 식수대(나소네) 물은 마셔도 되니 물병을 채워 다니세요.', 'The nasoni drinking fountains are safe; refill your bottle.', '街中の水飲み場（ナゾーネ）の水は飲めるので、ボトルに補充しましょう。'],
+      ['공항에서 시내: 피우미치노 공항에서 레오나르도 익스프레스를 타면 테르미니역까지 쉬지 않고 약 30분입니다. 지역 열차와 시내버스 노선도 있습니다.', 'Airport to city: from Fiumicino the Leonardo Express runs non-stop to Termini in about 30 minutes; regional trains and coaches are other options.', '空港から市内へ：フィウミチーノ空港からはレオナルド・エクスプレスでテルミニ駅までノンストップ約30分です。近郊列車やバスもあります。'],
     ],
   },
   'new-york': {
@@ -52,6 +54,7 @@ export const NOTES_7: Record<string, Compact> = {
     t: [
       ['지하철은 비접촉 카드로 찍고 타며, 일주일 안에 일정 횟수를 넘기면 나머지는 무료입니다.', 'Tap a contactless card on the subway; after a set number of rides in a week, the rest are free.', '地下鉄はタッチ決済で乗れ、1週間で一定回数を超えると残りは無料です。'],
       ['뉴욕 식당에서는 메뉴 표시액에 판매세가 더해질 수 있고, 팁이나 명시된 서비스 요금도 확인해야 합니다.', 'At New York City restaurants, sales tax may be added to menu prices; check any tip or disclosed service charge as well.', 'ニューヨークの飲食店では、メニュー表示額に売上税が加わる場合があります。チップや明示されたサービス料も確認しましょう。'],
+      ['공항에서 시내: JFK 공항에서는 에어트레인으로 자메이카역(LIRR·지하철)이나 하워드 비치역(A선)에 가서 갈아탑니다. 뉴어크 공항도 에어트레인으로 NJ 트랜짓 열차와 연결됩니다.', 'Airport to city: from JFK take the AirTrain to Jamaica (LIRR, subway) or Howard Beach (A train); Newark\'s AirTrain links to NJ Transit trains.', '空港から市内へ：JFK空港からはエアトレインでジャマイカ駅(LIRR・地下鉄)かハワード・ビーチ駅(A線)へ行き乗り換えます。ニューアーク空港もエアトレインでNJトランジットにつながります。'],
     ],
   },
   istanbul: {
@@ -65,6 +68,7 @@ export const NOTES_7: Record<string, Compact> = {
     t: [
       ['교통카드(이스탄불카르트) 하나로 지하철·트램·페리를 탈 수 있습니다.', 'One Istanbulkart covers metro, tram and ferry.', 'イスタンブールカード1枚で地下鉄・トラム・フェリーに乗れます。'],
       ['모스크에 들어갈 때는 신발을 벗고 복장 규칙을 지키세요. 여성은 머리를 가릴 스카프를 준비하면 좋습니다.', 'Remove your shoes and follow the dress code when entering a mosque. Women should bring a headscarf.', 'モスクに入る際は靴を脱ぎ、服装規定に従ってください。女性は頭を覆うスカーフを用意すると安心です。'],
+      ['공항에서 시내: 이스탄불 공항에서는 M11 지하철로 가이레테페역(M2선 환승)까지 가거나, 탁심·술탄아흐메트 등으로 가는 하바이스트 공항버스를 탑니다.', 'Airport to city: from Istanbul Airport take the M11 metro to Gayrettepe (change to M2) or a Havaist airport bus to Taksim, Sultanahmet and other districts.', '空港から市内へ：イスタンブール空港からは地下鉄M11線でガイレッテペ駅(M2線に乗り換え)へ行くか、タクシム・スルタンアフメット方面のハバイスト空港バスを使います。'],
     ],
   },
   shanghai: {
@@ -104,6 +108,7 @@ export const NOTES_7: Record<string, Compact> = {
     t: [
       ['교통카드(옥토퍼스)로 지하철·버스·페리와 편의점 결제까지 할 수 있습니다.', 'An Octopus card works on MTR, buses, ferries and in convenience stores.', 'オクトパスカードで地下鉄・バス・フェリーやコンビニの支払いができます。'],
       ['홍콩식 딤섬은 전통 찻집에서 얌차로 즐겨 보세요. 차찬텡은 별도의 홍콩식 카페 문화입니다.', 'Try Hong Kong dim sum at a traditional teahouse as yum cha. Cha chaan teng is a separate local café tradition.', '香港の点心は伝統的な茶楼で飲茶として楽しめます。茶餐廳は別の香港式カフェ文化です。'],
+      ['공항에서 시내: 공항 고속철도(Airport Express)를 타면 칭이·구룡을 거쳐 홍콩역(센트럴)까지 약 24분입니다. 시내 곳곳으로 가는 \'A\' 번호 공항버스도 있습니다.', 'Airport to city: the Airport Express reaches Hong Kong Station (Central) in about 24 minutes via Tsing Yi and Kowloon; \'A\'-route airport buses serve many districts.', '空港から市内へ：エアポート・エクスプレスなら青衣・九龍を経て香港駅(セントラル)まで約24分です。市内各地へ行く「A」番号の空港バスもあります。'],
     ],
   },
   'kuala-lumpur': {
@@ -117,6 +122,7 @@ export const NOTES_7: Record<string, Compact> = {
     t: [
       ['바투 동굴의 사원 구역에서는 어깨와 무릎을 가리는 복장을 준비하세요. 노출이 큰 옷은 입장이 제한될 수 있습니다.', 'Cover your shoulders and knees in Batu Caves\' temple areas; revealing clothing may restrict entry.', 'バトゥ洞窟の寺院エリアでは肩と膝を覆う服装を用意しましょう。露出の多い服装では入場が制限される場合があります。'],
       ['그랩 같은 차량 호출 앱에서는 예약 전에 예상 요금을 볼 수 있습니다. 택시와 어느 쪽이 편한지는 상황에 따라 다릅니다.', 'Ride-hailing apps such as Grab show an upfront fare before booking. Compare them with taxis for your route.', 'Grabなどの配車アプリでは予約前に料金を確認できます。タクシーとも比較して選びましょう。'],
+      ['공항에서 시내: KLIA 제1·2터미널에서 KLIA 에크스프레스를 타면 KL 센트럴역까지 쉬지 않고 갑니다.', 'Airport to city: the KLIA Ekspres runs non-stop from KLIA Terminals 1 and 2 to KL Sentral.', '空港から市内へ：KLIA第1・第2ターミナルからKLIAエクスプレスでKLセントラル駅までノンストップです。'],
     ],
   },
   sapporo: {

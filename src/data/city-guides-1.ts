@@ -34,6 +34,7 @@ export const NOTES_1: Record<string, Compact> = {
     t: [
       ['자전거 도로(붉은 길)는 보행로가 아닙니다. 걸을 때 자전거 도로에 서 있지 않도록 조심하세요.', 'The red bike lanes are not footpaths; watch out and do not stand in them.', '赤い自転車道は歩道ではありません。歩くときに立ち止まらないよう注意しましょう。'],
       ['트램·버스는 현금을 받지 않습니다. 교통카드나 비접촉 카드로 탈 때와 내릴 때 모두 찍어야 합니다.', 'Trams and buses do not take cash; tap a card both when boarding and when getting off.', 'トラムやバスは現金不可。乗るときと降りるときの両方でカードをタッチします。'],
+      ['공항에서 시내: 스히폴 공항 지하 기차역에서 NS 열차를 타면 암스테르담 중앙역까지 약 15분입니다.', 'Airport to city: NS trains from the station beneath Schiphol reach Amsterdam Centraal in about 15 minutes.', '空港から市内へ：スキポール空港の地下駅からNS列車でアムステルダム中央駅まで約15分です。'],
     ],
   },
   athens: {
@@ -47,6 +48,7 @@ export const NOTES_1: Record<string, Compact> = {
     t: [
       ['아테네 고대 유적을 여러 곳 갈 계획이라면 각 유적의 공식 입장권과 방문 시간을 따로 확인하세요. 기존 통합권은 폐지됐습니다.', 'If you plan to visit several ancient sites in Athens, check each site\'s official ticket and visiting hours separately. The former combined ticket has been discontinued.', 'アテネの古代遺跡を複数訪れる場合は、各遺跡の公式入場券と見学時間を個別に確認してください。以前の共通券は廃止されました。'],
       ['그리스에서는 화장지를 변기에 버리지 않고 옆 휴지통에 버리는 곳이 많습니다.', 'In many places in Greece, toilet paper goes in the bin, not the toilet.', 'ギリシャではトイレットペーパーを便器に流さず、横のごみ箱に捨てる所が多いです。'],
+      ['공항에서 시내: 아테네 공항에서 지하철 3호선을 타면 신타그마·모나스티라키까지 갑니다. 신타그마행 X95 버스는 24시간 다닙니다.', 'Airport to city: Metro Line 3 runs from Athens Airport to Syntagma and Monastiraki; the X95 bus to Syntagma runs around the clock.', '空港から市内へ：アテネ空港から地下鉄3号線でシンタグマ・モナスティラキへ行けます。シンタグマ行きX95バスは24時間運行です。'],
     ],
   },
   auckland: {
@@ -121,6 +123,7 @@ export const NOTES_1: Record<string, Compact> = {
     t: [
       ['밤에 다뉴브강 유람선을 타면 조명이 켜진 국회의사당과 다리를 볼 수 있습니다.', 'An evening Danube cruise shows the Parliament and bridges lit up.', '夜のドナウ川クルーズでライトアップされた国会議事堂と橋が見られます。'],
       ['헝가리 화폐는 포린트입니다. 유로를 받는 곳도 있지만 환율이 불리한 경우가 많습니다.', 'The currency is the forint; some places take euros, but usually at a poor rate.', '通貨はフォリント。ユーロ可の店もありますが、レートが不利なことが多いです。'],
+      ['공항에서 시내: 부다페스트 공항에서 100E 공항버스를 타면 시내 중심 데아크 페렌츠 광장까지 갑니다. 이 버스는 전용 승차권이 필요합니다.', 'Airport to city: the 100E airport bus runs to Deák Ferenc tér in the centre; it needs its own dedicated ticket.', '空港から市内へ：ブダペスト空港から100E空港バスで中心部のデアーク・フェレンツ広場へ行けます。専用の乗車券が必要です。'],
     ],
   },
   cancun: {

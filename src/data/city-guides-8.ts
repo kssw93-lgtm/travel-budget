@@ -29,6 +29,7 @@ export const NOTES_8: Record<string, Compact> = {
       ['섬으로 이뤄진 도시라 시내 페리도 대중교통 요금으로 탈 수 있는 노선이 있습니다.', 'The city sits on islands, and some commuter ferries run on the regular transit fare.', '島々からなる街で、一部のフェリーは市内交通の運賃で乗れます。'],
       ['스톡홀름 지하철은 여러 역에서 벽화·조각을 볼 수 있어 \'세계에서 가장 긴 미술 전시\'로 불립니다. T-센트랄렌과 쿵스트레드고르덴 역도 둘러보세요.', 'Art at many Stockholm metro stations has earned the network the nickname \'the world\'s longest art exhibition.\' Look out for T-Centralen and Kungsträdgården.', 'ストックホルムの地下鉄には壁画や彫刻がある駅が多く、「世界一長い美術展」とも呼ばれます。Tセントラーレン駅とクングストレードゴーデン駅も見てみましょう。'],
       ['커피와 시나몬번을 곁들여 쉬는 \'피카\'는 스웨덴의 일상적인 문화입니다. 스톡홀름 카페에서도 경험할 수 있습니다.', 'Fika, a break over coffee and often a cinnamon bun, is part of everyday Swedish life. You can try it in Stockholm cafés.', 'コーヒーとシナモンロールを楽しむ休憩「フィーカ」はスウェーデンの日常文化です。ストックホルムのカフェでも体験できます。'],
+      ['공항에서 시내: 알란다 공항에서 알란다 익스프레스를 타면 스톡홀름 중앙역까지 약 20분입니다. 통근열차(펜델톡)와 공항버스도 있습니다.', 'Airport to city: the Arlanda Express reaches Stockholm Central in about 20 minutes; commuter trains and airport coaches are alternatives.', '空港から市内へ：アーランダ空港からアーランダ・エクスプレスでストックホルム中央駅まで約20分です。通勤列車や空港バスもあります。'],
     ],
   },
   helsinki: {

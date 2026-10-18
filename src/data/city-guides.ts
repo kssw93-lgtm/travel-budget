@@ -83,6 +83,11 @@ const BASE: Record<string, CityGuideNote> = {
         en: 'IC cards (Suica, PASMO) also work at convenience stores and vending machines, not just on trains and buses.',
         ja: '交通系ICカード（Suica・PASMO）は電車やバスだけでなく、コンビニや自販機の支払いにも使えます。',
       },
+      {
+        ko: '공항에서 시내: 나리타 공항은 게이세이 스카이라이너(우에노·닛포리)나 JR 나리타 익스프레스(도쿄역·신주쿠)를, 하네다 공항은 게이큐선이나 도쿄 모노레일을 타면 됩니다. 하네다가 시내에서 훨씬 가깝습니다.',
+        en: 'Airport to city: from Narita take the Keisei Skyliner (Ueno, Nippori) or JR Narita Express (Tokyo, Shinjuku); from Haneda take the Keikyu Line or Tokyo Monorail. Haneda is much closer to the centre.',
+        ja: '空港から市内へ：成田空港からは京成スカイライナー(上野・日暮里)かJR成田エクスプレス(東京・新宿)、羽田空港からは京急線か東京モノレールが便利です。羽田のほうが都心にずっと近いです。',
+      },
     ],
   },
   osaka: {
@@ -138,6 +143,11 @@ const BASE: Record<string, CityGuideNote> = {
         ko: '오사카에서는 에스컬레이터 오른쪽에 서는 관행이 있지만, 안전 안내에 따라 한쪽을 비우려고 걷지 말고 손잡이를 잡고 서서 이용하세요.',
         en: 'In Osaka, standing on the right of escalators is customary, but safety guidance asks everyone to stand still, hold the handrail and avoid walking to keep one side clear.',
         ja: '大阪ではエスカレーターの右側に立つ習慣がありますが、安全のため片側を空けようとして歩かず、手すりにつかまって立ち止まって利用してください。',
+      },
+      {
+        ko: '공항에서 시내: 간사이 공항에서 난바는 난카이 특급 라피트, 신오사카·덴노지는 JR 특급 하루카가 편합니다. 이타미(오사카) 공항은 국내선 위주이며 모노레일·리무진 버스로 연결됩니다.',
+        en: 'Airport to city: from Kansai Airport take the Nankai Rapi:t to Namba or JR Haruka to Tennoji and Shin-Osaka. Itami (Osaka) Airport is mainly domestic, linked by monorail and limousine bus.',
+        ja: '空港から市内へ：関西空港からなんばへは南海特急ラピート、天王寺・新大阪へはJR特急はるかが便利です。伊丹(大阪)空港は主に国内線で、モノレールやリムジンバスでつながります。',
       },
     ],
   },
@@ -195,6 +205,11 @@ const BASE: Record<string, CityGuideNote> = {
         en: 'Use the Chao Phraya river boats between riverside sights to skip traffic jams.',
         ja: '川沿いの名所間はチャオプラヤー・エクスプレス・ボートで移動すると渋滞を避けられます。',
       },
+      {
+        ko: '공항에서 시내: 수완나품 공항에서는 공항철도(에어포트 레일 링크)로 파야타이역까지 가서 BTS로 갈아탈 수 있습니다. 돈므앙 공항은 SRT 레드라인 돈므앙역과 연결됩니다.',
+        en: 'Airport to city: from Suvarnabhumi, the Airport Rail Link runs to Phaya Thai for the BTS Skytrain. Don Mueang Airport connects to the SRT Red Line at Don Mueang station.',
+        ja: '空港から市内へ：スワンナプーム空港からはエアポート・レール・リンクでパヤタイ駅へ行き、BTSに乗り換えられます。ドンムアン空港はSRTレッドラインのドンムアン駅につながっています。',
+      },
     ],
   },
   paris: {
@@ -250,6 +265,11 @@ const BASE: Record<string, CityGuideNote> = {
         ko: '식당에서 물은 수돗물(carafe d’eau)을 달라고 하면 무료로 나옵니다.',
         en: 'Ask for a carafe d’eau (tap water) at restaurants and it comes free.',
         ja: 'レストランで水道水（carafe d’eau）を頼むと無料で出てきます。',
+      },
+      {
+        ko: '공항에서 시내: 샤를 드골 공항에서는 RER B선(북역·샤틀레)이나 루아시버스(오페라)를, 오를리 공항에서는 메트로 14호선이나 오를리발을 이용합니다.',
+        en: 'Airport to city: from Charles de Gaulle take RER B (Gare du Nord, Châtelet) or the Roissybus (Opéra); from Orly take Metro Line 14 or Orlyval.',
+        ja: '空港から市内へ：シャルル・ド・ゴール空港からはRER B線(北駅・シャトレ)かロワシーバス(オペラ)、オルリー空港からはメトロ14号線かオルリーヴァルを使います。',
       },
     ],
   },

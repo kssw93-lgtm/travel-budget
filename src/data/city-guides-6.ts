@@ -26,6 +26,7 @@ export const NOTES_6: Record<string, Compact> = {
     t: [
       ['지하철(MRT) 안에서는 물을 포함해 먹고 마시는 것이 금지되어 벌금이 있습니다.', 'Eating and drinking, even water, is banned on the MRT and fined.', 'MRT車内では水も含め飲食禁止で、罰金があります。'],
       ['지우펀·스펀 등 근교 마을은 버스와 기차로 하루에 묶어 다녀오는 여행자가 많습니다.', 'Many combine Jiufen and Shifen in a day by bus and train.', '九份や十分など近郊の町はバスと電車で1日にまとめて回る人が多いです。'],
+      ['공항에서 시내: 타오위안 공항에서는 공항 MRT 직통열차로 타이베이역까지 갑니다. 쑹산 공항은 시내 안에 있어 MRT 원후선(갈색 노선)으로 바로 연결됩니다.', 'Airport to city: from Taoyuan, the Airport MRT express runs to Taipei Main Station. Songshan Airport sits inside the city on the Wenhu (brown) MRT line.', '空港から市内へ：桃園空港からは空港MRTの直達車で台北駅へ行けます。松山空港は市内にあり、MRT文湖線(茶色)ですぐです。'],
     ],
   },
   singapore: {
@@ -39,6 +40,7 @@ export const NOTES_6: Record<string, Compact> = {
     t: [
       ['호커 센터에서는 휴지 한 묶음을 자리에 올려 두면 자리를 맡았다는 표시입니다.', 'A packet of tissues on a hawker-centre seat means it is taken.', 'ホーカーセンターで席にティッシュを置くのは「席取り」の印です。'],
       ['지하철·버스는 비접촉 카드로 바로 탈 수 있고, 차 안 음식물 섭취는 금지입니다.', 'Tap a contactless card on trains and buses; eating and drinking on board is banned.', '電車・バスはタッチ決済で乗れ、車内での飲食は禁止です。'],
+      ['공항에서 시내: 창이공항에서 MRT 이스트웨스트선을 타고 타나메라역에서 갈아타면 시내로 갑니다. 택시 승차장도 각 터미널에 있습니다.', 'Airport to city: take the MRT East–West Line from Changi and change at Tanah Merah for the city; each terminal also has a taxi stand.', '空港から市内へ：チャンギ空港からMRT東西線に乗り、タナメラ駅で乗り換えると市内へ行けます。各ターミナルにタクシー乗り場もあります。'],
     ],
   },
   london: {
@@ -52,6 +54,7 @@ export const NOTES_6: Record<string, Compact> = {
     t: [
       ['지하철·버스는 비접촉 카드로 타면 하루·주간 요금 상한이 자동 적용됩니다.', 'Tapping a contactless card applies daily and weekly fare caps automatically.', '地下鉄・バスはタッチ決済で乗ると1日・週の上限運賃が自動で適用されます。'],
       ['국립 박물관·미술관 대부분이 상설 전시를 무료로 공개합니다.', 'Most national museums and galleries are free for permanent collections.', '国立の博物館・美術館の多くは常設展が無料です。'],
+      ['공항에서 시내: 히스로 공항에서는 엘리자베스선, 피커딜리선 지하철, 패딩턴역까지 가는 히스로 익스프레스 중에서 고르면 됩니다. 개트윅은 개트윅 익스프레스와 템스링크 열차가 있습니다.', 'Airport to city: from Heathrow choose the Elizabeth line, the Piccadilly line or the Heathrow Express to Paddington; Gatwick has the Gatwick Express and Thameslink trains.', '空港から市内へ：ヒースロー空港からはエリザベス線、ピカデリー線、パディントン駅行きのヒースロー・エクスプレスから選べます。ガトウィックにはガトウィック・エクスプレスとテムズリンクがあります。'],
     ],
   },
   cebu: {
@@ -77,6 +80,7 @@ export const NOTES_6: Record<string, Compact> = {
     t: [
       ['하나우마 베이 스노클링은 예약제이며 화요일 등 휴무일이 있으니 미리 확인하세요.', 'Hanauma Bay snorkelling needs a reservation and has closing days; check ahead.', 'ハナウマ湾のシュノーケリングは予約制で休業日もあるので事前に確認を。'],
       ['산호초 보호를 위해 하와이 기준에 맞는 선크림을 쓰는 것이 권장됩니다.', 'Use reef-safe sunscreen that meets Hawaii’s rules.', 'サンゴ保護のため、ハワイの基準に合う日焼け止めが推奨されます。'],
+      ['공항에서 시내: 다니엘 K. 이노우에 공항에서 와이키키까지는 택시·셔틀·렌터카가 일반적이고, 시내버스(TheBus)는 큰 짐을 실을 수 없으니 주의하세요.', 'Airport to city: taxis, shuttles and rental cars are the usual way to Waikiki; TheBus city buses don\'t allow large luggage.', '空港から市内へ：ダニエル・K・イノウエ空港からワイキキへはタクシー・シャトル・レンタカーが一般的です。市バス(TheBus)には大きな荷物を持ち込めないので注意。'],
     ],
   },
   interlaken: {

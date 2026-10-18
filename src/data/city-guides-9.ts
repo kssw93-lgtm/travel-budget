@@ -133,6 +133,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['8월에는 에든버러에서 여섯 개 축제가 열립니다. 여름 일정은 약 6개월 전부터 계획하라는 공식 안내가 있으니 행사와 숙소를 미리 살펴보세요.', 'Six festivals take place in Edinburgh in August. The official advice is to plan summer trips about six months ahead, so check events and accommodation early.', '8月のエディンバラでは6つのフェスティバルが開催されます。夏の旅行は約6か月前から計画するよう公式に案内されているため、催しや宿泊先を早めに確認しましょう。'],
       ['에든버러성은 여름철을 중심으로 표가 일찍 매진될 수 있습니다. 공식 안내에 따라 방문일을 정하면 온라인으로 미리 예매하세요.', 'Edinburgh Castle tickets can sell out well in advance, especially in summer. Once you have a date, book through the official site.', 'エディンバラ城の入場券は、特に夏は早く売り切れることがあります。訪問日が決まったら公式サイトで事前に予約しましょう。'],
       ['구시가지 명소를 한 번에 많이 넣기보다 로열 마일을 중심으로 성과 궁전, 주변 골목을 묶어 걷는 동선으로 계획하세요.', 'Rather than cramming in every Old Town sight, plan a walking route around the Royal Mile that groups the castle, palace and nearby closes.', '旧市街の名所を詰め込みすぎず、ロイヤル・マイルを軸に城や宮殿、周辺の路地をまとめて歩くルートを組みましょう。'],
+      ['공항에서 시내: 에든버러 공항에서는 트램이나 에어링크 100번 버스로 시내 중심(프린세스 스트리트)까지 갑니다.', 'Airport to city: take the tram or the Airlink 100 bus from Edinburgh Airport to the city centre around Princes Street.', '空港から市内へ：エディンバラ空港からはトラムかエアリンク100番バスで中心部(プリンセス・ストリート)へ行けます。'],
     ],
   },
   cairo: {
@@ -158,6 +159,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['뢰머베르크·대성당·마인 타워는 가까이 모여 있어 하루 도심 동선으로 묶어 다니기 좋습니다.', 'Römerberg, the cathedral and the Main Tower are close together, so they make an easy one-day city-centre route.', 'レーマーベルク・大聖堂・マインタワーは近くに集まっているので、1日の市内ルートにまとめやすいです。'],
       ['사과 와인(아펠바인)이 이 지역 명물이라 작센하우젠 지구의 전통 주점에서 맛볼 수 있습니다.', 'Apple wine (Apfelwein) is the local drink, served in the traditional taverns of Sachsenhausen.', 'アップルワイン（アプフェルヴァイン）が名物で、ザクセンハウゼン地区の伝統的な酒場で味わえます。'],
+      ['공항에서 시내: 프랑크푸르트 공항 제1터미널 지역역에서 S반 S8·S9를 타면 중앙역까지 15분 안팎입니다.', 'Airport to city: S-Bahn S8 and S9 from the regional station at Terminal 1 reach the Hauptbahnhof in about 15 minutes.', '空港から市内へ：フランクフルト空港第1ターミナルの近郊駅からSバーンS8・S9で中央駅まで15分ほどです。'],
     ],
   },
   berlin: {
@@ -171,6 +173,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['명소가 여러 구역에 흩어져 있으니 하루 동선을 구역별로 묶고, 교통권은 BVG 공식 안내에서 일정에 맞게 고르세요.', 'Sights are spread across several districts, so group each day by area and pick the right ticket from BVG’s official guide.', '名所が複数の地区に散らばっているので、1日の動線を地区ごとにまとめ、乗車券はBVGの公式案内で日程に合わせて選びましょう。'],
       ['대부분의 일반 상점은 일요일에 문을 닫으니 쇼핑은 토요일까지 마치는 편이 좋습니다.', 'Most regular shops close on Sundays, so plan shopping for Saturday or earlier.', 'ほとんどの一般の店は日曜日に閉まるので、買い物は土曜日までに済ませるのがおすすめです。'],
+      ['공항에서 시내: 베를린 브란덴부르크 공항(BER)에서는 FEX 공항 급행열차나 지역 열차로 중앙역까지 갑니다. S반 S9·S45도 다닙니다.', 'Airport to city: from BER take the FEX Airport Express or regional trains to the Hauptbahnhof; S-Bahn lines S9 and S45 also serve the airport.', '空港から市内へ：ベルリン・ブランデンブルク空港(BER)からはFEX空港特急や地域列車で中央駅へ行けます。SバーンS9・S45もあります。'],
     ],
   },
   zurich: {
@@ -184,6 +187,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['트램·버스는 목적지에 따라 필요한 ZVV 구역과 표가 달라지니 운영사 공식 안내에서 확인하세요.', 'The ZVV zone and ticket you need depend on your destination; check the operator’s official guide.', 'トラムやバスは目的地によって必要なZVVのゾーンと乗車券が変わるので、公式案内で確認しましょう。'],
       ['호숫가 산책과 유람선을 같은 날 묶어 즐기기 좋습니다. 유람선 운항 시즌과 시간은 미리 확인하세요.', 'Pair a lakeside walk with a boat trip on the same day; check the cruise season and times in advance.', '湖畔の散策と遊覧船を同じ日に組み合わせるのがおすすめです。遊覧船の運航時期と時間は事前に確認を。'],
+      ['공항에서 시내: 취리히 공항 기차역에서 열차를 타면 취리히 중앙역까지 10여 분입니다. 스위스 다른 도시로 가는 열차도 공항에서 바로 탑니다.', 'Airport to city: trains from Zurich Airport station reach Zürich HB in just over 10 minutes, and many intercity trains depart straight from the airport.', '空港から市内へ：チューリッヒ空港駅から列車でチューリッヒ中央駅まで10分あまりです。スイス各地への列車も空港から直接出ています。'],
     ],
   },
   basel: {

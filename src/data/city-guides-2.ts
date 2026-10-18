@@ -13,6 +13,7 @@ export const NOTES_2: Record<string, Compact> = {
     t: [
       ['여름(6~9월)은 한낮 기온이 매우 높아 야외 관광은 아침이나 저녁에 하는 것이 좋습니다.', 'Summer (June–September) is extremely hot; do outdoor sightseeing early or late.', '夏（6〜9月）は日中が非常に暑いので、屋外観光は朝か夕方に。'],
       ['모스크에서는 어깨와 팔·다리를 가리는 단정한 옷을 입고, 여성은 머리를 가릴 스카프도 준비하세요.', 'For mosque visits, wear modest clothing that covers shoulders, arms, and legs; women should also bring a headscarf.', 'モスクを訪れる際は肩・腕・脚を覆う服装にし、女性は頭を覆うスカーフも用意しましょう。'],
+      ['공항에서 시내: 두바이 국제공항 제1·3터미널에서 두바이 메트로 레드라인을 타면 시내와 두바이몰 방면으로 갑니다.', 'Airport to city: the Dubai Metro Red Line stops at DXB Terminals 1 and 3 and runs into the city and towards Dubai Mall.', '空港から市内へ：ドバイ国際空港の第1・第3ターミナルからドバイメトロ・レッドラインで市内やドバイモール方面へ行けます。'],
     ],
   },
   dubrovnik: {
@@ -39,6 +40,7 @@ export const NOTES_2: Record<string, Compact> = {
     t: [
       ['아카데미아 미술관(다비드상)과 우피치는 줄이 길어 시간 지정 예약을 하는 것이 좋습니다.', 'The Accademia (David) and Uffizi have long queues; book timed entry.', 'アカデミア美術館（ダビデ像）とウフィツィは行列が長いので時間指定予約を。'],
       ['피렌체 숙소에는 숙박세가 적용될 수 있으니 예약 내역에서 포함 여부와 결제 시점을 확인하세요.', 'A tourist tax may apply to accommodation in Florence; check your booking to see whether it is included and when it is collected.', 'フィレンツェの宿泊には宿泊税がかかる場合があります。予約内容で税の包含と支払い時期を確認してください。'],
+      ['공항에서 시내: 피렌체 공항에서 트램 T2선을 타면 산타마리아노벨라역 근처 우니타 정류장까지 약 20분입니다.', 'Airport to city: tram line T2 runs from Florence Airport to Unità, beside Santa Maria Novella station, in about 20 minutes.', '空港から市内へ：フィレンツェ空港からトラムT2線でサンタ・マリア・ノヴェッラ駅近くのウニタ停留所まで約20分です。'],
     ],
   },
   guam: {
@@ -127,6 +129,7 @@ export const NOTES_2: Record<string, Compact> = {
     t: [
       ['리스본에는 언덕과 돌로 포장된 길이 많습니다. 걷기 편하고 미끄럼을 덜 타는 신발을 준비하세요.', 'Lisbon has many hills and stone-paved streets. Bring comfortable shoes with good grip for walking.', 'リスボンには坂道や石畳が多くあります。歩きやすく滑りにくい靴を用意しましょう。'],
       ['식당에서 앉자마자 나오는 빵·올리브는 먹으면 요금이 붙습니다. 원하지 않으면 돌려보내도 됩니다.', 'Bread and olives brought to the table are charged if eaten; you can send them back.', '席に着くと出てくるパンやオリーブは食べると料金がかかります。不要なら下げてもらえます。'],
+      ['공항에서 시내: 리스본 공항은 지하철 빨간선(Vermelha) 종점과 연결되어 시내까지 지하철로 갈 수 있습니다.', 'Airport to city: Lisbon Airport is the terminus of the Metro Red line, so you can ride straight into town.', '空港から市内へ：リスボン空港は地下鉄レッドラインの終点とつながっていて、地下鉄で市内へ行けます。'],
     ],
   },
   'los-angeles': {
@@ -140,6 +143,7 @@ export const NOTES_2: Record<string, Compact> = {
     t: [
       ['명소끼리 멀고 차가 많이 막혀 하루에 한 지역씩 묶어 다니는 것이 좋습니다.', 'Sights are far apart and traffic is heavy; group each day by area.', '名所同士が遠く渋滞もひどいので、1日1エリアにまとめましょう。'],
       ['식당 메뉴 가격에는 판매세와 팁이 빠져 있어 실제로는 메뉴 가격보다 꽤 더 나옵니다.', 'Menu prices exclude sales tax and tip, so the bill ends up well above the menu price.', 'メニュー価格に売上税とチップは含まれず、実際の支払いはかなり高くなります。'],
+      ['공항에서 시내: LAX에서 택시·차량 호출은 \'LAX-it\' 승차장에서 탑니다. 유니언역까지는 FlyAway 버스가 다닙니다.', 'Airport to city: taxis and ride-hail pick up at the LAX-it lot; FlyAway buses run to Union Station.', '空港から市内へ：LAXではタクシーや配車サービスは「LAX-it」乗り場から乗ります。ユニオン駅へはFlyAwayバスがあります。'],
     ],
   },
   macau: {

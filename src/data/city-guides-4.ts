@@ -26,6 +26,7 @@ export const NOTES_4: Record<string, Compact> = {
     t: [
       ['교통은 비접촉 카드나 휴대폰으로 찍고 타면 되고, 일요일에는 하루 요금 상한이 낮아집니다.', 'Tap a contactless card or phone to ride; daily fare caps are lower on Sundays.', 'タッチ決済で乗車でき、日曜は1日の上限運賃が低くなります。'],
       ['자외선이 매우 강하니 흐린 날에도 선크림을 바르고, 해변에서는 깃발 사이에서만 수영하세요.', 'UV is fierce; use sunscreen even when cloudy and swim between the flags.', '紫外線が強いので曇りでも日焼け止めを。ビーチでは旗の間で泳ぎましょう。'],
+      ['공항에서 시내: 시드니 공항 국제선·국내선 터미널 역에서 공항 철도(T8선)를 타면 센트럴역까지 15분 안팎입니다.', 'Airport to city: Airport Link trains (T8 line) from the international and domestic terminal stations reach Central in about 15 minutes.', '空港から市内へ：シドニー空港の国際線・国内線ターミナル駅からエアポート・リンク(T8線)でセントラル駅まで15分ほどです。'],
     ],
   },
   taichung: {
@@ -101,6 +102,7 @@ export const NOTES_4: Record<string, Compact> = {
     t: [
       ['밴쿠버 식당에서는 식사에 GST가 적용되고, 주류에는 별도 주세도 붙습니다. 팁은 보통 계산서와 별도로 정하므로 최종 금액을 확인하세요.', 'Restaurant meals in Vancouver are subject to GST, and alcohol also carries a separate provincial tax. Tips are usually decided separately, so check the final bill.', 'バンクーバーの飲食店では食事にGSTがかかり、酒類には州税も加わります。チップは通常別途決めるため、最終的な請求額を確認しましょう。'],
       ['비가 잦은 도시라 가을·겨울에는 방수 겉옷을 챙기세요.', 'It rains often, especially autumn and winter; bring a waterproof jacket.', '雨が多い街なので、秋冬は防水の上着を持参しましょう。'],
+      ['공항에서 시내: 밴쿠버 공항에서 스카이트레인 캐나다 라인을 타면 다운타운 워터프런트역까지 약 25분입니다.', 'Airport to city: the SkyTrain Canada Line runs from YVR to Waterfront Station downtown in about 25 minutes.', '空港から市内へ：バンクーバー空港からスカイトレインのカナダ・ラインでダウンタウンのウォーターフロント駅まで約25分です。'],
     ],
   },
   venice: {
@@ -114,6 +116,7 @@ export const NOTES_4: Record<string, Compact> = {
     t: [
       ['성수기 특정 날짜에는 당일 방문객에게 입도세(Access Fee)를 받으니 공식 사이트에서 날짜를 확인하세요.', 'On set peak days, day-trippers pay an Access Fee; check the dates on the official site.', '繁忙期の指定日は日帰り客に入島料がかかるので、公式サイトで日付を確認しましょう。'],
       ['수상버스(바포레토)는 1회권보다 1일권이 유리한 경우가 많고, 탑승 전에 꼭 찍어야 합니다.', 'Vaporetto day passes often beat single tickets; validate before boarding.', '水上バスは1回券より1日券がお得なことが多く、乗る前に必ずタッチを。'],
+      ['공항에서 시내: 마르코 폴로 공항에서는 버스로 피아찰레 로마까지 가거나, 알릴라구나 수상버스로 바다를 건너 본섬에 들어갑니다.', 'Airport to city: take a bus from Marco Polo Airport to Piazzale Roma, or an Alilaguna water bus across the lagoon to the historic centre.', '空港から市内へ：マルコ・ポーロ空港からバスでローマ広場へ行くか、アリラグーナの水上バスで潟を渡って本島へ入ります。'],
     ],
   },
   vienna: {
@@ -127,6 +130,7 @@ export const NOTES_4: Record<string, Compact> = {
     t: [
       ['전통 카페(카페하우스)에서는 커피 한 잔으로 오래 앉아 있어도 괜찮은 문화입니다.', 'In traditional coffee houses it is fine to linger for hours over one coffee.', '伝統的なカフェハウスでは、コーヒー1杯で長居しても問題ない文化です。'],
       ['국립오페라극장의 입석표는 공연 당일 저렴하게 팔아 여행자에게 인기가 많습니다.', 'Standing-room tickets at the State Opera are sold cheaply on the day and are popular with travellers.', '国立歌劇場の立見席は当日に安く売られ、旅行者に人気です。'],
+      ['공항에서 시내: 빈 공항에서 시티 에어포트 트레인(CAT)을 타면 빈 미테역까지 약 16분이고, S반 S7이나 철도(레일젯)로도 갈 수 있습니다.', 'Airport to city: the City Airport Train (CAT) reaches Wien Mitte in about 16 minutes; the S7 S-Bahn and Railjet trains are alternatives.', '空港から市内へ：ウィーン空港からシティ・エアポート・トレイン(CAT)でウィーン・ミッテ駅まで約16分です。SバーンS7やレイルジェットでも行けます。'],
     ],
   },
   zhangjiajie: {

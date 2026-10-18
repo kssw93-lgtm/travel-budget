@@ -13,6 +13,7 @@ export const NOTES_3: Record<string, Compact> = {
     t: [
       ['주요 미술관은 저녁 마지막 두 시간 등 무료 입장 시간이 있어 공식 사이트에서 확인해 볼 만합니다.', 'Major museums have free-entry hours, often in the last two hours; check their official sites.', '主要美術館には夕方の無料時間などがあるので、公式サイトを確認してみましょう。'],
       ['저녁 식사는 밤 9시 무렵부터 시작하는 문화라 그 전에는 타파스 바에서 가볍게 먹기 좋습니다.', 'Dinner starts around 9 pm; tapas bars fill the gap before that.', '夕食は夜9時頃からが一般的なので、それまではタパスバーで軽くどうぞ。'],
+      ['공항에서 시내: 바라하스 공항에서는 메트로 8호선(누에보스 미니스테리오스), 제4터미널의 근교열차(세르카니아스), 아토차행 공항 급행버스를 이용할 수 있습니다.', 'Airport to city: from Barajas take Metro Line 8 to Nuevos Ministerios, Cercanías trains from T4, or the Airport Express bus to Atocha.', '空港から市内へ：バラハス空港からは地下鉄8号線(ヌエボス・ミニステリオス)、第4ターミナルの近郊列車(セルカニアス)、アトーチャ行き空港エクスプレスバスが使えます。'],
     ],
   },
   melbourne: {
@@ -26,6 +27,7 @@ export const NOTES_3: Record<string, Compact> = {
     t: [
       ['시내 중심의 무료 트램 구역 안에서는 트램을 무료로 탈 수 있습니다.', 'Trams are free within the city-centre Free Tram Zone.', '市中心部のフリートラムゾーン内はトラムが無料です。'],
       ['하루에 사계절이 있다는 말이 있을 만큼 날씨가 자주 바뀌니 겉옷을 챙기세요.', 'Weather can change several times a day; carry a layer.', '1日に四季があると言われるほど天気が変わりやすいので、上着を持参しましょう。'],
+      ['공항에서 시내: 멜버른 공항에는 아직 철도가 없어 스카이버스(서던크로스역행)나 택시를 이용합니다.', 'Airport to city: Melbourne Airport has no rail link yet, so take the SkyBus to Southern Cross Station or a taxi.', '空港から市内へ：メルボルン空港にはまだ鉄道がないため、サザンクロス駅行きのスカイバスかタクシーを使います。'],
     ],
   },
   munich: {
@@ -39,6 +41,7 @@ export const NOTES_3: Record<string, Compact> = {
     t: [
       ['일요일과 공휴일에는 대부분의 상점이 문을 닫으니 쇼핑은 평일·토요일에 하세요.', 'Most shops close on Sundays and holidays; shop on weekdays or Saturday.', '日曜・祝日はほとんどの店が閉まるので、買い物は平日か土曜に。'],
       ['노이슈반슈타인 성은 기차와 버스로 하루 일정이며, 성 내부는 시간 지정 예약이 필요합니다.', 'Neuschwanstein is a day trip by train and bus; the interior needs a timed ticket.', 'ノイシュヴァンシュタイン城は電車とバスで日帰り。内部は時間指定予約が必要です。'],
+      ['공항에서 시내: 뮌헨 공항에서 S반 S1·S8을 타면 중앙역과 마리엔플라츠까지 갑니다. 공항 리무진 버스도 중앙역으로 다닙니다.', 'Airport to city: S-Bahn lines S1 and S8 run from Munich Airport to the Hauptbahnhof and Marienplatz; an airport bus also serves the main station.', '空港から市内へ：ミュンヘン空港からはSバーンS1・S8線で中央駅やマリエンプラッツへ行けます。中央駅行きの空港バスもあります。'],
     ],
   },
   nice: {
@@ -134,6 +137,7 @@ export const NOTES_3: Record<string, Compact> = {
     t: [
       ['여름에도 안개와 바람으로 쌀쌀한 날이 많아 겉옷이 필요합니다.', 'Fog and wind make even summer days chilly; bring a jacket.', '夏でも霧と風で肌寒い日が多いので、上着が必要です。'],
       ['식당 메뉴 가격에는 판매세와 팁이 빠져 있고, 일부 식당은 직원 복지 부담금을 따로 붙입니다.', 'Menu prices exclude tax and tip, and some restaurants add a staff-benefit surcharge.', 'メニュー価格に税とチップは含まれず、従業員福利の追加料金を加える店もあります。'],
+      ['공항에서 시내: SFO 국제선 터미널의 BART역에서 열차를 타면 갈아타지 않고 다운타운(파월 스트리트 등)까지 갑니다.', 'Airport to city: BART from the station at SFO\'s International Terminal runs straight to downtown stops such as Powell Street.', '空港から市内へ：SFO国際線ターミナルのBART駅から乗り換えなしでダウンタウン(パウエル・ストリートなど)へ行けます。'],
     ],
   },
   'siem-reap': {

@@ -13,6 +13,7 @@ export const NOTES_5: Record<string, Compact> = {
     t: [
       ['지하철·버스는 교통카드(티머니)로 갈아타면 환승 할인이 됩니다.', 'Transfers between subway and bus are discounted with a T-money card.', '地下鉄とバスはT-moneyカードで乗り換えると割引になります。'],
       ['북촌 일부 골목은 관광 가능 시간이 정해져 있어 이른 아침·늦은 저녁 방문은 피하세요.', 'Parts of Bukchon have set visiting hours; avoid early mornings and late evenings.', '北村の一部路地は観光可能時間が決まっているので、早朝や夜遅くは避けましょう。'],
+      ['공항에서 시내: 인천공항에서는 공항철도(AREX) 직통열차가 서울역까지 쉬지 않고 가고, 일반열차는 홍대입구·공덕 등을 거칩니다. 김포공항은 지하철 5·9호선과 공항철도로 연결됩니다.', 'Airport to city: from Incheon, the AREX express train runs non-stop to Seoul Station, while the all-stop train calls at Hongik Univ. and Gongdeok. Gimpo Airport is on subway lines 5 and 9 and AREX.', '空港から市内へ：仁川空港からは空港鉄道(AREX)直通列車がソウル駅までノンストップで、一般列車は弘大入口・孔徳などに停まります。金浦空港は地下鉄5・9号線と空港鉄道で結ばれています。'],
     ],
   },
   busan: {
@@ -26,6 +27,7 @@ export const NOTES_5: Record<string, Compact> = {
     t: [
       ['해운대 블루라인파크의 해변열차·스카이캡슐은 온라인 예매가 가능하고 현장 표가 일찍 소진될 수 있으니 방문 전 예약 현황을 확인하세요.', 'The Haeundae Blueline Park Beach Train and Sky Capsule can be booked online, and limited on-site tickets may sell out early. Check availability before visiting.', '海雲台ブルーラインパークの海辺列車とスカイカプセルはオンライン予約が可能で、当日券は早く売り切れる場合があります。訪問前に空き状況を確認しましょう。'],
       ['돼지국밥은 서면의 국밥 골목에서, 밀면과 씨앗호떡 등 부산 먹거리는 시내 여러 지역에서 찾아보세요.', 'Try dwaeji-gukbap in Seomyeon\'s pork soup alley, and look for milmyeon, seed hotteok, and other Busan foods across the city.', '豚クッパは西面のクッパ通りで、ミルミョンやシアホットクなどの釜山グルメは市内各地で探せます。'],
+      ['공항에서 시내: 김해공항에서는 부산-김해 경전철을 타고 사상역에서 지하철 2호선으로 갈아타거나, 해운대·서면 방면 리무진 버스를 이용합니다.', 'Airport to city: from Gimhae Airport take the Busan–Gimhae Light Rail to Sasang and change to Metro Line 2, or ride a limousine bus towards Haeundae or Seomyeon.', '空港から市内へ：金海空港からは釜山・金海軽電鉄で沙上駅へ行き地下鉄2号線に乗り換えるか、海雲台・西面方面のリムジンバスを使います。'],
     ],
   },
   jeju: {
@@ -39,6 +41,7 @@ export const NOTES_5: Record<string, Compact> = {
     t: [
       ['버스로도 다닐 수 있지만 명소가 흩어져 있어 렌터카를 많이 이용합니다.', 'Buses work, but sights are spread out, so many people rent a car.', 'バスでも回れますが、名所が点在しているのでレンタカーの利用が多いです。'],
       ['바람이 강한 날이 많아 해안 일정에는 바람막이를 챙기세요.', 'It is often windy, so bring a windbreaker for the coast.', '風の強い日が多いので、海岸を回るなら風よけの上着を。'],
+      ['공항에서 시내: 제주공항은 제주시 도심과 가까워 택시로 금방이고, 서귀포·중문으로는 공항 리무진 버스가 다닙니다. 섬 전체를 돌 계획이면 렌터카가 편합니다.', 'Airport to city: Jeju Airport is close to downtown Jeju City by taxi, and limousine buses run to Seogwipo and Jungmun. A rental car is easiest for touring the island.', '空港から市内へ：済州空港は済州市の中心に近くタクシーですぐです。西帰浦・中文へは空港リムジンバスがあります。島を一周するならレンタカーが便利です。'],
     ],
   },
   gangneung: {
@@ -102,6 +105,7 @@ export const NOTES_5: Record<string, Compact> = {
     t: [
       ['시내버스가 매우 붐비니 지하철·JR·게이한 등 철도를 섞어 다니면 빠릅니다.', 'City buses get packed; mixing in the subway and rail lines is faster.', '市バスはとても混むので、地下鉄やJR・京阪などの鉄道を組み合わせると速いです。'],
       ['기온 지역에서는 게이코·마이코를 허락 없이 촬영하지 마세요. 일부 사유지 골목은 촬영 금지입니다.', 'Do not photograph geiko or maiko without permission in Gion; some private lanes ban photos.', '祇園では芸妓・舞妓を無断で撮影しないでください。一部の私道は撮影禁止です。'],
+      ['공항에서 시내: 교토에는 공항이 없어 보통 간사이 공항을 이용합니다. JR 특급 하루카를 타면 갈아타지 않고 교토역까지 갑니다.', 'Airport to city: Kyoto has no airport, so most travellers use Kansai Airport; the JR Haruka limited express runs straight to Kyoto Station.', '空港から市内へ：京都には空港がないため関西空港を使うのが一般的です。JR特急はるかなら乗り換えなしで京都駅まで行けます。'],
     ],
   },
   okinawa: {
@@ -154,6 +158,7 @@ export const NOTES_5: Record<string, Compact> = {
     t: [
       ['체코 화폐는 코루나입니다. 환전소의 "수수료 0%" 문구보다 실제 환율을 확인하세요.', 'The currency is the koruna; check the actual rate rather than “0% commission” signs.', '通貨はコルナ。両替所の「手数料0%」より実際のレートを確認しましょう。'],
       ['체코 맥주는 맥주 거품까지 즐기는 문화라 거품이 많은 잔도 정상입니다.', 'Czech beer is served with a generous head; that is intentional.', 'チェコビールは泡も楽しむ文化なので、泡が多いのも普通です。'],
+      ['공항에서 시내: 프라하 공항에서는 119번 버스로 나드라지 벨레슬라빈역에 가서 지하철 A선으로 갈아타거나, 중앙역까지 가는 에어포트 익스프레스(AE) 버스를 탑니다.', 'Airport to city: take bus 119 to Nádraží Veleslavín for Metro line A, or the Airport Express (AE) bus to the main railway station.', '空港から市内へ：プラハ空港からは119番バスでナードラジー・ヴェレスラヴィーン駅へ行き地下鉄A線に乗り換えるか、中央駅行きのエアポート・エクスプレス(AE)バスを使います。'],
     ],
   },
 };

@@ -42,6 +42,7 @@ export const NOTES_7: Record<string, Compact> = {
       ['성당에 들어갈 때는 어깨와 무릎을 가려야 합니다.', 'Cover shoulders and knees to enter churches.', '教会に入る際は肩と膝を隠しましょう。'],
       ['시내 곳곳의 식수대(나소네) 물은 마셔도 되니 물병을 채워 다니세요.', 'The nasoni drinking fountains are safe; refill your bottle.', '街中の水飲み場（ナゾーネ）の水は飲めるので、ボトルに補充しましょう。'],
       ['공항에서 시내: 피우미치노 공항에서 레오나르도 익스프레스를 타면 테르미니역까지 쉬지 않고 약 30분입니다. 지역 열차와 시내버스 노선도 있습니다.', 'Airport to city: from Fiumicino the Leonardo Express runs non-stop to Termini in about 30 minutes; regional trains and coaches are other options.', '空港から市内へ：フィウミチーノ空港からはレオナルド・エクスプレスでテルミニ駅までノンストップ約30分です。近郊列車やバスもあります。'],
+      ['도시 간 이동: 테르미니역에서 고속열차(프레차로사·이탈로)를 타면 피렌체 1시간 반 안팎, 베네치아 4시간 안팎입니다.', 'Between cities: high-speed trains (Frecciarossa, Italo) from Roma Termini reach Florence in about 1.5 hours and Venice in about four.', '都市間の移動：テルミニ駅から高速列車(フレッチャロッサ・イタロ)でフィレンツェまで約1時間半、ヴェネツィアまで約4時間です。'],
     ],
   },
   'new-york': {
@@ -96,6 +97,7 @@ export const NOTES_7: Record<string, Compact> = {
     t: [
       ['공항에서 시내(하카타역)까지 지하철로 몇 정거장이라 이동이 매우 빠릅니다.', 'The airport is only a few subway stops from Hakata Station.', '空港から博多駅まで地下鉄で数駅と、とても近いです。'],
       ['돈코쓰 라멘은 면 굵기와 익힘 정도를 고르고, 면만 추가(가에다마)할 수 있습니다.', 'At tonkotsu ramen shops you choose noodle firmness and can order extra noodles (kaedama).', '豚骨ラーメンは麺の硬さを選べ、替え玉もできます。'],
+      ['도시 간 이동: 하카타역에서 산요 신칸센을 타면 히로시마 1시간 남짓, 신오사카 2시간 반 안팎입니다. 규슈 안에서는 규슈 신칸센으로 구마모토·가고시마까지 갑니다.', 'Between cities: the Sanyo Shinkansen from Hakata reaches Hiroshima in just over an hour and Shin-Osaka in about 2.5 hours; the Kyushu Shinkansen heads south to Kumamoto and Kagoshima.', '都市間の移動：博多駅から山陽新幹線で広島まで1時間あまり、新大阪まで2時間半ほどです。九州内は九州新幹線で熊本・鹿児島へ行けます。'],
     ],
   },
   'hong-kong': {

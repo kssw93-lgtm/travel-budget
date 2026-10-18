@@ -27,6 +27,7 @@ export const NOTES_6: Record<string, Compact> = {
       ['지하철(MRT) 안에서는 물을 포함해 먹고 마시는 것이 금지되어 벌금이 있습니다.', 'Eating and drinking, even water, is banned on the MRT and fined.', 'MRT車内では水も含め飲食禁止で、罰金があります。'],
       ['지우펀·스펀 등 근교 마을은 버스와 기차로 하루에 묶어 다녀오는 여행자가 많습니다.', 'Many combine Jiufen and Shifen in a day by bus and train.', '九份や十分など近郊の町はバスと電車で1日にまとめて回る人が多いです。'],
       ['공항에서 시내: 타오위안 공항에서는 공항 MRT 직통열차로 타이베이역까지 갑니다. 쑹산 공항은 시내 안에 있어 MRT 원후선(갈색 노선)으로 바로 연결됩니다.', 'Airport to city: from Taoyuan, the Airport MRT express runs to Taipei Main Station. Songshan Airport sits inside the city on the Wenhu (brown) MRT line.', '空港から市内へ：桃園空港からは空港MRTの直達車で台北駅へ行けます。松山空港は市内にあり、MRT文湖線(茶色)ですぐです。'],
+      ['도시 간 이동: 타이베이역에서 고속철(HSR)을 타면 타이중 1시간 안팎, 가오슝 쭤잉역 1시간 반~2시간입니다.', 'Between cities: the High Speed Rail from Taipei Main Station reaches Taichung in about an hour and Kaohsiung\'s Zuoying in 1.5–2 hours.', '都市間の移動：台北駅から台湾高速鉄道で台中まで約1時間、高雄の左営まで1時間半～2時間です。'],
     ],
   },
   singapore: {
@@ -123,6 +124,7 @@ export const NOTES_6: Record<string, Compact> = {
     t: [
       ['미야지마의 도리이는 썰물 때 걸어서 가까이 갈 수 있어 물때표를 확인하면 좋습니다.', 'At low tide you can walk out to the Miyajima torii; check the tide table.', '宮島の鳥居は干潮時に歩いて近づけるので、潮見表を確認しましょう。'],
       ['미야지마에 들어갈 때 방문세가 따로 붙습니다.', 'A visitor tax is charged when you go to Miyajima.', '宮島に渡る際は訪問税がかかります。'],
+      ['도시 간 이동: 히로시마역에서 산요 신칸센을 타면 신오사카 1시간 반 안팎, 후쿠오카(하카타) 1시간 남짓입니다. 미야지마는 JR과 페리로 1시간 안팎에 다녀옵니다.', 'Between cities: the Sanyo Shinkansen from Hiroshima reaches Shin-Osaka in about 1.5 hours and Hakata (Fukuoka) in just over an hour; Miyajima is about an hour away by JR and ferry.', '都市間の移動：広島駅から山陽新幹線で新大阪まで1時間半ほど、博多まで1時間あまりです。宮島へはJRとフェリーで1時間ほどです。'],
     ],
   },
   kanazawa: {
@@ -136,6 +138,7 @@ export const NOTES_6: Record<string, Compact> = {
     t: [
       ['겨울에는 대게·방어 등 동해 해산물이 제철입니다.', 'Winter is the season for snow crab and yellowtail from the Sea of Japan.', '冬はズワイガニやブリなど日本海の海の幸が旬です。'],
       ['명소가 가까이 모여 있어 시내 주유 버스로 하루에 돌아보기 좋습니다.', 'Sights are close together; the loop bus covers them in a day.', '名所がまとまっているので、市内周遊バスで1日で回れます。'],
+      ['도시 간 이동: 도쿄역에서 호쿠리쿠 신칸센을 타면 가나자와까지 2시간 반 안팎입니다. 오사카·교토에서는 특급 선더버드로 쓰루가까지 가서 호쿠리쿠 신칸센으로 갈아탑니다.', 'Between cities: the Hokuriku Shinkansen from Tokyo reaches Kanazawa in about 2.5 hours. From Osaka or Kyoto, take the Thunderbird limited express to Tsuruga and change to the Hokuriku Shinkansen.', '都市間の移動：東京駅から北陸新幹線で金沢まで2時間半ほどです。大阪・京都からは特急サンダーバードで敦賀へ行き、北陸新幹線に乗り換えます。'],
     ],
   },
   hakodate: {
@@ -150,6 +153,7 @@ export const NOTES_6: Record<string, Compact> = {
       ['야경은 해가 진 직후가 가장 붐비니 시간을 조금 늦추면 여유롭게 볼 수 있습니다.', 'The night view is busiest right after sunset; go a little later for space.', '夜景は日没直後が最も混むので、少し遅らせるとゆっくり見られます。'],
       ['시내 이동은 노면전차가 편합니다.', 'Streetcars are the easy way around town.', '市内の移動は路面電車が便利です。'],
       ['공항에서 시내: 하코다테 공항에서 JR 하코다테역 방면 셔틀버스를 타면 약 20분이고, 고료카쿠 방면 버스도 있습니다.', 'Airport to city: the shuttle bus from Hakodate Airport to JR Hakodate Station takes about 20 minutes; there is also a bus towards Goryokaku.', '空港から市内へ：函館空港からJR函館駅方面のシャトルバスで約20分です。五稜郭方面のバスもあります。'],
+      ['도시 간 이동: 도쿄에서 홋카이도 신칸센을 타면 신하코다테호쿠토역까지 4시간 안팎이고, 하코다테 라이너로 갈아타 하코다테역까지 20분 안팎입니다. 삿포로와는 특급으로 3시간 반 이상 걸립니다.', 'Between cities: the Hokkaido Shinkansen from Tokyo reaches Shin-Hakodate-Hokuto in about four hours, then the Hakodate Liner takes about 20 minutes to Hakodate. Sapporo is 3.5+ hours by limited express.', '都市間の移動：東京から北海道新幹線で新函館北斗駅まで約4時間、はこだてライナーに乗り換えて函館駅まで約20分です。札幌とは特急で3時間半以上かかります。'],
     ],
   },
 };

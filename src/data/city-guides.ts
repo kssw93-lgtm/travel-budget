@@ -88,6 +88,16 @@ const BASE: Record<string, CityGuideNote> = {
         en: 'Airport to city: from Narita take the Keisei Skyliner (Ueno, Nippori) or JR Narita Express (Tokyo, Shinjuku); from Haneda take the Keikyu Line or Tokyo Monorail. Haneda is much closer to the centre.',
         ja: '空港から市内へ：成田空港からは京成スカイライナー(上野・日暮里)かJR成田エクスプレス(東京・新宿)、羽田空港からは京急線か東京モノレールが便利です。羽田のほうが都心にずっと近いです。',
       },
+      {
+        ko: '노선 구조: 도쿄의 전철은 JR(야마노테선 등), 도쿄 메트로, 도에이 지하철, 사철이 각각 다른 회사입니다. 교통카드 한 장으로 모두 탈 수 있고, 역마다 노선 기호와 번호(예: G09)가 붙어 있어 이를 보고 갈아타면 헷갈리지 않습니다.',
+        en: 'How the network works: JR (including the Yamanote loop), Tokyo Metro, Toei Subway and private railways are separate companies. One IC card works on all of them, and every station has a line letter and number (e.g. G09) to follow when transferring.',
+        ja: '路線のしくみ：東京の電車はJR(山手線など)、東京メトロ、都営地下鉄、私鉄がそれぞれ別の会社です。交通系ICカード1枚ですべて乗れ、駅ごとに路線記号と番号(例：G09)が付いているので、それを見て乗り換えると迷いません。',
+      },
+      {
+        ko: '도시 간 이동: 도쿄역·시나가와역에서 도카이도 신칸센을 타면 나고야 1시간 40분 안팎, 교토 2시간 15분 안팎, 신오사카 2시간 30분 안팎입니다(가장 빠른 노조미 기준).',
+        en: 'Between cities: the Tokaido Shinkansen from Tokyo or Shinagawa reaches Nagoya in about 1 hr 40, Kyoto in about 2 hr 15 and Shin-Osaka in about 2 hr 30 (fastest Nozomi).',
+        ja: '都市間の移動：東京駅・品川駅から東海道新幹線で名古屋まで約1時間40分、京都まで約2時間15分、新大阪まで約2時間30分です(最速ののぞみ)。',
+      },
     ],
   },
   osaka: {
@@ -148,6 +158,16 @@ const BASE: Record<string, CityGuideNote> = {
         ko: '공항에서 시내: 간사이 공항에서 난바는 난카이 특급 라피트, 신오사카·덴노지는 JR 특급 하루카가 편합니다. 이타미(오사카) 공항은 국내선 위주이며 모노레일·리무진 버스로 연결됩니다.',
         en: 'Airport to city: from Kansai Airport take the Nankai Rapi:t to Namba or JR Haruka to Tennoji and Shin-Osaka. Itami (Osaka) Airport is mainly domestic, linked by monorail and limousine bus.',
         ja: '空港から市内へ：関西空港からなんばへは南海特急ラピート、天王寺・新大阪へはJR特急はるかが便利です。伊丹(大阪)空港は主に国内線で、モノレールやリムジンバスでつながります。',
+      },
+      {
+        ko: '노선 구조: 오사카에는 JR(오사카 순환선 등), 오사카 메트로, 한큐·한신·게이한·난카이·긴테쓰 같은 사철이 함께 다닙니다. 같은 \'난바\'나 \'우메다\'라도 회사마다 역이 따로 있으니 탈 노선의 역 이름을 확인하세요. 교통카드는 모두 쓸 수 있습니다.',
+        en: 'How the network works: Osaka has JR (including the Loop Line), Osaka Metro and private railways such as Hankyu, Hanshin, Keihan, Nankai and Kintetsu. Each company has its own \'Namba\' or \'Umeda\' station, so check which one your line uses; IC cards work on all.',
+        ja: '路線のしくみ：大阪にはJR(大阪環状線など)、大阪メトロ、阪急・阪神・京阪・南海・近鉄などの私鉄が走っています。同じ「難波」「梅田」でも会社ごとに駅が別なので、乗る路線の駅名を確認しましょう。交通系ICカードはすべてで使えます。',
+      },
+      {
+        ko: '도시 간 이동: 오사카에서 교토는 JR 신쾌속으로 30분 안팎(한큐·게이한선도 있음), 고베 산노미야는 JR로 20~30분, 히로시마는 신오사카에서 신칸센으로 1시간 반 안팎입니다.',
+        en: 'Between cities: Kyoto is about 30 minutes by JR Special Rapid (or by Hankyu or Keihan), Kobe Sannomiya 20–30 minutes by JR, and Hiroshima about 1.5 hours by Shinkansen from Shin-Osaka.',
+        ja: '都市間の移動：大阪から京都へはJR新快速で30分ほど(阪急・京阪もあり)、神戸三宮へはJRで20～30分、広島へは新大阪から新幹線で1時間半ほどです。',
       },
     ],
   },
@@ -270,6 +290,11 @@ const BASE: Record<string, CityGuideNote> = {
         ko: '공항에서 시내: 샤를 드골 공항에서는 RER B선(북역·샤틀레)이나 루아시버스(오페라)를, 오를리 공항에서는 메트로 14호선이나 오를리발을 이용합니다.',
         en: 'Airport to city: from Charles de Gaulle take RER B (Gare du Nord, Châtelet) or the Roissybus (Opéra); from Orly take Metro Line 14 or Orlyval.',
         ja: '空港から市内へ：シャルル・ド・ゴール空港からはRER B線(北駅・シャトレ)かロワシーバス(オペラ)、オルリー空港からはメトロ14号線かオルリーヴァルを使います。',
+      },
+      {
+        ko: '도시 간 이동: 리옹역에서 TGV를 타면 리옹 2시간 안팎, 동역에서 스트라스부르 2시간 안팎입니다. 출발역이 목적지마다 다르니 표의 역 이름을 확인하세요.',
+        en: 'Between cities: TGVs from Gare de Lyon reach Lyon in about two hours, and from Gare de l\'Est reach Strasbourg in about two. Departure stations differ by destination, so check your ticket.',
+        ja: '都市間の移動：リヨン駅からTGVでリヨンまで約2時間、東駅からストラスブールまで約2時間です。行き先ごとに出発駅が違うので切符の駅名を確認しましょう。',
       },
     ],
   },

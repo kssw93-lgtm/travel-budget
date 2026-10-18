@@ -13,6 +13,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['드레스덴의 명물 과자 슈톨렌(Stollen)은 크리스마스 시즌의 대표 간식이라 마켓에서 꼭 맛볼 만합니다.', 'Dresden Stollen, the city’s famous fruit loaf, is the classic Christmas treat to try at the market.', 'ドレスデン名物のシュトレンはクリスマスシーズンの定番菓子なので、マーケットでぜひ味わいましょう。'],
       ['공항에서 시내: 드레스덴 공항 지하역에서 S반 S2를 타면 노이슈타트역과 중앙역까지 20분 안팎입니다.', 'Airport to city: S-Bahn S2 from the station beneath Dresden Airport reaches Dresden-Neustadt and the Hauptbahnhof in about 20 minutes.', '空港から市内へ：ドレスデン空港の地下駅からSバーンS2でノイシュタット駅・中央駅まで20分ほどです。'],
+      ['도시 간 이동: 드레스덴 중앙역에서 기차를 타면 베를린 2시간 안팎, 프라하 2시간 반 안팎입니다.', 'Between cities: trains from Dresden Hbf reach Berlin in about two hours and Prague in about 2.5.', '都市間の移動：ドレスデン中央駅から列車でベルリンまで約2時間、プラハまで約2時間半です。'],
     ],
   },
   nuremberg: {
@@ -27,6 +28,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['손가락만 한 뉘른베르크 소시지 3개를 빵에 끼운 「드라이 임 베클라」가 대표 길거리 음식입니다.', '“Drei im Weggla”, three small Nuremberg sausages in a roll, is the classic street snack.', '小さなニュルンベルク・ソーセージ3本をパンに挟んだ「ドライ・イム・ヴェクラ」が定番の屋台グルメです。'],
       ['향신료 과자 렙쿠헨(Lebkuchen)이 이 도시의 명물이라 선물용으로 인기가 많습니다.', 'Lebkuchen, spiced gingerbread, is the city’s speciality and a popular gift.', 'スパイス菓子のレープクーヘンが街の名物で、お土産として人気です。'],
       ['공항에서 시내: 뉘른베르크 공항에서 지하철 U2를 타면 중앙역까지 약 12분입니다.', 'Airport to city: the U2 underground runs from Nuremberg Airport to the Hauptbahnhof in about 12 minutes.', '空港から市内へ：ニュルンベルク空港から地下鉄U2線で中央駅まで約12分です。'],
+      ['도시 간 이동: 뉘른베르크 중앙역에서 ICE를 타면 뮌헨까지 1시간 안팎이라 당일치기로도 다녀옵니다.', 'Between cities: ICE trains from Nuremberg reach Munich in about an hour, so it works as a day trip either way.', '都市間の移動：ニュルンベルク中央駅からICEでミュンヘンまで約1時間なので、日帰りでも行き来できます。'],
     ],
   },
   cologne: {
@@ -41,6 +43,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['쾰른 맥주 쾰슈(Kölsch)는 작은 잔에 나오고, 잔 위에 코스터를 올려 두면 그만 마시겠다는 뜻입니다.', 'Kölsch beer comes in small glasses; put your coaster on top to signal you are done.', 'ケルンのビール「ケルシュ」は小さなグラスで出され、コースターをグラスの上に置くと「もう十分」の合図です。'],
       ['중앙역이 대성당 바로 옆이라 기차로 도착하면 바로 관광을 시작할 수 있습니다.', 'The main station is right next to the cathedral, so you can start sightseeing straight off the train.', '中央駅が大聖堂のすぐ隣なので、列車で着いてすぐ観光を始められます。'],
       ['공항에서 시내: 쾰른/본 공항 역에서 S반이나 지역 열차를 타면 쾰른 중앙역까지 15분 안팎입니다.', 'Airport to city: S-Bahn and regional trains from Cologne Bonn Airport station reach Köln Hbf in about 15 minutes.', '空港から市内へ：ケルン・ボン空港駅からSバーンや地域列車でケルン中央駅まで15分ほどです。'],
+      ['도시 간 이동: 쾰른 중앙역에서 ICE를 타면 프랑크푸르트 1시간 남짓이고, 암스테르담·브뤼셀로 가는 국제 열차도 다닙니다.', 'Between cities: ICE trains from Köln Hbf reach Frankfurt in just over an hour, and international trains run to Amsterdam and Brussels.', '都市間の移動：ケルン中央駅からICEでフランクフルトまで1時間あまりです。アムステルダム・ブリュッセルへの国際列車もあります。'],
     ],
   },
   strasbourg: {
@@ -168,6 +171,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['뢰머베르크·대성당·마인 타워는 가까이 모여 있어 하루 도심 동선으로 묶어 다니기 좋습니다.', 'Römerberg, the cathedral and the Main Tower are close together, so they make an easy one-day city-centre route.', 'レーマーベルク・大聖堂・マインタワーは近くに集まっているので、1日の市内ルートにまとめやすいです。'],
       ['사과 와인(아펠바인)이 이 지역 명물이라 작센하우젠 지구의 전통 주점에서 맛볼 수 있습니다.', 'Apple wine (Apfelwein) is the local drink, served in the traditional taverns of Sachsenhausen.', 'アップルワイン（アプフェルヴァイン）が名物で、ザクセンハウゼン地区の伝統的な酒場で味わえます。'],
       ['공항에서 시내: 프랑크푸르트 공항 제1터미널 지역역에서 S반 S8·S9를 타면 중앙역까지 15분 안팎입니다.', 'Airport to city: S-Bahn S8 and S9 from the regional station at Terminal 1 reach the Hauptbahnhof in about 15 minutes.', '空港から市内へ：フランクフルト空港第1ターミナルの近郊駅からSバーンS8・S9で中央駅まで15分ほどです。'],
+      ['도시 간 이동: 프랑크푸르트 중앙역에서 ICE를 타면 쾰른 1시간 남짓, 뮌헨 3시간 남짓입니다.', 'Between cities: ICE trains from Frankfurt Hbf reach Cologne in just over an hour and Munich in just over three.', '都市間の移動：フランクフルト中央駅からICEでケルンまで1時間あまり、ミュンヘンまで3時間あまりです。'],
     ],
   },
   berlin: {
@@ -182,6 +186,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['명소가 여러 구역에 흩어져 있으니 하루 동선을 구역별로 묶고, 교통권은 BVG 공식 안내에서 일정에 맞게 고르세요.', 'Sights are spread across several districts, so group each day by area and pick the right ticket from BVG’s official guide.', '名所が複数の地区に散らばっているので、1日の動線を地区ごとにまとめ、乗車券はBVGの公式案内で日程に合わせて選びましょう。'],
       ['대부분의 일반 상점은 일요일에 문을 닫으니 쇼핑은 토요일까지 마치는 편이 좋습니다.', 'Most regular shops close on Sundays, so plan shopping for Saturday or earlier.', 'ほとんどの一般の店は日曜日に閉まるので、買い物は土曜日までに済ませるのがおすすめです。'],
       ['공항에서 시내: 베를린 브란덴부르크 공항(BER)에서는 FEX 공항 급행열차나 지역 열차로 중앙역까지 갑니다. S반 S9·S45도 다닙니다.', 'Airport to city: from BER take the FEX Airport Express or regional trains to the Hauptbahnhof; S-Bahn lines S9 and S45 also serve the airport.', '空港から市内へ：ベルリン・ブランデンブルク空港(BER)からはFEX空港特急や地域列車で中央駅へ行けます。SバーンS9・S45もあります。'],
+      ['도시 간 이동: 베를린 중앙역에서 기차를 타면 드레스덴 2시간 안팎, 뮌헨 4시간 안팎입니다.', 'Between cities: trains from Berlin Hbf reach Dresden in about two hours and Munich in about four.', '都市間の移動：ベルリン中央駅から列車でドレスデンまで約2時間、ミュンヘンまで約4時間です。'],
     ],
   },
   zurich: {
@@ -210,6 +215,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['라인강을 건너는 작은 나룻배(페리)는 강물의 흐름만으로 움직이는 바젤의 명물입니다.', 'Basel’s little Rhine ferries cross the river powered only by the current.', 'ライン川を渡る小さな渡し船は川の流れだけで動くバーゼルの名物です。'],
       ['프랑스·독일과 맞닿은 국경 도시라 이웃 나라 마을까지 대중교통으로 갈 수 있지만, 노선과 운행은 바젤 관광청 안내에서 확인하세요.', 'A border city with France and Germany; public transport reaches neighbouring towns, but check routes and schedules on Basel Tourism’s guide.', 'フランス・ドイツと接する国境の街で隣国の町まで公共交通で行けますが、路線と運行はバーゼル観光局の案内で確認を。'],
       ['공항에서 시내: 바젤-뮐루즈 유로에어포트의 스위스 쪽 출구에서 50번 버스를 타면 바젤 SBB역까지 약 20분입니다.', 'Airport to city: bus 50 from the Swiss side of EuroAirport Basel-Mulhouse runs to Basel SBB station in about 20 minutes.', '空港から市内へ：バーゼル・ミュルーズ・ユーロエアポートのスイス側出口から50番バスでバーゼルSBB駅まで約20分です。'],
+      ['도시 간 이동: 바젤 SBB역에서 기차를 타면 취리히 1시간 안팎, 인터라켄 2시간 안팎입니다. 바젤 SBB역에는 프랑스행 열차 승강장도 함께 있습니다.', 'Between cities: trains from Basel SBB reach Zurich in about an hour and Interlaken in about two; the station also has platforms for French trains.', '都市間の移動：バーゼルSBB駅から列車でチューリッヒまで約1時間、インターラーケンまで約2時間です。駅にはフランス行き列車のホームもあります。'],
     ],
   },
   riga: {

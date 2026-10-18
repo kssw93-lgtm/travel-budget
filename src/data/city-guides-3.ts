@@ -14,6 +14,7 @@ export const NOTES_3: Record<string, Compact> = {
       ['주요 미술관은 저녁 마지막 두 시간 등 무료 입장 시간이 있어 공식 사이트에서 확인해 볼 만합니다.', 'Major museums have free-entry hours, often in the last two hours; check their official sites.', '主要美術館には夕方の無料時間などがあるので、公式サイトを確認してみましょう。'],
       ['저녁 식사는 밤 9시 무렵부터 시작하는 문화라 그 전에는 타파스 바에서 가볍게 먹기 좋습니다.', 'Dinner starts around 9 pm; tapas bars fill the gap before that.', '夕食は夜9時頃からが一般的なので、それまではタパスバーで軽くどうぞ。'],
       ['공항에서 시내: 바라하스 공항에서는 메트로 8호선(누에보스 미니스테리오스), 제4터미널의 근교열차(세르카니아스), 아토차행 공항 급행버스를 이용할 수 있습니다.', 'Airport to city: from Barajas take Metro Line 8 to Nuevos Ministerios, Cercanías trains from T4, or the Airport Express bus to Atocha.', '空港から市内へ：バラハス空港からは地下鉄8号線(ヌエボス・ミニステリオス)、第4ターミナルの近郊列車(セルカニアス)、アトーチャ行き空港エクスプレスバスが使えます。'],
+      ['도시 간 이동: 아토차역 등에서 고속열차를 타면 바르셀로나까지 2시간 반~3시간입니다. 여러 회사(렌페·이리오·우이고)가 같은 노선을 달립니다.', 'Between cities: high-speed trains from Atocha and other stations reach Barcelona in 2.5–3 hours; several operators (Renfe, Iryo, Ouigo) run the route.', '都市間の移動：アトーチャ駅などから高速列車でバルセロナまで2時間半～3時間です。複数の会社(レンフェ・イリオ・ウィゴ)が同じ路線を走っています。'],
     ],
   },
   melbourne: {
@@ -42,6 +43,7 @@ export const NOTES_3: Record<string, Compact> = {
       ['일요일과 공휴일에는 대부분의 상점이 문을 닫으니 쇼핑은 평일·토요일에 하세요.', 'Most shops close on Sundays and holidays; shop on weekdays or Saturday.', '日曜・祝日はほとんどの店が閉まるので、買い物は平日か土曜に。'],
       ['노이슈반슈타인 성은 기차와 버스로 하루 일정이며, 성 내부는 시간 지정 예약이 필요합니다.', 'Neuschwanstein is a day trip by train and bus; the interior needs a timed ticket.', 'ノイシュヴァンシュタイン城は電車とバスで日帰り。内部は時間指定予約が必要です。'],
       ['공항에서 시내: 뮌헨 공항에서 S반 S1·S8을 타면 중앙역과 마리엔플라츠까지 갑니다. 공항 리무진 버스도 중앙역으로 다닙니다.', 'Airport to city: S-Bahn lines S1 and S8 run from Munich Airport to the Hauptbahnhof and Marienplatz; an airport bus also serves the main station.', '空港から市内へ：ミュンヘン空港からはSバーンS1・S8線で中央駅やマリエンプラッツへ行けます。中央駅行きの空港バスもあります。'],
+      ['도시 간 이동: 뮌헨 중앙역에서 ICE를 타면 뉘른베르크 1시간 안팎, 프랑크푸르트 3시간 남짓, 베를린 4시간 안팎입니다.', 'Between cities: ICE trains from München Hbf reach Nuremberg in about an hour, Frankfurt in just over three and Berlin in about four.', '都市間の移動：ミュンヘン中央駅からICEでニュルンベルクまで約1時間、フランクフルトまで3時間あまり、ベルリンまで約4時間です。'],
     ],
   },
   nice: {

@@ -41,6 +41,7 @@ export const NOTES_4: Record<string, Compact> = {
     t: [
       ['일월담·가오메이 습지 등 근교 명소는 버스로 하루 일정에 다녀오기 좋습니다.', 'Sun Moon Lake and Gaomei Wetlands make good day trips by bus.', '日月潭や高美湿地など近郊の名所はバスで日帰りできます。'],
       ['버블티가 시작된 도시로 알려져 있어 원조 찻집을 찾아가 보는 여행자가 많습니다.', 'Said to be the birthplace of bubble tea; many visitors seek out the original tea house.', 'タピオカミルクティー発祥の地とされ、元祖の店を訪れる旅行者が多いです。'],
+      ['도시 간 이동: 고속철(HSR) 타이중역은 시내에서 떨어진 우르에 있어, 시내까지 일반철도(TRA)나 버스로 갈아탑니다. 타이베이까지 고속철로 1시간 안팎입니다.', 'Between cities: the HSR Taichung station is in Wuri, outside the centre, so change to a TRA train or bus; Taipei is about an hour by HSR.', '都市間の移動：高鉄台中駅は市街から離れた烏日にあるため、在来線(台鉄)やバスに乗り換えて市内へ向かいます。台北まで高鉄で約1時間です。'],
     ],
   },
   tashkent: {
@@ -119,6 +120,7 @@ export const NOTES_4: Record<string, Compact> = {
       ['성수기 특정 날짜에는 당일 방문객에게 입도세(Access Fee)를 받으니 공식 사이트에서 날짜를 확인하세요.', 'On set peak days, day-trippers pay an Access Fee; check the dates on the official site.', '繁忙期の指定日は日帰り客に入島料がかかるので、公式サイトで日付を確認しましょう。'],
       ['수상버스(바포레토)는 1회권보다 1일권이 유리한 경우가 많고, 탑승 전에 꼭 찍어야 합니다.', 'Vaporetto day passes often beat single tickets; validate before boarding.', '水上バスは1回券より1日券がお得なことが多く、乗る前に必ずタッチを。'],
       ['공항에서 시내: 마르코 폴로 공항에서는 버스로 피아찰레 로마까지 가거나, 알릴라구나 수상버스로 바다를 건너 본섬에 들어갑니다.', 'Airport to city: take a bus from Marco Polo Airport to Piazzale Roma, or an Alilaguna water bus across the lagoon to the historic centre.', '空港から市内へ：マルコ・ポーロ空港からバスでローマ広場へ行くか、アリラグーナの水上バスで潟を渡って本島へ入ります。'],
+      ['도시 간 이동: 본섬의 산타루치아역에서 고속열차를 타면 피렌체 2시간 안팎, 로마 4시간 안팎입니다. 메스트레역(본토)과 헷갈리지 마세요.', 'Between cities: high-speed trains from Santa Lucia on the island reach Florence in about two hours and Rome in about four; don\'t confuse it with Mestre on the mainland.', '都市間の移動：本島のサンタ・ルチア駅から高速列車でフィレンツェまで約2時間、ローマまで約4時間です。本土のメストレ駅と間違えないように。'],
     ],
   },
   vienna: {

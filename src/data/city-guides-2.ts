@@ -42,6 +42,7 @@ export const NOTES_2: Record<string, Compact> = {
       ['아카데미아 미술관(다비드상)과 우피치는 줄이 길어 시간 지정 예약을 하는 것이 좋습니다.', 'The Accademia (David) and Uffizi have long queues; book timed entry.', 'アカデミア美術館（ダビデ像）とウフィツィは行列が長いので時間指定予約を。'],
       ['피렌체 숙소에는 숙박세가 적용될 수 있으니 예약 내역에서 포함 여부와 결제 시점을 확인하세요.', 'A tourist tax may apply to accommodation in Florence; check your booking to see whether it is included and when it is collected.', 'フィレンツェの宿泊には宿泊税がかかる場合があります。予約内容で税の包含と支払い時期を確認してください。'],
       ['공항에서 시내: 피렌체 공항에서 트램 T2선을 타면 산타마리아노벨라역 근처 우니타 정류장까지 약 20분입니다.', 'Airport to city: tram line T2 runs from Florence Airport to Unità, beside Santa Maria Novella station, in about 20 minutes.', '空港から市内へ：フィレンツェ空港からトラムT2線でサンタ・マリア・ノヴェッラ駅近くのウニタ停留所まで約20分です。'],
+      ['도시 간 이동: 산타마리아노벨라역에서 고속열차를 타면 로마 1시간 반 안팎, 베네치아 2시간 안팎입니다.', 'Between cities: high-speed trains from Santa Maria Novella reach Rome in about 1.5 hours and Venice in about two.', '都市間の移動：サンタ・マリア・ノヴェッラ駅から高速列車でローマまで約1時間半、ヴェネツィアまで約2時間です。'],
     ],
   },
   guam: {

@@ -815,4 +815,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 오스틴 공항에서 캡메트로 20번 버스를 타면 다운타운까지 1.25달러이며, 카드 탭으로 내면 하루 2회 요금까지만 청구됩니다. 요금은 2027년 1월 10일에 오를 예정입니다.', 'Airport to city: CapMetro route 20 runs downtown for $1.25, with tap-to-pay capped at two rides a day; fares rise on 10 January 2027.', '空港から市内へ：オースティン空港からキャップメトロ20番バスでダウンタウンまで1.25ドルで、カードのタッチ決済なら1日2回分までしか請求されません。運賃は2027年1月10日に値上げ予定です。'],
     ],
   },
+  hobart: {
+    h: [
+      ['MONA(구신 미술관)', 'Mona (Museum of Old and New Art)', 'MONA（ミュージアム・オブ・オールド・アンド・ニュー・アート）', '강변 절벽을 파고 지은 개인 미술관으로, 고대 유물과 도발적인 현대미술을 함께 전시합니다. 시내에서 페리로 갈 수 있습니다.', 'A private museum carved into a riverside cliff, mixing antiquities with provocative contemporary art; reachable by ferry.', '川沿いの崖を掘って造られた個人美術館で、古代の遺物と挑発的な現代美術を一緒に展示しています。市内からフェリーで行けます。'],
+      ['살라만카 마켓', 'Salamanca Market', 'サラマンカ・マーケット', '매주 토요일 오전 8시 반~오후 3시에 열리는 시장으로, 브루니섬 굴과 지역 치즈를 맛볼 수 있습니다.', 'Every Saturday 8:30am–3pm, with Bruny Island oysters and local cheeses.', '毎週土曜日の8時半〜15時に開かれる市場で、ブルーニー島のカキや地元のチーズを味わえます。'],
+      ['태즈메이니아 굴', 'Tasmanian oysters', 'タスマニアのカキ', '달콤한 퍼시픽 굴과 버터 향이 진한 토종 앤가시 굴을 비교해 보세요.', 'Compare sweet Pacific oysters with rich, buttery native Angasi oysters.', '甘みのあるパシフィック・オイスターと、バターのような濃厚な在来種アンガシ・オイスターを食べ比べてみましょう。'],
+    ],
+    t: [
+      ['메트로 태즈메이니아 버스는 2027년 6월 30일까지 무료로 운행합니다. 공항에서 시내까지는 스카이버스(약 30분)를 타며, 운전기사에게는 신용카드로만 낼 수 있습니다.', 'Metro Tasmania buses are free until 30 June 2027. From the airport, SkyBus takes about 30 minutes; drivers accept card only.', 'メトロ・タスマニアのバスは2027年6月30日まで無料です。空港から市内へはスカイバス（約30分）が便利で、運転手にはクレジットカードでのみ支払えます。'],
+    ],
+  },
 };

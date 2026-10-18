@@ -175,6 +175,9 @@
 | 빅토리아 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 오스틴 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오스틴 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 호바트 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 호바트 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 호바트 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 속초 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 통영 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 대구 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1059,6 +1062,9 @@
 | AUS-TR-001 | 오스틴 | 캡메트로 시내버스 1회 | 1.25 USD | A | 예 | 재검증 | [CapMetro](https://www.capmetro.org/fare/general-fares-overview/fares) |
 | AUS-AT-001 | 오스틴 | 불럭 텍사스 주 역사박물관 (성인) | 17~22 USD | A | 예 | 재검증 | [Bullock Texas State History Museum](https://www.thestoryoftexas.com/visit/) |
 | AUS-AT-002 | 오스틴 | 불럭 텍사스 주 역사박물관 (청소년) | 11~16 USD | A | 예 | 재검증 | [Bullock Texas State History Museum](https://www.thestoryoftexas.com/visit/) |
+| HBA-TR-001 | 호바트 | 메트로 태즈메이니아 버스(무료 운행) | 0 AUD | A | 예 | 재검증 | [Metro Tasmania](https://www.metrotas.com.au/keep-moving/) |
+| HBA-AT-001 | 호바트 | MONA (주외 방문 성인) | 39~45 AUD | A | 예 | 재검증 | [Mona](https://mona.net.au/visit) |
+| HBA-AT-002 | 호바트 | MONA (12~17세) | 21 AUD | A | 예 | 재검증 | [Mona](https://mona.net.au/visit) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

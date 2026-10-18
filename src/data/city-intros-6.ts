@@ -510,4 +510,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['사우스 콩그레스', 'South Congress', 'サウス・コングレス', '개성 있는 가게와 식당, 음악 공연장이 모인 거리입니다.', 'A strip of quirky shops, restaurants and music venues.', '個性的な店や飲食店、ライブ会場が集まる通りです。'],
     ],
   },
+  hobart: {
+    o: ['호주 남쪽 섬 태즈메이니아의 주도로, 웰링턴산 아래 항구에 사암 창고가 늘어선 작은 도시입니다. 파격적인 현대미술관 MONA와 토요일 살라만카 마켓, 신선한 굴과 해산물로 유명합니다.', 'Capital of the island state of Tasmania, a small harbour city of sandstone warehouses beneath kunanyi/Mount Wellington; famous for the provocative MONA museum, the Saturday Salamanca Market and fresh oysters and seafood.', 'オーストラリア南部の島タスマニア州の州都で、ウェリントン山のふもとの港に砂岩の倉庫が並ぶ小さな街です。型破りな現代美術館MONAや土曜日のサラマンカ・マーケット、新鮮なカキや海産物で有名です。'],
+    d: [2, 3],
+    s: [
+      ['살라만카·워터프런트', 'Salamanca / Waterfront', 'サラマンカ・ウォーターフロント', '토요일 마켓과 식당, MONA 페리 터미널이 가깝습니다.', 'Near the Saturday market, restaurants and the MONA ferry terminal.', '土曜日のマーケットや飲食店、MONA行きフェリー乗り場に近いです。'],
+      ['시내(CBD)', 'Hobart CBD', 'ホバート中心部（CBD）', '공항버스 정류장과 상점가가 있는 중심가입니다.', 'The centre with shops and airport-bus stops.', '空港バスの乗り場や商店街がある中心街です。'],
+    ],
+  },
 };

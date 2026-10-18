@@ -2323,6 +2323,34 @@
     "missing": [],
     "computable": true
   },
+  "hobart": {
+    "counts": {
+      "food": 4,
+      "transport": 1,
+      "attraction": 1
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 4,
+      "snack": 2,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 4,
+      "snack": 2,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "sokcho": {
     "counts": {
       "food": 43,
@@ -2970,12 +2998,12 @@
   "melbourne": {
     "counts": {
       "food": 4,
-      "transport": 8,
+      "transport": 9,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 8,
+      "ride": 9,
       "meal": 4,
       "snack": 2,
       "drink": 3,
@@ -2984,7 +3012,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 9,
+      "ride": 10,
       "meal": 4,
       "snack": 2,
       "drink": 3,

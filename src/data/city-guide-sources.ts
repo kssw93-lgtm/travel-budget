@@ -1102,4 +1102,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'austin:h3': 'https://www.austintexas.org/austin-insider-blog/blog/post/essential-breakfast-tacos-in-austin/',
   'austin:t1': 'https://comptroller.texas.gov/taxes/sales/city.php',
   'austin:t2': 'https://www.capmetro.org/airport',
+  'hobart:h1': 'https://mona.net.au/visit',
+  'hobart:h2': 'https://www.discovertasmania.com.au/things-to-do/shopping-and-markets/salamancamarket/',
+  'hobart:h3': 'https://www.discovertasmania.com.au/off-season/plan-your-off-season/your-guide-to-tasmanian-oysters/',
+  'hobart:t1': 'https://www.metrotas.com.au/keep-moving/',
 };

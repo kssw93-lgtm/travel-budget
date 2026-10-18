@@ -5137,5 +5137,20 @@
     "ko": "칩을 찍어 먹는 텍스멕스식 녹인 치즈 딥",
     "en": "Tex-Mex melted cheese dip with chips",
     "ja": "チップスにつけて食べるテクスメクス風の溶かしチーズのディップ"
+  },
+  "hobart:Bruny Island Oysters": {
+    "ko": "살라만카 마켓에서 바로 까 주는 태즈메이니아 굴",
+    "en": "Freshly shucked Tasmanian oysters",
+    "ja": "その場で殻をむいてくれるタスマニアのカキ"
+  },
+  "hobart:Tasmanian Cheese": {
+    "ko": "마켓에서 맛볼 수 있는 지역 수제 치즈",
+    "en": "Local artisan cheeses from the market",
+    "ja": "マーケットで味わえる地元の手作りチーズ"
+  },
+  "hobart:Tasmanian Beef": {
+    "ko": "방목해 기른 태즈메이니아산 소고기 요리",
+    "en": "Pasture-raised Tasmanian beef",
+    "ja": "放牧で育てたタスマニア産牛肉の料理"
   }
 }

@@ -435,4 +435,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'austin:p1': 'https://www.austintexas.org/austin-insider-blog/blog/post/things-to-do-in-austin/',
   'austin:p2': 'https://www.austintexas.org/austin-insider-blog/blog/post/things-to-do-in-austin/',
   'austin:x': 'https://www.austintexas.org/austin-insider-blog/blog/post/iconic-austin-restaurants/',
+  'hobart:p1': 'https://www.discovertasmania.com.au/things-to-do/shopping-and-markets/salamancamarket/',
+  'hobart:x': 'https://mona.net.au/visit',
 };

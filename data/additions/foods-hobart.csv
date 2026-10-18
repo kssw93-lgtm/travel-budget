@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+호주,호바트,브루니섬 굴,Bruny Island Oysters,살라만카 마켓에서 바로 까 주는 태즈메이니아 굴,중,,대기,Discover Tasmania,https://www.discovertasmania.com.au/off-season/plan-your-off-season/your-guide-to-tasmanian-oysters/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+호주,호바트,태즈메이니아 치즈,Tasmanian Cheese,마켓에서 맛볼 수 있는 지역 수제 치즈,저,,대기,Discover Tasmania,https://www.discovertasmania.com.au/things-to-do/shopping-and-markets/salamancamarket/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+호주,호바트,태즈메이니아 소고기,Tasmanian Beef,방목해 기른 태즈메이니아산 소고기 요리,고,,대기,Discover Tasmania,https://www.discovertasmania.com.au/things-to-do/food-and-drink/rockwall-bar-and-grill/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

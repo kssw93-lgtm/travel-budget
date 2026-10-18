@@ -414,4 +414,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['유명 바비큐 가게는 오전부터 줄이 길고 고기가 떨어지면 문을 닫으니 일찍 가세요.', 'Famous barbecue joints draw morning lines and close when the meat sells out — go early.', '有名なバーベキュー店は朝から行列ができ、肉が売り切れると閉店するので早めに行きましょう。'],
   },
+  hobart: {
+    p: [
+      ['12~3월', 'December–March', '12〜3月', '따뜻한 날씨에 살라만카 마켓과 근교 브루니섬 여행을 즐기기 좋습니다.', 'Warm days for Salamanca Market and trips to Bruny Island.', '暖かい気候でサラマンカ・マーケットや近郊のブルーニー島への旅行を楽しめます。'],
+    ],
+    x: ['MONA는 시간 지정 입장권을 미리 예약하고, 10월 22일부터 입장료가 오르니 방문일 요금을 확인하세요.', 'Book MONA timed entry ahead; prices rise from 22 October, so check the rate for your date.', 'MONAは時間指定の入場券を事前に予約しましょう。10月22日から入場料が上がるので、訪問日の料金を確認してください。'],
+  },
 };

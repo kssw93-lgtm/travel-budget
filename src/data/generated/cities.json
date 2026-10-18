@@ -850,6 +850,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "hobart",
+    "country": "호주",
+    "countryEn": "Australia",
+    "nameKo": "호바트",
+    "nameEn": "Hobart",
+    "currency": "AUD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "sokcho",
     "country": "한국",
     "countryEn": "South Korea",

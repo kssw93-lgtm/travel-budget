@@ -5623,6 +5623,60 @@
     "note": "Claude 초안(2026-10-11)"
   },
   {
+    "cityId": "hobart",
+    "nameKo": "브루니섬 굴",
+    "nameEn": "Bruny Island Oysters",
+    "reason": "살라만카 마켓에서 바로 까 주는 태즈메이니아 굴",
+    "reasonEn": "Freshly shucked Tasmanian oysters",
+    "desc": {
+      "ko": "살라만카 마켓에서 바로 까 주는 태즈메이니아 굴",
+      "en": "Freshly shucked Tasmanian oysters",
+      "ja": "その場で殻をむいてくれるタスマニアのカキ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Discover Tasmania",
+    "recommendUrl": "https://www.discovertasmania.com.au/off-season/plan-your-off-season/your-guide-to-tasmanian-oysters/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "hobart",
+    "nameKo": "태즈메이니아 치즈",
+    "nameEn": "Tasmanian Cheese",
+    "reason": "마켓에서 맛볼 수 있는 지역 수제 치즈",
+    "reasonEn": "Local artisan cheeses from the market",
+    "desc": {
+      "ko": "마켓에서 맛볼 수 있는 지역 수제 치즈",
+      "en": "Local artisan cheeses from the market",
+      "ja": "マーケットで味わえる地元の手作りチーズ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Discover Tasmania",
+    "recommendUrl": "https://www.discovertasmania.com.au/things-to-do/shopping-and-markets/salamancamarket/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "hobart",
+    "nameKo": "태즈메이니아 소고기",
+    "nameEn": "Tasmanian Beef",
+    "reason": "방목해 기른 태즈메이니아산 소고기 요리",
+    "reasonEn": "Pasture-raised Tasmanian beef",
+    "desc": {
+      "ko": "방목해 기른 태즈메이니아산 소고기 요리",
+      "en": "Pasture-raised Tasmanian beef",
+      "ja": "放牧で育てたタスマニア産牛肉の料理"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Discover Tasmania",
+    "recommendUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/rockwall-bar-and-grill/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "hong-kong",
     "nameKo": "완탕면",
     "nameEn": "Wonton Noodles",

@@ -387,4 +387,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['국립미술관은 매주 목요일 오후 5~8시에 무료로 입장할 수 있습니다.', 'The National Gallery is free every Thursday from 5 to 8 p.m.', '国立美術館は毎週木曜の17〜20時に無料で入場できます。'],
   },
+  calgary: {
+    p: [
+      ['6~9월', 'June–September', '6〜9月', '밴프·레이크 루이스 등 로키산맥 당일 여행에 가장 좋은 계절입니다.', 'The best season for day trips to Banff, Lake Louise and the Rockies.', 'バンフやレイク・ルイーズなどロッキー山脈への日帰り旅行に最適な季節です。'],
+    ],
+    x: ['7월 초 스탬피드 기간에는 숙소가 빨리 차고 값이 오르니 일찍 예약하세요.', 'Book early for the early-July Stampede, when hotels fill and prices jump.', '7月初めのスタンピード期間は宿がすぐ埋まり料金も上がるので、早めに予約しましょう。'],
+  },
 };

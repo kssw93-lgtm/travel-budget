@@ -167,6 +167,8 @@
 | 뉴올리언스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 오타와 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오타와 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 캘거리 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 캘거리 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 속초 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 통영 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 대구 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1038,6 +1040,9 @@
 | YOW-AT-001 | 오타와 | 캐나다 역사박물관 (성인, 세금 별도) | 25 CAD | A | 예 | 재검증 | [Canadian Museum of History](https://www.historymuseum.ca/plan-your-visit) |
 | YOW-AT-002 | 오타와 | 캐나다 역사박물관 (아동, 세금 별도) | 18 CAD | A | 예 | 재검증 | [Canadian Museum of History](https://www.historymuseum.ca/plan-your-visit) |
 | YOW-AT-003 | 오타와 | 캐나다 국립미술관 (성인, 세금 별도) | 22 CAD | A | 예 | 재검증 | [National Gallery of Canada](https://www.gallery.ca/visit/admission) |
+| YYC-TR-001 | 캘거리 | 캘거리 트랜짓 1회권(90분) | 4 CAD | A | 예 | 재검증 | [Calgary Transit](https://www.calgarytransit.com/news/calgary-transit-fares-changing-for-2026.html) |
+| YYC-AT-001 | 캘거리 | 가솔린 앨리 박물관 (성인, 세금 별도) | 14.95 CAD | A | 예 | 재검증 | [Heritage Park](https://heritagepark.ca/admission/) |
+| YYC-AT-002 | 캘거리 | 가솔린 앨리 박물관 (아동, 세금 별도) | 8.95 CAD | A | 예 | 재검증 | [Heritage Park](https://heritagepark.ca/admission/) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

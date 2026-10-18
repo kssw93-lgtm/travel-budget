@@ -2947,6 +2947,60 @@
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
+    "cityId": "calgary",
+    "nameKo": "진저 비프",
+    "nameEn": "Ginger Beef",
+    "reason": "바삭하게 튀긴 소고기에 달콤 매콤한 생강 소스를 버무린 캘거리 발상 요리",
+    "reasonEn": "Crispy beef in a sweet-spicy ginger sauce, invented in Calgary",
+    "desc": {
+      "ko": "바삭하게 튀긴 소고기에 달콤 매콤한 생강 소스를 버무린 캘거리 발상 요리",
+      "en": "Crispy beef in a sweet-spicy ginger sauce, invented in Calgary",
+      "ja": "カリッと揚げた牛肉に甘辛い生姜ソースを絡めたカルガリー発祥の料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Travel Alberta",
+    "recommendUrl": "https://www.travelalberta.com/articles/you-need-to-try-these-three-iconic-foods-in-calgary",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "calgary",
+    "nameKo": "앨버타 소고기 스테이크",
+    "nameEn": "Alberta Beef Steak",
+    "reason": "캐나다 소고기의 절반을 생산하는 앨버타산 소고기 스테이크",
+    "reasonEn": "Steak from Alberta, source of half of Canada’s beef",
+    "desc": {
+      "ko": "캐나다 소고기의 절반을 생산하는 앨버타산 소고기 스테이크",
+      "en": "Steak from Alberta, source of half of Canada’s beef",
+      "ja": "カナダの牛肉の半分を生産するアルバータ産牛肉のステーキ"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Calgary",
+    "recommendUrl": "https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/best-steakhouses-in-calgary",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "calgary",
+    "nameKo": "시저 칵테일",
+    "nameEn": "Caesar",
+    "reason": "1969년 캘거리에서 탄생한 토마토·조개 주스 칵테일",
+    "reasonEn": "Tomato-clam cocktail invented in Calgary in 1969",
+    "desc": {
+      "ko": "1969년 캘거리에서 탄생한 토마토·조개 주스 칵테일",
+      "en": "Tomato-clam cocktail invented in Calgary in 1969",
+      "ja": "1969年にカルガリーで生まれたトマトとクラムのジュースのカクテル"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Travel Alberta",
+    "recommendUrl": "https://www.travelalberta.com/articles/you-need-to-try-these-three-iconic-foods-in-calgary",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "cancun",
     "nameKo": "코치니타 피빌",
     "nameEn": "Cochinita Pibil",

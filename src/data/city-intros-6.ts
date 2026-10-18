@@ -478,4 +478,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['다운타운(센트럴)', 'Downtown (Centretown)', 'ダウンタウン（セントラル）', 'O-트레인 역이 가깝고 국회의사당과 운하에 접근하기 쉽습니다.', 'Close to O-Train stations, Parliament and the canal.', 'Oトレインの駅に近く、国会議事堂や運河へ行きやすいです。'],
     ],
   },
+  calgary: {
+    o: ['캐나다 앨버타주의 중심 도시로, 차로 약 1시간 반 거리의 밴프 국립공원과 로키산맥으로 가는 관문입니다. 7월의 카우보이 축제 스탬피드와 앨버타 소고기, 진저 비프로 유명합니다.', 'Alberta’s main city and gateway to Banff National Park and the Rockies, about 1.5 hours away; famous for the July Stampede cowboy festival, Alberta beef and ginger beef.', 'カナダ・アルバータ州の中心都市で、車で約1時間半のバンフ国立公園やロッキー山脈への玄関口です。7月のカウボーイ祭り「スタンピード」やアルバータ牛、ジンジャービーフで有名です。'],
+    d: [2, 3],
+    s: [
+      ['다운타운', 'Downtown', 'ダウンタウン', '캘거리 타워와 스티븐 애비뉴가 가깝고, 무료 구간이 있는 경전철(C-트레인)이 지납니다.', 'Near the Calgary Tower and Stephen Avenue, on the C-Train.', 'カルガリー・タワーやスティーブン・アベニューに近く、ライトレール（Cトレイン）が通ります。'],
+      ['벨트라인', 'Beltline', 'ベルトライン', '식당과 바가 많은 다운타운 남쪽 지역입니다.', 'The restaurant-and-bar district just south of downtown.', '飲食店やバーが多いダウンタウン南側の地区です。'],
+    ],
+  },
 };

@@ -424,4 +424,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'ottawa:p1': 'https://ottawatourism.ca/en/see-and-do/beavertails',
   'ottawa:p2': 'https://ottawatourism.ca/en/see-and-do/beavertails',
   'ottawa:x': 'https://www.gallery.ca/visit/admission',
+  'calgary:p1': 'https://www.travelalberta.com/articles/you-need-to-try-these-three-iconic-foods-in-calgary',
+  'calgary:x': 'https://www.travelalberta.com/articles/best-things-to-eat-calgary-stampede',
 };

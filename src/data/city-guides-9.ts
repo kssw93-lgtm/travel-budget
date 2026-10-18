@@ -773,4 +773,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: O-트레인 4호선으로 사우스 키스역까지 간 뒤 2호선으로 갈아타 시내로 갑니다. 일반 1회 요금으로 환승 시간 안에 이어서 탈 수 있습니다.', 'Airport to city: take O-Train Line 4 to South Keys and change to Line 2; the regular single fare covers the transfer.', '空港から市内へ：Oトレイン4号線でサウス・キーズ駅まで行き、2号線に乗り換えます。通常の1回運賃で乗り換え時間内なら続けて乗れます。'],
     ],
   },
+  calgary: {
+    h: [
+      ['헤리티지 파크·가솔린 앨리 박물관', 'Heritage Park / Gasoline Alley Museum', 'ヘリテージ・パーク／ガソリン・アレー博物館', '캐나다 서부 개척 시대 마을을 재현한 공원으로, 클래식카 박물관인 가솔린 앨리는 일 년 내내 엽니다(마을은 계절 운영).', 'A recreated pioneer village of western Canada; the Gasoline Alley vintage-car museum is open year-round (the village is seasonal).', 'カナダ西部開拓時代の村を再現した公園で、クラシックカーの博物館ガソリン・アレーは一年中開いています（村は季節営業）。'],
+      ['진저 비프', 'Ginger beef', 'ジンジャービーフ', '1970년대 캘거리의 중식당에서 처음 만든 바삭한 소고기 튀김 요리입니다.', 'Crispy sweet-spicy beef, created in a Calgary Chinese restaurant in the 1970s.', '1970年代にカルガリーの中華料理店で生まれた、カリッと揚げた甘辛い牛肉料理です。'],
+      ['앨버타 소고기 스테이크', 'Alberta beef steak', 'アルバータ牛のステーキ', '캐나다 소고기의 절반을 생산하는 앨버타의 스테이크를 1972년부터 영업한 스테이크 하우스 등에서 맛볼 수 있습니다.', 'Alberta produces half of Canada’s beef — try it at long-running steakhouses.', 'カナダの牛肉の半分を生産するアルバータのステーキを、老舗ステーキハウスなどで味わえます。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 GST(5%)와 팁이 빠져 있습니다. 앨버타는 주 판매세가 없어 세금 부담이 적은 편이고, 팁은 15~18%가 일반적입니다.', 'Menu prices exclude 5% GST and tip; Alberta has no provincial sales tax, and a 15–18% tip is usual.', '飲食店のメニュー価格にはGST（5%）とチップが含まれていません。アルバータ州は州の売上税がないため税負担が軽めで、チップは15〜18%が一般的です。'],
+    ],
+  },
 };

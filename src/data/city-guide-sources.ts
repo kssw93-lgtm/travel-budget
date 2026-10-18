@@ -1084,4 +1084,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'ottawa:h3': 'https://ottawatourism.ca/en/see-and-do/beavertails',
   'ottawa:t1': 'https://www.ontario.ca/document/harmonized-sales-tax-hst',
   'ottawa:t2': 'https://www.octranspo.com/en/our-services/o-train-network/line-4/',
+  'calgary:h1': 'https://heritagepark.ca/admission/',
+  'calgary:h2': 'https://www.travelalberta.com/articles/you-need-to-try-these-three-iconic-foods-in-calgary',
+  'calgary:h3': 'https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/best-steakhouses-in-calgary',
+  'calgary:t1': 'https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html',
 };

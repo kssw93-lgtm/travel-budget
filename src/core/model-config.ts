@@ -96,6 +96,7 @@ export const MENU_SURCHARGE: Record<string, { tax: number; drinkTax?: number; ti
   'san-diego': { tax: 0.0775, tip: [0.18, 0.2], taxSource: 'CDTFA — San Diego 7.750% (state 7.25% + San Diego County district 0.50%)' },
   montreal: { tax: 0.14975, tip: [0.15, 0.18], taxSource: 'Canada Revenue Agency GST 5% + Revenu Québec QST 9.975%' },
   seattle: { tax: 0.1055, tip: [0.18, 0.2], taxSource: 'Washington DOR — Seattle combined 10.55% (state 6.5% + local 4.05%)' },
+  calgary: { tax: 0.05, tip: [0.15, 0.18], taxSource: 'Canada Revenue Agency GST 5% (Alberta has no provincial sales tax)' },
   ottawa: { tax: 0.13, tip: [0.15, 0.18], taxSource: 'Ontario — Harmonized Sales Tax 13%' },
   toronto: { tax: 0.13, tip: [0.15, 0.18], taxSource: 'Ontario — Harmonized Sales Tax 13%' },
   chicago: { tax: 0.1075, tip: [0.18, 0.2], taxSource: 'Chicago 10.25% sales tax (state 6.25% + Cook County 1.75% + city 1.25% + RTA 1%) + City of Chicago restaurant tax 0.5%' },

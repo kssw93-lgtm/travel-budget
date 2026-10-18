@@ -41,6 +41,10 @@
 | 발렌시아 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 보르도 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 보르도 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 함부르크 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 함부르크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 퀸스타운 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 퀸스타운 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 교토 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오키나와 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 나고야 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
@@ -925,6 +929,17 @@
 | LUZ-AT-002 | 루체른 | 필라투스 크린스↔정상 왕복(여름) (성인) | 84 CHF | A | 예 | 재검증 | [Pilatus-Bahnen](https://pilatus.ch/en/railway-cableways/prices) |
 | LUZ-AT-003 | 루체른 | 리기 산악열차 1일권 (성인) | 84 CHF | A | 예 | 재검증 | [Rigi Bahnen](https://www.rigi.ch/en/inform/q-a) |
 | LUZ-AT-004 | 루체른 | 리기 산악열차 (아동, 성인 동반) | 0 CHF | A | 예 | 재검증 | [Rigi Bahnen](https://www.rigi.ch/en/inform/prices/discounts-for-individuals) |
+| HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
+| HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
+| HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
+| HAM-AT-003 | 함부르크 | 함부르크 미술관 (성인) | 18 EUR | A | 예 | 재검증 | [Hamburger Kunsthalle](https://www.hamburger-kunsthalle.de/en/prices-tickets-vouchers) |
+| HAM-AT-004 | 함부르크 | 함부르크 미술관 (아동) | 0 EUR | A | 예 | 재검증 | [Hamburger Kunsthalle](https://www.hamburger-kunsthalle.de/en/prices-tickets-vouchers) |
+| HAM-AT-005 | 함부르크 | 엘프필하모니 플라자 (성인) | 5 EUR | A | 예 | 재검증 | [Elbphilharmonie](https://www.elbphilharmonie.de/en/faq) |
+| ZQN-TR-001 | 퀸스타운 | 퀸스타운 오버스 1회(비카드~현금) | 2.5~10 NZD | A | 예 | 재검증 | [Otago Regional Council](https://www.orc.govt.nz/orbus/fares) |
+| ZQN-AT-001 | 퀸스타운 | 스카이라인 곤돌라 왕복 (성인) | 69 NZD | A | 예 | 재검증 | [Skyline Queenstown](https://queenstown.skyline.co.nz/things-to-do/queenstown-gondola/gondola-prices/) |
+| ZQN-AT-002 | 퀸스타운 | 스카이라인 곤돌라 왕복 (아동) | 48 NZD | A | 예 | 재검증 | [Skyline Queenstown](https://queenstown.skyline.co.nz/things-to-do/queenstown-gondola/gondola-prices/) |
+| ZQN-AT-003 | 퀸스타운 | TSS 언슬로 호수 유람(1.5시간) | 129 NZD | A | 예 | 재검증 | [RealNZ](https://www.realnz.com/en/experiences/day-cruises/tss-earnslaw-lake-cruises/) |
+| ZQN-AT-004 | 퀸스타운 | 월터 피크 농장 투어(유람선 포함) | 139 NZD | A | 예 | 재검증 | [RealNZ](https://www.realnz.com/en/experiences/tss-earnslaw-walter-peak-experiences/walter-peak-farm-tours/) |
 | GRX-TR-001 | 그라나다 | 그라나다 시내버스 1회권 | 1.6 EUR | A | 예 | 재검증 | [Turismo de Granada](https://turismo.granada.org/es/bus-urbano) |
 | GRX-AT-001 | 그라나다 | 알람브라 일반 입장(낮) (성인) | 21~22.27 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://tickets.alhambra-patronato.es/producto/alhambra-general/) |
 | GRX-AT-002 | 그라나다 | 알람브라 (아동) | 0 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://www.alhambra-patronato.es/notas-prensa/la-alhambra-actualiza-sus-tarifas-en-agosto) |

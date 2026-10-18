@@ -140,4 +140,18 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['11~2월은 비가 잦으니 우산을 챙기고 실내 명소(시테 뒤 뱅·박물관)를 섞어 일정을 짜세요.', 'November–February is often rainy; bring an umbrella and mix in indoor sights like the Cité du Vin and museums.', '11〜2月は雨が多いので傘を持ち、シテ・デュ・ヴァンや博物館など屋内の名所も組み合わせましょう。'],
   },
+  hamburg: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '강변 산책로와 항구 유람선, 일요일 아침 어시장을 즐기기 좋은 계절입니다.', 'The season for riverside walks, harbour cruises and the Sunday-morning fish market.', '川沿いの散策や港の遊覧船、日曜朝の魚市場を楽しむのに良い季節です。'],
+      ['11월 말~12월 크리스마스 마켓', 'Late November–December (Christmas markets)', '11月末〜12月（クリスマスマーケット）', '시청 광장을 비롯해 시내 곳곳에 크리스마스 마켓이 들어섭니다.', 'Christmas markets fill the town hall square and other spots across the centre.', '市庁舎広場をはじめ市内各地にクリスマスマーケットが立ちます。'],
+    ],
+    x: ['미니어처 원더랜드는 날에 따라 대기가 몇 시간까지 길어지니 시간 지정 입장권을 미리 사 두세요.', 'Miniatur Wunderland can mean hours of queuing on busy days; buy a timed ticket in advance.', 'ミニチュア・ワンダーランドは日によって数時間待ちになるので、時間指定券を事前に買っておきましょう。'],
+  },
+  queenstown: {
+    p: [
+      ['12~2월(여름)', 'December–February (summer)', '12〜2月（夏）', '해가 길어 하이킹·호수 유람·와이너리 투어를 하루에 여러 개 즐길 수 있습니다.', 'Long days for hiking, lake cruises and winery tours in a single day.', '日が長く、ハイキングや湖の遊覧、ワイナリー巡りを一日に何本も楽しめます。'],
+      ['6~9월(겨울)', 'June–September (winter)', '6〜9月（冬）', '코로넷 피크·리마커블스 등 근교 스키장 시즌입니다.', 'Ski season at nearby fields such as Coronet Peak and The Remarkables.', 'コロネットピークやリマーカブルズなど近郊のスキー場のシーズンです。'],
+    ],
+    x: ['밀퍼드 사운드 투어는 날씨로 취소되는 일이 있으니 여행 앞쪽 날짜에 잡아 두면 다시 시도할 여유가 생깁니다.', 'Milford Sound trips can be cancelled for weather, so book one early in your stay to leave room for a retry.', 'ミルフォード・サウンドのツアーは天候で中止になることがあるので、旅程の前半に入れておくと再挑戦の余裕ができます。'],
+  },
 };

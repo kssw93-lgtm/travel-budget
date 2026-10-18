@@ -194,4 +194,19 @@ export const INTROS_6: Record<string, Intro> = {
       ['샤르트롱', 'Chartrons', 'シャルトロン', '옛 와인 상인 거리로, 앤티크 가게와 카페가 많고 시테 뒤 뱅과 가깝습니다.', 'The old wine merchants’ quarter of antique shops and cafés, near the Cité du Vin.', 'かつてのワイン商人の街で、骨董店やカフェが多く、シテ・デュ・ヴァンに近いです。'],
     ],
   },
+  hamburg: {
+    o: ['엘베강 하구의 독일 제2의 도시이자 큰 항구 도시로, 붉은 벽돌 창고 거리 슈파이허슈타트가 유네스코 세계유산입니다. 유리 파도 모양의 콘서트홀 엘프필하모니와 세계 최대 철도 모형 전시장이 있습니다.', 'Germany’s second city and great port on the Elbe, whose red-brick Speicherstadt warehouse district is UNESCO-listed; home to the wave-topped Elbphilharmonie and the world’s largest model railway.', 'エルベ川河口にあるドイツ第2の都市で大きな港町です。赤れんが倉庫街シュパイヒャーシュタットは世界遺産で、波形のガラス屋根のコンサートホール、エルプフィルハーモニーや世界最大の鉄道模型展示があります。'],
+    d: [2, 3],
+    s: [
+      ['중앙역·알스터 호수 주변', 'Around the Hauptbahnhof / Alster', '中央駅・アルスター湖周辺', '공항 S반과 장거리 열차가 서고, 시청과 쇼핑가가 가깝습니다.', 'Airport S-Bahn and long-distance trains stop here, near the town hall and shops.', '空港へのSバーンや長距離列車が停まり、市庁舎や繁華街に近いです。'],
+      ['장크트 파울리·항구 주변', 'St. Pauli / harbour', 'ザンクト・パウリ・港周辺', '란둥스브뤼켄 선착장과 레퍼반 거리가 가까운 활기찬 동네입니다.', 'A lively area near the Landungsbrücken piers and the Reeperbahn.', 'ランドゥングスブリュッケンの桟橋やレーパーバーンに近いにぎやかな地区です。'],
+    ],
+  },
+  queenstown: {
+    o: ['와카티푸 호수와 서던 알프스에 둘러싸인 뉴질랜드 남섬의 휴양 도시로, 번지점프와 제트보트 같은 액티비티의 본고장입니다. 겨울에는 스키, 여름에는 하이킹과 와이너리 투어를 즐깁니다.', 'A resort town on the South Island ringed by Lake Wakatipu and the Southern Alps, the home of bungy and jet boats; ski in winter, hike and tour wineries in summer.', 'ワカティプ湖とサザンアルプスに囲まれたニュージーランド南島のリゾート地で、バンジージャンプやジェットボートの本場です。冬はスキー、夏はハイキングやワイナリー巡りを楽しめます。'],
+    d: [3, 4],
+    s: [
+      ['퀸스타운 시내', 'Queenstown town centre', 'クイーンズタウン中心部', '호숫가 상점가와 곤돌라 승강장이 걸어서 닿는 중심가로, 투어 버스 대부분이 여기서 출발합니다.', 'The lakefront centre, walkable to the gondola, where most tour buses depart.', '湖畔の商店街やゴンドラ乗り場へ歩いて行ける中心部で、ツアーバスの多くがここから出発します。'],
+    ],
+  },
 };

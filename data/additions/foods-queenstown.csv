@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+뉴질랜드,퀸스타운,센트럴 오타고 피노 누아,Central Otago Pinot Noir,퀸스타운 근교 와이너리에서 나는 대표 레드 와인,중,,대기,Destination Queenstown,https://www.queenstownnz.co.nz/things-to-do/wineries-and-breweries/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+뉴질랜드,퀸스타운,뉴질랜드 양고기,New Zealand Lamb,"근교 목장에서 기른 양고기를 쓴 요리로, 퀸스타운 식당에서 많이 냅니다",고,,대기,Destination Queenstown,https://www.queenstownnz.co.nz/stories/post/fine-dining-in-queenstown/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+뉴질랜드,퀸스타운,사슴고기 파이,Venison Pie,사슴고기를 넣어 구운 뉴질랜드식 파이,저,,대기,Destination Queenstown,https://www.queenstownnz.co.nz/stories/post/72-food-filled-hours-in-queenstown/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

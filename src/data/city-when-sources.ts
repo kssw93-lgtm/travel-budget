@@ -321,4 +321,10 @@ export const WHEN_SOURCES: Record<string, string> = {
   'bordeaux:p1': 'https://www.bordeaux-tourisme.com/gastronomie/produits-locaux',
   'bordeaux:p2': 'https://www.bordeaux-tourisme.com/parcours/balade-gourmande.html',
   'bordeaux:x': 'https://www.bordeaux-tourisme.com/gastronomie/produits-locaux',
+  'hamburg:p1': 'https://www.hamburg.com/visitors/dine-and-drink/fischbroetchen-1022232',
+  'hamburg:p2': 'https://www.hamburg.com/visitors/dine-and-drink/food-20500',
+  'hamburg:x': 'https://www.miniatur-wunderland.de/tickets',
+  'queenstown:p1': 'https://www.queenstownnz.co.nz/things-to-do/wineries-and-breweries/',
+  'queenstown:p2': 'https://www.queenstownnz.co.nz/stories/post/10-things-to-do-in-spring/',
+  'queenstown:x': 'https://www.newzealand.com/au/feature/road-trip-christchurch-to-queenstown/',
 };

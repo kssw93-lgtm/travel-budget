@@ -4537,5 +4537,35 @@
     "ko": "캐러멜 설탕을 입힌 바삭한 아몬드 과자",
     "en": "Almonds in crunchy caramelised sugar",
     "ja": "カラメル状の砂糖をまとったカリカリのアーモンド菓子"
+  },
+  "hamburg:Fischbrötchen": {
+    "ko": "청어·훈제연어 등을 양파·피클과 함께 빵에 끼운 함부르크 대표 간식",
+    "en": "Bread roll filled with herring or smoked salmon, onions and pickles",
+    "ja": "ニシンやスモークサーモンを玉ねぎ・ピクルスとパンに挟んだハンブルク名物の軽食"
+  },
+  "hamburg:Labskaus": {
+    "ko": "소금에 절인 고기와 감자를 으깨 비트·달걀프라이를 곁들인 뱃사람 음식",
+    "en": "Sailors’ mash of salted meat and potato with beetroot and a fried egg",
+    "ja": "塩漬け肉とじゃがいもをつぶし、ビーツや目玉焼きを添えた船乗りの料理"
+  },
+  "hamburg:Franzbrötchen": {
+    "ko": "계피와 설탕을 넣어 구운 함부르크식 빵",
+    "en": "Cinnamon-sugar pastry typical of Hamburg",
+    "ja": "シナモンと砂糖を入れて焼いたハンブルク風の菓子パン"
+  },
+  "queenstown:Central Otago Pinot Noir": {
+    "ko": "퀸스타운 근교 와이너리에서 나는 대표 레드 와인",
+    "en": "The signature red wine of the wineries around Queenstown",
+    "ja": "クイーンズタウン近郊のワイナリーで造られる代表的な赤ワイン"
+  },
+  "queenstown:New Zealand Lamb": {
+    "ko": "근교 목장에서 기른 양고기를 쓴 요리로, 퀸스타운 식당에서 많이 냅니다",
+    "en": "Lamb from nearby high-country stations, on many local menus",
+    "ja": "近郊の牧場で育った羊肉を使った料理で、クイーンズタウンの多くの店で出されます"
+  },
+  "queenstown:Venison Pie": {
+    "ko": "사슴고기를 넣어 구운 뉴질랜드식 파이",
+    "en": "New Zealand-style pie filled with venison",
+    "ja": "鹿肉を入れて焼いたニュージーランド風のパイ"
   }
 }

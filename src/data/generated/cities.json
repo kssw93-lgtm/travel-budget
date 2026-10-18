@@ -190,6 +190,26 @@
     "stage": "파일럿"
   },
   {
+    "id": "hamburg",
+    "country": "독일",
+    "countryEn": "Germany",
+    "nameKo": "함부르크",
+    "nameEn": "Hamburg",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "queenstown",
+    "country": "뉴질랜드",
+    "countryEn": "New Zealand",
+    "nameKo": "퀸스타운",
+    "nameEn": "Queenstown",
+    "currency": "NZD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "kyoto",
     "country": "일본",
     "countryEn": "Japan",

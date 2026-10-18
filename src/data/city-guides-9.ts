@@ -379,4 +379,27 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 보르도 메리냐크 공항은 트램 A선 공항 정류장에서 시내로 갈 수 있고, 일반 1회권으로 탑니다.', 'Airport to city: tram line A runs from the Aéroport stop at Bordeaux-Mérignac into town on a standard single ticket.', '空港から市内へ：ボルドー・メリニャック空港のトラムA線「空港」停留所から市内へ行け、通常の1回券で乗れます。'],
     ],
   },
+  hamburg: {
+    h: [
+      ['엘프필하모니 플라자', 'Elbphilharmonie Plaza', 'エルプフィルハーモニーのプラザ', '콘서트홀 중간층의 둘레 전망대로, 항구와 시내가 360도로 보입니다. 2026년 10월부터 유료(시간 지정권)입니다.', 'The wraparound viewing deck halfway up the concert hall, with 360° harbour views; ticketed since October 2026.', 'コンサートホール中層の周回展望デッキで、港と市内を360度見渡せます。2026年10月から有料（時間指定券）です。'],
+      ['슈파이허슈타트', 'Speicherstadt', 'シュパイヒャーシュタット', '운하를 따라 붉은 벽돌 창고가 늘어선 유네스코 세계유산 지구로, 저녁 조명이 특히 아름답습니다.', 'UNESCO-listed red-brick warehouses along canals, especially beautiful when lit at night.', '運河沿いに赤れんがの倉庫が並ぶ世界遺産の地区で、夜のライトアップが特に美しいです。'],
+      ['미니어처 원더랜드', 'Miniatur Wunderland', 'ミニチュア・ワンダーランド', '슈파이허슈타트 창고 안에 만든 세계 최대 규모의 철도 모형 전시장으로, 공항 모형에서 비행기가 뜨고 내립니다.', 'The world’s largest model railway inside a Speicherstadt warehouse, where even model planes take off.', 'シュパイヒャーシュタットの倉庫内にある世界最大級の鉄道模型展示で、空港模型では飛行機が離着陸します。'],
+      ['함부르크 미술관(쿤스트할레)', 'Hamburger Kunsthalle', 'ハンブルク美術館', '중앙역 옆의 대형 미술관으로, 중세부터 현대까지 컬렉션을 갖추고 있습니다. 18세 미만은 무료입니다.', 'A major art museum beside the main station spanning the Middle Ages to today; free for under-18s.', '中央駅の隣にある大型美術館で、中世から現代までのコレクションがあります。18歳未満は無料です。'],
+    ],
+    t: [
+      ['항구 페리(62번 등)는 일반 대중교통 승차권으로 탈 수 있어 저렴한 항구 유람 대신 이용하기 좋습니다.', 'Harbour ferries (such as line 62) take regular transit tickets — a cheap way to tour the port.', '港のフェリー（62番など）は通常の公共交通の乗車券で乗れるので、安く港を巡る方法としておすすめです。'],
+      ['공항에서 시내: 함부르크 공항역에서 S반 S1을 타면 중앙역까지 25분 안팎이며, 시내 일반 1회권(AB)으로 탈 수 있습니다.', 'Airport to city: S-Bahn S1 runs from the airport station to the Hauptbahnhof in about 25 minutes on a regular Hamburg AB ticket.', '空港から市内へ：ハンブルク空港駅からSバーンS1で中央駅まで25分ほどで、市内の通常1回券（AB）で乗れます。'],
+    ],
+  },
+  queenstown: {
+    h: [
+      ['스카이라인 곤돌라', 'Skyline Gondola', 'スカイライン・ゴンドラ', '곤돌라로 밥스 피크에 올라 호수와 리마커블스산맥을 내려다보고, 루지도 탈 수 있습니다.', 'Ride up Bob’s Peak for views over the lake and The Remarkables, with a luge track at the top.', 'ゴンドラでボブズピークに上り、湖とリマーカブルズ山脈を見下ろせます。リュージュもあります。'],
+      ['TSS 언슬로 증기선', 'TSS Earnslaw', 'TSSアーンズロー号', '1912년부터 와카티푸 호수를 운항하는 증기선으로, 건너편 월터 피크 농장 투어와 묶을 수 있습니다.', 'A steamship sailing Lake Wakatipu since 1912, combinable with a Walter Peak farm tour.', '1912年からワカティプ湖を運航する蒸気船で、対岸のウォルターピーク農場ツアーと組み合わせられます。'],
+      ['애로타운', 'Arrowtown', 'アロータウン', '골드러시 시대 거리 풍경이 남은 작은 마을로, 가을(4~5월) 단풍이 특히 아름답습니다.', 'A gold-rush-era village, especially beautiful in autumn colours (April–May).', 'ゴールドラッシュ時代の街並みが残る小さな町で、秋（4〜5月）の紅葉が特に美しいです。'],
+    ],
+    t: [
+      ['시내버스는 비카드(Bee Card)로 내면 현금보다 훨씬 쌉니다. 버스에서는 신용카드를 받지 않습니다.', 'Buses are far cheaper with a Bee Card than cash, and bank cards are not accepted on board.', '市バスはビーカード（Bee Card）で払うと現金よりずっと安くなります。車内ではクレジットカードが使えません。'],
+      ['공항에서 시내: 퀸스타운 공항에서 시내까지는 오버스(Orbus) 버스나 택시로 20분 안팎입니다. 버스는 현금이나 비카드로만 냅니다.', 'Airport to city: Orbus buses or taxis take about 20 minutes into town; buses accept cash or Bee Card only.', '空港から市内へ：クイーンズタウン空港から市内まではオーバス（Orbus）のバスかタクシーで20分ほどです。バスは現金かビーカードのみです。'],
+    ],
+  },
 };

@@ -4367,6 +4367,60 @@
     "note": "GPT 수집(2026-10-12)"
   },
   {
+    "cityId": "hamburg",
+    "nameKo": "피시브뢰트헨",
+    "nameEn": "Fischbrötchen",
+    "reason": "청어·훈제연어 등을 양파·피클과 함께 빵에 끼운 함부르크 대표 간식",
+    "reasonEn": "Bread roll filled with herring or smoked salmon, onions and pickles",
+    "desc": {
+      "ko": "청어·훈제연어 등을 양파·피클과 함께 빵에 끼운 함부르크 대표 간식",
+      "en": "Bread roll filled with herring or smoked salmon, onions and pickles",
+      "ja": "ニシンやスモークサーモンを玉ねぎ・ピクルスとパンに挟んだハンブルク名物の軽食"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Hamburg Tourismus",
+    "recommendUrl": "https://www.hamburg.com/visitors/dine-and-drink/fischbroetchen-1022232",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "hamburg",
+    "nameKo": "랍스카우스",
+    "nameEn": "Labskaus",
+    "reason": "소금에 절인 고기와 감자를 으깨 비트·달걀프라이를 곁들인 뱃사람 음식",
+    "reasonEn": "Sailors’ mash of salted meat and potato with beetroot and a fried egg",
+    "desc": {
+      "ko": "소금에 절인 고기와 감자를 으깨 비트·달걀프라이를 곁들인 뱃사람 음식",
+      "en": "Sailors’ mash of salted meat and potato with beetroot and a fried egg",
+      "ja": "塩漬け肉とじゃがいもをつぶし、ビーツや目玉焼きを添えた船乗りの料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Hamburg Tourismus",
+    "recommendUrl": "https://www.hamburg.com/visitors/dine-and-drink/labskaus-1022236",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "hamburg",
+    "nameKo": "프란츠브뢰트헨",
+    "nameEn": "Franzbrötchen",
+    "reason": "계피와 설탕을 넣어 구운 함부르크식 빵",
+    "reasonEn": "Cinnamon-sugar pastry typical of Hamburg",
+    "desc": {
+      "ko": "계피와 설탕을 넣어 구운 함부르크식 빵",
+      "en": "Cinnamon-sugar pastry typical of Hamburg",
+      "ja": "シナモンと砂糖を入れて焼いたハンブルク風の菓子パン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Hamburg Tourismus",
+    "recommendUrl": "https://www.hamburg-travel.com/blog/hamburg-cuisine-dishes-you-should-definitely-try/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "hanoi",
     "nameKo": "분짜",
     "nameEn": "Bun Cha",
@@ -7941,6 +7995,60 @@
     "priceStatus": "대기",
     "recommendSource": "Québec City Tourism",
     "recommendUrl": "https://www.quebec-cite.com/en/businesses/la-petite-cabane-a-sucre-de-quebec",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "queenstown",
+    "nameKo": "센트럴 오타고 피노 누아",
+    "nameEn": "Central Otago Pinot Noir",
+    "reason": "퀸스타운 근교 와이너리에서 나는 대표 레드 와인",
+    "reasonEn": "The signature red wine of the wineries around Queenstown",
+    "desc": {
+      "ko": "퀸스타운 근교 와이너리에서 나는 대표 레드 와인",
+      "en": "The signature red wine of the wineries around Queenstown",
+      "ja": "クイーンズタウン近郊のワイナリーで造られる代表的な赤ワイン"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Destination Queenstown",
+    "recommendUrl": "https://www.queenstownnz.co.nz/things-to-do/wineries-and-breweries/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "queenstown",
+    "nameKo": "뉴질랜드 양고기",
+    "nameEn": "New Zealand Lamb",
+    "reason": "근교 목장에서 기른 양고기를 쓴 요리로, 퀸스타운 식당에서 많이 냅니다",
+    "reasonEn": "Lamb from nearby high-country stations, on many local menus",
+    "desc": {
+      "ko": "근교 목장에서 기른 양고기를 쓴 요리로, 퀸스타운 식당에서 많이 냅니다",
+      "en": "Lamb from nearby high-country stations, on many local menus",
+      "ja": "近郊の牧場で育った羊肉を使った料理で、クイーンズタウンの多くの店で出されます"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Destination Queenstown",
+    "recommendUrl": "https://www.queenstownnz.co.nz/stories/post/fine-dining-in-queenstown/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "queenstown",
+    "nameKo": "사슴고기 파이",
+    "nameEn": "Venison Pie",
+    "reason": "사슴고기를 넣어 구운 뉴질랜드식 파이",
+    "reasonEn": "New Zealand-style pie filled with venison",
+    "desc": {
+      "ko": "사슴고기를 넣어 구운 뉴질랜드식 파이",
+      "en": "New Zealand-style pie filled with venison",
+      "ja": "鹿肉を入れて焼いたニュージーランド風のパイ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Destination Queenstown",
+    "recommendUrl": "https://www.queenstownnz.co.nz/stories/post/72-food-filled-hours-in-queenstown/",
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {

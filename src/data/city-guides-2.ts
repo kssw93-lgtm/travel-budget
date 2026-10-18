@@ -27,6 +27,7 @@ export const NOTES_2: Record<string, Compact> = {
     t: [
       ['크루즈선이 들어오는 낮 시간에는 구시가지가 매우 붐빕니다. 성벽은 아침 일찍이나 늦은 오후가 좋습니다.', 'Cruise crowds pack the Old Town at midday; walk the walls early or late afternoon.', 'クルーズ船の寄港時間は旧市街が混むので、城壁は朝早くか夕方に。'],
       ['구시가지의 매끈한 돌길과 성벽 계단을 걸을 때는 미끄럼에 주의하고 밑창이 잘 잡히는 신발을 신으세요.', 'Take care on the Old Town\'s smooth stone streets and the city wall steps, and wear shoes with good grip.', '旧市街の滑らかな石畳や城壁の階段では滑らないよう注意し、滑りにくい靴を履いてください。'],
+      ['공항에서 시내: 두브로브니크 공항에서 공항 셔틀버스를 타면 구시가지 필레 문까지 30~40분입니다. 셔틀은 항공편 시간에 맞춰 운행합니다.', 'Airport to city: the airport shuttle bus reaches Pile Gate by the old town in 30–40 minutes and runs in line with flight times.', '空港から市内へ：ドゥブロヴニク空港からシャトルバスで旧市街のピレ門まで30～40分です。便の時間に合わせて運行しています。'],
     ],
   },
   florence: {
@@ -53,6 +54,7 @@ export const NOTES_2: Record<string, Compact> = {
     t: [
       ['GMTA 버스 노선이 있지만 렌터카로 다니는 여행자가 많습니다. 운전은 오른쪽 차선이고, 버스 운행 정보는 미리 확인하세요.', 'GMTA buses run on Guam, but many visitors rent a car; driving is on the right, and check bus schedules in advance.', 'GMTAのバス路線がありますが、レンタカーで回る旅行者が多いです。右側通行で、バスの運行情報は事前に確認を。'],
       ['괌 식당에서는 팁을 남기는 관행이 있지만 선택 사항입니다. 계산서에 서비스료가 이미 붙었는지 확인하세요.', 'Tipping at restaurants in Guam is customary but optional. Check whether a service charge is already on the bill.', 'グアムの飲食店ではチップを渡す習慣がありますが、任意です。会計にサービス料が含まれているか確認しましょう。'],
+      ['공항에서 시내: 괌 공항에서 투몬 호텔 지역까지는 차로 10여 분입니다. 대중교통이 적어 택시·호텔 셔틀·렌터카를 주로 씁니다.', 'Airport to city: Guam\'s airport is about 10 minutes by car from the Tumon hotels; with little public transport, most people use taxis, hotel shuttles or rental cars.', '空港から市内へ：グアム空港からタモンのホテル街まで車で10分ほどです。公共交通が少ないため、タクシー・ホテルのシャトル・レンタカーが主な手段です。'],
     ],
   },
   'ho-chi-minh-city': {
@@ -91,6 +93,7 @@ export const NOTES_2: Record<string, Compact> = {
     t: [
       ['MRT와 경전철(LRT)로 주요 명소를 다닐 수 있고, 교통카드(아이패스 등)를 쓰면 편합니다.', 'The MRT and light rail reach most sights; a transit card such as iPASS is handy.', 'MRTとライトレールで主な名所を回れ、交通カード（iPASSなど）が便利です。'],
       ['치진섬은 페리로 금방 건너가 해산물 거리와 해변을 둘러볼 수 있습니다.', 'Cijin Island is a short ferry ride away for seafood streets and beaches.', '旗津島はフェリーですぐ渡れ、海鮮街とビーチを楽しめます。'],
+      ['공항에서 시내: 가오슝 공항은 MRT 레드라인 공항역과 연결되어 시내와 고속철 쭤잉역까지 바로 갑니다.', 'Airport to city: Kaohsiung Airport connects to the MRT Red Line, which runs into the city and to the HSR Zuoying station.', '空港から市内へ：高雄空港はMRTレッドラインの空港駅につながっていて、市内や高鉄左営駅まで直接行けます。'],
     ],
   },
   'kota-kinabalu': {
@@ -116,6 +119,7 @@ export const NOTES_2: Record<string, Compact> = {
     t: [
       ['성 마리아 성당 탑에서는 매시 정각 나팔 소리(헤이나우)가 울리다 중간에 끊깁니다.', 'Every hour a trumpet call (hejnał) plays from St Mary’s tower and breaks off mid-tune.', '聖マリア教会の塔から毎正時にラッパ（ヘイナウ）が鳴り、途中で途切れます。'],
       ['아우슈비츠·비엘리치카 소금광산은 하루 일정으로 다녀오며, 시간 지정 예약이 필요합니다.', 'Auschwitz and the Wieliczka Salt Mine are day trips that need timed bookings.', 'アウシュヴィッツとヴィエリチカ岩塩坑は日帰りで、時間指定予約が必要です。'],
+      ['공항에서 시내: 크라쿠프 공항역에서 열차를 타면 중앙역(크라쿠프 그우브니)까지 20분 안팎입니다.', 'Airport to city: trains from Kraków Airport station reach Kraków Główny in about 20 minutes.', '空港から市内へ：クラクフ空港駅から列車でクラクフ中央駅まで20分ほどです。'],
     ],
   },
   lisbon: {
@@ -157,6 +161,7 @@ export const NOTES_2: Record<string, Compact> = {
     t: [
       ['대형 리조트들이 운영하는 무료 셔틀버스로 국경·페리 터미널과 시내를 오갈 수 있습니다.', 'Free shuttle buses run by the big resorts link the border, ferry terminals and town.', '大型リゾートの無料シャトルバスで国境やフェリーターミナルと市内を行き来できます。'],
       ['마카오 파타카와 홍콩달러를 함께 쓰지만, 거스름돈은 파타카로 받는 경우가 많습니다.', 'Hong Kong dollars are accepted, but change usually comes in patacas.', '香港ドルも使えますが、お釣りはパタカで返ってくることが多いです。'],
+      ['공항에서 시내: 마카오 공항은 타이파섬에 있어 경전철(LRT) 타이파선 공항역에서 타이파와 코타이로 갈 수 있습니다. 카지노 호텔 무료 셔틀도 많습니다.', 'Airport to city: Macau Airport is on Taipa, with an LRT Taipa Line station serving Taipa and Cotai; many casino hotels also run free shuttles.', '空港から市内へ：マカオ空港はタイパ島にあり、LRTタイパ線の空港駅からタイパやコタイへ行けます。カジノホテルの無料シャトルも多いです。'],
     ],
   },
 };

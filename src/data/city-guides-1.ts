@@ -62,6 +62,7 @@ export const NOTES_1: Record<string, Compact> = {
     t: [
       ['오클랜드 시내버스는 현금을 받지 않습니다. AT HOP 카드나 비접촉 카드를 쓰고, 기차·페리의 종이 승차권과 요금 차이를 노선별로 확인하세요.', 'Auckland buses do not accept cash. Use an AT HOP card or contactless payment, and check route-specific fares against paper tickets for trains and ferries.', 'オークランドのバスでは現金払いができません。AT HOPカードかタッチ決済を使い、鉄道・フェリーの紙の切符との運賃差は路線ごとに確認しましょう。'],
       ['자외선이 매우 강한 지역이라 흐린 날에도 선크림과 모자를 챙기세요.', 'UV levels are very high, so wear sunscreen and a hat even on cloudy days.', '紫外線がとても強いので、曇りの日も日焼け止めと帽子を。'],
+      ['공항에서 시내: 오클랜드 공항에서는 에어포트링크 버스로 푸히누이역에 가서 열차로 시내(브리토마트)로 가거나, 택시·셔틀을 이용합니다.', 'Airport to city: take the AirportLink bus to Puhinui station and a train to Britomart downtown, or use a taxi or shuttle.', '空港から市内へ：オークランド空港からエアポートリンクのバスでプヒヌイ駅へ行き、列車で中心部(ブリトマート)へ向かうか、タクシー・シャトルを使います。'],
     ],
   },
   bali: {
@@ -147,6 +148,7 @@ export const NOTES_1: Record<string, Compact> = {
     t: [
       ['시내 이동은 붉은 합승 트럭(썽태우)이 편합니다. 타기 전에 목적지를 말하고 요금을 정하세요.', 'Red shared trucks (songthaew) are the easy way around; agree the destination and fare first.', '市内移動は赤い乗り合いトラック（ソンテウ）が便利。乗る前に行き先と料金を決めましょう。'],
       ['2~4월은 산불 연기로 공기가 탁해지는 경우가 있으니 마스크를 챙기세요.', 'February to April can bring smoky haze from burning; pack a mask.', '2〜4月は野焼きの煙で空気が悪くなることがあるので、マスクを持参しましょう。'],
+      ['공항에서 시내: 치앙마이 공항은 구시가지에서 차로 15분 안팎이라 택시나 차량 호출 앱으로 금방 갑니다.', 'Airport to city: Chiang Mai Airport is about 15 minutes by car from the old city, so a taxi or ride-hail app gets you there quickly.', '空港から市内へ：チェンマイ空港は旧市街から車で15分ほどなので、タクシーや配車アプリですぐに行けます。'],
     ],
   },
   'da-lat': {
@@ -172,6 +174,7 @@ export const NOTES_1: Record<string, Compact> = {
     t: [
       ['여름이 특히 더운 도시로 알려져 있어, 7~8월에는 한낮 야외 일정을 줄이는 것이 좋습니다.', 'Daegu is known for very hot summers; keep midday outdoor plans light in July and August.', '夏が特に暑い街として知られるので、7〜8月は日中の屋外予定を控えめに。'],
       ['납작만두는 서문시장에서, 곱창·막창 구이는 안지랑 곱창골목에서 찾아보세요.', 'Look for flat dumplings at Seomun Market and grilled gopchang or makchang in Anjirang Gopchang Alley.', '納作餃子（ナプチャクマンドゥ）は西門市場で、コプチャンやマクチャンの焼き物はアンジラン・コプチャン通りで探してみましょう。'],
+      ['공항에서 시내: 대구공항은 도심과 가까워 택시로 금방이고, 지하철 1호선 아양교역까지 걸어가 지하철을 탈 수도 있습니다.', 'Airport to city: Daegu Airport is close to downtown by taxi, or walk to Ayanggyo station on Metro Line 1.', '空港から市内へ：大邱空港は都心に近くタクシーですぐです。地下鉄1号線の峨洋橋駅まで歩いて地下鉄に乗ることもできます。'],
     ],
   },
 };

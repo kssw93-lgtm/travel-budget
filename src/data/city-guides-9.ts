@@ -12,6 +12,7 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['드레스덴의 명물 과자 슈톨렌(Stollen)은 크리스마스 시즌의 대표 간식이라 마켓에서 꼭 맛볼 만합니다.', 'Dresden Stollen, the city’s famous fruit loaf, is the classic Christmas treat to try at the market.', 'ドレスデン名物のシュトレンはクリスマスシーズンの定番菓子なので、マーケットでぜひ味わいましょう。'],
+      ['공항에서 시내: 드레스덴 공항 지하역에서 S반 S2를 타면 노이슈타트역과 중앙역까지 20분 안팎입니다.', 'Airport to city: S-Bahn S2 from the station beneath Dresden Airport reaches Dresden-Neustadt and the Hauptbahnhof in about 20 minutes.', '空港から市内へ：ドレスデン空港の地下駅からSバーンS2でノイシュタット駅・中央駅まで20分ほどです。'],
     ],
   },
   nuremberg: {
@@ -25,6 +26,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['손가락만 한 뉘른베르크 소시지 3개를 빵에 끼운 「드라이 임 베클라」가 대표 길거리 음식입니다.', '“Drei im Weggla”, three small Nuremberg sausages in a roll, is the classic street snack.', '小さなニュルンベルク・ソーセージ3本をパンに挟んだ「ドライ・イム・ヴェクラ」が定番の屋台グルメです。'],
       ['향신료 과자 렙쿠헨(Lebkuchen)이 이 도시의 명물이라 선물용으로 인기가 많습니다.', 'Lebkuchen, spiced gingerbread, is the city’s speciality and a popular gift.', 'スパイス菓子のレープクーヘンが街の名物で、お土産として人気です。'],
+      ['공항에서 시내: 뉘른베르크 공항에서 지하철 U2를 타면 중앙역까지 약 12분입니다.', 'Airport to city: the U2 underground runs from Nuremberg Airport to the Hauptbahnhof in about 12 minutes.', '空港から市内へ：ニュルンベルク空港から地下鉄U2線で中央駅まで約12分です。'],
     ],
   },
   cologne: {
@@ -38,6 +40,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['쾰른 맥주 쾰슈(Kölsch)는 작은 잔에 나오고, 잔 위에 코스터를 올려 두면 그만 마시겠다는 뜻입니다.', 'Kölsch beer comes in small glasses; put your coaster on top to signal you are done.', 'ケルンのビール「ケルシュ」は小さなグラスで出され、コースターをグラスの上に置くと「もう十分」の合図です。'],
       ['중앙역이 대성당 바로 옆이라 기차로 도착하면 바로 관광을 시작할 수 있습니다.', 'The main station is right next to the cathedral, so you can start sightseeing straight off the train.', '中央駅が大聖堂のすぐ隣なので、列車で着いてすぐ観光を始められます。'],
+      ['공항에서 시내: 쾰른/본 공항 역에서 S반이나 지역 열차를 타면 쾰른 중앙역까지 15분 안팎입니다.', 'Airport to city: S-Bahn and regional trains from Cologne Bonn Airport station reach Köln Hbf in about 15 minutes.', '空港から市内へ：ケルン・ボン空港駅からSバーンや地域列車でケルン中央駅まで15分ほどです。'],
     ],
   },
   strasbourg: {
@@ -52,6 +55,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['알자스의 대표 음식으로 슈크루트와 타르트 플랑베를 맛보고, 지역 와인도 함께 즐겨 보세요.', 'Try Alsatian specialities such as choucroute and tarte flambée, along with local wines.', 'アルザスの名物料理、シュークルートやタルト・フランベを、地元のワインと一緒に味わってみましょう。'],
       ['크리스마스 마켓 기간에는 그랑드 일의 차량 통행과 출입이 제한될 수 있습니다. 트램·도보·P+R 이용 안내를 확인하세요.', 'During the Christmas market, vehicle access to Grande Île is restricted and entry checks may apply. Check the official advice on trams, walking and park-and-ride.', 'クリスマスマーケット期間中はグラン・ディルへの車両通行が制限され、入口で検査が行われる場合があります。トラム・徒歩・パーク＆ライドの公式案内を確認しましょう。'],
       ['스트라스부르와 콜마르는 기차로 연결되어 있어 두 도시를 함께 둘러보는 일정을 짤 수 있습니다.', 'Strasbourg and Colmar are connected by train, so you can plan a visit to both cities.', 'ストラスブールとコルマールは鉄道で結ばれているため、両方を訪れる旅程を組めます。'],
+      ['공항에서 시내: 스트라스부르 엔츠하임 공항역에서 셔틀 열차를 타면 스트라스부르역까지 약 9분입니다. 파리에서 오면 TGV로 바로 스트라스부르역에 내리는 경우가 많습니다.', 'Airport to city: the shuttle train from Entzheim Airport station reaches Strasbourg station in about 9 minutes; many visitors arrive straight from Paris by TGV instead.', '空港から市内へ：ストラスブール・エンツハイム空港駅からシャトル列車でストラスブール駅まで約9分です。パリからはTGVで直接ストラスブール駅に着く人も多いです。'],
     ],
   },
   colmar: {
@@ -65,6 +69,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['콜마르 구시가지에는 운하와 목조 가옥이 모여 있어 도보로 둘러보기 좋습니다.', 'Colmar’s old town has canal-side streets and half-timbered houses that are easy to explore on foot.', 'コルマールの旧市街には運河沿いの通りや木組みの家が集まり、徒歩で散策しやすいです。'],
       ['콜마르 인근 에기스하임에서도 크리스마스 마켓이 열려 알자스 마을의 계절 장식을 즐길 수 있습니다.', 'Nearby Eguisheim also holds a Christmas market, offering a chance to see seasonal decorations in an Alsatian village.', '近郊のエギスハイムでもクリスマスマーケットが開かれ、アルザスの村の季節の飾りを楽しめます。'],
+      ['공항에서 시내: 콜마르에서 가까운 큰 공항은 바젤-뮐루즈 유로에어포트입니다. 공항버스로 생루이역에 가서 콜마르행 열차를 타거나, 스트라스부르에서 기차로 30분 안팎이면 닿습니다.', 'Airport to city: the nearest major airport is EuroAirport Basel-Mulhouse; take the airport bus to Saint-Louis station and a train to Colmar, or come by train from Strasbourg in about 30 minutes.', '空港から市内へ：コルマールに近い大きな空港はバーゼル・ミュルーズ・ユーロエアポートです。空港バスでサン・ルイ駅へ行きコルマール行きの列車に乗るか、ストラスブールから列車で30分ほどです。'],
     ],
   },
   salzburg: {
@@ -78,6 +83,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['「고요한 밤」이 1818년 처음 공연된 근교 오베른도르프의 기념 예배당을 방문해 보세요.', 'Visit the memorial chapel in nearby Oberndorf, where “Silent Night” was first performed in 1818.', '「きよしこの夜」が1818年に初演された、近郊オーベルンドルフの記念礼拝堂を訪ねてみましょう。'],
       ['구시가지는 걸어서 다닐 수 있을 만큼 작고, 잘츠부르크 카드가 있으면 여러 명소와 교통을 함께 이용할 수 있습니다.', 'The old town is compact and walkable, and the Salzburg Card bundles many sights with transport.', '旧市街は歩いて回れるほどコンパクトで、ザルツブルクカードで多くの名所と交通をまとめて利用できます。'],
+      ['공항에서 시내: 잘츠부르크 공항에서 트롤리버스(2·10번 등)를 타면 중앙역과 구시가지 방면으로 갑니다.', 'Airport to city: trolleybuses (lines 2 and 10, among others) run from Salzburg Airport to the main station and towards the old town.', '空港から市内へ：ザルツブルク空港からトロリーバス(2番・10番など)で中央駅や旧市街方面へ行けます。'],
     ],
   },
   zagreb: {
@@ -92,6 +98,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['구시가지(고르니 그라드)까지는 짧은 푸니쿨라가 다녀 언덕을 쉽게 오를 수 있습니다.', 'A short funicular climbs to the Upper Town, saving you the uphill walk.', '旧市街（グォルニ・グラード）までは短いケーブルカーで上れます。'],
       ['시내 이동은 트램이 편하고, 표는 탈 때 개찰기에 찍어야 합니다.', 'Trams are the easiest way around; validate your ticket when you board.', '市内移動はトラムが便利で、乗車時に刻印が必要です。'],
       ['크로아티아는 유로를 쓰니 따로 환전할 필요가 없습니다.', 'Croatia uses the euro, so no separate currency is needed.', 'クロアチアはユーロを使うので、別途両替は不要です。'],
+      ['공항에서 시내: 자그레브 공항에서 공항버스를 타면 시내 버스터미널까지 갑니다. 터미널에서 트램으로 중심가로 이어집니다.', 'Airport to city: the airport bus runs from Zagreb Airport to the main bus station, where trams continue to the centre.', '空港から市内へ：ザグレブ空港から空港バスで市内のバスターミナルへ行き、トラムで中心部へ向かえます。'],
     ],
   },
   rovaniemi: {
@@ -119,6 +126,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['헬싱키와 탈린은 페리로 약 2시간 거리입니다. 두 도시를 함께 여행한다면 공식 운항 시간표를 확인하세요.', 'Ferries between Helsinki and Tallinn take about two hours. Check the operators’ schedules if visiting both cities.', 'ヘルシンキとタリンはフェリーで約2時間です。両方を訪れる場合は運航会社の時刻表を確認しましょう。'],
       ['에스토니아에서는 대부분의 가게가 직불·신용카드와 비접촉 결제를 받습니다.', 'Most businesses in Estonia accept debit and credit cards, including contactless payments.', 'エストニアでは多くの店舗がデビットカードやクレジットカード、非接触決済に対応しています。'],
+      ['공항에서 시내: 탈린 공항에서 트램 4번을 타면 구시가지 근처까지 20분 안팎입니다.', 'Airport to city: tram 4 runs from Tallinn Airport to near the old town in about 20 minutes.', '空港から市内へ：タリン空港からトラム4番で旧市街の近くまで20分ほどです。'],
     ],
   },
   edinburgh: {
@@ -201,6 +209,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['라인강을 건너는 작은 나룻배(페리)는 강물의 흐름만으로 움직이는 바젤의 명물입니다.', 'Basel’s little Rhine ferries cross the river powered only by the current.', 'ライン川を渡る小さな渡し船は川の流れだけで動くバーゼルの名物です。'],
       ['프랑스·독일과 맞닿은 국경 도시라 이웃 나라 마을까지 대중교통으로 갈 수 있지만, 노선과 운행은 바젤 관광청 안내에서 확인하세요.', 'A border city with France and Germany; public transport reaches neighbouring towns, but check routes and schedules on Basel Tourism’s guide.', 'フランス・ドイツと接する国境の街で隣国の町まで公共交通で行けますが、路線と運行はバーゼル観光局の案内で確認を。'],
+      ['공항에서 시내: 바젤-뮐루즈 유로에어포트의 스위스 쪽 출구에서 50번 버스를 타면 바젤 SBB역까지 약 20분입니다.', 'Airport to city: bus 50 from the Swiss side of EuroAirport Basel-Mulhouse runs to Basel SBB station in about 20 minutes.', '空港から市内へ：バーゼル・ミュルーズ・ユーロエアポートのスイス側出口から50番バスでバーゼルSBB駅まで約20分です。'],
     ],
   },
   riga: {
@@ -214,6 +223,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['구시가지는 작아서 걸어서 둘러보기 좋습니다.', 'The Old Town is compact and easy to explore on foot.', '旧市街は小さく、歩いて回りやすいです。'],
       ['구시가지와 중앙시장은 가까워 한 번에 묶어 둘러볼 수 있습니다. 탈린·빌뉴스로 가는 버스는 운행일과 시간을 운영사에서 확인하세요.', 'The Old Town and Central Market are close enough to combine; check dates and times with the bus operator for trips to Tallinn or Vilnius.', '旧市街と中央市場は近いので一緒に回れます。タリンやヴィリニュスへのバスは運行日と時間を運行会社で確認を。'],
+      ['공항에서 시내: 리가 공항에서 22번 버스를 타면 구시가지 근처까지 갑니다. 택시는 공항 공식 승차장에서 타세요.', 'Airport to city: bus 22 runs from Riga Airport to near the old town; take taxis from the official rank.', '空港から市内へ：リガ空港から22番バスで旧市街の近くまで行けます。タクシーは空港の公式乗り場から乗りましょう。'],
     ],
   },
   gdansk: {
@@ -227,6 +237,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['발트해 연안이라 날씨가 날마다 달라지니, 출발 직전에 일기예보를 확인하세요.', 'Weather on the Baltic coast changes day to day, so check the forecast just before you go.', 'バルト海沿岸は日によって天気が変わるので、出発直前に天気予報を確認しましょう。'],
       ['소폿·그디니아와 함께 「트리시티」로 불리며 근교 열차로 오갈 수 있습니다. 운행 정보는 지역 열차 운영사에서 확인하세요.', 'With Sopot and Gdynia it forms the “Tricity”, linked by local trains; check the regional operator’s timetable.', 'ソポト・グディニャとともに「三連都市」と呼ばれ、近郊列車で行き来できます。運行情報は地域鉄道会社で確認を。'],
+      ['공항에서 시내: 그단스크 공항역에서 PKM 열차를 타면 그단스크 브제슈치역에 닿고, 여기서 근교열차로 구시가지 쪽 중앙역까지 이어집니다.', 'Airport to city: PKM trains from Gdańsk Airport station run to Gdańsk Wrzeszcz, where suburban trains continue to Gdańsk Główny by the old town.', '空港から市内へ：グダニスク空港駅からPKM列車でグダニスク・ヴジェシュチ駅へ行き、近郊列車で旧市街近くの中央駅へ向かえます。'],
     ],
   },
   bruges: {
@@ -240,6 +251,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['브뤼셀에서 기차로 당일치기가 가능하지만, 저녁의 조용한 운하를 보려면 1박을 추천합니다. 소요 시간은 SNCB 시간표에서 확인하세요.', 'Bruges is an easy train day trip from Brussels, but stay a night to see the quiet canals in the evening; check journey times on the SNCB timetable.', 'ブリュッセルから電車で日帰りもできますが、夜の静かな運河を見るなら1泊がおすすめです。所要時間はSNCBの時刻表で確認を。'],
       ['구시가지는 걸어서 충분히 다닐 수 있습니다.', 'The historic centre is easily walkable.', '旧市街は歩いて十分に回れます。'],
+      ['공항에서 시내: 브뤼헤에는 큰 공항이 없어 보통 브뤼셀 공항에서 기차를 탑니다. 브뤼셀에서 갈아타면 1시간 반 안팎입니다.', 'Airport to city: Bruges has no major airport, so most travellers take the train from Brussels Airport, changing in Brussels — about 1.5 hours.', '空港から市内へ：ブルッヘには大きな空港がないため、ブリュッセル空港から列車で向かうのが一般的です。ブリュッセルで乗り換えて1時間半ほどです。'],
     ],
   },
   harbin: {
@@ -264,6 +276,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['부숑(bouchon)은 리옹 전통 요리를 내는 소박한 식당입니다. 인기 있는 곳은 저녁 예약을 해 두세요.', 'Bouchons are casual restaurants serving traditional Lyon dishes; book popular ones for dinner.', 'ブションはリヨンの伝統料理を出す気取らない食堂です。人気店は夕食を予約しておきましょう。'],
       ['빛의 축제 기간에는 중심가 일부가 보행자 전용이 되고 대중교통이 붐비니 걸어서 다닐 계획을 세우세요.', 'During the Festival of Lights parts of the centre become pedestrian-only and transit is packed, so plan to walk.', '光の祭典の期間は中心部の一部が歩行者専用になり公共交通も混むので、歩いて回る計画を立てましょう。'],
+      ['공항에서 시내: 리옹 생텍쥐페리 공항에서 론익스프레스 트램을 타면 파르디외역까지 30분이 채 안 걸립니다.', 'Airport to city: the Rhônexpress tram runs from Lyon Saint-Exupéry Airport to Part-Dieu station in under 30 minutes.', '空港から市内へ：リヨン・サンテグジュペリ空港からローヌエクスプレスのトラムでパールデュー駅まで30分かかりません。'],
     ],
   },
   'quebec-city': {

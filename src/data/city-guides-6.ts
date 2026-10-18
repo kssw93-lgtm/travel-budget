@@ -67,6 +67,7 @@ export const NOTES_6: Record<string, Compact> = {
     t: [
       ['막탄과 세부 시내 사이는 다리가 막히는 시간이 많아 이동 시간을 넉넉히 잡으세요.', 'The bridges between Mactan and Cebu City jam often; allow extra time.', 'マクタン島とセブ市内を結ぶ橋は渋滞しやすいので、時間に余裕を。'],
       ['남부 투어는 새벽에 출발하는 경우가 많아 전날 일찍 쉬는 것이 좋습니다.', 'Southern tours often leave before dawn; rest early the night before.', '南部ツアーは早朝出発が多いので、前日は早めに休みましょう。'],
+      ['공항에서 시내: 막탄-세부 공항에서는 택시나 차량 호출로 막탄 리조트나 세부 시내로 갑니다. 다리를 건너는 세부 시내 방면은 막히는 시간이 많습니다.', 'Airport to city: from Mactan–Cebu Airport take a taxi or ride-hail to the Mactan resorts or Cebu City; traffic over the bridges into the city is often heavy.', '空港から市内へ：マクタン・セブ空港からはタクシーや配車サービスでマクタンのリゾートやセブ市内へ向かいます。橋を渡る市内方面は渋滞しがちです。'],
     ],
   },
   honolulu: {
@@ -94,6 +95,7 @@ export const NOTES_6: Record<string, Compact> = {
     t: [
       ['높은 산은 날씨가 빨리 바뀌니 출발 전 산 정상 실시간 화면을 확인하세요.', 'Mountain weather changes fast; check the summit webcams before you go.', '山の天気は変わりやすいので、出発前に山頂のライブカメラを確認しましょう。'],
       ['스위스 트래블 패스나 지역 할인 카드가 산악 열차 요금을 줄여 주는 경우가 많습니다.', 'Swiss Travel Pass or regional cards often reduce mountain railway fares.', 'スイストラベルパスや地域割引カードで登山鉄道が安くなることが多いです。'],
+      ['공항에서 시내: 취리히 공항역에서 열차를 타면 보통 베른에서 갈아타 인터라켄까지 2시간 남짓입니다.', 'Airport to city: trains from Zurich Airport reach Interlaken in a little over two hours, usually changing in Bern.', '空港から市内へ：チューリッヒ空港駅から列車で、ふつうベルンで乗り換えてインターラーケンまで2時間あまりです。'],
     ],
   },
   kobe: {
@@ -107,6 +109,7 @@ export const NOTES_6: Record<string, Compact> = {
     t: [
       ['고베규는 인증을 받은 소고기만 이름을 쓸 수 있어, 가게에 인증서가 걸려 있는지 보면 좋습니다.', 'Only certified beef may be called Kobe beef; look for the certificate in shops.', '神戸ビーフは認定牛だけが名乗れるので、店の認定証を確認しましょう。'],
       ['오사카에서 전철로 30분 남짓이라 당일치기로 다녀오는 여행자가 많습니다.', 'About 30 minutes by train from Osaka, so many visit as a day trip.', '大阪から電車で30分ほどなので、日帰りで訪れる人が多いです。'],
+      ['공항에서 시내: 고베 공항에서는 포트라이너로 산노미야까지 20분 안팎입니다. 간사이 공항에 내렸다면 고베-간사이 공항 베이 셔틀(배)로 바다를 건너 고베 공항으로 갈 수도 있습니다.', 'Airport to city: the Port Liner runs from Kobe Airport to Sannomiya in about 20 minutes. From Kansai Airport, the Kobe–Kansai Airport Bay Shuttle ferry crosses to Kobe Airport.', '空港から市内へ：神戸空港からポートライナーで三宮まで20分ほどです。関西空港からは神戸－関空ベイ・シャトル(船)で海を渡って神戸空港へ行く方法もあります。'],
     ],
   },
   hiroshima: {
@@ -146,6 +149,7 @@ export const NOTES_6: Record<string, Compact> = {
     t: [
       ['야경은 해가 진 직후가 가장 붐비니 시간을 조금 늦추면 여유롭게 볼 수 있습니다.', 'The night view is busiest right after sunset; go a little later for space.', '夜景は日没直後が最も混むので、少し遅らせるとゆっくり見られます。'],
       ['시내 이동은 노면전차가 편합니다.', 'Streetcars are the easy way around town.', '市内の移動は路面電車が便利です。'],
+      ['공항에서 시내: 하코다테 공항에서 JR 하코다테역 방면 셔틀버스를 타면 약 20분이고, 고료카쿠 방면 버스도 있습니다.', 'Airport to city: the shuttle bus from Hakodate Airport to JR Hakodate Station takes about 20 minutes; there is also a bus towards Goryokaku.', '空港から市内へ：函館空港からJR函館駅方面のシャトルバスで約20分です。五稜郭方面のバスもあります。'],
     ],
   },
 };

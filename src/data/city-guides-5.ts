@@ -132,6 +132,7 @@ export const NOTES_5: Record<string, Compact> = {
     t: [
       ['히쓰마부시는 그대로, 양념을 얹어서, 육수를 부어서 세 가지 방법으로 나눠 먹습니다.', 'Hitsumabushi is eaten three ways: plain, with condiments, then with broth.', 'ひつまぶしは、そのまま、薬味をのせて、だしをかけての3通りで食べます。'],
       ['나고야 카페에는 오전에 음료를 주문하면 토스트·달걀 등을 곁들이는 모닝 서비스가 있습니다. 가게에 따라 음료 가격에 포함되거나 추가 요금이 붙습니다.', 'Nagoya cafés have a morning service that pairs a drink with toast, eggs or similar food. Depending on the café, it may be included with the drink or cost a little extra.', '名古屋の喫茶店には、朝にドリンクを注文するとトーストやゆで卵などが付くモーニングサービスがあります。ドリンク代に含まれる店も、追加料金がかかる店もあります。'],
+      ['공항에서 시내: 주부 센트레어 공항에서 메이테쓰 특급 뮤스카이를 타면 나고야역까지 30분 안팎입니다.', 'Airport to city: the Meitetsu μSKY limited express runs from Chubu Centrair to Nagoya Station in about 30 minutes.', '空港から市内へ：中部国際空港(セントレア)から名鉄特急ミュースカイで名古屋駅まで30分ほどです。'],
     ],
   },
   hanoi: {

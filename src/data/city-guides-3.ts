@@ -65,6 +65,7 @@ export const NOTES_3: Record<string, Compact> = {
     t: [
       ['파타야 시내에서는 해변도로와 세컨드로드를 다니는 합승 트럭 \'썽태우\'를 이용할 수 있습니다. 탑승 전 노선과 요금을 확인하세요.', 'Shared pickup trucks called songthaews serve Pattaya\'s Beach Road and Second Road. Confirm the route and fare before boarding.', 'パタヤ市内ではビーチロードとセカンドロードを走る乗合トラック「ソンテウ」を利用できます。乗る前に経路と料金を確認しましょう。'],
       ['제트스키 등을 빌릴 때는 탑승 전 기체 상태를 사진으로 남기고, 여권을 보증금 대신 맡기지 마세요.', 'Before renting a jet ski, photograph its condition and do not leave your passport as a deposit.', 'ジェットスキーなどを借りる前に機体の状態を写真に残し、パスポートを保証金代わりに預けないでください。'],
+      ['공항에서 시내: 파타야에는 큰 국제공항이 없어 보통 방콕 수완나품 공항에서 공항버스나 택시로 2시간 안팎 이동합니다.', 'Airport to city: Pattaya has no major international airport, so most travellers come from Bangkok\'s Suvarnabhumi by airport bus or taxi, about two hours.', '空港から市内へ：パタヤには大きな国際空港がないため、バンコクのスワンナプーム空港から空港バスやタクシーで2時間ほどかけて向かうのが一般的です。'],
     ],
   },
   'phu-quoc': {
@@ -88,6 +89,7 @@ export const NOTES_3: Record<string, Compact> = {
     t: [
       ['5~10월은 우기로 서쪽 해변 파도가 높아지는 날이 있으니 붉은 깃발이 꽂히면 수영을 피하세요.', 'May to October is the wet season; avoid swimming when red flags are up on the west coast.', '5〜10月は雨季で西側の波が高くなる日があるので、赤旗が立ったら泳がないでください。'],
       ['해변 사이를 택시로 이동할 때는 태국 교통부가 승인한 차량 호출 앱의 요금을 미리 비교해 보세요.', 'For taxi trips between beaches, compare fares in ride-hailing apps approved by Thailand\'s transport department before booking.', 'ビーチ間をタクシーで移動する際は、タイ運輸省が認可した配車アプリで事前に料金を比べましょう。'],
+      ['공항에서 시내: 푸껫 공항은 섬 북쪽에 있어 남쪽 해변이나 올드타운까지 차로 1시간 안팎입니다. 공항버스·미니밴·택시 창구가 도착층에 있습니다.', 'Airport to city: Phuket Airport is in the north of the island, about an hour by road to the southern beaches or Old Town; airport bus, minivan and taxi counters are in arrivals.', '空港から市内へ：プーケット空港は島の北部にあり、南のビーチやオールドタウンまで車で1時間ほどです。到着階に空港バス・ミニバン・タクシーの窓口があります。'],
     ],
   },
   qingdao: {
@@ -124,6 +126,7 @@ export const NOTES_3: Record<string, Compact> = {
     t: [
       ['사이판은 버스 노선과 운행 상태가 제한적이거나 변동될 수 있습니다. 관광지 이동 전 렌터카·택시·숙소 셔틀과 현재 버스 운행 여부를 확인하세요.', 'Bus routes and service on Saipan may be limited or change. Before visiting attractions, check current bus operations and options such as a rental car, taxi, or hotel shuttle.', 'サイパンのバス路線や運行状況は限られ、変更されることがあります。観光地へ向かう前に運行状況とレンタカー・タクシー・ホテル送迎を確認しましょう。'],
       ['사이판에서도 식당 서비스에 팁을 주는 관행이 있습니다. 계산서의 서비스료를 확인하고 팁 여부를 정하세요.', 'Restaurant tipping is customary on Saipan. Check the bill for a service charge before deciding whether to leave a tip.', 'サイパンでも飲食店のサービスにチップを渡す習慣があります。会計にサービス料が含まれているか確認してから判断しましょう。'],
+      ['공항에서 시내: 사이판 공항에서 가라판 호텔 지역까지는 차로 20분 안팎입니다. 대중교통이 거의 없어 택시·호텔 셔틀·렌터카를 이용합니다.', 'Airport to city: Saipan\'s airport is about 20 minutes by car from the Garapan hotels; there is almost no public transport, so use taxis, hotel shuttles or rental cars.', '空港から市内へ：サイパン空港からガラパンのホテル街まで車で20分ほどです。公共交通はほとんどないため、タクシー・ホテルのシャトル・レンタカーを使います。'],
     ],
   },
   'san-francisco': {

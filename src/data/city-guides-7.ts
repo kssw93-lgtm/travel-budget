@@ -13,6 +13,7 @@ export const NOTES_7: Record<string, Compact> = {
     t: [
       ['호텔 요금 외에 리조트 요금이 1박마다 따로 붙는 곳이 많습니다.', 'Many hotels add a nightly resort fee on top of the room rate.', '多くのホテルで宿泊料とは別に1泊ごとのリゾートフィーがかかります。'],
       ['한여름 낮 기온이 매우 높아 물을 자주 마시고 야외 활동은 아침·저녁에 하세요.', 'Summer days are extremely hot; drink water and go out in the morning or evening.', '真夏の日中は非常に暑いので、水をこまめに飲み、屋外は朝夕に。'],
+      ['공항에서 시내: 해리 리드 공항은 스트립과 가까워 택시·차량 호출로 금방입니다. 차량 호출 승차장은 터미널마다 정해져 있으니 공항 안내 표지판을 따르세요.', 'Airport to city: Harry Reid Airport is close to the Strip by taxi or ride-hail; each terminal has a designated ride-share pickup area, so follow the airport signs.', '空港から市内へ：ハリー・リード空港はストリップに近く、タクシーや配車サービスですぐです。配車の乗り場はターミナルごとに決まっているので、空港の案内表示に従ってください。'],
     ],
   },
   barcelona: {
@@ -136,6 +137,7 @@ export const NOTES_7: Record<string, Compact> = {
     t: [
       ['겨울에는 길이 매우 미끄러우니 미끄럼 방지 신발이나 덧신을 준비하세요.', 'Winter sidewalks are icy; wear non-slip shoes or grips.', '冬は道がとても滑るので、滑り止め付きの靴を用意しましょう。'],
       ['미소 라멘·수프 카레·징기스칸(양고기 구이)이 삿포로 대표 음식입니다.', 'Miso ramen, soup curry and Genghis Khan lamb barbecue are local classics.', '味噌ラーメン、スープカレー、ジンギスカンが札幌の名物です。'],
+      ['공항에서 시내: 신치토세 공항 지하역에서 JR 쾌속 에어포트를 타면 삿포로역까지 40분 안팎입니다. 눈이 많은 날은 운행이 늦어질 수 있습니다.', 'Airport to city: the JR Rapid Airport train from New Chitose\'s underground station reaches Sapporo in about 40 minutes; heavy snow can cause delays.', '空港から市内へ：新千歳空港の地下駅からJR快速エアポートで札幌駅まで40分ほどです。大雪の日は遅れることがあります。'],
     ],
   },
   'nha-trang': {

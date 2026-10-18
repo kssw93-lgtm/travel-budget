@@ -102,6 +102,7 @@ export const MENU_SURCHARGE: Record<string, { tax: number; drinkTax?: number; ti
   ottawa: { tax: 0.13, tip: [0.15, 0.18], taxSource: 'Ontario — Harmonized Sales Tax 13%' },
   toronto: { tax: 0.13, tip: [0.15, 0.18], taxSource: 'Ontario — Harmonized Sales Tax 13%' },
   chicago: { tax: 0.1075, tip: [0.18, 0.2], taxSource: 'Chicago 10.25% sales tax (state 6.25% + Cook County 1.75% + city 1.25% + RTA 1%) + City of Chicago restaurant tax 0.5%' },
+  nashville: { tax: 0.0975, tip: [0.18, 0.2], taxSource: 'Tennessee DOR — state 7% on prepared food + Davidson County 2.75% (incl. 0.5% transit surcharge, from Feb 2025)' },
   austin: { tax: 0.0825, tip: [0.18, 0.2], taxSource: 'Texas Comptroller — Austin combined 8.25% (state 6.25% + city 1% + Capital Metro 1%)' },
   boston: { tax: 0.07, tip: [0.18, 0.2], taxSource: 'Massachusetts DOR — meals 6.25% + local option 0.75%' },
   // 아래 셋은 숨김(조사 중) 도시. 공개하면 바로 적용된다. 세율은 퍼플렉시티가 세무청 공식 세율표에서 확인(2026-10-14)

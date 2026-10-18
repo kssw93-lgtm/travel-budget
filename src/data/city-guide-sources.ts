@@ -1106,4 +1106,9 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'hobart:h2': 'https://www.discovertasmania.com.au/things-to-do/shopping-and-markets/salamancamarket/',
   'hobart:h3': 'https://www.discovertasmania.com.au/off-season/plan-your-off-season/your-guide-to-tasmanian-oysters/',
   'hobart:t1': 'https://www.metrotas.com.au/keep-moving/',
+  'nashville:h1': 'https://www.countrymusichalloffame.org/select-your-experience',
+  'nashville:h2': 'https://www.visitmusiccity.com/things-to-do-in-nashville/food-drink/hot-chicken',
+  'nashville:h3': 'https://www.visitmusiccity.com/things-to-do-in-nashville/food-drink/meat-and-three',
+  'nashville:t1': 'https://www.tn.gov/content/dam/tn/revenue/documents/notices/sales/sales24-11.pdf',
+  'nashville:t2': 'https://www.wegotransit.com/ride/transit-services/airport/',
 };

@@ -518,4 +518,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['시내(CBD)', 'Hobart CBD', 'ホバート中心部（CBD）', '공항버스 정류장과 상점가가 있는 중심가입니다.', 'The centre with shops and airport-bus stops.', '空港バスの乗り場や商店街がある中心街です。'],
     ],
   },
+  nashville: {
+    o: ['테네시주의 주도이자 ‘뮤직 시티’로 불리는 컨트리 음악의 수도로, 브로드웨이 거리의 술집마다 라이브 공연이 이어집니다. 매콤한 핫 치킨과 남부식 ‘미트 앤드 스리’ 식당으로 유명합니다.', 'Tennessee’s capital and “Music City”, home of country music, where live bands play in every honky-tonk on Broadway; famous for fiery hot chicken and Southern meat-and-three diners.', 'テネシー州の州都で「ミュージック・シティ」と呼ばれるカントリー音楽の都です。ブロードウェイ通りの酒場ごとにライブ演奏が続きます。辛いホットチキンや南部の「ミート・アンド・スリー」食堂で有名です。'],
+    d: [2, 3],
+    s: [
+      ['다운타운·브로드웨이', 'Downtown / Broadway', 'ダウンタウン・ブロードウェイ', '라이브 음악 술집과 컨트리 음악 명예의 전당이 걸어서 닿습니다.', 'A walk to the honky-tonks and the Country Music Hall of Fame.', 'ライブ音楽の酒場やカントリー音楽殿堂へ歩いて行けます。'],
+      ['더 걸치', 'The Gulch', 'ザ・ガルチ', '식당과 바가 모인 다운타운 남서쪽의 새 지역입니다.', 'A newer district of restaurants and bars southwest of downtown.', '飲食店やバーが集まるダウンタウン南西の新しい地区です。'],
+    ],
+  },
 };

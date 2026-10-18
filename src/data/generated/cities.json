@@ -1060,6 +1060,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "nashville",
+    "country": "미국",
+    "countryEn": "United States",
+    "nameKo": "내슈빌",
+    "nameEn": "Nashville",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "nara",
     "country": "일본",
     "countryEn": "Japan",

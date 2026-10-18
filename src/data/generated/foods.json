@@ -8310,6 +8310,60 @@
     "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
   },
   {
+    "cityId": "nashville",
+    "nameKo": "핫 치킨",
+    "nameEn": "Hot Chicken",
+    "reason": "카이엔 고추 양념을 듬뿍 바른 매운 프라이드치킨",
+    "reasonEn": "Fried chicken coated in fiery cayenne paste",
+    "desc": {
+      "ko": "카이엔 고추 양념을 듬뿍 바른 매운 프라이드치킨",
+      "en": "Fried chicken coated in fiery cayenne paste",
+      "ja": "カイエンペッパーのペーストをたっぷり塗った辛いフライドチキン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Music City",
+    "recommendUrl": "https://www.visitmusiccity.com/things-to-do-in-nashville/food-drink/hot-chicken",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "nashville",
+    "nameKo": "미트 앤드 스리",
+    "nameEn": "Meat and Three",
+    "reason": "고기 요리 하나와 곁들이 세 가지를 고르는 남부식 한 끼",
+    "reasonEn": "A Southern plate of one meat and three sides",
+    "desc": {
+      "ko": "고기 요리 하나와 곁들이 세 가지를 고르는 남부식 한 끼",
+      "en": "A Southern plate of one meat and three sides",
+      "ja": "肉料理1品とおかず3品を選ぶ南部の定食"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Music City",
+    "recommendUrl": "https://www.visitmusiccity.com/things-to-do-in-nashville/food-drink/meat-and-three",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "nashville",
+    "nameKo": "프라이드치킨",
+    "nameEn": "Southern Fried Chicken",
+    "reason": "미트 앤드 스리 식당의 대표 메뉴인 남부식 프라이드치킨",
+    "reasonEn": "Southern fried chicken, a meat-and-three staple",
+    "desc": {
+      "ko": "미트 앤드 스리 식당의 대표 메뉴인 남부식 프라이드치킨",
+      "en": "Southern fried chicken, a meat-and-three staple",
+      "ja": "ミート・アンド・スリー食堂の定番、南部風フライドチキン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Music City",
+    "recommendUrl": "https://www.visitmusiccity.com/things-to-do-in-nashville/food-drink/meat-and-three",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "new-orleans",
     "nameKo": "검보",
     "nameEn": "Gumbo",

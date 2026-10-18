@@ -420,4 +420,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['MONA는 시간 지정 입장권을 미리 예약하고, 10월 22일부터 입장료가 오르니 방문일 요금을 확인하세요.', 'Book MONA timed entry ahead; prices rise from 22 October, so check the rate for your date.', 'MONAは時間指定の入場券を事前に予約しましょう。10月22日から入場料が上がるので、訪問日の料金を確認してください。'],
   },
+  nashville: {
+    p: [
+      ['9~10월', 'September–October', '9〜10月', '더위가 가라앉아 브로드웨이 라이브 음악과 야외 식사를 즐기기 좋습니다.', 'The heat eases — great for Broadway live music and outdoor dining.', '暑さが和らぎ、ブロードウェイのライブ音楽や屋外での食事を楽しめます。'],
+      ['4~5월', 'April–May', '4〜5月', '따뜻한 봄 날씨로 시내 관광에 좋습니다.', 'Warm spring days for sightseeing.', '暖かい春の気候で市内観光に向いています。'],
+    ],
+    x: ['주말 브로드웨이는 매우 붐비니, 조용히 즐기려면 평일 저녁에 가 보세요.', 'Broadway gets packed at weekends; try a weeknight for a calmer evening.', '週末のブロードウェイは非常に混むので、落ち着いて楽しむなら平日の夜に行きましょう。'],
+  },
 };

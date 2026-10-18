@@ -825,4 +825,15 @@ export const NOTES_9: Record<string, Compact> = {
       ['메트로 태즈메이니아 버스는 2027년 6월 30일까지 무료로 운행합니다. 공항에서 시내까지는 스카이버스(약 30분)를 타며, 운전기사에게는 신용카드로만 낼 수 있습니다.', 'Metro Tasmania buses are free until 30 June 2027. From the airport, SkyBus takes about 30 minutes; drivers accept card only.', 'メトロ・タスマニアのバスは2027年6月30日まで無料です。空港から市内へはスカイバス（約30分）が便利で、運転手にはクレジットカードでのみ支払えます。'],
     ],
   },
+  nashville: {
+    h: [
+      ['컨트리 음악 명예의 전당·박물관', 'Country Music Hall of Fame and Museum', 'カントリー音楽殿堂・博物館', '컨트리 음악의 역사와 스타들의 의상·악기를 전시하는 박물관으로, 5세 미만은 무료입니다.', 'The story of country music, with stars’ costumes and instruments; under-fives are free.', 'カントリー音楽の歴史やスターの衣装・楽器を展示する博物館で、5歳未満は無料です。'],
+      ['내슈빌 핫 치킨', 'Nashville hot chicken', 'ナッシュビル・ホットチキン', '고추 양념을 듬뿍 바른 매운 프라이드치킨으로, 약 100년 전 한 가게에서 시작되었다고 합니다.', 'Fried chicken slathered in cayenne paste, said to date back nearly a century.', '唐辛子ペーストをたっぷり塗った辛いフライドチキンで、約100年前にある店で生まれたといわれます。'],
+      ['미트 앤드 스리', 'Meat-and-three', 'ミート・アンド・スリー', '고기 요리 하나와 곁들이 세 가지를 고르는 남부식 가정식 식당입니다.', 'Southern diners where you pick one meat and three sides.', '肉料理を1品とおかずを3品選ぶ南部の家庭料理の食堂です。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 세금(9.75%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude 9.75% sales tax and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（9.75%）とチップが含まれていません。チップは18〜20%が一般的です。'],
+      ['공항에서 시내: 위고(WeGo) 18번 버스를 타면 다운타운 환승센터까지 가며, 요금은 2달러(2시간 유효)입니다. 주말 운행 시간은 시간표를 확인하세요.', 'Airport to city: WeGo route 18 runs to the downtown transit centre for $2 (valid 2 hours); check weekend times.', '空港から市内へ：WeGoの18番バスでダウンタウンの乗り換えセンターまで行け、運賃は2ドル（2時間有効）です。週末の運行時間は時刻表で確認しましょう。'],
+    ],
+  },
 };

@@ -5152,5 +5152,20 @@
     "ko": "방목해 기른 태즈메이니아산 소고기 요리",
     "en": "Pasture-raised Tasmanian beef",
     "ja": "放牧で育てたタスマニア産牛肉の料理"
+  },
+  "nashville:Hot Chicken": {
+    "ko": "카이엔 고추 양념을 듬뿍 바른 매운 프라이드치킨",
+    "en": "Fried chicken coated in fiery cayenne paste",
+    "ja": "カイエンペッパーのペーストをたっぷり塗った辛いフライドチキン"
+  },
+  "nashville:Meat and Three": {
+    "ko": "고기 요리 하나와 곁들이 세 가지를 고르는 남부식 한 끼",
+    "en": "A Southern plate of one meat and three sides",
+    "ja": "肉料理1品とおかず3品を選ぶ南部の定食"
+  },
+  "nashville:Southern Fried Chicken": {
+    "ko": "미트 앤드 스리 식당의 대표 메뉴인 남부식 프라이드치킨",
+    "en": "Southern fried chicken, a meat-and-three staple",
+    "ja": "ミート・アンド・スリー食堂の定番、南部風フライドチキン"
   }
 }

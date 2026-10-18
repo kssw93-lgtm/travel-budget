@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+미국,내슈빌,핫 치킨,Hot Chicken,카이엔 고추 양념을 듬뿍 바른 매운 프라이드치킨,저,,대기,Visit Music City,https://www.visitmusiccity.com/things-to-do-in-nashville/food-drink/hot-chicken,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+미국,내슈빌,미트 앤드 스리,Meat and Three,고기 요리 하나와 곁들이 세 가지를 고르는 남부식 한 끼,저,,대기,Visit Music City,https://www.visitmusiccity.com/things-to-do-in-nashville/food-drink/meat-and-three,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+미국,내슈빌,프라이드치킨,Southern Fried Chicken,미트 앤드 스리 식당의 대표 메뉴인 남부식 프라이드치킨,저,,대기,Visit Music City,https://www.visitmusiccity.com/things-to-do-in-nashville/food-drink/meat-and-three,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

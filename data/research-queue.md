@@ -210,6 +210,8 @@
 | 로스앤젤레스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 라스베이거스 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 라스베이거스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 내슈빌 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 내슈빌 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 타이중 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 코타키나발루 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 장가계 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1065,6 +1067,9 @@
 | HBA-TR-001 | 호바트 | 메트로 태즈메이니아 버스(무료 운행) | 0 AUD | A | 예 | 재검증 | [Metro Tasmania](https://www.metrotas.com.au/keep-moving/) |
 | HBA-AT-001 | 호바트 | MONA (주외 방문 성인) | 39~45 AUD | A | 예 | 재검증 | [Mona](https://mona.net.au/visit) |
 | HBA-AT-002 | 호바트 | MONA (12~17세) | 21 AUD | A | 예 | 재검증 | [Mona](https://mona.net.au/visit) |
+| BNA-TR-001 | 내슈빌 | 위고 버스 2시간권 | 2 USD | A | 예 | 재검증 | [WeGo Public Transit](https://www.wegotransit.com/buy/fare-information/) |
+| BNA-AT-001 | 내슈빌 | 컨트리 음악 명예의 전당 (성인) | 31.95 USD | A | 예 | 재검증 | [Country Music Hall of Fame and Museum](https://www.countrymusichalloffame.org/select-your-experience) |
+| BNA-AT-002 | 내슈빌 | 컨트리 음악 명예의 전당 (어린이) | 21.95 USD | A | 예 | 재검증 | [Country Music Hall of Fame and Museum](https://www.countrymusichalloffame.org/select-your-experience) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

@@ -476,4 +476,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['라이프치히 레르헤는 이름이 보호된 과자라 인증받은 제과점에서만 만들 수 있습니다.', 'The Leipziger Lerche is a protected name, made only by licensed bakeries.', 'ライプツィガー・レルヒェは名称が保護されたお菓子で、認められたパン屋だけが作れます。'],
   },
+  canberra: {
+    p: [
+      ['9~11월', 'September–November', '9〜11月', '봄꽃 축제와 와이너리 여행을 즐기기 좋습니다.', 'Spring flowers and winery visits.', '春の花祭りやワイナリー巡りを楽しめます。'],
+      ['6~8월', 'June–August', '6〜8月', '추운 겨울이지만 송로버섯 사냥 체험과 송로버섯 요리를 즐길 수 있습니다.', 'Cold, but the season for truffle hunts and truffle menus.', '寒い冬ですが、トリュフ狩りの体験やトリュフ料理を楽しめます。'],
+    ],
+    x: ['버스와 경전철은 평일 출퇴근 시간(피크)에 더 비싸니, 낮 시간이나 주말에 움직이면 아낄 수 있습니다.', 'Bus and light-rail fares are higher at weekday peaks; travel middays or at weekends to save.', 'バスやライトレールは平日のピーク時間に高くなるので、日中や週末に移動すると節約できます。'],
+  },
 };

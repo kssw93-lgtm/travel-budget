@@ -457,4 +457,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'york:x': 'https://yorkminster.org/visit/plan-your-visit/',
   'leipzig:p1': 'https://www.leipzig.travel/en/experience/regional-specialities-from-leipzig',
   'leipzig:x': 'https://www.leipzig.travel/en/research-text/Leipzig-specialties',
+  'canberra:p1': 'https://visitcanberra.com.au/food-and-drink',
+  'canberra:p2': 'https://visitcanberra.com.au/articles/best-places-to-eat-truffles-in-canberra-this-winter',
+  'canberra:x': 'https://www.transport.act.gov.au/tickets-and-myway/fares',
 };

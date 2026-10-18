@@ -917,4 +917,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['시내 대중교통 1회권은 1시간 동안 유효합니다. 공항은 S반 S5·S5X로 중앙역까지 약 14분이며, 공항은 시내 구역 밖이라 요금이 더 비쌉니다.', 'A city single is valid for one hour. S-Bahn S5/S5X runs from the airport to the Hauptbahnhof in about 14 minutes; the airport lies outside the city zone, so the fare is higher.', '市内の公共交通の1回券は1時間有効です。空港からはSバーンS5・S5Xで中央駅まで約14分ですが、空港は市内ゾーンの外なので運賃が高くなります。'],
     ],
   },
+  canberra: {
+    h: [
+      ['호주 전쟁기념관', 'Australian War Memorial', 'オーストラリア戦争記念館', '호주의 전쟁사를 다루는 기념관이자 박물관으로, 입장은 무료이고 예약이 필요 없습니다.', 'Memorial and museum of Australia’s wartime history — free, no tickets needed.', 'オーストラリアの戦争の歴史を伝える記念館兼博物館で、入場は無料、予約も不要です。'],
+      ['호주 국립 미술관', 'National Gallery of Australia', 'オーストラリア国立美術館', '원주민 미술부터 현대미술까지 아우르는 국립 미술관으로, 일반 입장은 무료입니다(일부 특별전 유료).', 'From Indigenous to modern art; general admission is free (some exhibitions charge).', '先住民美術から現代美術までそろう国立美術館で、一般入場は無料です（一部の特別展は有料）。'],
+      ['송로버섯 요리', 'Truffle dishes', 'トリュフ料理', '6~8월 제철에 근교 농장의 송로버섯 사냥과 식당의 송로버섯 메뉴를 즐길 수 있습니다.', 'In June–August, join a truffle hunt or try seasonal truffle menus.', '6〜8月の旬には、近郊の農園でのトリュフ狩りや飲食店のトリュフメニューを楽しめます。'],
+    ],
+    t: [
+      ['공항에서 시내: 래피드 3번 버스가 공항 터미널과 시티 환승센터를 약 20분에 잇고, 일반 버스 요금이 적용됩니다. 공항 도착 홀에 승차권 자판기가 있습니다.', 'Airport to city: Rapid 3 links the terminal to the City interchange in under 20 minutes at the normal bus fare; there is a ticket machine in arrivals.', '空港から市内へ：ラピッド3番バスが空港ターミナルとシティ乗り換えセンターを約20分で結び、通常のバス運賃が適用されます。到着ロビーに乗車券の自動販売機があります。'],
+    ],
+  },
 };

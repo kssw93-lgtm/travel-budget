@@ -1144,4 +1144,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'leipzig:h2': 'https://www.leipzig.travel/en/research-text/Leipzig-specialties',
   'leipzig:h3': 'https://www.leipzig.travel/en/research-text/Leipzig-specialties',
   'leipzig:t1': 'https://www.leipzig-halle-airport.de/anreise-abreise/bus-bahn/',
+  'canberra:h1': 'https://www.awm.gov.au/visit',
+  'canberra:h2': 'https://nga.gov.au/visit/',
+  'canberra:h3': 'https://visitcanberra.com.au/articles/best-places-to-eat-truffles-in-canberra-this-winter',
+  'canberra:t1': 'https://www.canberraairport.com.au/transport/public-transport-and-shuttle-services',
 };

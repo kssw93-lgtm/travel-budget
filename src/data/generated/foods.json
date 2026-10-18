@@ -3109,6 +3109,60 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "canberra",
+    "nameKo": "송로버섯 요리",
+    "nameEn": "Truffle Dishes",
+    "reason": "근교 농장에서 나는 흑송로버섯을 쓴 겨울 요리",
+    "reasonEn": "Winter dishes with local black truffles",
+    "desc": {
+      "ko": "근교 농장에서 나는 흑송로버섯을 쓴 겨울 요리",
+      "en": "Winter dishes with local black truffles",
+      "ja": "近郊の農園でとれる黒トリュフを使った冬の料理"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "VisitCanberra",
+    "recommendUrl": "https://visitcanberra.com.au/articles/best-places-to-eat-truffles-in-canberra-this-winter",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "canberra",
+    "nameKo": "송로버섯 브리 치즈",
+    "nameEn": "Truffle Brie",
+    "reason": "근교 송로버섯을 넣은 트리플 크림 치즈",
+    "reasonEn": "Triple-cream brie infused with local truffle",
+    "desc": {
+      "ko": "근교 송로버섯을 넣은 트리플 크림 치즈",
+      "en": "Triple-cream brie infused with local truffle",
+      "ja": "近郊のトリュフを入れたトリプルクリームのチーズ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "VisitCanberra",
+    "recommendUrl": "https://visitcanberra.com.au/articles/best-places-to-eat-truffles-in-canberra-this-winter",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "canberra",
+    "nameKo": "훈제 요리",
+    "nameEn": "Smokehouse Fare",
+    "reason": "와이너리 레스토랑에서 맛보는 훈제 고기·생선 요리",
+    "reasonEn": "Smoked meats and fish at winery restaurants",
+    "desc": {
+      "ko": "와이너리 레스토랑에서 맛보는 훈제 고기·생선 요리",
+      "en": "Smoked meats and fish at winery restaurants",
+      "ja": "ワイナリーのレストランで味わう燻製の肉や魚の料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "VisitCanberra",
+    "recommendUrl": "https://visitcanberra.com.au/food-and-drink/56b23b06266140594567dd27/poachers-restaurant-cellar-door-and-vineyard",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "cancun",
     "nameKo": "코치니타 피빌",
     "nameEn": "Cochinita Pibil",

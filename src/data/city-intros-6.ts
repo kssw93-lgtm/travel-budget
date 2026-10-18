@@ -590,4 +590,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['중앙역 주변', 'Around the Hauptbahnhof', '中央駅周辺', '유럽 최대급 역으로, 공항행 S반과 트램이 모입니다.', 'One of Europe’s largest stations, with airport S-Bahn and trams.', 'ヨーロッパ最大級の駅で、空港行きのSバーンやトラムが集まります。'],
     ],
   },
+  canberra: {
+    o: ['호주의 수도로, 인공 호수 벌리 그리핀 주변에 국회의사당과 국립 미술관, 전쟁기념관 같은 국립 기관이 모여 있습니다. 대부분의 국립 시설이 무료이고, 근교에는 40곳이 넘는 서늘한 기후의 와이너리와 송로버섯 농장이 있습니다.', 'Australia’s capital, with Parliament, the National Gallery and the War Memorial clustered around Lake Burley Griffin; most national institutions are free, and over 40 cool-climate wineries and truffle farms lie nearby.', 'オーストラリアの首都で、人造湖バーリー・グリフィン湖の周りに国会議事堂や国立美術館、戦争記念館などの国立施設が集まっています。ほとんどの国立施設は無料で、近郊には40を超える冷涼な気候のワイナリーやトリュフ農園があります。'],
+    d: [2, 3],
+    s: [
+      ['시티(시빅)', 'City (Civic)', 'シティ（シビック）', '버스·경전철이 모이고 식당과 쇼핑센터가 있는 중심가입니다.', 'The bus and light-rail hub, with restaurants and shopping.', 'バスやライトレールが集まり、飲食店やショッピングセンターがある中心街です。'],
+      ['킹스턴·바턴', 'Kingston / Barton', 'キングストン・バートン', '국회의사당과 국립 미술관이 가깝고, 일요일 시장이 열립니다.', 'Close to Parliament and the National Gallery, with a Sunday market.', '国会議事堂や国立美術館に近く、日曜日に市場が開かれます。'],
+    ],
+  },
 };

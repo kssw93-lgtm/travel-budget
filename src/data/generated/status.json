@@ -3163,6 +3163,34 @@
     "missing": [],
     "computable": true
   },
+  "canberra": {
+    "counts": {
+      "food": 4,
+      "transport": 1,
+      "attraction": 2
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 4,
+      "snack": 2,
+      "drink": 3,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 4,
+      "snack": 2,
+      "drink": 3,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "taichung": {
     "counts": {
       "food": 5,
@@ -3250,12 +3278,12 @@
   "melbourne": {
     "counts": {
       "food": 4,
-      "transport": 9,
+      "transport": 10,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 9,
+      "ride": 10,
       "meal": 4,
       "snack": 2,
       "drink": 3,
@@ -3264,7 +3292,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 10,
+      "ride": 11,
       "meal": 4,
       "snack": 2,
       "drink": 3,

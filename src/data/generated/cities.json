@@ -1150,6 +1150,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "canberra",
+    "country": "호주",
+    "countryEn": "Australia",
+    "nameKo": "캔버라",
+    "nameEn": "Canberra",
+    "currency": "AUD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "nara",
     "country": "일본",
     "countryEn": "Japan",

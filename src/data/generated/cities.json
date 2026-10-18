@@ -820,6 +820,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "portland",
+    "country": "미국",
+    "countryEn": "United States",
+    "nameKo": "포틀랜드",
+    "nameEn": "Portland",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "sokcho",
     "country": "한국",
     "countryEn": "South Korea",

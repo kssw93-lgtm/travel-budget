@@ -169,6 +169,8 @@
 | 오타와 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 캘거리 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 캘거리 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 포틀랜드 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 포틀랜드 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 속초 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 통영 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 대구 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1043,6 +1045,9 @@
 | YYC-TR-001 | 캘거리 | 캘거리 트랜짓 1회권(90분) | 4 CAD | A | 예 | 재검증 | [Calgary Transit](https://www.calgarytransit.com/news/calgary-transit-fares-changing-for-2026.html) |
 | YYC-AT-001 | 캘거리 | 가솔린 앨리 박물관 (성인, 세금 별도) | 14.95 CAD | A | 예 | 재검증 | [Heritage Park](https://heritagepark.ca/admission/) |
 | YYC-AT-002 | 캘거리 | 가솔린 앨리 박물관 (아동, 세금 별도) | 8.95 CAD | A | 예 | 재검증 | [Heritage Park](https://heritagepark.ca/admission/) |
+| PDX-TR-001 | 포틀랜드 | 트라이멧 성인 2시간 반 승차권 | 2.8 USD | A | 예 | 재검증 | [TriMet](https://trimet.org/fares/) |
+| PDX-AT-001 | 포틀랜드 | 포틀랜드 일본 정원 (성인) | 22.5 USD | A | 예 | 재검증 | [Portland Japanese Garden](https://japanesegarden.org/hours-admission/) |
+| PDX-AT-002 | 포틀랜드 | 포틀랜드 일본 정원 (청소년) | 16.5 USD | A | 예 | 재검증 | [Portland Japanese Garden](https://japanesegarden.org/hours-admission/) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

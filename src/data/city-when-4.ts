@@ -393,4 +393,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['7월 초 스탬피드 기간에는 숙소가 빨리 차고 값이 오르니 일찍 예약하세요.', 'Book early for the early-July Stampede, when hotels fill and prices jump.', '7月初めのスタンピード期間は宿がすぐ埋まり料金も上がるので、早めに予約しましょう。'],
   },
+  portland: {
+    p: [
+      ['6~9월', 'June–September', '6〜9月', '장미 정원이 피고 맑은 날이 많아 야외 푸드 카트와 근교 여행을 즐기기 좋습니다.', 'Roses bloom and clear days suit food-cart pods and trips out of town.', 'バラが咲き晴れの日が多く、屋外のフードカートや近郊への旅行を楽しめます。'],
+      ['10~11월', 'October–November', '10〜11月', '일본 정원의 단풍이 아름다운 시기입니다.', 'Autumn colour at the Japanese Garden.', '日本庭園の紅葉が美しい時期です。'],
+    ],
+    x: ['10~5월에는 비가 잦으니 방수 겉옷을 챙기고, 실내 푸드 홀을 일정에 넣어 두세요.', 'October–May is wet; pack a rain jacket and plan around indoor food halls.', '10〜5月は雨が多いので防水の上着を持ち、屋内のフードホールを予定に入れておきましょう。'],
+  },
 };

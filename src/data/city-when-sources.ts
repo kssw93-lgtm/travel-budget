@@ -426,4 +426,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'ottawa:x': 'https://www.gallery.ca/visit/admission',
   'calgary:p1': 'https://www.travelalberta.com/articles/you-need-to-try-these-three-iconic-foods-in-calgary',
   'calgary:x': 'https://www.travelalberta.com/articles/best-things-to-eat-calgary-stampede',
+  'portland:p1': 'https://www.travelportland.com/plan/first-time-trip-to-portland/',
+  'portland:p2': 'https://japanesegarden.org/hours-admission/',
+  'portland:x': 'https://www.travelportland.com/culture/portland-food-halls/',
 };

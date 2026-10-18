@@ -1088,4 +1088,9 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'calgary:h2': 'https://www.travelalberta.com/articles/you-need-to-try-these-three-iconic-foods-in-calgary',
   'calgary:h3': 'https://www.visitcalgary.com/plan-and-stay/itineraries-and-travel-inspiration/best-steakhouses-in-calgary',
   'calgary:t1': 'https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html',
+  'portland:h1': 'https://japanesegarden.org/hours-admission/',
+  'portland:h2': 'https://www.travelportland.com/culture/food-portlands-known-for/',
+  'portland:h3': 'https://www.travelportland.com/culture/food-portlands-known-for/',
+  'portland:t1': 'https://www.travelportland.com/culture/food-portlands-known-for/',
+  'portland:t2': 'https://blog.trimet.org/2025/12/12/how-to-take-max-to-and-from-portland-international-airport/',
 };

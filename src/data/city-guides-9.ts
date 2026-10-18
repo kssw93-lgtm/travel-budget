@@ -783,4 +783,15 @@ export const NOTES_9: Record<string, Compact> = {
       ['식당 메뉴 가격에는 GST(5%)와 팁이 빠져 있습니다. 앨버타는 주 판매세가 없어 세금 부담이 적은 편이고, 팁은 15~18%가 일반적입니다.', 'Menu prices exclude 5% GST and tip; Alberta has no provincial sales tax, and a 15–18% tip is usual.', '飲食店のメニュー価格にはGST（5%）とチップが含まれていません。アルバータ州は州の売上税がないため税負担が軽めで、チップは15〜18%が一般的です。'],
     ],
   },
+  portland: {
+    h: [
+      ['포틀랜드 일본 정원', 'Portland Japanese Garden', 'ポートランド日本庭園', '언덕 위에 조성된 일본식 정원으로, 날씨가 맑으면 후드산이 보입니다. 입장권은 온라인으로 판매합니다.', 'A hillside Japanese garden with Mount Hood views on clear days; tickets are sold online.', '丘の上に造られた日本庭園で、晴れた日にはフッド山が見えます。入場券はオンラインで販売しています。'],
+      ['푸드 카트', 'Food carts', 'フードカート', '500곳이 넘는 푸드 카트가 모인 ‘포드’에서 세계 각국 음식을 저렴하게 맛볼 수 있습니다.', '500-plus carts gathered in “pods” serving affordable food from around the world.', '500を超えるフードカートが集まる「ポッド」で、世界各国の料理を手頃に味わえます。'],
+      ['판매세 없는 쇼핑', 'Tax-free shopping', '売上税のない買い物', '오리건주에는 판매세가 없어 표시된 가격 그대로 계산합니다.', 'Oregon has no sales tax, so you pay the price on the tag.', 'オレゴン州には売上税がないため、表示価格のまま支払います。'],
+    ],
+    t: [
+      ['오리건주에는 판매세가 없어 식당 메뉴 가격에 세금이 붙지 않습니다. 다만 팁 18~20%는 따로 냅니다.', 'Oregon has no sales tax, so menus carry no tax — but an 18–20% tip is still expected.', 'オレゴン州には売上税がないため、飲食店のメニュー価格に税はかかりません。ただしチップ18〜20%は別に払います。'],
+      ['공항에서 시내: 포틀랜드 공항에서 MAX 레드 라인을 타면 다운타운까지 갈 수 있으며, 2시간 반 동안 환승할 수 있는 일반 요금 2.80달러가 적용됩니다. 신용카드 탭으로 바로 탈 수 있습니다.', 'Airport to city: the MAX Red Line runs from PDX to downtown on the standard $2.80 fare, valid 2½ hours; tap a contactless card to ride.', '空港から市内へ：ポートランド空港からMAXレッドラインでダウンタウンまで行け、2時間半乗り継ぎできる通常運賃2.80ドルが適用されます。クレジットカードのタッチで乗れます。'],
+    ],
+  },
 };

@@ -9072,6 +9072,60 @@
     "note": "GPT 수집"
   },
   {
+    "cityId": "portland",
+    "nameKo": "도넛",
+    "nameEn": "Doughnuts",
+    "reason": "부두 도넛으로 유명한 포틀랜드의 개성 있는 도넛",
+    "reasonEn": "Portland’s quirky doughnuts, led by Voodoo Doughnut",
+    "desc": {
+      "ko": "부두 도넛으로 유명한 포틀랜드의 개성 있는 도넛",
+      "en": "Portland’s quirky doughnuts, led by Voodoo Doughnut",
+      "ja": "ブードゥー・ドーナツで知られるポートランドの個性的なドーナツ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Travel Portland",
+    "recommendUrl": "https://www.travelportland.com/culture/food-portlands-known-for/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "portland",
+    "nameKo": "메리언베리 파이",
+    "nameEn": "Marionberry Pie",
+    "reason": "오리건에서 개발된 블랙베리 품종으로 만든 주(州) 대표 파이",
+    "reasonEn": "Oregon’s state pie, made with the local marionberry",
+    "desc": {
+      "ko": "오리건에서 개발된 블랙베리 품종으로 만든 주(州) 대표 파이",
+      "en": "Oregon’s state pie, made with the local marionberry",
+      "ja": "オレゴンで生まれたブラックベリーの品種で作る州を代表するパイ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Travel Portland",
+    "recommendUrl": "https://www.travelportland.com/culture/food-portlands-known-for/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "portland",
+    "nameKo": "푸드 카트 요리",
+    "nameEn": "Food Cart Meals",
+    "reason": "푸드 카트 포드에서 파는 세계 각국의 저렴한 한 끼",
+    "reasonEn": "Affordable global dishes from food-cart pods",
+    "desc": {
+      "ko": "푸드 카트 포드에서 파는 세계 각국의 저렴한 한 끼",
+      "en": "Affordable global dishes from food-cart pods",
+      "ja": "フードカートのポッドで売られる世界各国の手頃な料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Travel Portland",
+    "recommendUrl": "https://www.travelportland.com/culture/food-portlands-known-for/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "porto",
     "nameKo": "프란세지냐",
     "nameEn": "Francesinha",

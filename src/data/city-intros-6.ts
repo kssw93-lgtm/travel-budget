@@ -486,4 +486,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['벨트라인', 'Beltline', 'ベルトライン', '식당과 바가 많은 다운타운 남쪽 지역입니다.', 'The restaurant-and-bar district just south of downtown.', '飲食店やバーが多いダウンタウン南側の地区です。'],
     ],
   },
+  portland: {
+    o: ['미국 오리건주 최대 도시로, 판매세가 없어 표시된 가격 그대로 살 수 있습니다. 500곳이 넘는 푸드 카트와 도넛, 수제 맥주로 유명하며, 후드산 아래 장미 정원과 일본 정원이 아름답습니다.', 'Oregon’s largest city, with no sales tax — the price on the tag is what you pay; famous for 500-plus food carts, doughnuts and craft beer, and for its rose and Japanese gardens beneath Mount Hood.', 'アメリカ・オレゴン州最大の都市で、売上税がないため表示価格のまま買い物できます。500を超えるフードカートやドーナツ、クラフトビールで有名で、フッド山を望むバラ園や日本庭園も美しいです。'],
+    d: [2, 3],
+    s: [
+      ['다운타운', 'Downtown', 'ダウンタウン', 'MAX 경전철이 지나고 푸드 카트와 서점, 쇼핑가가 가깝습니다.', 'On the MAX light rail, near food carts, bookshops and shopping.', 'MAXライトレールが通り、フードカートや書店、ショッピング街に近いです。'],
+      ['펄 디스트릭트', 'Pearl District', 'パール・ディストリクト', '옛 창고를 개조한 갤러리와 식당이 모인 지역입니다.', 'Converted warehouses full of galleries and restaurants.', '古い倉庫を改装したギャラリーや飲食店が集まる地区です。'],
+    ],
+  },
 };

@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+미국,포틀랜드,도넛,Doughnuts,부두 도넛으로 유명한 포틀랜드의 개성 있는 도넛,저,,대기,Travel Portland,https://www.travelportland.com/culture/food-portlands-known-for/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+미국,포틀랜드,메리언베리 파이,Marionberry Pie,오리건에서 개발된 블랙베리 품종으로 만든 주(州) 대표 파이,저,,대기,Travel Portland,https://www.travelportland.com/culture/food-portlands-known-for/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+미국,포틀랜드,푸드 카트 요리,Food Cart Meals,푸드 카트 포드에서 파는 세계 각국의 저렴한 한 끼,저,,대기,Travel Portland,https://www.travelportland.com/culture/food-portlands-known-for/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

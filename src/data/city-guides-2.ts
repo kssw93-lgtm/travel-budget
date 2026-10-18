@@ -20,6 +20,8 @@ export const NOTES_2: Record<string, Compact> = {
       ['성벽 걷기', 'City Walls walk', '城壁歩き', '구시가지를 둘러싼 성벽 위를 한 바퀴 걸으며 바다와 붉은 지붕을 내려다봅니다.', 'Walk the full circuit of the walls above the sea and red rooftops.', '旧市街を囲む城壁の上を一周し、海と赤い屋根を見下ろします。'],
       ['스트라둔 거리', 'Stradun', 'ストラドゥン通り', '구시가지를 가로지르는 대리석 중심 거리입니다.', 'The polished limestone main street running through the Old Town.', '旧市街を貫く大理石のメインストリートです。'],
       ['스르지산 케이블카', 'Mount Srđ cable car', 'スルジ山ロープウェイ', '산 위에서 구시가지와 섬들을 한눈에 볼 수 있습니다.', 'Rides up for a panorama of the Old Town and islands.', '山の上から旧市街と島々を一望できます。'],
+      ['로크룸섬', 'Lokrum Island', 'ロクルム島', '구시가 항구에서 배로 약 15분 거리의 숲이 우거진 섬으로, 수도원 정원과 바위 해변이 있습니다.', 'A wooded island about 15 minutes by boat from the old harbour, with monastery gardens and rocky swimming spots.', '旧市街の港から船で約15分の緑豊かな島で、修道院の庭園や岩場の海水浴場があります。'],
+      ['렉터 궁전', 'Rector\'s Palace', '総督邸', '옛 두브로브니크 공화국의 통치자 관저로, 지금은 문화역사박물관으로 쓰입니다.', 'Seat of the old Republic of Dubrovnik\'s rector, now the Cultural History Museum.', 'かつてのドゥブロヴニク共和国の総督の館で、現在は文化歴史博物館です。'],
     ],
     t: [
       ['크루즈선이 들어오는 낮 시간에는 구시가지가 매우 붐빕니다. 성벽은 아침 일찍이나 늦은 오후가 좋습니다.', 'Cruise crowds pack the Old Town at midday; walk the walls early or late afternoon.', 'クルーズ船の寄港時間は旧市街が混むので、城壁は朝早くか夕方に。'],
@@ -77,6 +79,8 @@ export const NOTES_2: Record<string, Compact> = {
       ['보얼 예술특구', 'Pier-2 Art Center', '駁二芸術特区', '옛 항구 창고를 전시장과 상점으로 바꾼 예술 지구입니다.', 'Old harbour warehouses turned into galleries and shops.', '旧港の倉庫を展示場と店に変えたアート地区です。'],
       ['롄츠탄 용호탑', 'Dragon and Tiger Pagodas, Lotus Pond', '蓮池潭・龍虎塔', '호수 위에 용과 호랑이 입 모양 입구가 있는 두 탑입니다.', 'Twin pagodas on a lake, entered through a dragon’s and a tiger’s mouth.', '湖の上に龍と虎の口の入口がある2つの塔です。'],
       ['류허 야시장', 'Liuhe Night Market', '六合夜市', '해산물과 파파야 우유 등 먹거리가 많은 야시장입니다.', 'A night market known for seafood and papaya milk.', '海鮮やパパイヤミルクなどが楽しめる夜市です。'],
+      ['불광산 불타기념관', 'Fo Guang Shan Buddha Museum', '仏光山仏陀紀念館', '거대한 좌불과 탑들이 늘어선 불교 문화 시설로, 가오슝 시내에서 버스로 갈 수 있습니다.', 'A Buddhist cultural complex with a giant seated Buddha and pagodas, reachable by bus from the city.', '巨大な大仏と塔が並ぶ仏教文化施設で、高雄市内からバスで行けます。'],
+      ['치진섬', 'Cijin Island', '旗津', '페리로 몇 분이면 닿는 섬으로, 해변과 해산물 거리, 등대가 있습니다.', 'A few minutes by ferry, with a beach, seafood street and lighthouse.', 'フェリーで数分の島で、ビーチや海鮮通り、灯台があります。'],
     ],
     t: [
       ['MRT와 경전철(LRT)로 주요 명소를 다닐 수 있고, 교통카드(아이패스 등)를 쓰면 편합니다.', 'The MRT and light rail reach most sights; a transit card such as iPASS is handy.', 'MRTとライトレールで主な名所を回れ、交通カード（iPASSなど）が便利です。'],
@@ -99,6 +103,8 @@ export const NOTES_2: Record<string, Compact> = {
       ['중앙 광장과 직물회관', 'Main Market Square and Cloth Hall', '中央広場と織物会館', '유럽에서 손꼽히게 큰 중세 광장. 직물회관 안에 기념품 상점이 있습니다.', 'One of Europe’s largest medieval squares, with stalls in the Cloth Hall.', 'ヨーロッパ有数の中世の広場。織物会館に土産店があります。'],
       ['바벨성', 'Wawel Royal Castle', 'ヴァヴェル城', '폴란드 왕들이 머물던 언덕 위 성과 대성당입니다.', 'The hilltop castle and cathedral of the Polish kings.', 'ポーランド王が暮らした丘の上の城と大聖堂です。'],
       ['카지미에시 지구', 'Kazimierz', 'カジミエシュ地区', '옛 유대인 지구. 카페와 식당이 많고 쉰들러 공장도 가깝습니다.', "The old Jewish quarter, full of cafés and near Schindler's Factory.", '旧ユダヤ人地区。カフェや食堂が多く、シンドラーの工場も近いです。'],
+      ['비엘리치카 소금광산', 'Wieliczka Salt Mine', 'ヴィエリチカ岩塩坑', '유네스코 세계유산으로, 지하 갱도와 소금으로 조각한 예배당을 가이드 투어로 둘러봅니다. 크라쿠프에서 당일로 다녀옵니다.', 'A UNESCO-listed mine with underground chambers and a chapel carved from salt, seen on guided tours; an easy day trip.', '世界遺産の岩塩坑で、地下坑道や塩で彫られた礼拝堂をガイドツアーで巡ります。クラクフから日帰りできます。'],
+      ['아우슈비츠-비르케나우 기념관', 'Auschwitz-Birkenau Memorial', 'アウシュヴィッツ=ビルケナウ博物館', '나치 강제수용소 터에 세워진 기념관이자 박물관입니다. 방문 시간대 예약이 필요하니 공식 사이트에서 미리 확인하세요.', 'The memorial and museum at the former Nazi camp; entry is by timed reservation, so book on the official site.', 'ナチス強制収容所跡の記念館・博物館です。入場は時間指定予約が必要なので公式サイトで事前に確認を。'],
     ],
     t: [
       ['성 마리아 성당 탑에서는 매시 정각 나팔 소리(헤이나우)가 울리다 중간에 끊깁니다.', 'Every hour a trumpet call (hejnał) plays from St Mary’s tower and breaks off mid-tune.', '聖マリア教会の塔から毎正時にラッパ（ヘイナウ）が鳴り、途中で途切れます。'],
@@ -136,6 +142,8 @@ export const NOTES_2: Record<string, Compact> = {
       ['세나도 광장·성 바울 성당 유적', 'Senado Square and Ruins of St Paul’s', 'セナド広場・聖ポール天主堂跡', '포르투갈풍 물결무늬 광장과 정면 벽만 남은 성당 유적이 이어집니다.', 'The Portuguese-tiled square leading up to the façade-only church ruins.', 'ポルトガル風の波模様の広場から、正面壁だけが残る聖堂跡へ続きます。'],
       ['타이파 빌리지', 'Taipa Village', 'タイパ・ビレッジ', '골목에 포르투갈·매캐니즈 식당과 육포·과자 가게가 모여 있습니다.', 'Lanes of Portuguese and Macanese restaurants and snack shops.', '路地にポルトガル・マカオ料理店や菓子店が並びます。'],
       ['마카오 타워', 'Macau Tower', 'マカオタワー', '전망대와 번지점프로 유명한 타워입니다.', 'A tower known for its observation deck and bungee jump.', '展望台とバンジージャンプで有名なタワーです。'],
+      ['몬테 요새와 기아 요새', 'Mount Fortress and Guia Fortress', 'モンテの砦とギア要塞', '유네스코 세계유산 \'마카오 역사지구\'에 속한 언덕 위 요새들로, 시내를 내려다볼 수 있습니다.', 'Hilltop forts in the UNESCO-listed Historic Centre of Macao, with views over the city.', '世界遺産「マカオ歴史市街地区」に含まれる丘の上の要塞で、市街を見渡せます。'],
+      ['아마 사원', 'A-Ma Temple', '媽閣廟', '바다의 여신 마조를 모시는 마카오에서 가장 오래된 사원 중 하나로, 마카오라는 지명의 유래로 알려져 있습니다.', 'One of Macao\'s oldest temples, dedicated to the sea goddess Mazu and linked to the city\'s name.', '海の女神・媽祖を祀るマカオ最古級の寺院で、マカオの地名の由来とされます。'],
     ],
     t: [
       ['대형 리조트들이 운영하는 무료 셔틀버스로 국경·페리 터미널과 시내를 오갈 수 있습니다.', 'Free shuttle buses run by the big resorts link the border, ferry terminals and town.', '大型リゾートの無料シャトルバスで国境やフェリーターミナルと市内を行き来できます。'],

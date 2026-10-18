@@ -55,6 +55,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['쁘띠 베니스', 'Little Venice', 'プティット・ヴニーズ', '운하를 따라 알록달록한 목조 가옥이 늘어선 콜마르의 대표 풍경입니다.', 'Colmar’s signature scene of colourful half-timbered houses along the canal.', '運河沿いにカラフルな木組みの家が並ぶ、コルマールを代表する風景です。'],
       ['콜마르 크리스마스 마켓', 'Colmar Christmas Markets', 'コルマールのクリスマスマーケット', '구시가지 곳곳에 작은 마켓 여러 개가 열려 동화 같은 분위기를 만듭니다.', 'Several small markets spread through the old town, creating a fairy-tale atmosphere.', '旧市街のあちこちに小さなマーケットが開かれ、おとぎ話のような雰囲気になります。'],
       ['운터린덴 미술관', 'Unterlinden Museum', 'ウンターリンデン美術館', '옛 수도원 건물의 미술관으로 「이젠하임 제단화」가 유명합니다.', 'A museum in a former convent, famous for the Isenheim Altarpiece.', '旧修道院の美術館で、「イーゼンハイム祭壇画」が有名です。'],
+      ['바르톨디 박물관', 'Bartholdi Museum', 'バルトルディ美術館', '자유의 여신상을 만든 조각가 바르톨디의 생가로, 여신상 제작 과정 자료를 전시합니다.', 'The birthplace of Statue of Liberty sculptor Bartholdi, with models and documents of the statue.', '自由の女神像を制作した彫刻家バルトルディの生家で、女神像の制作資料を展示します。'],
+      ['오쾨닉스부르 성', 'Haut-Kœnigsbourg Castle', 'オー・クニグスブール城', '알자스 평야를 내려다보는 산 위의 중세 성으로, 콜마르에서 당일로 다녀오기 좋습니다.', 'A medieval castle high above the Alsace plain, a good day trip from Colmar.', 'アルザス平野を見下ろす山上の中世の城で、コルマールから日帰りに向きます。'],
     ],
     t: [
       ['콜마르 구시가지에는 운하와 목조 가옥이 모여 있어 도보로 둘러보기 좋습니다.', 'Colmar’s old town has canal-side streets and half-timbered houses that are easy to explore on foot.', 'コルマールの旧市街には運河沿いの通りや木組みの家が集まり、徒歩で散策しやすいです。'],
@@ -91,6 +93,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['산타클로스 마을', 'Santa Claus Village', 'サンタクロース村', '북극권 선 위에 있는 산타 마을. 산타를 만나고 산타 우체국에서 편지를 보낼 수 있습니다.', 'Santa’s village on the Arctic Circle, where you can meet Santa and send mail from his post office.', '北極圏の線上にあるサンタの村。サンタに会えて、サンタ郵便局から手紙を出せます。'],
       ['아르크티쿰', 'Arktikum', 'アルクティクム', '북극 지역의 자연과 사람들의 삶을 보여주는 과학관·박물관입니다.', 'A science centre and museum about Arctic nature and life.', '北極圏の自然と人々の暮らしを紹介する科学館・博物館です。'],
       ['오로라·허스키 썰매 체험', 'Northern lights and husky safaris', 'オーロラ・ハスキー犬ぞり体験', '겨울에는 오로라 투어, 허스키·순록 썰매 같은 체험 프로그램이 많습니다.', 'Winter brings northern-lights tours and husky or reindeer sleigh rides.', '冬はオーロラツアーやハスキー・トナカイのそり体験が豊富です。'],
+      ['산타파크', 'SantaPark', 'サンタパーク', '동굴 안에 꾸민 산타 테마파크로, 엘프 학교와 얼음 갤러리 등이 있습니다. 운영 기간이 정해져 있으니 공식 사이트에서 확인하세요.', 'A Santa theme park built inside a cave, with an elf school and ice gallery; open in set seasons.', '洞窟の中に造られたサンタのテーマパークで、エルフの学校や氷のギャラリーがあります。営業期間は公式サイトで確認を。'],
+      ['라누아 야생동물원', 'Ranua Wildlife Park', 'ラヌア動物園', '북극곰 등 북극권 동물을 볼 수 있는 동물원으로, 로바니에미에서 차로 약 1시간 거리입니다.', 'A park of Arctic animals including polar bears, about an hour\'s drive from Rovaniemi.', 'ホッキョクグマなど北極圏の動物が見られる動物園で、ロヴァニエミから車で約1時間です。'],
     ],
     t: [
       ['한겨울은 매우 추우니 방한복·장갑·모자를 겹겹이 준비하세요. 투어 업체가 방한복을 빌려주기도 합니다.', 'Midwinter is extremely cold; dress in layers with gloves and a hat. Tour operators often lend thermal suits.', '真冬は非常に寒いので、防寒着・手袋・帽子を重ね着しましょう。ツアー会社が防寒服を貸してくれることもあります。'],
@@ -176,6 +180,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['바젤 대성당(뮌스터)', 'Basel Minster', 'バーゼル大聖堂', '붉은 사암과 색 기와 지붕의 대성당으로, 뒤편 테라스에서 라인강이 내려다보입니다.', 'A red-sandstone cathedral with coloured roof tiles; the terrace behind overlooks the Rhine.', '赤い砂岩と色瓦の屋根の大聖堂で、裏のテラスからライン川が見下ろせます。'],
       ['바젤 시청', 'Basel Town Hall', 'バーゼル市庁舎', '붉은 외벽과 벽화가 인상적인 시장 광장의 시청입니다.', 'The striking red town hall with painted walls on the Marktplatz.', '赤い外壁と壁画が印象的なマルクト広場の市庁舎です。'],
       ['바젤 시립 미술관', 'Kunstmuseum Basel', 'バーゼル市立美術館', '세계에서 오래된 공공 미술관 중 하나로 꼽히는 미술관입니다.', 'Counted among the world’s oldest public art collections.', '世界で最も古い公共美術館の一つとされる美術館です。'],
+      ['바이엘러 재단 미술관', 'Fondation Beyeler', 'バイエラー財団美術館', '렌초 피아노가 설계한 건물에서 근현대 미술 컬렉션과 기획전을 볼 수 있는 미술관입니다.', 'A Renzo Piano–designed museum showing modern art and major exhibitions.', 'レンゾ・ピアノ設計の建物で近現代美術のコレクションと企画展が見られる美術館です。'],
+      ['바젤 동물원', 'Basel Zoo', 'バーゼル動物園', '현지에서 \'졸리\'라 불리는 스위스에서 가장 오래된 동물원으로, 시내 중심에서 걸어갈 수 있습니다.', 'Switzerland\'s oldest zoo, known locally as \'Zolli\', within walking distance of the centre.', '地元で「ツォリ」と呼ばれるスイス最古の動物園で、中心部から歩いて行けます。'],
     ],
     t: [
       ['라인강을 건너는 작은 나룻배(페리)는 강물의 흐름만으로 움직이는 바젤의 명물입니다.', 'Basel’s little Rhine ferries cross the river powered only by the current.', 'ライン川を渡る小さな渡し船は川の流れだけで動くバーゼルの名物です。'],
@@ -199,6 +205,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['드우기 타르크(긴 시장 거리)', 'Long Market (Długi Targ)', 'ドゥーギ・タルク（長い市場）', '알록달록한 상인 가옥과 넵튠 분수가 있는 구시가지 중심 거리입니다.', 'The old-town main street of colourful merchant houses and the Neptune Fountain.', 'カラフルな商人の家とネプチューンの噴水がある旧市街の目抜き通りです。'],
       ['모트와바강 변 크레인', 'Gdańsk Crane (Żuraw)', 'クレーン（ジュラフ）', '중세 항구 크레인으로, 강변 산책로의 상징입니다.', 'A medieval port crane, the symbol of the riverside promenade.', '中世の港のクレーンで、川沿いの遊歩道の象徴です。'],
       ['제2차 세계대전 박물관', 'Museum of the Second World War', '第二次世界大戦博物館', '제2차 세계대전의 역사를 폭넓게 보여주는 대형 박물관입니다.', 'A major museum presenting the history of the Second World War.', '第二次世界大戦の歴史を幅広く伝える大きな博物館です。'],
+      ['유럽 연대 센터', 'European Solidarity Centre', 'ヨーロッパ連帯センター', '자유노조 \'연대\'가 탄생한 그단스크 조선소 옆에 있는 박물관으로, 폴란드 민주화 과정을 전시합니다.', 'A museum beside the Gdańsk Shipyard telling the story of Solidarity and Poland\'s road to democracy.', '「連帯」が生まれたグダニスク造船所の隣にある博物館で、ポーランド民主化の歩みを展示します。'],
+      ['말보르크성', 'Malbork Castle', 'マルボルク城', '튜턴 기사단이 세운 세계 최대 규모의 벽돌 성으로, 유네스코 세계유산입니다. 기차로 당일 왕복이 가능합니다.', 'The Teutonic Order\'s vast brick castle, a UNESCO site and an easy day trip by train.', 'ドイツ騎士団が築いた世界最大級のれんがの城で、世界遺産です。列車で日帰りできます。'],
     ],
     t: [
       ['발트해 연안이라 날씨가 날마다 달라지니, 출발 직전에 일기예보를 확인하세요.', 'Weather on the Baltic coast changes day to day, so check the forecast just before you go.', 'バルト海沿岸は日によって天気が変わるので、出発直前に天気予報を確認しましょう。'],
@@ -210,6 +218,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['마르크트 광장과 종탑', 'Markt and Belfry', 'マルクト広場と鐘楼', '중세 종탑이 서 있는 중앙 광장으로, 종탑에 오르면 시내가 내려다보입니다.', 'The main square under the medieval Belfry, which you can climb for views.', '中世の鐘楼が立つ中央広場で、鐘楼に登ると街を見渡せます。'],
       ['운하 보트', 'Canal boat tour', '運河ボート', '운하를 따라 도는 보트에서 중세 도시 풍경을 봅니다.', 'See the medieval city from a canal boat.', '運河を巡るボートから中世の街並みを眺めます。'],
       ['성혈 성당', 'Basilica of the Holy Blood', '聖血礼拝堂', '부르크 광장에 있는 예배당으로, 성혈 유물과 관련된 전승으로 알려져 있습니다.', 'A chapel on Burg Square associated with the relic of the Holy Blood.', 'ブルク広場にある礼拝堂で、聖血の聖遺物にまつわる伝承で知られます。'],
+      ['흐루닝어 미술관', 'Groeningemuseum', 'グルーニング美術館', '얀 반 에이크 등 플랑드르 초기 회화를 대표하는 작품을 모은 브뤼헤 시립 미술관입니다.', 'Bruges\' city art museum, home to Flemish Primitives such as Jan van Eyck.', 'ヤン・ファン・エイクら初期フランドル絵画の名品を集めたブルッヘ市立美術館です。'],
+      ['베긴회 수도원(베햐인호프)', 'Beguinage (Begijnhof)', 'ベギン会修道院', '흰 집들과 나무가 둘러싼 조용한 안뜰로, 유네스코 세계유산 플랑드르 베긴회 수도원 중 하나입니다.', 'A quiet courtyard of whitewashed houses, part of the UNESCO-listed Flemish Béguinages.', '白い家並みと木々に囲まれた静かな中庭で、世界遺産のフランドル地方のベギン会修道院群の一つです。'],
     ],
     t: [
       ['브뤼셀에서 기차로 당일치기가 가능하지만, 저녁의 조용한 운하를 보려면 1박을 추천합니다. 소요 시간은 SNCB 시간표에서 확인하세요.', 'Bruges is an easy train day trip from Brussels, but stay a night to see the quiet canals in the evening; check journey times on the SNCB timetable.', 'ブリュッセルから電車で日帰りもできますが、夜の静かな運河を見るなら1泊がおすすめです。所要時間はSNCBの時刻表で確認を。'],
@@ -233,6 +243,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['푸르비에르 대성당', 'Basilica of Notre-Dame de Fourvière', 'フルヴィエールのノートルダム大聖堂', '언덕 위의 대성당으로, 푸니쿨라를 타고 올라가면 리옹 시내가 한눈에 보입니다.', 'The hilltop basilica; ride the funicular up for a view over the whole city.', '丘の上の大聖堂で、ケーブルカーで上ると市内が一望できます。'],
       ['비유 리옹과 트라불', 'Vieux Lyon and the traboules', 'ヴュー・リヨンとトラブール', '유럽에서 손꼽히는 르네상스 구시가지로, 건물 사이를 잇는 비밀 통로(트라불) 일부를 걸어 볼 수 있습니다.', 'One of Europe’s great Renaissance quarters, with some of its hidden passageways (traboules) open to walk.', 'ヨーロッパ有数のルネサンス期の旧市街で、建物の間を抜ける抜け道（トラブール）の一部を歩けます。'],
       ['레 알 폴 보퀴즈', 'Les Halles de Lyon Paul Bocuse', 'レ・アール・ド・リヨン ポール・ボキューズ', '치즈·샤퀴테리·빵 가게가 모인 실내 시장으로, 리옹 미식을 맛보기 좋습니다.', 'An indoor food market of cheesemongers, butchers and bakers — a taste of Lyon’s cuisine.', 'チーズやシャルキュトリー、パンの店が集まる屋内市場で、リヨンの美食を味わえます。'],
+      ['콩플뤼앙스 박물관', 'Musée des Confluences', 'コンフリュアンス博物館', '론강과 손강이 만나는 곳의 해체주의 건축 박물관으로, 자연사와 인류 문화를 함께 다룹니다.', 'A deconstructivist museum where the Rhône and Saône meet, covering natural history and human cultures.', 'ローヌ川とソーヌ川の合流点に立つ脱構築主義建築の博物館で、自然史と人類の文化を扱います。'],
     ],
     t: [
       ['부숑(bouchon)은 리옹 전통 요리를 내는 소박한 식당입니다. 인기 있는 곳은 저녁 예약을 해 두세요.', 'Bouchons are casual restaurants serving traditional Lyon dishes; book popular ones for dinner.', 'ブションはリヨンの伝統料理を出す気取らない食堂です。人気店は夕食を予約しておきましょう。'],
@@ -244,6 +255,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['샤토 프롱트낙과 뒤프랭 테라스', 'Château Frontenac and Dufferin Terrace', 'シャトー・フロンテナックとデュフラン・テラス', '구시가지를 내려다보는 성 모양 호텔과, 겨울이면 썰매장이 들어서는 강변 산책로입니다.', 'The castle-like hotel above the old town and the riverside boardwalk that gets a toboggan run in winter.', '旧市街を見下ろす城のようなホテルと、冬にはそり滑りができる川沿いの遊歩道です。'],
       ['쁘띠 샹플랭 거리', 'Rue du Petit-Champlain', 'プチ・シャンプラン通り', '북미에서 손꼽히게 오래된 상점가로, 겨울에는 눈 덮인 거리를 조명 트리가 밝힙니다.', 'One of North America’s oldest shopping streets, lit with illuminated trees in the snow.', '北米有数の古い商店街で、冬は雪の通りをライトアップされたツリーが照らします。'],
       ['몽모랑시 폭포', 'Montmorency Falls', 'モンモランシー滝', '나이아가라보다 높은 폭포로, 겨울에는 얼어붙은 절벽과 얼음 언덕을 볼 수 있습니다.', 'Falls taller than Niagara; in winter the cliffs freeze over into ice walls.', 'ナイアガラより高い滝で、冬は凍りついた崖や氷の丘が見られます。'],
+      ['퀘벡 국립미술관', 'Musée national des beaux-arts du Québec', 'ケベック国立美術館', '아브라함 평원 공원 안에 있는 미술관으로, 퀘벡 미술과 이누이트 미술 컬렉션이 있습니다.', 'Inside the Plains of Abraham park, with Quebec and Inuit art collections.', 'アブラハム平原公園内にある美術館で、ケベック美術とイヌイット美術のコレクションがあります。'],
     ],
     t: [
       ['프랑스어가 공용어지만 관광지에서는 영어도 잘 통합니다. 인사로 「봉주르」를 건네면 좋아합니다.', 'French is the official language, but English works fine in tourist areas; a “bonjour” goes down well.', 'フランス語が公用語ですが、観光地では英語もよく通じます。「ボンジュール」と挨拶すると喜ばれます。'],

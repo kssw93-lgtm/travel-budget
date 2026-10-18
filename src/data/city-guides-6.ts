@@ -7,6 +7,8 @@ export const NOTES_6: Record<string, Compact> = {
       ['미케 비치', 'My Khe Beach', 'ミーケー・ビーチ', '시내 바로 앞의 긴 모래 해변입니다.', 'A long sandy beach right next to the city.', '市内のすぐ前に広がる長い砂浜です。'],
       ['바나힐', 'Ba Na Hills', 'バーナーヒルズ', '긴 케이블카로 오르는 산 위 테마파크. 거대한 손 모양의 골든 브리지가 유명합니다.', 'A mountaintop park reached by cable car, famous for the Golden Bridge held by giant hands.', '長いロープウェイで登る山上のテーマパーク。巨大な手のゴールデンブリッジが有名です。'],
       ['호이안 구시가지', 'Hoi An Ancient Town', 'ホイアン旧市街', '차로 가까운 옛 무역항. 저녁에 등불이 켜진 거리가 아름답습니다.', 'A nearby old trading port, beautiful when the lanterns light up at dusk.', '車で近い古い貿易港。夕方、灯籠がともる街並みが美しいです。'],
+      ['오행산(마블 마운틴)', 'Marble Mountains', '五行山(マーブルマウンテン)', '대리석 바위산 다섯 봉우리에 동굴 사원과 전망대가 있습니다. 다낭과 호이안 사이에 있습니다.', 'Five marble hills with cave pagodas and lookouts, between Da Nang and Hoi An.', '大理石の五つの岩山に洞窟寺院や展望台があります。ダナンとホイアンの間にあります。'],
+      ['용다리', 'Dragon Bridge', 'ドラゴン橋', '한강을 가로지르는 용 모양 다리로, 주말 등 정해진 밤에 용 머리에서 불과 물을 뿜는 쇼가 열립니다.', 'A dragon-shaped bridge over the Han River that breathes fire and water on set nights, mainly weekends.', 'ハン川に架かる竜の形の橋で、週末など決まった夜に竜の頭から火と水を噴くショーがあります。'],
     ],
     t: [
       ['주말 밤 용다리(드래곤 브리지)에서 불과 물을 뿜는 쇼가 열립니다.', 'On weekend nights the Dragon Bridge breathes fire and water.', '週末の夜、ドラゴンブリッジで火と水を噴くショーがあります。'],
@@ -81,6 +83,8 @@ export const NOTES_6: Record<string, Compact> = {
       ['융프라우요흐', 'Jungfraujoch', 'ユングフラウヨッホ', '산악 열차로 오르는 해발 높은 전망대와 빙하입니다.', 'A high-altitude viewpoint and glacier reached by mountain railway.', '登山鉄道で上る高所の展望台と氷河です。'],
       ['하더 쿨름', 'Harder Kulm', 'ハーダー・クルム', '푸니쿨라로 오르는 전망대. 두 호수와 알프스가 보입니다.', 'A funicular viewpoint over both lakes and the Alps.', 'ケーブルカーで上る展望台。2つの湖とアルプスが見えます。'],
       ['툰·브리엔츠 호수', 'Lakes Thun and Brienz', 'トゥーン湖・ブリエンツ湖', '유람선을 타고 호숫가 마을을 둘러볼 수 있습니다.', 'Cruise boats call at lakeside villages.', '遊覧船で湖畔の村を巡れます。'],
+      ['쉬니게 플라테', 'Schynige Platte', 'シーニゲ・プラッテ', '톱니바퀴 열차로 올라가는 전망 고원으로, 고산 식물원과 아이거·묀히·융프라우 조망이 있습니다. 여름 시즌에만 운행합니다.', 'A cogwheel-railway viewpoint with an alpine garden and views of the Eiger, Mönch and Jungfrau; summer only.', '登山鉄道で上る展望台で、高山植物園とアイガー・メンヒ・ユングフラウの眺めがあります。夏季のみ運行。'],
+      ['그린델발트 피르스트', 'Grindelwald First', 'グリンデルワルト・フィルスト', '곤돌라로 올라 절벽에 매달린 \'클리프 워크\'와 바흐알프 호수 하이킹을 즐길 수 있습니다.', 'Reached by gondola, with the First Cliff Walk and the hike to Bachalpsee lake.', 'ゴンドラで上り、断崖のクリフウォークやバッハアルプ湖へのハイキングを楽しめます。'],
     ],
     t: [
       ['높은 산은 날씨가 빨리 바뀌니 출발 전 산 정상 실시간 화면을 확인하세요.', 'Mountain weather changes fast; check the summit webcams before you go.', '山の天気は変わりやすいので、出発前に山頂のライブカメラを確認しましょう。'],
@@ -118,6 +122,8 @@ export const NOTES_6: Record<string, Compact> = {
       ['겐로쿠엔', 'Kenroku-en', '兼六園', '일본 3대 정원으로 꼽히는 사계절 정원입니다.', 'Ranked among Japan’s three great gardens.', '日本三名園に数えられる庭園です。'],
       ['히가시차야 거리', 'Higashi Chaya District', 'ひがし茶屋街', '옛 찻집 건물이 늘어선 거리. 금박 아이스크림이 명물입니다.', 'Old teahouse streets, known for gold-leaf ice cream.', '昔の茶屋が並ぶ通り。金箔ソフトが名物です。'],
       ['오미초 시장', 'Omicho Market', '近江町市場', '해산물 덮밥을 먹을 수 있는 가나자와의 부엌 같은 시장입니다.', "Kanazawa's kitchen, great for seafood bowls.", '海鮮丼が食べられる金沢の台所のような市場です。'],
+      ['가나자와 21세기 미술관', '21st Century Museum of Contemporary Art, Kanazawa', '金沢21世紀美術館', '원형 유리 건물의 현대미술관으로, \'수영장\' 작품이 유명합니다. 일부 공간은 무료로 둘러볼 수 있습니다.', 'A circular glass museum of contemporary art, famous for \'The Swimming Pool\'; some areas are free.', '円形ガラス張りの現代美術館で、「スイミング・プール」が有名です。一部エリアは無料で見られます。'],
+      ['나가마치 무사 저택 거리', 'Nagamachi Samurai District', '長町武家屋敷跡', '흙담과 수로가 남아 있는 옛 무사 거리로, 일부 저택은 내부를 공개합니다.', 'Old samurai lanes of earthen walls and canals, with some residences open inside.', '土塀と用水が残る武家屋敷跡で、一部の屋敷は内部を公開しています。'],
     ],
     t: [
       ['겨울에는 대게·방어 등 동해 해산물이 제철입니다.', 'Winter is the season for snow crab and yellowtail from the Sea of Japan.', '冬はズワイガニやブリなど日本海の海の幸が旬です。'],
@@ -129,6 +135,8 @@ export const NOTES_6: Record<string, Compact> = {
       ['하코다테산 야경', 'Mount Hakodate night view', '函館山の夜景', '로프웨이로 올라 바다 사이 좁은 땅에 펼쳐진 야경을 봅니다.', 'Ride the ropeway for the night view of the city between two bays.', 'ロープウェイで上り、2つの海に挟まれた街の夜景を眺めます。'],
       ['고료카쿠', 'Goryokaku', '五稜郭', '별 모양 성곽 공원. 옆 타워에서 별 모양이 잘 보입니다.', 'A star-shaped fort park, best seen from the tower next door.', '星形の城郭公園。隣のタワーから星形がよく見えます。'],
       ['하코다테 아침시장', 'Hakodate Morning Market', '函館朝市', '오징어·성게 덮밥 등 해산물 아침 식사로 유명합니다.', 'Famous for seafood breakfasts like squid and sea-urchin bowls.', 'イカやウニ丼など海鮮の朝ごはんで有名です。'],
+      ['가네모리 붉은 벽돌 창고', 'Kanemori Red Brick Warehouses', '金森赤レンガ倉庫', '항구 옆 메이지 시대 창고를 개조한 쇼핑·식당가로, 야경이 아름답습니다.', 'Meiji-era harbourside warehouses turned into shops and restaurants, lovely when lit at night.', '港沿いの明治期の倉庫を改装したショッピング・飲食街で、夜のライトアップが美しいです。'],
+      ['모토마치 언덕길과 구 하코다테구 공회당', 'Motomachi slopes and Old Public Hall', '元町の坂と旧函館区公会堂', '교회와 서양식 건물이 늘어선 언덕길 지역으로, 하치만자카에서 항구가 내려다보입니다.', 'Hillside streets of churches and Western-style buildings; Hachimanzaka slope looks down to the harbour.', '教会や洋館が並ぶ坂の街で、八幡坂からは港が見下ろせます。'],
     ],
     t: [
       ['야경은 해가 진 직후가 가장 붐비니 시간을 조금 늦추면 여유롭게 볼 수 있습니다.', 'The night view is busiest right after sunset; go a little later for space.', '夜景は日没直後が最も混むので、少し遅らせるとゆっくり見られます。'],

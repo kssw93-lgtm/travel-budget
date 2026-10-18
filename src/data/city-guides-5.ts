@@ -57,6 +57,8 @@ export const NOTES_5: Record<string, Compact> = {
       ['불국사·석굴암', 'Bulguksa and Seokguram', '仏国寺・石窟庵', '신라 불교 예술을 대표하는 유네스코 세계유산입니다.', 'UNESCO-listed masterpieces of Silla Buddhist art.', '新羅仏教美術を代表する世界遺産です。'],
       ['동궁과 월지', 'Donggung Palace and Wolji Pond', '東宮と月池', '연못에 비치는 야간 조명이 아름다운 신라 궁궐터입니다.', 'Silla palace grounds best at night, reflected in the pond.', '池に映る夜のライトアップが美しい新羅の宮殿跡です。'],
       ['대릉원·황리단길', 'Daereungwon and Hwangnidan-gil', '大陵苑・皇理団通り', '거대한 고분 공원 옆으로 한옥 카페 거리가 이어집니다.', 'Giant royal tombs next to a lane of hanok cafés.', '巨大な古墳公園の隣に韓屋カフェ通りが続きます。'],
+      ['국립경주박물관', 'Gyeongju National Museum', '国立慶州博物館', '신라 금관과 성덕대왕신종(에밀레종) 등 신라 유물을 모은 박물관으로, 상설 전시는 무료입니다.', 'Home to Silla gold crowns and the Sacred Bell of King Seongdeok; the permanent exhibition is free.', '新羅の金冠や聖徳大王神鐘など新羅の遺物を集めた博物館で、常設展は無料です。'],
+      ['양동마을', 'Yangdong Village', '良洞村', '조선 시대 양반 가옥과 초가가 그대로 남은 씨족 마을로, 하회마을과 함께 유네스코 세계유산입니다.', 'A Joseon-era clan village of noble houses and thatched homes, UNESCO-listed with Hahoe.', '朝鮮時代の両班家屋とわらぶき家が残る同族村で、河回村とともに世界遺産です。'],
     ],
     t: [
       ['유적이 넓게 퍼져 있어 시내 구간은 자전거를 빌려 다니기 좋습니다.', 'Sites are spread out; renting a bike works well around town.', '遺跡が広く点在しているので、市内は自転車を借りると便利です。'],
@@ -103,6 +105,8 @@ export const NOTES_5: Record<string, Compact> = {
       ['추라우미 수족관', 'Okinawa Churaumi Aquarium', '美ら海水族館', '고래상어가 헤엄치는 대형 수조로 유명한 수족관입니다.', 'Famous for its giant tank with whale sharks.', 'ジンベエザメが泳ぐ大水槽で有名な水族館です。'],
       ['국제거리', 'Kokusai-dori', '国際通り', '나하 중심의 쇼핑·먹거리 거리입니다.', "Naha's main street for shopping and food.", '那覇中心のショッピングとグルメの通りです。'],
       ['슈리성 공원', 'Shurijo Castle Park', '首里城公園', '류큐 왕국의 왕성 터. 화재 뒤 복원 공사를 공개하고 있습니다.', 'The Ryukyu royal castle site, where post-fire restoration is on view.', '琉球王国の王城跡。火災後の復元工事を公開しています。'],
+      ['오키나와 현립 박물관·미술관', 'Okinawa Prefectural Museum & Art Museum', '沖縄県立博物館・美術館', '나하 신도심에 있는 박물관과 미술관으로, 류큐 왕국부터 현대까지 오키나와의 역사와 자연을 다룹니다.', 'Naha\'s museum and art museum covering Okinawa\'s nature and history from the Ryukyu Kingdom onwards.', '那覇新都心にある博物館・美術館で、琉球王国から現代までの沖縄の歴史と自然を紹介します。'],
+      ['만좌모', 'Cape Manzamo', '万座毛', '코끼리 코 모양 바위로 유명한 해안 절벽으로, 북부 츄라우미 수족관 가는 길에 들르기 좋습니다.', 'Seaside cliffs known for the elephant-trunk rock, a handy stop on the way north to the aquarium.', '象の鼻の形の岩で知られる海岸の断崖で、北部の美ら海水族館へ向かう途中に寄りやすいです。'],
     ],
     t: [
       ['북부 명소는 대중교통이 불편해 렌터카를 많이 빌립니다. 운전은 왼쪽 차선입니다.', 'Northern sights are hard to reach by bus, so many rent a car; driving is on the left.', '北部の名所は公共交通が不便なのでレンタカーが多いです。左側通行です。'],

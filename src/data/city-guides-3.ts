@@ -57,6 +57,7 @@ export const NOTES_3: Record<string, Compact> = {
       ['진리의 성전', 'Sanctuary of Truth', 'サンクチュアリー・オブ・トゥルース', '나무 조각으로 장식된 거대한 건축물입니다. 전통 목재 결합 기법을 써서 못 사용을 최소화했습니다.', 'A vast carved-wood structure built with traditional timber-joining techniques that minimize the use of nails.', '木彫で飾られた巨大建築です。伝統的な木組みの技法で釘の使用を抑えています。'],
       ['꼬란 섬', 'Ko Lan', 'ラン島', '파타야에서 배로 가는 섬으로, 여러 해변에서 해수욕과 해양 활동을 즐길 수 있습니다.', 'An island reached by boat from Pattaya, with beaches for swimming and other water activities.', 'パタヤから船で渡る島で、複数のビーチで海水浴やマリンアクティビティを楽しめます。'],
       ['워킹 스트리트', 'Walking Street', 'ウォーキングストリート', '파타야의 야간 유흥가로, 저녁에 거리와 업소가 활기를 띱니다.', 'Pattaya\'s nightlife district, lively in the evening.', 'パタヤの夜の繁華街で、夕方以降に通りや店がにぎわいます。'],
+      ['농눅 트로피컬 가든', 'Nong Nooch Tropical Garden', 'ノンヌッチ・トロピカルガーデン', '테마별 정원과 공연이 있는 대형 식물원으로, 파타야 남쪽에 있습니다.', 'A large botanical garden of themed gardens and shows, south of Pattaya.', 'テーマ別の庭園やショーがある大型植物園で、パタヤの南にあります。'],
     ],
     t: [
       ['파타야 시내에서는 해변도로와 세컨드로드를 다니는 합승 트럭 \'썽태우\'를 이용할 수 있습니다. 탑승 전 노선과 요금을 확인하세요.', 'Shared pickup trucks called songthaews serve Pattaya\'s Beach Road and Second Road. Confirm the route and fare before boarding.', 'パタヤ市内ではビーチロードとセカンドロードを走る乗合トラック「ソンテウ」を利用できます。乗る前に経路と料金を確認しましょう。'],

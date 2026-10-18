@@ -7,6 +7,8 @@ export const NOTES_7: Record<string, Compact> = {
       ['라스베이거스 스트립', 'The Strip', 'ストリップ', '대형 호텔·카지노가 늘어선 중심 거리. 호텔마다 무료 볼거리가 있습니다.', 'The boulevard of mega-resorts, many with free shows.', '大型ホテルとカジノが並ぶメイン通り。ホテルごとに無料の見どころがあります。'],
       ['벨라지오 분수 쇼', 'Fountains of Bellagio', 'ベラージオの噴水ショー', '저녁마다 음악에 맞춰 춤추는 무료 분수 쇼입니다.', 'A free musical fountain show every evening.', '毎晩音楽に合わせて踊る無料の噴水ショーです。'],
       ['그랜드 캐니언·레드록 캐니언', 'Grand Canyon and Red Rock Canyon', 'グランドキャニオン・レッドロックキャニオン', '사막 협곡을 보러 가는 당일 여행지입니다.', 'Desert canyons within reach on a day trip.', '砂漠の峡谷を見に行く日帰りの行き先です。'],
+      ['후버 댐', 'Hoover Dam', 'フーバーダム', '콜로라도강의 거대한 콘크리트 댐으로, 라스베이거스에서 차로 약 45분 거리입니다. 방문자 센터와 투어가 있습니다.', 'The giant Colorado River dam about 45 minutes\' drive away, with a visitor centre and tours.', 'コロラド川の巨大なダムで、ラスベガスから車で約45分。ビジターセンターとツアーがあります。'],
+      ['네온 박물관', 'The Neon Museum', 'ネオン博物館', '옛 카지노와 호텔의 네온 간판을 모아 둔 야외 전시장으로, 밤 투어가 인기입니다.', 'An outdoor \'boneyard\' of old casino and hotel neon signs; night tours are popular.', 'かつてのカジノやホテルのネオンサインを集めた屋外展示場で、夜のツアーが人気です。'],
     ],
     t: [
       ['호텔 요금 외에 리조트 요금이 1박마다 따로 붙는 곳이 많습니다.', 'Many hotels add a nightly resort fee on top of the room rate.', '多くのホテルで宿泊料とは別に1泊ごとのリゾートフィーがかかります。'],
@@ -70,6 +72,8 @@ export const NOTES_7: Record<string, Compact> = {
       ['와이탄', 'The Bund', '外灘', '강변의 근대 건축물과 건너편 푸둥 마천루 야경이 유명합니다.', 'Colonial-era buildings facing the Pudong skyline across the river.', '川沿いの近代建築と対岸の浦東の夜景が有名です。'],
       ['위위안', 'Yu Garden', '豫園', '명나라 정원과 주변 옛 상점가입니다.', 'A Ming-dynasty garden and the old bazaar around it.', '明代の庭園と周りの古い商店街です。'],
       ['티엔즈팡·신톈디', 'Tianzifang and Xintiandi', '田子坊・新天地', '옛 골목 주택을 카페·상점으로 바꾼 거리입니다.', 'Old lane houses turned into cafés and shops.', '古い路地の住宅をカフェや店にした通りです。'],
+      ['상하이 박물관', 'Shanghai Museum', '上海博物館', '인민광장에 있는 중국 고대 미술 박물관으로, 청동기·도자기·서화 컬렉션이 유명합니다.', 'A museum of ancient Chinese art on People\'s Square, known for bronzes, ceramics and calligraphy.', '人民広場にある中国古代美術の博物館で、青銅器・陶磁器・書画のコレクションが有名です。'],
+      ['상하이 디즈니랜드', 'Shanghai Disneyland', '上海ディズニーランド', '푸둥에 있는 디즈니 테마파크로, 지하철 11호선으로 갈 수 있습니다.', 'Disney\'s theme park in Pudong, reached by Metro Line 11.', '浦東にあるディズニーのテーマパークで、地下鉄11号線で行けます。'],
     ],
     t: [
       ['결제는 알리페이·위챗페이가 기본이라 출국 전에 외국 카드 연동을 해 두면 편합니다.', 'Alipay and WeChat Pay are the norm; link a foreign card before you go.', '支払いはアリペイ・WeChatペイが基本。出発前に海外カードを連携しておくと便利です。'],

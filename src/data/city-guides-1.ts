@@ -38,6 +38,8 @@ export const NOTES_1: Record<string, Compact> = {
       ['아크로폴리스·파르테논', 'Acropolis and Parthenon', 'アクロポリス・パルテノン神殿', '고대 아테네의 성채 언덕. 한낮에는 매우 더우니 문 여는 시간에 맞춰 가는 것이 좋습니다.', 'The ancient citadel; go right at opening time because midday is very hot.', '古代アテネの城塞の丘。日中はとても暑いので開門直後がおすすめです。'],
       ['아크로폴리스 박물관', 'Acropolis Museum', 'アクロポリス博物館', '아크로폴리스에서 나온 조각을 모은 박물관. 유리 바닥 아래로 옛 유적이 보입니다.', 'Houses sculptures from the Acropolis, with excavations visible beneath glass floors.', 'アクロポリスの彫刻を集めた博物館。ガラスの床の下に遺跡が見えます。'],
       ['플라카 지구', 'Plaka', 'プラカ地区', '아크로폴리스 아래 골목에 타베르나와 기념품 가게가 모인 옛 동네입니다.', 'The old quarter below the Acropolis, full of tavernas and souvenir shops.', 'アクロポリスの麓の路地にタベルナや土産物店が集まる旧市街です。'],
+      ['국립고고학박물관', 'National Archaeological Museum', '国立考古学博物館', '그리스 최대의 고고학 박물관으로, 아가멤논의 황금 가면과 청동 조각 등 선사 시대부터 고대 말기까지의 유물을 소장합니다.', 'Greece\'s largest archaeological museum, from the Mask of Agamemnon to classical bronzes.', 'ギリシャ最大の考古学博物館で、アガメムノンの黄金マスクや古代のブロンズ像などを収蔵します。'],
+      ['베나키 박물관', 'Benaki Museum', 'ベナキ博物館', '고대부터 근현대까지 그리스 문화 전반을 한 건물에서 훑어볼 수 있는 사립 박물관입니다.', 'A private museum tracing Greek culture from antiquity to the modern era under one roof.', '古代から近現代までのギリシャ文化を一つの館でたどれる私立博物館です。'],
     ],
     t: [
       ['아테네 고대 유적을 여러 곳 갈 계획이라면 각 유적의 공식 입장권과 방문 시간을 따로 확인하세요. 기존 통합권은 폐지됐습니다.', 'If you plan to visit several ancient sites in Athens, check each site\'s official ticket and visiting hours separately. The former combined ticket has been discontinued.', 'アテネの古代遺跡を複数訪れる場合は、各遺跡の公式入場券と見学時間を個別に確認してください。以前の共通券は廃止されました。'],
@@ -49,6 +51,8 @@ export const NOTES_1: Record<string, Compact> = {
       ['스카이 타워', 'Sky Tower', 'スカイタワー', '시내 어디서나 보이는 전망 타워. 꼭대기 전망대에서 항구와 화산 지형이 보입니다.', 'The tower visible across the city, with views of the harbour and volcanic cones.', '市内のどこからでも見える展望タワー。港と火山地形が見渡せます。'],
       ['마운트 이든', 'Maungawhau / Mount Eden', 'マウント・イーデン', '시내 가까운 휴화산. 분화구 둘레를 걸으며 도시 전경을 무료로 볼 수 있습니다.', 'A dormant volcano near downtown; walk the crater rim for free city views.', '市内に近い休火山。火口の周りを歩いて無料で街を一望できます。'],
       ['와이헤케 섬', 'Waiheke Island', 'ワイヘケ島', '페리로 가는 섬. 해변과 와이너리가 많아 하루 나들이로 인기입니다.', 'A ferry ride away, known for beaches and vineyards; a popular day trip.', 'フェリーで行く島。ビーチとワイナリーが多く日帰り旅行に人気です。'],
+      ['오클랜드 전쟁기념 박물관', 'Auckland War Memorial Museum', 'オークランド戦争記念博物館', '도메인 공원 언덕 위 박물관으로, 마오리와 태평양 문화 전시가 충실합니다.', 'A museum on the Domain hill with strong Māori and Pacific collections.', 'ドメイン公園の丘に立つ博物館で、マオリと太平洋の文化展示が充実しています。'],
+      ['호비튼 영화 세트장', 'Hobbiton Movie Set', 'ホビット村映画セット', '영화 \'반지의 제왕\'과 \'호빗\' 촬영지인 마타마타의 세트장으로, 가이드 투어로만 볼 수 있습니다. 오클랜드에서 차로 약 2시간입니다.', 'The Lord of the Rings and Hobbit set at Matamata, seen only on guided tours; about two hours\' drive.', '映画『ロード・オブ・ザ・リング』『ホビット』のマタマタのロケセットで、ガイドツアーのみ。オークランドから車で約2時間。'],
     ],
     t: [
       ['오클랜드 시내버스는 현금을 받지 않습니다. AT HOP 카드나 비접촉 카드를 쓰고, 기차·페리의 종이 승차권과 요금 차이를 노선별로 확인하세요.', 'Auckland buses do not accept cash. Use an AT HOP card or contactless payment, and check route-specific fares against paper tickets for trains and ferries.', 'オークランドのバスでは現金払いができません。AT HOPカードかタッチ決済を使い、鉄道・フェリーの紙の切符との運賃差は路線ごとに確認しましょう。'],
@@ -128,6 +132,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['도이수텝 사원', 'Wat Phra That Doi Suthep', 'ドイ・ステープ寺院', '산 위 황금 탑이 있는 사원. 계단을 올라가면 시내가 내려다보입니다.', 'A mountain temple with a golden stupa and views over the city from the top of its stairs.', '山の上に黄金の仏塔がある寺院。階段を上ると市内が見渡せます。'],
       ['구시가지 사원들', 'Old City temples', '旧市街の寺院', '해자로 둘러싸인 구시가지 안에 왓 프라싱·왓 체디루앙 등 옛 사원이 모여 있습니다.', 'Inside the moated Old City are temples such as Wat Phra Singh and Wat Chedi Luang.', '堀に囲まれた旧市街にワット・プラシンやワット・チェディルアンなどの古寺が集まります。'],
       ['선데이 워킹 스트리트', 'Sunday Walking Street', 'サンデーウォーキングストリート', '일요일 저녁 구시가지 중심 거리에 열리는 야시장입니다.', 'A night market that fills the main Old City street on Sunday evenings.', '日曜の夕方、旧市街のメイン通りで開かれるナイトマーケットです。'],
+      ['엘리펀트 네이처 파크', 'Elephant Nature Park', 'エレファント・ネイチャー・パーク', '구조된 코끼리를 보호하는 시설로, 코끼리 타기 없이 관찰과 먹이 주기 위주로 방문합니다. 예약제입니다.', 'A sanctuary for rescued elephants; visits focus on watching and feeding, with no riding. Booking required.', '保護されたゾウの施設で、乗象なしで観察や餌やりが中心です。予約制です。'],
     ],
     t: [
       ['시내 이동은 붉은 합승 트럭(썽태우)이 편합니다. 타기 전에 목적지를 말하고 요금을 정하세요.', 'Red shared trucks (songthaew) are the easy way around; agree the destination and fare first.', '市内移動は赤い乗り合いトラック（ソンテウ）が便利。乗る前に行き先と料金を決めましょう。'],

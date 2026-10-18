@@ -31,6 +31,8 @@ export const NOTES_4: Record<string, Compact> = {
       ['펑자 야시장', 'Fengjia Night Market', '逢甲夜市', '대만에서 손꼽히게 큰 야시장. 새로운 길거리 음식이 많이 나오는 곳입니다.', 'One of Taiwan’s biggest night markets, known for new street-food trends.', '台湾有数の大きな夜市。新しい屋台グルメが生まれる場所です。'],
       ['무지개 마을', 'Rainbow Village', '彩虹眷村', '벽과 바닥이 알록달록한 그림으로 덮인 작은 마을입니다.', 'A small village covered in colourful painted murals.', '壁や地面がカラフルな絵で覆われた小さな村です。'],
       ['궁원안과', 'Miyahara', '宮原眼科', '옛 안과 건물을 개조한 디저트·펑리수 가게입니다.', 'A former eye clinic turned into a dessert and pineapple-cake shop.', '旧眼科の建物を改装したスイーツとパイナップルケーキの店です。'],
+      ['국립 타이중 극장', 'National Taichung Theater', '台中国家歌劇院', '이토 도요가 설계한 곡면 건축으로 유명한 공연장으로, 공연이 없어도 건물과 옥상 정원을 둘러볼 수 있습니다.', 'Toyo Ito\'s curving opera house; the building and rooftop garden are open even without a show.', '伊東豊雄設計の曲面建築で知られる劇場で、公演がなくても館内と屋上庭園を見学できます。'],
+      ['국립 자연과학박물관', 'National Museum of Natural Science', '国立自然科学博物館', '공룡 전시와 열대 식물원 온실이 있는 대형 과학박물관입니다.', 'A large science museum with dinosaur halls and a tropical rainforest greenhouse.', '恐竜展示や熱帯植物園の温室がある大型の科学博物館です。'],
     ],
     t: [
       ['일월담·가오메이 습지 등 근교 명소는 버스로 하루 일정에 다녀오기 좋습니다.', 'Sun Moon Lake and Gaomei Wetlands make good day trips by bus.', '日月潭や高美湿地など近郊の名所はバスで日帰りできます。'],
@@ -42,6 +44,7 @@ export const NOTES_4: Record<string, Compact> = {
       ['초르수 바자르', 'Chorsu Bazaar', 'チョルスー・バザール', '파란 돔 아래 향신료·건과일·빵이 모인 큰 전통 시장입니다.', 'A huge traditional market under a blue dome, full of spices, dried fruit and bread.', '青いドームの下にスパイスやドライフルーツ、パンが並ぶ大きな市場です。'],
       ['타슈켄트 지하철역', 'Tashkent Metro stations', 'タシケント地下鉄の駅', '역마다 장식이 달라 박물관 같다는 평을 듣는 지하철입니다.', 'Each station is uniquely decorated, often called an underground museum.', '駅ごとに装飾が異なり、地下の美術館とも呼ばれます。'],
       ['하즈라티 이맘 단지', 'Hazrati Imam Complex', 'ハズラティ・イマーム', '모스크와 마드라사가 모인 이슬람 종교 단지입니다.', 'A religious complex of mosques and madrasas.', 'モスクとマドラサが集まるイスラムの宗教施設群です。'],
+      ['사마르칸트', 'Samarkand', 'サマルカンド', '레기스탄 광장으로 유명한 실크로드 도시로, 타슈켄트에서 고속열차로 당일 또는 1박으로 다녀옵니다.', 'The Silk Road city of the Registan, reachable from Tashkent by high-speed train as a day or overnight trip.', 'レギスタン広場で知られるシルクロードの都市で、タシケントから高速列車で日帰りか1泊で行けます。'],
     ],
     t: [
       ['타슈켄트에서 사마르칸트·부하라로 가는 아프로시욥 고속열차는 성수기에 표를 미리 예매하세요.', 'Book Afrosiyob high-speed train tickets from Tashkent to Samarkand and Bukhara in advance, especially in peak season.', 'タシュケントからサマルカンド・ブハラへ向かう高速列車アフラシアブの切符は、繁忙期には早めに予約しましょう。'],
@@ -53,6 +56,8 @@ export const NOTES_4: Record<string, Compact> = {
       ['나리칼라 요새', 'Narikala Fortress', 'ナリカラ要塞', '케이블카로 올라 구시가지와 쿠라강을 내려다보는 옛 요새입니다.', 'Ride the cable car up to the old fortress overlooking the Old Town and Kura River.', 'ロープウェイで上り、旧市街とクラ川を見下ろす古い要塞です。'],
       ['아바노투바니 유황온천', 'Abanotubani sulphur baths', 'アバノトゥバニ硫黄温泉', '벽돌 돔 지붕 아래 개인실을 빌리는 유황 온천 거리입니다.', 'Brick-domed sulphur bathhouses with private rooms to rent.', 'レンガのドーム屋根の下で個室を借りる硫黄温泉街です。'],
       ['므타츠민다 언덕', 'Mtatsminda Park', 'ムタツミンダ公園', '푸니쿨라로 오르는 언덕 공원. 시내 야경이 보입니다.', 'A hilltop park reached by funicular with city views at night.', 'ケーブルカーで登る丘の公園。市内の夜景が見えます。'],
+      ['조지아 국립박물관', 'Georgian National Museum', 'ジョージア国立博物館', '루스타벨리 거리에 있는 박물관으로, 고대 황금 유물을 모은 보물관이 유명합니다.', 'On Rustaveli Avenue, best known for its treasury of ancient gold.', 'ルスタヴェリ通りにある博物館で、古代の黄金細工を集めた宝物館が有名です。'],
+      ['므츠헤타', 'Mtskheta', 'ムツヘタ', '조지아의 옛 수도로, 즈바리 수도원과 스베티츠호벨리 대성당이 유네스코 세계유산입니다. 트빌리시에서 차로 약 30분입니다.', 'Georgia\'s ancient capital, whose Jvari Monastery and Svetitskhoveli Cathedral are UNESCO-listed; about 30 minutes away.', 'ジョージアの古都で、ジュヴァリ修道院とスヴェティツホヴェリ大聖堂は世界遺産。トビリシから車で約30分。'],
     ],
     t: [
       ['시내 대중교통은 교통카드나 비접촉 카드로 90분 안에 갈아타기가 자유롭습니다.', 'A transit or contactless card covers unlimited transfers within 90 minutes.', '市内交通は交通カードやタッチ決済で、90分以内なら乗り換え自由です。'],

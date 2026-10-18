@@ -620,6 +620,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "thessaloniki",
+    "country": "그리스",
+    "countryEn": "Greece",
+    "nameKo": "테살로니키",
+    "nameEn": "Thessaloniki",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "macau",
     "country": "중국 마카오",
     "countryEn": "Macau",

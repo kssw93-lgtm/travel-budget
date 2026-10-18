@@ -430,4 +430,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['포르타 누오바역 주변', 'Around Porta Nuova Station', 'ポルタ・ヌオーヴァ駅周辺', '기차역과 공항버스가 있어 이동이 편합니다.', 'Handy for trains and the airport bus.', '鉄道駅と空港バスがあり移動に便利です。'],
     ],
   },
+  thessaloniki: {
+    o: ['그리스 북부의 항구 도시이자 제2의 도시로, 바닷가의 화이트 타워와 유네스코 세계유산인 비잔틴 교회들이 남아 있습니다. 비잔틴·오스만·소아시아 문화가 섞인 음식으로 유명하며, 2024년 지하철이 개통했습니다.', 'Greece’s second city and northern port, with the seafront White Tower and UNESCO-listed Byzantine churches; famous for food shaped by Byzantine, Ottoman and Asia Minor influences, and served by a metro since 2024.', 'ギリシャ北部の港町で第2の都市です。海沿いのホワイトタワーやユネスコ世界遺産のビザンチン教会が残ります。ビザンチン・オスマン・小アジアの文化が混ざった料理で有名で、2024年に地下鉄が開通しました。'],
+    d: [2, 3],
+    s: [
+      ['시내 중심(아리스토텔레스 광장 주변)', 'City Centre (around Aristotelous Square)', '中心部（アリストテレス広場周辺）', '바닷가 산책로와 시장, 지하철역이 가까운 중심지입니다.', 'Close to the waterfront, markets and metro.', '海沿いの遊歩道や市場、地下鉄駅に近い中心地です。'],
+      ['아노 폴리(윗마을)', 'Ano Poli (Upper Town)', 'アノ・ポリ（旧市街の高台）', '성벽과 오래된 골목이 남은 언덕 위 동네로, 시내 전망이 좋습니다.', 'The hilltop old quarter of walls and lanes with city views.', '城壁や古い路地が残る丘の上の地区で、市内の眺めが良いです。'],
+    ],
+  },
 };

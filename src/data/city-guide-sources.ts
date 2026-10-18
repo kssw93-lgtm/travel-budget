@@ -1057,4 +1057,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'verona:h2': 'https://casadigiulietta.comune.verona.it/nqcontent.cfm?a_name=ticket_42703',
   'verona:h3': 'https://www.visitverona.it/it/esplora/degustare-verona',
   'verona:t1': 'https://www.aeroportoverona.it/en_gb/transport/from-to/verona',
+  'thessaloniki:h1': 'https://www.amth.gr/en/visit/hours-and-tickets',
+  'thessaloniki:h2': 'https://www.lpth.gr/indexeg.php',
+  'thessaloniki:h3': 'https://blog.thessaloniki.travel/en/experience/food-drink/105-must-try-dishes-in-thessaloniki',
+  'thessaloniki:t1': 'https://www.skg-airport.gr/en/category-detailed/ctg_id-37/nd_id-425',
 };

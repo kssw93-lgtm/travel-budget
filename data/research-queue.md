@@ -130,6 +130,8 @@
 | 베로나 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 베로나 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 베로나 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 테살로니키 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 테살로니키 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 마카오 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 마카오 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1008,6 +1010,8 @@
 | BNE-AT-001 | 브리즈번 | 스토리 브리지 낮 등반 (성인) | 150 AUD | A | 예 | 재검증 | [Story Bridge Adventure Climb](https://storybridgeadventureclimb.com.au/activity/story-bridge-day-climb/) |
 | BNE-AT-002 | 브리즈번 | 퀸즐랜드 박물관 (입장 무료) | 0 AUD | A | 예 | 재검증 | [Queensland Museum](https://www.museum.qld.gov.au/kurilpa/plan-your-visit/hours-and-admission/) |
 | BNE-AT-003 | 브리즈번 | QAGOMA (입장 무료) | 0 AUD | A | 예 | 재검증 | [QAGOMA](https://www.qagoma.qld.gov.au/corporate-information/conditions-of-entry/) |
+| SKG-TR-001 | 테살로니키 | 테살로니키 지하철 1회권 | 0.6 EUR | A | 예 | 재검증 | [Thessaloniki Metro](https://www.thessmetro.gr/en/tickets/) |
+| SKG-AT-001 | 테살로니키 | 테살로니키 고고학 박물관 (성인) | 10 EUR | A | 예 | 재검증 | [Archaeological Museum of Thessaloniki](https://www.amth.gr/en/visit/hours-and-tickets) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

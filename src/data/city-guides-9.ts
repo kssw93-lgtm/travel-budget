@@ -710,4 +710,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 베로나 공항에서 에어링크 버스(199번)를 타면 약 15분 만에 포르타 누오바역에 닿으며, 버스 안에서 카드로 낼 수 있습니다. 시내버스 1회권은 버스 안에서 사면 더 비쌉니다.', 'Airport to city: the Airlink bus (line 199) reaches Porta Nuova station in about 15 minutes, with card payment on board; city bus singles cost more when bought on board.', '空港から市内へ：ヴェローナ空港からエアリンクバス（199番）で約15分でポルタ・ヌオーヴァ駅に着き、車内でカード払いができます。市内バスの1回券は車内で買うと高くなります。'],
     ],
   },
+  thessaloniki: {
+    h: [
+      ['테살로니키 고고학 박물관', 'Archaeological Museum of Thessaloniki', 'テッサロニキ考古学博物館', '마케도니아 왕국의 금 장신구 등 북부 그리스의 고대 유물을 전시합니다.', 'Ancient treasures of northern Greece, including Macedonian gold.', 'マケドニア王国の金細工など北部ギリシャの古代の遺物を展示しています。'],
+      ['화이트 타워', 'White Tower', 'ホワイトタワー', '바닷가에 선 도시의 상징으로, 내부는 도시 역사 전시관입니다. 동시 입장 인원이 제한됩니다.', 'The city’s seafront symbol, housing a city-history exhibition; visitor numbers inside are limited.', '海沿いに立つ街のシンボルで、内部は街の歴史の展示館です。同時に入れる人数が限られています。'],
+      ['부가차', 'Bougatsa', 'ブガツァ', '필로 반죽에 세몰리나 크림이나 치즈를 넣어 구운 테살로니키의 아침 빵입니다.', 'Thessaloniki’s breakfast pastry of phyllo filled with semolina cream or cheese.', 'フィロ生地にセモリナのクリームやチーズを包んで焼いたテッサロニキの朝食パイです。'],
+    ],
+    t: [
+      ['공항에서 시내: 마케도니아 공항 1번 터미널 4번 출구 앞에서 01X번(심야 01N번) 버스를 타면 시내와 기차역을 거쳐 시외버스 터미널까지 갑니다. 공항 노선은 일반 승차권이 아닌 전용 1회권이 필요합니다.', 'Airport to city: bus 01X (night 01N) leaves from Exit 4 of Terminal 1 for the centre, the railway station and the intercity bus terminal; it needs its own single ticket, not a standard one.', '空港から市内へ：マケドニア空港第1ターミナル4番出口前から01X番（深夜は01N番）バスで市内や鉄道駅を経て長距離バスターミナルまで行けます。空港路線は通常の乗車券ではなく専用の1回券が必要です。'],
+    ],
+  },
 };

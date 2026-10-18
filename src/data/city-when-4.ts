@@ -345,4 +345,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['줄리엣의 집은 온라인 사전 예약이 필수이니 미리 표를 사 두세요.', 'Juliet’s House requires online booking — buy tickets in advance.', 'ジュリエットの家はオンラインでの事前予約が必須なので、前もってチケットを買っておきましょう。'],
   },
+  thessaloniki: {
+    p: [
+      ['4~6월', 'April–June', '4〜6月', '바닷가 산책로와 유적지를 걷기 좋은 날씨입니다.', 'Pleasant weather for the waterfront and historic sites.', '海沿いの遊歩道や遺跡を歩くのに良い気候です。'],
+      ['9~10월', 'September–October', '9〜10月', '더위가 가라앉고 바다가 따뜻해 근교 할키디키 해변도 다녀오기 좋습니다.', 'The heat eases and the sea is warm — good for a trip to the Halkidiki beaches.', '暑さが和らぎ海も暖かいので、近郊のハルキディキのビーチへ行くのにも良い時期です。'],
+    ],
+    x: ['11~3월에는 매달 첫째·셋째 일요일에 고고학 박물관 등 국립 유적지 입장이 무료입니다.', 'From November to March, national sites such as the Archaeological Museum are free on the first and third Sunday of each month.', '11〜3月は毎月第1・第3日曜日に考古学博物館など国立の遺跡が入場無料です。'],
+  },
 };

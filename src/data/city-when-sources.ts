@@ -406,4 +406,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'verona:p1': 'https://www.arena.it/en/arena-verona-opera-festival/get-ready-for-the-opera/visitare-l-arena-di-verona/',
   'verona:p2': 'https://www.visitverona.it/it/esplora/degustare-verona',
   'verona:x': 'https://casadigiulietta.comune.verona.it/nqcontent.cfm?a_name=ticket_42703',
+  'thessaloniki:p1': 'https://thessaloniki.travel/pdf/Thessaloniki_EN.pdf',
+  'thessaloniki:p2': 'https://thessaloniki.travel/pdf/Thessaloniki_EN.pdf',
+  'thessaloniki:x': 'https://www.amth.gr/en/visit/hours-and-tickets',
 };

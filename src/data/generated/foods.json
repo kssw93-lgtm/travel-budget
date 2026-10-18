@@ -10740,6 +10740,60 @@
     "note": "관광청 공식 안내 기준(Claude 크롬 확인 2026-10-14)"
   },
   {
+    "cityId": "thessaloniki",
+    "nameKo": "부가차",
+    "nameEn": "Bougatsa",
+    "reason": "필로 반죽에 세몰리나 크림이나 치즈를 넣어 구운 아침 빵",
+    "reasonEn": "Phyllo pastry filled with semolina cream or cheese",
+    "desc": {
+      "ko": "필로 반죽에 세몰리나 크림이나 치즈를 넣어 구운 아침 빵",
+      "en": "Phyllo pastry filled with semolina cream or cheese",
+      "ja": "フィロ生地にセモリナのクリームやチーズを包んで焼いたパイ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Thessaloniki Tourism",
+    "recommendUrl": "https://blog.thessaloniki.travel/en/experience/food-drink/105-must-try-dishes-in-thessaloniki",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "thessaloniki",
+    "nameKo": "트리고나 파노라마토스",
+    "nameEn": "Trigona Panoramatos",
+    "reason": "크림을 가득 채운 원뿔 모양 페이스트리",
+    "reasonEn": "Cone-shaped pastry filled with rich cream",
+    "desc": {
+      "ko": "크림을 가득 채운 원뿔 모양 페이스트리",
+      "en": "Cone-shaped pastry filled with rich cream",
+      "ja": "クリームをたっぷり詰めた円すい形のパイ菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Thessaloniki Tourism",
+    "recommendUrl": "https://blog.thessaloniki.travel/en/experience/food-drink/193-gastronomy-and-wines",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "thessaloniki",
+    "nameKo": "홍합 필라프",
+    "nameEn": "Mussel Pilaf",
+    "reason": "테살로니키 바다에서 나는 홍합으로 지은 밥 요리",
+    "reasonEn": "Rice cooked with local mussels",
+    "desc": {
+      "ko": "테살로니키 바다에서 나는 홍합으로 지은 밥 요리",
+      "en": "Rice cooked with local mussels",
+      "ja": "テッサロニキの海でとれたムール貝で炊いたご飯料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Thessaloniki Tourism",
+    "recommendUrl": "https://blog.thessaloniki.travel/en/experience/food-drink/105-must-try-dishes-in-thessaloniki",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "tongyeong",
     "nameKo": "충무김밥",
     "nameEn": "Chungmu Gimbap",

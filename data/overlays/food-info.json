@@ -4987,5 +4987,20 @@
     "ko": "별 모양의 베로나 전통 크리스마스 빵",
     "en": "Verona’s star-shaped Christmas sweet bread",
     "ja": "星形をしたヴェローナの伝統的なクリスマスの菓子パン"
+  },
+  "thessaloniki:Bougatsa": {
+    "ko": "필로 반죽에 세몰리나 크림이나 치즈를 넣어 구운 아침 빵",
+    "en": "Phyllo pastry filled with semolina cream or cheese",
+    "ja": "フィロ生地にセモリナのクリームやチーズを包んで焼いたパイ"
+  },
+  "thessaloniki:Trigona Panoramatos": {
+    "ko": "크림을 가득 채운 원뿔 모양 페이스트리",
+    "en": "Cone-shaped pastry filled with rich cream",
+    "ja": "クリームをたっぷり詰めた円すい形のパイ菓子"
+  },
+  "thessaloniki:Mussel Pilaf": {
+    "ko": "테살로니키 바다에서 나는 홍합으로 지은 밥 요리",
+    "en": "Rice cooked with local mussels",
+    "ja": "テッサロニキの海でとれたムール貝で炊いたご飯料理"
   }
 }

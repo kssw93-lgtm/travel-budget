@@ -2289,6 +2289,60 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "boston",
+    "nameKo": "클램차우더",
+    "nameEn": "New England Clam Chowder",
+    "reason": "조개와 감자를 크림 수프로 끓인 보스턴 대표 음식",
+    "reasonEn": "Creamy soup of clams and potatoes, Boston’s classic",
+    "desc": {
+      "ko": "조개와 감자를 크림 수프로 끓인 보스턴 대표 음식",
+      "en": "Creamy soup of clams and potatoes, Boston’s classic",
+      "ja": "貝とじゃがいもをクリームスープで煮たボストンの代表料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Meet Boston",
+    "recommendUrl": "https://www.meetboston.com/blog/post/best-seafood-in-boston/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "boston",
+    "nameKo": "랍스터 롤",
+    "nameEn": "Lobster Roll",
+    "reason": "버터나 마요네즈로 버무린 랍스터 살을 빵에 채운 샌드위치",
+    "reasonEn": "Lobster meat dressed in butter or mayo in a toasted roll",
+    "desc": {
+      "ko": "버터나 마요네즈로 버무린 랍스터 살을 빵에 채운 샌드위치",
+      "en": "Lobster meat dressed in butter or mayo in a toasted roll",
+      "ja": "バターやマヨネーズで和えたロブスターの身をパンに挟んだサンドイッチ"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Meet Boston",
+    "recommendUrl": "https://www.meetboston.com/blog/post/best-seafood-in-boston/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "boston",
+    "nameKo": "생굴",
+    "nameEn": "Oysters",
+    "reason": "뉴잉글랜드 바다에서 나는 신선한 생굴",
+    "reasonEn": "Fresh New England oysters on the half shell",
+    "desc": {
+      "ko": "뉴잉글랜드 바다에서 나는 신선한 생굴",
+      "en": "Fresh New England oysters on the half shell",
+      "ja": "ニューイングランドの海でとれる新鮮な生ガキ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Meet Boston",
+    "recommendUrl": "https://www.meetboston.com/blog/post/top-oysters-spots-in-boston/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "brisbane",
     "nameKo": "모턴 베이 벅",
     "nameEn": "Moreton Bay Bugs",
@@ -10601,6 +10655,60 @@
     "priceStatus": "대기",
     "recommendSource": "Warsaw Tourist Office",
     "recommendUrl": "https://go2warsaw.pl/en/dessert/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "washington-dc",
+    "nameKo": "하프스모크",
+    "nameEn": "Half-Smoke",
+    "reason": "돼지고기·소고기 반반으로 만든 훈제 소시지에 칠리를 얹은 워싱턴 대표 음식",
+    "reasonEn": "Smoked half-pork, half-beef sausage topped with chili",
+    "desc": {
+      "ko": "돼지고기·소고기 반반으로 만든 훈제 소시지에 칠리를 얹은 워싱턴 대표 음식",
+      "en": "Smoked half-pork, half-beef sausage topped with chili",
+      "ja": "豚肉と牛肉を半々で作った燻製ソーセージにチリをかけたワシントン名物"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Destination DC",
+    "recommendUrl": "https://washington.org/visit-dc/dc-signature-half-smoke-all-you-need-to-know",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "washington-dc",
+    "nameKo": "멈보 소스 치킨",
+    "nameEn": "Mumbo Sauce Wings",
+    "reason": "달콤새콤한 붉은 멈보 소스를 곁들인 튀긴 닭날개",
+    "reasonEn": "Fried wings with sweet-tangy red mumbo sauce",
+    "desc": {
+      "ko": "달콤새콤한 붉은 멈보 소스를 곁들인 튀긴 닭날개",
+      "en": "Fried wings with sweet-tangy red mumbo sauce",
+      "ja": "甘酸っぱい赤いマンボソースを添えたフライドチキンウィング"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Destination DC",
+    "recommendUrl": "https://washington.org/visit-dc/ways-fit-local",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "washington-dc",
+    "nameKo": "체서피크 블루크랩",
+    "nameEn": "Chesapeake Blue Crab",
+    "reason": "인근 체서피크만에서 잡히는 푸른 꽃게 요리",
+    "reasonEn": "Blue crab from the nearby Chesapeake Bay",
+    "desc": {
+      "ko": "인근 체서피크만에서 잡히는 푸른 꽃게 요리",
+      "en": "Blue crab from the nearby Chesapeake Bay",
+      "ja": "近くのチェサピーク湾でとれるブルークラブの料理"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Destination DC",
+    "recommendUrl": "https://washington.org/visit-dc/all-american-eats-washington-dc",
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {

@@ -357,4 +357,10 @@ export const WHEN_SOURCES: Record<string, string> = {
   'brisbane:p1': 'https://storybridgeadventureclimb.com.au/activity/story-bridge-day-climb/',
   'brisbane:p2': 'https://www.visitbrisbane.com.au/south-bank/things-to-do/swimming-at-south-bank?sc_lang=en-au',
   'brisbane:x': 'https://www.visitbrisbane.com.au/south-bank/things-to-do/swimming-at-south-bank?sc_lang=en-au',
+  'washington-dc:p1': 'https://www.nps.gov/thingstodo/visit-national-mall-and-memorial-parks.htm',
+  'washington-dc:p2': 'https://www.si.edu/visit/museums',
+  'washington-dc:x': 'https://www.nps.gov/wamo/planyourvisit/fees.htm',
+  'boston:p1': 'https://www.thefreedomtrail.org/visit',
+  'boston:p2': 'https://www.meetboston.com/blog/post/best-seafood-in-boston/',
+  'boston:x': 'https://www.mfa.org/visit',
 };

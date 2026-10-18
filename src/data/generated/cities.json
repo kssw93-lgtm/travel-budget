@@ -440,6 +440,26 @@
     "stage": "파일럿"
   },
   {
+    "id": "washington-dc",
+    "country": "미국",
+    "countryEn": "United States",
+    "nameKo": "워싱턴 D.C.",
+    "nameEn": "Washington, D.C.",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "boston",
+    "country": "미국",
+    "countryEn": "United States",
+    "nameKo": "보스턴",
+    "nameEn": "Boston",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "macau",
     "country": "중국 마카오",
     "countryEn": "Macau",

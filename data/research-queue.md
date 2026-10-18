@@ -90,6 +90,10 @@
 | 시드니 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 프라하 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 프라하 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 워싱턴 D.C. | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 워싱턴 D.C. | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 보스턴 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 보스턴 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 마카오 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 마카오 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1000,6 +1004,15 @@
 | TRN-AT-003 | 토리노 | 영화 박물관 (성인) | 18 EUR | A | 예 | 재검증 | [Museo Nazionale del Cinema](https://www.museocinema.it/en/plan-your-visit/ticket-prices) |
 | TRN-AT-004 | 토리노 | 토리노 왕궁(무세이 레알리) (성인) | 15 EUR | A | 예 | 재검증 | [Musei Reali Torino](https://museireali.beniculturali.it/il-2026-dei-musei-reali-di-torino-attivita-culturali-mostre-progetti/) |
 | TRN-AT-005 | 토리노 | 토리노 왕궁 (아동) | 0 EUR | A | 예 | 재검증 | [Musei Reali Torino](https://museireali.beniculturali.it/il-2026-dei-musei-reali-di-torino-attivita-culturali-mostre-progetti/) |
+| WAS-TR-001 | 워싱턴 D.C. | 워싱턴 메트로 1회(거리별) | 2.25~6.75 USD | A | 예 | 재검증 | [WMATA](https://www.wmata.com/content/dam/wmata-com/about/public-records/Tariff%2049.pdf) |
+| WAS-AT-003 | 워싱턴 D.C. | 국립문서보관소 (입장 무료) | 0 USD | A | 예 | 재검증 | [National Archives](https://visit.archives.gov/visit/tickets) |
+| WAS-AT-004 | 워싱턴 D.C. | 스미스소니언 국립자연사박물관 (입장 무료) | 0 USD | A | 예 | 재검증 | [Smithsonian](https://naturalhistory.si.edu/visit) |
+| BOS-TR-001 | 보스턴 | MBTA 지하철 1회 | 2.4 USD | A | 예 | 재검증 | [MBTA](https://www.mbta.com/fares/bus-fares) |
+| BOS-AT-001 | 보스턴 | 보스턴 미술관 (성인) | 30 USD | A | 예 | 재검증 | [Museum of Fine Arts, Boston](https://www.mfa.org/visit) |
+| BOS-AT-002 | 보스턴 | 보스턴 미술관 (아동) | 14 USD | A | 예 | 재검증 | [Museum of Fine Arts, Boston](https://www.mfa.org/press-release/museum-of-fine-arts-boston-celebrates-50th-anniversary-of-annual-art-in-bloom) |
+| BOS-AT-003 | 보스턴 | 뉴잉글랜드 수족관 (성인) | 39.95 USD | A | 예 | 재검증 | [New England Aquarium](https://www.neaq.org/visit/tickets/) |
+| BOS-AT-004 | 보스턴 | 뉴잉글랜드 수족관 (아동) | 30.95 USD | A | 예 | 재검증 | [New England Aquarium](https://www.neaq.org/visit/tickets/) |
+| BOS-AT-005 | 보스턴 | 프리덤 트레일 (걷기 무료) | 0 USD | A | 예 | 재검증 | [National Park Service](https://www.nps.gov/thingstodo/walk-the-freedom-trail.htm) |
 | GRX-TR-001 | 그라나다 | 그라나다 시내버스 1회권 | 1.6 EUR | A | 예 | 재검증 | [Turismo de Granada](https://turismo.granada.org/es/bus-urbano) |
 | GRX-AT-001 | 그라나다 | 알람브라 일반 입장(낮) (성인) | 21~22.27 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://tickets.alhambra-patronato.es/producto/alhambra-general/) |
 | GRX-AT-002 | 그라나다 | 알람브라 (아동) | 0 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://www.alhambra-patronato.es/notas-prensa/la-alhambra-actualiza-sus-tarifas-en-agosto) |

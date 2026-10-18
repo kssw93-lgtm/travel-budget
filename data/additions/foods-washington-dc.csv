@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+미국,워싱턴 D.C.,하프스모크,Half-Smoke,돼지고기·소고기 반반으로 만든 훈제 소시지에 칠리를 얹은 워싱턴 대표 음식,저,,대기,Destination DC,https://washington.org/visit-dc/dc-signature-half-smoke-all-you-need-to-know,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+미국,워싱턴 D.C.,멈보 소스 치킨,Mumbo Sauce Wings,달콤새콤한 붉은 멈보 소스를 곁들인 튀긴 닭날개,저,,대기,Destination DC,https://washington.org/visit-dc/ways-fit-local,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+미국,워싱턴 D.C.,체서피크 블루크랩,Chesapeake Blue Crab,인근 체서피크만에서 잡히는 푸른 꽃게 요리,고,,대기,Destination DC,https://washington.org/visit-dc/all-american-eats-washington-dc,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

@@ -286,4 +286,20 @@ export const INTROS_6: Record<string, Intro> = {
       ['사우스 뱅크', 'South Bank', 'サウスバンク', '강 건너 공원과 무료 박물관·미술관이 모인 문화 지구입니다.', 'Across the river: parklands and the free museums and galleries.', '川向こうの公園と無料の博物館・美術館が集まる文化地区です。'],
     ],
   },
+  'washington-dc': {
+    o: ['미국의 수도로, 국회의사당에서 링컨 기념관까지 이어지는 내셔널 몰에 기념물과 박물관이 모여 있습니다. 스미스소니언 박물관 대부분이 무료라 볼거리에 비해 경비 부담이 적습니다.', 'The US capital, where the National Mall links the Capitol to the Lincoln Memorial past monuments and museums; most Smithsonian museums are free, so sightseeing costs little.', 'アメリカの首都で、議事堂からリンカーン記念堂まで続くナショナル・モールに記念碑や博物館が集まっています。スミソニアン博物館の多くが無料なので、見どころの割に費用を抑えられます。'],
+    d: [3, 4],
+    s: [
+      ['내셔널 몰 북쪽(다운타운·펜 쿼터)', 'Downtown / Penn Quarter', 'ダウンタウン・ペン・クォーター', '박물관과 지하철역이 가까워 걸어서 다니기 좋습니다.', 'Close to the museums and Metro stations, good for walking.', '博物館や地下鉄駅に近く、歩いて回りやすいです。'],
+      ['듀폰 서클', 'Dupont Circle', 'デュポン・サークル', '식당과 카페가 많은 동네로, 지하철 레드라인이 지납니다.', 'A lively area of restaurants and cafés on the Red Line.', '飲食店やカフェが多い地区で、地下鉄レッドラインが通ります。'],
+    ],
+  },
+  boston: {
+    o: ['미국 독립혁명의 무대가 된 뉴잉글랜드의 중심 도시로, 붉은 벽돌 선을 따라 걷는 프리덤 트레일에 역사 유적이 이어집니다. 하버드·MIT가 있는 대학 도시이자 클램차우더와 랍스터 롤의 본고장입니다.', 'New England’s hub and stage of the American Revolution, where the red-brick Freedom Trail links historic sites; a university city of Harvard and MIT, and home of clam chowder and lobster rolls.', 'アメリカ独立革命の舞台となったニューイングランドの中心都市で、赤れんがの線をたどるフリーダム・トレイルに史跡が続きます。ハーバードやMITがある大学都市で、クラムチャウダーとロブスターロールの本場です。'],
+    d: [3, 4],
+    s: [
+      ['백베이', 'Back Bay', 'バックベイ', '고급 주택가와 쇼핑 거리가 있는 지역으로, 지하철 그린라인이 지납니다.', 'Elegant streets and shopping on the Green Line.', '高級住宅街とショッピング街がある地区で、地下鉄グリーンラインが通ります。'],
+      ['다운타운·패뉴얼 홀 주변', 'Downtown / Faneuil Hall', 'ダウンタウン・ファニエル・ホール周辺', '프리덤 트레일과 퀸시 마켓이 가깝고, 공항 실버라인 연결이 편합니다.', 'Near the Freedom Trail and Quincy Market, with easy Silver Line links to the airport.', 'フリーダム・トレイルやクインシー・マーケットに近く、空港へのシルバーラインも便利です。'],
+    ],
+  },
 };

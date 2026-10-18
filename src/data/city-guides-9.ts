@@ -519,4 +519,28 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 브리즈번 공항에서 에어트레인을 타면 시내 역까지 20분 안팎입니다. 에어트레인은 50센트 균일 요금이 적용되지 않습니다.', 'Airport to city: the Airtrain reaches the city stations in about 20 minutes; the 50-cent fare does not apply to Airtrain.', '空港から市内へ：ブリスベン空港からエアトレインで市内の駅まで20分ほどです。エアトレインには50セント運賃が適用されません。'],
     ],
   },
+  'washington-dc': {
+    h: [
+      ['스미스소니언 박물관', 'Smithsonian museums', 'スミソニアン博物館', '자연사·항공우주·미국사 등 내셔널 몰의 국립 박물관들로, 대부분 무료입니다. 항공우주박물관 등 일부는 무료 시간 지정권이 필요합니다.', 'The national museums on the Mall — natural history, air and space, American history — mostly free; some, like Air and Space, need free timed passes.', '自然史・航空宇宙・アメリカ史などナショナル・モールの国立博物館で、ほとんどが無料です。航空宇宙博物館など一部は無料の時間指定券が必要です。'],
+      ['링컨 기념관과 내셔널 몰', 'Lincoln Memorial and the National Mall', 'リンカーン記念堂とナショナル・モール', '국회의사당에서 링컨 기념관까지 이어지는 넓은 공원으로, 기념물들을 걸어서 둘러봅니다.', 'The great park from the Capitol to the Lincoln Memorial, explored on foot.', '議事堂からリンカーン記念堂まで続く広い公園で、記念碑を歩いて巡ります。'],
+      ['국립문서보관소', 'National Archives Museum', '国立公文書館', '독립선언서와 헌법 원본을 볼 수 있으며, 입장은 무료입니다.', 'See the original Declaration of Independence and Constitution; admission is free.', '独立宣言と合衆国憲法の原本が見られ、入場は無料です。'],
+      ['워싱턴 기념탑', 'Washington Monument', 'ワシントン記念塔', '내셔널 몰 한가운데의 오벨리스크로, 전망대에서 시내가 내려다보입니다. 입장권은 무료이고 온라인 예약 시 수수료가 붙습니다.', 'The obelisk at the heart of the Mall with a city-view deck; tickets are free, with a small online booking fee.', 'ナショナル・モール中央のオベリスクで、展望台から市内を見渡せます。入場券は無料で、オンライン予約には手数料がかかります。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 세금(10%)과 팁이 빠져 있습니다. 계산할 때 팁 18~20%를 더하는 것이 일반적입니다.', 'Menu prices exclude the 10% meals tax and tip; adding 18–20% for tip is usual.', '飲食店のメニュー価格には税（10%）とチップが含まれていません。会計時に18〜20%のチップを加えるのが一般的です。'],
+      ['공항에서 시내: 로널드 레이건 공항은 지하철(메트로) 역과 바로 연결되고, 덜레스 공항도 실버라인 지하철로 시내까지 갑니다. 요금은 거리에 따라 달라집니다.', 'Airport to city: Reagan National connects straight to the Metro, and Dulles is on the Silver Line; fares vary by distance.', '空港から市内へ：ロナルド・レーガン空港は地下鉄（メトロ）駅と直結し、ダレス空港もシルバーラインで市内へ行けます。運賃は距離によって変わります。'],
+    ],
+  },
+  boston: {
+    h: [
+      ['프리덤 트레일', 'Freedom Trail', 'フリーダム・トレイル', '보스턴 커먼에서 찰스타운 해군 기지까지 붉은 벽돌 선을 따라 약 4km를 걷는 역사 산책로로, 걷기는 무료입니다.', 'A 2.5-mile red-brick trail of historic sites from Boston Common to the Charlestown Navy Yard — free to walk.', 'ボストン・コモンからチャールズタウン海軍工廠まで、赤れんがの線をたどる約4kmの歴史散策路で、歩くのは無料です。'],
+      ['보스턴 미술관', 'Museum of Fine Arts, Boston', 'ボストン美術館', '고대 이집트부터 인상파, 일본 미술까지 아우르는 미국 대표 미술관입니다.', 'One of America’s great art museums, from ancient Egypt to the Impressionists and Japanese art.', '古代エジプトから印象派、日本美術までそろうアメリカを代表する美術館です。'],
+      ['뉴잉글랜드 수족관', 'New England Aquarium', 'ニューイングランド水族館', '항구 앞 수족관으로, 4층 높이의 원통형 대형 수조가 명물입니다.', 'A harbourfront aquarium famous for its four-storey Giant Ocean Tank.', '港の前にある水族館で、4階分の高さの円筒形の大水槽が名物です。'],
+      ['하버드 대학', 'Harvard University', 'ハーバード大学', '지하철 레드라인으로 가는 케임브리지의 대학으로, 캠퍼스와 하버드 스퀘어를 둘러볼 수 있습니다.', 'Across the river in Cambridge on the Red Line; stroll the campus and Harvard Square.', '地下鉄レッドラインで行けるケンブリッジの大学で、キャンパスやハーバード・スクエアを散策できます。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 세금과 팁이 빠져 있습니다. 매사추세츠 식사세는 7%(주 6.25%+지역 0.75%)이고, 팁은 18~20%가 일반적입니다.', 'Menu prices exclude tax and tip: Massachusetts meals tax is 7% (6.25% state + 0.75% local), and an 18–20% tip is usual.', '飲食店のメニュー価格には税とチップが含まれていません。マサチューセッツの飲食税は7%（州6.25%＋地方0.75%）で、チップは18〜20%が一般的です。'],
+      ['공항에서 시내: 로건 공항에서 실버라인 SL1 버스를 타면 사우스역까지 가며, 공항에서 출발할 때는 무료입니다. 공항 무료 셔틀로 블루라인 공항역에 가서 지하철을 탈 수도 있습니다.', 'Airport to city: the Silver Line SL1 runs from Logan to South Station and is free from the airport; a free shuttle also links to the Blue Line’s Airport station.', '空港から市内へ：ローガン空港からシルバーラインSL1バスでサウス駅へ行け、空港発は無料です。無料シャトルでブルーラインの空港駅へ行き地下鉄に乗ることもできます。'],
+    ],
+  },
 };

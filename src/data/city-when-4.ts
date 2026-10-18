@@ -224,4 +224,18 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['스트리츠 비치는 겨울철 정비 기간에 문을 닫는 때가 있으니 방문 전에 확인하세요.', 'Streets Beach closes for maintenance for a period each winter; check before you go.', 'ストリーツ・ビーチは冬に整備のため閉まる期間があるので、訪れる前に確認しましょう。'],
   },
+  'washington-dc': {
+    p: [
+      ['3월 말~4월 초 벚꽃', 'Late March–early April (cherry blossoms)', '3月末〜4月初め（桜）', '타이들 베이슨 호수 둘레의 벚꽃이 피는 시기로, 가장 붐비는 때이기도 합니다.', 'Cherry trees bloom around the Tidal Basin — also the busiest time.', 'タイダル・ベイスンの湖の周りの桜が咲く時期で、最も混雑する時期でもあります。'],
+      ['9~10월', 'September–October', '9〜10月', '더위가 가라앉아 내셔널 몰 산책과 박물관 관람이 편합니다.', 'The heat eases, making Mall walks and museum days comfortable.', '暑さが和らぎ、ナショナル・モールの散策や博物館巡りが快適です。'],
+    ],
+    x: ['워싱턴 기념탑은 시간 지정 입장권이 필요하고, 엘리베이터 정비로 닫는 때가 있으니 미리 확인하세요.', 'The Washington Monument needs a timed ticket and sometimes closes for elevator work; check ahead.', 'ワシントン記念塔は時間指定券が必要で、エレベーター整備で閉まることがあるので事前に確認しましょう。'],
+  },
+  boston: {
+    p: [
+      ['9~10월', 'September–October', '9〜10月', '선선한 날씨에 프리덤 트레일을 걷고, 10월에는 근교 단풍을 즐기기 좋습니다.', 'Cool weather for the Freedom Trail, with foliage nearby in October.', '涼しい気候でフリーダム・トレイルを歩け、10月は近郊の紅葉を楽しめます。'],
+      ['5~6월', 'May–June', '5〜6月', '공원과 항구 산책, 야외 식사를 즐기기 좋은 계절입니다.', 'A pleasant season for parks, the harbour and outdoor dining.', '公園や港の散策、屋外での食事を楽しむのに良い季節です。'],
+    ],
+    x: ['겨울(12~3월)에는 눈과 강추위로 야외 일정이 어려울 수 있으니 실내 박물관 일정을 함께 준비하세요.', 'Winter (December–March) snow and cold can derail outdoor plans; keep museum days in reserve.', '冬（12〜3月）は雪と厳しい寒さで屋外の予定が難しいことがあるので、屋内の博物館の予定も用意しましょう。'],
+  },
 };

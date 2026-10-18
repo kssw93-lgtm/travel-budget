@@ -51,16 +51,23 @@ jobs:
         if: steps.sent.outputs.cache-hit != 'true'
         run: |
           python3 - <<'PY'
-          import json, os, re, urllib.request
+          import json, os, re, sys, urllib.error, urllib.request
           host, key = os.environ['HOST'], os.environ['KEY']
           urls = re.findall(r'<loc>([^<]+)</loc>', open('sitemap.xml', encoding='utf-8').read())
           body = json.dumps({'host': host, 'key': key, 'keyLocation': f'https://{host}/{key}.txt', 'urlList': urls}).encode()
-          # api.indexnow.org 로 보내면 참여 검색엔진(Bing·네이버·Yandex·Seznam 등)이 함께 받는다
-          for endpoint in ['https://api.indexnow.org/indexnow']:
+          # 한 곳에 보내면 참여 검색엔진(Bing·네이버·Yandex·Seznam 등)이 서로 나눠 받는다. 앞에서 성공하면 멈춘다
+          ok = False
+          for endpoint in ['https://api.indexnow.org/indexnow', 'https://www.bing.com/indexnow', 'https://yandex.com/indexnow']:
               req = urllib.request.Request(endpoint, data=body, headers={'Content-Type': 'application/json; charset=utf-8'})
               try:
                   with urllib.request.urlopen(req, timeout=30) as r:
                       print(endpoint, r.status, len(urls), 'urls')
+                      ok = True
+                      break
+              except urllib.error.HTTPError as e:
+                  print('::warning::', endpoint, e.code, e.read()[:300].decode('utf-8', 'replace'))
               except Exception as e:
                   print('::warning::', endpoint, e)
+          # 실패하면 작업을 실패로 끝내 「보냄」 기록(캐시)이 남지 않게 한다
+          sys.exit(0 if ok else 1)
           PY

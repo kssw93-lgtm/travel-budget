@@ -370,7 +370,8 @@ export const en: Messages = {
       { h: 'Advertising and cookies', body: [
         'This site may show third-party advertising such as Google AdSense in the future. When ads are shown, third-party vendors, including Google, may use cookies to serve ads based on your prior visits to this website or other websites.',
         'Google\'s use of advertising cookies enables it to serve personalized ads. You can opt out of personalized advertising in Google Ads Settings (https://adssettings.google.com), and opt out of third-party vendors\' cookies at https://www.aboutads.info.',
-        'Visitors from the European Economic Area, the UK and Switzerland will be asked for consent before ads are shown.',
+        'Visitors from the European Economic Area, the UK and Switzerland are asked for consent through a Google-certified consent message before ad cookies are used. You can decline, or change your choice later under “Manage options”.',
+        'Visitors in certain US states (such as California) can opt out of the sale or sharing of personal information for personalised ads through Google’s privacy message.',
       ] },
       { h: 'External links', body: [
         'Price sources and food recommendation sources link to the sites of those organisations and businesses, whose own privacy policies apply.',

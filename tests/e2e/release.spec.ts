@@ -164,9 +164,10 @@ test.describe('외부 링크', () => {
     await mockRates(page);
     for (const [url, min] of [['/?city=tokyo&date=2026-11-04', 5], ['/privacy', 1]] as const) {
       await page.goto(url);
+      // Calculator source links are rendered after the price bundle is loaded on demand.
+      await expect.poll(() => page.locator('main a[target="_blank"], main a[href^="http"]').count()).toBeGreaterThan(min);
       await page.locator('details').evaluateAll((ds) => ds.forEach((d) => d.setAttribute('open', '')));
       const links = page.locator('main a[target="_blank"], main a[href^="http"]');
-      expect(await links.count()).toBeGreaterThan(min);
       for (const a of await links.all()) {
         await expect(a).toHaveAttribute('href', /^https?:\/\//);
         await expect(a).toHaveAttribute('target', '_blank');

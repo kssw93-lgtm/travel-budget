@@ -105,6 +105,7 @@ export const MENU_SURCHARGE: Record<string, { tax: number; drinkTax?: number; ti
   ottawa: { tax: 0.13, tip: [0.15, 0.18], taxSource: 'Ontario — Harmonized Sales Tax 13%' },
   toronto: { tax: 0.13, tip: [0.15, 0.18], taxSource: 'Ontario — Harmonized Sales Tax 13%' },
   chicago: { tax: 0.1075, tip: [0.18, 0.2], taxSource: 'Chicago 10.25% sales tax (state 6.25% + Cook County 1.75% + city 1.25% + RTA 1%) + City of Chicago restaurant tax 0.5%' },
+  phoenix: { tax: 0.091, tip: [0.18, 0.2], taxSource: 'City of Phoenix — restaurants combined 9.1% (city 2.8% + state 5.6% + county 0.7%, 2026)' },
   nashville: { tax: 0.0975, tip: [0.18, 0.2], taxSource: 'Tennessee DOR — state 7% on prepared food + Davidson County 2.75% (incl. 0.5% transit surcharge, from Feb 2025)' },
   austin: { tax: 0.0825, tip: [0.18, 0.2], taxSource: 'Texas Comptroller — Austin combined 8.25% (state 6.25% + city 1% + Capital Metro 1%)' },
   boston: { tax: 0.07, tip: [0.18, 0.2], taxSource: 'Massachusetts DOR — meals 6.25% + local option 0.75%' },

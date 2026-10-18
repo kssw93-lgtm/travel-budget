@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+미국,피닉스,소노란 핫도그,Sonoran Hot Dog,베이컨으로 감싼 소시지에 콩·토마토·양파를 얹은 핫도그,저,,대기,Visit Phoenix,https://www.visitphoenix.com/stories/post/top-hot-dogs-phoenix/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+미국,피닉스,치미창가,Chimichanga,속을 채운 부리토를 튀긴 요리,저,,대기,Visit Phoenix,https://www.visitphoenix.com/stories/post/5-signature-phoenix-dishes/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+미국,피닉스,소노란 타코,Sonoran Tacos,메스키트 숯불에 구운 고기를 얹은 타코,저,,대기,Visit Phoenix,https://www.visitphoenix.com/stories/post/5-signature-phoenix-dishes/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

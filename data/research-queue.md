@@ -218,6 +218,8 @@
 | 위니펙 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 핼리팩스 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 핼리팩스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 피닉스 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 피닉스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 타이중 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 코타키나발루 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 장가계 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1086,6 +1088,9 @@
 | YHZ-AT-001 | 핼리팩스 | 피어 21 캐나다 이민 박물관 (성인) | 19 CAD | A | 예 | 재검증 | [Canadian Museum of Immigration at Pier 21](https://pier21.ca/) |
 | YHZ-AT-002 | 핼리팩스 | 핼리팩스 시타델 (성인) | 22 CAD | A | 예 | 재검증 | [Parks Canada](https://parks.canada.ca/lhn-nhs/ns/halifax/visit/tarifs-fees) |
 | YHZ-AT-003 | 핼리팩스 | 핼리팩스 시타델 (18세 미만 무료) | 0 CAD | A | 예 | 재검증 | [Parks Canada](https://parks.canada.ca/lhn-nhs/ns/halifax/visit/tarifs-fees) |
+| PHX-TR-001 | 피닉스 | 밸리 메트로 1회권 | 2 USD | A | 예 | 재검증 | [Valley Metro](https://valleymetro.org/smartfare) |
+| PHX-AT-001 | 피닉스 | 사막 식물원 (성인) | 32.95 USD | A | 예 | 재검증 | [Desert Botanical Garden](https://dbg.org/visit/) |
+| PHX-AT-002 | 피닉스 | 사막 식물원 (아동) | 14.95 USD | A | 예 | 재검증 | [Desert Botanical Garden](https://dbg.org/visit/) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

@@ -445,4 +445,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['날씨가 자주 바뀌니 비와 바람에 대비한 겉옷을 챙기세요.', 'The weather changes quickly; pack a wind- and rain-proof layer.', '天気が変わりやすいので、雨や風に備えた上着を持ちましょう。'],
   },
+  phoenix: {
+    p: [
+      ['11~4월', 'November–April', '11〜4月', '따뜻하고 맑아 사막 식물원과 하이킹, 그랜드캐니언 여행에 좋습니다.', 'Warm and clear — ideal for the desert garden, hiking and Grand Canyon trips.', '暖かく晴れており、砂漠植物園やハイキング、グランドキャニオンへの旅に最適です。'],
+    ],
+    x: ['여름(6~9월)에는 아침 일찍이나 해 진 뒤에 움직이고, 물을 충분히 챙기세요.', 'In summer (June–September) go out early or after dark and carry plenty of water.', '夏（6〜9月）は朝早くか日没後に行動し、水を十分に持ちましょう。'],
+  },
 };

@@ -1123,4 +1123,9 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'halifax:h2': 'https://parks.canada.ca/lhn-nhs/ns/halifax/visit/tarifs-fees',
   'halifax:h3': 'https://www.novascotia.com/trip-ideas/stories/where-to-eat-lobster-downtown-halifax',
   'halifax:t1': 'https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/notice342/nova-scotia-hst-rate-decrease-questions-answers-general-transitional-rules-personal-property-services.html',
+  'phoenix:h1': 'https://dbg.org/visit/',
+  'phoenix:h2': 'https://www.visitphoenix.com/stories/post/top-hot-dogs-phoenix/',
+  'phoenix:h3': 'https://www.visitphoenix.com/stories/post/5-signature-phoenix-dishes/',
+  'phoenix:t1': 'https://www.phoenix.gov/administration/departments/finance/privilege-sales-use-tax/about-tpt-use-tax/current-combined-tax-rates-phoenix-state-county.html',
+  'phoenix:t2': 'https://www.skyharbor.com/ground-transportation/phx-sky-train/',
 };

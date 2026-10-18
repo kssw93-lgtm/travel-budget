@@ -9198,6 +9198,60 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "phoenix",
+    "nameKo": "소노란 핫도그",
+    "nameEn": "Sonoran Hot Dog",
+    "reason": "베이컨으로 감싼 소시지에 콩·토마토·양파를 얹은 핫도그",
+    "reasonEn": "Bacon-wrapped frank with beans, tomato and onion in a bolillo bun",
+    "desc": {
+      "ko": "베이컨으로 감싼 소시지에 콩·토마토·양파를 얹은 핫도그",
+      "en": "Bacon-wrapped frank with beans, tomato and onion in a bolillo bun",
+      "ja": "ベーコンで巻いたソーセージに豆・トマト・玉ねぎをのせたホットドッグ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Phoenix",
+    "recommendUrl": "https://www.visitphoenix.com/stories/post/top-hot-dogs-phoenix/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "phoenix",
+    "nameKo": "치미창가",
+    "nameEn": "Chimichanga",
+    "reason": "속을 채운 부리토를 튀긴 요리",
+    "reasonEn": "Deep-fried filled burrito",
+    "desc": {
+      "ko": "속을 채운 부리토를 튀긴 요리",
+      "en": "Deep-fried filled burrito",
+      "ja": "具を詰めたブリトーを揚げた料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Phoenix",
+    "recommendUrl": "https://www.visitphoenix.com/stories/post/5-signature-phoenix-dishes/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "phoenix",
+    "nameKo": "소노란 타코",
+    "nameEn": "Sonoran Tacos",
+    "reason": "메스키트 숯불에 구운 고기를 얹은 타코",
+    "reasonEn": "Tacos of mesquite-grilled meats",
+    "desc": {
+      "ko": "메스키트 숯불에 구운 고기를 얹은 타코",
+      "en": "Tacos of mesquite-grilled meats",
+      "ja": "メスキートの炭火で焼いた肉をのせたタコス"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Phoenix",
+    "recommendUrl": "https://www.visitphoenix.com/stories/post/5-signature-phoenix-dishes/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "phu-quoc",
     "nameKo": "분꾸이",
     "nameEn": "Bun Quay",

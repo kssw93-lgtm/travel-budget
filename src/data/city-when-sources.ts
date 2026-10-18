@@ -446,4 +446,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'winnipeg:x': 'https://humanrights.ca/visit/hours-admission-fees',
   'halifax:p1': 'https://discoverhalifaxns.com/events/food-and-drink/halifax-nova-scotia-seafood-guide/',
   'halifax:x': 'https://discoverhalifaxns.com/things-to-do/attractions/how-to-experience-halifax-in-all-kinds-of-weather',
+  'phoenix:p1': 'https://dbg.org/visit/',
+  'phoenix:x': 'https://dbg.org/visit/',
 };

@@ -5212,5 +5212,20 @@
     "ko": "해덕·가리비·랍스터·홍합 등을 넣은 크림 수프",
     "en": "Creamy chowder of haddock, scallops, lobster and mussels",
     "ja": "ハドック・ホタテ・ロブスター・ムール貝などを入れたクリームスープ"
+  },
+  "phoenix:Sonoran Hot Dog": {
+    "ko": "베이컨으로 감싼 소시지에 콩·토마토·양파를 얹은 핫도그",
+    "en": "Bacon-wrapped frank with beans, tomato and onion in a bolillo bun",
+    "ja": "ベーコンで巻いたソーセージに豆・トマト・玉ねぎをのせたホットドッグ"
+  },
+  "phoenix:Chimichanga": {
+    "ko": "속을 채운 부리토를 튀긴 요리",
+    "en": "Deep-fried filled burrito",
+    "ja": "具を詰めたブリトーを揚げた料理"
+  },
+  "phoenix:Sonoran Tacos": {
+    "ko": "메스키트 숯불에 구운 고기를 얹은 타코",
+    "en": "Tacos of mesquite-grilled meats",
+    "ja": "メスキートの炭火で焼いた肉をのせたタコス"
   }
 }

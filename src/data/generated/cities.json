@@ -1100,6 +1100,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "phoenix",
+    "country": "미국",
+    "countryEn": "United States",
+    "nameKo": "피닉스",
+    "nameEn": "Phoenix",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "nara",
     "country": "일본",
     "countryEn": "Japan",

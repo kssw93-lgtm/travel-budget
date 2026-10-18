@@ -3023,6 +3023,34 @@
     "missing": [],
     "computable": true
   },
+  "phoenix": {
+    "counts": {
+      "food": 10,
+      "transport": 1,
+      "attraction": 1
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 10,
+      "snack": 12,
+      "drink": 8,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 10,
+      "snack": 12,
+      "drink": 8,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "taichung": {
     "counts": {
       "food": 5,
@@ -3250,12 +3278,12 @@
   "san-francisco": {
     "counts": {
       "food": 10,
-      "transport": 14,
+      "transport": 15,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 14,
+      "ride": 15,
       "meal": 10,
       "snack": 12,
       "drink": 8,
@@ -3264,7 +3292,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 14,
+      "ride": 15,
       "meal": 10,
       "snack": 12,
       "drink": 8,

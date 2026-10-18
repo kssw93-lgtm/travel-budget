@@ -866,4 +866,15 @@ export const NOTES_9: Record<string, Compact> = {
       ['식당 메뉴 가격에는 HST(14%)와 팁이 빠져 있습니다. 팁은 15~18%가 일반적입니다. 공항에서는 320번 급행버스를 타며, 일반 버스보다 요금이 높습니다.', 'Menu prices exclude 14% HST and tip (15–18% usual). From the airport, Regional Express route 320 costs more than a regular bus.', '飲食店のメニュー価格にはHST（14%）とチップが含まれていません。チップは15〜18%が一般的です。空港からは320番急行バスを使い、通常のバスより運賃が高めです。'],
     ],
   },
+  phoenix: {
+    h: [
+      ['사막 식물원', 'Desert Botanical Garden', 'デザート・ボタニカル・ガーデン', '선인장과 사막 식물 수만 그루가 자라는 식물원으로, 날짜별로 요금이 달라집니다.', 'Tens of thousands of cacti and desert plants; prices vary by date.', '数万株のサボテンや砂漠の植物が育つ植物園で、日付によって料金が変わります。'],
+      ['소노란 핫도그', 'Sonoran hot dog', 'ソノラン・ホットドッグ', '베이컨으로 감싼 소시지에 콩·토마토·양파·마요네즈를 얹은 국경 지역 핫도그입니다.', 'A bacon-wrapped frank topped with beans, tomato, onion and mayo, from the borderlands.', 'ベーコンで巻いたソーセージに豆・トマト・玉ねぎ・マヨネーズをのせた国境地域のホットドッグです。'],
+      ['치미창가', 'Chimichanga', 'チミチャンガ', '속을 채운 부리토를 기름에 튀긴 요리로, 1970년 문을 연 피닉스 식당이 원조를 자처합니다.', 'A deep-fried burrito; a Phoenix restaurant opened in 1970 calls itself its home.', '具を詰めたブリトーを油で揚げた料理で、1970年創業のフェニックスの店が元祖を名乗っています。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 세금(9.1%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude 9.1% tax and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（9.1%）とチップが含まれていません。チップは18〜20%が一般的です。'],
+      ['공항에서 시내: 피닉스 공항의 무료 스카이 트레인을 타고 44번가역으로 가서 경전철로 갈아타면 시내까지 갈 수 있습니다.', 'Airport to city: ride the free PHX Sky Train to 44th Street and change to Valley Metro Rail.', '空港から市内へ：フェニックス空港の無料スカイトレインで44番街駅へ行き、ライトレールに乗り換えます。'],
+    ],
+  },
 };

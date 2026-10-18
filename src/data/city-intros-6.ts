@@ -550,4 +550,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['노스 엔드', 'North End', 'ノース・エンド', '개성 있는 식당과 카페가 모인 동네입니다.', 'A neighbourhood of independent restaurants and cafés.', '個性的な飲食店やカフェが集まる地区です。'],
     ],
   },
+  phoenix: {
+    o: ['미국 남서부 소노란 사막 한가운데의 애리조나 주도로, 겨울에도 따뜻하고 맑은 날이 이어집니다. 선인장이 가득한 사막 식물원과 소노란 핫도그, 치미창가 같은 멕시코 국경 지역 음식으로 유명하며, 그랜드캐니언 여행의 출발지이기도 합니다.', 'Arizona’s capital in the heart of the Sonoran Desert, warm and sunny even in winter; famous for its cactus-filled desert garden and border-region food like Sonoran hot dogs and chimichangas, and a starting point for Grand Canyon trips.', 'アメリカ南西部ソノラ砂漠の中心にあるアリゾナ州の州都で、冬でも暖かく晴れた日が続きます。サボテンだらけの砂漠植物園や、ソノラン・ホットドッグ、チミチャンガなどメキシコ国境地域の料理で有名で、グランドキャニオン旅行の出発地でもあります。'],
+    d: [2, 3],
+    s: [
+      ['다운타운 피닉스', 'Downtown Phoenix', 'ダウンタウン・フェニックス', '경전철이 지나고 공항 스카이 트레인과 연결되며, 식당과 경기장이 모여 있습니다.', 'On the light rail linked to the airport Sky Train, with restaurants and arenas.', 'ライトレールが通り空港のスカイトレインとつながり、飲食店やスタジアムが集まっています。'],
+      ['스코츠데일 구시가지', 'Old Town Scottsdale', 'オールドタウン・スコッツデール', '서부풍 거리와 갤러리, 식당이 모인 인근 도시의 중심가입니다.', 'The western-style heart of neighbouring Scottsdale, with galleries and dining.', '西部風の通りやギャラリー、飲食店が集まる隣町の中心街です。'],
+    ],
+  },
 };

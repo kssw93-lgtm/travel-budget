@@ -115,6 +115,8 @@ td.insufficient, .insufficient { color: var(--err); }
   fieldset.styles { grid-template-columns: 1fr; }
   /* 모바일 머리글: 1줄 사이트명 + 언어, 2줄 메뉴. 화면을 가리지 않도록 고정 해제 */
   .site-header { position: static; }
+  /* 기본 글꼴에서 웹 글꼴로 바뀌어도 375px 화면의 언어 버튼이 다음 줄로 이동하지 않게 한다. */
+  .bar { column-gap: 4px; }
   .lang { order: 2; }
   .lang button { padding: 4px 10px; min-height: 32px; }
   nav { order: 3; flex-basis: 100%; gap: 16px; }

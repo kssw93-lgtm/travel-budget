@@ -4567,5 +4567,35 @@
     "ko": "사슴고기를 넣어 구운 뉴질랜드식 파이",
     "en": "New Zealand-style pie filled with venison",
     "ja": "鹿肉を入れて焼いたニュージーランド風のパイ"
+  },
+  "innsbruck:Tiroler Gröstl": {
+    "ko": "감자와 양파, 훈제 고기를 함께 볶은 티롤 전통 요리",
+    "en": "Pan-fried potatoes with onion and smoked meat",
+    "ja": "じゃがいもと玉ねぎ、燻製肉を一緒に炒めたチロルの伝統料理"
+  },
+  "innsbruck:Kaspressknödel": {
+    "ko": "빵과 티롤 회색치즈를 뭉쳐 구운 치즈 경단으로, 수프나 샐러드와 함께 먹습니다",
+    "en": "Pressed cheese dumplings of bread and Tyrolean grey cheese, in soup or with salad",
+    "ja": "パンとチロルのグレーチーズを固めて焼いたチーズ団子で、スープやサラダと食べます"
+  },
+  "innsbruck:Kaiserschmarrn": {
+    "ko": "찢어서 구운 두툼한 팬케이크에 슈거파우더를 뿌린 디저트",
+    "en": "Torn, fluffy pancake dusted with icing sugar",
+    "ja": "ちぎって焼いた厚いパンケーキに粉砂糖をかけたデザート"
+  },
+  "marseille:Bouillabaisse": {
+    "ko": "암초 물고기를 사프란·펜넬과 끓여 국물과 생선을 따로 내는 마르세유 대표 요리",
+    "en": "Rock-fish stew with saffron and fennel, broth and fish served separately",
+    "ja": "岩礁の魚をサフランやフェンネルと煮込み、スープと魚を別々に出すマルセイユの名物料理"
+  },
+  "marseille:Panisses": {
+    "ko": "병아리콩 가루 반죽을 썰어 튀긴 레스타크 지역의 간식",
+    "en": "Fried slices of chickpea-flour batter from l’Estaque",
+    "ja": "ひよこ豆の粉の生地を切って揚げたレスタック地区の軽食"
+  },
+  "marseille:Navettes": {
+    "ko": "오렌지꽃 향을 넣은 배 모양 과자로, 1781년 마르세유에서 시작됐습니다",
+    "en": "Boat-shaped orange-blossom biscuits, made in Marseille since 1781",
+    "ja": "オレンジフラワーの香りの舟形の焼き菓子で、1781年にマルセイユで生まれました"
   }
 }

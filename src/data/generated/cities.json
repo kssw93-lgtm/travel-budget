@@ -210,6 +210,26 @@
     "stage": "파일럿"
   },
   {
+    "id": "innsbruck",
+    "country": "오스트리아",
+    "countryEn": "Austria",
+    "nameKo": "인스브루크",
+    "nameEn": "Innsbruck",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "marseille",
+    "country": "프랑스",
+    "countryEn": "France",
+    "nameKo": "마르세유",
+    "nameEn": "Marseille",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "kyoto",
     "country": "일본",
     "countryEn": "Japan",

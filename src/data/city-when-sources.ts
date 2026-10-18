@@ -327,4 +327,10 @@ export const WHEN_SOURCES: Record<string, string> = {
   'queenstown:p1': 'https://www.queenstownnz.co.nz/things-to-do/wineries-and-breweries/',
   'queenstown:p2': 'https://www.queenstownnz.co.nz/stories/post/10-things-to-do-in-spring/',
   'queenstown:x': 'https://www.newzealand.com/au/feature/road-trip-christchurch-to-queenstown/',
+  'innsbruck:p1': 'https://nordkette.com/en/top-of-innsbruck/',
+  'innsbruck:p2': 'https://www.innsbruck.info/en/food-and-drink/d/traditional.html',
+  'innsbruck:x': 'https://nordkette.com/en/facilities-/-timetable/',
+  'marseille:p1': 'https://www.marseille-tourisme.com/en/vivez-marseille/blog-marseille/top-free-and-low-cost-activities-in-marseille/',
+  'marseille:p2': 'https://www.marseille-tourisme.com/en/discover-marseille/gastronomy-in-marseille/culinary-specialities-of-marseille/',
+  'marseille:x': 'https://www.marseille-tourisme.com/en/vivez-marseille/blog-marseille/top-free-and-low-cost-activities-in-marseille/',
 };

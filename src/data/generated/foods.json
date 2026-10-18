@@ -5029,6 +5029,60 @@
     "note": "Claude 초안(2026-10-14)"
   },
   {
+    "cityId": "innsbruck",
+    "nameKo": "티롤러 그뢰스틀",
+    "nameEn": "Tiroler Gröstl",
+    "reason": "감자와 양파, 훈제 고기를 함께 볶은 티롤 전통 요리",
+    "reasonEn": "Pan-fried potatoes with onion and smoked meat",
+    "desc": {
+      "ko": "감자와 양파, 훈제 고기를 함께 볶은 티롤 전통 요리",
+      "en": "Pan-fried potatoes with onion and smoked meat",
+      "ja": "じゃがいもと玉ねぎ、燻製肉を一緒に炒めたチロルの伝統料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Innsbruck Tourismus",
+    "recommendUrl": "https://www.innsbruck.info/blog/en/food-drink/must-eat-the-5-classics-of-tyrolean-cuisine/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "innsbruck",
+    "nameKo": "카스프레스크뇌델",
+    "nameEn": "Kaspressknödel",
+    "reason": "빵과 티롤 회색치즈를 뭉쳐 구운 치즈 경단으로, 수프나 샐러드와 함께 먹습니다",
+    "reasonEn": "Pressed cheese dumplings of bread and Tyrolean grey cheese, in soup or with salad",
+    "desc": {
+      "ko": "빵과 티롤 회색치즈를 뭉쳐 구운 치즈 경단으로, 수프나 샐러드와 함께 먹습니다",
+      "en": "Pressed cheese dumplings of bread and Tyrolean grey cheese, in soup or with salad",
+      "ja": "パンとチロルのグレーチーズを固めて焼いたチーズ団子で、スープやサラダと食べます"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Innsbruck Tourismus",
+    "recommendUrl": "https://www.innsbruck.info/blog/en/food-drink/must-eat-the-5-classics-of-tyrolean-cuisine/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "innsbruck",
+    "nameKo": "카이저슈마렌",
+    "nameEn": "Kaiserschmarrn",
+    "reason": "찢어서 구운 두툼한 팬케이크에 슈거파우더를 뿌린 디저트",
+    "reasonEn": "Torn, fluffy pancake dusted with icing sugar",
+    "desc": {
+      "ko": "찢어서 구운 두툼한 팬케이크에 슈거파우더를 뿌린 디저트",
+      "en": "Torn, fluffy pancake dusted with icing sugar",
+      "ja": "ちぎって焼いた厚いパンケーキに粉砂糖をかけたデザート"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Innsbruck Tourismus",
+    "recommendUrl": "https://www.innsbruck.info/blog/en/food-drink/must-eat-the-5-classics-of-tyrolean-cuisine/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "interlaken",
     "nameKo": "치즈 퐁뒤",
     "nameEn": "Cheese fondue",
@@ -6676,6 +6730,60 @@
     "recommendSource": "esMadrid",
     "recommendUrl": "https://www.esmadrid.com/gastronomia-madrid",
     "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "marseille",
+    "nameKo": "부야베스",
+    "nameEn": "Bouillabaisse",
+    "reason": "암초 물고기를 사프란·펜넬과 끓여 국물과 생선을 따로 내는 마르세유 대표 요리",
+    "reasonEn": "Rock-fish stew with saffron and fennel, broth and fish served separately",
+    "desc": {
+      "ko": "암초 물고기를 사프란·펜넬과 끓여 국물과 생선을 따로 내는 마르세유 대표 요리",
+      "en": "Rock-fish stew with saffron and fennel, broth and fish served separately",
+      "ja": "岩礁の魚をサフランやフェンネルと煮込み、スープと魚を別々に出すマルセイユの名物料理"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Marseille Tourisme",
+    "recommendUrl": "https://www.marseille-tourisme.com/en/discover-marseille/gastronomy-in-marseille/culinary-specialities-of-marseille/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "marseille",
+    "nameKo": "파니스",
+    "nameEn": "Panisses",
+    "reason": "병아리콩 가루 반죽을 썰어 튀긴 레스타크 지역의 간식",
+    "reasonEn": "Fried slices of chickpea-flour batter from l’Estaque",
+    "desc": {
+      "ko": "병아리콩 가루 반죽을 썰어 튀긴 레스타크 지역의 간식",
+      "en": "Fried slices of chickpea-flour batter from l’Estaque",
+      "ja": "ひよこ豆の粉の生地を切って揚げたレスタック地区の軽食"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Marseille Tourisme",
+    "recommendUrl": "https://www.marseille-tourisme.com/en/discover-marseille/gastronomy-in-marseille/culinary-specialities-of-marseille/panisses/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "marseille",
+    "nameKo": "나베트",
+    "nameEn": "Navettes",
+    "reason": "오렌지꽃 향을 넣은 배 모양 과자로, 1781년 마르세유에서 시작됐습니다",
+    "reasonEn": "Boat-shaped orange-blossom biscuits, made in Marseille since 1781",
+    "desc": {
+      "ko": "오렌지꽃 향을 넣은 배 모양 과자로, 1781년 마르세유에서 시작됐습니다",
+      "en": "Boat-shaped orange-blossom biscuits, made in Marseille since 1781",
+      "ja": "オレンジフラワーの香りの舟形の焼き菓子で、1781年にマルセイユで生まれました"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Marseille Tourisme",
+    "recommendUrl": "https://www.marseille-tourisme.com/en/discover-marseille/gastronomy-in-marseille/culinary-specialities-of-marseille/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
     "cityId": "melbourne",

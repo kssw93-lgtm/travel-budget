@@ -402,4 +402,28 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 퀸스타운 공항에서 시내까지는 오버스(Orbus) 버스나 택시로 20분 안팎입니다. 버스는 현금이나 비카드로만 냅니다.', 'Airport to city: Orbus buses or taxis take about 20 minutes into town; buses accept cash or Bee Card only.', '空港から市内へ：クイーンズタウン空港から市内まではオーバス（Orbus）のバスかタクシーで20分ほどです。バスは現金かビーカードのみです。'],
     ],
   },
+  innsbruck: {
+    h: [
+      ['노르트케테 케이블카', 'Nordkette cable cars', 'ノルトケッテのケーブルカー', '시내에서 푸니쿨라와 케이블카를 갈아타고 해발 2,256m 하펠레카르까지 오르는 인스브루크의 대표 명소입니다.', 'Funicular and cable cars from the city up to Hafelekar at 2,256 m — Innsbruck’s signature trip.', '市内からケーブルカーを乗り継ぎ、標高2,256mのハーフェレカールまで上るインスブルックの代表的な名所です。'],
+      ['황금 지붕', 'Golden Roof (Goldenes Dachl)', '黄金の小屋根', '금박 구리 기와 2,600여 장으로 덮은 구시가지의 발코니로, 인스브루크의 상징입니다.', 'The old-town balcony roofed with some 2,600 gilded copper tiles, symbol of Innsbruck.', '約2,600枚の金メッキの銅瓦で覆われた旧市街のバルコニーで、インスブルックの象徴です。'],
+      ['암브라스 성', 'Ambras Castle', 'アンブラス城', '르네상스 시대 대공의 성으로, 세계에서 가장 오래된 박물관으로 불리는 수집품 전시실이 있습니다. 19세 미만은 무료입니다.', 'A Renaissance archduke’s castle with what is called the world’s oldest museum collection; free under 19.', 'ルネサンス期の大公の城で、世界最古の博物館と呼ばれる収集品の展示室があります。19歳未満は無料です。'],
+      ['스와로브스키 크리스털 월드', 'Swarovski Crystal Worlds', 'スワロフスキー・クリスタルワールド', '근교 바텐스의 크리스털 테마 전시관으로, 시내에서 셔틀버스로 갈 수 있습니다.', 'A crystal-themed attraction in nearby Wattens, reached by shuttle bus from town.', '近郊ヴァッテンスにあるクリスタルをテーマにした施設で、市内からシャトルバスで行けます。'],
+    ],
+    t: [
+      ['시내버스·트램 1회권은 미리 사면 차내 구매보다 쌉니다. 차내에서 사면 추가 요금이 붙습니다.', 'Buy single bus and tram tickets in advance; buying on board costs extra.', '市バスやトラムの1回券は事前に買うと車内購入より安くなります。車内で買うと追加料金がかかります。'],
+      ['공항에서 시내: 인스브루크 공항에서 F번 버스를 타면 시내와 중앙역까지 20분 안팎입니다.', 'Airport to city: bus F runs from Innsbruck Airport to the centre and main station in about 20 minutes.', '空港から市内へ：インスブルック空港からF番バスで市内・中央駅まで20分ほどです。'],
+    ],
+  },
+  marseille: {
+    h: [
+      ['노트르담 드 라 가르드 대성당', 'Notre-Dame de la Garde', 'ノートルダム・ド・ラ・ギャルド寺院', '시내 가장 높은 언덕 위 성당으로, 마르세유 항구와 바다가 한눈에 보입니다. 입장은 무료입니다.', 'The basilica on the city’s highest hill, with sweeping views of the port and sea; free to enter.', '市内で一番高い丘の上の聖堂で、港と海が一望できます。入場無料です。'],
+      ['뮈셈(유럽·지중해 문명 박물관)', 'Mucem', 'ミュセム（ヨーロッパ地中海文明博物館）', '항구 입구의 격자 외벽 건물과 옛 요새를 다리로 이은 박물관으로, 옥상 테라스에서 바다가 보입니다.', 'A lattice-clad museum linked by footbridge to the old fort at the harbour mouth, with a sea-view roof terrace.', '港の入口にある格子状の外壁の建物と古い要塞を橋で結んだ博物館で、屋上テラスから海が見えます。'],
+      ['이프 성', 'Château d’If', 'イフ城', '소설 「몬테크리스토 백작」의 무대로 알려진 섬의 요새 감옥으로, 구항구에서 배로 갑니다. 배 요금은 따로입니다.', 'The island fortress-prison of The Count of Monte Cristo, reached by boat from the Vieux-Port (fare extra).', '小説『モンテ・クリスト伯』の舞台として知られる島の要塞監獄で、旧港から船で行きます。船代は別です。'],
+      ['칼랑크 국립공원', 'Calanques National Park', 'カランク国立公園', '석회암 절벽 사이로 푸른 바다가 들어온 만이 이어지는 국립공원으로, 하이킹이나 유람선으로 둘러봅니다.', 'Limestone cliffs and turquoise coves, explored on foot or by boat.', '石灰岩の断崖の間に青い入り江が続く国立公園で、ハイキングか遊覧船で巡ります。'],
+    ],
+    t: [
+      ['구항구 양쪽을 잇는 작은 페리(페리 보트)는 짧지만 마르세유의 오래된 명물입니다.', 'The tiny Ferry Boat crossing the Vieux-Port is short but a Marseille institution.', '旧港の両岸を結ぶ小さなフェリーボートは短い航路ですが、マルセイユの古い名物です。'],
+      ['공항에서 시내: 마르세유 공항에서 공항 셔틀버스를 타면 생샤를역까지 30분 안팎입니다. 시내 대중교통 1회권을 묶은 할인권도 있습니다.', 'Airport to city: the airport shuttle bus reaches Saint-Charles station in about 30 minutes; combined tickets with city transit are available.', '空港から市内へ：マルセイユ空港から空港シャトルバスでサン・シャルル駅まで30分ほどです。市内交通の1回券を組み合わせた割引券もあります。'],
+    ],
+  },
 };

@@ -209,4 +209,19 @@ export const INTROS_6: Record<string, Intro> = {
       ['퀸스타운 시내', 'Queenstown town centre', 'クイーンズタウン中心部', '호숫가 상점가와 곤돌라 승강장이 걸어서 닿는 중심가로, 투어 버스 대부분이 여기서 출발합니다.', 'The lakefront centre, walkable to the gondola, where most tour buses depart.', '湖畔の商店街やゴンドラ乗り場へ歩いて行ける中心部で、ツアーバスの多くがここから出発します。'],
     ],
   },
+  innsbruck: {
+    o: ['알프스 산자락의 티롤주 주도로, 시내에서 케이블카를 타면 바로 2,000m대 산 위에 오를 수 있습니다. 황금 지붕이 있는 구시가지와 근교 스와로브스키 크리스털 월드가 인기입니다.', 'Tyrol’s capital in the Alps, where cable cars lift you from town to peaks above 2,000 m in minutes; known for the Golden Roof old town and nearby Swarovski Crystal Worlds.', 'アルプス山麓にあるチロル州の州都で、市内からケーブルカーに乗るとすぐ標高2,000m級の山の上に行けます。黄金の小屋根のある旧市街と近郊のスワロフスキー・クリスタルワールドが人気です。'],
+    d: [2, 3],
+    s: [
+      ['구시가지·중앙역 주변', 'Old town / main station', '旧市街・中央駅周辺', '황금 지붕과 노르트케테 케이블카 승강장, 공항버스 F선이 모두 가깝습니다.', 'Close to the Golden Roof, the Nordkette cable car and airport bus F.', '黄金の小屋根やノルトケッテのケーブルカー乗り場、空港バスF線がすべて近いです。'],
+    ],
+  },
+  marseille: {
+    o: ['2,600년 역사의 프랑스 최대 항구 도시로, 구항구와 언덕 위 노트르담 드 라 가르드 대성당이 상징입니다. 하얀 석회암 절벽과 푸른 바다가 이어지는 칼랑크 국립공원이 가깝습니다.', 'France’s great 2,600-year-old port, symbolised by the Vieux-Port and the hilltop Notre-Dame de la Garde, close to the white cliffs and turquoise coves of the Calanques National Park.', '2,600年の歴史を持つフランス最大の港町で、旧港と丘の上のノートルダム・ド・ラ・ギャルド寺院が象徴です。白い石灰岩の断崖と青い海が続くカランク国立公園が近くにあります。'],
+    d: [2, 3],
+    s: [
+      ['구항구 주변', 'Vieux-Port', '旧港周辺', '식당과 유람선 선착장이 모인 중심가로, 지하철 1호선이 지납니다.', 'The centre of restaurants and boat piers, on Metro line 1.', '飲食店や遊覧船乗り場が集まる中心部で、地下鉄1号線が通ります。'],
+      ['생샤를역 주변', 'Around Saint-Charles station', 'サン・シャルル駅周辺', 'TGV와 공항 셔틀이 서는 역 주변으로 이동이 편합니다.', 'Handy for TGVs and the airport shuttle.', 'TGVや空港シャトルが発着し移動に便利です。'],
+    ],
+  },
 };

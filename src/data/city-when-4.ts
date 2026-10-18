@@ -154,4 +154,18 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['밀퍼드 사운드 투어는 날씨로 취소되는 일이 있으니 여행 앞쪽 날짜에 잡아 두면 다시 시도할 여유가 생깁니다.', 'Milford Sound trips can be cancelled for weather, so book one early in your stay to leave room for a retry.', 'ミルフォード・サウンドのツアーは天候で中止になることがあるので、旅程の前半に入れておくと再挑戦の余裕ができます。'],
   },
+  innsbruck: {
+    p: [
+      ['6~9월 산악 시즌', 'June–September (mountain season)', '6〜9月（山のシーズン）', '노르트케테 정상 하펠레카르까지 올라 알프스 전망과 하이킹을 즐기기 좋습니다.', 'The best time to ride up to Hafelekar on the Nordkette for Alpine views and hikes.', 'ノルトケッテ山頂のハーフェレカールまで上り、アルプスの眺めやハイキングを楽しむのに最適です。'],
+      ['11월 중순~12월 크리스마스 마켓', 'Mid-November–December (Christmas markets)', '11月中旬〜12月（クリスマスマーケット）', '황금 지붕 앞 구시가지를 중심으로 크리스마스 마켓이 열립니다.', 'Christmas markets centre on the old town in front of the Golden Roof.', '黄金の小屋根前の旧市街を中心にクリスマスマーケットが開かれます。'],
+    ],
+    x: ['산악 케이블카는 날씨와 정기 점검으로 운휴할 수 있으니 운행 여부를 확인하고 올라가세요.', 'Mountain cable cars can pause for weather or maintenance; check before heading up.', '山のケーブルカーは天候や定期点検で運休することがあるので、運行状況を確認してから上りましょう。'],
+  },
+  marseille: {
+    p: [
+      ['5~6월·9~10월', 'May–June and September–October', '5〜6月・9〜10月', '칼랑크 하이킹과 바다 수영, 구항구 산책 모두 좋은 날씨입니다.', 'Good weather for Calanques hikes, swimming and Vieux-Port strolls.', 'カランクのハイキングや海水浴、旧港の散策にちょうど良い気候です。'],
+      ['2월 2일 무렵 성촉절', 'Around 2 February (Candlemas)', '2月2日頃（聖燭祭）', '생빅토르 수도원에서 행사가 열리고, 배 모양 과자 나베트를 먹는 마르세유의 전통이 있습니다.', 'Celebrated at the Abbey of Saint-Victor, when Marseillais eat boat-shaped navette biscuits.', 'サン・ヴィクトール修道院で行事があり、舟形の焼き菓子ナヴェットを食べるマルセイユの伝統があります。'],
+    ],
+    x: ['여름철 칼랑크는 산불 위험에 따라 당일 출입이 제한될 수 있으니 전날 공식 안내를 확인하세요.', 'In summer the Calanques may close at short notice for fire risk; check the official notice the day before.', '夏のカランクは山火事の危険度によって当日立入が制限されることがあるので、前日に公式案内を確認しましょう。'],
+  },
 };

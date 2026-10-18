@@ -45,6 +45,10 @@
 | 함부르크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 퀸스타운 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 퀸스타운 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 인스브루크 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 인스브루크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 마르세유 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 마르세유 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 교토 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오키나와 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 나고야 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
@@ -940,6 +944,16 @@
 | ZQN-AT-002 | 퀸스타운 | 스카이라인 곤돌라 왕복 (아동) | 48 NZD | A | 예 | 재검증 | [Skyline Queenstown](https://queenstown.skyline.co.nz/things-to-do/queenstown-gondola/gondola-prices/) |
 | ZQN-AT-003 | 퀸스타운 | TSS 언슬로 호수 유람(1.5시간) | 129 NZD | A | 예 | 재검증 | [RealNZ](https://www.realnz.com/en/experiences/day-cruises/tss-earnslaw-lake-cruises/) |
 | ZQN-AT-004 | 퀸스타운 | 월터 피크 농장 투어(유람선 포함) | 139 NZD | A | 예 | 재검증 | [RealNZ](https://www.realnz.com/en/experiences/tss-earnslaw-walter-peak-experiences/walter-peak-farm-tours/) |
+| INN-TR-001 | 인스브루크 | IVB 인스브루크 1회권(사전 구매~차내) | 3~3.6 EUR | A | 예 | 재검증 | [IVB](https://www.ivb.at/de/ticketstarife/innsbruck-tickets/einzel-ticket.html) |
+| INN-AT-001 | 인스브루크 | 노르트케테 시내↔제그루베 왕복 (성인) | 50.4~56 EUR | A | 예 | 재검증 | [Innsbrucker Nordkettenbahnen](https://nordkette.com/en/service/tariffs/) |
+| INN-AT-002 | 인스브루크 | 암브라스 성 (성인) | 16~18 EUR | A | 예 | 재검증 | [Schloss Ambras Innsbruck](https://www.schlossambras-innsbruck.at/besuch) |
+| INN-AT-003 | 인스브루크 | 암브라스 성 (아동) | 0 EUR | A | 예 | 재검증 | [Schloss Ambras Innsbruck](https://www.schlossambras-innsbruck.at/besuch) |
+| INN-AT-004 | 인스브루크 | 스와로브스키 크리스털 월드 (성인) | 25~27 EUR | A | 예 | 재검증 | [Swarovski Kristallwelten](https://www.kristallwelten.swarovski.com/en/tickets/compare-tickets) |
+| INN-AT-005 | 인스브루크 | 스와로브스키 크리스털 월드 (아동) | 9 EUR | A | 예 | 재검증 | [Swarovski Kristallwelten](https://www.kristallwelten.swarovski.com/en/tickets/compare-tickets) |
+| MRS-TR-001 | 마르세유 | RTM 1회권 | 1.7~2 EUR | A | 예 | 재검증 | [RTM](https://www.rtm.fr/tarifs/carte-1-voyage) |
+| MRS-AT-001 | 마르세유 | 뮈셈 (성인) | 11 EUR | A | 예 | 재검증 | [Mucem](https://mucem.org/en/questions-frequentes/) |
+| MRS-AT-002 | 마르세유 | 이프 성 (성인, 배 요금 별도) | 7 EUR | A | 예 | 재검증 | [Centre des monuments nationaux](https://www.chateau-if.fr/en) |
+| MRS-AT-003 | 마르세유 | 노트르담 드 라 가르드 (입장 무료) | 0 EUR | A | 예 | 재검증 | [Marseille Tourisme](https://www.marseille-tourisme.com/en/vivez-marseille/blog-marseille/top-free-and-low-cost-activities-in-marseille/) |
 | GRX-TR-001 | 그라나다 | 그라나다 시내버스 1회권 | 1.6 EUR | A | 예 | 재검증 | [Turismo de Granada](https://turismo.granada.org/es/bus-urbano) |
 | GRX-AT-001 | 그라나다 | 알람브라 일반 입장(낮) (성인) | 21~22.27 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://tickets.alhambra-patronato.es/producto/alhambra-general/) |
 | GRX-AT-002 | 그라나다 | 알람브라 (아동) | 0 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://www.alhambra-patronato.es/notas-prensa/la-alhambra-actualiza-sus-tarifas-en-agosto) |

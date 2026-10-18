@@ -1033,4 +1033,12 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'adelaide:h2': 'https://whatson.samuseum.sa.gov.au/',
   'adelaide:h3': 'https://www.agsa.sa.gov.au/visit/',
   'adelaide:t1': 'https://adelaideairport.com.au/arrivals/departing-by-public-transport/',
+  'liverpool:h1': 'https://www.beatlesstory.com/plan-your-visit/prices/',
+  'liverpool:h2': 'https://www.liverpoolmuseums.org.uk/',
+  'liverpool:h3': 'https://www.visitliverpool.com/blog/post/places-to-try-scouse-in-liverpool/',
+  'liverpool:t1': 'https://www.merseytravel.gov.uk/tickets-and-pricing/ticket-types/adult-single-fare/',
+  'heidelberg:h1': 'https://www.schloss-heidelberg.de/en/visitor-information',
+  'heidelberg:h2': 'https://www.vielmehr.heidelberg.de/dankstelle/chocolaterie-knoesel-heidelberger-studentenkuss/',
+  'heidelberg:h3': 'https://www.heidelberg-marketing.de/en/discover/culinary-heidelberg',
+  'heidelberg:t1': 'https://www.vrn.de/tickets/tarifsystem/fahrpreise/index.html',
 };

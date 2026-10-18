@@ -305,4 +305,17 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['대중교통 요금은 평일 출퇴근 시간(피크)에 더 비싸니, 시간 여유가 있으면 한낮(오프피크)에 이동하세요.', 'Transit fares are higher at peak times; travel off-peak in the middle of the day when you can.', '公共交通の運賃は平日のピーク時間に高くなるので、余裕があれば日中のオフピークに移動しましょう。'],
   },
+  liverpool: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '강변 산책과 야외 식사를 즐기기 좋은 계절입니다.', 'The season for waterfront walks and outdoor dining.', '川沿いの散策や屋外での食事を楽しめる季節です。'],
+    ],
+    x: ['축구 경기일에는 시내 숙소 값이 오르고 붐비니, 일정을 정하기 전에 경기 일정을 확인하세요.', 'Match days push up hotel prices and crowds; check the fixtures before you book.', 'サッカーの試合日は市内の宿が高くなり混雑するので、予定を決める前に試合日程を確認しましょう。'],
+  },
+  heidelberg: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '강변 산책과 철학자의 길 산책을 즐기기 좋은 계절입니다.', 'The season for riverside walks and the Philosophers’ Walk.', '川沿いや哲学者の道の散策を楽しめる季節です。'],
+      ['11월 말~12월', 'Late November–December', '11月末〜12月', '구시가지 광장 곳곳에 크리스마스 마켓이 열립니다.', 'Christmas markets fill the Old Town squares.', '旧市街の広場のあちこちでクリスマスマーケットが開かれます。'],
+    ],
+    x: ['고성 입장권(슐로스티켓)에 케이블카 왕복이 포함되니, 케이블카를 따로 사지 마세요.', 'The castle ticket (Schlossticket) includes the funicular, so don’t buy a separate ride.', '古城の入場券（シュロスチケット）にケーブルカーが含まれるので、別に買わないようにしましょう。'],
+  },
 };

@@ -650,4 +650,24 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 애들레이드 공항 10번 정류장에서 시내버스(J 노선)를 타면 시내까지 갈 수 있으며, 일반 버스 요금(평일 피크와 오프피크가 다름)이 적용됩니다.', 'Airport to city: Adelaide Metro J-route buses leave from Stop 10 at the airport at the regular fare, which differs between peak and off-peak.', '空港から市内へ：アデレード空港の10番乗り場から市バス（J系統）で市内へ行け、通常のバス運賃（ピークとオフピークで異なる）が適用されます。'],
     ],
   },
+  liverpool: {
+    h: [
+      ['비틀스 스토리', 'The Beatles Story', 'ビートルズ・ストーリー', '앨버트 독에 있는 비틀스 박물관으로, 캐번 클럽 재현 등으로 밴드의 역사를 따라갑니다.', 'The Beatles museum at Albert Dock, tracing the band’s story with a recreated Cavern Club.', 'アルバート・ドックにあるビートルズの博物館で、キャバーン・クラブの再現などでバンドの歴史をたどります。'],
+      ['리버풀 국립박물관', 'National Museums Liverpool', 'リバプール国立博物館', '리버풀 박물관, 머지사이드 해양박물관, 국제노예제박물관 등이 모두 무료입니다.', 'The Museum of Liverpool, Merseyside Maritime Museum, International Slavery Museum and more — all free.', 'リバプール博物館、マージーサイド海洋博物館、国際奴隷博物館などがすべて無料です。'],
+      ['스카우스', 'Scouse', 'スカウス', '뱃사람 음식 ‘롭스카우스’에서 온 리버풀 대표 스튜로, 붉은 비트 절임과 빵을 곁들여 먹습니다.', 'Liverpool’s signature stew, from the sailors’ “lobscouse”, served with pickled beetroot and bread.', '船乗りの料理「ロブスカウス」に由来するリバプールの名物シチューで、赤かぶの酢漬けとパンを添えて食べます。'],
+    ],
+    t: [
+      ['시내버스는 어느 회사 버스든 1회 2파운드 상한 요금이 적용됩니다. 공항에서 시내까지는 500번 버스가 약 30분 간격으로 운행합니다.', 'City buses are capped at £2 a single on any operator; from the airport, bus 500 runs to the centre about every 30 minutes.', '市内バスはどの会社のバスでも1回2ポンドの上限運賃が適用されます。空港から市内へは500番バスが約30分間隔で運行しています。'],
+    ],
+  },
+  heidelberg: {
+    h: [
+      ['하이델베르크 고성', 'Heidelberg Castle', 'ハイデルベルク城', '언덕 위의 붉은 사암 성으로, 입장권에 케이블카와 거대한 술통, 독일 약학박물관이 포함됩니다.', 'The red-sandstone castle on the hill; the ticket covers the funicular, the Great Tun and the German Apothecary Museum.', '丘の上の赤砂岩の城で、入場券にケーブルカーや大樽、ドイツ薬事博物館が含まれます。'],
+      ['하이델베르크 학생의 키스', 'Heidelberger Studentenkuss', 'ハイデルベルクの学生のキス', '19세기에 시내 초콜릿 가게에서 만든 누가 트뤼플 초콜릿으로, 지금도 원래 제조법으로 만듭니다.', 'A nougat-truffle chocolate created in the 19th century by a local chocolatier, still made to the original recipe.', '19世紀に市内のショコラティエが作ったヌガー・トリュフのチョコレートで、今も当時のレシピで作られています。'],
+      ['바덴·팔츠 향토 요리', 'Baden and Palatinate cooking', 'バーデン・プファルツの郷土料理', '슈페츨레를 곁들인 자우어브라텐과 팔츠식 소시지 모둠 등 지역 요리를 맛볼 수 있습니다.', 'Try Sauerbraten with Spätzle or a hearty Palatinate sausage platter.', 'シュペッツレを添えたザウアーブラーテンや、プファルツ風のソーセージ盛り合わせなどの郷土料理が味わえます。'],
+    ],
+    t: [
+      ['시내 대중교통 1회권(시내 요금)은 90분 동안 유효합니다. 정류장 몇 개만 타면 더 싼 단거리권(쿠르츠슈트레케)을 쓸 수 있습니다.', 'A city single (Stadttarif HD) is valid for 90 minutes; for just a few stops, the cheaper short-hop ticket (Kurzstrecke) works.', '市内の公共交通の1回券（市内料金）は90分間有効です。数駅だけ乗るなら安い短距離券（クルツシュトレッケ）が使えます。'],
+    ],
+  },
 };

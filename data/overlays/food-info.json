@@ -4897,5 +4897,35 @@
     "ko": "고기와 채소를 채운 바로사 지역 전통 파이",
     "en": "Traditional Barossa meat-and-vegetable pasty",
     "ja": "肉と野菜を詰めたバロッサ地方の伝統的なパイ"
+  },
+  "liverpool:Scouse": {
+    "ko": "양고기나 소고기에 감자·당근·양파를 넣고 끓인 리버풀 대표 스튜",
+    "en": "Hearty stew of lamb or beef with potatoes, carrots and onions",
+    "ja": "ラム肉や牛肉にじゃがいも・にんじん・玉ねぎを入れて煮込んだリバプール名物のシチュー"
+  },
+  "liverpool:Scouse Pie": {
+    "ko": "스카우스를 채워 구운 파이",
+    "en": "Pie filled with scouse",
+    "ja": "スカウスを詰めて焼いたパイ"
+  },
+  "liverpool:Blind Scouse": {
+    "ko": "고기 없이 채소로만 끓인 스카우스",
+    "en": "Meat-free version of scouse",
+    "ja": "肉を使わず野菜だけで煮込んだスカウス"
+  },
+  "heidelberg:Sauerbraten with Spätzle": {
+    "ko": "식초에 재워 익힌 소고기 찜에 독일식 수제 면을 곁들인 바덴 요리",
+    "en": "Baden-style marinated pot roast with Spätzle noodles",
+    "ja": "酢に漬けて煮込んだ牛肉にドイツの手作り麺を添えたバーデン料理"
+  },
+  "heidelberg:Maultaschen": {
+    "ko": "고기와 시금치를 채운 큰 독일식 만두",
+    "en": "Large pasta pockets filled with meat and spinach",
+    "ja": "肉とほうれん草を詰めた大きなドイツ風の餃子"
+  },
+  "heidelberg:Heidelberger Studentenkuss": {
+    "ko": "누가 트뤼플을 채운 하이델베르크 명물 초콜릿",
+    "en": "Heidelberg’s signature nougat-truffle chocolate",
+    "ja": "ヌガー・トリュフを詰めたハイデルベルク名物のチョコレート"
   }
 }

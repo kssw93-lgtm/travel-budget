@@ -382,4 +382,20 @@ export const INTROS_6: Record<string, Intro> = {
       ['글레넬그', 'Glenelg', 'グレネルグ', '시내에서 트램으로 가는 해변 마을입니다.', 'The beachside suburb at the end of the tram line.', '市内からトラムで行けるビーチの街です。'],
     ],
   },
+  liverpool: {
+    o: ['비틀스의 고향으로 알려진 잉글랜드 북서부의 항구 도시로, 머지강 변의 로열 앨버트 독과 붉은 벽돌 창고가 상징입니다. 국립박물관이 모두 무료이고, 리버풀·에버턴의 축구 도시이기도 합니다.', 'The north-west port city famed as the Beatles’ home, symbolised by the Royal Albert Dock on the Mersey; all its national museums are free, and it is the city of Liverpool and Everton football.', 'ビートルズの故郷として知られるイングランド北西部の港町で、マージー川沿いのロイヤル・アルバート・ドックと赤れんがの倉庫がシンボルです。国立博物館はすべて無料で、リバプールとエバートンのサッカーの街でもあります。'],
+    d: [2, 3],
+    s: [
+      ['시티 센터(라임 스트리트·리버풀 원 주변)', 'City Centre (Lime Street / Liverpool ONE)', 'シティ・センター（ライム・ストリート・リバプール・ワン周辺）', '기차역과 쇼핑가, 공항버스 정류장이 가깝습니다.', 'Near the main station, shopping streets and airport buses.', '鉄道駅やショッピング街、空港バスの乗り場に近いです。'],
+      ['워터프런트(앨버트 독 주변)', 'Waterfront (around Albert Dock)', 'ウォーターフロント（アルバート・ドック周辺）', '비틀스 스토리와 해양박물관이 걸어서 닿습니다.', 'A walk to The Beatles Story and the Maritime Museum.', 'ビートルズ・ストーリーや海洋博物館へ歩いて行けます。'],
+    ],
+  },
+  heidelberg: {
+    o: ['네카어강 변의 독일에서 가장 오래된 대학 도시로, 언덕 위 붉은 사암 고성과 옛 다리가 어우러진 낭만적인 풍경으로 유명합니다. 프랑크푸르트에서 기차로 약 1시간 거리라 당일 여행으로도 많이 찾습니다.', 'Germany’s oldest university town on the Neckar, famed for its red-sandstone castle above the Old Bridge; about an hour by train from Frankfurt, it is a popular day trip.', 'ネッカー川沿いにあるドイツ最古の大学都市で、丘の上の赤砂岩の古城と古い橋が織りなすロマンチックな風景で有名です。フランクフルトから列車で約1時間なので日帰り旅行でも人気です。'],
+    d: [1, 2],
+    s: [
+      ['구시가지(알트슈타트)', 'Old Town (Altstadt)', '旧市街（アルトシュタット）', '고성 케이블카와 옛 다리, 대학 건물이 걸어서 닿습니다.', 'A walk to the castle funicular, Old Bridge and university buildings.', '古城のケーブルカーや古い橋、大学の建物へ歩いて行けます。'],
+      ['중앙역 주변', 'Around the Main Station', '中央駅周辺', '기차 이동이 편하고, 트램·버스로 구시가지까지 금방입니다.', 'Handy for trains, with quick trams and buses to the Old Town.', '列車の移動に便利で、トラムやバスで旧市街まですぐです。'],
+    ],
+  },
 };

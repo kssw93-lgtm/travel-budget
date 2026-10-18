@@ -390,4 +390,9 @@ export const WHEN_SOURCES: Record<string, string> = {
   'adelaide:p1': 'https://southaustralia.com/guides/our-guide-to-the-adelaide-central-market',
   'adelaide:p2': 'https://southaustralia.com/guides/our-guide-to-the-adelaide-central-market',
   'adelaide:x': 'https://www.adelaidemetro.com.au/fares-and-passes/adelaide-metro-fares',
+  'liverpool:p1': 'https://www.visitliverpool.com/blog/post/outdoor-dining-in-liverpool/',
+  'liverpool:x': 'https://www.visitliverpool.com/blog/post/48-hours-in-liverpool-things-to-do-see-and-eat-on-a-weekend-break/',
+  'heidelberg:p1': 'https://www.schloss-heidelberg.de/en/visitor-information',
+  'heidelberg:p2': 'https://www.heidelberg-marketing.de/en/book/travel-packages/individuals/winter-magic',
+  'heidelberg:x': 'https://www.schloss-heidelberg.de/en/visitor-information',
 };

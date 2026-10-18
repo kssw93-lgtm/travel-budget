@@ -116,6 +116,10 @@
 | 애들레이드 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 애들레이드 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 애들레이드 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 리버풀 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 리버풀 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 하이델베르크 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 하이델베르크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 마카오 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 마카오 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1075,6 +1079,13 @@
 | ADL-TR-001 | 애들레이드 | 애들레이드 메트로 1회(메트로카드, 오프피크~피크) | 2.7~4.75 AUD | A | 예 | 재검증 | [Adelaide Metro](https://www.adelaidemetro.com.au/fares-and-passes/adelaide-metro-fares) |
 | ADL-AT-001 | 애들레이드 | 남호주 박물관 (입장 무료) | 0 AUD | A | 예 | 재검증 | [South Australian Museum](https://whatson.samuseum.sa.gov.au/) |
 | ADL-AT-002 | 애들레이드 | 남호주 미술관 (일반 입장 무료) | 0 AUD | A | 예 | 재검증 | [Art Gallery of South Australia](https://www.agsa.sa.gov.au/visit/) |
+| LIV-TR-001 | 리버풀 | 리버풀 시내버스 1회(상한 요금) | 2 GBP | A | 예 | 재검증 | [Merseytravel](https://www.merseytravel.gov.uk/tickets-and-pricing/ticket-types/adult-single-fare/) |
+| LIV-AT-001 | 리버풀 | 비틀스 스토리 (성인) | 20 GBP | A | 예 | 재검증 | [The Beatles Story](https://www.beatlesstory.com/plan-your-visit/prices/) |
+| LIV-AT-002 | 리버풀 | 비틀스 스토리 (아동) | 11 GBP | A | 예 | 재검증 | [The Beatles Story](https://www.beatlesstory.com/plan-your-visit/prices/) |
+| LIV-AT-003 | 리버풀 | 리버풀 박물관 (입장 무료) | 0 GBP | A | 예 | 재검증 | [National Museums Liverpool](https://www.liverpoolmuseums.org.uk/) |
+| HEI-TR-001 | 하이델베르크 | VRN 하이델베르크 시내 1회권(단거리~시내) | 2.3~3.5 EUR | A | 예 | 재검증 | [VRN](https://www.vrn.de/mam/tickets/tarif/dokumente/2026/fahrpreistabelle-2026.pdf) |
+| HEI-AT-001 | 하이델베르크 | 하이델베르크 고성 슐로스티켓 (성인, 케이블카 포함) | 11 EUR | A | 예 | 재검증 | [Staatliche Schlösser und Gärten Baden-Württemberg](https://www.schloss-heidelberg.de/en/visitor-information) |
+| HEI-AT-002 | 하이델베르크 | 하이델베르크 고성 슐로스티켓 (할인, 케이블카 포함) | 5.5 EUR | A | 예 | 재검증 | [Staatliche Schlösser und Gärten Baden-Württemberg](https://www.schloss-heidelberg.de/en/visitor-information) |
 | GRX-TR-001 | 그라나다 | 그라나다 시내버스 1회권 | 1.6 EUR | A | 예 | 재검증 | [Turismo de Granada](https://turismo.granada.org/es/bus-urbano) |
 | GRX-AT-001 | 그라나다 | 알람브라 일반 입장(낮) (성인) | 21~22.27 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://tickets.alhambra-patronato.es/producto/alhambra-general/) |
 | GRX-AT-002 | 그라나다 | 알람브라 (아동) | 0 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://www.alhambra-patronato.es/notas-prensa/la-alhambra-actualiza-sus-tarifas-en-agosto) |

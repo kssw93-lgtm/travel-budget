@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+영국,리버풀,스카우스,Scouse,양고기나 소고기에 감자·당근·양파를 넣고 끓인 리버풀 대표 스튜,저,,대기,Visit Liverpool,https://www.visitliverpool.com/blog/post/places-to-try-scouse-in-liverpool/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+영국,리버풀,스카우스 파이,Scouse Pie,스카우스를 채워 구운 파이,저,,대기,Visit Liverpool,https://www.visitliverpool.com/blog/post/places-to-try-scouse-in-liverpool/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+영국,리버풀,블라인드 스카우스,Blind Scouse,고기 없이 채소로만 끓인 스카우스,저,,대기,Visit Liverpool,https://www.visitliverpool.com/blog/post/places-to-try-scouse-in-liverpool/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

@@ -560,6 +560,26 @@
     "stage": "파일럿"
   },
   {
+    "id": "liverpool",
+    "country": "영국",
+    "countryEn": "United Kingdom",
+    "nameKo": "리버풀",
+    "nameEn": "Liverpool",
+    "currency": "GBP",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "heidelberg",
+    "country": "독일",
+    "countryEn": "Germany",
+    "nameKo": "하이델베르크",
+    "nameEn": "Heidelberg",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "macau",
     "country": "중국 마카오",
     "countryEn": "Macau",

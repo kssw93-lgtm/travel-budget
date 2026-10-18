@@ -5033,6 +5033,60 @@
     "note": "Claude 초안(2026-10-11)"
   },
   {
+    "cityId": "heidelberg",
+    "nameKo": "자우어브라텐과 슈페츨레",
+    "nameEn": "Sauerbraten with Spätzle",
+    "reason": "식초에 재워 익힌 소고기 찜에 독일식 수제 면을 곁들인 바덴 요리",
+    "reasonEn": "Baden-style marinated pot roast with Spätzle noodles",
+    "desc": {
+      "ko": "식초에 재워 익힌 소고기 찜에 독일식 수제 면을 곁들인 바덴 요리",
+      "en": "Baden-style marinated pot roast with Spätzle noodles",
+      "ja": "酢に漬けて煮込んだ牛肉にドイツの手作り麺を添えたバーデン料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Heidelberg Marketing",
+    "recommendUrl": "https://www.heidelberg-marketing.de/en/discover/culinary-heidelberg",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "heidelberg",
+    "nameKo": "마울타셴",
+    "nameEn": "Maultaschen",
+    "reason": "고기와 시금치를 채운 큰 독일식 만두",
+    "reasonEn": "Large pasta pockets filled with meat and spinach",
+    "desc": {
+      "ko": "고기와 시금치를 채운 큰 독일식 만두",
+      "en": "Large pasta pockets filled with meat and spinach",
+      "ja": "肉とほうれん草を詰めた大きなドイツ風の餃子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Baden-Württemberg",
+    "recommendUrl": "https://tourism-bw.com/things-to-do/wine-dine/typical-dishes",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "heidelberg",
+    "nameKo": "하이델베르크 학생의 키스",
+    "nameEn": "Heidelberger Studentenkuss",
+    "reason": "누가 트뤼플을 채운 하이델베르크 명물 초콜릿",
+    "reasonEn": "Heidelberg’s signature nougat-truffle chocolate",
+    "desc": {
+      "ko": "누가 트뤼플을 채운 하이델베르크 명물 초콜릿",
+      "en": "Heidelberg’s signature nougat-truffle chocolate",
+      "ja": "ヌガー・トリュフを詰めたハイデルベルク名物のチョコレート"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Stadt Heidelberg",
+    "recommendUrl": "https://www.vielmehr.heidelberg.de/dankstelle/chocolaterie-knoesel-heidelberger-studentenkuss/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "helsinki",
     "nameKo": "호밀빵",
     "nameEn": "Ruisleipä",
@@ -6896,6 +6950,60 @@
     "recommendSource": "Turismo de Lisboa (Visit Lisboa)",
     "recommendUrl": "https://www.visitlisboa.com/en/p/lisbon-flavours/gastronomy/grilled-sardines",
     "note": "GPT 공식 관광청 안내 기반(2026-10-12)"
+  },
+  {
+    "cityId": "liverpool",
+    "nameKo": "스카우스",
+    "nameEn": "Scouse",
+    "reason": "양고기나 소고기에 감자·당근·양파를 넣고 끓인 리버풀 대표 스튜",
+    "reasonEn": "Hearty stew of lamb or beef with potatoes, carrots and onions",
+    "desc": {
+      "ko": "양고기나 소고기에 감자·당근·양파를 넣고 끓인 리버풀 대표 스튜",
+      "en": "Hearty stew of lamb or beef with potatoes, carrots and onions",
+      "ja": "ラム肉や牛肉にじゃがいも・にんじん・玉ねぎを入れて煮込んだリバプール名物のシチュー"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Liverpool",
+    "recommendUrl": "https://www.visitliverpool.com/blog/post/places-to-try-scouse-in-liverpool/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "liverpool",
+    "nameKo": "스카우스 파이",
+    "nameEn": "Scouse Pie",
+    "reason": "스카우스를 채워 구운 파이",
+    "reasonEn": "Pie filled with scouse",
+    "desc": {
+      "ko": "스카우스를 채워 구운 파이",
+      "en": "Pie filled with scouse",
+      "ja": "スカウスを詰めて焼いたパイ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Liverpool",
+    "recommendUrl": "https://www.visitliverpool.com/blog/post/places-to-try-scouse-in-liverpool/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "liverpool",
+    "nameKo": "블라인드 스카우스",
+    "nameEn": "Blind Scouse",
+    "reason": "고기 없이 채소로만 끓인 스카우스",
+    "reasonEn": "Meat-free version of scouse",
+    "desc": {
+      "ko": "고기 없이 채소로만 끓인 스카우스",
+      "en": "Meat-free version of scouse",
+      "ja": "肉を使わず野菜だけで煮込んだスカウス"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Liverpool",
+    "recommendUrl": "https://www.visitliverpool.com/blog/post/places-to-try-scouse-in-liverpool/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
     "cityId": "los-angeles",

@@ -4492,5 +4492,50 @@
     "ko": "말린 배·무화과·견과류를 채워 구운 루체른식 빵",
     "en": "Pastry roll filled with dried pears, figs and nuts",
     "ja": "干し梨・いちじく・ナッツを詰めて焼いたパン菓子"
+  },
+  "granada:Habas con Jamón": {
+    "ko": "잠두콩을 트레벨레스 하몬과 함께 볶은 그라나다 대표 요리",
+    "en": "Broad beans sautéed with Trevélez ham",
+    "ja": "そら豆をトレベレスの生ハムと炒めたグラナダの代表料理"
+  },
+  "granada:Tortilla del Sacromonte": {
+    "ko": "사크로몬테 동굴 마을에서 유래한 내장·햄을 넣은 오믈렛",
+    "en": "Omelette with offal and ham from the Sacromonte cave quarter",
+    "ja": "サクロモンテの洞窟の街に由来する、内臓やハムを入れたオムレツ"
+  },
+  "granada:Piononos": {
+    "ko": "크림을 얹은 작은 롤케이크로, 그라나다 근교 산타페의 명물 과자",
+    "en": "Small cream-topped sponge rolls from nearby Santa Fe",
+    "ja": "クリームをのせた小さなロールケーキで、グラナダ近郊サンタ・フェの名物菓子"
+  },
+  "valencia:Paella Valenciana": {
+    "ko": "닭·토끼·콩을 넣어 넓은 팬에 지은 발렌시아 원조 파에야",
+    "en": "The original paella with chicken, rabbit and beans",
+    "ja": "鶏・ウサギ・豆を入れて平鍋で炊いたバレンシア元祖のパエリア"
+  },
+  "valencia:Horchata": {
+    "ko": "추파(타이거너트)로 만든 달콤하고 시원한 음료",
+    "en": "Sweet chilled drink made from tiger nuts",
+    "ja": "カヤツリグサの塊茎（タイガーナッツ）で作る甘く冷たい飲み物"
+  },
+  "valencia:Fartons": {
+    "ko": "오르차타에 찍어 먹는 길쭉한 단 빵",
+    "en": "Long sweet buns for dunking in horchata",
+    "ja": "オルチャータに浸して食べる細長い甘いパン"
+  },
+  "bordeaux:Canelé": {
+    "ko": "겉은 캐러멜처럼 바삭하고 속은 촉촉한 럼·바닐라 향의 보르도 과자",
+    "en": "Rum-and-vanilla pastry with a caramelised crust and soft centre",
+    "ja": "外はカラメルのように香ばしく中はしっとりした、ラムとバニラ香るボルドーの菓子"
+  },
+  "bordeaux:Entrecôte": {
+    "ko": "보르도식 소스와 감자튀김을 곁들인 소고기 등심 스테이크",
+    "en": "Rib steak with Bordeaux-style sauce and fries",
+    "ja": "ボルドー風ソースとフライドポテトを添えた牛リブロースのステーキ"
+  },
+  "bordeaux:Pralines de Blaye": {
+    "ko": "캐러멜 설탕을 입힌 바삭한 아몬드 과자",
+    "en": "Almonds in crunchy caramelised sugar",
+    "ja": "カラメル状の砂糖をまとったカリカリのアーモンド菓子"
   }
 }

@@ -35,6 +35,12 @@
 | 밀라노 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 루체른 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 루체른 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 그라나다 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 그라나다 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 발렌시아 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 발렌시아 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 보르도 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 보르도 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 교토 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오키나와 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 나고야 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
@@ -919,6 +925,23 @@
 | LUZ-AT-002 | 루체른 | 필라투스 크린스↔정상 왕복(여름) (성인) | 84 CHF | A | 예 | 재검증 | [Pilatus-Bahnen](https://pilatus.ch/en/railway-cableways/prices) |
 | LUZ-AT-003 | 루체른 | 리기 산악열차 1일권 (성인) | 84 CHF | A | 예 | 재검증 | [Rigi Bahnen](https://www.rigi.ch/en/inform/q-a) |
 | LUZ-AT-004 | 루체른 | 리기 산악열차 (아동, 성인 동반) | 0 CHF | A | 예 | 재검증 | [Rigi Bahnen](https://www.rigi.ch/en/inform/prices/discounts-for-individuals) |
+| GRX-TR-001 | 그라나다 | 그라나다 시내버스 1회권 | 1.6 EUR | A | 예 | 재검증 | [Turismo de Granada](https://turismo.granada.org/es/bus-urbano) |
+| GRX-AT-001 | 그라나다 | 알람브라 일반 입장(낮) (성인) | 21~22.27 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://tickets.alhambra-patronato.es/producto/alhambra-general/) |
+| GRX-AT-002 | 그라나다 | 알람브라 (아동) | 0 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://www.alhambra-patronato.es/notas-prensa/la-alhambra-actualiza-sus-tarifas-en-agosto) |
+| GRX-AT-003 | 그라나다 | 과학 공원 (성인) | 10 EUR | A | 예 | 재검증 | [Parque de las Ciencias](https://www.parqueciencias.com/el-parque/informacion-para-la-visita/tarifas/) |
+| GRX-AT-004 | 그라나다 | 과학 공원 (아동, 할인) | 8 EUR | A | 예 | 재검증 | [Parque de las Ciencias](https://www.parqueciencias.com/el-parque/informacion-para-la-visita/tarifas/) |
+| GRX-AT-005 | 그라나다 | 왕실 예배당 (성인) | 5 EUR | A | 예 | 재검증 | [Capilla Real de Granada](https://capillarealgranada.com/en/cultural-visit/) |
+| VLC-TR-001 | 발렌시아 | 메트로발렌시아 1회권(A구역) | 1.5 EUR | A | 예 | 재검증 | [Metrovalencia](https://www.metrovalencia.es/es/nuestras-tarifas/) |
+| VLC-AT-001 | 발렌시아 | 오세아노그라픽 일반 입장 (성인) | 35.9~43.05 EUR | A | 예 | 재검증 | [Oceanogràfic](https://www.oceanografic.org/en/planifica-tu-visita-al-oceanografic-de-valencia/prices-and-schedules/) |
+| VLC-AT-002 | 발렌시아 | 실크 거래소(라 론하) (성인) | 2 EUR | A | 예 | 재검증 | [Visit València](https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/lonja-silk-exchange) |
+| VLC-AT-003 | 발렌시아 | 발렌시아 대성당 문화 관람(박물관 포함) (성인) | 10~12 EUR | A | 예 | 재검증 | [Catedral de Valencia](https://catedraldevalencia.es/en/cultural-visit/hours-and-admission/) |
+| VLC-AT-004 | 발렌시아 | 발렌시아 대성당 (아동) | 0 EUR | A | 예 | 재검증 | [Catedral de Valencia](https://catedraldevalencia.es/en/cultural-visit/hours-and-admission/) |
+| BOD-TR-001 | 보르도 | TBM 1회권(1시간) | 1.9~2.1 EUR | A | 예 | 재검증 | [TBM](https://boutique.infotbm.com/products/1) |
+| BOD-AT-001 | 보르도 | 시테 뒤 뱅 상설전+와인 1잔 (성인) | 22~23 EUR | A | 예 | 재검증 | [La Cité du Vin](https://www.laciteduvin.com/en/info) |
+| BOD-AT-002 | 보르도 | 시테 뒤 뱅 (아동) | 9 EUR | A | 예 | 재검증 | [La Cité du Vin](https://www.laciteduvin.com/en) |
+| BOD-AT-003 | 보르도 | 페이베를랑 탑 (성인) | 9 EUR | A | 예 | 재검증 | [Centre des monuments nationaux](https://www.pey-berland.fr/en/visiter/practical-information) |
+| BOD-AT-004 | 보르도 | 페이베를랑 탑 (아동) | 0 EUR | A | 예 | 재검증 | [Centre des monuments nationaux](https://www.pey-berland.fr/en/visiter/practical-information) |
+| BOD-AT-005 | 보르도 | 아키텐 박물관 (성인) | 6~8 EUR | A | 예 | 재검증 | [Ville de Bordeaux](https://www.bordeaux.fr/le-musee-daquitaine) |
 | DXB-FD-101 | 두바이 | 1/4 치킨 + 레귤러 사이드 1개 | 47 AED | A | 예 | 재검증 | [Nando's UAE 공식 메뉴](https://www.nandos.ae/eat/menu) |
 | DXB-FD-102 | 두바이 | 치킨 아보카도 랩 | 30 AED | A | 예 | 재검증 | [ROAST Dubai 공식 메뉴](https://www.roastdubai.com/menu) |
 | DXB-FD-103 | 두바이 | 파히타 (소고기 또는 닭고기 선택) | 90 AED | A | 예 | 재검증 | [Dubai Polo Bar 공식 메뉴](https://polo.emaar.com/food-menu/dubai-polo-bar/) |

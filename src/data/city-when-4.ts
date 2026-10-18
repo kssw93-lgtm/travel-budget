@@ -119,4 +119,25 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['겨울에는 필라투스 톱니바퀴 열차 등 일부 산악 교통이 운휴하니 운행 여부를 미리 확인하세요.', 'In winter some mountain transport, such as the Pilatus cogwheel railway, does not run; check before you go.', '冬はピラトゥスの登山鉄道など一部の山岳交通が運休するので、運行状況を事前に確認しましょう。'],
   },
+  granada: {
+    p: [
+      ['봄(3~5월)', 'Spring (March–May)', '春（3〜5月）', '알람브라 정원 헤네랄리페에 꽃이 피고 걷기 좋은 날씨입니다. 성주간 행렬도 열립니다.', 'The Generalife gardens bloom and the weather suits walking; Holy Week processions take place too.', 'アルハンブラのヘネラリーフェ庭園に花が咲き、歩きやすい気候です。聖週間の行列も行われます。'],
+      ['가을(9~11월)', 'Autumn (September–November)', '秋（9〜11月）', '더위가 물러가 알바이신 언덕과 타파스 거리를 다니기 좋습니다.', 'The heat eases, good for the Albaicín hills and tapas bars.', '暑さが和らぎ、アルバイシンの丘やタパス街を巡るのに向いています。'],
+    ],
+    x: ['알람브라 입장권은 하루 인원이 정해져 있어 성수기에는 몇 주 전에 매진됩니다. 공식 판매처에서 미리 예약하세요.', 'Alhambra tickets are capped daily and sell out weeks ahead in high season; book on the official site.', 'アルハンブラの入場券は1日の人数が決まっていて、繁忙期は数週間前に売り切れます。公式販売サイトで早めに予約を。'],
+  },
+  valencia: {
+    p: [
+      ['3월 15~19일 파야스', '15–19 March (Fallas)', '3月15〜19日（ファジャス）', '거리에 거대한 인형 조형물이 세워지고 폭죽 행사가 이어지다 마지막 밤에 모두 태우는 유네스코 무형유산 축제입니다.', 'A UNESCO-listed festival of giant satirical figures and firecrackers, all burned on the final night.', '巨大な人形の造形物が街に並び、爆竹の行事が続き、最終夜にすべて燃やすユネスコ無形文化遺産の祭りです。'],
+      ['4~6월·9~10월', 'April–June and September–October', '4〜6月・9〜10月', '말바로사 해변과 투리아 공원 산책, 알부페라 호수 일몰을 즐기기 좋은 날씨입니다.', 'Good weather for Malvarrosa beach, Turia gardens walks and Albufera sunsets.', 'マルバロサ海岸やトゥリア公園の散歩、アルブフェラ湖の夕日を楽しむのに向いた気候です。'],
+    ],
+    x: ['파야스 기간(3월 중순)에는 숙소 요금이 크게 오르고 폭죽 소리가 아침부터 이어지니 미리 알고 일정을 잡으세요.', 'During Fallas (mid-March) room rates soar and firecrackers go off from morning, so plan accordingly.', 'ファジャスの期間（3月中旬）は宿泊料金が大きく上がり、朝から爆竹が鳴り続けるので、承知の上で日程を組みましょう。'],
+  },
+  bordeaux: {
+    p: [
+      ['9~10월 포도 수확철', 'September–October (grape harvest)', '9〜10月（ブドウの収穫期）', '생테밀리옹·메독 등 근교 와이너리 투어가 가장 활기를 띠는 시기입니다.', 'The liveliest time for winery tours in Saint-Émilion, the Médoc and beyond.', 'サンテミリオンやメドックなど近郊ワイナリー巡りが最もにぎわう時期です。'],
+      ['5~6월', 'May–June', '5〜6月', '강변 산책로와 물의 거울에서 산책하기 좋은 날씨입니다.', 'Good weather for the riverside quays and the Water Mirror.', '川沿いの遊歩道や水の鏡を散策するのに向いた気候です。'],
+    ],
+    x: ['11~2월은 비가 잦으니 우산을 챙기고 실내 명소(시테 뒤 뱅·박물관)를 섞어 일정을 짜세요.', 'November–February is often rainy; bring an umbrella and mix in indoor sights like the Cité du Vin and museums.', '11〜2月は雨が多いので傘を持ち、シテ・デュ・ヴァンや博物館など屋内の名所も組み合わせましょう。'],
+  },
 };

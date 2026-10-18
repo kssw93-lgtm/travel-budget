@@ -2181,6 +2181,60 @@
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
+    "cityId": "bordeaux",
+    "nameKo": "카눌레",
+    "nameEn": "Canelé",
+    "reason": "겉은 캐러멜처럼 바삭하고 속은 촉촉한 럼·바닐라 향의 보르도 과자",
+    "reasonEn": "Rum-and-vanilla pastry with a caramelised crust and soft centre",
+    "desc": {
+      "ko": "겉은 캐러멜처럼 바삭하고 속은 촉촉한 럼·바닐라 향의 보르도 과자",
+      "en": "Rum-and-vanilla pastry with a caramelised crust and soft centre",
+      "ja": "外はカラメルのように香ばしく中はしっとりした、ラムとバニラ香るボルドーの菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Bordeaux Tourisme",
+    "recommendUrl": "https://www.bordeaux-tourisme.com/gastronomie/produits-locaux/canneles-gourmandises-bordelaises",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "bordeaux",
+    "nameKo": "앙트르코트",
+    "nameEn": "Entrecôte",
+    "reason": "보르도식 소스와 감자튀김을 곁들인 소고기 등심 스테이크",
+    "reasonEn": "Rib steak with Bordeaux-style sauce and fries",
+    "desc": {
+      "ko": "보르도식 소스와 감자튀김을 곁들인 소고기 등심 스테이크",
+      "en": "Rib steak with Bordeaux-style sauce and fries",
+      "ja": "ボルドー風ソースとフライドポテトを添えた牛リブロースのステーキ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Bordeaux Tourisme",
+    "recommendUrl": "https://www.bordeaux-tourisme.com/gastronomie/restaurants/restaurants-traditionnels",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "bordeaux",
+    "nameKo": "블라예 프랄린",
+    "nameEn": "Pralines de Blaye",
+    "reason": "캐러멜 설탕을 입힌 바삭한 아몬드 과자",
+    "reasonEn": "Almonds in crunchy caramelised sugar",
+    "desc": {
+      "ko": "캐러멜 설탕을 입힌 바삭한 아몬드 과자",
+      "en": "Almonds in crunchy caramelised sugar",
+      "ja": "カラメル状の砂糖をまとったカリカリのアーモンド菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Bordeaux Tourisme",
+    "recommendUrl": "https://www.bordeaux-tourisme.com/gastronomie/produits-locaux/canneles-gourmandises-bordelaises",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "bruges",
     "nameKo": "벨기에 초콜릿",
     "nameEn": "Belgian chocolate",
@@ -4039,6 +4093,60 @@
     "recommendSource": "tablejourney.com",
     "recommendUrl": "https://tablejourney.com/poland/gdansk/signature-dishes/",
     "note": "Claude 2026-10-17 (공식 관광청·음식 안내 기준)"
+  },
+  {
+    "cityId": "granada",
+    "nameKo": "하바스 콘 하몬",
+    "nameEn": "Habas con Jamón",
+    "reason": "잠두콩을 트레벨레스 하몬과 함께 볶은 그라나다 대표 요리",
+    "reasonEn": "Broad beans sautéed with Trevélez ham",
+    "desc": {
+      "ko": "잠두콩을 트레벨레스 하몬과 함께 볶은 그라나다 대표 요리",
+      "en": "Broad beans sautéed with Trevélez ham",
+      "ja": "そら豆をトレベレスの生ハムと炒めたグラナダの代表料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Andalucía Tourism",
+    "recommendUrl": "https://andalucia.org/es/habas-con-jamon",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "granada",
+    "nameKo": "사크로몬테 토르티야",
+    "nameEn": "Tortilla del Sacromonte",
+    "reason": "사크로몬테 동굴 마을에서 유래한 내장·햄을 넣은 오믈렛",
+    "reasonEn": "Omelette with offal and ham from the Sacromonte cave quarter",
+    "desc": {
+      "ko": "사크로몬테 동굴 마을에서 유래한 내장·햄을 넣은 오믈렛",
+      "en": "Omelette with offal and ham from the Sacromonte cave quarter",
+      "ja": "サクロモンテの洞窟の街に由来する、内臓やハムを入れたオムレツ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Turismo de Granada",
+    "recommendUrl": "https://turismo.granada.org/en/carta-gastronomica-granadina",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "granada",
+    "nameKo": "피오노노",
+    "nameEn": "Piononos",
+    "reason": "크림을 얹은 작은 롤케이크로, 그라나다 근교 산타페의 명물 과자",
+    "reasonEn": "Small cream-topped sponge rolls from nearby Santa Fe",
+    "desc": {
+      "ko": "크림을 얹은 작은 롤케이크로, 그라나다 근교 산타페의 명물 과자",
+      "en": "Small cream-topped sponge rolls from nearby Santa Fe",
+      "ja": "クリームをのせた小さなロールケーキで、グラナダ近郊サンタ・フェの名物菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Turismo de Granada",
+    "recommendUrl": "https://turismo.granada.org/en/carta-gastronomica-granadina",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
     "cityId": "guam",
@@ -9504,6 +9612,60 @@
     "recommendSource": "Visit Ulaanbaatar — Ulaanbaatar City Tourism Department",
     "recommendUrl": "https://www.visitulaanbaatar.net/p/89",
     "note": "Claude 초안(2026-10-13)"
+  },
+  {
+    "cityId": "valencia",
+    "nameKo": "발렌시아 파에야",
+    "nameEn": "Paella Valenciana",
+    "reason": "닭·토끼·콩을 넣어 넓은 팬에 지은 발렌시아 원조 파에야",
+    "reasonEn": "The original paella with chicken, rabbit and beans",
+    "desc": {
+      "ko": "닭·토끼·콩을 넣어 넓은 팬에 지은 발렌시아 원조 파에야",
+      "en": "The original paella with chicken, rabbit and beans",
+      "ja": "鶏・ウサギ・豆を入れて平鍋で炊いたバレンシア元祖のパエリア"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit València",
+    "recommendUrl": "https://www.visitvalencia.com/en/what-to-do-valencia/gastronomy/essentials-of-valencian-cuisine",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "valencia",
+    "nameKo": "오르차타",
+    "nameEn": "Horchata",
+    "reason": "추파(타이거너트)로 만든 달콤하고 시원한 음료",
+    "reasonEn": "Sweet chilled drink made from tiger nuts",
+    "desc": {
+      "ko": "추파(타이거너트)로 만든 달콤하고 시원한 음료",
+      "en": "Sweet chilled drink made from tiger nuts",
+      "ja": "カヤツリグサの塊茎（タイガーナッツ）で作る甘く冷たい飲み物"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit València",
+    "recommendUrl": "https://www.visitvalencia.com/en/what-to-do-valencia/gastronomy/spaces-gastronomic-valencia/horchateria-daniel",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "valencia",
+    "nameKo": "파르톤",
+    "nameEn": "Fartons",
+    "reason": "오르차타에 찍어 먹는 길쭉한 단 빵",
+    "reasonEn": "Long sweet buns for dunking in horchata",
+    "desc": {
+      "ko": "오르차타에 찍어 먹는 길쭉한 단 빵",
+      "en": "Long sweet buns for dunking in horchata",
+      "ja": "オルチャータに浸して食べる細長い甘いパン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit València",
+    "recommendUrl": "https://www.visitvalencia.com/en/what-to-do-valencia/gastronomy/spaces-gastronomic-valencia/horchateria-daniel",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
     "cityId": "vancouver",

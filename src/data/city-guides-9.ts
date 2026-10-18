@@ -343,4 +343,40 @@ export const NOTES_9: Record<string, Compact> = {
       ['가는 법: 취리히 중앙역에서 기차로 50분 안팎, 취리히 공항역에서 1시간 남짓입니다. 인터라켄과는 골든패스 노선으로 2시간 안팎입니다.', 'Getting there: trains take about 50 minutes from Zürich HB and just over an hour from Zurich Airport; Interlaken is about two hours on the GoldenPass line.', '行き方：チューリッヒ中央駅から列車で50分ほど、チューリッヒ空港駅から1時間あまりです。インターラーケンへはゴールデンパス路線で2時間ほどです。'],
     ],
   },
+  granada: {
+    h: [
+      ['알람브라와 헤네랄리페', 'Alhambra and Generalife', 'アルハンブラ宮殿とヘネラリーフェ', '나스르 왕조 궁전의 섬세한 장식과 정원을 볼 수 있는 그라나다의 상징입니다. 나스르 궁전은 입장 시간이 지정됩니다.', 'Granada’s icon, with the intricate Nasrid Palaces and gardens; the Nasrid Palaces have a timed entry slot.', 'ナスル朝宮殿の繊細な装飾と庭園が見られるグラナダの象徴です。ナスル朝宮殿は入場時間が指定されます。'],
+      ['알바이신과 산 니콜라스 전망대', 'Albaicín and the Mirador de San Nicolás', 'アルバイシンとサン・ニコラス展望台', '옛 무어인 마을의 골목을 올라가면 알람브라와 시에라 네바다가 한눈에 보이는 전망대가 나옵니다. 해 질 녘이 인기입니다.', 'Climb the old Moorish lanes to the viewpoint facing the Alhambra and Sierra Nevada, most popular at sunset.', '旧ムーア人街の路地を上ると、アルハンブラとシエラ・ネバダを望む展望台に着きます。夕暮れ時が人気です。'],
+      ['왕실 예배당', 'Royal Chapel of Granada', 'グラナダ王室礼拝堂', '이사벨 여왕과 페르난도 왕이 잠든 예배당으로, 대성당 바로 옆에 있습니다.', 'Resting place of Queen Isabella and King Ferdinand, right beside the cathedral.', 'イサベル女王とフェルナンド王が眠る礼拝堂で、大聖堂のすぐ隣にあります。'],
+      ['과학 공원', 'Parque de las Ciencias', '科学公園', '체험형 전시와 천문관, 열대 동물관 바이오돔이 있는 대형 과학관입니다.', 'A large hands-on science museum with a planetarium and the BioDomo tropical zoo.', '体験型展示やプラネタリウム、熱帯の動物館バイオドームがある大型科学館です。'],
+    ],
+    t: [
+      ['그라나다 바에서는 대부분 음료를 시키면 타파스가 무료로 함께 나옵니다. 한 곳에 오래 있기보다 여러 바를 옮겨 다니는 것이 현지식입니다.', 'In most Granada bars a free tapa comes with each drink; locals hop between bars rather than staying in one.', 'グラナダのバーでは飲み物を頼むとたいていタパスが無料で付きます。一軒に長居せず何軒もはしごするのが地元流です。'],
+      ['공항에서 시내: 그라나다 공항에서는 항공편 도착에 맞춰 출발하는 ALSA 공항버스로 시내(그란비아 등)까지 45분 안팎입니다.', 'Airport to city: ALSA airport buses timed to flight arrivals reach the centre (Gran Vía and others) in about 45 minutes.', '空港から市内へ：グラナダ空港からは到着便に合わせて出るALSAの空港バスで中心部（グラン・ビアなど）まで45分ほどです。'],
+    ],
+  },
+  valencia: {
+    h: [
+      ['예술과학도시', 'City of Arts and Sciences', '芸術科学都市', '칼라트라바가 설계한 미래적인 건물들에 유럽 최대급 수족관 오세아노그라픽과 과학관이 모여 있습니다.', 'Calatrava’s futuristic complex, home to the Oceanogràfic aquarium and a science museum.', 'カラトラバ設計の未来的な建物群に、ヨーロッパ最大級の水族館オセアノグラフィックや科学館が集まっています。'],
+      ['실크 거래소(라 론하)', 'Silk Exchange (La Lonja de la Seda)', 'ラ・ロンハ（絹の取引所）', '나선형 기둥이 늘어선 후기 고딕 양식 상업 건물로, 유네스코 세계유산입니다. 일요일·공휴일은 무료입니다.', 'A late-Gothic merchants’ hall of twisted columns, UNESCO-listed; free on Sundays and holidays.', 'ねじれた柱が並ぶ後期ゴシック様式の商業建築で、世界遺産です。日曜・祝日は無料です。'],
+      ['발렌시아 대성당', 'Valencia Cathedral', 'バレンシア大聖堂', '성배로 전해지는 \'성스러운 잔\'을 모신 대성당으로, 미겔레테 종탑에 오르면 구시가지가 내려다보입니다.', 'Home to a chalice venerated as the Holy Grail; climb the Micalet tower for old-town views.', '聖杯と伝わる「聖なる杯」を祀る大聖堂で、ミゲレテの鐘楼に上ると旧市街を見渡せます。'],
+      ['알부페라 자연공원', 'Albufera Natural Park', 'アルブフェラ自然公園', '파에야용 쌀을 키우는 논과 석호가 펼쳐진 곳으로, 배를 타고 보는 일몰이 유명합니다.', 'Rice paddies and a lagoon where paella rice grows, famous for sunset boat rides.', 'パエリア用の米を育てる田んぼと潟湖が広がり、舟から見る夕日が有名です。'],
+    ],
+    t: [
+      ['진짜 발렌시아 파에야는 닭·토끼·콩을 넣고 점심에 먹는 음식입니다. 해산물 파에야와는 다른 요리입니다.', 'Authentic paella valenciana uses chicken, rabbit and beans and is eaten at lunch; seafood paella is a different dish.', '本場のパエリア・バレンシアーナは鶏・ウサギ・豆を使い、昼に食べる料理です。シーフードパエリアとは別物です。'],
+      ['공항에서 시내: 발렌시아 공항역에서 메트로 3·5호선을 타면 갈아타지 않고 시내 중심까지 갑니다. 공항 구간은 요금이 더 붙습니다.', 'Airport to city: Metro lines 3 and 5 run from the airport station straight into the centre; the airport zone costs extra.', '空港から市内へ：バレンシア空港駅から地下鉄3・5号線で乗り換えなしに中心部へ行けます。空港区間は運賃が加算されます。'],
+    ],
+  },
+  bordeaux: {
+    h: [
+      ['부르스 광장과 물의 거울', 'Place de la Bourse and the Water Mirror', 'ブルス広場と水の鏡', '18세기 광장 앞 얕은 물판에 건물이 비치는 보르도의 대표 풍경으로, 저녁 조명이 특히 아름답습니다.', 'Bordeaux’s signature view: the 18th-century square reflected in a shallow water mirror, especially lovely when lit at night.', '18世紀の広場が浅い水盤に映るボルドーを代表する風景で、夜のライトアップが特に美しいです。'],
+      ['시테 뒤 뱅', 'La Cité du Vin', 'シテ・デュ・ヴァン', '세계 와인 문화를 체험하는 전시관으로, 꼭대기 전망대에서 와인 한 잔이 입장권에 포함됩니다.', 'An interactive museum of world wine culture; the ticket includes a glass at the rooftop belvedere.', '世界のワイン文化を体験できる施設で、入場券に最上階展望台でのワイン1杯が含まれます。'],
+      ['페이베를랑 탑', 'Pey-Berland Tower', 'ペイ・ベルラン塔', '생탕드레 대성당 옆 종탑으로, 계단을 올라가면 보르도 시내가 내려다보입니다. 시간 지정 예약제입니다.', 'The cathedral’s bell tower; climb the stairs for city views, with timed booking.', 'サンタンドレ大聖堂の鐘楼で、階段を上るとボルドー市内を見渡せます。時間指定の予約制です。'],
+      ['아키텐 박물관', 'Musée d’Aquitaine', 'アキテーヌ博物館', '선사 시대부터 근대 항구 도시까지 보르도와 남서부 프랑스의 역사를 다룹니다.', 'Bordeaux and south-west France from prehistory to the port city’s modern era.', '先史時代から近代の港町までボルドーと南西フランスの歴史を紹介します。'],
+    ],
+    t: [
+      ['구시가지와 강변 명소는 트램으로 이어져 1시간 동안 갈아탈 수 있는 1회권 하나로 대부분 다닐 수 있습니다.', 'Trams link the old town and riverside sights, and a one-hour single ticket covers transfers.', '旧市街と川沿いの名所はトラムで結ばれ、1時間乗り換え自由の1回券でほとんど回れます。'],
+      ['공항에서 시내: 보르도 메리냐크 공항은 트램 A선 공항 정류장에서 시내로 갈 수 있고, 일반 1회권으로 탑니다.', 'Airport to city: tram line A runs from the Aéroport stop at Bordeaux-Mérignac into town on a standard single ticket.', '空港から市内へ：ボルドー・メリニャック空港のトラムA線「空港」停留所から市内へ行け、通常の1回券で乗れます。'],
+    ],
+  },
 };

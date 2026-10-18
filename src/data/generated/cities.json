@@ -160,6 +160,36 @@
     "stage": "파일럿"
   },
   {
+    "id": "granada",
+    "country": "스페인",
+    "countryEn": "Spain",
+    "nameKo": "그라나다",
+    "nameEn": "Granada",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "valencia",
+    "country": "스페인",
+    "countryEn": "Spain",
+    "nameKo": "발렌시아",
+    "nameEn": "Valencia",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "bordeaux",
+    "country": "프랑스",
+    "countryEn": "France",
+    "nameKo": "보르도",
+    "nameEn": "Bordeaux",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "kyoto",
     "country": "일본",
     "countryEn": "Japan",

@@ -419,6 +419,90 @@
     "missing": [],
     "computable": true
   },
+  "granada": {
+    "counts": {
+      "food": 6,
+      "transport": 1,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 6,
+      "snack": 5,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 6,
+      "snack": 5,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "valencia": {
+    "counts": {
+      "food": 6,
+      "transport": 1,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 6,
+      "snack": 5,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 6,
+      "snack": 5,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "bordeaux": {
+    "counts": {
+      "food": 4,
+      "transport": 1,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 1,
+      "ride": 0,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 1,
+      "ride": 0,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "kyoto": {
     "counts": {
       "food": 6,
@@ -1850,12 +1934,12 @@
   "madrid": {
     "counts": {
       "food": 6,
-      "transport": 5,
+      "transport": 7,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 5,
+      "ride": 7,
       "meal": 6,
       "snack": 5,
       "drink": 3,
@@ -1864,7 +1948,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 5,
+      "ride": 7,
       "meal": 6,
       "snack": 5,
       "drink": 3,

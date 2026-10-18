@@ -312,4 +312,13 @@ export const WHEN_SOURCES: Record<string, string> = {
   'lucerne:p1': 'https://www.myswitzerland.com/en-gb/experiences/events/lucerne-carnival/',
   'lucerne:p2': 'https://www.pilatus.ch/',
   'lucerne:x': 'https://www.pilatus.ch/',
+  'granada:p1': 'https://www.alhambra-patronato.es/visitar',
+  'granada:p2': 'https://turismo.granada.org/en/what-do/tapas-granada',
+  'granada:x': 'https://www.alhambra-patronato.es/visitar',
+  'valencia:p1': 'https://www.visitvalencia.com/en/what-to-do-valencia/gastronomy/gastronomic-experiences',
+  'valencia:p2': 'https://www.visitvalencia.com/en/what-to-do-valencia/gastronomy/essentials-of-valencian-cuisine',
+  'valencia:x': 'https://www.visitvalencia.com/en/what-to-do-valencia/gastronomy/gastronomic-experiences',
+  'bordeaux:p1': 'https://www.bordeaux-tourisme.com/gastronomie/produits-locaux',
+  'bordeaux:p2': 'https://www.bordeaux-tourisme.com/parcours/balade-gourmande.html',
+  'bordeaux:x': 'https://www.bordeaux-tourisme.com/gastronomie/produits-locaux',
 };

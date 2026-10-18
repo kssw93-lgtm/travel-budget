@@ -170,4 +170,28 @@ export const INTROS_6: Record<string, Intro> = {
       ['구시가지·호숫가', 'Old town / lakefront', '旧市街・湖畔', '카펠교와 선착장, 기차역이 모두 걸어서 닿는 중심가입니다.', 'The centre, walkable to the Chapel Bridge, the boat piers and the station.', 'カペル橋や船着き場、駅へすべて歩いて行ける中心部です。'],
     ],
   },
+  granada: {
+    o: ['시에라 네바다 산자락의 안달루시아 도시로, 이슬람 왕조의 궁전 알람브라와 옛 무어인 마을 알바이신이 유네스코 세계유산입니다. 술 한 잔에 타파스가 곁들여 나오는 문화로도 유명합니다.', 'An Andalusian city below the Sierra Nevada, whose Alhambra palace and old Moorish Albaicín quarter are UNESCO-listed; famous for free tapas with every drink.', 'シエラ・ネバダ山麓のアンダルシアの街で、イスラム王朝の宮殿アルハンブラと旧ムーア人地区アルバイシンは世界遺産です。飲み物1杯ごとにタパスが付く文化でも知られます。'],
+    d: [2, 3],
+    s: [
+      ['센트로(대성당·누에바 광장)', 'Centro (Cathedral / Plaza Nueva)', 'セントロ（大聖堂・ヌエバ広場）', '대성당과 타파스 거리가 가깝고 알람브라행 미니버스가 지나갑니다.', 'Close to the cathedral and tapas streets, on the Alhambra minibus route.', '大聖堂やタパス街に近く、アルハンブラ行きのミニバスが通ります。'],
+      ['알바이신', 'Albaicín', 'アルバイシン', '하얀 집과 좁은 골목의 언덕 마을로, 알람브라 전망이 좋지만 언덕이 가파릅니다.', 'The hillside quarter of whitewashed lanes with Alhambra views, but steep.', '白い家と細い路地の丘の街で、アルハンブラの眺めが良い一方、坂は急です。'],
+    ],
+  },
+  valencia: {
+    o: ['지중해에 면한 스페인 제3의 도시로, 파에야의 고향입니다. 미래적인 예술과학도시, 유네스코 세계유산 실크 거래소, 3월의 불꽃 축제 파야스로 유명합니다.', 'Spain’s third city on the Mediterranean and the home of paella, known for the futuristic City of Arts and Sciences, the UNESCO-listed Silk Exchange and the March Fallas festival.', '地中海に面したスペイン第3の都市で、パエリアの故郷です。未来的な芸術科学都市、世界遺産のラ・ロンハ、3月の火祭りファジャスで知られます。'],
+    d: [2, 3],
+    s: [
+      ['시우타트 베야(구시가지)', 'Ciutat Vella (old town)', 'シウタット・ベリャ（旧市街）', '대성당·중앙시장·실크 거래소를 걸어서 다닐 수 있는 중심가입니다.', 'The centre, walkable to the cathedral, Central Market and Silk Exchange.', '大聖堂・中央市場・ラ・ロンハへ歩いて行ける中心部です。'],
+      ['루사파', 'Ruzafa', 'ルサファ', '식당과 카페가 많은 동네로, 북역과 가깝습니다.', 'A lively quarter of restaurants and cafés near Nord station.', '飲食店やカフェが多い地区で、北駅に近いです。'],
+    ],
+  },
+  bordeaux: {
+    o: ['가론강을 따라 18세기 석조 건물이 늘어선 프랑스 남서부의 와인 도시로, \'달의 항구\'라 불리는 구시가지가 유네스코 세계유산입니다. 생테밀리옹 등 와이너리 당일 여행의 거점이기도 합니다.', 'South-west France’s wine capital, lined with 18th-century stone facades along the Garonne; its “Port of the Moon” centre is UNESCO-listed, and it is a base for day trips to vineyards such as Saint-Émilion.', 'ガロンヌ川沿いに18世紀の石造りの建物が並ぶフランス南西部のワインの街で、「月の港」と呼ばれる旧市街は世界遺産です。サンテミリオンなどワイナリーへの日帰り旅行の拠点にもなります。'],
+    d: [2, 3],
+    s: [
+      ['생트카트린 거리·캥콩스 광장 주변', 'Rue Sainte-Catherine / Quinconces', 'サント・カトリーヌ通り・カンコンス広場周辺', '쇼핑가와 트램이 모이는 중심가로, 걸어서 대부분의 명소에 닿습니다.', 'The shopping and tram hub, walkable to most sights.', 'ショッピング街とトラムが集まる中心部で、主な名所へ歩いて行けます。'],
+      ['샤르트롱', 'Chartrons', 'シャルトロン', '옛 와인 상인 거리로, 앤티크 가게와 카페가 많고 시테 뒤 뱅과 가깝습니다.', 'The old wine merchants’ quarter of antique shops and cafés, near the Cité du Vin.', 'かつてのワイン商人の街で、骨董店やカフェが多く、シテ・デュ・ヴァンに近いです。'],
+    ],
+  },
 };

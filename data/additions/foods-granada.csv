@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+스페인,그라나다,하바스 콘 하몬,Habas con Jamón,잠두콩을 트레벨레스 하몬과 함께 볶은 그라나다 대표 요리,중,,대기,Andalucía Tourism,https://andalucia.org/es/habas-con-jamon,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+스페인,그라나다,사크로몬테 토르티야,Tortilla del Sacromonte,사크로몬테 동굴 마을에서 유래한 내장·햄을 넣은 오믈렛,중,,대기,Turismo de Granada,https://turismo.granada.org/en/carta-gastronomica-granadina,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+스페인,그라나다,피오노노,Piononos,"크림을 얹은 작은 롤케이크로, 그라나다 근교 산타페의 명물 과자",저,,대기,Turismo de Granada,https://turismo.granada.org/en/carta-gastronomica-granadina,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { SITE_PAGES, adsTxt, adsenseMeta, headTags, infoFallbackHtml, normalizeSite, pageHtml, robotsTxt, sitemapXml } from '../../scripts/site-files';
+import { SITE_PAGES, adsTxt, adsenseMeta, headTags, infoFallbackHtml, normalizeSite, pageHtml, robotsTxt, sitemapXml, llmsTxt } from '../../scripts/site-files';
 import { checkAdsenseReady } from '../../scripts/adsense-ready';
 
 describe('배포 보조 파일', () => {
@@ -81,5 +81,14 @@ describe('RSS 피드(네이버 서치어드바이저 제출용)', () => {
     expect(xml).toContain('A &amp; B &lt;도쿄&gt;');
     expect(xml).toContain('&quot;설명&quot;');
     expect(xml).toContain('<pubDate>Thu, 15 Oct 2026 15:00:00 GMT</pubDate>');
+  });
+
+  it('llms.txt: 요약·주요 페이지·도시 가이드 영어 주소, 나라와 같은 이름은 한 번만', () => {
+    const txt = llmsTxt('https://example.com', [{ path: '/guide/tokyo', name: 'Tokyo', country: 'Japan' }, { path: '/guide/singapore', name: 'Singapore', country: 'Singapore' }], '2026-10-17');
+    expect(txt).toMatch(/^# Travel Budget Calculator/);
+    expect(txt).toContain('in 2 cities');
+    expect(txt).toContain('- [Tokyo, Japan](https://example.com/guide/tokyo?lang=en)');
+    expect(txt).toContain('- [Singapore](https://example.com/guide/singapore?lang=en)');
+    expect(txt).toContain('Price data as of 2026-10-17.');
   });
 });

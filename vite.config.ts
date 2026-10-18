@@ -2,7 +2,7 @@ import { resolve } from 'node:path';
 import { defineConfig, loadEnv, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
 import { MSG, christmasPageMeta, comparePageMeta, methodPageMeta, guideIndexMeta, guidePageMeta, homeFallbackHtml, type GuideData } from './scripts/guide-pages';
-import { SITE_PAGES, adsTxt, escapeHtml, notFoundHtml, adsenseMeta, headTags, infoFallbackHtml, normalizeSite, pageHtml, replaceFallback, robotsTxt, rssXml, sitemapXml } from './scripts/site-files';
+import { SITE_PAGES, adsTxt, escapeHtml, notFoundHtml, adsenseMeta, headTags, infoFallbackHtml, normalizeSite, pageHtml, replaceFallback, robotsTxt, rssXml, sitemapXml, llmsTxt } from './scripts/site-files';
 import { ko } from './src/i18n/ko';
 import { guidePath } from './src/core/guide';
 import { cities, dataDate, dataMeta, extras, foods, memos, samples } from './src/data';
@@ -44,6 +44,7 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
         this.emitFile({ type: 'asset', fileName: 'robots.txt', source: robotsTxt(site) });
         if (site) this.emitFile({ type: 'asset', fileName: 'sitemap.xml', source: sitemapXml(site, [...SITE_PAGES, ...guidePages], /^\d{4}-\d{2}-\d{2}$/.test(guideData.updated) ? guideData.updated : undefined) });
         if (ads) this.emitFile({ type: 'asset', fileName: 'ads.txt', source: ads });
+        if (site) this.emitFile({ type: 'asset', fileName: 'llms.txt', source: llmsTxt(site, cities.map((c) => ({ path: guidePath(c.id), name: c.nameEn, country: c.countryEn })), guideData.updated) });
         const index = bundle['index.html'];
         if (index?.type !== 'asset' || typeof index.source !== 'string') return;
         const data = guideData;

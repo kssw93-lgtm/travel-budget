@@ -24,6 +24,28 @@ export function robotsTxt(site: string | undefined): string {
   return ['User-agent: *', 'Allow: /', 'Disallow: /api/', 'Disallow: /_l/', ...(site ? [`Sitemap: ${site}/sitemap.xml`] : [])].join('\n') + '\n';
 }
 
+/** AI 검색·답변 엔진용 사이트 안내(llms.txt). 영어로 쓰고 영어 주소를 건다 */
+export function llmsTxt(site: string, guides: Array<{ path: string; name: string; country: string }>, date: string): string {
+  const u = (path: string) => `${site}${path}?lang=en`;
+  return [
+    '# Travel Budget Calculator (howmuchthere.com)',
+    '',
+    `> Free calculator and city guides for on-the-ground travel costs — meals, local transport and attraction tickets — in ${guides.length} cities. Every price comes from an official source (transit operators, attractions, restaurant menus) with its source and check date. Results are min–max ranges; flights and accommodation are added only if the user enters them. Pages are available in Korean, English and Japanese (?lang=ko|en|ja). Price data as of ${date}.`,
+    '',
+    '## Key pages',
+    `- [Travel budget calculator](${u('/')})`,
+    `- [City travel cost guides](${u('/guides')})`,
+    `- [How the estimate is calculated](${u('/how-it-works')})`,
+    `- [Compare daily costs between cities](${u('/compare')})`,
+    `- [European Christmas markets 2026/27](${u('/christmas-markets')})`,
+    `- [About the site](${u('/about')})`,
+    '',
+    '## City guides',
+    ...guides.map((g) => `- [${g.name === g.country ? g.name : `${g.name}, ${g.country}`}](${u(g.path)})`),
+    '',
+  ].join('\n');
+}
+
 export function sitemapXml(site: string, pages: SitePage[] = SITE_PAGES, lastmod?: string): string {
   const urls = pages.flatMap((p) =>
     LANGS.map(

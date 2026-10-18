@@ -302,4 +302,20 @@ export const INTROS_6: Record<string, Intro> = {
       ['다운타운·패뉴얼 홀 주변', 'Downtown / Faneuil Hall', 'ダウンタウン・ファニエル・ホール周辺', '프리덤 트레일과 퀸시 마켓이 가깝고, 공항 실버라인 연결이 편합니다.', 'Near the Freedom Trail and Quincy Market, with easy Silver Line links to the airport.', 'フリーダム・トレイルやクインシー・マーケットに近く、空港へのシルバーラインも便利です。'],
     ],
   },
+  toronto: {
+    o: ['캐나다 최대 도시로, 호숫가에 CN 타워가 솟아 있고 세계 각국 이민자 동네와 음식이 한데 모여 있습니다. 차로 약 1시간 반 거리의 나이아가라 폭포를 다녀오는 관문이기도 합니다.', 'Canada’s largest city, where the CN Tower rises over Lake Ontario and neighbourhoods from around the world bring their food; also the gateway to Niagara Falls, about 1.5 hours away.', 'カナダ最大の都市で、湖畔にCNタワーがそびえ、世界各地からの移民の街と料理が集まっています。車で約1時間半のナイアガラの滝へ向かう玄関口でもあります。'],
+    d: [3, 4],
+    s: [
+      ['다운타운(유니언역 주변)', 'Downtown (around Union Station)', 'ダウンタウン（ユニオン駅周辺）', 'CN 타워·호숫가와 가깝고, 공항철도 UP 익스프레스가 도착하는 역입니다.', 'Close to the CN Tower and waterfront, and the terminus of the UP Express airport train.', 'CNタワーや湖畔に近く、空港鉄道UPエクスプレスが到着する駅です。'],
+      ['요크빌·블루어 거리', 'Yorkville / Bloor Street', 'ヨークビル・ブロア通り', '왕립 온타리오 박물관이 가깝고 지하철 1·2호선이 만나는 쇼핑 지역입니다.', 'A shopping area near the Royal Ontario Museum where subway Lines 1 and 2 meet.', 'ロイヤル・オンタリオ博物館に近く、地下鉄1・2号線が交わるショッピング地区です。'],
+    ],
+  },
+  chicago: {
+    o: ['미시간 호숫가의 미국 3대 도시로, 근대 고층 건축의 발상지답게 강을 따라 이름난 빌딩들이 늘어서 있습니다. 시카고 미술관과 밀레니엄 파크, 딥디시 피자로 유명합니다.', 'America’s third city on Lake Michigan and birthplace of the modern skyscraper, with landmark towers along the river; famous for the Art Institute, Millennium Park and deep-dish pizza.', 'ミシガン湖畔にあるアメリカ第3の都市で、近代高層建築の発祥地らしく川沿いに名建築が並びます。シカゴ美術館やミレニアム・パーク、ディープディッシュ・ピザで有名です。'],
+    d: [3, 4],
+    s: [
+      ['루프(다운타운)', 'The Loop (Downtown)', 'ループ（ダウンタウン）', '고가철도 L이 둘러싼 중심가로, 미술관·밀레니엄 파크·윌리스 타워가 걸어서 닿습니다.', 'The centre ringed by the elevated L, within walking distance of the Art Institute, Millennium Park and Willis Tower.', '高架鉄道Lに囲まれた中心街で、美術館やミレニアム・パーク、ウィリス・タワーへ歩いて行けます。'],
+      ['리버 노스·매그니피선트 마일', 'River North / Magnificent Mile', 'リバー・ノース・マグニフィセント・マイル', '식당과 쇼핑가가 모인 지역으로, 시카고강 건축 크루즈 출발지와 가깝습니다.', 'Restaurants and shopping, close to the river architecture cruises.', '飲食店やショッピング街が集まる地区で、シカゴ川の建築クルーズ乗り場に近いです。'],
+    ],
+  },
 };

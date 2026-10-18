@@ -363,4 +363,10 @@ export const WHEN_SOURCES: Record<string, string> = {
   'boston:p1': 'https://www.thefreedomtrail.org/visit',
   'boston:p2': 'https://www.meetboston.com/blog/post/best-seafood-in-boston/',
   'boston:x': 'https://www.mfa.org/visit',
+  'toronto:p1': 'https://www.destinationtoronto.com/plan-your-trip/',
+  'toronto:p2': 'https://www.destinationtoronto.com/plan-your-trip/',
+  'toronto:x': 'https://www.destinationtoronto.com/plan-your-trip/',
+  'chicago:p1': 'https://www.choosechicago.com/articles/bucket-list/the-ultimate-chicago-bucket-list/',
+  'chicago:p2': 'https://www.choosechicago.com/travel-trade/chicago-group-itineraries/walking-tours-in-chicago/',
+  'chicago:x': 'https://www.artic.edu/visit',
 };

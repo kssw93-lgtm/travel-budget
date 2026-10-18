@@ -1259,6 +1259,62 @@
     "missing": [],
     "computable": true
   },
+  "toronto": {
+    "counts": {
+      "food": 8,
+      "transport": 1,
+      "attraction": 2
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 8,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 8,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "chicago": {
+    "counts": {
+      "food": 10,
+      "transport": 1,
+      "attraction": 1
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 10,
+      "snack": 12,
+      "drink": 8,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 10,
+      "snack": 12,
+      "drink": 8,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "macau": {
     "counts": {
       "food": 4,
@@ -2382,12 +2438,12 @@
   "san-francisco": {
     "counts": {
       "food": 10,
-      "transport": 8,
+      "transport": 9,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 8,
+      "ride": 9,
       "meal": 10,
       "snack": 12,
       "drink": 8,
@@ -2396,7 +2452,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 8,
+      "ride": 9,
       "meal": 10,
       "snack": 12,
       "drink": 8,

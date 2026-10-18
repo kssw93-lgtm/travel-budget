@@ -238,4 +238,18 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['겨울(12~3월)에는 눈과 강추위로 야외 일정이 어려울 수 있으니 실내 박물관 일정을 함께 준비하세요.', 'Winter (December–March) snow and cold can derail outdoor plans; keep museum days in reserve.', '冬（12〜3月）は雪と厳しい寒さで屋外の予定が難しいことがあるので、屋内の博物館の予定も用意しましょう。'],
   },
+  toronto: {
+    p: [
+      ['6~9월', 'June–September', '6〜9月', '호숫가 산책과 토론토 아일랜드 페리, 나이아가라 당일 여행에 가장 좋은 날씨입니다.', 'The best weather for the waterfront, Toronto Island ferries and Niagara day trips.', '湖畔の散策やトロント・アイランドへのフェリー、ナイアガラへの日帰り旅行に最適な気候です。'],
+      ['9월 말~10월', 'Late September–October', '9月末〜10月', '선선한 날씨에 단풍을 즐기기 좋습니다.', 'Cool days and autumn colour.', '涼しい気候で紅葉を楽しめます。'],
+    ],
+    x: ['겨울(12~3월)에는 영하의 추위가 이어지니, 실내 지하 보행로(PATH)와 박물관 위주로 일정을 짜세요.', 'Winter (December–March) is sub-zero; plan around the underground PATH walkway and museums.', '冬（12〜3月）は氷点下の日が続くので、地下歩行者通路（PATH）や博物館を中心に予定を組みましょう。'],
+  },
+  chicago: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '호숫가 산책과 강 건축 크루즈, 야외 축제를 즐기기 좋습니다.', 'Great for the lakefront, river architecture cruises and outdoor festivals.', '湖畔の散策やシカゴ川の建築クルーズ、屋外フェスティバルを楽しめます。'],
+      ['9~10월', 'September–October', '9〜10月', '더위가 가라앉아 걸어서 건축 투어를 하기 좋습니다.', 'The heat eases — good for walking architecture tours.', '暑さが和らぎ、歩いて建築ツアーをするのに良い時期です。'],
+    ],
+    x: ['겨울(12~3월)에는 호수 바람으로 체감 온도가 크게 떨어지니, 미술관 등 실내 일정을 함께 준비하세요.', 'In winter (December–March) the lake wind makes it feel far colder; keep indoor days like the Art Institute in reserve.', '冬（12〜3月）は湖からの風で体感温度が大きく下がるので、美術館など屋内の予定も用意しましょう。'],
+  },
 };

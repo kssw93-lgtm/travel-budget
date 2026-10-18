@@ -94,6 +94,10 @@
 | 워싱턴 D.C. | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 보스턴 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 보스턴 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 토론토 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 토론토 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 시카고 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 시카고 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 마카오 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 마카오 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1013,6 +1017,15 @@
 | BOS-AT-003 | 보스턴 | 뉴잉글랜드 수족관 (성인) | 39.95 USD | A | 예 | 재검증 | [New England Aquarium](https://www.neaq.org/visit/tickets/) |
 | BOS-AT-004 | 보스턴 | 뉴잉글랜드 수족관 (아동) | 30.95 USD | A | 예 | 재검증 | [New England Aquarium](https://www.neaq.org/visit/tickets/) |
 | BOS-AT-005 | 보스턴 | 프리덤 트레일 (걷기 무료) | 0 USD | A | 예 | 재검증 | [National Park Service](https://www.nps.gov/thingstodo/walk-the-freedom-trail.htm) |
+| TOR-TR-001 | 토론토 | TTC 지하철·버스 1회(프레스토·카드 탭) | 3.3 CAD | A | 예 | 재검증 | [TTC](https://www.ttc.ca/Fares-and-passes) |
+| TOR-AT-001 | 토론토 | CN 타워 일반 입장 (성인, 세전) | 47 CAD | A | 예 | 재검증 | [CN Tower](https://www.cntower.ca/plan-your-visit/tickets-and-hours/tickets) |
+| TOR-AT-002 | 토론토 | CN 타워 일반 입장 (청소년, 세전) | 34 CAD | A | 예 | 재검증 | [CN Tower](https://www.cntower.ca/plan-your-visit/tickets-and-hours/tickets) |
+| TOR-AT-003 | 토론토 | 카사 로마 (성인) | 45 CAD | A | 예 | 재검증 | [Casa Loma](https://casaloma.ca/visit-the-castle/) |
+| TOR-AT-004 | 토론토 | 카사 로마 (아동) | 30 CAD | A | 예 | 재검증 | [Casa Loma](https://casaloma.ca/visit-the-castle/) |
+| CHI-TR-001 | 시카고 | CTA L(고가·지하철) 1회 | 2.5 USD | A | 예 | 재검증 | [CTA](https://www.transitchicago.com/fares/) |
+| CHI-AT-001 | 시카고 | 스카이덱 시카고 (성인) | 32 USD | A | 예 | 재검증 | [Skydeck Chicago](https://theskydeck.com/tickets-shop/general-pricing/) |
+| CHI-AT-002 | 시카고 | 스카이덱 시카고 (아동) | 24 USD | A | 예 | 재검증 | [Skydeck Chicago](https://theskydeck.com/tickets-shop/general-pricing/) |
+| CHI-AT-003 | 시카고 | 시카고 미술관 (14세 미만 무료) | 0 USD | A | 예 | 재검증 | [Art Institute of Chicago](https://www.artic.edu/visit/free-admission-opportunities) |
 | GRX-TR-001 | 그라나다 | 그라나다 시내버스 1회권 | 1.6 EUR | A | 예 | 재검증 | [Turismo de Granada](https://turismo.granada.org/es/bus-urbano) |
 | GRX-AT-001 | 그라나다 | 알람브라 일반 입장(낮) (성인) | 21~22.27 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://tickets.alhambra-patronato.es/producto/alhambra-general/) |
 | GRX-AT-002 | 그라나다 | 알람브라 (아동) | 0 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://www.alhambra-patronato.es/notas-prensa/la-alhambra-actualiza-sus-tarifas-en-agosto) |

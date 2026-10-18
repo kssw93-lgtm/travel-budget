@@ -4747,5 +4747,35 @@
     "ko": "뉴잉글랜드 바다에서 나는 신선한 생굴",
     "en": "Fresh New England oysters on the half shell",
     "ja": "ニューイングランドの海でとれる新鮮な生ガキ"
+  },
+  "toronto:Peameal Bacon Sandwich": {
+    "ko": "옥수숫가루를 입힌 돼지 등심 베이컨을 빵에 끼운 토론토 대표 샌드위치",
+    "en": "Cornmeal-crusted back bacon in a bun, Toronto’s signature sandwich",
+    "ja": "コーンミールをまぶした豚ロースのベーコンをパンに挟んだトロント名物のサンドイッチ"
+  },
+  "toronto:Butter Tart": {
+    "ko": "버터·설탕·달걀로 만든 달콤한 필링을 채운 캐나다식 작은 타르트",
+    "en": "Small Canadian tart with a sweet butter-sugar-egg filling",
+    "ja": "バター・砂糖・卵の甘いフィリングを詰めたカナダの小さなタルト"
+  },
+  "toronto:Poutine": {
+    "ko": "감자튀김에 치즈 커드와 그레이비 소스를 얹은 캐나다 음식",
+    "en": "Fries topped with cheese curds and gravy",
+    "ja": "フライドポテトにチーズカードとグレイビーソースをかけたカナダ料理"
+  },
+  "chicago:Deep-Dish Pizza": {
+    "ko": "그릇 모양 도우에 치즈·토마토 소스·토핑을 두툼하게 채운 시카고식 피자",
+    "en": "Bowl-shaped crust filled with cheese, tomato sauce and toppings",
+    "ja": "器のような生地にチーズ・トマトソース・具をたっぷり詰めたシカゴ風ピザ"
+  },
+  "chicago:Italian Beef": {
+    "ko": "얇게 썬 로스트 비프를 육즙에 적신 빵에 끼우고 매운 지아르디니에라를 얹은 샌드위치",
+    "en": "Thin-sliced roast beef in a jus-soaked roll with spicy giardiniera",
+    "ja": "薄切りローストビーフを肉汁に浸したパンに挟み、辛いジャルディニエラをのせたサンドイッチ"
+  },
+  "chicago:Chicago-Style Hot Dog": {
+    "ko": "양귀비씨 빵에 소고기 소시지와 머스터드·양파·렐리시·피클·토마토를 얹은 핫도그(케첩 없음)",
+    "en": "All-beef frank on a poppy-seed bun with mustard, onion, relish, pickle and tomato — no ketchup",
+    "ja": "ケシの実のパンに牛肉ソーセージとマスタード・玉ねぎ・レリッシュ・ピクルス・トマトをのせたホットドッグ（ケチャップなし）"
   }
 }

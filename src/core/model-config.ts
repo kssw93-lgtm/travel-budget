@@ -91,6 +91,8 @@ export const MENU_SURCHARGE: Record<string, { tax: number; drinkTax?: number; ti
   vancouver: { tax: 0.05, drinkTax: 0.15, tip: [0.15, 0.18], taxSource: 'Canada Revenue Agency GST 5%, BC PST 10% on liquor' },
   'quebec-city': { tax: 0.14975, tip: [0.15, 0.18], taxSource: 'Canada Revenue Agency GST 5% + Revenu Québec QST 9.975%' },
   'washington-dc': { tax: 0.1, tip: [0.18, 0.2], taxSource: 'DC Office of Tax and Revenue — food and beverage for immediate consumption 10%' },
+  toronto: { tax: 0.13, tip: [0.15, 0.18], taxSource: 'Ontario — Harmonized Sales Tax 13%' },
+  chicago: { tax: 0.1075, tip: [0.18, 0.2], taxSource: 'Chicago 10.25% sales tax (state 6.25% + Cook County 1.75% + city 1.25% + RTA 1%) + City of Chicago restaurant tax 0.5%' },
   boston: { tax: 0.07, tip: [0.18, 0.2], taxSource: 'Massachusetts DOR — meals 6.25% + local option 0.75%' },
   // 아래 셋은 숨김(조사 중) 도시. 공개하면 바로 적용된다. 세율은 퍼플렉시티가 세무청 공식 세율표에서 확인(2026-10-14)
   'los-angeles': { tax: 0.1025, tip: [0.18, 0.2], taxSource: 'CDTFA — Los Angeles City 10.250% (effective October 1, 2026)' },

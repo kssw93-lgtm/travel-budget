@@ -543,4 +543,28 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 로건 공항에서 실버라인 SL1 버스를 타면 사우스역까지 가며, 공항에서 출발할 때는 무료입니다. 공항 무료 셔틀로 블루라인 공항역에 가서 지하철을 탈 수도 있습니다.', 'Airport to city: the Silver Line SL1 runs from Logan to South Station and is free from the airport; a free shuttle also links to the Blue Line’s Airport station.', '空港から市内へ：ローガン空港からシルバーラインSL1バスでサウス駅へ行け、空港発は無料です。無料シャトルでブルーラインの空港駅へ行き地下鉄に乗ることもできます。'],
     ],
   },
+  toronto: {
+    h: [
+      ['CN 타워', 'CN Tower', 'CNタワー', '높이 553m의 토론토 상징으로, 전망대와 유리 바닥에서 온타리오 호수와 시내가 내려다보입니다.', 'Toronto’s 553 m landmark, with lookouts and a glass floor over Lake Ontario and the city.', '高さ553mのトロントのシンボルで、展望台やガラスの床からオンタリオ湖と市内を見渡せます。'],
+      ['카사 로마', 'Casa Loma', 'カサ・ロマ', '20세기 초에 지어진 고딕 양식의 성으로, 탑과 비밀 통로, 정원을 둘러볼 수 있습니다.', 'An early-20th-century Gothic Revival castle with towers, secret passages and gardens.', '20世紀初めに建てられたゴシック様式の城で、塔や秘密の通路、庭園を見学できます。'],
+      ['세인트 로렌스 마켓', 'St. Lawrence Market', 'セント・ローレンス・マーケット', '토론토 대표 식료품 시장으로, 명물 피밀 베이컨 샌드위치를 맛볼 수 있습니다.', 'Toronto’s landmark food market and home of the peameal bacon sandwich.', 'トロントを代表する食品市場で、名物のピーミール・ベーコン・サンドイッチが味わえます。'],
+      ['왕립 온타리오 박물관', 'Royal Ontario Museum', 'ロイヤル・オンタリオ博物館', '공룡 화석부터 세계 문화까지 아우르는 캐나다 최대급 박물관으로, 매달 셋째 화요일 저녁은 사전 예약 시 무료입니다.', 'One of Canada’s largest museums, from dinosaurs to world cultures; free on third-Tuesday evenings with a pre-booked slot.', '恐竜の化石から世界の文化までそろうカナダ最大級の博物館で、毎月第3火曜の夜は事前予約で無料です。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 HST(13%)와 팁이 빠져 있습니다. 팁은 15~18%가 일반적입니다.', 'Menu prices exclude 13% HST and tip; a 15–18% tip is usual.', '飲食店のメニュー価格にはHST（13%）とチップが含まれていません。チップは15〜18%が一般的です。'],
+      ['공항에서 시내: 피어슨 공항에서 UP 익스프레스를 타면 유니언역까지 약 25분입니다. 프레스토(PRESTO) 카드나 신용카드 탭으로 타면 종이 승차권보다 쌉니다.', 'Airport to city: the UP Express runs from Pearson to Union Station in about 25 minutes; paying with PRESTO or a contactless card is cheaper than a paper ticket.', '空港から市内へ：ピアソン空港からUPエクスプレスでユニオン駅まで約25分です。PRESTOカードやクレジットカードのタッチ決済で乗ると紙の乗車券より安くなります。'],
+    ],
+  },
+  chicago: {
+    h: [
+      ['시카고 미술관', 'Art Institute of Chicago', 'シカゴ美術館', '쇠라의 〈그랑드자트 섬의 일요일 오후〉 등 인상파 명작으로 유명한 미술관입니다. 입장료는 거주지에 따라 다르고, 14세 미만은 무료입니다.', 'Renowned for Impressionist masterpieces like Seurat’s A Sunday on La Grande Jatte; prices depend on where you live, and under-14s are free.', 'スーラの「グランド・ジャット島の日曜日の午後」など印象派の名作で有名な美術館です。入場料は居住地によって異なり、14歳未満は無料です。'],
+      ['스카이덱(윌리스 타워)', 'Skydeck Chicago (Willis Tower)', 'スカイデッキ（ウィリス・タワー）', '103층 전망대로, 건물 밖으로 튀어나온 유리 상자 ‘레지’에 서 볼 수 있습니다.', 'The 103rd-floor observatory with The Ledge, glass boxes jutting out from the tower.', '103階の展望台で、ビルの外に突き出たガラスの箱「レッジ」に立てます。'],
+      ['밀레니엄 파크', 'Millennium Park', 'ミレニアム・パーク', '거울 같은 조각 ‘클라우드 게이트(더 빈)’가 있는 도심 공원으로, 무료입니다.', 'The downtown park with the mirrored Cloud Gate (“The Bean”) — free.', '鏡のような彫刻「クラウド・ゲート（ザ・ビーン）」がある都心の公園で、無料です。'],
+      ['딥디시 피자', 'Deep-dish pizza', 'ディープディッシュ・ピザ', '1940년대 시카고에서 탄생한 두툼한 피자로, 치즈·소스·토핑을 그릇 모양 도우에 차례로 채웁니다.', 'Born in 1940s Chicago: a bowl-shaped crust filled with cheese, sauce, then toppings.', '1940年代にシカゴで生まれた分厚いピザで、器のような生地にチーズ・ソース・具を順に詰めます。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 세금과 팁이 빠져 있습니다. 시카고의 식당 세금은 약 10.75%(판매세 10.25%+식당세 0.5%)이고, 팁은 18~20%가 일반적입니다.', 'Menu prices exclude tax and tip: restaurant tax in Chicago is about 10.75% (10.25% sales tax + 0.5% restaurant tax), and an 18–20% tip is usual.', '飲食店のメニュー価格には税とチップが含まれていません。シカゴの飲食税は約10.75%（売上税10.25%＋飲食店税0.5%）で、チップは18〜20%が一般的です。'],
+      ['공항에서 시내: 오헤어 공항에서 지하철 블루라인을 타면 루프까지 약 45분입니다. 오헤어역에서 탈 때만 요금이 5달러이고, 다른 역은 2.5달러입니다.', 'Airport to city: the Blue Line runs from O’Hare to the Loop in about 45 minutes; boarding at O’Hare costs $5, other stations $2.50.', '空港から市内へ：オヘア空港から地下鉄ブルーラインでループまで約45分です。オヘア駅から乗る場合のみ運賃が5ドルで、他の駅は2.5ドルです。'],
+    ],
+  },
 };

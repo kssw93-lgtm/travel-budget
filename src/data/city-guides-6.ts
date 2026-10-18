@@ -68,6 +68,8 @@ export const NOTES_6: Record<string, Compact> = {
       ['와이키키 해변', 'Waikiki Beach', 'ワイキキ・ビーチ', '서핑 강습과 해변 산책으로 유명한 하와이 대표 해변입니다.', 'Hawaii’s signature beach for surf lessons and strolling.', 'サーフィンレッスンと散歩で有名なハワイを代表するビーチです。'],
       ['다이아몬드 헤드', 'Diamond Head', 'ダイヤモンドヘッド', '분화구 정상까지 걸어 올라가는 트레킹 코스. 입장 예약이 필요합니다.', 'A crater summit hike that requires an advance entry reservation.', '火口の頂上まで歩くトレッキング。入場予約が必要です。'],
       ['진주만', 'Pearl Harbor', 'パールハーバー', '태평양 전쟁의 역사를 볼 수 있는 기념관이 모인 곳입니다.', 'Memorials to the Pacific War.', '太平洋戦争の歴史を伝える記念館が集まる場所です。'],
+      ['이올라니 궁전', 'ʻIolani Palace', 'イオラニ宮殿', '하와이 왕국의 왕궁으로, 미국에 있는 유일한 왕궁입니다. 가이드·오디오 투어로 내부를 봅니다.', 'The royal palace of the Hawaiian Kingdom — the only one in the US — seen on guided or audio tours.', 'ハワイ王国の王宮で、アメリカにある唯一の宮殿です。ガイドや音声ツアーで内部を見学できます。'],
+      ['알라모아나 센터', 'Ala Moana Center', 'アラモアナセンター', '와이키키 근처의 대형 야외 쇼핑몰로, 푸드코트와 다양한 상점이 모여 있습니다.', 'A huge open-air mall near Waikiki with a big food court and shops.', 'ワイキキ近くの大型屋外ショッピングモールで、フードコートや多様な店が集まります。'],
     ],
     t: [
       ['하나우마 베이 스노클링은 예약제이며 화요일 등 휴무일이 있으니 미리 확인하세요.', 'Hanauma Bay snorkelling needs a reservation and has closing days; check ahead.', 'ハナウマ湾のシュノーケリングは予約制で休業日もあるので事前に確認を。'],
@@ -90,6 +92,8 @@ export const NOTES_6: Record<string, Compact> = {
       ['기타노이진칸', 'Kitano Ijinkan', '北野異人館', '개항기 외국인이 살던 서양식 저택들이 모인 언덕 동네입니다.', 'A hillside district of Western-style houses from the port-opening era.', '開港期に外国人が住んだ洋館が集まる坂の街です。'],
       ['메리켄 파크·하버랜드', 'Meriken Park and Harborland', 'メリケンパーク・ハーバーランド', '포트 타워가 보이는 항구 공원과 쇼핑 지역입니다.', 'The harbour park and shopping area by Port Tower.', 'ポートタワーが見える港の公園とショッピングエリアです。'],
       ['롯코산·누노비키 허브원', 'Mount Rokko and Nunobiki Herb Gardens', '六甲山・布引ハーブ園', '로프웨이로 오르는 정원과 야경 명소입니다.', 'Ropeway rides up to gardens and night views.', 'ロープウェイで上る庭園と夜景の名所です。'],
+      ['난킨마치(차이나타운)', 'Nankinmachi (Chinatown)', '南京町', '만두와 군것질 노점이 모인 고베의 차이나타운으로, 걸으며 먹기 좋습니다.', 'Kobe’s Chinatown, packed with dumpling and snack stalls for eating on the go.', '点心や食べ歩きの屋台が集まる神戸の中華街です。'],
+      ['이쿠타 신사', 'Ikuta Shrine', '生田神社', '산노미야 번화가 한가운데 있는 오래된 신사로, 「고베」라는 지명의 유래와 이어진 곳입니다.', 'An ancient shrine in the heart of Sannomiya, linked to the origin of the name Kobe.', '三宮の繁華街の中心にある古い神社で、「神戸」の地名の由来ともつながる場所です。'],
     ],
     t: [
       ['고베규는 인증을 받은 소고기만 이름을 쓸 수 있어, 가게에 인증서가 걸려 있는지 보면 좋습니다.', 'Only certified beef may be called Kobe beef; look for the certificate in shops.', '神戸ビーフは認定牛だけが名乗れるので、店の認定証を確認しましょう。'],
@@ -101,6 +105,8 @@ export const NOTES_6: Record<string, Compact> = {
       ['평화기념공원·원폭 돔', 'Peace Memorial Park and Atomic Bomb Dome', '平和記念公園・原爆ドーム', '원폭의 기억을 전하는 공원과 자료관입니다.', 'The park and museum that preserve the memory of the atomic bombing.', '原爆の記憶を伝える公園と資料館です。'],
       ['미야지마 이쓰쿠시마 신사', 'Itsukushima Shrine, Miyajima', '宮島・厳島神社', '바다 위에 선 붉은 도리이로 유명한 섬의 신사입니다.', 'The island shrine famous for its red torii standing in the sea.', '海の上に立つ朱色の鳥居で有名な島の神社です。'],
       ['히로시마성', 'Hiroshima Castle', '広島城', '시내 중심의 해자와 성 외관을 볼 수 있습니다. 천수각은 2026년 3월부터 내부 관람이 중단됐습니다.', 'See the moat and castle exterior in the city centre. The castle keep closed to visitors in March 2026.', '市内中心部で堀と城の外観を見られます。天守は2026年3月に閉城し、内部を見学できません。'],
+      ['오코노미무라', 'Okonomimura', 'お好み村', '히로시마식 오코노미야키 가게 20여 곳이 한 건물에 모여 있어 비교해 먹어 보기 좋습니다.', 'Some twenty Hiroshima-style okonomiyaki counters gathered in one building.', '広島風お好み焼きの店が20軒ほど一つの建物に集まり、食べ比べが楽しめます。'],
+      ['슛케이엔', 'Shukkeien Garden', '縮景園', '1620년에 조성된 일본 정원으로, 연못을 따라 다리와 찻집이 이어집니다.', 'A Japanese garden laid out in 1620, with bridges and teahouses around a pond.', '1620年に造られた日本庭園で、池に沿って橋や茶室が続きます。'],
     ],
     t: [
       ['미야지마의 도리이는 썰물 때 걸어서 가까이 갈 수 있어 물때표를 확인하면 좋습니다.', 'At low tide you can walk out to the Miyajima torii; check the tide table.', '宮島の鳥居は干潮時に歩いて近づけるので、潮見表を確認しましょう。'],

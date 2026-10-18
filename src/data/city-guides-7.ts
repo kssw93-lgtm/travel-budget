@@ -57,6 +57,8 @@ export const NOTES_7: Record<string, Compact> = {
       ['아야 소피아', 'Hagia Sophia', 'アヤソフィア', '성당에서 모스크로 쓰인 거대한 돔 건축물입니다.', 'The great domed building, church then mosque.', '聖堂からモスクとなった巨大なドーム建築です。'],
       ['그랜드 바자르', 'Grand Bazaar', 'グランドバザール', '수천 개 상점이 모인 세계에서 손꼽히게 오래된 실내 시장입니다.', 'One of the world’s oldest covered markets, with thousands of shops.', '数千の店が集まる世界有数の古い屋内市場です。'],
       ['보스포루스 해협 유람선', 'Bosphorus cruise', 'ボスポラス海峡クルーズ', '유럽과 아시아 사이 해협을 배로 오가며 궁전과 마을을 봅니다.', 'Sail the strait between Europe and Asia past palaces and villages.', 'ヨーロッパとアジアの間の海峡を船で巡り、宮殿や町を眺めます。'],
+      ['술탄 아흐메트 모스크(블루 모스크)', 'Sultan Ahmed Mosque (Blue Mosque)', 'スルタンアフメト・モスク（ブルーモスク）', '푸른 타일로 장식된 내부와 여섯 개의 첨탑이 특징인 모스크로, 예배 시간에는 관광객 입장이 제한됩니다.', 'Known for its blue-tiled interior and six minarets; visitor entry pauses at prayer times.', '青いタイルの内装と6本のミナレットが特徴のモスクで、礼拝時間は観光客の入場が制限されます。'],
+      ['돌마바흐체 궁전', 'Dolmabahçe Palace', 'ドルマバフチェ宮殿', '보스포루스 해협 변의 오스만 제국 말기 궁전으로, 화려한 샹들리에 홀이 유명합니다.', 'The late-Ottoman palace on the Bosphorus, famed for its chandeliered halls.', 'ボスポラス海峡沿いのオスマン帝国末期の宮殿で、豪華なシャンデリアの広間が有名です。'],
     ],
     t: [
       ['교통카드(이스탄불카르트) 하나로 지하철·트램·페리를 탈 수 있습니다.', 'One Istanbulkart covers metro, tram and ferry.', 'イスタンブールカード1枚で地下鉄・トラム・フェリーに乗れます。'],
@@ -105,6 +107,8 @@ export const NOTES_7: Record<string, Compact> = {
       ['페트로나스 트윈타워', 'Petronas Twin Towers', 'ペトロナス・ツインタワー', '쌍둥이 빌딩과 스카이브리지. 저녁에 KLCC 공원 분수 쇼가 열립니다.', 'The twin towers and skybridge, with fountain shows in KLCC Park at night.', 'ツインタワーとスカイブリッジ。夜はKLCC公園で噴水ショーがあります。'],
       ['바투 동굴', 'Batu Caves', 'バトゥ洞窟', '알록달록한 계단을 올라가는 힌두교 동굴 사원입니다.', 'A Hindu cave temple up a flight of rainbow stairs.', 'カラフルな階段を上るヒンドゥー教の洞窟寺院です。'],
       ['잘란 알로 야시장', 'Jalan Alor', 'ジャラン・アロー', '저녁마다 노점과 식당이 늘어서는 먹자골목입니다.', 'A food street of stalls and restaurants every evening.', '毎晩屋台と食堂が並ぶグルメ通りです。'],
+      ['KL 타워', 'KL Tower (Menara Kuala Lumpur)', 'KLタワー', '숲 언덕 위에 선 통신탑 전망대로, 페트로나스 트윈타워가 정면으로 보입니다.', 'A hilltop telecom tower with an observation deck facing the Petronas Towers.', '森の丘に建つ通信塔の展望台で、ペトロナス・ツインタワーを正面に望めます。'],
+      ['KL 새 공원', 'KL Bird Park', 'KLバードパーク', '거대한 그물 안에서 새들이 자유롭게 날아다니는 도심 공원입니다.', 'A city park where birds fly freely under a giant net canopy.', '巨大なネットの中を鳥たちが自由に飛び回る都市公園です。'],
     ],
     t: [
       ['바투 동굴의 사원 구역에서는 어깨와 무릎을 가리는 복장을 준비하세요. 노출이 큰 옷은 입장이 제한될 수 있습니다.', 'Cover your shoulders and knees in Batu Caves\' temple areas; revealing clothing may restrict entry.', 'バトゥ洞窟の寺院エリアでは肩と膝を覆う服装を用意しましょう。露出の多い服装では入場が制限される場合があります。'],

@@ -26,6 +26,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['국립미술관', 'Rijksmuseum', 'アムステルダム国立美術館', '렘브란트의 「야간 순찰」과 페르메이르 작품을 볼 수 있는 네덜란드 대표 미술관입니다.', "The Netherlands' great art museum, home to Rembrandt's Night Watch and works by Vermeer.", 'レンブラントの「夜警」やフェルメール作品を所蔵するオランダを代表する美術館です。'],
       ['안네 프랑크의 집', 'Anne Frank House', 'アンネ・フランクの家', '안네 프랑크 가족이 숨어 지냈던 집. 입장권은 온라인으로만 팔아 미리 예약해야 합니다.', "The house where Anne Frank's family hid; tickets are sold online only, so book ahead.", 'アンネ一家が隠れ住んだ家。チケットはオンライン販売のみなので事前予約が必要です。'],
       ['운하 지구', 'Canal Ring', '運河地区', '17세기에 만든 운하와 좁고 긴 집들이 이어지는 구시가지. 운하 보트로 둘러보기 좋습니다.', 'The 17th-century canal ring lined with narrow gabled houses, best seen from a canal boat.', '17世紀の運河と細長い家並みが続く旧市街。運河ボートでの見学がおすすめです。'],
+      ['반 고흐 미술관', 'Van Gogh Museum', 'ゴッホ美術館', '반 고흐 작품을 세계에서 가장 많이 소장한 미술관으로, 시간 지정 온라인 예약이 필요합니다.', 'The world’s largest Van Gogh collection; book a timed ticket online.', 'ゴッホ作品を世界で最も多く所蔵する美術館で、時間指定のオンライン予約が必要です。'],
     ],
     t: [
       ['자전거 도로(붉은 길)는 보행로가 아닙니다. 걸을 때 자전거 도로에 서 있지 않도록 조심하세요.', 'The red bike lanes are not footpaths; watch out and do not stand in them.', '赤い自転車道は歩道ではありません。歩くときに立ち止まらないよう注意しましょう。'],
@@ -70,6 +71,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['자금성(고궁박물원)', 'Forbidden City (Palace Museum)', '故宮（紫禁城）', '명·청 황궁. 하루 입장 인원이 정해져 있어 실명 예약이 필요합니다.', 'The Ming and Qing imperial palace; daily entry is capped and needs real-name booking.', '明・清の皇宮。1日の入場者数に上限があり、実名予約が必要です。'],
       ['만리장성 무톈위·바다링', 'Great Wall at Mutianyu or Badaling', '万里の長城（慕田峪・八達嶺）', '시내에서 당일로 갈 수 있는 장성 구간. 무톈위는 비교적 덜 붐빕니다.', 'Wall sections reachable on a day trip; Mutianyu is usually less crowded.', '市内から日帰りできる長城。慕田峪は比較的すいています。'],
       ['이화원', 'Summer Palace', '頤和園', '호수와 회랑이 아름다운 황실 정원입니다.', 'An imperial garden of lakes and long painted corridors.', '湖と長い回廊が美しい皇室庭園です。'],
+      ['천단 공원', 'Temple of Heaven', '天壇公園', '명·청 황제가 풍년을 빌던 제단으로, 둥근 기년전이 상징인 유네스코 세계유산입니다.', 'Where Ming and Qing emperors prayed for good harvests; its round Hall of Prayer is a UNESCO landmark.', '明・清の皇帝が豊作を祈った祭壇で、円形の祈年殿が象徴の世界遺産です。'],
     ],
     t: [
       ['주요 관광지는 여권으로 실명 예약을 해야 하는 곳이 많습니다. 방문 전날까지 예약해 두세요.', 'Many major sights require real-name booking with your passport; book by the day before.', '主要観光地は旅券での実名予約が必要な所が多いので、前日までに予約を。'],
@@ -103,6 +105,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['국회의사당', 'Parliament Building', '国会議事堂', '다뉴브강변의 대형 네오고딕 건축물. 내부 관람은 정해진 시간의 가이드 또는 오디오 가이드 투어로 진행됩니다.', 'a large Neo-Gothic landmark on the Danube. Interior visits follow a timed guided or audio-guided tour.', 'ドナウ川沿いに建つ大規模なネオゴシック建築。内部見学は指定時刻のガイド付き、または音声ガイド付きツアーで行われます。'],
       ['어부의 요새', "Fisherman's Bastion", '漁夫の砦', '부다 언덕 위 전망 테라스. 강 건너 국회의사당이 정면으로 보입니다.', 'Viewing terraces on Buda hill facing the Parliament across the river.', 'ブダの丘の展望テラス。対岸の国会議事堂が正面に見えます。'],
       ['세체니 온천', 'Széchenyi Thermal Bath', 'セーチェーニ温泉', '노천 온천탕이 있는 대형 온천. 겨울에도 야외 탕에서 즐길 수 있습니다.', 'A grand spa with outdoor thermal pools, enjoyed even in winter.', '屋外の温泉プールがある大型温泉。冬も屋外で楽しめます。'],
+      ['헝가리 국립미술관(부다 성)', 'Hungarian National Gallery (Buda Castle)', 'ハンガリー国立美術館（ブダ城）', '부다 성 왕궁 건물의 미술관으로, 성 언덕에서 다뉴브강과 국회의사당이 보입니다.', 'Housed in the Buda Castle palace, with views over the Danube and Parliament from the hill.', 'ブダ城の王宮にある美術館で、城の丘からドナウ川と国会議事堂を望めます。'],
     ],
     t: [
       ['밤에 다뉴브강 유람선을 타면 조명이 켜진 국회의사당과 다리를 볼 수 있습니다.', 'An evening Danube cruise shows the Parliament and bridges lit up.', '夜のドナウ川クルーズでライトアップされた国会議事堂と橋が見られます。'],

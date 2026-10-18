@@ -7,6 +7,8 @@ export const NOTES_2: Record<string, Compact> = {
       ['부르즈 할리파', 'Burj Khalifa', 'ブルジュ・ハリファ', '세계에서 가장 높은 건물. 해 질 녘 시간대 전망대 입장은 일찍 마감되는 편입니다.', "The world's tallest building; sunset observation slots sell out early.", '世界一高いビル。夕暮れの展望台枠は早く埋まりがちです。'],
       ['두바이 몰 분수 쇼', 'Dubai Fountain', 'ドバイ・ファウンテン', '부르즈 할리파 앞 호수에서 저녁마다 열리는 무료 음악 분수 쇼입니다.', 'A free musical fountain show on the lake below the Burj Khalifa every evening.', 'ブルジュ・ハリファ前の湖で毎晩行われる無料の噴水ショーです。'],
       ['올드 두바이·아브라 수상택시', 'Old Dubai and abra boats', 'オールド・ドバイとアブラ', '두바이 크리크를 나무배(아브라)로 건너 향신료·금 시장(수크)을 둘러봅니다.', 'Cross Dubai Creek by wooden abra to the spice and gold souks.', '木造船アブラでドバイ・クリークを渡り、スパイスと金のスークを巡ります。'],
+      ['두바이 프레임', 'Dubai Frame', 'ドバイ・フレーム', '거대한 액자 모양 전망대로, 한쪽은 옛 두바이, 다른 쪽은 신도심이 보입니다.', 'A giant picture-frame lookout with old Dubai on one side and the new skyline on the other.', '巨大な額縁の形をした展望台で、片側に旧市街、反対側に新市街が見えます。'],
+      ['미래 박물관', 'Museum of the Future', '未来博物館', '아랍어 서예가 새겨진 타원형 건물로, 미래 기술을 주제로 한 체험형 전시가 열립니다.', 'An oval building wrapped in Arabic calligraphy, with immersive exhibits on future technology.', 'アラビア書道が刻まれた楕円形の建物で、未来の技術をテーマにした体験型展示があります。'],
     ],
     t: [
       ['여름(6~9월)은 한낮 기온이 매우 높아 야외 관광은 아침이나 저녁에 하는 것이 좋습니다.', 'Summer (June–September) is extremely hot; do outdoor sightseeing early or late.', '夏（6〜9月）は日中が非常に暑いので、屋外観光は朝か夕方に。'],
@@ -29,6 +31,8 @@ export const NOTES_2: Record<string, Compact> = {
       ['두오모(산타 마리아 델 피오레)', 'Florence Cathedral (Duomo)', 'ドゥオーモ', '브루넬레스키 돔이 있는 대성당. 돔에 오르려면 시간 지정 예약이 필요합니다.', "The cathedral with Brunelleschi's dome; climbing it needs a timed booking.", 'ブルネレスキのクーポラがある大聖堂。クーポラに登るには時間指定の予約が必要です。'],
       ['우피치 미술관', 'Uffizi Gallery', 'ウフィツィ美術館', '보티첼리 「비너스의 탄생」 등 르네상스 회화를 모은 미술관입니다.', "Renaissance masterpieces including Botticelli's Birth of Venus.", 'ボッティチェリ「ヴィーナスの誕生」などルネサンス絵画を集めた美術館です。'],
       ['미켈란젤로 광장', 'Piazzale Michelangelo', 'ミケランジェロ広場', '강 건너 언덕 위 광장. 해 질 녘 피렌체 전경이 유명합니다.', 'A hilltop square across the river, famous for sunset views of the city.', '川向こうの丘の広場。夕暮れのフィレンツェの眺めが有名です。'],
+      ['아카데미아 미술관', 'Galleria dell’Accademia', 'アカデミア美術館', '미켈란젤로의 「다비드」 원본이 있는 미술관으로, 시간 지정 예약을 추천합니다.', 'Home of Michelangelo’s original David; timed booking is recommended.', 'ミケランジェロの「ダビデ像」の本物がある美術館で、時間指定の予約がおすすめです。'],
+      ['피티 궁전과 보볼리 정원', 'Palazzo Pitti and the Boboli Gardens', 'ピッティ宮殿とボーボリ庭園', '메디치 가문의 궁전과 뒤편의 계단식 정원으로, 아르노강 건너편에 있습니다.', 'The Medici palace and its terraced gardens across the Arno.', 'メディチ家の宮殿と裏手の段々の庭園で、アルノ川の対岸にあります。'],
     ],
     t: [
       ['아카데미아 미술관(다비드상)과 우피치는 줄이 길어 시간 지정 예약을 하는 것이 좋습니다.', 'The Accademia (David) and Uffizi have long queues; book timed entry.', 'アカデミア美術館（ダビデ像）とウフィツィは行列が長いので時間指定予約を。'],
@@ -106,6 +110,8 @@ export const NOTES_2: Record<string, Compact> = {
       ['벨렝 지구', 'Belém', 'ベレン地区', '제로니무스 수도원과 벨렝탑, 원조 에그타르트 가게가 있는 지구입니다.', 'Home to Jerónimos Monastery, Belém Tower and the original custard-tart bakery.', 'ジェロニモス修道院とベレンの塔、元祖エッグタルトの店がある地区です。'],
       ['알파마', 'Alfama', 'アルファマ', '언덕 위 미로 같은 옛 동네. 저녁에 파두 공연을 하는 식당이 많습니다.', 'The maze-like old hillside quarter, with fado in many restaurants at night.', '丘の上の迷路のような旧市街。夜はファドを聴ける店が多いです。'],
       ['28번 트램', 'Tram 28', '28番トラム', '언덕 동네를 지나는 옛 노란 트램 노선입니다.', 'The vintage yellow tram that climbs through the old neighbourhoods.', '丘の街を走る昔ながらの黄色いトラムです。'],
+      ['상 조르즈 성', 'São Jorge Castle', 'サン・ジョルジェ城', '알파마 언덕 꼭대기의 성으로, 성벽 위에서 리스본 시내와 테주강이 내려다보입니다.', 'The castle crowning Alfama’s hill, with views over the city and the Tagus from its walls.', 'アルファマの丘の上の城で、城壁からリスボン市内とテージョ川を見渡せます。'],
+      ['신트라', 'Sintra', 'シントラ', '기차로 당일 다녀오는 언덕 마을로, 알록달록한 페나 궁전과 숲속 궁전들이 유네스코 세계유산입니다.', 'A hill town a day trip away by train, whose colourful Pena Palace and forest estates are UNESCO-listed.', '電車で日帰りできる丘の町で、色鮮やかなペーナ宮殿や森の宮殿群は世界遺産です。'],
     ],
     t: [
       ['리스본에는 언덕과 돌로 포장된 길이 많습니다. 걷기 편하고 미끄럼을 덜 타는 신발을 준비하세요.', 'Lisbon has many hills and stone-paved streets. Bring comfortable shoes with good grip for walking.', 'リスボンには坂道や石畳が多くあります。歩きやすく滑りにくい靴を用意しましょう。'],
@@ -117,6 +123,8 @@ export const NOTES_2: Record<string, Compact> = {
       ['그리피스 천문대', 'Griffith Observatory', 'グリフィス天文台', '할리우드 사인과 시내 야경이 보이는 언덕 위 천문대입니다.', 'A hilltop observatory with views of the Hollywood Sign and city lights.', 'ハリウッドサインと夜景が見える丘の上の天文台です。'],
       ['산타모니카 피어', 'Santa Monica Pier', 'サンタモニカ・ピア', '놀이공원이 있는 해변 부두. 루트 66의 끝 지점으로도 알려져 있습니다.', 'A seaside pier with an amusement park, known as the end of Route 66.', '遊園地がある海辺の桟橋。ルート66の終点としても知られます。'],
       ['게티 센터', 'Getty Center', 'ゲッティ・センター', '언덕 위 미술관과 정원. 건축과 전망도 볼거리입니다.', 'A hilltop art museum and garden, worth it for the architecture and views too.', '丘の上の美術館と庭園。建築と眺めも見どころです。'],
+      ['할리우드 명예의 거리', 'Hollywood Walk of Fame', 'ハリウッド・ウォーク・オブ・フェーム', '스타의 이름이 새겨진 별 모양 동판이 할리우드 대로를 따라 이어집니다.', 'Star-shaped plaques bearing celebrities’ names line Hollywood Boulevard.', 'スターの名前が刻まれた星形のプレートがハリウッド大通りに続きます。'],
+      ['유니버설 스튜디오 할리우드', 'Universal Studios Hollywood', 'ユニバーサル・スタジオ・ハリウッド', '실제 영화 촬영장을 도는 스튜디오 투어와 놀이기구가 함께 있는 테마파크입니다.', 'A theme park combining rides with a tour of working film studios.', '実際の撮影所を巡るスタジオツアーとアトラクションがあるテーマパークです。'],
     ],
     t: [
       ['명소끼리 멀고 차가 많이 막혀 하루에 한 지역씩 묶어 다니는 것이 좋습니다.', 'Sights are far apart and traffic is heavy; group each day by area.', '名所同士が遠く渋滞もひどいので、1日1エリアにまとめましょう。'],

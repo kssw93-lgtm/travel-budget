@@ -86,6 +86,8 @@ export const NOTES_4: Record<string, Compact> = {
       ['스탠리 파크', 'Stanley Park', 'スタンレー・パーク', '바다를 끼고 도는 방파제 산책로(시월)를 자전거로 한 바퀴 돌기 좋습니다.', 'Cycle or walk the Seawall that loops the park along the water.', '海沿いの遊歩道シーウォールを自転車で一周するのがおすすめです。'],
       ['그랜빌 아일랜드', 'Granville Island', 'グランビル・アイランド', '퍼블릭 마켓과 공방이 모인 섬. 작은 아쿠아버스로 건너갈 수 있습니다.', 'A public market and artisan studios, reached by tiny Aquabus ferries.', 'パブリックマーケットと工房が集まる島。小さなフェリーで渡れます。'],
       ['캐필라노 서스펜션 브리지', 'Capilano Suspension Bridge', 'キャピラノ吊り橋', '깊은 협곡 위에 걸린 흔들다리와 숲속 산책로입니다.', 'A swaying bridge over a deep canyon, with forest walkways.', '深い渓谷にかかる吊り橋と森の遊歩道です。'],
+      ['개스타운', 'Gastown', 'ガスタウン', '벽돌 건물과 증기 시계가 있는 밴쿠버의 옛 거리로, 카페와 상점이 모여 있습니다.', 'Vancouver’s oldest quarter of brick buildings, cafés and the famous steam clock.', 'レンガの建物と蒸気時計があるバンクーバーの旧市街で、カフェや店が集まります。'],
+      ['그라우스 마운틴', 'Grouse Mountain', 'グラウス・マウンテン', '케이블카로 오르는 산으로, 시내 전망과 함께 겨울에는 스키, 여름에는 하이킹을 즐깁니다.', 'A gondola-access peak with city views — skiing in winter, hiking in summer.', 'ロープウェイで上る山で、市内の眺めとともに冬はスキー、夏はハイキングが楽しめます。'],
     ],
     t: [
       ['밴쿠버 식당에서는 식사에 GST가 적용되고, 주류에는 별도 주세도 붙습니다. 팁은 보통 계산서와 별도로 정하므로 최종 금액을 확인하세요.', 'Restaurant meals in Vancouver are subject to GST, and alcohol also carries a separate provincial tax. Tips are usually decided separately, so check the final bill.', 'バンクーバーの飲食店では食事にGSTがかかり、酒類には州税も加わります。チップは通常別途決めるため、最終的な請求額を確認しましょう。'],
@@ -97,6 +99,8 @@ export const NOTES_4: Record<string, Compact> = {
       ['산마르코 광장·대성당', "St Mark's Square and Basilica", 'サン・マルコ広場・大聖堂', '황금 모자이크로 덮인 대성당과 두칼레 궁전이 있는 중심 광장입니다.', 'The main square with the gold-mosaic basilica and the Doge’s Palace.', '黄金のモザイクの大聖堂とドゥカーレ宮殿がある中心広場です。'],
       ['리알토 다리', 'Rialto Bridge', 'リアルト橋', '대운하를 건너는 가장 오래된 돌다리. 아침에는 옆 시장이 활기찹니다.', 'The oldest stone bridge over the Grand Canal, beside a lively morning market.', '大運河にかかる最古の石橋。朝は隣の市場がにぎわいます。'],
       ['부라노 섬', 'Burano', 'ブラーノ島', '알록달록한 집들이 늘어선 섬. 수상버스로 갈 수 있습니다.', 'An island of brightly painted houses, reached by vaporetto.', 'カラフルな家が並ぶ島。水上バスで行けます。'],
+      ['두칼레 궁전', 'Doge’s Palace', 'ドゥカーレ宮殿', '베네치아 공화국 통치자의 궁전으로, 감옥으로 이어지는 「탄식의 다리」를 건너 볼 수 있습니다.', 'The seat of the Venetian Republic’s rulers; cross the Bridge of Sighs to the old prisons.', 'ヴェネツィア共和国の統治者の宮殿で、牢獄へ続く「ため息の橋」を渡れます。'],
+      ['페기 구겐하임 컬렉션', 'Peggy Guggenheim Collection', 'ペギー・グッゲンハイム・コレクション', '대운하 변 저택에 피카소·달리 등 20세기 현대 미술 작품이 모여 있습니다.', 'A Grand Canal palazzo of 20th-century art, from Picasso to Dalí.', '大運河沿いの邸宅にピカソやダリなど20世紀の美術作品が集まります。'],
     ],
     t: [
       ['성수기 특정 날짜에는 당일 방문객에게 입도세(Access Fee)를 받으니 공식 사이트에서 날짜를 확인하세요.', 'On set peak days, day-trippers pay an Access Fee; check the dates on the official site.', '繁忙期の指定日は日帰り客に入島料がかかるので、公式サイトで日付を確認しましょう。'],

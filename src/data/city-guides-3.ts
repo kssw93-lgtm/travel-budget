@@ -7,6 +7,8 @@ export const NOTES_3: Record<string, Compact> = {
       ['프라도 미술관', 'Prado Museum', 'プラド美術館', '벨라스케스 「시녀들」, 고야 작품 등 스페인 회화의 보고입니다.', "Spain's great art museum, with Velázquez's Las Meninas and Goya.", 'ベラスケス「ラス・メニーナス」やゴヤなどスペイン絵画の宝庫です。'],
       ['마드리드 왕궁', 'Royal Palace of Madrid', 'マドリード王宮', '서유럽에서 손꼽히게 큰 왕궁. 바로 옆 사바티니 정원도 함께 둘러보기 좋습니다.', 'One of the largest palaces in western Europe, next to the Sabatini Gardens.', '西ヨーロッパ有数の大きな王宮。隣のサバティーニ庭園も合わせてどうぞ。'],
       ['레티로 공원', 'El Retiro Park', 'レティーロ公園', '호수에서 보트를 타고 유리 궁전을 볼 수 있는 큰 공원입니다.', 'A big park with a boating lake and the Crystal Palace.', 'ボート池とガラスの宮殿がある大きな公園です。'],
+      ['레이나 소피아 미술관', 'Museo Reina Sofía', 'ソフィア王妃芸術センター', '피카소의 「게르니카」를 소장한 현대 미술관입니다.', 'The modern art museum that holds Picasso’s Guernica.', 'ピカソの「ゲルニカ」を所蔵する現代美術館です。'],
+      ['산 미겔 시장', 'Mercado de San Miguel', 'サン・ミゲル市場', '마요르 광장 옆 철제 유리 건물의 시장으로, 타파스를 조금씩 맛보기 좋습니다.', 'An iron-and-glass market hall by Plaza Mayor, good for grazing on tapas.', 'マヨール広場そばの鉄とガラスの市場で、タパスを少しずつ味わえます。'],
     ],
     t: [
       ['주요 미술관은 저녁 마지막 두 시간 등 무료 입장 시간이 있어 공식 사이트에서 확인해 볼 만합니다.', 'Major museums have free-entry hours, often in the last two hours; check their official sites.', '主要美術館には夕方の無料時間などがあるので、公式サイトを確認してみましょう。'],
@@ -18,6 +20,8 @@ export const NOTES_3: Record<string, Compact> = {
       ['골목길(레인웨이)', 'Laneways', 'レーンウェイ', '호시어 레인 등 그래피티와 카페가 가득한 시내 골목들입니다.', 'City lanes such as Hosier Lane, packed with street art and cafés.', 'ホージア・レーンなど落書きアートとカフェが並ぶ路地です。'],
       ['퀸 빅토리아 마켓', 'Queen Victoria Market', 'クイーン・ヴィクトリア・マーケット', '식재료와 잡화가 모인 오래된 시장. 핫 잼 도넛이 명물입니다.', 'A historic market for food and goods, famous for hot jam doughnuts.', '食材と雑貨が集まる歴史ある市場。ホットジャムドーナツが名物です。'],
       ['그레이트 오션 로드', 'Great Ocean Road', 'グレート・オーシャン・ロード', '해안 절벽과 12사도 바위를 볼 수 있는 해안도로입니다. 멜버른에서 당일 여행도 가능하지만 거리가 길어 여유롭게 보려면 1박 이상을 권합니다.', 'A coastal route with cliffs and the Twelve Apostles. A day trip from Melbourne is possible, but the distance makes an overnight stay better for an unhurried visit.', '海岸の断崖や十二使徒の奇岩を見られる道です。メルボルンから日帰りもできますが、距離があるため、ゆっくり巡るなら1泊以上がおすすめです。'],
+      ['페더레이션 스퀘어', 'Federation Square', 'フェデレーション・スクエア', '플린더스 스트리트역 맞은편의 문화 광장으로, 행사와 미술관(ACMI·이언 포터 센터)이 모여 있습니다.', 'The cultural square opposite Flinders Street Station, home to events and galleries.', 'フリンダース・ストリート駅の向かいにある文化広場で、イベントや美術館が集まります。'],
+      ['왕립 식물원 멜버른', 'Royal Botanic Gardens Melbourne', '王立植物園メルボルン', '야라강 남쪽의 넓은 식물원으로, 호수와 잔디밭을 따라 산책하기 좋습니다.', 'Expansive gardens south of the Yarra, with lakes and lawns for strolling.', 'ヤラ川の南にある広大な植物園で、湖や芝生に沿った散策が楽しめます。'],
     ],
     t: [
       ['시내 중심의 무료 트램 구역 안에서는 트램을 무료로 탈 수 있습니다.', 'Trams are free within the city-centre Free Tram Zone.', '市中心部のフリートラムゾーン内はトラムが無料です。'],
@@ -119,6 +123,8 @@ export const NOTES_3: Record<string, Compact> = {
       ['골든게이트 브리지', 'Golden Gate Bridge', 'ゴールデンゲートブリッジ', '걸어서나 자전거로 건너볼 수 있는 붉은 현수교입니다.', 'The red suspension bridge you can walk or cycle across.', '歩いても自転車でも渡れる赤い吊り橋です。'],
       ['알카트라즈 섬', 'Alcatraz Island', 'アルカトラズ島', '옛 연방 교도소 섬. 공식 운항사 배편은 일찍 매진되는 편입니다.', 'The former federal prison island; official ferries sell out early.', '旧連邦刑務所の島。公式フェリーは早く売り切れがちです。'],
       ['케이블카', 'Cable cars', 'ケーブルカー', '가파른 언덕길을 오르내리는 옛 케이블카 자체가 명물입니다.', 'Riding the historic cable cars up the steep hills is an attraction itself.', '急な坂を上り下りする昔ながらのケーブルカーそのものが名物です。'],
+      ['피셔맨스 워프', 'Fisherman’s Wharf', 'フィッシャーマンズ・ワーフ', '부두를 따라 해산물 노점과 피어 39가 모인 거리로, 바다사자를 볼 수 있습니다.', 'The waterfront of seafood stands and Pier 39, where sea lions lounge.', '埠頭に沿ってシーフードの屋台やピア39が並び、アシカも見られます。'],
+      ['페리 빌딩', 'Ferry Building', 'フェリービルディング', '시계탑이 있는 옛 페리 터미널로, 안쪽 마켓에 지역 식재료 가게가 모여 있습니다.', 'The clock-towered old ferry terminal, now a market hall of local food producers.', '時計塔のある旧フェリーターミナルで、中のマーケットに地元の食材店が集まります。'],
     ],
     t: [
       ['여름에도 안개와 바람으로 쌀쌀한 날이 많아 겉옷이 필요합니다.', 'Fog and wind make even summer days chilly; bring a jacket.', '夏でも霧と風で肌寒い日が多いので、上着が必要です。'],

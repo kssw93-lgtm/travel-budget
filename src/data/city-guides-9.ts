@@ -216,4 +216,38 @@ export const NOTES_9: Record<string, Compact> = {
       ['구시가지는 걸어서 충분히 다닐 수 있습니다.', 'The historic centre is easily walkable.', '旧市街は歩いて十分に回れます。'],
     ],
   },
+  harbin: {
+    h: [
+      ['빙설대세계', 'Harbin Ice and Snow World', '氷雪大世界', '쑹화강의 얼음으로 지은 거대한 성과 미끄럼틀이 밤마다 조명으로 빛나는 겨울 테마파크입니다.', 'A winter theme park of giant castles and slides carved from Songhua River ice, lit up every night.', '松花江の氷で造った巨大な城や滑り台が毎晩ライトアップされる冬のテーマパークです。'],
+      ['중앙대가', 'Central Street', '中央大街', '20세기 초 바로크·비잔틴 양식 건물이 늘어선 약 1.4km의 돌길 보행자 거리입니다.', 'A 1.4 km cobbled pedestrian street lined with early-1900s Baroque and Byzantine buildings.', '20世紀初めのバロック・ビザンチン様式の建物が並ぶ約1.4kmの石畳の歩行者天国です。'],
+      ['성 소피아 성당', 'St Sophia Cathedral', '聖ソフィア大聖堂', '1907년에 지은 비잔틴 양식의 옛 러시아 정교회 성당으로, 하얼빈의 상징입니다.', 'A Byzantine-style former Russian Orthodox church built in 1907, the city’s landmark.', '1907年に建てられたビザンチン様式の旧ロシア正教会で、ハルビンの象徴です。'],
+      ['태양도 눈 조각 박람회', 'Sun Island Snow Sculpture Expo', '太陽島雪像博覧会', '1988년부터 해마다 열리는 눈 조각 전시로, 낮에 보기 좋습니다.', 'An annual snow-sculpture show since 1988, best seen by day.', '1988年から毎年開かれる雪像の展示で、昼間の見学がおすすめです。'],
+    ],
+    t: [
+      ['빙설대세계는 해 질 무렵부터 조명이 켜지므로 오후 늦게 들어가 낮과 밤 풍경을 함께 보는 일정이 좋습니다.', 'The Ice and Snow World lights up at dusk, so arrive in late afternoon to see it by day and night.', '氷雪大世界は日没ごろから点灯するので、午後遅めに入って昼と夜の景色を両方見るのがおすすめです。'],
+      ['혹한에서는 휴대폰 배터리가 빨리 닳으니 보조 배터리를 안주머니에 넣어 두세요. 결제는 알리페이·위챗페이를 준비하면 편합니다.', 'Phone batteries drain fast in the deep cold, so keep a power bank in an inner pocket; Alipay or WeChat Pay makes paying easy.', '厳寒ではスマートフォンの電池が早く減るので、モバイルバッテリーを内ポケットに入れておきましょう。支払いはアリペイ・ウィーチャットペイがあると便利です。'],
+    ],
+  },
+  lyon: {
+    h: [
+      ['푸르비에르 대성당', 'Basilica of Notre-Dame de Fourvière', 'フルヴィエールのノートルダム大聖堂', '언덕 위의 대성당으로, 푸니쿨라를 타고 올라가면 리옹 시내가 한눈에 보입니다.', 'The hilltop basilica; ride the funicular up for a view over the whole city.', '丘の上の大聖堂で、ケーブルカーで上ると市内が一望できます。'],
+      ['비유 리옹과 트라불', 'Vieux Lyon and the traboules', 'ヴュー・リヨンとトラブール', '유럽에서 손꼽히는 르네상스 구시가지로, 건물 사이를 잇는 비밀 통로(트라불) 일부를 걸어 볼 수 있습니다.', 'One of Europe’s great Renaissance quarters, with some of its hidden passageways (traboules) open to walk.', 'ヨーロッパ有数のルネサンス期の旧市街で、建物の間を抜ける抜け道（トラブール）の一部を歩けます。'],
+      ['레 알 폴 보퀴즈', 'Les Halles de Lyon Paul Bocuse', 'レ・アール・ド・リヨン ポール・ボキューズ', '치즈·샤퀴테리·빵 가게가 모인 실내 시장으로, 리옹 미식을 맛보기 좋습니다.', 'An indoor food market of cheesemongers, butchers and bakers — a taste of Lyon’s cuisine.', 'チーズやシャルキュトリー、パンの店が集まる屋内市場で、リヨンの美食を味わえます。'],
+    ],
+    t: [
+      ['부숑(bouchon)은 리옹 전통 요리를 내는 소박한 식당입니다. 인기 있는 곳은 저녁 예약을 해 두세요.', 'Bouchons are casual restaurants serving traditional Lyon dishes; book popular ones for dinner.', 'ブションはリヨンの伝統料理を出す気取らない食堂です。人気店は夕食を予約しておきましょう。'],
+      ['빛의 축제 기간에는 중심가 일부가 보행자 전용이 되고 대중교통이 붐비니 걸어서 다닐 계획을 세우세요.', 'During the Festival of Lights parts of the centre become pedestrian-only and transit is packed, so plan to walk.', '光の祭典の期間は中心部の一部が歩行者専用になり公共交通も混むので、歩いて回る計画を立てましょう。'],
+    ],
+  },
+  'quebec-city': {
+    h: [
+      ['샤토 프롱트낙과 뒤프랭 테라스', 'Château Frontenac and Dufferin Terrace', 'シャトー・フロンテナックとデュフラン・テラス', '구시가지를 내려다보는 성 모양 호텔과, 겨울이면 썰매장이 들어서는 강변 산책로입니다.', 'The castle-like hotel above the old town and the riverside boardwalk that gets a toboggan run in winter.', '旧市街を見下ろす城のようなホテルと、冬にはそり滑りができる川沿いの遊歩道です。'],
+      ['쁘띠 샹플랭 거리', 'Rue du Petit-Champlain', 'プチ・シャンプラン通り', '북미에서 손꼽히게 오래된 상점가로, 겨울에는 눈 덮인 거리를 조명 트리가 밝힙니다.', 'One of North America’s oldest shopping streets, lit with illuminated trees in the snow.', '北米有数の古い商店街で、冬は雪の通りをライトアップされたツリーが照らします。'],
+      ['몽모랑시 폭포', 'Montmorency Falls', 'モンモランシー滝', '나이아가라보다 높은 폭포로, 겨울에는 얼어붙은 절벽과 얼음 언덕을 볼 수 있습니다.', 'Falls taller than Niagara; in winter the cliffs freeze over into ice walls.', 'ナイアガラより高い滝で、冬は凍りついた崖や氷の丘が見られます。'],
+    ],
+    t: [
+      ['프랑스어가 공용어지만 관광지에서는 영어도 잘 통합니다. 인사로 「봉주르」를 건네면 좋아합니다.', 'French is the official language, but English works fine in tourist areas; a “bonjour” goes down well.', 'フランス語が公用語ですが、観光地では英語もよく通じます。「ボンジュール」と挨拶すると喜ばれます。'],
+      ['구시가지는 언덕과 계단이 많아, 아래 동네와 위 동네 사이는 푸니쿨라를 타면 편합니다.', 'The old town is hilly; the funicular links the Lower and Upper Town.', '旧市街は坂や階段が多く、下町と上町の間はケーブルカーが便利です。'],
+    ],
+  },
 };

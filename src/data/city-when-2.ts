@@ -217,4 +217,11 @@ export const WHEN_2: Record<string, When> = {
     ],
     x: ['한여름은 덥고 봄에는 먼지바람이 불 수 있습니다. 라마단에는 박물관과 상점의 운영 시간이 달라질 수 있으니 방문 전 확인하세요.', 'Summer can be hot and spring may bring dusty winds. Museum and shop hours may change during Ramadan, so check before visiting.', '真夏は暑く、春には砂ぼこりを伴う風が吹くことがあります。ラマダン中は博物館や店の営業時間が変わる場合があるため、訪問前に確認しましょう。'],
   },
+  harbin: {
+    p: [
+      ['12월 하순~2월 얼음 축제', 'Late December–February (ice festival)', '12月下旬〜2月（氷祭り）', '빙설대세계의 거대한 얼음 건축물이 밤마다 조명으로 빛나고, 태양도에서는 눈 조각 박람회가 열립니다. 개막일은 해마다 공식 발표를 확인하세요.', 'The Ice and Snow World’s giant ice buildings glow every night and Sun Island hosts the snow-sculpture expo; check each year’s official opening date.', '氷雪大世界の巨大な氷の建築が毎晩ライトアップされ、太陽島では雪像博覧会が開かれます。開幕日は毎年の公式発表を確認しましょう。'],
+      ['6~8월 여름', 'June–August (summer)', '6〜8月（夏）', '선선한 날씨에 쑹화강 변과 러시아풍 거리를 걷기 좋은 피서 시즌입니다.', 'Cool weather for strolling the Songhua riverside and Russian-era streets.', '涼しい気候で松花江の川辺やロシア風の街並みを歩くのに向いた避暑シーズンです。'],
+    ],
+    x: ['1월 한밤은 영하 30도 가까이 내려가기도 하니 휴대폰 배터리와 손발 보온에 대비하세요.', 'January nights can approach −30 °C; protect phone batteries, hands and feet.', '1月の夜は氷点下30度近くまで下がることもあるので、スマートフォンの電池や手足の防寒に備えましょう。'],
+  },
 };

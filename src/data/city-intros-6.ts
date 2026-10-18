@@ -117,4 +117,26 @@ export const INTROS_6: Record<string, Intro> = {
       ['구시가지', 'Historic centre', '旧市街', '운하와 명소를 걸어서 다닙니다.', 'Walk to the canals and sights.', '運河や名所へ歩いて行けます。'],
     ],
   },
+  harbin: {
+    o: ['중국 북동부 헤이룽장성의 중심 도시로, 러시아풍 건물이 남은 거리와 겨울 얼음 축제로 유명합니다. 1~2월에는 거대한 얼음 건축물로 꾸민 빙설대세계와 눈 조각 전시가 열립니다.', 'The capital of Heilongjiang in northeast China, known for its Russian-era streets and its winter ice festival; in January–February the Ice and Snow World and snow-sculpture shows fill the city.', '中国東北部・黒竜江省の中心都市で、ロシア風の建物が残る街並みと冬の氷祭りで知られます。1〜2月には巨大な氷の建築が並ぶ氷雪大世界や雪像の展示が開かれます。'],
+    d: [3, 4],
+    s: [
+      ['중앙대가 주변', 'Central Street area', '中央大街周辺', '러시아풍 거리와 성 소피아 성당, 쑹화강이 가까워 걸어서 다닙니다.', 'Walk to the Russian-era street, St Sophia Cathedral and the Songhua River.', 'ロシア風の街並みや聖ソフィア大聖堂、松花江へ歩いて行けます。'],
+    ],
+  },
+  lyon: {
+    o: ['론강과 손강이 만나는 프랑스 제3의 도시로, 구시가지가 유네스코 세계유산이며 미식의 도시로 불립니다. 12월 초에는 도시 전체가 빛으로 물드는 「빛의 축제」가 열립니다.', 'France’s third city, where the Rhône meets the Saône, with a UNESCO-listed historic centre and a reputation as a food capital; in early December the whole city glows for the Festival of Lights.', 'ローヌ川とソーヌ川が合流するフランス第3の都市で、旧市街は世界遺産、美食の街とも呼ばれます。12月初めには街全体が光に包まれる「光の祭典」が開かれます。'],
+    d: [2, 3],
+    s: [
+      ['프레스킬(벨쿠르 광장 주변)', 'Presqu’île (around Place Bellecour)', 'プレスキル（ベルクール広場周辺）', '두 강 사이 중심가로, 구시가지와 쇼핑가를 걸어서 다닙니다.', 'The centre between the two rivers, walkable to the old town and shops.', '二つの川に挟まれた中心部で、旧市街や繁華街へ歩いて行けます。'],
+      ['구시가지(비유 리옹)', 'Vieux Lyon', '旧市街（ヴュー・リヨン）', '르네상스 건물과 부숑(전통 식당)이 모인 곳으로 푸르비에르 언덕이 가깝습니다.', 'Renaissance lanes and bouchons, right below Fourvière hill.', 'ルネサンス様式の建物とブション（伝統的な食堂）が集まり、フルヴィエールの丘も近いです。'],
+    ],
+  },
+  'quebec-city': {
+    o: ['성벽으로 둘러싸인 구시가지가 유네스코 세계유산인 캐나다 퀘벡주의 주도로, 프랑스어를 쓰는 유럽풍 도시입니다. 겨울에는 독일식 크리스마스 마켓과 2월의 윈터 카니발로 눈 속의 축제가 이어집니다.', 'Quebec’s French-speaking capital, whose walled old town is a UNESCO World Heritage Site; winter brings a German-style Christmas market and the February Winter Carnival.', 'カナダ・ケベック州の州都で、城壁に囲まれた旧市街は世界遺産、フランス語を話すヨーロッパ風の街です。冬はドイツ風クリスマスマーケットや2月のウィンターカーニバルで雪の中の祭りが続きます。'],
+    d: [2, 3],
+    s: [
+      ['구시가지(성벽 안)', 'Old Québec (inside the walls)', '旧市街（城壁内）', '샤토 프롱트낙과 마켓, 쁘띠 샹플랭 거리를 걸어서 다닙니다.', 'Walk to the Château Frontenac, the market and Petit-Champlain.', 'シャトー・フロンテナックやマーケット、プチ・シャンプラン通りへ歩いて行けます。'],
+    ],
+  },
 };

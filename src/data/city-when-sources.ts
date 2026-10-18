@@ -293,4 +293,11 @@ export const WHEN_SOURCES: Record<string, string> = {
   'zhangjiajie:x': 'https://english.www.gov.cn/archive/statistics/202605/07/content_WS69fc95acc6d00ca5f9a0acec.html',
   'zurich:p1': 'https://www.zuerich.com/en/visit/shopping/polarzauber-at-zurich-main-station',
   'zurich:p2': 'https://www.zuerich.com/en/visit/the-seasons-in-zurich/summer/outdoor-pools-in-zurich',
+  'harbin:p1': 'https://www.chinahighlights.com/harbin/attraction/harbin-international-ice-and-snow-festival.htm',
+  'harbin:x': 'https://hellochinatrip.com/harbin-ice-festival-2026-when-to-go-what-it-costs-and-how-cold-is-it-really/',
+  'lyon:p1': 'https://www.france.fr/nl/evenement/het-fete-des-lumieres-in-lyon/',
+  'lyon:x': 'https://ryo.co/en/articles/france/lyon/fete-des-lumieres-lyon/',
+  'quebec-city:p1': 'https://www.quebec-cite.com/en/what-to-do-quebec-city/events/german-christmas-market',
+  'quebec-city:p2': 'https://www.bonjourquebec.com/en/listing/events/carnaval-de-quebec-en-collaboration-avec-loto-quebec/0rgb',
+  'quebec-city:p3': 'https://quebec-cite.com/en/what-to-do-quebec-city/itinerary-3-days-winter',
 };

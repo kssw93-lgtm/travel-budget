@@ -207,4 +207,11 @@ export const WHEN_3: Record<string, When> = {
   riga: { p: [XMAS, ['6월 하지(야니)', 'June (Midsummer, Jāņi)', '6月（夏至祭ヤーニ）', '라트비아 최대 명절로 화관을 쓰고 모닥불을 피웁니다.', 'Latvia’s biggest holiday, with flower crowns and bonfires.', 'ラトビア最大の祝日で、花冠をかぶりかがり火を焚きます。']] },
   gdansk: { p: [XMAS, ['7~8월 성 도미니크 시장', 'July–August (St Dominic’s Fair)', '7〜8月（聖ドミニク市）', '수백 년 전통의 대형 여름 시장이 구시가지에 열립니다.', 'A centuries-old summer fair fills the old town.', '数百年の伝統がある大規模な夏市が旧市街に開かれます。']] },
   bruges: { p: [XMAS, ['4~9월', 'April–September', '4〜9月', '브뤼헤 운하 보트가 정기 운항하며, 자전거로 근교 담머 같은 마을을 둘러볼 수 있습니다.', 'Canal boats run regularly in Bruges, and you can cycle to nearby villages such as Damme.', '春から秋はブルージュの運河ボートが定期運航し、自転車で近郊のダンメなどの村を巡れます。']] },
+  lyon: {
+    p: [
+      ['12월 5~8일 빛의 축제(2026)', '5–8 December (Festival of Lights, 2026)', '12月5〜8日（光の祭典、2026年）', '대성당과 광장, 강변 건물에 빛 작품이 펼쳐지고, 창가에 촛불을 켜는 리옹의 전통 축제입니다.', 'Light installations cover the cathedral, squares and riverfronts in Lyon’s traditional festival of candles in the windows.', '大聖堂や広場、川沿いの建物に光の作品が広がり、窓辺にろうそくを灯すリヨン伝統の祭りです。'],
+      ['봄·가을', 'Spring and autumn', '春・秋', '구시가지와 푸르비에르 언덕을 걷고 부숑에서 리옹 요리를 즐기기 좋은 날씨입니다.', 'Good weather for walking the old town and Fourvière hill and eating at a bouchon.', '旧市街やフルヴィエールの丘を歩き、ブションでリヨン料理を楽しむのに向いた気候です。'],
+    ],
+    x: ['빛의 축제 기간에는 숙소가 일찍 차고 중심가가 매우 붐비니 미리 예약하세요.', 'During the Festival of Lights rooms fill early and the centre is very crowded; book ahead.', '光の祭典の期間は宿が早く埋まり中心部は大変混むので、早めに予約しましょう。'],
+  },
 };

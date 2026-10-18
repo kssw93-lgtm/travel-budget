@@ -90,6 +90,36 @@
     "stage": "파일럿"
   },
   {
+    "id": "harbin",
+    "country": "중국",
+    "countryEn": "China",
+    "nameKo": "하얼빈",
+    "nameEn": "Harbin",
+    "currency": "CNY",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "lyon",
+    "country": "프랑스",
+    "countryEn": "France",
+    "nameKo": "리옹",
+    "nameEn": "Lyon",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "quebec-city",
+    "country": "캐나다",
+    "countryEn": "Canada",
+    "nameKo": "퀘벡",
+    "nameEn": "Quebec City",
+    "currency": "CAD",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
     "id": "kyoto",
     "country": "일본",
     "countryEn": "Japan",

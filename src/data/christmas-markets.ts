@@ -228,4 +228,12 @@ export const CHRISTMAS_MARKETS: Record<string, ChristmasMarket> = {
     url: 'https://www.visitbruges.be/en/winter-glow/christmas-markets',
     dates: ['2026-11-20', '2027-01-03'],
   },
+  'quebec-city': {
+    name: ['퀘벡 독일식 크리스마스 마켓', 'Québec City German Christmas Market', 'ケベック・ドイツ風クリスマスマーケット'],
+    place: ['구시가지 시청 주변 등 여러 곳', 'Several sites around City Hall in Old Québec', '旧市街の市庁舎周辺など複数の会場'],
+    period: ['2026년 11월 19일~12월 23일(목~일 운영, 12월 21~23일 매일)', '19 November–23 December 2026 (Thursday–Sunday, plus daily 21–23 December)', '2026年11月19日〜12月23日（木〜日曜、12月21〜23日は毎日）'],
+    note: ['입장은 무료이고, 눈 덮인 성벽 도시에 목조 노점과 조명이 늘어섭니다.', 'Free entry, with wooden stalls and lights across the snowy walled city.', '入場無料で、雪の城壁都市に木の屋台と光の装飾が並びます。'],
+    url: 'https://www.quebec-cite.com/en/what-to-do-quebec-city/events/german-christmas-market',
+    dates: ['2026-11-19', '2026-12-23'],
+  },
 };

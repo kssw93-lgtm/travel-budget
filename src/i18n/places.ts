@@ -13,7 +13,7 @@ export const CITY_JA: Record<string, string> = {
   hanoi: 'ハノイ', 'ho-chi-minh-city': 'ホーチミン', 'chiang-mai': 'チェンマイ', guam: 'グアム', sydney: 'シドニー', prague: 'プラハ',
   macau: 'マカオ', honolulu: 'ホノルル', saipan: 'サイパン', ulaanbaatar: 'ウランバートル', vienna: 'ウィーン', budapest: 'ブダペスト',
   munich: 'ミュンヘン', interlaken: 'インターラーケン', lisbon: 'リスボン',
-  'siem-reap': 'シェムリアップ', 'luang-prabang': 'ルアンパバーン', vancouver: 'バンクーバー', auckland: 'オークランド',
+  'siem-reap': 'シェムリアップ', 'luang-prabang': 'ルアンパバーン', vancouver: 'バンクーバー', harbin: 'ハルビン', lyon: 'リヨン', 'quebec-city': 'ケベック・シティ', auckland: 'オークランド',
   sokcho: '束草', tongyeong: '統営', daegu: '大邱', incheon: '仁川', kobe: '神戸', hiroshima: '広島', kanazawa: '金沢', hakodate: '函館',
   phuket: 'プーケット', pattaya: 'パタヤ', 'da-lat': 'ダラット', kaohsiung: '高雄', boracay: 'ボラカイ島', qingdao: '青島', beijing: '北京',
   amsterdam: 'アムステルダム', athens: 'アテネ', dubrovnik: 'ドゥブロヴニク', 'los-angeles': 'ロサンゼルス', 'las-vegas': 'ラスベガス',

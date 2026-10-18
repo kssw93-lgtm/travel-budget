@@ -88,6 +88,7 @@ export const STYLES: readonly TravelStyle[] = ['budget', 'standard', 'comfort'];
 export const MENU_SURCHARGE: Record<string, { tax: number; drinkTax?: number; tip: readonly [number, number]; taxSource: string }> = {
   'new-york': { tax: 0.08875, tip: [0.18, 0.2], taxSource: 'New York State Department of Taxation and Finance — New York City 8.875%' },
   honolulu: { tax: 0.045, tip: [0.18, 0.2], taxSource: 'Hawaii Department of Taxation — GET 4% + Oahu county surcharge 0.5%' },
+  victoria: { tax: 0.05, drinkTax: 0.15, tip: [0.15, 0.18], taxSource: 'Canada Revenue Agency GST 5%, BC PST 10% on liquor' },
   vancouver: { tax: 0.05, drinkTax: 0.15, tip: [0.15, 0.18], taxSource: 'Canada Revenue Agency GST 5%, BC PST 10% on liquor' },
   'quebec-city': { tax: 0.14975, tip: [0.15, 0.18], taxSource: 'Canada Revenue Agency GST 5% + Revenu Québec QST 9.975%' },
   'washington-dc': { tax: 0.1, tip: [0.18, 0.2], taxSource: 'DC Office of Tax and Revenue — food and beverage for immediate consumption 10%' },

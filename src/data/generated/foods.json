@@ -11804,6 +11804,60 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "victoria",
+    "nameKo": "애프터눈 티",
+    "nameEn": "Afternoon Tea",
+    "reason": "스콘과 샌드위치, 지역 해산물을 곁들인 영국식 오후 차",
+    "reasonEn": "British-style tea with scones, sandwiches and local seafood",
+    "desc": {
+      "ko": "스콘과 샌드위치, 지역 해산물을 곁들인 영국식 오후 차",
+      "en": "British-style tea with scones, sandwiches and local seafood",
+      "ja": "スコーンやサンドイッチ、地元の海産物を添えたイギリス式のティータイム"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Victoria",
+    "recommendUrl": "https://www.tourismvictoria.com/plan-your-trip/travel-itineraries/food-lovers-journey",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "victoria",
+    "nameKo": "던저니스 크랩",
+    "nameEn": "Dungeness Crab",
+    "reason": "서해안에서 나는 달큰한 맛의 게 요리",
+    "reasonEn": "Sweet West Coast crab",
+    "desc": {
+      "ko": "서해안에서 나는 달큰한 맛의 게 요리",
+      "en": "Sweet West Coast crab",
+      "ja": "西海岸でとれる甘みのあるカニの料理"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Victoria",
+    "recommendUrl": "https://www.tourismvictoria.com/plan-your-trip/travel-itineraries/food-lovers-journey",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "victoria",
+    "nameKo": "피시 앤드 칩스",
+    "nameEn": "Fish and Chips",
+    "reason": "피셔맨스 워프에서 맛보는 생선 튀김과 감자튀김",
+    "reasonEn": "Fish and chips at Fisherman’s Wharf",
+    "desc": {
+      "ko": "피셔맨스 워프에서 맛보는 생선 튀김과 감자튀김",
+      "en": "Fish and chips at Fisherman’s Wharf",
+      "ja": "フィッシャーマンズ・ワーフで味わうフィッシュ・アンド・チップス"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Victoria",
+    "recommendUrl": "https://www.tourismvictoria.com/plan-your-trip/travel-itineraries/food-lovers-journey",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "vienna",
     "nameKo": "비너 슈니첼",
     "nameEn": "Wiener Schnitzel",

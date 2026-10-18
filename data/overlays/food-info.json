@@ -5107,5 +5107,20 @@
     "ko": "푸드 카트 포드에서 파는 세계 각국의 저렴한 한 끼",
     "en": "Affordable global dishes from food-cart pods",
     "ja": "フードカートのポッドで売られる世界各国の手頃な料理"
+  },
+  "victoria:Afternoon Tea": {
+    "ko": "스콘과 샌드위치, 지역 해산물을 곁들인 영국식 오후 차",
+    "en": "British-style tea with scones, sandwiches and local seafood",
+    "ja": "スコーンやサンドイッチ、地元の海産物を添えたイギリス式のティータイム"
+  },
+  "victoria:Dungeness Crab": {
+    "ko": "서해안에서 나는 달큰한 맛의 게 요리",
+    "en": "Sweet West Coast crab",
+    "ja": "西海岸でとれる甘みのあるカニの料理"
+  },
+  "victoria:Fish and Chips": {
+    "ko": "피셔맨스 워프에서 맛보는 생선 튀김과 감자튀김",
+    "en": "Fish and chips at Fisherman’s Wharf",
+    "ja": "フィッシャーマンズ・ワーフで味わうフィッシュ・アンド・チップス"
   }
 }

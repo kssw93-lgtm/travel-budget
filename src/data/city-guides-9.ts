@@ -794,4 +794,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 포틀랜드 공항에서 MAX 레드 라인을 타면 다운타운까지 갈 수 있으며, 2시간 반 동안 환승할 수 있는 일반 요금 2.80달러가 적용됩니다. 신용카드 탭으로 바로 탈 수 있습니다.', 'Airport to city: the MAX Red Line runs from PDX to downtown on the standard $2.80 fare, valid 2½ hours; tap a contactless card to ride.', '空港から市内へ：ポートランド空港からMAXレッドラインでダウンタウンまで行け、2時間半乗り継ぎできる通常運賃2.80ドルが適用されます。クレジットカードのタッチで乗れます。'],
     ],
   },
+  victoria: {
+    h: [
+      ['부차트 가든', 'The Butchart Gardens', 'ブッチャート・ガーデン', '옛 석회암 채석장을 꽃 정원으로 바꾼 세계적인 정원으로, 시내에서 차로 약 30분입니다.', 'A world-famous garden created in a former limestone quarry, about 30 minutes from downtown.', 'かつての石灰岩の採石場を花の庭園に変えた世界的な庭園で、市内から車で約30分です。'],
+      ['로열 BC 박물관', 'Royal BC Museum', 'ロイヤルBC博物館', '브리티시컬럼비아의 자연과 원주민 역사를 보여 주는 이너 하버의 박물관입니다.', 'The Inner Harbour museum of BC’s natural history and Indigenous heritage.', 'ブリティッシュコロンビアの自然や先住民の歴史を伝えるインナー・ハーバーの博物館です。'],
+      ['애프터눈 티', 'Afternoon tea', 'アフタヌーンティー', '영국풍 도시답게 호텔과 찻집에서 지역 해산물을 곁들인 애프터눈 티를 즐길 수 있습니다.', 'True to its British style, hotels and tea rooms serve afternoon tea, some with local seafood.', 'イギリス風の街らしく、ホテルや喫茶店で地元の海産物を添えたアフタヌーンティーを楽しめます。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 GST(5%)와 팁이 빠져 있고, 술에는 주 판매세(PST)가 더 붙습니다. 팁은 15~18%가 일반적입니다. 버스는 1회 3달러이며 거스름돈을 주지 않습니다.', 'Menu prices exclude 5% GST and tip, with provincial tax added on alcohol; tip 15–18%. Buses cost $3 a ride, exact fare only.', '飲食店のメニュー価格にはGST（5%）とチップが含まれず、酒類には州税（PST）がさらにかかります。チップは15〜18%が一般的です。バスは1回3ドルで、おつりは出ません。'],
+    ],
+  },
 };

@@ -429,4 +429,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'portland:p1': 'https://www.travelportland.com/plan/first-time-trip-to-portland/',
   'portland:p2': 'https://japanesegarden.org/hours-admission/',
   'portland:x': 'https://www.travelportland.com/culture/portland-food-halls/',
+  'victoria:p1': 'https://butchartgardens.com/hours-rates/',
+  'victoria:p2': 'https://butchartgardens.com/hours-rates/',
+  'victoria:x': 'https://butchartgardens.com/hours-rates/',
 };

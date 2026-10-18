@@ -830,6 +830,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "victoria",
+    "country": "캐나다",
+    "countryEn": "Canada",
+    "nameKo": "빅토리아",
+    "nameEn": "Victoria",
+    "currency": "CAD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "sokcho",
     "country": "한국",
     "countryEn": "South Korea",

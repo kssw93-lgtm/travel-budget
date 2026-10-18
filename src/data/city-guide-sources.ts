@@ -1093,4 +1093,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'portland:h3': 'https://www.travelportland.com/culture/food-portlands-known-for/',
   'portland:t1': 'https://www.travelportland.com/culture/food-portlands-known-for/',
   'portland:t2': 'https://blog.trimet.org/2025/12/12/how-to-take-max-to-and-from-portland-international-airport/',
+  'victoria:h1': 'https://butchartgardens.com/hours-rates/',
+  'victoria:h2': 'https://www.royalbcmuseum.bc.ca/visit/plan-your-visit/buy-tickets',
+  'victoria:h3': 'https://www.tourismvictoria.com/plan-your-trip/travel-itineraries/food-lovers-journey',
+  'victoria:t1': 'https://www.bctransit.com/victoria/fares/',
 };

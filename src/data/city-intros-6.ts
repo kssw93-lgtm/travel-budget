@@ -494,4 +494,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['펄 디스트릭트', 'Pearl District', 'パール・ディストリクト', '옛 창고를 개조한 갤러리와 식당이 모인 지역입니다.', 'Converted warehouses full of galleries and restaurants.', '古い倉庫を改装したギャラリーや飲食店が集まる地区です。'],
     ],
   },
+  victoria: {
+    o: ['캐나다 브리티시컬럼비아주의 주도로, 밴쿠버섬 남쪽 끝 이너 하버를 중심으로 영국풍 건물이 늘어서 있습니다. 세계적인 정원 부차트 가든과 애프터눈 티, 해산물로 유명하며 캐나다에서 가장 온화한 도시 중 하나입니다.', 'British Columbia’s capital at the southern tip of Vancouver Island, with British-style buildings around the Inner Harbour; famous for the world-renowned Butchart Gardens, afternoon tea and seafood, and one of Canada’s mildest cities.', 'カナダ・ブリティッシュコロンビア州の州都で、バンクーバー島南端のインナー・ハーバーを中心にイギリス風の建物が並びます。世界的な庭園ブッチャート・ガーデンやアフタヌーンティー、海産物で有名で、カナダで最も温暖な都市の一つです。'],
+    d: [2, 3],
+    s: [
+      ['이너 하버·다운타운', 'Inner Harbour / Downtown', 'インナー・ハーバー・ダウンタウン', '주 의사당과 로열 BC 박물관, 페리 터미널이 걸어서 닿습니다.', 'A walk to the Parliament, Royal BC Museum and ferry terminals.', '州議事堂やロイヤルBC博物館、フェリーターミナルへ歩いて行けます。'],
+      ['피셔맨스 워프 주변', 'Around Fisherman’s Wharf', 'フィッシャーマンズ・ワーフ周辺', '수상 가옥과 피시 앤드 칩스 가게가 있는 항구 쪽 동네입니다.', 'The harbourside area of float homes and fish-and-chip stands.', '水上ハウスやフィッシュ・アンド・チップスの店がある港沿いの地区です。'],
+    ],
+  },
 };

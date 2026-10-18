@@ -400,4 +400,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['10~5월에는 비가 잦으니 방수 겉옷을 챙기고, 실내 푸드 홀을 일정에 넣어 두세요.', 'October–May is wet; pack a rain jacket and plan around indoor food halls.', '10〜5月は雨が多いので防水の上着を持ち、屋内のフードホールを予定に入れておきましょう。'],
   },
+  victoria: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '부차트 가든의 꽃이 절정이고, 항구 산책과 고래 관찰 투어를 즐기기 좋습니다.', 'Peak bloom at Butchart Gardens, plus harbour strolls and whale-watching.', 'ブッチャート・ガーデンの花が見頃で、港の散策やホエールウォッチングを楽しめます。'],
+      ['12월 말~1월 초', 'Late December–early January', '12月末〜1月初め', '부차트 가든이 크리스마스 조명으로 꾸며지고 저녁에 문을 엽니다.', 'Butchart Gardens opens in the evenings with Christmas lights.', 'ブッチャート・ガーデンがクリスマスのイルミネーションで彩られ、夕方から開園します。'],
+    ],
+    x: ['부차트 가든 입장료는 계절마다 달라지니(봄·여름이 가장 비쌈) 방문 날짜의 요금을 확인하세요.', 'Butchart Gardens prices change by season (highest in spring and summer); check the rate for your date.', 'ブッチャート・ガーデンの入場料は季節ごとに変わる（春・夏が最も高い）ので、訪問日の料金を確認しましょう。'],
+  },
 };

@@ -7722,6 +7722,60 @@
     "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
   },
   {
+    "cityId": "mexico-city",
+    "nameKo": "타코 알 파스토르",
+    "nameEn": "Tacos al Pastor",
+    "reason": "회전 꼬치에 구운 양념 돼지고기를 토르티야에 얹은 타코",
+    "reasonEn": "Spit-roasted marinated pork on tortillas",
+    "desc": {
+      "ko": "회전 꼬치에 구운 양념 돼지고기를 토르티야에 얹은 타코",
+      "en": "Spit-roasted marinated pork on tortillas",
+      "ja": "回転串で焼いた味付け豚肉をトルティーヤにのせたタコス"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Mexico City Tourism",
+    "recommendUrl": "https://mexicocity.cdmx.gob.mx/e/food-basics/street-food/?lang=en",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "mexico-city",
+    "nameKo": "타코 데 기사도",
+    "nameEn": "Tacos de Guisado",
+    "reason": "미리 만든 스튜 요리를 토르티야에 얹은 타코",
+    "reasonEn": "Tacos filled with ready-made stews",
+    "desc": {
+      "ko": "미리 만든 스튜 요리를 토르티야에 얹은 타코",
+      "en": "Tacos filled with ready-made stews",
+      "ja": "作り置きの煮込み料理をトルティーヤにのせたタコス"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Mexico City Tourism",
+    "recommendUrl": "https://mexicocity.cdmx.gob.mx/e/food-basics/street-food/?lang=en",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "mexico-city",
+    "nameKo": "포솔레",
+    "nameEn": "Pozole",
+    "reason": "옥수수 알갱이와 고기를 넣고 끓인 멕시코 전통 수프",
+    "reasonEn": "Traditional hominy and meat soup",
+    "desc": {
+      "ko": "옥수수 알갱이와 고기를 넣고 끓인 멕시코 전통 수프",
+      "en": "Traditional hominy and meat soup",
+      "ja": "とうもろこしの粒と肉を煮込んだメキシコの伝統的なスープ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Mexico City Tourism",
+    "recommendUrl": "https://mexicocity.cdmx.gob.mx/e/delicias-chilangas/?lang=en",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "milan",
     "nameKo": "리소토 알라 밀라네제",
     "nameEn": "Risotto alla Milanese",

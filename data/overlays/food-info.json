@@ -5017,5 +5017,20 @@
     "ko": "달콤하고 매콤한 고추기름 소스를 끼얹은 청두식 물만두",
     "en": "Boiled dumplings in a sweet-spicy chilli-oil sauce",
     "ja": "甘辛いラー油のタレをかけた成都風の水餃子"
+  },
+  "mexico-city:Tacos al Pastor": {
+    "ko": "회전 꼬치에 구운 양념 돼지고기를 토르티야에 얹은 타코",
+    "en": "Spit-roasted marinated pork on tortillas",
+    "ja": "回転串で焼いた味付け豚肉をトルティーヤにのせたタコス"
+  },
+  "mexico-city:Tacos de Guisado": {
+    "ko": "미리 만든 스튜 요리를 토르티야에 얹은 타코",
+    "en": "Tacos filled with ready-made stews",
+    "ja": "作り置きの煮込み料理をトルティーヤにのせたタコス"
+  },
+  "mexico-city:Pozole": {
+    "ko": "옥수수 알갱이와 고기를 넣고 끓인 멕시코 전통 수프",
+    "en": "Traditional hominy and meat soup",
+    "ja": "とうもろこしの粒と肉を煮込んだメキシコの伝統的なスープ"
   }
 }

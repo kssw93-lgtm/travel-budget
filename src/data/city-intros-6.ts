@@ -446,4 +446,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['콴자이샹쯔(넓고 좁은 골목) 주변', 'Around Kuanzhai Xiangzi', '寛窄巷子周辺', '옛 골목을 복원한 거리로, 찻집과 쓰촨 간식 가게가 많습니다.', 'Restored old lanes with teahouses and Sichuan snacks.', '昔の路地を復元した通りで、茶館や四川の軽食の店が多いです。'],
     ],
   },
+  'mexico-city': {
+    o: ['해발 약 2,240m 고원에 자리한 멕시코의 수도로, 아스테카 유적 위에 세운 역사지구와 세계적인 국립인류학박물관이 있습니다. 타코 알 파스토르 같은 길거리 음식과 5페소 지하철로 경비 부담이 적은 편입니다.', 'Mexico’s high-altitude capital (about 2,240 m), with a historic centre built on Aztec ruins and the world-class National Museum of Anthropology; street food like tacos al pastor and a 5-peso metro keep costs low.', '標高約2,240mの高原にあるメキシコの首都で、アステカの遺跡の上に築かれた歴史地区や世界的な国立人類学博物館があります。タコス・アル・パストールなどの屋台料理や5ペソの地下鉄で、費用を抑えやすい街です。'],
+    d: [3, 4],
+    s: [
+      ['역사지구(센트로)', 'Historic Centre (Centro Histórico)', '歴史地区（セントロ）', '소칼로 광장과 대성당, 템플로 마요르가 걸어서 닿습니다.', 'Walk to the Zócalo, the cathedral and Templo Mayor.', 'ソカロ広場や大聖堂、テンプロ・マヨールへ歩いて行けます。'],
+      ['로마·콘데사', 'Roma / Condesa', 'ローマ・コンデサ', '공원과 카페, 식당이 많은 지역으로 비교적 조용합니다.', 'Leafy neighbourhoods of parks, cafés and restaurants.', '公園やカフェ、飲食店が多い比較的落ち着いた地区です。'],
+    ],
+  },
 };

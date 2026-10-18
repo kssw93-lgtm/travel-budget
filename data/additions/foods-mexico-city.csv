@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+멕시코,멕시코시티,타코 알 파스토르,Tacos al Pastor,회전 꼬치에 구운 양념 돼지고기를 토르티야에 얹은 타코,저,,대기,Mexico City Tourism,https://mexicocity.cdmx.gob.mx/e/food-basics/street-food/?lang=en,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+멕시코,멕시코시티,타코 데 기사도,Tacos de Guisado,미리 만든 스튜 요리를 토르티야에 얹은 타코,저,,대기,Mexico City Tourism,https://mexicocity.cdmx.gob.mx/e/food-basics/street-food/?lang=en,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+멕시코,멕시코시티,포솔레,Pozole,옥수수 알갱이와 고기를 넣고 끓인 멕시코 전통 수프,저,,대기,Mexico City Tourism,https://mexicocity.cdmx.gob.mx/e/delicias-chilangas/?lang=en,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

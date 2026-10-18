@@ -359,4 +359,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['판다 기지는 오전에 판다가 가장 활발하니 개장 시간에 맞춰 가고, 입장권은 미리 온라인으로 예약하세요(60세 이상 제외).', 'Pandas are most active in the morning, so arrive at opening; book tickets online in advance (except visitors 60+).', 'パンダは午前中が最も活発なので開園時間に合わせて行き、入場券は事前にオンラインで予約しましょう（60歳以上を除く）。'],
   },
+  'mexico-city': {
+    p: [
+      ['10~11월', 'October–November', '10〜11月', '우기가 끝나고, 11월 초에는 ‘죽은 자의 날’ 행사가 열립니다.', 'The rains end, and early November brings Day of the Dead celebrations.', '雨季が終わり、11月初めには「死者の日」の行事が行われます。'],
+      ['2~4월', 'February–April', '2〜4月', '맑고 따뜻한 날이 많아 시내와 근교 유적을 다니기 좋습니다.', 'Clear, warm days for the city and nearby ruins.', '晴れて暖かい日が多く、市内や近郊の遺跡を巡るのに良い時期です。'],
+    ],
+    x: ['고도가 높아 도착 첫날에는 숨이 차거나 피곤할 수 있으니, 첫날 일정은 가볍게 잡으세요.', 'The altitude can leave you breathless on day one; keep the first day light.', '標高が高いため到着初日は息切れや疲れを感じることがあるので、初日の予定は軽めにしましょう。'],
+  },
 };

@@ -412,4 +412,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'chengdu:p1': 'https://www.panda.org.cn/cn/pandavalley/tickets/',
   'chengdu:p2': 'https://www.gochengdu.cn/en/article/food/89',
   'chengdu:x': 'https://www.panda.org.cn/cn/pandavalley/tickets/',
+  'mexico-city:p1': 'https://mexicocity.cdmx.gob.mx/e/food-basics/street-food/?lang=en',
+  'mexico-city:p2': 'https://mna.inah.gob.mx/',
+  'mexico-city:x': 'https://mexicocity.cdmx.gob.mx/e/getting-around/using-the-metro/?lang=en',
 };

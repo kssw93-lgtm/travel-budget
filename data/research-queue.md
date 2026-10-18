@@ -159,6 +159,8 @@
 | 오클랜드 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 청두 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 청두 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 멕시코시티 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 멕시코시티 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 속초 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 통영 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 대구 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1017,6 +1019,9 @@
 | CTU-TR-001 | 청두 | 청두 지하철 기본운임(4km까지) | 2 CNY | A | 예 | 재검증 | [Chengdu Rail Transit](https://www.chengdurail.com/stroke/Inquire.html) |
 | CTU-AT-001 | 청두 | 청두 판다 번식 연구기지 (성인) | 55 CNY | A | 예 | 재검증 | [Chengdu Research Base of Giant Panda Breeding](https://www.panda.org.cn/cn/pandavalley/tickets/) |
 | CTU-AT-002 | 청두 | 청두 판다 번식 연구기지 (아동 무료) | 0 CNY | A | 예 | 재검증 | [Chengdu Research Base of Giant Panda Breeding](https://www.panda.org.cn/cn/pandavalley/tickets/) |
+| MEX-TR-001 | 멕시코시티 | 멕시코시티 지하철 1회 | 5 MXN | A | 예 | 재검증 | [Gobierno de la Ciudad de México](https://mexicocity.cdmx.gob.mx/e/getting-around/mexico-city-metro-faq/?lang=en) |
+| MEX-AT-001 | 멕시코시티 | 국립인류학박물관 (외국인 성인) | 210 MXN | A | 예 | 재검증 | [INAH](https://inah.gob.mx/boletines/cinco-millones-de-visitantes-recibio-el-museo-nacional-de-antropologia-en-2025) |
+| MEX-AT-002 | 멕시코시티 | 국립인류학박물관 (13세 미만 무료) | 0 MXN | A | 예 | 재검증 | [INAH](https://inah.gob.mx/boletines/cinco-millones-de-visitantes-recibio-el-museo-nacional-de-antropologia-en-2025) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

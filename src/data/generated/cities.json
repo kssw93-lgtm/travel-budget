@@ -770,6 +770,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "mexico-city",
+    "country": "멕시코",
+    "countryEn": "Mexico",
+    "nameKo": "멕시코시티",
+    "nameEn": "Mexico City",
+    "currency": "MXN",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "sokcho",
     "country": "한국",
     "countryEn": "South Korea",

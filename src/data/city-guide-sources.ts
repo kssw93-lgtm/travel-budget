@@ -1065,4 +1065,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'chengdu:h2': 'https://www.gochengdu.cn/travel/food/gourmet-chengdu/have-hotpot-in-hot-summer-a3083.html',
   'chengdu:h3': 'https://www.gochengdu.cn/en/article/food/89',
   'chengdu:t1': 'https://www.chengdurail.com/info/1801/41152.htm',
+  'mexico-city:h1': 'https://www.inah.gob.mx/boletines/la-grandeza-y-diversidad-cultural-de-mexico-presente-en-las-salas-renovadas-del-museo-nacional-de-antropologia',
+  'mexico-city:h2': 'https://mexicocity.cdmx.gob.mx/e/delicias-chilangas/cuauhtemoc-el-corazon-gastronomico-de-la-capital/?lang=en',
+  'mexico-city:h3': 'https://mexicocity.cdmx.gob.mx/e/food-basics/street-food/?lang=en',
+  'mexico-city:t1': 'https://mexicocity.cdmx.gob.mx/e/getting-around/mexico-city-metro-faq/?lang=en',
 };

@@ -730,4 +730,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['지하철은 거리에 따라 2위안부터 요금이 오르며, 1일권(20위안)으로 하루 동안 무제한 탈 수 있습니다. 톈푸 국제공항은 18호선 급행으로 시내 남역까지 약 37분 걸립니다.', 'The metro starts at ¥2 and rises with distance; a ¥20 day ticket gives unlimited rides. From Tianfu International Airport, Line 18 express reaches South Railway Station in about 37 minutes.', '地下鉄は2元から距離に応じて運賃が上がり、1日券（20元）で一日乗り放題です。天府国際空港からは18号線の快速で成都南駅まで約37分です。'],
     ],
   },
+  'mexico-city': {
+    h: [
+      ['국립인류학박물관', 'National Museum of Anthropology', '国立人類学博物館', '아스테카 태양의 돌 등 멕시코 고대 문명 유물을 모은 박물관입니다. 13세 미만은 무료입니다.', 'Home to the Aztec Sun Stone and treasures of Mexico’s ancient civilisations; under-13s are free.', 'アステカの太陽の石など、メキシコの古代文明の遺物を集めた博物館です。13歳未満は無料です。'],
+      ['역사지구와 소칼로', 'Historic Centre and the Zócalo', '歴史地区とソカロ', '세계에서 가장 큰 광장 중 하나인 소칼로를 중심으로 대성당과 아스테카 신전 유적이 모여 있습니다.', 'The vast Zócalo, ringed by the cathedral and the Aztec Templo Mayor.', '世界最大級の広場ソカロを中心に、大聖堂やアステカの神殿跡が集まっています。'],
+      ['타코 알 파스토르', 'Tacos al pastor', 'タコス・アル・パストール', '회전 꼬치에 구운 양념 돼지고기를 얹은 멕시코시티 대표 길거리 타코입니다.', 'Mexico City’s signature street taco of spit-roasted marinated pork.', '回転する串で焼いた味付け豚肉をのせた、メキシコシティを代表する屋台のタコスです。'],
+    ],
+    t: [
+      ['지하철은 거리와 환승에 관계없이 1회 5페소이며, 교통카드나 신용카드 탭으로 탈 수 있습니다. 공항에서 시내까지는 메트로부스 공항 노선(30페소)을 타면 되고, 현금은 받지 않습니다.', 'The metro costs 5 pesos per trip regardless of distance or transfers, paid by transit card or contactless card; from the airport, the Metrobús airport service costs 30 pesos and takes no cash.', '地下鉄は距離や乗り換えに関係なく1回5ペソで、交通カードやクレジットカードのタッチ決済で乗れます。空港から市内へはメトロブスの空港路線（30ペソ）が便利で、現金は使えません。'],
+    ],
+  },
 };

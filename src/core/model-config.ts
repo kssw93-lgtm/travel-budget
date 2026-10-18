@@ -91,6 +91,7 @@ export const MENU_SURCHARGE: Record<string, { tax: number; drinkTax?: number; ti
   vancouver: { tax: 0.05, drinkTax: 0.15, tip: [0.15, 0.18], taxSource: 'Canada Revenue Agency GST 5%, BC PST 10% on liquor' },
   'quebec-city': { tax: 0.14975, tip: [0.15, 0.18], taxSource: 'Canada Revenue Agency GST 5% + Revenu Québec QST 9.975%' },
   'washington-dc': { tax: 0.1, tip: [0.18, 0.2], taxSource: 'DC Office of Tax and Revenue — food and beverage for immediate consumption 10%' },
+  'san-diego': { tax: 0.0775, tip: [0.18, 0.2], taxSource: 'CDTFA — San Diego 7.750% (state 7.25% + San Diego County district 0.50%)' },
   montreal: { tax: 0.14975, tip: [0.15, 0.18], taxSource: 'Canada Revenue Agency GST 5% + Revenu Québec QST 9.975%' },
   seattle: { tax: 0.1055, tip: [0.18, 0.2], taxSource: 'Washington DOR — Seattle combined 10.55% (state 6.5% + local 4.05%)' },
   toronto: { tax: 0.13, tip: [0.15, 0.18], taxSource: 'Ontario — Harmonized Sales Tax 13%' },

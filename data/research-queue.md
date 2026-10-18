@@ -111,6 +111,11 @@
 | 크라이스트처치 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 글래스고 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 글래스고 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 샌디에이고 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 샌디에이고 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 애들레이드 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 애들레이드 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 애들레이드 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 마카오 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 마카오 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1062,6 +1067,14 @@
 | GLA-AT-001 | 글래스고 | 글래스고 과학센터 (성인) | 15.5 GBP | A | 예 | 재검증 | [Glasgow Science Centre](https://www.glasgowsciencecentre.org/visit/ticket-prices) |
 | GLA-AT-002 | 글래스고 | 글래스고 과학센터 (아동) | 12 GBP | A | 예 | 재검증 | [Glasgow Science Centre](https://www.glasgowsciencecentre.org/visit/ticket-prices) |
 | GLA-AT-003 | 글래스고 | 켈빈그로브 미술관·박물관 (입장 무료) | 0 GBP | A | 예 | 재검증 | [Glasgow Life](https://www.glasgowlife.org.uk/museums/venues/kelvingrove-art-gallery-and-museum) |
+| SAN-TR-001 | 샌디에이고 | MTS 트롤리·버스 1회 | 3 USD | A | 예 | 재검증 | [San Diego MTS](https://www.sdmts.com/fares/fare-chart) |
+| SAN-AT-001 | 샌디에이고 | 샌디에이고 동물원 1일권 (성인) | 78 USD | A | 예 | 재검증 | [San Diego Zoo Wildlife Alliance](https://zoo.sandiegozoo.org/tickets) |
+| SAN-AT-002 | 샌디에이고 | 샌디에이고 동물원 1일권 (아동) | 68 USD | A | 예 | 재검증 | [San Diego Zoo Wildlife Alliance](https://zoo.sandiegozoo.org/tickets) |
+| SAN-AT-003 | 샌디에이고 | USS 미드웨이 박물관 (성인) | 39~41 USD | A | 예 | 재검증 | [USS Midway Museum](https://www.midway.org/visit/know-before-you-go) |
+| SAN-AT-004 | 샌디에이고 | USS 미드웨이 박물관 (아동) | 29~31 USD | A | 예 | 재검증 | [USS Midway Museum](https://www.midway.org/visit/know-before-you-go) |
+| ADL-TR-001 | 애들레이드 | 애들레이드 메트로 1회(메트로카드, 오프피크~피크) | 2.7~4.75 AUD | A | 예 | 재검증 | [Adelaide Metro](https://www.adelaidemetro.com.au/fares-and-passes/adelaide-metro-fares) |
+| ADL-AT-001 | 애들레이드 | 남호주 박물관 (입장 무료) | 0 AUD | A | 예 | 재검증 | [South Australian Museum](https://whatson.samuseum.sa.gov.au/) |
+| ADL-AT-002 | 애들레이드 | 남호주 미술관 (일반 입장 무료) | 0 AUD | A | 예 | 재검증 | [Art Gallery of South Australia](https://www.agsa.sa.gov.au/visit/) |
 | GRX-TR-001 | 그라나다 | 그라나다 시내버스 1회권 | 1.6 EUR | A | 예 | 재검증 | [Turismo de Granada](https://turismo.granada.org/es/bus-urbano) |
 | GRX-AT-001 | 그라나다 | 알람브라 일반 입장(낮) (성인) | 21~22.27 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://tickets.alhambra-patronato.es/producto/alhambra-general/) |
 | GRX-AT-002 | 그라나다 | 알람브라 (아동) | 0 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://www.alhambra-patronato.es/notas-prensa/la-alhambra-actualiza-sus-tarifas-en-agosto) |

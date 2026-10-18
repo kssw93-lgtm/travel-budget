@@ -1483,6 +1483,62 @@
     "missing": [],
     "computable": true
   },
+  "san-diego": {
+    "counts": {
+      "food": 10,
+      "transport": 1,
+      "attraction": 2
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 10,
+      "snack": 12,
+      "drink": 8,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 10,
+      "snack": 12,
+      "drink": 8,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "adelaide": {
+    "counts": {
+      "food": 4,
+      "transport": 1,
+      "attraction": 2
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 4,
+      "snack": 2,
+      "drink": 3,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 4,
+      "snack": 2,
+      "drink": 3,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "macau": {
     "counts": {
       "food": 4,
@@ -2466,12 +2522,12 @@
   "melbourne": {
     "counts": {
       "food": 4,
-      "transport": 6,
+      "transport": 7,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 6,
+      "ride": 7,
       "meal": 4,
       "snack": 2,
       "drink": 3,
@@ -2480,7 +2536,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 7,
+      "ride": 8,
       "meal": 4,
       "snack": 2,
       "drink": 3,
@@ -2606,12 +2662,12 @@
   "san-francisco": {
     "counts": {
       "food": 10,
-      "transport": 10,
+      "transport": 11,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 10,
+      "ride": 11,
       "meal": 10,
       "snack": 12,
       "drink": 8,
@@ -2620,7 +2676,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 10,
+      "ride": 11,
       "meal": 10,
       "snack": 12,
       "drink": 8,

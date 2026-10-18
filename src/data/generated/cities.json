@@ -540,6 +540,26 @@
     "stage": "파일럿"
   },
   {
+    "id": "san-diego",
+    "country": "미국",
+    "countryEn": "United States",
+    "nameKo": "샌디에이고",
+    "nameEn": "San Diego",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "adelaide",
+    "country": "호주",
+    "countryEn": "Australia",
+    "nameKo": "애들레이드",
+    "nameEn": "Adelaide",
+    "currency": "AUD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "macau",
     "country": "중국 마카오",
     "countryEn": "Macau",

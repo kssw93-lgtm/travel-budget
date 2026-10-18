@@ -1287,6 +1287,60 @@
     "note": "공식 관광 안내의 음식 추천만 기록. 본문에 가격 언급이 있어도 평균값은 사용하지 않음."
   },
   {
+    "cityId": "adelaide",
+    "nameKo": "프리츠",
+    "nameEn": "Fritz",
+    "reason": "후추와 육두구로 맛을 낸 남호주식 소시지 햄",
+    "reasonEn": "South Australian pork-and-beef deli sausage with pepper and nutmeg",
+    "desc": {
+      "ko": "후추와 육두구로 맛을 낸 남호주식 소시지 햄",
+      "en": "South Australian pork-and-beef deli sausage with pepper and nutmeg",
+      "ja": "コショウとナツメグで味付けした南オーストラリアのソーセージハム"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Adelaide Central Market",
+    "recommendUrl": "https://adelaidecentralmarket.com.au/tour/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "adelaide",
+    "nameKo": "프로그 케이크",
+    "nameEn": "Frog Cake",
+    "reason": "개구리 모양으로 꾸민 애들레이드의 작은 퐁당 케이크",
+    "reasonEn": "Adelaide’s little frog-shaped fondant cake",
+    "desc": {
+      "ko": "개구리 모양으로 꾸민 애들레이드의 작은 퐁당 케이크",
+      "en": "Adelaide’s little frog-shaped fondant cake",
+      "ja": "カエルの形に飾ったアデレードの小さなフォンダンケーキ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Adelaide Central Market",
+    "recommendUrl": "https://adelaidecentralmarket.com.au/tour/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "adelaide",
+    "nameKo": "바로사 패스티",
+    "nameEn": "Barossa Pasty",
+    "reason": "고기와 채소를 채운 바로사 지역 전통 파이",
+    "reasonEn": "Traditional Barossa meat-and-vegetable pasty",
+    "desc": {
+      "ko": "고기와 채소를 채운 바로사 지역 전통 파이",
+      "en": "Traditional Barossa meat-and-vegetable pasty",
+      "ja": "肉と野菜を詰めたバロッサ地方の伝統的なパイ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Adelaide Central Market",
+    "recommendUrl": "https://adelaidecentralmarket.com.au/traders/gourmet-to-go/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "almaty",
     "nameKo": "베시바르마크",
     "nameEn": "Beshbarmak",
@@ -9344,6 +9398,60 @@
     "recommendSource": "Salzburg Tourismus",
     "recommendUrl": "https://salzburg.info/en/dining-shopping/salzburg-culinary-classics",
     "note": ""
+  },
+  {
+    "cityId": "san-diego",
+    "nameKo": "피시 타코",
+    "nameEn": "Fish Tacos",
+    "reason": "바하 캘리포니아식으로 튀기거나 구운 생선을 토르티야에 싼 샌디에이고 명물",
+    "reasonEn": "Baja-style battered or grilled fish in a tortilla — San Diego’s unofficial mascot",
+    "desc": {
+      "ko": "바하 캘리포니아식으로 튀기거나 구운 생선을 토르티야에 싼 샌디에이고 명물",
+      "en": "Baja-style battered or grilled fish in a tortilla — San Diego’s unofficial mascot",
+      "ja": "バハ・カリフォルニア風に揚げたり焼いたりした魚をトルティーヤで包んだサンディエゴ名物"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "San Diego Tourism Authority",
+    "recommendUrl": "https://www.sandiego.org/article/enjoy-some-of-the-best-seafood-in-san-diego",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "san-diego",
+    "nameKo": "캘리포니아 부리토",
+    "nameEn": "California Burrito",
+    "reason": "카르네 아사다와 감자튀김, 치즈, 과카몰레를 넣은 부리토",
+    "reasonEn": "Carne asada, fries, cheese and guacamole in a flour tortilla",
+    "desc": {
+      "ko": "카르네 아사다와 감자튀김, 치즈, 과카몰레를 넣은 부리토",
+      "en": "Carne asada, fries, cheese and guacamole in a flour tortilla",
+      "ja": "カルネ・アサダとフライドポテト、チーズ、ワカモレを包んだブリトー"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "San Diego Tourism Authority",
+    "recommendUrl": "https://www.sandiego.org/article/only-in-san-diego",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "san-diego",
+    "nameKo": "카르네 아사다 프라이",
+    "nameEn": "Carne Asada Fries",
+    "reason": "감자튀김 위에 구운 소고기와 과카몰레, 사워크림, 치즈를 얹은 음식",
+    "reasonEn": "Fries topped with carne asada, guacamole, sour cream and cheese",
+    "desc": {
+      "ko": "감자튀김 위에 구운 소고기와 과카몰레, 사워크림, 치즈를 얹은 음식",
+      "en": "Fries topped with carne asada, guacamole, sour cream and cheese",
+      "ja": "フライドポテトに焼いた牛肉とワカモレ、サワークリーム、チーズをのせた料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "San Diego Tourism Authority",
+    "recommendUrl": "https://www.sandiego.org/article/only-in-san-diego",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
     "cityId": "san-francisco",

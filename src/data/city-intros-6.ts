@@ -366,4 +366,20 @@ export const INTROS_6: Record<string, Intro> = {
       ['웨스트 엔드', 'West End', 'ウエスト・エンド', '켈빈그로브 미술관과 글래스고 대학이 있는 지역으로, 카페와 식당이 많습니다.', 'Home to Kelvingrove and the University, with plenty of cafés and restaurants.', 'ケルヴィングローヴ美術館やグラスゴー大学がある地区で、カフェや飲食店が多いです。'],
     ],
   },
+  'san-diego': {
+    o: ['멕시코 국경과 가까운 캘리포니아 남부의 해안 도시로, 일 년 내내 온화한 날씨와 해변이 매력입니다. 세계적인 샌디에이고 동물원과 발보아 파크, 피시 타코로 유명합니다.', 'A Southern California coastal city near the Mexican border, with mild weather and beaches year-round; famous for the San Diego Zoo, Balboa Park and fish tacos.', 'メキシコ国境に近い南カリフォルニアの海辺の街で、一年中穏やかな気候とビーチが魅力です。世界的なサンディエゴ動物園やバルボア・パーク、フィッシュタコスで有名です。'],
+    d: [3, 4],
+    s: [
+      ['다운타운·개슬램프 쿼터', 'Downtown / Gaslamp Quarter', 'ダウンタウン・ガスランプ・クォーター', '식당과 바가 모인 중심가로, 공항버스와 트롤리가 가깝습니다.', 'The dining and nightlife centre, close to the airport bus and trolley.', '飲食店やバーが集まる中心街で、空港バスやトロリーに近いです。'],
+      ['리틀 이탈리아', 'Little Italy', 'リトル・イタリー', '공항과 가장 가까운 동네로, 식당과 주말 시장이 있습니다.', 'Closest to the airport, with restaurants and a weekend market.', '空港に最も近い地区で、飲食店や週末のマーケットがあります。'],
+    ],
+  },
+  adelaide: {
+    o: ['남호주주의 주도로, 공원에 둘러싸인 반듯한 시내에 무료 박물관과 미술관이 모여 있습니다. 바로사 밸리 등 와인 산지와 캥거루섬으로 가는 관문이며, 센트럴 마켓이 유명합니다.', 'South Australia’s capital, a grid city ringed by parklands with free museums and galleries; gateway to wine regions like the Barossa and to Kangaroo Island, and home of the Central Market.', '南オーストラリア州の州都で、公園に囲まれた碁盤目の市内に無料の博物館や美術館が集まっています。バロッサ・バレーなどのワイン産地やカンガルー島への玄関口で、セントラル・マーケットが有名です。'],
+    d: [3, 4],
+    s: [
+      ['시내(CBD)', 'Adelaide CBD', 'アデレード中心部（CBD）', '노스 테라스의 박물관·미술관과 센트럴 마켓이 걸어서 닿습니다.', 'Walk to the North Terrace museums and the Central Market.', 'ノース・テラスの博物館や美術館、セントラル・マーケットへ歩いて行けます。'],
+      ['글레넬그', 'Glenelg', 'グレネルグ', '시내에서 트램으로 가는 해변 마을입니다.', 'The beachside suburb at the end of the tram line.', '市内からトラムで行けるビーチの街です。'],
+    ],
+  },
 };

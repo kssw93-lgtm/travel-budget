@@ -384,4 +384,10 @@ export const WHEN_SOURCES: Record<string, string> = {
   'christchurch:x': 'https://www.metroinfo.co.nz/metrocard-and-fares/fares/',
   'glasgow:p1': 'https://www.glasgowlife.org.uk/museums/venues/kelvingrove-art-gallery-and-museum',
   'glasgow:x': 'https://www.glasgowlife.org.uk/museums/venues/kelvingrove-art-gallery-and-museum',
+  'san-diego:p1': 'https://www.sandiego.org/article/only-in-san-diego',
+  'san-diego:p2': 'https://www.sandiego.org/article/15-fun-free-things-to-do-in-balboa-park',
+  'san-diego:x': 'https://zoo.sandiegozoo.org/tickets',
+  'adelaide:p1': 'https://southaustralia.com/guides/our-guide-to-the-adelaide-central-market',
+  'adelaide:p2': 'https://southaustralia.com/guides/our-guide-to-the-adelaide-central-market',
+  'adelaide:x': 'https://www.adelaidemetro.com.au/fares-and-passes/adelaide-metro-fares',
 };

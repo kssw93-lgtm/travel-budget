@@ -1024,4 +1024,13 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'glasgow:h2': 'https://www.glasgowsciencecentre.org/visit/ticket-prices',
   'glasgow:h3': 'https://www.spt.co.uk/travel-with-spt/subway/',
   'glasgow:t1': 'https://www.glasgowairport.com/to-and-from/glasgow-airport-express-service-500/',
+  'san-diego:h1': 'https://zoo.sandiegozoo.org/tickets',
+  'san-diego:h2': 'https://balboapark.org/balboa-park-faqs/',
+  'san-diego:h3': 'https://www.midway.org/visit/know-before-you-go',
+  'san-diego:t1': 'https://cdtfa.ca.gov/taxes-and-fees/sales-use-tax-rates.htm',
+  'san-diego:t2': 'https://www.sdmts.com/getting-around/airport',
+  'adelaide:h1': 'https://southaustralia.com/guides/our-guide-to-the-adelaide-central-market',
+  'adelaide:h2': 'https://whatson.samuseum.sa.gov.au/',
+  'adelaide:h3': 'https://www.agsa.sa.gov.au/visit/',
+  'adelaide:t1': 'https://adelaideairport.com.au/arrivals/departing-by-public-transport/',
 };

@@ -629,4 +629,25 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 글래스고 공항에서 500번 공항버스(24시간 운행)를 타면 약 15~25분이면 시내에 닿습니다. 요금은 최근 바뀌었으니 운영사 사이트에서 확인하세요.', 'Airport to city: the 24-hour Airport Express 500 bus reaches the centre in about 15–25 minutes; fares changed recently, so check the operator’s site.', '空港から市内へ：グラスゴー空港から24時間運行の500番空港バスで約15〜25分で市内に着きます。運賃は最近変わったので運行会社のサイトで確認しましょう。'],
     ],
   },
+  'san-diego': {
+    h: [
+      ['샌디에이고 동물원', 'San Diego Zoo', 'サンディエゴ動物園', '발보아 파크 안의 세계적인 동물원으로, 1일권에 가이드 버스 투어와 케이블카(스카이파리)가 포함됩니다.', 'The world-famous zoo in Balboa Park; the 1-Day Pass includes the guided bus tour and Skyfari aerial tram.', 'バルボア・パーク内の世界的な動物園で、1日券にガイド付きバスツアーとロープウェイ（スカイファリ）が含まれます。'],
+      ['발보아 파크', 'Balboa Park', 'バルボア・パーク', '스페인풍 건물과 박물관, 정원이 모인 넓은 공원으로, 공원과 식물관·대부분의 정원은 무료입니다.', 'A vast park of Spanish-style buildings, museums and gardens; the park, Botanical Building and most gardens are free.', 'スペイン風の建物や博物館、庭園が集まる広い公園で、公園と植物館、ほとんどの庭園は無料です。'],
+      ['USS 미드웨이 박물관', 'USS Midway Museum', 'USSミッドウェイ博物館', '항구에 정박한 퇴역 항공모함으로, 비행갑판의 전투기와 함내를 둘러봅니다.', 'A retired aircraft carrier on the harbour: aircraft on the flight deck and life below decks.', '港に停泊する退役した空母で、飛行甲板の戦闘機や艦内を見学できます。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 세금(7.75%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude 7.75% sales tax and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（7.75%）とチップが含まれていません。チップは18〜20%が一般的です。'],
+      ['공항에서 시내: 공항 터미널에서 MTS 992번 버스를 타면 약 15분 만에 다운타운 산타페역 근처에 닿습니다. 요금은 일반 버스와 같습니다.', 'Airport to city: MTS Route 992 runs from the terminals to downtown near Santa Fe Depot in about 15 minutes at the regular fare.', '空港から市内へ：空港ターミナルからMTSの992番バスで約15分、ダウンタウンのサンタフェ駅近くに着きます。運賃は通常のバスと同じです。'],
+    ],
+  },
+  adelaide: {
+    h: [
+      ['애들레이드 센트럴 마켓', 'Adelaide Central Market', 'アデレード・セントラル・マーケット', '1869년에 문을 연 시장으로, 70곳이 넘는 가게에서 남호주 식재료와 먹거리를 팝니다.', 'Open since 1869, with 70-plus traders selling South Australian produce and food.', '1869年に開業した市場で、70を超える店が南オーストラリアの食材や食べ物を売っています。'],
+      ['남호주 박물관', 'South Australian Museum', '南オーストラリア博物館', '호주 원주민 문화 전시로 유명한 노스 테라스의 박물관으로, 입장은 무료입니다.', 'North Terrace museum renowned for its Aboriginal cultures gallery — free entry.', 'オーストラリア先住民の文化展示で知られるノース・テラスの博物館で、入場は無料です。'],
+      ['남호주 미술관', 'Art Gallery of South Australia', '南オーストラリア美術館', '호주 미술 소장품이 풍부한 미술관으로, 일반 입장은 무료입니다(일부 특별전 유료).', 'A strong collection of Australian art; general entry is free (some exhibitions charge).', 'オーストラリア美術の所蔵が豊富な美術館で、一般入場は無料です（一部の特別展は有料）。'],
+    ],
+    t: [
+      ['공항에서 시내: 애들레이드 공항 10번 정류장에서 시내버스(J 노선)를 타면 시내까지 갈 수 있으며, 일반 버스 요금(평일 피크와 오프피크가 다름)이 적용됩니다.', 'Airport to city: Adelaide Metro J-route buses leave from Stop 10 at the airport at the regular fare, which differs between peak and off-peak.', '空港から市内へ：アデレード空港の10番乗り場から市バス（J系統）で市内へ行け、通常のバス運賃（ピークとオフピークで異なる）が適用されます。'],
+    ],
+  },
 };

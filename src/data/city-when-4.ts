@@ -291,4 +291,18 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['비가 잦은 도시라, 켈빈그로브 같은 무료 실내 명소를 일정에 넉넉히 넣어 두면 좋습니다.', 'It rains often, so keep free indoor sights like Kelvingrove in your plans.', '雨の多い街なので、ケルヴィングローヴのような無料の屋内スポットを予定に入れておくと安心です。'],
   },
+  'san-diego': {
+    p: [
+      ['9~11월', 'September–November', '9〜11月', '여름 인파가 줄고 바다가 따뜻해 해변과 야외 일정을 즐기기 좋습니다.', 'Summer crowds thin and the ocean is warm — good for beaches and outdoor days.', '夏の人出が減り海も暖かく、ビーチや屋外の予定を楽しめます。'],
+      ['3~5월', 'March–May', '3〜5月', '선선하고 맑은 날이 많아 동물원과 발보아 파크를 걷기 좋습니다.', 'Cool, clear days for the zoo and Balboa Park.', '涼しく晴れの日が多く、動物園やバルボア・パークを歩くのに良い時期です。'],
+    ],
+    x: ['10월 한 달은 동물원과 미드웨이 박물관에 어린이 무료 행사가 열리기도 하니, 가족 여행이면 공식 사이트를 확인하세요.', 'In October the zoo and USS Midway have run kids-free offers; families should check the official sites.', '10月は動物園やミッドウェイ博物館で子ども無料の企画が行われることがあるので、家族旅行なら公式サイトを確認しましょう。'],
+  },
+  adelaide: {
+    p: [
+      ['3~5월', 'March–May', '3〜5月', '포도 수확기로, 근교 와이너리 여행을 즐기기 좋습니다.', 'Vintage season — ideal for winery trips nearby.', 'ブドウの収穫期で、近郊のワイナリー巡りに最適です。'],
+      ['9~11월', 'September–November', '9〜11月', '선선한 봄 날씨에 시내 공원과 해변을 다니기 좋습니다.', 'Mild spring days for the parklands and beach.', '穏やかな春の気候で、市内の公園やビーチを巡りやすい時期です。'],
+    ],
+    x: ['대중교통 요금은 평일 출퇴근 시간(피크)에 더 비싸니, 시간 여유가 있으면 한낮(오프피크)에 이동하세요.', 'Transit fares are higher at peak times; travel off-peak in the middle of the day when you can.', '公共交通の運賃は平日のピーク時間に高くなるので、余裕があれば日中のオフピークに移動しましょう。'],
+  },
 };

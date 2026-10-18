@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+미국,샌디에이고,피시 타코,Fish Tacos,바하 캘리포니아식으로 튀기거나 구운 생선을 토르티야에 싼 샌디에이고 명물,저,,대기,San Diego Tourism Authority,https://www.sandiego.org/article/enjoy-some-of-the-best-seafood-in-san-diego,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+미국,샌디에이고,캘리포니아 부리토,California Burrito,"카르네 아사다와 감자튀김, 치즈, 과카몰레를 넣은 부리토",저,,대기,San Diego Tourism Authority,https://www.sandiego.org/article/only-in-san-diego,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+미국,샌디에이고,카르네 아사다 프라이,Carne Asada Fries,"감자튀김 위에 구운 소고기와 과카몰레, 사워크림, 치즈를 얹은 음식",저,,대기,San Diego Tourism Authority,https://www.sandiego.org/article/only-in-san-diego,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

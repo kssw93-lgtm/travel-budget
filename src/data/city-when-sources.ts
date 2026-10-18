@@ -444,4 +444,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'edmonton:x': 'https://www.edmonton.ca/ets/edmonton-international-airport',
   'winnipeg:p1': 'https://www.tourismwinnipeg.com/eat-and-drink/peg-city-grub/read,post/615/peg-city-grub-s-guide-to-dining-at-the-forks-market',
   'winnipeg:x': 'https://humanrights.ca/visit/hours-admission-fees',
+  'halifax:p1': 'https://discoverhalifaxns.com/events/food-and-drink/halifax-nova-scotia-seafood-guide/',
+  'halifax:x': 'https://discoverhalifaxns.com/things-to-do/attractions/how-to-experience-halifax-in-all-kinds-of-weather',
 };

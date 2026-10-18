@@ -5197,5 +5197,20 @@
     "ko": "매니토바 민물고기를 훈제한 위니펙 명물",
     "en": "Smoked local freshwater fish",
     "ja": "マニトバの淡水魚を燻製にしたウィニペグ名物"
+  },
+  "halifax:Halifax Donair": {
+    "ko": "양념 고기를 피타에 싸고 달콤한 도네어 소스를 뿌린 길거리 음식",
+    "en": "Spiced meat in pita with sweet donair sauce",
+    "ja": "味付け肉をピタで包み甘いドネアソースをかけた屋台料理"
+  },
+  "halifax:Lobster Roll": {
+    "ko": "마요네즈로 버무린 차가운 랍스터를 버터 바른 빵에 채운 샌드위치",
+    "en": "Cold lobster in mayo in a buttered, toasted roll",
+    "ja": "マヨネーズで和えた冷たいロブスターをバターを塗ったパンに挟んだサンドイッチ"
+  },
+  "halifax:Seafood Chowder": {
+    "ko": "해덕·가리비·랍스터·홍합 등을 넣은 크림 수프",
+    "en": "Creamy chowder of haddock, scallops, lobster and mussels",
+    "ja": "ハドック・ホタテ・ロブスター・ムール貝などを入れたクリームスープ"
   }
 }

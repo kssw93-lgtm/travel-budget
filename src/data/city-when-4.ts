@@ -439,4 +439,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['인권박물관은 매달 첫째 일요일에 무료로 입장할 수 있습니다.', 'The Human Rights museum is free on the first Sunday of every month.', '人権博物館は毎月第1日曜日に無料で入場できます。'],
   },
+  halifax: {
+    p: [
+      ['7~9월', 'July–September', '7〜9月', '바닷가 산책과 랍스터, 근교 페기스 코브 여행에 좋은 계절입니다.', 'The season for the waterfront, lobster and trips to Peggy’s Cove.', '海沿いの散策やロブスター、近郊のペギーズ・コーブへの旅行に良い季節です。'],
+    ],
+    x: ['날씨가 자주 바뀌니 비와 바람에 대비한 겉옷을 챙기세요.', 'The weather changes quickly; pack a wind- and rain-proof layer.', '天気が変わりやすいので、雨や風に備えた上着を持ちましょう。'],
+  },
 };

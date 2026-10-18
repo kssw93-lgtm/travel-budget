@@ -542,4 +542,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['익스체인지 디스트릭트', 'Exchange District', 'エクスチェンジ地区', '20세기 초 건물이 잘 남은 지역으로, 식당과 극장이 모여 있습니다.', 'Early-20th-century buildings full of restaurants and theatres.', '20世紀初めの建物がよく残る地区で、飲食店や劇場が集まっています。'],
     ],
   },
+  halifax: {
+    o: ['캐나다 대서양 연안 노바스코샤주의 주도로, 언덕 위 별 모양 요새 시타델과 바닷가 산책로가 있는 항구 도시입니다. 수많은 이민자가 처음 도착한 피어 21 이민 박물관과 랍스터 롤, 도네어로 유명합니다.', 'Nova Scotia’s capital on Canada’s Atlantic coast, a harbour city with the star-shaped Citadel on its hill and a long waterfront boardwalk; famous for the Pier 21 immigration museum, lobster rolls and the donair.', 'カナダ大西洋岸ノバスコシア州の州都で、丘の上の星形の要塞シタデルと海沿いの遊歩道がある港町です。多くの移民が最初に到着したピア21移民博物館や、ロブスターロール、ドネアで有名です。'],
+    d: [2, 3],
+    s: [
+      ['다운타운·워터프런트', 'Downtown / Waterfront', 'ダウンタウン・ウォーターフロント', '바닷가 산책로와 시타델, 피어 21이 걸어서 닿습니다.', 'A walk to the boardwalk, the Citadel and Pier 21.', '海沿いの遊歩道やシタデル、ピア21へ歩いて行けます。'],
+      ['노스 엔드', 'North End', 'ノース・エンド', '개성 있는 식당과 카페가 모인 동네입니다.', 'A neighbourhood of independent restaurants and cafés.', '個性的な飲食店やカフェが集まる地区です。'],
+    ],
+  },
 };

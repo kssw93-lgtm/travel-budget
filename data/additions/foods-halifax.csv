@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+캐나다,핼리팩스,도네어,Halifax Donair,양념 고기를 피타에 싸고 달콤한 도네어 소스를 뿌린 길거리 음식,저,,대기,Tourism Nova Scotia,https://www.novascotia.com/trip-ideas/stories/where-to-eat-lobster-downtown-halifax,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+캐나다,핼리팩스,랍스터 롤,Lobster Roll,마요네즈로 버무린 차가운 랍스터를 버터 바른 빵에 채운 샌드위치,고,,대기,Discover Halifax,https://discoverhalifaxns.com/food-drink/top-5-places-to-get-lobster-rolls/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+캐나다,핼리팩스,시푸드 차우더,Seafood Chowder,해덕·가리비·랍스터·홍합 등을 넣은 크림 수프,중,,대기,Discover Halifax,https://discoverhalifaxns.com/events/food-and-drink/halifax-nova-scotia-seafood-guide/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

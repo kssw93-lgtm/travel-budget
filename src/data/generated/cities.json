@@ -1090,6 +1090,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "halifax",
+    "country": "캐나다",
+    "countryEn": "Canada",
+    "nameKo": "핼리팩스",
+    "nameEn": "Halifax",
+    "currency": "CAD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "nara",
     "country": "일본",
     "countryEn": "Japan",

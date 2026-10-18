@@ -216,6 +216,8 @@
 | 에드먼턴 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 위니펙 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 위니펙 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 핼리팩스 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 핼리팩스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 타이중 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 코타키나발루 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 장가계 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1080,6 +1082,10 @@
 | YWG-TR-001 | 위니펙 | 위니펙 트랜짓 1회(피고 카드~현금) | 3.1~3.45 CAD | A | 예 | 재검증 | [City of Winnipeg](https://www.winnipeg.ca/services-programs/transportation-roads-parking/transit/fares) |
 | YWG-AT-001 | 위니펙 | 캐나다 인권박물관 (성인) | 23 CAD | A | 예 | 재검증 | [Canadian Museum for Human Rights](https://humanrights.ca/visit/hours-admission-fees) |
 | YWG-AT-002 | 위니펙 | 캐나다 인권박물관 (청소년) | 11 CAD | A | 예 | 재검증 | [Canadian Museum for Human Rights](https://humanrights.ca/visit/hours-admission-fees) |
+| YHZ-TR-001 | 핼리팩스 | 핼리팩스 트랜짓 1회 | 3 CAD | A | 예 | 재검증 | [Halifax Transit](https://www.halifax.ca/transportation/halifax-transit/fares-tickets-passes) |
+| YHZ-AT-001 | 핼리팩스 | 피어 21 캐나다 이민 박물관 (성인) | 19 CAD | A | 예 | 재검증 | [Canadian Museum of Immigration at Pier 21](https://pier21.ca/) |
+| YHZ-AT-002 | 핼리팩스 | 핼리팩스 시타델 (성인) | 22 CAD | A | 예 | 재검증 | [Parks Canada](https://parks.canada.ca/lhn-nhs/ns/halifax/visit/tarifs-fees) |
+| YHZ-AT-003 | 핼리팩스 | 핼리팩스 시타델 (18세 미만 무료) | 0 CAD | A | 예 | 재검증 | [Parks Canada](https://parks.canada.ca/lhn-nhs/ns/halifax/visit/tarifs-fees) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

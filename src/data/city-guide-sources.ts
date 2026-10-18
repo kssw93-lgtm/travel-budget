@@ -1119,4 +1119,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'winnipeg:h2': 'https://www.tourismwinnipeg.com/eat-and-drink/peg-city-grub/read,post/615/peg-city-grub-s-guide-to-dining-at-the-forks-market',
   'winnipeg:h3': 'https://www.tourismwinnipeg.com/things-to-do/winnipeg-guides/display,guide/43/guide-to-winnipeg-s-iconic-eats',
   'winnipeg:t1': 'https://www.gov.mb.ca/finance/taxation/taxes/retail.html',
+  'halifax:h1': 'https://pier21.ca/',
+  'halifax:h2': 'https://parks.canada.ca/lhn-nhs/ns/halifax/visit/tarifs-fees',
+  'halifax:h3': 'https://www.novascotia.com/trip-ideas/stories/where-to-eat-lobster-downtown-halifax',
+  'halifax:t1': 'https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/notice342/nova-scotia-hst-rate-decrease-questions-answers-general-transitional-rules-personal-property-services.html',
 };

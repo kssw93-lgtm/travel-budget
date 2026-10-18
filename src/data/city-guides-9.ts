@@ -856,4 +856,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['식당 메뉴 가격에는 GST(5%)와 매니토바 소매판매세(7%)가 빠져 있고, 팁은 15~18%가 일반적입니다. 버스는 피고(peggo) 카드로 내면 현금보다 쌉니다.', 'Menu prices exclude 5% GST and Manitoba’s 7% retail sales tax; tip 15–18%. Bus fares are cheaper on a peggo card than in cash.', '飲食店のメニュー価格にはGST（5%）とマニトバ州小売売上税（7%）が含まれず、チップは15〜18%が一般的です。バスはpeggoカードで払うと現金より安くなります。'],
     ],
   },
+  halifax: {
+    h: [
+      ['피어 21 캐나다 이민 박물관', 'Canadian Museum of Immigration at Pier 21', 'ピア21カナダ移民博物館', '1928~1971년 약 100만 명의 이민자가 도착한 부두 건물을 박물관으로 꾸몄습니다.', 'The pier building where about a million immigrants arrived between 1928 and 1971.', '1928〜1971年に約100万人の移民が到着した埠頭の建物を博物館にしています。'],
+      ['핼리팩스 시타델', 'Halifax Citadel', 'ハリファックス・シタデル', '시내 언덕 위의 별 모양 요새로, 18세 미만은 무료입니다.', 'The star-shaped fort above downtown; under-18s are free.', '市内の丘の上にある星形の要塞で、18歳未満は無料です。'],
+      ['핼리팩스 도네어', 'Halifax donair', 'ハリファックス・ドネア', '양념한 고기를 피타에 싸고 달콤한 소스를 뿌린 노바스코샤 대표 길거리 음식입니다.', 'Nova Scotia’s signature street food: spiced meat in pita with a sweet sauce.', '味付け肉をピタで包み甘いソースをかけた、ノバスコシアを代表する屋台料理です。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 HST(14%)와 팁이 빠져 있습니다. 팁은 15~18%가 일반적입니다. 공항에서는 320번 급행버스를 타며, 일반 버스보다 요금이 높습니다.', 'Menu prices exclude 14% HST and tip (15–18% usual). From the airport, Regional Express route 320 costs more than a regular bus.', '飲食店のメニュー価格にはHST（14%）とチップが含まれていません。チップは15〜18%が一般的です。空港からは320番急行バスを使い、通常のバスより運賃が高めです。'],
+    ],
+  },
 };

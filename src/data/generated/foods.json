@@ -5231,6 +5231,60 @@
     "note": "GPT 수집(2026-10-12)"
   },
   {
+    "cityId": "halifax",
+    "nameKo": "도네어",
+    "nameEn": "Halifax Donair",
+    "reason": "양념 고기를 피타에 싸고 달콤한 도네어 소스를 뿌린 길거리 음식",
+    "reasonEn": "Spiced meat in pita with sweet donair sauce",
+    "desc": {
+      "ko": "양념 고기를 피타에 싸고 달콤한 도네어 소스를 뿌린 길거리 음식",
+      "en": "Spiced meat in pita with sweet donair sauce",
+      "ja": "味付け肉をピタで包み甘いドネアソースをかけた屋台料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourism Nova Scotia",
+    "recommendUrl": "https://www.novascotia.com/trip-ideas/stories/where-to-eat-lobster-downtown-halifax",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "halifax",
+    "nameKo": "랍스터 롤",
+    "nameEn": "Lobster Roll",
+    "reason": "마요네즈로 버무린 차가운 랍스터를 버터 바른 빵에 채운 샌드위치",
+    "reasonEn": "Cold lobster in mayo in a buttered, toasted roll",
+    "desc": {
+      "ko": "마요네즈로 버무린 차가운 랍스터를 버터 바른 빵에 채운 샌드위치",
+      "en": "Cold lobster in mayo in a buttered, toasted roll",
+      "ja": "マヨネーズで和えた冷たいロブスターをバターを塗ったパンに挟んだサンドイッチ"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Discover Halifax",
+    "recommendUrl": "https://discoverhalifaxns.com/food-drink/top-5-places-to-get-lobster-rolls/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "halifax",
+    "nameKo": "시푸드 차우더",
+    "nameEn": "Seafood Chowder",
+    "reason": "해덕·가리비·랍스터·홍합 등을 넣은 크림 수프",
+    "reasonEn": "Creamy chowder of haddock, scallops, lobster and mussels",
+    "desc": {
+      "ko": "해덕·가리비·랍스터·홍합 등을 넣은 크림 수프",
+      "en": "Creamy chowder of haddock, scallops, lobster and mussels",
+      "ja": "ハドック・ホタテ・ロブスター・ムール貝などを入れたクリームスープ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Discover Halifax",
+    "recommendUrl": "https://discoverhalifaxns.com/events/food-and-drink/halifax-nova-scotia-seafood-guide/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "hamburg",
     "nameKo": "피시브뢰트헨",
     "nameEn": "Fischbrötchen",

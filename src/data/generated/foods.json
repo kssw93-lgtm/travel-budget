@@ -7342,6 +7342,60 @@
     "note": "GPT 관광청 공식 안내 기준(2026-10-14)"
   },
   {
+    "cityId": "leipzig",
+    "nameKo": "라이프치히 레르헤",
+    "nameEn": "Leipziger Lerche",
+    "reason": "마지팬과 딸기잼을 채운 종다리 모양 과자",
+    "reasonEn": "Shortcrust pastry with marzipan and jam, shaped like a lark",
+    "desc": {
+      "ko": "마지팬과 딸기잼을 채운 종다리 모양 과자",
+      "en": "Shortcrust pastry with marzipan and jam, shaped like a lark",
+      "ja": "マジパンとイチゴジャムを詰めたヒバリの形のお菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Leipzig Travel",
+    "recommendUrl": "https://www.leipzig.travel/en/research-text/Leipzig-specialties",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "leipzig",
+    "nameKo": "라이프치히 알러라이",
+    "nameEn": "Leipziger Allerlei",
+    "reason": "어린 채소와 모렐 버섯, 가재 꼬리를 곁들인 채소 요리",
+    "reasonEn": "Young vegetables with morels and crayfish tails",
+    "desc": {
+      "ko": "어린 채소와 모렐 버섯, 가재 꼬리를 곁들인 채소 요리",
+      "en": "Young vegetables with morels and crayfish tails",
+      "ja": "若い野菜とアミガサタケ、ザリガニの身を合わせた野菜料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Leipzig Travel",
+    "recommendUrl": "https://www.leipzig.travel/en/research-text/Leipzig-specialties",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "leipzig",
+    "nameKo": "라이프치히 레브헨",
+    "nameEn": "Leipziger Räbchen",
+    "reason": "마지팬을 채운 자두를 반죽에 묻혀 튀긴 과자",
+    "reasonEn": "Marzipan-filled plums fried in pancake batter",
+    "desc": {
+      "ko": "마지팬을 채운 자두를 반죽에 묻혀 튀긴 과자",
+      "en": "Marzipan-filled plums fried in pancake batter",
+      "ja": "マジパンを詰めたプラムを生地につけて揚げたお菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Leipzig Travel",
+    "recommendUrl": "https://www.leipzig.travel/en/experience/regional-specialities-from-leipzig",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "lisbon",
     "nameKo": "파스텔 드 나타",
     "nameEn": "Pastel de nata",

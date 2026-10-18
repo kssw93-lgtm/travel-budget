@@ -5272,5 +5272,20 @@
     "ko": "로스트 고기와 그레이비에 곁들이는 부풀린 구운 반죽",
     "en": "Puffed baked batter served with roast meat and gravy",
     "ja": "ローストした肉とグレイビーに添える、膨らませて焼いた生地"
+  },
+  "leipzig:Leipziger Lerche": {
+    "ko": "마지팬과 딸기잼을 채운 종다리 모양 과자",
+    "en": "Shortcrust pastry with marzipan and jam, shaped like a lark",
+    "ja": "マジパンとイチゴジャムを詰めたヒバリの形のお菓子"
+  },
+  "leipzig:Leipziger Allerlei": {
+    "ko": "어린 채소와 모렐 버섯, 가재 꼬리를 곁들인 채소 요리",
+    "en": "Young vegetables with morels and crayfish tails",
+    "ja": "若い野菜とアミガサタケ、ザリガニの身を合わせた野菜料理"
+  },
+  "leipzig:Leipziger Räbchen": {
+    "ko": "마지팬을 채운 자두를 반죽에 묻혀 튀긴 과자",
+    "en": "Marzipan-filled plums fried in pancake batter",
+    "ja": "マジパンを詰めたプラムを生地につけて揚げたお菓子"
   }
 }

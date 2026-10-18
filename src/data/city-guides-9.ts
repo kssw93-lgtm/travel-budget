@@ -907,4 +907,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['퍼스트 요크 버스는 카드를 탈 때와 내릴 때 찍으면 거리에 따라 1.50~3파운드가 나오고, 하루 최대 6파운드까지만 청구됩니다.', 'First York buses use tap-on, tap-off: singles cost £1.50–£3.00 by distance, capped at £6 a day.', 'ファースト・ヨークのバスは乗車時と降車時にカードをタッチする方式で、距離に応じて1.50〜3ポンド、1日最大6ポンドまでしか請求されません。'],
     ],
   },
+  leipzig: {
+    h: [
+      ['전투 기념비(푈커슐라흐트덴크말)', 'Monument to the Battle of the Nations', '諸国民戦争記念碑', '1813년 나폴레옹 전쟁 전투를 기리는 높이 91m의 거대한 기념비로, 입장료에 박물관이 포함됩니다.', 'A colossal 91 m monument to the 1813 battle against Napoleon; admission includes the museum.', '1813年のナポレオン戦争の戦いを記念する高さ91mの巨大な記念碑で、入場料に博物館が含まれます。'],
+      ['라이프치히 레르헤', 'Leipziger Lerche', 'ライプツィガー・レルヒェ', '1876년 종다리 사냥이 금지되자 제과점들이 대신 만든 마지팬·잼 과자입니다.', 'A marzipan-and-jam pastry created after lark hunting was banned in 1876.', '1876年にヒバリの狩猟が禁止された後、パン屋が代わりに作ったマジパンとジャムのお菓子です。'],
+      ['라이프치히 고제', 'Leipziger Gose', 'ライプツィガー・ゴーゼ', '소금과 고수를 넣은 상면 발효 맥주로, 시내 양조 레스토랑에서 맛볼 수 있습니다.', 'A top-fermented beer brewed with salt and coriander, served at a city brewpub.', '塩とコリアンダーを入れた上面発酵ビールで、市内の醸造レストランで味わえます。'],
+    ],
+    t: [
+      ['시내 대중교통 1회권은 1시간 동안 유효합니다. 공항은 S반 S5·S5X로 중앙역까지 약 14분이며, 공항은 시내 구역 밖이라 요금이 더 비쌉니다.', 'A city single is valid for one hour. S-Bahn S5/S5X runs from the airport to the Hauptbahnhof in about 14 minutes; the airport lies outside the city zone, so the fare is higher.', '市内の公共交通の1回券は1時間有効です。空港からはSバーンS5・S5Xで中央駅まで約14分ですが、空港は市内ゾーンの外なので運賃が高くなります。'],
+    ],
+  },
 };

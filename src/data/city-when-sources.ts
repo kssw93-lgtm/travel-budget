@@ -455,4 +455,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'bath:x': 'https://www.romanbaths.co.uk/tickets/2026-09-september',
   'york:p1': 'https://visityork.org/media/media-visits/taste-of-york',
   'york:x': 'https://yorkminster.org/visit/plan-your-visit/',
+  'leipzig:p1': 'https://www.leipzig.travel/en/experience/regional-specialities-from-leipzig',
+  'leipzig:x': 'https://www.leipzig.travel/en/research-text/Leipzig-specialties',
 };

@@ -582,4 +582,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['기차역 주변', 'Around York Station', 'ヨーク駅周辺', '국립철도박물관이 가깝고 런던·에든버러행 기차가 서는 곳입니다.', 'Near the National Railway Museum, on the London–Edinburgh line.', '国立鉄道博物館に近く、ロンドンやエディンバラ行きの列車が停まります。'],
     ],
   },
+  leipzig: {
+    o: ['독일 작센주의 문화 도시로, 바흐가 오랫동안 활동한 성 토마스 교회와 1989년 평화 혁명의 무대가 된 성 니콜라이 교회가 있습니다. 거대한 전투 기념비와 아케이드 쇼핑가, 라이프치히 레르헤 같은 과자로 유명합니다.', 'A cultural city in Saxony, home to St Thomas Church where Bach worked and St Nicholas Church, stage of the 1989 Peaceful Revolution; famous for its colossal battle monument, shopping arcades and pastries like the Leipziger Lerche.', 'ドイツ・ザクセン州の文化都市で、バッハが長く活動した聖トーマス教会や、1989年の平和革命の舞台となった聖ニコライ教会があります。巨大な戦勝記念碑やアーケード街、ライプツィガー・レルヒェなどのお菓子で有名です。'],
+    d: [2, 3],
+    s: [
+      ['구시가지(링 안쪽)', 'Old Town (inside the Ring)', '旧市街（リング内側）', '성 토마스 교회와 아케이드, 마르크트 광장이 걸어서 닿습니다.', 'A walk to St Thomas Church, the arcades and the Markt.', '聖トーマス教会やアーケード、マルクト広場へ歩いて行けます。'],
+      ['중앙역 주변', 'Around the Hauptbahnhof', '中央駅周辺', '유럽 최대급 역으로, 공항행 S반과 트램이 모입니다.', 'One of Europe’s largest stations, with airport S-Bahn and trams.', 'ヨーロッパ最大級の駅で、空港行きのSバーンやトラムが集まります。'],
+    ],
+  },
 };

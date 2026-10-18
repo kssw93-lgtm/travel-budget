@@ -1140,6 +1140,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "leipzig",
+    "country": "독일",
+    "countryEn": "Germany",
+    "nameKo": "라이프치히",
+    "nameEn": "Leipzig",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "nara",
     "country": "일본",
     "countryEn": "Japan",

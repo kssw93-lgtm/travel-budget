@@ -1140,4 +1140,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'york:h2': 'https://visityork.org/business-directory/bettys-cafe-tea-rooms',
   'york:h3': 'https://visityork.org/media/media-visits/taste-of-york',
   'york:t1': 'https://www.firstbus.co.uk/york/tickets/tap-tap',
+  'leipzig:h1': 'https://www.stadtgeschichtliches-museum-leipzig.de/besuch/unsere-haeuser/voelkerschlachtdenkmal-forum-1813/',
+  'leipzig:h2': 'https://www.leipzig.travel/en/research-text/Leipzig-specialties',
+  'leipzig:h3': 'https://www.leipzig.travel/en/research-text/Leipzig-specialties',
+  'leipzig:t1': 'https://www.leipzig-halle-airport.de/anreise-abreise/bus-bahn/',
 };

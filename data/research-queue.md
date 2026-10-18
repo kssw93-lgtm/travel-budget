@@ -226,6 +226,8 @@
 | 바스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 요크 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 요크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 라이프치히 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 라이프치히 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 타이중 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 코타키나발루 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 장가계 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1100,6 +1102,9 @@
 | SAT-TR-001 | 샌안토니오 | VIA 버스 1회 | 1.3 USD | A | 예 | 재검증 | [VIA Metropolitan Transit](https://www.viainfo.net/rates/) |
 | SAT-AT-001 | 샌안토니오 | 알라모 교회 (무료, 예약제) | 0 USD | A | 예 | 재검증 | [Alamo Trust](https://www.thealamo.org/visit/calendar/alamo-free-timed-entry) |
 | SAT-AT-002 | 샌안토니오 | 샌안토니오 미션 (입장 무료) | 0 USD | A | 예 | 재검증 | [National Park Service](https://nps.gov/saan/planyourvisit/fees.htm) |
+| LEJ-TR-001 | 라이프치히 | LVB 라이프치히 시내 1회권 | 3.8 EUR | A | 예 | 재검증 | [LVB](https://www.l.de/verkehrsbetriebe/abos-tickets/einzelfahrkarte/) |
+| LEJ-AT-001 | 라이프치히 | 전투 기념비 (성인) | 12 EUR | A | 예 | 재검증 | [Stadtgeschichtliches Museum Leipzig](https://www.stadtgeschichtliches-museum-leipzig.de/besuch/unsere-haeuser/voelkerschlachtdenkmal-forum-1813/) |
+| LEJ-AT-002 | 라이프치히 | 전투 기념비 (할인) | 10 EUR | A | 예 | 재검증 | [Stadtgeschichtliches Museum Leipzig](https://www.stadtgeschichtliches-museum-leipzig.de/besuch/unsere-haeuser/voelkerschlachtdenkmal-forum-1813/) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

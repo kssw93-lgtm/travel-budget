@@ -470,4 +470,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['요크 민스터 입장권은 12개월 동안 유효하니, 다시 방문할 계획이면 버리지 마세요.', 'York Minster tickets are valid for 12 months — keep yours if you plan to return.', 'ヨーク・ミンスターの入場券は12か月有効なので、再訪する予定があれば捨てずに持っておきましょう。'],
   },
+  leipzig: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '야외 카페와 공원, 운하 산책을 즐기기 좋은 계절입니다.', 'The season for café terraces, parks and canal walks.', '屋外のカフェや公園、運河の散策を楽しめる季節です。'],
+    ],
+    x: ['라이프치히 레르헤는 이름이 보호된 과자라 인증받은 제과점에서만 만들 수 있습니다.', 'The Leipziger Lerche is a protected name, made only by licensed bakeries.', 'ライプツィガー・レルヒェは名称が保護されたお菓子で、認められたパン屋だけが作れます。'],
+  },
 };

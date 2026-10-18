@@ -35,10 +35,10 @@ export const CHRISTMAS_MARKETS: Record<string, ChristmasMarket> = {
   cologne: {
     name: ['쾰른 대성당 크리스마스 마켓', 'Christmas Market at Cologne Cathedral', 'ケルン大聖堂のクリスマスマーケット'],
     place: ['대성당 앞 론칼리 광장', 'Roncalliplatz in front of the cathedral', '大聖堂前のロンカリ広場'],
-    period: ['2026년 11월 16일 개막(폐막일은 공식 안내 확인)', 'Opens 16 November 2026 (check the official page for the closing date)', '2026年11月16日開幕（終了日は公式案内で確認）'],
+    period: ['2026년 11월 16일~12월 23일(11월 22일 휴장)', '16 November–23 December 2026 (closed 22 November)', '2026年11月16日〜12月23日（11月22日は休場）'],
     note: ['대성당 옆에 큰 트리가 서고, 론칼리 광장 위로 별빛 조명 지붕이 펼쳐집니다. 시내 다른 마켓과 이어서 둘러보기 좋습니다.', 'A large tree stands by the cathedral beneath a canopy of lights over Roncalliplatz; easy to combine with other markets in the centre.', '大聖堂のそばに大きなツリーが立ち、ロンカリ広場の上に光の天蓋が広がります。市内の他のマーケットと合わせて巡れます。'],
-    url: 'https://www.cologne-tourism.com/experiences-lifestyle/events/detail/christmas-market-at-cologne-cathedral',
-    dates: ['2026-11-16'],
+    url: 'https://www.koelnerweihnachtsmarkt.com/de/',
+    dates: ['2026-11-16', '2026-12-23'],
   },
   strasbourg: {
     name: ['크리스킨델스메리크', 'Christkindelsmärik', 'クリストキンデルスメリック'],
@@ -114,9 +114,10 @@ export const CHRISTMAS_MARKETS: Record<string, ChristmasMarket> = {
   prague: {
     name: ['프라하 크리스마스 마켓', 'Prague Christmas Markets', 'プラハのクリスマスマーケット'],
     place: ['구시가지 광장·바츨라프 광장', 'Old Town Square and Wenceslas Square', '旧市街広場・ヴァーツラフ広場'],
-    period: ['보통 11월 말~1월 초(2026년 일정은 11월 말 공식 발표)', 'Usually late November to early January (2026 dates announced in late November)', '通常11月末〜1月初め（2026年の日程は11月末に公式発表）'],
+    period: ['2026년 11월 28일~2027년 1월 6일', '28 November 2026–6 January 2027', '2026年11月28日〜2027年1月6日'],
     note: ['틴 성당과 천문시계를 배경으로 큰 트리가 서는 구시가지 광장 마켓이 대표적입니다.', 'The Old Town Square market, with a big tree before the Týn Church and astronomical clock, is the highlight.', 'ティーン教会と天文時計を背景に大きなツリーが立つ旧市街広場のマーケットが代表的です。'],
-    url: 'https://prague.eu/en/christmas-in-prague/',
+    url: 'https://prague.eu/en/akce/old-town-square-christmas-market/',
+    dates: ['2026-11-28', '2027-01-06'],
   },
   budapest: {
     name: ['부다페스트 크리스마스 마켓', 'Budapest Christmas Markets', 'ブダペストのクリスマスマーケット'],

@@ -4402,5 +4402,95 @@
       "license": "CC BY 4.0",
       "page": "https://commons.wikimedia.org/wiki/File:Ryga%2C_Sklandrausis.jpg"
     }
+  },
+  "lyon:Pike Quenelle": {
+    "ko": "강꼬치고기 살을 반죽해 크림 소스에 구운 리옹 부숑의 대표 요리",
+    "en": "Pike dumpling baked in a creamy sauce, the signature bouchon dish",
+    "ja": "川カマスのすり身を団子にしてクリームソースで焼いたリヨンのブションの代表料理"
+  },
+  "lyon:Lyonnaise Salad": {
+    "ko": "베이컨·반숙 달걀·크루통을 올린 리옹식 샐러드",
+    "en": "Salad topped with bacon, a soft-poached egg and croutons",
+    "ja": "ベーコンと半熟卵、クルトンをのせたリヨン風サラダ"
+  },
+  "lyon:Praline Tart": {
+    "ko": "분홍색 설탕 아몬드(프랄린)를 녹여 만든 리옹 디저트",
+    "en": "Tart of melted pink sugared almonds, a Lyon dessert",
+    "ja": "ピンク色の砂糖がけアーモンド（プラリーヌ）を溶かして作るリヨンのタルト"
+  },
+  "quebec-city:Poutine": {
+    "ko": "감자튀김에 치즈 커드와 그레이비 소스를 얹은 퀘벡 대표 음식",
+    "en": "Fries topped with cheese curds and gravy",
+    "ja": "フライドポテトにチーズカードとグレイビーソースをかけたケベックの名物"
+  },
+  "quebec-city:Tourtière": {
+    "ko": "다진 고기로 속을 채운 퀘벡 전통 미트파이",
+    "en": "Traditional Québec meat pie",
+    "ja": "ひき肉を詰めたケベック伝統のミートパイ"
+  },
+  "quebec-city:Maple Taffy": {
+    "ko": "뜨거운 메이플 시럽을 눈 위에 부어 막대로 말아 먹는 간식",
+    "en": "Hot maple syrup poured on snow and rolled onto a stick",
+    "ja": "熱いメープルシロップを雪の上に流し、棒に巻き取って食べるお菓子"
+  },
+  "porto:Francesinha": {
+    "ko": "햄·소시지·스테이크를 넣은 빵에 치즈를 녹이고 맥주 토마토 소스를 부은 포르투 명물",
+    "en": "Ham, sausage and steak sandwich under melted cheese and a beer-tomato sauce",
+    "ja": "ハム・ソーセージ・ステーキを挟んだパンにチーズを溶かし、ビール入りトマトソースをかけたポルト名物"
+  },
+  "porto:Tripas à Moda do Porto": {
+    "ko": "소 내장과 흰콩·소시지를 끓인 포르투 전통 스튜",
+    "en": "Stew of tripe, white beans and sausage, Porto’s traditional dish",
+    "ja": "牛の胃袋と白インゲン豆、ソーセージを煮込んだポルトの伝統料理"
+  },
+  "porto:Arroz de Polvo": {
+    "ko": "문어를 넣고 촉촉하게 지은 포르투갈식 밥 요리",
+    "en": "Moist Portuguese octopus rice",
+    "ja": "タコを入れてしっとり炊いたポルトガル風の米料理"
+  },
+  "seville:Espinacas con Garbanzos": {
+    "ko": "시금치와 병아리콩을 쿠민·파프리카로 볶은 세비야 대표 타파스",
+    "en": "Spinach and chickpeas with cumin and paprika, a classic Seville tapa",
+    "ja": "ほうれん草とひよこ豆をクミンとパプリカで炒めたセビリアの代表的なタパス"
+  },
+  "seville:Salmorejo": {
+    "ko": "토마토와 빵을 갈아 만든 걸쭉한 차가운 수프",
+    "en": "Thick cold soup of blended tomato and bread",
+    "ja": "トマトとパンをすりつぶして作るとろりとした冷製スープ"
+  },
+  "seville:Potaje de Garbanzos y Bacalao": {
+    "ko": "병아리콩과 염장 대구를 끓인 사순절 시기의 세비야 음식",
+    "en": "Chickpea and salt-cod stew eaten in Lent",
+    "ja": "ひよこ豆と塩漬けタラを煮込んだ四旬節の時期の料理"
+  },
+  "milan:Risotto alla Milanese": {
+    "ko": "사프란으로 노랗게 물들인 밀라노식 리소토",
+    "en": "Saffron-yellow Milanese risotto",
+    "ja": "サフランで黄色く色づけたミラノ風リゾット"
+  },
+  "milan:Cotoletta alla Milanese": {
+    "ko": "뼈째 두툼한 송아지고기에 빵가루를 입혀 버터에 튀긴 커틀릿",
+    "en": "Thick bone-in veal cutlet breaded and fried in butter",
+    "ja": "骨付きの厚い子牛肉にパン粉をつけてバターで揚げたカツレツ"
+  },
+  "milan:Panettone": {
+    "ko": "건포도와 설탕에 절인 과일을 넣은 밀라노의 크리스마스 빵",
+    "en": "Milan’s Christmas bread with raisins and candied fruit",
+    "ja": "レーズンと砂糖漬けの果物を入れたミラノのクリスマスの菓子パン"
+  },
+  "lucerne:Chügelipastete": {
+    "ko": "고기 완자와 크림 소스를 파이 반죽에 채운 루체른 전통 요리",
+    "en": "Puff-pastry pie of meatballs in cream sauce, a Lucerne tradition",
+    "ja": "肉団子とクリームソースをパイ生地に詰めたルツェルンの伝統料理"
+  },
+  "lucerne:Älplermagronen": {
+    "ko": "마카로니·감자·치즈를 함께 익혀 사과 소스를 곁들이는 스위스 산골 요리",
+    "en": "Alpine macaroni with potatoes and cheese, served with apple sauce",
+    "ja": "マカロニ・じゃがいも・チーズを一緒に煮て、りんごソースを添えるスイスの山の料理"
+  },
+  "lucerne:Birnenweggen": {
+    "ko": "말린 배·무화과·견과류를 채워 구운 루체른식 빵",
+    "en": "Pastry roll filled with dried pears, figs and nuts",
+    "ja": "干し梨・いちじく・ナッツを詰めて焼いたパン菓子"
   }
 }

@@ -6214,6 +6214,114 @@
     "note": "GPT 관광청 공식 안내 기준(2026-10-14)"
   },
   {
+    "cityId": "lucerne",
+    "nameKo": "루체른 퀴겔리파스테테",
+    "nameEn": "Chügelipastete",
+    "reason": "고기 완자와 크림 소스를 파이 반죽에 채운 루체른 전통 요리",
+    "reasonEn": "Puff-pastry pie of meatballs in cream sauce, a Lucerne tradition",
+    "desc": {
+      "ko": "고기 완자와 크림 소스를 파이 반죽에 채운 루체른 전통 요리",
+      "en": "Puff-pastry pie of meatballs in cream sauce, a Lucerne tradition",
+      "ja": "肉団子とクリームソースをパイ生地に詰めたルツェルンの伝統料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "MySwitzerland",
+    "recommendUrl": "https://www.myswitzerland.com/en/experiences/food-wine/recipe/chuegelipastete-meat-pie/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "lucerne",
+    "nameKo": "알플러마그로넨",
+    "nameEn": "Älplermagronen",
+    "reason": "마카로니·감자·치즈를 함께 익혀 사과 소스를 곁들이는 스위스 산골 요리",
+    "reasonEn": "Alpine macaroni with potatoes and cheese, served with apple sauce",
+    "desc": {
+      "ko": "마카로니·감자·치즈를 함께 익혀 사과 소스를 곁들이는 스위스 산골 요리",
+      "en": "Alpine macaroni with potatoes and cheese, served with apple sauce",
+      "ja": "マカロニ・じゃがいも・チーズを一緒に煮て、りんごソースを添えるスイスの山の料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "MySwitzerland",
+    "recommendUrl": "https://www.myswitzerland.com/en-us/planning/about-switzerland/custom-and-tradition/typical-food/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "lucerne",
+    "nameKo": "비르네벡겐",
+    "nameEn": "Birnenweggen",
+    "reason": "말린 배·무화과·견과류를 채워 구운 루체른식 빵",
+    "reasonEn": "Pastry roll filled with dried pears, figs and nuts",
+    "desc": {
+      "ko": "말린 배·무화과·견과류를 채워 구운 루체른식 빵",
+      "en": "Pastry roll filled with dried pears, figs and nuts",
+      "ja": "干し梨・いちじく・ナッツを詰めて焼いたパン菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "MySwitzerland",
+    "recommendUrl": "https://www.myswitzerland.com/en-us/planning/about-switzerland/custom-and-tradition/typical-food/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "lyon",
+    "nameKo": "크넬 드 브로셰",
+    "nameEn": "Pike Quenelle",
+    "reason": "강꼬치고기 살을 반죽해 크림 소스에 구운 리옹 부숑의 대표 요리",
+    "reasonEn": "Pike dumpling baked in a creamy sauce, the signature bouchon dish",
+    "desc": {
+      "ko": "강꼬치고기 살을 반죽해 크림 소스에 구운 리옹 부숑의 대표 요리",
+      "en": "Pike dumpling baked in a creamy sauce, the signature bouchon dish",
+      "ja": "川カマスのすり身を団子にしてクリームソースで焼いたリヨンのブションの代表料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Lyon Tourist Office",
+    "recommendUrl": "https://en.visiterlyon.com/taste-the-finest/restaurants-and-gastronomy/the-cuisine-of-lyon/la-mere-cottivet",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "lyon",
+    "nameKo": "리옹식 샐러드",
+    "nameEn": "Lyonnaise Salad",
+    "reason": "베이컨·반숙 달걀·크루통을 올린 리옹식 샐러드",
+    "reasonEn": "Salad topped with bacon, a soft-poached egg and croutons",
+    "desc": {
+      "ko": "베이컨·반숙 달걀·크루통을 올린 리옹식 샐러드",
+      "en": "Salad topped with bacon, a soft-poached egg and croutons",
+      "ja": "ベーコンと半熟卵、クルトンをのせたリヨン風サラダ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Lyon Tourist Office",
+    "recommendUrl": "https://en.visiterlyon.com/taste-the-finest/restaurants-and-gastronomy/label-bouchons-lyonnais/bouchon-les-lyonnais",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "lyon",
+    "nameKo": "프랄린 타르트",
+    "nameEn": "Praline Tart",
+    "reason": "분홍색 설탕 아몬드(프랄린)를 녹여 만든 리옹 디저트",
+    "reasonEn": "Tart of melted pink sugared almonds, a Lyon dessert",
+    "desc": {
+      "ko": "분홍색 설탕 아몬드(프랄린)를 녹여 만든 리옹 디저트",
+      "en": "Tart of melted pink sugared almonds, a Lyon dessert",
+      "ja": "ピンク色の砂糖がけアーモンド（プラリーヌ）を溶かして作るリヨンのタルト"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Lyon Tourist Office",
+    "recommendUrl": "https://en.visiterlyon.com/taste-the-finest/restaurants-and-gastronomy/label-bouchons-lyonnais/bouchon-les-lyonnais",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "macau",
     "nameKo": "에그타르트",
     "nameEn": "Portuguese Egg Tart",
@@ -6478,6 +6586,60 @@
     "recommendSource": "Visit Victoria",
     "recommendUrl": "https://www.visitvictoria.com/regions/melbourne/eat-and-drink/11-must-try-melbourne-dishes-and-drinks",
     "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
+  },
+  {
+    "cityId": "milan",
+    "nameKo": "리소토 알라 밀라네제",
+    "nameEn": "Risotto alla Milanese",
+    "reason": "사프란으로 노랗게 물들인 밀라노식 리소토",
+    "reasonEn": "Saffron-yellow Milanese risotto",
+    "desc": {
+      "ko": "사프란으로 노랗게 물들인 밀라노식 리소토",
+      "en": "Saffron-yellow Milanese risotto",
+      "ja": "サフランで黄色く色づけたミラノ風リゾット"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "YesMilano",
+    "recommendUrl": "https://www.yesmilano.it/en/articles/traditional-dishes-milano",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "milan",
+    "nameKo": "코톨레타 알라 밀라네제",
+    "nameEn": "Cotoletta alla Milanese",
+    "reason": "뼈째 두툼한 송아지고기에 빵가루를 입혀 버터에 튀긴 커틀릿",
+    "reasonEn": "Thick bone-in veal cutlet breaded and fried in butter",
+    "desc": {
+      "ko": "뼈째 두툼한 송아지고기에 빵가루를 입혀 버터에 튀긴 커틀릿",
+      "en": "Thick bone-in veal cutlet breaded and fried in butter",
+      "ja": "骨付きの厚い子牛肉にパン粉をつけてバターで揚げたカツレツ"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "YesMilano",
+    "recommendUrl": "https://www.yesmilano.it/en/articles/traditional-dishes-milano",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "milan",
+    "nameKo": "파네토네",
+    "nameEn": "Panettone",
+    "reason": "건포도와 설탕에 절인 과일을 넣은 밀라노의 크리스마스 빵",
+    "reasonEn": "Milan’s Christmas bread with raisins and candied fruit",
+    "desc": {
+      "ko": "건포도와 설탕에 절인 과일을 넣은 밀라노의 크리스마스 빵",
+      "en": "Milan’s Christmas bread with raisins and candied fruit",
+      "ja": "レーズンと砂糖漬けの果物を入れたミラノのクリスマスの菓子パン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "YesMilano",
+    "recommendUrl": "https://www.yesmilano.it/en/articles/traditional-dishes-milano",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
     "cityId": "munich",
@@ -7398,6 +7560,60 @@
     "note": "GPT 수집"
   },
   {
+    "cityId": "porto",
+    "nameKo": "프란세지냐",
+    "nameEn": "Francesinha",
+    "reason": "햄·소시지·스테이크를 넣은 빵에 치즈를 녹이고 맥주 토마토 소스를 부은 포르투 명물",
+    "reasonEn": "Ham, sausage and steak sandwich under melted cheese and a beer-tomato sauce",
+    "desc": {
+      "ko": "햄·소시지·스테이크를 넣은 빵에 치즈를 녹이고 맥주 토마토 소스를 부은 포르투 명물",
+      "en": "Ham, sausage and steak sandwich under melted cheese and a beer-tomato sauce",
+      "ja": "ハム・ソーセージ・ステーキを挟んだパンにチーズを溶かし、ビール入りトマトソースをかけたポルト名物"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Porto",
+    "recommendUrl": "https://visitporto.travel/pt-PT/global-kitchen",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "porto",
+    "nameKo": "트리파스 아 모다 두 포르투",
+    "nameEn": "Tripas à Moda do Porto",
+    "reason": "소 내장과 흰콩·소시지를 끓인 포르투 전통 스튜",
+    "reasonEn": "Stew of tripe, white beans and sausage, Porto’s traditional dish",
+    "desc": {
+      "ko": "소 내장과 흰콩·소시지를 끓인 포르투 전통 스튜",
+      "en": "Stew of tripe, white beans and sausage, Porto’s traditional dish",
+      "ja": "牛の胃袋と白インゲン豆、ソーセージを煮込んだポルトの伝統料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Porto",
+    "recommendUrl": "https://visitporto.travel/pt-PT/global-kitchen",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "porto",
+    "nameKo": "아로스 드 폴부",
+    "nameEn": "Arroz de Polvo",
+    "reason": "문어를 넣고 촉촉하게 지은 포르투갈식 밥 요리",
+    "reasonEn": "Moist Portuguese octopus rice",
+    "desc": {
+      "ko": "문어를 넣고 촉촉하게 지은 포르투갈식 밥 요리",
+      "en": "Moist Portuguese octopus rice",
+      "ja": "タコを入れてしっとり炊いたポルトガル風の米料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Porto",
+    "recommendUrl": "https://visitporto.travel/pt-PT/global-kitchen",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "prague",
     "nameKo": "스비치코바",
     "nameEn": "Svíčková",
@@ -7564,6 +7780,60 @@
     "recommendSource": "青岛市文化和旅游局（青岛政务网）",
     "recommendUrl": "https://www.qingdao.gov.cn/zwgk/xxgk/whly/gkml/gzxx/202605/t20260511_10590400.shtml",
     "note": "Claude 초안(2026-10-14)"
+  },
+  {
+    "cityId": "quebec-city",
+    "nameKo": "푸틴",
+    "nameEn": "Poutine",
+    "reason": "감자튀김에 치즈 커드와 그레이비 소스를 얹은 퀘벡 대표 음식",
+    "reasonEn": "Fries topped with cheese curds and gravy",
+    "desc": {
+      "ko": "감자튀김에 치즈 커드와 그레이비 소스를 얹은 퀘벡 대표 음식",
+      "en": "Fries topped with cheese curds and gravy",
+      "ja": "フライドポテトにチーズカードとグレイビーソースをかけたケベックの名物"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Québec City Tourism",
+    "recommendUrl": "https://www.quebec-cite.com/en/restaurants-quebec-city/unforgettable-foodie-experience",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "quebec-city",
+    "nameKo": "투르티에르",
+    "nameEn": "Tourtière",
+    "reason": "다진 고기로 속을 채운 퀘벡 전통 미트파이",
+    "reasonEn": "Traditional Québec meat pie",
+    "desc": {
+      "ko": "다진 고기로 속을 채운 퀘벡 전통 미트파이",
+      "en": "Traditional Québec meat pie",
+      "ja": "ひき肉を詰めたケベック伝統のミートパイ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Québec City Tourism",
+    "recommendUrl": "https://www.quebec-cite.com/en/restaurants-quebec-city/unforgettable-foodie-experience",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "quebec-city",
+    "nameKo": "메이플 타피",
+    "nameEn": "Maple Taffy",
+    "reason": "뜨거운 메이플 시럽을 눈 위에 부어 막대로 말아 먹는 간식",
+    "reasonEn": "Hot maple syrup poured on snow and rolled onto a stick",
+    "desc": {
+      "ko": "뜨거운 메이플 시럽을 눈 위에 부어 막대로 말아 먹는 간식",
+      "en": "Hot maple syrup poured on snow and rolled onto a stick",
+      "ja": "熱いメープルシロップを雪の上に流し、棒に巻き取って食べるお菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Québec City Tourism",
+    "recommendUrl": "https://www.quebec-cite.com/en/businesses/la-petite-cabane-a-sucre-de-quebec",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
     "cityId": "reykjavik",
@@ -8296,6 +8566,60 @@
     "recommendSource": "Visit Sapporo (official travel guide)",
     "recommendUrl": "https://visit.sapporo.travel/itineraries/05/",
     "note": "Claude 초안(2026-10-09)"
+  },
+  {
+    "cityId": "seville",
+    "nameKo": "시금치 병아리콩 볶음",
+    "nameEn": "Espinacas con Garbanzos",
+    "reason": "시금치와 병아리콩을 쿠민·파프리카로 볶은 세비야 대표 타파스",
+    "reasonEn": "Spinach and chickpeas with cumin and paprika, a classic Seville tapa",
+    "desc": {
+      "ko": "시금치와 병아리콩을 쿠민·파프리카로 볶은 세비야 대표 타파스",
+      "en": "Spinach and chickpeas with cumin and paprika, a classic Seville tapa",
+      "ja": "ほうれん草とひよこ豆をクミンとパプリカで炒めたセビリアの代表的なタパス"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visita Sevilla",
+    "recommendUrl": "https://legacy.visitasevilla.es/en/tapas/spinach-chickpeas",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "seville",
+    "nameKo": "살모레호",
+    "nameEn": "Salmorejo",
+    "reason": "토마토와 빵을 갈아 만든 걸쭉한 차가운 수프",
+    "reasonEn": "Thick cold soup of blended tomato and bread",
+    "desc": {
+      "ko": "토마토와 빵을 갈아 만든 걸쭉한 차가운 수프",
+      "en": "Thick cold soup of blended tomato and bread",
+      "ja": "トマトとパンをすりつぶして作るとろりとした冷製スープ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visita Sevilla",
+    "recommendUrl": "https://visitasevilla.es/en/discover-seville-through-its-tapas/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "seville",
+    "nameKo": "병아리콩 대구 스튜",
+    "nameEn": "Potaje de Garbanzos y Bacalao",
+    "reason": "병아리콩과 염장 대구를 끓인 사순절 시기의 세비야 음식",
+    "reasonEn": "Chickpea and salt-cod stew eaten in Lent",
+    "desc": {
+      "ko": "병아리콩과 염장 대구를 끓인 사순절 시기의 세비야 음식",
+      "en": "Chickpea and salt-cod stew eaten in Lent",
+      "ja": "ひよこ豆と塩漬けタラを煮込んだ四旬節の時期の料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visita Sevilla",
+    "recommendUrl": "https://visitasevilla.es/en/sabores-de-cuaresma-una-ruta-por-los-bares-cofrades-de-la-ciudad/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
     "cityId": "siem-reap",

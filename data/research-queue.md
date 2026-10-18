@@ -22,6 +22,19 @@
 | 파리 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 런던 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 세부 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 리옹 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 리옹 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 퀘벡 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 퀘벡 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 포르투 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 포르투 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 세비야 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 세비야 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 밀라노 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 밀라노 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 밀라노 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 루체른 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 루체른 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 교토 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오키나와 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 나고야 | 1회권 | 2 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
@@ -873,6 +886,39 @@
 | LON-SN-901 | 런던 | 세인즈버리 코카콜라 500ml | 2.15 GBP | A | 예 | 재검증 | [Sainsbury's](https://www.sainsburys.co.uk/gol-ui/product/coca-cola-original-taste-500ml) |
 | IST-SN-902 | 이스탄불 | 미그로스 에리클리 생수 500ml | 23.95 TRY | A | 예 | 재검증 | [Migros](https://www.migros.com.tr/erikli-su-500-ml-p-7b04f9) |
 | IST-SN-903 | 이스탄불 | 미그로스 코카콜라 캔 330ml | 55 TRY | A | 예 | 재검증 | [Migros](https://www.migros.com.tr/coca-cola-orijinal-tat-kutu-330-ml-p-7a3911) |
+| LYS-TR-001 | 리옹 | TCL 1회 승차(비접촉 카드, 1·2구역) | 2.1 EUR | A | 예 | 재검증 | [TCL](https://www.tcl.fr/en/tickets-fares/transport-ticket-holders/tcl-carte-bancaire) |
+| LYS-AT-001 | 리옹 | 콩플뤼앙스 박물관 (성인) | 12 EUR | A | 예 | 재검증 | [Musée des Confluences](https://museedesconfluences.fr/en/plan-my-visit/prices-and-tickets) |
+| LYS-AT-002 | 리옹 | 콩플뤼앙스 박물관 (아동) | 0 EUR | A | 예 | 재검증 | [Musée des Confluences](https://museedesconfluences.fr/en/plan-my-visit/prices-and-tickets) |
+| LYS-AT-003 | 리옹 | 리옹 미술관 상설전 (성인) | 8 EUR | A | 예 | 재검증 | [Musée des Beaux-Arts de Lyon](https://www.mba-lyon.fr/en/article/ticketing-admission) |
+| LYS-AT-004 | 리옹 | 가다뉴 박물관(리옹 역사·인형극) (성인) | 8~9 EUR | A | 예 | 재검증 | [Gadagne](https://www.gadagne-lyon.fr/en/gadagne/practical-information) |
+| LYS-AT-005 | 리옹 | 가다뉴 박물관 (아동) | 0 EUR | A | 예 | 재검증 | [Gadagne](https://www.gadagne-lyon.fr/en/gadagne/practical-information) |
+| QUE-TR-001 | 퀘벡 | RTC 버스 1회권(일반) | 3.85 CAD | A | 예 | 재검증 | [RTC](https://www.rtcquebec.ca/tarifs-et-achat/tarifs-et-titres/grille-des-tarifs) |
+| QUE-AT-001 | 퀘벡 | 퀘벡 시타델 입장(가이드 투어 포함) (성인) | 22 CAD | A | 예 | 재검증 | [La Citadelle de Québec](https://www.lacitadelle.qc.ca/en/admission-hours) |
+| QUE-AT-003 | 퀘벡 | 퀘벡 문명박물관 (성인) | 22~27 CAD | A | 예 | 재검증 | [Musée de la civilisation](https://mcq.org/en/visit/schedule-and-rates/) |
+| QUE-AT-004 | 퀘벡 | 몽모랑시 폭포 케이블카 왕복 (성인) | 14.95 CAD | A | 예 | 재검증, 세금·서비스료 별도 | [Sépaq](https://www.sepaq.com/destinations/parc-chute-montmorency/planifier/tarifs.dot?language_id=1) |
+| OPO-TR-001 | 포르투 | 안단테 Z2 1회권 | 1.4 EUR | A | 예 | 재검증 | [Metro do Porto](https://www.metrodoporto.pt/pages/287) |
+| OPO-AT-001 | 포르투 | 렐루 서점 입장권(책 구매 시 차감) | 15.95 EUR | A | 예 | 재검증, 시작가 표기 | [Livraria Lello](https://tickets.livrarialello.pt/) |
+| OPO-AT-002 | 포르투 | 렐루 서점 (아동) | 0 EUR | A | 예 | 재검증 | [Livraria Lello](https://livrarialello.pt/en/faqs/) |
+| OPO-AT-003 | 포르투 | 클레리구스 탑+박물관 (성인) | 10 EUR | A | 예 | 재검증 | [Torre dos Clérigos](https://www.torredosclerigos.pt/en/ticket-office/) |
+| OPO-AT-004 | 포르투 | 클레리구스 탑+박물관 (아동) | 0 EUR | A | 예 | 재검증 | [Torre dos Clérigos](https://www.torredosclerigos.pt/en/ticket-office/) |
+| OPO-AT-005 | 포르투 | 세할베스 공원 가이드 투어 (성인, 비거주자) | 15 EUR | A | 예 | 재검증 | [Serralves](https://www.serralves.pt/en/atividades-serralves/1110-visitaparque/) |
+| SVQ-TR-001 | 세비야 | TUSSAM 버스·트램 1회권 | 1.4 EUR | A | 예 | 재검증 | [TUSSAM](https://www.tussam.es/es/billete-univiaje) |
+| SVQ-AT-001 | 세비야 | 세비야 알카사르 일반 입장 (성인) | 15.5 EUR | A | 예 | 재검증 | [Real Alcázar de Sevilla](https://alcazarsevilla.org/prepara-la-visita/) |
+| SVQ-AT-002 | 세비야 | 세비야 알카사르 (아동) | 0 EUR | A | 예 | 재검증 | [Real Alcázar de Sevilla](https://alcazarsevilla.org/normativa-uso-real-alcazar/) |
+| SVQ-AT-003 | 세비야 | 세비야 대성당+히랄다 일반 입장 (성인) | 13~14 EUR | A | 예 | 재검증 | [Catedral de Sevilla](https://www.catedraldesevilla.es/en/cultural-visit/schedules-and-rates/) |
+| SVQ-AT-004 | 세비야 | 세비야 대성당 (아동) | 0 EUR | A | 예 | 재검증 | [Catedral de Sevilla](https://www.catedraldesevilla.es/en/cultural-visit/schedules-and-rates/) |
+| SVQ-AT-005 | 세비야 | 세타스 데 세비야 전망대 일반 (성인) | 16 EUR | A | 예 | 재검증 | [Setas de Sevilla](https://setasdesevilla.com/en/experiencia-general) |
+| MXP-TR-001 | 밀라노 | ATM 1회권(Mi1-Mi3, 90분) | 2.2 EUR | A | 예 | 재검증 | [ATM Milano](https://www.atm.it/it/ViaggiaConNoi/Documents/TARIFFE%20ATM.pdf) |
+| MXP-AT-001 | 밀라노 | 두오모+테라스(계단) (성인) | 22 EUR | A | 예 | 재검증 | [Duomo di Milano](https://ticket.duomomilano.it/en/eventi/duomo-e-terrazze-stairs/) |
+| MXP-AT-002 | 밀라노 | 두오모+테라스(계단) (아동, 할인) | 11 EUR | A | 예 | 재검증 | [Duomo di Milano](https://ticket.duomomilano.it/en/eventi/duomo-e-terrazze-stairs/) |
+| MXP-AT-003 | 밀라노 | 최후의 만찬(산타 마리아 델레 그라치에) (성인) | 15 EUR | A | 예 | 재검증 | [Museo del Cenacolo Vinciano](https://cenacolovinciano.org/info/) |
+| MXP-AT-004 | 밀라노 | 최후의 만찬 (아동) | 0 EUR | A | 예 | 재검증 | [Museo del Cenacolo Vinciano](https://cenacolovinciano.org/info/) |
+| MXP-AT-005 | 밀라노 | 스포르체스코성 박물관 (성인) | 5 EUR | A | 예 | 재검증 | [Castello Sforzesco](https://www.milanocastello.it/it/visita/orari-biglietti-abbonamenti-e-card) |
+| LUZ-TR-001 | 루체른 | 파스파르투 10구역 1회권(2등석) | 4.8 CHF | A | 예 | 재검증 | [Tarifverbund Passepartout](https://passepartout.ch/wp-content/uploads/2025/12/Passepartout_Basisbroschuere_2025_26_Web.pdf) |
+| LUZ-AT-001 | 루체른 | 스위스 교통박물관 (성인) | 35~37 CHF | A | 예 | 재검증 | [Verkehrshaus der Schweiz](https://www.verkehrshaus.ch/en/visit/for-your-visit/admission-prices-and-tickets.html) |
+| LUZ-AT-002 | 루체른 | 필라투스 크린스↔정상 왕복(여름) (성인) | 84 CHF | A | 예 | 재검증 | [Pilatus-Bahnen](https://pilatus.ch/en/railway-cableways/prices) |
+| LUZ-AT-003 | 루체른 | 리기 산악열차 1일권 (성인) | 84 CHF | A | 예 | 재검증 | [Rigi Bahnen](https://www.rigi.ch/en/inform/q-a) |
+| LUZ-AT-004 | 루체른 | 리기 산악열차 (아동, 성인 동반) | 0 CHF | A | 예 | 재검증 | [Rigi Bahnen](https://www.rigi.ch/en/inform/prices/discounts-for-individuals) |
 | DXB-FD-101 | 두바이 | 1/4 치킨 + 레귤러 사이드 1개 | 47 AED | A | 예 | 재검증 | [Nando's UAE 공식 메뉴](https://www.nandos.ae/eat/menu) |
 | DXB-FD-102 | 두바이 | 치킨 아보카도 랩 | 30 AED | A | 예 | 재검증 | [ROAST Dubai 공식 메뉴](https://www.roastdubai.com/menu) |
 | DXB-FD-103 | 두바이 | 파히타 (소고기 또는 닭고기 선택) | 90 AED | A | 예 | 재검증 | [Dubai Polo Bar 공식 메뉴](https://polo.emaar.com/food-menu/dubai-polo-bar/) |

@@ -107,7 +107,7 @@
     "nameEn": "Lyon",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "quebec-city",
@@ -117,7 +117,7 @@
     "nameEn": "Quebec City",
     "currency": "CAD",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "porto",
@@ -127,7 +127,7 @@
     "nameEn": "Porto",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "seville",
@@ -137,7 +137,7 @@
     "nameEn": "Seville",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "milan",
@@ -147,7 +147,7 @@
     "nameEn": "Milan",
     "currency": "EUR",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "lucerne",
@@ -157,7 +157,7 @@
     "nameEn": "Lucerne",
     "currency": "CHF",
     "tier": "B",
-    "stage": "2차"
+    "stage": "파일럿"
   },
   {
     "id": "kyoto",

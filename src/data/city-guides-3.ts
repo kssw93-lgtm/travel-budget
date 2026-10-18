@@ -69,6 +69,7 @@ export const NOTES_3: Record<string, Compact> = {
       ['혼톰 케이블카', 'Hon Thom cable car', 'ホントム・ロープウェイ', '바다 위를 길게 건너 남쪽 섬으로 가는 케이블카입니다.', 'A long cable car over the sea to Hon Thom island.', '海の上を長く渡って南の島へ向かうロープウェイです。'],
       ['사오 비치', 'Sao Beach', 'サオビーチ', '고운 흰 모래와 잔잔한 물빛으로 유명한 해변입니다.', 'Known for soft white sand and calm, clear water.', '白い砂と穏やかな海で有名なビーチです。'],
       ['즈엉동 야시장', 'Duong Dong Night Market', 'ズオンドン・ナイトマーケット', '해산물 구이 노점이 모인 섬의 대표 야시장입니다.', "The island's main night market, full of grilled-seafood stalls.", '海鮮焼きの屋台が並ぶ島の代表的な夜市です。'],
+      ['빈원더스 푸꾸옥', 'VinWonders Phu Quoc', 'ヴィンワンダーズ・フーコック', '섬 북부의 대형 테마파크로, 사파리와 함께 하루 일정으로 많이 갑니다.', 'A large theme park in the north of the island, often paired with the safari park for a full day.', '島北部の大型テーマパークで、サファリと組み合わせて一日で訪れることが多いです。'],
     ],
     t: [
       ['푸꾸옥의 북부 국립공원과 남부 사오 비치는 서로 떨어져 있으므로 숙소 위치를 정할 때 방문할 지역을 먼저 살펴보세요.', 'Phu Quoc\'s northern national park and southern Sao Beach are far apart, so consider the areas you plan to visit when choosing a base.', 'フーコック島北部の国立公園と南部のサオビーチは離れています。宿泊先を決める前に訪問エリアを確認しましょう。'],
@@ -113,6 +114,8 @@ export const NOTES_3: Record<string, Compact> = {
       ['마나가하 섬', 'Managaha Island', 'マニャガハ島', '배로 금방 가는 작은 섬으로, 보전구역의 맑은 물과 산호초에서 스노클링을 즐깁니다.', 'A small island a short boat ride away, with clear water and coral reefs in a conservation area — great for snorkelling.', '船ですぐ行ける小さな島で、保護区の澄んだ海とサンゴ礁でシュノーケリングが楽しめます。'],
       ['그로토', 'The Grotto', 'グロット', '바다와 연결된 석회암 동굴 다이빙 명소입니다.', 'A limestone sea cave famous among divers.', '海とつながる石灰岩の洞窟で、ダイビングの名所です。'],
       ['만세 절벽', 'Banzai Cliff', 'バンザイクリフ', '태평양 전쟁의 역사가 남은 섬 북쪽 절벽입니다.', 'The northern cliffs marked by Pacific War history.', '太平洋戦争の歴史が残る島北部の断崖です。'],
+      ['타포차우산', 'Mount Tapochau', 'タポチョ山', '사이판에서 가장 높은 산으로, 정상에서 섬 전체와 마나가하섬이 내려다보입니다.', 'Saipan\'s highest point, with views over the whole island and Managaha.', 'サイパンで最も高い山で、頂上から島全体とマニャガハ島を見渡せます。'],
+      ['새섬 전망대', 'Bird Island Lookout', 'バードアイランド展望台', '바닷새 서식지인 작은 섬을 내려다보는 북부 마르피 지역의 전망대입니다.', 'A lookout in northern Marpi over a small island that is a seabird habitat.', '海鳥の生息地である小島を見下ろす北部マッピ地区の展望台です。'],
     ],
     t: [
       ['사이판은 버스 노선과 운행 상태가 제한적이거나 변동될 수 있습니다. 관광지 이동 전 렌터카·택시·숙소 셔틀과 현재 버스 운행 여부를 확인하세요.', 'Bus routes and service on Saipan may be limited or change. Before visiting attractions, check current bus operations and options such as a rental car, taxi, or hotel shuttle.', 'サイパンのバス路線や運行状況は限られ、変更されることがあります。観光地へ向かう前に運行状況とレンタカー・タクシー・ホテル送迎を確認しましょう。'],

@@ -46,6 +46,7 @@ export const NOTES_5: Record<string, Compact> = {
       ['안목 커피거리', 'Anmok Coffee Street', '安木コーヒー通り', '바다를 마주한 카페들이 줄지어 있는 거리입니다.', 'A seafront street lined with cafés.', '海に面したカフェが並ぶ通りです。'],
       ['경포대·경포호', 'Gyeongpodae and Gyeongpo Lake', '鏡浦台・鏡浦湖', '호수 둘레 산책로와 해변이 이어진 강릉의 대표 명소입니다.', 'Lakeside paths that lead to the beach, Gangneung’s classic sight.', '湖畔の散歩道と海辺がつながる江陵の代表名所です。'],
       ['오죽헌', 'Ojukheon', '烏竹軒', '신사임당과 율곡 이이가 태어난 조선 시대 가옥입니다.', 'The Joseon-era house where Shin Saimdang and Yulgok were born.', '申師任堂と栗谷李珥が生まれた朝鮮時代の家屋です。'],
+      ['정동진', 'Jeongdongjin', '正東津', '바다 바로 옆 기차역과 모래시계공원이 있는 해돋이 명소입니다.', 'A sunrise spot with a seaside railway station and the Hourglass Park.', '海のすぐそばの駅と砂時計公園がある日の出の名所です。'],
     ],
     t: [
       ['서울에서 KTX로 2시간 안팎이라 당일치기 여행도 가능합니다.', 'About two hours from Seoul by KTX, so a day trip is possible.', 'ソウルからKTXで約2時間なので日帰りも可能です。'],
@@ -70,6 +71,7 @@ export const NOTES_5: Record<string, Compact> = {
       ['여수 밤바다·낭만포차', 'Yeosu night sea and pojangmacha', '麗水の夜の海と屋台', '이순신광장에서는 해양공원을 따라 걸어 하멜등대 근처의 낭만포차 거리를 찾을 수 있습니다.', 'Walk along the waterfront from Yi Sun-sin Square to the seaside stalls near Hamel Lighthouse.', '麗水の夜景と浪漫屋台。李舜臣広場から海沿いを歩くと、ハメル灯台近くの屋台通りに着きます。'],
       ['여수 해상케이블카', 'Yeosu Maritime Cable Car', '麗水海上ケーブルカー', '바다 위를 건너 돌산도까지 가는 케이블카입니다.', 'A cable car that crosses the sea to Dolsando.', '海の上を渡って突山島へ行くケーブルカーです。'],
       ['오동도', 'Odongdo Island', '梧桐島', '방파제 길로 걸어 들어가는 동백꽃 섬입니다.', 'A camellia island reached on foot along a breakwater.', '防波堤の道を歩いて渡る椿の島です。'],
+      ['향일암', 'Hyangiram Hermitage', '向日庵', '돌산도 끝자락 바위 절벽 위 암자로, 이름처럼 해돋이 명소입니다.', 'A hermitage on the cliffs at the tip of Dolsando, famous, as its name says, for sunrise.', '突山島の先端の断崖に立つ庵で、名前のとおり日の出の名所です。'],
     ],
     t: [
       ['게장 백반은 간장·양념게장을 함께 맛볼 수 있는 여수 대표 음식입니다. 리필 횟수와 조건은 식당마다 다르니 메뉴를 확인하세요.', 'Crab set meals are a Yeosu specialty, often with soy and spicy marinated crab. Check each restaurant\'s menu for its refill limits and conditions.', 'カンジャンケジャンとヤンニョムケジャンを味わえるケジャン定食は麗水の名物です。おかわりの回数や条件は店ごとに確認してください。'],
@@ -81,6 +83,8 @@ export const NOTES_5: Record<string, Compact> = {
       ['전주 한옥마을', 'Jeonju Hanok Village', '全州韓屋村', '한옥 수백 채가 모인 마을. 한복을 빌려 입고 걷는 여행자가 많습니다.', 'Hundreds of hanok houses; many visitors stroll in rented hanbok.', '数百軒の韓屋が集まる村。韓服を借りて歩く人が多いです。'],
       ['경기전', 'Gyeonggijeon Shrine', '慶基殿', '조선 태조의 초상화를 모신 곳입니다.', 'The shrine holding the portrait of King Taejo of Joseon.', '朝鮮太祖の肖像画を祀る場所です。'],
       ['남부시장 야시장', 'Nambu Market night market', '南部市場夜市', '주말 저녁에 열리는 먹거리 야시장입니다.', 'A weekend evening street-food market.', '週末の夜に開かれる屋台の夜市です。'],
+      ['전동성당', 'Jeondong Cathedral', '殿洞聖堂', '한옥마을 입구의 로마네스크 양식 성당으로, 한국 천주교 첫 순교 터에 세워졌습니다.', 'A Romanesque cathedral at the entrance to the Hanok Village, built on the site of Korea\'s first Catholic martyrdom.', '韓屋村の入口にあるロマネスク様式の聖堂で、韓国カトリック最初の殉教地に建てられました。'],
+      ['자만벽화마을', 'Jaman Mural Village', '滋満壁画村', '한옥마을에서 길 하나 건너 언덕 위 마을로, 골목 벽화를 30분 정도면 둘러봅니다. 주민이 사는 곳이니 조용히 다니세요.', 'A hillside village across the road from the Hanok Village, its mural-lined lanes seen in about 30 minutes; residents live here, so keep quiet.', '韓屋村から道を渡った丘の上の村で、路地の壁画を30分ほどで見て回れます。住民が暮らす場所なので静かに。'],
     ],
     t: [
       ['비빔밥과 콩나물국밥이 유명하며, 콩나물국밥은 아침 해장 메뉴로 즐겨 먹습니다.', 'Bibimbap and bean-sprout soup are famous; the soup is a favourite breakfast.', 'ビビンバとコンナムルクッパが有名で、クッパは朝食によく食べられます。'],

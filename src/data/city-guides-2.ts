@@ -46,6 +46,7 @@ export const NOTES_2: Record<string, Compact> = {
       ['투몬 비치', 'Tumon Bay', 'タモン湾', '호텔이 모인 잔잔한 산호초 해변. 얕은 곳에서 스노클링을 할 수 있습니다.', 'A calm reef-sheltered beach lined with hotels, good for shallow snorkelling.', 'ホテルが並ぶ穏やかなサンゴ礁のビーチ。浅瀬でシュノーケリングができます。'],
       ['사랑의 절벽', "Two Lovers Point", '恋人岬', '투몬 만이 내려다보이는 절벽 전망대입니다.', 'A clifftop lookout over Tumon Bay.', 'タモン湾を見下ろす断崖の展望台です。'],
       ['차모로 빌리지 야시장', 'Chamorro Village Night Market', 'チャモロ・ビレッジ・ナイトマーケット', '수요일 저녁에 열리는 야시장. 차모로 바비큐를 맛볼 수 있습니다.', 'The Wednesday evening market for Chamorro barbecue and crafts.', '水曜の夜に開かれる市場。チャモロ料理のバーベキューが味わえます。'],
+      ['리티디안 포인트', 'Ritidian Point', 'リティディアン・ポイント', '괌 북쪽 끝 국립 야생동물 보호구역의 해변으로, 맑은 바다로 유명합니다. 안전요원이 없고 해류가 강하니 주의하세요.', 'A beach in the national wildlife refuge at Guam\'s northern tip, known for clear water; no lifeguards and strong currents.', 'グアム北端の国立野生生物保護区のビーチで、透明な海で知られます。監視員はおらず潮流が強いので注意。'],
     ],
     t: [
       ['GMTA 버스 노선이 있지만 렌터카로 다니는 여행자가 많습니다. 운전은 오른쪽 차선이고, 버스 운행 정보는 미리 확인하세요.', 'GMTA buses run on Guam, but many visitors rent a car; driving is on the right, and check bus schedules in advance.', 'GMTAのバス路線がありますが、レンタカーで回る旅行者が多いです。右側通行で、バスの運行情報は事前に確認を。'],
@@ -57,6 +58,8 @@ export const NOTES_2: Record<string, Compact> = {
       ['벤탄 시장', 'Ben Thanh Market', 'ベンタイン市場', '시내 중심의 큰 시장. 먹거리 코너와 기념품 가게가 모여 있습니다.', 'The central market with food stalls and souvenir shops.', '市中心の大きな市場。屋台と土産物店が集まっています。'],
       ['통일궁', 'Independence Palace', '統一会堂', '1975년 전쟁 종결의 상징이 된 옛 대통령궁입니다.', 'The former presidential palace that marked the end of the war in 1975.', '1975年の終戦の象徴となった旧大統領官邸です。'],
       ['전쟁기념관', 'War Remnants Museum', '戦争証跡博物館', '베트남 전쟁의 기록과 사진을 전시하는 박물관입니다.', 'A museum documenting the Vietnam War through photographs and exhibits.', 'ベトナム戦争の記録と写真を展示する博物館です。'],
+      ['사이공 중앙우체국', 'Saigon Central Post Office', 'サイゴン中央郵便局', '프랑스 식민지 시대에 지어진 우체국으로, 지금도 우체국으로 쓰이며 옛 지도와 아치형 천장이 볼거리입니다.', 'A French colonial-era post office still in use, with old maps and a vaulted hall.', 'フランス統治時代に建てられ今も使われる郵便局で、古い地図とアーチ天井が見どころです。'],
+      ['구찌 터널', 'Cu Chi Tunnels', 'クチトンネル', '베트남 전쟁 때 쓰인 지하 터널 유적으로, 시내에서 차로 1시간 반 정도 걸려 반나절 투어로 다녀옵니다.', 'Wartime underground tunnels about 1.5 hours\' drive away, usually visited on a half-day tour.', 'ベトナム戦争時の地下トンネル遺跡で、市内から車で1時間半ほど。半日ツアーで行きます。'],
     ],
     t: [
       ['오토바이가 많은 도로를 건널 때는 횡단보도를 이용하고, 초록불이어도 양쪽 차량을 확인하세요. 운전자가 알아서 피할 것이라고 믿고 걷지 마세요.', 'When crossing motorbike-heavy roads, use a crossing and check traffic in both directions even on a green signal. Do not assume drivers will move around you.', 'バイクの多い道路を渡るときは横断歩道を使い、青信号でも左右の車両を確認してください。運転者が必ず避けてくれると思って歩かないでください。'],
@@ -68,6 +71,7 @@ export const NOTES_2: Record<string, Compact> = {
       ['차이나타운·짜장면박물관', 'Chinatown and Jajangmyeon Museum', 'チャイナタウン・チャジャン麺博物館', '한국 짜장면이 시작된 곳. 박물관과 중식당이 모여 있습니다.', 'Where Korean jajangmyeon began, with a museum and Chinese restaurants.', '韓国のチャジャン麺発祥の地。博物館と中華料理店が集まります。'],
       ['송월동 동화마을', 'Songwol-dong Fairy Tale Village', '松月洞童話村', '동화 속 장면을 벽화와 조형물로 꾸민 골목입니다.', 'Alleys decorated with murals and sculptures from fairy tales.', '童話の場面を壁画や造形物で飾った路地です。'],
       ['송도 센트럴파크', 'Songdo Central Park', '松島セントラルパーク', '고층 빌딩 사이 수로에서 보트를 탈 수 있는 공원입니다.', 'A park with a canal for boating between high-rise towers.', '高層ビルの間の水路でボートに乗れる公園です。'],
+      ['월미도와 월미바다열차', 'Wolmido and the Wolmi Sea Train', '月尾島と月尾海列車', '바다를 따라 월미도를 한 바퀴 도는 모노레일로, 인천항과 서해를 내려다봅니다.', 'A monorail loop around Wolmido looking out over Incheon port and the Yellow Sea.', '海沿いに月尾島をひと回りするモノレールで、仁川港と黄海を見渡せます。'],
     ],
     t: [
       ['출국 전 차이나타운을 들를 계획이라면 공항 왕복 시간과 환승 경로를 먼저 확인하세요. 차이나타운은 인천역 맞은편입니다.', 'If you plan to visit Chinatown before departure, check the round-trip travel time and transfer route to the airport first. Chinatown is across from Incheon Station.', '出国前にチャイナタウンへ立ち寄る場合は、空港との往復時間と乗り換え経路を先に確認しましょう。チャイナタウンは仁川駅の向かいです。'],
@@ -92,6 +96,7 @@ export const NOTES_2: Record<string, Compact> = {
       ['툰쿠 압둘 라만 해양공원', 'Tunku Abdul Rahman Marine Park', 'トゥンク・アブドゥル・ラーマン海洋公園', '시내 앞바다 섬들로 보트를 타고 가서 스노클링을 즐깁니다.', 'Islands just offshore, reached by boat for snorkelling.', '市の沖の島々へボートで行き、シュノーケリングを楽しみます。'],
       ['키나발루 공원', 'Kinabalu Park', 'キナバル公園', '동남아 최고봉 키나발루산이 있는 유네스코 세계유산 공원입니다.', 'A UNESCO World Heritage park around Mount Kinabalu.', 'キナバル山がある世界遺産の公園です。'],
       ['탄중아루 해변 노을', 'Tanjung Aru sunset', 'タンジュン・アル・ビーチの夕日', '시내에서 가까운 해변으로, 해 질 녘 노을이 아름답기로 유명합니다.', 'A beach near the city famed for its sunsets.', '市内から近いビーチで、夕焼けが美しいことで有名です。'],
+      ['마리마리 문화마을', 'Mari Mari Cultural Village', 'マリマリ文化村', '사바주 다섯 민족의 전통 가옥과 생활을 체험하는 \'살아 있는 박물관\'으로, 하루 정해진 시간에 투어가 열립니다.', 'A \'living museum\' of the traditional homes and crafts of five Sabah peoples, visited on scheduled tours.', 'サバ州の五つの民族の伝統家屋と暮らしを体験する「生きた博物館」で、決まった時間にツアーがあります。'],
     ],
     t: [
       ['해양공원 섬에 들어갈 때는 공원 입장료를 따로 내야 합니다.', 'A separate park fee is charged when you land on the marine-park islands.', '海洋公園の島に上陸する際は別途入園料がかかります。'],

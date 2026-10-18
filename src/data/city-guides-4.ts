@@ -7,6 +7,8 @@ export const NOTES_4: Record<string, Compact> = {
       ['설악산 국립공원', 'Seoraksan National Park', '雪岳山国立公園', '케이블카로 권금성에 오르거나 흔들바위까지 걸어갈 수 있습니다.', 'Ride the cable car to Gwongeumseong or hike to the Rocking Rock.', 'ロープウェイで権金城に登ったり、揺れ岩まで歩いたりできます。'],
       ['속초 관광수산시장', 'Sokcho Tourist & Fishery Market', '束草観光水産市場', '닭강정과 오징어순대 등 속초 먹거리가 모인 시장입니다.', 'The market for Sokcho staples like dakgangjeong and squid sundae.', 'タッカンジョンやイカスンデなど束草グルメが集まる市場です。'],
       ['아바이마을 갯배', 'Abai Village and Gaetbae ferry', 'アバイ村とケッペ', '줄을 당겨 건너는 작은 배로 실향민 마을 아바이마을에 갑니다.', 'Pull yourself across on the rope ferry to Abai Village, settled by North Korean refugees.', 'ロープを引いて渡る小舟で、失郷民の村アバイ村へ行きます。'],
+      ['영금정', 'Yeonggeumjeong', '霊琴亭', '속초 등대 아래 바닷가 바위 위 정자로, 해돋이 명소입니다. 파도 소리가 거문고 소리 같다는 데서 이름이 왔습니다.', 'A pavilion on the rocks below Sokcho Lighthouse, a sunrise spot named for waves that sound like a zither.', '束草灯台の下、海辺の岩場に立つあずまやで、日の出の名所です。波音が琴のようだという由来の名です。'],
+      ['청초호', 'Cheongchoho Lake', '青草湖', '시내 가운데 있는 석호로, 호숫가 산책로와 엑스포 타워가 있습니다.', 'A lagoon in the middle of town with a lakeside path and the Expo Tower.', '市街の中心にある潟湖で、湖畔の遊歩道とエキスポタワーがあります。'],
     ],
     t: [
       ['설악산 케이블카는 사전 예약 없이 당일 현장에서만 표를 팝니다. 주말에는 대기가 생길 수 있으니 운행시간을 확인하고 여유 있게 방문하세요.', 'Seorak Cable Car sells tickets on site only, with no advance reservations. Weekend waits are possible, so check operating hours and allow extra time.', '雪岳山ケーブルカーのチケットは予約できず、当日の現地販売のみです。週末は待ち時間が生じることがあるため、運行時間を確認して余裕を持って訪れましょう。'],
@@ -69,6 +71,8 @@ export const NOTES_4: Record<string, Compact> = {
       ['동피랑 벽화마을', 'Dongpirang Mural Village', '東ピラン壁画村', '언덕 골목이 벽화로 꾸며진 마을. 위에서 강구안 항구가 보입니다.', 'A hillside village of murals overlooking Gangguan harbour.', '坂道の路地が壁画で彩られた村。上から港が見えます。'],
       ['통영 케이블카와 미륵산', 'Tongyeong cable car and Mireuksan', '統営ケーブルカーと弥勒山', '케이블카로 올라 한려수도의 섬들을 내려다봅니다.', 'Ride up to view the islands of Hallyeosudo.', 'ケーブルカーで上り、閑麗水道の島々を見下ろします。'],
       ['중앙시장', 'Jungang Market', '中央市場', '강구안 항구 앞 시장으로 활어·건어물을 둘러볼 수 있습니다. 인근에서 충무김밥과 꿀빵도 찾아보세요.', 'Browse fresh and dried fish at this market by Gangguan Port, then look for chungmu gimbap and honey bread nearby.', '江口岸港の前にある市場で鮮魚や干物を見て回れます。近くで忠武キンパやクルパンも探してみましょう。'],
+      ['한산도 제승당', 'Jeseungdang, Hansando', '閑山島・制勝堂', '이순신 장군이 삼도수군통제영을 두었던 곳으로, 통영항에서 배로 약 30분입니다.', 'Admiral Yi Sun-sin\'s naval headquarters, about 30 minutes by ferry from Tongyeong harbour.', '李舜臣将軍が水軍の本営を置いた場所で、統営港から船で約30分です。'],
+      ['세병관', 'Sebyeonggwan', '洗兵館', '조선 시대 삼도수군통제영의 객사 건물로, 시내 중심에 있는 큰 목조 건물입니다.', 'The great wooden hall of the Joseon-era naval command, right in the town centre.', '朝鮮時代の三道水軍統制営の客舎で、市の中心にある大きな木造建築です。'],
     ],
     t: [
       ['소매물도·욕지도 등 섬 배편은 기상에 따라 변경·결항될 수 있으니 출발 전 선사에 운항 여부를 확인하세요.', 'Ferries to islands such as Somaemuldo and Yokjido may change or be cancelled because of weather; confirm the sailing with the operator before departure.', '小毎勿島や欲知島などへの船は天候により変更・欠航する場合があります。出発前に運航会社へ確認してください。'],

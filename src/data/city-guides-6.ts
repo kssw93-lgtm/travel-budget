@@ -59,6 +59,7 @@ export const NOTES_6: Record<string, Compact> = {
       ['막탄 섬 해변', 'Mactan Island beaches', 'マクタン島のビーチ', '공항이 있는 섬으로 리조트와 아일랜드 호핑 출발지가 모여 있습니다.', 'The airport island, home to resorts and island-hopping departures.', '空港がある島で、リゾートとアイランドホッピングの拠点です。'],
       ['산토 니뇨 성당·마젤란 십자가', 'Basilica del Santo Niño and Magellan’s Cross', 'サント・ニーニョ教会とマゼラン・クロス', '필리핀 가톨릭 역사가 시작된 곳입니다.', 'Where Philippine Catholic history began.', 'フィリピンのカトリックの歴史が始まった場所です。'],
       ['오슬롭·모알보알', 'Oslob and Moalboal', 'オスロブ・モアルボアル', '남쪽 해안의 고래상어·정어리 떼 스노클링으로 유명한 곳입니다.', 'Southern coast spots famous for whale sharks and sardine runs.', '南の海岸で、ジンベエザメやイワシの群れのシュノーケリングが有名です。'],
+      ['산 페드로 요새', 'Fort San Pedro', 'サン・ペドロ要塞', '스페인 식민지 시대에 지어진 필리핀에서 가장 작고 오래된 요새로, 마젤란 십자가와 가깝습니다.', 'The Philippines\' smallest and oldest Spanish fort, close to Magellan\'s Cross.', 'スペイン統治時代に築かれたフィリピン最小・最古の要塞で、マゼランクロスの近くです。'],
     ],
     t: [
       ['막탄과 세부 시내 사이는 다리가 막히는 시간이 많아 이동 시간을 넉넉히 잡으세요.', 'The bridges between Mactan and Cebu City jam often; allow extra time.', 'マクタン島とセブ市内を結ぶ橋は渋滞しやすいので、時間に余裕を。'],

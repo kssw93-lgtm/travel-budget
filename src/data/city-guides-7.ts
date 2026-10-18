@@ -137,6 +137,7 @@ export const NOTES_7: Record<string, Compact> = {
       ['나트랑 해변', 'Nha Trang Beach', 'ニャチャン・ビーチ', '시내를 따라 길게 이어진 해변 산책로입니다.', 'A long beach promenade running along the city.', '市内に沿って長く続くビーチの遊歩道です。'],
       ['뽀나가르 참탑', 'Po Nagar Cham Towers', 'ポーナガル塔', '참파 왕국 시대에 세운 붉은 벽돌 탑입니다.', 'Red-brick towers from the Champa kingdom.', 'チャンパ王国時代に建てられた赤レンガの塔です。'],
       ['섬 투어', 'Island tours', 'アイランドツアー', '배를 타고 주변 섬을 돌며 스노클링을 즐깁니다.', 'Boat trips around nearby islands for snorkelling.', '船で周辺の島を巡り、シュノーケリングを楽しみます。'],
+      ['빈원더스 나트랑', 'VinWonders Nha Trang', 'ヴィンワンダーズ・ニャチャン', '혼째섬에 있는 테마파크와 워터파크로, 바다를 건너는 케이블카나 배로 갑니다.', 'A theme and water park on Hon Tre island, reached across the bay.', 'ホンチェー島にあるテーマパーク兼ウォーターパークで、湾を渡って行きます。'],
     ],
     t: [
       ['나트랑 근교에는 탑바 등 진흙 온천 시설이 있어 시내 관광과 함께 둘러볼 수 있습니다.', 'Mud bath venues such as Thap Ba lie near Nha Trang and can be combined with city sightseeing.', 'ニャチャン近郊にはタップバーなどの泥温泉施設があり、市内観光と合わせて訪れられます。'],

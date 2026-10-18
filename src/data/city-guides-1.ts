@@ -15,6 +15,8 @@ export const NOTES_1: Record<string, Compact> = {
       ['콕토베 언덕', 'Kok Tobe', 'コクトベの丘', '케이블카로 올라가 알마티 시내와 톈산 산맥을 한눈에 내려다보는 전망 언덕입니다.', 'A hilltop reached by cable car with views over the city and the Tian Shan mountains.', 'ロープウェイで登り、市街と天山山脈を一望できる丘です。'],
       ['메데우·심불락', 'Medeu and Shymbulak', 'メデウ・シンブラク', '시내에서 차로 가까운 산악 지대. 고산 스케이트장과 스키장, 케이블카가 있습니다.', 'Mountain area close to the city with a high-altitude skating rink, ski resort and cable cars.', '市内から近い山岳エリア。高地のスケートリンクとスキー場、ロープウェイがあります。'],
       ['그린 바자르', 'Green Bazaar', 'グリーン・バザール', '말고기 소시지·건과일·꿀 등 카자흐 식재료가 모인 큰 실내 시장입니다.', 'A large covered market for Kazakh foods such as horse-meat sausage, dried fruit and honey.', '馬肉ソーセージやドライフルーツ、蜂蜜などカザフの食材が集まる大きな市場です。'],
+      ['빅 알마티 호수', 'Big Almaty Lake', 'ビッグ・アルマティ湖', '톈산산맥 속 해발 2,500m 가량의 청록색 호수로, 시내에서 차로 1시간 남짓입니다.', 'A turquoise lake at around 2,500 m in the Tian Shan, a little over an hour\'s drive from the city.', '天山山脈の標高約2,500mにある青緑色の湖で、市内から車で1時間あまりです。'],
+      ['차린 캐니언', 'Charyn Canyon', 'チャリン渓谷', '붉은 사암 협곡으로, \'성의 계곡\' 구간을 걷습니다. 알마티에서 당일 투어로 다녀옵니다.', 'A red sandstone canyon where you walk the \'Valley of Castles\'; a day trip from Almaty.', '赤い砂岩の渓谷で、「城の谷」を歩きます。アルマティから日帰りツアーで行けます。'],
     ],
     t: [
       ['알마티의 버스와 지하철을 이용할 때는 ONAY 교통카드를 사용할 수 있습니다.', 'You can use an ONAY transport card on Almaty\'s buses and metro.', 'アルマトイのバスと地下鉄では、交通カード「ONAY」を利用できます。'],
@@ -64,6 +66,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['우붓', 'Ubud', 'ウブド', '계단식 논과 왕궁, 전통 공연이 있는 발리 문화의 중심지입니다.', "Bali's cultural heart with rice terraces, a royal palace and traditional dance.", '棚田や王宮、伝統舞踊があるバリ文化の中心地です。'],
       ['울루와뚜 사원', 'Uluwatu Temple', 'ウルワトゥ寺院', '절벽 위 바다 사원. 해 질 녘 께짝 댄스 공연이 유명합니다.', 'A clifftop sea temple famous for its sunset Kecak dance.', '断崖の上の海の寺院。夕暮れのケチャダンスが有名です。'],
       ['따나롯 사원', 'Tanah Lot', 'タナロット寺院', '밀물 때 바다에 떠 있는 듯 보이는 바위 위 사원입니다.', 'A rock temple that seems to float on the sea at high tide.', '満潮時には海に浮かんで見える岩の上の寺院です。'],
+      ['바투르산', 'Mount Batur', 'バトゥール山', '이중 칼데라 안에 솟은 활화산으로, 유네스코 세계지질공원입니다. 새벽에 올라 해돋이를 보는 트레킹이 유명합니다.', 'An active volcano inside a double caldera, a UNESCO Global Geopark famous for pre-dawn sunrise treks.', '二重カルデラの中にそびえる活火山で、ユネスコ世界ジオパークです。夜明け前に登る日の出トレッキングが有名です。'],
     ],
     t: [
       ['사원에 들어갈 때는 사롱(허리에 두르는 천)을 둘러야 합니다. 입구에서 빌려주는 곳이 많습니다.', 'Wear a sarong to enter temples; many lend them at the entrance.', '寺院に入る際はサロン（腰布）が必要です。入口で貸してくれる所が多いです。'],
@@ -144,6 +147,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['쑤언흐엉 호수', 'Xuan Huong Lake', 'スアンフーン湖', '시내 한가운데 호수. 산책하거나 자전거를 타기 좋습니다.', 'The lake at the centre of town, good for walks and cycling.', '市の中心にある湖。散歩やサイクリングに向いています。'],
       ['달랏 야시장', 'Da Lat Night Market', 'ダラット・ナイトマーケット', '저녁이면 시장 주변에 길거리 음식 노점이 들어섭니다.', 'Street-food stalls gather around the market in the evening.', '夕方から市場周辺に屋台が並びます。'],
       ['크레이지 하우스', 'Crazy House', 'クレイジーハウス', '동화 속 나무집처럼 지은 독특한 건축물입니다.', 'A whimsical building designed like a fairy-tale tree house.', 'おとぎ話のツリーハウスのような独特の建物です。'],
+      ['다딴라 폭포', 'Datanla Waterfall', 'ダタンラの滝', '시내 남쪽 숲속 폭포로, 레일 썰매를 타고 내려갈 수 있습니다.', 'A forest waterfall south of town, reached by an alpine coaster.', '市の南の森の中にある滝で、ボブスレーで下っていけます。'],
     ],
     t: [
       ['고원 도시라 아침저녁이 쌀쌀합니다. 얇은 겉옷을 꼭 챙기세요.', 'It is a highland town with cool mornings and evenings; bring a light jacket.', '高原の街なので朝晩は肌寒いです。薄手の上着を必ず持参しましょう。'],
@@ -155,6 +159,8 @@ export const NOTES_1: Record<string, Compact> = {
       ['서문시장', 'Seomun Market', '西門市場', '대구에서 가장 큰 전통시장. 야시장이 열리는 날에는 먹거리 노점이 늘어섭니다.', "Daegu's biggest traditional market, with food stalls on night-market days.", '大邱最大の伝統市場。夜市の日には屋台が並びます。'],
       ['김광석 다시그리기길', 'Kim Kwang-seok Street', 'キム・グァンソク通り', '가수 김광석을 기리는 벽화 골목입니다.', 'A mural alley dedicated to the singer Kim Kwang-seok.', '歌手キム・グァンソクを記念した壁画の路地です。'],
       ['근대골목', 'Modern History Alleys', '近代路地', '청라언덕·계산성당 등 근대 건축물이 이어지는 도보 코스입니다.', 'A walking route past early-modern buildings such as Gyesan Cathedral.', '桂山聖堂など近代建築が続く散策コースです。'],
+      ['앞산전망대', 'Apsan Observatory', '前山展望台', '케이블카로 올라가 대구 시내를 360도로 내려다보는 전망대로, 야경 명소로 꼽힙니다.', 'Reached by cable car, with 360-degree views over Daegu; a favourite night-view spot.', 'ケーブルカーで上り、大邱市内を360度見渡せる展望台で、夜景の名所です。'],
+      ['팔공산 동화사', 'Donghwasa Temple, Palgongsan', '八公山・桐華寺', '대구 북쪽 팔공산 자락의 큰 절로, 단풍철에 특히 많이 찾습니다.', 'A large temple on the slopes of Palgongsan north of the city, busiest in autumn foliage season.', '大邱北部の八公山のふもとにある大きな寺で、紅葉の季節に特ににぎわいます。'],
     ],
     t: [
       ['여름이 특히 더운 도시로 알려져 있어, 7~8월에는 한낮 야외 일정을 줄이는 것이 좋습니다.', 'Daegu is known for very hot summers; keep midday outdoor plans light in July and August.', '夏が特に暑い街として知られるので、7〜8月は日中の屋外予定を控えめに。'],

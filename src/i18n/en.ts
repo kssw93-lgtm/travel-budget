@@ -2,7 +2,7 @@ import type { Messages } from './ko';
 
 export const en: Messages = {
   meta: {
-    title: 'Travel Budget Calculator — On-the-ground costs',
+    title: 'Travel Budget Calculator — Daily trip costs in 100+ cities',
     brand: 'Travel Budget Calculator',
     description: 'Pick a city, dates and travel style to see a min–max estimate of what you will spend on the ground.',
     aboutDescription: 'What the travel budget calculator shows, where its prices come from and how the site is run.',
@@ -122,7 +122,7 @@ export const en: Messages = {
     perDayShort: 'about {amount} per person per day',
     notComputable: 'More price data needed',
     title: '{city} travel cost guide',
-    metaTitle: '{city} travel costs, local prices & tips',
+    metaTitle: '{city} trip cost: daily budget, local prices & tips',
     metaDescription: 'Must-see spots, local tips, attraction prices and foods to try in {city}. Estimate your {city} trip budget with the calculator.',
     lead: 'Must-see spots, local tips, admission prices and foods to try in {city}. Price data as of {date}.',
     exampleTitle: 'Estimated local spending for 4 days / 3 nights (1 adult)',

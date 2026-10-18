@@ -1,0 +1,66 @@
+name: IndexNow
+
+# 배포가 끝나면 Bing(빙·덕덕고·야후·ChatGPT 검색)·네이버·Yandex에 사이트맵 주소를 알린다.
+# 사이트맵 내용이 바뀌었을 때만 보내고, 매주 월요일에는 바뀌지 않아도 한 번 보낸다.
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+    branches: [main]
+  schedule:
+    - cron: '17 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow
+  cancel-in-progress: true
+
+env:
+  HOST: howmuchthere.com
+  KEY: 9e17391cb792585709b0c44693675cb6
+
+jobs:
+  submit:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      # Cloudflare 배포가 끝날 때까지 기다린다
+      - name: Wait for deploy
+        if: github.event_name == 'workflow_run'
+        run: sleep 240
+
+      - name: Fetch sitemap and key
+        run: |
+          curl -fsS "https://$HOST/sitemap.xml" -o sitemap.xml
+          test "$(curl -fsS "https://$HOST/$KEY.txt")" = "$KEY"
+          echo "HASH=$(sha256sum sitemap.xml | cut -c1-16)" >> "$GITHUB_ENV"
+
+      - name: Skip if already sent
+        id: sent
+        if: github.event_name == 'workflow_run'
+        uses: actions/cache@v4
+        with:
+          path: sitemap.xml
+          key: indexnow-${{ env.HASH }}
+
+      - name: Submit
+        if: steps.sent.outputs.cache-hit != 'true'
+        run: |
+          python3 - <<'PY'
+          import json, os, re, urllib.request
+          host, key = os.environ['HOST'], os.environ['KEY']
+          urls = re.findall(r'<loc>([^<]+)</loc>', open('sitemap.xml', encoding='utf-8').read())
+          body = json.dumps({'host': host, 'key': key, 'keyLocation': f'https://{host}/{key}.txt', 'urlList': urls}).encode()
+          # api.indexnow.org 로 보내면 참여 검색엔진(Bing·네이버·Yandex·Seznam 등)이 함께 받는다
+          for endpoint in ['https://api.indexnow.org/indexnow']:
+              req = urllib.request.Request(endpoint, data=body, headers={'Content-Type': 'application/json; charset=utf-8'})
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      print(endpoint, r.status, len(urls), 'urls')
+              except Exception as e:
+                  print('::warning::', endpoint, e)
+          PY

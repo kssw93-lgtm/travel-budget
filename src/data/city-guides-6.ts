@@ -18,6 +18,8 @@ export const NOTES_6: Record<string, Compact> = {
       ['타이베이 101', 'Taipei 101', '台北101', '시내 어디서나 보이는 초고층 빌딩. 전망대와 거대한 댐퍼가 볼거리입니다.', 'The skyscraper visible across the city, with an observatory and giant damper ball.', '市内どこからでも見える超高層ビル。展望台と巨大なダンパーが見どころです。'],
       ['고궁박물원', 'National Palace Museum', '故宮博物院', '중국 황실 소장품을 모은 박물관입니다.', 'Treasures from the Chinese imperial collection.', '中国皇室の収蔵品を集めた博物館です。'],
       ['스린 야시장', 'Shilin Night Market', '士林夜市', '타이베이에서 가장 큰 야시장 중 하나입니다.', 'One of Taipei’s largest night markets.', '台北最大級の夜市の一つです。'],
+      ['중정기념당', 'Chiang Kai-shek Memorial Hall', '中正紀念堂', '흰 벽과 파란 지붕의 대형 기념관으로, 정시마다 열리는 위병 교대식을 볼 수 있습니다.', 'A vast white-and-blue memorial hall where the guard changes on the hour.', '白い壁と青い屋根の大きな記念堂で、毎正時に衛兵交代式が見られます。'],
+      ['룽산쓰(용산사)', 'Longshan Temple', '龍山寺', '1738년에 세워진 타이베이의 대표 사원으로, 현지인이 향을 올리며 기도하는 모습을 가까이서 볼 수 있습니다.', 'Taipei’s best-known temple, founded in 1738, where locals come to pray among the incense.', '1738年創建の台北を代表する寺院で、地元の人がお香を手に祈る姿を間近で見られます。'],
     ],
     t: [
       ['지하철(MRT) 안에서는 물을 포함해 먹고 마시는 것이 금지되어 벌금이 있습니다.', 'Eating and drinking, even water, is banned on the MRT and fined.', 'MRT車内では水も含め飲食禁止で、罰金があります。'],
@@ -29,6 +31,8 @@ export const NOTES_6: Record<string, Compact> = {
       ['가든스 바이 더 베이', 'Gardens by the Bay', 'ガーデンズ・バイ・ザ・ベイ', '해가 진 뒤 거대한 인공 나무(슈퍼트리) 숲에서 빛과 음악 쇼 「가든 랩소디」가 매일 무료로 열립니다.', 'After dusk the Supertree Grove hosts Garden Rhapsody, a free nightly light-and-sound show.', '日没後、スーパーツリー・グローブで光と音のショー「ガーデン・ラプソディ」が毎日無料で開かれます。'],
       ['마리나 베이', 'Marina Bay', 'マリーナ・ベイ', '마리나 베이 샌즈와 멀라이언 공원이 모인 항만 지역입니다.', 'The bay with Marina Bay Sands and the Merlion.', 'マリーナベイ・サンズとマーライオンが集まる湾岸エリアです。'],
       ['호커 센터', 'Hawker centres', 'ホーカーセンター', '치킨라이스·락사 등 싱가포르 음식을 저렴하게 맛볼 수 있는 음식점 구역입니다.', 'Hawker food halls for affordable Singaporean dishes such as chicken rice and laksa.', 'チキンライスやラクサなどシンガポール料理を手頃に味わえる屋台街です。'],
+      ['센토사 섬', 'Sentosa', 'セントーサ島', '해변과 테마파크, 수족관이 모인 리조트 섬으로 시내에서 모노레일·케이블카로 쉽게 갑니다.', 'A resort island of beaches, theme parks and an aquarium, reached easily by monorail or cable car.', 'ビーチやテーマパーク、水族館が集まるリゾートの島で、市内からモノレールやケーブルカーで気軽に行けます。'],
+      ['싱가포르 보타닉 가든', 'Singapore Botanic Gardens', 'シンガポール植物園', '유네스코 세계유산인 열대 식물원으로, 국립 난초 정원이 유명합니다.', 'A UNESCO-listed tropical garden best known for its National Orchid Garden.', '世界遺産の熱帯植物園で、国立ラン園が有名です。'],
     ],
     t: [
       ['호커 센터에서는 휴지 한 묶음을 자리에 올려 두면 자리를 맡았다는 표시입니다.', 'A packet of tissues on a hawker-centre seat means it is taken.', 'ホーカーセンターで席にティッシュを置くのは「席取り」の印です。'],

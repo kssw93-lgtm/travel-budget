@@ -18,6 +18,8 @@ export const NOTES_4: Record<string, Compact> = {
       ['오페라 하우스·하버 브리지', 'Opera House and Harbour Bridge', 'オペラハウスとハーバーブリッジ', '항구를 사이에 둔 시드니의 상징. 서큘러 키에서 둘 다 잘 보입니다.', "Sydney's twin icons across the harbour, both visible from Circular Quay.", '港を挟んだシドニーのシンボル。サーキュラー・キーから両方見えます。'],
       ['본다이~쿠지 해안 산책로', 'Bondi to Coogee coastal walk', 'ボンダイ〜クージー海岸遊歩道', '절벽과 해변을 따라 걷는 인기 해안길입니다.', 'A popular clifftop walk linking beaches.', '断崖とビーチ沿いを歩く人気の海岸の道です。'],
       ['맨리 페리', 'Manly Ferry', 'マンリー・フェリー', '시내에서 맨리 해변까지 항구를 가로지르는 페리. 오페라 하우스를 바다에서 볼 수 있습니다.', 'The ferry across the harbour to Manly, with great Opera House views.', '市内からマンリー・ビーチまで港を渡るフェリー。海からオペラハウスが見えます。'],
+      ['타롱가 동물원', 'Taronga Zoo', 'タロンガ動物園', '페리를 타고 가는 항구 언덕의 동물원으로, 코알라·캥거루 등 호주 동물과 시내 전망을 함께 봅니다.', 'A harbourside zoo reached by ferry, with koalas, kangaroos and city views.', 'フェリーで行く港の丘の動物園で、コアラやカンガルーなどオーストラリアの動物と市内の眺めを楽しめます。'],
+      ['블루마운틴 국립공원', 'Blue Mountains National Park', 'ブルーマウンテンズ国立公園', '기차로 당일 다녀올 수 있는 유네스코 세계유산 산악 지대로, 세 자매 봉이 유명합니다.', 'A UNESCO-listed mountain area within a day trip by train, famous for the Three Sisters.', '電車で日帰りできる世界遺産の山岳地帯で、スリー・シスターズが有名です。'],
     ],
     t: [
       ['교통은 비접촉 카드나 휴대폰으로 찍고 타면 되고, 일요일에는 하루 요금 상한이 낮아집니다.', 'Tap a contactless card or phone to ride; daily fare caps are lower on Sundays.', 'タッチ決済で乗車でき、日曜は1日の上限運賃が低くなります。'],
@@ -106,6 +108,8 @@ export const NOTES_4: Record<string, Compact> = {
       ['쇤브룬 궁전', 'Schönbrunn Palace', 'シェーンブルン宮殿', '합스부르크 왕가의 여름 궁전과 넓은 정원입니다.', 'The Habsburgs’ summer palace and vast gardens.', 'ハプスブルク家の夏の離宮と広大な庭園です。'],
       ['슈테판 대성당', "St Stephen's Cathedral", 'シュテファン大聖堂', '모자이크 지붕이 인상적인 빈 구시가지의 중심입니다.', 'The heart of the Old Town, with its striking tiled roof.', 'モザイク屋根が印象的な旧市街の中心です。'],
       ['벨베데레 궁전', 'Belvedere', 'ベルヴェデーレ宮殿', '클림트의 「키스」를 볼 수 있는 궁전 미술관입니다.', "A palace gallery home to Klimt's The Kiss.", 'クリムト「接吻」が見られる宮殿の美術館です。'],
+      ['빈 국립오페라극장', 'Vienna State Opera', 'ウィーン国立歌劇場', '세계적인 오페라극장으로, 공연이 없는 시간에는 극장 안내 투어로 내부를 볼 수 있습니다.', 'One of the world’s great opera houses; guided tours show the interior when there is no performance.', '世界有数のオペラハウスで、公演のない時間はガイドツアーで内部を見学できます。'],
+      ['알베르티나 미술관', 'Albertina', 'アルベルティーナ美術館', '합스부르크 궁전 건물의 미술관으로, 모네부터 피카소까지 근현대 명작을 볼 수 있습니다.', 'A Habsburg-palace museum with modern masterpieces from Monet to Picasso.', 'ハプスブルク家の宮殿にある美術館で、モネからピカソまで近現代の名作が見られます。'],
     ],
     t: [
       ['전통 카페(카페하우스)에서는 커피 한 잔으로 오래 앉아 있어도 괜찮은 문화입니다.', 'In traditional coffee houses it is fine to linger for hours over one coffee.', '伝統的なカフェハウスでは、コーヒー1杯で長居しても問題ない文化です。'],

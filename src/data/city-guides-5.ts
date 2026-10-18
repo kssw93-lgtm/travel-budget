@@ -7,6 +7,8 @@ export const NOTES_5: Record<string, Compact> = {
       ['경복궁', 'Gyeongbokgung Palace', '景福宮', '조선의 정궁. 한복을 입으면 고궁 입장이 무료입니다.', 'The main Joseon palace; entry is free if you wear hanbok.', '朝鮮王朝の正宮。韓服を着ると入場無料です。'],
       ['북촌 한옥마을', 'Bukchon Hanok Village', '北村韓屋村', '경복궁과 창덕궁 사이 언덕의 한옥 골목. 주민이 사는 곳이라 조용히 둘러봐야 합니다.', 'Hillside lanes of traditional houses where people live, so keep quiet.', '景福宮と昌徳宮の間の丘にある韓屋の路地。住民が暮らしているので静かに見学を。'],
       ['광장시장', 'Gwangjang Market', '広蔵市場', '빈대떡·마약김밥·육회 등 노점 먹거리로 유명한 오래된 시장입니다.', 'An old market famous for mung-bean pancakes, mini gimbap and yukhoe.', 'ピンデトックやミニキンパ、ユッケなど屋台グルメで有名な市場です。'],
+      ['N서울타워', 'N Seoul Tower', 'Nソウルタワー', '남산 꼭대기의 전망 타워로, 케이블카나 산책로로 올라 서울 야경을 볼 수 있습니다.', 'The lookout tower atop Namsan, reached by cable car or trail, for night views over Seoul.', '南山の頂上にある展望タワーで、ケーブルカーや散策路で上ってソウルの夜景を楽しめます。'],
+      ['국립중앙박물관', 'National Museum of Korea', '国立中央博物館', '선사시대부터 조선까지 한국 역사를 보여 주는 대형 박물관으로, 상설 전시는 무료입니다.', 'Korea’s largest museum, covering prehistory to the Joseon era; the permanent galleries are free.', '先史時代から朝鮮時代まで韓国の歴史を紹介する大規模な博物館で、常設展は無料です。'],
     ],
     t: [
       ['지하철·버스는 교통카드(티머니)로 갈아타면 환승 할인이 됩니다.', 'Transfers between subway and bus are discounted with a T-money card.', '地下鉄とバスはT-moneyカードで乗り換えると割引になります。'],
@@ -84,6 +86,8 @@ export const NOTES_5: Record<string, Compact> = {
       ['후시미 이나리 신사', 'Fushimi Inari Taisha', '伏見稲荷大社', '산길을 따라 붉은 도리이 수천 개가 이어진 신사입니다.', 'Thousands of red torii gates line the mountain paths.', '山道に沿って数千の朱色の鳥居が続く神社です。'],
       ['기요미즈데라', 'Kiyomizu-dera', '清水寺', '절벽 위 나무 무대에서 교토 시내가 내려다보이는 절입니다.', 'A temple whose wooden stage juts out over the hillside.', '崖の上の木造舞台から京都市内を見下ろす寺です。'],
       ['아라시야마 대나무숲', 'Arashiyama Bamboo Grove', '嵐山・竹林の小径', '키 큰 대나무 사이로 난 길. 아침 일찍 가면 한산합니다.', 'A path through towering bamboo, quiet early in the morning.', '背の高い竹林の中の小道。朝早く行くとすいています。'],
+      ['니조성', 'Nijo Castle', '二条城', '도쿠가와 쇼군의 교토 거처였던 성으로, 걸으면 새 울음소리가 나는 「꾀꼬리 마루」 복도가 유명합니다.', 'The Tokugawa shoguns’ Kyoto residence, famous for its “nightingale floors” that chirp underfoot.', '徳川将軍の京都での居城で、歩くと鳥の鳴き声のような音がする「うぐいす張り」の廊下で知られます。'],
+      ['긴카쿠지(은각사)', 'Ginkaku-ji (Silver Pavilion)', '銀閣寺', '모래로 만든 정원과 이끼 정원이 아름다운 선종 사찰로, 「철학의 길」 산책과 묶어 둘러보기 좋습니다.', 'A Zen temple with sculpted sand and moss gardens, best paired with a walk along the Philosopher’s Path.', '砂の造形と苔の庭が美しい禅寺で、「哲学の道」の散策と合わせて巡るのがおすすめです。'],
     ],
     t: [
       ['시내버스가 매우 붐비니 지하철·JR·게이한 등 철도를 섞어 다니면 빠릅니다.', 'City buses get packed; mixing in the subway and rail lines is faster.', '市バスはとても混むので、地下鉄やJR・京阪などの鉄道を組み合わせると速いです。'],
@@ -128,6 +132,8 @@ export const NOTES_5: Record<string, Compact> = {
       ['카를교', 'Charles Bridge', 'カレル橋', '성인 조각상이 늘어선 중세 돌다리. 이른 아침이 한산합니다.', 'The statue-lined medieval stone bridge, quietest early in the morning.', '聖人像が並ぶ中世の石橋。早朝がすいています。'],
       ['프라하 성', 'Prague Castle', 'プラハ城', '성 비투스 대성당과 황금소로가 있는 거대한 성 단지입니다.', 'A huge castle complex with St Vitus Cathedral and Golden Lane.', '聖ヴィート大聖堂と黄金の小路がある巨大な城です。'],
       ['구시가지 광장 천문시계', 'Old Town Square Astronomical Clock', '旧市街広場の天文時計', '매시 정각에 인형이 움직이는 중세 천문시계입니다.', 'The medieval clock whose figures move on the hour.', '毎正時に人形が動く中世の天文時計です。'],
+      ['비셰흐라드', 'Vyšehrad', 'ヴィシェフラド', '블타바강을 내려다보는 언덕 위 옛 요새로, 성당과 묘지, 강 전망이 있는 조용한 산책지입니다.', 'A quiet hilltop fortress above the Vltava with a basilica, cemetery and river views.', 'ヴルタヴァ川を見下ろす丘の上の古い城塞で、聖堂や墓地、川の眺めがある静かな散策地です。'],
+      ['국립박물관', 'National Museum', '国立博物館', '바츨라프 광장 끝에 선 웅장한 박물관 건물로, 체코의 자연과 역사를 전시합니다.', 'The grand museum at the top of Wenceslas Square, covering Czech nature and history.', 'ヴァーツラフ広場の端に建つ壮麗な博物館で、チェコの自然と歴史を展示しています。'],
     ],
     t: [
       ['체코 화폐는 코루나입니다. 환전소의 "수수료 0%" 문구보다 실제 환율을 확인하세요.', 'The currency is the koruna; check the actual rate rather than “0% commission” signs.', '通貨はコルナ。両替所の「手数料0%」より実際のレートを確認しましょう。'],

@@ -29,6 +29,8 @@ export const NOTES_3: Record<string, Compact> = {
       ['마리엔 광장', 'Marienplatz', 'マリエン広場', '신시청 시계탑의 인형극(글로켄슈필)이 정해진 시간에 움직입니다.', 'The New Town Hall’s Glockenspiel figures perform at set times.', '新市庁舎の仕掛け時計の人形が決まった時刻に動きます。'],
       ['호프브로이하우스', 'Hofbräuhaus', 'ホフブロイハウス', '1리터 맥주잔과 바이에른 음악으로 유명한 대형 맥주홀입니다.', 'The famous beer hall of litre steins and Bavarian bands.', '1リットルジョッキとバイエルン音楽で有名なビアホールです。'],
       ['영국 정원', 'English Garden', '英国庭園', '도심 속 큰 공원. 인공 수로에서 서핑하는 사람들을 볼 수 있습니다.', 'A huge city park where people surf a standing wave on the Eisbach.', '都心の大きな公園。人工水路でサーフィンする人が見られます。'],
+      ['님펜부르크 궁전', 'Nymphenburg Palace', 'ニンフェンブルク宮殿', '바이에른 왕가의 여름 궁전으로, 넓은 정원과 마차 박물관이 있습니다.', 'The Bavarian royals’ summer palace, with vast gardens and a carriage museum.', 'バイエルン王家の夏の宮殿で、広大な庭園と馬車博物館があります。'],
+      ['BMW 벨트', 'BMW Welt', 'BMWヴェルト', 'BMW의 전시·출고 센터로, 바로 옆 BMW 박물관과 함께 둘러볼 수 있습니다.', 'BMW’s showroom and delivery centre, next door to the BMW Museum.', 'BMWの展示・納車センターで、隣のBMW博物館と一緒に見学できます。'],
     ],
     t: [
       ['일요일과 공휴일에는 대부분의 상점이 문을 닫으니 쇼핑은 평일·토요일에 하세요.', 'Most shops close on Sundays and holidays; shop on weekdays or Saturday.', '日曜・祝日はほとんどの店が閉まるので、買い物は平日か土曜に。'],

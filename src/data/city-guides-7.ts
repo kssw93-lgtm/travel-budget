@@ -18,6 +18,8 @@ export const NOTES_7: Record<string, Compact> = {
       ['사그라다 파밀리아', 'Sagrada Família', 'サグラダ・ファミリア', '가우디의 미완성 성당. 시간 지정 예약을 해야 들어갈 수 있습니다.', "Gaudí's unfinished basilica; entry needs a timed booking.", 'ガウディの未完の聖堂。時間指定の予約が必要です。'],
       ['구엘 공원', 'Park Güell', 'グエル公園', '모자이크 벤치가 있는 가우디의 공원. 기념물 구역은 예약제입니다.', "Gaudí's park of mosaic benches; the monument zone is ticketed.", 'モザイクのベンチがあるガウディの公園。記念エリアは予約制です。'],
       ['고딕 지구·보케리아 시장', 'Gothic Quarter and La Boqueria', 'ゴシック地区・ボケリア市場', '중세 골목과 람블라스 거리의 시장이 이어집니다.', 'Medieval lanes and the market off La Rambla.', '中世の路地とランブラス通りの市場が続きます。'],
+      ['카사 바트요', 'Casa Batlló', 'カサ・バトリョ', '가우디가 고친 집으로, 뼈와 비늘을 닮은 외관과 빛이 들어오는 실내가 인상적입니다.', 'Gaudí’s remodelled house, with a bone-and-scale façade and light-filled interiors.', 'ガウディが改装した邸宅で、骨やうろこを思わせる外観と光あふれる室内が印象的です。'],
+      ['몬주익 언덕과 카탈루냐 미술관', 'Montjuïc and the National Art Museum of Catalonia', 'モンジュイックの丘とカタルーニャ美術館', '언덕 위 궁전 같은 미술관에 로마네스크 벽화가 모여 있고, 앞 계단에서 시내가 내려다보입니다.', 'A palatial hilltop museum of Romanesque murals, with city views from its front steps.', '丘の上の宮殿のような美術館にロマネスク壁画が集まり、正面の階段から市内を見渡せます。'],
     ],
     t: [
       ['람블라스 거리와 지하철에서는 소매치기가 많으니 가방을 앞으로 메세요.', 'Pickpockets work La Rambla and the metro; wear your bag in front.', 'ランブラス通りや地下鉄ではスリが多いので、バッグは前に。'],
@@ -29,6 +31,8 @@ export const NOTES_7: Record<string, Compact> = {
       ['콜로세움·포로 로마노', 'Colosseum and Roman Forum', 'コロッセオ・フォロ・ロマーノ', '고대 로마의 원형경기장과 광장 유적. 시간 지정 예약이 필요합니다.', 'The ancient arena and forum; timed tickets are required.', '古代ローマの円形闘技場と広場遺跡。時間指定予約が必要です。'],
       ['바티칸 박물관·시스티나 성당', 'Vatican Museums and Sistine Chapel', 'バチカン美術館・システィーナ礼拝堂', '미켈란젤로 천장화가 있는 박물관입니다.', "Michelangelo's ceiling in the Sistine Chapel.", 'ミケランジェロの天井画がある美術館です。'],
       ['트레비 분수', 'Trevi Fountain', 'トレビの泉', '동전을 던지면 로마에 다시 온다는 전설의 분수입니다.', 'Toss a coin to return to Rome, legend says.', 'コインを投げるとローマに再び来られるという伝説の泉です。'],
+      ['판테온', 'Pantheon', 'パンテオン', '2천 년 가까이 된 로마 신전으로, 돔 꼭대기의 둥근 구멍으로 빛이 들어옵니다.', 'A nearly 2,000-year-old Roman temple lit by the open oculus in its dome.', '2千年近い歴史を持つローマの神殿で、ドーム頂上の円い穴から光が差し込みます。'],
+      ['보르게세 미술관', 'Galleria Borghese', 'ボルゲーゼ美術館', '베르니니 조각과 카라바조 그림으로 유명한 미술관으로, 시간 지정 예약제입니다.', 'Famous for Bernini sculptures and Caravaggio paintings; entry is by timed reservation.', 'ベルニーニの彫刻とカラヴァッジョの絵画で知られる美術館で、時間指定の予約制です。'],
     ],
     t: [
       ['성당에 들어갈 때는 어깨와 무릎을 가려야 합니다.', 'Cover shoulders and knees to enter churches.', '教会に入る際は肩と膝を隠しましょう。'],
@@ -40,6 +44,8 @@ export const NOTES_7: Record<string, Compact> = {
       ['센트럴 파크', 'Central Park', 'セントラルパーク', '맨해튼 한가운데 큰 공원. 자전거를 빌려 한 바퀴 돌기 좋습니다.', 'The huge park in the middle of Manhattan, good by bike.', 'マンハッタンの真ん中の大きな公園。自転車で一周するのがおすすめです。'],
       ['메트로폴리탄 미술관', 'The Met', 'メトロポリタン美術館', '세계 최대급 미술관. 하루에 다 보기 어렵습니다.', 'One of the world’s largest art museums.', '世界最大級の美術館。1日では見きれません。'],
       ['자유의 여신상·스태튼 아일랜드 페리', 'Statue of Liberty and Staten Island Ferry', '自由の女神・スタテンアイランド・フェリー', '무료 페리에서 자유의 여신상과 맨해튼 스카이라인을 볼 수 있습니다.', 'The free ferry passes the Statue of Liberty and the skyline.', '無料のフェリーから自由の女神とマンハッタンの摩天楼が見えます。'],
+      ['하이라인', 'The High Line', 'ハイライン', '옛 고가 철로를 공원으로 바꾼 산책로로, 첼시 일대를 내려다보며 걷습니다.', 'A park built on an old elevated railway, walking above Chelsea.', '旧高架線路を公園にした遊歩道で、チェルシー一帯を見下ろしながら歩けます。'],
+      ['9/11 메모리얼', '9/11 Memorial & Museum', '9/11メモリアル＆ミュージアム', '세계무역센터 자리에 만든 추모 공간으로, 두 개의 거대한 사각 연못이 옛 빌딩 터를 표시합니다.', 'The memorial on the World Trade Center site, where two vast reflecting pools mark the towers’ footprints.', '世界貿易センター跡地の追悼施設で、二つの巨大な四角い池がビルの跡を示しています。'],
     ],
     t: [
       ['지하철은 비접촉 카드로 찍고 타며, 일주일 안에 일정 횟수를 넘기면 나머지는 무료입니다.', 'Tap a contactless card on the subway; after a set number of rides in a week, the rest are free.', '地下鉄はタッチ決済で乗れ、1週間で一定回数を超えると残りは無料です。'],
@@ -73,6 +79,8 @@ export const NOTES_7: Record<string, Compact> = {
       ['나카스 포장마차(야타이)', 'Nakasu yatai stalls', '中洲の屋台', '강변에 저녁마다 라멘·꼬치 포장마차가 섭니다.', 'Riverside food stalls serving ramen and skewers every evening.', '川沿いに毎晩ラーメンや串焼きの屋台が並びます。'],
       ['다자이후 덴만구', 'Dazaifu Tenmangu', '太宰府天満宮', '학문의 신을 모신 신사. 매화떡(우메가에모치)이 명물입니다.', 'The shrine to the god of learning, known for umegae-mochi.', '学問の神様を祀る神社。梅ヶ枝餅が名物です。'],
       ['캐널시티 하카타', 'Canal City Hakata', 'キャナルシティ博多', '운하가 흐르는 복합 쇼핑몰. 분수 쇼가 열립니다.', 'A shopping complex built around a canal, with fountain shows.', '運河が流れる複合商業施設。噴水ショーがあります。'],
+      ['오호리 공원', 'Ohori Park', '大濠公園', '큰 연못 둘레를 따라 산책로가 이어진 공원으로, 현지인이 조깅과 산책을 즐기는 곳입니다.', 'A park with a walking loop around a large pond, beloved by locals for jogging and strolls.', '大きな池の周りに散策路が続く公園で、地元の人のジョギングや散歩の場です。'],
+      ['후쿠오카 타워', 'Fukuoka Tower', '福岡タワー', '바닷가에 선 234m 타워로, 전망대에서 하카타만과 시내 야경을 볼 수 있습니다.', 'A 234 m seaside tower with views over Hakata Bay and the city lights.', '海辺に建つ234mのタワーで、展望室から博多湾と市内の夜景が見られます。'],
     ],
     t: [
       ['공항에서 시내(하카타역)까지 지하철로 몇 정거장이라 이동이 매우 빠릅니다.', 'The airport is only a few subway stops from Hakata Station.', '空港から博多駅まで地下鉄で数駅と、とても近いです。'],
@@ -84,6 +92,8 @@ export const NOTES_7: Record<string, Compact> = {
       ['빅토리아 피크', 'Victoria Peak', 'ヴィクトリア・ピーク', '피크 트램으로 올라 항구와 마천루 전경을 봅니다.', 'Ride the Peak Tram for harbour and skyline views.', 'ピークトラムで上り、港と摩天楼を一望します。'],
       ['스타페리·침사추이', 'Star Ferry and Tsim Sha Tsui', 'スターフェリー・尖沙咀', '오래된 페리로 항구를 건너고, 저녁 심포니 오브 라이트를 봅니다.', 'Cross the harbour on the old ferry and watch the evening Symphony of Lights.', '昔ながらのフェリーで港を渡り、夜のシンフォニー・オブ・ライツを見ます。'],
       ['몽콕 야시장', 'Mong Kok markets', '旺角のマーケット', '레이디스 마켓 등 거리 시장이 모인 번화가입니다.', 'Busy district of street markets like the Ladies’ Market.', '女人街など路上市場が集まる繁華街です。'],
+      ['옹핑 360·톈탄 대불', 'Ngong Ping 360 and the Big Buddha', '昂坪360・天壇大仏', '케이블카를 타고 란터우섬 산 위로 올라가 거대한 청동 좌불과 포린 사원을 봅니다.', 'Ride the cable car up Lantau Island to the giant bronze Buddha and Po Lin Monastery.', 'ケーブルカーでランタオ島の山上へ上り、巨大な青銅の大仏と宝蓮禅寺を訪ねます。'],
+      ['M+ 미술관', 'M+ museum', 'M+（エムプラス）美術館', '서구룡 문화지구의 현대 시각 문화 미술관으로, 빅토리아 하버 전망이 좋습니다.', 'West Kowloon’s museum of contemporary visual culture, with fine views over Victoria Harbour.', '西九龍文化地区にある現代ビジュアル文化の美術館で、ビクトリア・ハーバーの眺めも見事です。'],
     ],
     t: [
       ['교통카드(옥토퍼스)로 지하철·버스·페리와 편의점 결제까지 할 수 있습니다.', 'An Octopus card works on MTR, buses, ferries and in convenience stores.', 'オクトパスカードで地下鉄・バス・フェリーやコンビニの支払いができます。'],
@@ -106,6 +116,8 @@ export const NOTES_7: Record<string, Compact> = {
       ['오도리 공원', 'Odori Park', '大通公園', '2월 눈축제의 주 무대인 시내 중심 공원입니다.', 'The central park that hosts the February Snow Festival.', '2月の雪まつりのメイン会場となる市中心の公園です。'],
       ['니조 시장', 'Nijo Market', '二条市場', '해산물 덮밥과 털게 등 홋카이도 해산물을 맛보는 시장입니다.', 'A market for Hokkaido seafood bowls and hairy crab.', '海鮮丼や毛ガニなど北海道の海の幸を味わえる市場です。'],
       ['오타루 운하', 'Otaru Canal', '小樽運河', '기차로 가까운 운하 도시. 유리 공예와 오르골 가게가 많습니다.', 'A nearby canal town known for glasswork and music boxes.', '電車で近い運河の町。ガラス工芸とオルゴールの店が多いです。'],
+      ['모이와산 로프웨이', 'Mt. Moiwa Ropeway', 'もいわ山ロープウェイ', '로프웨이와 미니 케이블카로 정상에 올라 삿포로 시내 야경을 내려다봅니다.', 'Ropeway and mini cable car to the summit for a night view over Sapporo.', 'ロープウェイとミニケーブルカーで山頂へ上り、札幌の夜景を見下ろせます。'],
+      ['시로이 코이비토 파크', 'Shiroi Koibito Park', '白い恋人パーク', '홋카이도 대표 과자 「시로이 코이비토」 공장 견학과 과자 만들기 체험을 할 수 있는 곳입니다.', 'The factory park of Hokkaido’s famous Shiroi Koibito biscuits, with tours and baking workshops.', '北海道を代表するお菓子「白い恋人」の工場見学やお菓子作り体験ができます。'],
     ],
     t: [
       ['겨울에는 길이 매우 미끄러우니 미끄럼 방지 신발이나 덧신을 준비하세요.', 'Winter sidewalks are icy; wear non-slip shoes or grips.', '冬は道がとても滑るので、滑り止め付きの靴を用意しましょう。'],

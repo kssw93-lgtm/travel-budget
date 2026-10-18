@@ -800,6 +800,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "ottawa",
+    "country": "캐나다",
+    "countryEn": "Canada",
+    "nameKo": "오타와",
+    "nameEn": "Ottawa",
+    "currency": "CAD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "sokcho",
     "country": "한국",
     "countryEn": "South Korea",

@@ -380,4 +380,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['6~11월은 허리케인 시즌이니 여행 전 날씨 예보를 꼭 확인하세요.', 'June–November is hurricane season; check the forecast before you go.', '6〜11月はハリケーンの季節なので、旅行前に天気予報を必ず確認しましょう。'],
   },
+  ottawa: {
+    p: [
+      ['5~6월', 'May–June', '5〜6月', '튤립이 피고 운하 산책을 즐기기 좋은 계절입니다.', 'Tulips bloom and the canal paths are perfect for walking.', 'チューリップが咲き、運河沿いの散策を楽しめる季節です。'],
+      ['1~2월', 'January–February', '1〜2月', '리도 운하가 스케이트장으로 바뀌고, 얼음 위에서 비버테일을 먹는 것이 오타와식입니다.', 'The Rideau Canal Skateway opens — eat a BeaverTail on skates, Ottawa-style.', 'リドー運河がスケートリンクになり、氷の上でビーバーテイルを食べるのがオタワ流です。'],
+    ],
+    x: ['국립미술관은 매주 목요일 오후 5~8시에 무료로 입장할 수 있습니다.', 'The National Gallery is free every Thursday from 5 to 8 p.m.', '国立美術館は毎週木曜の17〜20時に無料で入場できます。'],
+  },
 };

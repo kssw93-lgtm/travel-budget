@@ -762,4 +762,15 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: RTA 202번 공항 급행버스를 타면 다운타운까지 가며, 요금은 일반 버스와 같은 1.25달러입니다.', 'Airport to city: RTA Airport Express route 202 runs downtown for the regular $1.25 fare.', '空港から市内へ：RTAの202番空港急行バスでダウンタウンまで行け、運賃は通常のバスと同じ1.25ドルです。'],
     ],
   },
+  ottawa: {
+    h: [
+      ['캐나다 역사박물관', 'Canadian Museum of History', 'カナダ歴史博物館', '오타와강 건너편에 있는 박물관으로, 원주민 토템 기둥이 늘어선 그랜드 홀이 유명합니다.', 'Across the Ottawa River, famed for its Grand Hall of Indigenous totem poles.', 'オタワ川の対岸にある博物館で、先住民のトーテムポールが並ぶグランドホールが有名です。'],
+      ['캐나다 국립미술관', 'National Gallery of Canada', 'カナダ国立美術館', '거대한 거미 조각 ‘마망’이 있는 유리 건물의 미술관으로, 11세 이하는 무료입니다.', 'The glass gallery guarded by the giant spider sculpture Maman; children 11 and under are free.', '巨大なクモの彫刻「ママン」がいるガラス張りの美術館で、11歳以下は無料です。'],
+      ['비버테일', 'BeaverTails', 'ビーバーテイル', '1979년 바이워드 마켓에서 시작된 비버 꼬리 모양 튀긴 빵으로, 계피 설탕 맛이 기본입니다.', 'The beaver-tail-shaped fried pastry born in the ByWard Market in 1979; cinnamon sugar is the classic.', '1979年にバイワード・マーケットで生まれたビーバーの尾の形の揚げパンで、シナモンシュガー味が定番です。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 HST(13%)와 팁이 빠져 있습니다. 팁은 15~18%가 일반적입니다.', 'Menu prices exclude 13% HST and tip; a 15–18% tip is usual.', '飲食店のメニュー価格にはHST（13%）とチップが含まれていません。チップは15〜18%が一般的です。'],
+      ['공항에서 시내: O-트레인 4호선으로 사우스 키스역까지 간 뒤 2호선으로 갈아타 시내로 갑니다. 일반 1회 요금으로 환승 시간 안에 이어서 탈 수 있습니다.', 'Airport to city: take O-Train Line 4 to South Keys and change to Line 2; the regular single fare covers the transfer.', '空港から市内へ：Oトレイン4号線でサウス・キーズ駅まで行き、2号線に乗り換えます。通常の1回運賃で乗り換え時間内なら続けて乗れます。'],
+    ],
+  },
 };

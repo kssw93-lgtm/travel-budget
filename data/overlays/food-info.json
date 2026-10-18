@@ -5062,5 +5062,20 @@
     "ko": "튀긴 해산물이나 로스트 비프를 바게트에 끼운 샌드위치",
     "en": "Sandwich of fried seafood or roast beef on French bread",
     "ja": "揚げた魚介やローストビーフをフランスパンに挟んだサンドイッチ"
+  },
+  "ottawa:BeaverTails": {
+    "ko": "비버 꼬리 모양으로 길게 늘여 튀긴 빵에 설탕·초콜릿 등을 얹은 간식",
+    "en": "Stretched fried pastry topped with cinnamon sugar or chocolate",
+    "ja": "ビーバーの尾の形に伸ばして揚げたパンに砂糖やチョコをのせたおやつ"
+  },
+  "ottawa:Poutine": {
+    "ko": "감자튀김에 치즈 커드와 그레이비를 얹은 캐나다 음식",
+    "en": "Fries with cheese curds and gravy",
+    "ja": "フライドポテトにチーズカードとグレイビーをかけたカナダ料理"
+  },
+  "ottawa:Smoked Meat Poutine": {
+    "ko": "몬트리올식 훈제 소고기를 얹은 푸틴",
+    "en": "Poutine topped with Montréal-style smoked meat",
+    "ja": "モントリオール風スモークミートをのせたプーティン"
   }
 }

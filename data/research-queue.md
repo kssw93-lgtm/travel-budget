@@ -165,6 +165,8 @@
 | 필라델피아 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 뉴올리언스 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 뉴올리언스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 오타와 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 오타와 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 속초 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 통영 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 대구 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1032,6 +1034,10 @@
 | MSY-TR-001 | 뉴올리언스 | RTA 버스·노면전차 1회 | 1.25 USD | A | 예 | 재검증 | [New Orleans RTA](https://www.norta.com/ride-with-us/how-to-pay/fares) |
 | MSY-AT-001 | 뉴올리언스 | 국립 2차 세계대전 박물관 (성인) | 37 USD | A | 예 | 재검증 | [The National WWII Museum](https://www.nationalww2museum.org/visit/plan-your-visit) |
 | MSY-AT-002 | 뉴올리언스 | 국립 2차 세계대전 박물관 (학생) | 27 USD | A | 예 | 재검증 | [The National WWII Museum](https://www.nationalww2museum.org/visit/plan-your-visit) |
+| YOW-TR-001 | 오타와 | OC 트랜스포 1회(카드 탭~현금) | 4.1~4.15 CAD | A | 예 | 재검증 | [OC Transpo](https://www.octranspo.com/en/fares/costs/) |
+| YOW-AT-001 | 오타와 | 캐나다 역사박물관 (성인, 세금 별도) | 25 CAD | A | 예 | 재검증 | [Canadian Museum of History](https://www.historymuseum.ca/plan-your-visit) |
+| YOW-AT-002 | 오타와 | 캐나다 역사박물관 (아동, 세금 별도) | 18 CAD | A | 예 | 재검증 | [Canadian Museum of History](https://www.historymuseum.ca/plan-your-visit) |
+| YOW-AT-003 | 오타와 | 캐나다 국립미술관 (성인, 세금 별도) | 22 CAD | A | 예 | 재검증 | [National Gallery of Canada](https://www.gallery.ca/visit/admission) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

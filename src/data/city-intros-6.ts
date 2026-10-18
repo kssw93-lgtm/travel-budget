@@ -470,4 +470,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['웨어하우스 디스트릭트', 'Warehouse District', 'ウェアハウス・ディストリクト', '2차 세계대전 박물관과 가깝고, 공항버스 정류장이 있는 다운타운 쪽입니다.', 'Near the WWII Museum and the downtown airport-bus stops.', '第二次世界大戦博物館に近く、空港バスの乗り場があるダウンタウン側です。'],
     ],
   },
+  ottawa: {
+    o: ['캐나다의 수도로, 언덕 위 고딕 양식의 국회의사당과 세계유산 리도 운하가 도시를 가로지릅니다. 국립미술관과 역사박물관 등 국립 박물관이 모여 있고, 겨울에는 운하가 거대한 스케이트장이 됩니다.', 'Canada’s capital, crowned by the Gothic Parliament buildings and crossed by the UNESCO-listed Rideau Canal; home to national museums and galleries, with the canal becoming a giant skating rink in winter.', 'カナダの首都で、丘の上のゴシック様式の国会議事堂と世界遺産リドー運河が街を彩ります。国立美術館や歴史博物館など国立の博物館が集まり、冬には運河が巨大なスケートリンクになります。'],
+    d: [2, 3],
+    s: [
+      ['바이워드 마켓 주변', 'ByWard Market', 'バイワード・マーケット周辺', '식당과 바, 원조 비버테일 가게가 모인 지역으로, 국회의사당까지 걸어갈 수 있습니다.', 'Restaurants, bars and the original BeaverTails stand, a walk from Parliament.', '飲食店やバー、元祖ビーバーテイルの店が集まる地区で、国会議事堂まで歩いて行けます。'],
+      ['다운타운(센트럴)', 'Downtown (Centretown)', 'ダウンタウン（セントラル）', 'O-트레인 역이 가깝고 국회의사당과 운하에 접근하기 쉽습니다.', 'Close to O-Train stations, Parliament and the canal.', 'Oトレインの駅に近く、国会議事堂や運河へ行きやすいです。'],
+    ],
+  },
 };

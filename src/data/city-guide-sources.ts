@@ -1079,4 +1079,9 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'new-orleans:h3': 'https://www.norta.com/ride-with-us/how-to-pay/fares',
   'new-orleans:t1': 'https://nola.gov/sales-tax-rate/',
   'new-orleans:t2': 'https://www.norta.com/RTA/media/RTABusPDFSchedules/route_202.pdf',
+  'ottawa:h1': 'https://www.historymuseum.ca/plan-your-visit',
+  'ottawa:h2': 'https://www.gallery.ca/visit/admission',
+  'ottawa:h3': 'https://ottawatourism.ca/en/see-and-do/beavertails',
+  'ottawa:t1': 'https://www.ontario.ca/document/harmonized-sales-tax-hst',
+  'ottawa:t2': 'https://www.octranspo.com/en/our-services/o-train-network/line-4/',
 };

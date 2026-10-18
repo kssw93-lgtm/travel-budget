@@ -8616,6 +8616,60 @@
     "note": "Claude 초안(2026-10-11)"
   },
   {
+    "cityId": "ottawa",
+    "nameKo": "비버테일",
+    "nameEn": "BeaverTails",
+    "reason": "비버 꼬리 모양으로 길게 늘여 튀긴 빵에 설탕·초콜릿 등을 얹은 간식",
+    "reasonEn": "Stretched fried pastry topped with cinnamon sugar or chocolate",
+    "desc": {
+      "ko": "비버 꼬리 모양으로 길게 늘여 튀긴 빵에 설탕·초콜릿 등을 얹은 간식",
+      "en": "Stretched fried pastry topped with cinnamon sugar or chocolate",
+      "ja": "ビーバーの尾の形に伸ばして揚げたパンに砂糖やチョコをのせたおやつ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Ottawa Tourism",
+    "recommendUrl": "https://ottawatourism.ca/en/see-and-do/beavertails",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "ottawa",
+    "nameKo": "푸틴",
+    "nameEn": "Poutine",
+    "reason": "감자튀김에 치즈 커드와 그레이비를 얹은 캐나다 음식",
+    "reasonEn": "Fries with cheese curds and gravy",
+    "desc": {
+      "ko": "감자튀김에 치즈 커드와 그레이비를 얹은 캐나다 음식",
+      "en": "Fries with cheese curds and gravy",
+      "ja": "フライドポテトにチーズカードとグレイビーをかけたカナダ料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Ottawa Tourism",
+    "recommendUrl": "https://ottawatourism.ca/en/ottawa-insider/ottawas-best-late-night-bites",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "ottawa",
+    "nameKo": "스모크드 미트 푸틴",
+    "nameEn": "Smoked Meat Poutine",
+    "reason": "몬트리올식 훈제 소고기를 얹은 푸틴",
+    "reasonEn": "Poutine topped with Montréal-style smoked meat",
+    "desc": {
+      "ko": "몬트리올식 훈제 소고기를 얹은 푸틴",
+      "en": "Poutine topped with Montréal-style smoked meat",
+      "ja": "モントリオール風スモークミートをのせたプーティン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Ottawa Tourism",
+    "recommendUrl": "https://ottawatourism.ca/en/ottawa-insider/ottawas-best-late-night-bites",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "pattaya",
     "nameKo": "호목",
     "nameEn": "Ho Mok",

@@ -2183,6 +2183,34 @@
     "missing": [],
     "computable": true
   },
+  "ottawa": {
+    "counts": {
+      "food": 8,
+      "transport": 1,
+      "attraction": 2
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 8,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 8,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "sokcho": {
     "counts": {
       "food": 43,

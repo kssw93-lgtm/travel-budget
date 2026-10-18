@@ -421,4 +421,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'new-orleans:p1': 'https://www.neworleans.com/blog/post/25-dishes-to-eat-in-new-orleans-in-2025/',
   'new-orleans:p2': 'https://www.neworleans.com/things-to-do/ultimate-new-orleans-bucket-list/',
   'new-orleans:x': 'https://www.neworleans.com/things-to-do/ultimate-new-orleans-bucket-list/',
+  'ottawa:p1': 'https://ottawatourism.ca/en/see-and-do/beavertails',
+  'ottawa:p2': 'https://ottawatourism.ca/en/see-and-do/beavertails',
+  'ottawa:x': 'https://www.gallery.ca/visit/admission',
 };

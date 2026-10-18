@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+캐나다,오타와,비버테일,BeaverTails,비버 꼬리 모양으로 길게 늘여 튀긴 빵에 설탕·초콜릿 등을 얹은 간식,저,,대기,Ottawa Tourism,https://ottawatourism.ca/en/see-and-do/beavertails,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+캐나다,오타와,푸틴,Poutine,감자튀김에 치즈 커드와 그레이비를 얹은 캐나다 음식,저,,대기,Ottawa Tourism,https://ottawatourism.ca/en/ottawa-insider/ottawas-best-late-night-bites,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+캐나다,오타와,스모크드 미트 푸틴,Smoked Meat Poutine,몬트리올식 훈제 소고기를 얹은 푸틴,저,,대기,Ottawa Tourism,https://ottawatourism.ca/en/ottawa-insider/ottawas-best-late-night-bites,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

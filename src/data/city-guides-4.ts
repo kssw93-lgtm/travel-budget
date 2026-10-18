@@ -142,6 +142,8 @@ export const NOTES_4: Record<string, Compact> = {
       ['무릉원 국가삼림공원', 'Zhangjiajie National Forest Park', '張家界国家森林公園', '영화 「아바타」의 배경으로 알려진 기둥 모양 바위산이 모인 곳입니다.', 'Towering sandstone pillars known as the inspiration for Avatar.', '映画「アバター」のモデルとされる柱状の岩山が集まる場所です。'],
       ['톈먼산', 'Tianmen Mountain', '天門山', '긴 케이블카와 절벽 잔도, 거대한 하늘의 문(천문동)이 있는 산입니다.', 'A mountain with a very long cable car, cliff walkways and the great arch of Heaven’s Gate.', '長いロープウェイと断崖の桟道、巨大な天門洞がある山です。'],
       ['바이룽 엘리베이터', 'Bailong Elevator', '百龍エレベーター', '절벽에 붙여 지은 야외 엘리베이터로 숲 공원 위로 올라갑니다.', 'An outdoor elevator on the cliff face up into the forest park.', '崖に取り付けた屋外エレベーターで森林公園の上へ上がります。'],
+      ['황룡동', 'Huanglong Cave Scenic Area', '黄龍洞景区', '자연 돔과 종유석·석순이 이어지는 석회암 동굴을 도보와 유람선으로 둘러봅니다.', 'Explore a karst cave of natural domes, stalactites and stalagmites on foot and by sightseeing boat.', '自然のドームや鍾乳石・石筍が広がる鍾乳洞を、遊歩道や遊覧船で巡ります。'],
+      ['보봉호', 'Baofeng Lake Scenic Area', '宝峰湖景区', '산과 절벽, 폭포에 둘러싸인 호수에서 유람선을 타며 풍경을 감상합니다.', 'Take a boat across a lake framed by mountains, cliffs and waterfalls.', '山や断崖、滝に囲まれた湖を遊覧船で巡り、景色を楽しめます。'],
     ],
     t: [
       ['산 정상부는 안개가 자주 끼어, 전망이 좋은 날을 고르려면 일정에 여유를 두세요.', 'The peaks are often misty; leave slack in your plans for a clear day.', '山頂部は霧が多いので、眺めのいい日を選べるよう日程に余裕を。'],

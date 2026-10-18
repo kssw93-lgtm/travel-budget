@@ -86,7 +86,9 @@ export const NOTES_3: Record<string, Compact> = {
     h: [
       ['푸껫 올드타운', 'Phuket Old Town', 'プーケット・オールドタウン', '파스텔색 시노-포르투갈 건물이 늘어선 옛 거리입니다.', 'Streets of pastel Sino-Portuguese shophouses.', 'パステルカラーの中国ポルトガル様式の建物が並ぶ旧市街です。'],
       ['빅 붓다', 'Big Buddha', 'ビッグ・ブッダ', '언덕 위 대형 불상. 섬 남쪽 바다가 내려다보입니다.', 'A giant hilltop Buddha with views over the south of the island.', '丘の上の大仏。島の南の海が見渡せます。'],
-      ['피피섬·팡아만', 'Phi Phi Islands and Phang Nga Bay', 'ピピ諸島・パンガー湾', '보트로 찾는 두 지역의 석회암 절벽과 바다 풍경을 즐길 수 있습니다.', 'Travel by boat to enjoy their limestone cliffs and seascapes.', '船で訪れ、石灰岩の断崖と海の景色を楽しめます。'],
+      ['피피섬', 'Phi Phi Islands', 'ピピ諸島', '석회암 절벽과 해변, 스노클링·다이빙으로 알려진 안다만해의 섬들입니다.', 'Andaman Sea islands known for limestone cliffs, beaches, snorkeling and diving.', '石灰岩の断崖やビーチ、シュノーケリング・ダイビングで知られるアンダマン海の島々です。'],
+      ['왓 찰롱', 'Wat Chalong', 'ワット・チャロン', '푸껫 주민의 신앙과 루앙포 참의 역사를 볼 수 있는 섬의 대표 사원입니다.', 'A leading Phuket temple associated with local Buddhist faith and the history of Luang Pho Chaem.', 'プーケットの人々の信仰とルアンポー・チャムの歴史にゆかりのある代表的な寺院です。'],
+      ['프롬텝 곶', 'Laem Phromthep', 'プロムテープ岬', '섬 남쪽 끝의 곶과 등대에서 바다 경관과 일몰을 볼 수 있습니다.', 'A southern headland with sea views, a lighthouse exhibition and a popular sunset viewpoint.', '島の南端にある岬と灯台から海の景色や夕日を楽しめます。'],
     ],
     t: [
       ['5~10월은 우기로 서쪽 해변 파도가 높아지는 날이 있으니 붉은 깃발이 꽂히면 수영을 피하세요.', 'May to October is the wet season; avoid swimming when red flags are up on the west coast.', '5〜10月は雨季で西側の波が高くなる日があるので、赤旗が立ったら泳がないでください。'],
@@ -99,6 +101,8 @@ export const NOTES_3: Record<string, Compact> = {
       ['칭다오 맥주박물관', 'Tsingtao Beer Museum', '青島ビール博物館', '옛 양조장 건물에서 맥주 역사를 보고 갓 뽑은 맥주를 맛봅니다.', 'Brewery history in the original buildings, with fresh beer to taste.', '昔の醸造所でビールの歴史を見て、できたてのビールを味わえます。'],
       ['잔차오 잔교', 'Zhanqiao Pier', '桟橋', '바다로 길게 뻗은 부두로 칭다오의 상징입니다.', 'The long pier reaching into the sea, a symbol of the city.', '海に長く延びる桟橋で、青島のシンボルです。'],
       ['바다관 별장 거리', 'Badaguan', '八大関', '유럽풍 별장이 늘어선 나무 그늘 거리입니다.', 'Tree-lined streets of European-style villas.', 'ヨーロッパ風の別荘が並ぶ並木道です。'],
+      ['라오산 양커우 풍경구', 'Laoshan Yangkou Scenic Spot', '崂山・仰口風景区', '바다와 맞닿은 산자락에 궁전과 해변, 케이블카 전망 코스가 있습니다.', 'A coastal section of Mount Lao with a Taoist palace, beach and cable-car route to cliff scenery.', '海沿いの崂山にある景勝地で、宮殿や海水浴場、ロープウェイからの断崖景観を楽しめます。'],
+      ['칭다오 올림픽 요트 경기장', 'Qingdao Olympic Sailing Center', '青島オリンピックセーリングセンター', '2008년 올림픽 요트 경기가 열렸던 바다와 항구 시설을 따라 산책하기 좋습니다.', 'A waterfront sailing venue built for the 2008 Olympics, with piers and a broad marina setting.', '2008年オリンピックのセーリング会場となった海辺の施設で、桟橋やマリーナを散策できます。'],
     ],
     t: [
       ['칭다오 국제맥주축제에 맞춰 간다면 공식 개최 날짜와 회장을 확인한 뒤 숙소를 미리 예약하세요.', 'If visiting for the Qingdao International Beer Festival, check the official dates and venue, then book accommodation in advance.', '青島国際ビール祭りに合わせて行くなら、公式の開催日と会場を確認し、宿泊先を早めに予約しましょう。'],

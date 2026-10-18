@@ -47,5 +47,11 @@
     "vitest": "^2.1.9",
     "wrangler": "^4.146.0",
     "xlsx": "^0.18.5"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "esbuild@0.21.5": true,
+    "esbuild@0.28.1": true,
+    "workerd@1.20261001.1": true
   }
 }

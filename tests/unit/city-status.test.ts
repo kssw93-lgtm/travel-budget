@@ -1,4 +1,5 @@
 import { readFileSync } from 'node:fs';
+import * as XLSX from 'xlsx';
 import { describe, expect, it } from 'vitest';
 import { classify } from '../../src/core/classify';
 import { cityStatus, estimateTrip } from '../../src/core/estimate';
@@ -10,6 +11,23 @@ import { cities, cityById, cityStatusFile, samples } from '../../src/data';
  * 상태가 달라졌다면 아래 고정값과 달라 실패한다 → 변화를 확인한 뒤 `npm run status:update` 로 갱신.
  */
 describe('파일럿 도시 데이터 상태', () => {
+  it('엑셀 조회일은 UTC 변환으로 하루 앞당겨지지 않고 셀 표시값을 보존한다', () => {
+    const latest = JSON.parse(readFileSync('data/source/latest.json', 'utf8')) as { file: string };
+    const workbook = XLSX.read(readFileSync(`data/source/${latest.file}`), { type: 'buffer', cellDates: true });
+    const sheet = workbook.Sheets['가격 표본']!;
+    const grid = XLSX.utils.sheet_to_json<unknown[]>(sheet, { header: 1, raw: true, defval: '' });
+    const headerAt = grid.findIndex((row) => row[0] === 'ID');
+    const headers = grid[headerAt] as string[];
+    const idCol = headers.indexOf('ID');
+    const checkedAtCol = headers.indexOf('조회일');
+    const rowIndex = grid.findIndex((row, index) => index > headerAt && row[idCol] === 'TYO-TR-001');
+    const range = XLSX.utils.decode_range(sheet['!ref']!);
+    const visibleDate = sheet[XLSX.utils.encode_cell({ r: range.s.r + rowIndex, c: range.s.c + checkedAtCol })]?.w;
+
+    expect(rowIndex).toBeGreaterThan(headerAt);
+    expect(samples.find((sample) => sample.id === 'TYO-TR-001')?.checkedAt).toBe(visibleDate);
+  });
+
   it('status.json 은 현재 가격 표본으로 다시 계산한 판정과 같다(변환 누락 방지)', () => {
     const live = Object.fromEntries(cities.map((c) => [c.id, cityStatus(c, samples)]));
     expect(cityStatusFile).toEqual(live);

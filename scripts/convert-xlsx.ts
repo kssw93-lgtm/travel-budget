@@ -74,18 +74,28 @@ function readTable(wb: XLSX.WorkBook, sheetName: string, anchor: string, optiona
   const ws = wb.Sheets[sheetName];
   if (!ws) throw new Error(`시트 '${sheetName}'가 없습니다.`);
   const grid = XLSX.utils.sheet_to_json<unknown[]>(ws, { header: 1, raw: true, defval: '' });
+  const sheetRange = XLSX.utils.decode_range(ws['!ref'] ?? 'A1');
   const headerAt = grid.findIndex((row) => text(row[0]) === anchor);
   if (headerAt < 0) throw new Error(`시트 '${sheetName}'에서 머리글 '${anchor}'를 찾지 못했습니다.`);
   const cols = new Map<string, number>();
   (grid[headerAt] as unknown[]).forEach((h, c) => cols.set(text(h), c));
   return grid
     .slice(headerAt + 1)
-    .filter((row) => text(row[0]) !== '')
-    .map((row) => (h: string) => {
+    .map((row, index) => ({ row, index }))
+    .filter(({ row }) => text(row[0]) !== '')
+    .map(({ row, index }) => (h: string) => {
       const c = cols.get(h);
       if (c === undefined && optional.includes(h)) return '';
       if (c === undefined) throw new Error(`시트 '${sheetName}'에 '${h}' 열이 없습니다.`);
-      return text(row[c]);
+      const value = row[c];
+      if (value instanceof Date) {
+        // xlsx의 Date는 UTC로 정규화되며 ISO 변환 시 서울 날짜가 하루 전으로 바뀔 수 있다.
+        // 엑셀에 표시되는 문자열(cell.w)을 우선해 조회일 원문을 보존한다.
+        const cell = ws[XLSX.utils.encode_cell({ r: sheetRange.s.r + headerAt + 1 + index, c: sheetRange.s.c + c })];
+        if (cell?.w) return String(cell.w).trim();
+        return '';
+      }
+      return text(value);
     });
 }
 

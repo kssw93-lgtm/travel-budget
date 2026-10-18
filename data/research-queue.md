@@ -222,6 +222,10 @@
 | 피닉스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 샌안토니오 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 샌안토니오 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 바스 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 바스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 요크 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 요크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 타이중 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 코타키나발루 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 장가계 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1196,6 +1200,12 @@
 | VRN-TR-001 | 베로나 | ATV 베로나 시내버스 1회권(90분) | 1.5~2 EUR | A | 예 | 재검증 | [ATV Verona](https://www.atv.verona.it/tickets/verona) |
 | VRN-AT-001 | 베로나 | 아레나 디 베로나 (성인) | 12 EUR | A | 예 | 재검증 | [Musei Civici di Verona](https://museomaffeiano.comune.verona.it/nqcontent.cfm?a_id=69387) |
 | VRN-AT-002 | 베로나 | 아레나 디 베로나 (14세 미만 무료) | 0 EUR | A | 예 | 재검증 | [Musei Civici di Verona](https://museomaffeiano.comune.verona.it/nqcontent.cfm?a_id=69387) |
+| BTH-TR-001 | 바스 | 퍼스트 바스 시내버스 1회 | 2.6 GBP | A | 예 | 재검증 | [First Bus](https://www.firstbus.co.uk/bristol-bath-and-west/tickets/upcoming-fare-changes) |
+| BTH-AT-001 | 바스 | 로마 목욕탕 (성인, 사전 예약) | 26.5~29 GBP | A | 예 | 재검증 | [The Roman Baths](https://www.romanbaths.co.uk/tickets/2026-09-september) |
+| BTH-AT-002 | 바스 | 로마 목욕탕 (아동, 사전 예약) | 19.5~22 GBP | A | 예 | 재검증 | [The Roman Baths](https://www.romanbaths.co.uk/tickets/2026-09-september) |
+| YRK-TR-001 | 요크 | 퍼스트 요크 버스 1회(탭 온·탭 오프) | 1.5~3 GBP | A | 예 | 재검증 | [First Bus](https://www.firstbus.co.uk/york/tickets/tap-tap) |
+| YRK-AT-001 | 요크 | 요크 민스터 (성인) | 20 GBP | A | 예 | 재검증 | [York Minster](https://yorkminster.org/visit/plan-your-visit/) |
+| YRK-AT-002 | 요크 | 요크 민스터 (17세 이하 무료) | 0 GBP | A | 예 | 재검증 | [York Minster](https://yorkminster.org/visit/plan-your-visit/) |
 | GRX-TR-001 | 그라나다 | 그라나다 시내버스 1회권 | 1.6 EUR | A | 예 | 재검증 | [Turismo de Granada](https://turismo.granada.org/es/bus-urbano) |
 | GRX-AT-001 | 그라나다 | 알람브라 일반 입장(낮) (성인) | 21~22.27 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://tickets.alhambra-patronato.es/producto/alhambra-general/) |
 | GRX-AT-002 | 그라나다 | 알람브라 (아동) | 0 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://www.alhambra-patronato.es/notas-prensa/la-alhambra-actualiza-sus-tarifas-en-agosto) |

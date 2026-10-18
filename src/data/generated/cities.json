@@ -1120,6 +1120,26 @@
     "stage": "파일럿"
   },
   {
+    "id": "bath",
+    "country": "영국",
+    "countryEn": "United Kingdom",
+    "nameKo": "바스",
+    "nameEn": "Bath",
+    "currency": "GBP",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "york",
+    "country": "영국",
+    "countryEn": "United Kingdom",
+    "nameKo": "요크",
+    "nameEn": "York",
+    "currency": "GBP",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "nara",
     "country": "일본",
     "countryEn": "Japan",

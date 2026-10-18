@@ -3079,6 +3079,62 @@
     "missing": [],
     "computable": true
   },
+  "bath": {
+    "counts": {
+      "food": 15,
+      "transport": 1,
+      "attraction": 1
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 15,
+      "snack": 7,
+      "drink": 9,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 16,
+      "snack": 7,
+      "drink": 9,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "york": {
+    "counts": {
+      "food": 15,
+      "transport": 1,
+      "attraction": 1
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 15,
+      "snack": 7,
+      "drink": 9,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 16,
+      "snack": 7,
+      "drink": 9,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "taichung": {
     "counts": {
       "food": 5,

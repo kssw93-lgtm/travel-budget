@@ -5242,5 +5242,35 @@
     "ko": "구운 고기와 채소를 토르티야에 싸 먹는 텍스멕스 요리",
     "en": "Grilled meat and peppers wrapped in tortillas",
     "ja": "焼いた肉と野菜をトルティーヤで包んで食べるテクスメクス料理"
+  },
+  "bath:Sally Lunn Bun": {
+    "ko": "가볍고 부드러운 브리오슈 스타일의 바스 명물 빵",
+    "en": "Light, brioche-style bun, Bath’s famous delicacy",
+    "ja": "軽くて柔らかいブリオッシュ風のバース名物のパン"
+  },
+  "bath:Bath Bun": {
+    "ko": "건포도와 설탕을 얹은 달콤한 빵",
+    "en": "Sweet yeast bun with currants and sugar on top",
+    "ja": "干しぶどうと砂糖をのせた甘いパン"
+  },
+  "bath:Bath Soft Cheese": {
+    "ko": "바스 근교에서 만드는 부드러운 치즈",
+    "en": "Soft cheese made near Bath",
+    "ja": "バース近郊で作られる柔らかいチーズ"
+  },
+  "york:Yorkshire Fat Rascal": {
+    "ko": "건포도와 체리, 아몬드를 얹은 큼직한 스콘 과자",
+    "en": "Large fruity scone-like bun with cherries and almonds",
+    "ja": "干しぶどうやチェリー、アーモンドをのせた大きなスコーン風の焼き菓子"
+  },
+  "york:Afternoon Tea": {
+    "ko": "전통 찻집에서 즐기는 영국식 오후 차",
+    "en": "Traditional English afternoon tea",
+    "ja": "伝統的なティールームで楽しむイギリス式のティータイム"
+  },
+  "york:Yorkshire Pudding": {
+    "ko": "로스트 고기와 그레이비에 곁들이는 부풀린 구운 반죽",
+    "en": "Puffed baked batter served with roast meat and gravy",
+    "ja": "ローストした肉とグレイビーに添える、膨らませて焼いた生地"
   }
 }

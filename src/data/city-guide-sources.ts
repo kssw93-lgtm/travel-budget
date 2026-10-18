@@ -1132,4 +1132,12 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'san-antonio:h2': 'https://nps.gov/saan/planyourvisit/fees.htm',
   'san-antonio:h3': 'https://www.visitsanantonio.com/blog/post/a-first-timers-guide-to-eating-your-way-through-san-antonio/',
   'san-antonio:t1': 'https://comptroller.texas.gov/taxes/sales/quarterly-updates/jan-2026.php',
+  'bath:h1': 'https://www.romanbaths.co.uk/tickets/2026-09-september',
+  'bath:h2': 'https://www.visitbath.co.uk/food-and-drink/sally-lunns-historic-eating-house-p29431',
+  'bath:h3': 'https://www.visitbath.co.uk/blog/read/2026/08/experience-afternoon-tea-in-bath-b26',
+  'bath:t1': 'https://travelwest.info/tickets-travelcards/bus-fares/first-in-bristol-bath-the-west/',
+  'york:h1': 'https://yorkminster.org/visit/plan-your-visit/',
+  'york:h2': 'https://visityork.org/business-directory/bettys-cafe-tea-rooms',
+  'york:h3': 'https://visityork.org/media/media-visits/taste-of-york',
+  'york:t1': 'https://www.firstbus.co.uk/york/tickets/tap-tap',
 };

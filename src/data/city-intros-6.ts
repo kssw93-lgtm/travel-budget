@@ -566,4 +566,20 @@ export const INTROS_6: Record<string, Intro> = {
       ['펄 지구', 'Pearl District', 'パール地区', '옛 맥주 공장을 개조한 지역으로, 식당과 주말 농산물 시장이 있습니다.', 'A converted brewery district with restaurants and a weekend farmers market.', 'かつてのビール工場を改装した地区で、飲食店や週末のファーマーズマーケットがあります。'],
     ],
   },
+  bath: {
+    o: ['잉글랜드 남서부의 온천 도시로, 도시 전체가 유네스코 세계유산입니다. 2,000년 전 로마인이 지은 목욕탕과 꿀빛 석재로 지은 조지 왕조 시대 건물이 어우러지며, 런던에서 기차로 약 1시간 반 걸립니다.', 'A spa city in south-west England whose entire centre is a UNESCO World Heritage Site, combining 2,000-year-old Roman baths with honey-coloured Georgian architecture; about 1.5 hours by train from London.', 'イングランド南西部の温泉の街で、街全体がユネスコ世界遺産です。2,000年前にローマ人が造った浴場と、はちみつ色の石で建てられたジョージ王朝時代の建物が調和し、ロンドンから列車で約1時間半です。'],
+    d: [1, 2],
+    s: [
+      ['시티 센터', 'City Centre', 'シティ・センター', '로마 목욕탕과 바스 수도원, 기차역이 모두 걸어서 닿습니다.', 'The Roman Baths, the Abbey and the station are all walkable.', 'ローマ浴場やバース寺院、駅がすべて歩いて行ける距離です。'],
+      ['로열 크레센트 주변', 'Around the Royal Crescent', 'ロイヤル・クレセント周辺', '초승달 모양의 18세기 연립주택이 있는 우아한 주택가입니다.', 'The elegant area of the crescent-shaped 18th-century terrace.', '三日月形の18世紀の連続住宅がある優雅な住宅街です。'],
+    ],
+  },
+  york: {
+    o: ['잉글랜드 북부의 중세 도시로, 시내를 둘러싼 성벽과 거대한 고딕 성당 요크 민스터, 좁은 골목 섐블스가 남아 있습니다. 로마·바이킹 시대부터 이어진 역사와 전통 찻집으로 유명하며, 런던에서 기차로 약 2시간 걸립니다.', 'A medieval city in northern England, ringed by walls, crowned by the great Gothic York Minster and threaded with the narrow Shambles; famous for history from Roman and Viking times and its traditional tea rooms, about two hours by train from London.', 'イングランド北部の中世の街で、市内を囲む城壁や巨大なゴシック大聖堂ヨーク・ミンスター、狭い路地シャンブルズが残ります。ローマ・ヴァイキング時代から続く歴史と伝統的なティールームで有名で、ロンドンから列車で約2時間です。'],
+    d: [1, 2],
+    s: [
+      ['성벽 안 구시가지', 'Inside the city walls', '城壁内の旧市街', '요크 민스터와 섐블스가 걸어서 닿는 중심지입니다.', 'The heart of town, a walk from York Minster and the Shambles.', 'ヨーク・ミンスターやシャンブルズへ歩いて行ける中心地です。'],
+      ['기차역 주변', 'Around York Station', 'ヨーク駅周辺', '국립철도박물관이 가깝고 런던·에든버러행 기차가 서는 곳입니다.', 'Near the National Railway Museum, on the London–Edinburgh line.', '国立鉄道博物館に近く、ロンドンやエディンバラ行きの列車が停まります。'],
+    ],
+  },
 };

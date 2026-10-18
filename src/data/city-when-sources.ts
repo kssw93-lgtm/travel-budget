@@ -451,4 +451,8 @@ export const WHEN_SOURCES: Record<string, string> = {
   'san-antonio:p1': 'https://nps.gov/saan/planyourvisit/fees.htm',
   'san-antonio:p2': 'https://www.visitsanantonio.com/blog/post/a-first-timers-guide-to-eating-your-way-through-san-antonio/',
   'san-antonio:x': 'https://www.thealamo.org/visit/calendar/alamo-free-timed-entry',
+  'bath:p1': 'https://www.visitbath.co.uk/food-and-drink/local-specialities-and-produce',
+  'bath:x': 'https://www.romanbaths.co.uk/tickets/2026-09-september',
+  'york:p1': 'https://visityork.org/media/media-visits/taste-of-york',
+  'york:x': 'https://yorkminster.org/visit/plan-your-visit/',
 };

@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+영국,바스,샐리 런 번,Sally Lunn Bun,가볍고 부드러운 브리오슈 스타일의 바스 명물 빵,저,,대기,Visit Bath,https://www.visitbath.co.uk/food-and-drink/sally-lunns-historic-eating-house-p29431,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+영국,바스,바스 번,Bath Bun,건포도와 설탕을 얹은 달콤한 빵,저,,대기,Visit Bath,https://www.visitbath.co.uk/food-and-drink/local-specialities-and-produce,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+영국,바스,바스 소프트 치즈,Bath Soft Cheese,바스 근교에서 만드는 부드러운 치즈,중,,대기,Visit Bath,https://www.visitbath.co.uk/food-and-drink/local-specialities-and-produce,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

@@ -2079,6 +2079,60 @@
     "note": "공식 관광청 안내 기준(Claude 2026-10-17)"
   },
   {
+    "cityId": "bath",
+    "nameKo": "샐리 런 번",
+    "nameEn": "Sally Lunn Bun",
+    "reason": "가볍고 부드러운 브리오슈 스타일의 바스 명물 빵",
+    "reasonEn": "Light, brioche-style bun, Bath’s famous delicacy",
+    "desc": {
+      "ko": "가볍고 부드러운 브리오슈 스타일의 바스 명물 빵",
+      "en": "Light, brioche-style bun, Bath’s famous delicacy",
+      "ja": "軽くて柔らかいブリオッシュ風のバース名物のパン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Bath",
+    "recommendUrl": "https://www.visitbath.co.uk/food-and-drink/sally-lunns-historic-eating-house-p29431",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "bath",
+    "nameKo": "바스 번",
+    "nameEn": "Bath Bun",
+    "reason": "건포도와 설탕을 얹은 달콤한 빵",
+    "reasonEn": "Sweet yeast bun with currants and sugar on top",
+    "desc": {
+      "ko": "건포도와 설탕을 얹은 달콤한 빵",
+      "en": "Sweet yeast bun with currants and sugar on top",
+      "ja": "干しぶどうと砂糖をのせた甘いパン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Bath",
+    "recommendUrl": "https://www.visitbath.co.uk/food-and-drink/local-specialities-and-produce",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "bath",
+    "nameKo": "바스 소프트 치즈",
+    "nameEn": "Bath Soft Cheese",
+    "reason": "바스 근교에서 만드는 부드러운 치즈",
+    "reasonEn": "Soft cheese made near Bath",
+    "desc": {
+      "ko": "바스 근교에서 만드는 부드러운 치즈",
+      "en": "Soft cheese made near Bath",
+      "ja": "バース近郊で作られる柔らかいチーズ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Bath",
+    "recommendUrl": "https://www.visitbath.co.uk/food-and-drink/local-specialities-and-produce",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "beijing",
     "nameKo": "베이징 카오야",
     "nameEn": "Peking Duck",
@@ -12564,6 +12618,60 @@
     "recommendSource": "Yeosu City Tourism — Yeosu 10 Tastes",
     "recommendUrl": "https://www.yeosu.go.kr/tour/lodge_food/10tastes/seodaehoe",
     "note": "Claude 초안(2026-10-11)"
+  },
+  {
+    "cityId": "york",
+    "nameKo": "요크셔 팻 래스컬",
+    "nameEn": "Yorkshire Fat Rascal",
+    "reason": "건포도와 체리, 아몬드를 얹은 큼직한 스콘 과자",
+    "reasonEn": "Large fruity scone-like bun with cherries and almonds",
+    "desc": {
+      "ko": "건포도와 체리, 아몬드를 얹은 큼직한 스콘 과자",
+      "en": "Large fruity scone-like bun with cherries and almonds",
+      "ja": "干しぶどうやチェリー、アーモンドをのせた大きなスコーン風の焼き菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit York",
+    "recommendUrl": "https://visityork.org/business-directory/bettys-cafe-tea-rooms",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "york",
+    "nameKo": "애프터눈 티",
+    "nameEn": "Afternoon Tea",
+    "reason": "전통 찻집에서 즐기는 영국식 오후 차",
+    "reasonEn": "Traditional English afternoon tea",
+    "desc": {
+      "ko": "전통 찻집에서 즐기는 영국식 오후 차",
+      "en": "Traditional English afternoon tea",
+      "ja": "伝統的なティールームで楽しむイギリス式のティータイム"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit York",
+    "recommendUrl": "https://visityork.org/media/media-visits/taste-of-york",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "york",
+    "nameKo": "요크셔 푸딩",
+    "nameEn": "Yorkshire Pudding",
+    "reason": "로스트 고기와 그레이비에 곁들이는 부풀린 구운 반죽",
+    "reasonEn": "Puffed baked batter served with roast meat and gravy",
+    "desc": {
+      "ko": "로스트 고기와 그레이비에 곁들이는 부풀린 구운 반죽",
+      "en": "Puffed baked batter served with roast meat and gravy",
+      "ja": "ローストした肉とグレイビーに添える、膨らませて焼いた生地"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit York",
+    "recommendUrl": "https://visityork.org/business-directory/the-york-roast-co-stonegate",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
     "cityId": "zagreb",

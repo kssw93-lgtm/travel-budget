@@ -887,4 +887,24 @@ export const NOTES_9: Record<string, Compact> = {
       ['식당 메뉴 가격에는 세금(8.25%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다. 공항에서 시내까지는 VIA 5번 버스가 다닙니다.', 'Menu prices exclude 8.25% sales tax and tip (18–20% usual). VIA route 5 links the airport and downtown.', '飲食店のメニュー価格には税（8.25%）とチップが含まれていません。チップは18〜20%が一般的です。空港から市内へはVIAの5番バスが走っています。'],
     ],
   },
+  bath: {
+    h: [
+      ['로마 목욕탕', 'The Roman Baths', 'ローマ浴場', '2,000년 전 로마인이 온천 위에 지은 목욕탕 유적으로, 6세 미만은 무료입니다.', 'Roman bathing complex built over hot springs 2,000 years ago; under-sixes are free.', '2,000年前にローマ人が温泉の上に造った浴場の遺跡で、6歳未満は無料です。'],
+      ['샐리 런 번', 'Sally Lunn bun', 'サリー・ラン・バン', '바스에서 가장 오래된 건물 중 하나에서 파는 브리오슈 같은 큰 빵입니다.', 'A light, brioche-style bun served in one of Bath’s oldest houses.', 'バースで最も古い建物の一つで出される、ブリオッシュのような大きなパンです。'],
+      ['애프터눈 티', 'Afternoon tea', 'アフタヌーンティー', '조지 왕조 시대 분위기의 찻집과 호텔에서 애프터눈 티를 즐길 수 있습니다.', 'Afternoon tea in Georgian tea rooms and hotels.', 'ジョージ王朝時代の雰囲気の喫茶店やホテルでアフタヌーンティーを楽しめます。'],
+    ],
+    t: [
+      ['시내버스는 어디서 타고 내리든 같은 요금(1회 2.60파운드)입니다. 가까운 공항은 브리스틀 공항입니다.', 'City buses are a flat fare across the Bath zone (£2.60 single); the nearest airport is Bristol.', '市内バスはどこで乗り降りしても同じ運賃（1回2.60ポンド）です。最寄りの空港はブリストル空港です。'],
+    ],
+  },
+  york: {
+    h: [
+      ['요크 민스터', 'York Minster', 'ヨーク・ミンスター', '북유럽 최대급의 고딕 성당으로, 17세 이하는 보호자 동반 시 무료입니다. 중앙 탑에 오르려면 따로 표가 필요합니다.', 'One of northern Europe’s largest Gothic cathedrals; under-18s go free with a paying adult, and the Central Tower costs extra.', '北ヨーロッパ最大級のゴシック大聖堂で、17歳以下は有料の大人と一緒なら無料です。中央塔に登るには別のチケットが必要です。'],
+      ['베티스 카페 티 룸', 'Bettys Café Tea Rooms', 'ベティーズ・カフェ・ティールーム', '1919년 문을 연 찻집으로, 요크셔 팻 래스컬과 애프터눈 티가 유명합니다.', 'Tea rooms founded in 1919, famous for the Yorkshire Fat Rascal and afternoon tea.', '1919年創業のティールームで、ヨークシャー・ファット・ラスカルやアフタヌーンティーが有名です。'],
+      ['성벽 산책', 'City walls walk', '城壁の散策', '시내를 둘러싼 중세 성벽 위를 걸으며 구시가지를 내려다볼 수 있습니다.', 'Walk the medieval walls for views over the old town.', '市内を囲む中世の城壁の上を歩き、旧市街を見下ろせます。'],
+    ],
+    t: [
+      ['퍼스트 요크 버스는 카드를 탈 때와 내릴 때 찍으면 거리에 따라 1.50~3파운드가 나오고, 하루 최대 6파운드까지만 청구됩니다.', 'First York buses use tap-on, tap-off: singles cost £1.50–£3.00 by distance, capped at £6 a day.', 'ファースト・ヨークのバスは乗車時と降車時にカードをタッチする方式で、距離に応じて1.50〜3ポンド、1日最大6ポンドまでしか請求されません。'],
+    ],
+  },
 };

@@ -458,4 +458,16 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['알라모 교회는 무료지만 무료 시간 지정권을 미리 예약해야 합니다.', 'The Alamo Church is free, but you must reserve a free timed ticket in advance.', 'アラモ教会は無料ですが、無料の時間指定券を事前に予約する必要があります。'],
   },
+  bath: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '도시 산책과 근교 코츠월드 여행을 함께 하기 좋습니다.', 'Ideal for city walks combined with trips to the Cotswolds.', '街歩きと近郊のコッツウォルズ旅行を組み合わせやすい時期です。'],
+    ],
+    x: ['로마 목욕탕은 주말 요금이 평일보다 비싸니, 평일 사전 예약이 가장 저렴합니다.', 'Roman Baths tickets cost more at weekends; a weekday advance booking is cheapest.', 'ローマ浴場は週末料金が平日より高いので、平日の事前予約が最も安くなります。'],
+  },
+  york: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '성벽 위 산책과 골목 탐방을 즐기기 좋은 계절이며, 9월에는 음식 축제가 열립니다.', 'Great for walking the walls and lanes, with a food festival in September.', '城壁の上の散策や路地巡りを楽しめる季節で、9月には食の祭りが開かれます。'],
+    ],
+    x: ['요크 민스터 입장권은 12개월 동안 유효하니, 다시 방문할 계획이면 버리지 마세요.', 'York Minster tickets are valid for 12 months — keep yours if you plan to return.', 'ヨーク・ミンスターの入場券は12か月有効なので、再訪する予定があれば捨てずに持っておきましょう。'],
+  },
 };

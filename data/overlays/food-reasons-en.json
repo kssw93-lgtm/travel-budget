@@ -484,5 +484,11 @@
   "toronto:Poutine": "Fries topped with cheese curds and gravy",
   "chicago:Deep-Dish Pizza": "Bowl-shaped crust filled with cheese, tomato sauce and toppings",
   "chicago:Italian Beef": "Thin-sliced roast beef in a jus-soaked roll with spicy giardiniera",
-  "chicago:Chicago-Style Hot Dog": "All-beef frank on a poppy-seed bun with mustard, onion, relish, pickle and tomato — no ketchup"
+  "chicago:Chicago-Style Hot Dog": "All-beef frank on a poppy-seed bun with mustard, onion, relish, pickle and tomato — no ketchup",
+  "montreal:Montréal Bagel": "Small, sweet bagel boiled in honey water and wood-fired",
+  "montreal:Smoked Meat Sandwich": "Spice-cured smoked beef piled on rye bread",
+  "montreal:Poutine": "Fries with cheese curds and gravy, a Québec classic",
+  "seattle:Dungeness Crab": "Washington’s native crab with a delicate, sweet taste",
+  "seattle:Clam Chowder": "Creamy clam soup, a Pike Place Market favourite",
+  "seattle:Grilled Wild Salmon": "Wild Pacific Northwest salmon, grilled"
 }

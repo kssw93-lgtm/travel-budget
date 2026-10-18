@@ -318,4 +318,20 @@ export const INTROS_6: Record<string, Intro> = {
       ['리버 노스·매그니피선트 마일', 'River North / Magnificent Mile', 'リバー・ノース・マグニフィセント・マイル', '식당과 쇼핑가가 모인 지역으로, 시카고강 건축 크루즈 출발지와 가깝습니다.', 'Restaurants and shopping, close to the river architecture cruises.', '飲食店やショッピング街が集まる地区で、シカゴ川の建築クルーズ乗り場に近いです。'],
     ],
   },
+  montreal: {
+    o: ['프랑스어를 쓰는 퀘벡주 최대 도시로, 돌길이 깔린 구시가지와 노트르담 대성당에서 유럽 분위기를 느낄 수 있습니다. 베이글·훈제 고기·푸틴 같은 먹거리로도 유명합니다.', 'Québec’s largest, French-speaking city, with a cobbled Old Montréal and Notre-Dame Basilica that feel European; famous too for bagels, smoked meat and poutine.', 'フランス語圏のケベック州最大の都市で、石畳の旧市街やノートルダム大聖堂にヨーロッパの雰囲気が漂います。ベーグルやスモークミート、プーティンなどの食べ物でも有名です。'],
+    d: [3, 4],
+    s: [
+      ['구시가지(비유 몽레알)', 'Old Montréal (Vieux-Montréal)', '旧市街（ヴュー・モンレアル）', '노트르담 대성당과 옛 항구가 걸어서 닿는 역사 지구입니다.', 'The historic quarter, a walk from Notre-Dame Basilica and the Old Port.', 'ノートルダム大聖堂や旧港へ歩いて行ける歴史地区です。'],
+      ['다운타운·플라토', 'Downtown / Plateau', 'ダウンタウン・プラトー', '지하철역이 많고, 플라토 지구에는 베이글 가게와 카페가 모여 있습니다.', 'Well served by the métro; the Plateau is full of bagel shops and cafés.', '地下鉄駅が多く、プラトー地区にはベーグル店やカフェが集まっています。'],
+    ],
+  },
+  seattle: {
+    o: ['미국 서북부의 항구 도시로, 스페이스 니들과 파이크 플레이스 마켓이 상징입니다. 바다와 호수, 레이니어 산에 둘러싸여 있고 커피 문화와 해산물로 유명합니다.', 'The Pacific Northwest’s harbour city, symbolised by the Space Needle and Pike Place Market; ringed by water and Mount Rainier, and known for coffee and seafood.', 'アメリカ北西部の港町で、スペース・ニードルとパイク・プレイス・マーケットがシンボルです。海と湖、レーニア山に囲まれ、コーヒー文化と海産物で知られています。'],
+    d: [3, 4],
+    s: [
+      ['다운타운·파이크 플레이스 주변', 'Downtown / Pike Place', 'ダウンタウン・パイク・プレイス周辺', '마켓과 해안가가 걸어서 닿고, 공항 경전철역이 가깝습니다.', 'A walk to the market and waterfront, near light-rail stations to the airport.', 'マーケットや海沿いへ歩いて行け、空港へのライトレール駅も近いです。'],
+      ['사우스 레이크 유니언·시애틀 센터 주변', 'South Lake Union / Seattle Center', 'サウス・レイク・ユニオン・シアトル・センター周辺', '스페이스 니들과 치훌리 가든 앤드 글라스가 가깝습니다.', 'Close to the Space Needle and Chihuly Garden and Glass.', 'スペース・ニードルやチフーリ・ガーデン・アンド・グラスに近いです。'],
+    ],
+  },
 };

@@ -98,6 +98,10 @@
 | 토론토 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 시카고 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 시카고 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 몬트리올 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 몬트리올 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 시애틀 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 시애틀 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 마카오 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 마카오 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 호놀룰루 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1026,6 +1030,13 @@
 | CHI-AT-001 | 시카고 | 스카이덱 시카고 (성인) | 32 USD | A | 예 | 재검증 | [Skydeck Chicago](https://theskydeck.com/tickets-shop/general-pricing/) |
 | CHI-AT-002 | 시카고 | 스카이덱 시카고 (아동) | 24 USD | A | 예 | 재검증 | [Skydeck Chicago](https://theskydeck.com/tickets-shop/general-pricing/) |
 | CHI-AT-003 | 시카고 | 시카고 미술관 (14세 미만 무료) | 0 USD | A | 예 | 재검증 | [Art Institute of Chicago](https://www.artic.edu/visit/free-admission-opportunities) |
+| MTL-TR-001 | 몬트리올 | STM 1회권(지하철·버스) | 3.75 CAD | A | 예 | 재검증 | [STM](https://www.stm.info/en/info/fares/transit-fares/1-trip-all-modes) |
+| MTL-AT-001 | 몬트리올 | 노트르담 대성당 (성인, 세금 별도) | 16 CAD | A | 예 | 재검증 | [Notre-Dame Basilica of Montréal](https://www.basiliquenotredame.ca/en/hours-and-rates) |
+| MTL-AT-002 | 몬트리올 | 노트르담 대성당 (아동, 세금 별도) | 10 CAD | A | 예 | 재검증 | [Notre-Dame Basilica of Montréal](https://www.basiliquenotredame.ca/en/hours-and-rates) |
+| SEA-TR-001 | 시애틀 | 링크 경전철 1회(균일 요금) | 3 USD | A | 예 | 재검증 | [Sound Transit](https://www.soundtransit.org/get-to-know-us/news-events/news-releases/sound-transit-moves-to-flat-link-light-rail-fares-boosts) |
+| SEA-AT-001 | 시애틀 | 스페이스 니들 일반 입장 (성인) | 35~55 USD | A | 예 | 재검증 | [Space Needle](https://www.spaceneedle.com/plan-your-visit) |
+| SEA-AT-002 | 시애틀 | 치훌리 가든 앤드 글라스 (성인) | 40~45 USD | A | 예 | 재검증 | [Chihuly Garden and Glass](https://www.chihulygardenandglass.com/visit/plan-your-visit) |
+| SEA-AT-003 | 시애틀 | 치훌리 가든 앤드 글라스 (아동) | 35~40 USD | A | 예 | 재검증 | [Chihuly Garden and Glass](https://www.chihulygardenandglass.com/visit/plan-your-visit) |
 | GRX-TR-001 | 그라나다 | 그라나다 시내버스 1회권 | 1.6 EUR | A | 예 | 재검증 | [Turismo de Granada](https://turismo.granada.org/es/bus-urbano) |
 | GRX-AT-001 | 그라나다 | 알람브라 일반 입장(낮) (성인) | 21~22.27 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://tickets.alhambra-patronato.es/producto/alhambra-general/) |
 | GRX-AT-002 | 그라나다 | 알람브라 (아동) | 0 EUR | A | 예 | 재검증 | [Patronato de la Alhambra y Generalife](https://www.alhambra-patronato.es/notas-prensa/la-alhambra-actualiza-sus-tarifas-en-agosto) |

@@ -480,6 +480,26 @@
     "stage": "파일럿"
   },
   {
+    "id": "montreal",
+    "country": "캐나다",
+    "countryEn": "Canada",
+    "nameKo": "몬트리올",
+    "nameEn": "Montreal",
+    "currency": "CAD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "seattle",
+    "country": "미국",
+    "countryEn": "United States",
+    "nameKo": "시애틀",
+    "nameEn": "Seattle",
+    "currency": "USD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "macau",
     "country": "중국 마카오",
     "countryEn": "Macau",

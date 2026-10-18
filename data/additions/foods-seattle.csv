@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+미국,시애틀,던저니스 크랩,Dungeness Crab,워싱턴주 바다에서 나는 달큰한 맛의 대게류,고,,대기,Visit Seattle,https://visitseattle.org/food-drink/restaurants/26-ways-to-tastethe-emerald-city/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+미국,시애틀,클램차우더,Clam Chowder,파이크 플레이스 마켓에서 맛볼 수 있는 조개 크림 수프,저,,대기,Visit Seattle,https://visitseattle.org/food-drink/restaurants/chowder-champs/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+미국,시애틀,연어 구이,Grilled Wild Salmon,태평양 북서부에서 잡은 자연산 연어 구이,중,,대기,Visit Seattle,https://visitseattle.org/food-drink/restaurants/26-ways-to-tastethe-emerald-city/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

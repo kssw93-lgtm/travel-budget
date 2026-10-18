@@ -369,4 +369,9 @@ export const WHEN_SOURCES: Record<string, string> = {
   'chicago:p1': 'https://www.choosechicago.com/articles/bucket-list/the-ultimate-chicago-bucket-list/',
   'chicago:p2': 'https://www.choosechicago.com/travel-trade/chicago-group-itineraries/walking-tours-in-chicago/',
   'chicago:x': 'https://www.artic.edu/visit',
+  'montreal:p1': 'https://www.mtl.org/en/experience/musts-first-time-visitors',
+  'montreal:p2': 'https://www.mtl.org/en/experience/musts-first-time-visitors',
+  'montreal:x': 'https://www.mtl.org/en/experience/faq',
+  'seattle:p1': 'https://visitseattle.org/things-to-do/sightseeing/waterfrontexpansion/',
+  'seattle:x': 'https://www.spaceneedle.com/plan-your-visit',
 };

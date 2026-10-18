@@ -567,4 +567,26 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 오헤어 공항에서 지하철 블루라인을 타면 루프까지 약 45분입니다. 오헤어역에서 탈 때만 요금이 5달러이고, 다른 역은 2.5달러입니다.', 'Airport to city: the Blue Line runs from O’Hare to the Loop in about 45 minutes; boarding at O’Hare costs $5, other stations $2.50.', '空港から市内へ：オヘア空港から地下鉄ブルーラインでループまで約45分です。オヘア駅から乗る場合のみ運賃が5ドルで、他の駅は2.5ドルです。'],
     ],
   },
+  montreal: {
+    h: [
+      ['노트르담 대성당', 'Notre-Dame Basilica', 'ノートルダム大聖堂', '푸른 빛의 화려한 내부로 유명한 구시가지의 대성당으로, 저녁에는 빛 공연 ‘오라(AURA)’가 열립니다.', 'Old Montréal’s basilica, famed for its deep-blue interior, with the AURA light show in the evening.', '青く輝く華やかな内部で知られる旧市街の大聖堂で、夜には光のショー「AURA」が行われます。'],
+      ['구시가지와 옛 항구', 'Old Montréal and the Old Port', '旧市街と旧港', '17세기부터 이어진 돌길과 건물이 남아 있는 지역으로, 강변 항구까지 걸어서 둘러봅니다.', 'Cobbled streets and buildings dating back to the 17th century, down to the riverside port.', '17世紀から続く石畳と建物が残る地区で、川沿いの港まで歩いて巡ります。'],
+      ['몬트리올 베이글', 'Montréal bagels', 'モントリオール・ベーグル', '꿀물에 데친 뒤 장작 화덕에 구워 달콤하고 쫄깃하며, 생비아퇴르·페어마운트 가게는 24시간 엽니다.', 'Boiled in honey water and baked in wood-fired ovens; St-Viateur and Fairmount bake around the clock.', 'はちみつ入りの湯でゆでてから薪窯で焼くため甘くもちもちしており、サン・ヴィアトゥールとフェアマウントは24時間営業です。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 세금(GST 5%+QST 9.975%)과 팁이 빠져 있습니다. 팁은 세전 금액의 15% 이상이 일반적입니다.', 'Menu prices exclude tax (5% GST + 9.975% QST) and tip; at least 15% of the pre-tax amount is usual.', '飲食店のメニュー価格には税（GST5%＋QST9.975%）とチップが含まれていません。チップは税抜き金額の15%以上が一般的です。'],
+      ['공항에서 시내: 747번 공항버스는 24시간 운행하며, 요금 11.25달러로 24시간 동안 버스와 지하철을 탈 수 있습니다. 버스에서 낼 때는 동전으로 정확한 금액만 받습니다.', 'Airport to city: the 24-hour 747 bus costs $11.25 and doubles as a 24-hour bus and métro pass; on board it takes exact change in coins only.', '空港から市内へ：24時間運行の747番空港バスは11.25ドルで、24時間バスと地下鉄に乗れます。車内で払う場合は硬貨でちょうどの金額のみです。'],
+    ],
+  },
+  seattle: {
+    h: [
+      ['스페이스 니들', 'Space Needle', 'スペース・ニードル', '1962년 세계박람회 때 세운 시애틀의 상징으로, 회전하는 유리 바닥 전망대가 있습니다. 시간대와 계절에 따라 요금이 달라집니다.', 'Seattle’s icon from the 1962 World’s Fair, with a rotating glass floor; prices vary by time and season.', '1962年の万博で建てられたシアトルのシンボルで、回転するガラスの床の展望台があります。料金は時間帯や季節で変わります。'],
+      ['파이크 플레이스 마켓', 'Pike Place Market', 'パイク・プレイス・マーケット', '생선 던지기로 유명한 해안가 시장으로, 해산물과 수공예품 가게가 모여 있습니다.', 'The waterfront market famous for its flying fish, full of seafood and craft stalls.', '魚を投げるパフォーマンスで有名な海沿いの市場で、海産物や手工芸品の店が集まっています。'],
+      ['치훌리 가든 앤드 글라스', 'Chihuly Garden and Glass', 'チフーリ・ガーデン・アンド・グラス', '스페이스 니들 옆에 있는 유리 공예가 데일 치훌리의 작품 전시관과 정원입니다.', 'Dale Chihuly’s glass art galleries and garden beside the Space Needle.', 'スペース・ニードルの隣にあるガラス作家デイル・チフーリの作品展示館と庭園です。'],
+    ],
+    t: [
+      ['식당 메뉴 가격에는 세금(시애틀 10.55%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude tax (10.55% in Seattle) and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（シアトル10.55%）とチップが含まれていません。チップは18〜20%が一般的です。'],
+      ['공항에서 시내: 시택 공항에서 경전철 1호선(링크)을 타면 다운타운까지 약 40분이며, 요금은 거리와 관계없이 3달러입니다.', 'Airport to city: Link light rail Line 1 runs from Sea-Tac to downtown in about 40 minutes for a flat $3.', '空港から市内へ：シータック空港からライトレール1号線（リンク）でダウンタウンまで約40分、運賃は距離に関係なく3ドルです。'],
+    ],
+  },
 };

@@ -252,4 +252,17 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['겨울(12~3월)에는 호수 바람으로 체감 온도가 크게 떨어지니, 미술관 등 실내 일정을 함께 준비하세요.', 'In winter (December–March) the lake wind makes it feel far colder; keep indoor days like the Art Institute in reserve.', '冬（12〜3月）は湖からの風で体感温度が大きく下がるので、美術館など屋内の予定も用意しましょう。'],
   },
+  montreal: {
+    p: [
+      ['6~9월', 'June–September', '6〜9月', '야외 축제와 구시가지 산책, 몽루아얄 공원을 즐기기 좋은 계절입니다.', 'Outdoor festivals, Old Montréal strolls and Mount Royal Park.', '屋外の祭りや旧市街の散策、モン・ロワイヤル公園を楽しめる季節です。'],
+      ['9월 말~10월', 'Late September–October', '9月末〜10月', '몽루아얄 공원의 단풍이 아름다운 시기입니다.', 'Autumn colour on Mount Royal.', 'モン・ロワイヤル公園の紅葉が美しい時期です。'],
+    ],
+    x: ['겨울(12~3월)에는 영하의 추위가 이어지니, 지하도시(RÉSO)와 실내 일정을 함께 준비하세요.', 'Winter (December–March) is sub-zero; plan around the underground city (RÉSO) and indoor sights.', '冬（12〜3月）は氷点下の日が続くので、地下街（RÉSO）や屋内の予定も用意しましょう。'],
+  },
+  seattle: {
+    p: [
+      ['7~9월', 'July–September', '7〜9月', '비가 적고 맑은 날이 많아 해안가와 전망대에서 레이니어 산을 보기 좋습니다.', 'Dry, clear days for the waterfront and views of Mount Rainier from the observation decks.', '雨が少なく晴れの日が多く、海沿いや展望台からレーニア山を眺めるのに最適です。'],
+    ],
+    x: ['10~4월은 비가 잦으니 우산과 방수 겉옷을 챙기고, 전망대는 맑은 날을 골라 가세요.', 'October–April is wet; pack a rain jacket and save the observation deck for a clear day.', '10〜4月は雨が多いので傘や防水の上着を持ち、展望台は晴れた日を選びましょう。'],
+  },
 };

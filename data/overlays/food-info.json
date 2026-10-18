@@ -4777,5 +4777,35 @@
     "ko": "양귀비씨 빵에 소고기 소시지와 머스터드·양파·렐리시·피클·토마토를 얹은 핫도그(케첩 없음)",
     "en": "All-beef frank on a poppy-seed bun with mustard, onion, relish, pickle and tomato — no ketchup",
     "ja": "ケシの実のパンに牛肉ソーセージとマスタード・玉ねぎ・レリッシュ・ピクルス・トマトをのせたホットドッグ（ケチャップなし）"
+  },
+  "montreal:Montréal Bagel": {
+    "ko": "꿀물에 데쳐 장작 화덕에 구운 작고 달콤한 베이글",
+    "en": "Small, sweet bagel boiled in honey water and wood-fired",
+    "ja": "はちみつ入りの湯でゆでて薪窯で焼いた小ぶりで甘いベーグル"
+  },
+  "montreal:Smoked Meat Sandwich": {
+    "ko": "향신료에 재워 훈제한 소고기를 호밀빵에 듬뿍 끼운 샌드위치",
+    "en": "Spice-cured smoked beef piled on rye bread",
+    "ja": "スパイスに漬けて燻製した牛肉をライ麦パンにたっぷり挟んだサンドイッチ"
+  },
+  "montreal:Poutine": {
+    "ko": "감자튀김에 치즈 커드와 그레이비 소스를 얹은 퀘벡 음식",
+    "en": "Fries with cheese curds and gravy, a Québec classic",
+    "ja": "フライドポテトにチーズカードとグレイビーソースをかけたケベック料理"
+  },
+  "seattle:Dungeness Crab": {
+    "ko": "워싱턴주 바다에서 나는 달큰한 맛의 대게류",
+    "en": "Washington’s native crab with a delicate, sweet taste",
+    "ja": "ワシントン州の海でとれる甘みのあるカニ"
+  },
+  "seattle:Clam Chowder": {
+    "ko": "파이크 플레이스 마켓에서 맛볼 수 있는 조개 크림 수프",
+    "en": "Creamy clam soup, a Pike Place Market favourite",
+    "ja": "パイク・プレイス・マーケットで味わえる貝のクリームスープ"
+  },
+  "seattle:Grilled Wild Salmon": {
+    "ko": "태평양 북서부에서 잡은 자연산 연어 구이",
+    "en": "Wild Pacific Northwest salmon, grilled",
+    "ja": "太平洋北西部でとれた天然サーモンのグリル"
   }
 }

@@ -7290,6 +7290,60 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "montreal",
+    "nameKo": "몬트리올 베이글",
+    "nameEn": "Montréal Bagel",
+    "reason": "꿀물에 데쳐 장작 화덕에 구운 작고 달콤한 베이글",
+    "reasonEn": "Small, sweet bagel boiled in honey water and wood-fired",
+    "desc": {
+      "ko": "꿀물에 데쳐 장작 화덕에 구운 작고 달콤한 베이글",
+      "en": "Small, sweet bagel boiled in honey water and wood-fired",
+      "ja": "はちみつ入りの湯でゆでて薪窯で焼いた小ぶりで甘いベーグル"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourisme Montréal",
+    "recommendUrl": "https://www.mtl.org/en/experience/musts-for-foodies-visiting-montreal",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "montreal",
+    "nameKo": "스모크드 미트 샌드위치",
+    "nameEn": "Smoked Meat Sandwich",
+    "reason": "향신료에 재워 훈제한 소고기를 호밀빵에 듬뿍 끼운 샌드위치",
+    "reasonEn": "Spice-cured smoked beef piled on rye bread",
+    "desc": {
+      "ko": "향신료에 재워 훈제한 소고기를 호밀빵에 듬뿍 끼운 샌드위치",
+      "en": "Spice-cured smoked beef piled on rye bread",
+      "ja": "スパイスに漬けて燻製した牛肉をライ麦パンにたっぷり挟んだサンドイッチ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourisme Montréal",
+    "recommendUrl": "https://www.mtl.org/en/experience/where-eat-smoked-meat",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "montreal",
+    "nameKo": "푸틴",
+    "nameEn": "Poutine",
+    "reason": "감자튀김에 치즈 커드와 그레이비 소스를 얹은 퀘벡 음식",
+    "reasonEn": "Fries with cheese curds and gravy, a Québec classic",
+    "desc": {
+      "ko": "감자튀김에 치즈 커드와 그레이비 소스를 얹은 퀘벡 음식",
+      "en": "Fries with cheese curds and gravy, a Québec classic",
+      "ja": "フライドポテトにチーズカードとグレイビーソースをかけたケベック料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Tourisme Montréal",
+    "recommendUrl": "https://www.mtl.org/en/experience/musts-for-foodies-visiting-montreal",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "munich",
     "nameKo": "바이스부르스트",
     "nameEn": "Weißwurst",
@@ -9268,6 +9322,60 @@
     "recommendSource": "Visit Sapporo (official travel guide)",
     "recommendUrl": "https://visit.sapporo.travel/itineraries/05/",
     "note": "Claude 초안(2026-10-09)"
+  },
+  {
+    "cityId": "seattle",
+    "nameKo": "던저니스 크랩",
+    "nameEn": "Dungeness Crab",
+    "reason": "워싱턴주 바다에서 나는 달큰한 맛의 대게류",
+    "reasonEn": "Washington’s native crab with a delicate, sweet taste",
+    "desc": {
+      "ko": "워싱턴주 바다에서 나는 달큰한 맛의 대게류",
+      "en": "Washington’s native crab with a delicate, sweet taste",
+      "ja": "ワシントン州の海でとれる甘みのあるカニ"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Seattle",
+    "recommendUrl": "https://visitseattle.org/food-drink/restaurants/26-ways-to-tastethe-emerald-city/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "seattle",
+    "nameKo": "클램차우더",
+    "nameEn": "Clam Chowder",
+    "reason": "파이크 플레이스 마켓에서 맛볼 수 있는 조개 크림 수프",
+    "reasonEn": "Creamy clam soup, a Pike Place Market favourite",
+    "desc": {
+      "ko": "파이크 플레이스 마켓에서 맛볼 수 있는 조개 크림 수프",
+      "en": "Creamy clam soup, a Pike Place Market favourite",
+      "ja": "パイク・プレイス・マーケットで味わえる貝のクリームスープ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Seattle",
+    "recommendUrl": "https://visitseattle.org/food-drink/restaurants/chowder-champs/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "seattle",
+    "nameKo": "연어 구이",
+    "nameEn": "Grilled Wild Salmon",
+    "reason": "태평양 북서부에서 잡은 자연산 연어 구이",
+    "reasonEn": "Wild Pacific Northwest salmon, grilled",
+    "desc": {
+      "ko": "태평양 북서부에서 잡은 자연산 연어 구이",
+      "en": "Wild Pacific Northwest salmon, grilled",
+      "ja": "太平洋北西部でとれた天然サーモンのグリル"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Seattle",
+    "recommendUrl": "https://visitseattle.org/food-drink/restaurants/26-ways-to-tastethe-emerald-city/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
     "cityId": "seville",

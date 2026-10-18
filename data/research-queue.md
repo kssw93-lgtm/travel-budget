@@ -231,6 +231,8 @@
 | 캔버라 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 캔버라 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 캔버라 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 웰링턴 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 웰링턴 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 타이중 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 코타키나발루 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 장가계 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1111,6 +1113,9 @@
 | CBR-TR-001 | 캔버라 | 마이웨이+ 1회(오프피크~피크) | 2.7~3.41 AUD | A | 예 | 재검증 | [Transport Canberra](https://www.transport.act.gov.au/tickets-and-myway/fares) |
 | CBR-AT-001 | 캔버라 | 호주 전쟁기념관 (입장 무료) | 0 AUD | A | 예 | 재검증 | [Australian War Memorial](https://www.awm.gov.au/visit) |
 | CBR-AT-002 | 캔버라 | 호주 국립 미술관 (일반 입장 무료) | 0 AUD | A | 예 | 재검증 | [National Gallery of Australia](https://nga.gov.au/visit/) |
+| WLG-TR-001 | 웰링턴 | 메트링크 버스 1구간(스내퍼 오프피크~현금) | 1.7~3 NZD | A | 예 | 재검증 | [Metlink](https://www.metlink.org.nz/getting-started/tickets-and-fares) |
+| WLG-AT-001 | 웰링턴 | 테 파파 (외국인 성인) | 35 NZD | A | 예 | 재검증 | [Te Papa](https://www.tepapa.govt.nz/visit/tickets-international-visitor-museum-entry) |
+| WLG-AT-002 | 웰링턴 | 테 파파 (16세 미만 무료) | 0 NZD | A | 예 | 재검증 | [Te Papa](https://www.tepapa.govt.nz/visit/tickets-international-visitor-museum-entry) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

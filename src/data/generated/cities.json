@@ -1160,6 +1160,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "wellington",
+    "country": "뉴질랜드",
+    "countryEn": "New Zealand",
+    "nameKo": "웰링턴",
+    "nameEn": "Wellington",
+    "currency": "NZD",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "nara",
     "country": "일본",
     "countryEn": "Japan",

@@ -598,4 +598,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['킹스턴·바턴', 'Kingston / Barton', 'キングストン・バートン', '국회의사당과 국립 미술관이 가깝고, 일요일 시장이 열립니다.', 'Close to Parliament and the National Gallery, with a Sunday market.', '国会議事堂や国立美術館に近く、日曜日に市場が開かれます。'],
     ],
   },
+  wellington: {
+    o: ['북섬 남쪽 끝 항구에 자리한 뉴질랜드의 수도로, 언덕 위 주택가와 바닷가가 붙어 있는 아담한 도시입니다. 국립박물관 테 파파와 빨간 케이블카, 카페와 수제 맥주 문화로 유명하며 남섬행 페리가 출발합니다.', 'New Zealand’s compact harbour capital at the southern tip of the North Island, where hillside suburbs meet the waterfront; famous for the national museum Te Papa, the red cable car, café and craft-beer culture, and ferries to the South Island.', '北島の南端の港にあるニュージーランドの首都で、丘の上の住宅街と海辺が隣り合うこぢんまりした街です。国立博物館テ・パパや赤いケーブルカー、カフェやクラフトビールの文化で有名で、南島行きのフェリーが出ています。'],
+    d: [2, 3],
+    s: [
+      ['테 아로·쿠바 스트리트', 'Te Aro / Cuba Street', 'テ・アロ・キューバ通り', '식당과 바, 카페가 가장 많이 모인 지역입니다.', 'The densest cluster of restaurants, bars and cafés.', '飲食店やバー、カフェが最も多く集まる地区です。'],
+      ['워터프런트·램턴 키', 'Waterfront / Lambton Quay', 'ウォーターフロント・ランプトン・キー', '테 파파와 케이블카 승강장이 가깝고, 공항버스가 지납니다.', 'Near Te Papa and the cable car, on the airport bus route.', 'テ・パパやケーブルカー乗り場に近く、空港バスが通ります。'],
+    ],
+  },
 };

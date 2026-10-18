@@ -483,4 +483,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['버스와 경전철은 평일 출퇴근 시간(피크)에 더 비싸니, 낮 시간이나 주말에 움직이면 아낄 수 있습니다.', 'Bus and light-rail fares are higher at weekday peaks; travel middays or at weekends to save.', 'バスやライトレールは平日のピーク時間に高くなるので、日中や週末に移動すると節約できます。'],
   },
+  wellington: {
+    p: [
+      ['12~3월', 'December–March', '12〜3月', '해변 브런치와 해안 산책, 남섬행 페리 여행을 즐기기 좋습니다.', 'Beachside brunch, coastal walks and ferry trips south.', 'ビーチでのブランチや海沿いの散策、南島行きのフェリー旅行を楽しめます。'],
+    ],
+    x: ['현금 승차는 2027년 3월까지 단계적으로 없어지니, 스내퍼 카드나 신용카드 탭으로 타세요.', 'Cash fares are being phased out by March 2027; use a Snapper card or contactless card.', '現金での乗車は2027年3月までに段階的に廃止されるので、スナッパーカードかクレジットカードのタッチ決済で乗りましょう。'],
+  },
 };

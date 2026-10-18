@@ -460,4 +460,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'canberra:p1': 'https://visitcanberra.com.au/food-and-drink',
   'canberra:p2': 'https://visitcanberra.com.au/articles/best-places-to-eat-truffles-in-canberra-this-winter',
   'canberra:x': 'https://www.transport.act.gov.au/tickets-and-myway/fares',
+  'wellington:p1': 'https://www.wellingtonnz.com/visit/eat-and-drink/brunch-by-the-beach',
+  'wellington:x': 'https://www.metlink.org.nz/getting-started/tickets-and-fares',
 };

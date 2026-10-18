@@ -12602,6 +12602,60 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "wellington",
+    "nameKo": "플랫 화이트",
+    "nameEn": "Flat White",
+    "reason": "웰링턴 카페 문화를 대표하는 우유 커피",
+    "reasonEn": "The milky espresso at the heart of Wellington café culture",
+    "desc": {
+      "ko": "웰링턴 카페 문화를 대표하는 우유 커피",
+      "en": "The milky espresso at the heart of Wellington café culture",
+      "ja": "ウェリントンのカフェ文化を代表するミルクコーヒー"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "WellingtonNZ",
+    "recommendUrl": "https://www.wellingtonnz.com/visit/plan-your-trip/24-hours-in-wellington",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "wellington",
+    "nameKo": "치즈 스콘",
+    "nameEn": "Cheese Scones",
+    "reason": "카페에서 즐겨 먹는 체다 치즈 스콘",
+    "reasonEn": "Cheddar cheese scones, a café favourite",
+    "desc": {
+      "ko": "카페에서 즐겨 먹는 체다 치즈 스콘",
+      "en": "Cheddar cheese scones, a café favourite",
+      "ja": "カフェで定番のチェダーチーズのスコーン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "WellingtonNZ",
+    "recommendUrl": "https://www.wellingtonnz.com/visit/plan-your-trip/72-hours-in-wellington",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "wellington",
+    "nameKo": "피시 앤드 칩스",
+    "nameEn": "Fish and Chips",
+    "reason": "바닷가 마을에서 맛보는 생선 튀김과 감자튀김",
+    "reasonEn": "Fish and chips by the sea",
+    "desc": {
+      "ko": "바닷가 마을에서 맛보는 생선 튀김과 감자튀김",
+      "en": "Fish and chips by the sea",
+      "ja": "海辺の町で味わうフィッシュ・アンド・チップス"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "WellingtonNZ",
+    "recommendUrl": "https://www.wellingtonnz.com/visit/plan-your-trip/your-guide-to-miramar-peninsula",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "winnipeg",
     "nameKo": "피로기",
     "nameEn": "Perogies",

@@ -927,4 +927,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 래피드 3번 버스가 공항 터미널과 시티 환승센터를 약 20분에 잇고, 일반 버스 요금이 적용됩니다. 공항 도착 홀에 승차권 자판기가 있습니다.', 'Airport to city: Rapid 3 links the terminal to the City interchange in under 20 minutes at the normal bus fare; there is a ticket machine in arrivals.', '空港から市内へ：ラピッド3番バスが空港ターミナルとシティ乗り換えセンターを約20分で結び、通常のバス運賃が適用されます。到着ロビーに乗車券の自動販売機があります。'],
     ],
   },
+  wellington: {
+    h: [
+      ['테 파파 국립박물관', 'Te Papa Tongarewa', 'テ・パパ・トンガレワ（国立博物館）', '뉴질랜드의 자연과 마오리 문화를 보여 주는 국립박물관으로, 외국인 성인은 유료이고 16세 미만은 무료입니다.', 'New Zealand’s national museum of nature and Māori culture; international adults pay, under-16s free.', 'ニュージーランドの自然やマオリ文化を紹介する国立博物館で、外国人の大人は有料、16歳未満は無料です。'],
+      ['웰링턴 커피', 'Wellington coffee', 'ウェリントンのコーヒー', '로스터리와 카페가 많은 ‘커피 수도’로, 플랫 화이트를 꼭 마셔 보세요.', 'A “coffee capital” of roasteries and cafés — order a flat white.', 'ロースターやカフェが多い「コーヒーの都」で、フラットホワイトをぜひ。'],
+      ['수제 맥주 양조장', 'Craft breweries', 'クラフトビール醸造所', '워터프런트에서 걸어갈 수 있는 거리에 수제 맥주 양조장이 여럿 있습니다.', 'Several craft breweries a short walk from the waterfront.', 'ウォーターフロントから歩いて行ける距離にクラフトビールの醸造所がいくつもあります。'],
+    ],
+    t: [
+      ['공항에서 시내: 에어포트 익스프레스(AX) 버스가 10~20분 간격으로 웰링턴역까지 가며, 스내퍼 카드가 현금보다 쌉니다. 일반 버스 정기권은 쓸 수 없습니다.', 'Airport to city: the Airport Express (AX) runs to Wellington Station every 10–20 minutes; Snapper is cheaper than cash, and regular passes are not valid.', '空港から市内へ：エアポート・エクスプレス（AX）バスが10〜20分間隔でウェリントン駅まで走り、スナッパーカードの方が現金より安いです。通常の定期券は使えません。'],
+    ],
+  },
 };

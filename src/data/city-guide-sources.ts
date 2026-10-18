@@ -1148,4 +1148,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'canberra:h2': 'https://nga.gov.au/visit/',
   'canberra:h3': 'https://visitcanberra.com.au/articles/best-places-to-eat-truffles-in-canberra-this-winter',
   'canberra:t1': 'https://www.canberraairport.com.au/transport/public-transport-and-shuttle-services',
+  'wellington:h1': 'https://www.tepapa.govt.nz/visit/tickets-international-visitor-museum-entry',
+  'wellington:h2': 'https://www.wellingtonnz.com/visit/plan-your-trip/24-hours-in-wellington',
+  'wellington:h3': 'https://www.wellingtonnz.com/visit/plan-your-trip/24-hours-in-wellington',
+  'wellington:t1': 'https://www.metlink.org.nz/getting-started/airport-express',
 };

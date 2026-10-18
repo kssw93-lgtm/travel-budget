@@ -5302,5 +5302,20 @@
     "ko": "와이너리 레스토랑에서 맛보는 훈제 고기·생선 요리",
     "en": "Smoked meats and fish at winery restaurants",
     "ja": "ワイナリーのレストランで味わう燻製の肉や魚の料理"
+  },
+  "wellington:Flat White": {
+    "ko": "웰링턴 카페 문화를 대표하는 우유 커피",
+    "en": "The milky espresso at the heart of Wellington café culture",
+    "ja": "ウェリントンのカフェ文化を代表するミルクコーヒー"
+  },
+  "wellington:Cheese Scones": {
+    "ko": "카페에서 즐겨 먹는 체다 치즈 스콘",
+    "en": "Cheddar cheese scones, a café favourite",
+    "ja": "カフェで定番のチェダーチーズのスコーン"
+  },
+  "wellington:Fish and Chips": {
+    "ko": "바닷가 마을에서 맛보는 생선 튀김과 감자튀김",
+    "en": "Fish and chips by the sea",
+    "ja": "海辺の町で味わうフィッシュ・アンド・チップス"
   }
 }

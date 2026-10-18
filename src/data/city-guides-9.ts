@@ -297,4 +297,50 @@ export const NOTES_9: Record<string, Compact> = {
       ['구시가지는 언덕과 계단이 많아, 아래 동네와 위 동네 사이는 푸니쿨라를 타면 편합니다.', 'The old town is hilly; the funicular links the Lower and Upper Town.', '旧市街は坂や階段が多く、下町と上町の間はケーブルカーが便利です。'],
     ],
   },
+  porto: {
+    h: [
+      ['리베이라와 동 루이스 1세 다리', 'Ribeira and the Dom Luís I Bridge', 'リベイラとドン・ルイス1世橋', '강변의 알록달록한 집들과 2층 철교가 유네스코 세계유산 구역입니다. 다리 위층을 걸어 건너면 강 건너 전망이 좋습니다.', 'Colourful riverside houses and the double-decker iron bridge form the UNESCO-listed core; walk the upper deck for views.', '川沿いのカラフルな家並みと2層の鉄橋が世界遺産の中心です。橋の上層を歩いて渡ると眺めが抜群です。'],
+      ['빌라 노바 드 가이아 와인 저장고', 'Port wine cellars, Vila Nova de Gaia', 'ヴィラ・ノヴァ・デ・ガイアのワイン貯蔵庫', '강 건너편에 포트와인 회사들의 저장고가 모여 있어 견학과 시음을 할 수 있습니다.', 'Across the river, port houses open their lodges for tours and tastings.', '対岸にポートワイン会社の貯蔵庫が集まり、見学や試飲ができます。'],
+      ['렐루 서점', 'Livraria Lello', 'レロ書店', '붉은 곡선 계단으로 유명한 1906년 개업 서점입니다. 입장권을 미리 예약하면 줄을 덜 섭니다.', 'A bookshop from 1906 famous for its curving red staircase; book entry ahead to cut the queue.', '赤い曲線の階段で有名な1906年創業の書店です。入場券を予約すると並ぶ時間が減ります。'],
+    ],
+    t: [
+      ['구시가지는 가파른 언덕이 많아 편한 신발이 필수입니다. 강변과 윗동네 사이는 푸니쿨라(기다 푸니쿨라)를 타면 편합니다.', 'The old town is steep, so wear comfortable shoes; the Guindais funicular links the river to the upper town.', '旧市街は急な坂が多いので歩きやすい靴が必須です。川沿いと上の街の間はギンダイスのケーブルカーが便利です。'],
+      ['공항에서 시내: 포르투 공항에서 메트로 E선(보라색)을 타면 시내 트린다드역까지 30분 안팎입니다.', 'Airport to city: Metro line E (violet) runs from Porto Airport to Trindade in the centre in about 30 minutes.', '空港から市内へ：ポルト空港から地下鉄E線（紫）で中心部のトリンダーデ駅まで30分ほどです。'],
+    ],
+  },
+  seville: {
+    h: [
+      ['세비야 대성당과 히랄다 탑', 'Seville Cathedral and the Giralda', 'セビリア大聖堂とヒラルダの塔', '세계에서 손꼽히게 큰 고딕 성당으로, 경사로를 따라 히랄다 탑에 오르면 시내가 내려다보입니다.', 'One of the largest Gothic cathedrals in the world; ramps lead up the Giralda tower for city views.', '世界有数の大きさのゴシック大聖堂で、スロープを上ってヒラルダの塔から市内を見渡せます。'],
+      ['세비야 알카사르', 'Real Alcázar of Seville', 'セビリアのアルカサル', '이슬람 양식이 어우러진 왕궁과 넓은 정원으로, 시간 지정 입장권을 미리 사 두는 것이 좋습니다.', 'A royal palace in Mudéjar style with vast gardens; buy timed tickets in advance.', 'イスラム様式が融合した王宮と広い庭園で、時間指定券を事前に買っておくのがおすすめです。'],
+      ['스페인 광장', 'Plaza de España', 'スペイン広場', '1929년 박람회 때 지은 반원형 광장으로, 스페인 각 지방을 그린 타일 벤치와 운하가 있습니다. 무료로 들어갈 수 있습니다.', 'The semicircular plaza built for the 1929 exposition, with a canal and tiled benches for each Spanish province; free to enter.', '1929年の博覧会のために造られた半円形の広場で、運河とスペイン各地方を描いたタイルのベンチがあります。入場無料です。'],
+    ],
+    t: [
+      ['플라멩코는 타블라오(전문 공연장)나 플라멩코 박물관 공연으로 보는 것이 일반적입니다. 인기 공연은 예약하세요.', 'Flamenco is usually seen at a tablao or the flamenco museum’s shows; book popular ones ahead.', 'フラメンコはタブラオ（専門の劇場）やフラメンコ博物館の公演で見るのが一般的です。人気の公演は予約を。'],
+      ['공항에서 시내: 세비야 공항에서 EA 공항버스를 타면 산타후스타역을 거쳐 시내(플라사 데 아르마스)까지 35분 안팎입니다.', 'Airport to city: the EA airport bus runs via Santa Justa station to Plaza de Armas in about 35 minutes.', '空港から市内へ：セビリア空港からEA空港バスでサンタ・フスタ駅を経て市内（プラサ・デ・アルマス）まで35分ほどです。'],
+    ],
+  },
+  milan: {
+    h: [
+      ['밀라노 대성당(두오모)', 'Milan Cathedral (Duomo)', 'ミラノ大聖堂（ドゥオーモ）', '수많은 첨탑이 솟은 고딕 대성당으로, 계단이나 엘리베이터로 지붕 테라스에 올라가 첨탑 사이를 걸을 수 있습니다.', 'A Gothic cathedral bristling with spires; climb or take the lift to walk among them on the roof terraces.', '無数の尖塔がそびえるゴシック大聖堂で、階段かエレベーターで屋上テラスに上り、尖塔の間を歩けます。'],
+      ['최후의 만찬(산타 마리아 델레 그라치에)', 'The Last Supper (Santa Maria delle Grazie)', '最後の晩餐（サンタ・マリア・デッレ・グラツィエ）', '레오나르도 다빈치의 벽화로, 소수 인원만 짧게 들어가 볼 수 있어 입장권이 금방 매진됩니다. 판매 시작일에 맞춰 예약하세요.', 'Leonardo’s mural, seen in small groups for a short slot; tickets sell out fast, so book when sales open.', 'レオナルド・ダ・ヴィンチの壁画で、少人数で短時間しか入れず入場券はすぐ売り切れます。販売開始に合わせて予約を。'],
+      ['스포르체스코성', 'Sforza Castle', 'スフォルツェスコ城', '르네상스 시대 성 안에 여러 박물관이 있으며, 미켈란젤로의 마지막 조각 「론다니니의 피에타」를 볼 수 있습니다.', 'A Renaissance castle housing several museums, including Michelangelo’s last sculpture, the Rondanini Pietà.', 'ルネサンス期の城の中に複数の博物館があり、ミケランジェロ最後の彫刻「ロンダニーニのピエタ」が見られます。'],
+      ['비토리오 에마누엘레 2세 갤러리아', 'Galleria Vittorio Emanuele II', 'ヴィットリオ・エマヌエーレ2世のガッレリア', '두오모 광장과 스칼라 극장을 잇는 유리 지붕 아케이드로, 바닥의 황소 모자이크가 유명합니다.', 'The glass-roofed arcade linking the Duomo square and La Scala, known for its bull mosaic.', 'ドゥオーモ広場とスカラ座を結ぶガラス屋根のアーケードで、床の雄牛のモザイクが有名です。'],
+    ],
+    t: [
+      ['저녁 식사 전 아페리티보 문화가 있어, 바에서 음료를 시키면 간단한 안주가 함께 나오는 곳이 많습니다.', 'Milan loves aperitivo: many bars serve snacks with your pre-dinner drink.', '夕食前のアペリティーヴォ文化があり、バーで飲み物を頼むと軽いおつまみが付く店が多いです。'],
+      ['공항에서 시내: 말펜사 공항에서 말펜사 익스프레스를 타면 카도르나역이나 중앙역까지 50분 안팎입니다. 리나테 공항은 지하철 M4선으로 시내와 연결됩니다.', 'Airport to city: the Malpensa Express runs to Cadorna or Centrale in about 50 minutes; Linate Airport is on Metro line M4.', '空港から市内へ：マルペンサ空港からマルペンサ・エクスプレスでカドルナ駅か中央駅まで50分ほどです。リナーテ空港は地下鉄M4線で市内とつながっています。'],
+    ],
+  },
+  lucerne: {
+    h: [
+      ['카펠교', 'Chapel Bridge (Kapellbrücke)', 'カペル橋', '지붕 덮인 나무 다리로, 천장에 그려진 판화와 물 위의 팔각 급수탑이 루체른의 상징입니다.', 'The covered wooden bridge with painted roof panels and its octagonal water tower — the symbol of Lucerne.', '屋根付きの木造橋で、天井の板絵と水上の八角形の給水塔がルツェルンの象徴です。'],
+      ['필라투스산', 'Mount Pilatus', 'ピラトゥス山', '세계에서 가장 가파른 톱니바퀴 열차(여름)와 곤돌라로 오르는 산으로, 정상에서 알프스와 호수가 내려다보입니다.', 'Climbed by the world’s steepest cogwheel railway (summer) and by gondola, with views over the Alps and the lake.', '世界一急勾配の登山鉄道（夏）とゴンドラで登る山で、山頂からアルプスと湖を見渡せます。'],
+      ['스위스 교통박물관', 'Swiss Museum of Transport', 'スイス交通博物館', '기차·배·비행기·우주까지 스위스 교통의 역사를 직접 만져 보며 보는 대형 박물관입니다.', 'A large hands-on museum of Swiss transport, from trains and boats to planes and space.', '鉄道・船・飛行機から宇宙までスイスの交通史を体験しながら見られる大型博物館です。'],
+      ['리기산', 'Mount Rigi', 'リギ山', '\'산들의 여왕\'으로 불리는 산으로, 호수 유람선과 유럽 최초의 산악 열차를 이어 타고 오를 수 있습니다.', 'The “Queen of the Mountains”, reached by lake steamer and Europe’s first mountain railway.', '「山の女王」と呼ばれる山で、湖の遊覧船とヨーロッパ最初の登山鉄道を乗り継いで登れます。'],
+    ],
+    t: [
+      ['스위스 트래블 패스가 있으면 호수 유람선과 일부 산악 교통이 포함되거나 할인되니 조건을 확인하세요.', 'A Swiss Travel Pass covers lake boats and gives discounts on some mountain transport; check the terms.', 'スイストラベルパスがあれば湖の遊覧船が含まれ、一部の山岳交通は割引になるので条件を確認しましょう。'],
+      ['가는 법: 취리히 중앙역에서 기차로 50분 안팎, 취리히 공항역에서 1시간 남짓입니다. 인터라켄과는 골든패스 노선으로 2시간 안팎입니다.', 'Getting there: trains take about 50 minutes from Zürich HB and just over an hour from Zurich Airport; Interlaken is about two hours on the GoldenPass line.', '行き方：チューリッヒ中央駅から列車で50分ほど、チューリッヒ空港駅から1時間あまりです。インターラーケンへはゴールデンパス路線で2時間ほどです。'],
+    ],
+  },
 };

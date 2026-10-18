@@ -122,7 +122,7 @@ export const en: Messages = {
     perDayShort: 'about {amount} per person per day',
     notComputable: 'More price data needed',
     title: '{city} travel cost guide',
-    metaTitle: '{city} trip cost: daily budget, local prices & tips',
+    metaTitle: '{city} trip cost, local prices & tips',
     metaDescription: 'Must-see spots, local tips, attraction prices and foods to try in {city}. Estimate your {city} trip budget with the calculator.',
     lead: 'Must-see spots, local tips, admission prices and foods to try in {city}. Price data as of {date}.',
     exampleTitle: 'Estimated local spending for 4 days / 3 nights (1 adult)',

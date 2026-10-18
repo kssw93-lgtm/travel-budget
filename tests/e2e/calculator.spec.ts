@@ -543,7 +543,7 @@ test.describe('도시 가이드', () => {
     await page.goto('/guide/london?lang=ko');
     await page.getByRole('button', { name: 'English' }).click();
     await expect(page.locator('main h1')).toHaveText('London travel cost guide');
-    await expect(page).toHaveTitle(/^London trip cost: daily budget, local prices & tips/);
+    await expect(page).toHaveTitle(/^London trip cost, local prices & tips/);
     await expect(page).toHaveURL(/\/guide\/london\?lang=en$/);
   });
 
@@ -553,7 +553,7 @@ test.describe('도시 가이드', () => {
     await page.getByRole('button', { name: '日本語' }).click();
     await expect(page).toHaveURL(/\/guide\/tokyo\?lang=ja$/);
     await expect(page.locator('main h1')).toHaveText('東京の旅行費用ガイド');
-    await expect(page).toHaveTitle(/^東京旅行の費用は？1日の予算/);
+    await expect(page).toHaveTitle(/^東京旅行の費用・現地の物価/);
     await expect(page.locator('html')).toHaveAttribute('lang', 'ja');
     await expect(page.getByTestId('guide-attractions')).toContainText('大人');
     // 일본어권 표기로 확인된 데이터 이름은 일본어로 보인다(음역 행은 영문)

@@ -120,6 +120,46 @@
     "stage": "2차"
   },
   {
+    "id": "porto",
+    "country": "포르투갈",
+    "countryEn": "Portugal",
+    "nameKo": "포르투",
+    "nameEn": "Porto",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "seville",
+    "country": "스페인",
+    "countryEn": "Spain",
+    "nameKo": "세비야",
+    "nameEn": "Seville",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "milan",
+    "country": "이탈리아",
+    "countryEn": "Italy",
+    "nameKo": "밀라노",
+    "nameEn": "Milan",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "lucerne",
+    "country": "스위스",
+    "countryEn": "Switzerland",
+    "nameKo": "루체른",
+    "nameEn": "Lucerne",
+    "currency": "CHF",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
     "id": "kyoto",
     "country": "일본",
     "countryEn": "Japan",

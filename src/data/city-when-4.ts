@@ -91,4 +91,32 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['12~2월은 영하 20도 안팎까지 내려가는 날이 있어 방한복과 미끄럼 방지 신발이 필요합니다.', 'December–February can drop to around −20 °C; bring warm layers and non-slip shoes.', '12〜2月は氷点下20度前後まで下がる日もあり、防寒着と滑りにくい靴が必要です。'],
   },
+  porto: {
+    p: [
+      ['6월 23~24일 상주앙 축제', '23–24 June (São João festival)', '6月23〜24日（サン・ジョアン祭）', '포르투의 수호성인 축제로, 23일 밤 도루강 불꽃놀이와 거리 축제가 이어집니다. 공식 프로그램은 대부분 무료입니다.', 'Porto’s patron-saint festival, with fireworks over the Douro and street parties on the night of the 23rd; most official events are free.', 'ポルトの守護聖人の祭りで、23日の夜はドウロ川の花火と街の祭りが続きます。公式プログラムの多くは無料です。'],
+      ['9~10월 포도 수확철', 'September–October (grape harvest)', '9〜10月（ブドウの収穫期）', '도루 계곡의 포도 수확철로, 와이너리 투어와 강 크루즈를 즐기기 좋습니다.', 'Harvest time in the Douro Valley, good for winery tours and river cruises.', 'ドウロ渓谷のブドウ収穫期で、ワイナリー巡りや川のクルーズに向いています。'],
+    ],
+    x: ['11~2월은 비가 잦고 강바람이 차니 우산과 겉옷을 챙기세요.', 'November–February brings frequent rain and chilly river winds, so pack an umbrella and a jacket.', '11〜2月は雨が多く川風が冷たいので、傘と上着を用意しましょう。'],
+  },
+  seville: {
+    p: [
+      ['성주간(부활절 전 주)', 'Holy Week (the week before Easter)', '聖週間（復活祭前の週）', '성당의 성상 행렬이 밤낮으로 거리를 지나는 세비야 최대의 종교 행사입니다. 날짜는 해마다 부활절에 따라 바뀝니다.', 'Seville’s biggest religious event, with processions carrying sacred images through the streets day and night; dates follow Easter each year.', '聖像を担いだ行列が昼夜を問わず街を練り歩くセビリア最大の宗教行事です。日付は毎年復活祭によって変わります。'],
+      ['4월 봄 축제(페리아)', 'April Fair (Feria de Abril)', '春祭り（フェリア・デ・アブリル）', '성주간 2주쯤 뒤 일주일 동안 축제장에 천막(카세타)이 늘어서고 플라멩코 드레스와 마차 행렬이 이어집니다.', 'About two weeks after Holy Week, a week of casetas (marquees), flamenco dresses and horse-drawn carriages at the fairground.', '聖週間の約2週間後の1週間、会場に小屋（カセタ）が並び、フラメンコドレスや馬車の行列が続きます。'],
+    ],
+    x: ['7~8월 한낮은 매우 더워 박물관·성당 실내 관람이나 이른 아침·저녁 일정으로 짜는 것이 좋습니다.', 'Midday in July–August is extremely hot; plan indoor sights or early-morning and evening outings.', '7〜8月の日中は非常に暑いので、屋内の見学か早朝・夕方の予定にするのがおすすめです。'],
+  },
+  milan: {
+    p: [
+      ['12월 초 오베이 오베이 마켓', 'Early December (Oh Bej! Oh Bej! market)', '12月初め（オ・ベイ・オ・ベイ市）', '밀라노의 수호성인 성 암브로시오 축일(12월 7일) 무렵 스포르체스코성 주변에 열리는 오래된 크리스마스 장터입니다.', 'Milan’s old Christmas fair, held around Sforza Castle near the feast of its patron Sant’Ambrogio (7 December).', 'ミラノの守護聖人・聖アンブロジウスの祝日（12月7日）の頃、スフォルツェスコ城周辺で開かれる伝統あるクリスマス市です。'],
+      ['4~6월·9~10월', 'April–June and September–October', '4〜6月・9〜10月', '시내 산책과 코모 호수 당일치기에 좋은 날씨입니다.', 'Good weather for city walks and day trips to Lake Como.', '街歩きやコモ湖への日帰りに向いた気候です。'],
+    ],
+    x: ['8월 중순에는 휴가로 문을 닫는 식당·상점이 많으니 미리 영업일을 확인하세요.', 'Around mid-August many restaurants and shops close for holidays, so check opening days.', '8月中旬は休暇で閉まる飲食店や店が多いので、営業日を確認しましょう。'],
+  },
+  lucerne: {
+    p: [
+      ['2월 카니발(파스나흐트, 2027년 2월 4~9일)', 'February carnival (Fasnacht, 4–9 February 2027)', '2月のカーニバル（ファスナハト、2027年2月4〜9日）', '새벽 굉음과 함께 시작해 가면과 브라스밴드 행렬이 며칠 동안 이어지는 루체른 최대의 축제입니다.', 'Lucerne’s biggest festival, starting with a dawn bang and days of masked parades and brass bands.', '早朝の号砲で始まり、仮面とブラスバンドの行列が数日続くルツェルン最大の祭りです。'],
+      ['6~9월 산악 시즌', 'June–September (mountain season)', '6〜9月（山のシーズン）', '배와 톱니바퀴 열차로 필라투스를 한 바퀴 도는 코스 등 산악 교통이 모두 운행합니다.', 'All mountain transport runs, including the boat-and-cogwheel loop over Pilatus.', '船と登山鉄道でピラトゥスを一周するコースなど、山岳交通がすべて運行します。'],
+    ],
+    x: ['겨울에는 필라투스 톱니바퀴 열차 등 일부 산악 교통이 운휴하니 운행 여부를 미리 확인하세요.', 'In winter some mountain transport, such as the Pilatus cogwheel railway, does not run; check before you go.', '冬はピラトゥスの登山鉄道など一部の山岳交通が運休するので、運行状況を事前に確認しましょう。'],
+  },
 };

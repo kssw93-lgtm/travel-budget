@@ -139,4 +139,35 @@ export const INTROS_6: Record<string, Intro> = {
       ['구시가지(성벽 안)', 'Old Québec (inside the walls)', '旧市街（城壁内）', '샤토 프롱트낙과 마켓, 쁘띠 샹플랭 거리를 걸어서 다닙니다.', 'Walk to the Château Frontenac, the market and Petit-Champlain.', 'シャトー・フロンテナックやマーケット、プチ・シャンプラン通りへ歩いて行けます。'],
     ],
   },
+  porto: {
+    o: ['도루강 하구 언덕에 자리한 포르투갈 제2의 도시로, 리베이라 강변 구시가지가 유네스코 세계유산입니다. 강 건너 빌라 노바 드 가이아의 와인 저장고에서 포트와인을 맛볼 수 있습니다.', 'Portugal’s second city, climbing the hills at the mouth of the Douro, with a UNESCO-listed riverside old town; across the river, the Vila Nova de Gaia cellars pour port wine.', 'ドウロ川の河口の丘に広がるポルトガル第2の都市で、川沿いのリベイラ旧市街は世界遺産です。対岸のヴィラ・ノヴァ・デ・ガイアのワイン貯蔵庫でポートワインを味わえます。'],
+    d: [2, 3],
+    s: [
+      ['리베이라·바이샤', 'Ribeira / Baixa', 'リベイラ・バイシャ', '강변 구시가지와 중심가로, 주요 명소를 걸어서 다닙니다. 언덕이 많아 짐이 크면 엘리베이터 있는 숙소가 편합니다.', 'The riverside old town and centre, walkable to the sights; it is hilly, so a lift helps with big luggage.', '川沿いの旧市街と中心部で、主な名所へ歩いて行けます。坂が多いので荷物が大きければエレベーター付きの宿が便利です。'],
+      ['볼사우·트린다드', 'Bolhão / Trindade', 'ボリャオン・トリンダーデ', '메트로 환승역 트린다드 주변으로, 공항 메트로가 바로 닿습니다.', 'Around the Trindade metro hub, with direct airport metro trains.', '地下鉄の乗換駅トリンダーデ周辺で、空港へのメトロが直通です。'],
+    ],
+  },
+  seville: {
+    o: ['안달루시아의 중심 도시로, 대성당·알카사르·인디아스 고문서관이 유네스코 세계유산입니다. 플라멩코와 타파스의 본고장이며, 봄에는 성주간과 4월 축제(페리아)로 도시가 가장 화려합니다.', 'Andalusia’s capital, whose cathedral, Alcázar and Archive of the Indies are UNESCO-listed; the home of flamenco and tapas, at its most festive in spring with Holy Week and the April Fair.', 'アンダルシアの中心都市で、大聖堂・アルカサル・インディアス古文書館は世界遺産です。フラメンコとタパスの本場で、春は聖週間と4月の春祭り（フェリア）で街が最も華やぎます。'],
+    d: [2, 3],
+    s: [
+      ['산타크루스', 'Santa Cruz', 'サンタ・クルス', '대성당과 알카사르 바로 옆 옛 유대인 지구로, 골목이 좁아 택시가 숙소 앞까지 못 들어가기도 합니다.', 'The old Jewish quarter beside the cathedral and Alcázar; lanes are narrow and taxis may not reach the door.', '大聖堂とアルカサルのすぐ隣の旧ユダヤ人街で、路地が狭くタクシーが宿の前まで入れないこともあります。'],
+      ['센트로(엔카르나시온 주변)', 'Centro (around Encarnación)', 'セントロ（エンカルナシオン周辺）', '쇼핑가와 메트로폴 파라솔이 있는 중심가로, 공항버스 정류장이 가깝습니다.', 'The shopping centre around the Metropol Parasol, close to airport-bus stops.', 'ショッピング街とメトロポル・パラソルのある中心部で、空港バスの停留所が近いです。'],
+    ],
+  },
+  milan: {
+    o: ['이탈리아 북부의 경제·패션 중심지로, 고딕 대성당 두오모와 다빈치의 「최후의 만찬」이 있습니다. 코모 호수·베네치아로 가는 기차가 많아 북부 여행의 거점이 됩니다.', 'Northern Italy’s business and fashion capital, home to the Gothic Duomo and Leonardo’s Last Supper, and a rail hub for Lake Como and Venice.', 'イタリア北部の経済とファッションの中心地で、ゴシック様式のドゥオーモとダ・ヴィンチの「最後の晩餐」があります。コモ湖やヴェネツィアへの列車が多く、北部旅行の拠点になります。'],
+    d: [2, 3],
+    s: [
+      ['두오모 주변', 'Around the Duomo', 'ドゥオーモ周辺', '대성당·갤러리아·스칼라 극장을 걸어서 다니는 중심가입니다.', 'The centre, walkable to the cathedral, the Galleria and La Scala.', '大聖堂・ガッレリア・スカラ座へ歩いて行ける中心部です。'],
+      ['중앙역 주변', 'Around Milano Centrale', 'ミラノ中央駅周辺', '고속열차와 공항버스가 출발해 다른 도시로 이동하기 편합니다.', 'Handy for high-speed trains and airport buses to other cities.', '高速列車や空港バスが発着し、他の都市への移動に便利です。'],
+    ],
+  },
+  lucerne: {
+    o: ['루체른 호숫가의 중세 도시로, 나무 다리 카펠교와 구시가지 벽화가 아름답습니다. 필라투스·리기 같은 산에 배와 산악 열차로 오를 수 있어 스위스 중부 여행의 거점이 됩니다.', 'A medieval lakeside town known for the wooden Chapel Bridge and painted old-town facades, and a base for boat-and-cogwheel trips up Pilatus and Rigi.', 'ルツェルン湖畔の中世の街で、木造のカペル橋と旧市街の壁画が美しいです。ピラトゥスやリギへ船と登山鉄道で登れ、スイス中部旅行の拠点になります。'],
+    d: [2, 3],
+    s: [
+      ['구시가지·호숫가', 'Old town / lakefront', '旧市街・湖畔', '카펠교와 선착장, 기차역이 모두 걸어서 닿는 중심가입니다.', 'The centre, walkable to the Chapel Bridge, the boat piers and the station.', 'カペル橋や船着き場、駅へすべて歩いて行ける中心部です。'],
+    ],
+  },
 };

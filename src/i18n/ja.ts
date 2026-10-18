@@ -126,7 +126,7 @@ export const ja: Messages = {
     perDayShort: '1人1日 約{amount}',
     notComputable: '価格データを補強中',
     title: '{city}の旅行費用ガイド',
-    metaTitle: '{city}旅行の費用は？1日の予算・現地の物価と旅のヒント',
+    metaTitle: '{city}旅行の費用・現地の物価と旅のヒント',
     metaDescription: '{city}の見どころと現地のコツ、観光施設の入場料、食べてみたい料理をまとめました。{city}の旅行費用は計算ツールですぐに試算できます。',
     lead: '{city}の見どころと現地のコツ、入場料、食べてみたい料理をまとめました。価格データの基準日：{date}',
     exampleTitle: '3泊4日の現地滞在費の目安（大人1人）',

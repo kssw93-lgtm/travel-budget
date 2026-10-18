@@ -29,6 +29,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['안네 프랑크의 집', 'Anne Frank House', 'アンネ・フランクの家', '안네 프랑크 가족이 숨어 지냈던 집. 입장권은 온라인으로만 팔아 미리 예약해야 합니다.', "The house where Anne Frank's family hid; tickets are sold online only, so book ahead.", 'アンネ一家が隠れ住んだ家。チケットはオンライン販売のみなので事前予約が必要です。'],
       ['운하 지구', 'Canal Ring', '運河地区', '17세기에 만든 운하와 좁고 긴 집들이 이어지는 구시가지. 운하 보트로 둘러보기 좋습니다.', 'The 17th-century canal ring lined with narrow gabled houses, best seen from a canal boat.', '17世紀の運河と細長い家並みが続く旧市街。運河ボートでの見学がおすすめです。'],
       ['반 고흐 미술관', 'Van Gogh Museum', 'ゴッホ美術館', '반 고흐 작품을 세계에서 가장 많이 소장한 미술관으로, 시간 지정 온라인 예약이 필요합니다.', 'The world’s largest Van Gogh collection; book a timed ticket online.', 'ゴッホ作品を世界で最も多く所蔵する美術館で、時間指定のオンライン予約が必要です。'],
+      ['하이네켄 익스피리언스', 'Heineken Experience', 'ハイネケン・エクスペリエンス', '옛 하이네켄 양조장 건물에서 맥주 역사와 양조 과정을 체험하는 전시관입니다.', 'The former Heineken brewery turned into an interactive tour of the beer\'s history and brewing.', '旧ハイネケン醸造所の建物で、ビールの歴史と醸造工程を体験できる展示館です。'],
     ],
     t: [
       ['자전거 도로(붉은 길)는 보행로가 아닙니다. 걸을 때 자전거 도로에 서 있지 않도록 조심하세요.', 'The red bike lanes are not footpaths; watch out and do not stand in them.', '赤い自転車道は歩道ではありません。歩くときに立ち止まらないよう注意しましょう。'],
@@ -79,6 +80,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['만리장성 무톈위·바다링', 'Great Wall at Mutianyu or Badaling', '万里の長城（慕田峪・八達嶺）', '시내에서 당일로 갈 수 있는 장성 구간. 무톈위는 비교적 덜 붐빕니다.', 'Wall sections reachable on a day trip; Mutianyu is usually less crowded.', '市内から日帰りできる長城。慕田峪は比較的すいています。'],
       ['이화원', 'Summer Palace', '頤和園', '호수와 회랑이 아름다운 황실 정원입니다.', 'An imperial garden of lakes and long painted corridors.', '湖と長い回廊が美しい皇室庭園です。'],
       ['천단 공원', 'Temple of Heaven', '天壇公園', '명·청 황제가 풍년을 빌던 제단으로, 둥근 기년전이 상징인 유네스코 세계유산입니다.', 'Where Ming and Qing emperors prayed for good harvests; its round Hall of Prayer is a UNESCO landmark.', '明・清の皇帝が豊作を祈った祭壇で、円形の祈年殿が象徴の世界遺産です。'],
+      ['중국국가박물관', 'National Museum of China', '中国国家博物館', '톈안먼 광장 동쪽의 대형 박물관으로, 고대부터 근현대까지 중국사를 다룹니다. 여권으로 사전 예약이 필요합니다.', 'A vast museum on the east side of Tiananmen Square covering Chinese history; book ahead with your passport.', '天安門広場東側の大型博物館で、古代から近現代までの中国史を扱います。パスポートで事前予約が必要です。'],
     ],
     t: [
       ['주요 관광지는 여권으로 실명 예약을 해야 하는 곳이 많습니다. 방문 전날까지 예약해 두세요.', 'Many major sights require real-name booking with your passport; book by the day before.', '主要観光地は旅券での実名予約が必要な所が多いので、前日までに予約を。'],
@@ -101,6 +103,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['그랑플라스', 'Grand-Place', 'グラン・プラス', '고딕 시청과 길드 하우스로 둘러싸인 광장. 밤 조명이 특히 아름답습니다.', 'The square framed by the Gothic town hall and guild houses, lovely when lit at night.', 'ゴシック様式の市庁舎とギルドハウスに囲まれた広場。夜のライトアップが特に美しいです。'],
       ['아토미움', 'Atomium', 'アトミウム', '1958년 만국박람회 때 세운 원자 모양 건축물. 구 안으로 들어가 전망을 볼 수 있습니다.', 'The atom-shaped landmark from the 1958 World Expo; you can go inside its spheres.', '1958年の万博で建てられた原子の形の建物。球体の中に入れます。'],
       ['만화 벽화 거리', 'Comic Strip Route', 'コミック壁画ルート', '틴틴 등 벨기에 만화 캐릭터 벽화가 시내 곳곳에 그려져 있습니다.', 'Murals of Tintin and other Belgian comic heroes are painted around the city.', 'タンタンなどベルギー漫画の壁画が街のあちこちに描かれています。'],
+      ['벨기에 왕립미술관', 'Royal Museums of Fine Arts of Belgium', 'ベルギー王立美術館', '브뤼겔의 작품과 마그리트 미술관을 함께 둔 미술관 단지로, 몽데자르 언덕 위에 있습니다.', 'A museum complex on the Mont des Arts with Bruegel and the Magritte Museum.', 'ブリューゲルの作品とマグリット美術館を擁する美術館群で、芸術の丘にあります。'],
     ],
     t: [
       ['그랑플라스 주변에는 식당이 많습니다. 주문 전에 메뉴와 결제 조건을 확인하세요.', 'There are many restaurants around Grand-Place. Check the menu and payment terms before ordering.', 'グランプラス周辺には飲食店が多くあります。注文前にメニューと支払い条件を確認しましょう。'],
@@ -113,6 +116,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['어부의 요새', "Fisherman's Bastion", '漁夫の砦', '부다 언덕 위 전망 테라스. 강 건너 국회의사당이 정면으로 보입니다.', 'Viewing terraces on Buda hill facing the Parliament across the river.', 'ブダの丘の展望テラス。対岸の国会議事堂が正面に見えます。'],
       ['세체니 온천', 'Széchenyi Thermal Bath', 'セーチェーニ温泉', '노천 온천탕이 있는 대형 온천. 겨울에도 야외 탕에서 즐길 수 있습니다.', 'A grand spa with outdoor thermal pools, enjoyed even in winter.', '屋外の温泉プールがある大型温泉。冬も屋外で楽しめます。'],
       ['헝가리 국립미술관(부다 성)', 'Hungarian National Gallery (Buda Castle)', 'ハンガリー国立美術館（ブダ城）', '부다 성 왕궁 건물의 미술관으로, 성 언덕에서 다뉴브강과 국회의사당이 보입니다.', 'Housed in the Buda Castle palace, with views over the Danube and Parliament from the hill.', 'ブダ城の王宮にある美術館で、城の丘からドナウ川と国会議事堂を望めます。'],
+      ['겔레르트 온천', 'Gellért Thermal Bath', 'ゲッレールト温泉', '아르누보 양식 실내 수영장과 온천탕으로 유명한 부다 쪽 온천으로, 자유의 다리 옆에 있습니다.', 'Buda-side baths famous for their Art Nouveau pool hall, beside Liberty Bridge.', 'アール・ヌーヴォー様式の屋内プールと温泉で知られるブダ側の温泉で、自由橋のたもとにあります。'],
     ],
     t: [
       ['밤에 다뉴브강 유람선을 타면 조명이 켜진 국회의사당과 다리를 볼 수 있습니다.', 'An evening Danube cruise shows the Parliament and bridges lit up.', '夜のドナウ川クルーズでライトアップされた国会議事堂と橋が見られます。'],

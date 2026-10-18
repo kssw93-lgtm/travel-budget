@@ -103,6 +103,7 @@ export const NOTES_3: Record<string, Compact> = {
       ['할그림스키르캬 교회', 'Hallgrímskirkja', 'ハットルグリムス教会', '현무암 기둥을 본뜬 교회. 탑에 오르면 알록달록한 지붕들이 보입니다.', 'The basalt-inspired church; its tower overlooks colourful rooftops.', '玄武岩の柱を模した教会。塔からカラフルな屋根が見えます。'],
       ['하르파 콘서트홀', 'Harpa Concert Hall', 'ハルパ', '유리 외벽이 빛에 따라 색이 바뀌는 항구 앞 콘서트홀입니다.', 'The harbourside concert hall whose glass facade changes with the light.', 'ガラスの外壁が光で色を変える港のコンサートホールです。'],
       ['골든 서클', 'Golden Circle', 'ゴールデンサークル', '싱벨리어 국립공원·게이시르 간헐천·굴포스 폭포를 하루에 도는 코스입니다.', 'A day loop of Þingvellir, the Geysir area and Gullfoss waterfall.', 'シンクヴェトリル国立公園、ゲイシール、グトルフォスの滝を1日で巡るコースです。'],
+      ['페를란', 'Perlan', 'ペルラン', '언덕 위 온수 저장탱크를 활용한 자연 전시관으로, 실내 얼음 동굴과 360도 전망대가 있습니다.', 'A nature museum built on hilltop hot-water tanks, with an indoor ice cave and 360-degree deck.', '丘の上の温水タンクを活用した自然展示館で、屋内の氷の洞窟と360度の展望デッキがあります。'],
     ],
     t: [
       ['날씨와 도로 사정이 빨리 바뀌니 운전하거나 투어에 나가기 전에 공식 기상·도로 정보를 확인하세요.', 'Weather and roads change fast; check official weather and road updates before heading out.', '天気と道路状況が急変するので、出発前に公式の気象・道路情報を確認しましょう。'],

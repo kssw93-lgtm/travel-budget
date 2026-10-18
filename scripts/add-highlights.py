@@ -8,6 +8,11 @@ esc = lambda x: x.replace('\\', '\\\\').replace("'", "\\'")
 src_path = f'{root}/src/data/city-guide-sources.ts'
 src = open(src_path, encoding='utf-8').read().rstrip()
 assert src.endswith('};')
+# NOTES_EXTRA(city-guides-4.ts 끝)에 볼거리가 더 있는 도시는 번호가 어긋나므로 손으로 넣는다.
+extra = open(f'{root}/src/data/city-guides-4.ts', encoding='utf-8').read().split('export const NOTES_EXTRA')[-1]
+blocked = [c for c in data if re.search(r"\n  '?" + re.escape(c) + r"'?: \{", extra)]
+if blocked:
+    sys.exit(f'NOTES_EXTRA에도 있는 도시라 자동으로 넣지 않습니다: {blocked}')
 added = []
 for city, items in data.items():
     done = False

@@ -8,6 +8,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['프라우엔 교회', 'Frauenkirche', '聖母教会（フラウエン教会）', '전쟁으로 무너졌다가 2005년 다시 지어진 바로크 교회. 돔 전망대에서 구시가지가 내려다보입니다.', 'The Baroque church destroyed in the war and rebuilt in 2005; its dome offers views over the old town.', '戦争で崩れ2005年に再建されたバロック様式の教会。ドームの展望台から旧市街が見渡せます。'],
       ['츠빙거 궁전', 'Zwinger', 'ツヴィンガー宮殿', '바로크 양식의 궁전. 안의 미술관에 라파엘로의 「시스티나 성모」가 있습니다.', 'A Baroque palace complex whose gallery holds Raphael’s Sistine Madonna.', 'バロック様式の宮殿。中の美術館にラファエロの「システィーナの聖母」があります。'],
       ['군주의 행렬', 'Procession of Princes', '君主の行列', '102m 길이의 벽에 마이센 도자기 타일로 작센 군주들을 그린 벽화입니다.', 'A 102-metre mural of Saxon rulers made from Meissen porcelain tiles.', '長さ102mの壁にマイセン磁器のタイルで歴代ザクセン君主を描いた壁画です。'],
+      ['녹색 금고', 'Green Vault (Grünes Gewölbe)', '緑の丸天井', '작센 왕가의 보물을 모은 레지덴츠 궁전 안 보물관으로, 역사 녹색 금고는 시간 지정 입장권이 필요합니다.', 'The Saxon royal treasury in the Residenzschloss; the Historic Green Vault needs a timed ticket.', 'ザクセン王家の宝物を集めたレジデンツ城内の宝物館で、歴史的緑の丸天井は時間指定券が必要です。'],
     ],
     t: [
       ['드레스덴의 명물 과자 슈톨렌(Stollen)은 크리스마스 시즌의 대표 간식이라 마켓에서 꼭 맛볼 만합니다.', 'Dresden Stollen, the city’s famous fruit loaf, is the classic Christmas treat to try at the market.', 'ドレスデン名物のシュトレンはクリスマスシーズンの定番菓子なので、マーケットでぜひ味わいましょう。'],
@@ -19,6 +20,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['뉘른베르크 성', 'Imperial Castle', 'ニュルンベルク城（カイザーブルク）', '구시가지 언덕 위의 중세 황제 성. 성벽에서 붉은 지붕의 구시가지가 한눈에 보입니다.', 'The medieval imperial castle above the old town, with views over its red rooftops.', '旧市街の丘に建つ中世の皇帝の城。城壁から赤い屋根の旧市街が一望できます。'],
       ['아름다운 분수', 'Schöner Brunnen', '美しの泉', '중앙 광장의 고딕 분수. 철망의 황동 고리를 돌리면 행운이 온다는 전승이 있습니다.', 'A Gothic fountain on the main square. Local lore says turning its brass ring brings good luck.', '中央広場にあるゴシック様式の噴水。柵の真鍮の輪を回すと幸運が訪れるという言い伝えがあります。'],
       ['나치 전당대회장 기록관', 'Documentation Center Nazi Party Rally Grounds', 'ナチ党大会会場記録センター', '옛 나치 전당대회장의 미완공 의회관 건물 안에 있는 기록관으로, 그 역사를 보여줍니다.', 'A documentation centre inside the unfinished Congress Hall of the former Nazi rally grounds.', '旧ナチ党大会会場の未完成の議会ホールの中にある記録センターで、その歴史を伝えます。'],
+      ['게르만 국립박물관', 'Germanisches Nationalmuseum', 'ゲルマン国立博物館', '독일어권 최대 규모의 문화사 박물관으로, 뒤러의 작품과 세계에서 가장 오래된 지구본 중 하나가 있습니다.', 'The largest museum of German cultural history, with Dürer works and one of the oldest globes.', 'ドイツ語圏最大の文化史博物館で、デューラーの作品や現存最古級の地球儀があります。'],
     ],
     t: [
       ['손가락만 한 뉘른베르크 소시지 3개를 빵에 끼운 「드라이 임 베클라」가 대표 길거리 음식입니다.', '“Drei im Weggla”, three small Nuremberg sausages in a roll, is the classic street snack.', '小さなニュルンベルク・ソーセージ3本をパンに挟んだ「ドライ・イム・ヴェクラ」が定番の屋台グルメです。'],
@@ -31,6 +33,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['대성당 앞 크리스마스 마켓', 'Christmas Market at the Cathedral', '大聖堂前のクリスマスマーケット', '대성당을 배경으로 열리는 쾰른의 대표 마켓. 시내에 여러 개의 마켓이 함께 열립니다.', 'The city’s signature market set against the cathedral, one of several across town.', '大聖堂を背景に開かれるケルンを代表するマーケット。市内には複数のマーケットが同時に開かれます。'],
       ['호엔촐레른 다리', 'Hohenzollern Bridge', 'ホーエンツォレルン橋', '난간에 사랑의 자물쇠가 가득한 철교. 강 건너편에서 보는 대성당 야경이 유명합니다.', 'The railway bridge covered in love locks, with famous night views of the cathedral from across the river.', '欄干に愛の南京錠が並ぶ鉄道橋。対岸から見る大聖堂の夜景が有名です。'],
       ['초콜릿 박물관', 'Chocolate Museum', 'チョコレート博物館', '라인강 변에 있는 초콜릿 제조 과정 전시관입니다.', 'A riverside museum showing how chocolate is made.', 'ライン川沿いにあるチョコレート製造の展示館です。'],
+      ['루트비히 미술관', 'Museum Ludwig', 'ルートヴィヒ美術館', '대성당 바로 옆 현대미술관으로, 피카소와 팝아트 컬렉션이 유명합니다.', 'A modern art museum right next to the cathedral, known for Picasso and Pop Art.', '大聖堂のすぐ隣の現代美術館で、ピカソとポップアートのコレクションが有名です。'],
     ],
     t: [
       ['쾰른 맥주 쾰슈(Kölsch)는 작은 잔에 나오고, 잔 위에 코스터를 올려 두면 그만 마시겠다는 뜻입니다.', 'Kölsch beer comes in small glasses; put your coaster on top to signal you are done.', 'ケルンのビール「ケルシュ」は小さなグラスで出され、コースターをグラスの上に置くと「もう十分」の合図です。'],
@@ -43,6 +46,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['스트라스부르 대성당', 'Strasbourg Cathedral', 'ストラスブール大聖堂', '분홍빛 사암으로 지은 고딕 대성당. 안에 정교한 천문시계가 있습니다.', 'A pink-sandstone Gothic cathedral with an intricate astronomical clock inside.', 'ピンク色の砂岩で造られたゴシック大聖堂。中に精巧な天文時計があります。'],
       ['쁘띠 프랑스', 'Petite France', 'プティット・フランス', '운하를 따라 목조 가옥이 늘어선 옛 동네로, 유네스코 세계유산 구역에 속합니다.', 'The canal-side quarter of half-timbered houses, part of the UNESCO-listed old town.', '運河沿いに木組みの家が並ぶ古い地区で、世界遺産地区に含まれます。'],
       ['운하 보트 투어', 'Canal boat tour', '運河ボートツアー', '일 강을 따라 구시가지와 유럽 의회 지구를 도는 유람선입니다.', 'River cruises on the Ill circle the old town and the European Parliament district.', 'イル川に沿って旧市街と欧州議会地区を巡る遊覧船です。'],
+      ['유럽의회', 'European Parliament', '欧州議会', '유럽의회 본회의장이 있는 곳으로, 방문자 센터인 파를라멘타리움에서 EU 이야기를 볼 수 있습니다.', 'Home of the Parliament\'s plenary chamber, with the Parlamentarium visitor centre.', '欧州議会の本会議場がある所で、ビジターセンター「パーラメンタリウム」でEUについて学べます。'],
     ],
     t: [
       ['알자스의 대표 음식으로 슈크루트와 타르트 플랑베를 맛보고, 지역 와인도 함께 즐겨 보세요.', 'Try Alsatian specialities such as choucroute and tarte flambée, along with local wines.', 'アルザスの名物料理、シュークルートやタルト・フランベを、地元のワインと一緒に味わってみましょう。'],
@@ -69,6 +73,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['호엔잘츠부르크 요새', 'Hohensalzburg Fortress', 'ホーエンザルツブルク城', '언덕 위의 거대한 중세 요새. 푸니쿨라로 올라가 시내를 내려다볼 수 있습니다.', 'A huge medieval fortress above the city, reached by funicular, with sweeping views.', '丘の上の巨大な中世の城塞。ケーブルカーで上り、街を見下ろせます。'],
       ['모차르트 생가', 'Mozart’s Birthplace', 'モーツァルトの生家', '게트라이데 거리에 있는 모차르트가 태어난 집으로 지금은 박물관입니다.', 'The house on Getreidegasse where Mozart was born, now a museum.', 'ゲトライデガッセにあるモーツァルトが生まれた家で、現在は博物館です。'],
       ['미라벨 정원', 'Mirabell Gardens', 'ミラベル庭園', '영화 「사운드 오브 뮤직」 촬영지로 알려진 정원입니다.', 'Gardens known as a filming location of The Sound of Music.', '映画「サウンド・オブ・ミュージック」のロケ地として知られる庭園です。'],
+      ['헬브룬 궁전', 'Hellbrunn Palace', 'ヘルブルン宮殿', '물을 뿜는 장난 분수로 유명한 대주교의 여름 궁전으로, 시내 남쪽에 있습니다. 분수 투어는 계절 운영입니다.', 'The prince-archbishop\'s summer palace south of town, famous for its trick fountains (seasonal tours).', '仕掛け噴水で知られる大司教の夏の離宮で、市の南にあります。噴水ツアーは季節営業です。'],
     ],
     t: [
       ['「고요한 밤」이 1818년 처음 공연된 근교 오베른도르프의 기념 예배당을 방문해 보세요.', 'Visit the memorial chapel in nearby Oberndorf, where “Silent Night” was first performed in 1818.', '「きよしこの夜」が1818年に初演された、近郊オーベルンドルフの記念礼拝堂を訪ねてみましょう。'],
@@ -81,6 +86,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['성 마르코 성당', 'St. Mark’s Church', '聖マルコ教会', '알록달록한 타일 지붕에 문장이 그려진 교회로 자그레브의 상징입니다.', 'The church with a colourful tiled roof showing coats of arms, a symbol of the city.', 'カラフルなタイル屋根に紋章が描かれた教会で、ザグレブの象徴です。'],
       ['반 옐라치치 광장', 'Ban Jelačić Square', 'イェラチッチ総督広場', '시내 중심 광장으로 트램과 사람들이 모이는 곳입니다.', 'The main square where trams and people converge.', '街の中心の広場で、トラムと人が集まる場所です。'],
       ['실연 박물관', 'Museum of Broken Relationships', '失恋博物館', '헤어진 연인들이 기증한 물건과 사연을 전시하는 독특한 박물관입니다.', 'A quirky museum of objects and stories donated by former lovers.', '別れた恋人たちが寄贈した品物とエピソードを展示するユニークな博物館です。'],
+      ['플리트비체 호수 국립공원', 'Plitvice Lakes National Park', 'プリトヴィツェ湖群国立公園', '계단식 호수와 폭포가 이어지는 유네스코 세계유산으로, 자그레브에서 버스로 약 2시간 반이라 당일로 다녀옵니다.', 'UNESCO-listed terraced lakes and waterfalls, about 2.5 hours by bus from Zagreb as a day trip.', '階段状の湖と滝が続く世界遺産で、ザグレブからバスで約2時間半、日帰りで行けます。'],
     ],
     t: [
       ['구시가지(고르니 그라드)까지는 짧은 푸니쿨라가 다녀 언덕을 쉽게 오를 수 있습니다.', 'A short funicular climbs to the Upper Town, saving you the uphill walk.', '旧市街（グォルニ・グラード）までは短いケーブルカーで上れます。'],
@@ -108,6 +114,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['탈린 구시가지', 'Tallinn Old Town', 'タリン旧市街', '성벽과 탑이 잘 남아 있는 중세 도시로 유네스코 세계유산입니다.', 'A well-preserved medieval town of walls and towers, listed by UNESCO.', '城壁と塔がよく残る中世の街で、世界遺産です。'],
       ['톰페아 언덕 전망대', 'Toompea viewing platforms', 'トームペア丘の展望台', '구시가지의 붉은 지붕과 바다가 한눈에 보이는 전망대입니다.', 'Viewpoints over the old town’s red roofs and the sea.', '旧市街の赤い屋根と海が一望できる展望台です。'],
       ['알렉산드르 넵스키 대성당', 'Alexander Nevsky Cathedral', 'アレクサンドル・ネフスキー大聖堂', '양파 모양 돔이 있는 러시아 정교회 대성당입니다.', 'An onion-domed Russian Orthodox cathedral on Toompea hill.', '玉ねぎ型のドームを持つロシア正教の大聖堂です。'],
+      ['수상비행기 항구(에스토니아 해양박물관)', 'Seaplane Harbour (Estonian Maritime Museum)', '水上飛行機格納庫(エストニア海洋博物館)', '옛 수상비행기 격납고를 개조한 해양박물관으로, 잠수함 내부에 들어가 볼 수 있습니다.', 'A maritime museum in old seaplane hangars, where you can climb inside a submarine.', 'かつての水上飛行機格納庫を改装した海洋博物館で、潜水艦の内部に入れます。'],
     ],
     t: [
       ['헬싱키와 탈린은 페리로 약 2시간 거리입니다. 두 도시를 함께 여행한다면 공식 운항 시간표를 확인하세요.', 'Ferries between Helsinki and Tallinn take about two hours. Check the operators’ schedules if visiting both cities.', 'ヘルシンキとタリンはフェリーで約2時間です。両方を訪れる場合は運航会社の時刻表を確認しましょう。'],
@@ -120,6 +127,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['로열 마일', 'The Royal Mile', 'ロイヤル・マイル', '에든버러성과 홀리루드하우스 궁전을 잇는 구시가지의 역사 거리입니다. 골목길과 교회, 상점과 식당을 따라 걸어보세요.', 'This historic Old Town route links Edinburgh Castle with the Palace of Holyroodhouse. Walk it for its closes, churches, shops and places to eat.', 'エディンバラ城とホリールードハウス宮殿を結ぶ旧市街の歴史ある通りです。路地や教会、店、飲食店をたどって歩いてみましょう。'],
       ['홀리루드하우스 궁전', 'Palace of Holyroodhouse', 'ホリールードハウス宮殿', '왕궁의 접견실과 메리 여왕의 방, 홀리루드 수도원 유적을 둘러볼 수 있습니다. 로열 마일의 동쪽 끝에 있습니다.', 'Explore the State Apartments, rooms associated with Mary, Queen of Scots, and the ruins of Holyrood Abbey at the eastern end of the Royal Mile.', 'ロイヤル・マイルの東端にあり、公式居室、メアリー女王ゆかりの部屋、ホリールード修道院の遺跡を見学できます。'],
       ['아서스 시트', 'Arthur’s Seat', 'アーサーズ・シート', '시내 옆 옛 화산 언덕. 정상에 오르면 도시와 바다가 한눈에 보입니다.', 'An extinct volcano beside the city; the summit views take in the city and the sea.', '街のすぐ横にある死火山の丘。頂上から街と海が一望できます。'],
+      ['스코틀랜드 국립박물관', 'National Museum of Scotland', 'スコットランド国立博物館', '스코틀랜드 역사와 자연사, 세계 문화를 다루는 박물관으로, 옥상 테라스에서 성이 보입니다.', 'Scottish history, natural history and world cultures, with a rooftop terrace facing the castle.', 'スコットランドの歴史と自然史、世界の文化を扱う博物館で、屋上テラスから城が見えます。'],
     ],
     t: [
       ['8월에는 에든버러에서 여섯 개 축제가 열립니다. 여름 일정은 약 6개월 전부터 계획하라는 공식 안내가 있으니 행사와 숙소를 미리 살펴보세요.', 'Six festivals take place in Edinburgh in August. The official advice is to plan summer trips about six months ahead, so check events and accommodation early.', '8月のエディンバラでは6つのフェスティバルが開催されます。夏の旅行は約6か月前から計画するよう公式に案内されているため、催しや宿泊先を早めに確認しましょう。'],
@@ -145,6 +153,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['프랑크푸르트 대성당', 'Frankfurt Cathedral', 'フランクフルト大聖堂', '신성 로마 제국 황제의 대관식이 열렸던 고딕 대성당으로, 탑에 오를 수 있습니다.', 'The Gothic cathedral where Holy Roman emperors were crowned; you can climb the tower.', '神聖ローマ皇帝の戴冠式が行われたゴシック大聖堂で、塔に登れます。'],
       ['마인강 변 박물관 거리', 'Museumsufer', '博物館通り（ムゼウムスウーファー）', '마인강 남쪽 강변에 미술관·박물관이 줄지어 있습니다.', 'A row of museums and galleries along the south bank of the Main.', 'マイン川の南岸に美術館や博物館が並んでいます。'],
       ['마인 타워', 'Main Tower', 'マインタワー', '고층 빌딩 전망대에서 「마인해튼」 스카이라인을 볼 수 있습니다.', 'A skyscraper viewing platform over the “Mainhattan” skyline.', '高層ビルの展望台から「マインハッタン」のスカイラインが見られます。'],
+      ['슈테델 미술관', 'Städel Museum', 'シュテーデル美術館', '마인강변 박물관 거리의 대표 미술관으로, 중세부터 현대까지 유럽 회화를 소장합니다.', 'The flagship of the riverside Museumsufer, with European art from the Middle Ages to today.', 'マイン川沿いの博物館通りを代表する美術館で、中世から現代までのヨーロッパ絵画を所蔵します。'],
     ],
     t: [
       ['뢰머베르크·대성당·마인 타워는 가까이 모여 있어 하루 도심 동선으로 묶어 다니기 좋습니다.', 'Römerberg, the cathedral and the Main Tower are close together, so they make an easy one-day city-centre route.', 'レーマーベルク・大聖堂・マインタワーは近くに集まっているので、1日の市内ルートにまとめやすいです。'],
@@ -157,6 +166,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['박물관 섬', 'Museum Island', '博物館島', '슈프레강의 섬에 다섯 개 박물관이 모인 유네스코 세계유산입니다.', 'A UNESCO-listed island in the Spree with five major museums.', 'シュプレー川の島に5つの博物館が集まる世界遺産です。'],
       ['이스트 사이드 갤러리', 'East Side Gallery', 'イーストサイドギャラリー', '남아 있는 베를린 장벽 위에 그려진 대형 야외 벽화 전시입니다.', 'Murals painted on the longest surviving stretch of the Berlin Wall.', '残されたベルリンの壁に描かれた大きな屋外壁画です。'],
       ['제국 의회 의사당 돔', 'Reichstag dome', '連邦議会議事堂のドーム', '유리 돔에 올라 시내를 볼 수 있으며 사전 등록이 필요합니다.', 'Climb the glass dome for city views; advance registration is required.', 'ガラスのドームに上って市内を眺められ、事前登録が必要です。'],
+      ['베를린 장벽 기념관', 'Berlin Wall Memorial', 'ベルリンの壁記念館', '베르나우어 거리에 장벽과 감시 구역이 남아 있는 야외 기념관으로, 전망대에서 옛 경계선을 내려다볼 수 있습니다.', 'An open-air memorial on Bernauer Strasse preserving a stretch of wall and death strip, with a viewing tower.', 'ベルナウアー通りに壁と緩衝地帯が残る屋外記念館で、展望台からかつての境界を見下ろせます。'],
     ],
     t: [
       ['명소가 여러 구역에 흩어져 있으니 하루 동선을 구역별로 묶고, 교통권은 BVG 공식 안내에서 일정에 맞게 고르세요.', 'Sights are spread across several districts, so group each day by area and pick the right ticket from BVG’s official guide.', '名所が複数の地区に散らばっているので、1日の動線を地区ごとにまとめ、乗車券はBVGの公式案内で日程に合わせて選びましょう。'],
@@ -169,6 +179,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['그로스뮌스터', 'Grossmünster', 'グロスミュンスター', '두 개의 탑이 상징인 대성당으로, 탑에 오르면 시내와 호수가 보입니다.', 'The twin-towered church; climb a tower for views of the city and lake.', '2本の塔が象徴の大聖堂で、塔に登ると街と湖が見えます。'],
       ['반호프 거리', 'Bahnhofstrasse', 'バーンホフ通り', '중앙역에서 호수까지 이어지는 고급 쇼핑 거리입니다.', 'The upmarket shopping street from the main station to the lake.', '中央駅から湖まで続く高級ショッピング街です。'],
       ['취리히 호수', 'Lake Zurich', 'チューリッヒ湖', '호숫가 산책로와 유람선이 있습니다.', 'Lakeside promenades and boat trips.', '湖畔の遊歩道や遊覧船があります。'],
+      ['스위스 국립박물관', 'Swiss National Museum', 'スイス国立博物館', '중앙역 바로 옆 성 모양 건물의 박물관으로, 스위스 역사와 문화를 다룹니다.', 'A castle-like museum right beside the main station, covering Swiss history and culture.', '中央駅のすぐ隣にある城のような建物の博物館で、スイスの歴史と文化を紹介します。'],
     ],
     t: [
       ['트램·버스는 목적지에 따라 필요한 ZVV 구역과 표가 달라지니 운영사 공식 안내에서 확인하세요.', 'The ZVV zone and ticket you need depend on your destination; check the operator’s official guide.', 'トラムやバスは目的地によって必要なZVVのゾーンと乗車券が変わるので、公式案内で確認しましょう。'],
@@ -194,6 +205,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['검은 머리 전당', 'House of the Blackheads', 'ブラックヘッドの会館', '시청 광장에 있는 화려한 길드 건물로, 리가 구시가지를 대표하는 역사 건축물입니다.', 'The ornate guild house on Town Hall Square, one of the Old Town’s landmark historic buildings.', '市庁舎広場にある豪華なギルド会館で、リガ旧市街を代表する歴史的建築です。'],
       ['아르누보 거리', 'Art Nouveau District', 'アール・ヌーヴォー地区', '알베르타 거리를 중심으로 장식이 화려한 아르누보 건물이 늘어서 있습니다.', 'Alberta iela and nearby streets are lined with ornate Art Nouveau facades.', 'アルベルタ通りを中心に装飾豊かなアール・ヌーヴォー建築が並びます。'],
       ['리가 중앙시장', 'Riga Central Market', 'リガ中央市場', '옛 비행선 격납고를 개조한 대형 시장입니다.', 'A huge market housed in former Zeppelin hangars.', '旧ツェッペリン格納庫を改装した大きな市場です。'],
+      ['라트비아 국립미술관', 'Latvian National Museum of Art', 'ラトビア国立美術館', '에스플라나데 공원 옆 미술관으로, 라트비아와 발트 지역의 미술을 볼 수 있습니다.', 'Beside Esplanade Park, showing Latvian and Baltic art.', 'エスプラナーデ公園の隣にある美術館で、ラトビアとバルト地域の美術を展示します。'],
     ],
     t: [
       ['구시가지는 작아서 걸어서 둘러보기 좋습니다.', 'The Old Town is compact and easy to explore on foot.', '旧市街は小さく、歩いて回りやすいです。'],

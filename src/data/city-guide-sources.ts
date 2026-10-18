@@ -1152,4 +1152,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'wellington:h2': 'https://www.wellingtonnz.com/visit/plan-your-trip/24-hours-in-wellington',
   'wellington:h3': 'https://www.wellingtonnz.com/visit/plan-your-trip/24-hours-in-wellington',
   'wellington:t1': 'https://www.metlink.org.nz/getting-started/airport-express',
+  'graz:h1': 'https://www.museum-joanneum.at/en/your-visit/admission',
+  'graz:h2': 'https://www.graztourismus.at/de/sightseeing-kultur/graz-entdecken/winter-fruehling',
+  'graz:h3': 'https://www.graztourismus.at/de/essen-trinken-shoppen/genusshauptstadt-graz/verkostungen',
+  'graz:t1': 'https://www.verbundlinie.at/en/service-network/service/arriving-in-graz',
 };

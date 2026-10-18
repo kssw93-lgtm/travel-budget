@@ -3583,6 +3583,34 @@
     "missing": [],
     "computable": true
   },
+  "graz": {
+    "counts": {
+      "food": 4,
+      "transport": 1,
+      "attraction": 1
+    },
+    "baskets": {
+      "pass": 1,
+      "ride": 0,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 1,
+      "ride": 0,
+      "meal": 4,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "copenhagen": {
     "counts": {
       "food": 3,

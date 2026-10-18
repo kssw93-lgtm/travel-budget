@@ -489,4 +489,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['현금 승차는 2027년 3월까지 단계적으로 없어지니, 스내퍼 카드나 신용카드 탭으로 타세요.', 'Cash fares are being phased out by March 2027; use a Snapper card or contactless card.', '現金での乗車は2027年3月までに段階的に廃止されるので、スナッパーカードかクレジットカードのタッチ決済で乗りましょう。'],
   },
+  graz: {
+    p: [
+      ['9~10월', 'September–October', '9〜10月', '포도 수확 철로, 남부 슈타이어마르크 와인 산지와 함께 둘러보기 좋습니다.', 'Harvest time — pair the city with the South Styrian wine country.', 'ブドウの収穫期で、南シュタイアーマルクのワイン産地と合わせて巡るのに良い時期です。'],
+    ],
+    x: ['19세 미만은 요아네움 박물관(에겐베르크 성 포함)에 무료로 입장할 수 있습니다.', 'Visitors under 19 enter Joanneum museums, including Schloss Eggenberg, free.', '19歳未満はヨアネウム博物館（エッゲンベルク城を含む）に無料で入場できます。'],
+  },
 };

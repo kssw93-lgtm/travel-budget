@@ -1310,6 +1310,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "graz",
+    "country": "오스트리아",
+    "countryEn": "Austria",
+    "nameKo": "그라츠",
+    "nameEn": "Graz",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "copenhagen",
     "country": "덴마크",
     "countryEn": "Denmark",

@@ -462,4 +462,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'canberra:x': 'https://www.transport.act.gov.au/tickets-and-myway/fares',
   'wellington:p1': 'https://www.wellingtonnz.com/visit/eat-and-drink/brunch-by-the-beach',
   'wellington:x': 'https://www.metlink.org.nz/getting-started/tickets-and-fares',
+  'graz:p1': 'https://www.graztourismus.at/incoming/de/programm-vorschlaege/steirischer-wein-und-backhenderl_gp-2474',
+  'graz:x': 'https://www.museum-joanneum.at/en/palace-and-gardens-schloss-eggenberg/your-visit/admission/free-entry',
 };

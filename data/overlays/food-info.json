@@ -5317,5 +5317,20 @@
     "ko": "바닷가 마을에서 맛보는 생선 튀김과 감자튀김",
     "en": "Fish and chips by the sea",
     "ja": "海辺の町で味わうフィッシュ・アンド・チップス"
+  },
+  "graz:Backhendl": {
+    "ko": "빵가루를 입혀 튀긴 슈타이어마르크식 닭튀김",
+    "en": "Styrian breaded fried chicken",
+    "ja": "パン粉をつけて揚げたシュタイアーマルク風のフライドチキン"
+  },
+  "graz:Pumpkin-Seed Oil Salad": {
+    "ko": "호박씨 기름을 뿌린 샐러드와 콩 샐러드",
+    "en": "Salads dressed with Styrian pumpkin-seed oil",
+    "ja": "シュタイアーマルクのパンプキンシードオイルをかけたサラダ"
+  },
+  "graz:Brettljause": {
+    "ko": "햄·소시지·치즈를 나무판에 담아 내는 슈타이어마르크식 모둠",
+    "en": "Styrian platter of cured meats and cheese on a wooden board",
+    "ja": "ハムやソーセージ、チーズを木の板に盛ったシュタイアーマルク風の盛り合わせ"
   }
 }

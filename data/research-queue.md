@@ -255,6 +255,8 @@
 | 트빌리시 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 칸쿤 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 칸쿤 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 그라츠 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 그라츠 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 코펜하겐 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 코펜하겐 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 스톡홀름 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1116,6 +1118,9 @@
 | WLG-TR-001 | 웰링턴 | 메트링크 버스 1구간(스내퍼 오프피크~현금) | 1.7~3 NZD | A | 예 | 재검증 | [Metlink](https://www.metlink.org.nz/getting-started/tickets-and-fares) |
 | WLG-AT-001 | 웰링턴 | 테 파파 (외국인 성인) | 35 NZD | A | 예 | 재검증 | [Te Papa](https://www.tepapa.govt.nz/visit/tickets-international-visitor-museum-entry) |
 | WLG-AT-002 | 웰링턴 | 테 파파 (16세 미만 무료) | 0 NZD | A | 예 | 재검증 | [Te Papa](https://www.tepapa.govt.nz/visit/tickets-international-visitor-museum-entry) |
+| GRZ-TR-001 | 그라츠 | 그라츠 1시간권(구역 101) | 3.2~3.3 EUR | A | 예 | 재검증 | [Holding Graz / Verbund Linie](https://www.holding-graz.at/en/mobility/ticketshop/) |
+| GRZ-AT-001 | 그라츠 | 에겐베르크 성 통합권 (성인) | 11~13 EUR | A | 예 | 재검증 | [Universalmuseum Joanneum](https://www.museum-joanneum.at/en/your-visit/admission) |
+| GRZ-AT-002 | 그라츠 | 요아네움 박물관 (19세 미만 무료) | 0 EUR | A | 예 | 재검증 | [Universalmuseum Joanneum](https://www.museum-joanneum.at/en/palace-and-gardens-schloss-eggenberg/your-visit/admission/free-entry) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

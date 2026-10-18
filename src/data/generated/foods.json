@@ -5121,6 +5121,60 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "graz",
+    "nameKo": "바크헨들",
+    "nameEn": "Backhendl",
+    "reason": "빵가루를 입혀 튀긴 슈타이어마르크식 닭튀김",
+    "reasonEn": "Styrian breaded fried chicken",
+    "desc": {
+      "ko": "빵가루를 입혀 튀긴 슈타이어마르크식 닭튀김",
+      "en": "Styrian breaded fried chicken",
+      "ja": "パン粉をつけて揚げたシュタイアーマルク風のフライドチキン"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Graz Tourismus",
+    "recommendUrl": "https://www.graztourismus.at/en/food-drinks-shopping/restaurant-guide/styrian-cuisine",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "graz",
+    "nameKo": "호박씨 기름 샐러드",
+    "nameEn": "Pumpkin-Seed Oil Salad",
+    "reason": "호박씨 기름을 뿌린 샐러드와 콩 샐러드",
+    "reasonEn": "Salads dressed with Styrian pumpkin-seed oil",
+    "desc": {
+      "ko": "호박씨 기름을 뿌린 샐러드와 콩 샐러드",
+      "en": "Salads dressed with Styrian pumpkin-seed oil",
+      "ja": "シュタイアーマルクのパンプキンシードオイルをかけたサラダ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Graz Tourismus",
+    "recommendUrl": "https://www.graztourismus.at/en/food-drinks-shopping/restaurant-guide/styrian-cuisine",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "graz",
+    "nameKo": "브레틀야우제",
+    "nameEn": "Brettljause",
+    "reason": "햄·소시지·치즈를 나무판에 담아 내는 슈타이어마르크식 모둠",
+    "reasonEn": "Styrian platter of cured meats and cheese on a wooden board",
+    "desc": {
+      "ko": "햄·소시지·치즈를 나무판에 담아 내는 슈타이어마르크식 모둠",
+      "en": "Styrian platter of cured meats and cheese on a wooden board",
+      "ja": "ハムやソーセージ、チーズを木の板に盛ったシュタイアーマルク風の盛り合わせ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Graz Tourismus",
+    "recommendUrl": "https://www.graztourismus.at/en/food-drinks-shopping/restaurant-guide/styrian-cuisine",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "guam",
     "nameKo": "차모로 BBQ",
     "nameEn": "Chamorro BBQ",

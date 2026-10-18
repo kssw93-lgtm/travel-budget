@@ -937,4 +937,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 에어포트 익스프레스(AX) 버스가 10~20분 간격으로 웰링턴역까지 가며, 스내퍼 카드가 현금보다 쌉니다. 일반 버스 정기권은 쓸 수 없습니다.', 'Airport to city: the Airport Express (AX) runs to Wellington Station every 10–20 minutes; Snapper is cheaper than cash, and regular passes are not valid.', '空港から市内へ：エアポート・エクスプレス（AX）バスが10〜20分間隔でウェリントン駅まで走り、スナッパーカードの方が現金より安いです。通常の定期券は使えません。'],
     ],
   },
+  graz: {
+    h: [
+      ['에겐베르크 성', 'Schloss Eggenberg', 'エッゲンベルク城', '바로크 양식의 궁전과 정원으로, 고고학 박물관과 옛 미술관이 함께 있습니다.', 'A baroque palace and park with archaeology and old-masters galleries.', 'バロック様式の宮殿と庭園で、考古学博物館や古典絵画館も併設されています。'],
+      ['슐로스베르크', 'Schlossberg', 'シュロスベルク', '시계탑이 있는 시내 한가운데 언덕으로, 구시가지의 붉은 지붕이 내려다보입니다.', 'The clock-tower hill in the city centre, overlooking the red roofs.', '時計塔がある市の中心の丘で、旧市街の赤い屋根を見下ろせます。'],
+      ['호박씨 기름', 'Pumpkin-seed oil', 'パンプキンシードオイル', '짙은 녹색의 슈타이어마르크 특산 기름으로, 샐러드와 수프에 뿌려 먹습니다.', 'Styria’s dark-green pumpkin-seed oil, drizzled on salads and soups.', '濃い緑色のシュタイアーマルク特産のオイルで、サラダやスープにかけて食べます。'],
+    ],
+    t: [
+      ['그라츠 공항도 시내 요금 구역(101)에 속해 시내 1시간권으로 갈 수 있습니다. 중앙역에서 S반 S1을 타거나, 트램 5번 종점에서 630번 버스로 갈아탑니다.', 'Graz Airport is inside the city fare zone (101), so a city hourly ticket works: take S-Bahn S1 from the Hauptbahnhof, or tram 5 then bus 630.', 'グラーツ空港も市内の運賃ゾーン（101）に含まれるため、市内の1時間券で行けます。中央駅からSバーンS1に乗るか、トラム5番の終点で630番バスに乗り換えます。'],
+    ],
+  },
 };

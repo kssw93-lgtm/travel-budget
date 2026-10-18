@@ -606,4 +606,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['워터프런트·램턴 키', 'Waterfront / Lambton Quay', 'ウォーターフロント・ランプトン・キー', '테 파파와 케이블카 승강장이 가깝고, 공항버스가 지납니다.', 'Near Te Papa and the cable car, on the airport bus route.', 'テ・パパやケーブルカー乗り場に近く、空港バスが通ります。'],
     ],
   },
+  graz: {
+    o: ['오스트리아 제2의 도시로, 붉은 지붕이 이어진 구시가지와 바로크 궁전 에겐베르크 성이 함께 유네스코 세계유산입니다. 시내 한가운데 슐로스베르크 언덕에서 지붕들을 내려다볼 수 있고, ‘미식 수도’로 불릴 만큼 호박씨 기름 같은 슈타이어마르크 음식이 유명합니다.', 'Austria’s second city, whose red-roofed old town and baroque Schloss Eggenberg are together a UNESCO World Heritage Site; the Schlossberg hill gives views over the rooftops, and as Austria’s “Capital of Delight” it is famed for Styrian food like pumpkin-seed oil.', 'オーストリア第2の都市で、赤い屋根が連なる旧市街とバロック様式のエッゲンベルク城がともにユネスコ世界遺産です。市の中心のシュロスベルクの丘から屋根を見渡せ、「美食の都」と呼ばれるほどパンプキンシードオイルなどシュタイアーマルクの料理が有名です。'],
+    d: [1, 2],
+    s: [
+      ['구시가지(인네레 슈타트)', 'Old Town (Innere Stadt)', '旧市街（インネレ・シュタット）', '중앙 광장과 슐로스베르크, 식당가가 걸어서 닿습니다.', 'A walk to the main square, the Schlossberg and restaurants.', '中央広場やシュロスベルク、飲食店街へ歩いて行けます。'],
+      ['레엔트 지구', 'Lend district', 'レント地区', '쿤스트하우스가 있는 무어강 서쪽의 젊은 분위기의 지역입니다.', 'The lively area west of the Mur, home to the Kunsthaus.', 'クンストハウスがあるムーア川西側の若々しい雰囲気の地区です。'],
+    ],
+  },
 };

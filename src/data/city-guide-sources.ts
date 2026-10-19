@@ -1172,4 +1172,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'aarhus:h2': 'https://www.dengamleby.dk/',
   'aarhus:h3': 'https://www.visitaarhus.com/aarhus-region/plan-your-trip/aarhus-street-food-gdk1083331',
   'aarhus:t1': 'https://www.midttrafik.dk/english/prices/adult-16-66-years/',
+  'cork:h1': 'https://www.discoverireland.ie/cork/english-market',
+  'cork:h2': 'https://blarneycastle.ie/plan-your-visit/',
+  'cork:h3': 'https://corkcitygaol.com/visit-us/',
+  'cork:t1': 'https://www.corkairport.com/to-from-the-airport/book-a-taxi',
 };

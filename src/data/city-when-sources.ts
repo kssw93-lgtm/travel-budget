@@ -473,4 +473,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'gothenburg:x': 'https://www.vasttrafik.se/biljetter/mer-om-biljetter/blippbetalning/',
   'aarhus:p1': 'https://www.visitaarhus.com/aarhus-region/plan-your-trip/aarhus-street-food-gdk1083331',
   'aarhus:x': 'https://www.aros.dk/en/visit/opening-hours-and-prices/',
+  'cork:p1': 'https://www.discoverireland.ie/cork-city/best-things-to-do-in-cork-city',
+  'cork:x': 'https://www.transportforireland.ie/news/passengers-in-cork-to-benefit-from-faster-boarding-and-more-flexible-travel-with-new-tfi-90-minute-fare/',
 };

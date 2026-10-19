@@ -5392,5 +5392,20 @@
     "ko": "항구 지구 니콜리네후스 푸드홀의 다양한 음식",
     "en": "Dishes from the Nicolinehus market hall",
     "ja": "港湾地区ニコリーネフスのフードホールのさまざまな料理"
+  },
+  "cork:Spiced Beef": {
+    "ko": "향신료로 절여 흑맥주에 찌기도 하는 코크식 차가운 소고기",
+    "en": "Cured, spiced beef served cold, often steamed in stout",
+    "ja": "スパイスで漬け込み、黒ビールで蒸すこともあるコーク風の冷製牛肉"
+  },
+  "cork:Drisheen": {
+    "ko": "코크 전통 선지 소시지(블러드 푸딩)",
+    "en": "Cork’s traditional blood sausage",
+    "ja": "コークの伝統的な血のソーセージ（ブラッドプディング）"
+  },
+  "cork:Cork Reuben": {
+    "ko": "스파이스드 비프와 사워크라우트를 사워도우에 끼운 샌드위치",
+    "en": "Spiced beef, sauerkraut and gherkins on sourdough",
+    "ja": "スパイスドビーフとザワークラウトをサワードウに挟んだサンドイッチ"
   }
 }

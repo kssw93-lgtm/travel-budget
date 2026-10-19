@@ -265,6 +265,8 @@
 | 예테보리 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 오르후스 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 오르후스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 코크 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 코크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 코펜하겐 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 코펜하겐 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 스톡홀름 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1141,6 +1143,10 @@
 | AAR-TR-001 | 오르후스 | 미트트라피크 2구간 1회권 | 26 DKK | A | 예 | 재검증 | [Midttrafik](https://www.midttrafik.dk/english/prices/adult-16-66-years/) |
 | AAR-AT-001 | 오르후스 | 아로스 미술관 (성인) | 200 DKK | A | 예 | 재검증 | [ARoS](https://www.aros.dk/en/visit/opening-hours-and-prices/) |
 | AAR-AT-002 | 오르후스 | 아로스 미술관 (18세 미만 무료) | 0 DKK | A | 예 | 재검증 | [ARoS](https://www.aros.dk/en/visit/opening-hours-and-prices/) |
+| ORK-TR-001 | 코크 | 코크 시내버스 1회(립 카드~현금) | 1.7~2.4 EUR | A | 예 | 재검증 | [Transport for Ireland](https://www.transportforireland.ie/news/passengers-in-cork-to-benefit-from-faster-boarding-and-more-flexible-travel-with-new-tfi-90-minute-fare/) |
+| ORK-AT-001 | 코크 | 블라니 성 (성인) | 24 EUR | A | 예 | 재검증 | [Blarney Castle](https://blarneycastle.ie/plan-your-visit/) |
+| ORK-AT-002 | 코크 | 블라니 성 (아동) | 12 EUR | A | 예 | 재검증 | [Blarney Castle](https://blarneycastle.ie/plan-your-visit/) |
+| ORK-AT-003 | 코크 | 코크 시티 감옥 (성인) | 12 EUR | A | 예 | 재검증 | [Cork City Gaol](https://corkcitygaol.com/visit-us/) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

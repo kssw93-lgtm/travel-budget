@@ -987,4 +987,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['버스·경전철 요금은 구역 수로 정해지며, 시내 이동도 최소 2구간 요금이 적용됩니다.', 'Bus and light-rail fares depend on zones, with a minimum two-zone fare even within the city.', 'バスやライトレールの運賃はゾーン数で決まり、市内の移動でも最低2ゾーンの運賃がかかります。'],
     ],
   },
+  cork: {
+    h: [
+      ['잉글리시 마켓', 'The English Market', 'イングリッシュ・マーケット', '18세기부터 이어진 실내 시장으로, 스파이스드 비프와 드리신 같은 코크 전통 음식을 맛볼 수 있습니다.', 'The covered market since the 18th century, for Cork classics like spiced beef and drisheen.', '18世紀から続く屋内市場で、スパイスドビーフやドリシーンなどコークの伝統料理を味わえます。'],
+      ['블라니 성', 'Blarney Castle', 'ブラーニー城', '입을 맞추면 말솜씨가 좋아진다는 ‘블라니 스톤’이 있는 성으로, 시내에서 버스로 갑니다.', 'Kiss the Blarney Stone for the gift of the gab; reachable by bus from the city.', '口づけすると話がうまくなるという「ブラーニー・ストーン」がある城で、市内からバスで行けます。'],
+      ['코크 시티 감옥', 'Cork City Gaol', 'コーク・シティ監獄', '19세기 감옥을 그대로 보존한 박물관으로, 3세 미만은 무료입니다.', 'A preserved 19th-century prison museum; under-threes free.', '19世紀の監獄をそのまま保存した博物館で、3歳未満は無料です。'],
+    ],
+    t: [
+      ['공항에서 시내: 버스 에런 225·226번이 30분 간격으로 공항과 파넬 플레이스 버스터미널·켄트역을 잇습니다. 택시는 시내까지 약 20유로입니다.', 'Airport to city: Bus Éireann 225 and 226 run every 30 minutes to Parnell Place and Kent Station; a taxi is about €20.', '空港から市内へ：バス・エアラン225・226番が30分間隔で空港とパーネル・プレイス・バスターミナル、ケント駅を結んでいます。タクシーは市内まで約20ユーロです。'],
+    ],
+  },
 };

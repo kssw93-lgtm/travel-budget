@@ -646,4 +646,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['오르후스 Ø(항구 지구)', 'Aarhus Ø (harbour district)', 'オーフス・Ø（港湾地区）', '현대 건축과 바닷가 수영장, 푸드홀이 있는 새 지역입니다.', 'New harbourfront district of modern architecture, harbour bath and food hall.', '現代建築や港の海水プール、フードホールがある新しい地区です。'],
     ],
   },
+  cork: {
+    o: ['아일랜드 남부의 제2 도시로, 리강의 두 물줄기 사이 섬 위에 시내가 자리합니다. 18세기부터 이어진 실내 식품 시장 잉글리시 마켓과 근교 블라니 성의 ‘블라니 스톤’으로 유명하며, 미식 도시로도 이름이 높습니다.', 'Ireland’s second city in the south, its centre set on an island between two channels of the River Lee; famous for the 18th-century English Market food hall and the Blarney Stone at nearby Blarney Castle, and for its food scene.', 'アイルランド南部の第2の都市で、リー川の二つの流れに挟まれた島の上に市街があります。18世紀から続く屋内食品市場イングリッシュ・マーケットや、近郊のブラーニー城の「ブラーニー・ストーン」で有名で、美食の街としても知られています。'],
+    d: [2, 3],
+    s: [
+      ['시내 중심(세인트 패트릭 거리)', 'City centre (St Patrick’s Street)', '中心部（セント・パトリック通り）', '잉글리시 마켓과 식당가가 걸어서 닿는 중심지입니다.', 'A walk to the English Market and restaurants.', 'イングリッシュ・マーケットや飲食店街へ歩いて行ける中心地です。'],
+      ['켄트역 주변', 'Around Kent Station', 'ケント駅周辺', '기차역이 있고 공항버스가 서는 곳입니다.', 'The rail station, served by airport buses.', '鉄道駅があり、空港バスが停まります。'],
+    ],
+  },
 };

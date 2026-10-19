@@ -520,4 +520,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['18세 미만은 아로스 미술관과 옛 마을 박물관(덴 갬레 뷔)에 무료로 입장할 수 있습니다.', 'Under-18s enter ARoS and the Old Town museum (Den Gamle By) free.', '18歳未満はアロス美術館と旧市街博物館（デン・ガムレ・ビュ）に無料で入場できます。'],
   },
+  cork: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '블라니 성 정원과 근교 킨세일 등 해안 마을을 함께 둘러보기 좋습니다.', 'Good for Blarney’s gardens and coastal towns like Kinsale.', 'ブラーニー城の庭園や近郊のキンセールなど海辺の町を巡るのに良い時期です。'],
+    ],
+    x: ['시내버스는 립(Leap) 카드로 내면 현금보다 훨씬 싸고, 90분 안에 갈아탈 수 있습니다.', 'City buses are much cheaper with a Leap card, which also gives 90-minute transfers.', '市内バスはリープ（Leap）カードで払うと現金よりずっと安く、90分以内なら乗り換えできます。'],
+  },
 };

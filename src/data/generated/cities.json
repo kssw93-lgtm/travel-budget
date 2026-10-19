@@ -1360,6 +1360,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "cork",
+    "country": "아일랜드",
+    "countryEn": "Ireland",
+    "nameKo": "코크",
+    "nameEn": "Cork",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "copenhagen",
     "country": "덴마크",
     "countryEn": "Denmark",

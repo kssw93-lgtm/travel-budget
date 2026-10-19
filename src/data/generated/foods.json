@@ -3865,6 +3865,60 @@
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
+    "cityId": "cork",
+    "nameKo": "스파이스드 비프",
+    "nameEn": "Spiced Beef",
+    "reason": "향신료로 절여 흑맥주에 찌기도 하는 코크식 차가운 소고기",
+    "reasonEn": "Cured, spiced beef served cold, often steamed in stout",
+    "desc": {
+      "ko": "향신료로 절여 흑맥주에 찌기도 하는 코크식 차가운 소고기",
+      "en": "Cured, spiced beef served cold, often steamed in stout",
+      "ja": "スパイスで漬け込み、黒ビールで蒸すこともあるコーク風の冷製牛肉"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Discover Ireland",
+    "recommendUrl": "https://www.discoverireland.ie/cork/english-market",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "cork",
+    "nameKo": "드리신",
+    "nameEn": "Drisheen",
+    "reason": "코크 전통 선지 소시지(블러드 푸딩)",
+    "reasonEn": "Cork’s traditional blood sausage",
+    "desc": {
+      "ko": "코크 전통 선지 소시지(블러드 푸딩)",
+      "en": "Cork’s traditional blood sausage",
+      "ja": "コークの伝統的な血のソーセージ（ブラッドプディング）"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Discover Ireland",
+    "recommendUrl": "https://www.discoverireland.ie/cork/english-market",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "cork",
+    "nameKo": "코크 루벤 샌드위치",
+    "nameEn": "Cork Reuben",
+    "reason": "스파이스드 비프와 사워크라우트를 사워도우에 끼운 샌드위치",
+    "reasonEn": "Spiced beef, sauerkraut and gherkins on sourdough",
+    "desc": {
+      "ko": "스파이스드 비프와 사워크라우트를 사워도우에 끼운 샌드위치",
+      "en": "Spiced beef, sauerkraut and gherkins on sourdough",
+      "ja": "スパイスドビーフとザワークラウトをサワードウに挟んだサンドイッチ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Discover Ireland",
+    "recommendUrl": "https://www.discoverireland.ie/cork/the-sandwich-stall-at-the-english-market",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "da-lat",
     "nameKo": "반미 슈마이",
     "nameEn": "Banh Mi Xiu Mai",

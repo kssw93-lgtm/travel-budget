@@ -1540,6 +1540,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "malmo",
+    "country": "스웨덴",
+    "countryEn": "Sweden",
+    "nameKo": "말뫼",
+    "nameEn": "Malmö",
+    "currency": "SEK",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "dresden",
     "country": "독일",
     "countryEn": "Germany",

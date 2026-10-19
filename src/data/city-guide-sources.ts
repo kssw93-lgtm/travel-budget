@@ -1212,4 +1212,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'montpellier:h2': 'https://www.herault-tourisme.com/fr/decouvrir/nos-incontournables/etang-de-thau/',
   'montpellier:h3': 'https://www.montpellier-tourisme.fr/decouvrir/au-coeur-de-la-nature/cote-mer-les-plages/sete/',
   'montpellier:t1': 'https://www.tam-voyages.com/fr/produits-et-tarifs',
+  'malmo:h1': 'https://malmo.se/Uppleva-och-gora/Konst-och-museer/Malmo-museum/Besok-Malmo-museum/Oppettider-och-entreavgifter.html',
+  'malmo:h2': 'https://visitskane.com/food-drinks/skanes-superb-market-halls',
+  'malmo:h3': 'https://visitskane.com/cities-locations/malmo',
+  'malmo:t1': 'https://www.skanetrafiken.se/biljetter/kopbiljett/',
 };

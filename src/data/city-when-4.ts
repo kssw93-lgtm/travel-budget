@@ -584,4 +584,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['몽펠리에 메트로폴 주민은 대중교통이 무료지만, 여행자는 승차권을 사야 합니다.', 'Public transport is free for metropolitan residents, but visitors need a ticket.', 'モンペリエ都市圏の住民は公共交通が無料ですが、旅行者は乗車券が必要です。'],
   },
+  malmo: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '해변 산책로와 코펜하겐 당일 여행을 함께 즐기기 좋습니다.', 'Beach promenades and day trips to Copenhagen.', '海辺の遊歩道やコペンハーゲンへの日帰り旅行を楽しめます。'],
+    ],
+    x: ['19세 이하는 말뫼 박물관(성·수족관·미술관)에 무료로 입장할 수 있습니다.', 'Visitors aged 0–19 enter the Malmö Museums (castle, aquarium, art museum) free.', '19歳以下はマルメ博物館（城・水族館・美術館）に無料で入場できます。'],
+  },
 };

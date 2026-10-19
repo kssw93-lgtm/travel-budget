@@ -8514,6 +8514,60 @@
     "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
   },
   {
+    "cityId": "malmo",
+    "nameKo": "팔라펠",
+    "nameEn": "Falafel",
+    "reason": "‘스웨덴 팔라펠의 수도’로 불리는 말뫼의 대표 길거리 음식",
+    "reasonEn": "Malmö’s signature street food — Sweden’s falafel capital",
+    "desc": {
+      "ko": "‘스웨덴 팔라펠의 수도’로 불리는 말뫼의 대표 길거리 음식",
+      "en": "Malmö’s signature street food — Sweden’s falafel capital",
+      "ja": "「スウェーデンのファラフェルの都」と呼ばれるマルメの代表的な屋台料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Skåne",
+    "recommendUrl": "https://visitskane.com/food-drinks/skanes-superb-market-halls",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "malmo",
+    "nameKo": "스페테카카",
+    "nameEn": "Spettekaka",
+    "reason": "꼬챙이에 반죽을 돌려 구운 스코네 지방의 탑 모양 과자",
+    "reasonEn": "Skåne’s tower-shaped spit-baked cake",
+    "desc": {
+      "ko": "꼬챙이에 반죽을 돌려 구운 스코네 지방의 탑 모양 과자",
+      "en": "Skåne’s tower-shaped spit-baked cake",
+      "ja": "串に生地をかけながら焼いたスコーネ地方の塔の形のお菓子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Skåne",
+    "recommendUrl": "https://visitskane.com/food-drinks/traditional-food-and-inns-skane",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "malmo",
+    "nameKo": "에그 케이크",
+    "nameEn": "Äggakaka",
+    "reason": "스코네 지방의 전통 달걀 케이크",
+    "reasonEn": "Thick Skåne pancake with bacon and lingonberries",
+    "desc": {
+      "ko": "스코네 지방의 전통 달걀 케이크",
+      "en": "Traditional Skåne egg cake",
+      "ja": "スコーネ地方の伝統的な卵のケーキ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Skåne",
+    "recommendUrl": "https://visitskane.com/food-drinks/traditional-food-and-inns-skane",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "manchester",
     "nameKo": "에클스 케이크",
     "nameEn": "Eccles Cake",

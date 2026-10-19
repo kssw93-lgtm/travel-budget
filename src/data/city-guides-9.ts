@@ -1087,4 +1087,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['트램·버스 1시간 30분권은 2.10유로이고, 4시간권·24시간권도 있습니다. 승차권은 앱(M’Ticket)이나 정류장 자판기에서 삽니다.', 'A 1h30 tram/bus ticket costs €2.10, with 4-hour and 24-hour tickets too; buy them in the M’Ticket app or at stop machines.', 'トラム・バスの1時間30分券は2.10ユーロで、4時間券や24時間券もあります。乗車券はアプリ（M’Ticket）や停留所の券売機で買えます。'],
     ],
   },
+  malmo: {
+    h: [
+      ['말뫼후스 성', 'Malmöhus Castle', 'マルメフス城', '16세기 성 안에 박물관·수족관·미술관이 모여 있으며, 19세 이하는 무료입니다.', 'A 16th-century castle housing museums, an aquarium and an art museum; free for 0–19s.', '16世紀の城の中に博物館や水族館、美術館が集まっており、19歳以下は無料です。'],
+      ['말뫼 실내 시장', 'Malmö Saluhall', 'マルメ・サルハル', '방목 고기·치즈·팔라펠 등 다양한 먹거리를 파는 실내 시장입니다.', 'A food hall of free-range meat, cheese, falafel and more.', '放牧肉やチーズ、ファラフェルなどさまざまな食べ物を売る屋内市場です。'],
+      ['외레순 다리', 'Øresund Bridge', 'エーレスンド橋', '스웨덴과 덴마크를 잇는 다리로, 기차로 코펜하겐까지 약 30분입니다.', 'The Sweden–Denmark link — Copenhagen is about 30 minutes by train.', 'スウェーデンとデンマークを結ぶ橋で、列車でコペンハーゲンまで約30分です。'],
+    ],
+    t: [
+      ['시내버스는 신용카드를 단말기에 대면(블리프) 1시간권이 바로 결제됩니다.', 'Tap a bank card on city buses to buy a one-hour ticket.', '市内バスはクレジットカードを端末にかざすと1時間券がすぐに決済されます。'],
+    ],
+  },
 };

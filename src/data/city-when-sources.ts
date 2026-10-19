@@ -497,4 +497,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'montpellier:p1': 'https://www.montpellier-tourisme.fr/decouvrir/au-coeur-de-la-nature/cote-mer-les-plages/sete/',
   'montpellier:p2': 'https://www.herault-tourisme.com/fr/bien-manger/nos-specialites-terre-et-mer/top-des-accords-mets-et-vins/',
   'montpellier:x': 'https://www.tam-voyages.com/fr/produits-et-tarifs',
+  'malmo:p1': 'https://visitskane.com/cities-locations/malmo',
+  'malmo:x': 'https://malmo.se/Uppleva-och-gora/Konst-och-museer/Malmo-museum/Besok-Malmo-museum/Oppettider-och-entreavgifter.html',
 };

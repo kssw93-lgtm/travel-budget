@@ -5542,5 +5542,20 @@
     "ko": "장작불에 구운 홍합 요리",
     "en": "Mussels grilled over a wood fire",
     "ja": "薪火で焼いたムール貝の料理"
+  },
+  "malmo:Falafel": {
+    "ko": "‘스웨덴 팔라펠의 수도’로 불리는 말뫼의 대표 길거리 음식",
+    "en": "Malmö’s signature street food — Sweden’s falafel capital",
+    "ja": "「スウェーデンのファラフェルの都」と呼ばれるマルメの代表的な屋台料理"
+  },
+  "malmo:Spettekaka": {
+    "ko": "꼬챙이에 반죽을 돌려 구운 스코네 지방의 탑 모양 과자",
+    "en": "Skåne’s tower-shaped spit-baked cake",
+    "ja": "串に生地をかけながら焼いたスコーネ地方の塔の形のお菓子"
+  },
+  "malmo:Äggakaka": {
+    "ko": "스코네 지방의 전통 달걀 케이크",
+    "en": "Traditional Skåne egg cake",
+    "ja": "スコーネ地方の伝統的な卵のケーキ"
   }
 }

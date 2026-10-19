@@ -726,4 +726,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['생로슈역 주변', 'Around Saint-Roch station', 'サン・ロック駅周辺', '기차역과 트램이 모여 근교 여행에 편합니다.', 'Rail and tram hub, handy for day trips.', '鉄道駅とトラムが集まり、近郊への旅行に便利です。'],
     ],
   },
+  malmo: {
+    o: ['스웨덴 남부 스코네 지방의 중심 도시로, 외레순 다리를 건너면 코펜하겐까지 기차로 약 30분입니다. 비틀린 고층 빌딩 ‘터닝 토르소’와 16세기 말뫼후스 성이 있고, 스웨덴에서 인구 대비 식당이 가장 많은 다문화 도시로 ‘팔라펠의 수도’로도 불립니다.', 'The hub of southern Sweden’s Skåne region, about 30 minutes by train to Copenhagen across the Øresund Bridge; home to the twisting Turning Torso and 16th-century Malmöhus Castle, and a multicultural city with Sweden’s most restaurants per head, dubbed its falafel capital.', 'スウェーデン南部スコーネ地方の中心都市で、エーレスンド橋を渡ればコペンハーゲンまで列車で約30分です。ねじれた高層ビル「ターニング・トルソ」や16世紀のマルメフス城があり、人口あたりの飲食店数がスウェーデンで最も多い多文化都市で「ファラフェルの都」とも呼ばれます。'],
+    d: [1, 2],
+    s: [
+      ['구시가지(구스타브 아돌프 광장 주변)', 'Old Town (around Gustav Adolfs torg)', '旧市街（グスタフ・アドルフ広場周辺）', '중앙역과 광장, 성이 걸어서 닿는 중심지입니다.', 'A walk to the central station, squares and the castle.', '中央駅や広場、城へ歩いて行ける中心地です。'],
+      ['뫼옐레밧그넨', 'Möllevången', 'メッレヴォンゲン', '다문화 식당과 저렴한 먹거리가 모인 활기찬 지역입니다.', 'A lively, multicultural area of affordable eats.', '多文化の飲食店や手頃な食べ物が集まる活気ある地区です。'],
+    ],
+  },
 };

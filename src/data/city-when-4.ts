@@ -577,4 +577,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['메스키타 대성당은 월~토요일 아침(8시 반~9시 반)에 무료로 개인 입장할 수 있습니다.', 'The Mosque-Cathedral is free for individual visits Monday–Saturday 8:30–9:30 am.', 'メスキータ大聖堂は月〜土曜の朝（8時半〜9時半）に個人で無料入場できます。'],
   },
+  montpellier: {
+    p: [
+      ['4~6월', 'April–June', '4〜6月', '구시가지 테라스와 근교 해안 마을 여행을 즐기기 좋습니다.', 'Old-town terraces and trips to the coastal towns.', '旧市街のテラスや近郊の海辺の町への旅を楽しめます。'],
+      ['9~10월', 'September–October', '9〜10月', '바다가 따뜻하고 토 석호의 굴과 지역 와인을 즐기기 좋습니다.', 'Warm sea, Thau oysters and local wines.', '海が暖かく、トー潟のカキや地元のワインを楽しめます。'],
+    ],
+    x: ['몽펠리에 메트로폴 주민은 대중교통이 무료지만, 여행자는 승차권을 사야 합니다.', 'Public transport is free for metropolitan residents, but visitors need a ticket.', 'モンペリエ都市圏の住民は公共交通が無料ですが、旅行者は乗車券が必要です。'],
+  },
 };

@@ -302,6 +302,8 @@
 | 푼샬 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 코르도바 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 코르도바 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 몽펠리에 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 몽펠리에 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 드레스덴 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 드레스덴 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 뉘른베르크 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1287,6 +1289,9 @@
 | VRN-TR-001 | 베로나 | ATV 베로나 시내버스 1회권(90분) | 1.5~2 EUR | A | 예 | 재검증 | [ATV Verona](https://www.atv.verona.it/tickets/verona) |
 | VRN-AT-001 | 베로나 | 아레나 디 베로나 (성인) | 12 EUR | A | 예 | 재검증 | [Musei Civici di Verona](https://museomaffeiano.comune.verona.it/nqcontent.cfm?a_id=69387) |
 | VRN-AT-002 | 베로나 | 아레나 디 베로나 (14세 미만 무료) | 0 EUR | A | 예 | 재검증 | [Musei Civici di Verona](https://museomaffeiano.comune.verona.it/nqcontent.cfm?a_id=69387) |
+| MPL-TR-001 | 몽펠리에 | TaM 1시간 30분권 | 2.1 EUR | A | 예 | 재검증 | [TaM](https://www.tam-voyages.com/fr/produits-et-tarifs) |
+| MPL-AT-001 | 몽펠리에 | 파브르 미술관 상설전 (성인) | 9 EUR | A | 예 | 재검증 | [Musée Fabre](https://museefabre.montpellier3m.fr/layout/set/print/INFORMATIONS_PRATIQUES/HORAIRES_TARIFS/Tarifs) |
+| MPL-AT-002 | 몽펠리에 | 파브르 미술관 (할인) | 6 EUR | A | 예 | 재검증 | [Musée Fabre](https://museefabre.montpellier3m.fr/layout/set/print/INFORMATIONS_PRATIQUES/HORAIRES_TARIFS/Tarifs) |
 | BTH-TR-001 | 바스 | 퍼스트 바스 시내버스 1회 | 2.6 GBP | A | 예 | 재검증 | [First Bus](https://www.firstbus.co.uk/bristol-bath-and-west/tickets/upcoming-fare-changes) |
 | BTH-AT-001 | 바스 | 로마 목욕탕 (성인, 사전 예약) | 26.5~29 GBP | A | 예 | 재검증 | [The Roman Baths](https://www.romanbaths.co.uk/tickets/2026-09-september) |
 | BTH-AT-002 | 바스 | 로마 목욕탕 (아동, 사전 예약) | 19.5~22 GBP | A | 예 | 재검증 | [The Roman Baths](https://www.romanbaths.co.uk/tickets/2026-09-september) |

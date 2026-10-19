@@ -1208,4 +1208,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'cordoba:h2': 'https://www.turismodecordoba.org/los-patios',
   'cordoba:h3': 'https://www.turismodecordoba.org/the-gastronomy-of-cordoba',
   'cordoba:t1': 'https://aucorsa.es/titulos-y-tarifas/',
+  'montpellier:h1': 'https://museefabre.montpellier3m.fr/layout/set/print/INFORMATIONS_PRATIQUES/HORAIRES_TARIFS/Tarifs',
+  'montpellier:h2': 'https://www.herault-tourisme.com/fr/decouvrir/nos-incontournables/etang-de-thau/',
+  'montpellier:h3': 'https://www.montpellier-tourisme.fr/decouvrir/au-coeur-de-la-nature/cote-mer-les-plages/sete/',
+  'montpellier:t1': 'https://www.tam-voyages.com/fr/produits-et-tarifs',
 };

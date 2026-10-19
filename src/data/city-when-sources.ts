@@ -494,4 +494,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'cordoba:p1': 'https://www.turismodecordoba.org/los-patios',
   'cordoba:p2': 'https://www.andalucia.org/blog/post/en-cordoba-el-otono-es-cosa-de-dos/',
   'cordoba:x': 'https://mezquita-catedraldecordoba.es/en/organiza-la-visita/entradas-y-horarios/mezquita-catedral/',
+  'montpellier:p1': 'https://www.montpellier-tourisme.fr/decouvrir/au-coeur-de-la-nature/cote-mer-les-plages/sete/',
+  'montpellier:p2': 'https://www.herault-tourisme.com/fr/bien-manger/nos-specialites-terre-et-mer/top-des-accords-mets-et-vins/',
+  'montpellier:x': 'https://www.tam-voyages.com/fr/produits-et-tarifs',
 };

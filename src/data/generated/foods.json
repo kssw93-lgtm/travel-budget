@@ -8802,6 +8802,60 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "montpellier",
+    "nameKo": "부지그 굴",
+    "nameEn": "Bouzigues Oysters",
+    "reason": "근교 토 석호에서 기른 굴",
+    "reasonEn": "Oysters from the nearby Thau lagoon",
+    "desc": {
+      "ko": "근교 토 석호에서 기른 굴",
+      "en": "Oysters from the nearby Thau lagoon",
+      "ja": "近郊のトー潟で育てたカキ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Hérault Tourisme",
+    "recommendUrl": "https://www.herault-tourisme.com/fr/decouvrir/nos-incontournables/etang-de-thau/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "montpellier",
+    "nameKo": "티엘 세투아즈",
+    "nameEn": "Tielle Sétoise",
+    "reason": "토마토 소스로 버무린 오징어를 채운 세트식 파이",
+    "reasonEn": "Sète’s pie filled with squid in tomato sauce",
+    "desc": {
+      "ko": "토마토 소스로 버무린 오징어를 채운 세트식 파이",
+      "en": "Sète’s pie filled with squid in tomato sauce",
+      "ja": "トマトソースで和えたイカを詰めたセート風のパイ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Hérault Tourisme",
+    "recommendUrl": "https://www.herault-tourisme.com/fr/bien-manger/nos-specialites-terre-et-mer/top-des-accords-mets-et-vins/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "montpellier",
+    "nameKo": "홍합 브라쉬카드",
+    "nameEn": "Brasucade de Moules",
+    "reason": "장작불에 구운 홍합 요리",
+    "reasonEn": "Mussels grilled over a wood fire",
+    "desc": {
+      "ko": "장작불에 구운 홍합 요리",
+      "en": "Mussels grilled over a wood fire",
+      "ja": "薪火で焼いたムール貝の料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Hérault Tourisme",
+    "recommendUrl": "https://www.herault-tourisme.com/fr/fiche/producteurs-du-terroir/le-saint-pierre-loupian_TFODEGLAR034V524I8R/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "montreal",
     "nameKo": "몬트리올 베이글",
     "nameEn": "Montréal Bagel",

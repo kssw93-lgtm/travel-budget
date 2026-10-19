@@ -1530,6 +1530,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "montpellier",
+    "country": "프랑스",
+    "countryEn": "France",
+    "nameKo": "몽펠리에",
+    "nameEn": "Montpellier",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "dresden",
     "country": "독일",
     "countryEn": "Germany",

@@ -1077,4 +1077,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['시내버스(아우코르사) 1회권은 1.30유로이며, 15세 미만은 어린이 카드로 2026년 말까지 무료입니다.', 'City buses (Aucorsa) cost €1.30 a ride; under-15s ride free with the child card until the end of 2026.', '市内バス（アウコルサ）の1回券は1.30ユーロで、15歳未満は子ども用カードで2026年末まで無料です。'],
     ],
   },
+  montpellier: {
+    h: [
+      ['파브르 미술관', 'Musée Fabre', 'ファーブル美術館', '유럽 회화와 피에르 술라주 작품을 소장한 몽펠리에 대표 미술관입니다.', 'Montpellier’s major museum of European painting and Pierre Soulages.', 'ヨーロッパ絵画やピエール・スーラージュの作品を所蔵するモンペリエを代表する美術館です。'],
+      ['토 석호와 세트', 'Thau lagoon and Sète', 'トー潟とセート', '근교 석호의 굴 양식장과 운하의 항구 마을 세트를 기차로 당일에 다녀올 수 있습니다.', 'Oyster beds on the lagoon and the canal port of Sète, a short train ride away.', '近郊の潟のカキ養殖場や運河の港町セートへ列車で日帰りできます。'],
+      ['코메디 광장', 'Place de la Comédie', 'コメディ広場', '오페라 극장 앞 대리석 광장으로, 트램과 카페가 모이는 도시의 중심입니다.', 'The marble square before the opera, the city’s tram-and-café hub.', 'オペラ座前の大理石の広場で、トラムやカフェが集まる街の中心です。'],
+    ],
+    t: [
+      ['트램·버스 1시간 30분권은 2.10유로이고, 4시간권·24시간권도 있습니다. 승차권은 앱(M’Ticket)이나 정류장 자판기에서 삽니다.', 'A 1h30 tram/bus ticket costs €2.10, with 4-hour and 24-hour tickets too; buy them in the M’Ticket app or at stop machines.', 'トラム・バスの1時間30分券は2.10ユーロで、4時間券や24時間券もあります。乗車券はアプリ（M’Ticket）や停留所の券売機で買えます。'],
+    ],
+  },
 };

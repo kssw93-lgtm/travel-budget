@@ -718,4 +718,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['기차역·중심가', 'Station / centre', '駅・中心街', '기차역과 시내버스가 가깝고 쇼핑 거리가 있습니다.', 'Near the station and buses, with shopping streets.', '鉄道駅や市内バスに近く、ショッピング街があります。'],
     ],
   },
+  montpellier: {
+    o: ['남프랑스 지중해 연안의 대학 도시로, 학생이 많아 젊고 활기찹니다. 대리석 광장 코메디 광장과 구시가지, 화려한 디자인의 트램이 상징이며, 근교 토 석호의 굴과 세트의 해산물 파이를 맛볼 수 있습니다.', 'A lively university city near the Mediterranean in southern France, symbolised by the marble Place de la Comédie, its old town and boldly designed trams; nearby Thau lagoon oysters and Sète’s seafood pies are on every menu.', '南フランス地中海沿岸の大学都市で、学生が多く若々しく活気があります。大理石のコメディ広場や旧市街、華やかなデザインのトラムがシンボルで、近郊のトー潟のカキやセートのシーフードパイが味わえます。'],
+    d: [2, 3],
+    s: [
+      ['에퀴송(구시가지)', 'Écusson (Old Town)', 'エキュソン（旧市街）', '코메디 광장과 파브르 미술관, 식당가가 걸어서 닿습니다.', 'A walk to Place de la Comédie, the Musée Fabre and restaurants.', 'コメディ広場やファーブル美術館、飲食店街へ歩いて行けます。'],
+      ['생로슈역 주변', 'Around Saint-Roch station', 'サン・ロック駅周辺', '기차역과 트램이 모여 근교 여행에 편합니다.', 'Rail and tram hub, handy for day trips.', '鉄道駅とトラムが集まり、近郊への旅行に便利です。'],
+    ],
+  },
 };

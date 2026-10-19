@@ -5527,5 +5527,20 @@
     "ko": "소꼬리를 오래 끓인 코르도바 전통 찜",
     "en": "Slow-braised oxtail stew",
     "ja": "牛テールをじっくり煮込んだコルドバの伝統料理"
+  },
+  "montpellier:Bouzigues Oysters": {
+    "ko": "근교 토 석호에서 기른 굴",
+    "en": "Oysters from the nearby Thau lagoon",
+    "ja": "近郊のトー潟で育てたカキ"
+  },
+  "montpellier:Tielle Sétoise": {
+    "ko": "토마토 소스로 버무린 오징어를 채운 세트식 파이",
+    "en": "Sète’s pie filled with squid in tomato sauce",
+    "ja": "トマトソースで和えたイカを詰めたセート風のパイ"
+  },
+  "montpellier:Brasucade de Moules": {
+    "ko": "장작불에 구운 홍합 요리",
+    "en": "Mussels grilled over a wood fire",
+    "ja": "薪火で焼いたムール貝の料理"
   }
 }

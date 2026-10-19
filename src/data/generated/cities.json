@@ -1350,6 +1350,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "aarhus",
+    "country": "덴마크",
+    "countryEn": "Denmark",
+    "nameKo": "오르후스",
+    "nameEn": "Aarhus",
+    "currency": "DKK",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "copenhagen",
     "country": "덴마크",
     "countryEn": "Denmark",

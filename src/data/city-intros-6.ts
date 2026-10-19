@@ -638,4 +638,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['하가', 'Haga', 'ハーガ', '나무 집이 늘어선 옛 동네로, 카페와 큰 시나몬롤 가게가 있습니다.', 'The old wooden-house quarter of cafés and giant cinnamon buns.', '木造の家が並ぶ古い地区で、カフェや大きなシナモンロールの店があります。'],
     ],
   },
+  aarhus: {
+    o: ['덴마크 유틀란트반도의 중심이자 제2의 도시로, 옥상에 무지개색 원형 통로가 있는 아로스 미술관과 옛 덴마크 마을을 재현한 야외 박물관이 유명합니다. 대학생이 많은 젊은 도시로, 옛 버스 차고를 고친 길거리 음식 시장이 인기입니다.', 'Denmark’s second city on the Jutland peninsula, famous for the ARoS art museum with its rainbow rooftop walkway and an open-air museum of old Danish towns; a young university city whose street-food market fills a former bus garage.', 'デンマーク・ユトランド半島の中心で第2の都市です。屋上に虹色の円形通路があるアロス美術館や、昔のデンマークの町を再現した野外博物館が有名です。大学生が多い若々しい街で、古いバスの車庫を改装した屋台市場が人気です。'],
+    d: [1, 2],
+    s: [
+      ['시내 중심(라틴 지구 주변)', 'City centre (around the Latin Quarter)', '中心部（ラテン地区周辺）', '아로스 미술관과 강변 식당가, 옛 골목이 걸어서 닿습니다.', 'A walk to ARoS, the riverside restaurants and old lanes.', 'アロス美術館や川沿いの飲食店街、古い路地へ歩いて行けます。'],
+      ['오르후스 Ø(항구 지구)', 'Aarhus Ø (harbour district)', 'オーフス・Ø（港湾地区）', '현대 건축과 바닷가 수영장, 푸드홀이 있는 새 지역입니다.', 'New harbourfront district of modern architecture, harbour bath and food hall.', '現代建築や港の海水プール、フードホールがある新しい地区です。'],
+    ],
+  },
 };

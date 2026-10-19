@@ -471,4 +471,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'bremen:x': 'https://tourismus.bremen.de/bremen/experience/detail/Erlebnisbaustein-Rathausfuehrung-Bremen-DEU99999990083824262',
   'gothenburg:p1': 'https://www.goteborg.com/en/guides/one-day-in-gothenburg-itinerary',
   'gothenburg:x': 'https://www.vasttrafik.se/biljetter/mer-om-biljetter/blippbetalning/',
+  'aarhus:p1': 'https://www.visitaarhus.com/aarhus-region/plan-your-trip/aarhus-street-food-gdk1083331',
+  'aarhus:x': 'https://www.aros.dk/en/visit/opening-hours-and-prices/',
 };

@@ -263,6 +263,8 @@
 | 브레멘 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 예테보리 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 예테보리 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 오르후스 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 오르후스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 코펜하겐 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 코펜하겐 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 스톡홀름 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1136,6 +1138,9 @@
 | GOT-TR-001 | 예테보리 | 베스트트라피크 구역 A 1회권(90분) | 38 SEK | A | 예 | 재검증 | [Västtrafik](https://www.vasttrafik.se/biljetter/enkelbiljetter/) |
 | GOT-AT-001 | 예테보리 | 예테보리 미술관 (성인) | 75 SEK | A | 예 | 재검증 | [Göteborgs konstmuseum](https://goteborgskonstmuseum.se/besok-museet/) |
 | GOT-AT-002 | 예테보리 | 예테보리 미술관 (20세 미만 무료) | 0 SEK | A | 예 | 재검증 | [Göteborgs konstmuseum](https://goteborgskonstmuseum.se/besok-museet/) |
+| AAR-TR-001 | 오르후스 | 미트트라피크 2구간 1회권 | 26 DKK | A | 예 | 재검증 | [Midttrafik](https://www.midttrafik.dk/english/prices/adult-16-66-years/) |
+| AAR-AT-001 | 오르후스 | 아로스 미술관 (성인) | 200 DKK | A | 예 | 재검증 | [ARoS](https://www.aros.dk/en/visit/opening-hours-and-prices/) |
+| AAR-AT-002 | 오르후스 | 아로스 미술관 (18세 미만 무료) | 0 DKK | A | 예 | 재검증 | [ARoS](https://www.aros.dk/en/visit/opening-hours-and-prices/) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

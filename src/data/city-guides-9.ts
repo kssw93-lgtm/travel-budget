@@ -977,4 +977,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 플뤼그부사르나 공항버스가 최대 20분 간격으로 란드베테르 공항과 중앙역을 잇습니다.', 'Airport to city: Flygbussarna buses link Landvetter Airport and the central station up to every 20 minutes.', '空港から市内へ：フリューグブッサルナの空港バスが最短20分間隔でランドヴェッテル空港と中央駅を結んでいます。'],
     ],
   },
+  aarhus: {
+    h: [
+      ['아로스 오르후스 미술관', 'ARoS Aarhus Art Museum', 'アロス・オーフス美術館', '옥상의 무지개색 원형 통로 ‘유어 레인보 파노라마’로 유명한 미술관으로, 18세 미만은 무료입니다.', 'Famed for its rooftop rainbow walkway, Your Rainbow Panorama; free for under-18s.', '屋上の虹色の円形通路「ユア・レインボー・パノラマ」で有名な美術館で、18歳未満は無料です。'],
+      ['덴 갬레 뷔(옛 마을 박물관)', 'Den Gamle By', 'デン・ガムレ・ビュ', '덴마크 각지의 옛 건물을 옮겨 와 거리를 재현한 야외 박물관으로, 18세 미만은 무료입니다.', 'An open-air museum of historic Danish townhouses; under-18s are free.', 'デンマーク各地の古い建物を移築して街並みを再現した野外博物館で、18歳未満は無料です。'],
+      ['오르후스 길거리 음식 시장', 'Aarhus Street Food', 'オーフス・ストリートフード', '옛 버스 차고에 30곳이 넘는 가게가 모인 길거리 음식 시장입니다.', '30-plus kitchens and bars in a former bus garage.', '古いバスの車庫に30を超える店が集まる屋台市場です。'],
+    ],
+    t: [
+      ['버스·경전철 요금은 구역 수로 정해지며, 시내 이동도 최소 2구간 요금이 적용됩니다.', 'Bus and light-rail fares depend on zones, with a minimum two-zone fare even within the city.', 'バスやライトレールの運賃はゾーン数で決まり、市内の移動でも最低2ゾーンの運賃がかかります。'],
+    ],
+  },
 };

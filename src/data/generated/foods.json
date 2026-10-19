@@ -1287,6 +1287,60 @@
     "note": "공식 관광 안내의 음식 추천만 기록. 본문에 가격 언급이 있어도 평균값은 사용하지 않음."
   },
   {
+    "cityId": "aarhus",
+    "nameKo": "스뫼레브뢰",
+    "nameEn": "Smørrebrød",
+    "reason": "호밀빵 위에 청어·고기·달걀 등을 얹은 덴마크식 오픈 샌드위치",
+    "reasonEn": "Danish open sandwiches on rye with herring, meats or egg",
+    "desc": {
+      "ko": "호밀빵 위에 청어·고기·달걀 등을 얹은 덴마크식 오픈 샌드위치",
+      "en": "Danish open sandwiches on rye with herring, meats or egg",
+      "ja": "ライ麦パンにニシンや肉、卵などをのせたデンマーク風オープンサンド"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "VisitAarhus",
+    "recommendUrl": "https://www.visitaarhus.com/aarhus-region/plan-your-trip/cafe-special-smorrebrod-as-danish-as-it-gets-gdk1120585",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "aarhus",
+    "nameKo": "길거리 음식",
+    "nameEn": "Street Food",
+    "reason": "옛 버스 차고 시장의 세계 각국 음식",
+    "reasonEn": "Global dishes at the former bus-garage market",
+    "desc": {
+      "ko": "옛 버스 차고 시장의 세계 각국 음식",
+      "en": "Global dishes at the former bus-garage market",
+      "ja": "古いバス車庫の市場で味わう世界各国の料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "VisitAarhus",
+    "recommendUrl": "https://www.visitaarhus.com/aarhus-region/plan-your-trip/aarhus-street-food-gdk1083331",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "aarhus",
+    "nameKo": "푸드홀 메뉴",
+    "nameEn": "Food Hall Fare",
+    "reason": "항구 지구 니콜리네후스 푸드홀의 다양한 음식",
+    "reasonEn": "Dishes from the Nicolinehus market hall",
+    "desc": {
+      "ko": "항구 지구 니콜리네후스 푸드홀의 다양한 음식",
+      "en": "Dishes from the Nicolinehus market hall",
+      "ja": "港湾地区ニコリーネフスのフードホールのさまざまな料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "VisitDenmark",
+    "recommendUrl": "https://www.visitdenmark.com/denmark/plan-your-trip/the-nicolinehus-market-hall-gdk1136585",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "adelaide",
     "nameKo": "프리츠",
     "nameEn": "Fritz",

@@ -1168,4 +1168,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'gothenburg:h2': 'https://goteborgskonstmuseum.se/besok-museet/',
   'gothenburg:h3': 'https://www.goteborg.com/en/guides/the-cinnamon-buns-you-cant-miss-in-gothenburg',
   'gothenburg:t1': 'https://www.flygbussarna.se/en/landvetter',
+  'aarhus:h1': 'https://www.aros.dk/en/visit/opening-hours-and-prices/',
+  'aarhus:h2': 'https://www.dengamleby.dk/',
+  'aarhus:h3': 'https://www.visitaarhus.com/aarhus-region/plan-your-trip/aarhus-street-food-gdk1083331',
+  'aarhus:t1': 'https://www.midttrafik.dk/english/prices/adult-16-66-years/',
 };

@@ -514,4 +514,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['시내 트램과 버스는 신용카드를 단말기에 대면(블리프) 구역 A 90분권이 바로 결제됩니다.', 'Tap a bank card on trams and buses to buy a 90-minute zone A ticket.', '市内のトラムやバスはクレジットカードを端末にかざすと、ゾーンAの90分券がすぐに決済されます。'],
   },
+  aarhus: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '항구 수영장과 야외 식사, 길거리 음식 시장을 즐기기 좋습니다.', 'Harbour bathing, outdoor dining and the street-food market.', '港の海水プールや屋外での食事、屋台市場を楽しめます。'],
+    ],
+    x: ['18세 미만은 아로스 미술관과 옛 마을 박물관(덴 갬레 뷔)에 무료로 입장할 수 있습니다.', 'Under-18s enter ARoS and the Old Town museum (Den Gamle By) free.', '18歳未満はアロス美術館と旧市街博物館（デン・ガムレ・ビュ）に無料で入場できます。'],
+  },
 };

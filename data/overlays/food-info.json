@@ -5377,5 +5377,20 @@
     "ko": "하가 지구의 거대한 시나몬롤",
     "en": "Giant cinnamon bun from Haga",
     "ja": "ハーガ地区の巨大なシナモンロール"
+  },
+  "aarhus:Smørrebrød": {
+    "ko": "호밀빵 위에 청어·고기·달걀 등을 얹은 덴마크식 오픈 샌드위치",
+    "en": "Danish open sandwiches on rye with herring, meats or egg",
+    "ja": "ライ麦パンにニシンや肉、卵などをのせたデンマーク風オープンサンド"
+  },
+  "aarhus:Street Food": {
+    "ko": "옛 버스 차고 시장의 세계 각국 음식",
+    "en": "Global dishes at the former bus-garage market",
+    "ja": "古いバス車庫の市場で味わう世界各国の料理"
+  },
+  "aarhus:Food Hall Fare": {
+    "ko": "항구 지구 니콜리네후스 푸드홀의 다양한 음식",
+    "en": "Dishes from the Nicolinehus market hall",
+    "ja": "港湾地区ニコリーネフスのフードホールのさまざまな料理"
   }
 }

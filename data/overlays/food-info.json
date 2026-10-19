@@ -5437,5 +5437,20 @@
     "ko": "실내 시장에서 파는 순록·사냥 고기 요리",
     "en": "Reindeer and game meat from the market hall",
     "ja": "屋内市場で売られるトナカイや狩猟肉の料理"
+  },
+  "tartu:Black Bread (Must Leib)": {
+    "ko": "호밀로 만든 에스토니아 전통 흑빵",
+    "en": "Traditional Estonian dark rye bread",
+    "ja": "ライ麦で作るエストニアの伝統的な黒パン"
+  },
+  "tartu:Kama": {
+    "ko": "보리·호밀·귀리·완두 가루를 발효유에 섞어 먹는 음식",
+    "en": "Roasted grain-flour mix eaten with sour milk",
+    "ja": "大麦・ライ麦・オーツ麦・エンドウ豆の粉を発酵乳に混ぜて食べる料理"
+  },
+  "tartu:Mulgi Korp": {
+    "ko": "코후피임(쿼크)과 달걀·설탕을 채운 빵",
+    "en": "Bun filled with quark, egg and sugar",
+    "ja": "コフピーム（クワルク）と卵、砂糖を詰めたパン"
   }
 }

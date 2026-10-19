@@ -1184,4 +1184,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'turku:h2': 'https://en.visitturku.fi/kohdekortit/turku-market-hall',
   'turku:h3': 'https://en.visitturku.fi/eat-and-drink',
   'turku:t1': 'https://www.foli.fi/fi/selko/hinnat',
+  'tartu:h1': 'https://www.erm.ee/en/visit/admission/',
+  'tartu:h2': 'https://visitestonia.com/en/tartu-market-hall',
+  'tartu:h3': 'https://visitestonia.com/en/what-to-do/estonias-national-bread',
+  'tartu:t1': 'https://tartu.ee/et/uudised/tartus-tousevad-uhistranspordi-piletihinnad-04-05-2026',
 };

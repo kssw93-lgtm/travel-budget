@@ -539,4 +539,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['밤 11시~새벽 4시에 버스를 타면 1회권에 심야 요금이 더 붙습니다.', 'Buses between 23:00 and 04:00 add a night surcharge to single tickets.', '23時〜4時にバスに乗ると、1回券に深夜料金が加算されます。'],
   },
+  tartu: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '강변 산책과 야외 카페, 시장 구경을 즐기기 좋습니다.', 'Riverside walks, outdoor cafés and market browsing.', '川沿いの散策や屋外のカフェ、市場巡りを楽しめます。'],
+    ],
+    x: ['국립박물관은 매달 둘째 일요일에 입장료가 절반입니다.', 'The National Museum is half price on the second Sunday of each month.', '国立博物館は毎月第2日曜日に入場料が半額になります。'],
+  },
 };

@@ -271,6 +271,8 @@
 | 골웨이 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 투르쿠 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 투르쿠 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 타르투 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 타르투 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 코펜하겐 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 코펜하겐 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 스톡홀름 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1157,6 +1159,9 @@
 | TKU-TR-001 | 투르쿠 | 푈리 버스 1회권(사전·카드~현금) | 3.15~4.5 EUR | A | 예 | 재검증 | [Föli](https://www.foli.fi/fi/selko/hinnat) |
 | TKU-AT-001 | 투르쿠 | 투르쿠 성 (성인) | 18 EUR | A | 예 | 재검증 | [Turku Castle](https://turunlinna.fi/en/opening-times-and-prices/) |
 | TKU-AT-002 | 투르쿠 | 투르쿠 성 (아동) | 8 EUR | A | 예 | 재검증 | [Turku Castle](https://turunlinna.fi/en/opening-times-and-prices/) |
+| TAY-TR-001 | 타르투 | 타르투 시내버스 1시간권(사전~기사 구매) | 1.8~3 EUR | A | 예 | 재검증 | [Tartu City](https://tartu.ee/sites/default/files/uploads/Tartu%20linn/Volikogu/Uus_hinnakiri.pdf) |
+| TAY-AT-001 | 타르투 | 에스토니아 국립박물관 (성인) | 16 EUR | A | 예 | 재검증 | [Estonian National Museum](https://www.erm.ee/en/visit/admission/) |
+| TAY-AT-002 | 타르투 | 에스토니아 국립박물관 (할인) | 12 EUR | A | 예 | 재검증 | [Estonian National Museum](https://www.erm.ee/en/visit/admission/) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

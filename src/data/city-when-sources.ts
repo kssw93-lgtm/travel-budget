@@ -480,4 +480,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'galway:x': 'https://www.transportforireland.ie/plan-a-journey/network-maps/galway-city-bus-services/',
   'turku:p1': 'https://en.visitturku.fi/happiness-turku-style-live-like-a-local',
   'turku:x': 'https://www.foli.fi/fi/selko/hinnat',
+  'tartu:p1': 'https://visitestonia.com/en/tartu-market',
+  'tartu:x': 'https://www.erm.ee/en/visit/admission/',
 };

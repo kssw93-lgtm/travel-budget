@@ -11866,6 +11866,60 @@
     "note": ""
   },
   {
+    "cityId": "tartu",
+    "nameKo": "흑빵",
+    "nameEn": "Black Bread (Must Leib)",
+    "reason": "호밀로 만든 에스토니아 전통 흑빵",
+    "reasonEn": "Traditional Estonian dark rye bread",
+    "desc": {
+      "ko": "호밀로 만든 에스토니아 전통 흑빵",
+      "en": "Traditional Estonian dark rye bread",
+      "ja": "ライ麦で作るエストニアの伝統的な黒パン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Estonia",
+    "recommendUrl": "https://visitestonia.com/en/what-to-do/estonias-national-bread",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "tartu",
+    "nameKo": "카마",
+    "nameEn": "Kama",
+    "reason": "보리·호밀·귀리·완두 가루를 발효유에 섞어 먹는 음식",
+    "reasonEn": "Roasted grain-flour mix eaten with sour milk",
+    "desc": {
+      "ko": "보리·호밀·귀리·완두 가루를 발효유에 섞어 먹는 음식",
+      "en": "Roasted grain-flour mix eaten with sour milk",
+      "ja": "大麦・ライ麦・オーツ麦・エンドウ豆の粉を発酵乳に混ぜて食べる料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Estonia",
+    "recommendUrl": "https://visitestonia.com/en/what-to-do/five-classic-foods-to-try-in-estonia",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "tartu",
+    "nameKo": "물기 코르프",
+    "nameEn": "Mulgi Korp",
+    "reason": "코후피임(쿼크)과 달걀·설탕을 채운 빵",
+    "reasonEn": "Bun filled with quark, egg and sugar",
+    "desc": {
+      "ko": "코후피임(쿼크)과 달걀·설탕을 채운 빵",
+      "en": "Bun filled with quark, egg and sugar",
+      "ja": "コフピーム（クワルク）と卵、砂糖を詰めたパン"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Estonia",
+    "recommendUrl": "https://visitestonia.com/en/what-to-do/where-to-go-for-breakfast-and-brunch-in-estonia",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "tashkent",
     "nameKo": "플로브",
     "nameEn": "Plov",

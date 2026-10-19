@@ -670,4 +670,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['항구 주변', 'Around the harbour', '港周辺', '투르쿠 성과 스톡홀름행 페리 터미널이 가깝습니다.', 'Near Turku Castle and the ferry terminal for Stockholm.', 'トゥルク城やストックホルム行きのフェリーターミナルに近いです。'],
     ],
   },
+  tartu: {
+    o: ['에스토니아 제2의 도시이자 1632년 세워진 타르투 대학이 있는 대학 도시로, 학생이 많아 젊고 활기찹니다. 공항 활주로 위에 지은 에스토니아 국립박물관과 강변 시장이 볼거리이며, 2024년 유럽 문화 수도로 선정됐습니다.', 'Estonia’s second city and home of the University of Tartu (1632), lively with students; highlights include the Estonian National Museum built on a former airfield runway and the riverside markets, and it was a 2024 European Capital of Culture.', 'エストニア第2の都市で、1632年創立のタルトゥ大学がある学生の多い活気ある大学都市です。旧飛行場の滑走路の上に建てられたエストニア国立博物館や川沿いの市場が見どころで、2024年の欧州文化首都に選ばれました。'],
+    d: [1, 2],
+    s: [
+      ['구시가지(시청 광장 주변)', 'Old Town (around Town Hall Square)', '旧市街（市庁舎広場周辺）', '대학 건물과 식당, 카페가 모인 중심지입니다.', 'The heart of town with university buildings, restaurants and cafés.', '大学の建物や飲食店、カフェが集まる中心地です。'],
+      ['에마요기강 변', 'Emajõgi riverside', 'エマヨギ川沿い', '실내 시장과 강변 시장이 있는 지역입니다.', 'Home to the indoor and riverside markets.', '屋内市場や川沿いの市場がある地区です。'],
+    ],
+  },
 };

@@ -1017,4 +1017,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['버스는 미리 사거나 신용카드를 대면 1회 3.15유로이고, 버스 안에서 현금으로 내면 4.50유로입니다. 2시간 안에 갈아탈 수 있습니다.', 'Bus singles cost €3.15 bought in advance or by contactless card, €4.50 in cash on board; transfers are valid for 2 hours.', 'バスは事前購入かクレジットカードのタッチ決済で1回3.15ユーロ、車内で現金だと4.50ユーロです。2時間以内なら乗り換えできます。'],
     ],
   },
+  tartu: {
+    h: [
+      ['에스토니아 국립박물관', 'Estonian National Museum (ERM)', 'エストニア国立博物館', '옛 비행장 활주로에서 이어지듯 지은 건물에 에스토니아 민속과 역사를 전시합니다.', 'Estonian folk culture and history in a building that extends from an old runway.', '旧飛行場の滑走路から続くように建てられた建物で、エストニアの民俗と歴史を展示しています。'],
+      ['타르투 실내 시장', 'Tartu Market Hall', 'タルトゥ・マーケットホール', '남부 에스토니아에서 가장 큰 신선 식품 시장으로, 생선과 저장 식품이 다양합니다.', 'South Estonia’s largest fresh-food market, strong on fish and preserves.', '南エストニア最大の生鮮食品市場で、魚や保存食が豊富です。'],
+      ['에스토니아 흑빵', 'Estonian black bread', 'エストニアの黒パン', '호밀로 만든 흑빵(무스트 레입)은 에스토니아 식탁의 기본입니다.', 'Dark rye bread (must leib) is the staple of the Estonian table.', 'ライ麦で作る黒パン（ムスト・レイプ）はエストニアの食卓の基本です。'],
+    ],
+    t: [
+      ['시내버스 1시간권은 미리 사면 싸고, 버스 기사에게 사면 더 비쌉니다. 2026년 7월에 요금이 올랐습니다.', 'City-bus hourly tickets are cheaper bought in advance than from the driver; fares rose in July 2026.', '市内バスの1時間券は事前に買うと安く、運転手から買うと高くなります。2026年7月に運賃が値上げされました。'],
+    ],
+  },
 };

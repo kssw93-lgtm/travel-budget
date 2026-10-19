@@ -1390,6 +1390,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "tartu",
+    "country": "에스토니아",
+    "countryEn": "Estonia",
+    "nameKo": "타르투",
+    "nameEn": "Tartu",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "copenhagen",
     "country": "덴마크",
     "countryEn": "Denmark",

@@ -300,6 +300,8 @@
 | 산세바스티안 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 푼샬 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 푼샬 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 코르도바 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 코르도바 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 드레스덴 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 드레스덴 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 뉘른베르크 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1182,6 +1184,9 @@
 | FNC-TR-001 | 푼샬 | 푼샬 시내버스 1회(사전~차내) | 1.45~2.05 EUR | A | 예 | 재검증 | [Horários do Funchal](https://www.horariosdofunchal.pt/images/pdf/tarifas-2026.pdf) |
 | FNC-AT-001 | 푼샬 | 푼샬 케이블카 편도 (성인) | 16 EUR | A | 예 | 재검증 | [Madeira Cable Car](https://madeiracablecar.com/en/price-and-schedule/) |
 | FNC-AT-002 | 푼샬 | 푼샬 케이블카 편도 (아동 50%) | 8 EUR | A | 예 | 재검증 | [Madeira Cable Car](https://madeiracablecar.com/en/price-and-schedule/) |
+| ODB-TR-001 | 코르도바 | 아우코르사 시내버스 1회권 | 1.3 EUR | A | 예 | 재검증 | [Aucorsa](https://aucorsa.es/titulos-y-tarifas/) |
+| ODB-AT-001 | 코르도바 | 메스키타 대성당 (성인) | 15 EUR | A | 예 | 재검증 | [Cabildo Catedral de Córdoba](https://mezquita-catedraldecordoba.es/en/organiza-la-visita/entradas-y-horarios/mezquita-catedral/) |
+| ODB-AT-002 | 코르도바 | 메스키타 대성당 (아동) | 8 EUR | A | 예 | 재검증 | [Cabildo Catedral de Córdoba](https://mezquita-catedraldecordoba.es/en/organiza-la-visita/entradas-y-horarios/mezquita-catedral/) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

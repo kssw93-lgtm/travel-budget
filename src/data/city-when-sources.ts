@@ -491,4 +491,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'funchal:p1': 'https://visitmadeira.com/en/what-to-do/experiencing-the-city-of-funchal/madeira-cuisine-and-wine/',
   'funchal:p2': 'https://visitmadeira.com/en/what-to-do/experiencing-the-city-of-funchal/madeira-cuisine-and-wine/',
   'funchal:x': 'https://www.horariosdofunchal.pt/images/pdf/tarifas-2026.pdf',
+  'cordoba:p1': 'https://www.turismodecordoba.org/los-patios',
+  'cordoba:p2': 'https://www.andalucia.org/blog/post/en-cordoba-el-otono-es-cosa-de-dos/',
+  'cordoba:x': 'https://mezquita-catedraldecordoba.es/en/organiza-la-visita/entradas-y-horarios/mezquita-catedral/',
 };

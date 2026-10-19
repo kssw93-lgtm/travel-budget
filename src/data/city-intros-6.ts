@@ -710,4 +710,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['리두 호텔 지구', 'Lido hotel zone', 'リド・ホテル地区', '바닷가 산책로와 수영장 시설이 있는 서쪽 호텔 지역입니다.', 'The western hotel strip with seafront promenade and pools.', '海沿いの遊歩道やプール施設がある西側のホテル地区です。'],
     ],
   },
+  cordoba: {
+    o: ['스페인 안달루시아의 옛 이슬람 왕국 수도로, 붉은 줄무늬 아치가 끝없이 이어지는 메스키타 대성당이 상징입니다. 하얀 골목과 꽃으로 꾸민 안뜰(파티오)이 유명하며, 차가운 토마토 수프 살모레호의 본고장입니다.', 'The former capital of Islamic al-Andalus, symbolised by the Mosque-Cathedral with its endless red-and-white arches; famous for whitewashed lanes and flower-filled patios, and the home of salmorejo, a chilled tomato soup.', 'スペイン・アンダルシアのかつてのイスラム王朝の都で、赤白の縞模様のアーチが果てしなく続くメスキータ大聖堂がシンボルです。白い路地や花で飾られた中庭（パティオ）で有名で、冷たいトマトスープ「サルモレホ」の本場です。'],
+    d: [1, 2],
+    s: [
+      ['유대인 지구(후데리아)', 'Jewish Quarter (Judería)', 'ユダヤ人街（フデリア）', '메스키타 바로 옆 하얀 골목으로, 식당과 숙소가 모여 있습니다.', 'The whitewashed lanes beside the Mezquita, full of restaurants and stays.', 'メスキータのすぐそばの白い路地で、飲食店や宿が集まっています。'],
+      ['기차역·중심가', 'Station / centre', '駅・中心街', '기차역과 시내버스가 가깝고 쇼핑 거리가 있습니다.', 'Near the station and buses, with shopping streets.', '鉄道駅や市内バスに近く、ショッピング街があります。'],
+    ],
+  },
 };

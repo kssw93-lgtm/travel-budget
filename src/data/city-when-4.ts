@@ -570,4 +570,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['시내버스는 미리 산 승차권이 버스 안에서 사는 것보다 쌉니다.', 'City-bus tickets bought in advance are cheaper than buying on board.', '市内バスは事前に買った乗車券の方が車内で買うより安くなります。'],
   },
+  cordoba: {
+    p: [
+      ['5월', 'May', '5月', '꽃으로 꾸민 개인 안뜰을 공개하는 파티오 축제가 열립니다.', 'The Patios festival opens private flower-filled courtyards.', '花で飾られた個人の中庭を公開するパティオ祭りが開かれます。'],
+      ['10~11월', 'October–November', '10〜11月', '더위가 가라앉아 메스키타와 골목 산책을 즐기기 좋습니다.', 'The heat eases — ideal for the Mezquita and the lanes.', '暑さが和らぎ、メスキータや路地の散策を楽しめます。'],
+    ],
+    x: ['메스키타 대성당은 월~토요일 아침(8시 반~9시 반)에 무료로 개인 입장할 수 있습니다.', 'The Mosque-Cathedral is free for individual visits Monday–Saturday 8:30–9:30 am.', 'メスキータ大聖堂は月〜土曜の朝（8時半〜9時半）に個人で無料入場できます。'],
+  },
 };

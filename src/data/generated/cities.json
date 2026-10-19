@@ -1520,6 +1520,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "cordoba",
+    "country": "스페인",
+    "countryEn": "Spain",
+    "nameKo": "코르도바",
+    "nameEn": "Córdoba",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "dresden",
     "country": "독일",
     "countryEn": "Germany",

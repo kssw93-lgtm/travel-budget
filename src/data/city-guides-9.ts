@@ -1067,4 +1067,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 에어로버스나 택시로 약 20~25분 걸립니다.', 'Airport to city: the Aerobus or a taxi takes about 20–25 minutes.', '空港から市内へ：エアロバスかタクシーで約20〜25分です。'],
     ],
   },
+  cordoba: {
+    h: [
+      ['메스키타 대성당', 'Mosque-Cathedral of Córdoba', 'メスキータ大聖堂', '이슬람 사원 안에 가톨릭 대성당이 들어선 세계유산으로, 10세 미만은 무료입니다.', 'A UNESCO site where a cathedral stands inside a great mosque; under-10s free.', 'イスラム寺院の中にカトリック大聖堂が建つ世界遺産で、10歳未満は無料です。'],
+      ['코르도바의 안뜰', 'Patios of Córdoba', 'コルドバのパティオ', '화분으로 벽을 가득 채운 안뜰 문화로, 유네스코 무형문화유산입니다.', 'Walls of potted flowers in courtyard homes — UNESCO intangible heritage.', '鉢植えの花で壁を埋め尽くした中庭の文化で、ユネスコ無形文化遺産です。'],
+      ['살모레호', 'Salmorejo', 'サルモレホ', '토마토·빵·마늘·올리브유로 만든 차가운 수프로, 코르도바 요리의 대표입니다.', 'A chilled cream of tomato, bread, garlic and olive oil — Córdoba’s flagship dish.', 'トマト・パン・にんにく・オリーブオイルで作る冷たいスープで、コルドバ料理の代表です。'],
+    ],
+    t: [
+      ['시내버스(아우코르사) 1회권은 1.30유로이며, 15세 미만은 어린이 카드로 2026년 말까지 무료입니다.', 'City buses (Aucorsa) cost €1.30 a ride; under-15s ride free with the child card until the end of 2026.', '市内バス（アウコルサ）の1回券は1.30ユーロで、15歳未満は子ども用カードで2026年末まで無料です。'],
+    ],
+  },
 };

@@ -3865,6 +3865,60 @@
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
+    "cityId": "cordoba",
+    "nameKo": "살모레호",
+    "nameEn": "Salmorejo",
+    "reason": "토마토·빵·마늘·올리브유로 만든 차가운 크림 수프",
+    "reasonEn": "Chilled cream of tomato, bread, garlic and olive oil",
+    "desc": {
+      "ko": "토마토·빵·마늘·올리브유로 만든 차가운 크림 수프",
+      "en": "Chilled cream of tomato, bread, garlic and olive oil",
+      "ja": "トマト・パン・にんにく・オリーブオイルで作る冷たいクリームスープ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Turismo de Córdoba",
+    "recommendUrl": "https://www.turismodecordoba.org/the-gastronomy-of-cordoba",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "cordoba",
+    "nameKo": "플라멩킨",
+    "nameEn": "Flamenquín",
+    "reason": "하몬을 채워 돌돌 만 돼지고기를 튀긴 요리",
+    "reasonEn": "Rolled pork filled with ham, breaded and fried",
+    "desc": {
+      "ko": "하몬을 채워 돌돌 만 돼지고기를 튀긴 요리",
+      "en": "Rolled pork filled with ham, breaded and fried",
+      "ja": "生ハムを巻いた豚肉に衣をつけて揚げた料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Turismo de Córdoba",
+    "recommendUrl": "https://www.turismodecordoba.org/the-gastronomy-of-cordoba",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "cordoba",
+    "nameKo": "소꼬리 찜",
+    "nameEn": "Rabo de Toro",
+    "reason": "소꼬리를 오래 끓인 코르도바 전통 찜",
+    "reasonEn": "Slow-braised oxtail stew",
+    "desc": {
+      "ko": "소꼬리를 오래 끓인 코르도바 전통 찜",
+      "en": "Slow-braised oxtail stew",
+      "ja": "牛テールをじっくり煮込んだコルドバの伝統料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Turismo de Córdoba",
+    "recommendUrl": "https://www.turismodecordoba.org/the-gastronomy-of-cordoba",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "cork",
     "nameKo": "스파이스드 비프",
     "nameEn": "Spiced Beef",

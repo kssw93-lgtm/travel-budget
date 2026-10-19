@@ -1204,4 +1204,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'funchal:h2': 'https://visitmadeira.com/en/what-to-do/food-and-wine-enthusiasts/traditional-madeira-food/typical-dishes/',
   'funchal:h3': 'https://visitmadeira.com/en/what-to-do/experiencing-the-city-of-funchal/madeira-cuisine-and-wine/',
   'funchal:t1': 'https://visitmadeira.com/en/travel-info/how-to-move-around/',
+  'cordoba:h1': 'https://mezquita-catedraldecordoba.es/en/organiza-la-visita/entradas-y-horarios/mezquita-catedral/',
+  'cordoba:h2': 'https://www.turismodecordoba.org/los-patios',
+  'cordoba:h3': 'https://www.turismodecordoba.org/the-gastronomy-of-cordoba',
+  'cordoba:t1': 'https://aucorsa.es/titulos-y-tarifas/',
 };

@@ -5512,5 +5512,20 @@
     "ko": "마데이라 심해에서 잡히는 검은갈치 필레 요리",
     "en": "Fillet of deep-sea black scabbardfish",
     "ja": "マデイラの深海でとれる黒太刀魚のフィレ料理"
+  },
+  "cordoba:Salmorejo": {
+    "ko": "토마토·빵·마늘·올리브유로 만든 차가운 크림 수프",
+    "en": "Chilled cream of tomato, bread, garlic and olive oil",
+    "ja": "トマト・パン・にんにく・オリーブオイルで作る冷たいクリームスープ"
+  },
+  "cordoba:Flamenquín": {
+    "ko": "하몬을 채워 돌돌 만 돼지고기를 튀긴 요리",
+    "en": "Rolled pork filled with ham, breaded and fried",
+    "ja": "生ハムを巻いた豚肉に衣をつけて揚げた料理"
+  },
+  "cordoba:Rabo de Toro": {
+    "ko": "소꼬리를 오래 끓인 코르도바 전통 찜",
+    "en": "Slow-braised oxtail stew",
+    "ja": "牛テールをじっくり煮込んだコルドバの伝統料理"
   }
 }

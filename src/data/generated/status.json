@@ -3390,12 +3390,12 @@
   "madrid": {
     "counts": {
       "food": 6,
-      "transport": 8,
+      "transport": 9,
       "attraction": 3
     },
     "baskets": {
       "pass": 0,
-      "ride": 8,
+      "ride": 9,
       "meal": 6,
       "snack": 5,
       "drink": 3,
@@ -3404,7 +3404,7 @@
     },
     "basketRows": {
       "pass": 0,
-      "ride": 8,
+      "ride": 9,
       "meal": 6,
       "snack": 5,
       "drink": 3,
@@ -4164,6 +4164,34 @@
       "meal": 8,
       "snack": 3,
       "drink": 5,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "cordoba": {
+    "counts": {
+      "food": 6,
+      "transport": 1,
+      "attraction": 1
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 6,
+      "snack": 5,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 6,
+      "snack": 5,
+      "drink": 3,
       "attraction": 1,
       "souvenir": 0
     },

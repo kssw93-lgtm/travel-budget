@@ -5121,6 +5121,60 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "gothenburg",
+    "nameKo": "새우 샌드위치",
+    "nameEn": "Shrimp Sandwich",
+    "reason": "빵 위에 서해안 새우를 수북이 올린 오픈 샌드위치",
+    "reasonEn": "Open sandwich piled with west-coast shrimp",
+    "desc": {
+      "ko": "빵 위에 서해안 새우를 수북이 올린 오픈 샌드위치",
+      "en": "Open sandwich piled with west-coast shrimp",
+      "ja": "パンの上に西海岸のエビをたっぷりのせたオープンサンド"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Göteborg & Co",
+    "recommendUrl": "https://www.goteborg.com/en/guides/a-city-for-foodies-and-anyone-else",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "gothenburg",
+    "nameKo": "랑구스틴",
+    "nameEn": "Langoustines",
+    "reason": "어선에서 바로 사는 서해안 가재새우",
+    "reasonEn": "West-coast langoustines bought straight off the boats",
+    "desc": {
+      "ko": "어선에서 바로 사는 서해안 가재새우",
+      "en": "West-coast langoustines bought straight off the boats",
+      "ja": "漁船から直接買う西海岸のアカザエビ"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Göteborg & Co",
+    "recommendUrl": "https://www.goteborg.com/en/guides/a-city-for-foodies-and-anyone-else",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "gothenburg",
+    "nameKo": "하가불레",
+    "nameEn": "Hagabullen",
+    "reason": "하가 지구의 거대한 시나몬롤",
+    "reasonEn": "Giant cinnamon bun from Haga",
+    "desc": {
+      "ko": "하가 지구의 거대한 시나몬롤",
+      "en": "Giant cinnamon bun from Haga",
+      "ja": "ハーガ地区の巨大なシナモンロール"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Göteborg & Co",
+    "recommendUrl": "https://www.goteborg.com/en/guides/the-cinnamon-buns-you-cant-miss-in-gothenburg",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "granada",
     "nameKo": "하바스 콘 하몬",
     "nameEn": "Habas con Jamón",

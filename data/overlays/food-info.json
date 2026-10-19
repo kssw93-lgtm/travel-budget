@@ -5362,5 +5362,20 @@
     "ko": "뱃사람들이 먹던 고기·감자 요리로, 달걀프라이와 청어 절임을 곁들입니다",
     "en": "Sailors’ corned-beef hash with fried egg and rollmops",
     "ja": "船乗りが食べた肉とじゃがいもの料理で、目玉焼きやニシンの酢漬けを添えます"
+  },
+  "gothenburg:Shrimp Sandwich": {
+    "ko": "빵 위에 서해안 새우를 수북이 올린 오픈 샌드위치",
+    "en": "Open sandwich piled with west-coast shrimp",
+    "ja": "パンの上に西海岸のエビをたっぷりのせたオープンサンド"
+  },
+  "gothenburg:Langoustines": {
+    "ko": "어선에서 바로 사는 서해안 가재새우",
+    "en": "West-coast langoustines bought straight off the boats",
+    "ja": "漁船から直接買う西海岸のアカザエビ"
+  },
+  "gothenburg:Hagabullen": {
+    "ko": "하가 지구의 거대한 시나몬롤",
+    "en": "Giant cinnamon bun from Haga",
+    "ja": "ハーガ地区の巨大なシナモンロール"
   }
 }

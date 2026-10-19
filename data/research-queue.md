@@ -261,6 +261,8 @@
 | 로잔 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 브레멘 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 브레멘 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 예테보리 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 예테보리 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 코펜하겐 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 코펜하겐 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 스톡홀름 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1131,6 +1133,9 @@
 | BRE-TR-001 | 브레멘 | BSAG 브레멘 1회권(3시간) | 3.4 EUR | A | 예 | 재검증 | [BSAG](https://www.bsag.de/tickets/tickets-ueberblick/details/einzelticket/erwachsener) |
 | BRE-AT-001 | 브레멘 | 유니버숨 브레멘 (성인) | 18 EUR | A | 예 | 재검증 | [Universum Bremen](https://universum-bremen.de/info-oeffnungszeiten-eintrittspreise/) |
 | BRE-AT-002 | 브레멘 | 유니버숨 브레멘 (할인) | 12 EUR | A | 예 | 재검증 | [Universum Bremen](https://universum-bremen.de/info-oeffnungszeiten-eintrittspreise/) |
+| GOT-TR-001 | 예테보리 | 베스트트라피크 구역 A 1회권(90분) | 38 SEK | A | 예 | 재검증 | [Västtrafik](https://www.vasttrafik.se/biljetter/enkelbiljetter/) |
+| GOT-AT-001 | 예테보리 | 예테보리 미술관 (성인) | 75 SEK | A | 예 | 재검증 | [Göteborgs konstmuseum](https://goteborgskonstmuseum.se/besok-museet/) |
+| GOT-AT-002 | 예테보리 | 예테보리 미술관 (20세 미만 무료) | 0 SEK | A | 예 | 재검증 | [Göteborgs konstmuseum](https://goteborgskonstmuseum.se/besok-museet/) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

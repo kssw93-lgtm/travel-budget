@@ -1340,6 +1340,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "gothenburg",
+    "country": "스웨덴",
+    "countryEn": "Sweden",
+    "nameKo": "예테보리",
+    "nameEn": "Gothenburg",
+    "currency": "SEK",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "copenhagen",
     "country": "덴마크",
     "countryEn": "Denmark",

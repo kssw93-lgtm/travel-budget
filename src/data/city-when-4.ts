@@ -508,4 +508,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['시청 내부는 가이드 투어로만 볼 수 있고, 투어 일정은 약 한 달 전에 정해지며 갑자기 취소되기도 합니다.', 'The Town Hall interior is by guided tour only; dates are set about a month ahead and can be cancelled at short notice.', '市庁舎の内部はガイドツアーでのみ見学でき、日程は約1か月前に決まり、急に中止されることもあります。'],
   },
+  gothenburg: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '트램과 배로 군도 섬을 돌고, 해산물을 즐기기 좋은 계절입니다.', 'The season for island-hopping by tram and boat, and for seafood.', 'トラムと船で群島の島々を巡り、海産物を楽しむのに良い季節です。'],
+    ],
+    x: ['시내 트램과 버스는 신용카드를 단말기에 대면(블리프) 구역 A 90분권이 바로 결제됩니다.', 'Tap a bank card on trams and buses to buy a 90-minute zone A ticket.', '市内のトラムやバスはクレジットカードを端末にかざすと、ゾーンAの90分券がすぐに決済されます。'],
+  },
 };

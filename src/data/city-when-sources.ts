@@ -469,4 +469,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'bremen:p1': 'https://www.bremen.de/leben-in-bremen/kulinarisch/bremisch-geniessen',
   'bremen:p2': 'https://www.bremen.de/leben-in-bremen/gruenkohl-in-bremen',
   'bremen:x': 'https://tourismus.bremen.de/bremen/experience/detail/Erlebnisbaustein-Rathausfuehrung-Bremen-DEU99999990083824262',
+  'gothenburg:p1': 'https://www.goteborg.com/en/guides/one-day-in-gothenburg-itinerary',
+  'gothenburg:x': 'https://www.vasttrafik.se/biljetter/mer-om-biljetter/blippbetalning/',
 };

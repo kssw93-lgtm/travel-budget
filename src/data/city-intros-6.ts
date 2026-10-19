@@ -630,4 +630,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['중앙역 주변', 'Around the Hauptbahnhof', '中央駅周辺', '공항행 트램과 기차가 모이고, 유니버숨 과학관행 교통도 편합니다.', 'Trams to the airport and trains, with easy links to the Universum.', '空港行きのトラムや列車が集まり、ウニヴェルズム科学館へも行きやすいです。'],
     ],
   },
+  gothenburg: {
+    o: ['스웨덴 서해안의 항구 도시이자 제2의 도시로, 운하와 트램이 지나는 아담한 시내와 섬이 흩어진 바다 정원(군도)이 매력입니다. 새우·랍스터 같은 서해안 해산물과 세계에서 가장 크다는 시나몬롤로 유명합니다.', 'Sweden’s second city and west-coast port, with a compact canal-and-tram centre and an island-strewn archipelago; famous for west-coast seafood like shrimp and langoustines, and a cinnamon bun said to be the world’s largest.', 'スウェーデン西海岸の港町で第2の都市です。運河とトラムが走るこぢんまりした市内と、島が点在する群島が魅力で、エビやアカザエビなど西海岸の海産物や、世界一大きいといわれるシナモンロールで有名です。'],
+    d: [2, 3],
+    s: [
+      ['시내 중심(노르드스탄·아베뉜)', 'City centre (Nordstan / Avenyn)', '中心部（ノードスタン・アヴェニン）', '중앙역과 공항버스, 쇼핑가가 모인 중심지입니다.', 'The hub of the central station, airport buses and shopping.', '中央駅や空港バス、ショッピング街が集まる中心地です。'],
+      ['하가', 'Haga', 'ハーガ', '나무 집이 늘어선 옛 동네로, 카페와 큰 시나몬롤 가게가 있습니다.', 'The old wooden-house quarter of cafés and giant cinnamon buns.', '木造の家が並ぶ古い地区で、カフェや大きなシナモンロールの店があります。'],
+    ],
+  },
 };

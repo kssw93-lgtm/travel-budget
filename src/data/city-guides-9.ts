@@ -967,4 +967,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 트램 6번을 타면 약 11분 만에 중앙역·시내에 닿으며, 브레멘 시내 1회권(3시간 유효)으로 탈 수 있습니다.', 'Airport to city: tram 6 reaches the centre and Hauptbahnhof in about 11 minutes on a Bremen city single (valid 3 hours).', '空港から市内へ：トラム6番で約11分で中央駅・市内に着き、ブレーメン市内の1回券（3時間有効）で乗れます。'],
     ],
   },
+  gothenburg: {
+    h: [
+      ['페스케쾨르카', 'Feskekôrka', 'フィスケコルカ', '1874년에 세운 ‘생선 교회’ 모양의 수산 시장으로, 새우 샌드위치와 굴을 맛볼 수 있습니다.', 'The 1874 “fish church” market hall for shrimp sandwiches and oysters.', '1874年に建てられた「魚の教会」のような水産市場で、エビのサンドイッチやカキが味わえます。'],
+      ['예테보리 미술관', 'Gothenburg Museum of Art', 'ヨーテボリ美術館', '북유럽 미술 소장품이 풍부한 미술관으로, 20세 미만은 무료입니다.', 'Strong in Nordic art; free for visitors under 20.', '北欧美術の所蔵が豊富な美術館で、20歳未満は無料です。'],
+      ['하가 시나몬롤', 'Haga cinnamon bun', 'ハーガのシナモンロール', '하가 지구의 카페에서 파는 얼굴만 한 크기의 시나몬롤(하가불레)입니다.', 'The face-sized Hagabullen cinnamon bun from a Haga café.', 'ハーガ地区のカフェで売られる顔ほどの大きさのシナモンロール（ハーガブッレ）です。'],
+    ],
+    t: [
+      ['공항에서 시내: 플뤼그부사르나 공항버스가 최대 20분 간격으로 란드베테르 공항과 중앙역을 잇습니다.', 'Airport to city: Flygbussarna buses link Landvetter Airport and the central station up to every 20 minutes.', '空港から市内へ：フリューグブッサルナの空港バスが最短20分間隔でランドヴェッテル空港と中央駅を結んでいます。'],
+    ],
+  },
 };

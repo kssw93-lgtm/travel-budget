@@ -1164,4 +1164,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'bremen:h2': 'https://universum-bremen.de/info-oeffnungszeiten-eintrittspreise/',
   'bremen:h3': 'https://m.bremen-tourismus.de/so-isst-man-bremisch',
   'bremen:t1': 'https://www.bremen-airport.com/en/service/arrival-parking/getting-to-the-airport',
+  'gothenburg:h1': 'https://www.goteborg.com/en/guides/a-city-for-foodies-and-anyone-else',
+  'gothenburg:h2': 'https://goteborgskonstmuseum.se/besok-museet/',
+  'gothenburg:h3': 'https://www.goteborg.com/en/guides/the-cinnamon-buns-you-cant-miss-in-gothenburg',
+  'gothenburg:t1': 'https://www.flygbussarna.se/en/landvetter',
 };

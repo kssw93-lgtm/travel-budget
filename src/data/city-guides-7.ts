@@ -84,6 +84,7 @@ export const NOTES_7: Record<string, Compact> = {
     t: [
       ['결제는 알리페이·위챗페이가 기본이라 출국 전에 외국 카드 연동을 해 두면 편합니다.', 'Alipay and WeChat Pay are the norm; link a foreign card before you go.', '支払いはアリペイ・WeChatペイが基本。出発前に海外カードを連携しておくと便利です。'],
       ['샤오룽바오는 피를 살짝 찢어 국물을 먼저 마시면 덜 뜨겁게 먹을 수 있습니다.', 'Nibble a xiaolongbao and sip the soup first to avoid burns.', '小籠包は皮を少し破ってスープを先に飲むと、やけどしにくいです。'],
+      ['푸둥공항 1·2터미널에서는 지하철 2호선을 탈 수 있고, 홍차오공항 2터미널까지 연결됩니다.', 'Metro Line 2 serves Terminals 1 and 2 at Pudong Airport and connects to Terminal 2 at Hongqiao Airport.', '浦東空港の第1・第2ターミナルからは地下鉄2号線に乗れ、虹橋空港第2ターミナルまでつながっています。'],
     ],
   },
   fukuoka: {
@@ -152,6 +153,7 @@ export const NOTES_7: Record<string, Compact> = {
     t: [
       ['나트랑 근교에는 탑바 등 진흙 온천 시설이 있어 시내 관광과 함께 둘러볼 수 있습니다.', 'Mud bath venues such as Thap Ba lie near Nha Trang and can be combined with city sightseeing.', 'ニャチャン近郊にはタップバーなどの泥温泉施設があり、市内観光と合わせて訪れられます。'],
       ['차량 호출 앱(그랩 등)을 쓰면 요금이 미리 정해져 흥정할 필요가 없습니다.', 'Ride-hailing apps like Grab show the fare upfront.', 'Grabなどの配車アプリなら料金が事前に決まり、交渉不要です。'],
+      ['깜라인공항 공식 안내에는 다트머이·빈버스의 나트랑 시내 연결편이 소개되어 있어요. 18번 노선의 승차 지점과 당일 운행 여부를 확인하세요.', 'Cam Ranh Airport’s official guide lists Dat Moi and Vinbus connections with Nha Trang. Check the route 18 pickup points and service for your travel date.', 'カムラン空港の公式案内にはダットモイ・ビンバスのニャチャン市内連絡便が掲載されています。18番路線の乗り場と当日の運行状況を確認しましょう。'],
     ],
   },
 };

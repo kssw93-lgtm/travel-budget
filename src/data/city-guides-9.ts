@@ -116,6 +116,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['한겨울은 매우 추우니 방한복·장갑·모자를 겹겹이 준비하세요. 투어 업체가 방한복을 빌려주기도 합니다.', 'Midwinter is extremely cold; dress in layers with gloves and a hat. Tour operators often lend thermal suits.', '真冬は非常に寒いので、防寒着・手袋・帽子を重ね着しましょう。ツアー会社が防寒服を貸してくれることもあります。'],
       ['12월은 해가 거의 뜨지 않는 극야라 낮 시간이 매우 짧습니다. 일정은 밝은 시간에 맞춰 짜세요.', 'In December the polar night leaves only a short spell of daylight; plan around it.', '12月は極夜で日中がとても短いので、明るい時間に合わせて予定を組みましょう。'],
       ['오로라는 늦은 8월부터 4월 초까지 어둡고 구름 없는 밤에 관측될 수 있어, 여러 밤을 두면 기회를 늘릴 수 있습니다.', 'The Northern Lights may appear from late August to early April on dark, cloudless nights; staying several nights gives you more opportunities.', 'オーロラは8月下旬から4月上旬まで、暗く雲のない夜に見られることがあります。複数泊すると観測の機会を増やせます。'],
+      ['로바니에미공항과 시내를 잇는 버스는 계절에 따라 달라져요. 이용 시기별로 Airport Express·Santa Claus Bus의 최신 운행 여부와 시간표를 확인하세요.', 'Bus connections between Rovaniemi Airport and the city vary by season. Check whether Airport Express or Santa Claus Bus is operating and review the latest timetable for your dates.', 'ロバニエミ空港と市内を結ぶバスは季節によって異なります。利用時期にAirport Express・Santa Claus Busが運行するか、最新時刻表を確認しましょう。'],
     ],
   },
   tallinn: {
@@ -157,6 +158,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['카이로 지하철은 도로 정체를 피할 수 있는 이동 수단입니다. 택시나 차량 호출 서비스를 이용할 때는 탑승 전 요금 방식과 승차 지점을 확인하세요.', 'Cairo\'s metro is an option for avoiding road traffic. For taxis or ride-hailing, check the fare method and pickup point before you ride.', 'カイロの地下鉄は道路の渋滞を避ける移動手段です。タクシーや配車サービスでは、乗車前に料金方式と乗車場所を確認しましょう。'],
       ['카이로의 유적·박물관은 외국인과 이집트인 요금을 구분하는 곳이 있습니다. 방문 전 각 시설의 공식 요금과 온라인 예매 안내를 확인하세요.', 'Some Cairo monuments and museums have separate foreign and Egyptian admission categories. Check each site\'s official rates and online booking instructions before visiting.', 'カイロの遺跡や博物館には、外国人とエジプト人で入場区分が異なる施設があります。訪問前に各施設の公式料金とオンライン予約案内を確認しましょう。'],
+      ['카이로공항에서 시내버스를 탈 때는 제1터미널 앞 주차 구역의 버스 정류장으로 가서 목적지에 맞는 노선을 확인하세요.', 'For city buses at Cairo Airport, go to the bus station in the parking area in front of Terminal 1 and check which route serves your destination.', 'カイロ空港で市内バスに乗る場合は、第1ターミナル前の駐車場にあるバス停へ行き、目的地に合う路線を確認しましょう。'],
     ],
   },
   frankfurt: {
@@ -295,6 +297,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['프랑스어가 공용어지만 관광지에서는 영어도 잘 통합니다. 인사로 「봉주르」를 건네면 좋아합니다.', 'French is the official language, but English works fine in tourist areas; a “bonjour” goes down well.', 'フランス語が公用語ですが、観光地では英語もよく通じます。「ボンジュール」と挨拶すると喜ばれます。'],
       ['구시가지는 언덕과 계단이 많아, 아래 동네와 위 동네 사이는 푸니쿨라를 타면 편합니다.', 'The old town is hilly; the funicular links the Lower and Upper Town.', '旧市街は坂や階段が多く、下町と上町の間はケーブルカーが便利です。'],
+      ['퀘벡시티 공항에서는 RTC 80번 버스로 도심, 76번 버스로 생트푸아 방면을 연결할 수 있고, 800·801번으로 환승할 수 있어요.', 'RTC bus 80 connects the airport area with downtown, while route 76 serves Sainte-Foy; routes 800 and 801 provide connections onward.', 'ケベック・シティ空港からはRTC 80番で中心部、76番でサント＝フォワ方面へ行け、800・801番に乗り継げます。'],
     ],
   },
   porto: {

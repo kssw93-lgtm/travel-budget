@@ -80,6 +80,7 @@ export const NOTES_3: Record<string, Compact> = {
     t: [
       ['푸꾸옥의 북부 국립공원과 남부 사오 비치는 서로 떨어져 있으므로 숙소 위치를 정할 때 방문할 지역을 먼저 살펴보세요.', 'Phu Quoc\'s northern national park and southern Sao Beach are far apart, so consider the areas you plan to visit when choosing a base.', 'フーコック島北部の国立公園と南部のサオビーチは離れています。宿泊先を決める前に訪問エリアを確認しましょう。'],
       ['피시 소스(느억맘)와 후추 농장이 유명해, 공장·농장 견학을 겸한 기념품 쇼핑이 가능합니다.', 'Famous for fish sauce and pepper farms, which double as souvenir stops.', '魚醤（ヌックマム）と胡椒農園が有名で、見学を兼ねたお土産選びができます。'],
+      ['푸꾸옥공항 버스는 표지된 지정 정류장에서 탈 수 있고, 주요 읍내와 관광지로 연결됩니다. 목적지에 맞는 노선을 확인하세요.', 'Phu Quoc Airport buses use signed designated stops and connect the airport with key town centers and tourist attractions. Choose a route for your destination.', 'フーコック空港のバスは案内表示のある指定乗り場から乗車でき、主な町や観光地へ向かいます。目的地に合う路線を確認しましょう。'],
     ],
   },
   phuket: {
@@ -107,6 +108,7 @@ export const NOTES_3: Record<string, Compact> = {
     t: [
       ['칭다오 국제맥주축제에 맞춰 간다면 공식 개최 날짜와 회장을 확인한 뒤 숙소를 미리 예약하세요.', 'If visiting for the Qingdao International Beer Festival, check the official dates and venue, then book accommodation in advance.', '青島国際ビール祭りに合わせて行くなら、公式の開催日と会場を確認し、宿泊先を早めに予約しましょう。'],
       ['중국에서는 알리페이·위챗페이 사용을 준비하면 편리합니다. 일부 해외 발행 카드도 연결할 수 있으니 출국 전 카드 지원 여부를 확인하세요.', 'Alipay and WeChat Pay can be convenient in China. Some foreign-issued cards can be linked; check your card\'s eligibility before departure.', '中国ではアリペイやWeChat Payを用意しておくと便利です。一部の海外発行カードは連携できるため、出発前に利用可否を確認しましょう。'],
+      ['칭다오 자오둥공항에서는 지하철 8호선으로 우쓰광장까지 환승 없이 갈 수 있어요. 출발 전 운행 정보를 확인하세요.', 'Metro Line 8 runs directly from Qingdao Jiaodong Airport to May Fourth Square. Check current service information before your trip.', '青島膠東空港からは地下鉄8号線で五四広場まで乗り換えなしで行けます。出発前に運行情報を確認しましょう。'],
     ],
   },
   reykjavik: {

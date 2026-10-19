@@ -151,6 +151,7 @@ export const NOTES_5: Record<string, Compact> = {
     t: [
       ['기찻길 마을(트레인 스트리트)은 안전 문제로 출입이 제한될 때가 있습니다.', 'Train Street is sometimes closed to visitors for safety reasons.', 'トレインストリートは安全のため立ち入りが制限されることがあります。'],
       ['하롱베이는 하노이에서 차로 가는 당일·1박 투어가 일반적입니다.', 'Ha Long Bay is usually visited on a day or overnight tour from Hanoi.', 'ハロン湾はハノイから車で行く日帰りや1泊ツアーが一般的です。'],
+      ['노이바이공항에서는 86번 버스로 하노이역, 90번 버스로 낌마 방면에 갈 수 있어요. 출발 전에 공항 안내에서 운행 시간을 확인하세요.', 'At Noi Bai Airport, bus 86 goes to Hanoi Railway Station and bus 90 to Kim Ma. Check the airport’s current operating times before setting out.', 'ノイバイ空港からは86番バスでハノイ駅、90番バスでキムマー方面へ行けます。出発前に空港の最新運行時間を確認しましょう。'],
     ],
   },
   prague: {

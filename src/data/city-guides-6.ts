@@ -13,6 +13,7 @@ export const NOTES_6: Record<string, Compact> = {
     t: [
       ['주말 밤 용다리(드래곤 브리지)에서 불과 물을 뿜는 쇼가 열립니다.', 'On weekend nights the Dragon Bridge breathes fire and water.', '週末の夜、ドラゴンブリッジで火と水を噴くショーがあります。'],
       ['그랩카처럼 앱에 확정 요금이 표시되는 차량 호출 서비스를 쓰면 흥정할 필요가 없습니다. 그랩택시는 미터 요금이 적용될 수 있습니다.', 'With ride-hailing services such as GrabCar that show a fixed fare in the app, there is no need to haggle. GrabTaxi may use a metered fare.', 'GrabCarのようにアプリで確定運賃が表示される配車サービスなら、料金交渉は不要です。GrabTaxiはメーター料金になる場合があります。'],
+      ['다낭공항을 경유하는 12번 시내버스가 시내 여러 지역을 연결합니다. 공항 안내에서 최신 노선과 운행 시간을 확인하세요.', 'City bus route 12 serves Da Nang Airport and connects it with several parts of the city. Check the airport’s latest route and schedule information.', 'ダナン空港には市内各地を結ぶ12番市内バスが乗り入れます。空港の最新案内で経路と運行時間を確認しましょう。'],
     ],
   },
   taipei: {
@@ -125,6 +126,7 @@ export const NOTES_6: Record<string, Compact> = {
       ['미야지마의 도리이는 썰물 때 걸어서 가까이 갈 수 있어 물때표를 확인하면 좋습니다.', 'At low tide you can walk out to the Miyajima torii; check the tide table.', '宮島の鳥居は干潮時に歩いて近づけるので、潮見表を確認しましょう。'],
       ['미야지마에 들어갈 때 방문세가 따로 붙습니다.', 'A visitor tax is charged when you go to Miyajima.', '宮島に渡る際は訪問税がかかります。'],
       ['도시 간 이동: 히로시마역에서 산요 신칸센을 타면 신오사카 1시간 반 안팎, 후쿠오카(하카타) 1시간 남짓입니다. 미야지마는 JR과 페리로 1시간 안팎에 다녀옵니다.', 'Between cities: the Sanyo Shinkansen from Hiroshima reaches Shin-Osaka in about 1.5 hours and Hakata (Fukuoka) in just over an hour; Miyajima is about an hour away by JR and ferry.', '都市間の移動：広島駅から山陽新幹線で新大阪まで1時間半ほど、博多まで1時間あまりです。宮島へはJRとフェリーで1時間ほどです。'],
+      ['히로시마공항에서는 리무진버스로 히로시마역 신칸센 출구까지 갈 수 있어요. 운행 시간표는 이용일 기준으로 다시 확인하세요.', 'A limousine bus connects Hiroshima Airport with the Shinkansen Gate at Hiroshima Station. Check the timetable for your travel date.', '広島空港からはリムジンバスで広島駅新幹線口へ行けます。利用日の時刻表を改めて確認しましょう。'],
     ],
   },
   kanazawa: {
@@ -139,6 +141,7 @@ export const NOTES_6: Record<string, Compact> = {
       ['겨울에는 대게·방어 등 동해 해산물이 제철입니다.', 'Winter is the season for snow crab and yellowtail from the Sea of Japan.', '冬はズワイガニやブリなど日本海の海の幸が旬です。'],
       ['명소가 가까이 모여 있어 시내 주유 버스로 하루에 돌아보기 좋습니다.', 'Sights are close together; the loop bus covers them in a day.', '名所がまとまっているので、市内周遊バスで1日で回れます。'],
       ['도시 간 이동: 도쿄역에서 호쿠리쿠 신칸센을 타면 가나자와까지 2시간 반 안팎입니다. 오사카·교토에서는 특급 선더버드로 쓰루가까지 가서 호쿠리쿠 신칸센으로 갈아탑니다.', 'Between cities: the Hokuriku Shinkansen from Tokyo reaches Kanazawa in about 2.5 hours. From Osaka or Kyoto, take the Thunderbird limited express to Tsuruga and change to the Hokuriku Shinkansen.', '都市間の移動：東京駅から北陸新幹線で金沢まで2時間半ほどです。大阪・京都からは特急サンダーバードで敦賀へ行き、北陸新幹線に乗り換えます。'],
+      ['가나자와 시내로 갈 때는 고마쓰공항 버스를 이용할 수 있어요. 가나자와역 서쪽 출구와 고린보 방면 노선의 운행 시간을 확인하세요.', 'You can take a bus from Komatsu Airport toward Kanazawa. Check the schedule for services to Kanazawa Station’s west exit and Korinbo.', '金沢市内へは小松空港からバスを利用できます。金沢駅西口・香林坊方面の運行時間を確認しましょう。'],
     ],
   },
   hakodate: {

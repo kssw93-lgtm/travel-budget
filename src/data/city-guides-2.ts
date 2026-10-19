@@ -69,6 +69,7 @@ export const NOTES_2: Record<string, Compact> = {
     t: [
       ['오토바이가 많은 도로를 건널 때는 횡단보도를 이용하고, 초록불이어도 양쪽 차량을 확인하세요. 운전자가 알아서 피할 것이라고 믿고 걷지 마세요.', 'When crossing motorbike-heavy roads, use a crossing and check traffic in both directions even on a green signal. Do not assume drivers will move around you.', 'バイクの多い道路を渡るときは横断歩道を使い、青信号でも左右の車両を確認してください。運転者が必ず避けてくれると思って歩かないでください。'],
       ['그랩의 GrabCar는 예약 전에 앱에 확정 요금이 표시되어 흥정할 필요가 없습니다. GrabTaxi는 미터 요금이므로 차량 유형을 확인하세요.', 'GrabCar shows a fixed fare in the app before booking, so there is no need to haggle. GrabTaxi uses a meter; check which service you select.', 'GrabのGrabCarは予約前に確定運賃がアプリに表示され、値段交渉は不要です。GrabTaxiはメーター制なので、選んだ車種を確認しましょう。'],
+      ['떤선녓공항은 터미널별로 버스·호출 차량 승차 위치가 다르니, 도착 터미널의 최신 공항 안내 표지를 확인하세요.', 'Tan Son Nhat Airport has different bus and ride-hailing pickup points by terminal, so check the latest signs for your arrival terminal.', 'タンソンニャット空港ではターミナルごとにバスや配車サービスの乗り場が異なるため、到着ターミナルの最新案内を確認しましょう。'],
     ],
   },
   incheon: {
@@ -107,6 +108,7 @@ export const NOTES_2: Record<string, Compact> = {
     t: [
       ['해양공원 섬에 들어갈 때는 공원 입장료를 따로 내야 합니다.', 'A separate park fee is charged when you land on the marine-park islands.', '海洋公園の島に上陸する際は別途入園料がかかります。'],
       ['일요일 오전 가야 거리 시장(Gaya Street Sunday Market)에서 현지 간식과 공예품을 볼 수 있습니다.', 'The Gaya Street Sunday Market is good for local snacks and crafts.', '日曜朝のガヤ・ストリート・マーケットで地元のお菓子や工芸品が見られます。'],
+      ['코타키나발루공항의 항공정보 안내에는 택시와 공공버스가 교통수단으로 나와 있어요. 도착 후 목적지에 맞는 승차 위치와 운행 정보를 확인하세요.', 'Kota Kinabalu Airport’s aeronautical information lists taxis and public buses. Check the pickup point and service for your destination after arrival.', 'コタキナバル空港の航空情報にはタクシーと路線バスが案内されています。到着後、目的地に合う乗り場と運行情報を確認しましょう。'],
     ],
   },
   krakow: {

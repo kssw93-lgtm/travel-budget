@@ -21,6 +21,7 @@ export const NOTES_1: Record<string, Compact> = {
     t: [
       ['알마티의 버스와 지하철을 이용할 때는 ONAY 교통카드를 사용할 수 있습니다.', 'You can use an ONAY transport card on Almaty\'s buses and metro.', 'アルマトイのバスと地下鉄では、交通カード「ONAY」を利用できます。'],
       ['빅 알마티 호수는 해발 약 2,500m에 있어 산책할 때 여벌 겉옷을 챙기면 좋습니다.', 'Big Almaty Lake sits at about 2,500 metres above sea level, so consider bringing an extra layer for your walk.', 'ビッグ・アルマティ湖は標高約2,500mにあるため、散策には羽織るものを持参すると安心です。'],
+      ['알마티 시내버스 92번은 국제공항이 종점으로 안내되어 있어요. 출발 전에 노선 변경이나 운행 상황을 확인하세요.', 'Almaty city bus route 92 is listed as serving the international airport as its terminus. Check for route changes or service updates before departure.', 'アルマトイ市内バス92番は国際空港が終点として案内されています。出発前に路線変更や運行状況を確認しましょう。'],
     ],
   },
   amsterdam: {
@@ -75,6 +76,7 @@ export const NOTES_1: Record<string, Compact> = {
     t: [
       ['사원에 들어갈 때는 사롱(허리에 두르는 천)을 둘러야 합니다. 입구에서 빌려주는 곳이 많습니다.', 'Wear a sarong to enter temples; many lend them at the entrance.', '寺院に入る際はサロン（腰布）が必要です。入口で貸してくれる所が多いです。'],
       ['발리 남부는 교통이 혼잡할 수 있으니 지역 간 이동 시간을 넉넉히 잡으세요. 먼 지역을 함께 돌 경우 숙소 위치도 고려하세요.', 'Traffic in southern Bali can be heavy, so allow extra time between areas and consider where you stay for a multi-area trip.', 'バリ島南部は渋滞することがあります。地域間の移動には余裕を持ち、複数エリアを回るなら宿泊地も考えましょう。'],
+      ['발리공항의 Grab·Gojek은 터미널별 지정 승차 라운지를 이용하니, 도착 구역 표지를 따라 공식 승차 장소로 이동하세요.', 'Grab and Gojek use designated pickup lounges at Bali Airport. Follow the signs in your arrival area to the correct pickup location.', 'バリ空港ではGrab・Gojekの乗車場所が到着エリアごとに指定されています。案内表示に従って指定の乗り場へ向かいましょう。'],
     ],
   },
   beijing: {
@@ -88,6 +90,7 @@ export const NOTES_1: Record<string, Compact> = {
     t: [
       ['주요 관광지는 여권으로 실명 예약을 해야 하는 곳이 많습니다. 방문 전날까지 예약해 두세요.', 'Many major sights require real-name booking with your passport; book by the day before.', '主要観光地は旅券での実名予約が必要な所が多いので、前日までに予約を。'],
       ['베이징에서는 알리페이·위챗페이를 준비하면 편리합니다. 해외 발행 카드 연결이 가능한지 출국 전에 확인하세요.', 'Alipay and WeChat Pay can be convenient in Beijing. Check before departure whether your foreign-issued card can be linked.', '北京ではアリペイやWeChat Payを用意すると便利です。海外発行カードを連携できるか、出発前に確認しましょう。'],
+      ['베이징 서우두공항에서 시내로는 공항철도와 공항버스가 있어요. 공항 안내 카운터에서 최신 노선과 발권 방법을 확인하세요.', 'From Beijing Capital Airport, you can use the Airport Express or airport buses to reach the city. Check current routes and ticketing at the airport service counter.', '北京首都空港から市内へは空港エクスプレスや空港バスを利用できます。空港の案内カウンターで最新の路線と乗車券の購入方法を確認しましょう。'],
     ],
   },
   boracay: {
@@ -161,6 +164,7 @@ export const NOTES_1: Record<string, Compact> = {
     t: [
       ['고원 도시라 아침저녁이 쌀쌀합니다. 얇은 겉옷을 꼭 챙기세요.', 'It is a highland town with cool mornings and evenings; bring a light jacket.', '高原の街なので朝晩は肌寒いです。薄手の上着を必ず持参しましょう。'],
       ['달랏의 시장에서는 고원 특산물인 딸기 가공품과 아티초크차를 찾아보세요.', 'Look for highland specialties such as strawberry products and artichoke tea at Da Lat\'s markets.', 'ダラットの市場では、高原の特産品であるイチゴ加工品やアーティチョーク茶を探してみましょう。'],
+      ['리엔크엉공항 도착층에는 달랏 시내와 관광지로 가는 차량 연결편이 안내되어 있어요. 도착 당일 이용 가능한 교통편을 공항에서 확인하세요.', 'At Lien Khuong Airport, vehicles serving Da Lat city and nearby attractions are available from the arrivals area. Confirm the options operating on your arrival date.', 'リエンクオン空港の到着エリアでは、ダラット市内や観光地へ向かう車両を利用できます。到着日に利用できる交通手段を空港で確認しましょう。'],
     ],
   },
   daegu: {

@@ -42,6 +42,7 @@ export const NOTES_4: Record<string, Compact> = {
       ['일월담·가오메이 습지 등 근교 명소는 버스로 하루 일정에 다녀오기 좋습니다.', 'Sun Moon Lake and Gaomei Wetlands make good day trips by bus.', '日月潭や高美湿地など近郊の名所はバスで日帰りできます。'],
       ['버블티가 시작된 도시로 알려져 있어 원조 찻집을 찾아가 보는 여행자가 많습니다.', 'Said to be the birthplace of bubble tea; many visitors seek out the original tea house.', 'タピオカミルクティー発祥の地とされ、元祖の店を訪れる旅行者が多いです。'],
       ['도시 간 이동: 고속철(HSR) 타이중역은 시내에서 떨어진 우르에 있어, 시내까지 일반철도(TRA)나 버스로 갈아탑니다. 타이베이까지 고속철로 1시간 안팎입니다.', 'Between cities: the HSR Taichung station is in Wuri, outside the centre, so change to a TRA train or bus; Taipei is about an hour by HSR.', '都市間の移動：高鉄台中駅は市街から離れた烏日にあるため、在来線(台鉄)やバスに乗り換えて市内へ向かいます。台北まで高鉄で約1時間です。'],
+      ['타이중공항에서는 555번 급행버스로 시내와 환승 거점에 갈 수 있어요. 목적지에 맞는 정류장을 노선 안내에서 확인하세요.', 'Route 555 connects Taichung Airport with downtown and major transfer points. Check the route guide for the stop that best matches your destination.', '台中国際空港からは555番快速バスで市街地や主要な乗り換え地点へ行けます。目的地に合う停留所を路線案内で確認しましょう。'],
     ],
   },
   tashkent: {
@@ -54,6 +55,7 @@ export const NOTES_4: Record<string, Compact> = {
     t: [
       ['타슈켄트에서 사마르칸트·부하라로 가는 아프로시욥 고속열차는 성수기에 표를 미리 예매하세요.', 'Book Afrosiyob high-speed train tickets from Tashkent to Samarkand and Bukhara in advance, especially in peak season.', 'タシュケントからサマルカンド・ブハラへ向かう高速列車アフラシアブの切符は、繁忙期には早めに予約しましょう。'],
       ['모스크에 들어갈 때는 어깨와 무릎을 가리고, 여성은 머리를 가릴 스카프를 챙기면 좋습니다.', 'Cover shoulders and knees at mosques; women may want a headscarf.', 'モスクでは肩と膝を隠し、女性はスカーフがあると安心です。'],
+      ['타슈켄트 공항은 국제선과 국내선 터미널이 분리되어 있어요. 도착 터미널을 먼저 확인한 뒤 해당 터미널의 시내 이동편을 찾아보세요.', 'Tashkent Airport has separate international and domestic terminals. Check your arrival terminal first, then look up city transport from that terminal.', 'タシュケント空港は国際線と国内線のターミナルが分かれています。到着ターミナルを確認してから、市内への交通手段を調べましょう。'],
     ],
   },
   tbilisi: {
@@ -67,6 +69,7 @@ export const NOTES_4: Record<string, Compact> = {
     t: [
       ['시내 대중교통은 교통카드나 비접촉 카드로 90분 안에 갈아타기가 자유롭습니다.', 'A transit or contactless card covers unlimited transfers within 90 minutes.', '市内交通は交通カードやタッチ決済で、90分以内なら乗り換え自由です。'],
       ['조지아는 와인의 발상지로 꼽혀, 항아리(크베브리) 숙성 와인을 맛볼 수 있는 와인바가 많습니다.', 'Georgia is called the cradle of wine; many bars pour qvevri-aged wine.', 'ジョージアはワイン発祥の地とされ、クヴェヴリ（甕）熟成ワインを出すバーが多いです。'],
+      ['트빌리시공항 도착홀 앞 정류장에서 337번 버스를 타면 시내 중심부로 갈 수 있어요. 출발 전에 운행 시간과 결제 수단을 확인하세요.', 'Bus 337 departs from the stop in front of Tbilisi Airport’s arrivals hall and runs to the city center. Check operating hours and payment options before setting out.', 'トビリシ空港の到着ホール前の停留所から337番バスで市内中心部へ行けます。出発前に運行時間と支払い方法を確認しましょう。'],
     ],
   },
   tongyeong: {
@@ -148,6 +151,7 @@ export const NOTES_4: Record<string, Compact> = {
     t: [
       ['산 정상부는 안개가 자주 끼어, 전망이 좋은 날을 고르려면 일정에 여유를 두세요.', 'The peaks are often misty; leave slack in your plans for a clear day.', '山頂部は霧が多いので、眺めのいい日を選べるよう日程に余裕を。'],
       ['공원 입장권은 며칠간 쓸 수 있는 경우가 많아 공원 안 셔틀버스로 여러 구역을 나눠 볼 수 있습니다.', 'Park tickets are often valid for several days, so you can split areas using the park shuttles.', '入園券は数日間有効なことが多く、園内シャトルで複数エリアを分けて回れます。'],
+      ['장가계 허화공항에서 시내 인민광장 방면으로는 공항신청 버스정류장에서 4번 버스를 타는 경로가 공식 안내에 소개되어 있어요. 현재 운행 여부를 출발 전에 확인하세요.', 'An official guide describes taking bus 4 from the Airport New Town stop at Zhangjiajie Hehua Airport toward People\'s Square. Confirm that the route is operating before you travel.', '張家界荷花空港から市内の人民広場方面へは、空港新城バス停から4番バスに乗る経路が公式案内に掲載されています。出発前に運行状況を確認しましょう。'],
     ],
   },
 };

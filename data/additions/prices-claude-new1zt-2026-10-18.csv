@@ -1,0 +1,4 @@
+"ID","국가","도시","카테고리","세부유형","항목(한글)","Item (English)","최소","최대","통화","단위","가격형태","대상","출처등급","모델사용","상태","조회일","적용/게시","출처명","출처 URL","원문 인용","비고"
+"TKU-TR-001","핀란드","투르쿠","교통","버스 1회","푈리 버스 1회권(사전·카드~현금)","Föli bus single (advance/card to cash)","3.15","4.50","EUR","성인 1인 1회","공식 운임(최저~최고)","성인","A 공식","예","확정 1차","2026-10-18","","Föli","https://www.foli.fi/fi/selko/hinnat","Aikuiset 3,15 €; käteinen 4,50 €","Claude 웹검색(공식 도메인 한정)으로 확인."
+"TKU-AT-001","핀란드","투르쿠","관광","성","투르쿠 성 (성인)","Turku Castle (Adult)","18","18","EUR","성인 1인","정가","성인","A 공식","예","확정 1차","2026-10-18","","Turku Castle","https://turunlinna.fi/en/opening-times-and-prices/","Adults 18 € (2026)","Claude 웹검색(공식 도메인 한정)으로 확인."
+"TKU-AT-002","핀란드","투르쿠","관광","성","투르쿠 성 (아동)","Turku Castle (Child)","8","8","EUR","아동 1인","아동 요금","아동(7~15세)","A 공식","예","확정 1차","2026-10-18","","Turku Castle","https://turunlinna.fi/en/opening-times-and-prices/","Children 7–15 yrs 8 €","Claude 웹검색(공식 도메인 한정)으로 확인."

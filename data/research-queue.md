@@ -269,6 +269,8 @@
 | 코크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 골웨이 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 골웨이 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 투르쿠 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 투르쿠 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 코펜하겐 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 코펜하겐 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 스톡홀름 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1152,6 +1154,9 @@
 | GWY-TR-001 | 골웨이 | 골웨이 시내버스 1회(립 카드) | 1.35~1.5 EUR | A | 예 | 재검증 | [Transport for Ireland](https://www.transportforireland.ie/fares/bus-fares/) |
 | GWY-AT-001 | 골웨이 | 골웨이 시립 박물관 (입장 무료) | 0 EUR | A | 예 | 재검증 | [Galway City Museum](https://galwaycitymuseum.ie/) |
 | GWY-AT-002 | 골웨이 | 골웨이 대성당 (입장 무료) | 0 EUR | A | 예 | 재검증 | [Galway Cathedral](https://www.galwaycathedral.ie/visitors) |
+| TKU-TR-001 | 투르쿠 | 푈리 버스 1회권(사전·카드~현금) | 3.15~4.5 EUR | A | 예 | 재검증 | [Föli](https://www.foli.fi/fi/selko/hinnat) |
+| TKU-AT-001 | 투르쿠 | 투르쿠 성 (성인) | 18 EUR | A | 예 | 재검증 | [Turku Castle](https://turunlinna.fi/en/opening-times-and-prices/) |
+| TKU-AT-002 | 투르쿠 | 투르쿠 성 (아동) | 8 EUR | A | 예 | 재검증 | [Turku Castle](https://turunlinna.fi/en/opening-times-and-prices/) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

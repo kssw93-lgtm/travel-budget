@@ -662,4 +662,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['솔트힐', 'Salthill', 'ソルトヒル', '바닷가 산책로가 있는 해변 지역입니다.', 'The seaside promenade district.', '海沿いの遊歩道がある海辺の地区です。'],
     ],
   },
+  turku: {
+    o: ['핀란드에서 가장 오래된 도시이자 옛 수도로, 아우라강을 따라 중세의 투르쿠 성과 대성당이 남아 있습니다. ‘핀란드의 미식 수도’로 불리며, 1896년 문을 연 실내 시장과 군도 섬 여행의 출발지로 유명합니다.', 'Finland’s oldest city and former capital, with the medieval castle and cathedral along the Aura River; called Finland’s culinary capital, known for its 1896 market hall and as the starting point for archipelago trips.', 'フィンランド最古の都市で旧首都です。アウラ川沿いに中世のトゥルク城や大聖堂が残ります。「フィンランドの美食の都」と呼ばれ、1896年開業の屋内市場や群島巡りの出発地として知られています。'],
+    d: [1, 2],
+    s: [
+      ['시내 중심(마켓 광장 주변)', 'City centre (around the Market Square)', '中心部（マーケット広場周辺）', '실내 시장과 아우라강변 식당가, 버스가 모이는 중심지입니다.', 'The hub of the market hall, riverside restaurants and buses.', '屋内市場やアウラ川沿いの飲食店街、バスが集まる中心地です。'],
+      ['항구 주변', 'Around the harbour', '港周辺', '투르쿠 성과 스톡홀름행 페리 터미널이 가깝습니다.', 'Near Turku Castle and the ferry terminal for Stockholm.', 'トゥルク城やストックホルム行きのフェリーターミナルに近いです。'],
+    ],
+  },
 };

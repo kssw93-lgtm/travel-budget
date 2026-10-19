@@ -5422,5 +5422,20 @@
     "ko": "아일랜드 서해안의 홍합을 쪄 낸 요리",
     "en": "Steamed west-coast mussels",
     "ja": "アイルランド西海岸のムール貝を蒸した料理"
+  },
+  "turku:Potato Pasty (Perunapiirakka)": {
+    "ko": "감자를 채운 투르쿠식 파이",
+    "en": "Turku-style pasty filled with potato",
+    "ja": "じゃがいもを詰めたトゥルク風のパイ"
+  },
+  "turku:Archipelago Bread with Herring": {
+    "ko": "달콤한 군도 빵에 절인 청어를 얹은 음식",
+    "en": "Sweet archipelago bread topped with pickled herring",
+    "ja": "甘い群島パンにニシンの酢漬けをのせた料理"
+  },
+  "turku:Reindeer Dishes": {
+    "ko": "실내 시장에서 파는 순록·사냥 고기 요리",
+    "en": "Reindeer and game meat from the market hall",
+    "ja": "屋内市場で売られるトナカイや狩猟肉の料理"
   }
 }

@@ -1007,4 +1007,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['시내버스 요금은 립 카드 기준 1.35~1.50유로로 공식 안내가 엇갈리니, 탈 때 단말기 금액을 확인하세요.', 'Official Leap fares for city buses are listed as €1.35–€1.50; check the reader when you tap.', '市内バスの運賃はリープカードで1.35〜1.50ユーロと公式案内が分かれているので、乗車時に端末の金額を確認しましょう。'],
     ],
   },
+  turku: {
+    h: [
+      ['투르쿠 성', 'Turku Castle', 'トゥルク城', '13세기 말에 지은 핀란드 최대의 중세 성으로, 성 안이 역사 박물관입니다.', 'Finland’s largest medieval castle, begun in the late 13th century, now a history museum.', '13世紀末に建てられたフィンランド最大の中世の城で、城内が歴史博物館になっています。'],
+      ['투르쿠 실내 시장', 'Turku Market Hall', 'トゥルク・マーケットホール', '1896년 문을 연 핀란드에서 두 번째로 오래된 실내 시장으로, 생선·순록 고기·빵을 팝니다.', 'Finland’s second-oldest market hall (1896), with fish, reindeer and baked goods.', '1896年開業のフィンランドで2番目に古い屋内市場で、魚やトナカイ肉、パンを売っています。'],
+      ['아우라강변', 'Aura riverside', 'アウラ川沿い', '대성당과 성 사이 강을 따라 카페와 배 레스토랑이 늘어서 있습니다.', 'Cafés and boat restaurants line the river between the cathedral and the castle.', '大聖堂と城の間の川沿いにカフェや船のレストランが並んでいます。'],
+    ],
+    t: [
+      ['버스는 미리 사거나 신용카드를 대면 1회 3.15유로이고, 버스 안에서 현금으로 내면 4.50유로입니다. 2시간 안에 갈아탈 수 있습니다.', 'Bus singles cost €3.15 bought in advance or by contactless card, €4.50 in cash on board; transfers are valid for 2 hours.', 'バスは事前購入かクレジットカードのタッチ決済で1回3.15ユーロ、車内で現金だと4.50ユーロです。2時間以内なら乗り換えできます。'],
+    ],
+  },
 };

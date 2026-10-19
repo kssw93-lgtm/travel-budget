@@ -533,4 +533,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['시내버스는 립 카드로 내면 현금보다 약 30% 쌉니다.', 'City buses are about 30% cheaper with a Leap card than with cash.', '市内バスはリープカードで払うと現金より約30%安くなります。'],
   },
+  turku: {
+    p: [
+      ['6~8월', 'June–August', '6〜8月', '군도 섬 여행과 아우라강변 산책에 가장 좋은 계절입니다.', 'The best season for the archipelago and Aura riverside walks.', '群島巡りやアウラ川沿いの散策に最適な季節です。'],
+    ],
+    x: ['밤 11시~새벽 4시에 버스를 타면 1회권에 심야 요금이 더 붙습니다.', 'Buses between 23:00 and 04:00 add a night surcharge to single tickets.', '23時〜4時にバスに乗ると、1回券に深夜料金が加算されます。'],
+  },
 };

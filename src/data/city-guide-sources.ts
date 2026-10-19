@@ -1180,4 +1180,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'galway:h2': 'https://www.galwaycathedral.ie/visitors',
   'galway:h3': 'https://www.discoverireland.ie/galway-city/best-food-galway-city',
   'galway:t1': 'https://www.transportforireland.ie/fares/bus-fares/',
+  'turku:h1': 'https://turunlinna.fi/en/opening-times-and-prices/',
+  'turku:h2': 'https://en.visitturku.fi/kohdekortit/turku-market-hall',
+  'turku:h3': 'https://en.visitturku.fi/eat-and-drink',
+  'turku:t1': 'https://www.foli.fi/fi/selko/hinnat',
 };

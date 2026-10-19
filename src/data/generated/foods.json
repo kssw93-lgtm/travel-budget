@@ -12318,6 +12318,60 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "turku",
+    "nameKo": "감자 파이",
+    "nameEn": "Potato Pasty (Perunapiirakka)",
+    "reason": "감자를 채운 투르쿠식 파이",
+    "reasonEn": "Turku-style pasty filled with potato",
+    "desc": {
+      "ko": "감자를 채운 투르쿠식 파이",
+      "en": "Turku-style pasty filled with potato",
+      "ja": "じゃがいもを詰めたトゥルク風のパイ"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Turku",
+    "recommendUrl": "https://en.visitturku.fi/kohdekortit/turku-market-hall",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "turku",
+    "nameKo": "군도 빵과 청어",
+    "nameEn": "Archipelago Bread with Herring",
+    "reason": "달콤한 군도 빵에 절인 청어를 얹은 음식",
+    "reasonEn": "Sweet archipelago bread topped with pickled herring",
+    "desc": {
+      "ko": "달콤한 군도 빵에 절인 청어를 얹은 음식",
+      "en": "Sweet archipelago bread topped with pickled herring",
+      "ja": "甘い群島パンにニシンの酢漬けをのせた料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Turku",
+    "recommendUrl": "https://en.visitturku.fi/kohdekortit/turku-market-hall",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "turku",
+    "nameKo": "순록 고기 요리",
+    "nameEn": "Reindeer Dishes",
+    "reason": "실내 시장에서 파는 순록·사냥 고기 요리",
+    "reasonEn": "Reindeer and game meat from the market hall",
+    "desc": {
+      "ko": "실내 시장에서 파는 순록·사냥 고기 요리",
+      "en": "Reindeer and game meat from the market hall",
+      "ja": "屋内市場で売られるトナカイや狩猟肉の料理"
+    },
+    "budgetBand": "고",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Turku",
+    "recommendUrl": "https://en.visitturku.fi/kohdekortit/turku-market-hall",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "ulaanbaatar",
     "nameKo": "부즈",
     "nameEn": "Buuz",

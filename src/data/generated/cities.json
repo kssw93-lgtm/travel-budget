@@ -1380,6 +1380,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "turku",
+    "country": "핀란드",
+    "countryEn": "Finland",
+    "nameKo": "투르쿠",
+    "nameEn": "Turku",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "copenhagen",
     "country": "덴마크",
     "countryEn": "Denmark",

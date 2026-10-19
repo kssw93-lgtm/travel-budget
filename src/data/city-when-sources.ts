@@ -478,4 +478,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'galway:p1': 'https://www.discoverireland.ie/galway/car-free-inis-mor',
   'galway:p2': 'https://www.galwaytourism.ie/food-drink/restaurants/morans-oyster-cottage/',
   'galway:x': 'https://www.transportforireland.ie/plan-a-journey/network-maps/galway-city-bus-services/',
+  'turku:p1': 'https://en.visitturku.fi/happiness-turku-style-live-like-a-local',
+  'turku:x': 'https://www.foli.fi/fi/selko/hinnat',
 };

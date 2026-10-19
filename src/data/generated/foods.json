@@ -4875,6 +4875,60 @@
     "note": "Claude 초안(2026-10-09)"
   },
   {
+    "cityId": "galway",
+    "nameKo": "골웨이 굴",
+    "nameEn": "Galway Oysters",
+    "reason": "골웨이만에서 나는 굴을 날로 즐기는 요리",
+    "reasonEn": "Galway Bay oysters served raw",
+    "desc": {
+      "ko": "골웨이만에서 나는 굴을 날로 즐기는 요리",
+      "en": "Galway Bay oysters served raw",
+      "ja": "ゴールウェイ湾でとれるカキを生で味わう料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Discover Ireland",
+    "recommendUrl": "https://www.discoverireland.ie/galway-city/best-food-galway-city",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "galway",
+    "nameKo": "시푸드 차우더",
+    "nameEn": "Seafood Chowder",
+    "reason": "골웨이만 해산물을 넣은 크림 수프",
+    "reasonEn": "Creamy chowder of Galway Bay seafood",
+    "desc": {
+      "ko": "골웨이만 해산물을 넣은 크림 수프",
+      "en": "Creamy chowder of Galway Bay seafood",
+      "ja": "ゴールウェイ湾の海産物を入れたクリームスープ"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Galway Tourism",
+    "recommendUrl": "https://www.galwaytourism.ie/best-food-experiences-in-galway/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "galway",
+    "nameKo": "홍합찜",
+    "nameEn": "Steamed Mussels",
+    "reason": "아일랜드 서해안의 홍합을 쪄 낸 요리",
+    "reasonEn": "Steamed west-coast mussels",
+    "desc": {
+      "ko": "아일랜드 서해안의 홍합을 쪄 낸 요리",
+      "en": "Steamed west-coast mussels",
+      "ja": "アイルランド西海岸のムール貝を蒸した料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Galway Tourism",
+    "recommendUrl": "https://www.galwaytourism.ie/food-drink/restaurants/morans-oyster-cottage/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "gangneung",
     "nameKo": "초당 순두부",
     "nameEn": "Chodang Sundubu",

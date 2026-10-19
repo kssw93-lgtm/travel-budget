@@ -475,4 +475,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'aarhus:x': 'https://www.aros.dk/en/visit/opening-hours-and-prices/',
   'cork:p1': 'https://www.discoverireland.ie/cork-city/best-things-to-do-in-cork-city',
   'cork:x': 'https://www.transportforireland.ie/news/passengers-in-cork-to-benefit-from-faster-boarding-and-more-flexible-travel-with-new-tfi-90-minute-fare/',
+  'galway:p1': 'https://www.discoverireland.ie/galway/car-free-inis-mor',
+  'galway:p2': 'https://www.galwaytourism.ie/food-drink/restaurants/morans-oyster-cottage/',
+  'galway:x': 'https://www.transportforireland.ie/plan-a-journey/network-maps/galway-city-bus-services/',
 };

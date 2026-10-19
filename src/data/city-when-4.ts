@@ -526,4 +526,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['시내버스는 립(Leap) 카드로 내면 현금보다 훨씬 싸고, 90분 안에 갈아탈 수 있습니다.', 'City buses are much cheaper with a Leap card, which also gives 90-minute transfers.', '市内バスはリープ（Leap）カードで払うと現金よりずっと安く、90分以内なら乗り換えできます。'],
   },
+  galway: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '애런 제도와 모허 절벽 당일 여행, 거리 축제를 즐기기 좋습니다.', 'Day trips to the Aran Islands and Cliffs of Moher, plus street festivals.', 'アラン諸島やモハーの断崖への日帰り旅行、街の祭りを楽しめます。'],
+      ['9~4월', 'September–April', '9〜4月', '토종 골웨이 굴(에둘리스)의 제철입니다.', 'Season for native Galway oysters (Edulis).', '在来種のゴールウェイ・オイスター（エデュリス）の旬です。'],
+    ],
+    x: ['시내버스는 립 카드로 내면 현금보다 약 30% 쌉니다.', 'City buses are about 30% cheaper with a Leap card than with cash.', '市内バスはリープカードで払うと現金より約30%安くなります。'],
+  },
 };

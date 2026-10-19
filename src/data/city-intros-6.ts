@@ -654,4 +654,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['켄트역 주변', 'Around Kent Station', 'ケント駅周辺', '기차역이 있고 공항버스가 서는 곳입니다.', 'The rail station, served by airport buses.', '鉄道駅があり、空港バスが停まります。'],
     ],
   },
+  galway: {
+    o: ['아일랜드 서해안의 활기찬 대학 도시로, 라틴 쿼터의 펍에서 흘러나오는 전통 음악과 거리 공연으로 유명합니다. 골웨이만의 굴과 해산물 차우더를 맛볼 수 있고, 애런 제도와 모허 절벽으로 가는 관문입니다.', 'A lively university city on Ireland’s west coast, famous for traditional music spilling from Latin Quarter pubs and its street performers; taste Galway Bay oysters and seafood chowder, and use it as a gateway to the Aran Islands and the Cliffs of Moher.', 'アイルランド西海岸の活気ある大学都市で、ラテン地区のパブから流れる伝統音楽や大道芸で有名です。ゴールウェイ湾のカキやシーフードチャウダーを味わえ、アラン諸島やモハーの断崖への玄関口でもあります。'],
+    d: [2, 3],
+    s: [
+      ['라틴 쿼터', 'Latin Quarter', 'ラテン地区', '펍과 해산물 식당, 거리 공연이 모인 구시가지입니다.', 'The old quarter of pubs, seafood restaurants and buskers.', 'パブやシーフードレストラン、大道芸が集まる旧市街です。'],
+      ['솔트힐', 'Salthill', 'ソルトヒル', '바닷가 산책로가 있는 해변 지역입니다.', 'The seaside promenade district.', '海沿いの遊歩道がある海辺の地区です。'],
+    ],
+  },
 };

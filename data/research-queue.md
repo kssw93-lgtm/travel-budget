@@ -267,6 +267,8 @@
 | 오르후스 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 코크 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 코크 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 골웨이 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 골웨이 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 코펜하겐 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 코펜하겐 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 스톡홀름 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1147,6 +1149,9 @@
 | ORK-AT-001 | 코크 | 블라니 성 (성인) | 24 EUR | A | 예 | 재검증 | [Blarney Castle](https://blarneycastle.ie/plan-your-visit/) |
 | ORK-AT-002 | 코크 | 블라니 성 (아동) | 12 EUR | A | 예 | 재검증 | [Blarney Castle](https://blarneycastle.ie/plan-your-visit/) |
 | ORK-AT-003 | 코크 | 코크 시티 감옥 (성인) | 12 EUR | A | 예 | 재검증 | [Cork City Gaol](https://corkcitygaol.com/visit-us/) |
+| GWY-TR-001 | 골웨이 | 골웨이 시내버스 1회(립 카드) | 1.35~1.5 EUR | A | 예 | 재검증 | [Transport for Ireland](https://www.transportforireland.ie/fares/bus-fares/) |
+| GWY-AT-001 | 골웨이 | 골웨이 시립 박물관 (입장 무료) | 0 EUR | A | 예 | 재검증 | [Galway City Museum](https://galwaycitymuseum.ie/) |
+| GWY-AT-002 | 골웨이 | 골웨이 대성당 (입장 무료) | 0 EUR | A | 예 | 재검증 | [Galway Cathedral](https://www.galwaycathedral.ie/visitors) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

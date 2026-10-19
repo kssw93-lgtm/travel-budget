@@ -1176,4 +1176,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'cork:h2': 'https://blarneycastle.ie/plan-your-visit/',
   'cork:h3': 'https://corkcitygaol.com/visit-us/',
   'cork:t1': 'https://www.corkairport.com/to-from-the-airport/book-a-taxi',
+  'galway:h1': 'https://galwaycitymuseum.ie/',
+  'galway:h2': 'https://www.galwaycathedral.ie/visitors',
+  'galway:h3': 'https://www.discoverireland.ie/galway-city/best-food-galway-city',
+  'galway:t1': 'https://www.transportforireland.ie/fares/bus-fares/',
 };

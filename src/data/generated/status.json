@@ -3751,6 +3751,34 @@
     "missing": [],
     "computable": true
   },
+  "galway": {
+    "counts": {
+      "food": 3,
+      "transport": 1,
+      "attraction": 2
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 2,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "copenhagen": {
     "counts": {
       "food": 3,

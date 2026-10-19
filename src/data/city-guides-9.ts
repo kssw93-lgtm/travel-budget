@@ -997,4 +997,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: 버스 에런 225·226번이 30분 간격으로 공항과 파넬 플레이스 버스터미널·켄트역을 잇습니다. 택시는 시내까지 약 20유로입니다.', 'Airport to city: Bus Éireann 225 and 226 run every 30 minutes to Parnell Place and Kent Station; a taxi is about €20.', '空港から市内へ：バス・エアラン225・226番が30分間隔で空港とパーネル・プレイス・バスターミナル、ケント駅を結んでいます。タクシーは市内まで約20ユーロです。'],
     ],
   },
+  galway: {
+    h: [
+      ['골웨이 시립 박물관', 'Galway City Museum', 'ゴールウェイ市立博物館', '스페인 아치 옆에 있는 도시 역사 박물관으로, 입장은 무료입니다(기부 권장).', 'The city-history museum by the Spanish Arch; free entry (donation suggested).', 'スパニッシュ・アーチの隣にある街の歴史博物館で、入場は無料です（寄付を推奨）。'],
+      ['골웨이 대성당', 'Galway Cathedral', 'ゴールウェイ大聖堂', '1965년 완공된 돔 성당으로, 입장료는 없고 기부를 권합니다.', 'A domed cathedral completed in 1965; no charge, donation suggested.', '1965年に完成したドームのある大聖堂で、入場料はなく寄付を勧めています。'],
+      ['골웨이 굴', 'Galway oysters', 'ゴールウェイのカキ', '레몬을 짜서 날로 먹고 흑맥주를 곁들이는 것이 골웨이식입니다.', 'Eaten raw with lemon and a pint of stout, Galway-style.', 'レモンを搾って生で食べ、黒ビールを合わせるのがゴールウェイ流です。'],
+    ],
+    t: [
+      ['시내버스 요금은 립 카드 기준 1.35~1.50유로로 공식 안내가 엇갈리니, 탈 때 단말기 금액을 확인하세요.', 'Official Leap fares for city buses are listed as €1.35–€1.50; check the reader when you tap.', '市内バスの運賃はリープカードで1.35〜1.50ユーロと公式案内が分かれているので、乗車時に端末の金額を確認しましょう。'],
+    ],
+  },
 };

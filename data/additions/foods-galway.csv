@@ -1,0 +1,4 @@
+국가,도시,음식(한글),Food,추천 이유,예산대,연결 가격 ID,가격조사 상태,추천 출처,출처 URL,비고
+아일랜드,골웨이,골웨이 굴,Galway Oysters,골웨이만에서 나는 굴을 날로 즐기는 요리,중,,대기,Discover Ireland,https://www.discoverireland.ie/galway-city/best-food-galway-city,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+아일랜드,골웨이,시푸드 차우더,Seafood Chowder,골웨이만 해산물을 넣은 크림 수프,중,,대기,Galway Tourism,https://www.galwaytourism.ie/best-food-experiences-in-galway/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)
+아일랜드,골웨이,홍합찜,Steamed Mussels,아일랜드 서해안의 홍합을 쪄 낸 요리,중,,대기,Galway Tourism,https://www.galwaytourism.ie/food-drink/restaurants/morans-oyster-cottage/,관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)

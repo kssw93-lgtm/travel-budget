@@ -5407,5 +5407,20 @@
     "ko": "스파이스드 비프와 사워크라우트를 사워도우에 끼운 샌드위치",
     "en": "Spiced beef, sauerkraut and gherkins on sourdough",
     "ja": "スパイスドビーフとザワークラウトをサワードウに挟んだサンドイッチ"
+  },
+  "galway:Galway Oysters": {
+    "ko": "골웨이만에서 나는 굴을 날로 즐기는 요리",
+    "en": "Galway Bay oysters served raw",
+    "ja": "ゴールウェイ湾でとれるカキを生で味わう料理"
+  },
+  "galway:Seafood Chowder": {
+    "ko": "골웨이만 해산물을 넣은 크림 수프",
+    "en": "Creamy chowder of Galway Bay seafood",
+    "ja": "ゴールウェイ湾の海産物を入れたクリームスープ"
+  },
+  "galway:Steamed Mussels": {
+    "ko": "아일랜드 서해안의 홍합을 쪄 낸 요리",
+    "en": "Steamed west-coast mussels",
+    "ja": "アイルランド西海岸のムール貝を蒸した料理"
   }
 }

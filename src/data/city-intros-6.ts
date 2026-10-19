@@ -694,4 +694,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['중앙역·임머만 거리 주변', 'Around the Hauptbahnhof / Immermannstraße', '中央駅・インマーマン通り周辺', '공항행 S반이 서고, 일본 식당과 상점이 모인 거리가 있습니다.', 'Airport S-Bahn stop and the street of Japanese restaurants and shops.', '空港行きのSバーンが停まり、日本料理店や商店が集まる通りがあります。'],
     ],
   },
+  'san-sebastian': {
+    o: ['스페인 바스크 지방의 해안 도시로, 조개껍데기 모양의 라 콘차 해변과 구시가지(파르테 비에하)의 핀초 바로 유명합니다. 인구 대비 미슐랭 별이 많은 미식 도시로, 바 몇 곳을 돌며 핀초와 차콜리 와인을 즐기는 것이 이곳의 방식입니다.', 'A Basque seaside city famed for the shell-shaped La Concha beach and the pintxo bars of its old town (Parte Vieja); a gastronomic capital with a remarkable number of Michelin stars, where hopping between bars for pintxos and txakoli is the local way.', 'スペイン・バスク地方の海辺の街で、貝殻の形をしたラ・コンチャ海岸と旧市街（パルテ・ビエハ）のピンチョス・バルで有名です。人口あたりのミシュランの星が多い美食の街で、バルを何軒も巡りピンチョスとチャコリワインを楽しむのがここ流です。'],
+    d: [2, 3],
+    s: [
+      ['파르테 비에하(구시가지)', 'Parte Vieja (Old Town)', 'パルテ・ビエハ（旧市街）', '핀초 바가 가장 많이 모인 지역으로, 해변도 가깝습니다.', 'The densest cluster of pintxo bars, close to the beach.', 'ピンチョス・バルが最も多く集まる地区で、ビーチにも近いです。'],
+      ['센트로(중심가)', 'Centro', 'セントロ（中心街）', '라 콘차 해변과 버스 정류장이 가까운 쇼핑 거리입니다.', 'The shopping district by La Concha beach and bus stops.', 'ラ・コンチャ海岸やバス停に近いショッピング街です。'],
+    ],
+  },
 };

@@ -11116,6 +11116,60 @@
     "note": "GPT 관광청 공식 안내 기준(2026-10-15)"
   },
   {
+    "cityId": "san-sebastian",
+    "nameKo": "핀초",
+    "nameEn": "Pintxos",
+    "reason": "빵 위에 다양한 재료를 얹은 바스크식 한입 요리",
+    "reasonEn": "Basque bite-sized snacks on bread",
+    "desc": {
+      "ko": "빵 위에 다양한 재료를 얹은 바스크식 한입 요리",
+      "en": "Basque bite-sized snacks on bread",
+      "ja": "パンの上にさまざまな具をのせたバスクの一口料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "San Sebastián Turismo",
+    "recommendUrl": "https://sansebastianturismoa.eus/en/gastronomy/going-for-pintxos/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "san-sebastian",
+    "nameKo": "힐다",
+    "nameEn": "Gilda",
+    "reason": "고추·멸치·올리브를 꼬치에 꽂은 매콤한 핀초",
+    "reasonEn": "Spicy skewer of pepper, anchovy and olives",
+    "desc": {
+      "ko": "고추·멸치·올리브를 꼬치에 꽂은 매콤한 핀초",
+      "en": "Spicy skewer of pepper, anchovy and olives",
+      "ja": "唐辛子・アンチョビ・オリーブを串に刺したピリ辛のピンチョス"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "San Sebastián Turismo",
+    "recommendUrl": "https://sansebastianturismoa.eus/en/food-drink/4094-top-5-pintxos-in-the-historical-quarter/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "san-sebastian",
+    "nameKo": "대구 필필 튀김",
+    "nameEn": "Battered Cod with Pil-Pil",
+    "reason": "필필 소스를 곁들인 대구 튀김 핀초",
+    "reasonEn": "Battered cod with pil-pil emulsion",
+    "desc": {
+      "ko": "필필 소스를 곁들인 대구 튀김 핀초",
+      "en": "Battered cod with pil-pil emulsion",
+      "ja": "ピルピルソースを添えたタラのフリット"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "San Sebastián Turismo",
+    "recommendUrl": "https://sansebastianturismoa.eus/en/food-drink/4094-top-5-pintxos-in-the-historical-quarter/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "sapporo",
     "nameKo": "미소 라멘",
     "nameEn": "Sapporo Miso Ramen",

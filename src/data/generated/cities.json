@@ -1500,6 +1500,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "san-sebastian",
+    "country": "스페인",
+    "countryEn": "Spain",
+    "nameKo": "산세바스티안",
+    "nameEn": "San Sebastián",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "dresden",
     "country": "독일",
     "countryEn": "Germany",

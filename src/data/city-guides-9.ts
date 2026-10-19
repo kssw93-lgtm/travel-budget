@@ -1047,4 +1047,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: S반 S11이 터미널 지하역에서 중앙역까지 가며, 시내 요금(A단계, 90분)으로 탈 수 있습니다.', 'Airport to city: S-Bahn S11 runs from the station beneath the terminal to the Hauptbahnhof on a city (level A, 90-minute) ticket.', '空港から市内へ：SバーンS11がターミナル地下の駅から中央駅まで走り、市内運賃（Aランク、90分）で乗れます。'],
     ],
   },
+  'san-sebastian': {
+    h: [
+      ['산텔모 박물관', 'San Telmo Museoa', 'サン・テルモ博物館', '16세기 수도원 건물에 바스크 사회와 역사를 전시하는 박물관입니다.', 'Basque society and history in a 16th-century convent.', '16世紀の修道院の建物で、バスクの社会と歴史を展示する博物館です。'],
+      ['핀초 바 순례', 'Pintxo crawl', 'ピンチョス巡り', '바마다 한두 가지 핀초를 맛보며 여러 곳을 도는 것이 산세바스티안 방식입니다.', 'Try one or two pintxos per bar and move on — the San Sebastián way.', '1軒につき1〜2品のピンチョスを味わいながら何軒も巡るのがサン・セバスティアン流です。'],
+      ['라 콘차 해변', 'La Concha beach', 'ラ・コンチャ海岸', '조개껍데기 모양의 만에 펼쳐진 도시 해변으로, 산책로가 이어집니다.', 'The city beach on a shell-shaped bay, lined by a promenade.', '貝殻の形の湾に広がる街のビーチで、遊歩道が続いています。'],
+    ],
+    t: [
+      ['시내버스(디버스)는 1회 1.95유로이고, 신용카드 탭도 같은 요금입니다. 밤 버스는 더 비쌉니다.', 'City buses (Dbus) cost €1.95 per ride, the same by contactless card; night buses cost more.', '市内バス（Dバス）は1回1.95ユーロで、クレジットカードのタッチ決済も同じ料金です。夜行バスは高くなります。'],
+    ],
+  },
 };

@@ -557,4 +557,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['양조장에서는 잔을 비우면 종업원(쾨베스)이 새 잔을 계속 가져다주니, 그만 마시려면 잔 위에 컵받침을 올려 두세요.', 'In the brewhouses waiters (Köbes) keep bringing fresh glasses — put your beer mat on top to stop.', '醸造所ではグラスが空くと店員（ケーベス）が次々に新しいグラスを持ってくるので、やめたいときはグラスの上にコースターを置きましょう。'],
   },
+  'san-sebastian': {
+    p: [
+      ['6~9월', 'June–September', '6〜9月', '라 콘차 해변에서 수영하고 저녁에는 핀초 바를 도는 여행에 좋습니다.', 'Swim at La Concha, then hop the pintxo bars in the evening.', 'ラ・コンチャ海岸で泳ぎ、夜はピンチョス・バルを巡る旅にぴったりです。'],
+    ],
+    x: ['산텔모 박물관은 매주 화요일 무료이고, 25세 미만도 무료입니다.', 'The San Telmo Museum is free every Tuesday and for visitors under 25.', 'サン・テルモ博物館は毎週火曜日が無料で、25歳未満も無料です。'],
+  },
 };

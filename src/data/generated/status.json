@@ -4115,6 +4115,34 @@
     "missing": [],
     "computable": true
   },
+  "san-sebastian": {
+    "counts": {
+      "food": 6,
+      "transport": 1,
+      "attraction": 1
+    },
+    "baskets": {
+      "pass": 1,
+      "ride": 0,
+      "meal": 6,
+      "snack": 5,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 1,
+      "ride": 0,
+      "meal": 6,
+      "snack": 5,
+      "drink": 3,
+      "attraction": 1,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "dresden": {
     "counts": {
       "food": 3,

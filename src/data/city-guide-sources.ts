@@ -1196,4 +1196,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'dusseldorf:h2': 'https://www.kunstsammlung.de/en/visit',
   'dusseldorf:h3': 'https://www.visitduesseldorf.de/storys/2023/02/06/sechs-stadtbekannte-spezialitaeten-die-ihr-unbedingt-probieren-solltet/',
   'dusseldorf:t1': 'https://www.dus.com/en/to-and-from/bus-and-train',
+  'san-sebastian:h1': 'https://www.santelmomuseoa.eus/m/horarios-precios.php?lang=es',
+  'san-sebastian:h2': 'https://sansebastianturismoa.eus/en/gastronomy/going-for-pintxos/',
+  'san-sebastian:h3': 'https://sansebastianturismoa.eus/en/to-do/district-by-district/centre-old-town/',
+  'san-sebastian:t1': 'https://dbus.eus/en/travelling-by-dbus/fares-and-prices/',
 };

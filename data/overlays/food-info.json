@@ -5482,5 +5482,20 @@
     "ko": "식초에 재운 소고기 찜에 감자 경단과 사과 소스를 곁들인 요리",
     "en": "Marinated pot roast with dumplings and apple sauce",
     "ja": "酢に漬けた牛肉の煮込みにじゃがいも団子とリンゴソースを添えた料理"
+  },
+  "san-sebastian:Pintxos": {
+    "ko": "빵 위에 다양한 재료를 얹은 바스크식 한입 요리",
+    "en": "Basque bite-sized snacks on bread",
+    "ja": "パンの上にさまざまな具をのせたバスクの一口料理"
+  },
+  "san-sebastian:Gilda": {
+    "ko": "고추·멸치·올리브를 꼬치에 꽂은 매콤한 핀초",
+    "en": "Spicy skewer of pepper, anchovy and olives",
+    "ja": "唐辛子・アンチョビ・オリーブを串に刺したピリ辛のピンチョス"
+  },
+  "san-sebastian:Battered Cod with Pil-Pil": {
+    "ko": "필필 소스를 곁들인 대구 튀김 핀초",
+    "en": "Battered cod with pil-pil emulsion",
+    "ja": "ピルピルソースを添えたタラのフリット"
   }
 }

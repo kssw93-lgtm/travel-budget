@@ -486,4 +486,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'stuttgart:x': 'https://www.stuttgart-tourist.de/geniessen-in-stuttgart/wein-in-stuttgart/besen-wirtschaften',
   'dusseldorf:p1': 'https://www.visitduesseldorf.de/en/attractions/altstadt-old-town-e2f8426a5c',
   'dusseldorf:x': 'https://www.visitduesseldorf.de/storys/2026/01/29/6-hotspots-brauhaus-duesseldorf-altbier/',
+  'san-sebastian:p1': 'https://sansebastianturismoa.eus/en/gastronomy/going-for-pintxos/',
+  'san-sebastian:x': 'https://www.santelmomuseoa.eus/m/horarios-precios.php?lang=es',
 };

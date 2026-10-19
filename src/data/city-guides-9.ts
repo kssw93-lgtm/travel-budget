@@ -1027,4 +1027,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['시내버스 1시간권은 미리 사면 싸고, 버스 기사에게 사면 더 비쌉니다. 2026년 7월에 요금이 올랐습니다.', 'City-bus hourly tickets are cheaper bought in advance than from the driver; fares rose in July 2026.', '市内バスの1時間券は事前に買うと安く、運転手から買うと高くなります。2026年7月に運賃が値上げされました。'],
     ],
   },
+  stuttgart: {
+    h: [
+      ['메르세데스벤츠 박물관', 'Mercedes-Benz Museum', 'メルセデス・ベンツ博物館', '130년이 넘는 자동차 역사를 나선형 전시 공간에서 보여 주는 박물관입니다.', 'More than 130 years of car history along a double-helix gallery.', '130年を超える自動車の歴史をらせん状の展示空間で紹介する博物館です。'],
+      ['베젠 와인 주점', 'Besen wine taverns', 'ベーゼン（ワイン居酒屋）', '와인 농가가 자기 와인을 직접 내놓는 임시 주점으로, 슈바벤 가정식을 곁들입니다.', 'Winemakers’ pop-up taverns pouring their own wine with Swabian home cooking.', 'ワイン農家が自家製ワインを直接出す期間限定の居酒屋で、シュヴァーベンの家庭料理を添えます。'],
+      ['마울타셴', 'Maultaschen', 'マウルタッシェン', '고기와 시금치를 채운 큰 슈바벤식 만두로, 시내 식당 곳곳에서 맛볼 수 있습니다.', 'Large Swabian pasta pockets of meat and spinach, served across town.', '肉とほうれん草を詰めた大きなシュヴァーベン風の餃子で、市内の多くの店で味わえます。'],
+    ],
+    t: [
+      ['공항에서 시내: S반 S2·S3이 15분 간격으로 공항과 중앙역을 약 27분에 잇습니다. 시내 1구간 1회권은 휴대폰 티켓으로 사면 약 5% 쌉니다.', 'Airport to city: S-Bahn S2/S3 run every 15 minutes to the main station in about 27 minutes; zone-1 singles are about 5% cheaper as mobile tickets.', '空港から市内へ：SバーンS2・S3が15分間隔で空港と中央駅を約27分で結んでいます。市内1ゾーンの1回券はスマホチケットで買うと約5%安くなります。'],
+    ],
+  },
 };

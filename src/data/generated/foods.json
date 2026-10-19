@@ -11578,6 +11578,60 @@
     "note": "Claude 초안(관광청 출처 미확인)"
   },
   {
+    "cityId": "stuttgart",
+    "nameKo": "마울타셴",
+    "nameEn": "Maultaschen",
+    "reason": "고기와 시금치를 채운 슈바벤식 큰 만두",
+    "reasonEn": "Swabian pasta pockets filled with meat and spinach",
+    "desc": {
+      "ko": "고기와 시금치를 채운 슈바벤식 큰 만두",
+      "en": "Swabian pasta pockets filled with meat and spinach",
+      "ja": "肉とほうれん草を詰めたシュヴァーベン風の大きな餃子"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Stuttgart-Marketing",
+    "recommendUrl": "https://www.stuttgart-tourist.de/en/eat-and-drink/glossary-for-swabian-cuisine",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "stuttgart",
+    "nameKo": "케제슈페츨레",
+    "nameEn": "Käsespätzle",
+    "reason": "달걀 면에 치즈와 볶은 양파를 얹은 요리",
+    "reasonEn": "Egg noodles with grated cheese and fried onions",
+    "desc": {
+      "ko": "달걀 면에 치즈와 볶은 양파를 얹은 요리",
+      "en": "Egg noodles with grated cheese and fried onions",
+      "ja": "卵の麺にチーズと炒めた玉ねぎをのせた料理"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Stuttgart-Marketing",
+    "recommendUrl": "https://www.stuttgart-tourist.de/en/eat-and-drink/glossary-for-swabian-cuisine",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "stuttgart",
+    "nameKo": "라우겐브레첼",
+    "nameEn": "Laugenbrezel",
+    "reason": "잿물에 담갔다 구운 슈바벤식 프레첼",
+    "reasonEn": "Lye-dipped Swabian pretzel",
+    "desc": {
+      "ko": "잿물에 담갔다 구운 슈바벤식 프레첼",
+      "en": "Lye-dipped Swabian pretzel",
+      "ja": "アルカリ液にくぐらせて焼いたシュヴァーベン風プレッツェル"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Stuttgart-Marketing",
+    "recommendUrl": "https://www.stuttgart-tourist.de/en/eat-and-drink/glossary-for-swabian-cuisine",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "sydney",
     "nameKo": "미트파이",
     "nameEn": "Meat Pie",

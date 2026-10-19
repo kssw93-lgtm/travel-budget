@@ -678,4 +678,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['에마요기강 변', 'Emajõgi riverside', 'エマヨギ川沿い', '실내 시장과 강변 시장이 있는 지역입니다.', 'Home to the indoor and riverside markets.', '屋内市場や川沿いの市場がある地区です。'],
     ],
   },
+  stuttgart: {
+    o: ['독일 남서부 바덴뷔르템베르크주의 주도로, 메르세데스벤츠와 포르쉐가 탄생한 자동차의 도시입니다. 언덕으로 둘러싸인 분지에 포도밭이 이어지고, 와인 농가가 몇 달만 여는 ‘베젠’ 주점과 마울타셴 같은 슈바벤 요리로 유명합니다.', 'Capital of Baden-Württemberg and the car city where Mercedes-Benz and Porsche were born, set in a valley ringed by vineyard-covered hills; known for pop-up winemaker taverns called Besen and Swabian food like Maultaschen.', 'ドイツ南西部バーデン・ヴュルテンベルク州の州都で、メルセデス・ベンツとポルシェが生まれた自動車の街です。丘に囲まれた盆地にブドウ畑が続き、ワイン農家が数か月だけ開く居酒屋「ベーゼン」やマウルタッシェンなどシュヴァーベン料理で有名です。'],
+    d: [1, 2],
+    s: [
+      ['시내 중심(쾨니히 거리 주변)', 'City centre (around Königstraße)', '中心部（ケーニヒ通り周辺）', '중앙역과 쇼핑 거리, 궁전 광장이 걸어서 닿습니다.', 'A walk to the main station, shopping street and Schlossplatz.', '中央駅やショッピング街、宮殿広場へ歩いて行けます。'],
+      ['바트 칸슈타트', 'Bad Cannstatt', 'バート・カンシュタット', '메르세데스벤츠 박물관과 가을 맥주 축제장이 가까운 지역입니다.', 'Near the Mercedes-Benz Museum and the autumn beer-festival grounds.', 'メルセデス・ベンツ博物館や秋のビール祭りの会場に近い地区です。'],
+    ],
+  },
 };

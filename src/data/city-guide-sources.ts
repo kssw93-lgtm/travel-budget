@@ -1188,4 +1188,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'tartu:h2': 'https://visitestonia.com/en/tartu-market-hall',
   'tartu:h3': 'https://visitestonia.com/en/what-to-do/estonias-national-bread',
   'tartu:t1': 'https://tartu.ee/et/uudised/tartus-tousevad-uhistranspordi-piletihinnad-04-05-2026',
+  'stuttgart:h1': 'https://www.mercedes-benz.com/documents/art-and-culture/museum/visitor-information/260202-mbm-information2026-210x297-en.pdf',
+  'stuttgart:h2': 'https://www.stuttgart-tourist.de/geniessen-in-stuttgart/wein-in-stuttgart/besen-wirtschaften',
+  'stuttgart:h3': 'https://www.stuttgart-tourist.de/en/eat-and-drink/glossary-for-swabian-cuisine',
+  'stuttgart:t1': 'https://www.stuttgart-airport.com/en/travellers-visitors/arrival-parking/public-transport',
 };

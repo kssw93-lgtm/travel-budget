@@ -545,4 +545,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['국립박물관은 매달 둘째 일요일에 입장료가 절반입니다.', 'The National Museum is half price on the second Sunday of each month.', '国立博物館は毎月第2日曜日に入場料が半額になります。'],
   },
+  stuttgart: {
+    p: [
+      ['9~10월', 'September–October', '9〜10月', '포도 수확철로, 맥주 축제와 와인 농가 주점(베젠)을 즐기기 좋습니다.', 'Harvest season, with the beer festival and Besen wine taverns.', 'ブドウの収穫期で、ビール祭りやワイン農家の居酒屋（ベーゼン）を楽しめます。'],
+    ],
+    x: ['베젠은 와인 농가가 1년에 최대 넉 달만 여는 주점이니, 방문 전에 지금 연 곳을 확인하세요.', 'Besen taverns open at most four months a year — check which are open before you go.', 'ベーゼンはワイン農家が年に最大4か月だけ開く居酒屋なので、訪れる前に営業中の店を確認しましょう。'],
+  },
 };

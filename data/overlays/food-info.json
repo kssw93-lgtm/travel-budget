@@ -5452,5 +5452,20 @@
     "ko": "코후피임(쿼크)과 달걀·설탕을 채운 빵",
     "en": "Bun filled with quark, egg and sugar",
     "ja": "コフピーム（クワルク）と卵、砂糖を詰めたパン"
+  },
+  "stuttgart:Maultaschen": {
+    "ko": "고기와 시금치를 채운 슈바벤식 큰 만두",
+    "en": "Swabian pasta pockets filled with meat and spinach",
+    "ja": "肉とほうれん草を詰めたシュヴァーベン風の大きな餃子"
+  },
+  "stuttgart:Käsespätzle": {
+    "ko": "달걀 면에 치즈와 볶은 양파를 얹은 요리",
+    "en": "Egg noodles with grated cheese and fried onions",
+    "ja": "卵の麺にチーズと炒めた玉ねぎをのせた料理"
+  },
+  "stuttgart:Laugenbrezel": {
+    "ko": "잿물에 담갔다 구운 슈바벤식 프레첼",
+    "en": "Lye-dipped Swabian pretzel",
+    "ja": "アルカリ液にくぐらせて焼いたシュヴァーベン風プレッツェル"
   }
 }

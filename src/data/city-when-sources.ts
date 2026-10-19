@@ -482,4 +482,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'turku:x': 'https://www.foli.fi/fi/selko/hinnat',
   'tartu:p1': 'https://visitestonia.com/en/tartu-market',
   'tartu:x': 'https://www.erm.ee/en/visit/admission/',
+  'stuttgart:p1': 'https://www.stuttgart-tourist.de/geniessen-in-stuttgart/wein-in-stuttgart/besen-wirtschaften',
+  'stuttgart:x': 'https://www.stuttgart-tourist.de/geniessen-in-stuttgart/wein-in-stuttgart/besen-wirtschaften',
 };

@@ -416,6 +416,15 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
   });
 
   test('크리스마스 마켓 일정 모음 페이지: 나라별 도시·기간·공식 안내, 가이드 목록에서 들어간다', async ({ page }) => {
+    const listingHtml = await (await page.request.get('/christmas-markets.html')).text();
+    const listingJsonLd = listingHtml.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1];
+    expect(listingJsonLd).toBeTruthy();
+    expect(listingJsonLd).toContain('CollectionPage');
+    expect(listingJsonLd).not.toContain('"@type":"Event"');
+    const guideHtml = await (await page.request.get('/guide/quebec-city.html')).text();
+    const guideJsonLd = guideHtml.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1];
+    expect(guideJsonLd).toBeTruthy();
+    expect(guideJsonLd).not.toContain('"@type":"Event"');
     await mockRates(page);
     await page.goto('/guides?lang=ko');
     await page.getByTestId('guide-xmas-cities').locator('summary').click();

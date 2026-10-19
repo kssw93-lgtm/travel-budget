@@ -488,4 +488,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'dusseldorf:x': 'https://www.visitduesseldorf.de/storys/2026/01/29/6-hotspots-brauhaus-duesseldorf-altbier/',
   'san-sebastian:p1': 'https://sansebastianturismoa.eus/en/gastronomy/going-for-pintxos/',
   'san-sebastian:x': 'https://www.santelmomuseoa.eus/m/horarios-precios.php?lang=es',
+  'funchal:p1': 'https://visitmadeira.com/en/what-to-do/experiencing-the-city-of-funchal/madeira-cuisine-and-wine/',
+  'funchal:p2': 'https://visitmadeira.com/en/what-to-do/experiencing-the-city-of-funchal/madeira-cuisine-and-wine/',
+  'funchal:x': 'https://www.horariosdofunchal.pt/images/pdf/tarifas-2026.pdf',
 };

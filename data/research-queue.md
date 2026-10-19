@@ -298,6 +298,8 @@
 | 뒤셀도르프 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 산세바스티안 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 산세바스티안 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 푼샬 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 푼샬 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 드레스덴 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 드레스덴 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 뉘른베르크 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1177,6 +1179,9 @@
 | EAS-TR-001 | 산세바스티안 | 디버스 1회권(주간~야간) | 1.95~2.65 EUR | A | 예 | 재검증 | [Dbus](https://dbus.eus/en/travelling-by-dbus/fares-and-prices/) |
 | EAS-AT-001 | 산세바스티안 | 산텔모 박물관 (성인) | 10 EUR | A | 예 | 재검증 | [San Telmo Museoa](https://www.santelmomuseoa.eus/m/horarios-precios.php?lang=es) |
 | EAS-AT-002 | 산세바스티안 | 산텔모 박물관 (25세 미만 무료) | 0 EUR | A | 예 | 재검증 | [San Telmo Museoa](https://www.santelmomuseoa.eus/m/horarios-precios.php?lang=es) |
+| FNC-TR-001 | 푼샬 | 푼샬 시내버스 1회(사전~차내) | 1.45~2.05 EUR | A | 예 | 재검증 | [Horários do Funchal](https://www.horariosdofunchal.pt/images/pdf/tarifas-2026.pdf) |
+| FNC-AT-001 | 푼샬 | 푼샬 케이블카 편도 (성인) | 16 EUR | A | 예 | 재검증 | [Madeira Cable Car](https://madeiracablecar.com/en/price-and-schedule/) |
+| FNC-AT-002 | 푼샬 | 푼샬 케이블카 편도 (아동 50%) | 8 EUR | A | 예 | 재검증 | [Madeira Cable Car](https://madeiracablecar.com/en/price-and-schedule/) |
 | HAM-TR-001 | 함부르크 | HVV 함부르크 AB 1회권 | 4.1 EUR | A | 예 | 재검증 | [hvv](https://www.hvv.de/en/tickets/single-day-tickets) |
 | HAM-AT-001 | 함부르크 | 미니어처 원더랜드 (성인) | 22 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |
 | HAM-AT-002 | 함부르크 | 미니어처 원더랜드 (아동) | 13 EUR | A | 예 | 재검증 | [Miniatur Wunderland](https://www.miniatur-wunderland.com/visiting/plan-your-visit/admission-fees/) |

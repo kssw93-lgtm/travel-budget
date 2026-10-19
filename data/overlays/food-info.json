@@ -5497,5 +5497,20 @@
     "ko": "필필 소스를 곁들인 대구 튀김 핀초",
     "en": "Battered cod with pil-pil emulsion",
     "ja": "ピルピルソースを添えたタラのフリット"
+  },
+  "funchal:Espetada": {
+    "ko": "월계수 가지에 꽂아 구운 소고기 꼬치",
+    "en": "Beef skewers grilled on bay-laurel sticks",
+    "ja": "月桂樹の枝に刺して焼いた牛肉の串焼き"
+  },
+  "funchal:Bolo do Caco": {
+    "ko": "고구마를 넣어 돌판에 구운 납작한 빵으로, 마늘 버터를 발라 먹습니다",
+    "en": "Sweet-potato flatbread with garlic butter",
+    "ja": "さつまいもを入れて石板で焼いた平たいパンで、ガーリックバターを塗って食べます"
+  },
+  "funchal:Black Scabbardfish (Espada)": {
+    "ko": "마데이라 심해에서 잡히는 검은갈치 필레 요리",
+    "en": "Fillet of deep-sea black scabbardfish",
+    "ja": "マデイラの深海でとれる黒太刀魚のフィレ料理"
   }
 }

@@ -1510,6 +1510,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "funchal",
+    "country": "포르투갈",
+    "countryEn": "Portugal",
+    "nameKo": "푼샬",
+    "nameEn": "Funchal",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "dresden",
     "country": "독일",
     "countryEn": "Germany",

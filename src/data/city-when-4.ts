@@ -563,4 +563,11 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['산텔모 박물관은 매주 화요일 무료이고, 25세 미만도 무료입니다.', 'The San Telmo Museum is free every Tuesday and for visitors under 25.', 'サン・テルモ博物館は毎週火曜日が無料で、25歳未満も無料です。'],
   },
+  funchal: {
+    p: [
+      ['4~5월', 'April–May', '4〜5月', '꽃 축제가 열리고 산길 하이킹(레바다)을 즐기기 좋은 계절입니다.', 'Flower festival season, great for levada hikes.', '花祭りが開かれ、山道（レヴァダ）のハイキングを楽しめる季節です。'],
+      ['9~10월', 'September–October', '9〜10月', '바다가 따뜻하고 포도 수확 축제가 열립니다.', 'Warm sea and the wine-harvest festival.', '海が暖かく、ブドウの収穫祭が開かれます。'],
+    ],
+    x: ['시내버스는 미리 산 승차권이 버스 안에서 사는 것보다 쌉니다.', 'City-bus tickets bought in advance are cheaper than buying on board.', '市内バスは事前に買った乗車券の方が車内で買うより安くなります。'],
+  },
 };

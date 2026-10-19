@@ -4929,6 +4929,60 @@
     "note": "Claude 초안(2026-10-09)"
   },
   {
+    "cityId": "funchal",
+    "nameKo": "에스페타다",
+    "nameEn": "Espetada",
+    "reason": "월계수 가지에 꽂아 구운 소고기 꼬치",
+    "reasonEn": "Beef skewers grilled on bay-laurel sticks",
+    "desc": {
+      "ko": "월계수 가지에 꽂아 구운 소고기 꼬치",
+      "en": "Beef skewers grilled on bay-laurel sticks",
+      "ja": "月桂樹の枝に刺して焼いた牛肉の串焼き"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Madeira",
+    "recommendUrl": "https://visitmadeira.com/en/what-to-do/food-and-wine-enthusiasts/traditional-madeira-food/typical-dishes/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "funchal",
+    "nameKo": "볼루 두 카쿠",
+    "nameEn": "Bolo do Caco",
+    "reason": "고구마를 넣어 돌판에 구운 납작한 빵으로, 마늘 버터를 발라 먹습니다",
+    "reasonEn": "Sweet-potato flatbread with garlic butter",
+    "desc": {
+      "ko": "고구마를 넣어 돌판에 구운 납작한 빵으로, 마늘 버터를 발라 먹습니다",
+      "en": "Sweet-potato flatbread with garlic butter",
+      "ja": "さつまいもを入れて石板で焼いた平たいパンで、ガーリックバターを塗って食べます"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Madeira",
+    "recommendUrl": "https://visitmadeira.com/en/what-to-do/food-and-wine-enthusiasts/traditional-madeira-food/bolo-do-caco/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "funchal",
+    "nameKo": "검은갈치 요리",
+    "nameEn": "Black Scabbardfish (Espada)",
+    "reason": "마데이라 심해에서 잡히는 검은갈치 필레 요리",
+    "reasonEn": "Fillet of deep-sea black scabbardfish",
+    "desc": {
+      "ko": "마데이라 심해에서 잡히는 검은갈치 필레 요리",
+      "en": "Fillet of deep-sea black scabbardfish",
+      "ja": "マデイラの深海でとれる黒太刀魚のフィレ料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visit Madeira",
+    "recommendUrl": "https://visitmadeira.com/en/what-to-do/food-and-wine-enthusiasts/traditional-madeira-food/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "galway",
     "nameKo": "골웨이 굴",
     "nameEn": "Galway Oysters",

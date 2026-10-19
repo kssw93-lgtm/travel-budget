@@ -702,4 +702,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['센트로(중심가)', 'Centro', 'セントロ（中心街）', '라 콘차 해변과 버스 정류장이 가까운 쇼핑 거리입니다.', 'The shopping district by La Concha beach and bus stops.', 'ラ・コンチャ海岸やバス停に近いショッピング街です。'],
     ],
   },
+  funchal: {
+    o: ['대서양의 포르투갈령 마데이라섬 중심 도시로, 일 년 내내 온화해 ‘영원한 봄의 섬’으로 불립니다. 바닷가에서 몬테 언덕까지 케이블카가 오르내리고, 월계수 가지에 꽂아 구운 소고기 에스페타다와 마데이라 와인으로 유명합니다.', 'The capital of Portugal’s Atlantic island of Madeira, mild all year and nicknamed the island of eternal spring; a cable car climbs from the seafront to Monte, and it is famous for espetada beef skewers on bay-laurel sticks and Madeira wine.', '大西洋に浮かぶポルトガル領マデイラ島の中心都市で、一年中穏やかな気候から「常春の島」と呼ばれます。海沿いからモンテの丘までケーブルカーが上り下りし、月桂樹の枝に刺して焼く牛肉のエスペターダやマデイラワインで有名です。'],
+    d: [3, 4],
+    s: [
+      ['구시가지(조나 벨랴)', 'Old Town (Zona Velha)', '旧市街（ゾーナ・ヴェーリャ）', '케이블카 승강장과 그림이 그려진 문의 골목, 식당이 모인 지역입니다.', 'By the cable car station, with painted doors and restaurants.', 'ケーブルカー乗り場や絵が描かれた扉の路地、飲食店が集まる地区です。'],
+      ['리두 호텔 지구', 'Lido hotel zone', 'リド・ホテル地区', '바닷가 산책로와 수영장 시설이 있는 서쪽 호텔 지역입니다.', 'The western hotel strip with seafront promenade and pools.', '海沿いの遊歩道やプール施設がある西側のホテル地区です。'],
+    ],
+  },
 };

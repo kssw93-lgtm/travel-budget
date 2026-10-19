@@ -1057,4 +1057,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['시내버스(디버스)는 1회 1.95유로이고, 신용카드 탭도 같은 요금입니다. 밤 버스는 더 비쌉니다.', 'City buses (Dbus) cost €1.95 per ride, the same by contactless card; night buses cost more.', '市内バス（Dバス）は1回1.95ユーロで、クレジットカードのタッチ決済も同じ料金です。夜行バスは高くなります。'],
     ],
   },
+  funchal: {
+    h: [
+      ['푼샬 케이블카', 'Funchal Cable Car', 'フンシャル・ケーブルカー', '구시가지에서 몬테 언덕까지 약 15분 동안 시내와 바다를 내려다보며 오릅니다. 7세 미만은 무료입니다.', 'Rise from the Old Town to Monte in about 15 minutes over city and sea; under-sevens free.', '旧市街からモンテの丘まで約15分、市街と海を見下ろしながら上ります。7歳未満は無料です。'],
+      ['에스페타다', 'Espetada', 'エスペターダ', '월계수 가지에 소고기를 꽂아 구운 마데이라 대표 요리로, 볼루 두 카쿠 빵을 곁들입니다.', 'Beef grilled on a bay-laurel stick, served with bolo do caco bread.', '月桂樹の枝に牛肉を刺して焼いたマデイラの代表料理で、ボロ・ド・カコのパンを添えます。'],
+      ['마데이라 와인', 'Madeira wine', 'マデイラワイン', '오래 숙성해도 맛이 변하지 않는 강화 와인으로, 시내 와인 저장고에서 시음할 수 있습니다.', 'The famously long-lived fortified wine, tasted at Funchal’s wine lodges.', '長期熟成でも味が変わらない酒精強化ワインで、市内のワインセラーで試飲できます。'],
+    ],
+    t: [
+      ['공항에서 시내: 에어로버스나 택시로 약 20~25분 걸립니다.', 'Airport to city: the Aerobus or a taxi takes about 20–25 minutes.', '空港から市内へ：エアロバスかタクシーで約20〜25分です。'],
+    ],
+  },
 };

@@ -1200,4 +1200,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'san-sebastian:h2': 'https://sansebastianturismoa.eus/en/gastronomy/going-for-pintxos/',
   'san-sebastian:h3': 'https://sansebastianturismoa.eus/en/to-do/district-by-district/centre-old-town/',
   'san-sebastian:t1': 'https://dbus.eus/en/travelling-by-dbus/fares-and-prices/',
+  'funchal:h1': 'https://madeiracablecar.com/en/price-and-schedule/',
+  'funchal:h2': 'https://visitmadeira.com/en/what-to-do/food-and-wine-enthusiasts/traditional-madeira-food/typical-dishes/',
+  'funchal:h3': 'https://visitmadeira.com/en/what-to-do/experiencing-the-city-of-funchal/madeira-cuisine-and-wine/',
+  'funchal:t1': 'https://visitmadeira.com/en/travel-info/how-to-move-around/',
 };

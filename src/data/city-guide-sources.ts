@@ -1192,4 +1192,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'stuttgart:h2': 'https://www.stuttgart-tourist.de/geniessen-in-stuttgart/wein-in-stuttgart/besen-wirtschaften',
   'stuttgart:h3': 'https://www.stuttgart-tourist.de/en/eat-and-drink/glossary-for-swabian-cuisine',
   'stuttgart:t1': 'https://www.stuttgart-airport.com/en/travellers-visitors/arrival-parking/public-transport',
+  'dusseldorf:h1': 'https://www.visitduesseldorf.de/en/experience/eating-and-going-out/breweries',
+  'dusseldorf:h2': 'https://www.kunstsammlung.de/en/visit',
+  'dusseldorf:h3': 'https://www.visitduesseldorf.de/storys/2023/02/06/sechs-stadtbekannte-spezialitaeten-die-ihr-unbedingt-probieren-solltet/',
+  'dusseldorf:t1': 'https://www.dus.com/en/to-and-from/bus-and-train',
 };

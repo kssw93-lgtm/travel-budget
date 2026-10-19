@@ -1490,6 +1490,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "dusseldorf",
+    "country": "독일",
+    "countryEn": "Germany",
+    "nameKo": "뒤셀도르프",
+    "nameEn": "Düsseldorf",
+    "currency": "EUR",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "dresden",
     "country": "독일",
     "countryEn": "Germany",

@@ -4415,6 +4415,60 @@
     "note": "GPT 수집"
   },
   {
+    "cityId": "dusseldorf",
+    "nameKo": "알트비어",
+    "nameEn": "Altbier",
+    "reason": "구시가지 양조장에서 작은 잔에 내는 쌉쌀한 갈색 맥주",
+    "reasonEn": "Bitter-spicy top-fermented dark beer in small glasses",
+    "desc": {
+      "ko": "구시가지 양조장에서 작은 잔에 내는 쌉쌀한 갈색 맥주",
+      "en": "Bitter-spicy top-fermented dark beer in small glasses",
+      "ja": "旧市街の醸造所で小さなグラスに注ぐほろ苦い褐色のビール"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Düsseldorf Tourismus",
+    "recommendUrl": "https://www.visitduesseldorf.de/storys/2026/01/29/6-hotspots-brauhaus-duesseldorf-altbier/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "dusseldorf",
+    "nameKo": "할베 한",
+    "nameEn": "Halve Hahn",
+    "reason": "호밀빵 반쪽에 고다 치즈와 겨자를 곁들인 간식",
+    "reasonEn": "Half a rye roll with Gouda and mustard",
+    "desc": {
+      "ko": "호밀빵 반쪽에 고다 치즈와 겨자를 곁들인 간식",
+      "en": "Half a rye roll with Gouda and mustard",
+      "ja": "ライ麦パン半分にゴーダチーズとマスタードを添えた軽食"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Düsseldorf Tourismus",
+    "recommendUrl": "https://www.visitduesseldorf.de/storys/2023/02/06/sechs-stadtbekannte-spezialitaeten-die-ihr-unbedingt-probieren-solltet/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "dusseldorf",
+    "nameKo": "라인식 자우어브라텐",
+    "nameEn": "Rheinischer Sauerbraten",
+    "reason": "식초에 재운 소고기 찜에 감자 경단과 사과 소스를 곁들인 요리",
+    "reasonEn": "Marinated pot roast with dumplings and apple sauce",
+    "desc": {
+      "ko": "식초에 재운 소고기 찜에 감자 경단과 사과 소스를 곁들인 요리",
+      "en": "Marinated pot roast with dumplings and apple sauce",
+      "ja": "酢に漬けた牛肉の煮込みにじゃがいも団子とリンゴソースを添えた料理"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Düsseldorf Tourismus",
+    "recommendUrl": "https://www.visitduesseldorf.de/storys/2026/01/29/6-hotspots-brauhaus-duesseldorf-altbier/",
+    "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
     "cityId": "edinburgh",
     "nameKo": "해기스와 니프스·태티스",
     "nameEn": "Haggis, neeps and tatties",

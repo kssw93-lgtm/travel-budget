@@ -484,4 +484,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'tartu:x': 'https://www.erm.ee/en/visit/admission/',
   'stuttgart:p1': 'https://www.stuttgart-tourist.de/geniessen-in-stuttgart/wein-in-stuttgart/besen-wirtschaften',
   'stuttgart:x': 'https://www.stuttgart-tourist.de/geniessen-in-stuttgart/wein-in-stuttgart/besen-wirtschaften',
+  'dusseldorf:p1': 'https://www.visitduesseldorf.de/en/attractions/altstadt-old-town-e2f8426a5c',
+  'dusseldorf:x': 'https://www.visitduesseldorf.de/storys/2026/01/29/6-hotspots-brauhaus-duesseldorf-altbier/',
 };

@@ -5467,5 +5467,20 @@
     "ko": "잿물에 담갔다 구운 슈바벤식 프레첼",
     "en": "Lye-dipped Swabian pretzel",
     "ja": "アルカリ液にくぐらせて焼いたシュヴァーベン風プレッツェル"
+  },
+  "dusseldorf:Altbier": {
+    "ko": "구시가지 양조장에서 작은 잔에 내는 쌉쌀한 갈색 맥주",
+    "en": "Bitter-spicy top-fermented dark beer in small glasses",
+    "ja": "旧市街の醸造所で小さなグラスに注ぐほろ苦い褐色のビール"
+  },
+  "dusseldorf:Halve Hahn": {
+    "ko": "호밀빵 반쪽에 고다 치즈와 겨자를 곁들인 간식",
+    "en": "Half a rye roll with Gouda and mustard",
+    "ja": "ライ麦パン半分にゴーダチーズとマスタードを添えた軽食"
+  },
+  "dusseldorf:Rheinischer Sauerbraten": {
+    "ko": "식초에 재운 소고기 찜에 감자 경단과 사과 소스를 곁들인 요리",
+    "en": "Marinated pot roast with dumplings and apple sauce",
+    "ja": "酢に漬けた牛肉の煮込みにじゃがいも団子とリンゴソースを添えた料理"
   }
 }

@@ -551,4 +551,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['베젠은 와인 농가가 1년에 최대 넉 달만 여는 주점이니, 방문 전에 지금 연 곳을 확인하세요.', 'Besen taverns open at most four months a year — check which are open before you go.', 'ベーゼンはワイン農家が年に最大4か月だけ開く居酒屋なので、訪れる前に営業中の店を確認しましょう。'],
   },
+  dusseldorf: {
+    p: [
+      ['5~9월', 'May–September', '5〜9月', '라인강변 산책로와 야외 비어가든을 즐기기 좋습니다.', 'The Rhine promenade and outdoor beer gardens.', 'ライン川沿いの遊歩道や屋外のビアガーデンを楽しめます。'],
+    ],
+    x: ['양조장에서는 잔을 비우면 종업원(쾨베스)이 새 잔을 계속 가져다주니, 그만 마시려면 잔 위에 컵받침을 올려 두세요.', 'In the brewhouses waiters (Köbes) keep bringing fresh glasses — put your beer mat on top to stop.', '醸造所ではグラスが空くと店員（ケーベス）が次々に新しいグラスを持ってくるので、やめたいときはグラスの上にコースターを置きましょう。'],
+  },
 };

@@ -686,4 +686,12 @@ export const INTROS_6: Record<string, Intro> = {
       ['바트 칸슈타트', 'Bad Cannstatt', 'バート・カンシュタット', '메르세데스벤츠 박물관과 가을 맥주 축제장이 가까운 지역입니다.', 'Near the Mercedes-Benz Museum and the autumn beer-festival grounds.', 'メルセデス・ベンツ博物館や秋のビール祭りの会場に近い地区です。'],
     ],
   },
+  dusseldorf: {
+    o: ['라인강 변의 노르트라인베스트팔렌주 주도로, 패션과 현대미술의 도시입니다. 0.5㎢ 남짓한 구시가지에 260곳이 넘는 술집이 모여 ‘세상에서 가장 긴 바’로 불리며, 갈색 맥주 알트비어와 겨자로 유명합니다. 유럽 최대급 일본인 거리도 있습니다.', 'North Rhine-Westphalia’s capital on the Rhine, a city of fashion and modern art; its tiny Altstadt packs 260-plus bars into “the longest bar in the world”, famous for dark Altbier and mustard, and it has one of Europe’s largest Japanese communities.', 'ライン川沿いのノルトライン・ヴェストファーレン州の州都で、ファッションと現代美術の街です。わずか0.5㎢ほどの旧市街に260を超える酒場が集まり「世界一長いバー」と呼ばれ、褐色のビール「アルトビール」やマスタードで有名です。ヨーロッパ最大級の日本人街もあります。'],
+    d: [1, 2],
+    s: [
+      ['알트슈타트(구시가지)', 'Altstadt (Old Town)', 'アルトシュタット（旧市街）', '알트비어 양조장과 라인강변 산책로가 모인 중심지입니다.', 'Home of the Altbier brewhouses and the Rhine promenade.', 'アルトビールの醸造所やライン川沿いの遊歩道が集まる中心地です。'],
+      ['중앙역·임머만 거리 주변', 'Around the Hauptbahnhof / Immermannstraße', '中央駅・インマーマン通り周辺', '공항행 S반이 서고, 일본 식당과 상점이 모인 거리가 있습니다.', 'Airport S-Bahn stop and the street of Japanese restaurants and shops.', '空港行きのSバーンが停まり、日本料理店や商店が集まる通りがあります。'],
+    ],
+  },
 };

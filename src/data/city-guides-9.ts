@@ -1037,4 +1037,14 @@ export const NOTES_9: Record<string, Compact> = {
       ['공항에서 시내: S반 S2·S3이 15분 간격으로 공항과 중앙역을 약 27분에 잇습니다. 시내 1구간 1회권은 휴대폰 티켓으로 사면 약 5% 쌉니다.', 'Airport to city: S-Bahn S2/S3 run every 15 minutes to the main station in about 27 minutes; zone-1 singles are about 5% cheaper as mobile tickets.', '空港から市内へ：SバーンS2・S3が15分間隔で空港と中央駅を約27分で結んでいます。市内1ゾーンの1回券はスマホチケットで買うと約5%安くなります。'],
     ],
   },
+  dusseldorf: {
+    h: [
+      ['알트슈타트 양조장', 'Altstadt brewhouses', '旧市街の醸造所', '작은 잔에 따르는 갈색 맥주 알트비어와 라인 지방 요리를 맛볼 수 있습니다.', 'Dark Altbier in small glasses with Rhineland dishes.', '小さなグラスで注ぐ褐色のアルトビールとライン地方の料理を味わえます。'],
+      ['K20 미술관', 'K20 (Kunstsammlung NRW)', 'K20（ノルトライン・ヴェストファーレン州立美術館）', '피카소·클레 등 20세기 미술을 소장한 주립 미술관으로, 18세 미만은 무료입니다.', 'State gallery of 20th-century art from Picasso to Klee; under-18s free.', 'ピカソやクレーなど20世紀美術を所蔵する州立美術館で、18歳未満は無料です。'],
+      ['뒤셀도르프 겨자', 'Düsseldorf mustard', 'デュッセルドルフ・マスタード', '1726년부터 맷돌로 갈아 만든 겨자로, 네 가지가 EU 원산지 보호를 받습니다.', 'Stone-ground since 1726; four varieties hold EU protected-origin status.', '1726年から石臼で挽いて作られるマスタードで、4種類がEUの原産地保護を受けています。'],
+    ],
+    t: [
+      ['공항에서 시내: S반 S11이 터미널 지하역에서 중앙역까지 가며, 시내 요금(A단계, 90분)으로 탈 수 있습니다.', 'Airport to city: S-Bahn S11 runs from the station beneath the terminal to the Hauptbahnhof on a city (level A, 90-minute) ticket.', '空港から市内へ：SバーンS11がターミナル地下の駅から中央駅まで走り、市内運賃（Aランク、90分）で乗れます。'],
+    ],
+  },
 };

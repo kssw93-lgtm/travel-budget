@@ -193,4 +193,10 @@ export const CITY_SEASONS: Record<string, Season> = {
   cordoba: ['3~5월과 10~11월이 가장 좋고, 5월에는 안뜰 축제가 열립니다. 7~8월은 40도를 넘는 날이 많습니다.', 'March–May and October–November are best, with the patio festival in May; July–August often tops 40°C.', '3〜5月と10〜11月が最も良く、5月には中庭祭りが開かれます。7〜8月は40度を超える日が多いです。', 'https://www.turismodecordoba.org/los-patios'],
   montpellier: ['4~6월과 9~10월이 가장 좋습니다. 7~8월은 덥고 해변이 붐비며, 겨울은 온화한 편입니다.', 'April–June and September–October are best; July–August is hot with crowded beaches, and winters are mild.', '4〜6月と9〜10月が最も良い時期です。7〜8月は暑くビーチが混み、冬は比較的穏やかです。', 'https://www.montpellier-tourisme.fr/decouvrir/au-coeur-de-la-nature/cote-mer-les-plages/sete/'],
   malmo: ['5~9월이 가장 좋고, 8월에는 말뫼 축제가 열립니다. 겨울은 흐리고 바람이 차지만 코펜하겐과 함께 크리스마스 마켓을 둘러보기 좋습니다.', 'May–September is best, with the Malmö Festival in August; winters are grey and windy but pair well with Copenhagen’s Christmas markets.', '5〜9月が最も良く、8月にはマルメ祭りが開かれます。冬は曇りがちで風が冷たいですが、コペンハーゲンと合わせてクリスマスマーケットを巡るのに向いています。', 'https://visitskane.com/cities-locations/malmo'],
+  'rio-de-janeiro': [
+    '연중 방문할 수 있고, 새해맞이 레베용과 카니발 무렵에는 대형 축제가 열립니다.',
+    'Rio can be visited year-round, with major celebrations for Réveillon and Carnival.',
+    '一年中訪れることができ、年越しのレベイヨンやカーニバルの時期には大規模な祭りでにぎわいます。',
+    'https://www.turismo.rj.gov.br/cidades/rio-de-janeiro/',
+  ],
 };

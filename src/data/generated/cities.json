@@ -1550,6 +1550,16 @@
     "stage": "파일럿"
   },
   {
+    "id": "rio-de-janeiro",
+    "country": "브라질",
+    "countryEn": "Brazil",
+    "nameKo": "리우데자네이루",
+    "nameEn": "Rio de Janeiro",
+    "currency": "BRL",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "dresden",
     "country": "독일",
     "countryEn": "Germany",

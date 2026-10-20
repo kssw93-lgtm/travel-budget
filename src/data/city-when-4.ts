@@ -588,6 +588,23 @@ export const WHEN_4: Record<string, When> = {
     p: [
       ['5~9월', 'May–September', '5〜9月', '해변 산책로와 코펜하겐 당일 여행을 함께 즐기기 좋습니다.', 'Beach promenades and day trips to Copenhagen.', '海辺の遊歩道やコペンハーゲンへの日帰り旅行を楽しめます。'],
     ],
-    x: ['19세 이하는 말뫼 박물관(성·수족관·미술관)에 무료로 입장할 수 있습니다.', 'Visitors aged 0–19 enter the Malmö Museums (castle, aquarium, art museum) free.', '19歳以下はマルメ博物館（城・水族館・美術館）に無料で入場できます。'],
+    x: ['8월 말뫼 축제 기간에는 도심 여러 곳에서 공연·음식·문화 행사가 열립니다. 조용한 여행을 원한다면 축제 일정을 피해 계획하고, 방문 전 공식 일정도 확인하세요.', 'Malmöfestivalen brings performances, food and cultural events to several central locations in August. If you prefer a quieter visit, plan around the festival dates and check the official schedule before travelling.', '8月のマルメフェスティバル期間中は、市内各所で音楽・食・文化イベントが開催されます。静かに過ごしたい場合は開催日を避け、訪問前に公式日程を確認してください。'],
+  },
+  'rio-de-janeiro': {
+    p: [
+      [
+        '연중, 특히 레베용·카니발 무렵',
+        'Year-round, especially around Réveillon and Carnival',
+        '一年中、特にレベイヨンやカーニバルの時期',
+        '도시 관광청은 연중 방문을 안내하며, 연말 새해맞이 행사와 카니발을 대표 행사로 소개합니다.',
+        'The state tourism office welcomes visitors year-round and highlights the New Year celebration and Carnival.',
+        '州観光局は一年を通じた訪問を案内し、年越し行事とカーニバルを代表的な催しとして紹介しています。',
+      ],
+    ],
+    x: [
+      '11~3월은 남동부 우기입니다. 해안 산지에서 집중호우·홍수·산사태가 생길 수 있으니 출발 전 현지 경보와 도로 상황을 확인하세요.',
+      'November–March is the rainy season in southeast Brazil. Heavy rain can cause flooding and landslides near the coast and mountains, so check local alerts and road conditions before travelling.',
+      '11〜3月はブラジル南東部の雨季です。海岸に近い山地では大雨による洪水や土砂崩れが起こることがあるため、出発前に現地の警報や道路状況を確認してください。',
+    ],
   },
 };

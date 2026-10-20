@@ -306,6 +306,9 @@
 | 몽펠리에 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 말뫼 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 말뫼 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 리우데자네이루 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 리우데자네이루 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 리우데자네이루 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 드레스덴 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 드레스덴 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 뉘른베르크 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -406,14 +409,12 @@
 | SHA-AT-005 | 상하이 | 상하이 천문관 성인 입장권 | 30 CNY | B | 예 | B등급, 검수: 원문 확인 불가 | [Shanghai Municipal People's Government](https://www.shanghai.gov.cn/pudong/index.html) |
 | SHA-AT-006 | 상하이 | 상하이 자연박물관 1.3m 이하 또는 만 6세 이하 무료 | 0 CNY | B | 예 | B등급 | [Shanghai Natural History Museum](https://www.snhm.org.cn/cgfw/cgzx.htm) |
 | SHA-AT-009 | 상하이 | 상하이 천문관 1.3m 이하 또는 만 6세 이하 무료 | 0 CNY | B | 예 | B등급, 검수: 원문 확인 불가 | [Shanghai Municipal People's Government](https://www.shanghai.gov.cn/pudong/index.html) |
-| TYO-AT-005 | 도쿄 | 도쿄 디즈니랜드 1데이 패스포트(성인, 2026-10-03) | 10900 JPY | A | 예 | 검수: 원문 확인 불가 | [Tokyo Disney Resort](https://www.tokyodisneyresort.jp/en/ticket/index/202610/) |
 | TYO-AT-006 | 도쿄 | 팀랩 플래닛 입장 패스(성인, 공식 최저 게시가) | 3800 JPY | A | 예 | 시작가 표기 | [teamLab Planets / DMM Official Ticket Store](https://teamlabplanets.dmm.com/en?dmmref=lp&i3_ref=cm2020) |
 | TYO-AT-008 | 도쿄 | 신주쿠 교엔 일반 입장권 | 500 JPY | B | 예 | B등급 | [Ministry of the Environment, Japan](https://policies.env.go.jp/national-garden/shinjukugyoen/english/guide/information/) |
 | TYO-AT-009 | 도쿄 | 하마리큐 은사정원 일반 입장권 | 300 JPY | B | 예 | B등급 | [Tokyo Metropolitan Park Association](https://www.tokyo-park.or.jp/park/hama-rikyu/index.html) |
 | TYO-AT-010 | 도쿄 | 우에노 동물원 일반 입장권 | 600 JPY | B | 예 | B등급 | [Tokyo Zoological Park Society](https://www.tokyo-zoo.net/en/ueno/visitor-info/tickets/index.html) |
 | TYO-AT-011 | 도쿄 | 국립서양미술관 상설전시 입장권 | 500 JPY | B | 예 | B등급 | [The National Museum of Western Art](https://www.nmwa.go.jp/en/visit/index.html) |
 | TYO-AT-012 | 도쿄 | 도쿄도청 전망실 | 0 JPY | B | 예 | B등급 | [Tokyo Metropolitan Government](https://www.english.metro.tokyo.lg.jp/w/000-101-000542) |
-| TYO-AT-014 | 도쿄 | 도쿄 디즈니랜드 1데이 패스포트(아동, 2026년 10월 최저 게시가) | 5300 JPY | A | 예 | 시작가 표기 | [Tokyo Disney Resort](https://www.tokyodisneyresort.jp/en/ticket/index/202610/) |
 | TYO-AT-018 | 도쿄 | 신주쿠 교엔 중학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Ministry of the Environment, Japan](https://policies.env.go.jp/national-garden/shinjukugyoen/english/guide/information/) |
 | TYO-AT-019 | 도쿄 | 하마리큐 은사정원 초등학생 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Tokyo Metropolitan Park Association](https://www.tokyo-park.or.jp/park/hama-rikyu/index.html) |
 | TYO-AT-020 | 도쿄 | 우에노 동물원 12세 이하 무료 입장 | 0 JPY | B | 예 | B등급 | [Tokyo Zoological Park Society](https://www.tokyo-zoo.net/en/ueno/visitor-info/tickets/index.html) |
@@ -2023,6 +2024,16 @@
 | CJU-FD-902 | 제주 | 이춘옥원조고등어쌈밥 제주애월본점 전복뚝배기 1인 | 17000 KRW | B | 예 | B등급, 재검증 | [이춘옥원조고등어쌈밥 제주애월본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/19872990/menu/list) |
 | CJU-FD-903 | 제주 | 협재수우동 협재점 자작냉우동 | 15500 KRW | B | 예 | B등급, 재검증 | [협재수우동 협재점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/36823910/menu/list) |
 | CJU-FD-904 | 제주 | 한라산아래첫마을 제주메밀 비비작작면 | 16000 KRW | B | 예 | B등급, 재검증 | [한라산아래첫마을 영농조합법인 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/363214380/menu/list) |
+| RIO-FD-501 | 리우데자네이루 | 비아 카리오카 햄버거 클래식 | 38.9 BRL | A | 예 | 재검증 | [Via Carioca 공식 메뉴](https://viacariocario.com.br/) |
+| RIO-FD-502 | 리우데자네이루 | 수르레알 바 판코 치킨 요리 | 69 BRL | A | 예 | 재검증 | [Surreal Bar 공식 메뉴](https://www.surrealrio.com/) |
+| RIO-FD-503 | 리우데자네이루 | 브라질식 로스트 비프 또는 돼지 뒷다리살 | 44 BRL | A | 예 | 재검증 | [Jóia Carioca 공식 메뉴](https://www.joiacarioca.com.br/en) |
+| RIO-TR-501 | 리우데자네이루 | 리우 시내버스 1회 요금 | 5 BRL | A | 예 | 재검증 | [RioCard Mais 공식 요금표](https://cms.riocardmais.com.br/tarifas) |
+| RIO-AT-501 | 리우데자네이루 | 파르키 본지뉴 일반 입장권 | 205~230 BRL | A | 조건부 | 조건부, 재검증 | [Parque Bondinho 공식 고객지원](https://sac.bondinho.com.br/hc/pt-br/articles/24239141433883-Tipos-de-bilhetes) |
+| RIO-AT-502 | 리우데자네이루 | 파르키 본지뉴 어린이 입장권(3~12세) | 102~230 BRL | A | 조건부 | 조건부, 재검증 | [Parque Bondinho 공식 고객지원](https://sac.bondinho.com.br/hc/pt-br/articles/24239141433883-Tipos-de-bilhetes) |
+| RIO-AT-503 | 리우데자네이루 | 유프 스타 리우 성인 입장권(12세 이상) | 59.9 BRL | A | 예 | 재검증 | [Yup Star Rio 공식 페이지](https://rio.yupstar.com.br/as-rodas/yup-star-rio/) |
+| RIO-AT-504 | 리우데자네이루 | 유프 스타 리우 어린이 입장권(4~11세) | 39.9 BRL | A | 예 | 재검증 | [Yup Star Rio 공식 페이지](https://rio.yupstar.com.br/as-rodas/yup-star-rio/) |
+| RIO-AT-505 | 리우데자네이루 | 파르키 라지 무료 입장(성인) | 0 BRL | A | 예 | 재검증 | [EAV Parque Lage 공식 방문 안내](https://eavparquelage.rj.gov.br/o-parque) |
+| RIO-AT-506 | 리우데자네이루 | 파르키 라지 무료 입장(아동 6~12세) | 0 BRL | A | 예 | 재검증 | [EAV Parque Lage 공식 방문 안내](https://eavparquelage.rj.gov.br/o-parque) |
 | SPK-AT-501 | 삿포로 | 시로이 코이비토 파크 유료 구역 입장권(성인) | 1200 JPY | A | 예 | 재검증 | [白い恋人パーク](https://www.shiroikoibitopark.jp/en/about.html?funnel_source=content_article) |
 | SPK-AT-502 | 삿포로 | 시로이 코이비토 파크 유료 구역 입장권(아동) | 600 JPY | A | 예 | 재검증 | [白い恋人パーク](https://www.shiroikoibitopark.jp/en/about.html?funnel_source=content_article) |
 | SPK-AT-503 | 삿포로 | 삿포로 맥주 박물관 입관료(성인) | 1000 JPY | A | 예 | 재검증 | [サッポロビール博物館](https://www.sapporobeer.jp/brewery/s_museum/kengaku/) |

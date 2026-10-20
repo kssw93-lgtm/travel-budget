@@ -6,11 +6,13 @@
  */
 import { createHash } from 'node:crypto';
 import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { parseCsv } from './import-food-sources';
 
-const root = new URL('..', import.meta.url).pathname;
-const dir = `${root}GPT전달내용/결과/`;
-const file = `${root}data/overlays/food-info.json`;
+const root = fileURLToPath(new URL('..', import.meta.url));
+const dir = join(root, 'GPT전달내용', '결과');
+const file = join(root, 'data', 'overlays', 'food-info.json');
 const FREE_LICENSE = /^(CC0|Public domain|CC BY(-SA)? [1-4]\.[0-5])/i;
 
 const info = JSON.parse(readFileSync(file, 'utf8')) as Record<string, { photo?: { url: string; author: string; license: string; page: string } }>;
@@ -18,7 +20,7 @@ let added = 0;
 for (const name of readdirSync(dir)
   .filter((n) => /^음식사진_.*\.csv$/.test(n))
   .sort()) {
-  for (const [key, , , , url, author, license, page] of parseCsv(readFileSync(dir + name, 'utf8').replace(/^\uFEFF/, '')).slice(1)) {
+  for (const [key, , , , url, author, license, page] of parseCsv(readFileSync(join(dir, name), 'utf8').replace(/^\uFEFF/, '')).slice(1)) {
     const m = /^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/([0-9a-f])\/([0-9a-f]{2})\/([^/]+)$/.exec((url ?? '').trim());
     const why =
       !key || !info[key]

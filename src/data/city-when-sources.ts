@@ -498,5 +498,7 @@ export const WHEN_SOURCES: Record<string, string> = {
   'montpellier:p2': 'https://www.herault-tourisme.com/fr/bien-manger/nos-specialites-terre-et-mer/top-des-accords-mets-et-vins/',
   'montpellier:x': 'https://www.tam-voyages.com/fr/produits-et-tarifs',
   'malmo:p1': 'https://visitskane.com/cities-locations/malmo',
-  'malmo:x': 'https://malmo.se/Uppleva-och-gora/Konst-och-museer/Malmo-museum/Besok-Malmo-museum/Oppettider-och-entreavgifter.html',
+  'malmo:x': 'https://www.malmofestivalen.se/fragor-svar',
+  'rio-de-janeiro:p1': 'https://www.turismo.rj.gov.br/cidades/rio-de-janeiro/',
+  'rio-de-janeiro:x': 'https://www.gov.uk/foreign-travel-advice/brazil/safety-and-security',
 };

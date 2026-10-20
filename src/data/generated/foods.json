@@ -10810,6 +10810,78 @@
     "note": "Claude 크롬 2026-10-17 공식 출처"
   },
   {
+    "cityId": "rio-de-janeiro",
+    "nameKo": "페이조아다",
+    "nameEn": "Feijoada",
+    "reason": "리우 관광청 안내서가 카리오카 생활을 대표하는 음식으로 소개합니다.",
+    "reasonEn": "Riotur’s visitor guide names feijoada among the dishes visitors should try.",
+    "desc": {
+      "ko": "검은콩과 돼지고기를 함께 끓여 밥과 파로파 등을 곁들여 먹는 브라질식 스튜",
+      "en": "A Brazilian black-bean and pork stew served with rice and farofa",
+      "ja": "黒豆と豚肉を煮込み、ご飯やファロファなどを添えて食べるブラジル料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/FeijoadaBrasileira.jpg/960px-FeijoadaBrasileira.jpg",
+      "author": "Operoxido",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:FeijoadaBrasileira.jpg"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Riotur (리우 시 관광청)",
+    "recommendUrl": "https://riotur.rio/wp-content/uploads/2024/08/Riotur_LivretoPublico_Visit_2023_200x200mm_ING.pdf",
+    "note": "관광청 Pocket Guide에서 관광객이 놓치지 말아야 할 음식으로 소개."
+  },
+  {
+    "cityId": "rio-de-janeiro",
+    "nameKo": "카이피리냐",
+    "nameEn": "Caipirinha",
+    "reason": "리우 관광청 안내서가 카리오카 생활을 대표하는 음료로 소개합니다.",
+    "reasonEn": "Riotur’s visitor guide names caipirinha among the drinks visitors should try.",
+    "desc": {
+      "ko": "카샤사에 라임, 설탕, 얼음을 넣어 만드는 브라질 칵테일",
+      "en": "A Brazilian cocktail made with cachaça, lime, sugar and ice",
+      "ja": "カシャッサにライム、砂糖、氷を加えて作るブラジルのカクテル"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Caipirinha_picture.jpg/960px-Caipirinha_picture.jpg",
+      "author": "Ralf Roletschek",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Caipirinha_picture.jpg"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Riotur (리우 시 관광청)",
+    "recommendUrl": "https://riotur.rio/wp-content/uploads/2024/08/Riotur_LivretoPublico_Visit_2023_200x200mm_ING.pdf",
+    "note": "관광청 Pocket Guide에서 관광객이 놓치지 말아야 할 음료로 소개."
+  },
+  {
+    "cityId": "rio-de-janeiro",
+    "nameKo": "브라질식 슈하스쿠 호디지오",
+    "nameEn": "Churrasco Rodízio",
+    "reason": "리우 관광청 안내서가 카리오카 생활을 대표하는 식사 방식으로 소개합니다.",
+    "reasonEn": "Riotur’s visitor guide names barbecue rodízio among the meals visitors should try.",
+    "desc": {
+      "ko": "구운 고기를 테이블에 차례로 내어 주는 브라질식 슈하스쿠 식사 방식",
+      "en": "A Brazilian barbecue meal served in rotating rounds of grilled meat",
+      "ja": "焼いた肉を順番にテーブルへ運ぶブラジル式シュハスコの食事スタイル"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Brazilian_churrasco.jpg/960px-Brazilian_churrasco.jpg",
+      "author": "Lucas Pescador Barcelos",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Brazilian_churrasco.jpg"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Riotur (리우 시 관광청)",
+    "recommendUrl": "https://riotur.rio/wp-content/uploads/2024/08/Riotur_LivretoPublico_Visit_2023_200x200mm_ING.pdf",
+    "note": "관광청 Pocket Guide가 barbecue rodizio라고 표기."
+  },
+  {
     "cityId": "rome",
     "nameKo": "카르보나라",
     "nameEn": "Carbonara",

@@ -734,4 +734,26 @@ export const INTROS_6: Record<string, Intro> = {
       ['뫼옐레밧그넨', 'Möllevången', 'メッレヴォンゲン', '다문화 식당과 저렴한 먹거리가 모인 활기찬 지역입니다.', 'A lively, multicultural area of affordable eats.', '多文化の飲食店や手頃な食べ物が集まる活気ある地区です。'],
     ],
   },
+  'rio-de-janeiro': {
+    o: [
+      '바다와 산, 열대 숲이 맞닿은 브라질의 대표 여행 도시입니다. 구세주 그리스도상과 슈거로프산, 코파카바나 해변을 둘러보고 삼바와 카리오카 문화를 경험해 보세요.',
+      'Brazil’s best-known coastal city brings beaches, mountains and tropical forest together. Visit Christ the Redeemer, Sugarloaf Mountain and Copacabana, and experience samba and Carioca culture.',
+      '海と山、熱帯の森が隣り合うブラジルを代表する観光都市です。コルコバードのキリスト像やポン・ヂ・アスーカル、コパカバーナ海岸を巡り、サンバやカリオカ文化に触れてみましょう。',
+    ],
+    d: [3, 4],
+    s: [
+      [
+        '코파카바나', 'Copacabana', 'コパカバーナ',
+        '해변과 산책로, 식당·상점이 모여 있어 첫 방문에 편리한 해안 지역입니다.',
+        'A convenient coastal base for a first visit, with a beach promenade, restaurants and shops.',
+        '海岸や遊歩道、飲食店・ショップが集まり、初めての滞在にも便利なエリアです。',
+      ],
+      [
+        '이파네마·아르포아도르', 'Ipanema / Arpoador', 'イパネマ・アルポアドール',
+        '해변과 카페, 식당이 가까우며 아르포아도르 바위에서 해 질 무렵 바다를 볼 수 있습니다.',
+        'Stay near beaches, cafés and restaurants, with sunset views from the Arpoador rocks.',
+        '海岸やカフェ、飲食店が近く、アルポアドールの岩場から夕日を眺められます。',
+      ],
+    ],
+  },
 };

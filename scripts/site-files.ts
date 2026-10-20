@@ -178,11 +178,11 @@ export function pageHtml(indexHtml: string, meta: PageMeta, site: string | undef
   const d = escapeHtml(meta.description);
   let html = indexHtml
     .replace(/<title>[^<]*<\/title>/, `<title>${t}</title>`)
-    .replace(/(<meta name="description" content=")[^"]*(")/, `$1${d}$2`)
-    .replace(/(<meta property="og:title" content=")[^"]*(")/, `$1${t}$2`)
-    .replace(/(<meta property="og:description" content=")[^"]*(")/, `$1${d}$2`)
-    .replace(/(<meta name="twitter:title" content=")[^"]*(")/, `$1${t}$2`)
-    .replace(/(<meta name="twitter:description" content=")[^"]*(")/, `$1${d}$2`)
+    .replace(/(<meta name="description" content=")[^"]*(")/, (_m, before: string, after: string) => `${before}${d}${after}`)
+    .replace(/(<meta property="og:title" content=")[^"]*(")/, (_m, before: string, after: string) => `${before}${t}${after}`)
+    .replace(/(<meta property="og:description" content=")[^"]*(")/, (_m, before: string, after: string) => `${before}${d}${after}`)
+    .replace(/(<meta name="twitter:title" content=")[^"]*(")/, (_m, before: string, after: string) => `${before}${t}${after}`)
+    .replace(/(<meta name="twitter:description" content=")[^"]*(")/, (_m, before: string, after: string) => `${before}${d}${after}`)
     .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${JSON.stringify(meta.ld).replace(/"item":"\//g, `"item":"${site ?? ''}/`).replace(/</g, '\\u003c')}</script>`);
   html = replaceFallback(html, meta.fallbackHtml);
   const lang = meta.lang ?? 'ko';

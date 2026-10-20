@@ -270,6 +270,36 @@ export const COUNTRY_2: Record<string, CountryNote> = {
       ['일부 관광객이 술값 과다 청구와 카드 부정 결제를 겪었습니다. 결제는 눈앞에서 처리되는지 확인하고, PIN 재입력을 요구하면 경계하세요. 술을 자리에 두고 떠나지 마세요.', 'Some tourists have faced inflated drink charges or fraudulent card transactions. Keep card payments in sight, be wary if asked to re-enter your PIN, and do not leave drinks unattended.', '飲み物の高額請求やカードの不正利用に遭った旅行者もいます。カード決済は目の前で行われるか確認し、暗証番号の再入力を求められたら警戒してください。飲み物を置いたまま席を離れないでください。', 'https://www.gov.uk/foreign-travel-advice/latvia/safety-and-security'],
     ],
   },
+  Brazil: {
+    tips: [
+      [
+        '공항에서 택시를 탈 때는 공식 승차 부스를 이용하세요. 앱 호출차는 앱에 표시된 차량 번호와 운전자 정보를 대조하고 지정된 픽업 장소에서 기다리세요.',
+        'At airports, use authorised taxi booths. For ride-hailing, match the car and driver details in the app and wait at the designated pick-up point.',
+        '空港では認可されたタクシー乗り場を利用しましょう。配車アプリでは車両番号と運転手の情報を照合し、指定の乗車場所で待ってください。',
+        'https://www.gov.uk/foreign-travel-advice/brazil/safety-and-security',
+      ],
+      [
+        '카드 결제 전에 단말기에 표시된 금액을 확인하고, 결제가 끝날 때까지 카드를 시야에서 놓치지 마세요.',
+        'Check the amount shown on the payment terminal and keep your card in sight until the transaction is complete.',
+        'カード決済の前に端末の金額を確認し、支払いが終わるまでカードから目を離さないでください。',
+        'https://www.gov.uk/foreign-travel-advice/brazil/safety-and-security',
+      ],
+    ],
+    cautions: [
+      [
+        '빈민가는 관광객 대상 투어·숙소·식당을 포함해 피하고, GPS 경로가 빈민가를 통과하지 않는지 확인하세요.',
+        'Avoid favelas, including tourist tours, accommodation, restaurants and bars advertised within them; check that GPS routes do not lead into one.',
+        '観光客向けツアーや宿泊施設、飲食店を含め、ファベーラへの立ち入りは避け、GPSの経路が通過しないか確認してください。',
+        'https://www.gov.uk/foreign-travel-advice/brazil/safety-and-security',
+      ],
+      [
+        '혼잡한 곳과 해변에서 휴대전화·귀중품을 드러내지 말고, 밤에는 도심 해변에 가지 마세요.',
+        'Keep phones and valuables out of sight in crowded areas and on beaches; do not go to city beaches at night.',
+        '混雑した場所やビーチでは携帯電話・貴重品を見せず、夜は市街地のビーチに行かないでください。',
+        'https://www.gov.uk/foreign-travel-advice/brazil/safety-and-security',
+      ],
+    ],
+  },
   Egypt: {
     tips: [
       ['이집트 관광지에서 바가지 요금이나 비공식 서비스가 의심되면 현장 관광경찰에 도움을 요청하고, 피해가 생기면 출국 전에 신고하세요.', 'At Egyptian tourist sites, seek help from the tourist police if you suspect overcharging or unofficial services; report any crime before leaving the country.', 'エジプトの観光地で高額請求や非公式サービスが疑われる場合は観光警察に相談し、被害に遭ったら出国前に届け出ましょう。', 'https://www.gov.uk/foreign-travel-advice/egypt/safety-and-security'],

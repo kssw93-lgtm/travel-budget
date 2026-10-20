@@ -43,6 +43,11 @@ describe('정적 페이지 HTML', () => {
     expect(html).toContain('<h1>도쿄</h1>');
     expect(html).not.toContain('<h1>계산기</h1>');
   });
+
+  it('메타 설명 속 통화기호 $를 바꾸거나 지우지 않는다', () => {
+    const html = pageHtml(index, { title: 'New York', description: 'Meal $12.52 · range $212.52–$279.34', path: '/guide/new-york', ld: {}, fallbackHtml: '<h1>New York</h1>' }, 'https://a.com');
+    expect(html).toContain('content="Meal $12.52 · range $212.52–$279.34"');
+  });
 });
 
 describe('AdSense 신청 준비', () => {

@@ -1100,4 +1100,52 @@ export const NOTES_9: Record<string, Compact> = {
       ['시내버스는 신용카드를 단말기에 대면(블리프) 1시간권이 바로 결제됩니다.', 'Tap a bank card on city buses to buy a one-hour ticket.', '市内バスはクレジットカードを端末にかざすと1時間券がすぐに決済されます。'],
     ],
   },
+  'rio-de-janeiro': {
+    h: [
+      [
+        '구세주 그리스도상',
+        'Christ the Redeemer',
+        'コルコバードのキリスト像',
+        '코르코바두 산 정상의 리우 상징물입니다. 공식 열차나 파이네이라스 공식 밴으로 오를 수 있습니다.',
+        'Rio’s landmark atop Corcovado; visitors can take the official train or Paineiras vans.',
+        'コルコバード山頂に立つリオの象徴です。公式列車またはパイネイラスの公式バンで訪問できます。',
+      ],
+      [
+        '슈거로프산 케이블카',
+        'Sugarloaf Cable Car',
+        'ポン・ヂ・アスーカルのロープウェイ',
+        '우르카 언덕과 슈거로프산을 잇는 케이블카에서 보타포구만과 코파카바나 해안이 보입니다.',
+        'The cable car links Urca and Sugarloaf, with views of Botafogo Bay and Copacabana.',
+        'ウルカ山とポン・ヂ・アスーカルを結ぶロープウェイから、ボタフォゴ湾やコパカバーナの海岸を望めます。',
+      ],
+      [
+        '코파카바나 해변',
+        'Copacabana Beach',
+        'コパカバーナ海岸',
+        '물결무늬 포장 산책로와 해변 키오스크가 이어지는 리우의 대표 해안입니다.',
+        'A signature Rio beach lined by its wave-pattern promenade and kiosks.',
+        '波模様の遊歩道とキオスクが続く、リオを代表する海岸です。',
+      ],
+      [
+        '파르키 라지',
+        'Parque Lage',
+        'パルケ・ラージェ',
+        '코르코바두 산기슭의 정원과 숲, 예술학교가 있는 공원입니다. 구세주 그리스도상 트레일은 가파르고 어려워 가이드 동행이 권장됩니다.',
+        'A garden, forest and art school at the foot of Corcovado. The steep, difficult trail to Christ the Redeemer is best done with an experienced guide.',
+        'コルコバード山麓に庭園や森、美術学校がある公園です。キリスト像へ続く急坂の難しいトレイルは、経験のあるガイドとの同行が勧められています。',
+      ],
+    ],
+    t: [
+      [
+        '해변에서 현지식 간식을 맛보고 싶다면 글로보 쿠키와 마테 음료를 함께 즐겨 보세요.',
+        'For a local beach snack, try Globo biscuits with Matte Leão tea.',
+        '海辺で地元の軽食を試すなら、グローボ・ビスケットとマテ茶を一緒にどうぞ。',
+      ],
+      [
+        '구세주 그리스도상에 공식 밴으로 갈 때는 출발 지점을 먼저 고르세요. 왕복 승차는 같은 지점에서 해야 합니다.',
+        'Choose your official van boarding point before visiting Christ the Redeemer; your return trip must use the same point.',
+        '公式バンでキリスト像を訪れる場合は、先に乗車地点を選びましょう。往復とも同じ地点を利用する必要があります。',
+      ],
+    ],
+  },
 };

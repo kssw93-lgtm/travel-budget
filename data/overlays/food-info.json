@@ -5557,5 +5557,38 @@
     "ko": "스코네 지방의 전통 달걀 케이크",
     "en": "Traditional Skåne egg cake",
     "ja": "スコーネ地方の伝統的な卵のケーキ"
+  },
+  "rio-de-janeiro:Feijoada": {
+    "ko": "검은콩과 돼지고기를 함께 끓여 밥과 파로파 등을 곁들여 먹는 브라질식 스튜",
+    "en": "A Brazilian black-bean and pork stew served with rice and farofa",
+    "ja": "黒豆と豚肉を煮込み、ご飯やファロファなどを添えて食べるブラジル料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/FeijoadaBrasileira.jpg/960px-FeijoadaBrasileira.jpg",
+      "author": "Operoxido",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:FeijoadaBrasileira.jpg"
+    }
+  },
+  "rio-de-janeiro:Caipirinha": {
+    "ko": "카샤사에 라임, 설탕, 얼음을 넣어 만드는 브라질 칵테일",
+    "en": "A Brazilian cocktail made with cachaça, lime, sugar and ice",
+    "ja": "カシャッサにライム、砂糖、氷を加えて作るブラジルのカクテル",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Caipirinha_picture.jpg/960px-Caipirinha_picture.jpg",
+      "author": "Ralf Roletschek",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Caipirinha_picture.jpg"
+    }
+  },
+  "rio-de-janeiro:Churrasco Rodízio": {
+    "ko": "구운 고기를 테이블에 차례로 내어 주는 브라질식 슈하스쿠 식사 방식",
+    "en": "A Brazilian barbecue meal served in rotating rounds of grilled meat",
+    "ja": "焼いた肉を順番にテーブルへ運ぶブラジル式シュハスコの食事スタイル",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Brazilian_churrasco.jpg/960px-Brazilian_churrasco.jpg",
+      "author": "Lucas Pescador Barcelos",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Brazilian_churrasco.jpg"
+    }
   }
 }

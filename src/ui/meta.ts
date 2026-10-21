@@ -46,9 +46,19 @@ export function applyMeta(lang: Lang, route: Route, city?: City) {
   setMeta('name', 'description', description);
   setMeta('property', 'og:title', title);
   setMeta('property', 'og:description', description);
+  setMeta('property', 'og:site_name', t.meta.brand);
   setMeta('property', 'og:locale', LOCALES[lang].replace('-', '_'));
   setMeta('name', 'twitter:title', title);
   setMeta('name', 'twitter:description', description);
+  const socialCard = {
+    ko: { image: '/og-image.png', alt: '여행 경비 계산기 — 식비·교통·관광지 입장료' },
+    en: { image: '/og-image-en.png', alt: 'Travel Budget Calculator — meals, transit, and attraction tickets' },
+    ja: { image: '/og-image-ja.png', alt: '旅行費用計算機 — 食事・交通・観光施設の入場料' },
+  }[lang];
+  setMeta('property', 'og:image', new URL(socialCard.image, window.location.origin).href);
+  setMeta('property', 'og:image:alt', socialCard.alt);
+  setMeta('name', 'twitter:image', new URL(socialCard.image, window.location.origin).href);
+  setMeta('name', 'twitter:image:alt', socialCard.alt);
   // canonical 은 빌드 시 SITE_URL 이 있을 때만 존재한다(data-base 에 사이트 주소)
   const canonical = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"][data-base]');
   if (canonical) canonical.href = `${canonical.dataset.base}${routePath(route)}?lang=${lang}`;

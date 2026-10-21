@@ -14,6 +14,12 @@ export const SITE_PAGES: SitePage[] = [
 ];
 
 const LANGS = ['ko', 'en', 'ja'] as const;
+const OG_SITE_NAME = { ko: '여행 경비 계산기', en: 'Travel Budget Calculator', ja: '旅行費用計算機' } as const;
+const OG_CARD = {
+  ko: { file: 'og-image.png', alt: '여행 경비 계산기 — 식비·교통·관광지 입장료' },
+  en: { file: 'og-image-en.png', alt: 'Travel Budget Calculator — meals, transit, and attraction tickets' },
+  ja: { file: 'og-image-ja.png', alt: '旅行費用計算機 — 食事・交通・観光施設の入場料' },
+} as const;
 
 export function normalizeSite(siteUrl: string | undefined): string | undefined {
   const s = siteUrl?.trim().replace(/\/+$/, '');
@@ -87,6 +93,8 @@ export function rssXml(site: string, items: RssItem[], updated: string): string 
 
 export function headTags(site: string, page: SitePage, lang: (typeof LANGS)[number] = 'ko'): string[] {
   const url = (l: string) => `${site}${page.path}?lang=${l}`;
+  const card = OG_CARD[lang];
+  const image = `${site}/${card.file}`;
   return [
     `<link rel="canonical" data-base="${site}" href="${url(lang)}" />`,
     `<link rel="alternate" hreflang="ko" href="${url('ko')}" />`,
@@ -94,10 +102,12 @@ export function headTags(site: string, page: SitePage, lang: (typeof LANGS)[numb
     `<link rel="alternate" hreflang="ja" href="${url('ja')}" />`,
     `<link rel="alternate" hreflang="x-default" href="${url('ko')}" />`,
     `<meta property="og:url" content="${url(lang)}" />`,
-    `<meta property="og:image" content="${site}/og-image.png" />`,
+    `<meta property="og:image" content="${image}" />`,
+    `<meta property="og:image:alt" content="${card.alt}" />`,
     `<meta property="og:image:width" content="1200" />`,
     `<meta property="og:image:height" content="630" />`,
-    `<meta name="twitter:image" content="${site}/og-image.png" />`,
+    `<meta name="twitter:image" content="${image}" />`,
+    `<meta name="twitter:image:alt" content="${card.alt}" />`,
     `<link rel="alternate" type="application/rss+xml" title="여행 경비 가이드" href="${site}/rss.xml" />`,
   ];
 }
@@ -176,16 +186,17 @@ export const escapeHtml = (s: string) =>
 export function pageHtml(indexHtml: string, meta: PageMeta, site: string | undefined): string {
   const t = escapeHtml(meta.title);
   const d = escapeHtml(meta.description);
+  const lang = meta.lang ?? 'ko';
   let html = indexHtml
     .replace(/<title>[^<]*<\/title>/, `<title>${t}</title>`)
     .replace(/(<meta name="description" content=")[^"]*(")/, (_m, before: string, after: string) => `${before}${d}${after}`)
     .replace(/(<meta property="og:title" content=")[^"]*(")/, (_m, before: string, after: string) => `${before}${t}${after}`)
     .replace(/(<meta property="og:description" content=")[^"]*(")/, (_m, before: string, after: string) => `${before}${d}${after}`)
+    .replace(/(<meta property="og:site_name" content=")[^"]*(")/, (_m, before: string, after: string) => `${before}${escapeHtml(OG_SITE_NAME[lang])}${after}`)
     .replace(/(<meta name="twitter:title" content=")[^"]*(")/, (_m, before: string, after: string) => `${before}${t}${after}`)
     .replace(/(<meta name="twitter:description" content=")[^"]*(")/, (_m, before: string, after: string) => `${before}${d}${after}`)
     .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${JSON.stringify(meta.ld).replace(/"item":"\//g, `"item":"${site ?? ''}/`).replace(/</g, '\\u003c')}</script>`);
   html = replaceFallback(html, meta.fallbackHtml);
-  const lang = meta.lang ?? 'ko';
   if (lang !== 'ko') {
     html = html
       .replace(/<html lang="[^"]*"/, `<html lang="${lang}"`)

@@ -22,6 +22,13 @@ describe('배포 보조 파일', () => {
     expect(tags[0]).toBe('<link rel="canonical" data-base="https://example.com" href="https://example.com/privacy?lang=ko" />');
   });
 
+  it('공유 이미지는 언어별 파일을 가리킨다', () => {
+    const page = SITE_PAGES[0]!;
+    expect(headTags('https://example.com', page, 'ko')).toContain('<meta property="og:image" content="https://example.com/og-image.png" />');
+    expect(headTags('https://example.com', page, 'en')).toContain('<meta property="og:image" content="https://example.com/og-image-en.png" />');
+    expect(headTags('https://example.com', page, 'ja')).toContain('<meta name="twitter:image" content="https://example.com/og-image-ja.png" />');
+  });
+
   it('ads.txt 는 게시자 ID 가 있을 때만, 형식이 맞을 때만 만든다', () => {
     expect(adsTxt(undefined)).toBeNull();
     expect(adsTxt('')).toBeNull();
@@ -32,7 +39,7 @@ describe('배포 보조 파일', () => {
 });
 
 describe('정적 페이지 HTML', () => {
-  const index = '<html><head><title>계산기</title><meta name="description" content="x" /><meta property="og:title" content="x" /><script type="application/ld+json">{}</script><link rel="canonical" data-base="https://a.com" href="https://a.com/?lang=ko" /></head><body><div id="root"><div class="fallback"><h1>계산기</h1><noscript>js</noscript></div></div></body></html>';
+  const index = '<html lang="ko"><head><title>계산기</title><meta name="description" content="x" /><meta property="og:title" content="x" /><meta property="og:site_name" content="여행 경비 계산기" /><script type="application/ld+json">{}</script><link rel="canonical" data-base="https://a.com" href="https://a.com/?lang=ko" /></head><body><div id="root"><div class="fallback"><h1>계산기</h1><noscript>js</noscript></div></div></body></html>';
   it('제목·설명·JSON-LD·canonical·본문을 페이지 것으로 바꾸고 스크립트는 둔다', () => {
     const html = pageHtml(index, { title: '도쿄 <가이드>', description: '"설명"', path: '/guide/tokyo', ld: { a: '</script>' }, fallbackHtml: '<h1>도쿄</h1>' }, 'https://a.com');
     expect(html).toContain('<title>도쿄 &lt;가이드&gt;</title>');
@@ -47,6 +54,15 @@ describe('정적 페이지 HTML', () => {
   it('메타 설명 속 통화기호 $를 바꾸거나 지우지 않는다', () => {
     const html = pageHtml(index, { title: 'New York', description: 'Meal $12.52 · range $212.52–$279.34', path: '/guide/new-york', ld: {}, fallbackHtml: '<h1>New York</h1>' }, 'https://a.com');
     expect(html).toContain('content="Meal $12.52 · range $212.52–$279.34"');
+  });
+
+  it('영어·일본어 정적 공유 메타데이터에도 해당 언어 이미지를 넣는다', () => {
+    const en = pageHtml(index, { title: 'Travel Budget', description: 'Estimate local trip costs.', path: '/', lang: 'en', ld: {}, fallbackHtml: '<h1>Travel Budget</h1>' }, 'https://a.com');
+    const ja = pageHtml(index, { title: '旅行費用計算機', description: '現地の旅行費用を計算します。', path: '/', lang: 'ja', ld: {}, fallbackHtml: '<h1>旅行費用計算機</h1>' }, 'https://a.com');
+    expect(en).toContain('<meta property="og:site_name" content="Travel Budget Calculator" />');
+    expect(en).toContain('<meta property="og:image" content="https://a.com/og-image-en.png" />');
+    expect(ja).toContain('<meta property="og:site_name" content="旅行費用計算機" />');
+    expect(ja).toContain('<meta property="og:image" content="https://a.com/og-image-ja.png" />');
   });
 });
 

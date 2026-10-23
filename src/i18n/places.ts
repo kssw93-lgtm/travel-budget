@@ -21,7 +21,7 @@ export const CITY_JA: Record<string, string> = {
   venice: 'ヴェネツィア', madrid: 'マドリード', nice: 'ニース', 'san-francisco': 'サンフランシスコ', almaty: 'アルマトイ', tashkent: 'タシケント',
   tbilisi: 'トビリシ', cancun: 'カンクン', 'rio-de-janeiro': 'リオデジャネイロ',
   copenhagen: 'コペンハーゲン', stockholm: 'ストックホルム', helsinki: 'ヘルシンキ', krakow: 'クラクフ', dublin: 'ダブリン', brussels: 'ブリュッセル', cairo: 'カイロ', reykjavik: 'レイキャビク',
-  dresden: 'ドレスデン', nuremberg: 'ニュルンベルク', cologne: 'ケルン', strasbourg: 'ストラスブール', colmar: 'コルマール', salzburg: 'ザルツブルク', zagreb: 'ザグレブ', rovaniemi: 'ロヴァニエミ', tallinn: 'タリン', edinburgh: 'エディンバラ', frankfurt: 'フランクフルト', berlin: 'ベルリン', zurich: 'チューリッヒ', basel: 'バーゼル', riga: 'リガ', gdansk: 'グダニスク', bruges: 'ブルージュ',
+  dresden: 'ドレスデン', nuremberg: 'ニュルンベルク', cologne: 'ケルン', strasbourg: 'ストラスブール', colmar: 'コルマール', salzburg: 'ザルツブルク', zagreb: 'ザグレブ', rovaniemi: 'ロヴァニエミ', tallinn: 'タリン', edinburgh: 'エディンバラ', frankfurt: 'フランクフルト', berlin: 'ベルリン', zurich: 'チューリッヒ', basel: 'バーゼル', riga: 'リガ', gdansk: 'グダニスク', bruges: 'ブルージュ', oslo: 'オスロ', 'cape-town': 'ケープタウン', marrakech: 'マラケシュ',
 };
 
 /** 영문 나라 이름 → 일본어 */
@@ -32,5 +32,5 @@ export const COUNTRY_JA: Record<string, string> = {
   Türkiye: 'トルコ', China: '中国', 'South Korea': '韓国', Philippines: 'フィリピン',
   Australia: 'オーストラリア', Czechia: 'チェコ', Guam: 'グアム',
   Macau: 'マカオ', Hawaii: 'ハワイ', Saipan: 'サイパン', Mongolia: 'モンゴル', Austria: 'オーストリア', Hungary: 'ハンガリー',
-  Germany: 'ドイツ', Switzerland: 'スイス', Portugal: 'ポルトガル', Cambodia: 'カンボジア', Laos: 'ラオス', Canada: 'カナダ', 'New Zealand': 'ニュージーランド', Netherlands: 'オランダ', Greece: 'ギリシャ', Croatia: 'クロアチア', Kazakhstan: 'カザフスタン', Uzbekistan: 'ウズベキスタン', Georgia: 'ジョージア', Mexico: 'メキシコ', Brazil: 'ブラジル', Denmark: 'デンマーク', Sweden: 'スウェーデン', Finland: 'フィンランド', Poland: 'ポーランド', Ireland: 'アイルランド', Belgium: 'ベルギー', Egypt: 'エジプト', Iceland: 'アイスランド', Estonia: 'エストニア', Latvia: 'ラトビア',
+  Germany: 'ドイツ', Switzerland: 'スイス', Portugal: 'ポルトガル', Cambodia: 'カンボジア', Laos: 'ラオス', Canada: 'カナダ', 'New Zealand': 'ニュージーランド', Netherlands: 'オランダ', Greece: 'ギリシャ', Croatia: 'クロアチア', Kazakhstan: 'カザフスタン', Uzbekistan: 'ウズベキスタン', Georgia: 'ジョージア', Mexico: 'メキシコ', Brazil: 'ブラジル', Denmark: 'デンマーク', Sweden: 'スウェーデン', Finland: 'フィンランド', Poland: 'ポーランド', Ireland: 'アイルランド', Belgium: 'ベルギー', Egypt: 'エジプト', Iceland: 'アイスランド', Estonia: 'エストニア', Latvia: 'ラトビア', Norway: 'ノルウェー', 'South Africa': '南アフリカ', Morocco: 'モロッコ',
 };

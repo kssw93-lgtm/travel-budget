@@ -501,4 +501,13 @@ export const WHEN_SOURCES: Record<string, string> = {
   'malmo:x': 'https://www.malmofestivalen.se/fragor-svar',
   'rio-de-janeiro:p1': 'https://www.turismo.rj.gov.br/cidades/rio-de-janeiro/',
   'rio-de-janeiro:x': 'https://www.gov.uk/foreign-travel-advice/brazil/safety-and-security',
+  'oslo:p1': 'https://www.visitoslo.com/your-oslo/a-guide-to-oslos-seasons',
+  'oslo:p2': 'https://www.visitoslo.com/your-oslo/a-guide-to-oslos-seasons',
+  'oslo:x': 'https://www.visitoslo.com/your-oslo/a-guide-to-oslos-seasons',
+  'cape-town:p1': 'https://www.capetown.travel/the-best-time-of-year-to-visit-cape-town/',
+  'cape-town:p2': 'https://www.capetown.travel/the-best-time-of-year-to-visit-cape-town/',
+  'cape-town:x': 'https://www.gov.uk/foreign-travel-advice/south-africa/safety-and-security',
+  'marrakech:p1': 'https://www.visitmorocco.com/en/travel-info/climate-and-seasons',
+  'marrakech:p2': 'https://www.visitmorocco.com/en/travel-info/climate-and-seasons',
+  'marrakech:x': 'https://www.visitmorocco.com/en/travel-info/climate-and-seasons',
 };

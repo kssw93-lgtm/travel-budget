@@ -1,314 +1,589 @@
-/** ë‚˜ë¼ë³„ ì•Œì•„ë‘˜ ê²ƒÂ·ì¡°ì‹¬í•  ê²ƒ 2 â€” í˜•ì‹ì€ country-guides-1.ts ì™€ ê°™ë‹¤ */
-import type { CountryNote } from './country-guides-1';
-
-export const COUNTRY_2: Record<string, CountryNote> = {
-  Canada: {
-    tips: [
-      ['ìºë‚˜ë‹¤ì—ì„œëŠ” íŒë§¤ì„¸ê°€ í‘œì‹œ ê°€ê²©ì— í¬í•¨ë˜ê±°ë‚˜ ê³„ì‚° ë•Œ ë”°ë¡œ ë”í•´ì§ˆ ìˆ˜ ìˆìœ¼ë‹ˆ ì˜ìˆ˜ì¦ì„ í™•ì¸í•˜ì„¸ìš”.', 'Sales tax may be included in the displayed price or added separately; check your receipt.', 'ã‚«ãƒŠãƒ€ã§ã¯å£²ä¸Šç¨ãŒè¡¨ç¤ºä¾¡æ ¼ã«å«ã¾ã‚Œã‚‹å ´åˆã¨åˆ¥é€”åŠ ç®—ã•ã‚Œã‚‹å ´åˆãŒã‚ã‚‹ãŸã‚ã€ãƒ¬ã‚·ãƒ¼ãƒˆã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4022/general-information-gst-hst-registrants.html'],
-      ['ëŒ€ë¶€ë¶„ì˜ ìƒì Â·ëŒ€ì¤‘êµí†µì—ì„œ ë¹„ì ‘ì´‰ ì¹´ë“œ ê²°ì œê°€ ë©ë‹ˆë‹¤.', 'Contactless card payment works in most shops and on public transit.', 'ã»ã¨ã‚“ã©ã®åº—ã‚„å…¬å…±äº¤é€šã§ã‚¿ãƒƒãƒæ±ºæ¸ˆãŒä½¿ãˆã¾ã™ã€‚', 'https://www.timescolonist.com/bc-news/transit-in-metro-vancouver-accepting-credit-card-tap-payments-4662339'],
-    ],
-    cautions: [
-      ['êµ­ë¦½ê³µì›ì´ë‚˜ ì‚°ê¸¸ì—ì„œëŠ” ê³° ê°™ì€ ì•¼ìƒë™ë¬¼ì„ ë§Œë‚  ìˆ˜ ìˆìœ¼ë‹ˆ ì•ˆë‚´íŒ ê·œì¹™ì„ ì§€í‚¤ê³  ìŒì‹ì„ ë°–ì— ë‘ì§€ ë§ˆì„¸ìš”.', 'In parks and on trails you may meet bears and other wildlife; follow posted rules and never leave food out.', 'å›½ç«‹å…¬åœ’ã‚„å±±é“ã§ã¯ã‚¯ãƒãªã©ã®é‡ç”Ÿå‹•ç‰©ã«å‡ºä¼šã†ã“ã¨ãŒã‚ã‚Šã¾ã™ã€‚æ²ç¤ºã®ãƒ«ãƒ¼ãƒ«ã‚’å®ˆã‚Šã€é£Ÿã¹ç‰©ã‚’å¤–ã«ç½®ã‹ãªã„ã‚ˆã†ã«ã€‚', 'https://www.parks.canada.ca/voyage-travel/conseils-tips/faune-wildlife'],
-      ['ìºë‚˜ë‹¤ ë„ì‹œì—ì„œëŠ” ê°€ë°©ì„ ë°©ì¹˜í•˜ì§€ ë§ê³  ê·€ì¤‘í’ˆê³¼ ì—¬ê¶Œì„ ì•ˆì „í•œ ê³³ì— ë³´ê´€í•˜ì„¸ìš”.', 'In Canadian cities, do not leave bags unattended and keep valuables and your passport secure.', 'ã‚«ãƒŠãƒ€ã®éƒ½å¸‚éƒ¨ã§ã¯ãƒãƒƒã‚°ã‚’æ”¾ç½®ã›ãšã€è²´é‡å“ã‚„ãƒ‘ã‚¹ãƒãƒ¼ãƒˆã‚’å®‰å…¨ãªå ´æ‰€ã«ä¿ç®¡ã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.gov.uk/foreign-travel-advice/canada/safety-and-security'],
-    ],
-  },
-  'New Zealand': {
-    tips: [
-      ['ë‰´ì§ˆëœë“œì—ì„œëŠ” íë¦° ë‚ ì—ë„ ìì™¸ì„ ì— ë…¸ì¶œë  ìˆ˜ ìˆìœ¼ë‹ˆ ìì™¸ì„  ì§€ìˆ˜ë¥¼ í™•ì¸í•˜ê³  ëª¨ìÂ·ì„ í¬ë¦¼ì„ ì±™ê¸°ì„¸ìš”.', 'In New Zealand, UV exposure is possible on cloudy days. Check the UV index and bring a hat and sunscreen.', 'ãƒ‹ãƒ¥ãƒ¼ã‚¸ãƒ¼ãƒ©ãƒ³ãƒ‰ã§ã¯æ›‡ã‚Šã®æ—¥ã‚‚ç´«å¤–ç·šã‚’æµ´ã³ã‚‹ãŸã‚ã€UVæŒ‡æ•°ã‚’ç¢ºèªã—ã€å¸½å­ã¨æ—¥ç„¼ã‘æ­¢ã‚ã‚’ç”¨æ„ã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.sunsmart.org.nz/sunsmart-facts/uv-radiation/'],
-      ['ì°¨ëŠ” ì™¼ìª½ìœ¼ë¡œ ë‹¤ë‹ˆë¯€ë¡œ ê¸¸ì„ ê±´ë„ ë•Œ ì˜¤ë¥¸ìª½ì„ ë¨¼ì € ë³´ì„¸ìš”.', 'Traffic drives on the left, so look right first when crossing.', 'è»Šã¯å·¦å´é€šè¡Œãªã®ã§ã€é“ã‚’æ¸¡ã‚‹ã¨ãã¯ã¾ãšå³ã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.nzta.govt.nz/resources/roadcode/about-driving/keeping-left/'],
-    ],
-    cautions: [
-      ['ë‰´ì§ˆëœë“œì˜ ì‚°ê¸¸ ë‚ ì”¨ëŠ” ë¹ ë¥´ê²Œ ë°”ë€” ìˆ˜ ìˆìŠµë‹ˆë‹¤. íŠ¸ë ˆí‚¹ ì „ì— ì˜ˆë³´ë¥¼ í™•ì¸í•˜ê³  ë°©ìˆ˜ ì˜·ì„ ì±™ê¸°ì„¸ìš”.', 'Weather on New Zealand mountain trails can change quickly. Check the forecast before hiking and carry waterproof clothing.', 'ãƒ‹ãƒ¥ãƒ¼ã‚¸ãƒ¼ãƒ©ãƒ³ãƒ‰ã®å±±é“ã§ã¯å¤©æ°—ãŒæ€¥å¤‰ã™ã‚‹ã“ã¨ãŒã‚ã‚Šã¾ã™ã€‚ãƒˆãƒ¬ãƒƒã‚­ãƒ³ã‚°å‰ã«äºˆå ±ã‚’ç¢ºèªã—ã€é˜²æ°´ã®æœã‚’æŒã¡ã¾ã—ã‚‡ã†ã€‚', 'https://www.doc.govt.nz/parks-and-recreation/places-to-go/wellington-kapiti/places/tararua-forest-park/things-to-do/tracks/kiriwhakapapa-to-blue-range-hut/'],
-    ],
-  },
-  China: {
-    tips: [
-      ['í˜„ì§€ ê²°ì œëŠ” ì•Œë¦¬í˜ì´Â·ìœ„ì±—í˜ì´ê°€ ê¸°ë³¸ì´ë¼ ì¶œêµ­ ì „ì— í•´ì™¸ ì¹´ë“œë¥¼ ì—°ê²°í•´ ë‘ë©´ í¸í•©ë‹ˆë‹¤. í˜„ê¸ˆë„ ì¡°ê¸ˆ ì±™ê¸°ì„¸ìš”.', 'Payment runs on Alipay and WeChat Pay; link a foreign card before you fly and carry some cash too.', 'æ”¯æ‰•ã„ã¯ã‚¢ãƒªãƒšã‚¤ãƒ»WeChat PayãŒåŸºæœ¬ãªã®ã§ã€å‡ºç™ºå‰ã«æµ·å¤–ã‚«ãƒ¼ãƒ‰ã‚’ç™»éŒ²ã—ã¦ãŠãã¨ä¾¿åˆ©ã§ã™ã€‚ç¾é‡‘ã‚‚å°‘ã—ç”¨æ„ã‚’ã€‚', 'https://english.www.gov.cn/news/202404/11/content_WS6617c858c6d0868f4e8e5f4d.html'],
-      ['Google ë“± ì¼ë¶€ í•´ì™¸ ì„œë¹„ìŠ¤ëŠ” ì¤‘êµ­ ë³¸í† ì—ì„œ ì´ìš©í•  ìˆ˜ ì—†ì„ ìˆ˜ ìˆìœ¼ë¯€ë¡œ ì§€ë„ì™€ ì—°ë½ ìˆ˜ë‹¨ì„ ë¯¸ë¦¬ ì¤€ë¹„í•˜ì„¸ìš”.', 'Some overseas services, including Google services, may be unavailable in mainland China; prepare maps and communication options in advance.', 'Googleãªã©ã®ä¸€éƒ¨æµ·å¤–ã‚µãƒ¼ãƒ“ã‚¹ã¯ä¸­å›½æœ¬åœŸã§åˆ©ç”¨ã§ããªã„ã“ã¨ãŒã‚ã‚Šã¾ã™ã€‚åœ°å›³ã‚„é€£çµ¡æ‰‹æ®µã‚’äº‹å‰ã«æº–å‚™ã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.gov.uk/foreign-travel-advice/china/safety-and-security'],
-    ],
-    cautions: [
-      ['ì§€í•˜ì² ê³¼ ì¼ë¶€ ê´€ê´‘ì§€ì—ì„œëŠ” ë³´ì•ˆ ê²€ìƒ‰ì„ í•  ìˆ˜ ìˆìœ¼ë‹ˆ í˜„ì¥ ì•ˆë‚´ë¥¼ ë”°ë¥´ê³  ì´ë™ ì‹œê°„ì„ ì—¬ìœ  ìˆê²Œ ì¡ìœ¼ì„¸ìš”.', 'Security screening may take place at metro stations and some attractions; follow instructions and allow extra time.', 'åœ°ä¸‹é‰„é§…ã‚„ä¸€éƒ¨ã®è¦³å…‰æ–½è¨­ã§ã¯ä¿å®‰æ¤œæŸ»ãŒè¡Œã‚ã‚Œã‚‹ã“ã¨ãŒã‚ã‚Šã¾ã™ã€‚æ¡ˆå†…ã«å¾“ã„ã€ç§»å‹•æ™‚é–“ã«ä½™è£•ã‚’æŒã¡ã¾ã—ã‚‡ã†ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/189/detail'],
-      ['ê´€ê´‘ì§€ ì£¼ë³€ì—ì„œ ë¨¼ì € ë§ì„ ê±¸ë©° ì°»ì§‘ì´ë‚˜ ë¯¸ìˆ  ì „ì‹œë¡œ ë°ë ¤ê°€ëŠ” ì‚¬ëŒì€ ë°”ê°€ì§€ ìˆ˜ë²•ì¼ ìˆ˜ ìˆìŠµë‹ˆë‹¤.', 'Friendly strangers near sights inviting you to a tea house or art show may be running a rip-off.', 'è¦³å…‰åœ°ã§è©±ã—ã‹ã‘ã¦èŒ¶é¤¨ã‚„ç¾è¡“å±•ã¸èª˜ã†äººã¯ã€ã¼ã£ãŸãã‚Šã®æ‰‹å£ã®ã“ã¨ãŒã‚ã‚Šã¾ã™ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/189/detail'],
-    ],
-  },
-  Netherlands: {
-    tips: [
-      ['ë„¤ëœë€ë“œ ëŒ€ì¤‘êµí†µì—ì„œ ë¹„ì ‘ì´‰ ì¹´ë“œë¡œ ìŠ¹ì°¨í–ˆë‹¤ë©´ ë‚´ë¦´ ë•Œë„ ê°™ì€ ì¹´ë“œë¡œ íƒœê·¸í•˜ì„¸ìš”. íœ´ëŒ€ì „í™”ì™€ ì‹¤ë¬¼ ì¹´ë“œëŠ” ì„œë¡œ ë‹¤ë¥¸ ì¹´ë“œë¡œ ì¸ì‹ë  ìˆ˜ ìˆìŠµë‹ˆë‹¤.', 'When using contactless payment on Dutch public transport, check out with the same card used to check in. A phone and its physical card may be treated as different cards.', 'ã‚ªãƒ©ãƒ³ãƒ€ã®å…¬å…±äº¤é€šã§ã‚¿ãƒƒãƒæ±ºæ¸ˆã‚«ãƒ¼ãƒ‰ã‚’ä½¿ã†å ´åˆã€ä¹—è»Šæ™‚ã¨é™è»Šæ™‚ã«åŒã˜ã‚«ãƒ¼ãƒ‰ã‚’ä½¿ã„ã¾ã—ã‚‡ã†ã€‚ã‚¹ãƒãƒ¼ãƒˆãƒ•ã‚©ãƒ³ã¨å®Ÿç‰©ã®ã‚«ãƒ¼ãƒ‰ã¯åˆ¥ã®ã‚«ãƒ¼ãƒ‰ã¨ã—ã¦æ‰±ã‚ã‚Œã‚‹ã“ã¨ãŒã‚ã‚Šã¾ã™ã€‚', 'https://www.ns.nl/en/service-and-contact/your-card/faq-about-travelling-with-debit-card'],
-      ['ë„¤ëœë€ë“œì—ì„œëŠ” ëŒ€ë¶€ë¶„ì˜ ì†Œë§¤ì ì´ í˜„ê¸ˆì„ ë°›ì§€ë§Œ ì¼ë¶€ëŠ” ì¹´ë“œ ì „ìš©ì…ë‹ˆë‹¤. ì…êµ¬ì˜ ê²°ì œ ì•ˆë‚´ë¥¼ í™•ì¸í•˜ì„¸ìš”.', 'Most Dutch retailers accept cash, but some are card-only; check the payment notice at the entrance.', 'ã‚ªãƒ©ãƒ³ãƒ€ã§ã¯å¤šãã®å°å£²åº—ã§ç¾é‡‘ãŒä½¿ãˆã¾ã™ãŒã€ã‚«ãƒ¼ãƒ‰å°‚ç”¨ã®åº—ã‚‚ã‚ã‚Šã¾ã™ã€‚å…¥å£ã®æ”¯æ‰•ã„æ¡ˆå†…ã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.dnb.nl/en/general-news/news-2026/cash-acceptance-in-the-netherlands-remains-stable/'],
-    ],
-    cautions: [
-      ['ìì „ê±° ë„ë¡œë¥¼ ê±·ê±°ë‚˜ í™•ì¸ ì—†ì´ ê°€ë¡œì§€ë¥´ì§€ ë§ˆì„¸ìš”. ìì „ê±° í†µí–‰ì„ ë°©í•´í•´ ì¶©ëŒí•  ìˆ˜ ìˆìŠµë‹ˆë‹¤.', 'Do not walk along cycle lanes or step across them without checking; this can obstruct cyclists and cause collisions.', 'è‡ªè»¢è»Šé“ã‚’æ­©ã„ãŸã‚Šã€æ¨ªåˆ‡ã‚‹å‰ã«ç¢ºèªã›ãšã«é€²ã‚“ã ã‚Šã—ãªã„ã§ãã ã•ã„ã€‚è‡ªè»¢è»Šã®é€šè¡Œã‚’å¦¨ã’ã‚‹ãŠãã‚ŒãŒã‚ã‚Šã¾ã™ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/21/detail'],
-      ['ê´€ê´‘ê°ì´ ë§ì€ ì—­ê³¼ íŠ¸ë¨ ì•ˆì—ì„œëŠ” ì†Œë§¤ì¹˜ê¸°ê°€ ì¦ìœ¼ë‹ˆ ê°€ë°©ì„ ì•ìœ¼ë¡œ ë©”ì„¸ìš”.', 'Pickpockets work busy stations and trams; wear your bag in front.', 'è¦³å…‰å®¢ã®å¤šã„é§…ã‚„ãƒˆãƒ©ãƒ ã§ã¯ã‚¹ãƒªãŒå¤šã„ã®ã§ã€ãƒãƒƒã‚°ã¯å‰ã«æŒã¡ã¾ã—ã‚‡ã†ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/21/detail'],
-    ],
-  },
-  Greece: {
-    tips: [
-      ['ì—¬ë¦„ ë”ìœ„ì— ëŒ€ë¹„í•´ ê³µì‹ í­ì—¼ ì •ë³´ë¥¼ í™•ì¸í•˜ê³ , ì•¼ì™¸ ìœ ì  ê´€ëŒì€ ë”ìš´ ì‹œê°„ì„ í”¼í•´ ê³„íší•˜ì„¸ìš”.', 'During summer, check official heat alerts and plan outdoor archaeological visits to avoid the hottest periods.', 'å¤ã®æš‘ã•ã«å‚™ãˆã€æ°—æ¸©ã‚„ç†±æ³¢ã«é–¢ã™ã‚‹å…¬å¼æƒ…å ±ã‚’ç¢ºèªã—ã€å±‹å¤–ã®éºè·¡è¦³å…‰ã¯æš‘ã•ã‚’é¿ã‘ã¦è¨ˆç”»ã—ã¾ã—ã‚‡ã†ã€‚', 'https://civilprotection.gov.gr/en/odigies-prostasias/kaysonas?lang=en'],
-      ['ê·¸ë¦¬ìŠ¤ ì‹ë‹¹ì—ì„œëŠ” ë¹µÂ·ìƒìˆ˜ë¥¼ ë™ì˜ ì—†ì´ ì œê³µí•˜ê³  ì²­êµ¬í•˜ê±°ë‚˜ ì‹ê¸°Â·ìˆ˜ì € ì‚¬ìš©ë£Œë¥¼ ë°›ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤. ì£¼ë¬¸ ë‚´ìš©ê³¼ ê³„ì‚°ì„œë¥¼ í™•ì¸í•˜ì„¸ìš”.', 'Greek restaurants may not charge for bread or bottled water without your consent, or add a cover charge for tableware. Check your order and bill.', 'ã‚®ãƒªã‚·ãƒ£ã®é£²é£Ÿåº—ã§ã¯ã€åŒæ„ãªããƒ‘ãƒ³ã‚„ãƒœãƒˆãƒ«æ°´ã‚’æä¾›ã—ã¦è«‹æ±‚ã—ãŸã‚Šã€é£Ÿå™¨é¡ã®å¸­æ–™ã‚’å–ã£ãŸã‚Šã§ãã¾ã›ã‚“ã€‚æ³¨æ–‡å†…å®¹ã¨ä¼šè¨ˆã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://gge.mindev.gov.gr/tomeas-emporiou/kanones-dieppy/'],
-    ],
-    cautions: [
-      ['ì•„í…Œë„¤ ì§€í•˜ì² , íŠ¹íˆ ê³µí•­Â·ê´€ê´‘ì§€ ë…¸ì„ ì—ì„œëŠ” ì†Œë§¤ì¹˜ê¸°ë¥¼ ì¡°ì‹¬í•˜ì„¸ìš”.', 'Watch for pickpockets on the Athens metro, especially the airport and tourist lines.', 'ã‚¢ãƒ†ãƒã®åœ°ä¸‹é‰„ã€ç‰¹ã«ç©ºæ¸¯ã‚„è¦³å…‰åœ°ã®è·¯ç·šã§ã¯ã‚¹ãƒªã«æ³¨æ„ã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/11/detail'],
-      ['ìœ ì ì§€ì˜ ëŒ€ë¦¬ì„ ê¸¸ì€ ë§¤ìš° ë¯¸ë„ëŸ¬ìš°ë‹ˆ ë°‘ì°½ì´ ë‹¨ë‹¨í•œ ì‹ ë°œì„ ì‹ ìœ¼ì„¸ìš”.', 'Marble paths at ancient sites are very slippery; wear shoes with good grip.', 'éºè·¡ã®å¤§ç†çŸ³ã®é“ã¯ã¨ã¦ã‚‚æ»‘ã‚Šã‚„ã™ã„ã®ã§ã€æ»‘ã‚Šã«ãã„é´ã‚’å±¥ãã¾ã—ã‚‡ã†ã€‚', 'https://sofiaadventures.com/mistakes-visiting-the-acropolis/'],
-    ],
-  },
-  Croatia: {
-    tips: [
-      ['ë‘ë¸Œë¡œë¸Œë‹ˆí¬ êµ¬ì‹œê°€ì§€ëŠ” í¬ë£¨ì¦ˆì„  ì…í•­ ë•Œ ë¶ë¹Œ ìˆ˜ ìˆìŠµë‹ˆë‹¤. ì‹œ ë‹¹êµ­ì˜ ë°©ë¬¸ê°Â·ì…í•­ ì•ˆë‚´ë¥¼ í™•ì¸í•˜ê³  ë°©ë¬¸ ì‹œê°„ì„ ì¡ìœ¼ì„¸ìš”.', 'Dubrovnik Old Town can be crowded when cruise ships arrive. Check the cityâ€™s visitor and ship-arrival information when planning your visit.', 'ãƒ‰ã‚¥ãƒ–ãƒ­ãƒ´ãƒ‹ã‚¯æ—§å¸‚è¡—ã¯ã‚¯ãƒ«ãƒ¼ã‚ºèˆ¹ã®å…¥æ¸¯æ™‚ã«æ··é›‘ã™ã‚‹ã“ã¨ãŒã‚ã‚Šã¾ã™ã€‚å¸‚ã®è¨ªå•è€…ãƒ»å…¥æ¸¯æ¡ˆå†…ã‚’ç¢ºèªã—ã¦è¨ªå•æ™‚é–“ã‚’æ±ºã‚ã¾ã—ã‚‡ã†ã€‚', 'https://www.dubrovnik.hr/vijesti/obavijest-izmjena-plana-dolaska-kruzera-15-listopada%3A-tri-broda-na-vezu-u-luci-gruz-21072'],
-      ['ë‘ë¸Œë¡œë¸Œë‹ˆí¬ ì£¼ë³€ì—ëŠ” ìê°ˆ í•´ë³€ë„ ìˆìœ¼ë‹ˆ í•´ë³€ ë°”ë‹¥ì„ í™•ì¸í•˜ê³  í•„ìš”í•˜ë©´ ë¬¼ë†€ì´ ì‹ ë°œì„ ì±™ê¸°ì„¸ìš”.', 'Some beaches around Dubrovnik are pebbly. Check the beach surface and bring water shoes if useful.', 'ãƒ‰ã‚¥ãƒ–ãƒ­ãƒ´ãƒ‹ã‚¯å‘¨è¾ºã«ã¯å°çŸ³ã®æµœã‚‚ã‚ã‚Šã¾ã™ã€‚æµœã®çŠ¶æ…‹ã‚’ç¢ºèªã—ã€å¿…è¦ãªã‚‰ãƒãƒªãƒ³ã‚·ãƒ¥ãƒ¼ã‚ºã‚’ç”¨æ„ã—ã¾ã—ã‚‡ã†ã€‚', 'https://visitdubrovnik.hr/wp-content/uploads/2023/10/brosura-en-web.pdf'],
-    ],
-    cautions: [
-      ['ë‘ë¸Œë¡œë¸Œë‹ˆí¬ êµ¬ì‹œê°€ì§€ ë“± ê´€ê´‘ê°ì´ ë§ì€ ê³³ì—ì„œëŠ” ì†Œë§¤ì¹˜ê¸°ì— ëŒ€ë¹„í•´ ê·€ì¤‘í’ˆì„ ì˜ ì±™ê¸°ì„¸ìš”.', 'In busy tourist areas such as Dubrovnik Old Town, secure valuables against pickpockets.', 'ãƒ‰ã‚¥ãƒ–ãƒ­ãƒ´ãƒ‹ã‚¯æ—§å¸‚è¡—ãªã©è¦³å…‰å®¢ã®å¤šã„å ´æ‰€ã§ã¯ã€ã‚¹ãƒªã«å‚™ãˆã¦è²´é‡å“ã‚’ç®¡ç†ã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.gov.uk/foreign-travel-advice/croatia/safety-and-security'],
-      ['ë‘ë¸Œë¡œë¸Œë‹ˆí¬ êµ¬ì‹œê°€ì§€ì—ì„œëŠ” ìˆ˜ì˜ë³µ ì°¨ë¦¼ì´ë‚˜ ìƒì˜ë¥¼ ë²—ê³  ê±¸ìœ¼ë©´ ë²Œê¸ˆì„ ë¬¼ë¦´ ìˆ˜ ìˆìŠµë‹ˆë‹¤.', 'In Dubrovnikâ€™s Old Town, walking in swimwear or without a shirt can result in a fine.', 'ãƒ‰ã‚¥ãƒ–ãƒ­ãƒ´ãƒ‹ã‚¯æ—§å¸‚è¡—ã§ã¯ã€æ°´ç€å§¿ã‚„ä¸ŠåŠèº«è£¸ã§æ­©ãã¨ç½°é‡‘ã‚’ç§‘ã•ã‚Œã‚‹ã“ã¨ãŒã‚ã‚Šã¾ã™ã€‚', 'https://www.dubrovnik.hr/vijesti/nedolicno-odjeveni-posjetitelji-novcano-kaznjeni-15940'],
-    ],
-  },
-  'United States': {
-    tips: [
-      ['ë¯¸êµ­ì—ì„œëŠ” ì§€ì—­ê³¼ ìƒí’ˆì— ë”°ë¼ í‘œì‹œ ê°€ê²©ì— íŒë§¤ì„¸ê°€ ë”í•´ì§ˆ ìˆ˜ ìˆìŠµë‹ˆë‹¤. ì‹ë‹¹ì˜ ì¶”ê°€ ìš”ê¸ˆì€ ì£¼ë¬¸ ì „ì— ë©”ë‰´ì—ì„œ í™•ì¸í•˜ì„¸ìš”.', 'In the US, sales tax may be added to the displayed price depending on the place and product. Check a restaurant menu for extra charges before ordering.', 'ç±³å›½ã§ã¯åœ°åŸŸã‚„å•†å“ã«ã‚ˆã£ã¦è¡¨ç¤ºä¾¡æ ¼ã«å£²ä¸Šç¨ãŒåŠ ã‚ã‚‹ã“ã¨ãŒã‚ã‚Šã¾ã™ã€‚é£²é£Ÿåº—ã®è¿½åŠ æ–™é‡‘ã¯æ³¨æ–‡å‰ã«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã§ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://oag.ca.gov/hiddenfees'],
-      ['LAì—ì„œëŠ” ëŒ€ì¤‘êµí†µê³¼ ì°¨ëŸ‰ í˜¸ì¶œì„ ëª¨ë‘ ì´ìš©í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤. ëª…ì†Œ ê°„ ì´ë™ ì „ì— ë©”íŠ¸ë¡œ ë…¸ì„ ê³¼ ì°¨ëŸ‰ í˜¸ì¶œ ìŠ¹ì°¨ ìœ„ì¹˜ë¥¼ í™•ì¸í•˜ì„¸ìš”.', 'In LA, both public transit and ride-hailing are available. Check Metro routes and ride-hail pickup points before moving between sights.', 'ãƒ­ã‚µãƒ³ã‚¼ãƒ«ã‚¹ã§ã¯å…¬å…±äº¤é€šã¨é…è»Šã‚µãƒ¼ãƒ“ã‚¹ã®ä¸¡æ–¹ã‚’åˆ©ç”¨ã§ãã¾ã™ã€‚åæ‰€é–“ã®ç§»å‹•å‰ã«åœ°ä¸‹é‰„è·¯ç·šã¨é…è»Šã®ä¹—è»Šå ´æ‰€ã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.discoverlosangeles.com/travel/smart-travel-tips-information'],
-    ],
-    cautions: [
-      ['ì°¨ ì•ˆì— ê°€ë°©Â·ë¬¼ê±´ì„ ë³´ì´ê²Œ ë‘ë©´ ì°¨ëŸ‰ í„¸ì´ê°€ ì¦ìœ¼ë‹ˆ ì•„ë¬´ê²ƒë„ ë‚¨ê¸°ì§€ ë§ˆì„¸ìš”.', 'Car break-ins are common; never leave bags or anything visible in a parked car.', 'è»Šä¸Šè’ã‚‰ã—ãŒå¤šã„ã®ã§ã€é§è»Šã—ãŸè»Šå†…ã«è·ç‰©ã‚’è¦‹ãˆã‚‹çŠ¶æ…‹ã§ç½®ã‹ãªã„ã‚ˆã†ã«ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/69/detail'],
-      ['ë¯¸êµ­ì˜ ë‚¯ì„  ì§€ì—­ì—ì„œëŠ” íŠ¹íˆ ë°¤ì— í•œì í•œ ê³³ì„ í˜¼ì ê±·ì§€ ë§ˆì„¸ìš”.', 'In unfamiliar parts of the US, avoid walking alone through quiet areas, especially at night.', 'ç±³å›½ã®ä¸æ…£ã‚Œãªåœ°åŸŸã§ã¯ã€ç‰¹ã«å¤œé–“ã«äººé€šã‚Šã®å°‘ãªã„å ´æ‰€ã‚’ä¸€äººã§æ­©ã‹ãªã„ã‚ˆã†ã«ã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.gov.uk/foreign-travel-advice/usa/safety-and-security'],
-    ],
-  },
-  Malaysia: {
-    tips: [
-      ['ë§ë ˆì´ì‹œì•„ì—ì„œ Grab ì°¨ëŸ‰ í˜¸ì¶œ ì„œë¹„ìŠ¤ë¥¼ ì´ìš©í•  ìˆ˜ ìˆì§€ë§Œ, ìŠ¹ì°¨ ìœ„ì¹˜ì™€ ì°¨ëŸ‰ ì •ë³´ë¥¼ ì•±ì—ì„œ í™•ì¸í•˜ì„¸ìš”.', 'Grab ride-hailing is available in Malaysia; confirm the pickup point and vehicle details in the app.', 'ãƒãƒ¬ãƒ¼ã‚·ã‚¢ã§ã¯Grabã®é…è»Šã‚µãƒ¼ãƒ“ã‚¹ã‚’åˆ©ç”¨ã§ãã¾ã™ã€‚ã‚¢ãƒ—ãƒªã§ä¹—è»Šå ´æ‰€ã¨è»Šä¸¡æƒ…å ±ã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.grab.com/my/transport/'],
-      ['ì´ìŠ¬ëŒ ì‚¬ì›ì— ë°©ë¬¸í•  ë•ŒëŠ” ì–´ê¹¨Â·íŒ”Â·ë‹¤ë¦¬ë¥¼ ê°€ë¦¬ëŠ” ë‹¨ì •í•œ ì˜·ì„ ì…ê³ , ì‹ ë°œì„ ë²—ëŠ” ë“± í˜„ì¥ ê·œì¹™ì„ ë”°ë¥´ì„¸ìš”.', 'When visiting a mosque, dress modestly with shoulders, arms and legs covered, remove shoes, and follow site rules.', 'ãƒ¢ã‚¹ã‚¯ã‚’è¨ªã‚Œã‚‹éš›ã¯è‚©ãƒ»è…•ãƒ»è„šã‚’è¦†ã†æœè£…ã«ã—ã€é´ã‚’è„±ããªã©ç¾åœ°ã®ãƒ«ãƒ¼ãƒ«ã«å¾“ã£ã¦ãã ã•ã„ã€‚', 'https://www.malaysia.travel/explore/putra-mosque'],
-    ],
-    cautions: [
-      ['ì˜¤í† ë°”ì´ ë‚ ì¹˜ê¸°ê°€ ìˆìœ¼ë‹ˆ ê°€ë°©ì€ ì°¨ë„ ë°˜ëŒ€ìª½ìœ¼ë¡œ ë©”ê³  ë‹¤ë‹ˆì„¸ìš”.', 'Bag snatching from motorbikes happens; carry your bag on the side away from traffic.', 'ãƒã‚¤ã‚¯ã«ã‚ˆã‚‹ã²ã£ãŸãã‚ŠãŒã‚ã‚‹ã®ã§ã€ãƒãƒƒã‚°ã¯è»Šé“ã¨åå¯¾å´ã«æŒã¡ã¾ã—ã‚‡ã†ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/56/detail'],
-      ['ì˜¤í›„ì— ê°‘ìê¸° ìŸì•„ì§€ëŠ” ì—´ëŒ€ì„± ì†Œë‚˜ê¸°ê°€ ì¦ì•„ ìš°ì‚°ì„ ëŠ˜ ì±™ê¸°ì„¸ìš”.', 'Sudden tropical downpours are common in the afternoon; always carry an umbrella.', 'åˆå¾Œã«çªç„¶ã®ã‚¹ã‚³ãƒ¼ãƒ«ãŒå¤šã„ã®ã§ã€å‚˜ã‚’å¸¸ã«æŒã¡ã¾ã—ã‚‡ã†ã€‚', 'https://sg.trip.com/guide/info/best-time-to-visit-kuala-lumpur.html'],
-    ],
-  },
-  Italy: {
-    tips: [
-      ['ì´íƒˆë¦¬ì•„ ë°”ì—ì„œ ì»¤í”¼ë¥¼ ë§ˆì‹¤ ë•ŒëŠ” ì¹´ìš´í„°ì™€ í…Œì´ë¸” ì´ìš© ê°€ê²©ì´ ë‹¤ë¥¼ ìˆ˜ ìˆìœ¼ë‹ˆ ì£¼ë¬¸ ì „ì— ë©”ë‰´ë¥¼ í™•ì¸í•˜ì„¸ìš”.', 'At an Italian cafÃ©, counter and table-service prices may differ; check the menu before ordering.', 'ã‚¤ã‚¿ãƒªã‚¢ã®ãƒãƒ¼ãƒ«ã§ã¯ã‚«ã‚¦ãƒ³ã‚¿ãƒ¼ã¨ãƒ†ãƒ¼ãƒ–ãƒ«ã§æ–™é‡‘ãŒç•°ãªã‚‹å ´åˆãŒã‚ã‚‹ãŸã‚ã€æ³¨æ–‡å‰ã«ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.mimit.gov.it/images/stories/Bandi/Appendice_Capitolato_LISTINO2013_PREZZI_ASSOBAR.pdf'],
-      ['íŠ¸ë ˆë‹ˆíƒˆë¦¬ì•„ ì§€ì—­ì—´ì°¨ ì¢…ì´ 1íšŒê¶Œì€ ì¶œë°œ ì „ ì—­ ê²€í‘œê¸°ì—ì„œ ê°œì°°í•´ì•¼ í•©ë‹ˆë‹¤. ë””ì§€í„¸ ì§€ì—­ì—´ì°¨í‘œëŠ” ì¢…ë¥˜ì— ë”°ë¼ ìë™ìœ¼ë¡œ ìœ íš¨í™”ë©ë‹ˆë‹¤.', 'Validate a Trenitalia regional paper single ticket at the station before departure. Digital regional tickets are validated automatically according to their type.', 'ãƒˆãƒ¬ãƒ‹ã‚¿ãƒªã‚¢ã®åœ°åŸŸåˆ—è»Šã®ç´™ã®1å›åˆ¸ã¯ç™ºè»Šå‰ã«é§…ã§åˆ»å°ãŒå¿…è¦ã§ã™ã€‚ãƒ‡ã‚¸ã‚¿ãƒ«ã®åœ°åŸŸåˆ—è»Šåˆ¸ã¯ç¨®é¡ã«å¿œã˜ã¦è‡ªå‹•çš„ã«æœ‰åŠ¹ã«ãªã‚Šã¾ã™ã€‚', 'https://www.trenitalia.com/en/information/travelling-on-regional-trains.html'],
-    ],
-    cautions: [
-      ['ë¡œë§ˆÂ·í”¼ë Œì²´Â·ë² ë„¤ì¹˜ì•„ ê´€ê´‘ì§€ì™€ ëŒ€ì¤‘êµí†µì—ì„œëŠ” ì†Œë§¤ì¹˜ê¸°ê°€ ë§¤ìš° ì¦ìŠµë‹ˆë‹¤.', 'Pickpocketing is very common at sights and on transit in Rome, Florence and Venice.', 'ãƒ­ãƒ¼ãƒãƒ»ãƒ•ã‚£ãƒ¬ãƒ³ãƒ„ã‚§ãƒ»ãƒ´ã‚§ãƒãƒ„ã‚£ã‚¢ã®è¦³å…‰åœ°ã‚„å…¬å…±äº¤é€šã§ã¯ã‚¹ãƒªãŒéå¸¸ã«å¤šã„ã§ã™ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/179/detail'],
-      ['ì´íƒˆë¦¬ì•„ ì—¬ëŸ¬ ë„ì‹œì˜ ì—­ì‚¬ ì§€êµ¬ì—ëŠ” ì°¨ëŸ‰ ì œí•œ êµ¬ì—­(ZTL)ì´ ìˆìŠµë‹ˆë‹¤. ë Œí„°ì¹´ë¡œ ì§„ì…í•˜ê¸° ì „ì— í‘œì§€ì™€ í—ˆê°€ ì¡°ê±´ì„ í™•ì¸í•˜ì„¸ìš”.', 'Many Italian historic centres have limited-traffic zones (ZTL). Check signs and permit rules before driving in with a rental car.', 'ã‚¤ã‚¿ãƒªã‚¢ã®å¤šãã®æ­´å²åœ°åŒºã«ã¯è»Šä¸¡é€²å…¥åˆ¶é™åŒºåŸŸï¼ˆZTLï¼‰ãŒã‚ã‚Šã¾ã™ã€‚ãƒ¬ãƒ³ã‚¿ã‚«ãƒ¼ã§å…¥ã‚‹å‰ã«æ¨™è­˜ã¨è¨±å¯æ¡ä»¶ã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.gov.uk/foreign-travel-advice/italy/safety-and-security'],
-    ],
-  },
-  Spain: {
-    tips: [
-      ['ìŠ¤í˜ì¸ì€ ë‹¤ë¥¸ ì—¬ëŸ¬ ë‚˜ë¼ë³´ë‹¤ ì‹ì‚¬ ì‹œê°„ì´ ëŠ¦ì€ í¸ì´ì§€ë§Œ ì‹ë‹¹ë³„ ì˜ì—…ì‹œê°„ì€ ë‹¤ë¥´ë¯€ë¡œ ë°©ë¬¸ ì „ì— í™•ì¸í•˜ì„¸ìš”.', 'Meal times in Spain tend to be later than in many countries, but opening hours vary by restaurant; check before visiting.', 'ã‚¹ãƒšã‚¤ãƒ³ã§ã¯é£Ÿäº‹ã®æ™‚é–“ãŒä»–å›½ã‚ˆã‚Šé…ã„å‚¾å‘ãŒã‚ã‚Šã¾ã™ãŒã€åº—ã«ã‚ˆã£ã¦å–¶æ¥­æ™‚é–“ã¯ç•°ãªã‚Šã¾ã™ã€‚è¨ªå•å‰ã«ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.spain.info/en/about-spain/'],
-      ['ê·¸ë¼ë‚˜ë‹¤ ì•Œí•¨ë¸Œë¼ ê¶ì „ì€ ê³µì‹ ì˜ˆë§¤ ì‚¬ì´íŠ¸ì—ì„œ ë°©ë¬¸ ë‚ ì§œì™€ ì…ì¥ ì‹œê°„ì„ ì„ íƒí•´ ì˜ˆë§¤í•˜ì„¸ìš”.', 'For Granadaâ€™s Alhambra, select your visit date and entry time on its official ticket site.', 'ã‚°ãƒ©ãƒŠãƒ€ã®ã‚¢ãƒ«ãƒãƒ³ãƒ–ãƒ©å®®æ®¿ã¯å…¬å¼äºˆç´„ã‚µã‚¤ãƒˆã§è¨ªå•æ—¥ã¨å…¥å ´æ™‚é–“ã‚’é¸ã‚“ã§äºˆç´„ã—ã¾ã—ã‚‡ã†ã€‚', 'https://tickets.alhambra-patronato.es/en/'],
-    ],
-    cautions: [
-      ['ë°”ë¥´ì…€ë¡œë‚˜ ëŒë¸”ë¼ìŠ¤ ê±°ë¦¬Â·ì§€í•˜ì² ê³¼ ë§ˆë“œë¦¬ë“œ ì†” ê´‘ì¥ ì£¼ë³€ì€ ì†Œë§¤ì¹˜ê¸°ê°€ ë§¤ìš° ë§ìŠµë‹ˆë‹¤.', 'Pickpockets are rife on Las Ramblas and the Barcelona metro, and around Madridâ€™s Puerta del Sol.', 'ãƒãƒ«ã‚»ãƒ­ãƒŠã®ãƒ©ãƒ³ãƒ–ãƒ©ã‚¹é€šã‚Šã‚„åœ°ä¸‹é‰„ã€ãƒãƒ‰ãƒªãƒ¼ãƒ‰ã®ã‚½ãƒ«åºƒå ´å‘¨è¾ºã¯ã‚¹ãƒªãŒéå¸¸ã«å¤šã„ã§ã™ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/128/detail'],
-      ['í…Œë¼ìŠ¤ ìë¦¬ì—ì„œ íœ´ëŒ€í°ì„ í…Œì´ë¸” ìœ„ì— ë‘ë©´ ìˆœì‹ê°„ì— ê°€ì ¸ê°€ëŠ” ê²½ìš°ê°€ ìˆìŠµë‹ˆë‹¤.', 'Phones left on terrace tables can vanish in seconds.', 'ãƒ†ãƒ©ã‚¹å¸­ã§ãƒ†ãƒ¼ãƒ–ãƒ«ã«æºå¸¯ã‚’ç½®ãã¨ã€ä¸€ç¬ã§ç›—ã‚‰ã‚Œã‚‹ã“ã¨ãŒã‚ã‚Šã¾ã™ã€‚', 'https://www.gov.uk/foreign-travel-advice/spain/safety-and-security'],
-    ],
-  },
-  Kazakhstan: {
-    tips: [
-      ['í˜„ì§€ ì°¨ëŸ‰ í˜¸ì¶œ ì•±(Yandex Go ë“±)ìœ¼ë¡œ íƒì‹œë¥¼ ë¶€ë¥´ë©´ ìš”ê¸ˆì´ ë¯¸ë¦¬ ì •í•´ì ¸ í¸í•©ë‹ˆë‹¤.', 'Local ride-hailing apps such as Yandex Go give fixed fares upfront.', 'ç¾åœ°ã®é…è»Šã‚¢ãƒ—ãƒªï¼ˆYandex Goãªã©ï¼‰ã‚’ä½¿ã†ã¨æ–™é‡‘ãŒäº‹å‰ã«æ±ºã¾ã‚Šä¾¿åˆ©ã§ã™ã€‚', 'https://www.airporttransferportal.com/es/airport-guides/ala/taxi-vs-transfer'],
-      ['ì¹´ìíìŠ¤íƒ„ì—ì„œëŠ” ì¹´ìíì–´ì™€ ëŸ¬ì‹œì•„ì–´ê°€ ì“°ì…ë‹ˆë‹¤. ë©”ë‰´Â·í‘œì§€íŒì„ ì½ì„ ìˆ˜ ìˆë„ë¡ ë²ˆì—­ ìˆ˜ë‹¨ì„ ì¤€ë¹„í•˜ì„¸ìš”.', 'Kazakh and Russian are used in Kazakhstan. Prepare a way to translate menus and signs.', 'ã‚«ã‚¶ãƒ•ã‚¹ã‚¿ãƒ³ã§ã¯ã‚«ã‚¶ãƒ•èªã¨ãƒ­ã‚·ã‚¢èªãŒä½¿ã‚ã‚Œã¾ã™ã€‚ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚„æ¨™è­˜ã‚’èª­ã‚ã‚‹ã‚ˆã†ç¿»è¨³æ‰‹æ®µã‚’ç”¨æ„ã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.gov.kz/org/mfa-london/press/article/details/8509?lang=en'],
-    ],
-    cautions: [
-      ['ê²¨ìš¸ì—ëŠ” ì˜í•˜ë¡œ í¬ê²Œ ë‚´ë ¤ê°€ê³  ê¸¸ì´ ì–¼ì–´ ë¯¸ë„ëŸ¬ìš°ë‹ˆ ë¯¸ë„ëŸ¼ ë°©ì§€ ì‹ ë°œê³¼ ë°©í•œë³µì„ ì±™ê¸°ì„¸ìš”.', 'Winters drop well below freezing with icy pavements; bring grippy boots and warm layers.', 'å†¬ã¯æ°·ç‚¹ä¸‹ã‚’å¤§ããä¸‹å›ã‚Šé“ãŒå‡ã‚‹ã®ã§ã€æ»‘ã‚Šã«ãã„é´ã¨é˜²å¯’ç€ã‚’ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/201/detail'],
-    ],
-  },
-  Uzbekistan: {
-    tips: [
-      ['ë„ì‹œ ê°„ ì´ë™ì€ ê³ ì†ì—´ì°¨ê°€ í¸í•˜ì§€ë§Œ ì„±ìˆ˜ê¸°ì—ëŠ” í‘œê°€ ë¹¨ë¦¬ ë§¤ì§„ë˜ë‹ˆ ë¯¸ë¦¬ ì˜ˆë§¤í•˜ì„¸ìš”.', 'High-speed trains link the cities but sell out in peak season; book early.', 'éƒ½å¸‚é–“ã¯é«˜é€Ÿé‰„é“ãŒä¾¿åˆ©ã§ã™ãŒã€ç¹å¿™æœŸã¯æ—©ãå£²ã‚Šåˆ‡ã‚Œã‚‹ã®ã§äº‹å‰äºˆç´„ã‚’ã€‚', 'https://eurasia.travel/uzbekistan/transport/uzbekistan-railways/book-tickets/'],
-      ['ëª¨ìŠ¤í¬Â·ì„±ì§€ë¥¼ ë°©ë¬¸í•  ë•Œ ì‹œì„¤ë³„ ë³µì¥ ê·œì¹™ì„ í™•ì¸í•˜ê³ , í•„ìš”í•˜ë©´ ì–´ê¹¨Â·ë¬´ë¦ì„ ê°€ë¦¬ëŠ” ì˜·ê³¼ ìŠ¤ì¹´í”„ë¥¼ ì¤€ë¹„í•˜ì„¸ìš”.', 'Check dress rules at mosques and sacred sites; bring clothing that covers your shoulders and knees, and a scarf if required.', 'ãƒ¢ã‚¹ã‚¯ã‚„è–åœ°ã§ã¯æ–½è¨­ã”ã¨ã®æœè£…ãƒ«ãƒ¼ãƒ«ã‚’ç¢ºèªã—ã€å¿…è¦ã«å¿œã˜ã¦è‚©ã‚„è†ã‚’è¦†ã†æœã‚„ã‚¹ã‚«ãƒ¼ãƒ•ã‚’ç”¨æ„ã—ã¾ã—ã‚‡ã†ã€‚', 'https://uzbekistan.travel/en/i/travel-tips/'],
-    ],
-    cautions: [
-      ['ì‹œì¥ê³¼ íƒì‹œëŠ” ê°€ê²©ì„ ë¯¸ë¦¬ í™•ì¸í•˜ê±°ë‚˜ í¥ì •í•˜ê³ , ë¯¸í„°ê¸° ì—†ëŠ” íƒì‹œëŠ” ì¶œë°œ ì „ì— ìš”ê¸ˆì„ ì •í•˜ì„¸ìš”.', 'Agree prices at markets and fix taxi fares before setting off if there is no meter.', 'å¸‚å ´ã‚„ã‚¿ã‚¯ã‚·ãƒ¼ã¯äº‹å‰ã«å€¤æ®µã‚’ç¢ºèªã—ã€ãƒ¡ãƒ¼ã‚¿ãƒ¼ã®ãªã„ã‚¿ã‚¯ã‚·ãƒ¼ã¯å‡ºç™ºå‰ã«æ–™é‡‘ã‚’æ±ºã‚ã¾ã—ã‚‡ã†ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/168/detail'],
-      ['ì—¬ë¦„ í•œë‚® ê¸°ì˜¨ì´ ë§¤ìš° ë†’ì•„ ì˜¤í›„ ì•¼ì™¸ ê´€ê´‘ì€ í”¼í•˜ê³  ë¬¼ì„ ìì£¼ ë§ˆì‹œì„¸ìš”.', 'Summer afternoons are extremely hot; avoid outdoor sightseeing then and drink plenty of water.', 'å¤ã®æ—¥ä¸­ã¯éå¸¸ã«æš‘ã„ã®ã§ã€åˆå¾Œã®å±‹å¤–è¦³å…‰ã¯é¿ã‘ã€æ°´ã‚’ã“ã¾ã‚ã«é£²ã¿ã¾ã—ã‚‡ã†ã€‚', 'https://uzbekistan.travel/en/i/travel-tips/'],
-    ],
-  },
-  Georgia: {
-    tips: [
-      ['íŠ¸ë¹Œë¦¬ì‹œì—ì„œëŠ” BoltÂ·Yandex ê°™ì€ ì°¨ëŸ‰ í˜¸ì¶œ ì•±ì„ ì´ìš©í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤. ê¸¸ì—ì„œ íƒì‹œë¥¼ ì¡ìœ¼ë©´ ì¶œë°œ ì „ì— ëª©ì ì§€ì™€ ìš”ê¸ˆì„ ì •í•˜ì„¸ìš”.', 'In Tbilisi, taxi apps such as Bolt and Yandex are available. If hailing a street taxi, agree the destination and fare before departure.', 'ãƒˆãƒ“ãƒªã‚·ã§ã¯Boltã‚„Yandexãªã©ã®é…è»Šã‚¢ãƒ—ãƒªãŒä½¿ãˆã¾ã™ã€‚æµã—ã®ã‚¿ã‚¯ã‚·ãƒ¼ã«ä¹—ã‚‹å ´åˆã¯å‡ºç™ºå‰ã«è¡Œãå…ˆã¨æ–™é‡‘ã‚’æ±ºã‚ã¾ã—ã‚‡ã†ã€‚', 'https://georgia.travel/travel-tips-for-exploring-tbilisi'],
-      ['ì¡°ì§€ì•„ì˜ êµíšŒ ë“± ì¢…êµì‹œì„¤ì„ ë°©ë¬¸í•  ë•ŒëŠ” ë‹¨ì •í•œ ë³µì¥ì„ í•˜ê³  ì‹œì„¤ë³„ ì•ˆë‚´ë¥¼ ë”°ë¥´ì„¸ìš”.', 'Dress modestly when visiting churches and other religious sites in Georgia, and follow each siteâ€™s guidance.', 'ã‚¸ãƒ§ãƒ¼ã‚¸ã‚¢ã®æ•™ä¼šãªã©å®—æ•™æ–½è¨­ã‚’è¨ªã‚Œã‚‹éš›ã¯æ§ãˆã‚ãªæœè£…ã«ã—ã€æ–½è¨­ã”ã¨ã®æ¡ˆå†…ã«å¾“ã„ã¾ã—ã‚‡ã†ã€‚', 'https://www.gov.uk/foreign-travel-advice/georgia/safety-and-security'],
-    ],
-    cautions: [
-      ['íŠ¸ë¹Œë¦¬ì‹œ êµ¬ì‹œê°€ì§€ì—ëŠ” êµ¬ë¶ˆêµ¬ë¶ˆí•œ ëŒê¸¸ì´ ìˆìœ¼ë‹ˆ ê±·ê¸° í¸í•œ ì‹ ë°œì„ ì¤€ë¹„í•˜ì„¸ìš”.', 'Old Tbilisi has winding cobbled streets, so wear comfortable walking shoes.', 'ãƒˆãƒ“ãƒªã‚·æ—§å¸‚è¡—ã«ã¯æ›²ãŒã‚Šãã­ã£ãŸçŸ³ç•³ã®é“ãŒã‚ã‚‹ãŸã‚ã€æ­©ãã‚„ã™ã„é´ã‚’ç”¨æ„ã—ã¾ã—ã‚‡ã†ã€‚', 'https://georgia.travel/cities-towns/tbilisi'],
-      ['ìš´ì „ì´ ê±°ì¹ ì–´ ê¸¸ì„ ê±´ë„ ë•ŒëŠ” ì‹ í˜¸ê°€ ìˆì–´ë„ ì°¨ë¥¼ í™•ì¸í•˜ì„¸ìš”.', 'Driving can be aggressive; check for cars even at a green crossing.', 'é‹è»¢ãŒè’ã„ã®ã§ã€ä¿¡å·ãŒã‚ã£ã¦ã‚‚è»Šã‚’ç¢ºèªã—ã¦æ¸¡ã‚Šã¾ã—ã‚‡ã†ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/332/detail'],
-    ],
-  },
-  Mexico: {
-    tips: [
-      ['ì‹ë‹¹ì—ì„œëŠ” íŒì„ ë‚¨ê¸°ëŠ” ê²ƒì´ ê´€ë¡€ì…ë‹ˆë‹¤. ê³„ì‚°ì„œì— ì´ë¯¸ í¬í•¨ëëŠ”ì§€ í™•ì¸í•˜ì„¸ìš”.', 'Tipping in restaurants is customary; check whether it is already included on the bill.', 'ãƒ¬ã‚¹ãƒˆãƒ©ãƒ³ã§ãƒãƒƒãƒ—ã‚’æ¸¡ã™ã®ã¯æ…£ä¾‹ã§ã™ã€‚ä¼šè¨ˆã«ã™ã§ã«å«ã¾ã‚Œã¦ã„ãªã„ã‹ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://mexicocity.cdmx.gob.mx/e/basics-for-mexico-city-travel/'],
-      ['ë©•ì‹œì½”ì˜ ë²•ì • í™”íëŠ” í˜ì†Œì…ë‹ˆë‹¤. ê°€ê²©í‘œì˜ í†µí™”ë¥¼ í™•ì¸í•˜ê³  í˜ì†Œ ê¸°ì¤€ ê¸ˆì•¡ì„ ì‚´í”¼ì„¸ìš”.', 'The peso is Mexicoâ€™s legal currency. Check the currency shown on price labels and the amount in pesos.', 'ãƒ¡ã‚­ã‚·ã‚³ã®æ³•å®šé€šè²¨ã¯ãƒšã‚½ã§ã™ã€‚å€¤æœ­ã®é€šè²¨ã‚’ç¢ºèªã—ã€ãƒšã‚½å»ºã¦ã®é‡‘é¡ã‚’ç¢ºã‹ã‚ã¾ã—ã‚‡ã†ã€‚', 'https://www.banxico.org.mx/regulations-and-supervision/d/%7B502F01D8-F5FA-E8AF-9D10-E1B70FE04830%7D.pdf'],
-    ],
-    cautions: [
-      ['ë©•ì‹œì½”ì—ì„œëŠ” ìƒìˆ˜ë¥¼ ë§ˆì‹œê³ , ìˆ˜ë—ë¬¼ì€ ë§ˆì‹œì§€ ì•ŠëŠ” í¸ì´ ì•ˆì „í•©ë‹ˆë‹¤.', 'Drink bottled water in Mexico; it is safer not to drink tap water.', 'ãƒ¡ã‚­ã‚·ã‚³ã§ã¯ãƒœãƒˆãƒ«å…¥ã‚Šã®æ°´ã‚’é£²ã¿ã€æ°´é“æ°´ã¯é£²ã¾ãªã„ã»ã†ãŒå®‰å…¨ã§ã™ã€‚', 'https://wwwnc.cdc.gov/travel/destinations/traveler/none/mexico'],
-      ['ì§€ì—­ë³„ ì¹˜ì•ˆ ìƒí™©ì´ ë‹¤ë¥´ë¯€ë¡œ ì•¼ê°„ ì´ë™ ì „ì—ëŠ” ì™¸êµë¶€ì˜ ì§€ì—­ë³„ ì•ˆì „ ì•ˆë‚´ë¥¼ í™•ì¸í•˜ê³  ì´ë™ ìˆ˜ë‹¨ì„ ë¯¸ë¦¬ ì •í•˜ì„¸ìš”.', 'Safety conditions vary by area. Check official regional advice before travelling at night and plan your transport in advance.', 'åœ°åŸŸã«ã‚ˆã£ã¦æ²»å®‰çŠ¶æ³ãŒç•°ãªã‚‹ãŸã‚ã€å¤œé–“ã®ç§»å‹•å‰ã«å¤–å‹™çœã®åœ°åŸŸåˆ¥å®‰å…¨æƒ…å ±ã‚’ç¢ºèªã—ã€ç§»å‹•æ‰‹æ®µã‚’æ±ºã‚ã¦ãŠãã¾ã—ã‚‡ã†ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/58/detail'],
-    ],
-  },
-  Denmark: {
-    tips: [
-      ['ëŒ€ë¶€ë¶„ ì¹´ë“œë¡œ ê²°ì œí•´ í˜„ê¸ˆì´ ê±°ì˜ í•„ìš” ì—†ìŠµë‹ˆë‹¤.', 'Almost everything is paid by card, so you rarely need cash.', 'ã»ã¼ã‚«ãƒ¼ãƒ‰æ‰•ã„ãªã®ã§ã€ç¾é‡‘ã¯ã»ã¨ã‚“ã©å¿…è¦ã‚ã‚Šã¾ã›ã‚“ã€‚', 'https://www.travelgo.gr/en/travel-tips/502239/10-things-you-need-know-visiting-copenhagen'],
-      ['ì½”íœí•˜ê²ì—ì„œëŠ” ìˆ˜ë—ë¬¼ì„ ë§ˆì‹¤ ìˆ˜ ìˆê³  ê³µê³µ ì‹ìˆ˜ëŒ€ì—ì„œ ë¬¼ë³‘ì„ ì±„ìš¸ ìˆ˜ ìˆìŠµë‹ˆë‹¤.', 'In Copenhagen, tap water is safe to drink and you can refill a bottle at public drinking fountains.', 'ã‚³ãƒšãƒ³ãƒãƒ¼ã‚²ãƒ³ã§ã¯æ°´é“æ°´ã‚’é£²ã‚ã¾ã™ã€‚å…¬å…±ã®çµ¦æ°´æ‰€ã§ãƒœãƒˆãƒ«ã«è£œå……ã§ãã¾ã™ã€‚', 'https://www.hofor.dk/english/hofor-utilities/water-supply/free-drinking-water-in-copenhagen/'],
-    ],
-    cautions: [
-      ['ì½”íœí•˜ê²ì—ì„œëŠ” ìì „ê±° ë„ë¡œì™€ ë³´í–‰ë¡œë¥¼ êµ¬ë¶„í•´ ê±·ê³ , ìì „ê±° ë„ë¡œë¥¼ ê±´ë„ ë•Œ ì˜¤ê°€ëŠ” ìì „ê±°ë¥¼ ì‚´í”¼ì„¸ìš”.', 'In Copenhagen, keep to pedestrian paths and watch for cyclists when crossing a cycle lane.', 'ã‚³ãƒšãƒ³ãƒãƒ¼ã‚²ãƒ³ã§ã¯æ­©é“ã¨è‡ªè»¢è»Šé“ã‚’è¦‹åˆ†ã‘ã¦æ­©ãã€è‡ªè»¢è»Šé“ã‚’æ¨ªåˆ‡ã‚‹ã¨ãã¯è‡ªè»¢è»Šã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://international.kk.dk/live/transport-and-parking/cycling-in-copenhagen'],
-      ['ì½”íœí•˜ê²ì€ ê²¨ìš¸ì— ë‚®ì´ ì§§ìœ¼ë¯€ë¡œ ì•¼ì™¸ ê´€ê´‘ ì‹œê°„ì„ ë¯¸ë¦¬ ê³„íší•˜ì„¸ìš”.', 'Winter days are short in Copenhagen, so plan outdoor sightseeing around daylight.', 'ã‚³ãƒšãƒ³ãƒãƒ¼ã‚²ãƒ³ã¯å†¬ã®æ—¥ç…§æ™‚é–“ãŒçŸ­ã„ãŸã‚ã€å±‹å¤–è¦³å…‰ã‚’æ˜ã‚‹ã„æ™‚é–“ã«è¨ˆç”»ã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.visitcopenhagen.com/copenhagen/this-is-copenhagen/seasons/the-changing-seasons-of-copenhagen'],
-      ['ì½”íœí•˜ê² ì¤‘ì‹¬ê°€Â·ê³µí•­Â·ì¤‘ì•™ì—­ê³¼ í˜¼ì¡í•œ ëŒ€ì¤‘êµí†µì—ì„œëŠ” ì†Œë§¤ì¹˜ê¸°ë¥¼ ì¡°ì‹¬í•˜ê³  ì†Œì§€í’ˆì„ ëˆˆì— ë„ê²Œ ë‘ì§€ ë§ˆì„¸ìš”.', 'Watch for pickpockets in central Copenhagen, the airport, the central station and crowded public transport; keep valuables out of sight.', 'ã‚³ãƒšãƒ³ãƒãƒ¼ã‚²ãƒ³ä¸­å¿ƒéƒ¨ãƒ»ç©ºæ¸¯ãƒ»ä¸­å¤®é§…ã‚„æ··é›‘ã—ãŸå…¬å…±äº¤é€šã§ã¯ã‚¹ãƒªã«æ³¨æ„ã—ã€è²´é‡å“ã‚’è¦‹ãˆã‚‹æ‰€ã«ç½®ã‹ãªã„ã§ãã ã•ã„ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/31/detail'],
-    ],
-  },
-  Sweden: {
-    tips: [
-      ['ìŠ¤ì›¨ë´ì—ì„œëŠ” ì¹´ë“œ ê²°ì œê°€ ë„ë¦¬ ì“°ì´ì§€ë§Œ í˜„ê¸ˆì„ ë°›ì§€ ì•ŠëŠ” ê³³ë„ ìˆìŠµë‹ˆë‹¤. ê²°ì œ ìˆ˜ë‹¨ì„ ë¯¸ë¦¬ í™•ì¸í•˜ì„¸ìš”.', 'Card payment is widespread in Sweden, but some places do not accept cash. Check payment options in advance.', 'ã‚¹ã‚¦ã‚§ãƒ¼ãƒ‡ãƒ³ã§ã¯ã‚«ãƒ¼ãƒ‰æ±ºæ¸ˆãŒåºƒãä½¿ã‚ã‚Œã¾ã™ãŒã€ç¾é‡‘ã‚’å—ã‘ä»˜ã‘ãªã„åº—ã‚‚ã‚ã‚Šã¾ã™ã€‚äº‹å‰ã«æ”¯æ‰•ã„æ–¹æ³•ã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.riksbank.se/en-gb/payments--cash/payments-in-sweden/payments-report-2025/trends-on-the-payments-market/the-swedish-payments-market-is-almost-entirely-digital/'],
-      ['ìƒì ê³¼ ì•½êµ­ì—ì„œ ë²ˆí˜¸í‘œë¥¼ ë½‘ê³  ì°¨ë¡€ë¥¼ ê¸°ë‹¤ë¦¬ëŠ” ë¬¸í™”ê°€ ìˆìŠµë‹ˆë‹¤.', 'Take a queue ticket in shops and pharmacies and wait to be called.', 'åº—ã‚„è–¬å±€ã§ã¯ç•ªå·æœ­ã‚’å–ã£ã¦é †ç•ªã‚’å¾…ã¤æ–‡åŒ–ãŒã‚ã‚Šã¾ã™ã€‚', 'https://www.oru.se/english/about-us/life-in-orebro-and-sweden/social-guide/'],
-    ],
-    cautions: [
-      ['Systembolagetì€ ì¼ë¶€ ì£¼ë¥˜ë¥¼ íŒë§¤í•˜ëŠ” êµ­ì˜ ì†Œë§¤ì ì´ì§€ë§Œ, ëª¨ë“  ì£¼ë¥˜ê°€ ê·¸ê³³ì—ì„œë§Œ íŒë§¤ë˜ëŠ” ê²ƒì€ ì•„ë‹™ë‹ˆë‹¤. í•„ìš”í•œ ìƒí’ˆê³¼ ì˜ì—…ì‹œê°„ì€ ê³µì‹ ì‚¬ì´íŠ¸ì—ì„œ í™•ì¸í•˜ì„¸ìš”.', 'Systembolaget is the state-owned retailer for certain alcoholic drinks, but not every alcoholic beverage is sold exclusively there. Check product availability and opening hours on its official site.', 'Systembolagetã¯ä¸€éƒ¨ã®ã‚¢ãƒ«ã‚³ãƒ¼ãƒ«é£²æ–™ã‚’æ‰±ã†å›½å–¶å°å£²åº—ã§ã™ãŒã€ã™ã¹ã¦ã®é…’é¡ãŒåŒåº—é™å®šã§ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚å•†å“ã¨å–¶æ¥­æ™‚é–“ã¯å…¬å¼ã‚µã‚¤ãƒˆã§ç¢ºèªã—ã¦ãã ã•ã„ã€‚', 'https://www.systembolaget.se/en/about-systembolaget/'],
-      ['ê´€ê´‘ê°ì´ ë§ì€ ì—­ê³¼ ì‹œë‚´ ì¤‘ì‹¬ì—ì„œëŠ” ì†Œì§€í’ˆì„ ì˜ ì±™ê¸°ì„¸ìš”.', 'Keep an eye on belongings at busy stations and in the city centre.', 'è¦³å…‰å®¢ã®å¤šã„é§…ã‚„ä¸­å¿ƒè¡—ã§ã¯æŒã¡ç‰©ã«æ³¨æ„ã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/126/detail'],
-    ],
-  },
-  Finland: {
-    tips: [
-      ['ê³µê³µ ì‚¬ìš°ë‚˜ì™€ ì‹œì„¤ë§ˆë‹¤ ìˆ˜ì˜ë³µ ë“± ì´ìš© ê·œì¹™ì´ ë‹¤ë¥´ë¯€ë¡œ ë°©ë¬¸ ì „ì— ì‹œì„¤ ì•ˆë‚´ë¥¼ í™•ì¸í•˜ì„¸ìš”.', 'Rules on swimwear and other clothing vary between public saunas and facilities; check the venueâ€™s guidance before visiting.', 'å…¬å…±ã‚µã‚¦ãƒŠã‚„æ–½è¨­ã«ã‚ˆã£ã¦æ°´ç€ãªã©ã®åˆ©ç”¨ãƒ«ãƒ¼ãƒ«ãŒç•°ãªã‚‹ãŸã‚ã€è¨ªå•å‰ã«æ–½è¨­ã®æ¡ˆå†…ã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.visitfinland.com/en/things-to-do/sauna/'],
-      ['ìˆ˜ë—ë¬¼ì´ ê¹¨ë—í•´ ê·¸ëŒ€ë¡œ ë§ˆì‹¤ ìˆ˜ ìˆìŠµë‹ˆë‹¤.', 'Tap water is clean and drinkable.', 'æ°´é“æ°´ã¯ãã‚Œã„ã§ãã®ã¾ã¾é£²ã‚ã¾ã™ã€‚', 'https://www.visitfinland.com/en/articles/guide-to-finnish-drinks-and-beverages/'],
-    ],
-    cautions: [
-      ['ê²¨ìš¸ì—ëŠ” ë§¤ìš° ì¶¥ê³  ê¸¸ì´ ì–¼ì–´ ë¯¸ë„ëŸ¬ìš°ë‹ˆ ë¯¸ë„ëŸ¼ ë°©ì§€ ì‹ ë°œê³¼ ì¥ê°‘Â·ëª¨ìë¥¼ ì±™ê¸°ì„¸ìš”.', 'Winters are very cold with icy streets; bring grippy shoes, gloves and a hat.', 'å†¬ã¯ã¨ã¦ã‚‚å¯’ãé“ãŒå‡ã‚‹ã®ã§ã€æ»‘ã‚Šã«ãã„é´ã¨æ‰‹è¢‹ãƒ»å¸½å­ã‚’ã€‚', 'https://www.myhelsinki.fi/visit/how-to-survive-helsinki-winter-7-tips/'],
-      ['ì•Œì½”ì˜¬ íŒë§¤ì²˜ì™€ ì˜ì—…ì‹œê°„ì€ ìƒí’ˆÂ·ë§¤ì¥ì— ë”°ë¼ ë‹¤ë¥´ë¯€ë¡œ êµ¬ë§¤ ì „ì— Alko ê³µì‹ ì•ˆë‚´ë¥¼ í™•ì¸í•˜ì„¸ìš”.', 'Alcohol availability and opening hours vary by product and shop; check Alkoâ€™s official information before planning a purchase.', 'ã‚¢ãƒ«ã‚³ãƒ¼ãƒ«ã®è²©å£²å ´æ‰€ã‚„å–¶æ¥­æ™‚é–“ã¯å•†å“ãƒ»åº—èˆ—ã«ã‚ˆã£ã¦ç•°ãªã‚‹ãŸã‚ã€è³¼å…¥å‰ã«Alkoã®å…¬å¼æ¡ˆå†…ã‚’ç¢ºèªã—ã¦ãã ã•ã„ã€‚', 'https://www.alko.fi/en/alko-inc/about-alko/responsible-sale-of-alcoholic-beverages'],
-    ],
-  },
-  Poland: {
-    tips: [
-      ['í´ë€ë“œ ì‹ë‹¹ì—ì„œ íŒì€ ì˜ë¬´ëŠ” ì•„ë‹ˆì§€ë§Œ ì¢‹ì€ ì„œë¹„ìŠ¤ì— ê°ì‚¬ í‘œì‹œë¡œ ë‚¨ê¸¸ ìˆ˜ ìˆìŠµë‹ˆë‹¤.', 'A restaurant tip in Poland is not required, but you may leave one to thank staff for good service.', 'ãƒãƒ¼ãƒ©ãƒ³ãƒ‰ã®ãƒ¬ã‚¹ãƒˆãƒ©ãƒ³ã§ãƒãƒƒãƒ—ã¯ç¾©å‹™ã§ã¯ã‚ã‚Šã¾ã›ã‚“ãŒã€è‰¯ã„ã‚µãƒ¼ãƒ“ã‚¹ã¸ã®æ„Ÿè¬ã¨ã—ã¦æ¸¡ã™ã“ã¨ãŒã§ãã¾ã™ã€‚', 'https://herway.poland.travel/travel-tips-for-poland/'],
-      ['í¬ë¼ì¿ í”„ì˜ ì¢…ì´ ìŠ¹ì°¨ê¶Œì€ ë²„ìŠ¤Â·íŠ¸ë¨ì— íƒ€ìë§ˆì ê°œì°°í•˜ì„¸ìš”. ì•±ìœ¼ë¡œ ì‚° í‘œëŠ” êµ¬ë§¤ ë•Œ ìœ íš¨í™”ë˜ëŠ” ì¢…ë¥˜ê°€ ìˆìŠµë‹ˆë‹¤.', 'Validate a KrakÃ³w paper ticket immediately after boarding a bus or tram. Some app tickets are validated when purchased.', 'ã‚¯ãƒ©ã‚¯ãƒ•ã®ç´™ã®ä¹—è»Šåˆ¸ã¯ãƒã‚¹ãƒ»ãƒˆãƒ©ãƒ ã«ä¹—ã£ãŸã‚‰ã™ãåˆ»å°ã—ã¾ã—ã‚‡ã†ã€‚ã‚¢ãƒ—ãƒªåˆ¸ã«ã¯è³¼å…¥æ™‚ã«æœ‰åŠ¹ã«ãªã‚‹ç¨®é¡ã‚‚ã‚ã‚Šã¾ã™ã€‚', 'https://ztp.krakow.pl/en/kmk-public-transport/buy-a-kmk-ticket'],
-    ],
-    cautions: [
-      ['ê¸¸ì—ì„œ í™˜ì „ì„ ê¶Œí•˜ëŠ” ì‚¬ëŒì´ë‚˜ í™˜ìœ¨ì´ í¬ê²Œ ì¢‹ë‹¤ëŠ” í™˜ì „ì†ŒëŠ” ìˆ˜ìˆ˜ë£Œê°€ ë†’ì€ ê²½ìš°ê°€ ë§ìŠµë‹ˆë‹¤.', 'Street money changers and booths with â€œgreat ratesâ€ often hide steep fees.', 'è·¯ä¸Šã®ä¸¡æ›¿ã‚„ã€Œå¥½ãƒ¬ãƒ¼ãƒˆã€ã‚’ã†ãŸã†ä¸¡æ›¿æ‰€ã¯æ‰‹æ•°æ–™ãŒé«˜ã„ã“ã¨ãŒå¤šã„ã§ã™ã€‚', 'https://www.isitsafetovisit.com/cities/krakow'],
-      ['ì¼ë¶€ ë°”Â·í´ëŸ½ì—ì„œ ê³„ì‚°ì„œì— í„°ë¬´ë‹ˆì—†ëŠ” ê¸ˆì•¡ì´ ë¶™ëŠ” ì‚¬ê¸°ê°€ ìˆìœ¼ë‹ˆ ì£¼ë¬¸ ì „ì— ê°€ê²©ì„ í™•ì¸í•˜ì„¸ìš”.', 'Some bars inflate bills; confirm prices before ordering.', 'ä¸€éƒ¨ã®ãƒãƒ¼ã§æ³•å¤–ãªä¼šè¨ˆã‚’è«‹æ±‚ã™ã‚‹è©æ¬ºãŒã‚ã‚‹ã®ã§ã€æ³¨æ–‡å‰ã«å€¤æ®µã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.isitsafetovisit.com/cities/krakow'],
-    ],
-  },
-  Ireland: {
-    tips: [
-      ['ì•„ì¼ëœë“œ ë‚ ì”¨ëŠ” ë³€ë•ìŠ¤ëŸ½ê³  ë¹„ê°€ ì˜¬ ìˆ˜ ìˆìœ¼ë‹ˆ ë°©ìˆ˜ ê²‰ì˜·ì„ ì±™ê¸°ì„¸ìš”.', 'Irelandâ€™s weather can change and bring rain, so pack a waterproof jacket.', 'ã‚¢ã‚¤ãƒ«ãƒ©ãƒ³ãƒ‰ã¯å¤©æ°—ãŒå¤‰ã‚ã‚Šã‚„ã™ãé›¨ã‚‚é™ã‚‹ãŸã‚ã€é˜²æ°´ã®ä¸Šç€ã‚’ç”¨æ„ã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.ireland.com/en/help-and-advice/practical-information/weather/'],
-    ],
-    cautions: [
-      ['ì•„ì¼ëœë“œëŠ” ì°¨ëŸ‰ì´ ì™¼ìª½ìœ¼ë¡œ ë‹¤ë‹ˆë¯€ë¡œ ê¸¸ì„ ê±´ë„ ë•Œ ì˜¤ë¥¸ìª½ê³¼ ì™¼ìª½ì„ ëª¨ë‘ í™•ì¸í•˜ì„¸ìš”.', 'Traffic drives on the left in Ireland; look right and left before crossing.', 'ã‚¢ã‚¤ãƒ«ãƒ©ãƒ³ãƒ‰ã®è»Šã¯å·¦å´é€šè¡Œã§ã™ã€‚é“è·¯ã‚’æ¸¡ã‚‹ã¨ãã¯å³ã¨å·¦ã®ä¸¡æ–¹ã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.rsa.ie/road-safety/road-users/tourists'],
-      ['í•´ì•ˆ ì ˆë²½ ì‚°ì±…ë¡œëŠ” ë°”ëŒì´ ê°•í•˜ê³  ê°€ì¥ìë¦¬ê°€ ë¬´ë„ˆì§ˆ ìˆ˜ ìˆì–´ ì•ˆì „ì„  ì•ˆìª½ìœ¼ë¡œ ë‹¤ë‹ˆì„¸ìš”.', 'Cliff paths are windy and edges can crumble; stay behind the barriers.', 'æµ·å²¸ã®å´–ã®éŠæ­©é“ã¯é¢¨ãŒå¼·ãç¸ãŒå´©ã‚Œã‚‹ã“ã¨ãŒã‚ã‚‹ã®ã§ã€æŸµã®å†…å´ã‚’æ­©ãã¾ã—ã‚‡ã†ã€‚', 'https://www.travelextra.ie/an-branan-mor-sea-stack-collapses-at-cliffs-of-moher/'],
-    ],
-  },
-  Belgium: {
-    tips: [
-      ['ë²¨ê¸°ì—ëŠ” ì§€ì—­ë§ˆë‹¤ ì–¸ì–´ê°€ ë‹¤ë¦…ë‹ˆë‹¤. ë¸Œë¤¼ì…€ì—ì„œëŠ” í”„ë‘ìŠ¤ì–´Â·ë„¤ëœë€ë“œì–´ ì§€ëª…ì´ í•¨ê»˜ ì“°ì´ë¯€ë¡œ ë‘ í‘œê¸°ë¥¼ í™•ì¸í•˜ì„¸ìš”.', 'Languages vary by region in Belgium. In Brussels, check both French and Dutch place names.', 'ãƒ™ãƒ«ã‚®ãƒ¼ã§ã¯åœ°åŸŸã«ã‚ˆã£ã¦è¨€èªãŒç•°ãªã‚Šã¾ã™ã€‚ãƒ–ãƒªãƒ¥ãƒƒã‚»ãƒ«ã§ã¯ãƒ•ãƒ©ãƒ³ã‚¹èªã¨ã‚ªãƒ©ãƒ³ãƒ€èªã®åœ°åã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.visit.brussels/en/visitors/plan-your-trip/practical-info/about-brussels'],
-      ['ë²¨ê¸°ì— ì‹ë‹¹ì—ì„œëŠ” ì„œë¹„ìŠ¤ê°€ ê³„ì‚°ì— í¬í•¨ë˜ì§€ë§Œ, ë§ˆìŒì— ë“¤ë©´ íŒì„ ë” ë‚¨ê¸¸ ìˆ˜ ìˆìŠµë‹ˆë‹¤.', 'Service is included in Belgian restaurant bills, but you may leave an additional tip if you wish.', 'ãƒ™ãƒ«ã‚®ãƒ¼ã®é£²é£Ÿåº—ã§ã¯ã‚µãƒ¼ãƒ“ã‚¹æ–™ãŒä¼šè¨ˆã«å«ã¾ã‚Œã¾ã™ãŒã€å¸Œæœ›ã™ã‚Œã°è¿½åŠ ã§ãƒãƒƒãƒ—ã‚’æ¸¡ã›ã¾ã™ã€‚', 'https://www.visit.brussels/it/visitatori/organizza-il-tuo-viaggio/practical-info/money-currency-and-change'],
-    ],
-    cautions: [
-      ['ë¸Œë¤¼ì…€ ì¤‘ì•™ì—­Â·ë‚¨ì—­ ì£¼ë³€ê³¼ ì§€í•˜ì² ì—ì„œëŠ” ì†Œë§¤ì¹˜ê¸°ë¥¼ ì¡°ì‹¬í•˜ì„¸ìš”.', 'Watch for pickpockets around Brussels Central and Midi stations and on the metro.', 'ãƒ–ãƒªãƒ¥ãƒƒã‚»ãƒ«ä¸­å¤®é§…ãƒ»å—é§…å‘¨è¾ºã‚„åœ°ä¸‹é‰„ã§ã¯ã‚¹ãƒªã«æ³¨æ„ã—ã¾ã—ã‚‡ã†ã€‚', 'https://brusselstimes.com/209360/brussels-police-warns-of-pickpocketing-in-city-centre'],
-    ],
-  },
-  Iceland: {
-    tips: [
-      ['ì•„ì´ìŠ¬ë€ë“œì—ì„œëŠ” ì¹´ë“œ ê²°ì œê°€ ë„ë¦¬ ê°€ëŠ¥í•˜ì§€ë§Œ, ë¬´ì¸ ì£¼ìœ ì†Œì—ì„œëŠ” ì¹´ë“œ PINì´ í•„ìš”í•œ ê³³ì´ ë§ìœ¼ë‹ˆ í™•ì¸í•˜ì„¸ìš”.', 'Card payments are widely accepted in Iceland, but many self-service petrol stations require a card PIN.', 'ã‚¢ã‚¤ã‚¹ãƒ©ãƒ³ãƒ‰ã§ã¯ã‚«ãƒ¼ãƒ‰æ±ºæ¸ˆãŒåºƒãä½¿ãˆã¾ã™ãŒã€ã‚»ãƒ«ãƒ•çµ¦æ²¹æ‰€ã§ã¯æš—è¨¼ç•ªå·ãŒå¿…è¦ãªæ‰€ãŒå¤šã„ãŸã‚ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.visiticeland.com/article/driving-in-iceland/'],
-      ['ì•„ì´ìŠ¬ë€ë“œì˜ ìˆ˜ë—ë¬¼ì€ ë§ˆì‹¤ ìˆ˜ ìˆìœ¼ë‹ˆ ë¬¼ë³‘ì„ ì±„ì›Œ ë‹¤ë‹ˆì„¸ìš”.', 'Icelandic tap water is safe to drink; refill your bottle as you travel.', 'ã‚¢ã‚¤ã‚¹ãƒ©ãƒ³ãƒ‰ã®æ°´é“æ°´ã¯é£²ã‚ã¾ã™ã€‚ãƒœãƒˆãƒ«ã«æ°´ã‚’è£œå……ã—ã¦æŒã¡æ­©ãã¾ã—ã‚‡ã†ã€‚', 'https://visitreykjavik.is/icelandic-tap-water'],
-    ],
-    cautions: [
-      ['ê²€ì€ ëª¨ë˜ í•´ë³€(ë ˆì´ë‹ˆìŠ¤í”¼ì•„ë¼ ë“±)ì€ ê°‘ìê¸° í° íŒŒë„ê°€ ë®ì³ ì‚¬ê³ ê°€ ë‚˜ë‹ˆ ë°”ë‹¤ì— ê°€ê¹Œì´ ê°€ì§€ ë§ˆì„¸ìš”.', 'Sneaker waves at black-sand beaches like Reynisfjara are deadly; keep well back from the water.', 'ãƒ¬ã‚¤ãƒ‹ã‚¹ãƒ•ã‚¡ãƒ©ãªã©ã®é»’ç ‚æµ·å²¸ã¯çªç„¶å¤§æ³¢ãŒæ¥ã¦äº‹æ•…ãŒèµ·ãã‚‹ã®ã§ã€æµ·ã«è¿‘ã¥ã‹ãªã„ã‚ˆã†ã«ã€‚', 'https://www.visiticeland.com/article/reynisfjara-black-sand-beach-is-dangerous/'],
-      ['ë‚ ì”¨ì™€ ë„ë¡œ ìƒí™©ì´ ë¹ ë¥´ê²Œ ë°”ë€Œë‹ˆ ìš´ì „Â·íŠ¸ë ˆí‚¹ ì „ì— ê³µì‹ ê¸°ìƒÂ·ë„ë¡œ ì •ë³´ë¥¼ í™•ì¸í•˜ì„¸ìš”.', 'Weather and road conditions change fast; check official forecasts and road status before driving or hiking.', 'å¤©æ°—ã‚„é“è·¯çŠ¶æ³ãŒæ€¥å¤‰ã™ã‚‹ã®ã§ã€é‹è»¢ã‚„ãƒˆãƒ¬ãƒƒã‚­ãƒ³ã‚°å‰ã«å…¬å¼ã®æ°—è±¡ãƒ»é“è·¯æƒ…å ±ã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.visitreykjavik.is/safe-travel'],
-    ],
-  },
-  TÃ¼rkiye: {
-    tips: [
-      ['ì´ìŠ¤íƒ„ë¶ˆì¹´ë“œëŠ” ë²„ìŠ¤Â·ë©”íŠ¸ë¡œÂ·íŠ¸ë¨Â·í˜ë¦¬ ë“± ëŒ€ì¤‘êµí†µ ê²°ì œì— ì“°ì…ë‹ˆë‹¤. ì´ìš© ë…¸ì„ ì˜ í˜„ì¥ ì•ˆë‚´ë¥¼ í™•ì¸í•˜ì„¸ìš”.', 'Istanbulkart can pay for buses, metro, trams and ferries. Check the guidance for your route.', 'ã‚¤ã‚¹ã‚¿ãƒ³ãƒ–ãƒ¼ãƒ«ã‚«ãƒ¼ãƒ‰ã¯ãƒã‚¹ãƒ»åœ°ä¸‹é‰„ãƒ»ãƒˆãƒ©ãƒ ãƒ»ãƒ•ã‚§ãƒªãƒ¼ãªã©ã®å…¬å…±äº¤é€šã§ä½¿ãˆã¾ã™ã€‚åˆ©ç”¨è·¯ç·šã®æ¡ˆå†…ã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.istanbulkart.istanbul/blog/detay?id=2376'],
-      ['íŠ€ë¥´í‚¤ì˜ˆì˜ ëª¨ìŠ¤í¬ë‚˜ ì¢…êµì‹œì„¤ì„ ë°©ë¬¸í•  ë•ŒëŠ” ë‹¨ì •í•˜ê²Œ ì…ê³  ì‹œì„¤ë³„ ë°©ë¬¸ ê·œì¹™ì„ í™•ì¸í•˜ì„¸ìš”.', 'Dress modestly when visiting a mosque or religious shrine in TÃ¼rkiye, and check the siteâ€™s visitor rules.', 'ãƒˆãƒ«ã‚³ã®ãƒ¢ã‚¹ã‚¯ã‚„å®—æ•™æ–½è¨­ã‚’è¨ªã‚Œã‚‹éš›ã¯æ§ãˆã‚ãªæœè£…ã«ã—ã€æ–½è¨­ã”ã¨ã®è¦‹å­¦ãƒ«ãƒ¼ãƒ«ã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.gov.uk/foreign-travel-advice/turkey/safety-and-security'],
-    ],
-    cautions: [
-      ['ì¹œê·¼í•˜ê²Œ ë§ì„ ê±¸ë©° ë°”Â·ì¹´í« ê°€ê²Œë¡œ ë°ë ¤ê°€ëŠ” ì‚¬ëŒì€ ë°”ê°€ì§€ ìˆ˜ë²•ì¼ ìˆ˜ ìˆìŠµë‹ˆë‹¤.', 'Friendly strangers who lead you to a bar or carpet shop may be setting up a rip-off.', 'è¦ªã—ã’ã«è©±ã—ã‹ã‘ã¦ãƒãƒ¼ã‚„çµ¨æ¯¯åº—ã«é€£ã‚Œã¦è¡Œãäººã¯ã€ã¼ã£ãŸãã‚Šã®æ‰‹å£ã®ã“ã¨ãŒã‚ã‚Šã¾ã™ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/228/detail'],
-      ['íƒì‹œëŠ” ë¯¸í„°ê¸°ë¥¼ ì¼°ëŠ”ì§€ í™•ì¸í•˜ê³ , ê°€ëŠ¥í•˜ë©´ ì°¨ëŸ‰ í˜¸ì¶œ ì•±ì„ ì“°ì„¸ìš”.', 'Make sure taxis run the meter, or use a ride-hailing app where possible.', 'ã‚¿ã‚¯ã‚·ãƒ¼ã¯ãƒ¡ãƒ¼ã‚¿ãƒ¼ãŒå‹•ã„ã¦ã„ã‚‹ã‹ç¢ºèªã—ã€ã§ãã‚Œã°é…è»Šã‚¢ãƒ—ãƒªã‚’ä½¿ã„ã¾ã—ã‚‡ã†ã€‚', 'https://0404.go.kr/bbs/embsyNtc/1347211/detail?ntnCd=228'],
-    ],
-  },
-  'Hong Kong': {
-    tips: [
-      ['ì˜¥í† í¼ìŠ¤ ì¹´ë“œ í•˜ë‚˜ë¡œ ì§€í•˜ì² Â·ë²„ìŠ¤Â·í˜ë¦¬ì™€ í¸ì˜ì  ê²°ì œë¥¼ ëª¨ë‘ í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤.', 'One Octopus card covers MTR, buses, ferries and convenience stores.', 'ã‚ªã‚¯ãƒˆãƒ‘ã‚¹ã‚«ãƒ¼ãƒ‰1æšã§åœ°ä¸‹é‰„ãƒ»ãƒã‚¹ãƒ»ãƒ•ã‚§ãƒªãƒ¼ã‚„ã‚³ãƒ³ãƒ“ãƒ‹æ‰•ã„ãŒã§ãã¾ã™ã€‚', 'https://www.octopus.com.hk/en/consumer/customer-service/faq/get-your-octopus/about-octopus.html'],
-      ['í™ì½© ì‹ë‹¹ ëŒ€ë¶€ë¶„ì€ ë´‰ì‚¬ë£Œë¥¼ ë”í•˜ì§€ë§Œ ì°¨ì°¬í…¡ ê°™ì€ ì‹ë‹¹ì€ ê·¸ë ‡ì§€ ì•Šì„ ìˆ˜ ìˆìœ¼ë‹ˆ ê³„ì‚°ì„œë¥¼ í™•ì¸í•˜ì„¸ìš”.', 'Most Hong Kong restaurants add a service charge, but some diners such as cha chaan tengs do not; check the bill.', 'é¦™æ¸¯ã®å¤šãã®ãƒ¬ã‚¹ãƒˆãƒ©ãƒ³ã¯ã‚µãƒ¼ãƒ“ã‚¹æ–™ã‚’åŠ ç®—ã—ã¾ã™ãŒã€èŒ¶é¤å»³ãªã©ã§ã¯åŠ ç®—ã—ãªã„å ´åˆã‚‚ã‚ã‚‹ãŸã‚ã€ä¼šè¨ˆã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.discoverhongkong.com/eng/travel-guide/traveller-essentials.html'],
-    ],
-    cautions: [
-      ['ì—¬ë¦„~ê°€ì„ì—ëŠ” íƒœí’ì´ ì˜¤ë©´ êµí†µÂ·ê´€ê´‘ì§€ê°€ ë©ˆì¶œ ìˆ˜ ìˆìœ¼ë‹ˆ ê¸°ìƒì²­ ê²½ë³´ë¥¼ í™•ì¸í•˜ì„¸ìš”.', 'Typhoons in summer and autumn can halt transport and attractions; follow Observatory signals.', 'å¤ã‹ã‚‰ç§‹ã¯å°é¢¨ã§äº¤é€šã‚„è¦³å…‰åœ°ãŒæ­¢ã¾ã‚‹ã“ã¨ãŒã‚ã‚‹ã®ã§ã€å¤©æ–‡å°ã®è­¦å ±ã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/377/detail'],
-      ['í™ì½© MTRì˜ ìœ ë£Œ êµ¬ì—­ê³¼ ì—´ì°¨ì—ì„œëŠ” ìŒì‹Â·ìŒë£Œë¥¼ ë¨¹ê±°ë‚˜ ë§ˆì‹œì§€ ë§ˆì„¸ìš”.', 'Do not eat or drink in the paid area or on trains of Hong Kongâ€™s MTR.', 'é¦™æ¸¯MTRã®æ”¹æœ­å†…ã‚„è»Šå†…ã§ã¯é£²é£Ÿã—ãªã„ã§ãã ã•ã„ã€‚', 'https://www.mtr.com.hk/en/customer/main/mtr_by_laws.html'],
-    ],
-  },
-  Indonesia: {
-    tips: [
-      ['ë°œë¦¬ ì‚¬ì›ì— ë“¤ì–´ê°ˆ ë•ŒëŠ” í—ˆë¦¬ì— ë‘ë¥´ëŠ” ì²œ(ì‚¬ë¡±)ì´ í•„ìš”í•˜ë©°, ì…êµ¬ì—ì„œ ë¹Œë ¤ì£¼ëŠ” ê³³ì´ ë§ìŠµë‹ˆë‹¤.', 'Bali temples require a sarong around the waist; many lend one at the gate.', 'ãƒãƒªã®å¯ºé™¢ã§ã¯è…°ã«å·»ãå¸ƒï¼ˆã‚µãƒ­ãƒ³ï¼‰ãŒå¿…è¦ã§ã€å…¥å£ã§è²¸ã—ã¦ãã‚Œã‚‹æ‰€ãŒå¤šã„ã§ã™ã€‚', 'https://www.indonesia.travel/gb/en/trip-ideas/a-guide-to-the-holy-springs-of-tirta-empul-bali'],
-      ['ì¸ë„ë„¤ì‹œì•„ì—ì„œ ì•±ìœ¼ë¡œ ì°¨ëŸ‰ì„ ë¶€ë¥´ë©´ íƒ‘ìŠ¹ ì „ ê¸°ì‚¬Â·ì°¨ëŸ‰ ì •ë³´ê°€ ì•±ê³¼ ì¼ì¹˜í•˜ëŠ”ì§€ í™•ì¸í•˜ê³  ì´ë™ ê²½ë¡œë¥¼ ì§€ì¸ê³¼ ê³µìœ í•˜ì„¸ìš”.', 'When booking a car by app in Indonesia, check the driver and vehicle against the app and share your journey with someone you trust.', 'ã‚¤ãƒ³ãƒ‰ãƒã‚·ã‚¢ã§ã‚¢ãƒ—ãƒªé…è»Šã‚’ä½¿ã†éš›ã¯ã€ä¹—è»Šå‰ã«é‹è»¢æ‰‹ã¨è»Šä¸¡ãŒã‚¢ãƒ—ãƒªã®è¡¨ç¤ºã¨ä¸€è‡´ã™ã‚‹ã‹ç¢ºèªã—ã€ç§»å‹•æƒ…å ±ã‚’çŸ¥äººã¨å…±æœ‰ã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.gov.uk/foreign-travel-advice/indonesia/safety-and-security'],
-    ],
-    cautions: [
-      ['ìˆ˜ë—ë¬¼ì€ ë§ˆì‹œì§€ ë§ê³  ìƒìˆ˜ë¥¼ ë“œì„¸ìš”. ì–¼ìŒê³¼ ë‚ ìŒì‹ë„ ì¡°ì‹¬í•˜ëŠ” ê²ƒì´ ì¢‹ìŠµë‹ˆë‹¤.', 'Do not drink tap water; take care with ice and raw food too.', 'æ°´é“æ°´ã¯é£²ã¾ãšã€ãƒŸãƒãƒ©ãƒ«ã‚¦ã‚©ãƒ¼ã‚¿ãƒ¼ã‚’ã€‚æ°·ã‚„ç”Ÿã‚‚ã®ã«ã‚‚æ³¨æ„ã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/181/detail'],
-      ['ì›ìˆ­ì´ê°€ ë§ì€ ì‚¬ì›Â·ìˆ²ì—ì„œëŠ” ì•ˆê²½Â·ëª¨ìÂ·íœ´ëŒ€í°ì„ ë‚šì•„ì±„ ê°€ë‹ˆ ê°€ë°©ì— ë„£ì–´ ë‘ì„¸ìš”.', 'Monkeys at temples and forests snatch glasses, hats and phones; keep them in your bag.', 'ã‚µãƒ«ã®å¤šã„å¯ºé™¢ã‚„æ£®ã§ã¯çœ¼é¡ãƒ»å¸½å­ãƒ»æºå¸¯ã‚’å¥ªã‚ã‚Œã‚‹ã®ã§ã€ãƒãƒƒã‚°ã«ã—ã¾ã„ã¾ã—ã‚‡ã†ã€‚', 'https://www.0404.go.kr/ntnSafetyInfo/181/detail'],
-      ['í™”ì‚°Â·ì§€ì§„ í™œë™ì´ ë°œìƒí•  ìˆ˜ ìˆìœ¼ë¯€ë¡œ í™”ì‚° ì§€ì—­ì„ ë°©ë¬¸í•˜ê¸° ì „ ì¸ë„ë„¤ì‹œì•„ ë‹¹êµ­ì˜ ê²½ë³´ì™€ ì¶œì… ì œí•œì„ í™•ì¸í•˜ì„¸ìš”.', 'Volcanic and seismic activity can occur; check Indonesian authoritiesâ€™ alerts and access restrictions before visiting volcanic areas.', 'ç«å±±ãƒ»åœ°éœ‡æ´»å‹•ãŒèµ·ã“ã‚‹ã“ã¨ãŒã‚ã‚Šã¾ã™ã€‚ç«å±±åœ°åŸŸã‚’è¨ªã‚Œã‚‹å‰ã«ã€ã‚¤ãƒ³ãƒ‰ãƒã‚·ã‚¢å½“å±€ã®è­¦å ±ã¨ç«‹å…¥åˆ¶é™ã‚’ç¢ºèªã—ã¦ãã ã•ã„ã€‚', 'https://magma.esdm.go.id/'],
-    ],
-  },
-  'United Arab Emirates': {
-    tips: [
-      ['ë©”íŠ¸ë¡œì—ëŠ” ì—¬ì„±Â·ì–´ë¦°ì´ ì „ìš© ì¹¸ê³¼ í”„ë¦¬ë¯¸ì—„ ì¹¸ì´ ë”°ë¡œ ìˆìœ¼ë‹ˆ í‘œì§€íŒì„ í™•ì¸í•˜ì„¸ìš”.', 'The metro has women-and-children and premium carriages; check the signs.', 'åœ°ä¸‹é‰„ã«ã¯å¥³æ€§ãƒ»å­ã©ã‚‚å°‚ç”¨è»Šä¸¡ã¨ãƒ—ãƒ¬ãƒŸã‚¢ãƒ è»Šä¸¡ãŒã‚ã‚‹ã®ã§ã€è¡¨ç¤ºã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://rta.ae/wps/portal/rta/ae/public-transport/metro/about-metro'],
-      ['í•œë‚® ì•¼ì™¸ í™œë™ì€ ë¬´ì²™ ë”ì›Œ, ì‡¼í•‘ëª°ê³¼ ì‹¤ë‚´ ëª…ì†Œë¥¼ ë‚®ì—, ì•¼ì™¸ëŠ” ì €ë…ì— ë°°ì¹˜í•˜ì„¸ìš”.', 'Midday heat is intense; plan malls and indoor sights for daytime and outdoors for evening.', 'æ—¥ä¸­ã¯ã¨ã¦ã‚‚æš‘ã„ã®ã§ã€æ˜¼ã¯ãƒ¢ãƒ¼ãƒ«ã‚„å±‹å†…ã€å±‹å¤–ã¯å¤•æ–¹ã«å›ã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.visitdubai.com/en/plan-your-trip/weather-in-dubai'],
-    ],
-    cautions: [
-      ['í—ˆë½ ì—†ì´ ì‚¬ëŒì„ ì´¬ì˜í•˜ì§€ ë§ê³  ê³µê³µì¥ì†Œì—ì„œ í˜„ì§€ ì˜ˆì ˆì„ ì§€í‚¤ë©° ì •ë¶€ì˜ ë°©ë¬¸ê° ì•ˆë‚´ë¥¼ ë”°ë¥´ì„¸ìš”.', 'Do not photograph people without permission; observe local etiquette in public and follow the governmentâ€™s guidance for visitors.', 'è¨±å¯ãªãäººã‚’æ’®å½±ã›ãšã€å…¬å…±ã®å ´ã§ã¯ç¾åœ°ã®ç¤¼å„€ã‚’å®ˆã‚Šã€æ”¿åºœã®è¨ªå•è€…å‘ã‘æ¡ˆå†…ã«å¾“ã£ã¦ãã ã•ã„ã€‚', 'https://u.ae/en/information-and-services/visiting-and-exploring-the-uae/social-responsibility'],
-      ['ë©”íŠ¸ë¡œ ì•ˆ ìŒì‹Â·ìŒë£Œ ì„­ì·¨ëŠ” ê¸ˆì§€ë˜ì–´ ë²Œê¸ˆì„ ë¬¼ ìˆ˜ ìˆìŠµë‹ˆë‹¤.', 'Eating and drinking on the metro is prohibited and fined.', 'åœ°ä¸‹é‰„å†…ã§ã®é£²é£Ÿã¯ç¦æ­¢ã§ã€ç½°é‡‘ã®å¯¾è±¡ã§ã™ã€‚', 'https://rta.ae/wps/portal/rta/ae/public-transport/metro/about-metro'],
-    ],
-  },
-  Estonia: {
-    tips: [
-      ['íƒˆë¦° ë²„ìŠ¤Â·íŠ¸ë¨ì—ì„œëŠ” ì°¨ ì•ˆ ë‹¨ë§ê¸°ì— ë¹„ì ‘ì´‰ ì¹´ë“œë¥¼ ëŒ€ê³  1ì‹œê°„ê¶Œì„ ì‚´ ìˆ˜ ìˆìŠµë‹ˆë‹¤. ê³µí•­ì—ë„ ìŠ¹ì°¨ê¶Œ ë°œë§¤ê¸°ê°€ ìˆìŠµë‹ˆë‹¤.', 'On Tallinn buses and trams, tap a contactless card at an onboard validator to buy a one-hour ticket. There is also a ticket machine at the airport.', 'ã‚¿ãƒªãƒ³ã®ãƒã‚¹ãƒ»ãƒˆãƒ©ãƒ ã§ã¯è»Šå†…ã®ç«¯æœ«ã«ã‚¿ãƒƒãƒæ±ºæ¸ˆã‚«ãƒ¼ãƒ‰ã‚’ã‹ã–ã—ã¦1æ™‚é–“åˆ¸ã‚’è²·ãˆã¾ã™ã€‚ç©ºæ¸¯ã«ã‚‚åˆ¸å£²æ©ŸãŒã‚ã‚Šã¾ã™ã€‚', 'https://www.visittallinn.ee/eng/visitor/plan/transport/arrival'],
-      ['ìœ ë£Œ ëª…ì†Œë¥¼ 3ê³³ ì´ìƒ ê°ˆ ê³„íšì´ë©´ íƒˆë¦° ì¹´ë“œê°€ ìœ ë¦¬í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤.', 'If you plan to visit three or more paid attractions, the Tallinn Card can pay off.', 'æœ‰æ–™ã®åæ‰€ã‚’3ã‹æ‰€ä»¥ä¸Šå›ã‚‹ãªã‚‰ã€ã‚¿ãƒªãƒ³ã‚«ãƒ¼ãƒ‰ãŒãŠå¾—ã«ãªã‚‹ã“ã¨ãŒã‚ã‚Šã¾ã™ã€‚', 'https://www.visittallinn.ee/eng/visitor/tallinncard'],
-    ],
-    cautions: [
-      ['êµ¬ì‹œê°€ì§€ì˜ ë¶ë¹„ëŠ” ê³³ê³¼ ìˆ ì§‘ì—ì„œëŠ” ì—¬ëŸ¿ì´ ì§œê³  í•˜ëŠ” ì†Œë§¤ì¹˜ê¸°ê°€ ìˆìœ¼ë‹ˆ ì†Œì§€í’ˆì„ ì˜ ì±™ê¸°ì„¸ìš”.', 'Pickpockets, sometimes working in teams, target crowded parts of the Old Town and its bars; keep valuables secure.', 'æ—§å¸‚è¡—ã®æ··é›‘ã—ãŸå ´æ‰€ã‚„é…’å ´ã§ã¯ã€ã‚°ãƒ«ãƒ¼ãƒ—ã§ã®ã‚¹ãƒªãŒã‚ã‚‹ã®ã§æŒã¡ç‰©ã«æ³¨æ„ã—ã¾ã—ã‚‡ã†ã€‚', 'https://gov.uk/foreign-travel-advice/estonia/safety-and-security'],
-      ['ì¼ë¶€ ìˆ ì§‘ì—ì„œ ê´€ê´‘ê°ì—ê²Œ í„°ë¬´ë‹ˆì—†ëŠ” ìˆ ê°’ì„ ë°›ëŠ” ê²½ìš°ê°€ ìˆìœ¼ë‹ˆ ì£¼ë¬¸ ì „ì— ê°€ê²©ì„ í™•ì¸í•˜ì„¸ìš”.', 'Some bars charge tourists exorbitant drink prices; check prices before ordering.', 'ä¸€éƒ¨ã®ãƒãƒ¼ã§ã¯è¦³å…‰å®¢ã«æ³•å¤–ãªé…’ä»£ã‚’è«‹æ±‚ã™ã‚‹ã“ã¨ãŒã‚ã‚‹ã®ã§ã€æ³¨æ–‡å‰ã«å€¤æ®µã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://gov.uk/foreign-travel-advice/estonia/safety-and-security'],
-    ],
-  },
-  Latvia: {
-    tips: [
-      ['ë¦¬ê°€ êµ¬ì‹œê°€ì§€ëŠ” ì¢ê³  ìê°ˆì´ ê¹”ë¦° ê¸¸ì´ ë§ìœ¼ë‹ˆ í¸í•œ ì‹ ë°œì„ ì‹ ê³  ì²œì²œíˆ ê±¸ì–´ë³´ì„¸ìš”.', 'Rigaâ€™s Old Town has narrow cobbled streets, so wear comfortable shoes and take your time exploring on foot.', 'ãƒªã‚¬æ—§å¸‚è¡—ã«ã¯ç‹­ã„çŸ³ç•³ã®é“ãŒå¤šã„ã®ã§ã€æ­©ãã‚„ã™ã„é´ã§ã‚†ã£ãã‚Šæ•£ç­–ã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.latvia.travel/en/sight/old-town-riga'],
-      ['êµ¬ì‹œê°€ì§€ì™€ í•¨ê»˜ ì•Œë² ë¥´íƒ€ ê±°ë¦¬ ì¼ëŒ€ì˜ ì•„ë¥´ëˆ„ë³´ ê±´ì¶•ë„ ë‘˜ëŸ¬ë³´ë©´ ë¦¬ê°€ì˜ ì„œë¡œ ë‹¤ë¥¸ ë„ì‹œ í’ê²½ì„ ë³¼ ìˆ˜ ìˆìŠµë‹ˆë‹¤.', 'Pair the Old Town with the Art Nouveau buildings around Alberta iela to see another side of Rigaâ€™s cityscape.', 'æ—§å¸‚è¡—ã¨ã‚ã‚ã›ã¦ã‚¢ãƒ«ãƒ™ãƒ«ã‚¿é€šã‚Šå‘¨è¾ºã®ã‚¢ãƒ¼ãƒ«ãƒ»ãƒŒãƒ¼ãƒ´ã‚©ãƒ¼å»ºç¯‰ã‚‚å·¡ã‚‹ã¨ã€ãƒªã‚¬ã®ç•°ãªã‚‹è¡—ä¸¦ã¿ã‚’æ¥½ã—ã‚ã¾ã™ã€‚', 'https://www.latvia.travel/en/10-must-see-riga'],
-    ],
-    cautions: [
-      ['êµ¬ì‹œê°€ì§€Â·ì¤‘ì•™ì‹œì¥Â·ì¤‘ì•™ ê¸°ì°¨ì—­ê³¼ ë²„ìŠ¤ í„°ë¯¸ë„ì—ì„œëŠ” ì†Œë§¤ì¹˜ê¸°ì™€ ê°€ë°© ë‚ ì¹˜ê¸°ì— íŠ¹íˆ ì£¼ì˜í•˜ê³ , ë°¤ì—ëŠ” ë¶ˆì´ ì–´ë‘ìš´ ê±°ë¦¬ì™€ ê³µì›ì„ í”¼í•˜ì„¸ìš”.', 'Watch for pickpockets and bag snatching in the Old Town, Central Market, and central train and bus stations; avoid unlit streets and parks at night.', 'æ—§å¸‚è¡—ãƒ»ä¸­å¤®å¸‚å ´ãƒ»ä¸­å¤®é§…ã‚„ãƒã‚¹ã‚¿ãƒ¼ãƒŸãƒŠãƒ«ã§ã¯ã‚¹ãƒªã‚„ã²ã£ãŸãã‚Šã«ç‰¹ã«æ³¨æ„ã—ã€å¤œã¯æš—ã„é€šã‚Šã‚„å…¬åœ’ã‚’é¿ã‘ã¦ãã ã•ã„ã€‚', 'https://www.gov.uk/foreign-travel-advice/latvia/safety-and-security'],
-      ['ì¼ë¶€ ê´€ê´‘ê°ì´ ìˆ ê°’ ê³¼ë‹¤ ì²­êµ¬ì™€ ì¹´ë“œ ë¶€ì • ê²°ì œë¥¼ ê²ªì—ˆìŠµë‹ˆë‹¤. ê²°ì œëŠ” ëˆˆì•ì—ì„œ ì²˜ë¦¬ë˜ëŠ”ì§€ í™•ì¸í•˜ê³ , PIN ì¬ì…ë ¥ì„ ìš”êµ¬í•˜ë©´ ê²½ê³„í•˜ì„¸ìš”. ìˆ ì„ ìë¦¬ì— ë‘ê³  ë– ë‚˜ì§€ ë§ˆì„¸ìš”.', 'Some tourists have faced inflated drink charges or fraudulent card transactions. Keep card payments in sight, be wary if asked to re-enter your PIN, and do not leave drinks unattended.', 'é£²ã¿ç‰©ã®é«˜é¡è«‹æ±‚ã‚„ã‚«ãƒ¼ãƒ‰ã®ä¸æ­£åˆ©ç”¨ã«é­ã£ãŸæ—…è¡Œè€…ã‚‚ã„ã¾ã™ã€‚ã‚«ãƒ¼ãƒ‰æ±ºæ¸ˆã¯ç›®ã®å‰ã§è¡Œã‚ã‚Œã‚‹ã‹ç¢ºèªã—ã€æš—è¨¼ç•ªå·ã®å†å…¥åŠ›ã‚’æ±‚ã‚ã‚‰ã‚ŒãŸã‚‰è­¦æˆ’ã—ã¦ãã ã•ã„ã€‚é£²ã¿ç‰©ã‚’ç½®ã„ãŸã¾ã¾å¸­ã‚’é›¢ã‚Œãªã„ã§ãã ã•ã„ã€‚', 'https://www.gov.uk/foreign-travel-advice/latvia/safety-and-security'],
-    ],
-  },
-  Brazil: {
-    tips: [
-      [
-        'ê³µí•­ì—ì„œ íƒì‹œë¥¼ íƒˆ ë•ŒëŠ” ê³µì‹ ìŠ¹ì°¨ ë¶€ìŠ¤ë¥¼ ì´ìš©í•˜ì„¸ìš”. ì•± í˜¸ì¶œì°¨ëŠ” ì•±ì— í‘œì‹œëœ ì°¨ëŸ‰ ë²ˆí˜¸ì™€ ìš´ì „ì ì •ë³´ë¥¼ ëŒ€ì¡°í•˜ê³  ì§€ì •ëœ í”½ì—… ì¥ì†Œì—ì„œ ê¸°ë‹¤ë¦¬ì„¸ìš”.',
-        'At airports, use authorised taxi booths. For ride-hailing, match the car and driver details in the app and wait at the designated pick-up point.',
-        'ç©ºæ¸¯ã§ã¯èªå¯ã•ã‚ŒãŸã‚¿ã‚¯ã‚·ãƒ¼ä¹—ã‚Šå ´ã‚’åˆ©ç”¨ã—ã¾ã—ã‚‡ã†ã€‚é…è»Šã‚¢ãƒ—ãƒªã§ã¯è»Šä¸¡ç•ªå·ã¨é‹è»¢æ‰‹ã®æƒ…å ±ã‚’ç…§åˆã—ã€æŒ‡å®šã®ä¹—è»Šå ´æ‰€ã§å¾…ã£ã¦ãã ã•ã„ã€‚',
-        'https://www.gov.uk/foreign-travel-advice/brazil/safety-and-security',
-      ],
-      [
-        'ì¹´ë“œ ê²°ì œ ì „ì— ë‹¨ë§ê¸°ì— í‘œì‹œëœ ê¸ˆì•¡ì„ í™•ì¸í•˜ê³ , ê²°ì œê°€ ëë‚  ë•Œê¹Œì§€ ì¹´ë“œë¥¼ ì‹œì•¼ì—ì„œ ë†“ì¹˜ì§€ ë§ˆì„¸ìš”.',
-        'Check the amount shown on the payment terminal and keep your card in sight until the transaction is complete.',
-        'ã‚«ãƒ¼ãƒ‰æ±ºæ¸ˆã®å‰ã«ç«¯æœ«ã®é‡‘é¡ã‚’ç¢ºèªã—ã€æ”¯æ‰•ã„ãŒçµ‚ã‚ã‚‹ã¾ã§ã‚«ãƒ¼ãƒ‰ã‹ã‚‰ç›®ã‚’é›¢ã•ãªã„ã§ãã ã•ã„ã€‚',
-        'https://www.gov.uk/foreign-travel-advice/brazil/safety-and-security',
-      ],
-    ],
-    cautions: [
-      [
-        'ë¹ˆë¯¼ê°€ëŠ” ê´€ê´‘ê° ëŒ€ìƒ íˆ¬ì–´Â·ìˆ™ì†ŒÂ·ì‹ë‹¹ì„ í¬í•¨í•´ í”¼í•˜ê³ , GPS ê²½ë¡œê°€ ë¹ˆë¯¼ê°€ë¥¼ í†µê³¼í•˜ì§€ ì•ŠëŠ”ì§€ í™•ì¸í•˜ì„¸ìš”.',
-        'Avoid favelas, including tourist tours, accommodation, restaurants and bars advertised within them; check that GPS routes do not lead into one.',
-        'è¦³å…‰å®¢å‘ã‘ãƒ„ã‚¢ãƒ¼ã‚„å®¿æ³Šæ–½è¨­ã€é£²é£Ÿåº—ã‚’å«ã‚ã€ãƒ•ã‚¡ãƒ™ãƒ¼ãƒ©ã¸ã®ç«‹ã¡å…¥ã‚Šã¯é¿ã‘ã€GPSã®çµŒè·¯ãŒé€šéã—ãªã„ã‹ç¢ºèªã—ã¦ãã ã•ã„ã€‚',
-        'https://www.gov.uk/foreign-travel-advice/brazil/safety-and-security',
-      ],
-      [
-        'í˜¼ì¡í•œ ê³³ê³¼ í•´ë³€ì—ì„œ íœ´ëŒ€ì „í™”Â·ê·€ì¤‘í’ˆì„ ë“œëŸ¬ë‚´ì§€ ë§ê³ , ë°¤ì—ëŠ” ë„ì‹¬ í•´ë³€ì— ê°€ì§€ ë§ˆì„¸ìš”.',
-        'Keep phones and valuables out of sight in crowded areas and on beaches; do not go to city beaches at night.',
-        'æ··é›‘ã—ãŸå ´æ‰€ã‚„ãƒ“ãƒ¼ãƒã§ã¯æºå¸¯é›»è©±ãƒ»è²´é‡å“ã‚’è¦‹ã›ãšã€å¤œã¯å¸‚è¡—åœ°ã®ãƒ“ãƒ¼ãƒã«è¡Œã‹ãªã„ã§ãã ã•ã„ã€‚',
-        'https://www.gov.uk/foreign-travel-advice/brazil/safety-and-security',
-      ],
-    ],
-  },
-  Egypt: {
-    tips: [
-      ['ì´ì§‘íŠ¸ ê´€ê´‘ì§€ì—ì„œ ë°”ê°€ì§€ ìš”ê¸ˆì´ë‚˜ ë¹„ê³µì‹ ì„œë¹„ìŠ¤ê°€ ì˜ì‹¬ë˜ë©´ í˜„ì¥ ê´€ê´‘ê²½ì°°ì— ë„ì›€ì„ ìš”ì²­í•˜ê³ , í”¼í•´ê°€ ìƒê¸°ë©´ ì¶œêµ­ ì „ì— ì‹ ê³ í•˜ì„¸ìš”.', 'At Egyptian tourist sites, seek help from the tourist police if you suspect overcharging or unofficial services; report any crime before leaving the country.', 'ã‚¨ã‚¸ãƒ—ãƒˆã®è¦³å…‰åœ°ã§é«˜é¡è«‹æ±‚ã‚„éå…¬å¼ã‚µãƒ¼ãƒ“ã‚¹ãŒç–‘ã‚ã‚Œã‚‹å ´åˆã¯è¦³å…‰è­¦å¯Ÿã«ç›¸è«‡ã—ã€è¢«å®³ã«é­ã£ãŸã‚‰å‡ºå›½å‰ã«å±Šã‘å‡ºã¾ã—ã‚‡ã†ã€‚', 'https://www.gov.uk/foreign-travel-advice/egypt/safety-and-security'],
-      ['ì´ì§‘íŠ¸ì—ì„œëŠ” ìˆ˜ë—ë¬¼ ëŒ€ì‹  ë°€ë´‰ëœ ìƒìˆ˜ë¥¼ ë§ˆì‹œê³ , ì–¼ìŒë„ ì—¬ê³¼ìˆ˜ë‚˜ ìƒìˆ˜ë¡œ ë§Œë“  ê²ƒì¸ì§€ í™•ì¸í•˜ì„¸ìš”.', 'In Egypt, drink sealed bottled water rather than tap water, and check that ice is made from filtered or bottled water.', 'ã‚¨ã‚¸ãƒ—ãƒˆã§ã¯æ°´é“æ°´ã§ã¯ãªãæœªé–‹å°ã®ãƒœãƒˆãƒ«æ°´ã‚’é£²ã¿ã€æ°·ã‚‚ã‚éæ°´ã‹ãƒœãƒˆãƒ«æ°´ã‹ã‚‰ä½œã‚‰ã‚ŒãŸã‹ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.gov.uk/government/news/phe-issues-advice-to-people-travelling-to-egypt'],
-    ],
-    cautions: [
-      ['í”¼ë¼ë¯¸ë“œ ë“± ìœ ì ì§€ì—ì„œëŠ” ëˆì§ˆê¸´ í˜¸ê°ê³¼ ë¹„ê³µì‹ ì„œë¹„ìŠ¤ë¥¼ ê²½ê³„í•˜ì„¸ìš”. ë¬´ë£Œ ì„ ë¬¼ë„ ë‚˜ì¤‘ì— ëˆì„ ìš”êµ¬í•  ìˆ˜ ìˆìœ¼ë‹ˆ ì´ìš© ì¡°ê±´ì„ ë¨¼ì € í™•ì¸í•˜ì„¸ìš”.', 'At the pyramids and other archaeological sites, beware of aggressive touts and unregulated services. A â€œfreeâ€ gift can lead to a demand for money; confirm terms first.', 'ãƒ”ãƒ©ãƒŸãƒƒãƒ‰ãªã©ã®éºè·¡ã§ã¯ã€å¼·å¼•ãªå®¢å¼•ãã‚„ç„¡è¨±å¯ã®ã‚µãƒ¼ãƒ“ã‚¹ã«æ³¨æ„ã—ã¾ã—ã‚‡ã†ã€‚ã€Œç„¡æ–™ã€ã®è´ˆã‚Šç‰©ã§ã‚‚å¾Œã‹ã‚‰ä»£é‡‘ã‚’æ±‚ã‚ã‚‰ã‚Œã‚‹ã“ã¨ãŒã‚ã‚‹ãŸã‚ã€æ¡ä»¶ã‚’å…ˆã«ç¢ºèªã—ã¦ãã ã•ã„ã€‚', 'https://travel.state.gov/en/international-travel/travel-advisories/egypt.html'],
-      ['ì¼ë¶€ ì§€ì—­ì€ ì—¬í–‰ ìì œÂ·ê¸ˆì§€ ê²½ë³´ê°€ ìˆìœ¼ë‹ˆ ì¶œë°œ ì „ì— ì •ë¶€ í•´ì™¸ì•ˆì „ ì•ˆë‚´ë¥¼ í™•ì¸í•˜ì„¸ìš”.', 'Some regions carry advice against travel; check official government travel advice before you go.', 'ä¸€éƒ¨åœ°åŸŸã«ã¯æ¸¡èˆªä¸­æ­¢ãƒ»è‡ªç²›ã®å‹§å‘ŠãŒã‚ã‚‹ã®ã§ã€å‡ºç™ºå‰ã«æ”¿åºœã®æµ·å¤–å®‰å…¨æƒ…å ±ã‚’ç¢ºèªã—ã¾ã—ã‚‡ã†ã€‚', 'https://www.gov.uk/foreign-travel-advice/egypt/safety-and-security'],
-    ],
-  },
-};
-
+YªçŠx-®éÜj×¢ëiºÚ+Š§j[h‘éÜ¢éíÛM=ñ:-jZ.¶›­–)Ş³Rò¢¢¸)¹ÛÎ»8BÉXÎÉXN¹‚«(<+~ÊÈºÎÙZ«(2"(	BÙ‰^È¹ŞÉØ6÷VçG'’ÖwV–FW2ÓçG2É˜«	¸ºB¢ğ¦–×÷'BG—R²6÷VçG'”æ÷FRÒg&öÒrâö6÷VçG'’ÖwV–FW2Ós° ¦W‡÷'B6öç7B4õTåE%•ó#¢&V6÷&CÇ7G&–ærÂ6÷VçG'”æ÷FSâÒ°¢6æF¢°¢F—3¢°¢²~Ë©¸)¸ºNÉyÈIÎ¸©BØÉºzNÈK«ÙÎÈ¹Â««*ÉyØúÎÙZ¹	«¸)‚«8NÈ+¹XÂ¹KºÂ¸ÙNÙ[NÊx‚È‰‚ÉèÉËÎ¸¸‚ÉˆÈ‰ÊiŞÉØBÙ™^ÉÛÙYÈKÉ©BârÂu6ÆW2F‚Ö’&R–æ6ÇVFVB–âF†RF—7Æ–VB&–6R÷"FFVB6W&FVÇ“²6†V6²–÷W"&V6V—BârÂ~8*¾88®888~8şZ;.Kˆ®zˆî8ÎŠzK®KêjÎ8¾Y
+¾8î8(Î8(¾ZNY8XŠ^˜	NXªzé~8^8(Î8(¾ZNY8Î8.8(¾8ş8(88:Î8+~8;Î888).z+®Š¨Ş8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwræ6æFæ6öVâ÷&WfVçVRÖvVæ7’÷6W'f–6W2öf÷&×2×V&Æ–6F–öç2÷V&Æ–6F–öç2÷&3C#"övVæW&ÂÖ–æf÷&ÖF–öâÖw7BÖ‡7B×&Vv—7G&çG2æ‡FÖÂuÒÀ¢²~¸È»h»hNÉÙ‚È8Ê	+~¸ÈÊI«YØk^ÉyÈIÂ»˜NÊ	ËH’Ë›N¹9Â«+Ê	Î«¹
+¸¸¸ºBârÂt6öçF7FÆW726&B–ÖVçBv÷&·2–âÖ÷7B6†÷2æBöâV&Æ–2G&ç6—BârÂ~8¾88)>88î[©~8(NXZÎX[KªN˜	®8~8+ş88>88k®kˆ8ÎKÛş88î88"rÂv‡GG3¢ò÷wwrçF–ÖW66öÆöæ—7Bæ6öÒö&2ÖæWw2÷G&ç6—BÖ–âÖÖWG&ò×fæ6÷WfW"Ö66WF–ærÖ7&VF—BÖ6&B×F×–ÖVçG2ÓCcc#33’uÒÀ¢ÒÀ¢6WF–öç3¢°¢²~«ZŞºkŞ«;^É¹ÉÛN¸)‚È+«‹ÉyÈIÎ¸©B«;«	ÉØÉ[ÎÈ9Ş¸ùºËÎÉØBºxÎ¸*È‰‚ÉèÉËÎ¸¸‚ÉX¸+NØÉ«yÎË™ÉØBÊxØ*N«:ÉØÎÈ¹ŞÉØB»	nÉy¹ÊxºxÈKÉ©BârÂt–â&·2æBöâG&–Ç2–÷RÖ’ÖVWB&V'2æB÷F†W"v–ÆFÆ–fS²föÆÆ÷r÷7FVB'VÆW2æBæWfW"ÆVfRfööB÷WBârÂ~Y»Şz¸¾XZÎYÉ.8(N[˜>8~8ş8*ş89î8®88î˜xîyIşX¹^xš8¾X{®KÉ®8n8>88Î8.8(®8î88.hë.zK®8î8:¾8;Î8:¾8).Zè8(®8š9ş8xš8).ZIn8¾{Úî8¾8®8N8(8n8¾8"rÂv‡GG3¢ò÷wwrç&·2æ6æFæ6÷f÷–vR×G&fVÂö6öç6V–Ç2×F—2öfVæR×v–ÆFÆ–fRuÒÀ¢²~Ë©¸)¸ºB¸øNÈ¹ÎÉyÈIÎ¸©B«»
+ÉØB»
+Ë™ÙYÊxºy«:«xÊIÙ(«;ÂÉzÎ«hÎÉØBÉXÊNÙYÂ«;>Éy»;N«HÙYÈKÉ©BârÂt–â6æF–â6—F–W2ÂFòæ÷BÆVfR&w2VæGFVæFVBæB¶VWfÇV&ÆW2æB–÷W"77÷'B6V7W&RârÂ~8*¾88®888î˜;Ş[ˆ.˜:8~8ş8988>8+8).iKî{Úî8¾8®8‹+N˜xŞY88(N898+89Ş8;Î888).ZèXZ8®ZNh˜8¾KùŞzê8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwræv÷bçV²öf÷&V–vâ×G&fVÂÖGf–6Rö6æF÷6fWG’ÖæB×6V7W&—G’uÒÀ¢ÒÀ¢ÒÀ¢tæWr¦VÆæBs¢°¢F—3¢°¢²~¸›NÊx¹éÎ¹9ÎÉyÈIÎ¸©BÙÙºk¸*Éy¸øBÉéÉ›ÈJÉy¸[ËiÎ¹
+È‰‚ÉèÉËÎ¸¸‚ÉéÉ›ÈJÊxÈ‰º[ÂÙ™^ÉÛÙY«:ºªÉé+~ÈJØÎºkÎÉØBË«‹ÈKÉ©BârÂt–âæWr¦VÆæBÂUbW‡÷7W&R—2÷76–&ÆRöâ6Æ÷VG’F—2â6†V6²F†RUb–æFW‚æB'&–ær†BæB7Vç67&VVâârÂ~88¾8:^8;Î8+8;Î8:8;>888~8şi¸~8(®8îiz^8(.{J¾ZIn{y®8).k[N8>8(¾8ş8(8UnhÈ~i[8).z+®Š¨Ş8~8[‹ŞZÙ8iz^xKÎ8jÚ.8(8).yJhHş8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwrç7Vç6Ö'Bæ÷&ræç¢÷7Vç6Ö'BÖf7G2÷Wb×&F–F–öâòuÒÀ¢²~Ë
+¸©BÉ›ÎÊ«ŞÉËÎºÂ¸ºN¸¸ºøºÂ«‹ÉØB«N¸I¹XÂÉŠNº[Ê«ŞÉØBº‹ÎÊ»;NÈKÉ©BârÂuG&ff–2G&—fW2öâF†RÆVgBÂ6òÆöö²&–v‡Bf—'7Bv†Vâ7&÷76–ærârÂ~‹¸®8ş[znXN˜	®ŠÎ8®8î8~8˜>8).kŠ8(¾88Ş8ş8î8®Xû>8).z+®Š¨Ş8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwræç§Fæv÷gBæç¢÷&W6÷W&6W2÷&öF6öFRö&÷WBÖG&—f–ærö¶VW–ærÖÆVgBòuÒÀ¢ÒÀ¢6WF–öç3¢°¢²~¸›NÊx¹éÎ¹9ÎÉÙ‚È+«‹‚¸*ÉJ¸©B»šº[N«(Â»	N¸	BÈ‰‚ÉèÈ«^¸¸¸ºBâØ«ºØ+’ÊNÉyÉˆ»;Nº[ÂÙ™^ÉÛÙY«:»
+È‰‚É‹~ÉØBË«‹ÈKÉ©BârÂuvVF†W"öâæWr¦VÆæBÖ÷VçF–âG&–Ç26â6†ævRV–6¶Ç’â6†V6²F†Rf÷&V67B&Vf÷&R†–¶–æræB6''’vFW'&ööb6Æ÷F†–ærârÂ~88¾8:^8;Î8+8;Î8:8;>888î[˜>8~8şZJk	~8Îh
+^ZH88(¾8>88Î8.8(®8î88.888:Î88>8*Ş8;>8+X˜Ş8¾K¨Z8).z+®Š¨Ş8~8™‹.kN8îiÈŞ8).hÈ88î8~8(~8n8"rÂv‡GG3¢ò÷wwræFö2æv÷gBæç¢÷&·2ÖæB×&V7&VF–öâ÷Æ6W2×FòÖvò÷vVÆÆ–æwFöâÖ¶—F’÷Æ6W2÷F&'VÖf÷&W7B×&²÷F†–æw2×FòÖFò÷G&6·2ö¶—&—v†¶×FòÖ&ÇVR×&ævRÖ‡WBòuÒÀ¢ÒÀ¢ÒÀ¢6†–æ¢°¢F—3¢°¢²~ÙˆNÊx«+Ê	Î¸©BÉXÎºjÎØéÉÛL+~ÉÈNË~ØéÉÛN««‹»;ÉÛN¹ÛÂËiÎ«ZÒÊNÉyÙ[NÉ›‚Ë›N¹9Îº[ÂÉ{«+Ù[B¹º›BØëÙZ¸¸¸ºBâÙˆN«ˆ¸øBÊ«ˆ‚Ë«‹ÈKÉ©BârÂu–ÖVçB'Vç2öâÆ—’æBvT6†B“²Æ–æ²f÷&V–vâ6&B&Vf÷&R–÷RfÇ’æB6''’6öÖR66‚FöòârÂ~iJşh™^8N8ş8*.8:®89®8*N8;µvT6†B8ÎYû®iÊÎ8®8î8~8X{®y›®X˜Ş8¾k[~ZIn8*¾8;Î888).y›¾˜Ë.8~8n8®8ş8KëşXŠ8~88.xûî˜y8(.[	8~yJhHş8).8"rÂv‡GG3¢òöVævÆ—6‚çwwræv÷bæ6âöæWw2ó##CBóö6öçFVçEõu3ccv3ƒS†3fCƒc†cFS†SVcFBæ‡FÖÂuÒÀ¢²tvöövÆR¹;ÉÛÎ»hÙ[NÉ›‚ÈIÎ»˜NÈªN¸©BÊI«ZÒ»;ØjÉyÈIÂÉÛNÉªÙZÈ‰‚ÉxnÉØBÈ‰‚ÉèÉËÎºøºÂÊx¸øNÉ˜É{¹ÛÒÈ‰¸ºÉØBºûºjÂÊH»˜NÙYÈKÉ©BârÂu6öÖR÷fW'6V26W'f–6W2Â–æ6ÇVF–ærvöövÆR6W'f–6W2ÂÖ’&RVæf–Æ&ÆR–âÖ–æÆæB6†–æ²&W&RÖ2æB6öÖ×Væ–6F–öâ÷F–öç2–âGfæ6RârÂtvöövÆ^8®88îKˆ˜:k[~ZIn8+^8;Î89>8+8şKŠŞY»ŞiÊÎYÉş8~XŠyJ8~8Ş8®8N8>88Î8.8(®8î88.YËY»>8(N˜
+>{Zh˜¾jë^8).K¨¾X˜Ş8¾k©nX)8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwræv÷bçV²öf÷&V–vâ×G&fVÂÖGf–6Rö6†–æ÷6fWG’ÖæB×6V7W&—G’uÒÀ¢ÒÀ¢6WF–öç3¢°¢²~ÊxÙYË*«;ÂÉÛÎ»h«H«IÊxÉyÈIÎ¸©B»;NÉX‚«(È8ÉØBÙZÈ‰‚ÉèÉËÎ¸¸‚ÙˆNÉêRÉX¸+Nº[Â¹Kº[N«:ÉÛN¸ù’È¹Î«NÉØBÉzÎÉÊÉè«(ÂÉêÉËÎÈKÉ©BârÂu6V7W&—G’67&VVæ–ærÖ’F¶RÆ6RBÖWG&ò7FF–öç2æB6öÖRGG&7F–öç3²föÆÆ÷r–ç7G'V7F–öç2æBÆÆ÷rW‡G&F–ÖRârÂ~YËKˆ¾˜˜Nšx^8(NKˆ˜:8îŠk>XXikŞŠŠŞ8~8şKùŞZèjIÎiû¾8ÎŠÎ8(ş8(Î8(¾8>88Î8.8(®8î88.jXh^8¾[é>8N8z{¾X¹^i˜.™i>8¾KÙŠ9^8).hÈ88î8~8(~8n8"rÂv‡GG3¢ò÷wwrãCBævòæ·"öçFå6fWG”–æfòóƒ’öFWF–ÂuÒÀ¢²~«H«IÊxÊ;Î»8ÉyÈIÂº‹ÎÊºyÉØB«º›Ë¾ÊyÉÛN¸)‚ºûÈŠÊNÈ¹ÎºÂ¸Ûº
+N«¸©BÈ*Î¹èÎÉØ»	N«ÊxÈ‰»)^ÉÛÂÈ‰‚ÉèÈ«^¸¸¸ºBârÂtg&–VæFÇ’7G&ævW'2æV"6–v‡G2–çf—F–ær–÷RFòFV†÷W6R÷"'B6†÷rÖ’&R'Vææ–ær&—ÖöfbârÂ~Šk>XXYË8~Š›8~8¾88nˆËnšJ8(N{èîŠ>[^8Š©8nK«®8ş88Î8>8ş8ş8(®8îh˜¾Xú>8î8>88Î8.8(®8î88"rÂv‡GG3¢ò÷wwrãCBævòæ·"öçFå6fWG”–æfòóƒ’öFWF–ÂuÒÀ¢ÒÀ¢ÒÀ¢æWF†W&ÆæG3¢°¢F—3¢°¢²~¸JN¸ÙÎ¹è¹9Â¸ÈÊI«YØk^ÉyÈIÂ»˜NÊ	ËH’Ë›N¹9ÎºÂÈ«Ë
+Ùh¸ºNº›B¸+NºkB¹XÎ¸øB«	ÉØË›N¹9ÎºÂØ9Î«{ÙYÈKÉ©BâÙËN¸ÈÊNÙ™NÉ˜ÈºNºËÂË›N¹9Î¸©BÈIÎºÂ¸ºNº[‚Ë›N¹9ÎºÂÉÛÈ¹Ş¹
+È‰‚ÉèÈ«^¸¸¸ºBârÂuv†VâW6–ær6öçF7FÆW72–ÖVçBöâGWF6‚V&Æ–2G&ç7÷'BÂ6†V6²÷WBv—F‚F†R6ÖR6&BW6VBFò6†V6²–ââ†öæRæB—G2‡—6–6Â6&BÖ’&RG&VFVB2F–ffW&VçB6&G2ârÂ~8*®8:8;>888îXZÎX[KªN˜	®8~8+ş88>88k®kˆ8*¾8;Î888).KÛş8nZNY8K™~‹¸®i˜.8™˜Ş‹¸®i˜.8¾YÎ88*¾8;Î888).KÛş8N8î8~8(~8n8.8+89î8;Î8889^8*8;>8Zéşxš8î8*¾8;Î888şXŠ^8î8*¾8;Î8888~8nh›8(ş8(Î8(¾8>88Î8.8(®8î88"rÂv‡GG3¢ò÷wwræç2ææÂöVâ÷6W'f–6RÖæBÖ6öçF7B÷–÷W"Ö6&BöfÖ&÷WB×G&fVÆÆ–ær×v—F‚ÖFV&—BÖ6&BuÒÀ¢²~¸JN¸ÙÎ¹è¹9ÎÉyÈIÎ¸©B¸È»h»hNÉÙ‚ÈhÎºzNÊ	ÉÛBÙˆN«ˆÉØB»	¾ÊxºxÂÉÛÎ»h¸©BË›N¹9ÂÊNÉªÉè^¸¸¸ºBâÉè^«ZÎÉÙ‚«+Ê	ÂÉX¸+Nº[ÂÙ™^ÉÛÙYÈKÉ©BârÂtÖ÷7BGWF6‚&WF–ÆW'266WB66‚Â'WB6öÖR&R6&BÖöæÇ“²6†V6²F†R–ÖVçBæ÷F–6RBF†RVçG&æ6RârÂ~8*®8:8;>888~8şZI®8ş8î[şZ;.[©~8~xûî˜y8ÎKÛş88î88Î88*¾8;Î88[.yJ8î[©~8(.8.8(®8î88.XZ^Xú>8îiJşh™^8NjXh^8).z+®Š¨Ş8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwræFæ"ææÂöVâövVæW&ÂÖæWw2öæWw2Ó##bö66‚Ö66WFæ6RÖ–â×F†RÖæWF†W&ÆæG2×&VÖ–ç2×7F&ÆRòuÒÀ¢ÒÀ¢6WF–öç3¢°¢²~ÉéÊN«¸øNºÎº[Â«~«¸)‚Ù™^ÉÛ‚ÉxnÉÛB«ºÎÊxº[NÊxºxÈKÉ©BâÉéÊN«Øk^ÙhÉØB»
+Ù[NÙ[BËj¸øÎÙZÈ‰‚ÉèÈ«^¸¸¸ºBârÂtFòæ÷BvÆ²Æöær7–6ÆRÆæW2÷"7FW7&÷72F†VÒv—F†÷WB6†V6¶–æs²F†—26âö'7G'V7B7–6Æ—7G2æB6W6R6öÆÆ—6–öç2ârÂ~ˆz®‹º.‹¸®˜>8).jÚ8N8ş8(®8jŠ®Xˆ~8(¾X˜Ş8¾z+®Š¨Ş8¾8®8¾˜.8)>88(®8~8®8N8~8ş88^8N8.ˆz®‹º.‹¸®8î˜	®ŠÎ8).Zj8.8(¾8®8Ş8(Î8Î8.8(®8î88"rÂv‡GG3¢ò÷wwrãCBævòæ·"öçFå6fWG”–æfòó#öFWF–ÂuÒÀ¢²~«H«I«	ŞÉÛBºxîÉØÉzŞ«;ÂØ«¹ê‚ÉXÉyÈIÎ¸©BÈhÎºzNË™«‹«ÉênÉËÎ¸¸‚«»
+ÉØBÉYîÉËÎºÂº™NÈKÉ©BârÂu–6·ö6¶WG2v÷&²'W7’7FF–öç2æBG&×3²vV"–÷W"&r–âg&öçBârÂ~Šk>XXZê.8îZI®8Nšx^8(N888:8:8~8ş8+8:®8ÎZI®8N8î8~88988>8+8şX˜Ş8¾hÈ88î8~8(~8n8"rÂv‡GG3¢ò÷wwrãCBævòæ·"öçFå6fWG”–æfòó#öFWF–ÂuÒÀ¢ÒÀ¢ÒÀ¢w&VV6S¢°¢F—3¢°¢²~ÉzÎºhB¸ÙNÉÈNÉy¸È»˜NÙ[B«;^È¹ÒØúŞÉ{ÂÊ	^»;Nº[ÂÙ™^ÉÛÙY«:ÂÉ[ÎÉ›‚ÉÊÊ«H¹èÎÉØ¸ÙNÉ«BÈ¹Î«NÉØBÙKÎÙ[B«8NÙ¨ŞÙYÈKÉ©BârÂtGW&–ær7VÖÖW"Â6†V6²öff–6–Â†VBÆW'G2æBÆâ÷WFFö÷"&6†VöÆöv–6Âf—6—G2Fòfö–BF†R†÷GFW7BW&–öG2ârÂ~ZHş8îi©8^8¾X)88k	~kŠ8(Nxkk:.8¾™j.88(¾XZÎ[Èşh8^Z8).z+®Š¨Ş8~8[¾ZIn8î˜®‹zŠk>XX8şi©8^8).˜ş88nŠˆyK¾8~8î8~8(~8n8"rÂv‡GG3¢òö6—f–Ç&÷FV7F–öâæv÷bæw"öVâööF–v–W2×&÷7F6–2ö¶—6öæ3öÆæsÖVâuÒÀ¢²~«{ºjÎÈªBÈ¹Ş¸»ÉyÈIÎ¸©B»›\+~È9ŞÈ‰º[Â¸ùÉÙ‚ÉxnÉÛBÊ	Î«;^ÙY«:Ë*Ş«ZÎÙY«¸)‚È¹Ş«‹+~È‰ÊÈ*ÎÉªº8Îº[Â»	¾ÉØBÈ‰‚ÉxnÈ«^¸¸¸ºBâÊ;ÎºË‚¸+NÉª«;Â«8NÈ+ÈIÎº[ÂÙ™^ÉÛÙYÈKÉ©BârÂtw&VV²&W7FW&çG2Ö’æ÷B6†&vRf÷"'&VB÷"&÷GFÆVBvFW"v—F†÷WB–÷W"6öç6VçBÂ÷"FB6÷fW"6†&vRf÷"F&ÆWv&Râ6†V6²–÷W"÷&FW"æB&–ÆÂârÂ~8*î8:®8+~8:>8îš;.š9ş[©~8~8ş8YÎhHş8®8ş898;>8(N89Î888:¾kN8).hùKé¾8~8nŠ¸¾k.8~8ş8(®8š9şYššî8î[ŠŞii8).Xùn8>8ş8(®8~8Ş8î8¾8)>8.k:ih~Xh^Zë8KÉ®Šˆ8).z+®Š¨Ş8~8î8~8(~8n8"rÂv‡GG3¢òövvRæÖ–æFWbæv÷bæw"÷FöÖV2ÖV×÷&–÷Rö¶æöæW2ÖF–W’òuÒÀ¢ÒÀ¢6WF–öç3¢°¢²~ÉXNØXÎ¸JBÊxÙYË*ÂØ«Ùè‚«;^ÙZÜ+~«H«IÊx¸[ÈJÉyÈIÎ¸©BÈhÎºzNË™«‹º[ÂÊÈºÎÙYÈKÉ©BârÂuvF6‚f÷"–6·ö6¶WG2öâF†RF†Vç2ÖWG&òÂW7V6–ÆÇ’F†R—'÷'BæBF÷W&—7BÆ–æW2ârÂ~8*.88n88Ş8îYËKˆ¾˜˜N8x›8¾z›®kŠş8(NŠk>XXYË8î‹zş{y®8~8ş8+8:®8¾k:hHş8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwrãCBævòæ·"öçFå6fWG”–æfòóöFWF–ÂuÒÀ¢²~ÉÊÊÊxÉÙ‚¸ÈºjÎÈIÒ«‹ÉØºzNÉ«ºû¸N¹úÎÉ«¸¸‚»	ËŞÉÛB¸º¸ºÙYÂÈº»	ÎÉØBÈºÉËÎÈKÉ©BârÂtÖ&&ÆRF‡2Bæ6–VçB6—FW2&RfW'’6Æ—W'“²vV"6†öW2v—F‚vööBw&—ârÂ~˜®‹z8îZJ~ynyû>8î˜>8ş88n8(.k¹8(®8(N88N8î8~8k¹8(®8¾8ş8N™ÛN8).[^8Ş8î8~8(~8n8"rÂv‡GG3¢ò÷6öf–GfVçGW&W2æ6öÒöÖ—7F¶W2×f—6—F–ær×F†RÖ7&÷öÆ—2òuÒÀ¢ÒÀ¢ÒÀ¢7&öF–¢°¢F—3¢°¢²~¹»ˆÎºÎ»ˆÎ¸¸ØÂ«ZÎÈ¹Î«Êx¸©BØÎº:ÊhÈJÉè^ÙZÒ¹XÂ»i»˜ÂÈ‰‚ÉèÈ«^¸¸¸ºBâÈ¹Â¸»«ZŞÉÙ‚»
+ºË«	Ü+~Éè^ÙZÒÉX¸+Nº[ÂÙ™^ÉÛÙY«:»
+ºË‚È¹Î«NÉØBÉêÉËÎÈKÉ©BârÂtGV'&÷fæ–²öÆBF÷vâ6â&R7&÷vFVBv†Vâ7'V—6R6†—2'&—fRâ6†V6²F†R6—G(	—2f—6—F÷"æB6†—Ö'&—fÂ–æf÷&ÖF–öâv†VâÆææ–ær–÷W"f—6—BârÂ~888*^89n8:Ş8;N88¾8*şiz~[ˆ.Š~8ş8*ş8:¾8;Î8+®ˆ‹8îXZ^kŠşi˜.8¾k{~™¹88(¾8>88Î8.8(®8î88.[ˆ.8îŠŠ®YXşˆ^8;¾XZ^kŠşjXh^8).z+®Š¨Ş8~8nŠŠ®YXşi˜.™i>8).k®8(8î8~8(~8n8"rÂv‡GG3¢ò÷wwræGV'&÷fæ–²æ‡"÷f–¦W7F’öö&f–¦W7BÖ—¦Ö¦Væ×ÆæÖFöÆ6¶Ö·'W¦W&ÓRÖÆ—7F÷FS4×G&’Ö'&öFÖæ×fW§R×RÖÇV6’Öw'W¢Ó#s"uÒÀ¢²~¹»ˆÎºÎ»ˆÎ¸¸ØÂÊ;Î»8Éy¸©BÉé«‚Ù[N»8¸øBÉèÉËÎ¸¸‚Ù[N»8»	N¸º^ÉØBÙ™^ÉÛÙY«:ÙXNÉ©NÙYº›BºËÎ¸hÉÛBÈº»	ÎÉØBË«‹ÈKÉ©BârÂu6öÖR&V6†W2&÷VæBGV'&÷fæ–²&RV&&Ç’â6†V6²F†R&V6‚7W&f6RæB'&–ærvFW"6†öW2–bW6VgVÂârÂ~888*^89n8:Ş8;N88¾8*şY‹ë®8¾8ş[şyû>8îkYÎ8(.8.8(®8î88.kYÎ8îx«nhX¾8).z+®Š¨Ş8~8[ø^Šh8®8(89î8:®8;>8+~8:^8;Î8+®8).yJhHş8~8î8~8(~8n8"rÂv‡GG3¢ò÷f—6—FGV'&÷fæ–²æ‡"÷wÖ6öçFVçB÷WÆöG2ó##2óö'&÷7W&ÖVâ×vV"çFbuÒÀ¢ÒÀ¢6WF–öç3¢°¢²~¹»ˆÎºÎ»ˆÎ¸¸ØÂ«ZÎÈ¹Î«Êx¹;«H«I«	ŞÉÛBºxîÉØ«;>ÉyÈIÎ¸©BÈhÎºzNË™«‹Éy¸È»˜NÙ[B«xÊIÙ(ÉØBÉé‚Ë«‹ÈKÉ©BârÂt–â'W7’F÷W&—7B&V27V6‚2GV'&÷fæ–²öÆBF÷vâÂ6V7W&RfÇV&ÆW2v–ç7B–6·ö6¶WG2ârÂ~888*^89n8:Ş8;N88¾8*şiz~[ˆ.Š~8®8Šk>XXZê.8îZI®8NZNh˜8~8ş88+8:®8¾X)88n‹+N˜xŞY88).zêyn8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwræv÷bçV²öf÷&V–vâ×G&fVÂÖGf–6Rö7&öF–÷6fWG’ÖæB×6V7W&—G’uÒÀ¢²~¹»ˆÎºÎ»ˆÎ¸¸ØÂ«ZÎÈ¹Î«ÊxÉyÈIÎ¸©BÈ‰Éˆ»;RË
+ºkÎÉÛN¸)‚È8ÉÙº[Â»)~«:«ÉËÎº›B»(Î«ˆÉØBºËÎºkBÈ‰‚ÉèÈ«^¸¸¸ºBârÂt–âGV'&÷fæ–¾(	—2öÆBF÷vâÂvÆ¶–ær–â7v–×vV"÷"v—F†÷WB6†—'B6â&W7VÇB–âf–æRârÂ~888*^89n8:Ş8;N88¾8*şiz~[ˆ.Š~8~8ş8kNyØZ{ş8(NKˆ®XØ®‹ª¾Š;8~jÚ8ş8{Û˜y8).zy8^8(Î8(¾8>88Î8.8(®8î88"rÂv‡GG3¢ò÷wwræGV'&÷fæ–²æ‡"÷f–¦W7F’öæVFöÆ–6æòÖöF¦WfVæ’×÷6¦WF—FVÆ¦’Öæ÷f6æòÖ¶¦æ¦Væ’ÓS“CuÒÀ¢ÒÀ¢ÒÀ¢uVæ—FVB7FFW2s¢°¢F—3¢°¢²~ºû«ZŞÉyÈIÎ¸©BÊxÉzŞ«;ÂÈ8Ù(Éy¹K¹ÛÂÙÎÈ¹Â««*ÉyØÉºzNÈK«¸ÙNÙ[NÊx‚È‰‚ÉèÈ«^¸¸¸ºBâÈ¹Ş¸»ÉÙ‚ËiN«É©N«ˆÉØÊ;ÎºË‚ÊNÉyº™N¸›NÉyÈIÂÙ™^ÉÛÙYÈKÉ©BârÂt–âF†RU2Â6ÆW2F‚Ö’&RFFVBFòF†RF—7Æ–VB&–6RFWVæF–æröâF†RÆ6RæB&öGV7Bâ6†V6²&W7FW&çBÖVçRf÷"W‡G&6†&vW2&Vf÷&R÷&FW&–ærârÂ~{>Y»Ş8~8şYËYùş8(NYXnY88¾8(8>8nŠzK®KêjÎ8¾Z;.Kˆ®zˆî8ÎXª8(ş8(¾8>88Î8.8(®8î88.š;.š9ş[©~8î‹ûŞXªii˜y8şk:ih~X˜Ş8¾8:88¾8:^8;Î8~z+®Š¨Ş8~8î8~8(~8n8"rÂv‡GG3¢òööræ6æv÷bö†–FFVæfVW2uÒÀ¢²tÄÉyÈIÎ¸©B¸ÈÊI«YØk^«;ÂË
+¹ø’Ù‹ËiÎÉØBºª¹ÉÛNÉªÙZÈ‰‚ÉèÈ«^¸¸¸ºBâº¨^ÈhÂ«BÉÛN¸ù’ÊNÉyº™NØ«ºÂ¸[ÈJ«;ÂË
+¹ø’Ù‹ËiÂÈ«Ë
+‚ÉÈNË™º[ÂÙ™^ÉÛÙYÈKÉ©BârÂt–âÄÂ&÷F‚V&Æ–2G&ç6—BæB&–FRÖ†–Æ–ær&Rf–Æ&ÆRâ6†V6²ÖWG&ò&÷WFW2æB&–FRÖ†–Â–6·Wö–çG2&Vf÷&RÖ÷f–ær&WGvVVâ6–v‡G2ârÂ~8:Ş8+^8;>8+Î8:¾8+8~8şXZÎX[KªN˜	®8˜XŞ‹¸®8+^8;Î89>8+8îKŠik8).XŠyJ8~8Ş8î88.YŞh˜™i>8îz{¾X¹^X˜Ş8¾YËKˆ¾˜˜N‹zş{y®8˜XŞ‹¸®8îK™~‹¸®ZNh˜8).z+®Š¨Ş8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwræF—66÷fW&Æ÷6ævVÆW2æ6öÒ÷G&fVÂ÷6Ö'B×G&fVÂ×F—2Ö–æf÷&ÖF–öâuÒÀ¢ÒÀ¢6WF–öç3¢°¢²~Ë
+‚ÉXÉy«»
+œ+~ºËÎ«NÉØB»;NÉÛN«(Â¹º›BË
+¹ø’ØKÉÛN«ÉênÉËÎ¸¸‚ÉXNºËN«(>¸øB¸*«‹ÊxºxÈKÉ©BârÂt6"'&V²Ö–ç2&R6öÖÖöã²æWfW"ÆVfR&w2÷"ç—F†–ærf—6–&ÆR–â&¶VB6"ârÂ~‹¸®Kˆ®ˆÙ.8(8~8ÎZI®8N8î8~8šy‹¸®8~8ş‹¸®Xh^8¾ˆÛ~xš8).Šh¾88(¾x«nhX¾8~{Úî8¾8®8N8(8n8¾8"rÂv‡GG3¢ò÷wwrãCBævòæ·"öçFå6fWG”–æfòóc’öFWF–ÂuÒÀ¢²~ºû«ZŞÉÙ‚¸*şÈJÊxÉzŞÉyÈIÎ¸©BØ«Ùè‚»
+NÉyÙYÎÊÙYÂ«;>ÉØBÙ‹ÎÉé«~ÊxºxÈKÉ©BârÂt–âVæfÖ–Æ–"'G2öbF†RU2Âfö–BvÆ¶–ærÆöæRF‡&÷Vv‚V–WB&V2ÂW7V6–ÆÇ’Bæ–v‡BârÂ~{>Y»Ş8îKˆŞhZ>8(Î8®YËYùş8~8ş8x›8¾ZIÎ™i>8¾K«®˜	®8(®8î[	8®8NZNh˜8).KˆK«®8~jÚ8¾8®8N8(8n8¾8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwræv÷bçV²öf÷&V–vâ×G&fVÂÖGf–6R÷W6÷6fWG’ÖæB×6V7W&—G’uÒÀ¢ÒÀ¢ÒÀ¢ÖÆ—6–¢°¢F—3¢°¢²~ºyºÉÛNÈ¹ÎÉXNÉyÈIÂw&"Ë
+¹ø’Ù‹ËiÂÈIÎ»˜NÈªNº[ÂÉÛNÉªÙZÈ‰‚ÉèÊxºxÂÂÈ«Ë
+‚ÉÈNË™É˜Ë
+¹ø’Ê	^»;Nº[ÂÉ[ÉyÈIÂÙ™^ÉÛÙYÈKÉ©BârÂtw&"&–FRÖ†–Æ–ær—2f–Æ&ÆR–âÖÆ—6–²6öæf—&ÒF†R–6·Wö–çBæBfV†–6ÆRFWF–Ç2–âF†RârÂ~89î8:Î8;Î8+~8*.8~8ôw&.8î˜XŞ‹¸®8+^8;Î89>8+8).XŠyJ8~8Ş8î88.8*.89~8:®8~K™~‹¸®ZNh˜8‹¸®KŠh8^Z8).z+®Š¨Ş8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwræw&"æ6öÒö×’÷G&ç7÷'BòuÒÀ¢²~ÉÛNÈªÎ¹èÂÈ*ÎÉ¹Éy»
+ºËÙZ¹XÎ¸©BÉkN«šŒ+~ØÉL+~¸ºNºjÎº[Â«ºjÎ¸©B¸ºÊ	^ÙYÂÉ‹~ÉØBÉè^«:ÂÈº»	ÎÉØB»)~¸©B¹;ÙˆNÉêR«yÎË™ÉØB¹Kº[NÈKÉ©BârÂuv†Vâf—6—F–ærÖ÷7VRÂG&W72ÖöFW7FÇ’v—F‚6†÷VÆFW'2Â&×2æBÆVw26÷fW&VBÂ&VÖ÷fR6†öW2ÂæBföÆÆ÷r6—FR'VÆW2ârÂ~8:.8+8*ş8).ŠŠ®8(Î8(¾™©¾8şˆ*8;¾ˆY^8;¾ˆI®8).Šhn8niÈŞŠ8^8¾8~8™ÛN8).ˆK88®8xûîYË8î8:¾8;Î8:¾8¾[é>8>8n8ş88^8N8"rÂv‡GG3¢ò÷wwræÖÆ—6–çG&fVÂöW‡Æ÷&R÷WG&ÖÖ÷7VRuÒÀ¢ÒÀ¢6WF–öç3¢°¢²~ÉŠNØj»	NÉÛB¸*Ë™«‹«ÉèÉËÎ¸¸‚«»
+ÉØË
+¸øB»	¸ÈÊ«ŞÉËÎºÂº™N«:¸ºN¸¸ÈKÉ©BârÂt&r6æF6†–ærg&öÒÖ÷F÷&&–¶W2†Vç3²6''’–÷W"&röâF†R6–FRv’g&öÒG&ff–2ârÂ~898*N8*ş8¾8(8(¾8.8>8ş8ş8(®8Î8.8(¾8î8~88988>8+8ş‹¸®˜>8XøŞZûîXN8¾hÈ88î8~8(~8n8"rÂv‡GG3¢ò÷wwrãCBævòæ·"öçFå6fWG”–æfòóSböFWF–ÂuÒÀ¢²~ÉŠNÙ¸NÉy«	Éé«‹ÈùşÉXNÊx¸©BÉ{N¸ÈÈKÈhÎ¸)«‹«ÉênÉXBÉ«È+ÉØB¸©‚Ë«‹ÈKÉ©BârÂu7VFFVâG&÷–6ÂF÷vç÷W'2&R6öÖÖöâ–âF†RgFW&æööã²Çv—26''’âVÖ'&VÆÆârÂ~XØ[èÎ8¾z¨xKn8î8+8+>8;Î8:¾8ÎZI®8N8î8~8X)8).[‹8¾hÈ88î8~8(~8n8"rÂv‡GG3¢ò÷6rçG&—æ6öÒöwV–FRö–æfòö&W7B×F–ÖR×Fò×f—6—BÖ·VÆÖÇV×W"æ‡FÖÂuÒÀ¢ÒÀ¢ÒÀ¢—FÇ“¢°¢F—3¢°¢²~ÉÛNØ8ºjÎÉXB»	NÉyÈIÂËºNÙKÎº[ÂºxÈºB¹XÎ¸©BË›NÉ«NØKÉ˜ØXÎÉÛN»‰BÉÛNÉª’««*ÉÛB¸ºNº[ÂÈ‰‚ÉèÉËÎ¸¸‚Ê;ÎºË‚ÊNÉyº™N¸›Nº[ÂÙ™^ÉÛÙYÈKÉ©BârÂtBâ—FÆ–â6l:’Â6÷VçFW"æBF&ÆR×6W'f–6R&–6W2Ö’F–ffW#²6†V6²F†RÖVçR&Vf÷&R÷&FW&–ærârÂ~8*N8+ş8:®8*.8î898;Î8:¾8~8ş8*¾8*n8;>8+ş8;Î888n8;Î89n8:¾8~ii˜y8Îy[8®8(¾ZNY8Î8.8(¾8ş8(8k:ih~X˜Ş8¾8:88¾8:^8;Î8).z+®Š¨Ş8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwræÖ–Ö—Bæv÷bæ—Bö–ÖvW2÷7F÷&–W2ô&æF’ôVæF–6Uô6—FöÆFõôÄ•5D”äó#5õ$U¥¤•ô54ô$"çFbuÒÀ¢²~Ø«º¸¸Ø8ºjÎÉXBÊxÉzŞÉ{NË
+‚Ê(^ÉÛBÙ¨Î«hÎÉØËiÎ»	ÂÊBÉzÒ«(ÙÎ«‹ÉyÈIÂ«	ÎËÙ[NÉ[ÂÙZ¸¸¸ºBâ¹INÊxØK‚ÊxÉzŞÉ{NË
+ÙÎ¸©BÊ(^ºYÉy¹K¹ÛÂÉé¸ùÉËÎºÂÉÊÙªÙ™N¹
+¸¸¸ºBârÂufÆ–FFRG&Væ—FÆ–&Vv–öæÂW"6–ævÆRF–6¶WBBF†R7FF–öâ&Vf÷&RFW'GW&RâF–v—FÂ&Vv–öæÂF–6¶WG2&RfÆ–FFVBWFöÖF–6ÆÇ’66÷&F–ærFòF†V—"G—RârÂ~888:Î88¾8+ş8:®8*.8îYËYùşX‰~‹¸®8î{I8ãY¹îX‹8şy›®‹¸®X˜Ş8¾šx^8~X‹¾XÛ8Î[ø^Šh8~88.88~8+8+ş8:¾8îYËYùşX‰~‹¸®X‹8şzŠîšî8¾[ùÎ88nˆz®X¹^y¨N8¾iÈX«8¾8®8(®8î88"rÂv‡GG3¢ò÷wwrçG&Væ—FÆ–æ6öÒöVâö–æf÷&ÖF–öâ÷G&fVÆÆ–ærÖöâ×&Vv–öæÂ×G&–ç2æ‡FÖÂuÒÀ¢ÒÀ¢6WF–öç3¢°¢²~ºÎºxŒ+~ÙKÎºÎË+L+~»*¸JNË™ÉXB«H«IÊxÉ˜¸ÈÊI«YØk^ÉyÈIÎ¸©BÈhÎºzNË™«‹«ºzNÉ«ÉênÈ«^¸¸¸ºBârÂu–6·ö6¶WF–ær—2fW'’6öÖÖöâB6–v‡G2æBöâG&ç6—B–â&öÖRÂfÆ÷&Væ6RæBfVæ–6RârÂ~8:Ş8;Î89î8;¾89^8*>8:Î8;>88N8*~8;¾8;N8*~88Ş88N8*>8*.8îŠk>XXYË8(NXZÎX[KªN˜	®8~8ş8+8:®8Î™Ùî[‹8¾ZI®8N8~88"rÂv‡GG3¢ò÷wwrãCBævòæ·"öçFå6fWG”–æfòós’öFWF–ÂuÒÀ¢²~ÉÛNØ8ºjÎÉXBÉzÎ¹úÂ¸øNÈ¹ÎÉÙ‚ÉzŞÈ*ÂÊx«ZÎÉy¸©BË
+¹ø’Ê	ÎÙYÂ«ZÎÉzÒ…¥DÂÉÛBÉèÈ«^¸¸¸ºBâºÎØKË›NºÂÊxNÉè^ÙY«‹ÊNÉyÙÎÊxÉ˜Ùx«Ê«NÉØBÙ™^ÉÛÙYÈKÉ©BârÂtÖç’—FÆ–â†—7F÷&–26VçG&W2†fRÆ–Ö—FVB×G&ff–2¦öæW2…¥DÂ’â6†V6²6–vç2æBW&Ö—B'VÆW2&Vf÷&RG&—f–ær–âv—F‚&VçFÂ6"ârÂ~8*N8+ş8:®8*.8îZI®8ş8îjÛNXû.YËXË®8¾8ş‹¸®KŠ˜.XZ^X‹n™™XË®YùşûÈ…¥DÎûÈ8Î8.8(®8î88.8:Î8;>8+ş8*¾8;Î8~XZ^8(¾X˜Ş8¾j‰ŠÙ8Š‹XúşiÚK»n8).z+®Š¨Ş8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwræv÷bçV²öf÷&V–vâ×G&fVÂÖGf–6Rö—FÇ’÷6fWG’ÖæB×6V7W&—G’uÒÀ¢ÒÀ¢ÒÀ¢7–ã¢°¢F—3¢°¢²~ÈªNØéÉÛÉØ¸ºNº[‚ÉzÎ¹úÂ¸)¹ÛÎ»;N¸ºBÈ¹ŞÈ*ÂÈ¹Î«NÉÛB¸ªnÉØØëÉÛNÊxºxÂÈ¹Ş¸»»8BÉˆÉx^È¹Î«NÉØ¸ºNº[NºøºÂ»
+ºË‚ÊNÉyÙ™^ÉÛÙYÈKÉ©BârÂtÖVÂF–ÖW2–â7–âFVæBFò&RÆFW"F†â–âÖç’6÷VçG&–W2Â'WB÷Væ–ær†÷W'2f'’'’&W7FW&çC²6†V6²&Vf÷&Rf—6—F–ærârÂ~8+89®8*N8;>8~8şš9şK¨¾8îi˜.™i>8ÎK¹nY»Ş8(8(®˜^8NX+îY	8Î8.8(®8î88Î8[©~8¾8(8>8nYknjZŞi˜.™i>8şy[8®8(®8î88.ŠŠ®YXşX˜Ş8¾z+®Š¨Ş8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwrç7–âæ–æfòöVâö&÷WB×7–âòuÒÀ¢²~«{¹ÛÎ¸)¸ºBÉXÎÙZ»ˆÎ¹ÛÂ«hÊNÉØ«;^È¹ÒÉˆºzBÈ*ÎÉÛNØ«ÉyÈIÂ»
+ºË‚¸*ÊyÎÉ˜Éè^ÉêRÈ¹Î«NÉØBÈJØ9ŞÙ[BÉˆºzNÙYÈKÉ©BârÂtf÷"w&æF(	—2Æ†Ö'&Â6VÆV7B–÷W"f—6—BFFRæBVçG'’F–ÖRöâ—G2öff–6–ÂF–6¶WB6—FRârÂ~8+8:88®888î8*.8:¾88ş8;>89n8:Zêîjëş8şXZÎ[ÈşK¨{HN8+^8*N888~ŠŠ®YXşiz^8XZ^ZNi˜.™i>8).˜8)>8~K¨{HN8~8î8~8(~8n8"rÂv‡GG3¢ò÷F–6¶WG2æÆ†Ö'&×G&öæFòæW2öVâòuÒÀ¢ÒÀ¢6WF–öç3¢°¢²~»	Nº[NÈXºÎ¸)‚¹èÎ»‰N¹ÛÎÈªB«ºjÌ+~ÊxÙYË*«;Âºx¹9ÎºjÎ¹9ÂÈiB«IÉêRÊ;Î»8ÉØÈhÎºzNË™«‹«ºzNÉ«ºxîÈ«^¸¸¸ºBârÂu–6·ö6¶WG2&R&–fRöâÆ2&Ö&Æ2æBF†R&&6VÆöæÖWG&òÂæB&÷VæBÖG&–N(	—2VW'FFVÂ6öÂârÂ~898:¾8+¾8:Ş88®8î8:8;>89n8:8+˜	®8(®8(NYËKˆ¾˜˜N889î888:®8;Î888î8+Ş8:¾[¨>ZNY‹ë®8ş8+8:®8Î™Ùî[‹8¾ZI®8N8~88"rÂv‡GG3¢ò÷wwrãCBævòæ·"öçFå6fWG”–æfòó#‚öFWF–ÂuÒÀ¢²~ØXÎ¹ÛÎÈªBÉéºjÎÉyÈIÂÙËN¸ÈØûÉØBØXÎÉÛN»‰BÉÈNÉy¹º›BÈ‰ÎÈ¹Ş«NÉy«Ê«¸©B«+ŞÉ««ÉèÈ«^¸¸¸ºBârÂu†öæW2ÆVgBöâFW'&6RF&ÆW26âfæ—6‚–â6V6öæG2ârÂ~88n8:8+[ŠŞ8~88n8;Î89n8:¾8¾i®[Šş8).{Úî8ş88KˆyêÎ8~y¹~8(8(Î8(¾8>88Î8.8(®8î88"rÂv‡GG3¢ò÷wwræv÷bçV²öf÷&V–vâ×G&fVÂÖGf–6R÷7–â÷6fWG’ÖæB×6V7W&—G’uÒÀ¢ÒÀ¢ÒÀ¢¶¦¶‡7Fã¢°¢F—3¢°¢²~ÙˆNÊxË
+¹ø’Ù‹ËiÂÉ[…–æFW‚vò¹;ÉËÎºÂØ9ŞÈ¹Îº[Â»hº[Nº›BÉ©N«ˆÉÛBºûºjÂÊ	^Ù[NÊ‚ØëÙZ¸¸¸ºBârÂtÆö6Â&–FRÖ†–Æ–ær27V6‚2–æFW‚vòv—fRf—†VBf&W2Wg&öçBârÂ~xûîYË8î˜XŞ‹¸®8*.89~8:®ûÈ…–æFW‚vş8®8ûÈ8).KÛş8n8ii˜y8ÎK¨¾X˜Ş8¾k®8î8(®KëşXŠ8~88"rÂv‡GG3¢ò÷wwræ—'÷'GG&ç6fW'÷'FÂæ6öÒöW2ö—'÷'BÖwV–FW2öÆ÷F†’×g2×G&ç6fW"uÒÀ¢²~Ë›NÉéÙÙÈªNØ8NÉyÈIÎ¸©BË›NÉéÙÙÉkNÉ˜¹úÎÈ¹ÎÉXNÉkN«É;Éè^¸¸¸ºBâº™N¸›L+~ÙÎÊxØÉÉØBÉÛŞÉØBÈ‰‚Éè¸øNºÒ»(ÉzÒÈ‰¸ºÉØBÊH»˜NÙYÈKÉ©BârÂt¶¦¶‚æB'W76–â&RW6VB–â¶¦¶‡7Fââ&W&Rv’FòG&ç6ÆFRÖVçW2æB6–vç2ârÂ~8*¾8+n89^8+8+ş8;>8~8ş8*¾8+n89^Š©î88:Ş8+~8*.Š©î8ÎKÛş8(ş8(Î8î88.8:88¾8:^8;Î8(Nj‰ŠÙ8).ŠªŞ8(8(¾8(8n{û¾Š‹>h˜¾jë^8).yJhHş8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwræv÷bæ·¢ö÷&röÖfÖÆöæFöâ÷&W72ö'F–6ÆRöFWF–Ç2óƒS“öÆæsÖVâuÒÀ¢ÒÀ¢6WF–öç3¢°¢²~«*É«Éy¸©BÉˆÙYºÂØÎ«(Â¸+Nº
+N««:«‹ÉÛBÉkÎÉkBºû¸N¹úÎÉ«¸¸‚ºû¸N¹ûÂ»
+ÊxÈº»	Î«;Â»
+ÙYÎ»;^ÉØBË«‹ÈKÉ©BârÂuv–çFW'2G&÷vVÆÂ&VÆ÷rg&VW¦–ærv—F‚–7’fVÖVçG3²'&–ærw&—’&ö÷G2æBv&ÒÆ–W'2ârÂ~XjÎ8şk~x+Kˆ¾8).ZJ~8Ş8şKˆ¾Y¹î8(®˜>8ÎXxŞ8(¾8î8~8k¹8(®8¾8ş8N™ÛN8™‹.Zù.yØ8).8"rÂv‡GG3¢ò÷wwrãCBævòæ·"öçFå6fWG”–æfòó#öFWF–ÂuÒÀ¢ÒÀ¢ÒÀ¢W¦&V¶—7Fã¢°¢F—3¢°¢²~¸øNÈ¹Â«BÉÛN¸ùÉØ«:ÈhŞÉ{NË
+«ØëÙYÊxºxÂÈKÈ‰«‹Éy¸©BÙÎ«»šºjÂºzNÊxN¹	¸¸‚ºûºjÂÉˆºzNÙYÈKÉ©BârÂt†–v‚×7VVBG&–ç2Æ–æ²F†R6—F–W2'WB6VÆÂ÷WB–âV²6V6öã²&öö²V&Ç’ârÂ~˜;Ş[ˆ.™i>8şš¹˜	ş˜˜N˜>8ÎKëşXŠ8~88Î8{˜[ùiÉş8şiz8şZ;.8(®Xˆ~8(Î8(¾8î8~K¨¾X˜ŞK¨{HN8).8"rÂv‡GG3¢òöWW&6–çG&fVÂ÷W¦&V¶—7Fâ÷G&ç7÷'B÷W¦&V¶—7Fâ×&–Çv—2ö&öö²×F–6¶WG2òuÒÀ¢²~ºªÈªNØÌ+~ÈKÊxº[Â»
+ºËÙZ¹XÂÈ¹ÎÈJN»8B»;^ÉêR«yÎË™ÉØBÙ™^ÉÛÙY«:ÂÙXNÉ©NÙYº›BÉkN«šŒ+~ºËNºhîÉØB«ºjÎ¸©BÉ‹~«;ÂÈªNË›NÙHNº[ÂÊH»˜NÙYÈKÉ©BârÂt6†V6²G&W72'VÆW2BÖ÷7VW2æB67&VB6—FW3²'&–ær6Æ÷F†–ærF†B6÷fW'2–÷W"6†÷VÆFW'2æB¶æVW2ÂæB66&b–b&WV—&VBârÂ~8:.8+8*ş8(NˆnYË8~8şikŞŠŠŞ8N88îiÈŞŠ8^8:¾8;Î8:¾8).z+®Š¨Ş8~8[ø^Šh8¾[ùÎ88nˆ*8(NˆiŞ8).Šhn8niÈŞ8(N8+8*¾8;Î89^8).yJhHş8~8î8~8(~8n8"rÂv‡GG3¢ò÷W¦&V¶—7FâçG&fVÂöVâö’÷G&fVÂ×F—2òuÒÀ¢ÒÀ¢6WF–öç3¢°¢²~È¹ÎÉê^«;ÂØ9ŞÈ¹Î¸©B««*ÉØBºûºjÂÙ™^ÉÛÙY«¸)‚ÙÚ^Ê	^ÙY«:ÂºûØK«‹Éxn¸©BØ9ŞÈ¹Î¸©BËiÎ»	ÂÊNÉyÉ©N«ˆÉØBÊ	^ÙYÈKÉ©BârÂtw&VR&–6W2BÖ&¶WG2æBf—‚F†’f&W2&Vf÷&R6WGF–æröfb–bF†W&R—2æòÖWFW"ârÂ~[ˆ.ZN8(N8+ş8*ş8+~8;Î8şK¨¾X˜Ş8¾X
+Një^8).z+®Š¨Ş8~88:8;Î8+ş8;Î8î8®8N8+ş8*ş8+~8;Î8şX{®y›®X˜Ş8¾ii˜y8).k®8(8î8~8(~8n8"rÂv‡GG3¢ò÷wwrãCBævòæ·"öçFå6fWG”–æfòóc‚öFWF–ÂuÒÀ¢²~ÉzÎºhBÙYÎ¸*â«‹ÉŠÉÛBºzNÉ«¸i.ÉXBÉŠNÙ¸BÉ[ÎÉ›‚«H«IÉØÙKÎÙY«:ºËÎÉØBÉéÊ;ÂºxÈ¹ÎÈKÉ©BârÂu7VÖÖW"gFW&æööç2&RW‡G&VÖVÇ’†÷C²fö–B÷WFFö÷"6–v‡G6VV–ærF†VâæBG&–æ²ÆVçG’öbvFW"ârÂ~ZHş8îiz^KŠŞ8ş™Ùî[‹8¾i©8N8î8~8XØ[èÎ8î[¾ZInŠk>XX8ş˜ş88kN8).8>8î8(8¾š;.8ş8î8~8(~8n8"rÂv‡GG3¢ò÷W¦&V¶—7FâçG&fVÂöVâö’÷G&fVÂ×F—2òuÒÀ¢ÒÀ¢ÒÀ¢vV÷&v–¢°¢F—3¢°¢²~Ø«»˜ÎºjÎÈ¹ÎÉyÈIÎ¸©B&öÇL+u–æFW‚«	ÉØË
+¹ø’Ù‹ËiÂÉ[ÉØBÉÛNÉªÙZÈ‰‚ÉèÈ«^¸¸¸ºBâ«‹ÉyÈIÂØ9ŞÈ¹Îº[ÂÉêÉËÎº›BËiÎ»	ÂÊNÉyºªÊÊxÉ˜É©N«ˆÉØBÊ	^ÙYÈKÉ©BârÂt–âF&–Æ—6’ÂF†’27V6‚2&öÇBæB–æFW‚&Rf–Æ&ÆRâ–b†–Æ–ær7G&VWBF†’Âw&VRF†RFW7F–æF–öâæBf&R&Vf÷&RFW'GW&RârÂ~8889>8:®8+~8~8ô&öÇN8(E–æFW8®88î˜XŞ‹¸®8*.89~8:®8ÎKÛş88î88.kX8~8î8+ş8*ş8+~8;Î8¾K™~8(¾ZNY8şX{®y›®X˜Ş8¾ŠÎ8ŞXX8ii˜y8).k®8(8î8~8(~8n8"rÂv‡GG3¢òövV÷&v–çG&fVÂ÷G&fVÂ×F—2Öf÷"ÖW‡Æ÷&–ær×F&–Æ—6’uÒÀ¢²~ÊÊxÉXNÉÙ‚«YÙ¨Â¹;Ê(^«YÈ¹ÎÈJNÉØB»
+ºËÙZ¹XÎ¸©B¸ºÊ	^ÙYÂ»;^Éê^ÉØBÙY«:È¹ÎÈJN»8BÉX¸+Nº[Â¹Kº[NÈKÉ©BârÂtG&W72ÖöFW7FÇ’v†Vâf—6—F–ær6‡W&6†W2æB÷F†W"&VÆ–v–÷W26—FW2–âvV÷&v–ÂæBföÆÆ÷rV6‚6—F^(	—2wV–Fæ6RârÂ~8+8:~8;Î8+8*.8îiYKÉ®8®8Zé~iYikŞŠŠŞ8).ŠŠ®8(Î8(¾™©¾8şhê~88(8®iÈŞŠ8^8¾8~8ikŞŠŠŞ8N88îjXh^8¾[é>8N8î8~8(~8n8"rÂv‡GG3¢ò÷wwræv÷bçV²öf÷&V–vâ×G&fVÂÖGf–6RövV÷&v–÷6fWG’ÖæB×6V7W&—G’uÒÀ¢ÒÀ¢6WF–öç3¢°¢²~Ø«»˜ÎºjÎÈ¹Â«ZÎÈ¹Î«ÊxÉy¸©B«ZÎ»h«ZÎ»hÙYÂ¸øÎ«‹ÉÛBÉèÉËÎ¸¸‚«~«‹ØëÙYÂÈº»	ÎÉØBÊH»˜NÙYÈKÉ©BârÂtöÆBF&–Æ—6’†2v–æF–ær6ö&&ÆVB7G&VWG2Â6òvV"6öÖf÷'F&ÆRvÆ¶–ær6†öW2ârÂ~8889>8:®8+~iz~[ˆ.Š~8¾8şi».8Î8(®8ş8Ş8>8şyû>y[>8î˜>8Î8.8(¾8ş8(8jÚ8Ş8(N88N™ÛN8).yJhHş8~8î8~8(~8n8"rÂv‡GG3¢òövV÷&v–çG&fVÂö6—F–W2×F÷vç2÷F&–Æ—6’uÒÀ¢²~É«NÊNÉÛB«ËšÉkB«‹ÉØB«N¸I¹XÎ¸©BÈºÙ‹«ÉèÉkN¸øBË
+º[ÂÙ™^ÉÛÙYÈKÉ©BârÂtG&—f–ær6â&Rvw&W76—fS²6†V6²f÷"6'2WfVâBw&VVâ7&÷76–ærârÂ~˜¾‹º.8ÎˆÙ.8N8î8~8KúXû~8Î8.8>8n8(.‹¸®8).z+®Š¨Ş8~8nkŠ8(®8î8~8(~8n8"rÂv‡GG3¢ò÷wwrãCBævòæ·"öçFå6fWG”–æfòó33"öFWF–ÂuÒÀ¢ÒÀ¢ÒÀ¢ÖW†–6ó¢°¢F—3¢°¢²~È¹Ş¸»ÉyÈIÎ¸©BØÈÉØB¸*«‹¸©B«(>ÉÛB«HºÉè^¸¸¸ºBâ«8NÈ+ÈIÎÉyÉÛNºû‚ØúÎÙZ¹	¸©NÊxÙ™^ÉÛÙYÈKÉ©BârÂuF—–ær–â&W7FW&çG2—27W7FöÖ'“²6†V6²v†WF†W"—B—2Ç&VG’–æ6ÇVFVBöâF†R&–ÆÂârÂ~8:Î8+888:8;>8~8888>89~8).kŠ88î8şhZ>Kè¾8~88.KÉ®Šˆ8¾88~8¾Y
+¾8î8(Î8n8N8®8N8¾z+®Š¨Ş8~8î8~8(~8n8"rÂv‡GG3¢òöÖW†–6ö6—G’æ6F×‚ævö"æ×‚öRö&6–72Öf÷"ÖÖW†–6òÖ6—G’×G&fVÂòuÒÀ¢²~º™^È¹ÎËÙNÉÙ‚»)^Ê	RÙ™NØù¸©BØéÈhÎÉè^¸¸¸ºBâ««*ÙÎÉÙ‚Øk^Ù™Nº[ÂÙ™^ÉÛÙY«:ØéÈhÂ«‹ÊH«ˆÉZÉØBÈ+NÙKÎÈKÉ©BârÂuF†RW6ò—2ÖW†–6ş(	—2ÆVvÂ7W'&Væ7’â6†V6²F†R7W'&Væ7’6†÷vâöâ&–6RÆ&VÇ2æBF†RÖ÷VçB–âW6÷2ârÂ~8:8*Ş8+~8+>8îk9^Zé®˜	®‹*8ş89®8+Ş8~88.X
+NiÊŞ8î˜	®‹*8).z+®Š¨Ş8~889®8+Ş[»®8n8î˜yšŞ8).z+®8¾8(8î8~8(~8n8"rÂv‡GG3¢ò÷wwræ&ç†–6òæ÷&ræ×‚÷&VwVÆF–öç2ÖæB×7WW'f—6–öâöBòSt#S$cC‚ÔcTdÔS„bÓ”CÔS#sdSCƒ3StBçFbuÒÀ¢ÒÀ¢6WF–öç3¢°¢²~º™^È¹ÎËÙNÉyÈIÎ¸©BÈ9ŞÈ‰º[ÂºxÈ¹Î«:ÂÈ‰¸ù~ºËÎÉØºxÈ¹ÎÊxÉX®¸©BØëÉÛBÉXÊNÙZ¸¸¸ºBârÂtG&–æ²&÷GFÆVBvFW"–âÖW†–6ó²—B—26fW"æ÷BFòG&–æ²FvFW"ârÂ~8:8*Ş8+~8+>8~8ş89Î888:¾XZ^8(®8îkN8).š;.8ş8kN˜>kN8şš;.8î8®8N8¾8n8ÎZèXZ8~88"rÂv‡GG3¢ò÷wwvæ2æ6F2æv÷b÷G&fVÂöFW7F–æF–öç2÷G&fVÆW"öæöæRöÖW†–6òuÒÀ¢²~ÊxÉzŞ»8BË™ÉX‚È8ÙšÉÛB¸ºNº[NºøºÂÉ[Î«BÉÛN¸ù’ÊNÉy¸©BÉ›«Y»hÉÙ‚ÊxÉzŞ»8BÉXÊBÉX¸+Nº[ÂÙ™^ÉÛÙY«:ÉÛN¸ù’È‰¸ºÉØBºûºjÂÊ	^ÙYÈKÉ©BârÂu6fWG’6öæF—F–öç2f'’'’&Vâ6†V6²öff–6–Â&Vv–öæÂGf–6R&Vf÷&RG&fVÆÆ–ærBæ–v‡BæBÆâ–÷W"G&ç7÷'B–âGfæ6RârÂ~YËYùş8¾8(8>8nk+¾Zèx«nk88Îy[8®8(¾8ş8(8ZIÎ™i>8îz{¾X¹^X˜Ş8¾ZInX¹yÈ8îYËYùşXŠ^ZèXZh8^Z8).z+®Š¨Ş8~8z{¾X¹^h˜¾jë^8).k®8(8n8®8Ş8î8~8(~8n8"rÂv‡GG3¢ò÷wwrãCBævòæ·"öçFå6fWG”–æfòóS‚öFWF–ÂuÒÀ¢ÒÀ¢ÒÀ¢FVæÖ&³¢°¢F—3¢°¢²~¸È»h»hBË›N¹9ÎºÂ«+Ê	ÎÙ[BÙˆN«ˆÉÛB«ÉÙ‚ÙXNÉ©BÉxnÈ«^¸¸¸ºBârÂtÆÖ÷7BWfW'—F†–ær—2–B'’6&BÂ6ò–÷R&&VÇ’æVVB66‚ârÂ~8¾8Î8*¾8;Î88h™^8N8®8î8~8xûî˜y8ş8¾88)>8[ø^Šh8.8(®8î8¾8)>8"rÂv‡GG3¢ò÷wwrçG&fVÆvòæw"öVâ÷G&fVÂ×F—2óS##3’ó×F†–æw2×–÷RÖæVVBÖ¶æ÷r×f—6—F–ærÖ6÷Væ†vVâuÒÀ¢²~ËÙNØéÎÙY«)ÉyÈIÎ¸©BÈ‰¸ù~ºËÎÉØBºxÈºBÈ‰‚Éè«:«;^«;RÈ¹ŞÈ‰¸ÈÉyÈIÂºËÎ»9ÉØBËNÉ«‚È‰‚ÉèÈ«^¸¸¸ºBârÂt–â6÷Væ†vVâÂFvFW"—26fRFòG&–æ²æB–÷R6â&Vf–ÆÂ&÷GFÆRBV&Æ–2G&–æ¶–ærf÷VçF–ç2ârÂ~8+>89®8;>88ş8;Î8+.8;>8~8şkN˜>kN8).š;.8(8î88.XZÎX[8î{ZnkNh˜8~89Î888:¾8¾Š9ÎXX^8~8Ş8î88"rÂv‡GG3¢ò÷wwræ†öf÷"æF²öVævÆ—6‚ö†öf÷"×WF–Æ—F–W2÷vFW"×7WÇ’ög&VRÖG&–æ¶–ær×vFW"Ö–âÖ6÷Væ†vVâòuÒÀ¢ÒÀ¢6WF–öç3¢°¢²~ËÙNØéÎÙY«)ÉyÈIÎ¸©BÉéÊN«¸øNºÎÉ˜»;NÙhºÎº[Â«ZÎ»hNÙ[B«~«:ÂÉéÊN«¸øNºÎº[Â«N¸I¹XÂÉŠN«¸©BÉéÊN«º[ÂÈ+NÙKÎÈKÉ©BârÂt–â6÷Væ†vVâÂ¶VWFòVFW7G&–âF‡2æBvF6‚f÷"7–6Æ—7G2v†Vâ7&÷76–ær7–6ÆRÆæRârÂ~8+>89®8;>88ş8;Î8+.8;>8~8şjÚ˜>8ˆz®‹º.‹¸®˜>8).Šh¾Xˆn88njÚ8Ş8ˆz®‹º.‹¸®˜>8).jŠ®Xˆ~8(¾88Ş8şˆz®‹º.‹¸®8).z+®Š¨Ş8~8î8~8(~8n8"rÂv‡GG3¢òö–çFW&æF–öæÂæ¶²æF²öÆ—fR÷G&ç7÷'BÖæB×&¶–ærö7–6Æ–ærÖ–âÖ6÷Væ†vVâuÒÀ¢²~ËÙNØéÎÙY«)ÉØ«*É«Éy¸*îÉÛBÊz~ÉËÎºøºÂÉ[ÎÉ›‚«H«IÈ¹Î«NÉØBºûºjÂ«8NÙ¨ŞÙYÈKÉ©BârÂuv–çFW"F—2&R6†÷'B–â6÷Væ†vVâÂ6òÆâ÷WFFö÷"6–v‡G6VV–ær&÷VæBF–Æ–v‡BârÂ~8+>89®8;>88ş8;Î8+.8;>8şXjÎ8îiz^xZ~i˜.™i>8ÎyúŞ8N8ş8(8[¾ZInŠk>XX8).iˆî8(¾8Ni˜.™i>8¾ŠˆyK¾8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwrçf—6—F6÷Væ†vVâæ6öÒö6÷Væ†vVâ÷F†—2Ö—2Ö6÷Væ†vVâ÷6V6öç2÷F†RÖ6†æv–ær×6V6öç2ÖöbÖ6÷Væ†vVâuÒÀ¢²~ËÙNØéÎÙY«)ÊIÈºÎ«+~«;^ÙZÜ+~ÊIÉYÉzŞ«;ÂÙ‹ÎÉêÙYÂ¸ÈÊI«YØk^ÉyÈIÎ¸©BÈhÎºzNË™«‹º[ÂÊÈºÎÙY«:ÈhÎÊxÙ(ÉØB¸ˆÉy¹ØN«(Â¹ÊxºxÈKÉ©BârÂuvF6‚f÷"–6·ö6¶WG2–â6VçG&Â6÷Væ†vVâÂF†R—'÷'BÂF†R6VçG&Â7FF–öâæB7&÷vFVBV&Æ–2G&ç7÷'C²¶VWfÇV&ÆW2÷WBöb6–v‡BârÂ~8+>89®8;>88ş8;Î8+.8;>KŠŞ[ø>˜:8;¾z›®kŠş8;¾KŠŞZJîšx^8(Nk{~™¹8~8şXZÎX[KªN˜	®8~8ş8+8:®8¾k:hHş8~8‹+N˜xŞY88).Šh¾88(¾h˜8¾{Úî8¾8®8N8~8ş88^8N8"rÂv‡GG3¢ò÷wwrãCBævòæ·"öçFå6fWG”–æfòó3öFWF–ÂuÒÀ¢ÒÀ¢ÒÀ¢7vVFVã¢°¢F—3¢°¢²~ÈªNÉº¸ÛNÉyÈIÎ¸©BË›N¹9Â«+Ê	Î«¸IºjÂÉ;ÉÛNÊxºxÂÙˆN«ˆÉØB»	¾ÊxÉX®¸©B«;>¸øBÉèÈ«^¸¸¸ºBâ«+Ê	ÂÈ‰¸ºÉØBºûºjÂÙ™^ÉÛÙYÈKÉ©BârÂt6&B–ÖVçB—2v–FW7&VB–â7vVFVâÂ'WB6öÖRÆ6W2Fòæ÷B66WB66‚â6†V6²–ÖVçB÷F–öç2–âGfæ6RârÂ~8+8*n8*~8;Î88~8;>8~8ş8*¾8;Î88k®kˆ8Î[¨>8şKÛş8(ş8(Î8î88Î8xûî˜y8).Xù~8K¹88®8N[©~8(.8.8(®8î88.K¨¾X˜Ş8¾iJşh™^8Nikk9^8).z+®Š¨Ş8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwrç&–·6&æ²ç6RöVâÖv"÷–ÖVçG2ÒÖ66‚÷–ÖVçG2Ö–â×7vVFVâ÷–ÖVçG2×&W÷'BÓ##R÷G&VæG2Ööâ×F†R×–ÖVçG2ÖÖ&¶WB÷F†R×7vVF—6‚×–ÖVçG2ÖÖ&¶WBÖ—2ÖÆÖ÷7BÖVçF—&VÇ’ÖF–v—FÂòuÒÀ¢²~È8Ê	«;ÂÉ[Ş«ZŞÉyÈIÂ»(Ù‹ÙÎº[Â»Ù«:Ë
+ºº[Â«‹¸ºNºjÎ¸©BºËÙ™N«ÉèÈ«^¸¸¸ºBârÂuF¶RVWVRF–6¶WB–â6†÷2æB†&Ö6–W2æBv—BFò&R6ÆÆVBârÂ~[©~8(N‰jÎ[8~8şyZ®Xû~iÊŞ8).Xùn8>8nšnyZ®8).[è^8Nih~XÉn8Î8.8(®8î88"rÂv‡GG3¢ò÷wwræ÷'Rç6RöVævÆ—6‚ö&÷WB×W2öÆ–fRÖ–âÖ÷&V'&òÖæB×7vVFVâ÷6ö6–ÂÖwV–FRòuÒÀ¢ÒÀ¢6WF–öç3¢°¢²u7—7FVÖ&öÆvWNÉØÉÛÎ»hÊ;ÎºYº[ÂØÉºzNÙY¸©B«ZŞÉˆÈhÎºzNÊ	ÉÛNÊxºxÂÂºª¹:Ê;ÎºY««{«;>ÉyÈIÎºxÂØÉºzN¹	¸©B«(>ÉØÉXN¸¹¸¸¸ºBâÙXNÉ©NÙYÂÈ8Ù(«;ÂÉˆÉx^È¹Î«NÉØ«;^È¹ÒÈ*ÎÉÛNØ«ÉyÈIÂÙ™^ÉÛÙYÈKÉ©BârÂu7—7FVÖ&öÆvWB—2F†R7FFRÖ÷væVB&WF–ÆW"f÷"6W'F–âÆ6ö†öÆ–2G&–æ·2Â'WBæ÷BWfW'’Æ6ö†öÆ–2&WfW&vR—26öÆBW†6ÇW6—fVÇ’F†W&Râ6†V6²&öGV7Bf–Æ&–Æ—G’æB÷Væ–ær†÷W'2öâ—G2öff–6–Â6—FRârÂu7—7FVÖ&öÆvWN8şKˆ˜:8î8*.8:¾8+>8;Î8:¾š;.ii8).h›8nY»ŞYkn[şZ;.[©~8~88Î8888n8î˜Y.šî8ÎYÎ[©~™™Zé®8~8ş8.8(®8î8¾8)>8.YXnY88YknjZŞi˜.™i>8şXZÎ[Èş8+^8*N888~z+®Š¨Ş8~8n8ş88^8N8"rÂv‡GG3¢ò÷wwrç7—7FVÖ&öÆvWBç6RöVâö&÷WB×7—7FVÖ&öÆvWBòuÒÀ¢²~«H«I«	ŞÉÛBºxîÉØÉzŞ«;ÂÈ¹Î¸+BÊIÈºÎÉyÈIÎ¸©BÈhÎÊxÙ(ÉØBÉé‚Ë«‹ÈKÉ©BârÂt¶VWâW–Röâ&VÆöæv–æw2B'W7’7FF–öç2æB–âF†R6—G’6VçG&RârÂ~Šk>XXZê.8îZI®8Nšx^8(NKŠŞ[ø>Š~8~8şhÈ8xš8¾k:hHş8~8î8~8(~8n8"rÂv‡GG3¢ò÷wwrãCBævòæ·"öçFå6fWG”–æfòó#böFWF–ÂuÒÀ¢ÒÀ¢ÒÀ¢f–æÆæC¢°¢F—3¢°¢²~«;^«;RÈ*ÎÉ«¸)É˜È¹ÎÈJNºx¸ºBÈ‰Éˆ»;R¹;ÉÛNÉª’«yÎË™ÉÛB¸ºNº[NºøºÂ»
+ºË‚ÊNÉyÈ¹ÎÈJBÉX¸+Nº[ÂÙ™^ÉÛÙYÈKÉ©BârÂu'VÆW2öâ7v–×vV"æB÷F†W"6Æ÷F†–ærf'’&WGvVVâV&Æ–26Væ2ï|¶‰ËkºwµçPƒªŞã®2®†pƒ®#².ƒ²"`ƒ²z#²*×®.#®.¸œ°€Q…Àİ…Ñ•È¥Ì±•…¸…¹‘É¥¹­…‰±”¸œ°€ŸšÂÓ¦OšÂÓ¿7
+3Ÿw»ûû¦Ë
+ûgœ°€¡ÑÑÁÌè¼½İİÜ¹Ù¥Í¥Ñ™¥¹±…¹¹½´½•¸½…ÉÑ¥±•Ì½Õ¥‘”µÑ¼µ™¥¹¹¥Í µ‘É¥¹­Ìµ…¹µ‰•Ù•É…•Ì¼t°(€€€t°(€€€…ÕÑ¥½¹Ìèl(€€€€€lŸªÊ£²jã²^C®*Pƒ®“²jÀƒ²Ú—ªÎ€ƒªâã²vĞƒ²Zó²ZĞƒ®¾ã®®~³²jÃ®. ƒ®¾ã®®~ğƒ®Â§² ƒ².ƒ®ÂsªÎğƒ²z—ªÂG
+ß®ª£²zC®–ğƒ²ÆgªâÃ²ã²jP¸œ°€]¥¹Ñ•ÉÌ…É”Ù•Éä½±İ¥Ñ ¥äÍÑÉ••ÑÌì‰É¥¹œÉ¥ÁÁäÍ¡½•Ì°±½Ù•Ì…¹„¡…Ğ¸œ°€Ÿ–³¿£›
+–¾K?¦O3–7
+/»ŸšîG
++¯?¦vÓ£š&/¢Š/ï–â÷–¶C
+Kœ°€¡ÑÑÁÌè¼½İİÜ¹µå¡•±Í¥¹­¤¹™¤½Ù¥Í¥Ğ½¡½ÜµÑ¼µÍÕÉÙ¥Ù”µ¡•±Í¥¹­¤µİ¥¹Ñ•È´ÜµÑ¥ÁÌ¼t°(€€€€€lŸ²V3²öS²b°ƒ¶2C®“²Êc²f ƒ²b²^².sªÂ²v ƒ²¶J#
+ß®“²z—²^@ƒ®RÃ®vğƒ®.“®–Ó®¾®†pƒªÖ³®ƒ²‚²^@±­¼ƒªÎ×².tƒ²V#®
+Ó®–ğƒ¶fW²vã¶Vc²ã²jP¸œ°€±½¡½°…Ù…¥±…‰¥±¥Ñä…¹½Á•¹¥¹œ¡½ÕÉÌÙ…Éä‰äÁÉ½‘ÕĞ…¹Í¡½Àì¡•¬±­¿ŠeÌ½™™¥¥…°¥¹™½Éµ…Ñ¥½¸‰•™½É”Á±…¹¹¥¹œ„ÁÕÉ¡…Í”¸œ°€Ÿ
+‹¯
+Ïó¯»¢Ê§–Ë–‚Óš&
+–ZÛš–·šf¦ZO¿–V–Nï–ê_¢"_¯
+#›VÃ«
+/
+¢Îó–—–&7­±­¿»–³–ò?š†#–
+KŠë¢ª7_›?ƒWœ°€¡ÑÑÁÌè¼½İİÜ¹…±­¼¹™¤½•¸½…±­¼µ¥¹Œ½…‰½ÕĞµ…±­¼½É•ÍÁ½¹Í¥‰±”µÍ…±”µ½˜µ…±½¡½±¥Œµ‰•Ù•É…•Ìt°(€€€t°(€ô°(€A½±…¹èì(€€€Ñ¥ÁÌèl(€€€€€lŸ¶>Ó®z®Npƒ².w®.ç²^C²pƒ¶2²v ƒ²vc®²Ó®*Pƒ²V®.#²®0ƒ²Š/²v ƒ²s®æ²*“²^@ƒªÂC²
+°ƒ¶Fs².s®†pƒ®
+£ªâàƒ²"`ƒ²z#²*×®.#®.¸œ°€É•ÍÑ…ÕÉ…¹ĞÑ¥À¥¸A½±…¹¥Ì¹½ĞÉ•ÅÕ¥É•°‰ÕĞå½Ôµ…ä±•…Ù”½¹”Ñ¼Ñ¡…¹¬ÍÑ…™˜™½È½½Í•ÉÙ¥”¸œ°€Ÿwó§Ï'»³
+ç#§ÏŸ_¿ú§–.gŸ¿
++ûo
+O3¢&¿
+×óO
+çã»š¢²w£_›šâ‡gO£3Ÿ7ûgœ°€¡ÑÑÁÌè¼½¡•Éİ…ä¹Á½±…¹¹ÑÉ…Ù•°½ÑÉ…Ù•°µÑ¥ÁÌµ™½ÈµÁ½±…¹¼t°(€€€€€lŸ¶³®vó²şƒ¶R²v`ƒ²Š²vĞƒ²*ç²Â£ªÚ3²v ƒ®Ê²*“
+ß¶*ã®z£²^@ƒ¶²zC®#²z@ƒªÂs²ÂÃ¶Vc²ã²jP¸ƒ²VÇ²ró®†pƒ²
+Àƒ¶Fs®*PƒªÖ³®ƒ®V0ƒ²rƒ¶j£¶fS®Bc®*Pƒ²Š®–cªÂ ƒ²z#²*×®.#®.¸œ°€Y…±¥‘…Ñ”„-É…¯ÍÜÁ…Á•ÈÑ¥­•Ğ¥µµ•‘¥…Ñ•±ä…™Ñ•È‰½…É‘¥¹œ„‰ÕÌ½ÈÑÉ…´¸M½µ”…ÁÀÑ¥­•ÑÌ…É”Ù…±¥‘…Ñ•İ¡•¸ÁÕÉ¡…Í•¸œ°€Ÿ
+¿§
+¿W»Òg»’æ_¢î+–"ã¿C
+çï#§ƒ¯’æ_
+'gC–"ï–6Ã_û_
+
+‹_«–"ã¯¿¢Îó–—šf¯šr'–*ç¯«
+/¢»¦†{
+
++ûgœ°€¡ÑÑÁÌè¼½éÑÀ¹­É…­½Ü¹Á°½•¸½­µ¬µÁÕ‰±¥ŒµÑÉ…¹ÍÁ½ÉĞ½‰Õäµ„µ­µ¬µÑ¥­•Ğt°(€€€t°(€€€…ÕÑ¥½¹Ìèl(€€€€€lŸªâã²^C²pƒ¶fc²‚²vƒªÚ3¶Vc®*Pƒ²
+³®z3²vÓ®
+`ƒ¶fc²r£²vĞƒ¶³ªÊ0ƒ²Š/®.“®*Pƒ¶fc²‚²3®*Pƒ²"c²"c®3ªÂ ƒ®K²v ƒªÊ÷²jÃªÂ ƒ®;²*×®.#®.¸œ°€MÑÉ••Ğµ½¹•ä¡…¹•ÉÌ…¹‰½½Ñ¡Ìİ¥Ñ ƒŠqÉ•…ĞÉ…Ñ•ÏŠt½™Ñ•¸¡¥‘”ÍÑ••À™••Ì¸œ°€Ÿ¢Ş¿’â+»’â‡šnÿ
+3––÷³ó#7
+K’â‡šnÿš&¿š&/šVÃšZg3¦®cO£3–’kŸgœ°€¡ÑÑÁÌè¼½İİÜ¹¥Í¥ÑÍ…™•Ñ½Ù¥Í¥Ğ¹½´½¥Ñ¥•Ì½­É…­½Üt°(€€€€€lŸ²vó®Ú ƒ®ÂS
+ß¶Ó®~÷²^C²pƒªÎ²
+Ã²s²^@ƒ¶Ã®²Ó®.#²^®*Pƒªâ#²V‡²vĞƒ®Úg®*Pƒ²
+³ªâÃªÂ ƒ²z#²ró®. ƒ²ó®²àƒ²‚²^@ƒªÂªÊ§²vƒ¶fW²vã¶Vc²ã²jP¸œ°€M½µ”‰…ÉÌ¥¹™±…Ñ”‰¥±±Ìì½¹™¥É´ÁÉ¥•Ì‰•™½É”½É‘•É¥¹œ¸œ°€Ÿ’â¦£»CóŸšÎW–’[«’òk¢¢#
+K¢®/šÆg
+/¢¦Cš²ë3
+/»ŸšÎ£šZ–&7¯–“šº×
+KŠë¢ª7_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹¥Í¥ÑÍ…™•Ñ½Ù¥Í¥Ğ¹½´½¥Ñ¥•Ì½­É…­½Üt°(€€€t°(€ô°(€%É•±…¹èì(€€€Ñ¥ÁÌèl(€€€€€lŸ²V²vó®zs®Npƒ®
+ƒ²R£®*Pƒ®Î®6W²*“®~÷ªÎ€ƒ®æªÂ ƒ²b°ƒ²"`ƒ²z#²ró®. ƒ®Â§²"`ƒªÊ'²bß²vƒ²ÆgªâÃ²ã²jP¸œ°€%É•±…¹“ŠeÌİ•…Ñ¡•È…¸¡…¹”…¹‰É¥¹œÉ…¥¸°Í¼Á…¬„İ…Ñ•ÉÁÉ½½˜©…­•Ğ¸œ°€Ÿ
+‹
+“¯§Ï'¿–’§šÂ_3–’'
+?
++
+g?¦n£
+¦f7
+/
+¦bËšÂÓ»’â+v
+KR£š?_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹¥É•±…¹¹½´½•¸½¡•±Àµ…¹µ…‘Ù¥”½ÁÉ…Ñ¥…°µ¥¹™½Éµ…Ñ¥½¸½İ•…Ñ¡•È¼t°(€€€t°(€€€…ÕÑ¥½¹Ìèl(€€€€€lŸ²V²vó®zs®Ns®*Pƒ²Â£®~'²vĞƒ²fó²ª÷²ró®†pƒ®.“®.#®¾®†pƒªâã²vƒªÆÓ®@ƒ®V0ƒ²b“®–ã²ª÷ªÎğƒ²fó²ª÷²vƒ®ª£®F@ƒ¶fW²vã¶Vc²ã²jP¸œ°€QÉ…™™¥Œ‘É¥Ù•Ì½¸Ñ¡”±•™Ğ¥¸%É•±…¹ì±½½¬É¥¡Ğ…¹±•™Ğ‰•™½É”É½ÍÍ¥¹œ¸œ°€Ÿ
+‹
+“¯§Ï'»¢î+¿–Ş›–Ó¦k¢†3Ÿg¦O¢Ş¿
+Kšâ‡
+/£7¿–>Ï£–Ş›»’â‡šZç
+KŠë¢ª7_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹ÉÍ„¹¥”½É½…µÍ…™•Ñä½É½…µÕÍ•ÉÌ½Ñ½ÕÉ¥ÍÑÌt°(€€€€€lŸ¶VÓ²V ƒ²‚#®Êôƒ²
+Ã²Æ®†s®*Pƒ®ÂS®z3²vĞƒªÂW¶VcªÎ€ƒªÂ²z—²zC®š³ªÂ ƒ®²Ó®#² ƒ²"`ƒ²z#²ZĞƒ²V#²‚²€ƒ²V#²ª÷²ró®†pƒ®.“®.#²ã²jP¸œ°€±¥™˜Á…Ñ¡Ì…É”İ¥¹‘ä…¹•‘•Ì…¸ÉÕµ‰±”ìÍÑ…ä‰•¡¥¹Ñ¡”‰…ÉÉ¥•ÉÌ¸œ°€ŸšÖß–Êã»–Ò[»¦+š¶§¦O¿¦Š£3–òß?â3–Ò§
+3
+/O£3
+/»Ÿš~×»––Ó
+Kš¶§7û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹ÑÉ…Ù•±•áÑÉ„¹¥”½…¸µ‰É…¹…¸µµ½ÈµÍ•„µÍÑ…¬µ½±±…ÁÍ•Ìµ…Ğµ±¥™™Ìµ½˜µµ½¡•È¼t°(€€€t°(€ô°(€	•±¥Õ´èì(€€€Ñ¥ÁÌèl(€€€€€lŸ®Ê£ªâÃ²^C®*Pƒ²²^·®#®.ƒ²Zã²ZÓªÂ ƒ®.“®š®.#®.¸ƒ®â3®’ó²²^C²s®*Pƒ¶R®zG²*“²ZÓ
+ß®“®6s®z®Ns²ZĞƒ²®ª²vĞƒ¶V£ªî`ƒ²NÃ²vÓ®¾®†pƒ®F@ƒ¶FsªâÃ®–ğƒ¶fW²vã¶Vc²ã²jP¸œ°€1…¹Õ…•ÌÙ…Éä‰äÉ•¥½¸¥¸	•±¥Õ´¸%¸	ÉÕÍÍ•±Ì°¡•¬‰½Ñ É•¹ …¹ÕÑ Á±…”¹…µ•Ì¸œ°€Ÿg¯
+»óŸ¿–rÃ–~¯
+#›¢¢¢ª{3VÃ«
++ûg[«—
+ï¯Ÿ¿W§Ï
+ç¢ª{£
+«§Ï¢ª{»–rÃ–B7
+KŠë¢ª7_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹Ù¥Í¥Ğ¹‰ÉÕÍÍ•±Ì½•¸½Ù¥Í¥Ñ½ÉÌ½Á±…¸µå½ÕÈµÑÉ¥À½ÁÉ…Ñ¥…°µ¥¹™¼½…‰½ÕĞµ‰ÉÕÍÍ•±Ìt°(€€€€€lŸ®Ê£ªâÃ²^@ƒ².w®.ç²^C²s®*Pƒ²s®æ²*“ªÂ ƒªÎ²
+Ã²^@ƒ¶>³¶V£®Bc²®0°ƒ®#²v3²^@ƒ®N“®¦Ğƒ¶2²vƒ®6Pƒ®
+£ªâàƒ²"`ƒ²z#²*×®.#®.¸œ°€M•ÉÙ¥”¥Ì¥¹±Õ‘•¥¸	•±¥…¸É•ÍÑ…ÕÉ…¹Ğ‰¥±±Ì°‰ÕĞå½Ôµ…ä±•…Ù”…¸…‘‘¥Ñ¥½¹…°Ñ¥À¥˜å½Ôİ¥Í ¸œ°€Ÿg¯
+»ó»¦Ë¦–ê_Ÿ¿
+×óO
+çšZg3’òk¢¢#¯–B¯û
+3ûg3–â3šrog
+3Ã¢ş÷–*ƒŸ_
+Kšâ‡oûgœ°€¡ÑÑÁÌè¼½İİÜ¹Ù¥Í¥Ğ¹‰ÉÕÍÍ•±Ì½¥Ğ½Ù¥Í¥Ñ…Ñ½É¤½½É…¹¥éé„µ¥°µÑÕ¼µÙ¥…¥¼½ÁÉ…Ñ¥…°µ¥¹™¼½µ½¹•äµÕÉÉ•¹äµ…¹µ¡…¹”t°(€€€t°(€€€…ÕÑ¥½¹Ìèl(€€€€€lŸ®â3®’ó² ƒ²’G²Vg²^·
+ß®
+£²^´ƒ²ó®ÎªÎğƒ²¶Vc²Êƒ²^C²s®*Pƒ²3®“²æcªâÃ®–ğƒ²†Ã².³¶Vc²ã²jP¸œ°€]…Ñ ™½ÈÁ¥­Á½­•ÑÌ…É½Õ¹	ÉÕÍÍ•±Ì•¹ÑÉ…°…¹5¥‘¤ÍÑ…Ñ¥½¹Ì…¹½¸Ñ¡”µ•ÑÉ¼¸œ°€Ÿ[«—
+ï¯’â·–’»¦ï–6_¦–F£¢úë
+–rÃ’â/¦&Ÿ¿
+ç«¯šÎ£š?_û_
+œ°€¡ÑÑÁÌè¼½‰ÉÕÍÍ•±ÍÑ¥µ•Ì¹½´¼ÈÀäÌØÀ½‰ÉÕÍÍ•±ÌµÁ½±¥”µİ…É¹Ìµ½˜µÁ¥­Á½­•Ñ¥¹œµ¥¸µ¥Ñäµ•¹ÑÉ”t°(€€€t°(€ô°(€%•±…¹èì(€€€Ñ¥ÁÌèl(€€€€€lŸ²V²vÓ²*³®z®Ns²^C²s®*Pƒ²æÓ®NpƒªÊÃ²‚sªÂ ƒ®C®š°ƒªÂ®*—¶Vc²®0°ƒ®²Ó²vàƒ²ó²rƒ²3²^C²s®*Pƒ²æÓ®NpA%;²vĞƒ¶V²jS¶VpƒªÎÏ²vĞƒ®;²ró®. ƒ¶fW²vã¶Vc²ã²jP¸œ°€…ÉÁ…åµ•¹ÑÌ…É”İ¥‘•±ä…•ÁÑ•¥¸%•±…¹°‰ÕĞµ…¹äÍ•±˜µÍ•ÉÙ¥”Á•ÑÉ½°ÍÑ…Ñ¥½¹ÌÉ•ÅÕ¥É”„…ÉA%8¸œ°€Ÿ
+‹
+“
+ç§Ï'Ÿ¿
+¯ó'šÆëšâ#3–ê?’öÿ#ûg3
+ï¯WÖ›šÊçš&Ÿ¿šj_¢¢óV«–>ß3–ş¢š«š&3–’k
+Šë¢ª7_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹Ù¥Í¥Ñ¥•±…¹¹½´½…ÉÑ¥±”½‘É¥Ù¥¹œµ¥¸µ¥•±…¹¼t°(€€€€€lŸ²V²vÓ²*³®z®Ns²v`ƒ²"c®>_®²ó²v ƒ®#².ƒ²"`ƒ²z#²ró®. ƒ®²ó®ÎG²vƒ²Æ²n0ƒ®.“®.#²ã²jP¸œ°€%•±…¹‘¥ŒÑ…Àİ…Ñ•È¥ÌÍ…™”Ñ¼‘É¥¹¬ìÉ•™¥±°å½ÕÈ‰½ÑÑ±”…Ìå½ÔÑÉ…Ù•°¸œ°€Ÿ
+‹
+“
+ç§Ï'»šÂÓ¦OšÂÓ¿¦Ë
+ûgs#¯¯šÂÓ
+K¢s–_›š2‡š¶§7û_
+œ°€¡ÑÑÁÌè¼½Ù¥Í¥ÑÉ•å­©…Ù¥¬¹¥Ì½¥•±…¹‘¥ŒµÑ…Àµİ…Ñ•Èt°(€€€t°(€€€…ÕÑ¥½¹Ìèl(€€€€€lŸªÊ²v ƒ®ª£®z`ƒ¶VÓ®Î £®‚#²vÓ®.#²*“¶Ró²V®vğƒ®NÄ§²v ƒªÂG²zCªâÀƒ¶Àƒ¶23®>ªÂ ƒ®6»²Î@ƒ²
+³ªÎƒªÂ ƒ®
+c®. ƒ®ÂS®.“²^@ƒªÂªæ3²vĞƒªÂ² ƒ®#²ã²jP¸œ°€M¹•…­•Èİ…Ù•Ì…Ğ‰±…¬µÍ…¹‰•…¡•Ì±¥­”I•å¹¥Í™©…É„…É”‘•…‘±äì­••Àİ•±°‰…¬™É½´Ñ¡”İ…Ñ•È¸œ°€Ÿ³
+“/
+çW
+‡§«§»¦îK‚šÖß–Êã¿ªÛ–’ŸšÎ‹3šv—›’ê/šV3¢Öß7
+/»ŸšÖß¯¢şG—/«
+#¯œ°€¡ÑÑÁÌè¼½İİÜ¹Ù¥Í¥Ñ¥•±…¹¹½´½…ÉÑ¥±”½É•å¹¥Í™©…É„µ‰±…¬µÍ…¹µ‰•… µ¥Ìµ‘…¹•É½ÕÌ¼t°(€€€€€lŸ®
+ƒ²R£²f ƒ®>®†pƒ²¶f§²vĞƒ®æƒ®–ÓªÊ0ƒ®ÂS®3®. ƒ²jÓ²‚
+ß¶*ã®‚#¶
+äƒ²‚²^@ƒªÎ×².tƒªâÃ²
+ß®>®†pƒ²‚W®ÎÓ®–ğƒ¶fW²vã¶Vc²ã²jP¸œ°€]•…Ñ¡•È…¹É½…½¹‘¥Ñ¥½¹Ì¡…¹”™…ÍĞì¡•¬½™™¥¥…°™½É•…ÍÑÌ…¹É½…ÍÑ…ÑÕÌ‰•™½É”‘É¥Ù¥¹œ½È¡¥­¥¹œ¸œ°€Ÿ–’§šÂ_
+¦O¢Ş¿*ÛšÎ3š—–’'g
+/»Ÿ¦/¢î‹
+#³
+·Ï
+Ã–&7¯–³–ò?»šÂ_¢Æ‡ï¦O¢Ş¿š–‚Ç
+KŠë¢ª7_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹Ù¥Í¥ÑÉ•å­©…Ù¥¬¹¥Ì½Í…™”µÑÉ…Ù•°t°(€€€t°(€ô°(€SñÉ­¥å”èì(€€€Ñ¥ÁÌèl(€€€€€lŸ²vÓ²*“¶®Ú#²æÓ®Ns®*Pƒ®Ê²*“
+ß®¦S¶*ã®†s
+ß¶*ã®z£
+ß¶:c®š°ƒ®NÄƒ®2²’GªÖC¶ÔƒªÊÃ²‚s²^@ƒ²NÃ²z®.#®.¸ƒ²vÓ²j¤ƒ®ã²ƒ²v`ƒ¶b²z”ƒ²V#®
+Ó®–ğƒ¶fW²vã¶Vc²ã²jP¸œ°€%ÍÑ…¹‰Õ±­…ÉĞ…¸Á…ä™½È‰ÕÍ•Ì°µ•ÑÉ¼°ÑÉ…µÌ…¹™•ÉÉ¥•Ì¸¡•¬Ñ¡”Õ¥‘…¹”™½Èå½ÕÈÉ½ÕÑ”¸œ°€Ÿ
+“
+ç
+ÿÏ[ó¯
+¯ó'¿C
+çï–rÃ’â/¦&ï#§ƒïW
+Ÿ«ó«§»–³–Ç’ê“¦kŸ’öÿ#ûg–"§R£¢Ş¿Şk»š†#–
+KŠë¢ª7_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹¥ÍÑ…¹‰Õ±­…ÉĞ¹¥ÍÑ…¹‰Õ°½‰±½œ½‘•Ñ…äı¥ôÈÌÜØt°(€€€€€lŸ¶*®–Ó¶
+“²b#²v`ƒ®ª£²*“¶³®
+`ƒ²ŠªÖC².s²“²vƒ®Â§®²ã¶V€ƒ®V3®*Pƒ®.£²‚W¶VcªÊ0ƒ²zªÎ€ƒ².s²“®Îƒ®Â§®²àƒªŞs²æg²vƒ¶fW²vã¶Vc²ã²jP¸œ°€É•ÍÌµ½‘•ÍÑ±äİ¡•¸Ù¥Í¥Ñ¥¹œ„µ½ÍÅÕ”½ÈÉ•±¥¥½ÕÌÍ¡É¥¹”¥¸SñÉ­¥å”°…¹¡•¬Ñ¡”Í¥Ñ—ŠeÌÙ¥Í¥Ñ½ÈÉÕ±•Ì¸œ°€Ÿ#¯
+Ï»‹
+ç
+¿
+–º_šVgšZ÷¢¢·
+K¢¢«
+3
+/¦jo¿š:Ÿ#
+«šr7¢¯_šZ÷¢¢·S£»¢š/–¶›¯ó¯
+KŠë¢ª7_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹½Ø¹Õ¬½™½É•¥¸µÑÉ…Ù•°µ…‘Ù¥”½ÑÕÉ­•ä½Í…™•Ñäµ…¹µÍ•ÕÉ¥Ñät°(€€€t°(€€€…ÕÑ¥½¹Ìèl(€€€€€lŸ²æsªŞó¶VcªÊ0ƒ®C²vƒªÆã®¦Àƒ®ÂS
+ß²æÓ¶:¬ƒªÂªÊ3®†pƒ®6Ã®‚“ªÂ®*Pƒ²
+³®z3²v ƒ®ÂSªÂ² ƒ²"c®ÊW²vğƒ²"`ƒ²z#²*×®.#®.¸œ°€É¥•¹‘±äÍÑÉ…¹•ÉÌİ¡¼±•…å½ÔÑ¼„‰…È½È…ÉÁ•ĞÍ¡½Àµ…ä‰”Í•ÑÑ¥¹œÕÀ„É¥Àµ½™˜¸œ°€Ÿ¢š«_K¯¢¦Ç_/G›Có
+Ö£š¾¿–ê_¯¦
+3›¢†3?’êë¿ó?
++»š&/–>»O£3
++ûgœ°€¡ÑÑÁÌè¼½İİÜ¸ÀĞÀĞ¹¼¹­È½¹Ñ¹M…™•Ñå%¹™¼¼ÈÈà½‘•Ñ…¥°t°(€€€€€lŸ¶w².s®*Pƒ®¾ã¶ÃªâÃ®–ğƒ²òÃ®*S² ƒ¶fW²vã¶VcªÎ€°ƒªÂ®*—¶Vc®¦Ğƒ²Â£®~$ƒ¶bã²Úpƒ²VÇ²vƒ²NÃ²ã²jP¸œ°€5…­”ÍÕÉ”Ñ…á¥ÌÉÕ¸Ñ¡”µ•Ñ•È°½ÈÕÍ”„É¥‘”µ¡…¥±¥¹œ…ÁÀİ¡•É”Á½ÍÍ¥‰±”¸œ°€Ÿ
+ÿ
+¿
+ßó¿‡ó
+ÿó3–.W›
+//Šë¢ª7_Ÿ7
+3Ã¦7¢î+
+‹_«
+K’öÿû_
+œ°€¡ÑÑÁÌè¼¼ÀĞÀĞ¹¼¹­È½‰‰Ì½•µ‰Íå9ÑŒ¼ÄÌĞÜÈÄÄ½‘•Ñ…¥°ı¹Ñ¹ôÈÈàt°(€€€t°(€ô°(€€!½¹œ-½¹œœèì(€€€Ñ¥ÁÌèl(€€€€€lŸ²b—¶ƒ¶6ó²*ƒ²æÓ®Npƒ¶Vc®
+c®†pƒ²¶Vc²Êƒ
+ß®Ê²*“
+ß¶:c®š³²f ƒ¶:ã²vc²‚@ƒªÊÃ²‚s®–ğƒ®ª£®F@ƒ¶V€ƒ²"`ƒ²z#²*×®.#®.¸œ°€=¹”=Ñ½ÁÕÌ…É½Ù•ÉÌ5QH°‰ÕÍ•Ì°™•ÉÉ¥•Ì…¹½¹Ù•¹¥•¹”ÍÑ½É•Ì¸œ°€Ÿ
+«
+¿#G
+ç
+¯ó$ÇšzkŸ–rÃ’â/¦&ïC
+çïW
+Ÿ«ó
+
+ÏÏO/š&W3Ÿ7ûgœ°€¡ÑÑÁÌè¼½İİÜ¹½Ñ½ÁÕÌ¹½´¹¡¬½•¸½½¹ÍÕµ•È½ÕÍÑ½µ•ÈµÍ•ÉÙ¥”½™…Ä½•Ğµå½ÕÈµ½Ñ½ÁÕÌ½…‰½ÕĞµ½Ñ½ÁÕÌ¹¡Ñµ°t°(€€€€€lŸ¶f7²ö¤ƒ².w®.äƒ®2®Ú®Ú²v ƒ®Ò'²
+³®3®–ğƒ®6S¶Vc²®0ƒ²Â£²Â³¶„ƒªÂg²v ƒ².w®.ç²v ƒªŞã®‚² ƒ²V+²vƒ²"`ƒ²z#²ró®. ƒªÎ²
+Ã²s®–ğƒ¶fW²vã¶Vc²ã²jP¸œ°€5½ÍĞ!½¹œ-½¹œÉ•ÍÑ…ÕÉ…¹ÑÌ…‘„Í•ÉÙ¥”¡…É”°‰ÕĞÍ½µ”‘¥¹•ÉÌÍÕ …Ì¡„¡……¸Ñ•¹Ì‘¼¹½Ğì¡•¬Ñ¡”‰¥±°¸œ°€Ÿ¦šgšâ¿»–’k?»³
+ç#§Ï¿
+×óO
+çšZg
+K–*ƒº__ûg3¢2Û¦’C–îÏ«§Ÿ¿–*ƒº__«–‚Ó–B#
+
+/
+’òk¢¢#
+KŠë¢ª7_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹‘¥Í½Ù•É¡½¹­½¹œ¹½´½•¹œ½ÑÉ…Ù•°µÕ¥‘”½ÑÉ…Ù•±±•Èµ•ÍÍ•¹Ñ¥…±Ì¹¡Ñµ°t°(€€€t°(€€€…ÕÑ¥½¹Ìèl(€€€€€lŸ²^³®šûªÂ²v²^C®*Pƒ¶s¶J7²vĞƒ²b“®¦ĞƒªÖC¶×
+ßªÒªÒG²ªÂ ƒ®¦#²Úpƒ²"`ƒ²z#²ró®. ƒªâÃ²²Ê´ƒªÊ÷®ÎÓ®–ğƒ¶fW²vã¶Vc²ã²jP¸œ°€QåÁ¡½½¹Ì¥¸ÍÕµµ•È…¹…ÕÑÕµ¸…¸¡…±ĞÑÉ…¹ÍÁ½ÉĞ…¹…ÑÑÉ…Ñ¥½¹Ìì™½±±½Ü=‰Í•ÉÙ…Ñ½ÉäÍ¥¹…±Ì¸œ°€Ÿ–’?/
+'/¿–>Ã¦Š£Ÿ’ê“¦k
+¢šÏ–'–rÃ3š¶‹û
+/O£3
+/»Ÿ–’§šZ–>Ã»¢¶›–‚Ç
+KŠë¢ª7_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¸ÀĞÀĞ¹¼¹­È½¹Ñ¹M…™•Ñå%¹™¼¼ÌÜÜ½‘•Ñ…¥°t°(€€€€€lŸ¶f7²ö¤5QK²v`ƒ²rƒ®0ƒªÖ³²^·ªÎğƒ²^Ó²Â£²^C²s®*Pƒ²v3².w
+ß²v3®3®–ğƒ®¢çªÆÃ®
+`ƒ®#².s² ƒ®#²ã²jP¸œ°€¼¹½Ğ•…Ğ½È‘É¥¹¬¥¸Ñ¡”Á…¥…É•„½È½¸ÑÉ…¥¹Ì½˜!½¹œ-½¹ŸŠeÌ5QH¸œ°€Ÿ¦šgšâ½5QK»šRçšr·–
+¢î+–Ÿ¿¦Ë¦_«Ÿ?ƒWœ°€¡ÑÑÁÌè¼½İİÜ¹µÑÈ¹½´¹¡¬½•¸½ÕÍÑ½µ•È½µ…¥¸½µÑÉ}‰å}±…İÌ¹¡Ñµ°t°(€€€t°(€ô°(€%¹‘½¹•Í¥„èì(€€€Ñ¥ÁÌèl(€€€€€lŸ®Âs®š°ƒ²
+³²nC²^@ƒ®N“²ZÓªÂ ƒ®V3®*Pƒ¶^#®š³²^@ƒ®FC®–Ó®*Pƒ²Êp£²
+³®†Ä§²vĞƒ¶V²jS¶Vc®¦À°ƒ²zªÖ³²^C²pƒ®æ3®‚“²ó®*PƒªÎÏ²vĞƒ®;²*×®.#®.¸œ°€	…±¤Ñ•µÁ±•ÌÉ•ÅÕ¥É”„Í…É½¹œ…É½Õ¹Ñ¡”İ…¥ÍĞìµ…¹ä±•¹½¹”…ĞÑ¡”…Ñ”¸œ°€ŸC«»–¾ë¦f‹Ÿ¿¢Ã¯–Şï?–â¾ò#
+×·Ï¾ò'3–ş¢šŸ–—–>Ÿ¢Êã_›?
+3
+/š&3–’kŸgœ°€¡ÑÑÁÌè¼½İİÜ¹¥¹‘½¹•Í¥„¹ÑÉ…Ù•°½ˆ½•¸½ÑÉ¥Àµ¥‘•…Ì½„µÕ¥‘”µÑ¼µÑ¡”µ¡½±äµÍÁÉ¥¹Ìµ½˜µÑ¥ÉÑ„µ•µÁÕ°µ‰…±¤t°(€€€€€lŸ²vã®>®“².s²V²^C²pƒ²VÇ²ró®†pƒ²Â£®~'²vƒ®Ú®–Ó®¦Ğƒ¶G²*äƒ²‚ƒªâÃ²
+³
+ß²Â£®~$ƒ²‚W®ÎÓªÂ ƒ²VÇªÎğƒ²vó²æc¶Vc®*S² ƒ¶fW²vã¶VcªÎ€ƒ²vÓ®>dƒªÊ÷®†s®–ğƒ²²vãªÎğƒªÎ×²rƒ¶Vc²ã²jP¸œ°€]¡•¸‰½½­¥¹œ„…È‰ä…ÁÀ¥¸%¹‘½¹•Í¥„°¡•¬Ñ¡”‘É¥Ù•È…¹Ù•¡¥±”……¥¹ÍĞÑ¡”…ÁÀ…¹Í¡…É”å½ÕÈ©½ÕÉ¹•äİ¥Ñ Í½µ•½¹”å½ÔÑÉÕÍĞ¸œ°€Ÿ
+“Ï'7
+ß
+‹Ÿ
+‹_«¦7¢î+
+K’öÿ¦jo¿’æ_¢î+–&7¯¦/¢î‹š&/£¢î+’â‡3
+‹_«»¢†£’ë£’â¢Óg
+//Šë¢ª7_ï–.Wš–‚Ç
+K~—’êë£–Çšr'_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹½Ø¹Õ¬½™½É•¥¸µÑÉ…Ù•°µ…‘Ù¥”½¥¹‘½¹•Í¥„½Í…™•Ñäµ…¹µÍ•ÕÉ¥Ñät°(€€€t°(€€€…ÕÑ¥½¹Ìèl(€€€€€lŸ²"c®>_®²ó²v ƒ®#².s² ƒ®CªÎ€ƒ²w²"c®–ğƒ®Ns²ã²jP¸ƒ²Zó²v3ªÎğƒ®
+ƒ²v3².w®>ƒ²†Ã².³¶Vc®*PƒªÊ²vĞƒ²Š/²*×®.#®.¸œ°€¼¹½Ğ‘É¥¹¬Ñ…Àİ…Ñ•ÈìÑ…­”…É”İ¥Ñ ¥”…¹É…Ü™½½Ñ½¼¸œ°€ŸšÂÓ¦OšÂÓ¿¦Ëûk7§¯
+›
+§ó
+ÿó
+KšÂß
+R
+»¯
+šÎ£š?_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¸ÀĞÀĞ¹¼¹­È½¹Ñ¹M…™•Ñå%¹™¼¼ÄàÄ½‘•Ñ…¥°t°(€€€€€lŸ²nC²"·²vÓªÂ ƒ®;²v ƒ²
+³²nC
+ß²"Ë²^C²s®*Pƒ²V#ªÊ÷
+ß®ª£²zC
+ß¶rÓ®2¶>Ã²vƒ®
+k²V²ÆƒªÂ®. ƒªÂ®Â§²^@ƒ®²ZĞƒ®FC²ã²jP¸œ°€5½¹­•åÌ…ĞÑ•µÁ±•Ì…¹™½É•ÍÑÌÍ¹…Ñ ±…ÍÍ•Ì°¡…ÑÌ…¹Á¡½¹•Ìì­••ÀÑ¡•´¥¸å½ÕÈ‰…œ¸œ°€Ÿ
+×¯»–’k–¾ë¦f‹
+š»Ÿ¿ró¦>‡ï–â÷–¶CïšBë–â¿
+K––«
+?
+3
+/»ŸC
+Ã¯_ûû_
+œ°€¡ÑÑÁÌè¼½İİÜ¸ÀĞÀĞ¹¼¹­È½¹Ñ¹M…™•Ñå%¹™¼¼ÄàÄ½‘•Ñ…¥°t°(€€€€€lŸ¶fS²
+Ã
+ß²²ƒ¶fs®>g²vĞƒ®Âs²w¶V€ƒ²"`ƒ²z#²ró®¾®†pƒ¶fS²
+Àƒ²²^·²vƒ®Â§®²ã¶VcªâÀƒ²‚ƒ²vã®>®“².s²Vƒ®.çªÖ·²v`ƒªÊ÷®ÎÓ²f ƒ²Ús²zƒ²‚s¶Vs²vƒ¶fW²vã¶Vc²ã²jP¸œ°€Y½±…¹¥Œ…¹Í•¥Íµ¥Œ…Ñ¥Ù¥Ñä…¸½ÕÈì¡•¬%¹‘½¹•Í¥…¸…ÕÑ¡½É¥Ñ¥•ÏŠd…±•ÉÑÌ…¹…•ÍÌÉ•ÍÑÉ¥Ñ¥½¹Ì‰•™½É”Ù¥Í¥Ñ¥¹œÙ½±…¹¥Œ…É•…Ì¸œ°€Ÿ¯–ÆÇï–rÃ¦ršÒï–.W3¢ÖßO
+/O£3
++ûg¯–ÆÇ–rÃ–~
+K¢¢«
+3
+/–&7¯
+“Ï'7
+ß
+‹–öO–Æ»¢¶›–‚Ç£®/–—–"Û¦fC
+KŠë¢ª7_›?ƒWœ°€¡ÑÑÁÌè¼½µ…µ„¹•Í‘´¹¼¹¥¼t°(€€€t°(€ô°(€€U¹¥Ñ•É…ˆµ¥É…Ñ•Ìœèì(€€€Ñ¥ÁÌèl(€€€€€lŸ®¦S¶*ã®†s²^C®*Pƒ²^³²Ç
+ß²ZÓ®šÃ²vĞƒ²‚²j¤ƒ²æãªÎğƒ¶R®š³®¾ã²^ƒ²æã²vĞƒ®RÃ®†pƒ²z#²ró®. ƒ¶Fs²¶2C²vƒ¶fW²vã¶Vc²ã²jP¸œ°€Q¡”µ•ÑÉ¼¡…Ìİ½µ•¸µ…¹µ¡¥±‘É•¸…¹ÁÉ•µ¥Õ´…ÉÉ¥…•Ìì¡•¬Ñ¡”Í¥¹Ì¸œ°€Ÿ–rÃ’â/¦&¯¿––ÏšŸï–¶C§
+–ÂR£¢î+’â‡£_³
+‹ƒ¢î+’â‡3
+/»Ÿ¢†£’ë
+KŠë¢ª7_û_
+œ°€¡ÑÑÁÌè¼½ÉÑ„¹…”½İÁÌ½Á½ÉÑ…°½ÉÑ„½…”½ÁÕ‰±¥ŒµÑÉ…¹ÍÁ½ÉĞ½µ•ÑÉ¼½…‰½ÕĞµµ•ÑÉ¼t°(€€€€€lŸ¶Vs®
+¸ƒ²Vó²fàƒ¶fs®>g²v ƒ®²Ó²Êdƒ®6S²n0°ƒ²ó¶VG®ªÃªÎğƒ².“®
+Ğƒ®ª²3®–ğƒ®
+»²^@°ƒ²Vó²fã®*Pƒ²‚®²^@ƒ®ÂÃ²æc¶Vc²ã²jP¸œ°€5¥‘‘…ä¡•…Ğ¥Ì¥¹Ñ•¹Í”ìÁ±…¸µ…±±Ì…¹¥¹‘½½ÈÍ¥¡ÑÌ™½È‘…åÑ¥µ”…¹½ÕÑ‘½½ÉÌ™½È•Ù•¹¥¹œ¸œ°€Ÿš^—’â·¿£›
+šjG»Ÿšbó¿‹ó¯
+–Æ/––Æ/–’[¿–’WšZç¯–n{_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹Ù¥Í¥Ñ‘Õ‰…¤¹½´½•¸½Á±…¸µå½ÕÈµÑÉ¥À½İ•…Ñ¡•Èµ¥¸µ‘Õ‰…¤t°(€€€t°(€€€…ÕÑ¥½¹Ìèl(€€€€€lŸ¶^#®vôƒ²^²vĞƒ²
+³®z3²vƒ²Ò³²b¶Vc² ƒ®CªÎ€ƒªÎ×ªÎ×²z—²3²^C²pƒ¶b² ƒ²b#²‚#²vƒ²¶
+“®¦Àƒ²‚W®Ú²v`ƒ®Â§®²ãªÂtƒ²V#®
+Ó®–ğƒ®RÃ®–Ó²ã²jP¸œ°€¼¹½ĞÁ¡½Ñ½É…Á Á•½Á±”İ¥Ñ¡½ÕĞÁ•Éµ¥ÍÍ¥½¸ì½‰Í•ÉÙ”±½…°•Ñ¥ÅÕ•ÑÑ”¥¸ÁÕ‰±¥Œ…¹™½±±½ÜÑ¡”½Ù•É¹µ•¹ÓŠeÌÕ¥‘…¹”™½ÈÙ¥Í¥Ñ½ÉÌ¸œ°€Ÿ¢¢Ç–>¿«?’êë
+KšJ»–öÇok–³–Ç»–‚ÓŸ¿>û–rÃ»’ó–
+K–º#
++šRÿ–ês»¢¢«–V?¢–BGGš†#–¯–úO›?ƒWœ°€¡ÑÑÁÌè¼½Ô¹…”½•¸½¥¹™½Éµ…Ñ¥½¸µ…¹µÍ•ÉÙ¥•Ì½Ù¥Í¥Ñ¥¹œµ…¹µ•áÁ±½É¥¹œµÑ¡”µÕ…”½Í½¥…°µÉ•ÍÁ½¹Í¥‰¥±¥Ñät°(€€€€€lŸ®¦S¶*ã®†pƒ²V ƒ²v3².w
+ß²v3®0ƒ²·²Ş£®*Pƒªâ#²®Bc²ZĞƒ®Ê3ªâ#²vƒ®²ğƒ²"`ƒ²z#²*×®.#®.¸œ°€…Ñ¥¹œ…¹‘É¥¹­¥¹œ½¸Ñ¡”µ•ÑÉ¼¥ÌÁÉ½¡¥‰¥Ñ•…¹™¥¹•¸œ°€Ÿ–rÃ’â/¦&–Ÿ»¦Ë¦¿šš¶‹ŸöÃ¦G»–¾û¢Æ‡Ÿgœ°€¡ÑÑÁÌè¼½ÉÑ„¹…”½İÁÌ½Á½ÉÑ…°½ÉÑ„½…”½ÁÕ‰±¥ŒµÑÉ…¹ÍÁ½ÉĞ½µ•ÑÉ¼½…‰½ÕĞµµ•ÑÉ¼t°(€€€t°(€ô°(€ÍÑ½¹¥„èì(€€€Ñ¥ÁÌèl(€€€€€lŸ¶#®šÀƒ®Ê²*“
+ß¶*ã®z£²^C²s®*Pƒ²Â ƒ²V ƒ®.£®CªâÃ²^@ƒ®æ²‚G²Ò$ƒ²æÓ®Ns®–ğƒ®2ªÎ€€Ç².sªÂªÚ3²vƒ²
+Ğƒ²"`ƒ²z#²*×®.#®.¸ƒªÎ×¶V·²^C®>ƒ²*ç²Â£ªÚ0ƒ®Âs®“ªâÃªÂ ƒ²z#²*×®.#®.¸œ°€=¸Q…±±¥¹¸‰ÕÍ•Ì…¹ÑÉ…µÌ°Ñ…À„½¹Ñ…Ñ±•ÍÌ…É…Ğ…¸½¹‰½…ÉÙ…±¥‘…Ñ½ÈÑ¼‰Õä„½¹”µ¡½ÕÈÑ¥­•Ğ¸Q¡•É”¥Ì…±Í¼„Ñ¥­•Ğµ…¡¥¹”…ĞÑ¡”…¥ÉÁ½ÉĞ¸œ°€Ÿ
+ÿ«Ï»C
+çï#§ƒŸ¿¢î+–»®¿šr¯¯
+ÿšÆëšâ#
+¯ó'
+K/[_˜Çšf¦ZO–"ã
+K¢Êß#ûg¦ëšâ¿¯
+–"ã–Ëš¦3
++ûgœ°€¡ÑÑÁÌè¼½İİÜ¹Ù¥Í¥ÑÑ…±±¥¹¸¹•”½•¹œ½Ù¥Í¥Ñ½È½Á±…¸½ÑÉ…¹ÍÁ½ÉĞ½…ÉÉ¥Ù…°t°(€€€€€lŸ²rƒ®0ƒ®ª²3®–ğ€ÏªÎÌƒ²vÓ²ƒªÂ ƒªÎ¶j7²vÓ®¦Ğƒ¶#®šÀƒ²æÓ®NsªÂ ƒ²rƒ®š³¶V€ƒ²"`ƒ²z#²*×®.#®.¸œ°€%˜å½ÔÁ±…¸Ñ¼Ù¥Í¥ĞÑ¡É•”½Èµ½É”Á…¥…ÑÑÉ…Ñ¥½¹Ì°Ñ¡”Q…±±¥¹¸…É…¸Á…ä½™˜¸œ°€Ÿšr'šZg»–B7š&
+HÏ/š&’î—’â+–n{
+/«
+'
+ÿ«Ï
+¯ó'3+–ú_¯«
+/O£3
++ûgœ°€¡ÑÑÁÌè¼½İİÜ¹Ù¥Í¥ÑÑ…±±¥¹¸¹•”½•¹œ½Ù¥Í¥Ñ½È½Ñ…±±¥¹¹…Ét°(€€€t°(€€€…ÕÑ¥½¹Ìèl(€€€€€lŸªÖ³².sªÂ²²v`ƒ®ÚC®æ®*PƒªÎÏªÎğƒ²"ƒ²G²^C²s®*Pƒ²^³®~ÿ²vĞƒ²sªÎ€ƒ¶Vc®*Pƒ²3®“²æcªâÃªÂ ƒ²z#²ró®. ƒ²3²¶J#²vƒ²z`ƒ²ÆgªâÃ²ã²jP¸œ°€A¥­Á½­•ÑÌ°Í½µ•Ñ¥µ•Ìİ½É­¥¹œ¥¸Ñ•…µÌ°Ñ…É•ĞÉ½İ‘•Á…ÉÑÌ½˜Ñ¡”=±Q½İ¸…¹¥ÑÌ‰…ÉÌì­••ÀÙ…±Õ…‰±•ÌÍ•ÕÉ”¸œ°€Ÿš^Ÿ–â¢†_»šŞß¦nG_–‚Óš&
+¦K–‚ÓŸ¿
+Ã¯ó_Ÿ»
+ç«3
+/»Ÿš2‡&§¯šÎ£š?_û_
+œ°€¡ÑÑÁÌè¼½½Ø¹Õ¬½™½É•¥¸µÑÉ…Ù•°µ…‘Ù¥”½•ÍÑ½¹¥„½Í…™•Ñäµ…¹µÍ•ÕÉ¥Ñät°(€€€€€lŸ²vó®Ú ƒ²"ƒ²G²^C²pƒªÒªÒGªÂw²^CªÊ0ƒ¶Ã®²Ó®.#²^®*Pƒ²"ƒªÂK²vƒ®Âo®*PƒªÊ÷²jÃªÂ ƒ²z#²ró®. ƒ²ó®²àƒ²‚²^@ƒªÂªÊ§²vƒ¶fW²vã¶Vc²ã²jP¸œ°€M½µ”‰…ÉÌ¡…É”Ñ½ÕÉ¥ÍÑÌ•á½É‰¥Ñ…¹Ğ‘É¥¹¬ÁÉ¥•Ìì¡•¬ÁÉ¥•Ì‰•™½É”½É‘•É¥¹œ¸œ°€Ÿ’â¦£»CóŸ¿¢šÏ–'–º‹¯šÎW–’[«¦K’î
+K¢®/šÆg
+/O£3
+/»ŸšÎ£šZ–&7¯–“šº×
+KŠë¢ª7_û_
+œ°€¡ÑÑÁÌè¼½½Ø¹Õ¬½™½É•¥¸µÑÉ…Ù•°µ…‘Ù¥”½•ÍÑ½¹¥„½Í…™•Ñäµ…¹µÍ•ÕÉ¥Ñät°(€€€t°(€ô°(€1…ÑÙ¥„èì(€€€Ñ¥ÁÌèl(€€€€€lŸ®š³ªÂ ƒªÖ³².sªÂ²®*Pƒ²ŠªÎ€ƒ²zCªÂ#²vĞƒªæS®šÀƒªâã²vĞƒ®;²ró®. ƒ¶:ã¶Vpƒ².ƒ®Âs²vƒ².ƒªÎ€ƒ²Ês²Ês¶z ƒªÆã²ZÓ®ÎÓ²ã²jP¸œ°€I¥‡ŠeÌ=±Q½İ¸¡…Ì¹…ÉÉ½Ü½‰‰±•ÍÑÉ••ÑÌ°Í¼İ•…È½µ™½ÉÑ…‰±”Í¡½•Ì…¹Ñ…­”å½ÕÈÑ¥µ”•áÁ±½É¥¹œ½¸™½½Ğ¸œ°€Ÿ«
+³š^Ÿ–â¢†_¯¿.·~ÏVÏ»¦O3–’k»Ÿš¶§7
+g¦vÓŸ
+?
++šV¶[_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹±…ÑÙ¥„¹ÑÉ…Ù•°½•¸½Í¥¡Ğ½½±µÑ½İ¸µÉ¥„t°(€€€€€lŸªÖ³².sªÂ²²f ƒ¶V£ªî`ƒ²V3®Êƒ®–Ó¶ ƒªÆÃ®š°ƒ²vó®2²v`ƒ²V®–Ó®"®ÎĞƒªÆÓ²ÚW®>ƒ®Fc®~³®ÎÓ®¦Ğƒ®š³ªÂ²v`ƒ²s®†pƒ®.“®–àƒ®>².pƒ¶J7ªÊ÷²vƒ®Îğƒ²"`ƒ²z#²*×®.#®.¸œ°€A…¥ÈÑ¡”=±Q½İ¸İ¥Ñ Ñ¡”ÉĞ9½ÕÙ•…Ô‰Õ¥±‘¥¹Ì…É½Õ¹±‰•ÉÑ„¥•±„Ñ¼Í•”…¹½Ñ¡•ÈÍ¥‘”½˜I¥‡ŠeÌ¥ÑåÍ…Á”¸œ°€Ÿš^Ÿ–â¢†_£
+?o›
+‹¯g¯
+ÿ¦k
++–F£¢úë»
+‹ó¯ï3óÓ
+§ó–îë¾'
+–Ş‡
+/£«
+³»VÃ«
+/¢†_’â›ÿ
+Kš–÷_
+ûgœ°€¡ÑÑÁÌè¼½İİÜ¹±…ÑÙ¥„¹ÑÉ…Ù•°½•¸¼ÄÀµµÕÍĞµÍ•”µÉ¥„t°(€€€t°(€€€…ÕÑ¥½¹Ìèl(€€€€€lŸªÖ³².sªÂ²
+ß²’G²Vg².s²z—
+ß²’G²VdƒªâÃ²Â£²^·ªÎğƒ®Ê²*ƒ¶Ã®¾ã®C²^C²s®*Pƒ²3®“²æcªâÃ²f ƒªÂ®Â¤ƒ®
+ƒ²æcªâÃ²^@ƒ¶*ç¶z ƒ²ó²vc¶VcªÎ€°ƒ®Â“²^C®*Pƒ®Ú#²vĞƒ²ZÓ®FC²jĞƒªÆÃ®š³²f ƒªÎ×²nC²vƒ¶Ró¶Vc²ã²jP¸œ°€]…Ñ ™½ÈÁ¥­Á½­•ÑÌ…¹‰…œÍ¹…Ñ¡¥¹œ¥¸Ñ¡”=±Q½İ¸°•¹ÑÉ…°5…É­•Ğ°…¹•¹ÑÉ…°ÑÉ…¥¸…¹‰ÕÌÍÑ…Ñ¥½¹Ìì…Ù½¥Õ¹±¥ĞÍÑÉ••ÑÌ…¹Á…É­Ì…Ğ¹¥¡Ğ¸œ°€Ÿš^Ÿ–â¢†_ï’â·–’»–â–‚Óï’â·–’»¦
+C
+ç
+ÿó+¯Ÿ¿
+ç«
+Ë?
++¯&ç¯šÎ£š?_–’s¿šj_¦k
++
+–³–rK
+K¦ÿG›?ƒWœ°€¡ÑÑÁÌè¼½İİÜ¹½Ø¹Õ¬½™½É•¥¸µÑÉ…Ù•°µ…‘Ù¥”½±…ÑÙ¥„½Í…™•Ñäµ…¹µÍ•ÕÉ¥Ñät°(€€€€€lŸ²vó®Ú ƒªÒªÒGªÂw²vĞƒ²"ƒªÂHƒªÎó®.ƒ²Ê·ªÖ³²f ƒ²æÓ®Npƒ®Ú²‚TƒªÊÃ²‚s®–ğƒªÊ«²^#²*×®.#®.¸ƒªÊÃ²‚s®*Pƒ®"#²V{²^C²pƒ²Êc®š³®Bc®*S² ƒ¶fW²vã¶VcªÎ€°A%8ƒ²z³²z®‚—²vƒ²jSªÖ³¶Vc®¦ĞƒªÊ÷ªÎ¶Vc²ã²jP¸ƒ²"ƒ²vƒ²zC®š³²^@ƒ®FCªÎ€ƒ®Zƒ®
+c² ƒ®#²ã²jP¸œ°€M½µ”Ñ½ÕÉ¥ÍÑÌ¡…Ù”™…•¥¹™±…Ñ•‘É¥¹¬¡…É•Ì½È™É…Õ‘Õ±•¹Ğ…ÉÑÉ…¹Í…Ñ¥½¹Ì¸-••À…ÉÁ…åµ•¹ÑÌ¥¸Í¥¡Ğ°‰”İ…Éä¥˜…Í­•Ñ¼É”µ•¹Ñ•Èå½ÕÈA%8°…¹‘¼¹½Ğ±•…Ù”‘É¥¹­ÌÕ¹…ÑÑ•¹‘•¸œ°€Ÿ¦Ëÿ&§»¦®c¦†7¢®/šÆ
+
+¯ó'»’â7š¶–"§R£¯¦·š^¢†3¢
+ûg
+¯ó'šÆëšâ#¿n»»–&7Ÿ¢†3
+?
+3
+//Šë¢ª7_šj_¢¢óV«–>ß»–7–—–*o
+KšÆ
+
+'
+3
+'¢¶›š"K_›?ƒW¦Ëÿ&§
+Kö»ûû–â·
+K¦n‹
+3«Ÿ?ƒWœ°€¡ÑÑÁÌè¼½İİÜ¹½Ø¹Õ¬½™½É•¥¸µÑÉ…Ù•°µ…‘Ù¥”½±…ÑÙ¥„½Í…™•Ñäµ…¹µÍ•ÕÉ¥Ñät°(€€€t°(€ô°(€	É…é¥°èì(€€€Ñ¥ÁÌèl(€€€€€l(€€€€€€€€ŸªÎ×¶V·²^C²pƒ¶w².s®–ğƒ¶ ƒ®V3®*PƒªÎ×².tƒ²*ç²Â ƒ®Ú²*“®–ğƒ²vÓ²j§¶Vc²ã²jP¸ƒ²VÄƒ¶bã²Ús²Â£®*Pƒ²VÇ²^@ƒ¶Fs².s®Bpƒ²Â£®~$ƒ®Ê#¶bã²f ƒ²jÓ²‚²z@ƒ²‚W®ÎÓ®–ğƒ®2²†Ã¶VcªÎ€ƒ²²‚W®Bpƒ¶R÷²^ƒ²z—²3²^C²pƒªâÃ®.“®š³²ã²jP¸œ°(€€€€€€€€Ğ…¥ÉÁ½ÉÑÌ°ÕÍ”…ÕÑ¡½É¥Í•Ñ…á¤‰½½Ñ¡Ì¸½ÈÉ¥‘”µ¡…¥±¥¹œ°µ…Ñ Ñ¡”…È…¹‘É¥Ù•È‘•Ñ…¥±Ì¥¸Ñ¡”…ÁÀ…¹İ…¥Ğ…ĞÑ¡”‘•Í¥¹…Ñ•Á¥¬µÕÀÁ½¥¹Ğ¸œ°(€€€€€€€€Ÿ¦ëšâ¿Ÿ¿¢ª7–>¿W
+3
+ÿ
+¿
+ßó’æ_
++–‚Ó
+K–"§R£_û_
+¦7¢î+
+‹_«Ÿ¿¢î+’â‡V«–>ß£¦/¢î‹š&/»š–‚Ç
+KŸ–B#_š2–ºk»’æ_¢î+–‚Óš&Ÿ–ú›?ƒWœ°(€€€€€€€€¡ÑÑÁÌè¼½İİÜ¹½Ø¹Õ¬½™½É•¥¸µÑÉ…Ù•°µ…‘Ù¥”½‰É…é¥°½Í…™•Ñäµ…¹µÍ•ÕÉ¥Ñäœ°(€€€€€t°(€€€€€l(€€€€€€€€Ÿ²æÓ®NpƒªÊÃ²‚pƒ²‚²^@ƒ®.£®CªâÃ²^@ƒ¶Fs².s®Bpƒªâ#²V‡²vƒ¶fW²vã¶VcªÎ€°ƒªÊÃ²‚sªÂ ƒ®w®
+€ƒ®V3ªæ3² ƒ²æÓ®Ns®–ğƒ².s²Vó²^C²pƒ®O²æc² ƒ®#²ã²jP¸œ°(€€€€€€€€¡•¬Ñ¡”…µ½Õ¹ĞÍ¡½İ¸½¸Ñ¡”Á…åµ•¹ĞÑ•Éµ¥¹…°…¹­••Àå½ÕÈ…É¥¸Í¥¡ĞÕ¹Ñ¥°Ñ¡”ÑÉ…¹Í…Ñ¥½¸¥Ì½µÁ±•Ñ”¸œ°(€€€€€€€€Ÿ
+¯ó'šÆëšâ#»–&7¯®¿šr¯»¦G¦†7
+KŠë¢ª7_šR¿š&W3Ö
+?
+/ûŸ
+¯ó'/
+'n»
+K¦n‹W«Ÿ?ƒWœ°(€€€€€€€€¡ÑÑÁÌè¼½İİÜ¹½Ø¹Õ¬½™½É•¥¸µÑÉ…Ù•°µ…‘Ù¥”½‰É…é¥°½Í…™•Ñäµ…¹µÍ•ÕÉ¥Ñäœ°(€€€€€t°(€€€t°(€€€…ÕÑ¥½¹Ìèl(€€€€€l(€€€€€€€€Ÿ®æ#®¾óªÂ®*PƒªÒªÒGªÂtƒ®2²ƒ¶"³²ZÓ
+ß²"g²3
+ß².w®.ç²vƒ¶>³¶V£¶VĞƒ¶Ró¶VcªÎ€°ALƒªÊ÷®†sªÂ ƒ®æ#®¾óªÂ®–ğƒ¶×ªÎó¶Vc² ƒ²V+®*S² ƒ¶fW²vã¶Vc²ã²jP¸œ°(€€€€€€€€Ù½¥™…Ù•±…Ì°¥¹±Õ‘¥¹œÑ½ÕÉ¥ÍĞÑ½ÕÉÌ°…½µµ½‘…Ñ¥½¸°É•ÍÑ…ÕÉ…¹ÑÌ…¹‰…ÉÌ…‘Ù•ÉÑ¥Í•İ¥Ñ¡¥¸Ñ¡•´ì¡•¬Ñ¡…ĞALÉ½ÕÑ•Ì‘¼¹½Ğ±•…¥¹Ñ¼½¹”¸œ°(€€€€€€€€Ÿ¢šÏ–'–º‹–BGG
+‹ó
+–ºÿšÎ+šZ÷¢¢·¦Ë¦–ê_
+K–B¯
+W
+‡gó§ã»®/‡–—
++¿¦ÿGAO»Ö3¢Ş¿3¦k¦;_«/Šë¢ª7_›?ƒWœ°(€€€€€€€€¡ÑÑÁÌè¼½İİÜ¹½Ø¹Õ¬½™½É•¥¸µÑÉ…Ù•°µ…‘Ù¥”½‰É…é¥°½Í…™•Ñäµ…¹µÍ•ÕÉ¥Ñäœ°(€€€€€t°(€€€€€l(€€€€€€€€Ÿ¶bó²z‡¶VpƒªÎÏªÎğƒ¶VÓ®Î²^C²pƒ¶rÓ®2²‚¶fS
+ßªŞ²’G¶J#²vƒ®Ns®~³®
+Ó² ƒ®CªÎ€°ƒ®Â“²^C®*Pƒ®>².°ƒ¶VÓ®Î²^@ƒªÂ² ƒ®#²ã²jP¸œ°(€€€€€€€€-••ÀÁ¡½¹•Ì…¹Ù…±Õ…‰±•Ì½ÕĞ½˜Í¥¡Ğ¥¸É½İ‘•…É•…Ì…¹½¸‰•…¡•Ìì‘¼¹½Ğ¼Ñ¼¥Ñä‰•…¡•Ì…Ğ¹¥¡Ğ¸œ°(€€€€€€€€ŸšŞß¦nG_–‚Óš&
+OóŸ¿šBë–â¿¦nï¢¦Çï¢ÊÓ¦7–N
+K¢š/ok–’s¿–â¢†_–rÃ»Oó¯¢†3/«Ÿ?ƒWœ°(€€€€€€€€¡ÑÑÁÌè¼½İİÜ¹½Ø¹Õ¬½™½É•¥¸µÑÉ…Ù•°µ…‘Ù¥”½‰É…é¥°½Í…™•Ñäµ…¹µÍ•ÕÉ¥Ñäœ°(€€€€€t°(€€€t°(€ô°(€åÁĞèì(€€€Ñ¥ÁÌèl(€€€€€lŸ²vÓ²G¶*àƒªÒªÒG²²^C²pƒ®ÂSªÂ² ƒ²jSªâ#²vÓ®
+`ƒ®æªÎ×².tƒ²s®æ²*“ªÂ ƒ²vc².³®Bc®¦Ğƒ¶b²z”ƒªÒªÒGªÊ÷²ÂÃ²^@ƒ®>²n²vƒ²jS²Ê·¶VcªÎ€°ƒ¶Ró¶VÓªÂ ƒ²wªâÃ®¦Ğƒ²ÚsªÖ´ƒ²‚²^@ƒ².ƒªÎƒ¶Vc²ã²jP¸œ°€ĞåÁÑ¥…¸Ñ½ÕÉ¥ÍĞÍ¥Ñ•Ì°Í••¬¡•±À™É½´Ñ¡”Ñ½ÕÉ¥ÍĞÁ½±¥”¥˜å½ÔÍÕÍÁ•Ğ½Ù•É¡…É¥¹œ½ÈÕ¹½™™¥¥…°Í•ÉÙ¥•ÌìÉ•Á½ÉĞ…¹äÉ¥µ”‰•™½É”±•…Ù¥¹œÑ¡”½Õ¹ÑÉä¸œ°€Ÿ
+£
+ã_#»¢šÏ–'–rÃŸ¦®c¦†7¢®/šÆ
+¦v{–³–ò?
+×óO
+ç3ZG
+?
+3
+/–‚Ó–B#¿¢šÏ–'¢¶›–¾¯nã¢®_¢Š¯–ºÏ¯¦·
+'–ë–n÷–&7¯–Æ+G–ëû_
+œ°€¡ÑÑÁÌè¼½İİÜ¹½Ø¹Õ¬½™½É•¥¸µÑÉ…Ù•°µ…‘Ù¥”½•åÁĞ½Í…™•Ñäµ…¹µÍ•ÕÉ¥Ñät°(€€€€€lŸ²vÓ²G¶*ã²^C²s®*Pƒ²"c®>_®²ğƒ®2².€ƒ®Â®Ò'®Bpƒ²w²"c®–ğƒ®#².sªÎ€°ƒ²Zó²v3®>ƒ²^³ªÎó²"c®
+`ƒ²w²"c®†pƒ®3®N€ƒªÊ²vã² ƒ¶fW²vã¶Vc²ã²jP¸œ°€%¸åÁĞ°‘É¥¹¬Í•…±•‰½ÑÑ±•İ…Ñ•ÈÉ…Ñ¡•ÈÑ¡…¸Ñ…Àİ…Ñ•È°…¹¡•¬Ñ¡…Ğ¥”¥Ìµ…‘”™É½´™¥±Ñ•É•½È‰½ÑÑ±•İ…Ñ•È¸œ°€Ÿ
+£
+ã_#Ÿ¿šÂÓ¦OšÂÓŸ¿«?šr«¦Z/–Â»s#¯šÂÓ
+K¦ËÿšÂß
+
+7¦;šÂÓ/s#¯šÂÓ/
+'’ös
+'
+3/Šë¢ª7_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹½Ø¹Õ¬½½Ù•É¹µ•¹Ğ½¹•İÌ½Á¡”µ¥ÍÍÕ•Ìµ…‘Ù¥”µÑ¼µÁ•½Á±”µÑÉ…Ù•±±¥¹œµÑ¼µ•åÁĞt°(€€€t°(€€€…ÕÑ¥½¹Ìèl(€€€€€lŸ¶Ró®vó®¾ã®Npƒ®NÄƒ²rƒ²‚²²^C²s®*Pƒ®#²#ªâĞƒ¶bãªÂwªÎğƒ®æªÎ×².tƒ²s®æ²*“®–ğƒªÊ÷ªÎ¶Vc²ã²jP¸ƒ®²Ó®0ƒ²ƒ®²ó®>ƒ®
+c²’G²^@ƒ®>#²vƒ²jSªÖ³¶V€ƒ²"`ƒ²z#²ró®. ƒ²vÓ²j¤ƒ²†ÃªÆÓ²vƒ®¢ó²‚ ƒ¶fW²vã¶Vc²ã²jP¸œ°€ĞÑ¡”ÁåÉ…µ¥‘Ì…¹½Ñ¡•È…É¡…•½±½¥…°Í¥Ñ•Ì°‰•İ…É”½˜…É•ÍÍ¥Ù”Ñ½ÕÑÌ…¹Õ¹É•Õ±…Ñ•Í•ÉÙ¥•Ì¸ƒŠq™É•—Št¥™Ğ…¸±•…Ñ¼„‘•µ…¹™½Èµ½¹•äì½¹™¥É´Ñ•ÉµÌ™¥ÉÍĞ¸œ°€ŸS§'«§»¦ë¢Ş‡Ÿ¿–òß–òW«–º‹–òW7
+‡¢¢Ç–>¿»
+×óO
+ç¯šÎ£š?_û_
+3‡šZg7»¢Ò#
++&§Ÿ
+–ú3/
+'’î¦G
+KšÆ
+
+'
+3
+/O£3
+/
+šv‡’îÛ
+K–#¯Šë¢ª7_›?ƒWœ°€¡ÑÑÁÌè¼½ÑÉ…Ù•°¹ÍÑ…Ñ”¹½Ø½•¸½¥¹Ñ•É¹…Ñ¥½¹…°µÑÉ…Ù•°½ÑÉ…Ù•°µ…‘Ù¥Í½É¥•Ì½•åÁĞ¹¡Ñµ°t°(€€€€€lŸ²vó®Ú ƒ²²^·²v ƒ²^³¶Z$ƒ²zC²‚s
+ßªâ#² ƒªÊ÷®ÎÓªÂ ƒ²z#²ró®. ƒ²Ús®Âpƒ²‚²^@ƒ²‚W®Ú ƒ¶VÓ²fã²V#²‚ƒ²V#®
+Ó®–ğƒ¶fW²vã¶Vc²ã²jP¸œ°€M½µ”É•¥½¹Ì…ÉÉä…‘Ù¥”……¥¹ÍĞÑÉ…Ù•°ì¡•¬½™™¥¥…°½Ù•É¹µ•¹ĞÑÉ…Ù•°…‘Ù¥”‰•™½É”å½Ô¼¸œ°€Ÿ’â¦£–rÃ–~¯¿šâ‡¢"«’â·š¶‹ï¢«Êo»–.Ÿ–F+3
+/»Ÿ–ëfë–&7¯šRÿ–ês»šÖß–’[–º'–£š–‚Ç
+KŠë¢ª7_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹½Ø¹Õ¬½™½É•¥¸µÑÉ…Ù•°µ…‘Ù¥”½•åÁĞ½Í…™•Ñäµ…¹µÍ•ÕÉ¥Ñät°(€€€t°(€ô°(€9½Éİ…äèì(€€€Ñ¥ÁÌèl(€€€€€lŸ²b“²*³®†s²v`ƒ®Ê²*“
+ß¶*ã®z£
+ß²¶Vc²Êƒ
+ß²vó®Ú ƒ²^Ó²Â£²f ƒ®ÂÃ®*PIÕÑ•Èƒ²ÊÓªÎ®†pƒ²jÓ¶Z'®Bc®¦À°ƒ²*ç²Â ƒ²‚²^@ƒ²VÇ²vÓ®
+`ƒ¶2C®“²Êc²^C²pƒ¶Fs®–ğƒ²’®æ¶Vc²ã²jP¸œ°€=Í±¼‰ÕÍ•Ì°ÑÉ…µÌ°Ñ¡”µ•ÑÉ¼°Í½µ”ÑÉ…¥¹Ì…¹‰½…ÑÌÕÍ”Ñ¡”IÕÑ•ÈÑ¥­•Ñ¥¹œÍåÍÑ•´ì¡…Ù”„Ù…±¥Ñ¥­•Ğ‰•™½É”‰½…É‘¥¹œ¸œ°€Ÿ
+«
+ç·»C
+ç#§ƒ–rÃ’â/¦&’â¦£»–"_¢î+
+¢"ç½IÕÑ•Ë»¦/¢Î’öOÎïŸ¦/¢†3_ûg’æ_¢î+–&7¯
+‹_«
+¢Ê§–Ëš&Ÿšr'–*ç«–"²›
+KR£š?_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹Ù¥Í¥Ñ½Í±¼¹½´½ÑÉ…¹ÍÁ½ÉĞ½¥¸µ½Í±¼t°(€€€€€lŸ²
+Ã
+ß¶Ró²b“®–Ó®Ns®†pƒ®
+cªÂ ƒ®V3®*PƒªÎ²‚#²^@ƒ®{®*Pƒ²bßªÎğƒ².ƒ®Âs²vƒ²’®æ¶VcªÎ€°ƒ²Ús®Âpƒ²‚²^@ƒ¶b² ƒ²vóªâÃ²b#®ÎÓ²f ƒ²jÓ²bƒ²‚W®ÎÓ®–ğƒ¶fW²vã¶Vc²ã²jP¸œ°€½Èµ½Õ¹Ñ…¥¸½È™©½É½ÕÑ¥¹Ì°‰É¥¹œ±½Ñ¡¥¹œ…¹™½½Ñİ•…È™½ÈÑ¡”Í•…Í½¸…¹¡•¬±½…°™½É•…ÍÑÌ…¹½Á•É…Ñ¥¹œ¥¹™½Éµ…Ñ¥½¸‰•™½É”Í•ÑÑ¥¹œ½ÕĞ¸œ°€Ÿ–ÆÇ
+W
+£¯'ã–ë/G
+/¦jo¿–¶¾¯–B#šr7
+¦vÓ
+KR£š?_–ëfë–&7¯>û–rÃ»–’§šÂ_’ê#–‚Ç£¦/¢†3š–‚Ç
+KŠë¢ª7_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹Ù¥Í¥Ñ¹½Éİ…ä¹½´½Á±…¸µå½ÕÈµÑÉ¥À½Í…™•Ñäµ™¥ÉÍĞ¼t°(€€€t°(€€€…ÕÑ¥½¹Ìèl(€€€€€lŸ²b“²*³®†pƒ²’G²Vg²^·ªÎğƒ¶bó²z‡¶VpƒªÒªÒDƒªÖ³²^·²^C²s®*Pƒ²3®“²æcªâÃ®–ğƒ²†Ã².³¶VcªÎ€ƒªÂ®Â§ªÎğƒ¶rÓ®2²‚¶fS®–ğƒ®ªàƒªÂªæ3²vÓ²^@ƒ®FC²ã²jP¸œ°€]…Ñ ™½ÈÁ¥­Á½­•ÑÌ…Ğ=Í±¼•¹ÑÉ…°MÑ…Ñ¥½¸…¹É½İ‘•Ñ½ÕÉ¥ÍĞ…É•…Ìì­••À‰…Ì…¹Á¡½¹•Ì±½Í”¸œ°€Ÿ
+«
+ç·’â·–’»¦
+šŞß¦nG_¢šÏ–'–rÃŸ¿
+ç«¯šÎ£š?_C
+Ã
+šBë–â¿¦nï¢¦Ç
+K¢ê¯¢şG¯’şwº‡_›?ƒWœ°€¡ÑÑÁÌè¼½ÑÉ…Ù•°¹ÍÑ…Ñ”¹½Ø½•¸½¥¹Ñ•É¹…Ñ¥½¹…°µÑÉ…Ù•°½ÑÉ…Ù•°µ…‘Ù¥Í½É¥•Ì½‘•ÍÑ¥¹…Ñ¥½¸¹¹½È¹¡Ñµ°t°(€€€€€lŸ²
+Ã²Vƒ²²^·²v ƒ®
+ƒ²R£ªÂ ƒ®æƒ®–ÓªÊ0ƒ®ÂS®3ªÎ€ƒ®"#²
+³¶s
+ß²
+Ã²
+³¶sªÂ ƒ²wªâàƒ²"`ƒ²z#²*×®.#®.¸ƒ¶Fs².s®BpƒªâãªÎğƒ®.çªÖ·²v`ƒ¶b² ƒªÊ÷®ÎÓ®–ğƒ®RÃ®–Ó²ã²jP¸œ°€5½Õ¹Ñ…¥¸İ•…Ñ¡•È…¸¡…¹”ÅÕ¥­±ä°…¹…Ù…±…¹¡•Ì½È±…¹‘Í±¥‘•Ì…¸½ÕÈ¸½±±½Üµ…É­•É½ÕÑ•Ì…¹±½…°…ÕÑ¡½É¥Ñä…±•ÉÑÌ¸œ°€Ÿ–ÆÇŸ¿–’§–g3š—–’'_¦n«–Ò§
+–rÃšîG
++3¢ÖßO
+/O£3
++ûgš¢g¢¶c»
+/¦O
+Kš¶§7>û–rÃ–öO–Æ»¢¶›–‚Ç¯–úOû_
+œ°€¡ÑÑÁÌè¼½ÑÉ…Ù•°¹ÍÑ…Ñ”¹½Ø½•¸½¥¹Ñ•É¹…Ñ¥½¹…°µÑÉ…Ù•°½ÑÉ…Ù•°µ…‘Ù¥Í½É¥•Ì½‘•ÍÑ¥¹…Ñ¥½¸¹¹½È¹¡Ñµ°t°(€€€t°(€ô°(€€M½ÕÑ ™É¥„œèì(€€€Ñ¥ÁÌèl(€€€€€lŸ²ò²vÓ¶R¶²jÓ²v`ƒ®2²’GªÖC¶×²v 5å¥Q¤ƒ®ã²ƒ
+ß²jÓ¶Z$ƒ²‚W®ÎÓ®–ğƒªÎ×².tƒ²
+³²vÓ¶*ã®
+`ƒ²VÇ²^C²pƒ¶fW²vã¶VcªÎ€°ƒªÎ×¶V´ƒ²vÓ®>g®>ƒ¶b²z°ƒ²jÓ¶Z$ƒªÎ×²®–ğƒ®¢ó²‚ ƒ¶fW²vã¶Vc²ã²jP¸œ°€¡•¬5å¥Q¤É½ÕÑ•Ì…¹Í•ÉÙ¥”¥¹™½Éµ…Ñ¥½¸½¸Ñ¡”½™™¥¥…°Í¥Ñ”½È…ÁÀ°…¹½¹™¥É´ÕÉÉ•¹Ğ…¥ÉÁ½ÉĞÍ•ÉÙ¥”¹½Ñ¥•Ì‰•™½É”ÑÉ…Ù•±±¥¹œ¸œ°€Ÿ
+Çó_
+ÿ
+›Ï»–³–Ç’ê“¦k½5å¥Q§»–³–ò?
+×
+“#
+
+‹_«Ÿ¢Ş¿Şkï¦/¢†3š–‚Ç
+KŠë¢ª7_¦ëšâ¿ï–.W
+šršZÃ»¦/¢†3š†#–
+KŠë¢ª7_›?ƒWœ°€¡ÑÑÁÌè¼½İİÜ¹…Á•Ñ½İ¸¹½Ø¹é„½±½…°µ…¹µ½µµÕ¹¥Ñ¥•Ì½ÑÉ…¹ÍÁ½ÉĞµ…¹µÙ•¡¥±•Ì½ÁÕ‰±¥ŒµÑÉ…¹ÍÁ½ÉĞµÍ•ÉÙ¥•Ì½‰ÕÍ•Ìµ¥¸µ…Á”µÑ½İ¸¼t°(€€€€€lŸ¶3²vÓ®âS®#²jÓ¶.ĞƒªÖ·®š÷ªÎ×²nC²v`ƒªâã²vƒªÆã²vƒ®V3®*Pƒ¶Fs².s®Bpƒ¶*ã®‚#²vóªÎğƒªÎ×²nC
+ßªÒªÒG²Ê·²v`ƒ®.ç²vğƒ²V#²‚ƒªÎ×²®–ğƒ¶fW²vã¶Vc²ã²jP¸œ°€UÍ”µ…É­•ÑÉ…¥±Ì¥¸Q…‰±”5½Õ¹Ñ…¥¸9…Ñ¥½¹…°A…É¬…¹¡•¬‘…äµ½˜Í…™•Ñä¹½Ñ¥•Ì™É½´Ñ¡”Á…É¬…¹Ñ½ÕÉ¥Í´…ÕÑ¡½É¥Ñ¥•Ì¸œ°€Ÿó[¯{
+›ÏÏ–n÷®/–³–rKŸ¿š¢g¢¶c»
+/#³
+“¯
+Kš¶§7–³–rK
+¢šÏ–'–öO–Æ»–öOš^—–º'–£š–‚Ç
+KŠë¢ª7_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹…Á•Ñ½İ¸¹ÑÉ…Ù•°½Ñ½Àµ…ÑÑÉ…Ñ¥½¹Ì½Ñ…‰±•µ½Õ¹Ñ…¥¸¼t°(€€€t°(€€€…ÕÑ¥½¹Ìèl(€€€€€lŸ²ò²vÓ¶R¶²jĞƒªÎ×¶V·²vƒ²b“ªÂ ƒ®V3®*Pƒ²ó²jPƒ®>®†s®–ğƒ²vÓ²j§¶VcªÎ€°ƒªâàƒ²V#®
+Ğƒ²VÇ²vĞƒ²fã²ƒ®>®†s®†pƒ²rƒ®>¶Vc®¦ĞƒªÊ÷®†s®–ğƒ®.“².pƒ¶fW²vã¶Vc²ã²jP¸œ°€UÍ”µ…¥¸É½…‘ÌÑ¼…¹™É½´…Á”Q½İ¸…¥ÉÁ½ÉĞì¥˜¹…Ù¥…Ñ¥½¸‘¥É•ÑÌå½Ô½¹Ñ¼…¸¥Í½±…Ñ•É½…°¡•¬Ñ¡”É½ÕÑ”……¥¸¸œ°€Ÿ
+Çó_
+ÿ
+›Ï¦ëšâ¿£»ï–.W¯¿–æçŞk¦O¢Ş¿
+K’öÿ+O3’êë¦k
++»–ÂG«¦Oãš†#–g
+/–‚Ó–B#¿Ö3¢Ş¿
+K–7Šë¢ª7_›?ƒWœ°€¡ÑÑÁÌè¼½İİÜ¹½Ø¹Õ¬½™½É•¥¸µÑÉ…Ù•°µ…‘Ù¥”½Í½ÕÑ µ…™É¥„½Í…™•Ñäµ…¹µÍ•ÕÉ¥Ñät°(€€€€€lŸ¶3²vÓ®âS®#²jÓ¶.Ó
+ß®vó²vÓ²Zã²*“¶^“®Ns²v`ƒ¶Vs²‚¶Vpƒ¶*ã®‚#²vó²v ƒ¶bó²z@ƒªÆß² ƒ®CªÎ€°ƒ²
+³®z3²vĞƒ®;²v ƒ¶Fs².s®Bpƒªâã²vƒ²vÓ²j§¶Vc²ã²jP¸œ°€¼¹½Ğ¡¥­”ÅÕ¥•Ñ•ÈÑÉ…¥±Ì½¸Q…‰±”5½Õ¹Ñ…¥¸½È1¥½»ŠeÌ!•……±½¹”ìÕÍ”‰ÕÍä°µ…É­•É½ÕÑ•Ì¸œ°€Ÿó[¯{
+›ÏÏ
+§
+“
+«Ï
+ëc'»’êë¦k
++»–ÂG«¦O
+K–6c.³Ÿš¶§/k’êë»–’kš¢g¢¶c’îc7»¦O
+K–"§R£_›?ƒWœ°€¡ÑÑÁÌè¼½İİÜ¹½Ø¹Õ¬½™½É•¥¸µÑÉ…Ù•°µ…‘Ù¥”½Í½ÕÑ µ…™É¥„½Í…™•Ñäµ…¹µÍ•ÕÉ¥Ñät°(€€€t°(€ô°(€5½É½¼èì(€€€Ñ¥ÁÌèl(€€€€€lŸ®¦S®RS®
+c²^C²pƒ²V#®
+ÓªÂ ƒ¶V²jS¶Vc®¦Ğƒ²®Â¤ƒ®.çªÖ·²v`ƒ¶^#ªÂ®–ğƒ®Âo²v ƒªÎ×².tƒªÒªÒDƒªÂ²vÓ®Ns®–ğƒ²vÓ²j§¶VcªÎ€°ƒ¶^#ªÂ²šw²vƒ¶fW²vã¶Vc²ã²jP¸œ°€%˜å½Ôİ…¹Ğ„Õ¥‘”¥¸„µ•‘¥¹„°ÕÍ”…¸½™™¥¥…±±ä…ÕÑ¡½É¥é•±½…°Ñ½ÕÉ¥ÍĞÕ¥‘”…¹¡•¬Ñ¡•¥È‰…‘”¸œ°€Ÿ‡
++Ÿš†#–
+K¦‚ó
+–‚Ó–B#¿–rÃšZç–öO–Æ»¢¢Ç–>¿
+K–>_G–³–ò?¢šÏ–'
+³
+“'
+K–"§R£_¢¢Ç–>¿¢¢ó
+KŠë¢ª7_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹½Ø¹Õ¬½™½É•¥¸µÑÉ…Ù•°µ…‘Ù¥”½µ½É½¼½Í…™•Ñäµ…¹µÍ•ÕÉ¥Ñät°(€€€€€lŸ¶b² ƒªÒ²*×²vƒ²†Ó²’G¶Vc®*Pƒ®.£²‚W¶Vpƒ®Î×²z—ªÎğƒ¶Z'®>g²vƒ²’®æ¶Vc®¦Ğƒ²ŠªÖC
+ß²^·²
+°ƒªÎ×ªÂ²vƒ®Â§®²ã¶V€ƒ®V0ƒ®>²n²vĞƒ®B§®.#®.¸œ°€I•ÍÁ•Ñ™Õ°‘É•ÍÌ…¹‰•¡…Ù¥½ÕÈ…¸¡•±Àİ¡•¸Ù¥Í¥Ñ¥¹œÉ•±¥¥½ÕÌ…¹¡¥ÍÑ½É¥ŒÁ±…•Ì¸œ°€Ÿ–º_šVgšZ÷¢¢·
+š¶Ó–>Ëj«–‚Óš&
+K¢¢«
+3
+/¦jo¿>û–rÃ»şKš¯¦7š»_šr7¢£¢†3–.W
+K–ş3Gû_
+œ°€¡ÑÑÁÌè¼½İİÜ¹Ù¥Í¥Ñµ½É½¼¹½´½•¸½ÑÉ…Ù•°µ¥¹™¼½ÁÉ…Ñ¥…°µ¥¹™½Éµ…Ñ¥½¸t°(€€€t°(€€€…ÕÑ¥½¹Ìèl(€€€€€lŸ®#®vó²ò².pƒ®¦S®RS®
+c²^C²s®*Pƒ²3®“²æcªâÃ²f ƒ²b“¶ƒ®ÂS²vÓ®–ğƒ²vÓ²j§¶Vpƒ®
+ƒ²æcªâÃ®–ğƒ²†Ã².³¶Vc²ã²jP¸ƒ¶rÓ®2²‚¶fS
+ßªÂ®Â§²vƒªâãªÂ ƒ²ª÷²ró®†pƒ®N“ªÎ€ƒªÆß² ƒ®#²ã²jP¸œ°€%¸5…ÉÉ…­•£ŠeÌµ•‘¥¹„°İ…Ñ ™½ÈÁ¥­Á½­•ÑÌ…¹µ½Ñ½Éå±”‰…œÍ¹…Ñ¡¥¹œ¸¼¹½Ğ…ÉÉäÁ¡½¹•Ì½È‰…Ì½¸Ñ¡”É½…‘Í¥‘”¸œ°€Ÿ{§
+Ç
+ß—»‡
++Ÿ¿
+ç«
+C
+“
+¿¯
+#
+/Ë?
++¯šÎ£š?_šBë–â¿¦nï¢¦Ç
+C
+Ã
+K¢î+¦O–Ó¯š2«
+#¯_û_
+œ°€¡ÑÑÁÌè¼½İİÜ¹‘¥Á±½µ…Ñ¥”¹½ÕØ¹™È½™È½¥¹™½Éµ…Ñ¥½¸µÁ…ÈµÁ…åÌ½µ…É½Œ½½¹Í•¥±Ìµ…ÕàµÙ½å…•ÕÉÌµÍ•ÕÉ¥Ñ”t°(€€€€€lŸªÎ×².tƒ¶^#ªÂ²šw²vĞƒ²^®*Pƒ²
+³®z3²vĞƒªÒªÒDƒªÂ²vÓ®Ns®–ğƒ²zC²Ê·¶VÓ®>ƒ®RÃ®vóªÂ² ƒ®CªÎ€°ƒ²vÓ®>g²v ƒªÎ×².tƒ¶w².s®
+`ƒ¶fW²vã®BpƒªÖC¶×²"c®.£²vƒ²vÓ²j§¶Vc²ã²jP¸œ°€¼¹½Ğ™½±±½ÜÁ•½Á±”İ¥Ñ¡½ÕĞ½™™¥¥…°‰…‘•Ìİ¡¼½™™•ÈÑ¼Õ¥‘”å½ÔìÕÍ”½™™¥¥…°Ñ…á¥Ì½ÈÙ•É¥™¥•ÑÉ…¹ÍÁ½ÉĞ¸œ°€Ÿ–³–ò?»¢¢Ç–>¿¢¢ó
+Kš2«’êë/
+'š†#–
+KRÏ_–ë
+'
+3›
+“›¢†3/k–³–ò?
+ÿ
+¿
+ßó
+Šë¢ª7šâ#ÿ»’ê“¦kš&/šº×
+K’öÿû_
+œ°€¡ÑÑÁÌè¼½İİÜ¹½Ø¹Õ¬½™½É•¥¸µÑÉ…Ù•°µ…‘Ù¥”½µ½É½¼½Í…™•Ñäµ…¹µÍ•ÕÉ¥Ñät°(€€€t°(€ô°)ôì((

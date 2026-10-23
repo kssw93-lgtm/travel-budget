@@ -1560,6 +1560,36 @@
     "stage": "파일럿"
   },
   {
+    "id": "oslo",
+    "country": "노르웨이",
+    "countryEn": "Norway",
+    "nameKo": "오슬로",
+    "nameEn": "Oslo",
+    "currency": "NOK",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "cape-town",
+    "country": "남아프리카공화국",
+    "countryEn": "South Africa",
+    "nameKo": "케이프타운",
+    "nameEn": "Cape Town",
+    "currency": "ZAR",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
+    "id": "marrakech",
+    "country": "모로코",
+    "countryEn": "Morocco",
+    "nameKo": "마라케시",
+    "nameEn": "Marrakech",
+    "currency": "MAD",
+    "tier": "B",
+    "stage": "2차"
+  },
+  {
     "id": "dresden",
     "country": "독일",
     "countryEn": "Germany",

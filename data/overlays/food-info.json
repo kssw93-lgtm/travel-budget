@@ -1,14 +1,50 @@
 {
   "_note": "대표 음식(도시ID:Food 영문명)의 한 줄 설명(무슨 음식인지)과 사진. 사진은 자유 이용 허락(CC0·퍼블릭 도메인·CC BY·CC BY-SA) 이미지만, 작가·라이선스·원본 페이지와 함께 넣는다. 사진이 없으면 photo 를 빼 둔다.",
-  "oslo:Norwegian Waffle with Brunost": {"ko":"노르웨이식 와플에 달콤하고 캐러멜 같은 맛의 브루노스트나 잼·사워크림을 곁들입니다.","en":"Norwegian waffles are often served with sweet, caramel-like brown cheese (brunost), jam or sour cream.","ja":"ノルウェー風ワッフルに、甘くキャラメルのような味のブラウンチーズ（ブルノスト）やジャム、サワークリームを添えます。"},
-  "oslo:Rømmegrøt": {"ko":"사워크림으로 만든 노르웨이식 죽으로, 버터·설탕·시나몬을 얹어 먹습니다.","en":"Norwegian sour cream porridge, commonly topped with butter, sugar and cinnamon.","ja":"サワークリームで作るノルウェーの粥で、バター、砂糖、シナモンを添えて食べます。"},
-  "oslo:Lutefisk": {"ko":"말린 대구 등을 잿물로 처리한 노르웨이 전통 생선 요리입니다.","en":"A traditional Norwegian fish dish made from dried cod or similar fish treated with lye.","ja":"干しタラなどを灰汁で処理して作る、ノルウェーの伝統的な魚料理です。"},
-  "cape-town:Gatsby Sandwich": {"ko":"긴 빵에 고기나 생선, 감자튀김과 여러 재료를 채워 함께 나누어 먹기도 하는 케이프타운식 샌드위치입니다.","en":"A Cape Town sandwich made in a long roll and packed with fillings such as meat or fish and chips.","ja":"細長いパンに肉や魚、フライドポテトなどをたっぷり挟んだ、ケープタウンのサンドイッチです。"},
-  "cape-town:Cape Malay Bobotie": {"ko":"향신료를 넣은 다진 고기 위에 달걀 커스터드 층을 얹어 구운 케이프 말레이 요리입니다.","en":"A Cape Malay dish of spiced minced meat baked under an egg-custard topping.","ja":"スパイスを加えたひき肉に卵のカスタードをのせて焼く、ケープ・マレー料理です。"},
-  "cape-town:Koesister": {"ko":"향신료를 넣어 튀긴 뒤 시럽에 적시고 코코넛을 입히는 달콤한 과자입니다.","en":"A spiced fried dough treat dipped in syrup and often coated with coconut.","ja":"スパイス入りの生地を揚げてシロップに浸し、ココナッツをまぶす甘い菓子です。"},
-  "marrakech:Tanjia": {"ko":"양고기나 송아지고기를 항아리에 담아 향신료와 함께 천천히 익히는 마라케시의 대표 음식입니다.","en":"Marrakech’s signature dish of lamb or veal slow-cooked with spices in a clay jar.","ja":"羊肉または仔牛肉をスパイスとともに陶器の壺でじっくり煮込む、マラケシュを代表する料理です。"},
-  "marrakech:Couscous": {"ko":"찐 세몰리나에 고기·채소나 생선 등을 곁들여 먹는 모로코의 주식입니다.","en":"Steamed semolina served with meat and vegetables, fish or other regional accompaniments.","ja":"蒸したセモリナに肉や野菜、魚などを添えて食べるモロッコの主食です。"},
-  "marrakech:Mint Tea": {"ko":"녹차에 민트를 넣어 끓여 손님에게 대접하는 모로코 전통 음료입니다.","en":"A traditional Moroccan drink of green tea and mint, served to welcome guests.","ja":"緑茶にミントを加え、客人を迎えるときに出すモロッコの伝統的な飲み物です。"},
+  "oslo:Norwegian Waffle with Brunost": {
+    "ko": "노르웨이식 와플에 달콤하고 캐러멜 같은 맛의 브루노스트나 잼·사워크림을 곁들입니다.",
+    "en": "Norwegian waffles are often served with sweet, caramel-like brown cheese (brunost), jam or sour cream.",
+    "ja": "ノルウェー風ワッフルに、甘くキャラメルのような味のブラウンチーズ（ブルノスト）やジャム、サワークリームを添えます。"
+  },
+  "oslo:Rømmegrøt": {
+    "ko": "사워크림으로 만든 노르웨이식 죽으로, 버터·설탕·시나몬을 얹어 먹습니다.",
+    "en": "Norwegian sour cream porridge, commonly topped with butter, sugar and cinnamon.",
+    "ja": "サワークリームで作るノルウェーの粥で、バター、砂糖、シナモンを添えて食べます。"
+  },
+  "oslo:Lutefisk": {
+    "ko": "말린 대구 등을 잿물로 처리한 노르웨이 전통 생선 요리입니다.",
+    "en": "A traditional Norwegian fish dish made from dried cod or similar fish treated with lye.",
+    "ja": "干しタラなどを灰汁で処理して作る、ノルウェーの伝統的な魚料理です。"
+  },
+  "cape-town:Gatsby Sandwich": {
+    "ko": "긴 빵에 고기나 생선, 감자튀김과 여러 재료를 채워 함께 나누어 먹기도 하는 케이프타운식 샌드위치입니다.",
+    "en": "A Cape Town sandwich made in a long roll and packed with fillings such as meat or fish and chips.",
+    "ja": "細長いパンに肉や魚、フライドポテトなどをたっぷり挟んだ、ケープタウンのサンドイッチです。"
+  },
+  "cape-town:Cape Malay Bobotie": {
+    "ko": "향신료를 넣은 다진 고기 위에 달걀 커스터드 층을 얹어 구운 케이프 말레이 요리입니다.",
+    "en": "A Cape Malay dish of spiced minced meat baked under an egg-custard topping.",
+    "ja": "スパイスを加えたひき肉に卵のカスタードをのせて焼く、ケープ・マレー料理です。"
+  },
+  "cape-town:Koesister": {
+    "ko": "향신료를 넣어 튀긴 뒤 시럽에 적시고 코코넛을 입히는 달콤한 과자입니다.",
+    "en": "A spiced fried dough treat dipped in syrup and often coated with coconut.",
+    "ja": "スパイス入りの生地を揚げてシロップに浸し、ココナッツをまぶす甘い菓子です。"
+  },
+  "marrakech:Tanjia": {
+    "ko": "양고기나 송아지고기를 항아리에 담아 향신료와 함께 천천히 익히는 마라케시의 대표 음식입니다.",
+    "en": "Marrakech’s signature dish of lamb or veal slow-cooked with spices in a clay jar.",
+    "ja": "羊肉または仔牛肉をスパイスとともに陶器の壺でじっくり煮込む、マラケシュを代表する料理です。"
+  },
+  "marrakech:Couscous": {
+    "ko": "찐 세몰리나에 고기·채소나 생선 등을 곁들여 먹는 모로코의 주식입니다.",
+    "en": "Steamed semolina served with meat and vegetables, fish or other regional accompaniments.",
+    "ja": "蒸したセモリナに肉や野菜、魚などを添えて食べるモロッコの主食です。"
+  },
+  "marrakech:Mint Tea": {
+    "ko": "녹차에 민트를 넣어 끓여 손님에게 대접하는 모로코 전통 음료입니다.",
+    "en": "A traditional Moroccan drink of green tea and mint, served to welcome guests.",
+    "ja": "緑茶にミントを加え、客人を迎えるときに出すモロッコの伝統的な飲み物です。"
+  },
   "tokyo:Edomae Sushi": {
     "ko": "식초 밥 위에 도쿄만 해산물을 올린 에도(도쿄) 전통 방식의 스시",
     "en": "Traditional Tokyo-style sushi: seafood laid over vinegared rice",
@@ -4547,7 +4583,13 @@
   "bordeaux:Canelé": {
     "ko": "겉은 캐러멜처럼 바삭하고 속은 촉촉한 럼·바닐라 향의 보르도 과자",
     "en": "Rum-and-vanilla pastry with a caramelised crust and soft centre",
-    "ja": "外はカラメルのように香ばしく中はしっとりした、ラムとバニラ香るボルドーの菓子"
+    "ja": "外はカラメルのように香ばしく中はしっとりした、ラムとバニラ香るボルドーの菓子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Canele.JPG/960px-Canele.JPG",
+      "author": "Bordeaux",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Canele.JPG"
+    }
   },
   "bordeaux:Entrecôte": {
     "ko": "보르도식 소스와 감자튀김을 곁들인 소고기 등심 스테이크",
@@ -4637,7 +4679,13 @@
   "warsaw:Pierogi": {
     "ko": "고기·양배추·버섯이나 감자·치즈를 채운 폴란드 만두",
     "en": "Polish dumplings filled with meat, sauerkraut and mushrooms or potato and cheese",
-    "ja": "肉やキャベツ・きのこ、じゃがいもとチーズを包んだポーランドの餃子"
+    "ja": "肉やキャベツ・きのこ、じゃがいもとチーズを包んだポーランドの餃子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Pierogi_in_Warsaw%2C_2019.jpg/960px-Pierogi_in_Warsaw%2C_2019.jpg",
+      "author": "Chris Olszewski",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pierogi_in_Warsaw,_2019.jpg"
+    }
   },
   "warsaw:Żurek": {
     "ko": "삶은 달걀과 흰 소시지를 넣은 시큼한 호밀 수프",
@@ -4694,7 +4742,13 @@
   "antwerp:Antwerpse Handjes": {
     "ko": "안트베르펜 전설에 나오는 손 모양의 초콜릿·비스킷",
     "en": "Hand-shaped chocolates or biscuits from Antwerp legend",
-    "ja": "アントワープの伝説にちなんだ手の形のチョコレートやビスケット"
+    "ja": "アントワープの伝説にちなんだ手の形のチョコレートやビスケット",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Antwerpse_handjes.jpg/960px-Antwerpse_handjes.jpg",
+      "author": "TheGoodEndedHappily",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Antwerpse_handjes.jpg"
+    }
   },
   "antwerp:Belgian Fries": {
     "ko": "두 번 튀겨 소스를 곁들이는 벨기에식 감자튀김",
@@ -4781,7 +4835,13 @@
   "boston:New England Clam Chowder": {
     "ko": "조개와 감자를 크림 수프로 끓인 보스턴 대표 음식",
     "en": "Creamy soup of clams and potatoes, Boston’s classic",
-    "ja": "貝とじゃがいもをクリームスープで煮たボストンの代表料理"
+    "ja": "貝とじゃがいもをクリームスープで煮たボストンの代表料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Clam_chowder.jpg/960px-Clam_chowder.jpg",
+      "author": "Jon Sullivan",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Clam_chowder.jpg"
+    }
   },
   "boston:Lobster Roll": {
     "ko": "버터나 마요네즈로 버무린 랍스터 살을 빵에 채운 샌드위치",
@@ -4836,7 +4896,13 @@
   "montreal:Poutine": {
     "ko": "감자튀김에 치즈 커드와 그레이비 소스를 얹은 퀘벡 음식",
     "en": "Fries with cheese curds and gravy, a Québec classic",
-    "ja": "フライドポテトにチーズカードとグレイビーソースをかけたケベック料理"
+    "ja": "フライドポテトにチーズカードとグレイビーソースをかけたケベック料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/MontrealPoutine.jpg/960px-MontrealPoutine.jpg",
+      "author": "Mike Schiraldi",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:MontrealPoutine.jpg"
+    }
   },
   "seattle:Dungeness Crab": {
     "ko": "워싱턴주 바다에서 나는 달큰한 맛의 대게류",
@@ -4948,7 +5014,13 @@
   "adelaide:Frog Cake": {
     "ko": "개구리 모양으로 꾸민 애들레이드의 작은 퐁당 케이크",
     "en": "Adelaide’s little frog-shaped fondant cake",
-    "ja": "カエルの形に飾ったアデレードの小さなフォンダンケーキ"
+    "ja": "カエルの形に飾ったアデレードの小さなフォンダンケーキ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Frog_cakes.jpg/960px-Frog_cakes.jpg",
+      "author": "Bilby",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Frog_cakes.jpg"
+    }
   },
   "adelaide:Barossa Pasty": {
     "ko": "고기와 채소를 채운 바로사 지역 전통 파이",
@@ -4998,7 +5070,13 @@
   "bilbao:Pintxos": {
     "ko": "빵 위에 다양한 재료를 얹은 바스크식 한입 요리",
     "en": "Basque bite-sized snacks, often on bread",
-    "ja": "パンの上にさまざまな具をのせたバスクの一口料理"
+    "ja": "パンの上にさまざまな具をのせたバスクの一口料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pintxos_de_Bilbao.jpg/960px-Pintxos_de_Bilbao.jpg",
+      "author": "Coralma*",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pintxos_de_Bilbao.jpg"
+    }
   },
   "toulouse:Cassoulet": {
     "ko": "흰콩과 오리 콩피, 툴루즈 소시지를 질그릇에 오래 익힌 요리",
@@ -5438,7 +5516,13 @@
   "aarhus:Smørrebrød": {
     "ko": "호밀빵 위에 청어·고기·달걀 등을 얹은 덴마크식 오픈 샌드위치",
     "en": "Danish open sandwiches on rye with herring, meats or egg",
-    "ja": "ライ麦パンにニシンや肉、卵などをのせたデンマーク風オープンサンド"
+    "ja": "ライ麦パンにニシンや肉、卵などをのせたデンマーク風オープンサンド",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sm%C3%B8rrebr%C3%B8d-01.jpg/960px-Sm%C3%B8rrebr%C3%B8d-01.jpg",
+      "author": "angermann",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sm%C3%B8rrebr%C3%B8d-01.jpg"
+    }
   },
   "aarhus:Street Food": {
     "ko": "옛 버스 차고 시장의 세계 각국 음식",
@@ -5513,7 +5597,13 @@
   "stuttgart:Maultaschen": {
     "ko": "고기와 시금치를 채운 슈바벤식 큰 만두",
     "en": "Swabian pasta pockets filled with meat and spinach",
-    "ja": "肉とほうれん草を詰めたシュヴァーベン風の大きな餃子"
+    "ja": "肉とほうれん草を詰めたシュヴァーベン風の大きな餃子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Maultaschen_mit_Zwiebelschmelze_in_Stuttgart.jpg/960px-Maultaschen_mit_Zwiebelschmelze_in_Stuttgart.jpg",
+      "author": "Dr. Bernd Gross",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Maultaschen_mit_Zwiebelschmelze_in_Stuttgart.jpg"
+    }
   },
   "stuttgart:Käsespätzle": {
     "ko": "달걀 면에 치즈와 볶은 양파를 얹은 요리",
@@ -5528,7 +5618,13 @@
   "dusseldorf:Altbier": {
     "ko": "구시가지 양조장에서 작은 잔에 내는 쌉쌀한 갈색 맥주",
     "en": "Bitter-spicy top-fermented dark beer in small glasses",
-    "ja": "旧市街の醸造所で小さなグラスに注ぐほろ苦い褐色のビール"
+    "ja": "旧市街の醸造所で小さなグラスに注ぐほろ苦い褐色のビール",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Diebels_Altbier.jpg/960px-Diebels_Altbier.jpg",
+      "author": "User:Ich",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Diebels_Altbier.jpg"
+    }
   },
   "dusseldorf:Halve Hahn": {
     "ko": "호밀빵 반쪽에 고다 치즈와 겨자를 곁들인 간식",
@@ -5648,9 +5744,29 @@
       "page": "https://commons.wikimedia.org/wiki/File:Brazilian_churrasco.jpg"
     }
   },
-  "tsushima:Taishu Soba": {"ko":"대마도에서 이어 온 메밀 품종으로 만든 향토 소바입니다. 관광협회 등록 식당은 대마산 메밀을 100% 사용한다고 안내합니다.","en":"A local soba made with Tsushima buckwheat. A restaurant listed by the tourism association says it uses 100% locally grown Taishu buckwheat.","ja":"対馬で受け継がれてきたそばの実で作る郷土そばです。観光協会掲載店は対馬産のそばを100％使用すると案内しています。"},
-  "tsushima:Tsushima Conger Eel": {"ko":"대마도산 붕장어를 전문으로 다루는 지역 식당이 소개하는 향토 식재료 요리입니다.","en":"A local speciality featuring conger eel from Tsushima, highlighted by a restaurant specialising in anago.","ja":"あなごを専門に扱う地元店が紹介する、対馬産あなごの料理です。"},
-  "tsushima:Iriyaki": {"ko":"대마도 향토요리로, 지역 식당 메뉴에 이리야키 정식과 소바가 올라 있습니다.","en":"A Tsushima local dish featured as a set meal and a soba dish at a local restaurant.","ja":"対馬の郷土料理で、地元店のメニューにいりやき膳やいりやきそばがあります。"},
-  "tsushima:Rokube": {"ko":"대마도 향토요리로, 지역 식당이 대표 메뉴로 소개합니다.","en":"A Tsushima local dish listed among the signature items at a local restaurant.","ja":"対馬の郷土料理で、地元店が代表的な料理として紹介しています。"},
-  "tsushima:Tsushima Tonchan": {"ko":"대마도 관광협회가 향토요리 가운데 하나로 소개하는 지역 음식입니다.","en":"A local dish named among Tsushima’s regional specialities by the island’s tourism association.","ja":"対馬観光物産協会が郷土料理の一つとして紹介する料理です。"}
+  "tsushima:Taishu Soba": {
+    "ko": "대마도에서 이어 온 메밀 품종으로 만든 향토 소바입니다. 관광협회 등록 식당은 대마산 메밀을 100% 사용한다고 안내합니다.",
+    "en": "A local soba made with Tsushima buckwheat. A restaurant listed by the tourism association says it uses 100% locally grown Taishu buckwheat.",
+    "ja": "対馬で受け継がれてきたそばの実で作る郷土そばです。観光協会掲載店は対馬産のそばを100％使用すると案内しています。"
+  },
+  "tsushima:Tsushima Conger Eel": {
+    "ko": "대마도산 붕장어를 전문으로 다루는 지역 식당이 소개하는 향토 식재료 요리입니다.",
+    "en": "A local speciality featuring conger eel from Tsushima, highlighted by a restaurant specialising in anago.",
+    "ja": "あなごを専門に扱う地元店が紹介する、対馬産あなごの料理です。"
+  },
+  "tsushima:Iriyaki": {
+    "ko": "대마도 향토요리로, 지역 식당 메뉴에 이리야키 정식과 소바가 올라 있습니다.",
+    "en": "A Tsushima local dish featured as a set meal and a soba dish at a local restaurant.",
+    "ja": "対馬の郷土料理で、地元店のメニューにいりやき膳やいりやきそばがあります。"
+  },
+  "tsushima:Rokube": {
+    "ko": "대마도 향토요리로, 지역 식당이 대표 메뉴로 소개합니다.",
+    "en": "A Tsushima local dish listed among the signature items at a local restaurant.",
+    "ja": "対馬の郷土料理で、地元店が代表的な料理として紹介しています。"
+  },
+  "tsushima:Tsushima Tonchan": {
+    "ko": "대마도 관광협회가 향토요리 가운데 하나로 소개하는 지역 음식입니다.",
+    "en": "A local dish named among Tsushima’s regional specialities by the island’s tourism association.",
+    "ja": "対馬観光物産協会が郷土料理の一つとして紹介する料理です。"
+  }
 }

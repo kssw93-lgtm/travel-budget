@@ -1297,6 +1297,12 @@
       "en": "Danish open sandwiches on rye with herring, meats or egg",
       "ja": "ライ麦パンにニシンや肉、卵などをのせたデンマーク風オープンサンド"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sm%C3%B8rrebr%C3%B8d-01.jpg/960px-Sm%C3%B8rrebr%C3%B8d-01.jpg",
+      "author": "angermann",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sm%C3%B8rrebr%C3%B8d-01.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -1368,6 +1374,12 @@
       "ko": "개구리 모양으로 꾸민 애들레이드의 작은 퐁당 케이크",
       "en": "Adelaide’s little frog-shaped fondant cake",
       "ja": "カエルの形に飾ったアデレードの小さなフォンダンケーキ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Frog_cakes.jpg/960px-Frog_cakes.jpg",
+      "author": "Bilby",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Frog_cakes.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -1598,6 +1610,12 @@
       "ko": "안트베르펜 전설에 나오는 손 모양의 초콜릿·비스킷",
       "en": "Hand-shaped chocolates or biscuits from Antwerp legend",
       "ja": "アントワープの伝説にちなんだ手の形のチョコレートやビスケット"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Antwerpse_handjes.jpg/960px-Antwerpse_handjes.jpg",
+      "author": "TheGoodEndedHappily",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Antwerpse_handjes.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -2425,6 +2443,12 @@
       "en": "Basque bite-sized snacks, often on bread",
       "ja": "パンの上にさまざまな具をのせたバスクの一口料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pintxos_de_Bilbao.jpg/960px-Pintxos_de_Bilbao.jpg",
+      "author": "Coralma*",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pintxos_de_Bilbao.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2515,6 +2539,12 @@
       "en": "Rum-and-vanilla pastry with a caramelised crust and soft centre",
       "ja": "外はカラメルのように香ばしく中はしっとりした、ラムとバニラ香るボルドーの菓子"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Canele.JPG/960px-Canele.JPG",
+      "author": "Bordeaux",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Canele.JPG"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2568,6 +2598,12 @@
       "ko": "조개와 감자를 크림 수프로 끓인 보스턴 대표 음식",
       "en": "Creamy soup of clams and potatoes, Boston’s classic",
       "ja": "貝とじゃがいもをクリームスープで煮たボストンの代表料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Clam_chowder.jpg/960px-Clam_chowder.jpg",
+      "author": "Jon Sullivan",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Clam_chowder.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -4532,6 +4568,12 @@
       "ko": "구시가지 양조장에서 작은 잔에 내는 쌉쌀한 갈색 맥주",
       "en": "Bitter-spicy top-fermented dark beer in small glasses",
       "ja": "旧市街の醸造所で小さなグラスに注ぐほろ苦い褐色のビール"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Diebels_Altbier.jpg/960px-Diebels_Altbier.jpg",
+      "author": "User:Ich",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Diebels_Altbier.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -9112,6 +9154,12 @@
       "en": "Fries with cheese curds and gravy, a Québec classic",
       "ja": "フライドポテトにチーズカードとグレイビーソースをかけたケベック料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/MontrealPoutine.jpg/960px-MontrealPoutine.jpg",
+      "author": "Mike Schiraldi",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:MontrealPoutine.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -12194,6 +12242,12 @@
       "en": "Swabian pasta pockets filled with meat and spinach",
       "ja": "肉とほうれん草を詰めたシュヴァーベン風の大きな餃子"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Maultaschen_mit_Zwiebelschmelze_in_Stuttgart.jpg/960px-Maultaschen_mit_Zwiebelschmelze_in_Stuttgart.jpg",
+      "author": "Dr. Bernd Gross",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Maultaschen_mit_Zwiebelschmelze_in_Stuttgart.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -13749,6 +13803,12 @@
       "ko": "고기·양배추·버섯이나 감자·치즈를 채운 폴란드 만두",
       "en": "Polish dumplings filled with meat, sauerkraut and mushrooms or potato and cheese",
       "ja": "肉やキャベツ・きのこ、じゃがいもとチーズを包んだポーランドの餃子"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Pierogi_in_Warsaw%2C_2019.jpg/960px-Pierogi_in_Warsaw%2C_2019.jpg",
+      "author": "Chris Olszewski",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pierogi_in_Warsaw,_2019.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],

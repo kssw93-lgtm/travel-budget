@@ -4415,7 +4415,13 @@
   "lyon:Pike Quenelle": {
     "ko": "강꼬치고기 살을 반죽해 크림 소스에 구운 리옹 부숑의 대표 요리",
     "en": "Pike dumpling baked in a creamy sauce, the signature bouchon dish",
-    "ja": "川カマスのすり身を団子にしてクリームソースで焼いたリヨンのブションの代表料理"
+    "ja": "川カマスのすり身を団子にしてクリームソースで焼いたリヨンのブションの代表料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Quenelle_de_brochet_sauce_Nantua.jpg/960px-Quenelle_de_brochet_sauce_Nantua.jpg",
+      "author": "Fryke27",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Quenelle_de_brochet_sauce_Nantua.jpg"
+    }
   },
   "lyon:Lyonnaise Salad": {
     "ko": "베이컨·반숙 달걀·크루통을 올린 리옹식 샐러드",
@@ -4490,7 +4496,13 @@
   "lucerne:Chügelipastete": {
     "ko": "고기 완자와 크림 소스를 파이 반죽에 채운 루체른 전통 요리",
     "en": "Puff-pastry pie of meatballs in cream sauce, a Lucerne tradition",
-    "ja": "肉団子とクリームソースをパイ生地に詰めたルツェルンの伝統料理"
+    "ja": "肉団子とクリームソースをパイ生地に詰めたルツェルンの伝統料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Luzerner_Ch%C3%BCgelipastete.jpg/960px-Luzerner_Ch%C3%BCgelipastete.jpg",
+      "author": "WiseTea",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Luzerner_Ch%C3%BCgelipastete.jpg"
+    }
   },
   "lucerne:Älplermagronen": {
     "ko": "마카로니·감자·치즈를 함께 익혀 사과 소스를 곁들이는 스위스 산골 요리",
@@ -4640,12 +4652,24 @@
   "ghent:Gentse Waterzooi": {
     "ko": "닭이나 생선을 채소와 함께 크림 육수에 끓인 겐트 전통 스튜",
     "en": "Creamy stew of chicken or fish with vegetables",
-    "ja": "鶏肉か魚を野菜とクリーム仕立てのスープで煮込んだヘント伝統の料理"
+    "ja": "鶏肉か魚を野菜とクリーム仕立てのスープで煮込んだヘント伝統の料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Waterzooi%2C_2010.jpg/960px-Waterzooi%2C_2010.jpg",
+      "author": "Smabs Sputzer",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Waterzooi,_2010.jpg"
+    }
   },
   "ghent:Cuberdons": {
     "ko": "코 모양의 라즈베리 맛 젤리 사탕으로, 겐트의 상징 같은 과자",
     "en": "Nose-shaped raspberry gum sweets, a Ghent icon",
-    "ja": "鼻の形をしたラズベリー味のゼリー菓子で、ヘントの象徴のようなお菓子"
+    "ja": "鼻の形をしたラズベリー味のゼリー菓子で、ヘントの象徴のようなお菓子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Cuberdons.jpg/960px-Cuberdons.jpg",
+      "author": "Arouet",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cuberdons.jpg"
+    }
   },
   "ghent:Ghent-style Stoverij": {
     "ko": "맥주로 소고기를 푹 끓인 벨기에식 스튜",
@@ -4705,12 +4729,24 @@
   "gold-coast:Fish and Chips": {
     "ko": "갓 잡은 생선을 튀겨 해변에서 먹는 호주식 피시 앤드 칩스",
     "en": "Fresh-caught fish fried and eaten on the beach",
-    "ja": "とれたての魚を揚げてビーチで食べるオーストラリア風フィッシュ・アンド・チップス"
+    "ja": "とれたての魚を揚げてビーチで食べるオーストラリア風フィッシュ・アンド・チップス",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Fish_and_chips_blackpool.jpg/960px-Fish_and_chips_blackpool.jpg",
+      "author": "Matthias Meckel",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Fish_and_chips_blackpool.jpg"
+    }
   },
   "gold-coast:Fresh Oysters": {
     "ko": "항구 수산시장에서 바로 까 주는 생굴",
     "en": "Just-shucked oysters from the harbour fish markets",
-    "ja": "港の魚市場でその場で剥いてくれる生ガキ"
+    "ja": "港の魚市場でその場で剥いてくれる生ガキ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Oysters_on_ice.jpg/960px-Oysters_on_ice.jpg",
+      "author": "Angie Garrett",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Oysters_on_ice.jpg"
+    }
   },
   "brisbane:Moreton Bay Bugs": {
     "ko": "작은 랍스터를 닮은 퀸즐랜드 근해의 갑각류 요리",
@@ -4865,7 +4901,13 @@
   "glasgow:Chicken Tikka Masala": {
     "ko": "글래스고에서 처음 만들어졌다고 알려진 크림 카레",
     "en": "Creamy curry said to have been created in Glasgow",
-    "ja": "グラスゴーで生まれたといわれるクリーミーなカレー"
+    "ja": "グラスゴーで生まれたといわれるクリーミーなカレー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Chicken_tikka_masala.jpg/960px-Chicken_tikka_masala.jpg",
+      "author": "Michael Hays",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Chicken_tikka_masala.jpg"
+    }
   },
   "glasgow:Lorne Sausage": {
     "ko": "다진 고기를 네모나게 썬 스코틀랜드식 소시지로, 아침 빵에 끼워 먹습니다",
@@ -4875,7 +4917,13 @@
   "glasgow:Haggis": {
     "ko": "양 내장과 귀리, 향신료로 만든 스코틀랜드 전통 음식",
     "en": "Scotland’s national dish of sheep offal, oats and spices",
-    "ja": "羊の内臓とオーツ麦、スパイスで作るスコットランドの伝統料理"
+    "ja": "羊の内臓とオーツ麦、スパイスで作るスコットランドの伝統料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Haggis_neeps_and_tatties.jpg/960px-Haggis_neeps_and_tatties.jpg",
+      "author": "Biology Big Brother",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Haggis,_neeps_and_tatties.jpg"
+    }
   },
   "san-diego:Fish Tacos": {
     "ko": "바하 캘리포니아식으로 튀기거나 구운 생선을 토르티야에 싼 샌디에이고 명물",

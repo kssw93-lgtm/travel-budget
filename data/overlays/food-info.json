@@ -4863,7 +4863,13 @@
   "boston:Oysters": {
     "ko": "뉴잉글랜드 바다에서 나는 신선한 생굴",
     "en": "Fresh New England oysters on the half shell",
-    "ja": "ニューイングランドの海でとれる新鮮な生ガキ"
+    "ja": "ニューイングランドの海でとれる新鮮な生ガキ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Oysters_(5225310695).jpg/960px-Oysters_(5225310695).jpg",
+      "author": "Jules Morgan",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Oysters_(5225310695).jpg"
+    }
   },
   "toronto:Peameal Bacon Sandwich": {
     "ko": "옥수숫가루를 입힌 돼지 등심 베이컨을 빵에 끼운 토론토 대표 샌드위치",
@@ -5072,7 +5078,13 @@
   "bilbao:Bacalao al Pil-Pil": {
     "ko": "올리브유와 마늘로 대구의 젤라틴을 끌어내 소스를 만든 바스크 대표 요리",
     "en": "Salt cod in an emulsified olive-oil and garlic sauce",
-    "ja": "オリーブオイルとにんにくでタラのゼラチンを乳化させたソースで仕上げるバスク料理"
+    "ja": "オリーブオイルとにんにくでタラのゼラチンを乳化させたソースで仕上げるバスク料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/BacalaoalPilpil.jpg/960px-BacalaoalPilpil.jpg",
+      "author": "Boca Dorada",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:BacalaoalPilpil.jpg"
+    }
   },
   "bilbao:Txipirones en su Tinta": {
     "ko": "작은 오징어를 먹물 소스로 조린 요리",
@@ -5532,7 +5544,13 @@
   "bremen:Labskaus": {
     "ko": "뱃사람들이 먹던 고기·감자 요리로, 달걀프라이와 청어 절임을 곁들입니다",
     "en": "Sailors’ corned-beef hash with fried egg and rollmops",
-    "ja": "船乗りが食べた肉とじゃがいもの料理で、目玉焼きやニシンの酢漬けを添えます"
+    "ja": "船乗りが食べた肉とじゃがいもの料理で、目玉焼きやニシンの酢漬けを添えます",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Labskaus_in_Bremen_1.JPG/960px-Labskaus_in_Bremen_1.JPG",
+      "author": "Dr. Bernd Gross",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Labskaus_in_Bremen_1.JPG"
+    }
   },
   "gothenburg:Shrimp Sandwich": {
     "ko": "빵 위에 서해안 새우를 수북이 올린 오픈 샌드위치",

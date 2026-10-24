@@ -2443,6 +2443,12 @@
       "en": "Salt cod in an emulsified olive-oil and garlic sauce",
       "ja": "オリーブオイルとにんにくでタラのゼラチンを乳化させたソースで仕上げるバスク料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/BacalaoalPilpil.jpg/960px-BacalaoalPilpil.jpg",
+      "author": "Boca Dorada",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:BacalaoalPilpil.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2677,6 +2683,12 @@
       "en": "Fresh New England oysters on the half shell",
       "ja": "ニューイングランドの海でとれる新鮮な生ガキ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Oysters_(5225310695).jpg/960px-Oysters_(5225310695).jpg",
+      "author": "Jules Morgan",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Oysters_(5225310695).jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2730,6 +2742,12 @@
       "ko": "뱃사람들이 먹던 고기·감자 요리로, 달걀프라이와 청어 절임을 곁들입니다",
       "en": "Sailors’ corned-beef hash with fried egg and rollmops",
       "ja": "船乗りが食べた肉とじゃがいもの料理で、目玉焼きやニシンの酢漬けを添えます"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Labskaus_in_Bremen_1.JPG/960px-Labskaus_in_Bremen_1.JPG",
+      "author": "Dr. Bernd Gross",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Labskaus_in_Bremen_1.JPG"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],

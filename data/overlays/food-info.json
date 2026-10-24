@@ -4695,7 +4695,13 @@
   "warsaw:Pączki": {
     "ko": "장미잼 등을 채우고 설탕을 입힌 폴란드식 도넛",
     "en": "Polish doughnuts filled with rose jam and glazed",
-    "ja": "バラのジャムなどを詰めて砂糖をまぶしたポーランド風ドーナツ"
+    "ja": "バラのジャムなどを詰めて砂糖をまぶしたポーランド風ドーナツ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Paczki.jpg/960px-Paczki.jpg",
+      "author": "Rmhermen",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Paczki.jpg"
+    }
   },
   "ghent:Gentse Waterzooi": {
     "ko": "닭이나 생선을 채소와 함께 크림 육수에 끓인 겐트 전통 스튜",
@@ -5048,7 +5054,13 @@
   "liverpool:Scouse": {
     "ko": "양고기나 소고기에 감자·당근·양파를 넣고 끓인 리버풀 대표 스튜",
     "en": "Hearty stew of lamb or beef with potatoes, carrots and onions",
-    "ja": "ラム肉や牛肉にじゃがいも・にんじん・玉ねぎを入れて煮込んだリバプール名物のシチュー"
+    "ja": "ラム肉や牛肉にじゃがいも・にんじん・玉ねぎを入れて煮込んだリバプール名物のシチュー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Day_2-_Scouse_(8369706279).jpg/960px-Day_2-_Scouse_(8369706279).jpg",
+      "author": "Takashi Hososhima",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Day_2-_Scouse_(8369706279).jpg"
+    }
   },
   "liverpool:Scouse Pie": {
     "ko": "스카우스를 채워 구운 파이",

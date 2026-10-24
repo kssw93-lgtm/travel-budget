@@ -12978,6 +12978,106 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "tsushima",
+    "nameKo": "대주 소바",
+    "nameEn": "Taishu Soba",
+    "reason": "대마도에서 전승된 품종의 메밀로 만든 향토 소바로, 관광협회 등록 식당이 대마산 메밀 100% 사용을 안내합니다.",
+    "reasonEn": "A local soba made with Taishu buckwheat grown on Tsushima.",
+    "desc": {
+      "ko": "대마도에서 이어 온 메밀 품종으로 만든 향토 소바입니다. 관광협회 등록 식당은 대마산 메밀을 100% 사용한다고 안내합니다.",
+      "en": "A local soba made with Tsushima buckwheat. A restaurant listed by the tourism association says it uses 100% locally grown Taishu buckwheat.",
+      "ja": "対馬で受け継がれてきたそばの実で作る郷土そばです。観光協会掲載店は対馬産のそばを100％使用すると案内しています。"
+    },
+    "nameJa": "対州そば",
+    "reasonJa": "対馬で受け継がれてきた品種のそばを使う郷土そばです。観光協会掲載店が対馬産のそばを100％使用すると案内しています。",
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "국가 공통 가격 사용",
+    "recommendSource": "대마도관광물산협회",
+    "recommendUrl": "https://www.tsushima-net.org/food/takumi",
+    "note": "공식 등록 식당 안내에서 대주 소바와 지역 재료 사용 확인."
+  },
+  {
+    "cityId": "tsushima",
+    "nameKo": "대마도 붕장어 요리",
+    "nameEn": "Tsushima Conger Eel",
+    "reason": "대마도산 붕장어를 전문으로 하는 지역 식당과 요리를 관광협회가 소개합니다.",
+    "reasonEn": "Tsushima anago is highlighted by a local restaurant specialising in conger eel dishes.",
+    "desc": {
+      "ko": "대마도산 붕장어를 전문으로 다루는 지역 식당이 소개하는 향토 식재료 요리입니다.",
+      "en": "A local speciality featuring conger eel from Tsushima, highlighted by a restaurant specialising in anago.",
+      "ja": "あなごを専門に扱う地元店が紹介する、対馬産あなごの料理です。"
+    },
+    "nameJa": "対馬あなご料理",
+    "reasonJa": "対馬のあなごを専門に扱う地元の飲食店と料理を観光協会が紹介しています。",
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "국가 공통 가격 사용",
+    "recommendSource": "대마도관광물산협회",
+    "recommendUrl": "https://www.tsushima-net.org/food/anagotei",
+    "note": "관광협회 등록 전문점 소개."
+  },
+  {
+    "cityId": "tsushima",
+    "nameKo": "이리야키",
+    "nameEn": "Iriyaki",
+    "reason": "대마도 향토요리로, 관광협회 등록 식당의 메뉴에 이리야키 정식과 이리야키 소바가 올라 있습니다.",
+    "reasonEn": "A Tsushima regional dish listed by a local restaurant in both set-meal and soba forms.",
+    "desc": {
+      "ko": "대마도 향토요리로, 지역 식당 메뉴에 이리야키 정식과 소바가 올라 있습니다.",
+      "en": "A Tsushima local dish featured as a set meal and a soba dish at a local restaurant.",
+      "ja": "対馬の郷土料理で、地元店のメニューにいりやき膳やいりやきそばがあります。"
+    },
+    "nameJa": "いりやき",
+    "reasonJa": "対馬の郷土料理で、観光協会掲載店のメニューにいりやき膳やいりやきそばがあります。",
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "국가 공통 가격 사용",
+    "recommendSource": "대마도관광물산협회",
+    "recommendUrl": "https://www.tsushima-net.org/food/senryo",
+    "note": "등록 식당의 소개와 메뉴에서 향토요리 및 메뉴명을 확인."
+  },
+  {
+    "cityId": "tsushima",
+    "nameKo": "로쿠베",
+    "nameEn": "Rokube",
+    "reason": "대마도 향토요리로, 관광협회 등록 식당이 로쿠베를 대표 메뉴로 소개합니다.",
+    "reasonEn": "A local Tsushima dish featured among a restaurant’s signature regional menu items.",
+    "desc": {
+      "ko": "대마도 향토요리로, 지역 식당이 대표 메뉴로 소개합니다.",
+      "en": "A Tsushima local dish listed among the signature items at a local restaurant.",
+      "ja": "対馬の郷土料理で、地元店が代表的な料理として紹介しています。"
+    },
+    "nameJa": "ろくべえ",
+    "reasonJa": "対馬の郷土料理で、観光協会掲載店が代表的なメニューとして紹介しています。",
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "국가 공통 가격 사용",
+    "recommendSource": "대마도관광물산협회",
+    "recommendUrl": "https://www.tsushima-net.org/food/senryo",
+    "note": "등록 식당이 향토요리와 메뉴명을 명시."
+  },
+  {
+    "cityId": "tsushima",
+    "nameKo": "대마도 돈짱",
+    "nameEn": "Tsushima Tonchan",
+    "reason": "관광협회가 대마도 향토요리 가운데 하나로 소개하는 지역 음식입니다.",
+    "reasonEn": "The island’s tourism association lists tonchan among Tsushima’s local dishes.",
+    "desc": {
+      "ko": "대마도 관광협회가 향토요리 가운데 하나로 소개하는 지역 음식입니다.",
+      "en": "A local dish named among Tsushima’s regional specialities by the island’s tourism association.",
+      "ja": "対馬観光物産協会が郷土料理の一つとして紹介する料理です。"
+    },
+    "nameJa": "対馬とんちゃん",
+    "reasonJa": "観光協会が対馬の郷土料理の一つとして紹介する料理です。",
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "국가 공통 가격 사용",
+    "recommendSource": "대마도관광물산협회",
+    "recommendUrl": "https://www.tsushima-net.org/food/senryo",
+    "note": "등록 식당 소개에서 향토요리로 명시."
+  },
+  {
     "cityId": "turin",
     "nameKo": "아뇰로티 델 플린",
     "nameEn": "Agnolotti del Plin",

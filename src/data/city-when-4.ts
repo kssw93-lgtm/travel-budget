@@ -628,4 +628,10 @@ export const WHEN_4: Record<string, When> = {
     ],
     x: ['여름 한낮에는 더위가 강할 수 있으므로 야외 명소를 아침·저녁에 배치하고, 공식 기상 정보를 확인하세요.', 'Summer midday heat can be intense; schedule outdoor sights for morning or evening and check official weather information.', '夏の日中は暑さが厳しくなることがあります。屋外の名所は朝夕に回し、公式の気象情報を確認しましょう。'],
   },
+  tsushima: {
+    p: [
+      ['5월 하순~6월 상순', 'Late May–early June', '5月下旬〜6月上旬', '대마도 관광협회의 현장 기록이 이 시기 섬의 자연과 생물 관찰 정보를 소개합니다.', 'The Tsushima tourism association’s field notes highlight nature and wildlife on the island during this period.', '対馬観光物産協会のフィールドノートが、この時期の島の自然や生き物を紹介しています。'],
+    ],
+    x: ['공항 이동과 섬 안 버스 시간표는 계절·운항 일정에 따라 달라질 수 있으니 출발 전에 공식 최신 안내를 확인하세요.', 'Airport connections and island bus timetables can vary with schedules, so check the latest official information before travelling.', '空港連絡バスや島内バスの時刻は運航日程などで変わることがあるため、出発前に公式の最新情報を確認してください。'],
+  },
 };

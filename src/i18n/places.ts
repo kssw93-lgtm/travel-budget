@@ -19,7 +19,7 @@ export const CITY_JA: Record<string, string> = {
   amsterdam: 'アムステルダム', athens: 'アテネ', dubrovnik: 'ドゥブロヴニク', 'los-angeles': 'ロサンゼルス', 'las-vegas': 'ラスベガス',
   nara: '奈良', taichung: '台中', 'kota-kinabalu': 'コタキナバル', zhangjiajie: '張家界', melbourne: 'メルボルン', florence: 'フィレンツェ',
   venice: 'ヴェネツィア', madrid: 'マドリード', nice: 'ニース', 'san-francisco': 'サンフランシスコ', almaty: 'アルマトイ', tashkent: 'タシケント',
-  tbilisi: 'トビリシ', cancun: 'カンクン', 'rio-de-janeiro': 'リオデジャネイロ',
+  tbilisi: 'トビリシ', cancun: 'カンクン', 'rio-de-janeiro': 'リオデジャネイロ', tsushima: '対馬',
   copenhagen: 'コペンハーゲン', stockholm: 'ストックホルム', helsinki: 'ヘルシンキ', krakow: 'クラクフ', dublin: 'ダブリン', brussels: 'ブリュッセル', cairo: 'カイロ', reykjavik: 'レイキャビク',
   dresden: 'ドレスデン', nuremberg: 'ニュルンベルク', cologne: 'ケルン', strasbourg: 'ストラスブール', colmar: 'コルマール', salzburg: 'ザルツブルク', zagreb: 'ザグレブ', rovaniemi: 'ロヴァニエミ', tallinn: 'タリン', edinburgh: 'エディンバラ', frankfurt: 'フランクフルト', berlin: 'ベルリン', zurich: 'チューリッヒ', basel: 'バーゼル', riga: 'リガ', gdansk: 'グダニスク', bruges: 'ブルージュ', oslo: 'オスロ', 'cape-town': 'ケープタウン', marrakech: 'マラケシュ',
 };

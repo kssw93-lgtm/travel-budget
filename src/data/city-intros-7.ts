@@ -26,4 +26,12 @@ export const INTROS_7: Record<string, Intro> = {
       ['기엘리즈', 'Gueliz', 'ゲリーズ', '현대적인 상점과 식당이 있는 신시가지입니다. 메디나와 떨어져 있으므로 이동 수단과 귀가 동선을 확인하세요.', 'The modern district for shops and restaurants. It is separate from the medina, so check transport and your return route.', '新市街の商店や飲食店が集まるエリアです。メディナとは離れているため、交通手段と帰路を確認しましょう。'],
     ],
   },
+  tsushima: {
+    o: ['규슈와 한반도 사이에 놓인 나가사키현의 긴 섬 도시입니다. 산과 리아스 해안, 고대 산성부터 조선통신사 역사까지 자연과 교류의 역사를 함께 볼 수 있습니다. 북쪽과 남쪽 명소 사이 거리가 멀어 2~3일 일정은 숙소 위치와 이동 동선을 먼저 정하면 편합니다.', 'Tsushima is a long island city in Nagasaki Prefecture between Kyushu and the Korean Peninsula. It combines mountain scenery, a ria coast and a history of exchange, from an ancient fortress to the Korean missions of the Joseon period. The north and south are far apart, so plan your lodging and routes for a two- or three-day stay.', '対馬は九州と朝鮮半島の間にある長崎県の細長い島のまちです。山やリアス海岸、古代山城、朝鮮通信使の歴史を一緒に楽しめます。北部と南部の名所は離れているため、2〜3日の滞在では宿の場所と移動経路を先に決めると便利です。'],
+    d: [2, 3],
+    s: [
+      ['이즈하라', 'Izuhara', '厳原', '대마도박물관·만송원·조선통신사역사관 등 남부의 역사 명소와 이즈하라항을 이용하기 좋습니다.', 'Convenient for southern historical sights such as Tsushima Museum, Banshoin and the Korean Envoys History Museum, as well as Izuhara Port.', '対馬博物館、万松院、朝鮮通信使歴史館など南部の歴史名所や厳原港を利用しやすいエリアです。'],
+      ['히타카쓰', 'Hitakatsu', '比田勝', '북쪽 여객터미널 주변에 머물며 북부 해안과 자연 명소를 둘러볼 때 편리합니다.', 'A useful base near the northern passenger terminal for exploring the north coast and natural sights.', '北部の旅客ターミナル周辺に泊まり、北部の海岸や自然の名所を巡る際に便利です。'],
+    ],
+  },
 };

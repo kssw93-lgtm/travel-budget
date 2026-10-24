@@ -4283,6 +4283,34 @@
     "missing": [],
     "computable": true
   },
+  "tsushima": {
+    "counts": {
+      "food": 55,
+      "transport": 1,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 1,
+      "ride": 0,
+      "meal": 55,
+      "snack": 22,
+      "drink": 23,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 1,
+      "ride": 0,
+      "meal": 59,
+      "snack": 38,
+      "drink": 30,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "dresden": {
     "counts": {
       "food": 3,

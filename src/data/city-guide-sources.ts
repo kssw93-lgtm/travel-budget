@@ -1308,4 +1308,12 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'heidelberg:t2': 'https://www.heidelberg-marketing.de/en/plan/arrival-and-departure',
   'san-sebastian:t2': 'https://sansebastianturismoa.eus/en/come/how-to-get-here/',
   'boracay:t4': 'https://aklan.gov.ph/lezzgo-boracay/',
+  'tsushima:h1': 'https://www.tsushima-net.org/tourism-history/tsushima-museum',
+  'tsushima:h2': 'https://www.tsushima-net.org/tourism-history/banshoin',
+  'tsushima:h3': 'https://www.tsushima-net.org/tourism-history/tsushima-chousentsuushinshi',
+  'tsushima:h4': 'https://www.tsushima-net.org/guide',
+  'tsushima:h5': 'https://www.tsushima-net.org/guide',
+  'tsushima:t1': 'https://www.tsushima-net.org/guide',
+  'tsushima:t2': 'https://tsushima-airport.co.jp/transportration',
+  'tsushima:t3': 'https://www.tsushima-net.org/tourism-history/tsushima-museum',
 };

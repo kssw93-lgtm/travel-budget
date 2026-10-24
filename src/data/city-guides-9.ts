@@ -1200,4 +1200,18 @@ export const NOTES_9: Record<string, Compact> = {
       ['시장에서 물건을 살 때는 품목과 금액을 거래 전에 확인하고, ATM을 이용하거나 길을 물을 때 주변을 살피세요.', 'Confirm the item and agreed price before buying in the souks, and stay aware of your surroundings when using ATMs or asking for directions.', 'スークで買い物をする際は、購入前に品物と金額を確認しましょう。ATM利用時や道を尋ねるときも周囲に注意してください。'],
     ],
   },
+  tsushima: {
+    h: [
+      ['대마도박물관', 'Tsushima Museum', '対馬博物館', '규슈와 한반도, 아시아 여러 지역과 대마도가 이어 온 교류의 역사를 전시 자료로 살펴볼 수 있습니다.', 'Exhibits trace Tsushima’s historic exchanges with Kyushu, the Korean Peninsula and other parts of Asia.', '九州や朝鮮半島、アジア各地と対馬が重ねてきた交流の歴史を展示資料で紹介しています。'],
+      ['만송원', 'Banshoin Temple', '万松院', '쓰시마번주 소 씨의 보리사입니다. 132단의 돌계단과 오래된 삼나무, 소 씨 묘역이 인상적입니다.', 'The Sō clan’s family temple, known for its 132 stone steps, old cedars and family mausoleum.', '対馬藩主・宗家の菩提寺です。132段の石段、古い杉並木、宗家の墓所が見どころです。'],
+      ['조선통신사역사관', 'Korean Envoys History Museum', '対馬朝鮮通信使歴史館', '에도시대 조선통신사와 한일 양국의 외교 교류를 소개합니다. 관련 기록은 유네스코 세계의 기억에 등재됐습니다.', 'Explores the Joseon diplomatic missions of the Edo period and Japan–Korea exchanges; related records are on UNESCO’s Memory of the World Register.', '江戸時代の朝鮮通信使と日韓の外交交流を紹介します。関連資料はユネスコ「世界の記憶」に登録されています。'],
+      ['가네다성 유적', 'Kaneda Castle Ruins', '金田城跡', '7세기에 쌓은 고대 산성 유적으로, 대마도의 산악 지형과 옛 성벽을 함께 볼 수 있습니다.', 'An ancient mountain fortress built in the seventh century, with stone walls set in Tsushima’s rugged landscape.', '7世紀に築かれた古代山城の遺跡で、対馬の険しい地形と石垣を見られます。'],
+      ['아소만', 'Asō Bay', '浅茅湾', '섬 중앙부의 리아스 해안으로, 여러 섬과 만이 이루는 대마도의 해양 풍경을 감상할 수 있습니다.', 'A ria coast in the island’s centre, where inlets and small islands form Tsushima’s distinctive seascape.', '島の中央部に広がるリアス海岸で、入り江や島々がつくる対馬らしい海の景色を楽しめます。'],
+    ],
+    t: [
+      ['대마도는 남북으로 길게 뻗은 섬이며 이즈하라와 히타카쓰 사이 이동에 시간이 걸립니다. 하루에 남부와 북부를 모두 넣기보다 지역별로 동선을 나누세요.', 'Tsushima stretches a long way from north to south, and travel between Izuhara and Hitakatsu takes time. Plan by area instead of trying to cover both ends in one day.', '対馬は南北に長く、厳原と比田勝の間の移動には時間がかかります。1日に南北両方を詰め込まず、エリアごとに動線を組みましょう。'],
+      ['공항에서 이즈하라·히타카쓰 방면으로 가는 정기 버스의 시간과 승강장을 항공편 도착 전에 확인하세요. 섬 안 이동은 버스 노선과 운행 시각을 미리 살펴보면 편합니다.', 'Before your flight arrives, check the airport bus timetable and stop for Izuhara or Hitakatsu. Look up bus routes and departure times in advance for trips around the island.', '到着前に、空港から厳原・比田勝方面へ向かう路線バスの時刻と乗り場を確認しましょう。島内移動ではバス路線と運行時刻を事前に調べると安心です。'],
+      ['대마도박물관은 목요일에 휴관합니다. 방문일의 운영 시간과 임시 휴관 공지를 공식 페이지에서 확인하세요.', 'Tsushima Museum closes on Thursdays. Check its official page for opening hours and any temporary closure notices for your visit date.', '対馬博物館は木曜日が休館です。訪問日の開館時間や臨時休館のお知らせを公式ページで確認してください。'],
+    ],
+  },
 };

@@ -1590,6 +1590,16 @@
     "stage": "2차"
   },
   {
+    "id": "tsushima",
+    "country": "일본",
+    "countryEn": "Japan",
+    "nameKo": "대마도",
+    "nameEn": "Tsushima",
+    "currency": "JPY",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "dresden",
     "country": "독일",
     "countryEn": "Germany",

@@ -309,6 +309,8 @@
 | 리우데자네이루 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 리우데자네이루 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 리우데자네이루 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 대마도 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 대마도 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 드레스덴 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 드레스덴 | 1회권 | 0 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 뉘른베르크 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -2049,6 +2051,14 @@
 | TLL-AT-504 | 탈린 | 수상비행기 항구 성인 입장권 | 22 EUR | A | 예 | 재검증 | [Estonian Maritime Museum / Seaplane Harbour](https://meremuuseum.ee/lennusadam/en/visitor-information/tickets/; https://meremuuseum.ee/lennusadam/kulastusinfo/piletihinnad/) |
 | TLL-AT-505 | 탈린 | 수상비행기 항구 아동 입장권 (9–12세) | 11 EUR | A | 예 | 재검증 | [Estonian Maritime Museum / Seaplane Harbour](https://meremuuseum.ee/lennusadam/en/visitor-information/tickets/; https://meremuuseum.ee/lennusadam/kulastusinfo/piletihinnad/) |
 | TLL-AT-506 | 탈린 | 수상비행기 항구 아동 입장권 (만 7세 이하 무료) | 0 EUR | A | 예 | 재검증 | [Estonian Maritime Museum / Seaplane Harbour](https://meremuuseum.ee/lennusadam/en/visitor-information/tickets/; https://meremuuseum.ee/lennusadam/kulastusinfo/piletihinnad/) |
+| TSU-TR-001 | 대마도 | 대마도 시내버스 1일 프리패스 | 1040 JPY | A | 예 | 재검증 | [대마도관광물산협회 / 대마도교통](https://www.tsushima-net.org/traffic/tsushima-kotsu) |
+| TSU-TR-002 | 대마도 | 대마도 시내버스 1일 프리패스(어린이) | 520 JPY | A | 예 | 재검증 | [대마도관광물산협회 / 대마도교통](https://www.tsushima-net.org/traffic/tsushima-kotsu) |
+| TSU-AT-001 | 대마도 | 대마도박물관 일반 관람 | 550 JPY | A | 예 | 재검증 | [대마도관광물산협회](https://www.tsushima-net.org/tourism-history/tsushima-museum) |
+| TSU-AT-002 | 대마도 | 대마도박물관 초·중학생 관람 | 220 JPY | A | 예 | 재검증 | [대마도관광물산협회](https://www.tsushima-net.org/tourism-history/tsushima-museum) |
+| TSU-AT-003 | 대마도 | 만송원 입장 | 300 JPY | A | 예 | 재검증 | [대마도관광물산협회](https://www.tsushima-net.org/tourism-history/banshoin) |
+| TSU-AT-004 | 대마도 | 만송원 입장(초·중학생) | 100 JPY | A | 예 | 재검증 | [대마도관광물산협회](https://www.tsushima-net.org/tourism-history/banshoin) |
+| TSU-AT-005 | 대마도 | 조선통신사역사관 관람 | 220 JPY | A | 예 | 재검증 | [대마도관광물산협회](https://www.tsushima-net.org/tourism-history/tsushima-chousentsuushinshi) |
+| TSU-AT-006 | 대마도 | 조선통신사역사관 관람(초·중학생) | 110 JPY | A | 예 | 재검증 | [대마도관광물산협회](https://www.tsushima-net.org/tourism-history/tsushima-chousentsuushinshi) |
 | GUM-FD-101 | 괌 | 메스클라 BBQ 쇼트립(런치) | 18.95 USD | A | 예 | 재검증 | [Meskla Chamoru Fusion Bistro 공식 런치 메뉴 PDF](https://mesklaguam.com/wp-content/uploads/2024/03/meskla-lunch-2024.pdf) |
 | GUM-FD-102 | 괌 | 메스클라 BBQ 치킨(런치) | 19.95 USD | A | 예 | 재검증 | [Meskla Chamoru Fusion Bistro 공식 런치 메뉴 PDF](https://mesklaguam.com/wp-content/uploads/2024/03/meskla-lunch-2024.pdf) |
 | GUM-FD-103 | 괌 | 메스클라 차모루 시저 샐러드(런치) | 18.95 USD | A | 조건부 | 조건부, 재검증 | [Meskla Chamoru Fusion Bistro 공식 런치 메뉴 PDF](https://mesklaguam.com/wp-content/uploads/2024/03/meskla-lunch-2024.pdf) |

@@ -510,4 +510,6 @@ export const WHEN_SOURCES: Record<string, string> = {
   'marrakech:p1': 'https://www.visitmorocco.com/en/travel-info/climate-and-seasons',
   'marrakech:p2': 'https://www.visitmorocco.com/en/travel-info/climate-and-seasons',
   'marrakech:x': 'https://www.visitmorocco.com/en/travel-info/climate-and-seasons',
+  'tsushima:p1': 'https://www.tsushima-net.org/news/20260611_fieldnote',
+  'tsushima:x': 'https://tsushima-airport.co.jp/transportration',
 };

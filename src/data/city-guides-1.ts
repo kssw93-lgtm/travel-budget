@@ -73,6 +73,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['울루와뚜 사원', 'Uluwatu Temple', 'ウルワトゥ寺院', '절벽 위 바다 사원. 해 질 녘 께짝 댄스 공연이 유명합니다.', 'A clifftop sea temple famous for its sunset Kecak dance.', '断崖の上の海の寺院。夕暮れのケチャダンスが有名です。'],
       ['따나롯 사원', 'Tanah Lot', 'タナロット寺院', '밀물 때 바다에 떠 있는 듯 보이는 바위 위 사원입니다.', 'A rock temple that seems to float on the sea at high tide.', '満潮時には海に浮かんで見える岩の上の寺院です。'],
       ['바투르산', 'Mount Batur', 'バトゥール山', '이중 칼데라 안에 솟은 활화산으로, 유네스코 세계지질공원입니다. 새벽에 올라 해돋이를 보는 트레킹이 유명합니다.', 'An active volcano inside a double caldera, a UNESCO Global Geopark famous for pre-dawn sunrise treks.', '二重カルデラの中にそびえる活火山で、ユネスコ世界ジオパークです。夜明け前に登る日の出トレッキングが有名です。'],
+      ['쿠타 해변', 'Kuta Beach', 'クタ・ビーチ', '발리 남부의 대표 해변으로, 서핑과 해질녘 바다 풍경으로 알려져 있습니다.', 'A well-known South Bali beach popular for surfing and sunset views.', 'バリ南部を代表するビーチで、サーフィンや夕景で知られています。'],
     ],
     t: [
       ['사원에 들어갈 때는 사롱(허리에 두르는 천)을 둘러야 합니다. 입구에서 빌려주는 곳이 많습니다.', 'Wear a sarong to enter temples; many lend them at the entrance.', '寺院に入る際はサロン（腰布）が必要です。入口で貸してくれる所が多いです。'],
@@ -149,6 +150,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['구시가지 사원들', 'Old City temples', '旧市街の寺院', '해자로 둘러싸인 구시가지 안에 왓 프라싱·왓 체디루앙 등 옛 사원이 모여 있습니다.', 'Inside the moated Old City are temples such as Wat Phra Singh and Wat Chedi Luang.', '堀に囲まれた旧市街にワット・プラシンやワット・チェディルアンなどの古寺が集まります。'],
       ['선데이 워킹 스트리트', 'Sunday Walking Street', 'サンデーウォーキングストリート', '일요일 저녁 구시가지 중심 거리에 열리는 야시장입니다.', 'A night market that fills the main Old City street on Sunday evenings.', '日曜の夕方、旧市街のメイン通りで開かれるナイトマーケットです。'],
       ['엘리펀트 네이처 파크', 'Elephant Nature Park', 'エレファント・ネイチャー・パーク', '구조된 코끼리를 보호하는 시설로, 코끼리 타기 없이 관찰과 먹이 주기 위주로 방문합니다. 예약제입니다.', 'A sanctuary for rescued elephants; visits focus on watching and feeding, with no riding. Booking required.', '保護されたゾウの施設で、乗象なしで観察や餌やりが中心です。予約制です。'],
+      ['도이인타논 국립공원', 'Doi Inthanon National Park', 'ドイ・インタノン国立公園', '태국 최고봉을 포함한 산악 국립공원으로, 폭포와 산책로, 고산 풍경을 볼 수 있습니다.', 'A mountain national park that includes Thailand’s highest peak, with waterfalls, trails and highland scenery.', 'タイ最高峰を含む山岳国立公園で、滝や遊歩道、高原の景色を楽しめます。'],
     ],
     t: [
       ['시내 이동은 붉은 합승 트럭(썽태우)이 편합니다. 타기 전에 목적지를 말하고 요금을 정하세요.', 'Red shared trucks (songthaew) are the easy way around; agree the destination and fare first.', '市内移動は赤い乗り合いトラック（ソンテウ）が便利。乗る前に行き先と料金を決めましょう。'],

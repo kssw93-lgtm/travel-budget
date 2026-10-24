@@ -78,6 +78,7 @@ export const NOTES_2: Record<string, Compact> = {
       ['송월동 동화마을', 'Songwol-dong Fairy Tale Village', '松月洞童話村', '동화 속 장면을 벽화와 조형물로 꾸민 골목입니다.', 'Alleys decorated with murals and sculptures from fairy tales.', '童話の場面を壁画や造形物で飾った路地です。'],
       ['송도 센트럴파크', 'Songdo Central Park', '松島セントラルパーク', '고층 빌딩 사이 수로에서 보트를 탈 수 있는 공원입니다.', 'A park with a canal for boating between high-rise towers.', '高層ビルの間の水路でボートに乗れる公園です。'],
       ['월미도와 월미바다열차', 'Wolmido and the Wolmi Sea Train', '月尾島と月尾海列車', '바다를 따라 월미도를 한 바퀴 도는 모노레일로, 인천항과 서해를 내려다봅니다.', 'A monorail loop around Wolmido looking out over Incheon port and the Yellow Sea.', '海沿いに月尾島をひと回りするモノレールで、仁川港と黄海を見渡せます。'],
+      ['개항장 문화지구', 'Open Port Cultural District', '開港場文化地区', '옛 인천항 주변에 개항기 건축물과 근대 역사 전시 시설이 모여 있어 인천의 근대사를 살펴볼 수 있습니다.', 'Around the old port, historic buildings and museums trace Incheon’s modern history.', '旧港周辺に開港期の建築や近代史の展示施設が集まり、仁川の近代史に触れられます。'],
     ],
     t: [
       ['출국 전 차이나타운을 들를 계획이라면 공항 왕복 시간과 환승 경로를 먼저 확인하세요. 차이나타운은 인천역 맞은편입니다.', 'If you plan to visit Chinatown before departure, check the round-trip travel time and transfer route to the airport first. Chinatown is across from Incheon Station.', '出国前にチャイナタウンへ立ち寄る場合は、空港との往復時間と乗り換え経路を先に確認しましょう。チャイナタウンは仁川駅の向かいです。'],

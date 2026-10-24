@@ -98,6 +98,11 @@ const BASE: Record<string, CityGuideNote> = {
         en: 'Between cities: the Tokaido Shinkansen from Tokyo or Shinagawa reaches Nagoya in about 1 hr 40, Kyoto in about 2 hr 15 and Shin-Osaka in about 2 hr 30 (fastest Nozomi).',
         ja: '都市間の移動：東京駅・品川駅から東海道新幹線で名古屋まで約1時間40分、京都まで約2時間15分、新大阪まで約2時間30分です(最速ののぞみ)。',
       },
+      {
+        ko: '도쿄국립박물관은 월요일에 휴관하며, 월요일이 공휴일이면 다음 평일에 쉽니다. 방문 전 공식 운영일을 확인하세요.',
+        en: 'The Tokyo National Museum is usually closed on Mondays; when Monday is a public holiday, it closes on the following weekday. Check its official calendar before visiting.',
+        ja: '東京国立博物館は通常月曜日が休館日です。月曜日が祝日の場合は翌平日が休館となるため、来館前に公式カレンダーを確認してください。',
+      },
     ],
   },
   osaka: {
@@ -168,6 +173,11 @@ const BASE: Record<string, CityGuideNote> = {
         ko: '도시 간 이동: 오사카에서 교토는 JR 신쾌속으로 30분 안팎(한큐·게이한선도 있음), 고베 산노미야는 JR로 20~30분, 히로시마는 신오사카에서 신칸센으로 1시간 반 안팎입니다.',
         en: 'Between cities: Kyoto is about 30 minutes by JR Special Rapid (or by Hankyu or Keihan), Kobe Sannomiya 20–30 minutes by JR, and Hiroshima about 1.5 hours by Shinkansen from Shin-Osaka.',
         ja: '都市間の移動：大阪から京都へはJR新快速で30分ほど(阪急・京阪もあり)、神戸三宮へはJRで20～30分、広島へは新大阪から新幹線で1時間半ほどです。',
+      },
+      {
+        ko: '오사카성 천수각 박물관은 12월 28일~1월 1일 휴관하며 전시 교체나 시설 정비로도 임시 휴관할 수 있으니, 방문 전 공식 공지를 확인하세요.',
+        en: 'Osaka Castle Museum is closed from 28 December to 1 January and may also close for exhibition changes or maintenance, so check its official notice before visiting.',
+        ja: '大阪城天守閣は12月28日〜1月1日が休館日です。展示替えや施設整備で臨時休館することもあるため、来館前に公式のお知らせを確認してください。',
       },
     ],
   },
@@ -295,6 +305,11 @@ const BASE: Record<string, CityGuideNote> = {
         ko: '도시 간 이동: 리옹역에서 TGV를 타면 리옹 2시간 안팎, 동역에서 스트라스부르 2시간 안팎입니다. 출발역이 목적지마다 다르니 표의 역 이름을 확인하세요.',
         en: 'Between cities: TGVs from Gare de Lyon reach Lyon in about two hours, and from Gare de l\'Est reach Strasbourg in about two. Departure stations differ by destination, so check your ticket.',
         ja: '都市間の移動：リヨン駅からTGVでリヨンまで約2時間、東駅からストラスブールまで約2時間です。行き先ごとに出発駅が違うので切符の駅名を確認しましょう。',
+      },
+      {
+        ko: '루브르 박물관은 매주 화요일과 1월 1일·5월 1일·12월 25일에 닫습니다. 임시 휴관도 있을 수 있으니 공식 운영 일정을 확인하세요.',
+        en: 'The Louvre is closed every Tuesday and on 1 January, 1 May and 25 December. Check its official opening calendar for any exceptional closures.',
+        ja: 'ルーヴル美術館は毎週火曜日と1月1日・5月1日・12月25日が休館日です。臨時休館もあるため、公式の開館カレンダーを確認してください。',
       },
     ],
   },

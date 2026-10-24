@@ -1,6 +1,6 @@
 /**
  * 겨울 크리스마스 마켓 안내(도시 가이드의 「크리스마스 마켓」 칸, 가이드 목록의 겨울 도시 모음).
- * period 는 2026/27 시즌 공식 일정(2026-10-17 GPT 검증)이다. 공식 발표 전인 곳은 「보통 ~」으로 쓴다. 시즌이 끝나면 다음 해 일정으로 바꾼다.
+ * period 는 2026/27 시즌 공식 일정(항목별 확인 날짜는 docs/DECISIONS.md)이다. 공식 발표 전인 곳은 「보통 ~」으로 쓴다. 시즌이 끝나면 다음 해 일정으로 바꾼다.
  * dates 는 일정 관리용 원자료다. 페이지는 행사 단독 상세가 아니라 도시 가이드·행사 목록이므로 Event JSON-LD를 출력하지 않는다.
  * 금액은 쓰지 않는다. 각 항목 [ko, en, ja]
  */
@@ -44,10 +44,10 @@ export const CHRISTMAS_MARKETS: Record<string, ChristmasMarket> = {
   strasbourg: {
     name: ['크리스킨델스메리크', 'Christkindelsmärik', 'クリストキンデルスメリック'],
     place: ['대성당·브로글리 광장 등 구시가지 섬 곳곳', 'Around the cathedral, Place Broglie and the old-town island', '大聖堂やブロイ広場など旧市街の島の各所'],
-    period: ['2026년 11월 27일 개막(폐막일은 공식 안내 확인)', 'Opens 27 November 2026 (check the official page for the closing date)', '2026年11月27日開幕（終了日は公式案内で確認）'],
+    period: ['2026년 11월 27일~12월 24일', '27 November–24 December 2026', '2026年11月27日〜12月24日'],
     note: ['도시 전체가 「크리스마스의 수도」로 꾸며지고, 클레베르 광장의 대형 트리와 구시가지 여러 광장의 마켓이 이어집니다.', 'The city dresses up as the “Capital of Christmas”: a giant tree on Place Kléber and markets across several old-town squares.', '街全体が「クリスマスの首都」として飾られ、クレベール広場の大きなツリーと旧市街の各広場のマーケットが続きます。'],
-    url: 'https://www.visitstrasbourg.fr/en/discover/the-capital-of-christmas/',
-    dates: ['2026-11-27'],
+    url: 'https://www.visitstrasbourg.fr/a-voir-a-faire-strasbourg/sortir/agenda/F223012607_strasbourg-capitale-de-noel-strasbourg/',
+    dates: ['2026-11-27', '2026-12-24'],
   },
   colmar: {
     name: ['콜마르 크리스마스 마켓', 'Colmar Christmas Markets', 'コルマールのクリスマスマーケット'],
@@ -186,7 +186,7 @@ export const CHRISTMAS_MARKETS: Record<string, ChristmasMarket> = {
   berlin: {
     name: ['베를린 크리스마스 마켓', 'Berlin Christmas Markets', 'ベルリンのクリスマスマーケット'],
     place: ['젠다르멘마르크트·샤를로텐부르크 궁전 앞 등', 'Gendarmenmarkt, Charlottenburg Palace and more', 'ジャンダルメンマルクト、シャルロッテンブルク宮殿前など'],
-    period: ['마켓마다 다름(2026년 예: 젠다르멘마르크트 11월 23일~12월 31일, 카이저 빌헬름 기념교회 앞 11월 23일~2027년 1월 3일)', 'Varies by market (2026: Gendarmenmarkt 23 November–31 December; Kaiser Wilhelm Memorial Church 23 November–3 January 2027)', 'マーケットごとに異なる（2026年例：ジャンダルメンマルクト11月23日〜12月31日、カイザー・ヴィルヘルム記念教会前11月23日〜2027年1月3日）'],
+    period: ['마켓마다 다름(예: 샤를로텐부르크 궁전 앞 2026년 11월 23일~12월 27일, 붉은 시청 앞 11월 23일~2027년 1월 3일)', 'Varies by market (e.g. Charlottenburg Palace 23 November–27 December 2026; Rotes Rathaus 23 November–3 January 2027)', 'マーケットごとに異なる（例：シャルロッテンブルク宮殿前は2026年11月23日〜12月27日、赤の市庁舎前は11月23日〜2027年1月3日）'],
     note: ['젠다르멘마르크트 등 도시 곳곳에서 마켓이 열립니다. 입장료·운영시간은 마켓별 공식 안내를 확인하세요.', 'Markets run at venues across the city, including Gendarmenmarkt; check each market’s page for admission and hours.', 'ジャンダルメンマルクトなど市内各所でマーケットが開かれます。入場料や営業時間はマーケットごとに確認を。'],
     url: 'https://www.visitberlin.de/en/christmas-markets-berlin',
   },

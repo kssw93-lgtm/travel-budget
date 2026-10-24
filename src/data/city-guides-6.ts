@@ -57,6 +57,7 @@ export const NOTES_6: Record<string, Compact> = {
       ['지하철·버스는 비접촉 카드로 타면 하루·주간 요금 상한이 자동 적용됩니다.', 'Tapping a contactless card applies daily and weekly fare caps automatically.', '地下鉄・バスはタッチ決済で乗ると1日・週の上限運賃が自動で適用されます。'],
       ['국립 박물관·미술관 대부분이 상설 전시를 무료로 공개합니다.', 'Most national museums and galleries are free for permanent collections.', '国立の博物館・美術館の多くは常設展が無料です。'],
       ['공항에서 시내: 히스로 공항에서는 엘리자베스선, 피커딜리선 지하철, 패딩턴역까지 가는 히스로 익스프레스 중에서 고르면 됩니다. 개트윅은 개트윅 익스프레스와 템스링크 열차가 있습니다.', 'Airport to city: from Heathrow choose the Elizabeth line, the Piccadilly line or the Heathrow Express to Paddington; Gatwick has the Gatwick Express and Thameslink trains.', '空港から市内へ：ヒースロー空港からはエリザベス線、ピカデリー線、パディントン駅行きのヒースロー・エクスプレスから選べます。ガトウィックにはガトウィック・エクスプレスとテムズリンクがあります。'],
+      ['대영박물관은 12월 24~26일 휴관하며, 일부 전시실은 별도 공지로 닫힐 수 있으니 방문 전 운영사 안내를 확인하세요.', 'The British Museum closes on 24–26 December, and individual galleries may close separately; check the museum’s visitor updates before your visit.', '大英博物館は12月24日〜26日が休館日です。展示室ごとの臨時休室もあるため、来館前に公式案内を確認してください。'],
     ],
   },
   cebu: {

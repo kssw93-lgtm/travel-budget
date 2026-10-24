@@ -43,6 +43,7 @@ export const NOTES_7: Record<string, Compact> = {
       ['시내 곳곳의 식수대(나소네) 물은 마셔도 되니 물병을 채워 다니세요.', 'The nasoni drinking fountains are safe; refill your bottle.', '街中の水飲み場（ナゾーネ）の水は飲めるので、ボトルに補充しましょう。'],
       ['공항에서 시내: 피우미치노 공항에서 레오나르도 익스프레스를 타면 테르미니역까지 쉬지 않고 약 30분입니다. 지역 열차와 시내버스 노선도 있습니다.', 'Airport to city: from Fiumicino the Leonardo Express runs non-stop to Termini in about 30 minutes; regional trains and coaches are other options.', '空港から市内へ：フィウミチーノ空港からはレオナルド・エクスプレスでテルミニ駅までノンストップ約30分です。近郊列車やバスもあります。'],
       ['도시 간 이동: 테르미니역에서 고속열차(프레차로사·이탈로)를 타면 피렌체 1시간 반 안팎, 베네치아 4시간 안팎입니다.', 'Between cities: high-speed trains (Frecciarossa, Italo) from Roma Termini reach Florence in about 1.5 hours and Venice in about four.', '都市間の移動：テルミニ駅から高速列車(フレッチャロッサ・イタロ)でフィレンツェまで約1時間半、ヴェネツィアまで約4時間です。'],
+      ['바티칸 박물관은 보통 일요일에 휴관하고 매월 마지막 일요일 등 일부 예외가 있습니다. 방문 날짜의 공식 운영일과 공휴일 휴관을 확인하세요.', 'The Vatican Museums are generally closed on Sundays, with limited exceptions such as the last Sunday of the month. Check the official calendar for your date and holiday closures.', 'バチカン美術館は通常日曜日が休館で、月末の日曜日など限られた例外があります。訪問日の開館状況や祝日の休館を公式カレンダーで確認してください。'],
     ],
   },
   'new-york': {
@@ -57,6 +58,7 @@ export const NOTES_7: Record<string, Compact> = {
       ['지하철은 비접촉 카드로 찍고 타며, 일주일 안에 일정 횟수를 넘기면 나머지는 무료입니다.', 'Tap a contactless card on the subway; after a set number of rides in a week, the rest are free.', '地下鉄はタッチ決済で乗れ、1週間で一定回数を超えると残りは無料です。'],
       ['뉴욕 식당에서는 메뉴 표시액에 판매세가 더해질 수 있고, 팁이나 명시된 서비스 요금도 확인해야 합니다.', 'At New York City restaurants, sales tax may be added to menu prices; check any tip or disclosed service charge as well.', 'ニューヨークの飲食店では、メニュー表示額に売上税が加わる場合があります。チップや明示されたサービス料も確認しましょう。'],
       ['공항에서 시내: JFK 공항에서는 에어트레인으로 자메이카역(LIRR·지하철)이나 하워드 비치역(A선)에 가서 갈아탑니다. 뉴어크 공항도 에어트레인으로 NJ 트랜짓 열차와 연결됩니다.', 'Airport to city: from JFK take the AirTrain to Jamaica (LIRR, subway) or Howard Beach (A train); Newark\'s AirTrain links to NJ Transit trains.', '空港から市内へ：JFK空港からはエアトレインでジャマイカ駅(LIRR・地下鉄)かハワード・ビーチ駅(A線)へ行き乗り換えます。ニューアーク空港もエアトレインでNJトランジットにつながります。'],
+      ['메트로폴리탄 미술관(The Met)은 수요일과 추수감사절, 12월 25일, 1월 1일, 5월 첫째 월요일에 휴관합니다. 방문 전 공식 운영 시간을 확인하세요.', 'The Met is closed on Wednesdays, Thanksgiving, 25 December, 1 January and the first Monday in May. Check its official hours before visiting.', 'メトロポリタン美術館（The Met）は水曜日のほか、感謝祭、12月25日、1月1日、5月最初の月曜日が休館日です。来館前に公式の開館時間を確認してください。'],
     ],
   },
   istanbul: {

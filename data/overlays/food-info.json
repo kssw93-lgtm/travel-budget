@@ -5240,7 +5240,13 @@
   "calgary:Ginger Beef": {
     "ko": "바삭하게 튀긴 소고기에 달콤 매콤한 생강 소스를 버무린 캘거리 발상 요리",
     "en": "Crispy beef in a sweet-spicy ginger sauce, invented in Calgary",
-    "ja": "カリッと揚げた牛肉に甘辛い生姜ソースを絡めたカルガリー発祥の料理"
+    "ja": "カリッと揚げた牛肉に甘辛い生姜ソースを絡めたカルガリー発祥の料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Ginger_Beef.jpg/960px-Ginger_Beef.jpg",
+      "author": "Mack Male",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ginger_Beef.jpg"
+    }
   },
   "calgary:Alberta Beef Steak": {
     "ko": "캐나다 소고기의 절반을 생산하는 앨버타산 소고기 스테이크",
@@ -5250,7 +5256,13 @@
   "calgary:Caesar": {
     "ko": "1969년 캘거리에서 탄생한 토마토·조개 주스 칵테일",
     "en": "Tomato-clam cocktail invented in Calgary in 1969",
-    "ja": "1969年にカルガリーで生まれたトマトとクラムのジュースのカクテル"
+    "ja": "1969年にカルガリーで生まれたトマトとクラムのジュースのカクテル",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Caesar_cocktail.jpg/960px-Caesar_cocktail.jpg",
+      "author": "R. Love",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Caesar_cocktail.jpg"
+    }
   },
   "portland:Doughnuts": {
     "ko": "부두 도넛으로 유명한 포틀랜드의 개성 있는 도넛",

@@ -4753,12 +4753,24 @@
   "antwerp:Belgian Fries": {
     "ko": "두 번 튀겨 소스를 곁들이는 벨기에식 감자튀김",
     "en": "Twice-fried Belgian fries with a choice of sauces",
-    "ja": "二度揚げしてソースを添えるベルギー風フライドポテト"
+    "ja": "二度揚げしてソースを添えるベルギー風フライドポテト",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Belgian_fries_with_sauce_andalouse_in_Brussels.jpg/960px-Belgian_fries_with_sauce_andalouse_in_Brussels.jpg",
+      "author": "CCPictureHunters WikipediaShare",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Belgian_fries_with_sauce_andalouse_in_Brussels.jpg"
+    }
   },
   "antwerp:Bolleke (De Koninck)": {
     "ko": "둥근 잔에 내는 안트베르펜 대표 맥주",
     "en": "Antwerp’s signature amber beer served in a round glass",
-    "ja": "丸いグラスで出すアントワープを代表するビール"
+    "ja": "丸いグラスで出すアントワープを代表するビール",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/De_Koninck_Bolleke.jpg/960px-De_Koninck_Bolleke.jpg",
+      "author": "Mitsjol",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:De_Koninck_Bolleke.jpg"
+    }
   },
   "turin:Agnolotti del Plin": {
     "ko": "고기를 채워 작게 집은 피에몬테식 파스타",
@@ -5261,7 +5273,13 @@
   "austin:Brisket Barbecue": {
     "ko": "오랜 시간 훈연한 소 양지 바비큐",
     "en": "Slow-smoked beef brisket",
-    "ja": "長時間燻製した牛肩バラ肉のバーベキュー"
+    "ja": "長時間燻製した牛肩バラ肉のバーベキュー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Brisket_at_Stubb's_(4426216624).jpg/960px-Brisket_at_Stubb's_(4426216624).jpg",
+      "author": "Ryan Snyder",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Brisket_at_Stubb%27s_(4426216624).jpg"
+    }
   },
   "austin:Breakfast Tacos": {
     "ko": "달걀·베이컨·콩 등을 토르티야에 싼 아침 타코",
@@ -5271,7 +5289,13 @@
   "austin:Queso": {
     "ko": "칩을 찍어 먹는 텍스멕스식 녹인 치즈 딥",
     "en": "Tex-Mex melted cheese dip with chips",
-    "ja": "チップスにつけて食べるテクスメクス風の溶かしチーズのディップ"
+    "ja": "チップスにつけて食べるテクスメクス風の溶かしチーズのディップ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Qostibas_Queso.jpg/960px-Qostibas_Queso.jpg",
+      "author": "Alexi Kostibas",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Qostibas_Queso.jpg"
+    }
   },
   "hobart:Bruny Island Oysters": {
     "ko": "살라만카 마켓에서 바로 까 주는 태즈메이니아 굴",
@@ -5381,12 +5405,24 @@
   "bath:Sally Lunn Bun": {
     "ko": "가볍고 부드러운 브리오슈 스타일의 바스 명물 빵",
     "en": "Light, brioche-style bun, Bath’s famous delicacy",
-    "ja": "軽くて柔らかいブリオッシュ風のバース名物のパン"
+    "ja": "軽くて柔らかいブリオッシュ風のバース名物のパン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Sally_lunns_buns_(1438593794).jpg/960px-Sally_lunns_buns_(1438593794).jpg",
+      "author": "Laura Burns",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sally_lunns_buns_(1438593794).jpg"
+    }
   },
   "bath:Bath Bun": {
     "ko": "건포도와 설탕을 얹은 달콤한 빵",
     "en": "Sweet yeast bun with currants and sugar on top",
-    "ja": "干しぶどうと砂糖をのせた甘いパン"
+    "ja": "干しぶどうと砂糖をのせた甘いパン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Culture..._a_bath_bun_and_a_pot_of_tea%2C_Bath%2C_United_Kingdom_(9605677635).jpg/960px-Culture..._a_bath_bun_and_a_pot_of_tea%2C_Bath%2C_United_Kingdom_(9605677635).jpg",
+      "author": "Richard Allaway",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Culture..._a_bath_bun_and_a_pot_of_tea,_Bath,_United_Kingdom_(9605677635).jpg"
+    }
   },
   "bath:Bath Soft Cheese": {
     "ko": "바스 근교에서 만드는 부드러운 치즈",

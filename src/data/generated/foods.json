@@ -2479,6 +2479,12 @@
       "en": "Baby squid stewed in their own ink",
       "ja": "小さなイカをイカ墨のソースで煮込んだ料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Tintenfisch_in_eigener_Tinte_2014.JPG/960px-Tintenfisch_in_eigener_Tinte_2014.JPG",
+      "author": "Gordito1869",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tintenfisch_in_eigener_Tinte_2014.JPG"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",

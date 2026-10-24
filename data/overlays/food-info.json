@@ -5101,7 +5101,13 @@
   "bilbao:Txipirones en su Tinta": {
     "ko": "작은 오징어를 먹물 소스로 조린 요리",
     "en": "Baby squid stewed in their own ink",
-    "ja": "小さなイカをイカ墨のソースで煮込んだ料理"
+    "ja": "小さなイカをイカ墨のソースで煮込んだ料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Tintenfisch_in_eigener_Tinte_2014.JPG/960px-Tintenfisch_in_eigener_Tinte_2014.JPG",
+      "author": "Gordito1869",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tintenfisch_in_eigener_Tinte_2014.JPG"
+    }
   },
   "bilbao:Pintxos": {
     "ko": "빵 위에 다양한 재료를 얹은 바스크식 한입 요리",

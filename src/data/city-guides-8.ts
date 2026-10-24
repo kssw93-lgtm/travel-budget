@@ -59,6 +59,7 @@ export const NOTES_8: Record<string, Compact> = {
       ['식당 팁은 의무가 아니지만, 서비스가 좋았다면 10% 안팎을 남기는 경우가 많습니다.', 'Tipping is not required, but around 10% is common for good service.', 'チップは義務ではありませんが、良いサービスには10%前後を置くことが多いです。'],
       ['템플 바 밖에도 탈벗 스트리트와 캠든 스트리트 등에서 전통 음악을 들을 수 있는 펍이 있습니다.', 'You can hear traditional music beyond Temple Bar, including at pubs on Talbot Street and Camden Street.', 'テンプルバー地区以外でも、タルボット通りやカムデン通りのパブで伝統音楽を聴けます。'],
       ['비가 자주 오고 날씨가 빨리 바뀌니 우산이나 방수 겉옷을 챙기세요.', 'Rain is frequent and changeable; carry an umbrella or waterproof.', '雨が多く天気が変わりやすいので、傘や防水の上着を。'],
+      ['공항에서 숙소까지: 더블린공항에서 시내 중심의 여러 정류장으로 가는 Dublin Express와 Dublin Bus가 있습니다. 숙소와 가까운 정류장을 확인하고 공항버스 운행 시간도 도착 시각에 맞춰 살펴보세요.', 'Airport to your stay: Dublin Express and Dublin Bus serve multiple stops in the city centre from Dublin Airport. Check which stop is closest to your accommodation and confirm the airport bus timetable for your arrival time.', '空港から宿泊先へ：ダブリン空港から市内中心部の複数の停留所へ、Dublin ExpressとDublin Busが運行しています。宿泊先に近い停留所を確認し、到着時刻に合わせて空港バスの時刻表も確認しましょう。'],
     ],
   },
 };

@@ -55,6 +55,7 @@ export const NOTES_5: Record<string, Compact> = {
       ['서울에서 KTX로 2시간 안팎이라 당일치기 여행도 가능합니다.', 'About two hours from Seoul by KTX, so a day trip is possible.', 'ソウルからKTXで約2時間なので日帰りも可能です。'],
       ['초당 순두부 마을에는 아침 일찍 문을 여는 두부 식당이 있어 순두부로 아침을 먹기 좋습니다.', 'Some tofu restaurants in Chodang Village open early, making soft tofu a good breakfast option.', '草堂スンドゥブ村には朝早くから営業する豆腐料理店があり、スンドゥブを朝食に楽しめます。'],
       ['가는 법: 서울역·청량리역에서 KTX를 타면 강릉역까지 2시간 안팎입니다. 강릉역에서 경포·안목까지는 버스나 택시로 갑니다.', 'Getting there: KTX trains from Seoul or Cheongnyangni stations reach Gangneung in about two hours; buses or taxis continue to Gyeongpo and Anmok.', '行き方：ソウル駅・清凉里駅からKTXで江陵駅まで2時間ほどです。江陵駅から鏡浦・安木まではバスかタクシーで行きます。'],
+      ['인천·김포공항에서 강릉으로 갈 때는 서울역까지 이동해 강릉행 KTX를 타고, 강릉역에서 숙소까지 시내버스나 택시로 이어가세요. 양양공항 셔틀은 운행 중단 안내가 있으니 현재 운항 여부를 확인하세요.', 'From Incheon or Gimpo Airport, travel to Seoul Station and take a KTX to Gangneung; continue from Gangneung Station to your accommodation by local bus or taxi. Yangyang Airport’s shuttle is listed as suspended, so check current operations before relying on it.', '仁川・金浦空港から江陵へは、ソウル駅まで移動して江陵行きKTXに乗り、江陵駅から宿泊先までは市内バスかタクシーを利用しましょう。襄陽空港のシャトルは運休案内があるため、利用前に運行状況を確認してください。'],
     ],
   },
   gyeongju: {
@@ -69,6 +70,7 @@ export const NOTES_5: Record<string, Compact> = {
       ['유적이 넓게 퍼져 있어 시내 구간은 자전거를 빌려 다니기 좋습니다.', 'Sites are spread out; renting a bike works well around town.', '遺跡が広く点在しているので、市内は自転車を借りると便利です。'],
       ['KTX 경주역(옛 신경주역)은 시내에서 떨어져 있습니다. 도착 후에는 시내버스나 택시로 중심지까지 이동하세요.', 'KTX Gyeongju Station, formerly Singyeongju Station, is outside the centre. Continue into town by local bus or taxi.', 'KTX慶州駅（旧・新慶州駅）は市街地から離れています。到着後は路線バスかタクシーで中心部へ向かいましょう。'],
       ['가는 법: 서울역에서 KTX를 타면 신경주역까지 2시간 남짓이고, 신경주역에서 시내까지는 버스·택시로 20분 안팎입니다.', 'Getting there: KTX trains from Seoul Station reach Singyeongju in a little over two hours; buses and taxis take about 20 minutes into town.', '行き方：ソウル駅からKTXで新慶州駅まで2時間あまり。新慶州駅から市内まではバスやタクシーで20分ほどです。'],
+      ['인천공항에서 경주로 바로 가는 공항버스를 이용할 수 있습니다. 경주시외버스터미널에 도착한 뒤 숙소 위치에 맞춰 시내버스나 택시로 이동하세요.', 'A direct airport bus runs from Incheon Airport to Gyeongju. From Gyeongju Intercity Bus Terminal, continue by local bus or taxi according to your accommodation’s location.', '仁川空港から慶州へは直行空港バスを利用できます。慶州高速・市外バスターミナルから宿泊先までは、場所に合わせて市内バスかタクシーで移動しましょう。'],
     ],
   },
   yeosu: {
@@ -96,6 +98,7 @@ export const NOTES_5: Record<string, Compact> = {
       ['비빔밥과 콩나물국밥이 유명하며, 콩나물국밥은 아침 해장 메뉴로 즐겨 먹습니다.', 'Bibimbap and bean-sprout soup are famous; the soup is a favourite breakfast.', 'ビビンバとコンナムルクッパが有名で、クッパは朝食によく食べられます。'],
       ['한옥마을 안 한옥스테이에 묵을 계획이라면 원하는 객실을 미리 예약하세요. 주말에는 마을 안 차량 통행도 제한됩니다.', 'If you plan to stay in a hanok inside the village, book your preferred room ahead. Vehicle access to the village is also restricted on weekends.', '韓屋村内の韓屋ステイに泊まるなら、希望の部屋を早めに予約しましょう。週末は村内の車両通行も制限されます。'],
       ['가는 법: 용산역에서 KTX를 타면 전주역까지 2시간 안팎이고, 전주역에서 한옥마을까지는 버스·택시로 20분 안팎입니다. 고속버스도 자주 다닙니다.', 'Getting there: KTX from Yongsan reaches Jeonju in about two hours, then about 20 minutes by bus or taxi to the Hanok Village; express buses are also frequent.', '行き方：龍山駅からKTXで全州駅まで2時間ほど、全州駅から韓屋村まではバスかタクシーで20分ほどです。高速バスも頻繁に出ています。'],
+      ['인천공항에서 전주행 직행버스가 있습니다. 전주 도착 터미널에서 숙소까지는 주소를 기준으로 시내버스나 택시를 확인하세요.', 'A direct bus runs from Incheon Airport to Jeonju. From the Jeonju terminal, check local buses or a taxi to your accommodation by address.', '仁川空港から全州行きの直行バスがあります。全州の到着ターミナルから宿泊先までは、住所に合わせて市内バスかタクシーを確認しましょう。'],
     ],
   },
   kyoto: {

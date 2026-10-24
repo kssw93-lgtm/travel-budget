@@ -22,6 +22,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['알마티의 버스와 지하철을 이용할 때는 ONAY 교통카드를 사용할 수 있습니다.', 'You can use an ONAY transport card on Almaty\'s buses and metro.', 'アルマトイのバスと地下鉄では、交通カード「ONAY」を利用できます。'],
       ['빅 알마티 호수는 해발 약 2,500m에 있어 산책할 때 여벌 겉옷을 챙기면 좋습니다.', 'Big Almaty Lake sits at about 2,500 metres above sea level, so consider bringing an extra layer for your walk.', 'ビッグ・アルマティ湖は標高約2,500mにあるため、散策には羽織るものを持参すると安心です。'],
       ['알마티 시내버스 92번은 국제공항이 종점으로 안내되어 있어요. 출발 전에 노선 변경이나 운행 상황을 확인하세요.', 'Almaty city bus route 92 is listed as serving the international airport as its terminus. Check for route changes or service updates before departure.', 'アルマトイ市内バス92番は国際空港が終点として案内されています。出発前に路線変更や運行状況を確認しましょう。'],
+      ['공항에서 숙소까지: 알마티 공식 관광 안내는 공항에서 시내버스나 앱 호출 택시를 이용할 수 있다고 안내합니다. 버스는 짐이 있으면 느릴 수 있어 숙소 주소와 도착 시간을 보고 선택하세요.', 'Airport to your stay: Almaty’s official tourism guide lists city buses and app-booked taxis from the airport. It notes buses can be slow with luggage, so choose based on your accommodation address and arrival time.', '空港から宿泊先へ：アルマトイの公式観光案内では、空港から市内バスまたは配車アプリのタクシーを利用できると案内しています。荷物が多いとバスは時間がかかる場合があるため、宿泊先の住所と到着時刻を見て選びましょう。'],
     ],
   },
   amsterdam: {
@@ -77,6 +78,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['사원에 들어갈 때는 사롱(허리에 두르는 천)을 둘러야 합니다. 입구에서 빌려주는 곳이 많습니다.', 'Wear a sarong to enter temples; many lend them at the entrance.', '寺院に入る際はサロン（腰布）が必要です。入口で貸してくれる所が多いです。'],
       ['발리 남부는 교통이 혼잡할 수 있으니 지역 간 이동 시간을 넉넉히 잡으세요. 먼 지역을 함께 돌 경우 숙소 위치도 고려하세요.', 'Traffic in southern Bali can be heavy, so allow extra time between areas and consider where you stay for a multi-area trip.', 'バリ島南部は渋滞することがあります。地域間の移動には余裕を持ち、複数エリアを回るなら宿泊地も考えましょう。'],
       ['발리공항의 Grab·Gojek은 터미널별 지정 승차 라운지를 이용하니, 도착 구역 표지를 따라 공식 승차 장소로 이동하세요.', 'Grab and Gojek use designated pickup lounges at Bali Airport. Follow the signs in your arrival area to the correct pickup location.', 'バリ空港ではGrab・Gojekの乗車場所が到着エリアごとに指定されています。案内表示に従って指定の乗り場へ向かいましょう。'],
+      ['공항에서 숙소까지: 발리 응우라라이 공항은 도착 구역에 공식 택시 안내와 Grab·Gojek 승차 라운지를 둡니다. 앱 차량은 안내된 픽업 구역에서 탑승하고, 숙소 위치에 맞는 목적지를 입력하세요.', 'Airport to your stay: Ngurah Rai Airport lists airport taxis and Grab/Gojek pickup lounges in its arrivals areas. Use the designated pickup zone and enter your accommodation’s exact location.', '空港から宿泊先へ：ングラ・ライ空港の到着エリアには空港タクシーの案内とGrab・Gojekの乗車ラウンジがあります。指定乗車場所を使い、宿泊先の正確な住所を目的地に入力しましょう。'],
     ],
   },
   beijing: {

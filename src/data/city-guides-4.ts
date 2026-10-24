@@ -14,6 +14,7 @@ export const NOTES_4: Record<string, Compact> = {
       ['설악산 케이블카는 사전 예약 없이 당일 현장에서만 표를 팝니다. 주말에는 대기가 생길 수 있으니 운행시간을 확인하고 여유 있게 방문하세요.', 'Seorak Cable Car sells tickets on site only, with no advance reservations. Weekend waits are possible, so check operating hours and allow extra time.', '雪岳山ケーブルカーのチケットは予約できず、当日の現地販売のみです。週末は待ち時間が生じることがあるため、運行時間を確認して余裕を持って訪れましょう。'],
       ['영랑호와 청초호 주변 산책로를 걸어보세요. 청초호는 밤에 조명이 켜진 풍경도 볼 수 있습니다.', 'Walk the paths around Yeongnangho and Cheongchoho lakes. Cheongchoho is also lit up at night.', '永郎湖と青草湖の周辺を散策してみましょう。青草湖では夜のライトアップも楽しめます。'],
       ['가는 법: 속초에는 철도가 없어 서울 고속버스터미널이나 동서울터미널에서 고속버스를 타면 2시간 반 안팎입니다.', 'Getting there: Sokcho has no railway, so take an express bus from Seoul Express Bus Terminal or Dong Seoul Terminal — about 2.5 hours.', '行き方：束草には鉄道がないため、ソウル高速バスターミナルか東ソウルターミナルから高速バスで2時間半ほどです。'],
+      ['양양공항에 도착하면 공식 안내에서 현재 운행 중인 버스와 셔틀을 먼저 확인하세요. 인천·김포공항을 이용한다면 서울 시내 장거리버스터미널에서 속초행 버스를 타고, 속초터미널에서 숙소까지 시내 교통으로 이동하는 방법이 있습니다.', 'If arriving at Yangyang Airport, first check the airport’s current bus and shuttle status. From Incheon or Gimpo, take a Sokcho-bound coach from a Seoul intercity terminal, then use local transport from Sokcho Terminal to your accommodation.', '襄陽空港に到着した場合は、空港の公式案内で運行中のバス・シャトルを確認してください。仁川・金浦空港からはソウル市内の長距離バスターミナルから束草行きバスに乗り、束草ターミナルから宿泊先へ市内交通で移動できます。'],
     ],
   },
   sydney: {
@@ -84,6 +85,7 @@ export const NOTES_4: Record<string, Compact> = {
       ['소매물도·욕지도 등 섬 배편은 기상에 따라 변경·결항될 수 있으니 출발 전 선사에 운항 여부를 확인하세요.', 'Ferries to islands such as Somaemuldo and Yokjido may change or be cancelled because of weather; confirm the sailing with the operator before departure.', '小毎勿島や欲知島などへの船は天候により変更・欠航する場合があります。出発前に運航会社へ確認してください。'],
       ['통영은 굴 산지입니다. 겨울에 제철 굴 요리를 맛보세요.', 'Tongyeong is an oyster-producing area. Try seasonal oyster dishes in winter.', '統営はカキの産地です。冬には旬のカキ料理を味わってみましょう。'],
       ['가는 법: 통영에는 철도가 없어 서울 고속버스터미널이나 남부터미널에서 버스를 타면 4시간 안팎입니다. 부산에서도 버스가 자주 다닙니다.', 'Getting there: Tongyeong has no railway, so take a bus from Seoul Express Bus Terminal or Nambu Terminal — about four hours; buses from Busan are frequent too.', '行き方：統営には鉄道がないため、ソウル高速バスターミナルか南部ターミナルからバスで4時間ほどです。釜山からもバスが頻繁に出ています。'],
+      ['김해공항에서 통영·고성 방면 시외버스를 이용할 수 있습니다. 통영종합버스터미널에 도착한 뒤 숙소까지는 시내버스나 택시로 이동하세요.', 'Intercity buses from Gimhae Airport serve Tongyeong and Goseong. From Tongyeong Bus Terminal, continue to your accommodation by local bus or taxi.', '金海空港から統営・固城方面への市外バスを利用できます。統営総合バスターミナルから宿泊先までは、市内バスかタクシーで移動しましょう。'],
     ],
   },
   ulaanbaatar: {
@@ -160,30 +162,30 @@ export const NOTES_4: Record<string, Compact> = {
 export const NOTES_EXTRA: Record<string, Compact> = {
   boracay: {
     h: [['디니위드 비치', 'Diniwid Beach', 'ディニウィッド・ビーチ', '화이트 비치 스테이션 1 너머의 작은 해변으로, 한적하게 바다를 바라보기 좋습니다.', 'A small, quieter beach beyond White Beach Station 1 where you can relax by the sea.', 'ホワイトビーチのステーション1の先にある小さなビーチで、静かに海を眺められます。']],
-    t: [['화이트 비치는 스테이션 1·2·3으로 나뉩니다. 스테이션 2에 식당과 상점이 집중되고, 3은 비교적 한적합니다.', 'White Beach is divided into Stations 1, 2 and 3. Restaurants and shops cluster around Station 2, while Station 3 is relatively quieter.', 'ホワイトビーチはステーション1・2・3に分かれます。飲食店や店はステーション2に集まり、3は比較的静かです。']],
+    t: [['화이트 비치는 스테이션 1·2·3으로 나뉩니다. 스테이션 2에 식당과 상점이 집중되고, 3은 비교적 한적합니다.', 'White Beach is divided into Stations 1, 2 and 3. Restaurants and shops cluster around Station 2, while Station 3 is relatively quieter.', 'ホワイトビーチはステーション1・2・3に分かれます。飲食店や店はステーション2に集まり、3は比較的静かです。'], ['보라카이 숙소로 가려면 먼저 공항에서 카티클란 제티 포트로 이동한 뒤 배로 섬에 들어가고, 도착 항구에서 숙소까지 이어가야 합니다. 아클란주 공식 안내의 여행자 등록·항구 절차를 출발 전에 확인하세요.', 'To reach accommodation on Boracay, travel from the airport to Caticlan Jetty Port, take a boat to the island, then continue from the arrival port to your stay. Check Aklan Province’s official traveler registration and port procedures before departure.', 'ボラカイ島の宿泊先へは、空港からカティクラン・ジェティ・ポートへ移動し、船で島に渡ってから到着港より宿泊先へ向かいます。出発前にアクラン州公式案内の旅行者登録と港の手続きを確認してください。']],
   },
   brussels: {
     h: [['오줌싸개 동상', 'Manneken Pis', '小便小僧', '그랑플라스 근처의 작은 청동상입니다. 특별한 날이나 행사에 맞춰 다양한 의상을 입습니다.', 'Manneken-Pis is a small bronze statue near Grand-Place. It wears different costumes for special dates and events.', '小便小僧はグランプラス近くにある小さな銅像です。記念日や行事に合わせてさまざまな衣装を着ます。']],
-    t: [['감자튀김(프리트)은 전문 가게에서 원뿔 종이에 담아 소스를 골라 먹는 것이 현지식입니다.', 'Fries are best from a friterie, served in a paper cone with your choice of sauce.', 'フリット（フライドポテト）は専門店で円錐の紙に入れ、ソースを選んで食べるのが地元流です。']],
+    t: [['감자튀김(프리트)은 전문 가게에서 원뿔 종이에 담아 소스를 골라 먹는 것이 현지식입니다.', 'Fries are best from a friterie, served in a paper cone with your choice of sauce.', 'フリット（フライドポテト）は専門店で円錐の紙に入れ、ソースを選んで食べるのが地元流です。'], ['공항에서 숙소까지: 브뤼셀 공항에서 북역·중앙역·남역 방면 직행 열차와 공항 버스가 있습니다. 숙소가 있는 역·동네를 확인한 뒤 맞는 노선을 고르세요.', 'Airport to your stay: direct trains from Brussels Airport serve North, Central and South stations, and airport buses also run into the city. Choose based on the station or neighbourhood nearest your accommodation.', '空港から宿泊先へ：ブリュッセル空港から北駅・中央駅・南駅方面への直通列車があり、市内行き空港バスもあります。宿泊先に近い駅や地区を確認して選びましょう。']],
   },
   cancun: {
     h: [['툴룸 유적', 'Tulum ruins', 'トゥルム遺跡', '카리브해 절벽 위에 남은 마야 유적. 칸쿤에서 하루 일정으로 다녀옵니다.', 'Maya ruins on a clifftop above the Caribbean, a day trip from Cancún.', 'カリブ海の断崖に残るマヤ遺跡。カンクンから日帰りで行けます。']],
-    t: [['해변의 해조류(사르가숨) 상황은 계절마다 달라 출발 전에 공식 안내나 현지 소식을 확인하면 좋습니다.', 'Seaweed (sargassum) levels vary by season; check updates before you go.', '海藻（サルガッサム）の状況は季節で変わるので、出発前に確認しましょう。']],
+    t: [['해변의 해조류(사르가숨) 상황은 계절마다 달라 출발 전에 공식 안내나 현지 소식을 확인하면 좋습니다.', 'Seaweed (sargassum) levels vary by season; check updates before you go.', '海藻（サルガッサム）の状況は季節で変わるので、出発前に確認しましょう。'], ['공항에서 숙소까지: 칸쿤 공항에서 ADO 직행버스를 타면 다운타운 버스터미널 또는 호텔존 북쪽 Punta Cancún 정류장으로 갈 수 있습니다. 호텔존 남쪽 숙소는 현지 버스나 호텔 교통편으로 이어서 이동해야 합니다.', 'Airport to your stay: ADO buses from Cancún Airport serve the downtown bus terminal and the Punta Cancún stop in the north Hotel Zone. For hotels farther south, continue by local bus or hotel transport.', '空港から宿泊先へ：カンクン空港からADOの直行バスでダウンタウンのバスターミナル、またはホテルゾーン北部のPunta Cancún停留所へ行けます。南側のホテルへは市内バスやホテル送迎に乗り継ぎます。']],
   },
   nice: {
     h: [['마티스 미술관', 'Musée Matisse', 'マティス美術館', '시미에 언덕의 저택에 마티스 작품을 모은 미술관입니다.', 'Matisse’s works in a villa on Cimiez hill.', 'シミエの丘の邸宅にマティス作品を集めた美術館です。']],
-    t: [['소카·피살라디에르 같은 니스 음식은 구시가지 시장 주변 노점에서 맛보기 좋습니다.', 'Try local socca and pissaladière from stalls around the Old Town market.', 'ソッカやピサラディエールなどニースの味は旧市街の市場周辺の屋台で。']],
+    t: [['소카·피살라디에르 같은 니스 음식은 구시가지 시장 주변 노점에서 맛보기 좋습니다.', 'Try local socca and pissaladière from stalls around the Old Town market.', 'ソッカやピサラディエールなどニースの味は旧市街の市場周辺の屋台で。'], ['공항에서 숙소까지: 니스 코트다쥐르공항 터미널에서 트램 2호선을 타면 도심의 Jean Médecin역과 Port Lympia까지 이어집니다. 숙소가 동쪽 항구 쪽인지 서쪽 지역인지 확인해 내릴 역을 고르세요.', 'Airport to your stay: tram line 2 runs from Nice Côte d’Azur Airport terminals to Jean Médecin in the centre and Port Lympia. Choose your stop according to whether your accommodation is near the eastern port or farther west.', '空港から宿泊先へ：ニース・コート・ダジュール空港のターミナルからトラム2号線で中心部のJean Médecin駅やPort Lympiaへ行けます。宿泊先が東側の港周辺か西側かを見て降車駅を選びましょう。']],
   },
   reykjavik: {
     h: [['블루 라군', 'Blue Lagoon', 'ブルーラグーン', '공항 가는 길에 있는 우윳빛 지열 온천. 입장은 미리 예약해야 합니다.', 'The milky-blue geothermal spa on the way to the airport; book entry in advance.', '空港へ向かう途中にある乳白色の地熱温泉。入場は事前予約が必要です。']],
-    t: [['오로라는 보통 9월~4월 맑은 밤에 볼 수 있으며, 시내 불빛을 벗어나야 잘 보입니다.', 'Northern lights appear on clear nights roughly September to April, best away from city lights.', 'オーロラはだいたい9〜4月の晴れた夜に見られ、街の明かりから離れるとよく見えます。']],
+    t: [['오로라는 보통 9월~4월 맑은 밤에 볼 수 있으며, 시내 불빛을 벗어나야 잘 보입니다.', 'Northern lights appear on clear nights roughly September to April, best away from city lights.', 'オーロラはだいたい9〜4月の晴れた夜に見られ、街の明かりから離れるとよく見えます。'], ['공항에서 숙소까지: 국제선은 케플라비크공항(KEF)을 이용하며 Flybus가 레이캬비크 BSÍ 터미널과 일부 숙소·지정 정류장까지 연결합니다. 예약 시 숙소 픽업·드롭오프 가능 여부를 확인하세요.', 'Airport to your stay: international flights use Keflavík Airport (KEF); Flybus connects it with Reykjavík’s BSÍ terminal and selected hotels or designated stops. Check whether pickup or drop-off is available for your accommodation when booking.', '空港から宿泊先へ：国際線はケプラヴィーク空港（KEF）を利用し、FlybusでレイキャビクのBSÍターミナルや一部の宿泊施設・指定停留所へ移動できます。予約時に宿泊先への送迎対象か確認しましょう。']],
   },
   'siem-reap': {
     h: [['펍 스트리트·야시장', 'Pub Street and night markets', 'パブストリートとナイトマーケット', '저녁이면 식당·바와 기념품 시장이 모여 활기를 띠는 거리입니다.', 'The evening hub of restaurants, bars and souvenir markets.', '夕方になると飲食店やバー、土産物市場でにぎわう通りです。']],
-    t: [['앙코르 유적은 여러 사원으로 넓게 펼쳐져 있습니다. 툭툭·택시·자전거 등으로 작은 순환 코스나 큰 순환 코스를 계획해 둘러보세요.', 'Angkor\'s temples are spread across a wide area. Plan a small or grand circuit using a tuk-tuk, taxi, or bicycle.', 'アンコールの寺院は広い範囲に点在しています。トゥクトゥク、タクシー、自転車などで小回り・大回りの巡回ルートを計画しましょう。']],
+    t: [['앙코르 유적은 여러 사원으로 넓게 펼쳐져 있습니다. 툭툭·택시·자전거 등으로 작은 순환 코스나 큰 순환 코스를 계획해 둘러보세요.', 'Angkor\'s temples are spread across a wide area. Plan a small or grand circuit using a tuk-tuk, taxi, or bicycle.', 'アンコールの寺院は広い範囲に点在しています。トゥクトゥク、タクシー、自転車などで小回り・大回りの巡回ルートを計画しましょう。'], ['공항에서 숙소까지: 시엠레아프 앙코르 국제공항은 시내행 공식 셔틀버스 안내를 제공합니다. 셔틀 정류장에서 숙소까지 마지막 이동이 필요한지 확인하고, 늦은 도착이면 숙소 픽업 가능 여부도 문의하세요.', 'Airport to your stay: Siem Reap Angkor International Airport links to information for its official shuttle bus to town. Check whether you need a final transfer from the shuttle stop to your accommodation, and ask your stay about pickup for late arrivals.', '空港から宿泊先へ：シェムリアップ・アンコール国際空港は市内行き公式シャトルバスの案内を掲載しています。シャトル停留所から宿泊先までの移動が必要か確認し、到着が遅い場合は宿の送迎について問い合わせましょう。']],
   },
   ulaanbaatar: {
     h: [['몽골 국립박물관', 'National Museum of Mongolia', 'モンゴル国立博物館', '선사시대부터 몽골 제국과 유목 생활까지 보여 주는 박물관입니다.', 'Covers prehistory, the Mongol Empire and nomadic life.', '先史時代からモンゴル帝国、遊牧生活までを紹介する博物館です。']],
-    t: [['7월 나담 축제에서는 씨름·말 경주·활쏘기를 볼 수 있습니다. 인기 행사라 관람권과 숙소를 일찍 확인하세요.', 'The July Naadam festival features wrestling, horse racing and archery. Check tickets and accommodation early for this popular event.', '7月のナーダム祭ではモンゴル相撲・競馬・弓射が見られます。人気の行事なので、観覧券と宿泊先は早めに確認しましょう。']],
+    t: [['7월 나담 축제에서는 씨름·말 경주·활쏘기를 볼 수 있습니다. 인기 행사라 관람권과 숙소를 일찍 확인하세요.', 'The July Naadam festival features wrestling, horse racing and archery. Check tickets and accommodation early for this popular event.', '7月のナーダム祭ではモンゴル相撲・競馬・弓射が見られます。人気の行事なので、観覧券と宿泊先は早めに確認しましょう。'], ['공항에서 숙소까지: 칭기즈 칸 국제공항에서 울란바토르 시내로 공공버스가 운행합니다. 노선별 목적지가 다르므로 숙소와 가까운 정류장을 확인하고, 짐이 많거나 심야 도착이면 공식 택시 안내도 살펴보세요.', 'Airport to your stay: public buses run from Chinggis Khaan International Airport to Ulaanbaatar. Routes serve different destinations, so check the stop nearest your accommodation; for heavy luggage or late arrivals, review the airport’s official taxi information.', '空港から宿泊先へ：チンギス・ハーン国際空港からウランバートル市内へ公共バスが運行しています。路線ごとに行き先が異なるため、宿泊先に近い停留所を確認しましょう。荷物が多い場合や深夜到着の場合は、空港の公式タクシー案内もご確認ください。']],
   },
 };

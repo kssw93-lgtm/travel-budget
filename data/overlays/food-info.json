@@ -5296,7 +5296,13 @@
   "austin:Breakfast Tacos": {
     "ko": "달걀·베이컨·콩 등을 토르티야에 싼 아침 타코",
     "en": "Tortillas filled with eggs, bacon or beans",
-    "ja": "卵やベーコン、豆などをトルティーヤで包んだ朝食タコス"
+    "ja": "卵やベーコン、豆などをトルティーヤで包んだ朝食タコス",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Mexican_tacos_from_La_Fruita_Feliz_in_Austin_TX.jpg/960px-Mexican_tacos_from_La_Fruita_Feliz_in_Austin_TX.jpg",
+      "author": "TreyDanger",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Mexican_tacos_from_La_Fruita_Feliz_in_Austin_TX.jpg"
+    }
   },
   "austin:Queso": {
     "ko": "칩을 찍어 먹는 텍스멕스식 녹인 치즈 딥",
@@ -5581,7 +5587,13 @@
   "aarhus:Street Food": {
     "ko": "옛 버스 차고 시장의 세계 각국 음식",
     "en": "Global dishes at the former bus-garage market",
-    "ja": "古いバス車庫の市場で味わう世界各国の料理"
+    "ja": "古いバス車庫の市場で味わう世界各国の料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Aarhus_Street_Food.jpg/960px-Aarhus_Street_Food.jpg",
+      "author": "RhinoMind",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Aarhus_Street_Food.jpg"
+    }
   },
   "aarhus:Food Hall Fare": {
     "ko": "항구 지구 니콜리네후스 푸드홀의 다양한 음식",

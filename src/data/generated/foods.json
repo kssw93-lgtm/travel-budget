@@ -2719,6 +2719,12 @@
       "en": "Kale stewed with Pinkel grain sausage, a Bremen winter dish",
       "ja": "ケールをピンケル・ソーセージと煮込んだブレーメンの冬の料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Braunkohl_und_Pinkel%2C_2017.jpg/960px-Braunkohl_und_Pinkel%2C_2017.jpg",
+      "author": "Jocian",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Braunkohl_und_Pinkel,_2017.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2736,6 +2742,12 @@
       "ko": "곡물을 넣은 소시지를 바삭하게 구워 감자볶음과 먹는 요리",
       "en": "Crisp-fried grain sausage with fried potatoes",
       "ja": "穀物入りソーセージをカリッと焼き、炒めたじゃがいもと食べる料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bremer_Knipp_Domshof.jpg/960px-Bremer_Knipp_Domshof.jpg",
+      "author": "Benreis",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bremer_Knipp_Domshof.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],

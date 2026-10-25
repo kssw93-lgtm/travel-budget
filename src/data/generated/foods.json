@@ -2623,6 +2623,12 @@
       "en": "Rib steak with Bordeaux-style sauce and fries",
       "ja": "ボルドー風ソースとフライドポテトを添えた牛リブロースのステーキ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Entrecote.jpg/960px-Entrecote.jpg",
+      "author": "Monster1000",
+      "license": "CC BY-SA 2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:Entrecote.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2797,6 +2803,12 @@
       "en": "Queensland slipper lobster, like a small lobster",
       "ja": "小さなロブスターに似たクイーンズランド近海の甲殻類の料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Cooked_whole_Moreton_Bay_Bug.JPG/960px-Cooked_whole_Moreton_Bay_Bug.JPG",
+      "author": "Kingturkey",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cooked_whole_Moreton_Bay_Bug.JPG"
+    },
     "budgetBand": "고",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -2832,6 +2844,12 @@
       "ko": "제철에 맛보는 퀸즐랜드의 큰 진흙게 요리",
       "en": "Queensland’s big mud crabs, in season",
       "ja": "旬に味わうクイーンズランドの大きなマッドクラブの料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Boiled_mud_crab_(Scylla_serrata)_on_plate.jpg/960px-Boiled_mud_crab_(Scylla_serrata)_on_plate.jpg",
+      "author": "JaredMcKenzie",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Boiled_mud_crab_(Scylla_serrata)_on_plate.jpg"
     },
     "budgetBand": "고",
     "linkedPriceIds": [],
@@ -3158,6 +3176,12 @@
       "ko": "열대 맹그로브에서 잡히는 큰 게 요리",
       "en": "Big tropical mangrove crab",
       "ja": "熱帯のマングローブでとれる大きなカニの料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Boiled_mud_crab_(Scylla_serrata)_on_plate.jpg/960px-Boiled_mud_crab_(Scylla_serrata)_on_plate.jpg",
+      "author": "JaredMcKenzie",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Boiled_mud_crab_(Scylla_serrata)_on_plate.jpg"
     },
     "budgetBand": "고",
     "linkedPriceIds": [],

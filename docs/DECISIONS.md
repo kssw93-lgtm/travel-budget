@@ -232,3 +232,7 @@
 ## 2026-10-24 음식 사진 보강 8차
 - 빌바오의 Txipirones en su Tinta에 바스크 전통 음식으로 설명된 squid in ink 사진을 연결했다. Commons 파일 페이지를 반복 열어 음식 설명, CC BY 3.0, 작가 Gordito1869, Original file URL을 확인했다.
 - 결과 CSV는 GPT전달내용/결과/음식사진_2026-10-24_8.csv이며, 반영 후 사진 420/650개, 미등록은 230개다.
+
+## 2026-10-25 음식 사진 보강 9차
+- Wikimedia Commons 파일 설명이 음식과 일치하고 자유 라이선스·작가·Original file 주소가 확인된 4개를 반영했다: Brisbane Moreton Bay Bugs (CC BY-SA 3.0), Brisbane Mud Crab (CC0 1.0), Cairns Mud Crab (CC0 1.0), Bordeaux Entrecôte (CC BY-SA 2.5). 각 파일 페이지를 두 번 열어 확인했으며, 도시 연관 설명은 해당 페이지에 명시된 범위만 사용했다.
+- 결과 원본은 `GPT전달내용/결과/음식사진_2026-10-25_9.csv`. 반영 후 사진은 424/650개, 미등록은 226개다. 최신 미등록 목록을 `GPT전달내용/결과/음식사진_미처리현황_2026-10-24.csv`에 갱신했다.

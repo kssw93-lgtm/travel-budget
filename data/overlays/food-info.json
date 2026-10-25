@@ -4936,12 +4936,24 @@
   "chicago:Italian Beef": {
     "ko": "얇게 썬 로스트 비프를 육즙에 적신 빵에 끼우고 매운 지아르디니에라를 얹은 샌드위치",
     "en": "Thin-sliced roast beef in a jus-soaked roll with spicy giardiniera",
-    "ja": "薄切りローストビーフを肉汁に浸したパンに挟み、辛いジャルディニエラをのせたサンドイッチ"
+    "ja": "薄切りローストビーフを肉汁に浸したパンに挟み、辛いジャルディニエラをのせたサンドイッチ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Windy_City_Italian_Beef.jpg/960px-Windy_City_Italian_Beef.jpg",
+      "author": "SauceSupreme",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Windy_City_Italian_Beef.jpg"
+    }
   },
   "chicago:Chicago-Style Hot Dog": {
     "ko": "양귀비씨 빵에 소고기 소시지와 머스터드·양파·렐리시·피클·토마토를 얹은 핫도그(케첩 없음)",
     "en": "All-beef frank on a poppy-seed bun with mustard, onion, relish, pickle and tomato — no ketchup",
-    "ja": "ケシの実のパンに牛肉ソーセージとマスタード・玉ねぎ・レリッシュ・ピクルス・トマトをのせたホットドッグ（ケチャップなし）"
+    "ja": "ケシの実のパンに牛肉ソーセージとマスタード・玉ねぎ・レリッシュ・ピクルス・トマトをのせたホットドッグ（ケチャップなし）",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Chicago_style_hotdog.jpg/960px-Chicago_style_hotdog.jpg",
+      "author": "Pion",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Chicago_style_hotdog.jpg"
+    }
   },
   "montreal:Montréal Bagel": {
     "ko": "꿀물에 데쳐 장작 화덕에 구운 작고 달콤한 베이글",
@@ -5825,17 +5837,35 @@
   "cordoba:Salmorejo": {
     "ko": "토마토·빵·마늘·올리브유로 만든 차가운 크림 수프",
     "en": "Chilled cream of tomato, bread, garlic and olive oil",
-    "ja": "トマト・パン・にんにく・オリーブオイルで作る冷たいクリームスープ"
+    "ja": "トマト・パン・にんにく・オリーブオイルで作る冷たいクリームスープ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Salmorejo.jpg/960px-Salmorejo.jpg",
+      "author": "Juan Emilio Prades Bel",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Salmorejo.jpg"
+    }
   },
   "cordoba:Flamenquín": {
     "ko": "하몬을 채워 돌돌 만 돼지고기를 튀긴 요리",
     "en": "Rolled pork filled with ham, breaded and fried",
-    "ja": "生ハムを巻いた豚肉に衣をつけて揚げた料理"
+    "ja": "生ハムを巻いた豚肉に衣をつけて揚げた料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flamenqu%C3%ADn%2C_C%C3%B3rdoba%2C_2016.jpg/960px-Flamenqu%C3%ADn%2C_C%C3%B3rdoba%2C_2016.jpg",
+      "author": "Draceane",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Flamenquín,_Córdoba,_2016.jpg"
+    }
   },
   "cordoba:Rabo de Toro": {
     "ko": "소꼬리를 오래 끓인 코르도바 전통 찜",
     "en": "Slow-braised oxtail stew",
-    "ja": "牛テールをじっくり煮込んだコルドバの伝統料理"
+    "ja": "牛テールをじっくり煮込んだコルドバの伝統料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rabo_de_toro%2C_C%C3%B3rdoba%2C_2016.jpg/960px-Rabo_de_toro%2C_C%C3%B3rdoba%2C_2016.jpg",
+      "author": "Draceane",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Rabo_de_toro,_Córdoba,_2016.jpg"
+    }
   },
   "montpellier:Bouzigues Oysters": {
     "ko": "근교 토 석호에서 기른 굴",

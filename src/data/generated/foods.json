@@ -2689,6 +2689,12 @@
       "en": "Lobster meat dressed in butter or mayo in a toasted roll",
       "ja": "バターやマヨネーズで和えたロブスターの身をパンに挟んだサンドイッチ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Lobster_salad_roll.jpg/960px-Lobster_salad_roll.jpg",
+      "author": "إيان",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Lobster_salad_roll.jpg"
+    },
     "budgetBand": "고",
     "linkedPriceIds": [],
     "priceStatus": "대기",

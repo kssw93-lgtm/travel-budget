@@ -4882,7 +4882,13 @@
   "boston:Lobster Roll": {
     "ko": "버터나 마요네즈로 버무린 랍스터 살을 빵에 채운 샌드위치",
     "en": "Lobster meat dressed in butter or mayo in a toasted roll",
-    "ja": "バターやマヨネーズで和えたロブスターの身をパンに挟んだサンドイッチ"
+    "ja": "バターやマヨネーズで和えたロブスターの身をパンに挟んだサンドイッチ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Lobster_salad_roll.jpg/960px-Lobster_salad_roll.jpg",
+      "author": "إيان",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Lobster_salad_roll.jpg"
+    }
   },
   "boston:Oysters": {
     "ko": "뉴잉글랜드 바다에서 나는 신선한 생굴",

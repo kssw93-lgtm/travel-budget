@@ -18,7 +18,13 @@
   "cape-town:Gatsby Sandwich": {
     "ko": "긴 빵에 고기나 생선, 감자튀김과 여러 재료를 채워 함께 나누어 먹기도 하는 케이프타운식 샌드위치입니다.",
     "en": "A Cape Town sandwich made in a long roll and packed with fillings such as meat or fish and chips.",
-    "ja": "細長いパンに肉や魚、フライドポテトなどをたっぷり挟んだ、ケープタウンのサンドイッチです。"
+    "ja": "細長いパンに肉や魚、フライドポテトなどをたっぷり挟んだ、ケープタウンのサンドイッチです。",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Cape_Town_-_Vegan_Lekker_Nuggy_Gatsby_in_restaurant_Lekker_Vegan.jpg/960px-Cape_Town_-_Vegan_Lekker_Nuggy_Gatsby_in_restaurant_Lekker_Vegan.jpg",
+      "author": "Romaine",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cape_Town_-_Vegan_Lekker_Nuggy_Gatsby_in_restaurant_Lekker_Vegan.jpg"
+    }
   },
   "cape-town:Cape Malay Bobotie": {
     "ko": "향신료를 넣은 다진 고기 위에 달걀 커스터드 층을 얹어 구운 케이프 말레이 요리입니다.",
@@ -4919,7 +4925,13 @@
   "chicago:Deep-Dish Pizza": {
     "ko": "그릇 모양 도우에 치즈·토마토 소스·토핑을 두툼하게 채운 시카고식 피자",
     "en": "Bowl-shaped crust filled with cheese, tomato sauce and toppings",
-    "ja": "器のような生地にチーズ・トマトソース・具をたっぷり詰めたシカゴ風ピザ"
+    "ja": "器のような生地にチーズ・トマトソース・具をたっぷり詰めたシカゴ風ピザ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Chicago_deep_dish_pizza_from_pequod's.jpg/960px-Chicago_deep_dish_pizza_from_pequod's.jpg",
+      "author": "Goose Green Photography",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Chicago_deep_dish_pizza_from_pequod%27s.jpg"
+    }
   },
   "chicago:Italian Beef": {
     "ko": "얇게 썬 로스트 비프를 육즙에 적신 빵에 끼우고 매운 지아르디니에라를 얹은 샌드위치",
@@ -5218,7 +5230,13 @@
   "chengdu:Dandan Noodles": {
     "ko": "매콤한 양념에 볶은 다진 돼지고기를 얹어 비벼 먹는 국물 없는 면",
     "en": "Soupless noodles tossed in spicy sauce with fried minced pork",
-    "ja": "辛いタレとそぼろ肉を混ぜて食べる汁なし麺"
+    "ja": "辛いタレとそぼろ肉を混ぜて食べる汁なし麺",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Dandannoodles.jpg/960px-Dandannoodles.jpg",
+      "author": "Alpha",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Dandannoodles.jpg"
+    }
   },
   "chengdu:Zhong Dumplings": {
     "ko": "달콤하고 매콤한 고추기름 소스를 끼얹은 청두식 물만두",

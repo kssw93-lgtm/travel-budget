@@ -13,8 +13,6 @@ import { CHRISTMAS_MARKETS } from '../src/data/christmas-markets';
 import { CITY_INTROS } from '../src/data/city-intros';
 import { CITY_SEASONS } from '../src/data/city-seasons';
 import { CITY_WHEN } from '../src/data/city-when';
-import { WHEN_SOURCES } from '../src/data/city-when-sources';
-import { GUIDE_SOURCES } from '../src/data/city-guide-sources';
 import { COUNTRY_GUIDES } from '../src/data/country-guides';
 import type { City, CityMemo, ExtraSample, FoodRecommendation, PriceSample, Range } from '../src/core/types';
 import { en } from '../src/i18n/en';
@@ -29,6 +27,8 @@ const LOCALE: Record<Lang, string> = { ko: 'ko-KR', en: 'en-US', ja: 'ja-JP' };
 const IDX: Record<Lang, 0 | 1 | 2> = { ko: 0, en: 1, ja: 2 };
 export const fill = (s: string, v: Record<string, string | number>) => s.replace(/\{(\w+)\}/g, (m, k: string) => (k in v ? String(v[k]) : m));
 const pick = (lang: Lang, k = '', en_ = '', ja_ = '') => (lang === 'ko' ? k : lang === 'ja' ? ja_ || en_ || k : en_ || k);
+const AIRPORT_TIP_PATTERN = /airport|airports|공항|空港|aéroport|aeropuerto|flughafen|lufthavn|lentokenttä|luchthaven/i;
+const isAirportTip = (tip: { ko: string; en: string; ja: string }) => AIRPORT_TIP_PATTERN.test(`${tip.ko} ${tip.en} ${tip.ja}`);
 export const cityLabel = (c: City, lang: Lang) => (lang === 'ja' ? (CITY_JA[c.id] ?? c.nameEn) : pick(lang, c.nameKo, c.nameEn));
 export const countryLabel = (c: City, lang: Lang) => (lang === 'ja' ? (COUNTRY_JA[c.countryEn] ?? c.countryEn) : pick(lang, c.country, c.countryEn));
 
@@ -113,9 +113,10 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const description = `${lead} ${facts.length ? fill(s.descTail, { facts: facts.join(', ') }) : ''}`.trim();
 
   const note = CITY_GUIDES[city.id];
-  const srcLink = (url?: string) => (url ? ` <small><a href="${e(url)}" rel="noopener">${e(t.sourceLink)}</a></small>` : '');
+  const airportIndex = note?.tips.findIndex(isAirportTip) ?? -1;
+  const airportAccess = airportIndex >= 0 ? `        <h2>${e(t.airportAccessTitle)}</h2><p>${e(note!.tips[airportIndex]![lang])}</p><p>${e(t.airportAccessHint)}</p>` : '';
   const sights = note
-    ? `        <h2>${e(fill(t.highlightsTitle, { city: name }))}</h2><ol>${note.highlights.map((h, k) => `<li><strong>${e(h.name[lang])}</strong> ${e(h.text[lang])}${srcLink(GUIDE_SOURCES[`${city.id}:h${k + 1}`])}</li>`).join('')}</ol>`
+    ? `        <h2>${e(fill(t.highlightsTitle, { city: name }))}</h2><ol>${note.highlights.map((h) => `<li><strong>${e(h.name[lang])}</strong> ${e(h.text[lang])}</li>`).join('')}</ol>`
     : '';
   const xm = CHRISTMAS_MARKETS[city.id];
   const xmas = xm
@@ -131,16 +132,17 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const when =
     wh || season
       ? `        <h2>${e(fill(t.whenTitle, { city: name }))}</h2>` +
-        (wh ? `<dl>${wh.p.map((p, k) => `<dt>${e(p[IDX[lang]])}</dt><dd>${e(p[3 + IDX[lang]] ?? '')}${srcLink(WHEN_SOURCES[`${city.id}:p${k + 1}`])}</dd>`).join('')}</dl>` : '') +
-        (season ? `<p><strong>${e(t.whenWeather)}</strong> ${e(season[IDX[lang]])}${season[3] ? ` <small><a href="${e(season[3])}" rel="noopener">${e(t.sourceLink)}</a></small>` : ''}</p>` : '') +
-        (wh?.x ? `<p><strong>${e(t.whenAvoid)}</strong> ${e(wh.x[IDX[lang]])}${srcLink(WHEN_SOURCES[`${city.id}:x`])}</p>` : '') +
+        (wh ? `<dl>${wh.p.map((p) => `<dt>${e(p[IDX[lang]])}</dt><dd>${e(p[3 + IDX[lang]] ?? '')}</dd>`).join('')}</dl>` : '') +
+        (season ? `<p><strong>${e(t.whenWeather)}</strong> ${e(season[IDX[lang]])}</p>` : '') +
+        (wh?.x ? `<p><strong>${e(t.whenAvoid)}</strong> ${e(wh.x[IDX[lang]])}</p>` : '') +
         `<p>${e(t.seasonHint)}</p>`
       : '';
-  const cityTips =
-    (note?.tips.length ? `<h3>${e(fill(t.tipsTitle, { city: name }))}</h3><ul>${note.tips.map((x, k) => `<li>${e(x[lang])}${srcLink(GUIDE_SOURCES[`${city.id}:t${k + 1}`])}</li>`).join('')}</ul>` : '');
+  const cityTips = note?.tips.some((_, k) => k !== airportIndex)
+    ? `<h3>${e(fill(t.tipsTitle, { city: name }))}</h3><ul>${note.tips.map((x, k) => (k === airportIndex ? '' : `<li>${e(x[lang])}</li>`)).join('')}</ul>`
+    : '';
   const cn = COUNTRY_GUIDES[city.countryEn];
   const i = IDX[lang];
-  const item = (x: readonly [string, string, string, string?]) => `<li>${e(x[i])}${x[3] ? ` <small><a href="${e(x[3])}" rel="noopener">${e(t.sourceLink)}</a></small>` : ''}</li>`;
+  const item = (x: readonly [string, string, string, string?]) => `<li>${e(x[i])}</li>`;
   const countryNotes = cn
     ? `<h3>${e(fill(t.countryTipsTitle, { country }))}</h3><ul>${cn.tips.map(item).join('')}</ul>` +
       `<h3>${e(fill(t.cautionsTitle, { country }))}</h3><ul>${cn.cautions.map(item).join('')}</ul>` +
@@ -191,6 +193,7 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
     xmas,
     sights,
     stay,
+    airportAccess,
     passTips && `        <h2>${e(t.passTipTitle)}</h2><p>${e(fill(t.passTipLead, { ride: money(ride!.median, cur) }))}</p><ul>${passTips}</ul>`,
     foods && `        <h2>${e(fill(MSG[lang].foods.title, { city: name }))}</h2><ul>${foods}</ul>`,
     tips,

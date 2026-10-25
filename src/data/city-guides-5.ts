@@ -83,7 +83,7 @@ export const NOTES_5: Record<string, Compact> = {
     t: [
       ['게장 백반은 간장·양념게장을 함께 맛볼 수 있는 여수 대표 음식입니다. 리필 횟수와 조건은 식당마다 다르니 메뉴를 확인하세요.', 'Crab set meals are a Yeosu specialty, often with soy and spicy marinated crab. Check each restaurant\'s menu for its refill limits and conditions.', 'カンジャンケジャンとヤンニョムケジャンを味わえるケジャン定食は麗水の名物です。おかわりの回数や条件は店ごとに確認してください。'],
       ['여수엑스포역에 KTX로 도착하면 엑스포 해변공원과 오동도 등 주변 명소를 도보나 대중교통으로 둘러보기 좋습니다.', 'Arriving by KTX at Yeosu-Expo Station makes nearby sights such as Expo Beach Park and Odongdo easy to reach on foot or by public transport.', 'KTXで麗水エキスポ駅に着けば、エキスポ海浜公園や梧桐島など周辺の名所を徒歩や公共交通で巡りやすくなります。'],
-      ['가는 법: 용산역에서 KTX를 타면 종점인 여수엑스포역까지 3시간 안팎이고, 역에서 오동도까지 걸어갈 수 있습니다. 김포에서 여수공항으로 가는 비행기도 있습니다.', 'Getting there: KTX from Yongsan runs to the terminus at Yeosu-EXPO in about three hours, and Odongdo is walkable from the station; there are also flights from Gimpo to Yeosu Airport.', '行き方：龍山駅からKTXで終点の麗水エキスポ駅まで3時間ほど。駅から梧桐島まで歩けます。金浦から麗水空港への便もあります。'],
+      ['여수공항 도착 게이트 2로 나와 오른쪽으로 30m 가면 여수·순천행 시내버스 정류장이 있고, 길을 건너면 택시 승강장이 있습니다. 숙소 주소에 맞는 버스 정류장과 운행 시간을 확인하세요.', 'At Yeosu Airport, exit through Arrival Gate 2 and walk 30 m right to the city-bus stop for Yeosu and Suncheon; the taxi stand is across the crosswalk. Check the stop and schedule for your accommodation.', '麗水空港では到着ゲート2を出て右へ30m進むと麗水・順天行き市内バスの停留所があり、横断歩道を渡るとタクシー乗り場があります。宿泊先に合う停留所と時刻を確認しましょう。'],
     ],
   },
   jeonju: {

@@ -3515,6 +3515,12 @@
       "en": "A Cape Town sandwich made in a long roll and packed with fillings such as meat or fish and chips.",
       "ja": "細長いパンに肉や魚、フライドポテトなどをたっぷり挟んだ、ケープタウンのサンドイッチです。"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Cape_Town_-_Vegan_Lekker_Nuggy_Gatsby_in_restaurant_Lekker_Vegan.jpg/960px-Cape_Town_-_Vegan_Lekker_Nuggy_Gatsby_in_restaurant_Lekker_Vegan.jpg",
+      "author": "Romaine",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cape_Town_-_Vegan_Lekker_Nuggy_Gatsby_in_restaurant_Lekker_Vegan.jpg"
+    },
     "budgetBand": "",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -3659,6 +3665,12 @@
       "en": "Soupless noodles tossed in spicy sauce with fried minced pork",
       "ja": "辛いタレとそぼろ肉を混ぜて食べる汁なし麺"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Dandannoodles.jpg/960px-Dandannoodles.jpg",
+      "author": "Alpha",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Dandannoodles.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -3766,6 +3778,12 @@
       "ko": "그릇 모양 도우에 치즈·토마토 소스·토핑을 두툼하게 채운 시카고식 피자",
       "en": "Bowl-shaped crust filled with cheese, tomato sauce and toppings",
       "ja": "器のような生地にチーズ・トマトソース・具をたっぷり詰めたシカゴ風ピザ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Chicago_deep_dish_pizza_from_pequod's.jpg/960px-Chicago_deep_dish_pizza_from_pequod's.jpg",
+      "author": "Goose Green Photography",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Chicago_deep_dish_pizza_from_pequod%27s.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],

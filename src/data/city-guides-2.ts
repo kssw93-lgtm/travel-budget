@@ -69,7 +69,7 @@ export const NOTES_2: Record<string, Compact> = {
     t: [
       ['오토바이가 많은 도로를 건널 때는 횡단보도를 이용하고, 초록불이어도 양쪽 차량을 확인하세요. 운전자가 알아서 피할 것이라고 믿고 걷지 마세요.', 'When crossing motorbike-heavy roads, use a crossing and check traffic in both directions even on a green signal. Do not assume drivers will move around you.', 'バイクの多い道路を渡るときは横断歩道を使い、青信号でも左右の車両を確認してください。運転者が必ず避けてくれると思って歩かないでください。'],
       ['그랩의 GrabCar는 예약 전에 앱에 확정 요금이 표시되어 흥정할 필요가 없습니다. GrabTaxi는 미터 요금이므로 차량 유형을 확인하세요.', 'GrabCar shows a fixed fare in the app before booking, so there is no need to haggle. GrabTaxi uses a meter; check which service you select.', 'GrabのGrabCarは予約前に確定運賃がアプリに表示され、値段交渉は不要です。GrabTaxiはメーター制なので、選んだ車種を確認しましょう。'],
-      ['떤선녓공항은 터미널별로 버스·호출 차량 승차 위치가 다르니, 도착 터미널의 최신 공항 안내 표지를 확인하세요.', 'Tan Son Nhat Airport has different bus and ride-hailing pickup points by terminal, so check the latest signs for your arrival terminal.', 'タンソンニャット空港ではターミナルごとにバスや配車サービスの乗り場が異なるため、到着ターミナルの最新案内を確認しましょう。'],
+      ['떤선녓공항에서 시내버스 109번을 타면 사이공 버스터미널 방면으로 갈 수 있습니다. 국제선·국내선 터미널의 승차 위치가 다를 수 있으니 도착 터미널의 표지와 최신 노선을 확인하세요.', 'Bus 109 connects Tan Son Nhat Airport with the Saigon Bus Station area. Pickup points may differ between the international and domestic terminals, so follow the signs and check the current route at your arrival terminal.', 'タンソンニャット空港からは市内バス109番でサイゴン・バスターミナル方面へ行けます。国際線・国内線ターミナルで乗り場が異なる場合があるため、到着ターミナルの案内表示と最新の路線を確認しましょう。'],
     ],
   },
   incheon: {
@@ -81,7 +81,7 @@ export const NOTES_2: Record<string, Compact> = {
       ['개항장 문화지구', 'Open Port Cultural District', '開港場文化地区', '옛 인천항 주변에 개항기 건축물과 근대 역사 전시 시설이 모여 있어 인천의 근대사를 살펴볼 수 있습니다.', 'Around the old port, historic buildings and museums trace Incheon’s modern history.', '旧港周辺に開港期の建築や近代史の展示施設が集まり、仁川の近代史に触れられます。'],
     ],
     t: [
-      ['출국 전 차이나타운을 들를 계획이라면 공항 왕복 시간과 환승 경로를 먼저 확인하세요. 차이나타운은 인천역 맞은편입니다.', 'If you plan to visit Chinatown before departure, check the round-trip travel time and transfer route to the airport first. Chinatown is across from Incheon Station.', '出国前にチャイナタウンへ立ち寄る場合は、空港との往復時間と乗り換え経路を先に確認しましょう。チャイナタウンは仁川駅の向かいです。'],
+      ['공항철도 일반열차로 계양역에 간 뒤 인천 시내 교통으로 환승할 수 있습니다. 송도 숙소는 공항에서 303-1번·330번 버스를 이용할 수 있고, 노선·승차 위치는 도착 터미널에서 확인하세요.', 'Take the Airport Railroad All-Stop Train to Gyeyang, then transfer to Incheon city transit. For accommodation in Songdo, buses 303-1 and 330 run from the airport; confirm the route and stop at your arrival terminal.', '空港鉄道の各駅停車で桂陽駅へ行き、仁川市内の交通機関に乗り換えられます。松島の宿泊先へは空港から303-1番・330番バスが利用できます。到着ターミナルで路線と乗り場を確認しましょう。'],
       ['월미도에서는 서해 바다 전망을, 영종도 해변에서는 석양을 즐겨보세요.', 'Enjoy West Sea views on Wolmido and the sunset at a Yeongjongdo beach.', '月尾島では西海の眺めを、永宗島の海辺では夕日を楽しんでみましょう。'],
     ],
   },

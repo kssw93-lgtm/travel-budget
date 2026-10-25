@@ -3,13 +3,11 @@ import { cityGuide, guidePath, type CityGuide as CityGuideData } from '../core/g
 import { formatMoney } from '../core/money';
 import type { City, PriceSample } from '../core/types';
 import { cities, dataDate, extras, foods, memos, samples } from '../data';
-import { CITY_GUIDES } from '../data/city-guides';
+import { CITY_GUIDES, type Localized } from '../data/city-guides';
 import { CHRISTMAS_MARKETS } from '../data/christmas-markets';
-import { GUIDE_SOURCES } from '../data/city-guide-sources';
 import { CITY_INTROS } from '../data/city-intros';
 import { CITY_SEASONS } from '../data/city-seasons';
 import { CITY_WHEN } from '../data/city-when';
-import { WHEN_SOURCES } from '../data/city-when-sources';
 import { COUNTRY_GUIDES } from '../data/country-guides';
 import { fmt, localName, useI18n, type Lang } from '../i18n';
 import { InternalLink, type Go } from './App';
@@ -177,33 +175,38 @@ function Highlights({ city }: { city: City }) {
     <section id="sights" className="card prose city-notes" aria-labelledby="guide-notes-title" data-testid="guide-notes">
       <h2 id="guide-notes-title">{fmt(g.highlightsTitle, { city: cityName(city, lang) })}</h2>
       <ol className="highlights">
-        {note.highlights.map((h, k) => (
+        {note.highlights.map((h) => (
           <li key={h.name.en}>
             <strong>{h.name[lang]}</strong> {h.text[lang]}
-            <SourceLink url={GUIDE_SOURCES[`${city.id}:h${k + 1}`]} />
           </li>
         ))}
       </ol>
-      {note.source && (
-        <p className="hint">
-          {g.notesSource} <ExternalLink href={note.source.url}>{note.source.name}</ExternalLink>
-        </p>
-      )}
     </section>
   );
 }
 
-/** 항목 끝에 붙는 작은 「근거」 링크(확인된 항목만) */
-function SourceLink({ url }: { url?: string }) {
-  const { t } = useI18n();
-  if (!url) return null;
+const AIRPORT_TIP_PATTERN = /airport|airports|공항|空港|aéroport|aeropuerto|flughafen|lufthavn|lentokenttä|luchthaven/i;
+
+function isAirportTip(tip: Localized) {
+  return AIRPORT_TIP_PATTERN.test(`${tip.ko} ${tip.en} ${tip.ja}`);
+}
+
+function airportTipIndex(cityId: string) {
+  return CITY_GUIDES[cityId]?.tips.findIndex(isAirportTip) ?? -1;
+}
+
+/** 공항에서 시내·숙소로 가는 기존 도시 팁을 별도 구역으로 보여 준다. */
+function AirportAccess({ city }: { city: City }) {
+  const { t, lang } = useI18n();
+  const note = CITY_GUIDES[city.id];
+  const index = airportTipIndex(city.id);
+  if (!note || index < 0) return null;
   return (
-    <>
-      {' '}
-      <small>
-        <ExternalLink href={url}>{t.cityGuide.sourceLink}</ExternalLink>
-      </small>
-    </>
+    <section id="airport" className="card prose airport-access" aria-labelledby="guide-airport-title" data-testid="guide-airport">
+      <h2 id="guide-airport-title">{t.cityGuide.airportAccessTitle}</h2>
+      <p>{note.tips[index]![lang]}</p>
+      <p className="hint">{t.cityGuide.airportAccessHint}</p>
+    </section>
   );
 }
 
@@ -220,13 +223,10 @@ function WhenToGo({ city }: { city: City }) {
       <h2 id="guide-when-title">{fmt(g.whenTitle, { city: cityName(city, lang) })}</h2>
       {w && (
         <dl className="areas">
-          {w.p.map((p, k) => (
+          {w.p.map((p) => (
             <div key={p[1]}>
               <dt>{p[i]}</dt>
-              <dd>
-                {p[3 + i]}
-                <SourceLink url={WHEN_SOURCES[`${city.id}:p${k + 1}`]} />
-              </dd>
+              <dd>{p[3 + i]}</dd>
             </div>
           ))}
         </dl>
@@ -234,20 +234,11 @@ function WhenToGo({ city }: { city: City }) {
       {season && (
         <p data-testid="guide-season">
           <strong>{g.whenWeather}</strong> {season[i]}
-          {season[3] && (
-            <>
-              {' '}
-              <small>
-                <ExternalLink href={season[3]}>{g.sourceLink}</ExternalLink>
-              </small>
-            </>
-          )}
         </p>
       )}
       {w?.x && (
         <p>
           <strong>{g.whenAvoid}</strong> {w.x[i]}
-          <SourceLink url={WHEN_SOURCES[`${city.id}:x`]} />
         </p>
       )}
       <p className="hint">{g.seasonHint}</p>
@@ -320,26 +311,18 @@ function TipsAndCautions({ city }: { city: City }) {
   const name = cityName(city, lang);
   const cname = countryName(city, lang);
   const i = L(lang);
-  const src = (url?: string) =>
-    url && (
-      <>
-        {' '}
-        <small>
-          <ExternalLink href={url}>{g.sourceLink}</ExternalLink>
-        </small>
-      </>
-    );
+  const airportIndex = airportTipIndex(city.id);
+  const localTips = note?.tips.map((tip, index) => ({ tip, index })).filter(({ index }) => index !== airportIndex) ?? [];
   return (
     <section id="tips" className="card prose city-tips" aria-labelledby="guide-tips-title" data-testid="guide-tips">
       <h2 id="guide-tips-title">{fmt(g.tipsSectionTitle, { city: name })}</h2>
-      {note && note.tips.length > 0 && (
+      {note && localTips.length > 0 && (
         <>
           <h3>{fmt(g.tipsTitle, { city: name })}</h3>
           <ul>
-            {note.tips.map((tip, k) => (
+            {localTips.map(({ tip }) => (
               <li key={tip.en}>
                 {tip[lang]}
-                <SourceLink url={GUIDE_SOURCES[`${city.id}:t${k + 1}`]} />
               </li>
             ))}
           </ul>
@@ -352,7 +335,6 @@ function TipsAndCautions({ city }: { city: City }) {
             {country.tips.map((x) => (
               <li key={x[1]}>
                 {x[i]}
-                {src(x[3])}
               </li>
             ))}
           </ul>
@@ -361,7 +343,6 @@ function TipsAndCautions({ city }: { city: City }) {
             {country.cautions.map((x) => (
               <li key={x[1]}>
                 {x[i]}
-                {src(x[3])}
               </li>
             ))}
           </ul>
@@ -475,6 +456,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
     ['christmas', g.tocXmas, !!CHRISTMAS_MARKETS[city.id]],
     ['sights', g.tocSights, !!CITY_GUIDES[city.id]?.highlights.length],
     ['stay', g.tocStay, !!intro?.s.length],
+    ['airport', g.tocAirportAccess, airportTipIndex(city.id) >= 0],
     ['transport', g.tocTransport, hasTransport],
     ['food', g.tocFood, foods.some((f) => f.cityId === city.id)],
     ['tips', g.tocTips, true],
@@ -520,6 +502,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
       <ChristmasMarket city={city} />
       <Highlights city={city} />
       <StayAreas city={city} />
+      <AirportAccess city={city} />
       <div id="transport">
         <PassTips guide={guide} />
       </div>

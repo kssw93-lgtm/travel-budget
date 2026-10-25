@@ -56,7 +56,7 @@ export const NOTES_4: Record<string, Compact> = {
     t: [
       ['타슈켄트에서 사마르칸트·부하라로 가는 아프로시욥 고속열차는 성수기에 표를 미리 예매하세요.', 'Book Afrosiyob high-speed train tickets from Tashkent to Samarkand and Bukhara in advance, especially in peak season.', 'タシュケントからサマルカンド・ブハラへ向かう高速列車アフラシアブの切符は、繁忙期には早めに予約しましょう。'],
       ['모스크에 들어갈 때는 어깨와 무릎을 가리고, 여성은 머리를 가릴 스카프를 챙기면 좋습니다.', 'Cover shoulders and knees at mosques; women may want a headscarf.', 'モスクでは肩と膝を隠し、女性はスカーフがあると安心です。'],
-      ['타슈켄트 공항은 국제선과 국내선 터미널이 분리되어 있어요. 도착 터미널을 먼저 확인한 뒤 해당 터미널의 시내 이동편을 찾아보세요.', 'Tashkent Airport has separate international and domestic terminals. Check your arrival terminal first, then look up city transport from that terminal.', 'タシュケント空港は国際線と国内線のターミナルが分かれています。到着ターミナルを確認してから、市内への交通手段を調べましょう。'],
+      ['국제선 공항은 76번 시내버스 종점이며, 국내선 공항은 77번 노선이 연결됩니다. 노선표에서 숙소와 가까운 정류장을 확인하고 도착 터미널에 맞는 버스를 타세요.', 'City bus 76 serves the international airport and bus 77 serves the domestic airport. Check the route map for a stop near your accommodation and use the bus for your arrival terminal.', '国際線空港には市内バス76番、国内線空港には77番が乗り入れます。路線図で宿泊先に近い停留所を確認し、到着ターミナルに合うバスを利用してください。'],
     ],
   },
   tbilisi: {
@@ -162,7 +162,7 @@ export const NOTES_4: Record<string, Compact> = {
 export const NOTES_EXTRA: Record<string, Compact> = {
   boracay: {
     h: [['디니위드 비치', 'Diniwid Beach', 'ディニウィッド・ビーチ', '화이트 비치 스테이션 1 너머의 작은 해변으로, 한적하게 바다를 바라보기 좋습니다.', 'A small, quieter beach beyond White Beach Station 1 where you can relax by the sea.', 'ホワイトビーチのステーション1の先にある小さなビーチで、静かに海を眺められます。']],
-    t: [['화이트 비치는 스테이션 1·2·3으로 나뉩니다. 스테이션 2에 식당과 상점이 집중되고, 3은 비교적 한적합니다.', 'White Beach is divided into Stations 1, 2 and 3. Restaurants and shops cluster around Station 2, while Station 3 is relatively quieter.', 'ホワイトビーチはステーション1・2・3に分かれます。飲食店や店はステーション2に集まり、3は比較的静かです。'], ['보라카이 숙소로 가려면 먼저 공항에서 카티클란 제티 포트로 이동한 뒤 배로 섬에 들어가고, 도착 항구에서 숙소까지 이어가야 합니다. 아클란주 공식 안내의 여행자 등록·항구 절차를 출발 전에 확인하세요.', 'To reach accommodation on Boracay, travel from the airport to Caticlan Jetty Port, take a boat to the island, then continue from the arrival port to your stay. Check Aklan Province’s official traveler registration and port procedures before departure.', 'ボラカイ島の宿泊先へは、空港からカティクラン・ジェティ・ポートへ移動し、船で島に渡ってから到着港より宿泊先へ向かいます。出発前にアクラン州公式案内の旅行者登録と港の手続きを確認してください。']],
+    t: [['화이트 비치는 스테이션 1·2·3으로 나뉩니다. 스테이션 2에 식당과 상점이 집중되고, 3은 비교적 한적합니다.', 'White Beach is divided into Stations 1, 2 and 3. Restaurants and shops cluster around Station 2, while Station 3 is relatively quieter.', 'ホワイトビーチはステーション1・2・3に分かれます。飲食店や店はステーション2に集まり、3は比較的静かです。'], ['카티클란공항에서는 버스·밴으로 제티 포트에 간 뒤 페리를 타고 보라카이섬에 들어갑니다. 도착 항구에서 숙소까지는 섬 안 교통이나 숙소 픽업을 이용하세요. 칼리보공항에 도착하면 먼저 버스·밴으로 제티 포트까지 이동해야 합니다.', 'From Caticlan Airport, take a bus or van to the jetty port, then a ferry to Boracay. Continue from the island port by local transport or your accommodation’s pickup. From Kalibo Airport, first travel to the jetty port by bus or van.', 'カティクラン空港からはバス・バンでジェティ港へ行き、フェリーでボラカイ島へ渡ります。島の港から宿泊先までは島内交通か宿の送迎を利用してください。カリボ空港に到着した場合は、まずバス・バンでジェティ港へ向かいます。']],
   },
   brussels: {
     h: [['오줌싸개 동상', 'Manneken Pis', '小便小僧', '그랑플라스 근처의 작은 청동상입니다. 특별한 날이나 행사에 맞춰 다양한 의상을 입습니다.', 'Manneken-Pis is a small bronze statue near Grand-Place. It wears different costumes for special dates and events.', '小便小僧はグランプラス近くにある小さな銅像です。記念日や行事に合わせてさまざまな衣装を着ます。']],

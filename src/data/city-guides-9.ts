@@ -508,7 +508,7 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['퀸즐랜드 대중교통(버스·트램)은 거리와 상관없이 1회 50센트입니다. 고카드나 비접촉 카드를 탈 때와 내릴 때 모두 찍으세요. 공항철도 에어트레인은 예외입니다.', 'Queensland buses and trams cost a flat 50 cents per journey; tap on and off with a go card or contactless card. Airtrain is the exception.', 'クイーンズランドの公共交通（バス・トラム）は距離に関係なく1回50セントです。ゴーカードか非接触カードで乗車時と降車時の両方タッチを。空港鉄道エアトレインは例外です。'],
-      ['공항에서 시내: 골드코스트 공항에서 777번 버스를 타고 브로드비치 사우스에서 트램(G:link)으로 갈아타면 서퍼스 파라다이스로 갑니다. 같은 50센트 요금이 적용됩니다.', 'Airport to city: bus 777 from Gold Coast Airport connects with the G:link tram at Broadbeach South for Surfers Paradise, on the same 50-cent fare.', '空港から市内へ：ゴールドコースト空港から777番バスに乗り、ブロードビーチ・サウスでトラム（G:link）に乗り換えるとサーファーズ・パラダイスへ行けます。同じ50セント運賃です。'],
+      ['공항에서 시내: 골드코스트 공항에서 777번 버스를 타고 브로드비치 사우스에서 트램(G:link)으로 갈아타면 서퍼스 파라다이스로 갑니다. 출발 전 공식 시간표와 정류장을 확인하세요.', 'Airport to city: bus 777 from Gold Coast Airport connects with the G:link tram at Broadbeach South for Surfers Paradise. Check the official timetable and stops before departure.', '空港から市内へ：ゴールドコースト空港から777番バスに乗り、ブロードビーチ・サウスでトラム（G:link）に乗り換えるとサーファーズ・パラダイスへ行けます。出発前に公式時刻表と停留所を確認しましょう。'],
     ],
   },
   brisbane: {
@@ -520,7 +520,7 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['버스·기차·페리·트램은 거리와 상관없이 1회 50센트입니다. 강을 오가는 시티캣 페리를 타면 저렴하게 시내를 둘러볼 수 있습니다.', 'Buses, trains, ferries and trams cost a flat 50 cents; the CityCat ferry makes a cheap river tour.', 'バス・列車・フェリー・トラムは距離に関係なく1回50セントです。川を行き来するシティキャット・フェリーで安く市内を巡れます。'],
-      ['공항에서 시내: 브리즈번 공항에서 에어트레인을 타면 시내 역까지 20분 안팎입니다. 에어트레인은 50센트 균일 요금이 적용되지 않습니다.', 'Airport to city: the Airtrain reaches the city stations in about 20 minutes; the 50-cent fare does not apply to Airtrain.', '空港から市内へ：ブリスベン空港からエアトレインで市内の駅まで20分ほどです。エアトレインには50セント運賃が適用されません。'],
+      ['공항에서 시내: 브리즈번 공항에서 에어트레인을 타면 시내 역까지 20분 안팎입니다. 숙소 위치에 맞춰 내릴 역을 확인하세요.', 'Airport to city: the Airtrain reaches city stations in about 20 minutes. Choose your stop based on your accommodation location.', '空港から市内へ：ブリスベン空港からエアトレインで市内の駅まで約20分です。宿泊先の場所に合わせて降車駅を確認しましょう。'],
     ],
   },
   'washington-dc': {
@@ -568,7 +568,7 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['식당 메뉴 가격에는 세금과 팁이 빠져 있습니다. 시카고의 식당 세금은 약 10.75%(판매세 10.25%+식당세 0.5%)이고, 팁은 18~20%가 일반적입니다.', 'Menu prices exclude tax and tip: restaurant tax in Chicago is about 10.75% (10.25% sales tax + 0.5% restaurant tax), and an 18–20% tip is usual.', '飲食店のメニュー価格には税とチップが含まれていません。シカゴの飲食税は約10.75%（売上税10.25%＋飲食店税0.5%）で、チップは18〜20%が一般的です。'],
-      ['공항에서 시내: 오헤어 공항에서 지하철 블루라인을 타면 루프까지 약 45분입니다. 오헤어역에서 탈 때만 요금이 5달러이고, 다른 역은 2.5달러입니다.', 'Airport to city: the Blue Line runs from O’Hare to the Loop in about 45 minutes; boarding at O’Hare costs $5, other stations $2.50.', '空港から市内へ：オヘア空港から地下鉄ブルーラインでループまで約45分です。オヘア駅から乗る場合のみ運賃が5ドルで、他の駅は2.5ドルです。'],
+      ['공항에서 시내: 오헤어 공항에서 지하철 블루라인을 타면 루프까지 약 45분입니다. 숙소와 가까운 역에서 내린 뒤 현지 교통이나 도보로 이동하세요.', 'Airport to city: the Blue Line runs from O’Hare to the Loop in about 45 minutes. Get off at a stop near your accommodation and continue by local transport or on foot.', '空港から市内へ：オヘア空港から地下鉄ブルーラインでループまで約45分です。宿泊先に近い駅で降り、現地交通または徒歩で移動しましょう。'],
     ],
   },
   montreal: {
@@ -579,7 +579,7 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['식당 메뉴 가격에는 세금(GST 5%+QST 9.975%)과 팁이 빠져 있습니다. 팁은 세전 금액의 15% 이상이 일반적입니다.', 'Menu prices exclude tax (5% GST + 9.975% QST) and tip; at least 15% of the pre-tax amount is usual.', '飲食店のメニュー価格には税（GST5%＋QST9.975%）とチップが含まれていません。チップは税抜き金額の15%以上が一般的です。'],
-      ['공항에서 시내: 747번 공항버스는 24시간 운행하며, 요금 11.25달러로 24시간 동안 버스와 지하철을 탈 수 있습니다. 버스에서 낼 때는 동전으로 정확한 금액만 받습니다.', 'Airport to city: the 24-hour 747 bus costs $11.25 and doubles as a 24-hour bus and métro pass; on board it takes exact change in coins only.', '空港から市内へ：24時間運行の747番空港バスは11.25ドルで、24時間バスと地下鉄に乗れます。車内で払う場合は硬貨でちょうどの金額のみです。'],
+      ['공항에서 시내: 747번 공항버스는 24시간 운행하며, 시내 주요 지점과 버스터미널·지하철역에 정차합니다. 숙소와 가까운 정류장을 확인하세요.', 'Airport to city: the 24-hour 747 bus stops at major city locations, the bus terminal and métro stations. Check which stop is closest to your accommodation.', '空港から市内へ：747番空港バスは24時間運行し、市内の主要地点やバスターミナル、地下鉄駅に停車します。宿泊先に近い停留所を確認しましょう。'],
     ],
   },
   seattle: {
@@ -590,7 +590,7 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['식당 메뉴 가격에는 세금(시애틀 10.55%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude tax (10.55% in Seattle) and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（シアトル10.55%）とチップが含まれていません。チップは18〜20%が一般的です。'],
-      ['공항에서 시내: 시택 공항에서 경전철 1호선(링크)을 타면 다운타운까지 약 40분이며, 요금은 거리와 관계없이 3달러입니다.', 'Airport to city: Link light rail Line 1 runs from Sea-Tac to downtown in about 40 minutes for a flat $3.', '空港から市内へ：シータック空港からライトレール1号線（リンク）でダウンタウンまで約40分、運賃は距離に関係なく3ドルです。'],
+      ['공항에서 시내: 시택 공항에서 경전철 1호선(링크)을 타면 다운타운까지 약 40분입니다. 숙소와 가까운 역을 확인하고, 도착 후 도보나 시내 교통으로 이동하세요.', 'Airport to city: Link light rail Line 1 runs from Sea-Tac to downtown in about 40 minutes. Check the station nearest your accommodation, then continue on foot or by local transport.', '空港から市内へ：シータック空港からライトレール1号線（リンク）でダウンタウンまで約40分です。宿泊先に近い駅を確認し、到着後は徒歩または市内交通で移動しましょう。'],
     ],
   },
   perth: {
@@ -661,7 +661,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['스카우스', 'Scouse', 'スカウス', '뱃사람 음식 ‘롭스카우스’에서 온 리버풀 대표 스튜로, 붉은 비트 절임과 빵을 곁들여 먹습니다.', 'Liverpool’s signature stew, from the sailors’ “lobscouse”, served with pickled beetroot and bread.', '船乗りの料理「ロブスカウス」に由来するリバプールの名物シチューで、赤かぶの酢漬けとパンを添えて食べます。'],
     ],
     t: [
-      ['시내버스는 어느 회사 버스든 1회 2파운드 상한 요금이 적용됩니다. 공항에서 시내까지는 500번 버스가 약 30분 간격으로 운행합니다.', 'City buses are capped at £2 a single on any operator; from the airport, bus 500 runs to the centre about every 30 minutes.', '市内バスはどの会社のバスでも1回2ポンドの上限運賃が適用されます。空港から市内へは500番バスが約30分間隔で運行しています。'],
+      ['공항에서 시내: 공항버스 500번이 도심으로 운행하며, 숙소와 가까운 정류장을 확인해 내린 뒤 도보나 시내 교통으로 이동하세요.', 'Airport to city: airport bus 500 runs to the centre. Check the stop nearest your accommodation, then continue on foot or by local transport.', '空港から市内へ：空港バス500番が中心部へ運行しています。宿泊先に近い停留所を確認し、降車後は徒歩または市内交通で移動しましょう。'],
     ],
   },
   heidelberg: {
@@ -682,7 +682,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['바스크 전통 요리', 'Basque classics', 'バスクの伝統料理', '바칼라오 알 필필(대구 요리)과 오징어 먹물 요리 등 바스크 전통 요리를 맛볼 수 있습니다.', 'Taste bacalao al pil-pil, squid in its ink and other Basque classics.', 'バカラオ・アル・ピルピル（タラ料理）やイカの墨煮などバスクの伝統料理が味わえます。'],
     ],
     t: [
-      ['시내버스(빌보부스) 1회권은 1.70유로이며, 교통카드 바릭(Barik)을 쓰면 훨씬 싸고 45분 안에 무료 환승이 됩니다. 공항에서는 비스카이부스 A3247번이 시내까지 갑니다.', 'A Bilbobus single costs €1.70; a Barik card is much cheaper and gives free transfers within 45 minutes. Bizkaibus A3247 links the airport to the city.', '市内バス（ビルボブス）の1回券は1.70ユーロで、交通カード「バリック（Barik）」を使うとずっと安く、45分以内の乗り換えが無料です。空港からはビスカイブスA3247番で市内へ行けます。'],
+      ['공항에서 시내: 비스카이부스 A3247번이 공항과 시내를 잇습니다. 숙소와 가까운 정류장을 확인하고, 도착 후 시내버스나 도보로 이동하세요.', 'Airport to city: Bizkaibus A3247 connects the airport with the city. Check the stop nearest your accommodation, then continue by city bus or on foot.', '空港から市内へ：ビスカイブスA3247番が空港と市内を結びます。宿泊先に近い停留所を確認し、到着後は市内バスまたは徒歩で移動しましょう。'],
     ],
   },
   toulouse: {
@@ -765,7 +765,7 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['식당 메뉴 가격에는 세금(10%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude 10% sales tax and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（10%）とチップが含まれていません。チップは18〜20%が一般的です。'],
-      ['공항에서 시내: RTA 202번 공항 급행버스를 타면 다운타운까지 가며, 요금은 일반 버스와 같은 1.25달러입니다.', 'Airport to city: RTA Airport Express route 202 runs downtown for the regular $1.25 fare.', '空港から市内へ：RTAの202番空港急行バスでダウンタウンまで行け、運賃は通常のバスと同じ1.25ドルです。'],
+      ['공항에서 시내: RTA 202번 공항 급행버스를 타면 다운타운까지 갈 수 있습니다. 숙소에서 가까운 정류장을 확인한 뒤 시내 교통이나 도보로 이동하세요.', 'Airport to city: RTA Airport Express route 202 runs downtown. Check the stop nearest your accommodation, then continue by local transport or on foot.', '空港から市内へ：RTAの202番空港急行バスでダウンタウンへ行けます。宿泊先に近い停留所を確認し、その後は市内交通または徒歩で移動しましょう。'],
     ],
   },
   ottawa: {
@@ -798,7 +798,7 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['오리건주에는 판매세가 없어 식당 메뉴 가격에 세금이 붙지 않습니다. 다만 팁 18~20%는 따로 냅니다.', 'Oregon has no sales tax, so menus carry no tax — but an 18–20% tip is still expected.', 'オレゴン州には売上税がないため、飲食店のメニュー価格に税はかかりません。ただしチップ18〜20%は別に払います。'],
-      ['공항에서 시내: 포틀랜드 공항에서 MAX 레드 라인을 타면 다운타운까지 갈 수 있으며, 2시간 반 동안 환승할 수 있는 일반 요금 2.80달러가 적용됩니다. 신용카드 탭으로 바로 탈 수 있습니다.', 'Airport to city: the MAX Red Line runs from PDX to downtown on the standard $2.80 fare, valid 2½ hours; tap a contactless card to ride.', '空港から市内へ：ポートランド空港からMAXレッドラインでダウンタウンまで行け、2時間半乗り継ぎできる通常運賃2.80ドルが適用されます。クレジットカードのタッチで乗れます。'],
+      ['공항에서 시내: 포틀랜드 공항에서 MAX 레드 라인을 타면 다운타운까지 갈 수 있습니다. 숙소와 가까운 역에서 내리고, 도착 시 운행 정보를 확인하세요.', 'Airport to city: the MAX Red Line runs from PDX to downtown. Get off at a stop near your accommodation and check current service information on arrival.', '空港から市内へ：ポートランド空港からMAXレッドラインでダウンタウンへ行けます。宿泊先に近い駅で降り、到着時に運行情報を確認しましょう。'],
     ],
   },
   victoria: {
@@ -820,7 +820,7 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['식당 메뉴 가격에는 세금(8.25%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude 8.25% sales tax and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（8.25%）とチップが含まれていません。チップは18〜20%が一般的です。'],
-      ['공항에서 시내: 오스틴 공항에서 캡메트로 20번 버스를 타면 다운타운까지 1.25달러이며, 카드 탭으로 내면 하루 2회 요금까지만 청구됩니다. 요금은 2027년 1월 10일에 오를 예정입니다.', 'Airport to city: CapMetro route 20 runs downtown for $1.25, with tap-to-pay capped at two rides a day; fares rise on 10 January 2027.', '空港から市内へ：オースティン空港からキャップメトロ20番バスでダウンタウンまで1.25ドルで、カードのタッチ決済なら1日2回分までしか請求されません。運賃は2027年1月10日に値上げ予定です。'],
+      ['공항에서 시내: 오스틴 공항에서 캡메트로 20번 버스를 타면 다운타운까지 갈 수 있습니다. 숙소와 가까운 정류장에서 내리고, 도착 당일 시간표를 확인하세요.', 'Airport to city: CapMetro route 20 runs from Austin Airport to downtown. Get off at a stop near your accommodation and check the timetable for your arrival day.', '空港から市内へ：オースティン空港からキャップメトロ20番バスでダウンタウンへ行けます。宿泊先に近い停留所で降り、到着日の時刻表を確認しましょう。'],
     ],
   },
   hobart: {
@@ -841,7 +841,7 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['식당 메뉴 가격에는 세금(9.75%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude 9.75% sales tax and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（9.75%）とチップが含まれていません。チップは18〜20%が一般的です。'],
-      ['공항에서 시내: 위고(WeGo) 18번 버스를 타면 다운타운 환승센터까지 가며, 요금은 2달러(2시간 유효)입니다. 주말 운행 시간은 시간표를 확인하세요.', 'Airport to city: WeGo route 18 runs to the downtown transit centre for $2 (valid 2 hours); check weekend times.', '空港から市内へ：WeGoの18番バスでダウンタウンの乗り換えセンターまで行け、運賃は2ドル（2時間有効）です。週末の運行時間は時刻表で確認しましょう。'],
+      ['공항에서 시내: 위고(WeGo) 18번 버스를 타면 다운타운 환승센터까지 갈 수 있습니다. 주말 운행 여부와 숙소에서 가까운 정류장을 시간표에서 확인하세요.', 'Airport to city: WeGo route 18 runs to the downtown transit centre. Check the timetable for weekend service and the stop nearest your accommodation.', '空港から市内へ：WeGoの18番バスでダウンタウンの乗り換えセンターまで行けます。週末の運行と宿泊先に近い停留所を時刻表で確認しましょう。'],
     ],
   },
   edmonton: {
@@ -1008,7 +1008,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['코크 시티 감옥', 'Cork City Gaol', 'コーク・シティ監獄', '19세기 감옥을 그대로 보존한 박물관으로, 3세 미만은 무료입니다.', 'A preserved 19th-century prison museum; under-threes free.', '19世紀の監獄をそのまま保存した博物館で、3歳未満は無料です。'],
     ],
     t: [
-      ['공항에서 시내: 버스 에런 225·226번이 30분 간격으로 공항과 파넬 플레이스 버스터미널·켄트역을 잇습니다. 택시는 시내까지 약 20유로입니다.', 'Airport to city: Bus Éireann 225 and 226 run every 30 minutes to Parnell Place and Kent Station; a taxi is about €20.', '空港から市内へ：バス・エアラン225・226番が30分間隔で空港とパーネル・プレイス・バスターミナル、ケント駅を結んでいます。タクシーは市内まで約20ユーロです。'],
+      ['공항에서 시내: 버스 에런 225·226번이 공항과 파넬 플레이스 버스터미널·켄트역을 잇습니다. 숙소 위치에 맞춰 가까운 정류장에서 내리고, 출발 전 시간표를 확인하세요.', 'Airport to city: Bus Éireann 225 and 226 connect the airport with Parnell Place and Kent Station. Choose the stop nearest your accommodation and check the timetable before departure.', '空港から市内へ：バス・エアラン225・226番が空港とパーネル・プレイス・バスターミナル、ケント駅を結びます。宿泊先に近い停留所を選び、出発前に時刻表を確認しましょう。'],
     ],
   },
   galway: {

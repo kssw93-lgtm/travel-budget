@@ -373,20 +373,18 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(page.getByTestId('guide-others')).toHaveCount(0);
   });
 
-  test('크리스마스 마켓 도시는 가이드에 마켓 칸이 있고, 가이드 목록 맨 위에 모여 있다', async ({ page }) => {
+  test('계절 행사 정보는 도시 가이드의 여행 시기 안내에 포함하고 별도 묶음은 두지 않는다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/guide/dresden?lang=ko');
-    const x = page.getByTestId('guide-christmas');
-    await expect(x).toContainText('드레스덴 크리스마스 마켓');
-    await expect(x).toContainText('슈트리첼마르크트');
-    await expect(page.getByTestId('guide-toc').getByRole('link', { name: '크리스마스 마켓' })).toHaveAttribute('href', '#christmas');
+    const when = page.getByTestId('guide-when');
+    await expect(when).toContainText('슈트리첼마르크트');
+    await expect(when).toContainText('2026년 11월 25일~12월 24일');
+    await expect(page.getByTestId('guide-toc').getByRole('link', { name: '언제 갈까' })).toHaveAttribute('href', '#when');
     await page.goto('/guide/bangkok?lang=ko');
-    await expect(page.getByTestId('guide-christmas')).toHaveCount(0);
+    await expect(page.getByTestId('guide-when')).toBeVisible();
     await page.goto('/guides?lang=ko');
-    const xc = page.getByTestId('guide-xmas-cities');
-    await expect(xc.locator('[data-xmas-city="dresden"]')).toBeHidden();
-    await xc.locator('summary').click();
-    await expect(xc.locator('[data-xmas-city="dresden"]')).toBeVisible();
+    await expect(page.getByTestId('guide-xmas-cities')).toHaveCount(0);
+    await expect(page.getByRole('link', { name: /크리스마스 마켓 일정/ })).toHaveCount(0);
   });
 
   test('도시별 하루 경비 비교: 싼 순 표, 도시·나라로 찾기, 도시 가이드로 이동', async ({ page }) => {
@@ -413,31 +411,6 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await ex.getByRole('link', { name: '같은 조건으로 계산기 열기' }).click();
     await expect(page).toHaveURL(/city=osaka/);
     await expect(page.getByTestId('total')).toBeVisible();
-  });
-
-  test('크리스마스 마켓 일정 모음 페이지: 나라별 도시·기간·공식 안내, 가이드 목록에서 들어간다', async ({ page }) => {
-    const listingHtml = await (await page.request.get('/christmas-markets.html')).text();
-    const listingJsonLd = listingHtml.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1];
-    expect(listingJsonLd).toBeTruthy();
-    expect(listingJsonLd).toContain('CollectionPage');
-    expect(listingJsonLd).not.toContain('"@type":"Event"');
-    const guideHtml = await (await page.request.get('/guide/quebec-city.html')).text();
-    const guideJsonLd = guideHtml.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1];
-    expect(guideJsonLd).toBeTruthy();
-    expect(guideJsonLd).not.toContain('"@type":"Event"');
-    await mockRates(page);
-    await page.goto('/guides?lang=ko');
-    await page.getByTestId('guide-xmas-cities').locator('summary').click();
-    await page.getByTestId('guide-xmas-cities').getByRole('link', { name: '2026 크리스마스 마켓 일정 한눈에 보기' }).click();
-    await expect(page).toHaveURL(/\/christmas-markets\?lang=ko/);
-    const x = page.getByTestId('xmas-page');
-    await expect(x.getByRole('heading', { level: 1 })).toHaveText('2026 유럽 크리스마스 마켓 일정 총정리');
-    const dresden = x.locator('[data-xmas-row="dresden"]');
-    await expect(dresden).toContainText('2026년 11월 25일~12월 24일');
-    await expect(dresden.getByRole('link', { name: '공식 안내' })).toHaveAttribute('href', /^https:\/\//);
-    await dresden.getByRole('link', { name: '드레스덴 여행 가이드·경비 보기' }).click();
-    await expect(page.getByTestId('guide-christmas')).toBeVisible();
-    await expect(page).toHaveTitle(/드레스덴/);
   });
 
   test('가이드 목록은 나라별로 묶이고 도시·나라 이름으로 검색된다', async ({ page }) => {

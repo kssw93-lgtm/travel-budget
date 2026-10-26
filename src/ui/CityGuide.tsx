@@ -4,7 +4,7 @@ import { formatMoney } from '../core/money';
 import type { City, PriceSample } from '../core/types';
 import { cities, dataDate, extras, foods, memos, samples } from '../data';
 import { CITY_GUIDES, type Localized } from '../data/city-guides';
-import { CHRISTMAS_MARKETS } from '../data/christmas-markets';
+import { CITY_SEASON_EVENTS } from '../data/city-season-events';
 import { CITY_INTROS } from '../data/city-intros';
 import { CITY_SEASONS } from '../data/city-seasons';
 import { CITY_WHEN } from '../data/city-when';
@@ -36,7 +36,6 @@ export function GuideIndex({ go }: { go: Go }) {
   const { t, lang } = useI18n();
   const g = t.cityGuide;
   const [query, setQuery] = useState('');
-  const xmas = cities.filter((c) => CHRISTMAS_MARKETS[c.id]).sort((a, b) => cityName(a, lang).localeCompare(cityName(b, lang), lang));
   const groups = cityGroups(
     cities.filter((c) => matchCity(c, query)),
     lang,
@@ -49,39 +48,11 @@ export function GuideIndex({ go }: { go: Go }) {
         <InternalLink to={`/compare?lang=${lang}`} go={go}>
           {t.compare.title}
         </InternalLink>
-        {' · '}
-        <InternalLink to={`/christmas-markets?lang=${lang}`} go={go}>
-          {g.xmasPageTitle}
-        </InternalLink>
       </p>
       <div className="field guide-search">
         <label htmlFor="guide-search">{g.searchLabel}</label>
         <input id="guide-search" type="search" value={query} placeholder={g.searchPlaceholder} onChange={(e) => setQuery(e.target.value)} />
       </div>
-      {!query && xmas.length > 0 && (
-        <details className="guide-group xmas-cities" data-testid="guide-xmas-cities">
-          <summary>
-            <h2>
-              {g.xmasIndexTitle} ({xmas.length})
-            </h2>
-          </summary>
-          <p className="hint">
-            {g.xmasIndexLead}{' '}
-            <InternalLink to={`/christmas-markets?lang=${lang}`} go={go}>
-              {g.xmasPageLink}
-            </InternalLink>
-          </p>
-          <ul className="guide-index">
-            {xmas.map((c) => (
-              <li key={c.id} data-xmas-city={c.id}>
-                <InternalLink to={`${guidePath(c.id)}?lang=${lang}#christmas`} go={go}>
-                  {fmt(g.xmasTitle, { city: cityName(c, lang) })}
-                </InternalLink>
-              </li>
-            ))}
-          </ul>
-        </details>
-      )}
       {groups.length === 0 && (
         <p className="muted" role="status">
           {g.searchEmpty}
@@ -101,56 +72,6 @@ export function GuideIndex({ go }: { go: Go }) {
           </ul>
         </section>
       ))}
-    </article>
-  );
-}
-
-/** 크리스마스 마켓 일정 모음(/christmas-markets): 나라별로 도시·마켓 이름·기간·장소와 공식 안내 */
-export function ChristmasMarketsPage({ go }: { go: Go }) {
-  const { t, lang } = useI18n();
-  const g = t.cityGuide;
-  const i = L(lang);
-  const groups = cityGroups(
-    cities.filter((c) => CHRISTMAS_MARKETS[c.id]),
-    lang,
-  );
-  return (
-    <article className="card prose" data-testid="xmas-page">
-      <h1 tabIndex={-1}>{g.xmasPageTitle}</h1>
-      <p className="lead">{g.xmasPageLead}</p>
-      {groups.map((grp) => (
-        <section key={grp.country} className="guide-group">
-          <h2>{grp.country}</h2>
-          {grp.items.map((c) => {
-            const m = CHRISTMAS_MARKETS[c.id]!;
-            return (
-              <div key={c.id} className="xmas-row" data-xmas-row={c.id}>
-                <h3>
-                  {cityName(c, lang)} · {m.name[i]}
-                </h3>
-                <dl className="areas">
-                  <div>
-                    <dt>{g.xmasPeriod}</dt>
-                    <dd>{m.period[i]}</dd>
-                  </div>
-                  <div>
-                    <dt>{g.xmasPlace}</dt>
-                    <dd>{m.place[i]}</dd>
-                  </div>
-                </dl>
-                <p>
-                  <InternalLink to={`${guidePath(c.id)}?lang=${lang}#christmas`} go={go}>
-                    {fmt(g.xmasPageGuide, { city: cityName(c, lang) })}
-                  </InternalLink>
-                  {' · '}
-                  <ExternalLink href={m.url}>{g.xmasPageOfficial}</ExternalLink>
-                </p>
-              </div>
-            );
-          })}
-        </section>
-      ))}
-      <p className="hint">{g.xmasPageNote}</p>
     </article>
   );
 }
@@ -216,19 +137,40 @@ function WhenToGo({ city }: { city: City }) {
   const g = t.cityGuide;
   const w = CITY_WHEN[city.id];
   const season = CITY_SEASONS[city.id];
-  if (!w && !season) return null;
+  const event = CITY_SEASON_EVENTS[city.id];
+  if (!w && !season && !event) return null;
   const i = L(lang);
+  const marketPeriod = event?.period[i];
+  const marketDetails = event && (
+    <>
+      <strong>{event.name[i]}</strong> · {event.place[i]} · {event.note[i]}{' '}
+      <ExternalLink href={event.url}>{g.seasonOfficialSchedule}</ExternalLink>
+    </>
+  );
+  const marketPattern = /christmas market/i;
+  const eventIndex = w?.p.findIndex((p) => marketPattern.test(p.join(' '))) ?? -1;
   return (
     <section id="when" className="card prose when-to-go" aria-labelledby="guide-when-title" data-testid="guide-when">
       <h2 id="guide-when-title">{fmt(g.whenTitle, { city: cityName(city, lang) })}</h2>
       {w && (
         <dl className="areas">
-          {w.p.map((p) => (
+          {w.p.map((p, n) => event && n === eventIndex && marketPeriod ? (
+            <div key={p[1]} data-season-event={city.id}>
+              <dt>{marketPeriod}</dt>
+              <dd>{marketDetails}</dd>
+            </div>
+          ) : (
             <div key={p[1]}>
               <dt>{p[i]}</dt>
               <dd>{p[3 + i]}</dd>
             </div>
           ))}
+          {event && eventIndex < 0 && marketPeriod && (
+            <div data-season-event={city.id}>
+              <dt>{marketPeriod}</dt>
+              <dd>{marketDetails}</dd>
+            </div>
+          )}
         </dl>
       )}
       {season && (
@@ -242,39 +184,6 @@ function WhenToGo({ city }: { city: City }) {
         </p>
       )}
       <p className="hint">{g.seasonHint}</p>
-    </section>
-  );
-}
-
-/** 겨울 크리스마스 마켓(데이터가 있는 도시만) */
-function ChristmasMarket({ city }: { city: City }) {
-  const { t, lang } = useI18n();
-  const g = t.cityGuide;
-  const m = CHRISTMAS_MARKETS[city.id];
-  if (!m) return null;
-  const i = L(lang);
-  return (
-    <section id="christmas" className="card prose xmas" aria-labelledby="guide-xmas-title" data-testid="guide-christmas">
-      <h2 id="guide-xmas-title">{fmt(g.xmasTitle, { city: cityName(city, lang) })}</h2>
-      <p>
-        <strong>{m.name[i]}</strong> {m.note[i]}
-      </p>
-      <dl className="areas">
-        <div>
-          <dt>{g.xmasPlace}</dt>
-          <dd>{m.place[i]}</dd>
-        </div>
-        <div>
-          <dt>{g.xmasPeriod}</dt>
-          <dd>{m.period[i]}</dd>
-        </div>
-      </dl>
-      <p className="hint">
-        {g.xmasCheck} <ExternalLink href={m.url}>{new URL(m.url).hostname.replace(/^www\./, '')}</ExternalLink>
-      </p>
-      <p>
-        <a href={`/christmas-markets?lang=${lang}`}>{g.xmasPageLink}</a>
-      </p>
     </section>
   );
 }
@@ -452,8 +361,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
   const ctaText = days ? fmt(g.ctaNights, { city: name, n: days.nights, d: days.nights + 1 }) : fmt(g.cta, { city: name });
   const hasTransport = !!guide.prices.find((p) => p.basket === 'ride') && guide.passTips.length > 0;
   const toc: Array<[string, string, boolean]> = [
-    ['when', g.tocWhen, !!CITY_WHEN[city.id] || !!CITY_SEASONS[city.id]],
-    ['christmas', g.tocXmas, !!CHRISTMAS_MARKETS[city.id]],
+    ['when', g.tocWhen, !!CITY_WHEN[city.id] || !!CITY_SEASONS[city.id] || !!CITY_SEASON_EVENTS[city.id]],
     ['sights', g.tocSights, !!CITY_GUIDES[city.id]?.highlights.length],
     ['stay', g.tocStay, !!intro?.s.length],
     ['airport', g.tocAirportAccess, airportTipIndex(city.id) >= 0],
@@ -499,7 +407,6 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
       </section>
 
       <WhenToGo city={city} />
-      <ChristmasMarket city={city} />
       <Highlights city={city} />
       <StayAreas city={city} />
       <AirportAccess city={city} />

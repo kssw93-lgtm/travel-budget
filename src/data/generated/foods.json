@@ -5509,6 +5509,12 @@
       "en": "Bread dipped in melted cheese, Switzerland’s classic",
       "ja": "溶かしたチーズにパンをつけて食べるスイスの代表料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Swiss_cheese_fondue.JPG/960px-Swiss_cheese_fondue.JPG",
+      "author": "Brücke-Osteuropa",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Swiss_cheese_fondue.JPG"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -6194,6 +6200,12 @@
       "ko": "청어·훈제연어 등을 양파·피클과 함께 빵에 끼운 함부르크 대표 간식",
       "en": "Bread roll filled with herring or smoked salmon, onions and pickles",
       "ja": "ニシンやスモークサーモンを玉ねぎ・ピクルスとパンに挟んだハンブルク名物の軽食"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Fischbr%C3%B6tchen_mit_Bismarckhering.jpg/960px-Fischbr%C3%B6tchen_mit_Bismarckhering.jpg",
+      "author": "Benreis",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Fischbr%C3%B6tchen_mit_Bismarckhering.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],

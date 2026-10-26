@@ -28,7 +28,6 @@ const pages = [
   ['개인정보처리방침(영어)', '/privacy?lang=en'],
   ['도시별 경비 비교(일본어)', '/compare?lang=ja'],
   ['계산 방법', '/how-it-works?lang=ko'],
-  ['크리스마스 마켓 일정(영어)', '/christmas-markets?lang=en'],
 ] as const;
 
 for (const [name, url] of pages) {

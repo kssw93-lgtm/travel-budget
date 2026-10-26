@@ -1,7 +1,7 @@
 /** 언제 가면 좋을까 3 — 유럽·튀르키예 (형식은 city-when-1.ts) */
 import type { When } from './city-when-1';
 
-const XMAS: readonly [string, string, string, string, string, string] = ['11월 말~12월 크리스마스 마켓', 'Late November–December (Christmas market)', '11月末〜12月（クリスマスマーケット）', '광장에 크리스마스 마켓이 열리고 도시가 조명으로 빛나는, 겨울 여행의 이유가 되는 시기입니다(아래 「크리스마스 마켓」 칸 참고).', 'The square fills with a Christmas market and the city glows with lights — the reason to come in winter (see the Christmas market section).', '広場にクリスマスマーケットが開かれ街が光に包まれる、冬に訪れる理由になる時期です（「クリスマスマーケット」欄参照）。'];
+const XMAS: readonly [string, string, string, string, string, string] = ['11월 말~12월 크리스마스 마켓', 'Late November–December (Christmas market)', '11月末〜12月（クリスマスマーケット）', '광장과 구시가지에 크리스마스 마켓과 겨울 조명이 펼쳐집니다.', 'Christmas markets and winter lights fill the squares and old town.', '広場や旧市街にクリスマスマーケットと冬のイルミネーションが広がります。'];
 
 export const WHEN_3: Record<string, When> = {
   paris: {
@@ -64,7 +64,7 @@ export const WHEN_3: Record<string, When> = {
   vienna: {
     p: [
       ['1~2월 무도회 시즌', 'January–February (ball season)', '1〜2月（舞踏会シーズン）', '오페라 무도회 등 수백 개의 무도회가 열리는 빈 고유의 겨울 문화입니다.', 'Hundreds of balls, including the Opera Ball — a uniquely Viennese winter tradition.', 'オペラ座舞踏会など数百の舞踏会が開かれる、ウィーン独特の冬の文化です。'],
-      ['11월 중순~12월 크리스마스 마켓', 'Mid-November–December (Christmas markets)', '11月中旬〜12月（クリスマスマーケット）', '시청 광장을 비롯한 여러 광장에 크리스마스 마켓과 조명이 펼쳐집니다(아래 「크리스마스 마켓」 칸 참고).', 'Christmas markets and lights fill Rathausplatz and several other squares (see the Christmas market section).', '市庁舎広場をはじめ各地の広場にクリスマスマーケットと光の装飾が広がります（「クリスマスマーケット」欄参照）。'],
+      ['11월 중순~12월 크리스마스 마켓', 'Mid-November–December (Christmas markets)', '11月中旬〜12月（クリスマスマーケット）', '시청 광장을 비롯한 여러 광장에 크리스마스 마켓과 겨울 조명이 펼쳐집니다.', 'Christmas markets and winter lights fill Rathausplatz and several other squares.', '市庁舎広場をはじめ各地の広場にクリスマスマーケットと冬のイルミネーションが広がります。'],
       ['4~6월·9~10월', 'April–June and September–October', '4〜6月・9〜10月', '궁전 정원과 와인 선술집(호이리거)을 즐기기 좋습니다.', 'Lovely for palace gardens and wine taverns (Heuriger).', '宮殿の庭園やワイン酒場（ホイリゲ）を楽しむのに最適です。'],
     ],
   },
@@ -202,7 +202,7 @@ export const WHEN_3: Record<string, When> = {
   tallinn: { p: [XMAS, ['6~8월', 'June–August', '6〜8月', '낮이 길고 구시가지 축제와 야외 테라스가 활기찹니다.', 'Long days, old-town festivals and lively terraces.', '日が長く、旧市街の祭りや屋外テラスがにぎわいます。']] },
   frankfurt: { p: [XMAS, ['5~9월', 'May–September', '5〜9月', '마인강 변을 산책하고 야외에서 프랑크푸르트의 사과 와인을 즐겨 보세요.', 'In warmer months, walk along the Main River and try Frankfurt apple wine outdoors.', '暖かい季節はマイン川沿いを散策し、屋外でフランクフルトのアップルワインを楽しめます。']] },
   berlin: { p: [XMAS, ['5~9월', 'May–September', '5〜9月', '베를린의 공원과 슈프레강 변 야외 공간을 즐기기 좋습니다.', 'In warmer months, enjoy Berlin\'s parks and outdoor spots along the River Spree.', '暖かい季節はベルリンの公園やシュプレー川沿いの屋外スポットを楽しめます。']] },
-  zurich: { p: [['11월 말~12월 크리스마스 마켓', 'Late November–December (Christmas markets)', '11月末〜12月（クリスマスマーケット）', '중앙역 홀 안의 실내 마켓을 비롯해 시내 곳곳에 크리스마스 마켓이 열리고 도시가 조명으로 빛납니다(아래 「크리스마스 마켓」 칸 참고).', 'An indoor market fills the main station hall and more markets and lights spread through town (see the Christmas market section).', '中央駅構内の屋内マーケットをはじめ市内各所にクリスマスマーケットが開かれ、街が光に包まれます（「クリスマスマーケット」欄参照）。'], ['6~9월', 'June–September', '6〜9月', '취리히 호수와 강변 수영장을 즐기고, 날씨와 교통편을 확인해 근교 산악 여행을 계획하세요.', 'Swim at Lake Zurich or the riverside pools, and check weather and transport before a mountain outing.', '夏はチューリヒ湖や川沿いの水浴場を楽しめます。近郊の山へ行く際は天候と交通を確認しましょう。']] },
+  zurich: { p: [['11월 말~12월 크리스마스 마켓', 'Late November–December (Christmas markets)', '11月末〜12月（クリスマスマーケット）', '중앙역 홀 안의 실내 마켓을 비롯해 시내 곳곳에 크리스마스 마켓과 겨울 조명이 열립니다.', 'An indoor market fills the main station hall, with more markets and winter lights across town.', '中央駅構内の屋内マーケットをはじめ市内各所にクリスマスマーケットと冬のイルミネーションが広がります。'], ['6~9월', 'June–September', '6〜9月', '취리히 호수와 강변 수영장을 즐기고, 날씨와 교통편을 확인해 근교 산악 여행을 계획하세요.', 'Swim at Lake Zurich or the riverside pools, and check weather and transport before a mountain outing.', '夏はチューリヒ湖や川沿いの水浴場を楽しめます。近郊の山へ行く際は天候と交通を確認しましょう。']] },
   basel: { p: [XMAS, ['2월 또는 3월 바젤 파스나흐트', 'February or March (Basel Fasnacht)', '2月または3月（バーゼル・ファスナハト）', '해마다 2월 또는 3월에 열리며 월요일 새벽 4시 \'모르게슈트라이히\'로 시작합니다. 유네스코 무형유산에도 등재돼 있습니다.', 'Basel Fasnacht falls in February or March, depending on the year, and begins with the 4 a.m. Monday Morgestraich. It is UNESCO-listed intangible heritage.', 'バーゼルのファスナハトは年によって2月または3月に開かれ、月曜の午前4時に「モルゲシュトライヒ」で始まります。ユネスコ無形文化遺産にも登録されています。']] },
   riga: { p: [XMAS, ['6월 하지(야니)', 'June (Midsummer, Jāņi)', '6月（夏至祭ヤーニ）', '라트비아 최대 명절로 화관을 쓰고 모닥불을 피웁니다.', 'Latvia’s biggest holiday, with flower crowns and bonfires.', 'ラトビア最大の祝日で、花冠をかぶりかがり火を焚きます。']] },
   gdansk: { p: [XMAS, ['7~8월 성 도미니크 시장', 'July–August (St Dominic’s Fair)', '7〜8月（聖ドミニク市）', '수백 년 전통의 대형 여름 시장이 구시가지에 열립니다.', 'A centuries-old summer fair fills the old town.', '数百年の伝統がある大規模な夏市が旧市街に開かれます。']] },

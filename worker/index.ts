@@ -2,6 +2,7 @@ import { defaultProviders } from '../src/core/rates/providers';
 import { getRates } from '../src/core/rates/service';
 import { RatesUnavailableError, type RateStore, type StoredRates } from '../src/core/rates/types';
 import { page } from './page';
+import { withSecurityHeaders } from './security';
 
 /** Cloudflare Cache API 를 저장소로 쓴다(별도 바인딩 없이 배포 가능). 30일 뒤 만료. */
 const CACHE_KEY = 'https://rates.internal/v1/latest-usd';
@@ -42,7 +43,7 @@ interface Env {
 export default {
   async fetch(request: Request, env: Env) {
     const { pathname } = new URL(request.url);
-    if (pathname.startsWith('/api/')) return handle(request);
-    return page(request, env.ASSETS);
+    const response = pathname.startsWith('/api/') ? await handle(request) : await page(request, env.ASSETS);
+    return withSecurityHeaders(response);
   },
 } satisfies ExportedHandler<Env>;

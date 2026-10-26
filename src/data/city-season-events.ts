@@ -1,11 +1,11 @@
 /**
- * 겨울 크리스마스 마켓 안내(도시 가이드의 「크리스마스 마켓」 칸, 가이드 목록의 겨울 도시 모음).
+ * 도시별 겨울 시즌 행사 정보. 화면에서는 도시 가이드의 「언제 가면 좋을까」에 함께 표시한다.
  * period 는 2026/27 시즌 공식 일정(항목별 확인 날짜는 docs/DECISIONS.md)이다. 공식 발표 전인 곳은 「보통 ~」으로 쓴다. 시즌이 끝나면 다음 해 일정으로 바꾼다.
  * dates 는 일정 관리용 원자료다. 페이지는 행사 단독 상세가 아니라 도시 가이드·행사 목록이므로 Event JSON-LD를 출력하지 않는다.
  * 금액은 쓰지 않는다. 각 항목 [ko, en, ja]
  */
 export type L3 = readonly [string, string, string];
-export interface ChristmasMarket {
+export interface CitySeasonEvent {
   name: L3;
   place: L3;
   period: L3;
@@ -16,7 +16,7 @@ export interface ChristmasMarket {
   dates?: readonly [string, string?];
 }
 
-export const CHRISTMAS_MARKETS: Record<string, ChristmasMarket> = {
+export const CITY_SEASON_EVENTS: Record<string, CitySeasonEvent> = {
   dresden: {
     name: ['슈트리첼마르크트', 'Striezelmarkt', 'シュトリーツェルマルクト'],
     place: ['알트마르크트 광장', 'Altmarkt square', 'アルトマルクト広場'],

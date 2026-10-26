@@ -43,7 +43,6 @@ export function llmsTxt(site: string, guides: Array<{ path: string; name: string
     `- [City travel cost guides](${u('/guides')})`,
     `- [How the estimate is calculated](${u('/how-it-works')})`,
     `- [Compare daily costs between cities](${u('/compare')})`,
-    `- [European Christmas markets 2026/27](${u('/christmas-markets')})`,
     `- [About the site](${u('/about')})`,
     '',
     '## City guides',

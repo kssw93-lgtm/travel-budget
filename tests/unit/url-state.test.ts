@@ -51,7 +51,7 @@ describe('페이지 주소', () => {
     expect(routeOf('/guide/tokyo.html', ['tokyo'])).toEqual({ page: 'guide', cityId: 'tokyo' });
     expect(routeOf('/guide/atlantis', ['tokyo'])).toEqual({ page: 'calculator' });
     expect(routeOf('/guides/', ['tokyo'])).toEqual({ page: 'guides' });
-    expect(routeOf('/christmas-markets', ['tokyo'])).toEqual({ page: 'christmas' });
+    expect(routeOf('/christmas-markets', ['tokyo'])).toEqual({ page: 'calculator' });
     expect(routeOf('/how-it-works', ['tokyo'])).toEqual({ page: 'method' });
     expect(routeOf('/compare', ['tokyo'])).toEqual({ page: 'compare' });
     expect(routePath({ page: 'guide', cityId: 'paris' })).toBe('/guide/paris');

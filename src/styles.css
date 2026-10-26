@@ -246,8 +246,5 @@ details:not([open]) > summary .toggle-hint .when-open, details[open] > summary .
 #sights, #stay, #transport, #food, #tips, #costs { scroll-margin-top: 16px; }
 .stay-areas h2, .city-tips h2 { margin-top: 0; }
 
-.xmas { border-top: 3px solid #b3261e; }
-.xmas-cities { padding: 12px 0; }
-.xmas-cities > summary h2 { display: inline; margin: 0; font-size: 1.15rem; }
 #christmas { scroll-margin-top: 16px; }
 .when-to-go h2 { margin-top: 0; }

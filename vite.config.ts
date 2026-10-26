@@ -1,7 +1,7 @@
 import { resolve } from 'node:path';
 import { defineConfig, loadEnv, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
-import { MSG, christmasPageMeta, comparePageMeta, methodPageMeta, guideIndexMeta, guidePageMeta, homeFallbackHtml, type GuideData } from './scripts/guide-pages';
+import { MSG, comparePageMeta, methodPageMeta, guideIndexMeta, guidePageMeta, homeFallbackHtml, type GuideData } from './scripts/guide-pages';
 import { SITE_PAGES, adsTxt, escapeHtml, notFoundHtml, adsenseMeta, headTags, infoFallbackHtml, normalizeSite, pageHtml, replaceFallback, robotsTxt, rssXml, sitemapXml, llmsTxt } from './scripts/site-files';
 import { ko } from './src/i18n/ko';
 import { guidePath } from './src/core/guide';
@@ -40,7 +40,7 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
       // 도시 가이드 정적 HTML 은 빌드된 index.html(스크립트·스타일 경로 포함)을 바탕으로 만드므로 마지막에 실행
       order: 'post',
       handler(_, bundle) {
-        const guidePages = [{ file: 'guides.html', path: '/guides' }, { file: 'christmas-markets.html', path: '/christmas-markets' }, { file: 'how-it-works.html', path: '/how-it-works' }, { file: 'compare.html', path: '/compare' }, ...cities.map((c) => ({ file: `guide/${c.id}.html`, path: guidePath(c.id) }))];
+        const guidePages = [{ file: 'guides.html', path: '/guides' }, { file: 'how-it-works.html', path: '/how-it-works' }, { file: 'compare.html', path: '/compare' }, ...cities.map((c) => ({ file: `guide/${c.id}.html`, path: guidePath(c.id) }))];
         this.emitFile({ type: 'asset', fileName: 'robots.txt', source: robotsTxt(site) });
         if (site) this.emitFile({ type: 'asset', fileName: 'sitemap.xml', source: sitemapXml(site, [...SITE_PAGES, ...guidePages], /^\d{4}-\d{2}-\d{2}$/.test(guideData.updated) ? guideData.updated : undefined) });
         if (ads) this.emitFile({ type: 'asset', fileName: 'ads.txt', source: ads });
@@ -49,11 +49,10 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
         if (index?.type !== 'asset' || typeof index.source !== 'string') return;
         const data = guideData;
         if (site) {
-          const rssItems = [guideIndexMeta(data), christmasPageMeta(data), methodPageMeta(data), comparePageMeta(data), ...cities.map((c) => guidePageMeta(c, data))].map((m) => ({ title: m.title, path: m.path, description: m.description }));
+          const rssItems = [guideIndexMeta(data), methodPageMeta(data), comparePageMeta(data), ...cities.map((c) => guidePageMeta(c, data))].map((m) => ({ title: m.title, path: m.path, description: m.description }));
           this.emitFile({ type: 'asset', fileName: 'rss.xml', source: rssXml(site, rssItems, data.updated) });
         }
         this.emitFile({ type: 'asset', fileName: 'guides.html', source: pageHtml(index.source, guideIndexMeta(data), site) });
-        this.emitFile({ type: 'asset', fileName: 'christmas-markets.html', source: pageHtml(index.source, christmasPageMeta(data), site) });
         this.emitFile({ type: 'asset', fileName: 'how-it-works.html', source: pageHtml(index.source, methodPageMeta(data), site) });
         this.emitFile({ type: 'asset', fileName: 'compare.html', source: pageHtml(index.source, comparePageMeta(data), site) });
         for (const c of cities) {
@@ -73,7 +72,6 @@ const seo = (siteUrl: string | undefined, publisherId: string | undefined, conta
             this.emitFile({ type: 'asset', fileName: `_l/${lang}/${p.file}`, source: pageHtml(index.source, { title: p.title, description: p.description, path: p.path, lang, ld: ld(p.title, p.description), fallbackHtml: p.html }, site) });
           }
           this.emitFile({ type: 'asset', fileName: `_l/${lang}/guides.html`, source: pageHtml(index.source, guideIndexMeta(data, lang), site) });
-          this.emitFile({ type: 'asset', fileName: `_l/${lang}/christmas-markets.html`, source: pageHtml(index.source, christmasPageMeta(data, lang), site) });
           this.emitFile({ type: 'asset', fileName: `_l/${lang}/how-it-works.html`, source: pageHtml(index.source, methodPageMeta(data, lang), site) });
           this.emitFile({ type: 'asset', fileName: `_l/${lang}/compare.html`, source: pageHtml(index.source, comparePageMeta(data, lang), site) });
           for (const c of cities) {

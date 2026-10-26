@@ -9,7 +9,7 @@ import { STATIC_RATES } from '../src/core/rates/static';
 import { formatMoney } from '../src/core/money';
 import { methodContent } from '../src/ui/method-content';
 import { CITY_GUIDES } from '../src/data/city-guides';
-import { CHRISTMAS_MARKETS } from '../src/data/christmas-markets';
+import { CITY_SEASON_EVENTS } from '../src/data/city-season-events';
 import { CITY_INTROS } from '../src/data/city-intros';
 import { CITY_SEASONS } from '../src/data/city-seasons';
 import { CITY_WHEN } from '../src/data/city-when';
@@ -118,21 +118,21 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const sights = note
     ? `        <h2>${e(fill(t.highlightsTitle, { city: name }))}</h2><ol>${note.highlights.map((h) => `<li><strong>${e(h.name[lang])}</strong> ${e(h.text[lang])}</li>`).join('')}</ol>`
     : '';
-  const xm = CHRISTMAS_MARKETS[city.id];
-  const xmas = xm
-    ? `        <h2>${e(fill(t.xmasTitle, { city: name }))}</h2><p><strong>${e(xm.name[IDX[lang]])}</strong> ${e(xm.note[IDX[lang]])}</p>` +
-      `<dl><dt>${e(t.xmasPlace)}</dt><dd>${e(xm.place[IDX[lang]])}</dd><dt>${e(t.xmasPeriod)}</dt><dd>${e(xm.period[IDX[lang]])}</dd></dl>` +
-      `<p>${e(t.xmasCheck)} <a href="${e(xm.url)}" rel="noopener">${e(new URL(xm.url).hostname)}</a></p>`
-    : '';
   const stay = intro?.s.length
     ? `        <h2>${e(fill(t.stayTitle, { city: name }))}</h2><dl>${intro.s.map((a) => `<dt>${e(a[IDX[lang]])}</dt><dd>${e(a[3 + IDX[lang]] ?? "")}</dd>`).join('')}</dl>`
     : '';
   const season = CITY_SEASONS[city.id];
   const wh = CITY_WHEN[city.id];
+  const event = CITY_SEASON_EVENTS[city.id];
+  const marketPattern = /christmas market|크리스마스 마켓|クリスマスマーケット/i;
+  const eventIndex = wh?.p.findIndex((p) => marketPattern.test(p.join(' '))) ?? -1;
+  const eventDetails = event
+    ? `<strong>${e(event.name[IDX[lang]])}</strong> · ${e(event.place[IDX[lang]])} · ${e(event.note[IDX[lang]])} <a href="${e(event.url)}" rel="noopener">${e(t.seasonOfficialSchedule)}</a>`
+    : '';
   const when =
-    wh || season
+    wh || season || event
       ? `        <h2>${e(fill(t.whenTitle, { city: name }))}</h2>` +
-        (wh ? `<dl>${wh.p.map((p) => `<dt>${e(p[IDX[lang]])}</dt><dd>${e(p[3 + IDX[lang]] ?? '')}</dd>`).join('')}</dl>` : '') +
+        (wh ? `<dl>${wh.p.map((p, n) => event && n === eventIndex ? `<dt>${e(event.period[IDX[lang]])}</dt><dd>${eventDetails}</dd>` : `<dt>${e(p[IDX[lang]])}</dt><dd>${e(p[3 + IDX[lang]] ?? '')}</dd>`).join('')}${event && eventIndex < 0 ? `<dt>${e(event.period[IDX[lang]])}</dt><dd>${eventDetails}</dd>` : ''}</dl>` : event ? `<dl><dt>${e(event.period[IDX[lang]])}</dt><dd>${eventDetails}</dd></dl>` : '') +
         (season ? `<p><strong>${e(t.whenWeather)}</strong> ${e(season[IDX[lang]])}</p>` : '') +
         (wh?.x ? `<p><strong>${e(t.whenAvoid)}</strong> ${e(wh.x[IDX[lang]])}</p>` : '') +
         `<p>${e(t.seasonHint)}</p>`
@@ -190,7 +190,6 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
     days && `        <p>${e(days.min === days.max ? fill(t.daysOne, { n: days.min }) : fill(t.daysRange, { min: days.min, max: days.max }))}</p>`,
     cta,
     when,
-    xmas,
     sights,
     stay,
     airportAccess,
@@ -248,10 +247,6 @@ function grouped(list: City[], lang: Lang): Array<[string, City[]]> {
 
 export function guideIndexMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
   const t = MSG[lang].cityGuide;
-  const xc = d.cities.filter((c) => CHRISTMAS_MARKETS[c.id]).sort((a, b) => cityLabel(a, lang).localeCompare(cityLabel(b, lang), lang));
-  const xmasList = xc.length
-    ? `        <details><summary><h2>${e(t.xmasIndexTitle)} (${xc.length})</h2></summary><p>${e(t.xmasIndexLead)} <a href="/christmas-markets?lang=${lang}">${e(t.xmasPageLink)}</a></p><ul>${xc.map((c) => `<li><a href="${guidePath(c.id)}?lang=${lang}">${e(fill(t.xmasTitle, { city: cityLabel(c, lang) }))}</a></li>`).join('')}</ul></details>\n`
-    : '';
   const groups = grouped(d.cities, lang)
     .map(([country, list]) => `        <h2>${e(country)}</h2><ul>${list.map((c) => `<li><a href="${guidePath(c.id)}?lang=${lang}">${e(fill(t.title, { city: cityLabel(c, lang) }))}</a></li>`).join('')}</ul>`)
     .join('\n');
@@ -261,7 +256,7 @@ export function guideIndexMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
     path: '/guides',
     lang,
     ld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: t.indexTitle, inLanguage: lang },
-    fallbackHtml: `        <h1>${e(t.indexTitle)}</h1>\n        <p>${e(t.indexLead)}</p>\n        <p><a href="/compare?lang=${lang}">${e(MSG[lang].compare.title)}</a> · <a href="/christmas-markets?lang=${lang}">${e(t.xmasPageTitle)}</a></p>\n${xmasList}${groups}`,
+    fallbackHtml: `        <h1>${e(t.indexTitle)}</h1>\n        <p>${e(t.indexLead)}</p>\n        <p><a href="/compare?lang=${lang}">${e(MSG[lang].compare.title)}</a></p>\n${groups}`,
   };
 }
 
@@ -333,43 +328,6 @@ export function methodPageMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
   };
 }
 
-/** 크리스마스 마켓 일정 모음(/christmas-markets)의 정적 HTML */
-export function christmasPageMeta(d: GuideData, lang: Lang = 'ko'): PageMeta {
-  const t = MSG[lang].cityGuide;
-  const i = IDX[lang];
-  const groups = grouped(
-    d.cities.filter((c) => CHRISTMAS_MARKETS[c.id]),
-    lang,
-  )
-    .map(
-      ([country, list]) =>
-        `        <h2>${e(country)}</h2>` +
-        list
-          .map((c) => {
-            const m = CHRISTMAS_MARKETS[c.id]!;
-            return (
-              `<h3>${e(cityLabel(c, lang))} · ${e(m.name[i])}</h3><dl><dt>${e(t.xmasPeriod)}</dt><dd>${e(m.period[i])}</dd><dt>${e(t.xmasPlace)}</dt><dd>${e(m.place[i])}</dd></dl>` +
-              `<p><a href="${guidePath(c.id)}?lang=${lang}#christmas">${e(fill(t.xmasPageGuide, { city: cityLabel(c, lang) }))}</a> · <a href="${e(m.url)}" rel="noopener">${e(t.xmasPageOfficial)}</a></p>`
-            );
-          })
-          .join(''),
-    )
-    .join('\n');
-  return {
-    title: `${t.xmasPageTitle} — ${siteTitle(lang)}`,
-    description: t.xmasPageDescription,
-    path: '/christmas-markets',
-    lang,
-    ld: {
-      '@context': 'https://schema.org',
-      '@graph': [
-        { '@type': 'CollectionPage', name: t.xmasPageTitle, description: t.xmasPageDescription, inLanguage: lang },
-      ],
-    },
-    fallbackHtml: `        <nav><a href="/guides?lang=${lang}">${e(t.indexTitle)}</a></nav>\n        <h1>${e(t.xmasPageTitle)}</h1>\n        <p>${e(t.xmasPageLead)}</p>\n${groups}\n        <p>${e(t.xmasPageNote)}</p>`,
-  };
-}
-
 /** 계산기(첫 화면)의 정적 본문: 무엇을 하는 도구인지와 도시별 가이드 목록(JS 실행 전 크롤러·심사용) */
 export function homeFallbackHtml(d: GuideData, lang: Lang = 'ko'): string {
   const t = MSG[lang];
@@ -392,7 +350,7 @@ export function homeFallbackHtml(d: GuideData, lang: Lang = 'ko'): string {
     `        <h2>${e(s.homeH2)}</h2>`,
     `        <ul>${s.homeList.map((x) => `<li>${e(x)}</li>`).join('')}</ul>`,
     `        <p>${e(fill(s.homeSource, { date: d.updated }))}</p>`,
-    `        <ul><li><a href="/compare?lang=${lang}">${e(t.compare.title)}</a></li><li><a href="/how-it-works?lang=${lang}">${e(t.method.title)}</a></li><li><a href="/christmas-markets?lang=${lang}">${e(t.cityGuide.xmasPageTitle)}</a></li></ul>`,
+    `        <ul><li><a href="/compare?lang=${lang}">${e(t.compare.title)}</a></li><li><a href="/how-it-works?lang=${lang}">${e(t.method.title)}</a></li></ul>`,
     `        <h2>${e(fill(s.homeGuides, { n: d.cities.length }))}</h2>`,
     items,
   ].join('\n');

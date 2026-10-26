@@ -16,7 +16,6 @@ export type Go = (to: string) => void;
 
 const HowItWorks = lazy(() => import('./HowItWorks').then((module) => ({ default: module.HowItWorks })));
 const CostComparePage = lazy(() => import('./CostCompare').then((module) => ({ default: module.CostComparePage })));
-const ChristmasMarketsPage = lazy(() => import('./CityGuide').then((module) => ({ default: module.ChristmasMarketsPage })));
 const CityGuidePage = lazy(() => import('./CityGuide').then((module) => ({ default: module.CityGuidePage })));
 const GuideIndex = lazy(() => import('./CityGuide').then((module) => ({ default: module.GuideIndex })));
 
@@ -104,7 +103,7 @@ export function App() {
           </InternalLink>
           <nav aria-label={t.nav.main}>
             <InternalLink to={calcHref} go={go} aria-current={page === 'calculator' ? 'page' : undefined}>{t.nav.calculator}</InternalLink>
-            <InternalLink to={`/guides?lang=${lang}`} go={go} aria-current={page === 'guides' || page === 'guide' || page === 'christmas' || page === 'compare' ? 'page' : undefined}>{t.nav.guides}</InternalLink>
+            <InternalLink to={`/guides?lang=${lang}`} go={go} aria-current={page === 'guides' || page === 'guide' || page === 'compare' ? 'page' : undefined}>{t.nav.guides}</InternalLink>
             <InternalLink to={`/about?lang=${lang}`} go={go} aria-current={page === 'about' ? 'page' : undefined}>{t.footer.about}</InternalLink>
           </nav>
           <div className="lang" role="group" aria-label={t.nav.language}>
@@ -137,8 +136,6 @@ export function App() {
               <CostComparePage go={go} />
             ) : page === 'method' ? (
               <HowItWorks go={go} />
-            ) : page === 'christmas' ? (
-              <ChristmasMarketsPage go={go} />
             ) : page === 'guide' && guideCity ? (
               <CityGuidePage city={guideCity} go={go} />
             ) : (

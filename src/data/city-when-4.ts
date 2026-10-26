@@ -85,7 +85,7 @@ export const WHEN_4: Record<string, When> = {
   },
   'quebec-city': {
     p: [
-      ['11월 19일~12월 23일 크리스마스 마켓(2026)', '19 November–23 December (Christmas market, 2026)', '11月19日〜12月23日（クリスマスマーケット、2026年）', '구시가지 여러 곳에 독일식 크리스마스 마켓이 열려 눈 덮인 성벽 도시가 더욱 동화 같아집니다(아래 「크리스마스 마켓」 칸 참고).', 'A German-style Christmas market spreads across the old town, making the snowy walled city even more storybook (see the Christmas market section).', '旧市街の各所にドイツ風クリスマスマーケットが開かれ、雪の城壁都市がいっそう童話のようになります（「クリスマスマーケット」欄参照）。'],
+      ['11월 19일~12월 23일 크리스마스 마켓(2026)', '19 November–23 December (Christmas market, 2026)', '11月19日〜12月23日（クリスマスマーケット、2026年）', '구시가지 여러 곳에 독일식 크리스마스 마켓이 열려 눈 덮인 성벽 도시의 겨울 풍경을 즐길 수 있습니다.', 'A German-style Christmas market spreads across the old town, adding to the winter scenery of the snow-covered walled city.', '旧市街の各所にドイツ風クリスマスマーケットが開かれ、雪の城壁都市ならではの冬景色を楽しめます。'],
       ['2월 윈터 카니발(2027년 2월 5~14일)', 'February Winter Carnival (5–14 February 2027)', '2月のウィンターカーニバル（2027年2月5〜14日）', '눈사람 마스코트 「봉옴」과 함께 야간 퍼레이드와 눈 조각, 겨울 놀이가 열리는 세계적인 겨울 축제입니다.', 'Night parades, snow sculptures and winter games with the snowman mascot Bonhomme.', '雪だるまのマスコット「ボノム」とともに夜のパレードや雪像、冬の遊びが楽しめる冬の祭りです。'],
       ['6~8월 여름', 'June–August (summer)', '6〜8月（夏）', '구시가지 산책과 몽모랑시 폭포, 여름 축제를 즐기기 좋은 계절입니다.', 'The season for old-town walks, Montmorency Falls and summer festivals.', '旧市街の散策やモンモランシー滝、夏祭りを楽しめる季節です。'],
     ],

@@ -5821,6 +5821,12 @@
       "en": "Broad beans sautéed with Trevélez ham",
       "ja": "そら豆をトレベレスの生ハムと炒めたグラナダの代表料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Habitas_con_Jam%C3%B3n-Granada.jpg/960px-Habitas_con_Jam%C3%B3n-Granada.jpg",
+      "author": "Tamorlan",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Habitas_con_Jam%C3%B3n-Granada.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -5856,6 +5862,12 @@
       "ko": "크림을 얹은 작은 롤케이크로, 그라나다 근교 산타페의 명물 과자",
       "en": "Small cream-topped sponge rolls from nearby Santa Fe",
       "ja": "クリームをのせた小さなロールケーキで、グラナダ近郊サンタ・フェの名物菓子"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Granada_-_Piononos_de_Santa_Fe.jpg/960px-Granada_-_Piononos_de_Santa_Fe.jpg",
+      "author": "Zarateman",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Granada_-_Piononos_de_Santa_Fe.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -6146,6 +6158,12 @@
       "ko": "양념 고기를 피타에 싸고 달콤한 도네어 소스를 뿌린 길거리 음식",
       "en": "Spiced meat in pita with sweet donair sauce",
       "ja": "味付け肉をピタで包み甘いドネアソースをかけた屋台料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Donair_(7357854402).jpg/960px-Donair_(7357854402).jpg",
+      "author": "Nicole Bratt",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Donair_(7357854402).jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -7012,6 +7030,12 @@
       "ko": "찢어서 구운 두툼한 팬케이크에 슈거파우더를 뿌린 디저트",
       "en": "Torn, fluffy pancake dusted with icing sugar",
       "ja": "ちぎって焼いた厚いパンケーキに粉砂糖をかけたデザート"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Kaiserschmarrn%2C_Munich.jpg/960px-Kaiserschmarrn%2C_Munich.jpg",
+      "author": "Gerda Arendt",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kaiserschmarrn,_Munich.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],

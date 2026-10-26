@@ -3545,6 +3545,12 @@
       "en": "A Cape Malay dish of spiced minced meat baked under an egg-custard topping.",
       "ja": "スパイスを加えたひき肉に卵のカスタードをのせて焼く、ケープ・マレー料理です。"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bobotie_South_Africa.jpg/960px-Bobotie_South_Africa.jpg",
+      "author": "Olivier Lemoine",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bobotie_South_Africa.jpg"
+    },
     "budgetBand": "",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -3562,6 +3568,12 @@
       "ko": "향신료를 넣어 튀긴 뒤 시럽에 적시고 코코넛을 입히는 달콤한 과자입니다.",
       "en": "A spiced fried dough treat dipped in syrup and often coated with coconut.",
       "ja": "スパイス入りの生地を揚げてシロップに浸し、ココナッツをまぶす甘い菓子です。"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Koesisters_Cape_Malay_South_Africa.jpg/960px-Koesisters_Cape_Malay_South_Africa.jpg",
+      "author": "Tasneem J",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Koesisters_Cape_Malay_South_Africa.jpg"
     },
     "budgetBand": "",
     "linkedPriceIds": [],

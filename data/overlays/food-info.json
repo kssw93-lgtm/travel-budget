@@ -5232,7 +5232,13 @@
   "cairns:Tropical Fruit": {
     "ko": "망고·람부탄·용과 등 근교 농장에서 나는 열대 과일",
     "en": "Mangoes, rambutan, dragon fruit and more from local farms",
-    "ja": "マンゴーやランブータン、ドラゴンフルーツなど近郊の農園でとれる熱帯フルーツ"
+    "ja": "マンゴーやランブータン、ドラゴンフルーツなど近郊の農園でとれる熱帯フルーツ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Tropical_North_Queensland_fruit.jpg/960px-Tropical_North_Queensland_fruit.jpg",
+      "author": "Btcpg",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tropical_North_Queensland_fruit.jpg"
+    }
   },
   "verona:Risotto all’Amarone": {
     "ko": "아마로네 와인과 비알로네 나노 쌀로 지은 리소토",
@@ -5267,7 +5273,13 @@
   "chengdu:Sichuan Hotpot": {
     "ko": "맵고 얼얼한 국물에 고기와 채소를 데쳐 먹는 쓰촨식 샤부샤부",
     "en": "Meats and vegetables cooked in a numbing-spicy broth",
-    "ja": "しびれる辛さのスープで肉や野菜を煮て食べる四川の鍋料理"
+    "ja": "しびれる辛さのスープで肉や野菜を煮て食べる四川の鍋料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/%E9%BA%BB%E8%BE%A3%E7%81%AB%E9%94%85%E6%B1%A4_Sichuan_Hotpot_(1648194463).jpg/960px-%E9%BA%BB%E8%BE%A3%E7%81%AB%E9%94%85%E6%B1%A4_Sichuan_Hotpot_(1648194463).jpg",
+      "author": "Alpha",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E9%BA%BB%E8%BE%A3%E7%81%AB%E9%94%85%E6%B1%A4_Sichuan_Hotpot_%281648194463%29.jpg"
+    }
   },
   "chengdu:Dandan Noodles": {
     "ko": "매콤한 양념에 볶은 다진 돼지고기를 얹어 비벼 먹는 국물 없는 면",

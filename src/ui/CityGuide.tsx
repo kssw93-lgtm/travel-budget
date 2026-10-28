@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { cityGuide, guidePath, type CityGuide as CityGuideData } from '../core/guide';
+import { airportDirectionsUrl, airportOrigins } from '../core/airport-directions';
 import { formatMoney } from '../core/money';
 import type { City, PriceSample } from '../core/types';
 import { cities, dataDate, extras, foods, memos, samples } from '../data';
@@ -122,10 +123,26 @@ function AirportAccess({ city }: { city: City }) {
   const note = CITY_GUIDES[city.id];
   const index = airportTipIndex(city.id);
   if (!note || index < 0) return null;
+  const area = CITY_INTROS[city.id]?.s[0]?.[1] ?? `${city.nameEn} city centre`;
+  const areaLabel = CITY_INTROS[city.id]?.s[0]?.[lang === 'ko' ? 0 : lang === 'ja' ? 2 : 1] ?? area;
+  const origins = airportOrigins(city);
   return (
     <section id="airport" className="card prose airport-access" aria-labelledby="guide-airport-title" data-testid="guide-airport">
       <h2 id="guide-airport-title">{t.cityGuide.airportAccessTitle}</h2>
       <p>{note.tips[index]![lang]}</p>
+      <h3>{t.cityGuide.airportDirectionsTitle}</h3>
+      <div className="airport-map-links">
+        {origins.map((origin) => (
+          <ExternalLink
+            key={origin.query}
+            className="airport-map-link"
+            href={airportDirectionsUrl(origin.query, area, lang)}
+          >
+            {fmt(t.cityGuide.airportDirectionsLink, { airport: origin.label, area: areaLabel })}
+          </ExternalLink>
+        ))}
+      </div>
+      <p className="hint">{t.cityGuide.airportDirectionsNote}</p>
       {city.id === 'turku' && (
         <p>
           <ExternalLink href="https://opaskartta.turku.fi/IMS/fi/embed?cp=6711104%2C23459856&layers=Opaskartta&ui=z%21g%21o&z=16">

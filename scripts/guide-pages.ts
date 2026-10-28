@@ -3,6 +3,7 @@
  * 언어마다(ko·en·ja) 따로 만든다: 한국어는 기본 주소, 영어·일본어는 Worker 가 ?lang= 에 맞춰 골라 보낸다.
  */
 import { cityGuide, guidePath } from '../src/core/guide';
+import { airportDirectionsUrl, airportOrigins } from '../src/core/airport-directions';
 import { convertAmount, costComparison, formatCompareMoney } from '../src/core/compare';
 import { methodExample } from '../src/core/method';
 import { STATIC_RATES } from '../src/core/rates/static';
@@ -114,7 +115,16 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
 
   const note = CITY_GUIDES[city.id];
   const airportIndex = note?.tips.findIndex(isAirportTip) ?? -1;
-  const airportAccess = airportIndex >= 0 ? `        <h2>${e(t.airportAccessTitle)}</h2><p>${e(note!.tips[airportIndex]![lang])}</p><p>${e(t.airportAccessHint)}</p>` : '';
+  const airportArea = intro?.s[0]?.[1] ?? `${city.nameEn} city centre`;
+  const airportAreaLabel = intro?.s[0]?.[IDX[lang]] ?? (lang === 'ko' ? `${name} 중심부` : lang === 'ja' ? `${name}中心部` : `${name} city centre`);
+  const airportDirections = airportIndex >= 0
+    ? `<h3>${e(t.airportDirectionsTitle)}</h3><div class="airport-map-links">${airportOrigins(city)
+        .map((origin) => `<a class="airport-map-link" href="${e(airportDirectionsUrl(origin.query, airportArea, lang))}" target="_blank" rel="noopener noreferrer">${e(fill(t.airportDirectionsLink, { airport: origin.label, area: airportAreaLabel }))}</a>`)
+        .join('')}</div><p>${e(t.airportDirectionsNote)}</p>`
+    : '';
+  const airportAccess = airportIndex >= 0
+    ? `        <h2>${e(t.airportAccessTitle)}</h2><p>${e(note!.tips[airportIndex]![lang])}</p>${airportDirections}<p>${e(t.airportAccessHint)}</p>`
+    : '';
   const sights = note
     ? `        <h2>${e(fill(t.highlightsTitle, { city: name }))}</h2><ol>${note.highlights.map((h) => `<li><strong>${e(h.name[lang])}</strong> ${e(h.text[lang])}</li>`).join('')}</ol>`
     : '';

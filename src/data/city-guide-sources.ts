@@ -780,7 +780,7 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'tokyo:t3': 'https://www.narita-airport.jp/en/',
   'osaka:t3': 'https://www.kansai-airport.or.jp/en/',
   'kyoto:t3': 'https://www.kansai-airport.or.jp/en/',
-  'seoul:t3': 'https://www.arex.or.kr/',
+  'seoul:t3': 'https://www.airport.kr/ap_en/1511/subview.do',
   'busan:t3': 'https://www.airport.co.kr/',
   'jeju:t3': 'https://www.airport.co.kr/',
   'bangkok:t3': 'https://suvarnabhumi.airportthai.co.th/',

@@ -13,7 +13,7 @@ export const NOTES_5: Record<string, Compact> = {
     t: [
       ['지하철·버스는 교통카드(티머니)로 갈아타면 환승 할인이 됩니다.', 'Transfers between subway and bus are discounted with a T-money card.', '地下鉄とバスはT-moneyカードで乗り換えると割引になります。'],
       ['북촌 일부 골목은 관광 가능 시간이 정해져 있어 이른 아침·늦은 저녁 방문은 피하세요.', 'Parts of Bukchon have set visiting hours; avoid early mornings and late evenings.', '北村の一部路地は観光可能時間が決まっているので、早朝や夜遅くは避けましょう。'],
-      ['공항에서 시내: 인천공항에서는 공항철도(AREX) 직통열차가 서울역까지 쉬지 않고 가고, 일반열차는 홍대입구·공덕 등을 거칩니다. 김포공항은 지하철 5·9호선과 공항철도로 연결됩니다.', 'Airport to city: from Incheon, the AREX express train runs non-stop to Seoul Station, while the all-stop train calls at Hongik Univ. and Gongdeok. Gimpo Airport is on subway lines 5 and 9 and AREX.', '空港から市内へ：仁川空港からは空港鉄道(AREX)直通列車がソウル駅までノンストップで、一般列車は弘大入口・孔徳などに停まります。金浦空港は地下鉄5・9号線と空港鉄道で結ばれています。'],
+      ['공항에서 시내: 인천공항 T1·T2의 공항철도역은 각 터미널 교통센터 지하 1층에 있습니다. 직통열차는 서울역까지 가고, 일반열차는 홍대입구·공덕 등에 섭니다. 김포공항역에서는 지하철 5·9호선과 공항철도로 갈아탈 수 있습니다.', 'Airport to city: at Incheon T1 and T2, the Airport Railroad station is in each terminal’s B1 Transportation Center. Express trains run to Seoul Station; all-stop trains call at Hongik Univ. and Gongdeok. At Gimpo Airport Station, transfer to subway lines 5 or 9 and AREX.', '空港から市内へ：仁川空港T1・T2の空港鉄道駅は、各ターミナルの交通センター地下1階にあります。直通列車はソウル駅へ、一般列車は弘大入口・孔徳などに停車します。金浦空港駅では地下鉄5・9号線と空港鉄道に乗り換えられます。'],
     ],
   },
   busan: {

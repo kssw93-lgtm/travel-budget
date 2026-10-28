@@ -5795,7 +5795,13 @@
   "turku:Potato Pasty (Perunapiirakka)": {
     "ko": "감자를 채운 투르쿠식 파이",
     "en": "Turku-style pasty filled with potato",
-    "ja": "じゃがいもを詰めたトゥルク風のパイ"
+    "ja": "じゃがいもを詰めたトゥルク風のパイ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Perunapiirakka%20in%20a%20finnish%20supermarket.jpg/960px-Perunapiirakka%20in%20a%20finnish%20supermarket.jpg",
+      "author": "Apinanaivot",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Perunapiirakka_in_a_finnish_supermarket.jpg"
+    }
   },
   "turku:Archipelago Bread with Herring": {
     "ko": "달콤한 군도 빵에 절인 청어를 얹은 음식",
@@ -5805,7 +5811,13 @@
   "turku:Reindeer Dishes": {
     "ko": "실내 시장에서 파는 순록·사냥 고기 요리",
     "en": "Reindeer and game meat from the market hall",
-    "ja": "屋内市場で売られるトナカイや狩猟肉の料理"
+    "ja": "屋内市場で売られるトナカイや狩猟肉の料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Poronk%C3%A4ristys.jpg/960px-Poronk%C3%A4ristys.jpg",
+      "author": "Htm",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Poronk%C3%A4ristys.jpg"
+    }
   },
   "tartu:Black Bread (Must Leib)": {
     "ko": "호밀로 만든 에스토니아 전통 흑빵",

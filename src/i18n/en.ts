@@ -160,6 +160,8 @@ export const en: Messages = {
     cautionsTitle: 'Watch out for in {country}',
     stayTitle: 'Where to stay in {city}',
     airportAccessTitle: 'Getting from the airport to your stay',
+    airportMapLink: 'Turku Airport map',
+    airportRouteLink: 'Find a Föli route or stop',
     airportAccessHint: 'Check which station or stop is closest to your accommodation. Routes and schedules may change, so confirm them for your arrival date.',
     tipsSectionTitle: '{city} tips and things to watch out for',
     ctaNights: 'Estimate a {n}-night, {d}-day {city} trip',

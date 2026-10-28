@@ -1030,7 +1030,7 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['버스는 미리 사거나 신용카드를 대면 1회 3.15유로이고, 버스 안에서 현금으로 내면 4.50유로입니다. 2시간 안에 갈아탈 수 있습니다.', 'Bus singles cost €3.15 bought in advance or by contactless card, €4.50 in cash on board; transfers are valid for 2 hours.', 'バスは事前購入かクレジットカードのタッチ決済で1回3.15ユーロ、車内で現金だと4.50ユーロです。2時間以内なら乗り換えできます。'],
-      ['공항에서 숙소까지: 투르쿠공항에서 Föli 1번 버스를 타면 시내 중심을 지나 항구까지 갈 수 있습니다. 숙소가 중심가와 항구 중 어느 쪽에 가까운지 보고 내릴 곳을 정하세요.', 'Airport to your stay: Föli bus 1 runs from Turku Airport through the city centre to the harbour. Choose your stop based on whether your accommodation is closer to the centre or the harbour.', '空港から宿泊先へ：トゥルク空港からFöliの1番バスに乗ると、市中心部を通って港まで行けます。宿泊先が中心部と港のどちらに近いかを見て降車場所を選びましょう。'],
+      ['공항에서 숙소까지: 투르쿠공항 정류장에서 Föli 1번 버스를 타세요. 시내 방향은 Kauppatori(마켓 광장)에 정차하며, 일부 1A편은 중앙 버스터미널도 경유합니다. 항구 방향은 Satama까지 운행합니다. 중심가 숙소는 Kauppatori, 페리 터미널 근처 숙소는 Satama에서 내리면 편합니다.', 'Airport to your stay: Take Föli bus 1 from the airport stop. City-bound buses stop at Kauppatori (Market Square); some 1A services also call at the central bus station. Harbour-bound services continue to Satama. For central accommodation, get off at Kauppatori; for the ferry terminal area, use Satama.', '空港から宿泊先へ：空港停留所からFöliの1番バスに乗ります。市内方面はKauppatori（マーケット広場）に停車し、一部の1A便は中央バスターミナルにも停車します。港方面はSatamaまで運行します。中心部の宿はKauppatori、フェリーターミナル周辺の宿はSatamaで降りると便利です。'],
     ],
   },
   tartu: {

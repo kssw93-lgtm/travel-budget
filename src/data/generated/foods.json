@@ -13436,6 +13436,12 @@
       "en": "Turku-style pasty filled with potato",
       "ja": "じゃがいもを詰めたトゥルク風のパイ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Perunapiirakka%20in%20a%20finnish%20supermarket.jpg/960px-Perunapiirakka%20in%20a%20finnish%20supermarket.jpg",
+      "author": "Apinanaivot",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Perunapiirakka_in_a_finnish_supermarket.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -13471,6 +13477,12 @@
       "ko": "실내 시장에서 파는 순록·사냥 고기 요리",
       "en": "Reindeer and game meat from the market hall",
       "ja": "屋内市場で売られるトナカイや狩猟肉の料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Poronk%C3%A4ristys.jpg/960px-Poronk%C3%A4ristys.jpg",
+      "author": "Htm",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Poronk%C3%A4ristys.jpg"
     },
     "budgetBand": "고",
     "linkedPriceIds": [],

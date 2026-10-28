@@ -159,6 +159,8 @@ export const ko = {
     cautionsTitle: '{country}에서 조심할 것',
     stayTitle: '{city} 숙소, 어디에 잡을까',
     airportAccessTitle: '공항에서 숙소까지',
+    airportMapLink: '투르쿠공항 위치 지도',
+    airportRouteLink: 'Föli 경로·정류장 검색',
     airportAccessHint: '숙소 주소와 가장 가까운 역·정류장을 확인하세요. 노선과 운행 시간은 도착일에 다시 확인하면 좋습니다.',
     tipsSectionTitle: '{city} 여행 팁과 조심할 점',
     ctaNights: '{city} {n}박 {d}일 여행 경비 계산해 보기',

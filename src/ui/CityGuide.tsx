@@ -126,6 +126,15 @@ function AirportAccess({ city }: { city: City }) {
     <section id="airport" className="card prose airport-access" aria-labelledby="guide-airport-title" data-testid="guide-airport">
       <h2 id="guide-airport-title">{t.cityGuide.airportAccessTitle}</h2>
       <p>{note.tips[index]![lang]}</p>
+      {city.id === 'turku' && (
+        <p>
+          <ExternalLink href="https://opaskartta.turku.fi/IMS/fi/embed?cp=6711104%2C23459856&layers=Opaskartta&ui=z%21g%21o&z=16">
+            {t.cityGuide.airportMapLink}
+          </ExternalLink>
+          {' · '}
+          <ExternalLink href="https://reittiopas.foli.fi/">{t.cityGuide.airportRouteLink}</ExternalLink>
+        </p>
+      )}
       <p className="hint">{t.cityGuide.airportAccessHint}</p>
     </section>
   );

@@ -164,6 +164,8 @@ export const ja: Messages = {
     cautionsTitle: '{country}で注意したいこと',
     stayTitle: '{city}の宿はどこに取る？',
     airportAccessTitle: '空港から宿泊先への行き方',
+    airportMapLink: 'トゥルク空港の地図',
+    airportRouteLink: 'Föliの経路・停留所を検索',
     airportAccessHint: '宿泊先に最も近い駅・停留所を確認しましょう。路線や運行時刻は到着日に合わせて再確認してください。',
     tipsSectionTitle: '{city}旅行のヒントと注意点',
     ctaNights: '{city} {n}泊{d}日の旅行費用を計算する',

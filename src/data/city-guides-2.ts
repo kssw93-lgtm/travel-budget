@@ -51,6 +51,7 @@ export const NOTES_2: Record<string, Compact> = {
       ['사랑의 절벽', "Two Lovers Point", '恋人岬', '투몬 만이 내려다보이는 절벽 전망대입니다.', 'A clifftop lookout over Tumon Bay.', 'タモン湾を見下ろす断崖の展望台です。'],
       ['차모로 빌리지 야시장', 'Chamorro Village Night Market', 'チャモロ・ビレッジ・ナイトマーケット', '수요일 저녁에 열리는 야시장. 차모로 바비큐를 맛볼 수 있습니다.', 'The Wednesday evening market for Chamorro barbecue and crafts.', '水曜の夜に開かれる市場。チャモロ料理のバーベキューが味わえます。'],
       ['리티디안 포인트', 'Ritidian Point', 'リティディアン・ポイント', '괌 북쪽 끝 국립 야생동물 보호구역의 해변으로, 맑은 바다로 유명합니다. 안전요원이 없고 해류가 강하니 주의하세요.', 'A beach in the national wildlife refuge at Guam\'s northern tip, known for clear water; no lifeguards and strong currents.', 'グアム北端の国立野生生物保護区のビーチで、透明な海で知られます。監視員はおらず潮流が強いので注意。'],
+      ['솔레다드 요새', 'Fort Nuestra Señora de la Soledad', 'ヌエストラ・セニョーラ・デ・ラ・ソレダッド要塞', '우마탁 마을의 높은 절벽에 자리한 스페인 시대 요새로, 우마탁만과 남부 해안을 내려다볼 수 있습니다.', 'A Spanish-era fort on a high bluff in Umatac, overlooking the bay and Guam’s southern coast.', 'ウマタック村の高い崖に建つスペイン統治時代の要塞で、湾とグアム南部の海岸を見渡せます。'],
     ],
     t: [
       ['GMTA 버스 노선이 있지만 렌터카로 다니는 여행자가 많습니다. 운전은 오른쪽 차선이고, 버스 운행 정보는 미리 확인하세요.', 'GMTA buses run on Guam, but many visitors rent a car; driving is on the right, and check bus schedules in advance.', 'GMTAのバス路線がありますが、レンタカーで回る旅行者が多いです。右側通行で、バスの運行情報は事前に確認を。'],

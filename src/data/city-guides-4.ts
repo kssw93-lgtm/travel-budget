@@ -161,7 +161,10 @@ export const NOTES_4: Record<string, Compact> = {
 /** 볼거리·팁 보강(기존 항목 뒤에 이어 붙인다) */
 export const NOTES_EXTRA: Record<string, Compact> = {
   boracay: {
-    h: [['디니위드 비치', 'Diniwid Beach', 'ディニウィッド・ビーチ', '화이트 비치 스테이션 1 너머의 작은 해변으로, 한적하게 바다를 바라보기 좋습니다.', 'A small, quieter beach beyond White Beach Station 1 where you can relax by the sea.', 'ホワイトビーチのステーション1の先にある小さなビーチで、静かに海を眺められます。']],
+    h: [
+      ['디니위드 비치', 'Diniwid Beach', 'ディニウィッド・ビーチ', '화이트 비치 스테이션 1 너머의 작은 해변으로, 한적하게 바다를 바라보기 좋습니다.', 'A small, quieter beach beyond White Beach Station 1 where you can relax by the sea.', 'ホワイトビーチのステーション1の先にある小さなビーチで、静かに海を眺められます。'],
+      ['윌리스 록', 'Willy’s Rock', 'ウィリーズ・ロック', '화이트 비치 스테이션 1 앞바다의 바위 지형으로, 위쪽 작은 예배당과 성모상이 알려져 있습니다.', 'A rock formation in the water near White Beach Station 1, known for its small chapel and statue of the Virgin Mary.', 'ホワイトビーチのステーション1近くの海にある岩で、小さな礼拝堂と聖母像で知られています。'],
+    ],
     t: [['화이트 비치는 스테이션 1·2·3으로 나뉩니다. 스테이션 2에 식당과 상점이 집중되고, 3은 비교적 한적합니다.', 'White Beach is divided into Stations 1, 2 and 3. Restaurants and shops cluster around Station 2, while Station 3 is relatively quieter.', 'ホワイトビーチはステーション1・2・3に分かれます。飲食店や店はステーション2に集まり、3は比較的静かです。'], ['카티클란공항에서는 버스·밴으로 제티 포트에 간 뒤 페리를 타고 보라카이섬에 들어갑니다. 도착 항구에서 숙소까지는 섬 안 교통이나 숙소 픽업을 이용하세요. 칼리보공항에 도착하면 먼저 버스·밴으로 제티 포트까지 이동해야 합니다.', 'From Caticlan Airport, take a bus or van to the jetty port, then a ferry to Boracay. Continue from the island port by local transport or your accommodation’s pickup. From Kalibo Airport, first travel to the jetty port by bus or van.', 'カティクラン空港からはバス・バンでジェティ港へ行き、フェリーでボラカイ島へ渡ります。島の港から宿泊先までは島内交通か宿の送迎を利用してください。カリボ空港に到着した場合は、まずバス・バンでジェティ港へ向かいます。']],
   },
   brussels: {
@@ -169,7 +172,10 @@ export const NOTES_EXTRA: Record<string, Compact> = {
     t: [['감자튀김(프리트)은 전문 가게에서 원뿔 종이에 담아 소스를 골라 먹는 것이 현지식입니다.', 'Fries are best from a friterie, served in a paper cone with your choice of sauce.', 'フリット（フライドポテト）は専門店で円錐の紙に入れ、ソースを選んで食べるのが地元流です。'], ['공항에서 숙소까지: 브뤼셀 공항에서 북역·중앙역·남역 방면 직행 열차와 공항 버스가 있습니다. 숙소가 있는 역·동네를 확인한 뒤 맞는 노선을 고르세요.', 'Airport to your stay: direct trains from Brussels Airport serve North, Central and South stations, and airport buses also run into the city. Choose based on the station or neighbourhood nearest your accommodation.', '空港から宿泊先へ：ブリュッセル空港から北駅・中央駅・南駅方面への直通列車があり、市内行き空港バスもあります。宿泊先に近い駅や地区を確認して選びましょう。']],
   },
   cancun: {
-    h: [['툴룸 유적', 'Tulum ruins', 'トゥルム遺跡', '카리브해 절벽 위에 남은 마야 유적. 칸쿤에서 하루 일정으로 다녀옵니다.', 'Maya ruins on a clifftop above the Caribbean, a day trip from Cancún.', 'カリブ海の断崖に残るマヤ遺跡。カンクンから日帰りで行けます。']],
+    h: [
+      ['툴룸 유적', 'Tulum ruins', 'トゥルム遺跡', '카리브해 절벽 위에 남은 마야 유적. 칸쿤에서 하루 일정으로 다녀옵니다.', 'Maya ruins on a clifftop above the Caribbean, a day trip from Cancún.', 'カリブ海の断崖に残るマヤ遺跡。カンクンから日帰りで行けます。'],
+      ['엘 메코 유적', 'El Meco Archaeological Zone', 'エル・メコ遺跡', '칸쿤 북쪽 푸에르토 후아레스 인근의 마야 항구 유적으로, 가장 높은 건물 엘 카스티요에서 주변 해안과 칸쿤섬을 볼 수 있습니다.', 'A Maya port site near Puerto Juárez north of Cancún; the tallest building, El Castillo, overlooks the nearby coast and Cancún Island.', 'カンクン北部のプエルト・フアレス近くにあるマヤの港湾遺跡です。最も高い建物エル・カスティージョから周辺の海岸やカンクン島を望めます。'],
+    ],
     t: [['해변의 해조류(사르가숨) 상황은 계절마다 달라 출발 전에 공식 안내나 현지 소식을 확인하면 좋습니다.', 'Seaweed (sargassum) levels vary by season; check updates before you go.', '海藻（サルガッサム）の状況は季節で変わるので、出発前に確認しましょう。'], ['공항에서 숙소까지: 칸쿤 공항에서 ADO 직행버스를 타면 다운타운 버스터미널 또는 호텔존 북쪽 Punta Cancún 정류장으로 갈 수 있습니다. 호텔존 남쪽 숙소는 현지 버스나 호텔 교통편으로 이어서 이동해야 합니다.', 'Airport to your stay: ADO buses from Cancún Airport serve the downtown bus terminal and the Punta Cancún stop in the north Hotel Zone. For hotels farther south, continue by local bus or hotel transport.', '空港から宿泊先へ：カンクン空港からADOの直行バスでダウンタウンのバスターミナル、またはホテルゾーン北部のPunta Cancún停留所へ行けます。南側のホテルへは市内バスやホテル送迎に乗り継ぎます。']],
   },
   nice: {

@@ -164,6 +164,7 @@ export const NOTES_1: Record<string, Compact> = {
       ['달랏 야시장', 'Da Lat Night Market', 'ダラット・ナイトマーケット', '저녁이면 시장 주변에 길거리 음식 노점이 들어섭니다.', 'Street-food stalls gather around the market in the evening.', '夕方から市場周辺に屋台が並びます。'],
       ['크레이지 하우스', 'Crazy House', 'クレイジーハウス', '동화 속 나무집처럼 지은 독특한 건축물입니다.', 'A whimsical building designed like a fairy-tale tree house.', 'おとぎ話のツリーハウスのような独特の建物です。'],
       ['다딴라 폭포', 'Datanla Waterfall', 'ダタンラの滝', '시내 남쪽 숲속 폭포로, 레일 썰매를 타고 내려갈 수 있습니다.', 'A forest waterfall south of town, reached by an alpine coaster.', '市の南の森の中にある滝で、ボブスレーで下っていけます。'],
+      ['랑비앙산', 'Lang Biang Mountain', 'ランビアン山', '달랏 북쪽 고원에 솟은 산으로, 숲길을 걷고 고원 지대 풍경을 볼 수 있습니다.', 'A mountain north of Da Lat, with forest trails and highland scenery.', 'ダラット北方にそびえる山で、森の道を歩きながら高原の景色を楽しめます。'],
     ],
     t: [
       ['고원 도시라 아침저녁이 쌀쌀합니다. 얇은 겉옷을 꼭 챙기세요.', 'It is a highland town with cool mornings and evenings; bring a light jacket.', '高原の街なので朝晩は肌寒いです。薄手の上着を必ず持参しましょう。'],

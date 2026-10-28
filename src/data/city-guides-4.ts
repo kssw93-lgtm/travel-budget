@@ -51,7 +51,7 @@ export const NOTES_4: Record<string, Compact> = {
       ['초르수 바자르', 'Chorsu Bazaar', 'チョルスー・バザール', '파란 돔 아래 향신료·건과일·빵이 모인 큰 전통 시장입니다.', 'A huge traditional market under a blue dome, full of spices, dried fruit and bread.', '青いドームの下にスパイスやドライフルーツ、パンが並ぶ大きな市場です。'],
       ['타슈켄트 지하철역', 'Tashkent Metro stations', 'タシケント地下鉄の駅', '역마다 장식이 달라 박물관 같다는 평을 듣는 지하철입니다.', 'Each station is uniquely decorated, often called an underground museum.', '駅ごとに装飾が異なり、地下の美術館とも呼ばれます。'],
       ['하즈라티 이맘 단지', 'Hazrati Imam Complex', 'ハズラティ・イマーム', '모스크와 마드라사가 모인 이슬람 종교 단지입니다.', 'A religious complex of mosques and madrasas.', 'モスクとマドラサが集まるイスラムの宗教施設群です。'],
-      ['사마르칸트', 'Samarkand', 'サマルカンド', '레기스탄 광장으로 유명한 실크로드 도시로, 타슈켄트에서 고속열차로 당일 또는 1박으로 다녀옵니다.', 'The Silk Road city of the Registan, reachable from Tashkent by high-speed train as a day or overnight trip.', 'レギスタン広場で知られるシルクロードの都市で、タシケントから高速列車で日帰りか1泊で行けます。'],
+      ['티무르 왕조 역사박물관', 'State Museum of the Temurids History', 'ティムール朝歴史博物館', '아미르 티무르와 티무르 왕조 시기의 우즈베키스탄 역사·유물을 소개하는 타슈켄트 중심부 박물관입니다.', 'A central Tashkent museum on Amir Timur and Uzbekistan during the Timurid dynasty.', 'アミール・ティムールとティムール朝時代のウズベキスタンの歴史・遺物を紹介するタシケント中心部の博物館です。'],
     ],
     t: [
       ['타슈켄트에서 사마르칸트·부하라로 가는 아프로시욥 고속열차는 성수기에 표를 미리 예매하세요.', 'Book Afrosiyob high-speed train tickets from Tashkent to Samarkand and Bukhara in advance, especially in peak season.', 'タシュケントからサマルカンド・ブハラへ向かう高速列車アフラシアブの切符は、繁忙期には早めに予約しましょう。'],

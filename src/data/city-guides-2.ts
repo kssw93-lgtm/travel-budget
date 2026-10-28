@@ -106,11 +106,13 @@ export const NOTES_2: Record<string, Compact> = {
       ['키나발루 공원', 'Kinabalu Park', 'キナバル公園', '동남아 최고봉 키나발루산이 있는 유네스코 세계유산 공원입니다.', 'A UNESCO World Heritage park around Mount Kinabalu.', 'キナバル山がある世界遺産の公園です。'],
       ['탄중아루 해변 노을', 'Tanjung Aru sunset', 'タンジュン・アル・ビーチの夕日', '시내에서 가까운 해변으로, 해 질 녘 노을이 아름답기로 유명합니다.', 'A beach near the city famed for its sunsets.', '市内から近いビーチで、夕焼けが美しいことで有名です。'],
       ['마리마리 문화마을', 'Mari Mari Cultural Village', 'マリマリ文化村', '사바주 다섯 민족의 전통 가옥과 생활을 체험하는 \'살아 있는 박물관\'으로, 하루 정해진 시간에 투어가 열립니다.', 'A \'living museum\' of the traditional homes and crafts of five Sabah peoples, visited on scheduled tours.', 'サバ州の五つの民族の伝統家屋と暮らしを体験する「生きた博物館」で、決まった時間にツアーがあります。'],
+      ['더블 식스 기념비', 'Double Six Monument', 'ダブル・シックス記念碑', '1976년 항공 사고 희생자를 기리는 오벨리스크와 작은 전시실이 그레이스 가든에 있습니다.', 'An obelisk commemorating the victims of the 1976 air crash stands in Grace Garden, with a small memorial gallery nearby.', '1976年の航空事故の犠牲者を追悼するオベリスクがグレース・ガーデンにあり、近くに小さな記念展示室があります。'],
     ],
     t: [
       ['해양공원 섬에 들어갈 때는 공원 입장료를 따로 내야 합니다.', 'A separate park fee is charged when you land on the marine-park islands.', '海洋公園の島に上陸する際は別途入園料がかかります。'],
       ['일요일 오전 가야 거리 시장(Gaya Street Sunday Market)에서 현지 간식과 공예품을 볼 수 있습니다.', 'The Gaya Street Sunday Market is good for local snacks and crafts.', '日曜朝のガヤ・ストリート・マーケットで地元のお菓子や工芸品が見られます。'],
       ['코타키나발루공항의 항공정보 안내에는 택시와 공공버스가 교통수단으로 나와 있어요. 도착 후 목적지에 맞는 승차 위치와 운행 정보를 확인하세요.', 'Kota Kinabalu Airport’s aeronautical information lists taxis and public buses. Check the pickup point and service for your destination after arrival.', 'コタキナバル空港の航空情報にはタクシーと路線バスが案内されています。到着後、目的地に合う乗り場と運行情報を確認しましょう。'],
+      ['사바 관광청 일본어 안내는 사바주립박물관 본관이 보수 공사로 장기 휴관 중이라고 알립니다. 방문 직전 재개관 여부와 별관 운영을 확인하세요.', 'Sabah Tourism’s Japanese guide reports that the main Sabah State Museum building is closed long-term for renovation. Check its reopening and the status of other buildings before visiting.', 'サバ州観光局の日本語案内では、サバ州立博物館の本館は改修のため長期休館中とされています。訪問前に再開館や別館の運営状況を確認してください。'],
     ],
   },
   krakow: {

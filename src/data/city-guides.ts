@@ -84,9 +84,19 @@ const BASE: Record<string, CityGuideNote> = {
         ja: '交通系ICカード（Suica・PASMO）は電車やバスだけでなく、コンビニや自販機の支払いにも使えます。',
       },
       {
-        ko: '공항에서 시내: 나리타 공항은 게이세이 스카이라이너(우에노·닛포리)나 JR 나리타 익스프레스(도쿄역·신주쿠)를, 하네다 공항은 게이큐선이나 도쿄 모노레일을 타면 됩니다. 하네다가 시내에서 훨씬 가깝습니다.',
-        en: 'Airport to city: from Narita take the Keisei Skyliner (Ueno, Nippori) or JR Narita Express (Tokyo, Shinjuku); from Haneda take the Keikyu Line or Tokyo Monorail. Haneda is much closer to the centre.',
-        ja: '空港から市内へ：成田空港からは京成スカイライナー(上野・日暮里)かJR成田エクスプレス(東京・新宿)、羽田空港からは京急線か東京モノレールが便利です。羽田のほうが都心にずっと近いです。',
+        ko: '나리타공항 철도역은 제1터미널 지하 1층과 제2터미널 본관 지하 1층에 있습니다. 제3터미널에서는 제2·3터미널역까지 연결 통로나 무료 셔틀을 이용하세요. 스카이라이너는 닛포리·우에노, 나리타 익스프레스는 도쿄·시부야·신주쿠 방면으로 갑니다.',
+        en: 'Narita rail stations are on B1 at Terminal 1 and the main building of Terminal 2. From Terminal 3, use the access corridor or free shuttle to the Terminal 2·3 station. The Skyliner serves Nippori and Ueno; the Narita Express serves Tokyo, Shibuya and Shinjuku.',
+        ja: '成田空港の鉄道駅は第1ターミナルと第2ターミナル本館の地下1階にあります。第3ターミナルから第2・3ターミナル駅へは連絡通路または無料シャトルを利用します。スカイライナーは日暮里・上野、成田エクスプレスは東京・渋谷・新宿方面へ向かいます。',
+      },
+      {
+        ko: '하네다공항에서는 도착층의 안내 표지를 따라 게이큐선 또는 도쿄 모노레일 역으로 이동하세요. 모노레일은 하마마쓰초역까지 가며, 역 안내도에서 제1·2·3터미널 승강장 위치를 확인할 수 있습니다.',
+        en: 'At Haneda, follow the arrival-level signs to the Keikyu Line or Tokyo Monorail station. The monorail runs to Hamamatsucho; its station guide shows the platforms for Terminals 1, 2 and 3.',
+        ja: '羽田空港では到着階の案内に従い、京急線または東京モノレールの駅へ進みます。モノレールは浜松町駅へ運行し、駅案内図で第1・2・3ターミナルの乗り場を確認できます。',
+      },
+      {
+        ko: '나리타 제3터미널에서 철도를 탈 때는 공항 표지의 「철도역」을 따라 제2터미널 본관 지하 1층의 역으로 이동하세요. 걷기 어려우면 터미널 셔틀 승강장 안내를 확인하세요.',
+        en: 'To take a train from Narita Terminal 3, follow the airport signs for the railway station to the B1 station in Terminal 2’s main building. If you prefer not to walk, check the terminal shuttle stop information.',
+        ja: '成田第3ターミナルから鉄道に乗る場合は、空港内の「鉄道駅」案内に従い、第2ターミナル本館地下1階の駅へ向かいます。歩くのが難しい場合はターミナルシャトルの乗り場を確認してください。',
       },
       {
         ko: '노선 구조: 도쿄의 전철은 JR(야마노테선 등), 도쿄 메트로, 도에이 지하철, 사철이 각각 다른 회사입니다. 교통카드 한 장으로 모두 탈 수 있고, 역마다 노선 기호와 번호(예: G09)가 붙어 있어 이를 보고 갈아타면 헷갈리지 않습니다.',
@@ -160,9 +170,14 @@ const BASE: Record<string, CityGuideNote> = {
         ja: '大阪ではエスカレーターの右側に立つ習慣がありますが、安全のため片側を空けようとして歩かず、手すりにつかまって立ち止まって利用してください。',
       },
       {
-        ko: '공항에서 시내: 간사이 공항에서 난바는 난카이 특급 라피트, 신오사카·덴노지는 JR 특급 하루카가 편합니다. 이타미(오사카) 공항은 국내선 위주이며 모노레일·리무진 버스로 연결됩니다.',
-        en: 'Airport to city: from Kansai Airport take the Nankai Rapi:t to Namba or JR Haruka to Tennoji and Shin-Osaka. Itami (Osaka) Airport is mainly domestic, linked by monorail and limousine bus.',
-        ja: '空港から市内へ：関西空港からなんばへは南海特急ラピート、天王寺・新大阪へはJR特急はるかが便利です。伊丹(大阪)空港は主に国内線で、モノレールやリムジンバスでつながります。',
+        ko: '간사이공항 제1터미널에서는 2층 바깥 연결통로로 JR·난카이 간사이공항역에 바로 갈 수 있습니다. 난카이 라피트는 난바, JR 하루카는 덴노지·신오사카 방면으로 가므로 숙소와 가까운 역을 기준으로 고르세요.',
+        en: 'At Kansai Airport Terminal 1, the outside passage on the second floor connects directly to JR and Nankai Kansai Airport Station. Nankai Rapi:t serves Namba; JR Haruka serves Tennoji and Shin-Osaka, so choose by the station nearest your stay.',
+        ja: '関西空港第1ターミナルでは、2階の外側連絡通路からJR・南海の関西空港駅へ直結しています。南海ラピートはなんば、JRはるかは天王寺・新大阪方面へ向かうため、宿泊先に近い駅で選びましょう。',
+      },
+      {
+        ko: '간사이공항 제2터미널에는 철도역이 없습니다. 아에로플라자 승강장의 무료 셔틀로 제1터미널·간사이공항역까지 이동한 뒤 열차를 타세요.',
+        en: 'There is no railway station at Kansai Airport Terminal 2. Take the free shuttle from Aeroplaza to Terminal 1 and Kansai Airport Station before boarding a train.',
+        ja: '関西空港第2ターミナルに鉄道駅はありません。アエロプラザの乗り場から無料シャトルで第1ターミナル・関西空港駅へ移動してから乗車してください。',
       },
       {
         ko: '노선 구조: 오사카에는 JR(오사카 순환선 등), 오사카 메트로, 한큐·한신·게이한·난카이·긴테쓰 같은 사철이 함께 다닙니다. 같은 \'난바\'나 \'우메다\'라도 회사마다 역이 따로 있으니 탈 노선의 역 이름을 확인하세요. 교통카드는 모두 쓸 수 있습니다.',
@@ -236,9 +251,14 @@ const BASE: Record<string, CityGuideNote> = {
         ja: '川沿いの名所間はチャオプラヤー・エクスプレス・ボートで移動すると渋滞を避けられます。',
       },
       {
-        ko: '공항에서 시내: 수완나품 공항에서는 공항철도(에어포트 레일 링크)로 파야타이역까지 가서 BTS로 갈아탈 수 있습니다. 돈므앙 공항은 SRT 레드라인 돈므앙역과 연결됩니다.',
-        en: 'Airport to city: from Suvarnabhumi, the Airport Rail Link runs to Phaya Thai for the BTS Skytrain. Don Mueang Airport connects to the SRT Red Line at Don Mueang station.',
-        ja: '空港から市内へ：スワンナプーム空港からはエアポート・レール・リンクでパヤタイ駅へ行き、BTSに乗り換えられます。ドンムアン空港はSRTレッドラインのドンムアン駅につながっています。',
+        ko: '수완나품공항 에어포트 레일 링크 역은 여객터미널 지하 1층(B1)에 있습니다. 파야타이행 열차를 타면 종점에서 BTS 스카이트레인으로 갈아탈 수 있습니다.',
+        en: 'The Suvarnabhumi Airport Rail Link station is on B1 of the passenger terminal. Take a train to Phaya Thai, where you can transfer to the BTS Skytrain.',
+        ja: 'スワンナプーム空港のエアポート・レール・リンク駅は旅客ターミナル地下1階(B1)にあります。パヤタイ行きに乗り、終点でBTSスカイトレインに乗り換えられます。',
+      },
+      {
+        ko: '돈므앙공항에서 SRT 레드라인을 탈 때는 공항 앞 깜팽펫 6 도로의 돈므앙역으로 이동하세요. 역 안내도에서 공항과 역 사이 출입구를 확인하고, 시내 방면은 끄룽텝 아피왓행 열차를 이용합니다.',
+        en: 'For the SRT Red Line from Don Mueang Airport, go to Don Mueang Station on Kamphaeng Phet 6 Road in front of the airport. Check the station map for the airport-side entrances and take a train toward Krung Thep Aphiwat for the city.',
+        ja: 'ドンムアン空港からSRTレッドラインに乗る場合は、空港前のカンペーンペット6通りにあるドンムアン駅へ向かいます。駅案内図で空港側の出入口を確認し、市内方面はクルンテープ・アピワット行きに乗ります。',
       },
     ],
   },
@@ -297,9 +317,14 @@ const BASE: Record<string, CityGuideNote> = {
         ja: 'レストランで水道水（carafe d’eau）を頼むと無料で出てきます。',
       },
       {
-        ko: '공항에서 시내: 샤를 드골 공항에서는 RER B선(북역·샤틀레)이나 루아시버스(오페라)를, 오를리 공항에서는 메트로 14호선이나 오를리발을 이용합니다.',
-        en: 'Airport to city: from Charles de Gaulle take RER B (Gare du Nord, Châtelet) or the Roissybus (Opéra); from Orly take Metro Line 14 or Orlyval.',
-        ja: '空港から市内へ：シャルル・ド・ゴール空港からはRER B線(北駅・シャトレ)かロワシーバス(オペラ)、オルリー空港からはメトロ14号線かオルリーヴァルを使います。',
+        ko: '샤를 드골공항은 RER B선 「Aéroport CDG 1」역이 제1·3터미널을, 「Aéroport CDG 2–TGV」역이 제2터미널 구역을 담당합니다. 오를리공항은 메트로 14호선 종점 「Aéroport d’Orly」에서 탈 수 있습니다. 숙소에서 가까운 RER B역이나 14호선 역을 목적지로 정하세요.',
+        en: 'At Charles de Gaulle, RER B’s Aéroport CDG 1 station serves Terminals 1 and 3, while Aéroport CDG 2–TGV serves the Terminal 2 area. At Orly, board Metro Line 14 at its Aéroport d’Orly terminus. Choose the RER B or Line 14 stop nearest your accommodation.',
+        ja: 'シャルル・ド・ゴール空港では、RER B線の「Aéroport CDG 1」駅が第1・3ターミナル、「Aéroport CDG 2–TGV」駅が第2ターミナル地区に対応します。オルリー空港ではメトロ14号線の終点「Aéroport d’Orly」から乗車できます。宿泊先に近いRER Bまたは14号線の駅を目的地にしましょう。',
+      },
+      {
+        ko: '2026년 3월 1일부터 루아시버스 운행이 종료됐습니다. 샤를 드골공항은 RER B나 생드니 플레옐 출발 9517번 급행버스, 파리 시내에서는 350·351번 버스를 이용할 수 있습니다. 출발 정류장과 운행 여부는 당일 공식 안내에서 확인하세요.',
+        en: 'Roissybus service ended on 1 March 2026. For Charles de Gaulle, alternatives include RER B, express bus 9517 from Saint-Denis–Pleyel, and Paris buses 350 and 351. Check the official service information for your departure stop and operating status.',
+        ja: 'ロワシーバスは2026年3月1日に運行を終了しました。シャルル・ド・ゴール空港へはRER B線、サン・ドニ・プレイエル発の急行9517番、パリ市内発の350・351番バスを利用できます。出発停留所と運行状況は当日の公式案内で確認してください。',
       },
       {
         ko: '도시 간 이동: 리옹역에서 TGV를 타면 리옹 2시간 안팎, 동역에서 스트라스부르 2시간 안팎입니다. 출발역이 목적지마다 다르니 표의 역 이름을 확인하세요.',

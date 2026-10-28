@@ -42,7 +42,8 @@ export const NOTES_6: Record<string, Compact> = {
     t: [
       ['호커 센터에서는 휴지 한 묶음을 자리에 올려 두면 자리를 맡았다는 표시입니다.', 'A packet of tissues on a hawker-centre seat means it is taken.', 'ホーカーセンターで席にティッシュを置くのは「席取り」の印です。'],
       ['지하철·버스는 비접촉 카드로 바로 탈 수 있고, 차 안 음식물 섭취는 금지입니다.', 'Tap a contactless card on trains and buses; eating and drinking on board is banned.', '電車・バスはタッチ決済で乗れ、車内での飲食は禁止です。'],
-      ['공항에서 시내: 창이공항에서 MRT 이스트웨스트선을 타고 타나메라역에서 갈아타면 시내로 갑니다. 택시 승차장도 각 터미널에 있습니다.', 'Airport to city: take the MRT East–West Line from Changi and change at Tanah Merah for the city; each terminal also has a taxi stand.', '空港から市内へ：チャンギ空港からMRT東西線に乗り、タナメラ駅で乗り換えると市内へ行けます。各ターミナルにタクシー乗り場もあります。'],
+      ['창이공항 MRT역은 제2·3터미널과 바로 연결됩니다. 시내 방면은 타나메라역에서 동서선, 엑스포역에서 다운타운선으로 갈아타세요. 제1터미널은 연결통로를, 제4터미널은 무료 셔틀을 이용해 MRT역이 있는 터미널로 이동합니다.', 'Changi Airport MRT Station connects directly to Terminals 2 and 3. For the city, transfer to the East–West Line at Tanah Merah or the Downtown Line at Expo. From Terminal 1 use the link bridge; from Terminal 4 take the free shuttle to a terminal with MRT access.', 'チャンギ空港MRT駅は第2・3ターミナルに直結しています。市内方面はタナメラ駅で東西線、エクスポ駅でダウンタウン線に乗り換えます。第1ターミナルからは連絡橋、第4ターミナルからは無料シャトルでMRT駅のあるターミナルへ移動します。'],
+      ['제4터미널과 MRT가 연결된 터미널 사이의 무료 셔틀은 제4터미널 도착층 버스 라운지와 제2터미널 도착 픽업 구역에서 탈 수 있습니다. 셔틀 승강장 표지를 따라가세요.', 'The free shuttle between Terminal 4 and the MRT-connected terminals boards at the Terminal 4 Arrival Bus Lounge and Terminal 2 Arrival Pick-up area. Follow the shuttle signs.', '第4ターミナルとMRT接続ターミナル間の無料シャトルは、第4ターミナル到着階のバスラウンジと第2ターミナル到着ピックアップエリアから乗車できます。シャトルの案内表示に従ってください。'],
     ],
   },
   london: {
@@ -56,7 +57,8 @@ export const NOTES_6: Record<string, Compact> = {
     t: [
       ['지하철·버스는 비접촉 카드로 타면 하루·주간 요금 상한이 자동 적용됩니다.', 'Tapping a contactless card applies daily and weekly fare caps automatically.', '地下鉄・バスはタッチ決済で乗ると1日・週の上限運賃が自動で適用されます。'],
       ['국립 박물관·미술관 대부분이 상설 전시를 무료로 공개합니다.', 'Most national museums and galleries are free for permanent collections.', '国立の博物館・美術館の多くは常設展が無料です。'],
-      ['공항에서 시내: 히스로 공항에서는 엘리자베스선, 피커딜리선 지하철, 패딩턴역까지 가는 히스로 익스프레스 중에서 고르면 됩니다. 개트윅은 개트윅 익스프레스와 템스링크 열차가 있습니다.', 'Airport to city: from Heathrow choose the Elizabeth line, the Piccadilly line or the Heathrow Express to Paddington; Gatwick has the Gatwick Express and Thameslink trains.', '空港から市内へ：ヒースロー空港からはエリザベス線、ピカデリー線、パディントン駅行きのヒースロー・エクスプレスから選べます。ガトウィックにはガトウィック・エクスプレスとテムズリンクがあります。'],
+      ['히스로공항 T2·T3의 철도역은 두 터미널 사이 보행 지하통로로 몇 분 걸립니다. T4 역은 도착층 아래, T5 역은 터미널 지하에 있습니다. 엘리자베스선은 런던 여러 역으로, 히스로 익스프레스는 패딩턴으로, 피카딜리선은 모든 터미널에서 시내로 갑니다.', 'At Heathrow, the rail station for T2 and T3 is between the terminals via a pedestrian subway; T4’s station is below Arrivals and T5’s is in the terminal basement. The Elizabeth line serves central London stations, Heathrow Express goes to Paddington, and the Piccadilly line serves every terminal.', 'ヒースロー空港では、T2・T3の鉄道駅は両ターミナル間の地下通路を通って数分です。T4駅は到着階の下、T5駅はターミナル地下にあります。エリザベス線はロンドン各駅へ、ヒースロー・エクスプレスはパディントンへ、ピカデリー線は全ターミナルから市内へ運行します。'],
+      ['개트윅공항 열차역은 사우스 터미널에 있습니다. 노스 터미널에 도착했다면 터미널 간 무료 셔틀을 타고 사우스 터미널로 이동한 뒤 열차 표지판을 따라가세요.', 'Gatwick Airport’s rail station is at the South Terminal. If you arrive at the North Terminal, take the free inter-terminal shuttle to the South Terminal and follow the train signs.', 'ガトウィック空港の鉄道駅はサウスターミナルにあります。ノースターミナルに到着した場合は無料のターミナル間シャトルでサウスターミナルへ移動し、鉄道の案内に従ってください。'],
       ['대영박물관은 12월 24~26일 휴관하며, 일부 전시실은 별도 공지로 닫힐 수 있으니 방문 전 운영사 안내를 확인하세요.', 'The British Museum closes on 24–26 December, and individual galleries may close separately; check the museum’s visitor updates before your visit.', '大英博物館は12月24日〜26日が休館日です。展示室ごとの臨時休室もあるため、来館前に公式案内を確認してください。'],
     ],
   },

@@ -52,7 +52,10 @@ const AIRPORT_ORIGINS: Record<string, AirportOrigin[]> = {
     { label: 'Charles de Gaulle Airport (CDG)', query: 'Paris Charles de Gaulle Airport' },
     { label: 'Paris-Orly Airport (ORY)', query: 'Paris-Orly Airport' },
   ],
-  rome: [{ label: 'Leonardo da Vinci–Fiumicino Airport (FCO)', query: 'Leonardo da Vinci-Fiumicino Airport' }],
+  rome: [
+    { label: 'Leonardo da Vinci–Fiumicino Airport (FCO)', query: 'Leonardo da Vinci-Fiumicino Airport' },
+    { label: 'Ciampino–G. B. Pastine Airport (CIA)', query: 'Ciampino–G. B. Pastine Airport' },
+  ],
   sapporo: [{ label: 'New Chitose Airport', query: 'New Chitose Airport' }],
   seoul: [
     { label: 'Incheon International Airport (ICN)', query: 'Incheon International Airport' },

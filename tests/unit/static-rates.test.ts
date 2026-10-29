@@ -21,7 +21,7 @@ describe('조사 고정 환율표', () => {
   });
 
   it('기준일·출처가 붙어 있다', () => {
-    expect(STATIC_RATES.asOf).toBe('2026-10-16');
+    expect(STATIC_RATES.asOf).toBe('2026-10-28');
     expect(STATIC_RATES.source.url).toMatch(/^https:\/\/www\.ecb\.europa\.eu\//);
   });
 });

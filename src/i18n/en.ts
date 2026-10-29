@@ -298,8 +298,8 @@ export const en: Messages = {
     enough: '{n} independent samples',
   },
   preview: {
-    banner: 'Demo preview. Exchange rates come from a researched fixed rate table (as of 2026-10-16).',
-    rates: 'Preview: the public exchange rate APIs could not be reached, so only local-currency amounts are shown. The live site uses rates its server refreshes once a day.',
+    banner: 'Demo preview. Exchange rates use a researched fixed table updated weekly (as of 2026-10-28).',
+    rates: 'Exchange rates use a fixed table based on official sources and are updated weekly. Actual exchange rates and fees may differ.',
   },
   detail: {
     open: 'Show details',

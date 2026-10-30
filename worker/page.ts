@@ -15,7 +15,8 @@ export async function page(request: Request, assets: Fetcher): Promise<Response>
   if (url.hostname.endsWith('.workers.dev') && (request.method === 'GET' || request.method === 'HEAD')) {
     return Response.redirect(`${CANONICAL_ORIGIN}${url.pathname}${url.search}`, 301);
   }
-  if (url.pathname === '/christmas-markets' || url.pathname === '/christmas-markets.html') {
+  const legacyChristmasPath = url.pathname.replace(/\/+$/, '');
+  if (legacyChristmasPath === '/christmas-markets' || legacyChristmasPath === '/christmas-markets.html') {
     const target = new URL('/guides', url);
     const lang = url.searchParams.get('lang');
     if (lang === 'ko' || lang === 'en' || lang === 'ja') target.searchParams.set('lang', lang);

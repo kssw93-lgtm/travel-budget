@@ -1259,6 +1259,62 @@
     "missing": [],
     "computable": true
   },
+  "sao-paulo": {
+    "counts": {
+      "food": 3,
+      "transport": 1,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 3,
+      "snack": 0,
+      "drink": 0,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 3,
+      "snack": 0,
+      "drink": 0,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
+  "abu-dhabi": {
+    "counts": {
+      "food": 3,
+      "transport": 1,
+      "attraction": 3
+    },
+    "baskets": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "basketRows": {
+      "pass": 0,
+      "ride": 1,
+      "meal": 3,
+      "snack": 3,
+      "drink": 3,
+      "attraction": 3,
+      "souvenir": 0
+    },
+    "fillRate": 1,
+    "missing": [],
+    "computable": true
+  },
   "toronto": {
     "counts": {
       "food": 8,

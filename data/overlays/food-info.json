@@ -6026,5 +6026,45 @@
     "ko": "대마도 관광협회가 향토요리 가운데 하나로 소개하는 지역 음식입니다.",
     "en": "A local dish named among Tsushima’s regional specialities by the island’s tourism association.",
     "ja": "対馬観光物産協会が郷土料理の一つとして紹介する料理です。"
+  },
+  "sao-paulo:Virado à Paulista": {
+    "ko": "쌀과 콩에 돼지고기, 달걀, 콜라드그린 등을 곁들이는 상파울루 대표 요리입니다.",
+    "en": "A São Paulo classic served with rice, beans and accompaniments such as pork, egg and collard greens.",
+    "ja": "米と豆に豚肉、卵、コウラードなどを添えるサンパウロの郷土料理です。"
+  },
+  "sao-paulo:Bauru sandwich": {
+    "ko": "로스트비프와 녹인 치즈, 토마토, 피클을 넣는 상파울루식 샌드위치입니다.",
+    "en": "A São Paulo sandwich filled with roast beef, melted cheese, tomato and pickles.",
+    "ja": "ローストビーフ、溶かしたチーズ、トマト、ピクルスを挟むサンパウロ発祥のサンドイッチです。"
+  },
+  "sao-paulo:Cuscuz Paulista": {
+    "ko": "옥수수 가루를 기본으로 여러 재료를 넣어 굳혀 내는 상파울루식 쿠스쿠스입니다.",
+    "en": "A São Paulo-style savoury couscous made with cornmeal and set with assorted ingredients.",
+    "ja": "コーンミールをベースに具材を加えて型に詰めて仕上げる、サンパウロ風クスクスです。"
+  },
+  "sao-paulo:Mortadella sandwich": {
+    "ko": "시립 시장 메르카당의 바 두 마네가 대표 메뉴로 소개하는 모르타델라 샌드위치입니다.",
+    "en": "A mortadella sandwich highlighted as a signature item at Bar do Mané in the city market, Mercadão.",
+    "ja": "市営市場メルカドンのバール・ド・マネーが名物として紹介するモルタデッラサンドイッチです。"
+  },
+  "abu-dhabi:Harees": {
+    "ko": "밀과 고기를 천천히 익혀 죽처럼 만든 에미리트 전통 요리입니다.",
+    "en": "An Emirati dish of wheat and meat slow-cooked to a porridge-like consistency.",
+    "ja": "小麦と肉をじっくり煮込み、おかゆ状に仕上げるエミラティ料理です。"
+  },
+  "abu-dhabi:Machboos": {
+    "ko": "향신료를 넣은 밥에 닭고기·양고기 또는 생선을 곁들이는 에미리트 음식입니다.",
+    "en": "An Emirati staple of spiced rice served with chicken, lamb or fish.",
+    "ja": "スパイスで炊いたご飯に鶏肉、羊肉、または魚を添えるエミラティの定番料理です。"
+  },
+  "abu-dhabi:Luqaimat": {
+    "ko": "바삭하게 튀긴 반죽 공에 대추 시럽을 곁들인 에미리트 디저트입니다.",
+    "en": "Crisp fried dough balls drizzled with date syrup, a popular Emirati dessert.",
+    "ja": "カリッと揚げた生地にデーツシロップをかけた、人気のエミラティデザートです。"
+  },
+  "abu-dhabi:Chebab": {
+    "ko": "대추 당밀과 함께 먹는 에미리트식 팬케이크입니다.",
+    "en": "Emirati pancakes served with date molasses.",
+    "ja": "デーツの糖蜜と一緒に食べるエミラティ風パンケーキです。"
   }
 }

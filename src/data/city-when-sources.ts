@@ -512,4 +512,9 @@ export const WHEN_SOURCES: Record<string, string> = {
   'marrakech:x': 'https://www.visitmorocco.com/en/travel-info/climate-and-seasons',
   'tsushima:p1': 'https://www.tsushima-net.org/news/20260611_fieldnote',
   'tsushima:x': 'https://tsushima-airport.co.jp/transportration',
+  'sao-paulo:p1': 'https://cge.prefeitura.sp.gov.br/v3/sala-de-imprensa.jsp?data=2024-08-01',
+  'sao-paulo:p2': 'https://cge.prefeitura.sp.gov.br/v3/sala-de-imprensa.jsp?data=2026-09-21',
+  'sao-paulo:x': 'https://cge.prefeitura.sp.gov.br/v3/sala-de-imprensa.jsp?id=37453',
+  'abu-dhabi:p1': 'https://visitabudhabi.ae/plan-your-trip/article-hub/things-to-do-by-season',
+  'abu-dhabi:x': 'https://visitabudhabi.ae/en/plan-your-trip/essential-info/weather-in-abu-dhabi/',
 };

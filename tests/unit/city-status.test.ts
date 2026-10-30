@@ -45,6 +45,7 @@ describe('파일럿 도시 데이터 상태', () => {
     expect(table).toMatchInlineSnapshot(`
       {
         "aarhus": "3/1/1 · 100% · ready",
+        "abu-dhabi": "3/1/3 · 100% · ready",
         "adelaide": "4/1/2 · 100% · ready",
         "almaty": "3/1/3 · 100% · ready",
         "amsterdam": "6/1/3 · 100% · ready",
@@ -188,6 +189,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "san-diego": "10/1/2 · 100% · ready",
         "san-francisco": "10/16/3 · 100% · ready",
         "san-sebastian": "6/1/1 · 100% · ready",
+        "sao-paulo": "3/1/3 · 100% · ready",
         "sapporo": "4/3/5 · 100% · ready",
         "seattle": "10/1/2 · 100% · ready",
         "seoul": "14/3/13 · 100% · ready",
@@ -246,6 +248,7 @@ describe('파일럿 도시 데이터 상태', () => {
     expect(table).toMatchInlineSnapshot(`
       {
         "aarhus": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 1/1 · souvenir 0/0",
+        "abu-dhabi": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "adelaide": "pass 0/0 · ride 1/1 · meal 4/4 · snack 2/2 · attraction 2/2 · souvenir 0/0",
         "almaty": "pass 0/0 · ride 1/1 · meal 3/3 · snack 2/2 · attraction 3/3 · souvenir 0/0",
         "amsterdam": "pass 1/1 · ride 0/0 · meal 6/6 · snack 3/3 · attraction 3/3 · souvenir 0/0",
@@ -389,6 +392,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "san-diego": "pass 0/0 · ride 1/1 · meal 10/10 · snack 12/12 · attraction 2/2 · souvenir 0/0",
         "san-francisco": "pass 0/0 · ride 16/16 · meal 10/10 · snack 12/12 · attraction 3/3 · souvenir 0/0",
         "san-sebastian": "pass 1/1 · ride 0/0 · meal 6/6 · snack 5/5 · attraction 1/1 · souvenir 0/0",
+        "sao-paulo": "pass 0/0 · ride 1/1 · meal 3/3 · snack 0/0 · attraction 3/3 · souvenir 0/0",
         "sapporo": "pass 1/1 · ride 3/3 · meal 4/4 · snack 3/3 · attraction 5/5 · souvenir 0/0",
         "seattle": "pass 0/0 · ride 1/1 · meal 10/10 · snack 12/12 · attraction 2/2 · souvenir 0/0",
         "seoul": "pass 2/5 · ride 3/3 · meal 14/14 · snack 7/7 · attraction 13/13 · souvenir 6/6",

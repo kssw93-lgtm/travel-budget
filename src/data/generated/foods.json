@@ -1353,6 +1353,78 @@
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
   },
   {
+    "cityId": "abu-dhabi",
+    "nameKo": "하리스",
+    "nameEn": "Harees",
+    "reason": "밀과 고기를 천천히 익혀 죽처럼 만든 에미리트 전통 음식",
+    "reasonEn": "An Emirati staple of wheat and meat slow-cooked to a porridge-like consistency.",
+    "desc": {
+      "ko": "밀과 고기를 천천히 익혀 죽처럼 만든 에미리트 전통 요리입니다.",
+      "en": "An Emirati dish of wheat and meat slow-cooked to a porridge-like consistency.",
+      "ja": "小麦と肉をじっくり煮込み、おかゆ状に仕上げるエミラティ料理です。"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Experience Abu Dhabi",
+    "recommendUrl": "https://visitabudhabi.ae/en/things-to-do/culture/emirati-culture/food-and-coffee/",
+    "note": ""
+  },
+  {
+    "cityId": "abu-dhabi",
+    "nameKo": "마크부스",
+    "nameEn": "Machboos",
+    "reason": "향신료를 넣은 밥에 닭고기·양고기 또는 생선을 곁들여 먹는 대표 음식",
+    "reasonEn": "A spiced-rice dish traditionally served with chicken, lamb or fish.",
+    "desc": {
+      "ko": "향신료를 넣은 밥에 닭고기·양고기 또는 생선을 곁들이는 에미리트 음식입니다.",
+      "en": "An Emirati staple of spiced rice served with chicken, lamb or fish.",
+      "ja": "スパイスで炊いたご飯に鶏肉、羊肉、または魚を添えるエミラティの定番料理です。"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Experience Abu Dhabi",
+    "recommendUrl": "https://visitabudhabi.ae/en/things-to-do/culture/emirati-culture/food-and-coffee/",
+    "note": ""
+  },
+  {
+    "cityId": "abu-dhabi",
+    "nameKo": "루카이마트",
+    "nameEn": "Luqaimat",
+    "reason": "대추 시럽을 곁들인 바삭한 튀김 반죽으로 에미리트 대표 디저트",
+    "reasonEn": "Crisp fried dough balls served with date syrup, a classic Emirati sweet.",
+    "desc": {
+      "ko": "바삭하게 튀긴 반죽 공에 대추 시럽을 곁들인 에미리트 디저트입니다.",
+      "en": "Crisp fried dough balls drizzled with date syrup, a popular Emirati dessert.",
+      "ja": "カリッと揚げた生地にデーツシロップをかけた、人気のエミラティデザートです。"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Experience Abu Dhabi",
+    "recommendUrl": "https://visitabudhabi.ae/en/things-to-do/culture/emirati-culture/food-and-coffee/",
+    "note": ""
+  },
+  {
+    "cityId": "abu-dhabi",
+    "nameKo": "체밥",
+    "nameEn": "Chebab",
+    "reason": "대추 당밀과 함께 먹는 에미리트식 팬케이크",
+    "reasonEn": "Emirati pancakes commonly served with date molasses.",
+    "desc": {
+      "ko": "대추 당밀과 함께 먹는 에미리트식 팬케이크입니다.",
+      "en": "Emirati pancakes served with date molasses.",
+      "ja": "デーツの糖蜜と一緒に食べるエミラティ風パンケーキです。"
+    },
+    "budgetBand": "저",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Experience Abu Dhabi",
+    "recommendUrl": "https://visitabudhabi.ae/en/things-to-do/culture/emirati-culture/food-and-coffee/",
+    "note": ""
+  },
+  {
     "cityId": "adelaide",
     "nameKo": "프리츠",
     "nameEn": "Fritz",
@@ -11954,6 +12026,78 @@
     "recommendSource": "San Sebastián Turismo",
     "recommendUrl": "https://sansebastianturismoa.eus/en/food-drink/4094-top-5-pintxos-in-the-historical-quarter/",
     "note": "관광청 공식 안내 기준(Claude 웹검색 확인 2026-10-18)"
+  },
+  {
+    "cityId": "sao-paulo",
+    "nameKo": "비라도 아 파울리스타",
+    "nameEn": "Virado à Paulista",
+    "reason": "쌀·콩·돼지고기와 곁들임을 한 접시에 담는 상파울루 대표 요리",
+    "reasonEn": "A classic São Paulo dish, traditionally served with rice, beans and accompaniments.",
+    "desc": {
+      "ko": "쌀과 콩에 돼지고기, 달걀, 콜라드그린 등을 곁들이는 상파울루 대표 요리입니다.",
+      "en": "A São Paulo classic served with rice, beans and accompaniments such as pork, egg and collard greens.",
+      "ja": "米と豆に豚肉、卵、コウラードなどを添えるサンパウロの郷土料理です。"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visite São Paulo",
+    "recommendUrl": "https://visitesaopaulo.com/comida-paulista-confira-onde-comer-os-classicos-de-sp/",
+    "note": ""
+  },
+  {
+    "cityId": "sao-paulo",
+    "nameKo": "바우루 샌드위치",
+    "nameEn": "Bauru sandwich",
+    "reason": "로스트비프·치즈·토마토·피클을 프랑스빵에 넣은 상파울루의 전통 샌드위치",
+    "reasonEn": "A traditional sandwich from São Paulo with roast beef, melted cheese, tomato and pickles.",
+    "desc": {
+      "ko": "로스트비프와 녹인 치즈, 토마토, 피클을 넣는 상파울루식 샌드위치입니다.",
+      "en": "A São Paulo sandwich filled with roast beef, melted cheese, tomato and pickles.",
+      "ja": "ローストビーフ、溶かしたチーズ、トマト、ピクルスを挟むサンパウロ発祥のサンドイッチです。"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visite São Paulo",
+    "recommendUrl": "https://visitesaopaulo.com/comida-paulista-confira-onde-comer-os-classicos-de-sp/",
+    "note": ""
+  },
+  {
+    "cityId": "sao-paulo",
+    "nameKo": "상파울루식 쿠스쿠스",
+    "nameEn": "Cuscuz Paulista",
+    "reason": "옥수수 가루를 기본으로 여러 재료를 넣어 굳혀 내는 상파울루식 요리",
+    "reasonEn": "A savoury São Paulo-style corn couscous prepared with assorted ingredients.",
+    "desc": {
+      "ko": "옥수수 가루를 기본으로 여러 재료를 넣어 굳혀 내는 상파울루식 쿠스쿠스입니다.",
+      "en": "A São Paulo-style savoury couscous made with cornmeal and set with assorted ingredients.",
+      "ja": "コーンミールをベースに具材を加えて型に詰めて仕上げる、サンパウロ風クスクスです。"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visite São Paulo",
+    "recommendUrl": "https://visitesaopaulo.com/comida-paulista-confira-onde-comer-os-classicos-de-sp/",
+    "note": ""
+  },
+  {
+    "cityId": "sao-paulo",
+    "nameKo": "모르타델라 샌드위치",
+    "nameEn": "Mortadella sandwich",
+    "reason": "상파울루 시립 시장 바 두 마네의 대표 음식으로 소개되는 샌드위치",
+    "reasonEn": "A well-known sandwich served at Bar do Mané in São Paulo’s Municipal Market.",
+    "desc": {
+      "ko": "시립 시장 메르카당의 바 두 마네가 대표 메뉴로 소개하는 모르타델라 샌드위치입니다.",
+      "en": "A mortadella sandwich highlighted as a signature item at Bar do Mané in the city market, Mercadão.",
+      "ja": "市営市場メルカドンのバール・ド・マネーが名物として紹介するモルタデッラサンドイッチです。"
+    },
+    "budgetBand": "중",
+    "linkedPriceIds": [],
+    "priceStatus": "대기",
+    "recommendSource": "Visite São Paulo",
+    "recommendUrl": "https://visitesaopaulo.com/comida-paulista-confira-onde-comer-os-classicos-de-sp/",
+    "note": ""
   },
   {
     "cityId": "sapporo",

@@ -460,6 +460,26 @@
     "stage": "파일럿"
   },
   {
+    "id": "sao-paulo",
+    "country": "브라질",
+    "countryEn": "Brazil",
+    "nameKo": "상파울루",
+    "nameEn": "São Paulo",
+    "currency": "BRL",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
+    "id": "abu-dhabi",
+    "country": "아랍에미리트",
+    "countryEn": "United Arab Emirates",
+    "nameKo": "아부다비",
+    "nameEn": "Abu Dhabi",
+    "currency": "AED",
+    "tier": "B",
+    "stage": "파일럿"
+  },
+  {
     "id": "toronto",
     "country": "캐나다",
     "countryEn": "Canada",

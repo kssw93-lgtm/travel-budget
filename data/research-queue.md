@@ -94,6 +94,11 @@
 | 워싱턴 D.C. | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 보스턴 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 보스턴 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 상파울루 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 상파울루 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
+| 상파울루 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 아부다비 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 아부다비 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 토론토 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 토론토 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 시카고 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -1813,6 +1818,12 @@
 | BRG-AT-904 | 브뤼헤 | 브뤼헤 시청 아동 입장 | 0 EUR | A | 예 | 재검증 | [Musea Brugge](https://www.museabrugge.be/en/visit/locations/stadhuis) |
 | BRG-AT-905 | 브뤼헤 | 그루닝어 미술관 성인 입장 | 15 EUR | A | 예 | 재검증 | [Musea Brugge](https://www.museabrugge.be/en/visit/locations/groeningemuseum) |
 | BRG-AT-906 | 브뤼헤 | 그루닝어 미술관 아동 입장 | 0 EUR | A | 예 | 재검증 | [Musea Brugge](https://www.museabrugge.be/en/visit/locations/groeningemuseum) |
+| AUH-TR-501 | 아부다비 | 시내 공공버스 1회 승차권 | 2 AED | A | 예 | 재검증 | [Experience Abu Dhabi](https://visitabudhabi.ae/en/plan-your-trip/island-transportation-abu-dhabi) |
+| AUH-AT-501 | 아부다비 | 루브르 아부다비 성인 입장권 | 70 AED | A | 예 | 재검증 | [Louvre Abu Dhabi](https://www.louvreabudhabi.ae/en/visit/plan-your-visit/opening-times) |
+| AUH-AT-502 | 아부다비 | 루브르 아부다비 아동(12세 기준) 무료 입장 | 0 AED | A | 예 | 재검증 | [Louvre Abu Dhabi](https://www.louvreabudhabi.ae/en/visit/plan-your-visit/opening-times) |
+| AUH-AT-503 | 아부다비 | 카스르 알 호슨 성인 입장권 | 30 AED | A | 예 | 재검증 | [Experience Abu Dhabi](https://visitabudhabi.ae/en/things-to-do/culture/heritage/qasr-al-hosn) |
+| AUH-AT-504 | 아부다비 | 셰이크 자이드 그랜드 모스크 무료 입장(성인) | 0 AED | A | 예 | 재검증 | [Experience Abu Dhabi](https://visitabudhabi.ae/en/things-to-do/culture/landmarks-and-architecture/sheikh-zayed-grand-mosque) |
+| AUH-AT-505 | 아부다비 | 셰이크 자이드 그랜드 모스크 무료 입장(아동 12세 기준) | 0 AED | A | 예 | 재검증 | [Experience Abu Dhabi](https://visitabudhabi.ae/en/things-to-do/culture/landmarks-and-architecture/sheikh-zayed-grand-mosque) |
 | AMS-FD-501 | 암스테르담 | 풀 아이리시 아침 식사 | 14.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
 | AMS-FD-502 | 암스테르담 | 클럽 샌드위치 | 12.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
 | AMS-FD-503 | 암스테르담 | 채식 버거 | 16.5 EUR | A | 예 | 재검증 | [O'Donnell's Amsterdam](https://www.odonnellsamsterdam.nl/menu/) |
@@ -2036,6 +2047,13 @@
 | RIO-AT-504 | 리우데자네이루 | 유프 스타 리우 어린이 입장권(4~11세) | 39.9 BRL | A | 예 | 재검증 | [Yup Star Rio 공식 페이지](https://rio.yupstar.com.br/as-rodas/yup-star-rio/) |
 | RIO-AT-505 | 리우데자네이루 | 파르키 라지 무료 입장(성인) | 0 BRL | A | 예 | 재검증 | [EAV Parque Lage 공식 방문 안내](https://eavparquelage.rj.gov.br/o-parque) |
 | RIO-AT-506 | 리우데자네이루 | 파르키 라지 무료 입장(아동 6~12세) | 0 BRL | A | 예 | 재검증 | [EAV Parque Lage 공식 방문 안내](https://eavparquelage.rj.gov.br/o-parque) |
+| SAO-TR-501 | 상파울루 | 지하철·CPTM 단일 승차권 | 5.4 BRL | A | 예 | 재검증 | [Metrô de São Paulo](https://www.metro.sp.gov.br/sua-viagem/bilhetes-cartoes/) |
+| SAO-AT-501 | 상파울루 | 상파울루 미술관 MASP 성인 입장권 | 85 BRL | A | 예 | 재검증 | [MASP](https://www.masp.org.br/visite) |
+| SAO-AT-502 | 상파울루 | 상파울루 미술관 MASP 아동(12세 기준) 입장권 | 85 BRL | A | 예 | 재검증 | [MASP](https://www.masp.org.br/visite) |
+| SAO-AT-503 | 상파울루 | 상파울루 피나코테카 성인 입장권 | 40 BRL | A | 예 | 재검증 | [Pinacoteca de São Paulo](https://pinacoteca.org.br/visita/ingresso/) |
+| SAO-AT-504 | 상파울루 | 상파울루 피나코테카 아동(12세 기준) 입장권 | 40 BRL | A | 예 | 재검증 | [Pinacoteca de São Paulo](https://pinacoteca.org.br/visita/ingresso/) |
+| SAO-AT-505 | 상파울루 | 축구 박물관 성인 입장권 | 25 BRL | A | 예 | 재검증 | [Museu do Futebol](https://museudofutebol.org.br/horarios-e-ingressos/) |
+| SAO-AT-506 | 상파울루 | 축구 박물관 아동(12세 기준) 입장권 | 25 BRL | A | 예 | 재검증 | [Museu do Futebol](https://museudofutebol.org.br/horarios-e-ingressos/) |
 | SPK-AT-501 | 삿포로 | 시로이 코이비토 파크 유료 구역 입장권(성인) | 1200 JPY | A | 예 | 재검증 | [白い恋人パーク](https://www.shiroikoibitopark.jp/en/about.html?funnel_source=content_article) |
 | SPK-AT-502 | 삿포로 | 시로이 코이비토 파크 유료 구역 입장권(아동) | 600 JPY | A | 예 | 재검증 | [白い恋人パーク](https://www.shiroikoibitopark.jp/en/about.html?funnel_source=content_article) |
 | SPK-AT-503 | 삿포로 | 삿포로 맥주 박물관 입관료(성인) | 1000 JPY | A | 예 | 재검증 | [サッポロビール博物館](https://www.sapporobeer.jp/brewery/s_museum/kengaku/) |

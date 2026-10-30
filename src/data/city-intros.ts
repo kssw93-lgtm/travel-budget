@@ -9,6 +9,8 @@ import { INTROS_4 } from './city-intros-4';
 import { INTROS_5 } from './city-intros-5';
 import { INTROS_6 } from './city-intros-6';
 import { INTROS_7 } from './city-intros-7';
+import { INTROS_8 } from './city-intros-8';
+import { INTROS_9 } from './city-intros-9';
 export type { Intro, Area } from './city-intros-1';
 
-export const CITY_INTROS: Record<string, Intro> = { ...INTROS_1, ...INTROS_2, ...INTROS_3, ...INTROS_4, ...INTROS_5, ...INTROS_6, ...INTROS_7 };
+export const CITY_INTROS: Record<string, Intro> = { ...INTROS_1, ...INTROS_2, ...INTROS_3, ...INTROS_4, ...INTROS_5, ...INTROS_6, ...INTROS_7, ...INTROS_8, ...INTROS_9 };

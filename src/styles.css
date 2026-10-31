@@ -245,6 +245,7 @@ details:not([open]) > summary .toggle-hint .when-open, details[open] > summary .
 .areas dd { margin: 4px 0 0; color: var(--muted); }
 #sights, #stay, #airport, #transport, #food, #tips, #costs { scroll-margin-top: 16px; }
 .airport-map-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+.airport-map-group { display: contents; }
 .airport-map-link { display: inline-flex; align-items: center; min-height: 42px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); font-weight: 650; text-decoration: none; }
 .airport-map-link:hover { border-color: var(--brand); background: color-mix(in srgb, var(--brand) 6%, var(--card)); }
 .stay-areas h2, .city-tips h2 { margin-top: 0; }

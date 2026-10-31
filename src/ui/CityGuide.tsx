@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { cityGuide, guidePath, type CityGuide as CityGuideData } from '../core/guide';
-import { airportDirectionsUrl, airportOrigins } from '../core/airport-directions';
+import { airportBoardingMapUrl, airportBoardingQueries, airportDirectionsUrl, airportOrigins, airportPlannerUrl } from '../core/airport-directions';
 import { formatMoney } from '../core/money';
 import type { City, PriceSample } from '../core/types';
 import { cities, dataDate, extras, foods, memos, samples } from '../data';
@@ -125,7 +125,8 @@ function AirportAccess({ city }: { city: City }) {
   if (!note || index < 0) return null;
   const area = CITY_INTROS[city.id]?.s[0]?.[1] ?? `${city.nameEn} city centre`;
   const areaLabel = CITY_INTROS[city.id]?.s[0]?.[lang === 'ko' ? 0 : lang === 'ja' ? 2 : 1] ?? area;
-  const origins = airportOrigins(city);
+  const airportTip = note.tips[index]!;
+  const origins = airportOrigins(city, airportTip.en);
   return (
     <section id="airport" className="card prose airport-access" aria-labelledby="guide-airport-title" data-testid="guide-airport">
       <h2 id="guide-airport-title">{t.cityGuide.airportAccessTitle}</h2>
@@ -143,15 +144,28 @@ function AirportAccess({ city }: { city: City }) {
         ))}
       </div>
       <p className="hint">{t.cityGuide.airportDirectionsNote}</p>
-      {city.id === 'turku' && (
-        <p>
-          <ExternalLink href="https://opaskartta.turku.fi/IMS/fi/embed?cp=6711104%2C23459856&layers=Opaskartta&ui=z%21g%21o&z=16">
-            {t.cityGuide.airportMapLink}
+      <h3>{t.cityGuide.airportBoardingTitle}</h3>
+      <div className="airport-map-links">
+        {origins.flatMap((origin) => airportBoardingQueries(origin, airportTip.ko).map(({ mode, query }) => (
+          <ExternalLink key={`${origin.query}-${mode}`} className="airport-map-link" href={airportBoardingMapUrl(query, lang)}>
+            {fmt(t.cityGuide.airportMapLink, { mode: t.cityGuide.airportModes[mode] })}
           </ExternalLink>
-          {' · '}
-          <ExternalLink href="https://reittiopas.foli.fi/">{t.cityGuide.airportRouteLink}</ExternalLink>
-        </p>
-      )}
+        )))}
+        {origins.map((origin) => (
+          <span className="airport-map-group" key={`official-${origin.query}`}>
+            {origin.officialRouteMapUrl && (
+              <ExternalLink className="airport-map-link" href={origin.officialRouteMapUrl}>
+                {t.cityGuide.airportLineMapLink}
+              </ExternalLink>
+            )}
+            {origin.officialPlannerUrl && (
+              <ExternalLink className="airport-map-link" href={airportPlannerUrl(origin.officialPlannerUrl, lang)}>
+                {t.cityGuide.airportRouteLink}
+              </ExternalLink>
+            )}
+          </span>
+        ))}
+      </div>
       <p className="hint">{t.cityGuide.airportAccessHint}</p>
     </section>
   );

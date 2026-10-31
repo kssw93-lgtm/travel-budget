@@ -1305,7 +1305,7 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'siem-reap:t4': 'https://www.sai-airport.com/jcjtjb/38836.jhtml',
   'ulaanbaatar:t4': 'https://en.ulaanbaatar-airport.mn/public-transportation-service',
   'galway:t2': 'https://www.dublinairport.com/to-from-the-airport/by-bus',
-  'turku:t2': 'https://www.foli.fi/en/regular-timetables-10-august-2026-%E2%80%93-6-june-2027',
+  'turku:t2': 'https://www.finavia.fi/en/airports/turku/parking-access/public-transport; https://www.foli.fi/en/trunklines',
   'tartu:t2': 'https://ut.ee/en/content/practical-info-about-tartu',
   'cordoba:t2': 'https://www.aena.es/en/cordoba/getting-there/bus.html',
   'montpellier:t2': 'https://www.herault-transport.fr/lignes-regulieres/navettes-aeroport/navette-aeroport-montpellier-mediterranee',

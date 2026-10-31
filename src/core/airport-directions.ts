@@ -5,7 +5,15 @@ export interface AirportOrigin {
   label: string;
   /** Place query sent to Google Maps. */
   query: string;
+  /** Optional map search for the verified public-transport boarding point. */
+  boardingQuery?: string;
+  /** Optional official operator map for the route. */
+  officialRouteMapUrl?: string;
+  /** Optional official operator journey planner. */
+  officialPlannerUrl?: string;
 }
+
+export type AirportTransitMode = 'bus stop' | 'train station' | 'metro station' | 'public transport stop';
 
 /** Airports named in the city's existing travel guidance; multiple airports stay separate. */
 const AIRPORT_ORIGINS: Record<string, AirportOrigin[]> = {
@@ -74,15 +82,57 @@ const AIRPORT_ORIGINS: Record<string, AirportOrigin[]> = {
     { label: 'Haneda Airport (HND)', query: 'Tokyo Haneda Airport' },
     { label: 'Narita International Airport (NRT)', query: 'Narita International Airport' },
   ],
-  turku: [{ label: 'Turku Airport', query: 'Turku Airport' }],
+  turku: [
+    {
+      label: 'Turku Airport',
+      query: 'Turku Airport',
+      boardingQuery: 'Turku Airport Föli bus stop',
+      officialRouteMapUrl: 'https://eu.remix.com/project/0a6caf95?latlng=60.45255,22.23585,11.038&sp_id=42c715b5-39b2-410e-98ea-95298c6e6fa0',
+      officialPlannerUrl: 'https://reittiopas.foli.fi/',
+    },
+  ],
   zurich: [{ label: 'Zurich Airport', query: 'Zurich Airport' }],
 };
 
-export function airportOrigins(city: City): AirportOrigin[] {
-  return AIRPORT_ORIGINS[city.id] ?? [{ label: `${city.nameEn} Airport`, query: `${city.nameEn} Airport` }];
+export function airportOrigins(city: City, airportTipEn = ''): AirportOrigin[] {
+  const configured = AIRPORT_ORIGINS[city.id];
+  if (configured) return configured;
+
+  const namedAirports = [...new Set(
+    [...airportTipEn.matchAll(/([A-Z][A-Za-zÀ-ÿ'’-]*(?: [A-Z][A-Za-zÀ-ÿ'’-]*){0,5} Airport(?: \([A-Z]{3}\))?)/g)]
+      .map((match) => match[1]!.trim().replace(/^(?:From|At|Via|The)\s+/i, ''))
+      .filter((name) => !/^(?:City|SEPTA|RTA|FEX|Blue Line|Calgary Transit)\b/i.test(name)),
+  )];
+  if (namedAirports.length > 0) return namedAirports.map((name) => ({ label: name, query: name }));
+  return [{ label: `${city.nameEn} Airport`, query: `${city.nameEn} Airport` }];
 }
 
 export function airportDirectionsUrl(origin: string, destination: string, lang: 'ko' | 'en' | 'ja'): string {
   const params = new URLSearchParams({ api: '1', origin, destination, travelmode: 'transit', hl: lang });
   return `https://www.google.com/maps/dir/?${params.toString()}`;
+}
+
+export function airportBoardingMapUrl(query: string, lang: 'ko' | 'en' | 'ja'): string {
+  const params = new URLSearchParams({ api: '1', query, hl: lang });
+  return `https://www.google.com/maps/search/?${params.toString()}`;
+}
+
+/** Selects map searches from the actual airport-transfer text, without guessing a stop or platform number. */
+export function airportBoardingQueries(origin: AirportOrigin, tipKo: string): Array<{ mode: AirportTransitMode; query: string }> {
+  if (origin.boardingQuery) {
+    const mode: AirportTransitMode = /bus|버스/i.test(origin.boardingQuery) ? 'bus stop' : 'public transport stop';
+    return [{ mode, query: origin.boardingQuery }];
+  }
+  const modes: AirportTransitMode[] = [];
+  if (/버스|공항버스/.test(tipKo)) modes.push('bus stop');
+  if (/열차|기차|철도|공항철도/.test(tipKo)) modes.push('train station');
+  if (/지하철|메트로/.test(tipKo)) modes.push('metro station');
+  if (modes.length === 0) modes.push('public transport stop');
+  return [...new Set(modes)].map((mode) => ({ mode, query: `${origin.query} ${mode}` }));
+}
+
+export function airportPlannerUrl(url: string, lang: 'ko' | 'en' | 'ja'): string {
+  const plannerUrl = new URL(url);
+  plannerUrl.searchParams.set('locale', lang);
+  return plannerUrl.href;
 }

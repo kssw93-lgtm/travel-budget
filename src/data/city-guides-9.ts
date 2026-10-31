@@ -607,6 +607,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['킹스 파크', 'Kings Park', 'キングス・パーク', '시내 서쪽 언덕의 넓은 공원으로, 스완강과 시내 고층 빌딩이 한눈에 보이며 무료입니다.', 'A huge park on a hill west of the CBD, overlooking the Swan River and skyline — free.', '市内西側の丘にある広い公園で、スワン川と市内の高層ビルを一望でき、無料です。'],
       ['프리맨틀', 'Fremantle', 'フリーマントル', '열차로 약 30분 거리의 항구 도시로, 어항에서 피시 앤드 칩스를 먹고 수제 맥주 양조장을 둘러봅니다.', 'The port town about 30 minutes by train: fish and chips at the Fishing Boat Harbour and craft breweries.', '列車で約30分の港町で、漁港でフィッシュ・アンド・チップスを食べ、クラフトビールの醸造所を巡ります。'],
       ['퍼스 동물원', 'Perth Zoo', 'パース動物園', '스완강 건너 사우스 퍼스에 있는 동물원으로, 캥거루·코알라 등 호주 동물을 볼 수 있습니다.', 'Across the Swan River in South Perth, with kangaroos, koalas and other Australian animals.', 'スワン川の対岸サウス・パースにある動物園で、カンガルーやコアラなどオーストラリアの動物が見られます。'],
+      ['벨 타워', 'The Bell Tower', 'ベル・タワー', '엘리자베스 키에 있는 종탑으로, 스완 벨과 ANZAC 종을 살펴보고 전망대에서 강과 도심을 조망할 수 있습니다.', 'A bell tower at Elizabeth Quay where visitors can see the Swan Bells and ANZAC Bell and view the river and city from the observation deck.', 'エリザベス・キーにある鐘楼で、スワン・ベルやANZACベルを見学し、展望デッキから川と市街を眺められます。'],
+      ['퍼스 민트', 'The Perth Mint', 'パース造幣局', '서호주의 금 역사와 주조 과정을 소개하는 투어·전시 시설로, 금 주조 시연 등 운영사 체험이 마련되어 있습니다.', 'A visitor attraction about Western Australia’s gold history and minting, with tours, exhibits and a live gold pour.', '西オーストラリアのゴールドラッシュと造幣の歴史を紹介する施設で、ツアーや展示、金の鋳造実演があります。'],
     ],
     t: [
       ['공항에서 시내: 퍼스 공항의 에어포트 센트럴역에서 열차를 타면 퍼스역까지 약 18분이며, 3시간 동안 환승할 수 있는 ‘고 애니웨어’ 요금이 적용됩니다.', 'Airport to city: trains from Airport Central reach Perth Station in about 18 minutes on the Go Anywhere fare, valid for three hours of transfers.', '空港から市内へ：パース空港のエアポート・セントラル駅から列車でパース駅まで約18分で、3時間乗り継ぎできる「ゴー・エニウェア」運賃が適用されます。'],
@@ -651,6 +653,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['샌디에이고 동물원', 'San Diego Zoo', 'サンディエゴ動物園', '발보아 파크 안의 세계적인 동물원으로, 1일권에 가이드 버스 투어와 케이블카(스카이파리)가 포함됩니다.', 'The world-famous zoo in Balboa Park; the 1-Day Pass includes the guided bus tour and Skyfari aerial tram.', 'バルボア・パーク内の世界的な動物園で、1日券にガイド付きバスツアーとロープウェイ（スカイファリ）が含まれます。'],
       ['발보아 파크', 'Balboa Park', 'バルボア・パーク', '스페인풍 건물과 박물관, 정원이 모인 넓은 공원으로, 공원과 식물관·대부분의 정원은 무료입니다.', 'A vast park of Spanish-style buildings, museums and gardens; the park, Botanical Building and most gardens are free.', 'スペイン風の建物や博物館、庭園が集まる広い公園で、公園と植物館、ほとんどの庭園は無料です。'],
       ['USS 미드웨이 박물관', 'USS Midway Museum', 'USSミッドウェイ博物館', '항구에 정박한 퇴역 항공모함으로, 비행갑판의 전투기와 함내를 둘러봅니다.', 'A retired aircraft carrier on the harbour: aircraft on the flight deck and life below decks.', '港に停泊する退役した空母で、飛行甲板の戦闘機や艦内を見学できます。'],
+      ['올드타운 샌디에이고 주립역사공원', 'Old Town San Diego State Historic Park', 'オールドタウン・サンディエゴ州立歴史公園', '1769년 첫 정착지 주변의 보존 건물과 박물관을 통해 캘리포니아 초기 역사를 살펴볼 수 있습니다.', 'Explore preserved buildings and museums around the site of San Diego’s first settlement in 1769.', '1769年のサンディエゴ最初の入植地周辺に残る建物や博物館を通して、カリフォルニア初期の歴史を学べます。'],
+      ['라호야', 'La Jolla', 'ラホヤ', '해안 절벽과 만, 갤러리·공연장이 모인 해변 지역으로, 라호야 코브 주변 산책과 바다 풍경을 즐길 수 있습니다.', 'A coastal neighborhood of cliffs and coves, galleries and performance venues, with walks and ocean views around La Jolla Cove.', '海岸の崖や入り江、ギャラリーや公演施設が集まる地区です。ラホヤ・コーブ周辺の散策や海の景色を楽しめます。'],
     ],
     t: [
       ['식당 메뉴 가격에는 세금(7.75%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude 7.75% sales tax and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（7.75%）とチップが含まれていません。チップは18〜20%が一般的です。'],
@@ -769,7 +773,9 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['필라델피아 미술관', 'Philadelphia Museum of Art', 'フィラデルフィア美術館', '영화 〈록키〉의 계단으로 유명한 대형 미술관으로, 입장권으로 로댕 박물관도 이틀간 볼 수 있습니다.', 'The great museum atop the “Rocky Steps”; admission also covers the Rodin Museum for two days.', '映画「ロッキー」の階段で有名な大規模な美術館で、入場券でロダン美術館も2日間見学できます。'],
       ['리딩 터미널 마켓', 'Reading Terminal Market', 'リーディング・ターミナル・マーケット', '로스트 포크 샌드위치와 소프트 프레첼 등 필라델피아 명물을 한곳에서 맛볼 수 있는 실내 시장입니다.', 'An indoor market for roast pork sandwiches, soft pretzels and other Philly classics.', 'ローストポーク・サンドイッチやソフトプレッツェルなど、フィラデルフィアの名物を一度に味わえる屋内市場です。'],
-      ['치즈스테이크', 'Cheesesteak', 'チーズステーキ', '얇게 썬 소고기와 치즈를 빵에 끼운 필라델피아 대표 샌드위치로, 1930년에 처음 만들어졌다고 합니다.', 'Thin-sliced beef and cheese on a roll, said to date from 1930.', '薄切り牛肉とチーズをパンに挟んだフィラデルフィア名物のサンドイッチで、1930年に生まれたといわれます。'],
+      ['자유의 종 센터', 'Liberty Bell Center', '自由の鐘センター', '독립국립역사공원 안에 있는 전시관으로, 자유의 종과 미국 시민권 역사에 관한 전시를 볼 수 있습니다.', 'A pavilion in Independence National Historical Park displaying the Liberty Bell and exhibits on the history of civil rights.', '独立国立歴史公園内の展示施設で、自由の鐘と市民権の歴史に関する展示を見学できます。'],
+      ['독립기념관', 'Independence Hall', '独立記念館', '독립선언서 채택과 미국 헌법 제정 논의가 이루어진 유네스코 세계유산 건물입니다.', 'A UNESCO World Heritage building where the Declaration of Independence was adopted and the U.S. Constitution debated.', '独立宣言の採択とアメリカ合衆国憲法の審議が行われた、ユネスコ世界遺産の建物です。'],
+      ['이스턴 주립교도소', 'Eastern State Penitentiary', 'イースタン州立刑務所', '고딕 양식의 옛 교도소 건물과 보존된 감방을 둘러보며 교도소 제도의 역사를 살펴볼 수 있습니다.', 'Explore the Gothic former prison and preserved cellblocks to learn about the history of incarceration.', 'ゴシック様式の旧刑務所と保存された独房棟を見学し、刑務所制度の歴史を学べます。'],
     ],
     t: [
       ['식당 메뉴 가격에는 세금(8%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude 8% sales tax and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（8%）とチップが含まれていません。チップは18〜20%が一般的です。'],

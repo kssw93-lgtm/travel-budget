@@ -154,6 +154,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['이집트 박물관(타흐리르)', 'Egyptian Museum (Tahrir)', 'エジプト考古学博物館（タハリール）', '타흐리르 광장의 박물관으로 고대 이집트 유물이 가득합니다.', 'The museum on Tahrir Square, packed with ancient Egyptian treasures.', 'タハリール広場の博物館で、古代エジプトの遺物が詰まっています。'],
       ['살라딘 성채', 'Citadel of Saladin', 'サラディンの城塞', '언덕 위 중세 요새로, 안의 무함마드 알리 모스크에서 시내가 내려다보입니다.', 'A medieval hilltop fortress whose Muhammad Ali Mosque overlooks the city.', '丘の上の中世の要塞で、中のムハンマド・アリー・モスクから市内が見渡せます。'],
       ['칸 엘 칼릴리 시장', 'Khan el-Khalili', 'ハーン・ハリーリ市場', '이슬람 구시가지의 오래된 시장 골목입니다.', 'The historic bazaar lanes of Islamic Cairo.', 'イスラーム地区にある歴史ある市場の路地です。'],
+      ['콥트 박물관', 'Coptic Museum', 'コプト博物館', '콥트교 역사와 예술을 다루는 박물관으로, 고대 교회에서 전해진 사본·목공예·프레스코 등을 볼 수 있습니다.', 'A museum of Coptic history and art, with manuscripts, carved woodwork and frescoes from historic churches.', 'コプトの歴史と美術を紹介する博物館で、古い教会に伝わる写本や木彫、フレスコ画を見られます。'],
     ],
     t: [
       ['카이로 지하철은 도로 정체를 피할 수 있는 이동 수단입니다. 택시나 차량 호출 서비스를 이용할 때는 탑승 전 요금 방식과 승차 지점을 확인하세요.', 'Cairo\'s metro is an option for avoiding road traffic. For taxis or ride-hailing, check the fare method and pickup point before you ride.', 'カイロの地下鉄は道路の渋滞を避ける移動手段です。タクシーや配車サービスでは、乗車前に料金方式と乗車場所を確認しましょう。'],
@@ -1168,6 +1169,14 @@ export const NOTES_9: Record<string, Compact> = {
         'A garden, forest and art school at the foot of Corcovado. The steep, difficult trail to Christ the Redeemer is best done with an experienced guide.',
         'コルコバード山麓に庭園や森、美術学校がある公園です。キリスト像へ続く急坂の難しいトレイルは、経験のあるガイドとの同行が勧められています。',
       ],
+      [
+        '셀라론 계단',
+        'Escadaria Selarón (Selarón Steps)',
+        'セラロン階段',
+        '라파와 산타테레사 사이에 놓인 모자이크 계단으로, 브라질과 세계 여러 지역의 타일로 장식되어 있습니다.',
+        'A mosaic staircase between Lapa and Santa Teresa, decorated with tiles from Brazil and around the world.',
+        'ラパとサンタ・テレザの間にあるモザイク階段で、ブラジルや世界各地のタイルで飾られています。',
+      ],
     ],
     t: [
       [
@@ -1199,6 +1208,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['테이블마운틴', 'Table Mountain', 'テーブルマウンテン', '케이블웨이나 등산로로 정상에 올라 시티볼과 해안, 로벤섬을 바라볼 수 있는 케이프타운의 상징입니다.', 'Cape Town’s landmark mountain, reached by cableway or hiking trails, with views over the City Bowl, coast and Robben Island.', 'ケーブルウェイや登山道で山頂へ行けるケープタウンの象徴です。シティボウルや海岸、ロベン島を望めます。'],
       ['로벤섬', 'Robben Island', 'ロベン島', '넬슨 만델라가 수감됐던 옛 교도소가 있는 세계유산 섬입니다. 페리는 V&A 워터프런트의 넬슨 만델라 게이트웨이에서 출발합니다.', 'A World Heritage island with the former prison where Nelson Mandela was held. Ferries depart from the Nelson Mandela Gateway at the V&A Waterfront.', 'ネルソン・マンデラが収監されていた旧刑務所がある世界遺産の島です。フェリーはV&Aウォーターフロントのネルソン・マンデラ・ゲートウェイから出ます。'],
       ['투 오션스 아쿠아리움', 'Two Oceans Aquarium', 'ツー・オーシャンズ水族館', 'V&A 워터프런트에 있는 수족관으로, 남아프리카 주변 두 바다의 해양 생물을 소개합니다.', 'An aquarium at the V&A Waterfront showcasing marine life from the waters around southern Africa.', 'V&Aウォーターフロントにある水族館で、南部アフリカ周辺の海の生き物を紹介しています。'],
+      ['케이프 포인트', 'Cape Point', 'ケープ・ポイント', '테이블마운틴 국립공원 안의 반도 끝 명소로, 해안 산책로와 등대 전망대가 있습니다.', 'A peninsula landmark in Table Mountain National Park, with coastal trails and a lighthouse viewpoint.', 'テーブルマウンテン国立公園内の半島の名所で、海岸トレイルや灯台の展望台があります。'],
+      ['커스텐보시 국립식물원', 'Kirstenbosch National Botanical Garden', 'カーステンボッシュ国立植物園', '테이블마운틴 동쪽 기슭의 식물원으로, 남아프리카 토착 식물과 산책로를 둘러볼 수 있습니다.', 'A garden on Table Mountain’s eastern slopes, with indigenous South African plants and walking trails.', 'テーブルマウンテン東斜面にある植物園で、南アフリカ固有の植物や散策路を楽しめます。'],
     ],
     t: [
       ['테이블마운틴 국립공원 트레일은 사람이 많은 표시된 길을 이용하고, 혼자보다 동행과 함께 걷는 편이 안전합니다. 당일 안전 공지도 확인하세요.', 'On Table Mountain National Park trails, use busy marked routes and hike with companions rather than alone. Check current safety notices on the day.', 'テーブルマウンテン国立公園では人通りのある標識付きの道を歩き、単独より同行者と行動しましょう。当日の安全情報も確認してください。'],
@@ -1210,6 +1221,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['제마 엘프나와 메디나', 'Jemaa el-Fnaa and the Medina', 'ジャマ・エル・フナ広場とメディナ', '낮에는 시장과 골목을, 저녁에는 공연과 노점이 모이는 광장을 둘러보세요. 메디나는 유네스코 세계유산으로 지정된 역사 지구입니다.', 'Explore the souks and lanes by day, then the square’s performances and food stalls in the evening. The medina is a UNESCO-listed historic district.', '日中はスークや路地を歩き、夕方からは芸能や屋台が集まる広場を楽しめます。メディナはユネスコ世界遺産の歴史地区です。'],
       ['바히아 궁전', 'Bahia Palace', 'バヒア宮殿', '정원과 안뜰, 젤리지 타일과 조각 장식이 어우러진 19세기 궁전입니다.', 'A 19th-century palace of gardens and courtyards decorated with zellij tilework and carved details.', '庭園や中庭、ゼリージュのタイルや彫刻装飾が見どころの19世紀の宮殿です。'],
       ['마조렐 정원', 'Jardin Majorelle', 'マジョレル庭園', '선인장과 열대 식물, 파란색 건축으로 알려진 도심 정원입니다. 방문 전에 공식 사이트에서 예약과 운영 정보를 확인하세요.', 'A city garden known for cacti, tropical plants and vivid blue architecture. Check the official visitor information and booking requirements before going.', 'サボテンや熱帯植物、鮮やかな青い建築で知られる市内の庭園です。公式の訪問案内で予約や運営情報を確認してから出かけましょう。'],
+      ['쿠투비아 모스크와 미나레트', 'Koutoubia Mosque and Minaret', 'クトゥビーヤ・モスクとミナレット', '메디나의 대표적인 랜드마크인 모스크와 미나레트로, 도시 곳곳에서 탑을 볼 수 있습니다.', 'A landmark mosque and minaret in the medina; the tower can be seen from many parts of the city.', 'メディナを代表するモスクとミナレットで、塔は市内の各所から眺められます。'],
+      ['메나라 정원', 'Menara Gardens', 'メナラ庭園', '도시 서쪽에 있는 역사적 정원으로, 올리브 나무와 큰 저수지가 아틀라스산맥을 배경으로 펼쳐집니다.', 'A historic garden west of the city, with olive groves and a large basin set against the Atlas Mountains.', '市の西にある歴史的な庭園で、オリーブ畑と大きな貯水池の向こうにアトラス山脈を望めます。'],
     ],
     t: [
       ['메디나에서 공식 관광 가이드를 이용한다면 지방 당국의 허가증을 확인하세요. 길 안내를 자청하는 낯선 사람을 따라가지 마세요.', 'If using a guide in the medina, check that they hold local-authority authorization. Do not follow strangers who offer unsolicited directions.', 'メディナでガイドを利用する場合は、地方当局の許可証を確認しましょう。道案内を申し出る見知らぬ人にはついて行かないでください。'],

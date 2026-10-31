@@ -403,7 +403,9 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['스카이라인 곤돌라', 'Skyline Gondola', 'スカイライン・ゴンドラ', '곤돌라로 밥스 피크에 올라 호수와 리마커블스산맥을 내려다보고, 루지도 탈 수 있습니다.', 'Ride up Bob’s Peak for views over the lake and The Remarkables, with a luge track at the top.', 'ゴンドラでボブズピークに上り、湖とリマーカブルズ山脈を見下ろせます。リュージュもあります。'],
       ['TSS 언슬로 증기선', 'TSS Earnslaw', 'TSSアーンズロー号', '1912년부터 와카티푸 호수를 운항하는 증기선으로, 건너편 월터 피크 농장 투어와 묶을 수 있습니다.', 'A steamship sailing Lake Wakatipu since 1912, combinable with a Walter Peak farm tour.', '1912年からワカティプ湖を運航する蒸気船で、対岸のウォルターピーク農場ツアーと組み合わせられます。'],
-      ['애로타운', 'Arrowtown', 'アロータウン', '골드러시 시대 거리 풍경이 남은 작은 마을로, 가을(4~5월) 단풍이 특히 아름답습니다.', 'A gold-rush-era village, especially beautiful in autumn colours (April–May).', 'ゴールドラッシュ時代の街並みが残る小さな町で、秋（4〜5月）の紅葉が特に美しいです。'],
+      ['애로타운', 'Arrowtown', 'アロータウン', '1860년대 오타고 골드러시의 역사가 남은 마을입니다. 옛 광부 오두막이 늘어선 메인 스트리트와 중국인 광부촌을 둘러볼 수 있습니다.', 'A town shaped by the 1860s Otago gold rush, with historic miners’ cottages along its main street and a preserved Chinese settlement.', '1860年代のオタゴ・ゴールドラッシュの歴史が残る町です。鉱夫の小屋が並ぶメインストリートや中国人鉱夫の集落を見学できます。'],
+      ['키위 파크', 'Kiwi Park', 'キーウィ・パーク', '시내 곤돌라 아래에 있는 야생동물 보호 공원으로, 뉴질랜드 토종 키위와 투아타라 등 토종 생물을 만날 수 있습니다.', 'A wildlife conservation park below the town gondola, home to native species including kiwi and tuatara.', '街のゴンドラ乗り場の下にある野生動物保護施設で、キーウィやムカシトカゲなどニュージーランド固有の生き物に出会えます。'],
+      ['퀸스타운 가든스', 'Queenstown Gardens', 'クイーンズタウン・ガーデンズ', '와카티푸 호숫가 반도에 자리한 식물원 산책로입니다. 장미 정원과 오래된 나무를 둘러보고 호수와 산 전망을 즐길 수 있습니다.', 'A botanical-garden walk on a peninsula along Lake Wakatipu, with a rose garden, mature trees and lake-and-mountain views.', 'ワカティプ湖畔の半島にある植物園の散策路です。バラ園や大木を巡り、湖と山の眺めを楽しめます。'],
     ],
     t: [
       ['시내버스는 비카드(Bee Card)로 내면 현금보다 훨씬 쌉니다. 버스에서는 신용카드를 받지 않습니다.', 'Buses are far cheaper with a Bee Card than cash, and bank cards are not accepted on board.', '市バスはビーカード（Bee Card）で払うと現金よりずっと安くなります。車内ではクレジットカードが使えません。'],
@@ -754,8 +756,10 @@ export const NOTES_9: Record<string, Compact> = {
   'mexico-city': {
     h: [
       ['국립인류학박물관', 'National Museum of Anthropology', '国立人類学博物館', '아스테카 태양의 돌 등 멕시코 고대 문명 유물을 모은 박물관입니다. 13세 미만은 무료입니다.', 'Home to the Aztec Sun Stone and treasures of Mexico’s ancient civilisations; under-13s are free.', 'アステカの太陽の石など、メキシコの古代文明の遺物を集めた博物館です。13歳未満は無料です。'],
-      ['역사지구와 소칼로', 'Historic Centre and the Zócalo', '歴史地区とソカロ', '세계에서 가장 큰 광장 중 하나인 소칼로를 중심으로 대성당과 아스테카 신전 유적이 모여 있습니다.', 'The vast Zócalo, ringed by the cathedral and the Aztec Templo Mayor.', '世界最大級の広場ソカロを中心に、大聖堂やアステカの神殿跡が集まっています。'],
-      ['타코 알 파스토르', 'Tacos al pastor', 'タコス・アル・パストール', '회전 꼬치에 구운 양념 돼지고기를 얹은 멕시코시티 대표 길거리 타코입니다.', 'Mexico City’s signature street taco of spit-roasted marinated pork.', '回転する串で焼いた味付け豚肉をのせた、メキシコシティを代表する屋台のタコスです。'],
+      ['역사지구와 소칼로', 'Historic Centre and the Zócalo', '歴史地区とソカロ', '도시의 중심 광장 소칼로 주변으로 메트로폴리탄 대성당, 국립궁전, 템플로 마요르 유적이 이어지는 역사 지구입니다.', 'The city’s historic core around the Zócalo, with the Metropolitan Cathedral, National Palace and Templo Mayor nearby.', 'ソカロを中心とする歴史地区で、メトロポリタン大聖堂、国立宮殿、テンプロ・マヨール遺跡が近くにあります。'],
+      ['팔라시오 데 벨라스 아르테스', 'Palacio de Bellas Artes', 'ベジャス・アルテス宮殿', '아르누보 외관과 아르데코 실내가 특징인 멕시코의 대표 예술 공간으로, 공연과 전시가 열립니다.', 'Mexico’s leading arts venue, known for its Art Nouveau exterior and Art Deco interior, with performances and exhibitions.', 'アール・ヌーヴォー様式の外観とアール・デコ様式の内装が特徴の、メキシコを代表する芸術施設です。公演や展示が行われます。'],
+      ['차풀테펙 성', 'Chapultepec Castle', 'チャプルテペク城', '차풀테펙 숲 언덕 위의 성으로 현재 국립역사박물관이 있으며, 높은 위치에서 도시 전망을 볼 수 있습니다.', 'A hilltop castle in Chapultepec Forest that houses the National Museum of History and overlooks the city.', 'チャプルテペクの森の丘に建つ城で、国立歴史博物館があり、市街を見渡せます。'],
+      ['템플로 마요르', 'Templo Mayor', 'テンプロ・マヨール', '멕시카(아스테카) 문명의 중심 신전 유적과 발굴 유물을 전시한 박물관을 함께 둘러볼 수 있습니다.', 'Explore the Mexica (Aztec) capital’s central temple ruins and the museum displaying finds from the excavations.', 'メシカ（アステカ）文明の中心神殿の遺跡と、発掘品を展示する博物館を見学できます。'],
     ],
     t: [
       ['지하철은 거리와 환승에 관계없이 1회 5페소이며, 교통카드나 신용카드 탭으로 탈 수 있습니다. 공항에서 시내까지는 메트로부스 공항 노선(30페소)을 타면 되고, 현금은 받지 않습니다.', 'The metro costs 5 pesos per trip regardless of distance or transfers, paid by transit card or contactless card; from the airport, the Metrobús airport service costs 30 pesos and takes no cash.', '地下鉄は距離や乗り換えに関係なく1回5ペソで、交通カードやクレジットカードのタッチ決済で乗れます。空港から市内へはメトロブスの空港路線（30ペソ）が便利で、現金は使えません。'],
@@ -775,8 +779,10 @@ export const NOTES_9: Record<string, Compact> = {
   'new-orleans': {
     h: [
       ['국립 2차 세계대전 박물관', 'The National WWII Museum', '国立第二次世界大戦博物館', '미국의 2차 세계대전 참전 역사를 체험형 전시로 보여 주는 대형 박물관입니다.', 'A vast, immersive museum of America’s role in the Second World War.', 'アメリカの第二次世界大戦の歴史を体験型展示で伝える大規模な博物館です。'],
-      ['카페 뒤 몽드의 베녜', 'Beignets at Café du Monde', 'カフェ・デュ・モンドのベニエ', '1862년부터 프렌치 마켓에서 슈거파우더를 뿌린 튀긴 빵 베녜와 카페오레를 팔고 있습니다.', 'Powdered-sugar beignets and café au lait at the French Market since 1862.', '1862年からフレンチ・マーケットで粉砂糖をかけた揚げパン「ベニエ」とカフェオレを出しています。'],
-      ['세인트찰스 노면전차', 'St. Charles streetcar', 'セント・チャールズ線の路面電車', '오래된 저택이 늘어선 가든 디스트릭트를 지나는 노면전차로, 일반 버스와 같은 요금입니다.', 'Historic streetcars through the mansion-lined Garden District at the regular bus fare.', '古い邸宅が並ぶガーデン・ディストリクトを走る路面電車で、運賃は通常のバスと同じです。'],
+      ['잭슨 스퀘어', 'Jackson Square', 'ジャクソン・スクエア', '프렌치 쿼터 중심의 역사 광장으로, 세인트루이스 대성당과 카빌도 등 주요 역사 건물로 둘러싸여 있습니다.', 'A historic square at the heart of the French Quarter, framed by landmarks including St. Louis Cathedral and the Cabildo.', 'フレンチ・クォーター中心部の歴史ある広場で、セント・ルイス大聖堂やカビルドなどの歴史的建造物に囲まれています。'],
+      ['세인트루이스 대성당', 'St. Louis Cathedral', 'セント・ルイス大聖堂', '잭슨 스퀘어를 마주한 프렌치 쿼터의 대표 성당으로, 뉴올리언스의 오래된 도시 풍경을 이루는 랜드마크입니다.', 'A landmark church facing Jackson Square and a defining part of the French Quarter’s historic streetscape.', 'ジャクソン・スクエアに面するフレンチ・クォーターの代表的な大聖堂で、歴史ある街並みを形作るランドマークです。'],
+      ['가든 디스트릭트', 'Garden District', 'ガーデン・ディストリクト', '참나무 가로수와 19세기 저택, 정원이 있는 업타운의 역사 지구입니다. 세인트찰스 애비뉴를 따라 걸으며 건축을 감상할 수 있습니다.', 'A historic Uptown district of oak-lined streets, 19th-century homes and gardens, best explored on foot along St. Charles Avenue.', 'オーク並木と19世紀の邸宅、庭園があるアップタウンの歴史地区です。セント・チャールズ・アベニュー沿いを歩いて建築を楽しめます。'],
+      ['オーデュボン動物園', 'Audubon Zoo', 'オーデュボン動物園', '오듀본 공원 안에 있는 동물원으로, 다양한 동물 전시와 루이지애나 습지 환경을 소개합니다.', 'A zoo in Audubon Park with animal exhibits and a focus on Louisiana’s wetland environment.', 'オーデュボン公園内の動物園で、さまざまな動物の展示とルイジアナの湿地環境を紹介しています。'],
     ],
     t: [
       ['식당 메뉴 가격에는 세금(10%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude 10% sales tax and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（10%）とチップが含まれていません。チップは18〜20%が一般的です。'],
@@ -1197,6 +1203,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['오슬로 오페라하우스', 'Oslo Opera House', 'オスロ・オペラハウス', '오슬로피오르 옆에 있는 노르웨이 국립 오페라·발레 공연장입니다. 지붕 위로 올라가 항구와 도시 풍경을 볼 수 있습니다.', 'Norway’s national opera and ballet venue beside the Oslofjord; visitors can walk up its roof for harbour and city views.', 'オスロフィヨルド沿いにあるノルウェー国立オペラ・バレエの劇場です。屋上を歩いて港と街の景色を眺められます。'],
       ['비겔란 조각공원', 'Vigeland Sculpture Park', 'ヴィーゲラン彫刻公園', '프로그네르 공원 안에 구스타브 비겔란의 조각이 전시된 야외 공원입니다.', 'An outdoor sculpture park in Frogner Park displaying works by Gustav Vigeland.', 'フログネル公園内にある、グスタフ・ヴィーゲランの彫刻を展示する屋外公園です。'],
       ['아케르스후스 요새', 'Akershus Fortress', 'アーケシュフース城', '중세 왕실 성이자 요새로, 항구 가까이에서 오슬로의 역사를 볼 수 있습니다.', 'A medieval royal castle and fortress near the harbour, offering a view into Oslo’s history.', '港の近くにある中世の王城・要塞で、オスロの歴史を知ることができます。'],
+      ['뭉크 미술관', 'MUNCH', 'ムンク美術館', '에드바르 뭉크의 작품을 중심으로 한 미술관으로, 상설·기획 전시와 항구 전망을 즐길 수 있습니다.', 'A museum centred on Edvard Munch’s work, with permanent and temporary exhibitions and views over the harbour.', 'エドヴァルド・ムンクの作品を中心とする美術館で、常設・企画展示と港の眺めを楽しめます。'],
+      ['노르웨이 국립미술관', 'The National Museum', 'ノルウェー国立美術館', '노르웨이의 미술·건축·디자인 컬렉션과 특별전을 소개하는 국립 박물관입니다.', 'Norway’s national museum for art, architecture and design, presenting both collections and special exhibitions.', 'ノルウェーの美術・建築・デザインのコレクションと企画展を紹介する国立美術館です。'],
     ],
     t: [
       ['오슬로의 대중교통은 구역제입니다. 공항은 시내와 다른 구역이므로 공항 이동권과 시내권의 적용 구역을 각각 확인하세요.', 'Oslo public transport uses zones. The airport is outside the central zone, so check which zones your airport and city tickets cover.', 'オスロの公共交通はゾーン制です。空港は中心部とは別のゾーンにあるため、空港移動券と市内券の対象ゾーンを確認しましょう。'],

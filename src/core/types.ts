@@ -26,6 +26,8 @@ export interface PriceSample {
   nameEn: string;
   /** 일본어권 표기로 확인된 일본어 이름(없으면 일본어 화면에서 영문) */
   nameJa?: string;
+  /** 일본어 표기를 확인한 공식 출처 */
+  nameJaSourceUrl?: string;
   min: number;
   max: number;
   currency: string;
@@ -92,6 +94,8 @@ export interface FoodRecommendation {
   reasonEn?: string;
   /** 일본어 이름(확인된 표기만)과 일본어 추천 이유 */
   nameJa?: string;
+  /** 일본어 표기를 확인한 공식 출처 */
+  nameJaSourceUrl?: string;
   reasonJa?: string;
   /** 무슨 음식인지 한 줄 설명(한·영·일) */
   desc?: { ko: string; en: string; ja: string };

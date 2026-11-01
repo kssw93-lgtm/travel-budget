@@ -7595,6 +7595,8 @@
       "license": "CC0",
       "page": "https://commons.wikimedia.org/wiki/File:Seolleongtang.jpg"
     },
+    "nameJa": "ソルロンタン（牛骨スープ）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=178348",
     "budgetBand": "저~중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7619,6 +7621,8 @@
       "license": "CC BY-SA 3.0",
       "page": "https://commons.wikimedia.org/wiki/File:Chueotang.JPG"
     },
+    "nameJa": "チュオタン（どじょうスープ）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=178405",
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7643,6 +7647,8 @@
       "license": "CC BY-SA 2.0",
       "page": "https://commons.wikimedia.org/wiki/File:Korean_pancake-Bindaetteok-04.jpg"
     },
+    "nameJa": "ピンデトク",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=189704",
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7667,6 +7673,8 @@
       "license": "CC BY 2.0",
       "page": "https://commons.wikimedia.org/wiki/File:Korean.snacks-Tteokbokki-08.jpg"
     },
+    "nameJa": "新堂洞トッポッキ",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=79010",
     "budgetBand": "저~중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7691,6 +7699,8 @@
       "license": "CC BY-SA 3.0",
       "page": "https://commons.wikimedia.org/wiki/File:%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5.jpg"
     },
+    "nameJa": "テジグッパプ（豚肉クッパ）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1593857",
     "budgetBand": "저~중",
     "linkedPriceIds": [
       "PUS-FD-764",
@@ -7718,6 +7728,8 @@
       "license": "CC BY-SA 4.0",
       "page": "https://commons.wikimedia.org/wiki/File:Busan_Milmyeon_20200522_001.jpg"
     },
+    "nameJa": "プサンミルミョン（釜山ミル麺）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=178843",
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7742,6 +7754,8 @@
       "license": "CC BY-SA 3.0",
       "page": "https://commons.wikimedia.org/wiki/File:%EC%94%A8%EC%95%97%ED%98%B8%EB%96%A1.jpg"
     },
+    "nameJa": "シアッホットク",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1593310",
     "budgetBand": "저",
     "linkedPriceIds": [
       "PUS-SN-776"
@@ -7768,6 +7782,8 @@
       "license": "CC BY 2.0",
       "page": "https://commons.wikimedia.org/wiki/File:Busan-eomuk.jpg"
     },
+    "nameJa": "釜山おでん",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/hdrdslt/hdrdsltView.do?crsSn=349125",
     "budgetBand": "저",
     "linkedPriceIds": [
       "PUS-SN-779"
@@ -7794,6 +7810,8 @@
       "license": "CC BY-SA 4.0",
       "page": "https://commons.wikimedia.org/wiki/File:Gogi-guksu_2024.jpg"
     },
+    "nameJa": "コギククス（肉にゅうめん）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140929",
     "budgetBand": "저~중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7818,6 +7836,8 @@
       "license": "CC BY-SA 3.0",
       "page": "https://commons.wikimedia.org/wiki/File:Korean_cuisine-Jeju_Island-Okdom_gui-Grilled_Tilefish-01.jpg"
     },
+    "nameJa": "オクトムグイ（アマダイ焼き）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=607&vcontsId=222180",
     "budgetBand": "중~고",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7842,6 +7862,8 @@
       "license": "CC BY-SA 3.0",
       "page": "https://commons.wikimedia.org/wiki/File:Korean_cutlass_fish_soup-Galchiguk-01.jpg"
     },
+    "nameJa": "カルチグク（太刀魚スープ）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=607&vcontsId=222180",
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7866,6 +7888,8 @@
       "license": "CC BY-SA 3.0",
       "page": "https://commons.wikimedia.org/wiki/File:Korean_cuisine-Jeju_Island-Bingtteok-01.jpg"
     },
+    "nameJa": "ピントク（千切り蒸し大根のそば粉の薄皮巻き）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=179858",
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",

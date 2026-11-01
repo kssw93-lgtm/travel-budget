@@ -1,0 +1,51 @@
+{
+  "_note": "2026-11-01. Korean food labels shown on Japanese pages are filled only when an official Japanese VISITKOREA page directly uses the spelling. These names are overlays; source workbook values and prices remain unchanged.",
+  "seoul:Seolleongtang": {
+    "name": "ソルロンタン（牛骨スープ）",
+    "sourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=178348"
+  },
+  "seoul:Seoul-style Chueotang": {
+    "name": "チュオタン（どじょうスープ）",
+    "sourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=178405"
+  },
+  "seoul:Mung Bean Pancake": {
+    "name": "ピンデトク",
+    "sourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=189704"
+  },
+  "seoul:Sindang-dong Tteokbokki": {
+    "name": "新堂洞トッポッキ",
+    "sourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=79010"
+  },
+  "busan:Dwaeji Gukbap": {
+    "name": "テジグッパプ（豚肉クッパ）",
+    "sourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1593857"
+  },
+  "busan:Milmyeon": {
+    "name": "プサンミルミョン（釜山ミル麺）",
+    "sourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=178843"
+  },
+  "busan:Ssiat Hotteok": {
+    "name": "シアッホットク",
+    "sourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1593310"
+  },
+  "busan:Busan Fish Cake": {
+    "name": "釜山おでん",
+    "sourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/hdrdslt/hdrdsltView.do?crsSn=349125"
+  },
+  "jeju:Gogi Guksu": {
+    "name": "コギククス（肉にゅうめん）",
+    "sourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140929"
+  },
+  "jeju:Grilled Tilefish": {
+    "name": "オクトムグイ（アマダイ焼き）",
+    "sourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=607&vcontsId=222180"
+  },
+  "jeju:Galchi-guk": {
+    "name": "カルチグク（太刀魚スープ）",
+    "sourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=607&vcontsId=222180"
+  },
+  "jeju:Bingtteok": {
+    "name": "ピントク（千切り蒸し大根のそば粉の薄皮巻き）",
+    "sourceUrl": "https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=179858"
+  }
+}

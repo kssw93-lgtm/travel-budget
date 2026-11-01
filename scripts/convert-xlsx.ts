@@ -325,11 +325,20 @@ function main() {
 
   // 일본어 이름 보완(data/overlays/names-ja.json): 엑셀 일본어 열보다 우선한다(음역 행을 통용 표기로 고친 것)
   const namesJa = JSON.parse(readFileSync(`${root}/data/overlays/names-ja.json`, 'utf8')) as Record<string, string>;
+  const namesJaSources = JSON.parse(readFileSync(`${root}/data/overlays/names-ja-sources.json`, 'utf8')) as Record<string, string>;
   for (const x of [...samples, ...extras]) {
     const ja = namesJa[x.id];
     if (ja) x.nameJa = ja;
+    const sourceUrl = namesJaSources[x.id];
+    if (sourceUrl) x.nameJaSourceUrl = sourceUrl;
   }
   for (const id of Object.keys(namesJa)) if (!id.startsWith('_') && ![...samples, ...extras].some((x) => x.id === id)) notes.push(`names-ja.json: 없는 표본 ID '${id}'`);
+  for (const [id, url] of Object.entries(namesJaSources)) {
+    if (id.startsWith('_')) continue;
+    if (!namesJa[id]) errors.push(`names-ja-sources.json ${id}: 대응하는 일본어 이름이 없음`);
+    if (!/^https:\/\//.test(url)) errors.push(`names-ja-sources.json ${id}: HTTPS 근거 URL이 필요함`);
+    if (![...samples, ...extras].some((x) => x.id === id)) errors.push(`names-ja-sources.json: 없는 표본 ID '${id}'`);
+  }
 
   // 교차 검수 결과(data/reviews/*.csv, 예: Gemini 검수). '불일치'·'확인불가' 판정만 재검증 표시로 붙인다.
   // 가격은 바꾸지 않는다 — 고칠 값은 CSV·price-corrections.json 에서 고친다. review-flags.json 이 먼저 붙은 표본은 그대로 둔다.
@@ -390,6 +399,8 @@ function main() {
   const foodSources = JSON.parse(readFileSync(`${root}/data/overlays/food-sources.json`, 'utf8')) as Record<string, { name: string; url: string }>;
   // 한 줄 설명(무슨 음식인지)·사진. 사진은 자유 이용 허락 라이선스·위키미디어 원본만 받는다
   const foodInfo = JSON.parse(readFileSync(`${root}/data/overlays/food-info.json`, 'utf8')) as Record<string, FoodInfo>;
+  // 일본어 음식명은 일본어 공식 관광情報に掲載された表記を出典URLとセットで補う。
+  const foodNamesJa = JSON.parse(readFileSync(`${root}/data/overlays/food-names-ja.json`, 'utf8')) as Record<string, { name: string; sourceUrl: string }>;
   const FREE_LICENSE = /^(CC0|Public domain|CC BY(-SA)? [1-4]\.[0-5])/i;
   const foodJa = ['음식(일본어)', '추천 이유(일본어)', '일본어 근거 URL', '일본어 확인 방법'];
   const foodRows: Row[] = [...readTable(wb, '음식 추천', '국가', foodJa), ...additionRows('foods', '국가', ['비고', '연결 가격 ID', ...foodJa]).map((x) => x.r)];
@@ -425,6 +436,9 @@ function main() {
       ...(info ? { desc: { ko: info.ko, en: info.en, ja: info.ja } } : {}),
       ...(photo ? { photo } : {}),
       ...jaName(r('음식(일본어)'), r('일본어 확인 방법')),
+      ...(foodNamesJa[`${city.id}:${r('Food')}`]
+        ? { nameJa: foodNamesJa[`${city.id}:${r('Food')}`]!.name, nameJaSourceUrl: foodNamesJa[`${city.id}:${r('Food')}`]!.sourceUrl }
+        : {}),
       ...(r('추천 이유(일본어)') ? { reasonJa: r('추천 이유(일본어)') } : {}),
       budgetBand: r('예산대'),
       linkedPriceIds: linked,
@@ -434,6 +448,11 @@ function main() {
       note: r('비고'),
     };
   });
+  for (const [key, entry] of Object.entries(foodNamesJa)) {
+    if (key.startsWith('_')) continue;
+    if (!foods.some((food) => `${food.cityId}:${food.nameEn}` === key)) notes.push(`food-names-ja.json: 없는 음식 '${key}'`);
+    if (!entry.name || !/^https:\/\//.test(entry.sourceUrl)) errors.push(`food-names-ja.json ${key}: 일본어 이름과 근거 URL이 필요함`);
+  }
 
   // 도시 메모(선택 시트): 팁 관행·숙박세·입국 수수료·eSIM 등. 계산에는 넣지 않는다
   const memos: CityMemo[] = [];

@@ -11222,7 +11222,9 @@
     "applied": "2026",
     "sourceName": "궁능유적본부 관람요금·무료개방 공지",
     "sourceUrl": "https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view",
-    "note": "일반일 정가 1,000원. 매주 수요일은 2026-10-07부터 무료 개방(공식 공지); 수요일 0원, 그 외 일반일 1,000원. · Claude 검수(2026-10-08): 평일 일반 요금 1,000원으로 계산, 매주 수요일 무료 개방은 비고로만 안내 · 원문: 창경궁 대인, 외국인 만19세~만64세 개인 1,000원 · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "일반일 정가 1,000원. 매주 수요일은 2026-10-07부터 무료 개방(공식 공지); 수요일 0원, 그 외 일반일 1,000원. · Claude 검수(2026-10-08): 평일 일반 요금 1,000원으로 계산, 매주 수요일 무료 개방은 비고로만 안내 · 원문: 창경궁 대인, 외국인 만19세~만64세 개인 1,000원 · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "昌慶宮 入場券（大人）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111235"
   },
   {
     "id": "SEL-AT-102",
@@ -11246,7 +11248,9 @@
     "applied": "2026",
     "sourceName": "궁능유적본부 관람요금·무료개방 공지",
     "sourceUrl": "https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view",
-    "note": "일반일 정가 1,000원. 매주 수요일은 2026-10-07부터 무료 개방(공식 공지); 수요일 0원, 그 외 일반일 1,000원. · Claude 검수(2026-10-08): 평일 일반 요금 1,000원으로 계산, 매주 수요일 무료 개방은 비고로만 안내 · 원문: 종묘 대인, 외국인 만19세~만64세 개인 1,000원 · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "일반일 정가 1,000원. 매주 수요일은 2026-10-07부터 무료 개방(공식 공지); 수요일 0원, 그 외 일반일 1,000원. · Claude 검수(2026-10-08): 평일 일반 요금 1,000원으로 계산, 매주 수요일 무료 개방은 비고로만 안내 · 원문: 종묘 대인, 외국인 만19세~만64세 개인 1,000원 · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "宗廟 入場券（大人）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111017"
   },
   {
     "id": "SEL-AT-103",
@@ -11270,7 +11274,9 @@
     "applied": "2026",
     "sourceName": "궁능유적본부 관람요금·무료개방 공지",
     "sourceUrl": "https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view",
-    "note": "일반일 정가 1,000원. 매주 수요일은 2026-10-07부터 무료 개방(공식 공지); 수요일 0원, 그 외 일반일 1,000원. · Claude 검수(2026-10-08): 평일 일반 요금 1,000원으로 계산, 매주 수요일 무료 개방은 비고로만 안내 · 원문: 서울 선릉과 정릉 조선왕릉 대인 외국인 개인 1,000원 · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "일반일 정가 1,000원. 매주 수요일은 2026-10-07부터 무료 개방(공식 공지); 수요일 0원, 그 외 일반일 1,000원. · Claude 검수(2026-10-08): 평일 일반 요금 1,000원으로 계산, 매주 수요일 무료 개방은 비고로만 안내 · 원문: 서울 선릉과 정릉 조선왕릉 대인 외국인 개인 1,000원 · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "ソウル宣陵・靖陵 入場券（大人）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111862"
   },
   {
     "id": "SEL-AT-104",
@@ -11294,7 +11300,9 @@
     "applied": "2026",
     "sourceName": "궁능유적본부 관람요금·무료개방 공지",
     "sourceUrl": "https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view",
-    "note": "일반일 정가 1,000원. 매주 수요일은 2026-10-07부터 무료 개방(공식 공지); 수요일 0원, 그 외 일반일 1,000원. · Claude 검수(2026-10-08): 평일 일반 요금 1,000원으로 계산, 매주 수요일 무료 개방은 비고로만 안내 · 원문: 서울 헌릉과 인릉 조선왕릉 대인 외국인 개인 1,000원 · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "일반일 정가 1,000원. 매주 수요일은 2026-10-07부터 무료 개방(공식 공지); 수요일 0원, 그 외 일반일 1,000원. · Claude 검수(2026-10-08): 평일 일반 요금 1,000원으로 계산, 매주 수요일 무료 개방은 비고로만 안내 · 원문: 서울 헌릉과 인릉 조선왕릉 대인 외국인 개인 1,000원 · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "ソウル献陵・仁陵 入場券（大人）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111272"
   },
   {
     "id": "SEL-AT-111",
@@ -11318,7 +11326,9 @@
     "applied": "2026",
     "sourceName": "궁능유적본부 관람요금·무료개방 공지",
     "sourceUrl": "https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view",
-    "note": "궁능유적본부 공식 요금표의 외국인 만 18세 이하 무료 기준. 수요일 무료개방도 적용. · 원문: 무료관람대상: 외국인 만 18세 이하 · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "궁능유적본부 공식 요금표의 외국인 만 18세 이하 무료 기준. 수요일 무료개방도 적용. · 원문: 무료관람대상: 외국인 만 18세 이하 · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "昌慶宮 入場無料（18歳以下）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111235"
   },
   {
     "id": "SEL-AT-112",
@@ -11342,7 +11352,9 @@
     "applied": "2026",
     "sourceName": "궁능유적본부 관람요금·무료개방 공지",
     "sourceUrl": "https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view",
-    "note": "궁능유적본부 공식 요금표의 외국인 만 18세 이하 무료 기준. 수요일 무료개방도 적용. · 원문: 무료관람대상: 외국인 만 18세 이하 · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "궁능유적본부 공식 요금표의 외국인 만 18세 이하 무료 기준. 수요일 무료개방도 적용. · 원문: 무료관람대상: 외국인 만 18세 이하 · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "宗廟 入場無料（18歳以下）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111017"
   },
   {
     "id": "SEL-AT-113",
@@ -11366,7 +11378,9 @@
     "applied": "2026",
     "sourceName": "궁능유적본부 관람요금·무료개방 공지",
     "sourceUrl": "https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view",
-    "note": "궁능유적본부 공식 요금표의 외국인 만 18세 이하 무료 기준. 수요일 무료개방도 적용. · 원문: 무료관람대상: 외국인 만 18세 이하 · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "궁능유적본부 공식 요금표의 외국인 만 18세 이하 무료 기준. 수요일 무료개방도 적용. · 원문: 무료관람대상: 외국인 만 18세 이하 · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "ソウル宣陵・靖陵 入場無料（18歳以下）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111862"
   },
   {
     "id": "SEL-AT-114",
@@ -11390,7 +11404,9 @@
     "applied": "2026",
     "sourceName": "궁능유적본부 관람요금·무료개방 공지",
     "sourceUrl": "https://royal.cha.go.kr/ROYAL/contents/R703000000.do; https://royal.cha.go.kr/ROYAL/contents/R402000000.do?id=20260528103040963660&schBcid=normal1&schM=view",
-    "note": "궁능유적본부 공식 요금표의 외국인 만 18세 이하 무료 기준. 수요일 무료개방도 적용. · 원문: 무료관람대상: 외국인 만 18세 이하 · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "궁능유적본부 공식 요금표의 외국인 만 18세 이하 무료 기준. 수요일 무료개방도 적용. · 원문: 무료관람대상: 외국인 만 18세 이하 · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "ソウル献陵・仁陵 入場無料（18歳以下）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111272"
   },
   {
     "id": "SEL-AT-105",
@@ -11414,7 +11430,9 @@
     "applied": "2026",
     "sourceName": "Seoul Metropolitan Government",
     "sourceUrl": "https://english.seoul.go.kr/seodaemun-prison/",
-    "note": "서울시 공식 관광안내의 일반 성인요금. · 원문: Admission: KRW 3,000 (adults) · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "서울시 공식 관광안내의 일반 성인요금. · 원문: Admission: KRW 3,000 (adults) · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "西大門刑務所歴史館 入場券（大人）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=110714"
   },
   {
     "id": "SEL-AT-115",
@@ -11438,7 +11456,9 @@
     "applied": "2026",
     "sourceName": "Seoul Metropolitan Government",
     "sourceUrl": "https://english.seoul.go.kr/seodaemun-prison/",
-    "note": "공식 페이지에는 아동 요금이 있으나 연령 경계는 해당 항목에 따로 표시되지 않음. · 원문: KRW 1,000 (children) · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "공식 페이지에는 아동 요금이 있으나 연령 경계는 해당 항목에 따로 표시되지 않음. · 원문: KRW 1,000 (children) · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "西大門刑務所歴史館 入場券（子ども）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=110714"
   },
   {
     "id": "PUS-AT-101",
@@ -11462,7 +11482,9 @@
     "applied": "2026",
     "sourceName": "부산광역시 부산지오파크",
     "sourceUrl": "https://www.busan.go.kr/geopark/taejongdae",
-    "note": "태종대 공원 입장은 무료이며, 본 표본은 유료 다누비열차 순환 이용권. · 원문: 이용요금: 성인 순환 4,000원 · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "태종대 공원 입장은 무료이며, 본 표본은 유료 다누비열차 순환 이용권. · 원문: 이용요금: 성인 순환 4,000원 · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "太宗台 ダヌビ列車周遊券（大人）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=110985"
   },
   {
     "id": "PUS-AT-111",
@@ -11486,7 +11508,9 @@
     "applied": "2026",
     "sourceName": "부산광역시 부산지오파크",
     "sourceUrl": "https://www.busan.go.kr/geopark/taejongdae",
-    "note": "공식 페이지의 가장 어린 유료 구간. · 원문: 소인(만 2세 이상~초등학생) 1,500원 · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "공식 페이지의 가장 어린 유료 구간. · 원문: 소인(만 2세 이상~초등학생) 1,500원 · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "太宗台 ダヌビ列車周遊券（子ども）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=110985"
   },
   {
     "id": "PUS-AT-102",
@@ -11510,7 +11534,9 @@
     "applied": "2026",
     "sourceName": "한국관광공사 VISITKOREA",
     "sourceUrl": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=84864",
-    "note": "공식 한국관광공사 관광안내 요금. · 원문: Adults 12,000 won · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "공식 한국관광공사 관광안내 요금. · 원문: Adults 12,000 won · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "釜山タワー 展望台入場券（大人）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=71657"
   },
   {
     "id": "PUS-AT-112",
@@ -11534,7 +11560,9 @@
     "applied": "2026",
     "sourceName": "한국관광공사 VISITKOREA",
     "sourceUrl": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=84864",
-    "note": "공식 관광안내에 게시된 어린이 요금; 연령 경계는 같은 안내에 표시되지 않음. · 원문: Children 9,000 won · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "공식 관광안내에 게시된 어린이 요금; 연령 경계는 같은 안내에 표시되지 않음. · 원문: Children 9,000 won · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "釜山タワー 展望台入場券（子ども）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=71657"
   },
   {
     "id": "PUS-AT-103",
@@ -11558,7 +11586,9 @@
     "applied": "2026",
     "sourceName": "한국관광공사 VISITKOREA",
     "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=194989",
-    "note": "한국관광공사가 소개하는 부산영화체험박물관 공식 요금. · 원문: Adults 10,000 won · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "한국관광공사가 소개하는 부산영화체험박물관 공식 요금. · 원문: Adults 10,000 won · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "釜山映画体験博物館 入場券（大人）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=194911"
   },
   {
     "id": "PUS-AT-113",
@@ -11582,7 +11612,9 @@
     "applied": "2026",
     "sourceName": "한국관광공사 VISITKOREA",
     "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=194989",
-    "note": "공식 관광안내에는 연령 경계가 별도 표기되지 않음. · 원문: Children 7,000 won · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "공식 관광안내에는 연령 경계가 별도 표기되지 않음. · 원문: Children 7,000 won · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "釜山映画体験博物館 入場券（子ども）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=194911"
   },
   {
     "id": "PUS-AT-104",
@@ -11726,7 +11758,9 @@
     "applied": "2026",
     "sourceName": "제주민속촌 공식 요금 안내",
     "sourceUrl": "https://jejufolk.com/m/pages.php?p=3_1_1_1",
-    "note": "개인 일반요금; 단체·도민·국가유공자 할인 제외. · 원문: 성인 15,000원 · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "개인 일반요금; 단체·도민·국가유공자 할인 제외. · 원문: 성인 15,000원 · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "済州民俗村 入場券（大人）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=105463"
   },
   {
     "id": "CJU-AT-111",
@@ -11750,7 +11784,9 @@
     "applied": "2026",
     "sourceName": "제주민속촌 공식 요금 안내",
     "sourceUrl": "https://jejufolk.com/m/pages.php?p=3_1_1_1",
-    "note": "공식 페이지에 표시된 어린이 구간. · 원문: 어린이 11,000원 · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "공식 페이지에 표시된 어린이 구간. · 원문: 어린이 11,000원 · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "済州民俗村 入場券（子ども）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=105463"
   },
   {
     "id": "CJU-AT-102",
@@ -11894,7 +11930,9 @@
     "applied": "2026",
     "sourceName": "한국관광공사 VISITKOREA",
     "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=351&vcontsId=76736",
-    "note": "공식 제주 시설 웹사이트가 연결된 한국관광공사 관광안내 요금. · 원문: Individuals: Adults 5,000 won · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "공식 제주 시설 웹사이트가 연결된 한국관광공사 관광안내 요금. · 원문: Individuals: Adults 5,000 won · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "済州石文化公園 入場券（大人）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=77185"
   },
   {
     "id": "CJU-AT-115",
@@ -11918,7 +11956,9 @@
     "applied": "2026",
     "sourceName": "한국관광공사 VISITKOREA",
     "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=351&vcontsId=76736",
-    "note": "공식 관광안내에는 청소년 요금만 게시되어 있으며 더 어린 아동 가격은 표시되지 않음. · 계산 제외(Claude 검수 2026-10-08): 청소년 요금은 계산기의 성인·아동 구분에 맞지 않아 보존만 함. 아동 요금이 없으면 계산기는 성인 요금을 적용 · 원문: Teenagers 3,500 won · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "공식 관광안내에는 청소년 요금만 게시되어 있으며 더 어린 아동 가격은 표시되지 않음. · 계산 제외(Claude 검수 2026-10-08): 청소년 요금은 계산기의 성인·아동 구분에 맞지 않아 보존만 함. 아동 요금이 없으면 계산기는 성인 요금을 적용 · 원문: Teenagers 3,500 won · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "済州石文化公園 入場券（青少年）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=77185"
   },
   {
     "id": "CJU-AT-105",
@@ -11990,7 +12030,9 @@
     "applied": "2026",
     "sourceName": "제주관광공사 VISITJEJU",
     "sourceUrl": "https://www.visitjeju.net/kr/themtour/view?contentsid=CNTS_300000000013313&menuId=DOM_000002000000000227",
-    "note": "제주관광공사 공식 관광안내의 개인 성인요금. · 원문: 제주목 관아-어른 1,500원 · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "제주관광공사 공식 관광안내의 개인 성인요금. · 원문: 제주목 관아-어른 1,500원 · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "済州牧官衙 入場券（大人）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=90876"
   },
   {
     "id": "CJU-AT-117",
@@ -12014,7 +12056,9 @@
     "applied": "2026",
     "sourceName": "제주관광공사 VISITJEJU",
     "sourceUrl": "https://www.visitjeju.net/kr/themtour/view?contentsid=CNTS_300000000013313&menuId=DOM_000002000000000227",
-    "note": "제주관광공사 공식 관광안내의 어린이 요금. · 원문: 제주목 관아-어린이 400원 · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "제주관광공사 공식 관광안내의 어린이 요금. · 원문: 제주목 관아-어린이 400원 · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "済州牧官衙 入場無料（子ども）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=90876"
   },
   {
     "id": "CJU-AT-118",
@@ -12038,7 +12082,9 @@
     "applied": "2026",
     "sourceName": "제주관광공사 VISITJEJU",
     "sourceUrl": "https://www.visitjeju.net/kr/themtour/view?contentsid=CNTS_300000000013313&menuId=DOM_000002000000000227",
-    "note": "제주관광공사 공식 관광안내의 청소년 요금. · 계산 제외(Claude 검수 2026-10-08): 청소년 요금은 계산기의 성인·아동 구분에 맞지 않아 보존만 함. 아동 요금이 없으면 계산기는 성인 요금을 적용 · 원문: 제주목 관아-청소년 800원 · 수집: prices-attractions-gpt-2026-10-07.csv"
+    "note": "제주관광공사 공식 관광안내의 청소년 요금. · 계산 제외(Claude 검수 2026-10-08): 청소년 요금은 계산기의 성인·아동 구분에 맞지 않아 보존만 함. 아동 요금이 없으면 계산기는 성인 요금을 적용 · 원문: 제주목 관아-청소년 800원 · 수집: prices-attractions-gpt-2026-10-07.csv",
+    "nameJa": "済州牧官衙 入場無料（青少年）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=90876"
   },
   {
     "id": "DPS-FD-101",
@@ -55131,7 +55177,9 @@
     "applied": "2026",
     "sourceName": "제주세계유산축전 성산일출봉 공식안내",
     "sourceUrl": "https://www.jeju.go.kr/heritage/heritage/seongsan.htm",
-    "note": "유료 정상 탐방 구간 관람료 · 원문: 개인 어른 5,000원 · 수집: prices-jeju.csv"
+    "note": "유료 정상 탐방 구간 관람료 · 원문: 개인 어른 5,000원 · 수집: prices-jeju.csv",
+    "nameJa": "城山日出峰 入場券（大人）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111213"
   },
   {
     "id": "CJU-AT-002",
@@ -55155,7 +55203,9 @@
     "applied": "2026",
     "sourceName": "제주세계유산축전 성산일출봉 공식안내",
     "sourceUrl": "https://www.jeju.go.kr/heritage/heritage/seongsan.htm",
-    "note": "초등학생 기준 관람료 · 원문: 개인 어린이 2,500원 · 수집: prices-jeju.csv"
+    "note": "초등학생 기준 관람료 · 원문: 개인 어린이 2,500원 · 수집: prices-jeju.csv",
+    "nameJa": "城山日出峰 入場券（子ども）",
+    "nameJaSourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111213"
   },
   {
     "id": "CJU-AT-003",

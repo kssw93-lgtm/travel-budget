@@ -654,7 +654,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['발보아 파크', 'Balboa Park', 'バルボア・パーク', '스페인풍 건물과 박물관, 정원이 모인 넓은 공원으로, 공원과 식물관·대부분의 정원은 무료입니다.', 'A vast park of Spanish-style buildings, museums and gardens; the park, Botanical Building and most gardens are free.', 'スペイン風の建物や博物館、庭園が集まる広い公園で、公園と植物館、ほとんどの庭園は無料です。'],
       ['USS 미드웨이 박물관', 'USS Midway Museum', 'USSミッドウェイ博物館', '항구에 정박한 퇴역 항공모함으로, 비행갑판의 전투기와 함내를 둘러봅니다.', 'A retired aircraft carrier on the harbour: aircraft on the flight deck and life below decks.', '港に停泊する退役した空母で、飛行甲板の戦闘機や艦内を見学できます。'],
       ['올드타운 샌디에이고 주립역사공원', 'Old Town San Diego State Historic Park', 'オールドタウン・サンディエゴ州立歴史公園', '1769년 첫 정착지 주변의 보존 건물과 박물관을 통해 캘리포니아 초기 역사를 살펴볼 수 있습니다.', 'Explore preserved buildings and museums around the site of San Diego’s first settlement in 1769.', '1769年のサンディエゴ最初の入植地周辺に残る建物や博物館を通して、カリフォルニア初期の歴史を学べます。'],
-      ['라호야', 'La Jolla', 'ラホヤ', '해안 절벽과 만, 갤러리·공연장이 모인 해변 지역으로, 라호야 코브 주변 산책과 바다 풍경을 즐길 수 있습니다.', 'A coastal neighborhood of cliffs and coves, galleries and performance venues, with walks and ocean views around La Jolla Cove.', '海岸の崖や入り江、ギャラリーや公演施設が集まる地区です。ラホヤ・コーブ周辺の散策や海の景色を楽しめます。'],
+      ['라호야', 'La Jolla', 'ラホヤ', '해안 절벽과 바위 해안, 바다 동굴이 이어지는 해변 지역입니다. 라호야 코브에서 칠드런스 풀까지 해안 풍경을 따라 둘러볼 수 있습니다.', 'A coastal area of cliffs, rocky reefs and sea caves, with shoreline scenery from La Jolla Cove to Children’s Pool.', '海岸の崖や岩礁、海食洞が続く海辺の地区です。ラホヤ・コーブからチルドレンズ・プールまで海岸の景色を楽しめます。'],
     ],
     t: [
       ['식당 메뉴 가격에는 세금(7.75%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude 7.75% sales tax and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（7.75%）とチップが含まれていません。チップは18〜20%が一般的です。'],
@@ -760,7 +760,7 @@ export const NOTES_9: Record<string, Compact> = {
   'mexico-city': {
     h: [
       ['국립인류학박물관', 'National Museum of Anthropology', '国立人類学博物館', '아스테카 태양의 돌 등 멕시코 고대 문명 유물을 모은 박물관입니다. 13세 미만은 무료입니다.', 'Home to the Aztec Sun Stone and treasures of Mexico’s ancient civilisations; under-13s are free.', 'アステカの太陽の石など、メキシコの古代文明の遺物を集めた博物館です。13歳未満は無料です。'],
-      ['역사지구와 소칼로', 'Historic Centre and the Zócalo', '歴史地区とソカロ', '도시의 중심 광장 소칼로 주변으로 메트로폴리탄 대성당, 국립궁전, 템플로 마요르 유적이 이어지는 역사 지구입니다.', 'The city’s historic core around the Zócalo, with the Metropolitan Cathedral, National Palace and Templo Mayor nearby.', 'ソカロを中心とする歴史地区で、メトロポリタン大聖堂、国立宮殿、テンプロ・マヨール遺跡が近くにあります。'],
+      ['역사지구와 소칼로', 'Historic Centre and the Zócalo', '歴史地区とソカロ', '도시의 중심 광장 소칼로와 그 주변 역사 지구입니다. 메트로폴리탄 대성당과 국립궁전 등 주요 건물이 광장을 둘러싸고 있습니다.', 'The Zócalo, the city’s central square, and its surrounding historic district, framed by landmarks including the Metropolitan Cathedral and National Palace.', '街の中心広場ソカロと周辺の歴史地区です。メトロポリタン大聖堂や国立宮殿などの主要建築が広場を囲んでいます。'],
       ['팔라시오 데 벨라스 아르테스', 'Palacio de Bellas Artes', 'ベジャス・アルテス宮殿', '아르누보 외관과 아르데코 실내가 특징인 멕시코의 대표 예술 공간으로, 공연과 전시가 열립니다.', 'Mexico’s leading arts venue, known for its Art Nouveau exterior and Art Deco interior, with performances and exhibitions.', 'アール・ヌーヴォー様式の外観とアール・デコ様式の内装が特徴の、メキシコを代表する芸術施設です。公演や展示が行われます。'],
       ['차풀테펙 성', 'Chapultepec Castle', 'チャプルテペク城', '차풀테펙 숲 언덕 위의 성으로 현재 국립역사박물관이 있으며, 높은 위치에서 도시 전망을 볼 수 있습니다.', 'A hilltop castle in Chapultepec Forest that houses the National Museum of History and overlooks the city.', 'チャプルテペクの森の丘に建つ城で、国立歴史博物館があり、市街を見渡せます。'],
       ['템플로 마요르', 'Templo Mayor', 'テンプロ・マヨール', '멕시카(아스테카) 문명의 중심 신전 유적과 발굴 유물을 전시한 박물관을 함께 둘러볼 수 있습니다.', 'Explore the Mexica (Aztec) capital’s central temple ruins and the museum displaying finds from the excavations.', 'メシカ（アステカ）文明の中心神殿の遺跡と、発掘品を展示する博物館を見学できます。'],
@@ -788,7 +788,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['잭슨 스퀘어', 'Jackson Square', 'ジャクソン・スクエア', '프렌치 쿼터 중심의 역사 광장으로, 세인트루이스 대성당과 카빌도 등 주요 역사 건물로 둘러싸여 있습니다.', 'A historic square at the heart of the French Quarter, framed by landmarks including St. Louis Cathedral and the Cabildo.', 'フレンチ・クォーター中心部の歴史ある広場で、セント・ルイス大聖堂やカビルドなどの歴史的建造物に囲まれています。'],
       ['세인트루이스 대성당', 'St. Louis Cathedral', 'セント・ルイス大聖堂', '잭슨 스퀘어를 마주한 프렌치 쿼터의 대표 성당으로, 뉴올리언스의 오래된 도시 풍경을 이루는 랜드마크입니다.', 'A landmark church facing Jackson Square and a defining part of the French Quarter’s historic streetscape.', 'ジャクソン・スクエアに面するフレンチ・クォーターの代表的な大聖堂で、歴史ある街並みを形作るランドマークです。'],
       ['가든 디스트릭트', 'Garden District', 'ガーデン・ディストリクト', '참나무 가로수와 19세기 저택, 정원이 있는 업타운의 역사 지구입니다. 세인트찰스 애비뉴를 따라 걸으며 건축을 감상할 수 있습니다.', 'A historic Uptown district of oak-lined streets, 19th-century homes and gardens, best explored on foot along St. Charles Avenue.', 'オーク並木と19世紀の邸宅、庭園があるアップタウンの歴史地区です。セント・チャールズ・アベニュー沿いを歩いて建築を楽しめます。'],
-      ['オーデュボン動物園', 'Audubon Zoo', 'オーデュボン動物園', '오듀본 공원 안에 있는 동물원으로, 다양한 동물 전시와 루이지애나 습지 환경을 소개합니다.', 'A zoo in Audubon Park with animal exhibits and a focus on Louisiana’s wetland environment.', 'オーデュボン公園内の動物園で、さまざまな動物の展示とルイジアナの湿地環境を紹介しています。'],
+      ['오듀본 동물원', 'Audubon Zoo', 'オーデュボン動物園', '업타운의 오듀본 공원 안에 있는 동물원으로, 세계 여러 지역의 동물과 루이지애나 스왐프 전시를 볼 수 있습니다.', 'A zoo in Uptown’s Audubon Park, with animals from around the world and a Louisiana Swamp exhibit.', 'アップタウンのオーデュボン公園内にある動物園で、世界各地の動物やルイジアナ・スワンプの展示を見学できます。'],
     ],
     t: [
       ['식당 메뉴 가격에는 세금(10%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude 10% sales tax and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（10%）とチップが含まれていません。チップは18〜20%が一般的です。'],
@@ -1210,7 +1210,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['비겔란 조각공원', 'Vigeland Sculpture Park', 'ヴィーゲラン彫刻公園', '프로그네르 공원 안에 구스타브 비겔란의 조각이 전시된 야외 공원입니다.', 'An outdoor sculpture park in Frogner Park displaying works by Gustav Vigeland.', 'フログネル公園内にある、グスタフ・ヴィーゲランの彫刻を展示する屋外公園です。'],
       ['아케르스후스 요새', 'Akershus Fortress', 'アーケシュフース城', '중세 왕실 성이자 요새로, 항구 가까이에서 오슬로의 역사를 볼 수 있습니다.', 'A medieval royal castle and fortress near the harbour, offering a view into Oslo’s history.', '港の近くにある中世の王城・要塞で、オスロの歴史を知ることができます。'],
       ['뭉크 미술관', 'MUNCH', 'ムンク美術館', '에드바르 뭉크의 작품을 중심으로 한 미술관으로, 상설·기획 전시와 항구 전망을 즐길 수 있습니다.', 'A museum centred on Edvard Munch’s work, with permanent and temporary exhibitions and views over the harbour.', 'エドヴァルド・ムンクの作品を中心とする美術館で、常設・企画展示と港の眺めを楽しめます。'],
-      ['노르웨이 국립미술관', 'The National Museum', 'ノルウェー国立美術館', '노르웨이의 미술·건축·디자인 컬렉션과 특별전을 소개하는 국립 박물관입니다.', 'Norway’s national museum for art, architecture and design, presenting both collections and special exhibitions.', 'ノルウェーの美術・建築・デザインのコレクションと企画展を紹介する国立美術館です。'],
+      ['노르웨이 국립미술관', 'The National Museum', 'ノルウェー国立美術館', '노르웨이 최대 규모의 미술·건축·디자인 컬렉션을 보존·연구하고 대중에게 소개하는 국립 박물관입니다.', 'Norway’s national museum, which preserves, researches and presents the country’s largest collection of art, architecture and design.', 'ノルウェー最大の美術・建築・デザインのコレクションを保存・研究し、一般に公開する国立美術館です。'],
     ],
     t: [
       ['오슬로의 대중교통은 구역제입니다. 공항은 시내와 다른 구역이므로 공항 이동권과 시내권의 적용 구역을 각각 확인하세요.', 'Oslo public transport uses zones. The airport is outside the central zone, so check which zones your airport and city tickets cover.', 'オスロの公共交通はゾーン制です。空港は中心部とは別のゾーンにあるため、空港移動券と市内券の対象ゾーンを確認しましょう。'],

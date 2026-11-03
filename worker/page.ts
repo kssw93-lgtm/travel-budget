@@ -6,15 +6,34 @@ import { shareMeta } from './share-meta';
 /** 정식 주소(검색엔진·공유용). workers.dev 로 들어오면 이 주소로 영구 이동한다 */
 export const CANONICAL_ORIGIN = 'https://howmuchthere.com';
 
-const PAGE_PATHS = new Set(['/', '/guides', '/how-it-works', '/compare', '/about', '/privacy']);
+const PAGE_PATHS = new Set(['/', '/en', '/ja', '/guides', '/how-it-works', '/compare', '/about', '/privacy']);
 const isPage = (p: string) => PAGE_PATHS.has(p) || /^\/guide\/[a-z0-9-]+$/.test(p);
+const homeAliasLang = (pathname: string): 'en' | 'ja' | null =>
+  pathname === '/en' ? 'en' : pathname === '/ja' ? 'ja' : null;
 
-/** 영문·일문 페이지의 OG 주소를 요청 언어와 실제 공유 URL에 맞춘다 */
+/** X 카드가 쿼리 URL을 하나의 낡은 카드로 합치지 않도록 홈의 언어별 별칭 주소를 사용한다. */
 function localizedOgUrl(html: string, url: URL): string {
-  const lang = url.searchParams.get('lang');
-  if (lang !== 'en' && lang !== 'ja') return html;
-  const escapedUrl = url.toString().replace(/&/g, '&amp;').replace(/"/g, '&quot;');
-  return html.replace(/(<meta property="og:url" content=")[^"]*(")/, '$1' + escapedUrl + '$2');
+  const aliasLang = homeAliasLang(url.pathname);
+  const queryLang = url.searchParams.get('lang');
+  const lang = aliasLang ?? (queryLang === 'en' || queryLang === 'ja' ? queryLang : null);
+  if (!lang) return html;
+
+  const cardUrl = new URL(url);
+  if (url.pathname === '/' || aliasLang) cardUrl.pathname = '/' + lang;
+  if (!cardUrl.searchParams.has('lang')) cardUrl.searchParams.set('lang', lang);
+  const escapedUrl = cardUrl.toString().replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+  let result = html.replace(/(<meta property="og:url" content=")[^"]*(")/, (_match, prefix, suffix) => prefix + escapedUrl + suffix);
+
+  if (url.pathname === '/' || aliasLang) {
+    result = result.replace(/(<link rel="canonical"[^>]*href=")[^"]*(")/, (_match, prefix, suffix) => prefix + escapedUrl + suffix);
+    result = result.replace(/(<link rel="alternate" hreflang="en" href=")[^"]*(")/, (_match, prefix, suffix) => {
+      const englishUrl = new URL(url);
+      englishUrl.pathname = '/en';
+      englishUrl.searchParams.set('lang', 'en');
+      return prefix + englishUrl.toString().replace(/&/g, '&amp;') + suffix;
+    });
+  }
+  return result;
 }
 
 /** 페이지 요청 처리: 정식 주소로 이동, 언어별 정적 HTML 선택, 공유 링크 미리보기 */
@@ -22,6 +41,12 @@ export async function page(request: Request, assets: Fetcher): Promise<Response>
   const url = new URL(request.url);
   if (url.hostname.endsWith('.workers.dev') && (request.method === 'GET' || request.method === 'HEAD')) {
     return Response.redirect(CANONICAL_ORIGIN + url.pathname + url.search, 301);
+  }
+  const aliasLang = homeAliasLang(url.pathname);
+  if (aliasLang && (request.method === 'GET' || request.method === 'HEAD') && url.searchParams.get('lang') !== aliasLang) {
+    const target = new URL(url);
+    target.searchParams.set('lang', aliasLang);
+    return Response.redirect(target.toString(), 301);
   }
   const legacyChristmasPath = url.pathname.replace(/\/+$/, '');
   if (legacyChristmasPath === '/christmas-markets' || legacyChristmasPath === '/christmas-markets.html') {
@@ -36,10 +61,10 @@ export async function page(request: Request, assets: Fetcher): Promise<Response>
     const clean = url.pathname.replace(/(index)?\.html$/, '') || '/';
     return Response.redirect(url.origin + clean + url.search, 301);
   }
-  const lang = url.searchParams.get('lang');
+  const lang = aliasLang ?? url.searchParams.get('lang');
   let res: Response;
   if ((lang === 'en' || lang === 'ja') && isPage(url.pathname)) {
-    const target = new URL(url.pathname === '/' ? '/_l/' + lang + '/' : '/_l/' + lang + url.pathname, url);
+    const target = new URL(aliasLang ? '/_l/' + aliasLang + '/' : url.pathname === '/' ? '/_l/' + lang + '/' : '/_l/' + lang + url.pathname, url);
     res = await assets.fetch(new Request(target, request));
   } else {
     res = await assets.fetch(request);
@@ -50,7 +75,7 @@ export async function page(request: Request, assets: Fetcher): Promise<Response>
   // X 등 공유 크롤러가 정적 파일의 기본 한국어 og:url 을 읽지 않도록 요청 언어와 주소를 맞춘다.
   html = localizedOgUrl(html, url);
   // 첫 화면: 공유 링크의 도시·일정을 미리보기 제목·설명에 넣는다
-  if (url.pathname === '/' && url.searchParams.has('city')) {
+  if ((url.pathname === '/' || aliasLang) && url.searchParams.has('city')) {
     html = shareMeta(html, url, cities as City[], CITY_JA);
   }
   // 본문을 읽은 Response 는 그대로 반환할 수 없으므로 새 응답으로 감싼다.

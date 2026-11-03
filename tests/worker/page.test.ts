@@ -32,7 +32,15 @@ describe('페이지 요청(Worker)', () => {
     expect(await (await page(new Request('https://howmuchthere.com/guide/tokyo?lang=ko'), fetcher)).text()).toBe('KO');
     expect(seen).toEqual(['/_l/en/guide/tokyo', '/_l/ja/', '/guide/tokyo']);
   });
-  it('언어 폴더를 직접 열면 404, .html 주소는 확장자 없는 주소로 301', async () => {
+  it('영어·일본어 OG 주소를 요청 언어와 전체 공유 주소에 맞춘다', async () => {
+    const source = '<html><head><meta property="og:url" content="https://howmuchthere.com/?lang=ko"></head></html>';
+    const { fetcher } = fakeAssets({ '/_l/en/': source, '/_l/ja/': source });
+    const en = await (await page(new Request('https://howmuchthere.com/?lang=en&city=tokyo&nights=3'), fetcher)).text();
+    const ja = await (await page(new Request('https://howmuchthere.com/?lang=ja&city=tokyo'), fetcher)).text();
+    expect(en).toContain('content="https://howmuchthere.com/?lang=en&amp;city=tokyo&amp;nights=3"');
+    expect(ja).toContain('content="https://howmuchthere.com/?lang=ja&amp;city=tokyo"');
+  });
+  it('언어 폴더를 직접 열면 404, .html 주소는 확장자 없는 주소로 301 이동', async () => {
     const { fetcher } = fakeAssets({ '/_l/en/guide/tokyo': 'EN' });
     expect((await page(new Request('https://howmuchthere.com/_l/en/guide/tokyo'), fetcher)).status).toBe(404);
     const r = await page(new Request('https://howmuchthere.com/guide/tokyo.html?lang=ko'), fetcher);

@@ -47,14 +47,13 @@ export async function page(request: Request, assets: Fetcher): Promise<Response>
   if (!res.ok || !(res.headers.get('content-type') ?? '').includes('text/html')) return res;
 
   let html = await res.text();
-  const originalHtml = html;
   // X 등 공유 크롤러가 정적 파일의 기본 한국어 og:url 을 읽지 않도록 요청 언어와 주소를 맞춘다.
   html = localizedOgUrl(html, url);
   // 첫 화면: 공유 링크의 도시·일정을 미리보기 제목·설명에 넣는다
   if (url.pathname === '/' && url.searchParams.has('city')) {
     html = shareMeta(html, url, cities as City[], CITY_JA);
   }
-  if (html === originalHtml) return res;
+  // 본문을 읽은 Response 는 그대로 반환할 수 없으므로 새 응답으로 감싼다.
   const headers = new Headers(res.headers);
   headers.delete('content-length');
   return new Response(html, { status: res.status, statusText: res.statusText, headers });

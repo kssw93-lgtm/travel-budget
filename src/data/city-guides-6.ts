@@ -68,6 +68,7 @@ export const NOTES_6: Record<string, Compact> = {
       ['산토 니뇨 성당·마젤란 십자가', 'Basilica del Santo Niño and Magellan’s Cross', 'サント・ニーニョ教会とマゼラン・クロス', '필리핀 가톨릭 역사가 시작된 곳입니다.', 'Where Philippine Catholic history began.', 'フィリピンのカトリックの歴史が始まった場所です。'],
       ['오슬롭·모알보알', 'Oslob and Moalboal', 'オスロブ・モアルボアル', '남쪽 해안의 고래상어·정어리 떼 스노클링으로 유명한 곳입니다.', 'Southern coast spots famous for whale sharks and sardine runs.', '南の海岸で、ジンベエザメやイワシの群れのシュノーケリングが有名です。'],
       ['산 페드로 요새', 'Fort San Pedro', 'サン・ペドロ要塞', '스페인 식민지 시대에 지어진 필리핀에서 가장 작고 오래된 요새로, 마젤란 십자가와 가깝습니다.', 'The Philippines\' smallest and oldest Spanish fort, close to Magellan\'s Cross.', 'スペイン統治時代に築かれたフィリピン最小・最古の要塞で、マゼランクロスの近くです。'],
+      ['톱스 더 서클 전망대', 'TOPS The Circle viewpoint', 'トップス・ザ・サークル展望台', '부사이 산지에 있는 전망 명소로 세부 시와 주변 산을 360도로 조망할 수 있습니다. IT 파크 교통 터미널에서 셔틀버스를 이용할 수 있습니다.', 'A Busay hilltop viewpoint with 360-degree views of Cebu City and the surrounding mountains. A shuttle is available from the IT Park transport terminal.', 'ブサイの高台にある展望スポットで、セブ市と周辺の山々を360度見渡せます。ITパークの交通ターミナルからシャトルを利用できます。'],
     ],
     t: [
       ['막탄과 세부 시내 사이는 다리가 막히는 시간이 많아 이동 시간을 넉넉히 잡으세요.', 'The bridges between Mactan and Cebu City jam often; allow extra time.', 'マクタン島とセブ市内を結ぶ橋は渋滞しやすいので、時間に余裕を。'],

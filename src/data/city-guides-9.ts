@@ -281,6 +281,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['비유 리옹과 트라불', 'Vieux Lyon and the traboules', 'ヴュー・リヨンとトラブール', '유럽에서 손꼽히는 르네상스 구시가지로, 건물 사이를 잇는 비밀 통로(트라불) 일부를 걸어 볼 수 있습니다.', 'One of Europe’s great Renaissance quarters, with some of its hidden passageways (traboules) open to walk.', 'ヨーロッパ有数のルネサンス期の旧市街で、建物の間を抜ける抜け道（トラブール）の一部を歩けます。'],
       ['레 알 폴 보퀴즈', 'Les Halles de Lyon Paul Bocuse', 'レ・アール・ド・リヨン ポール・ボキューズ', '치즈·샤퀴테리·빵 가게가 모인 실내 시장으로, 리옹 미식을 맛보기 좋습니다.', 'An indoor food market of cheesemongers, butchers and bakers — a taste of Lyon’s cuisine.', 'チーズやシャルキュトリー、パンの店が集まる屋内市場で、リヨンの美食を味わえます。'],
       ['콩플뤼앙스 박물관', 'Musée des Confluences', 'コンフリュアンス博物館', '론강과 손강이 만나는 곳의 해체주의 건축 박물관으로, 자연사와 인류 문화를 함께 다룹니다.', 'A deconstructivist museum where the Rhône and Saône meet, covering natural history and human cultures.', 'ローヌ川とソーヌ川の合流点に立つ脱構築主義建築の博物館で、自然史と人類の文化を扱います。'],
+      ['포르비에르 로마 극장과 루그두눔 박물관', 'Fourvière Roman Theatres and Lugdunum Museum', 'フルヴィエールのローマ劇場とルグドゥヌム博物館', '푸르비에르 언덕에는 로마 시대 갈리아의 중심지였던 루그두눔의 대극장과 오데온 유적이 남아 있고, 인근 박물관에서 발굴 유물을 볼 수 있습니다.', 'Fourvière Hill preserves the Great Theatre and Odeon of Roman Lugdunum, once a centre of Roman Gaul; the nearby museum displays archaeological finds.', 'フルヴィエールの丘には、ローマ時代のガリアの中心地ルグドゥヌムの大劇場とオデオンが残り、近くの博物館で出土品を見学できます。'],
     ],
     t: [
       ['부숑(bouchon)은 리옹 전통 요리를 내는 소박한 식당입니다. 인기 있는 곳은 저녁 예약을 해 두세요.', 'Bouchons are casual restaurants serving traditional Lyon dishes; book popular ones for dinner.', 'ブションはリヨンの伝統料理を出す気取らない食堂です。人気店は夕食を予約しておきましょう。'],
@@ -294,6 +295,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['쁘띠 샹플랭 거리', 'Rue du Petit-Champlain', 'プチ・シャンプラン通り', '북미에서 손꼽히게 오래된 상점가로, 겨울에는 눈 덮인 거리를 조명 트리가 밝힙니다.', 'One of North America’s oldest shopping streets, lit with illuminated trees in the snow.', '北米有数の古い商店街で、冬は雪の通りをライトアップされたツリーが照らします。'],
       ['몽모랑시 폭포', 'Montmorency Falls', 'モンモランシー滝', '나이아가라보다 높은 폭포로, 겨울에는 얼어붙은 절벽과 얼음 언덕을 볼 수 있습니다.', 'Falls taller than Niagara; in winter the cliffs freeze over into ice walls.', 'ナイアガラより高い滝で、冬は凍りついた崖や氷の丘が見られます。'],
       ['퀘벡 국립미술관', 'Musée national des beaux-arts du Québec', 'ケベック国立美術館', '아브라함 평원 공원 안에 있는 미술관으로, 퀘벡 미술과 이누이트 미술 컬렉션이 있습니다.', 'Inside the Plains of Abraham park, with Quebec and Inuit art collections.', 'アブラハム平原公園内にある美術館で、ケベック美術とイヌイット美術のコレクションがあります。'],
+      ['플라스 로열', 'Place Royale', 'ロワイヤル広場', '1608년 사뮈엘 드 샹플랭이 퀘벡의 첫 상설 프랑스 정착지를 세운 역사 광장입니다. 주변의 석조 건물과 노트르담 데 빅투아르 교회가 광장의 역사를 보여 줍니다.', 'The historic square where Samuel de Champlain established Québec’s first permanent French settlement in 1608. Its stone buildings and Notre-Dame-des-Victoires Church reflect the area’s history.', '1608年にサミュエル・ド・シャンプランがケベック初の恒久的なフランス人入植地を築いた歴史ある広場です。周囲の石造建築やノートルダム・デ・ヴィクトワール教会が、この場所の歴史を伝えています。'],
     ],
     t: [
       ['프랑스어가 공용어지만 관광지에서는 영어도 잘 통합니다. 인사로 「봉주르」를 건네면 좋아합니다.', 'French is the official language, but English works fine in tourist areas; a “bonjour” goes down well.', 'フランス語が公用語ですが、観光地では英語もよく通じます。「ボンジュール」と挨拶すると喜ばれます。'],
@@ -333,6 +335,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['최후의 만찬(산타 마리아 델레 그라치에)', 'The Last Supper (Santa Maria delle Grazie)', '最後の晩餐（サンタ・マリア・デッレ・グラツィエ）', '레오나르도 다빈치의 벽화로, 소수 인원만 짧게 들어가 볼 수 있어 입장권이 금방 매진됩니다. 판매 시작일에 맞춰 예약하세요.', 'Leonardo’s mural, seen in small groups for a short slot; tickets sell out fast, so book when sales open.', 'レオナルド・ダ・ヴィンチの壁画で、少人数で短時間しか入れず入場券はすぐ売り切れます。販売開始に合わせて予約を。'],
       ['스포르체스코성', 'Sforza Castle', 'スフォルツェスコ城', '르네상스 시대 성 안에 여러 박물관이 있으며, 미켈란젤로의 마지막 조각 「론다니니의 피에타」를 볼 수 있습니다.', 'A Renaissance castle housing several museums, including Michelangelo’s last sculpture, the Rondanini Pietà.', 'ルネサンス期の城の中に複数の博物館があり、ミケランジェロ最後の彫刻「ロンダニーニのピエタ」が見られます。'],
       ['비토리오 에마누엘레 2세 갤러리아', 'Galleria Vittorio Emanuele II', 'ヴィットリオ・エマヌエーレ2世のガッレリア', '두오모 광장과 스칼라 극장을 잇는 유리 지붕 아케이드로, 바닥의 황소 모자이크가 유명합니다.', 'The glass-roofed arcade linking the Duomo square and La Scala, known for its bull mosaic.', 'ドゥオーモ広場とスカラ座を結ぶガラス屋根のアーケードで、床の雄牛のモザイクが有名です。'],
+      ['라 스칼라 극장과 박물관', 'Teatro alla Scala and Museum', 'スカラ座と博物館', '밀라노 중심부의 오페라 극장입니다. 극장 박물관을 관람할 수 있으며, 무대 준비 상황에 따라 객석 내부가 보이는 경우도 있습니다.', 'An opera house in central Milan. Visitors can tour the theatre museum, and may see the historic auditorium from a box when rehearsals allow.', 'ミラノ中心部にあるオペラ劇場です。劇場博物館を見学でき、リハーサルなどの状況によってはボックス席から歴史ある客席を見られることもあります。'],
     ],
     t: [
       ['저녁 식사 전 아페리티보 문화가 있어, 바에서 음료를 시키면 간단한 안주가 함께 나오는 곳이 많습니다.', 'Milan loves aperitivo: many bars serve snacks with your pre-dinner drink.', '夕食前のアペリティーヴォ文化があり、バーで飲み物を頼むと軽いおつまみが付く店が多いです。'],
@@ -345,6 +348,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['필라투스산', 'Mount Pilatus', 'ピラトゥス山', '세계에서 가장 가파른 톱니바퀴 열차(여름)와 곤돌라로 오르는 산으로, 정상에서 알프스와 호수가 내려다보입니다.', 'Climbed by the world’s steepest cogwheel railway (summer) and by gondola, with views over the Alps and the lake.', '世界一急勾配の登山鉄道（夏）とゴンドラで登る山で、山頂からアルプスと湖を見渡せます。'],
       ['스위스 교통박물관', 'Swiss Museum of Transport', 'スイス交通博物館', '기차·배·비행기·우주까지 스위스 교통의 역사를 직접 만져 보며 보는 대형 박물관입니다.', 'A large hands-on museum of Swiss transport, from trains and boats to planes and space.', '鉄道・船・飛行機から宇宙までスイスの交通史を体験しながら見られる大型博物館です。'],
       ['리기산', 'Mount Rigi', 'リギ山', '\'산들의 여왕\'으로 불리는 산으로, 호수 유람선과 유럽 최초의 산악 열차를 이어 타고 오를 수 있습니다.', 'The “Queen of the Mountains”, reached by lake steamer and Europe’s first mountain railway.', '「山の女王」と呼ばれる山で、湖の遊覧船とヨーロッパ最初の登山鉄道を乗り継いで登れます。'],
+      ['빈사의 사자상', 'Lion Monument', '瀕死のライオン像', '바위 벽에 새긴 거대한 사자 조각으로, 1792년 파리에서 전사한 스위스 근위병을 추모합니다. 주변 공원은 연중 무료로 둘러볼 수 있습니다.', 'A monumental lion carved into a rock face, commemorating Swiss Guards who died in Paris in 1792. The surrounding park is open to visitors year-round.', '岩壁に刻まれた巨大なライオン像で、1792年にパリで亡くなったスイス衛兵を追悼しています。周囲の公園は一年を通して見学できます。'],
     ],
     t: [
       ['스위스 트래블 패스가 있으면 호수 유람선과 일부 산악 교통이 포함되거나 할인되니 조건을 확인하세요.', 'A Swiss Travel Pass covers lake boats and gives discounts on some mountain transport; check the terms.', 'スイストラベルパスがあれば湖の遊覧船が含まれ、一部の山岳交通は割引になるので条件を確認しましょう。'],
@@ -357,6 +361,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['알바이신과 산 니콜라스 전망대', 'Albaicín and the Mirador de San Nicolás', 'アルバイシンとサン・ニコラス展望台', '옛 무어인 마을의 골목을 올라가면 알람브라와 시에라 네바다가 한눈에 보이는 전망대가 나옵니다. 해 질 녘이 인기입니다.', 'Climb the old Moorish lanes to the viewpoint facing the Alhambra and Sierra Nevada, most popular at sunset.', '旧ムーア人街の路地を上ると、アルハンブラとシエラ・ネバダを望む展望台に着きます。夕暮れ時が人気です。'],
       ['왕실 예배당', 'Royal Chapel of Granada', 'グラナダ王室礼拝堂', '이사벨 여왕과 페르난도 왕이 잠든 예배당으로, 대성당 바로 옆에 있습니다.', 'Resting place of Queen Isabella and King Ferdinand, right beside the cathedral.', 'イサベル女王とフェルナンド王が眠る礼拝堂で、大聖堂のすぐ隣にあります。'],
       ['과학 공원', 'Parque de las Ciencias', '科学公園', '체험형 전시와 천문관, 열대 동물관 바이오돔이 있는 대형 과학관입니다.', 'A large hands-on science museum with a planetarium and the BioDomo tropical zoo.', '体験型展示やプラネタリウム、熱帯の動物館バイオドームがある大型科学館です。'],
+      ['카르투하 수도원', 'Monastery of La Cartuja', 'カルトゥハ修道院', '안달루시아 바로크 건축을 대표하는 수도원입니다. 교회와 성구실, 성물실의 화려한 장식과 후안 산체스 코탄의 회화를 볼 수 있습니다.', 'A major example of Andalusian Baroque architecture, with richly decorated church spaces and paintings by Juan Sánchez Cotán.', 'アンダルシア・バロック建築を代表する修道院です。装飾豊かな教会空間やフアン・サンチェス・コターンの絵画を見学できます。'],
     ],
     t: [
       ['그라나다 바에서는 대부분 음료를 시키면 타파스가 무료로 함께 나옵니다. 한 곳에 오래 있기보다 여러 바를 옮겨 다니는 것이 현지식입니다.', 'In most Granada bars a free tapa comes with each drink; locals hop between bars rather than staying in one.', 'グラナダのバーでは飲み物を頼むとたいていタパスが無料で付きます。一軒に長居せず何軒もはしごするのが地元流です。'],
@@ -369,6 +374,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['실크 거래소(라 론하)', 'Silk Exchange (La Lonja de la Seda)', 'ラ・ロンハ（絹の取引所）', '나선형 기둥이 늘어선 후기 고딕 양식 상업 건물로, 유네스코 세계유산입니다. 일요일·공휴일은 무료입니다.', 'A late-Gothic merchants’ hall of twisted columns, UNESCO-listed; free on Sundays and holidays.', 'ねじれた柱が並ぶ後期ゴシック様式の商業建築で、世界遺産です。日曜・祝日は無料です。'],
       ['발렌시아 대성당', 'Valencia Cathedral', 'バレンシア大聖堂', '성배로 전해지는 \'성스러운 잔\'을 모신 대성당으로, 미겔레테 종탑에 오르면 구시가지가 내려다보입니다.', 'Home to a chalice venerated as the Holy Grail; climb the Micalet tower for old-town views.', '聖杯と伝わる「聖なる杯」を祀る大聖堂で、ミゲレテの鐘楼に上ると旧市街を見渡せます。'],
       ['알부페라 자연공원', 'Albufera Natural Park', 'アルブフェラ自然公園', '파에야용 쌀을 키우는 논과 석호가 펼쳐진 곳으로, 배를 타고 보는 일몰이 유명합니다.', 'Rice paddies and a lagoon where paella rice grows, famous for sunset boat rides.', 'パエリア用の米を育てる田んぼと潟湖が広がり、舟から見る夕日が有名です。'],
+      ['세라노스 탑', 'Serranos Towers', 'セラノスの塔', '중세 발렌시아 성벽에 남아 있는 요새형 성문으로, 구시가지와 투리아 정원 사이에 서 있습니다.', 'A fortified gate surviving from Valencia’s medieval walls, between the old town and the Turia Gardens.', '中世バレンシアの城壁に残る要塞門で、旧市街とトゥリア庭園の間にあります。'],
     ],
     t: [
       ['진짜 발렌시아 파에야는 닭·토끼·콩을 넣고 점심에 먹는 음식입니다. 해산물 파에야와는 다른 요리입니다.', 'Authentic paella valenciana uses chicken, rabbit and beans and is eaten at lunch; seafood paella is a different dish.', '本場のパエリア・バレンシアーナは鶏・ウサギ・豆を使い、昼に食べる料理です。シーフードパエリアとは別物です。'],
@@ -381,6 +387,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['시테 뒤 뱅', 'La Cité du Vin', 'シテ・デュ・ヴァン', '세계 와인 문화를 체험하는 전시관으로, 꼭대기 전망대에서 와인 한 잔이 입장권에 포함됩니다.', 'An interactive museum of world wine culture; the ticket includes a glass at the rooftop belvedere.', '世界のワイン文化を体験できる施設で、入場券に最上階展望台でのワイン1杯が含まれます。'],
       ['페이베를랑 탑', 'Pey-Berland Tower', 'ペイ・ベルラン塔', '생탕드레 대성당 옆 종탑으로, 계단을 올라가면 보르도 시내가 내려다보입니다. 시간 지정 예약제입니다.', 'The cathedral’s bell tower; climb the stairs for city views, with timed booking.', 'サンタンドレ大聖堂の鐘楼で、階段を上るとボルドー市内を見渡せます。時間指定の予約制です。'],
       ['아키텐 박물관', 'Musée d’Aquitaine', 'アキテーヌ博物館', '선사 시대부터 근대 항구 도시까지 보르도와 남서부 프랑스의 역사를 다룹니다.', 'Bordeaux and south-west France from prehistory to the port city’s modern era.', '先史時代から近代の港町までボルドーと南西フランスの歴史を紹介します。'],
+      ['빛의 수조', 'Bassins des Lumières', 'バッサン・デ・リュミエール', '옛 잠수함 기지의 거대한 수조와 벽면을 활용해 예술 작품을 투영하는 몰입형 디지털 아트 시설입니다.', 'An immersive digital-art venue projecting works across the vast basins and walls of a former submarine base.', '旧潜水艦基地の巨大な水槽や壁面に作品を投影する、没入型デジタルアート施設です。'],
     ],
     t: [
       ['구시가지와 강변 명소는 트램으로 이어져 1시간 동안 갈아탈 수 있는 1회권 하나로 대부분 다닐 수 있습니다.', 'Trams link the old town and riverside sights, and a one-hour single ticket covers transfers.', '旧市街と川沿いの名所はトラムで結ばれ、1時間乗り換え自由の1回券でほとんど回れます。'],
@@ -393,6 +400,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['슈파이허슈타트', 'Speicherstadt', 'シュパイヒャーシュタット', '운하를 따라 붉은 벽돌 창고가 늘어선 유네스코 세계유산 지구로, 저녁 조명이 특히 아름답습니다.', 'UNESCO-listed red-brick warehouses along canals, especially beautiful when lit at night.', '運河沿いに赤れんがの倉庫が並ぶ世界遺産の地区で、夜のライトアップが特に美しいです。'],
       ['미니어처 원더랜드', 'Miniatur Wunderland', 'ミニチュア・ワンダーランド', '슈파이허슈타트 창고 안에 만든 세계 최대 규모의 철도 모형 전시장으로, 공항 모형에서 비행기가 뜨고 내립니다.', 'The world’s largest model railway inside a Speicherstadt warehouse, where even model planes take off.', 'シュパイヒャーシュタットの倉庫内にある世界最大級の鉄道模型展示で、空港模型では飛行機が離着陸します。'],
       ['함부르크 미술관(쿤스트할레)', 'Hamburger Kunsthalle', 'ハンブルク美術館', '중앙역 옆의 대형 미술관으로, 중세부터 현대까지 컬렉션을 갖추고 있습니다. 18세 미만은 무료입니다.', 'A major art museum beside the main station spanning the Middle Ages to today; free for under-18s.', '中央駅の隣にある大型美術館で、中世から現代までのコレクションがあります。18歳未満は無料です。'],
+      ['성 미카엘 교회', 'St. Michael’s Church (Michel)', '聖ミヒャエル教会（ミヒャエル教会）', '함부르크의 바로크 양식 랜드마크로, 탑 전망대에서 항구와 도심을 볼 수 있습니다. 예배와 행사에 따른 관람 제한을 확인하세요.', 'Hamburg’s Baroque landmark, with a tower lookout over the harbour and city. Check access restrictions during services and events.', 'ハンブルクを代表するバロック様式の教会で、塔の展望台から港と市街を見渡せます。礼拝や行事に伴う見学制限を確認してください。'],
     ],
     t: [
       ['항구 페리(62번 등)는 일반 대중교통 승차권으로 탈 수 있어 저렴한 항구 유람 대신 이용하기 좋습니다.', 'Harbour ferries (such as line 62) take regular transit tickets — a cheap way to tour the port.', '港のフェリー（62番など）は通常の公共交通の乗車券で乗れるので、安く港を巡る方法としておすすめです。'],
@@ -418,6 +426,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['황금 지붕', 'Golden Roof (Goldenes Dachl)', '黄金の小屋根', '금박 구리 기와 2,600여 장으로 덮은 구시가지의 발코니로, 인스브루크의 상징입니다.', 'The old-town balcony roofed with some 2,600 gilded copper tiles, symbol of Innsbruck.', '約2,600枚の金メッキの銅瓦で覆われた旧市街のバルコニーで、インスブルックの象徴です。'],
       ['암브라스 성', 'Ambras Castle', 'アンブラス城', '르네상스 시대 대공의 성으로, 세계에서 가장 오래된 박물관으로 불리는 수집품 전시실이 있습니다. 19세 미만은 무료입니다.', 'A Renaissance archduke’s castle with what is called the world’s oldest museum collection; free under 19.', 'ルネサンス期の大公の城で、世界最古の博物館と呼ばれる収集品の展示室があります。19歳未満は無料です。'],
       ['스와로브스키 크리스털 월드', 'Swarovski Crystal Worlds', 'スワロフスキー・クリスタルワールド', '근교 바텐스의 크리스털 테마 전시관으로, 시내에서 셔틀버스로 갈 수 있습니다.', 'A crystal-themed attraction in nearby Wattens, reached by shuttle bus from town.', '近郊ヴァッテンスにあるクリスタルをテーマにした施設で、市内からシャトルバスで行けます。'],
+      ['인스브루크 황궁', 'Imperial Palace Innsbruck (Hofburg)', 'インスブルック王宮（ホーフブルク）', '막시밀리안 1세 시대에 완성된 합스부르크 왕궁으로, 마리아 테레지아 시대의 의전실과 역사적인 거처를 둘러볼 수 있습니다.', 'A Habsburg palace completed under Maximilian I, with ceremonial rooms and historic apartments associated with Maria Theresa.', 'マクシミリアン1世の時代に完成したハプスブルク家の宮殿で、マリア・テレジアゆかりの大広間や居室を見学できます。'],
     ],
     t: [
       ['시내버스·트램 1회권은 미리 사면 차내 구매보다 쌉니다. 차내에서 사면 추가 요금이 붙습니다.', 'Buy single bus and tram tickets in advance; buying on board costs extra.', '市バスやトラムの1回券は事前に買うと車内購入より安くなります。車内で買うと追加料金がかかります。'],
@@ -430,6 +439,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['뮈셈(유럽·지중해 문명 박물관)', 'Mucem', 'ミュセム（ヨーロッパ地中海文明博物館）', '항구 입구의 격자 외벽 건물과 옛 요새를 다리로 이은 박물관으로, 옥상 테라스에서 바다가 보입니다.', 'A lattice-clad museum linked by footbridge to the old fort at the harbour mouth, with a sea-view roof terrace.', '港の入口にある格子状の外壁の建物と古い要塞を橋で結んだ博物館で、屋上テラスから海が見えます。'],
       ['이프 성', 'Château d’If', 'イフ城', '소설 「몬테크리스토 백작」의 무대로 알려진 섬의 요새 감옥으로, 구항구에서 배로 갑니다. 배 요금은 따로입니다.', 'The island fortress-prison of The Count of Monte Cristo, reached by boat from the Vieux-Port (fare extra).', '小説『モンテ・クリスト伯』の舞台として知られる島の要塞監獄で、旧港から船で行きます。船代は別です。'],
       ['칼랑크 국립공원', 'Calanques National Park', 'カランク国立公園', '석회암 절벽 사이로 푸른 바다가 들어온 만이 이어지는 국립공원으로, 하이킹이나 유람선으로 둘러봅니다.', 'Limestone cliffs and turquoise coves, explored on foot or by boat.', '石灰岩の断崖の間に青い入り江が続く国立公園で、ハイキングか遊覧船で巡ります。'],
+      ['롱샹 궁전', 'Palais Longchamp', 'ロンシャン宮殿', '뒤랑스강 물을 마르세유로 끌어온 운하 사업을 기념해 세운 건축물입니다. 중앙 분수와 양쪽 미술관·자연사박물관, 주변 공원을 함께 둘러볼 수 있습니다.', 'A monumental complex celebrating the canal that brought Durance water to Marseille, with a central fountain, two museums and surrounding parkland.', 'デュランス川の水をマルセイユに導いた運河事業を記念する建築群です。中央の噴水、左右の美術館・自然史博物館、周囲の公園を見学できます。'],
     ],
     t: [
       ['구항구 양쪽을 잇는 작은 페리(페리 보트)는 짧지만 마르세유의 오래된 명물입니다.', 'The tiny Ferry Boat crossing the Vieux-Port is short but a Marseille institution.', '旧港の両岸を結ぶ小さなフェリーボートは短い航路ですが、マルセイユの古い名物です。'],
@@ -469,6 +479,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['헨트 제단화(성 바보 대성당)', 'Ghent Altarpiece (St Bavo’s Cathedral)', 'ヘントの祭壇画（聖バーフ大聖堂）', '반에이크 형제의 「신비한 어린양」을 방문자 센터에서 볼 수 있고, 증강현실 투어로 제단화의 역사를 따라갑니다.', 'See the van Eycks’ Adoration of the Mystic Lamb in the visitor centre, with an AR tour of its history.', 'ファン・エイク兄弟の「神秘の子羊」を見学センターで鑑賞でき、ARツアーで祭壇画の歴史をたどれます。'],
       ['그라벤스틴 성', 'Gravensteen (Castle of the Counts)', 'フランドル伯居城', '도심 한가운데의 중세 성으로, 성벽 위에서 겐트 시내가 내려다보입니다. 12세 미만은 무료입니다.', 'A medieval castle in the middle of town with views from its ramparts; free under 12.', '街の真ん中にある中世の城で、城壁の上からヘント市内を見渡せます。12歳未満は無料です。'],
       ['흐라슬레이와 코렌레이', 'Graslei and Korenlei', 'グラスレイとコーレンレイ', '운하 양쪽에 길드 건물이 늘어선 겐트의 대표 풍경으로, 운하 보트가 여기서 출발합니다.', 'Guildhouses lining both banks of the canal — Ghent’s signature view, where canal boats depart.', '運河の両岸にギルドハウスが並ぶヘントを代表する風景で、運河ボートがここから出発します。'],
+      ['겐트 종루', 'Ghent Belfry', 'ヘント鐘楼', '성 바보 대성당과 성 니콜라스 교회 사이에 서 있는 세 탑 가운데 종루입니다. 종소리와 카리용을 듣고 탑에 올라 구시가지 전망을 볼 수 있습니다.', 'The middle of Ghent’s three famous towers, between St Bavo’s Cathedral and St Nicholas’ Church. Hear the carillon and climb for views over the old town.', '聖バーフ大聖堂と聖ニコラス教会の間に立つ、ヘントを代表する三塔の中央の塔です。カリヨンの音を聞き、塔に上って旧市街を眺められます。'],
+      ['STAM 겐트 시립박물관', 'STAM, Ghent City Museum', 'STAM ヘント市立博物館', '중세부터 현재까지 겐트의 변화를 다루며, 수도원·수녀원 건물과 현대 전시관이 함께 있습니다. 바닥을 걸어볼 수 있는 대형 항공사진 지도도 특징입니다.', 'Traces Ghent from the Middle Ages to today in a complex combining an abbey, convent and contemporary galleries. A giant aerial map lets visitors walk across the city.', '中世から現代までのヘントの歩みを紹介し、修道院・女子修道院の建物と現代の展示棟が一体になっています。街の巨大な航空写真地図の上を歩けるのも特徴です。'],
     ],
     t: [
       ['트램·버스는 De Lijn 1회권이나 비접촉 카드로 탑니다. 1회권은 일정 시간 안에 갈아탈 수 있습니다.', 'Trams and buses take a De Lijn single ticket or contactless card, with transfers allowed within the time limit.', 'トラムやバスはDe Lijnの1回券か非接触カードで乗れます。1回券は一定時間内なら乗り換えできます。'],
@@ -481,6 +493,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['국제적십자·적신월 박물관', 'International Red Cross and Red Crescent Museum', '国際赤十字・赤新月博物館', '인도주의 활동의 역사를 체험형 전시로 보여 주는 박물관으로, 유엔 유럽본부 맞은편에 있습니다.', 'An immersive museum of humanitarian action, opposite the UN’s Palais des Nations.', '人道支援の歴史を体験型展示で伝える博物館で、国連欧州本部の向かいにあります。'],
       ['CERN 사이언스 게이트웨이', 'CERN Science Gateway', 'CERNサイエンス・ゲートウェイ', '세계 최대 입자물리연구소의 과학 체험관으로, 입장은 무료지만 등록이 필요합니다. 16세 미만은 보호자 동반이어야 합니다.', 'The science centre of the world’s largest particle physics lab — free, but registration is required; under-16s need an adult.', '世界最大の素粒子物理学研究所の科学体験施設で、入場無料ですが登録が必要です。16歳未満は保護者同伴です。'],
       ['구시가지와 생피에르 대성당', 'Old Town and St Pierre Cathedral', '旧市街とサン・ピエール大聖堂', '종교개혁가 칼뱅이 설교한 대성당으로, 탑에 오르면 호수와 시내가 내려다보입니다.', 'The cathedral where Calvin preached; climb the towers for lake and city views.', '宗教改革者カルヴァンが説教した大聖堂で、塔に上ると湖と市内を見渡せます。'],
+      ['파텍 필립 박물관', 'Patek Philippe Museum', 'パテック フィリップ・ミュージアム', '아르데코 건물 안에 16세기 이후의 시계와 기계식 오토마타, 에나멜 세밀화를 전시하는 박물관입니다.', 'A museum in an Art Deco building, with timepieces, mechanical automata and enamel miniatures dating from the 16th century onward.', 'アール・デコ様式の建物にある博物館で、16世紀以降の時計や機械式オートマタ、エナメル細密画を展示しています。'],
     ],
     t: [
       ['제네바 숙소에 묵으면 체류 기간 동안 시내 대중교통을 무료로 탈 수 있는 「제네바 교통카드」를 받을 수 있습니다. 숙소에 확인하세요.', 'Staying in Geneva accommodation usually gets you a free Geneva Transport Card for city transit during your stay; ask your host.', 'ジュネーブの宿に泊まると、滞在中の市内交通が無料になる「ジュネーブ交通カード」がもらえます。宿に確認しましょう。'],
@@ -493,6 +506,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['루벤스의 집', 'Rubens House', 'ルーベンスの家', '루벤스가 살며 작업하던 저택과 정원으로, 새로 단장한 정원과 체험관이 있습니다.', 'The house, studio and garden where Rubens lived and worked, with a renewed garden and visitor centre.', 'ルーベンスが暮らし制作した邸宅と庭園で、新しく整備された庭と体験施設があります。'],
       ['MAS 박물관', 'MAS (Museum aan de Stroom)', 'MAS（ミュージアム・アーン・デ・ストローム）', '항구와 도시의 역사를 다루는 박물관으로, 옥상 전망대는 입장권 없이 무료로 올라갈 수 있습니다.', 'A museum of the port and city; the rooftop panorama is free without a ticket.', '港と街の歴史を扱う博物館で、屋上の展望台はチケットなしで無料で上れます。'],
       ['안트베르펜 중앙역', 'Antwerpen-Centraal station', 'アントワープ中央駅', '대리석과 철골 돔이 웅장한 기차역으로, 세계에서 가장 아름다운 역 중 하나로 꼽힙니다.', 'A marble-and-iron domed station often ranked among the world’s most beautiful.', '大理石と鉄骨のドームが壮麗な駅で、世界で最も美しい駅の一つに数えられます。'],
+      ['플랑탱 모레투스 박물관', 'Museum Plantin-Moretus', 'プランタン＝モレトゥス博物館', '플랑탱과 모레투스 가문의 옛 집과 인쇄소를 보존한 박물관으로, 인쇄·출판 역사와 세계기록유산 자료를 볼 수 있습니다.', 'A museum preserving the Plantin and Moretus family home and printing works, with collections recognized by UNESCO’s Memory of the World.', 'プランタンとモレトゥス家の旧邸宅兼印刷所を保存する博物館で、印刷・出版の歴史とユネスコ「世界の記憶」に登録された資料を見学できます。'],
     ],
     t: [
       ['트램·버스는 De Lijn 1회권이나 비접촉 카드로 탑니다. 구시가지는 대부분 걸어서 다닐 수 있습니다.', 'Trams and buses take a De Lijn ticket or contactless card, though most of the old town is walkable.', 'トラムやバスはDe Lijnの1回券か非接触カードで乗れますが、旧市街はほとんど歩いて回れます。'],
@@ -505,6 +519,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['이집트 박물관', 'Museo Egizio', 'エジプト博物館', '카이로 다음가는 규모의 이집트 유물 박물관으로, 미라와 석상, 파피루스 컬렉션이 방대합니다.', 'One of the largest collections of Egyptian antiquities outside Cairo, with mummies, statues and papyri.', 'カイロに次ぐ規模のエジプト遺物の博物館で、ミイラや石像、パピルスのコレクションが膨大です。'],
       ['몰레 안토넬리아나와 영화 박물관', 'Mole Antonelliana and the Cinema Museum', 'モーレ・アントネッリアーナと映画博物館', '토리노의 상징인 탑 안에 영화 박물관이 있고, 유리 엘리베이터로 전망대에 올라갑니다.', 'Turin’s landmark tower houses the cinema museum, with a glass lift to the viewing deck.', 'トリノの象徴の塔の中に映画博物館があり、ガラスのエレベーターで展望台に上れます。'],
       ['토리노 왕궁(무세이 레알리)', 'Royal Museums of Turin', 'トリノ王宮（ムゼイ・レアーリ）', '사보이 왕가의 궁전과 무기고, 미술관을 묶은 복합 박물관으로, 18세 미만은 무료입니다.', 'The Savoy royal palace, armoury and gallery combined; free under 18.', 'サヴォイア家の宮殿や武器庫、美術館をまとめた複合博物館で、18歳未満は無料です。'],
+      ['마담 궁전 고대미술관', 'Palazzo Madama – Museum of Ancient Art', 'マダマ宮殿・古典美術館', '로마 시대 요새 터에서 중세 성과 탑, 후아라가 설계한 바로크 계단으로 이어지는 궁전입니다. 현재는 토리노 고대미술 시민박물관으로 운영됩니다.', 'A palace that grew from a Roman fort into a medieval castle and towers, with Juvarra’s Baroque staircase; it now houses Turin’s Civic Museum of Ancient Art.', 'ローマ時代の砦跡から中世の城・塔を経て、ユヴァラ設計のバロック階段を備える宮殿です。現在はトリノ市立古典美術館として運営されています。'],
+      ['카리냐노 궁전과 이탈리아 통일운동 국립박물관', 'Palazzo Carignano and the National Museum of the Italian Risorgimento', 'カリニャーノ宮殿とイタリア統一運動国立博物館', '곡선형 테라코타 외관과 이중 계단이 특징인 바로크 궁전입니다. 사보이 왕가와 이탈리아 통일운동의 역사적 장소이며, 내부에 통일운동 국립박물관이 있습니다.', 'A Baroque palace known for its curved terracotta façade and double staircases. It is tied to the Savoy dynasty and Italian unification, and houses the National Museum of the Risorgimento.', '曲線を描くテラコッタの外観と二重階段が特徴のバロック宮殿です。サヴォイア家とイタリア統一運動ゆかりの場所で、館内に統一運動国立博物館があります。'],
     ],
     t: [
       ['오래된 카페에서 에스프레소·초콜릿·크림을 층층이 담은 음료 비체린을 맛보세요. 토리노에서 시작된 음료입니다.', 'Try a bicerin — layered espresso, chocolate and cream — in a historic café; it was born in Turin.', '老舗カフェで、エスプレッソ・チョコレート・クリームを層にした飲み物ビチェリンを味わってみましょう。トリノ発祥の飲み物です。'],
@@ -517,6 +533,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['벌리 헤즈', 'Burleigh Heads', 'バーレイ・ヘッズ', '곶 위 국립공원 산책로와 서핑 포인트가 있는 해변 마을로, 해 질 녘 풍경이 아름답습니다.', 'A beach village with a headland national-park walk and surf breaks, lovely at sunset.', '岬の上の国立公園の遊歩道とサーフポイントがあるビーチの町で、夕暮れの景色が美しいです。'],
       ['드림월드', 'Dreamworld', 'ドリームワールド', '호주 최대급 테마파크로, 놀이기구와 호주 동물 구역이 함께 있습니다.', 'One of Australia’s biggest theme parks, combining rides with Australian wildlife.', 'オーストラリア最大級のテーマパークで、アトラクションとオーストラリアの動物エリアがあります。'],
       ['스프링브룩 국립공원', 'Springbrook National Park', 'スプリングブルック国立公園', '세계유산 열대우림 속 폭포와 동굴의 반딧불이(글로웜)를 볼 수 있습니다. 동굴에서는 불빛을 반딧불이에 비추지 마세요.', 'World Heritage rainforest with waterfalls and a glow-worm cave; never shine lights on the glow-worms.', '世界遺産の熱帯雨林で滝や洞窟の土ボタル（グローワーム）が見られます。洞窟では土ボタルに光を当てないように。'],
+      ['커럼빈 야생동물 보호구역', 'Currumbin Wildlife Sanctuary', 'カランビン自然動物園', '코알라·캥거루 등 호주 토종 동물을 만날 수 있는 보호구역으로, 야생동물 병원과 보전 활동도 살펴볼 수 있습니다.', 'A wildlife sanctuary with native Australian animals such as koalas and kangaroos, as well as a wildlife hospital and conservation programs.', 'コアラやカンガルーなどオーストラリア固有の動物に出会える保護施設で、野生動物病院や保全活動についても知ることができます。'],
     ],
     t: [
       ['퀸즐랜드 대중교통(버스·트램)은 거리와 상관없이 1회 50센트입니다. 고카드나 비접촉 카드를 탈 때와 내릴 때 모두 찍으세요. 공항철도 에어트레인은 예외입니다.', 'Queensland buses and trams cost a flat 50 cents per journey; tap on and off with a go card or contactless card. Airtrain is the exception.', 'クイーンズランドの公共交通（バス・トラム）は距離に関係なく1回50セントです。ゴーカードか非接触カードで乗車時と降車時の両方タッチを。空港鉄道エアトレインは例外です。'],
@@ -529,6 +546,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['퀸즐랜드 박물관', 'Queensland Museum Kurilpa', 'クイーンズランド博物館', '공룡 전시 등 자연사·문화 전시를 무료로 볼 수 있는 박물관입니다(일부 기획전 유료).', 'Natural history and culture, including dinosaurs, free to enter (some exhibitions ticketed).', '恐竜展示など自然史・文化の展示を無料で見られる博物館です（一部の企画展は有料）。'],
       ['QAGOMA(퀸즐랜드 미술관·현대미술관)', 'QAGOMA', 'QAGOMA（クイーンズランド美術館・近代美術館）', '사우스 뱅크의 두 미술관으로, 소장품 전시 대부분이 무료입니다.', 'Two galleries at South Bank where most collection displays are free.', 'サウスバンクにある2つの美術館で、所蔵品展示の多くが無料です。'],
       ['스토리 브리지 클라임', 'Story Bridge Adventure Climb', 'ストーリー・ブリッジ・アドベンチャー・クライム', '강 위의 철교 꼭대기까지 올라가 시내를 내려다보는 가이드 등반 체험입니다.', 'A guided climb to the top of the steel bridge for views over the city.', '川に架かる鉄橋の頂上まで登って市内を見下ろすガイド付きのクライム体験です。'],
+      ['브리즈번 시청과 브리즈번 박물관', 'Brisbane City Hall and Museum of Brisbane', 'ブリスベン市庁舎とブリスベン博物館', '시청의 역사적인 시계탑 투어와 건물 안 브리즈번 박물관에서 도시의 역사·생활·예술을 함께 살펴볼 수 있습니다. 시계탑 투어는 사전 예약이 필요할 수 있습니다.', 'Explore the city’s history, culture and art at the Museum of Brisbane inside the historic City Hall; clock-tower tours may require advance booking.', '歴史ある市庁舎の時計塔ツアーと館内のブリスベン博物館で、街の歴史・暮らし・芸術を一緒に楽しめます。時計塔ツアーは事前予約が必要な場合があります。'],
     ],
     t: [
       ['버스·기차·페리·트램은 거리와 상관없이 1회 50센트입니다. 강을 오가는 시티캣 페리를 타면 저렴하게 시내를 둘러볼 수 있습니다.', 'Buses, trains, ferries and trams cost a flat 50 cents; the CityCat ferry makes a cheap river tour.', 'バス・列車・フェリー・トラムは距離に関係なく1回50セントです。川を行き来するシティキャット・フェリーで安く市内を巡れます。'],
@@ -541,6 +559,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['링컨 기념관과 내셔널 몰', 'Lincoln Memorial and the National Mall', 'リンカーン記念堂とナショナル・モール', '국회의사당에서 링컨 기념관까지 이어지는 넓은 공원으로, 기념물들을 걸어서 둘러봅니다.', 'The great park from the Capitol to the Lincoln Memorial, explored on foot.', '議事堂からリンカーン記念堂まで続く広い公園で、記念碑を歩いて巡ります。'],
       ['국립문서보관소', 'National Archives Museum', '国立公文書館', '독립선언서와 헌법 원본을 볼 수 있으며, 입장은 무료입니다.', 'See the original Declaration of Independence and Constitution; admission is free.', '独立宣言と合衆国憲法の原本が見られ、入場は無料です。'],
       ['워싱턴 기념탑', 'Washington Monument', 'ワシントン記念塔', '내셔널 몰 한가운데의 오벨리스크로, 전망대에서 시내가 내려다보입니다. 입장권은 무료이고 온라인 예약 시 수수료가 붙습니다.', 'The obelisk at the heart of the Mall with a city-view deck; tickets are free, with a small online booking fee.', 'ナショナル・モール中央のオベリスクで、展望台から市内を見渡せます。入場券は無料で、オンライン予約には手数料がかかります。'],
+      ['내셔널 갤러리 오브 아트', 'National Gallery of Art', 'ナショナル・ギャラリー・オブ・アート', '내셔널 몰에 있는 미술관으로, 서관의 중세~20세기 초 작품과 동관의 근현대 미술, 야외 조각 정원을 둘러볼 수 있습니다.', 'An art museum on the National Mall, with works from the Middle Ages to the early 20th century in the West Building, modern art in the East Building and an outdoor sculpture garden.', 'ナショナル・モールにある美術館で、西館の中世から20世紀初頭までの作品、東館の近現代美術、屋外彫刻庭園を見学できます。'],
     ],
     t: [
       ['식당 메뉴 가격에는 세금(10%)과 팁이 빠져 있습니다. 계산할 때 팁 18~20%를 더하는 것이 일반적입니다.', 'Menu prices exclude the 10% meals tax and tip; adding 18–20% for tip is usual.', '飲食店のメニュー価格には税（10%）とチップが含まれていません。会計時に18〜20%のチップを加えるのが一般的です。'],
@@ -553,6 +572,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['보스턴 미술관', 'Museum of Fine Arts, Boston', 'ボストン美術館', '고대 이집트부터 인상파, 일본 미술까지 아우르는 미국 대표 미술관입니다.', 'One of America’s great art museums, from ancient Egypt to the Impressionists and Japanese art.', '古代エジプトから印象派、日本美術までそろうアメリカを代表する美術館です。'],
       ['뉴잉글랜드 수족관', 'New England Aquarium', 'ニューイングランド水族館', '항구 앞 수족관으로, 4층 높이의 원통형 대형 수조가 명물입니다.', 'A harbourfront aquarium famous for its four-storey Giant Ocean Tank.', '港の前にある水族館で、4階分の高さの円筒形の大水槽が名物です。'],
       ['하버드 대학', 'Harvard University', 'ハーバード大学', '지하철 레드라인으로 가는 케임브리지의 대학으로, 캠퍼스와 하버드 스퀘어를 둘러볼 수 있습니다.', 'Across the river in Cambridge on the Red Line; stroll the campus and Harvard Square.', '地下鉄レッドラインで行けるケンブリッジの大学で、キャンパスやハーバード・スクエアを散策できます。'],
+      ['USS 컨스티튜션과 박물관', 'USS Constitution and USS Constitution Museum', 'USSコンスティテューション号と博物館', '찰스타운 해군 조선소의 역사적 군함을 살펴보고, 인근 박물관에서 선원들의 생활과 미국 해군의 역사를 알아볼 수 있습니다.', 'See the historic warship at Charlestown Navy Yard and learn about sailors’ lives and U.S. naval history at the nearby museum.', 'チャールズタウン海軍工廠の歴史的な軍艦を見学し、近くの博物館で乗組員の暮らしや米海軍の歴史を学べます。'],
     ],
     t: [
       ['식당 메뉴 가격에는 세금과 팁이 빠져 있습니다. 매사추세츠 식사세는 7%(주 6.25%+지역 0.75%)이고, 팁은 18~20%가 일반적입니다.', 'Menu prices exclude tax and tip: Massachusetts meals tax is 7% (6.25% state + 0.75% local), and an 18–20% tip is usual.', '飲食店のメニュー価格には税とチップが含まれていません。マサチューセッツの飲食税は7%（州6.25%＋地方0.75%）で、チップは18〜20%が一般的です。'],
@@ -565,6 +585,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['카사 로마', 'Casa Loma', 'カサ・ロマ', '20세기 초에 지어진 고딕 양식의 성으로, 탑과 비밀 통로, 정원을 둘러볼 수 있습니다.', 'An early-20th-century Gothic Revival castle with towers, secret passages and gardens.', '20世紀初めに建てられたゴシック様式の城で、塔や秘密の通路、庭園を見学できます。'],
       ['세인트 로렌스 마켓', 'St. Lawrence Market', 'セント・ローレンス・マーケット', '토론토 대표 식료품 시장으로, 명물 피밀 베이컨 샌드위치를 맛볼 수 있습니다.', 'Toronto’s landmark food market and home of the peameal bacon sandwich.', 'トロントを代表する食品市場で、名物のピーミール・ベーコン・サンドイッチが味わえます。'],
       ['왕립 온타리오 박물관', 'Royal Ontario Museum', 'ロイヤル・オンタリオ博物館', '공룡 화석부터 세계 문화까지 아우르는 캐나다 최대급 박물관으로, 매달 셋째 화요일 저녁은 사전 예약 시 무료입니다.', 'One of Canada’s largest museums, from dinosaurs to world cultures; free on third-Tuesday evenings with a pre-booked slot.', '恐竜の化石から世界の文化までそろうカナダ最大級の博物館で、毎月第3火曜の夜は事前予約で無料です。'],
+      ['하키 명예의 전당', 'Hockey Hall of Fame', 'ホッケーの殿堂', '하키의 역사와 선수·팀의 유물을 전시하고, 인터랙티브 구역에서 슛과 골리 플레이를 체험할 수 있습니다.', 'A museum of hockey history, players and teams, with interactive areas for shooting and playing goalie.', 'ホッケーの歴史や選手・チームの資料を展示し、体験エリアではシュートやゴーリーのプレーを試せます。'],
     ],
     t: [
       ['식당 메뉴 가격에는 HST(13%)와 팁이 빠져 있습니다. 팁은 15~18%가 일반적입니다.', 'Menu prices exclude 13% HST and tip; a 15–18% tip is usual.', '飲食店のメニュー価格にはHST（13%）とチップが含まれていません。チップは15〜18%が一般的です。'],
@@ -576,7 +597,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['시카고 미술관', 'Art Institute of Chicago', 'シカゴ美術館', '쇠라의 〈그랑드자트 섬의 일요일 오후〉 등 인상파 명작으로 유명한 미술관입니다. 입장료는 거주지에 따라 다르고, 14세 미만은 무료입니다.', 'Renowned for Impressionist masterpieces like Seurat’s A Sunday on La Grande Jatte; prices depend on where you live, and under-14s are free.', 'スーラの「グランド・ジャット島の日曜日の午後」など印象派の名作で有名な美術館です。入場料は居住地によって異なり、14歳未満は無料です。'],
       ['스카이덱(윌리스 타워)', 'Skydeck Chicago (Willis Tower)', 'スカイデッキ（ウィリス・タワー）', '103층 전망대로, 건물 밖으로 튀어나온 유리 상자 ‘레지’에 서 볼 수 있습니다.', 'The 103rd-floor observatory with The Ledge, glass boxes jutting out from the tower.', '103階の展望台で、ビルの外に突き出たガラスの箱「レッジ」に立てます。'],
       ['밀레니엄 파크', 'Millennium Park', 'ミレニアム・パーク', '거울 같은 조각 ‘클라우드 게이트(더 빈)’가 있는 도심 공원으로, 무료입니다.', 'The downtown park with the mirrored Cloud Gate (“The Bean”) — free.', '鏡のような彫刻「クラウド・ゲート（ザ・ビーン）」がある都心の公園で、無料です。'],
-      ['딥디시 피자', 'Deep-dish pizza', 'ディープディッシュ・ピザ', '1940년대 시카고에서 탄생한 두툼한 피자로, 치즈·소스·토핑을 그릇 모양 도우에 차례로 채웁니다.', 'Born in 1940s Chicago: a bowl-shaped crust filled with cheese, sauce, then toppings.', '1940年代にシカゴで生まれた分厚いピザで、器のような生地にチーズ・ソース・具を順に詰めます。'],
+      ['시카고 문화센터', 'Chicago Cultural Center', 'シカゴ文化センター', '‘시민의 궁전’으로 불리는 랜드마크 건물로, 세계 최대 규모의 티파니 스테인드글라스 돔과 무료 전시·공연을 볼 수 있습니다.', 'A landmark known as “The People’s Palace,” with the world’s largest Tiffany stained-glass dome and free exhibitions and performances.', '「市民の宮殿」と呼ばれるランドマークで、世界最大のティファニー製ステンドグラス・ドームや無料の展示・公演を楽しめます。'],
+      ['셰드 수족관', 'Shedd Aquarium', 'シェッド水族館', '미시간호 호숫가의 수족관으로, 해양 포유류·산호초·담수 생물 전시와 교육 프로그램을 운영합니다.', 'A lakeside aquarium with marine mammals, coral-reef and freshwater exhibits, plus learning programs.', 'ミシガン湖畔の水族館で、海洋哺乳類・サンゴ礁・淡水生物の展示や学習プログラムを楽しめます。'],
     ],
     t: [
       ['식당 메뉴 가격에는 세금과 팁이 빠져 있습니다. 시카고의 식당 세금은 약 10.75%(판매세 10.25%+식당세 0.5%)이고, 팁은 18~20%가 일반적입니다.', 'Menu prices exclude tax and tip: restaurant tax in Chicago is about 10.75% (10.25% sales tax + 0.5% restaurant tax), and an 18–20% tip is usual.', '飲食店のメニュー価格には税とチップが含まれていません。シカゴの飲食税は約10.75%（売上税10.25%＋飲食店税0.5%）で、チップは18〜20%が一般的です。'],
@@ -589,6 +611,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['구시가지와 옛 항구', 'Old Montréal and the Old Port', '旧市街と旧港', '17세기부터 이어진 돌길과 건물이 남아 있는 지역으로, 강변 항구까지 걸어서 둘러봅니다.', 'Cobbled streets and buildings dating back to the 17th century, down to the riverside port.', '17世紀から続く石畳と建物が残る地区で、川沿いの港まで歩いて巡ります。'],
       ['몬트리올 베이글', 'Montréal bagels', 'モントリオール・ベーグル', '꿀물에 데친 뒤 장작 화덕에 구워 달콤하고 쫄깃하며, 생비아퇴르·페어마운트 가게는 24시간 엽니다.', 'Boiled in honey water and baked in wood-fired ovens; St-Viateur and Fairmount bake around the clock.', 'はちみつ入りの湯でゆでてから薪窯で焼くため甘くもちもちしており、サン・ヴィアトゥールとフェアマウントは24時間営業です。'],
       ['몬트리올 바이오돔', 'Montréal Biodôme', 'モントリオール・バイオドーム', '옛 올림픽 경기장 자전거경기장을 재구성한 실내 생태 전시관으로, 아메리카의 다섯 생태계를 둘러볼 수 있습니다.', 'An indoor nature museum in the former Olympic velodrome, where visitors can explore five ecosystems of the Americas.', '旧オリンピック自転車競技場を改装した屋内自然博物館で、アメリカ大陸の5つの生態系を巡れます。'],
+      ['몽루아얄 공원', 'Mount Royal Park', 'モン・ロワイヤル公園', '프레데릭 로 옴스테드가 설계한 도심 산악 공원으로, 전망대와 산책로에서 몬트리올 시내를 조망할 수 있습니다.', 'An urban mountain park designed by Frederick Law Olmsted, with lookouts and paths overlooking Montréal.', 'フレデリック・ロー・オルムステッド設計の都心の山岳公園で、展望地や遊歩道からモントリオール市街を眺められます。'],
     ],
     t: [
       ['식당 메뉴 가격에는 세금(GST 5%+QST 9.975%)과 팁이 빠져 있습니다. 팁은 세전 금액의 15% 이상이 일반적입니다.', 'Menu prices exclude tax (5% GST + 9.975% QST) and tip; at least 15% of the pre-tax amount is usual.', '飲食店のメニュー価格には税（GST5%＋QST9.975%）とチップが含まれていません。チップは税抜き金額の15%以上が一般的です。'],
@@ -637,10 +660,12 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['국제 남극센터', 'International Antarctic Centre', '国際南極センター', '공항 옆에 있는 체험관으로, 남극 폭풍 체험과 펭귄, 설상차 체험을 할 수 있습니다.', 'Beside the airport: an Antarctic storm room, penguins and Hägglund rides.', '空港の隣にある体験施設で、南極の嵐体験やペンギン、雪上車の体験ができます。'],
       ['크라이스트처치 트램', 'Christchurch Tram', 'クライストチャーチ・トラム', '시내를 한 바퀴 도는 옛 트램으로, 해설을 들으며 하루 동안 자유롭게 타고 내릴 수 있습니다.', 'A heritage tram loop through the centre with commentary; hop on and off all day.', '市内を一周するレトロなトラムで、解説を聞きながら一日自由に乗り降りできます。'],
-      ['캔터베리 식재료', 'Canterbury produce', 'カンタベリーの食材', '캔터베리 양고기와 아카로아 연어 등 지역 식재료를 쓰는 식당이 많습니다.', 'Restaurants showcase Canterbury lamb, Akaroa salmon and other local produce.', 'カンタベリーのラム肉やアカロア産サーモンなど、地元の食材を使う店が多いです。'],
+      ['크라이스트처치 식물원', 'Christchurch Botanic Gardens', 'クライストチャーチ植物園', '해글리 공원과 이어진 도심 녹지로, 온실과 장미 정원, 에이번강 산책로를 둘러볼 수 있습니다.', 'A central green space adjoining Hagley Park, with conservatories, a rose garden and Avon River walks.', 'ハグレー公園に隣接する市中心部の緑地で、温室やバラ園、エイボン川沿いの散策路があります。'],
+      ['뉴질랜드 공군 박물관', 'Air Force Museum of New Zealand', 'ニュージーランド空軍博物館', '역사적인 공군 기지 건물에서 항공기와 뉴질랜드 공군의 역사를 살펴볼 수 있는 박물관입니다. 무료 셔틀과 개관 시간은 공식 안내에서 확인하세요.', 'A museum in historic air-force buildings, with aircraft and the history of the Royal New Zealand Air Force. Check the official visitor information for shuttle service and hours.', '歴史ある空軍基地の建物で航空機やニュージーランド空軍の歴史を紹介する博物館です。無料シャトルと開館時間は公式案内で確認してください。'],
+      ['트랜지셔널 대성당', 'Transitional Cathedral', 'トランジショナル大聖堂', '2011년 지진으로 원래 대성당이 크게 손상된 뒤 라티머 스퀘어에 세운 임시 대성당으로, 판지 튜브를 주요 구조 재료로 사용했습니다.', 'Built on Latimer Square after the original cathedral was badly damaged in the 2011 earthquake; cardboard tubes are a major structural material.', '2011年の地震で旧大聖堂が大きく損傷した後、ラティマー・スクエアに建てられた仮設大聖堂で、紙管を主要な構造材に用いています。'],
     ],
     t: [
-      ['공항에서 시내: 크라이스트처치 공항에서 29번 메트로 버스를 타면 시내 버스 환승 센터까지 갈 수 있으며, 일반 버스 요금이 적용됩니다.', 'Airport to city: Metro route 29 runs from the airport to the central bus interchange at the standard bus fare.', '空港から市内へ：クライストチャーチ空港からメトロの29番バスで市内のバス乗り換えセンターまで行け、通常のバス運賃が適用されます。'],
+      ['공항에서 숙소까지: 터미널 안팎의 버스 표지판을 따라 정류장으로 가세요. 29번은 메모리얼 애비뉴와 펜달턴을 거쳐 시내 버스 환승센터까지 약 30분 걸리고, 대부분 낮 시간에는 약 30분 간격입니다. 3번은 ‘Airport’ 행선지 표시가 있는 차만 공항에 들어오므로, 숙소가 리카턴·시내·섬너 중 어디인지 보고 노선을 고르세요.', 'Airport to your stay: Follow the bus signs inside and outside the terminal to the stop. Route 29 takes about 30 minutes to the central bus interchange via Memorial Avenue and Fendalton and runs about every 30 minutes for much of the day. Only route 3 buses displaying “Airport” enter the airport, so choose based on whether your stay is in Riccarton, the city or Sumner.', '空港から宿泊先へ：ターミナル内外のバス案内に従って乗り場へ。29番はメモリアル・アベニューとフェンダルトンを経由して市内バス乗換センターまで約30分で、日中の多くは約30分間隔です。3番は行先表示が「Airport」の便だけが空港に入るため、宿泊先がリカートン・市内・サムナーのどこかに合わせて選びましょう。'],
     ],
   },
   glasgow: {
@@ -695,8 +720,10 @@ export const NOTES_9: Record<string, Compact> = {
   heidelberg: {
     h: [
       ['하이델베르크 고성', 'Heidelberg Castle', 'ハイデルベルク城', '언덕 위의 붉은 사암 성으로, 입장권에 케이블카와 거대한 술통, 독일 약학박물관이 포함됩니다.', 'The red-sandstone castle on the hill; the ticket covers the funicular, the Great Tun and the German Apothecary Museum.', '丘の上の赤砂岩の城で、入場券にケーブルカーや大樽、ドイツ薬事博物館が含まれます。'],
-      ['하이델베르크 학생의 키스', 'Heidelberger Studentenkuss', 'ハイデルベルクの学生のキス', '19세기에 시내 초콜릿 가게에서 만든 누가 트뤼플 초콜릿으로, 지금도 원래 제조법으로 만듭니다.', 'A nougat-truffle chocolate created in the 19th century by a local chocolatier, still made to the original recipe.', '19世紀に市内のショコラティエが作ったヌガー・トリュフのチョコレートで、今も当時のレシピで作られています。'],
-      ['바덴·팔츠 향토 요리', 'Baden and Palatinate cooking', 'バーデン・プファルツの郷土料理', '슈페츨레를 곁들인 자우어브라텐과 팔츠식 소시지 모둠 등 지역 요리를 맛볼 수 있습니다.', 'Try Sauerbraten with Spätzle or a hearty Palatinate sausage platter.', 'シュペッツレを添えたザウアーブラーテンや、プファルツ風のソーセージ盛り合わせなどの郷土料理が味わえます。'],
+      ['옛 다리', 'The Old Bridge', 'アルテ橋（旧橋）', '네카어강을 건너 구시가지와 노이엔하임 지구를 잇는 하이델베르크의 대표적인 역사 명소입니다.', 'A landmark crossing over the Neckar that connects the Old Town with the Neuenheim district.', 'ネッカー川に架かり、旧市街とノイエンハイム地区を結ぶハイデルベルクを代表する歴史的名所です。'],
+      ['철학자의 길', 'Philosopher’s Walk', '哲学者の道', '네카어강 북쪽 언덕을 따라 이어지는 산책로로, 강 건너편의 구시가지와 성을 바라보는 전망으로 알려져 있습니다.', 'A hillside path on the north bank of the Neckar, known for views across the river toward the Old Town and castle.', 'ネッカー川北岸の丘に続く散策路で、川越しに旧市街や城を望む景色で知られています。'],
+      ['성령교회', 'Church of the Holy Spirit', '聖霊教会', '구시가지 중심 마르크트 광장에 자리한 교회로, 하이델베르크의 역사적 건축 명소 가운데 하나입니다.', 'A church on Marktplatz in the heart of the Old Town and one of Heidelberg’s historic architectural landmarks.', '旧市街の中心にあるマルクト広場に建つ教会で、ハイデルベルクの歴史的建築名所の一つです。'],
+      ['옛 대학교와 학생감옥', 'Old University and Student Prison', '旧大学と学生牢', '하이델베르크 대학교의 오래된 건물과 학생감옥을 둘러보며 대학 도시의 역사를 살펴볼 수 있습니다.', 'Explore one of Heidelberg University’s historic buildings and the former student prison to learn about the city’s university heritage.', 'ハイデルベルク大学の歴史的建物と旧学生牢を見学し、大学都市の歴史に触れられます。'],
     ],
     t: [
       ['시내 대중교통 1회권(시내 요금)은 90분 동안 유효합니다. 정류장 몇 개만 타면 더 싼 단거리권(쿠르츠슈트레케)을 쓸 수 있습니다.', 'A city single (Stadttarif HD) is valid for 90 minutes; for just a few stops, the cheaper short-hop ticket (Kurzstrecke) works.', '市内の公共交通の1回券（市内料金）は90分間有効です。数駅だけ乗るなら安い短距離券（クルツシュトレッケ）が使えます。'],
@@ -706,18 +733,22 @@ export const NOTES_9: Record<string, Compact> = {
   bilbao: {
     h: [
       ['구겐하임 미술관 빌바오', 'Guggenheim Museum Bilbao', 'グッゲンハイム美術館ビルバオ', '프랭크 게리가 설계한 티타늄 건물의 현대미술관으로, 입장권에 오디오 가이드가 포함되고 18세 미만은 무료입니다.', 'Frank Gehry’s titanium-clad modern art museum; the ticket includes an audio guide, and under-18s are free.', 'フランク・ゲーリー設計のチタンの建物の現代美術館で、入場券に音声ガイドが含まれ、18歳未満は無料です。'],
-      ['구시가지 핀초 바', 'Old Town pintxo bars', '旧市街のピンチョス・バル', '바 카운터에 놓인 핀초를 골라 먹으며 여러 바를 돌아다니는 것이 빌바오식입니다.', 'Pick pintxos from the counters and hop from bar to bar, Bilbao-style.', 'カウンターに並ぶピンチョスを選んで食べ、何軒もバルを巡るのがビルバオ流です。'],
-      ['바스크 전통 요리', 'Basque classics', 'バスクの伝統料理', '바칼라오 알 필필(대구 요리)과 오징어 먹물 요리 등 바스크 전통 요리를 맛볼 수 있습니다.', 'Taste bacalao al pil-pil, squid in its ink and other Basque classics.', 'バカラオ・アル・ピルピル（タラ料理）やイカの墨煮などバスクの伝統料理が味わえます。'],
+      ['아르찬다 푸니쿨라와 전망대', 'Artxanda Funicular and viewpoint', 'アルチャンダ・フニクラと展望台', '마티코 지구의 하부역에서 푸니쿨라를 타고 올라가면 산으로 둘러싸인 빌바오 시내를 내려다볼 수 있습니다.', 'Ride up from the lower station in the Matiko neighbourhood for views over Bilbao’s mountain-ringed cityscape.', 'マティコ地区の下駅からケーブルカーで上ると、山に囲まれたビルバオの街並みを見渡せます。'],
+      ['이차스무세움 빌바오', 'Itsasmuseum Bilbao', 'イツァスムセウム・ビルバオ', '빌바오 하구의 조선업과 항만·해양 역사를 다루는 박물관으로, 과거 조선소 부지에 자리합니다.', 'A museum of Bilbao’s estuary, shipbuilding, port and maritime history on the site of a former shipyard.', '旧造船所の敷地にある博物館で、ビルバオ河口の造船・港湾・海事の歴史を紹介しています。'],
+      ['산티아고 대성당', 'Santiago Cathedral', 'サンティアゴ大聖堂', '구시가지 골목에서 만나는 고딕 양식의 대성당입니다. 14~15세기에 세워졌으며 산티아고 순례길의 세계유산 구간에 포함됩니다.', 'A Gothic cathedral reached through the Old Town streets, built in the 14th and 15th centuries and included in the World Heritage route to Santiago.', '旧市街の通りにあるゴシック様式の大聖堂です。14〜15世紀に建てられ、サンティアゴ巡礼路の世界遺産区間に含まれています。'],
+      ['카스코 비에호(구시가지)', 'Casco Viejo (Old Town)', 'カスコ・ビエホ（旧市街）', '일곱 거리(Siete Calles)를 중심으로 형성된 빌바오의 역사 지구입니다. 중세 거리와 광장, 산티아고 대성당, 리베라 시장을 함께 둘러볼 수 있습니다.', 'Bilbao’s historic quarter centred on the Seven Streets, with medieval lanes and squares, Santiago Cathedral and Ribera Market.', '七つの通り（シエテ・カジェス）を中心とするビルバオの歴史地区です。中世の路地や広場、サンティアゴ大聖堂、リベラ市場を一緒に巡れます。'],
     ],
     t: [
-      ['공항에서 시내: 비스카이부스 A3247번이 공항과 시내를 잇습니다. 숙소와 가까운 정류장을 확인하고, 도착 후 시내버스나 도보로 이동하세요.', 'Airport to city: Bizkaibus A3247 connects the airport with the city. Check the stop nearest your accommodation, then continue by city bus or on foot.', '空港から市内へ：ビスカイブスA3247番が空港と市内を結びます。宿泊先に近い停留所を確認し、到着後は市内バスまたは徒歩で移動しましょう。'],
+      ['공항에서 숙소까지: 도착층에서 A3247번 비스카이부스 표지와 승차장을 찾으세요. 버스는 빌바오 터미버스와 공항을 연결하며, 시내에서는 그란 비아 79번지·모유아 광장·알라메다 레칼데 11번지에 섭니다. 숙소와 가까운 정류장에서 내리고, 시내 이동이 필요하면 터미버스나 모유아에서 환승하세요.', 'Airport to your stay: At arrivals, follow the Bizkaibus A3247 signs to its stop. The bus links the airport with Bilbao Termibus and stops in the city at Gran Vía 79, Plaza Moyua and Alameda Recalde 11. Get off nearest your accommodation; if transferring across town, use Termibus or Moyua as your connection point.', '空港から宿泊先へ：到着階でビスカイブスA3247番の案内に従って乗り場へ。空港とビルバオのターミバスを結び、市内ではグラン・ビア79番地、モユア広場、アラメダ・レカルデ11番地に停車します。宿泊先に近い停留所で降り、市内で乗り換える場合はターミバスかモユアを接続地点にしましょう。'],
     ],
   },
   toulouse: {
     h: [
       ['시테 드 레스파스', 'Cité de l’espace', 'シテ・ドゥ・レスパス', '실물 크기 로켓과 우주정거장 모형, 플라네타리움이 있는 우주 테마 과학관입니다.', 'A space theme park with a full-size rocket, space-station mock-ups and a planetarium.', '実物大のロケットや宇宙ステーションの模型、プラネタリウムがある宇宙テーマの科学館です。'],
-      ['카술레', 'Cassoulet', 'カスレ', '흰콩과 오리 콩피, 툴루즈 소시지를 질그릇에 오래 익힌 툴루즈 대표 요리입니다.', 'Toulouse’s classic of white beans, duck confit and Toulouse sausage slow-cooked in an earthenware cassole.', '白いんげん豆と鴨のコンフィ、トゥールーズ・ソーセージを土鍋でじっくり煮込んだトゥールーズの代表料理です。'],
-      ['제비꽃(비올레트)', 'Toulouse violets', 'スミレ（ヴィオレット）', '도시의 상징 꽃으로, 미디 운하에 떠 있는 배 ‘제비꽃의 집’에서 사탕과 기념품을 살 수 있습니다.', 'The city’s emblem flower; find violet sweets and gifts at the Maison de la Violette, a barge on the Canal du Midi.', '街のシンボルの花で、ミディ運河に浮かぶ船「スミレの家」でお菓子やお土産が買えます。'],
+      ['툴루즈 시청사(카피톨)', 'The Capitole', 'カピトル（トゥールーズ市庁舎）', '도시의 대표 광장에 자리한 시청·극장 건물로, 분홍빛 벽돌 외관과 역사화를 그린 살 데 일뤼스트르를 볼 수 있습니다.', 'The city hall and theatre on Toulouse’s main square, known for its pink-brick façade and the painted Salle des Illustres.', '市の中心広場に建つ市庁舎・劇場で、ピンク色のレンガ造りの外観や壁画で飾られたサル・デ・イリュストルを見学できます。'],
+      ['생세르냉 대성당', 'Basilica of Saint-Sernin', 'サン・セルナン・バシリカ', '11~13세기에 지은 로마네스크 순례 성당으로, 팔각 종탑과 조각 장식, 성유물을 보관한 지하 공간이 특징입니다.', 'A Romanesque pilgrimage basilica built between the 11th and 13th centuries, with an octagonal bell tower, sculpted portals and crypt relics.', '11〜13世紀に建てられたロマネスク様式の巡礼聖堂で、八角形の鐘楼や彫刻装飾、聖遺物を納める地下空間が見どころです。'],
+      ['에어로스코피아 항공박물관', 'Aeroscopia Aeronautical Museum', 'アエロスコピア航空博物館', '블라냐크의 항공박물관으로 콩코드·슈퍼 구피·A380 등 항공기를 가까이에서 보고 일부 기체 내부에도 들어갈 수 있습니다.', 'An aeronautical museum in Blagnac where visitors can see aircraft such as Concorde, Super Guppy and A380 up close, and enter some of them.', 'ブラニャックにある航空博物館で、コンコルドやスーパーグッピー、A380などを間近で見学でき、一部の機内にも入れます。'],
+      ['라 알 드 라 머신', 'La Halle de la Machine', 'ラ・アール・ドゥ・ラ・マシン', '몽토드랑의 거인들의 활주로에 자리한 전시 공간으로, 프랑수아 들라로지에르와 라 머신이 만든 움직이는 거리극 기계와 미노타우로스를 만날 수 있습니다.', 'An exhibition space on the Piste des Géants in Montaudran, showcasing moving street-theatre machines by François Delaroziere and La Machine, including the Minotaur.', 'モントードランの「巨人たちの滑走路」にある展示施設で、フランソワ・ドゥラロジエールとラ・マシンによる動くストリートシアターの機械やミノタウロスに出会えます。'],
     ],
     t: [
       ['공항에서 시내: 툴루즈-블라냐크 공항에서 공항 셔틀을 타면 약 15분 간격으로 마타비오역까지 가며, 시간은 20~45분 걸립니다. 공항 승차권 1장으로 시내 교통도 이어서 탈 수 있습니다.', 'Airport to city: the airport shuttle runs to Matabiau station about every 15 minutes, taking 20–45 minutes; the airport ticket also covers onward Tisséo travel.', '空港から市内へ：トゥールーズ・ブラニャック空港から空港シャトルで約15分間隔でマタビオ駅へ行け、所要20〜45分です。空港の乗車券1枚で市内の交通にも乗り継げます。'],
@@ -738,7 +769,8 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['아레나 디 베로나', 'Arena di Verona', 'アレーナ・ディ・ヴェローナ', '1세기에 지어진 로마 원형극장으로, 지금도 여름 오페라 공연장으로 쓰입니다. 14세 미만은 보호자 동반 시 무료입니다.', 'A 1st-century Roman amphitheatre still used for summer opera; under-14s accompanied by an adult enter free.', '1世紀に建てられたローマの円形闘技場で、今も夏のオペラ会場として使われています。14歳未満は保護者同伴で無料です。'],
       ['줄리엣의 집', 'Juliet’s House', 'ジュリエットの家', '유명한 발코니가 있는 중세 저택으로, 온라인 예약이 필수입니다.', 'The medieval house with the famous balcony; online booking is required.', '有名なバルコニーがある中世の邸宅で、オンライン予約が必須です。'],
-      ['아마로네 리소토', 'Risotto all’Amarone', 'アマローネのリゾット', '발폴리첼라의 아마로네 와인으로 지은 베로나 대표 리소토입니다.', 'Verona’s signature risotto made with Valpolicella’s Amarone wine.', 'ヴァルポリチェッラのアマローネワインで作るヴェローナを代表するリゾットです。'],
+      ['카스텔베키오 박물관', 'Castelvecchio Museum', 'カステルヴェッキオ美術館', '14세기 스칼리제리 가문의 성 안에 있으며, 중세·르네상스 미술과 조각, 무기 등을 전시합니다.', 'Inside the 14th-century Scaliger castle, this museum displays medieval and Renaissance art, sculpture, arms and other collections.', '14世紀のスカラ家の城内にあり、中世・ルネサンス美術や彫刻、武器などを展示しています。'],
+      ['브라 광장', 'Piazza Bra', 'ブラ広場', '아레나 앞의 넓은 광장으로, 대리석 산책로 리ストン과 역사적인 궁전·시청 건물이 둘러싸고 있습니다.', 'A broad square in front of the Arena, framed by the marble Liston promenade and historic palaces and civic buildings.', 'アレーナ前の広場で、大理石の遊歩道リストンや歴史的な宮殿、市庁舎に囲まれています。'],
     ],
     t: [
       ['공항에서 시내: 베로나 공항에서 에어링크 버스(199번)를 타면 약 15분 만에 포르타 누오바역에 닿으며, 버스 안에서 카드로 낼 수 있습니다. 시내버스 1회권은 버스 안에서 사면 더 비쌉니다.', 'Airport to city: the Airlink bus (line 199) reaches Porta Nuova station in about 15 minutes, with card payment on board; city bus singles cost more when bought on board.', '空港から市内へ：ヴェローナ空港からエアリンクバス（199番）で約15分でポルタ・ヌオーヴァ駅に着き、車内でカード払いができます。市内バスの1回券は車内で買うと高くなります。'],
@@ -748,7 +780,8 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['테살로니키 고고학 박물관', 'Archaeological Museum of Thessaloniki', 'テッサロニキ考古学博物館', '마케도니아 왕국의 금 장신구 등 북부 그리스의 고대 유물을 전시합니다.', 'Ancient treasures of northern Greece, including Macedonian gold.', 'マケドニア王国の金細工など北部ギリシャの古代の遺物を展示しています。'],
       ['화이트 타워', 'White Tower', 'ホワイトタワー', '바닷가에 선 도시의 상징으로, 내부는 도시 역사 전시관입니다. 동시 입장 인원이 제한됩니다.', 'The city’s seafront symbol, housing a city-history exhibition; visitor numbers inside are limited.', '海沿いに立つ街のシンボルで、内部は街の歴史の展示館です。同時に入れる人数が限られています。'],
-      ['부가차', 'Bougatsa', 'ブガツァ', '필로 반죽에 세몰리나 크림이나 치즈를 넣어 구운 테살로니키의 아침 빵입니다.', 'Thessaloniki’s breakfast pastry of phyllo filled with semolina cream or cheese.', 'フィロ生地にセモリナのクリームやチーズを包んで焼いたテッサロニキの朝食パイです。'],
+      ['로툰다(성 게오르기오스 교회)', 'Rotunda of Agios Georgios', 'アギオス・ゲオルギオス教会（ロトンダ）', '갈레리우스 시대에 지어진 원형 기념물로, 교회·모스크 등으로 용도가 바뀌며 도시의 여러 시대를 보여 줍니다. 초기 기독교 모자이크도 남아 있습니다.', 'A circular monument from the age of Galerius, used over time as a sanctuary, church and mosque; early Christian mosaics survive inside.', 'ガレリウス帝の時代に建てられた円形建築で、神殿・教会・モスクなど用途を変えながら街の歴史を伝えています。内部には初期キリスト教時代のモザイクが残ります。'],
+      ['갈레리우스 개선문(카마라)', 'Arch of Galerius (Kamara)', 'ガレリウスの凱旋門（カマラ）', '페르시아 전쟁 승리를 기념해 세운 로마 시대 개선문으로, 남은 기둥의 대리석 부조에 황제와 전투 장면이 새겨져 있습니다.', 'A Roman triumphal arch commemorating victory over the Persians; surviving marble reliefs show the emperor and battle scenes.', 'ペルシア戦争の勝利を記念して建てられたローマ時代の凱旋門で、残る柱の大理石レリーフに皇帝や戦闘場面が刻まれています。'],
     ],
     t: [
       ['공항에서 시내: 마케도니아 공항 1번 터미널 4번 출구 앞에서 01X번(심야 01N번) 버스를 타면 시내와 기차역을 거쳐 시외버스 터미널까지 갑니다. 공항 노선은 일반 승차권이 아닌 전용 1회권이 필요합니다.', 'Airport to city: bus 01X (night 01N) leaves from Exit 4 of Terminal 1 for the centre, the railway station and the intercity bus terminal; it needs its own single ticket, not a standard one.', '空港から市内へ：マケドニア空港第1ターミナル4番出口前から01X番（深夜は01N番）バスで市内や鉄道駅を経て長距離バスターミナルまで行けます。空港路線は通常の乗車券ではなく専用の1回券が必要です。'],
@@ -757,8 +790,8 @@ export const NOTES_9: Record<string, Compact> = {
   chengdu: {
     h: [
       ['청두 판다 번식 연구기지', 'Chengdu Research Base of Giant Panda Breeding', '成都ジャイアントパンダ繁育研究基地', '숲속 넓은 부지에서 자이언트 판다와 레서판다를 볼 수 있는 연구기지로, 온라인 사전 예약이 필요합니다.', 'See giant and red pandas in leafy grounds; online booking required.', '緑豊かな広い敷地でジャイアントパンダやレッサーパンダが見られる研究基地で、オンラインでの事前予約が必要です。'],
-      ['쓰촨 훠궈', 'Sichuan hotpot', '四川火鍋', '맵고 얼얼한 국물에 소고기·내장 등을 데쳐 먹으며, 처음이라면 맑은 국물과 반반인 원앙 냄비를 고르세요.', 'Cook beef, tripe and more in a numbing-spicy broth; first-timers should try the half-and-half “yuan-yang” pot.', 'しびれる辛さのスープで牛肉や内臓などをしゃぶしゃぶして食べます。初めてなら辛いスープと白湯が半分ずつの鴛鴦鍋を選びましょう。'],
-      ['청두 간식', 'Chengdu snacks', '成都の軽食', '단단면, 종 만두, 촨촨샹 꼬치 등 저렴한 쓰촨 간식을 골목과 야시장에서 맛볼 수 있습니다.', 'Dandan noodles, Zhong dumplings and chuan chuan skewers in lanes and night markets.', '担担麺や鍾水餃、串串香など手頃な四川の軽食を路地や夜市で味わえます。'],
+      ['무후사 박물관', 'Chengdu Wuhou Shrine Museum', '成都武侯祠博物館', '유비·제갈량 등 촉한 인물을 모신 사당과 삼국시대 유물을 함께 둘러볼 수 있으며, 진리 옛거리와 이어집니다.', 'A shrine to Shu Han figures including Liu Bei and Zhuge Liang, with Three Kingdoms exhibits and adjoining Jinli Ancient Street.', '劉備や諸葛亮ら蜀漢の人物を祀る祠堂と三国時代の資料を見学でき、錦里古街にも隣接しています。'],
+      ['두보초당 박물관', 'Du Fu Thatched Cottage Museum', '杜甫草堂博物館', '당나라 시인 두보가 청두에 머물던 옛 거처를 기념하는 박물관·정원으로, 시비와 대나무 숲길을 볼 수 있습니다.', 'A museum and garden commemorating Tang poet Du Fu’s former Chengdu residence, with poetry steles and bamboo paths.', '唐代の詩人・杜甫が成都に滞在した旧居を記念する博物館と庭園で、詩碑や竹林の小道があります。'],
     ],
     t: [
       ['지하철은 거리에 따라 2위안부터 요금이 오르며, 1일권(20위안)으로 하루 동안 무제한 탈 수 있습니다. 톈푸 국제공항은 18호선 급행으로 시내 남역까지 약 37분 걸립니다.', 'The metro starts at ¥2 and rises with distance; a ¥20 day ticket gives unlimited rides. From Tianfu International Airport, Line 18 express reaches South Railway Station in about 37 minutes.', '地下鉄は2元から距離に応じて運賃が上がり、1日券（20元）で一日乗り放題です。天府国際空港からは18号線の快速で成都南駅まで約37分です。'],
@@ -806,7 +839,9 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['캐나다 역사박물관', 'Canadian Museum of History', 'カナダ歴史博物館', '오타와강 건너편에 있는 박물관으로, 원주민 토템 기둥이 늘어선 그랜드 홀이 유명합니다.', 'Across the Ottawa River, famed for its Grand Hall of Indigenous totem poles.', 'オタワ川の対岸にある博物館で、先住民のトーテムポールが並ぶグランドホールが有名です。'],
       ['캐나다 국립미술관', 'National Gallery of Canada', 'カナダ国立美術館', '거대한 거미 조각 ‘마망’이 있는 유리 건물의 미술관으로, 11세 이하는 무료입니다.', 'The glass gallery guarded by the giant spider sculpture Maman; children 11 and under are free.', '巨大なクモの彫刻「ママン」がいるガラス張りの美術館で、11歳以下は無料です。'],
-      ['비버테일', 'BeaverTails', 'ビーバーテイル', '1979년 바이워드 마켓에서 시작된 비버 꼬리 모양 튀긴 빵으로, 계피 설탕 맛이 기본입니다.', 'The beaver-tail-shaped fried pastry born in the ByWard Market in 1979; cinnamon sugar is the classic.', '1979年にバイワード・マーケットで生まれたビーバーの尾の形の揚げパンで、シナモンシュガー味が定番です。'],
+      ['팔러먼트 힐', 'Parliament Hill', 'パーラメント・ヒル', '오타와강을 내려다보는 네오고딕 양식의 의사당 단지입니다. 의회 일정에 따라 무료 내부 투어와 전시가 운영됩니다.', 'A neo-Gothic parliamentary precinct overlooking the Ottawa River, with free tours and exhibits subject to parliamentary activity.', 'オタワ川を見下ろすネオゴシック様式の議事堂群です。議会の活動状況に応じて無料の館内ツアーや展示が行われます。'],
+      ['캐나다 전쟁박물관', 'Canadian War Museum', 'カナダ戦争博物館', '전차·항공기·포병 장비와 개인 기록을 통해 캐나다의 군사 역사를 살펴보는 국립박물관입니다.', 'A national museum exploring Canada’s military history through tanks, aircraft, artillery and personal accounts.', '戦車・航空機・火砲や個人の記録を通じてカナダの軍事史をたどる国立博物館です。'],
+      ['리도 운하 국립사적지', 'Rideau Canal National Historic Site', 'リドー運河国定史跡', '오타와에서キングストンまで続く19世紀の運河로, 역사적인 수문과 산책로를 따라 운하의 구조와 풍경을 볼 수 있습니다.', 'A 19th-century canal running from Ottawa to Kingston, where visitors can see historic locks and walk along the waterway.', 'オタワからキングストンまで続く19世紀の運河で、歴史的な閘門や水辺の景色を見ながら散策できます。'],
     ],
     t: [
       ['식당 메뉴 가격에는 HST(13%)와 팁이 빠져 있습니다. 팁은 15~18%가 일반적입니다.', 'Menu prices exclude 13% HST and tip; a 15–18% tip is usual.', '飲食店のメニュー価格にはHST（13%）とチップが含まれていません。チップは15〜18%が一般的です。'],
@@ -816,8 +851,10 @@ export const NOTES_9: Record<string, Compact> = {
   calgary: {
     h: [
       ['헤리티지 파크·가솔린 앨리 박물관', 'Heritage Park / Gasoline Alley Museum', 'ヘリテージ・パーク／ガソリン・アレー博物館', '캐나다 서부 개척 시대 마을을 재현한 공원으로, 클래식카 박물관인 가솔린 앨리는 일 년 내내 엽니다(마을은 계절 운영).', 'A recreated pioneer village of western Canada; the Gasoline Alley vintage-car museum is open year-round (the village is seasonal).', 'カナダ西部開拓時代の村を再現した公園で、クラシックカーの博物館ガソリン・アレーは一年中開いています（村は季節営業）。'],
-      ['진저 비프', 'Ginger beef', 'ジンジャービーフ', '1970년대 캘거리의 중식당에서 처음 만든 바삭한 소고기 튀김 요리입니다.', 'Crispy sweet-spicy beef, created in a Calgary Chinese restaurant in the 1970s.', '1970年代にカルガリーの中華料理店で生まれた、カリッと揚げた甘辛い牛肉料理です。'],
-      ['앨버타 소고기 스테이크', 'Alberta beef steak', 'アルバータ牛のステーキ', '캐나다 소고기의 절반을 생산하는 앨버타의 스테이크를 1972년부터 영업한 스테이크 하우스 등에서 맛볼 수 있습니다.', 'Alberta produces half of Canada’s beef — try it at long-running steakhouses.', 'カナダの牛肉の半分を生産するアルバータのステーキを、老舗ステーキハウスなどで味わえます。'],
+      ['캘거리 타워', 'Calgary Tower', 'カルガリー・タワー', '도심 전망대에서 캘거리 시내와 주변 대초원·로키산맥을 360도로 조망하고, 유리 바닥 위에서 아래를 내려다볼 수 있습니다.', 'A downtown observation deck with 360-degree views of Calgary, the surrounding prairies and the Rockies, plus a glass floor.', '市中心部の展望台からカルガリー市街や周囲の大草原・ロッキー山脈を360度眺められ、ガラス床から下を見下ろせます。'],
+      ['스튜디오 벨 국립음악센터', 'Studio Bell, home of the National Music Centre', 'スタジオ・ベル（国立音楽センター）', '캐나다 음악의 역사를 다루는 5층 전시와 악기 체험 공간이 있습니다. 복원된 킹 에디 호텔과 롤링 스톤스 이동 녹음 스튜디오도 볼거리입니다.', 'Five floors of Canadian music history and interactive instruments, plus the restored King Eddy and the Rolling Stones Mobile Studio.', 'カナダ音楽史を紹介する5階建ての展示と楽器体験があり、修復されたキング・エディやローリング・ストーンズの移動録音スタジオも見どころです。'],
+      ['와일더 인스티튜트·캘거리 동물원', 'Wilder Institute / Calgary Zoo', 'ワイルダー・インスティテュート／カルガリー動物園', '강과 산책로가 있는 프레리 습지 생태 공간과 동물 전시를 함께 둘러볼 수 있는 도시 동물원입니다.', 'A city zoo combining animal exhibits with prairie wetland habitats, waterways and walking paths.', '動物展示に加え、プレーリーの湿地環境や水辺、散策路を備えた市内の動物園です。'],
+      ['텔러스 스파크 과학센터', 'TELUS Spark Science Centre', 'テラス・スパーク科学センター', '체험형 과학 전시와 디지털 돔, 라이브 과학 프로그램을 갖춘 과학관으로 어린이와 성인 모두 참여할 수 있습니다.', 'A science centre with hands-on exhibits, a digital dome and live science programs for children and adults.', '体験型展示、デジタルドーム、ライブ科学プログラムを備え、子どもも大人も楽しめる科学館です。'],
     ],
     t: [
       ['식당 메뉴 가격에는 GST(5%)와 팁이 빠져 있습니다. 앨버타는 주 판매세가 없어 세금 부담이 적은 편이고, 팁은 15~18%가 일반적입니다.', 'Menu prices exclude 5% GST and tip; Alberta has no provincial sales tax, and a 15–18% tip is usual.', '飲食店のメニュー価格にはGST（5%）とチップが含まれていません。アルバータ州は州の売上税がないため税負担が軽めで、チップは15〜18%が一般的です。'],
@@ -827,8 +864,10 @@ export const NOTES_9: Record<string, Compact> = {
   portland: {
     h: [
       ['포틀랜드 일본 정원', 'Portland Japanese Garden', 'ポートランド日本庭園', '언덕 위에 조성된 일본식 정원으로, 날씨가 맑으면 후드산이 보입니다. 입장권은 온라인으로 판매합니다.', 'A hillside Japanese garden with Mount Hood views on clear days; tickets are sold online.', '丘の上に造られた日本庭園で、晴れた日にはフッド山が見えます。入場券はオンラインで販売しています。'],
-      ['푸드 카트', 'Food carts', 'フードカート', '500곳이 넘는 푸드 카트가 모인 ‘포드’에서 세계 각국 음식을 저렴하게 맛볼 수 있습니다.', '500-plus carts gathered in “pods” serving affordable food from around the world.', '500を超えるフードカートが集まる「ポッド」で、世界各国の料理を手頃に味わえます。'],
-      ['판매세 없는 쇼핑', 'Tax-free shopping', '売上税のない買い物', '오리건주에는 판매세가 없어 표시된 가격 그대로 계산합니다.', 'Oregon has no sales tax, so you pay the price on the tag.', 'オレゴン州には売上税がないため、表示価格のまま支払います。'],
+      ['란수 중국정원', 'Lan Su Chinese Garden', '蘭蘇園（ラン・スー中国庭園）', '포틀랜드 구시가지 차이나타운 한 블록을 차지한 쑤저우 양식 정원입니다. 다리와 정자, 연못, 정원 찻집을 둘러볼 수 있습니다.', 'A Suzhou-style garden occupying a city block in Portland’s Old Town Chinatown, with bridges, pavilions, ponds and a traditional teahouse.', 'ポートランドのオールドタウン・チャイナタウンの一街区を占める蘇州様式の庭園です。橋や楼閣、池、伝統的な茶館を見学できます。'],
+      ['오리건 과학산업박물관(OMSI)', 'Oregon Museum of Science and Industry (OMSI)', 'オレゴン科学産業博物館（OMSI）', '윌래밋강 동쪽 강변에 있는 과학관으로 전시관·천체투영관·대형 영화관과 퇴역 해군 잠수함 관람을 운영합니다.', 'A science museum on the east bank of the Willamette River with exhibition halls, a planetarium, a large-screen theatre and a retired Navy submarine.', 'ウィラメット川東岸にある科学館で、展示室・プラネタリウム・大型シアターや退役海軍潜水艦の見学を楽しめます。'],
+      ['피톡 맨션', 'Pittock Mansion', 'ピトック邸', '노스웨스트 포틀랜드 언덕에 있는 20세기 초 저택 박물관입니다. 23개의 방과 초기 포틀랜드의 역사, 시내와 후드산 전망을 볼 수 있습니다.', 'An early-20th-century house museum in Portland’s northwest hills, with 23 rooms, city history and views toward Mount Hood.', 'ポートランド北西部の丘に建つ20世紀初頭の邸宅博物館です。23室の内装や初期ポートランドの歴史、市街とフッド山の眺めを楽しめます。'],
+      ['국제 장미 시험 정원', 'International Rose Test Garden', '国際バラ試験庭園', '워싱턴 파크에 있는 장미 정원으로, 1924년부터 세계 각지의 장미 품종을 재배하고 평가해 왔습니다.', 'A rose garden in Washington Park that has grown and evaluated rose varieties from around the world since 1924.', 'ワシントン・パークにあるバラ園で、1924年から世界各地の品種を栽培・評価しています。'],
     ],
     t: [
       ['오리건주에는 판매세가 없어 식당 메뉴 가격에 세금이 붙지 않습니다. 다만 팁 18~20%는 따로 냅니다.', 'Oregon has no sales tax, so menus carry no tax — but an 18–20% tip is still expected.', 'オレゴン州には売上税がないため、飲食店のメニュー価格に税はかかりません。ただしチップ18〜20%は別に払います。'],
@@ -839,7 +878,9 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['부차트 가든', 'The Butchart Gardens', 'ブッチャート・ガーデン', '옛 석회암 채석장을 꽃 정원으로 바꾼 세계적인 정원으로, 시내에서 차로 약 30분입니다.', 'A world-famous garden created in a former limestone quarry, about 30 minutes from downtown.', 'かつての石灰岩の採石場を花の庭園に変えた世界的な庭園で、市内から車で約30分です。'],
       ['로열 BC 박물관', 'Royal BC Museum', 'ロイヤルBC博物館', '브리티시컬럼비아의 자연과 원주민 역사를 보여 주는 이너 하버의 박물관입니다.', 'The Inner Harbour museum of BC’s natural history and Indigenous heritage.', 'ブリティッシュコロンビアの自然や先住民の歴史を伝えるインナー・ハーバーの博物館です。'],
-      ['애프터눈 티', 'Afternoon tea', 'アフタヌーンティー', '영국풍 도시답게 호텔과 찻집에서 지역 해산물을 곁들인 애프터눈 티를 즐길 수 있습니다.', 'True to its British style, hotels and tea rooms serve afternoon tea, some with local seafood.', 'イギリス風の街らしく、ホテルや喫茶店で地元の海産物を添えたアフタヌーンティーを楽しめます。'],
+      ['브리티시컬럼비아 주의사당', 'British Columbia Parliament Buildings', 'ブリティッシュコロンビア州議事堂', '이너 하버 해안가를 대표하는 돔형 건물로, 브리티시컬럼비아 주의회가 자리합니다. 의회 일정이 허용하는 날에는 내부 무료 투어에 참여할 수 있습니다.', 'A domed landmark on the Inner Harbour waterfront and home of British Columbia’s legislature. Free interior tours run when the legislative schedule permits.', 'インナー・ハーバー沿いを代表するドーム型の建物で、ブリティッシュコロンビア州議会が置かれています。議会日程が許す日は無料の館内ツアーに参加できます。'],
+      ['비컨 힐 공원', 'Beacon Hill Park', 'ビーコン・ヒル公園', '도심과 이너 하버에서 걸어갈 수 있는 대형 공원으로, 꽃밭·산책로·자연 구역과 후안 데 푸카 해협 전망이 있습니다.', 'A large park within walking distance of downtown and the Inner Harbour, with flower beds, paths, natural areas and views of the Strait of Juan de Fuca.', '市中心部やインナー・ハーバーから徒歩圏内の広い公園です。花壇や散策路、自然区域があり、フアン・デ・フカ海峡を望めます。'],
+      ['크레이그다로크 성 역사박물관', 'Craigdarroch Castle Historic House Museum', 'クレイグダーロック城歴史博物館', '1890년대 석탄 재벌 로버트 던스뮤어가 지은 저택으로, 스테인드글라스와 목공 장식, 빅토리아 시대 실내를 볼 수 있습니다.', 'A mansion built in the 1890s by coal baron Robert Dunsmuir, with stained glass, detailed woodwork and Victorian interiors.', '1890年代に石炭王ロバート・ダンズミュアが建てた邸宅で、ステンドグラスや精巧な木工装飾、ヴィクトリア時代の室内を見学できます。'],
     ],
     t: [
       ['식당 메뉴 가격에는 GST(5%)와 팁이 빠져 있고, 술에는 주 판매세(PST)가 더 붙습니다. 팁은 15~18%가 일반적입니다. 버스는 1회 3달러이며 거스름돈을 주지 않습니다.', 'Menu prices exclude 5% GST and tip, with provincial tax added on alcohol; tip 15–18%. Buses cost $3 a ride, exact fare only.', '飲食店のメニュー価格にはGST（5%）とチップが含まれず、酒類には州税（PST）がさらにかかります。チップは15〜18%が一般的です。バスは1回3ドルで、おつりは出ません。'],
@@ -863,7 +904,9 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['MONA(구신 미술관)', 'Mona (Museum of Old and New Art)', 'MONA（ミュージアム・オブ・オールド・アンド・ニュー・アート）', '강변 절벽을 파고 지은 개인 미술관으로, 고대 유물과 도발적인 현대미술을 함께 전시합니다. 시내에서 페리로 갈 수 있습니다.', 'A private museum carved into a riverside cliff, mixing antiquities with provocative contemporary art; reachable by ferry.', '川沿いの崖を掘って造られた個人美術館で、古代の遺物と挑発的な現代美術を一緒に展示しています。市内からフェリーで行けます。'],
       ['살라만카 마켓', 'Salamanca Market', 'サラマンカ・マーケット', '매주 토요일 오전 8시 반~오후 3시에 열리는 시장으로, 브루니섬 굴과 지역 치즈를 맛볼 수 있습니다.', 'Every Saturday 8:30am–3pm, with Bruny Island oysters and local cheeses.', '毎週土曜日の8時半〜15時に開かれる市場で、ブルーニー島のカキや地元のチーズを味わえます。'],
-      ['태즈메이니아 굴', 'Tasmanian oysters', 'タスマニアのカキ', '달콤한 퍼시픽 굴과 버터 향이 진한 토종 앤가시 굴을 비교해 보세요.', 'Compare sweet Pacific oysters with rich, buttery native Angasi oysters.', '甘みのあるパシフィック・オイスターと、バターのような濃厚な在来種アンガシ・オイスターを食べ比べてみましょう。'],
+      ['왕립 태즈메이니아 식물원', 'Royal Tasmanian Botanical Gardens', 'ロイヤル・タスマニアン植物園', '도심에서 가까운 14헥타르 정원으로 태즈메이니아 자생 식물, 유서 깊은 나무와 남극권 식물 전시관을 둘러볼 수 있습니다. 입장은 무료이며 계절에 따라 개장 시간이 달라집니다.', 'A 14-hectare garden near the city with Tasmanian native plants, heritage trees and a Subantarctic Plant House. Entry is free; hours vary by season.', '市街地近くの14ヘクタールの庭園で、タスマニア固有の植物、歴史ある樹木、亜南極植物の展示を見られます。入園無料で、季節により開園時間が異なります。'],
+      ['호바트 교도소 예배당 유적', 'Hobart Penitentiary Chapel Historic Site', 'ホバート刑務所礼拝堂史跡', '옛 교도소 부지에서 법정, 지하 통로와 독방을 안내 투어로 둘러보며 태즈메이니아의 죄수 식민지 역사를 살펴볼 수 있습니다.', 'Explore courtrooms, underground tunnels and solitary cells on a guided tour of this former penal site and learn about Tasmania’s convict history.', '旧刑務所跡の法廷、地下通路、独房をガイドツアーで見学し、タスマニアの流刑植民地時代の歴史をたどれます。'],
+      ['쿠나니 / 웰링턴산', 'kunanyi / Mount Wellington', 'クナニ／ウェリントン山', '호바트 뒤편에 솟은 산으로, 정상 전망대와 산책로에서 도시와 더웬트강을 내려다볼 수 있습니다. 산악 날씨와 셔틀 운행은 방문 당일 확인하세요.', 'The mountain rising behind Hobart, with summit lookouts and walking tracks overlooking the city and Derwent River. Check mountain conditions and shuttle service on the day.', 'ホバートの背後にそびえる山で、山頂の展望地や遊歩道から市街地とダーウェント川を見渡せます。山の状況とシャトル運行は当日に確認してください。'],
     ],
     t: [
       ['메트로 태즈메이니아 버스는 2027년 6월 30일까지 무료로 운행합니다. 공항에서 시내까지는 스카이버스(약 30분)를 타며, 운전기사에게는 신용카드로만 낼 수 있습니다.', 'Metro Tasmania buses are free until 30 June 2027. From the airport, SkyBus takes about 30 minutes; drivers accept card only.', 'メトロ・タスマニアのバスは2027年6月30日まで無料です。空港から市内へはスカイバス（約30分）が便利で、運転手にはクレジットカードでのみ支払えます。'],
@@ -872,8 +915,10 @@ export const NOTES_9: Record<string, Compact> = {
   nashville: {
     h: [
       ['컨트리 음악 명예의 전당·박물관', 'Country Music Hall of Fame and Museum', 'カントリー音楽殿堂・博物館', '컨트리 음악의 역사와 스타들의 의상·악기를 전시하는 박물관으로, 5세 미만은 무료입니다.', 'The story of country music, with stars’ costumes and instruments; under-fives are free.', 'カントリー音楽の歴史やスターの衣装・楽器を展示する博物館で、5歳未満は無料です。'],
-      ['내슈빌 핫 치킨', 'Nashville hot chicken', 'ナッシュビル・ホットチキン', '고추 양념을 듬뿍 바른 매운 프라이드치킨으로, 약 100년 전 한 가게에서 시작되었다고 합니다.', 'Fried chicken slathered in cayenne paste, said to date back nearly a century.', '唐辛子ペーストをたっぷり塗った辛いフライドチキンで、約100年前にある店で生まれたといわれます。'],
-      ['미트 앤드 스리', 'Meat-and-three', 'ミート・アンド・スリー', '고기 요리 하나와 곁들이 세 가지를 고르는 남부식 가정식 식당입니다.', 'Southern diners where you pick one meat and three sides.', '肉料理を1品とおかずを3品選ぶ南部の家庭料理の食堂です。'],
+      ['라이먼 오디토리엄', 'Ryman Auditorium', 'ライマン公会堂', '그랜드 올 오프리의 옛 본거지였던 공연장으로, 낮에는 무대·객석·건물 역사를 둘러보는 투어를 운영합니다.', 'The former home of the Grand Ole Opry, offering daytime tours of its stage, auditorium and history.', 'グランド・オール・オープリーの旧本拠地だった公演会場で、昼間は舞台や客席、建物の歴史を巡るツアーを実施しています。'],
+      ['그랜드 올 오프리 하우스', 'Grand Ole Opry House', 'グランド・オール・オープリー・ハウス', '1925년 라디오 방송으로 시작한 컨트리 음악 공연을 볼 수 있는 음악 공연장입니다. 공연과 무대 뒤 투어 일정은 날짜별로 확인하세요.', 'A music venue for the country show that began as a radio broadcast in 1925. Check performance and backstage-tour schedules for your date.', '1925年にラジオ番組として始まったカントリー音楽公演の会場です。公演や舞台裏ツアーの日程は訪問日に合わせて確認してください。'],
+      ['아프리카계 미국인 음악 국립박물관', 'National Museum of African American Music', '国立アフリカ系アメリカ人音楽博物館', '아프리카계 미국인 음악의 역사와 여러 장르가 미국 음악에 끼친 영향을 다루는 인터랙티브 박물관입니다.', 'An interactive museum exploring African American music history and its influence across American genres.', 'アフリカ系アメリカ人音楽の歴史と、さまざまなジャンルを通じたアメリカ音楽への影響を紹介する体験型博物館です。'],
+      ['테네시 주립박물관', 'Tennessee State Museum', 'テネシー州立博物館', '테네시의 역사와 문화·자연사를 전시하는 박물관으로, 주 의사당 인근 바이센테니얼 캐피톨 몰 주립공원에 있습니다.', 'A museum of Tennessee history, culture and natural history in Bicentennial Capitol Mall State Park near the State Capitol.', '州議事堂近くのバイセンテニアル・キャピトル・モール州立公園にある、テネシーの歴史・文化・自然史の博物館です。'],
     ],
     t: [
       ['식당 메뉴 가격에는 세금(9.75%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude 9.75% sales tax and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（9.75%）とチップが含まれていません。チップは18〜20%が一般的です。'],
@@ -883,8 +928,10 @@ export const NOTES_9: Record<string, Compact> = {
   edmonton: {
     h: [
       ['로열 앨버타 박물관', 'Royal Alberta Museum', 'ロイヤル・アルバータ博物館', '앨버타의 자연사와 원주민 역사를 다루는 서부 캐나다 최대 박물관입니다.', 'Western Canada’s largest museum of natural and human history.', 'アルバータの自然史や先住民の歴史を扱う西カナダ最大の博物館です。'],
-      ['그린 어니언 케이크', 'Green onion cakes', 'グリーンオニオンケーキ', '1980년 에드먼턴의 중식당에서 인기를 끈 파전 같은 음식으로, 도시 공식 음식으로 하자는 운동까지 있었습니다.', 'Pan-fried scallion cakes made famous by a local restaurateur in 1980 — once proposed as Edmonton’s official dish.', '1980年にエドモントンの中華料理店で人気になったネギ餅で、市の公式料理にしようという運動まで起きました。'],
-      ['우크라이나 피로기', 'Ukrainian perogies', 'ウクライナのピエロギ', '우크라이나계 이민 역사가 깊은 지역답게 감자·치즈를 채운 만두 피로기 가게가 많습니다.', 'Reflecting deep Ukrainian roots, many spots serve potato-and-cheese perogies.', 'ウクライナ系移民の歴史が深い地域らしく、じゃがいもやチーズを詰めたピエロギの店が多いです。'],
+      ['머타트 식물원', 'Muttart Conservatory', 'マッタート温室植物園', '도심 강 계곡에 있는 유리 피라미드형 실내 식물원으로, 세계 여러 기후대의 식물을 전시합니다.', 'A glass-pyramid conservatory in the river valley, displaying plants from different climate zones around the world.', '川沿いの谷にあるガラスのピラミッド型温室で、世界各地の気候帯の植物を展示しています。'],
+      ['앨버타 미술관', 'Art Gallery of Alberta', 'アルバータ美術館', '처칠 광장에 있는 미술관으로, 앨버타·캐나다·국제 현대미술 전시와 건축적으로 눈에 띄는 나선형 외관을 함께 볼 수 있습니다.', 'An art museum on Churchill Square with Alberta, Canadian and international exhibitions, housed in a distinctive sculptural building.', 'チャーチル広場にある美術館で、アルバータ・カナダ・国際的な展覧会を鑑賞できます。彫刻的な外観も特徴です。'],
+      ['에드먼턴 밸리 동물원', 'Edmonton Valley Zoo', 'エドモントン・バレー動物園', '250종이 넘는 동물과 보전 활동을 만날 수 있는 가족형 동물원입니다. 방문 시간대 예약과 계절별 운영 시간을 공식 페이지에서 확인하세요.', 'A family-friendly zoo with more than 250 animals and a conservation focus. Check timed-entry booking and seasonal hours on the official site.', '250種を超える動物と保全活動を紹介する家族向けの動物園です。時間指定予約と季節ごとの営業時間を公式サイトで確認してください。'],
+      ['웨스트 에드먼턴 몰', 'West Edmonton Mall', 'ウェスト・エドモントン・モール', '대형 실내 쇼핑·엔터테인먼트 복합시설로 실내 놀이공원과 워터파크, 수족관 등 다양한 시설이 모여 있습니다.', 'A large indoor shopping and entertainment complex with an amusement park, waterpark, aquarium and other attractions.', '大型の屋内ショッピング・エンターテインメント複合施設で、屋内遊園地やウォーターパーク、水族館などがあります。'],
     ],
     t: [
       ['식당 메뉴 가격에는 GST(5%)와 팁이 빠져 있습니다. 앨버타는 주 판매세가 없고, 팁은 15~18%가 일반적입니다. 버스·경전철은 아크(Arc) 카드나 신용카드 탭이 현금보다 쌉니다.', 'Menu prices exclude 5% GST and tip; Alberta has no provincial sales tax, and a 15–18% tip is usual. Arc or contactless card fares are cheaper than cash.', '飲食店のメニュー価格にはGST（5%）とチップが含まれていません。アルバータ州は州の売上税がなく、チップは15〜18%が一般的です。バスやLRTはArcカードやタッチ決済の方が現金より安いです。'],
@@ -895,7 +942,9 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['캐나다 인권박물관', 'Canadian Museum for Human Rights', 'カナダ人権博物館', '인권을 주제로 한 세계 최초의 국립박물관으로, 꼭대기 유리 탑에서 시내가 내려다보입니다.', 'The world’s first national museum devoted to human rights, with city views from its glass tower.', '人権をテーマにした世界初の国立博物館で、最上部のガラスの塔から市内を見渡せます。'],
       ['더 포크스 마켓', 'The Forks Market', 'ザ・フォークス・マーケット', '두 강이 만나는 곳의 옛 철도 창고를 고친 시장으로, 피로기와 훈제 생선 가게가 있습니다.', 'A market in old rail buildings where the rivers meet, with perogy and smoked-fish stalls.', '二つの川が合流する場所にある鉄道倉庫を改装した市場で、ピエロギや燻製魚の店があります。'],
-      ['훈제 골드아이', 'Smoked goldeye', '燻製ゴールドアイ', '매니토바 호수에서 잡은 생선을 훈제한 위니펙 명물입니다.', 'Winnipeg’s smoked local freshwater fish.', 'マニトバの湖でとれた魚を燻製にしたウィニペグ名物です。'],
+      ['애시니보인 공원', 'Assiniboine Park', 'アシニボイン公園', '동물원과 계절 정원, 산책로, 야외 조각 정원을 갖춘 연중 명소로, 공원 안에 실내 식물원 더 리프가 있습니다.', 'A year-round destination with a zoo, seasonal gardens, trails and sculpture gardens, including The Leaf indoor horticultural attraction.', '動物園や季節の庭園、散策路、屋外彫刻庭園を備えた通年の名所で、園内には屋内植物園のザ・リーフがあります。'],
+      ['매니토바 박물관', 'Manitoba Museum', 'マニトバ博物館', '자연·문화·인간 역사를 다루는 주립박물관으로, 플라네타리움과 복원된 허드슨베이 상선 누손도 볼 수 있습니다.', 'A provincial museum of natural, cultural and human history, also featuring a planetarium and the reconstructed Hudson’s Bay Company ship Nonsuch.', '自然・文化・人類の歴史を扱う州立博物館で、プラネタリウムや復元されたハドソン湾会社の船「ノンサッチ」も見学できます。'],
+      ['위니펙 미술관과 콰무주크', 'Winnipeg Art Gallery and Qaumajuq', 'ウィニペグ美術館とクアムユク', '위니펙 미술관의 이누이트 예술센터 콰무주크에는 세계 최대 규모의 현대 이누이트 미술 컬렉션이 전시됩니다.', 'Qaumajuq, the Inuit art centre at the Winnipeg Art Gallery, presents the world’s largest public collection of contemporary Inuit art.', 'ウィニペグ美術館のイヌイット芸術センター、クアムユクでは、世界最大規模の現代イヌイット美術の公開コレクションを展示しています。'],
     ],
     t: [
       ['식당 메뉴 가격에는 GST(5%)와 매니토바 소매판매세(7%)가 빠져 있고, 팁은 15~18%가 일반적입니다. 버스는 피고(peggo) 카드로 내면 현금보다 쌉니다.', 'Menu prices exclude 5% GST and Manitoba’s 7% retail sales tax; tip 15–18%. Bus fares are cheaper on a peggo card than in cash.', '飲食店のメニュー価格にはGST（5%）とマニトバ州小売売上税（7%）が含まれず、チップは15〜18%が一般的です。バスはpeggoカードで払うと現金より安くなります。'],
@@ -906,7 +955,9 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['피어 21 캐나다 이민 박물관', 'Canadian Museum of Immigration at Pier 21', 'ピア21カナダ移民博物館', '1928~1971년 약 100만 명의 이민자가 도착한 부두 건물을 박물관으로 꾸몄습니다.', 'The pier building where about a million immigrants arrived between 1928 and 1971.', '1928〜1971年に約100万人の移民が到着した埠頭の建物を博物館にしています。'],
       ['핼리팩스 시타델', 'Halifax Citadel', 'ハリファックス・シタデル', '시내 언덕 위의 별 모양 요새로, 18세 미만은 무료입니다.', 'The star-shaped fort above downtown; under-18s are free.', '市内の丘の上にある星形の要塞で、18歳未満は無料です。'],
-      ['핼리팩스 도네어', 'Halifax donair', 'ハリファックス・ドネア', '양념한 고기를 피타에 싸고 달콤한 소스를 뿌린 노바스코샤 대표 길거리 음식입니다.', 'Nova Scotia’s signature street food: spiced meat in pita with a sweet sauce.', '味付け肉をピタで包み甘いソースをかけた、ノバスコシアを代表する屋台料理です。'],
+      ['대서양 해양박물관', 'Maritime Museum of the Atlantic', '大西洋海洋博物館', '핼리팩스 워터프런트의 해양 박물관으로, 대서양 항해·선박 역사와 타이타닉 관련 자료를 전시합니다. 전시 중인 배와 계절 운영 시간은 방문 전 확인하세요.', 'A waterfront museum on Atlantic seafaring and ship history, including Titanic-related collections. Check seasonal hours and vessel access before visiting.', 'ウォーターフロントにある海洋博物館で、大西洋航海や船舶の歴史、タイタニック関連資料を展示しています。船舶展示や季節営業の時間は訪問前に確認してください。'],
+      ['핼리팩스 퍼블릭 가든', 'Halifax Public Gardens', 'ハリファックス・パブリック・ガーデン', '도심 한가운데에 조성된 빅토리아 시대 정원으로, 기하학적 화단과 구불구불한 산책로, 기념 조각과 밴드스탠드를 볼 수 있습니다.', 'A Victorian garden in downtown Halifax, with formal beds, winding paths, commemorative statues and a bandstand.', 'ハリファックス中心部にあるビクトリア朝様式の庭園で、幾何学的な花壇、曲線の小道、記念彫像、バンドスタンドを見られます。'],
+      ['핼리팩스 워터프런트', 'Halifax Waterfront', 'ハリファックス・ウォーターフロント', '도심 해안 산책로를 따라 부두와 공공 예술, 식당·상점이 이어집니다. 남쪽 끝의 시포트 파머스 마켓은 주말 운영 여부를 확인해 방문하세요.', 'A downtown harbourfront promenade lined with piers, public art, restaurants and shops. Check weekend opening before visiting the Seaport Farmers’ Market at its south end.', '市街地の港沿いに桟橋、パブリックアート、飲食店、ショップが続く遊歩道です。南端のシーポート・ファーマーズ・マーケットは週末の営業を確認して訪れてください。'],
     ],
     t: [
       ['식당 메뉴 가격에는 HST(14%)와 팁이 빠져 있습니다. 팁은 15~18%가 일반적입니다. 공항에서는 320번 급행버스를 타며, 일반 버스보다 요금이 높습니다.', 'Menu prices exclude 14% HST and tip (15–18% usual). From the airport, Regional Express route 320 costs more than a regular bus.', '飲食店のメニュー価格にはHST（14%）とチップが含まれていません。チップは15〜18%が一般的です。空港からは320番急行バスを使い、通常のバスより運賃が高めです。'],
@@ -915,8 +966,10 @@ export const NOTES_9: Record<string, Compact> = {
   phoenix: {
     h: [
       ['사막 식물원', 'Desert Botanical Garden', 'デザート・ボタニカル・ガーデン', '선인장과 사막 식물 수만 그루가 자라는 식물원으로, 날짜별로 요금이 달라집니다.', 'Tens of thousands of cacti and desert plants; prices vary by date.', '数万株のサボテンや砂漠の植物が育つ植物園で、日付によって料金が変わります。'],
-      ['소노란 핫도그', 'Sonoran hot dog', 'ソノラン・ホットドッグ', '베이컨으로 감싼 소시지에 콩·토마토·양파·마요네즈를 얹은 국경 지역 핫도그입니다.', 'A bacon-wrapped frank topped with beans, tomato, onion and mayo, from the borderlands.', 'ベーコンで巻いたソーセージに豆・トマト・玉ねぎ・マヨネーズをのせた国境地域のホットドッグです。'],
-      ['치미창가', 'Chimichanga', 'チミチャンガ', '속을 채운 부리토를 기름에 튀긴 요리로, 1970년 문을 연 피닉스 식당이 원조를 자처합니다.', 'A deep-fried burrito; a Phoenix restaurant opened in 1970 calls itself its home.', '具を詰めたブリトーを油で揚げた料理で、1970年創業のフェニックスの店が元祖を名乗っています。'],
+      ['허드 박물관', 'Heard Museum', 'ハード博物館', '미국 남서부 원주민의 예술·역사·문화를 전통 및 현대 작품과 전시로 소개하는 박물관입니다.', 'A museum presenting the art, history and cultures of Indigenous peoples of the American Southwest through traditional and contemporary works.', 'アメリカ南西部の先住民の芸術・歴史・文化を、伝統的・現代的な作品や展示を通じて紹介する博物館です。'],
+      ['악기 박물관(MIM)', 'Musical Instrument Museum (MIM)', '楽器博物館（MIM）', '세계 각지의 악기와 음악 전통을 전시하고, 체험 갤러리에서 악기를 직접 연주해 볼 수 있습니다.', 'A museum of instruments and musical traditions from around the world, with a gallery where visitors can play instruments.', '世界各地の楽器や音楽文化を展示し、体験ギャラリーでは実際に楽器を演奏できます。'],
+      ['피닉스 미술관', 'Phoenix Art Museum', 'フェニックス美術館', '미국 남서부 최대 규모의 미술관으로 고전·현대 미술과 국제 전시를 폭넓게 다룹니다.', 'The largest art museum in the American Southwest, spanning classic and contemporary art and international exhibitions.', 'アメリカ南西部最大規模の美術館で、古典・現代美術から国際展まで幅広く紹介しています。'],
+      ['파파고 공원', 'Papago Park', 'パパゴ公園', '피닉스와 템피 경계의 사막 공원으로 사암 지형, 하이킹 코스, 홀 인 더 록 전망대가 있습니다.', 'A desert park on the Phoenix–Tempe border, with sandstone formations, hiking trails and the Hole-in-the-Rock viewpoint.', 'フェニックスとテンピの境界にある砂漠公園で、砂岩の地形やハイキングコース、ホール・イン・ザ・ロック展望地があります。'],
     ],
     t: [
       ['식당 메뉴 가격에는 세금(9.1%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다.', 'Menu prices exclude 9.1% tax and tip; an 18–20% tip is usual.', '飲食店のメニュー価格には税（9.1%）とチップが含まれていません。チップは18〜20%が一般的です。'],
@@ -927,7 +980,9 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['알라모', 'The Alamo', 'アラモ', '1836년 텍사스 독립 전쟁의 격전지로, 교회 내부는 무료 예약제로 입장합니다.', 'The 1836 battle site of the Texas Revolution; the church is free with a reserved ticket.', '1836年のテキサス独立戦争の激戦地で、教会内部は無料の予約制で入場できます。'],
       ['샌안토니오 미션 국립역사공원', 'San Antonio Missions', 'サンアントニオ・ミッションズ', '18세기 스페인 선교 시설 네 곳이 남은 유네스코 세계유산으로, 모두 무료입니다.', 'Four 18th-century Spanish missions, a UNESCO World Heritage Site — all free.', '18世紀のスペイン伝道所4か所が残るユネスコ世界遺産で、すべて無料です。'],
-      ['퍼피 타코', 'Puffy tacos', 'パフィータコス', '튀겨서 부풀린 토르티야에 속을 채운 샌안토니오 발상 타코입니다.', 'San Antonio’s own taco in a fried, puffed tortilla shell.', '揚げて膨らませたトルティーヤに具を詰めた、サンアントニオ発祥のタコスです。'],
+      ['스페인 총독 관저', 'Spanish Governor’s Palace', 'スペイン総督邸', '18세기 전반에 세워진 국가 사적 건물로, 복원된 방과 당시 가구·정원 뜰을 볼 수 있습니다. 운영 시간과 관람 가능 구역은 방문 전에 확인하세요.', 'A National Historic Landmark built in the early to mid-18th century, with restored rooms, period furnishings and landscaped courtyards. Check current hours and access before visiting.', '18世紀前半に建てられた国定歴史建造物で、復元された部屋、当時の家具、庭園を見学できます。開館時間と見学範囲は事前に確認してください。'],
+      ['라 비야타 역사 예술 마을', 'La Villita Historic Arts Village', 'ラ・ビリタ歴史芸術村', '리버워크 옆의 역사 마을로, 오래된 건물에 예술 공방·갤러리·상점이 모여 있습니다. 상점별 영업 시간은 다를 수 있습니다.', 'A historic village beside the River Walk, with galleries, artisan shops and restaurants in old buildings. Individual business hours vary.', 'リバーウォーク沿いの歴史ある地区で、古い建物にギャラリーや工芸店、飲食店が集まっています。各店の営業時間は異なります。'],
+      ['샌안토니오 리버워크', 'San Antonio River Walk', 'サンアントニオ・リバーウォーク', '도심 운하형 산책로는 식당·상점·유람선과 연결됩니다. 다운타운 구간은 주요 명소와 가까우며, 더 조용한 자연 산책은 북쪽 뮤지엄 리치나 남쪽 미션 리치를 선택하세요.', 'A riverside path linking restaurants, shops and boat tours. Downtown is closest to major sights; choose Museum Reach or Mission Reach for quieter walks and nature.', '飲食店、ショップ、遊覧船につながる川沿いの遊歩道です。ダウンタウン区間は主要観光地に近く、静かな散策や自然を楽しむなら北のミュージアム・リーチか南のミッション・リーチを選べます。'],
     ],
     t: [
       ['식당 메뉴 가격에는 세금(8.25%)과 팁이 빠져 있습니다. 팁은 18~20%가 일반적입니다. 공항에서 시내까지는 VIA 5번 버스가 다닙니다.', 'Menu prices exclude 8.25% sales tax and tip (18–20% usual). VIA route 5 links the airport and downtown.', '飲食店のメニュー価格には税（8.25%）とチップが含まれていません。チップは18〜20%が一般的です。空港から市内へはVIAの5番バスが走っています。'],
@@ -936,8 +991,10 @@ export const NOTES_9: Record<string, Compact> = {
   bath: {
     h: [
       ['로마 목욕탕', 'The Roman Baths', 'ローマ浴場', '2,000년 전 로마인이 온천 위에 지은 목욕탕 유적으로, 6세 미만은 무료입니다.', 'Roman bathing complex built over hot springs 2,000 years ago; under-sixes are free.', '2,000年前にローマ人が温泉の上に造った浴場の遺跡で、6歳未満は無料です。'],
-      ['샐리 런 번', 'Sally Lunn bun', 'サリー・ラン・バン', '바스에서 가장 오래된 건물 중 하나에서 파는 브리오슈 같은 큰 빵입니다.', 'A light, brioche-style bun served in one of Bath’s oldest houses.', 'バースで最も古い建物の一つで出される、ブリオッシュのような大きなパンです。'],
-      ['애프터눈 티', 'Afternoon tea', 'アフタヌーンティー', '조지 왕조 시대 분위기의 찻집과 호텔에서 애프터눈 티를 즐길 수 있습니다.', 'Afternoon tea in Georgian tea rooms and hotels.', 'ジョージ王朝時代の雰囲気の喫茶店やホテルでアフタヌーンティーを楽しめます。'],
+      ['바스 수도원', 'Bath Abbey', 'バース寺院', '중세 고딕 건축과 스테인드글라스, 수도원·교구 교회로 이어진 역사를 살펴볼 수 있는 도심의 성당입니다.', 'A Gothic church in the city centre, known for its stained glass and long history as an abbey and parish church.', '中世ゴシック建築やステンドグラス、修道院・教区教会としての歴史を見られる中心部の教会です。'],
+      ['로열 크레센트', 'The Royal Crescent', 'ロイヤル・クレセント', '18세기에 지은 30채의 조지 왕조 시대 주택이 초승달 모양으로 이어진 바스의 대표 건축물입니다.', 'A landmark crescent of 30 Georgian townhouses built in the 18th century.', '18世紀に建てられた30棟のジョージ王朝時代の住宅が弧を描く、バースを代表する建築です。'],
+      ['1번 로열 크레센트', 'No. 1 Royal Crescent', 'ロイヤル・クレセント1番館', '가구와 장식이 갖춰진 역사 주택 박물관에서 조지 왕조 시대의 생활상을 볼 수 있습니다.', 'A historic house museum with period furnishings showing Georgian-era life.', '当時の家具や装飾を備えた歴史的住宅博物館で、ジョージ王朝時代の暮らしを見られます。'],
+      ['펄트니 다리', 'Pulteney Bridge', 'パルトニー橋', '에이번강을 가로지르는 18세기 다리로, 양쪽에 상점이 들어선 독특한 모습을 볼 수 있습니다.', 'An 18th-century bridge across the Avon, notable for shops built along both sides.', 'エイヴォン川に架かる18世紀の橋で、両側に店が並ぶ独特の姿が特徴です。'],
     ],
     t: [
       ['시내버스는 어디서 타고 내리든 같은 요금(1회 2.60파운드)입니다. 가까운 공항은 브리스틀 공항입니다.', 'City buses are a flat fare across the Bath zone (£2.60 single); the nearest airport is Bristol.', '市内バスはどこで乗り降りしても同じ運賃（1回2.60ポンド）です。最寄りの空港はブリストル空港です。'],
@@ -947,8 +1004,10 @@ export const NOTES_9: Record<string, Compact> = {
   york: {
     h: [
       ['요크 민스터', 'York Minster', 'ヨーク・ミンスター', '북유럽 최대급의 고딕 성당으로, 17세 이하는 보호자 동반 시 무료입니다. 중앙 탑에 오르려면 따로 표가 필요합니다.', 'One of northern Europe’s largest Gothic cathedrals; under-18s go free with a paying adult, and the Central Tower costs extra.', '北ヨーロッパ最大級のゴシック大聖堂で、17歳以下は有料の大人と一緒なら無料です。中央塔に登るには別のチケットが必要です。'],
-      ['베티스 카페 티 룸', 'Bettys Café Tea Rooms', 'ベティーズ・カフェ・ティールーム', '1919년 문을 연 찻집으로, 요크셔 팻 래스컬과 애프터눈 티가 유명합니다.', 'Tea rooms founded in 1919, famous for the Yorkshire Fat Rascal and afternoon tea.', '1919年創業のティールームで、ヨークシャー・ファット・ラスカルやアフタヌーンティーが有名です。'],
+      ['클리퍼드 타워', 'Clifford’s Tower', 'クリフォード・タワー', '요크 성의 옛 성채로, 언덕 위 전망대에서 요크의 지붕과 성벽을 내려다볼 수 있습니다.', 'The surviving keep of York Castle, with a rooftop view over York’s rooftops and walls.', 'ヨーク城に残る主塔で、屋上からヨークの街並みや城壁を見渡せます。'],
+      ['국립 철도 박물관', 'National Railway Museum', '国立鉄道博物館', '증기기관차와 철도 역사를 다루는 박물관으로, 요크역에서 도보로 이동할 수 있습니다.', 'A museum of locomotives and railway history within walking distance of York station.', '蒸気機関車や鉄道の歴史を紹介する博物館で、ヨーク駅から歩いて行けます。'],
       ['성벽 산책', 'City walls walk', '城壁の散策', '시내를 둘러싼 중세 성벽 위를 걸으며 구시가지를 내려다볼 수 있습니다.', 'Walk the medieval walls for views over the old town.', '市内を囲む中世の城壁の上を歩き、旧市街を見下ろせます。'],
+      ['조빅 바이킹 센터', 'JORVIK Viking Centre', 'ヨーヴィック・ヴァイキング・センター', '바이킹 시대 요크의 생활과 고고학 발굴 자료를 재현 전시와 체험형 관람으로 소개합니다.', 'An immersive visitor attraction about Viking-age York and archaeological discoveries from the city.', '再現展示や体験型の見学を通じて、ヴァイキング時代のヨークの暮らしと発掘資料を紹介します。'],
     ],
     t: [
       ['퍼스트 요크 버스는 카드를 탈 때와 내릴 때 찍으면 거리에 따라 1.50~3파운드가 나오고, 하루 최대 6파운드까지만 청구됩니다.', 'First York buses use tap-on, tap-off: singles cost £1.50–£3.00 by distance, capped at £6 a day.', 'ファースト・ヨークのバスは乗車時と降車時にカードをタッチする方式で、距離に応じて1.50〜3ポンド、1日最大6ポンドまでしか請求されません。'],
@@ -958,8 +1017,10 @@ export const NOTES_9: Record<string, Compact> = {
   leipzig: {
     h: [
       ['전투 기념비(푈커슐라흐트덴크말)', 'Monument to the Battle of the Nations', '諸国民戦争記念碑', '1813년 나폴레옹 전쟁 전투를 기리는 높이 91m의 거대한 기념비로, 입장료에 박물관이 포함됩니다.', 'A colossal 91 m monument to the 1813 battle against Napoleon; admission includes the museum.', '1813年のナポレオン戦争の戦いを記念する高さ91mの巨大な記念碑で、入場料に博物館が含まれます。'],
-      ['라이프치히 레르헤', 'Leipziger Lerche', 'ライプツィガー・レルヒェ', '1876년 종다리 사냥이 금지되자 제과점들이 대신 만든 마지팬·잼 과자입니다.', 'A marzipan-and-jam pastry created after lark hunting was banned in 1876.', '1876年にヒバリの狩猟が禁止された後、パン屋が代わりに作ったマジパンとジャムのお菓子です。'],
-      ['라이프치히 고제', 'Leipziger Gose', 'ライプツィガー・ゴーゼ', '소금과 고수를 넣은 상면 발효 맥주로, 시내 양조 레스토랑에서 맛볼 수 있습니다.', 'A top-fermented beer brewed with salt and coriander, served at a city brewpub.', '塩とコリアンダーを入れた上面発酵ビールで、市内の醸造レストランで味わえます。'],
+      ['성 토마스 교회', 'St. Thomas Church', '聖トーマス教会', '1212년 수도원 교회로 세워졌으며, 요한 제바스티안 바흐가 1723~1750년 토마스 칸토르로 일했고 교회 안에 그의 묘가 있습니다. 합창단 공연·예배 중에는 관람이 제한될 수 있습니다.', 'Founded as a monastery church in 1212, it was where Johann Sebastian Bach worked from 1723 to 1750; his grave is inside. Visits may be restricted during services or choir events.', '1212年に修道院教会として建てられ、ヨハン・ゼバスティアン・バッハは1723〜1750年にトーマスカントルを務めました。教会内に墓所があります。礼拝や合唱団の行事中は見学が制限される場合があります。'],
+      ['성 니콜라이 교회', 'St. Nicholas Church', '聖ニコライ教会', '라이프치히에서 가장 오래되고 큰 교회로, 1989년 평화혁명의 출발점으로 알려져 있습니다. 교회 행사·기도회 시간에는 관람할 수 없습니다.', 'Leipzig’s oldest and largest church, known as a starting point of the 1989 Peaceful Revolution. Visits are unavailable during services, devotions and events.', 'ライプツィヒ最古・最大の教会で、1989年の平和革命の出発点として知られます。礼拝、祈りの集い、行事中は見学できません。'],
+      ['라이프치히 동물원', 'Zoo Leipzig', 'ライプツィヒ動物園', '도심의 대형 동물원으로, 열대관 곤드와나랜드와 여러 생태 구역을 갖췄습니다. 넓은 부지라 반나절 이상 일정을 잡고 계절별 운영 시간을 확인하세요.', 'A large city zoo with the tropical Gondwanaland hall and several themed habitats. Allow at least half a day and check seasonal hours.', '市街地にある大規模な動物園で、熱帯館ゴンドワナランドなど複数の生態エリアがあります。敷地が広いため半日以上を見込み、季節ごとの営業時間を確認してください。'],
+      ['라이프치히 오페라', 'Leipzig Opera', 'ライプツィヒ歌劇場', '아우구스투스플라츠의 공연장으로 오페라·발레·뮤지컬을 올립니다. 공연 관람객은 조건에 따라 공연 티켓으로 시내 대중교통도 이용할 수 있습니다.', 'A performance venue at Augustusplatz presenting opera, ballet and musical theatre. Under stated conditions, performance tickets can also be used on local public transport.', 'アウグストゥス広場にある劇場で、オペラ、バレエ、ミュージカルを上演します。条件により、公演チケットを市内公共交通の乗車券としても利用できます。'],
     ],
     t: [
       ['시내 대중교통 1회권은 1시간 동안 유효합니다. 공항은 S반 S5·S5X로 중앙역까지 약 14분이며, 공항은 시내 구역 밖이라 요금이 더 비쌉니다.', 'A city single is valid for one hour. S-Bahn S5/S5X runs from the airport to the Hauptbahnhof in about 14 minutes; the airport lies outside the city zone, so the fare is higher.', '市内の公共交通の1回券は1時間有効です。空港からはSバーンS5・S5Xで中央駅まで約14分ですが、空港は市内ゾーンの外なので運賃が高くなります。'],
@@ -969,7 +1030,9 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['호주 전쟁기념관', 'Australian War Memorial', 'オーストラリア戦争記念館', '호주의 전쟁사를 다루는 기념관이자 박물관으로, 입장은 무료이고 예약이 필요 없습니다.', 'Memorial and museum of Australia’s wartime history — free, no tickets needed.', 'オーストラリアの戦争の歴史を伝える記念館兼博物館で、入場は無料、予約も不要です。'],
       ['호주 국립 미술관', 'National Gallery of Australia', 'オーストラリア国立美術館', '원주민 미술부터 현대미술까지 아우르는 국립 미술관으로, 일반 입장은 무료입니다(일부 특별전 유료).', 'From Indigenous to modern art; general admission is free (some exhibitions charge).', '先住民美術から現代美術までそろう国立美術館で、一般入場は無料です（一部の特別展は有料）。'],
-      ['송로버섯 요리', 'Truffle dishes', 'トリュフ料理', '6~8월 제철에 근교 농장의 송로버섯 사냥과 식당의 송로버섯 메뉴를 즐길 수 있습니다.', 'In June–August, join a truffle hunt or try seasonal truffle menus.', '6〜8月の旬には、近郊の農園でのトリュフ狩りや飲食店のトリュフメニューを楽しめます。'],
+      ['호주 국립 초상화 미술관', 'National Portrait Gallery of Australia', 'オーストラリア国立肖像画美術館', '호주 인물의 초상화를 통해 사회와 정체성, 역사를 조명하는 국립 미술관입니다.', 'A national gallery using portraits of Australians to explore the country’s people, identity and history.', 'オーストラリアの人々の肖像画を通じて、社会やアイデンティティ、歴史を紹介する国立美術館です。'],
+      ['호주 국회의사당', 'Australian Parliament House', 'オーストラリア国会議事堂', '의회 운영과 민주주의 역사를 알아볼 수 있는 건물로, 전시와 공개 회의장, 가이드 투어를 운영합니다.', 'A working parliament where visitors can explore democratic history, exhibitions, public galleries and guided tours.', '議会の運営や民主主義の歴史を知ることができ、展示や公開傍聴席、ガイドツアーがあります。'],
+      ['호주 국립박물관', 'National Museum of Australia', 'オーストラリア国立博物館', '벌리 그리핀 호숫가의 박물관으로, 호주 사회와 문화, 원주민 역사에 관한 전시를 볼 수 있습니다.', 'A lakeside museum with exhibitions on Australian society, culture and First Nations histories.', 'バーリー・グリフィン湖畔の博物館で、オーストラリア社会・文化や先住民の歴史に関する展示を見られます。'],
     ],
     t: [
       ['공항에서 시내: 래피드 3번 버스가 공항 터미널과 시티 환승센터를 약 20분에 잇고, 일반 버스 요금이 적용됩니다. 공항 도착 홀에 승차권 자판기가 있습니다.', 'Airport to city: Rapid 3 links the terminal to the City interchange in under 20 minutes at the normal bus fare; there is a ticket machine in arrivals.', '空港から市内へ：ラピッド3番バスが空港ターミナルとシティ乗り換えセンターを約20分で結び、通常のバス運賃が適用されます。到着ロビーに乗車券の自動販売機があります。'],
@@ -978,8 +1041,10 @@ export const NOTES_9: Record<string, Compact> = {
   wellington: {
     h: [
       ['테 파파 국립박물관', 'Te Papa Tongarewa', 'テ・パパ・トンガレワ（国立博物館）', '뉴질랜드의 자연과 마오리 문화를 보여 주는 국립박물관으로, 외국인 성인은 유료이고 16세 미만은 무료입니다.', 'New Zealand’s national museum of nature and Māori culture; international adults pay, under-16s free.', 'ニュージーランドの自然やマオリ文化を紹介する国立博物館で、外国人の大人は有料、16歳未満は無料です。'],
-      ['웰링턴 커피', 'Wellington coffee', 'ウェリントンのコーヒー', '로스터리와 카페가 많은 ‘커피 수도’로, 플랫 화이트를 꼭 마셔 보세요.', 'A “coffee capital” of roasteries and cafés — order a flat white.', 'ロースターやカフェが多い「コーヒーの都」で、フラットホワイトをぜひ。'],
-      ['수제 맥주 양조장', 'Craft breweries', 'クラフトビール醸造所', '워터프런트에서 걸어갈 수 있는 거리에 수제 맥주 양조장이 여럿 있습니다.', 'Several craft breweries a short walk from the waterfront.', 'ウォーターフロントから歩いて行ける距離にクラフトビールの醸造所がいくつもあります。'],
+      ['웰링턴 케이블카', 'Wellington Cable Car', 'ウェリントン・ケーブルカー', '램턴 키에서 켈번 언덕까지 오르는 붉은 케이블카로, 전망과 케이블카 박물관, 식물원 산책을 즐길 수 있습니다.', 'The red cable car climbs from Lambton Quay to Kelburn for city views, a small museum and access to the Botanic Garden.', 'ラムトン・キーからケルバーンの丘を上る赤いケーブルカーで、市街の眺めや小さな博物館、植物園への散策を楽しめます。'],
+      ['질랜디아 생태 보호구역', 'Zealandia Te Māra a Tāne', 'ジーランディア・テ・マーラ・ア・ターネ', '울타리로 보호된 계곡의 생태 보호구역으로, 뉴질랜드 토종 조류와 투아타라 등 야생동물을 찾아볼 수 있습니다.', 'A fenced valley sanctuary where visitors can look for native New Zealand birds, tuatara and other wildlife.', 'フェンスで囲まれた谷の保護区で、ニュージーランド固有の鳥やムカシトカゲなどの野生動物を探せます。'],
+      ['웰링턴 식물원', 'Wellington Botanic Garden', 'ウェリントン植物園', '켈번 언덕에 펼쳐진 식물원으로, 케이블카 정상역에서 걸어 들어갈 수 있습니다.', 'A hillside garden in Kelburn, reached on foot from the upper cable-car terminal.', 'ケルバーンの丘に広がる植物園で、ケーブルカーの山頂駅から歩いて入れます。'],
+      ['웰링턴 워크숍', 'Wētā Workshop', 'ウェタ・ワークショップ', '영화 특수효과·소품 제작 과정을 소개하는 체험형 전시와 투어를 운영합니다. 방문일의 운영과 예약 정보를 확인하세요.', 'An attraction with tours and exhibits about film effects and prop-making. Check operating and booking information for your date.', '映画の特殊効果や小道具制作を紹介する展示・ツアーを開催しています。訪問日の営業・予約情報を確認してください。'],
     ],
     t: [
       ['공항에서 시내: 에어포트 익스프레스(AX) 버스가 10~20분 간격으로 웰링턴역까지 가며, 스내퍼 카드가 현금보다 쌉니다. 일반 버스 정기권은 쓸 수 없습니다.', 'Airport to city: the Airport Express (AX) runs to Wellington Station every 10–20 minutes; Snapper is cheaper than cash, and regular passes are not valid.', '空港から市内へ：エアポート・エクスプレス（AX）バスが10〜20分間隔でウェリントン駅まで走り、スナッパーカードの方が現金より安いです。通常の定期券は使えません。'],
@@ -989,7 +1054,9 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['에겐베르크 성', 'Schloss Eggenberg', 'エッゲンベルク城', '바로크 양식의 궁전과 정원으로, 고고학 박물관과 옛 미술관이 함께 있습니다.', 'A baroque palace and park with archaeology and old-masters galleries.', 'バロック様式の宮殿と庭園で、考古学博物館や古典絵画館も併設されています。'],
       ['슐로스베르크', 'Schlossberg', 'シュロスベルク', '시계탑이 있는 시내 한가운데 언덕으로, 구시가지의 붉은 지붕이 내려다보입니다.', 'The clock-tower hill in the city centre, overlooking the red roofs.', '時計塔がある市の中心の丘で、旧市街の赤い屋根を見下ろせます。'],
-      ['호박씨 기름', 'Pumpkin-seed oil', 'パンプキンシードオイル', '짙은 녹색의 슈타이어마르크 특산 기름으로, 샐러드와 수프에 뿌려 먹습니다.', 'Styria’s dark-green pumpkin-seed oil, drizzled on salads and soups.', '濃い緑色のシュタイアーマルク特産のオイルで、サラダやスープにかけて食べます。'],
+      ['슈타이어마르크 무기고', 'Styrian Armoury (Landeszeughaus)', 'シュタイアーマルク武器庫', '그라츠 구시가지의 역사적 무기고로, 중세부터 근세까지의 갑옷과 무기를 보존·전시합니다.', 'A historic armoury in Graz’s old town preserving and displaying arms and armour from the late medieval and early modern periods.', 'グラーツ旧市街にある歴史的な武器庫で、中世末期から近世の武器や甲冑を保存・展示しています。'],
+      ['그라츠 대성당과 황제 페르디난트 2세 영묘', 'Graz Cathedral and Mausoleum of Emperor Ferdinand II', 'グラーツ大聖堂とフェルディナント2世霊廟', '대성당과 인접한 영묘를 함께 둘러볼 수 있는 도심 역사 건축군으로, 합스부르크 시대의 흔적을 보여 줍니다.', 'A historic centre complex of cathedral and adjoining mausoleum, reflecting Graz’s Habsburg-era history.', '大聖堂と隣接する霊廟からなる中心部の歴史的建築群で、ハプスブルク時代の面影を伝えます。'],
+      ['쿤스트하우스 그라츠', 'Kunsthaus Graz', 'クンストハウス・グラーツ', '‘친근한 외계인’ 별명으로 알려진 현대미술관으로, 독특한 외관과 국제 현대미술 전시가 특징입니다.', 'A contemporary art museum nicknamed the “Friendly Alien,” known for its unusual architecture and international exhibitions.', '「フレンドリー・エイリアン」の愛称で知られる現代美術館で、独特の建築と国際的な展覧会が特徴です。'],
     ],
     t: [
       ['그라츠 공항도 시내 요금 구역(101)에 속해 시내 1시간권으로 갈 수 있습니다. 중앙역에서 S반 S1을 타거나, 트램 5번 종점에서 630번 버스로 갈아탑니다.', 'Graz Airport is inside the city fare zone (101), so a city hourly ticket works: take S-Bahn S1 from the Hauptbahnhof, or tram 5 then bus 630.', 'グラーツ空港も市内の運賃ゾーン（101）に含まれるため、市内の1時間券で行けます。中央駅からSバーンS1に乗るか、トラム5番の終点で630番バスに乗り換えます。'],
@@ -999,7 +1066,9 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['올림픽 박물관', 'The Olympic Museum', 'オリンピック博物館', '호숫가 공원에 있는 올림픽 역사 박물관으로, 15세 이하는 무료입니다.', 'The lakeside museum of Olympic history; children up to 15 are free.', '湖畔の公園にあるオリンピックの歴史博物館で、15歳以下は無料です。'],
       ['라보 포도밭', 'Lavaux vineyards', 'ラヴォーのブドウ畑', '호수를 향해 계단식으로 펼쳐진 세계유산 포도밭으로, 로잔에서 기차로 금방 갑니다.', 'UNESCO-listed terraced vineyards above the lake, a short train ride away.', '湖に向かって段々に広がる世界遺産のブドウ畑で、ローザンヌから列車ですぐです。'],
-      ['파페 보두아', 'Papet vaudois', 'パペ・ヴォードワ', '대파와 감자를 크림·화이트와인으로 익혀 양배추 소시지를 곁들인 보 지방 요리입니다.', 'Leeks and potatoes with cream and white wine, served with cabbage sausage.', 'ネギとじゃがいもをクリームと白ワインで煮て、キャベツ入りソーセージを添えたヴォー地方の料理です。'],
+      ['로잔 대성당', 'Lausanne Cathedral', 'ローザンヌ大聖堂', '고딕 양식의 대성당으로, 구시가지 언덕 위에서 제네바 호수와 도시를 내려다볼 수 있습니다.', 'A Gothic cathedral on the old-town hill, overlooking the city and Lake Geneva.', '旧市街の丘に建つゴシック様式の大聖堂で、街とレマン湖を見渡せます。'],
+      ['아르 브뤼 컬렉션', 'Collection de l’Art Brut', 'アール・ブリュット・コレクション', '독학 예술가와 제도권 밖 창작자의 작품을 모아 전시하는 독특한 미술관입니다.', 'A distinctive museum dedicated to works by self-taught artists and creators outside conventional art institutions.', '独学の芸術家や既存の美術制度の外で創作した人々の作品を集めた美術館です。'],
+      ['소바블랭 타워', 'Sauvabelin Tower', 'ソヴァブランの塔', '숲이 있는 소바블랭 언덕의 전망탑으로, 나선형 계단을 올라 로잔과 호수 풍경을 볼 수 있습니다.', 'A lookout tower in the wooded Sauvabelin hills, with city and lake views from its spiral stairs.', '森のあるソヴァブランの丘に建つ展望塔で、らせん階段を上るとローザンヌと湖を見渡せます。'],
     ],
     t: [
       ['로잔 호텔·유스호스텔·캠핑장 투숙객은 머무는 동안(최대 15일) 대중교통을 무료로 타는 로잔 교통카드를 받습니다. 개인 숙소(아파트·방 임대)는 해당되지 않습니다.', 'Guests in Lausanne hotels, hostels and campsites get a free Lausanne Transport Card for their stay (up to 15 days); private rentals are excluded.', 'ローザンヌのホテル・ユースホステル・キャンプ場の宿泊者は、滞在中（最大15日）公共交通に無料で乗れるローザンヌ交通カードがもらえます。個人宅の貸し部屋などは対象外です。'],
@@ -1010,7 +1079,8 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['브레멘 시청과 롤란트', 'Town Hall and Roland', 'ブレーメン市庁舎とローラント像', '고딕·르네상스 양식의 시청과 거대한 롤란트 석상이 함께 유네스코 세계유산입니다.', 'The Gothic–Renaissance Town Hall and giant Roland statue form a UNESCO World Heritage Site.', 'ゴシック・ルネサンス様式の市庁舎と巨大なローラント像がともにユネスコ世界遺産です。'],
       ['유니버숨 브레멘', 'Universum Bremen', 'ウニヴェルズム・ブレーメン', '직접 만지고 체험하는 과학관으로, 6세 미만은 무료입니다.', 'A hands-on science centre; under-sixes are free.', '実際に触れて体験できる科学館で、6歳未満は無料です。'],
-      ['브레멘 커피 문화', 'Bremen coffee culture', 'ブレーメンのコーヒー文化', '1673년 독일어권 최초의 커피하우스가 문을 연 도시로, 버터·설탕·계피를 바른 빵을 커피에 적셔 먹습니다.', 'Home of the first coffee house in the German-speaking world (1673); dunk buttered cinnamon-sugar bread in your coffee.', '1673年にドイツ語圏初のコーヒーハウスが開いた街で、バター・砂糖・シナモンを塗ったパンをコーヒーに浸して食べます。'],
+      ['슈노어 지구', 'Schnoor Quarter', 'シュノーア地区', '브레멘에서 가장 오래된 구역으로, 좁은 골목을 따라 옛 상인 주택과 공방, 작은 가게가 이어집니다.', 'Bremen’s oldest quarter, where narrow lanes thread between historic merchants’ houses, workshops and small shops.', 'ブレーメン最古の地区で、細い路地沿いに商人の旧邸宅や工房、小さな店が並びます。'],
+      ['뵈트허 거리', 'Böttcherstraße', 'ベットヒャー通り', '시장 광장과 베저강 사이의 짧은 거리로, 독특한 벽돌 표현주의 건축과 파울라 모더존 베커 미술관이 있습니다.', 'A short lane between the Market Square and the Weser, known for distinctive brick Expressionist architecture and the Paula Modersohn-Becker Museum.', 'マルクト広場とヴェーザー川の間にある短い通りで、独特なレンガ表現主義建築やパウラ・モーダーゾーン＝ベッカー美術館があります。'],
     ],
     t: [
       ['공항에서 시내: 트램 6번을 타면 약 11분 만에 중앙역·시내에 닿으며, 브레멘 시내 1회권(3시간 유효)으로 탈 수 있습니다.', 'Airport to city: tram 6 reaches the centre and Hauptbahnhof in about 11 minutes on a Bremen city single (valid 3 hours).', '空港から市内へ：トラム6番で約11分で中央駅・市内に着き、ブレーメン市内の1回券（3時間有効）で乗れます。'],
@@ -1020,17 +1090,18 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['페스케쾨르카', 'Feskekôrka', 'フィスケコルカ', '1874년에 세운 ‘생선 교회’ 모양의 수산 시장으로, 새우 샌드위치와 굴을 맛볼 수 있습니다.', 'The 1874 “fish church” market hall for shrimp sandwiches and oysters.', '1874年に建てられた「魚の教会」のような水産市場で、エビのサンドイッチやカキが味わえます。'],
       ['예테보리 미술관', 'Gothenburg Museum of Art', 'ヨーテボリ美術館', '북유럽 미술 소장품이 풍부한 미술관으로, 20세 미만은 무료입니다.', 'Strong in Nordic art; free for visitors under 20.', '北欧美術の所蔵が豊富な美術館で、20歳未満は無料です。'],
-      ['하가 시나몬롤', 'Haga cinnamon bun', 'ハーガのシナモンロール', '하가 지구의 카페에서 파는 얼굴만 한 크기의 시나몬롤(하가불레)입니다.', 'The face-sized Hagabullen cinnamon bun from a Haga café.', 'ハーガ地区のカフェで売られる顔ほどの大きさのシナモンロール（ハーガブッレ）です。'],
+      ['유니버섬 과학센터', 'Universeum Science Centre', 'ユニバッセム科学センター', '열대우림·수족관·우주 등 여러 주제 전시와 체험을 한 건물에서 즐길 수 있는 스웨덴 국립 과학센터입니다.', 'Sweden’s national science centre, with themed experiences spanning a rainforest, aquarium and space under one roof.', '熱帯雨林や水族館、宇宙など多彩な展示・体験を一つの建物で楽しめるスウェーデン国立科学センターです。'],
+      ['하가 지구', 'Haga district', 'ハーガ地区', '예테보리에서 가장 오래된 구역 중 하나로, 자갈길과 독립 상점, 카페, 예테보리 특유의 주택을 볼 수 있습니다.', 'One of Gothenburg’s oldest quarters, with cobbled streets, independent shops, cafés and distinctive Gothenburg governor’s houses.', 'ヨーテボリ最古の地区の一つで、石畳の通りや個人店、カフェ、ヨーテボリ特有の住宅建築が見られます。'],
     ],
     t: [
-      ['공항에서 시내: 플뤼그부사르나 공항버스가 최대 20분 간격으로 란드베테르 공항과 중앙역을 잇습니다.', 'Airport to city: Flygbussarna buses link Landvetter Airport and the central station up to every 20 minutes.', '空港から市内へ：フリューグブッサルナの空港バスが最短20分間隔でランドヴェッテル空港と中央駅を結んでいます。'],
+      ['공항에서 숙소까지: 란드베테르 공항에서는 터미널 바로 앞 공항버스 정류장을 이용하세요. 예테보리 중앙역 방면 버스는 중앙역 니ルス・エリクソン 터미널 29번 승강장에서 출발하고, 코르스베겐·베르젤리가탄·쿵스포르츠플라첸에도 섭니다. 숙소가 가까운 정류장에서 내리면 도보나 트램으로 이어가기 쉽습니다.', 'Airport to your stay: At Landvetter, use the airport-bus stop directly outside the terminal. Buses towards Gothenburg Central depart from bay 29 at the Nils Ericson Terminal and also stop at Korsvägen, Berzeliigatan and Kungsportsplatsen. Get off near your accommodation to continue on foot or by tram.', '空港から宿泊先へ：ランドヴェッテルではターミナル正面の空港バス乗り場を利用します。ヨーテボリ中央駅方面はニルス・エリクソン・ターミナル29番乗り場から出発し、コルスヴェーゲン、ベルゼリーガタン、クングスポーツプラッツにも停車します。宿泊先に近い停留所で降り、徒歩かトラムで移動すると便利です。'],
     ],
   },
   aarhus: {
     h: [
       ['아로스 오르후스 미술관', 'ARoS Aarhus Art Museum', 'アロス・オーフス美術館', '옥상의 무지개색 원형 통로 ‘유어 레인보 파노라마’로 유명한 미술관으로, 18세 미만은 무료입니다.', 'Famed for its rooftop rainbow walkway, Your Rainbow Panorama; free for under-18s.', '屋上の虹色の円形通路「ユア・レインボー・パノラマ」で有名な美術館で、18歳未満は無料です。'],
       ['덴 갬레 뷔(옛 마을 박물관)', 'Den Gamle By', 'デン・ガムレ・ビュ', '덴마크 각지의 옛 건물을 옮겨 와 거리를 재현한 야외 박물관으로, 18세 미만은 무료입니다.', 'An open-air museum of historic Danish townhouses; under-18s are free.', 'デンマーク各地の古い建物を移築して街並みを再現した野外博物館で、18歳未満は無料です。'],
-      ['오르후스 길거리 음식 시장', 'Aarhus Street Food', 'オーフス・ストリートフード', '옛 버스 차고에 30곳이 넘는 가게가 모인 길거리 음식 시장입니다.', '30-plus kitchens and bars in a former bus garage.', '古いバスの車庫に30を超える店が集まる屋台市場です。'],
+      ['오르후스 대성당', 'Aarhus Cathedral', 'オーフス大聖堂', '도심 중심부에 자리한 덴마크에서 가장 긴 대성당으로, 중세 프레스코화와 내부 건축을 볼 수 있습니다. 예배나 행사에 따른 관람 제한은 방문 전에 확인하세요.', 'Aarhus’s central cathedral and Denmark’s longest church, known for medieval frescoes and its interior architecture. Check for visitor restrictions around services or events.', '市中心部にあるデンマーク最長の大聖堂で、中世のフレスコ画や建築を見学できます。礼拝や行事による見学制限は訪問前に確認してください。'],
     ],
     t: [
       ['버스·경전철 요금은 구역 수로 정해지며, 시내 이동도 최소 2구간 요금이 적용됩니다.', 'Bus and light-rail fares depend on zones, with a minimum two-zone fare even within the city.', 'バスやライトレールの運賃はゾーン数で決まり、市内の移動でも最低2ゾーンの運賃がかかります。'],
@@ -1042,16 +1113,18 @@ export const NOTES_9: Record<string, Compact> = {
       ['잉글리시 마켓', 'The English Market', 'イングリッシュ・マーケット', '18세기부터 이어진 실내 시장으로, 스파이스드 비프와 드리신 같은 코크 전통 음식을 맛볼 수 있습니다.', 'The covered market since the 18th century, for Cork classics like spiced beef and drisheen.', '18世紀から続く屋内市場で、スパイスドビーフやドリシーンなどコークの伝統料理を味わえます。'],
       ['블라니 성', 'Blarney Castle', 'ブラーニー城', '입을 맞추면 말솜씨가 좋아진다는 ‘블라니 스톤’이 있는 성으로, 시내에서 버스로 갑니다.', 'Kiss the Blarney Stone for the gift of the gab; reachable by bus from the city.', '口づけすると話がうまくなるという「ブラーニー・ストーン」がある城で、市内からバスで行けます。'],
       ['코크 시티 감옥', 'Cork City Gaol', 'コーク・シティ監獄', '19세기 감옥을 그대로 보존한 박물관으로, 3세 미만은 무료입니다.', 'A preserved 19th-century prison museum; under-threes free.', '19世紀の監獄をそのまま保存した博物館で、3歳未満は無料です。'],
+      ['세인트 핀 바르 대성당', 'St Fin Barre’s Cathedral', 'セント・フィン・バレ大聖堂', '윌리엄 버지스가 설계한 네오고딕 양식의 대성당으로, 세 개의 첨탑과 조각 장식, 스테인드글라스를 볼 수 있습니다.', 'A neo-Gothic cathedral designed by William Burges, with three spires, carved detail and stained glass.', 'ウィリアム・バージェス設計のネオゴシック大聖堂で、三つの尖塔や彫刻装飾、ステンドグラスが見られます。'],
+      ['세인트 앤 교회와 섀던 종탑', 'St Anne’s Church and Shandon Bells', 'セント・アン教会とシャンドン・ベル', '1722년부터 예배가 이어진 교회로, 섀던 종과 탑의 역사적인 모습을 둘러볼 수 있습니다.', 'A church with continuous worship since 1722, known for its historic Shandon Bells and tower.', '1722年から礼拝が続く教会で、歴史あるシャンドンの鐘と塔で知られています。'],
     ],
     t: [
-      ['공항에서 시내: 버스 에런 225·226번이 공항과 파넬 플레이스 버스터미널·켄트역을 잇습니다. 숙소 위치에 맞춰 가까운 정류장에서 내리고, 출발 전 시간표를 확인하세요.', 'Airport to city: Bus Éireann 225 and 226 connect the airport with Parnell Place and Kent Station. Choose the stop nearest your accommodation and check the timetable before departure.', '空港から市内へ：バス・エアラン225・226番が空港とパーネル・プレイス・バスターミナル、ケント駅を結びます。宿泊先に近い停留所を選び、出発前に時刻表を確認しましょう。'],
+      ['공항에서 숙소까지: 버스는 터미널 건물 앞에서 타며, 225·226번의 공항 출발지는 A 정류장입니다. 시내 방향은 파넬 플레이스와 켄트역까지 운행하고 평균 이동 시간은 파넬 플레이스 기준 약 25분입니다. 시내 도착 뒤 숙소가 더글러스·블랙록 등 외곽이면 도착역에서 다음 버스나 통근열차를 확인하세요.', 'Airport to your stay: Buses depart from the front of the terminal; routes 225 and 226 leave for the city from Stop A. They serve Parnell Place and Kent Station, with an average journey of about 25 minutes to Parnell Place. If staying farther out, such as Douglas or Blackrock, check onward bus or commuter-rail connections after arrival.', '空港から宿泊先へ：バスはターミナル正面から出発し、市内方面の225・226番はA乗り場から乗ります。パーネル・プレイスとケント駅に停車し、パーネル・プレイスまでの平均所要時間は約25分です。ダグラスやブラックロックなど郊外に泊まる場合は、到着後にバスや通勤列車への乗り継ぎを確認してください。'],
     ],
   },
   galway: {
     h: [
       ['골웨이 시립 박물관', 'Galway City Museum', 'ゴールウェイ市立博物館', '스페인 아치 옆에 있는 도시 역사 박물관으로, 입장은 무료입니다(기부 권장).', 'The city-history museum by the Spanish Arch; free entry (donation suggested).', 'スパニッシュ・アーチの隣にある街の歴史博物館で、入場は無料です（寄付を推奨）。'],
       ['골웨이 대성당', 'Galway Cathedral', 'ゴールウェイ大聖堂', '1965년 완공된 돔 성당으로, 입장료는 없고 기부를 권합니다.', 'A domed cathedral completed in 1965; no charge, donation suggested.', '1965年に完成したドームのある大聖堂で、入場料はなく寄付を勧めています。'],
-      ['골웨이 굴', 'Galway oysters', 'ゴールウェイのカキ', '레몬을 짜서 날로 먹고 흑맥주를 곁들이는 것이 골웨이식입니다.', 'Eaten raw with lemon and a pint of stout, Galway-style.', 'レモンを搾って生で食べ、黒ビールを合わせるのがゴールウェイ流です。'],
+      ['골웨이 아틀란타콰리아', 'Galway Atlantaquaria', 'ゴールウェイ・アトランタクアリア', '솔트힐 해안에 있는 아일랜드 최대 규모의 자생종 수족관으로, 아일랜드의 강·호수·바다 생태를 전시합니다.', 'Ireland’s largest native-species aquarium, on the Salthill waterfront, showcasing life in Irish rivers, lakes and seas.', 'ソルトヒルの海岸にあるアイルランド最大の在来種水族館で、アイルランドの川・湖・海の生き物を紹介しています。'],
     ],
     t: [
       ['시내버스 요금은 립 카드 기준 1.35~1.50유로로 공식 안내가 엇갈리니, 탈 때 단말기 금액을 확인하세요.', 'Official Leap fares for city buses are listed as €1.35–€1.50; check the reader when you tap.', '市内バスの運賃はリープカードで1.35〜1.50ユーロと公式案内が分かれているので、乗車時に端末の金額を確認しましょう。'],
@@ -1073,7 +1146,7 @@ export const NOTES_9: Record<string, Compact> = {
     h: [
       ['에스토니아 국립박물관', 'Estonian National Museum (ERM)', 'エストニア国立博物館', '옛 비행장 활주로에서 이어지듯 지은 건물에 에스토니아 민속과 역사를 전시합니다.', 'Estonian folk culture and history in a building that extends from an old runway.', '旧飛行場の滑走路から続くように建てられた建物で、エストニアの民俗と歴史を展示しています。'],
       ['타르투 실내 시장', 'Tartu Market Hall', 'タルトゥ・マーケットホール', '남부 에스토니아에서 가장 큰 신선 식품 시장으로, 생선과 저장 식품이 다양합니다.', 'South Estonia’s largest fresh-food market, strong on fish and preserves.', '南エストニア最大の生鮮食品市場で、魚や保存食が豊富です。'],
-      ['에스토니아 흑빵', 'Estonian black bread', 'エストニアの黒パン', '호밀로 만든 흑빵(무스트 레입)은 에스토니아 식탁의 기본입니다.', 'Dark rye bread (must leib) is the staple of the Estonian table.', 'ライ麦で作る黒パン（ムスト・レイプ）はエストニアの食卓の基本です。'],
+      ['AHHAA 과학센터', 'AHHAA Science Centre', 'AHHAA科学センター', '직접 조작하고 실험하는 전시와 과학극장, 플라네타륨을 갖춘 체험형 과학관입니다.', 'An interactive science centre with hands-on exhibits, a science theatre and a planetarium.', '体験型の展示に加え、サイエンスシアターやプラネタリウムを備えた科学館です。'],
     ],
     t: [
       ['시내버스 1시간권은 미리 사면 싸고, 버스 기사에게 사면 더 비쌉니다. 2026년 7월에 요금이 올랐습니다.', 'City-bus hourly tickets are cheaper bought in advance than from the driver; fares rose in July 2026.', '市内バスの1時間券は事前に買うと安く、運転手から買うと高くなります。2026年7月に運賃が値上げされました。'],
@@ -1083,8 +1156,10 @@ export const NOTES_9: Record<string, Compact> = {
   stuttgart: {
     h: [
       ['메르세데스벤츠 박물관', 'Mercedes-Benz Museum', 'メルセデス・ベンツ博物館', '130년이 넘는 자동차 역사를 나선형 전시 공간에서 보여 주는 박물관입니다.', 'More than 130 years of car history along a double-helix gallery.', '130年を超える自動車の歴史をらせん状の展示空間で紹介する博物館です。'],
-      ['베젠 와인 주점', 'Besen wine taverns', 'ベーゼン（ワイン居酒屋）', '와인 농가가 자기 와인을 직접 내놓는 임시 주점으로, 슈바벤 가정식을 곁들입니다.', 'Winemakers’ pop-up taverns pouring their own wine with Swabian home cooking.', 'ワイン農家が自家製ワインを直接出す期間限定の居酒屋で、シュヴァーベンの家庭料理を添えます。'],
-      ['마울타셴', 'Maultaschen', 'マウルタッシェン', '고기와 시금치를 채운 큰 슈바벤식 만두로, 시내 식당 곳곳에서 맛볼 수 있습니다.', 'Large Swabian pasta pockets of meat and spinach, served across town.', '肉とほうれん草を詰めた大きなシュヴァーベン風の餃子で、市内の多くの店で味わえます。'],
+      ['빌헬마 동물원·식물원', 'Wilhelma Zoological-Botanical Garden', 'ヴィルヘルマ動植物園', '역사적인 무어 양식 건축과 식물원, 동물 전시를 한곳에서 볼 수 있는 복합 시설입니다.', 'A combined zoo and botanical garden set among historic Moorish Revival buildings.', '歴史的なムーア・リバイバル建築の中で動物園と植物園を楽しめる複合施設です。'],
+      ['슈투트가르트 TV 타워', 'Stuttgart TV Tower', 'シュトゥットガルトテレビ塔', '세계 최초의 텔레비전 타워로, 전망대에서 도시와 주변 포도밭 언덕을 볼 수 있습니다.', 'The world’s first television tower, with views across the city and surrounding vineyard hills.', '世界初のテレビ塔で、展望台から市街や周辺のブドウ畑の丘を見渡せます。'],
+      ['신궁전', 'New Palace Stuttgart', 'シュトゥットガルト新宮殿', '슐로스플라츠를 마주한 바로크 양식의 옛 왕궁으로, 외관과 궁전 광장을 함께 둘러보기 좋습니다.', 'A Baroque former royal palace facing Schlossplatz, best seen together with the palace square.', 'シュロスプラッツに面したバロック様式の旧王宮で、宮殿広場と合わせて見学できます。'],
+      ['킬레스베르크 공원과 전망탑', 'Killesberg Park and Tower', 'キレスベルク公園と展望塔', '정원·산책로·전망탑이 있는 공원으로, 언덕 지형과 도시 풍경을 감상할 수 있습니다.', 'A park with gardens, walking paths and a lookout tower over its hilly grounds and the city.', '庭園や遊歩道、展望塔がある公園で、起伏のある園内や市街の景色を楽しめます。'],
     ],
     t: [
       ['공항에서 시내: S반 S2·S3이 15분 간격으로 공항과 중앙역을 약 27분에 잇습니다. 시내 1구간 1회권은 휴대폰 티켓으로 사면 약 5% 쌉니다.', 'Airport to city: S-Bahn S2/S3 run every 15 minutes to the main station in about 27 minutes; zone-1 singles are about 5% cheaper as mobile tickets.', '空港から市内へ：SバーンS2・S3が15分間隔で空港と中央駅を約27分で結んでいます。市内1ゾーンの1回券はスマホチケットで買うと約5%安くなります。'],
@@ -1092,9 +1167,11 @@ export const NOTES_9: Record<string, Compact> = {
   },
   dusseldorf: {
     h: [
-      ['알트슈타트 양조장', 'Altstadt brewhouses', '旧市街の醸造所', '작은 잔에 따르는 갈색 맥주 알트비어와 라인 지방 요리를 맛볼 수 있습니다.', 'Dark Altbier in small glasses with Rhineland dishes.', '小さなグラスで注ぐ褐色のアルトビールとライン地方の料理を味わえます。'],
+      ['라인 타워', 'Rhine Tower', 'ラインタワー', '전망대에서 라인강과 메디엔하펜, 구시가지와 도시의 다리를 내려다볼 수 있는 뒤셀도르프의 랜드마크입니다.', 'A Düsseldorf landmark with a viewing platform overlooking the Rhine, MedienHafen, Old Town and city bridges.', '展望台からライン川、メディエンハーフェン、旧市街、市内の橋を見渡せるデュッセルドルフのランドマークです。'],
       ['K20 미술관', 'K20 (Kunstsammlung NRW)', 'K20（ノルトライン・ヴェストファーレン州立美術館）', '피카소·클레 등 20세기 미술을 소장한 주립 미술관으로, 18세 미만은 무료입니다.', 'State gallery of 20th-century art from Picasso to Klee; under-18s free.', 'ピカソやクレーなど20世紀美術を所蔵する州立美術館で、18歳未満は無料です。'],
-      ['뒤셀도르프 겨자', 'Düsseldorf mustard', 'デュッセルドルフ・マスタード', '1726년부터 맷돌로 갈아 만든 겨자로, 네 가지가 EU 원산지 보호를 받습니다.', 'Stone-ground since 1726; four varieties hold EU protected-origin status.', '1726年から石臼で挽いて作られるマスタードで、4種類がEUの原産地保護を受けています。'],
+      ['벤라트 궁전', 'Schloss Benrath', 'ベンラート城', '궁전과 정원, 박물관이 모인 18세기 건축 단지로, 도심 남쪽에 자리합니다.', 'An 18th-century palace complex with gardens and museums south of the city centre.', '市中心部の南にある18世紀の宮殿群で、庭園や博物館も併設されています。'],
+      ['메디엔하펜', 'MedienHafen', 'メディエンハーフェン', '옛 항구를 재생한 수변 지구로, 프랭크 게리의 비대칭 건축과 라인강 산책로가 눈에 띕니다.', 'A redeveloped harbour district known for Frank Gehry’s distinctive buildings and Rhine-side walks.', '旧港を再開発した水辺の地区で、フランク・ゲーリーの建築やライン川沿いの散策路が見どころです。'],
+      ['쾨니히스알레', 'Königsallee', 'ケーニヒスアレー', '운하와 나무가 이어지는 도심 대로로, 양쪽에 상점과 카페가 늘어서 있습니다.', 'A central boulevard lined by a canal, trees, shops and cafés.', '運河と並木が続く中心部の大通りで、両側に店やカフェが並んでいます。'],
     ],
     t: [
       ['공항에서 시내: S반 S11이 터미널 지하역에서 중앙역까지 가며, 시내 요금(A단계, 90분)으로 탈 수 있습니다.', 'Airport to city: S-Bahn S11 runs from the station beneath the terminal to the Hauptbahnhof on a city (level A, 90-minute) ticket.', '空港から市内へ：SバーンS11がターミナル地下の駅から中央駅まで走り、市内運賃（Aランク、90分）で乗れます。'],
@@ -1103,7 +1180,7 @@ export const NOTES_9: Record<string, Compact> = {
   'san-sebastian': {
     h: [
       ['산텔모 박물관', 'San Telmo Museoa', 'サン・テルモ博物館', '16세기 수도원 건물에 바스크 사회와 역사를 전시하는 박물관입니다.', 'Basque society and history in a 16th-century convent.', '16世紀の修道院の建物で、バスクの社会と歴史を展示する博物館です。'],
-      ['핀초 바 순례', 'Pintxo crawl', 'ピンチョス巡り', '바마다 한두 가지 핀초를 맛보며 여러 곳을 도는 것이 산세바스티안 방식입니다.', 'Try one or two pintxos per bar and move on — the San Sebastián way.', '1軒につき1〜2品のピンチョスを味わいながら何軒も巡るのがサン・セバスティアン流です。'],
+      ['산세바스티안 수족관', 'San Sebastián Aquarium', 'サン・セバスティアン水族館', '항구 끝에 있는 수족관으로 바스크 해안 생물과 해양 역사 전시를 볼 수 있으며, 수중 터널도 있습니다.', 'A harbour-side aquarium with Basque coastal life, maritime-history displays and an underwater tunnel.', '港の先にある水族館で、バスク沿岸の生き物や海洋史の展示、水中トンネルを見学できます。'],
       ['라 콘차 해변', 'La Concha beach', 'ラ・コンチャ海岸', '조개껍데기 모양의 만에 펼쳐진 도시 해변으로, 산책로가 이어집니다.', 'The city beach on a shell-shaped bay, lined by a promenade.', '貝殻の形の湾に広がる街のビーチで、遊歩道が続いています。'],
     ],
     t: [
@@ -1114,18 +1191,18 @@ export const NOTES_9: Record<string, Compact> = {
   funchal: {
     h: [
       ['푼샬 케이블카', 'Funchal Cable Car', 'フンシャル・ケーブルカー', '구시가지에서 몬테 언덕까지 약 15분 동안 시내와 바다를 내려다보며 오릅니다. 7세 미만은 무료입니다.', 'Rise from the Old Town to Monte in about 15 minutes over city and sea; under-sevens free.', '旧市街からモンテの丘まで約15分、市街と海を見下ろしながら上ります。7歳未満は無料です。'],
-      ['에스페타다', 'Espetada', 'エスペターダ', '월계수 가지에 소고기를 꽂아 구운 마데이라 대표 요리로, 볼루 두 카쿠 빵을 곁들입니다.', 'Beef grilled on a bay-laurel stick, served with bolo do caco bread.', '月桂樹の枝に牛肉を刺して焼いたマデイラの代表料理で、ボロ・ド・カコのパンを添えます。'],
-      ['마데이라 와인', 'Madeira wine', 'マデイラワイン', '오래 숙성해도 맛이 변하지 않는 강화 와인으로, 시내 와인 저장고에서 시음할 수 있습니다.', 'The famously long-lived fortified wine, tasted at Funchal’s wine lodges.', '長期熟成でも味が変わらない酒精強化ワインで、市内のワインセラーで試飲できます。'],
+      ['몬테 팰리스 열대정원', 'Monte Palace Tropical Garden', 'モンテ・パレス・トロピカル・ガーデン', '푼샬만을 내려다보는 언덕의 정원으로, 세계 각지의 식물과 호수·타일·불교 조각을 함께 볼 수 있습니다.', 'A hillside garden overlooking Funchal Bay, combining plants from around the world with lakes, tiles and Buddhist sculptures.', 'フンシャル湾を見下ろす丘の庭園で、世界各地の植物や池、タイル、仏教彫刻を楽しめます。'],
+      ['마데이라 식물원', 'Madeira Botanical Garden', 'マデイラ植物園', '1960년 푼샬에 문을 연 식물원으로, 세계 여러 지역의 식물 컬렉션과 전망대, 자연사 박물관을 둘러볼 수 있습니다.', 'Opened in Funchal in 1960, this garden has plant collections from around the world, viewpoints and a natural-history museum.', '1960年にフンシャルで開園した植物園で、世界各地の植物コレクションや展望台、自然史博物館を見学できます。'],
     ],
     t: [
-      ['공항에서 시내: 에어로버스나 택시로 약 20~25분 걸립니다.', 'Airport to city: the Aerobus or a taxi takes about 20–25 minutes.', '空港から市内へ：エアロバスかタクシーで約20〜25分です。'],
+      ['공항에서 숙소까지: 도착 구역에서 Aerobus 표지판을 따라 탑승하세요. 공항에서 푼샬을 지나 포르모사 해변 방향으로 운행하며 호텔 주변 정류장에 설 수 있습니다. 숙소가 구시가지·마리나·리도 중 어디인지 확인해 가장 가까운 정류장에서 내리세요. 택시는 도착층 0층 밖 공식 승강장에서 탈 수 있습니다.', 'Airport to your stay: Follow the Aerobus signs from arrivals. The bus runs from the airport through Funchal towards Formosa Beach and serves stops near several hotels. Check whether your stay is in the Old Town, Marina or Lido area and get off at the nearest stop. Taxis use the official rank outside Arrivals on floor 0.', '空港から宿泊先へ：到着エリアのAerobus案内に従って乗車します。空港からフンシャルを通り、フォルモーザ海岸方面へ運行し、複数のホテル近くに停車します。宿泊先が旧市街・マリーナ・リドのどこかを確認し、最寄りで降りてください。タクシーは到着階0階の外にある公式乗り場から利用できます。'],
     ],
   },
   cordoba: {
     h: [
       ['메스키타 대성당', 'Mosque-Cathedral of Córdoba', 'メスキータ大聖堂', '이슬람 사원 안에 가톨릭 대성당이 들어선 세계유산으로, 10세 미만은 무료입니다.', 'A UNESCO site where a cathedral stands inside a great mosque; under-10s free.', 'イスラム寺院の中にカトリック大聖堂が建つ世界遺産で、10歳未満は無料です。'],
       ['코르도바의 안뜰', 'Patios of Córdoba', 'コルドバのパティオ', '화분으로 벽을 가득 채운 안뜰 문화로, 유네스코 무형문화유산입니다.', 'Walls of potted flowers in courtyard homes — UNESCO intangible heritage.', '鉢植えの花で壁を埋め尽くした中庭の文化で、ユネスコ無形文化遺産です。'],
-      ['살모레호', 'Salmorejo', 'サルモレホ', '토마토·빵·마늘·올리브유로 만든 차가운 수프로, 코르도바 요리의 대표입니다.', 'A chilled cream of tomato, bread, garlic and olive oil — Córdoba’s flagship dish.', 'トマト・パン・にんにく・オリーブオイルで作る冷たいスープで、コルドバ料理の代表です。'],
+      ['메디나 아사하라', 'Medina Azahara', 'メディナ・アサハラ', '코르도바 칼리프국의 궁전 도시 유적으로, 발굴된 성문·건물과 현장 박물관을 함께 둘러볼 수 있습니다.', 'The archaeological remains of the Caliphate of Córdoba’s palace city, with excavated gates, buildings and a site museum.', 'コルドバ・カリフ国の宮殿都市遺跡で、発掘された門や建物、現地博物館を見学できます。'],
     ],
     t: [
       ['시내버스(아우코르사) 1회권은 1.30유로이며, 15세 미만은 어린이 카드로 2026년 말까지 무료입니다.', 'City buses (Aucorsa) cost €1.30 a ride; under-15s ride free with the child card until the end of 2026.', '市内バス（アウコルサ）の1回券は1.30ユーロで、15歳未満は子ども用カードで2026年末まで無料です。'],
@@ -1146,7 +1223,7 @@ export const NOTES_9: Record<string, Compact> = {
   malmo: {
     h: [
       ['말뫼후스 성', 'Malmöhus Castle', 'マルメフス城', '16세기 성 안에 박물관·수족관·미술관이 모여 있으며, 19세 이하는 무료입니다.', 'A 16th-century castle housing museums, an aquarium and an art museum; free for 0–19s.', '16世紀の城の中に博物館や水族館、美術館が集まっており、19歳以下は無料です。'],
-      ['말뫼 실내 시장', 'Malmö Saluhall', 'マルメ・サルハル', '방목 고기·치즈·팔라펠 등 다양한 먹거리를 파는 실내 시장입니다.', 'A food hall of free-range meat, cheese, falafel and more.', '放牧肉やチーズ、ファラフェルなどさまざまな食べ物を売る屋内市場です。'],
+      ['터닝 토르소', 'Turning Torso', 'ターニング・トルソ', '베스트라 함넨 지구의 90도 비틀린 고층 건물로, 말뫼의 현대 건축을 대표합니다.', 'A high-rise building twisted 90 degrees in Västra Hamnen, an icon of Malmö’s contemporary architecture.', 'ヴェストラ・ハムネン地区にある90度ねじれた高層ビルで、マルメの現代建築を代表します。'],
       ['외레순 다리', 'Øresund Bridge', 'エーレスンド橋', '스웨덴과 덴마크를 잇는 다리로, 기차로 코펜하겐까지 약 30분입니다.', 'The Sweden–Denmark link — Copenhagen is about 30 minutes by train.', 'スウェーデンとデンマークを結ぶ橋で、列車でコペンハーゲンまで約30分です。'],
     ],
     t: [

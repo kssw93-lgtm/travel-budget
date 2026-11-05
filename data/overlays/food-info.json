@@ -6050,17 +6050,35 @@
   "abu-dhabi:Harees": {
     "ko": "밀과 고기를 천천히 익혀 죽처럼 만든 에미리트 전통 요리입니다.",
     "en": "An Emirati dish of wheat and meat slow-cooked to a porridge-like consistency.",
-    "ja": "小麦と肉をじっくり煮込み、おかゆ状に仕上げるエミラティ料理です。"
+    "ja": "小麦と肉をじっくり煮込み、おかゆ状に仕上げるエミラティ料理です。",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Harees.JPG/960px-Harees.JPG",
+      "author": "Miansari66",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Harees.JPG"
+    }
   },
   "abu-dhabi:Machboos": {
     "ko": "향신료를 넣은 밥에 닭고기·양고기 또는 생선을 곁들이는 에미리트 음식입니다.",
     "en": "An Emirati staple of spiced rice served with chicken, lamb or fish.",
-    "ja": "スパイスで炊いたご飯に鶏肉、羊肉、または魚を添えるエミラティの定番料理です。"
+    "ja": "スパイスで炊いたご飯に鶏肉、羊肉、または魚を添えるエミラティの定番料理です。",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Machboos.JPG/960px-Machboos.JPG",
+      "author": "Miansari66",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Machboos.JPG"
+    }
   },
   "abu-dhabi:Luqaimat": {
     "ko": "바삭하게 튀긴 반죽 공에 대추 시럽을 곁들인 에미리트 디저트입니다.",
     "en": "Crisp fried dough balls drizzled with date syrup, a popular Emirati dessert.",
-    "ja": "カリッと揚げた生地にデーツシロップをかけた、人気のエミラティデザートです。"
+    "ja": "カリッと揚げた生地にデーツシロップをかけた、人気のエミラティデザートです。",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Lugainat.jpg/960px-Lugainat.jpg",
+      "author": "Jasmine57",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Lugainat.jpg"
+    }
   },
   "abu-dhabi:Chebab": {
     "ko": "대추 당밀과 함께 먹는 에미리트식 팬케이크입니다.",

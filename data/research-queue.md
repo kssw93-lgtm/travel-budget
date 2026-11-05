@@ -2077,6 +2077,11 @@
 | TSU-AT-004 | 대마도 | 만송원 입장(초·중학생) | 100 JPY | A | 예 | 재검증 | [대마도관광물산협회](https://www.tsushima-net.org/tourism-history/banshoin) |
 | TSU-AT-005 | 대마도 | 조선통신사역사관 관람 | 220 JPY | A | 예 | 재검증 | [대마도관광물산협회](https://www.tsushima-net.org/tourism-history/tsushima-chousentsuushinshi) |
 | TSU-AT-006 | 대마도 | 조선통신사역사관 관람(초·중학생) | 110 JPY | A | 예 | 재검증 | [대마도관광물산협회](https://www.tsushima-net.org/tourism-history/tsushima-chousentsuushinshi) |
+| ULN-AT-102 | 울란바토르 | 칭기즈칸 국립박물관 상설전시관(아동 외국인) | 15000 MNT | A | 예 | 재검증 | [Chinggis Khaan National Museum 공식 방문 안내](https://new.chinggismuseum.com/en/visit) |
+| ULN-AT-103 | 울란바토르 | 울란바토르 시립박물관(성인) | 5000 MNT | A | 예 | 재검증 | [울란바토르 시립박물관 공식 서비스 안내](https://www.ubmuseum.mn/цагийн-хуваарь/) |
+| ULN-AT-104 | 울란바토르 | 울란바토르 시립박물관(아동) | 0 MNT | A | 예 | 재검증 | [울란바토르 시립박물관 공식 서비스 안내](https://www.ubmuseum.mn/цагийн-хуваарь/) |
+| ULN-AT-105 | 울란바토르 | 국제지능박물관(성인 외국인·외국어 설명) | 15000 MNT | A | 조건부 | 조건부, 재검증 | [International Intellectual Museum 공식 예약·요금 안내](https://www.iqmuseum.mn/mn/booking) |
+| ULN-AT-106 | 울란바토르 | 국제지능박물관(아동 외국인) | 10000 MNT | A | 예 | 재검증 | [International Intellectual Museum 공식 예약·요금 안내](https://www.iqmuseum.mn/mn/booking) |
 | GUM-FD-101 | 괌 | 메스클라 BBQ 쇼트립(런치) | 18.95 USD | A | 예 | 재검증 | [Meskla Chamoru Fusion Bistro 공식 런치 메뉴 PDF](https://mesklaguam.com/wp-content/uploads/2024/03/meskla-lunch-2024.pdf) |
 | GUM-FD-102 | 괌 | 메스클라 BBQ 치킨(런치) | 19.95 USD | A | 예 | 재검증 | [Meskla Chamoru Fusion Bistro 공식 런치 메뉴 PDF](https://mesklaguam.com/wp-content/uploads/2024/03/meskla-lunch-2024.pdf) |
 | GUM-FD-103 | 괌 | 메스클라 차모루 시저 샐러드(런치) | 18.95 USD | A | 조건부 | 조건부, 재검증 | [Meskla Chamoru Fusion Bistro 공식 런치 메뉴 PDF](https://mesklaguam.com/wp-content/uploads/2024/03/meskla-lunch-2024.pdf) |
@@ -2564,7 +2569,7 @@
 | ULN-SN-101 | 울란바토르 | 모던 노마즈 아메리카노 | 8900 MNT | A | 예 | 재검증 | [Nomads Hospitality(Modern Nomads) 공식 메뉴](https://www.modernnomads.mn/menu) |
 | ULN-SN-102 | 울란바토르 | 모던 노마즈 수테차(몽골식 밀크티) | 3500 MNT | A | 예 | 재검증 | [Nomads Hospitality(Modern Nomads) 공식 메뉴](https://www.modernnomads.mn/menu) |
 | ULN-SN-103 | 울란바토르 | 모던 노마즈 생수 0.5L | 5500 MNT | A | 예 | 재검증 | [Nomads Hospitality(Modern Nomads) 공식 메뉴](https://www.modernnomads.mn/menu) |
-| ULN-AT-101 | 울란바토르 | 칭기즈칸 국립박물관 상설전시관(성인) | 30000 MNT | A | 예 | 재검증 | [Chinggis Khaan National Museum 공식 Visit Museum](https://chinggismuseum.com/en/visit) |
+| ULN-AT-101 | 울란바토르 | 칭기즈칸 국립박물관 상설전시관(성인) | 30000 MNT | A | 예 | 재검증 | [Chinggis Khaan National Museum 공식 방문 안내](https://new.chinggismuseum.com/en/visit) |
 | ULN-FD-105 | 울란바토르 | 모던 노마즈 보르츠 볶음밥 | 28900 MNT | A | 예 | 재검증 | [Nomads Hospitality(Modern Nomads) 공식 메뉴](https://www.modernnomads.mn/menu) |
 | YSU-FD-101 | 여수 | 청정게장촌 돌게장정식 | 16000 KRW | B | 예 | B등급, 재검증 | [청정게장촌 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/20553144/menu/list) |
 | YSU-FD-102 | 여수 | 여수게장 나래밥상 황태해장국 | 12000 KRW | B | 예 | B등급, 재검증 | [여수게장 나래밥상 네이버 플레이스 업주 메뉴](https://pcmap.place.naver.com/restaurant/1787911441/menu/list) |

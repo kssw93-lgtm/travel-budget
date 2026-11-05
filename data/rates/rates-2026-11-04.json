@@ -1,0 +1,109 @@
+{
+  "asOf": "2026-11-04",
+  "researchedAt": "2026-11-05",
+  "note": "2026-11-05 재조사한 공식 환율 원자료. ECB 최신 기준일은 2026-11-04이며, 사이트 표시값은 1 USD 기준이다. ECB 기준환율(1 EUR당)을 ECB EUR/USD로 나누며, ECB 표에 없는 통화는 perUSD의 공식 기관 자료를 사용한다. 통화별 기준일은 각 date에 기록한다. 환율은 예산 참고값이며 실제 환전 매매율·수수료와 다를 수 있다.",
+  "ecb": {
+    "name": "European Central Bank euro foreign exchange reference rates",
+    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+    "date": "2026-11-04",
+    "perEUR": {
+      "USD": 1.1267,
+      "JPY": 178.3,
+      "CZK": 24.309,
+      "DKK": 7.4738,
+      "GBP": 0.8346,
+      "HUF": 363.03,
+      "PLN": 4.399,
+      "RON": 5.344,
+      "SEK": 10.9718,
+      "CHF": 0.9188,
+      "ISK": 136.8,
+      "NOK": 10.397,
+      "TRY": 56.3598,
+      "AUD": 1.6061,
+      "BRL": 6.1579,
+      "CAD": 1.5701,
+      "CNY": 7.5177,
+      "HKD": 8.8399,
+      "IDR": 20425.83,
+      "ILS": 3.5641,
+      "INR": 106.6318,
+      "KRW": 1508.18,
+      "MXN": 21.0086,
+      "MYR": 4.5789,
+      "NZD": 1.9988,
+      "PHP": 71.578,
+      "SGD": 1.4398,
+      "THB": 37.902,
+      "ZAR": 18.5404
+    }
+  },
+  "perUSD": {
+    "TWD": {
+      "rate": 32.821,
+      "url": "https://www.cbc.gov.tw/tw/lp-645-1-1-40.html",
+      "date": "2026-11-04",
+      "name": "대만 중앙은행 新臺幣/美元 은행간 마감환율"
+    },
+    "VND": {
+      "rate": 25627,
+      "url": "https://www.ncb-bank.vn/en/exchange-rates",
+      "date": "2026-11-04",
+      "name": "베트남 NCB 공시 평균 은행간 환율(Average interbank exchange rate)"
+    },
+    "AED": {
+      "rate": 3.6725,
+      "url": "https://centralbank.ae/en/forex-eibor/exchange-rates/",
+      "date": "2026-10-23",
+      "name": "UAE 중앙은행이 게시한 USD 대비 AED 중간 기준환율"
+    },
+    "SAR": {
+      "rate": 3.75,
+      "url": "https://www.sama.gov.sa/en-us/mediacenter/news/pages/news11012016.aspx",
+      "date": "2016-01-11",
+      "name": "사우디 중앙은행(SAMA) 공식 고정 환율 3.7500 SAR/USD"
+    },
+    "MOP": {
+      "rate": 8.081207952427443,
+      "url": "https://www.amcm.gov.mo/en/currency/currency-in-circulation-in-macao/coins/currency-in-circulation-in-macao",
+      "date": "2026-11-04",
+      "name": "ECB HKD·USD(2026-11-04)와 AMCM 공식 고정 관계 HKD 1 = MOP 1.03으로 교차 산출"
+    },
+    "MNT": {
+      "rate": 3600.04,
+      "url": "https://www.mongolbank.mn/en/",
+      "date": "2026-11-04",
+      "name": "몽골 중앙은행(Mongolbank) USD 공식 기준환율"
+    },
+    "LAK": {
+      "rate": 22395,
+      "url": "https://www.bol.gov.la/en/referenceRate",
+      "date": "2026-10-15",
+      "name": "라오스 중앙은행(Bank of the Lao PDR) USD reference rate"
+    },
+    "KZT": {
+      "rate": 452.91,
+      "url": "https://nationalbank.kz/en/exchangerates/ezhednevnye-oficialnye-rynochnye-kursy-valyut",
+      "date": "2026-11-05",
+      "name": "카자흐스탄 국립은행 Official (market) Exchange Rates USD/KZT"
+    },
+    "UZS": {
+      "rate": 12022.7,
+      "url": "https://nbg.gov.ge/en/monetary-policy/currency",
+      "date": "2026-10-29",
+      "name": "조지아 국립은행 공식 표의 USD/GEL·UZS/GEL 교차 산출(1 USD=2.5957 GEL; 1,000 UZS=0.2159 GEL)"
+    },
+    "GEL": {
+      "rate": 2.5957,
+      "url": "https://nbg.gov.ge/en/monetary-policy/currency",
+      "date": "2026-10-29",
+      "name": "조지아 국립은행 공식 환율표 USD"
+    },
+    "EGP": {
+      "rate": 55.8273,
+      "url": "https://www.cbe.org.eg/en/EconomicResearch/Statistics/Pages/OfficialRatesListing.aspx",
+      "date": "2026-10-25",
+      "name": "이집트 중앙은행(CBE) USD 공식 환율 매입 55.7582·매도 55.8964의 중간값"
+    }
+  }
+}

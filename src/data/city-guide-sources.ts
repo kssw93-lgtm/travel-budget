@@ -1347,6 +1347,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'york:t2': 'https://visityork.org/visitor-information/travel-information',
   'siem-reap:t4': 'https://www.sai-airport.com/jcjtjb/38836.jhtml',
   'ulaanbaatar:t4': 'https://en.ulaanbaatar-airport.mn/public-transportation-service',
+  'ulaanbaatar:h5': 'https://www.iqmuseum.mn/en/museum',
+  'ulaanbaatar:t5': 'https://new.chinggismuseum.com/en/visit',
   'galway:t2': 'https://www.dublinairport.com/to-from-the-airport/by-bus',
   'turku:t2': 'https://www.finavia.fi/en/airports/turku/parking-access/public-transport; https://www.foli.fi/en/trunklines',
   'tartu:t2': 'https://ut.ee/en/content/practical-info-about-tartu',

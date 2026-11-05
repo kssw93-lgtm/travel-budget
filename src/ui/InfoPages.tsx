@@ -3,7 +3,6 @@ import { ExternalLink } from './ExternalLink';
 import { contactEmail } from './pages';
 import { PRIVACY_EFFECTIVE } from './policy';
 import { cities } from '../data/catalog';
-import { cityName } from './TripForm';
 
 /** 문단 안의 http(s) 주소는 외부 링크로 바꾼다 */
 function Para({ text }: { text: string }) {
@@ -26,8 +25,7 @@ function Contact() {
 }
 
 export function About() {
-  const { t, lang } = useI18n();
-  const list = cities.map((c) => cityName(c, lang)).join({ ko: '·', ja: '・', en: ', ' }[lang]);
+  const { t } = useI18n();
   const a = t.about;
   return (
     <article className="card prose" data-testid="about">
@@ -36,9 +34,7 @@ export function About() {
       {a.sections.map((s) => (
         <section key={s.h}>
           <h2>{s.h}</h2>
-          {s.body.map((b) => (
-            <Para key={b} text={fmt(b, { cities: list, n: cities.length })} />
-          ))}
+          {s.body.map((b) => <Para key={b} text={fmt(b, { n: cities.length })} />)}
         </section>
       ))}
       <Contact />

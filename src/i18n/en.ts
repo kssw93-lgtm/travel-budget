@@ -334,7 +334,7 @@ export const en: Messages = {
   },
   about: {
     title: 'About',
-    lead: 'Travel Budget is a free calculator that estimates a min–max range for local spending on dining, transport and admission to selected attractions, plus a shopping budget you set, based on your destination, dates, party size, and travel style. It helps you estimate and prepare for local costs before you leave.',
+    lead: 'Not sure how much to set aside for a trip? This free calculator gives you a starting estimate based on your destination and plans. See meals, local transport and admission to the attractions you choose in one place, then add a shopping budget of your own.',
     sections: [
       { h: 'What it shows', body: [
         'Typical prices for each city, such as a meal or a single public transport ride, and the estimated local spending for your whole trip. Results are shown in the local currency, your selected currency and a USD reference.',
@@ -344,8 +344,9 @@ export const en: Messages = {
         'We use price samples researched primarily from the official pages of whoever actually sells or operates the service: transport operators, attractions, restaurants and brands. Every price has a source and a check date, shown under "Price evidence, sources and warnings" in the results.',
         'We never import averages from other travel budget sites or fill gaps with estimates. Items without enough samples are shown as missing instead of as an amount.',
       ] },
-      { h: 'Coverage', body: [
-        '{n} cities are supported today ({cities}), with more added as research is completed. Flights and lodging are not searched live; if you already know those costs you can enter them to add them up.',
+      { h: 'Destinations and city guides', body: [
+        'Explore {n} cities across Asia, Europe, the Americas, Africa and Oceania. Search for a destination in the calculator or city guide instead of scanning a long list of names. City guides bring together practical pre-trip information such as local transport, places to stay, seasonal notes, sights and local food.',
+        'Flights and lodging are not searched live. Enter costs you already know to include them with your local trip estimate.',
       ] },
       { h: 'How we operate', body: [
         'There are no sign-ups, logins, payments, bookings, product sales, or affiliate links. The site plans to run on advertising revenue, with ads placed only where they do not obscure results or sources.',

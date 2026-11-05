@@ -441,10 +441,13 @@ export const NOTES_9: Record<string, Compact> = {
       ['츠칸러우', 'Chihkan Tower', '赤崁楼', '네덜란드 시대 요새 터에 세운 누각과 사당으로, 타이난 구시가지의 상징입니다.', 'Pavilions and shrines on the site of a Dutch-era fort, symbol of old Tainan.', 'オランダ時代の要塞跡に建てられた楼閣と廟で、台南旧市街の象徴です。'],
       ['안핑 고성', 'Anping Old Fort', '安平古堡', '17세기 네덜란드가 세운 질란디아 요새 터로, 전망대에서 안핑 일대가 내려다보입니다.', 'The site of the 17th-century Dutch Fort Zeelandia, with views over Anping from its lookout.', '17世紀にオランダが築いたゼーランディア城の跡で、展望台から安平一帯を見渡せます。'],
       ['안핑 트리하우스', 'Anping Tree House', '安平樹屋', '옛 무역 회사 창고를 반얀나무 뿌리가 감싸 버린 독특한 공간입니다.', 'An old trading company warehouse engulfed by banyan roots.', 'かつての貿易会社の倉庫をガジュマルの根が覆い尽くした独特の空間です。'],
+      ['치메이 박물관', 'Chimei Museum', '奇美博物館', '서양 미술·악기·무기와 갑옷·자연사 전시를 한곳에서 볼 수 있는 박물관입니다.', 'A museum presenting Western art, musical instruments, arms and armour, and natural history.', '西洋美術・楽器・武器と甲冑・自然史の展示を一度に見られる博物館です。'],
+      ['텐드럼 문화촌', 'Ten Drum Culture Village', '十鼓仁糖文創園區', '옛 설탕 공장 창고와 산업 유산을 북 공연·문화 공간으로 되살린 야외 명소입니다.', 'A former sugar factory and its warehouses reimagined as a drumming and cultural destination.', '旧製糖工場の倉庫や産業遺産を、太鼓公演と文化の施設として再生した屋外スポットです。'],
     ],
     t: [
       ['츠칸러우·안핑 고성 등 시가 운영하는 고적은 대부분 오전 8시 반에 문을 열어, 더위를 피해 아침 일찍 둘러보기 좋습니다.', 'Most city-run historic sites, such as Chihkan Tower and Anping Old Fort, open at 8:30 a.m., so go early to beat the heat.', '赤崁楼や安平古堡など市が運営する古跡の多くは朝8時半に開くので、暑さを避けて朝早く回るのがおすすめです。'],
       ['가는 법: 고속철 타이난역은 시내에서 떨어져 있어, 연결된 사룬역에서 타이완철도 사룬선으로 갈아타 타이난역까지 갑니다. 국제선은 보통 가오슝 공항을 이용합니다.', 'Getting there: the HSR Tainan station is outside town; change at the linked Shalun station to the TRA Shalun Line for Tainan Station. International flights usually use Kaohsiung Airport.', '行き方：高鉄台南駅は市街から離れているため、連絡通路でつながる沙崙駅で台鉄沙崙線に乗り換えて台南駅へ。国際線はふつう高雄空港を使います。'],
+      ['치메이 박물관은 시내 남쪽 런더구에 있습니다. 타이완철도 바오안역에서 걸어서 약 10분이며, 역 앞에서 홍3·홍4번 버스로도 갈 수 있습니다. 수요일 휴관 여부를 포함해 방문일 운영 정보를 확인하세요.', 'CHIMEI Museum is in Rende District south of the centre. It is about a 10-minute walk from Bao’an TRA station, or you can take Red 3 or Red 4 from the stop across from the station. Check the official visitor information for your date, including its Wednesday closure.', '奇美博物館は市中心部の南にある仁徳区にあります。台鉄保安駅から徒歩約10分、駅向かいの停留所から紅3・紅4番バスでも行けます。水曜休館を含め、訪問日の案内を公式サイトで確認しましょう。'],
     ],
   },
   warsaw: {
@@ -453,10 +456,12 @@ export const NOTES_9: Record<string, Compact> = {
       ['바르샤바 봉기 박물관', 'Warsaw Uprising Museum', 'ワルシャワ蜂起博物館', '1944년 나치 점령에 맞선 시민 봉기를 체험형 전시로 보여 주는 박물관입니다. 목요일은 무료입니다.', 'An immersive museum of the 1944 uprising against Nazi occupation; free on Thursdays.', '1944年のナチス占領に抗した市民蜂起を体験型展示で伝える博物館です。木曜は無料です。'],
       ['폴린 폴란드 유대인 역사박물관', 'POLIN Museum of the History of Polish Jews', 'ポーリン・ポーランドユダヤ人歴史博物館', '폴란드 유대인 천 년의 역사를 다루는 박물관으로, 최소 2시간은 잡는 것이 좋습니다.', 'A thousand years of Polish Jewish history; allow at least two hours.', 'ポーランドのユダヤ人の千年の歴史を扱う博物館で、少なくとも2時間は見ておきましょう。'],
       ['와지엔키 공원', 'Łazienki Park', 'ワジェンキ公園', '물 위의 궁전과 쇼팽 동상이 있는 넓은 왕실 공원으로, 여름 일요일에는 무료 쇼팽 연주회가 열립니다.', 'A royal park with the Palace on the Isle and the Chopin monument, hosting free summer Sunday recitals.', '水上宮殿とショパン像がある広い王室庭園で、夏の日曜には無料のショパン演奏会が開かれます。'],
+      ['코페르니쿠스 과학센터', 'Copernicus Science Centre', 'コペルニクス科学センター', '직접 만지고 실험하는 전시와 플라네타륨을 갖춘 과학 체험 시설입니다.', 'An interactive science centre with hands-on exhibits and a planetarium.', '体験型展示とプラネタリウムを備えた科学施設です。'],
     ],
     t: [
       ['대중교통은 20분권과 75분권이 있어, 갈아탈 일이 있으면 75분권을 사는 것이 안전합니다.', 'Transit tickets come in 20- and 75-minute versions; buy the 75-minute ticket if you need to change.', '公共交通には20分券と75分券があり、乗り換えがあるなら75分券を買うのが安心です。'],
       ['공항에서 시내: 쇼팽 공항에서 S2·S3 열차나 175번 버스를 타면 시내 중심까지 30분 안팎이며, 75분권을 사면 됩니다.', 'Airport to city: S2/S3 trains or bus 175 reach the centre in about 30 minutes from Chopin Airport; buy a 75-minute ticket.', '空港から市内へ：ショパン空港からS2・S3線の列車か175番バスで中心部まで30分ほどで、75分券を買えば大丈夫です。'],
+      ['코페르니쿠스 과학센터는 M2선 Centrum Nauki Kopernik역에서 가깝습니다. 날짜 지정 입장권은 온라인으로 미리 살 수 있으니, 관람 시간을 정해 두고 방문하세요.', 'Copernicus Science Centre is near the Centrum Nauki Kopernik station on metro line M2. Date-specific tickets can be bought online, so choose your visit time in advance.', 'コペルニクス科学センターは地下鉄M2線のCentrum Nauki Kopernik駅近くです。日付指定券はオンラインで購入できるので、見学時間を決めてから訪れましょう。'],
     ],
   },
   ghent: {
@@ -583,10 +588,12 @@ export const NOTES_9: Record<string, Compact> = {
       ['노트르담 대성당', 'Notre-Dame Basilica', 'ノートルダム大聖堂', '푸른 빛의 화려한 내부로 유명한 구시가지의 대성당으로, 저녁에는 빛 공연 ‘오라(AURA)’가 열립니다.', 'Old Montréal’s basilica, famed for its deep-blue interior, with the AURA light show in the evening.', '青く輝く華やかな内部で知られる旧市街の大聖堂で、夜には光のショー「AURA」が行われます。'],
       ['구시가지와 옛 항구', 'Old Montréal and the Old Port', '旧市街と旧港', '17세기부터 이어진 돌길과 건물이 남아 있는 지역으로, 강변 항구까지 걸어서 둘러봅니다.', 'Cobbled streets and buildings dating back to the 17th century, down to the riverside port.', '17世紀から続く石畳と建物が残る地区で、川沿いの港まで歩いて巡ります。'],
       ['몬트리올 베이글', 'Montréal bagels', 'モントリオール・ベーグル', '꿀물에 데친 뒤 장작 화덕에 구워 달콤하고 쫄깃하며, 생비아퇴르·페어마운트 가게는 24시간 엽니다.', 'Boiled in honey water and baked in wood-fired ovens; St-Viateur and Fairmount bake around the clock.', 'はちみつ入りの湯でゆでてから薪窯で焼くため甘くもちもちしており、サン・ヴィアトゥールとフェアマウントは24時間営業です。'],
+      ['몬트리올 바이오돔', 'Montréal Biodôme', 'モントリオール・バイオドーム', '옛 올림픽 경기장 자전거경기장을 재구성한 실내 생태 전시관으로, 아메리카의 다섯 생태계를 둘러볼 수 있습니다.', 'An indoor nature museum in the former Olympic velodrome, where visitors can explore five ecosystems of the Americas.', '旧オリンピック自転車競技場を改装した屋内自然博物館で、アメリカ大陸の5つの生態系を巡れます。'],
     ],
     t: [
       ['식당 메뉴 가격에는 세금(GST 5%+QST 9.975%)과 팁이 빠져 있습니다. 팁은 세전 금액의 15% 이상이 일반적입니다.', 'Menu prices exclude tax (5% GST + 9.975% QST) and tip; at least 15% of the pre-tax amount is usual.', '飲食店のメニュー価格には税（GST5%＋QST9.975%）とチップが含まれていません。チップは税抜き金額の15%以上が一般的です。'],
       ['공항에서 시내: 747번 공항버스는 24시간 운행하며, 시내 주요 지점과 버스터미널·지하철역에 정차합니다. 숙소와 가까운 정류장을 확인하세요.', 'Airport to city: the 24-hour 747 bus stops at major city locations, the bus terminal and métro stations. Check which stop is closest to your accommodation.', '空港から市内へ：747番空港バスは24時間運行し、市内の主要地点やバスターミナル、地下鉄駅に停車します。宿泊先に近い停留所を確認しましょう。'],
+      ['겨울이나 더운 날에는 도심의 지하 보행 네트워크 RÉSO를 활용하세요. 지하철역·상가·박물관 일부가 연결되며, 현장 표지판에서 통로 방향을 확인할 수 있습니다.', 'In winter or on very hot days, use downtown’s RÉSO pedestrian network. It connects métro stations with shopping centres and some museums; follow the signs to navigate the passages.', '冬や暑い日は、中心部の地下歩行者ネットワークRÉSOを活用しましょう。地下鉄駅やショッピングセンター、一部の博物館がつながっており、案内標識で通路を確認できます。'],
     ],
   },
   seattle: {

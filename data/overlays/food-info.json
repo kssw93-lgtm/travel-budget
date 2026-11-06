@@ -4561,7 +4561,13 @@
   "lucerne:Älplermagronen": {
     "ko": "마카로니·감자·치즈를 함께 익혀 사과 소스를 곁들이는 스위스 산골 요리",
     "en": "Alpine macaroni with potatoes and cheese, served with apple sauce",
-    "ja": "マカロニ・じゃがいも・チーズを一緒に煮て、りんごソースを添えるスイスの山の料理"
+    "ja": "マカロニ・じゃがいも・チーズを一緒に煮て、りんごソースを添えるスイスの山の料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/%C3%84lplermagronen%2C_2010.jpg/960px-%C3%84lplermagronen%2C_2010.jpg",
+      "author": "Katrin Gilger",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Älplermagronen,_2010.jpg"
+    }
   },
   "lucerne:Birnenweggen": {
     "ko": "말린 배·무화과·견과류를 채워 구운 루체른식 빵",
@@ -4651,12 +4657,24 @@
   "hamburg:Labskaus": {
     "ko": "소금에 절인 고기와 감자를 으깨 비트·달걀프라이를 곁들인 뱃사람 음식",
     "en": "Sailors’ mash of salted meat and potato with beetroot and a fried egg",
-    "ja": "塩漬け肉とじゃがいもをつぶし、ビーツや目玉焼きを添えた船乗りの料理"
+    "ja": "塩漬け肉とじゃがいもをつぶし、ビーツや目玉焼きを添えた船乗りの料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Hamburger_Labskaus_1.jpg/960px-Hamburger_Labskaus_1.jpg",
+      "author": "GeoTrinity",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Hamburger_Labskaus_1.jpg"
+    }
   },
   "hamburg:Franzbrötchen": {
     "ko": "계피와 설탕을 넣어 구운 함부르크식 빵",
     "en": "Cinnamon-sugar pastry typical of Hamburg",
-    "ja": "シナモンと砂糖を入れて焼いたハンブルク風の菓子パン"
+    "ja": "シナモンと砂糖を入れて焼いたハンブルク風の菓子パン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Franzbr%C3%B6tchen_mit_Capuccino_in_Hamburg_2023.jpg/960px-Franzbr%C3%B6tchen_mit_Capuccino_in_Hamburg_2023.jpg",
+      "author": "Wikiolo",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Franzbrötchen_mit_Capuccino_in_Hamburg_2023.jpg"
+    }
   },
   "queenstown:Central Otago Pinot Noir": {
     "ko": "퀸스타운 근교 와이너리에서 나는 대표 레드 와인",
@@ -4676,12 +4694,24 @@
   "innsbruck:Tiroler Gröstl": {
     "ko": "감자와 양파, 훈제 고기를 함께 볶은 티롤 전통 요리",
     "en": "Pan-fried potatoes with onion and smoked meat",
-    "ja": "じゃがいもと玉ねぎ、燻製肉を一緒に炒めたチロルの伝統料理"
+    "ja": "じゃがいもと玉ねぎ、燻製肉を一緒に炒めたチロルの伝統料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Tiroler_Gr%C3%B6stl_mit_Spiegelei_(IMG_20260115_121842).jpg/960px-Tiroler_Gr%C3%B6stl_mit_Spiegelei_(IMG_20260115_121842).jpg",
+      "author": "Simon Legner",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tiroler_Gr%C3%B6stl_mit_Spiegelei_(IMG_20260115_121842).jpg"
+    }
   },
   "innsbruck:Kaspressknödel": {
     "ko": "빵과 티롤 회색치즈를 뭉쳐 구운 치즈 경단으로, 수프나 샐러드와 함께 먹습니다",
     "en": "Pressed cheese dumplings of bread and Tyrolean grey cheese, in soup or with salad",
-    "ja": "パンとチロルのグレーチーズを固めて焼いたチーズ団子で、スープやサラダと食べます"
+    "ja": "パンとチロルのグレーチーズを固めて焼いたチーズ団子で、スープやサラダと食べます",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Kaspresskn%C3%B6del_mit_Salat.jpg/960px-Kaspresskn%C3%B6del_mit_Salat.jpg",
+      "author": "Kritzolina",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kaspresskn%C3%B6del_mit_Salat.jpg"
+    }
   },
   "innsbruck:Kaiserschmarrn": {
     "ko": "찢어서 구운 두툼한 팬케이크에 슈거파우더를 뿌린 디저트",
@@ -4776,7 +4806,13 @@
   "ghent:Ghent-style Stoverij": {
     "ko": "맥주로 소고기를 푹 끓인 벨기에식 스튜",
     "en": "Belgian beef stew slow-cooked in beer",
-    "ja": "牛肉をビールでじっくり煮込んだベルギー風シチュー"
+    "ja": "牛肉をビールでじっくり煮込んだベルギー風シチュー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Vlaamse_stoverij01.jpg/960px-Vlaamse_stoverij01.jpg",
+      "author": "Hortensja Bukietowa",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Vlaamse_stoverij01.jpg"
+    }
   },
   "geneva:Fondue": {
     "ko": "녹인 치즈에 빵을 찍어 먹는 스위스 대표 요리",
@@ -4792,12 +4828,24 @@
   "geneva:Longeole": {
     "ko": "회향 씨를 넣은 제네바 지역의 돼지고기 소시지(IGP)",
     "en": "Geneva’s fennel-seed pork sausage (IGP)",
-    "ja": "フェンネルシードを入れたジュネーブ地方の豚肉ソーセージ（IGP）"
+    "ja": "フェンネルシードを入れたジュネーブ地方の豚肉ソーセージ（IGP）",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Sausages_from_Switzerland.jpg/960px-Sausages_from_Switzerland.jpg",
+      "author": "Salon Suisse des Goûts et Terroirs",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sausages_from_Switzerland.jpg"
+    }
   },
   "geneva:Perch Fillets": {
     "ko": "레만 호수의 농어를 버터에 구워 감자튀김과 내는 요리",
     "en": "Lake perch fillets pan-fried in butter, served with fries",
-    "ja": "レマン湖のパーチをバターで焼き、フライドポテトと出す料理"
+    "ja": "レマン湖のパーチをバターで焼き、フライドポテトと出す料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Filet_de_perche_meuniere_nov_2020.jpg/960px-Filet_de_perche_meuniere_nov_2020.jpg",
+      "author": "PetOtools",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Filet_de_perche_meuniere_nov_2020.jpg"
+    }
   },
   "antwerp:Antwerpse Handjes": {
     "ko": "안트베르펜 전설에 나오는 손 모양의 초콜릿·비스킷",
@@ -4850,7 +4898,13 @@
   "gold-coast:Moreton Bay Bugs": {
     "ko": "작은 랍스터를 닮은 퀸즐랜드 근해의 갑각류 요리",
     "en": "Queensland slipper lobster, like a small lobster",
-    "ja": "小さなロブスターに似たクイーンズランド近海の甲殻類の料理"
+    "ja": "小さなロブスターに似たクイーンズランド近海の甲殻類の料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Cooked_whole_Moreton_Bay_Bug.JPG/960px-Cooked_whole_Moreton_Bay_Bug.JPG",
+      "author": "Kingturkey",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cooked_whole_Moreton_Bay_Bug.JPG"
+    }
   },
   "gold-coast:Fish and Chips": {
     "ko": "갓 잡은 생선을 튀겨 해변에서 먹는 호주식 피시 앤드 칩스",
@@ -5051,17 +5105,35 @@
   "manchester:Eccles Cake": {
     "ko": "건포도·설탕·향신료를 채운 작고 둥근 페이스트리",
     "en": "Small round flaky pastry filled with currants, sugar and spice",
-    "ja": "干しぶどう・砂糖・スパイスを詰めた小さく丸いパイ菓子"
+    "ja": "干しぶどう・砂糖・スパイスを詰めた小さく丸いパイ菓子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Eccles_Cake%2C_from_Greater_Manchester.jpg/960px-Eccles_Cake%2C_from_Greater_Manchester.jpg",
+      "author": "Jamesjones79",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Eccles_Cake,_from_Greater_Manchester.jpg"
+    }
   },
   "manchester:Manchester Tart": {
     "ko": "라즈베리 잼과 커스터드, 코코넛을 얹은 타르트",
     "en": "Shortcrust tart with raspberry jam, custard and coconut",
-    "ja": "ラズベリージャムとカスタード、ココナッツをのせたタルト"
+    "ja": "ラズベリージャムとカスタード、ココナッツをのせたタルト",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Manchester_tart.jpg/960px-Manchester_tart.jpg",
+      "author": "Jamesjones79",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Manchester_tart.jpg"
+    }
   },
   "manchester:Black Pudding": {
     "ko": "근교 베리의 명물인 선지 소시지로, 시장에서 따뜻하게 먹습니다",
     "en": "Blood sausage from nearby Bury, eaten hot at markets",
-    "ja": "近郊ベリーの名物の血のソーセージで、市場で温かいまま食べます"
+    "ja": "近郊ベリーの名物の血のソーセージで、市場で温かいまま食べます",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Bury_black_puddings.jpg/960px-Bury_black_puddings.jpg",
+      "author": "Rathfelder",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bury_black_puddings.jpg"
+    }
   },
   "christchurch:Canterbury Lamb": {
     "ko": "캔터베리 평원에서 기른 양고기 요리",
@@ -5071,12 +5143,24 @@
   "christchurch:Akaroa Salmon": {
     "ko": "근교 아카로아 항구에서 기른 연어",
     "en": "Salmon from nearby Akaroa Harbour",
-    "ja": "近郊のアカロア湾で育てられたサーモン"
+    "ja": "近郊のアカロア湾で育てられたサーモン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Salmon%2C_French_fries%2C_and_salad_-_Akaroa%2C_New_Zealand.jpg/960px-Salmon%2C_French_fries%2C_and_salad_-_Akaroa%2C_New_Zealand.jpg",
+      "author": "Daderot",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Salmon,_French_fries,_and_salad_-_Akaroa,_New_Zealand.jpg"
+    }
   },
   "christchurch:Oysters": {
     "ko": "캔터베리 바다에서 나는 신선한 굴",
     "en": "Fresh local oysters",
-    "ja": "カンタベリーの海でとれる新鮮なカキ"
+    "ja": "カンタベリーの海でとれる新鮮なカキ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Marlborough_oysters_-_Picton%2C_New_Zealand.jpg/960px-Marlborough_oysters_-_Picton%2C_New_Zealand.jpg",
+      "author": "Daderot",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Marlborough_oysters_-_Picton,_New_Zealand.jpg"
+    }
   },
   "glasgow:Chicken Tikka Masala": {
     "ko": "글래스고에서 처음 만들어졌다고 알려진 크림 카레",
@@ -5092,7 +5176,13 @@
   "glasgow:Lorne Sausage": {
     "ko": "다진 고기를 네모나게 썬 스코틀랜드식 소시지로, 아침 빵에 끼워 먹습니다",
     "en": "Square sliced sausage, often in a breakfast roll",
-    "ja": "ひき肉を四角く切ったスコットランドのソーセージで、朝食のパンに挟んで食べます"
+    "ja": "ひき肉を四角く切ったスコットランドのソーセージで、朝食のパンに挟んで食べます",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Scottish_breakfast_pack.jpg/960px-Scottish_breakfast_pack.jpg",
+      "author": "Mutt Lunker",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Scottish_breakfast_pack.jpg"
+    }
   },
   "glasgow:Haggis": {
     "ko": "양 내장과 귀리, 향신료로 만든 스코틀랜드 전통 음식",
@@ -5170,12 +5260,24 @@
   "heidelberg:Maultaschen": {
     "ko": "고기와 시금치를 채운 큰 독일식 만두",
     "en": "Large pasta pockets filled with meat and spinach",
-    "ja": "肉とほうれん草を詰めた大きなドイツ風の餃子"
+    "ja": "肉とほうれん草を詰めた大きなドイツ風の餃子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Maultaschen_mit_Zwiebelschmelze_in_Stuttgart.jpg/960px-Maultaschen_mit_Zwiebelschmelze_in_Stuttgart.jpg",
+      "author": "Dr. Bernd Gross",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Maultaschen_mit_Zwiebelschmelze_in_Stuttgart.jpg"
+    }
   },
   "heidelberg:Heidelberger Studentenkuss": {
     "ko": "누가 트뤼플을 채운 하이델베르크 명물 초콜릿",
     "en": "Heidelberg’s signature nougat-truffle chocolate",
-    "ja": "ヌガー・トリュフを詰めたハイデルベルク名物のチョコレート"
+    "ja": "ヌガー・トリュフを詰めたハイデルベルク名物のチョコレート",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Heidelberger_Studentenkuss.JPG/960px-Heidelberger_Studentenkuss.JPG",
+      "author": "4028mdk09",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Heidelberger_Studentenkuss.JPG"
+    }
   },
   "bilbao:Bacalao al Pil-Pil": {
     "ko": "올리브유와 마늘로 대구의 젤라틴을 끌어내 소스를 만든 바스크 대표 요리",
@@ -5228,7 +5330,13 @@
   "cairns:Barramundi": {
     "ko": "지역 식당의 ‘오늘의 생선’으로 자주 나오는 열대 흰살생선",
     "en": "Tropical white fish, often the local “fish of the day”",
-    "ja": "地元の店で「本日の魚」としてよく出る熱帯の白身魚"
+    "ja": "地元の店で「本日の魚」としてよく出る熱帯の白身魚",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Barramundi_dish_at_Yeerongpilly_Green_Village_restaurant%2C_2024.jpg/960px-Barramundi_dish_at_Yeerongpilly_Green_Village_restaurant%2C_2024.jpg",
+      "author": "Kgbo",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Barramundi_dish_at_Yeerongpilly_Green_Village_restaurant,_2024.jpg"
+    }
   },
   "cairns:Mud Crab": {
     "ko": "열대 맹그로브에서 잡히는 큰 게 요리",
@@ -5307,7 +5415,13 @@
   "chengdu:Zhong Dumplings": {
     "ko": "달콤하고 매콤한 고추기름 소스를 끼얹은 청두식 물만두",
     "en": "Boiled dumplings in a sweet-spicy chilli-oil sauce",
-    "ja": "甘辛いラー油のタレをかけた成都風の水餃子"
+    "ja": "甘辛いラー油のタレをかけた成都風の水餃子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Chengdu_Zhong_Dumpling(Zhong_Jiaozi).jpg/960px-Chengdu_Zhong_Dumpling(Zhong_Jiaozi).jpg",
+      "author": "유신예",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Chengdu_Zhong_Dumpling(Zhong_Jiaozi).jpg"
+    }
   },
   "mexico-city:Tacos al Pastor": {
     "ko": "회전 꼬치에 구운 양념 돼지고기를 토르티야에 얹은 타코",
@@ -5492,17 +5606,35 @@
   "edmonton:Green Onion Cake": {
     "ko": "파를 넣어 바삭하게 부친 에드먼턴 명물 전",
     "en": "Crispy pan-fried scallion cake, an Edmonton favourite",
-    "ja": "ネギを入れてカリッと焼いたエドモントン名物の餅"
+    "ja": "ネギを入れてカリッと焼いたエドモントン名物の餅",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Green%20onion%20cakes%20in%20Edmonton.jpg/960px-Green%20onion%20cakes%20in%20Edmonton.jpg",
+      "author": "Sdkb",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Green_onion_cakes_in_Edmonton.jpg"
+    }
   },
   "edmonton:Perogies": {
     "ko": "감자·치즈 등을 채운 우크라이나식 만두",
     "en": "Ukrainian dumplings filled with potato and cheese",
-    "ja": "じゃがいもやチーズを詰めたウクライナ風の餃子"
+    "ja": "じゃがいもやチーズを詰めたウクライナ風の餃子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/20240218_140626_Pierogi.jpg/960px-20240218_140626_Pierogi.jpg",
+      "author": "Rakoon",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:20240218_140626_Pierogi.jpg"
+    }
   },
   "edmonton:Ukrainian Sausage": {
     "ko": "우크라이나계 정육점에서 만드는 훈제 소시지",
     "en": "Smoked sausage from Ukrainian-style butchers",
-    "ja": "ウクライナ系の精肉店で作る燻製ソーセージ"
+    "ja": "ウクライナ系の精肉店で作る燻製ソーセージ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/MundareSausageRing.JPG/960px-MundareSausageRing.JPG",
+      "author": "ChrisStubbs",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:MundareSausageRing.JPG"
+    }
   },
   "winnipeg:Perogies": {
     "ko": "구운 양파와 베이컨을 곁들인 우크라이나식 만두",
@@ -5533,12 +5665,24 @@
   "halifax:Lobster Roll": {
     "ko": "마요네즈로 버무린 차가운 랍스터를 버터 바른 빵에 채운 샌드위치",
     "en": "Cold lobster in mayo in a buttered, toasted roll",
-    "ja": "マヨネーズで和えた冷たいロブスターをバターを塗ったパンに挟んだサンドイッチ"
+    "ja": "マヨネーズで和えた冷たいロブスターをバターを塗ったパンに挟んだサンドイッチ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Nova_Scotia_Lobster_Roll_%2823216849815%29.jpg/960px-Nova_Scotia_Lobster_Roll_%2823216849815%29.jpg",
+      "author": "Scottb211",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Nova_Scotia_Lobster_Roll_(23216849815).jpg"
+    }
   },
   "halifax:Seafood Chowder": {
     "ko": "해덕·가리비·랍스터·홍합 등을 넣은 크림 수프",
     "en": "Creamy chowder of haddock, scallops, lobster and mussels",
-    "ja": "ハドック・ホタテ・ロブスター・ムール貝などを入れたクリームスープ"
+    "ja": "ハドック・ホタテ・ロブスター・ムール貝などを入れたクリームスープ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Seafood_chowder_with_bread_-_Taupo%2C_New_Zealand.jpg/960px-Seafood_chowder_with_bread_-_Taupo%2C_New_Zealand.jpg",
+      "author": "Daderot",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Seafood_chowder_with_bread_-_Taupo,_New_Zealand.jpg"
+    }
   },
   "phoenix:Sonoran Hot Dog": {
     "ko": "베이컨으로 감싼 소시지에 콩·토마토·양파를 얹은 핫도그",
@@ -5635,7 +5779,13 @@
   "canberra:Truffle Brie": {
     "ko": "근교 송로버섯을 넣은 트리플 크림 치즈",
     "en": "Triple-cream brie infused with local truffle",
-    "ja": "近郊のトリュフを入れたトリプルクリームのチーズ"
+    "ja": "近郊のトリュフを入れたトリプルクリームのチーズ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Three_cheese_plate_in_home.jpg/960px-Three_cheese_plate_in_home.jpg",
+      "author": "Peachyeung316",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Three_cheese_plate_in_home.jpg"
+    }
   },
   "canberra:Smokehouse Fare": {
     "ko": "와이너리 레스토랑에서 맛보는 훈제 고기·생선 요리",
@@ -5660,17 +5810,35 @@
   "graz:Backhendl": {
     "ko": "빵가루를 입혀 튀긴 슈타이어마르크식 닭튀김",
     "en": "Styrian breaded fried chicken",
-    "ja": "パン粉をつけて揚げたシュタイアーマルク風のフライドチキン"
+    "ja": "パン粉をつけて揚げたシュタイアーマルク風のフライドチキン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Backhendl_1.JPG/960px-Backhendl_1.JPG",
+      "author": "Brücke-Osteuropa",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Backhendl_1.JPG"
+    }
   },
   "graz:Pumpkin-Seed Oil Salad": {
     "ko": "호박씨 기름을 뿌린 샐러드와 콩 샐러드",
     "en": "Salads dressed with Styrian pumpkin-seed oil",
-    "ja": "シュタイアーマルクのパンプキンシードオイルをかけたサラダ"
+    "ja": "シュタイアーマルクのパンプキンシードオイルをかけたサラダ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/K%C3%A4ferbohnensalat_Graz.jpg/960px-K%C3%A4ferbohnensalat_Graz.jpg",
+      "author": "Benreis",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Käferbohnensalat_Graz.jpg"
+    }
   },
   "graz:Brettljause": {
     "ko": "햄·소시지·치즈를 나무판에 담아 내는 슈타이어마르크식 모둠",
     "en": "Styrian platter of cured meats and cheese on a wooden board",
-    "ja": "ハムやソーセージ、チーズを木の板に盛ったシュタイアーマルク風の盛り合わせ"
+    "ja": "ハムやソーセージ、チーズを木の板に盛ったシュタイアーマルク風の盛り合わせ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Brettljause_01.jpg/960px-Brettljause_01.jpg",
+      "author": "Johann Jaritz",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Brettljause_01.jpg"
+    }
   },
   "lausanne:Papet Vaudois": {
     "ko": "대파·감자 요리에 양배추 소시지를 곁들인 보 지방 전통 음식",
@@ -5723,17 +5891,35 @@
   "gothenburg:Shrimp Sandwich": {
     "ko": "빵 위에 서해안 새우를 수북이 올린 오픈 샌드위치",
     "en": "Open sandwich piled with west-coast shrimp",
-    "ja": "パンの上に西海岸のエビをたっぷりのせたオープンサンド"
+    "ja": "パンの上に西海岸のエビをたっぷりのせたオープンサンド",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/R%C3%A4ksm%C3%B6rg%C3%A5s.jpg/960px-R%C3%A4ksm%C3%B6rg%C3%A5s.jpg",
+      "author": "Sinikka Halme",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Räksmörgås.jpg"
+    }
   },
   "gothenburg:Langoustines": {
     "ko": "어선에서 바로 사는 서해안 가재새우",
     "en": "West-coast langoustines bought straight off the boats",
-    "ja": "漁船から直接買う西海岸のアカザエビ"
+    "ja": "漁船から直接買う西海岸のアカザエビ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Langoustine.JPG/960px-Langoustine.JPG",
+      "author": "Bertil Videt",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Langoustine.JPG"
+    }
   },
   "gothenburg:Hagabullen": {
     "ko": "하가 지구의 거대한 시나몬롤",
     "en": "Giant cinnamon bun from Haga",
-    "ja": "ハーガ地区の巨大なシナモンロール"
+    "ja": "ハーガ地区の巨大なシナモンロール",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Hagabullen.jpg/960px-Hagabullen.jpg",
+      "author": "Café Husaren",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Hagabullen.jpg"
+    }
   },
   "aarhus:Smørrebrød": {
     "ko": "호밀빵 위에 청어·고기·달걀 등을 얹은 덴마크식 오픈 샌드위치",
@@ -5765,32 +5951,68 @@
   "cork:Spiced Beef": {
     "ko": "향신료로 절여 흑맥주에 찌기도 하는 코크식 차가운 소고기",
     "en": "Cured, spiced beef served cold, often steamed in stout",
-    "ja": "スパイスで漬け込み、黒ビールで蒸すこともあるコーク風の冷製牛肉"
+    "ja": "スパイスで漬け込み、黒ビールで蒸すこともあるコーク風の冷製牛肉",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Irish_Spiced_Beef.jpg/960px-Irish_Spiced_Beef.jpg",
+      "author": "Charlesolivercork",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Irish_Spiced_Beef.jpg"
+    }
   },
   "cork:Drisheen": {
     "ko": "코크 전통 선지 소시지(블러드 푸딩)",
     "en": "Cork’s traditional blood sausage",
-    "ja": "コークの伝統的な血のソーセージ（ブラッドプディング）"
+    "ja": "コークの伝統的な血のソーセージ（ブラッドプディング）",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Drisheen_at_the_English_Market.jpg/960px-Drisheen_at_the_English_Market.jpg",
+      "author": "Dan Curran",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Drisheen_at_the_English_Market.jpg"
+    }
   },
   "cork:Cork Reuben": {
     "ko": "스파이스드 비프와 사워크라우트를 사워도우에 끼운 샌드위치",
     "en": "Spiced beef, sauerkraut and gherkins on sourdough",
-    "ja": "スパイスドビーフとザワークラウトをサワードウに挟んだサンドイッチ"
+    "ja": "スパイスドビーフとザワークラウトをサワードウに挟んだサンドイッチ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Corned_Beef_Sandwich_Reuben.jpeg/960px-Corned_Beef_Sandwich_Reuben.jpeg",
+      "author": "Rick",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Corned_Beef_Sandwich_Reuben.jpeg"
+    }
   },
   "galway:Galway Oysters": {
     "ko": "골웨이만에서 나는 굴을 날로 즐기는 요리",
     "en": "Galway Bay oysters served raw",
-    "ja": "ゴールウェイ湾でとれるカキを生で味わう料理"
+    "ja": "ゴールウェイ湾でとれるカキを生で味わう料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Oysters!_Galway_(6048008376).jpg/960px-Oysters!_Galway_(6048008376).jpg",
+      "author": "Lisa Harbin",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Oysters!_Galway_(6048008376).jpg"
+    }
   },
   "galway:Seafood Chowder": {
     "ko": "골웨이만 해산물을 넣은 크림 수프",
     "en": "Creamy chowder of Galway Bay seafood",
-    "ja": "ゴールウェイ湾の海産物を入れたクリームスープ"
+    "ja": "ゴールウェイ湾の海産物を入れたクリームスープ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Seafood_Chowder_Bread_Guiness.JPG/960px-Seafood_Chowder_Bread_Guiness.JPG",
+      "author": "Benreis",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Seafood_Chowder_Bread_Guiness.JPG"
+    }
   },
   "galway:Steamed Mussels": {
     "ko": "아일랜드 서해안의 홍합을 쪄 낸 요리",
     "en": "Steamed west-coast mussels",
-    "ja": "アイルランド西海岸のムール貝を蒸した料理"
+    "ja": "アイルランド西海岸のムール貝を蒸した料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Mussels_at_Oscar's%2C_Galway_(6047434519).jpg/960px-Mussels_at_Oscar's%2C_Galway_(6047434519).jpg",
+      "author": "Lisa Harbin",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Mussels_at_Oscar%27s,_Galway_(6047434519).jpg"
+    }
   },
   "turku:Potato Pasty (Perunapiirakka)": {
     "ko": "감자를 채운 투르쿠식 파이",
@@ -5869,12 +6091,24 @@
   "dusseldorf:Halve Hahn": {
     "ko": "호밀빵 반쪽에 고다 치즈와 겨자를 곁들인 간식",
     "en": "Half a rye roll with Gouda and mustard",
-    "ja": "ライ麦パン半分にゴーダチーズとマスタードを添えた軽食"
+    "ja": "ライ麦パン半分にゴーダチーズとマスタードを添えた軽食",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Halver_Hahn_in_bakery_in_Cologne%2C_Germany_Cheese_on_rye_bread_roll.jpg/960px-Halver_Hahn_in_bakery_in_Cologne%2C_Germany_Cheese_on_rye_bread_roll.jpg",
+      "author": "Markbenecke",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Halver_Hahn_in_bakery_in_Cologne,_Germany_Cheese_on_rye_bread_roll.jpg"
+    }
   },
   "dusseldorf:Rheinischer Sauerbraten": {
     "ko": "식초에 재운 소고기 찜에 감자 경단과 사과 소스를 곁들인 요리",
     "en": "Marinated pot roast with dumplings and apple sauce",
-    "ja": "酢に漬けた牛肉の煮込みにじゃがいも団子とリンゴソースを添えた料理"
+    "ja": "酢に漬けた牛肉の煮込みにじゃがいも団子とリンゴソースを添えた料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Sauerbraten.jpg/960px-Sauerbraten.jpg",
+      "author": "Johann H. Addicks",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sauerbraten.jpg"
+    }
   },
   "san-sebastian:Pintxos": {
     "ko": "빵 위에 다양한 재료를 얹은 바스크식 한입 요리",
@@ -5894,17 +6128,35 @@
   "funchal:Espetada": {
     "ko": "월계수 가지에 꽂아 구운 소고기 꼬치",
     "en": "Beef skewers grilled on bay-laurel sticks",
-    "ja": "月桂樹の枝に刺して焼いた牛肉の串焼き"
+    "ja": "月桂樹の枝に刺して焼いた牛肉の串焼き",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Espetada_im_offenen_Ofen.JPG/960px-Espetada_im_offenen_Ofen.JPG",
+      "author": "Dirk Klaassen",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Espetada_im_offenen_Ofen.JPG"
+    }
   },
   "funchal:Bolo do Caco": {
     "ko": "고구마를 넣어 돌판에 구운 납작한 빵으로, 마늘 버터를 발라 먹습니다",
     "en": "Sweet-potato flatbread with garlic butter",
-    "ja": "さつまいもを入れて石板で焼いた平たいパンで、ガーリックバターを塗って食べます"
+    "ja": "さつまいもを入れて石板で焼いた平たいパンで、ガーリックバターを塗って食べます",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Bolo_do_caco.jpg/960px-Bolo_do_caco.jpg",
+      "author": "Kostia",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bolo_do_caco.jpg"
+    }
   },
   "funchal:Black Scabbardfish (Espada)": {
     "ko": "마데이라 심해에서 잡히는 검은갈치 필레 요리",
     "en": "Fillet of deep-sea black scabbardfish",
-    "ja": "マデイラの深海でとれる黒太刀魚のフィレ料理"
+    "ja": "マデイラの深海でとれる黒太刀魚のフィレ料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Black_scabbardfish%2C_S%C3%A3o_Vicente%2C_Madeira.jpg/960px-Black_scabbardfish%2C_S%C3%A3o_Vicente%2C_Madeira.jpg",
+      "author": "Gerda Arendt",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Black_scabbardfish,_São_Vicente,_Madeira.jpg"
+    }
   },
   "cordoba:Salmorejo": {
     "ko": "토마토·빵·마늘·올리브유로 만든 차가운 크림 수프",

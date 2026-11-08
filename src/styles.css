@@ -234,6 +234,11 @@ details:not([open]) > summary .toggle-hint .when-open, details[open] > summary .
 /* 도시 가이드: 소개·목차·숙소 */
 .guide-intro { font-size: 1.05rem; line-height: 1.75; max-width: 62ch; }
 .guide-facts { margin: 8px 0; }
+.guide-quickstart { margin: 14px 0 4px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; background: color-mix(in srgb, var(--brand) 4%, var(--card)); }
+.guide-quickstart h2 { margin: 0; font-size: 1rem; }
+.guide-quickstart p { margin: 4px 0 8px; color: var(--muted); font-size: .92rem; }
+.guide-quickstart-links { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+.guide-quickstart-links a { display: inline-flex; min-height: 42px; align-items: center; font-weight: 650; }
 .chip { display: inline-block; padding: 4px 10px; border-radius: 999px; background: color-mix(in srgb, var(--brand) 12%, var(--card)); color: var(--ink); font-size: .9rem; font-weight: 600; }
 .guide-toc { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); font-size: .92rem; }
 .guide-toc a { font-weight: 600; }

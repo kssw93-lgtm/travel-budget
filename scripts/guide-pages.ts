@@ -173,6 +173,8 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
     : '';
   const ctaText = days ? fill(t.ctaNights, { city: name, n: days.nights, d: days.nights + 1 }) : fill(t.cta, { city: name });
   const cta = `        <p><a href="/?lang=${lang}&amp;city=${e(city.id)}${days ? `&amp;nights=${days.nights}` : ''}">${e(ctaText)}</a></p>`;
+  const presetNights = days?.nights ?? 3;
+  const quickStart = `<section class="guide-quickstart" aria-labelledby="guide-quickstart-title"><h2 id="guide-quickstart-title">${e(t.quickStartTitle)}</h2><p>${e(fill(t.quickStartLead, { nights: presetNights, days: presetNights + 1 }))}</p><div class="guide-quickstart-links"><a href="/?lang=${lang}&amp;city=${e(city.id)}&amp;nights=${presetNights}&amp;adults=2&amp;children=0&amp;style=standard">${e(fill(t.quickStartCouple, { nights: presetNights, days: presetNights + 1 }))}</a><a href="/?lang=${lang}&amp;city=${e(city.id)}&amp;nights=${presetNights}&amp;adults=2&amp;children=1&amp;style=standard">${e(fill(t.quickStartFamily, { nights: presetNights, days: presetNights + 1 }))}</a></div></section>`;
   const attractions = g.attractions
     .map((o) => {
       const x = o.adult.sample;
@@ -212,6 +214,7 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
     `        <p>${e(lead)}</p>`,
     days && `        <p>${e(days.min === days.max ? fill(t.daysOne, { n: days.min }) : fill(t.daysRange, { min: days.min, max: days.max }))}</p>`,
     cta,
+    quickStart,
     when,
     sights,
     stay,

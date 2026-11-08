@@ -398,6 +398,9 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
   const intro = CITY_INTROS[city.id];
   const days = tripDays(city.id);
   const calc = `/?lang=${lang}&city=${city.id}${days ? `&nights=${days.nights}` : ''}`;
+  const presetNights = days?.nights ?? 3;
+  const coupleCalc = `/?lang=${lang}&city=${city.id}&nights=${presetNights}&adults=2&children=0&style=standard`;
+  const familyCalc = `/?lang=${lang}&city=${city.id}&nights=${presetNights}&adults=2&children=1&style=standard`;
   const ctaText = days ? fmt(g.ctaNights, { city: name, n: days.nights, d: days.nights + 1 }) : fmt(g.cta, { city: name });
   const hasTransport = !!guide.prices.find((p) => p.basket === 'ride') && guide.passTips.length > 0;
   const toc: Array<[string, string, boolean]> = [
@@ -435,6 +438,14 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
             {ctaText}
           </InternalLink>
         </p>
+        <section className="guide-quickstart" aria-labelledby="guide-quickstart-title">
+          <h2 id="guide-quickstart-title">{g.quickStartTitle}</h2>
+          <p>{fmt(g.quickStartLead, { nights: presetNights, days: presetNights + 1 })}</p>
+          <div className="guide-quickstart-links">
+            <InternalLink to={coupleCalc} go={go}>{fmt(g.quickStartCouple, { nights: presetNights, days: presetNights + 1 })}</InternalLink>
+            <InternalLink to={familyCalc} go={go}>{fmt(g.quickStartFamily, { nights: presetNights, days: presetNights + 1 })}</InternalLink>
+          </div>
+        </section>
         <nav className="guide-toc" aria-label={g.tocLabel} data-testid="guide-toc">
           {toc
             .filter(([, , on]) => on)

@@ -129,7 +129,7 @@ export const WHEN_3: Record<string, When> = {
   },
   barcelona: {
     p: [
-      ['9월 24일 무렵 라 메르세', 'Around 24 September (La Mercè)', '9月24日頃（ラ・メルセ祭）', '카스텔과 코레폭 등 전통 행사가 열리는 바르셀로나의 대표 축제입니다.', 'Around September 24, La Mercè brings traditional events such as castells and correfoc to Barcelona.', '9月24日ごろのラ・メルセ祭では、カステルやコレフォックなどの伝統行事が行われます。'],
+      ['9월 24일 무렵 라 메르세', 'Around 24 September (La Mercè)', '9月24日頃（ラ・メルセ祭）', '바르셀로나의 시 축제로, 카스텔(인간 탑)·코레폭(불꽃 행렬) 같은 전통 행사와 거리 공연이 열립니다. 세부 일정은 해마다 달라집니다.', 'Barcelona’s city festival features traditions such as castells (human towers) and correfoc (fire runs), along with street performances. The programme changes each year.', 'バルセロナの市祭りで、カステル（人間の塔）やコレフォック（火の行列）などの伝統行事、街頭公演が行われます。詳しい日程は毎年変わります。'],
       ['5~6월', 'May–June', '5〜6月', '한여름보다 기온이 온화해 바닷가와 시내를 둘러보기 좋습니다.', 'May–June offers milder temperatures than midsummer for exploring the coast and city.', '5〜6月は真夏より気温が穏やかで、海辺や街歩きを楽しみやすい時期です。'],
     ],
     x: ['7~8월은 기온이 높으니 한낮 야외 일정을 조절하세요.', 'July and August are hot, so plan outdoor activities around the midday heat.', '7〜8月は暑いため、日中の屋外予定を調整しましょう。'],

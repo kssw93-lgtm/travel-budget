@@ -4,7 +4,7 @@ import type { When } from './city-when-1';
 export const WHEN_2: Record<string, When> = {
   bangkok: {
     p: [
-      ['4월 13~15일 송끄란', '13–15 April (Songkran)', '4月13〜15日（ソンクラーン）', '태국 설날 물축제로, 카오산로드·실롬 거리에서 도시 전체가 물싸움을 벌입니다.', 'Thai New Year’s water festival turns Khao San Road and Silom into giant water fights.', 'タイ正月の水かけ祭りで、カオサン通りやシーロム通りで街中が水かけ合戦になります。'],
+      ['4월 중순 송끄란', 'Mid-April (Songkran)', '4月中旬（ソンクラーン）', '태국의 전통 새해 축제로, 불상에 물을 뿌리는 의식과 거리 행사가 열립니다. 방콕의 행사 장소와 프로그램은 해마다 달라질 수 있어 방문 전 공식 일정을 확인하세요.', 'Thailand’s traditional New Year festival includes rituals of pouring water over Buddha images and public events. Bangkok venues and programmes can change each year, so check the official schedule before visiting.', 'タイの伝統的な新年祭で、仏像に水を注ぐ儀式や街頭イベントが行われます。バンコクの会場や内容は年によって変わるため、訪問前に公式日程を確認してください。'],
       ['11월 러이끄라통', 'November (Loy Krathong)', '11月（ロイクラトン）', '보름달 밤 강에 연꽃 모양 등불(끄라통)을 띄우는 축제로, 짜오프라야강 변이 아름답습니다.', 'On the full-moon night, lotus-shaped krathongs are floated on the Chao Phraya.', '満月の夜に灯籠（クラトン）を川に流す祭りで、チャオプラヤー川沿いが美しいです。'],
       ['11~2월 건기', 'November–February (cool dry season)', '11〜2月（乾季）', '일 년 중 가장 선선하고 비가 적어 사원 관광과 야시장에 좋습니다.', 'The coolest, driest months for temples and night markets.', '一年で最も涼しく雨が少なく、寺院観光やナイトマーケットに最適です。'],
     ],

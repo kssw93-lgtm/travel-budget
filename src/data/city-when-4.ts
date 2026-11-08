@@ -130,6 +130,7 @@ export const WHEN_4: Record<string, When> = {
     p: [
       ['3월 15~19일 파야스', '15–19 March (Fallas)', '3月15〜19日（ファジャス）', '거리에 거대한 인형 조형물이 세워지고 폭죽 행사가 이어지다 마지막 밤에 모두 태우는 유네스코 무형유산 축제입니다.', 'A UNESCO-listed festival of giant satirical figures and firecrackers, all burned on the final night.', '巨大な人形の造形物が街に並び、爆竹の行事が続き、最終夜にすべて燃やすユネスコ無形文化遺産の祭りです。'],
       ['4~6월·9~10월', 'April–June and September–October', '4〜6月・9〜10月', '말바로사 해변과 투리아 공원 산책, 알부페라 호수 일몰을 즐기기 좋은 날씨입니다.', 'Good weather for Malvarrosa beach, Turia gardens walks and Albufera sunsets.', 'マルバロサ海岸やトゥリア公園の散歩、アルブフェラ湖の夕日を楽しむのに向いた気候です。'],
+      ['8월 마지막 수요일, 부뇰 라 토마티나', 'Last Wednesday in August (La Tomatina, Buñol)', '8月最終水曜日（ブニョールのラ・トマティーナ）', '토마토 던지기로 알려진 축제는 발렌시아 시내가 아니라 근교 도시 부뇰에서 열립니다. 개최일과 참가 안내는 매년 공식 발표를 확인하세요.', 'The famous tomato-throwing festival takes place in Buñol, a town outside Valencia city. Check the official announcement for the date and visitor arrangements each year.', 'トマトを投げ合うことで知られる祭りは、バレンシア市内ではなく近郊の町ブニョールで開催されます。開催日や参加案内は毎年公式発表を確認してください。'],
     ],
     x: ['파야스 기간(3월 중순)에는 숙소 요금이 크게 오르고 폭죽 소리가 아침부터 이어지니 미리 알고 일정을 잡으세요.', 'During Fallas (mid-March) room rates soar and firecrackers go off from morning, so plan accordingly.', 'ファジャスの期間（3月中旬）は宿泊料金が大きく上がり、朝から爆竹が鳴り続けるので、承知の上で日程を組みましょう。'],
   },
@@ -377,6 +378,7 @@ export const WHEN_4: Record<string, When> = {
     p: [
       ['2~5월', 'February–May', '2〜5月', '마디 그라와 봄 음악 축제가 이어지고, 1~6월은 크로피시 제철입니다.', 'Mardi Gras and spring music festivals, plus crawfish season (roughly January–June).', 'マルディグラや春の音楽祭が続き、1〜6月はザリガニの旬です。'],
       ['10~11월', 'October–November', '10〜11月', '더위가 가라앉아 프렌치 쿼터 산책과 야외 음악을 즐기기 좋습니다.', 'The heat breaks — ideal for French Quarter strolls and outdoor music.', '暑さが和らぎ、フレンチ・クォーターの散策や屋外の音楽を楽しめます。'],
+      ['마디 그라 시즌(2027년 1월 6일~2월 9일)', 'Mardi Gras season (6 January–9 February 2027)', 'マルディグラのシーズン（2027年1月6日〜2月9日）', '공현절부터 마디 그라 당일까지 퍼레이드가 이어집니다. 2027년 마디 그라 당일은 2월 9일이며 날짜와 퍼레이드 일정은 해마다 바뀝니다.', 'Parades run from Epiphany through Mardi Gras. Mardi Gras Day is 9 February in 2027; dates and parade schedules change every year.', '公現祭からマルディグラ当日までパレードが続きます。2027年の当日は2月9日で、日付やパレード日程は毎年変わります。'],
     ],
     x: ['6~11월은 허리케인 시즌이니 여행 전 날씨 예보를 꼭 확인하세요.', 'June–November is hurricane season; check the forecast before you go.', '6〜11月はハリケーンの季節なので、旅行前に天気予報を必ず確認しましょう。'],
   },
@@ -600,6 +602,7 @@ export const WHEN_4: Record<string, When> = {
         'The state tourism office welcomes visitors year-round and highlights the New Year celebration and Carnival.',
         '州観光局は一年を通じた訪問を案内し、年越し行事とカーニバルを代表的な催しとして紹介しています。',
       ],
+      ['리우 카니발(2027년 삼바학교 퍼레이드 2월 7~9일)', 'Rio Carnival (Samba-school parades, 7–9 February 2027)', 'リオのカーニバル（2027年のサンバチームのパレードは2月7〜9日）', '삼바학교 퍼레이드와 거리 블로코 행사가 열리는 리우의 대표 축제입니다. 거리 행사와 퍼레이드 일정은 해마다 달라지므로 공식 일정을 확인하세요.', 'Rio’s signature festival brings samba-school parades and street bloco parties. Street events and parade schedules change each year, so check the official programme.', 'サンバチームのパレードや街頭ブロコの催しが行われるリオを代表する祭りです。街頭イベントやパレードの日程は毎年変わるため、公式プログラムを確認してください。'],
     ],
     x: [
       '11~3월은 남동부 우기입니다. 해안 산지에서 집중호우·홍수·산사태가 생길 수 있으니 출발 전 현지 경보와 도로 상황을 확인하세요.',

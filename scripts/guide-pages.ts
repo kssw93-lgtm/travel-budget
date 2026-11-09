@@ -195,10 +195,10 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
         .join('')
     : '';
   const localPriceExamples = g.priceExamples
-    .map(({ kind, samples, range: observedRange }) => `<tbody>${samples.length > 1 ? `<tr><th scope="row">${e(t.localPriceKinds[kind] ?? '')}</th><td>${e(fill(t.localPriceObservedCount, { count: samples.length }))}</td><td>${e(range(observedRange, city.currency))}</td><td>${e(t.localPriceObservedRange)}</td></tr>` : ''}${samples.map((sample) => `<tr><td>${samples.length === 1 ? e(t.localPriceKinds[kind] ?? '') : ''}</td><th scope="row">${e(pick(lang, sample.nameKo, sample.nameEn, sample.nameJa))} <small>(${e(sample.unit)})</small></th><td>${e(range(sample, sample.currency))}</td><td><a href="${e(sample.sourceUrl)}" target="_blank" rel="noopener noreferrer">${e(sample.sourceName)}</a> · ${e(sample.checkedAt)}</td></tr>`).join('')}</tbody>`)
+    .map(({ kind, samples, range: observedRange }) => `<tbody>${samples.length > 1 ? `<tr><th scope="row">${e(t.localPriceKinds[kind] ?? '')}</th><td>${e(fill(t.localPriceObservedCount, { count: samples.length }))}</td><td>${e(range(observedRange, city.currency))}</td></tr>` : ''}${samples.map((sample) => `<tr><td>${samples.length === 1 ? e(t.localPriceKinds[kind] ?? '') : ''}</td><th scope="row">${e(pick(lang, sample.nameKo, sample.nameEn, sample.nameJa))} <small>(${e(sample.unit)})</small></th><td>${e(range(sample, sample.currency))}</td></tr>`).join('')}</tbody>`)
     .join('');
   const localPrices = localPriceExamples
-    ? `<h2>${e(fill(t.localPricesTitle, { city: name }))}</h2><p>${e(t.localPricesLead)}</p><table><thead><tr><th>${e(t.localPriceType)}</th><th>${e(t.localPriceItem)}</th><th>${e(t.localPrice)}</th><th>${e(t.source)}</th></tr></thead><tbody>${localPriceExamples}</tbody></table>`
+    ? `<h2>${e(fill(t.localPricesTitle, { city: name }))}</h2><p>${e(t.localPricesLead)}</p><table><thead><tr><th>${e(t.localPriceType)}</th><th>${e(t.localPriceItem)}</th><th>${e(t.localPrice)}</th></tr></thead>${localPriceExamples}</table>`
     : '';
   const dailyBudgetRows = g.styles
     .filter((x) => x.perDay)

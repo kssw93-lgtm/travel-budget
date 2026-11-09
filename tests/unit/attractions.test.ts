@@ -135,4 +135,14 @@ describe('도시 가이드: 이용권 손익분기', () => {
     expect(g.passTips.find((p) => p.id === 'TYO-TR-879')).toMatchObject({ price: 700, days: 1 });
     expect(passTips(city('tokyo'), samples, undefined)).toEqual([]);
   });
+
+  it('도시 자체 가격이 부족한 기본 품목은 같은 나라의 확인된 가격으로 범위를 만든다', () => {
+    const g = cityGuide(city('bremen'), samples, '2026-11-06');
+    const meals = g.priceExamples.find((x) => x.kind === 'meal');
+    expect(meals).toBeDefined();
+    expect(meals!.samples.length).toBeGreaterThanOrEqual(3);
+    expect(meals!.samples.every((s) => s.country === city('bremen').country)).toBe(true);
+    expect(meals!.range.min).toBe(Math.min(...meals!.samples.map((s) => s.min)));
+    expect(meals!.range.max).toBe(Math.max(...meals!.samples.map((s) => s.max)));
+  });
 });

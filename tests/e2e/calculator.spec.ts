@@ -372,7 +372,7 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(localPrices).toBeVisible();
     await expect(localPrices).toContainText('현지 대표 음식');
     await expect(localPrices).toContainText('커피·음료');
-    await expect(localPrices.getByRole('link').first()).toHaveAttribute('href', /^https:\/\//);
+    await expect(localPrices.getByRole('link')).toHaveCount(0);
     await expect(page.getByTestId('guide-attractions')).toBeVisible();
     const country = page.getByTestId('guide-country');
     await expect(country).toContainText('일본 여행 시 알아둘 것');
@@ -523,7 +523,6 @@ test.describe('도시 가이드', () => {
     expect(html).toContain('오사카에서 놓치지 말 것');
     expect(html).toContain('오사카 1일 현지 경비 예시');
     expect(html).toContain('오사카 여행 중 자주 쓰는 품목 가격');
-    expect(html).toContain('가격 사례 최저~최고');
     expect(html).not.toContain('3박 4일 예상 현지 체류비');
     await mockRates(page);
     await page.goto('/guide/atlantis');

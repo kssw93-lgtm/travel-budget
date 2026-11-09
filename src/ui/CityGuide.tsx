@@ -345,7 +345,6 @@ function LocalPriceExamples({ guide }: { guide: CityGuideData }) {
             <th scope="col">{g.localPriceType}</th>
             <th scope="col">{g.localPriceItem}</th>
             <th scope="col">{g.localPrice}</th>
-            <th scope="col">{g.source}</th>
           </tr>
         </thead>
         <tbody>
@@ -356,7 +355,6 @@ function LocalPriceExamples({ guide }: { guide: CityGuideData }) {
                   <th scope="row">{g.localPriceKinds[kind]}</th>
                   <td>{fmt(g.localPriceObservedCount, { count: examples.length })}</td>
                   <td><RangeText range={range} currency={guide.city.currency} /></td>
-                  <td>{g.localPriceObservedRange}</td>
                 </tr>
               )}
               {examples.map((sample) => (
@@ -364,9 +362,6 @@ function LocalPriceExamples({ guide }: { guide: CityGuideData }) {
                   <td data-label={g.localPriceType}>{examples.length === 1 ? g.localPriceKinds[kind] : ''}</td>
                   <th scope="row">{localName(lang, sample.nameKo, sample.nameEn, sample.nameJa)} <small className="muted">({sample.unit})</small></th>
                   <td data-label={g.localPrice}><RangeText range={{ min: sample.min, max: sample.max }} currency={sample.currency} /></td>
-                  <td data-label={g.source}>
-                    <ExternalLink href={sample.sourceUrl}>{sample.sourceName}</ExternalLink> <small className="muted">{sample.checkedAt}</small>
-                  </td>
                 </tr>
               ))}
             </tbody>

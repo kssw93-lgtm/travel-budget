@@ -1,5 +1,6 @@
 import { attractionOptions, type AttractionOption } from './attractions';
 import { classify } from './classify';
+import { cityRows } from './city-rows';
 import { estimateTrip } from './estimate';
 import { STYLES } from './model-config';
 import { priceGuide, type GuideRow } from './price-guide';
@@ -10,7 +11,7 @@ import { selectUsable } from './pool';
 /** 예시 경비 내역의 줄: 외식·현지 교통·예비비 */
 export type GuideBreakdownKey = Exclude<CostCategory, 'attraction'> | 'contingency';
 
-export type CityPriceExampleKind = 'localFood' | 'coffee' | 'bottledWater' | 'softDrink' | 'ride' | 'pass' | 'taxi' | 'globalChain';
+export type CityPriceExampleKind = 'localFood' | 'meal' | 'coffee' | 'bottledWater' | 'softDrink' | 'ride' | 'pass' | 'taxi' | 'globalChain';
 export interface CityPriceExampleGroup {
   kind: CityPriceExampleKind;
   samples: PriceSample[];
@@ -34,7 +35,7 @@ export interface CityGuide {
     breakdown: Array<{ key: GuideBreakdownKey; total: Range | null }>;
   }>;
   prices: GuideRow[];
-  /** 도시 안에서 공식 확인한 자주 쓰는 품목의 범위와 그 범위를 만든 개별 가격 */
+  /** 도시·같은 나라에서 확인한 자주 쓰는 품목의 범위와 그 범위를 만든 개별 가격 */
   priceExamples: CityPriceExampleGroup[];
   attractions: AttractionOption[];
   /** 이용권 손익분기: 1회 요금 대표값 기준으로 하루 몇 번 이상 타면 이용권이 이득인지. 1회 요금 표본이 충분할 때만 */
@@ -42,11 +43,10 @@ export interface CityGuide {
 }
 
 function cityPriceExamples(city: City, samples: PriceSample[], localFoodIds: string[]): CityGuide['priceExamples'] {
-  const own = samples
-    .filter((sample) => sample.cityId === city.id)
-    .map(classify)
-    .filter((row) => row.usable && row.audience === 'adult' && row.basket && row.sample.grade === 'A' && row.sample.status.includes('확정') && !row.sample.status.includes('재검증 필요'));
-  const unique = (rows: typeof own, limit: number): PriceSample[] => {
+  const localAndCountryRows = cityRows(city, samples).rows;
+  const shared = localAndCountryRows
+    .filter((row) => row.usable && row.audience === 'adult' && row.basket);
+  const unique = (rows: typeof shared, limit: number): PriceSample[] => {
     const seen = new Set<string>();
     return rows.filter((row) => {
       if (seen.has(row.productKey)) return false;
@@ -58,22 +58,23 @@ function cityPriceExamples(city: City, samples: PriceSample[], localFoodIds: str
     ? { kind, samples: products, range: { min: Math.min(...products.map((sample) => sample.min)), max: Math.max(...products.map((sample) => sample.max)) } }
     : null;
   const productText = (sample: PriceSample) => `${sample.nameKo} ${sample.nameEn}`;
-  const coffee = /coffee|café|cafe|latte|espresso|cappuccino|americano|아메리카노|커피|라떼|에스프레소|카푸치노/i;
-  const food = unique(own.filter((row) => row.basket === 'meal' && localFoodIds.includes(row.sample.id) && !coffee.test(productText(row.sample))), 3);
-  const coffeePrices = unique(selectUsable(own.filter((row) => coffee.test(productText(row.sample)) && row.basket !== 'pass')), 5);
-  const water = unique(selectUsable(own.filter((row) => row.basket === 'snack' && /water|생수|미네랄워터|ミネラルウォーター/i.test(productText(row.sample)))), 5);
-  const soda = unique(selectUsable(own.filter((row) => row.basket === 'snack' && /cola|coke|soda|콜라|탄산음료|コーラ/i.test(productText(row.sample)))), 5);
-  const rides = unique(selectUsable(own.filter((row) => row.basket === 'ride')), 5);
-  const passes = unique(selectUsable(own.filter((row) => row.basket === 'pass')), 5);
+  const coffee = /coffee|café|cafe|latte|espresso|cappuccino|americano|flat white|mocha|cold brew|drip coffee|brewed coffee|아메리카노|커피|라떼|에스프레소|카푸치노|콜드브루|플랫화이트|モカ|コーヒー|カフェラテ|エスプレッソ|フラットホワイト/i;
+  const food = unique(shared.filter((row) => row.basket === 'meal' && localFoodIds.includes(row.sample.id) && !coffee.test(productText(row.sample))), 3);
+  const meals = unique(selectUsable(shared.filter((row) => row.basket === 'meal' && !localFoodIds.includes(row.sample.id))), 5);
+  const coffeePrices = unique(selectUsable(shared.filter((row) => row.basket === 'snack' && coffee.test(productText(row.sample)))), 5);
+  const water = unique(selectUsable(shared.filter((row) => row.basket === 'snack' && /water|생수|미네랄워터|ミネラルウォーター/i.test(productText(row.sample)))), 5);
+  const soda = unique(selectUsable(shared.filter((row) => row.basket === 'snack' && /cola|coke|soda|콜라|탄산음료|コーラ/i.test(productText(row.sample)))), 5);
+  const rides = unique(selectUsable(shared.filter((row) => row.basket === 'ride')), 5);
+  const passes = unique(selectUsable(shared.filter((row) => row.basket === 'pass')), 5);
   const taxi = unique(samples
-    .filter((sample) => sample.cityId === city.id && sample.category === 'transport' && /택시|taxi/i.test(`${sample.subtype} ${productText(sample)}`) && sample.grade === 'A' && sample.status.includes('확정') && !sample.status.includes('재검증 필요') && sample.modelUse !== 'no')
+    .filter((sample) => sample.cityId === city.id && sample.category === 'transport' && /택시|taxi/i.test(`${sample.subtype} ${productText(sample)}`))
     .map(classify).filter((row) => row.usable && row.audience === 'adult'), 3);
   const bigMac = unique(samples
-    .filter((sample) => sample.cityId === city.id && /big\s*mac|빅맥/i.test(productText(sample)) && /mcdonald/i.test(sample.sourceName) && sample.grade === 'A' && sample.status.includes('확정') && !sample.status.includes('재검증 필요') && sample.modelUse !== 'no')
+    .filter((sample) => sample.cityId === city.id && /big\s*mac|빅맥/i.test(productText(sample)) && /mcdonald/i.test(sample.sourceName))
     .map(classify).filter((row) => row.usable && row.audience === 'adult'), 1);
   return [
     ...food.map((sample) => ({ kind: 'localFood' as const, samples: [sample], range: { min: sample.min, max: sample.max } })),
-    withRange('coffee', coffeePrices), withRange('bottledWater', water),
+    withRange('meal', meals), withRange('coffee', coffeePrices), withRange('bottledWater', water),
     withRange('softDrink', soda), withRange('ride', rides), withRange('pass', passes),
     withRange('taxi', taxi), withRange('globalChain', bigMac),
   ].filter((group): group is CityPriceExampleGroup => group !== null);

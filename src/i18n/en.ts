@@ -305,7 +305,7 @@ export const en: Messages = {
     enough: '{n} independent samples',
   },
   preview: {
-    banner: 'Demo preview. Exchange rates use a researched fixed table updated weekly (as of 2026-10-28).',
+    banner: 'Demo preview. Exchange rates use a researched fixed table updated weekly (as of 2026-11-06).',
     rates: 'Exchange rates use a fixed table based on official sources and are updated weekly. Actual exchange rates and fees may differ.',
   },
   detail: {

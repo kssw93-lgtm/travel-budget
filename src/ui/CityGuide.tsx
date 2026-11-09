@@ -330,6 +330,41 @@ function PassTips({ guide }: { guide: CityGuideData }) {
   );
 }
 
+/** 도시에서 직접 확인한 가격 예시를 가이드 앞부분에 보여 준다. */
+function LocalPriceExamples({ guide }: { guide: CityGuideData }) {
+  const { t, lang } = useI18n();
+  const g = t.cityGuide;
+  if (guide.priceExamples.length === 0) return null;
+  return (
+    <section id="local-prices" className="card" aria-labelledby="guide-prices-title" data-testid="guide-local-prices">
+      <h2 id="guide-prices-title">{fmt(g.localPricesTitle, { city: cityName(guide.city, lang) })}</h2>
+      <p className="hint">{g.localPricesLead}</p>
+      <table className="guide-table stack">
+        <thead>
+          <tr>
+            <th scope="col">{g.localPriceType}</th>
+            <th scope="col">{g.localPriceItem}</th>
+            <th scope="col">{g.localPrice}</th>
+            <th scope="col">{g.source}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {guide.priceExamples.map(({ basket, sample }) => (
+            <tr key={sample.id}>
+              <td data-label={g.localPriceType}>{g.localPriceUnits[basket]}</td>
+              <th scope="row">{localName(lang, sample.nameKo, sample.nameEn, sample.nameJa)}</th>
+              <td data-label={g.localPrice}><RangeText range={{ min: sample.min, max: sample.max }} currency={sample.currency} /></td>
+              <td data-label={g.source}>
+                <ExternalLink href={sample.sourceUrl}>{sample.sourceName}</ExternalLink> <small className="muted">{sample.checkedAt}</small>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  );
+}
+
 function AttractionTable({ guide, display, rates }: { guide: ReturnType<typeof cityGuide>; display: string; rates: RatesState }) {
   const { t, lang } = useI18n();
   const g = t.cityGuide;
@@ -387,7 +422,7 @@ function AttractionTable({ guide, display, rates }: { guide: ReturnType<typeof c
   );
 }
 
-/** 도시 가이드(/guide/:city) — 이런 여행지 → 볼거리 → 숙소 → 교통 → 먹거리 → 팁·주의 → 비용 순서 */
+/** 도시 가이드(/guide/:city) — 소개·계산 시작 → 현지 물가·입장료 → 방문 계획·교통·먹거리·팁 순서 */
 export function CityGuidePage({ city, go }: { city: City; go: Go }) {
   const { t, lang } = useI18n();
   const g = t.cityGuide;
@@ -404,6 +439,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
   const ctaText = days ? fmt(g.ctaNights, { city: name, n: days.nights, d: days.nights + 1 }) : fmt(g.cta, { city: name });
   const hasTransport = !!guide.prices.find((p) => p.basket === 'ride') && guide.passTips.length > 0;
   const toc: Array<[string, string, boolean]> = [
+    ['local-prices', g.tocPrices, guide.priceExamples.length > 0],
     ['when', g.tocWhen, !!CITY_WHEN[city.id] || !!CITY_SEASONS[city.id] || !!CITY_SEASON_EVENTS[city.id]],
     ['sights', g.tocSights, !!CITY_GUIDES[city.id]?.highlights.length],
     ['stay', g.tocStay, !!intro?.s.length],
@@ -457,6 +493,11 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
         </nav>
       </section>
 
+      <LocalPriceExamples guide={guide} />
+      <div id="costs">
+        <AttractionTable guide={guide} display={display} rates={rates} />
+        <CityMemos city={city} memos={memos} />
+      </div>
       <WhenToGo city={city} />
       <Highlights city={city} />
       <StayAreas city={city} />
@@ -468,10 +509,6 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
         <FoodSection city={city} foods={foods} />
       </div>
       <TipsAndCautions city={city} />
-      <div id="costs">
-        <AttractionTable guide={guide} display={display} rates={rates} />
-        <CityMemos city={city} memos={memos} />
-      </div>
       <p className="guide-cta">
         <InternalLink className="button" to={calc} go={go}>
           {ctaText}

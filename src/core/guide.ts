@@ -1,9 +1,11 @@
 import { attractionOptions, type AttractionOption } from './attractions';
+import { classify } from './classify';
 import { estimateTrip } from './estimate';
 import { STYLES } from './model-config';
 import { priceGuide, type GuideRow } from './price-guide';
 import { passOptions } from './transport';
 import type { CostCategory, City, ExtraSample, PriceSample, Range, TravelStyle } from './types';
+import { selectUsable } from './pool';
 
 /** 예시 경비 내역의 줄: 외식·현지 교통·예비비 */
 export type GuideBreakdownKey = Exclude<CostCategory, 'attraction'> | 'contingency';
@@ -25,9 +27,33 @@ export interface CityGuide {
     breakdown: Array<{ key: GuideBreakdownKey; total: Range | null }>;
   }>;
   prices: GuideRow[];
+  /** 도시 안에서 실제로 확인된 식사·간식·주류·교통 상품의 원 가격 예시 */
+  priceExamples: Array<{ basket: 'meal' | 'snack' | 'drink' | 'ride' | 'pass'; sample: PriceSample }>;
   attractions: AttractionOption[];
   /** 이용권 손익분기: 1회 요금 대표값 기준으로 하루 몇 번 이상 타면 이용권이 이득인지. 1회 요금 표본이 충분할 때만 */
   passTips: PassTip[];
+}
+
+const PRICE_EXAMPLE_LIMIT = { meal: 3, ride: 2, pass: 1, snack: 2, drink: 2 } as const;
+
+function cityPriceExamples(city: City, samples: PriceSample[]): CityGuide['priceExamples'] {
+  const own = samples
+    .filter((sample) => sample.cityId === city.id)
+    .map(classify)
+    .filter((row) => row.usable && row.audience === 'adult' && row.basket && row.basket in PRICE_EXAMPLE_LIMIT);
+  const order = Object.keys(PRICE_EXAMPLE_LIMIT) as Array<keyof typeof PRICE_EXAMPLE_LIMIT>;
+  return order.flatMap((basket) => {
+    const pool = selectUsable(own.filter((row) => row.basket === basket));
+    const seen = new Set<string>();
+    return pool
+      .filter((row) => {
+        if (seen.has(row.productKey)) return false;
+        seen.add(row.productKey);
+        return true;
+      })
+      .slice(0, PRICE_EXAMPLE_LIMIT[basket])
+      .map((row) => ({ basket, sample: row.sample }));
+  });
 }
 
 export interface PassTip {
@@ -72,6 +98,7 @@ export function cityGuide(city: City, samples: PriceSample[], refDate: string, e
     refDate,
     styles,
     prices,
+    priceExamples: cityPriceExamples(city, samples),
     attractions: attractionOptions(city, samples),
     passTips: passTips(city, samples, prices.find((p) => p.basket === 'ride')),
   };

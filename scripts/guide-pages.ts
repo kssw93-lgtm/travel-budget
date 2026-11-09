@@ -111,7 +111,7 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const intro = CITY_INTROS[city.id];
   const days = intro ? { min: intro.d[0], max: intro.d[1], nights: Math.max(1, intro.d[1] - 1) } : null;
   const lead = intro ? intro.o[IDX[lang]] : fill(t.metaDescription, { city: name });
-  const description = `${lead} ${facts.length ? fill(s.descTail, { facts: facts.join(', ') }) : ''}`.trim();
+  const description = `${fill(t.metaDescription, { city: name })} ${facts.length ? fill(s.descTail, { facts: facts.join(', ') }) : ''}`.trim();
 
   const note = CITY_GUIDES[city.id];
   const airportIndex = note?.tips.findIndex(isAirportTip) ?? -1;
@@ -193,12 +193,12 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
         .map((p) => `<li>${e(fill(p.days > 1 ? t.passTipRowDays : t.passTipRow, { pass: pick(lang, p.nameKo, p.nameEn, p.nameJa), price: money(p.price, cur), days: p.days, n: p.ridesPerDay }))}</li>`)
         .join('')
     : '';
-  // 실제 메뉴 가격 예시: 이 도시 식당의 1인 한 끼 공식 메뉴를 싼 것부터 비싼 것까지 고르게 최대 6개
-  const meals = d.samples
-    .filter((x) => x.cityId === city.id && x.category === 'food' && /한끼/.test(x.subtype) && x.modelUse !== 'no' && !/아동|어린이|child/i.test(`${x.target} ${x.nameKo}`))
-    .sort((a, b) => a.min + a.max - (b.min + b.max));
-  const picked = meals.length <= 6 ? meals : Array.from({ length: 6 }, (_, k) => meals[Math.round((k * (meals.length - 1)) / 5)]!);
-  const menuExamples = picked.map((x) => `<li>${e(pick(lang, x.nameKo, x.nameEn, x.nameJa))}: ${e(range(x, x.currency))}</li>`).join('');
+  const localPriceExamples = g.priceExamples
+    .map(({ basket, sample }) => `<tr><td>${e(t.localPriceUnits[basket] ?? '')}</td><th scope="row">${e(pick(lang, sample.nameKo, sample.nameEn, sample.nameJa))}</th><td>${e(range(sample, sample.currency))}</td><td><a href="${e(sample.sourceUrl)}" target="_blank" rel="noopener noreferrer">${e(sample.sourceName)}</a> · ${e(sample.checkedAt)}</td></tr>`)
+    .join('');
+  const localPrices = localPriceExamples
+    ? `<h2>${e(fill(t.localPricesTitle, { city: name }))}</h2><p>${e(t.localPricesLead)}</p><table><thead><tr><th>${e(t.localPriceType)}</th><th>${e(t.localPriceItem)}</th><th>${e(t.localPrice)}</th><th>${e(t.source)}</th></tr></thead><tbody>${localPriceExamples}</tbody></table>`
+    : '';
   const m = MSG[lang].memos;
   const memos = d.memos
     .filter((x) => x.cityId === city.id)
@@ -215,6 +215,8 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
     days && `        <p>${e(days.min === days.max ? fill(t.daysOne, { n: days.min }) : fill(t.daysRange, { min: days.min, max: days.max }))}</p>`,
     cta,
     quickStart,
+    localPrices,
+    attractions && `        <h2>${e(fill(t.attractionsTitle, { city: name }))}</h2><p>${e(t.attractionsLead)}</p><ul>${attractions}</ul>`,
     when,
     sights,
     stay,
@@ -223,8 +225,6 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
     foods && `        <h2>${e(fill(MSG[lang].foods.title, { city: name }))}</h2><ul>${foods}</ul>`,
     tips,
     borrowedNote,
-    menuExamples && `        <h2>${e(fill(s.menuTitle, { city: name }))}</h2><p>${e(s.menuLead)}</p><ul>${menuExamples}</ul>`,
-    attractions && `        <h2>${e(fill(t.attractionsTitle, { city: name }))}</h2><p>${e(t.attractionsLead)}</p><ul>${attractions}</ul>`,
     memos && `        <h2>${e(fill(m.title, { city: name }))}</h2><p>${e(m.lead)}</p><ul>${memos}</ul>`,
     cta,
     `        <p>${e(fill(t.lead, { city: name, date: d.updated }))}</p>`,

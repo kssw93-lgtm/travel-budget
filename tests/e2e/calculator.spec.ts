@@ -350,7 +350,7 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(eye.getByRole('link')).toHaveAttribute('href', /^https:\/\//);
   });
 
-  test('도시 가이드에는 그 도시만의 볼거리·팁이 있고, 경비 표·물가표는 없다', async ({ page }) => {
+  test('도시 가이드는 그 도시의 볼거리·팁과 공식 현지 가격 예시를 보여준다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/guide/tokyo?lang=ko');
     const notes = page.getByTestId('guide-notes');
@@ -365,8 +365,11 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(page.getByTestId('guide-intro')).toContainText('아사쿠사');
     await expect(page.getByTestId('guide-stay')).toContainText('신주쿠');
     await expect(page.getByTestId('guide-toc').getByRole('link', { name: '숙소 위치' })).toHaveAttribute('href', '#stay');
-    await expect(page.getByTestId('guide-example')).toHaveCount(0);
-    await expect(page.getByTestId('price-guide')).toHaveCount(0);
+    const localPrices = page.getByTestId('guide-local-prices');
+    await expect(localPrices).toBeVisible();
+    await expect(localPrices).toContainText('식사 1끼');
+    await expect(localPrices.getByRole('link').first()).toHaveAttribute('href', /^https:\/\//);
+    await expect(page.getByTestId('guide-attractions')).toBeVisible();
     const country = page.getByTestId('guide-country');
     await expect(country).toContainText('일본 여행 시 알아둘 것');
     await expect(country).toContainText('일본에서 조심할 것');
@@ -497,7 +500,7 @@ test.describe('도시 가이드', () => {
     await page.getByRole('link', { name: '파리 여행 경비 가이드' }).click();
     await expect(page).toHaveURL(/\/guide\/paris\?lang=ko$/);
     await expect(page.locator('main h1')).toHaveText('파리 여행 경비 가이드');
-    await expect(page).toHaveTitle(/^파리 여행 경비·물가, 볼거리와 여행 팁 — 여행 경비 계산기$/);
+    await expect(page).toHaveTitle(/^파리 여행 경비·물가 \| 식비·교통비·관광지 입장료 — 여행 경비 계산기$/);
     await expect(page.getByTestId('guide-attractions')).toContainText('에펠탑');
     // 위·아래 두 곳에 같은 버튼: 누르면 도시와 추천 박 수를 채운 계산기로 간다(날짜는 사용자가 입력)
     await expect(page.getByRole('link', { name: '파리 4박 5일 여행 경비 계산해 보기' })).toHaveCount(2);
@@ -509,11 +512,12 @@ test.describe('도시 가이드', () => {
 
   test('정적 HTML 에 도시별 제목·본문이 있고, 없는 도시는 계산기로 간다', async ({ page, request }) => {
     const html = await (await request.get('/guide/osaka.html')).text();
-    expect(html).toContain('<title>오사카 여행 경비·물가, 볼거리와 여행 팁 — 여행 경비 계산기</title>');
+    expect(html).toContain('<title>오사카 여행 경비·물가 | 식비·교통비·관광지 입장료 — 여행 경비 계산기</title>');
     expect(html).toContain('<h1>오사카 여행 경비 가이드</h1>');
     expect(html).toContain('오사카 3박 4일 여행 경비 계산해 보기');
     expect(html).toContain('오사카 숙소, 어디에 잡을까');
     expect(html).toContain('오사카에서 놓치지 말 것');
+    expect(html).toContain('오사카 현지 물가 가격 예시');
     expect(html).not.toContain('3박 4일 예상 현지 체류비');
     await mockRates(page);
     await page.goto('/guide/atlantis');
@@ -525,7 +529,7 @@ test.describe('도시 가이드', () => {
     await page.goto('/guide/london?lang=ko');
     await page.getByRole('button', { name: 'English' }).click();
     await expect(page.locator('main h1')).toHaveText('London travel cost guide');
-    await expect(page).toHaveTitle(/^London trip cost, local prices & tips/);
+    await expect(page).toHaveTitle(/^London travel costs & prices \| food, transit and attraction tickets/);
     await expect(page).toHaveURL(/\/guide\/london\?lang=en$/);
   });
 
@@ -535,7 +539,7 @@ test.describe('도시 가이드', () => {
     await page.getByRole('button', { name: '日本語' }).click();
     await expect(page).toHaveURL(/\/guide\/tokyo\?lang=ja$/);
     await expect(page.locator('main h1')).toHaveText('東京の旅行費用ガイド');
-    await expect(page).toHaveTitle(/^東京旅行の費用・現地の物価/);
+    await expect(page).toHaveTitle(/^東京旅行費用・物価 \| 食事・交通・観光施設の入場料/);
     await expect(page.locator('html')).toHaveAttribute('lang', 'ja');
     await expect(page.getByTestId('guide-attractions')).toContainText('大人');
     // 일본어권 표기로 확인된 데이터 이름은 일본어로 보인다(음역 행은 영문)

@@ -68,7 +68,12 @@ function cityPriceExamples(city: City, samples: PriceSample[], localFoodIds: str
   const passes = unique(selectUsable(shared.filter((row) => row.basket === 'pass')), 5);
   const taxi = unique(samples
     .filter((sample) => sample.cityId === city.id && sample.category === 'transport' && /택시|taxi/i.test(`${sample.subtype} ${productText(sample)}`))
-    .map(classify).filter((row) => row.usable && row.audience === 'adult'), 3);
+    // Taxi is a useful local price example, but a vehicle fare is not a per-person trip-budget item.
+    // Keep only the specific unit exclusion here; the fare remains outside the calculator basket.
+    .map(classify)
+    .filter((row) =>
+      (row.usable || row.excludeReason === 'unsupportedUnit') && row.audience === 'adult' &&
+      row.sample.modelUse === 'yes' && row.sample.grade !== 'D' && !row.sample.status.includes('보류')), 3);
   const bigMac = unique(samples
     .filter((sample) => sample.cityId === city.id && /big\s*mac|빅맥/i.test(productText(sample)) && /mcdonald/i.test(sample.sourceName))
     .map(classify).filter((row) => row.usable && row.audience === 'adult'), 1);

@@ -145,4 +145,11 @@ describe('도시 가이드: 이용권 손익분기', () => {
     expect(meals!.range.min).toBe(Math.min(...meals!.samples.map((s) => s.min)));
     expect(meals!.range.max).toBe(Math.max(...meals!.samples.map((s) => s.max)));
   });
+
+  it('택시 차량 초기요금은 도시 가이드의 참고 가격에 보이되 여행비 계산에서는 제외한다', () => {
+    const g = cityGuide(city('tokyo'), samples, '2026-11-09');
+    const taxi = g.priceExamples.find((x) => x.kind === 'taxi');
+    expect(taxi?.samples.map((s) => s.id)).toContain('TYO-TR-011');
+    expect(classify(samples.find((s) => s.id === 'TYO-TR-011')!).excludeReason).toBe('unsupportedUnit');
+  });
 });

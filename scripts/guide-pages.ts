@@ -100,7 +100,8 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const s = S[lang];
   const money = (n: number, cur: string) => formatMoney(n, cur, LOCALE[lang]);
   const range = (r: Range, cur: string) => (money(r.min, cur) === money(r.max, cur) ? money(r.min, cur) : `${money(r.min, cur)} ~ ${money(r.max, cur)}`);
-  const g = cityGuide(city, d.samples, d.refDate, d.extras);
+  const localFoodIds = d.foods.filter((food) => food.cityId === city.id).flatMap((food) => food.linkedPriceIds);
+  const g = cityGuide(city, d.samples, d.refDate, d.extras, localFoodIds);
   const cur = city.currency;
   const name = cityLabel(city, lang);
   const country = countryLabel(city, lang);
@@ -194,10 +195,17 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
         .join('')
     : '';
   const localPriceExamples = g.priceExamples
-    .map(({ basket, sample }) => `<tr><td>${e(t.localPriceUnits[basket] ?? '')}</td><th scope="row">${e(pick(lang, sample.nameKo, sample.nameEn, sample.nameJa))}</th><td>${e(range(sample, sample.currency))}</td><td><a href="${e(sample.sourceUrl)}" target="_blank" rel="noopener noreferrer">${e(sample.sourceName)}</a> · ${e(sample.checkedAt)}</td></tr>`)
+    .map(({ kind, sample }) => `<tr><td>${e(t.localPriceKinds[kind] ?? '')}</td><th scope="row">${e(pick(lang, sample.nameKo, sample.nameEn, sample.nameJa))}</th><td>${e(range(sample, sample.currency))}</td><td><a href="${e(sample.sourceUrl)}" target="_blank" rel="noopener noreferrer">${e(sample.sourceName)}</a> · ${e(sample.checkedAt)}</td></tr>`)
     .join('');
   const localPrices = localPriceExamples
     ? `<h2>${e(fill(t.localPricesTitle, { city: name }))}</h2><p>${e(t.localPricesLead)}</p><table><thead><tr><th>${e(t.localPriceType)}</th><th>${e(t.localPriceItem)}</th><th>${e(t.localPrice)}</th><th>${e(t.source)}</th></tr></thead><tbody>${localPriceExamples}</tbody></table>`
+    : '';
+  const dailyBudgetRows = g.styles
+    .filter((x) => x.perDay)
+    .map((x) => `<tr><th scope="row">${e(MSG[lang].styles[x.style].name)}</th><td>${e(range(x.perDay!, cur))}</td></tr>`)
+    .join('');
+  const dailyBudget = dailyBudgetRows
+    ? `<h2>${e(fill(t.dailyBudgetTitle, { city: name }))}</h2><p>${e(t.dailyBudgetLead)}</p><table><thead><tr><th>${e(t.dailyBudgetStyle)}</th><th>${e(t.dailyBudgetAmount)}</th></tr></thead><tbody>${dailyBudgetRows}</tbody></table>`
     : '';
   const m = MSG[lang].memos;
   const memos = d.memos
@@ -215,6 +223,7 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
     days && `        <p>${e(days.min === days.max ? fill(t.daysOne, { n: days.min }) : fill(t.daysRange, { min: days.min, max: days.max }))}</p>`,
     cta,
     quickStart,
+    dailyBudget,
     localPrices,
     attractions && `        <h2>${e(fill(t.attractionsTitle, { city: name }))}</h2><p>${e(t.attractionsLead)}</p><ul>${attractions}</ul>`,
     when,

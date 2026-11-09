@@ -365,9 +365,13 @@ test.describe('관광지 입장료 선택·현지 물가', () => {
     await expect(page.getByTestId('guide-intro')).toContainText('아사쿠사');
     await expect(page.getByTestId('guide-stay')).toContainText('신주쿠');
     await expect(page.getByTestId('guide-toc').getByRole('link', { name: '숙소 위치' })).toHaveAttribute('href', '#stay');
+    const dailyBudget = page.getByTestId('guide-daily-budget');
+    await expect(dailyBudget).toBeVisible();
+    await expect(dailyBudget).toContainText('절약형');
     const localPrices = page.getByTestId('guide-local-prices');
     await expect(localPrices).toBeVisible();
-    await expect(localPrices).toContainText('식사 1끼');
+    await expect(localPrices).toContainText('현지 대표 음식 메뉴');
+    await expect(localPrices).toContainText('커피·음료 1잔');
     await expect(localPrices.getByRole('link').first()).toHaveAttribute('href', /^https:\/\//);
     await expect(page.getByTestId('guide-attractions')).toBeVisible();
     const country = page.getByTestId('guide-country');
@@ -517,7 +521,8 @@ test.describe('도시 가이드', () => {
     expect(html).toContain('오사카 3박 4일 여행 경비 계산해 보기');
     expect(html).toContain('오사카 숙소, 어디에 잡을까');
     expect(html).toContain('오사카에서 놓치지 말 것');
-    expect(html).toContain('오사카 현지 물가 가격 예시');
+    expect(html).toContain('오사카 1일 현지 경비 예시');
+    expect(html).toContain('오사카에서 확인한 실제 상품 가격');
     expect(html).not.toContain('3박 4일 예상 현지 체류비');
     await mockRates(page);
     await page.goto('/guide/atlantis');

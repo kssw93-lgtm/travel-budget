@@ -349,13 +349,46 @@ function LocalPriceExamples({ guide }: { guide: CityGuideData }) {
           </tr>
         </thead>
         <tbody>
-          {guide.priceExamples.map(({ basket, sample }) => (
+          {guide.priceExamples.map(({ kind, sample }) => (
             <tr key={sample.id}>
-              <td data-label={g.localPriceType}>{g.localPriceUnits[basket]}</td>
+              <td data-label={g.localPriceType}>{g.localPriceKinds[kind]}</td>
               <th scope="row">{localName(lang, sample.nameKo, sample.nameEn, sample.nameJa)}</th>
               <td data-label={g.localPrice}><RangeText range={{ min: sample.min, max: sample.max }} currency={sample.currency} /></td>
               <td data-label={g.source}>
                 <ExternalLink href={sample.sourceUrl}>{sample.sourceName}</ExternalLink> <small className="muted">{sample.checkedAt}</small>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  );
+}
+
+/** 현지에서 하루에 쓸 수 있는 비용 범위를 여행 스타일별로 간단히 보여 준다. */
+function DailyBudget({ guide, display, rates }: { guide: CityGuideData; display: string; rates: RatesState }) {
+  const { t, lang } = useI18n();
+  const g = t.cityGuide;
+  const rows = guide.styles.filter((style) => style.perDay);
+  if (rows.length === 0) return null;
+  return (
+    <section id="daily-budget" className="card" aria-labelledby="guide-daily-budget-title" data-testid="guide-daily-budget">
+      <h2 id="guide-daily-budget-title">{fmt(g.dailyBudgetTitle, { city: cityName(guide.city, lang) })}</h2>
+      <p className="hint">{g.dailyBudgetLead}</p>
+      <table className="guide-table stack">
+        <thead>
+          <tr>
+            <th scope="col">{g.dailyBudgetStyle}</th>
+            <th scope="col">{g.dailyBudgetAmount}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map(({ style, perDay }) => (
+            <tr key={style}>
+              <th scope="row">{t.styles[style].name}</th>
+              <td>
+                <RangeText range={perDay!} currency={guide.city.currency} />
+                <Converted range={perDay} from={guide.city.currency} to={display} rates={rates} />
               </td>
             </tr>
           ))}
@@ -428,7 +461,10 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
   const g = t.cityGuide;
   const rates = useRates();
   const display = displayCurrency(lang);
-  const guide = useMemo(() => cityGuide(city, samples, guideRefDate, extras), [city]);
+  const guide = useMemo(
+    () => cityGuide(city, samples, guideRefDate, extras, foods.filter((food) => food.cityId === city.id).flatMap((food) => food.linkedPriceIds)),
+    [city],
+  );
   const name = cityName(city, lang);
   const intro = CITY_INTROS[city.id];
   const days = tripDays(city.id);
@@ -439,6 +475,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
   const ctaText = days ? fmt(g.ctaNights, { city: name, n: days.nights, d: days.nights + 1 }) : fmt(g.cta, { city: name });
   const hasTransport = !!guide.prices.find((p) => p.basket === 'ride') && guide.passTips.length > 0;
   const toc: Array<[string, string, boolean]> = [
+    ['daily-budget', g.tocDailyBudget, guide.styles.some((style) => style.perDay)],
     ['local-prices', g.tocPrices, guide.priceExamples.length > 0],
     ['when', g.tocWhen, !!CITY_WHEN[city.id] || !!CITY_SEASONS[city.id] || !!CITY_SEASON_EVENTS[city.id]],
     ['sights', g.tocSights, !!CITY_GUIDES[city.id]?.highlights.length],
@@ -493,6 +530,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
         </nav>
       </section>
 
+      <DailyBudget guide={guide} display={display} rates={rates} />
       <LocalPriceExamples guide={guide} />
       <div id="costs">
         <AttractionTable guide={guide} display={display} rates={rates} />

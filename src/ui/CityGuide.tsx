@@ -349,15 +349,27 @@ function LocalPriceExamples({ guide }: { guide: CityGuideData }) {
           </tr>
         </thead>
         <tbody>
-          {guide.priceExamples.map(({ kind, sample }) => (
-            <tr key={sample.id}>
-              <td data-label={g.localPriceType}>{g.localPriceKinds[kind]}</td>
-              <th scope="row">{localName(lang, sample.nameKo, sample.nameEn, sample.nameJa)}</th>
-              <td data-label={g.localPrice}><RangeText range={{ min: sample.min, max: sample.max }} currency={sample.currency} /></td>
-              <td data-label={g.source}>
-                <ExternalLink href={sample.sourceUrl}>{sample.sourceName}</ExternalLink> <small className="muted">{sample.checkedAt}</small>
-              </td>
-            </tr>
+          {guide.priceExamples.map(({ kind, samples: examples, range }, groupIndex) => (
+            <tbody key={`${kind}-${groupIndex}`}>
+              {examples.length > 1 && (
+                <tr className="guide-price-range">
+                  <th scope="row">{g.localPriceKinds[kind]}</th>
+                  <td>{fmt(g.localPriceObservedCount, { count: examples.length })}</td>
+                  <td><RangeText range={range} currency={guide.city.currency} /></td>
+                  <td>{g.localPriceObservedRange}</td>
+                </tr>
+              )}
+              {examples.map((sample) => (
+                <tr key={sample.id}>
+                  <td data-label={g.localPriceType}>{examples.length === 1 ? g.localPriceKinds[kind] : ''}</td>
+                  <th scope="row">{localName(lang, sample.nameKo, sample.nameEn, sample.nameJa)} <small className="muted">({sample.unit})</small></th>
+                  <td data-label={g.localPrice}><RangeText range={{ min: sample.min, max: sample.max }} currency={sample.currency} /></td>
+                  <td data-label={g.source}>
+                    <ExternalLink href={sample.sourceUrl}>{sample.sourceName}</ExternalLink> <small className="muted">{sample.checkedAt}</small>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
           ))}
         </tbody>
       </table>

@@ -19,6 +19,7 @@ import type { City, CityMemo, ExtraSample, FoodRecommendation, PriceSample, Rang
 import { en } from '../src/i18n/en';
 import { ja } from '../src/i18n/ja';
 import { ko } from '../src/i18n/ko';
+import { localizeUnit } from '../src/i18n/unit';
 import { CITY_JA, COUNTRY_JA } from '../src/i18n/places';
 import { escapeHtml as e, type PageMeta } from './site-files';
 
@@ -195,7 +196,7 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
         .join('')
     : '';
   const localPriceExamples = g.priceExamples
-    .map(({ kind, samples, range: observedRange }) => `<tbody>${samples.length > 1 ? `<tr><th scope="row">${e(t.localPriceKinds[kind] ?? '')}</th><td>${e(fill(t.localPriceObservedCount, { count: samples.length }))}</td><td>${e(range(observedRange, city.currency))}</td></tr>` : ''}${samples.map((sample) => `<tr><td>${samples.length === 1 ? e(t.localPriceKinds[kind] ?? '') : ''}</td><th scope="row">${e(pick(lang, sample.nameKo, sample.nameEn, sample.nameJa))} <small>(${e(sample.unit)})</small></th><td>${e(range(sample, sample.currency))}</td></tr>`).join('')}</tbody>`)
+    .map(({ kind, samples, range: observedRange }) => `<tbody>${samples.length > 1 ? `<tr><th scope="row">${e(t.localPriceKinds[kind] ?? '')}</th><td>${e(fill(t.localPriceObservedCount, { count: samples.length }))}</td><td>${e(range(observedRange, city.currency))}</td></tr>` : ''}${samples.map((sample) => `<tr><td>${samples.length === 1 ? e(t.localPriceKinds[kind] ?? '') : ''}</td><th scope="row">${e(pick(lang, sample.nameKo, sample.nameEn, sample.nameJa))} <small>(${e(localizeUnit(lang, sample.unit))})</small></th><td>${e(range(sample, sample.currency))}</td></tr>`).join('')}</tbody>`)
     .join('');
   const localPrices = localPriceExamples
     ? `<h2>${e(fill(t.localPricesTitle, { city: name }))}</h2><p>${e(t.localPricesLead)}</p><table><thead><tr><th>${e(t.localPriceType)}</th><th>${e(t.localPriceItem)}</th><th>${e(t.localPrice)}</th></tr></thead>${localPriceExamples}</table>`

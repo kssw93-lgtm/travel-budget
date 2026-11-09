@@ -3,6 +3,7 @@ import { cityRows } from '../core/city-rows';
 import { MODEL } from '../core/model-config';
 import type { City, PriceSample } from '../core/types';
 import { fmt, localName, useI18n } from '../i18n';
+import { localizeUnit } from '../i18n/unit';
 import { PLAN_LIMITS, type FieldError, type FormState, type MustEatInput } from './form';
 import { RangeText } from './money';
 
@@ -77,7 +78,7 @@ export function DrinkOptions({ city, samples, form, onChange, errors }: Props) {
                       />
                       {s ? (
                         <p className="hint">
-                          {p.priceAuto} <RangeText range={{ min: s.min, max: s.max }} currency={s.currency} /> · {s.unit} · {s.sourceName}
+                          {p.priceAuto} <RangeText range={{ min: s.min, max: s.max }} currency={s.currency} /> · {localizeUnit(lang, s.unit)} · {s.sourceName}
                         </p>
                       ) : (
                         missing && (
@@ -109,7 +110,7 @@ export function DrinkOptions({ city, samples, form, onChange, errors }: Props) {
                     <option value="">{p.drinkPickPlaceholder}</option>
                     {drinks.map((s) => (
                       <option key={s.id} value={s.id}>
-                        {name(s)} · {s.min === s.max ? s.min : `${s.min}~${s.max}`} {s.currency} ({s.unit})
+                        {name(s)} · {s.min === s.max ? s.min : `${s.min}~${s.max}`} {s.currency} ({localizeUnit(lang, s.unit)})
                       </option>
                     ))}
                   </select>

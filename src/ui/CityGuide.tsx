@@ -4,6 +4,7 @@ import { airportBoardingMapUrl, airportBoardingQueries, airportDirectionsUrl, ai
 import { formatMoney } from '../core/money';
 import type { City, PriceSample } from '../core/types';
 import { cities, dataDate, extras, foods, memos, samples } from '../data';
+import { localizeUnit } from '../i18n/unit';
 import { CITY_GUIDES, type Localized } from '../data/city-guides';
 import { CITY_SEASON_EVENTS } from '../data/city-season-events';
 import { CITY_INTROS } from '../data/city-intros';
@@ -360,7 +361,7 @@ function LocalPriceExamples({ guide }: { guide: CityGuideData }) {
               {examples.map((sample) => (
                 <tr key={sample.id}>
                   <td data-label={g.localPriceType}>{examples.length === 1 ? g.localPriceKinds[kind] : ''}</td>
-                  <th scope="row">{localName(lang, sample.nameKo, sample.nameEn, sample.nameJa)} <small className="muted">({sample.unit})</small></th>
+                  <th scope="row">{localName(lang, sample.nameKo, sample.nameEn, sample.nameJa)} <small className="muted">({localizeUnit(lang, sample.unit)})</small></th>
                   <td data-label={g.localPrice}><RangeText range={{ min: sample.min, max: sample.max }} currency={sample.currency} /></td>
                 </tr>
               ))}

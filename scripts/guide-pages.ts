@@ -12,6 +12,7 @@ import { methodContent } from '../src/ui/method-content';
 import { CITY_GUIDES } from '../src/data/city-guides';
 import { CITY_SEASON_EVENTS } from '../src/data/city-season-events';
 import { CITY_INTROS } from '../src/data/city-intros';
+import { citySeoCopy } from '../src/data/city-seo';
 import { CITY_SEASONS } from '../src/data/city-seasons';
 import { CITY_WHEN } from '../src/data/city-when';
 import { COUNTRY_GUIDES } from '../src/data/country-guides';
@@ -113,7 +114,11 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const intro = CITY_INTROS[city.id];
   const days = intro ? { min: intro.d[0], max: intro.d[1], nights: Math.max(1, intro.d[1] - 1) } : null;
   const lead = intro ? intro.o[IDX[lang]] : fill(t.metaDescription, { city: name });
-  const description = `${fill(t.metaDescription, { city: name })} ${facts.length ? fill(s.descTail, { facts: facts.join(', ') }) : ''}`.trim();
+  const seoCopy = citySeoCopy(city.id, lang);
+  const description = seoCopy?.description
+    ? fill(seoCopy.description, { city: name })
+    : `${fill(t.metaDescription, { city: name })} ${facts.length ? fill(s.descTail, { facts: facts.join(', ') }) : ''}`.trim();
+  const metaTitle = fill(seoCopy?.title ?? t.metaTitle, { city: name });
 
   const note = CITY_GUIDES[city.id];
   const airportIndex = note?.tips.findIndex(isAirportTip) ?? -1;
@@ -224,6 +229,7 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
     days && `        <p>${e(days.min === days.max ? fill(t.daysOne, { n: days.min }) : fill(t.daysRange, { min: days.min, max: days.max }))}</p>`,
     cta,
     quickStart,
+    `        <p><a href="/compare?lang=${lang}">${e(MSG[lang].compare.navLabel)}</a></p>`,
     dailyBudget,
     localPrices,
     attractions && `        <h2>${e(fill(t.attractionsTitle, { city: name }))}</h2><p>${e(t.attractionsLead)}</p><ul>${attractions}</ul>`,
@@ -243,7 +249,7 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
     .join('\n');
 
   return {
-    title: `${fill(t.metaTitle, { city: name })} — ${siteTitle(lang)}`,
+    title: `${metaTitle} — ${siteTitle(lang)}`,
     description,
     path: guidePath(city.id),
     lang,

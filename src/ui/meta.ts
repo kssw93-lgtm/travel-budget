@@ -1,6 +1,6 @@
 import type { City } from '../core/types';
 import { cities } from '../data/catalog';
-import { CITY_INTROS } from '../data/city-intros';
+import { citySeoCopy } from '../data/city-seo';
 import { fmt, LOCALES, messages, type Lang } from '../i18n';
 import { cityName } from './TripForm';
 import { routePath, type Route } from './pages';
@@ -20,24 +20,27 @@ export function applyMeta(lang: Lang, route: Route, city?: City) {
   const t = messages[lang];
   const name = city ? cityName(city, lang) : '';
   const page = route.page;
-  const pageTitle = {
+  const pageTitle = page === 'guide' ? '' : ({
     calculator: '',
     about: t.about.title,
     privacy: t.privacy.title,
     guides: t.cityGuide.indexTitle,
     method: t.method.title,
     compare: t.compare.title,
-    guide: fmt(t.cityGuide.metaTitle, { city: name }),
-  }[page];
-  const title = pageTitle ? `${pageTitle} — ${t.meta.brand}` : t.meta.title;
-  const description = {
+  }[page]);
+  const guideSeo = page === 'guide' && city ? citySeoCopy(city.id, lang) : undefined;
+  const titleText = guideSeo?.title ? fmt(guideSeo.title, { city: name }) : page === 'guide' ? fmt(t.cityGuide.metaTitle, { city: name }) : pageTitle;
+  const title = titleText ? `${titleText} — ${t.meta.brand}` : t.meta.title;
+  const description = guideSeo?.description
+    ? fmt(guideSeo.description, { city: name })
+    : {
     calculator: t.meta.description,
     about: t.meta.aboutDescription,
     privacy: t.meta.privacyDescription,
     guides: t.cityGuide.indexDescription,
     method: t.method.description,
     compare: fmt(t.compare.description, { n: cities.length }),
-    guide: (city && CITY_INTROS[city.id]?.o[lang === 'ko' ? 0 : lang === 'en' ? 1 : 2]) || fmt(t.cityGuide.metaDescription, { city: name }),
+    guide: fmt(t.cityGuide.metaDescription, { city: name }),
   }[page];
   document.documentElement.lang = lang;
   document.title = title;

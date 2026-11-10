@@ -527,6 +527,11 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
             <InternalLink to={familyCalc} go={go}>{fmt(g.quickStartFamily, { nights: presetNights, days: presetNights + 1 })}</InternalLink>
           </div>
         </section>
+        <p className="guide-links" data-testid="guide-cost-compare">
+          <InternalLink to={`/compare?lang=${lang}`} go={go}>
+            {t.compare.navLabel}
+          </InternalLink>
+        </p>
         <nav className="guide-toc" aria-label={g.tocLabel} data-testid="guide-toc">
           {toc
             .filter(([, , on]) => on)

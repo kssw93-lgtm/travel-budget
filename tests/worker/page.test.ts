@@ -38,14 +38,16 @@ describe('페이지 요청(Worker)', () => {
     const en = await (await page(new Request('https://howmuchthere.com/?lang=en&city=tokyo&nights=3'), fetcher)).text();
     const ja = await (await page(new Request('https://howmuchthere.com/?lang=ja&city=tokyo'), fetcher)).text();
     expect(en).toContain('content="https://howmuchthere.com/en?lang=en&amp;city=tokyo&amp;nights=3"');
-    expect(en).toContain('rel="canonical" href="https://howmuchthere.com/en?lang=en&amp;city=tokyo&amp;nights=3"');
-    expect(en).toContain('hreflang="en" href="https://howmuchthere.com/en?lang=en&amp;city=tokyo&amp;nights=3"');
+    expect(en).toContain('rel="canonical" href="https://howmuchthere.com/en?lang=en"');
+    expect(en).toContain('hreflang="en" href="https://howmuchthere.com/en?lang=en"');
+    expect(en).toContain('property="og:url" content="https://howmuchthere.com/en?lang=en&amp;city=tokyo&amp;nights=3"');
     expect(en).toContain('og-image-en.png?v=20261110');
     expect(en).toContain('Travel Budget Calculator — meals, transit, and attraction tickets');
     expect(en).not.toContain('og-image-ja.png');
     expect(en).not.toContain('古い日本語カード');
     expect(en.match(/name="twitter:image:alt"/g)).toHaveLength(1);
     expect(ja).toContain('content="https://howmuchthere.com/ja?lang=ja&amp;city=tokyo"');
+    expect(ja).toContain('rel="canonical" href="https://howmuchthere.com/ja?lang=ja"');
     expect(ja).toContain('og-image-ja.png?v=20261110');
   });
   it('영어·일본어 홈 별칭은 각 언어의 정적 홈을 제공하고 누락된 언어 쿼리는 보정한다', async () => {

@@ -45,10 +45,12 @@ function localizedOgUrl(html: string, url: URL): string {
   }
 
   if (url.pathname === '/' || aliasLang) {
-    result = result.replace(/(<link rel="canonical"[^>]*href=")[^"]*(")/, (_match, prefix, suffix) => prefix + escapedUrl + suffix);
+    const canonicalUrl = new URL('/' + lang, url);
+    canonicalUrl.searchParams.set('lang', lang);
+    const escapedCanonical = canonicalUrl.toString().replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+    result = result.replace(/(<link rel="canonical"[^>]*href=")[^"]*(")/, (_match, prefix, suffix) => prefix + escapedCanonical + suffix);
     result = result.replace(/(<link rel="alternate" hreflang="en" href=")[^"]*(")/, (_match, prefix, suffix) => {
-      const englishUrl = new URL(url);
-      englishUrl.pathname = '/en';
+      const englishUrl = new URL('/en', url);
       englishUrl.searchParams.set('lang', 'en');
       return prefix + englishUrl.toString().replace(/&/g, '&amp;') + suffix;
     });

@@ -8606,6 +8606,12 @@
       "en": "Leek and potato stew with cabbage sausage",
       "ja": "ネギとじゃがいもの煮込みにキャベツ入りソーセージを添えた料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Papet_vaudois.jpg/960px-Papet_vaudois.jpg",
+      "author": "Popo le Chien",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Papet_vaudois.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",

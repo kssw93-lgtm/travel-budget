@@ -1219,6 +1219,7 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'nashville:h3': 'https://www.opry.com/tours',
   'nashville:h4': 'https://www.nmaam.org/explore/exhibits/',
   'nashville:h5': 'https://tnmuseum.org/plan-your-visit',
+  'nashville:h6': 'https://fristartmuseum.org/location-hours-admission/',
   'nashville:t1': 'https://www.tn.gov/content/dam/tn/revenue/documents/notices/sales/sales24-11.pdf',
   'nashville:t2': 'https://www.wegotransit.com/ride/transit-services/airport/',
   'edmonton:h1': 'https://www.royalalbertamuseum.ca/visit/hours-admission',

@@ -126,13 +126,13 @@ test.describe('SEO 메타', () => {
   test('계산기: 언어별 제목·설명·OG·lang 이 바뀐다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/?lang=ko');
-    await expect(page).toHaveTitle('여행 경비 계산기 — 현지 체류비 범위');
-    await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', /최소~최대/);
-    await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', '여행 경비 계산기 — 현지 체류비 범위');
+    await expect(page).toHaveTitle('여행 경비 계산기 | 100개 이상 도시 현지 물가');
+    await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', /식비·교통비·관광지 입장료/);
+    await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', '여행 경비 계산기 | 100개 이상 도시 현지 물가');
     await expect(page.locator('meta[property="og:locale"]')).toHaveAttribute('content', 'ko_KR');
     await page.getByRole('button', { name: 'English' }).click();
     await expect(page).toHaveTitle(/Travel Budget Calculator/);
-    await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', /min–max/);
+    await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', /meal, transport and attraction costs/);
     await expect(page.locator('meta[property="og:locale"]')).toHaveAttribute('content', 'en_US');
     await expect(page.locator('html')).toHaveAttribute('lang', 'en');
   });
@@ -154,6 +154,8 @@ test.describe('SEO 메타', () => {
   test('robots.txt 와 정적 대체 본문이 있다', async ({ request }) => {
     expect(await (await request.get('/robots.txt')).text()).toContain('User-agent: *');
     const index = await (await request.get('/')).text();
+    expect(index).toContain('<title>여행 경비 계산기 | 100개 이상 도시 현지 물가</title>');
+    expect(index).toContain('도시·일정·인원에 맞춰 현지 식비·교통비·관광지 입장료를 계산하세요.');
     expect(index).toContain('<h1>현지에서 얼마나 쓸까?</h1>');
     expect(index).toContain('application/ld+json');
   });

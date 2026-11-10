@@ -2,9 +2,9 @@ import type { Messages } from './ko';
 
 export const en: Messages = {
   meta: {
-    title: 'Travel Budget Calculator — Daily trip costs in 100+ cities',
+    title: 'Travel Budget Calculator | Costs in 100+ Cities',
     brand: 'Travel Budget Calculator',
-    description: 'Pick a city, dates and travel style to see a min–max estimate of what you will spend on the ground.',
+    description: 'Estimate local meal, transport and attraction costs for your dates and group. Add your own flight and lodging totals to plan your full trip budget.',
     aboutDescription: 'What the travel budget calculator shows, where its prices come from and how the site is run.',
     privacyDescription: 'Privacy policy of the travel budget calculator: inputs, browser storage and advertising cookies.',
   },

@@ -24,9 +24,9 @@ describe('배포 보조 파일', () => {
 
   it('공유 이미지는 언어별 파일을 가리킨다', () => {
     const page = SITE_PAGES[0]!;
-    expect(headTags('https://example.com', page, 'ko')).toContain('<meta property="og:image" content="https://example.com/og-image.png" />');
-    expect(headTags('https://example.com', page, 'en')).toContain('<meta property="og:image" content="https://example.com/og-image-en.png" />');
-    expect(headTags('https://example.com', page, 'ja')).toContain('<meta name="twitter:image" content="https://example.com/og-image-ja.png" />');
+    expect(headTags('https://example.com', page, 'ko')).toContain('<meta property="og:image" content="https://example.com/og-image.png?v=20261110" />');
+    expect(headTags('https://example.com', page, 'en')).toContain('<meta property="og:image" content="https://example.com/og-image-en.png?v=20261110" />');
+    expect(headTags('https://example.com', page, 'ja')).toContain('<meta name="twitter:image" content="https://example.com/og-image-ja.png?v=20261110" />');
   });
 
   it('ads.txt 는 게시자 ID 가 있을 때만, 형식이 맞을 때만 만든다', () => {
@@ -60,9 +60,10 @@ describe('정적 페이지 HTML', () => {
     const en = pageHtml(index, { title: 'Travel Budget', description: 'Estimate local trip costs.', path: '/', lang: 'en', ld: {}, fallbackHtml: '<h1>Travel Budget</h1>' }, 'https://a.com');
     const ja = pageHtml(index, { title: '旅行費用計算機', description: '現地の旅行費用を計算します。', path: '/', lang: 'ja', ld: {}, fallbackHtml: '<h1>旅行費用計算機</h1>' }, 'https://a.com');
     expect(en).toContain('<meta property="og:site_name" content="Travel Budget Calculator" />');
-    expect(en).toContain('<meta property="og:image" content="https://a.com/og-image-en.png" />');
+    expect(en).toContain('<meta property="og:image" content="https://a.com/og-image-en.png?v=20261110" />');
     expect(ja).toContain('<meta property="og:site_name" content="旅行費用計算機" />');
-    expect(ja).toContain('<meta property="og:image" content="https://a.com/og-image-ja.png" />');
+    expect(ja).toContain('<meta property="og:image" content="https://a.com/og-image-ja.png?v=20261110" />');
+    expect(en.match(/name="twitter:image:alt"/g)).toHaveLength(1);
   });
 });
 

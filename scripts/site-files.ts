@@ -16,9 +16,9 @@ export const SITE_PAGES: SitePage[] = [
 const LANGS = ['ko', 'en', 'ja'] as const;
 const OG_SITE_NAME = { ko: '여행 경비 계산기', en: 'Travel Budget Calculator', ja: '旅行費用計算機' } as const;
 const OG_CARD = {
-  ko: { file: 'og-image.png', alt: '여행 경비 계산기 — 식비·교통·관광지 입장료' },
-  en: { file: 'og-image-en.png', alt: 'Travel Budget Calculator — meals, transit, and attraction tickets' },
-  ja: { file: 'og-image-ja.png', alt: '旅行費用計算機 — 食事・交通・観光施設の入場料' },
+  ko: { file: 'og-image.png?v=20261110', alt: '여행 경비 계산기 — 식비·교통·관광지 입장료' },
+  en: { file: 'og-image-en.png?v=20261110', alt: 'Travel Budget Calculator — meals, transit, and attraction tickets' },
+  ja: { file: 'og-image-ja.png?v=20261110', alt: '旅行費用計算機 — 食事・交通・観光施設の入場料' },
 } as const;
 
 export function normalizeSite(siteUrl: string | undefined): string | undefined {
@@ -206,7 +206,7 @@ export function pageHtml(indexHtml: string, meta: PageMeta, site: string | undef
   html = html
     .replace(/\s*<link rel="(?:canonical|alternate)"[^>]*>/g, '')
     .replace(/\s*<meta property="og:(?:url|image(?::\w+)?)"[^>]*>/g, '')
-    .replace(/\s*<meta name="twitter:image"[^>]*>/g, '');
+    .replace(/\s*<meta name="twitter:image(?::alt)?"[^>]*>/g, '');
   if (site) html = html.replace('</head>', `    ${headTags(site, { file: '', path: meta.path }, lang).join('\n    ')}\n  </head>`);
   return html;
 }

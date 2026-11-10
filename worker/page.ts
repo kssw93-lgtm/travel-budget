@@ -24,6 +24,26 @@ function localizedOgUrl(html: string, url: URL): string {
   const escapedUrl = cardUrl.toString().replace(/&/g, '&amp;').replace(/"/g, '&quot;');
   let result = html.replace(/(<meta property="og:url" content=")[^"]*(")/, (_match, prefix, suffix) => prefix + escapedUrl + suffix);
 
+  const card = {
+    en: { image: 'og-image-en.png?v=20261110', alt: 'Travel Budget Calculator — meals, transit, and attraction tickets' },
+    ja: { image: 'og-image-ja.png?v=20261110', alt: '旅行費用計算機 — 食事・交通・観光施設の入場料' },
+  }[lang as 'en' | 'ja'];
+  if (card) {
+    const imageUrl = `${url.origin}/${card.image}`;
+    const imageTags = [
+      `<meta property="og:image" content="${imageUrl}" />`,
+      `<meta property="og:image:alt" content="${card.alt}" />`,
+      '<meta property="og:image:width" content="1200" />',
+      '<meta property="og:image:height" content="630" />',
+      `<meta name="twitter:image" content="${imageUrl}" />`,
+      `<meta name="twitter:image:alt" content="${card.alt}" />`,
+    ].join('');
+    result = result
+      .replace(/\s*<meta property="og:image(?:[^"]+)?"[^>]*>/g, '')
+      .replace(/\s*<meta name="twitter:image(?::alt)?"[^>]*>/g, '')
+      .replace('</head>', `${imageTags}</head>`);
+  }
+
   if (url.pathname === '/' || aliasLang) {
     result = result.replace(/(<link rel="canonical"[^>]*href=")[^"]*(")/, (_match, prefix, suffix) => prefix + escapedUrl + suffix);
     result = result.replace(/(<link rel="alternate" hreflang="en" href=")[^"]*(")/, (_match, prefix, suffix) => {

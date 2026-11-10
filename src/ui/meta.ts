@@ -49,9 +49,9 @@ export function applyMeta(lang: Lang, route: Route, city?: City) {
   setMeta('name', 'twitter:title', title);
   setMeta('name', 'twitter:description', description);
   const socialCard = {
-    ko: { image: '/og-image.png', alt: '여행 경비 계산기 — 식비·교통·관광지 입장료' },
-    en: { image: '/og-image-en.png', alt: 'Travel Budget Calculator — meals, transit, and attraction tickets' },
-    ja: { image: '/og-image-ja.png', alt: '旅行費用計算機 — 食事・交通・観光施設の入場料' },
+    ko: { image: '/og-image.png?v=20261110', alt: '여행 경비 계산기 — 식비·교통·관광지 입장료' },
+    en: { image: '/og-image-en.png?v=20261110', alt: 'Travel Budget Calculator — meals, transit, and attraction tickets' },
+    ja: { image: '/og-image-ja.png?v=20261110', alt: '旅行費用計算機 — 食事・交通・観光施設の入場料' },
   }[lang];
   setMeta('property', 'og:image', new URL(socialCard.image, window.location.origin).href);
   setMeta('property', 'og:image:alt', socialCard.alt);

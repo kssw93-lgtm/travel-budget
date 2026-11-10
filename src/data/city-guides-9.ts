@@ -870,6 +870,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['오리건 과학산업박물관(OMSI)', 'Oregon Museum of Science and Industry (OMSI)', 'オレゴン科学産業博物館（OMSI）', '윌래밋강 동쪽 강변에 있는 과학관으로 전시관·천체투영관·대형 영화관과 퇴역 해군 잠수함 관람을 운영합니다.', 'A science museum on the east bank of the Willamette River with exhibition halls, a planetarium, a large-screen theatre and a retired Navy submarine.', 'ウィラメット川東岸にある科学館で、展示室・プラネタリウム・大型シアターや退役海軍潜水艦の見学を楽しめます。'],
       ['피톡 맨션', 'Pittock Mansion', 'ピトック邸', '노스웨스트 포틀랜드 언덕에 있는 20세기 초 저택 박물관입니다. 23개의 방과 초기 포틀랜드의 역사, 시내와 후드산 전망을 볼 수 있습니다.', 'An early-20th-century house museum in Portland’s northwest hills, with 23 rooms, city history and views toward Mount Hood.', 'ポートランド北西部の丘に建つ20世紀初頭の邸宅博物館です。23室の内装や初期ポートランドの歴史、市街とフッド山の眺めを楽しめます。'],
       ['국제 장미 시험 정원', 'International Rose Test Garden', '国際バラ試験庭園', '워싱턴 파크에 있는 장미 정원으로, 1924년부터 세계 각지의 장미 품종을 재배하고 평가해 왔습니다.', 'A rose garden in Washington Park that has grown and evaluated rose varieties from around the world since 1924.', 'ワシントン・パークにあるバラ園で、1924年から世界各地の品種を栽培・評価しています。'],
+      ['오리건 동물원', 'Oregon Zoo', 'オレゴン動物園', '워싱턴 파크 안에 있는 동물원입니다. 사전 예약한 입장 시간에 맞춰 들어가며, 동물원 열차와 회전목마도 운영됩니다.', 'A zoo in Washington Park. Visitors enter at their reserved time; a zoo train and carousel also operate on the grounds.', 'ワシントン・パークにある動物園です。予約した時間に入場し、園内では動物園列車やメリーゴーラウンドも運行しています。'],
     ],
     t: [
       ['오리건주에는 판매세가 없어 식당 메뉴 가격에 세금이 붙지 않습니다. 다만 팁 18~20%는 따로 냅니다.', 'Oregon has no sales tax, so menus carry no tax — but an 18–20% tip is still expected.', 'オレゴン州には売上税がないため、飲食店のメニュー価格に税はかかりません。ただしチップ18〜20%は別に払います。'],

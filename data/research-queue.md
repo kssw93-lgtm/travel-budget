@@ -2095,6 +2095,12 @@
 | GUM-AT-101 | 괌 | 사랑의 절벽(투 러버스 포인트) 입장료 | 3 USD | A | 예 | 재검증 | [Two Lovers Point 공식 Visit](https://tlpguam.com/pages/visit) |
 | GUM-AT-102 | 괌 | 아쿠아리움 오브 괌(성인 12세 이상) | 30 USD | A | 예 | 재검증 | [Aquarium of Guam 공식 General Admission](https://www.aquariumofguam.com/general-admission) |
 | GUM-AT-103 | 괌 | 아쿠아리움 오브 괌(아동 3~11세) | 20 USD | A | 예 | 재검증 | [Aquarium of Guam 공식 General Admission](https://www.aquariumofguam.com/general-admission) |
+| CNS-AT-003 | 케언스 | 스카이레일·쿠란다 관광철도 결합 체험 (성인) | 145.5 AUD | A | 예 | 재검증 | [Skyrail Rainforest Cableway](https://skyrail.com.au/plan/skyrail-kuranda-train/) |
+| CNS-AT-004 | 케언스 | 스카이레일·쿠란다 관광철도 결합 체험 (아동) | 79.5 AUD | A | 예 | 재검증 | [Skyrail Rainforest Cableway](https://skyrail.com.au/plan/skyrail-kuranda-train/) |
+| MSY-AT-003 | 뉴올리언스 | 오듀본 동물원 일반 입장 (성인) | 30~40 USD | A | 예 | 재검증 | [Audubon Nature Institute](https://audubonnatureinstitute.org/plan-your-visit_zoo/) |
+| MSY-AT-004 | 뉴올리언스 | 오듀본 동물원 일반 입장 (아동) | 25~35 USD | A | 예 | 재검증 | [Audubon Nature Institute](https://audubonnatureinstitute.org/plan-your-visit_zoo/) |
+| PDX-AT-003 | 포틀랜드 | 오리건 동물원 일반 입장 (성인) | 26 USD | A | 예 | 재검증 | [Oregon Zoo / Metro](https://www.oregonzoo.org/visit/hours-and-tickets) |
+| PDX-AT-004 | 포틀랜드 | 오리건 동물원 일반 입장 (아동) | 21 USD | A | 예 | 재검증 | [Oregon Zoo / Metro](https://www.oregonzoo.org/visit/hours-and-tickets) |
 | CHI-AT-004 | 시카고 | 애들러 천문관 일반 입장 (성인) | 25 USD | A | 예 | 재검증 | [Adler Planetarium](https://www.adlerplanetarium.org/tickets/) |
 | CHI-AT-005 | 시카고 | 애들러 천문관 일반 입장 (아동) | 13 USD | A | 예 | 재검증 | [Adler Planetarium](https://www.adlerplanetarium.org/tickets/) |
 | CHI-AT-006 | 시카고 | 시카고 역사박물관 일반 입장 (성인 비거주자) | 24 USD | A | 예 | 재검증 | [Chicago History Museum](https://www.chicagohistory.org/visit-us/) |

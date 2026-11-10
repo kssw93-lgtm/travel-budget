@@ -1189,6 +1189,7 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'portland:h3': 'https://www.travelportland.com/attractions/omsi/',
   'portland:h4': 'https://www.travelportland.com/culture/pittock-mansion/',
   'portland:h5': 'https://www.travelportland.com/attractions/',
+  'portland:h6': 'https://www.oregonzoo.org/visit/hours-and-tickets',
   'portland:t1': 'https://www.travelportland.com/culture/food-portlands-known-for/',
   'portland:t2': 'https://blog.trimet.org/2025/12/12/how-to-take-max-to-and-from-portland-international-airport/',
   'victoria:h1': 'https://butchartgardens.com/hours-rates/',

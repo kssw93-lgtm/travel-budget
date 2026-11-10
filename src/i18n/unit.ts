@@ -3,6 +3,9 @@ type Lang = 'ko' | 'en' | 'ja';
 const LABELS: Record<Lang, Array<[RegExp, string]>> = {
   ko: [],
   en: [
+    [/초등학생 포함 학령 아동 1인/g, '1 school-age child, including elementary-school students'], [/초등학생 포함 학령 아동/g, 'school-age child including elementary-school students'],
+    [/아동\(5–15세\) 1인 1일/g, '1 child (ages 5–15), per day'], [/아동\(5–15세\)/g, 'child (ages 5–15)'], [/1인 입장권/g, 'admission for 1 person'],
+    [/작은 병/g, 'small bottle'], [/큰 병/g, 'large bottle'],
     [/성인 1인/g, '1 adult'], [/아동 1인|어린이 1인|소인 1인/g, '1 child'], [/외국인 1인/g, '1 foreign visitor'],
     [/외국인/g, 'foreign visitor'], [/비거주/g, 'non-resident'], [/미성년자/g, 'minor'], [/초등학생/g, 'elementary school student'], [/청소년/g, 'teen'],
     [/어린이|아동|소인/g, 'child'], [/성인|대인/g, 'adult'], [/영아/g, 'infant'], [/유아/g, 'toddler'],
@@ -16,7 +19,7 @@ const LABELS: Record<Lang, Array<[RegExp, string]>> = {
     [/adult 1 person/g, '1 adult'], [/child 1 person/g, '1 child'], [/foreign visitor 1 person/g, '1 foreign visitor'],
     [/택시/g, 'taxi'], [/운임/g, 'fare'], [/구간/g, 'segment'], [/첫 /g, 'first '], [/포함/g, 'included'], [/또는/g, 'or'], [/일부/g, 'partial'],
     [/약 /g, 'about '], [/전(?=\s|$)/g, 'before'], [/방문/g, 'visit'], [/투어/g, 'tour'], [/이용권/g, 'pass'], [/환산/g, 'equivalent to '],
-    [/주문/g, 'order'], [/메뉴/g, 'menu item'], [/싱글/g, 'single'], [/스몰|소\)/g, 'small'], [/중\)/g, 'medium'],
+    [/주문/g, 'order'], [/메뉴/g, 'menu item'], [/싱글/g, 'single'], [/스몰/g, 'small'], [/소(?=\))/g, 'small'], [/중(?=\))/g, 'medium'],
     [/사이즈/g, 'size'], [/세 /g, ' years '], [/세\)/g, ' years old)'], [/세$/g, ' years'], [/구역/g, 'zone'],
     [/피스/g, 'pieces'], [/조각/g, 'piece'], [/봉/g, 'bag'], [/장/g, 'sheets'], [/잔/g, 'glass'], [/병/g, 'bottle'], [/알/g, 'pieces'],
     [/차량/g, 'vehicle'], [/세트/g, 'set'], [/전 주문/g, 'before ordering'], [/최대/g, 'up to'], [/탑승/g, 'ride'], [/이내/g, 'or less'],
@@ -33,6 +36,9 @@ const LABELS: Record<Lang, Array<[RegExp, string]>> = {
     [/(\d+)일/g, '$1 day'],
   ],
   ja: [
+    [/초등학생 포함 학령 아동 1인/g, '小学生を含む学齢期の子ども1人'], [/초등학생 포함 학령 아동/g, '小学生を含む学齢期の子ども'],
+    [/아동\(5–15세\) 1인 1일/g, '5〜15歳の子ども1人・1日'], [/아동\(5–15세\)/g, '子ども（5〜15歳）'], [/1인 입장권/g, '1人分の入場券'],
+    [/작은 병/g, '小瓶'], [/큰 병/g, '大瓶'],
     [/외국인/g, '外国人'], [/비거주/g, '非居住者'], [/미성년자/g, '未成年者'], [/초등학생/g, '小学生'], [/청소년/g, '青少年'],
     [/어린이|아동|소인/g, '子ども'], [/성인|대인/g, '大人'], [/영아/g, '乳児'], [/유아/g, '幼児'],
     [/학생/g, '学生'], [/우대/g, '割引対象'], [/일반/g, '通常'], [/경로/g, 'シニア'],
@@ -44,7 +50,7 @@ const LABELS: Record<Lang, Array<[RegExp, string]>> = {
     [/차량 1대/g, '車両1台分'], [/택시 1회 최소 운임/g, 'タクシー最低運賃（1回）'], [/최소/g, '最低'],
     [/택시/g, 'タクシー'], [/운임/g, '運賃'], [/구간/g, '区間'], [/첫 /g, '最初の'], [/포함/g, '含む'], [/또는/g, 'または'], [/일부/g, '一部'],
     [/약 /g, '約'], [/전(?=\s|$)/g, '前'], [/방문/g, '訪問'], [/투어/g, 'ツアー'], [/이용권/g, '乗車券'], [/환산/g, '換算'],
-    [/주문/g, '注文'], [/메뉴/g, 'メニュー'], [/싱글/g, 'シングル'], [/스몰|소\)/g, '小'], [/중\)/g, '中'],
+    [/주문/g, '注文'], [/메뉴/g, 'メニュー'], [/싱글/g, 'シングル'], [/스몰/g, '小'], [/소(?=\))/g, '小'], [/중(?=\))/g, '中'],
     [/사이즈/g, 'サイズ'], [/세 /g, '歳 '], [/세\)/g, '歳)'], [/세$/g, '歳'], [/구역/g, 'エリア'],
     [/피스/g, 'ピース'], [/조각/g, '切れ'], [/봉/g, '袋'], [/장/g, '枚'], [/잔/g, '杯'], [/병/g, '本'], [/알/g, '個'],
     [/차량/g, '車両'], [/세트/g, 'セット'], [/전 주문/g, '注文前'], [/최대/g, '最大'], [/탑승/g, '乗車'], [/이내/g, '以内'],
@@ -65,10 +71,42 @@ const LABELS: Record<Lang, Array<[RegExp, string]>> = {
 /** Localize the Korean source unit while preserving its numbers, sizes, and fare conditions. */
 export function localizeUnit(lang: Lang, unit: string): string {
   if (lang === 'ko') return unit;
-  const localized = LABELS[lang].reduce((value, [pattern, replacement]) => value.replace(pattern, replacement), unit)
-    .replace(/\s*\/\s*/g, ' / ')
-    .replace(/\b1 hours\b/g, '1 hour')
+  let localized = LABELS[lang].reduce((value, [pattern, replacement]) => value.replace(pattern, replacement), unit)
+    .replace(/\s*\/\s*(?=\D)/g, ' / ')
     .replace(/\s+/g, ' ')
     .trim();
-  return lang === 'ja' ? localized.replace(/([\u3040-\u30ff\u3400-\u9fff])\s+(?=\d)/g, '$1') : localized;
+
+  if (lang === 'en') {
+    localized = localized
+      .replace(/(\d)(?=[A-Za-z])/g, '$1 ')
+      .replace(/\b(\d+) ride ride\b/g, '$1 rides')
+      .replace(/\b(\d+) (item|ride|person|bottle|glass|can|piece|bag|sheet|serving|hour|day|zone|skewer|set|box|vehicle|bowl|plate|pack|pie|loop)\b/g, (_match, count: string, noun: string) =>
+        `${count} ${noun}${count === '1' ? '' : 's'}`,
+      )
+      .replace(/\b(\d+) hours\b/g, '$1 hours')
+      .replace(/\badult (\d+) day\b/g, 'adult, $1 day')
+      .replace(/\badult (\d+) ride\b/g, 'adult, $1 ride')
+      .replace(/\bchild (\d+) day\b/g, 'child, $1 day')
+      .replace(/\bchild (\d+) ride\b/g, 'child, $1 ride')
+      .replace(/\b(\d+) person (\d+) meal\b/g, '$1 person, $2 meal')
+      .replace(/\b(\d+) person (\d+) (admission|item|bowl|serving)\b/g, '$1 person, $2 $3')
+      .replace(/\b(\d+) person admission\b/g, 'admission for $1 person')
+      .replace(/\bchild \(ages (\d+–\d+)\) (\d+) person (\d+) day\b/g, 'child (ages $1), $2 person, $3 day')
+      .replace(/\b(\d+) item menu item\b/g, '$1 menu item')
+      .replace(/\bsmall bottle 1 bottle\b/g, '1 small bottle')
+      .replace(/\blarge bottle 1 bottle\b/g, '1 large bottle')
+      .replace(/\s*\(\s*/g, ' (')
+      .replace(/\s*\)/g, ')')
+      .replace(/\s+/g, ' ')
+      .trim();
+    return localized;
+  }
+
+  return localized
+    .replace(/\s*\(\s*/g, '（')
+    .replace(/\s*\)/g, '）')
+    .replace(/\s*,\s*/g, '、')
+    .replace(/([\u3040-\u30ff\u3400-\u9fff])\s+(?=[\u3040-\u30ff\u3400-\u9fff\d])/g, '$1')
+    .replace(/\s+/g, ' ')
+    .trim();
 }

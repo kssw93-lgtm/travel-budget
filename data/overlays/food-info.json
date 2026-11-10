@@ -5645,7 +5645,13 @@
   "nashville:Hot Chicken": {
     "ko": "카이엔 고추 양념을 듬뿍 바른 매운 프라이드치킨",
     "en": "Fried chicken coated in fiery cayenne paste",
-    "ja": "カイエンペッパーのペーストをたっぷり塗った辛いフライドチキン"
+    "ja": "カイエンペッパーのペーストをたっぷり塗った辛いフライドチキン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Nashville_Hot_Chicken_Drumsticks.jpg/960px-Nashville_Hot_Chicken_Drumsticks.jpg",
+      "author": "Myspiritanimalisamanatee",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Nashville_Hot_Chicken_Drumsticks.jpg"
+    }
   },
   "nashville:Meat and Three": {
     "ko": "고기 요리 하나와 곁들이 세 가지를 고르는 남부식 한 끼",

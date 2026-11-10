@@ -1463,6 +1463,7 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'cairns:h5': 'https://skyrail.com.au/plan/your-visit/',
   'verona:h5': 'https://www.visitverona.it/en/poi/roman-theatre-and-archeological-museum',
   'thessaloniki:h5': 'https://www.thessalonikitourism.gr/index.php/en/component/k2/item/125-aristotelous-square',
+  'thessaloniki:h6': 'https://www.mbp.gr/en/',
   'chengdu:h4': 'https://www.cdmuseum.com/en/zhinan/',
   'chengdu:h5': 'https://www.gochengdu.cn/en/article/column_167083285087556/1216',
   'tashkent:h5': 'https://uzbekistan.travel/en/o/railway-museum/',

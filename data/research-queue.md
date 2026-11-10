@@ -2106,6 +2106,10 @@
 | AUS-AT-003 | 오스틴 | 린든 B. 존슨 대통령 도서관·박물관 성인 입장권 | 16 USD | A | 예 | 재검증 | [LBJ Presidential Library](https://www.lbjlibrary.org/visit) |
 | AUS-AT-004 | 오스틴 | 맥키니 폴스 주립공원 성인 일일 입장료 | 6 USD | A | 예 | 재검증 | [Texas Parks and Wildlife Department](https://tpwd.texas.gov/state-parks/mckinney-falls/) |
 | AUS-AT-005 | 오스틴 | 맥키니 폴스 주립공원 12세 이하 아동 입장료 | 0 USD | A | 예 | 재검증 | [Texas Parks and Wildlife Department](https://tpwd.texas.gov/state-parks/mckinney-falls/) |
+| SKG-AT-002 | 테살로니키 | 비잔틴 문화 박물관 성인 입장권 | 10 EUR | A | 예 | 재검증 | [Museum of Byzantine Culture](https://www.mbp.gr/en/visit/) |
+| SKG-AT-003 | 테살로니키 | 비잔틴 문화 박물관 아동 입장료 | 0 EUR | A | 예 | 재검증 | [Museum of Byzantine Culture](https://www.mbp.gr/en/visit/) |
+| SKG-AT-004 | 테살로니키 | 화이트 타워 성인 입장권 | 8 EUR | A | 예 | 재검증 | [Museum of Byzantine Culture](https://www.mbp.gr/en/visit/) |
+| SKG-AT-005 | 테살로니키 | 화이트 타워 아동 입장료 | 0 EUR | A | 예 | 재검증 | [Museum of Byzantine Culture](https://www.mbp.gr/en/visit/) |
 | CHI-AT-004 | 시카고 | 애들러 천문관 일반 입장 (성인) | 25 USD | A | 예 | 재검증 | [Adler Planetarium](https://www.adlerplanetarium.org/tickets/) |
 | CHI-AT-005 | 시카고 | 애들러 천문관 일반 입장 (아동) | 13 USD | A | 예 | 재검증 | [Adler Planetarium](https://www.adlerplanetarium.org/tickets/) |
 | CHI-AT-006 | 시카고 | 시카고 역사박물관 일반 입장 (성인 비거주자) | 24 USD | A | 예 | 재검증 | [Chicago History Museum](https://www.chicagohistory.org/visit-us/) |

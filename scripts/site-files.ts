@@ -51,11 +51,11 @@ export function llmsTxt(site: string, guides: Array<{ path: string; name: string
   ].join('\n');
 }
 
-export function sitemapXml(site: string, pages: SitePage[] = SITE_PAGES, lastmod?: string): string {
+export function sitemapXml(site: string, pages: SitePage[] = SITE_PAGES): string {
   const urls = pages.flatMap((p) =>
     LANGS.map(
       (lang) =>
-        `  <url><loc>${site}${p.path}?lang=${lang}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ''}` +
+        `  <url><loc>${site}${p.path}?lang=${lang}</loc>` +
         LANGS.map((l) => `<xhtml:link rel="alternate" hreflang="${l}" href="${site}${p.path}?lang=${l}"/>`).join('') +
         `</url>`,
     ),

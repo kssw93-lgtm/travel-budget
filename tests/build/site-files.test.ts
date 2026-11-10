@@ -15,6 +15,7 @@ describe('배포 보조 파일', () => {
     expect(xml.match(/<loc>/g)).toHaveLength(SITE_PAGES.length * 3);
     for (const p of ['/about', '/privacy']) expect(xml).toContain(`<loc>https://example.com${p}?lang=en</loc>`);
     expect(xml).toContain('hreflang="ja"');
+    expect(xml).not.toContain('<lastmod>');
   });
 
   it('canonical 태그는 페이지 경로를 쓴다', () => {

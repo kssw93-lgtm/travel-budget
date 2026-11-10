@@ -46,7 +46,7 @@ describe('파일럿 도시 데이터 상태', () => {
       {
         "aarhus": "3/1/1 · 100% · ready",
         "abu-dhabi": "3/1/3 · 100% · ready",
-        "adelaide": "4/1/2 · 100% · ready",
+        "adelaide": "4/1/3 · 100% · ready",
         "almaty": "3/1/3 · 100% · ready",
         "amsterdam": "6/1/3 · 100% · ready",
         "antwerp": "3/1/3 · 100% · ready",
@@ -249,7 +249,7 @@ describe('파일럿 도시 데이터 상태', () => {
       {
         "aarhus": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 1/1 · souvenir 0/0",
         "abu-dhabi": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
-        "adelaide": "pass 0/0 · ride 1/1 · meal 4/4 · snack 2/2 · attraction 2/2 · souvenir 0/0",
+        "adelaide": "pass 0/0 · ride 1/1 · meal 4/4 · snack 2/2 · attraction 3/3 · souvenir 0/0",
         "almaty": "pass 0/0 · ride 1/1 · meal 3/3 · snack 2/2 · attraction 3/3 · souvenir 0/0",
         "amsterdam": "pass 1/1 · ride 0/0 · meal 6/6 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "antwerp": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",

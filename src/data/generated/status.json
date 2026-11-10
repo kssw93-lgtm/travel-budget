@@ -1571,7 +1571,7 @@
     "counts": {
       "food": 4,
       "transport": 1,
-      "attraction": 2
+      "attraction": 3
     },
     "baskets": {
       "pass": 0,
@@ -1579,7 +1579,7 @@
       "meal": 4,
       "snack": 2,
       "drink": 3,
-      "attraction": 2,
+      "attraction": 3,
       "souvenir": 0
     },
     "basketRows": {
@@ -1588,7 +1588,7 @@
       "meal": 4,
       "snack": 2,
       "drink": 3,
-      "attraction": 2,
+      "attraction": 3,
       "souvenir": 0
     },
     "fillRate": 1,

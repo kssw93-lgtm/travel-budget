@@ -1108,6 +1108,7 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'adelaide:h3': 'https://www.agsa.sa.gov.au/visit/',
   'adelaide:h4': 'https://www.botanicgardens.sa.gov.au/visit/adelaide-botanic-garden/plan-your-visit',
   'adelaide:h5': 'https://southaustralia.com/products/adelaide/tour/roofclimb-adelaide-oval',
+  'adelaide:h6': 'https://www.australia.com/ja-jp/places/adelaide-and-surrounds/guide-to-adelaide.html',
   'adelaide:t1': 'https://adelaideairport.com.au/arrivals/departing-by-public-transport/',
   'liverpool:h1': 'https://www.beatlesstory.com/plan-your-visit/prices/',
   'liverpool:h2': 'https://www.liverpoolmuseums.org.uk/',

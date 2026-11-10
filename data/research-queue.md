@@ -2110,6 +2110,8 @@
 | SKG-AT-003 | 테살로니키 | 비잔틴 문화 박물관 아동 입장료 | 0 EUR | A | 예 | 재검증 | [Museum of Byzantine Culture](https://www.mbp.gr/en/visit/) |
 | SKG-AT-004 | 테살로니키 | 화이트 타워 성인 입장권 | 8 EUR | A | 예 | 재검증 | [Museum of Byzantine Culture](https://www.mbp.gr/en/visit/) |
 | SKG-AT-005 | 테살로니키 | 화이트 타워 아동 입장료 | 0 EUR | A | 예 | 재검증 | [Museum of Byzantine Culture](https://www.mbp.gr/en/visit/) |
+| ADL-AT-003 | 애들레이드 | 애들레이드 동물원 일반 입장권 성인 | 49.5 AUD | A | 예 | 재검증 | [Zoos SA](https://tickets.zoossa.com.au/webstore/shop/viewitems.aspx?c=aze&cg=az) |
+| ADL-AT-004 | 애들레이드 | 애들레이드 동물원 일반 입장권 아동 | 27 AUD | A | 예 | 재검증 | [Zoos SA](https://tickets.zoossa.com.au/webstore/shop/viewitems.aspx?c=aze&cg=az) |
 | CHI-AT-004 | 시카고 | 애들러 천문관 일반 입장 (성인) | 25 USD | A | 예 | 재검증 | [Adler Planetarium](https://www.adlerplanetarium.org/tickets/) |
 | CHI-AT-005 | 시카고 | 애들러 천문관 일반 입장 (아동) | 13 USD | A | 예 | 재검증 | [Adler Planetarium](https://www.adlerplanetarium.org/tickets/) |
 | CHI-AT-006 | 시카고 | 시카고 역사박물관 일반 입장 (성인 비거주자) | 24 USD | A | 예 | 재검증 | [Chicago History Museum](https://www.chicagohistory.org/visit-us/) |

@@ -702,6 +702,7 @@ export const NOTES_9: Record<string, Compact> = {
       ['남호주 미술관', 'Art Gallery of South Australia', '南オーストラリア美術館', '호주 미술 소장품이 풍부한 미술관으로, 일반 입장은 무료입니다(일부 특별전 유료).', 'A strong collection of Australian art; general entry is free (some exhibitions charge).', 'オーストラリア美術の所蔵が豊富な美術館で、一般入場は無料です（一部の特別展は有料）。'],
       ['애들레이드 식물원', 'Adelaide Botanic Garden', 'アデレード植物園', '도심 북동쪽의 공공 식물원으로, 여러 식물 컬렉션과 역사적인 정원 건축을 둘러볼 수 있습니다.', 'A public garden northeast of the city centre, with diverse plant collections and historic garden architecture.', '中心部の北東にある植物園で、多彩な植物コレクションや歴史ある庭園建築を見学できます。'],
       ['애들레이드 오벌', 'Adelaide Oval', 'アデレード・オーバル', '애들레이드의 대표 스포츠 경기장으로, 경기 일정과 별도로 경기장 투어·루프톱 체험을 운영합니다.', 'A landmark Adelaide sports ground that offers stadium tours and rooftop experiences alongside its match program.', 'アデレードを代表する競技場で、試合開催のほかにスタジアムツアーや屋上体験を実施しています。'],
+      ['애들레이드 동물원', 'Adelaide Zoo', 'アデレード動物園', '도심 가까이에서 코알라와 캥거루를 비롯한 호주·세계의 동물을 만날 수 있는 동물원입니다. 아동은 성인과 동행해야 합니다.', 'A city zoo where visitors can see Australian and international wildlife, including koalas and kangaroos. Children must be accompanied by an adult.', '市街地近くでコアラやカンガルーをはじめ、オーストラリアや世界の動物に出会える動物園です。子どもは大人の同伴が必要です。'],
     ],
     t: [
       ['공항에서 시내: 애들레이드 공항 10번 정류장에서 시내버스(J 노선)를 타면 시내까지 갈 수 있으며, 일반 버스 요금(평일 피크와 오프피크가 다름)이 적용됩니다.', 'Airport to city: Adelaide Metro J-route buses leave from Stop 10 at the airport at the regular fare, which differs between peak and off-peak.', '空港から市内へ：アデレード空港の10番乗り場から市バス（J系統）で市内へ行け、通常のバス運賃（ピークとオフピークで異なる）が適用されます。'],

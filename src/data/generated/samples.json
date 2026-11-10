@@ -26750,7 +26750,7 @@
     "subtype": "미술관",
     "nameKo": "MONA (주외 방문 성인)",
     "nameEn": "Mona (non-Tasmanian adult)",
-    "min": 39,
+    "min": 45,
     "max": 45,
     "currency": "AUD",
     "unit": "성인 1인",
@@ -26759,11 +26759,11 @@
     "grade": "A",
     "modelUse": "yes",
     "status": "확정 1차 재검증(교차 확인 전)",
-    "checkedAt": "2026-10-18",
+    "checkedAt": "2026-11-10",
     "applied": "",
     "sourceName": "Mona",
     "sourceUrl": "https://mona.net.au/visit",
-    "note": "Claude 웹검색(공식 도메인 한정)으로 확인. · 원문: Adult $39 → $45 from 22 October · 수집: prices-claude-new1zb-2026-10-18.csv"
+    "note": "Claude 웹검색(공식 도메인 한정)으로 확인. · 원문: Adult $39 → $45 from 22 October · 수집: prices-claude-new1zb-2026-10-18.csv · 가격 정정(2026-11-10): MONA 공식 방문 페이지가 현재 비태즈메이니아 성인 입장료를 $45로 표시한다. 기존 $39→$45 변경 범위는 2026-10-22 인상 전·후가 섞인 값이므로 현행 단일 요금으로 교정."
   },
   {
     "id": "HBA-AT-002",

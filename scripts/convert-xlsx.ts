@@ -63,7 +63,7 @@ const notes: string[] = [];
 function text(v: unknown): string {
   if (v === null || v === undefined) return '';
   if (v instanceof Date) return v.toISOString().slice(0, 10);
-  return String(v).trim();
+  return String(v).replace(/\r\n?/g, '\n').trim();
 }
 
 /**

@@ -1126,7 +1126,7 @@
 | AUS-AT-001 | 오스틴 | 불럭 텍사스 주 역사박물관 (성인) | 22 USD | A | 예 | 재검증 | [Bullock Texas State History Museum](https://tickets.thestoryoftexas.com/mainstore?categoryId=1237&vid=0) |
 | AUS-AT-002 | 오스틴 | 불럭 텍사스 주 역사박물관 (청소년) | 16 USD | A | 예 | 재검증 | [Bullock Texas State History Museum](https://tickets.thestoryoftexas.com/mainstore?categoryId=1237&vid=0) |
 | HBA-TR-001 | 호바트 | 메트로 태즈메이니아 버스(무료 운행) | 0 AUD | A | 예 | 재검증 | [Metro Tasmania](https://www.metrotas.com.au/keep-moving/) |
-| HBA-AT-001 | 호바트 | MONA (주외 방문 성인) | 39~45 AUD | A | 예 | 재검증 | [Mona](https://mona.net.au/visit) |
+| HBA-AT-001 | 호바트 | MONA (주외 방문 성인) | 45 AUD | A | 예 | 재검증 | [Mona](https://mona.net.au/visit) |
 | HBA-AT-002 | 호바트 | MONA (12~17세) | 21 AUD | A | 예 | 재검증 | [Mona](https://mona.net.au/visit) |
 | BNA-TR-001 | 내슈빌 | 위고 버스 2시간권 | 2 USD | A | 예 | 재검증 | [WeGo Public Transit](https://www.wegotransit.com/buy/fare-information/) |
 | BNA-AT-001 | 내슈빌 | 컨트리 음악 명예의 전당 (성인) | 31.95 USD | A | 예 | 재검증 | [Country Music Hall of Fame and Museum](https://www.countrymusichalloffame.org/select-your-experience) |

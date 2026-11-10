@@ -11140,6 +11140,12 @@
       "en": "Oregon’s state pie, made with the local marionberry",
       "ja": "オレゴンで生まれたブラックベリーの品種で作る州を代表するパイ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Marionberry_Pie.jpg/960px-Marionberry_Pie.jpg",
+      "author": "ozmafan",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Marionberry_Pie.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",

@@ -5265,9 +5265,15 @@
     "ja": "肉を使わず野菜だけで煮込んだスカウス"
   },
   "heidelberg:Sauerbraten with Spätzle": {
-    "ko": "식초에 재워 익힌 소고기 찜에 독일식 수제 면을 곁들인 바덴 요리",
-    "en": "Baden-style marinated pot roast with Spätzle noodles",
-    "ja": "酢に漬けて煮込んだ牛肉にドイツの手作り麺を添えたバーデン料理"
+    "ko": "식초와 향신료에 재운 고기를 오래 익혀 만든 독일식 로스트 요리입니다.",
+    "en": "German pot roast made from meat marinated in vinegar and spices, then slowly braised.",
+    "ja": "肉を酢と香辛料に漬け込み、じっくり煮込んだドイツのロースト料理です。",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Sauerbraten_with_potato_dumplings.jpg",
+      "author": "Jameres",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Sauerbraten_with_potato_dumplings.jpg"
+    }
   },
   "heidelberg:Maultaschen": {
     "ko": "고기와 시금치를 채운 큰 독일식 만두",
@@ -5560,7 +5566,13 @@
   "portland:Marionberry Pie": {
     "ko": "오리건에서 개발된 블랙베리 품종으로 만든 주(州) 대표 파이",
     "en": "Oregon’s state pie, made with the local marionberry",
-    "ja": "オレゴンで生まれたブラックベリーの品種で作る州を代表するパイ"
+    "ja": "オレゴンで生まれたブラックベリーの品種で作る州を代表するパイ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Marionberry_Pie.jpg/960px-Marionberry_Pie.jpg",
+      "author": "ozmafan",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Marionberry_Pie.jpg"
+    }
   },
   "portland:Food Cart Meals": {
     "ko": "푸드 카트 포드에서 파는 세계 각국의 저렴한 한 끼",
@@ -6378,16 +6390,5 @@
     "ko": "대추 당밀과 함께 먹는 에미리트식 팬케이크입니다.",
     "en": "Emirati pancakes served with date molasses.",
     "ja": "デーツの糖蜜と一緒に食べるエミラティ風パンケーキです。"
-  },
-  "heidelberg:Sauerbraten with Spätzle": {
-    "ko": "식초와 향신료에 재운 고기를 오래 익혀 만든 독일식 로스트 요리입니다.",
-    "en": "German pot roast made from meat marinated in vinegar and spices, then slowly braised.",
-    "ja": "肉を酢と香辛料に漬け込み、じっくり煮込んだドイツのロースト料理です。",
-    "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Sauerbraten_with_potato_dumplings.jpg",
-      "author": "Jameres",
-      "license": "Public domain",
-      "page": "https://commons.wikimedia.org/wiki/File:Sauerbraten_with_potato_dumplings.jpg"
-    }
   }
 }

@@ -1203,6 +1203,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'austin:h3': 'https://www.austintexas.org/things-to-do/',
   'austin:h4': 'https://www.austintexas.org/things-to-do/',
   'austin:h5': 'https://tspb.texas.gov/plan/tours/tours.html',
+  'austin:h6': 'https://www.lbjlibrary.org/visit',
+  'austin:h7': 'https://tpwd.texas.gov/state-parks/mckinney-falls/',
   'austin:t1': 'https://comptroller.texas.gov/taxes/sales/city.php',
   'austin:t2': 'https://www.capmetro.org/airport',
   'hobart:h1': 'https://mona.net.au/visit',

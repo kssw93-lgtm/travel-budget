@@ -1123,8 +1123,8 @@
 | YYJ-AT-002 | 빅토리아 | 부차트 가든 (청소년, 계절별) | 14.3~22.8 CAD | A | 예 | 재검증 | [The Butchart Gardens](https://butchartgardens.com/hours-rates/) |
 | YYJ-AT-003 | 빅토리아 | 로열 BC 박물관 (성인) | 32 CAD | A | 예 | 재검증 | [Royal BC Museum](https://www.royalbcmuseum.bc.ca/visit/plan-your-visit/buy-tickets) |
 | AUS-TR-001 | 오스틴 | 캡메트로 시내버스 1회 | 1.25 USD | A | 예 | 재검증 | [CapMetro](https://www.capmetro.org/fare/general-fares-overview/fares) |
-| AUS-AT-001 | 오스틴 | 불럭 텍사스 주 역사박물관 (성인) | 17~22 USD | A | 예 | 재검증 | [Bullock Texas State History Museum](https://www.thestoryoftexas.com/visit/) |
-| AUS-AT-002 | 오스틴 | 불럭 텍사스 주 역사박물관 (청소년) | 11~16 USD | A | 예 | 재검증 | [Bullock Texas State History Museum](https://www.thestoryoftexas.com/visit/) |
+| AUS-AT-001 | 오스틴 | 불럭 텍사스 주 역사박물관 (성인) | 22 USD | A | 예 | 재검증 | [Bullock Texas State History Museum](https://tickets.thestoryoftexas.com/mainstore?categoryId=1237&vid=0) |
+| AUS-AT-002 | 오스틴 | 불럭 텍사스 주 역사박물관 (청소년) | 16 USD | A | 예 | 재검증 | [Bullock Texas State History Museum](https://tickets.thestoryoftexas.com/mainstore?categoryId=1237&vid=0) |
 | HBA-TR-001 | 호바트 | 메트로 태즈메이니아 버스(무료 운행) | 0 AUD | A | 예 | 재검증 | [Metro Tasmania](https://www.metrotas.com.au/keep-moving/) |
 | HBA-AT-001 | 호바트 | MONA (주외 방문 성인) | 39~45 AUD | A | 예 | 재검증 | [Mona](https://mona.net.au/visit) |
 | HBA-AT-002 | 호바트 | MONA (12~17세) | 21 AUD | A | 예 | 재검증 | [Mona](https://mona.net.au/visit) |
@@ -2103,6 +2103,9 @@
 | PDX-AT-004 | 포틀랜드 | 오리건 동물원 일반 입장 (아동) | 21 USD | A | 예 | 재검증 | [Oregon Zoo / Metro](https://www.oregonzoo.org/visit/hours-and-tickets) |
 | MEX-AT-003 | 멕시코시티 | 차풀테펙 성 국립역사박물관 외국인 성인 입장권 | 210 MXN | A | 예 | 재검증 | [Instituto Nacional de Antropología e Historia (INAH)](https://lugares.inah.gob.mx/es/node/4961) |
 | MEX-AT-004 | 멕시코시티 | 차풀테펙 성 국립역사박물관 13세 미만 아동 입장권 | 0 MXN | A | 예 | 재검증 | [Instituto Nacional de Antropología e Historia (INAH)](https://lugares.inah.gob.mx/es/node/4961) |
+| AUS-AT-003 | 오스틴 | 린든 B. 존슨 대통령 도서관·박물관 성인 입장권 | 16 USD | A | 예 | 재검증 | [LBJ Presidential Library](https://www.lbjlibrary.org/visit) |
+| AUS-AT-004 | 오스틴 | 맥키니 폴스 주립공원 성인 일일 입장료 | 6 USD | A | 예 | 재검증 | [Texas Parks and Wildlife Department](https://tpwd.texas.gov/state-parks/mckinney-falls/) |
+| AUS-AT-005 | 오스틴 | 맥키니 폴스 주립공원 12세 이하 아동 입장료 | 0 USD | A | 예 | 재검증 | [Texas Parks and Wildlife Department](https://tpwd.texas.gov/state-parks/mckinney-falls/) |
 | CHI-AT-004 | 시카고 | 애들러 천문관 일반 입장 (성인) | 25 USD | A | 예 | 재검증 | [Adler Planetarium](https://www.adlerplanetarium.org/tickets/) |
 | CHI-AT-005 | 시카고 | 애들러 천문관 일반 입장 (아동) | 13 USD | A | 예 | 재검증 | [Adler Planetarium](https://www.adlerplanetarium.org/tickets/) |
 | CHI-AT-006 | 시카고 | 시카고 역사박물관 일반 입장 (성인 비거주자) | 24 USD | A | 예 | 재검증 | [Chicago History Museum](https://www.chicagohistory.org/visit-us/) |

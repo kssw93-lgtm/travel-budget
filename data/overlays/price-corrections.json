@@ -135,5 +135,19 @@
     "sourceUrl": "https://www.ichibanya.co.jp/menu/list.html?cid=1",
     "checkedAt": "2026-10-15",
     "reason": "GPT 교차 검수: 코코이치방야 공식 메뉴 ポークカレー 588円（税込646円）. 세금 포함 가격으로 반영."
+  },
+  "AUS-AT-001": {
+    "min": 22,
+    "max": 22,
+    "sourceUrl": "https://tickets.thestoryoftexas.com/mainstore?categoryId=1237&vid=0",
+    "checkedAt": "2026-11-10",
+    "reason": "공식 eTickets의 Exhibits 섹션은 Adult (18-64 yrs) $22.00로 표시한다. 다른 섹션의 $17은 IMAX 영화표 가격이므로 박물관 입장료 범위에서 제외한다."
+  },
+  "AUS-AT-002": {
+    "min": 16,
+    "max": 16,
+    "sourceUrl": "https://tickets.thestoryoftexas.com/mainstore?categoryId=1237&vid=0",
+    "checkedAt": "2026-11-10",
+    "reason": "공식 eTickets의 Exhibits 섹션은 Youth (6-17 yrs) $16.00로 표시한다. 기존 하한은 다른 상품 구간을 혼합한 값으로 확인해 단일 입장료로 바로잡는다."
   }
 }

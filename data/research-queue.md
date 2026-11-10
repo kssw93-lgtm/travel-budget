@@ -2095,6 +2095,12 @@
 | GUM-AT-101 | 괌 | 사랑의 절벽(투 러버스 포인트) 입장료 | 3 USD | A | 예 | 재검증 | [Two Lovers Point 공식 Visit](https://tlpguam.com/pages/visit) |
 | GUM-AT-102 | 괌 | 아쿠아리움 오브 괌(성인 12세 이상) | 30 USD | A | 예 | 재검증 | [Aquarium of Guam 공식 General Admission](https://www.aquariumofguam.com/general-admission) |
 | GUM-AT-103 | 괌 | 아쿠아리움 오브 괌(아동 3~11세) | 20 USD | A | 예 | 재검증 | [Aquarium of Guam 공식 General Admission](https://www.aquariumofguam.com/general-admission) |
+| CHI-AT-004 | 시카고 | 애들러 천문관 일반 입장 (성인) | 25 USD | A | 예 | 재검증 | [Adler Planetarium](https://www.adlerplanetarium.org/tickets/) |
+| CHI-AT-005 | 시카고 | 애들러 천문관 일반 입장 (아동) | 13 USD | A | 예 | 재검증 | [Adler Planetarium](https://www.adlerplanetarium.org/tickets/) |
+| CHI-AT-006 | 시카고 | 시카고 역사박물관 일반 입장 (성인 비거주자) | 24 USD | A | 예 | 재검증 | [Chicago History Museum](https://www.chicagohistory.org/visit-us/) |
+| CHI-AT-007 | 시카고 | 시카고 역사박물관 일반 입장 (12세 이하 비거주자 무료) | 0 USD | A | 예 | 재검증 | [Chicago History Museum](https://www.chicagohistory.org/visit-us/) |
+| MTL-AT-003 | 몬트리올 | 몬트리올 바이오돔 일반 입장 (성인 비거주자) | 25.5 CAD | A | 예 | 재검증 | [Espace pour la vie](https://calendrier.espacepourlavie.ca/en/rates) |
+| MTL-AT-004 | 몬트리올 | 몬트리올 바이오돔 일반 입장 (아동) | 13.5 CAD | A | 예 | 재검증 | [Espace pour la vie](https://calendrier.espacepourlavie.ca/en/rates) |
 | GJU-TR-101 | 경주 | 경주 시내버스 성인 현금 | 1500 KRW | A | 예 | 재검증 | [경주시 보건소(경주시 교통행정과 고시)](https://www.gyeongju.go.kr/health/page.do?mnu_uid=3143&pageNo=128&pageOrder=0&pagePrvNxt=1&pageRef=0&parm_bod_uid=316506&parm_mnu_uid=423&srchBgpUid=-1&srchColumn=&srchEDate=9999-12-31&srchEnable=1&srchKeyword=&srchSDate=1960-01-01&srchVoteType=-1&step=258) |
 | GJU-TR-102 | 경주 | 경주 시내버스 성인 교통카드 | 1450 KRW | A | 예 | 재검증 | [경주시 보건소(경주시 교통행정과 고시)](https://www.gyeongju.go.kr/health/page.do?mnu_uid=3143&pageNo=128&pageOrder=0&pagePrvNxt=1&pageRef=0&parm_bod_uid=316506&parm_mnu_uid=423&srchBgpUid=-1&srchColumn=&srchEDate=9999-12-31&srchEnable=1&srchKeyword=&srchSDate=1960-01-01&srchVoteType=-1&step=258) |
 | GJU-TR-103 | 경주 | 경주 시내버스 청소년 현금 | 1200 KRW | A | 예 | 재검증 | [경주시 보건소(경주시 교통행정과 고시)](https://www.gyeongju.go.kr/health/page.do?mnu_uid=3143&pageNo=128&pageOrder=0&pagePrvNxt=1&pageRef=0&parm_bod_uid=316506&parm_mnu_uid=423&srchBgpUid=-1&srchColumn=&srchEDate=9999-12-31&srchEnable=1&srchKeyword=&srchSDate=1960-01-01&srchVoteType=-1&step=258) |

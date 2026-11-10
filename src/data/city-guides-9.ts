@@ -599,6 +599,8 @@ export const NOTES_9: Record<string, Compact> = {
       ['밀레니엄 파크', 'Millennium Park', 'ミレニアム・パーク', '거울 같은 조각 ‘클라우드 게이트(더 빈)’가 있는 도심 공원으로, 무료입니다.', 'The downtown park with the mirrored Cloud Gate (“The Bean”) — free.', '鏡のような彫刻「クラウド・ゲート（ザ・ビーン）」がある都心の公園で、無料です。'],
       ['시카고 문화센터', 'Chicago Cultural Center', 'シカゴ文化センター', '‘시민의 궁전’으로 불리는 랜드마크 건물로, 세계 최대 규모의 티파니 스테인드글라스 돔과 무료 전시·공연을 볼 수 있습니다.', 'A landmark known as “The People’s Palace,” with the world’s largest Tiffany stained-glass dome and free exhibitions and performances.', '「市民の宮殿」と呼ばれるランドマークで、世界最大のティファニー製ステンドグラス・ドームや無料の展示・公演を楽しめます。'],
       ['셰드 수족관', 'Shedd Aquarium', 'シェッド水族館', '미시간호 호숫가의 수족관으로, 해양 포유류·산호초·담수 생물 전시와 교육 프로그램을 운영합니다.', 'A lakeside aquarium with marine mammals, coral-reef and freshwater exhibits, plus learning programs.', 'ミシガン湖畔の水族館で、海洋哺乳類・サンゴ礁・淡水生物の展示や学習プログラムを楽しめます。'],
+      ['애들러 천문관', 'Adler Planetarium', 'アドラー・プラネタリウム', '미시간호를 바라보는 박물관 캠퍼스의 천문관으로, 우주 전시와 돔 상영을 볼 수 있습니다.', 'A planetarium on Museum Campus overlooking Lake Michigan, with space exhibits and immersive dome shows.', 'ミシガン湖を望むミュージアム・キャンパスにあるプラネタリウムで、宇宙展示やドームショーを楽しめます。'],
+      ['시카고 역사박물관', 'Chicago History Museum', 'シカゴ歴史博物館', '시카고의 도시 형성과 미국 역사를 유물·전시·체험형 전시로 살펴보는 링컨 파크 박물관입니다.', 'A Lincoln Park museum exploring Chicago’s development and U.S. history through artifacts and interactive exhibits.', 'リンカーン・パークにある博物館で、資料や体験型展示を通じてシカゴの発展とアメリカの歴史を紹介しています。'],
     ],
     t: [
       ['식당 메뉴 가격에는 세금과 팁이 빠져 있습니다. 시카고의 식당 세금은 약 10.75%(판매세 10.25%+식당세 0.5%)이고, 팁은 18~20%가 일반적입니다.', 'Menu prices exclude tax and tip: restaurant tax in Chicago is about 10.75% (10.25% sales tax + 0.5% restaurant tax), and an 18–20% tip is usual.', '飲食店のメニュー価格には税とチップが含まれていません。シカゴの飲食税は約10.75%（売上税10.25%＋飲食店税0.5%）で、チップは18〜20%が一般的です。'],

@@ -1053,6 +1053,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'chicago:h3': 'https://www.choosechicago.com/articles/bucket-list/the-ultimate-chicago-bucket-list/',
   'chicago:h4': 'https://www.choosechicago.com/articles/museums-art/chicago-cultural-center/',
   'chicago:h5': 'https://www.sheddaquarium.org/plan-a-visit',
+  'chicago:h6': 'https://www.adlerplanetarium.org/visit/tickets/',
+  'chicago:h7': 'https://www.chicagohistory.org/visit-us/',
   'chicago:t1': 'https://www.chicago.gov/city/en/depts/fin/supp_info/revenue/tax_list/restaurant_tax.html',
   'chicago:t2': 'https://www.transitchicago.com/fares/',
   'montreal:h1': 'https://www.basiliquenotredame.ca/en/hours-and-rates',

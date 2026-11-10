@@ -1,5 +1,11 @@
 {
   "_note": "2026-11-01. Official Japanese Korea Tourism Organization pages used to verify the Japanese attraction names added to names-ja.json.",
+  "CHI-AT-004": "https://www.adlerplanetarium.org/tickets/",
+  "CHI-AT-005": "https://www.adlerplanetarium.org/tickets/",
+  "CHI-AT-006": "https://www.chicagohistory.org/visit-us/",
+  "CHI-AT-007": "https://www.chicagohistory.org/visit-us/",
+  "MTL-AT-003": "https://calendrier.espacepourlavie.ca/en/rates",
+  "MTL-AT-004": "https://calendrier.espacepourlavie.ca/en/rates",
   "SEL-AT-101": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111235",
   "SEL-AT-111": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111235",
   "SEL-AT-102": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111017",

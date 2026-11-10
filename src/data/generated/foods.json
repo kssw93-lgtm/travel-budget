@@ -368,10 +368,10 @@
       "ja": "卵・肉・野菜を入れ、ナンプラーで味付けしたタイのチャーハン"
     },
     "photo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%81%E0%B9%88_Thai_Fried_Rice_-_Kao_Gaeng_Thai_AUD8.90_-_photo_by_Julia_%284045594401%29.jpg/960px-%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%81%E0%B9%88_Thai_Fried_Rice_-_Kao_Gaeng_Thai_AUD8.90_-_photo_by_Julia_%284045594401%29.jpg",
-      "author": "Alpha",
-      "license": "CC BY-SA 2.0",
-      "page": "https://commons.wikimedia.org/wiki/File:%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%81%E0%B9%88_Thai_Fried_Rice_-_Kao_Gaeng_Thai_AUD8.90_-_photo_by_Julia_(4045594401).jpg"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Khao_Pad_%28Rosa%27s_Fried_Rice%29_with_Chicken_-_Rosa%27s_Thai_2025-07-22.jpg",
+      "author": "Andy Li",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Khao_Pad_(Rosa's_Fried_Rice)_with_Chicken_-_Rosa's_Thai_2025-07-22.jpg"
     },
     "reasonJa": "現地の大衆的な食事の目安",
     "budgetBand": "저",
@@ -6665,9 +6665,15 @@
     "reason": "식초에 재워 익힌 소고기 찜에 독일식 수제 면을 곁들인 바덴 요리",
     "reasonEn": "Baden-style marinated pot roast with Spätzle noodles",
     "desc": {
-      "ko": "식초에 재워 익힌 소고기 찜에 독일식 수제 면을 곁들인 바덴 요리",
-      "en": "Baden-style marinated pot roast with Spätzle noodles",
-      "ja": "酢に漬けて煮込んだ牛肉にドイツの手作り麺を添えたバーデン料理"
+      "ko": "식초와 향신료에 재운 고기를 오래 익혀 만든 독일식 로스트 요리입니다.",
+      "en": "German pot roast made from meat marinated in vinegar and spices, then slowly braised.",
+      "ja": "肉を酢と香辛料に漬け込み、じっくり煮込んだドイツのロースト料理です。"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Sauerbraten_with_potato_dumplings.jpg",
+      "author": "Jameres",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Sauerbraten_with_potato_dumplings.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],

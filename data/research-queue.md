@@ -2101,6 +2101,8 @@
 | MSY-AT-004 | 뉴올리언스 | 오듀본 동물원 일반 입장 (아동) | 25~35 USD | A | 예 | 재검증 | [Audubon Nature Institute](https://audubonnatureinstitute.org/plan-your-visit_zoo/) |
 | PDX-AT-003 | 포틀랜드 | 오리건 동물원 일반 입장 (성인) | 26 USD | A | 예 | 재검증 | [Oregon Zoo / Metro](https://www.oregonzoo.org/visit/hours-and-tickets) |
 | PDX-AT-004 | 포틀랜드 | 오리건 동물원 일반 입장 (아동) | 21 USD | A | 예 | 재검증 | [Oregon Zoo / Metro](https://www.oregonzoo.org/visit/hours-and-tickets) |
+| MEX-AT-003 | 멕시코시티 | 차풀테펙 성 국립역사박물관 외국인 성인 입장권 | 210 MXN | A | 예 | 재검증 | [Instituto Nacional de Antropología e Historia (INAH)](https://lugares.inah.gob.mx/es/node/4961) |
+| MEX-AT-004 | 멕시코시티 | 차풀테펙 성 국립역사박물관 13세 미만 아동 입장권 | 0 MXN | A | 예 | 재검증 | [Instituto Nacional de Antropología e Historia (INAH)](https://lugares.inah.gob.mx/es/node/4961) |
 | CHI-AT-004 | 시카고 | 애들러 천문관 일반 입장 (성인) | 25 USD | A | 예 | 재검증 | [Adler Planetarium](https://www.adlerplanetarium.org/tickets/) |
 | CHI-AT-005 | 시카고 | 애들러 천문관 일반 입장 (아동) | 13 USD | A | 예 | 재검증 | [Adler Planetarium](https://www.adlerplanetarium.org/tickets/) |
 | CHI-AT-006 | 시카고 | 시카고 역사박물관 일반 입장 (성인 비거주자) | 24 USD | A | 예 | 재검증 | [Chicago History Museum](https://www.chicagohistory.org/visit-us/) |

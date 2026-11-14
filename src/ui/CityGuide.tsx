@@ -3,7 +3,7 @@ import { cityGuide, guidePath, type CityGuide as CityGuideData } from '../core/g
 import { airportBoardingMapUrl, airportBoardingQueries, airportDirectionsUrl, airportFareRows, airportOrigins, airportPlannerUrl } from '../core/airport-directions';
 import { formatMoney } from '../core/money';
 import type { City, PriceSample } from '../core/types';
-import { cities, dataDate, extras, foods, memos, samples } from '../data';
+import { allCities, cities, dataDate, extras, foods, memos, samples } from '../data';
 import { localizeUnit } from '../i18n/unit';
 import { CITY_GUIDES, type Localized } from '../data/city-guides';
 import { CITY_SEASON_EVENTS } from '../data/city-season-events';
@@ -363,6 +363,10 @@ function LocalPriceExamples({ guide }: { guide: CityGuideData }) {
   const { t, lang } = useI18n();
   const g = t.cityGuide;
   if (guide.priceExamples.length === 0) return null;
+  const sourceCityName = (cityId: string) => {
+    const sourceCity = allCities.find((city) => city.id === cityId);
+    return sourceCity ? cityName(sourceCity, lang) : cityId;
+  };
   return (
     <section id="local-prices" className="card" aria-labelledby="guide-prices-title" data-testid="guide-local-prices">
       <h2 id="guide-prices-title">{fmt(g.localPricesTitle, { city: cityName(guide.city, lang) })}</h2>
@@ -373,6 +377,8 @@ function LocalPriceExamples({ guide }: { guide: CityGuideData }) {
             <th scope="col">{g.localPriceType}</th>
             <th scope="col">{g.localPriceItem}</th>
             <th scope="col">{g.localPrice}</th>
+            <th scope="col">{g.localPriceOrigin}</th>
+            <th scope="col">{g.localPriceSource}</th>
           </tr>
         </thead>
         <tbody>
@@ -383,6 +389,7 @@ function LocalPriceExamples({ guide }: { guide: CityGuideData }) {
                   <th scope="row">{g.localPriceKinds[kind]}</th>
                   <td>{fmt(g.localPriceObservedCount, { count: examples.length })}</td>
                   <td><RangeText range={range} currency={guide.city.currency} /></td>
+                  <td colSpan={2} />
                 </tr>
               )}
               {examples.map((sample) => (
@@ -390,6 +397,8 @@ function LocalPriceExamples({ guide }: { guide: CityGuideData }) {
                   <td data-label={g.localPriceType}>{examples.length === 1 ? g.localPriceKinds[kind] : ''}</td>
                   <th scope="row">{localName(lang, sample.nameKo, sample.nameEn, sample.nameJa)} <small className="muted">({localizeUnit(lang, sample.unit)})</small></th>
                   <td data-label={g.localPrice}><RangeText range={{ min: sample.min, max: sample.max }} currency={sample.currency} /></td>
+                  <td data-label={g.localPriceOrigin}>{sourceCityName(sample.cityId)}</td>
+                  <td data-label={g.localPriceSource}>{sample.sourceName} <small className="muted">{sample.checkedAt}</small></td>
                 </tr>
               ))}
             </tbody>

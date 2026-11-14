@@ -28,6 +28,12 @@
 
 ## 데이터
 
+### 2026-11-14 — 현지 가격 예시의 출처와 표본 도시 공개
+
+- AdSense 저가치 콘텐츠 안내는 충분한 유용한 콘텐츠와 편리한 탐색을 요구하며, Search Central은 검색 유입만을 위한 대량의 비독창적 페이지를 경고한다. 기존 가이드의 가격표는 같은 나라의 다른 도시 표본이 포함될 수 있다고만 안내해, 어느 행이 어디에서 확인됐는지 이용자가 구분하기 어려웠다.
+- 가격 행마다 표본 도시, 공식 출처 기관명, 실제 확인일을 한국어·영어·일본어 화면과 검색용 정적 HTML에 표시한다. 가격 표에 외부 링크를 넣지 않는 기존 결정을 유지하면서 지역 표본과 기준일을 분명히 한다. 검증 URL은 원본 가격 자료에 보존한다.
+- 참고: https://support.google.com/adsense/answer/12176698 ; https://support.google.com/adsense/answer/7299563 ; https://developers.google.com/search/docs/fundamentals/creating-helpful-content ; https://developers.google.com/search/docs/essentials/spam-policies
+
 ### 2026-11-14 — 공항 이동 안내에 공식 요금과 확인일 표시
 
 - Google AdSense의 저가치 콘텐츠 안내와 Search Central의 사람 우선 콘텐츠 기준을 확인했다. 정적 페이지의 글자 수만 늘리지 않고, 여행자가 바로 비교할 수 있는 공식 공항 이동 요금·대상·단위·출처·확인일을 기존 도시별 공항 안내에 연결한다.

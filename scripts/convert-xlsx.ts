@@ -47,6 +47,11 @@ const COUNTRY_EN: Record<string, string> = {
   덴마크: 'Denmark', 스웨덴: 'Sweden', 핀란드: 'Finland', 폴란드: 'Poland', 아일랜드: 'Ireland', 벨기에: 'Belgium', 이집트: 'Egypt', 아이슬란드: 'Iceland', 에스토니아: 'Estonia', 라트비아: 'Latvia', 노르웨이: 'Norway', 남아프리카공화국: 'South Africa', 모로코: 'Morocco',
 };
 
+const memoJaPath = `${root}/data/overlays/city-memos-ja.json`;
+const memoJa = existsSync(memoJaPath)
+  ? (JSON.parse(readFileSync(memoJaPath, 'utf8')) as Record<string, { itemJa: string; valueJa: string }>)
+  : {};
+
 const errors: string[] = [];
 const REVIEW_VERDICTS = ['일치', '불일치', '확인불가'];
 /** 지도·리뷰·배달 플랫폼 주소(판매 주체 공식 페이지가 아님) */
@@ -474,6 +479,7 @@ function main() {
         value: r('값'),
         itemEn: r('Item (English)'),
         valueEn: r('Value (English)'),
+        ...memoJa[`${city.id}|${r('항목')}`],
         unit: r('단위'),
         sourceName: r('출처명'),
         sourceUrl: r('출처 URL'),
@@ -485,6 +491,12 @@ function main() {
       if (!memo.checkedAt) errors.push(`도시 메모(${city.nameKo} ${memo.item}): 조회일 해석 불가`);
       memos.push(memo);
     }
+  }
+  for (const [key, translation] of Object.entries(memoJa)) {
+    if (key.startsWith('_')) continue;
+    const [cityId, item] = key.split('|');
+    if (!memos.some((memo) => memo.cityId === cityId && memo.item === item)) notes.push(`city-memos-ja.json: 일치하는 도시 메모가 없음 '${key}'`);
+    if (!translation.itemJa || !translation.valueJa) errors.push(`city-memos-ja.json ${key}: 일본어 항목과 값이 필요함`);
   }
 
   // 데이터 점검 리포트

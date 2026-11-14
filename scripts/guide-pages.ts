@@ -216,7 +216,7 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const m = MSG[lang].memos;
   const memos = d.memos
     .filter((x) => x.cityId === city.id)
-    .map((x) => `<li>${e((lang !== 'ko' && x.itemEn) || x.item)}: ${e((lang !== 'ko' && x.valueEn) || x.value)}${x.unit && (lang === 'ko' || !/[가-힣]/.test(x.unit)) ? ` ${e(x.unit)}` : ''}</li>`)
+    .map((x) => `<li>${e(lang === 'ko' ? x.item : lang === 'ja' ? x.itemJa || x.itemEn || x.item : x.itemEn || x.item)}: ${e(lang === 'ko' ? x.value : lang === 'ja' ? x.valueJa || x.valueEn || x.value : x.valueEn || x.value)}${x.unit && (lang === 'ko' || !/[가-힣]/.test(x.unit)) ? ` ${e(x.unit)}` : ''}</li>`)
     .join('');
   const ownMeals = d.samples.some((x) => x.cityId === city.id && x.category === 'food' && /한끼/.test(x.subtype));
   const borrowedNote = ownMeals ? '' : `        <p>${e(fill(s.borrowed, { city: name, country }))}</p>`;

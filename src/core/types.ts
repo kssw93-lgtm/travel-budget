@@ -68,6 +68,9 @@ export interface CityMemo {
   /** 영문 항목·값(선택 열 `Item (English)`·`Value (English)`). 없으면 영어 화면에서도 한글 원문 */
   itemEn: string;
   valueEn: string;
+  /** 일본어 항목·값. 확인된 번역이 없는 경우 일본어 화면에서 영어로 대체 */
+  itemJa?: string;
+  valueJa?: string;
   unit: string;
   sourceName: string;
   sourceUrl: string;

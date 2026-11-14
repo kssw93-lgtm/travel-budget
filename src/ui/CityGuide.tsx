@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { cityGuide, guidePath, type CityGuide as CityGuideData } from '../core/guide';
-import { airportBoardingMapUrl, airportBoardingQueries, airportDirectionsUrl, airportOrigins, airportPlannerUrl } from '../core/airport-directions';
+import { airportBoardingMapUrl, airportBoardingQueries, airportDirectionsUrl, airportFareRows, airportOrigins, airportPlannerUrl } from '../core/airport-directions';
 import { formatMoney } from '../core/money';
 import type { City, PriceSample } from '../core/types';
 import { cities, dataDate, extras, foods, memos, samples } from '../data';
@@ -128,6 +128,7 @@ function AirportAccess({ city }: { city: City }) {
   const areaLabel = CITY_INTROS[city.id]?.s[0]?.[lang === 'ko' ? 0 : lang === 'ja' ? 2 : 1] ?? area;
   const airportTip = note.tips[index]!;
   const origins = airportOrigins(city, airportTip.en);
+  const fares = airportFareRows(city.id, extras);
   return (
     <section id="airport" className="card prose airport-access" aria-labelledby="guide-airport-title" data-testid="guide-airport">
       <h2 id="guide-airport-title">{t.cityGuide.airportAccessTitle}</h2>
@@ -167,6 +168,32 @@ function AirportAccess({ city }: { city: City }) {
           </span>
         ))}
       </div>
+      {fares.length > 0 && (
+        <>
+          <h3>{t.cityGuide.airportFareTitle}</h3>
+          <p className="hint">{t.cityGuide.airportFareLead}</p>
+          <table className="guide-table stack" data-testid="airport-fares">
+            <thead>
+              <tr>
+                <th scope="col">{t.cityGuide.airportFareRoute}</th>
+                <th scope="col">{t.cityGuide.airportFarePrice}</th>
+                <th scope="col">{t.cityGuide.airportFareUnit}</th>
+                <th scope="col">{t.cityGuide.airportFareSource}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {fares.map((fare) => (
+                <tr key={fare.id}>
+                  <th scope="row">{localName(lang, fare.nameKo, fare.nameEn, fare.nameJa)}</th>
+                  <td><RangeText range={{ min: fare.min, max: fare.max }} currency={fare.currency} /></td>
+                  <td>{localizeUnit(lang, fare.unit)}</td>
+                  <td><ExternalLink href={fare.sourceUrl}>{fare.sourceName}</ExternalLink> <small className="muted">{fare.checkedAt}</small></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </>
+      )}
       <p className="hint">{t.cityGuide.airportAccessHint}</p>
     </section>
   );

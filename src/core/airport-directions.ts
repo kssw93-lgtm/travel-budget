@@ -1,4 +1,4 @@
-import type { City } from './types';
+import type { City, ExtraSample } from './types';
 
 export interface AirportOrigin {
   /** Name shown on the route link. */
@@ -14,6 +14,13 @@ export interface AirportOrigin {
 }
 
 export type AirportTransitMode = 'bus stop' | 'train station' | 'metro station' | 'public transport stop';
+
+/** Official, confirmed one-way airport fares that can be shown alongside the route guidance. */
+export function airportFareRows(cityId: string, extras: ExtraSample[]): ExtraSample[] {
+  return extras
+    .filter((sample) => sample.cityId === cityId && sample.kind === 'airport' && sample.grade === 'A' && sample.modelUse === 'yes' && !sample.status.includes('보류'))
+    .sort((a, b) => Number(/아동|어린이|소인|child/i.test(a.target)) - Number(/아동|어린이|소인|child/i.test(b.target)) || b.checkedAt.localeCompare(a.checkedAt));
+}
 
 /** Airports named in the city's existing travel guidance; multiple airports stay separate. */
 const AIRPORT_ORIGINS: Record<string, AirportOrigin[]> = {

@@ -1,6 +1,6 @@
 /**
- * AdSense 신청 전 점검: 빌드 결과(dist)만 보고 승인 심사에 필요한 것이 갖춰졌는지 확인한다.
- * 실제 값(도메인·이메일·게시자 ID)은 빌드 환경변수로 넣으며, 여기서는 결과물에 제대로 들어갔는지만 본다.
+ * AdSense 신청 전 기술 점검: 빌드 결과(dist)에 기본 페이지·메타·정책 문구가 있는지 확인한다.
+ * 이 검사는 본문 고유성·실제 사용자 가치·Google의 승인 여부를 판단하지 않는다.
  */
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
@@ -63,8 +63,8 @@ export function checkAdsenseReady(dir: string): CheckResult[] {
     missingMeta.length === all.length ? 'ADSENSE_PUBLISHER_ID 를 넣고 다시 빌드하세요.' : `태그가 빠진 페이지: ${missingMeta.join(', ')}`,
   );
 
-  const thin = guides.filter((f) => fallbackText(html[f] ?? '').length < 800);
-  add(guides.length >= 10 && thin.length === 0, `도시 가이드 ${guides.length}개가 각자 고유한 정적 본문을 가짐(800자 이상)`, thin.length ? `본문이 짧은 가이드: ${thin.join(', ')}` : '도시 가이드가 10개 미만입니다.');
+  const shortGuides = guides.filter((f) => fallbackText(html[f] ?? '').length < 800);
+  add(guides.length >= 10 && shortGuides.length === 0, `도시 가이드 ${guides.length}개에 정적 본문 800자 이상 있음(고유 가치·품질 판정은 아님)`, shortGuides.length ? `본문이 짧은 가이드: ${shortGuides.join(', ')}` : '도시 가이드가 10개 미만입니다.');
 
   const titles = all.map((f) => /<title>([^<]*)<\/title>/.exec(html[f] ?? '')?.[1] ?? '');
   add(titles.every((t) => t) && new Set(titles).size === titles.length, '페이지마다 제목이 있고 서로 다름', '제목이 비었거나 겹치는 페이지가 있습니다.');

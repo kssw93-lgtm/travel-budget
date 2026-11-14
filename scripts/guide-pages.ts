@@ -3,7 +3,7 @@
  * 언어마다(ko·en·ja) 따로 만든다: 한국어는 기본 주소, 영어·일본어는 Worker 가 ?lang= 에 맞춰 골라 보낸다.
  */
 import { cityGuide, guidePath } from '../src/core/guide';
-import { airportBoardingMapUrl, airportBoardingQueries, airportDirectionsUrl, airportOrigins, airportPlannerUrl } from '../src/core/airport-directions';
+import { airportBoardingMapUrl, airportBoardingQueries, airportDirectionsUrl, airportFareRows, airportOrigins, airportPlannerUrl } from '../src/core/airport-directions';
 import { convertAmount, costComparison, formatCompareMoney } from '../src/core/compare';
 import { methodExample } from '../src/core/method';
 import { STATIC_RATES } from '../src/core/rates/static';
@@ -125,6 +125,12 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const airportTip = airportIndex >= 0 ? note?.tips[airportIndex] : undefined;
   const airportArea = intro?.s[0]?.[1] ?? `${city.nameEn} city centre`;
   const airportAreaLabel = intro?.s[0]?.[IDX[lang]] ?? (lang === 'ko' ? `${name} 중심부` : lang === 'ja' ? `${name}中心部` : `${name} city centre`);
+  const airportFares = airportFareRows(city.id, d.extras)
+    .map((fare) => `<tr><th scope="row">${e(pick(lang, fare.nameKo, fare.nameEn, fare.nameJa))}</th><td>${e(range(fare, fare.currency))}</td><td>${e(localizeUnit(lang, fare.unit))}</td><td><a href="${e(fare.sourceUrl)}" target="_blank" rel="noopener noreferrer">${e(fare.sourceName)}</a> <small>${e(fare.checkedAt)}</small></td></tr>`)
+    .join('');
+  const airportFareTable = airportFares
+    ? `<h3>${e(t.airportFareTitle)}</h3><p>${e(t.airportFareLead)}</p><table><thead><tr><th>${e(t.airportFareRoute)}</th><th>${e(t.airportFarePrice)}</th><th>${e(t.airportFareUnit)}</th><th>${e(t.airportFareSource)}</th></tr></thead><tbody>${airportFares}</tbody></table>`
+    : '';
   const boardingMaps = airportOrigins(city, airportTip?.en)
     .map((origin) => [
       ...airportBoardingQueries(origin, airportTip?.ko ?? '').map(({ mode, query }) =>
@@ -140,7 +146,7 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const airportDirections = airportIndex >= 0
     ? `<h3>${e(t.airportDirectionsTitle)}</h3><div class="airport-map-links">${airportOrigins(city, airportTip?.en)
         .map((origin) => `<a class="airport-map-link" href="${e(airportDirectionsUrl(origin.query, airportArea, lang))}" target="_blank" rel="noopener noreferrer">${e(fill(t.airportDirectionsLink, { airport: origin.label, area: airportAreaLabel }))}</a>`)
-        .join('')}</div><p>${e(t.airportDirectionsNote)}</p><h3>${e(t.airportBoardingTitle)}</h3><div class="airport-map-links">${boardingMaps}</div>`
+        .join('')}</div><p>${e(t.airportDirectionsNote)}</p><h3>${e(t.airportBoardingTitle)}</h3><div class="airport-map-links">${boardingMaps}</div>${airportFareTable}`
     : '';
   const airportAccess = airportIndex >= 0
     ? `        <h2>${e(t.airportAccessTitle)}</h2><p>${e(note!.tips[airportIndex]![lang])}</p>${airportDirections}<p>${e(t.airportAccessHint)}</p>`

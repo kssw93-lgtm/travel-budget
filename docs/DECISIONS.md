@@ -28,6 +28,13 @@
 
 ## 데이터
 
+### 2026-11-14 — 공항 이동 안내에 공식 요금과 확인일 표시
+
+- Google AdSense의 저가치 콘텐츠 안내와 Search Central의 사람 우선 콘텐츠 기준을 확인했다. 정적 페이지의 글자 수만 늘리지 않고, 여행자가 바로 비교할 수 있는 공식 공항 이동 요금·대상·단위·출처·확인일을 기존 도시별 공항 안내에 연결한다.
+- 도시별 가격 원장 중 A등급·계산 사용 가능·보류 아님인 공항 요금만 노출한다. 값은 원장 그대로 유지하며, 출처와 확인일을 함께 표시하고 출발일 기준 재확인을 안내한다. 화면과 검색엔진용 정적 HTML이 같은 표본을 사용한다.
+- 애드센스 준비 스크립트의 800자 검사는 기술적인 최소 본문 검사일 뿐, 고유 가치나 승인 여부를 판정하지 못한다. 보고 문구도 이를 분명히 하도록 고친다.
+- 참고: https://support.google.com/adsense/answer/81904 ; https://developers.google.com/search/docs/fundamentals/creating-helpful-content ; https://developers.google.com/search/docs/essentials/spam-policies
+
 ### 2026-11-14 — 도시 메모의 일본어 표시
 
 - 애드센스의 저가치 콘텐츠 안내를 계기로 실제 가이드 페이지를 확인했더니, 일본어 페이지에서도 도시 메모의 제목·설명이 영어로 출력되는 항목이 있었다. 메모 26행은 기존 한국어·영어 값을 그대로 두고, 일본어 표시용 번역을 `data/overlays/city-memos-ja.json`에 추가한다.

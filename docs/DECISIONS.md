@@ -463,3 +463,10 @@
 - 추가 후 대표 음식 658개 중 사진 연결 501개, 미연결 157개다. 입장료 추가는 `data/additions/prices-guide-attractions-2026-11-10-7.csv`, 사진 기록은 `GPT전달내용/결과/음식사진_2026-11-10_5.csv`다.
 - 확인한 Frist 공식 페이지에는 화요일·수요일 휴관 및 특정 공휴일 휴관이 명시되어 있지만, 이번 변경에서는 휴관 문구를 새로 추가하지 않았다. 후속 도시 점검에서 가격과 정기 휴관 정보를 함께 보강한다.
 - 호바트 MONA 입장료를 공식 페이지로 재확인했다. 2026-10-22부터 비태즈메이니아 성인 요금이 AUD 45로 적용 중이며, 기존 표본은 인상 전 $39와 인상 후 $45를 범위처럼 표시했다. 현행 단일가 AUD 45로 교정하고 결과 CSV에 확인일·원문을 기록했다.
+
+## 2026-11-15: 청두·빌바오·슈투트가르트 가이드 실용 정보 보강
+- 청두 가이드에서 방문자가 판다 기지의 어느 문으로 갈지 결정하고 대중교통을 연결할 수 있도록 남문(3호선 Panda Avenue역 A 출구·408번 셔틀 또는 Zoo역·87/655번 버스)과 서문(3호선 Junqu General Hospital역 B 출구·409번 셔틀)을 구분해 적는다. 계절별 입장 시간과 실명 예약, 신분증 원본, 예약 면제 대상도 설명한다. 일반 여행 팁에 있던 금액 표기는 없앤다. 근거: https://www.panda.org.cn/en/service/transit/ 및 https://m.panda.org.cn/en/service/ticket/.
+- 빌바오 가이드에 지하철이 중심가·해안·도시권을 잇는 점과 심야 운행이 요일별로 달라짐을 넣고, 실제 막차를 공식 시간표에서 역·방향별로 확인하도록 안내한다. 근거: https://www.bilbaoturismo.net/BilbaoTurismo/en/walking-routes/metro-bilbao.
+- 슈투트가르트 가이드에서 공항 S-Bahn 설명의 할인율을 제거하고, 메르세데스벤츠·포르쉐 박물관행 S-Bahn 노선·하차역 및 두 박물관의 월요일 휴관을 추가한다. 근거: https://www.stuttgart-tourist.de/touristeninformation-stuttgart.
+- 숙소 동네가 한 곳뿐이던 더블린·오클랜드에 여행 목적별 대안을 추가한다. 더블린은 스미스필드·리버티스의 역사·문화와 Luas 접근을, 오클랜드는 폰손비의 식당·상점·저녁 활동과 브리토마트의 페리 편의를 비교하게 한다. 근거: https://www.visitdublin.com/guides/guide-first-time-visitor-dublin, https://www.visitdublin.com/guides/dublin-neighbourhoods, https://www.aucklandnz.com/explore/ponsonby, https://www.aucklandnz.com/plan.
+- 추가 팁·숙소 동네의 한국어·영어·일본어 문장은 각각 같은 실용 정보를 담도록 맞춘다. 이 작업은 가격 자료를 바꾸지 않는다.

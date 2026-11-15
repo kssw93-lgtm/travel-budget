@@ -743,6 +743,7 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['공항에서 숙소까지: 도착층에서 A3247번 비스카이부스 표지와 승차장을 찾으세요. 버스는 빌바오 터미버스와 공항을 연결하며, 시내에서는 그란 비아 79번지·모유아 광장·알라메다 레칼데 11번지에 섭니다. 숙소와 가까운 정류장에서 내리고, 시내 이동이 필요하면 터미버스나 모유아에서 환승하세요.', 'Airport to your stay: At arrivals, follow the Bizkaibus A3247 signs to its stop. The bus links the airport with Bilbao Termibus and stops in the city at Gran Vía 79, Plaza Moyua and Alameda Recalde 11. Get off nearest your accommodation; if transferring across town, use Termibus or Moyua as your connection point.', '空港から宿泊先へ：到着階でビスカイブスA3247番の案内に従って乗り場へ。空港とビルバオのターミバスを結び、市内ではグラン・ビア79番地、モユア広場、アラメダ・レカルデ11番地に停車します。宿泊先に近い停留所で降り、市内で乗り換える場合はターミバスかモユアを接続地点にしましょう。'],
+      ['빌바오 지하철은 시내 중심뿐 아니라 해안과 대도시권의 여러 마을까지 이어집니다. 일반 운행은 대체로 06:00~23:00이지만 금요일·공휴일 전날과 토요일은 심야 운행이 달라질 수 있으니, 막차가 중요한 날은 역·방향별 공식 시간표를 확인하세요.', 'Bilbao Metro links the centre with the coast and towns across the metropolitan area. Regular service is generally around 06:00–23:00, but late-night service differs on Fridays, holiday eves and Saturdays; check the official timetable by station and direction when planning a last train.', 'ビルバオ地下鉄は中心部だけでなく、海岸や都市圏の町にもつながっています。通常の運行はおおむね06:00〜23:00ですが、金曜・祝前日・土曜は深夜運行が異なるため、終電を利用する日は駅と方面ごとの公式時刻表を確認しましょう。'],
     ],
   },
   toulouse: {
@@ -798,7 +799,9 @@ export const NOTES_9: Record<string, Compact> = {
       ['두보초당 박물관', 'Du Fu Thatched Cottage Museum', '杜甫草堂博物館', '당나라 시인 두보가 청두에 머물던 옛 거처를 기념하는 박물관·정원으로, 시비와 대나무 숲길을 볼 수 있습니다.', 'A museum and garden commemorating Tang poet Du Fu’s former Chengdu residence, with poetry steles and bamboo paths.', '唐代の詩人・杜甫が成都に滞在した旧居を記念する博物館と庭園で、詩碑や竹林の小道があります。'],
     ],
     t: [
-      ['지하철은 거리에 따라 2위안부터 요금이 오르며, 1일권(20위안)으로 하루 동안 무제한 탈 수 있습니다. 톈푸 국제공항은 18호선 급행으로 시내 남역까지 약 37분 걸립니다.', 'The metro starts at ¥2 and rises with distance; a ¥20 day ticket gives unlimited rides. From Tianfu International Airport, Line 18 express reaches South Railway Station in about 37 minutes.', '地下鉄は2元から距離に応じて運賃が上がり、1日券（20元）で一日乗り放題です。天府国際空港からは18号線の快速で成都南駅まで約37分です。'],
+      ['톈푸 국제공항에서 시내로는 지하철 18호선을 이용해 청두 남역 방면으로 이동할 수 있습니다. 판다 기지는 다른 방향이므로 공항에서 바로 갈 때는 숙소에 짐을 두고 이동할지, 목적지까지의 환승을 노선 검색으로 확인하세요.', 'From Tianfu International Airport, Metro Line 18 runs toward Chengdu South Railway Station. The Panda Base is in a different direction, so if going there directly, check the full transfer route or consider dropping luggage at your accommodation first.', '天府国際空港から市内へは地下鉄18号線で成都南駅方面へ移動できます。パンダ基地は別方向にあるため、空港から直接向かう場合は乗り換え経路を調べるか、先に宿泊先へ荷物を預けるか検討しましょう。'],
+      ['판다 기지는 어느 문으로 들어가느냐에 따라 가장 가까운 역과 버스가 다릅니다. 남문은 지하철 3호선 판다 애비뉴역 A 출구에서 전용 셔틀 408번, 또는 동물원역에서 87·655번 버스를 이용합니다. 서문은 군구총의원역 B 출구에서 전용 셔틀 409번으로 갑니다. 방문 전 공식 교통 안내에서 운행 변경을 확인하세요.', 'The Panda Base has different metro and bus connections for its two gates. For the South Gate, take Metro Line 3 to Panda Avenue, Exit A, then shuttle 408; or use buses 87 or 655 from Zoo Station. For the West Gate, use Junqu General Hospital Station, Exit B, and shuttle 409. Check the official transport page for service changes.', 'パンダ基地は門によって最寄り駅とバスが異なります。南門へは地下鉄3号線・熊猫大道駅A出口から専用シャトル408番、または動物園駅から87・655番バス。西門へは軍区総医院駅B出口から専用シャトル409番です。運行変更がないか公式交通案内を確認してください。'],
+      ['일반 방문자는 날짜 지정 온라인 실명 예약과 예약 때 사용한 신분증 원본이 필요합니다. 60세 이상과 6세 미만 또는 키 1.3m 미만 아동은 예약 면제 대상입니다. 입장은 오전·오후 시간대로 나뉘고 계절에 따라 시간이 달라지므로 방문일의 시간대와 예약 가능 여부를 확인하세요.', 'Most visitors need a date-specific online real-name reservation and the original ID used to book. Visitors aged 60 or over and children under 6 or under 1.3 m are exempt from reservations. Entry is split into morning and afternoon slots with seasonal hours, so check availability and the schedule for your visit date.', '一般の来園者は日付指定のオンライン実名予約が必要で、予約時に使った身分証の原本を持参します。60歳以上、または6歳未満・身長1.3m未満の子どもは予約免除の対象です。入場は午前・午後に分かれ、季節で時間が異なるため、訪問日の枠と予約状況を確認しましょう。'],
     ],
   },
   'mexico-city': {
@@ -1170,7 +1173,9 @@ export const NOTES_9: Record<string, Compact> = {
       ['킬레스베르크 공원과 전망탑', 'Killesberg Park and Tower', 'キレスベルク公園と展望塔', '정원·산책로·전망탑이 있는 공원으로, 언덕 지형과 도시 풍경을 감상할 수 있습니다.', 'A park with gardens, walking paths and a lookout tower over its hilly grounds and the city.', '庭園や遊歩道、展望塔がある公園で、起伏のある園内や市街の景色を楽しめます。'],
     ],
     t: [
-      ['공항에서 시내: S반 S2·S3이 15분 간격으로 공항과 중앙역을 약 27분에 잇습니다. 시내 1구간 1회권은 휴대폰 티켓으로 사면 약 5% 쌉니다.', 'Airport to city: S-Bahn S2/S3 run every 15 minutes to the main station in about 27 minutes; zone-1 singles are about 5% cheaper as mobile tickets.', '空港から市内へ：SバーンS2・S3が15分間隔で空港と中央駅を約27分で結んでいます。市内1ゾーンの1回券はスマホチケットで買うと約5%安くなります。'],
+      ['공항에서 중앙역까지 S반 S2·S3이 연결하며, 열차로 약 27분 걸립니다. 공항과 중앙역 사이 운행 간격은 시간대에 따라 달라질 수 있으니 도착 시간에 맞춰 공식 시간표를 확인하세요.', 'S-Bahn lines S2 and S3 connect the airport with the main station in about 27 minutes. The service interval varies by time of day, so check the official timetable for your arrival.', '空港と中央駅はSバーンS2・S3で結ばれ、所要時間は約27分です。運行間隔は時間帯によって変わるため、到着時刻に合わせて公式時刻表を確認しましょう。'],
+      ['메르세데스벤츠 박물관은 중앙역 지하에서 S1 에슬링겐 방면 열차를 타고 네카르파크역에, 포르쉐 박물관은 S6 바일 데어 슈타트 방면 열차를 타고 포르쉐플라츠역에 내리세요.', 'For the Mercedes-Benz Museum, take S1 toward Esslingen from the main station’s underground platforms to Neckarpark. For the Porsche Museum, take S6 toward Weil der Stadt to Porscheplatz.', 'メルセデス・ベンツ博物館へは中央駅地下ホームからエスリンゲン方面のS1でネッカーパーク駅へ。ポルシェ博物館へはヴァイル・デア・シュタット方面のS6でポルシェプラッツ駅へ向かいます。'],
+      ['메르세데스벤츠 박물관과 포르쉐 박물관은 월요일에 휴관합니다. 자동차 박물관 관람을 넣는 일정은 화~일요일로 잡고, 월요일에는 TV 타워나 시내 산책처럼 운영일이 다른 장소를 배치하세요. 공휴일·특별 휴관은 방문일 직전에 다시 확인하세요.', 'The Mercedes-Benz and Porsche Museums are closed on Mondays. Schedule the car museums for Tuesday to Sunday and use Monday for a different option, such as the TV Tower or a city walk. Recheck holiday and special closures shortly before your visit.', 'メルセデス・ベンツ博物館とポルシェ博物館は月曜休館です。自動車博物館は火曜から日曜に予定し、月曜はテレビ塔や市内散策など別の過ごし方を選びましょう。祝日や臨時休館は訪問前に再確認してください。'],
     ],
   },
   dusseldorf: {

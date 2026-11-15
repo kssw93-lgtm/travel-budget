@@ -31,6 +31,7 @@ export const INTROS_4: Record<string, Intro> = {
     d: [3, 4],
     s: [
       ['템플 바·트리니티 칼리지 주변', 'Temple Bar / Trinity College', 'テンプル・バー・トリニティ・カレッジ周辺', '명소와 펍을 걸어서 다닙니다(템플 바 바로 옆은 밤에 시끄러울 수 있음).', 'Walk to sights and pubs (right on Temple Bar can be noisy at night).', '名所やパブへ歩いて行けます（テンプル・バーの真横は夜うるさいことも）。'],
+      ['스미스필드·리버티스', 'Smithfield / The Liberties', 'スミスフィールド／リバティーズ', '제임슨 증류소와 크라이스트처치 대성당 쪽을 둘러보며, 템플 바와 다른 동네 분위기를 원하는 경우 살펴볼 만합니다. 루아스 레드 라인과 버스가 지나 시내 다른 구역으로 이동하기도 편합니다.', 'Consider this area for the Jameson Distillery and Christ Church Cathedral, with a different feel from Temple Bar. The Luas Red Line and buses make it practical for reaching other parts of the centre.', 'ジェムソン蒸留所やクライストチャーチ大聖堂を巡り、テンプル・バーとは違う雰囲気を楽しみたい人に向いています。ルアス・レッドラインやバスで中心部の他のエリアへ移動できます。'],
     ],
   },
   amsterdam: {

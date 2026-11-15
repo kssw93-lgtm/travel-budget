@@ -93,6 +93,7 @@ export const INTROS_5: Record<string, Intro> = {
     d: [2, 3],
     s: [
       ['시내 중심(브리토마트·바이어덕트)', 'CBD (Britomart / Viaduct)', '中心部（ブリトマート・ヴァイアダクト）', '페리 터미널과 식당가가 가깝습니다.', 'Near the ferry terminal and waterfront dining.', 'フェリーターミナルや飲食街に近いです。'],
+      ['폰손비', 'Ponsonby', 'ポンソンビー', '식당·카페·독립 상점과 밤 문화를 가까이 두고 싶을 때 적합합니다. 중심부에서 버스나 도보로 이동하며, 페리 중심 일정이면 브리토마트 쪽이 더 편합니다.', 'A good fit for restaurants, cafés, independent shops and nightlife. Reach it from the centre by bus or on foot; Britomart is handier for ferry-focused plans.', '飲食店やカフェ、個人店、夜の店を楽しみたい人に向いています。中心部からバスか徒歩で移動でき、フェリー中心の予定ならブリトマート周辺の方が便利です。'],
     ],
   },
   qingdao: {

@@ -470,3 +470,9 @@
 - 슈투트가르트 가이드에서 공항 S-Bahn 설명의 할인율을 제거하고, 메르세데스벤츠·포르쉐 박물관행 S-Bahn 노선·하차역 및 두 박물관의 월요일 휴관을 추가한다. 근거: https://www.stuttgart-tourist.de/touristeninformation-stuttgart.
 - 숙소 동네가 한 곳뿐이던 더블린·오클랜드에 여행 목적별 대안을 추가한다. 더블린은 스미스필드·리버티스의 역사·문화와 Luas 접근을, 오클랜드는 폰손비의 식당·상점·저녁 활동과 브리토마트의 페리 편의를 비교하게 한다. 근거: https://www.visitdublin.com/guides/guide-first-time-visitor-dublin, https://www.visitdublin.com/guides/dublin-neighbourhoods, https://www.aucklandnz.com/explore/ponsonby, https://www.aucklandnz.com/plan.
 - 추가 팁·숙소 동네의 한국어·영어·일본어 문장은 각각 같은 실용 정보를 담도록 맞춘다. 이 작업은 가격 자료를 바꾸지 않는다.
+
+## 2026-11-15: 인기 도시 가이드에 일정 권역 묶기 추가
+- 단순 명소 소개와 기본 교통 팁만으로는 여행자가 실제로 일정을 짜기 어렵다. 도쿄·서울·방콕·파리·런던 가이드에 2~3일 일정을 지리적 권역이나 이동 거점별로 묶는 방법을 한국어·영어·일본어로 추가한다.
+- 도쿄는 동쪽·서쪽·시모키타자와/신주쿠 권역을 분리하고, 서울은 도심·광화문/남산·강남 권역을 분리한다. 방콕은 짜오프라야강 선착장과 주변 명소를 연결하고, 파리는 역사 중심부·에펠탑/샹젤리제·몽마르트르 등 관심사별 권역, 런던은 강변·웨스트민스터·웨스트엔드/이스트엔드·그리니치 일정을 나눈다.
+- 목적은 안내 문장 수를 채우는 것이 아니라 도시를 가로지르는 불필요한 이동을 줄이고, 짧은 체류에서 어떤 지역을 선택할지 결정하게 돕는 것이다. 현지 관광청의 일정 안내를 기준으로 요약하고, 항목별 근거는 `src/data/city-guide-sources.ts`에 보관한다.
+- 출처: https://www.gotokyo.org/en/story/walks-and-tours/best-of-tokyo/index.html, https://english.visitseoul.net/mvp/IfyouvisitSeoulforthefirsttime/ENN036597, https://www.tourismthailand.org/Articles/1-day-trip-boat-journey-in-bangkok-enjoy-a-great-time-alongside-the-river-with-bangkok-s-boat-service, https://parisjetaime.com/eng/discover-paris/paris-in-1-2-or-3-days-i126, https://www.visitlondon.com/things-to-do/visiting-london-for-the-first-time/firsttime-visitors-itinerary.

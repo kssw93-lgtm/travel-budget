@@ -14,6 +14,7 @@ export const NOTES_5: Record<string, Compact> = {
       ['지하철·버스는 교통카드(티머니)로 갈아타면 환승 할인이 됩니다.', 'Transfers between subway and bus are discounted with a T-money card.', '地下鉄とバスはT-moneyカードで乗り換えると割引になります。'],
       ['북촌 일부 골목은 관광 가능 시간이 정해져 있어 이른 아침·늦은 저녁 방문은 피하세요.', 'Parts of Bukchon have set visiting hours; avoid early mornings and late evenings.', '北村の一部路地は観光可能時間が決まっているので、早朝や夜遅くは避けましょう。'],
       ['공항에서 시내: 인천공항 T1·T2의 공항철도역은 각 터미널 교통센터 지하 1층에 있습니다. 직통열차는 서울역까지 가고, 일반열차는 홍대입구·공덕 등에 섭니다. 김포공항역에서는 지하철 5·9호선과 공항철도로 갈아탈 수 있습니다.', 'Airport to city: at Incheon T1 and T2, the Airport Railroad station is in each terminal’s B1 Transportation Center. Express trains run to Seoul Station; all-stop trains call at Hongik Univ. and Gongdeok. At Gimpo Airport Station, transfer to subway lines 5 or 9 and AREX.', '空港から市内へ：仁川空港T1・T2の空港鉄道駅は、各ターミナルの交通センター地下1階にあります。直通列車はソウル駅へ、一般列車は弘大入口・孔徳などに停車します。金浦空港駅では地下鉄5・9号線と空港鉄道に乗り換えられます。'],
+      ['처음 서울을 3일 둘러본다면 명동·북촌·광장시장·동대문은 도심 일정에, 광화문·남산·이태원은 다른 날에 묶으세요. 강남·코엑스는 별도 일정으로 두면 지하철을 타고 도시를 여러 번 가로지르는 일을 줄일 수 있습니다.', 'For a first three-day Seoul trip, group Myeongdong, Bukchon, Gwangjang Market and Dongdaemun on central days, then visit Gwanghwamun, Namsan and Itaewon on another day. Leave Gangnam and COEX for a separate day to avoid crisscrossing the city.', '初めてのソウルを3日で巡るなら、明洞・北村・広蔵市場・東大門は都心の日に、光化門・南山・梨泰院は別の日にまとめましょう。江南・COEXはさらに別日にすると、市内を何度も横断せずに済みます。'],
     ],
   },
   busan: {

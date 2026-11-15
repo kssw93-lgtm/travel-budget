@@ -115,6 +115,11 @@ const BASE: Record<string, CityGuideNote> = {
         en: 'The Tokyo National Museum is usually closed on Mondays; when Monday is a public holiday, it closes on the following weekday. Check its official calendar before visiting.',
         ja: '東京国立博物館は通常月曜日が休館日です。月曜日が祝日の場合は翌平日が休館となるため、来館前に公式カレンダーを確認してください。',
       },
+      {
+        ko: '처음 도쿄를 3일 둘러본다면 동쪽(아사쿠사·우에노), 서쪽(요요기·하라주쿠·시부야), 시모키타자와·신주쿠를 날짜별로 묶어 보세요. 하루에 동서 권역을 오가는 일을 줄이고, 1~2일 일정이면 관심 있는 권역부터 고르면 됩니다.',
+        en: 'For a first three-day Tokyo trip, group the east (Asakusa and Ueno), the west (Yoyogi, Harajuku and Shibuya), and Shimokitazawa with Shinjuku by day. This avoids crossing the city repeatedly; with only one or two days, choose the areas that match your interests.',
+        ja: '初めての東京を3日で巡るなら、東側（浅草・上野）、西側（代々木・原宿・渋谷）、下北沢・新宿を日ごとにまとめましょう。東西を何度も往復せずに済みます。1〜2日なら興味に合うエリアを優先してください。',
+      },
     ],
   },
   osaka: {
@@ -262,6 +267,11 @@ const BASE: Record<string, CityGuideNote> = {
         en: 'For the SRT Red Line from Don Mueang Airport, go to Don Mueang Station on Kamphaeng Phet 6 Road in front of the airport. Check the station map for the airport-side entrances and take a train toward Krung Thep Aphiwat for the city.',
         ja: 'ドンムアン空港からSRTレッドラインに乗る場合は、空港前のカンペーンペット6通りにあるドンムアン駅へ向かいます。駅案内図で空港側の出入口を確認し、市内方面はクルンテープ・アピワット行きに乗ります。',
       },
+      {
+        ko: '짜오프라야강을 따라 하루를 보내려면 보트 정류장을 기준으로 동선을 짜세요. 시 프라야는 차런끄룽 거리, 랏차웡은 야오와랏, 타 티엔은 왓 포, 타 창은 왕궁·에메랄드 사원, 프라 아팃은 카오산 로드와 연결됩니다. 배의 깃발별 노선과 당일 운항 여부를 확인하세요.',
+        en: 'For a day along the Chao Phraya, plan around the piers: Si Phraya for Charoen Krung, Rachawong for Yaowarat, Tha Tien for Wat Pho, Tha Chang for the Grand Palace and Emerald Buddha Temple, and Phra Arthit for Khao San Road. Check the boat flag route and service on the day.',
+        ja: 'チャオプラヤー川沿いで1日過ごすなら、船着場を基準に計画しましょう。シー・プラヤーはチャルンクルン通り、ラーチャウォンはヤワラート、ターティアンはワット・ポー、ターチャンは王宮・エメラルド寺院、プラ・アーティットはカオサン通りに便利です。旗の色ごとの航路と当日の運航を確認してください。',
+      },
     ],
   },
   paris: {
@@ -337,6 +347,11 @@ const BASE: Record<string, CityGuideNote> = {
         ko: '루브르 박물관은 매주 화요일과 1월 1일·5월 1일·12월 25일에 닫습니다. 임시 휴관도 있을 수 있으니 공식 운영 일정을 확인하세요.',
         en: 'The Louvre is closed every Tuesday and on 1 January, 1 May and 25 December. Check its official opening calendar for any exceptional closures.',
         ja: 'ルーヴル美術館は毎週火曜日と1月1日・5月1日・12月25日が休館日です。臨時休館もあるため、公式の開館カレンダーを確認してください。',
+      },
+      {
+        ko: '파리를 2~3일 둘러볼 때는 하루에 한 권역을 정하면 이동을 줄이기 쉽습니다. 역사 중심부·라탱 지구, 에펠탑·샹젤리제, 몽마르트르·생제르맹처럼 관심사에 따라 나누고, 박물관 내부 관람은 야외 산책과 같은 날에 너무 많이 넣지 마세요.',
+        en: 'For two or three days in Paris, assigning one area or theme to each day helps reduce backtracking. Choose among the historic centre and Latin Quarter, the Eiffel Tower and Champs-Élysées, or Montmartre and Saint-Germain; avoid packing too many indoor museum visits into a day of outdoor walks.',
+        ja: 'パリを2〜3日で巡るなら、1日ごとにエリアやテーマを決めると移動の往復を減らせます。歴史地区・カルチエ・ラタン、エッフェル塔・シャンゼリゼ、モンマルトル・サンジェルマンなどから選び、屋外散策の日に美術館を詰め込みすぎないようにしましょう。',
       },
     ],
   },

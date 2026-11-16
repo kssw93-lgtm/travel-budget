@@ -125,7 +125,10 @@ function AirportAccess({ city }: { city: City }) {
   const index = airportTipIndex(city.id);
   if (!note || index < 0) return null;
   const area = CITY_INTROS[city.id]?.s[0]?.[1] ?? `${city.nameEn} city centre`;
-  const areaLabel = CITY_INTROS[city.id]?.s[0]?.[lang === 'ko' ? 0 : lang === 'ja' ? 2 : 1] ?? area;
+  const stayAreas = CITY_INTROS[city.id]?.s ?? [];
+  const destinations = stayAreas.length > 0
+    ? stayAreas.map((stay) => ({ query: stay[1], label: stay[L(lang)] }))
+    : [{ query: area, label: city.nameEn }];
   const airportTip = note.tips[index]!;
   const origins = airportOrigins(city, airportTip.en);
   const fares = airportFareRows(city.id, extras);
@@ -134,17 +137,22 @@ function AirportAccess({ city }: { city: City }) {
       <h2 id="guide-airport-title">{t.cityGuide.airportAccessTitle}</h2>
       <p>{note.tips[index]![lang]}</p>
       <h3>{t.cityGuide.airportDirectionsTitle}</h3>
-      <div className="airport-map-links">
-        {origins.map((origin) => (
-          <ExternalLink
-            key={origin.query}
-            className="airport-map-link"
-            href={airportDirectionsUrl(origin.query, area, lang)}
-          >
-            {fmt(t.cityGuide.airportDirectionsLink, { airport: origin.label, area: areaLabel })}
-          </ExternalLink>
-        ))}
-      </div>
+      {origins.map((origin) => (
+        <div className="airport-route-group" key={origin.query}>
+          <h4>{origin.label}</h4>
+          <div className="airport-map-links">
+            {destinations.map((destination) => (
+              <ExternalLink
+                key={`${origin.query}-${destination.query}`}
+                className="airport-map-link"
+                href={airportDirectionsUrl(origin.query, destination.query, lang)}
+              >
+                {fmt(t.cityGuide.airportDirectionsLink, { airport: origin.label, area: destination.label })}
+              </ExternalLink>
+            ))}
+          </div>
+        </div>
+      ))}
       <p className="hint">{t.cityGuide.airportDirectionsNote}</p>
       <h3>{t.cityGuide.airportBoardingTitle}</h3>
       <div className="airport-map-links">

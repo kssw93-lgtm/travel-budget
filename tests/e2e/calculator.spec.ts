@@ -538,6 +538,19 @@ test.describe('도시 가이드', () => {
     await expect(page).toHaveURL(/\/guide\/london\?lang=en$/);
   });
 
+  test('공항별로 모든 추천 숙소 동네의 대중교통 경로를 제공한다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/guide/tokyo?lang=en');
+    const routes = page.getByTestId('guide-airport').locator('a[href*="google.com/maps/dir/"]');
+    await expect(routes).toHaveCount(6); // 하네다·나리타 × 신주쿠·긴자·아사쿠사/우에노
+    await expect(routes.nth(0)).toContainText('Haneda Airport (HND) to Shinjuku');
+    await expect(routes.nth(1)).toContainText('Haneda Airport (HND) to Ginza / Tokyo Station');
+    await expect(routes.nth(2)).toContainText('Haneda Airport (HND) to Asakusa / Ueno');
+    await expect(routes.nth(3)).toContainText('Narita International Airport (NRT) to Shinjuku');
+    await expect(routes.nth(4)).toContainText('Narita International Airport (NRT) to Ginza / Tokyo Station');
+    await expect(routes.nth(5)).toContainText('Narita International Airport (NRT) to Asakusa / Ueno');
+  });
+
   test('일본어로 바꾸면 화면·도시 이름·기본 통화가 일본어 기준이 된다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/guide/tokyo?lang=ko');

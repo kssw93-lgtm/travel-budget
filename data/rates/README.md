@@ -1,18 +1,24 @@
 # 환율 (조사 고정값)
 
-계산기는 외부 환율 API를 호출하지 않고 이 폴더의 **조사한 환율표**를 사용합니다. 현재 값은 `rates-2026-11-06.json`이며, ECB가 공표한 2026-11-06 기준 환율 29개와 통화별 공식 기관의 최신 확인값을 반영했습니다. 각 통화의 실제 고시일은 JSON의 `perUSD.*.date`에 따로 기록합니다.
+계산기는 외부 환율 API를 호출하지 않고 이 폴더의 **조사한 환율표**를 사용합니다. 현재 값은 `rates-2026-11-16.json`이며, ECB가 공표한 2026-11-13 기준 환율 29개와 통화별 공식 기관의 최신 확인값을 반영했습니다. 조사일은 2026-11-16이며, 각 통화의 실제 고시일은 JSON의 `perUSD.*.date`에 따로 기록합니다.
 
 - ECB 기준표의 1 EUR당 원값을 ECB EUR/USD로 나누어 1 USD당 값으로 계산하고, EUR는 역수로 계산합니다.
 - ECB 표에 없는 통화는 해당 중앙은행·공식 금융기관이 게시한 값으로 계산합니다. 마카오 파타카(MOP)는 ECB HKD/USD 값과 AMCM의 고정 관계(HKD 1 = MOP 1.03)를 적용했습니다. 우즈베키스탄 솜(UZS)은 조지아 국립은행 표의 USD/GEL 및 UZS/GEL 교차값으로 계산했습니다.
 - 공식 기관이 아직 최신 일일값을 게시하지 않았거나 페이지가 제공하지 않은 통화는 확인 가능한 마지막 공식 기준일을 유지합니다. 근거 페이지와 날짜는 각 행에 있습니다.
-- 이번 확인에서 UAE 중앙은행 표는 2026-11-06 갱신값을 확인해 USD/AED 3.6725를 반영했습니다. 조지아 국립은행은 2026-11-08 기준 USD/GEL 2.5949, 1,000 UZS/GEL 0.2164를 게시해 GEL·UZS를 갱신했습니다. 라오스 중앙은행은 2026-11-06 USD/LAK 22,394, 몽골 중앙은행은 같은 날 USD/MNT 3,600.44를 게시했습니다. 카자흐스탄 국립은행은 2026-11-09 USD/KZT 447.14를 확인했습니다. 이집트 중앙은행은 2026-11-05 USD 매입 53.8706·매도 53.9706을 게시해 중간값 53.9206을 반영했습니다. 마카오 파타카는 ECB HKD/USD와 AMCM의 고정 관계 HKD 1 = MOP 1.03으로 갱신했습니다. 사우디 리얄은 SAMA가 공표한 3.7500 SAR/USD 고정값을 유지했습니다.
+- 2026-11-16 확인: ECB 최신 게시일은 2026-11-13입니다. 대만 중앙은행의 USD/TWD는 11-13 종가, 베트남 NCB의 평균 은행간 USD/VND와 라오스 중앙은행 USD/LAK는 11-13 값, 몽골 중앙은행 USD/MNT는 11-15 값, 카자흐스탄 국립은행 USD/KZT는 11-16 값을 반영했습니다. UAE 중앙은행의 11-13 공시 USD/AED는 3.6725입니다. 조지아 국립은행의 USD/GEL 2.5934 및 1,000 UZS/GEL 0.2158은 11-15 고시값이며, UZS는 이 두 공시값의 교차 계산입니다. 이집트 중앙은행의 11-15 공식 USD 매입 53.7229·매도 53.8626 평균을 반영했습니다. 마카오 파타카는 ECB의 최신 HKD/USD와 AMCM의 HKD 1 = MOP 1.03 고정 관계로 계산했습니다. 사우디 리얄은 SAMA의 최신 확인 가능 환율 페이지(10-27)에서 고정값 3.750000을 재확인했습니다.
 - 기준 환율은 여행 예산의 참고값이며 은행·환전소의 실제 매매 환율이나 수수료를 보장하지 않습니다.
 
 ## 주간 갱신
 
 환율은 자동 적용되지 않는 고정표입니다. 매주 한 번 공식 출처의 최신값을 확인해 새 `rates-YYYY-MM-DD.json`을 만들고, `src/core/rates/static.ts`의 import를 바꿉니다. 이전 JSON은 기록으로 보존하고, 번역 안내문과 날짜 테스트도 새 기준일로 맞춘 뒤 `npm run verify`가 통과한 변경만 main에 올립니다. 주간 작업은 Codex 반복 작업으로 예약합니다.
 
-이전 기준표: `rates-2026-11-04.json`, `rates-2026-10-28.json`, `rates-2026-10-16.json`, `rates-2026-10-06.json`.
+이전 기준표: `rates-2026-11-06.json`, `rates-2026-11-04.json`, `rates-2026-10-28.json`, `rates-2026-10-16.json`, `rates-2026-10-06.json`.
+
+### 2026-11-16 주간 갱신 확인
+- ECB 최신 고시일 2026-11-13의 29개 통화를 원값 그대로 반영했습니다. ECB 표는 기준환율을 통상 영업일 16:00 CET 무렵 갱신한다고 안내합니다.
+- 대만 중앙은행은 2026-11-13 USD/TWD 32.838, 베트남 NCB는 평균 은행간 USD/VND 25,637, 라오스 중앙은행은 USD/LAK 22,408, 몽골 중앙은행은 2026-11-15 USD/MNT 3,603.46, 카자흐스탄 국립은행은 2026-11-16 USD/KZT 444.3을 게시했습니다.
+- UAE 중앙은행은 2026-11-13 USD/AED 3.6725, 조지아 국립은행은 2026-11-15 USD/GEL 2.5934 및 1,000 UZS/GEL 0.2158을 게시했습니다. 이집트 중앙은행의 2026-11-15 공식 USD 매입·매도 값 중간값은 EGP 53.79275입니다. 사우디 리얄은 SAMA의 최신 확인 가능 페이지에서 2026-10-27 기준 USD/SAR 3.750000을 확인했습니다. 마카오 파타카는 ECB의 11-13 EUR/HKD·EUR/USD와 AMCM의 HKD 1 = MOP 1.03 관계로 계산했습니다.
+- 확인한 공식 출처: [ECB](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html), [대만 중앙은행](https://www.cbc.gov.tw/en/lp-700-2-1-40.html), [베트남 NCB](https://www.ncb-bank.vn/vi/ty-gia-tien-te), [몽골 중앙은행](https://www.mongolbank.mn/en/currency-rates), [라오스 중앙은행](https://www.bol.gov.la/en/referenceRate), [UAE 중앙은행](https://centralbank.ae/en/forex-eibor/exchange-rates/), [카자흐스탄 국립은행](https://nationalbank.kz/en/exchangerates/ezhednevnye-oficialnye-rynochnye-kursy-valyut), [조지아 국립은행](https://nbg.gov.ge/en/monetary-policy/currency), [이집트 중앙은행](https://www.cbe.org.eg/en/economic-research/statistics/cbe-exchange-rates), [사우디 중앙은행](https://sama.gov.sa/en-US/Currency/FinExc/Pages/Currency.aspx), [마카오 금융관리국](https://cdn.amcm.gov.mo/uploads/files/research_and_stats/research_and_publication/quarterly_report/issue_no_14/mfs_en.pdf).
 
 ### 2026-11-09 주간 갱신 확인
 - ECB 표에서 최신 고시일 2026-11-06의 29개 통화를 반영했습니다. ECB EUR/USD는 1.1165입니다.

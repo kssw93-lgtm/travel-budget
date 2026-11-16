@@ -476,3 +476,8 @@
 - 도쿄는 동쪽·서쪽·시모키타자와/신주쿠 권역을 분리하고, 서울은 도심·광화문/남산·강남 권역을 분리한다. 방콕은 짜오프라야강 선착장과 주변 명소를 연결하고, 파리는 역사 중심부·에펠탑/샹젤리제·몽마르트르 등 관심사별 권역, 런던은 강변·웨스트민스터·웨스트엔드/이스트엔드·그리니치 일정을 나눈다.
 - 목적은 안내 문장 수를 채우는 것이 아니라 도시를 가로지르는 불필요한 이동을 줄이고, 짧은 체류에서 어떤 지역을 선택할지 결정하게 돕는 것이다. 현지 관광청의 일정 안내를 기준으로 요약하고, 항목별 근거는 `src/data/city-guide-sources.ts`에 보관한다.
 - 출처: https://www.gotokyo.org/en/story/walks-and-tours/best-of-tokyo/index.html, https://english.visitseoul.net/mvp/IfyouvisitSeoulforthefirsttime/ENN036597, https://www.tourismthailand.org/Articles/1-day-trip-boat-journey-in-bangkok-enjoy-a-great-time-alongside-the-river-with-bangkok-s-boat-service, https://parisjetaime.com/eng/discover-paris/paris-in-1-2-or-3-days-i126, https://www.visitlondon.com/things-to-do/visiting-london-for-the-first-time/firsttime-visitors-itinerary.
+
+## 2026-11-16: 주간 고정 환율표 갱신
+- ECB 최신 기준일 2026-11-13의 공식 기준환율과 비ECB 통화의 중앙은행·공식 금융기관 최신 게시값을 반영해 `data/rates/rates-2026-11-16.json`을 현재 고정표로 지정했다. 파일명·조사일은 11월 16일이며, 사용자에게 표시되는 `asOf`는 ECB 고시일 11월 13일이다.
+- 사우디 리얄은 SAMA 최신 확인 가능 페이지에 게시된 3.750000 SAR/USD 고정값을 유지했다. 마카오 파타카와 우즈베키스탄 솜은 각각 공식 고정 관계와 조지아 국립은행이 게시한 교차 환율로 산출했다. 통화별 게시일과 URL은 JSON 및 `data/rates/README.md`에 기록했다.
+- 세 언어의 미리보기 날짜와 고정환율 기준일 테스트를 함께 갱신한다. 주간 변경은 `npm run verify` 통과 후에만 main에 반영한다.

@@ -49,6 +49,8 @@ export function CostComparePage({ go }: { go: Go }) {
                 <th>{m.colDay}</th>
                 <th>{m.colMeal}</th>
                 <th>{m.colRide}</th>
+                <th>{m.colCoffee}</th>
+                <th>{m.colWater}</th>
               </tr>
             </thead>
             <tbody>
@@ -70,6 +72,8 @@ export function CostComparePage({ go }: { go: Go }) {
                     </td>
                     <td>{r.meal !== null ? money(r.meal, cur) : '–'}</td>
                     <td>{r.ride !== null ? money(r.ride, cur) : '–'}</td>
+                    <td>{r.coffee ? `${money(r.coffee.min, cur)}–${money(r.coffee.max, cur)}` : '–'}</td>
+                    <td>{r.bottledWater ? `${money(r.bottledWater.min, cur)}–${money(r.bottledWater.max, cur)}` : '–'}</td>
                   </tr>
                 );
               })}

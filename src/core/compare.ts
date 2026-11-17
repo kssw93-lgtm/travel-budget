@@ -1,5 +1,7 @@
 import { estimateTrip } from './estimate';
+import { cityRows } from './city-rows';
 import { priceGuide } from './price-guide';
+import { selectUsable } from './pool';
 import type { City, ExtraSample, PriceSample, Range } from './types';
 
 /** 도시별 비교 조건: 성인 1명, 3박 4일, 일반형(보통). 계산기와 같은 엔진·같은 표본으로 계산한다 */
@@ -13,6 +15,28 @@ export interface CompareRow {
   meal: number | null;
   /** 대중교통 1회 요금 중앙값(현지 통화) */
   ride: number | null;
+  /** 공식 가격 표본에서 확인한 커피·카페 음료 가격 범위(현지 통화). 용량·상품이 같다는 뜻은 아님 */
+  coffee: Range | null;
+  /** 공식 가격 표본에서 확인한 생수 가격 범위(현지 통화). 용량이 같다는 뜻은 아님 */
+  bottledWater: Range | null;
+}
+
+const EXAMPLE_PATTERNS = {
+  coffee: /coffee|café|cafe|latte|espresso|cappuccino|americano|flat white|mocha|cold brew|drip coffee|brewed coffee|아메리카노|커피|라떼|에스프레소|카푸치노|콜드브루|플랫화이트|モカ|コーヒー|カフェラテ|エスプレッソ|フラットホワイト/i,
+  bottledWater: /bottled water|mineral water|water bottle|생수|미네랄워터|ミネラルウォーター/i,
+} as const;
+
+/** 같은 나라 표본을 포함한 현지 가격 예시 범위. 다른 용량·상품 간 가격 분포임을 UI에서 안내한다. */
+function exampleRange(city: City, samples: PriceSample[], pattern: RegExp): Range | null {
+  const pool = selectUsable(cityRows(city, samples).rows.filter((row) =>
+    row.usable && row.audience === 'adult' && row.basket === 'snack' &&
+    pattern.test(`${row.sample.nameKo} ${row.sample.nameEn} ${row.sample.nameJa ?? ''}`),
+  ));
+  const unique = new Map(pool.map((row) => [row.productKey, row.sample]));
+  const prices = [...unique.values()].slice(0, 5);
+  return prices.length
+    ? { min: Math.min(...prices.map((sample) => sample.min)), max: Math.max(...prices.map((sample) => sample.max)) }
+    : null;
 }
 
 /** 공개 도시 전체의 비교표. 계산할 수 없는 도시는 빠진다 */
@@ -27,6 +51,8 @@ export function costComparison(cities: City[], samples: PriceSample[], extras: E
       perDay: { min: e.total.min / e.days, max: e.total.max / e.days },
       meal: pg.find((p) => p.basket === 'meal')?.median ?? null,
       ride: pg.find((p) => p.basket === 'ride')?.median ?? null,
+      coffee: exampleRange(city, samples, EXAMPLE_PATTERNS.coffee),
+      bottledWater: exampleRange(city, samples, EXAMPLE_PATTERNS.bottledWater),
     });
   }
   return out;

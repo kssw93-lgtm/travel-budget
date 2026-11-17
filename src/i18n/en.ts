@@ -431,7 +431,7 @@ export const en: Messages = {
   compare: {
     title: 'Daily travel costs by city',
     navLabel: 'Cost comparison',
-    description: 'Daily on-the-ground costs (meals, local transport and a reserve) for {n} cities, calculated under the same conditions from official price samples and ranked from cheapest. Includes a typical meal and a single transit ride.',
+    description: 'Daily on-the-ground costs (meals, local transport and a reserve) for {n} cities, calculated under the same conditions from official price samples and ranked from cheapest. Also see example prices for a meal, transit ride, coffee and bottled water.',
     lead: 'Daily on-the-ground costs for {n} cities under the same conditions (1 adult, 4 days / 3 nights, standard style), from lowest to highest. Hotels, flights and admissions are not included. Prices as of {date}; exchange rates as of {rate}.',
     filterLabel: 'Find a city or country',
     filterPlaceholder: 'e.g. Japan, Paris',
@@ -440,7 +440,9 @@ export const en: Messages = {
     colDay: 'Per day (1 person)',
     colMeal: 'Typical meal',
     colRide: 'Single ride',
-    note: 'The daily figure adds meals (3 a day plus snacks), local transport and a 10% reserve. “Typical meal” is the median menu price at the city’s restaurants (before tax and tip). See “How it works” for the method, and use the calculator for your own trip.',
+    colCoffee: 'Coffee / café drink example',
+    colWater: 'Bottled water example',
+    note: 'The daily figure adds meals (3 a day plus snacks), local transport and a 10% reserve. The meal price is the median restaurant menu price. Coffee and bottled water show the observed local-currency range in official price samples; products and sizes may differ. Use the calculator for your own trip.',
     empty: 'No matching city.',
   },
   method: {

@@ -238,10 +238,10 @@ test.describe('검수 지적 사항 화면 확인', () => {
     await expect(q).toContainText('Santander Cycles');
   });
 
-  test('다낭 참조각박물관은 재검증 필요로 표시된다', async ({ page }) => {
+  test('다낭 참조각박물관은 공식 현행 요금 확인 후 재검증 경고가 없다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/?lang=ko&city=da-nang&date=2026-11-04&nights=3&adults=1&children=0&style=standard&cur=KRW&attr=DAD-AT-004');
-    await expect(page.getByTestId('quality').locator('[data-category="attraction"]')).toContainText('재검증이 필요한 가격');
+    await expect(page.getByTestId('quality').locator('[data-category="attraction"]')).not.toContainText('재검증이 필요한 가격');
   });
 });
 

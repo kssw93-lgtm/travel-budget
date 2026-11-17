@@ -156,5 +156,24 @@
     "sourceUrl": "https://mona.net.au/visit",
     "checkedAt": "2026-11-10",
     "reason": "MONA 공식 방문 페이지가 현재 비태즈메이니아 성인 입장료를 $45로 표시한다. 기존 $39→$45 변경 범위는 2026-10-22 인상 전·후가 섞인 값이므로 현행 단일 요금으로 교정."
+  },
+  "DAD-AT-004": {
+    "min": 60000,
+    "max": 60000,
+    "sourceUrl": "https://danangfantasticity.com/en/overview-da-nang-museum-of-cham-sculpture",
+    "checkedAt": "2026-11-17",
+    "reason": "다낭시 관광홍보센터 공식 페이지에 \"Ticket price: 60,000 VND / person / 01 visit\"로 현재 일반 입장료가 명시되어 기존 60,000동을 확인했다. 월요일 휴관도 함께 안내됨.",
+    "sourceName": "Danang Fantasticity (Da Nang Tourism Promotion Center)",
+    "note": "다낭시 관광홍보센터 공식 안내: Ticket price: 60,000 VND / person / 01 visit."
+  },
+  "ROM-AT-101": {
+    "min": 18,
+    "max": 18,
+    "sourceUrl": "https://colosseo.it/en/tickets/colosseum-roman-forum-palatine/",
+    "checkedAt": "2026-11-17",
+    "reason": "콜로세움 고고학공원 공식 요금표의 원문 \"Full entry: €18.00\"로 성인 일반 통합권 가격을 확인했다. 온라인 예약 수수료는 별도 항목이다.",
+    "sourceName": "Parco archeologico del Colosseo",
+    "status": "확정 공식 재확인",
+    "note": "Parco archeologico del Colosseo 공식 요금표: Full entry: €18.00. 온라인 예약 수수료는 별도."
   }
 }

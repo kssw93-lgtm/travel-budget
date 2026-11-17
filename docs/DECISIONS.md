@@ -494,3 +494,10 @@
 - 한국어 페이지에서도 예약 완료 시 수수료를 받을 수 있다는 사실을 링크 옆과 사이트 소개·개인정보처리방침에 분명히 알린다. 이는 공정거래위원회 추천·보증 표시광고 심사지침의 경제적 이해관계 공개 원칙을 따른다: https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000280130.
 - Trip.com 제휴 FAQ에 따르면 발급 링크를 수정하지 말아야 하며, 현재 특정 날짜가 설정된 항공·숙소 링크 생성은 지원되지 않는다. Trip.com 금지 키워드 정책의 유료 검색/PPC 및 브랜드 키워드 제한을 따라 Trip.com 이름으로 검색 광고를 집행하지 않는다: https://www.trip.com/partners/help/faq/tools?locale=en_xx, https://www.trip.com/partners/keywords.
 - 제휴 플랫폼에서 공식 생성한 기차 검색 링크도 항공권 입력 옆에 추가해 이용자가 항공편과 기차편을 함께 알아볼 수 있게 한다. Trip.com이 제공하는 제휴 상품 범위에는 기차표가 포함된다. 국제 도메인 링크는 영어·일본어 화면에서 공유하며, 링크 종류별 `trip_sub1` 값으로 성과를 구분한다.
+
+## 2026-11-17: 재검증 표시 표본 빠른 정리
+- DAD-AT-004 다낭 참조각박물관은 다낭시 관광홍보센터 공식 안내에서 1회 입장료 60,000 VND를 재확인해 정정 오버레이에 공식 URL·확인일을 반영했다. 기존 가격이 맞아 재검증 표시를 해제한다.
+- ROM-AT-101 콜로세움·포로 로마노·팔라티노 통합권은 운영기관 공식 요금표의 “Full entry: €18.00”로 재확인했다. 오래된 원문 인용을 정정 기록으로 보완하고 재검증 표시를 해제한다.
+- 싱가포르 이치란은 공식 해외 매장 목록에 싱가포르가 없고, Old Chang Kee·McDonald’s Singapore 및 Giolitti 공식 페이지에는 해당 표본의 현재 판매가가 없어 가격을 사실로 간주하지 않는다. 런던 Fuller’s 펍 찾기 페이지도 맥주 파인트 가격을 제시하지 않는다. 이 8개 표본은 계산 사용에서 제외하고 검수 경고도 계산 대상에서만 보이도록 한다. 제외 이유에 조사 URL과 기준일을 남긴다.
+- 변환기는 계산에서 명시적으로 제외된 표본에 대해 과거 교차검수의 미확인 경고를 다시 띄우지 않는다. 재검증할 계산 표본과 보관용 제외 표본을 구분하기 위한 동작이다.
+- 공식 확인 페이지: https://danangfantasticity.com/en/overview-da-nang-museum-of-cham-sculpture ; https://colosseo.it/en/tickets/colosseum-roman-forum-palatine/ ; https://en.ichiran.com/shop/area-oversea.html ; https://www.oldchangkee.com/dipngo.com.sg/menu.html ; https://www.mcdonalds.com.sg/food-menu/big-mac ; https://www.giolitti.it/prodotti/ ; https://www.fullers.co.uk/pubs/pub-finder/london

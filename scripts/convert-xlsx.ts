@@ -311,7 +311,7 @@ function main() {
   // 엑셀은 그대로 두고 변환할 때만 가격·출처·조회일을 바꾼다. 추가 CSV 행은 CSV 를 직접 고친다.
   const corrections = JSON.parse(readFileSync(`${root}/data/overlays/price-corrections.json`, 'utf8')) as Record<
     string,
-    { min: number; max: number; sourceUrl?: string; checkedAt: string; reason: string } | string
+    { min: number; max: number; sourceUrl?: string; sourceName?: string; status?: string; note?: string; checkedAt: string; reason: string } | string
   >;
   for (const [id, c] of Object.entries(corrections)) {
     if (id.startsWith('_') || typeof c === 'string') continue;
@@ -324,6 +324,9 @@ function main() {
     s.min = c.min;
     s.max = c.max;
     if (c.sourceUrl) s.sourceUrl = c.sourceUrl;
+    if (c.sourceName) s.sourceName = c.sourceName;
+    if (c.status) s.status = c.status;
+    if (c.note) s.note = c.note;
     s.checkedAt = c.checkedAt;
     s.note = [s.note, `가격 정정(${c.checkedAt}): ${c.reason}`].filter(Boolean).join(' · ');
   }
@@ -375,6 +378,8 @@ function main() {
   for (const [id, { file, verdict, r }] of latestReview) {
     const target = byId.get(id)!;
     reviewed.push({ file, id, verdict });
+    // 공식 가격을 확인할 수 없어 계산에서 뺀 표본은 사용자 계산 결과의 재검증 경고 대상이 아니다.
+    if ('modelUse' in target && target.modelUse === 'no') continue;
     // 업주 등록 메뉴에서 같은 상품·가격을 다시 찾지 못한 지도 플랫폼 행은 계산에서 보조로만 쓴다
     if (mapPlace.has(id) && verdict === '확인불가' && 'modelUse' in target && target.modelUse === 'yes') target.modelUse = 'conditional';
     if (verdict === '일치' || target.review) continue;

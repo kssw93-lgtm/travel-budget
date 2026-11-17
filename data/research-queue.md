@@ -19,6 +19,7 @@
 | 다낭 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 타이베이 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 싱가포르 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
+| 싱가포르 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 파리 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 런던 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 세부 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -32,7 +33,7 @@
 | 세비야 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 밀라노 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 밀라노 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
-| 밀라노 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 밀라노 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 루체른 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 루체른 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 그라나다 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -62,7 +63,7 @@
 | 안트베르펜 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 토리노 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 토리노 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
-| 토리노 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 토리노 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 골드코스트 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 골드코스트 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 골드코스트 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
@@ -134,7 +135,7 @@
 | 케언스 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 베로나 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 베로나 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
-| 베로나 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 베로나 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 테살로니키 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 테살로니키 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 마카오 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -244,9 +245,9 @@
 | 멜버른 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 멜버른 | 간식·음료 | 2 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 피렌체 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 피렌체 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 피렌체 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 베네치아 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 베네치아 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 베네치아 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 마드리드 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 니스 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 샌프란시스코 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -353,7 +354,7 @@
 | 브뤼헤 | 1회권 | 1 | 시내 버스·지하철 등 일상 이동 1회 요금(다른 운영사 또는 다른 교통수단) |
 | 바르셀로나 | 1일 이용권 | 1 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 로마 | 1일 이용권 | 2 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
-| 로마 | 간식·음료 | 1 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
+| 로마 | 간식·음료 | 0 | 간식·음료 공식 메뉴 가격(선택 바스켓) |
 | 뉴욕 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 이스탄불 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
 | 상하이 | 1일 이용권 | 0 | 다른 운영사·다른 상품의 1일(24시간) 이용권 공식 가격 |
@@ -395,7 +396,6 @@
 | PAR-FD-001 | 파리 | 부용 샤르티에 메인 시작가 | 7 EUR | A | 조건부 | 조건부, 시작가 표기 | [Bouillon Chartier](https://www.bouillon-chartier.com/chartier_medias/2025/10/Anglais.pdf) |
 | LON-AT-005 | 런던 | 대영박물관 상설 관람 | 0 GBP | A | 예 | 재검증, 검수: 원문 확인 불가 | [British Museum](https://www.britishmuseum.org/visit) |
 | PAR-TR-004 | 파리 | 나비고 리베르테 플러스 메트로-기차-RER | 2.04 EUR | A | 예 | 검수: 원문 확인 불가 | [Île-de-France Mobilités](https://www.iledefrance-mobilites.fr/en/titres-et-tarifs/detail/navigo-liberte-plus) |
-| DAD-AT-004 | 다낭 | 다낭 참조각박물관 일반 입장권 | 60000 VND | A | 예 | 검수: 원문 미확인 | [Da Nang Museum of Cham Sculpture](https://chammuseum.vn/view.aspx?ID=45) |
 | SIN-FD-008 | 싱가포르 | 티옹바루 하이난 치킨라이스 | 14 SGD | A | 예 | 세금·서비스료 별도 | [Tiong Bahru Hainanese Chicken Rice](https://www.tiongbahruchickenrice.sg/menu/) |
 | IST-AT-001 | 이스탄불 | Topkapı Sarayı 복합 입장권 외국인 성인 | 2750 TRY | B | 예 | B등급 | [Millî Saraylar](https://www.millisaraylar.gov.tr/Lokasyon/2/Topkapi-Sarayi?culture=en) |
 | IST-AT-002 | 이스탄불 | Dolmabahçe Sarayı 통합 입장권 외국인 성인 | 2000 TRY | B | 예 | B등급 | [Millî Saraylar](https://millisaraylar.gov.tr/Lokasyon/3/Dolmabahce-Sarayi) |
@@ -2416,8 +2416,6 @@
 | DAD-FD-901 | 다낭 | 인더스 베지 파코라 | 119000 VND | A | 예 | 재검증 | [Indus Indian Restaurant Da Nang](https://www.indus.vn/menu/) |
 | DAD-FD-902 | 다낭 | 인더스 치킨 티카 마살라 | 149000 VND | A | 예 | 재검증 | [Indus Indian Restaurant Da Nang](https://www.indus.vn/menu/) |
 | SIN-FD-901 | 싱가포르 | 야쿤 카야토스트 버터 세트 | 5.6 SGD | A | 예 | 재검증, 검수: 원문 확인 불가 | [Ya Kun Kaya Toast](https://yakun.com.sg/) |
-| SIN-FD-903 | 싱가포르 | 올드창키 커리퍼프 | 2.2 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [Old Chang Kee](https://www.oldchangkee.com/dipngo.com.sg/menu.html) |
-| SIN-SV-901 | 싱가포르 | 올드창키 커리퍼프 10개 상자 | 22 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [Old Chang Kee](https://www.oldchangkee.com/dipngo.com.sg/menu.html) |
 | PAR-SV-901 | 파리 | 루브르 사모트라케의 니케 마그넷 | 4.9 EUR | A | 예 | 재검증 | [Louvre Official Boutique](https://boutique.louvre.fr/en/product/19430-magnet-victory-of-samothrace.html) |
 | TYO-FD-701 | 도쿄 | 모리소바 | 900 JPY | A | 예 | 재검증 | [Maruyamacho Wadatsumi](https://maruyamachowadatsumi.com/en/menu-shibuya-authentic-japanese/lunch-menu) |
 | TYO-FD-702 | 도쿄 | 라멘 곱빼기 | 1050 JPY | A | 예 | 재검증 | [Tokyo Ramen Yokocho Ramen Butayama](https://tokyo-ramenyokocho.com/assets/img/top/store/ramenbutayama/en/menu.pdf?20260601) |
@@ -2466,11 +2464,7 @@
 | PAR-FD-951 | 파리 | 크로넨부르 1664 25cl | 6.9 EUR | A | 예 | 재검증 | [Le Do Ré Mi Paris](https://www.ledoremiparis.fr/en/menus/) |
 | PAR-FD-952 | 파리 | 브라스리 리프 블롱드 25cl | 7 EUR | A | 예 | 재검증 | [Brasserie Lipp](https://www.brasserielipp.fr/en/menus/) |
 | PAR-FD-953 | 파리 | 드모리 IPA 25cl | 6.9 EUR | A | 예 | 재검증 | [Le Do Ré Mi Paris](https://www.ledoremiparis.fr/en/menus/) |
-| LON-FD-951 | 런던 | 런던 프라이드 1파인트 (풀러스 펍) | 5.5 GBP | A | 예 | 재검증, 검수: 출처 확인 필요 | [Fuller's Pubs London](https://www.fullers.co.uk/pubs/pub-finder/london) |
-| LON-FD-952 | 런던 | 기네스 1파인트 (풀러스 펍) | 6.2 GBP | A | 예 | 재검증, 검수: 출처 확인 필요 | [Fuller's Pubs London](https://www.fullers.co.uk/pubs/pub-finder/london) |
-| LON-FD-953 | 런던 | 페로니 1파인트 (풀러스 펍) | 6 GBP | A | 예 | 재검증, 검수: 출처 확인 필요 | [Fuller's Pubs London](https://www.fullers.co.uk/pubs/pub-finder/london) |
 | DAD-FD-911 | 다낭 | 쿠치나 루카 해산물 스파게티 | 310000 VND | A | 예 | 재검증 | [Cucina Luca Da Nang](https://cucinaluca.vn/) |
-| SIN-FD-911 | 싱가포르 | 맥도날드 빅맥 | 7.95 SGD | A | 예 | 재검증, 검수: 출처 확인 필요 | [McDonald's Singapore](https://www.mcdonalds.com.sg/full-menu) |
 | PQC-FD-101 | 푸꾸옥 | 스파이스 하우스 카시아 시그니처 버거 | 269000 VND | A | 예 | 재검증 | [Cassia Cottage - The Spice House 공식 메뉴 PDF](https://cassiacottage.com/wp-content/uploads/2025/09/The-Spice-House-Food-Menu-08.09.2025.pdf) |
 | PQC-FD-102 | 푸꾸옥 | 스파이스 하우스 볼로네제 스파게티 | 295000 VND | A | 예 | 재검증 | [Cassia Cottage - The Spice House 공식 메뉴 PDF](https://cassiacottage.com/wp-content/uploads/2025/09/The-Spice-House-Food-Menu-08.09.2025.pdf) |
 | PQC-FD-103 | 푸꾸옥 | 크랩하우스 푸꾸옥 게살 덮밥 | 270000 VND | A | 예 | 재검증 | [Si's Crab House 공식 사이트 메뉴(구글 드라이브 PDF)](https://drive.google.com/file/d/1aCT1SR2RoeG5P5ckGGY_rljYCOzQV7g-/view) |
@@ -2523,11 +2517,9 @@
 | ROM-FD-409 | 로마 | 엠마 피체리아 아마트리차나 | 16 EUR | A | 예 | 재검증 | [Emma Pizzeria 공식 메뉴 PDF](https://www.emmapizzeria.com/wp-content/uploads/2025/12/MENU_WEB_ITA_Aprile-2025.pdf) |
 | ROM-TR-001 | 로마 | BIT 통합 100분권 | 1.5 EUR | A | 예 | 재검증 | [ATAC Roma](https://www.atac.roma.it/en/tickets-and-passes/bit) |
 | ROM-TR-004 | 로마 | 로마 24시간권 | 8.5 EUR | A | 예 | 재검증 | [ATAC Roma](https://www.atac.roma.it/en/tickets-and-passes/birg) |
-| ROM-FD-201 | 로마 | 지올리티 젤라토 컵 | 3~3.5 EUR | A | 예 | 재검증, 검수: 출처 확인 필요 | [Giolitti](https://www.giolitti.it/en/) |
 | ROM-FD-301 | 로마 | 라 사피엔자 대학 바 병맥주 33cl | 2.05~3.1 EUR | A | 예 | 재검증 | [La Sapienza Bar Marco Polo](https://www.uniroma1.it/sites/default/files/user/531/listino_prezzi_bar_marco_polo.pdf) |
 | ROM-FD-302 | 로마 | 라 사피엔자 대학 바 레드 와인 1잔 | 2.2 EUR | A | 예 | 재검증 | [La Sapienza Bar Marco Polo](https://www.uniroma1.it/sites/default/files/user/531/listino_prezzi_bar_marco_polo.pdf) |
 | ROM-FD-303 | 로마 | 라 사피엔자 대학 바 프로세코 1잔 | 2.5 EUR | A | 예 | 재검증 | [La Sapienza Bar Marco Polo](https://www.uniroma1.it/sites/default/files/user/531/listino_prezzi_bar_marco_polo.pdf) |
-| ROM-AT-101 | 로마 | 콜로세움·포로 로마노·팔라티노 통합 입장권 | 18 EUR | A | 예 | 재검증, 검수: 요금 확인 필요 | [CoopCulture](https://colosseo.it/en/tickets/colosseum-roman-forum-palatine/) |
 | ROM-AT-102 | 로마 | 바티칸 박물관·시스티나 성당 입장권 | 20~25 EUR | A | 예 | 재검증 | [Vatican Museums](https://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti.html) |
 | ROM-AT-104 | 로마 | 보르게세 미술관 입장권 | 16 EUR | A | 예 | 재검증 | [Galleria Borghese](https://galleriaborghese.cultura.gov.it/en/visita/info-biglietti/) |
 | ROM-AT-105 | 로마 | 산탄젤로 성 입장권 | 18 EUR | A | 예 | 재검증 | [Castel Sant'Angelo](http://castelsantangelo.beniculturali.it/getFile.php?id=538) |

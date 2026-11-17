@@ -196,7 +196,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "seville": "6/1/3 · 100% · ready",
         "shanghai": "3/3/12 · 100% · ready",
         "siem-reap": "5/1/3 · 100% · ready",
-        "singapore": "5/3/12 · 100% · ready",
+        "singapore": "4/3/12 · 100% · ready",
         "sokcho": "43/18/3 · 100% · ready",
         "stockholm": "3/1/3 · 100% · ready",
         "strasbourg": "4/1/3 · 100% · ready",
@@ -298,7 +298,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "dusseldorf": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 1/1 · souvenir 0/0",
         "edinburgh": "pass 1/1 · ride 1/1 · meal 3/3 · snack 4/4 · attraction 3/3 · souvenir 0/0",
         "edmonton": "pass 0/0 · ride 1/1 · meal 8/8 · snack 3/3 · attraction 1/1 · souvenir 0/0",
-        "florence": "pass 0/0 · ride 6/6 · meal 9/9 · snack 1/1 · attraction 3/3 · souvenir 0/0",
+        "florence": "pass 0/0 · ride 6/6 · meal 9/9 · snack 0/0 · attraction 3/3 · souvenir 0/0",
         "frankfurt": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "fukuoka": "pass 1/1 · ride 3/3 · meal 10/10 · snack 3/3 · attraction 5/5 · souvenir 0/0",
         "funchal": "pass 0/0 · ride 1/1 · meal 8/8 · snack 3/3 · attraction 1/1 · souvenir 0/0",
@@ -354,7 +354,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "marseille": "pass 0/0 · ride 1/1 · meal 4/4 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "melbourne": "pass 0/0 · ride 10/11 · meal 4/4 · snack 2/2 · attraction 3/3 · souvenir 0/0",
         "mexico-city": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 2/2 · souvenir 0/0",
-        "milan": "pass 0/0 · ride 1/1 · meal 9/9 · snack 1/1 · attraction 3/3 · souvenir 0/0",
+        "milan": "pass 0/0 · ride 1/1 · meal 9/9 · snack 0/0 · attraction 3/3 · souvenir 0/0",
         "montpellier": "pass 1/1 · ride 0/0 · meal 4/4 · snack 3/3 · attraction 1/1 · souvenir 0/0",
         "montreal": "pass 0/0 · ride 1/1 · meal 8/8 · snack 3/3 · attraction 2/2 · souvenir 0/0",
         "munich": "pass 1/1 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 5/5 · souvenir 0/0",
@@ -384,7 +384,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "reykjavik": "pass 0/0 · ride 1/1 · meal 3/3 · snack 2/2 · attraction 3/3 · souvenir 0/0",
         "riga": "pass 1/1 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "rio-de-janeiro": "pass 0/0 · ride 1/1 · meal 3/3 · snack 0/0 · attraction 3/3 · souvenir 0/0",
-        "rome": "pass 2/4 · ride 3/3 · meal 9/9 · snack 1/1 · attraction 13/13 · souvenir 3/3",
+        "rome": "pass 2/4 · ride 3/3 · meal 9/9 · snack 0/0 · attraction 13/13 · souvenir 3/3",
         "rovaniemi": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "saipan": "pass 1/1 · ride 1/1 · meal 6/6 · snack 3/3 · attraction 1/1 · souvenir 0/0",
         "salzburg": "pass 0/0 · ride 1/1 · meal 4/4 · snack 3/3 · attraction 3/3 · souvenir 0/0",
@@ -399,7 +399,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "seville": "pass 0/0 · ride 1/1 · meal 6/6 · snack 5/5 · attraction 3/3 · souvenir 0/0",
         "shanghai": "pass 0/0 · ride 3/3 · meal 3/3 · snack 3/3 · attraction 12/12 · souvenir 3/3",
         "siem-reap": "pass 0/0 · ride 1/1 · meal 5/5 · snack 2/2 · attraction 3/3 · souvenir 0/0",
-        "singapore": "pass 2/2 · ride 3/3 · meal 5/5 · snack 3/3 · attraction 12/14 · souvenir 4/4",
+        "singapore": "pass 2/2 · ride 3/3 · meal 4/4 · snack 2/2 · attraction 12/14 · souvenir 3/3",
         "sokcho": "pass 0/0 · ride 18/19 · meal 43/46 · snack 16/16 · attraction 3/3 · souvenir 0/0",
         "stockholm": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "strasbourg": "pass 0/0 · ride 1/1 · meal 4/4 · snack 3/3 · attraction 3/3 · souvenir 0/0",
@@ -418,13 +418,13 @@ describe('파일럿 도시 데이터 상태', () => {
         "toronto": "pass 0/0 · ride 1/1 · meal 8/8 · snack 3/3 · attraction 2/2 · souvenir 0/0",
         "toulouse": "pass 0/0 · ride 1/1 · meal 4/4 · snack 3/3 · attraction 1/1 · souvenir 0/0",
         "tsushima": "pass 1/1 · ride 0/0 · meal 55/59 · snack 24/40 · attraction 3/3 · souvenir 0/0",
-        "turin": "pass 0/0 · ride 1/1 · meal 9/9 · snack 1/1 · attraction 3/3 · souvenir 0/0",
+        "turin": "pass 0/0 · ride 1/1 · meal 9/9 · snack 0/0 · attraction 3/3 · souvenir 0/0",
         "turku": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 1/1 · souvenir 0/0",
         "ulaanbaatar": "pass 0/0 · ride 1/1 · meal 5/5 · snack 5/5 · attraction 3/3 · souvenir 0/0",
         "valencia": "pass 0/0 · ride 1/1 · meal 6/6 · snack 5/5 · attraction 3/3 · souvenir 0/0",
         "vancouver": "pass 0/0 · ride 2/2 · meal 8/8 · snack 3/3 · attraction 2/2 · souvenir 0/0",
-        "venice": "pass 0/0 · ride 6/6 · meal 9/9 · snack 1/1 · attraction 3/3 · souvenir 0/0",
-        "verona": "pass 0/0 · ride 1/1 · meal 9/9 · snack 1/1 · attraction 1/1 · souvenir 0/0",
+        "venice": "pass 0/0 · ride 6/6 · meal 9/9 · snack 0/0 · attraction 3/3 · souvenir 0/0",
+        "verona": "pass 0/0 · ride 1/1 · meal 9/9 · snack 0/0 · attraction 1/1 · souvenir 0/0",
         "victoria": "pass 0/0 · ride 1/1 · meal 8/8 · snack 3/3 · attraction 2/2 · souvenir 0/0",
         "vienna": "pass 2/2 · ride 1/1 · meal 4/4 · snack 3/3 · attraction 4/5 · souvenir 0/0",
         "warsaw": "pass 0/0 · ride 1/1 · meal 3/3 · snack 2/2 · attraction 3/3 · souvenir 0/0",
@@ -512,12 +512,29 @@ describe('검수 지적 사항', () => {
     expect(src).not.toMatch(/readTable\(wb, '(도시 초안|다음 조사 큐)'/);
   });
 
-  it('다낭 참조각박물관(DAD-AT-004)은 원문 미확인 → 가격은 그대로, 재검증 경고·조사 요청 목록에 표시', () => {
+  it('다낭 참조각박물관(DAD-AT-004)은 다낭시 공식 관광 페이지의 현행 요금으로 재확인된다', () => {
     const s = samples.find((x) => x.id === 'DAD-AT-004')!;
-    expect([s.min, s.max, s.review?.flag]).toEqual([60000, 60000, '원문 미확인']);
+    expect([s.min, s.max, s.review]).toEqual([60000, 60000, undefined]);
+    expect(s.sourceUrl).toBe('https://danangfantasticity.com/en/overview-da-nang-museum-of-cham-sculpture');
+    expect(s.checkedAt).toBe('2026-11-17');
     const e = run('da-nang', '2026-11-04', ['DAD-AT-004']);
-    expect(e.warnings.find((w) => w.code === 'revalidation' && w.category === 'attraction')?.ids).toContain('DAD-AT-004');
-    expect(readFileSync('data/research-queue.md', 'utf8')).toMatch(/DAD-AT-004 .*검수: 원문 미확인/);
+    expect(e.warnings.find((w) => w.code === 'revalidation' && w.category === 'attraction')?.ids ?? []).not.toContain('DAD-AT-004');
+    expect(readFileSync('data/research-queue.md', 'utf8')).not.toMatch(/DAD-AT-004 .*검수: 원문 미확인/);
+  });
+
+  it('콜로세움 통합권(ROM-AT-101)은 €18 공식 요금으로 갱신되고 재검증 큐에서 빠진다', () => {
+    const s = samples.find((x) => x.id === 'ROM-AT-101')!;
+    expect([s.min, s.max, s.checkedAt, s.status, s.review]).toEqual([18, 18, '2026-11-17', '확정 공식 재확인', undefined]);
+    expect(s.sourceName).toBe('Parco archeologico del Colosseo');
+    expect(readFileSync('data/research-queue.md', 'utf8')).not.toMatch(/ROM-AT-101 .*재검증/);
+  });
+
+  it('공식 가격을 현재 확인할 수 없어 제외한 표본은 계산에서 빠지고 재검증 경고도 띄우지 않는다', () => {
+    for (const id of ['SIN-FD-902','SIN-FD-903','SIN-SV-901','LON-FD-951','LON-FD-952','LON-FD-953','SIN-FD-911','ROM-FD-201']) {
+      const s = samples.find((x) => x.id === id)!;
+      expect(s.modelUse, id).toBe('no');
+      expect(s.review, id).toBeUndefined();
+    }
   });
 
   it('다낭 기념품은 조사표의 "다음 조사 큐"(0건)가 아니라 가격 원장으로 계산한다', () => {

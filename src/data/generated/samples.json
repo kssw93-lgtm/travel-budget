@@ -3278,17 +3278,11 @@
     "grade": "A",
     "modelUse": "yes",
     "status": "확정 3차",
-    "checkedAt": "2026-10-02",
+    "checkedAt": "2026-11-17",
     "applied": "2026",
-    "sourceName": "Da Nang Museum of Cham Sculpture",
-    "sourceUrl": "https://chammuseum.vn/view.aspx?ID=45",
-    "note": "박물관 공식 안내의 일반 성인 1회 입장료",
-    "review": {
-      "flag": "원문 미확인",
-      "flagEn": "source not re-checked",
-      "detail": "2026-10-02 독립 검수: chammuseum.vn 페이지가 열리지 않아 60,000 VND 원문 가격을 재확인하지 못함(개발 환경에서도 접속 차단).",
-      "reportedAt": "2026-10-02"
-    }
+    "sourceName": "Danang Fantasticity (Da Nang Tourism Promotion Center)",
+    "sourceUrl": "https://danangfantasticity.com/en/overview-da-nang-museum-of-cham-sculpture",
+    "note": "다낭시 관광홍보센터 공식 안내: Ticket price: 60,000 VND / person / 01 visit. · 가격 정정(2026-11-17): 다낭시 관광홍보센터 공식 페이지에 \"Ticket price: 60,000 VND / person / 01 visit\"로 현재 일반 입장료가 명시되어 기존 60,000동을 확인했다. 월요일 휴관도 함께 안내됨."
   },
   {
     "id": "PAR-AT-006",
@@ -5581,13 +5575,7 @@
     "applied": "2026-10-03 적용",
     "sourceName": "Tokyo Disney Resort",
     "sourceUrl": "https://www.tokyodisneyresort.jp/en/ticket/index/202610/",
-    "note": "공식 날짜 지정 달력에서 2026-10-03 입장 성인권 10,900엔 확인. 날짜 지정 요금. · 모델 제외: 도쿄 디즈니랜드의 2026-10-03 특정일 입장권으로, 조회 기준일이 지나 현재 이용할 수 없음",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "확인 가격 8,900 JPY (기간 최저; 2026-10-03 날짜 요금 미표시) · https://www.tokyodisneyresort.jp/en/ticket/index/202610/ · 공식 페이지 원문: \"The prices below represent the lowest amount for an admission date during the eligible period.\" 및 \"Adult 8,900 yen -\". 2026-10-03 날짜별 요금은 페이지에서 확인되지 않음.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "공식 날짜 지정 달력에서 2026-10-03 입장 성인권 10,900엔 확인. 날짜 지정 요금. · 모델 제외: 도쿄 디즈니랜드의 2026-10-03 특정일 입장권으로, 조회 기준일이 지나 현재 이용할 수 없음"
   },
   {
     "id": "TYO-AT-006",
@@ -7892,13 +7880,7 @@
     "applied": "2026-10-04 공식 요금표 조회",
     "sourceName": "Taipei City Government Department of Cultural Affairs",
     "sourceUrl": "https://culture.gov.taipei/cp.aspx?n=7F5537B1FD015C40",
-    "note": "시 문화국 공식 안내의 만 6세 미만 무료 입장. · 모델 제외: 만 6세 미만 무료 행인데 공식 안내상 무료는 만 3세 미만뿐이고, 초등학생(만 6~12세) 요금도 아님(2026-10-08 교차 검수).",
-    "review": {
-      "flag": "교차 검수 불일치",
-      "flagEn": "cross-check mismatch",
-      "detail": "확인 가격 3세 미만 무료; 만 3–5세는 일반권 50 TWD · https://sysmm.org/information.php · 운영 주체 공식 관람안내는 무료 대상을 만 3세 미만으로 한정합니다. 만 3–5세는 일반권 50 TWD입니다. 저장 행의 만 6세 미만 무료와 다르며, 타이베이시 문화국의 미취학 아동 무료 안내와 상충합니다.",
-      "reportedAt": "2026-10-08"
-    }
+    "note": "시 문화국 공식 안내의 만 6세 미만 무료 입장. · 모델 제외: 만 6세 미만 무료 행인데 공식 안내상 무료는 만 3세 미만뿐이고, 초등학생(만 6~12세) 요금도 아님(2026-10-08 교차 검수)."
   },
   {
     "id": "SIN-AT-005",
@@ -13559,13 +13541,7 @@
     "applied": "2026",
     "sourceName": "개미집 공식 매장 메뉴판",
     "sourceUrl": "https://map.naver.com/p/entry/place/11628169",
-    "note": "낙지·곱창·새우 볶음(공깃밥 포함 기준) · 지도 플랫폼 업주 등록 메뉴 · 원문: 낙곱새 14,000원 · 수집: prices-busan.csv · 모델 제외: 출처 네이버 플레이스 페이지가 사라졌고 지점이 여러 곳이라 가격을 특정할 수 없음(2026-10-11 GPT 재확인)",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "확인 가격 못 찾음 · https://map.naver.com/p/search/%EA%B0%9C%EB%AF%B8%EC%A7%91%20%EB%B6%80%EC%82%B0 · 원문: 없음 · 원본 URL https://map.naver.com/p/entry/place/11628169 는 현재 페이지를 찾을 수 없음. 네이버 플레이스 검색에서 개미집 서면본점·사상점·경성대점·광안리본점 등 복수 지점이 나와 특정 지점의 가격을 같은 행에 연결하지 못함. 못 찾음 + 확인한 URL: https://map.naver.com/p/entry/place/11628169 ; https://map.naver.com/p/search/%EA%B0%9C%EB%AF%B8%EC%A7%91%20%EB%B6%80%EC%82%B0 · GPT 네이버 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "낙지·곱창·새우 볶음(공깃밥 포함 기준) · 지도 플랫폼 업주 등록 메뉴 · 원문: 낙곱새 14,000원 · 수집: prices-busan.csv · 모델 제외: 출처 네이버 플레이스 페이지가 사라졌고 지점이 여러 곳이라 가격을 특정할 수 없음(2026-10-11 GPT 재확인)"
   },
   {
     "id": "PUS-FD-004",
@@ -13637,13 +13613,7 @@
     "applied": "2026",
     "sourceName": "컴포즈커피 공식홈페이지",
     "sourceUrl": "https://composecoffee.com/menu_coffee",
-    "note": "부산 태생 테이크아웃 커피 브랜드 매장 정가 · 원문: 아메리카노 1,500원 · 수집: prices-busan.csv · 모델 제외: 출처 페이지(composecoffee.com/menu_coffee)가 404로 사라져 공식 가격을 확인할 수 없음(2026-10-11)",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://composecoffee.com/menu_coffee · 원문: 404 Oops, Sorry. Page is Not Found! · 출처 페이지가 404. 대체 공식 가격 페이지 못 찾음 · Claude 크롬 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "부산 태생 테이크아웃 커피 브랜드 매장 정가 · 원문: 아메리카노 1,500원 · 수집: prices-busan.csv · 모델 제외: 출처 페이지(composecoffee.com/menu_coffee)가 404로 사라져 공식 가격을 확인할 수 없음(2026-10-11)"
   },
   {
     "id": "PUS-FD-007",
@@ -13691,13 +13661,7 @@
     "applied": "2026",
     "sourceName": "남포동 BIFF거리 노점 공통 가격게시",
     "sourceUrl": "https://map.naver.com/p/entry/place/12134547",
-    "note": "남포동 BIFF거리 판매 표준 단품 가격 · 지도 플랫폼 업주 등록 메뉴 · 원문: 씨앗호떡 2,000원 · 수집: prices-busan.csv · 모델 제외: 출처 네이버 플레이스 페이지가 사라졌고 같은 판매자를 찾지 못함(2026-10-11 GPT 재확인)",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "확인 가격 못 찾음 · https://map.naver.com/p/search/BIFF%EA%B1%B0%EB%A6%AC%20%EC%94%A8%EC%95%97%ED%98%B8%EB%96%A1%20%EB%B6%80%EC%82%B0 · 원문: 없음 · 원본 URL https://map.naver.com/p/entry/place/12134547 는 페이지를 찾을 수 없음. 네이버 플레이스 검색에서 같은 문구의 업체 결과도 없어 특정 판매자의 업주 등록 가격을 찾지 못함. 못 찾음 + 확인한 URL: https://map.naver.com/p/entry/place/12134547 ; https://map.naver.com/p/search/BIFF%EA%B1%B0%EB%A6%AC%20%EC%94%A8%EC%95%97%ED%98%B8%EB%96%A1%20%EB%B6%80%EC%82%B0 · GPT 네이버 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "남포동 BIFF거리 판매 표준 단품 가격 · 지도 플랫폼 업주 등록 메뉴 · 원문: 씨앗호떡 2,000원 · 수집: prices-busan.csv · 모델 제외: 출처 네이버 플레이스 페이지가 사라졌고 같은 판매자를 찾지 못함(2026-10-11 GPT 재확인)"
   },
   {
     "id": "PUS-FD-009",
@@ -55865,13 +55829,7 @@
     "applied": "2026",
     "sourceName": "숙성도 노형본관 매장 공식 메뉴판",
     "sourceUrl": "https://map.naver.com/p/entry/place/1070809277",
-    "note": "제주 흑돼지 전문점 1인분 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 720 숙성 흑돼지 22,000원 · 수집: prices-jeju.csv · 모델 제외: 공식 메뉴에 같은 상품(숙성 흑돼지 1인분 200g)이 없음(2026-10-11 GPT 재확인)",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://pcmap.place.naver.com/restaurant/1249805999/menu/list · 원문: 숙성 흑돼지 1인분 200g 항목은 확인되지 않음. 별도 표기: 720 숙성 삼겹살 200g 23,000원; 720 교차숙성 흑돼지(앞다리살) 23,000원. · 숙성도 제주본점 공식 메뉴를 재열람했지만 요청한 상품명 '숙성 흑돼지' 1인분 200g과 같은 항목은 없습니다. 다른 부위·상품 가격으로 대체하지 않았습니다. · GPT 네이버 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "제주 흑돼지 전문점 1인분 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 720 숙성 흑돼지 22,000원 · 수집: prices-jeju.csv · 모델 제외: 공식 메뉴에 같은 상품(숙성 흑돼지 1인분 200g)이 없음(2026-10-11 GPT 재확인)"
   },
   {
     "id": "CJU-FD-004",
@@ -55919,13 +55877,7 @@
     "applied": "2026",
     "sourceName": "네이버 플레이스 삼보식당 공식 메뉴판",
     "sourceUrl": "https://map.naver.com/p/entry/place/11831343",
-    "note": "서귀포 전통 해물뚝배기 식사 메뉴 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 전복뚝배기 15,000원 · 수집: prices-jeju.csv · 모델 제외: 출처 메뉴 페이지가 사라졌고 업체 검색 결과도 없음(2026-10-11 GPT 재확인)",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/진두강정%20제주; https://pcmap.place.naver.com/restaurant/11831343/menu/list · 원문: 검색 결과: 조건에 맞는 업체가 없습니다. 원래 출처 ID 메뉴 페이지는 요청 페이지를 찾을 수 없음. · 진두강정 제주 검색에서 업체 결과가 없고, 입력 출처 메뉴 URL은 찾을 수 없는 페이지로 열립니다. 항목과 같은 판매자·상품 가격을 확인하지 못했습니다. · GPT 네이버 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "서귀포 전통 해물뚝배기 식사 메뉴 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 전복뚝배기 15,000원 · 수집: prices-jeju.csv · 모델 제외: 출처 메뉴 페이지가 사라졌고 업체 검색 결과도 없음(2026-10-11 GPT 재확인)"
   },
   {
     "id": "CJU-FD-006",
@@ -55949,13 +55901,7 @@
     "applied": "2026",
     "sourceName": "에이바우트커피 공식홈페이지",
     "sourceUrl": "https://aboutcoffee.co.kr/",
-    "note": "제주 토종 프랜차이즈 카페 매장 정가 · 원문: 아메리카노 2,900원 (모닝 1,900원) · 수집: prices-jeju.csv · 모델 제외: 출처 사이트(aboutcoffee.co.kr)가 열리지 않아(도메인 없음) 공식 가격을 확인할 수 없음(2026-10-11)",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://aboutcoffee.co.kr/ · 사이트가 열리지 않음(브라우저 오류 페이지) · Claude 크롬 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "제주 토종 프랜차이즈 카페 매장 정가 · 원문: 아메리카노 2,900원 (모닝 1,900원) · 수집: prices-jeju.csv · 모델 제외: 출처 사이트(aboutcoffee.co.kr)가 열리지 않아(도메인 없음) 공식 가격을 확인할 수 없음(2026-10-11)"
   },
   {
     "id": "CJU-FD-007",
@@ -55979,13 +55925,7 @@
     "applied": "2026",
     "sourceName": "동문시장 공식 판매처 가격표시",
     "sourceUrl": "https://map.naver.com/p/entry/place/11624838",
-    "note": "동문재래시장 생과일 착즙 보틀 주스 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 착즙 한라봉주스 4,000원 · 수집: prices-jeju.csv · 모델 제외: 출처 메뉴 페이지가 열리지 않고 판매자를 특정할 수 없음(2026-10-11 GPT 재확인)",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/동문시장%20착즙%20한라봉주스%20제주; https://pcmap.place.naver.com/restaurant/11624838/menu/list · 원문: 검색 결과: 조건에 맞는 업체가 없습니다. 원래 출처 ID 메뉴 페이지는 요청 페이지를 찾을 수 없음. · 동문시장 착즙 한라봉주스 검색에서 해당 업소가 나오지 않고, 입력 ID는 메뉴 페이지가 열리지 않았습니다. 판매자·350ml 병·가격을 공식 페이지에서 특정하지 못했습니다. · GPT 네이버 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "동문재래시장 생과일 착즙 보틀 주스 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 착즙 한라봉주스 4,000원 · 수집: prices-jeju.csv · 모델 제외: 출처 메뉴 페이지가 열리지 않고 판매자를 특정할 수 없음(2026-10-11 GPT 재확인)"
   },
   {
     "id": "CJU-FD-008",
@@ -56009,13 +55949,7 @@
     "applied": "2026",
     "sourceName": "네이버 플레이스 진아떡집 공식 메뉴",
     "sourceUrl": "https://map.naver.com/p/entry/place/11831418",
-    "note": "낱개 기준 포장/매장 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 오메기떡 1개 1,000원 · 수집: prices-jeju.csv · 모델 제외: 출처 ID가 다른 업소(전주 의원)로 연결되고 판매자를 찾지 못함(2026-10-11 GPT 재확인)",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://map.naver.com/p/search/동문시장%20원조%20오메기떡; https://pcmap.place.naver.com/restaurant/11831418/home · 원문: 검색 결과: 조건에 맞는 업체가 없습니다. 원래 출처 ID는 늘편한유항외과의원(전주)로 열림. · 원래 출처 ID는 제주 판매처가 아닌 전주 의원으로 연결되고, 동문시장 원조 오메기떡 검색에서도 업체가 나오지 않았습니다. 같은 판매자·낱개 가격을 확인하지 못했습니다. · GPT 네이버 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "낱개 기준 포장/매장 정가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 오메기떡 1개 1,000원 · 수집: prices-jeju.csv · 모델 제외: 출처 ID가 다른 업소(전주 의원)로 연결되고 판매자를 찾지 못함(2026-10-11 GPT 재확인)"
   },
   {
     "id": "CJU-FD-009",
@@ -56099,13 +56033,7 @@
     "applied": "2026",
     "sourceName": "자매국수 매장 공식 주류 메뉴판",
     "sourceUrl": "https://map.naver.com/p/entry/place/13570691",
-    "note": "일반 국수 및 고기 전문 식당 매장 판매가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 소주 5,000원 / 맥주 5,000원 · 수집: prices-jeju.csv · 모델 제외: 출처 ID가 다른 업소로 연결되고 자매국수 공식 메뉴에 술 가격이 없음(2026-10-11 GPT 재확인)",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://pcmap.place.naver.com/restaurant/37060300/menu/list; https://pcmap.place.naver.com/restaurant/13570691/menu/list · 원문: 자매국수 메뉴 목록에 소주·맥주 항목 없음. 원래 출처 ID는 역전국밥으로 연결됨. · 입력 출처 ID는 다른 업소(역전국밥)이며, 자매국수 제주 본점의 공식 메뉴에는 소주·맥주 가격이 표시되지 않습니다. 같은 식당의 술 가격을 확인하지 못했습니다. · GPT 네이버 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "일반 국수 및 고기 전문 식당 매장 판매가 · 지도 플랫폼 업주 등록 메뉴 · 원문: 소주 5,000원 / 맥주 5,000원 · 수집: prices-jeju.csv · 모델 제외: 출처 ID가 다른 업소로 연결되고 자매국수 공식 메뉴에 술 가격이 없음(2026-10-11 GPT 재확인)"
   },
   {
     "id": "CJU-SV-001",
@@ -59195,13 +59123,7 @@
     "applied": "2026",
     "sourceName": "一蘭 ICHIRAN Singapore",
     "sourceUrl": "https://en.ichiran.com/np/shop/singapore/",
-    "note": "Perplexity 수집. 출처 목록에 이 주소가 없어 지점 존재 확인 필요 · 원문: Classic Tonkotsu Ramen SGD 11.80 · 수집: prices-perplexity-2026-10-03.csv · 모델 제외: 출처 페이지(이치란 싱가포르)가 404·빈 페이지라 공식 가격을 확인할 수 없음(2026-10-11)",
-    "review": {
-      "flag": "출처 확인 필요",
-      "flagEn": "source needs checking",
-      "detail": "2026-10-03 Claude 검토: Perplexity 가 낸 출처 목록에 싱가포르 지점 페이지가 없음. 이치란 싱가포르 지점 존재와 SGD 11.80 을 공식 페이지에서 확인 필요.",
-      "reportedAt": "2026-10-03"
-    }
+    "note": "Perplexity 수집. 출처 목록에 이 주소가 없어 지점 존재 확인 필요 · 원문: Classic Tonkotsu Ramen SGD 11.80 · 수집: prices-perplexity-2026-10-03.csv · 모델 제외: ICHIRAN 공식 해외 지점 목록에 싱가포르 매장이 없고 기존 싱가포르 가격 페이지도 현재 운영되지 않아 상품·가격을 확인할 수 없음(2026-11-17). 공식 지점: https://en.ichiran.com/shop/area-oversea.html"
   },
   {
     "id": "SIN-FD-903",
@@ -59219,19 +59141,13 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "A",
-    "modelUse": "yes",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "Old Chang Kee",
     "sourceUrl": "https://www.oldchangkee.com/dipngo.com.sg/menu.html",
-    "note": "Perplexity 수집(중가 한끼로 왔으나 커리퍼프 1개는 간식으로 분류) · 원문: Curry'O S$ 2.20 · 수집: prices-perplexity-2026-10-03.csv",
-    "review": {
-      "flag": "출처 확인 필요",
-      "flagEn": "source needs checking",
-      "detail": "2026-10-03 Claude 검토: 출처 주소(oldchangkee.com/dipngo.com.sg/...) 형식이 비정상. 공식 메뉴 페이지 재확인 필요.",
-      "reportedAt": "2026-10-03"
-    }
+    "note": "Perplexity 수집(중가 한끼로 왔으나 커리퍼프 1개는 간식으로 분류) · 원문: Curry'O S$ 2.20 · 수집: prices-perplexity-2026-10-03.csv · 모델 제외: Old Chang Kee 공식 메뉴 페이지는 메뉴 이미지 링크만 제공하고 커리퍼프 현재 단품 가격을 게시하지 않아 SGD 2.20을 확인할 수 없음(2026-11-17). https://www.oldchangkee.com/dipngo.com.sg/menu.html"
   },
   {
     "id": "SIN-SV-901",
@@ -59249,19 +59165,13 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "A",
-    "modelUse": "yes",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "Old Chang Kee",
     "sourceUrl": "https://www.oldchangkee.com/dipngo.com.sg/menu.html",
-    "note": "Perplexity 수집. 공식 메뉴 정가 · 원문: Curry'O Box Of 10 S$ 22 · 수집: prices-perplexity-2026-10-03.csv",
-    "review": {
-      "flag": "출처 확인 필요",
-      "flagEn": "source needs checking",
-      "detail": "2026-10-03 Claude 검토: 출처 주소(oldchangkee.com/dipngo.com.sg/...) 형식이 비정상. 공식 메뉴 페이지 재확인 필요.",
-      "reportedAt": "2026-10-03"
-    }
+    "note": "Perplexity 수집. 공식 메뉴 정가 · 원문: Curry'O Box Of 10 S$ 22 · 수집: prices-perplexity-2026-10-03.csv · 모델 제외: Old Chang Kee 공식 메뉴 페이지에서 커리퍼프 10개 상자와 현재 가격을 확인할 수 없어 SGD 22를 계산 표본에서 제외(2026-11-17). https://www.oldchangkee.com/dipngo.com.sg/menu.html"
   },
   {
     "id": "PAR-SV-901",
@@ -60167,13 +60077,7 @@
     "applied": "2026",
     "sourceName": "Wakadori Marunouchi (restaurants-guide.tokyo)",
     "sourceUrl": "https://restaurants-guide.tokyo/restaurants/drink/?id=95",
-    "note": "Perplexity 수집. 출처가 식당 공식 사이트가 아닌 안내 사이트라 보조·조건부로 낮춤 · 원문: Draft Beer The Premium Malt's 630 JPY · 수집: prices-perplexity-drinks-2026-10-03.csv · 모델 제외: 출처가 배달·예약·가이드 사이트라 공식 출처가 아니고, 2026-10-11 크롬 재확인에서 매장 공식 메뉴를 찾지 못함",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://restaurants-guide.tokyo/restaurants/drink/?id=95 · 공식 출처 없음. 와카도리 마루노우치 공식 메뉴 페이지를 검색으로 못 찾음 · Claude 크롬 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "Perplexity 수집. 출처가 식당 공식 사이트가 아닌 안내 사이트라 보조·조건부로 낮춤 · 원문: Draft Beer The Premium Malt's 630 JPY · 수집: prices-perplexity-drinks-2026-10-03.csv · 모델 제외: 출처가 배달·예약·가이드 사이트라 공식 출처가 아니고, 2026-10-11 크롬 재확인에서 매장 공식 메뉴를 찾지 못함"
   },
   {
     "id": "TYO-FD-953",
@@ -60623,19 +60527,13 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "A",
-    "modelUse": "yes",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "Fuller's Pubs London",
     "sourceUrl": "https://www.fullers.co.uk/pubs/pub-finder/london",
-    "note": "Perplexity 수집. 개별 펍 메뉴가 아닌 체인 안내 페이지 · 원문: London Pride pint £5.50 · 수집: prices-perplexity-drinks-2026-10-03.csv",
-    "review": {
-      "flag": "출처 확인 필요",
-      "flagEn": "source needs checking",
-      "detail": "2026-10-03 Claude 검토: 출처가 펍 찾기(지점 목록) 페이지라 맥주 가격이 실제로 적혀 있는지 의심됨. 개별 펍 메뉴에서 재확인 필요.",
-      "reportedAt": "2026-10-03"
-    }
+    "note": "Perplexity 수집. 개별 펍 메뉴가 아닌 체인 안내 페이지 · 원문: London Pride pint £5.50 · 수집: prices-perplexity-drinks-2026-10-03.csv · 모델 제외: Fuller’s 공식 런던 펍 찾기 페이지는 지점 목록만 제공하며 London Pride 1파인트의 메뉴 가격은 게시하지 않는다. 펍별 공식 메뉴에서도 현재 단가를 특정하지 못해 기존 가격을 계산에서 제외(2026-11-17). https://www.fullers.co.uk/pubs/pub-finder/london"
   },
   {
     "id": "LON-FD-952",
@@ -60653,19 +60551,13 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "A",
-    "modelUse": "yes",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "Fuller's Pubs London",
     "sourceUrl": "https://www.fullers.co.uk/pubs/pub-finder/london",
-    "note": "Perplexity 수집. 개별 펍 메뉴가 아닌 체인 안내 페이지 · 원문: Guinness pint £6.20 · 수집: prices-perplexity-drinks-2026-10-03.csv",
-    "review": {
-      "flag": "출처 확인 필요",
-      "flagEn": "source needs checking",
-      "detail": "2026-10-03 Claude 검토: 출처가 펍 찾기(지점 목록) 페이지라 맥주 가격이 실제로 적혀 있는지 의심됨. 개별 펍 메뉴에서 재확인 필요.",
-      "reportedAt": "2026-10-03"
-    }
+    "note": "Perplexity 수집. 개별 펍 메뉴가 아닌 체인 안내 페이지 · 원문: Guinness pint £6.20 · 수집: prices-perplexity-drinks-2026-10-03.csv · 모델 제외: Fuller’s 공식 런던 펍 찾기 페이지는 지점 목록만 제공하며 Guinness 1파인트의 메뉴 가격은 게시하지 않는다. 펍별 공식 메뉴에서도 현재 단가를 특정하지 못해 기존 가격을 계산에서 제외(2026-11-17). https://www.fullers.co.uk/pubs/pub-finder/london"
   },
   {
     "id": "LON-FD-953",
@@ -60683,19 +60575,13 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "A",
-    "modelUse": "yes",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "Fuller's Pubs London",
     "sourceUrl": "https://www.fullers.co.uk/pubs/pub-finder/london",
-    "note": "Perplexity 수집. 개별 펍 메뉴가 아닌 체인 안내 페이지 · 원문: Peroni pint £6.00 · 수집: prices-perplexity-drinks-2026-10-03.csv",
-    "review": {
-      "flag": "출처 확인 필요",
-      "flagEn": "source needs checking",
-      "detail": "2026-10-03 Claude 검토: 출처가 펍 찾기(지점 목록) 페이지라 맥주 가격이 실제로 적혀 있는지 의심됨. 개별 펍 메뉴에서 재확인 필요.",
-      "reportedAt": "2026-10-03"
-    }
+    "note": "Perplexity 수집. 개별 펍 메뉴가 아닌 체인 안내 페이지 · 원문: Peroni pint £6.00 · 수집: prices-perplexity-drinks-2026-10-03.csv · 모델 제외: Fuller’s 공식 런던 펍 찾기 페이지는 지점 목록만 제공하며 Peroni 1파인트의 메뉴 가격은 게시하지 않는다. 펍별 공식 메뉴에서도 현재 단가를 특정하지 못해 기존 가격을 계산에서 제외(2026-11-17). https://www.fullers.co.uk/pubs/pub-finder/london"
   },
   {
     "id": "DAD-FD-911",
@@ -60743,13 +60629,7 @@
     "applied": "2026",
     "sourceName": "광표우육면 (foodpanda)",
     "sourceUrl": "https://www.foodpanda.com.tw/en/restaurant/sjcf/kuang-biao-niu-rou-mian",
-    "note": "Perplexity 수집. 배달앱 가격(매장가와 다를 수 있음) — 공식 메뉴로 교체 필요 · 플랫폼 출처(공식 페이지 아님) · 원문: Braised Beef Noodle $169 · 수집: prices-perplexity-meals-2026-10-03.csv · 모델 제외: 출처가 배달·예약·가이드 사이트라 공식 출처가 아니고, 2026-10-11 크롬 재확인에서 매장 공식 메뉴를 찾지 못함",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://www.foodpanda.com.tw/en/restaurant/sjcf/kuang-biao-niu-rou-mian · 공식 출처 없음. 廣標牛肉麵 공식 사이트·SNS 메뉴를 검색으로 못 찾음 · Claude 크롬 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "Perplexity 수집. 배달앱 가격(매장가와 다를 수 있음) — 공식 메뉴로 교체 필요 · 플랫폼 출처(공식 페이지 아님) · 원문: Braised Beef Noodle $169 · 수집: prices-perplexity-meals-2026-10-03.csv · 모델 제외: 출처가 배달·예약·가이드 사이트라 공식 출처가 아니고, 2026-10-11 크롬 재확인에서 매장 공식 메뉴를 찾지 못함"
   },
   {
     "id": "TPE-FD-912",
@@ -60773,13 +60653,7 @@
     "applied": "2026",
     "sourceName": "문가우육면 (foodpanda)",
     "sourceUrl": "https://www.foodpanda.com.tw/restaurant/r2nr/wen-jia-niu-rou-mian",
-    "note": "Perplexity 수집. 배달앱 가격(매장가와 다를 수 있음)·시작가 — 공식 메뉴로 교체 필요 · 플랫폼 출처(공식 페이지 아님) · 원문: 三寶牛肉麵 $210 起 · 수집: prices-perplexity-meals-2026-10-03.csv · 모델 제외: 출처가 배달·예약·가이드 사이트라 공식 출처가 아니고, 2026-10-11 크롬 재확인에서 매장 공식 메뉴를 찾지 못함",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://www.facebook.com/WenJiaNiuRouMian/ · 공식 출처 없음. 文家牛肉麵 페이스북 페이지는 검색에 나오지만 타이베이 매장인지와 메뉴 가격은 확인 못함(페이지를 열어 보지는 않음) · Claude 크롬 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "Perplexity 수집. 배달앱 가격(매장가와 다를 수 있음)·시작가 — 공식 메뉴로 교체 필요 · 플랫폼 출처(공식 페이지 아님) · 원문: 三寶牛肉麵 $210 起 · 수집: prices-perplexity-meals-2026-10-03.csv · 모델 제외: 출처가 배달·예약·가이드 사이트라 공식 출처가 아니고, 2026-10-11 크롬 재확인에서 매장 공식 메뉴를 찾지 못함"
   },
   {
     "id": "SIN-FD-911",
@@ -60797,19 +60671,13 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "A",
-    "modelUse": "yes",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "McDonald's Singapore",
     "sourceUrl": "https://www.mcdonalds.com.sg/full-menu",
-    "note": "Perplexity 수집. 단품/세트 여부 확인 필요 · 원문: Big Mac® S$ 7.95 · 수집: prices-perplexity-meals-2026-10-03.csv",
-    "review": {
-      "flag": "출처 확인 필요",
-      "flagEn": "source needs checking",
-      "detail": "2026-10-03 Claude 검토: 공식 메뉴 페이지가 가격을 동적으로 표시해 원문 확인이 어렵다고 Perplexity 가 밝힘. 단품/세트 여부와 S$7.95 재확인 필요.",
-      "reportedAt": "2026-10-03"
-    }
+    "note": "Perplexity 수집. 단품/세트 여부 확인 필요 · 원문: Big Mac® S$ 7.95 · 수집: prices-perplexity-meals-2026-10-03.csv · 모델 제외: McDonald’s Singapore 공식 Big Mac 상품 페이지는 상품·영양 정보만 제공하고 현재 단품 가격을 표시하지 않아 SGD 7.95를 확인할 수 없음(2026-11-17). https://www.mcdonalds.com.sg/food-menu/big-mac"
   },
   {
     "id": "PQC-FD-101",
@@ -62093,13 +61961,7 @@
     "applied": "2026",
     "sourceName": "Dante's Bar Caffe (quandoo)",
     "sourceUrl": "https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu",
-    "note": "Perplexity 수집. 예약 플랫폼 메뉴(가게 이름이 판타레아이로 잘못 와서 정정) · 플랫폼 출처(공식 페이지 아님) · 원문: Pasta e pomodoro e basilico 8,00€ · 수집: prices-rome.csv · 모델 제외: 출처가 예약 사이트(quandoo)라 공식 출처가 아님 → 2026-10-11 식당 공식 메뉴 PDF 표본(ROM-FD-401~409)으로 대체",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu · 공식 출처 없음. Dante's Bar Caffè 공식 사이트를 검색으로 못 찾음 · Claude 크롬 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "Perplexity 수집. 예약 플랫폼 메뉴(가게 이름이 판타레아이로 잘못 와서 정정) · 플랫폼 출처(공식 페이지 아님) · 원문: Pasta e pomodoro e basilico 8,00€ · 수집: prices-rome.csv · 모델 제외: 출처가 예약 사이트(quandoo)라 공식 출처가 아님 → 2026-10-11 식당 공식 메뉴 PDF 표본(ROM-FD-401~409)으로 대체"
   },
   {
     "id": "ROM-FD-102",
@@ -62123,13 +61985,7 @@
     "applied": "2026",
     "sourceName": "Caffe Ripetta (quandoo)",
     "sourceUrl": "https://www.quandoo.it/en/place/caffe-ripetta-95692/menu",
-    "note": "Perplexity 수집. 예약 플랫폼 메뉴 · 플랫폼 출처(공식 페이지 아님) · 원문: Amatriciana 10,00€ · 수집: prices-rome.csv · 모델 제외: 출처가 예약 사이트(quandoo)라 공식 출처가 아님 → 2026-10-11 식당 공식 메뉴 PDF 표본(ROM-FD-401~409)으로 대체",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://www.quandoo.it/en/place/caffe-ripetta-95692/menu · 공식 출처 없음. Caffè Ripetta 공식 메뉴를 검색으로 못 찾음 · Claude 크롬 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "Perplexity 수집. 예약 플랫폼 메뉴 · 플랫폼 출처(공식 페이지 아님) · 원문: Amatriciana 10,00€ · 수집: prices-rome.csv · 모델 제외: 출처가 예약 사이트(quandoo)라 공식 출처가 아님 → 2026-10-11 식당 공식 메뉴 PDF 표본(ROM-FD-401~409)으로 대체"
   },
   {
     "id": "ROM-FD-103",
@@ -62153,13 +62009,7 @@
     "applied": "2026",
     "sourceName": "Dante's Bar Caffe (quandoo)",
     "sourceUrl": "https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu",
-    "note": "Perplexity 수집. 예약 플랫폼 메뉴(범위 10~12는 다른 피자 가격이 섞여 10 으로 정정) · 플랫폼 출처(공식 페이지 아님) · 원문: Margherita 10,00€ · 수집: prices-rome.csv · 모델 제외: 출처가 예약 사이트(quandoo)라 공식 출처가 아님 → 2026-10-11 식당 공식 메뉴 PDF 표본(ROM-FD-401~409)으로 대체",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu · 공식 출처 없음. Dante's Bar Caffè 공식 사이트를 검색으로 못 찾음 · Claude 크롬 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "Perplexity 수집. 예약 플랫폼 메뉴(범위 10~12는 다른 피자 가격이 섞여 10 으로 정정) · 플랫폼 출처(공식 페이지 아님) · 원문: Margherita 10,00€ · 수집: prices-rome.csv · 모델 제외: 출처가 예약 사이트(quandoo)라 공식 출처가 아님 → 2026-10-11 식당 공식 메뉴 PDF 표본(ROM-FD-401~409)으로 대체"
   },
   {
     "id": "ROM-FD-104",
@@ -62183,13 +62033,7 @@
     "applied": "2026",
     "sourceName": "Gran Caffe Rossi Martini (quandoo)",
     "sourceUrl": "https://www.quandoo.it/en/place/gran-caffe-rossi-martini-48508/menu",
-    "note": "Perplexity 수집. 예약 플랫폼 메뉴 · 플랫폼 출처(공식 페이지 아님) · 원문: RIGATONI ALLA CARBONARA 15,00€ · 수집: prices-rome.csv · 모델 제외: 출처가 예약 사이트(quandoo)라 공식 출처가 아님 → 2026-10-11 식당 공식 메뉴 PDF 표본(ROM-FD-401~409)으로 대체",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://www.caffemartiniroma.com/ · 공식 사이트로 보이는 주소는 검색에 나왔으나 열어서 메뉴 가격을 확인하지는 못함 · Claude 크롬 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "Perplexity 수집. 예약 플랫폼 메뉴 · 플랫폼 출처(공식 페이지 아님) · 원문: RIGATONI ALLA CARBONARA 15,00€ · 수집: prices-rome.csv · 모델 제외: 출처가 예약 사이트(quandoo)라 공식 출처가 아님 → 2026-10-11 식당 공식 메뉴 PDF 표본(ROM-FD-401~409)으로 대체"
   },
   {
     "id": "ROM-FD-105",
@@ -62213,13 +62057,7 @@
     "applied": "2026",
     "sourceName": "Dante's Bar Caffe (quandoo)",
     "sourceUrl": "https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu",
-    "note": "Perplexity 수집. 예약 플랫폼 메뉴·파스타·고기·반찬·음료 포함 · 플랫폼 출처(공식 페이지 아님) · 원문: Set Menu Carne 22,00€ · 수집: prices-rome.csv · 모델 제외: 출처가 예약 사이트(quandoo)라 공식 출처가 아님 → 2026-10-11 식당 공식 메뉴 PDF 표본(ROM-FD-401~409)으로 대체",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://www.quandoo.it/en/place/dantes-bar-caffe-95556/menu · 공식 출처 없음. Dante's Bar Caffè 공식 사이트를 검색으로 못 찾음 · Claude 크롬 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "Perplexity 수집. 예약 플랫폼 메뉴·파스타·고기·반찬·음료 포함 · 플랫폼 출처(공식 페이지 아님) · 원문: Set Menu Carne 22,00€ · 수집: prices-rome.csv · 모델 제외: 출처가 예약 사이트(quandoo)라 공식 출처가 아님 → 2026-10-11 식당 공식 메뉴 PDF 표본(ROM-FD-401~409)으로 대체"
   },
   {
     "id": "ROM-FD-201",
@@ -62237,19 +62075,13 @@
     "priceType": "고정형",
     "target": "일반",
     "grade": "A",
-    "modelUse": "yes",
+    "modelUse": "no",
     "status": "확정 1차 재검증(교차 확인 전)",
     "checkedAt": "2026-10-03",
     "applied": "2026",
     "sourceName": "Giolitti",
     "sourceUrl": "https://www.giolitti.it/en/",
-    "note": "Perplexity 수집. 인용 문구가 공식 홈페이지 문구인지 재확인 필요 · 원문: Ice Cream Cost €3.00 - €3.50 (Small/Medium Cup) · 수집: prices-rome.csv",
-    "review": {
-      "flag": "출처 확인 필요",
-      "flagEn": "source needs checking",
-      "detail": "2026-10-03 Claude 검토: 인용 문구가 공식 홈페이지가 아닌 가이드 사이트 표현으로 보임.",
-      "reportedAt": "2026-10-03"
-    }
+    "note": "Perplexity 수집. 인용 문구가 공식 홈페이지 문구인지 재확인 필요 · 원문: Ice Cream Cost €3.00 - €3.50 (Small/Medium Cup) · 수집: prices-rome.csv · 모델 제외: Giolitti 공식 제품 페이지는 젤라토 상품군은 소개하지만 컵 가격을 게시하지 않아 기존 EUR 3.00–3.50을 확인할 수 없음(2026-11-17). https://www.giolitti.it/prodotti/"
   },
   {
     "id": "ROM-FD-202",
@@ -62273,13 +62105,7 @@
     "applied": "2026",
     "sourceName": "Caffe Ciampini (quandoo)",
     "sourceUrl": "https://www.quandoo.it/en/place/caffe-ciampini-21378/menu",
-    "note": "Perplexity 수집. 예약 플랫폼 메뉴 · 플랫폼 출처(공식 페이지 아님) · 원문: Caffè espresso 1,20€ · 수집: prices-rome.csv · 모델 제외: 출처가 배달·예약·가이드 사이트라 공식 출처가 아니고, 2026-10-11 크롬 재확인에서 매장 공식 메뉴를 찾지 못함",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://ciampini.com/caffe/ · 공식 사이트에 카페 메뉴 PDF(Ciampini-Caffe-Menu.pdf, 2022-08 업로드, 16쪽)가 있으나 이미지형이라 에스프레소 가격을 읽지 못함 · Claude 크롬 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "Perplexity 수집. 예약 플랫폼 메뉴 · 플랫폼 출처(공식 페이지 아님) · 원문: Caffè espresso 1,20€ · 수집: prices-rome.csv · 모델 제외: 출처가 배달·예약·가이드 사이트라 공식 출처가 아니고, 2026-10-11 크롬 재확인에서 매장 공식 메뉴를 찾지 못함"
   },
   {
     "id": "ROM-FD-203",
@@ -62303,13 +62129,7 @@
     "applied": "2026",
     "sourceName": "Caffe Ciampini (quandoo)",
     "sourceUrl": "https://www.quandoo.it/en/place/caffe-ciampini-21378/menu",
-    "note": "Perplexity 수집. 예약 플랫폼 메뉴 · 플랫폼 출처(공식 페이지 아님) · 원문: Cappuccino 1,50€ · 수집: prices-rome.csv · 모델 제외: 출처가 배달·예약·가이드 사이트라 공식 출처가 아니고, 2026-10-11 크롬 재확인에서 매장 공식 메뉴를 찾지 못함",
-    "review": {
-      "flag": "원문 확인 불가",
-      "flagEn": "source could not be verified",
-      "detail": "https://ciampini.com/caffe/ · ROM-FD-202와 같은 PDF. 카푸치노 가격을 읽지 못함 · Claude 크롬 재확인(2026-10-11)",
-      "reportedAt": "2026-10-11"
-    }
+    "note": "Perplexity 수집. 예약 플랫폼 메뉴 · 플랫폼 출처(공식 페이지 아님) · 원문: Cappuccino 1,50€ · 수집: prices-rome.csv · 모델 제외: 출처가 배달·예약·가이드 사이트라 공식 출처가 아니고, 2026-10-11 크롬 재확인에서 매장 공식 메뉴를 찾지 못함"
   },
   {
     "id": "ROM-FD-301",
@@ -62400,18 +62220,12 @@
     "target": "일반",
     "grade": "A",
     "modelUse": "yes",
-    "status": "확정 1차 재검증(교차 확인 전)",
-    "checkedAt": "2026-10-08",
+    "status": "확정 공식 재확인",
+    "checkedAt": "2026-11-17",
     "applied": "2026",
-    "sourceName": "CoopCulture",
+    "sourceName": "Parco archeologico del Colosseo",
     "sourceUrl": "https://colosseo.it/en/tickets/colosseum-roman-forum-palatine/",
-    "note": "Perplexity 수집. 온라인 예약 수수료 2 EUR 별도 · 교차 검수 반영(2026-10-08): 공식 현행 가격 €18.00 · 원문: Full ticket €16.00 · 수집: prices-rome.csv",
-    "review": {
-      "flag": "요금 확인 필요",
-      "flagEn": "price needs checking",
-      "detail": "2026-10-03 Claude 검토: 콜로세움 통합권은 2024년부터 18유로로 안내된 적이 있어 16유로가 최신인지 공식 페이지 재확인 필요.",
-      "reportedAt": "2026-10-03"
-    }
+    "note": "Parco archeologico del Colosseo 공식 요금표: Full entry: €18.00. 온라인 예약 수수료는 별도. · 가격 정정(2026-11-17): 콜로세움 고고학공원 공식 요금표의 원문 \"Full entry: €18.00\"로 성인 일반 통합권 가격을 확인했다. 온라인 예약 수수료는 별도 항목이다."
   },
   {
     "id": "ROM-AT-102",

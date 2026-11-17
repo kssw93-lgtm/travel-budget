@@ -217,6 +217,7 @@ export function TripForm({ form, onChange, errors, cities, upcoming = [], rates 
             {err('flight')}
             <PartnerLink kind="flight" />
             <PartnerLink kind="train" />
+            <PartnerLink kind="flightHotel" />
           </div>
           <div className="field span-3">
             <label htmlFor="lodging">{t.form.lodging}</label>

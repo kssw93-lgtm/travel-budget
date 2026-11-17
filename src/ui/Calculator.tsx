@@ -10,6 +10,7 @@ import { PlanOptions } from './PlanOptions';
 import { parseForm, type FormState } from './form';
 import { RatesNotice, ResultView } from './ResultView';
 import { TripForm } from './TripForm';
+import { PartnerBanner } from './PartnerBanner';
 import { useRates } from './useRates';
 import { calcMemory, formToSearch, readForm } from './urlState';
 import { currentLoc, replaceLoc } from './router';
@@ -181,6 +182,7 @@ export function Calculator() {
           <RatesNotice rates={rates} display={form.currency} />
         </>
       )}
+      <PartnerBanner />
     </>
   );
 }

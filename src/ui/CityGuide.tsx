@@ -204,6 +204,7 @@ function AirportAccess({ city }: { city: City }) {
         </>
       )}
       <p className="hint">{t.cityGuide.airportAccessHint}</p>
+      <PartnerLink kind="airportPickup" />
     </section>
   );
 }

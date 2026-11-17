@@ -366,6 +366,12 @@ export const ja: Messages = {
     train: 'Trip.comで列車のチケットを確認',
     hotel: 'Trip.comで宿泊施設を検索',
     tours: 'Trip.comでツアー・チケットを探す',
+    flightHotel: 'Trip.comで航空券と宿泊施設をまとめて検索',
+    bannerToggle: 'Trip.comのバナーを表示',
+    bannerHide: 'Trip.comのバナーを非表示',
+    carRental: 'Trip.comでレンタカーを検索',
+    airportPickup: 'Trip.comで空港送迎を検索',
+    bannerTitle: '航空券・宿泊施設・現地ツアーを探す',
     disclosure: 'アフィリエイトリンクです。予約が成立すると、当サイトが紹介手数料を受け取る場合があります。',
   },
   about: {

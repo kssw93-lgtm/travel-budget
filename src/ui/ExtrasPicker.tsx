@@ -3,6 +3,7 @@ import { MODEL } from '../core/model-config';
 import type { City, ExtraSample, Range } from '../core/types';
 import { fmt, localName, useI18n } from '../i18n';
 import { ExternalLink } from './ExternalLink';
+import { PartnerLink } from './PartnerLink';
 import type { FieldError, FormState } from './form';
 import { convertRange, RangeText } from './money';
 import type { RatesState } from './useRates';
@@ -112,6 +113,7 @@ export function ExtrasPicker({ city, extras, form, onChange, display, rates, nig
                 </select>
               </div>
             )}
+            <PartnerLink kind="airportPickup" />
           </fieldset>
         )}
         {rental.length > 0 && (
@@ -144,6 +146,7 @@ export function ExtrasPicker({ city, extras, form, onChange, display, rates, nig
               </div>
             )}
             <p className="hint">{x.rentalNote}</p>
+            <PartnerLink kind="carRental" />
           </fieldset>
         )}
       </details>

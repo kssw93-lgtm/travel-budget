@@ -358,6 +358,7 @@ export const ko = {
   },
   partners: {
     flight: 'Trip.com에서 항공권 검색',
+    train: '기차 이동도 Trip.com에서 확인',
     hotel: 'Trip.com에서 숙소 검색',
     tours: 'Trip.com에서 투어·티켓 찾아보기',
     disclosure: '제휴 링크입니다. 예약이 완료되면 사이트가 수수료를 받을 수 있습니다.',

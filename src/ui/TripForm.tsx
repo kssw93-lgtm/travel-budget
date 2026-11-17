@@ -216,6 +216,7 @@ export function TripForm({ form, onChange, errors, cities, upcoming = [], rates 
             <input id="flight" type="text" inputMode="decimal" value={form.flight} onChange={(e) => onChange({ flight: e.target.value })} {...field('flight')} />
             {err('flight')}
             <PartnerLink kind="flight" />
+            <PartnerLink kind="train" />
           </div>
           <div className="field span-3">
             <label htmlFor="lodging">{t.form.lodging}</label>

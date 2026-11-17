@@ -363,6 +363,7 @@ export const ja: Messages = {
   },
   partners: {
     flight: 'Trip.comで航空券を検索',
+    train: 'Trip.comで列車のチケットを確認',
     hotel: 'Trip.comで宿泊施設を検索',
     tours: 'Trip.comでツアー・チケットを探す',
     disclosure: 'アフィリエイトリンクです。予約が成立すると、当サイトが紹介手数料を受け取る場合があります。',

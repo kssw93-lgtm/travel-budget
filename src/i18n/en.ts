@@ -359,6 +359,7 @@ export const en: Messages = {
   },
   partners: {
     flight: 'Search flights on Trip.com',
+    train: 'Check train tickets on Trip.com',
     hotel: 'Search stays on Trip.com',
     tours: 'Browse tours and tickets on Trip.com',
     disclosure: 'Affiliate link. We may earn a commission if you complete a booking.',

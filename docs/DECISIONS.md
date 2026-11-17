@@ -493,3 +493,4 @@
 - 제휴 링크는 모두 `rel="sponsored"`로 표시한다. Google Search Central은 제휴 링크에 이를 권고한다: https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links.
 - 한국어 페이지에서도 예약 완료 시 수수료를 받을 수 있다는 사실을 링크 옆과 사이트 소개·개인정보처리방침에 분명히 알린다. 이는 공정거래위원회 추천·보증 표시광고 심사지침의 경제적 이해관계 공개 원칙을 따른다: https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000280130.
 - Trip.com 제휴 FAQ에 따르면 발급 링크를 수정하지 말아야 하며, 현재 특정 날짜가 설정된 항공·숙소 링크 생성은 지원되지 않는다. Trip.com 금지 키워드 정책의 유료 검색/PPC 및 브랜드 키워드 제한을 따라 Trip.com 이름으로 검색 광고를 집행하지 않는다: https://www.trip.com/partners/help/faq/tools?locale=en_xx, https://www.trip.com/partners/keywords.
+- 제휴 플랫폼에서 공식 생성한 기차 검색 링크도 항공권 입력 옆에 추가해 이용자가 항공편과 기차편을 함께 알아볼 수 있게 한다. Trip.com이 제공하는 제휴 상품 범위에는 기차표가 포함된다. 국제 도메인 링크는 영어·일본어 화면에서 공유하며, 링크 종류별 `trip_sub1` 값으로 성과를 구분한다.

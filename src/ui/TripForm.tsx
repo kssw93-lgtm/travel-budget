@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { COUNTRY_JA, CITY_JA } from '../i18n/places';
 import { fmt, localName, useI18n, type Lang } from '../i18n';
 import { currencyLabel, currencyOptions } from './currencies';
+import { PartnerLink } from './PartnerLink';
 import type { FieldError, FormState } from './form';
 
 interface Props {
@@ -214,11 +215,13 @@ export function TripForm({ form, onChange, errors, cities, upcoming = [], rates 
             <label htmlFor="flight">{t.form.flight}</label>
             <input id="flight" type="text" inputMode="decimal" value={form.flight} onChange={(e) => onChange({ flight: e.target.value })} {...field('flight')} />
             {err('flight')}
+            <PartnerLink kind="flight" />
           </div>
           <div className="field span-3">
             <label htmlFor="lodging">{t.form.lodging}</label>
             <input id="lodging" type="text" inputMode="decimal" value={form.lodging} onChange={(e) => onChange({ lodging: e.target.value })} {...field('lodging')} />
             {err('lodging')}
+            <PartnerLink kind="hotel" />
           </div>
           <div className="field wide">
             <label htmlFor="directCurrency">{t.form.directCurrency}</label>

@@ -15,6 +15,7 @@ import { fmt, localName, useI18n, type Lang } from '../i18n';
 import { InternalLink, type Go } from './App';
 import { CityMemos } from './CityMemos';
 import { ExternalLink } from './ExternalLink';
+import { PartnerLink } from './PartnerLink';
 import { FoodSection } from './FoodSection';
 import { convertRange, RangeText } from './money';
 import { displayCurrency, guideRefDate } from './guide-utils';
@@ -591,11 +592,13 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
       <LocalPriceExamples guide={guide} />
       <div id="costs">
         <AttractionTable guide={guide} display={display} rates={rates} />
+        {guide.attractions.length > 0 && <PartnerLink kind="tours" />}
         <CityMemos city={city} memos={memos} />
       </div>
       <WhenToGo city={city} />
       <Highlights city={city} />
       <StayAreas city={city} />
+      <PartnerLink kind="hotel" />
       <AirportAccess city={city} />
       <div id="transport">
         <PassTips guide={guide} />

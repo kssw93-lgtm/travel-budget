@@ -357,6 +357,12 @@ export const en: Messages = {
     contactTitle: 'Contact',
     contactLabel: 'Email:',
   },
+  partners: {
+    flight: 'Search flights on Trip.com',
+    hotel: 'Search stays on Trip.com',
+    tours: 'Browse tours and tickets on Trip.com',
+    disclosure: 'Affiliate link. We may earn a commission if you complete a booking.',
+  },
   about: {
     title: 'About',
     lead: 'Not sure how much to set aside for a trip? This free calculator gives you a starting estimate based on your destination and plans. See meals, local transport and admission to the attractions you choose in one place, then add a shopping budget of your own.',
@@ -374,7 +380,7 @@ export const en: Messages = {
         'Flights and lodging are not searched live. Enter costs you already know to include them with your local trip estimate.',
       ] },
       { h: 'How we operate', body: [
-        'There are no sign-ups, logins, payments, bookings, product sales, or affiliate links. The site plans to run on advertising revenue, with ads placed only where they do not obscure results or sources.',
+        'This site does not take bookings or process payments. If you complete a booking through a Trip.com affiliate link, we may earn a commission. It does not affect the calculator results.',
         'Amounts are reference ranges built from published price samples and do not guarantee actual spending. Prices vary by season, day and seller, so check the latest price at each source before important decisions.',
       ] },
     ],
@@ -401,6 +407,7 @@ export const en: Messages = {
       ] },
       { h: 'External links', body: [
         'Price sources and food recommendation sources link to the sites of those organisations and businesses, whose own privacy policies apply.',
+        'Trip.com affiliate links include referral tracking information. When you follow one, Trip.com handles your visit and any booking under its own privacy policy; we may earn a commission if a booking is completed.',
         'Food photos in the city guides are loaded directly from Wikimedia Commons (upload.wikimedia.org), so your browser connects to Wikimedia servers when it shows them, and the Wikimedia Foundation privacy policy (https://foundation.wikimedia.org/wiki/Policy:Privacy_policy) applies.',
       ] },
       { h: 'Changes', body: [

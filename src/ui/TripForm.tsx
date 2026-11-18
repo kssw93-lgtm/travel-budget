@@ -223,7 +223,7 @@ export function TripForm({ form, onChange, errors, cities, upcoming = [], rates 
             <label htmlFor="lodging">{t.form.lodging}</label>
             <input id="lodging" type="text" inputMode="decimal" value={form.lodging} onChange={(e) => onChange({ lodging: e.target.value })} {...field('lodging')} />
             {err('lodging')}
-            <PartnerLink kind="hotel" />
+            <PartnerLink kind="hotel" cityId={form.cityId} />
           </div>
           <div className="field wide">
             <label htmlFor="directCurrency">{t.form.directCurrency}</label>

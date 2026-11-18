@@ -599,7 +599,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
       <WhenToGo city={city} />
       <Highlights city={city} />
       <StayAreas city={city} />
-      <PartnerLink kind="hotel" />
+      <PartnerLink kind="hotel" cityId={city.id} />
       <AirportAccess city={city} />
       <div id="transport">
         <PassTips guide={guide} />

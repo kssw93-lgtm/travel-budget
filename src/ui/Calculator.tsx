@@ -182,7 +182,7 @@ export function Calculator() {
           <RatesNotice rates={rates} display={form.currency} />
         </>
       )}
-      <PartnerBanner />
+      <PartnerBanner cityId={city?.id} />
     </>
   );
 }

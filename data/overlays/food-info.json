@@ -5819,12 +5819,24 @@
   "leipzig:Leipziger Lerche": {
     "ko": "마지팬과 딸기잼을 채운 종다리 모양 과자",
     "en": "Shortcrust pastry with marzipan and jam, shaped like a lark",
-    "ja": "マジパンとイチゴジャムを詰めたヒバリの形のお菓子"
+    "ja": "マジパンとイチゴジャムを詰めたヒバリの形のお菓子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Leipzig_Lerchen_pastry.jpg/960px-Leipzig_Lerchen_pastry.jpg",
+      "author": "Sven Türpe",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Leipzig_Lerchen_pastry.jpg"
+    }
   },
   "leipzig:Leipziger Allerlei": {
     "ko": "어린 채소와 모렐 버섯, 가재 꼬리를 곁들인 채소 요리",
     "en": "Young vegetables with morels and crayfish tails",
-    "ja": "若い野菜とアミガサタケ、ザリガニの身を合わせた野菜料理"
+    "ja": "若い野菜とアミガサタケ、ザリガニの身を合わせた野菜料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Leipziger_Allerlei_mit_Morchel-Kresse-Hollandaise_%26_Kartoffeln.jpg/960px-Leipziger_Allerlei_mit_Morchel-Kresse-Hollandaise_%26_Kartoffeln.jpg",
+      "author": "Kemfar",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Leipziger_Allerlei_mit_Morchel-Kresse-Hollandaise_%26_Kartoffeln.jpg"
+    }
   },
   "leipzig:Leipziger Räbchen": {
     "ko": "마지팬을 채운 자두를 반죽에 묻혀 튀긴 과자",

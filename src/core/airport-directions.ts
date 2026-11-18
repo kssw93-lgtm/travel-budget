@@ -27,8 +27,16 @@ const AIRPORT_ORIGINS: Record<string, AirportOrigin[]> = {
   amsterdam: [{ label: 'Amsterdam Airport Schiphol', query: 'Amsterdam Airport Schiphol' }],
   bali: [{ label: 'I Gusti Ngurah Rai International Airport', query: 'I Gusti Ngurah Rai International Airport' }],
   bangkok: [
-    { label: 'Suvarnabhumi Airport (BKK)', query: 'Suvarnabhumi Airport' },
-    { label: 'Don Mueang Airport (DMK)', query: 'Don Mueang International Airport' },
+    {
+      label: 'Suvarnabhumi Airport (BKK)',
+      query: 'Suvarnabhumi Airport',
+      boardingQuery: 'Suvarnabhumi Airport Airport Rail Link station B1',
+    },
+    {
+      label: 'Don Mueang Airport (DMK)',
+      query: 'Don Mueang International Airport',
+      boardingQuery: 'Don Mueang Airport SRT Red Line station airport walkway',
+    },
   ],
   barcelona: [{ label: 'Barcelona–El Prat Airport', query: 'Josep Tarradellas Barcelona-El Prat Airport' }],
   basel: [{ label: 'EuroAirport Basel–Mulhouse–Freiburg', query: 'EuroAirport Basel-Mulhouse-Freiburg' }],

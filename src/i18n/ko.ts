@@ -364,8 +364,8 @@ export const ko = {
     flightHotel: 'Trip.com에서 항공권과 숙소 함께 보기',
     carRental: 'Trip.com에서 렌터카 옵션 보기',
     airportPickup: 'Trip.com에서 공항 픽업 옵션 보기',
-    bannerTitle: '항공·숙소·현지 체험 예약 옵션',
-    bannerDescription: '여행 날짜와 목적지에 맞는 항공권과 숙소를 Trip.com에서 찾아보세요.',
+    bannerTitle: '여행 예약도 이어서 준비해 보세요',
+    bannerDescription: '항공권, 숙소, 기차표, 현지 투어·티켓을 Trip.com에서 확인할 수 있습니다.',
     disclosure: '제휴 링크입니다. 예약이 완료되면 사이트가 수수료를 받을 수 있습니다.',
   },
   about: {

@@ -1,6 +1,8 @@
 import { useI18n } from '../i18n';
 import { ExternalLink } from './ExternalLink';
-import { tripPartnerLink } from '../data/partner-links';
+import { tripPartnerLink, type PartnerLinkKind } from '../data/partner-links';
+
+const bannerLinks: PartnerLinkKind[] = ['flight', 'hotel', 'train', 'tours', 'flightHotel'];
 
 export function PartnerBanner() {
   const { t, lang } = useI18n();
@@ -11,9 +13,13 @@ export function PartnerBanner() {
         <h2 id="partner-banner-title">{t.partners.bannerTitle}</h2>
         <p>{t.partners.bannerDescription}</p>
       </div>
-      <ExternalLink href={tripPartnerLink(lang, 'flightHotel')} className="partner-link-action partner-banner-cta" rel="sponsored">
-        {t.partners.flightHotel}
-      </ExternalLink>
+      <nav className="partner-banner-actions" aria-label={t.partners.bannerTitle}>
+        {bannerLinks.map((kind) => (
+          <ExternalLink key={kind} href={tripPartnerLink(lang, kind)} className="partner-link-action" rel="sponsored">
+            {t.partners[kind]}
+          </ExternalLink>
+        ))}
+      </nav>
       <p className="muted partner-link-disclosure">{t.partners.disclosure}</p>
     </section>
   );

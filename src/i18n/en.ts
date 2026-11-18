@@ -365,8 +365,8 @@ export const en: Messages = {
     flightHotel: 'Search flights and stays together on Trip.com',
     carRental: 'See car rental options on Trip.com',
     airportPickup: 'See airport pickup options on Trip.com',
-    bannerTitle: 'Explore flights, stays and local activities',
-    bannerDescription: 'Find flights and places to stay that fit your destination and travel dates on Trip.com.',
+    bannerTitle: 'Continue planning your trip',
+    bannerDescription: 'Browse flights, stays, trains, tours and tickets on Trip.com.',
     disclosure: 'Affiliate link. We may earn a commission if you complete a booking.',
   },
   about: {

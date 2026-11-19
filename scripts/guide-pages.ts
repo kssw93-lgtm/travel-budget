@@ -16,6 +16,7 @@ import { citySeoCopy } from '../src/data/city-seo';
 import { CITY_SEASONS } from '../src/data/city-seasons';
 import { CITY_WHEN } from '../src/data/city-when';
 import { COUNTRY_GUIDES } from '../src/data/country-guides';
+import { travelSafetySource } from '../src/core/travel-safety';
 import type { City, CityMemo, ExtraSample, FoodRecommendation, PriceSample, Range } from '../src/core/types';
 import { en } from '../src/i18n/en';
 import { ja } from '../src/i18n/ja';
@@ -232,7 +233,9 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
   const ownMeals = d.samples.some((x) => x.cityId === city.id && x.category === 'food' && /한끼/.test(x.subtype));
   const borrowedNote = ownMeals ? '' : `        <p>${e(fill(s.borrowed, { city: name, country }))}</p>`;
 
-  const tips = cityTips || countryNotes ? `        <h2>${e(fill(t.tipsSectionTitle, { city: name }))}</h2>${cityTips}${countryNotes}` : '';
+  const safety = travelSafetySource(lang);
+  const safetyAdvisory = `<aside class="safety-advisory"><h3>${e(t.safetyCheckTitle)}</h3><p>${e(t.safetyCheckLead)}</p><a href="${e(safety.url)}" target="_blank" rel="noopener noreferrer">${e(t.safetyCheckLink)} — ${e(safety.label)}</a></aside>`;
+  const tips = `        <h2>${e(fill(t.tipsSectionTitle, { city: name }))}</h2>${cityTips}${countryNotes}${safetyAdvisory}`;
   const fallbackHtml = [
     `        <nav><a href="/guides?lang=${lang}">${e(t.indexTitle)}</a> › ${e(country)}</nav>`,
     `        <h1>${e(fill(t.title, { city: name }))}</h1>`,

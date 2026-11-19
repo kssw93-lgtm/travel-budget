@@ -556,3 +556,8 @@
 - 관광지 정보에 하이델베르크 동물원 계절 운영·마지막 입장, Itsasmuseum 무료 입장 조건, Aeroscopia 입장 마감, Castelvecchio 휴관·마지막 입장·한시 요금을 세 언어로 추가했다. 퍼스 AQWA의 도심 거리와 학교 방학 주차 주의도 세 언어로 추가했다.
 - 성인/아동 금액은 해당 기관의 공식 요금 페이지 또는 운영사 공식 예약 페이지를 기준으로 하고, 선택적 보전 기부금과 조건부 할인은 일반 입장 가격에 합산하지 않는다. 베로나 특별전 요금은 유효 기간을 표시해 기간 종료 후 갱신이 필요하다.
 - 확인 페이지: https://aqwa.rezdy.com/187337/aqwa-entry-tickets ; https://www.aqwa.com.au/visit/ ; https://www.zoo-heidelberg.de/besuch-planen/informationen/oeffnungszeiten-preise/ ; https://www.itsasmuseum.eus/tickets/ ; https://www.aeroscopia.fr/infospratiques ; https://museodistorianaturale.comune.verona.it/nqcontent.cfm?a_id=42561&lang=en
+## 2026-11-19: 도시 가이드의 공식 여행안전 안내
+- 세계 공통의 단일 여행 위험 등급을 만들거나 지도 점수로 합산하지 않는다. 각국 정부의 경보 체계와 적용 대상이 서로 달라 하나의 점수처럼 보이면 오해를 부를 수 있다.
+- 모든 도시 가이드에 공식 여행안전 안내 링크를 언어별로 제공한다: 한국어는 대한민국 외교부 해외안전여행, 일본어는 일본 외무성 해외안전 홈페이지, 영어는 미국 국무부 여행 권고다. 문구에 해당 정부의 자국민 대상 정보임을 밝히고, 이용자에게 본인 국적 정부의 안내도 확인하도록 한다.
+- 자체 위험도나 안전 판정을 저장·표시하지 않는다. 정부의 최신 안내를 이용자가 직접 확인하게 하며, 별도 API 연동은 추가 유지관리 가치가 확인되기 전까지 보류한다.
+- 공식 안내: https://www.0404.go.kr/ ; https://www.anzen.mofa.go.jp/ ; https://travel.state.gov/en/international-travel/travel-advisories.html

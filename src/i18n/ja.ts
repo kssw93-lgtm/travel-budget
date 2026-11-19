@@ -220,6 +220,9 @@ export const ja: Messages = {
     seasonHint: '天候は年によって異なるので、出発前に天気予報を確認してください。',
     sourceLink: '出典',
     countryNotesHint: '国全体に当てはまる一般的な案内です。入国規定や安全情報は出発前に外務省 海外安全ホームページなど公式情報を確認してください。',
+    safetyCheckTitle: '出発前に公式の渡航安全情報を確認',
+    safetyCheckLead: '渡航情報は発表した政府の国民向けです。ご自身の国籍に対応する政府の情報も確認してください。',
+    safetyCheckLink: '外務省 海外安全ホームページ',
   },
   plan: {
     title: '詳しい設定（任意）',

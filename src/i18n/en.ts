@@ -216,6 +216,9 @@ export const en: Messages = {
     seasonHint: 'Weather varies from year to year; check the forecast before you go.',
     sourceLink: 'source',
     countryNotesHint: 'General advice for the whole country. Check official government travel advice for entry rules and safety before you go.',
+    safetyCheckTitle: 'Check official travel advice before departure',
+    safetyCheckLead: 'Advisories are issued for the issuing government’s own nationals. Check the advice from your own government too.',
+    safetyCheckLink: 'U.S. Department of State travel advisories',
   },
   plan: {
     title: 'Detailed settings (optional)',

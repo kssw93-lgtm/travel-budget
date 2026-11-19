@@ -255,6 +255,9 @@ details:not([open]) > summary .toggle-hint .when-open, details[open] > summary .
 .airport-map-group { display: contents; }
 .airport-map-link { display: inline-flex; align-items: center; min-height: 42px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); font-weight: 650; text-decoration: none; }
 .airport-map-link:hover { border-color: var(--brand); background: color-mix(in srgb, var(--brand) 6%, var(--card)); }
+.safety-advisory { margin-top: 1.25rem; padding: 1rem; border: 1px solid var(--line); border-radius: 12px; background: color-mix(in srgb, var(--brand) 4%, var(--card)); }
+.safety-advisory h3 { margin: 0 0 .35rem; }
+.safety-advisory p { margin: 0 0 .5rem; }
 .stay-areas h2, .city-tips h2 { margin-top: 0; }
 .partner-link { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin: 8px 0 16px; }
 .partner-link-action { display: inline-flex; min-height: 40px; align-items: center; padding: 7px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); font-weight: 650; text-decoration: none; }

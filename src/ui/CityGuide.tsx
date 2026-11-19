@@ -11,6 +11,7 @@ import { CITY_INTROS } from '../data/city-intros';
 import { CITY_SEASONS } from '../data/city-seasons';
 import { CITY_WHEN } from '../data/city-when';
 import { COUNTRY_GUIDES } from '../data/country-guides';
+import { travelSafetySource } from '../core/travel-safety';
 import { fmt, localName, useI18n, type Lang } from '../i18n';
 import { InternalLink, type Go } from './App';
 import { CityMemos } from './CityMemos';
@@ -299,11 +300,11 @@ function TipsAndCautions({ city }: { city: City }) {
   const g = t.cityGuide;
   const note = CITY_GUIDES[city.id];
   const country = COUNTRY_GUIDES[city.countryEn];
-  if (!note?.tips.length && !country) return null;
   const name = cityName(city, lang);
   const cname = countryName(city, lang);
   const i = L(lang);
   const airportIndex = airportTipIndex(city.id);
+  const safety = travelSafetySource(lang);
   const localTips = note?.tips.map((tip, index) => ({ tip, index })).filter(({ index }) => index !== airportIndex) ?? [];
   return (
     <section id="tips" className="card prose city-tips" aria-labelledby="guide-tips-title" data-testid="guide-tips">
@@ -341,6 +342,11 @@ function TipsAndCautions({ city }: { city: City }) {
           <p className="hint">{g.countryNotesHint}</p>
         </div>
       )}
+      <aside className="safety-advisory" aria-label={g.safetyCheckTitle}>
+        <h3>{g.safetyCheckTitle}</h3>
+        <p>{g.safetyCheckLead}</p>
+        <a href={safety.url} target="_blank" rel="noopener noreferrer">{g.safetyCheckLink} — {safety.label}</a>
+      </aside>
     </section>
   );
 }

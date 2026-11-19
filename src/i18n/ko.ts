@@ -215,6 +215,9 @@ export const ko = {
     seasonHint: '해마다 날씨가 다를 수 있으니 출발 전 일기예보를 확인하세요.',
     sourceLink: '근거',
     countryNotesHint: '나라 전체에 해당하는 일반적인 안내입니다. 입국 규정·안전 정보는 출발 전에 외교부 해외안전여행 등 공식 안내를 확인하세요.',
+    safetyCheckTitle: '출발 전 공식 여행안전 정보 확인',
+    safetyCheckLead: '여행경보는 발령한 정부의 국민을 대상으로 합니다. 본인의 국적에 맞는 공식 안내도 확인하세요.',
+    safetyCheckLink: '대한민국 외교부 해외안전여행',
   },
   plan: {
     title: '자세히 설정 (선택)',

@@ -370,7 +370,7 @@ export const ja: Messages = {
     carRental: 'Trip.comでレンタカーを検索',
     airportPickup: 'Trip.comで空港送迎を検索',
     bannerTitle: '旅行の予約も続けて確認',
-    bannerDescription: 'Trip.comで航空券、宿泊施設、列車、現地ツアー・チケットを確認できます。',
+    bannerDescription: 'Trip.comで航空券、宿泊施設、列車、現地ツアー・チケットを検索できます。リンクによって都市別または一般の検索画面が開きます。日程と人数は引き継がれないため、Trip.comで確認してください。',
     disclosure: 'アフィリエイトリンクです。予約が成立すると、当サイトが紹介手数料を受け取る場合があります。',
   },
   about: {

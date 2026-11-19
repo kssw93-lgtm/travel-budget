@@ -366,7 +366,7 @@ export const en: Messages = {
     carRental: 'See car rental options on Trip.com',
     airportPickup: 'See airport pickup options on Trip.com',
     bannerTitle: 'Continue planning your trip',
-    bannerDescription: 'Browse flights, stays, trains, tours and tickets on Trip.com.',
+    bannerDescription: 'Search flights, stays, trains, tours and tickets on Trip.com. Links may open a city-specific or general search; dates and group size are not transferred, so confirm them on Trip.com.',
     disclosure: 'Affiliate link. We may earn a commission if you complete a booking.',
   },
   about: {

@@ -4504,7 +4504,13 @@
   "lyon:Lyonnaise Salad": {
     "ko": "베이컨·반숙 달걀·크루통을 올린 리옹식 샐러드",
     "en": "Salad topped with bacon, a soft-poached egg and croutons",
-    "ja": "ベーコンと半熟卵、クルトンをのせたリヨン風サラダ"
+    "ja": "ベーコンと半熟卵、クルトンをのせたリヨン風サラダ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Salade_lyonnaise_Bistrot_Bonnel_(Lyon)_en_f%C3%A9vrier_2023.jpg/960px-Salade_lyonnaise_Bistrot_Bonnel_(Lyon)_en_f%C3%A9vrier_2023.jpg",
+      "author": "Benoît Prieur",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Salade_lyonnaise_Bistrot_Bonnel_(Lyon)_en_f%C3%A9vrier_2023.jpg"
+    }
   },
   "lyon:Praline Tart": {
     "ko": "분홍색 설탕 아몬드(프랄린)를 녹여 만든 리옹 디저트",
@@ -4530,7 +4536,13 @@
   "quebec-city:Maple Taffy": {
     "ko": "뜨거운 메이플 시럽을 눈 위에 부어 막대로 말아 먹는 간식",
     "en": "Hot maple syrup poured on snow and rolled onto a stick",
-    "ja": "熱いメープルシロップを雪の上に流し、棒に巻き取って食べるお菓子"
+    "ja": "熱いメープルシロップを雪の上に流し、棒に巻き取って食べるお菓子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Tire_d'%C3%A9rable.jpg/960px-Tire_d'%C3%A9rable.jpg",
+      "author": "Gachepi",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tire_d'%C3%A9rable.jpg"
+    }
   },
   "porto:Francesinha": {
     "ko": "햄·소시지·스테이크를 넣은 빵에 치즈를 녹이고 맥주 토마토 소스를 부은 포르투 명물",
@@ -4826,7 +4838,13 @@
   "tainan:Beef Soup": {
     "ko": "갓 잡은 생소고기를 얇게 썰어 뜨거운 육수를 부어 익혀 먹는 타이난 아침 음식",
     "en": "Thin slices of fresh beef cooked by pouring over hot broth, a Tainan breakfast",
-    "ja": "新鮮な牛肉の薄切りに熱いスープを注いで火を通す台南の朝ごはん"
+    "ja": "新鮮な牛肉の薄切りに熱いスープを注いで火を通す台南の朝ごはん",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/16-%E5%8F%B0%E5%8D%97%E6%97%A9%E9%A4%90%E5%9C%8B%E8%8F%AF%E8%A1%97%E9%98%BF%E6%9D%91%E7%89%9B%E8%82%89%E6%B9%AF%EF%BC%8C%E5%8F%B0%E5%8D%97%E7%9C%9F%E5%A5%BD_(29484622036).jpg/960px-16-%E5%8F%B0%E5%8D%97%E6%97%A9%E9%A4%90%E5%9C%8B%E8%8F%AF%E8%A1%97%E9%98%BF%E6%9D%91%E7%89%9B%E8%82%89%E6%B9%AF%EF%BC%8C%E5%8F%B0%E5%8D%97%E7%9C%9F%E5%A5%BD_(29484622036).jpg",
+      "author": "Sinchen.Lin",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:16-%E5%8F%B0%E5%8D%97%E6%97%A9%E9%A4%90%E5%9C%8B%E8%8F%AF%E8%A1%97%E9%98%BF%E6%9D%91%E7%89%9B%E8%82%89%E6%B9%AF%EF%BC%8C%E5%8F%B0%E5%8D%97%E7%9C%9F%E5%A5%BD_(29484622036).jpg"
+    }
   },
   "tainan:Danzai Noodles": {
     "ko": "작은 그릇에 고기 소스와 새우를 얹은 타이난 전통 국수",
@@ -5369,7 +5387,13 @@
   "adelaide:Fritz": {
     "ko": "후추와 육두구로 맛을 낸 남호주식 소시지 햄",
     "en": "South Australian pork-and-beef deli sausage with pepper and nutmeg",
-    "ja": "コショウとナツメグで味付けした南オーストラリアのソーセージハム"
+    "ja": "コショウとナツメグで味付けした南オーストラリアのソーセージハム",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Smiley_frtiz.jpg/960px-Smiley_frtiz.jpg",
+      "author": "Bilby",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Smiley_frtiz.jpg"
+    }
   },
   "adelaide:Frog Cake": {
     "ko": "개구리 모양으로 꾸민 애들레이드의 작은 퐁당 케이크",
@@ -5747,7 +5771,13 @@
   "portland:Doughnuts": {
     "ko": "부두 도넛으로 유명한 포틀랜드의 개성 있는 도넛",
     "en": "Portland’s quirky doughnuts, led by Voodoo Doughnut",
-    "ja": "ブードゥー・ドーナツで知られるポートランドの個性的なドーナツ"
+    "ja": "ブードゥー・ドーナツで知られるポートランドの個性的なドーナツ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Voodoo_Doughtnuts_Portland_Fruit_Loop_Donut_(17426224995).jpg/960px-Voodoo_Doughtnuts_Portland_Fruit_Loop_Donut_(17426224995).jpg",
+      "author": "Tony Webster",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Voodoo_Doughtnuts_Portland_Fruit_Loop_Donut_(17426224995).jpg"
+    }
   },
   "portland:Marionberry Pie": {
     "ko": "오리건에서 개발된 블랙베리 품종으로 만든 주(州) 대표 파이",
@@ -6364,7 +6394,13 @@
   "stuttgart:Käsespätzle": {
     "ko": "달걀 면에 치즈와 볶은 양파를 얹은 요리",
     "en": "Egg noodles with grated cheese and fried onions",
-    "ja": "卵の麺にチーズと炒めた玉ねぎをのせた料理"
+    "ja": "卵の麺にチーズと炒めた玉ねぎをのせた料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/K%C3%A4sesp%C3%A4tzle.jpg/960px-K%C3%A4sesp%C3%A4tzle.jpg",
+      "author": "Wiki der Wikinger",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:K%C3%A4sesp%C3%A4tzle.jpg"
+    }
   },
   "stuttgart:Laugenbrezel": {
     "ko": "잿물에 담갔다 구운 슈바벤식 프레첼",

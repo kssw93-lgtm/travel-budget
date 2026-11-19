@@ -546,7 +546,7 @@
 ## 2026-11-19: 검색 관심 도시의 실용 정보와 음식 사진
 - 피렌체 공항 안내를 공식 GEST 안내의 T2 정류장 위치(터미널 도착·출발 구역에서 도보 2분)와 중심부 이동 시간에 맞춰 구체화했다. 에든버러 공항은 트램 정류장(터미널 밖 광장·Edinburgh 표지판 옆)과 버스 정류장(터미널 밖)을 별도 지도 검색 링크로 표시하고, 항공편 시간대에 따라 막차를 확인하도록 했다. 맨체스터는 공항 교통 허브 The Station과 터미널별 보행 시간을 설명하고, 울란바토르는 터미널 1층 서쪽 승차권 키오스크·버스/택시 카운터와 야간 노선을 안내한다.
 - 에든버러 동물원을 가이드에 추가하고 운영사 요금 페이지를 두 차례 열어 확인했다. 표의 첫 금액은 선택 기부금 포함 금액이므로 계산 표본에는 현장 구매 괄호 가격(기부금 미포함) 성인 £29.50, 3~15세 £22를 기록한다. 온라인 할인 가격은 사용하지 않는다.
-- 음식 사진 42건을 Wikimedia Commons 파일 페이지에서 음식명·설명·작가·자유 라이선스와 Original file 주소를 확인해 원격 이미지로 연결한다. 사진별 근거와 라이선스는 `GPT전달내용/결과/음식사진_2026-11-19_1.csv`~`_4.csv`에 기록하고, 이미지 파일 자체는 저장소에 복사하지 않는다. 연결 후 658개 중 545개가 연결되고 113개가 남았다.
+- 음식 사진 48건을 Wikimedia Commons 파일 페이지에서 음식명·설명·작가·자유 라이선스와 Original file 주소를 확인해 원격 이미지로 연결한다. 사진별 근거와 라이선스는 `GPT전달내용/결과/음식사진_2026-11-19_1.csv`~`_7.csv`에 기록하고, 이미지 파일 자체는 저장소에 복사하지 않는다. 연결 후 658개 중 551개가 연결되고 107개가 남았다.
 - Search Console 성과 재검토는 며칠 뒤로 미룬다.
 - 공식 근거: https://www.gestramvia.it/airport/?lang=en ; https://www.edinburghairport.com/transport-links/trams ; https://www.edinburghairport.com/transport-links/buses-and-coaches ; https://www.edinburghzoo.org.uk/visit/tickets ; https://www.manchesterairport.co.uk/getting-to-and-from/by-train/ ; https://www.manchesterairport.co.uk/getting-to-and-from/by-bus/ ; https://en.ulaanbaatar-airport.mn/public-transportation-service ; https://commons.wikimedia.org/wiki/File:Tanjia.jpg ; https://commons.wikimedia.org/wiki/File:Carac_2.JPG
 

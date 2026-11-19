@@ -79,7 +79,13 @@
   "marrakech:Mint Tea": {
     "ko": "녹차에 민트를 넣어 끓여 손님에게 대접하는 모로코 전통 음료입니다.",
     "en": "A traditional Moroccan drink of green tea and mint, served to welcome guests.",
-    "ja": "緑茶にミントを加え、客人を迎えるときに出すモロッコの伝統的な飲み物です。"
+    "ja": "緑茶にミントを加え、客人を迎えるときに出すモロッコの伝統的な飲み物です。",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Moroccan_mint_tea_on_a_traditional_tray.jpg/960px-Moroccan_mint_tea_on_a_traditional_tray.jpg",
+      "author": "Munfarid1",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Moroccan_mint_tea_on_a_traditional_tray.jpg"
+    }
   },
   "tokyo:Edomae Sushi": {
     "ko": "식초 밥 위에 도쿄만 해산물을 올린 에도(도쿄) 전통 방식의 스시",
@@ -4830,7 +4836,13 @@
   "tainan:Coffin Bread": {
     "ko": "두꺼운 토스트 속을 파내 크림 스튜를 채운 타이난 간식",
     "en": "Thick hollowed toast filled with creamy stew",
-    "ja": "厚切りトーストの中をくり抜いてクリームシチューを詰めた台南の軽食"
+    "ja": "厚切りトーストの中をくり抜いてクリームシチューを詰めた台南の軽食",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Coffin_bread_-_Tainan%2C_Taiwan_(2017).jpg/960px-Coffin_bread_-_Tainan%2C_Taiwan_(2017).jpg",
+      "author": "Riblet15",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Coffin_bread_-_Tainan,_Taiwan_(2017).jpg"
+    }
   },
   "warsaw:Pierogi": {
     "ko": "고기·양배추·버섯이나 감자·치즈를 채운 폴란드 만두",
@@ -4977,7 +4989,13 @@
   "turin:Gianduiotto": {
     "ko": "헤이즐넛을 섞은 토리노의 배 모양 초콜릿",
     "en": "Boat-shaped hazelnut chocolate from Turin",
-    "ja": "ヘーゼルナッツを混ぜたトリノの舟形チョコレート"
+    "ja": "ヘーゼルナッツを混ぜたトリノの舟形チョコレート",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Gianduiotto_e_cremino_Pernigotti.jpg/960px-Gianduiotto_e_cremino_Pernigotti.jpg",
+      "author": "Massimiliano1985max",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Gianduiotto_e_cremino_Pernigotti.jpg"
+    }
   },
   "gold-coast:Moreton Bay Bugs": {
     "ko": "작은 랍스터를 닮은 퀸즐랜드 근해의 갑각류 요리",

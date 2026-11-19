@@ -9472,6 +9472,12 @@
       "en": "A traditional Moroccan drink of green tea and mint, served to welcome guests.",
       "ja": "緑茶にミントを加え、客人を迎えるときに出すモロッコの伝統的な飲み物です。"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Moroccan_mint_tea_on_a_traditional_tray.jpg/960px-Moroccan_mint_tea_on_a_traditional_tray.jpg",
+      "author": "Munfarid1",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Moroccan_mint_tea_on_a_traditional_tray.jpg"
+    },
     "budgetBand": "",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -13376,6 +13382,12 @@
       "en": "Thick hollowed toast filled with creamy stew",
       "ja": "厚切りトーストの中をくり抜いてクリームシチューを詰めた台南の軽食"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Coffin_bread_-_Tainan%2C_Taiwan_(2017).jpg/960px-Coffin_bread_-_Tainan%2C_Taiwan_(2017).jpg",
+      "author": "Riblet15",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Coffin_bread_-_Tainan,_Taiwan_(2017).jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -14119,6 +14131,12 @@
       "ko": "헤이즐넛을 섞은 토리노의 배 모양 초콜릿",
       "en": "Boat-shaped hazelnut chocolate from Turin",
       "ja": "ヘーゼルナッツを混ぜたトリノの舟形チョコレート"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Gianduiotto_e_cremino_Pernigotti.jpg/960px-Gianduiotto_e_cremino_Pernigotti.jpg",
+      "author": "Massimiliano1985max",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Gianduiotto_e_cremino_Pernigotti.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],

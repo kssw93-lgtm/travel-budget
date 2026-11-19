@@ -181,6 +181,7 @@ export const en: Messages = {
     airportModes: { 'bus stop': 'airport bus stops', 'train station': 'airport train stations', 'metro station': 'airport metro stations', 'public transport stop': 'airport transit stops' },
     airportBoardingTitle: 'Airport transit boarding point and route maps',
     airportLineMapLink: 'Official Föli lines 1 and 1A map',
+    airportTerminalMapLink: 'Official airport terminal boarding map',
     airportRouteLink: 'Find a Föli route or stop',
     airportDirectionsTitle: 'Open the airport-to-stay route map',
     airportDirectionsLink: '{airport} to {area} by public transit',

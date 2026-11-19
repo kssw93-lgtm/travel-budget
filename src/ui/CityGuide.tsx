@@ -169,6 +169,11 @@ function AirportAccess({ city }: { city: City }) {
                 {t.cityGuide.airportLineMapLink}
               </ExternalLink>
             )}
+            {origin.officialBoardingMapUrl && (
+              <ExternalLink className="airport-map-link" href={origin.officialBoardingMapUrl}>
+                {t.cityGuide.airportTerminalMapLink}
+              </ExternalLink>
+            )}
             {origin.officialPlannerUrl && (
               <ExternalLink className="airport-map-link" href={airportPlannerUrl(origin.officialPlannerUrl, lang)}>
                 {t.cityGuide.airportRouteLink}

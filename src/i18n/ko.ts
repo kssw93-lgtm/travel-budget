@@ -180,6 +180,7 @@ export const ko = {
     airportModes: { 'bus stop': '공항 버스 승차장', 'train station': '공항 철도역', 'metro station': '공항 지하철역', 'public transport stop': '공항 대중교통 승차 위치' },
     airportBoardingTitle: '공항 대중교통 승차 위치와 노선 지도',
     airportLineMapLink: 'Föli 1·1A 공식 노선 지도',
+    airportTerminalMapLink: '공항 공식 터미널 탑승 위치도',
     airportRouteLink: 'Föli 경로·정류장 검색',
     airportDirectionsTitle: '지도에서 공항→숙소 경로 보기',
     airportDirectionsLink: '{airport} → {area} 대중교통 경로',

@@ -2071,6 +2071,16 @@
 | TLL-AT-506 | 탈린 | 수상비행기 항구 아동 입장권 (만 7세 이하 무료) | 0 EUR | A | 예 | 재검증 | [Estonian Maritime Museum / Seaplane Harbour](https://meremuuseum.ee/lennusadam/en/visitor-information/tickets/; https://meremuuseum.ee/lennusadam/kulastusinfo/piletihinnad/) |
 | TYO-FD-900 | 도쿄 | 맥도날드 프리미엄 로스트 커피 S | 140 JPY | A | 예 | 재검증 | [日本マクドナルド](https://www.mcdonalds.co.jp/campaign/coffee/) |
 | TYO-FD-901 | 도쿄 | 스타벅스 라테 Tall | 515 JPY | A | 예 | 재검증 | [Starbucks Coffee Japan](https://menu.starbucks.co.jp/4524785064577) |
+| PER-AT-003 | 퍼스 | AQWA 일반 입장권 (성인) | 37 AUD | A | 예 | 재검증 | [AQWA 공식 예약 페이지](https://aqwa.rezdy.com/187337/aqwa-entry-tickets) |
+| PER-AT-004 | 퍼스 | AQWA 일반 입장권 (아동) | 20 AUD | A | 예 | 재검증 | [AQWA 공식 예약 페이지](https://aqwa.rezdy.com/187337/aqwa-entry-tickets) |
+| HEI-AT-003 | 하이델베르크 | 하이델베르크 동물원 입장권 (성인) | 13 EUR | A | 예 | 재검증 | [하이델베르크 동물원 공식 요금 안내](https://www.zoo-heidelberg.de/besuch-planen/informationen/oeffnungszeiten-preise/) |
+| HEI-AT-004 | 하이델베르크 | 하이델베르크 동물원 입장권 (아동) | 6.5 EUR | A | 예 | 재검증 | [하이델베르크 동물원 공식 요금 안내](https://www.zoo-heidelberg.de/besuch-planen/informationen/oeffnungszeiten-preise/) |
+| BIO-AT-003 | 빌바오 | 이차스무세움 입장권 (성인) | 10 EUR | A | 예 | 재검증 | [Itsasmuseum Bilbao 공식 요금 안내](https://www.itsasmuseum.eus/tickets/) |
+| BIO-AT-004 | 빌바오 | 이차스무세움 입장권 (아동) | 0 EUR | A | 예 | 재검증 | [Itsasmuseum Bilbao 공식 요금 안내](https://www.itsasmuseum.eus/tickets/) |
+| TLS-AT-003 | 툴루즈 | 에어로스코피아 입장권 (성인) | 16 EUR | A | 예 | 재검증 | [에어로스코피아 공식 요금 안내](https://www.aeroscopia.fr/infospratiques) |
+| TLS-AT-004 | 툴루즈 | 에어로스코피아 입장권 (아동) | 13 EUR | A | 예 | 재검증 | [에어로스코피아 공식 요금 안내](https://www.aeroscopia.fr/infospratiques) |
+| VRN-AT-003 | 베로나 | 카스텔베키오 박물관 입장권 (성인) | 12 EUR | A | 예 | 재검증 | [베로나 시민박물관 공식 방문 안내](https://museodistorianaturale.comune.verona.it/nqcontent.cfm?a_id=42561&lang=en) |
+| VRN-AT-004 | 베로나 | 카스텔베키오 박물관 입장권 (아동) | 0 EUR | A | 예 | 재검증 | [베로나 시민박물관 공식 방문 안내](https://museodistorianaturale.comune.verona.it/nqcontent.cfm?a_id=42561&lang=en) |
 | TSU-TR-001 | 대마도 | 대마도 시내버스 1일 프리패스 | 1040 JPY | A | 예 | 재검증 | [대마도관광물산협회 / 대마도교통](https://www.tsushima-net.org/traffic/tsushima-kotsu) |
 | TSU-TR-002 | 대마도 | 대마도 시내버스 1일 프리패스(어린이) | 520 JPY | A | 예 | 재검증 | [대마도관광물산협회 / 대마도교통](https://www.tsushima-net.org/traffic/tsushima-kotsu) |
 | TSU-AT-001 | 대마도 | 대마도박물관 일반 관람 | 550 JPY | A | 예 | 재검증 | [대마도관광물산협회](https://www.tsushima-net.org/tourism-history/tsushima-museum) |

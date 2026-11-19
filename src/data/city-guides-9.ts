@@ -644,6 +644,7 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['공항에서 시내: 퍼스 공항의 에어포트 센트럴역에서 열차를 타면 퍼스역까지 약 18분이며, 3시간 동안 환승할 수 있는 ‘고 애니웨어’ 요금이 적용됩니다.', 'Airport to city: trains from Airport Central reach Perth Station in about 18 minutes on the Go Anywhere fare, valid for three hours of transfers.', '空港から市内へ：パース空港のエアポート・セントラル駅から列車でパース駅まで約18分で、3時間乗り継ぎできる「ゴー・エニウェア」運賃が適用されます。'],
+      ['AQWA는 도심이 아닌 힐러리스 보트 하버에 있어 퍼스 중심부에서 약 30분 거리입니다. 학교 방학에는 주차 공간이 빨리 찰 수 있으니 차로 간다면 일찍 도착하고, 방문 당일 운영시간을 확인하세요.', 'AQWA is at Hillarys Boat Harbour, about 30 minutes from central Perth. Parking can fill quickly during school holidays, so arrive early if driving and check opening hours for your visit date.', 'AQWAはパース中心部ではなくヒラリーズ・ボート・ハーバーにあり、中心部から約30分です。学校休暇中は駐車場が早く埋まることがあるため、車の場合は早めに到着し、訪問日の営業時間を確認しましょう。'],
     ],
   },
   manchester: {
@@ -731,6 +732,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['시내 대중교통 1회권(시내 요금)은 90분 동안 유효합니다. 정류장 몇 개만 타면 더 싼 단거리권(쿠르츠슈트레케)을 쓸 수 있습니다.', 'A city single (Stadttarif HD) is valid for 90 minutes; for just a few stops, the cheaper short-hop ticket (Kurzstrecke) works.', '市内の公共交通の1回券（市内料金）は90分間有効です。数駅だけ乗るなら安い短距離券（クルツシュトレッケ）が使えます。'],
       ['하이델베르크에는 공항이 없습니다. 프랑크푸르트 공항에서 만하임 환승 열차나 공항 셔틀로 하이델베르크 중앙역까지 온 뒤, 구시가지·숙소 방향 시내버스나 트램으로 갈아타세요.', 'Heidelberg has no airport. From Frankfurt Airport, reach Heidelberg Central Station by train with a transfer in Mannheim or by airport shuttle, then continue by local bus or tram toward the Old Town or your accommodation.', 'ハイデルベルクには空港がありません。フランクフルト空港からマンハイム乗り換えの列車または空港シャトルでハイデルベルク中央駅へ行き、旧市街や宿泊先方面の市内バス・トラムに乗り継ぎましょう。'],
+      ['하이델베르크 동물원은 11~2월에 9:00~17:00 운영하고, 마지막 입장은 폐장 30분 전입니다. 겨울에는 전시관도 더 일찍 닫으니 늦은 시간 방문은 피하세요.', 'Heidelberg Zoo is open 9:00–17:00 from November to February, with last admission 30 minutes before closing. Animal houses and the exhibition also close early, so avoid arriving late in the day.', 'ハイデルベルク動物園は11〜2月は9:00〜17:00で、最終入場は閉園30分前です。動物舎や展示も早めに閉まるため、遅い時間の到着は避けましょう。'],
     ],
   },
   bilbao: {
@@ -744,6 +746,7 @@ export const NOTES_9: Record<string, Compact> = {
     t: [
       ['공항에서 숙소까지: 도착층에서 A3247번 비스카이부스 표지와 승차장을 찾으세요. 버스는 빌바오 터미버스와 공항을 연결하며, 시내에서는 그란 비아 79번지·모유아 광장·알라메다 레칼데 11번지에 섭니다. 숙소와 가까운 정류장에서 내리고, 시내 이동이 필요하면 터미버스나 모유아에서 환승하세요.', 'Airport to your stay: At arrivals, follow the Bizkaibus A3247 signs to its stop. The bus links the airport with Bilbao Termibus and stops in the city at Gran Vía 79, Plaza Moyua and Alameda Recalde 11. Get off nearest your accommodation; if transferring across town, use Termibus or Moyua as your connection point.', '空港から宿泊先へ：到着階でビスカイブスA3247番の案内に従って乗り場へ。空港とビルバオのターミバスを結び、市内ではグラン・ビア79番地、モユア広場、アラメダ・レカルデ11番地に停車します。宿泊先に近い停留所で降り、市内で乗り換える場合はターミバスかモユアを接続地点にしましょう。'],
       ['빌바오 지하철은 시내 중심뿐 아니라 해안과 대도시권의 여러 마을까지 이어집니다. 일반 운행은 대체로 06:00~23:00이지만 금요일·공휴일 전날과 토요일은 심야 운행이 달라질 수 있으니, 막차가 중요한 날은 역·방향별 공식 시간표를 확인하세요.', 'Bilbao Metro links the centre with the coast and towns across the metropolitan area. Regular service is generally around 06:00–23:00, but late-night service differs on Fridays, holiday eves and Saturdays; check the official timetable by station and direction when planning a last train.', 'ビルバオ地下鉄は中心部だけでなく、海岸や都市圏の町にもつながっています。通常の運行はおおむね06:00〜23:00ですが、金曜・祝前日・土曜は深夜運行が異なるため、終電を利用する日は駅と方面ごとの公式時刻表を確認しましょう。'],
+      ['이차스무세움은 18세 미만 무료 입장이 매표소에서만 제공됩니다. 일요일 17시 이후에는 일반 관람객도 무료이므로, 해당 시간대에 맞추면 입장료를 아낄 수 있습니다.', 'Itsasmuseum offers free admission to visitors under 18 at the ticket office only. General visitors also enter free on Sundays after 17:00, which can help you plan a lower-cost visit.', 'イツァスムセウムは18歳未満が無料ですが、チケットは窓口でのみ受け取れます。日曜17時以降は一般来館者も無料なので、入館料を抑えたい場合は時間を合わせてみてください。'],
     ],
   },
   toulouse: {
@@ -756,6 +759,7 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['공항에서 시내: 툴루즈-블라냐크 공항에서 공항 셔틀을 타면 약 15분 간격으로 마타비오역까지 가며, 시간은 20~45분 걸립니다. 공항 승차권 1장으로 시내 교통도 이어서 탈 수 있습니다.', 'Airport to city: the airport shuttle runs to Matabiau station about every 15 minutes, taking 20–45 minutes; the airport ticket also covers onward Tisséo travel.', '空港から市内へ：トゥールーズ・ブラニャック空港から空港シャトルで約15分間隔でマタビオ駅へ行け、所要20〜45分です。空港の乗車券1枚で市内の交通にも乗り継げます。'],
+      ['에어로스코피아는 보통 18시에 닫고 마지막 입장은 17시입니다. 프랑스 남부 학교 방학에는 19시까지 운영하는 날도 있지만, 폐장 한 시간 전 입장 마감 규칙은 같으니 방문일의 공식 시간을 확인하세요.', 'Aeroscopia usually closes at 18:00, with last admission at 17:00. It stays open until 19:00 on some Zone C school-holiday dates, but last entry remains one hour before closing; check the official schedule for your date.', 'エアロスコピアは通常18時閉館、最終入場は17時です。フランス南部の学校休暇中は19時まで開館する日もありますが、最終入場は閉館1時間前です。訪問日の公式時間を確認しましょう。'],
     ],
   },
   cairns: {
@@ -778,6 +782,7 @@ export const NOTES_9: Record<string, Compact> = {
     ],
     t: [
       ['공항에서 시내: 베로나 공항에서 에어링크 버스(199번)를 타면 약 15분 만에 포르타 누오바역에 닿으며, 버스 안에서 카드로 낼 수 있습니다. 시내버스 1회권은 버스 안에서 사면 더 비쌉니다.', 'Airport to city: the Airlink bus (line 199) reaches Porta Nuova station in about 15 minutes, with card payment on board; city bus singles cost more when bought on board.', '空港から市内へ：ヴェローナ空港からエアリンクバス（199番）で約15分でポルタ・ヌオーヴァ駅に着き、車内でカード払いができます。市内バスの1回券は車内で買うと高くなります。'],
+      ['카스텔베키오 박물관은 월요일 휴관이며 화~일요일 마지막 입장은 17:15입니다. 2026년 10월 31일~2027년 1월 31일 특별전 기간 성인 요금은 €12, 0~17세는 무료입니다(14세 미만은 보호자 동반).', 'Castelvecchio Museum is closed on Mondays; last entry Tuesday–Sunday is 17:15. During the special exhibition from 31 October 2026 to 31 January 2027, adult admission is €12 and ages 0–17 enter free; under-14s must be accompanied.', 'カステルヴェッキオ美術館は月曜休館、火〜日曜の最終入場は17:15です。2026年10月31日〜2027年1月31日の特別展期間は一般料金が€12で、0〜17歳は無料です（14歳未満は保護者同伴）。'],
     ],
   },
   thessaloniki: {

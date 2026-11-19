@@ -9,6 +9,8 @@ export interface AirportOrigin {
   boardingQuery?: string;
   /** Optional official operator map for the route. */
   officialRouteMapUrl?: string;
+  /** Optional official airport terminal map showing the boarding counters/area. */
+  officialBoardingMapUrl?: string;
   /** Optional official operator journey planner. */
   officialPlannerUrl?: string;
 }
@@ -53,6 +55,12 @@ const AIRPORT_ORIGINS: Record<string, AirportOrigin[]> = {
     { label: 'Sabiha Gökçen Airport (SAW)', query: 'Sabiha Gokcen International Airport' },
   ],
   'kuala-lumpur': [{ label: 'Kuala Lumpur International Airport (KLIA)', query: 'Kuala Lumpur International Airport' }],
+  'kota-kinabalu': [{
+    label: 'Kota Kinabalu International Airport (BKI)',
+    query: 'Kota Kinabalu International Airport Terminal 1',
+    boardingQuery: 'Kota Kinabalu International Airport Terminal 1 Level 1 express bus counter',
+    officialBoardingMapUrl: 'https://mahbseadrmprodsa.blob.core.windows.net/passenger-prod-cms/2024-06/KotaKinabalu-Airport-Guide-compressed.pdf',
+  }],
   kyoto: [{ label: 'Kansai International Airport', query: 'Kansai International Airport' }],
   london: [
     { label: 'Heathrow Airport (LHR)', query: 'Heathrow Airport' },

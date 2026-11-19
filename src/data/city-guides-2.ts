@@ -111,7 +111,7 @@ export const NOTES_2: Record<string, Compact> = {
     t: [
       ['해양공원 섬에 들어갈 때는 공원 입장료를 따로 내야 합니다.', 'A separate park fee is charged when you land on the marine-park islands.', '海洋公園の島に上陸する際は別途入園料がかかります。'],
       ['일요일 오전 가야 거리 시장(Gaya Street Sunday Market)에서 현지 간식과 공예품을 볼 수 있습니다.', 'The Gaya Street Sunday Market is good for local snacks and crafts.', '日曜朝のガヤ・ストリート・マーケットで地元のお菓子や工芸品が見られます。'],
-      ['코타키나발루공항의 항공정보 안내에는 택시와 공공버스가 교통수단으로 나와 있어요. 도착 후 목적지에 맞는 승차 위치와 운행 정보를 확인하세요.', 'Kota Kinabalu Airport’s aeronautical information lists taxis and public buses. Check the pickup point and service for your destination after arrival.', 'コタキナバル空港の航空情報にはタクシーと路線バスが案内されています。到着後、目的地に合う乗り場と運行情報を確認しましょう。'],
+      ['공항에서 시내로: 국제선 도착 후 터미널 1 도착층(Level 1)에서 공항 안내도의 Express Bus Counters 표지를 따라가세요. 안내도에는 공항 택시 카운터도 L1L02C11·L1L02C12로 표시되어 있습니다. 버스의 실제 승차 베이와 운행 여부는 현장 표지판·안내 데스크에서 다시 확인하고, 아래 공식 터미널 안내도를 열어 위치를 확인하세요.', 'Airport to the city: after arriving at Terminal 1, follow the “Express Bus Counters” signs on Level 1. The airport map also marks Airport Taxi counters at L1L02C11 and L1L02C12. Confirm the active bus bay and service on arrival signs or with airport staff, and open the official terminal map below.', '空港から市内へ：第1ターミナル到着後、1階（Level 1）の「Express Bus Counters」表示に従ってください。空港案内図では空港タクシーカウンターもL1L02C11・L1L02C12と表示されています。バスの乗車場所と運行状況は、到着時に現地表示または案内デスクで確認し、下の公式ターミナル案内図で場所を確かめてください。'],
       ['사바 관광청 일본어 안내는 사바주립박물관 본관이 보수 공사로 장기 휴관 중이라고 알립니다. 방문 직전 재개관 여부와 별관 운영을 확인하세요.', 'Sabah Tourism’s Japanese guide reports that the main Sabah State Museum building is closed long-term for renovation. Check its reopening and the status of other buildings before visiting.', 'サバ州観光局の日本語案内では、サバ州立博物館の本館は改修のため長期休館中とされています。訪問前に再開館や別館の運営状況を確認してください。'],
     ],
   },

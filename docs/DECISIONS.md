@@ -537,9 +537,22 @@
 - 제휴 플랫폼에서 생성된 추적 URL과 식별 파라미터는 임의로 수정하지 않는다. 도시별로 공식 생성된 링크가 있는 도쿄·런던·파리·방콕 외 도시의 딥링크는 만들었다고 가장하지 않고, 일반 검색 링크를 유지한다.
 - 참고: Trip.com Affiliate FAQ의 도구 안내는 목적지 관련 콘텐츠에 목적지 검색으로 연결하는 제휴 링크/배너 사용을 설명한다. Budget Your Trip은 도시 비용 안내 안에서 숙소 검색과 활동/투어를 관련 섹션에 배치한다. https://www.trip.com/partners/help/faq/tools ; https://www.budgetyourtrip.com/japan/tokyo
 
+## 2026-11-19: 검색어 기반 도시 가이드 우선순위와 코타키나발루 공항도
+- 공유된 Search Console TOP 30에서 코타키나발루 물가가 622회 노출로 가장 많았고, 위치·지도 검색도 여러 표현으로 반복됐다. 피렌체·맨체스터·에든버러·울란바토르도 경비/관광/계절 검색이 확인돼 다섯 도시의 검색 설명을 페이지에 실제로 제공하는 내용에 맞춰 한국어·영어·일본어로 구체화한다. 검색어는 한국어 검색 수요의 신호로만 사용하며 순위나 클릭 증가를 보장한다고 보지 않는다.
+- 코타키나발루 공항 안내는 기존의 막연한 승차 위치 문구를 터미널 1 도착층(Level 1), 공항 안내도에 표시된 Express Bus Counters, 택시 카운터 L1L02C11·L1L02C12로 구체화한다. 버스 승차 베이와 현재 운행은 공식 자료에서 확인되지 않아 현장 표지/안내 데스크 재확인을 명시한다.
+- 말레이시아공항공사 터미널 안내 PDF를 지도 링크로 추가하고, 지도 검색도 터미널 1 도착층 버스 카운터를 찾도록 지정한다. PDF는 카운터 위치도이며 실제 버스 정류장·운행 확인 자료로 과장하지 않는다.
+- 공식 근거: https://mahbseadrmprodsa.blob.core.windows.net/passenger-prod-cms/2024-06/KotaKinabalu-Airport-Guide-compressed.pdf ; https://aip.caam.gov.my/aip/eAIP/2026-05-19/html/eAIP/WM-AD-2.WBKK-en-MS.html
+
 ## 2026-11-17: 재검증 표시 표본 빠른 정리
 - DAD-AT-004 다낭 참조각박물관은 다낭시 관광홍보센터 공식 안내에서 1회 입장료 60,000 VND를 재확인해 정정 오버레이에 공식 URL·확인일을 반영했다. 기존 가격이 맞아 재검증 표시를 해제한다.
 - ROM-AT-101 콜로세움·포로 로마노·팔라티노 통합권은 운영기관 공식 요금표의 “Full entry: €18.00”로 재확인했다. 오래된 원문 인용을 정정 기록으로 보완하고 재검증 표시를 해제한다.
 - 싱가포르 이치란은 공식 해외 매장 목록에 싱가포르가 없고, Old Chang Kee·McDonald’s Singapore 및 Giolitti 공식 페이지에는 해당 표본의 현재 판매가가 없어 가격을 사실로 간주하지 않는다. 런던 Fuller’s 펍 찾기 페이지도 맥주 파인트 가격을 제시하지 않는다. 이 8개 표본은 계산 사용에서 제외하고 검수 경고도 계산 대상에서만 보이도록 한다. 제외 이유에 조사 URL과 기준일을 남긴다.
 - 변환기는 계산에서 명시적으로 제외된 표본에 대해 과거 교차검수의 미확인 경고를 다시 띄우지 않는다. 재검증할 계산 표본과 보관용 제외 표본을 구분하기 위한 동작이다.
 - 공식 확인 페이지: https://danangfantasticity.com/en/overview-da-nang-museum-of-cham-sculpture ; https://colosseo.it/en/tickets/colosseum-roman-forum-palatine/ ; https://en.ichiran.com/shop/area-oversea.html ; https://www.oldchangkee.com/dipngo.com.sg/menu.html ; https://www.mcdonalds.com.sg/food-menu/big-mac ; https://www.giolitti.it/prodotti/ ; https://www.fullers.co.uk/pubs/pub-finder/london
+
+## 2026-11-19: 관광지 표본이 적은 도시 5곳 우선 보강
+- 가격 데이터에서 관광지 표본이 적은 퍼스·하이델베르크·빌바오·툴루즈·베로나부터 운영 주체의 현재 요금으로 보완한다. 항목별 ID는 기존 자료와 충돌하지 않는 도시별 AT-003/004를 사용한다.
+- 퍼스 AQWA 성인 AUD 37, 3~15세 AUD 20; 하이델베르크 동물원 2026-11-01~2027-02-28 비수기 성인 EUR 13, 3~18세 미만 EUR 6.50; 빌바오 Itsasmuseum 일반 EUR 10, 18세 미만 무료; 툴루즈 Aeroscopia 성인 EUR 16, 미성년자 할인 EUR 13; 베로나 Castelvecchio 특별전 기간(2026-10-31~2027-01-31) 성인 EUR 12, 0~17세 무료를 추가한다.
+- 관광지 정보에 하이델베르크 동물원 계절 운영·마지막 입장, Itsasmuseum 무료 입장 조건, Aeroscopia 입장 마감, Castelvecchio 휴관·마지막 입장·한시 요금을 세 언어로 추가했다. 퍼스 AQWA의 도심 거리와 학교 방학 주차 주의도 세 언어로 추가했다.
+- 성인/아동 금액은 해당 기관의 공식 요금 페이지 또는 운영사 공식 예약 페이지를 기준으로 하고, 선택적 보전 기부금과 조건부 할인은 일반 입장 가격에 합산하지 않는다. 베로나 특별전 요금은 유효 기간을 표시해 기간 종료 후 갱신이 필요하다.
+- 확인 페이지: https://aqwa.rezdy.com/187337/aqwa-entry-tickets ; https://www.aqwa.com.au/visit/ ; https://www.zoo-heidelberg.de/besuch-planen/informationen/oeffnungszeiten-preise/ ; https://www.itsasmuseum.eus/tickets/ ; https://www.aeroscopia.fr/infospratiques ; https://museodistorianaturale.comune.verona.it/nqcontent.cfm?a_id=42561&lang=en

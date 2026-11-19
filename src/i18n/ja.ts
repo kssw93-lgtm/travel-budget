@@ -185,6 +185,7 @@ export const ja: Messages = {
     airportModes: { 'bus stop': '空港バス乗り場', 'train station': '空港の鉄道駅', 'metro station': '空港の地下鉄駅', 'public transport stop': '空港の公共交通乗り場' },
     airportBoardingTitle: '空港の公共交通乗り場・路線図',
     airportLineMapLink: 'Föli 1・1A番の公式路線図',
+    airportTerminalMapLink: '空港公式ターミナル乗り場案内図',
     airportRouteLink: 'Föliの経路・停留所を検索',
     airportDirectionsTitle: '空港から宿までの経路を地図で見る',
     airportDirectionsLink: '{airport}から{area}まで公共交通で',

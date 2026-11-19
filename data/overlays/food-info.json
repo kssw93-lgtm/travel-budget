@@ -13,7 +13,13 @@
   "oslo:Lutefisk": {
     "ko": "말린 대구 등을 잿물로 처리한 노르웨이 전통 생선 요리입니다.",
     "en": "A traditional Norwegian fish dish made from dried cod or similar fish treated with lye.",
-    "ja": "干しタラなどを灰汁で処理して作る、ノルウェーの伝統的な魚料理です。"
+    "ja": "干しタラなどを灰汁で処理して作る、ノルウェーの伝統的な魚料理です。",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Lutefisk.jpg/960px-Lutefisk.jpg",
+      "author": "Ennorehling",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Lutefisk.jpg"
+    }
   },
   "cape-town:Gatsby Sandwich": {
     "ko": "긴 빵에 고기나 생선, 감자튀김과 여러 재료를 채워 함께 나누어 먹기도 하는 케이프타운식 샌드위치입니다.",
@@ -51,12 +57,24 @@
   "marrakech:Tanjia": {
     "ko": "양고기나 송아지고기를 항아리에 담아 향신료와 함께 천천히 익히는 마라케시의 대표 음식입니다.",
     "en": "Marrakech’s signature dish of lamb or veal slow-cooked with spices in a clay jar.",
-    "ja": "羊肉または仔牛肉をスパイスとともに陶器の壺でじっくり煮込む、マラケシュを代表する料理です。"
+    "ja": "羊肉または仔牛肉をスパイスとともに陶器の壺でじっくり煮込む、マラケシュを代表する料理です。",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Tanjia.jpg/960px-Tanjia.jpg",
+      "author": "Marokistorique",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tanjia.jpg"
+    }
   },
   "marrakech:Couscous": {
     "ko": "찐 세몰리나에 고기·채소나 생선 등을 곁들여 먹는 모로코의 주식입니다.",
     "en": "Steamed semolina served with meat and vegetables, fish or other regional accompaniments.",
-    "ja": "蒸したセモリナに肉や野菜、魚などを添えて食べるモロッコの主食です。"
+    "ja": "蒸したセモリナに肉や野菜、魚などを添えて食べるモロッコの主食です。",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Moroccan_cuisine-Couscous_with_vegetables.jpg/960px-Moroccan_cuisine-Couscous_with_vegetables.jpg",
+      "author": "gatos.rojos",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Moroccan_cuisine-Couscous_with_vegetables.jpg"
+    }
   },
   "marrakech:Mint Tea": {
     "ko": "녹차에 민트를 넣어 끓여 손님에게 대접하는 모로코 전통 음료입니다.",
@@ -4495,7 +4513,13 @@
   "quebec-city:Tourtière": {
     "ko": "다진 고기로 속을 채운 퀘벡 전통 미트파이",
     "en": "Traditional Québec meat pie",
-    "ja": "ひき肉を詰めたケベック伝統のミートパイ"
+    "ja": "ひき肉を詰めたケベック伝統のミートパイ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tourti%C3%A8re_Xmas_dinner_2012.JPG/960px-Tourti%C3%A8re_Xmas_dinner_2012.JPG",
+      "author": "Victoriaedwards",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tourtière_Xmas_dinner_2012.JPG"
+    }
   },
   "quebec-city:Maple Taffy": {
     "ko": "뜨거운 메이플 시럽을 눈 위에 부어 막대로 말아 먹는 간식",
@@ -4516,7 +4540,13 @@
   "porto:Tripas à Moda do Porto": {
     "ko": "소 내장과 흰콩·소시지를 끓인 포르투 전통 스튜",
     "en": "Stew of tripe, white beans and sausage, Porto’s traditional dish",
-    "ja": "牛の胃袋と白インゲン豆、ソーセージを煮込んだポルトの伝統料理"
+    "ja": "牛の胃袋と白インゲン豆、ソーセージを煮込んだポルトの伝統料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Tripas_%C3%A0_moda_do_Porto.JPG/960px-Tripas_%C3%A0_moda_do_Porto.JPG",
+      "author": "MariaCartas",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tripas_à_moda_do_Porto.JPG"
+    }
   },
   "porto:Arroz de Polvo": {
     "ko": "문어를 넣고 촉촉하게 지은 포르투갈식 밥 요리",
@@ -4552,7 +4582,13 @@
   "milan:Cotoletta alla Milanese": {
     "ko": "뼈째 두툼한 송아지고기에 빵가루를 입혀 버터에 튀긴 커틀릿",
     "en": "Thick bone-in veal cutlet breaded and fried in butter",
-    "ja": "骨付きの厚い子牛肉にパン粉をつけてバターで揚げたカツレツ"
+    "ja": "骨付きの厚い子牛肉にパン粉をつけてバターで揚げたカツレツ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Cotoletta_alla_milanese.jpg/960px-Cotoletta_alla_milanese.jpg",
+      "author": "pier",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cotoletta_alla_milanese.jpg"
+    }
   },
   "milan:Panettone": {
     "ko": "건포도와 설탕에 절인 과일을 넣은 밀라노의 크리스마스 빵",
@@ -4616,17 +4652,35 @@
   "valencia:Paella Valenciana": {
     "ko": "닭·토끼·콩을 넣어 넓은 팬에 지은 발렌시아 원조 파에야",
     "en": "The original paella with chicken, rabbit and beans",
-    "ja": "鶏・ウサギ・豆を入れて平鍋で炊いたバレンシア元祖のパエリア"
+    "ja": "鶏・ウサギ・豆を入れて平鍋で炊いたバレンシア元祖のパエリア",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Paella_valenciana_02.jpg/960px-Paella_valenciana_02.jpg",
+      "author": "Dorieo",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Paella_valenciana_02.jpg"
+    }
   },
   "valencia:Horchata": {
     "ko": "추파(타이거너트)로 만든 달콤하고 시원한 음료",
     "en": "Sweet chilled drink made from tiger nuts",
-    "ja": "カヤツリグサの塊茎（タイガーナッツ）で作る甘く冷たい飲み物"
+    "ja": "カヤツリグサの塊茎（タイガーナッツ）で作る甘く冷たい飲み物",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Vaso_de_horchata.png/960px-Vaso_de_horchata.png",
+      "author": "Photocapy / Lobo",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Vaso_de_horchata.png"
+    }
   },
   "valencia:Fartons": {
     "ko": "오르차타에 찍어 먹는 길쭉한 단 빵",
     "en": "Long sweet buns for dunking in horchata",
-    "ja": "オルチャータに浸して食べる細長い甘いパン"
+    "ja": "オルチャータに浸して食べる細長い甘いパン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Fartons_a_go-go._(10115304746).jpg/960px-Fartons_a_go-go._(10115304746).jpg",
+      "author": "Alejandro Castella",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Fartons_a_go-go._(10115304746).jpg"
+    }
   },
   "bordeaux:Canelé": {
     "ko": "겉은 캐러멜처럼 바삭하고 속은 촉촉한 럼·바닐라 향의 보르도 과자",
@@ -4739,12 +4793,24 @@
   "marseille:Bouillabaisse": {
     "ko": "암초 물고기를 사프란·펜넬과 끓여 국물과 생선을 따로 내는 마르세유 대표 요리",
     "en": "Rock-fish stew with saffron and fennel, broth and fish served separately",
-    "ja": "岩礁の魚をサフランやフェンネルと煮込み、スープと魚を別々に出すマルセイユの名物料理"
+    "ja": "岩礁の魚をサフランやフェンネルと煮込み、スープと魚を別々に出すマルセイユの名物料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Eng_Bouillabaisse_gett_prepar%C3%A9iert.jpg/960px-Eng_Bouillabaisse_gett_prepar%C3%A9iert.jpg",
+      "author": "Ernmuhl at lb.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Eng_Bouillabaisse_gett_preparéiert.jpg"
+    }
   },
   "marseille:Panisses": {
     "ko": "병아리콩 가루 반죽을 썰어 튀긴 레스타크 지역의 간식",
     "en": "Fried slices of chickpea-flour batter from l’Estaque",
-    "ja": "ひよこ豆の粉の生地を切って揚げたレスタック地区の軽食"
+    "ja": "ひよこ豆の粉の生地を切って揚げたレスタック地区の軽食",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Panisses_marseillaises_4.jpg/960px-Panisses_marseillaises_4.jpg",
+      "author": "Fr.Latreille",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Panisses_marseillaises_4.jpg"
+    }
   },
   "marseille:Navettes": {
     "ko": "오렌지꽃 향을 넣은 배 모양 과자로, 1781년 마르세유에서 시작됐습니다",
@@ -4900,7 +4966,13 @@
   "turin:Bicerin": {
     "ko": "에스프레소·초콜릿·크림을 층층이 담은 토리노 전통 음료",
     "en": "Layered espresso, chocolate and cream, Turin’s traditional drink",
-    "ja": "エスプレッソ・チョコレート・クリームを層にしたトリノ伝統の飲み物"
+    "ja": "エスプレッソ・チョコレート・クリームを層にしたトリノ伝統の飲み物",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/2016_1128_Turin_Bicerin_02.jpg/960px-2016_1128_Turin_Bicerin_02.jpg",
+      "author": "Takeaway",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:2016_1128_Turin_Bicerin_02.jpg"
+    }
   },
   "turin:Gianduiotto": {
     "ko": "헤이즐넛을 섞은 토리노의 배 모양 초콜릿",
@@ -4970,7 +5042,13 @@
   "washington-dc:Half-Smoke": {
     "ko": "돼지고기·소고기 반반으로 만든 훈제 소시지에 칠리를 얹은 워싱턴 대표 음식",
     "en": "Smoked half-pork, half-beef sausage topped with chili",
-    "ja": "豚肉と牛肉を半々で作った燻製ソーセージにチリをかけたワシントン名物"
+    "ja": "豚肉と牛肉を半々で作った燻製ソーセージにチリをかけたワシントン名物",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Chili_half_smoke_Bens.jpg/960px-Chili_half_smoke_Bens.jpg",
+      "author": "bionicgrrrl / Diádoco",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Chili_half_smoke_Bens.jpg"
+    }
   },
   "washington-dc:Mumbo Sauce Wings": {
     "ko": "달콤새콤한 붉은 멈보 소스를 곁들인 튀긴 닭날개",
@@ -5018,12 +5096,24 @@
   "toronto:Peameal Bacon Sandwich": {
     "ko": "옥수숫가루를 입힌 돼지 등심 베이컨을 빵에 끼운 토론토 대표 샌드위치",
     "en": "Cornmeal-crusted back bacon in a bun, Toronto’s signature sandwich",
-    "ja": "コーンミールをまぶした豚ロースのベーコンをパンに挟んだトロント名物のサンドイッチ"
+    "ja": "コーンミールをまぶした豚ロースのベーコンをパンに挟んだトロント名物のサンドイッチ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Peameal_bacon_sandwich.jpg/960px-Peameal_bacon_sandwich.jpg",
+      "author": "Leventio",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Peameal_bacon_sandwich.jpg"
+    }
   },
   "toronto:Butter Tart": {
     "ko": "버터·설탕·달걀로 만든 달콤한 필링을 채운 캐나다식 작은 타르트",
     "en": "Small Canadian tart with a sweet butter-sugar-egg filling",
-    "ja": "バター・砂糖・卵の甘いフィリングを詰めたカナダの小さなタルト"
+    "ja": "バター・砂糖・卵の甘いフィリングを詰めたカナダの小さなタルト",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Butter_Tart_Bar.jpg/960px-Butter_Tart_Bar.jpg",
+      "author": "kim siciliano",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Butter_Tart_Bar.jpg"
+    }
   },
   "toronto:Poutine": {
     "ko": "감자튀김에 치즈 커드와 그레이비 소스를 얹은 캐나다 음식",
@@ -5066,12 +5156,24 @@
   "montreal:Montréal Bagel": {
     "ko": "꿀물에 데쳐 장작 화덕에 구운 작고 달콤한 베이글",
     "en": "Small, sweet bagel boiled in honey water and wood-fired",
-    "ja": "はちみつ入りの湯でゆでて薪窯で焼いた小ぶりで甘いベーグル"
+    "ja": "はちみつ入りの湯でゆでて薪窯で焼いた小ぶりで甘いベーグル",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Montr%C3%A9al_bagel_with_lox.jpg/960px-Montr%C3%A9al_bagel_with_lox.jpg",
+      "author": "Newmila",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Montréal_bagel_with_lox.jpg"
+    }
   },
   "montreal:Smoked Meat Sandwich": {
     "ko": "향신료에 재워 훈제한 소고기를 호밀빵에 듬뿍 끼운 샌드위치",
     "en": "Spice-cured smoked beef piled on rye bread",
-    "ja": "スパイスに漬けて燻製した牛肉をライ麦パンにたっぷり挟んだサンドイッチ"
+    "ja": "スパイスに漬けて燻製した牛肉をライ麦パンにたっぷり挟んだサンドイッチ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Montreal_Style_Smoked_Meat_Sandwich.jpg/960px-Montreal_Style_Smoked_Meat_Sandwich.jpg",
+      "author": "Mixwell",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Montreal_Style_Smoked_Meat_Sandwich.jpg"
+    }
   },
   "montreal:Poutine": {
     "ko": "감자튀김에 치즈 커드와 그레이비 소스를 얹은 퀘벡 음식",
@@ -5092,7 +5194,13 @@
   "seattle:Clam Chowder": {
     "ko": "파이크 플레이스 마켓에서 맛볼 수 있는 조개 크림 수프",
     "en": "Creamy clam soup, a Pike Place Market favourite",
-    "ja": "パイク・プレイス・マーケットで味わえる貝のクリームスープ"
+    "ja": "パイク・プレイス・マーケットで味わえる貝のクリームスープ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Clam_Chowder.JPG/960px-Clam_Chowder.JPG",
+      "author": "Marlith",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Clam_Chowder.JPG"
+    }
   },
   "seattle:Grilled Wild Salmon": {
     "ko": "태평양 북서부에서 잡은 자연산 연어 구이",
@@ -5210,17 +5318,35 @@
   "san-diego:Fish Tacos": {
     "ko": "바하 캘리포니아식으로 튀기거나 구운 생선을 토르티야에 싼 샌디에이고 명물",
     "en": "Baja-style battered or grilled fish in a tortilla — San Diego’s unofficial mascot",
-    "ja": "バハ・カリフォルニア風に揚げたり焼いたりした魚をトルティーヤで包んだサンディエゴ名物"
+    "ja": "バハ・カリフォルニア風に揚げたり焼いたりした魚をトルティーヤで包んだサンディエゴ名物",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Fish_tacos_food_cabbage_tortillas.jpg/960px-Fish_tacos_food_cabbage_tortillas.jpg",
+      "author": "Jon Sullivan",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Fish_tacos_food_cabbage_tortillas.jpg"
+    }
   },
   "san-diego:California Burrito": {
     "ko": "카르네 아사다와 감자튀김, 치즈, 과카몰레를 넣은 부리토",
     "en": "Carne asada, fries, cheese and guacamole in a flour tortilla",
-    "ja": "カルネ・アサダとフライドポテト、チーズ、ワカモレを包んだブリトー"
+    "ja": "カルネ・アサダとフライドポテト、チーズ、ワカモレを包んだブリトー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Lolita's_California_Burrito.jpg/960px-Lolita's_California_Burrito.jpg",
+      "author": "permanently scatterbrained",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Lolita's_California_Burrito.jpg"
+    }
   },
   "san-diego:Carne Asada Fries": {
     "ko": "감자튀김 위에 구운 소고기와 과카몰레, 사워크림, 치즈를 얹은 음식",
     "en": "Fries topped with carne asada, guacamole, sour cream and cheese",
-    "ja": "フライドポテトに焼いた牛肉とワカモレ、サワークリーム、チーズをのせた料理"
+    "ja": "フライドポテトに焼いた牛肉とワカモレ、サワークリーム、チーズをのせた料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Carne_asada_fries_-_October_2024.jpg/960px-Carne_asada_fries_-_October_2024.jpg",
+      "author": "RightCowLeftCoast",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Carne_asada_fries_-_October_2024.jpg"
+    }
   },
   "adelaide:Fritz": {
     "ko": "후추와 육두구로 맛을 낸 남호주식 소시지 햄",
@@ -5333,12 +5459,24 @@
   "toulouse:Cassoulet": {
     "ko": "흰콩과 오리 콩피, 툴루즈 소시지를 질그릇에 오래 익힌 요리",
     "en": "White beans, duck confit and Toulouse sausage slow-cooked in a cassole",
-    "ja": "白いんげん豆と鴨のコンフィ、トゥールーズ・ソーセージを土鍋で煮込んだ料理"
+    "ja": "白いんげん豆と鴨のコンフィ、トゥールーズ・ソーセージを土鍋で煮込んだ料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Haricots_tarbais_dans_un_cassoulet_gascon.jpg/960px-Haricots_tarbais_dans_un_cassoulet_gascon.jpg",
+      "author": "Pierre LANNES",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Haricots_tarbais_dans_un_cassoulet_gascon.jpg"
+    }
   },
   "toulouse:Saucisse de Toulouse": {
     "ko": "카술레와 바비큐에 빠지지 않는 툴루즈식 돼지고기 소시지",
     "en": "Toulouse’s pork sausage, star of cassoulet and barbecues",
-    "ja": "カスレやバーベキューに欠かせないトゥールーズの豚肉ソーセージ"
+    "ja": "カスレやバーベキューに欠かせないトゥールーズの豚肉ソーセージ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Saucisse_de_Toulouse.jpg/960px-Saucisse_de_Toulouse.jpg",
+      "author": "Slastic",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Saucisse_de_Toulouse.jpg"
+    }
   },
   "toulouse:Violet Sweets": {
     "ko": "툴루즈의 상징인 제비꽃으로 만든 사탕과 과자",
@@ -5386,7 +5524,13 @@
   "verona:Pastissada de Caval": {
     "ko": "말고기를 레드와인과 채소로 오래 끓인 베로나 전통 스튜",
     "en": "Slow-cooked horse-meat stew in red wine, served with polenta or gnocchi",
-    "ja": "馬肉を赤ワインと野菜で長時間煮込んだヴェローナの伝統シチュー"
+    "ja": "馬肉を赤ワインと野菜で長時間煮込んだヴェローナの伝統シチュー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Pastissada_de_caval.jpg/960px-Pastissada_de_caval.jpg",
+      "author": "Pentti Helenius (PenttiH)",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pastissada_de_caval.jpg"
+    }
   },
   "verona:Pandoro": {
     "ko": "별 모양의 베로나 전통 크리스마스 빵",
@@ -5396,12 +5540,24 @@
   "thessaloniki:Bougatsa": {
     "ko": "필로 반죽에 세몰리나 크림이나 치즈를 넣어 구운 아침 빵",
     "en": "Phyllo pastry filled with semolina cream or cheese",
-    "ja": "フィロ生地にセモリナのクリームやチーズを包んで焼いたパイ"
+    "ja": "フィロ生地にセモリナのクリームやチーズを包んで焼いたパイ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bougatsa.jpg/960px-Bougatsa.jpg",
+      "author": "Konstantinos Stampoulis (Geraki)",
+      "license": "CC BY-SA 2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:Bougatsa.jpg"
+    }
   },
   "thessaloniki:Trigona Panoramatos": {
     "ko": "크림을 가득 채운 원뿔 모양 페이스트리",
     "en": "Cone-shaped pastry filled with rich cream",
-    "ja": "クリームをたっぷり詰めた円すい形のパイ菓子"
+    "ja": "クリームをたっぷり詰めた円すい形のパイ菓子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Trigona_Panoramatos.jpg/960px-Trigona_Panoramatos.jpg",
+      "author": "Catlemur",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Trigona_Panoramatos.jpg"
+    }
   },
   "thessaloniki:Mussel Pilaf": {
     "ko": "테살로니키 바다에서 나는 홍합으로 지은 밥 요리",
@@ -5455,12 +5611,24 @@
   "mexico-city:Tacos de Guisado": {
     "ko": "미리 만든 스튜 요리를 토르티야에 얹은 타코",
     "en": "Tacos filled with ready-made stews",
-    "ja": "作り置きの煮込み料理をトルティーヤにのせたタコス"
+    "ja": "作り置きの煮込み料理をトルティーヤにのせたタコス",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Tacos_de_guisado.jpg/960px-Tacos_de_guisado.jpg",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tacos_de_guisado.jpg"
+    }
   },
   "mexico-city:Pozole": {
     "ko": "옥수수 알갱이와 고기를 넣고 끓인 멕시코 전통 수프",
     "en": "Traditional hominy and meat soup",
-    "ja": "とうもろこしの粒と肉を煮込んだメキシコの伝統的なスープ"
+    "ja": "とうもろこしの粒と肉を煮込んだメキシコの伝統的なスープ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Pozole_(2).jpg/960px-Pozole_(2).jpg",
+      "author": "jeffreyw",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pozole_(2).jpg"
+    }
   },
   "philadelphia:Cheesesteak": {
     "ko": "얇게 썬 소고기와 치즈를 긴 빵에 끼운 샌드위치",
@@ -5709,7 +5877,13 @@
   "winnipeg:Smoked Goldeye": {
     "ko": "매니토바 민물고기를 훈제한 위니펙 명물",
     "en": "Smoked local freshwater fish",
-    "ja": "マニトバの淡水魚を燻製にしたウィニペグ名物"
+    "ja": "マニトバの淡水魚を燻製にしたウィニペグ名物",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Smoked_goldeye.jpg/960px-Smoked_goldeye.jpg",
+      "author": "Mzajac",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Smoked_goldeye.jpg"
+    }
   },
   "halifax:Halifax Donair": {
     "ko": "양념 고기를 피타에 싸고 달콤한 도네어 소스를 뿌린 길거리 음식",
@@ -5747,7 +5921,13 @@
   "phoenix:Sonoran Hot Dog": {
     "ko": "베이컨으로 감싼 소시지에 콩·토마토·양파를 얹은 핫도그",
     "en": "Bacon-wrapped frank with beans, tomato and onion in a bolillo bun",
-    "ja": "ベーコンで巻いたソーセージに豆・トマト・玉ねぎをのせたホットドッグ"
+    "ja": "ベーコンで巻いたソーセージに豆・トマト・玉ねぎをのせたホットドッグ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Sonoran_hot_dog.jpg/960px-Sonoran_hot_dog.jpg",
+      "author": "stu_spivack",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sonoran_hot_dog.jpg"
+    }
   },
   "phoenix:Chimichanga": {
     "ko": "속을 채운 부리토를 튀긴 요리",
@@ -5867,12 +6047,24 @@
   "wellington:Flat White": {
     "ko": "웰링턴 카페 문화를 대표하는 우유 커피",
     "en": "The milky espresso at the heart of Wellington café culture",
-    "ja": "ウェリントンのカフェ文化を代表するミルクコーヒー"
+    "ja": "ウェリントンのカフェ文化を代表するミルクコーヒー",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flat_white.jpg/960px-Flat_white.jpg",
+      "author": "Ashley Van Haeften",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Flat_white.jpg"
+    }
   },
   "wellington:Cheese Scones": {
     "ko": "카페에서 즐겨 먹는 체다 치즈 스콘",
     "en": "Cheddar cheese scones, a café favourite",
-    "ja": "カフェで定番のチェダーチーズのスコーン"
+    "ja": "カフェで定番のチェダーチーズのスコーン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Cheese_scones.jpg/960px-Cheese_scones.jpg",
+      "author": "jemsweb",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cheese_scones.jpg"
+    }
   },
   "wellington:Fish and Chips": {
     "ko": "바닷가 마을에서 맛보는 생선 튀김과 감자튀김",
@@ -5931,7 +6123,13 @@
   "lausanne:Carac": {
     "ko": "보주 색인 초록색 아이싱을 올린 작은 타르트",
     "en": "Small tart with green icing in the canton’s colours",
-    "ja": "州の色である緑のアイシングをのせた小さなタルト"
+    "ja": "州の色である緑のアイシングをのせた小さなタルト",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Carac_2.JPG/960px-Carac_2.JPG",
+      "author": "Popo le Chien",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Carac_2.JPG"
+    }
   },
   "bremen:Kohl und Pinkel": {
     "ko": "케일을 핀켈 소시지와 함께 오래 끓인 브레멘 겨울 요리",
@@ -6153,7 +6351,13 @@
   "stuttgart:Laugenbrezel": {
     "ko": "잿물에 담갔다 구운 슈바벤식 프레첼",
     "en": "Lye-dipped Swabian pretzel",
-    "ja": "アルカリ液にくぐらせて焼いたシュヴァーベン風プレッツェル"
+    "ja": "アルカリ液にくぐらせて焼いたシュヴァーベン風プレッツェル",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Laugenbrezel_(fcm).jpg/960px-Laugenbrezel_(fcm).jpg",
+      "author": "Frank C. Müller",
+      "license": "CC BY-SA 2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:Laugenbrezel_(fcm).jpg"
+    }
   },
   "dusseldorf:Altbier": {
     "ko": "구시가지 양조장에서 작은 잔에 내는 쌉쌀한 갈색 맥주",
@@ -6191,7 +6395,13 @@
   "san-sebastian:Pintxos": {
     "ko": "빵 위에 다양한 재료를 얹은 바스크식 한입 요리",
     "en": "Basque bite-sized snacks on bread",
-    "ja": "パンの上にさまざまな具をのせたバスクの一口料理"
+    "ja": "パンの上にさまざまな具をのせたバスクの一口料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pintxos_Donostia_2014_9_6.JPG/960px-Pintxos_Donostia_2014_9_6.JPG",
+      "author": "Gordito1869",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pintxos_Donostia_2014_9_6.JPG"
+    }
   },
   "san-sebastian:Gilda": {
     "ko": "고추·멸치·올리브를 꼬치에 꽂은 매콤한 핀초",
@@ -6277,7 +6487,13 @@
   "montpellier:Tielle Sétoise": {
     "ko": "토마토 소스로 버무린 오징어를 채운 세트식 파이",
     "en": "Sète’s pie filled with squid in tomato sauce",
-    "ja": "トマトソースで和えたイカを詰めたセート風のパイ"
+    "ja": "トマトソースで和えたイカを詰めたセート風のパイ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Tielle_s%C3%A9toise.jpg/960px-Tielle_s%C3%A9toise.jpg",
+      "author": "Assassas77",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tielle_s%C3%A9toise.jpg"
+    }
   },
   "montpellier:Brasucade de Moules": {
     "ko": "장작불에 구운 홍합 요리",
@@ -6292,12 +6508,24 @@
   "malmo:Spettekaka": {
     "ko": "꼬챙이에 반죽을 돌려 구운 스코네 지방의 탑 모양 과자",
     "en": "Skåne’s tower-shaped spit-baked cake",
-    "ja": "串に生地をかけながら焼いたスコーネ地方の塔の形のお菓子"
+    "ja": "串に生地をかけながら焼いたスコーネ地方の塔の形のお菓子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Spettekaka_cake._Taken_at_70th_birthday_party_in_Osby%2C_Sweden.jpg/960px-Spettekaka_cake._Taken_at_70th_birthday_party_in_Osby%2C_Sweden.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Spettekaka_cake._Taken_at_70th_birthday_party_in_Osby,_Sweden.jpg"
+    }
   },
   "malmo:Äggakaka": {
     "ko": "스코네 지방의 전통 달걀 케이크",
     "en": "Traditional Skåne egg cake",
-    "ja": "スコーネ地方の伝統的な卵のケーキ"
+    "ja": "スコーネ地方の伝統的な卵のケーキ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/%C3%84ggakaka.jpg/960px-%C3%84ggakaka.jpg",
+      "author": "Lyalyaha",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Äggakaka.jpg"
+    }
   },
   "rio-de-janeiro:Feijoada": {
     "ko": "검은콩과 돼지고기를 함께 끓여 밥과 파로파 등을 곁들여 먹는 브라질식 스튜",
@@ -6370,7 +6598,13 @@
   "sao-paulo:Cuscuz Paulista": {
     "ko": "옥수수 가루를 기본으로 여러 재료를 넣어 굳혀 내는 상파울루식 쿠스쿠스입니다.",
     "en": "A São Paulo-style savoury couscous made with cornmeal and set with assorted ingredients.",
-    "ja": "コーンミールをベースに具材を加えて型に詰めて仕上げる、サンパウロ風クスクスです。"
+    "ja": "コーンミールをベースに具材を加えて型に詰めて仕上げる、サンパウロ風クスクスです。",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Cuscuz_paulista.jpg/960px-Cuscuz_paulista.jpg",
+      "author": "Everton137",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cuscuz_paulista.jpg"
+    }
   },
   "sao-paulo:Mortadella sandwich": {
     "ko": "시립 시장 메르카당의 바 두 마네가 대표 메뉴로 소개하는 모르타델라 샌드위치입니다.",

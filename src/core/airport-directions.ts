@@ -7,6 +7,8 @@ export interface AirportOrigin {
   query: string;
   /** Optional map search for the verified public-transport boarding point. */
   boardingQuery?: string;
+  /** Separate map searches when an airport has multiple verified boarding areas. */
+  boardingQueries?: Array<{ mode: AirportTransitMode; query: string }>;
   /** Optional official operator map for the route. */
   officialRouteMapUrl?: string;
   /** Optional official airport terminal map showing the boarding counters/area. */
@@ -47,7 +49,24 @@ const AIRPORT_ORIGINS: Record<string, AirportOrigin[]> = {
   cebu: [{ label: 'Mactan–Cebu International Airport', query: 'Mactan-Cebu International Airport' }],
   copenhagen: [{ label: 'Copenhagen Airport (CPH)', query: 'Copenhagen Airport' }],
   dublin: [{ label: 'Dublin Airport', query: 'Dublin Airport' }],
+  edinburgh: [{
+    label: 'Edinburgh Airport',
+    query: 'Edinburgh Airport',
+    boardingQueries: [
+      { mode: 'public transport stop', query: 'Edinburgh Airport tram stop outside terminal next to plaza Edinburgh sign' },
+      { mode: 'bus stop', query: 'Edinburgh Airport bus stops outside terminal' },
+    ],
+    officialBoardingMapUrl: 'https://www.edinburghairport.com/prepare/airport-maps',
+    officialPlannerUrl: 'https://www.edinburghairport.com/transport-links/trams',
+  }],
   fukuoka: [{ label: 'Fukuoka Airport', query: 'Fukuoka Airport' }],
+  florence: [{
+    label: 'Florence Airport (Peretola)',
+    query: 'Florence Airport Peretola',
+    boardingQuery: 'Peretola Aeroporto tram T2 stop arrivals departures',
+    officialRouteMapUrl: 'https://www.gestramvia.it/wp-content/uploads/2025/01/GEST-CdS-2025.rev_.3.pdf',
+    officialPlannerUrl: 'https://www.gestramvia.it/airport/?lang=en',
+  }],
   'hong-kong': [{ label: 'Hong Kong International Airport', query: 'Hong Kong International Airport' }],
   interlaken: [{ label: 'Zurich Airport', query: 'Zurich Airport' }],
   istanbul: [
@@ -75,6 +94,12 @@ const AIRPORT_ORIGINS: Record<string, AirportOrigin[]> = {
     { label: 'John F. Kennedy International Airport (JFK)', query: 'John F. Kennedy International Airport' },
     { label: 'Newark Liberty International Airport (EWR)', query: 'Newark Liberty International Airport' },
   ],
+  manchester: [{
+    label: 'Manchester Airport',
+    query: 'Manchester Airport',
+    boardingQuery: 'Manchester Airport The Station train station bus station coach station',
+    officialPlannerUrl: 'https://www.manchesterairport.co.uk/getting-to-and-from/',
+  }],
   osaka: [
     { label: 'Kansai International Airport (KIX)', query: 'Kansai International Airport' },
     { label: 'Osaka Itami Airport (ITM)', query: 'Osaka International Airport Itami' },
@@ -105,6 +130,12 @@ const AIRPORT_ORIGINS: Record<string, AirportOrigin[]> = {
     { label: 'Haneda Airport (HND)', query: 'Tokyo Haneda Airport' },
     { label: 'Narita International Airport (NRT)', query: 'Narita International Airport' },
   ],
+  ulaanbaatar: [{
+    label: 'Chinggis Khaan International Airport',
+    query: 'Chinggis Khaan International Airport',
+    boardingQuery: 'Chinggis Khaan International Airport terminal first floor west side public bus ticket kiosk',
+    officialPlannerUrl: 'https://en.ulaanbaatar-airport.mn/public-transportation-service',
+  }],
   turku: [
     {
       label: 'Turku Airport',
@@ -142,6 +173,7 @@ export function airportBoardingMapUrl(query: string, lang: 'ko' | 'en' | 'ja'): 
 
 /** Selects map searches from the actual airport-transfer text, without guessing a stop or platform number. */
 export function airportBoardingQueries(origin: AirportOrigin, tipKo: string): Array<{ mode: AirportTransitMode; query: string }> {
+  if (origin.boardingQueries?.length) return origin.boardingQueries;
   if (origin.boardingQuery) {
     const mode: AirportTransitMode = /bus|버스/i.test(origin.boardingQuery) ? 'bus stop' : 'public transport stop';
     return [{ mode, query: origin.boardingQuery }];

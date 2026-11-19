@@ -1880,6 +1880,8 @@
 | PUS-AT-201 | 부산 | 해운대 해변열차 1회 탑승권 (어린이) | 5600~7000 KRW | A | 예 | 재검증 | [해운대블루라인파크](https://www.bluelinepark.com/fare.do) |
 | PUS-AT-203 | 부산 | 해운대 해변열차 1회 탑승권 (성인) | 8000~10000 KRW | A | 예 | 재검증 | [해운대블루라인파크](https://www.bluelinepark.com/fare.do) |
 | DXB-TR-104 | 두바이 | 공항 터미널 1 출발 지하철 실버 nol 1구역 요금 | 3 AED | A | 예 | 재검증, 시작가 표기 | [두바이 도로교통청 RTA nol 요금표·지하철 역 안내](https://rta.ae/wps/portal/rta/ae/public-transport/Nol-Fares?lang=en;https://www.rta.ae/wps/portal/rta/ae/public-transport/metro-stations-map;https://www.rta.ae/links/rail/rail-network-map.pdf) |
+| EDI-AT-507 | 에든버러 | 에든버러 동물원 일반 입장권 (성인) | 29.5 GBP | A | 예 | 재검증 | [Edinburgh Zoo](https://www.edinburghzoo.org.uk/visit/tickets) |
+| EDI-AT-508 | 에든버러 | 에든버러 동물원 일반 입장권 (아동) | 22 GBP | A | 예 | 재검증 | [Edinburgh Zoo](https://www.edinburghzoo.org.uk/visit/tickets) |
 | EDI-FD-501 | 에든버러 | 스코틀랜드식 아침 식사 | 16.5 GBP | A | 예 | 재검증 | [The City Cafe](https://thecitycafe.co.uk/menus) |
 | EDI-FD-502 | 에든버러 | 치킨 카티 롤 | 12.9 GBP | A | 예 | 재검증 | [Dishoom Edinburgh](https://www.dishoom.com/menu/edinburgh-all-day/) |
 | EDI-FD-503 | 에든버러 | 카레 볼 | 13 GBP | A | 예 | 재검증 | [Bellfield Brewery Taproom](https://www.bellfieldbrewery.com/pages/whats-pouring-at-the-bellfield-taproom) |

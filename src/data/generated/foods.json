@@ -11458,6 +11458,12 @@
       "en": "Affordable global dishes from food-cart pods",
       "ja": "フードカートのポッドで売られる世界各国の手頃な料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Portland_food_cart_chicken_and_waffles.jpg/960px-Portland_food_cart_chicken_and_waffles.jpg",
+      "author": "Justinhawthorne",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Portland_food_cart_chicken_and_waffles.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -14389,6 +14395,12 @@
       "ko": "고기를 채워 작게 집은 피에몬테식 파스타",
       "en": "Small pinched pasta parcels filled with meat, Piedmont style",
       "ja": "肉を詰めて小さくつまんだピエモンテ風のパスタ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Agnolotti_al_plin.JPG/960px-Agnolotti_al_plin.JPG",
+      "author": "Andrea Marchisio",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Agnolotti_al_plin.JPG"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],

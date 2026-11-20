@@ -4520,7 +4520,13 @@
   "quebec-city:Poutine": {
     "ko": "감자튀김에 치즈 커드와 그레이비 소스를 얹은 퀘벡 대표 음식",
     "en": "Fries topped with cheese curds and gravy",
-    "ja": "フライドポテトにチーズカードとグレイビーソースをかけたケベックの名物"
+    "ja": "フライドポテトにチーズカードとグレイビーソースをかけたケベックの名物",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Poutine_classique.jpg/960px-Poutine_classique.jpg",
+      "author": "IsabelleDuf",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Poutine_classique.jpg"
+    }
   },
   "quebec-city:Tourtière": {
     "ko": "다진 고기로 속을 채운 퀘벡 전통 미트파이",
@@ -4611,7 +4617,13 @@
   "milan:Panettone": {
     "ko": "건포도와 설탕에 절인 과일을 넣은 밀라노의 크리스마스 빵",
     "en": "Milan’s Christmas bread with raisins and candied fruit",
-    "ja": "レーズンと砂糖漬けの果物を入れたミラノのクリスマスの菓子パン"
+    "ja": "レーズンと砂糖漬けの果物を入れたミラノのクリスマスの菓子パン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Nicol-Ettone_2011_edition_-_IMG_2261_(6527569819).jpg/960px-Nicol-Ettone_2011_edition_-_IMG_2261_(6527569819).jpg",
+      "author": "N i c o l a from Fiumicino (Rome), Italy",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Nicol-Ettone_2011_edition_-_IMG_2261_(6527569819).jpg"
+    }
   },
   "lucerne:Chügelipastete": {
     "ko": "고기 완자와 크림 소스를 파이 반죽에 채운 루체른 전통 요리",
@@ -5062,7 +5074,13 @@
   "brisbane:Queensland Prawns": {
     "ko": "근해에서 잡은 새우를 차갑게 또는 구워 먹는 해산물 요리",
     "en": "Local prawns served chilled or grilled",
-    "ja": "近海でとれたエビを冷やして、または焼いて食べる海鮮料理"
+    "ja": "近海でとれたエビを冷やして、または焼いて食べる海鮮料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Garlic_prawns_at_Southport_Surf_Life_Saving_Club.jpg/960px-Garlic_prawns_at_Southport_Surf_Life_Saving_Club.jpg",
+      "author": "Kgbo",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Garlic_prawns_at_Southport_Surf_Life_Saving_Club.jpg"
+    }
   },
   "brisbane:Mud Crab": {
     "ko": "제철에 맛보는 퀸즐랜드의 큰 진흙게 요리",
@@ -5675,7 +5693,13 @@
   "philadelphia:Cheesesteak": {
     "ko": "얇게 썬 소고기와 치즈를 긴 빵에 끼운 샌드위치",
     "en": "Thin-sliced beef with provolone, American or Cheez Whiz on a roll",
-    "ja": "薄切り牛肉とチーズを長いパンに挟んだサンドイッチ"
+    "ja": "薄切り牛肉とチーズを長いパンに挟んだサンドイッチ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Philly_cheesesteak_sandwich%2C_Philadelphia%2C_Pennsylvania%2C_USA_-_20120502.jpg/960px-Philly_cheesesteak_sandwich%2C_Philadelphia%2C_Pennsylvania%2C_USA_-_20120502.jpg",
+      "author": "Smuconlaw.",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Philly_cheesesteak_sandwich,_Philadelphia,_Pennsylvania,_USA_-_20120502.jpg"
+    }
   },
   "philadelphia:Roast Pork Sandwich": {
     "ko": "천천히 구운 돼지고기에 샤프 프로볼로네와 브로콜리 라베를 얹은 샌드위치",

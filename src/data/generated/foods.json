@@ -8732,6 +8732,12 @@
       "en": "Marzipan-filled plums fried in pancake batter",
       "ja": "マジパンを詰めたプラムを生地につけて揚げたお菓子"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Leipziger_raebchen.jpg/960px-Leipziger_raebchen.jpg",
+      "author": "Cölestina Römer",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Leipziger_raebchen.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -11050,6 +11056,12 @@
       "en": "Philly-style soft pretzel, eaten with mustard",
       "ja": "マスタードを添えて食べるフィラデルフィア風の柔らかいプレッツェル"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Philly_style_pretzel.JPG/960px-Philly_style_pretzel.JPG",
+      "author": "Vinchenzo8",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Philly_style_pretzel.JPG"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -12843,6 +12855,12 @@
       "ko": "토마토와 빵을 갈아 만든 걸쭉한 차가운 수프",
       "en": "Thick cold soup of blended tomato and bread",
       "ja": "トマトとパンをすりつぶして作るとろりとした冷製スープ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Salmorejo_served_in_Seville%2C_Spain.png/960px-Salmorejo_served_in_Seville%2C_Spain.png",
+      "author": "Funknendai",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Salmorejo_served_in_Seville,_Spain.png"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],

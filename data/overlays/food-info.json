@@ -4585,7 +4585,13 @@
   "seville:Salmorejo": {
     "ko": "토마토와 빵을 갈아 만든 걸쭉한 차가운 수프",
     "en": "Thick cold soup of blended tomato and bread",
-    "ja": "トマトとパンをすりつぶして作るとろりとした冷製スープ"
+    "ja": "トマトとパンをすりつぶして作るとろりとした冷製スープ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Salmorejo_served_in_Seville%2C_Spain.png/960px-Salmorejo_served_in_Seville%2C_Spain.png",
+      "author": "Funknendai",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Salmorejo_served_in_Seville,_Spain.png"
+    }
   },
   "seville:Potaje de Garbanzos y Bacalao": {
     "ko": "병아리콩과 염장 대구를 끓인 사순절 시기의 세비야 음식",
@@ -5709,7 +5715,13 @@
   "philadelphia:Soft Pretzel": {
     "ko": "머스터드를 곁들여 먹는 필라델피아식 부드러운 프레첼",
     "en": "Philly-style soft pretzel, eaten with mustard",
-    "ja": "マスタードを添えて食べるフィラデルフィア風の柔らかいプレッツェル"
+    "ja": "マスタードを添えて食べるフィラデルフィア風の柔らかいプレッツェル",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Philly_style_pretzel.JPG/960px-Philly_style_pretzel.JPG",
+      "author": "Vinchenzo8",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Philly_style_pretzel.JPG"
+    }
   },
   "new-orleans:Gumbo": {
     "ko": "짙은 루에 닭고기·소시지·해산물·오크라를 넣고 끓인 스튜",
@@ -6093,7 +6105,13 @@
   "leipzig:Leipziger Räbchen": {
     "ko": "마지팬을 채운 자두를 반죽에 묻혀 튀긴 과자",
     "en": "Marzipan-filled plums fried in pancake batter",
-    "ja": "マジパンを詰めたプラムを生地につけて揚げたお菓子"
+    "ja": "マジパンを詰めたプラムを生地につけて揚げたお菓子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Leipziger_raebchen.jpg/960px-Leipziger_raebchen.jpg",
+      "author": "Cölestina Römer",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Leipziger_raebchen.jpg"
+    }
   },
   "canberra:Truffle Dishes": {
     "ko": "근교 농장에서 나는 흑송로버섯을 쓴 겨울 요리",

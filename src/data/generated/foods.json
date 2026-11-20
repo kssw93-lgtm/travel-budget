@@ -3461,6 +3461,12 @@
       "en": "Steak from Alberta, source of half of Canada’s beef",
       "ja": "カナダの牛肉の半分を生産するアルバータ産牛肉のステーキ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Beef_steak.jpg/960px-Beef_steak.jpg",
+      "author": "Chammy17",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Beef_steak.jpg"
+    },
     "budgetBand": "고",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -9310,6 +9316,12 @@
       "en": "Malmö’s signature street food — Sweden’s falafel capital",
       "ja": "「スウェーデンのファラフェルの都」と呼ばれるマルメの代表的な屋台料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Falafels_2.jpg/960px-Falafels_2.jpg",
+      "author": "Popo le Chien",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Falafels_2.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -11133,6 +11145,12 @@
       "ko": "속을 채운 부리토를 튀긴 요리",
       "en": "Deep-fried filled burrito",
       "ja": "具を詰めたブリトーを揚げた料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Chimichanga_small.jpg/960px-Chimichanga_small.jpg",
+      "author": "Corn cheese",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Chimichanga_small.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],

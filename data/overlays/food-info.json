@@ -5833,7 +5833,13 @@
   "calgary:Alberta Beef Steak": {
     "ko": "캐나다 소고기의 절반을 생산하는 앨버타산 소고기 스테이크",
     "en": "Steak from Alberta, source of half of Canada’s beef",
-    "ja": "カナダの牛肉の半分を生産するアルバータ産牛肉のステーキ"
+    "ja": "カナダの牛肉の半分を生産するアルバータ産牛肉のステーキ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Beef_steak.jpg/960px-Beef_steak.jpg",
+      "author": "Chammy17",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Beef_steak.jpg"
+    }
   },
   "calgary:Caesar": {
     "ko": "1969년 캘거리에서 탄생한 토마토·조개 주스 칵테일",
@@ -6058,7 +6064,13 @@
   "phoenix:Chimichanga": {
     "ko": "속을 채운 부리토를 튀긴 요리",
     "en": "Deep-fried filled burrito",
-    "ja": "具を詰めたブリトーを揚げた料理"
+    "ja": "具を詰めたブリトーを揚げた料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Chimichanga_small.jpg/960px-Chimichanga_small.jpg",
+      "author": "Corn cheese",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Chimichanga_small.jpg"
+    }
   },
   "phoenix:Sonoran Tacos": {
     "ko": "메스키트 숯불에 구운 고기를 얹은 타코",
@@ -6665,7 +6677,13 @@
   "malmo:Falafel": {
     "ko": "‘스웨덴 팔라펠의 수도’로 불리는 말뫼의 대표 길거리 음식",
     "en": "Malmö’s signature street food — Sweden’s falafel capital",
-    "ja": "「スウェーデンのファラフェルの都」と呼ばれるマルメの代表的な屋台料理"
+    "ja": "「スウェーデンのファラフェルの都」と呼ばれるマルメの代表的な屋台料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Falafels_2.jpg/960px-Falafels_2.jpg",
+      "author": "Popo le Chien",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Falafels_2.jpg"
+    }
   },
   "malmo:Spettekaka": {
     "ko": "꼬챙이에 반죽을 돌려 구운 스코네 지방의 탑 모양 과자",

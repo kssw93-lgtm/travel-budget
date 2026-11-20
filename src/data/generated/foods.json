@@ -13054,6 +13054,12 @@
       "en": "Spinach and chickpeas with cumin and paprika, a classic Seville tapa",
       "ja": "ほうれん草とひよこ豆をクミンとパプリカで炒めたセビリアの代表的なタパス"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/GarbanzosConEspinacas.jpg/960px-GarbanzosConEspinacas.jpg",
+      "author": "Tubamirum",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:GarbanzosConEspinacas.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -13095,6 +13101,12 @@
       "ko": "병아리콩과 염장 대구를 끓인 사순절 시기의 세비야 음식",
       "en": "Chickpea and salt-cod stew eaten in Lent",
       "ja": "ひよこ豆と塩漬けタラを煮込んだ四旬節の時期の料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/POTAJE_DE_GARBANZOS_CON_BACALAO.jpg/960px-POTAJE_DE_GARBANZOS_CON_BACALAO.jpg",
+      "author": "PEPE GADEIRAS",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:POTAJE_DE_GARBANZOS_CON_BACALAO.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],

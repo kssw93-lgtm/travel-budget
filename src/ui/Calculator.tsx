@@ -12,7 +12,7 @@ import { RatesNotice, ResultView } from './ResultView';
 import { TripForm } from './TripForm';
 import { PartnerBanner } from './PartnerBanner';
 import { useRates } from './useRates';
-import { calcMemory, formToSearch, readForm } from './urlState';
+import { calculatorPath, calcMemory, formToSearch, readForm } from './urlState';
 import { currentLoc, replaceLoc } from './router';
 
 function savedCurrency(): string | null {
@@ -105,7 +105,8 @@ export function Calculator() {
     const search = formToSearch(form, lang);
     calcMemory.search = search;
     const loc = currentLoc();
-    if (loc.search !== search) replaceLoc(`/${search}${loc.hash}`);
+    const pathname = calculatorPath(loc.pathname, lang);
+    if (loc.search !== search || loc.pathname !== pathname) replaceLoc(`${pathname}${search}${loc.hash}`);
   }, [form, lang]);
 
   const parsed = useMemo(() => parseForm(form), [form]);

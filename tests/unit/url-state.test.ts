@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { parseForm, type FormState } from '../../src/ui/form';
-import { formToSearch, readForm, readLang, withLang } from '../../src/ui/urlState';
+import { calculatorPath, formToSearch, readForm, readLang, withLang } from '../../src/ui/urlState';
 
 const ids = ['tokyo', 'taipei'];
 const form: FormState = {
@@ -10,6 +10,13 @@ const form: FormState = {
 };
 
 describe('URL 입력 상태', () => {
+  it('계산기 언어 홈은 공유용 별칭 경로를 사용한다', () => {
+    expect(calculatorPath('/', 'en')).toBe('/en');
+    expect(calculatorPath('/en', 'ja')).toBe('/ja');
+    expect(calculatorPath('/ja', 'ko')).toBe('/');
+    expect(calculatorPath('/guide/tokyo', 'en')).toBe('/guide/tokyo');
+  });
+
   it('쿼리로 쓰고 다시 읽으면 같은 입력이 된다(언어·통화는 별도 값)', () => {
     const search = formToSearch(form, 'en');
     expect(readLang(search)).toBe('en');

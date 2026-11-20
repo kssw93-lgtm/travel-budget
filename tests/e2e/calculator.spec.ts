@@ -8,6 +8,19 @@ const pilotCities = allCities.filter((c) => c.stage === '파일럿');
 const status = JSON.parse(readFileSync('src/data/generated/status.json', 'utf8')) as Record<string, { computable: boolean; missing: string[] }>;
 
 test.describe('계산기 핵심 흐름', () => {
+  test('언어별 계산기 주소는 공유 카드 캐시용 별칭 경로를 사용한다', async ({ page }) => {
+    await mockRates(page);
+    await page.goto('/?lang=en');
+    await expect(page).toHaveURL(/\/en\?lang=en(?:&|$)/);
+    await expect(page.locator('html')).toHaveAttribute('lang', 'en');
+    await page.getByRole('button', { name: '日本語' }).click();
+    await expect(page).toHaveURL(/\/ja\?lang=ja(?:&|$)/);
+    await expect(page.locator('html')).toHaveAttribute('lang', 'ja');
+    await page.getByRole('button', { name: '한국어' }).click();
+    await expect(page).toHaveURL(/\/\?lang=ko(?:&|$)/);
+    await expect(page.locator('html')).toHaveAttribute('lang', 'ko');
+  });
+
   test('도시 선택 목록에는 파일럿 도시만 나오고 나라별로 묶이며 검색할 수 있다', async ({ page }) => {
     await mockRates(page);
     await page.goto('/');

@@ -6,7 +6,7 @@ import { Calculator } from './Calculator';
 import { About, Privacy } from './InfoPages';
 import { routeOf } from './pages';
 import { applyMeta } from './meta';
-import { calcMemory, readLang, withLang } from './urlState';
+import { calculatorPath, calcMemory, readLang, withLang } from './urlState';
 import { currentLoc, isPreview, pushLoc, replaceLoc, type Loc } from './router';
 
 /** 머리글 사이트 이름 */
@@ -90,7 +90,7 @@ export function App() {
     }
   }, [loc.pathname, loc.hash]);
 
-  const calcHref = `/${calcMemory.search || `?lang=${lang}`}`;
+  const calcHref = `${calculatorPath('/', lang)}${calcMemory.search || `?lang=${lang}`}`;
 
   return (
     <I18nProvider lang={lang}>

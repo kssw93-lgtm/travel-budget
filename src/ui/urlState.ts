@@ -159,5 +159,11 @@ export function withLang(search: string, lang: Lang): string {
   return `?${q.toString()}`;
 }
 
+/** 계산기 홈은 언어별 경로를 써서 공유 플랫폼의 언어별 미리보기 캐시를 분리한다. */
+export function calculatorPath(pathname: string, lang: Lang): string {
+  if (pathname === '/' || pathname === '/en' || pathname === '/ja') return lang === 'ko' ? '/' : `/${lang}`;
+  return pathname;
+}
+
 /** 다른 페이지(소개·개인정보)에 다녀와도 계산기 입력이 유지되도록 마지막 계산기 쿼리를 기억한다. */
 export const calcMemory = { search: '' };

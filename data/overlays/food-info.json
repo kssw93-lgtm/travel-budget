@@ -4918,7 +4918,13 @@
   "warsaw:Żurek": {
     "ko": "삶은 달걀과 흰 소시지를 넣은 시큼한 호밀 수프",
     "en": "Sour rye soup with egg and white sausage",
-    "ja": "ゆで卵と白ソーセージを入れた酸味のあるライ麦のスープ"
+    "ja": "ゆで卵と白ソーセージを入れた酸味のあるライ麦のスープ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Food_of_Poland_-_%C5%BCurek_soup_served_in_bread.jpg/960px-Food_of_Poland_-_%C5%BCurek_soup_served_in_bread.jpg",
+      "author": "Chris Olszewski",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Food_of_Poland_-_żurek_soup_served_in_bread.jpg"
+    }
   },
   "warsaw:Pączki": {
     "ko": "장미잼 등을 채우고 설탕을 입힌 폴란드식 도넛",
@@ -5202,7 +5208,13 @@
   "toronto:Poutine": {
     "ko": "감자튀김에 치즈 커드와 그레이비 소스를 얹은 캐나다 음식",
     "en": "Fries topped with cheese curds and gravy",
-    "ja": "フライドポテトにチーズカードとグレイビーソースをかけたカナダ料理"
+    "ja": "フライドポテトにチーズカードとグレイビーソースをかけたカナダ料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Poutine_with_crispy_bacon_bits!_(53820118902).jpg/960px-Poutine_with_crispy_bacon_bits!_(53820118902).jpg",
+      "author": "young shanahan",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Poutine_with_crispy_bacon_bits!_(53820118902).jpg"
+    }
   },
   "chicago:Deep-Dish Pizza": {
     "ko": "그릇 모양 도우에 치즈·토마토 소스·토핑을 두툼하게 채운 시카고식 피자",
@@ -5746,7 +5758,13 @@
   "philadelphia:Roast Pork Sandwich": {
     "ko": "천천히 구운 돼지고기에 샤프 프로볼로네와 브로콜리 라베를 얹은 샌드위치",
     "en": "Slow-roasted pork, sharp provolone and broccoli rabe on an Italian roll",
-    "ja": "じっくり焼いた豚肉にシャープ・プロヴォローネとブロッコリー・ラーブをのせたサンドイッチ"
+    "ja": "じっくり焼いた豚肉にシャープ・プロヴォローネとブロッコリー・ラーブをのせたサンドイッチ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Philly_Roast_Pork.jpg/960px-Philly_Roast_Pork.jpg",
+      "author": "Bottyguy",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Philly_Roast_Pork.jpg"
+    }
   },
   "philadelphia:Soft Pretzel": {
     "ko": "머스터드를 곁들여 먹는 필라델피아식 부드러운 프레첼",
@@ -6091,7 +6109,13 @@
   "san-antonio:Breakfast Tacos": {
     "ko": "달걀·감자·베이컨을 부드러운 밀 토르티야에 싼 타코",
     "en": "Egg, potato and bacon in soft flour tortillas",
-    "ja": "卵・じゃがいも・ベーコンを柔らかい小麦のトルティーヤで包んだタコス"
+    "ja": "卵・じゃがいも・ベーコンを柔らかい小麦のトルティーヤで包んだタコス",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/2009-265-56-_Two_Soft_Tacos_and_a_Microphone_(3310171849).jpg/960px-2009-265-56-_Two_Soft_Tacos_and_a_Microphone_(3310171849).jpg",
+      "author": "cogdogblog",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:2009-265-56-_Two_Soft_Tacos_and_a_Microphone_(3310171849).jpg"
+    }
   },
   "san-antonio:Fajitas": {
     "ko": "구운 고기와 채소를 토르티야에 싸 먹는 텍스멕스 요리",

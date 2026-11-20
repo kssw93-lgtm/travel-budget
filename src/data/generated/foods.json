@@ -11080,6 +11080,12 @@
       "en": "Slow-roasted pork, sharp provolone and broccoli rabe on an Italian roll",
       "ja": "じっくり焼いた豚肉にシャープ・プロヴォローネとブロッコリー・ラーブをのせたサンドイッチ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Philly_Roast_Pork.jpg/960px-Philly_Roast_Pork.jpg",
+      "author": "Bottyguy",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Philly_Roast_Pork.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -12397,6 +12403,12 @@
       "ko": "달걀·감자·베이컨을 부드러운 밀 토르티야에 싼 타코",
       "en": "Egg, potato and bacon in soft flour tortillas",
       "ja": "卵・じゃがいも・ベーコンを柔らかい小麦のトルティーヤで包んだタコス"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/2009-265-56-_Two_Soft_Tacos_and_a_Microphone_(3310171849).jpg/960px-2009-265-56-_Two_Soft_Tacos_and_a_Microphone_(3310171849).jpg",
+      "author": "cogdogblog",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:2009-265-56-_Two_Soft_Tacos_and_a_Microphone_(3310171849).jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -14050,6 +14062,12 @@
       "en": "Fries topped with cheese curds and gravy",
       "ja": "フライドポテトにチーズカードとグレイビーソースをかけたカナダ料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Poutine_with_crispy_bacon_bits!_(53820118902).jpg/960px-Poutine_with_crispy_bacon_bits!_(53820118902).jpg",
+      "author": "young shanahan",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Poutine_with_crispy_bacon_bits!_(53820118902).jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -14967,6 +14985,12 @@
       "ko": "삶은 달걀과 흰 소시지를 넣은 시큼한 호밀 수프",
       "en": "Sour rye soup with egg and white sausage",
       "ja": "ゆで卵と白ソーセージを入れた酸味のあるライ麦のスープ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Food_of_Poland_-_%C5%BCurek_soup_served_in_bread.jpg/960px-Food_of_Poland_-_%C5%BCurek_soup_served_in_bread.jpg",
+      "author": "Chris Olszewski",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Food_of_Poland_-_żurek_soup_served_in_bread.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],

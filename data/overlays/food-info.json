@@ -8,7 +8,13 @@
   "oslo:Rømmegrøt": {
     "ko": "사워크림으로 만든 노르웨이식 죽으로, 버터·설탕·시나몬을 얹어 먹습니다.",
     "en": "Norwegian sour cream porridge, commonly topped with butter, sugar and cinnamon.",
-    "ja": "サワークリームで作るノルウェーの粥で、バター、砂糖、シナモンを添えて食べます。"
+    "ja": "サワークリームで作るノルウェーの粥で、バター、砂糖、シナモンを添えて食べます。",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/R%C3%B6mmegr%C3%B6t.jpg/960px-R%C3%B6mmegr%C3%B6t.jpg",
+      "author": "Tomas Eklund",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:R%C3%B6mmegr%C3%B6t.jpg"
+    }
   },
   "oslo:Lutefisk": {
     "ko": "말린 대구 등을 잿물로 처리한 노르웨이 전통 생선 요리입니다.",
@@ -4575,7 +4581,13 @@
   "porto:Arroz de Polvo": {
     "ko": "문어를 넣고 촉촉하게 지은 포르투갈식 밥 요리",
     "en": "Moist Portuguese octopus rice",
-    "ja": "タコを入れてしっとり炊いたポルトガル風の米料理"
+    "ja": "タコを入れてしっとり炊いたポルトガル風の米料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Arroz_de_polvo_in_Lisbon.jpg/960px-Arroz_de_polvo_in_Lisbon.jpg",
+      "author": "Kritzolina",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Arroz_de_polvo_in_Lisbon.jpg"
+    }
   },
   "seville:Espinacas con Garbanzos": {
     "ko": "시금치와 병아리콩을 쿠민·파프리카로 볶은 세비야 대표 타파스",
@@ -4851,7 +4863,13 @@
   "marseille:Navettes": {
     "ko": "오렌지꽃 향을 넣은 배 모양 과자로, 1781년 마르세유에서 시작됐습니다",
     "en": "Boat-shaped orange-blossom biscuits, made in Marseille since 1781",
-    "ja": "オレンジフラワーの香りの舟形の焼き菓子で、1781年にマルセイユで生まれました"
+    "ja": "オレンジフラワーの香りの舟形の焼き菓子で、1781年にマルセイユで生まれました",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Navettedemarseille.jpg/960px-Navettedemarseille.jpg",
+      "author": "Cyrille Valota",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Navettedemarseille.jpg"
+    }
   },
   "tainan:Beef Soup": {
     "ko": "갓 잡은 생소고기를 얇게 썰어 뜨거운 육수를 부어 익혀 먹는 타이난 아침 음식",
@@ -4867,7 +4885,13 @@
   "tainan:Danzai Noodles": {
     "ko": "작은 그릇에 고기 소스와 새우를 얹은 타이난 전통 국수",
     "en": "Small bowls of noodles with minced-pork sauce and shrimp",
-    "ja": "小さな器に肉そぼろとエビをのせた台南伝統の麺"
+    "ja": "小さな器に肉そぼろとエビをのせた台南伝統の麺",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/DuSiaoYue_danzai_noodle_by_Prince_Roy_in_Tainan%2C_Taiwan.jpg/960px-DuSiaoYue_danzai_noodle_by_Prince_Roy_in_Tainan%2C_Taiwan.jpg",
+      "author": "Prince Roy",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:DuSiaoYue_danzai_noodle_by_Prince_Roy_in_Tainan,_Taiwan.jpg"
+    }
   },
   "tainan:Coffin Bread": {
     "ko": "두꺼운 토스트 속을 파내 크림 스튜를 채운 타이난 간식",
@@ -5270,7 +5294,13 @@
   "perth:Fish and Chips": {
     "ko": "프리맨틀 어항에서 맛보는 서호주식 생선 튀김과 감자튀김",
     "en": "Fish and chips at the Fremantle Fishing Boat Harbour",
-    "ja": "フリーマントルの漁港で味わう西オーストラリアのフィッシュ・アンド・チップス"
+    "ja": "フリーマントルの漁港で味わう西オーストラリアのフィッシュ・アンド・チップス",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Deluxe_Fish_%26_Chips%2C_Cicerello's_Fremantle%2C_2026_(01).jpg/960px-Deluxe_Fish_%26_Chips%2C_Cicerello's_Fremantle%2C_2026_(01).jpg",
+      "author": "Bahnfrend",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Deluxe_Fish_%26_Chips,_Cicerello%27s_Fremantle,_2026_(01).jpg"
+    }
   },
   "perth:Western Rock Lobster": {
     "ko": "서호주 해안에서 잡히는 가시닭새우 요리",
@@ -6102,7 +6132,13 @@
   "york:Yorkshire Pudding": {
     "ko": "로스트 고기와 그레이비에 곁들이는 부풀린 구운 반죽",
     "en": "Puffed baked batter served with roast meat and gravy",
-    "ja": "ローストした肉とグレイビーに添える、膨らませて焼いた生地"
+    "ja": "ローストした肉とグレイビーに添える、膨らませて焼いた生地",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/YorkshirePudding.jpg/960px-YorkshirePudding.jpg",
+      "author": "Mr Barndoor",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:YorkshirePudding.jpg"
+    }
   },
   "leipzig:Leipziger Lerche": {
     "ko": "마지팬과 딸기잼을 채운 종다리 모양 과자",

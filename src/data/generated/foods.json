@@ -14968,6 +14968,12 @@
       "en": "British-style tea with scones, sandwiches and local seafood",
       "ja": "スコーンやサンドイッチ、地元の海産物を添えたイギリス式のティータイム"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/High_tea_at_the_Empress_Hotel.jpg/960px-High_tea_at_the_Empress_Hotel.jpg",
+      "author": "EvinDC",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:High_tea_at_the_Empress_Hotel.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -15513,6 +15519,12 @@
       "ko": "전통 찻집에서 즐기는 영국식 오후 차",
       "en": "Traditional English afternoon tea",
       "ja": "伝統的なティールームで楽しむイギリス式のティータイム"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Scones_and_tea.jpg/960px-Scones_and_tea.jpg",
+      "author": "AlphaLemur",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Scones_and_tea.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],

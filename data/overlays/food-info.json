@@ -5934,7 +5934,13 @@
   "victoria:Fish and Chips": {
     "ko": "피셔맨스 워프에서 맛보는 생선 튀김과 감자튀김",
     "en": "Fish and chips at Fisherman’s Wharf",
-    "ja": "フィッシャーマンズ・ワーフで味わうフィッシュ・アンド・チップス"
+    "ja": "フィッシャーマンズ・ワーフで味わうフィッシュ・アンド・チップス",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Gluten_Free_fish_and_chips_(7146612767).jpg/960px-Gluten_Free_fish_and_chips_(7146612767).jpg",
+      "author": "Jen Arrr",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Gluten_Free_fish_and_chips_(7146612767).jpg"
+    }
   },
   "austin:Brisket Barbecue": {
     "ko": "오랜 시간 훈연한 소 양지 바비큐",
@@ -6003,7 +6009,13 @@
   "nashville:Southern Fried Chicken": {
     "ko": "미트 앤드 스리 식당의 대표 메뉴인 남부식 프라이드치킨",
     "en": "Southern fried chicken, a meat-and-three staple",
-    "ja": "ミート・アンド・スリー食堂の定番、南部風フライドチキン"
+    "ja": "ミート・アンド・スリー食堂の定番、南部風フライドチキン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Princes_hot_chicken.jpg/960px-Princes_hot_chicken.jpg",
+      "author": "Sean Russell",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Princes_hot_chicken.jpg"
+    }
   },
   "edmonton:Green Onion Cake": {
     "ko": "파를 넣어 바삭하게 부친 에드먼턴 명물 전",
@@ -6041,7 +6053,13 @@
   "winnipeg:Perogies": {
     "ko": "구운 양파와 베이컨을 곁들인 우크라이나식 만두",
     "en": "Ukrainian dumplings with fried onions and bacon",
-    "ja": "炒めた玉ねぎとベーコンを添えたウクライナ風の餃子"
+    "ja": "炒めた玉ねぎとベーコンを添えたウクライナ風の餃子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Perogies_(3009985278).jpg/960px-Perogies_(3009985278).jpg",
+      "author": "Geoff Peters",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Perogies_(3009985278).jpg"
+    }
   },
   "winnipeg:Farmer’s Sausage": {
     "ko": "메노나이트 이민자가 전한 냉훈제 돼지고기 소시지",

@@ -4833,7 +4833,13 @@
   "queenstown:Venison Pie": {
     "ko": "사슴고기를 넣어 구운 뉴질랜드식 파이",
     "en": "New Zealand-style pie filled with venison",
-    "ja": "鹿肉を入れて焼いたニュージーランド風のパイ"
+    "ja": "鹿肉を入れて焼いたニュージーランド風のパイ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Peregrine_Pie.jpg/960px-Peregrine_Pie.jpg",
+      "author": "Ossewa",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Peregrine_Pie.jpg"
+    }
   },
   "innsbruck:Tiroler Gröstl": {
     "ko": "감자와 양파, 훈제 고기를 함께 볶은 티롤 전통 요리",
@@ -5541,7 +5547,13 @@
   "adelaide:Barossa Pasty": {
     "ko": "고기와 채소를 채운 바로사 지역 전통 파이",
     "en": "Traditional Barossa meat-and-vegetable pasty",
-    "ja": "肉と野菜を詰めたバロッサ地方の伝統的なパイ"
+    "ja": "肉と野菜を詰めたバロッサ地方の伝統的なパイ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Australian_pasties.jpg/960px-Australian_pasties.jpg",
+      "author": "Hippietrail",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Australian_pasties.jpg"
+    }
   },
   "liverpool:Scouse": {
     "ko": "양고기나 소고기에 감자·당근·양파를 넣고 끓인 리버풀 대표 스튜",

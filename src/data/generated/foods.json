@@ -1501,6 +1501,12 @@
       "en": "Traditional Barossa meat-and-vegetable pasty",
       "ja": "肉と野菜を詰めたバロッサ地方の伝統的なパイ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Australian_pasties.jpg/960px-Australian_pasties.jpg",
+      "author": "Hippietrail",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Australian_pasties.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -11841,6 +11847,12 @@
       "ko": "사슴고기를 넣어 구운 뉴질랜드식 파이",
       "en": "New Zealand-style pie filled with venison",
       "ja": "鹿肉を入れて焼いたニュージーランド風のパイ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Peregrine_Pie.jpg/960px-Peregrine_Pie.jpg",
+      "author": "Ossewa",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Peregrine_Pie.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],

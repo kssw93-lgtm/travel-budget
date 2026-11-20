@@ -5667,7 +5667,13 @@
   "toulouse:Violet Sweets": {
     "ko": "툴루즈의 상징인 제비꽃으로 만든 사탕과 과자",
     "en": "Candies and treats made with Toulouse’s emblem violet",
-    "ja": "トゥールーズのシンボルのスミレで作ったキャンディーやお菓子"
+    "ja": "トゥールーズのシンボルのスミレで作ったキャンディーやお菓子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Violettes_de_Toulouse.jpg/960px-Violettes_de_Toulouse.jpg",
+      "author": "Yummyk",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Violettes_de_Toulouse.jpg"
+    }
   },
   "cairns:Barramundi": {
     "ko": "지역 식당의 ‘오늘의 생선’으로 자주 나오는 열대 흰살생선",
@@ -6884,7 +6890,13 @@
   "montpellier:Bouzigues Oysters": {
     "ko": "근교 토 석호에서 기른 굴",
     "en": "Oysters from the nearby Thau lagoon",
-    "ja": "近郊のトー潟で育てたカキ"
+    "ja": "近郊のトー潟で育てたカキ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Hu%C3%AEtres_de_Bouzigues_(%C3%A9tang_de_Thau).jpg/960px-Hu%C3%AEtres_de_Bouzigues_(%C3%A9tang_de_Thau).jpg",
+      "author": "INRA DIST",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Hu%C3%AEtres_de_Bouzigues_(%C3%A9tang_de_Thau).jpg"
+    }
   },
   "montpellier:Tielle Sétoise": {
     "ko": "토마토 소스로 버무린 오징어를 채운 세트식 파이",
@@ -6976,7 +6988,13 @@
   "tsushima:Tsushima Conger Eel": {
     "ko": "대마도산 붕장어를 전문으로 다루는 지역 식당이 소개하는 향토 식재료 요리입니다.",
     "en": "A local speciality featuring conger eel from Tsushima, highlighted by a restaurant specialising in anago.",
-    "ja": "あなごを専門に扱う地元店が紹介する、対馬産あなごの料理です。"
+    "ja": "あなごを専門に扱う地元店が紹介する、対馬産あなごの料理です。",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/GrilledCongridae.jpg/960px-GrilledCongridae.jpg",
+      "author": "ayustety",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:GrilledCongridae.jpg"
+    }
   },
   "tsushima:Iriyaki": {
     "ko": "대마도 향토요리로, 지역 식당 메뉴에 이리야키 정식과 소바가 올라 있습니다.",

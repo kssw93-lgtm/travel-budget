@@ -10828,6 +10828,12 @@
       "en": "Fries with cheese curds and gravy",
       "ja": "フライドポテトにチーズカードとグレイビーをかけたカナダ料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Ottawa_-_poutine_..._(2088775486).jpg/960px-Ottawa_-_poutine_..._(2088775486).jpg",
+      "author": "abdallahh from Montréal, Canada",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ottawa_-_poutine_..._(2088775486).jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -10995,6 +11001,12 @@
       "ko": "서호주 민물에 사는 큰 가재로, 레스토랑에서 맛볼 수 있습니다",
       "en": "Western Australia’s freshwater crayfish, served in restaurants",
       "ja": "西オーストラリアの淡水に住む大きなザリガニで、レストランで味わえます"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Marron_at_Quay.jpg/960px-Marron_at_Quay.jpg",
+      "author": "Charles Haynes",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Marron_at_Quay.jpg"
     },
     "budgetBand": "고",
     "linkedPriceIds": [],
@@ -12319,6 +12331,12 @@
       "ko": "튀겨서 부풀린 토르티야에 속을 채운 타코",
       "en": "Tacos in a fried, puffed tortilla shell",
       "ja": "揚げて膨らませたトルティーヤに具を詰めたタコス"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Puffy_taco.jpg/960px-Puffy_taco.jpg",
+      "author": "y6y6y6",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Puffy_taco.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -15052,6 +15070,12 @@
       "en": "Fish and chips by the sea",
       "ja": "海辺の町で味わうフィッシュ・アンド・チップス"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Fish_and_chips_-_Wellington%2C_New_Zealand.jpg/960px-Fish_and_chips_-_Wellington%2C_New_Zealand.jpg",
+      "author": "Daderot",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Fish_and_chips_-_Wellington,_New_Zealand.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -15201,6 +15225,12 @@
       "ko": "건포도와 체리, 아몬드를 얹은 큼직한 스콘 과자",
       "en": "Large fruity scone-like bun with cherries and almonds",
       "ja": "干しぶどうやチェリー、アーモンドをのせた大きなスコーン風の焼き菓子"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Fat_Rascal_cookies.jpg/960px-Fat_Rascal_cookies.jpg",
+      "author": "Wendy Slattery",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Fat_Rascal_cookies.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],

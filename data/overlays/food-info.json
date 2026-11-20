@@ -5172,7 +5172,13 @@
   "washington-dc:Chesapeake Blue Crab": {
     "ko": "인근 체서피크만에서 잡히는 푸른 꽃게 요리",
     "en": "Blue crab from the nearby Chesapeake Bay",
-    "ja": "近くのチェサピーク湾でとれるブルークラブの料理"
+    "ja": "近くのチェサピーク湾でとれるブルークラブの料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Maryland_blue_crabs.jpg/960px-Maryland_blue_crabs.jpg",
+      "author": "bigbirdz",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Maryland_blue_crabs.jpg"
+    }
   },
   "boston:New England Clam Chowder": {
     "ko": "조개와 감자를 크림 수프로 끓인 보스턴 대표 음식",
@@ -6596,7 +6602,13 @@
   "tartu:Black Bread (Must Leib)": {
     "ko": "호밀로 만든 에스토니아 전통 흑빵",
     "en": "Traditional Estonian dark rye bread",
-    "ja": "ライ麦で作るエストニアの伝統的な黒パン"
+    "ja": "ライ麦で作るエストニアの伝統的な黒パン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kala%26Leib_t%C3%A4istera_rukkileib.jpg/960px-Kala%26Leib_t%C3%A4istera_rukkileib.jpg",
+      "author": "Kala&Leib",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kala%26Leib_t%C3%A4istera_rukkileib.jpg"
+    }
   },
   "tartu:Kama": {
     "ko": "보리·호밀·귀리·완두 가루를 발효유에 섞어 먹는 음식",

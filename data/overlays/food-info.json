@@ -1388,7 +1388,13 @@
   "jeonju:Jeonju Choco Pie": {
     "ko": "한옥마을에서 파는 수제 초코파이 등 길거리 간식",
     "en": "Handmade choco pies and street snacks in Jeonju Hanok Village",
-    "ja": "全州韓屋村で売られる手作りチョコパイなどの食べ歩きおやつ"
+    "ja": "全州韓屋村で売られる手作りチョコパイなどの食べ歩きおやつ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Korean_Chocopie.jpg/960px-Korean_Chocopie.jpg",
+      "author": "ProjectManhattan",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Korean_Chocopie.jpg"
+    }
   },
   "nha-trang:Banh Can": {
     "ko": "작은 틀에 구운 쌀 반죽 위에 달걀·해산물을 올려 소스에 찍어 먹는 나트랑 간식",
@@ -4521,7 +4527,13 @@
   "lyon:Praline Tart": {
     "ko": "분홍색 설탕 아몬드(프랄린)를 녹여 만든 리옹 디저트",
     "en": "Tart of melted pink sugared almonds, a Lyon dessert",
-    "ja": "ピンク色の砂糖がけアーモンド（プラリーヌ）を溶かして作るリヨンのタルト"
+    "ja": "ピンク色の砂糖がけアーモンド（プラリーヌ）を溶かして作るリヨンのタルト",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tartes_%C3%A0_la_praline%2C_aux_halles_Paul_Bocuse_%C3%A0_Lyon.jpg/960px-Tartes_%C3%A0_la_praline%2C_aux_halles_Paul_Bocuse_%C3%A0_Lyon.jpg",
+      "author": "Benoît Prieur",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tartes_à_la_praline,_aux_halles_Paul_Bocuse_à_Lyon.jpg"
+    }
   },
   "quebec-city:Poutine": {
     "ko": "감자튀김에 치즈 커드와 그레이비 소스를 얹은 퀘벡 대표 음식",
@@ -5301,7 +5313,13 @@
   "seattle:Grilled Wild Salmon": {
     "ko": "태평양 북서부에서 잡은 자연산 연어 구이",
     "en": "Wild Pacific Northwest salmon, grilled",
-    "ja": "太平洋北西部でとれた天然サーモンのグリル"
+    "ja": "太平洋北西部でとれた天然サーモンのグリル",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Grilled_salmon_in_restaurant.jpg/960px-Grilled_salmon_in_restaurant.jpg",
+      "author": "exilexi",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Grilled_salmon_in_restaurant.jpg"
+    }
   },
   "perth:Fish and Chips": {
     "ko": "프리맨틀 어항에서 맛보는 서호주식 생선 튀김과 감자튀김",
@@ -5649,7 +5667,13 @@
   "verona:Pandoro": {
     "ko": "별 모양의 베로나 전통 크리스마스 빵",
     "en": "Verona’s star-shaped Christmas sweet bread",
-    "ja": "星形をしたヴェローナの伝統的なクリスマスの菓子パン"
+    "ja": "星形をしたヴェローナの伝統的なクリスマスの菓子パン",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pandoro_di_Verona.jpg/960px-Pandoro_di_Verona.jpg",
+      "author": "Garonzi Stefania",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pandoro_di_Verona.jpg"
+    }
   },
   "thessaloniki:Bougatsa": {
     "ko": "필로 반죽에 세몰리나 크림이나 치즈를 넣어 구운 아침 빵",
@@ -6120,7 +6144,13 @@
   "san-antonio:Fajitas": {
     "ko": "구운 고기와 채소를 토르티야에 싸 먹는 텍스멕스 요리",
     "en": "Grilled meat and peppers wrapped in tortillas",
-    "ja": "焼いた肉と野菜をトルティーヤで包んで食べるテクスメクス料理"
+    "ja": "焼いた肉と野菜をトルティーヤで包んで食べるテクスメクス料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fajitas.jpg/960px-Fajitas.jpg",
+      "author": "FranksValli",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Fajitas.jpg"
+    }
   },
   "bath:Sally Lunn Bun": {
     "ko": "가볍고 부드러운 브리오슈 스타일의 바스 명물 빵",
@@ -6310,7 +6340,13 @@
   "lausanne:Cheese Fondue": {
     "ko": "두 가지 치즈를 섞어 녹인 퐁뒤",
     "en": "Melted cheese fondue, often half-and-half",
-    "ja": "2種類のチーズを溶かしたフォンデュ"
+    "ja": "2種類のチーズを溶かしたフォンデュ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Cheese_fondue_in_front_of_the_Matterhorn.jpg/960px-Cheese_fondue_in_front_of_the_Matterhorn.jpg",
+      "author": "Jeremy Blatti",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cheese_fondue_in_front_of_the_Matterhorn.jpg"
+    }
   },
   "lausanne:Carac": {
     "ko": "보주 색인 초록색 아이싱을 올린 작은 타르트",
@@ -6517,7 +6553,13 @@
   "tartu:Kama": {
     "ko": "보리·호밀·귀리·완두 가루를 발효유에 섞어 먹는 음식",
     "en": "Roasted grain-flour mix eaten with sour milk",
-    "ja": "大麦・ライ麦・オーツ麦・エンドウ豆の粉を発酵乳に混ぜて食べる料理"
+    "ja": "大麦・ライ麦・オーツ麦・エンドウ豆の粉を発酵乳に混ぜて食べる料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Kama.jpg/960px-Kama.jpg",
+      "author": "Mmh",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kama.jpg"
+    }
   },
   "tartu:Mulgi Korp": {
     "ko": "코후피임(쿼크)과 달걀·설탕을 채운 빵",
@@ -6604,7 +6646,13 @@
   "san-sebastian:Gilda": {
     "ko": "고추·멸치·올리브를 꼬치에 꽂은 매콤한 핀초",
     "en": "Spicy skewer of pepper, anchovy and olives",
-    "ja": "唐辛子・アンチョビ・オリーブを串に刺したピリ辛のピンチョス"
+    "ja": "唐辛子・アンチョビ・オリーブを串に刺したピリ辛のピンチョス",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Gildas_en_Donostia.jpg/960px-Gildas_en_Donostia.jpg",
+      "author": "Biskuit",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Gildas_en_Donostia.jpg"
+    }
   },
   "san-sebastian:Battered Cod with Pil-Pil": {
     "ko": "필필 소스를 곁들인 대구 튀김 핀초",
@@ -6797,7 +6845,13 @@
   "sao-paulo:Bauru sandwich": {
     "ko": "로스트비프와 녹인 치즈, 토마토, 피클을 넣는 상파울루식 샌드위치입니다.",
     "en": "A São Paulo sandwich filled with roast beef, melted cheese, tomato and pickles.",
-    "ja": "ローストビーフ、溶かしたチーズ、トマト、ピクルスを挟むサンパウロ発祥のサンドイッチです。"
+    "ja": "ローストビーフ、溶かしたチーズ、トマト、ピクルスを挟むサンパウロ発祥のサンドイッチです。",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sandu%C3%ADche_Bauru.jpg/960px-Sandu%C3%ADche_Bauru.jpg",
+      "author": "Rodrigoalves11",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sanduíche_Bauru.jpg"
+    }
   },
   "sao-paulo:Cuscuz Paulista": {
     "ko": "옥수수 가루를 기본으로 여러 재료를 넣어 굳혀 내는 상파울루식 쿠스쿠스입니다.",
@@ -6813,7 +6867,13 @@
   "sao-paulo:Mortadella sandwich": {
     "ko": "시립 시장 메르카당의 바 두 마네가 대표 메뉴로 소개하는 모르타델라 샌드위치입니다.",
     "en": "A mortadella sandwich highlighted as a signature item at Bar do Mané in the city market, Mercadão.",
-    "ja": "市営市場メルカドンのバール・ド・マネーが名物として紹介するモルタデッラサンドイッチです。"
+    "ja": "市営市場メルカドンのバール・ド・マネーが名物として紹介するモルタデッラサンドイッチです。",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Sandu%C3%ADche_de_Mortadela_(Mercado_Municipal_de_S%C3%A3o_Paulo).jpg/960px-Sandu%C3%ADche_de_Mortadela_(Mercado_Municipal_de_S%C3%A3o_Paulo).jpg",
+      "author": "Eugenio Hansen, OFS",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sanduíche_de_Mortadela_(Mercado_Municipal_de_São_Paulo).jpg"
+    }
   },
   "abu-dhabi:Harees": {
     "ko": "밀과 고기를 천천히 익혀 죽처럼 만든 에미리트 전통 요리입니다.",

@@ -2341,6 +2341,12 @@
       "en": "Soft cheese made near Bath",
       "ja": "バース近郊で作られる柔らかいチーズ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Ch%C3%A8vre_affin%C3%A9_cr%C3%A9meux.jpg/960px-Ch%C3%A8vre_affin%C3%A9_cr%C3%A9meux.jpg",
+      "author": "Véronique PAGNIER",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A8vre_affin%C3%A9_cr%C3%A9meux.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -3509,6 +3515,12 @@
       "en": "Winter dishes with local black truffles",
       "ja": "近郊の農園でとれる黒トリュフを使った冬の料理"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Tagliatelle_al_tartufo.jpg/960px-Tagliatelle_al_tartufo.jpg",
+      "author": "GastRomagna",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tagliatelle_al_tartufo.jpg"
+    },
     "budgetBand": "고",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -3550,6 +3562,12 @@
       "ko": "와이너리 레스토랑에서 맛보는 훈제 고기·생선 요리",
       "en": "Smoked meats and fish at winery restaurants",
       "ja": "ワイナリーのレストランで味わう燻製の肉や魚の料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Buffet_table_with_smoked_meat_and_cheese_plate%2C_appetizers_and_other_finger_food_-_Flickr_-_Ivan_Radic.jpg/960px-Buffet_table_with_smoked_meat_and_cheese_plate%2C_appetizers_and_other_finger_food_-_Flickr_-_Ivan_Radic.jpg",
+      "author": "Ivan Radic",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Buffet_table_with_smoked_meat_and_cheese_plate,_appetizers_and_other_finger_food_-_Flickr_-_Ivan_Radic.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],
@@ -7025,6 +7043,12 @@
       "en": "Freshly shucked Tasmanian oysters",
       "ja": "その場で殻をむいてくれるタスマニアのカキ"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Platter_of_oysters.jpg/960px-Platter_of_oysters.jpg",
+      "author": "exilexi",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Platter_of_oysters.jpg"
+    },
     "budgetBand": "중",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -7042,6 +7066,12 @@
       "ko": "마켓에서 맛볼 수 있는 지역 수제 치즈",
       "en": "Local artisan cheeses from the market",
       "ja": "マーケットで味わえる地元の手作りチーズ"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Cheese_platter.jpg/960px-Cheese_platter.jpg",
+      "author": "Dorina Andress (crop: Neutrality)",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cheese_platter.jpg"
     },
     "budgetBand": "저",
     "linkedPriceIds": [],
@@ -9050,6 +9080,12 @@
       "en": "Pastry roll filled with dried pears, figs and nuts",
       "ja": "干し梨・いちじく・ナッツを詰めて焼いたパン菓子"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Birnweggen.jpg/960px-Birnweggen.jpg",
+      "author": "Adrian Michael",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Birnweggen.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -10258,6 +10294,12 @@
       "en": "A Southern plate of one meat and three sides",
       "ja": "肉料理1品とおかず3品を選ぶ南部の定食"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Meat_and_three_at_Arnold's%2C_Nashville.jpg/960px-Meat_and_three_at_Arnold's%2C_Nashville.jpg",
+      "author": "Missy Caulk",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Meat_and_three_at_Arnold%27s,_Nashville.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -11200,6 +11242,12 @@
       "en": "Tacos of mesquite-grilled meats",
       "ja": "メスキートの炭火で焼いた肉をのせたタコス"
     },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tacos_de_carne_asada_Sonorense.jpg/960px-Tacos_de_carne_asada_Sonorense.jpg",
+      "author": "EmmanuelRuiz1988",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tacos_de_carne_asada_Sonorense.jpg"
+    },
     "budgetBand": "저",
     "linkedPriceIds": [],
     "priceStatus": "대기",
@@ -11763,6 +11811,12 @@
       "ko": "근교 목장에서 기른 양고기를 쓴 요리로, 퀸스타운 식당에서 많이 냅니다",
       "en": "Lamb from nearby high-country stations, on many local menus",
       "ja": "近郊の牧場で育った羊肉を使った料理で、クイーンズタウンの多くの店で出されます"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Roast_lamb_leg.jpg/960px-Roast_lamb_leg.jpg",
+      "author": "Beck",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Roast_lamb_leg.jpg"
     },
     "budgetBand": "고",
     "linkedPriceIds": [],
@@ -14007,6 +14061,12 @@
       "ko": "테살로니키 바다에서 나는 홍합으로 지은 밥 요리",
       "en": "Rice cooked with local mussels",
       "ja": "テッサロニキの海でとれたムール貝で炊いたご飯料理"
+    },
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Midyeli_pilav%2C_traditional_Turkish_food.jpg/960px-Midyeli_pilav%2C_traditional_Turkish_food.jpg",
+      "author": "E4024",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Midyeli_pilav,_traditional_Turkish_food.jpg"
     },
     "budgetBand": "중",
     "linkedPriceIds": [],

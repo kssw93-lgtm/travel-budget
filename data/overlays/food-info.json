@@ -4680,7 +4680,13 @@
   "lucerne:Birnenweggen": {
     "ko": "말린 배·무화과·견과류를 채워 구운 루체른식 빵",
     "en": "Pastry roll filled with dried pears, figs and nuts",
-    "ja": "干し梨・いちじく・ナッツを詰めて焼いたパン菓子"
+    "ja": "干し梨・いちじく・ナッツを詰めて焼いたパン菓子",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Birnweggen.jpg/960px-Birnweggen.jpg",
+      "author": "Adrian Michael",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Birnweggen.jpg"
+    }
   },
   "granada:Habas con Jamón": {
     "ko": "잠두콩을 트레벨레스 하몬과 함께 볶은 그라나다 대표 요리",
@@ -4816,7 +4822,13 @@
   "queenstown:New Zealand Lamb": {
     "ko": "근교 목장에서 기른 양고기를 쓴 요리로, 퀸스타운 식당에서 많이 냅니다",
     "en": "Lamb from nearby high-country stations, on many local menus",
-    "ja": "近郊の牧場で育った羊肉を使った料理で、クイーンズタウンの多くの店で出されます"
+    "ja": "近郊の牧場で育った羊肉を使った料理で、クイーンズタウンの多くの店で出されます",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Roast_lamb_leg.jpg/960px-Roast_lamb_leg.jpg",
+      "author": "Beck",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Roast_lamb_leg.jpg"
+    }
   },
   "queenstown:Venison Pie": {
     "ko": "사슴고기를 넣어 구운 뉴질랜드식 파이",
@@ -5724,7 +5736,13 @@
   "thessaloniki:Mussel Pilaf": {
     "ko": "테살로니키 바다에서 나는 홍합으로 지은 밥 요리",
     "en": "Rice cooked with local mussels",
-    "ja": "テッサロニキの海でとれたムール貝で炊いたご飯料理"
+    "ja": "テッサロニキの海でとれたムール貝で炊いたご飯料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Midyeli_pilav%2C_traditional_Turkish_food.jpg/960px-Midyeli_pilav%2C_traditional_Turkish_food.jpg",
+      "author": "E4024",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Midyeli_pilav,_traditional_Turkish_food.jpg"
+    }
   },
   "chengdu:Sichuan Hotpot": {
     "ko": "맵고 얼얼한 국물에 고기와 채소를 데쳐 먹는 쓰촨식 샤부샤부",
@@ -6008,12 +6026,24 @@
   "hobart:Bruny Island Oysters": {
     "ko": "살라만카 마켓에서 바로 까 주는 태즈메이니아 굴",
     "en": "Freshly shucked Tasmanian oysters",
-    "ja": "その場で殻をむいてくれるタスマニアのカキ"
+    "ja": "その場で殻をむいてくれるタスマニアのカキ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Platter_of_oysters.jpg/960px-Platter_of_oysters.jpg",
+      "author": "exilexi",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Platter_of_oysters.jpg"
+    }
   },
   "hobart:Tasmanian Cheese": {
     "ko": "마켓에서 맛볼 수 있는 지역 수제 치즈",
     "en": "Local artisan cheeses from the market",
-    "ja": "マーケットで味わえる地元の手作りチーズ"
+    "ja": "マーケットで味わえる地元の手作りチーズ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Cheese_platter.jpg/960px-Cheese_platter.jpg",
+      "author": "Dorina Andress (crop: Neutrality)",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cheese_platter.jpg"
+    }
   },
   "hobart:Tasmanian Beef": {
     "ko": "방목해 기른 태즈메이니아산 소고기 요리",
@@ -6034,7 +6064,13 @@
   "nashville:Meat and Three": {
     "ko": "고기 요리 하나와 곁들이 세 가지를 고르는 남부식 한 끼",
     "en": "A Southern plate of one meat and three sides",
-    "ja": "肉料理1品とおかず3品を選ぶ南部の定食"
+    "ja": "肉料理1品とおかず3品を選ぶ南部の定食",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Meat_and_three_at_Arnold's%2C_Nashville.jpg/960px-Meat_and_three_at_Arnold's%2C_Nashville.jpg",
+      "author": "Missy Caulk",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Meat_and_three_at_Arnold%27s,_Nashville.jpg"
+    }
   },
   "nashville:Southern Fried Chicken": {
     "ko": "미트 앤드 스리 식당의 대표 메뉴인 남부식 프라이드치킨",
@@ -6171,7 +6207,13 @@
   "phoenix:Sonoran Tacos": {
     "ko": "메스키트 숯불에 구운 고기를 얹은 타코",
     "en": "Tacos of mesquite-grilled meats",
-    "ja": "メスキートの炭火で焼いた肉をのせたタコス"
+    "ja": "メスキートの炭火で焼いた肉をのせたタコス",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tacos_de_carne_asada_Sonorense.jpg/960px-Tacos_de_carne_asada_Sonorense.jpg",
+      "author": "EmmanuelRuiz1988",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tacos_de_carne_asada_Sonorense.jpg"
+    }
   },
   "san-antonio:Puffy Tacos": {
     "ko": "튀겨서 부풀린 토르티야에 속을 채운 타코",
@@ -6231,7 +6273,13 @@
   "bath:Bath Soft Cheese": {
     "ko": "바스 근교에서 만드는 부드러운 치즈",
     "en": "Soft cheese made near Bath",
-    "ja": "バース近郊で作られる柔らかいチーズ"
+    "ja": "バース近郊で作られる柔らかいチーズ",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Ch%C3%A8vre_affin%C3%A9_cr%C3%A9meux.jpg/960px-Ch%C3%A8vre_affin%C3%A9_cr%C3%A9meux.jpg",
+      "author": "Véronique PAGNIER",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A8vre_affin%C3%A9_cr%C3%A9meux.jpg"
+    }
   },
   "york:Yorkshire Fat Rascal": {
     "ko": "건포도와 체리, 아몬드를 얹은 큼직한 스콘 과자",
@@ -6296,7 +6344,13 @@
   "canberra:Truffle Dishes": {
     "ko": "근교 농장에서 나는 흑송로버섯을 쓴 겨울 요리",
     "en": "Winter dishes with local black truffles",
-    "ja": "近郊の農園でとれる黒トリュフを使った冬の料理"
+    "ja": "近郊の農園でとれる黒トリュフを使った冬の料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Tagliatelle_al_tartufo.jpg/960px-Tagliatelle_al_tartufo.jpg",
+      "author": "GastRomagna",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tagliatelle_al_tartufo.jpg"
+    }
   },
   "canberra:Truffle Brie": {
     "ko": "근교 송로버섯을 넣은 트리플 크림 치즈",
@@ -6312,7 +6366,13 @@
   "canberra:Smokehouse Fare": {
     "ko": "와이너리 레스토랑에서 맛보는 훈제 고기·생선 요리",
     "en": "Smoked meats and fish at winery restaurants",
-    "ja": "ワイナリーのレストランで味わう燻製の肉や魚の料理"
+    "ja": "ワイナリーのレストランで味わう燻製の肉や魚の料理",
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Buffet_table_with_smoked_meat_and_cheese_plate%2C_appetizers_and_other_finger_food_-_Flickr_-_Ivan_Radic.jpg/960px-Buffet_table_with_smoked_meat_and_cheese_plate%2C_appetizers_and_other_finger_food_-_Flickr_-_Ivan_Radic.jpg",
+      "author": "Ivan Radic",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Buffet_table_with_smoked_meat_and_cheese_plate,_appetizers_and_other_finger_food_-_Flickr_-_Ivan_Radic.jpg"
+    }
   },
   "wellington:Flat White": {
     "ko": "웰링턴 카페 문화를 대표하는 우유 커피",

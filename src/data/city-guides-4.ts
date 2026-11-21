@@ -269,6 +269,7 @@ export const NOTES_EXTRA: Record<string, Compact> = {
     h: [
       ['모에스고르 박물관', 'Moesgaard Museum', 'モースゴー博物館', '고고학·민족지 전시를 건축과 연결해 보여 주는 박물관으로, 선사시대부터 바이킹 시대까지 다룹니다.', 'A museum integrating archaeology and ethnography with its architecture, covering prehistory through the Viking Age.', '建築と一体化した考古学・民族誌の博物館で、先史時代からヴァイキング時代までを扱います。'],
       ['도크원 문화의 집', 'Dokk1 Culture House', 'ドックワン文化施設', '항구와 도심이 만나는 곳의 공공 문화시설로, 도서관·전시·놀이 공간과 해안 산책을 함께 즐길 수 있습니다. 행사에 따라 일부 공간은 이용 조건이 다를 수 있습니다.', 'A public cultural centre where harbour and city meet, with a library, exhibitions, play spaces and waterfront walks. Access to some areas may vary during events.', '港と市街地が接する場所にある公共文化施設で、図書館や展示、遊び場、海辺の散策を楽しめます。催しによって一部エリアの利用条件が異なる場合があります。'],
+      ['오르후스 자연사박물관', 'Aarhus Natural History Museum', 'オーフス自然史博物館', '자연사 상설 전시와 기획 전시를 둘러볼 수 있는 박물관입니다. 18세 미만은 무료이며, 월요일은 일부 학교 방학 기간을 제외하고 휴관합니다.', 'Explore permanent and changing natural-history exhibitions. Admission is free for under-18s; the museum is normally closed on Mondays except selected school-holiday weeks.', '自然史の常設展と企画展を見学できる博物館です。18歳未満は無料で、月曜日は一部の学校休暇期間を除き休館します。'],
     ],
     t: [],
   },

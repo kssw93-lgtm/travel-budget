@@ -44,7 +44,7 @@ describe('파일럿 도시 데이터 상태', () => {
     );
     expect(table).toMatchInlineSnapshot(`
       {
-        "aarhus": "3/1/1 · 100% · ready",
+        "aarhus": "3/1/3 · 100% · ready",
         "abu-dhabi": "3/1/3 · 100% · ready",
         "adelaide": "4/1/3 · 100% · ready",
         "almaty": "3/1/3 · 100% · ready",
@@ -76,7 +76,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "canberra": "4/1/2 · 100% · ready",
         "cancun": "3/1/3 · 100% · ready",
         "cebu": "3/4/4 · 100% · ready",
-        "chengdu": "4/1/1 · 100% · ready",
+        "chengdu": "4/1/2 · 100% · ready",
         "chiang-mai": "3/1/3 · 100% · ready",
         "chicago": "10/1/3 · 100% · ready",
         "christchurch": "4/1/2 · 100% · ready",
@@ -147,7 +147,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "macau": "4/3/3 · 100% · ready",
         "madrid": "6/9/3 · 100% · ready",
         "malmo": "3/1/1 · 100% · ready",
-        "manchester": "15/1/2 · 100% · ready",
+        "manchester": "15/1/3 · 100% · ready",
         "marseille": "4/1/3 · 100% · ready",
         "melbourne": "4/10/3 · 100% · ready",
         "mexico-city": "3/1/2 · 100% · ready",
@@ -247,7 +247,7 @@ describe('파일럿 도시 데이터 상태', () => {
     );
     expect(table).toMatchInlineSnapshot(`
       {
-        "aarhus": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 1/1 · souvenir 0/0",
+        "aarhus": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "abu-dhabi": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "adelaide": "pass 0/0 · ride 1/1 · meal 4/4 · snack 2/2 · attraction 3/3 · souvenir 0/0",
         "almaty": "pass 0/0 · ride 1/1 · meal 3/3 · snack 2/2 · attraction 3/3 · souvenir 0/0",
@@ -279,7 +279,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "canberra": "pass 0/0 · ride 1/1 · meal 4/4 · snack 2/2 · attraction 2/2 · souvenir 0/0",
         "cancun": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "cebu": "pass 0/0 · ride 4/4 · meal 3/3 · snack 4/4 · attraction 4/6 · souvenir 0/0",
-        "chengdu": "pass 0/0 · ride 1/1 · meal 4/4 · snack 3/3 · attraction 1/1 · souvenir 0/0",
+        "chengdu": "pass 0/0 · ride 1/1 · meal 4/4 · snack 3/3 · attraction 2/2 · souvenir 0/0",
         "chiang-mai": "pass 0/0 · ride 1/1 · meal 3/3 · snack 4/4 · attraction 3/3 · souvenir 0/0",
         "chicago": "pass 0/0 · ride 1/1 · meal 10/10 · snack 12/12 · attraction 3/3 · souvenir 0/0",
         "christchurch": "pass 0/0 · ride 1/1 · meal 4/4 · snack 3/3 · attraction 2/2 · souvenir 0/0",
@@ -350,7 +350,7 @@ describe('파일럿 도시 데이터 상태', () => {
         "macau": "pass 0/0 · ride 3/3 · meal 4/4 · snack 0/0 · attraction 3/3 · souvenir 0/0",
         "madrid": "pass 0/0 · ride 9/9 · meal 6/6 · snack 5/5 · attraction 3/3 · souvenir 0/0",
         "malmo": "pass 1/1 · ride 0/0 · meal 3/3 · snack 3/3 · attraction 1/1 · souvenir 0/0",
-        "manchester": "pass 0/0 · ride 1/1 · meal 15/16 · snack 7/7 · attraction 2/2 · souvenir 0/0",
+        "manchester": "pass 0/0 · ride 1/1 · meal 15/16 · snack 7/7 · attraction 3/3 · souvenir 0/0",
         "marseille": "pass 0/0 · ride 1/1 · meal 4/4 · snack 3/3 · attraction 3/3 · souvenir 0/0",
         "melbourne": "pass 0/0 · ride 10/11 · meal 4/4 · snack 2/2 · attraction 3/3 · souvenir 0/0",
         "mexico-city": "pass 0/0 · ride 1/1 · meal 3/3 · snack 3/3 · attraction 2/2 · souvenir 0/0",

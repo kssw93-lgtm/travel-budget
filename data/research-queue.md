@@ -2045,6 +2045,8 @@
 | CJU-FD-902 | 제주 | 이춘옥원조고등어쌈밥 제주애월본점 전복뚝배기 1인 | 17000 KRW | B | 예 | B등급, 재검증 | [이춘옥원조고등어쌈밥 제주애월본점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/19872990/menu/list) |
 | CJU-FD-903 | 제주 | 협재수우동 협재점 자작냉우동 | 15500 KRW | B | 예 | B등급, 재검증 | [협재수우동 협재점 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/36823910/menu/list) |
 | CJU-FD-904 | 제주 | 한라산아래첫마을 제주메밀 비비작작면 | 16000 KRW | B | 예 | B등급, 재검증 | [한라산아래첫마을 영농조합법인 네이버 플레이스 업주 등록 메뉴](https://m.place.naver.com/restaurant/363214380/menu/list) |
+| KYO-AT-501 | 교토 | 교토 철도박물관 입장료(성인) | 1500~1900 JPY | A | 예 | 재검증 | [京都鉄道博物館](https://www.kyotorailwaymuseum.jp/guide/) |
+| KYO-AT-502 | 교토 | 교토 철도박물관 입장료(초등학생) | 500~600 JPY | A | 예 | 재검증 | [京都鉄道博物館](https://www.kyotorailwaymuseum.jp/guide/) |
 | MAN-AT-501 | 맨체스터 | 국립축구박물관 성인 입장료 | 16~18 GBP | A | 예 | 재검증 | [National Football Museum](https://nationalfootballmuseum.com/visit-us/) |
 | MAN-AT-502 | 맨체스터 | 국립축구박물관 아동 입장료 | 10~12 GBP | A | 예 | 재검증 | [National Football Museum](https://nationalfootballmuseum.com/visit-us/) |
 | RIO-FD-501 | 리우데자네이루 | 비아 카리오카 햄버거 클래식 | 38.9 BRL | A | 예 | 재검증 | [Via Carioca 공식 메뉴](https://viacariocario.com.br/) |

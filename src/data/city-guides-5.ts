@@ -109,11 +109,14 @@ export const NOTES_5: Record<string, Compact> = {
       ['아라시야마 대나무숲', 'Arashiyama Bamboo Grove', '嵐山・竹林の小径', '키 큰 대나무 사이로 난 길. 아침 일찍 가면 한산합니다.', 'A path through towering bamboo, quiet early in the morning.', '背の高い竹林の中の小道。朝早く行くとすいています。'],
       ['니조성', 'Nijo Castle', '二条城', '도쿠가와 쇼군의 교토 거처였던 성으로, 걸으면 새 울음소리가 나는 「꾀꼬리 마루」 복도가 유명합니다.', 'The Tokugawa shoguns’ Kyoto residence, famous for its “nightingale floors” that chirp underfoot.', '徳川将軍の京都での居城で、歩くと鳥の鳴き声のような音がする「うぐいす張り」の廊下で知られます。'],
       ['긴카쿠지(은각사)', 'Ginkaku-ji (Silver Pavilion)', '銀閣寺', '모래로 만든 정원과 이끼 정원이 아름다운 선종 사찰로, 「철학의 길」 산책과 묶어 둘러보기 좋습니다.', 'A Zen temple with sculpted sand and moss gardens, best paired with a walk along the Philosopher’s Path.', '砂の造形と苔の庭が美しい禅寺で、「哲学の道」の散策と合わせて巡るのがおすすめです。'],
+      ['교토 철도박물관', 'Kyoto Railway Museum', '京都鉄道博物館', '실물 철도 차량과 철도 체험 전시를 둘러볼 수 있는 박물관입니다. 운전 시뮬레이터는 입장권과 별도이며 체험권 구매 조건을 미리 확인하세요.', 'Explore railway vehicles and interactive exhibits. The driving simulator requires a separate ticket, so check its booking conditions before visiting.', '実物の鉄道車両や体験型展示を楽しめる博物館です。運転シミュレータは入館券と別料金のため、体験券の購入条件を事前に確認しましょう。'],
     ],
     t: [
       ['시내버스가 매우 붐비니 지하철·JR·게이한 등 철도를 섞어 다니면 빠릅니다.', 'City buses get packed; mixing in the subway and rail lines is faster.', '市バスはとても混むので、地下鉄やJR・京阪などの鉄道を組み合わせると速いです。'],
       ['기온 지역에서는 게이코·마이코를 허락 없이 촬영하지 마세요. 일부 사유지 골목은 촬영 금지입니다.', 'Do not photograph geiko or maiko without permission in Gion; some private lanes ban photos.', '祇園では芸妓・舞妓を無断で撮影しないでください。一部の私道は撮影禁止です。'],
       ['공항에서 시내: 교토에는 공항이 없어 보통 간사이 공항을 이용합니다. JR 특급 하루카를 타면 갈아타지 않고 교토역까지 갑니다.', 'Airport to city: Kyoto has no airport, so most travellers use Kansai Airport; the JR Haruka limited express runs straight to Kyoto Station.', '空港から市内へ：京都には空港がないため関西空港を使うのが一般的です。JR特急はるかなら乗り換えなしで京都駅まで行けます。'],
+      ['철도박물관은 JR 교토역에서 사가노선으로 한 정거장인 우메코지교토니시역에서 내려 도보 약 2분입니다. 교토역에서 걸으면 중앙 출구 기준 약 20분입니다.', 'For the Railway Museum, take the Sagano Line one stop from Kyoto Station to Umekoji-Kyotonishi; it is about a 2-minute walk from there. Walking from Kyoto Station takes about 20 minutes from the central exit.', '鉄道博物館へは京都駅から嵯峨野線で1駅の梅小路京都西駅で下車し、徒歩約2分です。京都駅中央口から歩く場合は約20分です。'],
+      ['교토 철도박물관은 보통 수요일과 12월 30일~1월 1일에 휴관하며, 공휴일·학교 방학에는 수요일도 개관하는 경우가 있습니다. 방문 날짜의 공식 달력을 확인하세요.', 'Kyoto Railway Museum is normally closed on Wednesdays and December 30–January 1, though it may open on Wednesdays during holidays and school breaks. Check the official calendar for your date.', '京都鉄道博物館は通常、水曜日と12月30日～1月1日が休館です。祝日や学校休暇中は水曜日も開館する場合があるため、訪問日の公式カレンダーを確認してください。'],
     ],
   },
   okinawa: {

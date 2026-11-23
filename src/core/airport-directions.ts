@@ -77,7 +77,8 @@ const AIRPORT_ORIGINS: Record<string, AirportOrigin[]> = {
   'kota-kinabalu': [{
     label: 'Kota Kinabalu International Airport (BKI)',
     query: 'Kota Kinabalu International Airport Terminal 1',
-    boardingQuery: 'Kota Kinabalu International Airport Terminal 1 Level 1 express bus counter',
+    boardingQuery: 'BAS.MY KKIA bus stop Kota Kinabalu International Airport',
+    officialRouteMapUrl: 'https://jaguhbayu.com.my/BAS.MY-KotaKinabalu/routes',
     officialBoardingMapUrl: 'https://mahbseadrmprodsa.blob.core.windows.net/passenger-prod-cms/2024-06/KotaKinabalu-Airport-Guide-compressed.pdf',
   }],
   kyoto: [{ label: 'Kansai International Airport', query: 'Kansai International Airport' }],

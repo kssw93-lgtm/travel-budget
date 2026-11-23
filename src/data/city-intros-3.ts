@@ -158,8 +158,9 @@ export const INTROS_3: Record<string, Intro> = {
     o: ['보르네오섬의 해안 도시로, 붉게 물드는 석양과 섬 호핑, 반딧불·맹그로브 투어, 키나발루산이 매력입니다. 시내가 작아 투어 업체 픽업을 이용하면 편합니다.', 'A Borneo coastal city of fiery sunsets, island hopping, firefly and mangrove tours, and Mount Kinabalu. The town is compact, and tours pick you up from your hotel.', 'ボルネオ島の海辺の街で、真っ赤な夕日やアイランドホッピング、ホタル・マングローブツアー、キナバル山が魅力。市内は小さく、ツアーの送迎を使うと便利です。'],
     d: [3, 4],
     s: [
-      ['시내(워터프런트)', 'Downtown waterfront', '市内（ウォーターフロント）', '야시장과 석양 명소, 섬 가는 선착장이 가깝습니다.', 'Near the night market, sunset spots and island jetty.', 'ナイトマーケットや夕日スポット、島行きの桟橋に近いです。'],
-      ['탄중아루·수트라하버', 'Tanjung Aru / Sutera Harbour', 'タンジュンアル・ステラハーバー', '석양이 보이는 리조트가 모여 있습니다.', 'Resorts facing the sunset.', '夕日が見えるリゾートが集まっています。'],
+      ['가야 거리·시내 워터프런트', 'Gaya Street / City Waterfront', 'ガヤ・ストリート／市内ウォーターフロント', '처음 방문해 시내를 걸어서 둘러보고 싶다면 편한 중심 지역입니다. 가야 거리 시장과 식당가, 제셀턴 포인트·DBKK 섬 선착장에 가깝습니다.', 'A practical central base for a first visit on foot, near Gaya Street’s market and eateries and the Jesselton Point and DBKK island jetties.', '初めての滞在で市内を歩いて回りたい人に便利な中心地区です。ガヤ・ストリートの市場や飲食店、ジェッセルトン・ポイントとDBKKの島行き桟橋に近いです。'],
+      ['수트라 하버·이마고', 'Sutera Harbour / Imago', 'スートラ・ハーバー／イマゴ', '공항에서 오는 BAS.MY S08이 이 지역의 정류장에 섭니다. 호텔 마리나에서 섬 보트를 탈 일정이거나 쇼핑몰과 리조트를 함께 이용할 때 살펴보세요.', 'BAS.MY S08 from the airport stops in this area. Consider it for a resort stay, nearby shopping, or island trips departing from the hotel marina.', '空港発のBAS.MY S08がこの地区の停留所に止まります。ホテルのマリーナから島へ向かう予定や、ショッピングモールとリゾートを利用したい人に向いています。'],
+      ['탄중아루', 'Tanjung Aru', 'タンジュン・アル', '해변 노을과 리조트를 우선할 때 맞는 지역입니다. 가야 거리와 시내 선착장 중심 일정을 함께 잡는다면 왕복 이동 동선을 확인하세요.', 'A good fit when a sunset beach and resort are priorities. If you also plan around Gaya Street and the city jetties, check the return route and travel time.', '夕日を眺めるビーチやリゾートを優先したい人に向く地区です。ガヤ・ストリートや市内の桟橋にも行く予定なら、往復の移動経路を確認しましょう。'],
     ],
   },
   bali: {

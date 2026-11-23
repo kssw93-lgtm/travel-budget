@@ -60,3 +60,7 @@ export function tripPartnerLink(lang: LinkLang, kind: PartnerLinkKind, cityId?: 
   if (kind === 'hotel' && cityId && cityHotelLinks[cityId]) return cityHotelLinks[cityId][lang];
   return links[lang][kind] ?? links.en[kind];
 }
+
+export function hasCitySpecificPartnerLink(kind: PartnerLinkKind, cityId?: string): boolean {
+  return kind === 'hotel' && Boolean(cityId && cityHotelLinks[cityId]);
+}

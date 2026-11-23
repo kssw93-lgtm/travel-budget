@@ -164,8 +164,9 @@ export const INTROS_4: Record<string, Intro> = {
     o: ['르네상스 미술의 중심지로, 두오모와 우피치 미술관, 아카데미아의 다비드상이 대표 명소입니다. 시내가 작아 걸어서 다니고, 피사·시에나·키안티를 당일치기하기 좋습니다.', 'The cradle of Renaissance art: the Duomo, the Uffizi and Michelangelo’s David. The centre is walkable, with easy day trips to Pisa, Siena and Chianti.', 'ルネサンス美術の中心地で、ドゥオーモやウフィツィ美術館、アカデミア美術館のダビデ像が代表的。市内は歩いて回れ、ピサやシエナ、キャンティへ日帰りしやすいです。'],
     d: [2, 3],
     s: [
-      ['두오모 주변', 'Around the Duomo', 'ドゥオーモ周辺', '명소를 모두 걸어서 다닐 수 있습니다.', 'Every sight within walking distance.', 'すべての名所へ歩いて行けます。'],
-      ['산타 마리아 노벨라역 주변', 'Santa Maria Novella Station', 'サンタ・マリア・ノヴェッラ駅周辺', '근교 기차 이동이 편합니다.', 'Handy for day trips by train.', '近郊への列車移動が便利です。'],
+      ['두오모·역사 지구', 'Duomo / Historic Centre', 'ドゥオーモ／歴史地区', '두오모·시뇨리아 광장·우피치 주변을 걸어서 묶고 싶은 첫 방문 여행자에게 편한 중심 지역입니다.', 'A practical central base for a first visit, with the Duomo, Piazza della Signoria and Uffizi area within a walkable sightseeing cluster.', '初めての滞在で、ドゥオーモ、シニョリーア広場、ウフィツィ周辺を徒歩でまとめて巡りたい人に便利な中心地区です。'],
+      ['산타 마리아 노벨라역 주변', 'Santa Maria Novella Station', 'サンタ・マリア・ノヴェッラ駅周辺', '피렌체 SMN역과 중심가 가까이에 있어 기차로 도착하거나 피사·로마 등 도시 간 이동을 일정에 넣을 때 편합니다.', 'Near Firenze Santa Maria Novella station and the centre; useful if you arrive by rail or plan train trips to Pisa, Rome and other cities.', 'フィレンツェSMN駅と中心部に近く、列車で到着する人や、ピサ・ローマなど都市間の移動を予定に入れる人に便利です。'],
+      ['올트라르노·산토 스피리토', 'Oltrarno / Santo Spirito', 'オルトラルノ／サント・スピリト', '아르노강 남쪽의 동네 분위기와 산토 스피리토 광장 주변을 즐기고 싶다면 살펴볼 만합니다. 주요 명소로 오갈 때는 다리 건너 이동을 고려하세요.', 'Consider this area if you want the neighbourhood character around Santo Spirito Square on the south side of the Arno. Factor in the river crossings for central sights.', 'アルノ川南側の街並みやサント・スピリト広場周辺を楽しみたい人に向くエリアです。中心部の名所へ行く際は橋を渡る移動を考慮しましょう。'],
     ],
   },
   venice: {

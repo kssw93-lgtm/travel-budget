@@ -172,6 +172,7 @@ export function Calculator() {
             shopping={parsed.shopping}
           />
           <FoodSection city={city} foods={priceData.foods} />
+          <PartnerBanner cityId={city.id} />
         </>
       ) : (
         <>
@@ -183,7 +184,6 @@ export function Calculator() {
           <RatesNotice rates={rates} display={form.currency} />
         </>
       )}
-      <PartnerBanner cityId={city?.id} />
     </>
   );
 }

@@ -267,10 +267,12 @@ details:not([open]) > summary .toggle-hint .when-open, details[open] > summary .
 .partner-banner-brand { display: grid; min-width: 84px; min-height: 84px; place-items: center; border-radius: 16px; background: var(--brand); color: #fff; font-size: 1rem; font-weight: 800; letter-spacing: -.04em; }
 .partner-banner-copy h2 { margin: 0; }
 .partner-banner-copy p { margin: 5px 0 0; color: var(--muted); }
-.partner-banner-actions { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px; }
-.partner-banner-actions .partner-link-action { justify-content: center; border-color: color-mix(in srgb, var(--brand) 34%, var(--line)); }
+.partner-banner-actions { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: 10px; }
+.partner-banner-option { display: grid; align-content: start; gap: 5px; min-width: 0; }
+.partner-banner-option .partner-link-action { width: 100%; justify-content: center; border-color: color-mix(in srgb, var(--brand) 34%, var(--line)); }
+.partner-link-context { display: block; max-width: 66ch; font-size: .82rem; }
 .partner-banner .partner-link-disclosure { grid-column: 1 / -1; margin: -4px 0 0; }
-@media (max-width: 560px) { .partner-banner-brand { min-width: 64px; min-height: 64px; } .partner-banner-actions .partner-link-action { flex: 1 1 calc(50% - 8px); } }
+@media (max-width: 560px) { .partner-banner-brand { min-width: 64px; min-height: 64px; } }
 
 #christmas { scroll-margin-top: 16px; }
 .when-to-go h2 { margin-top: 0; }

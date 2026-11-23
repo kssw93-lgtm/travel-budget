@@ -306,6 +306,8 @@ function TipsAndCautions({ city }: { city: City }) {
   const airportIndex = airportTipIndex(city.id);
   const safety = travelSafetySource(lang);
   const localTips = note?.tips.map((tip, index) => ({ tip, index })).filter(({ index }) => index !== airportIndex) ?? [];
+  const hasIntercityRailTip = localTips.some(({ tip }) => /도시 간 이동:|between cities:|都市間の移動：|day trip by train|day trips by train|列車で日帰り|電車で日帰り/i.test(`${tip.ko} ${tip.en} ${tip.ja}`));
+  const hasCarRentalTip = localTips.some(({ tip }) => /렌터카|rent a car|rental car|レンタカー/i.test(`${tip.ko} ${tip.en} ${tip.ja}`));
   return (
     <section id="tips" className="card prose city-tips" aria-labelledby="guide-tips-title" data-testid="guide-tips">
       <h2 id="guide-tips-title">{fmt(g.tipsSectionTitle, { city: name })}</h2>
@@ -319,6 +321,8 @@ function TipsAndCautions({ city }: { city: City }) {
               </li>
             ))}
           </ul>
+          {hasIntercityRailTip && <PartnerLink kind="train" />}
+          {hasCarRentalTip && <PartnerLink kind="carRental" />}
         </>
       )}
       {country && (

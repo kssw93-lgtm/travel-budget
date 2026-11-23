@@ -692,3 +692,10 @@
 - BAS.MY 운영사 Jaguh Bayu의 현재 노선도에서 S08이 공항에서 Sutera Harbour·Imago·KK Sentral II를 잇고, S07도 공항을 지나지만 다른 순환 경로임을 확인했다. 가이드에는 현지 승차 베이까지 공식 지도가 보장하지 않는다는 한계를 함께 적었다.
 - Malaysia Airports의 터미널 안내도는 도착층(Level 1)의 안내 카운터와 택시 카운터 위치를 보여 주는 자료로만 연결했다. 실제 버스 승차 지점은 도착일 표지판·공항 직원에게 확인하도록 안내한다.
 - Sabah Tourism Board의 최신 이동 안내에서 Jesselton Point South Jetty, DBKK Jetty와 호텔 마리나 출발점을 확인했고, 공식 가야 거리 시장 안내의 일요일 운영 시간도 반영했다. 숙소 지역을 시내·Sutera Harbour/Imago·Tanjung Aru로 나눠 방문 목적에 따라 고를 수 있게 세 언어를 함께 수정했다.
+
+## 2026-11-23: 예약 제휴 링크를 여행 의도에 맞게 배치
+- 계산 결과 전에는 제휴 링크를 노출하지 않고, 결과가 나온 뒤 계산기에서 비용을 입력하는 항공권·숙소 두 항목만 제공한다. 계산한 출발지·날짜·인원이 Trip.com으로 넘어가지 않는 점을 세 언어로 분명히 알린다.
+- 도시 가이드에서는 관광지 뒤 투어·티켓, 공항 안내 뒤 픽업, 도시 간 열차 이동 팁 뒤 열차표, 렌터카를 명시적으로 권하는 팁 뒤 차량 링크를 보여 주도록 했다. 모든 링크에 용도에 맞는 검색 안내와 제휴 고지를 둔다.
+- 호텔 링크는 이미 Trip.com 제휴 도구에서 생성된 4개 도시 링크만 해당 도시 숙소 목록으로 연결하고, 다른 도시는 제휴 추적 매개변수를 만들거나 수정하지 않은 기존 일반 검색 링크를 유지하면서 목적지 재선택을 안내한다.
+- Trip.com 공식 FAQ는 날짜 지정이 가능한 항공·숙소 딥링크가 아직 제공되지 않으며, 검색 박스 도구는 제휴 플랫폼이 발급한 코드를 사용하도록 안내한다. 따라서 기존 URL에 임의 매개변수를 덧붙이지 않는다. 다음 단계에서 검색 박스를 쓰려면 제휴 계정에서 생성된 코드를 그대로 반영한다.
+- 피렌체 숙소 동네를 두오모 역사 지구·SMN역·올트라르노로 세분하고, 공식 시내 지도에 표시된 명소를 권역별로 묶는 일정 팁을 추가했다. 근거: FeelFlorence 공식 [도보 안내](https://www.feelflorence.it/en/experiences-itineraries/walking-city), [SMN역 안내](https://www.feelflorence.it/it/punti-di-interesse/stazione-di-santa-maria-novella), [산토 스피리토 광장 안내](https://www.feelflorence.it/en/points-interest/piazza-santo-spirito), [시내 지도](https://www.feelflorence.it/sites/default/files/2025-08/FFF_Mappa_A2_Citta_ENG_agg2024-webres_0.pdf).

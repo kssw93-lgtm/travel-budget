@@ -381,6 +381,7 @@ export const ja: Messages = {
       hotel: '一般の宿泊施設検索が開きます。都市・チェックイン／チェックアウト・人数を選択してください。',
       hotelCity: 'この都市の宿泊施設一覧が開きます。チェックイン／チェックアウト・人数はTrip.comで選択してください。',
       tours: '目的地と体験日をTrip.comの検索画面で選択してください。',
+      toursCity: 'この都市の現地ツアーや観光チケットを探せます。商品と利用日をTrip.comで選択してください。',
       flightHotel: '出発地・目的地・旅行日程と宿泊条件をTrip.comで選択してください。',
       carRental: '貸出・返却場所、日付、車種をTrip.comで選択してください。',
       airportPickup: '空港・目的地・到着時間・人数をTrip.comで選択してください。',

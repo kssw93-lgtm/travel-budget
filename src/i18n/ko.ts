@@ -376,6 +376,7 @@ export const ko = {
       hotel: '일반 숙소 검색 화면입니다. 도시·체크인·체크아웃·투숙 인원을 선택하세요.',
       hotelCity: '이 도시의 숙소 목록으로 이동합니다. 체크인·체크아웃과 투숙 인원은 Trip.com에서 선택하세요.',
       tours: '도시와 체험 날짜를 Trip.com 검색 화면에서 선택하세요.',
+      toursCity: '이 도시의 투어와 입장권을 살펴보세요. 상품과 이용 날짜는 Trip.com에서 선택하세요.',
       flightHotel: '출발지·목적지·여행 날짜와 숙박 일정을 Trip.com에서 선택하세요.',
       carRental: '대여·반납 장소와 날짜, 차량 조건을 Trip.com에서 선택하세요.',
       airportPickup: '공항·도착지·도착 시간과 인원을 Trip.com에서 선택하세요.',

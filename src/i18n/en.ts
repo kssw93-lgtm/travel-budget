@@ -377,6 +377,7 @@ export const en: Messages = {
       hotel: 'Opens a general stay search. Select the city, check-in and check-out dates, and guests.',
       hotelCity: 'Opens this city’s hotel list. Select your stay dates and guests on Trip.com.',
       tours: 'Select this destination and your activity date on Trip.com.',
+      toursCity: 'Browse tours and attraction tickets for this city. Choose a product and date on Trip.com.',
       flightHotel: 'Choose your origin, destination, dates and stay details on Trip.com.',
       carRental: 'Choose your pickup and return locations, dates and vehicle options on Trip.com.',
       airportPickup: 'Select the airport, destination, arrival time and passengers on Trip.com.',

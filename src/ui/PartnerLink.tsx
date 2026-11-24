@@ -4,7 +4,10 @@ import { ExternalLink } from './ExternalLink';
 
 export function PartnerLink({ kind, cityId }: { kind: PartnerLinkKind; cityId?: string }) {
   const { t, lang } = useI18n();
-  const hint = kind === 'hotel' && hasCitySpecificPartnerLink(kind, cityId) ? t.partners.hints.hotelCity : t.partners.hints[kind];
+  const hasCityTarget = hasCitySpecificPartnerLink(kind, cityId);
+  const hint = hasCityTarget
+    ? kind === 'hotel' ? t.partners.hints.hotelCity : t.partners.hints.toursCity
+    : t.partners.hints[kind];
   return (
     <aside className="partner-link" data-testid={`partner-${kind}`}>
       <ExternalLink href={tripPartnerLink(lang, kind, cityId)} className="partner-link-action" rel="sponsored">

@@ -608,7 +608,7 @@ export function CityGuidePage({ city, go }: { city: City; go: Go }) {
       <LocalPriceExamples guide={guide} />
       <div id="costs">
         <AttractionTable guide={guide} display={display} rates={rates} />
-        {guide.attractions.length > 0 && <PartnerLink kind="tours" />}
+        {guide.attractions.length > 0 && <PartnerLink kind="tours" cityId={city.id} />}
         <CityMemos city={city} memos={memos} />
       </div>
       <WhenToGo city={city} />

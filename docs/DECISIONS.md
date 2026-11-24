@@ -699,3 +699,8 @@
 - 호텔 링크는 이미 Trip.com 제휴 도구에서 생성된 4개 도시 링크만 해당 도시 숙소 목록으로 연결하고, 다른 도시는 제휴 추적 매개변수를 만들거나 수정하지 않은 기존 일반 검색 링크를 유지하면서 목적지 재선택을 안내한다.
 - Trip.com 공식 FAQ는 날짜 지정이 가능한 항공·숙소 딥링크가 아직 제공되지 않으며, 검색 박스 도구는 제휴 플랫폼이 발급한 코드를 사용하도록 안내한다. 따라서 기존 URL에 임의 매개변수를 덧붙이지 않는다. 다음 단계에서 검색 박스를 쓰려면 제휴 계정에서 생성된 코드를 그대로 반영한다.
 - 피렌체 숙소 동네를 두오모 역사 지구·SMN역·올트라르노로 세분하고, 공식 시내 지도에 표시된 명소를 권역별로 묶는 일정 팁을 추가했다. 근거: FeelFlorence 공식 [도보 안내](https://www.feelflorence.it/en/experiences-itineraries/walking-city), [SMN역 안내](https://www.feelflorence.it/it/punti-di-interesse/stazione-di-santa-maria-novella), [산토 스피리토 광장 안내](https://www.feelflorence.it/en/points-interest/piazza-santo-spirito), [시내 지도](https://www.feelflorence.it/sites/default/files/2025-08/FFF_Mappa_A2_Citta_ENG_agg2024-webres_0.pdf).
+
+## 2026-11-24: 도시별 숙소·체험 제휴 링크 확대
+- 제휴 플랫폼에서 직접 생성한 목적지 링크를 코타키나발루·피렌체·맨체스터·에든버러 가이드의 숙소 및 투어/티켓 영역에 연결하고, 울란바토르에는 숙소 링크를 연결했다. 링크 URL과 추적 매개변수는 생성 결과 그대로 유지한다.
+- 나머지 도시의 기존 제휴 링크는 그대로 두며, Trip.com에 목적지와 날짜가 넘어가는 것처럼 안내하지 않는다. 세 언어에서 도시별 목적지 안내를 제공하고 제휴 고지 및 `rel="sponsored"`를 유지한다.
+- 제휴 플랫폼의 범용 검색 위젯은 기본 날짜가 고정되어 현재 계산기 일정과 맞지 않아 추가하지 않았다. 가이드의 도시별 링크가 날짜·상품 조건을 Trip.com에서 직접 고르게 한다.

@@ -7,15 +7,15 @@ export const CITY_SEO_COPY: Record<string, Partial<Record<Lang, CitySeoCopy>>> =
   'kota-kinabalu': {
     ko: {
       title: '{city} 물가·여행 경비 | 식비·교통·관광지 가격',
-      description: '{city}의 식사·커피·대중교통·관광지 입장료 사례와 1일 현지 경비를 확인하세요. 공항에서 시내로 가는 길과 터미널 탑승 위치도도 볼 수 있습니다.',
+      description: '{city}의 식사·커피·대중교통·관광지 입장료 사례와 1일 현지 경비를 확인하세요. 공항 이동, 섬 투어 부두, 사바주 버스터미널별 목적지도 살펴볼 수 있습니다.',
     },
     en: {
       title: '{city} Travel Costs | Food, Transport & Attractions',
-      description: 'Check meal, coffee, local transport and attraction prices in {city}, estimate a daily budget, and open the airport terminal map for boarding information.',
+      description: 'Check meal, coffee, local transport and attraction prices in {city}, estimate a daily budget, and find airport access, island jetties and Sabah bus terminals by destination.',
     },
     ja: {
       title: '{city}の物価・旅行費用｜食事・交通・観光料金',
-      description: '{city}の食事・コーヒー・市内交通・観光施設の料金例と1日の現地予算を確認。空港から市内への移動案内とターミナル図も見られます。',
+      description: '{city}の食事・コーヒー・市内交通・観光施設の料金例と1日の現地予算を確認。空港アクセス、島行きの桟橋、サバ州内の行き先別バスターミナルも案内します。',
     },
   },
   florence: {

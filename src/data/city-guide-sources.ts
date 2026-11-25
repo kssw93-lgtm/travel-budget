@@ -1394,6 +1394,7 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'bali:t3': 'https://mail.bali-airport.com/en/public-transport/index',
   'kota-kinabalu:t3': 'https://jaguhbayu.com.my/BAS.MY-KotaKinabalu/routes',
   'kota-kinabalu:t4': 'https://japan.sabahtourism.com/2026/08/27/%E3%80%90%E3%82%B3%E3%82%BF%E3%82%AD%E3%83%8A%E3%83%90%E3%83%AB%E3%80%91%E5%B7%9E%E7%AB%8B%E5%8D%9A%E7%89%A9%E9%A4%A8%E3%81%8C%E4%BC%91%E9%A4%A8%E4%B8%AD-%E4%BB%A3%E3%82%8F%E3%82%8A%E3%81%AB/',
+  'kota-kinabalu:t5': 'https://sabahtourism.com/essential/getting-around/',
   'shanghai:t3': 'https://www.shanghaiairport.com/ensh/gdjt/index.html',
   'beijing:t3': 'https://english.beijing.gov.cn/specials/beijingservice/pek/trafficsix/',
   'qingdao:t3': 'https://www.qingdao.gov.cn/ywdt/zwyw/202609/t20260923_10737936.shtml',

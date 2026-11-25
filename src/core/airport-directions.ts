@@ -17,7 +17,7 @@ export interface AirportOrigin {
   officialPlannerUrl?: string;
 }
 
-export type AirportTransitMode = 'bus stop' | 'train station' | 'metro station' | 'public transport stop';
+export type AirportTransitMode = 'bus stop' | 'train station' | 'metro station' | 'light rail station' | 'public transport stop';
 
 /** Official, confirmed one-way airport fares that can be shown alongside the route guidance. */
 export function airportFareRows(cityId: string, extras: ExtraSample[]): ExtraSample[] {
@@ -83,8 +83,56 @@ const AIRPORT_ORIGINS: Record<string, AirportOrigin[]> = {
   }],
   kyoto: [{ label: 'Kansai International Airport', query: 'Kansai International Airport' }],
   london: [
-    { label: 'Heathrow Airport (LHR)', query: 'Heathrow Airport' },
-    { label: 'Gatwick Airport (LGW)', query: 'Gatwick Airport' },
+    {
+      label: 'Heathrow Airport (LHR)',
+      query: 'Heathrow Airport',
+      boardingQueries: [
+        { mode: 'train station', query: 'Heathrow Airport Elizabeth line Heathrow Express rail stations' },
+        { mode: 'metro station', query: 'Heathrow Airport Piccadilly line Underground stations' },
+      ],
+      officialPlannerUrl: 'https://www.heathrow.com/transport-and-directions/by-rail-or-train',
+    },
+    {
+      label: 'Gatwick Airport (LGW)',
+      query: 'Gatwick Airport',
+      boardingQueries: [
+        { mode: 'train station', query: 'Gatwick Airport railway station South Terminal' },
+        { mode: 'bus stop', query: 'Gatwick North Terminal free inter-terminal shuttle bus stop' },
+      ],
+      officialPlannerUrl: 'https://www.gatwickairport.com/transport-options/train.html',
+    },
+    {
+      label: 'Stansted Airport (STN)',
+      query: 'London Stansted Airport',
+      boardingQueries: [
+        { mode: 'train station', query: 'Stansted Airport Train Station below terminal' },
+      ],
+      officialPlannerUrl: 'https://www.stanstedairport.com/getting-to-and-from/stansted-airport-train-station/',
+    },
+    {
+      label: 'London Luton Airport (LTN)',
+      query: 'London Luton Airport',
+      boardingQueries: [
+        { mode: 'public transport stop', query: 'London Luton Airport Luton DART terminal station' },
+      ],
+      officialPlannerUrl: 'https://www.london-luton.co.uk/to-and-from-lla/trains/luton-dart',
+    },
+    {
+      label: 'London City Airport (LCY)',
+      query: 'London City Airport',
+      boardingQueries: [
+        { mode: 'light rail station', query: 'London City Airport DLR station terminal lift' },
+      ],
+      officialPlannerUrl: 'https://www.londoncityairport.com/en-IE/getting-to-and-from',
+    },
+    {
+      label: 'London Southend Airport (SEN)',
+      query: 'London Southend Airport',
+      boardingQueries: [
+        { mode: 'train station', query: 'Southend Airport railway station terminal' },
+      ],
+      officialPlannerUrl: 'https://londonsouthendairport.com/getting-to-and-from/trains/',
+    },
   ],
   lucerne: [{ label: 'Zurich Airport', query: 'Zurich Airport' }],
   milan: [

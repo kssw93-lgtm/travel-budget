@@ -252,7 +252,10 @@ details:not([open]) > summary .toggle-hint .when-open, details[open] > summary .
 .airport-map-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
 .airport-route-group { margin: 10px 0 14px; padding-top: 8px; border-top: 1px solid var(--line); }
 .airport-route-group h4 { margin: 0; font-size: .98rem; }
-.airport-map-group { display: contents; }
+.airport-map-groups { display: grid; gap: 10px; margin: 10px 0; }
+.airport-map-group { padding-top: 8px; border-top: 1px solid var(--line); }
+.airport-map-group h4 { margin: 0; font-size: .98rem; }
+.airport-map-group .airport-map-links { margin: 6px 0 0; }
 .airport-map-link { display: inline-flex; align-items: center; min-height: 42px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); font-weight: 650; text-decoration: none; }
 .airport-map-link:hover { border-color: var(--brand); background: color-mix(in srgb, var(--brand) 6%, var(--card)); }
 .safety-advisory { margin-top: 1.25rem; padding: 1rem; border: 1px solid var(--line); border-radius: 12px; background: color-mix(in srgb, var(--brand) 4%, var(--card)); }

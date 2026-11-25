@@ -157,30 +157,33 @@ function AirportAccess({ city }: { city: City }) {
       ))}
       <p className="hint">{t.cityGuide.airportDirectionsNote}</p>
       <h3>{t.cityGuide.airportBoardingTitle}</h3>
-      <div className="airport-map-links">
-        {origins.flatMap((origin) => airportBoardingQueries(origin, airportTip.ko).map(({ mode, query }) => (
-          <ExternalLink key={`${origin.query}-${mode}`} className="airport-map-link" href={airportBoardingMapUrl(query, lang)}>
-            {fmt(t.cityGuide.airportMapLink, { mode: t.cityGuide.airportModes[mode] })}
-          </ExternalLink>
-        )))}
+      <div className="airport-map-groups">
         {origins.map((origin) => (
-          <span className="airport-map-group" key={`official-${origin.query}`}>
-            {origin.officialRouteMapUrl && (
-              <ExternalLink className="airport-map-link" href={origin.officialRouteMapUrl}>
-                {t.cityGuide.airportLineMapLink}
-              </ExternalLink>
-            )}
-            {origin.officialBoardingMapUrl && (
-              <ExternalLink className="airport-map-link" href={origin.officialBoardingMapUrl}>
-                {t.cityGuide.airportTerminalMapLink}
-              </ExternalLink>
-            )}
-            {origin.officialPlannerUrl && (
-              <ExternalLink className="airport-map-link" href={airportPlannerUrl(origin.officialPlannerUrl, lang)}>
-                {t.cityGuide.airportRouteLink}
-              </ExternalLink>
-            )}
-          </span>
+          <div className="airport-map-group" key={`boarding-${origin.query}`}>
+            <h4>{origin.label}</h4>
+            <div className="airport-map-links">
+              {airportBoardingQueries(origin, airportTip.ko).map(({ mode, query }, index) => (
+                <ExternalLink key={`${origin.query}-${mode}-${index}`} className="airport-map-link" href={airportBoardingMapUrl(query, lang)}>
+                  {fmt(t.cityGuide.airportMapLink, { mode: t.cityGuide.airportModes[mode] })}
+                </ExternalLink>
+              ))}
+              {origin.officialRouteMapUrl && (
+                <ExternalLink className="airport-map-link" href={origin.officialRouteMapUrl}>
+                  {t.cityGuide.airportLineMapLink}
+                </ExternalLink>
+              )}
+              {origin.officialBoardingMapUrl && (
+                <ExternalLink className="airport-map-link" href={origin.officialBoardingMapUrl}>
+                  {t.cityGuide.airportTerminalMapLink}
+                </ExternalLink>
+              )}
+              {origin.officialPlannerUrl && (
+                <ExternalLink className="airport-map-link" href={airportPlannerUrl(origin.officialPlannerUrl, lang)}>
+                  {t.cityGuide.airportRouteLink}
+                </ExternalLink>
+              )}
+            </div>
+          </div>
         ))}
       </div>
       {fares.length > 0 && (

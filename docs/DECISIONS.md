@@ -704,3 +704,9 @@
 - 제휴 플랫폼에서 직접 생성한 목적지 링크를 코타키나발루·피렌체·맨체스터·에든버러 가이드의 숙소 및 투어/티켓 영역에 연결하고, 울란바토르에는 숙소 링크를 연결했다. 링크 URL과 추적 매개변수는 생성 결과 그대로 유지한다.
 - 나머지 도시의 기존 제휴 링크는 그대로 두며, Trip.com에 목적지와 날짜가 넘어가는 것처럼 안내하지 않는다. 세 언어에서 도시별 목적지 안내를 제공하고 제휴 고지 및 `rel="sponsored"`를 유지한다.
 - 제휴 플랫폼의 범용 검색 위젯은 기본 날짜가 고정되어 현재 계산기 일정과 맞지 않아 추가하지 않았다. 가이드의 도시별 링크가 날짜·상품 조건을 Trip.com에서 직접 고르게 한다.
+
+## 2026-11-24: 영어권 방문자를 위한 런던 가이드 보강
+- 새 언어를 추가하기 전에 영어 페이지의 검색 의도와 실제 여행 계획 정보를 우선 보강한다. 런던 영어 메타 제목·설명을 현지 식비·교통·관광 비용, 일일 예산, 공항 이동 검색에 맞췄고, Edinburgh 설명의 어색한 `an {city}` 문법을 고쳤다.
+- 런던의 TfL 결제 팁을 같은 카드·기기로 요금 상한을 적용받는 방법과 철도/버스·트램의 태그 규칙으로 구체화했다. 대영박물관 팁은 해당 시설의 무료 상설 전시 및 유료 특별 전시 정보로 좁혔다.
+- 히스로·개트윅·스탠스테드·루턴·런던 시티·사우스엔드 공항의 공식 대중교통 승차 지점을 안내하고, 공항에서 숙소 동네까지 지도 경로를 각 공항별로 분리했다. 대중교통 지도에서 공항명이 그룹마다 보이도록 화면과 정적 페이지 출력을 함께 수정했다.
+- 세 언어의 공항 지도·운영사 안내 버튼에 잘못 고정되어 있던 `Föli` 문구를 일반적인 공식 교통 노선도·운행 안내 문구로 교체했다. 사실 확인 근거: [TfL fare capping](https://tfl.gov.uk/how-to-pay/pay-as-you-go/fare-capping), [British Museum visit](https://www.britishmuseum.org/visit), [Heathrow rail](https://www.heathrow.com/transport-and-directions/by-rail-or-train), [Gatwick train](https://www.gatwickairport.com/transport-options/train.html), [Stansted station](https://www.stanstedairport.com/getting-to-and-from/stansted-airport-train-station/), [Luton DART](https://www.london-luton.co.uk/to-and-from-lla/trains/luton-dart), [London City Airport](https://www.londoncityairport.com/en-IE/getting-to-and-from), [Southend trains](https://londonsouthendairport.com/getting-to-and-from/trains/).

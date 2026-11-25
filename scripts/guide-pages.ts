@@ -138,21 +138,27 @@ export function guidePageMeta(city: City, d: GuideData, lang: Lang = 'ko'): Page
     ? `<h3>${e(t.airportFareTitle)}</h3><p>${e(t.airportFareLead)}</p><table><thead><tr><th>${e(t.airportFareRoute)}</th><th>${e(t.airportFarePrice)}</th><th>${e(t.airportFareUnit)}</th><th>${e(t.airportFareSource)}</th></tr></thead><tbody>${airportFares}</tbody></table>`
     : '';
   const boardingMaps = airportOrigins(city, airportTip?.en)
-    .map((origin) => [
-      ...airportBoardingQueries(origin, airportTip?.ko ?? '').map(({ mode, query }) =>
-        `<a class="airport-map-link" href="${e(airportBoardingMapUrl(query, lang))}" target="_blank" rel="noopener noreferrer">${e(fill(t.airportMapLink, { mode: t.airportModes[mode] }))}</a>`),
-      origin.officialRouteMapUrl
-        ? `<a class="airport-map-link" href="${e(origin.officialRouteMapUrl)}" target="_blank" rel="noopener noreferrer">${e(t.airportLineMapLink)}</a>`
-        : '',
-      origin.officialPlannerUrl
-        ? `<a class="airport-map-link" href="${e(airportPlannerUrl(origin.officialPlannerUrl, lang))}" target="_blank" rel="noopener noreferrer">${e(t.airportRouteLink)}</a>`
-        : '',
-    ].filter(Boolean).join(''))
+    .map((origin) => {
+      const links = [
+        ...airportBoardingQueries(origin, airportTip?.ko ?? '').map(({ mode, query }) =>
+          `<a class="airport-map-link" href="${e(airportBoardingMapUrl(query, lang))}" target="_blank" rel="noopener noreferrer">${e(fill(t.airportMapLink, { mode: t.airportModes[mode] }))}</a>`),
+        origin.officialRouteMapUrl
+          ? `<a class="airport-map-link" href="${e(origin.officialRouteMapUrl)}" target="_blank" rel="noopener noreferrer">${e(t.airportLineMapLink)}</a>`
+          : '',
+        origin.officialBoardingMapUrl
+          ? `<a class="airport-map-link" href="${e(origin.officialBoardingMapUrl)}" target="_blank" rel="noopener noreferrer">${e(t.airportTerminalMapLink)}</a>`
+          : '',
+        origin.officialPlannerUrl
+          ? `<a class="airport-map-link" href="${e(airportPlannerUrl(origin.officialPlannerUrl, lang))}" target="_blank" rel="noopener noreferrer">${e(t.airportRouteLink)}</a>`
+          : '',
+      ].filter(Boolean).join('');
+      return `<div class="airport-map-group"><h4>${e(origin.label)}</h4><div class="airport-map-links">${links}</div></div>`;
+    })
     .join('');
   const airportDirections = airportIndex >= 0
     ? `<h3>${e(t.airportDirectionsTitle)}</h3><div class="airport-map-links">${airportOrigins(city, airportTip?.en)
         .map((origin) => `<a class="airport-map-link" href="${e(airportDirectionsUrl(origin.query, airportArea, lang))}" target="_blank" rel="noopener noreferrer">${e(fill(t.airportDirectionsLink, { airport: origin.label, area: airportAreaLabel }))}</a>`)
-        .join('')}</div><p>${e(t.airportDirectionsNote)}</p><h3>${e(t.airportBoardingTitle)}</h3><div class="airport-map-links">${boardingMaps}</div>${airportFareTable}`
+        .join('')}</div><p>${e(t.airportDirectionsNote)}</p><h3>${e(t.airportBoardingTitle)}</h3><div class="airport-map-groups">${boardingMaps}</div>${airportFareTable}`
     : '';
   const airportAccess = airportIndex >= 0
     ? `        <h2>${e(t.airportAccessTitle)}</h2><p>${e(note!.tips[airportIndex]![lang])}</p>${airportDirections}<p>${e(t.airportAccessHint)}</p>`

@@ -547,7 +547,7 @@ test.describe('도시 가이드', () => {
     await page.goto('/guide/london?lang=ko');
     await page.getByRole('button', { name: 'English' }).click();
     await expect(page.locator('main h1')).toHaveText('London travel cost guide');
-    await expect(page).toHaveTitle(/^London travel costs & prices \| food, transit and attraction tickets/);
+    await expect(page).toHaveTitle(/^London Travel Budget & Costs \| Food, Transport, Attractions —/);
     await expect(page).toHaveURL(/\/guide\/london\?lang=en$/);
   });
 

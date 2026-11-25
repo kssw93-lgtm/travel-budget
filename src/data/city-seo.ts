@@ -53,11 +53,17 @@ export const CITY_SEO_COPY: Record<string, Partial<Record<Lang, CitySeoCopy>>> =
     },
     en: {
       title: '{city} Travel Costs | Festival Seasons & Attractions',
-      description: 'Plan an {city} trip with local meal, transit and attraction prices, a daily budget estimate, and seasonal festival guidance.',
+      description: 'Plan your {city} trip with local meal, transit and attraction prices, a daily budget estimate, and seasonal festival guidance.',
     },
     ja: {
       title: '{city}旅行の費用・物価｜祭りの時期と観光料金',
       description: '{city}の食事・交通・観光施設の料金例と1日の現地予算を確認。祭りの時期や季節情報を見ながら旅行を計画できます。',
+    },
+  },
+  london: {
+    en: {
+      title: 'London Travel Budget & Costs | Food, Transport, Attractions',
+      description: 'Estimate London food, local transport and attraction costs for your dates. Check local price examples, airport routes to popular stay areas, and add flights or lodging separately.',
     },
   },
   ulaanbaatar: {

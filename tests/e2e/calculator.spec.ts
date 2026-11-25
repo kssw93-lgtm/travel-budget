@@ -214,10 +214,18 @@ test.describe('계산기 핵심 흐름', () => {
     await page.selectOption('#currency', 'KRW');
     await expect(page.getByTestId('direct')).toHaveCount(0);
     await page.locator('details.optional summary').click();
+    await expect(page.locator('#flight + .hint')).toContainText('일행 전체');
+    await expect(page.locator('#lodging + .hint')).toContainText('전체 숙박');
+    await expect(page.locator('#children + .hint')).toHaveCount(0);
+    await page.fill('#children', '1');
+    await expect(page.locator('#children + .hint')).toContainText('어린이 나이는 입력하지 않습니다');
+    await page.fill('#children', '0');
     await page.fill('#flight', '500000');
     await page.fill('#lodging', '300,000');
     await page.selectOption('#directCurrency', 'KRW');
     await expect(page.getByTestId('direct')).toContainText('₩800,000');
+    await expect(page.getByTestId('direct')).toContainText('항공권 입력액');
+    await expect(page.getByTestId('direct')).toContainText('숙박 입력액');
     await expect(page.getByTestId('direct')).toContainText('체류비 + 직접 입력 합계');
   });
 
@@ -549,6 +557,9 @@ test.describe('도시 가이드', () => {
     await expect(page.locator('main h1')).toHaveText('London travel cost guide');
     await expect(page).toHaveTitle(/^London Travel Budget & Costs \| Food, Transport, Attractions —/);
     await expect(page).toHaveURL(/\/guide\/london\?lang=en$/);
+    await page.goto('/guide/manchester?lang=en');
+    await expect(page).toHaveTitle(/^Manchester Travel Budget & Costs \| Attractions & Itinerary —/);
+    await expect(page.locator('main')).toContainText('closed on home matchdays');
   });
 
   test('공항별로 모든 추천 숙소 동네의 대중교통 경로를 제공한다', async ({ page }) => {

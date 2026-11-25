@@ -38,8 +38,8 @@ export const CITY_SEO_COPY: Record<string, Partial<Record<Lang, CitySeoCopy>>> =
       description: '{city} 식비·교통비·관광지 가격 사례와 여행 경비를 확인하세요. 축구 경기장과 박물관 등 가볼 곳을 일정에 맞춰 살펴볼 수 있습니다.',
     },
     en: {
-      title: '{city} Travel Costs | Attractions & Daily Budget',
-      description: 'Explore meal, transit and attraction prices in {city}, see places to visit, and estimate your daily travel budget.',
+      title: '{city} Travel Budget & Costs | Attractions & Itinerary',
+      description: 'Plan a {city} trip with local meal and transport prices, museum and football attractions, airport routes, and 24–72-hour itinerary ideas. Estimate local spending for your dates and group.',
     },
     ja: {
       title: '{city}の物価・旅行費用｜観光スポットと予算',

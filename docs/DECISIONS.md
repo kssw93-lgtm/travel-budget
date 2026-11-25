@@ -710,3 +710,10 @@
 - 런던의 TfL 결제 팁을 같은 카드·기기로 요금 상한을 적용받는 방법과 철도/버스·트램의 태그 규칙으로 구체화했다. 대영박물관 팁은 해당 시설의 무료 상설 전시 및 유료 특별 전시 정보로 좁혔다.
 - 히스로·개트윅·스탠스테드·루턴·런던 시티·사우스엔드 공항의 공식 대중교통 승차 지점을 안내하고, 공항에서 숙소 동네까지 지도 경로를 각 공항별로 분리했다. 대중교통 지도에서 공항명이 그룹마다 보이도록 화면과 정적 페이지 출력을 함께 수정했다.
 - 세 언어의 공항 지도·운영사 안내 버튼에 잘못 고정되어 있던 `Föli` 문구를 일반적인 공식 교통 노선도·운행 안내 문구로 교체했다. 사실 확인 근거: [TfL fare capping](https://tfl.gov.uk/how-to-pay/pay-as-you-go/fare-capping), [British Museum visit](https://www.britishmuseum.org/visit), [Heathrow rail](https://www.heathrow.com/transport-and-directions/by-rail-or-train), [Gatwick train](https://www.gatwickairport.com/transport-options/train.html), [Stansted station](https://www.stanstedairport.com/getting-to-and-from/stansted-airport-train-station/), [Luton DART](https://www.london-luton.co.uk/to-and-from-lla/trains/luton-dart), [London City Airport](https://www.londoncityairport.com/en-IE/getting-to-and-from), [Southend trains](https://londonsouthendairport.com/getting-to-and-from/trains/).
+
+## 2026-11-25: 맨체스터 가이드와 계산기 입력 정보 보강
+- 맨유 공식 방문 안내는 올드 트래퍼드 투어·박물관이 홈 경기일에 닫히며 경기 일정 변경이 투어에 영향을 줄 수 있다고 알린다. 일정·이용 가능 날짜를 사전에 확인하는 세 언어 팁을 추가했다. [Manchester United Tour & Museum](https://www.manutd.com/en/club/visit-old-trafford/museum-stadium-tours)
+- Visit Manchester는 24·48·72시간 일정을 제공하고, 도심은 도보로 둘러볼 수 있으며 노던 쿼터와 살퍼드 키즈의 명소를 소개한다. 이를 체류 기간과 권역별 동선 팁으로 정리했다. [Manchester itineraries](https://www.visitmanchester.com/ideas-and-inspiration/itineraries/)
+- 계산기의 항공권·숙박 직접 입력에 전체 일행/전체 숙박 합계 기준을 세 언어로 명시하고, 결과에서도 두 금액을 각각 보여 주도록 했다.
+- 직접 입력 항공권·숙박은 현재 같은 입력 통화 한 가지를 사용하므로, 통화가 다르면 입력 전에 같은 통화로 맞추도록 안내한다.
+- 어린이 나이를 수집하지 않는 점과 아동 요금의 연령 기준은 상품별로 공식 출처에서 확인해야 하는 점을 안내한다. 아동 요금 자료가 없는 선택 항목은 성인 요금으로 계산된다는 내용도 세 언어에 표시한다.

@@ -1100,6 +1100,8 @@ export const GUIDE_SOURCES: Record<string, string> = {
   'manchester:h6': 'https://nationalfootballmuseum.com/visit-us/',
   'manchester:t1': 'https://www.manchesterairport.co.uk/getting-to-and-from/by-train/; https://www.manchesterairport.co.uk/getting-to-and-from/by-bus/',
   'manchester:t2': 'https://nationalfootballmuseum.com/visit-us/',
+  'manchester:t3': 'https://www.manutd.com/en/club/visit-old-trafford/museum-stadium-tours',
+  'manchester:t4': 'https://www.visitmanchester.com/ideas-and-inspiration/itineraries/',
   'christchurch:h1': 'https://www.iceberg.co.nz/tickets/',
   'christchurch:h2': 'https://www.christchurchattractions.nz/christchurch-tram/',
   'christchurch:h3': 'https://www.christchurchnz.com/visit/things-to-do/get-inspired/free-things-to-do-in-christchurch',

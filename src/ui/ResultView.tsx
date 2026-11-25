@@ -90,6 +90,12 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
     const r = convertRange({ min: entered, max: entered }, direct.currency, display, ratesData);
     directConverted = r ? r.min : null;
   }
+  const directAmount = (amount: number): { range: Range; currency: string } => {
+    const raw = { min: amount, max: amount };
+    if (direct.currency === display) return { range: raw, currency: display };
+    const converted = convertRange(raw, direct.currency, display, ratesData);
+    return converted ? { range: converted, currency: display } : { range: raw, currency: direct.currency };
+  };
 
   const holdList = e.missing.map((c) => `${catName(c)} (${fmt(t.result.needMore, { have: e.categories[c].independentCount, need: minSamplesForCategory(c) })})`).join(', ');
   const fillPct = Math.round(e.fillRate * 100);
@@ -133,30 +139,43 @@ export function ResultView({ estimate: e, trip, city, display, rates, samples, d
       {entered > 0 && (
         <div className="direct" data-testid="direct">
           <h3>{t.result.directTitle}</h3>
-          {directConverted === null ? (
-            <p className="notice warn">{t.result.directNoRate}</p>
-          ) : (
-            <dl className="amounts">
+          {directConverted === null && <p className="notice warn">{t.result.directNoRate}</p>}
+          <dl className="amounts">
+            {direct.flight > 0 && (
               <div>
-                <dt>{t.result.directSum} ({display})</dt>
-                <dd><RangeText range={{ min: directConverted, max: directConverted }} currency={display} /></dd>
+                <dt>{t.result.directFlight}</dt>
+                <dd><RangeText {...directAmount(direct.flight)} /></dd>
               </div>
-              {e.computable && stayTotal && (
+            )}
+            {direct.lodging > 0 && (
+              <div>
+                <dt>{t.result.directLodging}</dt>
+                <dd><RangeText {...directAmount(direct.lodging)} /></dd>
+              </div>
+            )}
+            {directConverted !== null && (
+              <>
                 <div>
-                  <dt>{t.result.grand} ({display})</dt>
-                  <dd>
-                    <RangeText
-                      range={(() => {
-                        const stay = stayTotal && convertRange(stayTotal, e.currency, display, ratesData);
-                        return stay ? sumRange(stay, { min: directConverted, max: directConverted }) : null;
-                      })()}
-                      currency={display}
-                    />
-                  </dd>
+                  <dt>{t.result.directSum} ({display})</dt>
+                  <dd><RangeText range={{ min: directConverted, max: directConverted }} currency={display} /></dd>
                 </div>
-              )}
-            </dl>
-          )}
+                {e.computable && stayTotal && (
+                  <div>
+                    <dt>{t.result.grand} ({display})</dt>
+                    <dd>
+                      <RangeText
+                        range={(() => {
+                          const stay = stayTotal && convertRange(stayTotal, e.currency, display, ratesData);
+                          return stay ? sumRange(stay, { min: directConverted, max: directConverted }) : null;
+                        })()}
+                        currency={display}
+                      />
+                    </dd>
+                  </div>
+                )}
+              </>
+            )}
+          </dl>
         </div>
       )}
 

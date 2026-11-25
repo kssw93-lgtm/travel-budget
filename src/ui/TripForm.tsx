@@ -164,6 +164,7 @@ export function TripForm({ form, onChange, errors, cities, upcoming = [], rates 
           <label htmlFor="children">{t.form.children}</label>
           <input id="children" type="number" inputMode="numeric" min={0} max={L.childrenMax} value={form.children} onChange={(e) => onChange({ children: e.target.value })} {...field('children')} />
           {err('children')}
+          {Number(form.children) > 0 && <p className="hint">{t.form.childAgeHint}</p>}
         </div>
       </div>
 
@@ -215,12 +216,14 @@ export function TripForm({ form, onChange, errors, cities, upcoming = [], rates 
             <label htmlFor="flight">{t.form.flight}</label>
             <input id="flight" type="text" inputMode="decimal" value={form.flight} onChange={(e) => onChange({ flight: e.target.value })} {...field('flight')} />
             {err('flight')}
+            <p className="hint">{t.form.flightHint}</p>
             <PartnerLink kind="flight" />
           </div>
           <div className="field span-3">
             <label htmlFor="lodging">{t.form.lodging}</label>
             <input id="lodging" type="text" inputMode="decimal" value={form.lodging} onChange={(e) => onChange({ lodging: e.target.value })} {...field('lodging')} />
             {err('lodging')}
+            <p className="hint">{t.form.lodgingHint}</p>
             <PartnerLink kind="hotel" cityId={form.cityId} />
           </div>
           <div className="field wide">
